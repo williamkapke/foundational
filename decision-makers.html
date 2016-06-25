@@ -56,11 +56,12 @@
     }
     #sticky strong.core {
       left: 430px;
-      width: 470px;
+      width: 430px;
     }
     #sticky strong.fake {
-      left: 928px;
+      left: 888px;
       width: 170px;
+      border-radius: 4px;
     }
     #sticky strong dfn {
       display: none;
@@ -79,7 +80,7 @@
     #groups_header {
       margin: 190px 0 -20px 180px;
       border-spacing: 7px 0;
-      width: 868px;
+      width: 835px;
     }
     #groups td {
       width: 24px;
@@ -156,6 +157,14 @@
     #people .total {
       text-align: center;
     }
+    .empty {
+      background-color: #eee;
+      border-radius: 4px;
+      opacity: .2;
+      box-sizing: content-box;
+      border: solid 1px #666;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
@@ -199,6 +208,7 @@
   var $people = $('#people');
   var all_groups = [];
   var all_people = {};
+  var empty = [];
 
   $.get('./data/decision-makers.json')
   .then(function (data) {
@@ -207,11 +217,13 @@
     types.forEach(function (type) {
       var groups = Object.keys(data[type]);
       groups.forEach(function (group) {
+        if(group==='i18n') return;//i18n is a bunch of groups. Not currently tracked.
         all_groups.push(group)
         var info = data[type][group];
         var link = info.repo? '<a href="https://github.com/nodejs/'+info.repo+'" target="_blank">'+group+'</a>' : group;
         $groups.append($('<td><div>'+link+'</div></td>').addClass(type.toLowerCase()))
 
+        if(!info.members.length) empty.push(group);
         info.members.forEach(function(person){
           if(!all_people[person]) all_people[person] = {};
           all_people[person][group] = true;
@@ -231,7 +243,9 @@
 
       all_groups.forEach(function (group) {
         var member = info[group];
-        $tr.append($('<td></td>').toggleClass('member', !!member))
+        if (empty.indexOf(group) !== -1)
+          $tr.append('<td class="empty">?</td>');
+        else $tr.append($('<td></td>').toggleClass('member', !!member))
       })
       $tr.append('<td class="total">= '+count+'</td>')
       $people.append($tr);
