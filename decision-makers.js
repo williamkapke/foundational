@@ -2,7 +2,7 @@
 
 require('extensions')
 var GET = require('get-then')
-var wgs = require('./data/working-groups.json')
+var wgs = require('./data/decision-makers.json')
 
 var readmeParsers = {
   'Technical Steering Committee': (readme) => /### Current Members[^#]+##/i.exec(readme)[0],
