@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Node.js Technical Decision Makers</title>
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+      padding: 0;
+    }
+    #sticky {
+      background-color: #fff;
+      position: fixed;
+      top: 0;
+      border-bottom: 20px solid #454545;
+      width: 100%
+    }
+    #sticky h1 {
+      margin: 6px 10px;
+      position: absolute;
+      width: 80px;
+      top: 20px;
+    }
+    #credits img {
+      height: 14px;
+      margin-right: 6px;
+      background-color: #ccc;
+      border-radius: 3px;
+      padding: 1px;
+      vertical-align: middle;
+    }
+    #credits a {
+      color: #fff;
+      vertical-align: text-bottom;
+    }
+    #credits {
+      text-align: right;
+      padding: 0 10px;
+      position: absolute;
+      top: 0;
+      height: 20px;
+      width: 100%;
+      box-sizing: border-box;
+      background-color: #454545;
+      color: #fff;
+      font: 14px Verdana;
+    }
+    #sticky strong {
+      position: absolute;
+      top: 20px;
+      text-align: center;
+      color: #fff;
+      padding: 3px 0;
+      cursor: pointer;
+    }
+    #sticky strong.core {
+      left: 430px;
+      width: 470px;
+    }
+    #sticky strong.fake {
+      left: 928px;
+      width: 170px;
+    }
+    #sticky strong dfn {
+      display: none;
+    }
+    #sticky strong:hover dfn {
+      display: block;
+      width: 300px;
+      position: absolute;
+      border-radius: 4px;
+      color: #eee;
+      background-color: #555;
+      font-weight: normal;
+      font-size: 12px;
+      padding: 6px;
+    }
+    #groups_header {
+      margin: 190px 0 -20px 180px;
+      border-spacing: 7px 0;
+      width: 868px;
+    }
+    #groups td {
+      width: 24px;
+      height: 18px;
+      vertical-align: bottom;
+      position: relative;
+    }
+    #groups td div {
+      position: absolute;
+      transform: rotate(-50deg);
+      transform-origin: top left;
+      bottom: -4px;
+      left: 0px;
+      background-color: inherit;
+      width: 300px;
+      padding: 3px 0 3px 12px;
+      color: #fefefe;
+    }
+    .committee {
+      background-color: #d10000;
+    }
+    .top-level {
+      background-color: #0000ce;
+    }
+    .core {
+      background-color: forestgreen;
+    }
+    .fake {
+      background-color: darkslategrey;
+    }
+    #people {
+      margin-top: 206px;
+      border-spacing: 7px 4px;
+      width: 1019px;
+    }
+    #people tr {
+      border-bottom: dashed 1px #ddd;
+      display: block;
+    }
+    #people th {
+      width: 160px;
+      padding: 3px;
+      font-weight: normal;
+      text-align: right;
+    }
+    #people td {
+      /*border: solid #ddd;*/
+      /*border-width: 0 1px 1px 0;*/
+      width: 24px;
+    }
+    .member {
+      border-radius: 4px;
+    }
+    ._1 .member { background-color: #eee; }
+    ._2 .member { background-color: #ccc; }
+    ._3 .member { background-color: gold; opacity: .5; }
+    ._4 .member { background-color: gold; opacity: .7; }
+    ._5 .member { background-color: gold; opacity: .9; }
+    ._6 .member { background-color: orangered; opacity: .6; }
+    ._7 .member { background-color: orangered; opacity: .9; }
+    ._8 .member { background-color: red; }
+    #groups .total {
+      width: 60px;
+      color: gold;
+    }
+    #people .total {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<table id="people">
+</table>
+
+<header id="sticky">
+  <table id="groups_header">
+    <thead>
+    <tr id="groups"></tr>
+    </thead>
+  </table>
+  <h1>Node.js Technical Decision Makers</h1>
+  <strong class="core">
+    Core Working Groups
+    <dfn>
+      These groups are officially chartered under and report to the Core Technical Committee.
+    </dfn>
+  </strong>
+  <strong class="fake">
+    Fake Working Groups
+    <dfn>
+      The Node.js GitHub Organization has repositories for these
+      groups, but they are not chartered nor are they actively making
+      an attempt at creating a charter as required by the governing
+      documents. Despite this, their READMEs make the claim and
+      several of them conduct meetings.
+    </dfn>
+  </strong>
+  <div id="credits">
+    <a href="https://github.com/williamkapke/node-compat-table" target="_blank" style="margin-right: 10px;"><img alt="github" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjQwcHgiIGhlaWdodD0iNDBweCIgdmlld0JveD0iMTIgMTIgNDAgNDAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMTIgMTIgNDAgNDAiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGZpbGw9IiMzMzMzMzMiIGQ9Ik0zMiAxMy40Yy0xMC41IDAtMTkgOC41LTE5IDE5YzAgOC40IDUuNSAxNS41IDEzIDE4YzEgMC4yIDEuMy0wLjQgMS4zLTAuOWMwLTAuNSAwLTEuNyAwLTMuMiBjLTUuMyAxLjEtNi40LTIuNi02LjQtMi42QzIwIDQxLjYgMTguOCA0MSAxOC44IDQxYy0xLjctMS4yIDAuMS0xLjEgMC4xLTEuMWMxLjkgMC4xIDIuOSAyIDIuOSAyYzEuNyAyLjkgNC41IDIuMSA1LjUgMS42IGMwLjItMS4yIDAuNy0yLjEgMS4yLTIuNmMtNC4yLTAuNS04LjctMi4xLTguNy05LjRjMC0yLjEgMC43LTMuNyAyLTUuMWMtMC4yLTAuNS0wLjgtMi40IDAuMi01YzAgMCAxLjYtMC41IDUuMiAyIGMxLjUtMC40IDMuMS0wLjcgNC44LTAuN2MxLjYgMCAzLjMgMC4yIDQuNyAwLjdjMy42LTIuNCA1LjItMiA1LjItMmMxIDIuNiAwLjQgNC42IDAuMiA1YzEuMiAxLjMgMiAzIDIgNS4xYzAgNy4zLTQuNSA4LjktOC43IDkuNCBjMC43IDAuNiAxLjMgMS43IDEuMyAzLjVjMCAyLjYgMCA0LjYgMCA1LjJjMCAwLjUgMC40IDEuMSAxLjMgMC45YzcuNS0yLjYgMTMtOS43IDEzLTE4LjFDNTEgMjEuOSA0Mi41IDEzLjQgMzIgMTMuNHoiLz48L3N2Zz4=">Learn more</a>
+    Created by&nbsp;<a href="https://github.com/williamkapke" target="_blank">William Kapke</a>
+  </div>
+</header>
+
+<br>
+<br>
+<footer>
+  * Internationalization (i18n) groups are not included at this time.
+</footer>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+  var $groups = $('#groups');
+  var $people = $('#people');
+  var all_groups = [];
+  var all_people = {};
+
+  $.get('./data/decision-makers.json')
+  .then(function (data) {
+    var types = Object.keys(data);
+
+    types.forEach(function (type) {
+      var groups = Object.keys(data[type]);
+      groups.forEach(function (group) {
+        all_groups.push(group)
+        $groups.append($('<td><div>'+group+'</div></td>').addClass(type.toLowerCase()))
+
+        data[type][group].members.forEach(function(person){
+          if(!all_people[person]) all_people[person] = {};
+          all_people[person][group] = true;
+        })
+      });
+    })
+    $groups.append('<td class="total">total</td>')
+
+    Object.keys(all_people)
+    .sort()
+    .forEach(function(person){
+      var info = all_people[person];
+      var count = Object.keys(info).length;
+
+      var $tr = $('<tr class="_'+count+'"></tr>');
+      $tr.append($('<th></th>').text(person))
+
+      all_groups.forEach(function (group) {
+        var member = info[group];
+        $tr.append($('<td></td>').toggleClass('member', !!member))
+      })
+      $tr.append('<td class="total">= '+count+'</td>')
+      $people.append($tr);
+    });
+  })
+</script>
+</body>
+</html>
