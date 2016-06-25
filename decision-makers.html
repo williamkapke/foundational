@@ -87,6 +87,14 @@
       vertical-align: bottom;
       position: relative;
     }
+    #groups a {
+      color: #fff;
+      text-decoration: none;
+    }
+    #groups a:hover {
+      color: #aaa;
+      text-decoration: underline;
+    }
     #groups td div {
       position: absolute;
       transform: rotate(-50deg);
@@ -204,9 +212,11 @@
       var groups = Object.keys(data[type]);
       groups.forEach(function (group) {
         all_groups.push(group)
-        $groups.append($('<td><div>'+group+'</div></td>').addClass(type.toLowerCase()))
+        var info = data[type][group];
+        var link = info.repo? '<a href="https://github.com/nodejs/'+info.repo+'" target="_blank">'+group+'</a>' : group;
+        $groups.append($('<td><div>'+link+'</div></td>').addClass(type.toLowerCase()))
 
-        data[type][group].members.forEach(function(person){
+        info.members.forEach(function(person){
           if(!all_people[person]) all_people[person] = {};
           all_people[person][group] = true;
         })
