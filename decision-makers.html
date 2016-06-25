@@ -64,12 +64,20 @@
       border-radius: 4px;
     }
     #sticky strong dfn {
-      display: none;
+      position: absolute;
+      top: -1000px;
+      left: 0;
+      opacity: 0;
     }
     #sticky strong:hover dfn {
-      display: block;
+      top: 100%;
+      opacity: 1;
+      -webkit-transition: opacity .5s;
+      -moz-transition: opacity .5s;
+      -ms-transition: opacity .5s;
+      -o-transition: opacity .5s;
+      transition: opacity .5s;
       width: 300px;
-      position: absolute;
       border-radius: 4px;
       color: #eee;
       background-color: #555;
@@ -245,7 +253,7 @@
       all_groups.forEach(function (group) {
         var member = info[group];
         if (empty.indexOf(group) !== -1)
-          $tr.append('<td class="empty">?</td>');
+          $tr.append('<td class="empty" title="Membership not published">?</td>');
         else $tr.append($('<td></td>').toggleClass('member', !!member))
       })
       $tr.append('<td class="total">= '+count+'</td>')
