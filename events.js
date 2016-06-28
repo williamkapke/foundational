@@ -59,8 +59,8 @@ github.get.pages('/orgs/nodejs/events?per_page=100', (results, next) => {
     }
     var date = e.created_at.substr(0, 10)
     if (!events[date]) events[date] = []
-    var payload = px[e.type] ? px[e.type].copy(e.payload).$json : ''
-    events[date].push(`${e.created_at}	${e.id}	${e.actor.id}	${e.repo.name}	${e.type}	${payload}`)
+    var payload = px[e.type] ? px[e.type].copy(e.payload).$json.replace(/"/g, '""') : ''
+    events[date].push(`${e.created_at}	${e.id}	${e.actor.id}	${e.repo.name}	${e.type}	"${payload}"`)
 
     updateUser(e.actor)
     if (processors[e.type]) processors[e.type](e)
