@@ -73,14 +73,13 @@ github.get.pages('/orgs/nodejs/events?per_page=100', (results, next) => {
   console.log('Writing Data...')
   Object.keys(events).forEach(date => {
     console.log(`  ${date}.tsv`)
-    fs.writeFileSync(`./data/events/${date}.tsv`, events[date].reverse().join('\n'))
-    // fs.appendFileSync(`./data/events/${date}.tsv`, events[date].reverse().join('\n'))
+    fs.appendFileSync(`./data/events/${date}.tsv`, events[date].reverse().join('\n'))
   })
 
-  // console.log('  summary.json')
-  // summary.last_event = { created_at: first.created_at, id: first.id }
-  // fs.writeFileSync('./data/summary.json', summary.$json2)
-  //
+  console.log('  summary.json')
+  summary.last_event = { created_at: first.created_at, id: first.id }
+  fs.writeFileSync('./data/summary.json', summary.$json2)
+
   save('./data/users.json', users)
 
   Object.keys(issues).forEach(repo => {

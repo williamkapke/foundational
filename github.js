@@ -32,11 +32,8 @@ function get (path) {
   })
 }
 
-var events = require('./events.json')
-var count = 0
 function getPage (path, cb, out) {
-  return Promise.resolve(events.slice((count++) * 100, count * 100)) // get(path)
-  .then(x => count < 3 ? x.$set('next', 'ok') : x)
+  return get(path)
   .then(res => new Promise((resolve, reject) => {
     const next = (more) => {
       if (more === false || !res.next) return resolve(out)
