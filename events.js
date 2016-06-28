@@ -62,8 +62,10 @@ github.get.pages('/orgs/nodejs/events?per_page=100', (results, next) => {
     var payload = px[e.type] ? px[e.type].copy(e.payload).$json.replace(/"/g, '""') : ''
     events[date].push(`${e.created_at}	${e.id}	${e.actor.id}	${e.repo.name}	${e.type}	"${payload}"`)
 
-    updateUser(e.actor)
-    if (processors[e.type]) processors[e.type](e)
+    if (processors[e.type]) {
+      updateUser(e.actor)
+      processors[e.type](e)
+    }
   }
 
   if (!more) console.log('All caught up!')
@@ -73,7 +75,7 @@ github.get.pages('/orgs/nodejs/events?per_page=100', (results, next) => {
   console.log('Writing Data...')
   Object.keys(events).forEach(date => {
     console.log(`  ${date}.tsv`)
-    fs.appendFileSync(`./data/events/${date}.tsv`, events[date].reverse().join('\n'))
+    fs.appendFileSync(`./data/events/${date}.tsv`, events[date].reverse().join('\n') + '\n')
   })
 
   console.log('  summary.json')
