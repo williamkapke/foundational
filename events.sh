@@ -3,13 +3,12 @@
 ORIGIN=https://$GITHUB_AUTH@github.com/williamkapke/foundational.git
 
 rm -rf ./foundational
-git clone --depth=1 $ORIGIN foundational
+git clone $ORIGIN --branch data --single-branch --depth=1 foundational
 cd foundational
 
 git config user.email "hubbed@kap.co"
 git config user.name "Imma Bot"
 
-git checkout -b data
 npm install
 node events.js
 
@@ -23,5 +22,4 @@ fi
 echo
 echo 'Committing data...'
 git commit -am 'Events Update'
-git push $ORIGIN data
-
+git push origin data
