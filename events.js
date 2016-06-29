@@ -43,6 +43,9 @@ var processors = {
   },
   PullRequestEvent: (e) => {
     updateIssue(e.repo.name, e.payload.pull_request)
+  },
+  CommitCommentEvent: (e) => {
+    updateComment(e.repo.name, e.payload.comment)
   }
 }
 

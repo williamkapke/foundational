@@ -9,9 +9,20 @@ var handlers = {
   id: (prop, name, value, result) => (result[name] = value && value.id),
   name: (prop, name, value, result) => (result[name] = value.name),
   number: (prop, name, value, result) => (result[name] = value.number),
-  words: (prop, name, value, result, parent) => (result.words = (parent.body.replace(/^\s*> [^\0]+?(?=\n\n)/gm, '').match(/\S+/g) || '').length),
   pr: (prop, name, value, result, parent) => (result[name] = parent.html_url.includes('/pull/')),
-  parent: (prop, name, value, result, parent) => (result[name] = (parent.issue_url || parent.pull_request_url).match(/\d+$/)[0])
+  words: (prop, name, value, result, parent) => {
+    if (!parent.body) return 0
+    var words = parent.body.replace(/^\s*> [^\0]+?(?=\n\n)/gm, '').match(/\S+/g)
+    result.words = (words || '').length
+  },
+  parent: (prop, name, value, result, parent) => {
+    var url = parent.issue_url || parent.pull_request_url
+    result[name] = url ? url.match(/\d+$/)[0] : parent.commit_id
+  },
+  commit_comment: (prop, name, value, result) => {
+    result.id = value.id
+    result.commit_id = value.commit_id
+  }
 }
 
 module.exports = {
@@ -22,6 +33,7 @@ module.exports = {
   IssuesEvent: Px('{action,issue$number}'), // action = assigned, unassigned, labeled, unlabeled, opened, edited, closed, or reopened.
   IssueCommentEvent: Px('{action,issue$number,comment$id}'), // action = created, edited, or deleted.
   PullRequestReviewCommentEvent: Px('{action,comment$id,pull_request$number}'), // action = created, edited, or deleted
-  PullRequestEvent: Px('{action,number,pull_request$number}') // action = assigned, unassigned, labeled, unlabeled, opened, edited, closed, reopened, or synchronized.
+  PullRequestEvent: Px('{action,number,pull_request$number}'), // action = assigned, unassigned, labeled, unlabeled, opened, edited, closed, reopened, or synchronized.
+  CommitCommentEvent: Px('{comment$commit_comment}')
 }
 
