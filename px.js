@@ -27,7 +27,7 @@ var handlers = {
 
 module.exports = {
   event: Px('{created_at,id,type,actor$id,repo$name,payload}'),
-  issue: Px('{created_at,number,pr$pr,user$id,state,locked,comments,review_comments,updated_at,closed_at,title,words$words,merged_by$id,merged_at}'),
+  issue: Px('{created_at,pr$pr,user$id,state,locked,comments,review_comments,updated_at,closed_at,title,words$words,merged_by$id,merged_at}'),
   comment: Px('{created_at,number$parent,pr$pr,user$id,updated_at,words$words,path}'),
 
   IssuesEvent: Px('{action,issue$number}'), // action = assigned, unassigned, labeled, unlabeled, opened, edited, closed, or reopened.
