@@ -33,7 +33,7 @@ module.exports = {
   IssuesEvent: Px('{action,issue$number}'), // action = assigned, unassigned, labeled, unlabeled, opened, edited, closed, or reopened.
   IssueCommentEvent: Px('{action,issue$number,comment$id}'), // action = created, edited, or deleted.
   PullRequestReviewCommentEvent: Px('{action,comment$id,pull_request$number}'), // action = created, edited, or deleted
-  PullRequestEvent: Px('{action,number,pull_request$number}'), // action = assigned, unassigned, labeled, unlabeled, opened, edited, closed, reopened, or synchronized.
+  PullRequestEvent: Px('{action,pull_request$number}'), // action = assigned, unassigned, labeled, unlabeled, opened, edited, closed, reopened, or synchronized.
   CommitCommentEvent: Px('{comment$commit_comment}')
 }
 
