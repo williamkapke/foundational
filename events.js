@@ -112,7 +112,7 @@ function updateUser (user) {
   users[user.id].login = user.login
 }
 function save (path, obj) {
-  var out = Object.keys(obj).map(Number).sort().map((id) =>
+  var out = Object.keys(obj).map(Number).sort((a, b) => a - b).map((id) =>
     `"${id}":${obj[id].$json}`
   )
   fs.writeFileSync(path, '{\n' + out.join(',\n') + '\n}')
