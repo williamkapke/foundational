@@ -12,7 +12,10 @@ var handlers = {
   pr: (prop, name, value, result, parent) => (result[name] = parent.html_url.includes('/pull/')),
   words: (prop, name, value, result, parent) => {
     if (!parent.body) return 0
-    var words = parent.body.replace(/^\s*> [^\0]+?(?=\n\n)/gm, '').match(/\S+/g)
+    var words = parent.body
+      .replace(/<!--[\s\S]*?-->/g, '') // remove comments
+      .replace(/^\s*> [^\0]+?(?=\n\n)/gm, '') // remove text quoted from another comment
+      .match(/\S+/g)
     result.words = (words || '').length
   },
   parent: (prop, name, value, result, parent) => {
