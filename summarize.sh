@@ -11,8 +11,10 @@ git config user.name "Imma Bot"
 
 npm install
 if [[ $DATE == 'yesterday' ]]; then
+  echo 'setting date to yesterday';
   DATE=$(node -e 'd = new Date();d.setHours(-24);console.log(d.toISOString().substr(0,10))')
 fi
+echo "DATE=$DATE"
 node summarize.js $DATE
 
 git add ./data/**/*.*
