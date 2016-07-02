@@ -109,7 +109,8 @@ function existingSummary (date) {
 }
 
 // let's get to work!...
-var date = process.argv[2] || Date.$nowISO().substr(0, 10);
+var date = (process.argv[2] || Date.$nowISO()).substr(0, 10)
+console.log('Summarizing ' + date);
 (
   Date.$nowISO().substr(0, 10) === date // only get the totals for today!
   ? require('./github.js').get.all('/orgs/nodejs/repos?per_page=100')
