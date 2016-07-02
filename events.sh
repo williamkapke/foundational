@@ -11,6 +11,7 @@ git config user.name "Imma Bot"
 
 npm install
 node events.js
+node summarize.js
 
 git add ./data/*
 
