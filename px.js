@@ -12,7 +12,10 @@ var handlers = {
   pr: (prop, name, value, result, parent) => (result[name] = parent.html_url.includes('/pull/')),
   words: (prop, name, value, result, parent) => {
     if (!parent.body) return 0
-    var words = parent.body.replace(/^\s*> [^\0]+?(?=\n\n)/gm, '').match(/\S+/g)
+    var words = parent.body
+      .replace(/<!--[\s\S]*?-->/g, '') // remove comments
+      .replace(/^\s*> [^\0]+?(?=\n\n)/gm, '') // remove text quoted from another comment
+      .match(/\S+/g)
     result.words = (words || '').length
   },
   parent: (prop, name, value, result, parent) => {
@@ -27,7 +30,7 @@ var handlers = {
 
 module.exports = {
   event: Px('{created_at,id,type,actor$id,repo$name,payload}'),
-  issue: Px('{created_at,number,pr$pr,user$id,state,locked,comments,review_comments,updated_at,closed_at,title,words$words,merged_by$id,merged_at}'),
+  issue: Px('{created_at,pr$pr,user$id,state,locked,comments,review_comments,updated_at,closed_at,title,words$words,merged_by$id,merged_at}'),
   comment: Px('{created_at,number$parent,pr$pr,user$id,updated_at,words$words,path}'),
 
   IssuesEvent: Px('{action,issue$number}'), // action = assigned, unassigned, labeled, unlabeled, opened, edited, closed, or reopened.

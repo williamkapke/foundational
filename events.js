@@ -17,7 +17,7 @@ function updateIssue (repo, issue) {
   if (!issues[repo]) {
     issues[repo] = tryRequire(`./data/repos/${repo}/`, 'issues.json')
   }
-  issues[repo][issue.id] = px.issue.copy(issue)
+  issues[repo][issue.number] = px.issue.copy(issue)
   updateUser(issue.user)
   if (issue.assignee) updateUser(issue.assignee)
   if (issue.merged_by) updateUser(issue.merged_by)
