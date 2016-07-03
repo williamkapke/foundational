@@ -115,7 +115,10 @@ console.log('Summarizing ' + date);
   Date.$nowISO().substr(0, 10) === date // only get the totals for today!
   ? require('./github.js').get.all('/orgs/nodejs/repos?per_page=100')
     .then(repos =>
-      repos.$keyBy('name').$mapValues(repo => getRepo(repo.name, repo.open_issues_count))
+      repos
+      .$sortBy('name')
+      .$keyBy('name')
+      .$mapValues(repo => getRepo(repo.name, repo.open_issues_count))
     )
   : Promise.resolve(
       existingSummary(date).$mapValues((repo, name) => getRepo(name, repo.open))
