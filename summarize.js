@@ -102,7 +102,7 @@ function user (id, repo, type, issue, words, action, commentid) {
 function existingSummary (date) {
   console.log('getting existing repos')
   try {
-    return require('./data/events/' + date + '.json').repos || {}
+    return require('./data/events/' + date + '.json').activity || {}
   } catch (e) {
     return {}
   }
