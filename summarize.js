@@ -2,7 +2,7 @@
 
 require('extensions')
 const util = require('./util.js')
-const users = require('./data/users.json')
+const users = util.tsv.open('./data/users.tsv', ['id','login'])
 
 const out = {
   words: 0, // total for the day

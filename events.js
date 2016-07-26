@@ -5,7 +5,8 @@ var fs = require('fs')
 var cp = require('child_process')
 var github = require('./github.js')
 var px = require('./px.js')
-var users = require('./data/users.json')
+var util = require('./util.js')
+var users = util.tsv.open('./data/users.tsv', ['id','login'])
 var summary = require('./data/summary.json')
 var stop = { created_at: new Date(summary.last_event.created_at), id: summary.last_event.id }
 var first
@@ -85,7 +86,7 @@ github.get.pages('/orgs/nodejs/events?per_page=100', (results, next) => {
   summary.last_event = { created_at: first.created_at, id: first.id }
   fs.writeFileSync('./data/summary.json', summary.$json2)
 
-  save('./data/users.json', users)
+  util.tsv.save('./data/users.tsv', users, ['id','login'])
 
   Object.keys(issues).forEach(repo => {
     console.log(`${repo}/issues.json`)
