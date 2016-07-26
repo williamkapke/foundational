@@ -89,15 +89,17 @@ github.get.pages('/orgs/nodejs/events?per_page=100', (results, next) => {
   util.tsv.save('./data/users.tsv', users, ['id','login'])
 
   Object.keys(issues).forEach(repo => {
-    console.log(`${repo}/issues.json`)
+    console.log(`  ${repo}/issues.json`)
     save(`./data/repos/${repo}/issues.json`, issues[repo])
   })
   Object.keys(comments).forEach(repo => {
-    console.log(`${repo}/comments.json`)
+    console.log(`  ${repo}/comments.json`)
     save(`./data/repos/${repo}/comments.json`, comments[repo])
   })
 })
-.catch(console.error)
+.catch((e) => {
+  console.error(e.stack)
+})
 
 function tryRequire (path, file) {
   try {

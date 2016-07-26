@@ -93,6 +93,10 @@ const count = {
 function user (id, repo, type, issue, words, action, commentid) {
   var longid = `${repo}/${type}/${issue}`
   if (commentid) longid += '#' + commentid
+  if(!users[id]) {
+    console.log('USER NOT FOUND: ' + id)
+    return
+  }
   var user = out.users[id] || (out.users[id] = users[id].$set('words', {}))
   user.words[longid] = words
   if (action) {
@@ -146,5 +150,7 @@ console.log('Summarizing ' + date);
 
   require('fs').writeFileSync('./data/events/' + date + '.json', final)
 })
-.catch(console.error)
+.catch((e) => {
+  console.error(e.stack)
+})
 
