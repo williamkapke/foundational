@@ -1,7 +1,7 @@
 'use strict'
 
-require('extensions')
-var fs = require('fs')
+const fs = require('fs')
+const asc = (a, b) => a - b;
 
 module.exports = {
   events: (date) =>
@@ -22,6 +22,30 @@ module.exports = {
           : undefined
       }
     })
+  ,
+  tsv: {
+    save: function (path, obj, columns) {
+      var out = Object.keys(obj).map(Number).sort(asc).map((id) =>
+        columns.map((col) =>
+          col === 'id' ? id : obj[id][col]
+        )
+        .join('\t')
+      )
+      fs.writeFileSync(path, out.join('\n') + '\n')
+    },
+    open: function (path, columns) {
+      const out = {}
+      fs.readFileSync(path).toString().split('\n').forEach((line) => {
+        if (!line) return
+        const parts = line.split('\t')
+        const row = out[parts[0]] = {}
+        parts.forEach((part, i) => {
+          row[columns[i]] = part
+        })
+      })
+      return out
+    }
+  }
 }
 
 // get a YYYY-MM-DD string
