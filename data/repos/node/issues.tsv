@@ -28,7 +28,7 @@
 2569	13315	true	open	false	26		2015-08-27T04:34:55Z	2016-07-14T03:03:33Z		Add zh-CN i18n support for Windows installer	15		
 2642	2645436	false	open	false	30		2015-09-02T06:06:18Z	2016-06-30T18:50:44Z		Keep alive connection do not get closed with server.close()	106		
 2681	439929	false	closed	false	5		2015-09-03T15:40:56Z	2016-06-30T23:21:20Z	2016-06-30T23:21:20Z	child_process: execFile and fork arg parsing ambiguity	136		
-2833	1211152	false	closed	false	20		2015-09-12T14:09:10Z	2016-07-27T16:49:54Z	2016-03-09T09:20:02Z	Node.js `crypto` and the WebCrypto API	150		
+2833	1211152	false	closed	false	21		2015-09-12T14:09:10Z	2016-07-27T17:24:15Z	2016-03-09T09:20:02Z	Node.js `crypto` and the WebCrypto API	150		
 2883	126482	true	open	false	4		2015-09-15T17:33:30Z	2016-06-29T12:07:18Z		Makefile: use existing variable to reduce complexity	2		
 2982	170023	true	open	false	7		2015-09-21T14:10:33Z	2016-07-01T16:26:45Z		readline: add option to stop duplicates in history	161		
 3009	112555	false	closed	false	10		2015-09-22T19:15:53Z	2016-07-12T15:55:34Z	2016-04-09T05:21:32Z	Sending a body with a GET request using http.request cannot be received using http.server	235		
@@ -205,7 +205,7 @@
 6997	110455	true	closed	false	11		2016-05-26T17:02:19Z	2016-07-11T22:50:22Z	2016-06-06T22:30:53Z	test: use common.fixturesDir almost everywhere	50		
 6998	2512748	true	closed	false	12		2016-05-26T17:17:59Z	2016-07-12T15:20:16Z	2016-05-31T13:55:52Z	cluster: expose result of send()	90		
 7003	275871	true	closed	false	7		2016-05-26T19:07:39Z	2016-07-12T16:54:43Z	2016-06-29T16:15:19Z	test: check types for http request and response	82		
-7005	15952	true	open	false			2016-05-26T20:56:33Z	2016-07-27T06:38:10Z		repl: History file locking and other improvements	419		
+7005	15952	true	open	false			2016-05-26T20:56:33Z	2016-07-27T17:06:05Z		repl: History file locking and other improvements	419		
 7016	2352663	true	closed	false	58		2016-05-27T09:43:28Z	2016-07-21T15:43:37Z	2016-06-29T08:47:38Z	deps: update V8 to 5.1.281.69	71		
 7024	718899	true	closed	false	8		2016-05-27T18:42:24Z	2016-07-14T19:21:10Z	2016-06-01T00:05:35Z	test: fix spurious EADDRINUSE in test-https-strict	132		
 7033	718899	true	closed	false	8		2016-05-28T03:04:33Z	2016-07-11T22:06:26Z	2016-06-01T03:30:45Z	test: make test-child-process-fork-net more robust	174		
@@ -395,7 +395,7 @@
 7481	696611	true	closed	false	6		2016-06-29T18:07:25Z	2016-07-12T00:11:45Z	2016-07-08T14:45:38Z	net: export isIPv4, isIPv6 directly from cares	50		
 7482	2352663	true	closed	false	10		2016-06-29T18:13:01Z	2016-07-12T06:33:53Z	2016-07-10T15:23:52Z	build: add v8 requirement to test-v8* in Makefile	30		
 7483	696611	true	closed	false	10		2016-06-29T18:21:46Z	2016-07-12T04:30:26Z	2016-07-08T14:52:40Z	tools: remove unnecessary imports and assignments	38		
-7484	275871	false	open	false	34		2016-06-29T18:29:06Z	2016-07-20T16:36:49Z		build: drop support for VS 2013 in v7	96		
+7484	275871	false	open	false	35		2016-06-29T18:29:06Z	2016-07-27T17:32:20Z		build: drop support for VS 2013 in v7	96		
 7485	432351	true	closed	false	5	0	2016-06-29T18:42:27Z	2016-06-30T05:36:59Z	2016-06-30T05:36:59Z	doc: fixing minor typo in AtExit hooks section	53		
 7486	275871	true	closed	false	9		2016-06-29T19:17:29Z	2016-06-30T17:37:51Z	2016-06-30T11:33:16Z	build: drop unconditional openssl dep from cctest	23		
 7487	1356314	true	open	false	22		2016-06-29T20:16:20Z	2016-07-20T01:09:32Z		build: windows sharedlib support	289		
@@ -667,7 +667,7 @@
 7753	2512748	true	closed	false	9		2016-07-15T20:43:46Z	2016-07-19T12:36:28Z	2016-07-18T21:14:43Z	test: use mustCall() for simple flow tracking	96		
 7754	899444	true	open	false			2016-07-15T21:42:32Z	2016-07-16T11:12:53Z		readline: show completions only after 2nd TAB	111		
 7755	164625	false	open	false	6		2016-07-15T21:43:49Z	2016-07-16T18:48:23Z		If node is started with --debug a space appears on the following line	15		
-7756	1018196	true	open	false	2		2016-07-15T21:45:58Z	2016-07-16T15:06:05Z		Fixes #7742: node --inspect should fire Runtime.executionContextDestoyed when script finishes executing	116		
+7756	1018196	true	open	false	3		2016-07-15T21:45:58Z	2016-07-27T17:31:39Z		Fixes #7742: node --inspect should fire Runtime.executionContextDestoyed when script finishes executing	116		
 7757	899444	true	open	false	11		2016-07-15T22:46:35Z	2016-07-25T09:19:56Z		doc: use blockquotes for Stability: markers	35		
 7758	10393198	true	open	false	8		2016-07-16T01:33:16Z	2016-07-27T11:46:20Z		test: decrease inconsistency in the common.js	135		
 7759	238531	true	closed	false	11		2016-07-16T04:05:05Z	2016-07-17T05:05:57Z	2016-07-17T05:05:57Z	deps: no /safeseh for ml64.exe	59		
@@ -770,7 +770,7 @@
 7856	373545	true	open	false			2016-07-23T20:49:58Z	2016-07-25T04:01:08Z		fs: Fix default params for fs.write	64		
 7857	718899	true	open	false	8		2016-07-23T21:15:43Z	2016-07-27T16:36:44Z		test: fix flaky test-tls-wrap-timeout	59		
 7858	3524633	false	closed	false	11		2016-07-24T00:23:34Z	2016-07-26T14:21:50Z	2016-07-25T15:53:16Z	Add fsevents to NodeJS	211		
-7859	1084056	true	open	false	3		2016-07-24T06:28:47Z	2016-07-27T16:57:51Z		tools,test: show signal code when test crashes	31		
+7859	1084056	true	open	false	4		2016-07-24T06:28:47Z	2016-07-27T17:01:26Z		tools,test: show signal code when test crashes	31		
 7860	101553	false	open	false	6		2016-07-24T08:24:19Z	2016-07-27T08:24:42Z		Test failing in Debug mode	109		
 7861	131406	false	open	false	1		2016-07-24T10:54:23Z	2016-07-24T11:11:08Z		TCP_DEFER_ACCEPT option for http server ?	34		
 7862	524902	false	closed	false	2		2016-07-24T14:47:11Z	2016-07-24T16:11:48Z	2016-07-24T16:11:48Z	Function.caller failing in Node	183		
@@ -785,14 +785,14 @@
 7871	3826465	false	open	false	2		2016-07-25T15:05:08Z	2016-07-25T19:14:40Z		Constructor for wrapping literals in vm module context cannot be altered.	178		
 7872	4813414	false	open	false	1		2016-07-25T18:16:15Z	2016-07-25T19:13:14Z		6.3.1 src tarball: missing files and directories	70		
 7873	718899	true	closed	false	19		2016-07-25T18:50:51Z	2016-07-26T18:07:42Z	2016-07-25T21:17:42Z	src: fix build on CentOS	65		
-7874	287917	true	open	false			2016-07-25T22:03:54Z	2016-07-26T10:50:38Z		inspector: Do not crash if the port is n/a	48		
+7874	287917	true	open	false			2016-07-25T22:03:54Z	2016-07-27T17:02:57Z		inspector: Do not crash if the port is n/a	48		
 7875	10068978	false	open	false	12		2016-07-25T23:05:18Z	2016-07-27T09:02:06Z		node.js(v6.2.2) error message on AIX(7.x)	52		
 7876	524902	false	closed	false	11		2016-07-25T23:50:07Z	2016-07-26T16:10:27Z	2016-07-26T16:10:27Z	Several feature requests	314		
 7877	1622515	true	closed	false	4		2016-07-26T04:53:29Z	2016-07-26T09:48:37Z	2016-07-26T05:11:39Z	doc: add princejwesley to collaborators	29		
 7878	1538624	true	open	false	3		2016-07-26T07:22:40Z	2016-07-26T11:04:30Z		doc: fill in missing V8 version	51		
 7879	917978	false	open	false	6		2016-07-26T08:06:07Z	2016-07-26T15:36:04Z		openSync/writeSync/closeSync produces empty file	57		
 7880	2330987	false	open	false	2		2016-07-26T11:37:42Z	2016-07-26T13:07:46Z		Upgrade openssl sources to 1.0.2h broke npm install for me (behind proxy)	103		
-7881	718899	false	open	false	7		2016-07-26T18:11:24Z	2016-07-27T16:38:19Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-07-27	532		
+7881	718899	false	open	false	8		2016-07-26T18:11:24Z	2016-07-27T17:29:08Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-07-27	532		
 7882	127666	false	open	false	1		2016-07-26T19:07:04Z	2016-07-27T01:58:39Z		Stop the installer deleting my symlink for AppData\Roaming\npm	2		
 7883	1485909	true	open	false			2016-07-26T22:51:35Z	2016-07-27T13:49:37Z		deps: cherry-pick b93c80a from v8 upstream	56		
 7884	6316590	true	open	false	0	0	2016-07-26T23:34:36Z	2016-07-26T23:34:36Z		doc: add missing windowsVerbatimArguments option in child_process.spawn	53		
@@ -802,9 +802,10 @@
 7888	397862	false	closed	false	2		2016-07-27T05:55:10Z	2016-07-27T07:01:00Z	2016-07-27T06:56:11Z	Can't break with node v6.3.1 on linux x64 and the debugger keyword	101		
 7889	5220101	false	closed	false	0		2016-07-27T07:24:04Z	2016-07-27T09:09:34Z	2016-07-27T09:09:34Z	incrementing a number in global namespace must be done twice	100		
 7890	1495995	false	open	false	4		2016-07-27T08:26:45Z	2016-07-27T10:31:35Z		OUTPUT_FORMAT=csv option is missing from benchmark/common.js	62		
-7891	1593308	false	open	false	3		2016-07-27T09:25:43Z	2016-07-27T14:58:05Z		node --inspect: dev tools console not working	62		
+7891	1593308	false	open	false	4		2016-07-27T09:25:43Z	2016-07-27T17:34:10Z		node --inspect: dev tools console not working	62		
 7892	8198457	false	open	false	0		2016-07-27T09:39:14Z	2016-07-27T09:39:14Z		Checking whether an array's constructor is === Array fails	333		
 7893	432351	true	open	false	2		2016-07-27T10:05:35Z	2016-07-27T11:11:28Z		build: adding a clean-addons target to Makefile	209		
 7894	1651212	true	open	false	0	0	2016-07-27T12:41:26Z	2016-07-27T12:41:26Z		doc: add npm link and cleanup Readme	46		
 7895	4949308	true	open	false	3		2016-07-27T13:28:10Z	2016-07-27T15:14:05Z		build: Maximize the default V8 inliner flags values	90		
-7896	7308528	false	open	false	0		2016-07-27T16:55:37Z	2016-07-27T16:55:37Z		I need nodeJS v5 in intel edison to run angular 2 app - issue	54		
+7896	7308528	false	closed	false	1		2016-07-27T16:55:37Z	2016-07-27T17:25:38Z	2016-07-27T17:25:38Z	I need nodeJS v5 in intel edison to run angular 2 app - issue	52		
+7897	696611	true	open	false	0	0	2016-07-27T17:02:57Z	2016-07-27T17:02:57Z		fs: warn instead of throwing if no callback	100		
