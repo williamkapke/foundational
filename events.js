@@ -6,7 +6,7 @@ var cp = require('child_process')
 var github = require('./github.js')
 var px = require('./px.js')
 var util = require('./util.js')
-var users = util.tsv.open('./data/users.tsv', ['id','login'])
+var users = util.tsv.open.users('./data/users.tsv')
 var summary = require('./data/summary.json')
 var stop = { created_at: new Date(summary.last_event.created_at), id: summary.last_event.id }
 var first
@@ -16,7 +16,7 @@ var comments = {}
 
 function updateIssue (repo, issue) {
   if (!issues[repo]) {
-    issues[repo] = tryRequire(`./data/repos/${repo}/`, 'issues.json')
+    issues[repo] = tryOpen(`./data/repos/${repo}/`, 'issues')
   }
   issues[repo][issue.number] = px.issue.copy(issue)
   updateUser(issue.user)
@@ -25,7 +25,7 @@ function updateIssue (repo, issue) {
 }
 function updateComment (repo, comment) {
   if (!comments[repo]) {
-    comments[repo] = tryRequire(`./data/repos/${repo}/`, 'comments.json')
+    comments[repo] = tryOpen(`./data/repos/${repo}/`, 'comments')
   }
   comments[repo][comment.id] = px.comment.copy(comment)
   updateUser(comment.user)
@@ -77,7 +77,7 @@ github.get.pages('/orgs/nodejs/events?per_page=100', (results, next) => {
 })
 .then(() => {
   console.log('Writing Data...')
-  Object.keys(events).forEach(date => {
+  Object.keys(events).forEach((date) => {
     console.log(`  ${date}.tsv`)
     fs.appendFileSync(`./data/events/${date}.tsv`, events[date].reverse().join('\n') + '\n')
   })
@@ -86,28 +86,27 @@ github.get.pages('/orgs/nodejs/events?per_page=100', (results, next) => {
   summary.last_event = { created_at: first.created_at, id: first.id }
   fs.writeFileSync('./data/summary.json', summary.$json2)
 
-  util.tsv.save('./data/users.tsv', users, ['id','login'])
+  util.tsv.save('./data/users.tsv', users, ['id', 'login'])
 
-  Object.keys(issues).forEach(repo => {
-    console.log(`  ${repo}/issues.json`)
-    save(`./data/repos/${repo}/issues.json`, issues[repo])
+  Object.keys(issues).forEach((repo) => {
+    console.log(`${repo}/issues.tsv`)
+    util.tsv.save(`./data/repos/${repo}/issues.tsv`, issues[repo], util.columns.issues)
   })
-  Object.keys(comments).forEach(repo => {
-    console.log(`  ${repo}/comments.json`)
-    save(`./data/repos/${repo}/comments.json`, comments[repo])
+  Object.keys(comments).forEach((repo) => {
+    console.log(`${repo}/comments.tsv`)
+    util.tsv.save(`./data/repos/${repo}/comments.tsv`, comments[repo], util.columns.comments)
   })
 })
 .catch((e) => {
   console.error(e.stack)
 })
 
-function tryRequire (path, file) {
-  try {
-    return require(path + file)
-  } catch (e) {
-    cp.execSync('mkdir -p ' + path)
-    return {}
-  }
+function tryOpen (path, type) {
+  var out = util.tsv.open[type](path + type + '.tsv')
+  if (out) return out
+
+  cp.execSync('mkdir -p ' + path)
+  return {}
 }
 function updateUser (user) {
   if (!user) return

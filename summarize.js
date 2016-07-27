@@ -2,7 +2,7 @@
 
 require('extensions')
 const util = require('./util.js')
-const users = util.tsv.open('./data/users.tsv', ['id','login'])
+const users = util.tsv.open('./data/users.tsv', ['id', 'login'])
 
 const out = {
   words: 0, // total for the day
@@ -23,7 +23,7 @@ const getIssue = (repo, number) => repo[number] || (repo[number] = {
 })
 const handlers = {
   'IssuesEvent': (e, repo) => {
-    var issue = require(`./data/repos/${e.repo}/issues.json`)[e.payload.issue]
+    var issue = util.tsv.open.issues(`./data/repos/${e.repo}/issues.tsv`)[e.payload.issue]
     var i = getIssue(repo, e.payload.issue)
     var action = e.payload.action
 
@@ -35,7 +35,7 @@ const handlers = {
     if (issue.pr) i.pr = true
   },
   'PullRequestEvent': (e, repo) => {
-    var issue = require(`./data/repos/${e.repo}/issues.json`)[e.payload.pull_request]
+    var issue = util.tsv.open.issues(`./data/repos/${e.repo}/issues.tsv`)[e.payload.pull_request]
     var i = getIssue(repo, e.payload.pull_request)
     var action = e.payload.action
 
@@ -47,20 +47,20 @@ const handlers = {
     i[action.replace('ed', 'er')] = e.actor
   },
   'IssueCommentEvent': (e, repo) => {
-    var comment = require(`./data/repos/${e.repo}/comments.json`)[e.payload.comment]
+    var comment = util.tsv.open.comments(`./data/repos/${e.repo}/comments.tsv`)[e.payload.comment]
     var i = getIssue(repo, e.payload.issue)
     count.comment(comment.words, repo, i, comment.pr ? true : undefined)
     user(comment.user, e.repo, comment.pr ? 'pulls' : 'issues', comment.number, comment.words, null, e.payload.comment)
   },
   'PullRequestReviewCommentEvent': (e, repo) => {
-    var comment = require(`./data/repos/${e.repo}/comments.json`)[e.payload.comment]
+    var comment = util.tsv.open.comments(`./data/repos/${e.repo}/comments.tsv`)[e.payload.comment]
     var i = getIssue(repo, e.payload.pull_request)
     count.comment(comment.words, repo, i, true)
     user(comment.user, e.repo, 'pulls', comment.number, comment.words, null, e.payload.comment)
   },
   'CommitCommentEvent': (e, repo) => {
     if (!e.payload) return // initially, payloads were missed
-    var comment = require(`./data/repos/${e.repo}/comments.json`)[e.payload.id]
+    var comment = util.tsv.open.comments(`./data/repos/${e.repo}/comments.tsv`)[e.payload.id]
     var i = getIssue(repo, e.payload.commit_id)
     count.comment(comment.words, repo, i, false)
     user(comment.user, e.repo, 'comments', comment.number, comment.words, null, e.payload.id)
@@ -94,7 +94,8 @@ function user (id, repo, type, issue, words, action, commentid) {
   var longid = `${repo}/${type}/${issue}`
   if (commentid) longid += '#' + commentid
   if(!users[id]) {
-    console.log('USER NOT FOUND: ' + id)
+    console.log('USER NOT FOUND: ')
+    console.log(id, repo, type, issue, words, action, commentid)
     return
   }
   var user = out.users[id] || (out.users[id] = users[id].$set('words', {}))
@@ -117,21 +118,21 @@ var date = (process.argv[2] || Date.$nowISO()).substr(0, 10)
 console.log('Summarizing ' + date);
 (
   Date.$nowISO().substr(0, 10) === date // only get the totals for today!
-  ? require('./github.js').get.all('/orgs/nodejs/repos?per_page=100')
-    .then(repos =>
-      repos
-      .$sortBy('name')
-      .$keyBy('name')
-      .$mapValues(repo => getRepo(repo.name, repo.open_issues_count))
-    )
-  : Promise.resolve(
-      existingSummary(date).$mapValues((repo, name) => getRepo(name, repo.open))
-    )
+    ? require('./github.js').get.all('/orgs/nodejs/repos?per_page=100')
+      .then((repos) =>
+        repos
+        .$sortBy('name')
+        .$keyBy('name')
+        .$mapValues((repo) => getRepo(repo.name, repo.open_issues_count))
+      )
+    : Promise.resolve(
+        existingSummary(date).$mapValues((repo, name) => getRepo(name, repo.open))
+      )
 )
-.then(repos => {
+.then((repos) => {
   out.activity = repos
 
-  util.events(date).forEach(e => {
+  util.events(date).forEach((e) => {
     var handler = handlers[e.type]
     if (!handler) return
     handler(e, getRepo(e.repo))
@@ -141,7 +142,7 @@ console.log('Summarizing ' + date);
   // first put in the JSON (find the toJSON function above) and
   // then those are replaced with single line JSON text below...
   const final = out.$json2
-  .replace(/{\n\s+"open": \d+\n\s+}/g, x => x.replace(/\s+/g,''))
+  .replace(/{\n\s+"open": \d+\n\s+}/g, (x) => x.replace(/\s+/g, ''))
   .replace(/"<([^>]+)>"/g, function (match, path) {
     var issue = out.activity.$get(path.split('›'))
     delete issue.toJSON
