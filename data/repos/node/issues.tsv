@@ -44,6 +44,7 @@
 3316	275871	true	closed	false	23	0	2015-10-10T20:20:46Z	2016-06-30T11:49:55Z	2016-06-30T11:49:55Z	debugger: make listen address configurable	5		
 3370	1316152	false	open	false	41		2015-10-14T16:29:36Z	2016-07-12T14:06:17Z		Node 4.2 large memory spikes and timeouts on Heroku 	333		
 3402	595361	false	closed	false	201		2015-10-16T12:45:59Z	2016-07-18T20:32:50Z	2016-04-27T02:45:38Z	Don't resolve symlinks when requiring	120		
+3460	855219	false	open	false	56		2015-10-20T22:54:04Z	2016-07-27T20:15:47Z		"detect ""full-icu"" module"	95		
 3462	115237	false	closed	false	16		2015-10-21T00:03:57Z	2016-07-12T05:28:09Z	2015-10-21T16:40:43Z	btoa() and atob()	71		
 3475	367936	false	open	false	7		2015-10-21T21:55:24Z	2016-07-19T14:13:11Z		Performance regression in pipe after v0.11.3 on OS X	153		
 3477	367936	false	closed	false	14		2015-10-21T23:22:50Z	2016-07-19T19:51:42Z	2016-07-19T11:50:04Z	Pipe/stream performance regression after v2.5.0	223		
@@ -106,7 +107,7 @@
 5991	15197820	false	open	false	4		2016-04-01T04:10:50Z	2016-07-06T06:35:33Z		When I write áéíóú, process.stdout.write in Windows English version, process.stdout is closed	35		
 6033	2291463	false	closed	false	9		2016-04-04T07:14:31Z	2016-07-03T03:53:55Z	2016-07-03T03:53:55Z	Features that depend on ICU, in V8 built without ICU.	118		
 6063	7780985	true	closed	false	20		2016-04-05T19:44:10Z	2016-07-11T16:51:08Z	2016-04-26T16:07:07Z	doc, tls: deprecate createSecurePair	141		
-6102	54666	true	open	false	96		2016-04-07T16:10:47Z	2016-07-22T00:16:09Z		http: don't inherit from Object.prototype	57		
+6102	54666	true	open	false	97		2016-04-07T16:10:47Z	2016-07-27T20:57:07Z		http: don't inherit from Object.prototype	57		
 6114	408977	true	closed	false	11		2016-04-08T12:55:18Z	2016-07-06T05:06:41Z	2016-07-06T05:06:41Z	Defensive check for process.config.variables (v4-staging)	10		
 6115	408977	true	closed	false	18		2016-04-08T12:59:35Z	2016-07-05T17:59:27Z	2016-07-05T17:59:26Z	Defensive fix for process.config.variables regression (v5)	21		
 6180	3824055	false	closed	false	18		2016-04-13T14:03:54Z	2016-07-26T17:44:29Z	2016-07-26T17:44:29Z	Memory leak in simple test case involving WeakSet	202		
@@ -463,7 +464,7 @@
 7549	9373002	false	open	false	4		2016-07-05T20:59:59Z	2016-07-06T16:52:11Z		AIX: Test failures - malloc(0)	188		
 7550	1093990	true	closed	false	9		2016-07-05T21:23:45Z	2016-07-06T18:06:43Z	2016-07-06T17:42:31Z	Propose v6.3.0 (v2)	2032		
 7551	439929	true	closed	false	3		2016-07-05T23:29:28Z	2016-07-14T19:42:40Z	2016-07-11T19:23:07Z	tls, binding: backport of process.binding('config') and regression fix	54		
-7552	439929	true	open	false	21		2016-07-06T00:09:20Z	2016-07-25T15:12:52Z		punycode: deprecate punycode module	193		
+7552	439929	true	open	false	22		2016-07-06T00:09:20Z	2016-07-27T20:32:55Z		punycode: deprecate punycode module	193		
 7553	8730632	false	open	false	2		2016-07-06T01:04:08Z	2016-07-06T08:01:05Z		Error: unexpected end of file. 	24		
 7554	7731478	false	closed	false	2		2016-07-06T02:46:13Z	2016-07-06T16:52:55Z	2016-07-06T11:52:47Z	setInterval/setTimeout interval should not include duration of callback	1223		
 7555	718899	true	closed	false	10	0	2016-07-06T04:27:02Z	2016-07-07T18:04:48Z	2016-07-07T18:04:48Z	test: fix flaky test-net-write-slow	56		
@@ -637,7 +638,7 @@
 7723	4421371	false	open	false	4		2016-07-14T02:40:07Z	2016-07-15T05:58:24Z		HTTP Module Documentation Missing 'Error' Event	45		
 7724	7932813	false	closed	false	2		2016-07-14T06:17:08Z	2016-07-14T07:12:41Z	2016-07-14T06:37:57Z	 Promise.prototype.chain is undefined on osx	39		
 7725	158787	false	closed	false	2		2016-07-14T07:21:13Z	2016-07-14T08:01:59Z	2016-07-14T07:59:27Z	Net socket (telnet) crashes on a larger data	88		
-7726	317464	false	open	false	46		2016-07-14T07:33:37Z	2016-07-27T16:03:38Z		[meta] realpath issues in v6	307		
+7726	317464	false	open	false	47		2016-07-14T07:33:37Z	2016-07-27T20:06:40Z		[meta] realpath issues in v6	307		
 7727	291301	true	open	false			2016-07-14T10:22:20Z	2016-07-26T05:05:40Z		doc: more formatting fixes	162		
 7728	6447530	false	open	false	4		2016-07-14T10:23:51Z	2016-07-14T13:16:30Z		Inconsistencies with IPv6 endpoint specification across platforms	697		
 7729	291301	true	open	false	9		2016-07-14T10:50:32Z	2016-07-15T22:39:20Z		tools: add remark-lint configuration in .remarkrc	95		
@@ -655,7 +656,7 @@
 7741	10393198	true	open	false	9		2016-07-14T23:28:38Z	2016-07-27T12:05:31Z		test: ensure stream preprocessing order	111		
 7742	1018196	false	open	false	2		2016-07-15T00:25:27Z	2016-07-15T17:29:34Z		node --inspect fire Runtime.executionContextDestroyed when script finishes executing	36		
 7743	1573352	false	open	false	2		2016-07-15T00:26:06Z	2016-07-15T07:20:43Z		console.log / console.error are supposedly synchronous, but huge amounts of trailing data can be lost on process.exit	228		
-7744	718899	true	open	false	12		2016-07-15T03:19:18Z	2016-07-26T18:38:35Z		meta: provide example activities	38		
+7744	718899	true	open	false			2016-07-15T03:19:18Z	2016-07-27T20:27:39Z		meta: provide example activities	38		
 7745	5678694	true	closed	false	3		2016-07-15T05:54:59Z	2016-07-15T17:56:26Z	2016-07-15T17:56:26Z	doc: fix inconsistencies in code examples	64		
 7746	982720	false	closed	false	10		2016-07-15T08:06:17Z	2016-07-20T19:54:18Z	2016-07-15T09:37:16Z	Abuse in irc channel from part of moderator, for say him no need to be aggresive.	30		
 7747	11814052	false	open	false	4		2016-07-15T11:45:09Z	2016-07-18T12:41:17Z		path.join resolving local directory 	89		
@@ -724,7 +725,7 @@
 7810	439929	true	closed	false	10		2016-07-20T15:29:54Z	2016-07-25T13:53:02Z	2016-07-25T13:53:02Z	doc: clarify that the node.js irc channel is not under tsc oversight	71		
 7811	2512748	true	closed	false	6		2016-07-20T16:55:28Z	2016-07-22T16:02:10Z	2016-07-22T16:02:10Z	child_process: support stdio option in fork()	80		
 7812	15943089	false	open	false	1		2016-07-20T17:04:01Z	2016-07-20T19:04:52Z		Possible memory leak in test addons tested with Valgrind	1338		
-7813	718899	true	open	false	14		2016-07-20T22:28:30Z	2016-07-26T19:24:39Z		doc: add information about CTC quorum rules	49		
+7813	718899	true	open	false	15		2016-07-20T22:28:30Z	2016-07-27T20:28:01Z		doc: add information about CTC quorum rules	49		
 7814	79017	true	open	false	4		2016-07-21T00:47:02Z	2016-07-26T17:14:53Z		deps: backport 2bcbe2f from V8 upstream	82		
 7815	54666	true	open	false	0	0	2016-07-21T05:15:15Z	2016-07-21T05:15:15Z		Doc improve assert	50		
 7816	3885959	true	open	false	0	0	2016-07-21T05:54:32Z	2016-07-21T05:54:32Z		documentation - fixed minor inconsistency	87		
@@ -757,7 +758,7 @@
 7843	855219	false	open	false	0		2016-07-22T19:17:46Z	2016-07-22T19:17:46Z		deps: fix TODO in tools/icu/README.md	12		
 7844	855219	false	open	false	4		2016-07-22T19:21:27Z	2016-07-22T20:02:36Z		deps: Intl: ICU 58 bump	32		
 7845	1084056	true	open	false	10		2016-07-22T22:02:05Z	2016-07-27T06:29:42Z		test: use common platform helpers everywhere	63		
-7846	498775	true	open	false	11		2016-07-22T23:46:39Z	2016-07-27T15:25:34Z		Revert fs changes	246		
+7846	498775	true	open	false	13		2016-07-22T23:46:39Z	2016-07-27T20:21:07Z		Revert fs changes	246		
 7847	54666	true	open	false	8		2016-07-23T03:26:28Z	2016-07-26T17:05:20Z		doc: improve https module documentation	57		
 7848	718899	false	open	false	7		2016-07-23T03:35:07Z	2016-07-26T18:07:37Z		Role of CTC in semver-major changes needs clarification	205		
 7849	1622515	true	open	false	4		2016-07-23T06:46:26Z	2016-07-23T13:33:23Z		doc: align breakEvalOnSigint - repl option	33		
@@ -792,9 +793,9 @@
 7878	1538624	true	open	false	3		2016-07-26T07:22:40Z	2016-07-26T11:04:30Z		doc: fill in missing V8 version	51		
 7879	917978	false	open	false	6		2016-07-26T08:06:07Z	2016-07-26T15:36:04Z		openSync/writeSync/closeSync produces empty file	57		
 7880	2330987	false	open	false	2		2016-07-26T11:37:42Z	2016-07-26T13:07:46Z		Upgrade openssl sources to 1.0.2h broke npm install for me (behind proxy)	103		
-7881	718899	false	open	false	16		2016-07-26T18:11:24Z	2016-07-27T19:58:23Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-07-27	532		
+7881	718899	false	open	false	18		2016-07-26T18:11:24Z	2016-07-27T20:15:16Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-07-27	532		
 7882	127666	false	open	false	1		2016-07-26T19:07:04Z	2016-07-27T01:58:39Z		Stop the installer deleting my symlink for AppData\Roaming\npm	2		
-7883	1485909	true	open	false	4		2016-07-26T22:51:35Z	2016-07-27T18:14:53Z		deps: cherry-pick b93c80a from v8 upstream	56		
+7883	1485909	true	open	false	5		2016-07-26T22:51:35Z	2016-07-27T20:03:32Z		deps: cherry-pick b93c80a from v8 upstream	56		
 7884	6316590	true	open	false	0	0	2016-07-26T23:34:36Z	2016-07-26T23:34:36Z		doc: add missing windowsVerbatimArguments option in child_process.spawn	53		
 7885	634573	true	open	false	4		2016-07-27T02:32:19Z	2016-07-27T06:04:18Z		doc: remove extra space in console.log examples	51		
 7886	718899	true	open	false	6		2016-07-27T05:34:43Z	2016-07-27T16:49:51Z		test: speed up test-net-reconnect-error	86		
@@ -810,4 +811,4 @@
 7896	7308528	false	closed	false	1		2016-07-27T16:55:37Z	2016-07-27T17:25:38Z	2016-07-27T17:25:38Z	I need nodeJS v5 in intel edison to run angular 2 app - issue	52		
 7897	696611	true	open	false			2016-07-27T17:02:57Z	2016-07-27T18:23:46Z		fs: warn instead of throwing if no callback	100		
 7898	1005116	true	open	false	0	0	2016-07-27T18:12:08Z	2016-07-27T18:12:08Z		benchmark: http parser optimization	194		
-7899	17704638	true	open	false	1		2016-07-27T18:12:17Z	2016-07-27T19:41:40Z		fs: restore javascript realpath implementation	162		
+7899	17704638	true	open	false	2		2016-07-27T18:12:17Z	2016-07-27T20:36:35Z		fs: restore javascript realpath implementation	162		
