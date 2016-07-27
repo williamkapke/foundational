@@ -68,6 +68,7 @@ const handlers = {
 }
 const count = {
   comment: function count (words, repo, issue, pr) {
+    console.log(words)
     if (typeof pr !== 'undefined') issue.pr = pr
     issue.comments++
     out.comments++
@@ -79,6 +80,7 @@ const count = {
     out[pr ? 'prs' : 'issues'].words += words
   },
   issue: function count (words, repo, issue, action, pr) {
+    console.log(words)
     words = words || 0
     out.words += words
     repo.words = (repo.words || 0) + words

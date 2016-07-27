@@ -203,7 +203,7 @@
 6997	110455	true	closed	false	11		2016-05-26T17:02:19Z	2016-07-11T22:50:22Z	2016-06-06T22:30:53Z	test: use common.fixturesDir almost everywhere	50		
 6998	2512748	true	closed	false	12		2016-05-26T17:17:59Z	2016-07-12T15:20:16Z	2016-05-31T13:55:52Z	cluster: expose result of send()	90		
 7003	275871	true	closed	false	7		2016-05-26T19:07:39Z	2016-07-12T16:54:43Z	2016-06-29T16:15:19Z	test: check types for http request and response	82		
-7005	15952	true	open	false			2016-05-26T20:56:33Z	2016-07-26T23:53:26Z		repl: History file locking and other improvements	419		
+7005	15952	true	open	false	19		2016-05-26T20:56:33Z	2016-07-27T00:38:55Z		repl: History file locking and other improvements	419		
 7016	2352663	true	closed	false	58		2016-05-27T09:43:28Z	2016-07-21T15:43:37Z	2016-06-29T08:47:38Z	deps: update V8 to 5.1.281.69	71		
 7024	718899	true	closed	false	8		2016-05-27T18:42:24Z	2016-07-14T19:21:10Z	2016-06-01T00:05:35Z	test: fix spurious EADDRINUSE in test-https-strict	132		
 7033	718899	true	closed	false	8		2016-05-28T03:04:33Z	2016-07-11T22:06:26Z	2016-06-01T03:30:45Z	test: make test-child-process-fork-net more robust	174		
@@ -497,7 +497,7 @@
 7586	195826	true	closed	false	7		2016-07-07T15:22:27Z	2016-07-08T12:16:56Z	2016-07-08T08:44:10Z	deps: Add a way to create a function without a prototype	51		
 7587	2512748	true	closed	false	8		2016-07-07T15:24:43Z	2016-07-12T13:26:50Z	2016-07-08T16:03:38Z	src: suppress coverity message	88		
 7588	330102	false	open	false	5		2016-07-07T17:00:28Z	2016-07-09T07:03:00Z		Feature request: passing headers to response.writeContinue()	57		
-7589	1622515	true	open	false	6		2016-07-07T18:12:20Z	2016-07-20T15:54:20Z		repl: Use displayErrors for SyntaxError	99		
+7589	1622515	true	open	false	7		2016-07-07T18:12:20Z	2016-07-27T02:42:17Z		repl: Use displayErrors for SyntaxError	99		
 7590	965036	true	closed	false	10		2016-07-07T18:40:04Z	2016-07-18T13:33:57Z	2016-07-18T13:33:57Z	doc: removed old git conflict markers form fs.md	41		
 7591	3310013	false	closed	false	3		2016-07-07T18:58:29Z	2016-07-13T19:11:28Z	2016-07-13T19:11:28Z	Buffer's indexOf does not seem to handle numbers correctly	178		
 7592	692511	false	open	false	10		2016-07-07T20:29:29Z	2016-07-22T06:45:24Z		Possible bug: instanceof evaluates to true in Node 4 but not Node 6	65		
@@ -527,7 +527,7 @@
 7616	4949308	true	open	false	4		2016-07-08T13:10:27Z	2016-07-11T23:20:17Z		benchmark: Repair http chunked benchmark	116		
 7617	696611	true	closed	false	3	5	2016-07-08T14:34:35Z	2016-07-11T09:10:04Z	2016-07-11T09:10:04Z	tools: make the progress bar spacing consistent	87		
 7618	15943089	false	open	false	9		2016-07-08T14:43:38Z	2016-07-10T20:01:50Z		osx, build: Node v6.3.0 won't build on Clang 3.2 (OSX 10.8 Darwin 12.5.0)	246		
-7619	15952	false	open	false	6		2016-07-08T14:51:25Z	2016-07-12T13:56:26Z		repl: Undocumented public methods on REPLServer.prototype	302		
+7619	15952	false	open	false	7		2016-07-08T14:51:25Z	2016-07-27T00:40:15Z		repl: Undocumented public methods on REPLServer.prototype	302		
 7620	696611	true	closed	false	4	1	2016-07-08T15:16:20Z	2016-07-12T04:16:28Z	2016-07-12T04:16:28Z	Fix py errors	91		
 7621	10833345	false	open	false	1		2016-07-08T16:28:55Z	2016-07-11T11:24:24Z		Cannot install Node.js 4.47 LTS under Win7 x64.	122		
 7622	15952	true	open	false			2016-07-08T17:25:56Z	2016-07-11T17:21:52Z		repl: Use arrow functions for lexical `this`.	60		
@@ -735,11 +735,11 @@
 7824	2352663	true	open	false	8		2016-07-21T14:22:58Z	2016-07-26T07:28:09Z		[WIP] Update V8 to 5.2	65		
 7825	17273637	false	open	false	2		2016-07-21T17:10:50Z	2016-07-21T20:22:53Z		[Windows] Impossible enable SIMD in latest nodejs 6.x.x	23		
 7826	2512748	true	open	false	3		2016-07-21T17:30:23Z	2016-07-22T19:49:00Z		repl: don't override all internal repl defaults	156		
-7827	467627	true	open	false			2016-07-21T19:22:34Z	2016-07-26T22:25:47Z		timers: fix cleanup of nested same-timeout timers	122		
+7827	467627	true	open	false	15		2016-07-21T19:22:34Z	2016-07-27T00:32:54Z		timers: fix cleanup of nested same-timeout timers	122		
 7828	20170894	false	closed	false	14		2016-07-21T20:02:42Z	2016-07-22T05:48:58Z	2016-07-22T05:48:58Z	Support for null terminated strings with Buffer toString?	138		
 7829	1622515	true	open	false	13		2016-07-21T22:46:42Z	2016-07-26T22:13:48Z		repl: remove unused function convertToContext	34		
 7830	718899	true	closed	false	3		2016-07-22T00:19:49Z	2016-07-22T18:32:03Z	2016-07-22T18:32:03Z	tools: enforce loading required modules first	33		
-7831	696611	true	open	false			2016-07-22T03:58:02Z	2016-07-26T14:02:14Z		fs: don't alter user provided `options` object	52		
+7831	696611	true	open	false	5		2016-07-22T03:58:02Z	2016-07-27T04:31:03Z		fs: don't alter user provided `options` object	52		
 7832	96150	true	open	false	0	0	2016-07-22T07:44:22Z	2016-07-22T07:44:22Z		doc: Provide bad/better examples for access() and exists()	45		
 7833	101553	true	open	false	11		2016-07-22T08:08:03Z	2016-07-26T20:48:44Z		deps: cherry-pick a51f429 from V8 upstream 	36		
 7834	101553	true	open	false	3		2016-07-22T08:53:45Z	2016-07-23T04:21:21Z		deps: cherry-pick a51f429 from V8 upstream	38		
@@ -790,6 +790,7 @@
 7879	917978	false	open	false	6		2016-07-26T08:06:07Z	2016-07-26T15:36:04Z		openSync/writeSync/closeSync produces empty file	57		
 7880	2330987	false	open	false	2		2016-07-26T11:37:42Z	2016-07-26T13:07:46Z		Upgrade openssl sources to 1.0.2h broke npm install for me (behind proxy)	103		
 7881	718899	false	open	false	3		2016-07-26T18:11:24Z	2016-07-26T20:31:39Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-07-27	532		
-7882	127666	false	open	false	0		2016-07-26T19:07:04Z	2016-07-26T19:07:04Z		Stop the installer deleting my symlink for AppData\Roaming\npm	2		
+7882	127666	false	open	false	1		2016-07-26T19:07:04Z	2016-07-27T01:58:39Z		Stop the installer deleting my symlink for AppData\Roaming\npm	2		
 7883	1485909	true	open	false	0	0	2016-07-26T22:51:35Z	2016-07-26T22:51:35Z		deps: cherry-pick b93c80a from v8 upstream	57		
 7884	6316590	true	open	false	0	0	2016-07-26T23:34:36Z	2016-07-26T23:34:36Z		doc: add missing windowsVerbatimArguments option in child_process.spawn	53		
+7885	634573	true	open	false	0	0	2016-07-27T02:32:19Z	2016-07-27T02:32:19Z		doc: remove extra space in console.log example	51		

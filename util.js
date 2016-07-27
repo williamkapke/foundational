@@ -12,6 +12,9 @@ const unescape = (v) => {
   if (v[0] !== '"') return v
   return v.substr(1, v.length-2).replace(/""/g, '"').replace(/\\t/g, '\t')
 }
+
+function words(v) { return Number(v) }
+
 const util = module.exports = {
   events: (date) =>
     fs.readFileSync(`./data/events/${dt(date)}.tsv`).toString()
@@ -35,7 +38,7 @@ const util = module.exports = {
     save: function (path, obj, columns) {
       var out = Object.keys(obj).map(Number).sort(asc).map((id) =>
         columns.map((col) =>
-          col === 'id' ? id : escape(obj[id][col])
+          col === 'id' ? id : escape(obj[id][col.name || col])
         )
         .join('\t')
       )
@@ -49,15 +52,20 @@ const util = module.exports = {
         const parts = line.split('\t')
         const row = out[parts[0]] = {}
         parts.forEach((part, i) => {
-          row[columns[i]] = unescape(part)
+          const col = columns[i]
+          if(typeof col === 'function') {
+            return row[col.name] = col(part)
+          }
+
+          row[col] = unescape(part)
         })
       })
       return out
     }
   },
   columns: {
-    comments: ['id', 'number', 'user', 'pr', 'created_at', 'updated_at', 'words', 'path'],
-    issues: ['id', 'user', 'pr', 'state', 'locked', 'comments', 'review_comments', 'created_at', 'updated_at', 'closed_at', 'title', 'words', 'merged_by', 'merged_at'],
+    comments: ['id', 'number', 'user', 'pr', 'created_at', 'updated_at', words, 'path'],
+    issues: ['id', 'user', 'pr', 'state', 'locked', 'comments', 'review_comments', 'created_at', 'updated_at', 'closed_at', 'title', words, 'merged_by', 'merged_at'],
     users: ['id', 'login']
   },
   escape,
