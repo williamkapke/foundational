@@ -96,6 +96,7 @@
 5703	15952	true	closed	false	27		2016-03-14T20:52:17Z	2016-07-21T14:40:07Z	2016-06-30T17:08:42Z	repl: Default `useGlobal` to false in CLI REPL.	139		
 5730	459764	false	closed	false	12		2016-03-15T23:20:35Z	2016-07-06T15:27:04Z	2016-07-06T15:27:04Z	REPL started with replServer doesn't persist history	182		
 5745	439929	true	closed	false	23	0	2016-03-16T21:21:26Z	2016-07-05T17:55:53Z	2016-07-05T17:55:53Z	buffer: backport --zero-fill-buffers command line option	130		
+5757	514417	false	open	false	3		2016-03-17T09:16:05Z	2016-07-27T11:45:06Z		net.Socket has no setConnectionTimeout(timeout) method	37		
 5798	17942010	false	open	false	115		2016-03-19T05:47:12Z	2016-07-25T23:34:06Z		Use system random generator in crypto	33		
 5848	718899	false	closed	false	6		2016-03-22T18:47:04Z	2016-06-29T22:36:15Z	2016-06-29T22:36:15Z	Investigate flaky test-dgram-send-callback-buffer-length	30		
 5900	7657959	false	open	false	35		2016-03-25T12:02:48Z	2016-07-13T05:29:23Z		Segmentation fault in node v5.*	191		
@@ -369,6 +370,7 @@
 7451	498775	true	closed	false	16	2	2016-06-28T00:12:14Z	2016-06-29T23:06:16Z	2016-06-29T23:06:16Z	[v4.x backport] test: run v8 tests from node tree	130	498775	2016-06-29T23:06:16Z
 7454	1272762	false	closed	false	40		2016-06-28T04:16:21Z	2016-07-18T09:27:46Z	2016-07-11T13:10:31Z	version 6.2.1 always got Segment Fault error and crash	68		
 7455	96150	true	open	false	17		2016-06-28T05:34:07Z	2016-07-22T07:46:07Z		fs: undeprecate existsSync; use access instead of stat for performance	88		
+7458	8720367	false	open	false	1		2016-06-28T10:58:32Z	2016-07-27T11:41:08Z		Built-in properties cannot be accessed using Reflect, when Proxy is passed as vm context	95		
 7460	498775	true	closed	false	5	0	2016-06-28T18:37:57Z	2016-06-29T21:33:45Z	2016-06-29T21:33:45Z	tools: explicit path for V8 test tap output	147	498775	2016-06-29T21:33:45Z
 7461	715626	false	closed	false	5		2016-06-28T18:43:05Z	2016-07-06T05:18:37Z	2016-07-06T05:09:34Z	path.dirname used in loop	144		
 7462	275871	true	closed	false	15		2016-06-28T19:49:00Z	2016-07-12T02:05:40Z	2016-06-29T08:51:13Z	Upgrade cpplint	25		
@@ -666,18 +668,18 @@
 7755	164625	false	open	false	6		2016-07-15T21:43:49Z	2016-07-16T18:48:23Z		If node is started with --debug a space appears on the following line	15		
 7756	1018196	true	open	false	2		2016-07-15T21:45:58Z	2016-07-16T15:06:05Z		Fixes #7742: node --inspect should fire Runtime.executionContextDestoyed when script finishes executing	116		
 7757	899444	true	open	false	11		2016-07-15T22:46:35Z	2016-07-25T09:19:56Z		doc: use blockquotes for Stability: markers	35		
-7758	10393198	true	open	false	7		2016-07-16T01:33:16Z	2016-07-20T05:36:23Z		test: decrease inconsistency in the common.js	135		
+7758	10393198	true	open	false	8		2016-07-16T01:33:16Z	2016-07-27T11:46:20Z		test: decrease inconsistency in the common.js	135		
 7759	238531	true	closed	false	11		2016-07-16T04:05:05Z	2016-07-17T05:05:57Z	2016-07-17T05:05:57Z	deps: no /safeseh for ml64.exe	59		
 7760	546900	false	closed	false	4		2016-07-16T10:05:44Z	2016-07-16T16:33:19Z	2016-07-16T13:18:30Z	get current node version OR tag latest	48		
 7761	14905903	false	open	false	0		2016-07-16T13:05:06Z	2016-07-16T13:05:06Z		Node JS: graceful fs	86		
-7762	275871	true	open	false	0	0	2016-07-16T14:24:37Z	2016-07-16T14:24:37Z		build: don't link against liblog on host system	18		
-7763	1110797	true	open	false	3		2016-07-16T16:42:47Z	2016-07-20T17:47:20Z		Minor typo fixes in stream docs.	32		
+7762	275871	true	open	false	1		2016-07-16T14:24:37Z	2016-07-27T11:35:46Z		build: don't link against liblog on host system	32		
+7763	1110797	true	open	false	4		2016-07-16T16:42:47Z	2016-07-27T11:42:55Z		Minor typo fixes in stream docs.	32		
 7764	988441	true	open	false	8		2016-07-16T17:21:26Z	2016-07-18T16:49:46Z		src: don't include a null character in the WriteConsoleW call	63		
 7765	718899	true	open	false	0	0	2016-07-16T20:28:11Z	2016-07-16T20:28:11Z		test: remove flaky status IPv6 localhost tests	59		
 7766	718899	true	closed	false	10		2016-07-16T20:46:38Z	2016-07-20T17:40:50Z	2016-07-20T17:40:50Z	test: handle IPv6 localhost issues within tests	56		
 7767	718899	false	open	false	3		2016-07-16T20:52:23Z	2016-07-16T23:48:26Z		Investigate flaky test-vm-sigint	46		
 7768	718899	true	closed	false	9		2016-07-16T21:21:32Z	2016-07-20T04:04:16Z	2016-07-20T04:04:16Z	test: ensure callback runs in test-vm-sigint	44		
-7769	1651212	true	open	false	9		2016-07-16T21:32:30Z	2016-07-25T03:59:11Z		doc: add npm link to Readme, general cleanup	35		
+7769	1651212	true	open	false	10		2016-07-16T21:32:30Z	2016-07-27T11:40:04Z		doc: add npm link to Readme, general cleanup	35		
 7770	10796236	false	closed	false	10		2016-07-17T10:00:26Z	2016-07-18T23:16:37Z	2016-07-18T07:49:46Z	arm and LD_LIBRARY_PATH (ld-linux-armhf.so.3: No such file or directory)	94		
 7771	6609554	true	closed	false	19		2016-07-17T16:12:09Z	2016-07-25T15:53:10Z	2016-07-19T21:53:57Z	deps: cherry-pick 2b4c9c1 from v8 upstream	148		
 7772	718899	true	closed	false	15		2016-07-17T16:41:46Z	2016-07-21T20:42:52Z	2016-07-20T16:58:33Z	test: increase RAM requirement for intensive tests	102		
@@ -686,12 +688,12 @@
 7775	899444	true	closed	false	9		2016-07-17T21:03:46Z	2016-07-25T08:03:09Z	2016-07-25T08:03:09Z	doc: fix `added:` date for `NODE_REPL_HISTORY`	46		
 7776	11649301	false	closed	false	14		2016-07-17T22:09:51Z	2016-07-27T07:00:47Z	2016-07-25T15:17:11Z	ECONNRESET problem with http.Server and https.Server (node 6.3, 6.2.2 and poss earlier)	258		
 7777	4380	true	open	false	2		2016-07-17T22:09:55Z	2016-07-18T14:30:12Z		doc: correct sample output of buf.compare	35		
-7778	168508	true	open	false	4		2016-07-17T23:20:23Z	2016-07-22T07:53:26Z		src: Only use the TR1 type_traits when targeting OSX<10.9	88		
+7778	168508	true	open	false	5		2016-07-17T23:20:23Z	2016-07-27T11:22:58Z		src: Only use the TR1 type_traits when targeting OSX<10.9	88		
 7779	444344	false	open	false	0		2016-07-18T05:06:44Z	2016-07-18T05:06:44Z		Node.js can't serialize JAVASCRIPT Object Notation faster than others functional platforms	16		
 7780	341600	false	closed	false	4		2016-07-18T10:57:51Z	2016-07-24T10:32:35Z	2016-07-24T10:32:35Z	path.format works wrong on Windows	87		
 7781	15943089	true	open	false	3		2016-07-18T11:00:13Z	2016-07-18T22:28:22Z		test: avoid connecting to :: in test-net-timeout	115		
 7782	677994	true	closed	false	24		2016-07-18T12:35:29Z	2016-07-25T10:31:19Z	2016-07-21T22:27:50Z	v6.3.1 Release Proposal	1061		
-7783	8297234	true	open	false	5		2016-07-18T16:03:33Z	2016-07-22T18:18:10Z		doc: remove platform assumption from CONTRIBUTING	46		
+7783	8297234	true	open	false	6		2016-07-18T16:03:33Z	2016-07-27T11:19:59Z		doc: remove platform assumption from CONTRIBUTING	46		
 7784	54666	true	closed	false	7	24	2016-07-18T16:52:23Z	2016-07-22T21:44:20Z	2016-07-22T21:44:19Z	doc: make general improvements to Buffer docs	70	54666	2016-07-22T21:44:19Z
 7785	4257305	false	open	false	14		2016-07-18T17:49:08Z	2016-07-19T00:51:30Z		--gdbjit segfaults in semver	61		
 7786	696611	true	closed	false	9		2016-07-18T20:38:36Z	2016-07-22T02:58:53Z	2016-07-22T00:17:19Z	test: make import common as the first line	63		
@@ -707,7 +709,7 @@
 7796	79017	true	open	false	16		2016-07-19T19:34:41Z	2016-07-27T07:11:23Z		deps: update v8_inspector	111		
 7797	5108906	true	open	false	5		2016-07-19T19:47:53Z	2016-07-20T15:57:15Z		Correcting misspelling	51		
 7798	134460	true	open	false			2016-07-19T21:27:27Z	2016-07-25T06:57:57Z		win,msi: fix inclusion of translations	77		
-7799	899444	true	open	false	2		2016-07-19T23:11:24Z	2016-07-20T09:23:38Z		doc: correct crypto encoding information (v4.x)	46		
+7799	899444	true	open	false	3		2016-07-19T23:11:24Z	2016-07-27T11:13:00Z		doc: correct crypto encoding information (v4.x)	46		
 7800	20051926	false	open	false	0		2016-07-19T23:43:34Z	2016-07-19T23:43:34Z		Node ffi returns correct value for the first time and then gives segmentation fault:11	248		
 7801	5438027	true	closed	false	5		2016-07-19T23:45:12Z	2016-07-20T07:56:10Z	2016-07-20T00:07:57Z	doc: update readme with andrasq as a collaborator	25		
 7802	1356314	true	open	false	2		2016-07-20T01:06:22Z	2016-07-20T07:28:14Z		deps: cherry-pick 6f68f30 from v8 upstream	106		
@@ -741,7 +743,7 @@
 7830	718899	true	closed	false	3		2016-07-22T00:19:49Z	2016-07-22T18:32:03Z	2016-07-22T18:32:03Z	tools: enforce loading required modules first	33		
 7831	696611	true	open	false	6		2016-07-22T03:58:02Z	2016-07-27T07:32:01Z		fs: don't alter user provided `options` object	52		
 7832	96150	true	open	false	0	0	2016-07-22T07:44:22Z	2016-07-22T07:44:22Z		doc: Provide bad/better examples for access() and exists()	45		
-7833	101553	true	open	false	13		2016-07-22T08:08:03Z	2016-07-27T10:25:11Z		deps: cherry-pick a51f429 from V8 upstream 	36		
+7833	101553	true	open	false	15		2016-07-22T08:08:03Z	2016-07-27T11:26:11Z		deps: cherry-pick a51f429 from V8 upstream 	36		
 7834	101553	true	open	false	3		2016-07-22T08:53:45Z	2016-07-23T04:21:21Z		deps: cherry-pick a51f429 from V8 upstream	38		
 7835	5707457	false	closed	false	5		2016-07-22T13:04:17Z	2016-07-24T16:26:35Z	2016-07-22T13:55:51Z	url lib can't find host for protocol relative URLs	56		
 7836	1148215	false	open	false	0		2016-07-22T14:12:47Z	2016-07-22T14:12:47Z		Please update minimatch	20		
@@ -799,6 +801,6 @@
 7888	397862	false	closed	false	2		2016-07-27T05:55:10Z	2016-07-27T07:01:00Z	2016-07-27T06:56:11Z	Can't break with node v6.3.1 on linux x64 and the debugger keyword	101		
 7889	5220101	false	closed	false	0		2016-07-27T07:24:04Z	2016-07-27T09:09:34Z	2016-07-27T09:09:34Z	incrementing a number in global namespace must be done twice	100		
 7890	1495995	false	open	false	4		2016-07-27T08:26:45Z	2016-07-27T10:31:35Z		OUTPUT_FORMAT=csv option is missing from benchmark/common.js	62		
-7891	1593308	false	open	false	1		2016-07-27T09:25:43Z	2016-07-27T10:32:20Z		node --inspect: dev tools console not working	62		
+7891	1593308	false	open	false	2		2016-07-27T09:25:43Z	2016-07-27T11:22:33Z		node --inspect: dev tools console not working	62		
 7892	8198457	false	open	false	0		2016-07-27T09:39:14Z	2016-07-27T09:39:14Z		Checking whether an array's constructor is === Array fails	333		
-7893	432351	true	open	false	0	0	2016-07-27T10:05:35Z	2016-07-27T10:05:35Z		build: adding a clean-addons target to Makefile	209		
+7893	432351	true	open	false	2		2016-07-27T10:05:35Z	2016-07-27T11:11:28Z		build: adding a clean-addons target to Makefile	209		
