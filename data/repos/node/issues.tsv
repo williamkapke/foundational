@@ -228,7 +228,7 @@
 7094	505333	true	closed	false	42		2016-06-01T15:18:38Z	2016-07-27T09:27:20Z	2016-07-26T12:25:16Z	Refactor benchmark tools for statistical significance	603		
 7095	238531	true	open	false	10		2016-06-01T16:28:23Z	2016-07-22T17:42:01Z		deps: cherry-pick 9fa206e from v8's upstream	108		
 7104	718899	true	closed	false	10		2016-06-02T06:18:40Z	2016-07-11T22:26:03Z	2016-06-04T21:25:37Z	repl: refine handling of illegal tokens	75		
-7123	498775	false	open	false	17		2016-06-03T01:04:12Z	2016-07-15T16:14:05Z		Do we need to include any new licenses when we ship the new v8 inspector?	64		
+7123	498775	false	closed	false	17		2016-06-03T01:04:12Z	2016-07-27T14:36:28Z	2016-07-27T14:36:28Z	Do we need to include any new licenses when we ship the new v8 inspector?	64		
 7132	1084056	true	closed	false	10		2016-06-03T12:49:16Z	2016-07-12T07:01:48Z	2016-06-08T13:52:41Z	cluster: don't send messages if no IPC channel	53		
 7137	439929	true	open	false			2016-06-03T19:17:45Z	2016-07-05T00:13:18Z		doc: general improvements to net.md copy	33		
 7149	238531	true	closed	false	6		2016-06-04T04:02:49Z	2016-07-11T22:37:04Z	2016-06-06T17:34:31Z	http: wait for both prefinish/end to keepalive	80		
@@ -564,7 +564,7 @@
 7651	16474118	false	closed	false	5		2016-07-11T09:01:22Z	2016-07-15T07:11:56Z	2016-07-15T07:11:56Z	Node js down when init static openssl engines	49		
 7652	1057018	false	open	false	1		2016-07-11T09:29:04Z	2016-07-11T12:12:34Z		child_process.spawn execution is significantly slower than running command directly from shell	191		
 7653	2820968	false	closed	false	7		2016-07-11T11:40:13Z	2016-07-11T14:31:29Z	2016-07-11T12:53:03Z	A shell is spawning every time we spawn a child process on Windows	69		
-7654	4551130	false	open	false	8		2016-07-11T11:54:59Z	2016-07-26T13:27:02Z		v8 GC crash on node 4.4.7	271		
+7654	4551130	false	open	false	9		2016-07-11T11:54:59Z	2016-07-27T14:17:02Z		v8 GC crash on node 4.4.7	271		
 7655	1449826	false	open	false	7		2016-07-11T12:15:57Z	2016-07-13T02:18:50Z		External objects should not be modified	73		
 7656	419466	false	open	false	6		2016-07-11T13:00:04Z	2016-07-12T18:01:20Z		Composition vs. prototype for module exports	68		
 7657	2197250	false	open	false	3		2016-07-11T14:11:57Z	2016-07-15T17:45:45Z		IPC can freeze the process	514		
@@ -644,9 +644,9 @@
 7731	2034108	false	closed	false	11		2016-07-14T13:41:32Z	2016-07-15T12:07:27Z	2016-07-15T12:07:27Z	failure trying to compile for arm64+android	239		
 7732	1083944	false	open	false	8		2016-07-14T14:44:14Z	2016-07-18T21:09:35Z		http.IncomingMessage omits events when aborted on client side 	273		
 7733	15943089	false	closed	false	2		2016-07-14T15:09:39Z	2016-07-22T10:58:01Z	2016-07-22T10:58:01Z	win: coredumps with --abort-on-uncaught-exception	186		
-7734	13737185	false	open	false	8		2016-07-14T15:13:28Z	2016-07-18T18:09:55Z		Windows build failed for v6.3.0	184		
+7734	13737185	false	closed	false	9		2016-07-14T15:13:28Z	2016-07-27T14:36:28Z	2016-07-27T14:36:28Z	Windows build failed for v6.3.0	184		
 7735	2512748	true	closed	false	6	1	2016-07-14T15:32:09Z	2016-07-15T19:55:54Z	2016-07-15T19:55:53Z	test: s/assert.fail/common.fail as appropriate	68	2512748	2016-07-15T19:55:53Z
-7736	1018196	false	open	false	1		2016-07-14T15:58:12Z	2016-07-14T21:35:44Z		node --inspect sending ints as floats	128		
+7736	1018196	false	closed	false	2		2016-07-14T15:58:12Z	2016-07-27T14:36:28Z	2016-07-27T14:36:28Z	node --inspect sending ints as floats	128		
 7737	696611	true	open	false	3		2016-07-14T16:04:21Z	2016-07-15T07:22:44Z		Remove test full http	107		
 7738	7981701	true	closed	false	5	0	2016-07-14T17:00:17Z	2016-07-15T15:00:40Z	2016-07-15T15:00:40Z	doc: fix typo in stream doc	34		
 7739	498775	true	closed	false	10		2016-07-14T19:14:43Z	2016-07-20T17:36:23Z	2016-07-20T17:36:23Z	Child.send boolean	174		
@@ -706,7 +706,7 @@
 7793	2512748	true	closed	false	3	0	2016-07-19T15:40:48Z	2016-07-20T17:04:52Z	2016-07-20T17:04:52Z	test: add known issue test for #7788	69	2512748	2016-07-20T17:04:52Z
 7794	1622515	true	closed	false	3		2016-07-19T18:12:14Z	2016-07-21T11:43:30Z	2016-07-21T11:43:30Z	repl: Mitigate vm #548 function redefinition issue	73		
 7795	2512748	true	open	false	7		2016-07-19T18:46:21Z	2016-07-21T14:28:11Z		repl: default useGlobal to true	76		
-7796	79017	true	open	false	16		2016-07-19T19:34:41Z	2016-07-27T07:11:23Z		deps: update v8_inspector	111		
+7796	79017	true	closed	false	16	1	2016-07-19T19:34:41Z	2016-07-27T14:36:28Z	2016-07-27T14:36:28Z	deps: update v8_inspector	111	79017	2016-07-27T14:36:28Z
 7797	5108906	true	open	false	5		2016-07-19T19:47:53Z	2016-07-20T15:57:15Z		Correcting misspelling	51		
 7798	134460	true	open	false			2016-07-19T21:27:27Z	2016-07-25T06:57:57Z		win,msi: fix inclusion of translations	77		
 7799	899444	true	open	false	3		2016-07-19T23:11:24Z	2016-07-27T11:13:00Z		doc: correct crypto encoding information (v4.x)	46		
@@ -734,7 +734,7 @@
 7821	632426	false	closed	false	12		2016-07-21T13:46:18Z	2016-07-22T22:46:04Z	2016-07-22T22:46:04Z	TLS: newSession breaks with Safari and curl on OSX (but not most other clients)	120		
 7822	1443911	true	open	false	3		2016-07-21T14:03:39Z	2016-07-21T17:03:58Z		doc: add `added:` information for events	27		
 7823	122434	false	open	false	2		2016-07-21T14:10:31Z	2016-07-22T06:10:46Z		Rely on toJSON in querystring.stringify	50		
-7824	2352663	true	open	false	9		2016-07-21T14:22:58Z	2016-07-27T08:47:51Z		[WIP] Update V8 to 5.2	65		
+7824	2352663	true	open	false	10		2016-07-21T14:22:58Z	2016-07-27T14:22:00Z		[WIP] Update V8 to 5.2	65		
 7825	17273637	false	open	false	2		2016-07-21T17:10:50Z	2016-07-21T20:22:53Z		[Windows] Impossible enable SIMD in latest nodejs 6.x.x	23		
 7826	2512748	true	open	false	3		2016-07-21T17:30:23Z	2016-07-22T19:49:00Z		repl: don't override all internal repl defaults	156		
 7827	467627	true	open	false	15		2016-07-21T19:22:34Z	2016-07-27T00:32:54Z		timers: fix cleanup of nested same-timeout timers	122		
@@ -801,8 +801,8 @@
 7888	397862	false	closed	false	2		2016-07-27T05:55:10Z	2016-07-27T07:01:00Z	2016-07-27T06:56:11Z	Can't break with node v6.3.1 on linux x64 and the debugger keyword	101		
 7889	5220101	false	closed	false	0		2016-07-27T07:24:04Z	2016-07-27T09:09:34Z	2016-07-27T09:09:34Z	incrementing a number in global namespace must be done twice	100		
 7890	1495995	false	open	false	4		2016-07-27T08:26:45Z	2016-07-27T10:31:35Z		OUTPUT_FORMAT=csv option is missing from benchmark/common.js	62		
-7891	1593308	false	open	false	2		2016-07-27T09:25:43Z	2016-07-27T11:22:33Z		node --inspect: dev tools console not working	62		
+7891	1593308	false	open	false	3		2016-07-27T09:25:43Z	2016-07-27T14:58:05Z		node --inspect: dev tools console not working	62		
 7892	8198457	false	open	false	0		2016-07-27T09:39:14Z	2016-07-27T09:39:14Z		Checking whether an array's constructor is === Array fails	333		
 7893	432351	true	open	false	2		2016-07-27T10:05:35Z	2016-07-27T11:11:28Z		build: adding a clean-addons target to Makefile	209		
 7894	1651212	true	open	false	0	0	2016-07-27T12:41:26Z	2016-07-27T12:41:26Z		doc: add npm link and cleanup Readme	46		
-7895	4949308	true	open	false	0	0	2016-07-27T13:28:10Z	2016-07-27T13:28:10Z		build: Maximize the default V8 inliner flags values	90		
+7895	4949308	true	open	false	2		2016-07-27T13:28:10Z	2016-07-27T14:13:43Z		build: Maximize the default V8 inliner flags values	90		
