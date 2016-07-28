@@ -28,7 +28,7 @@
 2569	13315	true	open	false	26		2015-08-27T04:34:55Z	2016-07-14T03:03:33Z		Add zh-CN i18n support for Windows installer	15		
 2642	2645436	false	open	false	30		2015-09-02T06:06:18Z	2016-06-30T18:50:44Z		Keep alive connection do not get closed with server.close()	106		
 2681	439929	false	closed	false	5		2015-09-03T15:40:56Z	2016-06-30T23:21:20Z	2016-06-30T23:21:20Z	child_process: execFile and fork arg parsing ambiguity	136		
-2833	1211152	false	closed	false	24		2015-09-12T14:09:10Z	2016-07-28T07:51:23Z	2016-03-09T09:20:02Z	Node.js `crypto` and the WebCrypto API	150		
+2833	1211152	false	closed	false	25		2015-09-12T14:09:10Z	2016-07-28T18:35:58Z	2016-03-09T09:20:02Z	Node.js `crypto` and the WebCrypto API	150		
 2883	126482	true	open	false	4		2015-09-15T17:33:30Z	2016-06-29T12:07:18Z		Makefile: use existing variable to reduce complexity	2		
 2982	170023	true	open	false	7		2015-09-21T14:10:33Z	2016-07-01T16:26:45Z		readline: add option to stop duplicates in history	161		
 3009	112555	false	closed	false	10		2015-09-22T19:15:53Z	2016-07-12T15:55:34Z	2016-04-09T05:21:32Z	Sending a body with a GET request using http.request cannot be received using http.server	235		
@@ -742,7 +742,7 @@
 7824	2352663	true	open	false	12		2016-07-21T14:22:58Z	2016-07-27T18:49:23Z		[WIP] Update V8 to 5.2	65		
 7825	17273637	false	open	false	2		2016-07-21T17:10:50Z	2016-07-21T20:22:53Z		[Windows] Impossible enable SIMD in latest nodejs 6.x.x	23		
 7826	2512748	true	open	false	3		2016-07-21T17:30:23Z	2016-07-22T19:49:00Z		repl: don't override all internal repl defaults	156		
-7827	467627	true	open	false	19		2016-07-21T19:22:34Z	2016-07-28T15:22:21Z		timers: fix cleanup of nested same-timeout timers	122		
+7827	467627	true	open	false	20		2016-07-21T19:22:34Z	2016-07-28T18:12:43Z		timers: fix cleanup of nested same-timeout timers	122		
 7828	20170894	false	closed	false	14		2016-07-21T20:02:42Z	2016-07-22T05:48:58Z	2016-07-22T05:48:58Z	Support for null terminated strings with Buffer toString?	138		
 7829	1622515	true	open	false	19		2016-07-21T22:46:42Z	2016-07-28T16:38:00Z		repl: deprecate unused function convertToContext	34		
 7830	718899	true	closed	false	3		2016-07-22T00:19:49Z	2016-07-22T18:32:03Z	2016-07-22T18:32:03Z	tools: enforce loading required modules first	33		
@@ -752,7 +752,7 @@
 7834	101553	true	open	false	3		2016-07-22T08:53:45Z	2016-07-23T04:21:21Z		deps: cherry-pick a51f429 from V8 upstream	38		
 7835	5707457	false	closed	false	5		2016-07-22T13:04:17Z	2016-07-24T16:26:35Z	2016-07-22T13:55:51Z	url lib can't find host for protocol relative URLs	56		
 7836	1148215	false	open	false	0		2016-07-22T14:12:47Z	2016-07-22T14:12:47Z		Please update minimatch	20		
-7837	988441	false	open	false	1		2016-07-22T15:55:19Z	2016-07-28T16:56:05Z		REPL sometimes prints no output on Windows	23		
+7837	988441	false	open	false	2		2016-07-22T15:55:19Z	2016-07-28T18:56:03Z		REPL sometimes prints no output on Windows	23		
 7838	2512748	true	open	false			2016-07-22T16:11:39Z	2016-07-26T20:44:09Z		cluster: support stdio option for workers	60		
 7839	2512748	true	open	false	4		2016-07-22T16:25:27Z	2016-07-23T07:38:20Z		src: remove unused IsInt64() function	53		
 7840	5590711	false	open	false	3		2016-07-22T17:17:22Z	2016-07-23T08:33:52Z		node v5.5.0 compile on OmniOS: failed to resolve V8DB G_OFF_FP_CONTEXT: Unknown variable name	81		
@@ -761,7 +761,7 @@
 7843	855219	false	open	false	0		2016-07-22T19:17:46Z	2016-07-22T19:17:46Z		deps: fix TODO in tools/icu/README.md	12		
 7844	855219	false	open	false	4		2016-07-22T19:21:27Z	2016-07-22T20:02:36Z		deps: Intl: ICU 58 bump	32		
 7845	1084056	true	open	false	10		2016-07-22T22:02:05Z	2016-07-27T06:29:42Z		test: use common platform helpers everywhere	63		
-7846	498775	true	open	false	19		2016-07-22T23:46:39Z	2016-07-28T17:35:45Z		Revert fs changes	246		
+7846	498775	true	open	false	21		2016-07-22T23:46:39Z	2016-07-28T18:17:31Z		Revert fs changes	246		
 7847	54666	true	open	false	8		2016-07-23T03:26:28Z	2016-07-26T17:05:20Z		doc: improve https module documentation	57		
 7848	718899	false	open	false	7		2016-07-23T03:35:07Z	2016-07-26T18:07:37Z		Role of CTC in semver-major changes needs clarification	205		
 7849	1622515	true	closed	false	5		2016-07-23T06:46:26Z	2016-07-28T03:33:02Z	2016-07-28T03:33:02Z	doc: align breakEvalOnSigint - repl option	33		
@@ -813,10 +813,10 @@
 7895	4949308	true	open	false	4		2016-07-27T13:28:10Z	2016-07-28T17:15:41Z		build: Maximize the default V8 inliner flags values	90		
 7896	7308528	false	closed	false	1		2016-07-27T16:55:37Z	2016-07-27T17:25:38Z	2016-07-27T17:25:38Z	I need nodeJS v5 in intel edison to run angular 2 app - issue	52		
 7897	696611	true	open	false	5		2016-07-27T17:02:57Z	2016-07-28T08:15:17Z		fs: warn instead of throwing if no callback	100		
-7898	1005116	true	open	false	2		2016-07-27T18:12:08Z	2016-07-28T17:04:45Z		benchmark: http parser optimization	194		
+7898	1005116	true	open	false	3		2016-07-27T18:12:08Z	2016-07-28T18:19:26Z		benchmark: http parser optimization	194		
 7899	17704638	true	open	false	7		2016-07-27T18:12:17Z	2016-07-28T16:58:50Z		fs: restore javascript realpath implementation	162		
 7900	739813	true	open	false	3		2016-07-27T22:43:54Z	2016-07-28T17:52:25Z		doc: add CTC meeting minutes 2016-07-27	33		
-7901	54479	false	open	false	1		2016-07-27T22:59:05Z	2016-07-28T02:14:11Z		Incorrect version of Node package in Yum repo	329		
+7901	54479	false	closed	false	2		2016-07-27T22:59:05Z	2016-07-28T18:50:34Z	2016-07-28T02:15:01Z	Incorrect version of Node package in Yum repo	329		
 7902	110455	false	open	false	1		2016-07-27T23:57:01Z	2016-07-28T07:22:28Z		<=v4: process.hrtime() segfaults on arrays with error-throwing accessors	123		
 7903	2703309	false	open	false	2		2016-07-28T02:45:05Z	2016-07-28T10:46:30Z		Feature. Set DNS server port for DNS client	50		
 7904	2352663	false	open	false	5		2016-07-28T08:04:07Z	2016-07-28T13:23:43Z		V8 version for 7.0.0 release	156		
@@ -826,4 +826,6 @@
 7908	101553	true	open	false	4		2016-07-28T11:28:58Z	2016-07-28T17:32:08Z		Do not copy value onto vm sandbox in strict mode	70		
 7909	9951818	false	open	false	0		2016-07-28T14:21:38Z	2016-07-28T14:21:38Z		How to get the source port (not destination) when doing client.send()	135		
 7910	1217455	false	open	false	0		2016-07-28T14:48:28Z	2016-07-28T14:48:28Z		Stream stops reading from kernel halfway through in http.IncomingMessage	365		
-7911	11440885	true	open	false	1		2016-07-28T15:34:12Z	2016-07-28T17:06:48Z		doc: typo added missing semicolons	14		
+7911	11440885	true	open	false	3		2016-07-28T15:34:12Z	2016-07-28T18:30:45Z		doc: typo added missing semicolons	14		
+7912	498775	false	open	false	0		2016-07-28T18:16:36Z	2016-07-28T18:16:36Z		Document process for Semver Major Changes	44		
+7913	18434909	false	open	false	0		2016-07-28T18:48:10Z	2016-07-28T18:48:10Z		websocket server	280		
