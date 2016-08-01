@@ -101,6 +101,7 @@
 5599	711968	true	open	false	5		2016-03-08T15:41:12Z	2016-07-30T08:08:18Z		Bugfix cpplint windows path	103		
 5656	495647	true	open	false	5		2016-03-11T07:32:35Z	2016-07-02T05:13:27Z		 Refactor mac installer (built on #2571)	312		
 5659	15952	false	closed	false	22		2016-03-11T16:00:53Z	2016-07-22T20:01:30Z	2016-06-30T17:08:41Z	repl: useGlobal docs and code mismatch	127		
+5687	1699593	false	closed	false	8		2016-03-13T18:58:57Z	2016-08-01T12:36:42Z	2016-03-13T19:12:46Z	Promise.all is not a function	77		
 5703	15952	true	closed	false	27		2016-03-14T20:52:17Z	2016-07-21T14:40:07Z	2016-06-30T17:08:42Z	repl: Default `useGlobal` to false in CLI REPL.	139		
 5730	459764	false	closed	false	12		2016-03-15T23:20:35Z	2016-07-06T15:27:04Z	2016-07-06T15:27:04Z	REPL started with replServer doesn't persist history	182		
 5745	439929	true	closed	false	23	0	2016-03-16T21:21:26Z	2016-07-05T17:55:53Z	2016-07-05T17:55:53Z	buffer: backport --zero-fill-buffers command line option	130		
@@ -678,7 +679,7 @@
 7755	164625	false	open	false	6		2016-07-15T21:43:49Z	2016-07-16T18:48:23Z		If node is started with --debug a space appears on the following line	15		
 7756	1018196	true	open	false	11		2016-07-15T21:45:58Z	2016-07-29T22:07:36Z		Fixes #7742: src: --inspect notify contextDestroyed	115		
 7757	899444	true	open	false	11		2016-07-15T22:46:35Z	2016-07-25T09:19:56Z		doc: use blockquotes for Stability: markers	35		
-7758	10393198	true	open	false	9		2016-07-16T01:33:16Z	2016-08-01T11:46:32Z		test: decrease inconsistency in the common.js	135		
+7758	10393198	true	closed	false	10		2016-07-16T01:33:16Z	2016-08-01T12:28:11Z	2016-08-01T12:28:11Z	test: decrease inconsistency in the common.js	135		
 7759	238531	true	closed	false	11		2016-07-16T04:05:05Z	2016-07-17T05:05:57Z	2016-07-17T05:05:57Z	deps: no /safeseh for ml64.exe	59		
 7760	546900	false	closed	false	4		2016-07-16T10:05:44Z	2016-07-16T16:33:19Z	2016-07-16T13:18:30Z	get current node version OR tag latest	48		
 7761	14905903	false	open	false	0		2016-07-16T13:05:06Z	2016-07-16T13:05:06Z		Node JS: graceful fs	86		
@@ -776,7 +777,7 @@
 7853	516780	false	open	false	3		2016-07-23T19:28:07Z	2016-07-25T03:33:36Z		node --debug takes a really long time to respond to websockets	180		
 7854	1084056	true	open	false	9		2016-07-23T20:09:19Z	2016-07-31T21:09:14Z		test: fix test-vm-sigint flakiness	68		
 7855	1422781	true	open	false	3		2016-07-23T20:38:28Z	2016-07-24T13:31:31Z		dgram: setMulticastInterface() outgoing interface selection	76		
-7856	373545	true	open	false			2016-07-23T20:49:58Z	2016-08-01T09:34:26Z		fs: Fix default params for fs.write	64		
+7856	373545	true	open	false			2016-07-23T20:49:58Z	2016-08-01T12:55:25Z		fs: Fix default params for fs.write	64		
 7857	718899	true	closed	false	26		2016-07-23T21:15:43Z	2016-07-31T20:33:10Z	2016-07-31T20:33:10Z	test: fix flaky test-tls-wrap-timeout	59		
 7858	3524633	false	closed	false	11		2016-07-24T00:23:34Z	2016-07-26T14:21:50Z	2016-07-25T15:53:16Z	Add fsevents to NodeJS	211		
 7859	1084056	true	closed	false	9	5	2016-07-24T06:28:47Z	2016-07-31T21:08:12Z	2016-07-31T21:08:12Z	tools,test: show signal code when test crashes	31	1084056	2016-07-31T21:08:12Z
