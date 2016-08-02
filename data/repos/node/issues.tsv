@@ -164,7 +164,7 @@
 6624	94334	false	open	false	6		2016-05-06T13:09:57Z	2016-07-03T18:06:29Z		On Windows, Node can be inconsistent in what case builtin functions use for drive letters	193		
 6647	501424	false	closed	false	3		2016-05-09T08:59:50Z	2016-06-29T15:43:42Z	2016-06-29T15:43:42Z	Installation fails prematurely	221		
 6655	1093990	false	closed	false	16		2016-05-09T15:37:35Z	2016-06-29T11:08:32Z	2016-06-29T11:08:32Z	"Use Teams for the ""Who to CC in issues chart"""	259		
-6670	613846	true	open	false	33		2016-05-10T08:30:29Z	2016-08-02T11:06:16Z		module: fix wrong condition in early return logic for node_module path	428		
+6670	613846	true	open	false	33		2016-05-10T08:30:29Z	2016-08-02T13:53:07Z		module: fix wrong condition in early return logic for node_module path	428		
 6673	298721	false	closed	false	27		2016-05-10T13:59:35Z	2016-07-25T19:07:12Z	2016-05-12T09:58:58Z	Memory leaks in loops with Promise	197		
 6675	1625870	true	closed	false	12		2016-05-10T15:22:04Z	2016-07-05T14:14:33Z	2016-05-27T10:08:00Z	test,win: skip addons/load-long-path on WOW64	63		
 6687	935223	false	open	false	3		2016-05-11T05:50:51Z	2016-07-07T01:23:13Z		https.request(): Agent name inconsistency when servername not supplied	193		
@@ -441,7 +441,7 @@
 7510	1340074	false	closed	false	3		2016-07-01T15:49:46Z	2016-07-01T16:21:55Z	2016-07-01T16:21:55Z	build system: Unable to `make` due filename limits in `ecryptfs`	113		
 7511	432351	true	open	false	4		2016-07-01T15:54:46Z	2016-07-03T18:44:40Z		src: remove unnecessary static_cast in tcp_wrap.cc	62		
 7512	1084056	false	open	false	3		2016-07-01T18:59:39Z	2016-07-02T13:11:20Z		Issue passing file descriptors in OS X	299		
-7513	19983178	false	closed	false	1		2016-07-01T21:37:02Z	2016-07-02T08:30:08Z	2016-07-02T08:30:08Z	node-gyp@3.3.1 installed with node.js, but later version (3.4.0) required to fix bug nodejs/node-gyp#949	88		
+7513	19983178	false	closed	false	2		2016-07-01T21:37:02Z	2016-08-02T13:04:33Z	2016-07-02T08:30:08Z	node-gyp@3.3.1 installed with node.js, but later version (3.4.0) required to fix bug nodejs/node-gyp#949	88		
 7514	15943089	true	closed	false	10		2016-07-01T21:37:04Z	2016-07-07T10:39:43Z	2016-07-06T23:48:16Z	doc: updating REPLACEME tag during release	51		
 7515	17535	true	closed	false	3		2016-07-01T22:05:54Z	2016-07-05T18:59:53Z	2016-07-04T07:58:15Z	deps: upgrade npm to 3.10.3	111		
 7516	718899	false	closed	false	15		2016-07-01T22:17:54Z	2016-07-07T17:57:03Z	2016-07-07T17:57:03Z	Investigate flaky parallel/test-net-write-slow on FreeBSD	49		
@@ -513,7 +513,7 @@
 7582	1260646	false	closed	false	3		2016-07-07T14:35:23Z	2016-07-26T10:35:11Z	2016-07-26T10:35:11Z	EMFILE migrating from v6.2.2 to v6.3.0	108		
 7583	1211498	false	closed	false	2		2016-07-07T14:35:44Z	2016-07-09T07:24:31Z	2016-07-09T07:24:31Z	Fails to build with --shared-openssl configure option	55		
 7584	498775	true	closed	false	15	0	2016-07-07T14:39:32Z	2016-07-11T16:59:35Z	2016-07-11T16:59:34Z	deps: backport 22c5e46 from V8	102	498775	2016-07-11T16:59:34Z
-7585	11701553	false	closed	false	2		2016-07-07T14:59:40Z	2016-08-02T11:09:00Z	2016-07-07T15:04:57Z	order of processing event on linux is different from osx and win	98		
+7585	11701553	false	closed	false	3		2016-07-07T14:59:40Z	2016-08-02T13:25:34Z	2016-07-07T15:04:57Z	order of processing event on linux is different from osx and win	98		
 7586	195826	true	closed	false	7		2016-07-07T15:22:27Z	2016-07-08T12:16:56Z	2016-07-08T08:44:10Z	deps: Add a way to create a function without a prototype	51		
 7587	2512748	true	closed	false	8		2016-07-07T15:24:43Z	2016-07-12T13:26:50Z	2016-07-08T16:03:38Z	src: suppress coverity message	88		
 7588	330102	false	open	false	5		2016-07-07T17:00:28Z	2016-07-09T07:03:00Z		Feature request: passing headers to response.writeContinue()	57		
@@ -618,7 +618,7 @@
 7687	6487691	true	open	false	8		2016-07-12T18:10:58Z	2016-07-18T18:06:24Z		Add correct shared library naming on OS/X	100		
 7688	498775	true	open	false	8		2016-07-12T18:15:10Z	2016-07-14T20:36:34Z		v4.5.0 proposal	3290		
 7689	1485909	true	closed	false	20		2016-07-12T20:16:28Z	2016-08-02T12:56:46Z	2016-07-26T17:47:50Z	deps: cherry-pick b93c80a from v8 upstream	58		
-7690	7135896	true	open	false	17		2016-07-12T21:11:48Z	2016-08-02T09:46:56Z		util: allow deprecate on classes	66		
+7690	7135896	true	open	false	18		2016-07-12T21:11:48Z	2016-08-02T13:33:48Z		util: allow deprecate on classes	66		
 7691	115237	true	closed	false	7	0	2016-07-12T21:40:52Z	2016-07-13T20:10:54Z	2016-07-13T20:10:54Z	tools: consistent .eslintrc formatting	74		
 7692	17535	true	open	false	1		2016-07-12T21:54:51Z	2016-07-14T18:46:07Z		deps: upgrade npm in LTS to 2.15.9	82		
 7693	718899	true	closed	false	6		2016-07-12T23:34:59Z	2016-07-15T05:11:37Z	2016-07-15T03:28:14Z	test: improve error message in test-tick-processor	39		
@@ -774,7 +774,7 @@
 7843	855219	false	open	false	0		2016-07-22T19:17:46Z	2016-07-22T19:17:46Z		deps: fix TODO in tools/icu/README.md	12		
 7844	855219	false	open	false	4		2016-07-22T19:21:27Z	2016-07-22T20:02:36Z		deps: Intl: ICU 58 bump	32		
 7845	1084056	true	open	false	10		2016-07-22T22:02:05Z	2016-07-27T06:29:42Z		test: use common platform helpers everywhere	63		
-7846	498775	true	open	false	21		2016-07-22T23:46:39Z	2016-07-28T18:17:31Z		Revert fs changes	246		
+7846	498775	true	open	false	23		2016-07-22T23:46:39Z	2016-08-02T13:26:21Z		Revert fs changes	246		
 7847	54666	true	open	false	8		2016-07-23T03:26:28Z	2016-07-26T17:05:20Z		doc: improve https module documentation	57		
 7848	718899	false	open	false	7		2016-07-23T03:35:07Z	2016-07-26T18:07:37Z		Role of CTC in semver-major changes needs clarification	205		
 7849	1622515	true	closed	false	5		2016-07-23T06:46:26Z	2016-07-28T03:33:02Z	2016-07-28T03:33:02Z	doc: align breakEvalOnSigint - repl option	33		
@@ -782,7 +782,7 @@
 7851	2619581	false	closed	false	2		2016-07-23T16:46:30Z	2016-07-23T19:25:34Z	2016-07-23T17:29:05Z	Using ES6 class syntax in combination with module.exports creates a different instanceof result than using util.inherits	162		
 7852	886388	false	closed	false	11		2016-07-23T18:24:17Z	2016-07-27T12:36:41Z	2016-07-25T04:16:55Z	Removing listener that was added multiple times	68		
 7853	516780	false	open	false	3		2016-07-23T19:28:07Z	2016-07-25T03:33:36Z		node --debug takes a really long time to respond to websockets	180		
-7854	1084056	true	open	false	11		2016-07-23T20:09:19Z	2016-08-01T15:17:08Z		test: fix test-vm-sigint flakiness	68		
+7854	1084056	true	open	false	14		2016-07-23T20:09:19Z	2016-08-02T13:20:52Z		test: fix test-vm-sigint flakiness	68		
 7855	1422781	true	open	false	3		2016-07-23T20:38:28Z	2016-07-24T13:31:31Z		dgram: setMulticastInterface() outgoing interface selection	76		
 7856	373545	true	open	false			2016-07-23T20:49:58Z	2016-08-01T23:02:57Z		fs: Fix default params for fs.write	64		
 7857	718899	true	closed	false	26		2016-07-23T21:15:43Z	2016-07-31T20:33:10Z	2016-07-31T20:33:10Z	test: fix flaky test-tls-wrap-timeout	59		
@@ -792,7 +792,7 @@
 7861	131406	false	open	false	1		2016-07-24T10:54:23Z	2016-07-24T11:11:08Z		TCP_DEFER_ACCEPT option for http server ?	34		
 7862	524902	false	closed	false	2		2016-07-24T14:47:11Z	2016-07-24T16:11:48Z	2016-07-24T16:11:48Z	Function.caller failing in Node	183		
 7863	101553	true	open	false	6		2016-07-24T19:04:52Z	2016-08-01T19:41:38Z		deps: cherry-pick 43547df from V8 upstream	36		
-7864	899444	true	open	false	11		2016-07-25T07:10:17Z	2016-08-02T10:00:32Z		util: fix formatting of objects with SIMD enabled	56		
+7864	899444	true	closed	false	12		2016-07-25T07:10:17Z	2016-08-02T13:08:18Z	2016-08-02T13:08:18Z	util: fix formatting of objects with SIMD enabled	56		
 7865	4723660	false	closed	false	1		2016-07-25T09:54:31Z	2016-07-25T10:44:27Z	2016-07-25T10:44:27Z	Incorrect schedule task with `setInterval()`	166		
 7866	5807322	false	closed	false	6		2016-07-25T10:12:57Z	2016-07-26T17:39:43Z	2016-07-26T16:41:15Z	Allocation failed - JavaScript heap out of memory on v6.3.1	318		
 7867	15943089	true	open	false			2016-07-25T11:23:52Z	2016-07-28T23:55:30Z		[WIP] Update test-npm target	154		
@@ -827,7 +827,7 @@
 7896	7308528	false	closed	false	1		2016-07-27T16:55:37Z	2016-07-27T17:25:38Z	2016-07-27T17:25:38Z	I need nodeJS v5 in intel edison to run angular 2 app - issue	52		
 7897	696611	true	open	false			2016-07-27T17:02:57Z	2016-08-01T15:49:54Z		fs: warn instead of throwing if no callback	100		
 7898	1005116	true	closed	false	4		2016-07-27T18:12:08Z	2016-07-29T15:31:05Z	2016-07-29T15:31:05Z	benchmark: http parser optimization	194		
-7899	17704638	true	open	false	13		2016-07-27T18:12:17Z	2016-07-29T13:18:15Z		fs: restore javascript realpath implementation	162		
+7899	17704638	true	open	false			2016-07-27T18:12:17Z	2016-08-02T13:08:58Z		fs: restore javascript realpath implementation	162		
 7900	739813	true	closed	false	5	1	2016-07-27T22:43:54Z	2016-08-01T17:52:30Z	2016-08-01T17:52:30Z	doc: add CTC meeting minutes 2016-07-27	33		
 7901	54479	false	closed	false	2		2016-07-27T22:59:05Z	2016-07-28T18:50:34Z	2016-07-28T02:15:01Z	Incorrect version of Node package in Yum repo	329		
 7902	110455	false	open	false	2		2016-07-27T23:57:01Z	2016-08-02T05:53:04Z		<=v4: process.hrtime() segfaults on arrays with error-throwing accessors	129		
@@ -872,6 +872,6 @@
 7942	189580	true	open	false	4		2016-08-01T19:43:55Z	2016-08-02T07:23:19Z		fs: add bytesRead to ReadStream	80		
 7943	1988999	false	closed	false	3		2016-08-02T02:32:40Z	2016-08-02T10:15:17Z	2016-08-02T10:15:17Z	node-cli bug on windows 10	46		
 7944	275871	false	open	false	0		2016-08-02T07:47:10Z	2016-08-02T07:47:10Z		v8_inspector: IgnoreExceptionsScope.h does not exist	27		
-7945	275871	true	open	false	0	0	2016-08-02T07:50:03Z	2016-08-02T07:50:03Z		build: fix dependency on missing header file 	32		
+7945	275871	true	open	false	1		2016-08-02T07:50:03Z	2016-08-02T13:47:42Z		build: fix dependency on missing header file 	34		
 7946	3038254	true	open	false	2		2016-08-02T08:57:14Z	2016-08-02T10:37:11Z		http: optimize by corking outgoing requests	403		
 7947	15943089	true	open	false	3		2016-08-02T10:41:47Z	2016-08-02T12:37:12Z		test: remove internal headers from addons	63		
