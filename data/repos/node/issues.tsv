@@ -23,6 +23,7 @@
 2232	1093990	true	closed	false	10		2015-07-24T00:46:36Z	2016-07-07T20:08:56Z	2016-01-11T20:54:45Z	Port from joyent/node: `timers: fix timeout when added in timer's callback`	11		
 2253	234659	true	closed	false	50		2015-07-27T16:53:56Z	2016-06-29T16:24:38Z	2016-05-11T18:52:36Z	ensure preload modules are always preloaded	30		
 2333	115237	false	open	false	20		2015-08-09T06:04:13Z	2016-07-12T19:05:28Z		tty: stdio properties are undefined inside exec() child	45		
+2395	439929	true	closed	false	11	0	2015-08-16T00:23:48Z	2016-08-02T04:18:14Z	2016-08-02T04:18:14Z	http: correct fencepost error when freeing socket	60		
 2498	696611	true	closed	false	22		2015-08-22T20:07:00Z	2016-07-21T22:32:14Z	2016-07-21T22:32:14Z	fs: do basic arg validation of truncate in js	25		
 2521	885648	true	open	false	30		2015-08-24T08:36:14Z	2016-06-30T04:22:37Z		added CSI (\x9b) as additionally allowable escape	135		
 2534	4405297	true	open	false	84		2015-08-25T01:59:16Z	2016-07-25T20:17:11Z		http: fixed socket destruction, timeout and leaking	144		
@@ -163,7 +164,7 @@
 6624	94334	false	open	false	6		2016-05-06T13:09:57Z	2016-07-03T18:06:29Z		On Windows, Node can be inconsistent in what case builtin functions use for drive letters	193		
 6647	501424	false	closed	false	3		2016-05-09T08:59:50Z	2016-06-29T15:43:42Z	2016-06-29T15:43:42Z	Installation fails prematurely	221		
 6655	1093990	false	closed	false	16		2016-05-09T15:37:35Z	2016-06-29T11:08:32Z	2016-06-29T11:08:32Z	"Use Teams for the ""Who to CC in issues chart"""	259		
-6670	613846	true	open	false			2016-05-10T08:30:29Z	2016-08-01T13:31:00Z		module: fix wrong condition in early return logic for node_module path	428		
+6670	613846	true	open	false			2016-05-10T08:30:29Z	2016-08-02T04:52:22Z		module: fix wrong condition in early return logic for node_module path	428		
 6673	298721	false	closed	false	27		2016-05-10T13:59:35Z	2016-07-25T19:07:12Z	2016-05-12T09:58:58Z	Memory leaks in loops with Promise	197		
 6675	1625870	true	closed	false	12		2016-05-10T15:22:04Z	2016-07-05T14:14:33Z	2016-05-27T10:08:00Z	test,win: skip addons/load-long-path on WOW64	63		
 6687	935223	false	open	false	3		2016-05-11T05:50:51Z	2016-07-07T01:23:13Z		https.request(): Agent name inconsistency when servername not supplied	193		
@@ -681,7 +682,7 @@
 7751	79017	true	closed	false	5	0	2016-07-15T16:09:25Z	2016-07-19T07:39:21Z	2016-07-19T07:39:21Z	deps: v8_inspector no longer depends on wtf	41		
 7752	2034108	false	closed	false	9		2016-07-15T19:35:09Z	2016-07-18T16:55:56Z	2016-07-16T09:02:05Z	libv8_base.a issues many undefined errors when linking on android/x86 or android/x86_64	192		
 7753	2512748	true	closed	false	9		2016-07-15T20:43:46Z	2016-07-19T12:36:28Z	2016-07-18T21:14:43Z	test: use mustCall() for simple flow tracking	96		
-7754	899444	true	open	false			2016-07-15T21:42:32Z	2016-08-02T02:43:27Z		readline: show completions only after 2nd TAB	111		
+7754	899444	true	open	false			2016-07-15T21:42:32Z	2016-08-02T04:02:56Z		readline: show completions only after 2nd TAB	111		
 7755	164625	false	open	false	6		2016-07-15T21:43:49Z	2016-07-16T18:48:23Z		If node is started with --debug a space appears on the following line	15		
 7756	1018196	true	open	false	11		2016-07-15T21:45:58Z	2016-07-29T22:07:36Z		Fixes #7742: src: --inspect notify contextDestroyed	115		
 7757	899444	true	open	false	11		2016-07-15T22:46:35Z	2016-07-25T09:19:56Z		doc: use blockquotes for Stability: markers	35		
@@ -791,7 +792,7 @@
 7861	131406	false	open	false	1		2016-07-24T10:54:23Z	2016-07-24T11:11:08Z		TCP_DEFER_ACCEPT option for http server ?	34		
 7862	524902	false	closed	false	2		2016-07-24T14:47:11Z	2016-07-24T16:11:48Z	2016-07-24T16:11:48Z	Function.caller failing in Node	183		
 7863	101553	true	open	false	6		2016-07-24T19:04:52Z	2016-08-01T19:41:38Z		deps: cherry-pick 43547df from V8 upstream	36		
-7864	899444	true	open	false	9		2016-07-25T07:10:17Z	2016-08-01T18:02:32Z		util: fix formatting of objects with SIMD enabled	56		
+7864	899444	true	open	false	10		2016-07-25T07:10:17Z	2016-08-02T04:40:15Z		util: fix formatting of objects with SIMD enabled	56		
 7865	4723660	false	closed	false	1		2016-07-25T09:54:31Z	2016-07-25T10:44:27Z	2016-07-25T10:44:27Z	Incorrect schedule task with `setInterval()`	166		
 7866	5807322	false	closed	false	6		2016-07-25T10:12:57Z	2016-07-26T17:39:43Z	2016-07-26T16:41:15Z	Allocation failed - JavaScript heap out of memory on v6.3.1	318		
 7867	15943089	true	open	false			2016-07-25T11:23:52Z	2016-07-28T23:55:30Z		[WIP] Update test-npm target	154		
@@ -861,7 +862,7 @@
 7932	718899	true	open	false	4		2016-08-01T03:46:38Z	2016-08-01T13:27:29Z		test: mark test-util-sigint-watchdog FreeBSD flaky	41		
 7933	899444	true	open	false	3		2016-08-01T11:11:18Z	2016-08-01T21:15:36Z		test,vm: fix flaky test-util-sigint-watchdog	65		
 7934	20771374	false	open	false	0		2016-08-01T11:30:46Z	2016-08-01T11:30:46Z		unable to install npm package	162		
-7935	2512748	false	open	false	3		2016-08-01T14:34:49Z	2016-08-01T15:33:21Z		Move ecosystem detection tool to nodejs org	67		
+7935	2512748	false	open	false	5		2016-08-01T14:34:49Z	2016-08-02T04:14:25Z		Move ecosystem detection tool to nodejs org	67		
 7936	439929	false	open	false	0		2016-08-01T14:48:25Z	2016-08-01T14:48:25Z		meta: can the github bot tag PRs from new contributors?	76		
 7937	708850	false	closed	false	5		2016-08-01T16:13:36Z	2016-08-01T17:01:25Z	2016-08-01T16:20:31Z	Can we document --max_old_space_size or is it deprecated?	99		
 7938	189580	false	open	false	0		2016-08-01T17:19:58Z	2016-08-01T17:19:58Z		Feature request: fs.ReadStream#bytesRead	50		
@@ -869,4 +870,4 @@
 7940	2749683	false	open	false	2		2016-08-01T18:48:01Z	2016-08-01T19:11:32Z		Serialization on cluster#fork	64		
 7941	439929	true	open	false			2016-08-01T18:55:55Z	2016-08-02T01:24:54Z		doc, punycode: soft-deprecation of the punycode module	58		
 7942	189580	true	open	false	1		2016-08-01T19:43:55Z	2016-08-01T20:22:20Z		fs: add bytesRead to ReadStream	80		
-7943	1988999	false	open	false	0		2016-08-02T02:32:40Z	2016-08-02T02:32:40Z		node-cli bug on windows 10	46		
+7943	1988999	false	open	false	1		2016-08-02T02:32:40Z	2016-08-02T04:10:13Z		node-cli bug on windows 10	46		
