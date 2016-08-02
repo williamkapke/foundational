@@ -239,6 +239,7 @@
 7090	275871	true	closed	false	12		2016-06-01T11:24:08Z	2016-07-11T22:09:23Z	2016-06-02T20:41:01Z	src: use stack-allocated Environment instances	11		
 7094	505333	true	closed	false	42		2016-06-01T15:18:38Z	2016-07-27T09:27:20Z	2016-07-26T12:25:16Z	Refactor benchmark tools for statistical significance	603		
 7095	238531	true	open	false	10		2016-06-01T16:28:23Z	2016-07-22T17:42:01Z		deps: cherry-pick 9fa206e from v8's upstream	108		
+7102	2316198	false	closed	false	10		2016-06-02T02:35:44Z	2016-08-01T23:54:13Z	2016-06-02T07:40:51Z	"""ReferenceError: v8debug is not defined"" when doing remote debug"	142		
 7104	718899	true	closed	false	10		2016-06-02T06:18:40Z	2016-07-11T22:26:03Z	2016-06-04T21:25:37Z	repl: refine handling of illegal tokens	75		
 7119	498775	true	closed	false	9		2016-06-03T00:18:29Z	2016-07-27T23:39:04Z	2016-06-13T18:03:03Z	tools: fix license builder to work with icu-small	71		
 7123	498775	false	closed	false	17		2016-06-03T01:04:12Z	2016-07-27T14:36:28Z	2016-07-27T14:36:28Z	Do we need to include any new licenses when we ship the new v8 inspector?	64		
@@ -347,7 +348,7 @@
 7397	572969	false	closed	false	6		2016-06-24T02:50:55Z	2016-06-30T11:04:20Z	2016-06-30T11:04:20Z	Eval and vm module with custom errors	342		
 7398	899444	true	closed	false	5		2016-06-24T03:53:24Z	2016-07-11T21:18:32Z	2016-06-30T11:04:05Z	vm: don't print out arrow message for custom error	78		
 7399	718899	true	closed	false	10		2016-06-24T05:16:00Z	2016-07-01T00:36:33Z	2016-06-30T23:21:37Z	child_process: validate fork/execFile arguments	123		
-7401	1935767	false	open	false	7		2016-06-24T10:03:04Z	2016-08-01T18:59:00Z		punycode: remove the module system detection from punycode.js	117		
+7401	1935767	false	closed	false	8		2016-06-24T10:03:04Z	2016-08-01T23:56:13Z	2016-08-01T23:56:13Z	punycode: remove the module system detection from punycode.js	117		
 7404	1093990	true	open	false	11		2016-06-24T12:46:48Z	2016-07-18T09:59:02Z		test: add tests for ensuring proper timer delays	122		
 7406	9373002	false	open	false	6		2016-06-24T14:57:03Z	2016-06-27T16:16:51Z		parallel/test-https-connect-address-family and parallel/test-tls-connect-address-family failures	105		
 7411	5832730	true	closed	false	5	0	2016-06-24T21:28:36Z	2016-06-27T15:44:49Z	2016-06-27T15:44:48Z	"doc: fix ""sign.verify"" typo in crypto doc."	31		
@@ -680,7 +681,7 @@
 7751	79017	true	closed	false	5	0	2016-07-15T16:09:25Z	2016-07-19T07:39:21Z	2016-07-19T07:39:21Z	deps: v8_inspector no longer depends on wtf	41		
 7752	2034108	false	closed	false	9		2016-07-15T19:35:09Z	2016-07-18T16:55:56Z	2016-07-16T09:02:05Z	libv8_base.a issues many undefined errors when linking on android/x86 or android/x86_64	192		
 7753	2512748	true	closed	false	9		2016-07-15T20:43:46Z	2016-07-19T12:36:28Z	2016-07-18T21:14:43Z	test: use mustCall() for simple flow tracking	96		
-7754	899444	true	open	false	5		2016-07-15T21:42:32Z	2016-08-01T18:29:58Z		readline: show completions only after 2nd TAB	111		
+7754	899444	true	open	false			2016-07-15T21:42:32Z	2016-08-01T23:54:24Z		readline: show completions only after 2nd TAB	111		
 7755	164625	false	open	false	6		2016-07-15T21:43:49Z	2016-07-16T18:48:23Z		If node is started with --debug a space appears on the following line	15		
 7756	1018196	true	open	false	11		2016-07-15T21:45:58Z	2016-07-29T22:07:36Z		Fixes #7742: src: --inspect notify contextDestroyed	115		
 7757	899444	true	open	false	11		2016-07-15T22:46:35Z	2016-07-25T09:19:56Z		doc: use blockquotes for Stability: markers	35		
@@ -782,7 +783,7 @@
 7853	516780	false	open	false	3		2016-07-23T19:28:07Z	2016-07-25T03:33:36Z		node --debug takes a really long time to respond to websockets	180		
 7854	1084056	true	open	false	11		2016-07-23T20:09:19Z	2016-08-01T15:17:08Z		test: fix test-vm-sigint flakiness	68		
 7855	1422781	true	open	false	3		2016-07-23T20:38:28Z	2016-07-24T13:31:31Z		dgram: setMulticastInterface() outgoing interface selection	76		
-7856	373545	true	open	false			2016-07-23T20:49:58Z	2016-08-01T22:27:40Z		fs: Fix default params for fs.write	64		
+7856	373545	true	open	false			2016-07-23T20:49:58Z	2016-08-01T23:02:57Z		fs: Fix default params for fs.write	64		
 7857	718899	true	closed	false	26		2016-07-23T21:15:43Z	2016-07-31T20:33:10Z	2016-07-31T20:33:10Z	test: fix flaky test-tls-wrap-timeout	59		
 7858	3524633	false	closed	false	11		2016-07-24T00:23:34Z	2016-07-26T14:21:50Z	2016-07-25T15:53:16Z	Add fsevents to NodeJS	211		
 7859	1084056	true	closed	false	9	5	2016-07-24T06:28:47Z	2016-07-31T21:08:12Z	2016-07-31T21:08:12Z	tools,test: show signal code when test crashes	31	1084056	2016-07-31T21:08:12Z
@@ -845,7 +846,7 @@
 7916	11268429	false	open	false	2		2016-07-29T09:13:11Z	2016-08-01T10:15:25Z		No callbacks when closing sockets	33		
 7918	20699254	false	open	false	1		2016-07-30T03:42:02Z	2016-07-30T04:12:12Z		No support [Symbol.hasInstance] feature for keyword instanceof	91		
 7919	718899	false	open	false	2		2016-07-30T03:53:51Z	2016-08-01T11:15:34Z		Investigate flaky test-util-sigint-watchdog on FreeBSD	51		
-7920	718899	true	open	false	5		2016-07-30T04:58:20Z	2016-08-01T22:19:10Z		[WIP] tools: fixes for more strict linting	138		
+7920	718899	true	open	false	7		2016-07-30T04:58:20Z	2016-08-01T23:04:19Z		[WIP] tools: fixes for more strict linting	138		
 7921	20158340	false	open	false	0		2016-07-30T05:47:27Z	2016-07-30T05:47:27Z		Node.js Problems	100		
 7922	15170164	false	open	false	0		2016-07-31T01:22:36Z	2016-07-31T01:22:36Z		isLength throws RangeError when used within a class' property setter method	159		
 7923	6745746	false	closed	false	7		2016-07-31T06:07:30Z	2016-08-01T01:37:25Z	2016-08-01T01:37:25Z	JSON.stringify error and writeFileSync error	236		
