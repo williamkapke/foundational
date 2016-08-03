@@ -1,7 +1,7 @@
 66	643505	false	closed	false	83		2014-12-04T08:42:35Z	2016-07-23T19:11:08Z	2014-12-11T12:34:07Z	deprecate domains	11		
 256	1315533	false	closed	false	27		2015-01-08T07:50:35Z	2016-07-31T16:41:49Z	2015-02-25T00:30:11Z	Consider exposing promise unhandled rejection hook	243		
 428	321966	false	open	false	42		2015-01-14T21:56:04Z	2016-07-08T15:21:33Z		plans on incorporating LibreSSL	35		
-445	2993861	false	open	false	10		2015-01-15T16:18:56Z	2016-06-29T11:13:24Z		Cleanup `_writableState` and `_readableState` access across codebase	590		
+445	2993861	false	open	false	11		2015-01-15T16:18:56Z	2016-08-03T22:33:47Z		Cleanup `_writableState` and `_readableState` access across codebase	590		
 540	555645	true	closed	false	33		2015-01-21T16:22:26Z	2016-07-18T15:54:13Z	2015-01-28T03:49:14Z	events: Alias EventEmitter.protoype.removeListener as EventEmitter.prototype.off 	95		
 690	275871	false	closed	false	14		2015-02-02T15:19:55Z	2016-07-19T11:39:40Z	2016-07-19T11:39:40Z	repl: surrogate pair upsets repl / terminal	43		
 729	289174	false	closed	false	8		2015-02-05T20:00:25Z	2016-06-29T11:12:13Z	2016-06-29T11:12:13Z	Converge Tracing/Profiling to Native Set of Hooks	49		
@@ -16,6 +16,7 @@
 1765	900690	false	closed	false	9		2015-05-22T09:03:01Z	2016-07-06T06:54:28Z	2016-07-06T06:54:28Z	Windows: fs.realpathSync() adds trailing slash for windows share	68		
 1788	1309053	false	open	false	13		2015-05-24T23:32:23Z	2016-06-27T14:45:36Z		Debug process didn't close after finish debugging	103		
 1802	744035	false	open	false	8		2015-05-26T21:22:12Z	2016-07-03T04:55:24Z		url: parse() fails if auth contain a colon or ampersand	160		
+1873	291301	false	open	false	14		2015-06-02T18:58:34Z	2016-08-03T22:38:15Z		http.OutgoingMessage headers API	64		
 2098	1881921	false	closed	false	20		2015-07-03T10:19:55Z	2016-07-12T10:29:54Z	2016-04-10T08:19:20Z	child_process.spawn sh not killable	166		
 2114	289174	false	open	false	12		2015-07-06T19:32:55Z	2016-07-20T15:59:23Z		incorrect URL parsing	46		
 2126	122831	false	open	false	8		2015-07-07T21:10:41Z	2016-07-11T22:19:43Z		SNICallback callback doesn't throw an error with invalid input	77		
@@ -30,6 +31,7 @@
 2534	4405297	true	open	false	84		2015-08-25T01:59:16Z	2016-07-25T20:17:11Z		http: fixed socket destruction, timeout and leaking	144		
 2569	13315	true	open	false	26		2015-08-27T04:34:55Z	2016-07-14T03:03:33Z		Add zh-CN i18n support for Windows installer	15		
 2642	2645436	false	open	false	30		2015-09-02T06:06:18Z	2016-06-30T18:50:44Z		Keep alive connection do not get closed with server.close()	106		
+2668	291301	false	open	false	6		2015-09-02T21:50:48Z	2016-08-03T22:42:49Z		Unreachable code in buffer.js and unsigned bitwise shifts.	293		
 2681	439929	false	closed	false	5		2015-09-03T15:40:56Z	2016-06-30T23:21:20Z	2016-06-30T23:21:20Z	child_process: execFile and fork arg parsing ambiguity	136		
 2783	75184	false	closed	false	37		2015-09-09T21:17:46Z	2016-08-03T09:18:39Z	2016-05-02T11:32:45Z	Compiling node v4.0.0 with OpenSSL 1.0.1 fails	473		
 2833	1211152	false	closed	false	29		2015-09-12T14:09:10Z	2016-07-29T19:13:35Z	2016-03-09T09:20:02Z	Node.js `crypto` and the WebCrypto API	150		
@@ -429,7 +431,7 @@
 7493	899444	true	closed	false	3		2016-06-30T06:55:54Z	2016-07-05T19:50:22Z	2016-07-05T19:50:21Z	doc: add `added:` information for timers	27		
 7494	238531	true	open	false	11		2016-06-30T07:46:53Z	2016-07-11T06:24:10Z		Fix various overflows and UB in src/	129		
 7495	7146748	false	closed	false	4		2016-06-30T07:51:10Z	2016-06-30T13:37:02Z	2016-06-30T08:02:31Z	Ask a question, how to post a task to main thread in node.Please see my codes.	78		
-7496	11782089	false	closed	false	4		2016-06-30T08:54:47Z	2016-07-29T23:02:15Z	2016-06-30T10:14:15Z	fs.watch not work in win10  Bash.	111		
+7496	11782089	false	closed	false	5		2016-06-30T08:54:47Z	2016-08-03T22:46:14Z	2016-06-30T10:14:15Z	fs.watch not work in win10  Bash.	111		
 7497	275871	true	closed	false	4	0	2016-06-30T10:27:03Z	2016-07-06T14:33:15Z	2016-07-06T14:33:15Z	src: guard against overflow in ParseArrayIndex()	25		
 7498	178512	true	open	false	3		2016-06-30T14:32:38Z	2016-07-04T19:18:42Z		http: add host and port info to ECONNRESET errors	74		
 7499	2512748	true	closed	false	4	4	2016-06-30T16:08:03Z	2016-07-05T14:52:49Z	2016-07-05T14:52:48Z	util: add an option for configuring break length	79	2512748	2016-07-05T14:52:48Z
@@ -497,7 +499,7 @@
 7561	1847934	true	open	false			2016-07-06T12:15:00Z	2016-07-26T04:44:54Z		"Clarify ""fs.readFile"", ""fs.appendFile"", ""fs.writeFile"" doc…"	22		
 7562	291301	true	closed	false	11		2016-07-06T12:32:10Z	2016-07-08T17:09:26Z	2016-07-08T14:49:21Z	New Buffer API backport to v4.x (staging branch)	204		
 7563	9373002	false	closed	false	12		2016-07-06T15:15:31Z	2016-07-18T21:43:27Z	2016-07-18T21:43:27Z	AIX - failure in parallel/test-cluster-disconnect-handles	80		
-7564	9373002	true	open	false	8		2016-07-06T15:59:12Z	2016-08-03T16:11:37Z		src: temporary malloc fix for AIX	188		
+7564	9373002	true	open	false	9		2016-07-06T15:59:12Z	2016-08-03T22:37:40Z		src: temporary malloc fix for AIX	188		
 7565	275871	false	closed	false	8		2016-07-06T17:00:39Z	2016-07-23T14:40:11Z	2016-07-11T17:16:01Z	discuss: future of AsyncWrap	165		
 7566	115237	false	open	false	1		2016-07-06T17:30:07Z	2016-07-06T18:54:52Z		Changing default options for util.inspect	59		
 7567	17704638	true	open	false	0	0	2016-07-06T18:13:33Z	2016-07-06T18:13:33Z		doc: add bartosz sosnowski to colaborators	2		
@@ -540,7 +542,7 @@
 7604	718899	true	closed	false	4		2016-07-08T02:45:31Z	2016-07-11T05:15:40Z	2016-07-11T05:15:40Z	doc: add benchmark who-to-CC info	84		
 7605	718899	true	closed	false	11		2016-07-08T03:17:22Z	2016-07-11T21:39:51Z	2016-07-11T21:39:51Z	test: fix flaky test-https-connect-address-family	49		
 7606	4221569	false	closed	false	1		2016-07-08T06:37:18Z	2016-07-08T07:26:27Z	2016-07-08T07:26:26Z	'process.stdout cannot be closed': process.stdout should behave like a standard stream	111		
-7607	495647	false	open	false	8		2016-07-08T08:21:44Z	2016-07-27T21:10:26Z		CTC membership nomination: @addaleax	293		
+7607	495647	false	closed	false	9		2016-07-08T08:21:44Z	2016-08-03T22:39:14Z	2016-08-03T22:39:13Z	CTC membership nomination: @addaleax	293		
 7608	18708370	false	closed	false	7		2016-07-08T09:46:39Z	2016-07-08T13:11:20Z	2016-07-08T12:45:45Z	Windows Node 6.3.0 binary exports SSL symbols	127		
 7609	275871	false	open	false	3		2016-07-08T10:24:57Z	2016-07-11T13:43:10Z		test: two unexpected failures when disk is nearly full	135		
 7610	275871	true	closed	false	11	0	2016-07-08T10:49:38Z	2016-07-11T21:17:23Z	2016-07-11T21:17:23Z	src: disable stdio buffering	100		
@@ -813,7 +815,7 @@
 7877	1622515	true	closed	false	4		2016-07-26T04:53:29Z	2016-07-26T09:48:37Z	2016-07-26T05:11:39Z	doc: add princejwesley to collaborators	29		
 7878	1538624	true	open	false	5		2016-07-26T07:22:40Z	2016-07-29T16:16:41Z		doc: fill in missing V8 version	51		
 7879	917978	false	open	false	6		2016-07-26T08:06:07Z	2016-07-26T15:36:04Z		openSync/writeSync/closeSync produces empty file	57		
-7880	2330987	false	open	false	6		2016-07-26T11:37:42Z	2016-08-01T15:51:20Z		Upgrade openssl sources to 1.0.2h broke npm install for me (behind proxy)	103		
+7880	2330987	false	open	false	7		2016-07-26T11:37:42Z	2016-08-03T22:10:51Z		Upgrade openssl sources to 1.0.2h broke npm install for me (behind proxy)	103		
 7881	718899	false	open	false	18		2016-07-26T18:11:24Z	2016-07-27T20:15:16Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-07-27	532		
 7882	127666	false	open	false	1		2016-07-26T19:07:04Z	2016-08-02T11:01:33Z		Stop the installer deleting my symlink for AppData\Roaming\npm	2		
 7883	1485909	true	open	false	5		2016-07-26T22:51:35Z	2016-07-27T20:03:32Z		deps: cherry-pick b93c80a from v8 upstream	56		
@@ -885,7 +887,7 @@
 7950	498775	true	open	false	5		2016-08-02T18:34:45Z	2016-08-03T16:09:12Z		"Revert ""fs: validate args of truncate functions in js"""	94		
 7951	790842	false	open	false	5		2016-08-02T19:50:12Z	2016-08-02T21:14:02Z		child_process.spawn leaves spawned process hanging	111		
 7952	1922624	false	open	false	1		2016-08-02T22:17:02Z	2016-08-02T23:23:08Z		"Feature request: Inform the ""line"" event on a Readline interface of the type of end-of-line input"	97		
-7953	20340	false	open	false	2		2016-08-03T00:31:09Z	2016-08-03T08:39:06Z		WebAssembly: bound functions for FFI	134		
+7953	20340	false	closed	false	3		2016-08-03T00:31:09Z	2016-08-03T22:45:00Z	2016-08-03T22:45:00Z	WebAssembly: bound functions for FFI	134		
 7954	54666	false	open	false	5		2016-08-03T01:01:38Z	2016-08-03T09:25:48Z		Newlines missing carriage returns in REPL, util.inspect() output	120		
 7955	718899	true	open	false	13		2016-08-03T04:09:12Z	2016-08-03T18:52:04Z		meta: clarify process for breaking changes	27		
 7956	6275532	true	open	false	0	0	2016-08-03T07:52:07Z	2016-08-03T07:52:07Z		V6.x	47		
@@ -896,7 +898,10 @@
 7961	1495995	true	open	false	2		2016-08-03T14:20:49Z	2016-08-03T16:23:30Z		benchmark: add --format csv option	56		
 7962	275871	false	open	false	2		2016-08-03T14:58:10Z	2016-08-03T17:12:31Z		tls, lts: update root certs in v0.10 and v0.12?	73		
 7963	899444	true	open	false	7		2016-08-03T17:50:51Z	2016-08-03T19:11:44Z		deps: float gyp patch for long filenames	134		
-7964	439929	true	open	false			2016-08-03T17:53:52Z	2016-08-03T21:10:00Z		meta: add explicit details of the deprecation and semver-major policy	36		
+7964	439929	true	open	false			2016-08-03T17:53:52Z	2016-08-03T22:28:41Z		meta: add explicit details of the deprecation and semver-major policy	36		
 7965	11522163	false	open	false	0		2016-08-03T19:32:40Z	2016-08-03T19:32:40Z		readline will echo first line of input	149		
-7966	899444	true	open	false	0	0	2016-08-03T21:23:59Z	2016-08-03T21:23:59Z		doc: add @addaleax to the CTC	28		
-7967	4421720	true	open	false	0	0	2016-08-03T21:38:30Z	2016-08-03T21:38:30Z		tools: add .vscode folder to .gitignore	33		
+7966	899444	true	open	false	4		2016-08-03T21:23:59Z	2016-08-03T22:00:50Z		doc: add @addaleax to the CTC	28		
+7967	4421720	true	open	false	2		2016-08-03T21:38:30Z	2016-08-03T22:01:22Z		tools: add .vscode folder to .gitignore	33		
+7968	4421720	true	open	false	0	0	2016-08-03T22:09:01Z	2016-08-03T22:09:01Z		doc: add CTC meeting minutes 2016-07-13	31		
+7969	439929	true	open	false	0	0	2016-08-03T22:37:12Z	2016-08-03T22:37:12Z		doc: @piscisaureus has stepped-down from the CTC	32		
+7970	4421720	true	open	false	0	0	2016-08-03T23:00:06Z	2016-08-03T23:00:06Z		doc: add CTC meeting minutes 2016-07-20	32		
