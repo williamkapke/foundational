@@ -8,6 +8,7 @@
 805	782880	false	open	false	3		2015-02-11T16:10:53Z	2016-07-19T11:38:52Z		strict printing for X509 Extentions	19		
 854	172	false	open	false	41		2015-02-15T19:37:43Z	2016-07-30T16:29:41Z		os x: FSEventStreamFlushSync assertions logged to console	100		
 1592	617235	false	open	false	206		2015-05-02T19:25:40Z	2016-07-25T11:24:25Z		gripe: deprecating fs.exists/existsSync	202		
+1634	495647	false	open	false	10		2015-05-06T04:07:08Z	2016-08-03T18:19:05Z		Race condition on history file with multiple REPLs	57		
 1671	291301	false	open	false	51		2015-05-11T05:25:09Z	2016-07-19T11:45:03Z		`Buffer` and `ArrayBuffer`-based objects trigger mark-sweeps instead of scavenges	67		
 1684	291301	false	open	false	8		2015-05-12T14:14:52Z	2016-06-29T11:15:27Z		Put a warning against misusing `*Sync` methods to the API docs.	193		
 1690	10612009	false	closed	false	7		2015-05-13T08:56:13Z	2016-07-07T20:40:26Z	2016-07-07T20:40:26Z	[dgram]no udp multicast message received when binding on a specific address	278		
@@ -220,7 +221,7 @@
 6997	110455	true	closed	false	11		2016-05-26T17:02:19Z	2016-07-11T22:50:22Z	2016-06-06T22:30:53Z	test: use common.fixturesDir almost everywhere	50		
 6998	2512748	true	closed	false	12		2016-05-26T17:17:59Z	2016-07-12T15:20:16Z	2016-05-31T13:55:52Z	cluster: expose result of send()	90		
 7003	275871	true	closed	false	7		2016-05-26T19:07:39Z	2016-07-12T16:54:43Z	2016-06-29T16:15:19Z	test: check types for http request and response	82		
-7005	15952	true	open	false	21		2016-05-26T20:56:33Z	2016-07-27T22:27:33Z		repl: History file locking and other improvements	419		
+7005	15952	true	open	false	22		2016-05-26T20:56:33Z	2016-08-03T18:56:39Z		repl: History file locking and other improvements	419		
 7016	2352663	true	closed	false	58		2016-05-27T09:43:28Z	2016-07-21T15:43:37Z	2016-06-29T08:47:38Z	deps: update V8 to 5.1.281.69	71		
 7019	134460	true	open	false	4		2016-05-27T15:06:04Z	2016-08-01T13:19:18Z		Enable line ending normalization in git, not in the linter	256		
 7024	718899	true	closed	false	8		2016-05-27T18:42:24Z	2016-07-14T19:21:10Z	2016-06-01T00:05:35Z	test: fix spurious EADDRINUSE in test-https-strict	132		
@@ -416,7 +417,7 @@
 7481	696611	true	closed	false	6		2016-06-29T18:07:25Z	2016-07-12T00:11:45Z	2016-07-08T14:45:38Z	net: export isIPv4, isIPv6 directly from cares	50		
 7482	2352663	true	closed	false	10		2016-06-29T18:13:01Z	2016-07-12T06:33:53Z	2016-07-10T15:23:52Z	build: add v8 requirement to test-v8* in Makefile	30		
 7483	696611	true	closed	false	10		2016-06-29T18:21:46Z	2016-07-12T04:30:26Z	2016-07-08T14:52:40Z	tools: remove unnecessary imports and assignments	38		
-7484	275871	false	open	false	38		2016-06-29T18:29:06Z	2016-08-03T17:07:38Z		build: drop support for VS 2013 in v7	96		
+7484	275871	false	open	false	39		2016-06-29T18:29:06Z	2016-08-03T18:56:27Z		build: drop support for VS 2013 in v7	96		
 7485	432351	true	closed	false	5	0	2016-06-29T18:42:27Z	2016-06-30T05:36:59Z	2016-06-30T05:36:59Z	doc: fixing minor typo in AtExit hooks section	53		
 7486	275871	true	closed	false	9		2016-06-29T19:17:29Z	2016-06-30T17:37:51Z	2016-06-30T11:33:16Z	build: drop unconditional openssl dep from cctest	23		
 7487	1356314	true	open	false	22		2016-06-29T20:16:20Z	2016-07-20T01:09:32Z		build: windows sharedlib support	289		
@@ -658,7 +659,7 @@
 7723	4421371	false	open	false	4		2016-07-14T02:40:07Z	2016-07-15T05:58:24Z		HTTP Module Documentation Missing 'Error' Event	45		
 7724	7932813	false	closed	false	2		2016-07-14T06:17:08Z	2016-07-14T07:12:41Z	2016-07-14T06:37:57Z	 Promise.prototype.chain is undefined on osx	39		
 7725	158787	false	closed	false	2		2016-07-14T07:21:13Z	2016-07-14T08:01:59Z	2016-07-14T07:59:27Z	Net socket (telnet) crashes on a larger data	88		
-7726	317464	false	open	false	51		2016-07-14T07:33:37Z	2016-08-03T17:38:17Z		[meta] realpath issues in v6	307		
+7726	317464	false	open	false	52		2016-07-14T07:33:37Z	2016-08-03T18:05:56Z		[meta] realpath issues in v6	307		
 7727	291301	true	open	false			2016-07-14T10:22:20Z	2016-07-26T05:05:40Z		doc: more formatting fixes	162		
 7728	6447530	false	open	false	4		2016-07-14T10:23:51Z	2016-07-14T13:16:30Z		Inconsistencies with IPv6 endpoint specification across platforms	697		
 7729	291301	true	open	false	9		2016-07-14T10:50:32Z	2016-07-15T22:39:20Z		tools: add remark-lint configuration in .remarkrc	95		
@@ -689,7 +690,7 @@
 7754	899444	true	open	false			2016-07-15T21:42:32Z	2016-08-02T18:14:25Z		readline: show completions only after 2nd TAB	111		
 7755	164625	false	open	false	6		2016-07-15T21:43:49Z	2016-07-16T18:48:23Z		If node is started with --debug a space appears on the following line	15		
 7756	1018196	true	open	false	11		2016-07-15T21:45:58Z	2016-07-29T22:07:36Z		Fixes #7742: src: --inspect notify contextDestroyed	115		
-7757	899444	true	open	false	17		2016-07-15T22:46:35Z	2016-08-03T16:34:57Z		doc: use blockquotes for Stability: markers	35		
+7757	899444	true	open	false	18		2016-07-15T22:46:35Z	2016-08-03T18:11:40Z		doc: use blockquotes for Stability: markers	35		
 7758	10393198	true	closed	false	10		2016-07-16T01:33:16Z	2016-08-01T12:28:11Z	2016-08-01T12:28:11Z	test: decrease inconsistency in the common.js	135		
 7759	238531	true	closed	false	11		2016-07-16T04:05:05Z	2016-07-17T05:05:57Z	2016-07-17T05:05:57Z	deps: no /safeseh for ml64.exe	59		
 7760	546900	false	closed	false	4		2016-07-16T10:05:44Z	2016-07-16T16:33:19Z	2016-07-16T13:18:30Z	get current node version OR tag latest	48		
@@ -835,7 +836,7 @@
 7900	739813	true	closed	false	5	1	2016-07-27T22:43:54Z	2016-08-01T17:52:30Z	2016-08-01T17:52:30Z	doc: add CTC meeting minutes 2016-07-27	33		
 7901	54479	false	closed	false	2		2016-07-27T22:59:05Z	2016-07-28T18:50:34Z	2016-07-28T02:15:01Z	Incorrect version of Node package in Yum repo	329		
 7902	110455	false	open	false	2		2016-07-27T23:57:01Z	2016-08-02T05:53:04Z		<=v4: process.hrtime() segfaults on arrays with error-throwing accessors	129		
-7903	2703309	false	open	false	6		2016-07-28T02:45:05Z	2016-08-03T17:58:35Z		Feature. Set DNS server port for DNS client	50		
+7903	2703309	false	open	false	7		2016-07-28T02:45:05Z	2016-08-03T18:14:07Z		Feature. Set DNS server port for DNS client	50		
 7904	2352663	false	open	false	7		2016-07-28T08:04:07Z	2016-08-02T21:44:10Z		V8 version for 7.0.0 release	156		
 7905	432351	true	open	false	3		2016-07-28T08:22:25Z	2016-07-28T09:45:32Z		src: removing unused StringValue macro parameters	62		
 7906	275871	true	closed	false	4	2	2016-07-28T10:36:15Z	2016-08-01T14:18:52Z	2016-08-01T14:18:52Z	src: avoid manual memory management in inspector	79		
@@ -880,19 +881,19 @@
 7946	3038254	true	open	false	4		2016-08-02T08:57:14Z	2016-08-03T16:10:05Z		http: optimize by corking outgoing requests	403		
 7947	15943089	true	open	false	9		2016-08-02T10:41:47Z	2016-08-03T16:18:21Z		test: remove internal headers from addons	67		
 7948	718899	false	open	false	7		2016-08-02T13:49:50Z	2016-08-03T16:41:55Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-03	502		
-7949	1935767	true	open	false	11		2016-08-02T16:54:51Z	2016-08-03T16:13:20Z		http: specify _implicitHeader in OutgoingMessage	65		
+7949	1935767	true	open	false	12		2016-08-02T16:54:51Z	2016-08-03T18:01:39Z		http: specify _implicitHeader in OutgoingMessage	65		
 7950	498775	true	open	false	5		2016-08-02T18:34:45Z	2016-08-03T16:09:12Z		"Revert ""fs: validate args of truncate functions in js"""	94		
 7951	790842	false	open	false	5		2016-08-02T19:50:12Z	2016-08-02T21:14:02Z		child_process.spawn leaves spawned process hanging	111		
 7952	1922624	false	open	false	1		2016-08-02T22:17:02Z	2016-08-02T23:23:08Z		"Feature request: Inform the ""line"" event on a Readline interface of the type of end-of-line input"	97		
 7953	20340	false	open	false	2		2016-08-03T00:31:09Z	2016-08-03T08:39:06Z		WebAssembly: bound functions for FFI	134		
 7954	54666	false	open	false	5		2016-08-03T01:01:38Z	2016-08-03T09:25:48Z		Newlines missing carriage returns in REPL, util.inspect() output	120		
-7955	718899	true	open	false	10		2016-08-03T04:09:12Z	2016-08-03T17:30:20Z		meta: clarify process for breaking changes	27		
+7955	718899	true	open	false	13		2016-08-03T04:09:12Z	2016-08-03T18:52:04Z		meta: clarify process for breaking changes	27		
 7956	6275532	true	open	false	0	0	2016-08-03T07:52:07Z	2016-08-03T07:52:07Z		V6.x	47		
-7957	275871	true	open	false	6		2016-08-03T09:55:43Z	2016-08-03T17:29:47Z		build: turn on thin static archives	103		
+7957	275871	true	open	false	7		2016-08-03T09:55:43Z	2016-08-03T18:07:08Z		build: turn on thin static archives	103		
 7958	2046672	false	open	false	1		2016-08-03T12:57:49Z	2016-08-03T13:55:20Z		Feature request: Generated Documentation for Reference - PDF and CHM formats	60		
 7959	15943089	false	open	false	4		2016-08-03T13:01:15Z	2016-08-03T17:52:31Z		v8 inspector build failure: File name too long	109		
 7960	12098035	false	open	false	4		2016-08-03T13:29:44Z	2016-08-03T15:13:32Z		EnvDeleter should return true	105		
 7961	1495995	true	open	false	2		2016-08-03T14:20:49Z	2016-08-03T16:23:30Z		benchmark: add --format csv option	56		
 7962	275871	false	open	false	2		2016-08-03T14:58:10Z	2016-08-03T17:12:31Z		tls, lts: update root certs in v0.10 and v0.12?	73		
-7963	899444	true	open	false	0	0	2016-08-03T17:50:51Z	2016-08-03T17:50:51Z		deps: float gyp patch for long filenames	134		
-7964	439929	true	open	false	0	0	2016-08-03T17:53:52Z	2016-08-03T17:53:52Z		meta: add explicit details of the deprecation and semver-major policy	36		
+7963	899444	true	open	false	2		2016-08-03T17:50:51Z	2016-08-03T18:12:24Z		deps: float gyp patch for long filenames	134		
+7964	439929	true	open	false			2016-08-03T17:53:52Z	2016-08-03T18:07:43Z		meta: add explicit details of the deprecation and semver-major policy	36		
