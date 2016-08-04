@@ -31,7 +31,7 @@
 2534	4405297	true	open	false	84		2015-08-25T01:59:16Z	2016-07-25T20:17:11Z		http: fixed socket destruction, timeout and leaking	144		
 2569	13315	true	open	false	26		2015-08-27T04:34:55Z	2016-07-14T03:03:33Z		Add zh-CN i18n support for Windows installer	15		
 2642	2645436	false	open	false	30		2015-09-02T06:06:18Z	2016-06-30T18:50:44Z		Keep alive connection do not get closed with server.close()	106		
-2668	291301	false	open	false	6		2015-09-02T21:50:48Z	2016-08-03T22:42:49Z		Unreachable code in buffer.js and unsigned bitwise shifts.	293		
+2668	291301	false	open	false	7		2015-09-02T21:50:48Z	2016-08-04T02:25:23Z		Unreachable code in buffer.js and unsigned bitwise shifts.	293		
 2681	439929	false	closed	false	5		2015-09-03T15:40:56Z	2016-06-30T23:21:20Z	2016-06-30T23:21:20Z	child_process: execFile and fork arg parsing ambiguity	136		
 2783	75184	false	closed	false	37		2015-09-09T21:17:46Z	2016-08-03T09:18:39Z	2016-05-02T11:32:45Z	Compiling node v4.0.0 with OpenSSL 1.0.1 fails	473		
 2833	1211152	false	closed	false	29		2015-09-12T14:09:10Z	2016-07-29T19:13:35Z	2016-03-09T09:20:02Z	Node.js `crypto` and the WebCrypto API	150		
@@ -107,7 +107,7 @@
 5458	275871	true	open	false	18		2016-02-26T21:01:17Z	2016-06-29T16:08:48Z		src,tools: speed up startup by 2.5%	94		
 5574	532414	false	open	false	17		2016-03-06T00:25:17Z	2016-07-18T12:02:43Z		Losing keystrokes when using tty.ReadStream() over process.stdin	117		
 5588	17536109	false	open	false	6		2016-03-07T13:45:01Z	2016-07-17T06:58:20Z		Assertion failed: (r) == (0), file src\cares_wrap.cc, line 1262	35		
-5599	711968	true	open	false	5		2016-03-08T15:41:12Z	2016-07-30T08:08:18Z		Bugfix cpplint windows path	103		
+5599	711968	true	open	false	6		2016-03-08T15:41:12Z	2016-08-04T03:20:18Z		Bugfix cpplint windows path	103		
 5656	495647	true	open	false	5		2016-03-11T07:32:35Z	2016-07-02T05:13:27Z		 Refactor mac installer (built on #2571)	312		
 5659	15952	false	closed	false	22		2016-03-11T16:00:53Z	2016-07-22T20:01:30Z	2016-06-30T17:08:41Z	repl: useGlobal docs and code mismatch	127		
 5687	1699593	false	closed	false	8		2016-03-13T18:58:57Z	2016-08-01T12:36:42Z	2016-03-13T19:12:46Z	Promise.all is not a function	77		
@@ -662,9 +662,9 @@
 7724	7932813	false	closed	false	2		2016-07-14T06:17:08Z	2016-07-14T07:12:41Z	2016-07-14T06:37:57Z	 Promise.prototype.chain is undefined on osx	39		
 7725	158787	false	closed	false	2		2016-07-14T07:21:13Z	2016-07-14T08:01:59Z	2016-07-14T07:59:27Z	Net socket (telnet) crashes on a larger data	88		
 7726	317464	false	open	false	52		2016-07-14T07:33:37Z	2016-08-03T18:05:56Z		[meta] realpath issues in v6	307		
-7727	291301	true	open	false			2016-07-14T10:22:20Z	2016-07-26T05:05:40Z		doc: more formatting fixes	162		
+7727	291301	true	open	false	2		2016-07-14T10:22:20Z	2016-08-04T02:30:52Z		doc: more formatting fixes	162		
 7728	6447530	false	open	false	4		2016-07-14T10:23:51Z	2016-07-14T13:16:30Z		Inconsistencies with IPv6 endpoint specification across platforms	697		
-7729	291301	true	open	false	9		2016-07-14T10:50:32Z	2016-07-15T22:39:20Z		tools: add remark-lint configuration in .remarkrc	95		
+7729	291301	true	open	false	11		2016-07-14T10:50:32Z	2016-08-04T03:12:42Z		tools: add remark-lint configuration in .remarkrc	95		
 7730	7488613	false	open	false	13		2016-07-14T11:32:41Z	2016-07-14T21:32:21Z		Change os.cpus() output to report whether a core is physical or logical	68		
 7731	2034108	false	closed	false	11		2016-07-14T13:41:32Z	2016-07-15T12:07:27Z	2016-07-15T12:07:27Z	failure trying to compile for arm64+android	239		
 7732	1083944	false	open	false	8		2016-07-14T14:44:14Z	2016-07-18T21:09:35Z		http.IncomingMessage omits events when aborted on client side 	273		
@@ -901,10 +901,10 @@
 7964	439929	true	open	false			2016-08-03T17:53:52Z	2016-08-03T22:28:41Z		meta: add explicit details of the deprecation and semver-major policy	36		
 7965	11522163	false	open	false	0		2016-08-03T19:32:40Z	2016-08-03T19:32:40Z		readline will echo first line of input	149		
 7966	899444	true	open	false	4		2016-08-03T21:23:59Z	2016-08-03T22:00:50Z		doc: add @addaleax to the CTC	28		
-7967	4421720	true	open	false	2		2016-08-03T21:38:30Z	2016-08-03T22:01:22Z		tools: add .vscode folder to .gitignore	33		
+7967	4421720	true	open	false	4		2016-08-03T21:38:30Z	2016-08-04T03:08:15Z		tools: add .vscode folder to .gitignore	33		
 7968	4421720	true	open	false	0	0	2016-08-03T22:09:01Z	2016-08-03T22:09:01Z		doc: add CTC meeting minutes 2016-07-13	31		
-7969	439929	true	open	false	0	0	2016-08-03T22:37:12Z	2016-08-03T22:37:12Z		doc: @piscisaureus has stepped-down from the CTC	32		
+7969	439929	true	open	false	4		2016-08-03T22:37:12Z	2016-08-04T02:02:42Z		doc: @piscisaureus has stepped-down from the CTC	32		
 7970	4421720	true	open	false	0	0	2016-08-03T23:00:06Z	2016-08-03T23:00:06Z		doc: add CTC meeting minutes 2016-07-20	32		
-7971	718899	true	open	false			2016-08-03T23:36:02Z	2016-08-04T01:02:33Z		doc: use consistent markdown in README	61		
+7971	718899	true	open	false			2016-08-03T23:36:02Z	2016-08-04T02:28:40Z		doc: use consistent markdown in README	61		
 7972	439929	true	open	false	0	0	2016-08-04T00:15:37Z	2016-08-04T00:15:37Z		lib: add initial mapproxy implementation and benchmark	119		
 7973	9373002	false	open	false	0		2016-08-04T01:24:49Z	2016-08-04T01:24:49Z		AIX: parallel/test-stdio-closed and pseudo-tty/no_dropped_stdio failures on new machine	133		
