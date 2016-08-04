@@ -214,7 +214,7 @@
 6948	275871	true	closed	false	12		2016-05-24T10:01:34Z	2016-07-11T21:35:43Z	2016-05-25T07:57:47Z	src: add include guards to internal headers	24		
 6951	321966	true	closed	false	7		2016-05-24T12:27:44Z	2016-07-12T14:40:15Z	2016-05-29T20:59:51Z	doc: buffers are not sent over IPC with a socket	67		
 6954	718899	false	closed	false	2		2016-05-24T15:49:55Z	2016-07-02T14:33:49Z	2016-07-02T14:33:49Z	Investigate flaky parallel/test-http-client-reject-chunked-with-content-length on smartos14-64	69		
-6956	1093990	true	open	false	12		2016-05-24T20:50:58Z	2016-07-01T15:57:35Z		timers: warn on overflowed timeout duration	66		
+6956	1093990	true	open	false	13		2016-05-24T20:50:58Z	2016-08-04T22:48:05Z		timers: warn on overflowed timeout duration	66		
 6957	899444	true	closed	false	6		2016-05-24T21:27:43Z	2016-06-30T23:28:00Z	2016-06-30T23:28:00Z	Backport 6907 to v4.x (console.* not working when running out of stack space)	40		
 6967	2352663	true	closed	false	8		2016-05-25T10:42:47Z	2016-07-12T06:22:51Z	2016-05-26T07:51:26Z	test: add regression test for Proxy as vm context	48		
 6972	1093990	true	open	false	5		2016-05-25T15:49:15Z	2016-07-05T17:22:30Z		repl: add a `noUnderscore` option	84		
@@ -230,6 +230,7 @@
 7016	2352663	true	closed	false	58		2016-05-27T09:43:28Z	2016-07-21T15:43:37Z	2016-06-29T08:47:38Z	deps: update V8 to 5.1.281.69	71		
 7019	134460	true	open	false	4		2016-05-27T15:06:04Z	2016-08-01T13:19:18Z		Enable line ending normalization in git, not in the linter	256		
 7024	718899	true	closed	false	8		2016-05-27T18:42:24Z	2016-07-14T19:21:10Z	2016-06-01T00:05:35Z	test: fix spurious EADDRINUSE in test-https-strict	132		
+7028	1093990	true	open	false	3		2016-05-27T19:42:59Z	2016-08-04T22:46:56Z		tools: align the jslint summary like the test runner	66		
 7033	718899	true	closed	false	8		2016-05-28T03:04:33Z	2016-07-11T22:06:26Z	2016-06-01T03:30:45Z	test: make test-child-process-fork-net more robust	174		
 7035	54666	false	closed	false	2		2016-05-28T06:47:06Z	2016-07-02T14:34:40Z	2016-07-02T14:34:40Z	Investigate flaky parallel/test-debugger-repeat-last	29		
 7042	718899	false	closed	false	8		2016-05-29T00:00:46Z	2016-07-09T04:46:48Z	2016-07-09T04:46:48Z	Investigate flaky test-fs-read-buffer-tostring-fail on Raspberry Pi	64		
@@ -367,7 +368,7 @@
 7413	718899	true	closed	false	6	0	2016-06-24T22:42:05Z	2016-06-27T23:59:39Z	2016-06-27T23:59:39Z	assert: remove unneeded arguments special handling	201		
 7414	1386719	false	open	false	8		2016-06-25T01:00:32Z	2016-07-08T18:14:51Z		Chore: Use arrow functions where possible (lexical `this`).	94		
 7415	1386719	true	open	false	3		2016-06-25T01:21:42Z	2016-06-27T15:55:53Z		debug: use arrow functions for lexical `this`	121		
-7416	1386719	true	open	false	7		2016-06-25T02:19:51Z	2016-07-05T17:51:06Z		fs: use arrow functions for lexical `this`	56		
+7416	1386719	true	open	false	9		2016-06-25T02:19:51Z	2016-08-04T22:59:27Z		fs: use arrow functions for lexical `this`	56		
 7417	410087	false	closed	false	30		2016-06-25T13:51:45Z	2016-06-29T08:09:19Z	2016-06-28T19:32:14Z	Error ONLY when running babel task on arm64 node v4.4.6	171		
 7418	1018196	false	closed	false	3		2016-06-25T16:18:18Z	2016-06-29T23:04:11Z	2016-06-29T23:04:11Z	node --inspect connecting with url in localhost:<port>/json gives malloc error with nightlies	107		
 7420	5259935	false	closed	false	11		2016-06-25T16:20:14Z	2016-07-16T09:28:21Z	2016-07-05T13:59:42Z	"In the `fs.watch` callback, `event` parameter is always ""rename"" on OS X"	63		
@@ -409,7 +410,7 @@
 7467	718899	true	closed	false	9		2016-06-29T00:17:10Z	2016-07-01T05:47:40Z	2016-07-01T05:47:40Z	test: remove common.PORT from http tests	41		
 7468	613320	false	closed	false	2		2016-06-29T00:26:53Z	2016-06-29T08:57:35Z	2016-06-29T00:56:31Z	Domains appear to be broken in NodeJS 4 and 6.	218		
 7469	6628505	false	open	false	7		2016-06-29T04:26:38Z	2016-06-29T16:43:01Z		request - fs support for OS X package option on directories	33		
-7471	6098160	true	open	false	6		2016-06-29T08:22:09Z	2016-07-01T10:10:21Z		configure: reword help for --without-npm	28		
+7471	6098160	true	open	false	7		2016-06-29T08:22:09Z	2016-08-04T22:57:56Z		configure: reword help for --without-npm	28		
 7472	8008055	false	open	false	0		2016-06-29T08:50:14Z	2016-06-29T08:50:14Z		Two-dimensional array v8 optimization trouble	142		
 7473	783424	false	closed	false	4		2016-06-29T09:03:08Z	2016-06-29T19:05:56Z	2016-06-29T19:05:55Z	process.stdin.on('end', function(){}); After use chroot, the event can't be triggered in nodejs v4.4.6 LTS	216		
 7474	495647	false	closed	false	14		2016-06-29T10:45:01Z	2016-07-03T03:51:58Z	2016-07-03T03:51:58Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-06-29	439		
@@ -711,7 +712,7 @@
 7770	10796236	false	closed	false	10		2016-07-17T10:00:26Z	2016-07-18T23:16:37Z	2016-07-18T07:49:46Z	arm and LD_LIBRARY_PATH (ld-linux-armhf.so.3: No such file or directory)	94		
 7771	6609554	true	closed	false	19		2016-07-17T16:12:09Z	2016-07-25T15:53:10Z	2016-07-19T21:53:57Z	deps: cherry-pick 2b4c9c1 from v8 upstream	148		
 7772	718899	true	closed	false	15		2016-07-17T16:41:46Z	2016-07-21T20:42:52Z	2016-07-20T16:58:33Z	test: increase RAM requirement for intensive tests	102		
-7773	1093990	true	open	false	3		2016-07-17T20:01:35Z	2016-07-19T10:42:30Z		test: clean up test-buffer-badhex	71		
+7773	1093990	true	open	false	4		2016-07-17T20:01:35Z	2016-08-04T22:45:41Z		test: clean up test-buffer-badhex	71		
 7774	899444	true	open	false	2		2016-07-17T20:53:45Z	2016-07-18T16:19:02Z		test: fix child_process testcase to actually detect regression	39		
 7775	899444	true	closed	false	9		2016-07-17T21:03:46Z	2016-07-25T08:03:09Z	2016-07-25T08:03:09Z	doc: fix `added:` date for `NODE_REPL_HISTORY`	46		
 7776	11649301	false	closed	false	14		2016-07-17T22:09:51Z	2016-07-27T07:00:47Z	2016-07-25T15:17:11Z	ECONNRESET problem with http.Server and https.Server (node 6.3, 6.2.2 and poss earlier)	258		
@@ -784,7 +785,7 @@
 7843	855219	false	open	false	0		2016-07-22T19:17:46Z	2016-07-22T19:17:46Z		deps: fix TODO in tools/icu/README.md	12		
 7844	855219	false	open	false	4		2016-07-22T19:21:27Z	2016-07-22T20:02:36Z		deps: Intl: ICU 58 bump	32		
 7845	1084056	true	open	false	10		2016-07-22T22:02:05Z	2016-07-27T06:29:42Z		test: use common platform helpers everywhere	63		
-7846	498775	true	open	false	33		2016-07-22T23:46:39Z	2016-08-04T17:29:18Z		Revert fs changes	246		
+7846	498775	true	closed	false	36		2016-07-22T23:46:39Z	2016-08-04T22:15:32Z	2016-08-04T22:15:32Z	Revert fs changes	246		
 7847	54666	true	open	false	8		2016-07-23T03:26:28Z	2016-07-26T17:05:20Z		doc: improve https module documentation	57		
 7848	718899	false	open	false	10		2016-07-23T03:35:07Z	2016-08-03T04:10:48Z		Role of CTC in semver-major changes needs clarification	205		
 7849	1622515	true	closed	false	5		2016-07-23T06:46:26Z	2016-07-28T03:33:02Z	2016-07-28T03:33:02Z	doc: align breakEvalOnSigint - repl option	33		
@@ -835,9 +836,9 @@
 7894	1651212	true	open	false			2016-07-27T12:41:26Z	2016-07-31T07:22:34Z		doc: add npm link and cleanup Readme	46		
 7895	4949308	true	closed	false	10		2016-07-27T13:28:10Z	2016-08-04T19:46:37Z	2016-08-04T19:46:37Z	build: Maximize the default V8 inliner flags values	90		
 7896	7308528	false	closed	false	1		2016-07-27T16:55:37Z	2016-07-27T17:25:38Z	2016-07-27T17:25:38Z	I need nodeJS v5 in intel edison to run angular 2 app - issue	52		
-7897	696611	true	open	false			2016-07-27T17:02:57Z	2016-08-04T19:05:07Z		fs: warn instead of throwing if no callback	100		
+7897	696611	true	open	false	8		2016-07-27T17:02:57Z	2016-08-04T22:47:14Z		fs: warn instead of throwing if no callback	100		
 7898	1005116	true	closed	false	4		2016-07-27T18:12:08Z	2016-07-29T15:31:05Z	2016-07-29T15:31:05Z	benchmark: http parser optimization	194		
-7899	17704638	true	open	false	26		2016-07-27T18:12:17Z	2016-08-04T09:07:31Z		fs: restore javascript realpath implementation	162		
+7899	17704638	true	open	false	27		2016-07-27T18:12:17Z	2016-08-04T22:20:00Z		fs: restore javascript realpath implementation	162		
 7900	739813	true	closed	false	5	1	2016-07-27T22:43:54Z	2016-08-01T17:52:30Z	2016-08-01T17:52:30Z	doc: add CTC meeting minutes 2016-07-27	33		
 7901	54479	false	closed	false	2		2016-07-27T22:59:05Z	2016-07-28T18:50:34Z	2016-07-28T02:15:01Z	Incorrect version of Node package in Yum repo	329		
 7902	110455	false	open	false	2		2016-07-27T23:57:01Z	2016-08-02T05:53:04Z		<=v4: process.hrtime() segfaults on arrays with error-throwing accessors	129		
@@ -902,7 +903,7 @@
 7962	275871	false	open	false	2		2016-08-03T14:58:10Z	2016-08-03T17:12:31Z		tls, lts: update root certs in v0.10 and v0.12?	73		
 7963	899444	true	open	false			2016-08-03T17:50:51Z	2016-08-04T16:26:23Z		deps: float gyp patch for long filenames	134		
 7964	439929	true	open	false			2016-08-03T17:53:52Z	2016-08-04T18:03:44Z		meta: add explicit details of the deprecation and semver-major policy	36		
-7965	11522163	false	open	false	0		2016-08-03T19:32:40Z	2016-08-03T19:32:40Z		readline will echo first line of input	149		
+7965	11522163	false	open	false	1		2016-08-03T19:32:40Z	2016-08-04T22:47:58Z		readline will echo first line of input	149		
 7966	899444	true	open	false	4		2016-08-03T21:23:59Z	2016-08-03T22:00:50Z		doc: add @addaleax to the CTC	28		
 7967	4421720	true	open	false	4		2016-08-03T21:38:30Z	2016-08-04T03:08:15Z		tools: add .vscode folder to .gitignore	33		
 7968	4421720	true	open	false	0	0	2016-08-03T22:09:01Z	2016-08-03T22:09:01Z		doc: add CTC meeting minutes 2016-07-13	31		
@@ -919,4 +920,4 @@
 7979	12707521	false	open	false	0		2016-08-04T14:51:58Z	2016-08-04T14:51:58Z		REPL doesn't return any value	46		
 7980	4421720	true	open	false	0	0	2016-08-04T20:50:42Z	2016-08-04T20:50:42Z		doc: add CTC meeting minutes 2016-08-03	64		
 7981	9373002	false	open	false	0		2016-08-04T21:40:59Z	2016-08-04T21:40:59Z		AIX: /test-vm-sigint-existing-handler.js	57		
-7982	899444	true	open	false	0	0	2016-08-04T21:57:59Z	2016-08-04T21:57:59Z		test: fix flaky test-vm-sigint-existing-handler	61		
+7982	899444	true	open	false	1		2016-08-04T21:57:59Z	2016-08-04T22:01:45Z		test: fix flaky test-vm-sigint-existing-handler	61		
