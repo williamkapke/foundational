@@ -373,7 +373,7 @@
 7420	5259935	false	closed	false	11		2016-06-25T16:20:14Z	2016-07-16T09:28:21Z	2016-07-05T13:59:42Z	"In the `fs.watch` callback, `event` parameter is always ""rename"" on OS X"	63		
 7421	557590	true	closed	false	10		2016-06-25T18:49:22Z	2016-07-18T13:35:39Z	2016-07-18T13:35:39Z	Backport 7176 for v6.x (buffer: fix creating from zero-length ArrayBuffer)	49		
 7422	718899	true	closed	false	12		2016-06-25T22:21:41Z	2016-07-12T01:06:11Z	2016-06-29T05:30:02Z	test: test isFullWidthCodePoint with invalid input	63		
-7425	899444	true	open	false	19		2016-06-26T04:30:59Z	2016-08-04T17:21:19Z		stream: support decoding buffers for Writables	137		
+7425	899444	true	open	false	20		2016-06-26T04:30:59Z	2016-08-04T21:43:43Z		stream: support decoding buffers for Writables	137		
 7426	238531	false	closed	false	7		2016-06-26T06:26:37Z	2016-06-27T18:11:56Z	2016-06-27T18:11:56Z	OpenSSL windows asm question	92		
 7427	238531	true	closed	false	14		2016-06-26T07:57:12Z	2016-07-17T05:06:29Z	2016-06-27T18:11:40Z	deps: `MASM.UseSafeExceptionHandlers` for OpenSSL	90		
 7429	4134127	false	open	false	19		2016-06-26T10:53:21Z	2016-06-29T18:34:34Z		getting this when trying to run ghost blog on arm64	2474		
@@ -502,7 +502,7 @@
 7561	1847934	true	open	false			2016-07-06T12:15:00Z	2016-07-26T04:44:54Z		"Clarify ""fs.readFile"", ""fs.appendFile"", ""fs.writeFile"" doc…"	22		
 7562	291301	true	closed	false	11		2016-07-06T12:32:10Z	2016-07-08T17:09:26Z	2016-07-08T14:49:21Z	New Buffer API backport to v4.x (staging branch)	204		
 7563	9373002	false	closed	false	12		2016-07-06T15:15:31Z	2016-07-18T21:43:27Z	2016-07-18T21:43:27Z	AIX - failure in parallel/test-cluster-disconnect-handles	80		
-7564	9373002	true	open	false	9		2016-07-06T15:59:12Z	2016-08-03T22:37:40Z		src: temporary malloc fix for AIX	188		
+7564	9373002	true	open	false	10		2016-07-06T15:59:12Z	2016-08-04T21:51:20Z		src: temporary malloc fix for AIX	188		
 7565	275871	false	closed	false	8		2016-07-06T17:00:39Z	2016-07-23T14:40:11Z	2016-07-11T17:16:01Z	discuss: future of AsyncWrap	165		
 7566	115237	false	open	false	1		2016-07-06T17:30:07Z	2016-07-06T18:54:52Z		Changing default options for util.inspect	59		
 7567	17704638	true	open	false	0	0	2016-07-06T18:13:33Z	2016-07-06T18:13:33Z		doc: add bartosz sosnowski to colaborators	2		
@@ -519,7 +519,7 @@
 7578	985607	false	closed	false	9		2016-07-07T05:18:10Z	2016-07-08T06:20:43Z	2016-07-08T06:20:43Z	error miss filename and line number in 4.x and 5.x when require file compile error	150		
 7579	238531	false	closed	false	16		2016-07-07T06:40:43Z	2016-07-08T06:24:49Z	2016-07-08T06:24:49Z	Use EVTag for release tags	151		
 7580	7348032	false	open	false	1		2016-07-07T10:19:29Z	2016-07-14T12:57:35Z		Feature request: have http.request() accept socket timeout option which is passed to http.Agent and applied BEFORE connecting	174		
-7581	495647	true	open	false	15		2016-07-07T11:03:14Z	2016-08-04T20:48:35Z		benchmark: add microbenchmarks for ES Map	61		
+7581	495647	true	open	false	16		2016-07-07T11:03:14Z	2016-08-04T21:05:04Z		benchmark: add microbenchmarks for ES Map	61		
 7582	1260646	false	closed	false	3		2016-07-07T14:35:23Z	2016-07-26T10:35:11Z	2016-07-26T10:35:11Z	EMFILE migrating from v6.2.2 to v6.3.0	108		
 7583	1211498	false	closed	false	2		2016-07-07T14:35:44Z	2016-07-09T07:24:31Z	2016-07-09T07:24:31Z	Fails to build with --shared-openssl configure option	55		
 7584	498775	true	closed	false	15	0	2016-07-07T14:39:32Z	2016-07-11T16:59:35Z	2016-07-11T16:59:34Z	deps: backport 22c5e46 from V8	102	498775	2016-07-11T16:59:34Z
@@ -603,7 +603,7 @@
 7662	275871	true	open	false	5		2016-07-11T21:41:47Z	2016-07-12T01:16:29Z		crypto: update root certificates (v4.x)	15		
 7663	275871	true	closed	false	6		2016-07-11T21:59:22Z	2016-07-12T01:22:06Z	2016-07-12T01:22:06Z	Backport #7374 to v4.x	30		
 7664	899444	true	closed	false	5		2016-07-11T22:23:36Z	2016-07-12T16:58:39Z	2016-07-12T01:24:45Z	vm: don't print out arrow message for custom error (v4.x)	22		
-7665	289174	false	open	false	10		2016-07-11T22:42:45Z	2016-07-15T21:43:09Z		[repl] do not show all matches on first tab	103		
+7665	289174	false	closed	false	10		2016-07-11T22:42:45Z	2016-08-04T21:40:51Z	2016-08-04T21:40:51Z	[repl] do not show all matches on first tab	103		
 7666	899444	true	closed	false	7		2016-07-11T23:36:03Z	2016-07-12T17:11:49Z	2016-07-12T17:11:49Z	Oddball backport: MaybeStackBuffer +  7462 (Upgrade cpplint) + memory leak fix from 7374	32		
 7667	899444	true	open	false	2		2016-07-11T23:59:25Z	2016-07-12T17:15:52Z		Backport 7373: vm: fix nested timeouts with inverse order + fix flaky test-vm-timeout	7		
 7668	899444	true	open	false	4		2016-07-12T01:28:21Z	2016-07-12T17:17:03Z		Bring the doctool up to date on v4.x	224		
@@ -625,7 +625,7 @@
 7684	321966	true	closed	false	5		2016-07-12T14:54:37Z	2016-07-12T17:39:10Z	2016-07-12T17:39:10Z	doc: buffers are not sent over IPC with a socket	172		
 7685	2512748	true	closed	false	2	0	2016-07-12T16:24:56Z	2016-07-14T14:15:31Z	2016-07-14T14:15:30Z	test: add common.rootDir	61	2512748	2016-07-14T14:15:30Z
 7686	54666	true	closed	false	4		2016-07-12T16:34:11Z	2016-07-14T18:24:38Z	2016-07-14T18:24:38Z	src: clean up string_search	17		
-7687	6487691	true	open	false	9		2016-07-12T18:10:58Z	2016-08-04T20:45:28Z		Add correct shared library naming on OS X	100		
+7687	6487691	true	open	false	11		2016-07-12T18:10:58Z	2016-08-04T21:32:20Z		Add correct shared library naming on OS X	100		
 7688	498775	true	open	false	9		2016-07-12T18:15:10Z	2016-08-03T20:24:59Z		v4.5.0 proposal	3290		
 7689	1485909	true	closed	false	21		2016-07-12T20:16:28Z	2016-08-03T14:36:04Z	2016-07-26T17:47:50Z	deps: cherry-pick b93c80a from v8 upstream	58		
 7690	7135896	true	closed	false	22		2016-07-12T21:11:48Z	2016-08-04T15:56:03Z	2016-08-04T15:56:03Z	util: allow deprecate on classes	66		
@@ -692,10 +692,10 @@
 7751	79017	true	closed	false	5	0	2016-07-15T16:09:25Z	2016-07-19T07:39:21Z	2016-07-19T07:39:21Z	deps: v8_inspector no longer depends on wtf	41		
 7752	2034108	false	closed	false	9		2016-07-15T19:35:09Z	2016-07-18T16:55:56Z	2016-07-16T09:02:05Z	libv8_base.a issues many undefined errors when linking on android/x86 or android/x86_64	192		
 7753	2512748	true	closed	false	9		2016-07-15T20:43:46Z	2016-07-19T12:36:28Z	2016-07-18T21:14:43Z	test: use mustCall() for simple flow tracking	96		
-7754	899444	true	open	false	6		2016-07-15T21:42:32Z	2016-08-04T20:18:55Z		readline: show completions only after 2nd TAB	111		
+7754	899444	true	closed	false	7		2016-07-15T21:42:32Z	2016-08-04T21:40:55Z	2016-08-04T21:40:55Z	readline: show completions only after 2nd TAB	111		
 7755	164625	false	open	false	6		2016-07-15T21:43:49Z	2016-07-16T18:48:23Z		If node is started with --debug a space appears on the following line	15		
 7756	1018196	true	open	false	11		2016-07-15T21:45:58Z	2016-07-29T22:07:36Z		Fixes #7742: src: --inspect notify contextDestroyed	115		
-7757	899444	true	open	false	19		2016-07-15T22:46:35Z	2016-08-04T20:40:52Z		doc: use blockquotes for Stability: markers	35		
+7757	899444	true	closed	false	21		2016-07-15T22:46:35Z	2016-08-04T21:31:42Z	2016-08-04T21:31:42Z	doc: use blockquotes for Stability: markers	35		
 7758	10393198	true	closed	false	10		2016-07-16T01:33:16Z	2016-08-01T12:28:11Z	2016-08-01T12:28:11Z	test: decrease inconsistency in the common.js	135		
 7759	238531	true	closed	false	11		2016-07-16T04:05:05Z	2016-07-17T05:05:57Z	2016-07-17T05:05:57Z	deps: no /safeseh for ml64.exe	59		
 7760	546900	false	closed	false	4		2016-07-16T10:05:44Z	2016-07-16T16:33:19Z	2016-07-16T13:18:30Z	get current node version OR tag latest	48		
@@ -746,7 +746,7 @@
 7805	1222029	true	closed	false	6		2016-07-20T06:47:21Z	2016-08-04T20:16:55Z	2016-08-04T20:16:55Z	doc: correct crypto encoding information	66		
 7806	696611	true	closed	false	9	0	2016-07-20T07:38:11Z	2016-07-20T17:42:49Z	2016-07-20T17:42:49Z	test: find IPv6 address from localhost names	56		
 7807	6941888	false	open	false	0		2016-07-20T08:28:35Z	2016-07-20T08:28:35Z		About install gulp  problem	25		
-7808	248374	true	open	false	7		2016-07-20T08:52:51Z	2016-08-04T20:14:08Z		build: Provide 'node_module_version' via config.gypi	23		
+7808	248374	true	open	false	8		2016-07-20T08:52:51Z	2016-08-04T21:26:30Z		build: Provide 'node_module_version' via config.gypi	23		
 7809	495647	false	open	false	3		2016-07-20T12:18:37Z	2016-07-20T17:13:04Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-07-20	479		
 7810	439929	true	closed	false	10		2016-07-20T15:29:54Z	2016-07-25T13:53:02Z	2016-07-25T13:53:02Z	doc: clarify that the node.js irc channel is not under tsc oversight	71		
 7811	2512748	true	closed	false	6		2016-07-20T16:55:28Z	2016-07-22T16:02:10Z	2016-07-22T16:02:10Z	child_process: support stdio option in fork()	80		
@@ -793,7 +793,7 @@
 7852	886388	false	closed	false	11		2016-07-23T18:24:17Z	2016-07-27T12:36:41Z	2016-07-25T04:16:55Z	Removing listener that was added multiple times	68		
 7853	516780	false	open	false	3		2016-07-23T19:28:07Z	2016-07-25T03:33:36Z		node --debug takes a really long time to respond to websockets	180		
 7854	1084056	true	closed	false	10		2016-07-23T20:09:19Z	2016-08-02T14:08:28Z	2016-08-02T14:08:28Z	test: fix test-vm-sigint flakiness	68		
-7855	1422781	true	open	false			2016-07-23T20:38:28Z	2016-08-03T21:11:31Z		dgram: setMulticastInterface() outgoing interface selection	72		
+7855	1422781	true	open	false			2016-07-23T20:38:28Z	2016-08-04T21:32:52Z		dgram: setMulticastInterface() outgoing interface selection	72		
 7856	373545	true	open	false	6		2016-07-23T20:49:58Z	2016-08-03T16:08:51Z		fs: Fix default params for fs.write	81		
 7857	718899	true	closed	false	26		2016-07-23T21:15:43Z	2016-07-31T20:33:10Z	2016-07-31T20:33:10Z	test: fix flaky test-tls-wrap-timeout	59		
 7858	3524633	false	closed	false	11		2016-07-24T00:23:34Z	2016-07-26T14:21:50Z	2016-07-25T15:53:16Z	Add fsevents to NodeJS	211		
@@ -872,14 +872,14 @@
 7932	718899	true	open	false	5		2016-08-01T03:46:38Z	2016-08-04T19:26:03Z		test: mark test-util-sigint-watchdog FreeBSD flaky	41		
 7933	899444	true	open	false	8		2016-08-01T11:11:18Z	2016-08-04T18:07:25Z		test,vm: fix flaky test-util-sigint-watchdog	65		
 7934	20771374	false	open	false	0		2016-08-01T11:30:46Z	2016-08-01T11:30:46Z		unable to install npm package	162		
-7935	2512748	false	open	false	8		2016-08-01T14:34:49Z	2016-08-04T05:29:02Z		Move ecosystem detection tool to nodejs org	67		
+7935	2512748	false	open	false	8		2016-08-01T14:34:49Z	2016-08-04T21:01:52Z		Move ecosystem detection tool to nodejs org	67		
 7936	439929	false	open	false	0		2016-08-01T14:48:25Z	2016-08-01T14:48:25Z		meta: can the github bot tag PRs from new contributors?	76		
 7937	708850	false	closed	false	5		2016-08-01T16:13:36Z	2016-08-01T17:01:25Z	2016-08-01T16:20:31Z	Can we document --max_old_space_size or is it deprecated?	99		
 7938	189580	false	open	false	0		2016-08-01T17:19:58Z	2016-08-01T17:19:58Z		Feature request: fs.ReadStream#bytesRead	50		
 7939	1935767	true	closed	false	10		2016-08-01T17:39:22Z	2016-08-04T19:20:43Z	2016-08-04T19:20:43Z	doc, tools: improve the title of pages in doc	31		
 7940	2749683	false	open	false	2		2016-08-01T18:48:01Z	2016-08-01T19:11:32Z		Serialization on cluster#fork	64		
 7941	439929	true	open	false	4		2016-08-01T18:55:55Z	2016-08-03T17:03:02Z		doc, punycode: soft-deprecation of the punycode module	58		
-7942	189580	true	open	false	6		2016-08-01T19:43:55Z	2016-08-04T19:16:20Z		fs: add bytesRead to ReadStream	80		
+7942	189580	true	open	false			2016-08-01T19:43:55Z	2016-08-04T21:18:57Z		fs: add bytesRead to ReadStream	80		
 7943	1988999	false	closed	false	3		2016-08-02T02:32:40Z	2016-08-02T10:15:17Z	2016-08-02T10:15:17Z	node-cli bug on windows 10	46		
 7944	275871	false	open	false	0		2016-08-02T07:47:10Z	2016-08-02T07:47:10Z		v8_inspector: IgnoreExceptionsScope.h does not exist	27		
 7945	275871	true	closed	false	2	0	2016-08-02T07:50:03Z	2016-08-03T09:19:52Z	2016-08-03T09:19:52Z	build: fix dependency on missing header file 	34		
@@ -918,3 +918,5 @@
 7978	8536244	false	open	false	7		2016-08-04T13:19:18Z	2016-08-04T14:09:55Z		fs.writeFile is writing JSON file faulty	157		
 7979	12707521	false	open	false	0		2016-08-04T14:51:58Z	2016-08-04T14:51:58Z		REPL doesn't return any value	46		
 7980	4421720	true	open	false	0	0	2016-08-04T20:50:42Z	2016-08-04T20:50:42Z		doc: add CTC meeting minutes 2016-08-03	64		
+7981	9373002	false	open	false	0		2016-08-04T21:40:59Z	2016-08-04T21:40:59Z		AIX: /test-vm-sigint-existing-handler.js	57		
+7982	899444	true	open	false	0	0	2016-08-04T21:57:59Z	2016-08-04T21:57:59Z		test: fix flaky test-vm-sigint-existing-handler	61		
