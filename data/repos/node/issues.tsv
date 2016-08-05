@@ -3,6 +3,8 @@
 428	321966	false	open	false	42		2015-01-14T21:56:04Z	2016-07-08T15:21:33Z		plans on incorporating LibreSSL	35		
 445	2993861	false	open	false	11		2015-01-15T16:18:56Z	2016-08-03T22:33:47Z		Cleanup `_writableState` and `_readableState` access across codebase	590		
 540	555645	true	closed	false	33		2015-01-21T16:22:26Z	2016-07-18T15:54:13Z	2015-01-28T03:49:14Z	events: Alias EventEmitter.protoype.removeListener as EventEmitter.prototype.off 	95		
+550	30827	false	closed	false	10		2015-01-22T05:35:22Z	2016-08-05T22:14:53Z	2016-08-05T22:14:53Z	Proposal: HTTP – Move `bodyHead` to `data` event	125		
+643	829734	false	open	false	31		2015-01-28T21:12:32Z	2016-08-05T22:17:03Z		Using faster url parser	82		
 690	275871	false	closed	false	14		2015-02-02T15:19:55Z	2016-07-19T11:39:40Z	2016-07-19T11:39:40Z	repl: surrogate pair upsets repl / terminal	43		
 729	289174	false	closed	false	8		2015-02-05T20:00:25Z	2016-06-29T11:12:13Z	2016-06-29T11:12:13Z	Converge Tracing/Profiling to Native Set of Hooks	49		
 805	782880	false	open	false	3		2015-02-11T16:10:53Z	2016-07-19T11:38:52Z		strict printing for X509 Extentions	19		
@@ -157,12 +159,14 @@
 6413	439929	true	open	false	39		2016-04-27T05:29:39Z	2016-07-20T22:30:01Z		"Revert ""fs: add a temporary fix for re-evaluation support"""	37		
 6429	45469	false	closed	false	29		2016-04-27T21:44:57Z	2016-06-27T17:29:28Z	2016-06-27T17:29:28Z	deprecate --use_strict	48		
 6436	5438027	true	closed	false	38		2016-04-28T01:22:41Z	2016-07-12T12:40:59Z	2016-06-29T09:14:33Z	3x faster setImmediate	110		
+6439	1315533	true	open	false	29		2016-04-28T08:11:37Z	2016-08-05T22:44:35Z		promise: warn on unhandled rejections	299		
 6440	361327	false	closed	false	7		2016-04-28T08:33:26Z	2016-06-29T16:23:02Z	2016-05-28T20:51:07Z	"http.request option ""family: 6"" doesn't enable request over IPv6"	117		
 6456	3899684	false	open	false	165		2016-04-28T22:47:27Z	2016-07-08T05:43:54Z		stdio buffered writes (chunked) issues & process.exit() truncation	530		
 6466	275871	false	closed	false	13		2016-04-29T08:46:50Z	2016-07-06T06:44:59Z	2016-07-06T06:44:59Z	os x: re-enable PIE (ASLR)	82		
 6506	16545322	false	closed	false	5		2016-05-01T19:30:49Z	2016-07-11T18:02:53Z	2016-07-11T18:02:53Z	doc: dns.resolve wrong callback addresses argument description	31		
 6525	5750	false	closed	false	6		2016-05-02T15:58:56Z	2016-06-27T17:25:01Z	2016-06-27T17:25:01Z	Result of outer generator .return method incorrect if delegate iterator has no .return method	115		
 6526	2024235	false	closed	false	9		2016-05-02T18:45:42Z	2016-07-11T21:08:24Z	2016-05-02T19:12:07Z	import??	53		
+6528	291301	false	open	false	17		2016-05-02T20:27:59Z	2016-08-05T22:45:31Z		API stability level «Locked» is inaccurate	167		
 6558	238531	true	closed	false	12		2016-05-04T03:12:57Z	2016-07-07T07:30:44Z	2016-05-04T19:30:16Z	Support ASLR in v8's profiler	39		
 6566	677994	true	closed	false	4		2016-05-04T11:51:18Z	2016-07-05T14:13:51Z	2016-07-05T14:13:50Z	util: improve perf for format	149		
 6569	5165527	true	open	false	13		2016-05-04T15:42:43Z	2016-07-26T13:50:27Z		Openssl clientcertengine support2	79		
@@ -203,6 +207,7 @@
 6876	6917800	true	open	false	9		2016-05-19T13:18:48Z	2016-07-19T18:29:42Z		build: fix cross-compile issue for Android	132		
 6877	6917800	true	open	false	18		2016-05-19T14:26:13Z	2016-07-19T11:13:32Z		child_process: check accessing a null stderr	60		
 6878	1093990	false	open	false	8		2016-05-19T15:32:47Z	2016-07-06T05:02:15Z		Discuss planning a long-term renaming of `process.nextTick()`	133		
+6881	1127384	true	open	false	22		2016-05-19T15:56:47Z	2016-08-05T22:56:16Z		events: unwrap #once listeners in #listeners	44		
 6883	4954074	false	open	false	18		2016-05-19T19:13:10Z	2016-07-24T19:07:25Z		Loop with computed name crash node 6.2.0 without message	89		
 6887	238531	true	closed	false	10		2016-05-20T00:35:45Z	2016-07-12T02:29:49Z	2016-05-25T20:07:41Z	tls: catch `certCbDone` exceptions	60		
 6896	718899	false	closed	false	2		2016-05-20T15:50:20Z	2016-07-02T19:42:29Z	2016-07-02T19:42:29Z	Investigate flaky test-tls-server-verify on win10	17		
@@ -281,7 +286,7 @@
 7192	791134	false	open	false	12		2016-06-07T12:49:41Z	2016-07-14T09:40:57Z		Windows standard user cannot run any node 6 js file on mapped path	170		
 7193	5140254	false	closed	false	2		2016-06-07T13:13:34Z	2016-07-26T08:46:00Z	2016-07-26T08:46:00Z	VCS Files With Colons Cause Errors Trying To Install	444		
 7196	4303	false	open	false	8		2016-06-07T17:27:04Z	2016-07-05T15:42:22Z		Exposing more isXyz helpers through node_util.cc.	56		
-7197	718899	false	closed	false	35		2016-06-07T17:40:22Z	2016-08-05T21:31:54Z	2016-07-26T06:11:13Z	governance: add new collaborators XIV	46		
+7197	718899	false	closed	false	36		2016-06-07T17:40:22Z	2016-08-05T22:05:09Z	2016-07-26T06:11:13Z	governance: add new collaborators XIV	46		
 7201	251382	false	closed	false	1		2016-06-07T18:53:05Z	2016-07-06T12:27:39Z	2016-07-06T12:27:39Z	Doctool tests require absent eslint	228		
 7204	439929	false	open	false	4		2016-06-07T22:08:00Z	2016-07-15T07:52:11Z		zlib: there are constants documented that don't exist	33		
 7205	317464	true	closed	false	18	0	2016-06-07T22:18:12Z	2016-07-11T19:26:19Z	2016-07-11T19:26:19Z	deps: libuv upgrade for v4.x	35		
@@ -428,7 +433,7 @@
 7481	696611	true	closed	false	6		2016-06-29T18:07:25Z	2016-07-12T00:11:45Z	2016-07-08T14:45:38Z	net: export isIPv4, isIPv6 directly from cares	50		
 7482	2352663	true	closed	false	10		2016-06-29T18:13:01Z	2016-07-12T06:33:53Z	2016-07-10T15:23:52Z	build: add v8 requirement to test-v8* in Makefile	30		
 7483	696611	true	closed	false	10		2016-06-29T18:21:46Z	2016-07-12T04:30:26Z	2016-07-08T14:52:40Z	tools: remove unnecessary imports and assignments	38		
-7484	275871	false	open	false	39		2016-06-29T18:29:06Z	2016-08-03T18:56:27Z		build: drop support for VS 2013 in v7	96		
+7484	275871	false	open	false	40		2016-06-29T18:29:06Z	2016-08-05T22:47:06Z		build: drop support for VS 2013 in v7	96		
 7485	432351	true	closed	false	5	0	2016-06-29T18:42:27Z	2016-06-30T05:36:59Z	2016-06-30T05:36:59Z	doc: fixing minor typo in AtExit hooks section	53		
 7486	275871	true	closed	false	9		2016-06-29T19:17:29Z	2016-06-30T17:37:51Z	2016-06-30T11:33:16Z	build: drop unconditional openssl dep from cctest	23		
 7487	1356314	true	closed	false	25		2016-06-29T20:16:20Z	2016-08-05T13:32:16Z	2016-08-05T13:32:15Z	build: windows sharedlib support	284		
@@ -502,7 +507,7 @@
 7555	718899	true	closed	false	10	0	2016-07-06T04:27:02Z	2016-07-07T18:04:48Z	2016-07-07T18:04:48Z	test: fix flaky test-net-write-slow	56		
 7556	5046645	false	open	false	0		2016-07-06T07:42:41Z	2016-07-06T07:42:41Z		arm64 architecture in ubuntu nodesource repository	40		
 7557	12510941	true	closed	false	4		2016-07-06T08:57:18Z	2016-07-07T09:46:03Z	2016-07-06T14:08:41Z	Adding setgroups option to process.spawn	219		
-7558	495647	false	open	false	5		2016-07-06T11:46:09Z	2016-07-06T19:06:54Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-07-06	421		
+7558	495647	false	closed	false	7		2016-07-06T11:46:09Z	2016-08-05T22:02:22Z	2016-08-05T22:02:22Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-07-06	421		
 7559	17704638	true	open	false	23		2016-07-06T11:49:53Z	2016-07-14T11:31:00Z		win, fs: fix realpath behavior on substed drives	193		
 7560	1847934	false	open	false	5		2016-07-06T12:10:35Z	2016-07-15T16:09:25Z		"Clarify ""fs.readFile"", ""fs.appendFile"", ""fs.writeFile"" documentation regarding closing"	55		
 7561	1847934	true	open	false	5		2016-07-06T12:15:00Z	2016-08-04T23:56:03Z		"Clarify ""fs.readFile"", ""fs.appendFile"", ""fs.writeFile"" doc…"	22		
@@ -510,7 +515,7 @@
 7563	9373002	false	closed	false	12		2016-07-06T15:15:31Z	2016-07-18T21:43:27Z	2016-07-18T21:43:27Z	AIX - failure in parallel/test-cluster-disconnect-handles	80		
 7564	9373002	true	open	false	12		2016-07-06T15:59:12Z	2016-08-05T14:40:05Z		src: temporary malloc fix for AIX	188		
 7565	275871	false	closed	false	8		2016-07-06T17:00:39Z	2016-07-23T14:40:11Z	2016-07-11T17:16:01Z	discuss: future of AsyncWrap	165		
-7566	115237	false	open	false	1		2016-07-06T17:30:07Z	2016-07-06T18:54:52Z		Changing default options for util.inspect	59		
+7566	115237	false	open	false	2		2016-07-06T17:30:07Z	2016-08-05T22:05:46Z		Changing default options for util.inspect	59		
 7567	17704638	true	open	false	0	0	2016-07-06T18:13:33Z	2016-07-06T18:13:33Z		doc: add bartosz sosnowski to colaborators	2		
 7568	10393198	true	closed	false	7	0	2016-07-06T18:53:35Z	2016-07-13T19:51:53Z	2016-07-13T19:51:53Z	doc: Fix typo in the CHANGELOG_V6	28		
 7569	291301	true	open	false	5		2016-07-06T20:31:23Z	2016-07-09T07:17:25Z		build: respect --shared-* flags for inspector deps	75		
@@ -651,7 +656,7 @@
 7704	275871	true	closed	false	1	0	2016-07-13T06:26:06Z	2016-07-13T14:41:34Z	2016-07-13T14:41:34Z	build: add --enable-d8 configure option (v4.x)	3		
 7705	275871	true	closed	false	1		2016-07-13T06:43:06Z	2016-07-13T14:42:37Z	2016-07-13T14:42:37Z	crypto: allow GCM ciphers to have longer IV length	3		
 7706	17759027	false	closed	false	2		2016-07-13T08:47:28Z	2016-07-19T12:13:50Z	2016-07-19T12:13:50Z	Node js reinstallation not working	47		
-7707	495647	false	open	false	9		2016-07-13T11:46:37Z	2016-07-13T20:06:53Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-07-13	475		
+7707	495647	false	closed	false	9		2016-07-13T11:46:37Z	2016-08-05T22:02:22Z	2016-08-05T22:02:22Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-07-13	475		
 7708	1265888	false	closed	false	7		2016-07-13T12:41:06Z	2016-08-03T06:19:28Z	2016-08-03T06:19:28Z	ES6 regular expressions unicode mode: case insensitivity case folding inconsistency	29		
 7709	523889	false	closed	false	1		2016-07-13T14:41:13Z	2016-07-14T02:18:41Z	2016-07-14T02:18:41Z	setTimeout clearTimeout	31		
 7710	2512748	true	closed	false	4	0	2016-07-13T15:20:46Z	2016-07-15T14:05:25Z	2016-07-15T14:05:25Z	cluster: remove bind() and self	48	2512748	2016-07-15T14:05:25Z
@@ -673,7 +678,7 @@
 7726	317464	false	open	false	52		2016-07-14T07:33:37Z	2016-08-03T18:05:56Z		[meta] realpath issues in v6	307		
 7727	291301	true	closed	false	6	7	2016-07-14T10:22:20Z	2016-08-04T08:18:50Z	2016-08-04T08:18:50Z	doc: more formatting fixes	161	291301	2016-08-04T08:18:50Z
 7728	6447530	false	open	false	4		2016-07-14T10:23:51Z	2016-07-14T13:16:30Z		Inconsistencies with IPv6 endpoint specification across platforms	697		
-7729	291301	true	open	false	15		2016-07-14T10:50:32Z	2016-08-05T21:38:15Z		tools: add remark-lint configuration in .remarkrc	95		
+7729	291301	true	open	false	16		2016-07-14T10:50:32Z	2016-08-05T22:06:12Z		tools: add remark-lint configuration in .remarkrc	95		
 7730	7488613	false	open	false	13		2016-07-14T11:32:41Z	2016-07-14T21:32:21Z		Change os.cpus() output to report whether a core is physical or logical	68		
 7731	2034108	false	closed	false	11		2016-07-14T13:41:32Z	2016-07-15T12:07:27Z	2016-07-15T12:07:27Z	failure trying to compile for arm64+android	239		
 7732	1083944	false	open	false	8		2016-07-14T14:44:14Z	2016-07-18T21:09:35Z		http.IncomingMessage omits events when aborted on client side 	273		
@@ -753,7 +758,7 @@
 7806	696611	true	closed	false	9	0	2016-07-20T07:38:11Z	2016-07-20T17:42:49Z	2016-07-20T17:42:49Z	test: find IPv6 address from localhost names	56		
 7807	6941888	false	open	false	0		2016-07-20T08:28:35Z	2016-07-20T08:28:35Z		About install gulp  problem	25		
 7808	248374	true	open	false	9		2016-07-20T08:52:51Z	2016-08-05T08:47:00Z		build: Provide 'node_module_version' via config.gypi	23		
-7809	495647	false	open	false	3		2016-07-20T12:18:37Z	2016-07-20T17:13:04Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-07-20	479		
+7809	495647	false	closed	false	4		2016-07-20T12:18:37Z	2016-08-05T22:02:22Z	2016-08-05T22:02:22Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-07-20	479		
 7810	439929	true	closed	false	10		2016-07-20T15:29:54Z	2016-07-25T13:53:02Z	2016-07-25T13:53:02Z	doc: clarify that the node.js irc channel is not under tsc oversight	71		
 7811	2512748	true	closed	false	6		2016-07-20T16:55:28Z	2016-07-22T16:02:10Z	2016-07-22T16:02:10Z	child_process: support stdio option in fork()	80		
 7812	15943089	false	open	false	1		2016-07-20T17:04:01Z	2016-07-20T19:04:52Z		Possible memory leak in test addons tested with Valgrind	1338		
@@ -768,7 +773,7 @@
 7821	632426	false	closed	false	12		2016-07-21T13:46:18Z	2016-07-22T22:46:04Z	2016-07-22T22:46:04Z	TLS: newSession breaks with Safari and curl on OSX (but not most other clients)	120		
 7822	1443911	true	open	false	4		2016-07-21T14:03:39Z	2016-08-05T21:41:48Z		doc: add `added:` information for events	27		
 7823	122434	false	open	false	2		2016-07-21T14:10:31Z	2016-07-22T06:10:46Z		Rely on toJSON in querystring.stringify	50		
-7824	2352663	true	open	false	14		2016-07-21T14:22:58Z	2016-07-31T12:32:12Z		[WIP] Update V8 to 5.2	65		
+7824	2352663	true	open	false	15		2016-07-21T14:22:58Z	2016-08-05T22:41:32Z		[WIP] Update V8 to 5.2	65		
 7825	17273637	false	open	false	2		2016-07-21T17:10:50Z	2016-07-21T20:22:53Z		[Windows] Impossible enable SIMD in latest nodejs 6.x.x	23		
 7826	2512748	true	open	false	7		2016-07-21T17:30:23Z	2016-08-05T19:32:33Z		repl: don't override all internal repl defaults	156		
 7827	467627	true	closed	false	24		2016-07-21T19:22:34Z	2016-07-29T16:52:39Z	2016-07-29T16:52:39Z	timers: fix cleanup of nested same-timeout timers	122		
@@ -799,7 +804,7 @@
 7852	886388	false	closed	false	11		2016-07-23T18:24:17Z	2016-07-27T12:36:41Z	2016-07-25T04:16:55Z	Removing listener that was added multiple times	68		
 7853	516780	false	open	false	3		2016-07-23T19:28:07Z	2016-07-25T03:33:36Z		node --debug takes a really long time to respond to websockets	180		
 7854	1084056	true	closed	false	10		2016-07-23T20:09:19Z	2016-08-02T14:08:28Z	2016-08-02T14:08:28Z	test: fix test-vm-sigint flakiness	68		
-7855	1422781	true	open	false	8		2016-07-23T20:38:28Z	2016-08-05T17:49:27Z		dgram: setMulticastInterface() outgoing interface selection	72		
+7855	1422781	true	open	false			2016-07-23T20:38:28Z	2016-08-05T22:16:23Z		dgram: setMulticastInterface() outgoing interface selection	72		
 7856	373545	true	open	false	6		2016-07-23T20:49:58Z	2016-08-03T16:08:51Z		fs: Fix default params for fs.write	81		
 7857	718899	true	closed	false	26		2016-07-23T21:15:43Z	2016-07-31T20:33:10Z	2016-07-31T20:33:10Z	test: fix flaky test-tls-wrap-timeout	59		
 7858	3524633	false	closed	false	11		2016-07-24T00:23:34Z	2016-07-26T14:21:50Z	2016-07-25T15:53:16Z	Add fsevents to NodeJS	211		
@@ -825,7 +830,7 @@
 7878	1538624	true	open	false	5		2016-07-26T07:22:40Z	2016-07-29T16:16:41Z		doc: fill in missing V8 version	51		
 7879	917978	false	open	false	6		2016-07-26T08:06:07Z	2016-07-26T15:36:04Z		openSync/writeSync/closeSync produces empty file	57		
 7880	2330987	false	open	false	11		2016-07-26T11:37:42Z	2016-08-04T12:28:17Z		Upgrade openssl sources to 1.0.2h broke npm install for me (behind proxy)	103		
-7881	718899	false	open	false	18		2016-07-26T18:11:24Z	2016-07-27T20:15:16Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-07-27	532		
+7881	718899	false	closed	false	17		2016-07-26T18:11:24Z	2016-08-05T22:02:22Z	2016-08-05T22:02:22Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-07-27	532		
 7882	127666	false	open	false	1		2016-07-26T19:07:04Z	2016-08-02T11:01:33Z		Stop the installer deleting my symlink for AppData\Roaming\npm	2		
 7883	1485909	true	open	false	5		2016-07-26T22:51:35Z	2016-07-27T20:03:32Z		deps: cherry-pick b93c80a from v8 upstream	56		
 7884	6316590	true	open	false	2		2016-07-26T23:34:36Z	2016-08-01T17:30:50Z		doc: add missing windowsVerbatimArguments option in child_process.spawn	59		
@@ -885,13 +890,13 @@
 7939	1935767	true	closed	false	10		2016-08-01T17:39:22Z	2016-08-04T19:20:43Z	2016-08-04T19:20:43Z	doc, tools: improve the title of pages in doc	31		
 7940	2749683	false	open	false	2		2016-08-01T18:48:01Z	2016-08-01T19:11:32Z		Serialization on cluster#fork	64		
 7941	439929	true	open	false	4		2016-08-01T18:55:55Z	2016-08-03T17:03:02Z		doc, punycode: soft-deprecation of the punycode module	58		
-7942	189580	true	open	false	10		2016-08-01T19:43:55Z	2016-08-05T19:53:23Z		fs: add bytesRead to ReadStream	80		
+7942	189580	true	open	false	11		2016-08-01T19:43:55Z	2016-08-05T22:33:16Z		fs: add bytesRead to ReadStream	80		
 7943	1988999	false	closed	false	3		2016-08-02T02:32:40Z	2016-08-02T10:15:17Z	2016-08-02T10:15:17Z	node-cli bug on windows 10	46		
 7944	275871	false	open	false	0		2016-08-02T07:47:10Z	2016-08-02T07:47:10Z		v8_inspector: IgnoreExceptionsScope.h does not exist	27		
 7945	275871	true	closed	false	2	0	2016-08-02T07:50:03Z	2016-08-03T09:19:52Z	2016-08-03T09:19:52Z	build: fix dependency on missing header file 	34		
 7946	3038254	true	open	false	9		2016-08-02T08:57:14Z	2016-08-04T19:12:22Z		http: optimize by corking outgoing requests	403		
 7947	15943089	true	open	false	10		2016-08-02T10:41:47Z	2016-08-05T19:51:42Z		test: remove internal headers from addons	67		
-7948	718899	false	open	false	8		2016-08-02T13:49:50Z	2016-08-03T20:04:55Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-03	502		
+7948	718899	false	closed	false	8		2016-08-02T13:49:50Z	2016-08-05T22:02:23Z	2016-08-05T22:02:23Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-03	502		
 7949	1935767	true	closed	false	21		2016-08-02T16:54:51Z	2016-08-05T15:29:33Z	2016-08-05T15:29:33Z	http: specify _implicitHeader in OutgoingMessage	65		
 7950	498775	true	closed	false	7		2016-08-02T18:34:45Z	2016-08-04T17:23:29Z	2016-08-04T16:38:07Z	"Revert ""fs: validate args of truncate functions in js"""	94		
 7951	790842	false	open	false	5		2016-08-02T19:50:12Z	2016-08-02T21:14:02Z		child_process.spawn leaves spawned process hanging	111		
@@ -931,4 +936,4 @@
 7985	101553	true	open	false	6		2016-08-05T08:49:51Z	2016-08-05T17:47:24Z		lib: remove double check	38		
 7986	275871	true	open	false	1		2016-08-05T11:40:07Z	2016-08-05T17:43:24Z		tools: add compile_commands.json gyp generator	42		
 7987	4520820	true	open	false	4		2016-08-05T16:37:29Z	2016-08-05T20:30:34Z		zlib: remove unneeded poperty	37		
-7988	426418	true	open	false	0	0	2016-08-05T21:18:17Z	2016-08-05T21:18:17Z		inspector: add inspector console support for native Console	114		
+7988	426418	true	open	false	3		2016-08-05T21:18:17Z	2016-08-05T22:07:55Z		inspector: add inspector console support for native Console	114		
