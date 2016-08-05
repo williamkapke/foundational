@@ -769,7 +769,7 @@
 7823	122434	false	open	false	2		2016-07-21T14:10:31Z	2016-07-22T06:10:46Z		Rely on toJSON in querystring.stringify	50		
 7824	2352663	true	open	false	14		2016-07-21T14:22:58Z	2016-07-31T12:32:12Z		[WIP] Update V8 to 5.2	65		
 7825	17273637	false	open	false	2		2016-07-21T17:10:50Z	2016-07-21T20:22:53Z		[Windows] Impossible enable SIMD in latest nodejs 6.x.x	23		
-7826	2512748	true	open	false	6		2016-07-21T17:30:23Z	2016-08-05T17:53:33Z		repl: don't override all internal repl defaults	156		
+7826	2512748	true	open	false	7		2016-07-21T17:30:23Z	2016-08-05T19:32:33Z		repl: don't override all internal repl defaults	156		
 7827	467627	true	closed	false	24		2016-07-21T19:22:34Z	2016-07-29T16:52:39Z	2016-07-29T16:52:39Z	timers: fix cleanup of nested same-timeout timers	122		
 7828	20170894	false	closed	false	14		2016-07-21T20:02:42Z	2016-07-22T05:48:58Z	2016-07-22T05:48:58Z	Support for null terminated strings with Buffer toString?	138		
 7829	1622515	true	closed	false	23		2016-07-21T22:46:42Z	2016-08-04T20:09:15Z	2016-08-04T20:09:15Z	repl: deprecate unused function convertToContext	34		
@@ -842,7 +842,7 @@
 7896	7308528	false	closed	false	1		2016-07-27T16:55:37Z	2016-07-27T17:25:38Z	2016-07-27T17:25:38Z	I need nodeJS v5 in intel edison to run angular 2 app - issue	52		
 7897	696611	true	open	false	8		2016-07-27T17:02:57Z	2016-08-04T22:47:14Z		fs: warn instead of throwing if no callback	100		
 7898	1005116	true	closed	false	4		2016-07-27T18:12:08Z	2016-07-29T15:31:05Z	2016-07-29T15:31:05Z	benchmark: http parser optimization	194		
-7899	17704638	true	open	false	28		2016-07-27T18:12:17Z	2016-08-05T07:53:59Z		fs: restore javascript realpath implementation	162		
+7899	17704638	true	open	false	29		2016-07-27T18:12:17Z	2016-08-05T19:55:21Z		fs: restore javascript realpath implementation	162		
 7900	739813	true	closed	false	5	1	2016-07-27T22:43:54Z	2016-08-01T17:52:30Z	2016-08-01T17:52:30Z	doc: add CTC meeting minutes 2016-07-27	33		
 7901	54479	false	closed	false	2		2016-07-27T22:59:05Z	2016-07-28T18:50:34Z	2016-07-28T02:15:01Z	Incorrect version of Node package in Yum repo	329		
 7902	110455	false	open	false	2		2016-07-27T23:57:01Z	2016-08-02T05:53:04Z		<=v4: process.hrtime() segfaults on arrays with error-throwing accessors	129		
@@ -884,12 +884,12 @@
 7939	1935767	true	closed	false	10		2016-08-01T17:39:22Z	2016-08-04T19:20:43Z	2016-08-04T19:20:43Z	doc, tools: improve the title of pages in doc	31		
 7940	2749683	false	open	false	2		2016-08-01T18:48:01Z	2016-08-01T19:11:32Z		Serialization on cluster#fork	64		
 7941	439929	true	open	false	4		2016-08-01T18:55:55Z	2016-08-03T17:03:02Z		doc, punycode: soft-deprecation of the punycode module	58		
-7942	189580	true	open	false	8		2016-08-01T19:43:55Z	2016-08-05T08:48:42Z		fs: add bytesRead to ReadStream	80		
+7942	189580	true	open	false	10		2016-08-01T19:43:55Z	2016-08-05T19:53:23Z		fs: add bytesRead to ReadStream	80		
 7943	1988999	false	closed	false	3		2016-08-02T02:32:40Z	2016-08-02T10:15:17Z	2016-08-02T10:15:17Z	node-cli bug on windows 10	46		
 7944	275871	false	open	false	0		2016-08-02T07:47:10Z	2016-08-02T07:47:10Z		v8_inspector: IgnoreExceptionsScope.h does not exist	27		
 7945	275871	true	closed	false	2	0	2016-08-02T07:50:03Z	2016-08-03T09:19:52Z	2016-08-03T09:19:52Z	build: fix dependency on missing header file 	34		
 7946	3038254	true	open	false	9		2016-08-02T08:57:14Z	2016-08-04T19:12:22Z		http: optimize by corking outgoing requests	403		
-7947	15943089	true	open	false	9		2016-08-02T10:41:47Z	2016-08-03T16:18:21Z		test: remove internal headers from addons	67		
+7947	15943089	true	open	false	10		2016-08-02T10:41:47Z	2016-08-05T19:51:42Z		test: remove internal headers from addons	67		
 7948	718899	false	open	false	8		2016-08-02T13:49:50Z	2016-08-03T20:04:55Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-03	502		
 7949	1935767	true	closed	false	21		2016-08-02T16:54:51Z	2016-08-05T15:29:33Z	2016-08-05T15:29:33Z	http: specify _implicitHeader in OutgoingMessage	65		
 7950	498775	true	closed	false	7		2016-08-02T18:34:45Z	2016-08-04T17:23:29Z	2016-08-04T16:38:07Z	"Revert ""fs: validate args of truncate functions in js"""	94		
@@ -902,23 +902,23 @@
 7957	275871	true	open	false	10		2016-08-03T09:55:43Z	2016-08-05T17:45:36Z		build: turn on thin static archives	103		
 7958	2046672	false	open	false	1		2016-08-03T12:57:49Z	2016-08-03T13:55:20Z		Feature request: Generated Documentation for Reference - PDF and CHM formats	60		
 7959	15943089	false	open	false	4		2016-08-03T13:01:15Z	2016-08-03T17:52:31Z		v8 inspector build failure: File name too long	109		
-7960	12098035	false	open	false	7		2016-08-03T13:29:44Z	2016-08-04T05:31:23Z		EnvDeleter should return true	105		
+7960	12098035	false	closed	false	7		2016-08-03T13:29:44Z	2016-08-05T19:35:38Z	2016-08-05T19:35:38Z	EnvDeleter should return true	105		
 7961	1495995	true	open	false			2016-08-03T14:20:49Z	2016-08-05T10:07:32Z		benchmark: add --format csv option	56		
 7962	275871	false	open	false	2		2016-08-03T14:58:10Z	2016-08-03T17:12:31Z		tls, lts: update root certs in v0.10 and v0.12?	73		
-7963	899444	true	open	false			2016-08-03T17:50:51Z	2016-08-04T16:26:23Z		deps: float gyp patch for long filenames	134		
+7963	899444	true	open	false	9		2016-08-03T17:50:51Z	2016-08-05T19:48:29Z		deps: float gyp patch for long filenames	134		
 7964	439929	true	open	false			2016-08-03T17:53:52Z	2016-08-04T18:03:44Z		meta: add explicit details of the deprecation and semver-major policy	36		
 7965	11522163	false	open	false	1		2016-08-03T19:32:40Z	2016-08-04T22:47:58Z		readline will echo first line of input	149		
 7966	899444	true	open	false	4		2016-08-03T21:23:59Z	2016-08-03T22:00:50Z		doc: add @addaleax to the CTC	28		
-7967	4421720	true	open	false	4		2016-08-03T21:38:30Z	2016-08-04T03:08:15Z		tools: add .vscode folder to .gitignore	33		
+7967	4421720	true	open	false	5		2016-08-03T21:38:30Z	2016-08-05T19:45:35Z		tools: add .vscode folder to .gitignore	33		
 7968	4421720	true	open	false	0	0	2016-08-03T22:09:01Z	2016-08-03T22:09:01Z		doc: add CTC meeting minutes 2016-07-13	31		
 7969	439929	true	closed	false	6		2016-08-03T22:37:12Z	2016-08-04T06:16:17Z	2016-08-04T02:19:56Z	doc: @piscisaureus has stepped-down from the CTC	32		
 7970	4421720	true	open	false	2		2016-08-03T23:00:06Z	2016-08-05T14:52:52Z		doc: add CTC meeting minutes 2016-07-20	32		
-7971	718899	true	open	false	7		2016-08-03T23:36:02Z	2016-08-04T06:15:40Z		doc: use consistent markdown in README	61		
+7971	718899	true	closed	false	8	7	2016-08-03T23:36:02Z	2016-08-05T19:33:09Z	2016-08-05T19:33:09Z	doc: use consistent markdown in README	61		
 7972	439929	true	open	false	2		2016-08-04T00:15:37Z	2016-08-04T16:05:37Z		lib: add initial mapproxy implementation and benchmark	119		
 7973	9373002	false	open	false	1		2016-08-04T01:24:49Z	2016-08-04T23:04:22Z		AIX: parallel/test-stdio-closed and pseudo-tty/no_dropped_stdio failures on new machine	133		
 7974	13586713	false	open	false	2		2016-08-04T06:38:01Z	2016-08-04T17:11:15Z		Children from child_process.fork printing outside of parent after parent process.exit	203		
-7975	101553	true	open	false	6		2016-08-04T07:56:59Z	2016-08-04T14:04:27Z		src: make EnvDelete behave like the delete operator	98		
-7976	1231635	true	open	false			2016-08-04T08:35:23Z	2016-08-05T17:44:08Z		doc: improve server.listen() random port	109		
+7975	101553	true	open	false	8		2016-08-04T07:56:59Z	2016-08-05T19:30:23Z		src: make EnvDelete behave like the delete operator	98		
+7976	1231635	true	open	false			2016-08-04T08:35:23Z	2016-08-05T19:13:35Z		doc: improve server.listen() random port	109		
 7977	899444	true	open	false	5		2016-08-04T13:01:37Z	2016-08-04T17:10:07Z		repl: disable Ctrl+C support on win32 for now	82		
 7978	8536244	false	open	false	7		2016-08-04T13:19:18Z	2016-08-04T14:09:55Z		fs.writeFile is writing JSON file faulty	157		
 7979	12707521	false	open	false	0		2016-08-04T14:51:58Z	2016-08-04T14:51:58Z		REPL doesn't return any value	46		
@@ -929,4 +929,4 @@
 7984	27926	false	open	false	0		2016-08-05T04:06:07Z	2016-08-05T04:06:07Z		Question: how to improve performances for proxies?	157		
 7985	101553	true	open	false	6		2016-08-05T08:49:51Z	2016-08-05T17:47:24Z		lib: remove double check	38		
 7986	275871	true	open	false	1		2016-08-05T11:40:07Z	2016-08-05T17:43:24Z		tools: add compile_commands.json gyp generator	42		
-7987	4520820	true	open	false	1		2016-08-05T16:37:29Z	2016-08-05T17:17:17Z		zlib: remove unneeded poperty	37		
+7987	4520820	true	open	false	3		2016-08-05T16:37:29Z	2016-08-05T19:59:46Z		zlib: remove unneeded poperty	37		
