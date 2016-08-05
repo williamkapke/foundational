@@ -60,6 +60,7 @@
 3477	367936	false	closed	false	14		2015-10-21T23:22:50Z	2016-07-19T19:51:42Z	2016-07-19T11:50:04Z	Pipe/stream performance regression after v2.5.0	223		
 3516	718899	true	closed	false	12		2015-10-25T18:55:14Z	2016-07-18T06:09:28Z	2015-10-28T23:22:53Z	lib,doc: return boolean from child.send()	32		
 3604	13315	false	open	false	13		2015-10-30T14:21:10Z	2016-07-21T09:02:46Z		a simple script to crash Node.js with an assertion failure: (loop->watchers[w->fd] == w)	66		
+3606	170197	false	open	false	60		2015-10-30T14:47:16Z	2016-08-05T03:28:20Z		Error: Cannot find module './lib'	31		
 3692	8949910	false	open	false	117		2015-11-06T16:05:41Z	2016-07-07T10:09:30Z		HTTP/HTTPS client requests throwing EPROTO	60		
 3742	15664368	false	closed	false	18		2015-11-10T18:55:31Z	2016-07-28T09:18:30Z	2016-04-28T12:47:31Z	Nodejs 4 introduces UNABLE_TO_GET_ISSUER_CERT_LOCALLY error for users behind company firewalls	74		
 3786	190866	false	closed	false	7		2015-11-12T10:04:27Z	2016-07-15T13:20:28Z	2016-07-15T13:20:28Z	Still gets a problem with github-url-from-git module not found on Windows	35		
@@ -246,7 +247,7 @@
 7072	495647	false	open	false	16		2016-05-31T03:52:31Z	2016-07-05T12:36:43Z		Decision to leave v8_inspector support for v6 LTS	305		
 7075	134460	true	open	false	10		2016-05-31T11:49:54Z	2016-07-08T00:23:54Z		Backport for v4.x: win,build: add creation of zip and 7z package	85		
 7077	54666	true	closed	false	31		2016-05-31T17:17:40Z	2016-07-09T00:52:27Z	2016-06-14T19:58:45Z	stream: improve Readable.read() performance	186		
-7079	899444	true	open	false	7		2016-05-31T17:58:03Z	2016-08-04T23:06:34Z		buffer: throw on negative .allocUnsafe() argument	79		
+7079	899444	true	open	false	9		2016-05-31T17:58:03Z	2016-08-05T03:53:36Z		buffer: throw on negative .allocUnsafe() argument	79		
 7084	718899	true	closed	false	11		2016-05-31T22:58:09Z	2016-07-11T22:25:17Z	2016-06-03T20:42:46Z	test: add test for uid/gid setting in spawn	74		
 7089	718899	true	closed	false	5		2016-06-01T06:53:55Z	2016-07-11T22:25:41Z	2016-06-04T04:41:05Z	debugger: fix --debug-brk interaction with -e	142		
 7090	275871	true	closed	false	12		2016-06-01T11:24:08Z	2016-07-11T22:09:23Z	2016-06-02T20:41:01Z	src: use stack-allocated Environment instances	11		
@@ -543,7 +544,7 @@
 7600	718899	true	closed	false	8		2016-07-07T22:42:59Z	2016-07-12T03:32:30Z	2016-07-11T03:14:11Z	benchmark: remove unused variables	78		
 7601	718899	true	closed	false	7		2016-07-07T22:50:52Z	2016-07-11T20:49:07Z	2016-07-11T20:49:07Z	tools: update ESLint, fix unused vars bug	128		
 7602	470564	true	closed	false	7	5	2016-07-07T23:10:58Z	2016-07-17T16:23:05Z	2016-07-17T16:23:05Z	buffer: optimize hex parsing.	138		
-7603	238531	true	open	false	19		2016-07-08T02:27:17Z	2016-08-04T20:47:37Z		doc: use `git-secure-tag` for release tags	84		
+7603	238531	true	open	false	20		2016-07-08T02:27:17Z	2016-08-05T03:10:41Z		doc: use `git-secure-tag` for release tags	84		
 7604	718899	true	closed	false	4		2016-07-08T02:45:31Z	2016-07-11T05:15:40Z	2016-07-11T05:15:40Z	doc: add benchmark who-to-CC info	84		
 7605	718899	true	closed	false	11		2016-07-08T03:17:22Z	2016-07-11T21:39:51Z	2016-07-11T21:39:51Z	test: fix flaky test-https-connect-address-family	49		
 7606	4221569	false	closed	false	1		2016-07-08T06:37:18Z	2016-07-08T07:26:27Z	2016-07-08T07:26:26Z	'process.stdout cannot be closed': process.stdout should behave like a standard stream	111		
@@ -803,7 +804,7 @@
 7860	101553	false	open	false	6		2016-07-24T08:24:19Z	2016-07-27T08:24:42Z		Test failing in Debug mode	109		
 7861	131406	false	open	false	1		2016-07-24T10:54:23Z	2016-07-24T11:11:08Z		TCP_DEFER_ACCEPT option for http server ?	34		
 7862	524902	false	closed	false	2		2016-07-24T14:47:11Z	2016-07-24T16:11:48Z	2016-07-24T16:11:48Z	Function.caller failing in Node	183		
-7863	101553	true	open	false	8		2016-07-24T19:04:52Z	2016-08-04T19:38:17Z		deps: cherry-pick 43547df from V8 upstream	36		
+7863	101553	true	closed	false	9		2016-07-24T19:04:52Z	2016-08-05T03:40:19Z	2016-08-05T03:40:19Z	deps: cherry-pick 43547df from V8 upstream	36		
 7864	899444	true	closed	false	12		2016-07-25T07:10:17Z	2016-08-02T13:08:18Z	2016-08-02T13:08:18Z	util: fix formatting of objects with SIMD enabled	56		
 7865	4723660	false	closed	false	1		2016-07-25T09:54:31Z	2016-07-25T10:44:27Z	2016-07-25T10:44:27Z	Incorrect schedule task with `setInterval()`	166		
 7866	5807322	false	closed	false	6		2016-07-25T10:12:57Z	2016-07-26T17:39:43Z	2016-07-26T16:41:15Z	Allocation failed - JavaScript heap out of memory on v6.3.1	318		
@@ -922,3 +923,4 @@
 7980	4421720	true	open	false	0	0	2016-08-04T20:50:42Z	2016-08-04T20:50:42Z		doc: add CTC meeting minutes 2016-08-03	64		
 7981	9373002	false	open	false	0		2016-08-04T21:40:59Z	2016-08-04T21:40:59Z		AIX: /test-vm-sigint-existing-handler.js	57		
 7982	899444	true	open	false	7		2016-08-04T21:57:59Z	2016-08-04T23:34:03Z		test: fix flaky test-vm-sigint-existing-handler	61		
+7983	3397140	true	open	false	0	0	2016-08-05T03:08:13Z	2016-08-05T03:08:13Z		build: base generated openssl.def on zlib.def	118		
