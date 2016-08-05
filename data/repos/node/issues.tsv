@@ -108,6 +108,7 @@
 5360	677994	true	closed	false	18		2016-02-22T08:57:24Z	2016-07-12T10:24:59Z	2016-03-04T23:28:27Z	util: improve util.format performance	100		
 5386	15943089	false	open	false	29		2016-02-23T14:33:55Z	2016-07-01T22:20:46Z		Intermittent test-tls-inception failure on windows	140		
 5426	1197375	false	closed	false	12		2016-02-25T00:33:42Z	2016-07-15T17:39:28Z	2016-07-15T17:39:28Z	setTimeout() introduces artificial delay between ticks when doing synchronous work	245		
+5436	17198363	false	closed	false	20		2016-02-25T13:57:35Z	2016-08-05T16:00:59Z	2016-02-27T13:41:42Z	"http.get returns ""getaddrinfo ENOTFOUND"" error"	231		
 5450	15943089	true	open	false	28		2016-02-26T12:44:41Z	2016-07-08T03:38:57Z		test: fix flaky tls-inception	43		
 5458	275871	true	open	false	18		2016-02-26T21:01:17Z	2016-06-29T16:08:48Z		src,tools: speed up startup by 2.5%	94		
 5574	532414	false	open	false	17		2016-03-06T00:25:17Z	2016-07-18T12:02:43Z		Losing keystrokes when using tty.ReadStream() over process.stdin	117		
@@ -248,7 +249,7 @@
 7072	495647	false	open	false	16		2016-05-31T03:52:31Z	2016-07-05T12:36:43Z		Decision to leave v8_inspector support for v6 LTS	305		
 7075	134460	true	open	false	10		2016-05-31T11:49:54Z	2016-07-08T00:23:54Z		Backport for v4.x: win,build: add creation of zip and 7z package	85		
 7077	54666	true	closed	false	31		2016-05-31T17:17:40Z	2016-07-09T00:52:27Z	2016-06-14T19:58:45Z	stream: improve Readable.read() performance	186		
-7079	899444	true	open	false	13		2016-05-31T17:58:03Z	2016-08-05T14:39:56Z		buffer: throw on negative .allocUnsafe() argument	79		
+7079	899444	true	open	false	14		2016-05-31T17:58:03Z	2016-08-05T15:46:05Z		buffer: throw on negative .allocUnsafe() argument	79		
 7084	718899	true	closed	false	11		2016-05-31T22:58:09Z	2016-07-11T22:25:17Z	2016-06-03T20:42:46Z	test: add test for uid/gid setting in spawn	74		
 7089	718899	true	closed	false	5		2016-06-01T06:53:55Z	2016-07-11T22:25:41Z	2016-06-04T04:41:05Z	debugger: fix --debug-brk interaction with -e	142		
 7090	275871	true	closed	false	12		2016-06-01T11:24:08Z	2016-07-11T22:09:23Z	2016-06-02T20:41:01Z	src: use stack-allocated Environment instances	11		
@@ -890,7 +891,7 @@
 7946	3038254	true	open	false	9		2016-08-02T08:57:14Z	2016-08-04T19:12:22Z		http: optimize by corking outgoing requests	403		
 7947	15943089	true	open	false	9		2016-08-02T10:41:47Z	2016-08-03T16:18:21Z		test: remove internal headers from addons	67		
 7948	718899	false	open	false	8		2016-08-02T13:49:50Z	2016-08-03T20:04:55Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-03	502		
-7949	1935767	true	open	false	14		2016-08-02T16:54:51Z	2016-08-03T19:08:43Z		http: specify _implicitHeader in OutgoingMessage	65		
+7949	1935767	true	closed	false	21		2016-08-02T16:54:51Z	2016-08-05T15:29:33Z	2016-08-05T15:29:33Z	http: specify _implicitHeader in OutgoingMessage	65		
 7950	498775	true	closed	false	7		2016-08-02T18:34:45Z	2016-08-04T17:23:29Z	2016-08-04T16:38:07Z	"Revert ""fs: validate args of truncate functions in js"""	94		
 7951	790842	false	open	false	5		2016-08-02T19:50:12Z	2016-08-02T21:14:02Z		child_process.spawn leaves spawned process hanging	111		
 7952	1922624	false	open	false	1		2016-08-02T22:17:02Z	2016-08-02T23:23:08Z		"Feature request: Inform the ""line"" event on a Readline interface of the type of end-of-line input"	97		
