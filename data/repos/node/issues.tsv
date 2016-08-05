@@ -63,6 +63,7 @@
 3606	170197	false	open	false	60		2015-10-30T14:47:16Z	2016-08-05T03:28:20Z		Error: Cannot find module './lib'	31		
 3692	8949910	false	open	false	117		2015-11-06T16:05:41Z	2016-07-07T10:09:30Z		HTTP/HTTPS client requests throwing EPROTO	60		
 3742	15664368	false	closed	false	18		2015-11-10T18:55:31Z	2016-07-28T09:18:30Z	2016-04-28T12:47:31Z	Nodejs 4 introduces UNABLE_TO_GET_ISSUER_CERT_LOCALLY error for users behind company firewalls	74		
+3743	677994	true	closed	false	137		2015-11-10T19:15:06Z	2016-08-05T13:35:58Z	2016-04-26T00:29:24Z	cluster: migrate from worker.suicide	17		
 3786	190866	false	closed	false	7		2015-11-12T10:04:27Z	2016-07-15T13:20:28Z	2016-07-15T13:20:28Z	Still gets a problem with github-url-from-git module not found on Windows	35		
 3796	4813414	false	open	false	15		2015-11-12T19:24:13Z	2016-08-03T08:36:16Z		test-debug-signal-cluster.js fails sometimes (investigate flaky test)	111		
 3829	4813414	false	closed	false	11		2015-11-15T04:29:13Z	2016-08-03T09:09:58Z	2016-06-07T22:25:36Z	node5: test-repl-envvars.js fails if ~/.node_repl_history is empty	63		
@@ -428,7 +429,7 @@
 7484	275871	false	open	false	39		2016-06-29T18:29:06Z	2016-08-03T18:56:27Z		build: drop support for VS 2013 in v7	96		
 7485	432351	true	closed	false	5	0	2016-06-29T18:42:27Z	2016-06-30T05:36:59Z	2016-06-30T05:36:59Z	doc: fixing minor typo in AtExit hooks section	53		
 7486	275871	true	closed	false	9		2016-06-29T19:17:29Z	2016-06-30T17:37:51Z	2016-06-30T11:33:16Z	build: drop unconditional openssl dep from cctest	23		
-7487	1356314	true	open	false	24		2016-06-29T20:16:20Z	2016-08-05T11:19:32Z		build: windows sharedlib support	289		
+7487	1356314	true	closed	false	25		2016-06-29T20:16:20Z	2016-08-05T13:32:16Z	2016-08-05T13:32:15Z	build: windows sharedlib support	284		
 7488	2352663	true	closed	false	7		2016-06-29T20:45:55Z	2016-07-05T18:56:34Z	2016-06-30T15:30:55Z	deps: fix V8 5.1 tests	40		
 7489	275871	false	open	false	3		2016-06-29T20:58:47Z	2016-06-29T23:06:56Z		v8_inspector: segfault with simple http request	222		
 7490	275871	true	closed	false	2	0	2016-06-29T22:34:06Z	2016-06-29T23:21:49Z	2016-06-29T23:21:49Z	src: fix use-after-free in v8 inspector	5		
@@ -544,7 +545,7 @@
 7600	718899	true	closed	false	8		2016-07-07T22:42:59Z	2016-07-12T03:32:30Z	2016-07-11T03:14:11Z	benchmark: remove unused variables	78		
 7601	718899	true	closed	false	7		2016-07-07T22:50:52Z	2016-07-11T20:49:07Z	2016-07-11T20:49:07Z	tools: update ESLint, fix unused vars bug	128		
 7602	470564	true	closed	false	7	5	2016-07-07T23:10:58Z	2016-07-17T16:23:05Z	2016-07-17T16:23:05Z	buffer: optimize hex parsing.	138		
-7603	238531	true	open	false	22		2016-07-08T02:27:17Z	2016-08-05T05:09:09Z		doc: use `git-secure-tag` for release tags	84		
+7603	238531	true	open	false	24		2016-07-08T02:27:17Z	2016-08-05T13:11:41Z		doc: use `git-secure-tag` for release tags	84		
 7604	718899	true	closed	false	4		2016-07-08T02:45:31Z	2016-07-11T05:15:40Z	2016-07-11T05:15:40Z	doc: add benchmark who-to-CC info	84		
 7605	718899	true	closed	false	11		2016-07-08T03:17:22Z	2016-07-11T21:39:51Z	2016-07-11T21:39:51Z	test: fix flaky test-https-connect-address-family	49		
 7606	4221569	false	closed	false	1		2016-07-08T06:37:18Z	2016-07-08T07:26:27Z	2016-07-08T07:26:26Z	'process.stdout cannot be closed': process.stdout should behave like a standard stream	111		
@@ -628,7 +629,7 @@
 7684	321966	true	closed	false	5		2016-07-12T14:54:37Z	2016-07-12T17:39:10Z	2016-07-12T17:39:10Z	doc: buffers are not sent over IPC with a socket	172		
 7685	2512748	true	closed	false	2	0	2016-07-12T16:24:56Z	2016-07-14T14:15:31Z	2016-07-14T14:15:30Z	test: add common.rootDir	61	2512748	2016-07-14T14:15:30Z
 7686	54666	true	closed	false	4		2016-07-12T16:34:11Z	2016-07-14T18:24:38Z	2016-07-14T18:24:38Z	src: clean up string_search	17		
-7687	6487691	true	open	false	13		2016-07-12T18:10:58Z	2016-08-05T02:02:35Z		Add correct shared library naming on OS X	100		
+7687	6487691	true	open	false	14		2016-07-12T18:10:58Z	2016-08-05T13:44:34Z		Add correct shared library naming on OS X	100		
 7688	498775	true	open	false	9		2016-07-12T18:15:10Z	2016-08-03T20:24:59Z		v4.5.0 proposal	3290		
 7689	1485909	true	closed	false	21		2016-07-12T20:16:28Z	2016-08-03T14:36:04Z	2016-07-26T17:47:50Z	deps: cherry-pick b93c80a from v8 upstream	58		
 7690	7135896	true	closed	false	22		2016-07-12T21:11:48Z	2016-08-04T15:56:03Z	2016-08-04T15:56:03Z	util: allow deprecate on classes	66		
@@ -780,7 +781,7 @@
 7836	1148215	false	open	false	0		2016-07-22T14:12:47Z	2016-07-22T14:12:47Z		Please update minimatch	20		
 7837	988441	false	open	false	9		2016-07-22T15:55:19Z	2016-08-04T12:27:21Z		REPL sometimes prints no output on Windows	23		
 7838	2512748	true	closed	false	4	3	2016-07-22T16:11:39Z	2016-08-01T19:10:11Z	2016-08-01T19:10:11Z	cluster: support stdio option for workers	60	2512748	2016-08-01T19:10:11Z
-7839	2512748	true	open	false	5		2016-07-22T16:25:27Z	2016-08-04T19:49:25Z		src: remove unused IsInt64() function	53		
+7839	2512748	true	closed	false	7		2016-07-22T16:25:27Z	2016-08-05T13:43:00Z	2016-08-05T13:43:00Z	src: remove unused IsInt64() function	53		
 7840	5590711	false	open	false	3		2016-07-22T17:17:22Z	2016-07-23T08:33:52Z		node v5.5.0 compile on OmniOS: failed to resolve V8DB G_OFF_FP_CONTEXT: Unknown variable name	81		
 7841	15943089	false	closed	false	1		2016-07-22T17:18:46Z	2016-07-24T08:34:10Z	2016-07-24T08:34:10Z	V8 backports changing the v8 patch level in v6.x 	100		
 7842	696611	true	open	false	1		2016-07-22T18:36:30Z	2016-07-24T17:03:25Z		doc: include the optional options parameter	41		
@@ -796,7 +797,7 @@
 7852	886388	false	closed	false	11		2016-07-23T18:24:17Z	2016-07-27T12:36:41Z	2016-07-25T04:16:55Z	Removing listener that was added multiple times	68		
 7853	516780	false	open	false	3		2016-07-23T19:28:07Z	2016-07-25T03:33:36Z		node --debug takes a really long time to respond to websockets	180		
 7854	1084056	true	closed	false	10		2016-07-23T20:09:19Z	2016-08-02T14:08:28Z	2016-08-02T14:08:28Z	test: fix test-vm-sigint flakiness	68		
-7855	1422781	true	open	false			2016-07-23T20:38:28Z	2016-08-04T21:32:52Z		dgram: setMulticastInterface() outgoing interface selection	72		
+7855	1422781	true	open	false			2016-07-23T20:38:28Z	2016-08-05T13:53:03Z		dgram: setMulticastInterface() outgoing interface selection	72		
 7856	373545	true	open	false	6		2016-07-23T20:49:58Z	2016-08-03T16:08:51Z		fs: Fix default params for fs.write	81		
 7857	718899	true	closed	false	26		2016-07-23T21:15:43Z	2016-07-31T20:33:10Z	2016-07-31T20:33:10Z	test: fix flaky test-tls-wrap-timeout	59		
 7858	3524633	false	closed	false	11		2016-07-24T00:23:34Z	2016-07-26T14:21:50Z	2016-07-25T15:53:16Z	Add fsevents to NodeJS	211		
@@ -922,7 +923,7 @@
 7979	12707521	false	open	false	0		2016-08-04T14:51:58Z	2016-08-04T14:51:58Z		REPL doesn't return any value	46		
 7980	4421720	true	open	false	0	0	2016-08-04T20:50:42Z	2016-08-04T20:50:42Z		doc: add CTC meeting minutes 2016-08-03	64		
 7981	9373002	false	open	false	0		2016-08-04T21:40:59Z	2016-08-04T21:40:59Z		AIX: /test-vm-sigint-existing-handler.js	57		
-7982	899444	true	open	false	7		2016-08-04T21:57:59Z	2016-08-04T23:34:03Z		test: fix flaky test-vm-sigint-existing-handler	61		
+7982	899444	true	open	false			2016-08-04T21:57:59Z	2016-08-05T13:28:34Z		test: fix flaky test-vm-sigint-existing-handler	61		
 7983	3397140	true	open	false	5		2016-08-05T03:08:13Z	2016-08-05T09:45:31Z		build: export zlib symbols on Windows	80		
 7984	27926	false	open	false	0		2016-08-05T04:06:07Z	2016-08-05T04:06:07Z		Question: how to improve performances for proxies?	157		
 7985	101553	true	open	false	3		2016-08-05T08:49:51Z	2016-08-05T12:59:54Z		lib: remove double check	38		
