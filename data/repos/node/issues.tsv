@@ -19,6 +19,7 @@
 1765	900690	false	closed	false	9		2015-05-22T09:03:01Z	2016-07-06T06:54:28Z	2016-07-06T06:54:28Z	Windows: fs.realpathSync() adds trailing slash for windows share	68		
 1788	1309053	false	open	false	13		2015-05-24T23:32:23Z	2016-06-27T14:45:36Z		Debug process didn't close after finish debugging	103		
 1802	744035	false	open	false	8		2015-05-26T21:22:12Z	2016-07-03T04:55:24Z		url: parse() fails if auth contain a colon or ampersand	160		
+1843	54666	true	closed	false	71		2015-05-30T08:25:30Z	2016-08-06T07:34:31Z	2016-08-06T07:34:31Z	dns: add new DNS resolver and set it as default	22		
 1873	291301	false	open	false	14		2015-06-02T18:58:34Z	2016-08-03T22:38:15Z		http.OutgoingMessage headers API	64		
 2098	1881921	false	closed	false	20		2015-07-03T10:19:55Z	2016-07-12T10:29:54Z	2016-04-10T08:19:20Z	child_process.spawn sh not killable	166		
 2114	289174	false	open	false	12		2015-07-06T19:32:55Z	2016-07-20T15:59:23Z		incorrect URL parsing	46		
@@ -27,6 +28,8 @@
 2138	495647	false	closed	false	24		2015-07-09T00:43:28Z	2016-06-30T05:17:39Z	2016-06-30T05:17:39Z	Process startup time on ARM	248		
 2232	1093990	true	closed	false	10		2015-07-24T00:46:36Z	2016-07-07T20:08:56Z	2016-01-11T20:54:45Z	Port from joyent/node: `timers: fix timeout when added in timer's callback`	11		
 2253	234659	true	closed	false	50		2015-07-27T16:53:56Z	2016-06-29T16:24:38Z	2016-05-11T18:52:36Z	ensure preload modules are always preloaded	30		
+2262	8316625	true	open	false	11		2015-07-28T17:26:23Z	2016-08-06T07:36:34Z		net: fix todo by propogating errors	23		
+2329	137545	true	open	false	13		2015-08-08T13:37:47Z	2016-08-06T07:37:57Z		[addons] Implement new init function argument dispatch	565		
 2333	115237	false	open	false	20		2015-08-09T06:04:13Z	2016-07-12T19:05:28Z		tty: stdio properties are undefined inside exec() child	45		
 2395	439929	true	closed	false	11	0	2015-08-16T00:23:48Z	2016-08-02T04:18:14Z	2016-08-02T04:18:14Z	http: correct fencepost error when freeing socket	60		
 2498	696611	true	closed	false	22		2015-08-22T20:07:00Z	2016-07-21T22:32:14Z	2016-07-21T22:32:14Z	fs: do basic arg validation of truncate in js	25		
@@ -36,6 +39,7 @@
 2642	2645436	false	open	false	30		2015-09-02T06:06:18Z	2016-06-30T18:50:44Z		Keep alive connection do not get closed with server.close()	106		
 2668	291301	false	open	false	7		2015-09-02T21:50:48Z	2016-08-04T02:25:23Z		Unreachable code in buffer.js and unsigned bitwise shifts.	293		
 2681	439929	false	closed	false	5		2015-09-03T15:40:56Z	2016-06-30T23:21:20Z	2016-06-30T23:21:20Z	child_process: execFile and fork arg parsing ambiguity	136		
+2768	2993861	true	closed	false	49		2015-09-09T12:14:52Z	2016-08-06T07:16:39Z	2016-08-06T07:16:39Z	node: deprecate public access to `process.binding`	35		
 2783	75184	false	closed	false	37		2015-09-09T21:17:46Z	2016-08-03T09:18:39Z	2016-05-02T11:32:45Z	Compiling node v4.0.0 with OpenSSL 1.0.1 fails	473		
 2833	1211152	false	closed	false	29		2015-09-12T14:09:10Z	2016-07-29T19:13:35Z	2016-03-09T09:20:02Z	Node.js `crypto` and the WebCrypto API	150		
 2883	126482	true	open	false	4		2015-09-15T17:33:30Z	2016-06-29T12:07:18Z		Makefile: use existing variable to reduce complexity	2		
@@ -66,6 +70,7 @@
 3692	8949910	false	open	false	117		2015-11-06T16:05:41Z	2016-07-07T10:09:30Z		HTTP/HTTPS client requests throwing EPROTO	60		
 3742	15664368	false	closed	false	18		2015-11-10T18:55:31Z	2016-07-28T09:18:30Z	2016-04-28T12:47:31Z	Nodejs 4 introduces UNABLE_TO_GET_ISSUER_CERT_LOCALLY error for users behind company firewalls	74		
 3743	677994	true	closed	false	137		2015-11-10T19:15:06Z	2016-08-05T13:35:58Z	2016-04-26T00:29:24Z	cluster: migrate from worker.suicide	17		
+3773	696611	true	open	false	6		2015-11-11T15:28:03Z	2016-08-06T07:39:49Z		buffer: throw if string is not a valid HEX string	61		
 3786	190866	false	closed	false	7		2015-11-12T10:04:27Z	2016-07-15T13:20:28Z	2016-07-15T13:20:28Z	Still gets a problem with github-url-from-git module not found on Windows	35		
 3796	4813414	false	open	false	15		2015-11-12T19:24:13Z	2016-08-03T08:36:16Z		test-debug-signal-cluster.js fails sometimes (investigate flaky test)	111		
 3829	4813414	false	closed	false	11		2015-11-15T04:29:13Z	2016-08-03T09:09:58Z	2016-06-07T22:25:36Z	node5: test-repl-envvars.js fails if ~/.node_repl_history is empty	63		
@@ -356,7 +361,7 @@
 7377	718899	true	closed	false	4		2016-06-22T23:54:14Z	2016-06-30T23:07:02Z	2016-06-30T23:07:02Z	"Revert ""child_process: measure buffer length in bytes"""	100		
 7378	1386719	true	closed	false	8	2	2016-06-23T00:08:40Z	2016-06-27T15:29:28Z	2016-06-27T15:29:28Z	Http: Improve `finish()` callback and code legibility (Fixes #7295)	133		
 7381	718899	true	closed	false	1		2016-06-23T02:53:02Z	2016-06-30T23:07:33Z	2016-06-30T23:07:32Z	child_process: measure buffer length in bytes	177		
-7382	1622515	true	open	false	4		2016-06-23T03:53:01Z	2016-08-02T18:09:29Z		readline: keypress event trigger for escape character	41		
+7382	1622515	true	open	false	7		2016-06-23T03:53:01Z	2016-08-06T07:24:24Z		readline: keypress event trigger for escape character	41		
 7383	677994	true	open	false	8		2016-06-23T04:01:42Z	2016-06-27T15:49:04Z		inspector: print warning when used	42		
 7385	2352663	true	open	false	6		2016-06-23T08:31:16Z	2016-06-27T14:50:20Z		deps: update v8_inspector	70		
 7387	3899684	false	open	false	2		2016-06-23T13:09:53Z	2016-07-05T15:10:16Z		lts, v8, child_process, path: template string escape sequence broken in v4	174		
@@ -938,3 +943,4 @@
 7987	4520820	true	open	false	4		2016-08-05T16:37:29Z	2016-08-05T20:30:34Z		zlib: remove unneeded poperty	37		
 7988	426418	true	open	false			2016-08-05T21:18:17Z	2016-08-06T03:23:43Z		inspector: add inspector console support for native Console	114		
 7989	275871	false	open	false	1		2016-08-06T03:16:44Z	2016-08-06T05:03:05Z		build: drop support for VS 2013 in v6 LTS	192		
+7990	2557445	true	open	false	0	0	2016-08-06T07:59:12Z	2016-08-06T07:59:12Z		Cleanup: Remove unused using decls	49		
