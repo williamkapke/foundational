@@ -8,6 +8,7 @@
 690	275871	false	closed	false	14		2015-02-02T15:19:55Z	2016-07-19T11:39:40Z	2016-07-19T11:39:40Z	repl: surrogate pair upsets repl / terminal	43		
 729	289174	false	closed	false	8		2015-02-05T20:00:25Z	2016-06-29T11:12:13Z	2016-06-29T11:12:13Z	Converge Tracing/Profiling to Native Set of Hooks	49		
 805	782880	false	open	false	3		2015-02-11T16:10:53Z	2016-07-19T11:38:52Z		strict printing for X509 Extentions	19		
+831	2993861	false	open	false	14		2015-02-13T14:18:23Z	2016-08-06T08:28:42Z		`console` should be safe	58		
 854	172	false	open	false	41		2015-02-15T19:37:43Z	2016-07-30T16:29:41Z		os x: FSEventStreamFlushSync assertions logged to console	100		
 1128	36662	false	open	false	16		2015-03-11T22:48:11Z	2016-08-04T12:39:55Z		feature request: a way to inspect what's in the event loop	137		
 1592	617235	false	open	false	206		2015-05-02T19:25:40Z	2016-07-25T11:24:25Z		gripe: deprecating fs.exists/existsSync	202		
@@ -42,6 +43,7 @@
 2768	2993861	true	closed	false	49		2015-09-09T12:14:52Z	2016-08-06T07:16:39Z	2016-08-06T07:16:39Z	node: deprecate public access to `process.binding`	35		
 2783	75184	false	closed	false	37		2015-09-09T21:17:46Z	2016-08-03T09:18:39Z	2016-05-02T11:32:45Z	Compiling node v4.0.0 with OpenSSL 1.0.1 fails	473		
 2833	1211152	false	closed	false	29		2015-09-12T14:09:10Z	2016-07-29T19:13:35Z	2016-03-09T09:20:02Z	Node.js `crypto` and the WebCrypto API	150		
+2842	692511	false	open	false	5		2015-09-12T21:54:12Z	2016-08-06T08:30:09Z		Exclude the `Trailer` header from 304 responses?	86		
 2883	126482	true	open	false	4		2015-09-15T17:33:30Z	2016-06-29T12:07:18Z		Makefile: use existing variable to reduce complexity	2		
 2982	170023	true	open	false	7		2015-09-21T14:10:33Z	2016-07-01T16:26:45Z		readline: add option to stop duplicates in history	161		
 3006	914122	false	closed	false	33		2015-09-22T15:57:31Z	2016-08-04T12:01:53Z	2016-03-22T06:28:03Z	Node.js doesn't run as tty on windows / cygwin	33		
@@ -177,6 +179,7 @@
 6569	5165527	true	open	false	13		2016-05-04T15:42:43Z	2016-07-26T13:50:27Z		Openssl clientcertengine support2	79		
 6570	54666	true	closed	false	25		2016-05-04T15:44:50Z	2016-07-11T23:02:48Z	2016-06-14T19:13:56Z	http: optimize checkIsHttpToken() and checkInvalidHeaderChar()	594		
 6571	439929	false	closed	false	1		2016-05-04T15:50:55Z	2016-07-06T05:04:26Z	2016-07-06T05:04:26Z	doc: invalid process.hrtime documentation	15		
+6573	439929	true	open	false	18		2016-05-04T17:43:27Z	2016-08-06T08:08:40Z		errors: add internal/errors module	288		
 6582	275871	true	closed	false	14		2016-05-04T22:29:50Z	2016-07-11T21:10:49Z	2016-05-05T11:05:20Z	crypto: disable ssl compression at build time	3		
 6599	79017	true	closed	false	12		2016-05-05T16:22:48Z	2016-07-11T20:16:56Z	2016-05-07T03:30:19Z	src,lib: minor --debug-brk cleanup	116		
 6601	1231635	true	open	false	46		2016-05-05T18:13:42Z	2016-08-01T15:44:25Z		doc: add Google Analytics tracking.	105		
@@ -272,7 +275,7 @@
 7132	1084056	true	closed	false	10		2016-06-03T12:49:16Z	2016-07-12T07:01:48Z	2016-06-08T13:52:41Z	cluster: don't send messages if no IPC channel	53		
 7137	439929	true	open	false			2016-06-03T19:17:45Z	2016-07-05T00:13:18Z		doc: general improvements to net.md copy	33		
 7149	238531	true	closed	false	6		2016-06-04T04:02:49Z	2016-07-11T22:37:04Z	2016-06-06T17:34:31Z	http: wait for both prefinish/end to keepalive	80		
-7152	988441	true	open	false	26		2016-06-04T16:22:28Z	2016-07-12T07:13:34Z		buffer: hard-deprecate Buffer constructor	137		
+7152	988441	true	open	false	27		2016-06-04T16:22:28Z	2016-08-06T08:35:08Z		buffer: hard-deprecate Buffer constructor	137		
 7154	718899	true	closed	false	14		2016-06-04T20:16:03Z	2016-07-11T22:54:57Z	2016-06-07T20:33:05Z	debugger: remove obsolete setTimeout	65		
 7157	469365	true	closed	false	28		2016-06-05T01:13:32Z	2016-07-05T18:16:17Z	2016-06-27T20:40:21Z	buffers: speed up swap16/32, add swap64	566		
 7158	9056756	false	closed	false	5		2016-06-05T04:43:28Z	2016-07-11T09:40:17Z	2016-06-05T06:49:21Z	Unable to cross-compile Node v6.2.1 for iOS	283		
@@ -943,4 +946,5 @@
 7987	4520820	true	open	false	4		2016-08-05T16:37:29Z	2016-08-05T20:30:34Z		zlib: remove unneeded poperty	37		
 7988	426418	true	open	false			2016-08-05T21:18:17Z	2016-08-06T03:23:43Z		inspector: add inspector console support for native Console	114		
 7989	275871	false	open	false	1		2016-08-06T03:16:44Z	2016-08-06T05:03:05Z		build: drop support for VS 2013 in v6 LTS	192		
-7990	2557445	true	open	false	0	0	2016-08-06T07:59:12Z	2016-08-06T07:59:12Z		Cleanup: Remove unused using decls	49		
+7990	2557445	true	open	false	1		2016-08-06T07:59:12Z	2016-08-06T08:09:15Z		Cleanup: Remove unused using decls	49		
+7991	439929	false	open	false	0		2016-08-06T08:03:44Z	2016-08-06T08:03:44Z		Planning for v7 and the v6 roll over to LTS	405		
