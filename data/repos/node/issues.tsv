@@ -30,7 +30,7 @@
 2232	1093990	true	closed	false	10		2015-07-24T00:46:36Z	2016-07-07T20:08:56Z	2016-01-11T20:54:45Z	Port from joyent/node: `timers: fix timeout when added in timer's callback`	11		
 2253	234659	true	closed	false	50		2015-07-27T16:53:56Z	2016-06-29T16:24:38Z	2016-05-11T18:52:36Z	ensure preload modules are always preloaded	30		
 2262	8316625	true	open	false	11		2015-07-28T17:26:23Z	2016-08-06T07:36:34Z		net: fix todo by propogating errors	23		
-2329	137545	true	open	false	14		2015-08-08T13:37:47Z	2016-08-07T07:52:39Z		[addons] Implement new init function argument dispatch	565		
+2329	137545	true	open	false	15		2015-08-08T13:37:47Z	2016-08-07T12:44:00Z		[addons] Implement new init function argument dispatch	565		
 2333	115237	false	open	false	20		2015-08-09T06:04:13Z	2016-07-12T19:05:28Z		tty: stdio properties are undefined inside exec() child	45		
 2395	439929	true	closed	false	11	0	2015-08-16T00:23:48Z	2016-08-02T04:18:14Z	2016-08-02T04:18:14Z	http: correct fencepost error when freeing socket	60		
 2498	696611	true	closed	false	22		2015-08-22T20:07:00Z	2016-07-21T22:32:14Z	2016-07-21T22:32:14Z	fs: do basic arg validation of truncate in js	25		
@@ -277,7 +277,7 @@
 7132	1084056	true	closed	false	10		2016-06-03T12:49:16Z	2016-07-12T07:01:48Z	2016-06-08T13:52:41Z	cluster: don't send messages if no IPC channel	53		
 7137	439929	true	open	false			2016-06-03T19:17:45Z	2016-07-05T00:13:18Z		doc: general improvements to net.md copy	33		
 7149	238531	true	closed	false	6		2016-06-04T04:02:49Z	2016-07-11T22:37:04Z	2016-06-06T17:34:31Z	http: wait for both prefinish/end to keepalive	80		
-7152	988441	true	open	false	27		2016-06-04T16:22:28Z	2016-08-06T08:35:08Z		buffer: hard-deprecate Buffer constructor	137		
+7152	988441	true	open	false			2016-06-04T16:22:28Z	2016-08-07T12:43:12Z		buffer: hard-deprecate Buffer constructor	137		
 7154	718899	true	closed	false	14		2016-06-04T20:16:03Z	2016-07-11T22:54:57Z	2016-06-07T20:33:05Z	debugger: remove obsolete setTimeout	65		
 7157	469365	true	closed	false	28		2016-06-05T01:13:32Z	2016-07-05T18:16:17Z	2016-06-27T20:40:21Z	buffers: speed up swap16/32, add swap64	566		
 7158	9056756	false	closed	false	5		2016-06-05T04:43:28Z	2016-07-11T09:40:17Z	2016-06-05T06:49:21Z	Unable to cross-compile Node v6.2.1 for iOS	283		
@@ -646,7 +646,7 @@
 7684	321966	true	closed	false	5		2016-07-12T14:54:37Z	2016-07-12T17:39:10Z	2016-07-12T17:39:10Z	doc: buffers are not sent over IPC with a socket	172		
 7685	2512748	true	closed	false	2	0	2016-07-12T16:24:56Z	2016-07-14T14:15:31Z	2016-07-14T14:15:30Z	test: add common.rootDir	61	2512748	2016-07-14T14:15:30Z
 7686	54666	true	closed	false	4		2016-07-12T16:34:11Z	2016-07-14T18:24:38Z	2016-07-14T18:24:38Z	src: clean up string_search	17		
-7687	6487691	true	open	false	15		2016-07-12T18:10:58Z	2016-08-05T14:07:06Z		Add correct shared library naming on OS X	100		
+7687	6487691	true	open	false	17		2016-07-12T18:10:58Z	2016-08-07T12:14:48Z		Add correct shared library naming on OS X	100		
 7688	498775	true	open	false	9		2016-07-12T18:15:10Z	2016-08-03T20:24:59Z		v4.5.0 proposal	3290		
 7689	1485909	true	closed	false	21		2016-07-12T20:16:28Z	2016-08-03T14:36:04Z	2016-07-26T17:47:50Z	deps: cherry-pick b93c80a from v8 upstream	58		
 7690	7135896	true	closed	false	22		2016-07-12T21:11:48Z	2016-08-04T15:56:03Z	2016-08-04T15:56:03Z	util: allow deprecate on classes	66		
@@ -946,10 +946,10 @@
 7985	101553	true	open	false	6		2016-08-05T08:49:51Z	2016-08-05T17:47:24Z		lib: remove double check	38		
 7986	275871	true	open	false	1		2016-08-05T11:40:07Z	2016-08-05T17:43:24Z		tools: add compile_commands.json gyp generator	42		
 7987	4520820	true	open	false	4		2016-08-05T16:37:29Z	2016-08-05T20:30:34Z		zlib: remove unneeded poperty	37		
-7988	426418	true	open	false	6		2016-08-05T21:18:17Z	2016-08-06T21:10:13Z		inspector: add inspector console support for native Console	114		
+7988	426418	true	open	false			2016-08-05T21:18:17Z	2016-08-07T12:05:44Z		inspector: add inspector console support for native Console	114		
 7989	275871	false	open	false	6		2016-08-06T03:16:44Z	2016-08-07T10:06:46Z		build: drop support for VS 2013 in v6 LTS	192		
 7990	2557445	true	open	false	5		2016-08-06T07:59:12Z	2016-08-06T13:51:05Z		Cleanup: Remove unused using decls	49		
-7991	439929	false	open	false	1		2016-08-06T08:03:44Z	2016-08-06T09:39:16Z		Planning for v7 and the v6 roll over to LTS	434		
+7991	439929	false	open	false	3		2016-08-06T08:03:44Z	2016-08-07T12:44:57Z		Planning for v7 and the v6 roll over to LTS	434		
 7992	1500684	true	open	false	0	0	2016-08-06T10:18:04Z	2016-08-06T10:18:04Z		docs: add info about --auto-open flag w/ --inspect	73		
 7993	2682705	false	closed	false	6		2016-08-06T10:50:20Z	2016-08-06T19:21:51Z	2016-08-06T19:21:51Z	import statements not supported - why, tell me why!	46		
 7994	4520820	true	open	false	4		2016-08-06T12:42:43Z	2016-08-06T21:15:45Z		timers: remove unused repeat param in timer_wrap	53		
@@ -958,7 +958,7 @@
 7997	469365	false	open	false	0		2016-08-06T17:53:09Z	2016-08-06T17:53:09Z		docs(cluster): message event docs slightly wrong/confusing	72		
 7998	677994	true	open	false			2016-08-06T18:14:04Z	2016-08-07T02:20:42Z		cluster: alias suicide to exitedAfterDisconnect	75		
 7999	718899	true	open	false	3		2016-08-06T19:15:39Z	2016-08-07T03:48:18Z		tools: enable linting for chained properties	45		
-8000	718899	true	open	false	6		2016-08-06T20:04:43Z	2016-08-06T22:10:34Z		benchmark: favor === over ==	32		
+8000	718899	true	open	false	7		2016-08-06T20:04:43Z	2016-08-07T13:02:47Z		benchmark: favor === over ==	32		
 8001	121766	false	open	false	0		2016-08-06T23:18:50Z	2016-08-06T23:18:50Z		assert: deepEqual/deepStrictEqual throws on equivalent typed arrays	272		
 8002	121766	true	open	false	0	0	2016-08-06T23:38:49Z	2016-08-06T23:38:49Z		assert: Fix deepEqual/deepStrictEqual on equivalent typed arrays	61		
 8003	718899	true	open	false	1		2016-08-07T04:54:19Z	2016-08-07T10:04:35Z		test: console constructor missing new keyword	61		
