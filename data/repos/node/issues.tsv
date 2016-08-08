@@ -210,7 +210,7 @@
 6793	718899	true	closed	false	15		2016-05-16T20:58:19Z	2016-07-11T22:37:42Z	2016-05-24T20:45:06Z	test: improve debug-break-on-uncaught reliability	64		
 6802	13891170	false	open	false	12		2016-05-17T06:00:09Z	2016-07-21T14:44:54Z		REPL crashes after let process;	35		
 6804	52195	true	closed	false	33		2016-05-17T10:55:16Z	2016-07-12T17:31:26Z	2016-05-26T09:29:32Z	dgram: copy the array when using the list variant in send()	96		
-6816	1093990	true	open	false	63		2016-05-17T17:00:53Z	2016-07-21T08:59:27Z		tty: set the handle to blocking mode	80		
+6816	1093990	true	open	false	64		2016-05-17T17:00:53Z	2016-08-08T13:34:41Z		tty: set the handle to blocking mode	80		
 6821	498775	false	open	false	15		2016-05-17T22:23:23Z	2016-07-22T17:43:07Z		Warning when following instruction in verifying release	62		
 6825	767105	true	closed	false	24		2016-05-18T00:46:45Z	2016-07-12T00:04:31Z	2016-07-01T17:04:26Z	Doc: Adding guide on Timers	28		
 6861	12013667	false	open	false	36		2016-05-18T17:05:18Z	2016-07-16T11:55:29Z		Error: EISDIR illegal operation on directory - Binding.realpath	140		
@@ -264,7 +264,7 @@
 7072	495647	false	open	false	16		2016-05-31T03:52:31Z	2016-07-05T12:36:43Z		Decision to leave v8_inspector support for v6 LTS	305		
 7075	134460	true	open	false	10		2016-05-31T11:49:54Z	2016-07-08T00:23:54Z		Backport for v4.x: win,build: add creation of zip and 7z package	85		
 7077	54666	true	closed	false	31		2016-05-31T17:17:40Z	2016-07-09T00:52:27Z	2016-06-14T19:58:45Z	stream: improve Readable.read() performance	186		
-7079	899444	true	open	false	14		2016-05-31T17:58:03Z	2016-08-05T15:46:05Z		buffer: throw on negative .allocUnsafe() argument	79		
+7079	899444	true	closed	false	17	9	2016-05-31T17:58:03Z	2016-08-08T13:14:46Z	2016-08-08T13:14:46Z	buffer: throw on negative .allocUnsafe() argument	79		
 7084	718899	true	closed	false	11		2016-05-31T22:58:09Z	2016-07-11T22:25:17Z	2016-06-03T20:42:46Z	test: add test for uid/gid setting in spawn	74		
 7089	718899	true	closed	false	5		2016-06-01T06:53:55Z	2016-07-11T22:25:41Z	2016-06-04T04:41:05Z	debugger: fix --debug-brk interaction with -e	142		
 7090	275871	true	closed	false	12		2016-06-01T11:24:08Z	2016-07-11T22:09:23Z	2016-06-02T20:41:01Z	src: use stack-allocated Environment instances	11		
@@ -519,13 +519,13 @@
 7557	12510941	true	closed	false	4		2016-07-06T08:57:18Z	2016-07-07T09:46:03Z	2016-07-06T14:08:41Z	Adding setgroups option to process.spawn	219		
 7558	495647	false	closed	false	7		2016-07-06T11:46:09Z	2016-08-05T22:02:22Z	2016-08-05T22:02:22Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-07-06	421		
 7559	17704638	true	open	false	23		2016-07-06T11:49:53Z	2016-07-14T11:31:00Z		win, fs: fix realpath behavior on substed drives	193		
-7560	1847934	false	open	false	5		2016-07-06T12:10:35Z	2016-07-15T16:09:25Z		"Clarify ""fs.readFile"", ""fs.appendFile"", ""fs.writeFile"" documentation regarding closing"	55		
-7561	1847934	true	open	false	5		2016-07-06T12:15:00Z	2016-08-04T23:56:03Z		"Clarify ""fs.readFile"", ""fs.appendFile"", ""fs.writeFile"" doc…"	22		
+7560	1847934	false	closed	false	6		2016-07-06T12:10:35Z	2016-08-08T13:28:23Z	2016-08-08T13:28:23Z	"Clarify ""fs.readFile"", ""fs.appendFile"", ""fs.writeFile"" documentation regarding closing"	55		
+7561	1847934	true	closed	false	6		2016-07-06T12:15:00Z	2016-08-08T13:28:03Z	2016-08-08T13:28:03Z	"Clarify ""fs.readFile"", ""fs.appendFile"", ""fs.writeFile"" doc…"	22		
 7562	291301	true	closed	false	11		2016-07-06T12:32:10Z	2016-07-08T17:09:26Z	2016-07-08T14:49:21Z	New Buffer API backport to v4.x (staging branch)	204		
 7563	9373002	false	closed	false	12		2016-07-06T15:15:31Z	2016-07-18T21:43:27Z	2016-07-18T21:43:27Z	AIX - failure in parallel/test-cluster-disconnect-handles	80		
 7564	9373002	true	open	false	12		2016-07-06T15:59:12Z	2016-08-05T14:40:05Z		src: temporary malloc fix for AIX	188		
 7565	275871	false	closed	false	8		2016-07-06T17:00:39Z	2016-07-23T14:40:11Z	2016-07-11T17:16:01Z	discuss: future of AsyncWrap	165		
-7566	115237	false	open	false	2		2016-07-06T17:30:07Z	2016-08-05T22:05:46Z		Changing default options for util.inspect	59		
+7566	115237	false	open	false	3		2016-07-06T17:30:07Z	2016-08-08T14:05:44Z		Changing default options for util.inspect	59		
 7567	17704638	true	open	false	0	0	2016-07-06T18:13:33Z	2016-07-06T18:13:33Z		doc: add bartosz sosnowski to colaborators	2		
 7568	10393198	true	closed	false	7	0	2016-07-06T18:53:35Z	2016-07-13T19:51:53Z	2016-07-13T19:51:53Z	doc: Fix typo in the CHANGELOG_V6	28		
 7569	291301	true	open	false	5		2016-07-06T20:31:23Z	2016-07-09T07:17:25Z		build: respect --shared-* flags for inspector deps	75		
@@ -655,7 +655,7 @@
 7693	718899	true	closed	false	6		2016-07-12T23:34:59Z	2016-07-15T05:11:37Z	2016-07-15T03:28:14Z	test: improve error message in test-tick-processor	39		
 7694	2512748	true	closed	false	3	0	2016-07-13T00:08:57Z	2016-07-15T02:13:19Z	2016-07-15T02:13:19Z	test: cleanup IIFE tests	97	2512748	2016-07-15T02:13:19Z
 7695	20425798	true	open	false	9		2016-07-13T01:53:29Z	2016-07-28T15:20:42Z		cluster:take a worker offline and force GC	248		
-7696	339422	true	open	false	39		2016-07-13T02:16:38Z	2016-08-04T20:42:56Z		lib: allow custom names for spawned processes	158		
+7696	339422	true	open	false	41		2016-07-13T02:16:38Z	2016-08-08T14:04:44Z		lib: allow custom names for spawned processes	158		
 7697	54666	true	open	false	0	0	2016-07-13T02:34:13Z	2016-07-13T02:34:13Z		test: use random ports where possible	17		
 7698	54666	true	open	false	1		2016-07-13T02:36:59Z	2016-07-14T18:47:07Z		test: use random ports where possible	18		
 7699	696611	true	open	false	11		2016-07-13T04:02:38Z	2016-07-29T16:45:23Z		eslintrc: rename files to an undeprecated format	61		
@@ -850,7 +850,7 @@
 7888	397862	false	closed	false	2		2016-07-27T05:55:10Z	2016-07-27T07:01:00Z	2016-07-27T06:56:11Z	Can't break with node v6.3.1 on linux x64 and the debugger keyword	101		
 7889	5220101	false	closed	false	0		2016-07-27T07:24:04Z	2016-07-27T09:09:34Z	2016-07-27T09:09:34Z	incrementing a number in global namespace must be done twice	100		
 7890	1495995	false	open	false	7		2016-07-27T08:26:45Z	2016-08-03T14:22:52Z		OUTPUT_FORMAT=csv option is missing from benchmark/common.js	62		
-7891	1593308	false	open	false	6		2016-07-27T09:25:43Z	2016-07-29T13:31:36Z		node --inspect: dev tools console not working	62		
+7891	1593308	false	open	false	7		2016-07-27T09:25:43Z	2016-08-08T13:35:48Z		node --inspect: dev tools console not working	62		
 7892	8198457	false	open	false	0		2016-07-27T09:39:14Z	2016-07-27T09:39:14Z		Checking whether an array's constructor is === Array fails	333		
 7893	432351	true	open	false	7		2016-07-27T10:05:35Z	2016-08-01T17:55:36Z		build: adding config.gypi dep to addons/.buildstamp	209		
 7894	1651212	true	open	false			2016-07-27T12:41:26Z	2016-07-31T07:22:34Z		doc: add npm link and cleanup Readme	46		
@@ -941,33 +941,34 @@
 7980	4421720	true	open	false	1		2016-08-04T20:50:42Z	2016-08-05T20:40:45Z		doc: add CTC meeting minutes 2016-08-03	64		
 7981	9373002	false	closed	false	3		2016-08-04T21:40:59Z	2016-08-08T12:59:53Z	2016-08-08T12:59:53Z	AIX: test-vm-sigint-existing-handler failing	57		
 7982	899444	true	closed	false	9		2016-08-04T21:57:59Z	2016-08-08T12:59:50Z	2016-08-08T12:59:50Z	test: fix flaky test-vm-sigint-existing-handler	61		
-7983	3397140	true	open	false	10		2016-08-05T03:08:13Z	2016-08-08T12:21:47Z		build: export zlib symbols on Windows	80		
+7983	3397140	true	closed	false	11		2016-08-05T03:08:13Z	2016-08-08T13:22:59Z	2016-08-08T13:22:58Z	build: export zlib symbols on Windows	80		
 7984	27926	false	open	false	0		2016-08-05T04:06:07Z	2016-08-05T04:06:07Z		Question: how to improve performances for proxies?	157		
 7985	101553	true	open	false	6		2016-08-05T08:49:51Z	2016-08-05T17:47:24Z		lib: remove double check	38		
 7986	275871	true	open	false	1		2016-08-05T11:40:07Z	2016-08-05T17:43:24Z		tools: add compile_commands.json gyp generator	42		
 7987	4520820	true	closed	false	6		2016-08-05T16:37:29Z	2016-08-08T12:45:42Z	2016-08-08T12:45:42Z	zlib: remove unneeded property	37		
 7988	426418	true	open	false			2016-08-05T21:18:17Z	2016-08-08T10:59:49Z		inspector: add inspector console support for native Console	114		
-7989	275871	false	open	false	7		2016-08-06T03:16:44Z	2016-08-08T11:46:26Z		build: drop support for VS 2013 in v6 LTS	192		
+7989	275871	false	open	false	8		2016-08-06T03:16:44Z	2016-08-08T13:43:54Z		build: drop support for VS 2013 in v6 LTS	192		
 7990	2557445	true	open	false	5		2016-08-06T07:59:12Z	2016-08-06T13:51:05Z		Cleanup: Remove unused using decls	49		
 7991	439929	false	open	false	3		2016-08-06T08:03:44Z	2016-08-07T12:44:57Z		Planning for v7 and the v6 roll over to LTS	434		
 7992	1500684	true	open	false	0	0	2016-08-06T10:18:04Z	2016-08-06T10:18:04Z		docs: add info about --auto-open flag w/ --inspect	73		
 7993	2682705	false	closed	false	6		2016-08-06T10:50:20Z	2016-08-06T19:21:51Z	2016-08-06T19:21:51Z	import statements not supported - why, tell me why!	46		
 7994	4520820	true	open	false	4		2016-08-06T12:42:43Z	2016-08-06T21:15:45Z		timers: remove unused repeat param in timer_wrap	53		
 7995	725842	true	open	false			2016-08-06T14:52:17Z	2016-08-07T08:21:55Z		doc: reword ambigous docs for socket.setNoDelay	47		
-7996	1935767	true	open	false	9		2016-08-06T16:09:50Z	2016-08-08T10:28:00Z		meta: clarify collaborators & ctc members relationships	50		
+7996	1935767	true	open	false	11		2016-08-06T16:09:50Z	2016-08-08T13:53:21Z		meta: clarify collaborators & ctc members relationships	50		
 7997	469365	false	open	false	0		2016-08-06T17:53:09Z	2016-08-06T17:53:09Z		docs(cluster): message event docs slightly wrong/confusing	72		
 7998	677994	true	open	false	5		2016-08-06T18:14:04Z	2016-08-08T12:15:13Z		cluster: alias suicide to exitedAfterDisconnect	75		
-7999	718899	true	open	false	4		2016-08-06T19:15:39Z	2016-08-08T05:52:25Z		tools: enable linting for chained properties	45		
+7999	718899	true	open	false	5		2016-08-06T19:15:39Z	2016-08-08T14:04:59Z		tools: enable linting for chained properties	45		
 8000	718899	true	open	false	7		2016-08-06T20:04:43Z	2016-08-07T13:02:47Z		benchmark: favor === over ==	32		
 8001	121766	false	open	false	0		2016-08-06T23:18:50Z	2016-08-06T23:18:50Z		assert: deepEqual/deepStrictEqual throws on equivalent typed arrays	272		
 8002	121766	true	open	false	9		2016-08-06T23:38:49Z	2016-08-08T03:28:30Z		assert: Fix deepEqual/deepStrictEqual on equivalent typed arrays	58		
-8003	718899	true	open	false	4		2016-08-07T04:54:19Z	2016-08-08T05:53:22Z		test: console constructor missing new keyword	61		
+8003	718899	true	open	false	5		2016-08-07T04:54:19Z	2016-08-08T14:08:57Z		test: console constructor missing new keyword	61		
 8004	17554836	false	open	false	0		2016-08-07T05:32:54Z	2016-08-07T05:32:54Z		webpack/http-proxy-middleware/http-proxy/agent/keep-alive/_stream_writable:361:3 exception: cb is not a function	223		
-8005	1443911	true	open	false	4		2016-08-07T10:06:44Z	2016-08-07T13:12:03Z		doc: fix typo in vm.runInNewContext() description	31		
+8005	1443911	true	open	false	5		2016-08-07T10:06:44Z	2016-08-08T14:10:04Z		doc: fix typo in vm.runInNewContext() description	31		
 8006	79017	false	open	false	3		2016-08-07T16:20:13Z	2016-08-08T12:09:46Z		InspectorTest regression on mac	27		
 8007	498775	false	open	false	0		2016-08-07T17:41:11Z	2016-08-07T17:41:11Z		Should we include a downloadable archive of the documentation?	58		
 8008	368238	false	closed	false	5		2016-08-07T19:17:38Z	2016-08-08T10:45:55Z	2016-08-08T10:45:55Z	tls support requires dots at the end of the Alternative Subject Names	159		
-8009	1443911	true	open	false	2		2016-08-08T07:22:24Z	2016-08-08T12:13:10Z		doc: remove spurious new line in CHANGELOG_V6.md	35		
+8009	1443911	true	open	false	3		2016-08-08T07:22:24Z	2016-08-08T13:43:23Z		doc: remove spurious new line in CHANGELOG_V6.md	35		
 8010	1898870	true	open	false	0	0	2016-08-08T09:39:54Z	2016-08-08T09:39:54Z		gitignore: add .idea folder to .gitignore	52		
-8011	3967972	true	open	false	1		2016-08-08T09:41:30Z	2016-08-08T10:26:02Z		dgram: prefer strict equality	54		
-8012	3967972	false	open	false	0		2016-08-08T09:55:14Z	2016-08-08T09:55:14Z		Whitelist dotfiles instead of blacklisting?	83		
+8011	3967972	true	open	false	4		2016-08-08T09:41:30Z	2016-08-08T13:52:03Z		dgram: prefer strict equality	54		
+8012	3967972	false	open	false	1		2016-08-08T09:55:14Z	2016-08-08T14:11:57Z		Whitelist dotfiles instead of blacklisting?	83		
+8013	115237	true	open	false	0	0	2016-08-08T14:05:22Z	2016-08-08T14:05:22Z		util: add inspect.config	70		
