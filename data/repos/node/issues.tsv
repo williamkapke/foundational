@@ -210,7 +210,7 @@
 6793	718899	true	closed	false	15		2016-05-16T20:58:19Z	2016-07-11T22:37:42Z	2016-05-24T20:45:06Z	test: improve debug-break-on-uncaught reliability	64		
 6802	13891170	false	open	false	12		2016-05-17T06:00:09Z	2016-07-21T14:44:54Z		REPL crashes after let process;	35		
 6804	52195	true	closed	false	33		2016-05-17T10:55:16Z	2016-07-12T17:31:26Z	2016-05-26T09:29:32Z	dgram: copy the array when using the list variant in send()	96		
-6816	1093990	true	open	false	64		2016-05-17T17:00:53Z	2016-08-08T13:34:41Z		tty: set the handle to blocking mode	80		
+6816	1093990	true	open	false	65		2016-05-17T17:00:53Z	2016-08-08T18:14:45Z		tty: set the handle to blocking mode	80		
 6821	498775	false	open	false	15		2016-05-17T22:23:23Z	2016-07-22T17:43:07Z		Warning when following instruction in verifying release	62		
 6825	767105	true	closed	false	24		2016-05-18T00:46:45Z	2016-07-12T00:04:31Z	2016-07-01T17:04:26Z	Doc: Adding guide on Timers	28		
 6861	12013667	false	open	false	36		2016-05-18T17:05:18Z	2016-07-16T11:55:29Z		Error: EISDIR illegal operation on directory - Binding.realpath	140		
@@ -562,7 +562,7 @@
 7600	718899	true	closed	false	8		2016-07-07T22:42:59Z	2016-07-12T03:32:30Z	2016-07-11T03:14:11Z	benchmark: remove unused variables	78		
 7601	718899	true	closed	false	7		2016-07-07T22:50:52Z	2016-07-11T20:49:07Z	2016-07-11T20:49:07Z	tools: update ESLint, fix unused vars bug	128		
 7602	470564	true	closed	false	7	5	2016-07-07T23:10:58Z	2016-07-17T16:23:05Z	2016-07-17T16:23:05Z	buffer: optimize hex parsing.	138		
-7603	238531	true	open	false			2016-07-08T02:27:17Z	2016-08-05T16:23:04Z		doc: use `git-secure-tag` for release tags	84		
+7603	238531	true	closed	false	26	7	2016-07-08T02:27:17Z	2016-08-08T18:55:21Z	2016-08-08T18:55:21Z	doc: use `git-secure-tag` for release tags	84		
 7604	718899	true	closed	false	4		2016-07-08T02:45:31Z	2016-07-11T05:15:40Z	2016-07-11T05:15:40Z	doc: add benchmark who-to-CC info	84		
 7605	718899	true	closed	false	11		2016-07-08T03:17:22Z	2016-07-11T21:39:51Z	2016-07-11T21:39:51Z	test: fix flaky test-https-connect-address-family	49		
 7606	4221569	false	closed	false	1		2016-07-08T06:37:18Z	2016-07-08T07:26:27Z	2016-07-08T07:26:26Z	'process.stdout cannot be closed': process.stdout should behave like a standard stream	111		
@@ -777,8 +777,8 @@
 7815	54666	true	open	false	0	0	2016-07-21T05:15:15Z	2016-07-21T05:15:15Z		Doc improve assert	50		
 7816	3885959	true	open	false	0	0	2016-07-21T05:54:32Z	2016-07-21T05:54:32Z		documentation - fixed minor inconsistency	87		
 7817	3885959	true	closed	false	4		2016-07-21T06:17:21Z	2016-08-01T15:25:45Z	2016-08-01T15:25:45Z	Path Documentation Syntax Fixes	95		
-7818	4949308	true	open	false	0	0	2016-07-21T11:11:11Z	2016-07-21T11:11:11Z		benchmark: Repair the fs/readfile benchmark	79		
-7819	2346707	true	open	false	12		2016-07-21T12:48:13Z	2016-08-05T21:46:34Z		doc: Clean up roff source in manpage	128		
+7818	4949308	true	open	false	1		2016-07-21T11:11:11Z	2016-08-08T18:43:09Z		benchmark: Repair the fs/readfile benchmark	79		
+7819	2346707	true	closed	false	13		2016-07-21T12:48:13Z	2016-08-08T18:10:58Z	2016-08-08T18:10:58Z	doc: Clean up roff source in manpage	128		
 7820	2291463	false	closed	false	7		2016-07-21T13:41:53Z	2016-07-22T13:07:16Z	2016-07-22T07:22:38Z	Contextify should use ES6 Proxy to wrap the global object.	268		
 7821	632426	false	closed	false	12		2016-07-21T13:46:18Z	2016-07-22T22:46:04Z	2016-07-22T22:46:04Z	TLS: newSession breaks with Safari and curl on OSX (but not most other clients)	120		
 7822	1443911	true	open	false	4		2016-07-21T14:03:39Z	2016-08-05T21:41:48Z		doc: add `added:` information for events	27		
@@ -790,7 +790,7 @@
 7828	20170894	false	closed	false	14		2016-07-21T20:02:42Z	2016-07-22T05:48:58Z	2016-07-22T05:48:58Z	Support for null terminated strings with Buffer toString?	138		
 7829	1622515	true	closed	false	23		2016-07-21T22:46:42Z	2016-08-04T20:09:15Z	2016-08-04T20:09:15Z	repl: deprecate unused function convertToContext	34		
 7830	718899	true	closed	false	3		2016-07-22T00:19:49Z	2016-07-22T18:32:03Z	2016-07-22T18:32:03Z	tools: enforce loading required modules first	33		
-7831	696611	true	open	false	15		2016-07-22T03:58:02Z	2016-07-31T17:01:52Z		fs: don't alter user provided `options` object	52		
+7831	696611	true	open	false	16		2016-07-22T03:58:02Z	2016-08-08T18:38:31Z		fs: don't alter user provided `options` object	52		
 7832	96150	true	open	false			2016-07-22T07:44:22Z	2016-08-05T21:36:59Z		doc: Provide bad/better examples for access() and exists()	45		
 7833	101553	true	closed	false	18	0	2016-07-22T08:08:03Z	2016-08-03T06:19:34Z	2016-08-03T06:19:34Z	deps: cherry-pick a51f429 from V8 upstream 	36		
 7834	101553	true	open	false	12		2016-07-22T08:53:45Z	2016-08-03T15:27:58Z		deps: cherry-pick a51f429 from V8 upstream	38		
@@ -921,7 +921,7 @@
 7960	12098035	false	closed	false	7		2016-08-03T13:29:44Z	2016-08-05T19:35:38Z	2016-08-05T19:35:38Z	EnvDeleter should return true	105		
 7961	1495995	true	open	false			2016-08-03T14:20:49Z	2016-08-08T14:33:48Z		benchmark: add --format csv option	56		
 7962	275871	false	open	false	2		2016-08-03T14:58:10Z	2016-08-03T17:12:31Z		tls, lts: update root certs in v0.10 and v0.12?	73		
-7963	899444	true	open	false	9		2016-08-03T17:50:51Z	2016-08-05T19:48:29Z		deps: float gyp patch for long filenames	134		
+7963	899444	true	open	false	10		2016-08-03T17:50:51Z	2016-08-08T18:38:21Z		deps: float gyp patch for long filenames	134		
 7964	439929	true	open	false			2016-08-03T17:53:52Z	2016-08-08T16:10:41Z		meta: add explicit details of the deprecation and semver-major policy	36		
 7965	11522163	false	open	false	1		2016-08-03T19:32:40Z	2016-08-04T22:47:58Z		readline will echo first line of input	149		
 7966	899444	true	open	false	4		2016-08-03T21:23:59Z	2016-08-03T22:00:50Z		doc: add @addaleax to the CTC	28		
@@ -948,8 +948,8 @@
 7987	4520820	true	closed	false	6		2016-08-05T16:37:29Z	2016-08-08T12:45:42Z	2016-08-08T12:45:42Z	zlib: remove unneeded property	37		
 7988	426418	true	open	false			2016-08-05T21:18:17Z	2016-08-08T16:23:41Z		inspector: add inspector console support for native Console	114		
 7989	275871	false	open	false	8		2016-08-06T03:16:44Z	2016-08-08T13:43:54Z		build: drop support for VS 2013 in v6 LTS	192		
-7990	2557445	true	closed	false	8		2016-08-06T07:59:12Z	2016-08-08T16:20:30Z	2016-08-08T16:20:30Z	Cleanup: Remove unused using decls	49		
-7991	439929	false	open	false	3		2016-08-06T08:03:44Z	2016-08-07T12:44:57Z		Planning for v7 and the v6 roll over to LTS	434		
+7990	2557445	true	closed	false	9		2016-08-06T07:59:12Z	2016-08-08T18:43:02Z	2016-08-08T16:20:30Z	Cleanup: Remove unused using decls	49		
+7991	439929	false	open	false	4		2016-08-06T08:03:44Z	2016-08-08T18:46:32Z		Planning for v7 and the v6 roll over to LTS	434		
 7992	1500684	true	open	false	0	0	2016-08-06T10:18:04Z	2016-08-06T10:18:04Z		docs: add info about --auto-open flag w/ --inspect	73		
 7993	2682705	false	closed	false	6		2016-08-06T10:50:20Z	2016-08-06T19:21:51Z	2016-08-06T19:21:51Z	import statements not supported - why, tell me why!	46		
 7994	4520820	true	open	false	5		2016-08-06T12:42:43Z	2016-08-08T14:18:01Z		timers: remove unused repeat param in timer_wrap	53		
@@ -971,9 +971,10 @@
 8010	1898870	true	open	false	2		2016-08-08T09:39:54Z	2016-08-08T16:39:48Z		gitignore: add .idea folder to .gitignore	52		
 8011	3967972	true	open	false	11		2016-08-08T09:41:30Z	2016-08-08T17:09:57Z		dgram: prefer strict equality	54		
 8012	3967972	false	open	false	4		2016-08-08T09:55:14Z	2016-08-08T16:34:04Z		Whitelist dotfiles instead of blacklisting?	83		
-8013	115237	true	open	false	8		2016-08-08T14:05:22Z	2016-08-08T17:06:26Z		util: add inspect.config	70		
+8013	115237	true	open	false			2016-08-08T14:05:22Z	2016-08-08T18:11:37Z		util: add inspect.defaultOptions	70		
 8014	79017	true	open	false	1		2016-08-08T15:00:26Z	2016-08-08T16:36:50Z		deps: update v8_inspector	37		
 8015	8208733	false	open	false	0		2016-08-08T16:03:22Z	2016-08-08T16:03:22Z		Node Builds successfully on custom ARMv5 but fails to run with Segmentation fault	377		
-8016	3967972	true	open	false	1		2016-08-08T17:00:35Z	2016-08-08T17:04:23Z		meta: whitelist dotfiles in .gitignore	36		
-8017	469365	true	open	false	0	0	2016-08-08T17:16:27Z	2016-08-08T17:16:27Z		doc: fix cluster message event docs	42		
-8018	1128607	true	open	false	0	0	2016-08-08T17:45:35Z	2016-08-08T17:45:35Z		stream: avoid caching prepend check	69		
+8016	3967972	true	open	false	1		2016-08-08T17:00:35Z	2016-08-08T18:28:08Z		meta: whitelist dotfiles in .gitignore	36		
+8017	469365	true	open	false	2		2016-08-08T17:16:27Z	2016-08-08T18:05:10Z		doc: fix cluster message event docs	42		
+8018	1128607	true	open	false	2		2016-08-08T17:45:35Z	2016-08-08T18:03:49Z		stream: avoid caching prepend check	69		
+8019	287917	true	open	false	0	0	2016-08-08T18:32:23Z	2016-08-08T18:32:23Z		inspector: Fix failing test	55		
