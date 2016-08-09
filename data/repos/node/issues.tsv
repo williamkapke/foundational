@@ -17,6 +17,7 @@
 1684	291301	false	open	false	8		2015-05-12T14:14:52Z	2016-06-29T11:15:27Z		Put a warning against misusing `*Sync` methods to the API docs.	193		
 1690	10612009	false	closed	false	7		2015-05-13T08:56:13Z	2016-07-07T20:40:26Z	2016-07-07T20:40:26Z	[dgram]no udp multicast message received when binding on a specific address	278		
 1692	10612009	false	closed	false	3		2015-05-13T10:29:17Z	2016-07-10T15:58:44Z	2016-07-10T15:58:44Z	[dgram]socket.addMembership() does not add membership to every interface	179		
+1704	579	false	open	false	38		2015-05-14T16:49:52Z	2016-08-09T20:43:31Z		Deprecation Policy	79		
 1765	900690	false	closed	false	9		2015-05-22T09:03:01Z	2016-07-06T06:54:28Z	2016-07-06T06:54:28Z	Windows: fs.realpathSync() adds trailing slash for windows share	68		
 1788	1309053	false	open	false	13		2015-05-24T23:32:23Z	2016-06-27T14:45:36Z		Debug process didn't close after finish debugging	103		
 1802	744035	false	open	false	8		2015-05-26T21:22:12Z	2016-07-03T04:55:24Z		url: parse() fails if auth contain a colon or ampersand	160		
@@ -95,6 +96,7 @@
 4402	5358145	false	open	false	4		2015-12-23T19:26:22Z	2016-07-06T04:40:55Z		Bad readline behavior with line ending characters?	588		
 4427	718899	false	open	false	35		2015-12-26T16:25:19Z	2016-07-12T22:30:35Z		Investigate flaky test-tick-processor	5		
 4482	178512	true	closed	false	30		2015-12-30T13:30:25Z	2016-07-28T21:58:08Z	2016-01-04T18:36:32Z	Http(s) Agent: handle errors on idle sockets	57		
+4528	677994	true	open	false	14		2016-01-04T12:26:41Z	2016-08-09T20:26:39Z		http: make path null in Agent#createSocket	34		
 4629	1084056	true	open	false	22		2016-01-11T21:36:45Z	2016-07-02T20:55:55Z		test: fix `fs-watch-recursive` flakiness	47		
 4630	10704816	true	closed	false	13	1	2016-01-11T22:32:27Z	2016-06-29T14:12:03Z	2016-06-29T14:12:03Z	tools: add missing headers	16		
 4647	52195	true	closed	false	31		2016-01-12T12:24:07Z	2016-07-13T15:16:29Z	2016-07-13T14:12:16Z	win,msi: Added Italian translation	38		
@@ -204,8 +206,9 @@
 6713	2677165	false	open	false	8		2016-05-12T13:36:49Z	2016-07-14T11:52:10Z		Allow setting maximum age for http Agent's keep-alive 	186		
 6726	718899	false	closed	false	3		2016-05-13T05:02:10Z	2016-07-02T02:40:44Z	2016-07-02T02:40:44Z	Investigate flaky test-stream2-readable-empty-buffer-no-eof on FreeBSD	13		
 6734	275871	true	closed	false	35		2016-05-13T09:37:53Z	2016-07-14T18:58:46Z	2016-06-29T11:52:38Z	src: print backtrace on fatal error	18		
-6738	275871	true	open	false	4		2016-05-13T14:45:12Z	2016-07-09T11:49:41Z		build: turn on -fno-delete-null-pointer-checks (v0.10)	30		
+6738	275871	true	closed	false	5		2016-05-13T14:45:12Z	2016-08-09T20:28:25Z	2016-08-09T20:28:25Z	build: turn on -fno-delete-null-pointer-checks (v0.10)	30		
 6739	1093990	true	closed	false	10	0	2016-05-13T16:11:17Z	2016-06-30T12:54:16Z	2016-06-30T12:54:15Z	os: deprecate `tmpDir()` in favour of `tmpdir()`	166	1093990	2016-06-30T12:54:15Z
+6747	439929	true	closed	false	4	0	2016-05-13T21:21:47Z	2016-08-09T20:33:21Z	2016-08-09T20:33:21Z	test: add known-issue tests for various http related issues	44		
 6763	988441	false	open	false	11		2016-05-14T20:27:49Z	2016-07-06T12:48:18Z		setTimeout delayed when sleeping on Windows	145		
 6764	718899	true	closed	false	29		2016-05-14T22:32:23Z	2016-07-11T22:38:14Z	2016-05-25T17:59:19Z	child_process: measure buffer length in bytes	75		
 6780	168508	true	closed	false	20		2016-05-16T02:46:18Z	2016-07-11T21:49:04Z	2016-05-27T22:18:47Z	build: Enable building with Ninja	86		
@@ -265,7 +268,7 @@
 7064	15861995	false	closed	false	4		2016-05-30T15:43:15Z	2016-07-05T16:14:44Z	2016-07-05T16:14:44Z	Spawn process exit code: 3221225794	75		
 7066	52195	true	closed	false	7	5	2016-05-30T16:34:42Z	2016-07-13T15:52:06Z	2016-07-13T15:52:06Z	dgram: generalized send queue to handle close	62		
 7068	696611	true	closed	false	9		2016-05-30T18:19:59Z	2016-07-12T16:48:00Z	2016-06-04T11:03:11Z	fs: execute mkdtemp's callback with no context	111		
-7072	495647	false	open	false	16		2016-05-31T03:52:31Z	2016-07-05T12:36:43Z		Decision to leave v8_inspector support for v6 LTS	305		
+7072	495647	false	open	false	18		2016-05-31T03:52:31Z	2016-08-09T20:52:41Z		Decision to leave v8_inspector support for v6 LTS	305		
 7075	134460	true	open	false	10		2016-05-31T11:49:54Z	2016-07-08T00:23:54Z		Backport for v4.x: win,build: add creation of zip and 7z package	85		
 7077	54666	true	closed	false	31		2016-05-31T17:17:40Z	2016-07-09T00:52:27Z	2016-06-14T19:58:45Z	stream: improve Readable.read() performance	186		
 7079	899444	true	closed	false	17	9	2016-05-31T17:58:03Z	2016-08-08T13:14:46Z	2016-08-08T13:14:46Z	buffer: throw on negative .allocUnsafe() argument	79		
@@ -422,7 +425,7 @@
 7450	287917	true	closed	false	4	8	2016-06-27T23:46:29Z	2016-06-29T23:04:00Z	2016-06-29T23:03:59Z	inspector: Do cleanups before notifying callback	135		
 7451	498775	true	closed	false	16	2	2016-06-28T00:12:14Z	2016-06-29T23:06:16Z	2016-06-29T23:06:16Z	[v4.x backport] test: run v8 tests from node tree	130	498775	2016-06-29T23:06:16Z
 7454	1272762	false	closed	false	40		2016-06-28T04:16:21Z	2016-07-18T09:27:46Z	2016-07-11T13:10:31Z	version 6.2.1 always got Segment Fault error and crash	68		
-7455	96150	true	open	false	18		2016-06-28T05:34:07Z	2016-08-09T19:05:45Z		fs: undeprecate existsSync; use access instead of stat for performance	88		
+7455	96150	true	open	false	19		2016-06-28T05:34:07Z	2016-08-09T20:59:31Z		fs: undeprecate existsSync; use access instead of stat for performance	88		
 7458	8720367	false	open	false	1		2016-06-28T10:58:32Z	2016-07-27T11:41:08Z		Built-in properties cannot be accessed using Reflect, when Proxy is passed as vm context	95		
 7460	498775	true	closed	false	5	0	2016-06-28T18:37:57Z	2016-06-29T21:33:45Z	2016-06-29T21:33:45Z	tools: explicit path for V8 test tap output	147	498775	2016-06-29T21:33:45Z
 7461	715626	false	closed	false	5		2016-06-28T18:43:05Z	2016-07-06T05:18:37Z	2016-07-06T05:09:34Z	path.dirname used in loop	144		
@@ -639,7 +642,7 @@
 7673	32837	false	open	false	0		2016-07-12T10:41:09Z	2016-07-12T10:41:09Z		vm writes error stacktrace lines to console once, even if catched	91		
 7674	677994	true	open	false	3		2016-07-12T11:58:12Z	2016-07-13T12:09:21Z		doc: fix util.deprecate() example	39		
 7675	275871	true	open	false	1		2016-07-12T14:06:28Z	2016-07-12T17:05:42Z		src: fix sporadic deadlock in SIGUSR1 handler	9		
-7676	275871	true	open	false	13		2016-07-12T14:21:15Z	2016-08-09T15:30:31Z		build: export openssl symbols on windows (v4.x)	38		
+7676	275871	true	open	false	14		2016-07-12T14:21:15Z	2016-08-09T20:24:56Z		build: export openssl symbols on windows (v4.x)	38		
 7677	899444	true	closed	false	1		2016-07-12T14:34:07Z	2016-07-12T17:26:33Z	2016-07-12T17:26:33Z	Backport most of the added: info	27		
 7678	899444	true	closed	false	1		2016-07-12T14:34:25Z	2016-07-12T17:42:08Z	2016-07-12T17:42:08Z	Backport buffer added: info	36		
 7679	899444	true	open	false	1		2016-07-12T14:34:36Z	2016-07-12T17:18:54Z		Backport fs added: info	21		
@@ -677,7 +680,7 @@
 7711	275871	true	closed	false	7	2	2016-07-13T15:38:23Z	2016-07-18T08:54:15Z	2016-07-18T08:54:15Z	src: fix handle leaks	2		
 7712	1392388	false	open	false	4		2016-07-13T16:04:13Z	2016-07-13T18:13:47Z		Crypto - sign.update, verifier.update default parameter for strings 'utf8' not really true?	185		
 7713	15952	true	closed	false	3		2016-07-13T18:37:03Z	2016-07-14T18:49:01Z	2016-07-14T18:49:01Z	backport: update build-addons when node-gyp changes	96		
-7714	238531	false	open	false	10		2016-07-13T20:11:16Z	2016-08-08T22:32:55Z		Backport: fs.mkdtemp to v4.x	47		
+7714	238531	false	closed	false	11		2016-07-13T20:11:16Z	2016-08-09T20:24:03Z	2016-08-09T20:24:03Z	Backport: fs.mkdtemp to v4.x	47		
 7715	275871	true	open	false	2		2016-07-13T20:40:11Z	2016-07-14T19:49:31Z		src: use RAII for mutexes and condition variables (v4.x)	3		
 7716	6559933	false	closed	false	3		2016-07-13T21:12:02Z	2016-07-26T14:19:29Z	2016-07-26T14:19:29Z	[repl] Tab completion crashes when invoked on in multiline mode after line with error	297		
 7717	718899	true	closed	false	5		2016-07-13T21:35:54Z	2016-07-17T17:54:40Z	2016-07-17T17:54:40Z	test: fix flaky test-http-server-consumed-timeout	177		
@@ -991,10 +994,12 @@
 8026	439929	false	open	false	0		2016-08-08T22:22:03Z	2016-08-08T22:22:03Z		meta: codename for v6 LTS	103		
 8027	248374	true	open	false	8		2016-08-08T23:39:32Z	2016-08-09T14:35:51Z		build: Provide 'node_module_version' via config.gypi	21		
 8028	5035902	true	open	false	0	0	2016-08-09T01:23:34Z	2016-08-09T01:23:34Z		repl,util: insert carriage returns in output	80		
-8029	12191975	false	open	false	4		2016-08-09T04:09:29Z	2016-08-09T19:35:49Z		why putting super-type constructor invocation at the end of current type constructor in Readable/Writable stream	121		
-8030	718899	false	open	false	5		2016-08-09T06:35:15Z	2016-08-09T15:50:58Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-10	483		
+8029	12191975	false	closed	false	4		2016-08-09T04:09:29Z	2016-08-09T20:17:20Z	2016-08-09T20:17:20Z	why putting super-type constructor invocation at the end of current type constructor in Readable/Writable stream	121		
+8030	718899	false	open	false	6		2016-08-09T06:35:15Z	2016-08-09T20:03:25Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-10	494		
 8031	731796	false	closed	false	2		2016-08-09T09:37:29Z	2016-08-09T10:18:32Z	2016-08-09T10:18:32Z	offset out of bounds	37		
 8032	781745	false	open	false	0		2016-08-09T11:54:55Z	2016-08-09T11:54:55Z		BUG: Comparing prototypes of Object	81		
 8033	122434	false	open	false	4		2016-08-09T12:37:54Z	2016-08-09T13:08:13Z		Observe data emitted through stdout and stderr	45		
 8034	275871	true	open	false			2016-08-09T15:25:45Z	2016-08-09T19:42:47Z		build: run cctests as part of test-ci target	4		
 8035	17704638	true	open	false	5		2016-08-09T15:33:31Z	2016-08-09T16:28:58Z		doc: script with space  spawn example for windows	46		
+8036	446283	true	open	false	0	0	2016-08-09T20:17:43Z	2016-08-09T20:17:43Z		Avoid potential memory leak if realloc fails	437		
+8037	439929	true	open	false	0	0	2016-08-09T20:50:54Z	2016-08-09T20:50:54Z		doc: document vm module limitation with timeouts and async code	28		
