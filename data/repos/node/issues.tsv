@@ -34,10 +34,12 @@
 2329	137545	true	open	false	15		2015-08-08T13:37:47Z	2016-08-07T12:44:00Z		[addons] Implement new init function argument dispatch	565		
 2333	115237	false	open	false	20		2015-08-09T06:04:13Z	2016-07-12T19:05:28Z		tty: stdio properties are undefined inside exec() child	45		
 2395	439929	true	closed	false	11	0	2015-08-16T00:23:48Z	2016-08-02T04:18:14Z	2016-08-02T04:18:14Z	http: correct fencepost error when freeing socket	60		
+2398	439929	false	open	false	37		2015-08-16T01:20:43Z	2016-08-09T22:07:50Z		DTLS Discussion	54		
 2498	696611	true	closed	false	22		2015-08-22T20:07:00Z	2016-07-21T22:32:14Z	2016-07-21T22:32:14Z	fs: do basic arg validation of truncate in js	25		
 2521	885648	true	open	false	30		2015-08-24T08:36:14Z	2016-06-30T04:22:37Z		added CSI (\x9b) as additionally allowable escape	135		
 2534	4405297	true	open	false	87		2015-08-25T01:59:16Z	2016-08-08T12:58:00Z		http: fixed socket destruction, timeout and leaking	144		
 2569	13315	true	open	false	26		2015-08-27T04:34:55Z	2016-07-14T03:03:33Z		Add zh-CN i18n support for Windows installer	15		
+2571	153481	true	closed	false	47		2015-08-27T07:40:39Z	2016-08-09T22:05:24Z	2016-08-09T22:05:24Z	Refactor mac installer (Rebase of #776 against master)	13		
 2642	2645436	false	open	false	30		2015-09-02T06:06:18Z	2016-06-30T18:50:44Z		Keep alive connection do not get closed with server.close()	106		
 2668	291301	false	open	false	7		2015-09-02T21:50:48Z	2016-08-04T02:25:23Z		Unreachable code in buffer.js and unsigned bitwise shifts.	293		
 2681	439929	false	closed	false	5		2015-09-03T15:40:56Z	2016-06-30T23:21:20Z	2016-06-30T23:21:20Z	child_process: execFile and fork arg parsing ambiguity	136		
@@ -84,6 +86,7 @@
 3898	4831315	false	closed	false	44		2015-11-18T09:01:07Z	2016-07-01T08:53:04Z	2015-12-09T13:18:25Z	trap invalid opcode ip:fea6f9	55		
 3931	4813414	false	closed	false	13		2015-11-20T00:52:44Z	2016-08-03T08:53:08Z	2016-06-08T00:01:15Z	tools/doc/html.js produces invalid html	67		
 3952	275871	false	closed	false	14		2015-11-21T11:53:25Z	2016-08-03T09:14:27Z	2016-05-17T05:41:34Z	tls: update v0.10 and v0.12 root certificates?	45		
+3959	13335501	false	closed	false	98		2015-11-21T20:40:18Z	2016-08-09T22:47:09Z	2016-08-09T22:47:09Z	Potential Licensing issues with npm	632		
 3971	275871	false	closed	false	5		2015-11-22T20:01:21Z	2016-07-15T19:25:11Z	2016-07-15T19:25:11Z	repl: show exception for out-of-range unicode escape sequence	25		
 3973	15373625	false	closed	false	5		2015-11-23T01:02:10Z	2016-06-30T13:51:42Z	2016-06-30T13:51:42Z	Silent crash when sending socket to child_process	216		
 4111	1524333	true	open	false	29		2015-12-02T00:40:22Z	2016-07-20T16:10:21Z		Windows post-install screen additional build tools messaging	155		
@@ -131,7 +134,7 @@
 5574	532414	false	open	false	17		2016-03-06T00:25:17Z	2016-07-18T12:02:43Z		Losing keystrokes when using tty.ReadStream() over process.stdin	117		
 5588	17536109	false	open	false	6		2016-03-07T13:45:01Z	2016-07-17T06:58:20Z		Assertion failed: (r) == (0), file src\cares_wrap.cc, line 1262	35		
 5599	711968	true	open	false	6		2016-03-08T15:41:12Z	2016-08-04T03:20:18Z		Bugfix cpplint windows path	103		
-5656	495647	true	open	false	5		2016-03-11T07:32:35Z	2016-07-02T05:13:27Z		 Refactor mac installer (built on #2571)	312		
+5656	495647	true	open	false	6		2016-03-11T07:32:35Z	2016-08-09T22:05:50Z		 Refactor mac installer (built on #2571)	312		
 5659	15952	false	closed	false	22		2016-03-11T16:00:53Z	2016-07-22T20:01:30Z	2016-06-30T17:08:41Z	repl: useGlobal docs and code mismatch	127		
 5687	1699593	false	closed	false	8		2016-03-13T18:58:57Z	2016-08-01T12:36:42Z	2016-03-13T19:12:46Z	Promise.all is not a function	77		
 5703	15952	true	closed	false	27		2016-03-14T20:52:17Z	2016-07-21T14:40:07Z	2016-06-30T17:08:42Z	repl: Default `useGlobal` to false in CLI REPL.	139		
@@ -180,6 +183,7 @@
 6456	3899684	false	open	false	165		2016-04-28T22:47:27Z	2016-07-08T05:43:54Z		stdio buffered writes (chunked) issues & process.exit() truncation	530		
 6466	275871	false	closed	false	13		2016-04-29T08:46:50Z	2016-07-06T06:44:59Z	2016-07-06T06:44:59Z	os x: re-enable PIE (ASLR)	82		
 6506	16545322	false	closed	false	5		2016-05-01T19:30:49Z	2016-07-11T18:02:53Z	2016-07-11T18:02:53Z	doc: dns.resolve wrong callback addresses argument description	31		
+6522	3899684	true	open	false	2		2016-05-02T14:29:06Z	2016-08-09T22:03:43Z		doc: add guides to (navigational) _toc.md	114		
 6525	5750	false	closed	false	6		2016-05-02T15:58:56Z	2016-06-27T17:25:01Z	2016-06-27T17:25:01Z	Result of outer generator .return method incorrect if delegate iterator has no .return method	115		
 6526	2024235	false	closed	false	9		2016-05-02T18:45:42Z	2016-07-11T21:08:24Z	2016-05-02T19:12:07Z	import??	53		
 6528	291301	false	open	false	19		2016-05-02T20:27:59Z	2016-08-06T20:58:05Z		API stability level «Locked» is inaccurate	167		
@@ -198,6 +202,7 @@
 6624	94334	false	open	false	6		2016-05-06T13:09:57Z	2016-07-03T18:06:29Z		On Windows, Node can be inconsistent in what case builtin functions use for drive letters	193		
 6647	501424	false	closed	false	3		2016-05-09T08:59:50Z	2016-06-29T15:43:42Z	2016-06-29T15:43:42Z	Installation fails prematurely	221		
 6655	1093990	false	closed	false	16		2016-05-09T15:37:35Z	2016-06-29T11:08:32Z	2016-06-29T11:08:32Z	"Use Teams for the ""Who to CC in issues chart"""	259		
+6668	292365	false	open	false	7		2016-05-10T07:09:45Z	2016-08-09T22:51:37Z		Maximum call stack size exceeded for --no-bin-links option when using npm	103		
 6670	613846	true	closed	false	36		2016-05-10T08:30:29Z	2016-08-09T10:58:36Z	2016-08-09T10:58:36Z	module: fix wrong condition in early return logic for node_module path	428		
 6673	298721	false	closed	false	27		2016-05-10T13:59:35Z	2016-07-25T19:07:12Z	2016-05-12T09:58:58Z	Memory leaks in loops with Promise	197		
 6675	1625870	true	closed	false	12		2016-05-10T15:22:04Z	2016-07-05T14:14:33Z	2016-05-27T10:08:00Z	test,win: skip addons/load-long-path on WOW64	63		
@@ -262,7 +267,7 @@
 7033	718899	true	closed	false	8		2016-05-28T03:04:33Z	2016-07-11T22:06:26Z	2016-06-01T03:30:45Z	test: make test-child-process-fork-net more robust	174		
 7035	54666	false	closed	false	2		2016-05-28T06:47:06Z	2016-07-02T14:34:40Z	2016-07-02T14:34:40Z	Investigate flaky parallel/test-debugger-repeat-last	29		
 7042	718899	false	closed	false	8		2016-05-29T00:00:46Z	2016-07-09T04:46:48Z	2016-07-09T04:46:48Z	Investigate flaky test-fs-read-buffer-tostring-fail on Raspberry Pi	64		
-7043	54666	true	open	false	25		2016-05-29T07:14:49Z	2016-07-20T08:44:14Z		cluster,net: fix random port keying	67		
+7043	54666	true	open	false	26		2016-05-29T07:14:49Z	2016-08-09T22:02:31Z		cluster,net: fix random port keying	67		
 7045	54666	true	closed	false	19		2016-05-29T09:54:33Z	2016-07-11T22:58:27Z	2016-06-11T02:37:42Z	test: use random ports where possible	119		
 7050	2512748	true	closed	false	5		2016-05-29T18:07:21Z	2016-07-11T21:59:19Z	2016-05-31T13:22:45Z	cluster: rewrite debug ports consistently	115		
 7056	899444	true	closed	false	11		2016-05-29T23:50:19Z	2016-07-11T23:40:06Z	2016-06-08T09:42:55Z	test: fix tests for non-crypto builds	57		
@@ -271,7 +276,7 @@
 7064	15861995	false	closed	false	4		2016-05-30T15:43:15Z	2016-07-05T16:14:44Z	2016-07-05T16:14:44Z	Spawn process exit code: 3221225794	75		
 7066	52195	true	closed	false	7	5	2016-05-30T16:34:42Z	2016-07-13T15:52:06Z	2016-07-13T15:52:06Z	dgram: generalized send queue to handle close	62		
 7068	696611	true	closed	false	9		2016-05-30T18:19:59Z	2016-07-12T16:48:00Z	2016-06-04T11:03:11Z	fs: execute mkdtemp's callback with no context	111		
-7072	495647	false	open	false	19		2016-05-31T03:52:31Z	2016-08-09T21:02:25Z		Decision to leave v8_inspector support for v6 LTS	305		
+7072	495647	false	open	false	22		2016-05-31T03:52:31Z	2016-08-09T22:25:16Z		Decision to leave v8_inspector support for v6 LTS	305		
 7075	134460	true	open	false	10		2016-05-31T11:49:54Z	2016-07-08T00:23:54Z		Backport for v4.x: win,build: add creation of zip and 7z package	85		
 7077	54666	true	closed	false	31		2016-05-31T17:17:40Z	2016-07-09T00:52:27Z	2016-06-14T19:58:45Z	stream: improve Readable.read() performance	186		
 7079	899444	true	closed	false	17	9	2016-05-31T17:58:03Z	2016-08-08T13:14:46Z	2016-08-08T13:14:46Z	buffer: throw on negative .allocUnsafe() argument	79		
@@ -323,6 +328,8 @@
 7243	134460	false	closed	false	10		2016-06-09T12:32:56Z	2016-07-04T21:04:26Z	2016-07-04T21:04:26Z	Investigate flaky test-fs-watch-encoding	27		
 7244	1084056	true	closed	false	3	0	2016-06-09T12:38:08Z	2016-07-10T15:58:44Z	2016-07-10T15:58:44Z	doc,dgram: fix addMembership documentation	131	1084056	2016-07-10T15:58:44Z
 7251	106903	true	closed	false	5		2016-06-09T18:46:56Z	2016-06-30T23:20:01Z	2016-06-30T23:20:01Z	zlib: release callback and buffer after processing	5		
+7253	855219	false	open	false	4		2016-06-10T01:20:29Z	2016-08-09T22:12:18Z		speed up canned small-icu build	117		
+7254	855219	true	open	false	2		2016-06-10T01:28:18Z	2016-08-09T22:11:53Z		Speedup canned small-icu build	109		
 7255	5177920	true	closed	false	4	17	2016-06-10T02:18:11Z	2016-06-27T15:33:36Z	2016-06-27T15:33:36Z	benchmark: `util._extend` vs `object.assign`	177		
 7257	939420	true	open	false	10		2016-06-10T08:25:54Z	2016-07-04T19:23:21Z		Add two child-process stdio flush tests	68		
 7261	631951	false	open	false	1		2016-06-10T09:36:06Z	2016-07-22T10:04:27Z		V8 crash on Windows Server 2012 x64 running on CPU with AVX support	107		
@@ -471,7 +478,7 @@
 7499	2512748	true	closed	false	4	4	2016-06-30T16:08:03Z	2016-07-05T14:52:49Z	2016-07-05T14:52:48Z	util: add an option for configuring break length	79	2512748	2016-07-05T14:52:48Z
 7500	9373002	false	closed	false	12		2016-06-30T16:26:44Z	2016-07-05T13:56:26Z	2016-07-05T13:56:26Z	AIX: build failure 	185		
 7501	432351	true	closed	false	8	14	2016-06-30T16:36:26Z	2016-07-28T16:08:37Z	2016-07-28T16:08:36Z	src: extracting PipeConnectWrap and TCPConnectWrap to ConnectWrap	73		
-7502	7109350	false	open	false	3		2016-06-30T16:38:49Z	2016-08-09T21:57:08Z		ungzipping buffer with trailing garbage throws error	157		
+7502	7109350	false	closed	false	3		2016-06-30T16:38:49Z	2016-08-09T22:06:48Z	2016-08-09T22:06:48Z	ungzipping buffer with trailing garbage throws error	157		
 7503	498775	true	closed	false	4		2016-06-30T18:51:25Z	2016-06-30T19:05:04Z	2016-06-30T19:05:04Z	test: revert fix test-net-* error code check	183		
 7504	13352	false	closed	false	3		2016-07-01T02:36:57Z	2016-07-14T18:27:35Z	2016-07-14T18:27:35Z	Incomplete FSWatcher documentation.	43		
 7505	718899	true	closed	false	16		2016-07-01T04:50:49Z	2016-07-12T16:45:45Z	2016-07-04T05:30:17Z	test: handle SmartOS bug in test-tls-session-cache	65		
@@ -609,7 +616,7 @@
 7637	291301	true	closed	false			2016-07-09T16:28:19Z	2016-07-18T17:42:58Z	2016-07-14T09:34:43Z	doc: various documentation formatting fixes	111		2016-07-14T09:34:43Z
 7638	101553	true	closed	false	33		2016-07-09T18:05:57Z	2016-07-22T09:23:09Z	2016-07-21T22:28:48Z	Cherry-pick patch from V8 upstream that fixes instanceof problem	47		
 7639	8625570	false	closed	false	1		2016-07-09T20:17:26Z	2016-07-17T16:12:14Z	2016-07-17T16:12:14Z	REPL could print Symbol more verbosely 	69		
-7640	899444	true	open	false	2		2016-07-09T20:21:17Z	2016-08-08T19:17:36Z		doc: add `added:` information for cluster	27		
+7640	899444	true	closed	false	4		2016-07-09T20:21:17Z	2016-08-09T22:55:21Z	2016-08-09T22:55:21Z	doc: add `added:` information for cluster	27		
 7641	899444	true	closed	false	5		2016-07-09T20:46:31Z	2016-07-17T16:11:45Z	2016-07-17T16:11:45Z	util: inspect boxed symbols like other primitives	54		
 7642	1018196	false	closed	false	5		2016-07-09T23:41:17Z	2016-07-13T04:21:05Z	2016-07-12T10:37:22Z	No nightlies since june 21st	16		
 7643	718899	false	closed	false	1		2016-07-10T02:23:31Z	2016-07-17T17:55:11Z	2016-07-17T17:55:11Z	Investigate flaky test-http-server-consumed-timeout on FreeBSD	60		
@@ -813,7 +820,7 @@
 7841	15943089	false	closed	false	1		2016-07-22T17:18:46Z	2016-07-24T08:34:10Z	2016-07-24T08:34:10Z	V8 backports changing the v8 patch level in v6.x 	100		
 7842	696611	true	open	false	2		2016-07-22T18:36:30Z	2016-08-05T21:33:57Z		doc: include the optional options parameter	41		
 7843	855219	false	open	false	0		2016-07-22T19:17:46Z	2016-07-22T19:17:46Z		deps: fix TODO in tools/icu/README.md	12		
-7844	855219	false	open	false	4		2016-07-22T19:21:27Z	2016-07-22T20:02:36Z		deps: Intl: ICU 58 bump	32		
+7844	855219	false	open	false	5		2016-07-22T19:21:27Z	2016-08-09T22:09:59Z		deps: Intl: ICU 58 bump	32		
 7845	1084056	true	open	false	10		2016-07-22T22:02:05Z	2016-07-27T06:29:42Z		test: use common platform helpers everywhere	63		
 7846	498775	true	closed	false	36		2016-07-22T23:46:39Z	2016-08-04T22:15:32Z	2016-08-04T22:15:32Z	Revert fs changes	246		
 7847	54666	true	open	false	8		2016-07-23T03:26:28Z	2016-07-26T17:05:20Z		doc: improve https module documentation	57		
@@ -985,7 +992,7 @@
 8014	79017	true	open	false	2		2016-08-08T15:00:26Z	2016-08-08T23:40:27Z		deps: update v8_inspector	37		
 8015	8208733	false	open	false	0		2016-08-08T16:03:22Z	2016-08-08T16:03:22Z		Node Builds successfully on custom ARMv5 but fails to run with Segmentation fault	377		
 8016	3967972	true	open	false	16		2016-08-08T17:00:35Z	2016-08-09T08:10:11Z		meta: whitelist dotfiles in .gitignore	36		
-8017	469365	true	open	false	2		2016-08-08T17:16:27Z	2016-08-08T18:05:10Z		doc: fix cluster message event docs	42		
+8017	469365	true	open	false	3		2016-08-08T17:16:27Z	2016-08-09T22:59:21Z		doc: fix cluster message event docs	42		
 8018	1128607	true	open	false	13		2016-08-08T17:45:35Z	2016-08-09T15:02:08Z		stream: avoid caching prepend check	69		
 8019	287917	true	open	false	4		2016-08-08T18:32:23Z	2016-08-09T15:57:56Z		inspector: Fix failing test	55		
 8020	2512748	false	open	false	12		2016-08-08T19:14:02Z	2016-08-08T22:19:37Z		v6.4.0 Release Proposal	1408		
@@ -1005,5 +1012,6 @@
 8034	275871	true	open	false			2016-08-09T15:25:45Z	2016-08-09T19:42:47Z		build: run cctests as part of test-ci target	4		
 8035	17704638	true	open	false			2016-08-09T15:33:31Z	2016-08-09T21:19:09Z		doc: script with space  spawn example for windows	46		
 8036	446283	true	open	false	0	0	2016-08-09T20:17:43Z	2016-08-09T20:17:43Z		Avoid potential memory leak if realloc fails	437		
-8037	439929	true	open	false	0	0	2016-08-09T20:50:54Z	2016-08-09T20:50:54Z		doc: document vm module limitation with timeouts and async code	28		
-8038	4976075	true	open	false	0	0	2016-08-09T21:30:44Z	2016-08-09T21:30:44Z		Cherry pick 588e15c and c0d4bb8	61		
+8037	439929	true	open	false	1		2016-08-09T20:50:54Z	2016-08-09T22:11:08Z		doc: document vm module limitation with timeouts and async code	28		
+8038	4976075	true	open	false	4		2016-08-09T21:30:44Z	2016-08-09T22:33:02Z		Cherry pick 588e15c and c0d4bb8 from upstream V8	61		
+8039	899444	true	open	false	0	0	2016-08-09T22:47:32Z	2016-08-09T22:47:32Z		test: add an zlib binding addon test	68		
