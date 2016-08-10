@@ -9,7 +9,7 @@
 729	289174	false	closed	false	8		2015-02-05T20:00:25Z	2016-06-29T11:12:13Z	2016-06-29T11:12:13Z	Converge Tracing/Profiling to Native Set of Hooks	49		
 805	782880	false	open	false	3		2015-02-11T16:10:53Z	2016-07-19T11:38:52Z		strict printing for X509 Extentions	19		
 831	2993861	false	open	false	14		2015-02-13T14:18:23Z	2016-08-06T08:28:42Z		`console` should be safe	58		
-854	172	false	open	false	45		2015-02-15T19:37:43Z	2016-08-10T03:14:20Z		os x: FSEventStreamFlushSync assertions logged to console	100		
+854	172	false	open	false	46		2015-02-15T19:37:43Z	2016-08-10T13:55:51Z		os x: FSEventStreamFlushSync assertions logged to console	100		
 1128	36662	false	open	false	16		2015-03-11T22:48:11Z	2016-08-04T12:39:55Z		feature request: a way to inspect what's in the event loop	137		
 1592	617235	false	open	false	206		2015-05-02T19:25:40Z	2016-07-25T11:24:25Z		gripe: deprecating fs.exists/existsSync	202		
 1634	495647	false	open	false	10		2015-05-06T04:07:08Z	2016-08-03T18:19:05Z		Race condition on history file with multiple REPLs	57		
@@ -277,7 +277,7 @@
 7064	15861995	false	closed	false	4		2016-05-30T15:43:15Z	2016-07-05T16:14:44Z	2016-07-05T16:14:44Z	Spawn process exit code: 3221225794	75		
 7066	52195	true	closed	false	7	5	2016-05-30T16:34:42Z	2016-07-13T15:52:06Z	2016-07-13T15:52:06Z	dgram: generalized send queue to handle close	62		
 7068	696611	true	closed	false	9		2016-05-30T18:19:59Z	2016-07-12T16:48:00Z	2016-06-04T11:03:11Z	fs: execute mkdtemp's callback with no context	111		
-7072	495647	false	open	false	23		2016-05-31T03:52:31Z	2016-08-10T12:24:24Z		Decision to leave v8_inspector support for v6 LTS	305		
+7072	495647	false	open	false	24		2016-05-31T03:52:31Z	2016-08-10T13:15:06Z		Decision to leave v8_inspector support for v6 LTS	305		
 7075	134460	true	open	false	10		2016-05-31T11:49:54Z	2016-07-08T00:23:54Z		Backport for v4.x: win,build: add creation of zip and 7z package	85		
 7077	54666	true	closed	false	31		2016-05-31T17:17:40Z	2016-07-09T00:52:27Z	2016-06-14T19:58:45Z	stream: improve Readable.read() performance	186		
 7079	899444	true	closed	false	17	9	2016-05-31T17:58:03Z	2016-08-08T13:14:46Z	2016-08-08T13:14:46Z	buffer: throw on negative .allocUnsafe() argument	79		
@@ -468,7 +468,7 @@
 7488	2352663	true	closed	false	7		2016-06-29T20:45:55Z	2016-07-05T18:56:34Z	2016-06-30T15:30:55Z	deps: fix V8 5.1 tests	40		
 7489	275871	false	open	false	3		2016-06-29T20:58:47Z	2016-06-29T23:06:56Z		v8_inspector: segfault with simple http request	222		
 7490	275871	true	closed	false	2	0	2016-06-29T22:34:06Z	2016-06-29T23:21:49Z	2016-06-29T23:21:49Z	src: fix use-after-free in v8 inspector	5		
-7491	275871	true	open	false	12		2016-06-29T23:24:41Z	2016-08-09T21:56:25Z		src: add /json/protocol endpoint to inspector	24		
+7491	275871	true	open	false	13		2016-06-29T23:24:41Z	2016-08-10T13:07:48Z		src: add /json/protocol endpoint to inspector	24		
 7492	7146748	false	open	false	0		2016-06-30T06:29:11Z	2016-06-30T06:29:11Z		terrible design bug 	184		
 7493	899444	true	closed	false	3		2016-06-30T06:55:54Z	2016-07-05T19:50:22Z	2016-07-05T19:50:21Z	doc: add `added:` information for timers	27		
 7494	238531	true	open	false	11		2016-06-30T07:46:53Z	2016-07-11T06:24:10Z		Fix various overflows and UB in src/	129		
@@ -672,7 +672,7 @@
 7692	17535	true	open	false	1		2016-07-12T21:54:51Z	2016-07-14T18:46:07Z		deps: upgrade npm in LTS to 2.15.9	82		
 7693	718899	true	closed	false	6		2016-07-12T23:34:59Z	2016-07-15T05:11:37Z	2016-07-15T03:28:14Z	test: improve error message in test-tick-processor	39		
 7694	2512748	true	closed	false	3	0	2016-07-13T00:08:57Z	2016-07-15T02:13:19Z	2016-07-15T02:13:19Z	test: cleanup IIFE tests	97	2512748	2016-07-15T02:13:19Z
-7695	20425798	true	open	false	10		2016-07-13T01:53:29Z	2016-08-08T21:23:40Z		cluster:take a worker offline and force GC	248		
+7695	20425798	true	open	false	11		2016-07-13T01:53:29Z	2016-08-10T13:16:51Z		cluster:take a worker offline and force GC	248		
 7696	339422	true	closed	false	42		2016-07-13T02:16:38Z	2016-08-08T14:42:53Z	2016-08-08T14:42:53Z	lib: allow custom names for spawned processes	158		
 7697	54666	true	open	false	0	0	2016-07-13T02:34:13Z	2016-07-13T02:34:13Z		test: use random ports where possible	17		
 7698	54666	true	open	false	1		2016-07-13T02:36:59Z	2016-07-14T18:47:07Z		test: use random ports where possible	18		
@@ -724,7 +724,7 @@
 7744	718899	true	open	false			2016-07-15T03:19:18Z	2016-07-28T21:25:09Z		meta: provide example activities	38		
 7745	5678694	true	closed	false	3		2016-07-15T05:54:59Z	2016-07-15T17:56:26Z	2016-07-15T17:56:26Z	doc: fix inconsistencies in code examples	64		
 7746	982720	false	closed	false	10		2016-07-15T08:06:17Z	2016-07-20T19:54:18Z	2016-07-15T09:37:16Z	Abuse in irc channel from part of moderator, for say him no need to be aggresive.	30		
-7747	11814052	false	open	false	4		2016-07-15T11:45:09Z	2016-07-18T12:41:17Z		path.join resolving local directory 	89		
+7747	11814052	false	closed	false	5		2016-07-15T11:45:09Z	2016-08-10T13:05:48Z	2016-08-10T13:05:47Z	path.join resolving local directory 	89		
 7748	250617	false	closed	false	2		2016-07-15T12:30:18Z	2016-07-15T14:58:15Z	2016-07-15T14:58:15Z	Question: How likely is it that Node v7.0.0 will include async/await?	74		
 7749	7488613	false	open	false	0		2016-07-15T14:23:15Z	2016-07-15T14:23:15Z		Getting the stack trace in a structured form	190		
 7750	20170894	false	closed	false	11		2016-07-15T15:09:45Z	2016-07-18T07:41:18Z	2016-07-18T07:41:18Z	Why is toString so slow compared to manual concatenation?	87		
@@ -832,7 +832,7 @@
 7852	886388	false	closed	false	11		2016-07-23T18:24:17Z	2016-07-27T12:36:41Z	2016-07-25T04:16:55Z	Removing listener that was added multiple times	68		
 7853	516780	false	open	false	3		2016-07-23T19:28:07Z	2016-07-25T03:33:36Z		node --debug takes a really long time to respond to websockets	180		
 7854	1084056	true	closed	false	10		2016-07-23T20:09:19Z	2016-08-02T14:08:28Z	2016-08-02T14:08:28Z	test: fix test-vm-sigint flakiness	68		
-7855	1422781	true	open	false	11		2016-07-23T20:38:28Z	2016-08-09T19:53:12Z		dgram: setMulticastInterface() outgoing interface selection	72		
+7855	1422781	true	open	false			2016-07-23T20:38:28Z	2016-08-10T13:49:10Z		dgram: setMulticastInterface() outgoing interface selection	72		
 7856	373545	true	open	false	6		2016-07-23T20:49:58Z	2016-08-03T16:08:51Z		fs: Fix default params for fs.write	81		
 7857	718899	true	closed	false	26		2016-07-23T21:15:43Z	2016-07-31T20:33:10Z	2016-07-31T20:33:10Z	test: fix flaky test-tls-wrap-timeout	59		
 7858	3524633	false	closed	false	18		2016-07-24T00:23:34Z	2016-08-08T12:55:45Z	2016-07-25T15:53:16Z	Add fsevents to NodeJS	211		
@@ -876,7 +876,7 @@
 7896	7308528	false	closed	false	1		2016-07-27T16:55:37Z	2016-07-27T17:25:38Z	2016-07-27T17:25:38Z	I need nodeJS v5 in intel edison to run angular 2 app - issue	52		
 7897	696611	true	open	false	9		2016-07-27T17:02:57Z	2016-08-09T19:46:21Z		fs: warn instead of throwing if no callback	100		
 7898	1005116	true	closed	false	4		2016-07-27T18:12:08Z	2016-07-29T15:31:05Z	2016-07-29T15:31:05Z	benchmark: http parser optimization	194		
-7899	17704638	true	open	false	35		2016-07-27T18:12:17Z	2016-08-09T14:58:46Z		fs: restore javascript realpath implementation	162		
+7899	17704638	true	open	false	36		2016-07-27T18:12:17Z	2016-08-10T13:51:08Z		fs: restore javascript realpath implementation	162		
 7900	739813	true	closed	false	5	1	2016-07-27T22:43:54Z	2016-08-01T17:52:30Z	2016-08-01T17:52:30Z	doc: add CTC meeting minutes 2016-07-27	33		
 7901	54479	false	closed	false	2		2016-07-27T22:59:05Z	2016-07-28T18:50:34Z	2016-07-28T02:15:01Z	Incorrect version of Node package in Yum repo	329		
 7902	110455	false	open	false	2		2016-07-27T23:57:01Z	2016-08-02T05:53:04Z		<=v4: process.hrtime() segfaults on arrays with error-throwing accessors	129		
@@ -973,7 +973,7 @@
 7994	4520820	true	closed	false	7		2016-08-06T12:42:43Z	2016-08-09T19:28:33Z	2016-08-09T19:28:33Z	timers: remove unused repeat param in timer_wrap	53		
 7995	725842	true	open	false			2016-08-06T14:52:17Z	2016-08-08T14:39:20Z		doc: reword ambigous docs for socket.setNoDelay	47		
 7996	1935767	true	closed	false	12	4	2016-08-06T16:09:50Z	2016-08-08T15:25:53Z	2016-08-08T15:25:53Z	meta: clarify collaborators & ctc members relationships	50		
-7997	469365	false	open	false	2		2016-08-06T17:53:09Z	2016-08-08T17:16:38Z		docs(cluster): message event docs slightly wrong/confusing	72		
+7997	469365	false	closed	false	2		2016-08-06T17:53:09Z	2016-08-10T13:13:16Z	2016-08-10T13:13:16Z	docs(cluster): message event docs slightly wrong/confusing	72		
 7998	677994	true	open	false	7		2016-08-06T18:14:04Z	2016-08-09T19:25:04Z		cluster: alias suicide to exitedAfterDisconnect	75		
 7999	718899	true	closed	false	13	0	2016-08-06T19:15:39Z	2016-08-10T04:20:17Z	2016-08-10T04:20:17Z	tools: enable linting for chained properties	45		
 8000	718899	true	closed	false	11		2016-08-06T20:04:43Z	2016-08-09T21:42:39Z	2016-08-09T21:42:39Z	benchmark: favor === over ==	32		
@@ -993,12 +993,12 @@
 8014	79017	true	open	false	2		2016-08-08T15:00:26Z	2016-08-08T23:40:27Z		deps: update v8_inspector	37		
 8015	8208733	false	open	false	0		2016-08-08T16:03:22Z	2016-08-08T16:03:22Z		Node Builds successfully on custom ARMv5 but fails to run with Segmentation fault	377		
 8016	3967972	true	open	false	17		2016-08-08T17:00:35Z	2016-08-10T07:46:39Z		meta: whitelist dotfiles in .gitignore	36		
-8017	469365	true	open	false	3		2016-08-08T17:16:27Z	2016-08-09T22:59:21Z		doc: fix cluster message event docs	42		
+8017	469365	true	closed	false	4	0	2016-08-08T17:16:27Z	2016-08-10T13:13:09Z	2016-08-10T13:13:09Z	doc: fix cluster message event docs	42		
 8018	1128607	true	open	false	13		2016-08-08T17:45:35Z	2016-08-09T15:02:08Z		stream: avoid caching prepend check	69		
 8019	287917	true	closed	false	5	2	2016-08-08T18:32:23Z	2016-08-10T00:29:50Z	2016-08-10T00:29:50Z	inspector: Fix failing test	55		
-8020	2512748	false	open	false	12		2016-08-08T19:14:02Z	2016-08-08T22:19:37Z		v6.4.0 Release Proposal	1408		
-8021	426418	true	open	false	5		2016-08-08T19:27:27Z	2016-08-09T15:52:46Z		inspector: fix inspector hung while disconnecting	113		
-8022	899444	true	open	false			2016-08-08T20:10:14Z	2016-08-09T18:05:28Z		v6.x backport of 'latin1' encoding	17		
+8020	2512748	false	open	false	12		2016-08-08T19:14:02Z	2016-08-10T13:43:32Z		v6.4.0 Release Proposal	1408		
+8021	426418	true	open	false	6		2016-08-08T19:27:27Z	2016-08-10T13:12:28Z		inspector: fix inspector hung while disconnecting	113		
+8022	899444	true	closed	false	4	3	2016-08-08T20:10:14Z	2016-08-10T13:58:16Z	2016-08-10T13:58:16Z	v6.x backport of 'latin1' encoding	17	899444	2016-08-10T13:58:16Z
 8023	1422781	true	open	false			2016-08-08T20:16:00Z	2016-08-09T11:29:34Z		net: net.isIP() needs scope tests and a review of its type checking	74		
 8024	225351	false	open	false	1		2016-08-08T20:22:27Z	2016-08-09T11:53:24Z		Cross-platform differences in fs.readSync()	100		
 8025	1231635	true	open	false	0	0	2016-08-08T21:54:51Z	2016-08-08T21:54:51Z		Backport doc: server.listen() random port	84		
@@ -1015,8 +1015,8 @@
 8036	446283	true	open	false	0	0	2016-08-09T20:17:43Z	2016-08-09T20:17:43Z		Avoid potential memory leak if realloc fails	437		
 8037	439929	true	open	false	1		2016-08-09T20:50:54Z	2016-08-09T22:11:08Z		doc: document vm module limitation with timeouts and async code	28		
 8038	4976075	true	open	false	5		2016-08-09T21:30:44Z	2016-08-10T12:12:51Z		Cherry pick 588e15c and c0d4bb8 from upstream V8	61		
-8039	899444	true	open	false	5		2016-08-09T22:47:32Z	2016-08-10T11:13:56Z		test: add an zlib binding addon test	71		
-8040	11638619	true	open	false			2016-08-09T23:32:06Z	2016-08-10T10:06:53Z		Add crypto.timingSafeEqual()	69		
+8039	899444	true	open	false	6		2016-08-09T22:47:32Z	2016-08-10T13:26:19Z		test: add an zlib binding addon test	71		
+8040	11638619	true	open	false			2016-08-09T23:32:06Z	2016-08-10T13:28:18Z		Add crypto.timingSafeEqual()	69		
 8041	718899	false	open	false	0		2016-08-09T23:45:53Z	2016-08-09T23:45:53Z		Investigate flaky test-timers-blocking-callback on FreeBSD	38		
 8042	3231296	false	closed	false	1		2016-08-10T01:22:11Z	2016-08-10T11:56:32Z	2016-08-10T11:56:32Z	VM: Add source mapping support	163		
 8043	426418	true	open	false			2016-08-10T02:07:44Z	2016-08-10T10:55:56Z		inspector: add support for uncaught exception	60		
@@ -1024,5 +1024,6 @@
 8045	275871	false	open	false	0		2016-08-10T10:47:00Z	2016-08-10T10:47:00Z		darwin,test: flaky test sequential/test-fs-watch	166		
 8046	3584317	false	open	false	0		2016-08-10T11:35:54Z	2016-08-10T11:35:54Z		BUG: Error calculation	27		
 8047	8273423	false	open	false	0		2016-08-10T12:22:42Z	2016-08-10T12:22:42Z		Http Server Bug	74		
-8048	13312166	false	open	false	0		2016-08-10T12:38:10Z	2016-08-10T12:38:10Z		net-module does't react when pulling of the cable (embedded Linux) label:net	215		
+8048	13312166	false	closed	false	1		2016-08-10T12:38:10Z	2016-08-10T13:06:10Z	2016-08-10T13:06:10Z	net-module does't react when pulling of the cable (embedded Linux)	215		
 8049	275871	true	open	false	0	0	2016-08-10T12:44:00Z	2016-08-10T12:44:00Z		doc: update windows prerequisites	14		
+8050	17586	false	open	false	0		2016-08-10T13:58:33Z	2016-08-10T13:58:33Z		console.log hangs on long lines	48		
