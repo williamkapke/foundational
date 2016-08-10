@@ -73,6 +73,7 @@
 3475	367936	false	open	false	7		2015-10-21T21:55:24Z	2016-07-19T14:13:11Z		Performance regression in pipe after v0.11.3 on OS X	153		
 3477	367936	false	closed	false	14		2015-10-21T23:22:50Z	2016-07-19T19:51:42Z	2016-07-19T11:50:04Z	Pipe/stream performance regression after v2.5.0	223		
 3516	718899	true	closed	false	12		2015-10-25T18:55:14Z	2016-07-18T06:09:28Z	2015-10-28T23:22:53Z	lib,doc: return boolean from child.send()	32		
+3572	1722371	true	closed	false	6		2015-10-28T19:52:00Z	2016-08-10T11:01:19Z	2015-10-28T20:15:22Z	test: fix heap-profiler link error LNK1194 on win	33		
 3604	13315	false	open	false	13		2015-10-30T14:21:10Z	2016-07-21T09:02:46Z		a simple script to crash Node.js with an assertion failure: (loop->watchers[w->fd] == w)	66		
 3606	170197	false	open	false	60		2015-10-30T14:47:16Z	2016-08-05T03:28:20Z		Error: Cannot find module './lib'	31		
 3692	8949910	false	open	false	117		2015-11-06T16:05:41Z	2016-07-07T10:09:30Z		HTTP/HTTPS client requests throwing EPROTO	60		
@@ -713,7 +714,7 @@
 7734	13737185	false	closed	false	9		2016-07-14T15:13:28Z	2016-07-27T14:36:28Z	2016-07-27T14:36:28Z	Windows build failed for v6.3.0	184		
 7735	2512748	true	closed	false	6	1	2016-07-14T15:32:09Z	2016-07-15T19:55:54Z	2016-07-15T19:55:53Z	test: s/assert.fail/common.fail as appropriate	68	2512748	2016-07-15T19:55:53Z
 7736	1018196	false	closed	false	2		2016-07-14T15:58:12Z	2016-07-27T14:36:28Z	2016-07-27T14:36:28Z	node --inspect sending ints as floats	128		
-7737	696611	true	open	false	6		2016-07-14T16:04:21Z	2016-08-10T09:31:46Z		Remove test full http	107		
+7737	696611	true	open	false	7		2016-07-14T16:04:21Z	2016-08-10T10:49:47Z		Remove test full http	107		
 7738	7981701	true	closed	false	5	0	2016-07-14T17:00:17Z	2016-07-15T15:00:40Z	2016-07-15T15:00:40Z	doc: fix typo in stream doc	34		
 7739	498775	true	closed	false	10		2016-07-14T19:14:43Z	2016-07-20T17:36:23Z	2016-07-20T17:36:23Z	Child.send boolean	174		
 7740	9373002	true	open	false	0	0	2016-07-14T23:21:53Z	2016-07-14T23:21:53Z		test: add --repeat option to tools/test.py	185		
@@ -948,7 +949,7 @@
 7970	4421720	true	closed	false	3	0	2016-08-03T23:00:06Z	2016-08-05T20:42:09Z	2016-08-05T20:42:09Z	doc: add CTC meeting minutes 2016-07-20	32		
 7971	718899	true	closed	false	8	7	2016-08-03T23:36:02Z	2016-08-05T19:33:09Z	2016-08-05T19:33:09Z	doc: use consistent markdown in README	61		
 7972	439929	true	open	false	2		2016-08-04T00:15:37Z	2016-08-04T16:05:37Z		lib: add initial mapproxy implementation and benchmark	119		
-7973	9373002	false	open	false	3		2016-08-04T01:24:49Z	2016-08-09T15:38:19Z		AIX: parallel/test-stdio-closed and pseudo-tty/no_dropped_stdio failures on new machine	133		
+7973	9373002	false	open	false	4		2016-08-04T01:24:49Z	2016-08-10T10:18:44Z		AIX: parallel/test-stdio-closed and pseudo-tty/no_dropped_stdio failures on new machine	133		
 7974	13586713	false	open	false	2		2016-08-04T06:38:01Z	2016-08-04T17:11:15Z		Children from child_process.fork printing outside of parent after parent process.exit	203		
 7975	101553	true	closed	false	11	6	2016-08-04T07:56:59Z	2016-08-05T20:41:48Z	2016-08-05T20:41:48Z	src: make EnvDelete behave like the delete operator	98		
 7976	1231635	true	open	false	9		2016-08-04T08:35:23Z	2016-08-05T21:18:51Z		doc: improve server.listen() random port	109		
@@ -1008,15 +1009,16 @@
 8030	718899	false	open	false	9		2016-08-09T06:35:15Z	2016-08-09T23:12:44Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-10	494		
 8031	731796	false	closed	false	2		2016-08-09T09:37:29Z	2016-08-09T10:18:32Z	2016-08-09T10:18:32Z	offset out of bounds	37		
 8032	781745	false	open	false	0		2016-08-09T11:54:55Z	2016-08-09T11:54:55Z		BUG: Comparing prototypes of Object	81		
-8033	122434	false	open	false	4		2016-08-09T12:37:54Z	2016-08-09T13:08:13Z		Observe data emitted through stdout and stderr	45		
+8033	122434	false	open	false	8		2016-08-09T12:37:54Z	2016-08-10T10:14:46Z		Observe data emitted through stdout and stderr	45		
 8034	275871	true	open	false	4		2016-08-09T15:25:45Z	2016-08-10T10:00:50Z		build: run cctests as part of test-ci target	4		
 8035	17704638	true	open	false			2016-08-09T15:33:31Z	2016-08-10T06:32:30Z		doc: script with space  spawn example for windows	46		
 8036	446283	true	open	false	0	0	2016-08-09T20:17:43Z	2016-08-09T20:17:43Z		Avoid potential memory leak if realloc fails	437		
 8037	439929	true	open	false	1		2016-08-09T20:50:54Z	2016-08-09T22:11:08Z		doc: document vm module limitation with timeouts and async code	28		
 8038	4976075	true	open	false	4		2016-08-09T21:30:44Z	2016-08-09T22:33:02Z		Cherry pick 588e15c and c0d4bb8 from upstream V8	61		
 8039	899444	true	open	false	4		2016-08-09T22:47:32Z	2016-08-10T00:40:33Z		test: add an zlib binding addon test	71		
-8040	11638619	true	open	false	5		2016-08-09T23:32:06Z	2016-08-10T03:49:46Z		Add crypto.timingSafeEqual()	69		
+8040	11638619	true	open	false			2016-08-09T23:32:06Z	2016-08-10T10:06:53Z		Add crypto.timingSafeEqual()	69		
 8041	718899	false	open	false	0		2016-08-09T23:45:53Z	2016-08-09T23:45:53Z		Investigate flaky test-timers-blocking-callback on FreeBSD	38		
 8042	3231296	false	open	false	0		2016-08-10T01:22:11Z	2016-08-10T01:22:11Z		VM: Add source mapping support	163		
-8043	426418	true	open	false	0	0	2016-08-10T02:07:44Z	2016-08-10T02:07:44Z		inspector: add support for uncaught exception	60		
+8043	426418	true	open	false			2016-08-10T02:07:44Z	2016-08-10T10:55:56Z		inspector: add support for uncaught exception	60		
 8044	10459119	false	open	false	0		2016-08-10T07:28:01Z	2016-08-10T07:28:01Z		Doc has mistake: The fs doesn't exist constants of property	291		
+8045	275871	false	open	false	0		2016-08-10T10:47:00Z	2016-08-10T10:47:00Z		darwin,test: flaky test sequential/test-fs-watch	166		
