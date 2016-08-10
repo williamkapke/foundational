@@ -9,7 +9,7 @@
 729	289174	false	closed	false	8		2015-02-05T20:00:25Z	2016-06-29T11:12:13Z	2016-06-29T11:12:13Z	Converge Tracing/Profiling to Native Set of Hooks	49		
 805	782880	false	open	false	3		2015-02-11T16:10:53Z	2016-07-19T11:38:52Z		strict printing for X509 Extentions	19		
 831	2993861	false	open	false	14		2015-02-13T14:18:23Z	2016-08-06T08:28:42Z		`console` should be safe	58		
-854	172	false	open	false	47		2015-02-15T19:37:43Z	2016-08-10T16:26:01Z		os x: FSEventStreamFlushSync assertions logged to console	100		
+854	172	false	open	false	51		2015-02-15T19:37:43Z	2016-08-10T17:04:07Z		os x: FSEventStreamFlushSync assertions logged to console	100		
 1128	36662	false	open	false	16		2015-03-11T22:48:11Z	2016-08-04T12:39:55Z		feature request: a way to inspect what's in the event loop	137		
 1592	617235	false	open	false	206		2015-05-02T19:25:40Z	2016-07-25T11:24:25Z		gripe: deprecating fs.exists/existsSync	202		
 1634	495647	false	open	false	10		2015-05-06T04:07:08Z	2016-08-03T18:19:05Z		Race condition on history file with multiple REPLs	57		
@@ -111,6 +111,7 @@
 4747	3899684	true	closed	false	66		2016-01-18T18:08:00Z	2016-07-01T10:04:44Z	2016-04-20T23:00:07Z	doc: renamed doc files to .md, adapted build scripts	27		
 4758	347387	false	open	false	5		2016-01-19T12:08:26Z	2016-07-07T17:46:46Z		SIGINT not triggering with readline	26		
 4823	1063255	false	closed	false	4		2016-01-22T23:47:02Z	2016-06-30T15:00:02Z	2016-06-30T15:00:02Z	test: possible flaky test-repl.js	88		
+4941	2757844	false	closed	false	3		2016-01-29T05:18:31Z	2016-08-10T17:38:20Z	2016-01-29T08:50:38Z	Error: not implemented when using streams with setInterval	171		
 4956	21203	true	open	false			2016-01-29T19:50:47Z	2016-07-10T14:04:03Z		crypto: remove POINT_CONVERSION_HYBRID	44		
 5025	275871	true	open	false	28		2016-02-01T13:14:18Z	2016-06-30T15:13:23Z		debugger: bind to random port with --debug-port=0	13		
 5094	12488060	false	open	false	6		2016-02-04T23:46:05Z	2016-07-09T02:37:13Z		File names in readable_stream folder are not supported in Windows	333		
@@ -532,7 +533,7 @@
 7550	1093990	true	closed	false	9		2016-07-05T21:23:45Z	2016-07-06T18:06:43Z	2016-07-06T17:42:31Z	Propose v6.3.0 (v2)	2032		
 7551	439929	true	closed	false	3		2016-07-05T23:29:28Z	2016-07-14T19:42:40Z	2016-07-11T19:23:07Z	tls, binding: backport of process.binding('config') and regression fix	54		
 7552	439929	true	closed	false	28		2016-07-06T00:09:20Z	2016-08-01T18:57:57Z	2016-08-01T18:57:57Z	punycode: deprecate punycode module	193		
-7553	8730632	false	open	false	4		2016-07-06T01:04:08Z	2016-08-10T16:49:16Z		Error: unexpected end of file. 	24		
+7553	8730632	false	open	false	5		2016-07-06T01:04:08Z	2016-08-10T17:38:58Z		Error: unexpected end of file. 	24		
 7554	7731478	false	closed	false	2		2016-07-06T02:46:13Z	2016-07-06T16:52:55Z	2016-07-06T11:52:47Z	setInterval/setTimeout interval should not include duration of callback	1223		
 7555	718899	true	closed	false	10	0	2016-07-06T04:27:02Z	2016-07-07T18:04:48Z	2016-07-07T18:04:48Z	test: fix flaky test-net-write-slow	56		
 7556	5046645	false	open	false	0		2016-07-06T07:42:41Z	2016-07-06T07:42:41Z		arm64 architecture in ubuntu nodesource repository	40		
@@ -781,7 +782,7 @@
 7799	899444	true	open	false	6		2016-07-19T23:11:24Z	2016-08-01T18:11:38Z		doc: correct crypto encoding information (v4.x)	46		
 7800	20051926	false	open	false	0		2016-07-19T23:43:34Z	2016-07-19T23:43:34Z		Node ffi returns correct value for the first time and then gives segmentation fault:11	248		
 7801	5438027	true	closed	false	5		2016-07-19T23:45:12Z	2016-07-20T07:56:10Z	2016-07-20T00:07:57Z	doc: update readme with andrasq as a collaborator	25		
-7802	1356314	true	closed	false	6		2016-07-20T01:06:22Z	2016-08-10T16:38:26Z	2016-08-04T17:09:22Z	deps: cherry-pick 6f68f30 from v8 upstream	106		
+7802	1356314	true	closed	false	7		2016-07-20T01:06:22Z	2016-08-10T17:08:37Z	2016-08-04T17:09:22Z	deps: cherry-pick 6f68f30 from v8 upstream	106		
 7803	12976647	false	open	false	6		2016-07-20T03:54:08Z	2016-07-27T22:28:45Z		api to get arm architecture of the binary as in the download page...	118		
 7804	1222029	true	open	false	0	0	2016-07-20T06:30:46Z	2016-07-20T06:30:46Z		Update crypto.md	39		
 7805	1222029	true	closed	false	6		2016-07-20T06:47:21Z	2016-08-04T20:16:55Z	2016-08-04T20:16:55Z	doc: correct crypto encoding information	66		
@@ -992,7 +993,7 @@
 8011	3967972	true	open	false	11		2016-08-08T09:41:30Z	2016-08-08T17:09:57Z		dgram: prefer strict equality	54		
 8012	3967972	false	open	false	4		2016-08-08T09:55:14Z	2016-08-08T16:34:04Z		Whitelist dotfiles instead of blacklisting?	83		
 8013	115237	true	closed	false	20		2016-08-08T14:05:22Z	2016-08-09T18:54:03Z	2016-08-09T18:54:03Z	util: add inspect.defaultOptions	70		
-8014	79017	true	open	false	2		2016-08-08T15:00:26Z	2016-08-08T23:40:27Z		deps: update v8_inspector	37		
+8014	79017	true	open	false	3		2016-08-08T15:00:26Z	2016-08-10T17:40:12Z		deps: update v8_inspector	35		
 8015	8208733	false	open	false	0		2016-08-08T16:03:22Z	2016-08-08T16:03:22Z		Node Builds successfully on custom ARMv5 but fails to run with Segmentation fault	377		
 8016	3967972	true	open	false	18		2016-08-08T17:00:35Z	2016-08-10T15:24:57Z		meta: whitelist dotfiles in .gitignore	36		
 8017	469365	true	closed	false	4	0	2016-08-08T17:16:27Z	2016-08-10T13:13:09Z	2016-08-10T13:13:09Z	doc: fix cluster message event docs	42		
@@ -1016,9 +1017,9 @@
 8035	17704638	true	open	false			2016-08-09T15:33:31Z	2016-08-10T06:32:30Z		doc: script with space  spawn example for windows	46		
 8036	446283	true	open	false	0	0	2016-08-09T20:17:43Z	2016-08-09T20:17:43Z		Avoid potential memory leak if realloc fails	437		
 8037	439929	true	open	false	1		2016-08-09T20:50:54Z	2016-08-09T22:11:08Z		doc: document vm module limitation with timeouts and async code	28		
-8038	4976075	true	open	false	6		2016-08-09T21:30:44Z	2016-08-10T15:44:33Z		Cherry pick 588e15c and c0d4bb8 from upstream V8	61		
+8038	4976075	true	open	false	7		2016-08-09T21:30:44Z	2016-08-10T17:37:09Z		Cherry pick 588e15c and c0d4bb8 from upstream V8	61		
 8039	899444	true	open	false	6		2016-08-09T22:47:32Z	2016-08-10T13:26:19Z		test: add an zlib binding addon test	71		
-8040	11638619	true	open	false			2016-08-09T23:32:06Z	2016-08-10T15:29:19Z		Add crypto.timingSafeEqual()	69		
+8040	11638619	true	open	false	14		2016-08-09T23:32:06Z	2016-08-10T17:30:02Z		Add crypto.timingSafeEqual()	69		
 8041	718899	false	open	false	0		2016-08-09T23:45:53Z	2016-08-09T23:45:53Z		Investigate flaky test-timers-blocking-callback on FreeBSD	38		
 8042	3231296	false	closed	false	1		2016-08-10T01:22:11Z	2016-08-10T11:56:32Z	2016-08-10T11:56:32Z	VM: Add source mapping support	163		
 8043	426418	true	open	false	3		2016-08-10T02:07:44Z	2016-08-10T16:26:48Z		inspector: add support for uncaught exception	60		
@@ -1030,3 +1031,5 @@
 8049	275871	true	open	false	1		2016-08-10T12:44:00Z	2016-08-10T16:57:13Z		doc: update windows prerequisites	14		
 8050	17586	false	open	false	1		2016-08-10T13:58:33Z	2016-08-10T14:03:38Z		console.log hangs on long lines	48		
 8051	1495995	false	open	false	0		2016-08-10T14:12:16Z	2016-08-10T14:12:16Z		NodeJS listener bug	96		
+8052	101553	true	open	false	0	0	2016-08-10T17:05:41Z	2016-08-10T17:05:41Z		doc: Add fhinkel to collaborators	29		
+8053	122831	false	open	false	0		2016-08-10T17:24:27Z	2016-08-10T17:24:27Z		Windows Buffer.from v4.x: TypeError: hex is not a function	177		
