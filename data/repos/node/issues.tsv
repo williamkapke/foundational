@@ -18,6 +18,7 @@
 1690	10612009	false	closed	false	7		2015-05-13T08:56:13Z	2016-07-07T20:40:26Z	2016-07-07T20:40:26Z	[dgram]no udp multicast message received when binding on a specific address	278		
 1692	10612009	false	closed	false	3		2015-05-13T10:29:17Z	2016-07-10T15:58:44Z	2016-07-10T15:58:44Z	[dgram]socket.addMembership() does not add membership to every interface	179		
 1704	579	false	open	false	38		2015-05-14T16:49:52Z	2016-08-09T20:43:31Z		Deprecation Policy	79		
+1741	11692818	false	open	false	18		2015-05-20T08:57:29Z	2016-08-10T14:06:26Z		Why does node/io.js hang when printing to the console inside a loop?	155		
 1765	900690	false	closed	false	9		2015-05-22T09:03:01Z	2016-07-06T06:54:28Z	2016-07-06T06:54:28Z	Windows: fs.realpathSync() adds trailing slash for windows share	68		
 1788	1309053	false	open	false	13		2015-05-24T23:32:23Z	2016-06-27T14:45:36Z		Debug process didn't close after finish debugging	103		
 1802	744035	false	open	false	8		2015-05-26T21:22:12Z	2016-07-03T04:55:24Z		url: parse() fails if auth contain a colon or ampersand	160		
@@ -210,6 +211,7 @@
 6679	367936	false	closed	false	19		2016-05-10T18:55:54Z	2016-08-09T10:58:23Z	2016-08-09T10:58:23Z	require has issues when run from /	264		
 6687	935223	false	open	false	3		2016-05-11T05:50:51Z	2016-07-07T01:23:13Z		https.request(): Agent name inconsistency when servername not supplied	193		
 6690	129203	true	closed	false	14		2016-05-11T12:48:05Z	2016-07-12T00:52:48Z	2016-05-25T20:47:55Z	tools: restore change of doc building function signatures to opts hashes	316		
+6695	498775	true	open	false	22		2016-05-11T17:51:09Z	2016-08-10T15:00:40Z		tools: fix lint tap reporter for Jenkins support	115		
 6700	9373002	true	closed	false	17		2016-05-11T22:01:54Z	2016-07-14T23:24:19Z	2016-05-13T13:28:40Z	test: add --repeat option to tools/test.py	142		
 6713	2677165	false	open	false	8		2016-05-12T13:36:49Z	2016-07-14T11:52:10Z		Allow setting maximum age for http Agent's keep-alive 	186		
 6726	718899	false	closed	false	3		2016-05-13T05:02:10Z	2016-07-02T02:40:44Z	2016-07-02T02:40:44Z	Investigate flaky test-stream2-readable-empty-buffer-no-eof on FreeBSD	13		
@@ -360,7 +362,7 @@
 7327	718899	true	closed	false	14		2016-06-16T17:59:31Z	2016-07-12T03:00:04Z	2016-06-22T04:13:36Z	test: refresh the tmpdir before using	51		
 7330	9271436	false	closed	false	4		2016-06-17T14:59:06Z	2016-07-03T12:17:58Z	2016-07-03T12:17:58Z	[Node API] querystring: 'Flag' instead argument+value	135		
 7333	3899684	false	open	false	7		2016-06-17T21:06:49Z	2016-07-06T05:00:37Z		process, doc: discourage use of process.exit() for control flow in docs	183		
-7334	275871	true	closed	false	11		2016-06-18T11:00:47Z	2016-07-13T20:40:49Z	2016-06-21T08:31:13Z	src: use RAII for mutexes and condition variables	25		
+7334	275871	true	closed	false	12		2016-06-18T11:00:47Z	2016-08-10T14:53:10Z	2016-06-21T08:31:13Z	src: use RAII for mutexes and condition variables	25		
 7335	4965093	false	open	false	2		2016-06-18T19:12:27Z	2016-07-02T05:36:07Z		Wrong definition of keepAliveMsecs in http.Agent documentation	85		
 7340	6354455	false	open	false	7		2016-06-19T23:27:24Z	2016-07-04T13:49:39Z		stream docs, writable.cork() and writable.uncork() methods	37		
 7342	1333469	false	closed	false	9		2016-06-20T16:20:30Z	2016-06-30T23:05:52Z	2016-06-30T23:05:52Z	Encoding of child_process.exec.stdout changed from String to Buffer in v6.2.1	191		
@@ -876,7 +878,7 @@
 7896	7308528	false	closed	false	1		2016-07-27T16:55:37Z	2016-07-27T17:25:38Z	2016-07-27T17:25:38Z	I need nodeJS v5 in intel edison to run angular 2 app - issue	52		
 7897	696611	true	open	false	9		2016-07-27T17:02:57Z	2016-08-09T19:46:21Z		fs: warn instead of throwing if no callback	100		
 7898	1005116	true	closed	false	4		2016-07-27T18:12:08Z	2016-07-29T15:31:05Z	2016-07-29T15:31:05Z	benchmark: http parser optimization	194		
-7899	17704638	true	open	false	36		2016-07-27T18:12:17Z	2016-08-10T13:51:08Z		fs: restore javascript realpath implementation	162		
+7899	17704638	true	open	false	37		2016-07-27T18:12:17Z	2016-08-10T14:17:45Z		fs: restore javascript realpath implementation	162		
 7900	739813	true	closed	false	5	1	2016-07-27T22:43:54Z	2016-08-01T17:52:30Z	2016-08-01T17:52:30Z	doc: add CTC meeting minutes 2016-07-27	33		
 7901	54479	false	closed	false	2		2016-07-27T22:59:05Z	2016-07-28T18:50:34Z	2016-07-28T02:15:01Z	Incorrect version of Node package in Yum repo	329		
 7902	110455	false	open	false	2		2016-07-27T23:57:01Z	2016-08-02T05:53:04Z		<=v4: process.hrtime() segfaults on arrays with error-throwing accessors	129		
@@ -949,7 +951,7 @@
 7970	4421720	true	closed	false	3	0	2016-08-03T23:00:06Z	2016-08-05T20:42:09Z	2016-08-05T20:42:09Z	doc: add CTC meeting minutes 2016-07-20	32		
 7971	718899	true	closed	false	8	7	2016-08-03T23:36:02Z	2016-08-05T19:33:09Z	2016-08-05T19:33:09Z	doc: use consistent markdown in README	61		
 7972	439929	true	open	false	2		2016-08-04T00:15:37Z	2016-08-04T16:05:37Z		lib: add initial mapproxy implementation and benchmark	119		
-7973	9373002	false	open	false	4		2016-08-04T01:24:49Z	2016-08-10T10:18:44Z		AIX: parallel/test-stdio-closed and pseudo-tty/no_dropped_stdio failures on new machine	133		
+7973	9373002	false	open	false	5		2016-08-04T01:24:49Z	2016-08-10T14:13:02Z		AIX: parallel/test-stdio-closed and pseudo-tty/no_dropped_stdio failures on new machine	133		
 7974	13586713	false	open	false	2		2016-08-04T06:38:01Z	2016-08-04T17:11:15Z		Children from child_process.fork printing outside of parent after parent process.exit	203		
 7975	101553	true	closed	false	11	6	2016-08-04T07:56:59Z	2016-08-05T20:41:48Z	2016-08-05T20:41:48Z	src: make EnvDelete behave like the delete operator	98		
 7976	1231635	true	open	false	9		2016-08-04T08:35:23Z	2016-08-05T21:18:51Z		doc: improve server.listen() random port	109		
@@ -1016,7 +1018,7 @@
 8037	439929	true	open	false	1		2016-08-09T20:50:54Z	2016-08-09T22:11:08Z		doc: document vm module limitation with timeouts and async code	28		
 8038	4976075	true	open	false	5		2016-08-09T21:30:44Z	2016-08-10T12:12:51Z		Cherry pick 588e15c and c0d4bb8 from upstream V8	61		
 8039	899444	true	open	false	6		2016-08-09T22:47:32Z	2016-08-10T13:26:19Z		test: add an zlib binding addon test	71		
-8040	11638619	true	open	false			2016-08-09T23:32:06Z	2016-08-10T13:28:18Z		Add crypto.timingSafeEqual()	69		
+8040	11638619	true	open	false	7		2016-08-09T23:32:06Z	2016-08-10T14:25:29Z		Add crypto.timingSafeEqual()	69		
 8041	718899	false	open	false	0		2016-08-09T23:45:53Z	2016-08-09T23:45:53Z		Investigate flaky test-timers-blocking-callback on FreeBSD	38		
 8042	3231296	false	closed	false	1		2016-08-10T01:22:11Z	2016-08-10T11:56:32Z	2016-08-10T11:56:32Z	VM: Add source mapping support	163		
 8043	426418	true	open	false			2016-08-10T02:07:44Z	2016-08-10T10:55:56Z		inspector: add support for uncaught exception	60		
@@ -1026,4 +1028,5 @@
 8047	8273423	false	open	false	0		2016-08-10T12:22:42Z	2016-08-10T12:22:42Z		Http Server Bug	74		
 8048	13312166	false	closed	false	1		2016-08-10T12:38:10Z	2016-08-10T13:06:10Z	2016-08-10T13:06:10Z	net-module does't react when pulling of the cable (embedded Linux)	215		
 8049	275871	true	open	false	0	0	2016-08-10T12:44:00Z	2016-08-10T12:44:00Z		doc: update windows prerequisites	14		
-8050	17586	false	open	false	0		2016-08-10T13:58:33Z	2016-08-10T13:58:33Z		console.log hangs on long lines	48		
+8050	17586	false	open	false	1		2016-08-10T13:58:33Z	2016-08-10T14:03:38Z		console.log hangs on long lines	48		
+8051	1495995	false	open	false	0		2016-08-10T14:12:16Z	2016-08-10T14:12:16Z		NodeJS listener bug	96		
