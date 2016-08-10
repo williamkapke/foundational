@@ -230,7 +230,7 @@
 6793	718899	true	closed	false	15		2016-05-16T20:58:19Z	2016-07-11T22:37:42Z	2016-05-24T20:45:06Z	test: improve debug-break-on-uncaught reliability	64		
 6802	13891170	false	open	false	12		2016-05-17T06:00:09Z	2016-07-21T14:44:54Z		REPL crashes after let process;	35		
 6804	52195	true	closed	false	33		2016-05-17T10:55:16Z	2016-07-12T17:31:26Z	2016-05-26T09:29:32Z	dgram: copy the array when using the list variant in send()	96		
-6816	1093990	true	open	false	68		2016-05-17T17:00:53Z	2016-08-10T20:01:15Z		tty: set the handle to blocking mode	79		
+6816	1093990	true	closed	false	69		2016-05-17T17:00:53Z	2016-08-10T22:32:38Z	2016-08-10T22:32:38Z	tty: set the handle to blocking mode	79		
 6821	498775	false	open	false	15		2016-05-17T22:23:23Z	2016-07-22T17:43:07Z		Warning when following instruction in verifying release	62		
 6825	767105	true	closed	false	24		2016-05-18T00:46:45Z	2016-07-12T00:04:31Z	2016-07-01T17:04:26Z	Doc: Adding guide on Timers	28		
 6861	12013667	false	open	false	36		2016-05-18T17:05:18Z	2016-07-16T11:55:29Z		Error: EISDIR illegal operation on directory - Binding.realpath	140		
@@ -298,7 +298,7 @@
 7132	1084056	true	closed	false	10		2016-06-03T12:49:16Z	2016-07-12T07:01:48Z	2016-06-08T13:52:41Z	cluster: don't send messages if no IPC channel	53		
 7137	439929	true	open	false			2016-06-03T19:17:45Z	2016-07-05T00:13:18Z		doc: general improvements to net.md copy	33		
 7149	238531	true	closed	false	6		2016-06-04T04:02:49Z	2016-07-11T22:37:04Z	2016-06-06T17:34:31Z	http: wait for both prefinish/end to keepalive	80		
-7152	988441	true	open	false	32		2016-06-04T16:22:28Z	2016-08-08T15:20:51Z		buffer: hard-deprecate Buffer constructor	137		
+7152	988441	true	open	false			2016-06-04T16:22:28Z	2016-08-10T22:56:25Z		buffer: hard-deprecate Buffer constructor	137		
 7154	718899	true	closed	false	14		2016-06-04T20:16:03Z	2016-07-11T22:54:57Z	2016-06-07T20:33:05Z	debugger: remove obsolete setTimeout	65		
 7157	469365	true	closed	false	28		2016-06-05T01:13:32Z	2016-07-05T18:16:17Z	2016-06-27T20:40:21Z	buffers: speed up swap16/32, add swap64	566		
 7158	9056756	false	closed	false	5		2016-06-05T04:43:28Z	2016-07-11T09:40:17Z	2016-06-05T06:49:21Z	Unable to cross-compile Node v6.2.1 for iOS	283		
@@ -995,13 +995,13 @@
 8011	3967972	true	open	false	11		2016-08-08T09:41:30Z	2016-08-08T17:09:57Z		dgram: prefer strict equality	54		
 8012	3967972	false	open	false	4		2016-08-08T09:55:14Z	2016-08-08T16:34:04Z		Whitelist dotfiles instead of blacklisting?	83		
 8013	115237	true	closed	false	20		2016-08-08T14:05:22Z	2016-08-09T18:54:03Z	2016-08-09T18:54:03Z	util: add inspect.defaultOptions	70		
-8014	79017	true	open	false	3		2016-08-08T15:00:26Z	2016-08-10T17:40:12Z		deps: update v8_inspector	35		
+8014	79017	true	open	false	4		2016-08-08T15:00:26Z	2016-08-10T22:14:12Z		deps: update v8_inspector	35		
 8015	8208733	false	open	false	0		2016-08-08T16:03:22Z	2016-08-08T16:03:22Z		Node Builds successfully on custom ARMv5 but fails to run with Segmentation fault	377		
 8016	3967972	true	open	false	18		2016-08-08T17:00:35Z	2016-08-10T15:24:57Z		meta: whitelist dotfiles in .gitignore	36		
 8017	469365	true	closed	false	4	0	2016-08-08T17:16:27Z	2016-08-10T13:13:09Z	2016-08-10T13:13:09Z	doc: fix cluster message event docs	42		
 8018	1128607	true	open	false	13		2016-08-08T17:45:35Z	2016-08-09T15:02:08Z		stream: avoid caching prepend check	69		
 8019	287917	true	closed	false	5	2	2016-08-08T18:32:23Z	2016-08-10T00:29:50Z	2016-08-10T00:29:50Z	inspector: Fix failing test	55		
-8020	2512748	false	open	false	18		2016-08-08T19:14:02Z	2016-08-10T21:39:39Z		v6.4.0 Release Proposal	1577		
+8020	2512748	false	open	false	19		2016-08-08T19:14:02Z	2016-08-10T22:16:01Z		v6.4.0 Release Proposal	1577		
 8021	426418	true	open	false	7		2016-08-08T19:27:27Z	2016-08-10T16:10:03Z		inspector: fix inspector hung while disconnecting	113		
 8022	899444	true	closed	false	4	3	2016-08-08T20:10:14Z	2016-08-10T13:58:16Z	2016-08-10T13:58:16Z	v6.x backport of 'latin1' encoding	17	899444	2016-08-10T13:58:16Z
 8023	1422781	true	open	false			2016-08-08T20:16:00Z	2016-08-09T11:29:34Z		net: net.isIP() needs scope tests and a review of its type checking	74		
@@ -1014,7 +1014,7 @@
 8030	718899	false	open	false	12		2016-08-09T06:35:15Z	2016-08-10T19:22:35Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-10	490		
 8031	731796	false	closed	false	2		2016-08-09T09:37:29Z	2016-08-09T10:18:32Z	2016-08-09T10:18:32Z	offset out of bounds	37		
 8032	781745	false	open	false	0		2016-08-09T11:54:55Z	2016-08-09T11:54:55Z		BUG: Comparing prototypes of Object	81		
-8033	122434	false	open	false	9		2016-08-09T12:37:54Z	2016-08-10T21:51:34Z		Observe data emitted through stdout and stderr	45		
+8033	122434	false	open	false	10		2016-08-09T12:37:54Z	2016-08-10T22:04:59Z		Observe data emitted through stdout and stderr	45		
 8034	275871	true	open	false	4		2016-08-09T15:25:45Z	2016-08-10T10:00:50Z		build: run cctests as part of test-ci target	4		
 8035	17704638	true	open	false			2016-08-09T15:33:31Z	2016-08-10T06:32:30Z		doc: script with space  spawn example for windows	46		
 8036	446283	true	open	false	0	0	2016-08-09T20:17:43Z	2016-08-09T20:17:43Z		Avoid potential memory leak if realloc fails	437		
@@ -1023,8 +1023,8 @@
 8039	899444	true	open	false	6		2016-08-09T22:47:32Z	2016-08-10T13:26:19Z		test: add an zlib binding addon test	71		
 8040	11638619	true	open	false	17		2016-08-09T23:32:06Z	2016-08-10T20:28:19Z		Add crypto.timingSafeEqual()	69		
 8041	718899	false	open	false	0		2016-08-09T23:45:53Z	2016-08-09T23:45:53Z		Investigate flaky test-timers-blocking-callback on FreeBSD	38		
-8042	3231296	false	closed	false	2		2016-08-10T01:22:11Z	2016-08-10T18:08:59Z	2016-08-10T11:56:32Z	VM: Add source mapping support	163		
-8043	426418	true	open	false			2016-08-10T02:07:44Z	2016-08-10T21:49:32Z		inspector: add support for uncaught exception	60		
+8042	3231296	false	closed	false	3		2016-08-10T01:22:11Z	2016-08-10T22:07:48Z	2016-08-10T11:56:32Z	VM: Add source mapping support	163		
+8043	426418	true	open	false			2016-08-10T02:07:44Z	2016-08-10T22:10:09Z		inspector: add support for uncaught exception	60		
 8044	10459119	false	open	false	0		2016-08-10T07:28:01Z	2016-08-10T07:28:01Z		Doc has mistake: The fs doesn't exist constants of property	291		
 8045	275871	false	open	false	1		2016-08-10T10:47:00Z	2016-08-10T21:54:52Z		darwin,test: flaky test sequential/test-fs-watch	189		
 8046	3584317	false	open	false	0		2016-08-10T11:35:54Z	2016-08-10T11:35:54Z		BUG: Error calculation	27		
@@ -1040,3 +1040,5 @@
 8056	287917	false	open	false	0		2016-08-10T19:26:36Z	2016-08-10T19:26:36Z		"[v8Inspector] Inspector URL should include ""v8only=true"""	24		
 8057	25837	false	open	false	0		2016-08-10T20:31:38Z	2016-08-10T20:31:38Z		Suggestion: http doc should mention special handling for HEAD and 304	122		
 8058	439929	false	open	false	0		2016-08-10T21:25:06Z	2016-08-10T21:25:06Z		CTC membership nomination: @TheAlphaNerd	312		
+8059	718899	true	open	false	0	0	2016-08-10T22:23:47Z	2016-08-10T22:23:47Z		doc: add POST_STATUS_TO_PR info to onboarding doc	39		
+8060	718899	true	open	false	0	0	2016-08-10T22:56:39Z	2016-08-10T22:56:39Z		doc: minor updates to onboarding doc	25		
