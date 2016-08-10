@@ -9,7 +9,7 @@
 729	289174	false	closed	false	8		2015-02-05T20:00:25Z	2016-06-29T11:12:13Z	2016-06-29T11:12:13Z	Converge Tracing/Profiling to Native Set of Hooks	49		
 805	782880	false	open	false	3		2015-02-11T16:10:53Z	2016-07-19T11:38:52Z		strict printing for X509 Extentions	19		
 831	2993861	false	open	false	14		2015-02-13T14:18:23Z	2016-08-06T08:28:42Z		`console` should be safe	58		
-854	172	false	open	false	52		2015-02-15T19:37:43Z	2016-08-10T18:11:13Z		os x: FSEventStreamFlushSync assertions logged to console	100		
+854	172	false	open	false	58		2015-02-15T19:37:43Z	2016-08-10T19:37:47Z		os x: FSEventStreamFlushSync assertions logged to console	100		
 1128	36662	false	open	false	16		2015-03-11T22:48:11Z	2016-08-04T12:39:55Z		feature request: a way to inspect what's in the event loop	137		
 1592	617235	false	open	false	206		2015-05-02T19:25:40Z	2016-07-25T11:24:25Z		gripe: deprecating fs.exists/existsSync	202		
 1634	495647	false	open	false	10		2015-05-06T04:07:08Z	2016-08-03T18:19:05Z		Race condition on history file with multiple REPLs	57		
@@ -137,6 +137,7 @@
 5574	532414	false	open	false	17		2016-03-06T00:25:17Z	2016-07-18T12:02:43Z		Losing keystrokes when using tty.ReadStream() over process.stdin	117		
 5588	17536109	false	open	false	6		2016-03-07T13:45:01Z	2016-07-17T06:58:20Z		Assertion failed: (r) == (0), file src\cares_wrap.cc, line 1262	35		
 5599	711968	true	open	false	6		2016-03-08T15:41:12Z	2016-08-04T03:20:18Z		Bugfix cpplint windows path	103		
+5608	7340772	false	open	false	8		2016-03-08T23:13:41Z	2016-08-10T19:43:29Z		vi style bindings in node interpreter	101		
 5656	495647	true	open	false	6		2016-03-11T07:32:35Z	2016-08-09T22:05:50Z		 Refactor mac installer (built on #2571)	312		
 5659	15952	false	closed	false	22		2016-03-11T16:00:53Z	2016-07-22T20:01:30Z	2016-06-30T17:08:41Z	repl: useGlobal docs and code mismatch	127		
 5687	1699593	false	closed	false	8		2016-03-13T18:58:57Z	2016-08-01T12:36:42Z	2016-03-13T19:12:46Z	Promise.all is not a function	77		
@@ -165,6 +166,7 @@
 6283	79017	false	open	false	2		2016-04-19T17:26:58Z	2016-07-02T10:13:51Z		node_contextify tracking issue	228		
 6286	238531	true	closed	false	13		2016-04-19T20:48:54Z	2016-07-13T17:11:25Z	2016-04-20T17:58:23Z	http: unref socket timer on parser execute	76		
 6301	2552507	false	closed	false	14		2016-04-20T13:18:10Z	2016-06-27T17:32:08Z	2016-06-27T17:32:07Z	Double-free in garbage collector in v5.10.1	1005		
+6306	498775	false	open	false	19		2016-04-20T17:15:56Z	2016-08-10T19:41:58Z		Introduce staging branch for stable release streams	131		
 6313	5678694	true	open	false	10		2016-04-20T20:51:16Z	2016-07-15T04:30:47Z		doc: fix style inconsistencies in code examples	33		
 6332	16402596	true	open	false			2016-04-21T15:57:17Z	2016-07-05T19:58:36Z		debugger: fix stuck debugger when debuggee exits	157		
 6344	718899	true	closed	false	11		2016-04-22T05:35:43Z	2016-07-11T19:57:26Z	2016-04-28T17:58:41Z	crypto: fix error in deprecation message	72		
@@ -228,7 +230,7 @@
 6793	718899	true	closed	false	15		2016-05-16T20:58:19Z	2016-07-11T22:37:42Z	2016-05-24T20:45:06Z	test: improve debug-break-on-uncaught reliability	64		
 6802	13891170	false	open	false	12		2016-05-17T06:00:09Z	2016-07-21T14:44:54Z		REPL crashes after let process;	35		
 6804	52195	true	closed	false	33		2016-05-17T10:55:16Z	2016-07-12T17:31:26Z	2016-05-26T09:29:32Z	dgram: copy the array when using the list variant in send()	96		
-6816	1093990	true	open	false	65		2016-05-17T17:00:53Z	2016-08-08T18:14:45Z		tty: set the handle to blocking mode	80		
+6816	1093990	true	open	false	68		2016-05-17T17:00:53Z	2016-08-10T20:01:15Z		tty: set the handle to blocking mode	79		
 6821	498775	false	open	false	15		2016-05-17T22:23:23Z	2016-07-22T17:43:07Z		Warning when following instruction in verifying release	62		
 6825	767105	true	closed	false	24		2016-05-18T00:46:45Z	2016-07-12T00:04:31Z	2016-07-01T17:04:26Z	Doc: Adding guide on Timers	28		
 6861	12013667	false	open	false	36		2016-05-18T17:05:18Z	2016-07-16T11:55:29Z		Error: EISDIR illegal operation on directory - Binding.realpath	140		
@@ -464,7 +466,7 @@
 7481	696611	true	closed	false	6		2016-06-29T18:07:25Z	2016-07-12T00:11:45Z	2016-07-08T14:45:38Z	net: export isIPv4, isIPv6 directly from cares	50		
 7482	2352663	true	closed	false	10		2016-06-29T18:13:01Z	2016-07-12T06:33:53Z	2016-07-10T15:23:52Z	build: add v8 requirement to test-v8* in Makefile	30		
 7483	696611	true	closed	false	10		2016-06-29T18:21:46Z	2016-07-12T04:30:26Z	2016-07-08T14:52:40Z	tools: remove unnecessary imports and assignments	38		
-7484	275871	false	open	false	43		2016-06-29T18:29:06Z	2016-08-10T12:36:49Z		build: drop support for VS 2013 in v7	96		
+7484	275871	false	open	false	44		2016-06-29T18:29:06Z	2016-08-10T19:15:11Z		build: drop support for VS 2013 in v7	96		
 7485	432351	true	closed	false	5	0	2016-06-29T18:42:27Z	2016-06-30T05:36:59Z	2016-06-30T05:36:59Z	doc: fixing minor typo in AtExit hooks section	53		
 7486	275871	true	closed	false	9		2016-06-29T19:17:29Z	2016-06-30T17:37:51Z	2016-06-30T11:33:16Z	build: drop unconditional openssl dep from cctest	23		
 7487	1356314	true	closed	false	25		2016-06-29T20:16:20Z	2016-08-05T13:32:16Z	2016-08-05T13:32:15Z	build: windows sharedlib support	284		
@@ -929,7 +931,7 @@
 7947	15943089	true	closed	false	11		2016-08-02T10:41:47Z	2016-08-08T16:24:38Z	2016-08-08T16:24:38Z	test: remove internal headers from addons	67		
 7948	718899	false	closed	false	8		2016-08-02T13:49:50Z	2016-08-05T22:02:23Z	2016-08-05T22:02:23Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-03	502		
 7949	1935767	true	closed	false	21		2016-08-02T16:54:51Z	2016-08-05T15:29:33Z	2016-08-05T15:29:33Z	http: specify _implicitHeader in OutgoingMessage	65		
-7950	498775	true	closed	false	12		2016-08-02T18:34:45Z	2016-08-10T18:10:20Z	2016-08-04T16:38:07Z	"Revert ""fs: validate args of truncate functions in js"""	94		
+7950	498775	true	closed	false	15		2016-08-02T18:34:45Z	2016-08-10T19:35:25Z	2016-08-04T16:38:07Z	"Revert ""fs: validate args of truncate functions in js"""	94		
 7951	790842	false	open	false	5		2016-08-02T19:50:12Z	2016-08-02T21:14:02Z		child_process.spawn leaves spawned process hanging	111		
 7952	1922624	false	open	false	8		2016-08-02T22:17:02Z	2016-08-10T18:27:20Z		"Feature request: Inform the ""line"" event on a Readline interface of the type of end-of-line input"	97		
 7953	20340	false	closed	false	3		2016-08-03T00:31:09Z	2016-08-03T22:45:00Z	2016-08-03T22:45:00Z	WebAssembly: bound functions for FFI	134		
@@ -1007,9 +1009,9 @@
 8025	1231635	true	open	false	0	0	2016-08-08T21:54:51Z	2016-08-08T21:54:51Z		Backport doc: server.listen() random port	84		
 8026	439929	false	open	false	0		2016-08-08T22:22:03Z	2016-08-08T22:22:03Z		meta: codename for v6 LTS	103		
 8027	248374	true	open	false	8		2016-08-08T23:39:32Z	2016-08-09T14:35:51Z		build: Provide 'node_module_version' via config.gypi	21		
-8028	5035902	true	open	false	0	0	2016-08-09T01:23:34Z	2016-08-09T01:23:34Z		repl,util: insert carriage returns in output	80		
+8028	5035902	true	open	false	2		2016-08-09T01:23:34Z	2016-08-10T19:18:10Z		repl,util: insert carriage returns in output	72		
 8029	12191975	false	closed	false	4		2016-08-09T04:09:29Z	2016-08-09T20:17:20Z	2016-08-09T20:17:20Z	why putting super-type constructor invocation at the end of current type constructor in Readable/Writable stream	121		
-8030	718899	false	open	false	11		2016-08-09T06:35:15Z	2016-08-10T15:16:55Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-10	484		
+8030	718899	false	open	false	12		2016-08-09T06:35:15Z	2016-08-10T19:22:35Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-10	490		
 8031	731796	false	closed	false	2		2016-08-09T09:37:29Z	2016-08-09T10:18:32Z	2016-08-09T10:18:32Z	offset out of bounds	37		
 8032	781745	false	open	false	0		2016-08-09T11:54:55Z	2016-08-09T11:54:55Z		BUG: Comparing prototypes of Object	81		
 8033	122434	false	open	false	8		2016-08-09T12:37:54Z	2016-08-10T10:14:46Z		Observe data emitted through stdout and stderr	45		
@@ -1019,7 +1021,7 @@
 8037	439929	true	open	false	1		2016-08-09T20:50:54Z	2016-08-09T22:11:08Z		doc: document vm module limitation with timeouts and async code	28		
 8038	4976075	true	open	false	8		2016-08-09T21:30:44Z	2016-08-10T18:11:15Z		Cherry pick 588e15c and c0d4bb8 from upstream V8	61		
 8039	899444	true	open	false	6		2016-08-09T22:47:32Z	2016-08-10T13:26:19Z		test: add an zlib binding addon test	71		
-8040	11638619	true	open	false	14		2016-08-09T23:32:06Z	2016-08-10T17:30:02Z		Add crypto.timingSafeEqual()	69		
+8040	11638619	true	open	false	16		2016-08-09T23:32:06Z	2016-08-10T19:47:23Z		Add crypto.timingSafeEqual()	69		
 8041	718899	false	open	false	0		2016-08-09T23:45:53Z	2016-08-09T23:45:53Z		Investigate flaky test-timers-blocking-callback on FreeBSD	38		
 8042	3231296	false	closed	false	2		2016-08-10T01:22:11Z	2016-08-10T18:08:59Z	2016-08-10T11:56:32Z	VM: Add source mapping support	163		
 8043	426418	true	open	false	3		2016-08-10T02:07:44Z	2016-08-10T16:26:48Z		inspector: add support for uncaught exception	60		
@@ -1028,9 +1030,11 @@
 8046	3584317	false	open	false	0		2016-08-10T11:35:54Z	2016-08-10T11:35:54Z		BUG: Error calculation	27		
 8047	8273423	false	open	false	0		2016-08-10T12:22:42Z	2016-08-10T12:22:42Z		Http Server Bug	74		
 8048	13312166	false	closed	false	1		2016-08-10T12:38:10Z	2016-08-10T13:06:10Z	2016-08-10T13:06:10Z	net-module does't react when pulling of the cable (embedded Linux)	215		
-8049	275871	true	open	false	1		2016-08-10T12:44:00Z	2016-08-10T16:57:13Z		doc: update windows prerequisites	14		
+8049	275871	true	open	false	2		2016-08-10T12:44:00Z	2016-08-10T19:16:21Z		doc: update windows prerequisites	14		
 8050	17586	false	open	false	1		2016-08-10T13:58:33Z	2016-08-10T14:03:38Z		console.log hangs on long lines	48		
 8051	1495995	false	open	false	0		2016-08-10T14:12:16Z	2016-08-10T14:12:16Z		NodeJS listener bug	96		
 8052	101553	true	open	false	0	0	2016-08-10T17:05:41Z	2016-08-10T17:05:41Z		doc: Add fhinkel to collaborators	29		
-8053	122831	false	open	false	0		2016-08-10T17:24:27Z	2016-08-10T17:24:27Z		Windows Buffer.from v4.x: TypeError: hex is not a function	177		
-8054	79017	true	open	false	0	0	2016-08-10T18:37:22Z	2016-08-10T18:37:22Z		Backport V8 5.1 to v6.x	115		
+8053	122831	false	open	false	1		2016-08-10T17:24:27Z	2016-08-10T19:10:41Z		Windows Buffer.from v4.x: TypeError: hex is not a function	190		
+8054	79017	true	open	false	1		2016-08-10T18:37:22Z	2016-08-10T19:20:13Z		Backport V8 5.1 to v6.x	115		
+8055	696611	true	open	false	0	0	2016-08-10T19:22:22Z	2016-08-10T19:22:22Z		tls: copy the Buffer object before using	74		
+8056	287917	false	open	false	0		2016-08-10T19:26:36Z	2016-08-10T19:26:36Z		"[v8Inspector] Inspector URL should include ""v8only=true"""	24		
