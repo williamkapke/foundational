@@ -10,6 +10,7 @@
 805	782880	false	open	false	3		2015-02-11T16:10:53Z	2016-07-19T11:38:52Z		strict printing for X509 Extentions	19		
 831	2993861	false	open	false	14		2015-02-13T14:18:23Z	2016-08-06T08:28:42Z		`console` should be safe	58		
 854	172	false	open	false	58		2015-02-15T19:37:43Z	2016-08-10T19:37:47Z		os x: FSEventStreamFlushSync assertions logged to console	100		
+855	617481	false	open	false	14		2015-02-15T21:57:32Z	2016-08-11T13:52:16Z		vm: references to context inside objects are not === the original context	58		
 1128	36662	false	open	false	16		2015-03-11T22:48:11Z	2016-08-04T12:39:55Z		feature request: a way to inspect what's in the event loop	137		
 1592	617235	false	open	false	206		2015-05-02T19:25:40Z	2016-07-25T11:24:25Z		gripe: deprecating fs.exists/existsSync	202		
 1634	495647	false	open	false	10		2015-05-06T04:07:08Z	2016-08-03T18:19:05Z		Race condition on history file with multiple REPLs	57		
@@ -113,7 +114,7 @@
 4823	1063255	false	closed	false	4		2016-01-22T23:47:02Z	2016-06-30T15:00:02Z	2016-06-30T15:00:02Z	test: possible flaky test-repl.js	88		
 4941	2757844	false	closed	false	4		2016-01-29T05:18:31Z	2016-08-10T18:15:17Z	2016-01-29T08:50:38Z	Error: not implemented when using streams with setInterval	171		
 4956	21203	true	open	false			2016-01-29T19:50:47Z	2016-07-10T14:04:03Z		crypto: remove POINT_CONVERSION_HYBRID	44		
-5025	275871	true	open	false	28		2016-02-01T13:14:18Z	2016-06-30T15:13:23Z		debugger: bind to random port with --debug-port=0	13		
+5025	275871	true	open	false	29		2016-02-01T13:14:18Z	2016-08-11T13:55:34Z		debugger: bind to random port with --debug-port=0	13		
 5094	12488060	false	open	false	6		2016-02-04T23:46:05Z	2016-07-09T02:37:13Z		File names in readable_stream folder are not supported in Windows	333		
 5095	8822573	false	open	false	7		2016-02-05T00:53:51Z	2016-07-04T14:21:24Z		node: unix sockets are slow in case of lots of small buffers	445		
 5098	1898870	true	closed	false	14		2016-02-05T11:10:32Z	2016-07-25T11:17:50Z	2016-03-22T05:24:37Z	fs: make 'fs.exists' follow the error first callback convention	21		
@@ -466,7 +467,7 @@
 7481	696611	true	closed	false	6		2016-06-29T18:07:25Z	2016-07-12T00:11:45Z	2016-07-08T14:45:38Z	net: export isIPv4, isIPv6 directly from cares	50		
 7482	2352663	true	closed	false	10		2016-06-29T18:13:01Z	2016-07-12T06:33:53Z	2016-07-10T15:23:52Z	build: add v8 requirement to test-v8* in Makefile	30		
 7483	696611	true	closed	false	10		2016-06-29T18:21:46Z	2016-07-12T04:30:26Z	2016-07-08T14:52:40Z	tools: remove unnecessary imports and assignments	38		
-7484	275871	false	open	false	45		2016-06-29T18:29:06Z	2016-08-10T22:01:54Z		build: drop support for VS 2013 in v7	96		
+7484	275871	false	open	false	46		2016-06-29T18:29:06Z	2016-08-11T13:25:56Z		build: drop support for VS 2013 in v7	96		
 7485	432351	true	closed	false	5	0	2016-06-29T18:42:27Z	2016-06-30T05:36:59Z	2016-06-30T05:36:59Z	doc: fixing minor typo in AtExit hooks section	53		
 7486	275871	true	closed	false	9		2016-06-29T19:17:29Z	2016-06-30T17:37:51Z	2016-06-30T11:33:16Z	build: drop unconditional openssl dep from cctest	23		
 7487	1356314	true	closed	false	25		2016-06-29T20:16:20Z	2016-08-05T13:32:16Z	2016-08-05T13:32:15Z	build: windows sharedlib support	284		
@@ -546,7 +547,7 @@
 7561	1847934	true	closed	false	7		2016-07-06T12:15:00Z	2016-08-10T09:35:11Z	2016-08-08T13:28:03Z	"Clarify ""fs.readFile"", ""fs.appendFile"", ""fs.writeFile"" doc…"	22		
 7562	291301	true	closed	false	11		2016-07-06T12:32:10Z	2016-07-08T17:09:26Z	2016-07-08T14:49:21Z	New Buffer API backport to v4.x (staging branch)	204		
 7563	9373002	false	closed	false	12		2016-07-06T15:15:31Z	2016-07-18T21:43:27Z	2016-07-18T21:43:27Z	AIX - failure in parallel/test-cluster-disconnect-handles	80		
-7564	9373002	true	open	false	12		2016-07-06T15:59:12Z	2016-08-05T14:40:05Z		src: temporary malloc fix for AIX	188		
+7564	9373002	true	open	false	13		2016-07-06T15:59:12Z	2016-08-11T13:19:44Z		src: temporary malloc fix for AIX	188		
 7565	275871	false	closed	false	8		2016-07-06T17:00:39Z	2016-07-23T14:40:11Z	2016-07-11T17:16:01Z	discuss: future of AsyncWrap	165		
 7566	115237	false	closed	false	3		2016-07-06T17:30:07Z	2016-08-09T18:53:55Z	2016-08-09T18:53:55Z	Changing default options for util.inspect	59		
 7567	17704638	true	open	false	0	0	2016-07-06T18:13:33Z	2016-07-06T18:13:33Z		doc: add bartosz sosnowski to colaborators	2		
@@ -826,7 +827,7 @@
 7841	15943089	false	closed	false	1		2016-07-22T17:18:46Z	2016-07-24T08:34:10Z	2016-07-24T08:34:10Z	V8 backports changing the v8 patch level in v6.x 	100		
 7842	696611	true	open	false	4		2016-07-22T18:36:30Z	2016-08-10T16:56:39Z		doc: include the optional options parameter	41		
 7843	855219	false	open	false	0		2016-07-22T19:17:46Z	2016-07-22T19:17:46Z		deps: fix TODO in tools/icu/README.md	12		
-7844	855219	false	open	false	5		2016-07-22T19:21:27Z	2016-08-09T22:09:59Z		deps: Intl: ICU 58 bump	32		
+7844	855219	false	open	false	12		2016-07-22T19:21:27Z	2016-08-11T13:31:07Z		deps: Intl: ICU 58 bump	32		
 7845	1084056	true	open	false	10		2016-07-22T22:02:05Z	2016-07-27T06:29:42Z		test: use common platform helpers everywhere	63		
 7846	498775	true	closed	false	37		2016-07-22T23:46:39Z	2016-08-10T16:45:13Z	2016-08-04T22:15:32Z	Revert fs changes	246		
 7847	54666	true	open	false	8		2016-07-23T03:26:28Z	2016-07-26T17:05:20Z		doc: improve https module documentation	57		
@@ -1001,7 +1002,7 @@
 8017	469365	true	closed	false	4	0	2016-08-08T17:16:27Z	2016-08-10T13:13:09Z	2016-08-10T13:13:09Z	doc: fix cluster message event docs	42		
 8018	1128607	true	open	false	13		2016-08-08T17:45:35Z	2016-08-09T15:02:08Z		stream: avoid caching prepend check	69		
 8019	287917	true	closed	false	5	2	2016-08-08T18:32:23Z	2016-08-10T00:29:50Z	2016-08-10T00:29:50Z	inspector: Fix failing test	55		
-8020	2512748	false	open	false	20		2016-08-08T19:14:02Z	2016-08-10T23:08:38Z		v6.4.0 Release Proposal	1577		
+8020	2512748	false	open	false	21		2016-08-08T19:14:02Z	2016-08-11T13:44:45Z		v6.4.0 Release Proposal	1577		
 8021	426418	true	open	false	7		2016-08-08T19:27:27Z	2016-08-10T16:10:03Z		inspector: fix inspector hung while disconnecting	113		
 8022	899444	true	closed	false	4	3	2016-08-08T20:10:14Z	2016-08-10T13:58:16Z	2016-08-10T13:58:16Z	v6.x backport of 'latin1' encoding	17	899444	2016-08-10T13:58:16Z
 8023	1422781	true	open	false			2016-08-08T20:16:00Z	2016-08-09T11:29:34Z		net: net.isIP() needs scope tests and a review of its type checking	74		
@@ -1019,7 +1020,7 @@
 8035	17704638	true	open	false			2016-08-09T15:33:31Z	2016-08-10T06:32:30Z		doc: script with space  spawn example for windows	46		
 8036	446283	true	open	false	0	0	2016-08-09T20:17:43Z	2016-08-09T20:17:43Z		Avoid potential memory leak if realloc fails	437		
 8037	439929	true	open	false	1		2016-08-09T20:50:54Z	2016-08-09T22:11:08Z		doc: document vm module limitation with timeouts and async code	28		
-8038	4976075	true	open	false	11		2016-08-09T21:30:44Z	2016-08-10T23:19:19Z		Cherry pick 588e15c and c0d4bb8 from upstream V8	61		
+8038	4976075	true	open	false	12		2016-08-09T21:30:44Z	2016-08-11T13:28:14Z		Cherry pick 588e15c and c0d4bb8 from upstream V8	61		
 8039	899444	true	open	false	6		2016-08-09T22:47:32Z	2016-08-10T13:26:19Z		test: add an zlib binding addon test	71		
 8040	11638619	true	open	false	21		2016-08-09T23:32:06Z	2016-08-11T01:02:26Z		Add crypto.timingSafeEqual()	69		
 8041	718899	false	open	false	0		2016-08-09T23:45:53Z	2016-08-09T23:45:53Z		Investigate flaky test-timers-blocking-callback on FreeBSD	38		
@@ -1043,6 +1044,6 @@
 8059	718899	true	open	false	4		2016-08-10T22:23:47Z	2016-08-11T01:15:09Z		doc: add POST_STATUS_TO_PR info to onboarding doc	39		
 8060	718899	true	open	false	0	0	2016-08-10T22:56:39Z	2016-08-10T22:56:39Z		doc: minor updates to onboarding doc	25		
 8061	718899	true	open	false	6		2016-08-10T23:48:21Z	2016-08-11T05:56:57Z		test: add test for debug usage message	38		
-8062	718899	true	closed	false	5		2016-08-11T00:15:01Z	2016-08-11T07:08:24Z	2016-08-11T06:19:32Z	doc: move orangemocha to collaborators list	70		
+8062	718899	true	closed	false	7		2016-08-11T00:15:01Z	2016-08-11T13:32:37Z	2016-08-11T06:19:32Z	doc: move orangemocha to collaborators list	70		
 8063	17704638	true	open	false	1		2016-08-11T07:08:18Z	2016-08-11T11:00:03Z		child_process, win: fix shell spawn with AutoRun	84		
 8064	84737	false	open	false	3		2016-08-11T09:33:57Z	2016-08-11T12:03:55Z		`url.format()` encodes '#' inconsistently	83		
