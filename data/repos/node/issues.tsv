@@ -309,7 +309,7 @@
 7132	1084056	true	closed	false	10		2016-06-03T12:49:16Z	2016-07-12T07:01:48Z	2016-06-08T13:52:41Z	cluster: don't send messages if no IPC channel	53		
 7137	439929	true	open	false			2016-06-03T19:17:45Z	2016-07-05T00:13:18Z		doc: general improvements to net.md copy	33		
 7149	238531	true	closed	false	6		2016-06-04T04:02:49Z	2016-07-11T22:37:04Z	2016-06-06T17:34:31Z	http: wait for both prefinish/end to keepalive	80		
-7152	988441	true	open	false			2016-06-04T16:22:28Z	2016-08-11T19:44:48Z		buffer: hard-deprecate Buffer constructor	137		
+7152	988441	true	open	false			2016-06-04T16:22:28Z	2016-08-16T13:18:57Z		buffer: hard-deprecate Buffer constructor	133		
 7154	718899	true	closed	false	14		2016-06-04T20:16:03Z	2016-07-11T22:54:57Z	2016-06-07T20:33:05Z	debugger: remove obsolete setTimeout	65		
 7157	469365	true	closed	false	28		2016-06-05T01:13:32Z	2016-07-05T18:16:17Z	2016-06-27T20:40:21Z	buffers: speed up swap16/32, add swap64	566		
 7158	9056756	false	closed	false	5		2016-06-05T04:43:28Z	2016-07-11T09:40:17Z	2016-06-05T06:49:21Z	Unable to cross-compile Node v6.2.1 for iOS	283		
@@ -848,7 +848,7 @@
 7852	886388	false	closed	false	11		2016-07-23T18:24:17Z	2016-07-27T12:36:41Z	2016-07-25T04:16:55Z	Removing listener that was added multiple times	68		
 7853	516780	false	open	false	3		2016-07-23T19:28:07Z	2016-07-25T03:33:36Z		node --debug takes a really long time to respond to websockets	180		
 7854	1084056	true	closed	false	10		2016-07-23T20:09:19Z	2016-08-02T14:08:28Z	2016-08-02T14:08:28Z	test: fix test-vm-sigint flakiness	68		
-7855	1422781	true	open	false			2016-07-23T20:38:28Z	2016-08-16T03:50:28Z		dgram: setMulticastInterface() outgoing interface selection	72		
+7855	1422781	true	open	false			2016-07-23T20:38:28Z	2016-08-16T13:41:24Z		dgram: setMulticastInterface() outgoing interface selection	72		
 7856	373545	true	open	false	10		2016-07-23T20:49:58Z	2016-08-12T12:55:52Z		fs: Fix default params for fs.write	81		
 7857	718899	true	closed	false	26		2016-07-23T21:15:43Z	2016-07-31T20:33:10Z	2016-07-31T20:33:10Z	test: fix flaky test-tls-wrap-timeout	59		
 7858	3524633	false	closed	false	18		2016-07-24T00:23:34Z	2016-08-08T12:55:45Z	2016-07-25T15:53:16Z	Add fsevents to NodeJS	211		
@@ -1003,7 +1003,7 @@
 8008	368238	false	closed	false	5		2016-08-07T19:17:38Z	2016-08-08T10:45:55Z	2016-08-08T10:45:55Z	tls support requires dots at the end of the Alternative Subject Names	159		
 8009	1443911	true	closed	false	5		2016-08-08T07:22:24Z	2016-08-09T19:24:28Z	2016-08-09T19:24:28Z	doc: remove spurious new line in CHANGELOG_V6.md	35		
 8010	1898870	true	open	false	6		2016-08-08T09:39:54Z	2016-08-10T21:30:03Z		gitignore: add .idea folder to .gitignore	52		
-8011	3967972	true	open	false	13		2016-08-08T09:41:30Z	2016-08-16T09:07:24Z		dgram: prefer strict equality	54		
+8011	3967972	true	open	false	13		2016-08-08T09:41:30Z	2016-08-16T13:31:53Z		dgram: prefer strict equality	54		
 8012	3967972	false	open	false	4		2016-08-08T09:55:14Z	2016-08-08T16:34:04Z		Whitelist dotfiles instead of blacklisting?	83		
 8013	115237	true	closed	false	20		2016-08-08T14:05:22Z	2016-08-09T18:54:03Z	2016-08-09T18:54:03Z	util: add inspect.defaultOptions	70		
 8014	79017	true	closed	false	6	0	2016-08-08T15:00:26Z	2016-08-11T18:49:18Z	2016-08-11T18:49:18Z	deps: update v8_inspector	35	79017	2016-08-11T18:49:18Z
@@ -1107,11 +1107,11 @@
 8112	54666	true	open	false	3		2016-08-15T17:52:25Z	2016-08-16T10:42:41Z		net: misc changes	46		
 8113	6827281	false	open	false	2		2016-08-15T18:18:17Z	2016-08-16T06:50:57Z		I'm only getting one authorizationError in an HTTPS request when there are at least 2 	78		
 8114	12488060	true	open	false	5		2016-08-15T19:23:48Z	2016-08-16T05:22:42Z		src: fix build break for !NODE_USE_V8_PLATFORM	47		
-8115	1084056	true	open	false	5		2016-08-15T20:28:07Z	2016-08-16T11:03:30Z		test: fix flaky fs-watch tests	89		
+8115	1084056	true	open	false			2016-08-15T20:28:07Z	2016-08-16T13:29:20Z		test: fix flaky fs-watch tests	89		
 8116	8240505	false	closed	false	4		2016-08-15T22:24:05Z	2016-08-16T07:08:13Z	2016-08-16T07:08:13Z	Cluster listening on null:port	254		
 8117	7349694	false	closed	false	2		2016-08-15T22:50:47Z	2016-08-16T01:48:49Z	2016-08-16T01:48:49Z	NPM run test (Karma) fails always in Windows	109		
 8118	5886475	false	open	false	0		2016-08-16T06:20:29Z	2016-08-16T06:20:29Z		Is there a place to download node.js shared library(libnode.so) for each platform?	61		
-8119	7992089	false	open	false	4		2016-08-16T07:00:25Z	2016-08-16T09:56:00Z		Math.log() doing nothing and making node exit silently	26		
-8120	317464	false	open	false	2		2016-08-16T09:32:41Z	2016-08-16T12:02:39Z		Cross-repo metadata for fixes in dependencies	110		
+8119	7992089	false	open	false	5		2016-08-16T07:00:25Z	2016-08-16T13:04:38Z		Math.log() doing nothing and making node exit silently	26		
+8120	317464	false	open	false	3		2016-08-16T09:32:41Z	2016-08-16T13:30:20Z		Cross-repo metadata for fixes in dependencies	110		
 8121	18102267	false	open	false	0		2016-08-16T09:51:39Z	2016-08-16T09:51:39Z		Array.push in forEach not working respectively	84		
-8122	677994	true	open	false	0	0	2016-08-16T12:57:15Z	2016-08-16T12:57:15Z		doc: fix broken links in archive changelog	42		
+8122	677994	true	open	false	1		2016-08-16T12:57:15Z	2016-08-16T13:33:34Z		doc: fix broken links in archive changelog	42		
