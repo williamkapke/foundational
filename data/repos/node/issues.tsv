@@ -36,7 +36,7 @@
 2329	137545	true	open	false	15		2015-08-08T13:37:47Z	2016-08-07T12:44:00Z		[addons] Implement new init function argument dispatch	565		
 2333	115237	false	open	false	20		2015-08-09T06:04:13Z	2016-07-12T19:05:28Z		tty: stdio properties are undefined inside exec() child	45		
 2395	439929	true	closed	false	11	0	2015-08-16T00:23:48Z	2016-08-02T04:18:14Z	2016-08-02T04:18:14Z	http: correct fencepost error when freeing socket	60		
-2398	439929	false	open	false	37		2015-08-16T01:20:43Z	2016-08-16T14:13:14Z		DTLS Discussion	54		
+2398	439929	false	open	false	38		2015-08-16T01:20:43Z	2016-08-16T15:25:47Z		DTLS Discussion	54		
 2498	696611	true	closed	false	22		2015-08-22T20:07:00Z	2016-07-21T22:32:14Z	2016-07-21T22:32:14Z	fs: do basic arg validation of truncate in js	25		
 2521	885648	true	open	false	30		2015-08-24T08:36:14Z	2016-06-30T04:22:37Z		added CSI (\x9b) as additionally allowable escape	135		
 2534	4405297	true	open	false	87		2015-08-25T01:59:16Z	2016-08-08T12:58:00Z		http: fixed socket destruction, timeout and leaking	144		
@@ -92,7 +92,7 @@
 3959	13335501	false	closed	false	100		2015-11-21T20:40:18Z	2016-08-11T18:12:17Z	2016-08-09T22:47:09Z	Potential Licensing issues with npm	632		
 3971	275871	false	closed	false	5		2015-11-22T20:01:21Z	2016-07-15T19:25:11Z	2016-07-15T19:25:11Z	repl: show exception for out-of-range unicode escape sequence	25		
 3973	15373625	false	closed	false	5		2015-11-23T01:02:10Z	2016-06-30T13:51:42Z	2016-06-30T13:51:42Z	Silent crash when sending socket to child_process	216		
-4039	4520820	true	open	false			2015-11-26T17:23:49Z	2016-08-16T14:26:06Z		net: refactor Server.prototype.listen	226		
+4039	4520820	true	open	false			2015-11-26T17:23:49Z	2016-08-16T15:31:31Z		net: refactor Server.prototype.listen	226		
 4111	1524333	true	open	false	29		2015-12-02T00:40:22Z	2016-07-20T16:10:21Z		Windows post-install screen additional build tools messaging	155		
 4175	16188318	false	open	false	24		2015-12-07T10:29:32Z	2016-08-08T11:40:46Z		Node uses an hardcoded list of certificate authorities	240		
 4179	6068824	false	closed	false	15		2015-12-07T22:13:03Z	2016-08-15T20:12:24Z	2016-05-09T12:05:23Z	util.inherits does not establish prototype chain	176		
@@ -173,7 +173,7 @@
 6274	275871	true	closed	false	35		2016-04-19T08:05:44Z	2016-08-08T20:24:50Z	2016-07-05T14:13:29Z	test: add openssl add-on test	60		
 6283	79017	false	open	false	2		2016-04-19T17:26:58Z	2016-07-02T10:13:51Z		node_contextify tracking issue	228		
 6286	238531	true	closed	false	13		2016-04-19T20:48:54Z	2016-07-13T17:11:25Z	2016-04-20T17:58:23Z	http: unref socket timer on parser execute	76		
-6300	3899684	false	open	false	8		2016-04-20T13:03:08Z	2016-08-16T14:36:38Z		discuss: object serializer/deserializer + transferables	222		
+6300	3899684	false	open	false	9		2016-04-20T13:03:08Z	2016-08-16T15:07:55Z		discuss: object serializer/deserializer + transferables	222		
 6301	2552507	false	closed	false	14		2016-04-20T13:18:10Z	2016-06-27T17:32:08Z	2016-06-27T17:32:07Z	Double-free in garbage collector in v5.10.1	1005		
 6306	498775	false	open	false	19		2016-04-20T17:15:56Z	2016-08-10T19:41:58Z		Introduce staging branch for stable release streams	131		
 6313	5678694	true	open	false	10		2016-04-20T20:51:16Z	2016-07-15T04:30:47Z		doc: fix style inconsistencies in code examples	33		
@@ -189,7 +189,7 @@
 6398	79017	true	closed	false			2016-04-26T13:52:47Z	2016-08-01T15:17:23Z	2016-05-10T13:13:45Z	deps: backport e093a04, 09db540 from upstream V8	114		
 6404	238531	true	closed	false	10		2016-04-26T20:32:50Z	2016-07-12T05:11:58Z	2016-04-27T04:41:45Z	net: introduce `Socket#connecting` property	77		
 6406	176984	true	closed	false	8		2016-04-27T00:32:49Z	2016-07-11T20:01:18Z	2016-04-30T10:43:12Z	build: use shorthand lint target from test	68		
-6413	439929	true	open	false	50		2016-04-27T05:29:39Z	2016-08-12T16:27:43Z		"Revert ""fs: add a temporary fix for re-evaluation support"""	37		
+6413	439929	true	open	false	52		2016-04-27T05:29:39Z	2016-08-16T15:50:22Z		"Revert ""fs: add a temporary fix for re-evaluation support"""	37		
 6429	45469	false	closed	false	29		2016-04-27T21:44:57Z	2016-06-27T17:29:28Z	2016-06-27T17:29:28Z	deprecate --use_strict	48		
 6434	677518	false	open	false	6		2016-04-27T23:17:09Z	2016-08-12T21:59:01Z		Module.globalPaths under Windows	68		
 6436	5438027	true	closed	false	38		2016-04-28T01:22:41Z	2016-07-12T12:40:59Z	2016-06-29T09:14:33Z	3x faster setImmediate	110		
@@ -355,7 +355,7 @@
 7267	81942	true	closed	false	12		2016-06-10T16:43:18Z	2016-07-12T16:55:46Z	2016-06-17T15:05:02Z	punycode: update to v2.0.0	17		
 7269	11139560	false	closed	false	4		2016-06-10T22:36:13Z	2016-07-06T16:02:08Z	2016-07-06T16:02:08Z	node docs issue in child_process	112		
 7271	287917	true	closed	false	14	22	2016-06-11T00:49:13Z	2016-07-15T00:03:42Z	2016-07-15T00:03:42Z	inspector: Put connect and disconnect events into message queue	63		
-7275	1622515	true	closed	false	33		2016-06-12T08:58:30Z	2016-08-06T14:43:59Z	2016-08-06T14:43:59Z	repl: Add editor mode support	85		
+7275	1622515	true	closed	false	33		2016-06-12T08:58:30Z	2016-08-16T15:20:28Z	2016-08-06T14:43:59Z	repl: Add editor mode support	85		
 7277	432351	true	closed	false	8		2016-06-12T16:37:19Z	2016-07-12T00:33:51Z	2016-06-17T18:17:41Z	src: move and update comment about 'node.js' compilation.	90		
 7278	2329683	false	closed	false	10		2016-06-12T17:14:36Z	2016-06-29T01:57:32Z	2016-06-29T01:57:31Z	Change in stream behaviour in Node 4.4.5	192		
 7286	772595	false	closed	false	5		2016-06-13T14:17:13Z	2016-07-01T15:58:59Z	2016-06-13T16:15:12Z	node-gyp problem building with vs2015 w/ update3	121		
@@ -448,7 +448,7 @@
 7445	733877	false	open	false	0		2016-06-27T18:32:43Z	2016-06-27T18:32:43Z		Node.js MacOSX Installer problems with npm	455		
 7446	1018196	false	closed	false	4		2016-06-27T18:36:26Z	2016-08-06T18:16:37Z	2016-06-27T19:47:01Z	http fetch api	49		
 7447	715626	false	closed	false	9		2016-06-27T19:09:46Z	2016-06-30T02:05:37Z	2016-06-28T18:46:28Z	path.dirname() doesn't work with Windows' URNs	62		
-7448	439929	true	open	false	32		2016-06-27T20:02:10Z	2016-07-27T21:08:14Z		url: adding WHATWG URL support	105		
+7448	439929	true	open	false	34		2016-06-27T20:02:10Z	2016-08-16T15:52:23Z		url: adding WHATWG URL support	105		
 7449	10435209	true	closed	false	13		2016-06-27T20:19:48Z	2016-07-04T14:51:16Z	2016-07-04T14:51:15Z	Fix documentation of process.argv[0]	34		
 7450	287917	true	closed	false	4	8	2016-06-27T23:46:29Z	2016-06-29T23:04:00Z	2016-06-29T23:03:59Z	inspector: Do cleanups before notifying callback	135		
 7451	498775	true	closed	false	16	2	2016-06-28T00:12:14Z	2016-06-29T23:06:16Z	2016-06-29T23:06:16Z	[v4.x backport] test: run v8 tests from node tree	130	498775	2016-06-29T23:06:16Z
@@ -1094,7 +1094,7 @@
 8098	718899	true	open	false	4		2016-08-14T03:48:25Z	2016-08-15T19:04:17Z		test: use strict equality in regression test	38		
 8099	2352663	true	open	false	3		2016-08-14T09:33:56Z	2016-08-15T09:03:48Z		deps: cherry-pick de5aaad from V8's upstream	86		
 8100	899444	true	open	false	2		2016-08-14T17:22:09Z	2016-08-16T09:51:25Z		fs,module: add module-loader-only realpath cache	112		
-8101	6517897	true	open	false			2016-08-14T19:58:27Z	2016-08-16T00:06:34Z		net, http: allow setting socket connection timeout for http request	69		
+8101	6517897	true	open	false			2016-08-14T19:58:27Z	2016-08-16T15:03:19Z		net, http: allow setting socket connection timeout for http request	69		
 8102	6850510	false	open	false	8		2016-08-14T20:25:09Z	2016-08-15T19:52:48Z		False successfully end of request	344		
 8103	110455	true	open	false	1		2016-08-14T21:45:22Z	2016-08-14T22:04:14Z		http: fix legacy http.Client instanceof	205		
 8104	54666	true	open	false	4		2016-08-14T22:28:11Z	2016-08-15T15:56:40Z		http: remove deprecated Client interface	53		
@@ -1102,18 +1102,18 @@
 8106	275871	true	open	false	2		2016-08-15T10:00:49Z	2016-08-15T15:59:30Z		src: make debugger listen on 127.0.0.1 by default	61		
 8107	609579	true	open	false	6		2016-08-15T10:01:27Z	2016-08-15T17:41:41Z		doc: fix typo	40		
 8108	275871	false	open	false	0		2016-08-15T11:22:49Z	2016-08-15T11:22:49Z		tls: misparsed URI subject alternative name?	189		
-8109	1622515	true	open	false	10		2016-08-15T12:23:48Z	2016-08-16T04:13:26Z		readline: key interval delay for \r & \n	50		
+8109	1622515	true	open	false			2016-08-15T12:23:48Z	2016-08-16T15:08:12Z		readline: key interval delay for \r & \n	50		
 8110	121040	false	open	false	3		2016-08-15T12:35:24Z	2016-08-15T14:25:13Z		Need upgrade package npm to v3.10.7 for Visual Studio 2015 update 3	22		
 8111	13312166	false	open	false	13		2016-08-15T13:00:00Z	2016-08-16T10:11:16Z		keepAlive doesn't work on Ubuntu	103		
-8112	54666	true	open	false	3		2016-08-15T17:52:25Z	2016-08-16T10:42:41Z		net: misc changes	46		
+8112	54666	true	open	false	3		2016-08-15T17:52:25Z	2016-08-16T15:37:44Z		net: misc changes	46		
 8113	6827281	false	open	false	2		2016-08-15T18:18:17Z	2016-08-16T06:50:57Z		I'm only getting one authorizationError in an HTTPS request when there are at least 2 	78		
 8114	12488060	true	open	false	5		2016-08-15T19:23:48Z	2016-08-16T05:22:42Z		src: fix build break for !NODE_USE_V8_PLATFORM	47		
-8115	1084056	true	open	false			2016-08-15T20:28:07Z	2016-08-16T13:29:20Z		test: fix flaky fs-watch tests	89		
+8115	1084056	true	open	false	9		2016-08-15T20:28:07Z	2016-08-16T15:35:15Z		test: fix flaky fs-watch tests	89		
 8116	8240505	false	closed	false	4		2016-08-15T22:24:05Z	2016-08-16T07:08:13Z	2016-08-16T07:08:13Z	Cluster listening on null:port	254		
 8117	7349694	false	closed	false	2		2016-08-15T22:50:47Z	2016-08-16T01:48:49Z	2016-08-16T01:48:49Z	NPM run test (Karma) fails always in Windows	109		
 8118	5886475	false	open	false	0		2016-08-16T06:20:29Z	2016-08-16T06:20:29Z		Is there a place to download node.js shared library(libnode.so) for each platform?	61		
 8119	7992089	false	open	false	5		2016-08-16T07:00:25Z	2016-08-16T13:04:38Z		Math.log() doing nothing and making node exit silently	26		
 8120	317464	false	open	false	3		2016-08-16T09:32:41Z	2016-08-16T13:30:20Z		Cross-repo metadata for fixes in dependencies	110		
 8121	18102267	false	open	false	0		2016-08-16T09:51:39Z	2016-08-16T09:51:39Z		Array.push in forEach not working respectively	84		
-8122	677994	true	open	false	1		2016-08-16T12:57:15Z	2016-08-16T13:33:34Z		doc: fix broken links in archive changelog	42		
+8122	677994	true	open	false	2		2016-08-16T12:57:15Z	2016-08-16T15:35:48Z		doc: fix broken links in archive changelog	42		
 8123	10496755	false	open	false	0		2016-08-16T14:56:47Z	2016-08-16T14:56:47Z		Windows 10 NPM error	111		
