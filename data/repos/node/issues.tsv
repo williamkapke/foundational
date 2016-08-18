@@ -177,7 +177,7 @@
 6286	238531	true	closed	false	13		2016-04-19T20:48:54Z	2016-07-13T17:11:25Z	2016-04-20T17:58:23Z	http: unref socket timer on parser execute	76		
 6300	3899684	false	open	false	9		2016-04-20T13:03:08Z	2016-08-16T15:07:55Z		discuss: object serializer/deserializer + transferables	222		
 6301	2552507	false	closed	false	14		2016-04-20T13:18:10Z	2016-06-27T17:32:08Z	2016-06-27T17:32:07Z	Double-free in garbage collector in v5.10.1	1005		
-6306	498775	false	open	false	21		2016-04-20T17:15:56Z	2016-08-18T16:47:16Z		Introduce staging branch for stable release streams	131		
+6306	498775	false	open	false	21		2016-04-20T17:15:56Z	2016-08-18T17:29:57Z		Introduce staging branch for stable release streams	131		
 6313	5678694	true	open	false	10		2016-04-20T20:51:16Z	2016-07-15T04:30:47Z		doc: fix style inconsistencies in code examples	33		
 6332	16402596	true	open	false			2016-04-21T15:57:17Z	2016-07-05T19:58:36Z		debugger: fix stuck debugger when debuggee exits	157		
 6344	718899	true	closed	false	11		2016-04-22T05:35:43Z	2016-07-11T19:57:26Z	2016-04-28T17:58:41Z	crypto: fix error in deprecation message	72		
@@ -313,7 +313,7 @@
 7132	1084056	true	closed	false	10		2016-06-03T12:49:16Z	2016-07-12T07:01:48Z	2016-06-08T13:52:41Z	cluster: don't send messages if no IPC channel	53		
 7137	439929	true	open	false			2016-06-03T19:17:45Z	2016-07-05T00:13:18Z		doc: general improvements to net.md copy	33		
 7149	238531	true	closed	false	6		2016-06-04T04:02:49Z	2016-07-11T22:37:04Z	2016-06-06T17:34:31Z	http: wait for both prefinish/end to keepalive	80		
-7152	988441	true	open	false	49		2016-06-04T16:22:28Z	2016-08-18T16:05:48Z		buffer: hard-deprecate Buffer constructor	133		
+7152	988441	true	open	false	50		2016-06-04T16:22:28Z	2016-08-18T17:45:54Z		buffer: hard-deprecate Buffer constructor	133		
 7154	718899	true	closed	false	14		2016-06-04T20:16:03Z	2016-07-11T22:54:57Z	2016-06-07T20:33:05Z	debugger: remove obsolete setTimeout	65		
 7157	469365	true	closed	false	28		2016-06-05T01:13:32Z	2016-07-05T18:16:17Z	2016-06-27T20:40:21Z	buffers: speed up swap16/32, add swap64	566		
 7158	9056756	false	closed	false	5		2016-06-05T04:43:28Z	2016-07-11T09:40:17Z	2016-06-05T06:49:21Z	Unable to cross-compile Node v6.2.1 for iOS	283		
@@ -853,7 +853,7 @@
 7852	886388	false	closed	false	11		2016-07-23T18:24:17Z	2016-07-27T12:36:41Z	2016-07-25T04:16:55Z	Removing listener that was added multiple times	68		
 7853	516780	false	open	false	3		2016-07-23T19:28:07Z	2016-07-25T03:33:36Z		node --debug takes a really long time to respond to websockets	180		
 7854	1084056	true	closed	false	10		2016-07-23T20:09:19Z	2016-08-02T14:08:28Z	2016-08-02T14:08:28Z	test: fix test-vm-sigint flakiness	68		
-7855	1422781	true	open	false			2016-07-23T20:38:28Z	2016-08-16T13:41:24Z		dgram: setMulticastInterface() outgoing interface selection	72		
+7855	1422781	true	open	false	17		2016-07-23T20:38:28Z	2016-08-18T17:46:23Z		dgram: setMulticastInterface() outgoing interface selection	72		
 7856	373545	true	open	false	11		2016-07-23T20:49:58Z	2016-08-16T21:20:09Z		fs: Fix default params for fs.write	81		
 7857	718899	true	closed	false	26		2016-07-23T21:15:43Z	2016-07-31T20:33:10Z	2016-07-31T20:33:10Z	test: fix flaky test-tls-wrap-timeout	59		
 7858	3524633	false	closed	false	18		2016-07-24T00:23:34Z	2016-08-08T12:55:45Z	2016-07-25T15:53:16Z	Add fsevents to NodeJS	211		
@@ -1008,7 +1008,7 @@
 8008	368238	false	closed	false	5		2016-08-07T19:17:38Z	2016-08-08T10:45:55Z	2016-08-08T10:45:55Z	tls support requires dots at the end of the Alternative Subject Names	159		
 8009	1443911	true	closed	false	5		2016-08-08T07:22:24Z	2016-08-09T19:24:28Z	2016-08-09T19:24:28Z	doc: remove spurious new line in CHANGELOG_V6.md	35		
 8010	1898870	true	open	false	6		2016-08-08T09:39:54Z	2016-08-10T21:30:03Z		gitignore: add .idea folder to .gitignore	52		
-8011	3967972	true	open	false	14		2016-08-08T09:41:30Z	2016-08-17T08:27:36Z		dgram: prefer strict equality	54		
+8011	3967972	true	open	false	18		2016-08-08T09:41:30Z	2016-08-18T17:55:10Z		dgram: prefer strict equality	54		
 8012	3967972	false	open	false	4		2016-08-08T09:55:14Z	2016-08-08T16:34:04Z		Whitelist dotfiles instead of blacklisting?	83		
 8013	115237	true	closed	false	20		2016-08-08T14:05:22Z	2016-08-09T18:54:03Z	2016-08-09T18:54:03Z	util: add inspect.defaultOptions	70		
 8014	79017	true	closed	false	6	0	2016-08-08T15:00:26Z	2016-08-11T18:49:18Z	2016-08-11T18:49:18Z	deps: update v8_inspector	35	79017	2016-08-11T18:49:18Z
@@ -1032,12 +1032,12 @@
 8032	781745	false	open	false	0		2016-08-09T11:54:55Z	2016-08-09T11:54:55Z		BUG: Comparing prototypes of Object	81		
 8033	122434	false	open	false	10		2016-08-09T12:37:54Z	2016-08-10T22:04:59Z		Observe data emitted through stdout and stderr	45		
 8034	275871	true	open	false	4		2016-08-09T15:25:45Z	2016-08-10T10:00:50Z		build: run cctests as part of test-ci target	4		
-8035	17704638	true	open	false	9		2016-08-09T15:33:31Z	2016-08-12T20:44:10Z		doc: script with space  spawn example for windows	46		
+8035	17704638	true	closed	false	10		2016-08-09T15:33:31Z	2016-08-18T17:38:17Z	2016-08-18T17:38:17Z	doc: script with space  spawn example for windows	46		
 8036	446283	true	open	false	0	0	2016-08-09T20:17:43Z	2016-08-09T20:17:43Z		Avoid potential memory leak if realloc fails	437		
 8037	439929	true	open	false	1		2016-08-09T20:50:54Z	2016-08-09T22:11:08Z		doc: document vm module limitation with timeouts and async code	28		
 8038	4976075	true	closed	false	15		2016-08-09T21:30:44Z	2016-08-11T17:06:35Z	2016-08-11T16:40:30Z	Cherry pick 588e15c and c0d4bb8 from upstream V8	61		
 8039	899444	true	open	false	11		2016-08-09T22:47:32Z	2016-08-18T01:45:02Z		test: add an zlib binding addon test	71		
-8040	11638619	true	open	false	51		2016-08-09T23:32:06Z	2016-08-18T02:35:54Z		Add crypto.timingSafeEqual()	68		
+8040	11638619	true	open	false	51		2016-08-09T23:32:06Z	2016-08-18T17:34:31Z		Add crypto.timingSafeEqual()	68		
 8041	718899	false	open	false	0		2016-08-09T23:45:53Z	2016-08-09T23:45:53Z		Investigate flaky test-timers-blocking-callback on FreeBSD	38		
 8042	3231296	false	closed	false	3		2016-08-10T01:22:11Z	2016-08-10T22:07:48Z	2016-08-10T11:56:32Z	VM: Add source mapping support	163		
 8043	426418	true	open	false	11		2016-08-10T02:07:44Z	2016-08-15T16:09:09Z		inspector: add support for uncaught exception	60		
@@ -1048,7 +1048,7 @@
 8048	13312166	false	closed	false	1		2016-08-10T12:38:10Z	2016-08-10T13:06:10Z	2016-08-10T13:06:10Z	net-module does't react when pulling of the cable (embedded Linux)	215		
 8049	275871	true	closed	false	5		2016-08-10T12:44:00Z	2016-08-12T17:50:02Z	2016-08-12T17:50:02Z	doc: update windows prerequisites	14		
 8050	17586	false	open	false	1		2016-08-10T13:58:33Z	2016-08-10T14:03:38Z		console.log hangs on long lines	48		
-8051	1495995	false	open	false	8		2016-08-10T14:12:16Z	2016-08-12T16:55:27Z		NodeJS listener bug	114		
+8051	1495995	false	open	false	9		2016-08-10T14:12:16Z	2016-08-18T17:02:36Z		NodeJS listener bug	114		
 8052	101553	true	open	false	0	0	2016-08-10T17:05:41Z	2016-08-10T17:05:41Z		doc: Add fhinkel to collaborators	29		
 8053	122831	false	closed	false	8		2016-08-10T17:24:27Z	2016-08-10T23:22:56Z	2016-08-10T23:22:56Z	Windows Buffer.from v4.x: TypeError: hex is not a function	190		
 8054	79017	true	open	false	8		2016-08-10T18:37:22Z	2016-08-17T17:24:12Z		Backport V8 5.1 to v6.x	115		
@@ -1069,7 +1069,7 @@
 8069	5445507	true	open	false	4		2016-08-11T19:33:13Z	2016-08-17T16:58:15Z		build: add missing files to zip and 7z packages	55		
 8070	2512748	true	closed	false	10	0	2016-08-11T20:03:08Z	2016-08-16T14:30:43Z	2016-08-16T14:30:42Z	v6.4.0 Proposal	2015	2512748	2016-08-16T14:30:42Z
 8071	4573903	false	open	false	2		2016-08-11T20:08:32Z	2016-08-16T22:26:47Z		console.log calls inspect function on passed object	161		
-8072	1898870	true	open	false	7		2016-08-11T20:24:38Z	2016-08-18T01:38:40Z		url: make `url.format()` encode all occurrences of `#` in `search`	67		
+8072	1898870	true	open	false	8		2016-08-11T20:24:38Z	2016-08-18T17:28:33Z		url: make `url.format()` encode all occurrences of `#` in `search`	67		
 8073	718899	true	closed	false	10		2016-08-11T21:37:29Z	2016-08-15T03:49:09Z	2016-08-15T03:49:09Z	tools: enable rest-spread-spacing	74		
 8074	159100	false	open	false	15		2016-08-11T22:15:51Z	2016-08-15T18:32:47Z		segfault on node v6.3.1 on Ubuntu 14.04.4	138		
 8075	439929	true	open	false			2016-08-12T01:42:22Z	2016-08-17T21:39:41Z		[WIP] proposed new unicode module	62		
@@ -1097,7 +1097,7 @@
 8097	718899	true	closed	false	8		2016-08-13T22:13:24Z	2016-08-16T22:17:32Z	2016-08-16T22:17:32Z	tools: update ESLint to 3.3.0 and enable rules	99		
 8098	718899	true	closed	false	7		2016-08-14T03:48:25Z	2016-08-17T03:53:30Z	2016-08-17T03:53:30Z	test: use strict equality in regression test	38		
 8099	2352663	true	closed	false	5		2016-08-14T09:33:56Z	2016-08-17T17:25:06Z	2016-08-17T07:43:41Z	deps: cherry-pick de5aaad from V8's upstream	86		
-8100	899444	true	open	false	4		2016-08-14T17:22:09Z	2016-08-18T01:33:06Z		fs,module: add module-loader-only realpath cache	112		
+8100	899444	true	open	false			2016-08-14T17:22:09Z	2016-08-18T17:11:25Z		fs,module: add module-loader-only realpath cache	112		
 8101	6517897	true	open	false			2016-08-14T19:58:27Z	2016-08-16T21:14:21Z		net, http: allow setting socket connection timeout for http request	69		
 8102	6850510	false	open	false	8		2016-08-14T20:25:09Z	2016-08-15T19:52:48Z		False successfully end of request	344		
 8103	110455	true	open	false	1		2016-08-14T21:45:22Z	2016-08-14T22:04:14Z		http: fix legacy http.Client instanceof	205		
@@ -1136,7 +1136,7 @@
 8136	1909539	false	open	false	3		2016-08-17T04:33:34Z	2016-08-17T08:49:02Z		spawnSync hangs on linux	29		
 8137	20699254	false	closed	false	3		2016-08-17T05:40:17Z	2016-08-17T06:14:35Z	2016-08-17T05:43:13Z	Can we support Worker API in node environment , like browser's Web work behavior.	28		
 8138	7421183	false	closed	false	5		2016-08-17T08:36:22Z	2016-08-17T18:03:55Z	2016-08-17T08:51:03Z	util.inspect generates different output in Node minor update	122		
-8139	275871	false	open	false	5		2016-08-17T11:40:12Z	2016-08-18T11:47:48Z		benchmark: http/simple is unreliable	396		
+8139	275871	false	open	false	7		2016-08-17T11:40:12Z	2016-08-18T17:44:30Z		benchmark: http/simple is unreliable	396		
 8140	17704638	true	open	false			2016-08-17T13:08:21Z	2016-08-18T10:45:57Z		benchmark: support for multiple http benchmarkers	88		
 8141	677994	true	open	false	12		2016-08-17T13:12:12Z	2016-08-17T18:16:38Z		"Revert ""repl,util: insert carriage returns in output"""	51		
 8142	4027669	false	open	false	0		2016-08-17T14:29:41Z	2016-08-17T14:29:41Z		repl: editor mode text not saved in `.save` command	100		
@@ -1151,12 +1151,14 @@
 8151	718899	true	open	false	4		2016-08-17T23:15:44Z	2016-08-18T03:23:37Z		test: favor strict equality in http tests	31		
 8152	718899	true	open	false	4		2016-08-18T00:02:11Z	2016-08-18T03:24:14Z		test: add missing assert.deepEqual() test case	84		
 8153	8503065	false	open	false	1		2016-08-18T00:37:22Z	2016-08-18T03:36:32Z		Update _stream_readable.js to  delete invalid parameter.	7		
-8154	899444	true	open	false	5		2016-08-18T02:02:18Z	2016-08-18T15:19:56Z		buffer: allow .write() offset to be at buffer end	57		
-8155	8052307	false	open	false	1		2016-08-18T05:06:48Z	2016-08-18T07:17:44Z		assertion when attaching the Chrome dev tools	67		
-8156	718899	true	open	false			2016-08-18T05:43:54Z	2016-08-18T16:17:34Z		test: add assert.notDeepEqual() tests	49		
+8154	899444	true	open	false	7		2016-08-18T02:02:18Z	2016-08-18T17:50:13Z		buffer: allow .write() offset to be at buffer end	57		
+8155	8052307	false	open	false	1		2016-08-18T05:06:48Z	2016-08-18T17:14:22Z		assertion when attaching the Chrome dev tools	67		
+8156	718899	true	open	false	3		2016-08-18T05:43:54Z	2016-08-18T17:49:23Z		test: add assert.notDeepEqual() tests	49		
 8157	505333	false	open	false	2		2016-08-18T12:02:37Z	2016-08-18T15:22:55Z		benchmark jenkins job?	165		
 8158	1404810	true	open	false	3		2016-08-18T12:42:22Z	2016-08-18T15:15:38Z		doc: correct argument type for process.cpuUsage	32		
 8159	2512748	true	open	false	1		2016-08-18T15:32:51Z	2016-08-18T16:35:35Z		test: add test for attempted multiple IPC channels	47		
-8160	2512748	true	open	false	0	0	2016-08-18T16:14:22Z	2016-08-18T16:14:22Z		test: test sending over a closed IPC channel	56		
-8161	718899	true	open	false	0	0	2016-08-18T16:30:12Z	2016-08-18T16:30:12Z		doc: remove outdated LTS info from ROADMAP.md	110		
-8162	4811358	false	open	false	0		2016-08-18T16:39:58Z	2016-08-18T16:39:58Z		GC Mark-sweep Allocation Failure	221		
+8160	2512748	true	open	false	2		2016-08-18T16:14:22Z	2016-08-18T17:52:10Z		test: test sending over a closed IPC channel	56		
+8161	718899	true	open	false	2		2016-08-18T16:30:12Z	2016-08-18T17:50:14Z		doc: remove outdated LTS info from ROADMAP.md	110		
+8162	4811358	false	open	false	1		2016-08-18T16:39:58Z	2016-08-18T17:12:03Z		GC Mark-sweep Allocation Failure	221		
+8163	1095402	false	open	false	0		2016-08-18T17:34:15Z	2016-08-18T17:34:15Z		Inserting CR in addition to LF in util.inspect() is not right on UNIX OSes	156		
+8164	2512748	true	open	false	0	0	2016-08-18T17:44:47Z	2016-08-18T17:44:47Z		child_process: reuse existing no-op function	48		
