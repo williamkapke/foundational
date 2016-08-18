@@ -314,7 +314,7 @@
 7132	1084056	true	closed	false	10		2016-06-03T12:49:16Z	2016-07-12T07:01:48Z	2016-06-08T13:52:41Z	cluster: don't send messages if no IPC channel	53		
 7137	439929	true	open	false			2016-06-03T19:17:45Z	2016-07-05T00:13:18Z		doc: general improvements to net.md copy	33		
 7149	238531	true	closed	false	6		2016-06-04T04:02:49Z	2016-07-11T22:37:04Z	2016-06-06T17:34:31Z	http: wait for both prefinish/end to keepalive	80		
-7152	988441	true	open	false	53		2016-06-04T16:22:28Z	2016-08-18T21:08:48Z		buffer: hard-deprecate Buffer constructor	133		
+7152	988441	true	open	false	54		2016-06-04T16:22:28Z	2016-08-18T22:49:21Z		buffer: hard-deprecate Buffer constructor	133		
 7154	718899	true	closed	false	14		2016-06-04T20:16:03Z	2016-07-11T22:54:57Z	2016-06-07T20:33:05Z	debugger: remove obsolete setTimeout	65		
 7157	469365	true	closed	false	28		2016-06-05T01:13:32Z	2016-07-05T18:16:17Z	2016-06-27T20:40:21Z	buffers: speed up swap16/32, add swap64	566		
 7158	9056756	false	closed	false	5		2016-06-05T04:43:28Z	2016-07-11T09:40:17Z	2016-06-05T06:49:21Z	Unable to cross-compile Node v6.2.1 for iOS	283		
@@ -470,7 +470,7 @@
 7467	718899	true	closed	false	9		2016-06-29T00:17:10Z	2016-07-01T05:47:40Z	2016-07-01T05:47:40Z	test: remove common.PORT from http tests	41		
 7468	613320	false	closed	false	2		2016-06-29T00:26:53Z	2016-06-29T08:57:35Z	2016-06-29T00:56:31Z	Domains appear to be broken in NodeJS 4 and 6.	218		
 7469	6628505	false	open	false	7		2016-06-29T04:26:38Z	2016-06-29T16:43:01Z		request - fs support for OS X package option on directories	33		
-7471	6098160	true	open	false	7		2016-06-29T08:22:09Z	2016-08-04T22:57:56Z		configure: reword help for --without-npm	28		
+7471	6098160	true	closed	false	7		2016-06-29T08:22:09Z	2016-08-18T22:58:29Z	2016-08-18T22:58:29Z	configure: reword help for --without-npm	28		
 7472	8008055	false	open	false	0		2016-06-29T08:50:14Z	2016-06-29T08:50:14Z		Two-dimensional array v8 optimization trouble	142		
 7473	783424	false	closed	false	4		2016-06-29T09:03:08Z	2016-06-29T19:05:56Z	2016-06-29T19:05:55Z	process.stdin.on('end', function(){}); After use chroot, the event can't be triggered in nodejs v4.4.6 LTS	216		
 7474	495647	false	closed	false	14		2016-06-29T10:45:01Z	2016-07-03T03:51:58Z	2016-07-03T03:51:58Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-06-29	439		
@@ -497,7 +497,7 @@
 7495	7146748	false	closed	false	4		2016-06-30T07:51:10Z	2016-06-30T13:37:02Z	2016-06-30T08:02:31Z	Ask a question, how to post a task to main thread in node.Please see my codes.	78		
 7496	11782089	false	closed	false	5		2016-06-30T08:54:47Z	2016-08-03T22:46:14Z	2016-06-30T10:14:15Z	fs.watch not work in win10  Bash.	111		
 7497	275871	true	closed	false	4	0	2016-06-30T10:27:03Z	2016-07-06T14:33:15Z	2016-07-06T14:33:15Z	src: guard against overflow in ParseArrayIndex()	25		
-7498	178512	true	open	false	8		2016-06-30T14:32:38Z	2016-08-11T17:16:38Z		http: add host and port info to ECONNRESET errors	74		
+7498	178512	true	open	false	8		2016-06-30T14:32:38Z	2016-08-18T22:15:20Z		http: add host and port info to ECONNRESET errors	74		
 7499	2512748	true	closed	false	4	4	2016-06-30T16:08:03Z	2016-07-05T14:52:49Z	2016-07-05T14:52:48Z	util: add an option for configuring break length	79	2512748	2016-07-05T14:52:48Z
 7500	9373002	false	closed	false	12		2016-06-30T16:26:44Z	2016-07-05T13:56:26Z	2016-07-05T13:56:26Z	AIX: build failure 	185		
 7501	432351	true	closed	false	8	14	2016-06-30T16:36:26Z	2016-07-28T16:08:37Z	2016-07-28T16:08:36Z	src: extracting PipeConnectWrap and TCPConnectWrap to ConnectWrap	73		
@@ -510,7 +510,7 @@
 7508	6447530	true	closed	false	12		2016-07-01T10:53:28Z	2016-07-14T21:31:47Z	2016-07-05T14:45:54Z	build: enable big toc for release builds in AIX	102		
 7509	3899684	false	open	false	3		2016-07-01T12:04:34Z	2016-07-04T13:25:08Z		"doc: search engine visibility for ""node guide"" pointing to outdated third party sites"	107		
 7510	1340074	false	closed	false	3		2016-07-01T15:49:46Z	2016-07-01T16:21:55Z	2016-07-01T16:21:55Z	build system: Unable to `make` due filename limits in `ecryptfs`	113		
-7511	432351	true	open	false	4		2016-07-01T15:54:46Z	2016-07-03T18:44:40Z		src: remove unnecessary static_cast in tcp_wrap.cc	62		
+7511	432351	true	open	false	4		2016-07-01T15:54:46Z	2016-08-18T22:55:11Z		src: remove unnecessary static_cast in tcp_wrap.cc	62		
 7512	1084056	false	open	false	3		2016-07-01T18:59:39Z	2016-07-02T13:11:20Z		Issue passing file descriptors in OS X	299		
 7513	19983178	false	closed	false	2		2016-07-01T21:37:02Z	2016-08-02T13:04:33Z	2016-07-02T08:30:08Z	node-gyp@3.3.1 installed with node.js, but later version (3.4.0) required to fix bug nodejs/node-gyp#949	88		
 7514	15943089	true	closed	false	10		2016-07-01T21:37:04Z	2016-07-07T10:39:43Z	2016-07-06T23:48:16Z	doc: updating REPLACEME tag during release	51		
@@ -807,7 +807,7 @@
 7805	1222029	true	closed	false	6		2016-07-20T06:47:21Z	2016-08-04T20:16:55Z	2016-08-04T20:16:55Z	doc: correct crypto encoding information	66		
 7806	696611	true	closed	false	9	0	2016-07-20T07:38:11Z	2016-07-20T17:42:49Z	2016-07-20T17:42:49Z	test: find IPv6 address from localhost names	56		
 7807	6941888	false	open	false	0		2016-07-20T08:28:35Z	2016-07-20T08:28:35Z		About install gulp  problem	25		
-7808	248374	true	open	false	12		2016-07-20T08:52:51Z	2016-08-18T20:23:45Z		build: Provide 'node_module_version' via config.gypi	23		
+7808	248374	true	open	false	14		2016-07-20T08:52:51Z	2016-08-18T22:07:05Z		build: add node_module_version to config.gypi	23		
 7809	495647	false	closed	false	4		2016-07-20T12:18:37Z	2016-08-05T22:02:22Z	2016-08-05T22:02:22Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-07-20	479		
 7810	439929	true	closed	false	10		2016-07-20T15:29:54Z	2016-07-25T13:53:02Z	2016-07-25T13:53:02Z	doc: clarify that the node.js irc channel is not under tsc oversight	71		
 7811	2512748	true	closed	false	6		2016-07-20T16:55:28Z	2016-07-22T16:02:10Z	2016-07-22T16:02:10Z	child_process: support stdio option in fork()	80		
@@ -1072,7 +1072,7 @@
 8071	4573903	false	open	false	2		2016-08-11T20:08:32Z	2016-08-16T22:26:47Z		console.log calls inspect function on passed object	161		
 8072	1898870	true	closed	false	8		2016-08-11T20:24:38Z	2016-08-18T18:23:54Z	2016-08-18T18:23:54Z	url: make `url.format()` encode all occurrences of `#` in `search`	67		
 8073	718899	true	closed	false	10		2016-08-11T21:37:29Z	2016-08-15T03:49:09Z	2016-08-15T03:49:09Z	tools: enable rest-spread-spacing	74		
-8074	159100	false	open	false	16		2016-08-11T22:15:51Z	2016-08-18T21:25:27Z		segfault on node v6.3.1 on Ubuntu 14.04.4	138		
+8074	159100	false	open	false	19		2016-08-11T22:15:51Z	2016-08-18T22:20:26Z		segfault on node v6.3.1 on Ubuntu 14.04.4	138		
 8075	439929	true	open	false			2016-08-12T01:42:22Z	2016-08-17T21:39:41Z		[WIP] proposed new unicode module	62		
 8076	9373002	true	open	false	2		2016-08-12T03:21:18Z	2016-08-12T14:27:54Z		test: exclude tests for AIX	70		
 8077	3254987	false	closed	false	6		2016-08-12T07:53:11Z	2016-08-18T08:11:30Z	2016-08-18T07:20:12Z	child_process.spawn does not recognize local package in Windows	111		
@@ -1127,9 +1127,9 @@
 8126	1981088	true	open	false	12		2016-08-16T18:32:22Z	2016-08-18T16:49:44Z		Update release announcement instruction for Twitter	86		
 8127	20412432	false	open	false	2		2016-08-16T19:39:05Z	2016-08-18T15:33:36Z		Change between Node 6.3.1 and 6.4 regarding writing strings of length 0 to a Buffer	88		
 8128	718899	true	closed	false	12		2016-08-16T21:20:56Z	2016-08-18T21:42:22Z	2016-08-18T21:42:22Z	build: do not lint src dir for JS errors	49		
-8129	718899	true	open	false	5		2016-08-16T22:10:23Z	2016-08-18T03:22:01Z		test: fix assertion in test-watch-file.js	69		
-8130	718899	true	open	false	3		2016-08-16T22:34:25Z	2016-08-17T16:59:46Z		test: favor strict equality check	40		
-8131	718899	true	open	false	4		2016-08-16T22:44:00Z	2016-08-17T16:57:57Z		test: favor `===` over `==` in test-timers.js	38		
+8129	718899	true	closed	false	6		2016-08-16T22:10:23Z	2016-08-18T22:17:28Z	2016-08-18T22:17:28Z	test: fix assertion in test-watch-file.js	69		
+8130	718899	true	closed	false	4	0	2016-08-16T22:34:25Z	2016-08-18T22:42:17Z	2016-08-18T22:42:17Z	test: favor strict equality check	40		
+8131	718899	true	closed	false	7	0	2016-08-16T22:44:00Z	2016-08-18T22:44:23Z	2016-08-18T22:44:23Z	test: favor `===` over `==` in test-timers.js	38		
 8132	718899	true	open	false			2016-08-16T23:47:50Z	2016-08-17T16:12:52Z		assert: remove code that is never reached	88		
 8133	374012	false	open	false	1		2016-08-17T01:00:14Z	2016-08-17T05:48:24Z		v6 version of V8 has bad for-in implementation	166		
 8134	718899	true	open	false	8		2016-08-17T03:49:34Z	2016-08-18T00:08:34Z		test: confirm that assert truncates long values	62		
@@ -1154,7 +1154,7 @@
 8153	8503065	false	open	false	1		2016-08-18T00:37:22Z	2016-08-18T03:36:32Z		Update _stream_readable.js to  delete invalid parameter.	7		
 8154	899444	true	open	false	7		2016-08-18T02:02:18Z	2016-08-18T17:50:13Z		buffer: allow .write() offset to be at buffer end	57		
 8155	8052307	false	open	false	1		2016-08-18T05:06:48Z	2016-08-18T17:14:22Z		assertion when attaching the Chrome dev tools	67		
-8156	718899	true	open	false	4		2016-08-18T05:43:54Z	2016-08-18T21:57:12Z		test: add assert.notDeepEqual() tests	49		
+8156	718899	true	open	false	6		2016-08-18T05:43:54Z	2016-08-18T22:08:12Z		test: add assert.notDeepEqual() tests	49		
 8157	505333	false	open	false	5		2016-08-18T12:02:37Z	2016-08-18T19:45:30Z		benchmark jenkins job?	165		
 8158	1404810	true	open	false	3		2016-08-18T12:42:22Z	2016-08-18T15:15:38Z		doc: correct argument type for process.cpuUsage	32		
 8159	2512748	true	open	false	1		2016-08-18T15:32:51Z	2016-08-18T16:35:35Z		test: add test for attempted multiple IPC channels	47		
@@ -1164,8 +1164,11 @@
 8163	1095402	false	open	false	0		2016-08-18T17:34:15Z	2016-08-18T17:34:15Z		Inserting CR in addition to LF in util.inspect() is not right on UNIX OSes	156		
 8164	2512748	true	open	false	3		2016-08-18T17:44:47Z	2016-08-18T18:10:41Z		child_process: reuse existing no-op function	48		
 8165	159100	false	open	false	0		2016-08-18T19:12:43Z	2016-08-18T19:12:43Z		url.resolve auth behavior if host does *not* change	121		
-8166	439929	true	open	false	12		2016-08-18T19:15:57Z	2016-08-18T21:19:02Z		lib,fs: use process.emitWarning instead of internal print dep warning	103		
+8166	439929	true	open	false	15		2016-08-18T19:15:57Z	2016-08-18T22:09:05Z		lib,fs: use process.emitWarning instead of internal print dep warning	103		
 8167	657552	false	open	false	2		2016-08-18T19:48:09Z	2016-08-18T20:03:15Z		TypeError: Forked processes must have an IPC channel	61		
 8168	2512748	true	open	false			2016-08-18T20:31:47Z	2016-08-18T22:00:05Z		test: exercise EE function type checking paths	60		
-8169	988441	true	open	false			2016-08-18T20:52:01Z	2016-08-18T21:57:24Z		buffer: hard-deprecate calling Buffer without new	59		
+8169	988441	true	open	false			2016-08-18T20:52:01Z	2016-08-18T22:03:11Z		buffer: hard-deprecate calling Buffer without new	59		
 8170	2512748	true	open	false	0	0	2016-08-18T21:30:38Z	2016-08-18T21:30:38Z		dns: lookupService() callback must be a function	179		
+8171	248374	true	open	false	0	0	2016-08-18T22:02:29Z	2016-08-18T22:02:29Z		build: add node_module_version to config.gypi	25		
+8172	88045	false	open	false	0		2016-08-18T22:27:28Z	2016-08-18T22:27:28Z		6.4.0 is linking against GLIBCXX_3.4.18 (libstdc++6 >=4.8)	534		
+8173	718899	true	open	false	0	0	2016-08-18T22:37:52Z	2016-08-18T22:37:52Z		test: favor strict equality in test-exec	31		
