@@ -300,7 +300,7 @@
 7072	495647	false	open	false	24		2016-05-31T03:52:31Z	2016-08-10T13:15:06Z		Decision to leave v8_inspector support for v6 LTS	305		
 7075	134460	true	open	false	10		2016-05-31T11:49:54Z	2016-07-08T00:23:54Z		Backport for v4.x: win,build: add creation of zip and 7z package	85		
 7077	54666	true	closed	false	31		2016-05-31T17:17:40Z	2016-07-09T00:52:27Z	2016-06-14T19:58:45Z	stream: improve Readable.read() performance	186		
-7079	899444	true	closed	false	17	9	2016-05-31T17:58:03Z	2016-08-08T13:14:46Z	2016-08-08T13:14:46Z	buffer: throw on negative .allocUnsafe() argument	79		
+7079	899444	true	closed	false	18		2016-05-31T17:58:03Z	2016-08-18T19:05:28Z	2016-08-08T13:14:46Z	buffer: throw on negative .allocUnsafe() argument	79		
 7084	718899	true	closed	false	11		2016-05-31T22:58:09Z	2016-07-11T22:25:17Z	2016-06-03T20:42:46Z	test: add test for uid/gid setting in spawn	74		
 7089	718899	true	closed	false	5		2016-06-01T06:53:55Z	2016-07-11T22:25:41Z	2016-06-04T04:41:05Z	debugger: fix --debug-brk interaction with -e	142		
 7090	275871	true	closed	false	12		2016-06-01T11:24:08Z	2016-07-11T22:09:23Z	2016-06-02T20:41:01Z	src: use stack-allocated Environment instances	11		
@@ -1037,7 +1037,7 @@
 8037	439929	true	open	false	1		2016-08-09T20:50:54Z	2016-08-09T22:11:08Z		doc: document vm module limitation with timeouts and async code	28		
 8038	4976075	true	closed	false	15		2016-08-09T21:30:44Z	2016-08-11T17:06:35Z	2016-08-11T16:40:30Z	Cherry pick 588e15c and c0d4bb8 from upstream V8	61		
 8039	899444	true	open	false	11		2016-08-09T22:47:32Z	2016-08-18T01:45:02Z		test: add an zlib binding addon test	71		
-8040	11638619	true	open	false	54		2016-08-09T23:32:06Z	2016-08-18T18:06:31Z		Add crypto.timingSafeEqual()	68		
+8040	11638619	true	open	false	58		2016-08-09T23:32:06Z	2016-08-18T19:18:32Z		Add crypto.timingSafeEqual()	68		
 8041	718899	false	open	false	0		2016-08-09T23:45:53Z	2016-08-09T23:45:53Z		Investigate flaky test-timers-blocking-callback on FreeBSD	38		
 8042	3231296	false	closed	false	3		2016-08-10T01:22:11Z	2016-08-10T22:07:48Z	2016-08-10T11:56:32Z	VM: Add source mapping support	163		
 8043	426418	true	open	false	11		2016-08-10T02:07:44Z	2016-08-15T16:09:09Z		inspector: add support for uncaught exception	60		
@@ -1136,8 +1136,8 @@
 8136	1909539	false	open	false	3		2016-08-17T04:33:34Z	2016-08-17T08:49:02Z		spawnSync hangs on linux	29		
 8137	20699254	false	closed	false	3		2016-08-17T05:40:17Z	2016-08-17T06:14:35Z	2016-08-17T05:43:13Z	Can we support Worker API in node environment , like browser's Web work behavior.	28		
 8138	7421183	false	closed	false	5		2016-08-17T08:36:22Z	2016-08-17T18:03:55Z	2016-08-17T08:51:03Z	util.inspect generates different output in Node minor update	122		
-8139	275871	false	open	false	7		2016-08-17T11:40:12Z	2016-08-18T17:44:30Z		benchmark: http/simple is unreliable	396		
-8140	17704638	true	open	false			2016-08-17T13:08:21Z	2016-08-18T10:45:57Z		benchmark: support for multiple http benchmarkers	88		
+8139	275871	false	open	false	9		2016-08-17T11:40:12Z	2016-08-18T19:32:11Z		benchmark: http/simple is unreliable	396		
+8140	17704638	true	open	false			2016-08-17T13:08:21Z	2016-08-18T19:17:56Z		benchmark: support for multiple http benchmarkers	88		
 8141	677994	true	open	false	12		2016-08-17T13:12:12Z	2016-08-17T18:16:38Z		"Revert ""repl,util: insert carriage returns in output"""	51		
 8142	4027669	false	open	false	0		2016-08-17T14:29:41Z	2016-08-17T14:29:41Z		repl: editor mode text not saved in `.save` command	100		
 8143	677994	true	open	false	7		2016-08-17T14:48:46Z	2016-08-17T19:40:58Z		"Revert ""repl,util: insert carriage returns in output"""	63		
@@ -1145,7 +1145,7 @@
 8145	1622515	true	open	false			2016-08-17T15:58:40Z	2016-08-17T16:45:15Z		repl: Failed to save editor mode text in `.save` command	54		
 8146	4421720	true	open	false	3		2016-08-17T17:32:28Z	2016-08-17T19:09:00Z		doc: Add @joshgav to collaborators.	29		
 8147	439929	false	open	false	0		2016-08-17T17:37:40Z	2016-08-17T17:37:40Z		Buffer.prototype.toLocaleString needs a Buffer-specific implementation	60		
-8148	439929	true	open	false	1		2016-08-17T17:59:11Z	2016-08-18T00:10:27Z		buffer: alias toLocaleString to toString	54		
+8148	439929	true	open	false	3		2016-08-17T17:59:11Z	2016-08-18T19:25:06Z		buffer: alias toLocaleString to toString	54		
 8149	9287	false	open	false	48		2016-08-17T18:56:35Z	2016-08-18T06:04:50Z		RFE: Articulate benefits of moving code to internal/...	124		
 8150	79017	true	open	false	1		2016-08-17T23:10:09Z	2016-08-18T07:26:41Z		Update v8_inspector	42		
 8151	718899	true	open	false	4		2016-08-17T23:15:44Z	2016-08-18T03:23:37Z		test: favor strict equality in http tests	31		
@@ -1154,11 +1154,14 @@
 8154	899444	true	open	false	7		2016-08-18T02:02:18Z	2016-08-18T17:50:13Z		buffer: allow .write() offset to be at buffer end	57		
 8155	8052307	false	open	false	1		2016-08-18T05:06:48Z	2016-08-18T17:14:22Z		assertion when attaching the Chrome dev tools	67		
 8156	718899	true	open	false	4		2016-08-18T05:43:54Z	2016-08-18T18:13:23Z		test: add assert.notDeepEqual() tests	49		
-8157	505333	false	open	false	4		2016-08-18T12:02:37Z	2016-08-18T18:47:31Z		benchmark jenkins job?	165		
+8157	505333	false	open	false	5		2016-08-18T12:02:37Z	2016-08-18T19:45:30Z		benchmark jenkins job?	165		
 8158	1404810	true	open	false	3		2016-08-18T12:42:22Z	2016-08-18T15:15:38Z		doc: correct argument type for process.cpuUsage	32		
 8159	2512748	true	open	false	1		2016-08-18T15:32:51Z	2016-08-18T16:35:35Z		test: add test for attempted multiple IPC channels	47		
 8160	2512748	true	open	false	2		2016-08-18T16:14:22Z	2016-08-18T17:52:10Z		test: test sending over a closed IPC channel	56		
 8161	718899	true	open	false	3		2016-08-18T16:30:12Z	2016-08-18T18:41:18Z		doc: remove outdated LTS info from ROADMAP.md	110		
-8162	4811358	false	open	false	1		2016-08-18T16:39:58Z	2016-08-18T17:12:03Z		GC Mark-sweep Allocation Failure	221		
+8162	4811358	false	open	false	3		2016-08-18T16:39:58Z	2016-08-18T19:21:24Z		GC Mark-sweep Allocation Failure	221		
 8163	1095402	false	open	false	0		2016-08-18T17:34:15Z	2016-08-18T17:34:15Z		Inserting CR in addition to LF in util.inspect() is not right on UNIX OSes	156		
 8164	2512748	true	open	false	3		2016-08-18T17:44:47Z	2016-08-18T18:10:41Z		child_process: reuse existing no-op function	48		
+8165	159100	false	open	false	0		2016-08-18T19:12:43Z	2016-08-18T19:12:43Z		url.resolve auth behavior if host does *not* change	121		
+8166	439929	true	open	false	0	0	2016-08-18T19:15:57Z	2016-08-18T19:15:57Z		Use emitwarning	86		
+8167	657552	false	open	false	0		2016-08-18T19:48:09Z	2016-08-18T19:48:09Z		TypeError: Forked processes must have an IPC channel	61		
