@@ -5,6 +5,7 @@
 540	555645	true	closed	false	33		2015-01-21T16:22:26Z	2016-07-18T15:54:13Z	2015-01-28T03:49:14Z	events: Alias EventEmitter.protoype.removeListener as EventEmitter.prototype.off 	95		
 550	30827	false	closed	false	10		2015-01-22T05:35:22Z	2016-08-05T22:14:53Z	2016-08-05T22:14:53Z	Proposal: HTTP – Move `bodyHead` to `data` event	125		
 643	829734	false	open	false	31		2015-01-28T21:12:32Z	2016-08-05T22:17:03Z		Using faster url parser	82		
+684	115237	false	closed	false	6		2015-01-31T22:25:05Z	2016-08-18T20:24:09Z	2015-02-01T18:41:19Z	path: tilde expansion	123		
 690	275871	false	closed	false	14		2015-02-02T15:19:55Z	2016-07-19T11:39:40Z	2016-07-19T11:39:40Z	repl: surrogate pair upsets repl / terminal	43		
 729	289174	false	closed	false	8		2015-02-05T20:00:25Z	2016-06-29T11:12:13Z	2016-06-29T11:12:13Z	Converge Tracing/Profiling to Native Set of Hooks	49		
 805	782880	false	open	false	3		2015-02-11T16:10:53Z	2016-07-19T11:38:52Z		strict printing for X509 Extentions	19		
@@ -313,7 +314,7 @@
 7132	1084056	true	closed	false	10		2016-06-03T12:49:16Z	2016-07-12T07:01:48Z	2016-06-08T13:52:41Z	cluster: don't send messages if no IPC channel	53		
 7137	439929	true	open	false			2016-06-03T19:17:45Z	2016-07-05T00:13:18Z		doc: general improvements to net.md copy	33		
 7149	238531	true	closed	false	6		2016-06-04T04:02:49Z	2016-07-11T22:37:04Z	2016-06-06T17:34:31Z	http: wait for both prefinish/end to keepalive	80		
-7152	988441	true	open	false	50		2016-06-04T16:22:28Z	2016-08-18T17:45:54Z		buffer: hard-deprecate Buffer constructor	133		
+7152	988441	true	open	false	51		2016-06-04T16:22:28Z	2016-08-18T20:57:57Z		buffer: hard-deprecate Buffer constructor	133		
 7154	718899	true	closed	false	14		2016-06-04T20:16:03Z	2016-07-11T22:54:57Z	2016-06-07T20:33:05Z	debugger: remove obsolete setTimeout	65		
 7157	469365	true	closed	false	28		2016-06-05T01:13:32Z	2016-07-05T18:16:17Z	2016-06-27T20:40:21Z	buffers: speed up swap16/32, add swap64	566		
 7158	9056756	false	closed	false	5		2016-06-05T04:43:28Z	2016-07-11T09:40:17Z	2016-06-05T06:49:21Z	Unable to cross-compile Node v6.2.1 for iOS	283		
@@ -762,7 +763,7 @@
 7761	14905903	false	open	false	0		2016-07-16T13:05:06Z	2016-07-16T13:05:06Z		Node JS: graceful fs	86		
 7762	275871	true	closed	false	1	0	2016-07-16T14:24:37Z	2016-08-01T14:24:48Z	2016-08-01T14:24:48Z	build: don't link against liblog on host system	32		
 7763	1110797	true	open	false	4		2016-07-16T16:42:47Z	2016-07-27T11:42:55Z		Minor typo fixes in stream docs.	32		
-7764	988441	true	open	false	10		2016-07-16T17:21:26Z	2016-08-18T18:35:46Z		src: don't include a null character in the WriteConsoleW call	63		
+7764	988441	true	open	false	10		2016-07-16T17:21:26Z	2016-08-18T20:14:41Z		src: don't include a null character in the WriteConsoleW call	63		
 7765	718899	true	open	false	0	0	2016-07-16T20:28:11Z	2016-07-16T20:28:11Z		test: remove flaky status IPv6 localhost tests	59		
 7766	718899	true	closed	false	10		2016-07-16T20:46:38Z	2016-07-20T17:40:50Z	2016-07-20T17:40:50Z	test: handle IPv6 localhost issues within tests	56		
 7767	718899	false	closed	false	5		2016-07-16T20:52:23Z	2016-08-02T14:08:49Z	2016-08-02T14:08:49Z	Investigate flaky test-vm-sigint	46		
@@ -806,7 +807,7 @@
 7805	1222029	true	closed	false	6		2016-07-20T06:47:21Z	2016-08-04T20:16:55Z	2016-08-04T20:16:55Z	doc: correct crypto encoding information	66		
 7806	696611	true	closed	false	9	0	2016-07-20T07:38:11Z	2016-07-20T17:42:49Z	2016-07-20T17:42:49Z	test: find IPv6 address from localhost names	56		
 7807	6941888	false	open	false	0		2016-07-20T08:28:35Z	2016-07-20T08:28:35Z		About install gulp  problem	25		
-7808	248374	true	open	false	10		2016-07-20T08:52:51Z	2016-08-18T18:35:00Z		build: Provide 'node_module_version' via config.gypi	23		
+7808	248374	true	open	false	12		2016-07-20T08:52:51Z	2016-08-18T20:23:45Z		build: Provide 'node_module_version' via config.gypi	23		
 7809	495647	false	closed	false	4		2016-07-20T12:18:37Z	2016-08-05T22:02:22Z	2016-08-05T22:02:22Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-07-20	479		
 7810	439929	true	closed	false	10		2016-07-20T15:29:54Z	2016-07-25T13:53:02Z	2016-07-25T13:53:02Z	doc: clarify that the node.js irc channel is not under tsc oversight	71		
 7811	2512748	true	closed	false	6		2016-07-20T16:55:28Z	2016-07-22T16:02:10Z	2016-07-22T16:02:10Z	child_process: support stdio option in fork()	80		
@@ -1037,7 +1038,7 @@
 8037	439929	true	open	false	1		2016-08-09T20:50:54Z	2016-08-09T22:11:08Z		doc: document vm module limitation with timeouts and async code	28		
 8038	4976075	true	closed	false	15		2016-08-09T21:30:44Z	2016-08-11T17:06:35Z	2016-08-11T16:40:30Z	Cherry pick 588e15c and c0d4bb8 from upstream V8	61		
 8039	899444	true	open	false	11		2016-08-09T22:47:32Z	2016-08-18T01:45:02Z		test: add an zlib binding addon test	71		
-8040	11638619	true	open	false	58		2016-08-09T23:32:06Z	2016-08-18T19:18:32Z		Add crypto.timingSafeEqual()	68		
+8040	11638619	true	open	false	59		2016-08-09T23:32:06Z	2016-08-18T20:17:35Z		Add crypto.timingSafeEqual()	68		
 8041	718899	false	open	false	0		2016-08-09T23:45:53Z	2016-08-09T23:45:53Z		Investigate flaky test-timers-blocking-callback on FreeBSD	38		
 8042	3231296	false	closed	false	3		2016-08-10T01:22:11Z	2016-08-10T22:07:48Z	2016-08-10T11:56:32Z	VM: Add source mapping support	163		
 8043	426418	true	open	false	11		2016-08-10T02:07:44Z	2016-08-15T16:09:09Z		inspector: add support for uncaught exception	60		
@@ -1051,7 +1052,7 @@
 8051	1495995	false	open	false	9		2016-08-10T14:12:16Z	2016-08-18T17:02:36Z		NodeJS listener bug	114		
 8052	101553	true	open	false	0	0	2016-08-10T17:05:41Z	2016-08-10T17:05:41Z		doc: Add fhinkel to collaborators	29		
 8053	122831	false	closed	false	8		2016-08-10T17:24:27Z	2016-08-10T23:22:56Z	2016-08-10T23:22:56Z	Windows Buffer.from v4.x: TypeError: hex is not a function	190		
-8054	79017	true	open	false	8		2016-08-10T18:37:22Z	2016-08-17T17:24:12Z		Backport V8 5.1 to v6.x	115		
+8054	79017	true	open	false	8		2016-08-10T18:37:22Z	2016-08-18T20:31:37Z		Backport V8 5.1 to v6.x	115		
 8055	696611	true	closed	false	9		2016-08-10T19:22:22Z	2016-08-18T04:10:06Z	2016-08-18T01:42:52Z	tls: copy the Buffer object before using	74		
 8056	287917	false	open	false	0		2016-08-10T19:26:36Z	2016-08-10T19:26:36Z		"[v8Inspector] Inspector URL should include ""v8only=true"""	24		
 8057	25837	false	open	false	0		2016-08-10T20:31:38Z	2016-08-10T20:31:38Z		Suggestion: http doc should mention special handling for HEAD and 304	122		
@@ -1163,5 +1164,7 @@
 8163	1095402	false	open	false	0		2016-08-18T17:34:15Z	2016-08-18T17:34:15Z		Inserting CR in addition to LF in util.inspect() is not right on UNIX OSes	156		
 8164	2512748	true	open	false	3		2016-08-18T17:44:47Z	2016-08-18T18:10:41Z		child_process: reuse existing no-op function	48		
 8165	159100	false	open	false	0		2016-08-18T19:12:43Z	2016-08-18T19:12:43Z		url.resolve auth behavior if host does *not* change	121		
-8166	439929	true	open	false	0	0	2016-08-18T19:15:57Z	2016-08-18T19:15:57Z		Use emitwarning	86		
-8167	657552	false	open	false	0		2016-08-18T19:48:09Z	2016-08-18T19:48:09Z		TypeError: Forked processes must have an IPC channel	61		
+8166	439929	true	open	false	6		2016-08-18T19:15:57Z	2016-08-18T20:05:10Z		lib,fs: use process.emitWarning instead of internal print dep warning	103		
+8167	657552	false	open	false	2		2016-08-18T19:48:09Z	2016-08-18T20:03:15Z		TypeError: Forked processes must have an IPC channel	61		
+8168	2512748	true	open	false	0	0	2016-08-18T20:31:47Z	2016-08-18T20:31:47Z		test: exercise EE function type checking paths	60		
+8169	988441	true	open	false	0	0	2016-08-18T20:52:01Z	2016-08-18T20:52:01Z		buffer: hard-deprecate calling Buffer without new	59		
