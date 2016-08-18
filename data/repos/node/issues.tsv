@@ -313,7 +313,7 @@
 7132	1084056	true	closed	false	10		2016-06-03T12:49:16Z	2016-07-12T07:01:48Z	2016-06-08T13:52:41Z	cluster: don't send messages if no IPC channel	53		
 7137	439929	true	open	false			2016-06-03T19:17:45Z	2016-07-05T00:13:18Z		doc: general improvements to net.md copy	33		
 7149	238531	true	closed	false	6		2016-06-04T04:02:49Z	2016-07-11T22:37:04Z	2016-06-06T17:34:31Z	http: wait for both prefinish/end to keepalive	80		
-7152	988441	true	open	false	43		2016-06-04T16:22:28Z	2016-08-18T12:03:36Z		buffer: hard-deprecate Buffer constructor	133		
+7152	988441	true	open	false	47		2016-06-04T16:22:28Z	2016-08-18T13:37:03Z		buffer: hard-deprecate Buffer constructor	133		
 7154	718899	true	closed	false	14		2016-06-04T20:16:03Z	2016-07-11T22:54:57Z	2016-06-07T20:33:05Z	debugger: remove obsolete setTimeout	65		
 7157	469365	true	closed	false	28		2016-06-05T01:13:32Z	2016-07-05T18:16:17Z	2016-06-27T20:40:21Z	buffers: speed up swap16/32, add swap64	566		
 7158	9056756	false	closed	false	5		2016-06-05T04:43:28Z	2016-07-11T09:40:17Z	2016-06-05T06:49:21Z	Unable to cross-compile Node v6.2.1 for iOS	283		
@@ -570,7 +570,7 @@
 7569	291301	true	open	false	5		2016-07-06T20:31:23Z	2016-07-09T07:17:25Z		build: respect --shared-* flags for inspector deps	75		
 7570	4421720	true	closed	false	4		2016-07-06T21:09:38Z	2016-08-01T18:45:51Z	2016-08-01T18:45:51Z	doc: add CTC meeting minutes 2016-07-06	66		
 7571	4421720	true	closed	false	6		2016-07-06T21:36:36Z	2016-08-01T18:45:38Z	2016-08-01T18:45:38Z	doc: add CTC meeting minutes 2016-06-29	38		
-7572	1084056	true	open	false	15		2016-07-06T21:54:33Z	2016-08-18T08:30:08Z		child_process: workaround fd passing issue on OS X	122		
+7572	1084056	true	open	false	16		2016-07-06T21:54:33Z	2016-08-18T13:28:53Z		child_process: workaround fd passing issue on OS X	122		
 7573	583459	false	closed	false	27		2016-07-06T22:20:46Z	2016-07-08T11:07:51Z	2016-07-08T11:07:51Z	"Running Node ""Natively"" on Mobile Platforms"	369		
 7574	811047	false	open	false	12		2016-07-07T00:18:42Z	2016-07-07T22:30:58Z		Diagnostic code for fixed bug still present in v4.x's V8	619		
 7575	718899	true	closed	false	9		2016-07-07T03:29:17Z	2016-07-12T03:31:18Z	2016-07-09T04:46:27Z	test: fix flaky test/fs-read-buffer-tostring-fail	88		
@@ -1044,7 +1044,7 @@
 8044	10459119	false	closed	false	3		2016-08-10T07:28:01Z	2016-08-11T09:43:37Z	2016-08-10T07:33:06Z	Doc has mistake: The fs doesn't exist constants of property	291		
 8045	275871	false	open	false	1		2016-08-10T10:47:00Z	2016-08-10T21:54:52Z		darwin,test: flaky test sequential/test-fs-watch	189		
 8046	3584317	false	open	false	0		2016-08-10T11:35:54Z	2016-08-10T11:35:54Z		BUG: Error calculation	27		
-8047	8273423	false	open	false	0		2016-08-10T12:22:42Z	2016-08-10T12:22:42Z		Http Server Bug	74		
+8047	8273423	false	closed	false	2		2016-08-10T12:22:42Z	2016-08-18T13:50:01Z	2016-08-18T13:50:01Z	Http Server Bug	74		
 8048	13312166	false	closed	false	1		2016-08-10T12:38:10Z	2016-08-10T13:06:10Z	2016-08-10T13:06:10Z	net-module does't react when pulling of the cable (embedded Linux)	215		
 8049	275871	true	closed	false	5		2016-08-10T12:44:00Z	2016-08-12T17:50:02Z	2016-08-12T17:50:02Z	doc: update windows prerequisites	14		
 8050	17586	false	open	false	1		2016-08-10T13:58:33Z	2016-08-10T14:03:38Z		console.log hangs on long lines	48		
@@ -1151,8 +1151,8 @@
 8151	718899	true	open	false	4		2016-08-17T23:15:44Z	2016-08-18T03:23:37Z		test: favor strict equality in http tests	31		
 8152	718899	true	open	false	4		2016-08-18T00:02:11Z	2016-08-18T03:24:14Z		test: add missing assert.deepEqual() test case	84		
 8153	8503065	false	open	false	1		2016-08-18T00:37:22Z	2016-08-18T03:36:32Z		Update _stream_readable.js to  delete invalid parameter.	7		
-8154	899444	true	open	false	3		2016-08-18T02:02:18Z	2016-08-18T03:21:17Z		buffer: allow .write() offset to be at buffer end	57		
+8154	899444	true	open	false			2016-08-18T02:02:18Z	2016-08-18T13:36:10Z		buffer: allow .write() offset to be at buffer end	57		
 8155	8052307	false	open	false	1		2016-08-18T05:06:48Z	2016-08-18T07:17:44Z		assertion when attaching the Chrome dev tools	67		
 8156	718899	true	open	false			2016-08-18T05:43:54Z	2016-08-18T06:35:01Z		test: add assert.notDeepEqual() tests	49		
 8157	505333	false	open	false	0		2016-08-18T12:02:37Z	2016-08-18T12:02:37Z		benchmark jenkins job?	165		
-8158	1404810	true	open	false	0	0	2016-08-18T12:42:22Z	2016-08-18T12:42:22Z		doc: correct argument type for process.cpuUsage	32		
+8158	1404810	true	open	false	1		2016-08-18T12:42:22Z	2016-08-18T13:02:49Z		doc: correct argument type for process.cpuUsage	32		
