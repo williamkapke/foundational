@@ -99,7 +99,7 @@
 4175	16188318	false	open	false	25		2015-12-07T10:29:32Z	2016-08-17T14:08:12Z		Node uses an hardcoded list of certificate authorities	240		
 4179	6068824	false	closed	false	15		2015-12-07T22:13:03Z	2016-08-15T20:12:24Z	2016-05-09T12:05:23Z	util.inherits does not establish prototype chain	176		
 4236	10103531	false	open	false	8		2015-12-11T01:18:07Z	2016-07-13T03:34:14Z		child_process.spawn() has undocumented 200kb buffer limit	74		
-4243	524382	true	open	false	9		2015-12-11T17:36:12Z	2016-08-19T12:23:37Z		src: use thread defaults provided by v8::platform	73		
+4243	524382	true	closed	false	10	0	2015-12-11T17:36:12Z	2016-08-19T15:09:25Z	2016-08-19T15:09:25Z	src: use thread defaults provided by v8::platform	73		
 4253	855219	true	closed	false	17		2015-12-12T01:21:25Z	2016-06-29T16:28:17Z	2016-05-04T22:07:05Z	nodejs/node#3111 - WIP v8BreakIterator disablement	6		
 4266	1470592	false	open	false	13		2015-12-14T00:40:39Z	2016-08-19T14:06:13Z		buffer.toString fails for buffers larger than 192MB	95		
 4307	12825770	false	closed	false	11		2015-12-16T08:16:14Z	2016-07-11T09:25:48Z	2016-07-11T09:25:48Z	can not step in constructor, will will terminate node.exe	90		
@@ -309,7 +309,7 @@
 7089	718899	true	closed	false	5		2016-06-01T06:53:55Z	2016-07-11T22:25:41Z	2016-06-04T04:41:05Z	debugger: fix --debug-brk interaction with -e	142		
 7090	275871	true	closed	false	12		2016-06-01T11:24:08Z	2016-07-11T22:09:23Z	2016-06-02T20:41:01Z	src: use stack-allocated Environment instances	11		
 7094	505333	true	closed	false	42		2016-06-01T15:18:38Z	2016-07-27T09:27:20Z	2016-07-26T12:25:16Z	Refactor benchmark tools for statistical significance	603		
-7095	238531	true	open	false	11		2016-06-01T16:28:23Z	2016-08-19T12:14:33Z		deps: cherry-pick 9fa206e from v8's upstream	108		
+7095	238531	true	open	false	11		2016-06-01T16:28:23Z	2016-08-19T15:11:48Z		deps: cherry-pick 9fa206e from v8's upstream	108		
 7102	2316198	false	closed	false	10		2016-06-02T02:35:44Z	2016-08-01T23:54:13Z	2016-06-02T07:40:51Z	"""ReferenceError: v8debug is not defined"" when doing remote debug"	142		
 7104	718899	true	closed	false	10		2016-06-02T06:18:40Z	2016-07-11T22:26:03Z	2016-06-04T21:25:37Z	repl: refine handling of illegal tokens	75		
 7119	498775	true	closed	false	9		2016-06-03T00:18:29Z	2016-07-27T23:39:04Z	2016-06-13T18:03:03Z	tools: fix license builder to work with icu-small	71		
@@ -426,7 +426,7 @@
 7401	1935767	false	closed	false	8		2016-06-24T10:03:04Z	2016-08-01T23:56:13Z	2016-08-01T23:56:13Z	punycode: remove the module system detection from punycode.js	117		
 7404	1093990	true	open	false	11		2016-06-24T12:46:48Z	2016-07-18T09:59:02Z		test: add tests for ensuring proper timer delays	122		
 7406	9373002	false	open	false	6		2016-06-24T14:57:03Z	2016-06-27T16:16:51Z		parallel/test-https-connect-address-family and parallel/test-tls-connect-address-family failures	105		
-7408	238531	true	open	false	8		2016-06-24T17:46:45Z	2016-08-19T14:26:26Z		build: introduce `./configure --with-lto`	169		
+7408	238531	true	open	false	8		2016-06-24T17:46:45Z	2016-08-19T15:21:35Z		build: introduce `./configure --with-lto`	169		
 7411	5832730	true	closed	false	5	0	2016-06-24T21:28:36Z	2016-06-27T15:44:49Z	2016-06-27T15:44:48Z	"doc: fix ""sign.verify"" typo in crypto doc."	31		
 7412	983798	true	closed	false	2	0	2016-06-24T21:38:38Z	2016-06-28T20:12:00Z	2016-06-28T20:12:00Z	upgrade npm in LTS to 2.15.8	129		
 7413	718899	true	closed	false	6	0	2016-06-24T22:42:05Z	2016-06-27T23:59:39Z	2016-06-27T23:59:39Z	assert: remove unneeded arguments special handling	201		
@@ -575,7 +575,7 @@
 7569	291301	true	open	false	5		2016-07-06T20:31:23Z	2016-07-09T07:17:25Z		build: respect --shared-* flags for inspector deps	75		
 7570	4421720	true	closed	false	4		2016-07-06T21:09:38Z	2016-08-01T18:45:51Z	2016-08-01T18:45:51Z	doc: add CTC meeting minutes 2016-07-06	66		
 7571	4421720	true	closed	false	6		2016-07-06T21:36:36Z	2016-08-01T18:45:38Z	2016-08-01T18:45:38Z	doc: add CTC meeting minutes 2016-06-29	38		
-7572	1084056	true	open	false	19		2016-07-06T21:54:33Z	2016-08-19T14:34:31Z		child_process: workaround fd passing issue on OS X	122		
+7572	1084056	true	open	false	20		2016-07-06T21:54:33Z	2016-08-19T15:49:55Z		child_process: workaround fd passing issue on OS X	122		
 7573	583459	false	closed	false	27		2016-07-06T22:20:46Z	2016-07-08T11:07:51Z	2016-07-08T11:07:51Z	"Running Node ""Natively"" on Mobile Platforms"	369		
 7574	811047	false	open	false	12		2016-07-07T00:18:42Z	2016-07-07T22:30:58Z		Diagnostic code for fixed bug still present in v4.x's V8	619		
 7575	718899	true	closed	false	9		2016-07-07T03:29:17Z	2016-07-12T03:31:18Z	2016-07-09T04:46:27Z	test: fix flaky test/fs-read-buffer-tostring-fail	88		
@@ -1170,9 +1170,9 @@
 8165	159100	false	open	false	0		2016-08-18T19:12:43Z	2016-08-18T19:12:43Z		url.resolve auth behavior if host does *not* change	121		
 8166	439929	true	open	false	15		2016-08-18T19:15:57Z	2016-08-18T22:09:05Z		lib,fs: use process.emitWarning instead of internal print dep warning	103		
 8167	657552	false	open	false	2		2016-08-18T19:48:09Z	2016-08-18T20:03:15Z		TypeError: Forked processes must have an IPC channel	61		
-8168	2512748	true	open	false			2016-08-18T20:31:47Z	2016-08-19T14:31:16Z		test: exercise EE function type checking paths	60		
-8169	988441	true	open	false			2016-08-18T20:52:01Z	2016-08-19T14:07:20Z		buffer: hard-deprecate calling Buffer without new	59		
-8170	2512748	true	open	false	3		2016-08-18T21:30:38Z	2016-08-19T12:10:32Z		dns: lookupService() callback must be a function	179		
+8168	2512748	true	open	false			2016-08-18T20:31:47Z	2016-08-19T15:37:38Z		test: exercise EE function type checking paths	60		
+8169	988441	true	open	false			2016-08-18T20:52:01Z	2016-08-19T15:07:54Z		buffer: hard-deprecate calling Buffer without new	59		
+8170	2512748	true	open	false	3		2016-08-18T21:30:38Z	2016-08-19T15:30:04Z		dns: lookupService() callback must be a function	179		
 8171	248374	true	open	false	1		2016-08-18T22:02:29Z	2016-08-19T14:32:49Z		build: add node_module_version to config.gypi	25		
 8172	88045	false	closed	false	2		2016-08-18T22:27:28Z	2016-08-19T07:31:05Z	2016-08-18T22:50:20Z	6.4.0 is linking against GLIBCXX_3.4.18 (libstdc++6 >=4.8)	533		
 8173	718899	true	open	false	3		2016-08-18T22:37:52Z	2016-08-19T07:01:14Z		test: favor strict equality in test-exec	31		
@@ -1183,4 +1183,6 @@
 8178	17352572	false	open	false	0		2016-08-19T01:22:59Z	2016-08-19T01:22:59Z		WHY I SEE LOT OF BACKDOOR AND TROJAN IN MY SERVER I AM ASKING YOU 	14		
 8179	718899	true	open	false	3		2016-08-19T02:45:52Z	2016-08-19T13:52:08Z		test: add test for invalid cert string	59		
 8180	718899	true	open	false	2		2016-08-19T03:23:54Z	2016-08-19T14:29:53Z		test: refactor test-tick-processor	79		
-8181	8255757	false	open	false	0		2016-08-19T14:49:52Z	2016-08-19T14:49:52Z		Inaccurate Documentation?	148		
+8181	8255757	false	closed	false	1		2016-08-19T14:49:52Z	2016-08-19T15:05:06Z	2016-08-19T15:05:06Z	Inaccurate Documentation?	148		
+8182	291301	true	open	false	0	0	2016-08-19T15:50:46Z	2016-08-19T15:50:46Z		buffer: hard-deprecate SlowBuffer	134		
+8183	3428929	true	open	false	0	0	2016-08-19T16:00:36Z	2016-08-19T16:00:36Z		Update util.md for ES6 extends code example	47		
