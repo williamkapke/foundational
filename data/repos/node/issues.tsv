@@ -323,7 +323,7 @@
 7157	469365	true	closed	false	28		2016-06-05T01:13:32Z	2016-07-05T18:16:17Z	2016-06-27T20:40:21Z	buffers: speed up swap16/32, add swap64	566		
 7158	9056756	false	closed	false	5		2016-06-05T04:43:28Z	2016-07-11T09:40:17Z	2016-06-05T06:49:21Z	Unable to cross-compile Node v6.2.1 for iOS	283		
 7163	628445	false	open	false	11		2016-06-05T18:53:46Z	2016-08-03T16:34:40Z		`systemjs-plugin-babel` fails on `v6.2.0`	47		
-7165	696611	true	open	false	21		2016-06-05T21:37:06Z	2016-08-20T07:48:42Z		"fs: refactor ""options"" processing as a function"	86		
+7165	696611	true	open	false	21		2016-06-05T21:37:06Z	2016-08-21T21:48:38Z		"fs: refactor ""options"" processing as a function"	86		
 7168	696611	true	closed	false	21		2016-06-05T22:31:56Z	2016-07-28T01:38:31Z	2016-07-21T21:06:43Z	fs: remove maybeCallback function	124		
 7170	5470583	false	closed	false	2		2016-06-06T00:52:46Z	2016-06-30T06:20:53Z	2016-06-30T06:20:53Z	Doc Markup Typo	13		
 7173	239840	false	closed	false	31		2016-06-06T04:56:17Z	2016-07-11T22:31:41Z	2016-06-09T17:34:30Z	Failed to compile from source for armv7l (busybox) on 	187		
@@ -1169,7 +1169,7 @@
 8163	1095402	false	open	false	0		2016-08-18T17:34:15Z	2016-08-18T17:34:15Z		Inserting CR in addition to LF in util.inspect() is not right on UNIX OSes	156		
 8164	2512748	true	closed	false	3	0	2016-08-18T17:44:47Z	2016-08-20T20:27:16Z	2016-08-20T20:27:16Z	child_process: reuse existing no-op function	48	2512748	2016-08-20T20:27:16Z
 8165	159100	false	open	false	9		2016-08-18T19:12:43Z	2016-08-21T20:53:20Z		url.resolve auth behavior if host does *not* change	121		
-8166	439929	true	open	false	15		2016-08-18T19:15:57Z	2016-08-18T22:09:05Z		lib,fs: use process.emitWarning instead of internal print dep warning	103		
+8166	439929	true	open	false	16		2016-08-18T19:15:57Z	2016-08-21T21:45:03Z		lib,fs: use process.emitWarning instead of internal print dep warning	103		
 8167	657552	false	open	false	2		2016-08-18T19:48:09Z	2016-08-18T20:03:15Z		TypeError: Forked processes must have an IPC channel	61		
 8168	2512748	true	open	false			2016-08-18T20:31:47Z	2016-08-19T16:14:57Z		test: exercise EE function type checking paths	60		
 8169	988441	true	open	false			2016-08-18T20:52:01Z	2016-08-21T14:42:39Z		buffer: hard-deprecate calling Buffer without new	59		
@@ -1186,31 +1186,31 @@
 8180	718899	true	open	false	2		2016-08-19T03:23:54Z	2016-08-19T14:29:53Z		test: refactor test-tick-processor	79		
 8181	8255757	false	closed	false	1		2016-08-19T14:49:52Z	2016-08-19T15:05:06Z	2016-08-19T15:05:06Z	Inaccurate Documentation?	148		
 8182	291301	true	open	false			2016-08-19T15:50:46Z	2016-08-19T21:28:30Z		buffer: hard-deprecate SlowBuffer	133		
-8183	3428929	true	open	false	3		2016-08-19T16:00:36Z	2016-08-20T12:01:22Z		Update util.md for ES6 extends code example	45		
+8183	3428929	true	closed	false	4		2016-08-19T16:00:36Z	2016-08-21T21:55:22Z	2016-08-21T21:55:22Z	Update util.md for ES6 extends code example	45		
 8184	1935767	true	open	false			2016-08-19T16:24:50Z	2016-08-21T18:33:29Z		process: add the optional `once` to `emitWarning`	114		
 8185	21087407	false	closed	false	1		2016-08-19T17:09:19Z	2016-08-19T18:09:53Z	2016-08-19T18:09:53Z	Error: EPERM: operation not permitted	74		
 8186	2067616	false	open	false	1		2016-08-19T17:23:53Z	2016-08-20T00:50:19Z		Feature request: Horizontal peer-to-peer event-loop messaging w/ process.send (workers)	346		
-8187	696611	true	open	false			2016-08-19T18:29:39Z	2016-08-20T10:57:05Z		doc: improve `util._extend` function	30		
+8187	696611	true	open	false	6		2016-08-19T18:29:39Z	2016-08-21T21:51:39Z		doc: improve `util._extend` function	30		
 8188	110455	true	open	false			2016-08-19T21:04:28Z	2016-08-20T17:53:22Z		crypto: expose ECDH class	106		
-8189	718899	true	open	false			2016-08-19T21:26:26Z	2016-08-21T13:01:12Z		test: refactor test-util-inspect	47		
+8189	718899	true	open	false	3		2016-08-19T21:26:26Z	2016-08-21T21:58:53Z		test: refactor test-util-inspect	47		
 8190	248570	true	open	false	3		2016-08-19T21:32:54Z	2016-08-19T23:09:48Z		test: change equals comparison operator to be strict	50		
 8191	11976448	true	open	false	11		2016-08-19T21:34:50Z	2016-08-21T11:05:13Z		test: favor `===` over `==` in vm test	31		
 8192	110455	true	open	false	16		2016-08-19T22:27:45Z	2016-08-20T20:45:39Z		timers: expose timer classes	81		
 8193	718899	true	open	false	4		2016-08-19T23:46:18Z	2016-08-21T10:47:04Z		test: refactor test-timers-linked-list.js	48		
-8194	718899	true	open	false	4		2016-08-20T05:08:03Z	2016-08-21T10:45:32Z		"doc: remove ""feature branch"" jargon"	117		
+8194	718899	true	open	false	5		2016-08-20T05:08:03Z	2016-08-21T21:58:30Z		"doc: remove ""feature branch"" jargon"	117		
 8195	1622515	false	open	false	7		2016-08-20T07:13:12Z	2016-08-20T10:46:45Z		repl: Proposal for better repl	261		
 8196	1443911	true	open	false			2016-08-20T10:07:16Z	2016-08-20T14:48:42Z		doc: add `added:` information for dgram	27		
 8197	1935767	true	open	false	3		2016-08-20T12:12:47Z	2016-08-21T18:34:32Z		stream: move legacy to sep file	88		
-8198	1935767	true	open	false	0	0	2016-08-20T13:44:24Z	2016-08-20T13:44:24Z		async_wrap: add a missing case to test-async-wrap-throw-no-init	54		
+8198	1935767	true	open	false	1		2016-08-20T13:44:24Z	2016-08-21T21:56:11Z		async_wrap: add a missing case to test-async-wrap-throw-no-init	54		
 8199	11921153	false	closed	false	1		2016-08-21T00:55:41Z	2016-08-21T08:04:05Z	2016-08-21T08:04:04Z	install Node.js Failed to open XML file C:\Program Files\nodejs\node_etw_provider.man,system error:-2147221164	6		
-8200	10378547	true	open	false	0	0	2016-08-21T02:13:25Z	2016-08-21T02:13:25Z		doc: fix onReadable reentry after unshift called	69		
+8200	10378547	true	open	false	1		2016-08-21T02:13:25Z	2016-08-21T21:56:59Z		doc: fix onReadable reentry after unshift called	69		
 8201	1187447	false	open	false	0		2016-08-21T02:15:38Z	2016-08-21T11:36:47Z		--inspect flag and cluster module -  Debug port numbers not incrementing	139		
-8202	718899	true	open	false	0	0	2016-08-21T03:06:46Z	2016-08-21T03:06:48Z		test: split test-crypto-timing-safe-equal	79		
+8202	718899	true	open	false	1		2016-08-21T03:06:46Z	2016-08-21T21:57:48Z		test: split test-crypto-timing-safe-equal	79		
 8203	718899	true	open	false	18		2016-08-21T04:17:23Z	2016-08-21T20:25:25Z		WIP: test: force garbage collection on crypto timing test	52		
 8204	1935767	true	open	false	2		2016-08-21T05:23:25Z	2016-08-21T18:44:02Z		node_main: use ERROR_EXE_MACHINE_TYPE_MISMATCH instead 1 as exit code	65		
 8205	880513	false	closed	false	2		2016-08-21T08:07:31Z	2016-08-21T10:39:06Z	2016-08-21T08:12:47Z	dgram: lose UDP messages when sending a large number of messages at the same time	113		
-8206	1443911	true	open	false	1		2016-08-21T09:12:33Z	2016-08-21T17:34:45Z		doc: add `added:` information for util	27		
-8207	275871	true	open	false			2016-08-21T11:26:52Z	2016-08-21T15:08:41Z		src: clean up PER_ISOLATE_STRING_PROPERTIES	2		
+8206	1443911	true	open	false	2		2016-08-21T09:12:33Z	2016-08-21T22:00:05Z		doc: add `added:` information for util	27		
+8207	275871	true	open	false	2		2016-08-21T11:26:52Z	2016-08-21T21:59:36Z		src: clean up PER_ISOLATE_STRING_PROPERTIES	2		
 8208	1347002	false	open	false	1		2016-08-21T13:48:21Z	2016-08-21T15:32:39Z		--inspect: chrome-devtools - nullptr 	68		
 8209	718899	false	open	false	0		2016-08-21T14:31:34Z	2016-08-21T14:31:34Z		investigate flaky sequential/test-child-process-pass-fd on SmartoS	741		
 8210	8208733	false	closed	false	2		2016-08-21T17:36:00Z	2016-08-21T19:02:20Z	2016-08-21T19:02:20Z	Cross compiling NodeJS for MIPS V8 requirements	65		
@@ -1219,3 +1219,4 @@
 8213	1898870	false	open	false	0		2016-08-21T20:22:13Z	2016-08-21T20:22:13Z		url.resolveObject: conflicting values of host and port	79		
 8214	1898870	true	open	false	0	0	2016-08-21T20:34:20Z	2016-08-21T20:34:20Z		url: fix inconsistent port in url.resolveObject	87		
 8215	1898870	true	open	false	0	0	2016-08-21T20:50:34Z	2016-08-21T20:50:34Z		url: keep auth in `url.resolve()` if host matches	56		
+8216	788473	false	open	false	0		2016-08-21T21:39:44Z	2016-08-21T21:39:44Z		Garbage Collection Crash	128		
