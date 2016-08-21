@@ -13,6 +13,7 @@
 854	172	false	open	false	58		2015-02-15T19:37:43Z	2016-08-10T19:37:47Z		os x: FSEventStreamFlushSync assertions logged to console	100		
 855	617481	false	open	false	16		2015-02-15T21:57:32Z	2016-08-11T16:02:47Z		vm: references to context inside objects are not === the original context	58		
 1128	36662	false	open	false	16		2015-03-11T22:48:11Z	2016-08-04T12:39:55Z		feature request: a way to inspect what's in the event loop	137		
+1278	532414	false	closed	false	33		2015-03-26T19:55:14Z	2016-08-21T14:21:23Z	2016-02-12T21:20:04Z	Compressed packages	136		
 1592	617235	false	open	false	206		2015-05-02T19:25:40Z	2016-07-25T11:24:25Z		gripe: deprecating fs.exists/existsSync	202		
 1634	495647	false	open	false	10		2015-05-06T04:07:08Z	2016-08-03T18:19:05Z		Race condition on history file with multiple REPLs	57		
 1671	291301	false	open	false	51		2015-05-11T05:25:09Z	2016-07-19T11:45:03Z		`Buffer` and `ArrayBuffer`-based objects trigger mark-sweeps instead of scavenges	67		
@@ -1171,7 +1172,7 @@
 8166	439929	true	open	false	15		2016-08-18T19:15:57Z	2016-08-18T22:09:05Z		lib,fs: use process.emitWarning instead of internal print dep warning	103		
 8167	657552	false	open	false	2		2016-08-18T19:48:09Z	2016-08-18T20:03:15Z		TypeError: Forked processes must have an IPC channel	61		
 8168	2512748	true	open	false			2016-08-18T20:31:47Z	2016-08-19T16:14:57Z		test: exercise EE function type checking paths	60		
-8169	988441	true	open	false	16		2016-08-18T20:52:01Z	2016-08-19T17:20:01Z		buffer: hard-deprecate calling Buffer without new	59		
+8169	988441	true	open	false			2016-08-18T20:52:01Z	2016-08-21T14:42:39Z		buffer: hard-deprecate calling Buffer without new	59		
 8170	2512748	true	open	false	5		2016-08-18T21:30:38Z	2016-08-20T20:34:17Z		dns: lookupService() callback must be a function	179		
 8171	248374	true	open	false	1		2016-08-18T22:02:29Z	2016-08-19T14:32:49Z		build: add node_module_version to config.gypi	25		
 8172	88045	false	closed	false	2		2016-08-18T22:27:28Z	2016-08-19T07:31:05Z	2016-08-18T22:50:20Z	6.4.0 is linking against GLIBCXX_3.4.18 (libstdc++6 >=4.8)	533		
@@ -1199,15 +1200,16 @@
 8194	718899	true	open	false	4		2016-08-20T05:08:03Z	2016-08-21T10:45:32Z		"doc: remove ""feature branch"" jargon"	117		
 8195	1622515	false	open	false	7		2016-08-20T07:13:12Z	2016-08-20T10:46:45Z		repl: Proposal for better repl	261		
 8196	1443911	true	open	false			2016-08-20T10:07:16Z	2016-08-20T14:48:42Z		doc: add `added:` information for dgram	27		
-8197	1935767	true	open	false			2016-08-20T12:12:47Z	2016-08-20T19:14:50Z		stream: move legacy to sep file	88		
+8197	1935767	true	open	false	2		2016-08-20T12:12:47Z	2016-08-21T14:03:39Z		stream: move legacy to sep file	88		
 8198	1935767	true	open	false	0	0	2016-08-20T13:44:24Z	2016-08-20T13:44:24Z		async_wrap: add a missing case to test-async-wrap-throw-no-init	54		
 8199	11921153	false	closed	false	1		2016-08-21T00:55:41Z	2016-08-21T08:04:05Z	2016-08-21T08:04:04Z	install Node.js Failed to open XML file C:\Program Files\nodejs\node_etw_provider.man,system error:-2147221164	6		
 8200	10378547	true	open	false	0	0	2016-08-21T02:13:25Z	2016-08-21T02:13:25Z		doc: fix onReadable reentry after unshift called	69		
 8201	1187447	false	open	false	0		2016-08-21T02:15:38Z	2016-08-21T11:36:47Z		--inspect flag and cluster module -  Debug port numbers not incrementing	139		
 8202	718899	true	open	false	0	0	2016-08-21T03:06:46Z	2016-08-21T03:06:48Z		test: split test-crypto-timing-safe-equal	79		
-8203	718899	true	open	false	12		2016-08-21T04:17:23Z	2016-08-21T05:08:12Z		WIP: test: force garbage collection on crypto timing test	52		
+8203	718899	true	open	false	16		2016-08-21T04:17:23Z	2016-08-21T14:26:52Z		WIP: test: force garbage collection on crypto timing test	52		
 8204	1935767	true	open	false			2016-08-21T05:23:25Z	2016-08-21T10:10:56Z		node_main: use ERROR_EXE_MACHINE_TYPE_MISMATCH instead 1 as exit code	65		
 8205	880513	false	closed	false	2		2016-08-21T08:07:31Z	2016-08-21T10:39:06Z	2016-08-21T08:12:47Z	dgram: lose UDP messages when sending a large number of messages at the same time	113		
-8206	1443911	true	open	false			2016-08-21T09:12:33Z	2016-08-21T13:54:06Z		doc: add `added:` information for util	27		
+8206	1443911	true	open	false			2016-08-21T09:12:33Z	2016-08-21T14:02:22Z		doc: add `added:` information for util	27		
 8207	275871	true	open	false	0	0	2016-08-21T11:26:52Z	2016-08-21T11:26:52Z		src: clean up PER_ISOLATE_STRING_PROPERTIES	0		
 8208	1347002	false	open	false	0		2016-08-21T13:48:21Z	2016-08-21T13:48:21Z		--inspect: chrome-devtools - nullptr 	66		
+8209	718899	false	open	false	0		2016-08-21T14:31:34Z	2016-08-21T14:31:34Z		investigate flaky sequential/test-child-process-pass-fd on SmartoS	741		
