@@ -768,7 +768,7 @@
 7761	14905903	false	open	false	0		2016-07-16T13:05:06Z	2016-07-16T13:05:06Z		Node JS: graceful fs	86		
 7762	275871	true	closed	false	1	0	2016-07-16T14:24:37Z	2016-08-01T14:24:48Z	2016-08-01T14:24:48Z	build: don't link against liblog on host system	32		
 7763	1110797	true	open	false	4		2016-07-16T16:42:47Z	2016-07-27T11:42:55Z		Minor typo fixes in stream docs.	32		
-7764	988441	true	open	false	10		2016-07-16T17:21:26Z	2016-08-18T20:14:41Z		src: don't include a null character in the WriteConsoleW call	63		
+7764	988441	true	open	false	12		2016-07-16T17:21:26Z	2016-08-21T20:52:24Z		src: don't include a null character in the WriteConsoleW call	63		
 7765	718899	true	open	false	0	0	2016-07-16T20:28:11Z	2016-07-16T20:28:11Z		test: remove flaky status IPv6 localhost tests	59		
 7766	718899	true	closed	false	10		2016-07-16T20:46:38Z	2016-07-20T17:40:50Z	2016-07-20T17:40:50Z	test: handle IPv6 localhost issues within tests	56		
 7767	718899	false	closed	false	5		2016-07-16T20:52:23Z	2016-08-02T14:08:49Z	2016-08-02T14:08:49Z	Investigate flaky test-vm-sigint	46		
@@ -1104,7 +1104,7 @@
 8098	718899	true	closed	false	7		2016-08-14T03:48:25Z	2016-08-17T03:53:30Z	2016-08-17T03:53:30Z	test: use strict equality in regression test	38		
 8099	2352663	true	closed	false	6		2016-08-14T09:33:56Z	2016-08-20T15:01:42Z	2016-08-17T07:43:41Z	deps: cherry-pick de5aaad from V8's upstream	86		
 8100	899444	true	open	false			2016-08-14T17:22:09Z	2016-08-18T17:11:25Z		fs,module: add module-loader-only realpath cache	112		
-8101	6517897	true	open	false	6		2016-08-14T19:58:27Z	2016-08-21T19:50:26Z		net, http: allow setting socket connection timeout for http request	69		
+8101	6517897	true	open	false			2016-08-14T19:58:27Z	2016-08-21T20:11:52Z		net, http: allow setting socket connection timeout for http request	67		
 8102	6850510	false	open	false	8		2016-08-14T20:25:09Z	2016-08-15T19:52:48Z		False successfully end of request	344		
 8103	110455	true	open	false	1		2016-08-14T21:45:22Z	2016-08-14T22:04:14Z		http: fix legacy http.Client instanceof	205		
 8104	54666	true	open	false	4		2016-08-14T22:28:11Z	2016-08-15T15:56:40Z		http: remove deprecated Client interface	53		
@@ -1168,7 +1168,7 @@
 8162	4811358	false	open	false	3		2016-08-18T16:39:58Z	2016-08-18T19:21:24Z		GC Mark-sweep Allocation Failure	221		
 8163	1095402	false	open	false	0		2016-08-18T17:34:15Z	2016-08-18T17:34:15Z		Inserting CR in addition to LF in util.inspect() is not right on UNIX OSes	156		
 8164	2512748	true	closed	false	3	0	2016-08-18T17:44:47Z	2016-08-20T20:27:16Z	2016-08-20T20:27:16Z	child_process: reuse existing no-op function	48	2512748	2016-08-20T20:27:16Z
-8165	159100	false	open	false	6		2016-08-18T19:12:43Z	2016-08-19T22:22:40Z		url.resolve auth behavior if host does *not* change	121		
+8165	159100	false	open	false	9		2016-08-18T19:12:43Z	2016-08-21T20:53:20Z		url.resolve auth behavior if host does *not* change	121		
 8166	439929	true	open	false	15		2016-08-18T19:15:57Z	2016-08-18T22:09:05Z		lib,fs: use process.emitWarning instead of internal print dep warning	103		
 8167	657552	false	open	false	2		2016-08-18T19:48:09Z	2016-08-18T20:03:15Z		TypeError: Forked processes must have an IPC channel	61		
 8168	2512748	true	open	false			2016-08-18T20:31:47Z	2016-08-19T16:14:57Z		test: exercise EE function type checking paths	60		
@@ -1206,7 +1206,7 @@
 8200	10378547	true	open	false	0	0	2016-08-21T02:13:25Z	2016-08-21T02:13:25Z		doc: fix onReadable reentry after unshift called	69		
 8201	1187447	false	open	false	0		2016-08-21T02:15:38Z	2016-08-21T11:36:47Z		--inspect flag and cluster module -  Debug port numbers not incrementing	139		
 8202	718899	true	open	false	0	0	2016-08-21T03:06:46Z	2016-08-21T03:06:48Z		test: split test-crypto-timing-safe-equal	79		
-8203	718899	true	open	false	16		2016-08-21T04:17:23Z	2016-08-21T14:26:52Z		WIP: test: force garbage collection on crypto timing test	52		
+8203	718899	true	open	false	18		2016-08-21T04:17:23Z	2016-08-21T20:25:25Z		WIP: test: force garbage collection on crypto timing test	52		
 8204	1935767	true	open	false	2		2016-08-21T05:23:25Z	2016-08-21T18:44:02Z		node_main: use ERROR_EXE_MACHINE_TYPE_MISMATCH instead 1 as exit code	65		
 8205	880513	false	closed	false	2		2016-08-21T08:07:31Z	2016-08-21T10:39:06Z	2016-08-21T08:12:47Z	dgram: lose UDP messages when sending a large number of messages at the same time	113		
 8206	1443911	true	open	false	1		2016-08-21T09:12:33Z	2016-08-21T17:34:45Z		doc: add `added:` information for util	27		
@@ -1215,4 +1215,7 @@
 8209	718899	false	open	false	0		2016-08-21T14:31:34Z	2016-08-21T14:31:34Z		investigate flaky sequential/test-child-process-pass-fd on SmartoS	741		
 8210	8208733	false	closed	false	2		2016-08-21T17:36:00Z	2016-08-21T19:02:20Z	2016-08-21T19:02:20Z	Cross compiling NodeJS for MIPS V8 requirements	65		
 8211	926815	false	open	false	0		2016-08-21T18:27:35Z	2016-08-21T18:27:35Z		Fix or Mark apis in the documentation that cannot be try/catch/promised	153		
-8212	1084056	true	open	false	0	0	2016-08-21T19:06:41Z	2016-08-21T19:06:41Z		test: fix flaky `test-child-process-pass-fd`	40		
+8212	1084056	true	open	false	0		2016-08-21T19:06:41Z	2016-08-21T20:20:59Z		test: fix flaky `test-child-process-pass-fd`	40		
+8213	1898870	false	open	false	0		2016-08-21T20:22:13Z	2016-08-21T20:22:13Z		url.resolveObject: conflicting values of host and port	79		
+8214	1898870	true	open	false	0	0	2016-08-21T20:34:20Z	2016-08-21T20:34:20Z		url: fix inconsistent port in url.resolveObject	87		
+8215	1898870	true	open	false	0	0	2016-08-21T20:50:34Z	2016-08-21T20:50:34Z		url: keep auth in `url.resolve()` if host matches	56		
