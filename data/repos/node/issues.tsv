@@ -61,6 +61,7 @@
 3009	112555	false	closed	false	10		2015-09-22T19:15:53Z	2016-07-12T15:55:34Z	2016-04-09T05:21:32Z	Sending a body with a GET request using http.request cannot be received using http.server	235		
 3063	98899	true	closed	false	82		2015-09-25T17:01:14Z	2016-07-26T17:40:40Z	2016-07-15T17:38:59Z	timers: fix processing of nested same delay timers	21		
 3072	247721	false	open	false	93		2015-09-26T02:29:39Z	2016-08-18T16:28:55Z		Cluster crash in main process, callback undefined when handling internal messages	152		
+3073	220205	true	closed	false	48		2015-09-26T09:13:35Z	2016-08-22T18:20:41Z	2016-08-22T18:20:41Z	Add crypto.timingSafeEqual().	2		
 3098	639601	true	closed	false	15		2015-09-28T03:35:50Z	2016-06-30T12:31:35Z	2016-05-19T11:01:44Z	src: fix linking when built as shared library	192		
 3101	7358595	false	closed	false	10		2015-09-28T11:07:40Z	2016-07-20T05:37:03Z	2015-09-28T12:34:09Z	Destructuring Assignment doesn't work in node v 4.1.0 for me	52		
 3105	452298	false	closed	false	6		2015-09-28T17:02:34Z	2016-07-13T06:35:23Z	2016-07-13T06:35:23Z	Generators are not providing the right line:col for the error message	116		
@@ -860,7 +861,7 @@
 7853	516780	false	open	false	5		2016-07-23T19:28:07Z	2016-08-21T08:33:08Z		node --debug takes a really long time to respond to websockets	180		
 7854	1084056	true	closed	false	10		2016-07-23T20:09:19Z	2016-08-02T14:08:28Z	2016-08-02T14:08:28Z	test: fix test-vm-sigint flakiness	68		
 7855	1422781	true	open	false	20		2016-07-23T20:38:28Z	2016-08-19T12:14:24Z		dgram: setMulticastInterface() outgoing interface selection	72		
-7856	373545	true	open	false	14		2016-07-23T20:49:58Z	2016-08-19T01:58:02Z		fs: Fix default params for fs.write	81		
+7856	373545	true	open	false	16		2016-07-23T20:49:58Z	2016-08-22T18:13:13Z		fs: Fix default params for fs.write	81		
 7857	718899	true	closed	false	26		2016-07-23T21:15:43Z	2016-07-31T20:33:10Z	2016-07-31T20:33:10Z	test: fix flaky test-tls-wrap-timeout	59		
 7858	3524633	false	closed	false	18		2016-07-24T00:23:34Z	2016-08-08T12:55:45Z	2016-07-25T15:53:16Z	Add fsevents to NodeJS	211		
 7859	1084056	true	closed	false	9	5	2016-07-24T06:28:47Z	2016-07-31T21:08:12Z	2016-07-31T21:08:12Z	tools,test: show signal code when test crashes	31	1084056	2016-07-31T21:08:12Z
@@ -1043,7 +1044,7 @@
 8037	439929	true	open	false	1		2016-08-09T20:50:54Z	2016-08-09T22:11:08Z		doc: document vm module limitation with timeouts and async code	28		
 8038	4976075	true	closed	false	15		2016-08-09T21:30:44Z	2016-08-11T17:06:35Z	2016-08-11T16:40:30Z	Cherry pick 588e15c and c0d4bb8 from upstream V8	61		
 8039	899444	true	open	false	11		2016-08-09T22:47:32Z	2016-08-18T01:45:02Z		test: add an zlib binding addon test	71		
-8040	11638619	true	closed	false	77		2016-08-09T23:32:06Z	2016-08-21T04:03:18Z	2016-08-20T02:38:11Z	Add crypto.timingSafeEqual()	68		
+8040	11638619	true	closed	false	80		2016-08-09T23:32:06Z	2016-08-22T18:18:48Z	2016-08-20T02:38:11Z	Add crypto.timingSafeEqual()	68		
 8041	718899	false	open	false	0		2016-08-09T23:45:53Z	2016-08-09T23:45:53Z		Investigate flaky test-timers-blocking-callback on FreeBSD	38		
 8042	3231296	false	closed	false	3		2016-08-10T01:22:11Z	2016-08-10T22:07:48Z	2016-08-10T11:56:32Z	VM: Add source mapping support	163		
 8043	426418	true	open	false	11		2016-08-10T02:07:44Z	2016-08-15T16:09:09Z		inspector: add support for uncaught exception	60		
@@ -1153,12 +1154,12 @@
 8147	439929	false	open	false	0		2016-08-17T17:37:40Z	2016-08-17T17:37:40Z		Buffer.prototype.toLocaleString needs a Buffer-specific implementation	60		
 8148	439929	true	open	false	3		2016-08-17T17:59:11Z	2016-08-22T17:55:45Z		buffer: alias toLocaleString to toString	54		
 8149	9287	false	open	false	53		2016-08-17T18:56:35Z	2016-08-21T09:35:42Z		RFE: Articulate benefits of moving code to internal/...	124		
-8150	79017	true	open	false	6		2016-08-17T23:10:09Z	2016-08-20T08:54:41Z		Update v8_inspector	42		
+8150	79017	true	open	false	7		2016-08-17T23:10:09Z	2016-08-22T18:14:56Z		Update v8_inspector	42		
 8151	718899	true	closed	false	5		2016-08-17T23:15:44Z	2016-08-19T23:31:11Z	2016-08-19T23:31:11Z	test: favor strict equality in http tests	31		
 8152	718899	true	closed	false	5		2016-08-18T00:02:11Z	2016-08-19T23:51:58Z	2016-08-19T23:51:58Z	test: add missing assert.deepEqual() test case	84		
 8153	8503065	false	open	false	1		2016-08-18T00:37:22Z	2016-08-18T03:36:32Z		Update _stream_readable.js to  delete invalid parameter.	7		
 8154	899444	true	open	false	7		2016-08-18T02:02:18Z	2016-08-18T17:50:13Z		buffer: allow .write() offset to be at buffer end	57		
-8155	8052307	false	open	false	3		2016-08-18T05:06:48Z	2016-08-20T18:55:18Z		assertion when attaching the Chrome dev tools	67		
+8155	8052307	false	open	false	3		2016-08-18T05:06:48Z	2016-08-22T18:42:23Z		assertion when attaching the Chrome dev tools	67		
 8156	718899	true	closed	false	6	2	2016-08-18T05:43:54Z	2016-08-20T04:48:09Z	2016-08-20T04:48:09Z	test: add assert.notDeepEqual() tests	49		
 8157	505333	false	open	false	5		2016-08-18T12:02:37Z	2016-08-18T19:45:30Z		benchmark jenkins job?	165		
 8158	1404810	true	open	false	4		2016-08-18T12:42:22Z	2016-08-22T09:38:10Z		doc: correct argument type for process.cpuUsage	32		
@@ -1173,8 +1174,8 @@
 8167	657552	false	open	false	2		2016-08-18T19:48:09Z	2016-08-18T20:03:15Z		TypeError: Forked processes must have an IPC channel	61		
 8168	2512748	true	open	false			2016-08-18T20:31:47Z	2016-08-19T16:14:57Z		test: exercise EE function type checking paths	60		
 8169	988441	true	open	false			2016-08-18T20:52:01Z	2016-08-21T14:42:39Z		buffer: hard-deprecate calling Buffer without new	59		
-8170	2512748	true	open	false	5		2016-08-18T21:30:38Z	2016-08-20T20:34:17Z		dns: lookupService() callback must be a function	179		
-8171	248374	true	open	false			2016-08-18T22:02:29Z	2016-08-22T15:50:44Z		build: add node_module_version to config.gypi	25		
+8170	2512748	true	open	false	6		2016-08-18T21:30:38Z	2016-08-22T18:09:31Z		dns: lookupService() callback must be a function	179		
+8171	248374	true	closed	false	5		2016-08-18T22:02:29Z	2016-08-22T18:05:21Z	2016-08-22T18:05:21Z	build: add node_module_version to config.gypi	25		
 8172	88045	false	closed	false	2		2016-08-18T22:27:28Z	2016-08-19T07:31:05Z	2016-08-18T22:50:20Z	6.4.0 is linking against GLIBCXX_3.4.18 (libstdc++6 >=4.8)	533		
 8173	718899	true	closed	false	5		2016-08-18T22:37:52Z	2016-08-21T22:44:00Z	2016-08-21T22:44:00Z	test: favor strict equality in test-exec	31		
 8174	899444	true	open	false	8		2016-08-18T23:02:48Z	2016-08-22T15:00:34Z		util: allow symbol-based custom inspection methods	95		
@@ -1206,12 +1207,12 @@
 8200	10378547	true	open	false	2		2016-08-21T02:13:25Z	2016-08-22T07:03:52Z		doc: fix onReadable reentry after unshift called	69		
 8201	1187447	false	open	false	0		2016-08-21T02:15:38Z	2016-08-21T11:36:47Z		--inspect flag and cluster module -  Debug port numbers not incrementing	139		
 8202	718899	true	open	false	1		2016-08-21T03:06:46Z	2016-08-21T21:57:48Z		test: split test-crypto-timing-safe-equal	79		
-8203	718899	true	open	false	32		2016-08-21T04:17:23Z	2016-08-22T06:13:41Z		WIP: test: force garbage collection on crypto timing test	52		
+8203	718899	true	open	false	33		2016-08-21T04:17:23Z	2016-08-22T18:18:41Z		WIP: test: force garbage collection on crypto timing test	52		
 8204	1935767	true	open	false	4		2016-08-21T05:23:25Z	2016-08-22T08:09:50Z		node_main: use ERROR_EXE_MACHINE_TYPE_MISMATCH instead 1 as exit code	65		
 8205	880513	false	closed	false	2		2016-08-21T08:07:31Z	2016-08-21T10:39:06Z	2016-08-21T08:12:47Z	dgram: lose UDP messages when sending a large number of messages at the same time	113		
 8206	1443911	true	open	false	2		2016-08-21T09:12:33Z	2016-08-21T22:00:05Z		doc: add `added:` information for util	27		
 8207	275871	true	open	false	2		2016-08-21T11:26:52Z	2016-08-21T21:59:36Z		src: clean up PER_ISOLATE_STRING_PROPERTIES	2		
-8208	1347002	false	open	false	1		2016-08-21T13:48:21Z	2016-08-21T15:32:39Z		--inspect: chrome-devtools - nullptr 	68		
+8208	1347002	false	open	false	1		2016-08-21T13:48:21Z	2016-08-22T18:38:15Z		--inspect: chrome-devtools - nullptr 	68		
 8209	718899	false	open	false	0		2016-08-21T14:31:34Z	2016-08-21T14:31:34Z		investigate flaky sequential/test-child-process-pass-fd on SmartoS	741		
 8210	8208733	false	closed	false	2		2016-08-21T17:36:00Z	2016-08-21T19:02:20Z	2016-08-21T19:02:20Z	Cross compiling NodeJS for MIPS V8 requirements	65		
 8211	926815	false	open	false	0		2016-08-21T18:27:35Z	2016-08-21T18:27:35Z		Fix or Mark apis in the documentation that cannot be try/catch/promised	153		
@@ -1227,4 +1228,6 @@
 8221	289174	false	open	false	2		2016-08-22T09:26:43Z	2016-08-22T16:56:28Z		32bit address given for 64bit builds using --prof on Windows	101		
 8222	11819320	false	open	false	0		2016-08-22T16:23:54Z	2016-08-22T16:23:54Z		Cant compile from github	38		
 8223	439929	true	open	false	0	0	2016-08-22T16:31:49Z	2016-08-22T16:31:49Z		promise: warning on unhandled rejection (v6.x)	71		
-8224	714117	false	open	false	1		2016-08-22T16:54:02Z	2016-08-22T17:34:00Z		REPL debugging Proxy bug	105		
+8224	714117	false	open	false	1		2016-08-22T16:54:02Z	2016-08-22T18:15:45Z		REPL debugging Proxy bug	105		
+8225	439929	true	open	false	0	0	2016-08-22T18:18:33Z	2016-08-22T18:18:33Z		"Revert ""crypto: add crypto.timingSafeEqual"""	70		
+8226	961599	false	open	false	0		2016-08-22T18:43:07Z	2016-08-22T18:43:07Z		Some c-ares symbols in Node headers not exported by Node executable	93		
