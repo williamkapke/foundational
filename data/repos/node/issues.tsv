@@ -13,7 +13,7 @@
 854	172	false	open	false	58		2015-02-15T19:37:43Z	2016-08-10T19:37:47Z		os x: FSEventStreamFlushSync assertions logged to console	100		
 855	617481	false	open	false	16		2015-02-15T21:57:32Z	2016-08-11T16:02:47Z		vm: references to context inside objects are not === the original context	58		
 1128	36662	false	open	false	16		2015-03-11T22:48:11Z	2016-08-04T12:39:55Z		feature request: a way to inspect what's in the event loop	137		
-1278	532414	false	closed	false	33		2015-03-26T19:55:14Z	2016-08-21T14:21:23Z	2016-02-12T21:20:04Z	Compressed packages	136		
+1278	532414	false	closed	false	34		2015-03-26T19:55:14Z	2016-08-22T20:24:11Z	2016-02-12T21:20:04Z	Compressed packages	136		
 1592	617235	false	open	false	206		2015-05-02T19:25:40Z	2016-07-25T11:24:25Z		gripe: deprecating fs.exists/existsSync	202		
 1634	495647	false	open	false	10		2015-05-06T04:07:08Z	2016-08-03T18:19:05Z		Race condition on history file with multiple REPLs	57		
 1671	291301	false	open	false	51		2015-05-11T05:25:09Z	2016-07-19T11:45:03Z		`Buffer` and `ArrayBuffer`-based objects trigger mark-sweeps instead of scavenges	67		
@@ -860,7 +860,7 @@
 7852	886388	false	closed	false	11		2016-07-23T18:24:17Z	2016-07-27T12:36:41Z	2016-07-25T04:16:55Z	Removing listener that was added multiple times	68		
 7853	516780	false	open	false	5		2016-07-23T19:28:07Z	2016-08-21T08:33:08Z		node --debug takes a really long time to respond to websockets	180		
 7854	1084056	true	closed	false	10		2016-07-23T20:09:19Z	2016-08-02T14:08:28Z	2016-08-02T14:08:28Z	test: fix test-vm-sigint flakiness	68		
-7855	1422781	true	open	false	20		2016-07-23T20:38:28Z	2016-08-19T12:14:24Z		dgram: setMulticastInterface() outgoing interface selection	72		
+7855	1422781	true	open	false	21		2016-07-23T20:38:28Z	2016-08-22T20:36:25Z		dgram: setMulticastInterface() outgoing interface selection	72		
 7856	373545	true	open	false	16		2016-07-23T20:49:58Z	2016-08-22T18:13:13Z		fs: Fix default params for fs.write	81		
 7857	718899	true	closed	false	26		2016-07-23T21:15:43Z	2016-07-31T20:33:10Z	2016-07-31T20:33:10Z	test: fix flaky test-tls-wrap-timeout	59		
 7858	3524633	false	closed	false	18		2016-07-24T00:23:34Z	2016-08-08T12:55:45Z	2016-07-25T15:53:16Z	Add fsevents to NodeJS	211		
@@ -1158,7 +1158,7 @@
 8151	718899	true	closed	false	5		2016-08-17T23:15:44Z	2016-08-19T23:31:11Z	2016-08-19T23:31:11Z	test: favor strict equality in http tests	31		
 8152	718899	true	closed	false	5		2016-08-18T00:02:11Z	2016-08-19T23:51:58Z	2016-08-19T23:51:58Z	test: add missing assert.deepEqual() test case	84		
 8153	8503065	false	open	false	1		2016-08-18T00:37:22Z	2016-08-18T03:36:32Z		Update _stream_readable.js to  delete invalid parameter.	7		
-8154	899444	true	open	false	7		2016-08-18T02:02:18Z	2016-08-18T17:50:13Z		buffer: allow .write() offset to be at buffer end	57		
+8154	899444	true	open	false	8		2016-08-18T02:02:18Z	2016-08-22T20:51:08Z		buffer: allow .write() offset to be at buffer end	57		
 8155	8052307	false	open	false	3		2016-08-18T05:06:48Z	2016-08-22T18:42:23Z		assertion when attaching the Chrome dev tools	67		
 8156	718899	true	closed	false	6	2	2016-08-18T05:43:54Z	2016-08-20T04:48:09Z	2016-08-20T04:48:09Z	test: add assert.notDeepEqual() tests	49		
 8157	505333	false	open	false	5		2016-08-18T12:02:37Z	2016-08-18T19:45:30Z		benchmark jenkins job?	165		
@@ -1186,9 +1186,9 @@
 8179	718899	true	closed	false	10	1	2016-08-19T02:45:52Z	2016-08-22T05:48:18Z	2016-08-22T05:48:18Z	test: add test for invalid cert string	59		
 8180	718899	true	closed	false	4		2016-08-19T03:23:54Z	2016-08-22T05:50:09Z	2016-08-22T05:50:09Z	test: refactor test-tick-processor	79		
 8181	8255757	false	closed	false	1		2016-08-19T14:49:52Z	2016-08-19T15:05:06Z	2016-08-19T15:05:06Z	Inaccurate Documentation?	148		
-8182	291301	true	open	false			2016-08-19T15:50:46Z	2016-08-19T21:28:30Z		buffer: hard-deprecate SlowBuffer	133		
+8182	291301	true	open	false	4		2016-08-19T15:50:46Z	2016-08-22T20:35:50Z		buffer: hard-deprecate SlowBuffer	133		
 8183	3428929	true	closed	false	4		2016-08-19T16:00:36Z	2016-08-21T21:55:22Z	2016-08-21T21:55:22Z	Update util.md for ES6 extends code example	45		
-8184	1935767	true	open	false	15		2016-08-19T16:24:50Z	2016-08-22T17:30:12Z		process: add the optional `once` to `emitWarning`	114		
+8184	1935767	true	open	false	18		2016-08-19T16:24:50Z	2016-08-22T20:07:15Z		process: add the optional `once` to `emitWarning`	114		
 8185	21087407	false	closed	false	1		2016-08-19T17:09:19Z	2016-08-19T18:09:53Z	2016-08-19T18:09:53Z	Error: EPERM: operation not permitted	74		
 8186	2067616	false	open	false	1		2016-08-19T17:23:53Z	2016-08-20T00:50:19Z		Feature request: Horizontal peer-to-peer event-loop messaging w/ process.send (workers)	346		
 8187	696611	true	open	false	6		2016-08-19T18:29:39Z	2016-08-21T21:51:39Z		doc: improve `util._extend` function	30		
@@ -1196,13 +1196,13 @@
 8189	718899	true	open	false	5		2016-08-19T21:26:26Z	2016-08-22T13:00:05Z		test: refactor test-util-inspect	47		
 8190	248570	true	closed	false	5	0	2016-08-19T21:32:54Z	2016-08-22T18:00:05Z	2016-08-22T18:00:04Z	test: change equals comparison operator to be strict	50		
 8191	11976448	true	open	false	11		2016-08-19T21:34:50Z	2016-08-21T11:05:13Z		test: favor `===` over `==` in vm test	31		
-8192	110455	true	open	false	16		2016-08-19T22:27:45Z	2016-08-20T20:45:39Z		timers: expose timer classes	81		
+8192	110455	true	open	false	16		2016-08-19T22:27:45Z	2016-08-22T20:57:32Z		timers: expose timer classes	81		
 8193	718899	true	open	false	4		2016-08-19T23:46:18Z	2016-08-21T10:47:04Z		test: refactor test-timers-linked-list.js	48		
 8194	718899	true	open	false	5		2016-08-20T05:08:03Z	2016-08-21T21:58:30Z		"doc: remove ""feature branch"" jargon"	117		
 8195	1622515	false	open	false	7		2016-08-20T07:13:12Z	2016-08-20T10:46:45Z		repl: Proposal for better repl	261		
 8196	1443911	true	open	false			2016-08-20T10:07:16Z	2016-08-20T14:48:42Z		doc: add `added:` information for dgram	27		
 8197	1935767	true	open	false	6		2016-08-20T12:12:47Z	2016-08-22T07:00:03Z		stream: move legacy to sep file	88		
-8198	1935767	true	open	false	3		2016-08-20T13:44:24Z	2016-08-22T07:24:12Z		async_wrap: add a missing case to test-async-wrap-throw-no-init	54		
+8198	1935767	true	open	false	4		2016-08-20T13:44:24Z	2016-08-22T20:36:47Z		async_wrap: add a missing case to test-async-wrap-throw-no-init	54		
 8199	11921153	false	closed	false	1		2016-08-21T00:55:41Z	2016-08-21T08:04:05Z	2016-08-21T08:04:04Z	install Node.js Failed to open XML file C:\Program Files\nodejs\node_etw_provider.man,system error:-2147221164	6		
 8200	10378547	true	open	false	2		2016-08-21T02:13:25Z	2016-08-22T07:03:52Z		doc: fix onReadable reentry after unshift called	69		
 8201	1187447	false	open	false	0		2016-08-21T02:15:38Z	2016-08-21T11:36:47Z		--inspect flag and cluster module -  Debug port numbers not incrementing	139		
@@ -1229,6 +1229,7 @@
 8222	11819320	false	open	false	0		2016-08-22T16:23:54Z	2016-08-22T16:23:54Z		Cant compile from github	38		
 8223	439929	true	open	false	0	0	2016-08-22T16:31:49Z	2016-08-22T16:31:49Z		promise: warning on unhandled rejection (v6.x)	71		
 8224	714117	false	open	false	4		2016-08-22T16:54:02Z	2016-08-22T19:35:43Z		REPL debugging Proxy bug	105		
-8225	439929	true	open	false	0	0	2016-08-22T18:18:33Z	2016-08-22T18:18:33Z		"Revert ""crypto: add crypto.timingSafeEqual"""	70		
-8226	961599	false	open	false	0		2016-08-22T18:43:07Z	2016-08-22T18:43:07Z		Some c-ares symbols in Node headers not exported by Node executable	93		
+8225	439929	true	open	false	1		2016-08-22T18:18:33Z	2016-08-22T20:55:56Z		"Revert ""crypto: add crypto.timingSafeEqual"""	70		
+8226	961599	false	open	false	1		2016-08-22T18:43:07Z	2016-08-22T21:01:01Z		Some c-ares symbols in Node headers not exported by Node executable	95		
 8227	3374946	false	open	false	0		2016-08-22T19:32:15Z	2016-08-22T19:32:15Z		buf.readUIntBE and buf.readUIntLE documentation examples are switched	80		
+8228	56045	false	open	false	0		2016-08-22T20:30:30Z	2016-08-22T20:30:30Z		buffer.write empty string to end of buffer: regression?	116		
