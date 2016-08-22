@@ -31,7 +31,7 @@
 2098	1881921	false	closed	false	20		2015-07-03T10:19:55Z	2016-07-12T10:29:54Z	2016-04-10T08:19:20Z	child_process.spawn sh not killable	166		
 2114	289174	false	open	false	12		2015-07-06T19:32:55Z	2016-07-20T15:59:23Z		incorrect URL parsing	46		
 2126	122831	false	open	false	8		2015-07-07T21:10:41Z	2016-07-11T22:19:43Z		SNICallback callback doesn't throw an error with invalid input	77		
-2133	829734	true	open	false	137		2015-07-08T12:31:57Z	2016-07-25T11:35:31Z		workers: initial implementation	56		
+2133	829734	true	open	false	138		2015-07-08T12:31:57Z	2016-08-22T15:37:37Z		workers: initial implementation	56		
 2138	495647	false	closed	false	24		2015-07-09T00:43:28Z	2016-06-30T05:17:39Z	2016-06-30T05:17:39Z	Process startup time on ARM	248		
 2232	1093990	true	closed	false	10		2015-07-24T00:46:36Z	2016-07-07T20:08:56Z	2016-01-11T20:54:45Z	Port from joyent/node: `timers: fix timeout when added in timer's callback`	11		
 2253	234659	true	closed	false	50		2015-07-27T16:53:56Z	2016-06-29T16:24:38Z	2016-05-11T18:52:36Z	ensure preload modules are always preloaded	30		
@@ -1130,7 +1130,7 @@
 8124	7015868	true	closed	false	3		2016-08-16T17:06:50Z	2016-08-18T16:51:38Z	2016-08-18T16:51:38Z	doc: fix variable scoping bug in Stream HTTP server example code	38		
 8125	718899	false	open	false	10		2016-08-16T17:36:26Z	2016-08-17T21:02:47Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-17	482		
 8126	1981088	true	open	false	12		2016-08-16T18:32:22Z	2016-08-18T16:49:44Z		Update release announcement instruction for Twitter	86		
-8127	20412432	false	open	false	2		2016-08-16T19:39:05Z	2016-08-18T15:33:36Z		Change between Node 6.3.1 and 6.4 regarding writing strings of length 0 to a Buffer	88		
+8127	20412432	false	open	false	5		2016-08-16T19:39:05Z	2016-08-22T15:36:36Z		Change between Node 6.3.1 and 6.4 regarding writing strings of length 0 to a Buffer	88		
 8128	718899	true	closed	false	12		2016-08-16T21:20:56Z	2016-08-18T21:42:22Z	2016-08-18T21:42:22Z	build: do not lint src dir for JS errors	49		
 8129	718899	true	closed	false	6		2016-08-16T22:10:23Z	2016-08-18T22:17:28Z	2016-08-18T22:17:28Z	test: fix assertion in test-watch-file.js	69		
 8130	718899	true	closed	false	4	0	2016-08-16T22:34:25Z	2016-08-18T22:42:17Z	2016-08-18T22:42:17Z	test: favor strict equality check	40		
@@ -1174,7 +1174,7 @@
 8168	2512748	true	open	false			2016-08-18T20:31:47Z	2016-08-19T16:14:57Z		test: exercise EE function type checking paths	60		
 8169	988441	true	open	false			2016-08-18T20:52:01Z	2016-08-21T14:42:39Z		buffer: hard-deprecate calling Buffer without new	59		
 8170	2512748	true	open	false	5		2016-08-18T21:30:38Z	2016-08-20T20:34:17Z		dns: lookupService() callback must be a function	179		
-8171	248374	true	open	false			2016-08-18T22:02:29Z	2016-08-22T09:32:10Z		build: add node_module_version to config.gypi	25		
+8171	248374	true	open	false			2016-08-18T22:02:29Z	2016-08-22T15:50:44Z		build: add node_module_version to config.gypi	25		
 8172	88045	false	closed	false	2		2016-08-18T22:27:28Z	2016-08-19T07:31:05Z	2016-08-18T22:50:20Z	6.4.0 is linking against GLIBCXX_3.4.18 (libstdc++6 >=4.8)	533		
 8173	718899	true	closed	false	5		2016-08-18T22:37:52Z	2016-08-21T22:44:00Z	2016-08-21T22:44:00Z	test: favor strict equality in test-exec	31		
 8174	899444	true	open	false	8		2016-08-18T23:02:48Z	2016-08-22T15:00:34Z		util: allow symbol-based custom inspection methods	95		
@@ -1187,7 +1187,7 @@
 8181	8255757	false	closed	false	1		2016-08-19T14:49:52Z	2016-08-19T15:05:06Z	2016-08-19T15:05:06Z	Inaccurate Documentation?	148		
 8182	291301	true	open	false			2016-08-19T15:50:46Z	2016-08-19T21:28:30Z		buffer: hard-deprecate SlowBuffer	133		
 8183	3428929	true	closed	false	4		2016-08-19T16:00:36Z	2016-08-21T21:55:22Z	2016-08-21T21:55:22Z	Update util.md for ES6 extends code example	45		
-8184	1935767	true	open	false	11		2016-08-19T16:24:50Z	2016-08-22T06:58:11Z		process: add the optional `once` to `emitWarning`	114		
+8184	1935767	true	open	false			2016-08-19T16:24:50Z	2016-08-22T15:03:38Z		process: add the optional `once` to `emitWarning`	114		
 8185	21087407	false	closed	false	1		2016-08-19T17:09:19Z	2016-08-19T18:09:53Z	2016-08-19T18:09:53Z	Error: EPERM: operation not permitted	74		
 8186	2067616	false	open	false	1		2016-08-19T17:23:53Z	2016-08-20T00:50:19Z		Feature request: Horizontal peer-to-peer event-loop messaging w/ process.send (workers)	346		
 8187	696611	true	open	false	6		2016-08-19T18:29:39Z	2016-08-21T21:51:39Z		doc: improve `util._extend` function	30		
