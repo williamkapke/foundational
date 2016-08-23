@@ -498,7 +498,7 @@
 7488	2352663	true	closed	false	7		2016-06-29T20:45:55Z	2016-07-05T18:56:34Z	2016-06-30T15:30:55Z	deps: fix V8 5.1 tests	40		
 7489	275871	false	open	false	3		2016-06-29T20:58:47Z	2016-06-29T23:06:56Z		v8_inspector: segfault with simple http request	222		
 7490	275871	true	closed	false	2	0	2016-06-29T22:34:06Z	2016-06-29T23:21:49Z	2016-06-29T23:21:49Z	src: fix use-after-free in v8 inspector	5		
-7491	275871	true	open	false			2016-06-29T23:24:41Z	2016-08-15T18:16:16Z		src: add /json/protocol endpoint to inspector	24		
+7491	275871	true	open	false	16		2016-06-29T23:24:41Z	2016-08-23T19:06:16Z		src: add /json/protocol endpoint to inspector	24		
 7492	7146748	false	open	false	0		2016-06-30T06:29:11Z	2016-06-30T06:29:11Z		terrible design bug 	184		
 7493	899444	true	closed	false	3		2016-06-30T06:55:54Z	2016-07-05T19:50:22Z	2016-07-05T19:50:21Z	doc: add `added:` information for timers	27		
 7494	238531	true	closed	false			2016-06-30T07:46:53Z	2016-08-23T17:09:56Z	2016-07-11T06:44:51Z	Fix various overflows and UB in src/	129		
@@ -1040,7 +1040,7 @@
 8031	731796	false	closed	false	2		2016-08-09T09:37:29Z	2016-08-09T10:18:32Z	2016-08-09T10:18:32Z	offset out of bounds	37		
 8032	781745	false	open	false	0		2016-08-09T11:54:55Z	2016-08-09T11:54:55Z		BUG: Comparing prototypes of Object	81		
 8033	122434	false	open	false	10		2016-08-09T12:37:54Z	2016-08-10T22:04:59Z		Observe data emitted through stdout and stderr	45		
-8034	275871	true	open	false	4		2016-08-09T15:25:45Z	2016-08-10T10:00:50Z		build: run cctests as part of test-ci target	4		
+8034	275871	true	open	false	4		2016-08-09T15:25:45Z	2016-08-23T19:09:25Z		build: run cctests as part of test-ci target	4		
 8035	17704638	true	closed	false	10		2016-08-09T15:33:31Z	2016-08-18T17:38:17Z	2016-08-18T17:38:17Z	doc: script with space  spawn example for windows	46		
 8036	446283	true	open	false	0	0	2016-08-09T20:17:43Z	2016-08-09T20:17:43Z		Avoid potential memory leak if realloc fails	437		
 8037	439929	true	open	false	1		2016-08-09T20:50:54Z	2016-08-09T22:11:08Z		doc: document vm module limitation with timeouts and async code	28		
@@ -1087,7 +1087,7 @@
 8078	101553	true	open	false	3		2016-08-12T08:14:23Z	2016-08-17T12:47:14Z		deps: cherry-pick 7bd24767 from v8 upstream (v6.x)	59		
 8079	13269109	false	closed	false	6		2016-08-12T08:18:00Z	2016-08-12T14:18:50Z	2016-08-12T14:18:49Z	Illegal instruction on PowerPC 440EP	270		
 8080	350686	false	open	false	0		2016-08-12T09:30:32Z	2016-08-12T09:30:32Z		debugger: bind to random port with --inspect=0	6		
-8081	1408578	false	open	false	1		2016-08-12T09:55:50Z	2016-08-12T10:06:58Z		security problem in debug mode	99		
+8081	1408578	false	closed	false	2		2016-08-12T09:55:50Z	2016-08-23T19:12:49Z	2016-08-23T19:12:49Z	security problem in debug mode	99		
 8082	16539774	false	closed	false	5		2016-08-12T11:34:30Z	2016-08-12T16:05:01Z	2016-08-12T16:05:01Z	stack overflow when returning an ES6 proxy through a promise	239		
 8083	1008760	false	closed	false	5		2016-08-12T16:33:31Z	2016-08-13T12:49:25Z	2016-08-13T12:49:25Z	addon doesn't seem to honour group membership	100		
 8084	6487691	true	open	false	8		2016-08-12T16:54:52Z	2016-08-23T16:52:49Z		Backport support for building as DLL on Windows to V6	46		
@@ -1112,13 +1112,13 @@
 8103	110455	true	open	false	1		2016-08-14T21:45:22Z	2016-08-14T22:04:14Z		http: fix legacy http.Client instanceof	205		
 8104	54666	true	open	false	4		2016-08-14T22:28:11Z	2016-08-15T15:56:40Z		http: remove deprecated Client interface	53		
 8105	110455	true	closed	false	5		2016-08-14T22:33:31Z	2016-08-18T01:29:25Z	2016-08-18T01:29:25Z	util: fix deprecated class prototype	101		
-8106	275871	true	open	false	3		2016-08-15T10:00:49Z	2016-08-23T11:53:51Z		src: make debugger listen on 127.0.0.1 by default	61		
+8106	275871	true	closed	false	3	0	2016-08-15T10:00:49Z	2016-08-23T19:12:30Z	2016-08-23T19:12:30Z	src: make debugger listen on 127.0.0.1 by default	61		
 8107	609579	true	open	false	6		2016-08-15T10:01:27Z	2016-08-15T17:41:41Z		doc: fix typo	40		
 8108	275871	false	open	false	0		2016-08-15T11:22:49Z	2016-08-15T11:22:49Z		tls: misparsed URI subject alternative name?	189		
 8109	1622515	true	open	false			2016-08-15T12:23:48Z	2016-08-21T08:36:26Z		readline: key interval delay for \r & \n	50		
 8110	121040	false	open	false	3		2016-08-15T12:35:24Z	2016-08-15T14:25:13Z		Need upgrade package npm to v3.10.7 for Visual Studio 2015 update 3	22		
 8111	13312166	false	open	false	13		2016-08-15T13:00:00Z	2016-08-16T10:11:16Z		keepAlive doesn't work on Ubuntu	103		
-8112	54666	true	open	false	5		2016-08-15T17:52:25Z	2016-08-23T16:46:06Z		net: misc changes	46		
+8112	54666	true	closed	false	5	3	2016-08-15T17:52:25Z	2016-08-23T19:14:33Z	2016-08-23T19:14:33Z	net: misc changes	46	54666	2016-08-23T19:14:33Z
 8113	6827281	false	open	false	4		2016-08-15T18:18:17Z	2016-08-16T16:47:16Z		I'm only getting one authorizationError in an HTTPS request when there are at least 2 	78		
 8114	12488060	true	open	false	8		2016-08-15T19:23:48Z	2016-08-17T21:08:12Z		src: fix build break for !NODE_USE_V8_PLATFORM	47		
 8115	1084056	true	closed	false	10		2016-08-15T20:28:07Z	2016-08-18T16:57:57Z	2016-08-18T16:57:57Z	test: fix flaky fs-watch tests	89		
@@ -1193,7 +1193,7 @@
 8184	1935767	true	open	false	20		2016-08-19T16:24:50Z	2016-08-23T06:13:52Z		process: add the optional `once` to `emitWarning`	114		
 8185	21087407	false	closed	false	1		2016-08-19T17:09:19Z	2016-08-19T18:09:53Z	2016-08-19T18:09:53Z	Error: EPERM: operation not permitted	74		
 8186	2067616	false	open	false	1		2016-08-19T17:23:53Z	2016-08-20T00:50:19Z		Feature request: Horizontal peer-to-peer event-loop messaging w/ process.send (workers)	346		
-8187	696611	true	open	false	10		2016-08-19T18:29:39Z	2016-08-23T18:39:19Z		doc: improve `util._extend` function	30		
+8187	696611	true	open	false	11		2016-08-19T18:29:39Z	2016-08-23T19:06:46Z		doc: improve `util._extend` function	30		
 8188	110455	true	open	false			2016-08-19T21:04:28Z	2016-08-20T17:53:22Z		crypto: expose ECDH class	106		
 8189	718899	true	open	false	7		2016-08-19T21:26:26Z	2016-08-23T17:48:09Z		test: refactor test-util-inspect	47		
 8190	248570	true	closed	false	5	0	2016-08-19T21:32:54Z	2016-08-22T18:00:05Z	2016-08-22T18:00:04Z	test: change equals comparison operator to be strict	50		
@@ -1213,16 +1213,16 @@
 8204	1935767	true	open	false	4		2016-08-21T05:23:25Z	2016-08-22T08:09:50Z		node_main: use ERROR_EXE_MACHINE_TYPE_MISMATCH instead 1 as exit code	65		
 8205	880513	false	closed	false	2		2016-08-21T08:07:31Z	2016-08-21T10:39:06Z	2016-08-21T08:12:47Z	dgram: lose UDP messages when sending a large number of messages at the same time	113		
 8206	1443911	true	open	false	4		2016-08-21T09:12:33Z	2016-08-23T18:13:23Z		doc: add `added:` information for util	27		
-8207	275871	true	open	false	4		2016-08-21T11:26:52Z	2016-08-23T16:57:01Z		src: clean up PER_ISOLATE_STRING_PROPERTIES	2		
+8207	275871	true	closed	false	4	1	2016-08-21T11:26:52Z	2016-08-23T19:16:37Z	2016-08-23T19:16:37Z	src: clean up PER_ISOLATE_STRING_PROPERTIES	2		
 8208	1347002	false	open	false	1		2016-08-21T13:48:21Z	2016-08-22T18:38:15Z		--inspect: chrome-devtools - nullptr 	68		
 8209	718899	false	closed	false	0		2016-08-21T14:31:34Z	2016-08-22T22:22:44Z	2016-08-22T22:22:44Z	investigate flaky sequential/test-child-process-pass-fd on SmartoS	741		
 8210	8208733	false	closed	false	2		2016-08-21T17:36:00Z	2016-08-21T19:02:20Z	2016-08-21T19:02:20Z	Cross compiling NodeJS for MIPS V8 requirements	65		
 8211	926815	false	open	false	3		2016-08-21T18:27:35Z	2016-08-23T08:55:17Z		Fix or Mark apis in the documentation that cannot be try/catch/promised	153		
 8212	1084056	true	closed	false	4		2016-08-21T19:06:41Z	2016-08-22T22:22:45Z	2016-08-22T22:22:45Z	test: fix flaky `test-child-process-pass-fd`	40		
-8213	1898870	false	open	false	0		2016-08-21T20:22:13Z	2016-08-21T20:22:13Z		url.resolveObject: conflicting values of host and port	79		
-8214	1898870	true	open	false	1		2016-08-21T20:34:20Z	2016-08-23T18:37:35Z		url: fix inconsistent port in url.resolveObject	87		
-8215	1898870	true	open	false	3		2016-08-21T20:50:34Z	2016-08-23T18:36:34Z		url: keep auth in `url.resolve()` if host matches	56		
-8216	788473	false	open	false	7		2016-08-21T21:39:44Z	2016-08-23T04:11:27Z		Garbage Collection Crash	130		
+8213	1898870	false	closed	false	1		2016-08-21T20:22:13Z	2016-08-23T19:45:59Z	2016-08-23T19:45:59Z	url.resolveObject: conflicting values of host and port	79		
+8214	1898870	true	closed	false	2		2016-08-21T20:34:20Z	2016-08-23T19:46:39Z	2016-08-23T19:46:39Z	url: fix inconsistent port in url.resolveObject	87		
+8215	1898870	true	open	false	4		2016-08-21T20:50:34Z	2016-08-23T19:47:31Z		url: keep auth in `url.resolve()` if host matches	56		
+8216	788473	false	open	false	8		2016-08-21T21:39:44Z	2016-08-23T19:35:26Z		Garbage Collection Crash	130		
 8217	439929	true	open	false	12		2016-08-21T22:40:46Z	2016-08-23T17:36:22Z		promise: warning on unhandled rejection	60		
 8218	2983969	false	closed	false	1		2016-08-22T02:23:11Z	2016-08-22T03:09:46Z	2016-08-22T03:09:46Z	Immediate crash on --inspect	42		
 8219	1935767	false	closed	false	3		2016-08-22T07:30:54Z	2016-08-22T08:30:09Z	2016-08-22T07:52:51Z	test: failed on sequential/test-child-process-pass-fd	55		
@@ -1243,8 +1243,8 @@
 8234	1777622	false	open	false	3		2016-08-23T08:13:51Z	2016-08-23T13:07:27Z		Assertion failed in timer.c on windows / nodejs 6.4.0	33		
 8235	1408578	false	open	false	4		2016-08-23T09:18:00Z	2016-08-23T18:04:23Z		error http request at headers is array	94		
 8236	3524687	false	open	false	0		2016-08-23T13:17:57Z	2016-08-23T13:17:57Z		"crypto: getDecoder throws ""AssertionError: Cannot change encoding"" when encoding is ""ucs2"", ""ucs-2"" or ""utf-16le""."	129		
-8237	458614	false	open	false	15		2016-08-23T13:51:18Z	2016-08-23T18:13:19Z		process.cwd() casing inconsistent across platforms	180		
-8238	54666	true	open	false	0	0	2016-08-23T17:58:09Z	2016-08-23T17:58:09Z		http: fix connection upgrade checks	61		
-8239	9373002	false	open	false	1		2016-08-23T18:00:34Z	2016-08-23T18:06:49Z		test: intermittent failure running add-on tests on AIX	206		
-8240	3374946	true	open	false	0	0	2016-08-23T18:08:27Z	2016-08-23T18:08:27Z		doc: fix buf.readUIntBE, buf.readUIntLE examples	75		
-8241	1622515	true	open	false	0	0	2016-08-23T18:52:25Z	2016-08-23T18:52:25Z		repl: Auto alignment for .editor mode	82		
+8237	458614	false	open	false	18		2016-08-23T13:51:18Z	2016-08-23T19:09:12Z		process.cwd() casing inconsistent across platforms	180		
+8238	54666	true	open	false	3		2016-08-23T17:58:09Z	2016-08-23T19:15:33Z		http: fix connection upgrade checks	61		
+8239	9373002	false	open	false	2		2016-08-23T18:00:34Z	2016-08-23T19:25:54Z		test: intermittent failure running add-on tests on AIX	209		
+8240	3374946	true	open	false	2		2016-08-23T18:08:27Z	2016-08-23T19:23:20Z		doc: fix buf.readUIntBE, buf.readUIntLE examples	75		
+8241	1622515	true	open	false	1		2016-08-23T18:52:25Z	2016-08-23T19:12:57Z		repl: Auto alignment for .editor mode	82		
