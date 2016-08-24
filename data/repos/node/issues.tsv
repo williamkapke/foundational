@@ -55,7 +55,7 @@
 2842	692511	false	open	false	6		2015-09-12T21:54:12Z	2016-08-09T14:13:25Z		Exclude the `Trailer` header from 304 responses?	86		
 2848	1348991	false	open	false	37		2015-09-13T21:27:01Z	2016-08-06T12:42:16Z		Add dns.resolve that returns all results	45		
 2883	126482	true	open	false	4		2015-09-15T17:33:30Z	2016-06-29T12:07:18Z		Makefile: use existing variable to reduce complexity	2		
-2933	643505	false	closed	false	33		2015-09-17T18:33:07Z	2016-08-09T04:53:27Z	2015-09-17T18:35:56Z	XCode 7: library not found for -lgcc_s.10.5	307		
+2933	643505	false	closed	false	34		2015-09-17T18:33:07Z	2016-08-23T23:58:44Z	2015-09-17T18:35:56Z	XCode 7: library not found for -lgcc_s.10.5	307		
 2982	170023	true	open	false	7		2015-09-21T14:10:33Z	2016-07-01T16:26:45Z		readline: add option to stop duplicates in history	161		
 3006	914122	false	closed	false	33		2015-09-22T15:57:31Z	2016-08-04T12:01:53Z	2016-03-22T06:28:03Z	Node.js doesn't run as tty on windows / cygwin	33		
 3009	112555	false	closed	false	10		2015-09-22T19:15:53Z	2016-07-12T15:55:34Z	2016-04-09T05:21:32Z	Sending a body with a GET request using http.request cannot be received using http.server	235		
@@ -183,7 +183,7 @@
 6286	238531	true	closed	false	13		2016-04-19T20:48:54Z	2016-07-13T17:11:25Z	2016-04-20T17:58:23Z	http: unref socket timer on parser execute	76		
 6300	3899684	false	open	false	9		2016-04-20T13:03:08Z	2016-08-16T15:07:55Z		discuss: object serializer/deserializer + transferables	222		
 6301	2552507	false	closed	false	14		2016-04-20T13:18:10Z	2016-06-27T17:32:08Z	2016-06-27T17:32:07Z	Double-free in garbage collector in v5.10.1	1005		
-6306	498775	false	open	false	21		2016-04-20T17:15:56Z	2016-08-18T17:29:57Z		Introduce staging branch for stable release streams	131		
+6306	498775	false	open	false	24		2016-04-20T17:15:56Z	2016-08-23T23:27:52Z		Introduce staging branch for stable release streams	131		
 6313	5678694	true	open	false	10		2016-04-20T20:51:16Z	2016-07-15T04:30:47Z		doc: fix style inconsistencies in code examples	33		
 6332	16402596	true	open	false			2016-04-21T15:57:17Z	2016-07-05T19:58:36Z		debugger: fix stuck debugger when debuggee exits	157		
 6344	718899	true	closed	false	11		2016-04-22T05:35:43Z	2016-07-11T19:57:26Z	2016-04-28T17:58:41Z	crypto: fix error in deprecation message	72		
@@ -498,10 +498,10 @@
 7488	2352663	true	closed	false	7		2016-06-29T20:45:55Z	2016-07-05T18:56:34Z	2016-06-30T15:30:55Z	deps: fix V8 5.1 tests	40		
 7489	275871	false	open	false	3		2016-06-29T20:58:47Z	2016-06-29T23:06:56Z		v8_inspector: segfault with simple http request	222		
 7490	275871	true	closed	false	2	0	2016-06-29T22:34:06Z	2016-06-29T23:21:49Z	2016-06-29T23:21:49Z	src: fix use-after-free in v8 inspector	5		
-7491	275871	true	open	false	16		2016-06-29T23:24:41Z	2016-08-23T19:06:16Z		src: add /json/protocol endpoint to inspector	24		
+7491	275871	true	open	false	18		2016-06-29T23:24:41Z	2016-08-23T23:59:53Z		src: add /json/protocol endpoint to inspector	24		
 7492	7146748	false	open	false	0		2016-06-30T06:29:11Z	2016-06-30T06:29:11Z		terrible design bug 	184		
 7493	899444	true	closed	false	3		2016-06-30T06:55:54Z	2016-07-05T19:50:22Z	2016-07-05T19:50:21Z	doc: add `added:` information for timers	27		
-7494	238531	true	closed	false			2016-06-30T07:46:53Z	2016-08-23T17:09:56Z	2016-07-11T06:44:51Z	Fix various overflows and UB in src/	129		
+7494	238531	true	closed	false			2016-06-30T07:46:53Z	2016-08-23T23:38:34Z	2016-07-11T06:44:51Z	Fix various overflows and UB in src/	129		
 7495	7146748	false	closed	false	4		2016-06-30T07:51:10Z	2016-06-30T13:37:02Z	2016-06-30T08:02:31Z	Ask a question, how to post a task to main thread in node.Please see my codes.	78		
 7496	11782089	false	closed	false	5		2016-06-30T08:54:47Z	2016-08-03T22:46:14Z	2016-06-30T10:14:15Z	fs.watch not work in win10  Bash.	111		
 7497	275871	true	closed	false	4	0	2016-06-30T10:27:03Z	2016-07-06T14:33:15Z	2016-07-06T14:33:15Z	src: guard against overflow in ParseArrayIndex()	25		
@@ -1202,15 +1202,15 @@
 8193	718899	true	closed	false	6	0	2016-08-19T23:46:18Z	2016-08-23T18:27:27Z	2016-08-23T18:27:27Z	test: refactor test-timers-linked-list.js	48		
 8194	718899	true	closed	false	6		2016-08-20T05:08:03Z	2016-08-22T21:13:37Z	2016-08-22T21:13:36Z	"doc: remove ""feature branch"" jargon"	117		
 8195	1622515	false	open	false	7		2016-08-20T07:13:12Z	2016-08-20T10:46:45Z		repl: Proposal for better repl	261		
-8196	1443911	true	open	false	1		2016-08-20T10:07:16Z	2016-08-23T21:53:12Z		doc: add `added:` information for dgram	27		
+8196	1443911	true	open	false			2016-08-20T10:07:16Z	2016-08-23T23:26:01Z		doc: add `added:` information for dgram	27		
 8197	1935767	true	open	false	6		2016-08-20T12:12:47Z	2016-08-22T07:00:03Z		stream: move legacy to sep file	88		
-8198	1935767	true	open	false	4		2016-08-20T13:44:24Z	2016-08-22T20:36:47Z		async_wrap: add a missing case to test-async-wrap-throw-no-init	54		
+8198	1935767	true	open	false	6		2016-08-20T13:44:24Z	2016-08-23T23:31:20Z		async_wrap: add a missing case to test-async-wrap-throw-no-init	54		
 8199	11921153	false	closed	false	1		2016-08-21T00:55:41Z	2016-08-21T08:04:05Z	2016-08-21T08:04:04Z	install Node.js Failed to open XML file C:\Program Files\nodejs\node_etw_provider.man,system error:-2147221164	6		
 8200	10378547	true	open	false	3		2016-08-21T02:13:25Z	2016-08-23T18:38:32Z		doc: fix onReadable reentry after unshift called	69		
 8201	1187447	false	open	false	0		2016-08-21T02:15:38Z	2016-08-21T11:36:47Z		--inspect flag and cluster module -  Debug port numbers not incrementing	139		
 8202	718899	true	closed	false	2		2016-08-21T03:06:46Z	2016-08-23T14:09:43Z	2016-08-23T14:09:43Z	test: split test-crypto-timing-safe-equal	79		
 8203	718899	true	closed	false	39		2016-08-21T04:17:23Z	2016-08-23T17:54:39Z	2016-08-22T22:25:34Z	WIP: test: force garbage collection on crypto timing test	52		
-8204	1935767	true	open	false	4		2016-08-21T05:23:25Z	2016-08-22T08:09:50Z		node_main: use ERROR_EXE_MACHINE_TYPE_MISMATCH instead 1 as exit code	65		
+8204	1935767	true	open	false	5		2016-08-21T05:23:25Z	2016-08-24T00:07:59Z		node_main: use ERROR_EXE_MACHINE_TYPE_MISMATCH instead 1 as exit code	65		
 8205	880513	false	closed	false	2		2016-08-21T08:07:31Z	2016-08-21T10:39:06Z	2016-08-21T08:12:47Z	dgram: lose UDP messages when sending a large number of messages at the same time	113		
 8206	1443911	true	open	false	4		2016-08-21T09:12:33Z	2016-08-23T18:13:23Z		doc: add `added:` information for util	27		
 8207	275871	true	closed	false	4	1	2016-08-21T11:26:52Z	2016-08-23T19:16:37Z	2016-08-23T19:16:37Z	src: clean up PER_ISOLATE_STRING_PROPERTIES	2		
@@ -1223,7 +1223,7 @@
 8214	1898870	true	closed	false	2		2016-08-21T20:34:20Z	2016-08-23T19:46:39Z	2016-08-23T19:46:39Z	url: fix inconsistent port in url.resolveObject	87		
 8215	1898870	true	open	false	4		2016-08-21T20:50:34Z	2016-08-23T19:47:31Z		url: keep auth in `url.resolve()` if host matches	56		
 8216	788473	false	open	false	8		2016-08-21T21:39:44Z	2016-08-23T19:35:26Z		Garbage Collection Crash	130		
-8217	439929	true	open	false	12		2016-08-21T22:40:46Z	2016-08-23T17:36:22Z		promise: warning on unhandled rejection	60		
+8217	439929	true	open	false			2016-08-21T22:40:46Z	2016-08-23T23:18:07Z		promise: warning on unhandled rejection	60		
 8218	2983969	false	closed	false	1		2016-08-22T02:23:11Z	2016-08-22T03:09:46Z	2016-08-22T03:09:46Z	Immediate crash on --inspect	42		
 8219	1935767	false	closed	false	3		2016-08-22T07:30:54Z	2016-08-22T08:30:09Z	2016-08-22T07:52:51Z	test: failed on sequential/test-child-process-pass-fd	55		
 8220	13269109	false	closed	false	1		2016-08-22T07:44:58Z	2016-08-22T11:08:54Z	2016-08-22T11:08:54Z	V8: Can't compile with nativesim=true for PowerPC 440	216		
@@ -1241,13 +1241,13 @@
 8232	1935767	true	open	false	12		2016-08-23T07:31:58Z	2016-08-23T18:38:12Z		process: improve stack trace on async(libuv) error	234		
 8233	8208733	false	open	false	4		2016-08-23T07:41:05Z	2016-08-23T10:07:33Z		execinfo.h error when compiling Node v6.4.0 for OpenWrt MIPS platform	118		
 8234	1777622	false	open	false	3		2016-08-23T08:13:51Z	2016-08-23T13:07:27Z		Assertion failed in timer.c on windows / nodejs 6.4.0	33		
-8235	1408578	false	open	false	4		2016-08-23T09:18:00Z	2016-08-23T18:04:23Z		error http request at headers is array	94		
+8235	1408578	false	open	false	5		2016-08-23T09:18:00Z	2016-08-23T23:46:52Z		error http request at headers is array	94		
 8236	3524687	false	open	false	0		2016-08-23T13:17:57Z	2016-08-23T13:17:57Z		"crypto: getDecoder throws ""AssertionError: Cannot change encoding"" when encoding is ""ucs2"", ""ucs-2"" or ""utf-16le""."	129		
 8237	458614	false	open	false	18		2016-08-23T13:51:18Z	2016-08-23T19:09:12Z		process.cwd() casing inconsistent across platforms	180		
 8238	54666	true	open	false	3		2016-08-23T17:58:09Z	2016-08-23T20:07:18Z		http: fix connection upgrade checks	61		
 8239	9373002	false	open	false	2		2016-08-23T18:00:34Z	2016-08-23T19:25:54Z		test: intermittent failure running add-on tests on AIX	209		
-8240	3374946	true	open	false	2		2016-08-23T18:08:27Z	2016-08-23T19:23:20Z		doc: fix buf.readUIntBE, buf.readUIntLE examples	75		
+8240	3374946	true	open	false	3		2016-08-23T18:08:27Z	2016-08-24T00:02:05Z		doc: fix buf.readUIntBE, buf.readUIntLE examples	75		
 8241	1622515	true	open	false	1		2016-08-23T18:52:25Z	2016-08-23T19:12:57Z		repl: Auto alignment for .editor mode	82		
-8242	718899	false	open	false	6		2016-08-23T21:00:09Z	2016-08-23T22:43:49Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-24	520		
+8242	718899	false	open	false	7		2016-08-23T21:00:09Z	2016-08-23T23:30:57Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-24	520		
 8243	287917	true	open	false	0	0	2016-08-23T21:39:12Z	2016-08-23T21:39:12Z		inspector - Use script name for target title	86		
 8244	40265	false	open	false	0		2016-08-23T22:10:12Z	2016-08-23T22:10:12Z		Fatal error: out of range index	73		
