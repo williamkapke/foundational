@@ -838,7 +838,7 @@
 7828	20170894	false	closed	false	14		2016-07-21T20:02:42Z	2016-07-22T05:48:58Z	2016-07-22T05:48:58Z	Support for null terminated strings with Buffer toString?	138		
 7829	1622515	true	closed	false	23		2016-07-21T22:46:42Z	2016-08-04T20:09:15Z	2016-08-04T20:09:15Z	repl: deprecate unused function convertToContext	34		
 7830	718899	true	closed	false	3		2016-07-22T00:19:49Z	2016-07-22T18:32:03Z	2016-07-22T18:32:03Z	tools: enforce loading required modules first	33		
-7831	696611	true	open	false	25		2016-07-22T03:58:02Z	2016-08-18T18:33:47Z		fs: don't alter user provided `options` object	52		
+7831	696611	true	open	false	27		2016-07-22T03:58:02Z	2016-08-24T19:26:46Z		fs: don't alter user provided `options` object	52		
 7832	96150	true	open	false	4		2016-07-22T07:44:22Z	2016-08-22T21:18:39Z		doc: Provide bad/better examples for access() and exists()	45		
 7833	101553	true	closed	false	18	0	2016-07-22T08:08:03Z	2016-08-03T06:19:34Z	2016-08-03T06:19:34Z	deps: cherry-pick a51f429 from V8 upstream 	36		
 7834	101553	true	open	false	12		2016-07-22T08:53:45Z	2016-08-03T15:27:58Z		deps: cherry-pick a51f429 from V8 upstream	38		
@@ -1245,13 +1245,13 @@
 8236	3524687	false	open	false	0		2016-08-23T13:17:57Z	2016-08-23T13:17:57Z		"crypto: getDecoder throws ""AssertionError: Cannot change encoding"" when encoding is ""ucs2"", ""ucs-2"" or ""utf-16le""."	129		
 8237	458614	false	closed	false	19		2016-08-23T13:51:18Z	2016-08-24T07:36:49Z	2016-08-23T19:27:07Z	process.cwd() casing inconsistent across platforms	180		
 8238	54666	true	open	false	3		2016-08-23T17:58:09Z	2016-08-23T20:07:18Z		http: fix connection upgrade checks	61		
-8239	9373002	false	open	false	2		2016-08-23T18:00:34Z	2016-08-24T14:57:35Z		test: intermittent failure running add-on tests on AIX	209		
+8239	9373002	false	open	false	4		2016-08-23T18:00:34Z	2016-08-24T19:53:19Z		test: intermittent failure running add-on tests on AIX	209		
 8240	3374946	true	open	false	5		2016-08-23T18:08:27Z	2016-08-24T02:46:34Z		doc: fix buf.readUIntBE, buf.readUIntLE examples	75		
 8241	1622515	true	open	false			2016-08-23T18:52:25Z	2016-08-24T02:20:40Z		repl: Auto alignment for .editor mode	82		
-8242	718899	false	open	false	12		2016-08-23T21:00:09Z	2016-08-24T18:33:24Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-24	520		
+8242	718899	false	open	false	14		2016-08-23T21:00:09Z	2016-08-24T19:38:05Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-24	520		
 8243	287917	true	open	false			2016-08-23T21:39:12Z	2016-08-24T13:36:52Z		inspector - Use script name for target title	86		
 8244	40265	false	closed	false	1		2016-08-23T22:10:12Z	2016-08-24T00:20:27Z	2016-08-24T00:20:27Z	Fatal error: out of range index	73		
-8245	4421720	true	open	false			2016-08-24T03:39:08Z	2016-08-24T04:27:06Z		doc: add 2016-08-17 CTC meeting minutes	34		
+8245	4421720	true	open	false			2016-08-24T03:39:08Z	2016-08-24T19:58:47Z		doc: add 2016-08-17 CTC meeting minutes	34		
 8246	1610233	false	open	false	5		2016-08-24T03:40:08Z	2016-08-24T16:08:56Z		http performance test result is bad	280		
 8247	82626	false	open	false	0		2016-08-24T05:41:34Z	2016-08-24T05:41:34Z		npmignore glob patterns broken or documented incorrectly	314		
 8248	718899	true	open	false			2016-08-24T06:21:15Z	2016-08-24T13:53:49Z		test: add check in test-signal-handler	46		
@@ -1260,7 +1260,8 @@
 8251	11582552	false	open	false	2		2016-08-24T11:42:09Z	2016-08-24T14:09:01Z		EFAULT error in process.stdout.write(data, 'hex')	299		
 8252	899444	true	open	false	3		2016-08-24T13:22:41Z	2016-08-24T18:36:35Z		net: make holding the buffer in memory more robust	102		
 8253	677994	true	open	false	1		2016-08-24T14:05:02Z	2016-08-24T15:17:46Z		2016-08-24, Version 6.4.1 (Current)	874		
-8254	15943089	true	open	false			2016-08-24T14:08:16Z	2016-08-24T17:44:53Z		test: fix localhost error in test-dns-ipv6	60		
+8254	15943089	true	open	false			2016-08-24T14:08:16Z	2016-08-24T19:47:40Z		test: fix localhost error in test-dns-ipv6	60		
 8255	172594	false	open	false	3		2016-08-24T16:28:50Z	2016-08-24T18:04:57Z		fs.stat() returns 'Stats' - should be 'Status'.	49		
 8256	439929	true	open	false	2		2016-08-24T17:27:24Z	2016-08-24T18:09:04Z		test: refactor buffer tests	54		
 8257	287917	true	open	false	0	0	2016-08-24T18:10:23Z	2016-08-24T18:10:23Z		inspector: Simplify buffer management	114		
+8258	446478	false	open	false	0		2016-08-24T19:58:19Z	2016-08-24T19:58:19Z		Assertion failed ../deps/uv/src/unix/stream.c, line 1563	911		
