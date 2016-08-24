@@ -321,7 +321,7 @@
 7132	1084056	true	closed	false	10		2016-06-03T12:49:16Z	2016-07-12T07:01:48Z	2016-06-08T13:52:41Z	cluster: don't send messages if no IPC channel	53		
 7137	439929	true	open	false			2016-06-03T19:17:45Z	2016-07-05T00:13:18Z		doc: general improvements to net.md copy	33		
 7149	238531	true	closed	false	6		2016-06-04T04:02:49Z	2016-07-11T22:37:04Z	2016-06-06T17:34:31Z	http: wait for both prefinish/end to keepalive	80		
-7152	988441	true	open	false	57		2016-06-04T16:22:28Z	2016-08-24T12:16:58Z		buffer: hard-deprecate Buffer constructor	133		
+7152	988441	true	open	false	58		2016-06-04T16:22:28Z	2016-08-24T14:38:02Z		buffer: hard-deprecate Buffer constructor	133		
 7154	718899	true	closed	false	14		2016-06-04T20:16:03Z	2016-07-11T22:54:57Z	2016-06-07T20:33:05Z	debugger: remove obsolete setTimeout	65		
 7157	469365	true	closed	false	28		2016-06-05T01:13:32Z	2016-07-05T18:16:17Z	2016-06-27T20:40:21Z	buffers: speed up swap16/32, add swap64	566		
 7158	9056756	false	closed	false	5		2016-06-05T04:43:28Z	2016-07-11T09:40:17Z	2016-06-05T06:49:21Z	Unable to cross-compile Node v6.2.1 for iOS	283		
@@ -1031,7 +1031,7 @@
 8022	899444	true	closed	false	5		2016-08-08T20:10:14Z	2016-08-16T19:12:01Z	2016-08-10T13:58:16Z	v6.x backport of 'latin1' encoding	17		
 8023	1422781	true	open	false	6		2016-08-08T20:16:00Z	2016-08-11T22:45:31Z		net: net.isIP() needs scope tests and a review of its type checking	74		
 8024	225351	false	open	false	2		2016-08-08T20:22:27Z	2016-08-18T00:58:40Z		Cross-platform differences in fs.readSync()	100		
-8025	1231635	true	open	false	4		2016-08-08T21:54:51Z	2016-08-24T00:31:14Z		Backport doc: server.listen() random port	84		
+8025	1231635	true	closed	false	5		2016-08-08T21:54:51Z	2016-08-24T14:11:00Z	2016-08-24T14:11:00Z	Backport doc: server.listen() random port	84		
 8026	439929	false	open	false	0		2016-08-08T22:22:03Z	2016-08-08T22:22:03Z		meta: codename for v6 LTS	103		
 8027	248374	true	open	false	8		2016-08-08T23:39:32Z	2016-08-09T14:35:51Z		build: Provide 'node_module_version' via config.gypi	21		
 8028	5035902	true	closed	false	15		2016-08-09T01:23:34Z	2016-08-17T12:04:13Z	2016-08-13T14:53:59Z	repl,util: insert carriage returns in output	72		
@@ -1146,7 +1146,7 @@
 8137	20699254	false	closed	false	3		2016-08-17T05:40:17Z	2016-08-17T06:14:35Z	2016-08-17T05:43:13Z	Can we support Worker API in node environment , like browser's Web work behavior.	28		
 8138	7421183	false	closed	false	5		2016-08-17T08:36:22Z	2016-08-17T18:03:55Z	2016-08-17T08:51:03Z	util.inspect generates different output in Node minor update	122		
 8139	275871	false	open	false	10		2016-08-17T11:40:12Z	2016-08-19T10:12:54Z		benchmark: http/simple is unreliable	396		
-8140	17704638	true	open	false			2016-08-17T13:08:21Z	2016-08-24T09:13:14Z		benchmark: support for multiple http benchmarkers	88		
+8140	17704638	true	open	false			2016-08-17T13:08:21Z	2016-08-24T14:42:27Z		benchmark: support for multiple http benchmarkers	88		
 8141	677994	true	open	false	12		2016-08-17T13:12:12Z	2016-08-17T18:16:38Z		"Revert ""repl,util: insert carriage returns in output"""	51		
 8142	4027669	false	closed	false	2		2016-08-17T14:29:41Z	2016-08-20T20:55:26Z	2016-08-20T20:55:26Z	repl: editor mode text not saved in `.save` command	100		
 8143	677994	true	closed	false	10	0	2016-08-17T14:48:46Z	2016-08-19T16:56:25Z	2016-08-19T16:56:25Z	"Revert ""repl,util: insert carriage returns in output"""	63		
@@ -1209,8 +1209,8 @@
 8200	10378547	true	open	false	4		2016-08-21T02:13:25Z	2016-08-24T00:15:47Z		doc: fix onReadable reentry after unshift called	69		
 8201	1187447	false	open	false	0		2016-08-21T02:15:38Z	2016-08-21T11:36:47Z		--inspect flag and cluster module -  Debug port numbers not incrementing	139		
 8202	718899	true	closed	false	2		2016-08-21T03:06:46Z	2016-08-23T14:09:43Z	2016-08-23T14:09:43Z	test: split test-crypto-timing-safe-equal	79		
-8203	718899	true	closed	false	46		2016-08-21T04:17:23Z	2016-08-24T06:11:44Z	2016-08-22T22:25:34Z	WIP: test: force garbage collection on crypto timing test	52		
-8204	1935767	true	open	false	5		2016-08-21T05:23:25Z	2016-08-24T00:07:59Z		node_main: use ERROR_EXE_MACHINE_TYPE_MISMATCH instead 1 as exit code	65		
+8203	718899	true	closed	false	48		2016-08-21T04:17:23Z	2016-08-24T14:17:37Z	2016-08-22T22:25:34Z	WIP: test: force garbage collection on crypto timing test	52		
+8204	1935767	true	open	false	5		2016-08-21T05:23:25Z	2016-08-24T14:04:21Z		node_main: use ERROR_EXE_MACHINE_TYPE_MISMATCH instead 1 as exit code	65		
 8205	880513	false	closed	false	2		2016-08-21T08:07:31Z	2016-08-21T10:39:06Z	2016-08-21T08:12:47Z	dgram: lose UDP messages when sending a large number of messages at the same time	113		
 8206	1443911	true	open	false	4		2016-08-21T09:12:33Z	2016-08-23T18:13:23Z		doc: add `added:` information for util	27		
 8207	275871	true	closed	false	4	1	2016-08-21T11:26:52Z	2016-08-23T19:16:37Z	2016-08-23T19:16:37Z	src: clean up PER_ISOLATE_STRING_PROPERTIES	2		
@@ -1245,10 +1245,10 @@
 8236	3524687	false	open	false	0		2016-08-23T13:17:57Z	2016-08-23T13:17:57Z		"crypto: getDecoder throws ""AssertionError: Cannot change encoding"" when encoding is ""ucs2"", ""ucs-2"" or ""utf-16le""."	129		
 8237	458614	false	closed	false	19		2016-08-23T13:51:18Z	2016-08-24T07:36:49Z	2016-08-23T19:27:07Z	process.cwd() casing inconsistent across platforms	180		
 8238	54666	true	open	false	3		2016-08-23T17:58:09Z	2016-08-23T20:07:18Z		http: fix connection upgrade checks	61		
-8239	9373002	false	open	false	2		2016-08-23T18:00:34Z	2016-08-23T19:25:54Z		test: intermittent failure running add-on tests on AIX	209		
+8239	9373002	false	open	false	2		2016-08-23T18:00:34Z	2016-08-24T14:57:35Z		test: intermittent failure running add-on tests on AIX	209		
 8240	3374946	true	open	false	5		2016-08-23T18:08:27Z	2016-08-24T02:46:34Z		doc: fix buf.readUIntBE, buf.readUIntLE examples	75		
 8241	1622515	true	open	false			2016-08-23T18:52:25Z	2016-08-24T02:20:40Z		repl: Auto alignment for .editor mode	82		
-8242	718899	false	open	false	9		2016-08-23T21:00:09Z	2016-08-24T08:16:10Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-24	520		
+8242	718899	false	open	false	10		2016-08-23T21:00:09Z	2016-08-24T14:19:31Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-24	520		
 8243	287917	true	open	false			2016-08-23T21:39:12Z	2016-08-24T13:36:52Z		inspector - Use script name for target title	86		
 8244	40265	false	closed	false	1		2016-08-23T22:10:12Z	2016-08-24T00:20:27Z	2016-08-24T00:20:27Z	Fatal error: out of range index	73		
 8245	4421720	true	open	false			2016-08-24T03:39:08Z	2016-08-24T04:27:06Z		doc: add 2016-08-17 CTC meeting minutes	34		
@@ -1257,5 +1257,7 @@
 8248	718899	true	open	false			2016-08-24T06:21:15Z	2016-08-24T13:53:49Z		test: add check in test-signal-handler	46		
 8249	3899684	false	open	false	0		2016-08-24T10:23:17Z	2016-08-24T10:23:17Z		doc, process, child_process: process.send() has a limit of data to be send	91		
 8250	1443911	true	open	false	0	0	2016-08-24T10:45:04Z	2016-08-24T10:45:04Z		doc: add `added:` information for modules	27		
-8251	11582552	false	open	false	2		2016-08-24T11:42:09Z	2016-08-24T13:24:46Z		EFAULT error in process.stdout.write(data, 'hex')	299		
+8251	11582552	false	open	false	2		2016-08-24T11:42:09Z	2016-08-24T14:09:01Z		EFAULT error in process.stdout.write(data, 'hex')	299		
 8252	899444	true	open	false	0	0	2016-08-24T13:22:41Z	2016-08-24T13:22:41Z		net: make holding the buffer in memory more robust	100		
+8253	677994	true	open	false	0	0	2016-08-24T14:05:02Z	2016-08-24T14:05:02Z		2016-08-24, Version 6.4.1 (Current)	874		
+8254	15943089	true	open	false	0	0	2016-08-24T14:08:16Z	2016-08-24T14:08:16Z		test: fix localhost error in test-dns-ipv6	60		
