@@ -199,7 +199,7 @@
 6398	79017	true	closed	false			2016-04-26T13:52:47Z	2016-08-01T15:17:23Z	2016-05-10T13:13:45Z	deps: backport e093a04, 09db540 from upstream V8	114		
 6404	238531	true	closed	false	10		2016-04-26T20:32:50Z	2016-07-12T05:11:58Z	2016-04-27T04:41:45Z	net: introduce `Socket#connecting` property	77		
 6406	176984	true	closed	false	8		2016-04-27T00:32:49Z	2016-07-11T20:01:18Z	2016-04-30T10:43:12Z	build: use shorthand lint target from test	68		
-6413	439929	true	open	false	63		2016-04-27T05:29:39Z	2016-08-25T12:09:00Z		"Revert ""fs: add a temporary fix for re-evaluation support"""	37		
+6413	439929	true	open	false	65		2016-04-27T05:29:39Z	2016-08-25T15:13:28Z		"Revert ""fs: add a temporary fix for re-evaluation support"""	37		
 6429	45469	false	closed	false	29		2016-04-27T21:44:57Z	2016-06-27T17:29:28Z	2016-06-27T17:29:28Z	deprecate --use_strict	48		
 6434	677518	false	open	false	6		2016-04-27T23:17:09Z	2016-08-12T21:59:01Z		Module.globalPaths under Windows	68		
 6436	5438027	true	closed	false	38		2016-04-28T01:22:41Z	2016-07-12T12:40:59Z	2016-06-29T09:14:33Z	3x faster setImmediate	110		
@@ -1174,7 +1174,7 @@
 8163	1095402	false	closed	false	3		2016-08-18T17:34:15Z	2016-08-22T19:20:48Z	2016-08-18T17:39:25Z	Inserting CR in addition to LF in util.inspect() is not right on UNIX OSes	156		
 8164	2512748	true	closed	false	3	0	2016-08-18T17:44:47Z	2016-08-20T20:27:16Z	2016-08-20T20:27:16Z	child_process: reuse existing no-op function	48	2512748	2016-08-20T20:27:16Z
 8165	159100	false	closed	false	9		2016-08-18T19:12:43Z	2016-08-24T18:41:38Z	2016-08-24T18:41:38Z	url.resolve auth behavior if host does *not* change	121		
-8166	439929	true	open	false	20		2016-08-18T19:15:57Z	2016-08-25T14:17:07Z		lib,fs: use process.emitWarning instead of internal print dep warning	103		
+8166	439929	true	open	false	22		2016-08-18T19:15:57Z	2016-08-25T15:08:43Z		lib,fs: use process.emitWarning instead of internal print dep warning	103		
 8167	657552	false	open	false	2		2016-08-18T19:48:09Z	2016-08-18T20:03:15Z		TypeError: Forked processes must have an IPC channel	61		
 8168	2512748	true	open	false			2016-08-18T20:31:47Z	2016-08-24T01:33:09Z		test: exercise EE function type checking paths	60		
 8169	988441	true	open	false	17		2016-08-18T20:52:01Z	2016-08-24T21:21:45Z		buffer: hard-deprecate calling Buffer without new	59		
@@ -1225,7 +1225,7 @@
 8214	1898870	true	closed	false	2		2016-08-21T20:34:20Z	2016-08-23T19:46:39Z	2016-08-23T19:46:39Z	url: fix inconsistent port in url.resolveObject	87		
 8215	1898870	true	closed	false	8	0	2016-08-21T20:50:34Z	2016-08-24T18:41:53Z	2016-08-24T18:41:53Z	url: keep auth in `url.resolve()` if host matches	56		
 8216	788473	false	open	false	8		2016-08-21T21:39:44Z	2016-08-23T19:35:26Z		Garbage Collection Crash	130		
-8217	439929	true	open	false	17		2016-08-21T22:40:46Z	2016-08-25T00:45:01Z		promise: warning on unhandled rejection	60		
+8217	439929	true	open	false	18		2016-08-21T22:40:46Z	2016-08-25T15:09:47Z		promise: warning on unhandled rejection	60		
 8218	2983969	false	closed	false	1		2016-08-22T02:23:11Z	2016-08-22T03:09:46Z	2016-08-22T03:09:46Z	Immediate crash on --inspect	42		
 8219	1935767	false	closed	false	3		2016-08-22T07:30:54Z	2016-08-22T08:30:09Z	2016-08-22T07:52:51Z	test: failed on sequential/test-child-process-pass-fd	55		
 8220	13269109	false	closed	false	1		2016-08-22T07:44:58Z	2016-08-22T11:08:54Z	2016-08-22T11:08:54Z	V8: Can't compile with nativesim=true for PowerPC 440	216		
@@ -1265,7 +1265,7 @@
 8254	15943089	true	open	false	1		2016-08-24T14:08:16Z	2016-08-25T09:44:36Z		test: fix localhost error in test-dns-ipv6	60		
 8255	172594	false	open	false	5		2016-08-24T16:28:50Z	2016-08-25T00:57:47Z		fs.stat() returns 'Stats' - should be 'Status'.	49		
 8256	439929	true	open	false			2016-08-24T17:27:24Z	2016-08-24T21:54:19Z		test: refactor buffer tests	54		
-8257	287917	true	open	false	0		2016-08-24T18:10:23Z	2016-08-25T13:31:59Z		inspector: Simplify buffer management	114		
+8257	287917	true	open	false			2016-08-24T18:10:23Z	2016-08-25T15:54:59Z		inspector: Simplify buffer management	114		
 8258	446478	false	open	false	2		2016-08-24T19:58:19Z	2016-08-25T14:21:30Z		Assertion failed ../deps/uv/src/unix/stream.c, line 1563	912		
 8259	837347	false	open	false	4		2016-08-24T20:38:12Z	2016-08-25T08:49:28Z		Slow start of Node application (ARM)	384		
 8260	495647	true	open	false	5		2016-08-24T20:55:53Z	2016-08-25T10:36:51Z		doc: add Myles Borins to the CTC	22		
@@ -1275,5 +1275,5 @@
 8265	718899	false	open	false	2		2016-08-25T00:17:00Z	2016-08-25T13:42:05Z		Process for determining supported platforms	124		
 8266	275871	false	open	false	2		2016-08-25T08:33:26Z	2016-08-25T10:01:37Z		buffer: zero-sized slices have .buffer but not .parent	51		
 8267	10029810	false	open	false	0		2016-08-25T12:20:58Z	2016-08-25T12:20:58Z		SyntaxError: Octal literals are not allowed in strict mode.	113		
-8268	6802696	false	open	false	0		2016-08-25T14:18:13Z	2016-08-25T14:18:13Z		nodejs install but not runing	89		
+8268	6802696	false	open	false	2		2016-08-25T14:18:13Z	2016-08-25T15:38:22Z		nodejs install but not runing	87		
 8269	1186693	false	open	false	0		2016-08-25T14:30:49Z	2016-08-25T14:30:49Z		Docs: Further improvements to Addon section, specifically numeric and binary IO	163		
