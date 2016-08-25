@@ -48,7 +48,7 @@
 2642	2645436	false	open	false	30		2015-09-02T06:06:18Z	2016-06-30T18:50:44Z		Keep alive connection do not get closed with server.close()	106		
 2668	291301	false	open	false	7		2015-09-02T21:50:48Z	2016-08-04T02:25:23Z		Unreachable code in buffer.js and unsigned bitwise shifts.	293		
 2681	439929	false	closed	false	5		2015-09-03T15:40:56Z	2016-06-30T23:21:20Z	2016-06-30T23:21:20Z	child_process: execFile and fork arg parsing ambiguity	136		
-2741	275871	true	open	false	12		2015-09-08T19:11:39Z	2016-08-25T16:52:22Z		src: log warning on process.binding('natives')	28		
+2741	275871	true	open	false	13		2015-09-08T19:11:39Z	2016-08-25T19:29:22Z		src: log warning on process.binding('natives')	28		
 2760	194482	false	closed	false	13		2015-09-09T07:12:46Z	2016-08-09T10:35:10Z	2015-09-09T09:46:00Z	--harmony_modules isn't working?	69		
 2768	2993861	true	closed	false	51		2015-09-09T12:14:52Z	2016-08-24T23:52:32Z	2016-08-06T07:16:39Z	node: deprecate public access to `process.binding`	35		
 2783	75184	false	closed	false	37		2015-09-09T21:17:46Z	2016-08-03T09:18:39Z	2016-05-02T11:32:45Z	Compiling node v4.0.0 with OpenSSL 1.0.1 fails	473		
@@ -106,7 +106,7 @@
 4243	524382	true	closed	false	10	0	2015-12-11T17:36:12Z	2016-08-19T15:09:25Z	2016-08-19T15:09:25Z	src: use thread defaults provided by v8::platform	73		
 4253	855219	true	closed	false	17		2015-12-12T01:21:25Z	2016-06-29T16:28:17Z	2016-05-04T22:07:05Z	nodejs/node#3111 - WIP v8BreakIterator disablement	6		
 4266	1470592	false	open	false	13		2015-12-14T00:40:39Z	2016-08-19T14:06:13Z		buffer.toString fails for buffers larger than 192MB	95		
-4270	495647	false	open	false	12		2015-12-14T10:06:18Z	2016-08-25T18:03:47Z		Discussion: OpenSSL 1.1.0 planning	297		
+4270	495647	false	open	false	13		2015-12-14T10:06:18Z	2016-08-25T19:39:14Z		Discussion: OpenSSL 1.1.0 planning	297		
 4307	12825770	false	closed	false	11		2015-12-16T08:16:14Z	2016-07-11T09:25:48Z	2016-07-11T09:25:48Z	can not step in constructor, will will terminate node.exe	90		
 4329	16335744	false	closed	false	14		2015-12-17T11:41:17Z	2016-07-21T14:42:10Z	2016-01-15T10:53:49Z	node.js Setup Wizard ended prematurely	43		
 4394	1470592	true	open	false	44		2015-12-23T03:38:39Z	2016-08-07T06:04:29Z		buffer: workaround for v8 buffer.toString failure. fixes #4266	20		
@@ -1083,7 +1083,7 @@
 8071	4573903	false	closed	false	4		2016-08-11T20:08:32Z	2016-08-25T05:23:10Z	2016-08-25T05:23:10Z	console.log calls inspect function on passed object	161		
 8072	1898870	true	closed	false	8		2016-08-11T20:24:38Z	2016-08-18T18:23:54Z	2016-08-18T18:23:54Z	url: make `url.format()` encode all occurrences of `#` in `search`	67		
 8073	718899	true	closed	false	10		2016-08-11T21:37:29Z	2016-08-15T03:49:09Z	2016-08-15T03:49:09Z	tools: enable rest-spread-spacing	74		
-8074	159100	false	open	false	19		2016-08-11T22:15:51Z	2016-08-18T22:20:26Z		segfault on node v6.3.1 on Ubuntu 14.04.4	138		
+8074	159100	false	open	false	19		2016-08-11T22:15:51Z	2016-08-25T19:15:53Z		segfault on node v6.3.1 on Ubuntu 14.04.4	138		
 8075	439929	true	open	false			2016-08-12T01:42:22Z	2016-08-17T21:39:41Z		[WIP] proposed new unicode module	62		
 8076	9373002	true	closed	false	4		2016-08-12T03:21:18Z	2016-08-25T16:15:40Z	2016-08-25T16:15:40Z	test: exclude tests for AIX	70		
 8077	3254987	false	closed	false	6		2016-08-12T07:53:11Z	2016-08-18T08:11:30Z	2016-08-18T07:20:12Z	child_process.spawn does not recognize local package in Windows	111		
@@ -1178,7 +1178,7 @@
 8166	439929	true	open	false	22		2016-08-18T19:15:57Z	2016-08-25T15:08:43Z		lib,fs: use process.emitWarning instead of internal print dep warning	103		
 8167	657552	false	open	false	2		2016-08-18T19:48:09Z	2016-08-18T20:03:15Z		TypeError: Forked processes must have an IPC channel	61		
 8168	2512748	true	open	false			2016-08-18T20:31:47Z	2016-08-24T01:33:09Z		test: exercise EE function type checking paths	60		
-8169	988441	true	closed	false	19		2016-08-18T20:52:01Z	2016-08-25T18:04:43Z	2016-08-25T18:04:43Z	buffer: hard-deprecate calling Buffer without new	59		
+8169	988441	true	closed	false	19		2016-08-18T20:52:01Z	2016-08-25T19:44:06Z	2016-08-25T18:04:43Z	buffer: hard-deprecate calling Buffer without new	59		
 8170	2512748	true	open	false	6		2016-08-18T21:30:38Z	2016-08-22T18:09:31Z		dns: lookupService() callback must be a function	179		
 8171	248374	true	closed	false	5		2016-08-18T22:02:29Z	2016-08-22T19:08:10Z	2016-08-22T18:05:21Z	build: add node_module_version to config.gypi	25		
 8172	88045	false	closed	false	5		2016-08-18T22:27:28Z	2016-08-23T18:29:50Z	2016-08-18T22:50:20Z	6.4.0 is linking against GLIBCXX_3.4.18 (libstdc++6 >=4.8)	533		
@@ -1207,7 +1207,7 @@
 8195	1622515	false	open	false	7		2016-08-20T07:13:12Z	2016-08-20T10:46:45Z		repl: Proposal for better repl	261		
 8196	1443911	true	closed	false	4		2016-08-20T10:07:16Z	2016-08-25T17:57:33Z	2016-08-25T17:57:33Z	doc: add `added:` information for dgram	27		
 8197	1935767	true	open	false	6		2016-08-20T12:12:47Z	2016-08-22T07:00:03Z		stream: move legacy to sep file	88		
-8198	1935767	true	open	false	6		2016-08-20T13:44:24Z	2016-08-23T23:31:20Z		async_wrap: add a missing case to test-async-wrap-throw-no-init	54		
+8198	1935767	true	closed	false	6	0	2016-08-20T13:44:24Z	2016-08-25T19:55:56Z	2016-08-25T19:55:56Z	async_wrap: add a missing case to test-async-wrap-throw-no-init	54	1935767	2016-08-25T19:55:56Z
 8199	11921153	false	closed	false	1		2016-08-21T00:55:41Z	2016-08-21T08:04:05Z	2016-08-21T08:04:04Z	install Node.js Failed to open XML file C:\Program Files\nodejs\node_etw_provider.man,system error:-2147221164	6		
 8200	10378547	true	open	false	4		2016-08-21T02:13:25Z	2016-08-24T00:15:47Z		doc: fix onReadable reentry after unshift called	69		
 8201	1187447	false	open	false	0		2016-08-21T02:15:38Z	2016-08-21T11:36:47Z		--inspect flag and cluster module -  Debug port numbers not incrementing	139		
@@ -1248,7 +1248,7 @@
 8236	3524687	false	open	false	0		2016-08-23T13:17:57Z	2016-08-23T13:17:57Z		"crypto: getDecoder throws ""AssertionError: Cannot change encoding"" when encoding is ""ucs2"", ""ucs-2"" or ""utf-16le""."	129		
 8237	458614	false	closed	false	19		2016-08-23T13:51:18Z	2016-08-24T07:36:49Z	2016-08-23T19:27:07Z	process.cwd() casing inconsistent across platforms	180		
 8238	54666	true	open	false	3		2016-08-23T17:58:09Z	2016-08-23T20:07:18Z		http: fix connection upgrade checks	61		
-8239	9373002	false	open	false	4		2016-08-23T18:00:34Z	2016-08-24T19:53:19Z		test: intermittent failure running add-on tests on AIX	209		
+8239	9373002	false	open	false	4		2016-08-23T18:00:34Z	2016-08-25T19:04:10Z		test: intermittent failure running add-on tests on AIX	209		
 8240	3374946	true	closed	false	6		2016-08-23T18:08:27Z	2016-08-25T05:26:31Z	2016-08-25T05:26:31Z	doc: fix buf.readUIntBE, buf.readUIntLE examples	75		
 8241	1622515	true	open	false	5		2016-08-23T18:52:25Z	2016-08-25T17:48:38Z		repl: Auto alignment for .editor mode	82		
 8242	718899	false	open	false	14		2016-08-23T21:00:09Z	2016-08-24T19:38:05Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-24	520		
@@ -1262,12 +1262,12 @@
 8250	1443911	true	open	false	6		2016-08-24T10:45:04Z	2016-08-25T05:51:43Z		doc: add `added:` information for modules	27		
 8251	11582552	false	open	false	2		2016-08-24T11:42:09Z	2016-08-24T14:09:01Z		EFAULT error in process.stdout.write(data, 'hex')	299		
 8252	899444	true	open	false	4		2016-08-24T13:22:41Z	2016-08-25T04:49:10Z		net: make holding the buffer in memory more robust	102		
-8253	677994	true	open	false	6		2016-08-24T14:05:02Z	2016-08-25T18:10:20Z		2016-08-24, Version 6.4.1 (Current)	874		
+8253	677994	true	open	false	7		2016-08-24T14:05:02Z	2016-08-25T19:05:31Z		2016-08-24, Version 6.4.1 (Current)	874		
 8254	15943089	true	open	false	3		2016-08-24T14:08:16Z	2016-08-25T18:49:58Z		test: fix localhost error in test-dns-ipv6	60		
 8255	172594	false	open	false	5		2016-08-24T16:28:50Z	2016-08-25T00:57:47Z		fs.stat() returns 'Stats' - should be 'Status'.	49		
 8256	439929	true	open	false			2016-08-24T17:27:24Z	2016-08-24T21:54:19Z		test: refactor buffer tests	54		
-8257	287917	true	open	false			2016-08-24T18:10:23Z	2016-08-25T16:45:08Z		inspector: Simplify buffer management	114		
-8258	446478	false	open	false	2		2016-08-24T19:58:19Z	2016-08-25T14:21:30Z		Assertion failed ../deps/uv/src/unix/stream.c, line 1563	912		
+8257	287917	true	open	false			2016-08-24T18:10:23Z	2016-08-25T19:51:53Z		inspector: Simplify buffer management	114		
+8258	446478	false	open	false	3		2016-08-24T19:58:19Z	2016-08-25T19:53:45Z		Assertion failed ../deps/uv/src/unix/stream.c, line 1563	912		
 8259	837347	false	open	false	4		2016-08-24T20:38:12Z	2016-08-25T18:46:55Z		Slow start of Node application (ARM)	384		
 8260	495647	true	open	false	6		2016-08-24T20:55:53Z	2016-08-25T17:41:32Z		doc: add Myles Borins to the CTC	22		
 8261	439929	true	open	false	1		2016-08-24T21:01:41Z	2016-08-24T23:05:11Z		test: refactor/cleanup a number of cluster tests	68		
@@ -1279,3 +1279,4 @@
 8268	6802696	false	open	false	2		2016-08-25T14:18:13Z	2016-08-25T15:38:22Z		nodejs install but not runing	87		
 8269	1186693	false	open	false	0		2016-08-25T14:30:49Z	2016-08-25T14:30:49Z		Docs: Further improvements to Addon section, specifically numeric and binary IO	163		
 8270	439929	true	open	false	0	0	2016-08-25T17:19:06Z	2016-08-25T17:19:06Z		src: make it simple to emit process warnings from src	63		
+8271	9373002	false	open	false	0		2016-08-25T19:44:47Z	2016-08-25T19:44:47Z		test-child-process-fork-dgram on AIX - intermittent?	51		
