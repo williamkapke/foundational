@@ -48,7 +48,7 @@
 2642	2645436	false	open	false	30		2015-09-02T06:06:18Z	2016-06-30T18:50:44Z		Keep alive connection do not get closed with server.close()	106		
 2668	291301	false	open	false	7		2015-09-02T21:50:48Z	2016-08-04T02:25:23Z		Unreachable code in buffer.js and unsigned bitwise shifts.	293		
 2681	439929	false	closed	false	5		2015-09-03T15:40:56Z	2016-06-30T23:21:20Z	2016-06-30T23:21:20Z	child_process: execFile and fork arg parsing ambiguity	136		
-2741	275871	true	open	false			2015-09-08T19:11:39Z	2016-08-25T20:05:21Z		src: log warning on process.binding('natives')	28		
+2741	275871	true	open	false	21		2015-09-08T19:11:39Z	2016-08-25T21:03:52Z		src: log warning on process.binding('natives')	28		
 2760	194482	false	closed	false	13		2015-09-09T07:12:46Z	2016-08-09T10:35:10Z	2015-09-09T09:46:00Z	--harmony_modules isn't working?	69		
 2768	2993861	true	closed	false	51		2015-09-09T12:14:52Z	2016-08-24T23:52:32Z	2016-08-06T07:16:39Z	node: deprecate public access to `process.binding`	35		
 2783	75184	false	closed	false	37		2015-09-09T21:17:46Z	2016-08-03T09:18:39Z	2016-05-02T11:32:45Z	Compiling node v4.0.0 with OpenSSL 1.0.1 fails	473		
@@ -982,7 +982,7 @@
 7970	4421720	true	closed	false	3	0	2016-08-03T23:00:06Z	2016-08-05T20:42:09Z	2016-08-05T20:42:09Z	doc: add CTC meeting minutes 2016-07-20	32		
 7971	718899	true	closed	false	8	7	2016-08-03T23:36:02Z	2016-08-05T19:33:09Z	2016-08-05T19:33:09Z	doc: use consistent markdown in README	61		
 7972	439929	true	open	false	2		2016-08-04T00:15:37Z	2016-08-04T16:05:37Z		lib: add initial mapproxy implementation and benchmark	119		
-7973	9373002	false	open	false	9		2016-08-04T01:24:49Z	2016-08-11T16:07:54Z		AIX: parallel/test-stdio-closed and pseudo-tty/no_dropped_stdio failures on new machine	133		
+7973	9373002	false	open	false	11		2016-08-04T01:24:49Z	2016-08-25T21:14:50Z		AIX: parallel/test-stdio-closed and pseudo-tty/no_dropped_stdio failures on new machine	133		
 7974	13586713	false	open	false	2		2016-08-04T06:38:01Z	2016-08-04T17:11:15Z		Children from child_process.fork printing outside of parent after parent process.exit	203		
 7975	101553	true	closed	false	11	6	2016-08-04T07:56:59Z	2016-08-05T20:41:48Z	2016-08-05T20:41:48Z	src: make EnvDelete behave like the delete operator	98		
 7976	1231635	true	open	false	9		2016-08-04T08:35:23Z	2016-08-05T21:18:51Z		doc: improve server.listen() random port	109		
@@ -1078,7 +1078,7 @@
 8066	3849161	false	open	false	1		2016-08-11T17:54:25Z	2016-08-11T20:08:45Z		TCP Fast Open	25		
 8067	275871	true	open	false	3		2016-08-11T17:57:29Z	2016-08-15T09:28:04Z		src: remove VS 2013 compatibility hacks	51		
 8068	718899	true	closed	false	10		2016-08-11T17:58:45Z	2016-08-15T09:48:05Z	2016-08-14T09:22:12Z	tools: favor === over == in license2rtf.js	30		
-8069	5445507	true	open	false	4		2016-08-11T19:33:13Z	2016-08-17T16:58:15Z		build: add missing files to zip and 7z packages	55		
+8069	5445507	true	open	false	5		2016-08-11T19:33:13Z	2016-08-25T21:11:57Z		build: add missing files to zip and 7z packages	55		
 8070	2512748	true	closed	false	10	0	2016-08-11T20:03:08Z	2016-08-16T14:30:43Z	2016-08-16T14:30:42Z	v6.4.0 Proposal	2015	2512748	2016-08-16T14:30:42Z
 8071	4573903	false	closed	false	4		2016-08-11T20:08:32Z	2016-08-25T05:23:10Z	2016-08-25T05:23:10Z	console.log calls inspect function on passed object	161		
 8072	1898870	true	closed	false	8		2016-08-11T20:24:38Z	2016-08-18T18:23:54Z	2016-08-18T18:23:54Z	url: make `url.format()` encode all occurrences of `#` in `search`	67		
@@ -1230,7 +1230,7 @@
 8218	2983969	false	closed	false	1		2016-08-22T02:23:11Z	2016-08-22T03:09:46Z	2016-08-22T03:09:46Z	Immediate crash on --inspect	42		
 8219	1935767	false	closed	false	3		2016-08-22T07:30:54Z	2016-08-22T08:30:09Z	2016-08-22T07:52:51Z	test: failed on sequential/test-child-process-pass-fd	55		
 8220	13269109	false	closed	false	1		2016-08-22T07:44:58Z	2016-08-22T11:08:54Z	2016-08-22T11:08:54Z	V8: Can't compile with nativesim=true for PowerPC 440	216		
-8221	289174	false	open	false	3		2016-08-22T09:26:43Z	2016-08-24T18:34:18Z		32bit address given for 64bit builds using --prof on Windows	101		
+8221	289174	false	open	false	5		2016-08-22T09:26:43Z	2016-08-25T21:12:38Z		32bit address given for 64bit builds using --prof on Windows	101		
 8222	11819320	false	open	false	0		2016-08-22T16:23:54Z	2016-08-22T16:23:54Z		Cant compile from github	38		
 8223	439929	true	open	false	1		2016-08-22T16:31:49Z	2016-08-22T21:53:45Z		promise: warning on unhandled rejection (v6.x)	71		
 8224	714117	false	open	false	4		2016-08-22T16:54:02Z	2016-08-22T19:35:43Z		REPL debugging Proxy bug	105		
@@ -1248,7 +1248,7 @@
 8236	3524687	false	open	false	0		2016-08-23T13:17:57Z	2016-08-23T13:17:57Z		"crypto: getDecoder throws ""AssertionError: Cannot change encoding"" when encoding is ""ucs2"", ""ucs-2"" or ""utf-16le""."	129		
 8237	458614	false	closed	false	19		2016-08-23T13:51:18Z	2016-08-24T07:36:49Z	2016-08-23T19:27:07Z	process.cwd() casing inconsistent across platforms	180		
 8238	54666	true	open	false	3		2016-08-23T17:58:09Z	2016-08-23T20:07:18Z		http: fix connection upgrade checks	61		
-8239	9373002	false	open	false	4		2016-08-23T18:00:34Z	2016-08-25T19:04:10Z		test: intermittent failure running add-on tests on AIX	209		
+8239	9373002	false	open	false	6		2016-08-23T18:00:34Z	2016-08-25T21:05:36Z		test: intermittent failure running add-on tests on AIX	209		
 8240	3374946	true	closed	false	6		2016-08-23T18:08:27Z	2016-08-25T05:26:31Z	2016-08-25T05:26:31Z	doc: fix buf.readUIntBE, buf.readUIntLE examples	75		
 8241	1622515	true	open	false	5		2016-08-23T18:52:25Z	2016-08-25T17:48:38Z		repl: Auto alignment for .editor mode	82		
 8242	718899	false	open	false	14		2016-08-23T21:00:09Z	2016-08-24T19:38:05Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-24	520		
@@ -1269,8 +1269,8 @@
 8257	287917	true	open	false			2016-08-24T18:10:23Z	2016-08-25T19:51:53Z		inspector: Simplify buffer management	114		
 8258	446478	false	open	false	3		2016-08-24T19:58:19Z	2016-08-25T19:53:45Z		Assertion failed ../deps/uv/src/unix/stream.c, line 1563	912		
 8259	837347	false	open	false	4		2016-08-24T20:38:12Z	2016-08-25T18:46:55Z		Slow start of Node application (ARM)	384		
-8260	495647	true	open	false	6		2016-08-24T20:55:53Z	2016-08-25T17:41:32Z		doc: add Myles Borins to the CTC	22		
-8261	439929	true	open	false			2016-08-24T21:01:41Z	2016-08-25T20:08:32Z		test: refactor/cleanup a number of cluster tests	68		
+8260	495647	true	closed	false	8		2016-08-24T20:55:53Z	2016-08-25T21:13:23Z	2016-08-25T17:42:13Z	doc: add Myles Borins to the CTC	22		
+8261	439929	true	open	false			2016-08-24T21:01:41Z	2016-08-25T21:17:59Z		test: refactor/cleanup a number of cluster tests	68		
 8263	4256376	true	closed	false	2	0	2016-08-24T22:07:47Z	2016-08-24T23:56:14Z	2016-08-24T23:56:14Z	"doc: Added missing e to ""timeout"""	46		
 8264	287917	true	open	false	0	0	2016-08-24T23:46:45Z	2016-08-24T23:46:45Z		inspector: Make sure all messages are dispatched	55		
 8265	718899	false	open	false	6		2016-08-25T00:17:00Z	2016-08-25T20:45:49Z		Process for determining supported platforms	124		
@@ -1280,3 +1280,5 @@
 8269	1186693	false	open	false	0		2016-08-25T14:30:49Z	2016-08-25T14:30:49Z		Docs: Further improvements to Addon section, specifically numeric and binary IO	163		
 8270	439929	true	open	false	0	0	2016-08-25T17:19:06Z	2016-08-25T17:19:06Z		src: make it simple to emit process warnings from src	63		
 8271	9373002	false	open	false	0		2016-08-25T19:44:47Z	2016-08-25T19:44:47Z		test-child-process-fork-dgram on AIX - intermittent?	51		
+8272	9373002	true	open	false	0	0	2016-08-25T21:02:40Z	2016-08-25T21:02:40Z		build: fix depenencies on AIX	53		
+8273	79017	true	open	false	0	0	2016-08-25T21:32:38Z	2016-08-25T21:32:38Z		src: avoid duplicate AtExit functions	85		
