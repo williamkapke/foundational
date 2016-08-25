@@ -48,7 +48,7 @@
 2642	2645436	false	open	false	30		2015-09-02T06:06:18Z	2016-06-30T18:50:44Z		Keep alive connection do not get closed with server.close()	106		
 2668	291301	false	open	false	7		2015-09-02T21:50:48Z	2016-08-04T02:25:23Z		Unreachable code in buffer.js and unsigned bitwise shifts.	293		
 2681	439929	false	closed	false	5		2015-09-03T15:40:56Z	2016-06-30T23:21:20Z	2016-06-30T23:21:20Z	child_process: execFile and fork arg parsing ambiguity	136		
-2741	275871	true	open	false	21		2015-09-08T19:11:39Z	2016-08-25T21:03:52Z		src: log warning on process.binding('natives')	28		
+2741	275871	true	open	false	23		2015-09-08T19:11:39Z	2016-08-25T22:04:10Z		src: log warning on process.binding('natives')	28		
 2760	194482	false	closed	false	13		2015-09-09T07:12:46Z	2016-08-09T10:35:10Z	2015-09-09T09:46:00Z	--harmony_modules isn't working?	69		
 2768	2993861	true	closed	false	51		2015-09-09T12:14:52Z	2016-08-24T23:52:32Z	2016-08-06T07:16:39Z	node: deprecate public access to `process.binding`	35		
 2783	75184	false	closed	false	37		2015-09-09T21:17:46Z	2016-08-03T09:18:39Z	2016-05-02T11:32:45Z	Compiling node v4.0.0 with OpenSSL 1.0.1 fails	473		
@@ -1248,8 +1248,8 @@
 8236	3524687	false	open	false	0		2016-08-23T13:17:57Z	2016-08-23T13:17:57Z		"crypto: getDecoder throws ""AssertionError: Cannot change encoding"" when encoding is ""ucs2"", ""ucs-2"" or ""utf-16le""."	129		
 8237	458614	false	closed	false	19		2016-08-23T13:51:18Z	2016-08-24T07:36:49Z	2016-08-23T19:27:07Z	process.cwd() casing inconsistent across platforms	180		
 8238	54666	true	open	false	3		2016-08-23T17:58:09Z	2016-08-23T20:07:18Z		http: fix connection upgrade checks	61		
-8239	9373002	false	open	false	6		2016-08-23T18:00:34Z	2016-08-25T21:05:36Z		test: intermittent failure running add-on tests on AIX	209		
-8240	3374946	true	closed	false	6		2016-08-23T18:08:27Z	2016-08-25T05:26:31Z	2016-08-25T05:26:31Z	doc: fix buf.readUIntBE, buf.readUIntLE examples	75		
+8239	9373002	false	closed	false	6		2016-08-23T18:00:34Z	2016-08-25T22:44:37Z	2016-08-25T22:44:37Z	test: intermittent failure running add-on tests on AIX	209		
+8240	3374946	true	closed	false	6		2016-08-23T18:08:27Z	2016-08-25T22:16:24Z	2016-08-25T05:26:31Z	doc: fix buf.readUIntBE, buf.readUIntLE examples	75		
 8241	1622515	true	open	false	5		2016-08-23T18:52:25Z	2016-08-25T17:48:38Z		repl: Auto alignment for .editor mode	82		
 8242	718899	false	open	false	14		2016-08-23T21:00:09Z	2016-08-24T19:38:05Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-24	520		
 8243	287917	true	open	false	1		2016-08-23T21:39:12Z	2016-08-25T17:46:33Z		inspector - Use script name for target title	86		
@@ -1270,15 +1270,15 @@
 8258	446478	false	open	false	3		2016-08-24T19:58:19Z	2016-08-25T19:53:45Z		Assertion failed ../deps/uv/src/unix/stream.c, line 1563	912		
 8259	837347	false	open	false	4		2016-08-24T20:38:12Z	2016-08-25T18:46:55Z		Slow start of Node application (ARM)	384		
 8260	495647	true	closed	false	8		2016-08-24T20:55:53Z	2016-08-25T21:13:23Z	2016-08-25T17:42:13Z	doc: add Myles Borins to the CTC	22		
-8261	439929	true	open	false			2016-08-24T21:01:41Z	2016-08-25T21:17:59Z		test: refactor/cleanup a number of cluster tests	68		
+8261	439929	true	open	false			2016-08-24T21:01:41Z	2016-08-25T22:05:38Z		test: refactor/cleanup a number of cluster tests	68		
 8263	4256376	true	closed	false	2	0	2016-08-24T22:07:47Z	2016-08-24T23:56:14Z	2016-08-24T23:56:14Z	"doc: Added missing e to ""timeout"""	46		
 8264	287917	true	open	false	0	0	2016-08-24T23:46:45Z	2016-08-24T23:46:45Z		inspector: Make sure all messages are dispatched	55		
-8265	718899	false	open	false	6		2016-08-25T00:17:00Z	2016-08-25T20:45:49Z		Process for determining supported platforms	124		
+8265	718899	false	open	false	9		2016-08-25T00:17:00Z	2016-08-25T22:05:24Z		Process for determining supported platforms	124		
 8266	275871	false	open	false	3		2016-08-25T08:33:26Z	2016-08-25T20:23:14Z		buffer: zero-sized slices have .buffer but not .parent	51		
 8267	10029810	false	open	false	0		2016-08-25T12:20:58Z	2016-08-25T12:20:58Z		SyntaxError: Octal literals are not allowed in strict mode.	113		
 8268	6802696	false	open	false	2		2016-08-25T14:18:13Z	2016-08-25T15:38:22Z		nodejs install but not runing	87		
-8269	1186693	false	open	false	0		2016-08-25T14:30:49Z	2016-08-25T14:30:49Z		Docs: Further improvements to Addon section, specifically numeric and binary IO	163		
+8269	1186693	false	open	false	0		2016-08-25T14:30:49Z	2016-08-25T22:40:12Z		Docs: Further improvements to Addon section, specifically numeric and binary IO	163		
 8270	439929	true	open	false	0	0	2016-08-25T17:19:06Z	2016-08-25T17:19:06Z		src: make it simple to emit process warnings from src	63		
-8271	9373002	false	open	false	0		2016-08-25T19:44:47Z	2016-08-25T19:44:47Z		test-child-process-fork-dgram on AIX - intermittent?	51		
-8272	9373002	true	open	false	0	0	2016-08-25T21:02:40Z	2016-08-25T21:02:40Z		build: fix depenencies on AIX	53		
+8271	9373002	false	open	false	1		2016-08-25T19:44:47Z	2016-08-25T22:29:37Z		test-child-process-fork-dgram Intermittent timeout on AIX	51		
+8272	9373002	true	open	false	8		2016-08-25T21:02:40Z	2016-08-25T22:09:22Z		build: fix depenencies on AIX	55		
 8273	79017	true	open	false	0	0	2016-08-25T21:32:38Z	2016-08-25T21:32:38Z		src: avoid duplicate AtExit functions	85		
