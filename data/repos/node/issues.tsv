@@ -48,7 +48,7 @@
 2642	2645436	false	open	false	30		2015-09-02T06:06:18Z	2016-06-30T18:50:44Z		Keep alive connection do not get closed with server.close()	106		
 2668	291301	false	open	false	7		2015-09-02T21:50:48Z	2016-08-04T02:25:23Z		Unreachable code in buffer.js and unsigned bitwise shifts.	293		
 2681	439929	false	closed	false	5		2015-09-03T15:40:56Z	2016-06-30T23:21:20Z	2016-06-30T23:21:20Z	child_process: execFile and fork arg parsing ambiguity	136		
-2741	275871	true	open	false	11	11	2015-09-08T19:11:39Z	2016-08-25T09:35:12Z		src: log warning on process.binding('natives')	28		
+2741	275871	true	open	false	12		2015-09-08T19:11:39Z	2016-08-25T16:52:22Z		src: log warning on process.binding('natives')	28		
 2760	194482	false	closed	false	13		2015-09-09T07:12:46Z	2016-08-09T10:35:10Z	2015-09-09T09:46:00Z	--harmony_modules isn't working?	69		
 2768	2993861	true	closed	false	51		2015-09-09T12:14:52Z	2016-08-24T23:52:32Z	2016-08-06T07:16:39Z	node: deprecate public access to `process.binding`	35		
 2783	75184	false	closed	false	37		2015-09-09T21:17:46Z	2016-08-03T09:18:39Z	2016-05-02T11:32:45Z	Compiling node v4.0.0 with OpenSSL 1.0.1 fails	473		
@@ -199,7 +199,7 @@
 6398	79017	true	closed	false			2016-04-26T13:52:47Z	2016-08-01T15:17:23Z	2016-05-10T13:13:45Z	deps: backport e093a04, 09db540 from upstream V8	114		
 6404	238531	true	closed	false	10		2016-04-26T20:32:50Z	2016-07-12T05:11:58Z	2016-04-27T04:41:45Z	net: introduce `Socket#connecting` property	77		
 6406	176984	true	closed	false	8		2016-04-27T00:32:49Z	2016-07-11T20:01:18Z	2016-04-30T10:43:12Z	build: use shorthand lint target from test	68		
-6413	439929	true	open	false	65		2016-04-27T05:29:39Z	2016-08-25T15:13:28Z		"Revert ""fs: add a temporary fix for re-evaluation support"""	37		
+6413	439929	true	open	false	67		2016-04-27T05:29:39Z	2016-08-25T16:43:26Z		"Revert ""fs: add a temporary fix for re-evaluation support"""	37		
 6429	45469	false	closed	false	29		2016-04-27T21:44:57Z	2016-06-27T17:29:28Z	2016-06-27T17:29:28Z	deprecate --use_strict	48		
 6434	677518	false	open	false	6		2016-04-27T23:17:09Z	2016-08-12T21:59:01Z		Module.globalPaths under Windows	68		
 6436	5438027	true	closed	false	38		2016-04-28T01:22:41Z	2016-07-12T12:40:59Z	2016-06-29T09:14:33Z	3x faster setImmediate	110		
@@ -1084,7 +1084,7 @@
 8073	718899	true	closed	false	10		2016-08-11T21:37:29Z	2016-08-15T03:49:09Z	2016-08-15T03:49:09Z	tools: enable rest-spread-spacing	74		
 8074	159100	false	open	false	19		2016-08-11T22:15:51Z	2016-08-18T22:20:26Z		segfault on node v6.3.1 on Ubuntu 14.04.4	138		
 8075	439929	true	open	false			2016-08-12T01:42:22Z	2016-08-17T21:39:41Z		[WIP] proposed new unicode module	62		
-8076	9373002	true	open	false	2		2016-08-12T03:21:18Z	2016-08-12T14:27:54Z		test: exclude tests for AIX	70		
+8076	9373002	true	closed	false	4		2016-08-12T03:21:18Z	2016-08-25T16:15:40Z	2016-08-25T16:15:40Z	test: exclude tests for AIX	70		
 8077	3254987	false	closed	false	6		2016-08-12T07:53:11Z	2016-08-18T08:11:30Z	2016-08-18T07:20:12Z	child_process.spawn does not recognize local package in Windows	111		
 8078	101553	true	open	false	3		2016-08-12T08:14:23Z	2016-08-17T12:47:14Z		deps: cherry-pick 7bd24767 from v8 upstream (v6.x)	59		
 8079	13269109	false	closed	false	6		2016-08-12T08:18:00Z	2016-08-12T14:18:50Z	2016-08-12T14:18:49Z	Illegal instruction on PowerPC 440EP	270		
@@ -1265,14 +1265,14 @@
 8254	15943089	true	open	false	1		2016-08-24T14:08:16Z	2016-08-25T09:44:36Z		test: fix localhost error in test-dns-ipv6	60		
 8255	172594	false	open	false	5		2016-08-24T16:28:50Z	2016-08-25T00:57:47Z		fs.stat() returns 'Stats' - should be 'Status'.	49		
 8256	439929	true	open	false			2016-08-24T17:27:24Z	2016-08-24T21:54:19Z		test: refactor buffer tests	54		
-8257	287917	true	open	false			2016-08-24T18:10:23Z	2016-08-25T15:54:59Z		inspector: Simplify buffer management	114		
+8257	287917	true	open	false			2016-08-24T18:10:23Z	2016-08-25T16:45:08Z		inspector: Simplify buffer management	114		
 8258	446478	false	open	false	2		2016-08-24T19:58:19Z	2016-08-25T14:21:30Z		Assertion failed ../deps/uv/src/unix/stream.c, line 1563	912		
 8259	837347	false	open	false	4		2016-08-24T20:38:12Z	2016-08-25T08:49:28Z		Slow start of Node application (ARM)	384		
 8260	495647	true	open	false	5		2016-08-24T20:55:53Z	2016-08-25T10:36:51Z		doc: add Myles Borins to the CTC	22		
 8261	439929	true	open	false	1		2016-08-24T21:01:41Z	2016-08-24T23:05:11Z		test: refactor/cleanup a number of cluster tests	68		
 8263	4256376	true	closed	false	2	0	2016-08-24T22:07:47Z	2016-08-24T23:56:14Z	2016-08-24T23:56:14Z	"doc: Added missing e to ""timeout"""	46		
 8264	287917	true	open	false	0	0	2016-08-24T23:46:45Z	2016-08-24T23:46:45Z		inspector: Make sure all messages are dispatched	55		
-8265	718899	false	open	false	2		2016-08-25T00:17:00Z	2016-08-25T13:42:05Z		Process for determining supported platforms	124		
+8265	718899	false	open	false	5		2016-08-25T00:17:00Z	2016-08-25T16:59:26Z		Process for determining supported platforms	124		
 8266	275871	false	open	false	2		2016-08-25T08:33:26Z	2016-08-25T10:01:37Z		buffer: zero-sized slices have .buffer but not .parent	51		
 8267	10029810	false	open	false	0		2016-08-25T12:20:58Z	2016-08-25T12:20:58Z		SyntaxError: Octal literals are not allowed in strict mode.	113		
 8268	6802696	false	open	false	2		2016-08-25T14:18:13Z	2016-08-25T15:38:22Z		nodejs install but not runing	87		
