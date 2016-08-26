@@ -200,7 +200,7 @@
 6398	79017	true	closed	false			2016-04-26T13:52:47Z	2016-08-01T15:17:23Z	2016-05-10T13:13:45Z	deps: backport e093a04, 09db540 from upstream V8	114		
 6404	238531	true	closed	false	10		2016-04-26T20:32:50Z	2016-07-12T05:11:58Z	2016-04-27T04:41:45Z	net: introduce `Socket#connecting` property	77		
 6406	176984	true	closed	false	8		2016-04-27T00:32:49Z	2016-07-11T20:01:18Z	2016-04-30T10:43:12Z	build: use shorthand lint target from test	68		
-6413	439929	true	open	false	71		2016-04-27T05:29:39Z	2016-08-26T12:25:02Z		"Revert ""fs: add a temporary fix for re-evaluation support"""	37		
+6413	439929	true	open	false	74		2016-04-27T05:29:39Z	2016-08-26T17:59:12Z		"Revert ""fs: add a temporary fix for re-evaluation support"""	37		
 6429	45469	false	closed	false	29		2016-04-27T21:44:57Z	2016-06-27T17:29:28Z	2016-06-27T17:29:28Z	deprecate --use_strict	48		
 6434	677518	false	open	false	6		2016-04-27T23:17:09Z	2016-08-12T21:59:01Z		Module.globalPaths under Windows	68		
 6436	5438027	true	closed	false	38		2016-04-28T01:22:41Z	2016-07-12T12:40:59Z	2016-06-29T09:14:33Z	3x faster setImmediate	110		
@@ -1114,12 +1114,12 @@
 8101	6517897	true	open	false			2016-08-14T19:58:27Z	2016-08-24T22:26:36Z		net, http: allow setting socket connection timeout for http request	67		
 8102	6850510	false	open	false	8		2016-08-14T20:25:09Z	2016-08-15T19:52:48Z		False successfully end of request	344		
 8103	110455	true	open	false	1		2016-08-14T21:45:22Z	2016-08-14T22:04:14Z		http: fix legacy http.Client instanceof	205		
-8104	54666	true	open	false	7		2016-08-14T22:28:11Z	2016-08-26T16:54:17Z		http: remove deprecated Client interface	53		
+8104	54666	true	open	false	10		2016-08-14T22:28:11Z	2016-08-26T17:32:43Z		http: remove deprecated Client interface	53		
 8105	110455	true	closed	false	5		2016-08-14T22:33:31Z	2016-08-18T01:29:25Z	2016-08-18T01:29:25Z	util: fix deprecated class prototype	101		
 8106	275871	true	closed	false	3	0	2016-08-15T10:00:49Z	2016-08-23T19:12:30Z	2016-08-23T19:12:30Z	src: make debugger listen on 127.0.0.1 by default	61		
 8107	609579	true	open	false	6		2016-08-15T10:01:27Z	2016-08-15T17:41:41Z		doc: fix typo	40		
 8108	275871	false	open	false	0		2016-08-15T11:22:49Z	2016-08-15T11:22:49Z		tls: misparsed URI subject alternative name?	189		
-8109	1622515	true	open	false	14		2016-08-15T12:23:48Z	2016-08-26T03:25:09Z		readline: key interval delay for \r & \n	50		
+8109	1622515	true	open	false	15		2016-08-15T12:23:48Z	2016-08-26T17:47:25Z		readline: key interval delay for \r & \n	50		
 8110	121040	false	open	false	3		2016-08-15T12:35:24Z	2016-08-15T14:25:13Z		Need upgrade package npm to v3.10.7 for Visual Studio 2015 update 3	22		
 8111	13312166	false	open	false	13		2016-08-15T13:00:00Z	2016-08-16T10:11:16Z		keepAlive doesn't work on Ubuntu	103		
 8112	54666	true	closed	false	5	3	2016-08-15T17:52:25Z	2016-08-23T19:14:33Z	2016-08-23T19:14:33Z	net: misc changes	46	54666	2016-08-23T19:14:33Z
@@ -1160,7 +1160,7 @@
 8147	439929	false	closed	false	0		2016-08-17T17:37:40Z	2016-08-23T18:00:54Z	2016-08-23T18:00:54Z	Buffer.prototype.toLocaleString needs a Buffer-specific implementation	63		
 8148	439929	true	open	false	4		2016-08-17T17:59:11Z	2016-08-23T17:58:17Z		buffer: alias toLocaleString to toString	54		
 8149	9287	false	open	false	53		2016-08-17T18:56:35Z	2016-08-21T09:35:42Z		RFE: Articulate benefits of moving code to internal/...	124		
-8150	79017	true	open	false	12		2016-08-17T23:10:09Z	2016-08-23T22:13:02Z		Update v8_inspector	42		
+8150	79017	true	open	false	13		2016-08-17T23:10:09Z	2016-08-26T17:27:19Z		Update v8_inspector	42		
 8151	718899	true	closed	false	5		2016-08-17T23:15:44Z	2016-08-19T23:31:11Z	2016-08-19T23:31:11Z	test: favor strict equality in http tests	31		
 8152	718899	true	closed	false	5		2016-08-18T00:02:11Z	2016-08-19T23:51:58Z	2016-08-19T23:51:58Z	test: add missing assert.deepEqual() test case	84		
 8153	8503065	false	open	false	1		2016-08-18T00:37:22Z	2016-08-18T03:36:32Z		Update _stream_readable.js to  delete invalid parameter.	7		
@@ -1271,10 +1271,10 @@
 8258	446478	false	open	false	3		2016-08-24T19:58:19Z	2016-08-26T12:27:16Z		Assertion failed ../deps/uv/src/unix/stream.c, line 1563	912		
 8259	837347	false	open	false	6		2016-08-24T20:38:12Z	2016-08-26T10:13:18Z		Slow start of Node application (ARM)	384		
 8260	495647	true	closed	false	8		2016-08-24T20:55:53Z	2016-08-25T21:13:23Z	2016-08-25T17:42:13Z	doc: add Myles Borins to the CTC	22		
-8261	439929	true	open	false			2016-08-24T21:01:41Z	2016-08-25T22:05:38Z		test: refactor/cleanup a number of cluster tests	68		
+8261	439929	true	open	false			2016-08-24T21:01:41Z	2016-08-26T18:01:00Z		test: refactor/cleanup a number of cluster tests	68		
 8263	4256376	true	closed	false	2	0	2016-08-24T22:07:47Z	2016-08-24T23:56:14Z	2016-08-24T23:56:14Z	"doc: Added missing e to ""timeout"""	46		
 8264	287917	true	open	false	0	0	2016-08-24T23:46:45Z	2016-08-24T23:46:45Z		inspector: Make sure all messages are dispatched	55		
-8265	718899	false	open	false	9		2016-08-25T00:17:00Z	2016-08-25T22:05:24Z		Process for determining supported platforms	124		
+8265	718899	false	open	false	10		2016-08-25T00:17:00Z	2016-08-26T17:38:34Z		Process for determining supported platforms	124		
 8266	275871	false	open	false	3		2016-08-25T08:33:26Z	2016-08-25T20:23:14Z		buffer: zero-sized slices have .buffer but not .parent	51		
 8267	10029810	false	open	false	0		2016-08-25T12:20:58Z	2016-08-25T12:20:58Z		SyntaxError: Octal literals are not allowed in strict mode.	113		
 8268	6802696	false	open	false	2		2016-08-25T14:18:13Z	2016-08-25T15:38:22Z		nodejs install but not runing	87		
