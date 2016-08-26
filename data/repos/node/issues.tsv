@@ -48,7 +48,7 @@
 2642	2645436	false	open	false	30		2015-09-02T06:06:18Z	2016-06-30T18:50:44Z		Keep alive connection do not get closed with server.close()	106		
 2668	291301	false	open	false	7		2015-09-02T21:50:48Z	2016-08-04T02:25:23Z		Unreachable code in buffer.js and unsigned bitwise shifts.	293		
 2681	439929	false	closed	false	5		2015-09-03T15:40:56Z	2016-06-30T23:21:20Z	2016-06-30T23:21:20Z	child_process: execFile and fork arg parsing ambiguity	136		
-2741	275871	true	open	false	23		2015-09-08T19:11:39Z	2016-08-26T08:19:51Z		src: log warning on process.binding('natives')	28		
+2741	275871	true	open	false	25		2015-09-08T19:11:39Z	2016-08-26T10:22:15Z		src: log warning on process.binding('natives')	28		
 2760	194482	false	closed	false	13		2015-09-09T07:12:46Z	2016-08-09T10:35:10Z	2015-09-09T09:46:00Z	--harmony_modules isn't working?	69		
 2768	2993861	true	closed	false	51		2015-09-09T12:14:52Z	2016-08-24T23:52:32Z	2016-08-06T07:16:39Z	node: deprecate public access to `process.binding`	35		
 2783	75184	false	closed	false	37		2015-09-09T21:17:46Z	2016-08-03T09:18:39Z	2016-05-02T11:32:45Z	Compiling node v4.0.0 with OpenSSL 1.0.1 fails	473		
@@ -386,6 +386,7 @@
 7310	54666	true	closed	false	21		2016-06-15T16:48:03Z	2016-07-14T12:02:20Z	2016-06-24T03:52:12Z	string_decoder: fix bad utf8 character handling	78		
 7311	54666	true	open	false	29		2016-06-15T17:31:24Z	2016-07-26T11:11:05Z		Fix benchmark issues	43		
 7312	718899	false	closed	false	13		2016-06-15T21:06:13Z	2016-07-21T08:55:01Z	2016-07-21T08:55:00Z	meta: feedback on release process	246		
+7316	2805297	false	open	false	4		2016-06-16T11:55:13Z	2016-08-26T11:00:42Z		"Cross-compiling Node for Mips32/OpenWRT fails with ""assembler.cc:(.text._ZN2v88internalL23f32_nearest_int_wrapperEPf+0x18): undefined reference to `nearbyintf'"""	277		
 7317	134460	true	open	false	13		2016-06-16T11:58:04Z	2016-07-02T18:11:30Z		build: split CI rules in Makefile	160		
 7320	4421720	true	closed	false	5	1	2016-06-16T15:44:13Z	2016-08-01T19:03:53Z	2016-08-01T19:03:53Z	doc: add CTC meeting minutes 2016-06-15	37		
 7327	718899	true	closed	false	14		2016-06-16T17:59:31Z	2016-07-12T03:00:04Z	2016-06-22T04:13:36Z	test: refresh the tmpdir before using	51		
@@ -1242,7 +1243,7 @@
 8230	13269109	false	closed	false	1		2016-08-23T05:37:23Z	2016-08-23T09:04:55Z	2016-08-23T09:04:55Z	Run Nodejs (v.4.4.7 and v6.3.2-pre) on PPC 440EP in simulator mode (with -DUSE_SIMULATOR=1)	1850		
 8231	613846	true	open	false	5		2016-08-23T06:46:36Z	2016-08-25T05:23:17Z		"doc: fix ""timout"" typo in timeout"	30		
 8232	1935767	true	open	false	15		2016-08-23T07:31:58Z	2016-08-24T13:09:22Z		process: improve stack trace on async(libuv) error	234		
-8233	8208733	false	open	false	4		2016-08-23T07:41:05Z	2016-08-23T10:07:33Z		execinfo.h error when compiling Node v6.4.0 for OpenWrt MIPS platform	118		
+8233	8208733	false	open	false	6		2016-08-23T07:41:05Z	2016-08-26T10:24:21Z		execinfo.h error when compiling Node v6.4.0 for OpenWrt MIPS platform	118		
 8234	1777622	false	open	false	3		2016-08-23T08:13:51Z	2016-08-23T13:07:27Z		Assertion failed in timer.c on windows / nodejs 6.4.0	33		
 8235	1408578	false	open	false	5		2016-08-23T09:18:00Z	2016-08-23T23:46:52Z		error http request at headers is array	94		
 8236	3524687	false	open	false	0		2016-08-23T13:17:57Z	2016-08-23T13:17:57Z		"crypto: getDecoder throws ""AssertionError: Cannot change encoding"" when encoding is ""ucs2"", ""ucs-2"" or ""utf-16le""."	129		
@@ -1268,7 +1269,7 @@
 8256	439929	true	open	false			2016-08-24T17:27:24Z	2016-08-24T21:54:19Z		test: refactor buffer tests	54		
 8257	287917	true	open	false			2016-08-24T18:10:23Z	2016-08-25T19:51:53Z		inspector: Simplify buffer management	114		
 8258	446478	false	open	false	3		2016-08-24T19:58:19Z	2016-08-25T19:53:45Z		Assertion failed ../deps/uv/src/unix/stream.c, line 1563	912		
-8259	837347	false	open	false	5		2016-08-24T20:38:12Z	2016-08-26T09:55:00Z		Slow start of Node application (ARM)	384		
+8259	837347	false	open	false	6		2016-08-24T20:38:12Z	2016-08-26T10:13:18Z		Slow start of Node application (ARM)	384		
 8260	495647	true	closed	false	8		2016-08-24T20:55:53Z	2016-08-25T21:13:23Z	2016-08-25T17:42:13Z	doc: add Myles Borins to the CTC	22		
 8261	439929	true	open	false			2016-08-24T21:01:41Z	2016-08-25T22:05:38Z		test: refactor/cleanup a number of cluster tests	68		
 8263	4256376	true	closed	false	2	0	2016-08-24T22:07:47Z	2016-08-24T23:56:14Z	2016-08-24T23:56:14Z	"doc: Added missing e to ""timeout"""	46		
@@ -1285,7 +1286,7 @@
 8274	9373002	true	open	false	7		2016-08-25T23:16:48Z	2016-08-26T10:00:37Z		test: mark test-child-process-fork-dgram as flaky	38		
 8275	1197615	true	open	false	1		2016-08-26T07:11:33Z	2016-08-26T08:57:38Z		_debugger: add select stack frame command	22		
 8276	926815	false	open	false	0		2016-08-26T07:12:52Z	2016-08-26T08:31:28Z		Provide access to file system times with nanoseconds resolution	162		
-8277	495647	true	open	false	0	0	2016-08-26T08:11:24Z	2016-08-26T08:11:24Z		 No abort on require() with null bytes	107		
-8278	207889	false	open	false	3		2016-08-26T08:23:30Z	2016-08-26T09:25:07Z		SIGABRT on OS/X	152		
+8277	495647	true	open	false	1		2016-08-26T08:11:24Z	2016-08-26T10:20:26Z		 No abort on require() with null bytes	107		
+8278	207889	false	open	false	7		2016-08-26T08:23:30Z	2016-08-26T10:20:40Z		SIGABRT on OS/X	152		
 8279	156539	false	open	false	0		2016-08-26T09:15:59Z	2016-08-26T09:15:59Z		(node:20446) Warning: Possible EventEmitter memory leak detected. 11 error listeners added. Use emitter.setMaxListeners() to increase limit	42		
 8280	317464	true	open	false	0	0	2016-08-26T10:00:00Z	2016-08-26T10:00:00Z		[WIP] deps: upgrade libuv to 1.10.0	37		
