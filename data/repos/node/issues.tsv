@@ -386,7 +386,7 @@
 7310	54666	true	closed	false	21		2016-06-15T16:48:03Z	2016-07-14T12:02:20Z	2016-06-24T03:52:12Z	string_decoder: fix bad utf8 character handling	78		
 7311	54666	true	open	false	29		2016-06-15T17:31:24Z	2016-07-26T11:11:05Z		Fix benchmark issues	43		
 7312	718899	false	closed	false	13		2016-06-15T21:06:13Z	2016-07-21T08:55:01Z	2016-07-21T08:55:00Z	meta: feedback on release process	246		
-7316	2805297	false	open	false	5		2016-06-16T11:55:13Z	2016-08-26T13:33:11Z		"Cross-compiling Node for Mips32/OpenWRT fails with ""assembler.cc:(.text._ZN2v88internalL23f32_nearest_int_wrapperEPf+0x18): undefined reference to `nearbyintf'"""	277		
+7316	2805297	false	open	false	7		2016-06-16T11:55:13Z	2016-08-26T14:08:36Z		"Cross-compiling Node for Mips32/OpenWRT fails with ""assembler.cc:(.text._ZN2v88internalL23f32_nearest_int_wrapperEPf+0x18): undefined reference to `nearbyintf'"""	277		
 7317	134460	true	open	false	13		2016-06-16T11:58:04Z	2016-07-02T18:11:30Z		build: split CI rules in Makefile	160		
 7320	4421720	true	closed	false	5	1	2016-06-16T15:44:13Z	2016-08-01T19:03:53Z	2016-08-01T19:03:53Z	doc: add CTC meeting minutes 2016-06-15	37		
 7327	718899	true	closed	false	14		2016-06-16T17:59:31Z	2016-07-12T03:00:04Z	2016-06-22T04:13:36Z	test: refresh the tmpdir before using	51		
@@ -842,7 +842,7 @@
 7828	20170894	false	closed	false	14		2016-07-21T20:02:42Z	2016-07-22T05:48:58Z	2016-07-22T05:48:58Z	Support for null terminated strings with Buffer toString?	138		
 7829	1622515	true	closed	false	23		2016-07-21T22:46:42Z	2016-08-04T20:09:15Z	2016-08-04T20:09:15Z	repl: deprecate unused function convertToContext	34		
 7830	718899	true	closed	false	3		2016-07-22T00:19:49Z	2016-07-22T18:32:03Z	2016-07-22T18:32:03Z	tools: enforce loading required modules first	33		
-7831	696611	true	open	false			2016-07-22T03:58:02Z	2016-08-26T13:33:12Z		fs: don't alter user provided `options` object	52		
+7831	696611	true	open	false			2016-07-22T03:58:02Z	2016-08-26T14:04:11Z		fs: don't alter user provided `options` object	52		
 7832	96150	true	open	false			2016-07-22T07:44:22Z	2016-08-25T05:02:44Z		doc: Provide bad/better examples for access() and exists()	45		
 7833	101553	true	closed	false	18	0	2016-07-22T08:08:03Z	2016-08-03T06:19:34Z	2016-08-03T06:19:34Z	deps: cherry-pick a51f429 from V8 upstream 	36		
 7834	101553	true	open	false	12		2016-07-22T08:53:45Z	2016-08-03T15:27:58Z		deps: cherry-pick a51f429 from V8 upstream	38		
@@ -908,7 +908,7 @@
 7894	1651212	true	open	false			2016-07-27T12:41:26Z	2016-07-31T07:22:34Z		doc: add npm link and cleanup Readme	46		
 7895	4949308	true	closed	false	10		2016-07-27T13:28:10Z	2016-08-04T19:46:37Z	2016-08-04T19:46:37Z	build: Maximize the default V8 inliner flags values	90		
 7896	7308528	false	closed	false	1		2016-07-27T16:55:37Z	2016-07-27T17:25:38Z	2016-07-27T17:25:38Z	I need nodeJS v5 in intel edison to run angular 2 app - issue	52		
-7897	696611	true	open	false			2016-07-27T17:02:57Z	2016-08-26T13:44:41Z		fs: warn instead of throwing if no callback	100		
+7897	696611	true	open	false	16		2016-07-27T17:02:57Z	2016-08-26T14:17:26Z		fs: warn instead of throwing if no callback	100		
 7898	1005116	true	closed	false	4		2016-07-27T18:12:08Z	2016-07-29T15:31:05Z	2016-07-29T15:31:05Z	benchmark: http parser optimization	194		
 7899	17704638	true	closed	false	39	9	2016-07-27T18:12:17Z	2016-08-12T11:16:01Z	2016-08-12T11:16:01Z	fs: restore javascript realpath implementation	162		
 7900	739813	true	closed	false	5	1	2016-07-27T22:43:54Z	2016-08-01T17:52:30Z	2016-08-01T17:52:30Z	doc: add CTC meeting minutes 2016-07-27	33		
@@ -1114,7 +1114,7 @@
 8101	6517897	true	open	false			2016-08-14T19:58:27Z	2016-08-24T22:26:36Z		net, http: allow setting socket connection timeout for http request	67		
 8102	6850510	false	open	false	8		2016-08-14T20:25:09Z	2016-08-15T19:52:48Z		False successfully end of request	344		
 8103	110455	true	open	false	1		2016-08-14T21:45:22Z	2016-08-14T22:04:14Z		http: fix legacy http.Client instanceof	205		
-8104	54666	true	open	false	4		2016-08-14T22:28:11Z	2016-08-15T15:56:40Z		http: remove deprecated Client interface	53		
+8104	54666	true	open	false	6		2016-08-14T22:28:11Z	2016-08-26T14:24:54Z		http: remove deprecated Client interface	53		
 8105	110455	true	closed	false	5		2016-08-14T22:33:31Z	2016-08-18T01:29:25Z	2016-08-18T01:29:25Z	util: fix deprecated class prototype	101		
 8106	275871	true	closed	false	3	0	2016-08-15T10:00:49Z	2016-08-23T19:12:30Z	2016-08-23T19:12:30Z	src: make debugger listen on 127.0.0.1 by default	61		
 8107	609579	true	open	false	6		2016-08-15T10:01:27Z	2016-08-15T17:41:41Z		doc: fix typo	40		
@@ -1227,7 +1227,7 @@
 8214	1898870	true	closed	false	2		2016-08-21T20:34:20Z	2016-08-23T19:46:39Z	2016-08-23T19:46:39Z	url: fix inconsistent port in url.resolveObject	87		
 8215	1898870	true	closed	false	8	0	2016-08-21T20:50:34Z	2016-08-24T18:41:53Z	2016-08-24T18:41:53Z	url: keep auth in `url.resolve()` if host matches	56		
 8216	788473	false	open	false	8		2016-08-21T21:39:44Z	2016-08-23T19:35:26Z		Garbage Collection Crash	130		
-8217	439929	true	open	false	18		2016-08-21T22:40:46Z	2016-08-25T15:09:47Z		promise: warning on unhandled rejection	60		
+8217	439929	true	open	false	19		2016-08-21T22:40:46Z	2016-08-26T14:42:46Z		promise: warning on unhandled rejection	60		
 8218	2983969	false	closed	false	1		2016-08-22T02:23:11Z	2016-08-22T03:09:46Z	2016-08-22T03:09:46Z	Immediate crash on --inspect	42		
 8219	1935767	false	closed	false	3		2016-08-22T07:30:54Z	2016-08-22T08:30:09Z	2016-08-22T07:52:51Z	test: failed on sequential/test-child-process-pass-fd	55		
 8220	13269109	false	closed	false	1		2016-08-22T07:44:58Z	2016-08-22T11:08:54Z	2016-08-22T11:08:54Z	V8: Can't compile with nativesim=true for PowerPC 440	216		
@@ -1245,11 +1245,11 @@
 8232	1935767	true	open	false	15		2016-08-23T07:31:58Z	2016-08-24T13:09:22Z		process: improve stack trace on async(libuv) error	234		
 8233	8208733	false	open	false	6		2016-08-23T07:41:05Z	2016-08-26T10:24:21Z		execinfo.h error when compiling Node v6.4.0 for OpenWrt MIPS platform	118		
 8234	1777622	false	open	false	3		2016-08-23T08:13:51Z	2016-08-23T13:07:27Z		Assertion failed in timer.c on windows / nodejs 6.4.0	33		
-8235	1408578	false	open	false	5		2016-08-23T09:18:00Z	2016-08-23T23:46:52Z		error http request at headers is array	94		
+8235	1408578	false	closed	false	7		2016-08-23T09:18:00Z	2016-08-26T14:18:31Z	2016-08-26T14:18:31Z	error http request at headers is array	94		
 8236	3524687	false	open	false	0		2016-08-23T13:17:57Z	2016-08-23T13:17:57Z		"crypto: getDecoder throws ""AssertionError: Cannot change encoding"" when encoding is ""ucs2"", ""ucs-2"" or ""utf-16le""."	129		
 8237	458614	false	closed	false	19		2016-08-23T13:51:18Z	2016-08-24T07:36:49Z	2016-08-23T19:27:07Z	process.cwd() casing inconsistent across platforms	180		
-8238	54666	true	open	false	3		2016-08-23T17:58:09Z	2016-08-23T20:07:18Z		http: fix connection upgrade checks	61		
-8239	9373002	false	closed	false	6		2016-08-23T18:00:34Z	2016-08-25T22:44:37Z	2016-08-25T22:44:37Z	test: intermittent failure running add-on tests on AIX	209		
+8238	54666	true	closed	false	4	0	2016-08-23T17:58:09Z	2016-08-26T14:18:32Z	2016-08-26T14:18:32Z	http: fix connection upgrade checks	61	54666	2016-08-26T14:18:31Z
+8239	9373002	false	closed	false	7		2016-08-23T18:00:34Z	2016-08-26T14:08:33Z	2016-08-25T22:44:37Z	test: intermittent failure running add-on tests on AIX	209		
 8240	3374946	true	closed	false	6		2016-08-23T18:08:27Z	2016-08-25T22:16:24Z	2016-08-25T05:26:31Z	doc: fix buf.readUIntBE, buf.readUIntLE examples	75		
 8241	1622515	true	open	false	6		2016-08-23T18:52:25Z	2016-08-26T03:22:59Z		repl: Auto alignment for .editor mode	82		
 8242	718899	false	open	false	14		2016-08-23T21:00:09Z	2016-08-24T19:38:05Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-24	520		
@@ -1266,7 +1266,7 @@
 8253	677994	true	open	false	9		2016-08-24T14:05:02Z	2016-08-26T11:15:09Z		2016-08-26, Version 6.5.0 (Current)	1163		
 8254	15943089	true	open	false	4		2016-08-24T14:08:16Z	2016-08-26T13:14:51Z		test: fix localhost error in test-dns-ipv6	60		
 8255	172594	false	open	false	5		2016-08-24T16:28:50Z	2016-08-25T00:57:47Z		fs.stat() returns 'Stats' - should be 'Status'.	49		
-8256	439929	true	open	false			2016-08-24T17:27:24Z	2016-08-24T21:54:19Z		test: refactor buffer tests	54		
+8256	439929	true	open	false			2016-08-24T17:27:24Z	2016-08-26T14:13:24Z		test: refactor buffer tests	54		
 8257	287917	true	open	false			2016-08-24T18:10:23Z	2016-08-25T19:51:53Z		inspector: Simplify buffer management	114		
 8258	446478	false	open	false	3		2016-08-24T19:58:19Z	2016-08-26T12:27:16Z		Assertion failed ../deps/uv/src/unix/stream.c, line 1563	912		
 8259	837347	false	open	false	6		2016-08-24T20:38:12Z	2016-08-26T10:13:18Z		Slow start of Node application (ARM)	384		
