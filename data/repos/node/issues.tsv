@@ -48,7 +48,7 @@
 2642	2645436	false	open	false	30		2015-09-02T06:06:18Z	2016-06-30T18:50:44Z		Keep alive connection do not get closed with server.close()	106		
 2668	291301	false	open	false	7		2015-09-02T21:50:48Z	2016-08-04T02:25:23Z		Unreachable code in buffer.js and unsigned bitwise shifts.	293		
 2681	439929	false	closed	false	5		2015-09-03T15:40:56Z	2016-06-30T23:21:20Z	2016-06-30T23:21:20Z	child_process: execFile and fork arg parsing ambiguity	136		
-2741	275871	true	open	false	23		2015-09-08T19:11:39Z	2016-08-25T22:04:10Z		src: log warning on process.binding('natives')	28		
+2741	275871	true	open	false	23		2015-09-08T19:11:39Z	2016-08-26T08:19:51Z		src: log warning on process.binding('natives')	28		
 2760	194482	false	closed	false	13		2015-09-09T07:12:46Z	2016-08-09T10:35:10Z	2015-09-09T09:46:00Z	--harmony_modules isn't working?	69		
 2768	2993861	true	closed	false	51		2015-09-09T12:14:52Z	2016-08-24T23:52:32Z	2016-08-06T07:16:39Z	node: deprecate public access to `process.binding`	35		
 2783	75184	false	closed	false	37		2015-09-09T21:17:46Z	2016-08-03T09:18:39Z	2016-05-02T11:32:45Z	Compiling node v4.0.0 with OpenSSL 1.0.1 fails	473		
@@ -1149,7 +1149,7 @@
 8137	20699254	false	closed	false	3		2016-08-17T05:40:17Z	2016-08-17T06:14:35Z	2016-08-17T05:43:13Z	Can we support Worker API in node environment , like browser's Web work behavior.	28		
 8138	7421183	false	closed	false	5		2016-08-17T08:36:22Z	2016-08-17T18:03:55Z	2016-08-17T08:51:03Z	util.inspect generates different output in Node minor update	122		
 8139	275871	false	open	false	10		2016-08-17T11:40:12Z	2016-08-19T10:12:54Z		benchmark: http/simple is unreliable	396		
-8140	17704638	true	open	false			2016-08-17T13:08:21Z	2016-08-24T15:29:43Z		benchmark: support for multiple http benchmarkers	88		
+8140	17704638	true	open	false	11		2016-08-17T13:08:21Z	2016-08-26T08:59:31Z		benchmark: support for multiple http benchmarkers	88		
 8141	677994	true	open	false	12		2016-08-17T13:12:12Z	2016-08-17T18:16:38Z		"Revert ""repl,util: insert carriage returns in output"""	51		
 8142	4027669	false	closed	false	2		2016-08-17T14:29:41Z	2016-08-20T20:55:26Z	2016-08-20T20:55:26Z	repl: editor mode text not saved in `.save` command	100		
 8143	677994	true	closed	false	10	0	2016-08-17T14:48:46Z	2016-08-19T16:56:25Z	2016-08-19T16:56:25Z	"Revert ""repl,util: insert carriage returns in output"""	63		
@@ -1277,11 +1277,13 @@
 8266	275871	false	open	false	3		2016-08-25T08:33:26Z	2016-08-25T20:23:14Z		buffer: zero-sized slices have .buffer but not .parent	51		
 8267	10029810	false	open	false	0		2016-08-25T12:20:58Z	2016-08-25T12:20:58Z		SyntaxError: Octal literals are not allowed in strict mode.	113		
 8268	6802696	false	open	false	2		2016-08-25T14:18:13Z	2016-08-25T15:38:22Z		nodejs install but not runing	87		
-8269	1186693	false	open	false	0		2016-08-25T14:30:49Z	2016-08-25T22:40:12Z		Docs: Further improvements to Addon section, specifically numeric and binary IO	163		
+8269	1186693	false	open	false	2		2016-08-25T14:30:49Z	2016-08-26T08:33:46Z		Docs: Further improvements to Addon section, specifically numeric and binary IO	163		
 8270	439929	true	open	false	0	0	2016-08-25T17:19:06Z	2016-08-25T17:19:06Z		src: make it simple to emit process warnings from src	63		
 8271	9373002	false	open	false	3		2016-08-25T19:44:47Z	2016-08-25T23:18:22Z		test-child-process-fork-dgram Intermittent timeout on AIX	51		
 8272	9373002	true	open	false	8		2016-08-25T21:02:40Z	2016-08-25T22:09:22Z		build: fix depenencies on AIX	55		
 8273	79017	true	open	false	7		2016-08-25T21:32:38Z	2016-08-26T07:03:33Z		src: avoid duplicate AtExit functions	88		
 8274	9373002	true	open	false	4		2016-08-25T23:16:48Z	2016-08-26T02:00:53Z		test: mark test-child-process-fork-dgram as flaky	38		
-8275	1197615	true	open	false	0	0	2016-08-26T07:11:33Z	2016-08-26T07:11:33Z		_debugger: add select stack frame command	22		
-8276	926815	false	open	false	0		2016-08-26T07:12:52Z	2016-08-26T07:12:52Z		Provide access to file system times with nanoseconds resolution	144		
+8275	1197615	true	open	false	1		2016-08-26T07:11:33Z	2016-08-26T08:57:38Z		_debugger: add select stack frame command	22		
+8276	926815	false	open	false	0		2016-08-26T07:12:52Z	2016-08-26T08:31:28Z		Provide access to file system times with nanoseconds resolution	162		
+8277	495647	true	open	false	0	0	2016-08-26T08:11:24Z	2016-08-26T08:11:24Z		 No abort on require() with null bytes	107		
+8278	207889	false	open	false	0		2016-08-26T08:23:30Z	2016-08-26T08:23:30Z		SIGABRT on OS/X	152		
