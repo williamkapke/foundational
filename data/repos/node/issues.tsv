@@ -48,7 +48,7 @@
 2642	2645436	false	open	false	30		2015-09-02T06:06:18Z	2016-06-30T18:50:44Z		Keep alive connection do not get closed with server.close()	106		
 2668	291301	false	open	false	7		2015-09-02T21:50:48Z	2016-08-04T02:25:23Z		Unreachable code in buffer.js and unsigned bitwise shifts.	293		
 2681	439929	false	closed	false	5		2015-09-03T15:40:56Z	2016-06-30T23:21:20Z	2016-06-30T23:21:20Z	child_process: execFile and fork arg parsing ambiguity	136		
-2741	275871	true	open	false	25		2015-09-08T19:11:39Z	2016-08-26T10:22:15Z		src: log warning on process.binding('natives')	28		
+2741	275871	true	open	false	26		2015-09-08T19:11:39Z	2016-08-26T20:52:23Z		src: log warning on process.binding('natives')	28		
 2760	194482	false	closed	false	13		2015-09-09T07:12:46Z	2016-08-09T10:35:10Z	2015-09-09T09:46:00Z	--harmony_modules isn't working?	69		
 2768	2993861	true	closed	false	51		2015-09-09T12:14:52Z	2016-08-24T23:52:32Z	2016-08-06T07:16:39Z	node: deprecate public access to `process.binding`	35		
 2783	75184	false	closed	false	37		2015-09-09T21:17:46Z	2016-08-03T09:18:39Z	2016-05-02T11:32:45Z	Compiling node v4.0.0 with OpenSSL 1.0.1 fails	473		
@@ -88,7 +88,7 @@
 3743	677994	true	closed	false	137		2015-11-10T19:15:06Z	2016-08-05T13:35:58Z	2016-04-26T00:29:24Z	cluster: migrate from worker.suicide	17		
 3773	696611	true	open	false	6		2015-11-11T15:28:03Z	2016-08-06T07:39:49Z		buffer: throw if string is not a valid HEX string	61		
 3786	190866	false	closed	false	7		2015-11-12T10:04:27Z	2016-07-15T13:20:28Z	2016-07-15T13:20:28Z	Still gets a problem with github-url-from-git module not found on Windows	35		
-3796	4813414	false	open	false	16		2015-11-12T19:24:13Z	2016-08-11T12:30:47Z		test-debug-signal-cluster.js fails sometimes (investigate flaky test)	111		
+3796	4813414	false	open	false	16		2015-11-12T19:24:13Z	2016-08-26T20:17:36Z		test-debug-signal-cluster.js fails sometimes (investigate flaky test)	111		
 3829	4813414	false	closed	false	11		2015-11-15T04:29:13Z	2016-08-03T09:09:58Z	2016-06-07T22:25:36Z	node5: test-repl-envvars.js fails if ~/.node_repl_history is empty	63		
 3891	498775	false	open	false	14		2015-11-18T01:02:45Z	2016-08-09T16:36:03Z		improve error messge in lib/dns	88		
 3898	4831315	false	closed	false	44		2015-11-18T09:01:07Z	2016-07-01T08:53:04Z	2015-12-09T13:18:25Z	trap invalid opcode ip:fea6f9	55		
@@ -200,7 +200,7 @@
 6398	79017	true	closed	false			2016-04-26T13:52:47Z	2016-08-01T15:17:23Z	2016-05-10T13:13:45Z	deps: backport e093a04, 09db540 from upstream V8	114		
 6404	238531	true	closed	false	10		2016-04-26T20:32:50Z	2016-07-12T05:11:58Z	2016-04-27T04:41:45Z	net: introduce `Socket#connecting` property	77		
 6406	176984	true	closed	false	8		2016-04-27T00:32:49Z	2016-07-11T20:01:18Z	2016-04-30T10:43:12Z	build: use shorthand lint target from test	68		
-6413	439929	true	open	false	74		2016-04-27T05:29:39Z	2016-08-26T17:59:12Z		"Revert ""fs: add a temporary fix for re-evaluation support"""	37		
+6413	439929	true	open	false	75		2016-04-27T05:29:39Z	2016-08-26T20:26:31Z		"Revert ""fs: add a temporary fix for re-evaluation support"""	37		
 6429	45469	false	closed	false	29		2016-04-27T21:44:57Z	2016-06-27T17:29:28Z	2016-06-27T17:29:28Z	deprecate --use_strict	48		
 6434	677518	false	open	false	6		2016-04-27T23:17:09Z	2016-08-12T21:59:01Z		Module.globalPaths under Windows	68		
 6436	5438027	true	closed	false	38		2016-04-28T01:22:41Z	2016-07-12T12:40:59Z	2016-06-29T09:14:33Z	3x faster setImmediate	110		
@@ -1000,9 +1000,9 @@
 7986	275871	true	open	false	1		2016-08-05T11:40:07Z	2016-08-05T17:43:24Z		tools: add compile_commands.json gyp generator	42		
 7987	4520820	true	closed	false	6		2016-08-05T16:37:29Z	2016-08-08T12:45:42Z	2016-08-08T12:45:42Z	zlib: remove unneeded property	37		
 7988	426418	true	open	false	19		2016-08-05T21:18:17Z	2016-08-12T00:35:41Z		inspector: add inspector console support for native Console	114		
-7989	275871	false	open	false	8		2016-08-06T03:16:44Z	2016-08-08T13:43:54Z		build: drop support for VS 2013 in v6 LTS	192		
+7989	275871	false	open	false	9		2016-08-06T03:16:44Z	2016-08-26T20:05:13Z		build: drop support for VS 2013 in v6 LTS	192		
 7990	2557445	true	closed	false	9		2016-08-06T07:59:12Z	2016-08-08T18:43:02Z	2016-08-08T16:20:30Z	Cleanup: Remove unused using decls	49		
-7991	439929	false	open	false	4		2016-08-06T08:03:44Z	2016-08-08T18:46:32Z		Planning for v7 and the v6 roll over to LTS	434		
+7991	439929	false	open	false	5		2016-08-06T08:03:44Z	2016-08-26T20:04:10Z		Planning for v7 and the v6 roll over to LTS	434		
 7992	1500684	true	open	false	0	0	2016-08-06T10:18:04Z	2016-08-06T10:18:04Z		docs: add info about --auto-open flag w/ --inspect	73		
 7993	2682705	false	closed	false	6		2016-08-06T10:50:20Z	2016-08-06T19:21:51Z	2016-08-06T19:21:51Z	import statements not supported - why, tell me why!	46		
 7994	4520820	true	closed	false	7		2016-08-06T12:42:43Z	2016-08-09T19:28:33Z	2016-08-09T19:28:33Z	timers: remove unused repeat param in timer_wrap	53		
@@ -1120,7 +1120,7 @@
 8106	275871	true	closed	false	3	0	2016-08-15T10:00:49Z	2016-08-23T19:12:30Z	2016-08-23T19:12:30Z	src: make debugger listen on 127.0.0.1 by default	61		
 8107	609579	true	open	false	6		2016-08-15T10:01:27Z	2016-08-15T17:41:41Z		doc: fix typo	40		
 8108	275871	false	open	false	0		2016-08-15T11:22:49Z	2016-08-15T11:22:49Z		tls: misparsed URI subject alternative name?	189		
-8109	1622515	true	open	false	15		2016-08-15T12:23:48Z	2016-08-26T17:47:25Z		readline: key interval delay for \r & \n	50		
+8109	1622515	true	open	false	16		2016-08-15T12:23:48Z	2016-08-26T20:58:36Z		readline: key interval delay for \r & \n	50		
 8110	121040	false	open	false	3		2016-08-15T12:35:24Z	2016-08-15T14:25:13Z		Need upgrade package npm to v3.10.7 for Visual Studio 2015 update 3	22		
 8111	13312166	false	open	false	13		2016-08-15T13:00:00Z	2016-08-16T10:11:16Z		keepAlive doesn't work on Ubuntu	103		
 8112	54666	true	closed	false	5	3	2016-08-15T17:52:25Z	2016-08-23T19:14:33Z	2016-08-23T19:14:33Z	net: misc changes	46	54666	2016-08-23T19:14:33Z
@@ -1206,7 +1206,7 @@
 8192	110455	true	open	false	16		2016-08-19T22:27:45Z	2016-08-22T20:57:32Z		timers: expose timer classes	81		
 8193	718899	true	closed	false	6	0	2016-08-19T23:46:18Z	2016-08-23T18:27:27Z	2016-08-23T18:27:27Z	test: refactor test-timers-linked-list.js	48		
 8194	718899	true	closed	false	6		2016-08-20T05:08:03Z	2016-08-22T21:13:37Z	2016-08-22T21:13:36Z	"doc: remove ""feature branch"" jargon"	117		
-8195	1622515	false	open	false	8		2016-08-20T07:13:12Z	2016-08-26T19:29:06Z		repl: Proposal for better repl	261		
+8195	1622515	false	open	false	9		2016-08-20T07:13:12Z	2016-08-26T20:21:54Z		repl: Proposal for better repl	261		
 8196	1443911	true	closed	false	4		2016-08-20T10:07:16Z	2016-08-25T17:57:33Z	2016-08-25T17:57:33Z	doc: add `added:` information for dgram	27		
 8197	1935767	true	open	false	6		2016-08-20T12:12:47Z	2016-08-22T07:00:03Z		stream: move legacy to sep file	88		
 8198	1935767	true	closed	false	8		2016-08-20T13:44:24Z	2016-08-25T20:04:04Z	2016-08-25T19:55:56Z	async_wrap: add a missing case to test-async-wrap-throw-no-init	54		
@@ -1247,7 +1247,7 @@
 8233	8208733	false	open	false	6		2016-08-23T07:41:05Z	2016-08-26T10:24:21Z		execinfo.h error when compiling Node v6.4.0 for OpenWrt MIPS platform	118		
 8234	1777622	false	open	false	4		2016-08-23T08:13:51Z	2016-08-26T19:45:54Z		Assertion failed in timer.c on windows / nodejs 6.4.0	33		
 8235	1408578	false	closed	false	7		2016-08-23T09:18:00Z	2016-08-26T14:18:31Z	2016-08-26T14:18:31Z	error http request at headers is array	94		
-8236	3524687	false	open	false	0		2016-08-23T13:17:57Z	2016-08-23T13:17:57Z		"crypto: getDecoder throws ""AssertionError: Cannot change encoding"" when encoding is ""ucs2"", ""ucs-2"" or ""utf-16le""."	129		
+8236	3524687	false	open	false	2		2016-08-23T13:17:57Z	2016-08-26T20:06:48Z		"crypto: getDecoder throws ""AssertionError: Cannot change encoding"" when encoding is ""ucs2"", ""ucs-2"" or ""utf-16le""."	129		
 8237	458614	false	closed	false	19		2016-08-23T13:51:18Z	2016-08-24T07:36:49Z	2016-08-23T19:27:07Z	process.cwd() casing inconsistent across platforms	180		
 8238	54666	true	closed	false	4	0	2016-08-23T17:58:09Z	2016-08-26T14:18:32Z	2016-08-26T14:18:32Z	http: fix connection upgrade checks	61	54666	2016-08-26T14:18:31Z
 8239	9373002	false	open	false	11		2016-08-23T18:00:34Z	2016-08-26T16:27:34Z		test: intermittent failure running add-on tests on AIX	209		
@@ -1268,7 +1268,7 @@
 8254	15943089	true	open	false	4		2016-08-24T14:08:16Z	2016-08-26T16:15:53Z		test: fix localhost error in test-dns-ipv6	60		
 8255	172594	false	open	false	6		2016-08-24T16:28:50Z	2016-08-26T19:39:48Z		fs.stat() returns 'Stats' - should be 'Status'.	49		
 8256	439929	true	open	false			2016-08-24T17:27:24Z	2016-08-26T14:13:24Z		test: refactor buffer tests	54		
-8257	287917	true	open	false			2016-08-24T18:10:23Z	2016-08-26T18:11:13Z		inspector: Simplify buffer management	114		
+8257	287917	true	open	false			2016-08-24T18:10:23Z	2016-08-26T20:02:56Z		inspector: Simplify buffer management	114		
 8258	446478	false	open	false	3		2016-08-24T19:58:19Z	2016-08-26T12:27:16Z		Assertion failed ../deps/uv/src/unix/stream.c, line 1563	912		
 8259	837347	false	open	false	6		2016-08-24T20:38:12Z	2016-08-26T10:13:18Z		Slow start of Node application (ARM)	384		
 8260	495647	true	closed	false	8		2016-08-24T20:55:53Z	2016-08-25T21:13:23Z	2016-08-25T17:42:13Z	doc: add Myles Borins to the CTC	22		
