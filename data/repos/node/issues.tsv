@@ -48,7 +48,7 @@
 2642	2645436	false	open	false	30		2015-09-02T06:06:18Z	2016-06-30T18:50:44Z		Keep alive connection do not get closed with server.close()	106		
 2668	291301	false	open	false	7		2015-09-02T21:50:48Z	2016-08-04T02:25:23Z		Unreachable code in buffer.js and unsigned bitwise shifts.	293		
 2681	439929	false	closed	false	5		2015-09-03T15:40:56Z	2016-06-30T23:21:20Z	2016-06-30T23:21:20Z	child_process: execFile and fork arg parsing ambiguity	136		
-2741	275871	true	open	false	34		2015-09-08T19:11:39Z	2016-08-27T01:11:12Z		src: log warning on process.binding('natives')	28		
+2741	275871	true	open	false	35		2015-09-08T19:11:39Z	2016-08-27T04:32:43Z		src: log warning on process.binding('natives')	28		
 2760	194482	false	closed	false	13		2015-09-09T07:12:46Z	2016-08-09T10:35:10Z	2015-09-09T09:46:00Z	--harmony_modules isn't working?	69		
 2768	2993861	true	closed	false	51		2015-09-09T12:14:52Z	2016-08-24T23:52:32Z	2016-08-06T07:16:39Z	node: deprecate public access to `process.binding`	35		
 2783	75184	false	closed	false	37		2015-09-09T21:17:46Z	2016-08-03T09:18:39Z	2016-05-02T11:32:45Z	Compiling node v4.0.0 with OpenSSL 1.0.1 fails	473		
@@ -128,7 +128,7 @@
 4823	1063255	false	closed	false	4		2016-01-22T23:47:02Z	2016-06-30T15:00:02Z	2016-06-30T15:00:02Z	test: possible flaky test-repl.js	88		
 4932	961599	false	closed	false	4		2016-01-28T20:34:56Z	2016-08-22T21:49:02Z	2016-08-22T21:49:02Z	Windows: addons cannot use the bundled OpenSSL	79		
 4941	2757844	false	closed	false	4		2016-01-29T05:18:31Z	2016-08-10T18:15:17Z	2016-01-29T08:50:38Z	Error: not implemented when using streams with setInterval	171		
-4956	21203	true	open	false			2016-01-29T19:50:47Z	2016-07-10T14:04:03Z		crypto: remove POINT_CONVERSION_HYBRID	44		
+4956	21203	true	open	false	14		2016-01-29T19:50:47Z	2016-08-27T04:45:47Z		crypto: remove POINT_CONVERSION_HYBRID	44		
 5025	275871	true	open	false	31		2016-02-01T13:14:18Z	2016-08-23T20:38:28Z		debugger: bind to random port with --debug-port=0	13		
 5094	12488060	false	open	false	6		2016-02-04T23:46:05Z	2016-07-09T02:37:13Z		File names in readable_stream folder are not supported in Windows	333		
 5095	8822573	false	open	false	7		2016-02-05T00:53:51Z	2016-07-04T14:21:24Z		node: unix sockets are slow in case of lots of small buffers	445		
@@ -1212,7 +1212,7 @@
 8197	1935767	true	open	false	6		2016-08-20T12:12:47Z	2016-08-22T07:00:03Z		stream: move legacy to sep file	88		
 8198	1935767	true	closed	false	8		2016-08-20T13:44:24Z	2016-08-25T20:04:04Z	2016-08-25T19:55:56Z	async_wrap: add a missing case to test-async-wrap-throw-no-init	54		
 8199	11921153	false	closed	false	1		2016-08-21T00:55:41Z	2016-08-21T08:04:05Z	2016-08-21T08:04:04Z	install Node.js Failed to open XML file C:\Program Files\nodejs\node_etw_provider.man,system error:-2147221164	6		
-8200	10378547	true	open	false	4		2016-08-21T02:13:25Z	2016-08-24T00:15:47Z		doc: fix onReadable reentry after unshift called	69		
+8200	10378547	true	closed	false	4		2016-08-21T02:13:25Z	2016-08-27T05:01:09Z	2016-08-27T05:01:09Z	doc: fix onReadable reentry after unshift called	69		
 8201	1187447	false	open	false	0		2016-08-21T02:15:38Z	2016-08-21T11:36:47Z		--inspect flag and cluster module -  Debug port numbers not incrementing	139		
 8202	718899	true	closed	false	2		2016-08-21T03:06:46Z	2016-08-23T14:09:43Z	2016-08-23T14:09:43Z	test: split test-crypto-timing-safe-equal	79		
 8203	718899	true	closed	false	50		2016-08-21T04:17:23Z	2016-08-26T03:01:14Z	2016-08-22T22:25:34Z	WIP: test: force garbage collection on crypto timing test	52		
@@ -1288,18 +1288,22 @@
 8274	9373002	true	open	false	7		2016-08-25T23:16:48Z	2016-08-26T12:56:47Z		test: mark test-child-process-fork-dgram as flaky	38		
 8275	1197615	true	open	false	2		2016-08-26T07:11:33Z	2016-08-26T13:46:01Z		_debugger: add select stack frame command	22		
 8276	926815	false	open	false	3		2016-08-26T07:12:52Z	2016-08-26T19:33:17Z		Provide access to file system times with nanoseconds resolution	162		
-8277	495647	true	open	false	10		2016-08-26T08:11:24Z	2016-08-27T03:42:45Z		 No abort on require() with null bytes	107		
+8277	495647	true	open	false			2016-08-26T08:11:24Z	2016-08-27T04:55:12Z		 No abort on require() with null bytes	107		
 8278	207889	false	open	false	9		2016-08-26T08:23:30Z	2016-08-26T16:59:20Z		SIGABRT on OS/X	152		
-8279	156539	false	open	false	4		2016-08-26T09:15:59Z	2016-08-26T16:03:12Z		(node:20446) Warning: Possible EventEmitter memory leak detected. 11 error listeners added. Use emitter.setMaxListeners() to increase limit	42		
+8279	156539	false	open	false	7		2016-08-26T09:15:59Z	2016-08-27T04:13:44Z		(node:20446) Warning: Possible EventEmitter memory leak detected. 11 error listeners added. Use emitter.setMaxListeners() to increase limit	42		
 8280	317464	true	open	false	2		2016-08-26T10:00:00Z	2016-08-26T16:34:32Z		[WIP] deps: upgrade libuv to 1.10.0	37		
 8281	1443911	true	open	false			2016-08-26T15:09:18Z	2016-08-26T16:07:03Z		doc: add `added:` information for crypto	27		
 8282	9271155	false	open	false	1		2016-08-26T16:59:30Z	2016-08-26T18:39:33Z		sockets: OutOfBand bytes/packets are not supported	108		
-8283	439929	true	open	false	0	0	2016-08-26T18:40:28Z	2016-08-26T18:40:28Z		test: additional refactoring/cleanup of buffer tests	61		
+8283	439929	true	open	false	2		2016-08-26T18:40:28Z	2016-08-27T04:17:11Z		test: additional refactoring/cleanup of buffer tests	61		
 8284	20561255	false	open	false	0		2016-08-26T18:44:56Z	2016-08-26T22:20:59Z		Obsolete workaround in src/util.h	109		
 8285	9373002	true	open	false	4		2016-08-26T21:15:45Z	2016-08-26T22:17:08Z		build: fix dependencies on AIX	106		
-8286	248570	false	open	false	0		2016-08-26T22:21:45Z	2016-08-26T22:21:45Z		Number of processes used by 'make' should not be specified in documentation	87		
+8286	248570	false	open	false	2		2016-08-26T22:21:45Z	2016-08-27T04:22:00Z		Number of processes used by 'make' should not be specified in documentation	87		
 8287	248570	true	open	false	0	0	2016-08-26T22:46:51Z	2016-08-26T22:46:51Z		doc: removed number of jobs from -j option when running make	72		
 8288	54666	false	open	false	0		2016-08-26T22:47:07Z	2016-08-26T22:47:07Z		benchmark: compare.R script does not work with `--runs 1`	53		
-8289	718899	true	open	false			2016-08-26T23:32:21Z	2016-08-27T03:26:30Z		test: refactor test-debug-signal-cluster	48		
+8289	718899	true	open	false			2016-08-26T23:32:21Z	2016-08-27T04:39:31Z		test: refactor test-debug-signal-cluster	48		
 8290	439929	true	open	false	0	0	2016-08-27T03:29:35Z	2016-08-27T03:29:35Z		doc: document that `'ipc'` is required with fork stdio option	48		
 8291	439929	true	open	false	0	0	2016-08-27T03:39:05Z	2016-08-27T03:39:05Z		doc: clarify that path.isAbsolute on windows accepts / and \	51		
+8292	495647	true	open	false	0	0	2016-08-27T04:05:46Z	2016-08-27T04:05:46Z		fs: move nullCheck to internal/fs.js to dedupe	63		
+8293	439929	true	open	false	0	0	2016-08-27T04:16:00Z	2016-08-27T04:16:00Z		test: add known issue test for path parse issue #6229	42		
+8294	439929	true	open	false	0	0	2016-08-27T04:28:24Z	2016-08-27T04:28:24Z		doc: document what happens when listen is called multiple times	47		
+8295	439929	true	open	false	0	0	2016-08-27T04:38:45Z	2016-08-27T04:38:45Z		doc: document that readline write() is processed as input	49		
