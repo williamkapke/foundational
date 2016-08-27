@@ -48,7 +48,7 @@
 2642	2645436	false	open	false	30		2015-09-02T06:06:18Z	2016-06-30T18:50:44Z		Keep alive connection do not get closed with server.close()	106		
 2668	291301	false	open	false	7		2015-09-02T21:50:48Z	2016-08-04T02:25:23Z		Unreachable code in buffer.js and unsigned bitwise shifts.	293		
 2681	439929	false	closed	false	5		2015-09-03T15:40:56Z	2016-06-30T23:21:20Z	2016-06-30T23:21:20Z	child_process: execFile and fork arg parsing ambiguity	136		
-2741	275871	true	open	false	29		2015-09-08T19:11:39Z	2016-08-26T22:17:56Z		src: log warning on process.binding('natives')	28		
+2741	275871	true	open	false	33		2015-09-08T19:11:39Z	2016-08-26T23:25:29Z		src: log warning on process.binding('natives')	28		
 2760	194482	false	closed	false	13		2015-09-09T07:12:46Z	2016-08-09T10:35:10Z	2015-09-09T09:46:00Z	--harmony_modules isn't working?	69		
 2768	2993861	true	closed	false	51		2015-09-09T12:14:52Z	2016-08-24T23:52:32Z	2016-08-06T07:16:39Z	node: deprecate public access to `process.binding`	35		
 2783	75184	false	closed	false	37		2015-09-09T21:17:46Z	2016-08-03T09:18:39Z	2016-05-02T11:32:45Z	Compiling node v4.0.0 with OpenSSL 1.0.1 fails	473		
@@ -172,7 +172,7 @@
 5991	15197820	false	open	false	4		2016-04-01T04:10:50Z	2016-07-06T06:35:33Z		When I write áéíóú, process.stdout.write in Windows English version, process.stdout is closed	35		
 6033	2291463	false	closed	false	9		2016-04-04T07:14:31Z	2016-07-03T03:53:55Z	2016-07-03T03:53:55Z	Features that depend on ICU, in V8 built without ICU.	118		
 6063	7780985	true	closed	false	20		2016-04-05T19:44:10Z	2016-07-11T16:51:08Z	2016-04-26T16:07:07Z	doc, tls: deprecate createSecurePair	141		
-6102	54666	true	open	false	97		2016-04-07T16:10:47Z	2016-08-26T22:48:57Z		http: don't inherit from Object.prototype	57		
+6102	54666	true	open	false	99		2016-04-07T16:10:47Z	2016-08-26T23:13:05Z		http: don't inherit from Object.prototype	57		
 6114	408977	true	closed	false	11		2016-04-08T12:55:18Z	2016-07-06T05:06:41Z	2016-07-06T05:06:41Z	Defensive check for process.config.variables (v4-staging)	10		
 6115	408977	true	closed	false	18		2016-04-08T12:59:35Z	2016-07-05T17:59:27Z	2016-07-05T17:59:26Z	Defensive fix for process.config.variables regression (v5)	21		
 6131	2361826	false	closed	false	6		2016-04-09T10:47:11Z	2016-08-17T20:43:10Z	2016-08-17T20:43:10Z	Move .eslintrc to json or yaml	58		
@@ -1277,7 +1277,7 @@
 8263	4256376	true	closed	false	2	0	2016-08-24T22:07:47Z	2016-08-24T23:56:14Z	2016-08-24T23:56:14Z	"doc: Added missing e to ""timeout"""	46		
 8264	287917	true	open	false	0	0	2016-08-24T23:46:45Z	2016-08-24T23:46:45Z		inspector: Make sure all messages are dispatched	55		
 8265	718899	false	open	false	10		2016-08-25T00:17:00Z	2016-08-26T17:38:34Z		Process for determining supported platforms	124		
-8266	275871	false	open	false	4		2016-08-25T08:33:26Z	2016-08-26T19:41:12Z		buffer: zero-sized slices have .buffer but not .parent	51		
+8266	275871	false	open	false	5		2016-08-25T08:33:26Z	2016-08-26T23:26:53Z		buffer: zero-sized slices have .buffer but not .parent	51		
 8267	10029810	false	open	false	0		2016-08-25T12:20:58Z	2016-08-25T12:20:58Z		SyntaxError: Octal literals are not allowed in strict mode.	113		
 8268	6802696	false	closed	false	3		2016-08-25T14:18:13Z	2016-08-26T19:38:57Z	2016-08-26T19:38:57Z	nodejs install but not runing	87		
 8269	1186693	false	open	false	2		2016-08-25T14:30:49Z	2016-08-26T08:33:46Z		Docs: Further improvements to Addon section, specifically numeric and binary IO	163		
@@ -1300,3 +1300,4 @@
 8286	248570	false	open	false	0		2016-08-26T22:21:45Z	2016-08-26T22:21:45Z		Number of processes used by 'make' should not be specified in documentation	87		
 8287	248570	true	open	false	0	0	2016-08-26T22:46:51Z	2016-08-26T22:46:51Z		doc: removed number of jobs from -j option when running make	72		
 8288	54666	false	open	false	0		2016-08-26T22:47:07Z	2016-08-26T22:47:07Z		benchmark: compare.R script does not work with `--runs 1`	53		
+8289	718899	true	open	false	0	0	2016-08-26T23:32:21Z	2016-08-26T23:32:21Z		test: refactor test-debug-signal-cluster	48		
