@@ -201,7 +201,7 @@
 6398	79017	true	closed	false			2016-04-26T13:52:47Z	2016-08-01T15:17:23Z	2016-05-10T13:13:45Z	deps: backport e093a04, 09db540 from upstream V8	114		
 6404	238531	true	closed	false	10		2016-04-26T20:32:50Z	2016-07-12T05:11:58Z	2016-04-27T04:41:45Z	net: introduce `Socket#connecting` property	77		
 6406	176984	true	closed	false	8		2016-04-27T00:32:49Z	2016-07-11T20:01:18Z	2016-04-30T10:43:12Z	build: use shorthand lint target from test	68		
-6413	439929	true	open	false	76		2016-04-27T05:29:39Z	2016-08-27T03:08:12Z		"Revert ""fs: add a temporary fix for re-evaluation support"""	37		
+6413	439929	true	open	false	77		2016-04-27T05:29:39Z	2016-08-27T09:41:34Z		"Revert ""fs: add a temporary fix for re-evaluation support"""	37		
 6429	45469	false	closed	false	29		2016-04-27T21:44:57Z	2016-06-27T17:29:28Z	2016-06-27T17:29:28Z	deprecate --use_strict	48		
 6434	677518	false	open	false	6		2016-04-27T23:17:09Z	2016-08-12T21:59:01Z		Module.globalPaths under Windows	68		
 6436	5438027	true	closed	false	38		2016-04-28T01:22:41Z	2016-07-12T12:40:59Z	2016-06-29T09:14:33Z	3x faster setImmediate	110		
@@ -844,7 +844,7 @@
 7828	20170894	false	closed	false	14		2016-07-21T20:02:42Z	2016-07-22T05:48:58Z	2016-07-22T05:48:58Z	Support for null terminated strings with Buffer toString?	138		
 7829	1622515	true	closed	false	23		2016-07-21T22:46:42Z	2016-08-04T20:09:15Z	2016-08-04T20:09:15Z	repl: deprecate unused function convertToContext	34		
 7830	718899	true	closed	false	3		2016-07-22T00:19:49Z	2016-07-22T18:32:03Z	2016-07-22T18:32:03Z	tools: enforce loading required modules first	33		
-7831	696611	true	open	false			2016-07-22T03:58:02Z	2016-08-26T14:04:11Z		fs: don't alter user provided `options` object	52		
+7831	696611	true	open	false	32		2016-07-22T03:58:02Z	2016-08-27T09:55:46Z		fs: don't alter user provided `options` object	52		
 7832	96150	true	open	false			2016-07-22T07:44:22Z	2016-08-25T05:02:44Z		doc: Provide bad/better examples for access() and exists()	45		
 7833	101553	true	closed	false	18	0	2016-07-22T08:08:03Z	2016-08-03T06:19:34Z	2016-08-03T06:19:34Z	deps: cherry-pick a51f429 from V8 upstream 	36		
 7834	101553	true	open	false	12		2016-07-22T08:53:45Z	2016-08-03T15:27:58Z		deps: cherry-pick a51f429 from V8 upstream	38		
@@ -1267,11 +1267,11 @@
 8252	899444	true	open	false	4		2016-08-24T13:22:41Z	2016-08-25T04:49:10Z		net: make holding the buffer in memory more robust	102		
 8253	677994	true	closed	false	14	0	2016-08-24T14:05:02Z	2016-08-26T16:19:43Z	2016-08-26T16:19:42Z	2016-08-26, Version 6.5.0 (Current)	1163	677994	2016-08-26T16:19:42Z
 8254	15943089	true	open	false	4		2016-08-24T14:08:16Z	2016-08-26T16:15:53Z		test: fix localhost error in test-dns-ipv6	60		
-8255	172594	false	closed	false	7		2016-08-24T16:28:50Z	2016-08-27T03:53:32Z	2016-08-27T03:53:32Z	fs.stat() returns 'Stats' - should be 'Status'.	49		
+8255	172594	false	closed	false	8		2016-08-24T16:28:50Z	2016-08-27T09:40:32Z	2016-08-27T03:53:32Z	fs.stat() returns 'Stats' - should be 'Status'.	49		
 8256	439929	true	open	false			2016-08-24T17:27:24Z	2016-08-26T14:13:24Z		test: refactor buffer tests	54		
-8257	287917	true	open	false			2016-08-24T18:10:23Z	2016-08-27T03:30:48Z		inspector: Simplify buffer management	114		
-8258	446478	false	open	false	3		2016-08-24T19:58:19Z	2016-08-26T12:27:16Z		Assertion failed ../deps/uv/src/unix/stream.c, line 1563	912		
-8259	837347	false	open	false	8		2016-08-24T20:38:12Z	2016-08-27T03:33:36Z		Slow start of Node application (ARM)	384		
+8257	287917	true	open	false			2016-08-24T18:10:23Z	2016-08-27T09:39:55Z		inspector: Simplify buffer management	114		
+8258	446478	false	open	false	5		2016-08-24T19:58:19Z	2016-08-27T09:54:03Z		Assertion failed ../deps/uv/src/unix/stream.c, line 1563	912		
+8259	837347	false	open	false	8		2016-08-24T20:38:12Z	2016-08-27T09:28:38Z		Slow start of Node application (ARM)	384		
 8260	495647	true	closed	false	8		2016-08-24T20:55:53Z	2016-08-25T21:13:23Z	2016-08-25T17:42:13Z	doc: add Myles Borins to the CTC	22		
 8261	439929	true	open	false			2016-08-24T21:01:41Z	2016-08-26T18:02:25Z		test: refactor/cleanup a number of cluster tests	68		
 8263	4256376	true	closed	false	2	0	2016-08-24T22:07:47Z	2016-08-24T23:56:14Z	2016-08-24T23:56:14Z	"doc: Added missing e to ""timeout"""	46		
@@ -1288,22 +1288,22 @@
 8274	9373002	true	open	false	7		2016-08-25T23:16:48Z	2016-08-26T12:56:47Z		test: mark test-child-process-fork-dgram as flaky	38		
 8275	1197615	true	open	false	2		2016-08-26T07:11:33Z	2016-08-26T13:46:01Z		_debugger: add select stack frame command	22		
 8276	926815	false	open	false	3		2016-08-26T07:12:52Z	2016-08-26T19:33:17Z		Provide access to file system times with nanoseconds resolution	162		
-8277	495647	true	open	false			2016-08-26T08:11:24Z	2016-08-27T04:55:12Z		 No abort on require() with null bytes	107		
+8277	495647	true	open	false	12		2016-08-26T08:11:24Z	2016-08-27T09:12:51Z		 No abort on require() with null bytes	107		
 8278	207889	false	closed	false	10		2016-08-26T08:23:30Z	2016-08-27T08:42:14Z	2016-08-27T08:42:14Z	SIGABRT on OS/X	152		
 8279	156539	false	open	false	10		2016-08-26T09:15:59Z	2016-08-27T06:11:53Z		(node:20446) Warning: Possible EventEmitter memory leak detected. 11 error listeners added. Use emitter.setMaxListeners() to increase limit	42		
-8280	317464	true	open	false	2		2016-08-26T10:00:00Z	2016-08-26T16:34:32Z		[WIP] deps: upgrade libuv to 1.10.0	37		
+8280	317464	true	open	false	4		2016-08-26T10:00:00Z	2016-08-27T09:14:42Z		[WIP] deps: upgrade libuv to 1.10.0	37		
 8281	1443911	true	open	false			2016-08-26T15:09:18Z	2016-08-26T16:07:03Z		doc: add `added:` information for crypto	27		
 8282	9271155	false	open	false	1		2016-08-26T16:59:30Z	2016-08-26T18:39:33Z		sockets: OutOfBand bytes/packets are not supported	108		
 8283	439929	true	open	false	2		2016-08-26T18:40:28Z	2016-08-27T06:37:08Z		test: additional refactoring/cleanup of buffer tests	61		
 8284	20561255	false	open	false	0		2016-08-26T18:44:56Z	2016-08-26T22:20:59Z		Obsolete workaround in src/util.h	109		
-8285	9373002	true	open	false	4		2016-08-26T21:15:45Z	2016-08-26T22:17:08Z		build: fix dependencies on AIX	106		
+8285	9373002	true	open	false			2016-08-26T21:15:45Z	2016-08-27T09:57:47Z		build: fix dependencies on AIX	106		
 8286	248570	false	open	false	2		2016-08-26T22:21:45Z	2016-08-27T04:22:00Z		Number of processes used by 'make' should not be specified in documentation	87		
 8287	248570	true	open	false	0	0	2016-08-26T22:46:51Z	2016-08-26T22:46:51Z		doc: removed number of jobs from -j option when running make	72		
 8288	54666	false	open	false	0		2016-08-26T22:47:07Z	2016-08-27T08:08:29Z		benchmark: compare.R script does not work with `--runs 1`	53		
 8289	718899	true	open	false	2		2016-08-26T23:32:21Z	2016-08-27T05:31:04Z		test: refactor test-debug-signal-cluster	48		
 8290	439929	true	open	false	0	0	2016-08-27T03:29:35Z	2016-08-27T03:29:35Z		doc: document that `'ipc'` is required with fork stdio option	48		
 8291	439929	true	open	false			2016-08-27T03:39:05Z	2016-08-27T08:52:39Z		doc: clarify that path.isAbsolute on windows accepts / and \	51		
-8292	495647	true	open	false	0	0	2016-08-27T04:05:46Z	2016-08-27T04:05:46Z		fs: move nullCheck to internal/fs.js to dedupe	63		
+8292	495647	true	open	false	1		2016-08-27T04:05:46Z	2016-08-27T09:18:09Z		fs: move nullCheck to internal/fs.js to dedupe	63		
 8293	439929	true	open	false	4		2016-08-27T04:16:00Z	2016-08-27T05:11:41Z		test: add known issue test for path parse issue #6229	42		
 8294	439929	true	open	false	2		2016-08-27T04:28:24Z	2016-08-27T07:35:12Z		doc: document what happens when listen is called multiple times	47		
 8295	439929	true	open	false	2		2016-08-27T04:38:45Z	2016-08-27T07:36:22Z		doc: document that readline write() is processed as input	49		
