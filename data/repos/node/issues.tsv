@@ -661,7 +661,7 @@
 7645	469365	true	open	false	10		2016-07-10T20:01:22Z	2016-08-08T19:16:51Z		src: fix build failure for clang 3.2 by checking for builtin presence	19		
 7646	718899	false	closed	false	0		2016-07-10T20:31:04Z	2016-07-27T21:38:38Z	2016-07-27T21:38:38Z	CONTRIBUTING.md assumes UNIX-like OS	18		
 7647	718899	true	closed	false	10		2016-07-10T21:05:19Z	2016-07-13T18:18:31Z	2016-07-13T18:18:31Z	tools: increase lint coverage	55		
-7648	696611	true	open	false	9		2016-07-10T21:34:45Z	2016-08-27T13:59:58Z		doc: improve fs.truncate functions' documentation	56		
+7648	696611	true	closed	false	9		2016-07-10T21:34:45Z	2016-08-27T14:24:23Z	2016-08-27T14:24:23Z	doc: improve fs.truncate functions' documentation	56		
 7649	718899	false	open	false	1		2016-07-11T03:53:35Z	2016-08-04T05:56:33Z		Investigate flaky test-http-pipeline-regr-3332 on SmartOS	80		
 7650	718899	false	closed	false	5		2016-07-11T03:54:58Z	2016-07-31T20:34:45Z	2016-07-31T20:34:45Z	Investigate flaky test-tls-wrap-timeout on FreeBSD	50		
 7651	16474118	false	closed	false	5		2016-07-11T09:01:22Z	2016-07-15T07:11:56Z	2016-07-15T07:11:56Z	Node js down when init static openssl engines	49		
@@ -1262,11 +1262,11 @@
 8247	82626	false	open	false	0		2016-08-24T05:41:34Z	2016-08-24T05:41:34Z		npmignore glob patterns broken or documented incorrectly	314		
 8248	718899	true	closed	false	3		2016-08-24T06:21:15Z	2016-08-26T16:34:49Z	2016-08-26T16:34:49Z	test: add check in test-signal-handler	46		
 8249	3899684	false	open	false	2		2016-08-24T10:23:17Z	2016-08-25T20:03:32Z		doc, process, child_process: process.send() has a limit of data to be send	91		
-8250	1443911	true	open	false	6		2016-08-24T10:45:04Z	2016-08-25T05:51:43Z		doc: add `added:` information for modules	27		
-8251	11582552	false	open	false	2		2016-08-24T11:42:09Z	2016-08-24T14:09:01Z		EFAULT error in process.stdout.write(data, 'hex')	299		
-8252	899444	true	open	false	4		2016-08-24T13:22:41Z	2016-08-25T04:49:10Z		net: make holding the buffer in memory more robust	102		
-8253	677994	true	closed	false	14	0	2016-08-24T14:05:02Z	2016-08-26T16:19:43Z	2016-08-26T16:19:42Z	2016-08-26, Version 6.5.0 (Current)	1163	677994	2016-08-26T16:19:42Z
-8254	15943089	true	open	false	4		2016-08-24T14:08:16Z	2016-08-26T16:15:53Z		test: fix localhost error in test-dns-ipv6	60		
+8250	1443911	true	closed	false	7	0	2016-08-24T10:45:04Z	2016-08-27T14:20:32Z	2016-08-27T14:20:31Z	doc: add `added:` information for modules	27		
+8251	11582552	false	closed	false	3		2016-08-24T11:42:09Z	2016-08-27T14:18:09Z	2016-08-27T14:18:09Z	EFAULT error in process.stdout.write(data, 'hex')	299		
+8252	899444	true	closed	false	6		2016-08-24T13:22:41Z	2016-08-27T14:17:38Z	2016-08-27T14:17:38Z	net: make holding the buffer in memory more robust	102		
+8253	677994	true	closed	false	14		2016-08-24T14:05:02Z	2016-08-27T14:30:05Z	2016-08-26T16:19:42Z	2016-08-26, Version 6.5.0 (Current)	1163		
+8254	15943089	true	open	false	7		2016-08-24T14:08:16Z	2016-08-27T14:48:20Z		test: fix localhost error in test-dns-ipv6	60		
 8255	172594	false	closed	false	8		2016-08-24T16:28:50Z	2016-08-27T09:40:32Z	2016-08-27T03:53:32Z	fs.stat() returns 'Stats' - should be 'Status'.	49		
 8256	439929	true	open	false			2016-08-24T17:27:24Z	2016-08-26T14:13:24Z		test: refactor buffer tests	54		
 8257	287917	true	open	false			2016-08-24T18:10:23Z	2016-08-27T09:39:55Z		inspector: Simplify buffer management	114		
@@ -1307,7 +1307,8 @@
 8293	439929	true	open	false	4		2016-08-27T04:16:00Z	2016-08-27T05:11:41Z		test: add known issue test for path parse issue #6229	42		
 8294	439929	true	open	false	2		2016-08-27T04:28:24Z	2016-08-27T07:35:12Z		doc: document what happens when listen is called multiple times	47		
 8295	439929	true	open	false	3		2016-08-27T04:38:45Z	2016-08-27T12:47:48Z		doc: document that readline write() is processed as input	49		
-8296	718899	true	open	false	4		2016-08-27T06:59:40Z	2016-08-27T12:50:26Z		Enable caching for ESLint	263		
+8296	718899	true	open	false	7		2016-08-27T06:59:40Z	2016-08-27T14:24:01Z		Enable caching for ESLint	263		
 8297	592637	false	open	false	4		2016-08-27T07:54:16Z	2016-08-27T10:08:45Z		How to use fd with net.Socket?	233		
 8298	899444	true	open	false			2016-08-27T08:57:12Z	2016-08-27T13:09:45Z		events: make memory leak warning more programatically accessible	137		
 8299	505333	true	open	false	0	0	2016-08-27T11:36:23Z	2016-08-27T11:36:23Z		benchmark: ignore significance when using --runs 1	110		
+8300	899444	true	open	false	0	0	2016-08-27T14:44:58Z	2016-08-27T14:44:58Z		net: make holding the buffer in memory more robust (v4.x backport)	101		
