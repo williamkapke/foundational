@@ -5,6 +5,7 @@
 540	555645	true	closed	false	33		2015-01-21T16:22:26Z	2016-07-18T15:54:13Z	2015-01-28T03:49:14Z	events: Alias EventEmitter.protoype.removeListener as EventEmitter.prototype.off 	95		
 550	30827	false	closed	false	10		2015-01-22T05:35:22Z	2016-08-05T22:14:53Z	2016-08-05T22:14:53Z	Proposal: HTTP – Move `bodyHead` to `data` event	125		
 643	829734	false	open	false	31		2015-01-28T21:12:32Z	2016-08-05T22:17:03Z		Using faster url parser	82		
+678	643505	false	open	false	5		2015-01-31T00:58:15Z	2016-08-29T14:13:38Z		make crypto functions execute in the threadpool asynchronously	83		
 684	115237	false	closed	false	6		2015-01-31T22:25:05Z	2016-08-18T20:24:09Z	2015-02-01T18:41:19Z	path: tilde expansion	123		
 690	275871	false	closed	false	14		2015-02-02T15:19:55Z	2016-07-19T11:39:40Z	2016-07-19T11:39:40Z	repl: surrogate pair upsets repl / terminal	43		
 729	289174	false	closed	false	8		2015-02-05T20:00:25Z	2016-06-29T11:12:13Z	2016-06-29T11:12:13Z	Converge Tracing/Profiling to Native Set of Hooks	49		
@@ -12,7 +13,7 @@
 831	2993861	false	open	false	14		2015-02-13T14:18:23Z	2016-08-06T08:28:42Z		`console` should be safe	58		
 854	172	false	open	false	58		2015-02-15T19:37:43Z	2016-08-10T19:37:47Z		os x: FSEventStreamFlushSync assertions logged to console	100		
 855	617481	false	open	false	16		2015-02-15T21:57:32Z	2016-08-11T16:02:47Z		vm: references to context inside objects are not === the original context	58		
-1128	36662	false	open	false	16		2015-03-11T22:48:11Z	2016-08-04T12:39:55Z		feature request: a way to inspect what's in the event loop	137		
+1128	36662	false	open	false	17		2015-03-11T22:48:11Z	2016-08-29T14:15:29Z		feature request: a way to inspect what's in the event loop	137		
 1278	532414	false	closed	false	37		2015-03-26T19:55:14Z	2016-08-22T21:08:42Z	2016-02-12T21:20:04Z	Compressed packages	136		
 1495	902041	false	open	false	31		2015-04-21T23:54:21Z	2016-08-28T10:02:20Z		TLS Module: The default ecdhCurve, prime256v1 (aka NIST P-256) is not safe.	64		
 1592	617235	false	open	false	206		2015-05-02T19:25:40Z	2016-07-25T11:24:25Z		gripe: deprecating fs.exists/existsSync	202		
@@ -1153,7 +1154,7 @@
 8137	20699254	false	closed	false	3		2016-08-17T05:40:17Z	2016-08-17T06:14:35Z	2016-08-17T05:43:13Z	Can we support Worker API in node environment , like browser's Web work behavior.	28		
 8138	7421183	false	closed	false	5		2016-08-17T08:36:22Z	2016-08-17T18:03:55Z	2016-08-17T08:51:03Z	util.inspect generates different output in Node minor update	122		
 8139	275871	false	open	false	10		2016-08-17T11:40:12Z	2016-08-19T10:12:54Z		benchmark: http/simple is unreliable	396		
-8140	17704638	true	open	false	19		2016-08-17T13:08:21Z	2016-08-26T18:07:34Z		benchmark: support for multiple http benchmarkers	88		
+8140	17704638	true	open	false	19		2016-08-17T13:08:21Z	2016-08-29T14:35:37Z		benchmark: support for multiple http benchmarkers	88		
 8141	677994	true	open	false	12		2016-08-17T13:12:12Z	2016-08-17T18:16:38Z		"Revert ""repl,util: insert carriage returns in output"""	51		
 8142	4027669	false	closed	false	2		2016-08-17T14:29:41Z	2016-08-20T20:55:26Z	2016-08-20T20:55:26Z	repl: editor mode text not saved in `.save` command	100		
 8143	677994	true	closed	false	10	0	2016-08-17T14:48:46Z	2016-08-19T16:56:25Z	2016-08-19T16:56:25Z	"Revert ""repl,util: insert carriage returns in output"""	63		
@@ -1266,7 +1267,7 @@
 8250	1443911	true	closed	false	7	0	2016-08-24T10:45:04Z	2016-08-27T14:20:32Z	2016-08-27T14:20:31Z	doc: add `added:` information for modules	27		
 8251	11582552	false	closed	false	3		2016-08-24T11:42:09Z	2016-08-27T14:18:09Z	2016-08-27T14:18:09Z	EFAULT error in process.stdout.write(data, 'hex')	299		
 8252	899444	true	closed	false	6		2016-08-24T13:22:41Z	2016-08-27T14:17:38Z	2016-08-27T14:17:38Z	net: make holding the buffer in memory more robust	102		
-8253	677994	true	closed	false	14		2016-08-24T14:05:02Z	2016-08-27T14:30:05Z	2016-08-26T16:19:42Z	2016-08-26, Version 6.5.0 (Current)	1163		
+8253	677994	true	closed	false	20		2016-08-24T14:05:02Z	2016-08-29T14:04:58Z	2016-08-26T16:19:42Z	2016-08-26, Version 6.5.0 (Current)	1163		
 8254	15943089	true	open	false	7		2016-08-24T14:08:16Z	2016-08-27T14:48:20Z		test: fix localhost error in test-dns-ipv6	60		
 8255	172594	false	closed	false	8		2016-08-24T16:28:50Z	2016-08-27T09:40:32Z	2016-08-27T03:53:32Z	fs.stat() returns 'Stats' - should be 'Status'.	49		
 8256	439929	true	open	false			2016-08-24T17:27:24Z	2016-08-26T14:13:24Z		test: refactor buffer tests	54		
@@ -1297,8 +1298,8 @@
 8282	9271155	false	open	false	1		2016-08-26T16:59:30Z	2016-08-26T18:39:33Z		sockets: OutOfBand bytes/packets are not supported	108		
 8283	439929	true	open	false	2		2016-08-26T18:40:28Z	2016-08-27T06:37:08Z		test: additional refactoring/cleanup of buffer tests	61		
 8284	20561255	false	open	false	0		2016-08-26T18:44:56Z	2016-08-26T22:20:59Z		Obsolete workaround in src/util.h	109		
-8285	9373002	true	open	false	4		2016-08-26T21:15:45Z	2016-08-29T13:42:09Z		build: fix dependencies on AIX	106		
-8286	248570	false	open	false	6		2016-08-26T22:21:45Z	2016-08-28T01:35:36Z		Number of processes used by 'make' should not be specified in documentation	87		
+8285	9373002	true	open	false	5		2016-08-26T21:15:45Z	2016-08-29T14:24:47Z		build: fix dependencies on AIX	106		
+8286	248570	false	open	false	7		2016-08-26T22:21:45Z	2016-08-29T14:02:13Z		Number of processes used by 'make' should not be specified in documentation	87		
 8287	248570	true	open	false	0	0	2016-08-26T22:46:51Z	2016-08-26T22:46:51Z		doc: removed number of jobs from -j option when running make	72		
 8288	54666	false	open	false	2		2016-08-26T22:47:07Z	2016-08-27T11:36:56Z		benchmark: compare.R script does not work with `--runs 1`	53		
 8289	718899	true	open	false	6		2016-08-26T23:32:21Z	2016-08-29T08:24:16Z		test: refactor test-debug-signal-cluster	48		
@@ -1327,10 +1328,11 @@
 8312	2512748	true	open	false			2016-08-28T18:19:22Z	2016-08-28T23:00:56Z		WIP: child_process: spawn() and spawnSync() validation	190		
 8313	12671072	false	closed	false	1		2016-08-28T23:49:19Z	2016-08-29T00:03:41Z	2016-08-29T00:03:41Z	ES6 getters execute before being called	83		
 8314	1909610	false	closed	false	2		2016-08-29T00:09:19Z	2016-08-29T01:03:13Z	2016-08-29T00:13:04Z	6.5.0 release branch exists here but not on Node	109		
-8315	2499504	true	open	false	1		2016-08-29T02:37:55Z	2016-08-29T05:58:47Z		add .md to the link	51		
+8315	2499504	true	open	false	2		2016-08-29T02:37:55Z	2016-08-29T14:19:37Z		doc: add .md to the link	51		
 8316	5234060	false	open	false	0		2016-08-29T02:56:58Z	2016-08-29T02:56:58Z		`want_separate_host_toolset` wrongly set=0 for android x64 on Mac(also 64bit)	128		
-8317	2352663	true	open	false	1		2016-08-29T07:41:54Z	2016-08-29T08:11:45Z		[wip] deps: update V8 to 5.4	38		
-8318	413206	false	open	false	0		2016-08-29T11:24:44Z	2016-08-29T11:24:44Z		Does a createCipheriv stream execute in the threadpool or the main thread?	69		
+8317	2352663	true	open	false	2		2016-08-29T07:41:54Z	2016-08-29T14:13:36Z		[wip] deps: update V8 to 5.4	40		
+8318	413206	false	closed	false	2		2016-08-29T11:24:44Z	2016-08-29T14:17:47Z	2016-08-29T14:17:47Z	Does a createCipheriv stream execute in the threadpool or the main thread?	69		
 8319	7109350	false	open	false	0		2016-08-29T12:13:58Z	2016-08-29T12:13:58Z		repl autocompletion is off for `const` and `let` variables	65		
 8320	11850893	false	closed	false	1		2016-08-29T12:51:42Z	2016-08-29T13:09:40Z	2016-08-29T13:09:40Z	Problem in read JSON with FS	60		
-8321	3726484	false	open	false	0		2016-08-29T13:37:18Z	2016-08-29T13:37:18Z		URL parameters containing russian/chinese language characters are not escaped properly	132		
+8321	3726484	false	open	false	1		2016-08-29T13:37:18Z	2016-08-29T14:10:56Z		URL parameters containing russian/chinese language characters are not escaped properly	132		
+8322	5008131	false	open	false	0		2016-08-29T14:28:24Z	2016-08-29T14:28:24Z		Strangeness in error message when node gives call stack, if error had occured in specially declared function	258		
