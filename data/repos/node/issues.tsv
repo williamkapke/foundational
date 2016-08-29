@@ -113,13 +113,14 @@
 4307	12825770	false	closed	false	11		2015-12-16T08:16:14Z	2016-07-11T09:25:48Z	2016-07-11T09:25:48Z	can not step in constructor, will will terminate node.exe	90		
 4329	16335744	false	closed	false	14		2015-12-17T11:41:17Z	2016-07-21T14:42:10Z	2016-01-15T10:53:49Z	node.js Setup Wizard ended prematurely	43		
 4394	1470592	true	open	false	44		2015-12-23T03:38:39Z	2016-08-07T06:04:29Z		buffer: workaround for v8 buffer.toString failure. fixes #4266	20		
-4402	5358145	false	open	false	4		2015-12-23T19:26:22Z	2016-07-06T04:40:55Z		Bad readline behavior with line ending characters?	588		
+4402	5358145	false	closed	false	4		2015-12-23T19:26:22Z	2016-08-29T22:31:11Z	2016-08-29T22:31:11Z	Bad readline behavior with line ending characters?	588		
 4415	327019	true	open	false	11		2015-12-24T07:27:06Z	2016-08-15T22:11:15Z		benchmark: add ops/sec for benchmark results	8		
 4427	718899	false	open	false	35		2015-12-26T16:25:19Z	2016-07-12T22:30:35Z		Investigate flaky test-tick-processor	5		
 4482	178512	true	closed	false	30		2015-12-30T13:30:25Z	2016-07-28T21:58:08Z	2016-01-04T18:36:32Z	Http(s) Agent: handle errors on idle sockets	57		
 4528	677994	true	open	false	14		2016-01-04T12:26:41Z	2016-08-09T20:26:39Z		http: make path null in Agent#createSocket	34		
 4629	1084056	true	open	false	22		2016-01-11T21:36:45Z	2016-07-02T20:55:55Z		test: fix `fs-watch-recursive` flakiness	47		
 4630	10704816	true	closed	false	13	1	2016-01-11T22:32:27Z	2016-06-29T14:12:03Z	2016-06-29T14:12:03Z	tools: add missing headers	16		
+4646	1731633	false	closed	false	5		2016-01-12T12:07:41Z	2016-08-29T22:33:43Z	2016-08-29T22:33:43Z	http listen method is possible to be called twice with no error	68		
 4647	52195	true	closed	false	31		2016-01-12T12:24:07Z	2016-07-13T15:16:29Z	2016-07-13T14:12:16Z	win,msi: Added Italian translation	38		
 4677	439929	false	closed	false	8		2016-01-13T21:25:47Z	2016-08-09T21:11:36Z	2016-08-09T21:11:36Z	Revising Deprecation Strategy / Labels	689		
 4685	11070840	false	open	false	19		2016-01-14T06:13:50Z	2016-08-14T23:11:57Z		Symantec Quarantining node-v5.4.1-x64.msi	30		
@@ -142,6 +143,7 @@
 5183	718899	false	closed	false	2		2016-02-10T19:46:20Z	2016-06-29T22:31:10Z	2016-06-29T22:31:10Z	Investigate flaky test-async-wrap-check-providers	4		
 5189	1622515	true	closed	false	16		2016-02-11T00:01:07Z	2016-07-15T18:54:10Z	2016-07-15T18:54:10Z	repl: Handle unicode escape sequence	3		
 5190	15843	true	closed	false	18		2016-02-11T01:07:06Z	2016-06-29T16:29:36Z	2016-05-19T10:04:02Z	http: use `localAddress` instead of `path`	11		
+5213	439929	false	closed	false	9		2016-02-13T04:41:36Z	2016-08-29T22:13:27Z	2016-08-29T22:13:27Z	Tracking: Revert #5102 when possible	36		
 5256	327019	true	closed	false	29	0	2016-02-16T08:27:34Z	2016-08-01T22:10:12Z	2016-08-01T22:10:12Z	buffer: speed up Buffer.isEncoding() method	9		
 5261	1715054	false	open	false	16		2016-02-16T18:43:30Z	2016-08-09T11:55:02Z		Error: EPERM: operation not permitted, open 'C:\Users\username\.node_repl_history'	15		
 5266	1656054	false	open	false	11		2016-02-17T00:03:03Z	2016-08-14T08:55:31Z		Segfault when passing objects between vm contexts	221		
@@ -203,7 +205,7 @@
 6398	79017	true	closed	false			2016-04-26T13:52:47Z	2016-08-01T15:17:23Z	2016-05-10T13:13:45Z	deps: backport e093a04, 09db540 from upstream V8	114		
 6404	238531	true	closed	false	10		2016-04-26T20:32:50Z	2016-07-12T05:11:58Z	2016-04-27T04:41:45Z	net: introduce `Socket#connecting` property	77		
 6406	176984	true	closed	false	8		2016-04-27T00:32:49Z	2016-07-11T20:01:18Z	2016-04-30T10:43:12Z	build: use shorthand lint target from test	68		
-6413	439929	true	open	false	79		2016-04-27T05:29:39Z	2016-08-29T21:13:45Z		"Revert ""fs: add a temporary fix for re-evaluation support"""	37		
+6413	439929	true	closed	false	79		2016-04-27T05:29:39Z	2016-08-29T22:13:47Z	2016-08-29T22:13:47Z	"Revert ""fs: add a temporary fix for re-evaluation support"""	37		
 6429	45469	false	closed	false	29		2016-04-27T21:44:57Z	2016-06-27T17:29:28Z	2016-06-27T17:29:28Z	deprecate --use_strict	48		
 6434	677518	false	open	false	6		2016-04-27T23:17:09Z	2016-08-12T21:59:01Z		Module.globalPaths under Windows	68		
 6436	5438027	true	closed	false	38		2016-04-28T01:22:41Z	2016-07-12T12:40:59Z	2016-06-29T09:14:33Z	3x faster setImmediate	110		
@@ -919,7 +921,7 @@
 7901	54479	false	closed	false	2		2016-07-27T22:59:05Z	2016-07-28T18:50:34Z	2016-07-28T02:15:01Z	Incorrect version of Node package in Yum repo	329		
 7902	110455	false	open	false	2		2016-07-27T23:57:01Z	2016-08-02T05:53:04Z		<=v4: process.hrtime() segfaults on arrays with error-throwing accessors	129		
 7903	2703309	false	open	false	16		2016-07-28T02:45:05Z	2016-08-03T20:01:42Z		Feature. Set DNS server port for DNS client	50		
-7904	2352663	false	open	false	18		2016-07-28T08:04:07Z	2016-08-14T15:54:43Z		V8 version for 7.0.0 release	156		
+7904	2352663	false	open	false	18		2016-07-28T08:04:07Z	2016-08-29T22:11:56Z		V8 version for 7.0.0 release	156		
 7905	432351	true	open	false	5		2016-07-28T08:22:25Z	2016-08-22T09:33:58Z		src: removing unused StringValue macro parameters	62		
 7906	275871	true	closed	false	4	2	2016-07-28T10:36:15Z	2016-08-01T14:18:52Z	2016-08-01T14:18:52Z	src: avoid manual memory management in inspector	79		
 7907	275871	true	closed	false	5	0	2016-07-28T10:38:57Z	2016-08-02T06:37:06Z	2016-08-02T06:37:05Z	src: fix use-after-free in inspector agent	34		
@@ -1181,7 +1183,7 @@
 8164	2512748	true	closed	false	3	0	2016-08-18T17:44:47Z	2016-08-20T20:27:16Z	2016-08-20T20:27:16Z	child_process: reuse existing no-op function	48	2512748	2016-08-20T20:27:16Z
 8165	159100	false	closed	false	9		2016-08-18T19:12:43Z	2016-08-24T18:41:38Z	2016-08-24T18:41:38Z	url.resolve auth behavior if host does *not* change	121		
 8166	439929	true	open	false	22		2016-08-18T19:15:57Z	2016-08-25T15:08:43Z		lib,fs: use process.emitWarning instead of internal print dep warning	103		
-8167	657552	false	open	false	2		2016-08-18T19:48:09Z	2016-08-18T20:03:15Z		TypeError: Forked processes must have an IPC channel	61		
+8167	657552	false	closed	false	4		2016-08-18T19:48:09Z	2016-08-29T22:21:48Z	2016-08-29T22:21:48Z	TypeError: Forked processes must have an IPC channel	61		
 8168	2512748	true	open	false			2016-08-18T20:31:47Z	2016-08-24T01:33:09Z		test: exercise EE function type checking paths	60		
 8169	988441	true	closed	false	19		2016-08-18T20:52:01Z	2016-08-25T19:44:06Z	2016-08-25T18:04:43Z	buffer: hard-deprecate calling Buffer without new	59		
 8170	2512748	true	open	false	6		2016-08-18T21:30:38Z	2016-08-22T18:09:31Z		dns: lookupService() callback must be a function	179		
@@ -1225,13 +1227,13 @@
 8208	1347002	false	closed	false	3		2016-08-21T13:48:21Z	2016-08-23T22:20:58Z	2016-08-23T22:20:58Z	--inspect: chrome-devtools - nullptr 	68		
 8209	718899	false	closed	false	0		2016-08-21T14:31:34Z	2016-08-22T22:22:44Z	2016-08-22T22:22:44Z	investigate flaky sequential/test-child-process-pass-fd on SmartoS	741		
 8210	8208733	false	closed	false	2		2016-08-21T17:36:00Z	2016-08-21T19:02:20Z	2016-08-21T19:02:20Z	Cross compiling NodeJS for MIPS V8 requirements	65		
-8211	926815	false	open	false	3		2016-08-21T18:27:35Z	2016-08-23T08:55:17Z		Fix or Mark apis in the documentation that cannot be try/catch/promised	153		
+8211	926815	false	open	false	5		2016-08-21T18:27:35Z	2016-08-29T22:45:16Z		Fix or Mark apis in the documentation that cannot be try/catch/promised	153		
 8212	1084056	true	closed	false	4		2016-08-21T19:06:41Z	2016-08-22T22:22:45Z	2016-08-22T22:22:45Z	test: fix flaky `test-child-process-pass-fd`	40		
 8213	1898870	false	closed	false	1		2016-08-21T20:22:13Z	2016-08-23T19:45:59Z	2016-08-23T19:45:59Z	url.resolveObject: conflicting values of host and port	79		
 8214	1898870	true	closed	false	2		2016-08-21T20:34:20Z	2016-08-23T19:46:39Z	2016-08-23T19:46:39Z	url: fix inconsistent port in url.resolveObject	87		
 8215	1898870	true	closed	false	8	0	2016-08-21T20:50:34Z	2016-08-24T18:41:53Z	2016-08-24T18:41:53Z	url: keep auth in `url.resolve()` if host matches	56		
 8216	788473	false	open	false	8		2016-08-21T21:39:44Z	2016-08-23T19:35:26Z		Garbage Collection Crash	130		
-8217	439929	true	open	false	21		2016-08-21T22:40:46Z	2016-08-26T18:42:04Z		promise: warning on unhandled rejection	60		
+8217	439929	true	open	false	22		2016-08-21T22:40:46Z	2016-08-29T22:47:28Z		promise: warning on unhandled rejection	60		
 8218	2983969	false	closed	false	1		2016-08-22T02:23:11Z	2016-08-22T03:09:46Z	2016-08-22T03:09:46Z	Immediate crash on --inspect	42		
 8219	1935767	false	closed	false	3		2016-08-22T07:30:54Z	2016-08-22T08:30:09Z	2016-08-22T07:52:51Z	test: failed on sequential/test-child-process-pass-fd	55		
 8220	13269109	false	closed	false	1		2016-08-22T07:44:58Z	2016-08-22T11:08:54Z	2016-08-22T11:08:54Z	V8: Can't compile with nativesim=true for PowerPC 440	216		
@@ -1273,7 +1275,7 @@
 8256	439929	true	open	false			2016-08-24T17:27:24Z	2016-08-26T14:13:24Z		test: refactor buffer tests	54		
 8257	287917	true	open	false	5		2016-08-24T18:10:23Z	2016-08-29T18:22:35Z		inspector: Simplify buffer management	114		
 8258	446478	false	open	false	5		2016-08-24T19:58:19Z	2016-08-27T09:54:03Z		Assertion failed ../deps/uv/src/unix/stream.c, line 1563	912		
-8259	837347	false	open	false	8		2016-08-24T20:38:12Z	2016-08-27T09:28:38Z		Slow start of Node application (ARM)	384		
+8259	837347	false	open	false	10		2016-08-24T20:38:12Z	2016-08-29T22:29:16Z		Slow start of Node application (ARM)	384		
 8260	495647	true	closed	false	8		2016-08-24T20:55:53Z	2016-08-25T21:13:23Z	2016-08-25T17:42:13Z	doc: add Myles Borins to the CTC	22		
 8261	439929	true	open	false			2016-08-24T21:01:41Z	2016-08-27T22:14:19Z		test: refactor/cleanup a number of cluster tests	68		
 8263	4256376	true	closed	false	2	0	2016-08-24T22:07:47Z	2016-08-24T23:56:14Z	2016-08-24T23:56:14Z	"doc: Added missing e to ""timeout"""	46		
@@ -1296,19 +1298,19 @@
 8280	317464	true	open	false	5		2016-08-26T10:00:00Z	2016-08-29T08:05:42Z		[WIP] deps: upgrade libuv to 1.10.0	37		
 8281	1443911	true	open	false			2016-08-26T15:09:18Z	2016-08-26T16:07:03Z		doc: add `added:` information for crypto	27		
 8282	9271155	false	open	false	1		2016-08-26T16:59:30Z	2016-08-26T18:39:33Z		sockets: OutOfBand bytes/packets are not supported	108		
-8283	439929	true	open	false	2		2016-08-26T18:40:28Z	2016-08-27T06:37:08Z		test: additional refactoring/cleanup of buffer tests	61		
+8283	439929	true	closed	false	4		2016-08-26T18:40:28Z	2016-08-29T22:25:17Z	2016-08-29T22:25:17Z	test: additional refactoring/cleanup of buffer tests	61		
 8284	20561255	false	open	false	0		2016-08-26T18:44:56Z	2016-08-26T22:20:59Z		Obsolete workaround in src/util.h	109		
 8285	9373002	true	open	false	10		2016-08-26T21:15:45Z	2016-08-29T20:07:15Z		build: fix dependencies on AIX	106		
 8286	248570	false	open	false	7		2016-08-26T22:21:45Z	2016-08-29T15:55:09Z		Number of processes used by 'make' should not be specified in documentation	87		
 8287	248570	true	open	false	0	0	2016-08-26T22:46:51Z	2016-08-26T22:46:51Z		doc: removed number of jobs from -j option when running make	72		
 8288	54666	false	open	false	2		2016-08-26T22:47:07Z	2016-08-27T11:36:56Z		benchmark: compare.R script does not work with `--runs 1`	53		
 8289	718899	true	open	false	7		2016-08-26T23:32:21Z	2016-08-29T16:42:34Z		test: refactor test-debug-signal-cluster	48		
-8290	439929	true	open	false	7		2016-08-27T03:29:35Z	2016-08-28T01:47:30Z		doc: document that `'ipc'` is required with fork stdio option	48		
+8290	439929	true	closed	false	9		2016-08-27T03:29:35Z	2016-08-29T22:22:29Z	2016-08-29T22:22:29Z	doc: document that `'ipc'` is required with fork stdio option	48		
 8291	439929	true	open	false			2016-08-27T03:39:05Z	2016-08-27T08:52:39Z		doc: clarify that path.isAbsolute on windows accepts / and \	51		
 8292	495647	true	open	false	1		2016-08-27T04:05:46Z	2016-08-27T09:18:09Z		fs: move nullCheck to internal/fs.js to dedupe	63		
-8293	439929	true	open	false	4		2016-08-27T04:16:00Z	2016-08-27T05:11:41Z		test: add known issue test for path parse issue #6229	42		
-8294	439929	true	open	false	2		2016-08-27T04:28:24Z	2016-08-27T07:35:12Z		doc: document what happens when listen is called multiple times	47		
-8295	439929	true	open	false	3		2016-08-27T04:38:45Z	2016-08-27T12:47:48Z		doc: document that readline write() is processed as input	49		
+8293	439929	true	open	false	6		2016-08-27T04:16:00Z	2016-08-29T22:18:23Z		test: add known issue test for path parse issue #6229	42		
+8294	439929	true	closed	false	4	0	2016-08-27T04:28:24Z	2016-08-29T22:34:17Z	2016-08-29T22:34:17Z	doc: document what happens when listen is called multiple times	47		
+8295	439929	true	closed	false	4		2016-08-27T04:38:45Z	2016-08-29T22:31:24Z	2016-08-29T22:31:24Z	doc: document that readline write() is processed as input	49		
 8296	718899	true	open	false	11		2016-08-27T06:59:40Z	2016-08-28T11:21:32Z		Enable caching for ESLint	263		
 8297	592637	false	open	false	4		2016-08-27T07:54:16Z	2016-08-27T10:08:45Z		How to use fd with net.Socket?	233		
 8298	899444	true	open	false	3		2016-08-27T08:57:12Z	2016-08-27T20:25:23Z		events: make memory leak warning more programatically accessible	137		
@@ -1323,21 +1325,23 @@
 8307	275871	false	open	false	1		2016-08-28T10:38:46Z	2016-08-28T22:58:14Z		module: node aborts when package.json is a directory	114		
 8308	275871	true	open	false	2		2016-08-28T10:58:22Z	2016-08-28T20:00:13Z		src: unbreak build when compiling against uclibc	43		
 8309	6189009	false	open	false	8		2016-08-28T12:12:35Z	2016-08-29T04:02:24Z		Missing `new` in Set constructor makes variable defined using `let` unusable	100		
-8310	596741	false	open	false	24		2016-08-28T13:30:25Z	2016-08-29T21:21:31Z		Segmentation Fault	260		
+8310	596741	false	open	false	25		2016-08-28T13:30:25Z	2016-08-29T22:06:16Z		Segmentation Fault	260		
 8311	696611	true	open	false	3		2016-08-28T16:04:35Z	2016-08-29T16:43:54Z		buffer: expose underlying buffer object always	86		
 8312	2512748	true	open	false			2016-08-28T18:19:22Z	2016-08-28T23:00:56Z		WIP: child_process: spawn() and spawnSync() validation	190		
 8313	12671072	false	closed	false	1		2016-08-28T23:49:19Z	2016-08-29T00:03:41Z	2016-08-29T00:03:41Z	ES6 getters execute before being called	83		
 8314	1909610	false	closed	false	2		2016-08-29T00:09:19Z	2016-08-29T01:03:13Z	2016-08-29T00:13:04Z	6.5.0 release branch exists here but not on Node	109		
 8315	2499504	true	open	false	3		2016-08-29T02:37:55Z	2016-08-29T16:40:31Z		doc: add .md to the link	51		
 8316	5234060	false	open	false	0		2016-08-29T02:56:58Z	2016-08-29T02:56:58Z		`want_separate_host_toolset` wrongly set=0 for android x64 on Mac(also 64bit)	128		
-8317	2352663	true	open	false	6		2016-08-29T07:41:54Z	2016-08-29T18:36:59Z		[wip] deps: update V8 to 5.4	40		
+8317	2352663	true	open	false	7		2016-08-29T07:41:54Z	2016-08-29T22:57:11Z		[wip] deps: update V8 to 5.4	42		
 8318	413206	false	closed	false	2		2016-08-29T11:24:44Z	2016-08-29T14:17:47Z	2016-08-29T14:17:47Z	Does a createCipheriv stream execute in the threadpool or the main thread?	69		
 8319	7109350	false	open	false	0		2016-08-29T12:13:58Z	2016-08-29T12:13:58Z		repl autocompletion is off for `const` and `let` variables	65		
 8320	11850893	false	closed	false	1		2016-08-29T12:51:42Z	2016-08-29T13:09:40Z	2016-08-29T13:09:40Z	Problem in read JSON with FS	60		
 8321	3726484	false	open	false	7		2016-08-29T13:37:18Z	2016-08-29T16:37:55Z		URL parameters containing russian/chinese language characters are not escaped properly	132		
-8322	5008131	false	open	false	5		2016-08-29T14:28:24Z	2016-08-29T17:37:58Z		Strangeness in error message when node gives call stack, if error had occured in specially declared function	258		
+8322	5008131	false	open	false	6		2016-08-29T14:28:24Z	2016-08-29T22:23:13Z		Strangeness in error message when node gives call stack, if error had occured in specially declared function	258		
 8323	1093990	false	open	false	14		2016-08-29T15:40:54Z	2016-08-29T18:21:16Z		v6.5.0 fails to build using clang-3.4.	47		
-8324	718899	true	open	false	0		2016-08-29T18:27:31Z	2016-08-29T21:08:09Z		test: refactor parallel/test-process-env.js	49		
+8324	718899	true	open	false	1		2016-08-29T18:27:31Z	2016-08-29T22:05:37Z		test: refactor parallel/test-process-env.js	49		
 8325	176984	true	open	false	2		2016-08-29T18:30:24Z	2016-08-29T21:08:46Z		build: don't require processing docs for nightlies	60		
-8326	4356989	true	open	false	3		2016-08-29T18:53:56Z	2016-08-29T20:33:01Z		doc: fix typo in documentation	45		
-8327	899444	true	open	false	1		2016-08-29T19:54:14Z	2016-08-29T21:04:39Z		doc: drop 50-character limit for commit messages	49		
+8326	4356989	true	open	false	5		2016-08-29T18:53:56Z	2016-08-29T22:13:42Z		doc: fix typo in documentation	45		
+8327	899444	true	open	false	1		2016-08-29T19:54:14Z	2016-08-29T22:07:30Z		doc: drop 50-character limit for commit messages	49		
+8328	1024460	false	open	false	0		2016-08-29T22:02:38Z	2016-08-29T22:02:38Z		How to read from unix socket file descriptor? 	197		
+8329	9373002	false	open	false	0		2016-08-29T22:29:02Z	2016-08-29T22:29:02Z		V8 5.4 compilation failure on linuxOne/s390x	271		
