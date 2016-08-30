@@ -29,7 +29,7 @@
 1802	744035	false	open	false	8		2015-05-26T21:22:12Z	2016-07-03T04:55:24Z		url: parse() fails if auth contain a colon or ampersand	160		
 1843	54666	true	closed	false	71		2015-05-30T08:25:30Z	2016-08-06T07:34:31Z	2016-08-06T07:34:31Z	dns: add new DNS resolver and set it as default	22		
 1873	291301	false	open	false	14		2015-06-02T18:58:34Z	2016-08-03T22:38:15Z		http.OutgoingMessage headers API	64		
-2025	696611	true	closed	false	5		2015-06-20T20:27:17Z	2016-08-17T19:44:25Z	2015-06-21T03:19:14Z	util: moving internal helpers to internal module	35		
+2025	696611	true	closed	false	6		2015-06-20T20:27:17Z	2016-08-29T23:49:08Z	2015-06-21T03:19:14Z	util: moving internal helpers to internal module	35		
 2098	1881921	false	closed	false	20		2015-07-03T10:19:55Z	2016-07-12T10:29:54Z	2016-04-10T08:19:20Z	child_process.spawn sh not killable	166		
 2114	289174	false	open	false	12		2015-07-06T19:32:55Z	2016-07-20T15:59:23Z		incorrect URL parsing	46		
 2126	122831	false	open	false	8		2015-07-07T21:10:41Z	2016-07-11T22:19:43Z		SNICallback callback doesn't throw an error with invalid input	77		
@@ -205,7 +205,7 @@
 6398	79017	true	closed	false			2016-04-26T13:52:47Z	2016-08-01T15:17:23Z	2016-05-10T13:13:45Z	deps: backport e093a04, 09db540 from upstream V8	114		
 6404	238531	true	closed	false	10		2016-04-26T20:32:50Z	2016-07-12T05:11:58Z	2016-04-27T04:41:45Z	net: introduce `Socket#connecting` property	77		
 6406	176984	true	closed	false	8		2016-04-27T00:32:49Z	2016-07-11T20:01:18Z	2016-04-30T10:43:12Z	build: use shorthand lint target from test	68		
-6413	439929	true	closed	false	79		2016-04-27T05:29:39Z	2016-08-29T22:13:47Z	2016-08-29T22:13:47Z	"Revert ""fs: add a temporary fix for re-evaluation support"""	37		
+6413	439929	true	closed	false	81		2016-04-27T05:29:39Z	2016-08-29T23:46:53Z	2016-08-29T22:13:47Z	"Revert ""fs: add a temporary fix for re-evaluation support"""	37		
 6429	45469	false	closed	false	29		2016-04-27T21:44:57Z	2016-06-27T17:29:28Z	2016-06-27T17:29:28Z	deprecate --use_strict	48		
 6434	677518	false	open	false	6		2016-04-27T23:17:09Z	2016-08-12T21:59:01Z		Module.globalPaths under Windows	68		
 6436	5438027	true	closed	false	38		2016-04-28T01:22:41Z	2016-07-12T12:40:59Z	2016-06-29T09:14:33Z	3x faster setImmediate	110		
@@ -334,6 +334,7 @@
 7154	718899	true	closed	false	14		2016-06-04T20:16:03Z	2016-07-11T22:54:57Z	2016-06-07T20:33:05Z	debugger: remove obsolete setTimeout	65		
 7157	469365	true	closed	false	28		2016-06-05T01:13:32Z	2016-07-05T18:16:17Z	2016-06-27T20:40:21Z	buffers: speed up swap16/32, add swap64	566		
 7158	9056756	false	closed	false	5		2016-06-05T04:43:28Z	2016-07-11T09:40:17Z	2016-06-05T06:49:21Z	Unable to cross-compile Node v6.2.1 for iOS	283		
+7162	275871	true	open	false	9		2016-06-05T16:54:03Z	2016-08-29T23:52:17Z		fs: move stringToFlags() to lib/internal	3		
 7163	628445	false	open	false	11		2016-06-05T18:53:46Z	2016-08-03T16:34:40Z		`systemjs-plugin-babel` fails on `v6.2.0`	47		
 7165	696611	true	open	false	25		2016-06-05T21:37:06Z	2016-08-27T11:02:34Z		"fs: refactor ""options"" processing as a function"	86		
 7168	696611	true	closed	false	21		2016-06-05T22:31:56Z	2016-07-28T01:38:31Z	2016-07-21T21:06:43Z	fs: remove maybeCallback function	124		
@@ -1233,13 +1234,13 @@
 8214	1898870	true	closed	false	2		2016-08-21T20:34:20Z	2016-08-23T19:46:39Z	2016-08-23T19:46:39Z	url: fix inconsistent port in url.resolveObject	87		
 8215	1898870	true	closed	false	8	0	2016-08-21T20:50:34Z	2016-08-24T18:41:53Z	2016-08-24T18:41:53Z	url: keep auth in `url.resolve()` if host matches	56		
 8216	788473	false	open	false	8		2016-08-21T21:39:44Z	2016-08-23T19:35:26Z		Garbage Collection Crash	130		
-8217	439929	true	open	false	22		2016-08-21T22:40:46Z	2016-08-29T22:47:28Z		promise: warning on unhandled rejection	60		
+8217	439929	true	open	false	24		2016-08-21T22:40:46Z	2016-08-29T23:11:22Z		promise: warning on unhandled rejection	60		
 8218	2983969	false	closed	false	1		2016-08-22T02:23:11Z	2016-08-22T03:09:46Z	2016-08-22T03:09:46Z	Immediate crash on --inspect	42		
 8219	1935767	false	closed	false	3		2016-08-22T07:30:54Z	2016-08-22T08:30:09Z	2016-08-22T07:52:51Z	test: failed on sequential/test-child-process-pass-fd	55		
 8220	13269109	false	closed	false	1		2016-08-22T07:44:58Z	2016-08-22T11:08:54Z	2016-08-22T11:08:54Z	V8: Can't compile with nativesim=true for PowerPC 440	216		
 8221	289174	false	open	false	5		2016-08-22T09:26:43Z	2016-08-29T17:42:39Z		32bit address given for 64bit builds using --prof on Windows	101		
 8222	11819320	false	open	false	0		2016-08-22T16:23:54Z	2016-08-22T16:23:54Z		Cant compile from github	38		
-8223	439929	true	open	false	1		2016-08-22T16:31:49Z	2016-08-22T21:53:45Z		promise: warning on unhandled rejection (v6.x)	71		
+8223	439929	true	open	false	2		2016-08-22T16:31:49Z	2016-08-29T23:35:31Z		promise: warning on unhandled rejection (v6.x)	71		
 8224	714117	false	open	false	4		2016-08-22T16:54:02Z	2016-08-22T19:35:43Z		REPL debugging Proxy bug	105		
 8225	439929	true	closed	false	7		2016-08-22T18:18:33Z	2016-08-23T17:54:24Z	2016-08-23T17:54:23Z	"Revert ""crypto: add crypto.timingSafeEqual"""	70		
 8226	961599	false	open	false	2		2016-08-22T18:43:07Z	2016-08-22T21:44:43Z		Some c-ares symbols in Node headers not exported by Node executable	95		
@@ -1307,7 +1308,7 @@
 8289	718899	true	open	false	7		2016-08-26T23:32:21Z	2016-08-29T16:42:34Z		test: refactor test-debug-signal-cluster	48		
 8290	439929	true	closed	false	9		2016-08-27T03:29:35Z	2016-08-29T22:22:29Z	2016-08-29T22:22:29Z	doc: document that `'ipc'` is required with fork stdio option	48		
 8291	439929	true	open	false			2016-08-27T03:39:05Z	2016-08-27T08:52:39Z		doc: clarify that path.isAbsolute on windows accepts / and \	51		
-8292	495647	true	open	false	1		2016-08-27T04:05:46Z	2016-08-27T09:18:09Z		fs: move nullCheck to internal/fs.js to dedupe	63		
+8292	495647	true	open	false	3		2016-08-27T04:05:46Z	2016-08-29T23:51:05Z		fs: move nullCheck to internal/fs.js to dedupe	63		
 8293	439929	true	open	false	6		2016-08-27T04:16:00Z	2016-08-29T22:18:23Z		test: add known issue test for path parse issue #6229	42		
 8294	439929	true	closed	false	4	0	2016-08-27T04:28:24Z	2016-08-29T22:34:17Z	2016-08-29T22:34:17Z	doc: document what happens when listen is called multiple times	47		
 8295	439929	true	closed	false	4		2016-08-27T04:38:45Z	2016-08-29T22:31:24Z	2016-08-29T22:31:24Z	doc: document that readline write() is processed as input	49		
@@ -1343,5 +1344,5 @@
 8325	176984	true	open	false	2		2016-08-29T18:30:24Z	2016-08-29T21:08:46Z		build: don't require processing docs for nightlies	60		
 8326	4356989	true	open	false	5		2016-08-29T18:53:56Z	2016-08-29T22:13:42Z		doc: fix typo in documentation	45		
 8327	899444	true	open	false	1		2016-08-29T19:54:14Z	2016-08-29T22:07:30Z		doc: drop 50-character limit for commit messages	49		
-8328	1024460	false	open	false	0		2016-08-29T22:02:38Z	2016-08-29T22:02:38Z		How to read from unix socket file descriptor? 	197		
+8328	1024460	false	open	false	1		2016-08-29T22:02:38Z	2016-08-29T23:51:24Z		How to read from unix socket file descriptor? 	197		
 8329	9373002	false	open	false	0		2016-08-29T22:29:02Z	2016-08-29T22:29:02Z		V8 5.4 compilation failure on linuxOne/s390x	271		
