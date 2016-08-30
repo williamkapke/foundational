@@ -258,7 +258,7 @@
 6738	275871	true	closed	false	5		2016-05-13T14:45:12Z	2016-08-09T20:28:25Z	2016-08-09T20:28:25Z	build: turn on -fno-delete-null-pointer-checks (v0.10)	30		
 6739	1093990	true	closed	false	10	0	2016-05-13T16:11:17Z	2016-06-30T12:54:16Z	2016-06-30T12:54:15Z	os: deprecate `tmpDir()` in favour of `tmpdir()`	166	1093990	2016-06-30T12:54:15Z
 6747	439929	true	closed	false	4	0	2016-05-13T21:21:47Z	2016-08-09T20:33:21Z	2016-08-09T20:33:21Z	test: add known-issue tests for various http related issues	44		
-6749	439929	true	open	false	15		2016-05-13T22:29:10Z	2016-08-30T16:56:23Z		fs: move SyncWriteStream to internal/fs	87		
+6749	439929	true	open	false	16		2016-05-13T22:29:10Z	2016-08-30T17:29:14Z		fs: move SyncWriteStream to internal/fs	87		
 6763	988441	false	open	false	12		2016-05-14T20:27:49Z	2016-08-12T12:17:34Z		setTimeout delayed when sleeping on Windows	145		
 6764	718899	true	closed	false	29		2016-05-14T22:32:23Z	2016-07-11T22:38:14Z	2016-05-25T17:59:19Z	child_process: measure buffer length in bytes	75		
 6780	168508	true	closed	false	20		2016-05-16T02:46:18Z	2016-07-11T21:49:04Z	2016-05-27T22:18:47Z	build: Enable building with Ninja	86		
@@ -484,7 +484,7 @@
 7450	287917	true	closed	false	4	8	2016-06-27T23:46:29Z	2016-06-29T23:04:00Z	2016-06-29T23:03:59Z	inspector: Do cleanups before notifying callback	135		
 7451	498775	true	closed	false	16	2	2016-06-28T00:12:14Z	2016-06-29T23:06:16Z	2016-06-29T23:06:16Z	[v4.x backport] test: run v8 tests from node tree	130	498775	2016-06-29T23:06:16Z
 7454	1272762	false	closed	false	40		2016-06-28T04:16:21Z	2016-07-18T09:27:46Z	2016-07-11T13:10:31Z	version 6.2.1 always got Segment Fault error and crash	68		
-7455	96150	true	open	false	28		2016-06-28T05:34:07Z	2016-08-30T14:02:20Z		fs: undeprecate existsSync; use access instead of stat for performance	88		
+7455	96150	true	open	false	29		2016-06-28T05:34:07Z	2016-08-30T17:45:22Z		fs: undeprecate existsSync; use access instead of stat for performance	88		
 7458	8720367	false	open	false	1		2016-06-28T10:58:32Z	2016-07-27T11:41:08Z		Built-in properties cannot be accessed using Reflect, when Proxy is passed as vm context	95		
 7460	498775	true	closed	false	5	0	2016-06-28T18:37:57Z	2016-06-29T21:33:45Z	2016-06-29T21:33:45Z	tools: explicit path for V8 test tap output	147	498775	2016-06-29T21:33:45Z
 7461	715626	false	closed	false	5		2016-06-28T18:43:05Z	2016-07-06T05:18:37Z	2016-07-06T05:09:34Z	path.dirname used in loop	144		
@@ -1190,7 +1190,7 @@
 8163	1095402	false	closed	false	3		2016-08-18T17:34:15Z	2016-08-22T19:20:48Z	2016-08-18T17:39:25Z	Inserting CR in addition to LF in util.inspect() is not right on UNIX OSes	156		
 8164	2512748	true	closed	false	3	0	2016-08-18T17:44:47Z	2016-08-20T20:27:16Z	2016-08-20T20:27:16Z	child_process: reuse existing no-op function	48	2512748	2016-08-20T20:27:16Z
 8165	159100	false	closed	false	9		2016-08-18T19:12:43Z	2016-08-24T18:41:38Z	2016-08-24T18:41:38Z	url.resolve auth behavior if host does *not* change	121		
-8166	439929	true	open	false	22		2016-08-18T19:15:57Z	2016-08-25T15:08:43Z		lib,fs: use process.emitWarning instead of internal print dep warning	103		
+8166	439929	true	open	false	22		2016-08-18T19:15:57Z	2016-08-30T17:12:51Z		lib,fs: use process.emitWarning instead of internal print dep warning	103		
 8167	657552	false	closed	false	4		2016-08-18T19:48:09Z	2016-08-29T22:21:48Z	2016-08-29T22:21:48Z	TypeError: Forked processes must have an IPC channel	61		
 8168	2512748	true	open	false			2016-08-18T20:31:47Z	2016-08-24T01:33:09Z		test: exercise EE function type checking paths	60		
 8169	988441	true	closed	false	19		2016-08-18T20:52:01Z	2016-08-25T19:44:06Z	2016-08-25T18:04:43Z	buffer: hard-deprecate calling Buffer without new	59		
@@ -1247,7 +1247,7 @@
 8220	13269109	false	closed	false	1		2016-08-22T07:44:58Z	2016-08-22T11:08:54Z	2016-08-22T11:08:54Z	V8: Can't compile with nativesim=true for PowerPC 440	216		
 8221	289174	false	open	false	7		2016-08-22T09:26:43Z	2016-08-30T07:41:32Z		32bit address given for 64bit builds using --prof on Windows	101		
 8222	11819320	false	open	false	0		2016-08-22T16:23:54Z	2016-08-22T16:23:54Z		Cant compile from github	38		
-8223	439929	true	open	false	2		2016-08-22T16:31:49Z	2016-08-29T23:35:31Z		promise: warning on unhandled rejection (v6.x)	71		
+8223	439929	true	open	false	3		2016-08-22T16:31:49Z	2016-08-30T17:49:38Z		promise: warning on unhandled rejection (v6.x)	71		
 8224	714117	false	open	false	4		2016-08-22T16:54:02Z	2016-08-22T19:35:43Z		REPL debugging Proxy bug	105		
 8225	439929	true	closed	false	7		2016-08-22T18:18:33Z	2016-08-23T17:54:24Z	2016-08-23T17:54:23Z	"Revert ""crypto: add crypto.timingSafeEqual"""	70		
 8226	961599	false	open	false	2		2016-08-22T18:43:07Z	2016-08-22T21:44:43Z		Some c-ares symbols in Node headers not exported by Node executable	95		
@@ -1287,7 +1287,7 @@
 8260	495647	true	closed	false	8		2016-08-24T20:55:53Z	2016-08-25T21:13:23Z	2016-08-25T17:42:13Z	doc: add Myles Borins to the CTC	22		
 8261	439929	true	open	false			2016-08-24T21:01:41Z	2016-08-27T22:14:19Z		test: refactor/cleanup a number of cluster tests	68		
 8263	4256376	true	closed	false	2	0	2016-08-24T22:07:47Z	2016-08-24T23:56:14Z	2016-08-24T23:56:14Z	"doc: Added missing e to ""timeout"""	46		
-8264	287917	true	open	false	2		2016-08-24T23:46:45Z	2016-08-30T13:31:23Z		inspector: Make sure all messages are dispatched	55		
+8264	287917	true	open	false	3		2016-08-24T23:46:45Z	2016-08-30T17:23:24Z		inspector: Make sure all messages are dispatched	55		
 8265	718899	false	open	false	11		2016-08-25T00:17:00Z	2016-08-29T18:43:27Z		Process for determining supported platforms	124		
 8266	275871	false	open	false	5		2016-08-25T08:33:26Z	2016-08-26T23:26:53Z		buffer: zero-sized slices have .buffer but not .parent	51		
 8267	10029810	false	open	false	0		2016-08-25T12:20:58Z	2016-08-25T12:20:58Z		SyntaxError: Octal literals are not allowed in strict mode.	113		
@@ -1319,7 +1319,7 @@
 8293	439929	true	open	false	6		2016-08-27T04:16:00Z	2016-08-29T22:18:23Z		test: add known issue test for path parse issue #6229	42		
 8294	439929	true	closed	false	4	0	2016-08-27T04:28:24Z	2016-08-29T22:34:17Z	2016-08-29T22:34:17Z	doc: document what happens when listen is called multiple times	47		
 8295	439929	true	closed	false	4		2016-08-27T04:38:45Z	2016-08-29T22:31:24Z	2016-08-29T22:31:24Z	doc: document that readline write() is processed as input	49		
-8296	718899	true	open	false	11		2016-08-27T06:59:40Z	2016-08-28T11:21:32Z		Enable caching for ESLint	263		
+8296	718899	true	closed	false	13		2016-08-27T06:59:40Z	2016-08-30T17:44:06Z	2016-08-30T17:44:06Z	Enable caching for ESLint	263		
 8297	592637	false	open	false	4		2016-08-27T07:54:16Z	2016-08-27T10:08:45Z		How to use fd with net.Socket?	233		
 8298	899444	true	closed	false	4		2016-08-27T08:57:12Z	2016-08-30T15:12:58Z	2016-08-30T15:12:57Z	events: make memory leak warning more programatically accessible	137		
 8299	505333	true	open	false	3		2016-08-27T11:36:23Z	2016-08-27T20:17:40Z		benchmark: ignore significance when using --runs 1	110		
@@ -1333,7 +1333,7 @@
 8307	275871	false	open	false	1		2016-08-28T10:38:46Z	2016-08-28T22:58:14Z		module: node aborts when package.json is a directory	114		
 8308	275871	true	open	false	2		2016-08-28T10:58:22Z	2016-08-28T20:00:13Z		src: unbreak build when compiling against uclibc	43		
 8309	6189009	false	open	false	8		2016-08-28T12:12:35Z	2016-08-29T04:02:24Z		Missing `new` in Set constructor makes variable defined using `let` unusable	100		
-8310	596741	false	open	false	33		2016-08-28T13:30:25Z	2016-08-30T12:20:31Z		Segmentation Fault	260		
+8310	596741	false	open	false	38		2016-08-28T13:30:25Z	2016-08-30T17:32:49Z		Segmentation Fault	260		
 8311	696611	true	open	false	3		2016-08-28T16:04:35Z	2016-08-29T16:43:54Z		buffer: expose underlying buffer object always	86		
 8312	2512748	true	open	false			2016-08-28T18:19:22Z	2016-08-28T23:00:56Z		WIP: child_process: spawn() and spawnSync() validation	190		
 8313	12671072	false	closed	false	1		2016-08-28T23:49:19Z	2016-08-29T00:03:41Z	2016-08-29T00:03:41Z	ES6 getters execute before being called	83		
@@ -1346,21 +1346,24 @@
 8320	11850893	false	closed	false	1		2016-08-29T12:51:42Z	2016-08-29T13:09:40Z	2016-08-29T13:09:40Z	Problem in read JSON with FS	60		
 8321	3726484	false	open	false	7		2016-08-29T13:37:18Z	2016-08-29T16:37:55Z		URL parameters containing russian/chinese language characters are not escaped properly	132		
 8322	5008131	false	closed	false	7		2016-08-29T14:28:24Z	2016-08-30T01:35:25Z	2016-08-30T01:35:25Z	Strangeness in error message when node gives call stack, if error had occured in specially declared function	258		
-8323	1093990	false	open	false	18		2016-08-29T15:40:54Z	2016-08-30T16:39:02Z		v6.5.0 fails to build using clang-3.4.	47		
+8323	1093990	false	open	false	21		2016-08-29T15:40:54Z	2016-08-30T17:52:35Z		v6.5.0 fails to build using clang-3.4.	47		
 8324	718899	true	open	false	1		2016-08-29T18:27:31Z	2016-08-29T22:05:37Z		test: refactor parallel/test-process-env.js	49		
-8325	176984	true	open	false			2016-08-29T18:30:24Z	2016-08-30T03:27:59Z		build: don't require processing docs for nightlies	60		
+8325	176984	true	open	false	5		2016-08-29T18:30:24Z	2016-08-30T17:44:36Z		build: don't require processing docs for nightlies	60		
 8326	4356989	true	open	false	5		2016-08-29T18:53:56Z	2016-08-30T10:34:12Z		doc: fix typo in documentation	45		
 8327	899444	true	open	false	5		2016-08-29T19:54:14Z	2016-08-30T10:04:36Z		doc: drop 50-character limit for commit messages	49		
 8328	1024460	false	open	false	2		2016-08-29T22:02:38Z	2016-08-30T01:05:32Z		How to read from unix socket file descriptor? 	197		
-8329	9373002	false	open	false	1		2016-08-29T22:29:02Z	2016-08-30T14:57:10Z		V8 5.4 compilation failure on linuxOne/s390x	292		
+8329	9373002	false	open	false	2		2016-08-29T22:29:02Z	2016-08-30T17:29:13Z		V8 5.4 compilation failure on linuxOne/s390x	292		
 8330	718899	false	open	false	0		2016-08-30T02:23:27Z	2016-08-30T02:23:27Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-31	501		
 8331	1443911	true	closed	false	4		2016-08-30T05:56:23Z	2016-08-30T10:07:50Z	2016-08-30T06:13:03Z	doc: add lpinca to collaborators	29		
 8332	696611	true	open	false	1		2016-08-30T06:28:38Z	2016-08-30T08:24:59Z		buffer: deprecate parent property	52		
 8333	16787433	true	open	false	0	0	2016-08-30T12:34:10Z	2016-08-30T12:34:10Z		Merge pull request #1 from nodejs/master	48		
-8334	1211498	true	open	false			2016-08-30T12:35:45Z	2016-08-30T16:43:07Z		crypto: use system CAs instead of bundled ones	73		
+8334	1211498	true	open	false	8		2016-08-30T12:35:45Z	2016-08-30T17:01:37Z		crypto: use system CAs instead of bundled ones	73		
 8335	16787433	true	open	false	0	0	2016-08-30T12:37:32Z	2016-08-30T12:37:32Z		Merge pull request #1 from nodejs/master	48		
 8336	16787433	true	open	false	0	0	2016-08-30T12:39:44Z	2016-08-30T12:39:44Z		Merge pull request #1 from nodejs/master	48		
 8337	16787433	true	open	false	0	0	2016-08-30T12:51:40Z	2016-08-30T12:51:40Z		merge from remote	47		
 8338	899444	true	open	false			2016-08-30T12:59:48Z	2016-08-30T15:15:07Z		benchmark: add benches for fs.stat & fs.statSync	59		
 8339	9373002	false	closed	false	4		2016-08-30T14:24:08Z	2016-08-30T15:52:18Z	2016-08-30T15:52:18Z	V8 tests - faling on PPC, 390 on master 	72		
 8340	234659	true	open	false	0	0	2016-08-30T14:31:45Z	2016-08-30T14:31:45Z		Backport 2253	46		
+8341	899444	true	open	false	0	0	2016-08-30T17:20:34Z	2016-08-30T17:20:34Z		events: make memory leak warning name more verbose	68		
+8342	3824055	false	open	false	0		2016-08-30T17:35:35Z	2016-08-30T17:35:35Z		Should Node.js standard library throw custom Error subclasses?	221		
+8343	79017	true	open	false	0	0	2016-08-30T17:51:58Z	2016-08-30T17:51:58Z		deps: workaround clang-3.4 ICE	43		
