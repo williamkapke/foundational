@@ -1192,7 +1192,7 @@
 8163	1095402	false	closed	false	3		2016-08-18T17:34:15Z	2016-08-22T19:20:48Z	2016-08-18T17:39:25Z	Inserting CR in addition to LF in util.inspect() is not right on UNIX OSes	156		
 8164	2512748	true	closed	false	3	0	2016-08-18T17:44:47Z	2016-08-20T20:27:16Z	2016-08-20T20:27:16Z	child_process: reuse existing no-op function	48	2512748	2016-08-20T20:27:16Z
 8165	159100	false	closed	false	9		2016-08-18T19:12:43Z	2016-08-24T18:41:38Z	2016-08-24T18:41:38Z	url.resolve auth behavior if host does *not* change	121		
-8166	439929	true	open	false	27		2016-08-18T19:15:57Z	2016-08-30T19:58:18Z		lib,fs: use process.emitWarning instead of internal print dep warning	103		
+8166	439929	true	open	false			2016-08-18T19:15:57Z	2016-08-30T20:07:11Z		lib,fs: use process.emitWarning instead of internal print dep warning	103		
 8167	657552	false	closed	false	4		2016-08-18T19:48:09Z	2016-08-29T22:21:48Z	2016-08-29T22:21:48Z	TypeError: Forked processes must have an IPC channel	61		
 8168	2512748	true	open	false			2016-08-18T20:31:47Z	2016-08-24T01:33:09Z		test: exercise EE function type checking paths	60		
 8169	988441	true	closed	false	19		2016-08-18T20:52:01Z	2016-08-25T19:44:06Z	2016-08-25T18:04:43Z	buffer: hard-deprecate calling Buffer without new	59		
@@ -1230,7 +1230,7 @@
 8201	1187447	false	open	false	0		2016-08-21T02:15:38Z	2016-08-21T11:36:47Z		--inspect flag and cluster module -  Debug port numbers not incrementing	139		
 8202	718899	true	closed	false	2		2016-08-21T03:06:46Z	2016-08-23T14:09:43Z	2016-08-23T14:09:43Z	test: split test-crypto-timing-safe-equal	79		
 8203	718899	true	closed	false	50		2016-08-21T04:17:23Z	2016-08-27T19:33:14Z	2016-08-22T22:25:34Z	WIP: test: force garbage collection on crypto timing test	52		
-8204	1935767	true	open	false	16		2016-08-21T05:23:25Z	2016-08-29T13:36:29Z		node_main: use ERROR_EXE_MACHINE_TYPE_MISMATCH instead 1 as exit code	65		
+8204	1935767	true	closed	false	18		2016-08-21T05:23:25Z	2016-08-30T20:24:30Z	2016-08-30T20:24:30Z	node_main: use ERROR_EXE_MACHINE_TYPE_MISMATCH instead 1 as exit code	65		
 8205	880513	false	closed	false	2		2016-08-21T08:07:31Z	2016-08-21T10:39:06Z	2016-08-21T08:12:47Z	dgram: lose UDP messages when sending a large number of messages at the same time	113		
 8206	1443911	true	open	false	4		2016-08-21T09:12:33Z	2016-08-23T18:13:23Z		doc: add `added:` information for util	27		
 8207	275871	true	closed	false	4	1	2016-08-21T11:26:52Z	2016-08-23T19:16:37Z	2016-08-23T19:16:37Z	src: clean up PER_ISOLATE_STRING_PROPERTIES	2		
@@ -1283,13 +1283,13 @@
 8254	15943089	true	open	false	7		2016-08-24T14:08:16Z	2016-08-27T14:48:20Z		test: fix localhost error in test-dns-ipv6	60		
 8255	172594	false	closed	false	8		2016-08-24T16:28:50Z	2016-08-27T09:40:32Z	2016-08-27T03:53:32Z	fs.stat() returns 'Stats' - should be 'Status'.	49		
 8256	439929	true	open	false			2016-08-24T17:27:24Z	2016-08-26T14:13:24Z		test: refactor buffer tests	54		
-8257	287917	true	open	false	8		2016-08-24T18:10:23Z	2016-08-30T13:47:43Z		inspector: Simplify buffer management	114		
+8257	287917	true	open	false	9		2016-08-24T18:10:23Z	2016-08-30T21:02:15Z		inspector: Simplify buffer management	114		
 8258	446478	false	open	false	5		2016-08-24T19:58:19Z	2016-08-27T09:54:03Z		Assertion failed ../deps/uv/src/unix/stream.c, line 1563	912		
 8259	837347	false	open	false	11		2016-08-24T20:38:12Z	2016-08-30T01:28:21Z		Slow start of Node application (ARM)	384		
 8260	495647	true	closed	false	8		2016-08-24T20:55:53Z	2016-08-25T21:13:23Z	2016-08-25T17:42:13Z	doc: add Myles Borins to the CTC	22		
 8261	439929	true	open	false	3		2016-08-24T21:01:41Z	2016-08-30T18:39:26Z		test: refactor/cleanup a number of cluster tests	68		
 8263	4256376	true	closed	false	2	0	2016-08-24T22:07:47Z	2016-08-24T23:56:14Z	2016-08-24T23:56:14Z	"doc: Added missing e to ""timeout"""	46		
-8264	287917	true	open	false	3		2016-08-24T23:46:45Z	2016-08-30T17:23:24Z		inspector: Make sure all messages are dispatched	55		
+8264	287917	true	open	false	3		2016-08-24T23:46:45Z	2016-08-30T21:01:29Z		inspector: Make sure all messages are dispatched	55		
 8265	718899	false	open	false	11		2016-08-25T00:17:00Z	2016-08-29T18:43:27Z		Process for determining supported platforms	124		
 8266	275871	false	open	false	5		2016-08-25T08:33:26Z	2016-08-26T23:26:53Z		buffer: zero-sized slices have .buffer but not .parent	51		
 8267	10029810	false	open	false	0		2016-08-25T12:20:58Z	2016-08-25T12:20:58Z		SyntaxError: Octal literals are not allowed in strict mode.	113		
@@ -1298,7 +1298,7 @@
 8270	439929	true	closed	false	0	0	2016-08-25T17:19:06Z	2016-08-27T03:06:40Z	2016-08-27T03:06:40Z	src: make it simple to emit process warnings from src	63		
 8271	9373002	false	open	false	3		2016-08-25T19:44:47Z	2016-08-25T23:18:22Z		test-child-process-fork-dgram Intermittent timeout on AIX	51		
 8272	9373002	true	closed	false	11		2016-08-25T21:02:40Z	2016-08-26T13:55:27Z	2016-08-25T22:44:47Z	build: fix depenencies on AIX	55		
-8273	79017	true	open	false	7		2016-08-25T21:32:38Z	2016-08-26T07:03:33Z		src: avoid duplicate AtExit functions	88		
+8273	79017	true	open	false	8		2016-08-25T21:32:38Z	2016-08-30T20:55:07Z		src: avoid duplicate AtExit functions	88		
 8274	9373002	true	open	false	7		2016-08-25T23:16:48Z	2016-08-26T12:56:47Z		test: mark test-child-process-fork-dgram as flaky	38		
 8275	1197615	true	open	false	8		2016-08-26T07:11:33Z	2016-08-29T13:54:25Z		_debugger: add select stack frame command	22		
 8276	926815	false	open	false	5		2016-08-26T07:12:52Z	2016-08-30T07:34:14Z		Provide access to file system times with nanoseconds resolution	162		
@@ -1326,14 +1326,14 @@
 8298	899444	true	closed	false	4		2016-08-27T08:57:12Z	2016-08-30T15:12:58Z	2016-08-30T15:12:57Z	events: make memory leak warning more programatically accessible	137		
 8299	505333	true	open	false	3		2016-08-27T11:36:23Z	2016-08-27T20:17:40Z		benchmark: ignore significance when using --runs 1	110		
 8300	899444	true	open	false	5		2016-08-27T14:44:58Z	2016-08-30T14:15:05Z		net: make holding the buffer in memory more robust (v4.x backport)	101		
-8301	3524687	true	open	false	4		2016-08-27T16:46:50Z	2016-08-29T17:20:45Z		crypto: fix ucs2/ucs-2/utf16le/utf-16le encoding check	60		
+8301	3524687	true	open	false			2016-08-27T16:46:50Z	2016-08-30T20:50:48Z		crypto: fix ucs2/ucs-2/utf16le/utf-16le encoding check	60		
 8302	899444	true	open	false	3		2016-08-27T17:49:55Z	2016-08-29T16:47:17Z		buffer: directly use ArrayBuffer as the pool	271		
 8303	3001791	false	open	false	0		2016-08-27T19:25:31Z	2016-08-27T19:25:31Z		Warning about missing field initializer within the 4.5.0 building	42		
 8304	11638619	true	open	false	20		2016-08-27T19:32:51Z	2016-08-30T03:15:29Z		crypto: re-add crypto.timingSafeEqual	84		
-8305	602462	true	open	false	7		2016-08-27T22:37:24Z	2016-08-29T16:48:41Z		test: cleanup test require symlink	54		
-8306	718899	true	open	false			2016-08-28T03:45:38Z	2016-08-28T21:28:24Z		test: add test for zlib.create*Raw()	63		
+8305	602462	true	closed	false	8		2016-08-27T22:37:24Z	2016-08-30T20:45:48Z	2016-08-30T20:45:48Z	test: cleanup test require symlink	54		
+8306	718899	true	open	false	3		2016-08-28T03:45:38Z	2016-08-30T20:39:58Z		test: add test for zlib.create*Raw()	63		
 8307	275871	false	open	false	1		2016-08-28T10:38:46Z	2016-08-28T22:58:14Z		module: node aborts when package.json is a directory	114		
-8308	275871	true	open	false	2		2016-08-28T10:58:22Z	2016-08-28T20:00:13Z		src: unbreak build when compiling against uclibc	43		
+8308	275871	true	open	false	3		2016-08-28T10:58:22Z	2016-08-30T20:39:18Z		src: unbreak build when compiling against uclibc	43		
 8309	6189009	false	open	false	8		2016-08-28T12:12:35Z	2016-08-29T04:02:24Z		Missing `new` in Set constructor makes variable defined using `let` unusable	100		
 8310	596741	false	open	false	38		2016-08-28T13:30:25Z	2016-08-30T17:32:49Z		Segmentation Fault	260		
 8311	696611	true	open	false	3		2016-08-28T16:04:35Z	2016-08-29T16:43:54Z		buffer: expose underlying buffer object always	86		
@@ -1367,6 +1367,6 @@
 8339	9373002	false	closed	false	4		2016-08-30T14:24:08Z	2016-08-30T15:52:18Z	2016-08-30T15:52:18Z	V8 tests - faling on PPC, 390 on master 	72		
 8340	234659	true	open	false	0	0	2016-08-30T14:31:45Z	2016-08-30T14:31:45Z		Backport 2253	46		
 8341	899444	true	open	false	1		2016-08-30T17:20:34Z	2016-08-30T18:13:52Z		events: make memory leak warning name more verbose	70		
-8342	3824055	false	open	false	3		2016-08-30T17:35:35Z	2016-08-30T18:12:33Z		Should Node.js standard library throw custom Error subclasses?	221		
-8343	79017	true	open	false	0		2016-08-30T17:51:58Z	2016-08-30T18:28:28Z		deps: workaround clang-3.4 ICE	49		
+8342	3824055	false	open	false	3		2016-08-30T17:35:35Z	2016-08-30T20:29:01Z		Should Node.js standard library throw custom Error subclasses?	222		
+8343	79017	true	open	false	2		2016-08-30T17:51:58Z	2016-08-30T20:56:45Z		deps: workaround clang-3.4 ICE	49		
 8344	718899	true	open	false	0	0	2016-08-30T18:25:02Z	2016-08-30T18:25:02Z		doc: update landing pr info in onboarding doc	43		
