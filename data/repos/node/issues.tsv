@@ -62,7 +62,7 @@
 2982	170023	true	open	false	7		2015-09-21T14:10:33Z	2016-07-01T16:26:45Z		readline: add option to stop duplicates in history	161		
 3006	914122	false	closed	false	33		2015-09-22T15:57:31Z	2016-08-04T12:01:53Z	2016-03-22T06:28:03Z	Node.js doesn't run as tty on windows / cygwin	33		
 3009	112555	false	closed	false	10		2015-09-22T19:15:53Z	2016-07-12T15:55:34Z	2016-04-09T05:21:32Z	Sending a body with a GET request using http.request cannot be received using http.server	235		
-3063	98899	true	closed	false	82		2015-09-25T17:01:14Z	2016-08-30T14:08:21Z	2016-07-15T17:38:59Z	timers: fix processing of nested same delay timers	21		
+3063	98899	true	closed	false	84		2015-09-25T17:01:14Z	2016-08-31T14:32:01Z	2016-07-15T17:38:59Z	timers: fix processing of nested same delay timers	21		
 3072	247721	false	open	false	93		2015-09-26T02:29:39Z	2016-08-18T16:28:55Z		Cluster crash in main process, callback undefined when handling internal messages	152		
 3073	220205	true	closed	false	48		2015-09-26T09:13:35Z	2016-08-22T18:20:41Z	2016-08-22T18:20:41Z	Add crypto.timingSafeEqual().	2		
 3098	639601	true	closed	false	15		2015-09-28T03:35:50Z	2016-06-30T12:31:35Z	2016-05-19T11:01:44Z	src: fix linking when built as shared library	192		
@@ -1280,16 +1280,16 @@
 8251	11582552	false	closed	false	3		2016-08-24T11:42:09Z	2016-08-27T14:18:09Z	2016-08-27T14:18:09Z	EFAULT error in process.stdout.write(data, 'hex')	299		
 8252	899444	true	closed	false	6		2016-08-24T13:22:41Z	2016-08-27T14:17:38Z	2016-08-27T14:17:38Z	net: make holding the buffer in memory more robust	102		
 8253	677994	true	closed	false			2016-08-24T14:05:02Z	2016-08-30T18:32:06Z	2016-08-26T16:19:42Z	2016-08-26, Version 6.5.0 (Current)	1163		2016-08-26T16:19:42Z
-8254	15943089	true	open	false	8		2016-08-24T14:08:16Z	2016-08-31T11:51:02Z		test: fix localhost error in test-dns-ipv6	60		
+8254	15943089	true	open	false	8		2016-08-24T14:08:16Z	2016-08-31T14:17:27Z		test: fix localhost error in test-dns-ipv6	60		
 8255	172594	false	closed	false	8		2016-08-24T16:28:50Z	2016-08-27T09:40:32Z	2016-08-27T03:53:32Z	fs.stat() returns 'Stats' - should be 'Status'.	49		
 8256	439929	true	open	false			2016-08-24T17:27:24Z	2016-08-26T14:13:24Z		test: refactor buffer tests	54		
-8257	287917	true	open	false	9		2016-08-24T18:10:23Z	2016-08-30T21:02:15Z		inspector: Simplify buffer management	114		
+8257	287917	true	open	false	10		2016-08-24T18:10:23Z	2016-08-31T14:22:51Z		inspector: Simplify buffer management	114		
 8258	446478	false	open	false	5		2016-08-24T19:58:19Z	2016-08-27T09:54:03Z		Assertion failed ../deps/uv/src/unix/stream.c, line 1563	912		
 8259	837347	false	open	false	11		2016-08-24T20:38:12Z	2016-08-30T01:28:21Z		Slow start of Node application (ARM)	384		
 8260	495647	true	closed	false	8		2016-08-24T20:55:53Z	2016-08-25T21:13:23Z	2016-08-25T17:42:13Z	doc: add Myles Borins to the CTC	22		
 8261	439929	true	open	false			2016-08-24T21:01:41Z	2016-08-30T23:27:48Z		test: refactor/cleanup a number of cluster tests	68		
 8263	4256376	true	closed	false	2	0	2016-08-24T22:07:47Z	2016-08-24T23:56:14Z	2016-08-24T23:56:14Z	"doc: Added missing e to ""timeout"""	46		
-8264	287917	true	open	false	3		2016-08-24T23:46:45Z	2016-08-30T21:01:29Z		inspector: Make sure all messages are dispatched	55		
+8264	287917	true	open	false	4		2016-08-24T23:46:45Z	2016-08-31T14:24:17Z		inspector: Make sure all messages are dispatched	55		
 8265	718899	false	open	false	13		2016-08-25T00:17:00Z	2016-08-31T11:40:53Z		Process for determining supported platforms	124		
 8266	275871	false	open	false	5		2016-08-25T08:33:26Z	2016-08-26T23:26:53Z		buffer: zero-sized slices have .buffer but not .parent	51		
 8267	10029810	false	open	false	0		2016-08-25T12:20:58Z	2016-08-25T12:20:58Z		SyntaxError: Octal literals are not allowed in strict mode.	113		
@@ -1348,18 +1348,18 @@
 8320	11850893	false	closed	false	1		2016-08-29T12:51:42Z	2016-08-29T13:09:40Z	2016-08-29T13:09:40Z	Problem in read JSON with FS	60		
 8321	3726484	false	open	false	7		2016-08-29T13:37:18Z	2016-08-29T16:37:55Z		URL parameters containing russian/chinese language characters are not escaped properly	132		
 8322	5008131	false	closed	false	7		2016-08-29T14:28:24Z	2016-08-30T01:35:25Z	2016-08-30T01:35:25Z	Strangeness in error message when node gives call stack, if error had occured in specially declared function	258		
-8323	1093990	false	open	false	25		2016-08-29T15:40:54Z	2016-08-31T10:49:56Z		v6.5.0 fails to build using clang-3.4.	47		
+8323	1093990	false	open	false	27		2016-08-29T15:40:54Z	2016-08-31T14:09:30Z		v6.5.0 fails to build using clang-3.4.	47		
 8324	718899	true	open	false	6		2016-08-29T18:27:31Z	2016-08-31T05:52:12Z		test: refactor parallel/test-process-env.js	49		
 8325	176984	true	open	false	6		2016-08-29T18:30:24Z	2016-08-31T13:30:00Z		build: don't require processing docs for nightlies	60		
 8326	4356989	true	open	false	5		2016-08-29T18:53:56Z	2016-08-30T10:34:12Z		doc: fix typo in documentation	45		
 8327	899444	true	open	false	5		2016-08-29T19:54:14Z	2016-08-30T10:04:36Z		doc: drop 50-character limit for commit messages	49		
 8328	1024460	false	open	false	4		2016-08-29T22:02:38Z	2016-08-31T06:16:46Z		How to read from unix socket file descriptor? 	197		
 8329	9373002	false	open	false	4		2016-08-29T22:29:02Z	2016-08-30T21:49:40Z		V8 5.4 compilation failure on linuxOne/s390x	292		
-8330	718899	false	open	false	4		2016-08-30T02:23:27Z	2016-08-31T13:01:20Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-31	501		
+8330	718899	false	open	false	5		2016-08-30T02:23:27Z	2016-08-31T14:14:56Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-31	501		
 8331	1443911	true	closed	false	4		2016-08-30T05:56:23Z	2016-08-30T10:07:50Z	2016-08-30T06:13:03Z	doc: add lpinca to collaborators	29		
 8332	696611	true	open	false	1		2016-08-30T06:28:38Z	2016-08-30T08:24:59Z		buffer: deprecate parent property	52		
 8333	16787433	true	open	false	0	0	2016-08-30T12:34:10Z	2016-08-30T12:34:10Z		Merge pull request #1 from nodejs/master	48		
-8334	1211498	true	open	false	13		2016-08-30T12:35:45Z	2016-08-31T09:45:10Z		crypto: use system CAs instead of bundled ones	73		
+8334	1211498	true	open	false	14		2016-08-30T12:35:45Z	2016-08-31T14:36:47Z		crypto: use system CAs instead of bundled ones	73		
 8335	16787433	true	open	false	0	0	2016-08-30T12:37:32Z	2016-08-30T12:37:32Z		Merge pull request #1 from nodejs/master	48		
 8336	16787433	true	open	false	0	0	2016-08-30T12:39:44Z	2016-08-30T12:39:44Z		Merge pull request #1 from nodejs/master	48		
 8337	16787433	true	open	false	0	0	2016-08-30T12:51:40Z	2016-08-30T12:51:40Z		merge from remote	47		
@@ -1369,17 +1369,17 @@
 8341	899444	true	open	false	1		2016-08-30T17:20:34Z	2016-08-30T22:37:07Z		events: make memory leak warning name more verbose	70		
 8342	3824055	false	open	false	5		2016-08-30T17:35:35Z	2016-08-30T22:41:10Z		Should Node.js standard library throw custom Error subclasses?	222		
 8343	79017	true	open	false	2		2016-08-30T17:51:58Z	2016-08-30T20:56:45Z		deps: workaround clang-3.4 ICE	49		
-8344	718899	true	open	false	1		2016-08-30T18:25:02Z	2016-08-31T02:06:41Z		doc: update landing pr info in onboarding doc	43		
+8344	718899	true	open	false			2016-08-30T18:25:02Z	2016-08-31T14:38:53Z		doc: update landing pr info in onboarding doc	43		
 8345	439929	true	open	false	3		2016-08-30T21:42:20Z	2016-08-30T22:02:58Z		lib: runtime deprecation of the constants module	50		
 8346	439929	true	open	false			2016-08-30T22:37:40Z	2016-08-31T00:10:15Z		doc: update authors list again	76		
 8347	14335429	false	open	false	0		2016-08-30T23:40:29Z	2016-08-30T23:40:29Z		Breakpoint event is not reported in Node.js 6.	330		
 8348	718899	true	open	false	0	0	2016-08-31T00:37:49Z	2016-08-31T00:37:49Z		Backport of https://github.com/nodejs/node/pull/7630 for v4.x	47		
 8349	718899	true	open	false	1		2016-08-31T00:55:16Z	2016-08-31T01:31:28Z		V4.x backport for https://github.com/nodejs/node/pull/7647	4		
-8350	718899	true	open	false	1		2016-08-31T02:40:47Z	2016-08-31T09:34:56Z		test: test non-buffer/string with zlib	61		
+8350	718899	true	open	false	1		2016-08-31T02:40:47Z	2016-08-31T14:37:19Z		test: test non-buffer/string with zlib	61		
 8351	1412792	false	open	false	1		2016-08-31T06:03:52Z	2016-08-31T09:31:04Z		fs.accessSync raise an error on existing file with node error	171		
-8352	718899	true	open	false	6		2016-08-31T06:23:23Z	2016-08-31T09:45:29Z		crypto: make malloc failure check cross-platform	71		
+8352	718899	true	open	false	7		2016-08-31T06:23:23Z	2016-08-31T14:34:03Z		crypto: make malloc failure check cross-platform	71		
 8353	1103788	false	open	false	0		2016-08-31T08:58:06Z	2016-08-31T08:58:06Z		Data are lost when socket get passed to another process	592		
-8354	1147375	false	open	false	5		2016-08-31T09:11:44Z	2016-08-31T12:55:28Z		setTimeout bug. There is example	79		
+8354	1147375	false	open	false	6		2016-08-31T09:11:44Z	2016-08-31T14:31:33Z		setTimeout bug. There is example	79		
 8355	7781091	false	open	false	3		2016-08-31T09:55:42Z	2016-08-31T12:52:55Z		Remove the requirement of function `_read` when creating a readable stream	76		
-8356	21603	true	open	false	0	0	2016-08-31T13:02:35Z	2016-08-31T13:02:35Z		Document return type of clientRequest.setTimeout	36		
-8357	14923241	false	open	false	0		2016-08-31T13:38:24Z	2016-08-31T13:38:24Z		Cannot install 4.5.1 on windows 10	7		
+8356	21603	true	open	false	1		2016-08-31T13:02:35Z	2016-08-31T14:14:48Z		Document return type of clientRequest.setTimeout	36		
+8357	14923241	false	open	false	4		2016-08-31T13:38:24Z	2016-08-31T14:33:23Z		Cannot install 4.5.1 on windows 10	7		
