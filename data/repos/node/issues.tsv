@@ -238,7 +238,7 @@
 6582	275871	true	closed	false	14		2016-05-04T22:29:50Z	2016-07-11T21:10:49Z	2016-05-05T11:05:20Z	crypto: disable ssl compression at build time	3		
 6599	79017	true	closed	false	12		2016-05-05T16:22:48Z	2016-07-11T20:16:56Z	2016-05-07T03:30:19Z	src,lib: minor --debug-brk cleanup	116		
 6600	15943089	true	open	false	4		2016-05-05T16:23:19Z	2016-08-22T21:50:48Z		win, build: add node.lib file into headers package	273		
-6601	1231635	true	open	false	49		2016-05-05T18:13:42Z	2016-08-25T20:10:06Z		doc: add Google Analytics tracking.	105		
+6601	1231635	true	open	false	50		2016-05-05T18:13:42Z	2016-08-31T18:39:09Z		doc: add Google Analytics tracking.	105		
 6604	40265	false	closed	false	12		2016-05-05T21:07:47Z	2016-07-20T09:16:03Z	2016-07-20T09:16:03Z	Encountering segfault	214		
 6610	5108906	false	closed	false	4		2016-05-06T02:18:49Z	2016-08-14T09:08:27Z	2016-08-14T09:08:27Z	Super-slow arrays in 6.x	472		
 6611	718899	false	closed	false	7		2016-05-06T03:24:47Z	2016-07-04T13:33:48Z	2016-07-04T13:33:48Z	Investigate flaky test-net-GH-5504	3		
@@ -961,7 +961,7 @@
 7932	718899	true	closed	false	7		2016-08-01T03:46:38Z	2016-08-11T17:19:09Z	2016-08-11T17:19:09Z	test: mark test-util-sigint-watchdog FreeBSD flaky	41		
 7933	899444	true	closed	false	12		2016-08-01T11:11:18Z	2016-08-11T16:35:36Z	2016-08-11T16:35:36Z	test,vm: fix flaky test-util-sigint-watchdog	65		
 7934	20771374	false	open	false	0		2016-08-01T11:30:46Z	2016-08-01T11:30:46Z		unable to install npm package	162		
-7935	2512748	false	open	false	14		2016-08-01T14:34:49Z	2016-08-31T17:11:46Z		Move ecosystem detection tool to nodejs org	67		
+7935	2512748	false	open	false	16		2016-08-01T14:34:49Z	2016-08-31T18:03:13Z		Move ecosystem detection tool to nodejs org	67		
 7936	439929	false	closed	false	3		2016-08-01T14:48:25Z	2016-08-05T12:13:38Z	2016-08-01T15:01:24Z	meta: can the github bot tag PRs from new contributors?	76		
 7937	708850	false	closed	false	5		2016-08-01T16:13:36Z	2016-08-01T17:01:25Z	2016-08-01T16:20:31Z	Can we document --max_old_space_size or is it deprecated?	99		
 7938	189580	false	open	false	0		2016-08-01T17:19:58Z	2016-08-01T17:19:58Z		Feature request: fs.ReadStream#bytesRead	50		
@@ -1030,7 +1030,7 @@
 8001	121766	false	closed	false	1		2016-08-06T23:18:50Z	2016-08-09T18:44:47Z	2016-08-09T18:44:47Z	assert: deepEqual/deepStrictEqual throws on equivalent typed arrays	272		
 8002	121766	true	closed	false	13		2016-08-06T23:38:49Z	2016-08-09T18:45:13Z	2016-08-09T18:45:13Z	assert: Fix deepEqual/deepStrictEqual on equivalent typed arrays	58		
 8003	718899	true	open	false	8		2016-08-07T04:54:19Z	2016-08-10T06:41:28Z		test: console constructor missing new keyword	61		
-8004	17554836	false	closed	false	4		2016-08-07T05:32:54Z	2016-08-31T13:38:06Z	2016-08-12T14:53:54Z	webpack/http-proxy-middleware/http-proxy/agent/keep-alive/_stream_writable:361:3 exception: cb is not a function	230		
+8004	17554836	false	closed	false	5		2016-08-07T05:32:54Z	2016-08-31T18:15:41Z	2016-08-12T14:53:54Z	webpack/http-proxy-middleware/http-proxy/agent/keep-alive/_stream_writable:361:3 exception: cb is not a function	230		
 8005	1443911	true	closed	false	7		2016-08-07T10:06:44Z	2016-08-09T18:39:18Z	2016-08-09T18:39:18Z	doc: fix typo in vm.runInNewContext() description	31		
 8006	79017	false	closed	false	9		2016-08-07T16:20:13Z	2016-08-10T00:29:42Z	2016-08-10T00:29:42Z	InspectorTest regression on mac	27		
 8007	498775	false	open	false	0		2016-08-07T17:41:11Z	2016-08-07T17:41:11Z		Should we include a downloadable archive of the documentation?	58		
@@ -1348,14 +1348,14 @@
 8320	11850893	false	closed	false	1		2016-08-29T12:51:42Z	2016-08-29T13:09:40Z	2016-08-29T13:09:40Z	Problem in read JSON with FS	60		
 8321	3726484	false	open	false	7		2016-08-29T13:37:18Z	2016-08-29T16:37:55Z		URL parameters containing russian/chinese language characters are not escaped properly	132		
 8322	5008131	false	closed	false	7		2016-08-29T14:28:24Z	2016-08-30T01:35:25Z	2016-08-30T01:35:25Z	Strangeness in error message when node gives call stack, if error had occured in specially declared function	258		
-8323	1093990	false	open	false	27		2016-08-29T15:40:54Z	2016-08-31T14:09:30Z		v6.5.0 fails to build using clang-3.4.	47		
+8323	1093990	false	open	false	29		2016-08-29T15:40:54Z	2016-08-31T18:24:05Z		v6.5.0 fails to build using clang-3.4.	47		
 8324	718899	true	open	false	6		2016-08-29T18:27:31Z	2016-08-31T05:52:12Z		test: refactor parallel/test-process-env.js	49		
 8325	176984	true	open	false	6		2016-08-29T18:30:24Z	2016-08-31T13:30:00Z		build: don't require processing docs for nightlies	60		
 8326	4356989	true	open	false	5		2016-08-29T18:53:56Z	2016-08-30T10:34:12Z		doc: fix typo in documentation	45		
 8327	899444	true	open	false	5		2016-08-29T19:54:14Z	2016-08-30T10:04:36Z		doc: drop 50-character limit for commit messages	49		
 8328	1024460	false	open	false	4		2016-08-29T22:02:38Z	2016-08-31T06:16:46Z		How to read from unix socket file descriptor? 	197		
 8329	9373002	false	open	false	4		2016-08-29T22:29:02Z	2016-08-30T21:49:40Z		V8 5.4 compilation failure on linuxOne/s390x	292		
-8330	718899	false	open	false	11		2016-08-30T02:23:27Z	2016-08-31T17:08:24Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-31	501		
+8330	718899	false	open	false	12		2016-08-30T02:23:27Z	2016-08-31T18:02:41Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-31	501		
 8331	1443911	true	closed	false	4		2016-08-30T05:56:23Z	2016-08-30T10:07:50Z	2016-08-30T06:13:03Z	doc: add lpinca to collaborators	29		
 8332	696611	true	open	false	1		2016-08-30T06:28:38Z	2016-08-30T08:24:59Z		buffer: deprecate parent property	52		
 8333	16787433	true	open	false	0	0	2016-08-30T12:34:10Z	2016-08-30T12:34:10Z		Merge pull request #1 from nodejs/master	48		
@@ -1371,19 +1371,20 @@
 8343	79017	true	open	false	2		2016-08-30T17:51:58Z	2016-08-30T20:56:45Z		deps: workaround clang-3.4 ICE	49		
 8344	718899	true	open	false			2016-08-30T18:25:02Z	2016-08-31T16:38:32Z		doc: update landing pr info in onboarding doc	43		
 8345	439929	true	open	false	3		2016-08-30T21:42:20Z	2016-08-30T22:02:58Z		lib: runtime deprecation of the constants module	50		
-8346	439929	true	open	false			2016-08-30T22:37:40Z	2016-08-31T17:23:51Z		doc: update authors list again	76		
+8346	439929	true	open	false			2016-08-30T22:37:40Z	2016-08-31T18:12:16Z		doc: update authors list again	76		
 8347	14335429	false	open	false	0		2016-08-30T23:40:29Z	2016-08-30T23:40:29Z		Breakpoint event is not reported in Node.js 6.	330		
 8348	718899	true	open	false	1		2016-08-31T00:37:49Z	2016-08-31T16:47:36Z		Backport of https://github.com/nodejs/node/pull/7630 for v4.x	5		
 8349	718899	true	open	false	2		2016-08-31T00:55:16Z	2016-08-31T16:43:10Z		V4.x backport for https://github.com/nodejs/node/pull/7647	4		
 8350	718899	true	open	false	3		2016-08-31T02:40:47Z	2016-08-31T17:02:34Z		test: test non-buffer/string with zlib	61		
 8351	1412792	false	open	false	1		2016-08-31T06:03:52Z	2016-08-31T09:31:04Z		fs.accessSync raise an error on existing file with node error	171		
-8352	718899	true	open	false	7		2016-08-31T06:23:23Z	2016-08-31T14:34:03Z		crypto: make malloc failure check cross-platform	71		
+8352	718899	true	open	false	8		2016-08-31T06:23:23Z	2016-08-31T18:17:58Z		crypto: make malloc failure check cross-platform	71		
 8353	1103788	false	open	false	0		2016-08-31T08:58:06Z	2016-08-31T08:58:06Z		Data are lost when socket get passed to another process	592		
 8354	1147375	false	open	false	6		2016-08-31T09:11:44Z	2016-08-31T14:31:33Z		setTimeout bug. There is example	79		
 8355	7781091	false	open	false	3		2016-08-31T09:55:42Z	2016-08-31T12:52:55Z		Remove the requirement of function `_read` when creating a readable stream	76		
-8356	21603	true	open	false	2		2016-08-31T13:02:35Z	2016-08-31T16:24:52Z		Document return type of clientRequest.setTimeout	36		
+8356	21603	true	open	false	4		2016-08-31T13:02:35Z	2016-08-31T18:16:19Z		doc: add return type of clientRequest.setTimeout	36		
 8357	14923241	false	open	false	9		2016-08-31T13:38:24Z	2016-08-31T17:03:37Z		Cannot install 4.5.1 on windows 10	7		
-8358	7735740	false	open	false	4		2016-08-31T15:19:33Z	2016-08-31T18:00:47Z		object properties change when inspected under specific conditions	94		
+8358	7735740	false	open	false	6		2016-08-31T15:19:33Z	2016-08-31T18:13:34Z		object properties change when inspected under specific conditions	94		
 8359	432351	true	open	false	0	0	2016-08-31T16:33:02Z	2016-08-31T16:33:02Z		doc: adding danbev to collaborators	41		
 8360	3065230	false	open	false	0		2016-08-31T17:16:26Z	2016-08-31T17:16:26Z		fs.read never calls callback	62		
 8361	1652906	false	open	false	0		2016-08-31T17:34:29Z	2016-08-31T17:34:29Z		require('fs').stat mangling argument	381		
+8362	18403178	false	open	false	0		2016-08-31T18:14:33Z	2016-08-31T18:14:33Z		Node start uncontrolled paralel process	118		
