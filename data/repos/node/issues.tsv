@@ -62,7 +62,7 @@
 2982	170023	true	open	false	7		2015-09-21T14:10:33Z	2016-07-01T16:26:45Z		readline: add option to stop duplicates in history	161		
 3006	914122	false	closed	false	33		2015-09-22T15:57:31Z	2016-08-04T12:01:53Z	2016-03-22T06:28:03Z	Node.js doesn't run as tty on windows / cygwin	33		
 3009	112555	false	closed	false	10		2015-09-22T19:15:53Z	2016-07-12T15:55:34Z	2016-04-09T05:21:32Z	Sending a body with a GET request using http.request cannot be received using http.server	235		
-3063	98899	true	closed	false	84		2015-09-25T17:01:14Z	2016-08-31T14:32:01Z	2016-07-15T17:38:59Z	timers: fix processing of nested same delay timers	21		
+3063	98899	true	closed	false	85		2015-09-25T17:01:14Z	2016-08-31T15:04:41Z	2016-07-15T17:38:59Z	timers: fix processing of nested same delay timers	21		
 3072	247721	false	open	false	93		2015-09-26T02:29:39Z	2016-08-18T16:28:55Z		Cluster crash in main process, callback undefined when handling internal messages	152		
 3073	220205	true	closed	false	48		2015-09-26T09:13:35Z	2016-08-22T18:20:41Z	2016-08-22T18:20:41Z	Add crypto.timingSafeEqual().	2		
 3098	639601	true	closed	false	15		2015-09-28T03:35:50Z	2016-06-30T12:31:35Z	2016-05-19T11:01:44Z	src: fix linking when built as shared library	192		
@@ -260,7 +260,7 @@
 6738	275871	true	closed	false	5		2016-05-13T14:45:12Z	2016-08-09T20:28:25Z	2016-08-09T20:28:25Z	build: turn on -fno-delete-null-pointer-checks (v0.10)	30		
 6739	1093990	true	closed	false	10	0	2016-05-13T16:11:17Z	2016-06-30T12:54:16Z	2016-06-30T12:54:15Z	os: deprecate `tmpDir()` in favour of `tmpdir()`	166	1093990	2016-06-30T12:54:15Z
 6747	439929	true	closed	false	4	0	2016-05-13T21:21:47Z	2016-08-09T20:33:21Z	2016-08-09T20:33:21Z	test: add known-issue tests for various http related issues	44		
-6749	439929	true	open	false	16		2016-05-13T22:29:10Z	2016-08-30T17:29:14Z		fs: move SyncWriteStream to internal/fs	87		
+6749	439929	true	open	false	18		2016-05-13T22:29:10Z	2016-08-31T15:16:52Z		fs: move SyncWriteStream to internal/fs	87		
 6763	988441	false	open	false	12		2016-05-14T20:27:49Z	2016-08-12T12:17:34Z		setTimeout delayed when sleeping on Windows	145		
 6764	718899	true	closed	false	29		2016-05-14T22:32:23Z	2016-07-11T22:38:14Z	2016-05-25T17:59:19Z	child_process: measure buffer length in bytes	75		
 6780	168508	true	closed	false	20		2016-05-16T02:46:18Z	2016-08-30T18:45:22Z	2016-05-27T22:18:47Z	build: Enable building with Ninja	86		
@@ -1100,7 +1100,7 @@
 8071	4573903	false	closed	false	4		2016-08-11T20:08:32Z	2016-08-25T05:23:10Z	2016-08-25T05:23:10Z	console.log calls inspect function on passed object	161		
 8072	1898870	true	closed	false	8		2016-08-11T20:24:38Z	2016-08-18T18:23:54Z	2016-08-18T18:23:54Z	url: make `url.format()` encode all occurrences of `#` in `search`	67		
 8073	718899	true	closed	false	10		2016-08-11T21:37:29Z	2016-08-15T03:49:09Z	2016-08-15T03:49:09Z	tools: enable rest-spread-spacing	74		
-8074	159100	false	open	false	22		2016-08-11T22:15:51Z	2016-08-31T09:43:51Z		segfault on node v6.3.1 on Ubuntu 14.04.4	138		
+8074	159100	false	open	false	22		2016-08-11T22:15:51Z	2016-08-31T15:44:46Z		segfault on node v6.3.1 on Ubuntu 14.04.4	138		
 8075	439929	true	open	false			2016-08-12T01:42:22Z	2016-08-17T21:39:41Z		[WIP] proposed new unicode module	62		
 8076	9373002	true	closed	false	4		2016-08-12T03:21:18Z	2016-08-25T16:15:40Z	2016-08-25T16:15:40Z	test: exclude tests for AIX	70		
 8077	3254987	false	closed	false	6		2016-08-12T07:53:11Z	2016-08-18T08:11:30Z	2016-08-18T07:20:12Z	child_process.spawn does not recognize local package in Windows	111		
@@ -1269,7 +1269,7 @@
 8240	3374946	true	closed	false	6		2016-08-23T18:08:27Z	2016-08-25T22:16:24Z	2016-08-25T05:26:31Z	doc: fix buf.readUIntBE, buf.readUIntLE examples	75		
 8241	1622515	true	closed	false	6		2016-08-23T18:52:25Z	2016-08-27T11:36:26Z	2016-08-27T11:36:26Z	repl: Auto alignment for .editor mode	82		
 8242	718899	false	closed	false	15		2016-08-23T21:00:09Z	2016-08-26T19:43:36Z	2016-08-26T19:43:36Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-24	520		
-8243	287917	true	open	false	5		2016-08-23T21:39:12Z	2016-08-30T13:44:36Z		inspector - Use script name for target title	86		
+8243	287917	true	open	false	7		2016-08-23T21:39:12Z	2016-08-31T15:37:05Z		inspector - Use script name for target title	86		
 8244	40265	false	closed	false	1		2016-08-23T22:10:12Z	2016-08-24T00:20:27Z	2016-08-24T00:20:27Z	Fatal error: out of range index	73		
 8245	4421720	true	open	false	3		2016-08-24T03:39:08Z	2016-08-24T20:11:26Z		doc: add 2016-08-17 CTC meeting minutes	34		
 8246	1610233	false	closed	false	6		2016-08-24T03:40:08Z	2016-08-25T03:13:34Z	2016-08-25T03:13:34Z	http performance test result is bad	280		
@@ -1280,10 +1280,10 @@
 8251	11582552	false	closed	false	3		2016-08-24T11:42:09Z	2016-08-27T14:18:09Z	2016-08-27T14:18:09Z	EFAULT error in process.stdout.write(data, 'hex')	299		
 8252	899444	true	closed	false	6		2016-08-24T13:22:41Z	2016-08-27T14:17:38Z	2016-08-27T14:17:38Z	net: make holding the buffer in memory more robust	102		
 8253	677994	true	closed	false			2016-08-24T14:05:02Z	2016-08-30T18:32:06Z	2016-08-26T16:19:42Z	2016-08-26, Version 6.5.0 (Current)	1163		2016-08-26T16:19:42Z
-8254	15943089	true	open	false	8		2016-08-24T14:08:16Z	2016-08-31T14:17:27Z		test: fix localhost error in test-dns-ipv6	60		
+8254	15943089	true	open	false	10		2016-08-24T14:08:16Z	2016-08-31T15:28:01Z		test: fix localhost error in test-dns-ipv6	60		
 8255	172594	false	closed	false	8		2016-08-24T16:28:50Z	2016-08-27T09:40:32Z	2016-08-27T03:53:32Z	fs.stat() returns 'Stats' - should be 'Status'.	49		
 8256	439929	true	open	false			2016-08-24T17:27:24Z	2016-08-26T14:13:24Z		test: refactor buffer tests	54		
-8257	287917	true	open	false	10		2016-08-24T18:10:23Z	2016-08-31T14:22:51Z		inspector: Simplify buffer management	114		
+8257	287917	true	open	false	11		2016-08-24T18:10:23Z	2016-08-31T15:40:41Z		inspector: Simplify buffer management	114		
 8258	446478	false	open	false	5		2016-08-24T19:58:19Z	2016-08-27T09:54:03Z		Assertion failed ../deps/uv/src/unix/stream.c, line 1563	912		
 8259	837347	false	open	false	11		2016-08-24T20:38:12Z	2016-08-30T01:28:21Z		Slow start of Node application (ARM)	384		
 8260	495647	true	closed	false	8		2016-08-24T20:55:53Z	2016-08-25T21:13:23Z	2016-08-25T17:42:13Z	doc: add Myles Borins to the CTC	22		
@@ -1355,7 +1355,7 @@
 8327	899444	true	open	false	5		2016-08-29T19:54:14Z	2016-08-30T10:04:36Z		doc: drop 50-character limit for commit messages	49		
 8328	1024460	false	open	false	4		2016-08-29T22:02:38Z	2016-08-31T06:16:46Z		How to read from unix socket file descriptor? 	197		
 8329	9373002	false	open	false	4		2016-08-29T22:29:02Z	2016-08-30T21:49:40Z		V8 5.4 compilation failure on linuxOne/s390x	292		
-8330	718899	false	open	false	5		2016-08-30T02:23:27Z	2016-08-31T14:14:56Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-31	501		
+8330	718899	false	open	false	10		2016-08-30T02:23:27Z	2016-08-31T15:36:44Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-31	501		
 8331	1443911	true	closed	false	4		2016-08-30T05:56:23Z	2016-08-30T10:07:50Z	2016-08-30T06:13:03Z	doc: add lpinca to collaborators	29		
 8332	696611	true	open	false	1		2016-08-30T06:28:38Z	2016-08-30T08:24:59Z		buffer: deprecate parent property	52		
 8333	16787433	true	open	false	0	0	2016-08-30T12:34:10Z	2016-08-30T12:34:10Z		Merge pull request #1 from nodejs/master	48		
@@ -1382,4 +1382,5 @@
 8354	1147375	false	open	false	6		2016-08-31T09:11:44Z	2016-08-31T14:31:33Z		setTimeout bug. There is example	79		
 8355	7781091	false	open	false	3		2016-08-31T09:55:42Z	2016-08-31T12:52:55Z		Remove the requirement of function `_read` when creating a readable stream	76		
 8356	21603	true	open	false	1		2016-08-31T13:02:35Z	2016-08-31T14:14:48Z		Document return type of clientRequest.setTimeout	36		
-8357	14923241	false	open	false	4		2016-08-31T13:38:24Z	2016-08-31T14:33:23Z		Cannot install 4.5.1 on windows 10	7		
+8357	14923241	false	open	false	5		2016-08-31T13:38:24Z	2016-08-31T15:01:57Z		Cannot install 4.5.1 on windows 10	7		
+8358	7735740	false	open	false	0		2016-08-31T15:19:33Z	2016-08-31T15:19:33Z		object properties change when inspected under specific conditions	94		
