@@ -486,7 +486,7 @@
 7450	287917	true	closed	false	4	8	2016-06-27T23:46:29Z	2016-06-29T23:04:00Z	2016-06-29T23:03:59Z	inspector: Do cleanups before notifying callback	135		
 7451	498775	true	closed	false	16	2	2016-06-28T00:12:14Z	2016-06-29T23:06:16Z	2016-06-29T23:06:16Z	[v4.x backport] test: run v8 tests from node tree	130	498775	2016-06-29T23:06:16Z
 7454	1272762	false	closed	false	40		2016-06-28T04:16:21Z	2016-07-18T09:27:46Z	2016-07-11T13:10:31Z	version 6.2.1 always got Segment Fault error and crash	68		
-7455	96150	true	open	false	33		2016-06-28T05:34:07Z	2016-09-01T04:42:19Z		fs: undeprecate existsSync; use access instead of stat for performance	88		
+7455	96150	true	open	false	33		2016-06-28T05:34:07Z	2016-09-01T15:24:38Z		fs: undeprecate existsSync; use access instead of stat for performance	88		
 7458	8720367	false	open	false	1		2016-06-28T10:58:32Z	2016-07-27T11:41:08Z		Built-in properties cannot be accessed using Reflect, when Proxy is passed as vm context	95		
 7460	498775	true	closed	false	5	0	2016-06-28T18:37:57Z	2016-06-29T21:33:45Z	2016-06-29T21:33:45Z	tools: explicit path for V8 test tap output	147	498775	2016-06-29T21:33:45Z
 7461	715626	false	closed	false	5		2016-06-28T18:43:05Z	2016-07-06T05:18:37Z	2016-07-06T05:09:34Z	path.dirname used in loop	144		
@@ -859,7 +859,7 @@
 7829	1622515	true	closed	false	23		2016-07-21T22:46:42Z	2016-08-04T20:09:15Z	2016-08-04T20:09:15Z	repl: deprecate unused function convertToContext	34		
 7830	718899	true	closed	false	3		2016-07-22T00:19:49Z	2016-07-22T18:32:03Z	2016-07-22T18:32:03Z	tools: enforce loading required modules first	33		
 7831	696611	true	open	false	34		2016-07-22T03:58:02Z	2016-08-27T10:02:04Z		fs: don't alter user provided `options` object	52		
-7832	96150	true	open	false	8		2016-07-22T07:44:22Z	2016-08-31T23:52:08Z		doc: Provide bad/better examples for access() and exists()	45		
+7832	96150	true	open	false	8		2016-07-22T07:44:22Z	2016-09-01T15:21:23Z		doc: Provide bad/better examples for access() and exists()	37		
 7833	101553	true	closed	false	18	0	2016-07-22T08:08:03Z	2016-08-03T06:19:34Z	2016-08-03T06:19:34Z	deps: cherry-pick a51f429 from V8 upstream 	36		
 7834	101553	true	open	false	12		2016-07-22T08:53:45Z	2016-08-03T15:27:58Z		deps: cherry-pick a51f429 from V8 upstream	38		
 7835	5707457	false	closed	false	5		2016-07-22T13:04:17Z	2016-07-24T16:26:35Z	2016-07-22T13:55:51Z	url lib can't find host for protocol relative URLs	56		
@@ -1329,7 +1329,7 @@
 8301	3524687	true	open	false			2016-08-27T16:46:50Z	2016-08-30T20:50:48Z		crypto: fix ucs2/ucs-2/utf16le/utf-16le encoding check	60		
 8302	899444	true	open	false	3		2016-08-27T17:49:55Z	2016-08-29T16:47:17Z		buffer: directly use ArrayBuffer as the pool	271		
 8303	3001791	false	open	false	0		2016-08-27T19:25:31Z	2016-08-27T19:25:31Z		Warning about missing field initializer within the 4.5.0 building	42		
-8304	11638619	true	open	false	30		2016-08-27T19:32:51Z	2016-09-01T06:56:10Z		crypto: re-add crypto.timingSafeEqual	84		
+8304	11638619	true	open	false	31		2016-08-27T19:32:51Z	2016-09-01T15:10:14Z		crypto: re-add crypto.timingSafeEqual	84		
 8305	602462	true	closed	false	8		2016-08-27T22:37:24Z	2016-08-30T20:45:48Z	2016-08-30T20:45:48Z	test: cleanup test require symlink	54		
 8306	718899	true	closed	false	4		2016-08-28T03:45:38Z	2016-08-31T02:30:25Z	2016-08-31T02:30:25Z	test: add test for zlib.create*Raw()	63		
 8307	275871	false	open	false	1		2016-08-28T10:38:46Z	2016-08-28T22:58:14Z		module: node aborts when package.json is a directory	114		
@@ -1382,17 +1382,17 @@
 8354	1147375	false	closed	false	7		2016-08-31T09:11:44Z	2016-09-01T02:54:33Z	2016-08-31T14:31:36Z	setTimeout bug. There is example	79		
 8355	7781091	false	open	false	3		2016-08-31T09:55:42Z	2016-08-31T12:52:55Z		Remove the requirement of function `_read` when creating a readable stream	76		
 8356	21603	true	open	false	7		2016-08-31T13:02:35Z	2016-09-01T14:18:53Z		doc: add return type of clientRequest.setTimeout	36		
-8357	14923241	false	open	false	12		2016-08-31T13:38:24Z	2016-09-01T14:17:54Z		Cannot install 4.5.1 on windows 10	7		
+8357	14923241	false	open	false	13		2016-08-31T13:38:24Z	2016-09-01T15:17:22Z		Cannot install 4.5.1 on windows 10	7		
 8358	7735740	false	closed	false	9		2016-08-31T15:19:33Z	2016-09-01T14:38:12Z	2016-08-31T19:02:26Z	object properties change when inspected under specific conditions	94		
 8359	432351	true	open	false	0	0	2016-08-31T16:33:02Z	2016-08-31T16:33:02Z		doc: adding danbev to collaborators	41		
 8360	3065230	false	open	false	0		2016-08-31T17:16:26Z	2016-08-31T17:16:26Z		fs.read never calls callback	62		
 8361	1652906	false	open	false	2		2016-08-31T17:34:29Z	2016-09-01T12:20:43Z		require('fs').stat mangling argument	381		
 8362	18403178	false	closed	false	2		2016-08-31T18:14:33Z	2016-08-31T22:10:04Z	2016-08-31T19:08:22Z	Node start uncontrolled paralel process	118		
-8363	1404810	true	closed	false	18		2016-08-31T19:09:34Z	2016-09-01T14:10:14Z	2016-09-01T09:25:28Z	process: add `startTime` property	154		
-8364	96150	true	open	false	3		2016-08-31T23:11:46Z	2016-09-01T05:32:50Z		fs: undeprecate existsSync	45		
-8365	54666	true	open	false	5		2016-09-01T04:39:55Z	2016-09-01T14:18:02Z		doc: fix broken link in dgram doc	65		
+8363	1404810	true	closed	false	20		2016-08-31T19:09:34Z	2016-09-01T15:03:39Z	2016-09-01T09:25:28Z	process: add `startTime` property	154		
+8364	96150	true	open	false	4		2016-08-31T23:11:46Z	2016-09-01T15:11:00Z		fs: undeprecate existsSync	45		
+8365	54666	true	open	false	5		2016-09-01T04:39:55Z	2016-09-01T15:56:33Z		doc: fix broken link in dgram doc	65		
 8366	2725624	false	open	false	0		2016-09-01T09:19:11Z	2016-09-01T09:19:11Z		illegal access	107		
 8367	17428714	false	closed	false	5		2016-09-01T09:27:28Z	2016-09-01T14:14:24Z	2016-09-01T13:02:17Z	Question on undocumented API	291		
 8368	5292705	false	open	false	1		2016-09-01T09:40:10Z	2016-09-01T10:12:36Z		https.request failed for certain URL after first visting	141		
 8369	1336186	false	open	false	1		2016-09-01T13:50:17Z	2016-09-01T14:07:40Z		source maps are not working when debugging with chrome	115		
-8370	21603	true	open	false	0	0	2016-09-01T14:59:03Z	2016-09-01T14:59:03Z		doc: fix typos	34		
+8370	21603	true	open	false	2		2016-09-01T14:59:03Z	2016-09-01T15:04:25Z		doc: fix typos	34		
