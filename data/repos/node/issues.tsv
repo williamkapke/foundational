@@ -261,7 +261,7 @@
 6738	275871	true	closed	false	5		2016-05-13T14:45:12Z	2016-08-09T20:28:25Z	2016-08-09T20:28:25Z	build: turn on -fno-delete-null-pointer-checks (v0.10)	30		
 6739	1093990	true	closed	false	10	0	2016-05-13T16:11:17Z	2016-06-30T12:54:16Z	2016-06-30T12:54:15Z	os: deprecate `tmpDir()` in favour of `tmpdir()`	166	1093990	2016-06-30T12:54:15Z
 6747	439929	true	closed	false	4	0	2016-05-13T21:21:47Z	2016-08-09T20:33:21Z	2016-08-09T20:33:21Z	test: add known-issue tests for various http related issues	44		
-6749	439929	true	open	false	25		2016-05-13T22:29:10Z	2016-09-01T20:11:47Z		fs: move SyncWriteStream to internal/fs	87		
+6749	439929	true	open	false	27		2016-05-13T22:29:10Z	2016-09-01T22:34:09Z		fs: move SyncWriteStream to internal/fs	87		
 6763	988441	false	open	false	12		2016-05-14T20:27:49Z	2016-08-12T12:17:34Z		setTimeout delayed when sleeping on Windows	145		
 6764	718899	true	closed	false	29		2016-05-14T22:32:23Z	2016-07-11T22:38:14Z	2016-05-25T17:59:19Z	child_process: measure buffer length in bytes	75		
 6780	168508	true	closed	false	20		2016-05-16T02:46:18Z	2016-08-30T18:45:22Z	2016-05-27T22:18:47Z	build: Enable building with Ninja	86		
@@ -1149,7 +1149,7 @@
 8119	7992089	false	open	false	7		2016-08-16T07:00:25Z	2016-08-17T18:36:51Z		Math.log() doing nothing and making node exit silently	26		
 8120	317464	false	closed	false	5		2016-08-16T09:32:41Z	2016-08-18T00:42:04Z	2016-08-18T00:42:04Z	Cross-repo metadata for fixes in dependencies	110		
 8121	18102267	false	open	false	0		2016-08-16T09:51:39Z	2016-08-16T09:51:39Z		Array.push in forEach not working respectively	84		
-8122	677994	true	open	false	5		2016-08-16T12:57:15Z	2016-08-17T10:58:20Z		doc: fix broken links in changelogs	36		
+8122	677994	true	open	false	6		2016-08-16T12:57:15Z	2016-09-01T22:37:51Z		doc: fix broken links in changelogs	36		
 8123	10496755	false	closed	false	1		2016-08-16T14:56:47Z	2016-08-16T21:19:21Z	2016-08-16T21:19:21Z	Windows 10 NPM error	111		
 8124	7015868	true	closed	false	3		2016-08-16T17:06:50Z	2016-08-18T16:51:38Z	2016-08-18T16:51:38Z	doc: fix variable scoping bug in Stream HTTP server example code	38		
 8125	718899	false	closed	false	10		2016-08-16T17:36:26Z	2016-08-26T20:00:20Z	2016-08-26T20:00:20Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-17	482		
@@ -1182,7 +1182,7 @@
 8152	718899	true	closed	false	5		2016-08-18T00:02:11Z	2016-08-19T23:51:58Z	2016-08-19T23:51:58Z	test: add missing assert.deepEqual() test case	84		
 8153	8503065	false	open	false	1		2016-08-18T00:37:22Z	2016-08-18T03:36:32Z		Update _stream_readable.js to  delete invalid parameter.	7		
 8154	899444	true	closed	false	9		2016-08-18T02:02:18Z	2016-08-22T21:21:24Z	2016-08-22T21:21:24Z	buffer: allow .write() offset to be at buffer end	57		
-8155	8052307	false	closed	false	7		2016-08-18T05:06:48Z	2016-09-01T20:42:09Z	2016-08-31T16:05:27Z	assertion when attaching the Chrome dev tools	67		
+8155	8052307	false	closed	false	9		2016-08-18T05:06:48Z	2016-09-01T22:35:21Z	2016-08-31T16:05:27Z	assertion when attaching the Chrome dev tools	67		
 8156	718899	true	closed	false	6	2	2016-08-18T05:43:54Z	2016-08-20T04:48:09Z	2016-08-20T04:48:09Z	test: add assert.notDeepEqual() tests	49		
 8157	505333	false	open	false	7		2016-08-18T12:02:37Z	2016-08-23T10:09:15Z		benchmark jenkins job?	165		
 8158	1404810	true	open	false	4		2016-08-18T12:42:22Z	2016-08-22T09:38:10Z		doc: correct argument type for process.cpuUsage	32		
@@ -1378,7 +1378,7 @@
 8349	718899	true	open	false	2		2016-08-31T00:55:16Z	2016-08-31T16:43:10Z		V4.x backport for https://github.com/nodejs/node/pull/7647	4		
 8350	718899	true	open	false	3		2016-08-31T02:40:47Z	2016-08-31T17:02:34Z		test: test non-buffer/string with zlib	61		
 8351	1412792	false	closed	false	4		2016-08-31T06:03:52Z	2016-09-01T13:59:29Z	2016-09-01T10:03:59Z	fs.accessSync raise an error on existing file with node error	171		
-8352	718899	true	open	false	10		2016-08-31T06:23:23Z	2016-09-01T10:20:39Z		crypto: make malloc failure check cross-platform	71		
+8352	718899	true	open	false	11		2016-08-31T06:23:23Z	2016-09-01T22:29:09Z		crypto: make malloc failure check cross-platform	71		
 8353	1103788	false	open	false	3		2016-08-31T08:58:06Z	2016-09-01T21:07:13Z		Data are lost when socket get passed to another process	659		
 8354	1147375	false	closed	false	7		2016-08-31T09:11:44Z	2016-09-01T02:54:33Z	2016-08-31T14:31:36Z	setTimeout bug. There is example	79		
 8355	7781091	false	open	false	3		2016-08-31T09:55:42Z	2016-08-31T12:52:55Z		Remove the requirement of function `_read` when creating a readable stream	76		
@@ -1399,5 +1399,5 @@
 8370	21603	true	open	false	6		2016-09-01T14:59:03Z	2016-09-01T16:10:20Z		doc: fix typos	34		
 8371	14923241	false	closed	false	1		2016-09-01T16:34:47Z	2016-09-01T20:18:48Z	2016-09-01T20:18:47Z	Cannot run angular 2 quick start npm install 	209		
 8372	1093990	true	open	false	0	0	2016-09-01T17:20:56Z	2016-09-01T17:20:56Z		Timers optimize unref	86		
-8373	1093990	false	open	false	0		2016-09-01T19:57:55Z	2016-09-01T19:57:55Z		"PipeWrap-s do not ref correctly and are never ""truely"" unrefed."	135		
+8373	1093990	false	open	false	1		2016-09-01T19:57:55Z	2016-09-01T22:47:22Z		"PipeWrap-s do not ref correctly and are never ""truely"" unrefed."	135		
 8374	718899	true	open	false	0	0	2016-09-01T21:34:19Z	2016-09-01T21:34:19Z		doc: update CI content in onboarding doc	33		
