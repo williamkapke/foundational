@@ -1,3 +1,4 @@
+1	238531	true	closed	false	4		2014-11-27T15:39:30Z	2016-09-01T18:10:57Z	2014-11-27T16:57:14Z	deps: update openssl to 1.0.1j	2		
 66	643505	false	closed	false	83		2014-12-04T08:42:35Z	2016-07-23T19:11:08Z	2014-12-11T12:34:07Z	deprecate domains	11		
 256	1315533	false	closed	false	27		2015-01-08T07:50:35Z	2016-07-31T16:41:49Z	2015-02-25T00:30:11Z	Consider exposing promise unhandled rejection hook	243		
 428	321966	false	open	false	42		2015-01-14T21:56:04Z	2016-07-08T15:21:33Z		plans on incorporating LibreSSL	35		
@@ -260,7 +261,7 @@
 6738	275871	true	closed	false	5		2016-05-13T14:45:12Z	2016-08-09T20:28:25Z	2016-08-09T20:28:25Z	build: turn on -fno-delete-null-pointer-checks (v0.10)	30		
 6739	1093990	true	closed	false	10	0	2016-05-13T16:11:17Z	2016-06-30T12:54:16Z	2016-06-30T12:54:15Z	os: deprecate `tmpDir()` in favour of `tmpdir()`	166	1093990	2016-06-30T12:54:15Z
 6747	439929	true	closed	false	4	0	2016-05-13T21:21:47Z	2016-08-09T20:33:21Z	2016-08-09T20:33:21Z	test: add known-issue tests for various http related issues	44		
-6749	439929	true	open	false	19		2016-05-13T22:29:10Z	2016-08-31T17:14:45Z		fs: move SyncWriteStream to internal/fs	87		
+6749	439929	true	open	false	21		2016-05-13T22:29:10Z	2016-09-01T18:57:11Z		fs: move SyncWriteStream to internal/fs	87		
 6763	988441	false	open	false	12		2016-05-14T20:27:49Z	2016-08-12T12:17:34Z		setTimeout delayed when sleeping on Windows	145		
 6764	718899	true	closed	false	29		2016-05-14T22:32:23Z	2016-07-11T22:38:14Z	2016-05-25T17:59:19Z	child_process: measure buffer length in bytes	75		
 6780	168508	true	closed	false	20		2016-05-16T02:46:18Z	2016-08-30T18:45:22Z	2016-05-27T22:18:47Z	build: Enable building with Ninja	86		
@@ -1195,7 +1196,7 @@
 8166	439929	true	open	false			2016-08-18T19:15:57Z	2016-08-30T20:07:11Z		lib,fs: use process.emitWarning instead of internal print dep warning	103		
 8167	657552	false	closed	false	4		2016-08-18T19:48:09Z	2016-08-29T22:21:48Z	2016-08-29T22:21:48Z	TypeError: Forked processes must have an IPC channel	61		
 8168	2512748	true	open	false	5		2016-08-18T20:31:47Z	2016-09-01T17:34:50Z		test: exercise EE function type checking paths	60		
-8169	988441	true	closed	false	28		2016-08-18T20:52:01Z	2016-09-01T17:02:51Z	2016-08-25T18:04:43Z	buffer: hard-deprecate calling Buffer without new	59		
+8169	988441	true	closed	false	37		2016-08-18T20:52:01Z	2016-09-01T18:02:53Z	2016-08-25T18:04:43Z	buffer: hard-deprecate calling Buffer without new	59		
 8170	2512748	true	open	false	6		2016-08-18T21:30:38Z	2016-08-22T18:09:31Z		dns: lookupService() callback must be a function	179		
 8171	248374	true	closed	false	5		2016-08-18T22:02:29Z	2016-08-22T19:08:10Z	2016-08-22T18:05:21Z	build: add node_module_version to config.gypi	25		
 8172	88045	false	closed	false	5		2016-08-18T22:27:28Z	2016-08-23T18:29:50Z	2016-08-18T22:50:20Z	6.4.0 is linking against GLIBCXX_3.4.18 (libstdc++6 >=4.8)	533		
@@ -1329,7 +1330,7 @@
 8301	3524687	true	open	false			2016-08-27T16:46:50Z	2016-08-30T20:50:48Z		crypto: fix ucs2/ucs-2/utf16le/utf-16le encoding check	60		
 8302	899444	true	open	false	3		2016-08-27T17:49:55Z	2016-08-29T16:47:17Z		buffer: directly use ArrayBuffer as the pool	271		
 8303	3001791	false	open	false	0		2016-08-27T19:25:31Z	2016-08-27T19:25:31Z		Warning about missing field initializer within the 4.5.0 building	42		
-8304	11638619	true	open	false	31		2016-08-27T19:32:51Z	2016-09-01T16:46:28Z		crypto: re-add crypto.timingSafeEqual	84		
+8304	11638619	true	open	false	32		2016-08-27T19:32:51Z	2016-09-01T18:18:55Z		crypto: re-add crypto.timingSafeEqual	84		
 8305	602462	true	closed	false	8		2016-08-27T22:37:24Z	2016-08-30T20:45:48Z	2016-08-30T20:45:48Z	test: cleanup test require symlink	54		
 8306	718899	true	closed	false	4		2016-08-28T03:45:38Z	2016-08-31T02:30:25Z	2016-08-31T02:30:25Z	test: add test for zlib.create*Raw()	63		
 8307	275871	false	open	false	1		2016-08-28T10:38:46Z	2016-08-28T22:58:14Z		module: node aborts when package.json is a directory	114		
@@ -1337,7 +1338,7 @@
 8309	6189009	false	open	false	8		2016-08-28T12:12:35Z	2016-08-29T04:02:24Z		Missing `new` in Set constructor makes variable defined using `let` unusable	100		
 8310	596741	false	open	false	43		2016-08-28T13:30:25Z	2016-09-01T17:58:29Z		Segmentation Fault	260		
 8311	696611	true	open	false	3		2016-08-28T16:04:35Z	2016-08-29T16:43:54Z		buffer: expose underlying buffer object always	86		
-8312	2512748	true	open	false			2016-08-28T18:19:22Z	2016-08-28T23:00:56Z		WIP: child_process: spawn() and spawnSync() validation	190		
+8312	2512748	true	open	false	0		2016-08-28T18:19:22Z	2016-09-01T18:49:38Z		WIP: child_process: spawn() and spawnSync() validation	190		
 8313	12671072	false	closed	false	1		2016-08-28T23:49:19Z	2016-08-29T00:03:41Z	2016-08-29T00:03:41Z	ES6 getters execute before being called	83		
 8314	1909610	false	closed	false	2		2016-08-29T00:09:19Z	2016-08-29T01:03:13Z	2016-08-29T00:13:04Z	6.5.0 release branch exists here but not on Node	109		
 8315	2499504	true	open	false	5		2016-08-29T02:37:55Z	2016-08-30T12:24:20Z		doc: add .md to the link	51		
@@ -1372,7 +1373,7 @@
 8344	718899	true	open	false	5		2016-08-30T18:25:02Z	2016-09-01T14:20:38Z		doc: update landing pr info in onboarding doc	43		
 8345	439929	true	open	false	3		2016-08-30T21:42:20Z	2016-08-30T22:02:58Z		lib: runtime deprecation of the constants module	50		
 8346	439929	true	open	false			2016-08-30T22:37:40Z	2016-09-01T05:37:50Z		doc: update authors list again	76		
-8347	14335429	false	open	false	1		2016-08-30T23:40:29Z	2016-09-01T12:12:27Z		Breakpoint event is not reported in Node.js 6.	330		
+8347	14335429	false	open	false	2		2016-08-30T23:40:29Z	2016-09-01T18:44:25Z		Breakpoint event is not reported in Node.js 6.	330		
 8348	718899	true	open	false	1		2016-08-31T00:37:49Z	2016-08-31T16:47:36Z		Backport of https://github.com/nodejs/node/pull/7630 for v4.x	5		
 8349	718899	true	open	false	2		2016-08-31T00:55:16Z	2016-08-31T16:43:10Z		V4.x backport for https://github.com/nodejs/node/pull/7647	4		
 8350	718899	true	open	false	3		2016-08-31T02:40:47Z	2016-08-31T17:02:34Z		test: test non-buffer/string with zlib	61		
@@ -1383,13 +1384,13 @@
 8355	7781091	false	open	false	3		2016-08-31T09:55:42Z	2016-08-31T12:52:55Z		Remove the requirement of function `_read` when creating a readable stream	76		
 8356	21603	true	open	false	7		2016-08-31T13:02:35Z	2016-09-01T14:18:53Z		doc: add return type of clientRequest.setTimeout	36		
 8357	14923241	false	closed	false	14		2016-08-31T13:38:24Z	2016-09-01T16:07:59Z	2016-09-01T16:07:59Z	Cannot install 4.5.1 on windows 10	7		
-8358	7735740	false	closed	false	9		2016-08-31T15:19:33Z	2016-09-01T14:38:12Z	2016-08-31T19:02:26Z	object properties change when inspected under specific conditions	94		
+8358	7735740	false	closed	false	10		2016-08-31T15:19:33Z	2016-09-01T18:17:24Z	2016-08-31T19:02:26Z	object properties change when inspected under specific conditions	94		
 8359	432351	true	open	false	0	0	2016-08-31T16:33:02Z	2016-08-31T16:33:02Z		doc: adding danbev to collaborators	41		
 8360	3065230	false	open	false	0		2016-08-31T17:16:26Z	2016-08-31T17:16:26Z		fs.read never calls callback	62		
 8361	1652906	false	open	false	3		2016-08-31T17:34:29Z	2016-09-01T17:17:15Z		require('fs').stat mangling argument	381		
 8362	18403178	false	closed	false	2		2016-08-31T18:14:33Z	2016-08-31T22:10:04Z	2016-08-31T19:08:22Z	Node start uncontrolled paralel process	118		
 8363	1404810	true	closed	false	20		2016-08-31T19:09:34Z	2016-09-01T15:03:39Z	2016-09-01T09:25:28Z	process: add `startTime` property	154		
-8364	96150	true	open	false	5		2016-08-31T23:11:46Z	2016-09-01T16:07:49Z		fs: undeprecate existsSync	45		
+8364	96150	true	open	false			2016-08-31T23:11:46Z	2016-09-01T18:38:24Z		fs: undeprecate existsSync	45		
 8365	54666	true	open	false	5		2016-09-01T04:39:55Z	2016-09-01T15:56:33Z		doc: fix broken link in dgram doc	65		
 8366	2725624	false	open	false	0		2016-09-01T09:19:11Z	2016-09-01T09:19:11Z		illegal access	107		
 8367	17428714	false	closed	false	5		2016-09-01T09:27:28Z	2016-09-01T14:14:24Z	2016-09-01T13:02:17Z	Question on undocumented API	291		
