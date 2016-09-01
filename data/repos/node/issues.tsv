@@ -112,7 +112,7 @@
 4243	524382	true	closed	false	10	0	2015-12-11T17:36:12Z	2016-08-19T15:09:25Z	2016-08-19T15:09:25Z	src: use thread defaults provided by v8::platform	73		
 4253	855219	true	closed	false	18		2015-12-12T01:21:25Z	2016-08-30T14:10:50Z	2016-05-04T22:07:05Z	nodejs/node#3111 - WIP v8BreakIterator disablement	6		
 4266	1470592	false	open	false	13		2015-12-14T00:40:39Z	2016-08-19T14:06:13Z		buffer.toString fails for buffers larger than 192MB	95		
-4270	495647	false	open	false	16		2015-12-14T10:06:18Z	2016-09-01T20:03:19Z		Discussion: OpenSSL 1.1.0 planning	297		
+4270	495647	false	open	false	17		2015-12-14T10:06:18Z	2016-09-01T21:38:38Z		Discussion: OpenSSL 1.1.0 planning	297		
 4307	12825770	false	closed	false	11		2015-12-16T08:16:14Z	2016-07-11T09:25:48Z	2016-07-11T09:25:48Z	can not step in constructor, will will terminate node.exe	90		
 4329	16335744	false	closed	false	14		2015-12-17T11:41:17Z	2016-07-21T14:42:10Z	2016-01-15T10:53:49Z	node.js Setup Wizard ended prematurely	43		
 4394	1470592	true	open	false	44		2015-12-23T03:38:39Z	2016-08-07T06:04:29Z		buffer: workaround for v8 buffer.toString failure. fixes #4266	20		
@@ -1281,7 +1281,7 @@
 8251	11582552	false	closed	false	3		2016-08-24T11:42:09Z	2016-08-27T14:18:09Z	2016-08-27T14:18:09Z	EFAULT error in process.stdout.write(data, 'hex')	299		
 8252	899444	true	closed	false	6		2016-08-24T13:22:41Z	2016-08-27T14:17:38Z	2016-08-27T14:17:38Z	net: make holding the buffer in memory more robust	102		
 8253	677994	true	closed	false			2016-08-24T14:05:02Z	2016-08-30T18:32:06Z	2016-08-26T16:19:42Z	2016-08-26, Version 6.5.0 (Current)	1163		2016-08-26T16:19:42Z
-8254	15943089	true	open	false	13		2016-08-24T14:08:16Z	2016-09-01T11:08:07Z		test: fix localhost error in test-dns-ipv6	60		
+8254	15943089	true	closed	false	13		2016-08-24T14:08:16Z	2016-09-01T21:58:00Z	2016-09-01T21:58:00Z	test: fix localhost error in test-dns-ipv6	60		
 8255	172594	false	closed	false	8		2016-08-24T16:28:50Z	2016-08-27T09:40:32Z	2016-08-27T03:53:32Z	fs.stat() returns 'Stats' - should be 'Status'.	49		
 8256	439929	true	open	false			2016-08-24T17:27:24Z	2016-08-26T14:13:24Z		test: refactor buffer tests	54		
 8257	287917	true	closed	false	11		2016-08-24T18:10:23Z	2016-08-31T16:05:37Z	2016-08-31T16:05:37Z	inspector: Simplify buffer management	114		
@@ -1370,7 +1370,7 @@
 8341	899444	true	open	false	2		2016-08-30T17:20:34Z	2016-09-01T14:21:11Z		events: make memory leak warning name more verbose	70		
 8342	3824055	false	open	false	5		2016-08-30T17:35:35Z	2016-08-30T22:41:10Z		Should Node.js standard library throw custom Error subclasses?	222		
 8343	79017	true	closed	false	5	0	2016-08-30T17:51:58Z	2016-08-31T22:19:06Z	2016-08-31T22:19:06Z	deps: workaround clang-3.4 ICE	49	79017	2016-08-31T22:19:06Z
-8344	718899	true	open	false	5		2016-08-30T18:25:02Z	2016-09-01T14:20:38Z		doc: update landing pr info in onboarding doc	43		
+8344	718899	true	closed	false	6	13	2016-08-30T18:25:02Z	2016-09-01T21:24:07Z	2016-09-01T21:24:07Z	doc: update landing pr info in onboarding doc	43		
 8345	439929	true	closed	false	6	0	2016-08-30T21:42:20Z	2016-09-01T20:47:42Z	2016-09-01T20:47:42Z	lib: runtime deprecation of the constants module	50		
 8346	439929	true	open	false	0		2016-08-30T22:37:40Z	2016-09-01T20:18:38Z		doc: update authors list again	76		
 8347	14335429	false	open	false	2		2016-08-30T23:40:29Z	2016-09-01T18:44:25Z		Breakpoint event is not reported in Node.js 6.	330		
@@ -1379,7 +1379,7 @@
 8350	718899	true	open	false	3		2016-08-31T02:40:47Z	2016-08-31T17:02:34Z		test: test non-buffer/string with zlib	61		
 8351	1412792	false	closed	false	4		2016-08-31T06:03:52Z	2016-09-01T13:59:29Z	2016-09-01T10:03:59Z	fs.accessSync raise an error on existing file with node error	171		
 8352	718899	true	open	false	10		2016-08-31T06:23:23Z	2016-09-01T10:20:39Z		crypto: make malloc failure check cross-platform	71		
-8353	1103788	false	open	false	3		2016-08-31T08:58:06Z	2016-09-01T14:15:22Z		Data are lost when socket get passed to another process	659		
+8353	1103788	false	open	false	3		2016-08-31T08:58:06Z	2016-09-01T21:07:13Z		Data are lost when socket get passed to another process	659		
 8354	1147375	false	closed	false	7		2016-08-31T09:11:44Z	2016-09-01T02:54:33Z	2016-08-31T14:31:36Z	setTimeout bug. There is example	79		
 8355	7781091	false	open	false	3		2016-08-31T09:55:42Z	2016-08-31T12:52:55Z		Remove the requirement of function `_read` when creating a readable stream	76		
 8356	21603	true	open	false	7		2016-08-31T13:02:35Z	2016-09-01T14:18:53Z		doc: add return type of clientRequest.setTimeout	36		
@@ -1400,3 +1400,4 @@
 8371	14923241	false	closed	false	1		2016-09-01T16:34:47Z	2016-09-01T20:18:48Z	2016-09-01T20:18:47Z	Cannot run angular 2 quick start npm install 	209		
 8372	1093990	true	open	false	0	0	2016-09-01T17:20:56Z	2016-09-01T17:20:56Z		Timers optimize unref	86		
 8373	1093990	false	open	false	0		2016-09-01T19:57:55Z	2016-09-01T19:57:55Z		"PipeWrap-s do not ref correctly and are never ""truely"" unrefed."	135		
+8374	718899	true	open	false	0	0	2016-09-01T21:34:19Z	2016-09-01T21:34:19Z		doc: update CI content in onboarding doc	33		
