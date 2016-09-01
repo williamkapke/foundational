@@ -120,7 +120,7 @@
 4427	718899	false	open	false	35		2015-12-26T16:25:19Z	2016-07-12T22:30:35Z		Investigate flaky test-tick-processor	5		
 4482	178512	true	closed	false	30		2015-12-30T13:30:25Z	2016-07-28T21:58:08Z	2016-01-04T18:36:32Z	Http(s) Agent: handle errors on idle sockets	57		
 4528	677994	true	open	false	14		2016-01-04T12:26:41Z	2016-08-09T20:26:39Z		http: make path null in Agent#createSocket	34		
-4629	1084056	true	open	false	24		2016-01-11T21:36:45Z	2016-09-01T05:22:02Z		test: fix `fs-watch-recursive` flakiness	47		
+4629	1084056	true	open	false	25		2016-01-11T21:36:45Z	2016-09-01T06:13:23Z		test: fix `fs-watch-recursive` flakiness	47		
 4630	10704816	true	closed	false	13	1	2016-01-11T22:32:27Z	2016-06-29T14:12:03Z	2016-06-29T14:12:03Z	tools: add missing headers	16		
 4646	1731633	false	closed	false	5		2016-01-12T12:07:41Z	2016-08-29T22:33:43Z	2016-08-29T22:33:43Z	http listen method is possible to be called twice with no error	68		
 4647	52195	true	closed	false	31		2016-01-12T12:24:07Z	2016-07-13T15:16:29Z	2016-07-13T14:12:16Z	win,msi: Added Italian translation	38		
@@ -1195,7 +1195,7 @@
 8166	439929	true	open	false			2016-08-18T19:15:57Z	2016-08-30T20:07:11Z		lib,fs: use process.emitWarning instead of internal print dep warning	103		
 8167	657552	false	closed	false	4		2016-08-18T19:48:09Z	2016-08-29T22:21:48Z	2016-08-29T22:21:48Z	TypeError: Forked processes must have an IPC channel	61		
 8168	2512748	true	open	false			2016-08-18T20:31:47Z	2016-08-24T01:33:09Z		test: exercise EE function type checking paths	60		
-8169	988441	true	closed	false	19		2016-08-18T20:52:01Z	2016-08-25T19:44:06Z	2016-08-25T18:04:43Z	buffer: hard-deprecate calling Buffer without new	59		
+8169	988441	true	closed	false	22		2016-08-18T20:52:01Z	2016-09-01T06:53:13Z	2016-08-25T18:04:43Z	buffer: hard-deprecate calling Buffer without new	59		
 8170	2512748	true	open	false	6		2016-08-18T21:30:38Z	2016-08-22T18:09:31Z		dns: lookupService() callback must be a function	179		
 8171	248374	true	closed	false	5		2016-08-18T22:02:29Z	2016-08-22T19:08:10Z	2016-08-22T18:05:21Z	build: add node_module_version to config.gypi	25		
 8172	88045	false	closed	false	5		2016-08-18T22:27:28Z	2016-08-23T18:29:50Z	2016-08-18T22:50:20Z	6.4.0 is linking against GLIBCXX_3.4.18 (libstdc++6 >=4.8)	533		
@@ -1329,7 +1329,7 @@
 8301	3524687	true	open	false			2016-08-27T16:46:50Z	2016-08-30T20:50:48Z		crypto: fix ucs2/ucs-2/utf16le/utf-16le encoding check	60		
 8302	899444	true	open	false	3		2016-08-27T17:49:55Z	2016-08-29T16:47:17Z		buffer: directly use ArrayBuffer as the pool	271		
 8303	3001791	false	open	false	0		2016-08-27T19:25:31Z	2016-08-27T19:25:31Z		Warning about missing field initializer within the 4.5.0 building	42		
-8304	11638619	true	open	false	25		2016-08-27T19:32:51Z	2016-09-01T05:06:03Z		crypto: re-add crypto.timingSafeEqual	84		
+8304	11638619	true	open	false	30		2016-08-27T19:32:51Z	2016-09-01T06:56:10Z		crypto: re-add crypto.timingSafeEqual	84		
 8305	602462	true	closed	false	8		2016-08-27T22:37:24Z	2016-08-30T20:45:48Z	2016-08-30T20:45:48Z	test: cleanup test require symlink	54		
 8306	718899	true	closed	false	4		2016-08-28T03:45:38Z	2016-08-31T02:30:25Z	2016-08-31T02:30:25Z	test: add test for zlib.create*Raw()	63		
 8307	275871	false	open	false	1		2016-08-28T10:38:46Z	2016-08-28T22:58:14Z		module: node aborts when package.json is a directory	114		
@@ -1388,6 +1388,6 @@
 8360	3065230	false	open	false	0		2016-08-31T17:16:26Z	2016-08-31T17:16:26Z		fs.read never calls callback	62		
 8361	1652906	false	open	false	0		2016-08-31T17:34:29Z	2016-08-31T17:34:29Z		require('fs').stat mangling argument	381		
 8362	18403178	false	closed	false	2		2016-08-31T18:14:33Z	2016-08-31T22:10:04Z	2016-08-31T19:08:22Z	Node start uncontrolled paralel process	118		
-8363	1404810	true	open	false			2016-08-31T19:09:34Z	2016-09-01T05:31:53Z		process: add `startTime` property	154		
+8363	1404810	true	open	false			2016-08-31T19:09:34Z	2016-09-01T06:04:47Z		process: add `startTime` property	154		
 8364	96150	true	open	false	3		2016-08-31T23:11:46Z	2016-09-01T05:32:50Z		fs: undeprecate existsSync	45		
-8365	54666	true	open	false	0	0	2016-09-01T04:39:55Z	2016-09-01T04:39:55Z		doc: fix broken link in dgram doc	65		
+8365	54666	true	open	false	1		2016-09-01T04:39:55Z	2016-09-01T06:24:43Z		doc: fix broken link in dgram doc	65		
