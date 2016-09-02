@@ -264,7 +264,7 @@
 6738	275871	true	closed	false	5		2016-05-13T14:45:12Z	2016-08-09T20:28:25Z	2016-08-09T20:28:25Z	build: turn on -fno-delete-null-pointer-checks (v0.10)	30		
 6739	1093990	true	closed	false	10	0	2016-05-13T16:11:17Z	2016-06-30T12:54:16Z	2016-06-30T12:54:15Z	os: deprecate `tmpDir()` in favour of `tmpdir()`	166	1093990	2016-06-30T12:54:15Z
 6747	439929	true	closed	false	4	0	2016-05-13T21:21:47Z	2016-08-09T20:33:21Z	2016-08-09T20:33:21Z	test: add known-issue tests for various http related issues	44		
-6749	439929	true	open	false	34		2016-05-13T22:29:10Z	2016-09-02T14:02:04Z		fs: move SyncWriteStream to internal/fs	87		
+6749	439929	true	open	false	37		2016-05-13T22:29:10Z	2016-09-02T16:35:58Z		fs: move SyncWriteStream to internal/fs	87		
 6763	988441	false	open	false	12		2016-05-14T20:27:49Z	2016-08-12T12:17:34Z		setTimeout delayed when sleeping on Windows	145		
 6764	718899	true	closed	false	29		2016-05-14T22:32:23Z	2016-07-11T22:38:14Z	2016-05-25T17:59:19Z	child_process: measure buffer length in bytes	75		
 6780	168508	true	closed	false	20		2016-05-16T02:46:18Z	2016-08-30T18:45:22Z	2016-05-27T22:18:47Z	build: Enable building with Ninja	86		
@@ -1025,7 +1025,7 @@
 7992	1500684	true	open	false	0	0	2016-08-06T10:18:04Z	2016-08-06T10:18:04Z		docs: add info about --auto-open flag w/ --inspect	73		
 7993	2682705	false	closed	false	6		2016-08-06T10:50:20Z	2016-08-06T19:21:51Z	2016-08-06T19:21:51Z	import statements not supported - why, tell me why!	46		
 7994	4520820	true	closed	false	7		2016-08-06T12:42:43Z	2016-08-09T19:28:33Z	2016-08-09T19:28:33Z	timers: remove unused repeat param in timer_wrap	53		
-7995	725842	true	open	false			2016-08-06T14:52:17Z	2016-08-08T14:39:20Z		doc: reword ambigous docs for socket.setNoDelay	47		
+7995	725842	true	open	false	1		2016-08-06T14:52:17Z	2016-09-02T16:22:24Z		doc: reword ambigous docs for socket.setNoDelay	47		
 7996	1935767	true	closed	false	12	4	2016-08-06T16:09:50Z	2016-08-08T15:25:53Z	2016-08-08T15:25:53Z	meta: clarify collaborators & ctc members relationships	50		
 7997	469365	false	closed	false	2		2016-08-06T17:53:09Z	2016-08-10T13:13:16Z	2016-08-10T13:13:16Z	docs(cluster): message event docs slightly wrong/confusing	72		
 7998	677994	true	closed	false	9	2	2016-08-06T18:14:04Z	2016-08-12T18:08:23Z	2016-08-12T18:08:23Z	cluster: alias suicide to exitedAfterDisconnect	75		
@@ -1375,14 +1375,14 @@
 8343	79017	true	closed	false	5	0	2016-08-30T17:51:58Z	2016-08-31T22:19:06Z	2016-08-31T22:19:06Z	deps: workaround clang-3.4 ICE	49	79017	2016-08-31T22:19:06Z
 8344	718899	true	closed	false	6	13	2016-08-30T18:25:02Z	2016-09-01T21:24:07Z	2016-09-01T21:24:07Z	doc: update landing pr info in onboarding doc	43		
 8345	439929	true	closed	false	6	0	2016-08-30T21:42:20Z	2016-09-01T20:47:42Z	2016-09-01T20:47:42Z	lib: runtime deprecation of the constants module	50		
-8346	439929	true	open	false	0		2016-08-30T22:37:40Z	2016-09-01T20:18:38Z		doc: update authors list again	76		
+8346	439929	true	open	false			2016-08-30T22:37:40Z	2016-09-02T17:02:55Z		doc: update authors list again	76		
 8347	14335429	false	open	false	3		2016-08-30T23:40:29Z	2016-09-02T14:53:01Z		Breakpoint event is not reported in Node.js 6.	330		
 8348	718899	true	open	false	1		2016-08-31T00:37:49Z	2016-08-31T16:47:36Z		Backport of https://github.com/nodejs/node/pull/7630 for v4.x	5		
 8349	718899	true	open	false	2		2016-08-31T00:55:16Z	2016-08-31T16:43:10Z		V4.x backport for https://github.com/nodejs/node/pull/7647	4		
 8350	718899	true	open	false	5		2016-08-31T02:40:47Z	2016-09-02T06:55:14Z		test: test non-buffer/string with zlib	61		
 8351	1412792	false	closed	false	4		2016-08-31T06:03:52Z	2016-09-01T13:59:29Z	2016-09-01T10:03:59Z	fs.accessSync raise an error on existing file with node error	171		
 8352	718899	true	open	false	11		2016-08-31T06:23:23Z	2016-09-01T22:29:09Z		crypto: make malloc failure check cross-platform	71		
-8353	1103788	false	open	false	5		2016-08-31T08:58:06Z	2016-09-02T16:04:58Z		Data are lost when socket get passed to another process	659		
+8353	1103788	false	open	false	6		2016-08-31T08:58:06Z	2016-09-02T16:14:32Z		Data are lost when socket get passed to another process	659		
 8354	1147375	false	closed	false	7		2016-08-31T09:11:44Z	2016-09-01T02:54:33Z	2016-08-31T14:31:36Z	setTimeout bug. There is example	79		
 8355	7781091	false	open	false	3		2016-08-31T09:55:42Z	2016-08-31T12:52:55Z		Remove the requirement of function `_read` when creating a readable stream	76		
 8356	21603	true	open	false	7		2016-08-31T13:02:35Z	2016-09-01T14:18:53Z		doc: add return type of clientRequest.setTimeout	36		
@@ -1401,7 +1401,7 @@
 8369	1336186	false	open	false	1		2016-09-01T13:50:17Z	2016-09-01T14:07:40Z		source maps are not working when debugging with chrome	115		
 8370	21603	true	open	false	6		2016-09-01T14:59:03Z	2016-09-01T16:10:20Z		doc: fix typos	34		
 8371	14923241	false	closed	false	1		2016-09-01T16:34:47Z	2016-09-01T20:18:48Z	2016-09-01T20:18:47Z	Cannot run angular 2 quick start npm install 	209		
-8372	1093990	true	open	false	4		2016-09-01T17:20:56Z	2016-09-02T15:18:11Z		timers: optimize same-tick unref	86		
+8372	1093990	true	open	false			2016-09-01T17:20:56Z	2016-09-02T16:50:47Z		timers: optimize same-tick unref	86		
 8373	1093990	false	open	false	5		2016-09-01T19:57:55Z	2016-09-02T16:02:45Z		"PipeWrap-s do not ref correctly and are never ""truely"" unrefed."	135		
 8374	718899	true	open	false	0		2016-09-01T21:34:19Z	2016-09-02T10:26:20Z		doc: update CI content in onboarding doc	33		
 8375	9373002	false	open	false	1		2016-09-02T00:59:59Z	2016-09-02T05:11:56Z		AIX: parallel/test-stdio-closed	73		
@@ -1409,11 +1409,12 @@
 8377	1531427	false	open	false	0		2016-09-02T07:13:03Z	2016-09-02T08:06:23Z		Memory leak in DiffieHellman.set{Privat,Public}Key() and some suggestions	390		
 8378	1443911	true	open	false	0	0	2016-09-02T10:14:13Z	2016-09-02T10:14:13Z		doc: fix example in stream doc	54		
 8379	914122	false	open	false	2		2016-09-02T12:46:51Z	2016-09-02T14:02:40Z		Not helpful error message after upgrading Node	136		
-8380	9373002	false	open	false	6		2016-09-02T12:53:08Z	2016-09-02T14:03:35Z		AIX: parallel/test-cluster-dgram-1 failures	207		
-8381	115237	false	open	false	2		2016-09-02T13:00:01Z	2016-09-02T14:24:02Z		http: support environment-defined proxy	98		
+8380	9373002	false	open	false	10		2016-09-02T12:53:08Z	2016-09-02T16:37:45Z		AIX: parallel/test-cluster-dgram-1 failures	207		
+8381	115237	false	open	false	6		2016-09-02T13:00:01Z	2016-09-02T16:38:50Z		http: support environment-defined proxy	98		
 8382	914122	false	open	false	11		2016-09-02T13:08:45Z	2016-09-02T15:49:22Z		yield/await support in repl/cli	75		
-8383	1084056	true	open	false	5		2016-09-02T13:17:30Z	2016-09-02T15:11:25Z		test: fix test-cluster-dgram-1 flakiness	49		
+8383	1084056	true	open	false	5		2016-09-02T13:17:30Z	2016-09-02T16:33:48Z		test: fix test-cluster-dgram-1 flakiness	49		
 8384	9373002	true	open	false	0	0	2016-09-02T14:40:11Z	2016-09-02T14:40:11Z		test: revert changes to test/parallel/test-cluster-dgram-1.js	54		
-8385	9373002	true	open	false	0	0	2016-09-02T15:21:59Z	2016-09-02T15:21:59Z		test: mark pseudo-tty/no_dropped_stdio as flaky	49		
-8386	2512748	true	open	false	0	0	2016-09-02T15:26:36Z	2016-09-02T15:26:36Z		inspector: listen on process.debugPort	78		
+8385	9373002	true	open	false	2		2016-09-02T15:21:59Z	2016-09-02T16:48:59Z		test: mark pseudo-tty/no_dropped_stdio as flaky	49		
+8386	2512748	true	open	false	1		2016-09-02T15:26:36Z	2016-09-02T16:49:37Z		inspector: listen on process.debugPort	78		
 8387	5689	false	open	false	0		2016-09-02T15:57:49Z	2016-09-02T15:57:49Z		Update Node v6 to use npm 3.10.4+ since npm@3.10.3 has shrinkwrap regression	46		
+8388	8884298	false	open	false	0		2016-09-02T16:14:53Z	2016-09-02T16:14:53Z		Node 6.5 fails when using --harmony-proxies flag	41		
