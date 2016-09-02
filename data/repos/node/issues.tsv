@@ -77,6 +77,7 @@
 3307	17535	false	open	false	22		2015-10-09T23:34:40Z	2016-08-26T21:05:38Z		Expose up-to-date list of builtin modules	91		
 3316	275871	true	closed	false	23	0	2015-10-10T20:20:46Z	2016-06-30T11:49:55Z	2016-06-30T11:49:55Z	debugger: make listen address configurable	5		
 3370	1316152	false	open	false	41		2015-10-14T16:29:36Z	2016-07-12T14:06:17Z		Node 4.2 large memory spikes and timeouts on Heroku 	333		
+3384	115237	true	open	false	16		2015-10-15T12:57:10Z	2016-09-02T17:52:43Z		module: remove require('.') with NODE_PATH compat	15		
 3402	595361	false	closed	false	201		2015-10-16T12:45:59Z	2016-07-18T20:32:50Z	2016-04-27T02:45:38Z	Don't resolve symlinks when requiring	120		
 3431	1145335	false	closed	false	9		2015-10-19T07:06:43Z	2016-08-25T17:03:33Z	2015-10-20T03:03:33Z	Can not install nodejs 4 on Windows 7 64-bit	95		
 3460	855219	false	open	false	57		2015-10-20T22:54:04Z	2016-08-01T16:52:49Z		"detect ""full-icu"" module"	95		
@@ -113,7 +114,7 @@
 4243	524382	true	closed	false	10	0	2015-12-11T17:36:12Z	2016-08-19T15:09:25Z	2016-08-19T15:09:25Z	src: use thread defaults provided by v8::platform	73		
 4253	855219	true	closed	false	18		2015-12-12T01:21:25Z	2016-08-30T14:10:50Z	2016-05-04T22:07:05Z	nodejs/node#3111 - WIP v8BreakIterator disablement	6		
 4266	1470592	false	open	false	13		2015-12-14T00:40:39Z	2016-08-19T14:06:13Z		buffer.toString fails for buffers larger than 192MB	95		
-4270	495647	false	open	false	19		2015-12-14T10:06:18Z	2016-09-02T08:14:00Z		Discussion: OpenSSL 1.1.0 planning	297		
+4270	495647	false	open	false	19		2015-12-14T10:06:18Z	2016-09-02T17:25:41Z		Discussion: OpenSSL 1.1.0 planning	297		
 4307	12825770	false	closed	false	11		2015-12-16T08:16:14Z	2016-07-11T09:25:48Z	2016-07-11T09:25:48Z	can not step in constructor, will will terminate node.exe	90		
 4329	16335744	false	closed	false	14		2015-12-17T11:41:17Z	2016-07-21T14:42:10Z	2016-01-15T10:53:49Z	node.js Setup Wizard ended prematurely	43		
 4394	1470592	true	open	false	44		2015-12-23T03:38:39Z	2016-08-07T06:04:29Z		buffer: workaround for v8 buffer.toString failure. fixes #4266	20		
@@ -264,7 +265,7 @@
 6738	275871	true	closed	false	5		2016-05-13T14:45:12Z	2016-08-09T20:28:25Z	2016-08-09T20:28:25Z	build: turn on -fno-delete-null-pointer-checks (v0.10)	30		
 6739	1093990	true	closed	false	10	0	2016-05-13T16:11:17Z	2016-06-30T12:54:16Z	2016-06-30T12:54:15Z	os: deprecate `tmpDir()` in favour of `tmpdir()`	166	1093990	2016-06-30T12:54:15Z
 6747	439929	true	closed	false	4	0	2016-05-13T21:21:47Z	2016-08-09T20:33:21Z	2016-08-09T20:33:21Z	test: add known-issue tests for various http related issues	44		
-6749	439929	true	open	false	37		2016-05-13T22:29:10Z	2016-09-02T16:35:58Z		fs: move SyncWriteStream to internal/fs	87		
+6749	439929	true	open	false	39		2016-05-13T22:29:10Z	2016-09-02T17:21:14Z		fs: move SyncWriteStream to internal/fs	87		
 6763	988441	false	open	false	12		2016-05-14T20:27:49Z	2016-08-12T12:17:34Z		setTimeout delayed when sleeping on Windows	145		
 6764	718899	true	closed	false	29		2016-05-14T22:32:23Z	2016-07-11T22:38:14Z	2016-05-25T17:59:19Z	child_process: measure buffer length in bytes	75		
 6780	168508	true	closed	false	20		2016-05-16T02:46:18Z	2016-08-30T18:45:22Z	2016-05-27T22:18:47Z	build: Enable building with Ninja	86		
@@ -1196,7 +1197,7 @@
 8163	1095402	false	closed	false	3		2016-08-18T17:34:15Z	2016-08-22T19:20:48Z	2016-08-18T17:39:25Z	Inserting CR in addition to LF in util.inspect() is not right on UNIX OSes	156		
 8164	2512748	true	closed	false	3	0	2016-08-18T17:44:47Z	2016-08-20T20:27:16Z	2016-08-20T20:27:16Z	child_process: reuse existing no-op function	48	2512748	2016-08-20T20:27:16Z
 8165	159100	false	closed	false	9		2016-08-18T19:12:43Z	2016-08-24T18:41:38Z	2016-08-24T18:41:38Z	url.resolve auth behavior if host does *not* change	121		
-8166	439929	true	open	false			2016-08-18T19:15:57Z	2016-09-01T19:28:38Z		lib,fs: use process.emitWarning instead of internal print dep warning	103		
+8166	439929	true	open	false			2016-08-18T19:15:57Z	2016-09-02T17:50:15Z		lib,fs: use process.emitWarning instead of internal print dep warning	103		
 8167	657552	false	closed	false	4		2016-08-18T19:48:09Z	2016-08-29T22:21:48Z	2016-08-29T22:21:48Z	TypeError: Forked processes must have an IPC channel	61		
 8168	2512748	true	open	false	5		2016-08-18T20:31:47Z	2016-09-01T17:34:50Z		test: exercise EE function type checking paths	60		
 8169	988441	true	closed	false	37		2016-08-18T20:52:01Z	2016-09-01T18:02:53Z	2016-08-25T18:04:43Z	buffer: hard-deprecate calling Buffer without new	59		
@@ -1375,7 +1376,7 @@
 8343	79017	true	closed	false	5	0	2016-08-30T17:51:58Z	2016-08-31T22:19:06Z	2016-08-31T22:19:06Z	deps: workaround clang-3.4 ICE	49	79017	2016-08-31T22:19:06Z
 8344	718899	true	closed	false	6	13	2016-08-30T18:25:02Z	2016-09-01T21:24:07Z	2016-09-01T21:24:07Z	doc: update landing pr info in onboarding doc	43		
 8345	439929	true	closed	false	6	0	2016-08-30T21:42:20Z	2016-09-01T20:47:42Z	2016-09-01T20:47:42Z	lib: runtime deprecation of the constants module	50		
-8346	439929	true	open	false			2016-08-30T22:37:40Z	2016-09-02T17:02:55Z		doc: update authors list again	76		
+8346	439929	true	open	false	1		2016-08-30T22:37:40Z	2016-09-02T17:13:31Z		doc: update authors list again	76		
 8347	14335429	false	open	false	3		2016-08-30T23:40:29Z	2016-09-02T14:53:01Z		Breakpoint event is not reported in Node.js 6.	330		
 8348	718899	true	open	false	1		2016-08-31T00:37:49Z	2016-08-31T16:47:36Z		Backport of https://github.com/nodejs/node/pull/7630 for v4.x	5		
 8349	718899	true	open	false	2		2016-08-31T00:55:16Z	2016-08-31T16:43:10Z		V4.x backport for https://github.com/nodejs/node/pull/7647	4		
@@ -1408,13 +1409,15 @@
 8376	2081487	false	open	false	1		2016-09-02T04:52:16Z	2016-09-02T05:13:25Z		REPL not defined var has been declared	176		
 8377	1531427	false	open	false	0		2016-09-02T07:13:03Z	2016-09-02T08:06:23Z		Memory leak in DiffieHellman.set{Privat,Public}Key() and some suggestions	390		
 8378	1443911	true	open	false	0	0	2016-09-02T10:14:13Z	2016-09-02T10:14:13Z		doc: fix example in stream doc	54		
-8379	914122	false	open	false	2		2016-09-02T12:46:51Z	2016-09-02T14:02:40Z		Not helpful error message after upgrading Node	136		
+8379	914122	false	open	false	5		2016-09-02T12:46:51Z	2016-09-02T18:06:16Z		Not helpful error message after upgrading Node	136		
 8380	9373002	false	open	false	10		2016-09-02T12:53:08Z	2016-09-02T16:37:45Z		AIX: parallel/test-cluster-dgram-1 failures	207		
 8381	115237	false	open	false	6		2016-09-02T13:00:01Z	2016-09-02T16:38:50Z		http: support environment-defined proxy	98		
 8382	914122	false	open	false	11		2016-09-02T13:08:45Z	2016-09-02T15:49:22Z		yield/await support in repl/cli	75		
-8383	1084056	true	open	false	5		2016-09-02T13:17:30Z	2016-09-02T16:33:48Z		test: fix test-cluster-dgram-1 flakiness	49		
+8383	1084056	true	open	false	8		2016-09-02T13:17:30Z	2016-09-02T17:57:09Z		test: fix test-cluster-dgram-1 flakiness	49		
 8384	9373002	true	open	false	0	0	2016-09-02T14:40:11Z	2016-09-02T14:40:11Z		test: revert changes to test/parallel/test-cluster-dgram-1.js	54		
 8385	9373002	true	open	false	2		2016-09-02T15:21:59Z	2016-09-02T16:48:59Z		test: mark pseudo-tty/no_dropped_stdio as flaky	49		
 8386	2512748	true	open	false	1		2016-09-02T15:26:36Z	2016-09-02T16:49:37Z		inspector: listen on process.debugPort	78		
-8387	5689	false	open	false	0		2016-09-02T15:57:49Z	2016-09-02T15:57:49Z		Update Node v6 to use npm 3.10.4+ since npm@3.10.3 has shrinkwrap regression	46		
+8387	5689	false	open	false	2		2016-09-02T15:57:49Z	2016-09-02T17:55:37Z		Update Node v6 to use npm 3.10.4+ since npm@3.10.3 has a shrinkwrap regression	45		
 8388	8884298	false	open	false	0		2016-09-02T16:14:53Z	2016-09-02T16:14:53Z		Node 6.5 fails when using --harmony-proxies flag	41		
+8389	439929	true	open	false	0	0	2016-09-02T17:16:42Z	2016-09-02T17:16:42Z		doc: update targos email in readme per request	32		
+8390	2719681	false	open	false	0		2016-09-02T17:42:50Z	2016-09-02T17:42:50Z		RegExp flags property bug - very simple, very dangerous	30		
