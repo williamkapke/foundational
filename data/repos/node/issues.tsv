@@ -596,7 +596,7 @@
 7561	1847934	true	closed	false	7		2016-07-06T12:15:00Z	2016-08-10T09:35:11Z	2016-08-08T13:28:03Z	"Clarify ""fs.readFile"", ""fs.appendFile"", ""fs.writeFile"" doc…"	22		
 7562	291301	true	closed	false	11		2016-07-06T12:32:10Z	2016-07-08T17:09:26Z	2016-07-08T14:49:21Z	New Buffer API backport to v4.x (staging branch)	204		
 7563	9373002	false	closed	false	12		2016-07-06T15:15:31Z	2016-07-18T21:43:27Z	2016-07-18T21:43:27Z	AIX - failure in parallel/test-cluster-disconnect-handles	80		
-7564	9373002	true	open	false	20		2016-07-06T15:59:12Z	2016-09-02T15:14:24Z		core: normalize malloc, realloc 	87		
+7564	9373002	true	open	false	24		2016-07-06T15:59:12Z	2016-09-02T19:16:15Z		core: normalize malloc, realloc 	87		
 7565	275871	false	closed	false	8		2016-07-06T17:00:39Z	2016-07-23T14:40:11Z	2016-07-11T17:16:01Z	discuss: future of AsyncWrap	165		
 7566	115237	false	closed	false	3		2016-07-06T17:30:07Z	2016-08-09T18:53:55Z	2016-08-09T18:53:55Z	Changing default options for util.inspect	59		
 7567	17704638	true	open	false	0	0	2016-07-06T18:13:33Z	2016-07-06T18:13:33Z		doc: add bartosz sosnowski to colaborators	2		
@@ -1197,7 +1197,7 @@
 8163	1095402	false	closed	false	3		2016-08-18T17:34:15Z	2016-08-22T19:20:48Z	2016-08-18T17:39:25Z	Inserting CR in addition to LF in util.inspect() is not right on UNIX OSes	156		
 8164	2512748	true	closed	false	3	0	2016-08-18T17:44:47Z	2016-08-20T20:27:16Z	2016-08-20T20:27:16Z	child_process: reuse existing no-op function	48	2512748	2016-08-20T20:27:16Z
 8165	159100	false	closed	false	9		2016-08-18T19:12:43Z	2016-08-24T18:41:38Z	2016-08-24T18:41:38Z	url.resolve auth behavior if host does *not* change	121		
-8166	439929	true	open	false			2016-08-18T19:15:57Z	2016-09-02T18:37:07Z		lib,fs: use process.emitWarning instead of internal print dep warning	103		
+8166	439929	true	open	false	27		2016-08-18T19:15:57Z	2016-09-02T19:47:53Z		lib,fs: use process.emitWarning instead of internal print dep warning	103		
 8167	657552	false	closed	false	4		2016-08-18T19:48:09Z	2016-08-29T22:21:48Z	2016-08-29T22:21:48Z	TypeError: Forked processes must have an IPC channel	61		
 8168	2512748	true	open	false	5		2016-08-18T20:31:47Z	2016-09-01T17:34:50Z		test: exercise EE function type checking paths	60		
 8169	988441	true	closed	false	37		2016-08-18T20:52:01Z	2016-09-01T18:02:53Z	2016-08-25T18:04:43Z	buffer: hard-deprecate calling Buffer without new	59		
@@ -1398,22 +1398,22 @@
 8365	54666	true	closed	false	6	0	2016-09-01T04:39:55Z	2016-09-02T18:31:47Z	2016-09-02T18:31:47Z	doc: fix broken link in dgram doc	65	54666	2016-09-02T18:31:47Z
 8366	2725624	false	open	false	0		2016-09-01T09:19:11Z	2016-09-01T09:19:11Z		illegal access	107		
 8367	17428714	false	closed	false	5		2016-09-01T09:27:28Z	2016-09-01T14:14:24Z	2016-09-01T13:02:17Z	Question on undocumented API	291		
-8368	5292705	false	open	false	2		2016-09-01T09:40:10Z	2016-09-02T02:06:02Z		https.request failed for certain URL after first visting	141		
+8368	5292705	false	open	false	3		2016-09-01T09:40:10Z	2016-09-02T19:57:21Z		https.request failed for certain URL after first visting	141		
 8369	1336186	false	open	false	1		2016-09-01T13:50:17Z	2016-09-01T14:07:40Z		source maps are not working when debugging with chrome	115		
 8370	21603	true	open	false	6		2016-09-01T14:59:03Z	2016-09-01T16:10:20Z		doc: fix typos	34		
 8371	14923241	false	closed	false	1		2016-09-01T16:34:47Z	2016-09-01T20:18:48Z	2016-09-01T20:18:47Z	Cannot run angular 2 quick start npm install 	209		
-8372	1093990	true	open	false			2016-09-01T17:20:56Z	2016-09-02T16:50:47Z		timers: optimize same-tick unref	86		
+8372	1093990	true	open	false	5		2016-09-01T17:20:56Z	2016-09-02T19:47:06Z		timers: optimize same-tick unref	86		
 8373	1093990	false	open	false	5		2016-09-01T19:57:55Z	2016-09-02T16:02:45Z		"PipeWrap-s do not ref correctly and are never ""truely"" unrefed."	135		
 8374	718899	true	open	false	0		2016-09-01T21:34:19Z	2016-09-02T10:26:20Z		doc: update CI content in onboarding doc	33		
 8375	9373002	false	open	false	1		2016-09-02T00:59:59Z	2016-09-02T05:11:56Z		AIX: parallel/test-stdio-closed	73		
 8376	2081487	false	open	false	1		2016-09-02T04:52:16Z	2016-09-02T05:13:25Z		REPL not defined var has been declared	176		
 8377	1531427	false	open	false	0		2016-09-02T07:13:03Z	2016-09-02T08:06:23Z		Memory leak in DiffieHellman.set{Privat,Public}Key() and some suggestions	390		
 8378	1443911	true	open	false	0	0	2016-09-02T10:14:13Z	2016-09-02T10:14:13Z		doc: fix example in stream doc	54		
-8379	914122	false	open	false	7		2016-09-02T12:46:51Z	2016-09-02T18:09:34Z		Not helpful error message after upgrading Node	136		
+8379	914122	false	open	false	17		2016-09-02T12:46:51Z	2016-09-02T19:50:44Z		Not helpful error message after upgrading Node	136		
 8380	9373002	false	closed	false	11		2016-09-02T12:53:08Z	2016-09-02T19:05:20Z	2016-09-02T19:05:20Z	AIX: parallel/test-cluster-dgram-1 failures	207		
 8381	115237	false	open	false	6		2016-09-02T13:00:01Z	2016-09-02T16:38:50Z		http: support environment-defined proxy	98		
 8382	914122	false	open	false	11		2016-09-02T13:08:45Z	2016-09-02T15:49:22Z		yield/await support in repl/cli	75		
-8383	1084056	true	open	false	9		2016-09-02T13:17:30Z	2016-09-02T19:05:33Z		test: fix test-cluster-dgram-1 flakiness	49		
+8383	1084056	true	closed	false	11		2016-09-02T13:17:30Z	2016-09-02T19:41:18Z	2016-09-02T19:08:23Z	test: fix test-cluster-dgram-1 flakiness	49		
 8384	9373002	true	open	false	0	0	2016-09-02T14:40:11Z	2016-09-02T14:40:11Z		test: revert changes to test/parallel/test-cluster-dgram-1.js	54		
 8385	9373002	true	open	false	2		2016-09-02T15:21:59Z	2016-09-02T16:48:59Z		test: mark pseudo-tty/no_dropped_stdio as flaky	49		
 8386	2512748	true	open	false	1		2016-09-02T15:26:36Z	2016-09-02T16:49:37Z		inspector: listen on process.debugPort	78		
@@ -1421,4 +1421,6 @@
 8388	8884298	false	closed	false	2		2016-09-02T16:14:53Z	2016-09-02T18:20:27Z	2016-09-02T18:20:27Z	Node 6.5 fails when using --harmony-proxies flag	41		
 8389	439929	true	open	false	6		2016-09-02T17:16:42Z	2016-09-02T18:12:33Z		doc: update targos email in readme per request	32		
 8390	2719681	false	open	false	0		2016-09-02T17:42:50Z	2016-09-02T17:42:50Z		RegExp flags property bug - very simple, very dangerous	30		
-8391	439929	true	open	false	0	0	2016-09-02T18:57:35Z	2016-09-02T18:57:35Z		src: update module version mismatch error message	32		
+8391	439929	true	open	false	3		2016-09-02T18:57:35Z	2016-09-02T19:10:32Z		src: update module version mismatch error message	32		
+8392	115237	true	open	false	0	0	2016-09-02T19:27:46Z	2016-09-02T19:27:46Z		doc: add note regarding v8 options to ROADMAP	32		
+8393	16735925	false	open	false	0		2016-09-02T19:43:08Z	2016-09-02T19:43:08Z		Suggestion: Add lineNumber	45		
