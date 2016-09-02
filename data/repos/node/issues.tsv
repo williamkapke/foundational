@@ -189,6 +189,7 @@
 6115	408977	true	closed	false	18		2016-04-08T12:59:35Z	2016-07-05T17:59:27Z	2016-07-05T17:59:26Z	Defensive fix for process.config.variables regression (v5)	21		
 6131	2361826	false	closed	false	6		2016-04-09T10:47:11Z	2016-08-17T20:43:10Z	2016-08-17T20:43:10Z	Move .eslintrc to json or yaml	58		
 6141	899444	true	open	false	1		2016-04-11T03:27:06Z	2016-08-09T21:56:02Z		zlib: Support for reading/writing Gzip headers	222		
+6160	110455	false	open	false	12		2016-04-12T00:26:17Z	2016-09-02T14:05:29Z		Clearing require.cache of native addon makes it throw when required later.	216		
 6180	3824055	false	closed	false	18		2016-04-13T14:03:54Z	2016-07-26T17:44:29Z	2016-07-26T17:44:29Z	Memory leak in simple test case involving WeakSet	202		
 6184	289174	true	closed	false	26		2016-04-13T19:21:38Z	2016-08-30T14:15:19Z	2016-05-24T20:44:10Z	src: no abort from GetFD if object isn't wrapped	88		
 6212	54666	true	closed	false	10		2016-04-15T05:28:43Z	2016-08-30T18:31:41Z	2016-04-18T21:42:09Z	tools: move message listener to worker objects	64		
@@ -263,7 +264,7 @@
 6738	275871	true	closed	false	5		2016-05-13T14:45:12Z	2016-08-09T20:28:25Z	2016-08-09T20:28:25Z	build: turn on -fno-delete-null-pointer-checks (v0.10)	30		
 6739	1093990	true	closed	false	10	0	2016-05-13T16:11:17Z	2016-06-30T12:54:16Z	2016-06-30T12:54:15Z	os: deprecate `tmpDir()` in favour of `tmpdir()`	166	1093990	2016-06-30T12:54:15Z
 6747	439929	true	closed	false	4	0	2016-05-13T21:21:47Z	2016-08-09T20:33:21Z	2016-08-09T20:33:21Z	test: add known-issue tests for various http related issues	44		
-6749	439929	true	open	false	31		2016-05-13T22:29:10Z	2016-09-02T13:37:56Z		fs: move SyncWriteStream to internal/fs	87		
+6749	439929	true	open	false	34		2016-05-13T22:29:10Z	2016-09-02T14:02:04Z		fs: move SyncWriteStream to internal/fs	87		
 6763	988441	false	open	false	12		2016-05-14T20:27:49Z	2016-08-12T12:17:34Z		setTimeout delayed when sleeping on Windows	145		
 6764	718899	true	closed	false	29		2016-05-14T22:32:23Z	2016-07-11T22:38:14Z	2016-05-25T17:59:19Z	child_process: measure buffer length in bytes	75		
 6780	168508	true	closed	false	20		2016-05-16T02:46:18Z	2016-08-30T18:45:22Z	2016-05-27T22:18:47Z	build: Enable building with Ninja	86		
@@ -594,7 +595,7 @@
 7561	1847934	true	closed	false	7		2016-07-06T12:15:00Z	2016-08-10T09:35:11Z	2016-08-08T13:28:03Z	"Clarify ""fs.readFile"", ""fs.appendFile"", ""fs.writeFile"" doc…"	22		
 7562	291301	true	closed	false	11		2016-07-06T12:32:10Z	2016-07-08T17:09:26Z	2016-07-08T14:49:21Z	New Buffer API backport to v4.x (staging branch)	204		
 7563	9373002	false	closed	false	12		2016-07-06T15:15:31Z	2016-07-18T21:43:27Z	2016-07-18T21:43:27Z	AIX - failure in parallel/test-cluster-disconnect-handles	80		
-7564	9373002	true	open	false			2016-07-06T15:59:12Z	2016-09-02T08:23:14Z		core: normalize malloc, realloc 	87		
+7564	9373002	true	open	false			2016-07-06T15:59:12Z	2016-09-02T14:48:39Z		core: normalize malloc, realloc 	87		
 7565	275871	false	closed	false	8		2016-07-06T17:00:39Z	2016-07-23T14:40:11Z	2016-07-11T17:16:01Z	discuss: future of AsyncWrap	165		
 7566	115237	false	closed	false	3		2016-07-06T17:30:07Z	2016-08-09T18:53:55Z	2016-08-09T18:53:55Z	Changing default options for util.inspect	59		
 7567	17704638	true	open	false	0	0	2016-07-06T18:13:33Z	2016-07-06T18:13:33Z		doc: add bartosz sosnowski to colaborators	2		
@@ -1109,7 +1110,7 @@
 8077	3254987	false	closed	false	6		2016-08-12T07:53:11Z	2016-08-18T08:11:30Z	2016-08-18T07:20:12Z	child_process.spawn does not recognize local package in Windows	111		
 8078	101553	true	open	false	3		2016-08-12T08:14:23Z	2016-08-17T12:47:14Z		deps: cherry-pick 7bd24767 from v8 upstream (v6.x)	59		
 8079	13269109	false	closed	false	6		2016-08-12T08:18:00Z	2016-08-12T14:18:50Z	2016-08-12T14:18:49Z	Illegal instruction on PowerPC 440EP	270		
-8080	350686	false	open	false	0		2016-08-12T09:30:32Z	2016-08-12T09:30:32Z		debugger: bind to random port with --inspect=0	6		
+8080	350686	false	open	false	0		2016-08-12T09:30:32Z	2016-09-02T14:20:56Z		debugger: bind to random port with --inspect=0	6		
 8081	1408578	false	closed	false	2		2016-08-12T09:55:50Z	2016-08-23T19:12:49Z	2016-08-23T19:12:49Z	security problem in debug mode	99		
 8082	16539774	false	closed	false	5		2016-08-12T11:34:30Z	2016-08-12T16:05:01Z	2016-08-12T16:05:01Z	stack overflow when returning an ES6 proxy through a promise	239		
 8083	1008760	false	closed	false	5		2016-08-12T16:33:31Z	2016-08-13T12:49:25Z	2016-08-13T12:49:25Z	addon doesn't seem to honour group membership	100		
@@ -1303,7 +1304,7 @@
 8272	9373002	true	closed	false	11		2016-08-25T21:02:40Z	2016-08-26T13:55:27Z	2016-08-25T22:44:47Z	build: fix depenencies on AIX	55		
 8273	79017	true	closed	false	8	0	2016-08-25T21:32:38Z	2016-08-31T16:36:37Z	2016-08-31T16:36:37Z	src: avoid duplicate AtExit functions	88	79017	2016-08-31T16:36:37Z
 8274	9373002	true	open	false	7		2016-08-25T23:16:48Z	2016-08-26T12:56:47Z		test: mark test-child-process-fork-dgram as flaky	38		
-8275	1197615	true	open	false			2016-08-26T07:11:33Z	2016-09-02T09:00:04Z		_debugger: add select stack frame command	22		
+8275	1197615	true	open	false	10		2016-08-26T07:11:33Z	2016-09-02T14:27:05Z		_debugger: add select stack frame command	22		
 8276	926815	false	open	false	5		2016-08-26T07:12:52Z	2016-08-30T07:34:14Z		Provide access to file system times with nanoseconds resolution	162		
 8277	495647	true	open	false	13		2016-08-26T08:11:24Z	2016-08-28T10:44:20Z		 No abort on require() with null bytes	107		
 8278	207889	false	closed	false	10		2016-08-26T08:23:30Z	2016-08-27T08:42:14Z	2016-08-27T08:42:14Z	SIGABRT on OS/X	152		
@@ -1375,7 +1376,7 @@
 8344	718899	true	closed	false	6	13	2016-08-30T18:25:02Z	2016-09-01T21:24:07Z	2016-09-01T21:24:07Z	doc: update landing pr info in onboarding doc	43		
 8345	439929	true	closed	false	6	0	2016-08-30T21:42:20Z	2016-09-01T20:47:42Z	2016-09-01T20:47:42Z	lib: runtime deprecation of the constants module	50		
 8346	439929	true	open	false	0		2016-08-30T22:37:40Z	2016-09-01T20:18:38Z		doc: update authors list again	76		
-8347	14335429	false	open	false	2		2016-08-30T23:40:29Z	2016-09-02T08:50:48Z		Breakpoint event is not reported in Node.js 6.	330		
+8347	14335429	false	open	false	3		2016-08-30T23:40:29Z	2016-09-02T14:53:01Z		Breakpoint event is not reported in Node.js 6.	330		
 8348	718899	true	open	false	1		2016-08-31T00:37:49Z	2016-08-31T16:47:36Z		Backport of https://github.com/nodejs/node/pull/7630 for v4.x	5		
 8349	718899	true	open	false	2		2016-08-31T00:55:16Z	2016-08-31T16:43:10Z		V4.x backport for https://github.com/nodejs/node/pull/7647	4		
 8350	718899	true	open	false	5		2016-08-31T02:40:47Z	2016-09-02T06:55:14Z		test: test non-buffer/string with zlib	61		
@@ -1401,14 +1402,15 @@
 8370	21603	true	open	false	6		2016-09-01T14:59:03Z	2016-09-01T16:10:20Z		doc: fix typos	34		
 8371	14923241	false	closed	false	1		2016-09-01T16:34:47Z	2016-09-01T20:18:48Z	2016-09-01T20:18:47Z	Cannot run angular 2 quick start npm install 	209		
 8372	1093990	true	open	false			2016-09-01T17:20:56Z	2016-09-02T04:09:11Z		timers: optimize same-tick unref	86		
-8373	1093990	false	open	false	3		2016-09-01T19:57:55Z	2016-09-02T10:06:57Z		"PipeWrap-s do not ref correctly and are never ""truely"" unrefed."	135		
+8373	1093990	false	open	false	4		2016-09-01T19:57:55Z	2016-09-02T14:36:36Z		"PipeWrap-s do not ref correctly and are never ""truely"" unrefed."	135		
 8374	718899	true	open	false	0		2016-09-01T21:34:19Z	2016-09-02T10:26:20Z		doc: update CI content in onboarding doc	33		
 8375	9373002	false	open	false	1		2016-09-02T00:59:59Z	2016-09-02T05:11:56Z		AIX: parallel/test-stdio-closed	73		
 8376	2081487	false	open	false	1		2016-09-02T04:52:16Z	2016-09-02T05:13:25Z		REPL not defined var has been declared	176		
 8377	1531427	false	open	false	0		2016-09-02T07:13:03Z	2016-09-02T08:06:23Z		Memory leak in DiffieHellman.set{Privat,Public}Key() and some suggestions	390		
 8378	1443911	true	open	false	0	0	2016-09-02T10:14:13Z	2016-09-02T10:14:13Z		doc: fix example in stream doc	54		
-8379	914122	false	open	false	1		2016-09-02T12:46:51Z	2016-09-02T13:14:52Z		Not helpful error message after upgrading Node	136		
-8380	9373002	false	open	false	4		2016-09-02T12:53:08Z	2016-09-02T13:18:01Z		AIX: parallel/test-cluster-dgram-1 failures	207		
-8381	115237	false	open	false	0		2016-09-02T13:00:01Z	2016-09-02T13:12:56Z		http: support environment-defined proxy	98		
-8382	914122	false	open	false	0		2016-09-02T13:08:45Z	2016-09-02T13:08:45Z		yield/await support in repl/cli	75		
-8383	1084056	true	open	false	0	0	2016-09-02T13:17:30Z	2016-09-02T13:17:30Z		test: fix test-cluster-dgram-1 flakiness	49		
+8379	914122	false	open	false	2		2016-09-02T12:46:51Z	2016-09-02T14:02:40Z		Not helpful error message after upgrading Node	136		
+8380	9373002	false	open	false	6		2016-09-02T12:53:08Z	2016-09-02T14:03:35Z		AIX: parallel/test-cluster-dgram-1 failures	207		
+8381	115237	false	open	false	2		2016-09-02T13:00:01Z	2016-09-02T14:24:02Z		http: support environment-defined proxy	98		
+8382	914122	false	open	false	1		2016-09-02T13:08:45Z	2016-09-02T14:04:22Z		yield/await support in repl/cli	75		
+8383	1084056	true	open	false	2		2016-09-02T13:17:30Z	2016-09-02T14:31:21Z		test: fix test-cluster-dgram-1 flakiness	49		
+8384	9373002	true	open	false	0	0	2016-09-02T14:40:11Z	2016-09-02T14:40:11Z		test: revert changes to test/parallel/test-cluster-dgram-1.js	54		
