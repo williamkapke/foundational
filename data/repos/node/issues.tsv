@@ -359,7 +359,7 @@
 7178	17704638	true	closed	false	7		2016-06-06T13:42:07Z	2016-07-12T21:14:37Z	2016-06-10T15:32:23Z	benchmark: fix child-process-exec-stdout on win	48		
 7180	17704638	true	closed	false	30		2016-06-06T16:30:42Z	2016-08-17T13:09:10Z	2016-08-17T13:09:10Z	benchmark: use autocannon instead of wrk	71		
 7183	110455	true	closed	false			2016-06-06T23:33:10Z	2016-08-08T16:17:23Z	2016-08-05T20:51:27Z	"doc: clarify ""Reviewed-By"" iff ""LGTM"""	51		
-7189	2785744	true	open	false	14		2016-06-07T09:50:34Z	2016-09-02T15:06:55Z		"doc: Highlight deprecated API components in ""Table of Contents"""	29		
+7189	2785744	true	open	false	15		2016-06-07T09:50:34Z	2016-09-02T21:37:24Z		"doc: Highlight deprecated API components in ""Table of Contents"""	29		
 7191	20188	false	open	false	5		2016-06-07T11:22:23Z	2016-06-29T07:37:00Z		many small writes to a stream causes memory leak	238		
 7192	791134	false	closed	false	13		2016-06-07T12:49:41Z	2016-08-12T11:14:32Z	2016-08-12T11:14:32Z	Windows standard user cannot run any node 6 js file on mapped path	170		
 7193	5140254	false	closed	false	2		2016-06-07T13:13:34Z	2016-07-26T08:46:00Z	2016-07-26T08:46:00Z	VCS Files With Colons Cause Errors Trying To Install	444		
@@ -486,7 +486,7 @@
 7445	733877	false	open	false	0		2016-06-27T18:32:43Z	2016-06-27T18:32:43Z		Node.js MacOSX Installer problems with npm	455		
 7446	1018196	false	closed	false	4		2016-06-27T18:36:26Z	2016-08-06T18:16:37Z	2016-06-27T19:47:01Z	http fetch api	49		
 7447	715626	false	closed	false	9		2016-06-27T19:09:46Z	2016-06-30T02:05:37Z	2016-06-28T18:46:28Z	path.dirname() doesn't work with Windows' URNs	62		
-7448	439929	true	open	false	34		2016-06-27T20:02:10Z	2016-09-02T20:40:34Z		url: adding WHATWG URL support	105		
+7448	439929	true	open	false	36		2016-06-27T20:02:10Z	2016-09-02T21:11:16Z		url: adding WHATWG URL support	105		
 7449	10435209	true	closed	false	13		2016-06-27T20:19:48Z	2016-07-04T14:51:16Z	2016-07-04T14:51:15Z	Fix documentation of process.argv[0]	34		
 7450	287917	true	closed	false	4	8	2016-06-27T23:46:29Z	2016-06-29T23:04:00Z	2016-06-29T23:03:59Z	inspector: Do cleanups before notifying callback	135		
 7451	498775	true	closed	false	16	2	2016-06-28T00:12:14Z	2016-06-29T23:06:16Z	2016-06-29T23:06:16Z	[v4.x backport] test: run v8 tests from node tree	130	498775	2016-06-29T23:06:16Z
@@ -1274,7 +1274,7 @@
 8240	3374946	true	closed	false	6		2016-08-23T18:08:27Z	2016-08-25T22:16:24Z	2016-08-25T05:26:31Z	doc: fix buf.readUIntBE, buf.readUIntLE examples	75		
 8241	1622515	true	closed	false	6		2016-08-23T18:52:25Z	2016-08-27T11:36:26Z	2016-08-27T11:36:26Z	repl: Auto alignment for .editor mode	82		
 8242	718899	false	closed	false	15		2016-08-23T21:00:09Z	2016-08-26T19:43:36Z	2016-08-26T19:43:36Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-24	520		
-8243	287917	true	open	false	10		2016-08-23T21:39:12Z	2016-09-02T18:28:33Z		inspector - Use script name for target title	86		
+8243	287917	true	closed	false	11		2016-08-23T21:39:12Z	2016-09-02T21:45:59Z	2016-09-02T21:45:59Z	inspector - Use script name for target title	86		
 8244	40265	false	closed	false	1		2016-08-23T22:10:12Z	2016-08-24T00:20:27Z	2016-08-24T00:20:27Z	Fatal error: out of range index	73		
 8245	4421720	true	open	false	3		2016-08-24T03:39:08Z	2016-08-24T20:11:26Z		doc: add 2016-08-17 CTC meeting minutes	34		
 8246	1610233	false	closed	false	6		2016-08-24T03:40:08Z	2016-08-25T03:13:34Z	2016-08-25T03:13:34Z	http performance test result is bad	280		
@@ -1331,10 +1331,10 @@
 8298	899444	true	closed	false	4		2016-08-27T08:57:12Z	2016-08-30T15:12:58Z	2016-08-30T15:12:57Z	events: make memory leak warning more programatically accessible	137		
 8299	505333	true	open	false	3		2016-08-27T11:36:23Z	2016-08-27T20:17:40Z		benchmark: ignore significance when using --runs 1	110		
 8300	899444	true	open	false	5		2016-08-27T14:44:58Z	2016-08-30T14:15:05Z		net: make holding the buffer in memory more robust (v4.x backport)	101		
-8301	3524687	true	open	false			2016-08-27T16:46:50Z	2016-08-30T20:50:48Z		crypto: fix ucs2/ucs-2/utf16le/utf-16le encoding check	60		
+8301	3524687	true	open	false	6		2016-08-27T16:46:50Z	2016-09-02T21:59:31Z		crypto: fix ucs2/ucs-2/utf16le/utf-16le encoding check	60		
 8302	899444	true	closed	false	4		2016-08-27T17:49:55Z	2016-09-02T10:47:00Z	2016-09-02T10:46:59Z	buffer: directly use ArrayBuffer as the pool	271		
 8303	3001791	false	open	false	0		2016-08-27T19:25:31Z	2016-08-27T19:25:31Z		Warning about missing field initializer within the 4.5.0 building	42		
-8304	11638619	true	open	false	37		2016-08-27T19:32:51Z	2016-09-02T05:09:43Z		crypto: re-add crypto.timingSafeEqual	84		
+8304	11638619	true	open	false	41		2016-08-27T19:32:51Z	2016-09-02T21:29:02Z		crypto: re-add crypto.timingSafeEqual	84		
 8305	602462	true	closed	false	8		2016-08-27T22:37:24Z	2016-08-30T20:45:48Z	2016-08-30T20:45:48Z	test: cleanup test require symlink	54		
 8306	718899	true	closed	false	4		2016-08-28T03:45:38Z	2016-08-31T02:30:25Z	2016-08-31T02:30:25Z	test: add test for zlib.create*Raw()	63		
 8307	275871	false	open	false	1		2016-08-28T10:38:46Z	2016-08-28T22:58:14Z		module: node aborts when package.json is a directory	114		
@@ -1345,7 +1345,7 @@
 8312	2512748	true	open	false			2016-08-28T18:19:22Z	2016-09-02T08:34:53Z		WIP: child_process: spawn() and spawnSync() validation	190		
 8313	12671072	false	closed	false	1		2016-08-28T23:49:19Z	2016-08-29T00:03:41Z	2016-08-29T00:03:41Z	ES6 getters execute before being called	83		
 8314	1909610	false	closed	false	2		2016-08-29T00:09:19Z	2016-08-29T01:03:13Z	2016-08-29T00:13:04Z	6.5.0 release branch exists here but not on Node	109		
-8315	2499504	true	open	false	5		2016-08-29T02:37:55Z	2016-08-30T12:24:20Z		doc: add .md to the link	51		
+8315	2499504	true	closed	false	6		2016-08-29T02:37:55Z	2016-09-02T21:57:07Z	2016-09-02T21:57:07Z	doc: add .md to the link	51		
 8316	5234060	false	open	false	3		2016-08-29T02:56:58Z	2016-09-01T12:47:12Z		`want_separate_host_toolset` wrongly set=0 for android x64 on Mac/Linux(also 64bit)	128		
 8317	2352663	true	open	false	11		2016-08-29T07:41:54Z	2016-08-30T22:10:32Z		[wip] deps: update V8 to 5.4	44		
 8318	413206	false	closed	false	2		2016-08-29T11:24:44Z	2016-08-29T14:17:47Z	2016-08-29T14:17:47Z	Does a createCipheriv stream execute in the threadpool or the main thread?	69		
@@ -1376,7 +1376,7 @@
 8343	79017	true	closed	false	5	0	2016-08-30T17:51:58Z	2016-08-31T22:19:06Z	2016-08-31T22:19:06Z	deps: workaround clang-3.4 ICE	49	79017	2016-08-31T22:19:06Z
 8344	718899	true	closed	false	6	13	2016-08-30T18:25:02Z	2016-09-01T21:24:07Z	2016-09-01T21:24:07Z	doc: update landing pr info in onboarding doc	43		
 8345	439929	true	closed	false	6	0	2016-08-30T21:42:20Z	2016-09-01T20:47:42Z	2016-09-01T20:47:42Z	lib: runtime deprecation of the constants module	50		
-8346	439929	true	open	false	1		2016-08-30T22:37:40Z	2016-09-02T17:13:31Z		doc: update authors list again	76		
+8346	439929	true	open	false	6		2016-08-30T22:37:40Z	2016-09-02T22:04:41Z		doc: update authors list again	76		
 8347	14335429	false	open	false	3		2016-08-30T23:40:29Z	2016-09-02T14:53:01Z		Breakpoint event is not reported in Node.js 6.	330		
 8348	718899	true	open	false	1		2016-08-31T00:37:49Z	2016-08-31T16:47:36Z		Backport of https://github.com/nodejs/node/pull/7630 for v4.x	5		
 8349	718899	true	open	false	2		2016-08-31T00:55:16Z	2016-08-31T16:43:10Z		V4.x backport for https://github.com/nodejs/node/pull/7647	4		
@@ -1398,9 +1398,9 @@
 8365	54666	true	closed	false	6	0	2016-09-01T04:39:55Z	2016-09-02T18:31:47Z	2016-09-02T18:31:47Z	doc: fix broken link in dgram doc	65	54666	2016-09-02T18:31:47Z
 8366	2725624	false	open	false	0		2016-09-01T09:19:11Z	2016-09-01T09:19:11Z		illegal access	107		
 8367	17428714	false	closed	false	5		2016-09-01T09:27:28Z	2016-09-01T14:14:24Z	2016-09-01T13:02:17Z	Question on undocumented API	291		
-8368	5292705	false	open	false	3		2016-09-01T09:40:10Z	2016-09-02T20:29:50Z		https.request failed for certain URL after first visting	141		
+8368	5292705	false	open	false	5		2016-09-01T09:40:10Z	2016-09-02T21:28:30Z		https.request failed for certain URL after first visting	141		
 8369	1336186	false	open	false	1		2016-09-01T13:50:17Z	2016-09-01T14:07:40Z		source maps are not working when debugging with chrome	115		
-8370	21603	true	open	false	6		2016-09-01T14:59:03Z	2016-09-01T16:10:20Z		doc: fix typos	34		
+8370	21603	true	closed	false	7		2016-09-01T14:59:03Z	2016-09-02T21:51:10Z	2016-09-02T21:51:10Z	doc: fix typos	34		
 8371	14923241	false	closed	false	1		2016-09-01T16:34:47Z	2016-09-01T20:18:48Z	2016-09-01T20:18:47Z	Cannot run angular 2 quick start npm install 	209		
 8372	1093990	true	open	false	6		2016-09-01T17:20:56Z	2016-09-02T20:48:58Z		timers: optimize same-tick unref	86		
 8373	1093990	false	open	false	5		2016-09-01T19:57:55Z	2016-09-02T16:02:45Z		"PipeWrap-s do not ref correctly and are never ""truely"" unrefed."	135		
@@ -1421,8 +1421,9 @@
 8388	8884298	false	open	false	6		2016-09-02T16:14:53Z	2016-09-02T20:42:58Z		Node 6.5 fails when using --harmony-proxies flag	41		
 8389	439929	true	open	false	6		2016-09-02T17:16:42Z	2016-09-02T18:12:33Z		doc: update targos email in readme per request	32		
 8390	2719681	false	open	false	0		2016-09-02T17:42:50Z	2016-09-02T17:42:50Z		RegExp flags property bug - very simple, very dangerous	30		
-8391	439929	true	open	false			2016-09-02T18:57:35Z	2016-09-02T21:02:42Z		src: update module version mismatch error message	32		
+8391	439929	true	open	false			2016-09-02T18:57:35Z	2016-09-02T21:26:21Z		src: update module version mismatch error message	32		
 8392	115237	true	open	false	3		2016-09-02T19:27:46Z	2016-09-02T20:44:20Z		doc: add note regarding v8 options to ROADMAP	32		
 8393	16735925	false	open	false	4		2016-09-02T19:43:08Z	2016-09-02T20:10:56Z		Suggestion: Add lineNumber	45		
 8394	439929	true	open	false	0	0	2016-09-02T20:27:08Z	2016-09-02T20:27:08Z		process: fix handling of process.noDeprecation in emitWarning	51		
-8395	677994	true	open	false	0	0	2016-09-02T20:59:15Z	2016-09-02T20:59:15Z		src: add no-op for --harmony-proxies flag	57		
+8395	677994	true	open	false	2		2016-09-02T20:59:15Z	2016-09-02T21:10:02Z		src: add no-op for --harmony-proxies flag	59		
+8396	98955	true	open	false	0	0	2016-09-02T21:31:45Z	2016-09-02T21:31:45Z		deps: upgrade npm to 3.10.7	27		
