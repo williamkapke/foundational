@@ -749,7 +749,7 @@
 7712	1392388	false	open	false	4		2016-07-13T16:04:13Z	2016-07-13T18:13:47Z		Crypto - sign.update, verifier.update default parameter for strings 'utf8' not really true?	185		
 7713	15952	true	closed	false	3		2016-07-13T18:37:03Z	2016-07-14T18:49:01Z	2016-07-14T18:49:01Z	backport: update build-addons when node-gyp changes	96		
 7714	238531	false	closed	false	11		2016-07-13T20:11:16Z	2016-08-09T20:24:03Z	2016-08-09T20:24:03Z	Backport: fs.mkdtemp to v4.x	47		
-7715	275871	true	open	false	2		2016-07-13T20:40:11Z	2016-07-14T19:49:31Z		src: use RAII for mutexes and condition variables (v4.x)	3		
+7715	275871	true	open	false	3		2016-07-13T20:40:11Z	2016-09-04T18:39:40Z		src: use RAII for mutexes and condition variables (v4.x)	3		
 7716	6559933	false	closed	false	3		2016-07-13T21:12:02Z	2016-07-26T14:19:29Z	2016-07-26T14:19:29Z	[repl] Tab completion crashes when invoked on in multiline mode after line with error	297		
 7717	718899	true	closed	false	5		2016-07-13T21:35:54Z	2016-07-17T17:54:40Z	2016-07-17T17:54:40Z	test: fix flaky test-http-server-consumed-timeout	177		
 7718	677994	true	closed	false	17	0	2016-07-13T21:50:59Z	2016-07-26T14:18:36Z	2016-07-26T14:18:36Z	repl: don't crash if self is not in replMap	63		
@@ -917,7 +917,7 @@
 7880	2330987	false	open	false	11		2016-07-26T11:37:42Z	2016-08-04T12:28:17Z		Upgrade openssl sources to 1.0.2h broke npm install for me (behind proxy)	103		
 7881	718899	false	closed	false	17		2016-07-26T18:11:24Z	2016-08-05T22:02:22Z	2016-08-05T22:02:22Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-07-27	532		
 7882	127666	false	open	false	2		2016-07-26T19:07:04Z	2016-08-09T04:17:46Z		Stop the installer deleting my symlink for AppData\Roaming\npm	2		
-7883	1485909	true	open	false	5		2016-07-26T22:51:35Z	2016-07-27T20:03:32Z		deps: cherry-pick b93c80a from v8 upstream	56		
+7883	1485909	true	open	false	6		2016-07-26T22:51:35Z	2016-09-04T18:39:24Z		deps: cherry-pick b93c80a from v8 upstream	56		
 7884	6316590	true	open	false	5		2016-07-26T23:34:36Z	2016-08-10T04:57:54Z		doc: add missing windowsVerbatimArguments option in child_process.spawn	59		
 7885	634573	true	closed	false	10		2016-07-27T02:32:19Z	2016-07-29T16:15:54Z	2016-07-29T16:15:53Z	doc: remove extra space in console.log examples	51		
 7886	718899	true	open	false	7		2016-07-27T05:34:43Z	2016-07-29T05:08:01Z		test: speed up test-net-reconnect-error	86		
@@ -1332,7 +1332,7 @@
 8297	592637	false	open	false	4		2016-08-27T07:54:16Z	2016-08-27T10:08:45Z		How to use fd with net.Socket?	233		
 8298	899444	true	closed	false	4		2016-08-27T08:57:12Z	2016-08-30T15:12:58Z	2016-08-30T15:12:57Z	events: make memory leak warning more programatically accessible	137		
 8299	505333	true	open	false	3		2016-08-27T11:36:23Z	2016-08-27T20:17:40Z		benchmark: ignore significance when using --runs 1	110		
-8300	899444	true	open	false	5		2016-08-27T14:44:58Z	2016-08-30T14:15:05Z		net: make holding the buffer in memory more robust (v4.x backport)	101		
+8300	899444	true	open	false	6		2016-08-27T14:44:58Z	2016-09-04T18:38:26Z		net: make holding the buffer in memory more robust (v4.x backport)	101		
 8301	3524687	true	closed	false	7		2016-08-27T16:46:50Z	2016-09-04T16:51:23Z	2016-09-04T16:51:23Z	crypto: fix ucs2/ucs-2/utf16le/utf-16le encoding check	60		
 8302	899444	true	closed	false	4		2016-08-27T17:49:55Z	2016-09-02T10:47:00Z	2016-09-02T10:46:59Z	buffer: directly use ArrayBuffer as the pool	271		
 8303	3001791	false	open	false	0		2016-08-27T19:25:31Z	2016-08-27T19:25:31Z		Warning about missing field initializer within the 4.5.0 building	42		
@@ -1372,7 +1372,7 @@
 8337	16787433	true	open	false	0	0	2016-08-30T12:51:40Z	2016-08-30T12:51:40Z		merge from remote	47		
 8338	899444	true	open	false			2016-08-30T12:59:48Z	2016-08-30T15:15:07Z		benchmark: add benches for fs.stat & fs.statSync	59		
 8339	9373002	false	closed	false	4		2016-08-30T14:24:08Z	2016-08-30T15:52:18Z	2016-08-30T15:52:18Z	V8 tests - faling on PPC, 390 on master 	72		
-8340	234659	true	open	false	0	0	2016-08-30T14:31:45Z	2016-08-30T14:31:45Z		Backport 2253	46		
+8340	234659	true	open	false	1		2016-08-30T14:31:45Z	2016-09-04T18:37:56Z		Backport 2253	46		
 8341	899444	true	closed	false	4		2016-08-30T17:20:34Z	2016-09-04T15:26:47Z	2016-09-04T15:26:46Z	events: make memory leak warning name more verbose	70		
 8342	3824055	false	open	false	5		2016-08-30T17:35:35Z	2016-08-30T22:41:10Z		Should Node.js standard library throw custom Error subclasses?	222		
 8343	79017	true	closed	false	5	0	2016-08-30T17:51:58Z	2016-08-31T22:19:06Z	2016-08-31T22:19:06Z	deps: workaround clang-3.4 ICE	49	79017	2016-08-31T22:19:06Z
@@ -1380,7 +1380,7 @@
 8345	439929	true	closed	false	6	0	2016-08-30T21:42:20Z	2016-09-01T20:47:42Z	2016-09-01T20:47:42Z	lib: runtime deprecation of the constants module	50		
 8346	439929	true	closed	false	12		2016-08-30T22:37:40Z	2016-09-04T17:05:42Z	2016-09-04T17:05:41Z	doc: update authors list again	76		
 8347	14335429	false	open	false	3		2016-08-30T23:40:29Z	2016-09-02T14:53:01Z		Breakpoint event is not reported in Node.js 6.	330		
-8348	718899	true	open	false	1		2016-08-31T00:37:49Z	2016-08-31T16:47:36Z		Backport of https://github.com/nodejs/node/pull/7630 for v4.x	5		
+8348	718899	true	open	false	2		2016-08-31T00:37:49Z	2016-09-04T18:27:30Z		Backport of https://github.com/nodejs/node/pull/7630 for v4.x	5		
 8349	718899	true	open	false	2		2016-08-31T00:55:16Z	2016-08-31T16:43:10Z		V4.x backport for https://github.com/nodejs/node/pull/7647	4		
 8350	718899	true	closed	false	7		2016-08-31T02:40:47Z	2016-09-02T20:39:55Z	2016-09-02T20:39:55Z	test: test non-buffer/string with zlib	61		
 8351	1412792	false	closed	false	4		2016-08-31T06:03:52Z	2016-09-01T13:59:29Z	2016-09-01T10:03:59Z	fs.accessSync raise an error on existing file with node error	171		
@@ -1431,9 +1431,10 @@
 8396	98955	true	open	false	0	0	2016-09-02T21:31:45Z	2016-09-02T21:31:45Z		deps: upgrade npm to 3.10.7	27		
 8397	84792	false	open	false	9		2016-09-02T23:59:18Z	2016-09-03T15:23:38Z		fs.read at position 0 followed by position null reads wrong data	216		
 8398	718899	true	open	false	2		2016-09-03T03:33:02Z	2016-09-04T03:36:23Z		doc: update BUILDING.md	76		
-8399	238531	true	open	false	5		2016-09-03T09:20:18Z	2016-09-04T17:59:57Z		Backport/gh 7427	54		
+8399	238531	true	closed	false	7		2016-09-03T09:20:18Z	2016-09-04T18:26:20Z	2016-09-04T18:26:20Z	Backport/gh 7427	54		
 8400	1443911	true	open	false	0		2016-09-03T09:52:35Z	2016-09-04T03:40:59Z		doc: clarify sentence in event loop doc	50		
 8401	1622515	true	open	false	3		2016-09-03T10:42:22Z	2016-09-04T03:39:59Z		readline: Emit 'line' event with line number	71		
 8402	17122340	false	open	false	0		2016-09-03T15:43:52Z	2016-09-03T15:43:52Z		DLL error on Windows 8.1	39		
 8403	718899	true	open	false	0	0	2016-09-04T05:31:33Z	2016-09-04T05:31:33Z		test: increase _debugger coverage	69		
 8404	229633	false	open	false	5		2016-09-04T07:52:25Z	2016-09-04T16:15:35Z		Node 6.5.0 compilation fails on Debian Jessie with non ascii pathes	149		
+8405	432351	true	open	false	0	0	2016-09-04T19:00:12Z	2016-09-04T19:00:12Z		src: moving f function call comment	52		
