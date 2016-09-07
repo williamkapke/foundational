@@ -174,7 +174,7 @@
 5656	495647	true	open	false	6		2016-03-11T07:32:35Z	2016-08-09T22:05:50Z		 Refactor mac installer (built on #2571)	312		
 5659	15952	false	closed	false	22		2016-03-11T16:00:53Z	2016-07-22T20:01:30Z	2016-06-30T17:08:41Z	repl: useGlobal docs and code mismatch	127		
 5687	1699593	false	closed	false	8		2016-03-13T18:58:57Z	2016-08-01T12:36:42Z	2016-03-13T19:12:46Z	Promise.all is not a function	77		
-5701	5038030	false	closed	false	6		2016-03-14T16:47:14Z	2016-09-07T02:57:52Z	2016-03-14T17:15:09Z	Error while loading shared libraries - libhttp_parser	169		
+5701	5038030	false	closed	false	7		2016-03-14T16:47:14Z	2016-09-07T03:03:39Z	2016-03-14T17:15:09Z	Error while loading shared libraries - libhttp_parser	169		
 5703	15952	true	closed	false	27		2016-03-14T20:52:17Z	2016-08-30T14:12:56Z	2016-06-30T17:08:42Z	repl: Default `useGlobal` to false in CLI REPL.	139		
 5730	459764	false	closed	false	12		2016-03-15T23:20:35Z	2016-07-06T15:27:04Z	2016-07-06T15:27:04Z	REPL started with replServer doesn't persist history	182		
 5745	439929	true	closed	false	23	0	2016-03-16T21:21:26Z	2016-07-05T17:55:53Z	2016-07-05T17:55:53Z	buffer: backport --zero-fill-buffers command line option	130		
@@ -1079,7 +1079,7 @@
 8037	439929	true	open	false	1		2016-08-09T20:50:54Z	2016-08-09T22:11:08Z		doc: document vm module limitation with timeouts and async code	28		
 8038	4976075	true	closed	false	15		2016-08-09T21:30:44Z	2016-08-11T17:06:35Z	2016-08-11T16:40:30Z	Cherry pick 588e15c and c0d4bb8 from upstream V8	61		
 8039	899444	true	open	false	11		2016-08-09T22:47:32Z	2016-08-18T01:45:02Z		test: add an zlib binding addon test	71		
-8040	11638619	true	closed	false	80		2016-08-09T23:32:06Z	2016-08-22T18:18:48Z	2016-08-20T02:38:11Z	Add crypto.timingSafeEqual()	68		
+8040	11638619	true	closed	false	80		2016-08-09T23:32:06Z	2016-09-07T03:54:19Z	2016-08-20T02:38:11Z	Add crypto.timingSafeEqual()	68		
 8041	718899	false	open	false	0		2016-08-09T23:45:53Z	2016-08-09T23:45:53Z		Investigate flaky test-timers-blocking-callback on FreeBSD	38		
 8042	3231296	false	closed	false	3		2016-08-10T01:22:11Z	2016-08-10T22:07:48Z	2016-08-10T11:56:32Z	VM: Add source mapping support	163		
 8043	426418	true	open	false	11		2016-08-10T02:07:44Z	2016-08-15T16:09:09Z		inspector: add support for uncaught exception	60		
@@ -1264,7 +1264,7 @@
 8222	11819320	false	open	false	0		2016-08-22T16:23:54Z	2016-08-22T16:23:54Z		Cant compile from github	38		
 8223	439929	true	open	false	7		2016-08-22T16:31:49Z	2016-08-31T17:11:18Z		promise: warning on unhandled rejection (v6.x)	71		
 8224	714117	false	open	false	4		2016-08-22T16:54:02Z	2016-08-22T19:35:43Z		REPL debugging Proxy bug	105		
-8225	439929	true	closed	false	7		2016-08-22T18:18:33Z	2016-08-23T17:54:24Z	2016-08-23T17:54:23Z	"Revert ""crypto: add crypto.timingSafeEqual"""	70		
+8225	439929	true	closed	false	8		2016-08-22T18:18:33Z	2016-09-07T03:54:04Z	2016-08-23T17:54:23Z	"Revert ""crypto: add crypto.timingSafeEqual"""	70		
 8226	961599	false	open	false	2		2016-08-22T18:43:07Z	2016-08-22T21:44:43Z		Some c-ares symbols in Node headers not exported by Node executable	95		
 8227	3374946	false	closed	false	3		2016-08-22T19:32:15Z	2016-08-26T19:46:32Z	2016-08-26T19:46:32Z	buf.readUIntBE and buf.readUIntLE documentation examples are switched	80		
 8228	56045	false	open	false	0		2016-08-22T20:30:30Z	2016-08-22T20:30:30Z		buffer.write empty string to end of buffer: regression?	116		
@@ -1452,7 +1452,7 @@
 8411	899444	true	open	false	6		2016-09-05T14:16:13Z	2016-09-06T22:34:11Z		deps: cherry-pick 8ed65b97 from V8's upstream	180		
 8412	134460	true	open	false	1		2016-09-05T15:02:46Z	2016-09-06T08:15:44Z		win,build: improvements to vcbuild.bat	221		
 8413	899444	true	open	false	2		2016-09-05T20:41:51Z	2016-09-06T12:09:13Z		build: run `npm install` for doc builds in tarball	93		
-8414	718899	true	closed	false	1		2016-09-06T00:32:27Z	2016-09-06T14:45:45Z	2016-09-06T14:45:45Z	WIP: test-stdio-closed troubleshooting	47		
+8414	718899	true	closed	false	2		2016-09-06T00:32:27Z	2016-09-07T03:54:51Z	2016-09-06T14:45:45Z	WIP: test-stdio-closed troubleshooting	47		
 8415	432351	true	open	false	5		2016-09-06T07:25:33Z	2016-09-07T00:25:01Z		vm: changing ContextifyScript to Script in comment	55		
 8416	432351	true	open	false	5		2016-09-06T07:43:21Z	2016-09-07T00:28:19Z		src: updating f function call comment	75		
 8417	413206	false	closed	false	3		2016-09-06T10:15:12Z	2016-09-06T14:11:14Z	2016-09-06T14:11:14Z	crypto.scryptSync()	37		
