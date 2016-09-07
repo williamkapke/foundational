@@ -14,6 +14,7 @@
 831	2993861	false	open	false	14		2015-02-13T14:18:23Z	2016-08-06T08:28:42Z		`console` should be safe	58		
 854	172	false	open	false	67		2015-02-15T19:37:43Z	2016-09-03T09:46:48Z		os x: FSEventStreamFlushSync assertions logged to console	100		
 855	617481	false	open	false	16		2015-02-15T21:57:32Z	2016-08-11T16:02:47Z		vm: references to context inside objects are not === the original context	58		
+862	17607	false	closed	false	8		2015-02-17T05:55:09Z	2016-09-07T13:55:17Z	2015-05-06T21:14:16Z	spawn's stdio can result in stderr being closed in child	158		
 1128	36662	false	open	false	17		2015-03-11T22:48:11Z	2016-08-29T14:15:29Z		feature request: a way to inspect what's in the event loop	137		
 1278	532414	false	closed	false	37		2015-03-26T19:55:14Z	2016-08-22T21:08:42Z	2016-02-12T21:20:04Z	Compressed packages	136		
 1495	902041	false	open	false	31		2015-04-21T23:54:21Z	2016-08-28T10:02:20Z		TLS Module: The default ecdhCurve, prime256v1 (aka NIST P-256) is not safe.	64		
@@ -1307,13 +1308,13 @@
 8266	275871	false	open	false	5		2016-08-25T08:33:26Z	2016-08-26T23:26:53Z		buffer: zero-sized slices have .buffer but not .parent	51		
 8267	10029810	false	open	false	0		2016-08-25T12:20:58Z	2016-08-25T12:20:58Z		SyntaxError: Octal literals are not allowed in strict mode.	113		
 8268	6802696	false	closed	false	3		2016-08-25T14:18:13Z	2016-08-26T19:38:57Z	2016-08-26T19:38:57Z	nodejs install but not runing	87		
-8269	1186693	false	open	false	2		2016-08-25T14:30:49Z	2016-08-26T08:33:46Z		Docs: Further improvements to Addon section, specifically numeric and binary IO	163		
+8269	1186693	false	open	false	2		2016-08-25T14:30:49Z	2016-09-07T13:29:25Z		Docs: Further improvements to Addon section, specifically numeric and binary IO	163		
 8270	439929	true	closed	false	0	0	2016-08-25T17:19:06Z	2016-08-27T03:06:40Z	2016-08-27T03:06:40Z	src: make it simple to emit process warnings from src	63		
 8271	9373002	false	open	false	3		2016-08-25T19:44:47Z	2016-08-25T23:18:22Z		test-child-process-fork-dgram Intermittent timeout on AIX	51		
 8272	9373002	true	closed	false	11		2016-08-25T21:02:40Z	2016-08-26T13:55:27Z	2016-08-25T22:44:47Z	build: fix depenencies on AIX	55		
 8273	79017	true	closed	false	8	0	2016-08-25T21:32:38Z	2016-08-31T16:36:37Z	2016-08-31T16:36:37Z	src: avoid duplicate AtExit functions	88	79017	2016-08-31T16:36:37Z
 8274	9373002	true	open	false	7		2016-08-25T23:16:48Z	2016-08-26T12:56:47Z		test: mark test-child-process-fork-dgram as flaky	38		
-8275	1197615	true	open	false	11		2016-08-26T07:11:33Z	2016-09-07T07:44:58Z		_debugger: add select stack frame command	22		
+8275	1197615	true	open	false	12		2016-08-26T07:11:33Z	2016-09-07T13:56:22Z		_debugger: add select stack frame command	22		
 8276	926815	false	open	false	5		2016-08-26T07:12:52Z	2016-08-30T07:34:14Z		Provide access to file system times with nanoseconds resolution	162		
 8277	495647	true	open	false			2016-08-26T08:11:24Z	2016-09-04T13:50:19Z		 No abort on require() with null bytes	107		
 8278	207889	false	closed	false	10		2016-08-26T08:23:30Z	2016-08-27T08:42:14Z	2016-08-27T08:42:14Z	SIGABRT on OS/X	152		
@@ -1355,7 +1356,7 @@
 8314	1909610	false	closed	false	2		2016-08-29T00:09:19Z	2016-08-29T01:03:13Z	2016-08-29T00:13:04Z	6.5.0 release branch exists here but not on Node	109		
 8315	2499504	true	closed	false	6		2016-08-29T02:37:55Z	2016-09-02T21:57:07Z	2016-09-02T21:57:07Z	doc: add .md to the link	51		
 8316	5234060	false	open	false	3		2016-08-29T02:56:58Z	2016-09-01T12:47:12Z		`want_separate_host_toolset` wrongly set=0 for android x64 on Mac/Linux(also 64bit)	128		
-8317	2352663	true	open	false	11		2016-08-29T07:41:54Z	2016-09-06T19:25:56Z		[wip] deps: update V8 to 5.4	46		
+8317	2352663	true	open	false	12		2016-08-29T07:41:54Z	2016-09-07T13:32:02Z		[wip] deps: update V8 to 5.4	50		
 8318	413206	false	closed	false	2		2016-08-29T11:24:44Z	2016-08-29T14:17:47Z	2016-08-29T14:17:47Z	Does a createCipheriv stream execute in the threadpool or the main thread?	69		
 8319	7109350	false	open	false	0		2016-08-29T12:13:58Z	2016-08-29T12:13:58Z		repl autocompletion is off for `const` and `let` variables	65		
 8320	11850893	false	closed	false	1		2016-08-29T12:51:42Z	2016-08-29T13:09:40Z	2016-08-29T13:09:40Z	Problem in read JSON with FS	60		
@@ -1468,5 +1469,5 @@
 8427	275871	true	open	false	5		2016-09-06T21:23:09Z	2016-09-07T10:46:54Z		src: remove unneeded Environment error methods	32		
 8428	1093990	false	open	false	1		2016-09-06T21:45:57Z	2016-09-07T00:11:25Z		v6.6.0 pre-proposal	936		
 8429	287917	true	open	false	1		2016-09-07T01:14:31Z	2016-09-07T02:15:49Z		inspector: Introduce a smoke test for inspector	58		
-8430	134460	true	open	false	1		2016-09-07T01:56:40Z	2016-09-07T12:45:44Z		win,build: forward release_urlbase to configure	101		
+8430	134460	true	open	false	1		2016-09-07T01:56:40Z	2016-09-07T13:23:24Z		win,build: forward release_urlbase to configure	101		
 8431	1521394	false	open	false	0		2016-09-07T11:12:37Z	2016-09-07T11:12:37Z		req.emit is not a function	73		
