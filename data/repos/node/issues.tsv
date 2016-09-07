@@ -322,7 +322,7 @@
 7028	1093990	true	open	false	3		2016-05-27T19:42:59Z	2016-08-04T22:46:56Z		tools: align the jslint summary like the test runner	66		
 7033	718899	true	closed	false	8		2016-05-28T03:04:33Z	2016-07-11T22:06:26Z	2016-06-01T03:30:45Z	test: make test-child-process-fork-net more robust	174		
 7035	54666	false	closed	false	2		2016-05-28T06:47:06Z	2016-07-02T14:34:40Z	2016-07-02T14:34:40Z	Investigate flaky parallel/test-debugger-repeat-last	29		
-7040	9536601	false	open	false	4		2016-05-28T18:25:18Z	2016-09-05T18:25:43Z		async_wrap: provide a way to act as an asynchronous try-catch	72		
+7040	9536601	false	open	false	6		2016-05-28T18:25:18Z	2016-09-06T23:13:12Z		async_wrap: provide a way to act as an asynchronous try-catch	72		
 7042	718899	false	closed	false	8		2016-05-29T00:00:46Z	2016-07-09T04:46:48Z	2016-07-09T04:46:48Z	Investigate flaky test-fs-read-buffer-tostring-fail on Raspberry Pi	64		
 7043	54666	true	open	false	26		2016-05-29T07:14:49Z	2016-08-09T22:02:31Z		cluster,net: fix random port keying	67		
 7044	207759	false	closed	false	11		2016-05-29T09:10:47Z	2016-08-12T11:14:32Z	2016-08-12T11:14:32Z	npm in Node 6.2.0 MSI does not work in Windows Docker container	348		
@@ -1341,7 +1341,7 @@
 8301	3524687	true	closed	false	7		2016-08-27T16:46:50Z	2016-09-04T16:51:23Z	2016-09-04T16:51:23Z	crypto: fix ucs2/ucs-2/utf16le/utf-16le encoding check	60		
 8302	899444	true	closed	false	4		2016-08-27T17:49:55Z	2016-09-02T10:47:00Z	2016-09-02T10:46:59Z	buffer: directly use ArrayBuffer as the pool	271		
 8303	3001791	false	open	false	0		2016-08-27T19:25:31Z	2016-08-27T19:25:31Z		Warning about missing field initializer within the 4.5.0 building	42		
-8304	11638619	true	open	false			2016-08-27T19:32:51Z	2016-09-03T18:42:11Z		crypto: re-add crypto.timingSafeEqual	84		
+8304	11638619	true	open	false	65		2016-08-27T19:32:51Z	2016-09-06T23:35:07Z		crypto: re-add crypto.timingSafeEqual	84		
 8305	602462	true	closed	false	8		2016-08-27T22:37:24Z	2016-08-30T20:45:48Z	2016-08-30T20:45:48Z	test: cleanup test require symlink	54		
 8306	718899	true	closed	false	4		2016-08-28T03:45:38Z	2016-08-31T02:30:25Z	2016-08-31T02:30:25Z	test: add test for zlib.create*Raw()	63		
 8307	275871	false	open	false	1		2016-08-28T10:38:46Z	2016-08-28T22:58:14Z		module: node aborts when package.json is a directory	114		
@@ -1409,7 +1409,7 @@
 8369	1336186	false	open	false	1		2016-09-01T13:50:17Z	2016-09-01T14:07:40Z		source maps are not working when debugging with chrome	115		
 8370	21603	true	closed	false	8		2016-09-01T14:59:03Z	2016-09-03T05:30:27Z	2016-09-02T21:51:10Z	doc: fix typos	34		
 8371	14923241	false	closed	false	1		2016-09-01T16:34:47Z	2016-09-01T20:18:48Z	2016-09-01T20:18:47Z	Cannot run angular 2 quick start npm install 	209		
-8372	1093990	true	open	false	8		2016-09-01T17:20:56Z	2016-09-06T22:33:34Z		timers: optimize same-tick unref	86		
+8372	1093990	true	closed	false	10		2016-09-01T17:20:56Z	2016-09-06T23:10:00Z	2016-09-06T23:10:00Z	timers: optimize same-tick unref	86		
 8373	1093990	false	open	false	5		2016-09-01T19:57:55Z	2016-09-02T16:02:45Z		"PipeWrap-s do not ref correctly and are never ""truely"" unrefed."	135		
 8374	718899	true	closed	false	4	0	2016-09-01T21:34:19Z	2016-09-05T03:40:26Z	2016-09-05T03:40:26Z	doc: update CI content in onboarding doc	33		
 8375	9373002	false	open	false	1		2016-09-02T00:59:59Z	2016-09-02T05:11:56Z		AIX: parallel/test-stdio-closed	73		
@@ -1459,10 +1459,10 @@
 8419	8774679	true	open	false	0	0	2016-09-06T10:48:43Z	2016-09-06T10:48:43Z		net: multiple listen() events fail silently	95		
 8420	1443911	true	open	false	6		2016-09-06T11:39:49Z	2016-09-06T15:06:50Z		url: fix off-by-one error in loop handling dots	52		
 8421	275871	false	open	false	1		2016-09-06T14:48:40Z	2016-09-06T16:21:47Z		fs: fs.watchFile() should not emit 'stop' event synchronously	45		
-8422	1093990	true	open	false			2016-09-06T15:52:10Z	2016-09-06T22:09:34Z		timers: do not expose .unref()._handle._list	63		
+8422	1093990	true	open	false			2016-09-06T15:52:10Z	2016-09-06T23:05:56Z		timers: do not expose .unref()._handle._list	63		
 8423	4421720	true	open	false	1		2016-09-06T15:52:19Z	2016-09-06T17:47:04Z		doc: add CTC meeting minutes 2016-08-24	33		
 8424	4421720	true	open	false			2016-09-06T16:02:59Z	2016-09-06T22:56:40Z		doc: add CTC meeting minutes 2016-08-31	27		
-8425	718899	false	open	false	3		2016-09-06T17:57:12Z	2016-09-06T22:25:19Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-09-07	468		
+8425	718899	false	open	false	5		2016-09-06T17:57:12Z	2016-09-06T23:08:45Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-09-07	476		
 8426	323878	false	open	false	0		2016-09-06T20:32:22Z	2016-09-06T21:03:49Z		v8 inspector - Runtime.evaluate doesn't work without a contextId	87		
 8427	275871	true	open	false	2		2016-09-06T21:23:09Z	2016-09-06T22:22:42Z		src: remove unneeded Environment error methods	32		
 8428	1093990	false	open	false	0		2016-09-06T21:45:57Z	2016-09-06T21:45:57Z		v6.6.0 pre-proposal	936		
