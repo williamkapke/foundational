@@ -1,10 +1,10 @@
 {
-  "words": 8705,
-  "comments": 175,
+  "words": 9659,
+  "comments": 186,
   "prs": {
-    "opened": 19,
-    "closed": 10,
-    "words": 8705,
+    "opened": 20,
+    "closed": 12,
+    "words": 9659,
     "reopened": null
   },
   "issues": {
@@ -28,7 +28,12 @@
     },
     "abi-stable-node": {"open":0},
     "api": {"open":11},
-    "benchmarking": {"open":15},
+    "benchmarking": {
+      "56": {"comments":1,"words":31,"pr":true},
+      "open": 15,
+      "words": 31,
+      "comments": 1
+    },
     "build": {
       "484": {"comments":1,"words":32,"pr":true},
       "487": {"comments":10,"words":169,"pr":true,"opened":"2016-09-07T11:25:29Z","opener":"1231635"},
@@ -120,12 +125,13 @@
       "7989": {"comments":2,"words":294,"pr":true},
       "8040": {"comments":1,"words":1,"pr":true},
       "8063": {"comments":1,"words":47,"pr":true},
+      "8155": {"comments":1,"words":33,"pr":true},
       "8225": {"comments":1,"words":1,"pr":true},
       "8234": {"comments":2,"words":51,"pr":true,"closed":"2016-09-07T07:30:01Z","closer":"275871"},
       "8245": {"comments":3,"words":39,"pr":true,"closed":"2016-09-07T15:51:23Z","closer":"4421720"},
       "8256": {"comments":1,"words":8,"pr":true},
       "8265": {"comments":1,"words":16,"pr":true},
-      "8269": {"comments":1,"words":66,"pr":true},
+      "8269": {"comments":2,"words":261,"pr":true},
       "8275": {"comments":2,"words":115,"pr":true},
       "8304": {"comments":1,"words":23,"pr":true},
       "8311": {"comments":1,"words":6,"pr":true},
@@ -133,7 +139,7 @@
       "8372": {"comments":1,"words":106,"pr":true},
       "8375": {"comments":3,"words":249,"pr":true},
       "8394": {"comments":1,"words":32,"pr":true},
-      "8395": {"comments":1,"words":31,"pr":true},
+      "8395": {"comments":2,"words":88,"pr":true},
       "8403": {"comments":11,"words":215,"pr":true,"closed":"2016-09-07T05:50:53Z","closer":"718899"},
       "8407": {"comments":1,"words":1,"pr":true},
       "8409": {"comments":2,"words":17,"pr":true},
@@ -143,7 +149,7 @@
       "8415": {"comments":1,"words":1,"pr":true},
       "8416": {"comments":4,"words":120,"pr":true,"closed":"2016-09-07T08:06:52Z","closer":"432351"},
       "8420": {"comments":1,"words":13,"pr":true},
-      "8422": {"comments":4,"words":218,"pr":true},
+      "8422": {"comments":6,"words":270,"pr":true},
       "8424": {"comments":2,"words":4,"pr":true},
       "8425": {"comments":11,"words":529,"pr":true},
       "8427": {"comments":2,"words":4,"pr":true},
@@ -155,22 +161,23 @@
       "8433": {"comments":7,"words":194,"opened":"2016-09-07T18:18:16Z","opener":"8082333","pr":true,"closed":"","closer":"855219"},
       "8434": {"comments":1,"words":35,"opened":"2016-09-07T19:11:18Z","opener":"1093990","pr":true},
       "8435": {"comments":1,"words":107,"opened":"2016-09-07T19:26:43Z","opener":"7959437","pr":true},
-      "open": 768,
-      "words": 4143,
-      "comments": 106,
-      "opened": 7,
+      "8436": {"comments":0,"words":294,"opened":"2016-09-07T20:23:15Z","opener":"836802","pr":true},
+      "open": 769,
+      "words": 4774,
+      "comments": 111,
+      "opened": 8,
       "closed": 5
     },
     "node-addon-examples": {"open":28},
     "node-chakracore": {"open":23},
     "node-convergence-archive": {"open":6},
     "node-eps": {
-      "18": {"comments":19,"words":432,"pr":true},
+      "18": {"comments":23,"words":488,"pr":true},
       "20": {"comments":4,"words":174,"pr":true},
       "39": {"comments":3,"words":197,"pr":true},
       "open": 21,
-      "words": 803,
-      "comments": 26
+      "words": 859,
+      "comments": 30
     },
     "node-gyp": {
       "1021": {"comments":1,"words":23,"pr":true},
@@ -220,15 +227,16 @@
     "nodejs-zh-CN": {"open":4},
     "nodejs-zh-TW": {"open":21},
     "nodejs.org": {
+      "876": {"comments":0,"words":164,"closed":"2016-09-07T20:03:44Z","closer":"6078550","pr":true},
       "879": {"comments":3,"words":32,"pr":true},
       "886": {"comments":1,"words":31,"pr":true,"opened":"2016-09-07T08:12:44Z","opener":"1597854","closed":"","closer":"153481"},
-      "887": {"comments":1,"words":72,"pr":true,"opened":"2016-09-07T09:12:33Z","opener":"153481"},
+      "887": {"comments":2,"words":144,"pr":true,"opened":"2016-09-07T09:12:33Z","opener":"153481","closed":"","closer":"6078550"},
       "888": {"comments":0,"words":18,"pr":true,"opened":"2016-09-07T19:20:54Z","opener":"10611413"},
-      "open": 43,
-      "words": 153,
-      "comments": 5,
+      "open": 41,
+      "words": 389,
+      "comments": 6,
       "opened": 3,
-      "closed": 1
+      "closed": 3
     },
     "nodejs.org-archive": {"open":12},
     "nodejs.org-new": {"open":2},
@@ -340,6 +348,9 @@
         "nodejs.org/pulls/887": 71
       },
       "opened": [
+        "nodejs.org/pulls/887"
+      ],
+      "closed": [
         "nodejs.org/pulls/887"
       ]
     },
@@ -588,8 +599,19 @@
       "words": {
         "build/pulls/488#245345893": 204,
         "node/pulls/8422#77880889": 78,
-        "build/pulls/488#245395067": 433
+        "build/pulls/488#245395067": 433,
+        "node/pulls/8422#77901469": 26
       }
+    },
+    "836802": {
+      "id": "836802",
+      "login": "ottobonn",
+      "words": {
+        "node/issues/8436": 294
+      },
+      "opened": [
+        "node/issues/8436"
+      ]
     },
     "837533": {
       "id": "837533",
@@ -620,7 +642,8 @@
       "id": "899444",
       "login": "addaleax",
       "words": {
-        "node/pulls/8411#245254398": 44
+        "node/pulls/8411#245254398": 44,
+        "node/pulls/8395#245400557": 57
       }
     },
     "914122": {
@@ -657,7 +680,9 @@
         "github-bot/pulls/66#245334071": 6,
         "github-bot/issues/72": 91,
         "node/pulls/8422#77881874": 31,
-        "node/issues/8434": 11
+        "node/issues/8434": 11,
+        "node-eps/pulls/18#77897928": 20,
+        "node-eps/pulls/18#77898126": 8
       },
       "closed": [
         "summit/issues/22"
@@ -681,7 +706,8 @@
       "id": "1186693",
       "login": "metabench",
       "words": {
-        "node/pulls/8269#245280372": 66
+        "node/pulls/8269#245280372": 66,
+        "node/pulls/8269#245416747": 195
       }
     },
     "1197615": {
@@ -702,6 +728,16 @@
       },
       "opened": [
         "build/pulls/487"
+      ]
+    },
+    "1379677": {
+      "id": "1379677",
+      "login": "yasinaydin",
+      "words": {
+        "nodejs.org/issues/876": 164
+      },
+      "closed": [
+        "nodejs.org/issues/876"
       ]
     },
     "1443911": {
@@ -781,6 +817,13 @@
         "build/pulls/488#245257460": 31
       }
     },
+    "4415696": {
+      "id": "4415696",
+      "login": "jbe456",
+      "words": {
+        "node/pulls/8155#245415440": 33
+      }
+    },
     "4421720": {
       "id": "4421720",
       "login": "joshgav",
@@ -793,6 +836,13 @@
       "closed": [
         "node/pulls/8245"
       ]
+    },
+    "6078550": {
+      "id": "6078550",
+      "login": "fene",
+      "words": {
+        "nodejs.org/pulls/887#245399498": 1
+      }
     },
     "6447530": {
       "id": "6447530",
@@ -835,7 +885,8 @@
         "node-eps/pulls/20#77876543": 2,
         "node-eps/pulls/20#77876704": 85,
         "nodejs.org/pulls/879#245372611": 1,
-        "node/pulls/8429#245382289": 14
+        "node/pulls/8429#245382289": 14,
+        "benchmarking/pulls/56#245409893": 31
       }
     },
     "10611413": {
