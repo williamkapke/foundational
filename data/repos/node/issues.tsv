@@ -90,7 +90,7 @@
 3606	170197	false	open	false	60		2015-10-30T14:47:16Z	2016-08-05T03:28:20Z		Error: Cannot find module './lib'	31		
 3688	1514495	false	closed	false	6		2015-11-06T07:25:54Z	2016-09-05T16:30:10Z	2015-11-06T16:21:29Z	Enable Vtune profiling support for JavaScript to provide source code level profiling in Nodejs 	195		
 3692	8949910	false	open	false	117		2015-11-06T16:05:41Z	2016-07-07T10:09:30Z		HTTP/HTTPS client requests throwing EPROTO	60		
-3715	4831315	false	open	false	12		2015-11-08T23:39:16Z	2016-09-07T05:38:28Z		GC segfault	65		
+3715	4831315	false	open	false	12		2015-11-08T23:39:16Z	2016-09-07T07:07:16Z		GC segfault	65		
 3741	275871	false	closed	false	26		2015-11-10T18:00:28Z	2016-09-06T14:56:52Z	2016-09-06T14:56:52Z	V8 working group	122		
 3742	15664368	false	closed	false	18		2015-11-10T18:55:31Z	2016-07-28T09:18:30Z	2016-04-28T12:47:31Z	Nodejs 4 introduces UNABLE_TO_GET_ISSUER_CERT_LOCALLY error for users behind company firewalls	74		
 3743	677994	true	closed	false	137		2015-11-10T19:15:06Z	2016-08-05T13:35:58Z	2016-04-26T00:29:24Z	cluster: migrate from worker.suicide	17		
@@ -1273,7 +1273,7 @@
 8231	613846	true	open	false	5		2016-08-23T06:46:36Z	2016-08-25T05:23:17Z		"doc: fix ""timout"" typo in timeout"	30		
 8232	1935767	true	open	false	15		2016-08-23T07:31:58Z	2016-08-24T13:09:22Z		process: improve stack trace on async(libuv) error	234		
 8233	8208733	false	closed	false	6		2016-08-23T07:41:05Z	2016-09-05T08:23:55Z	2016-09-05T08:23:55Z	execinfo.h error when compiling Node v6.4.0 for OpenWrt MIPS platform	118		
-8234	1777622	false	open	false	6		2016-08-23T08:13:51Z	2016-09-07T06:18:16Z		Assertion failed in timer.c on windows / nodejs 6.4.0	33		
+8234	1777622	false	closed	false	7		2016-08-23T08:13:51Z	2016-09-07T07:30:01Z	2016-09-07T07:30:01Z	Assertion failed in timer.c on windows / nodejs 6.4.0	33		
 8235	1408578	false	closed	false	7		2016-08-23T09:18:00Z	2016-08-26T14:18:31Z	2016-08-26T14:18:31Z	error http request at headers is array	94		
 8236	3524687	false	closed	false	3		2016-08-23T13:17:57Z	2016-09-04T16:51:51Z	2016-09-04T16:51:51Z	"crypto: getDecoder throws ""AssertionError: Cannot change encoding"" when encoding is ""ucs2"", ""ucs-2"" or ""utf-16le""."	129		
 8237	458614	false	closed	false	19		2016-08-23T13:51:18Z	2016-08-24T07:36:49Z	2016-08-23T19:27:07Z	process.cwd() casing inconsistent across platforms	180		
@@ -1313,7 +1313,7 @@
 8272	9373002	true	closed	false	11		2016-08-25T21:02:40Z	2016-08-26T13:55:27Z	2016-08-25T22:44:47Z	build: fix depenencies on AIX	55		
 8273	79017	true	closed	false	8	0	2016-08-25T21:32:38Z	2016-08-31T16:36:37Z	2016-08-31T16:36:37Z	src: avoid duplicate AtExit functions	88	79017	2016-08-31T16:36:37Z
 8274	9373002	true	open	false	7		2016-08-25T23:16:48Z	2016-08-26T12:56:47Z		test: mark test-child-process-fork-dgram as flaky	38		
-8275	1197615	true	open	false	10		2016-08-26T07:11:33Z	2016-09-02T14:27:05Z		_debugger: add select stack frame command	22		
+8275	1197615	true	open	false	11		2016-08-26T07:11:33Z	2016-09-07T07:44:58Z		_debugger: add select stack frame command	22		
 8276	926815	false	open	false	5		2016-08-26T07:12:52Z	2016-08-30T07:34:14Z		Provide access to file system times with nanoseconds resolution	162		
 8277	495647	true	open	false			2016-08-26T08:11:24Z	2016-09-04T13:50:19Z		 No abort on require() with null bytes	107		
 8278	207889	false	closed	false	10		2016-08-26T08:23:30Z	2016-08-27T08:42:14Z	2016-08-27T08:42:14Z	SIGABRT on OS/X	152		
@@ -1447,14 +1447,14 @@
 8406	1659204	false	closed	false	2		2016-09-05T03:43:00Z	2016-09-05T09:37:26Z	2016-09-05T09:37:26Z	"Remove "":"" in Url.protocol?"	76		
 8407	718899	true	open	false	2		2016-09-05T04:34:21Z	2016-09-07T00:35:02Z		doc: add CI help/support info to onboarding doc	25		
 8408	5010504	false	open	false	0		2016-09-05T07:08:59Z	2016-09-05T07:08:59Z		Inconsistent `require` Behavior	331		
-8409	275871	true	open	false	1		2016-09-05T08:42:47Z	2016-09-07T00:38:07Z		src: guard against overflow in ParseArrayIndex() (v4.x)	8		
-8410	899444	true	open	false			2016-09-05T12:11:26Z	2016-09-07T00:18:55Z		doc: note that listening on SIGSEGV & co is unsafe	41		
+8409	275871	true	open	false	1		2016-09-05T08:42:47Z	2016-09-07T07:10:08Z		src: guard against overflow in ParseArrayIndex() (v4.x)	8		
+8410	899444	true	open	false	3		2016-09-05T12:11:26Z	2016-09-07T07:34:03Z		doc: note that listening on SIGSEGV & co is unsafe	41		
 8411	899444	true	open	false	6		2016-09-05T14:16:13Z	2016-09-06T22:34:11Z		deps: cherry-pick 8ed65b97 from V8's upstream	180		
 8412	134460	true	open	false	1		2016-09-05T15:02:46Z	2016-09-06T08:15:44Z		win,build: improvements to vcbuild.bat	221		
 8413	899444	true	open	false	2		2016-09-05T20:41:51Z	2016-09-06T12:09:13Z		build: run `npm install` for doc builds in tarball	93		
 8414	718899	true	closed	false	3		2016-09-06T00:32:27Z	2016-09-07T04:10:06Z	2016-09-06T14:45:45Z	WIP: test-stdio-closed troubleshooting	47		
 8415	432351	true	open	false	5		2016-09-06T07:25:33Z	2016-09-07T00:25:01Z		vm: changing ContextifyScript to Script in comment	55		
-8416	432351	true	open	false	6		2016-09-06T07:43:21Z	2016-09-07T04:30:08Z		src: updating f function call comment	75		
+8416	432351	true	open	false	7		2016-09-06T07:43:21Z	2016-09-07T07:32:52Z		src: updating f function call comment	75		
 8417	413206	false	closed	false	3		2016-09-06T10:15:12Z	2016-09-06T14:11:14Z	2016-09-06T14:11:14Z	crypto.scryptSync()	37		
 8418	413206	false	open	false	4		2016-09-06T10:17:08Z	2016-09-06T14:01:46Z		crypto.createHKDF()	33		
 8419	8774679	true	open	false	0	0	2016-09-06T10:48:43Z	2016-09-06T10:48:43Z		net: multiple listen() events fail silently	95		
