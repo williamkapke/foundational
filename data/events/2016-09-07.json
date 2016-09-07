@@ -1,10 +1,10 @@
 {
-  "words": 3392,
-  "comments": 80,
+  "words": 4857,
+  "comments": 94,
   "prs": {
-    "opened": 6,
+    "opened": 10,
     "closed": 5,
-    "words": 3392
+    "words": 4857
   },
   "issues": {
     "opened": 0,
@@ -17,11 +17,25 @@
     "Intl": {"open":16},
     "LTS": {"open":31},
     "NG": {"open":26},
-    "TSC": {"open":47},
+    "TSC": {
+      "129": {"comments":1,"words":102,"pr":true},
+      "135": {"comments":0,"words":444,"opened":"2016-09-07T11:54:27Z","opener":"495647","pr":true},
+      "open": 48,
+      "words": 546,
+      "comments": 1,
+      "opened": 1
+    },
     "abi-stable-node": {"open":0},
     "api": {"open":11},
     "benchmarking": {"open":15},
-    "build": {"open":111},
+    "build": {
+      "487": {"comments":0,"words":82,"pr":true,"opened":"2016-09-07T11:25:29Z","opener":"1231635"},
+      "488": {"comments":2,"words":459,"opened":"2016-09-07T11:42:08Z","opener":"495647","pr":true},
+      "open": 113,
+      "words": 541,
+      "opened": 2,
+      "comments": 2
+    },
     "build-container-sync": {"open":1},
     "build-containers": {"open":1},
     "citgm": {
@@ -44,7 +58,12 @@
     "evangelism": {"open":25},
     "foundation-slides": {"open":4},
     "foundation.nodejs.org": {"open":4},
-    "github-bot": {"open":19},
+    "github-bot": {
+      "69": {"comments":1,"words":47,"pr":true},
+      "open": 19,
+      "words": 47,
+      "comments": 1
+    },
     "hardware": {"open":12},
     "help": {
       "283": {"comments":0,"words":575,"opened":"2016-09-07T02:44:15Z","opener":"1869157","pr":true},
@@ -77,30 +96,33 @@
       "8225": {"comments":1,"words":1,"pr":true},
       "8234": {"comments":2,"words":51,"pr":true,"closed":"2016-09-07T07:30:01Z","closer":"275871"},
       "8245": {"comments":2,"words":2,"pr":true},
+      "8265": {"comments":1,"words":16,"pr":true},
       "8275": {"comments":1,"words":36,"pr":true},
       "8304": {"comments":1,"words":23,"pr":true},
       "8311": {"comments":1,"words":6,"pr":true},
       "8372": {"comments":1,"words":106,"pr":true},
-      "8375": {"comments":2,"words":237,"pr":true},
+      "8375": {"comments":3,"words":249,"pr":true},
       "8394": {"comments":1,"words":32,"pr":true},
       "8395": {"comments":1,"words":31,"pr":true},
       "8403": {"comments":11,"words":215,"pr":true,"closed":"2016-09-07T05:50:53Z","closer":"718899"},
       "8407": {"comments":1,"words":1,"pr":true},
       "8409": {"comments":2,"words":17,"pr":true},
       "8410": {"comments":4,"words":75,"pr":true},
+      "8411": {"comments":3,"words":53,"pr":true},
       "8414": {"comments":2,"words":27,"pr":true},
       "8415": {"comments":1,"words":1,"pr":true},
       "8416": {"comments":4,"words":120,"pr":true,"closed":"2016-09-07T08:06:52Z","closer":"432351"},
       "8420": {"comments":1,"words":13,"pr":true},
-      "8425": {"comments":5,"words":325,"pr":true},
+      "8425": {"comments":8,"words":436,"pr":true},
       "8427": {"comments":2,"words":4,"pr":true},
       "8428": {"comments":1,"words":37,"pr":true},
       "8429": {"comments":3,"words":117,"pr":true,"opened":"2016-09-07T01:14:31Z","opener":"287917"},
       "8430": {"comments":0,"words":101,"pr":true,"opened":"2016-09-07T01:56:40Z","opener":"134460"},
-      "open": 765,
-      "words": 2077,
-      "comments": 59,
-      "opened": 2,
+      "8431": {"comments":2,"words":139,"opened":"2016-09-07T11:12:37Z","opener":"1521394","pr":true},
+      "open": 766,
+      "words": 2408,
+      "comments": 69,
+      "opened": 3,
       "closed": 3
     },
     "node-addon-examples": {"open":28},
@@ -184,6 +206,13 @@
     "vm": {"open":2}
   },
   "users": {
+    "52195": {
+      "id": "52195",
+      "login": "mcollina",
+      "words": {
+        "node/pulls/8431#245251305": 51
+      }
+    },
     "71256": {
       "id": "71256",
       "login": "TooTallNate",
@@ -195,7 +224,9 @@
       "id": "101553",
       "login": "fhinkel",
       "words": {
-        "node/pulls/8427#245243794": 1
+        "node/pulls/8427#245243794": 1,
+        "node/pulls/8411#245257162": 8,
+        "node/pulls/8411#245257250": 1
       }
     },
     "126482": {
@@ -232,7 +263,8 @@
       "login": "jbergstroem",
       "words": {
         "node/pulls/5701#245147171": 30,
-        "node/pulls/5701#245161691": 24
+        "node/pulls/5701#245161691": 24,
+        "node/pulls/8425#245258497": 13
       }
     },
     "234659": {
@@ -322,8 +354,19 @@
       "id": "495647",
       "login": "rvagg",
       "words": {
-        "nodejs.org/pulls/879#245154470": 7
-      }
+        "nodejs.org/pulls/879#245154470": 7,
+        "node/pulls/8425#245254225": 47,
+        "build/issues/488": 395,
+        "node/pulls/8265#245255159": 16,
+        "build/pulls/488#245255279": 33,
+        "node/pulls/8425#245255572": 51,
+        "TSC/pulls/129#245257230": 102,
+        "TSC/issues/135": 444
+      },
+      "opened": [
+        "build/issues/488",
+        "TSC/issues/135"
+      ]
     },
     "555645": {
       "id": "555645",
@@ -366,6 +409,13 @@
         "node/pulls/8403"
       ]
     },
+    "899444": {
+      "id": "899444",
+      "login": "addaleax",
+      "words": {
+        "node/pulls/8411#245254398": 44
+      }
+    },
     "914122": {
       "id": "914122",
       "login": "martinheidegger",
@@ -392,6 +442,28 @@
       },
       "opened": [
         "nodejs-ko/issues/419"
+      ]
+    },
+    "1231635": {
+      "id": "1231635",
+      "login": "phillipj",
+      "words": {
+        "build/pulls/487": 82,
+        "github-bot/pulls/69#245252963": 47
+      },
+      "opened": [
+        "build/pulls/487"
+      ]
+    },
+    "1521394": {
+      "id": "1521394",
+      "login": "carbonrobot",
+      "words": {
+        "node/issues/8431": 73,
+        "node/pulls/8431#245256306": 15
+      },
+      "opened": [
+        "node/issues/8431"
       ]
     },
     "1597854": {
@@ -444,6 +516,20 @@
       "login": "akobler",
       "words": {
         "node/pulls/3715#245180408": 100
+      }
+    },
+    "3967972": {
+      "id": "3967972",
+      "login": "claudiorodriguez",
+      "words": {
+        "build/pulls/488#245257460": 31
+      }
+    },
+    "6447530": {
+      "id": "6447530",
+      "login": "gireeshpunathil",
+      "words": {
+        "node/pulls/8375#245258354": 12
       }
     }
   }
