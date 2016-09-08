@@ -109,7 +109,7 @@
 3973	15373625	false	closed	false	5		2015-11-23T01:02:10Z	2016-06-30T13:51:42Z	2016-06-30T13:51:42Z	Silent crash when sending socket to child_process	216		
 3979	495647	false	open	false	14		2015-11-23T09:04:11Z	2016-08-24T20:53:42Z		Seek legal advice on LICENSE and copyright blocks in code	84		
 4007	1093990	true	closed	false	69		2015-11-24T17:15:03Z	2016-08-30T14:09:47Z	2016-02-26T23:13:34Z	Refactor Timers	188		
-4039	4520820	true	open	false	17		2015-11-26T17:23:49Z	2016-09-08T20:24:09Z		net: refactor Server.prototype.listen	226		
+4039	4520820	true	open	false			2015-11-26T17:23:49Z	2016-09-08T21:28:47Z		net: refactor Server.prototype.listen	226		
 4092	11175771	false	open	false	1		2015-12-01T09:38:49Z	2016-09-02T12:37:02Z		node.js Setup Wizard ended prematurely	35		
 4111	1524333	true	open	false	29		2015-12-02T00:40:22Z	2016-07-20T16:10:21Z		Windows post-install screen additional build tools messaging	155		
 4169	54666	true	closed	false	20		2015-12-06T06:38:35Z	2016-08-30T14:10:41Z	2016-03-18T23:29:42Z	timers: improve setImmediate() performance	51		
@@ -192,7 +192,7 @@
 6030	439929	true	closed	false	13		2016-04-03T19:56:47Z	2016-08-30T14:14:47Z	2016-04-10T23:17:57Z	doc: clarification for maxBuffer and Unicode output	89		
 6033	2291463	false	closed	false	9		2016-04-04T07:14:31Z	2016-07-03T03:53:55Z	2016-07-03T03:53:55Z	Features that depend on ICU, in V8 built without ICU.	118		
 6063	7780985	true	closed	false	20		2016-04-05T19:44:10Z	2016-07-11T16:51:08Z	2016-04-26T16:07:07Z	doc, tls: deprecate createSecurePair	141		
-6102	54666	true	open	false	99		2016-04-07T16:10:47Z	2016-09-08T19:44:43Z		http: don't inherit from Object.prototype	57		
+6102	54666	true	open	false	101		2016-04-07T16:10:47Z	2016-09-08T21:32:21Z		http: don't inherit from Object.prototype	57		
 6114	408977	true	closed	false	11		2016-04-08T12:55:18Z	2016-07-06T05:06:41Z	2016-07-06T05:06:41Z	Defensive check for process.config.variables (v4-staging)	10		
 6115	408977	true	closed	false	18		2016-04-08T12:59:35Z	2016-07-05T17:59:27Z	2016-07-05T17:59:26Z	Defensive fix for process.config.variables regression (v5)	21		
 6131	2361826	false	closed	false	6		2016-04-09T10:47:11Z	2016-08-17T20:43:10Z	2016-08-17T20:43:10Z	Move .eslintrc to json or yaml	58		
@@ -397,6 +397,7 @@
 7257	939420	true	open	false	10		2016-06-10T08:25:54Z	2016-07-04T19:23:21Z		Add two child-process stdio flush tests	68		
 7261	631951	false	open	false	1		2016-06-10T09:36:06Z	2016-07-22T10:04:27Z		V8 crash on Windows Server 2012 x64 running on CPU with AVX support	107		
 7262	275871	true	closed	false	9		2016-06-10T09:42:23Z	2016-07-12T10:28:55Z	2016-06-13T10:56:36Z	src: fix erroneous fallthrough in ParseEncoding()	28		
+7266	79017	false	open	false	11		2016-06-10T15:28:10Z	2016-09-08T21:15:48Z		Port the CLI debugger to use the v8 inspector protocol	149		
 7267	81942	true	closed	false	12		2016-06-10T16:43:18Z	2016-07-12T16:55:46Z	2016-06-17T15:05:02Z	punycode: update to v2.0.0	17		
 7269	11139560	false	closed	false	4		2016-06-10T22:36:13Z	2016-07-06T16:02:08Z	2016-07-06T16:02:08Z	node docs issue in child_process	112		
 7271	287917	true	closed	false	14	22	2016-06-11T00:49:13Z	2016-07-15T00:03:42Z	2016-07-15T00:03:42Z	inspector: Put connect and disconnect events into message queue	63		
@@ -1052,7 +1053,7 @@
 8008	368238	false	closed	false	5		2016-08-07T19:17:38Z	2016-08-08T10:45:55Z	2016-08-08T10:45:55Z	tls support requires dots at the end of the Alternative Subject Names	159		
 8009	1443911	true	closed	false	5		2016-08-08T07:22:24Z	2016-08-09T19:24:28Z	2016-08-09T19:24:28Z	doc: remove spurious new line in CHANGELOG_V6.md	35		
 8010	1898870	true	open	false	6		2016-08-08T09:39:54Z	2016-08-10T21:30:03Z		gitignore: add .idea folder to .gitignore	52		
-8011	3967972	true	open	false	31		2016-08-08T09:41:30Z	2016-09-08T20:08:29Z		dgram: prefer strict equality	54		
+8011	3967972	true	closed	false	35	7	2016-08-08T09:41:30Z	2016-09-08T21:22:28Z	2016-09-08T21:22:28Z	dgram: prefer strict equality	54		
 8012	3967972	false	open	false	4		2016-08-08T09:55:14Z	2016-08-08T16:34:04Z		Whitelist dotfiles instead of blacklisting?	83		
 8013	115237	true	closed	false	20		2016-08-08T14:05:22Z	2016-08-09T18:54:03Z	2016-08-09T18:54:03Z	util: add inspect.defaultOptions	70		
 8014	79017	true	closed	false	6	0	2016-08-08T15:00:26Z	2016-08-11T18:49:18Z	2016-08-11T18:49:18Z	deps: update v8_inspector	35	79017	2016-08-11T18:49:18Z
@@ -1104,7 +1105,7 @@
 8060	718899	true	closed	false	5		2016-08-10T22:56:39Z	2016-08-12T21:10:38Z	2016-08-12T21:10:37Z	doc: minor updates to onboarding doc	25		
 8061	718899	true	closed	false	8	0	2016-08-10T23:48:21Z	2016-08-13T00:16:31Z	2016-08-13T00:16:31Z	test: add test for debug usage message	38		
 8062	718899	true	closed	false	7		2016-08-11T00:15:01Z	2016-08-13T13:48:55Z	2016-08-11T06:19:32Z	doc: move orangemocha to collaborators list	70		
-8063	17704638	true	open	false	14		2016-08-11T07:08:18Z	2016-09-08T19:49:32Z		child_process, win: fix shell spawn with AutoRun	84		
+8063	17704638	true	open	false	15		2016-08-11T07:08:18Z	2016-09-08T21:22:10Z		child_process, win: fix shell spawn with AutoRun	84		
 8064	84737	false	closed	false	11		2016-08-11T09:33:57Z	2016-08-18T18:23:34Z	2016-08-18T18:23:34Z	`url.format()` encodes '#' inconsistently	83		
 8065	9373002	true	closed	false	16		2016-08-11T16:27:25Z	2016-08-14T14:10:33Z	2016-08-12T13:37:53Z	test: mark test failing on AIX as flaky	114		
 8066	3849161	false	open	false	1		2016-08-11T17:54:25Z	2016-08-11T20:08:45Z		TCP Fast Open	25		
@@ -1306,7 +1307,7 @@
 8263	4256376	true	closed	false	2	0	2016-08-24T22:07:47Z	2016-08-24T23:56:14Z	2016-08-24T23:56:14Z	"doc: Added missing e to ""timeout"""	46		
 8264	287917	true	open	false	6		2016-08-24T23:46:45Z	2016-08-31T16:11:58Z		inspector: Make sure all messages are dispatched	55		
 8265	718899	false	open	false	14		2016-08-25T00:17:00Z	2016-09-07T11:42:40Z		Process for determining supported platforms	124		
-8266	275871	false	open	false	5		2016-08-25T08:33:26Z	2016-08-26T23:26:53Z		buffer: zero-sized slices have .buffer but not .parent	51		
+8266	275871	false	closed	false	5		2016-08-25T08:33:26Z	2016-09-08T21:34:51Z	2016-09-08T21:34:51Z	buffer: zero-sized slices have .buffer but not .parent	51		
 8267	10029810	false	open	false	0		2016-08-25T12:20:58Z	2016-08-25T12:20:58Z		SyntaxError: Octal literals are not allowed in strict mode.	113		
 8268	6802696	false	closed	false	3		2016-08-25T14:18:13Z	2016-08-26T19:38:57Z	2016-08-26T19:38:57Z	nodejs install but not runing	87		
 8269	1186693	false	open	false	4		2016-08-25T14:30:49Z	2016-09-08T13:31:22Z		Docs: Further improvements to Addon section, specifically numeric and binary IO	163		
@@ -1351,7 +1352,7 @@
 8308	275871	true	closed	false	3	0	2016-08-28T10:58:22Z	2016-09-05T08:23:29Z	2016-09-05T08:23:29Z	src: unbreak build when compiling against uclibc	43		
 8309	6189009	false	open	false	8		2016-08-28T12:12:35Z	2016-08-29T04:02:24Z		Missing `new` in Set constructor makes variable defined using `let` unusable	100		
 8310	596741	false	open	false	45		2016-08-28T13:30:25Z	2016-09-02T18:43:55Z		Segmentation Fault	260		
-8311	696611	true	open	false	9		2016-08-28T16:04:35Z	2016-09-07T00:32:32Z		buffer: expose underlying buffer object always	86		
+8311	696611	true	closed	false	9		2016-08-28T16:04:35Z	2016-09-08T21:34:24Z	2016-09-08T21:34:24Z	buffer: expose underlying buffer object always	86		
 8312	2512748	true	open	false			2016-08-28T18:19:22Z	2016-09-02T08:34:53Z		WIP: child_process: spawn() and spawnSync() validation	190		
 8313	12671072	false	closed	false	1		2016-08-28T23:49:19Z	2016-08-29T00:03:41Z	2016-08-29T00:03:41Z	ES6 getters execute before being called	83		
 8314	1909610	false	closed	false	2		2016-08-29T00:09:19Z	2016-08-29T01:03:13Z	2016-08-29T00:13:04Z	6.5.0 release branch exists here but not on Node	109		
@@ -1469,7 +1470,7 @@
 8426	323878	false	open	false	2		2016-09-06T20:32:22Z	2016-09-08T16:54:07Z		v8 inspector - Runtime.evaluate doesn't work without a contextId	87		
 8427	275871	true	open	false	5		2016-09-06T21:23:09Z	2016-09-07T10:46:54Z		src: remove unneeded Environment error methods	32		
 8428	1093990	false	open	false	2		2016-09-06T21:45:57Z	2016-09-07T21:00:50Z		v6.6.0 pre-proposal	936		
-8429	287917	true	open	false			2016-09-07T01:14:31Z	2016-09-08T17:23:46Z		inspector: Introduce a smoke test for inspector	58		
+8429	287917	true	open	false	6		2016-09-07T01:14:31Z	2016-09-08T21:02:29Z		inspector: Introduce a smoke test for inspector	58		
 8430	134460	true	open	false	1		2016-09-07T01:56:40Z	2016-09-07T13:23:24Z		win,build: forward release_urlbase to configure	101		
 8431	1521394	false	closed	false	2		2016-09-07T11:12:37Z	2016-09-08T14:37:46Z	2016-09-08T14:37:46Z	req.emit is not a function	73		
 8432	103639	false	closed	false	8		2016-09-07T14:09:17Z	2016-09-08T07:07:00Z	2016-09-08T07:07:00Z	Stress-testing caused to stuck on OS X	252		
@@ -1491,3 +1492,5 @@
 8448	432351	true	open	false			2016-09-08T18:48:20Z	2016-09-08T19:08:37Z		src: pull AfterConnect from pipe_wrap and tcp_wrap	75		
 8449	4390247	true	open	false	0	0	2016-09-08T18:50:06Z	2016-09-08T18:50:06Z		Update cmd-list.js	50		
 8450	1084056	true	open	false	0	0	2016-09-08T20:13:09Z	2016-09-08T20:13:09Z		src: fix unused-result warning	107		
+8451	21268802	false	open	false	0		2016-09-08T21:02:35Z	2016-09-08T21:02:35Z		build of node 4.5.0 fails on Debian Wheezy because clang++ seg faults at mark-compact.cc	1038		
+8452	110455	true	open	false	0	0	2016-09-08T21:10:49Z	2016-09-08T21:10:49Z		util: don't init Debug if it's not needed yet	61		
