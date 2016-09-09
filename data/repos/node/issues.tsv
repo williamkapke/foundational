@@ -608,7 +608,7 @@
 7561	1847934	true	closed	false	7		2016-07-06T12:15:00Z	2016-08-10T09:35:11Z	2016-08-08T13:28:03Z	"Clarify ""fs.readFile"", ""fs.appendFile"", ""fs.writeFile"" doc…"	22		
 7562	291301	true	closed	false	11		2016-07-06T12:32:10Z	2016-07-08T17:09:26Z	2016-07-08T14:49:21Z	New Buffer API backport to v4.x (staging branch)	204		
 7563	9373002	false	closed	false	12		2016-07-06T15:15:31Z	2016-07-18T21:43:27Z	2016-07-18T21:43:27Z	AIX - failure in parallel/test-cluster-disconnect-handles	80		
-7564	9373002	true	closed	false	27		2016-07-06T15:59:12Z	2016-09-09T11:27:02Z	2016-09-06T13:52:40Z	core: normalize malloc, realloc 	87		
+7564	9373002	true	closed	false	27		2016-07-06T15:59:12Z	2016-09-09T14:01:09Z	2016-09-06T13:52:40Z	core: normalize malloc, realloc 	87		
 7565	275871	false	closed	false	8		2016-07-06T17:00:39Z	2016-07-23T14:40:11Z	2016-07-11T17:16:01Z	discuss: future of AsyncWrap	165		
 7566	115237	false	closed	false	3		2016-07-06T17:30:07Z	2016-08-09T18:53:55Z	2016-08-09T18:53:55Z	Changing default options for util.inspect	59		
 7567	17704638	true	open	false	0	0	2016-07-06T18:13:33Z	2016-07-06T18:13:33Z		doc: add bartosz sosnowski to colaborators	2		
@@ -1376,7 +1376,7 @@
 8331	1443911	true	closed	false	4		2016-08-30T05:56:23Z	2016-08-30T10:07:50Z	2016-08-30T06:13:03Z	doc: add lpinca to collaborators	29		
 8332	696611	true	open	false	2		2016-08-30T06:28:38Z	2016-09-08T19:48:03Z		buffer: deprecate parent property	52		
 8333	16787433	true	open	false	0	0	2016-08-30T12:34:10Z	2016-08-30T12:34:10Z		Merge pull request #1 from nodejs/master	48		
-8334	1211498	true	open	false	15		2016-08-30T12:35:45Z	2016-09-09T11:16:47Z		crypto: use system CAs instead of bundled ones	73		
+8334	1211498	true	open	false	16		2016-08-30T12:35:45Z	2016-09-09T13:59:27Z		crypto: use system CAs instead of bundled ones	73		
 8335	16787433	true	open	false	0	0	2016-08-30T12:37:32Z	2016-08-30T12:37:32Z		Merge pull request #1 from nodejs/master	48		
 8336	16787433	true	open	false	0	0	2016-08-30T12:39:44Z	2016-08-30T12:39:44Z		Merge pull request #1 from nodejs/master	48		
 8337	16787433	true	open	false	0	0	2016-08-30T12:51:40Z	2016-08-30T12:51:40Z		merge from remote	47		
@@ -1495,15 +1495,16 @@
 8450	1084056	true	open	false	5		2016-09-08T20:13:09Z	2016-09-09T08:17:55Z		src: fix unused-result warning	107		
 8451	21268802	false	open	false	4		2016-09-08T21:02:35Z	2016-09-08T22:08:28Z		build of node 4.5.0 fails on Debian Wheezy because clang++ seg faults at mark-compact.cc	1038		
 8452	110455	true	open	false	5		2016-09-08T21:10:49Z	2016-09-09T06:29:09Z		util: don't init Debug if it's not needed yet	61		
-8453	54666	true	open	false	3		2016-09-08T22:35:28Z	2016-09-09T07:29:03Z		buffer: fix ArrayBuffer checks	67		
-8454	718899	true	open	false			2016-09-08T22:45:55Z	2016-09-09T07:37:35Z		test: add test-debug-protocol-execute	66		
+8453	54666	true	open	false	5		2016-09-08T22:35:28Z	2016-09-09T13:52:34Z		buffer: fix ArrayBuffer checks	67		
+8454	718899	true	open	false	3		2016-09-08T22:45:55Z	2016-09-09T13:57:53Z		test: add test-debug-protocol-execute	66		
 8455	718899	false	open	false	0		2016-09-08T23:21:15Z	2016-09-09T07:23:58Z		Investigate flaky parallel/test-crypto-binary-default on linux-fips	23		
-8456	11638619	true	open	false	9		2016-09-08T23:31:27Z	2016-09-09T06:22:42Z		test: make crypto.timingSafeEqual test less flaky	140		
-8457	1093990	true	open	false	3		2016-09-08T23:40:40Z	2016-09-09T02:47:46Z		v6.6.0 Proposal	16		
+8456	11638619	true	open	false	9		2016-09-08T23:31:27Z	2016-09-09T13:56:46Z		test: make crypto.timingSafeEqual test less flaky	141		
+8457	1093990	true	open	false	4		2016-09-08T23:40:40Z	2016-09-09T13:59:40Z		v6.6.0 Proposal	16		
 8458	551402	true	open	false	0	0	2016-09-09T04:22:47Z	2016-09-09T04:22:47Z		test: clean up net server try ports test	47		
-8459	718899	false	open	false	0		2016-09-09T06:30:52Z	2016-09-09T06:30:52Z		Investigate flaky parallel/test-timers-same-timeout-wrong-list-deleted on Windows	43		
+8459	718899	false	open	false	2		2016-09-09T06:30:52Z	2016-09-09T14:05:08Z		Investigate flaky parallel/test-timers-same-timeout-wrong-list-deleted on Windows	43		
 8460	275871	false	open	false	0		2016-09-09T08:11:59Z	2016-09-09T08:11:59Z		Make setTimeout and setImmediate timers run consecutively	53		
 8461	18223385	false	open	false	0		2016-09-09T09:58:35Z	2016-09-09T09:58:35Z		how use shell( wget...) auto install nodeJs 	58		
-8462	899444	true	open	false	0	0	2016-09-09T10:53:26Z	2016-09-09T10:53:26Z		v4.x backport: test,doc: clarify `buf.indexOf(num)` input range	8		
-8463	899444	true	open	false	0	0	2016-09-09T11:45:41Z	2016-09-09T11:45:41Z		v6.x backport: buffer,string_decoder: consolidate encoding validation logic	33		
+8462	899444	true	open	false	1		2016-09-09T10:53:26Z	2016-09-09T13:58:26Z		v4.x backport: test,doc: clarify `buf.indexOf(num)` input range	10		
+8463	899444	true	open	false	1		2016-09-09T11:45:41Z	2016-09-09T14:00:07Z		v6.x backport: buffer,string_decoder: consolidate encoding validation logic	35		
 8464	323878	false	open	false	0		2016-09-09T12:30:25Z	2016-09-09T12:30:25Z		Debug already running process using v8-inspector?	38		
+8465	1037138	false	open	false	0		2016-09-09T13:36:16Z	2016-09-09T13:36:16Z		OSX: setting a custom DYLD_ env console logs undefined when run with child_process.spawn	135		
