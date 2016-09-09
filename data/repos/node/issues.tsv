@@ -62,6 +62,7 @@
 2883	126482	true	open	false	4		2015-09-15T17:33:30Z	2016-06-29T12:07:18Z		Makefile: use existing variable to reduce complexity	2		
 2933	643505	false	closed	false	34		2015-09-17T18:33:07Z	2016-08-23T23:58:44Z	2015-09-17T18:35:56Z	XCode 7: library not found for -lgcc_s.10.5	307		
 2982	170023	true	open	false	7		2015-09-21T14:10:33Z	2016-07-01T16:26:45Z		readline: add option to stop duplicates in history	161		
+2994	708850	false	open	false	9		2015-09-22T04:48:17Z	2016-09-08T23:20:56Z		Need a way to detect end of stream on custom Writable Streams implementing _write	78		
 3006	914122	false	closed	false	33		2015-09-22T15:57:31Z	2016-08-04T12:01:53Z	2016-03-22T06:28:03Z	Node.js doesn't run as tty on windows / cygwin	33		
 3009	112555	false	closed	false	10		2015-09-22T19:15:53Z	2016-07-12T15:55:34Z	2016-04-09T05:21:32Z	Sending a body with a GET request using http.request cannot be received using http.server	235		
 3063	98899	true	closed	false	85		2015-09-25T17:01:14Z	2016-08-31T15:04:41Z	2016-07-15T17:38:59Z	timers: fix processing of nested same delay timers	21		
@@ -607,7 +608,7 @@
 7561	1847934	true	closed	false	7		2016-07-06T12:15:00Z	2016-08-10T09:35:11Z	2016-08-08T13:28:03Z	"Clarify ""fs.readFile"", ""fs.appendFile"", ""fs.writeFile"" doc…"	22		
 7562	291301	true	closed	false	11		2016-07-06T12:32:10Z	2016-07-08T17:09:26Z	2016-07-08T14:49:21Z	New Buffer API backport to v4.x (staging branch)	204		
 7563	9373002	false	closed	false	12		2016-07-06T15:15:31Z	2016-07-18T21:43:27Z	2016-07-18T21:43:27Z	AIX - failure in parallel/test-cluster-disconnect-handles	80		
-7564	9373002	true	closed	false	25		2016-07-06T15:59:12Z	2016-09-06T13:52:40Z	2016-09-06T13:52:40Z	core: normalize malloc, realloc 	87		
+7564	9373002	true	closed	false	26		2016-07-06T15:59:12Z	2016-09-08T23:13:42Z	2016-09-06T13:52:40Z	core: normalize malloc, realloc 	87		
 7565	275871	false	closed	false	8		2016-07-06T17:00:39Z	2016-07-23T14:40:11Z	2016-07-11T17:16:01Z	discuss: future of AsyncWrap	165		
 7566	115237	false	closed	false	3		2016-07-06T17:30:07Z	2016-08-09T18:53:55Z	2016-08-09T18:53:55Z	Changing default options for util.inspect	59		
 7567	17704638	true	open	false	0	0	2016-07-06T18:13:33Z	2016-07-06T18:13:33Z		doc: add bartosz sosnowski to colaborators	2		
@@ -1342,7 +1343,7 @@
 8298	899444	true	closed	false	4		2016-08-27T08:57:12Z	2016-08-30T15:12:58Z	2016-08-30T15:12:57Z	events: make memory leak warning more programatically accessible	137		
 8299	505333	true	open	false	3		2016-08-27T11:36:23Z	2016-08-27T20:17:40Z		benchmark: ignore significance when using --runs 1	110		
 8300	899444	true	closed	false	7	0	2016-08-27T14:44:58Z	2016-09-07T22:12:29Z	2016-09-07T22:12:29Z	net: make holding the buffer in memory more robust (v4.x backport)	101		
-8301	3524687	true	closed	false	7		2016-08-27T16:46:50Z	2016-09-04T16:51:23Z	2016-09-04T16:51:23Z	crypto: fix ucs2/ucs-2/utf16le/utf-16le encoding check	60		
+8301	3524687	true	closed	false	9		2016-08-27T16:46:50Z	2016-09-08T23:19:18Z	2016-09-04T16:51:23Z	crypto: fix ucs2/ucs-2/utf16le/utf-16le encoding check	60		
 8302	899444	true	closed	false	5		2016-08-27T17:49:55Z	2016-09-08T22:58:56Z	2016-09-02T10:46:59Z	buffer: directly use ArrayBuffer as the pool	271		
 8303	3001791	false	open	false	0		2016-08-27T19:25:31Z	2016-08-27T19:25:31Z		Warning about missing field initializer within the 4.5.0 building	42		
 8304	11638619	true	open	false	68		2016-08-27T19:32:51Z	2016-09-07T22:22:15Z		crypto: re-add crypto.timingSafeEqual	84		
@@ -1469,7 +1470,7 @@
 8425	718899	false	open	false	15		2016-09-06T17:57:12Z	2016-09-07T19:14:41Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-09-07	467		
 8426	323878	false	open	false	2		2016-09-06T20:32:22Z	2016-09-08T16:54:07Z		v8 inspector - Runtime.evaluate doesn't work without a contextId	87		
 8427	275871	true	open	false	5		2016-09-06T21:23:09Z	2016-09-07T10:46:54Z		src: remove unneeded Environment error methods	32		
-8428	1093990	false	open	false	2		2016-09-06T21:45:57Z	2016-09-07T21:00:50Z		v6.6.0 pre-proposal	936		
+8428	1093990	false	open	false	3		2016-09-06T21:45:57Z	2016-09-08T23:15:46Z		v6.6.0 pre-proposal	936		
 8429	287917	true	open	false	6		2016-09-07T01:14:31Z	2016-09-08T21:02:29Z		inspector: Introduce a smoke test for inspector	58		
 8430	134460	true	open	false	1		2016-09-07T01:56:40Z	2016-09-07T13:23:24Z		win,build: forward release_urlbase to configure	101		
 8431	1521394	false	closed	false	2		2016-09-07T11:12:37Z	2016-09-08T14:37:46Z	2016-09-08T14:37:46Z	req.emit is not a function	73		
@@ -1478,7 +1479,7 @@
 8434	1093990	false	open	false	1		2016-09-07T19:11:18Z	2016-09-07T22:01:40Z		Reccomend allowing edits from maintainers in issue templates / Contributing.md?	11		
 8435	7959437	false	open	false	7		2016-09-07T19:26:43Z	2016-09-08T16:13:45Z		DateTimeOffset	71		
 8436	836802	false	open	false	3		2016-09-07T20:23:15Z	2016-09-08T16:29:05Z		dns.lookup blocks filesystem I/O	294		
-8437	899444	true	closed	false	3		2016-09-07T22:00:44Z	2016-09-08T19:55:55Z	2016-09-08T19:55:55Z	Backport 8174 (symbol-based custom inspection methods)	26		
+8437	899444	true	closed	false	5		2016-09-07T22:00:44Z	2016-09-08T23:30:14Z	2016-09-08T19:55:55Z	Backport 8174 (symbol-based custom inspection methods)	26		
 8438	54666	false	open	false	0		2016-09-08T02:30:21Z	2016-09-08T02:30:21Z		v8 inspector Profiles page no longer loads	56		
 8439	2226267	false	closed	false	1		2016-09-08T06:45:46Z	2016-09-08T16:56:51Z	2016-09-08T16:56:51Z	when run node with --prof the `crypto.pbkdf2` will not loged in	103		
 8440	720065	false	open	false	5		2016-09-08T08:29:41Z	2016-09-08T19:44:25Z		Buffer.from not support SharedArrayBuffer	133		
@@ -1489,10 +1490,13 @@
 8445	79017	true	open	false	3		2016-09-08T16:48:42Z	2016-09-08T17:02:46Z		deps: add back no-op harmony shipping flags	89		
 8446	22082115	false	open	false	0		2016-09-08T17:39:38Z	2016-09-08T17:39:38Z		http.ServerResponse.writeHead() can be called multiple times for a single response	149		
 8447	4390247	true	open	false	0	0	2016-09-08T18:46:20Z	2016-09-08T18:46:20Z		Update npm.js	50		
-8448	432351	true	open	false			2016-09-08T18:48:20Z	2016-09-08T19:08:37Z		src: pull AfterConnect from pipe_wrap and tcp_wrap	75		
+8448	432351	true	open	false	3		2016-09-08T18:48:20Z	2016-09-08T23:02:36Z		src: pull AfterConnect from pipe_wrap and tcp_wrap	75		
 8449	4390247	true	open	false	0	0	2016-09-08T18:50:06Z	2016-09-08T18:50:06Z		Update cmd-list.js	50		
-8450	1084056	true	open	false	0	0	2016-09-08T20:13:09Z	2016-09-08T20:13:09Z		src: fix unused-result warning	107		
+8450	1084056	true	open	false	2		2016-09-08T20:13:09Z	2016-09-08T23:10:26Z		src: fix unused-result warning	107		
 8451	21268802	false	open	false	4		2016-09-08T21:02:35Z	2016-09-08T22:08:28Z		build of node 4.5.0 fails on Debian Wheezy because clang++ seg faults at mark-compact.cc	1038		
-8452	110455	true	open	false	0	0	2016-09-08T21:10:49Z	2016-09-08T21:10:49Z		util: don't init Debug if it's not needed yet	61		
+8452	110455	true	open	false	4		2016-09-08T21:10:49Z	2016-09-08T23:14:15Z		util: don't init Debug if it's not needed yet	61		
 8453	54666	true	open	false	0	0	2016-09-08T22:35:28Z	2016-09-08T22:35:28Z		buffer: fix ArrayBuffer checks	67		
 8454	718899	true	open	false	0	0	2016-09-08T22:45:55Z	2016-09-08T22:45:55Z		test: add test-debug-protocol-execute	66		
+8455	718899	false	open	false	0		2016-09-08T23:21:15Z	2016-09-08T23:21:15Z		Investigate flaky parallel/test-crypto-binary-default on linux-fips	23		
+8456	11638619	true	open	false	0	0	2016-09-08T23:31:27Z	2016-09-08T23:31:27Z		WIP: test: make crypto.timingSafeEqual test less flaky	136		
+8457	1093990	true	open	false	0	0	2016-09-08T23:40:40Z	2016-09-08T23:40:40Z		v6.6.0 Proposal	15		
