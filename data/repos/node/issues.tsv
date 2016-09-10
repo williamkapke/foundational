@@ -1145,7 +1145,7 @@
 8097	718899	true	closed	false	8		2016-08-13T22:13:24Z	2016-08-16T22:17:32Z	2016-08-16T22:17:32Z	tools: update ESLint to 3.3.0 and enable rules	99		
 8098	718899	true	closed	false	7		2016-08-14T03:48:25Z	2016-08-17T03:53:30Z	2016-08-17T03:53:30Z	test: use strict equality in regression test	38		
 8099	2352663	true	closed	false	6		2016-08-14T09:33:56Z	2016-08-20T15:01:42Z	2016-08-17T07:43:41Z	deps: cherry-pick de5aaad from V8's upstream	86		
-8100	899444	true	open	false	8		2016-08-14T17:22:09Z	2016-09-09T21:37:01Z		fs,module: add module-loader-only realpath cache	112		
+8100	899444	true	open	false			2016-08-14T17:22:09Z	2016-09-09T23:58:10Z		fs,module: add module-loader-only realpath cache	112		
 8101	6517897	true	open	false	11		2016-08-14T19:58:27Z	2016-08-31T00:02:45Z		net, http: allow setting socket connection timeout for http request	67		
 8102	6850510	false	open	false	8		2016-08-14T20:25:09Z	2016-08-15T19:52:48Z		False successfully end of request	344		
 8103	110455	true	open	false	1		2016-08-14T21:45:22Z	2016-08-14T22:04:14Z		http: fix legacy http.Client instanceof	205		
@@ -1213,7 +1213,7 @@
 8165	159100	false	closed	false	9		2016-08-18T19:12:43Z	2016-08-24T18:41:38Z	2016-08-24T18:41:38Z	url.resolve auth behavior if host does *not* change	121		
 8166	439929	true	open	false	29		2016-08-18T19:15:57Z	2016-09-02T20:14:23Z		lib,fs: use process.emitWarning instead of internal print dep warning	103		
 8167	657552	false	closed	false	4		2016-08-18T19:48:09Z	2016-08-29T22:21:48Z	2016-08-29T22:21:48Z	TypeError: Forked processes must have an IPC channel	61		
-8168	2512748	true	open	false	5		2016-08-18T20:31:47Z	2016-09-01T17:34:50Z		test: exercise EE function type checking paths	60		
+8168	2512748	true	closed	false	5	10	2016-08-18T20:31:47Z	2016-09-09T23:54:42Z	2016-09-09T23:54:42Z	test: exercise EE function type checking paths	60	2512748	2016-09-09T23:54:42Z
 8169	988441	true	closed	false	37		2016-08-18T20:52:01Z	2016-09-01T18:02:53Z	2016-08-25T18:04:43Z	buffer: hard-deprecate calling Buffer without new	59		
 8170	2512748	true	open	false	6		2016-08-18T21:30:38Z	2016-08-22T18:09:31Z		dns: lookupService() callback must be a function	179		
 8171	248374	true	closed	false	5		2016-08-18T22:02:29Z	2016-08-22T19:08:10Z	2016-08-22T18:05:21Z	build: add node_module_version to config.gypi	25		
@@ -1473,7 +1473,7 @@
 8426	323878	false	open	false	2		2016-09-06T20:32:22Z	2016-09-08T16:54:07Z		v8 inspector - Runtime.evaluate doesn't work without a contextId	87		
 8427	275871	true	open	false	5		2016-09-06T21:23:09Z	2016-09-07T10:46:54Z		src: remove unneeded Environment error methods	32		
 8428	1093990	false	open	false	3		2016-09-06T21:45:57Z	2016-09-08T23:15:46Z		v6.6.0 pre-proposal	936		
-8429	287917	true	open	false			2016-09-07T01:14:31Z	2016-09-09T19:31:45Z		inspector: Introduce a smoke test for inspector	58		
+8429	287917	true	open	false			2016-09-07T01:14:31Z	2016-09-09T23:46:08Z		inspector: Introduce a smoke test for inspector	58		
 8430	134460	true	open	false	2		2016-09-07T01:56:40Z	2016-09-09T11:24:45Z		win,build: forward release_urlbase to configure	101		
 8431	1521394	false	closed	false	2		2016-09-07T11:12:37Z	2016-09-08T14:37:46Z	2016-09-08T14:37:46Z	req.emit is not a function	73		
 8432	103639	false	closed	false	8		2016-09-07T14:09:17Z	2016-09-08T07:07:00Z	2016-09-08T07:07:00Z	Stress-testing caused to stuck on OS X	252		
@@ -1515,6 +1515,6 @@
 8468	439929	true	open	false	0	0	2016-09-09T17:37:56Z	2016-09-09T17:37:56Z		test: various test improvements	52		
 8469	101553	true	open	false	3		2016-09-09T19:15:08Z	2016-09-09T20:06:41Z		doc: fix example in repl documentation about context properties	56		
 8470	9373002	true	open	false	2		2016-09-09T19:29:42Z	2016-09-09T20:04:35Z		test: skip pseudo-tty/no_dropped_stdio test	77		
-8471	11976448	true	open	false	5		2016-09-09T20:44:26Z	2016-09-09T22:29:35Z		test: favor `===`  over  in `==` in http test	31		
+8471	11976448	true	open	false	8		2016-09-09T20:44:26Z	2016-09-09T23:39:50Z		test: favor `===`  over  in `==` in http test	31		
 8472	9909591	true	open	false	0	0	2016-09-09T22:38:50Z	2016-09-09T22:38:50Z		test: stricter comparisons for equal and require var to const	63		
-8473	718899	true	open	false	0	0	2016-09-09T23:00:59Z	2016-09-09T23:00:59Z		test: refactor test-net-pipe-connect-errors	53		
+8473	718899	true	open	false	1		2016-09-09T23:00:59Z	2016-09-09T23:49:00Z		test: refactor test-net-pipe-connect-errors	53		
