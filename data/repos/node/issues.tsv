@@ -41,6 +41,7 @@
 2232	1093990	true	closed	false	10		2015-07-24T00:46:36Z	2016-07-07T20:08:56Z	2016-01-11T20:54:45Z	Port from joyent/node: `timers: fix timeout when added in timer's callback`	11		
 2253	234659	true	closed	false	53		2015-07-27T16:53:56Z	2016-08-30T12:56:44Z	2016-05-11T18:52:36Z	ensure preload modules are always preloaded	30		
 2262	8316625	true	open	false	11		2015-07-28T17:26:23Z	2016-08-06T07:36:34Z		net: fix todo by propogating errors	23		
+2314	1128607	true	open	false	41		2015-08-06T18:34:59Z	2016-09-10T21:04:42Z		stream: add _end method to write streams (equivilent to _flush)	87		
 2329	137545	true	open	false	15		2015-08-08T13:37:47Z	2016-08-07T12:44:00Z		[addons] Implement new init function argument dispatch	565		
 2333	115237	false	open	false	20		2015-08-09T06:04:13Z	2016-07-12T19:05:28Z		tty: stdio properties are undefined inside exec() child	45		
 2395	439929	true	closed	false	11	0	2015-08-16T00:23:48Z	2016-08-02T04:18:14Z	2016-08-02T04:18:14Z	http: correct fencepost error when freeing socket	60		
@@ -1502,7 +1503,7 @@
 8455	718899	false	open	false	2		2016-09-08T23:21:15Z	2016-09-09T16:22:36Z		Investigate flaky parallel/test-crypto-binary-default on linux-fips	23		
 8456	11638619	true	open	false	9		2016-09-08T23:31:27Z	2016-09-09T13:56:46Z		test: make crypto.timingSafeEqual test less flaky	141		
 8457	1093990	true	open	false	5		2016-09-08T23:40:40Z	2016-09-09T14:45:46Z		v6.6.0 Proposal (old)	16		
-8458	551402	true	open	false	11		2016-09-09T04:22:47Z	2016-09-09T21:22:02Z		test: clean up net server try ports test	46		
+8458	551402	true	open	false	11		2016-09-09T04:22:47Z	2016-09-10T21:35:13Z		test: clean up net server try ports test	46		
 8459	718899	false	open	false	2		2016-09-09T06:30:52Z	2016-09-09T14:05:08Z		Investigate flaky parallel/test-timers-same-timeout-wrong-list-deleted on Windows	43		
 8460	275871	false	open	false	1		2016-09-09T08:11:59Z	2016-09-10T18:44:28Z		Make setTimeout and setImmediate timers run consecutively	53		
 8461	18223385	false	open	false	0		2016-09-09T09:58:35Z	2016-09-09T09:58:35Z		how use shell( wget...) auto install nodeJs 	58		
@@ -1520,13 +1521,13 @@
 8473	718899	true	open	false	5		2016-09-09T23:00:59Z	2016-09-10T17:34:57Z		test: refactor test-net-pipe-connect-errors	53		
 8474	1551907	false	closed	false	3		2016-09-10T00:33:21Z	2016-09-10T19:26:27Z	2016-09-10T19:26:27Z	TypeError when constructing subclass of Promise	53		
 8475	6354455	true	open	false			2016-09-10T00:46:24Z	2016-09-10T17:21:21Z		readline docs: adding events link	35		
-8476	628688	true	open	false	2		2016-09-10T00:56:52Z	2016-09-10T12:56:20Z		test: modernize JS and tighten equality checking	66		
+8476	628688	true	open	false	4		2016-09-10T00:56:52Z	2016-09-10T21:32:50Z		test: modernize JS and tighten equality checking	66		
 8477	7972329	false	open	false	3		2016-09-10T01:00:05Z	2016-09-10T12:40:02Z		socket.connect() succeeding for reserved IPv6 address (2001:20:0:0:0:0:0:0)	111		
 8478	718899	true	open	false	0	0	2016-09-10T03:52:13Z	2016-09-10T03:52:13Z		Update ESLint, replace custom rule with built-in	128		
 8479	718899	true	open	false			2016-09-10T04:11:44Z	2016-09-10T15:29:57Z		doc: update onboarding PR landing info	46		
 8480	238531	true	open	false	9		2016-09-10T13:09:20Z	2016-09-10T20:29:25Z		tickprocessor: pass proper arguments to `/bin/sh`	159		
 8481	1622515	false	open	false	1		2016-09-10T14:49:43Z	2016-09-10T15:05:40Z		"v8: Parse issue with code snippet: ""{ a: 1 } { a: 1 }"""	141		
-8482	899444	true	open	false	1		2016-09-10T16:47:39Z	2016-09-10T18:54:20Z		src: simplify memory management using `node::Malloc()` and friends	142		
+8482	899444	true	open	false	1		2016-09-10T16:47:39Z	2016-09-10T21:32:53Z		src: simplify memory management using `node::Malloc()` and friends	142		
 8483	718899	false	open	false	0		2016-09-10T17:39:41Z	2016-09-10T17:39:41Z		Investigate flaky parallel/test-force-repl on Windows	76		
 8484	718899	true	open	false	1		2016-09-10T17:45:22Z	2016-09-10T19:46:52Z		test: fix flaky test-force-repl	62		
-8485	1538624	true	open	false	0	0	2016-09-10T20:01:26Z	2016-09-10T20:01:26Z		doc: standardize rest parameters	135		
+8485	1538624	true	open	false	1		2016-09-10T20:01:26Z	2016-09-10T21:27:30Z		doc: standardize rest parameters	135		
