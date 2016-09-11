@@ -41,7 +41,7 @@
 2232	1093990	true	closed	false	10		2015-07-24T00:46:36Z	2016-07-07T20:08:56Z	2016-01-11T20:54:45Z	Port from joyent/node: `timers: fix timeout when added in timer's callback`	11		
 2253	234659	true	closed	false	53		2015-07-27T16:53:56Z	2016-08-30T12:56:44Z	2016-05-11T18:52:36Z	ensure preload modules are always preloaded	30		
 2262	8316625	true	open	false	11		2015-07-28T17:26:23Z	2016-08-06T07:36:34Z		net: fix todo by propogating errors	23		
-2314	1128607	true	open	false	41		2015-08-06T18:34:59Z	2016-09-10T21:04:42Z		stream: add _end method to write streams (equivilent to _flush)	87		
+2314	1128607	true	open	false	42		2015-08-06T18:34:59Z	2016-09-11T07:12:14Z		stream: add _end method to write streams (equivilent to _flush)	87		
 2329	137545	true	open	false	15		2015-08-08T13:37:47Z	2016-08-07T12:44:00Z		[addons] Implement new init function argument dispatch	565		
 2333	115237	false	open	false	20		2015-08-09T06:04:13Z	2016-07-12T19:05:28Z		tty: stdio properties are undefined inside exec() child	45		
 2395	439929	true	closed	false	11	0	2015-08-16T00:23:48Z	2016-08-02T04:18:14Z	2016-08-02T04:18:14Z	http: correct fencepost error when freeing socket	60		
@@ -1464,7 +1464,7 @@
 8416	432351	true	closed	false	8	0	2016-09-06T07:43:21Z	2016-09-07T08:06:52Z	2016-09-07T08:06:52Z	src: update f function call comment	75		
 8417	413206	false	closed	false	3		2016-09-06T10:15:12Z	2016-09-06T14:11:14Z	2016-09-06T14:11:14Z	crypto.scryptSync()	37		
 8418	413206	false	open	false	4		2016-09-06T10:17:08Z	2016-09-06T14:01:46Z		crypto.createHKDF()	33		
-8419	8774679	true	open	false			2016-09-06T10:48:43Z	2016-09-10T13:36:40Z		net: multiple listen() events fail silently	95		
+8419	8774679	true	open	false	4		2016-09-06T10:48:43Z	2016-09-11T07:19:45Z		net: multiple listen() events fail silently	95		
 8420	1443911	true	open	false	10		2016-09-06T11:39:49Z	2016-09-10T13:42:03Z		url: fix off-by-one error in loop handling dots	52		
 8421	275871	false	open	false	1		2016-09-06T14:48:40Z	2016-09-06T16:21:47Z		fs: fs.watchFile() should not emit 'stop' event synchronously	45		
 8422	1093990	true	open	false			2016-09-06T15:52:10Z	2016-09-07T21:01:59Z		timers: do not expose .unref()._handle._list	63		
@@ -1530,8 +1530,8 @@
 8482	899444	true	open	false	1		2016-09-10T16:47:39Z	2016-09-10T21:32:53Z		src: simplify memory management using `node::Malloc()` and friends	142		
 8483	718899	false	open	false	0		2016-09-10T17:39:41Z	2016-09-10T17:39:41Z		Investigate flaky parallel/test-force-repl on Windows	76		
 8484	718899	true	open	false	1		2016-09-10T17:45:22Z	2016-09-10T19:46:52Z		test: fix flaky test-force-repl	62		
-8485	1538624	true	open	false			2016-09-10T20:01:26Z	2016-09-11T07:01:20Z		doc: standardize rest parameters	135		
+8485	1538624	true	open	false	3		2016-09-10T20:01:26Z	2016-09-11T07:03:58Z		doc: standardize rest parameters	135		
 8486	1538624	true	open	false	0	0	2016-09-10T23:16:08Z	2016-09-10T23:16:08Z		doc: revise http documentation	65		
 8487	1935767	true	open	false	3		2016-09-11T01:13:13Z	2016-09-11T06:46:32Z		timers: length == 0 is untouchable because type checking	73		
 8488	1935767	true	open	false	3		2016-09-11T01:44:26Z	2016-09-11T06:48:22Z		doc: fix link on timers.md	49		
-8489	1935767	true	open	false	0	0	2016-09-11T06:26:36Z	2016-09-11T06:26:37Z		doc, url: fix type names	60		
+8489	1935767	true	open	false	1		2016-09-11T06:26:36Z	2016-09-11T07:24:08Z		doc, url: fix type names	63		
