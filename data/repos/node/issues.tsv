@@ -122,7 +122,7 @@
 4243	524382	true	closed	false	10	0	2015-12-11T17:36:12Z	2016-08-19T15:09:25Z	2016-08-19T15:09:25Z	src: use thread defaults provided by v8::platform	73		
 4253	855219	true	closed	false	18		2015-12-12T01:21:25Z	2016-08-30T14:10:50Z	2016-05-04T22:07:05Z	nodejs/node#3111 - WIP v8BreakIterator disablement	6		
 4266	1470592	false	open	false	13		2015-12-14T00:40:39Z	2016-08-19T14:06:13Z		buffer.toString fails for buffers larger than 192MB	95		
-4270	495647	false	open	false	21		2015-12-14T10:06:18Z	2016-09-08T04:52:44Z		Discussion: OpenSSL 1.1.0 planning	297		
+4270	495647	false	open	false	21		2015-12-14T10:06:18Z	2016-09-11T12:22:26Z		Discussion: OpenSSL 1.1.0 planning	297		
 4307	12825770	false	closed	false	11		2015-12-16T08:16:14Z	2016-07-11T09:25:48Z	2016-07-11T09:25:48Z	can not step in constructor, will will terminate node.exe	90		
 4329	16335744	false	closed	false	14		2015-12-17T11:41:17Z	2016-07-21T14:42:10Z	2016-01-15T10:53:49Z	node.js Setup Wizard ended prematurely	43		
 4394	1470592	true	open	false	44		2015-12-23T03:38:39Z	2016-08-07T06:04:29Z		buffer: workaround for v8 buffer.toString failure. fixes #4266	20		
@@ -1493,7 +1493,7 @@
 8445	79017	true	open	false	3		2016-09-08T16:48:42Z	2016-09-08T17:02:46Z		deps: add back no-op harmony shipping flags	89		
 8446	22082115	false	open	false	0		2016-09-08T17:39:38Z	2016-09-08T17:39:38Z		http.ServerResponse.writeHead() can be called multiple times for a single response	149		
 8447	4390247	true	open	false	0	0	2016-09-08T18:46:20Z	2016-09-08T18:46:20Z		Update npm.js	50		
-8448	432351	true	open	false	5		2016-09-08T18:48:20Z	2016-09-10T13:34:33Z		src: pull AfterConnect from pipe_wrap and tcp_wrap	75		
+8448	432351	true	open	false			2016-09-08T18:48:20Z	2016-09-11T12:48:28Z		src: pull AfterConnect from pipe_wrap and tcp_wrap	75		
 8449	4390247	true	open	false	0	0	2016-09-08T18:50:06Z	2016-09-08T18:50:06Z		Update cmd-list.js	50		
 8450	1084056	true	closed	false	6	0	2016-09-08T20:13:09Z	2016-09-09T20:02:22Z	2016-09-09T20:02:22Z	src: fix unused-result warning	107	1084056	2016-09-09T20:02:22Z
 8451	21268802	false	open	false	10		2016-09-08T21:02:35Z	2016-09-10T08:01:30Z		Crash in mksnapshot while building 4.5.0 on debian wheezy	1038		
@@ -1527,7 +1527,7 @@
 8479	718899	true	open	false			2016-09-10T04:11:44Z	2016-09-10T15:29:57Z		doc: update onboarding PR landing info	46		
 8480	238531	true	open	false	9		2016-09-10T13:09:20Z	2016-09-10T20:29:25Z		tickprocessor: pass proper arguments to `/bin/sh`	159		
 8481	1622515	false	open	false	1		2016-09-10T14:49:43Z	2016-09-10T15:05:40Z		"v8: Parse issue with code snippet: ""{ a: 1 } { a: 1 }"""	141		
-8482	899444	true	open	false			2016-09-10T16:47:39Z	2016-09-11T08:16:40Z		src: simplify memory management using `node::Malloc()` and friends	142		
+8482	899444	true	open	false	3		2016-09-10T16:47:39Z	2016-09-11T12:21:21Z		src: simplify memory management using `node::Malloc()` and friends	142		
 8483	718899	false	open	false	0		2016-09-10T17:39:41Z	2016-09-10T17:39:41Z		Investigate flaky parallel/test-force-repl on Windows	76		
 8484	718899	true	open	false	1		2016-09-10T17:45:22Z	2016-09-10T19:46:52Z		test: fix flaky test-force-repl	62		
 8485	1538624	true	open	false	3		2016-09-10T20:01:26Z	2016-09-11T07:03:58Z		doc: standardize rest parameters	135		
@@ -1536,3 +1536,4 @@
 8488	1935767	true	open	false	4		2016-09-11T01:44:26Z	2016-09-11T10:12:29Z		doc: fix link on timers.md	49		
 8489	1935767	true	open	false	2		2016-09-11T06:26:36Z	2016-09-11T08:31:07Z		doc, url: fix type names	63		
 8490	19225332	false	closed	false	2		2016-09-11T10:49:34Z	2016-09-11T11:02:22Z	2016-09-11T11:02:22Z	 Unable to install any npm package on Windows 7 connected to Internet via wifi	230		
+8491	1616242	true	open	false	0	0	2016-09-11T12:21:11Z	2016-09-11T12:21:11Z		Make it build using openssl 1.1.0	338		
