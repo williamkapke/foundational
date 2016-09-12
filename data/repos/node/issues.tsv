@@ -297,6 +297,7 @@
 6883	4954074	false	closed	false	20		2016-05-19T19:13:10Z	2016-08-15T09:34:48Z	2016-08-14T09:10:20Z	Loop with computed name crash node 6.2.0 without message	89		
 6887	238531	true	closed	false	10		2016-05-20T00:35:45Z	2016-07-12T02:29:49Z	2016-05-25T20:07:41Z	tls: catch `certCbDone` exceptions	60		
 6896	718899	false	closed	false	2		2016-05-20T15:50:20Z	2016-07-02T19:42:29Z	2016-07-02T19:42:29Z	Investigate flaky test-tls-server-verify on win10	17		
+6901	15614466	false	closed	false	4		2016-05-20T18:51:46Z	2016-09-12T03:32:05Z	2016-05-20T19:06:02Z	child_process fork creates error: Error: listen EADDRINUSE	82		
 6902	2512748	true	closed	false	16		2016-05-20T19:17:00Z	2016-07-05T14:10:42Z	2016-05-25T16:08:10Z	cluster: guard against undefined message handlers	87		
 6904	439929	true	closed	false	17		2016-05-20T20:12:11Z	2016-07-11T21:44:37Z	2016-05-27T01:10:17Z	doc: general improvements to url.md copy	34		
 6918	718899	false	closed	false	3		2016-05-21T17:44:34Z	2016-07-02T03:27:10Z	2016-07-02T03:27:10Z	Investigate flaky test-stdout-close-catch on FreeBSD	19		
@@ -1383,7 +1384,7 @@
 8335	16787433	true	open	false	0	0	2016-08-30T12:37:32Z	2016-08-30T12:37:32Z		Merge pull request #1 from nodejs/master	48		
 8336	16787433	true	open	false	0	0	2016-08-30T12:39:44Z	2016-08-30T12:39:44Z		Merge pull request #1 from nodejs/master	48		
 8337	16787433	true	open	false	0	0	2016-08-30T12:51:40Z	2016-08-30T12:51:40Z		merge from remote	47		
-8338	899444	true	open	false			2016-08-30T12:59:48Z	2016-09-09T18:30:42Z		benchmark: add benches for fs.stat & fs.statSync	59		
+8338	899444	true	closed	false	5		2016-08-30T12:59:48Z	2016-09-12T03:54:48Z	2016-09-12T03:54:48Z	benchmark: add benches for fs.stat & fs.statSync	59		
 8339	9373002	false	closed	false	4		2016-08-30T14:24:08Z	2016-08-30T15:52:18Z	2016-08-30T15:52:18Z	V8 tests - faling on PPC, 390 on master 	72		
 8340	234659	true	open	false	5		2016-08-30T14:31:45Z	2016-09-08T02:26:23Z		Backport 2253	46		
 8341	899444	true	closed	false	4		2016-08-30T17:20:34Z	2016-09-04T15:26:47Z	2016-09-04T15:26:46Z	events: make memory leak warning name more verbose	70		
@@ -1455,7 +1456,7 @@
 8407	718899	true	closed	false	2		2016-09-05T04:34:21Z	2016-09-08T04:01:46Z	2016-09-08T04:01:46Z	doc: add CI help/support info to onboarding doc	25		
 8408	5010504	false	open	false	0		2016-09-05T07:08:59Z	2016-09-05T07:08:59Z		Inconsistent `require` Behavior	331		
 8409	275871	true	open	false	3		2016-09-05T08:42:47Z	2016-09-07T22:18:30Z		src: guard against overflow in ParseArrayIndex() (v4.x)	8		
-8410	899444	true	open	false	8		2016-09-05T12:11:26Z	2016-09-09T18:25:12Z		doc: note that listening on SIGSEGV & co is unsafe	41		
+8410	899444	true	closed	false	9		2016-09-05T12:11:26Z	2016-09-12T03:50:07Z	2016-09-12T03:50:07Z	doc: note that listening on SIGSEGV & co is unsafe	41		
 8411	899444	true	closed	false	10		2016-09-05T14:16:13Z	2016-09-08T08:32:34Z	2016-09-08T08:32:34Z	deps: cherry-pick 8ed65b97 from V8's upstream	180		
 8412	134460	true	closed	false	2	0	2016-09-05T15:02:46Z	2016-09-08T00:08:55Z	2016-09-08T00:08:55Z	win,build: improvements to vcbuild.bat	221		
 8413	899444	true	open	false	3		2016-09-05T20:41:51Z	2016-09-08T13:08:45Z		build: run `npm install` for doc builds in tarball	93		
@@ -1485,7 +1486,7 @@
 8437	899444	true	closed	false	5		2016-09-07T22:00:44Z	2016-09-08T23:30:14Z	2016-09-08T19:55:55Z	Backport 8174 (symbol-based custom inspection methods)	26		
 8438	54666	false	open	false	2		2016-09-08T02:30:21Z	2016-09-09T18:45:05Z		v8 inspector Profiles page no longer loads	56		
 8439	2226267	false	closed	false	1		2016-09-08T06:45:46Z	2016-09-08T16:56:51Z	2016-09-08T16:56:51Z	when run node with --prof the `crypto.pbkdf2` will not loged in	103		
-8440	720065	false	open	false	14		2016-09-08T08:29:41Z	2016-09-12T02:00:25Z		Buffer.from not support SharedArrayBuffer	133		
+8440	720065	false	open	false	15		2016-09-08T08:29:41Z	2016-09-12T03:08:04Z		Buffer.from not support SharedArrayBuffer	133		
 8441	1014367	false	closed	false	1		2016-09-08T09:00:13Z	2016-09-08T15:44:42Z	2016-09-08T15:44:42Z	"Error with let: ""Identifier '*' has already been declared"" on REPL"	148		
 8442	731722	false	open	false	5		2016-09-08T09:18:05Z	2016-09-10T01:31:02Z		How do I implement `MyObject.inspect(depth, inspectOpts)`?	107		
 8443	6477435	false	open	false	0		2016-09-08T10:46:46Z	2016-09-09T08:05:54Z		Hotpatching modules leaks memory	163		
@@ -1499,7 +1500,7 @@
 8451	21268802	false	closed	false	11		2016-09-08T21:02:35Z	2016-09-11T22:08:18Z	2016-09-11T22:08:18Z	Crash in mksnapshot while building 4.5.0 on debian wheezy	1038		
 8452	110455	true	open	false	8		2016-09-08T21:10:49Z	2016-09-10T13:25:13Z		util: don't init Debug if it's not needed yet	61		
 8453	54666	true	open	false	6		2016-09-08T22:35:28Z	2016-09-10T13:23:42Z		buffer: fix ArrayBuffer checks	67		
-8454	718899	true	open	false	4		2016-09-08T22:45:55Z	2016-09-09T16:47:18Z		test: add test-debug-protocol-execute	66		
+8454	718899	true	closed	false	5		2016-09-08T22:45:55Z	2016-09-12T04:01:22Z	2016-09-12T04:01:22Z	test: add test-debug-protocol-execute	66		
 8455	718899	false	open	false	2		2016-09-08T23:21:15Z	2016-09-09T16:22:36Z		Investigate flaky parallel/test-crypto-binary-default on linux-fips	23		
 8456	11638619	true	open	false	9		2016-09-08T23:31:27Z	2016-09-09T13:56:46Z		test: make crypto.timingSafeEqual test less flaky	141		
 8457	1093990	true	open	false	5		2016-09-08T23:40:40Z	2016-09-09T14:45:46Z		v6.6.0 Proposal (old)	16		
@@ -1514,7 +1515,7 @@
 8466	1093990	true	open	false	2		2016-09-09T14:45:04Z	2016-09-09T16:52:27Z		v6.6.0 proposal	89		
 8467	4336805	false	open	false	1		2016-09-09T17:01:23Z	2016-09-09T17:17:33Z		Crypto outputs different hashes for node v0.10.42 compared to newer versions	223		
 8468	439929	true	open	false			2016-09-09T17:37:56Z	2016-09-10T05:55:30Z		test: various test improvements	52		
-8469	101553	true	open	false	3		2016-09-09T19:15:08Z	2016-09-09T20:06:41Z		doc: fix example in repl documentation about context properties	56		
+8469	101553	true	open	false	4		2016-09-09T19:15:08Z	2016-09-12T03:55:56Z		doc: fix example in repl documentation about context properties	56		
 8470	9373002	true	open	false	4		2016-09-09T19:29:42Z	2016-09-10T00:21:03Z		test: skip pseudo-tty/no_dropped_stdio test	77		
 8471	11976448	true	open	false			2016-09-09T20:44:26Z	2016-09-10T22:06:41Z		test: favor `===`  over  in `==` in http test	31		
 8472	9909591	true	open	false	6		2016-09-09T22:38:50Z	2016-09-10T13:00:27Z		test: stricter comparisons for equal and require var to const	63		
@@ -1523,7 +1524,7 @@
 8475	6354455	true	open	false			2016-09-10T00:46:24Z	2016-09-10T17:21:21Z		readline docs: adding events link	35		
 8476	628688	true	open	false	4		2016-09-10T00:56:52Z	2016-09-10T21:32:50Z		test: modernize JS and tighten equality checking	66		
 8477	7972329	false	closed	false	4		2016-09-10T01:00:05Z	2016-09-11T08:55:56Z	2016-09-11T08:55:56Z	socket.connect() succeeding for reserved IPv6 address (2001:20:0:0:0:0:0:0)	111		
-8478	718899	true	open	false	0	0	2016-09-10T03:52:13Z	2016-09-10T03:52:13Z		Update ESLint, replace custom rule with built-in	128		
+8478	718899	true	open	false	1		2016-09-10T03:52:13Z	2016-09-12T04:00:46Z		Update ESLint, replace custom rule with built-in	128		
 8479	718899	true	open	false			2016-09-10T04:11:44Z	2016-09-10T15:29:57Z		doc: update onboarding PR landing info	46		
 8480	238531	true	open	false	9		2016-09-10T13:09:20Z	2016-09-10T20:29:25Z		tickprocessor: pass proper arguments to `/bin/sh`	159		
 8481	1622515	false	open	false	1		2016-09-10T14:49:43Z	2016-09-10T15:05:40Z		"v8: Parse issue with code snippet: ""{ a: 1 } { a: 1 }"""	141		
