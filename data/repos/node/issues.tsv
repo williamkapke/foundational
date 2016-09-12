@@ -4,7 +4,7 @@
 428	321966	false	open	false	42		2015-01-14T21:56:04Z	2016-07-08T15:21:33Z		plans on incorporating LibreSSL	35		
 445	2993861	false	open	false	11		2015-01-15T16:18:56Z	2016-08-03T22:33:47Z		Cleanup `_writableState` and `_readableState` access across codebase	590		
 540	555645	true	closed	false	33		2015-01-21T16:22:26Z	2016-07-18T15:54:13Z	2015-01-28T03:49:14Z	events: Alias EventEmitter.protoype.removeListener as EventEmitter.prototype.off 	95		
-548	1522145	false	open	false	20		2015-01-22T03:48:27Z	2016-09-12T08:49:12Z		Function redefinition in vm.runInContext	42		
+548	1522145	false	open	false	21		2015-01-22T03:48:27Z	2016-09-12T14:24:01Z		Function redefinition in vm.runInContext	42		
 550	30827	false	closed	false	10		2015-01-22T05:35:22Z	2016-08-05T22:14:53Z	2016-08-05T22:14:53Z	Proposal: HTTP – Move `bodyHead` to `data` event	125		
 643	829734	false	open	false	31		2015-01-28T21:12:32Z	2016-08-05T22:17:03Z		Using faster url parser	82		
 678	643505	false	open	false	5		2015-01-31T00:58:15Z	2016-08-29T14:13:38Z		make crypto functions execute in the threadpool asynchronously	83		
@@ -42,7 +42,7 @@
 2232	1093990	true	closed	false	10		2015-07-24T00:46:36Z	2016-07-07T20:08:56Z	2016-01-11T20:54:45Z	Port from joyent/node: `timers: fix timeout when added in timer's callback`	11		
 2253	234659	true	closed	false	53		2015-07-27T16:53:56Z	2016-08-30T12:56:44Z	2016-05-11T18:52:36Z	ensure preload modules are always preloaded	30		
 2262	8316625	true	open	false	11		2015-07-28T17:26:23Z	2016-08-06T07:36:34Z		net: fix todo by propogating errors	23		
-2314	1128607	true	open	false	43		2015-08-06T18:34:59Z	2016-09-12T10:33:07Z		stream: add _end method to write streams (equivilent to _flush)	87		
+2314	1128607	true	open	false	46		2015-08-06T18:34:59Z	2016-09-12T14:12:32Z		stream: add _end method to write streams (equivilent to _flush)	87		
 2329	137545	true	open	false	15		2015-08-08T13:37:47Z	2016-08-07T12:44:00Z		[addons] Implement new init function argument dispatch	565		
 2333	115237	false	open	false	20		2015-08-09T06:04:13Z	2016-07-12T19:05:28Z		tty: stdio properties are undefined inside exec() child	45		
 2395	439929	true	closed	false	11	0	2015-08-16T00:23:48Z	2016-08-02T04:18:14Z	2016-08-02T04:18:14Z	http: correct fencepost error when freeing socket	60		
@@ -113,7 +113,7 @@
 3973	15373625	false	closed	false	5		2015-11-23T01:02:10Z	2016-06-30T13:51:42Z	2016-06-30T13:51:42Z	Silent crash when sending socket to child_process	216		
 3979	495647	false	open	false	14		2015-11-23T09:04:11Z	2016-08-24T20:53:42Z		Seek legal advice on LICENSE and copyright blocks in code	84		
 4007	1093990	true	closed	false	69		2015-11-24T17:15:03Z	2016-08-30T14:09:47Z	2016-02-26T23:13:34Z	Refactor Timers	188		
-4039	4520820	true	open	false	20		2015-11-26T17:23:49Z	2016-09-12T13:31:02Z		net: refactor Server.prototype.listen	226		
+4039	4520820	true	open	false	20		2015-11-26T17:23:49Z	2016-09-12T14:05:40Z		net: refactor Server.prototype.listen	226		
 4092	11175771	false	open	false	1		2015-12-01T09:38:49Z	2016-09-02T12:37:02Z		node.js Setup Wizard ended prematurely	35		
 4111	1524333	true	open	false	29		2015-12-02T00:40:22Z	2016-07-20T16:10:21Z		Windows post-install screen additional build tools messaging	155		
 4169	54666	true	closed	false	20		2015-12-06T06:38:35Z	2016-08-30T14:10:41Z	2016-03-18T23:29:42Z	timers: improve setImmediate() performance	51		
@@ -1365,7 +1365,7 @@
 8314	1909610	false	closed	false	2		2016-08-29T00:09:19Z	2016-08-29T01:03:13Z	2016-08-29T00:13:04Z	6.5.0 release branch exists here but not on Node	109		
 8315	2499504	true	closed	false	6		2016-08-29T02:37:55Z	2016-09-02T21:57:07Z	2016-09-02T21:57:07Z	doc: add .md to the link	51		
 8316	5234060	false	open	false	4		2016-08-29T02:56:58Z	2016-09-12T12:30:32Z		`want_separate_host_toolset` wrongly set=0 for android x64 on Mac/Linux(also 64bit)	128		
-8317	2352663	true	open	false	29		2016-08-29T07:41:54Z	2016-09-12T13:04:47Z		deps: update V8 to 5.4	49		
+8317	2352663	true	open	false	29		2016-08-29T07:41:54Z	2016-09-12T14:10:16Z		deps: update V8 to 5.4	49		
 8318	413206	false	closed	false	2		2016-08-29T11:24:44Z	2016-08-29T14:17:47Z	2016-08-29T14:17:47Z	Does a createCipheriv stream execute in the threadpool or the main thread?	69		
 8319	7109350	false	open	false	0		2016-08-29T12:13:58Z	2016-08-29T12:13:58Z		repl autocompletion is off for `const` and `let` variables	65		
 8320	11850893	false	closed	false	1		2016-08-29T12:51:42Z	2016-08-29T13:09:40Z	2016-08-29T13:09:40Z	Problem in read JSON with FS	60		
@@ -1471,7 +1471,7 @@
 8420	1443911	true	closed	false	11		2016-09-06T11:39:49Z	2016-09-12T04:17:45Z	2016-09-12T04:17:45Z	url: fix off-by-one error in loop handling dots	52		
 8421	275871	false	open	false	1		2016-09-06T14:48:40Z	2016-09-06T16:21:47Z		fs: fs.watchFile() should not emit 'stop' event synchronously	45		
 8422	1093990	true	open	false			2016-09-06T15:52:10Z	2016-09-07T21:01:59Z		timers: do not expose .unref()._handle._list	63		
-8423	4421720	true	open	false	1		2016-09-06T15:52:19Z	2016-09-06T17:47:04Z		doc: add CTC meeting minutes 2016-08-24	33		
+8423	4421720	true	open	false	1		2016-09-06T15:52:19Z	2016-09-12T14:51:16Z		doc: add CTC meeting minutes 2016-08-24	33		
 8424	4421720	true	open	false	2		2016-09-06T16:02:59Z	2016-09-07T21:56:33Z		doc: add CTC meeting minutes 2016-08-31	27		
 8425	718899	false	open	false	15		2016-09-06T17:57:12Z	2016-09-07T19:14:41Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-09-07	467		
 8426	323878	false	open	false	2		2016-09-06T20:32:22Z	2016-09-08T16:54:07Z		v8 inspector - Runtime.evaluate doesn't work without a contextId	87		
@@ -1545,4 +1545,5 @@
 8494	1538624	true	open	false	0	0	2016-09-12T01:05:26Z	2016-09-12T01:05:26Z		doc/json: make sure links are correctly passed to marked	128		
 8495	1614246	false	closed	false	2		2016-09-12T04:18:18Z	2016-09-12T07:49:50Z	2016-09-12T07:49:50Z	debugging and fork (Error: listen EADDRINUSE :::5858)	145		
 8496	275871	false	open	false	0		2016-09-12T07:43:07Z	2016-09-12T07:43:07Z		src: UV_RUN_ONCE in a loop is inefficient	153		
-8497	6354455	true	open	false	0	0	2016-09-12T13:17:01Z	2016-09-12T13:17:02Z		readline docs: removing unnecessary section on rl.close() method 	45		
+8497	6354455	true	open	false	1		2016-09-12T13:17:01Z	2016-09-12T14:08:59Z		readline docs: removing unnecessary section on rl.close() method 	45		
+8498	2903325	false	open	false	0		2016-09-12T14:12:28Z	2016-09-12T14:12:28Z		Test failures on macOS Sierra 10.2 (GM) with Xcode 8.0 (GM)	374		
