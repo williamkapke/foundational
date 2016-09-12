@@ -4,6 +4,7 @@
 428	321966	false	open	false	42		2015-01-14T21:56:04Z	2016-07-08T15:21:33Z		plans on incorporating LibreSSL	35		
 445	2993861	false	open	false	11		2015-01-15T16:18:56Z	2016-08-03T22:33:47Z		Cleanup `_writableState` and `_readableState` access across codebase	590		
 540	555645	true	closed	false	33		2015-01-21T16:22:26Z	2016-07-18T15:54:13Z	2015-01-28T03:49:14Z	events: Alias EventEmitter.protoype.removeListener as EventEmitter.prototype.off 	95		
+548	1522145	false	open	false	20		2015-01-22T03:48:27Z	2016-09-12T08:49:12Z		Function redefinition in vm.runInContext	42		
 550	30827	false	closed	false	10		2015-01-22T05:35:22Z	2016-08-05T22:14:53Z	2016-08-05T22:14:53Z	Proposal: HTTP – Move `bodyHead` to `data` event	125		
 643	829734	false	open	false	31		2015-01-28T21:12:32Z	2016-08-05T22:17:03Z		Using faster url parser	82		
 678	643505	false	open	false	5		2015-01-31T00:58:15Z	2016-08-29T14:13:38Z		make crypto functions execute in the threadpool asynchronously	83		
@@ -1364,7 +1365,7 @@
 8314	1909610	false	closed	false	2		2016-08-29T00:09:19Z	2016-08-29T01:03:13Z	2016-08-29T00:13:04Z	6.5.0 release branch exists here but not on Node	109		
 8315	2499504	true	closed	false	6		2016-08-29T02:37:55Z	2016-09-02T21:57:07Z	2016-09-02T21:57:07Z	doc: add .md to the link	51		
 8316	5234060	false	open	false	3		2016-08-29T02:56:58Z	2016-09-01T12:47:12Z		`want_separate_host_toolset` wrongly set=0 for android x64 on Mac/Linux(also 64bit)	128		
-8317	2352663	true	open	false	20		2016-08-29T07:41:54Z	2016-09-12T07:39:22Z		[wip] deps: update V8 to 5.4	49		
+8317	2352663	true	open	false			2016-08-29T07:41:54Z	2016-09-12T08:14:09Z		deps: update V8 to 5.4	49		
 8318	413206	false	closed	false	2		2016-08-29T11:24:44Z	2016-08-29T14:17:47Z	2016-08-29T14:17:47Z	Does a createCipheriv stream execute in the threadpool or the main thread?	69		
 8319	7109350	false	open	false	0		2016-08-29T12:13:58Z	2016-08-29T12:13:58Z		repl autocompletion is off for `const` and `let` variables	65		
 8320	11850893	false	closed	false	1		2016-08-29T12:51:42Z	2016-08-29T13:09:40Z	2016-08-29T13:09:40Z	Problem in read JSON with FS	60		
@@ -1487,7 +1488,7 @@
 8437	899444	true	closed	false	5		2016-09-07T22:00:44Z	2016-09-08T23:30:14Z	2016-09-08T19:55:55Z	Backport 8174 (symbol-based custom inspection methods)	26		
 8438	54666	false	open	false	2		2016-09-08T02:30:21Z	2016-09-09T18:45:05Z		v8 inspector Profiles page no longer loads	56		
 8439	2226267	false	closed	false	1		2016-09-08T06:45:46Z	2016-09-08T16:56:51Z	2016-09-08T16:56:51Z	when run node with --prof the `crypto.pbkdf2` will not loged in	103		
-8440	720065	false	open	false	16		2016-09-08T08:29:41Z	2016-09-12T06:41:35Z		Buffer.from not support SharedArrayBuffer	133		
+8440	720065	false	open	false	17		2016-09-08T08:29:41Z	2016-09-12T08:39:52Z		Buffer.from not support SharedArrayBuffer	133		
 8441	1014367	false	closed	false	1		2016-09-08T09:00:13Z	2016-09-08T15:44:42Z	2016-09-08T15:44:42Z	"Error with let: ""Identifier '*' has already been declared"" on REPL"	148		
 8442	731722	false	open	false	5		2016-09-08T09:18:05Z	2016-09-10T01:31:02Z		How do I implement `MyObject.inspect(depth, inspectOpts)`?	107		
 8443	6477435	false	open	false	0		2016-09-08T10:46:46Z	2016-09-09T08:05:54Z		Hotpatching modules leaks memory	163		
@@ -1529,7 +1530,7 @@
 8479	718899	true	open	false	2		2016-09-10T04:11:44Z	2016-09-12T04:20:56Z		doc: update onboarding PR landing info	46		
 8480	238531	true	open	false	9		2016-09-10T13:09:20Z	2016-09-10T20:29:25Z		tickprocessor: pass proper arguments to `/bin/sh`	159		
 8481	1622515	false	open	false	1		2016-09-10T14:49:43Z	2016-09-10T15:05:40Z		"v8: Parse issue with code snippet: ""{ a: 1 } { a: 1 }"""	141		
-8482	899444	true	open	false			2016-09-10T16:47:39Z	2016-09-12T07:59:50Z		src: simplify memory management using `node::Malloc()` and friends	144		
+8482	899444	true	open	false			2016-09-10T16:47:39Z	2016-09-12T08:05:36Z		src: simplify memory management using `node::Malloc()` and friends	144		
 8483	718899	false	open	false	0		2016-09-10T17:39:41Z	2016-09-10T17:39:41Z		Investigate flaky parallel/test-force-repl on Windows	76		
 8484	718899	true	open	false	5		2016-09-10T17:45:22Z	2016-09-12T04:32:02Z		test: fix flaky test-force-repl	62		
 8485	1538624	true	open	false	4		2016-09-10T20:01:26Z	2016-09-12T04:31:05Z		doc: standardize rest parameters	135		
