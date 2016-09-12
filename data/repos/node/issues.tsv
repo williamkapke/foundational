@@ -436,7 +436,7 @@
 7340	6354455	false	open	false	7		2016-06-19T23:27:24Z	2016-07-04T13:49:39Z		stream docs, writable.cork() and writable.uncork() methods	37		
 7342	1333469	false	closed	false	9		2016-06-20T16:20:30Z	2016-06-30T23:05:52Z	2016-06-30T23:05:52Z	Encoding of child_process.exec.stdout changed from String to Buffer in v6.2.1	191		
 7343	18704287	false	closed	false	18		2016-06-20T16:48:51Z	2016-07-11T14:05:14Z	2016-06-20T20:31:26Z	Cross compiled Node.js v4.4.5 LTS for ARM7, but node threw illegal instruction error 	350		
-7344	4017750	false	open	false	9		2016-06-20T18:01:30Z	2016-07-15T06:58:09Z		Performance degradation when doing JSON.stringify(obj).replace(/regexp/, func) on Node 6.2.2 comparing to 4.4.5	357		
+7344	4017750	false	closed	false	10		2016-06-20T18:01:30Z	2016-09-12T19:47:10Z	2016-09-12T19:47:10Z	Performance degradation when doing JSON.stringify(obj).replace(/regexp/, func) on Node 6.2.2 comparing to 4.4.5	357		
 7345	432351	true	closed	false	12		2016-06-20T19:51:26Z	2016-07-12T02:02:53Z	2016-06-27T20:34:57Z	src: renaming ares_task struct to node_ares_task	79		
 7346	507991	false	open	false	4		2016-06-21T00:57:00Z	2016-07-06T16:30:03Z		setInterval interval includes duration of callback	329		
 7353	1622515	false	closed	false	5		2016-06-21T18:55:39Z	2016-06-27T21:01:31Z	2016-06-27T21:01:31Z	repl: Tab completion issue when useGlobal is set to false	80		
@@ -567,7 +567,7 @@
 7514	15943089	true	closed	false	10		2016-07-01T21:37:04Z	2016-07-07T10:39:43Z	2016-07-06T23:48:16Z	doc: updating REPLACEME tag during release	51		
 7515	17535	true	closed	false	3		2016-07-01T22:05:54Z	2016-07-05T18:59:53Z	2016-07-04T07:58:15Z	deps: upgrade npm to 3.10.3	111		
 7516	718899	false	closed	false	15		2016-07-01T22:17:54Z	2016-07-07T17:57:03Z	2016-07-07T17:57:03Z	Investigate flaky parallel/test-net-write-slow on FreeBSD	49		
-7517	7146748	false	open	false	3		2016-07-02T10:08:17Z	2016-07-03T11:13:25Z		V8:External allocation limit is below 256MB	134		
+7517	7146748	false	open	false	3		2016-07-02T10:08:17Z	2016-09-12T19:35:49Z		V8:External allocation limit is below 256MB	134		
 7518	101553	true	closed	false	7		2016-07-02T11:03:18Z	2016-07-02T19:44:56Z	2016-07-02T16:35:37Z	test: delete unnecessary require of common.js in test	40		
 7519	8656098	false	closed	false	5		2016-07-02T15:47:58Z	2016-07-07T14:09:02Z	2016-07-04T15:55:08Z	Behavior of path.basename is different from basename command.	52		
 7520	101553	true	closed	false	5		2016-07-02T18:32:33Z	2016-09-09T03:58:29Z	2016-07-15T07:50:11Z	doc: delete non-existing zlib constants	66		
@@ -841,7 +841,7 @@
 7788	4256376	false	closed	false	15		2016-07-19T04:09:35Z	2016-07-21T14:38:09Z	2016-07-21T14:38:09Z	Array and Object have different values in the console and in files	99		
 7789	275871	true	closed	false	21		2016-07-19T12:37:51Z	2016-07-21T13:58:23Z	2016-07-21T11:26:28Z	deps: cherry-pick 1f53e42 from v8 upstream (v6.x)	3		
 7790	2512748	true	open	false	2		2016-07-19T13:30:44Z	2016-07-20T11:42:50Z		test: use mustCall() for simple flow tracking	37		
-7791	7280625	false	open	false	11		2016-07-19T13:52:57Z	2016-07-19T22:04:17Z		Unknown problem	734		
+7791	7280625	false	closed	false	12		2016-07-19T13:52:57Z	2016-09-12T19:34:32Z	2016-09-12T19:34:32Z	Unknown problem	734		
 7792	5477955	false	open	false	5		2016-07-19T14:05:49Z	2016-07-20T09:30:01Z		Inconsistent clearTimeout implementation (timer argument is not converted to primitive)	181		
 7793	2512748	true	closed	false	3	0	2016-07-19T15:40:48Z	2016-07-20T17:04:52Z	2016-07-20T17:04:52Z	test: add known issue test for #7788	69	2512748	2016-07-20T17:04:52Z
 7794	1622515	true	closed	false	3		2016-07-19T18:12:14Z	2016-07-21T11:43:30Z	2016-07-21T11:43:30Z	repl: Mitigate vm #548 function redefinition issue	73		
@@ -1182,7 +1182,7 @@
 8130	718899	true	closed	false	4	0	2016-08-16T22:34:25Z	2016-08-18T22:42:17Z	2016-08-18T22:42:17Z	test: favor strict equality check	40		
 8131	718899	true	closed	false	7	0	2016-08-16T22:44:00Z	2016-08-18T22:44:23Z	2016-08-18T22:44:23Z	test: favor `===` over `==` in test-timers.js	38		
 8132	718899	true	closed	false	9		2016-08-16T23:47:50Z	2016-08-18T23:57:24Z	2016-08-18T23:57:24Z	assert: remove code that is never reached	88		
-8133	374012	false	open	false	1		2016-08-17T01:00:14Z	2016-08-17T05:48:24Z		v6 version of V8 has bad for-in implementation	166		
+8133	374012	false	closed	false	3		2016-08-17T01:00:14Z	2016-09-12T19:28:14Z	2016-09-12T19:28:14Z	v6 version of V8 has bad for-in implementation	166		
 8134	718899	true	closed	false	9	1	2016-08-17T03:49:34Z	2016-08-19T03:45:08Z	2016-08-19T03:45:08Z	test: confirm that assert truncates long values	62		
 8135	718899	true	closed	false	6	0	2016-08-17T04:13:02Z	2016-08-19T04:07:07Z	2016-08-19T04:07:07Z	test: favor strict equality in pummel net tests	42		
 8136	1909539	false	closed	false	4		2016-08-17T04:33:34Z	2016-08-29T22:00:09Z	2016-08-29T22:00:09Z	spawnSync hangs on linux	29		
@@ -1365,7 +1365,7 @@
 8314	1909610	false	closed	false	2		2016-08-29T00:09:19Z	2016-08-29T01:03:13Z	2016-08-29T00:13:04Z	6.5.0 release branch exists here but not on Node	109		
 8315	2499504	true	closed	false	6		2016-08-29T02:37:55Z	2016-09-02T21:57:07Z	2016-09-02T21:57:07Z	doc: add .md to the link	51		
 8316	5234060	false	open	false	4		2016-08-29T02:56:58Z	2016-09-12T12:30:32Z		`want_separate_host_toolset` wrongly set=0 for android x64 on Mac/Linux(also 64bit)	128		
-8317	2352663	true	open	false	36		2016-08-29T07:41:54Z	2016-09-12T18:08:26Z		deps: update V8 to 5.4	49		
+8317	2352663	true	open	false	39		2016-08-29T07:41:54Z	2016-09-12T19:06:33Z		deps: update V8 to 5.4	49		
 8318	413206	false	closed	false	2		2016-08-29T11:24:44Z	2016-08-29T14:17:47Z	2016-08-29T14:17:47Z	Does a createCipheriv stream execute in the threadpool or the main thread?	69		
 8319	7109350	false	open	false	0		2016-08-29T12:13:58Z	2016-08-29T12:13:58Z		repl autocompletion is off for `const` and `let` variables	65		
 8320	11850893	false	closed	false	1		2016-08-29T12:51:42Z	2016-08-29T13:09:40Z	2016-08-29T13:09:40Z	Problem in read JSON with FS	60		
@@ -1377,7 +1377,7 @@
 8326	4356989	true	closed	false	6		2016-08-29T18:53:56Z	2016-09-01T05:32:25Z	2016-09-01T05:32:25Z	doc: fix typo in documentation	45		
 8327	899444	true	closed	false	9		2016-08-29T19:54:14Z	2016-09-02T01:18:29Z	2016-09-01T11:12:59Z	doc: drop 50-character limit for commit messages	49		
 8328	1024460	false	closed	false	4		2016-08-29T22:02:38Z	2016-09-01T09:46:35Z	2016-09-01T09:46:35Z	How to read from unix socket file descriptor? 	197		
-8329	9373002	false	open	false	6		2016-08-29T22:29:02Z	2016-09-06T17:41:51Z		V8 5.4 compilation failure on linuxOne/s390x	292		
+8329	9373002	false	open	false	7		2016-08-29T22:29:02Z	2016-09-12T19:21:28Z		V8 5.4 compilation failure on linuxOne/s390x	292		
 8330	718899	false	closed	false	20		2016-08-30T02:23:27Z	2016-09-01T14:11:55Z	2016-09-01T14:11:55Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-31	510		
 8331	1443911	true	closed	false	4		2016-08-30T05:56:23Z	2016-08-30T10:07:50Z	2016-08-30T06:13:03Z	doc: add lpinca to collaborators	29		
 8332	696611	true	open	false	2		2016-08-30T06:28:38Z	2016-09-08T19:48:03Z		buffer: deprecate parent property	52		
@@ -1493,7 +1493,7 @@
 8442	731722	false	open	false	5		2016-09-08T09:18:05Z	2016-09-10T01:31:02Z		How do I implement `MyObject.inspect(depth, inspectOpts)`?	107		
 8443	6477435	false	open	false	0		2016-09-08T10:46:46Z	2016-09-09T08:05:54Z		Hotpatching modules leaks memory	163		
 8444	158641	false	open	false	0		2016-09-08T13:49:07Z	2016-09-08T13:49:07Z		path.relative method returns wrong path when UNC path is provided	54		
-8445	79017	true	open	false	6		2016-09-08T16:48:42Z	2016-09-12T12:21:57Z		deps: add back no-op harmony shipping flags	89		
+8445	79017	true	open	false	8		2016-09-08T16:48:42Z	2016-09-12T19:17:31Z		deps: add back no-op harmony shipping flags	89		
 8446	22082115	false	open	false	0		2016-09-08T17:39:38Z	2016-09-08T17:39:38Z		http.ServerResponse.writeHead() can be called multiple times for a single response	149		
 8447	4390247	true	open	false	0	0	2016-09-08T18:46:20Z	2016-09-08T18:46:20Z		Update npm.js	50		
 8448	432351	true	open	false			2016-09-08T18:48:20Z	2016-09-11T12:48:28Z		src: pull AfterConnect from pipe_wrap and tcp_wrap	75		
@@ -1542,11 +1542,12 @@
 8491	1616242	true	open	false	2		2016-09-11T12:21:11Z	2016-09-11T18:13:18Z		Make it build using openssl 1.1.0	346		
 8492	15197820	false	closed	false	7		2016-09-11T15:39:39Z	2016-09-12T06:58:06Z	2016-09-12T06:58:06Z	TypeError: 'caller' and 'arguments' are restricted function properties and cannot be accessed in this context nodejs	94		
 8493	899444	false	open	false	3		2016-09-11T16:39:59Z	2016-09-11T22:09:31Z		help() or similar for the REPL	391		
-8494	1538624	true	open	false	0	0	2016-09-12T01:05:26Z	2016-09-12T01:05:26Z		doc/json: make sure links are correctly passed to marked	128		
+8494	1538624	true	open	false	1		2016-09-12T01:05:26Z	2016-09-12T19:09:36Z		doc/json: make sure links are correctly passed to marked	128		
 8495	1614246	false	closed	false	2		2016-09-12T04:18:18Z	2016-09-12T07:49:50Z	2016-09-12T07:49:50Z	debugging and fork (Error: listen EADDRINUSE :::5858)	145		
 8496	275871	false	open	false	0		2016-09-12T07:43:07Z	2016-09-12T07:43:07Z		src: UV_RUN_ONCE in a loop is inefficient	153		
-8497	6354455	true	open	false	1		2016-09-12T13:17:01Z	2016-09-12T14:08:59Z		readline docs: removing unnecessary section on rl.close() method 	45		
-8498	2903325	false	open	false	0		2016-09-12T14:12:28Z	2016-09-12T14:12:28Z		Test failures on macOS Sierra 10.2 (GM) with Xcode 8.0 (GM)	374		
+8497	6354455	true	open	false	2		2016-09-12T13:17:01Z	2016-09-12T19:59:15Z		readline docs: removing unnecessary section on rl.close() method 	45		
+8498	2903325	false	open	false	2		2016-09-12T14:12:28Z	2016-09-12T19:02:55Z		Test failures on macOS Sierra 10.2 (GM) with Xcode 8.0 (GM)	377		
 8499	4421720	true	open	false	0	0	2016-09-12T15:20:38Z	2016-09-12T15:20:38Z		doc: add CTC meeting minutes 2016-09-07	27		
 8500	1616403	false	open	false	2		2016-09-12T17:18:23Z	2016-09-12T18:08:35Z		NodeJS not applying date locales properly	224		
 8501	22124150	false	open	false	0		2016-09-12T18:39:09Z	2016-09-12T18:39:09Z		how to use Node.js Addons ?	261		
+8502	287917	true	open	false	0	0	2016-09-12T19:16:52Z	2016-09-12T19:16:52Z		Default context	100		
