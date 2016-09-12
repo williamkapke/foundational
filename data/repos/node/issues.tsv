@@ -46,7 +46,7 @@
 2329	137545	true	open	false	15		2015-08-08T13:37:47Z	2016-08-07T12:44:00Z		[addons] Implement new init function argument dispatch	565		
 2333	115237	false	open	false	20		2015-08-09T06:04:13Z	2016-07-12T19:05:28Z		tty: stdio properties are undefined inside exec() child	45		
 2395	439929	true	closed	false	11	0	2015-08-16T00:23:48Z	2016-08-02T04:18:14Z	2016-08-02T04:18:14Z	http: correct fencepost error when freeing socket	60		
-2398	439929	false	open	false	38		2015-08-16T01:20:43Z	2016-08-16T15:25:47Z		DTLS Discussion	54		
+2398	439929	false	open	false	40		2015-08-16T01:20:43Z	2016-09-12T13:13:01Z		DTLS Discussion	54		
 2498	696611	true	closed	false	22		2015-08-22T20:07:00Z	2016-07-21T22:32:14Z	2016-07-21T22:32:14Z	fs: do basic arg validation of truncate in js	25		
 2521	885648	true	open	false	30		2015-08-24T08:36:14Z	2016-06-30T04:22:37Z		added CSI (\x9b) as additionally allowable escape	135		
 2534	4405297	true	open	false	87		2015-08-25T01:59:16Z	2016-08-08T12:58:00Z		http: fixed socket destruction, timeout and leaking	144		
@@ -113,7 +113,7 @@
 3973	15373625	false	closed	false	5		2015-11-23T01:02:10Z	2016-06-30T13:51:42Z	2016-06-30T13:51:42Z	Silent crash when sending socket to child_process	216		
 3979	495647	false	open	false	14		2015-11-23T09:04:11Z	2016-08-24T20:53:42Z		Seek legal advice on LICENSE and copyright blocks in code	84		
 4007	1093990	true	closed	false	69		2015-11-24T17:15:03Z	2016-08-30T14:09:47Z	2016-02-26T23:13:34Z	Refactor Timers	188		
-4039	4520820	true	open	false			2015-11-26T17:23:49Z	2016-09-12T12:17:04Z		net: refactor Server.prototype.listen	226		
+4039	4520820	true	open	false	20		2015-11-26T17:23:49Z	2016-09-12T13:31:02Z		net: refactor Server.prototype.listen	226		
 4092	11175771	false	open	false	1		2015-12-01T09:38:49Z	2016-09-02T12:37:02Z		node.js Setup Wizard ended prematurely	35		
 4111	1524333	true	open	false	29		2015-12-02T00:40:22Z	2016-07-20T16:10:21Z		Windows post-install screen additional build tools messaging	155		
 4169	54666	true	closed	false	20		2015-12-06T06:38:35Z	2016-08-30T14:10:41Z	2016-03-18T23:29:42Z	timers: improve setImmediate() performance	51		
@@ -1365,7 +1365,7 @@
 8314	1909610	false	closed	false	2		2016-08-29T00:09:19Z	2016-08-29T01:03:13Z	2016-08-29T00:13:04Z	6.5.0 release branch exists here but not on Node	109		
 8315	2499504	true	closed	false	6		2016-08-29T02:37:55Z	2016-09-02T21:57:07Z	2016-09-02T21:57:07Z	doc: add .md to the link	51		
 8316	5234060	false	open	false	4		2016-08-29T02:56:58Z	2016-09-12T12:30:32Z		`want_separate_host_toolset` wrongly set=0 for android x64 on Mac/Linux(also 64bit)	128		
-8317	2352663	true	open	false	27		2016-08-29T07:41:54Z	2016-09-12T12:27:55Z		deps: update V8 to 5.4	49		
+8317	2352663	true	open	false	29		2016-08-29T07:41:54Z	2016-09-12T13:04:47Z		deps: update V8 to 5.4	49		
 8318	413206	false	closed	false	2		2016-08-29T11:24:44Z	2016-08-29T14:17:47Z	2016-08-29T14:17:47Z	Does a createCipheriv stream execute in the threadpool or the main thread?	69		
 8319	7109350	false	open	false	0		2016-08-29T12:13:58Z	2016-08-29T12:13:58Z		repl autocompletion is off for `const` and `let` variables	65		
 8320	11850893	false	closed	false	1		2016-08-29T12:51:42Z	2016-08-29T13:09:40Z	2016-08-29T13:09:40Z	Problem in read JSON with FS	60		
@@ -1450,7 +1450,7 @@
 8399	238531	true	closed	false	7		2016-09-03T09:20:18Z	2016-09-04T18:26:20Z	2016-09-04T18:26:20Z	Backport/gh 7427	54		
 8400	1443911	true	closed	false	3		2016-09-03T09:52:35Z	2016-09-09T16:20:09Z	2016-09-09T16:20:09Z	doc: clarify sentence in event loop doc	50		
 8401	1622515	true	closed	false	6		2016-09-03T10:42:22Z	2016-09-06T13:07:34Z	2016-09-05T17:32:57Z	readline: Emit 'line' event with line number	71		
-8402	17122340	false	open	false	2		2016-09-03T15:43:52Z	2016-09-12T06:45:44Z		DLL error on Windows 8.1	39		
+8402	17122340	false	open	false	2		2016-09-03T15:43:52Z	2016-09-12T14:02:15Z		DLL error on Windows 8.1	39		
 8403	718899	true	closed	false	6		2016-09-04T05:31:33Z	2016-09-07T05:50:53Z	2016-09-07T05:50:53Z	test: increase _debugger coverage	69		
 8404	229633	false	open	false	9		2016-09-04T07:52:25Z	2016-09-06T13:14:24Z		Node 6.5.0 compilation fails on Debian Jessie with non ascii pathes	149		
 8405	432351	true	closed	false	7		2016-09-04T19:00:12Z	2016-09-06T18:54:05Z	2016-09-05T06:12:59Z	src: moving f function call comment	52		
@@ -1488,7 +1488,7 @@
 8437	899444	true	closed	false	5		2016-09-07T22:00:44Z	2016-09-08T23:30:14Z	2016-09-08T19:55:55Z	Backport 8174 (symbol-based custom inspection methods)	26		
 8438	54666	false	open	false	2		2016-09-08T02:30:21Z	2016-09-09T18:45:05Z		v8 inspector Profiles page no longer loads	56		
 8439	2226267	false	closed	false	1		2016-09-08T06:45:46Z	2016-09-08T16:56:51Z	2016-09-08T16:56:51Z	when run node with --prof the `crypto.pbkdf2` will not loged in	103		
-8440	720065	false	open	false	18		2016-09-08T08:29:41Z	2016-09-12T11:33:31Z		Buffer.from not support SharedArrayBuffer	133		
+8440	720065	false	open	false	18		2016-09-08T08:29:41Z	2016-09-12T13:29:17Z		Buffer.from not support SharedArrayBuffer	133		
 8441	1014367	false	closed	false	1		2016-09-08T09:00:13Z	2016-09-08T15:44:42Z	2016-09-08T15:44:42Z	"Error with let: ""Identifier '*' has already been declared"" on REPL"	148		
 8442	731722	false	open	false	5		2016-09-08T09:18:05Z	2016-09-10T01:31:02Z		How do I implement `MyObject.inspect(depth, inspectOpts)`?	107		
 8443	6477435	false	open	false	0		2016-09-08T10:46:46Z	2016-09-09T08:05:54Z		Hotpatching modules leaks memory	163		
@@ -1513,12 +1513,12 @@
 8462	899444	true	open	false	1		2016-09-09T10:53:26Z	2016-09-09T13:58:26Z		v4.x backport: test,doc: clarify `buf.indexOf(num)` input range	10		
 8463	899444	true	open	false	3		2016-09-09T11:45:41Z	2016-09-09T15:28:24Z		v6.x backport: buffer,string_decoder: consolidate encoding validation logic	35		
 8464	323878	false	open	false	0		2016-09-09T12:30:25Z	2016-09-09T12:30:25Z		Debug already running process using v8-inspector?	38		
-8465	1037138	false	open	false	5		2016-09-09T13:36:16Z	2016-09-12T12:43:46Z		OSX: setting a custom DYLD_ env console logs undefined when run with child_process.spawn	135		
+8465	1037138	false	open	false	7		2016-09-09T13:36:16Z	2016-09-12T13:03:43Z		OSX: setting a custom DYLD_ env console logs undefined when run with child_process.spawn	135		
 8466	1093990	true	open	false	2		2016-09-09T14:45:04Z	2016-09-09T16:52:27Z		v6.6.0 proposal	89		
 8467	4336805	false	open	false	1		2016-09-09T17:01:23Z	2016-09-09T17:17:33Z		Crypto outputs different hashes for node v0.10.42 compared to newer versions	223		
 8468	439929	true	open	false			2016-09-09T17:37:56Z	2016-09-10T05:55:30Z		test: various test improvements	52		
 8469	101553	true	open	false	4		2016-09-09T19:15:08Z	2016-09-12T03:55:56Z		doc: fix example in repl documentation about context properties	56		
-8470	9373002	true	open	false	4		2016-09-09T19:29:42Z	2016-09-10T00:21:03Z		test: skip pseudo-tty/no_dropped_stdio test	77		
+8470	9373002	true	closed	false	5		2016-09-09T19:29:42Z	2016-09-12T14:02:28Z	2016-09-12T14:02:28Z	test: skip pseudo-tty/no_dropped_stdio test	77		
 8471	11976448	true	open	false	9		2016-09-09T20:44:26Z	2016-09-12T04:25:26Z		test: favor `===`  over  in `==` in http test	31		
 8472	9909591	true	open	false	6		2016-09-09T22:38:50Z	2016-09-10T13:00:27Z		test: stricter comparisons for equal and require var to const	63		
 8473	718899	true	open	false	6		2016-09-09T23:00:59Z	2016-09-12T04:22:12Z		test: refactor test-net-pipe-connect-errors	53		
@@ -1545,3 +1545,4 @@
 8494	1538624	true	open	false	0	0	2016-09-12T01:05:26Z	2016-09-12T01:05:26Z		doc/json: make sure links are correctly passed to marked	128		
 8495	1614246	false	closed	false	2		2016-09-12T04:18:18Z	2016-09-12T07:49:50Z	2016-09-12T07:49:50Z	debugging and fork (Error: listen EADDRINUSE :::5858)	145		
 8496	275871	false	open	false	0		2016-09-12T07:43:07Z	2016-09-12T07:43:07Z		src: UV_RUN_ONCE in a loop is inefficient	153		
+8497	6354455	true	open	false	0	0	2016-09-12T13:17:01Z	2016-09-12T13:17:02Z		readline docs: removing unnecessary section on rl.close() method 	45		
