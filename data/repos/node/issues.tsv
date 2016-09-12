@@ -251,6 +251,7 @@
 6570	54666	true	closed	false	27		2016-05-04T15:44:50Z	2016-08-30T18:44:25Z	2016-06-14T19:13:56Z	http: optimize checkIsHttpToken() and checkInvalidHeaderChar()	594		
 6571	439929	false	closed	false	1		2016-05-04T15:50:55Z	2016-07-06T05:04:26Z	2016-07-06T05:04:26Z	doc: invalid process.hrtime documentation	15		
 6573	439929	true	open	false	27		2016-05-04T17:43:27Z	2016-08-26T22:47:06Z		errors: add internal/errors module	288		
+6578	17607	false	open	false	19		2016-05-04T22:06:49Z	2016-09-12T06:24:03Z		docs do not state at what version an API was introduced (or deprecated)	420		
 6582	275871	true	closed	false	14		2016-05-04T22:29:50Z	2016-07-11T21:10:49Z	2016-05-05T11:05:20Z	crypto: disable ssl compression at build time	3		
 6599	79017	true	closed	false	12		2016-05-05T16:22:48Z	2016-07-11T20:16:56Z	2016-05-07T03:30:19Z	src,lib: minor --debug-brk cleanup	116		
 6600	15943089	true	open	false	4		2016-05-05T16:23:19Z	2016-08-22T21:50:48Z		win, build: add node.lib file into headers package	273		
@@ -1421,7 +1422,7 @@
 8372	1093990	true	open	false	11		2016-09-01T17:20:56Z	2016-09-07T01:16:06Z		timers: optimize same-tick unref	86		
 8373	1093990	false	open	false	5		2016-09-01T19:57:55Z	2016-09-02T16:02:45Z		"PipeWrap-s do not ref correctly and are never ""truely"" unrefed."	135		
 8374	718899	true	closed	false	4	0	2016-09-01T21:34:19Z	2016-09-05T03:40:26Z	2016-09-05T03:40:26Z	doc: update CI content in onboarding doc	33		
-8375	9373002	false	open	false	31		2016-09-02T00:59:59Z	2016-09-12T05:11:19Z		AIX: parallel/test-stdio-closed	73		
+8375	9373002	false	open	false	35		2016-09-02T00:59:59Z	2016-09-12T06:05:35Z		AIX: parallel/test-stdio-closed	73		
 8376	2081487	false	open	false	1		2016-09-02T04:52:16Z	2016-09-02T05:13:25Z		REPL not defined var has been declared	176		
 8377	1531427	false	open	false	0		2016-09-02T07:13:03Z	2016-09-02T08:06:23Z		Memory leak in DiffieHellman.set{Privat,Public}Key() and some suggestions	390		
 8378	1443911	true	open	false	0	0	2016-09-02T10:14:13Z	2016-09-02T10:14:13Z		doc: fix example in stream doc	54		
@@ -1448,7 +1449,7 @@
 8399	238531	true	closed	false	7		2016-09-03T09:20:18Z	2016-09-04T18:26:20Z	2016-09-04T18:26:20Z	Backport/gh 7427	54		
 8400	1443911	true	closed	false	3		2016-09-03T09:52:35Z	2016-09-09T16:20:09Z	2016-09-09T16:20:09Z	doc: clarify sentence in event loop doc	50		
 8401	1622515	true	closed	false	6		2016-09-03T10:42:22Z	2016-09-06T13:07:34Z	2016-09-05T17:32:57Z	readline: Emit 'line' event with line number	71		
-8402	17122340	false	open	false	1		2016-09-03T15:43:52Z	2016-09-08T13:45:01Z		DLL error on Windows 8.1	39		
+8402	17122340	false	open	false	2		2016-09-03T15:43:52Z	2016-09-12T06:45:44Z		DLL error on Windows 8.1	39		
 8403	718899	true	closed	false	6		2016-09-04T05:31:33Z	2016-09-07T05:50:53Z	2016-09-07T05:50:53Z	test: increase _debugger coverage	69		
 8404	229633	false	open	false	9		2016-09-04T07:52:25Z	2016-09-06T13:14:24Z		Node 6.5.0 compilation fails on Debian Jessie with non ascii pathes	149		
 8405	432351	true	closed	false	7		2016-09-04T19:00:12Z	2016-09-06T18:54:05Z	2016-09-05T06:12:59Z	src: moving f function call comment	52		
@@ -1486,7 +1487,7 @@
 8437	899444	true	closed	false	5		2016-09-07T22:00:44Z	2016-09-08T23:30:14Z	2016-09-08T19:55:55Z	Backport 8174 (symbol-based custom inspection methods)	26		
 8438	54666	false	open	false	2		2016-09-08T02:30:21Z	2016-09-09T18:45:05Z		v8 inspector Profiles page no longer loads	56		
 8439	2226267	false	closed	false	1		2016-09-08T06:45:46Z	2016-09-08T16:56:51Z	2016-09-08T16:56:51Z	when run node with --prof the `crypto.pbkdf2` will not loged in	103		
-8440	720065	false	open	false	15		2016-09-08T08:29:41Z	2016-09-12T03:08:04Z		Buffer.from not support SharedArrayBuffer	133		
+8440	720065	false	open	false	16		2016-09-08T08:29:41Z	2016-09-12T06:41:35Z		Buffer.from not support SharedArrayBuffer	133		
 8441	1014367	false	closed	false	1		2016-09-08T09:00:13Z	2016-09-08T15:44:42Z	2016-09-08T15:44:42Z	"Error with let: ""Identifier '*' has already been declared"" on REPL"	148		
 8442	731722	false	open	false	5		2016-09-08T09:18:05Z	2016-09-10T01:31:02Z		How do I implement `MyObject.inspect(depth, inspectOpts)`?	107		
 8443	6477435	false	open	false	0		2016-09-08T10:46:46Z	2016-09-09T08:05:54Z		Hotpatching modules leaks memory	163		
@@ -1538,7 +1539,7 @@
 8489	1935767	true	open	false	3		2016-09-11T06:26:36Z	2016-09-12T04:38:12Z		doc, url: fix type names	63		
 8490	19225332	false	closed	false	2		2016-09-11T10:49:34Z	2016-09-11T11:02:22Z	2016-09-11T11:02:22Z	 Unable to install any npm package on Windows 7 connected to Internet via wifi	230		
 8491	1616242	true	open	false	2		2016-09-11T12:21:11Z	2016-09-11T18:13:18Z		Make it build using openssl 1.1.0	346		
-8492	15197820	false	open	false	5		2016-09-11T15:39:39Z	2016-09-11T20:30:51Z		TypeError: 'caller' and 'arguments' are restricted function properties and cannot be accessed in this context nodejs	94		
+8492	15197820	false	closed	false	7		2016-09-11T15:39:39Z	2016-09-12T06:58:06Z	2016-09-12T06:58:06Z	TypeError: 'caller' and 'arguments' are restricted function properties and cannot be accessed in this context nodejs	94		
 8493	899444	false	open	false	3		2016-09-11T16:39:59Z	2016-09-11T22:09:31Z		help() or similar for the REPL	391		
 8494	1538624	true	open	false	0	0	2016-09-12T01:05:26Z	2016-09-12T01:05:26Z		doc/json: make sure links are correctly passed to marked	128		
 8495	1614246	false	open	false	1		2016-09-12T04:18:18Z	2016-09-12T05:31:42Z		debugging and fork (Error: listen EADDRINUSE :::5858)	145		
