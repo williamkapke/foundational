@@ -127,6 +127,7 @@
 4270	495647	false	open	false	21		2015-12-14T10:06:18Z	2016-09-11T12:22:26Z		Discussion: OpenSSL 1.1.0 planning	297		
 4307	12825770	false	closed	false	11		2015-12-16T08:16:14Z	2016-07-11T09:25:48Z	2016-07-11T09:25:48Z	can not step in constructor, will will terminate node.exe	90		
 4329	16335744	false	closed	false	14		2015-12-17T11:41:17Z	2016-07-21T14:42:10Z	2016-01-15T10:53:49Z	node.js Setup Wizard ended prematurely	43		
+4351	1424946	false	open	false	8		2015-12-19T06:03:34Z	2016-09-13T16:40:03Z		fs.watch file matching is one character off in windows	43		
 4394	1470592	true	open	false	44		2015-12-23T03:38:39Z	2016-08-07T06:04:29Z		buffer: workaround for v8 buffer.toString failure. fixes #4266	20		
 4402	5358145	false	closed	false	4		2015-12-23T19:26:22Z	2016-08-29T22:31:11Z	2016-08-29T22:31:11Z	Bad readline behavior with line ending characters?	588		
 4415	327019	true	open	false	11		2015-12-24T07:27:06Z	2016-08-15T22:11:15Z		benchmark: add ops/sec for benchmark results	8		
@@ -1077,7 +1078,7 @@
 8023	1422781	true	open	false	6		2016-08-08T20:16:00Z	2016-08-11T22:45:31Z		net: net.isIP() needs scope tests and a review of its type checking	74		
 8024	225351	false	open	false	2		2016-08-08T20:22:27Z	2016-08-18T00:58:40Z		Cross-platform differences in fs.readSync()	100		
 8025	1231635	true	closed	false	5		2016-08-08T21:54:51Z	2016-08-24T14:11:00Z	2016-08-24T14:11:00Z	Backport doc: server.listen() random port	84		
-8026	439929	false	open	false	4		2016-08-08T22:22:03Z	2016-09-06T02:28:05Z		meta: codename for v6 LTS	143		
+8026	439929	false	closed	false	3		2016-08-08T22:22:03Z	2016-09-13T16:20:10Z	2016-09-13T16:20:10Z	meta: codename for v6 LTS	143		
 8027	248374	true	open	false	8		2016-08-08T23:39:32Z	2016-08-09T14:35:51Z		build: Provide 'node_module_version' via config.gypi	21		
 8028	5035902	true	closed	false	15		2016-08-09T01:23:34Z	2016-08-17T12:04:13Z	2016-08-13T14:53:59Z	repl,util: insert carriage returns in output	72		
 8029	12191975	false	closed	false	4		2016-08-09T04:09:29Z	2016-08-09T20:17:20Z	2016-08-09T20:17:20Z	why putting super-type constructor invocation at the end of current type constructor in Readable/Writable stream	121		
@@ -1471,7 +1472,7 @@
 8418	413206	false	open	false	4		2016-09-06T10:17:08Z	2016-09-06T14:01:46Z		crypto.createHKDF()	33		
 8419	8774679	true	open	false	4		2016-09-06T10:48:43Z	2016-09-11T07:19:45Z		net: multiple listen() events fail silently	95		
 8420	1443911	true	closed	false	11		2016-09-06T11:39:49Z	2016-09-12T04:17:45Z	2016-09-12T04:17:45Z	url: fix off-by-one error in loop handling dots	52		
-8421	275871	false	open	false	1		2016-09-06T14:48:40Z	2016-09-06T16:21:47Z		fs: fs.watchFile() should not emit 'stop' event synchronously	45		
+8421	275871	false	open	false	2		2016-09-06T14:48:40Z	2016-09-13T16:38:55Z		fs: fs.watchFile() should not emit 'stop' event synchronously	45		
 8422	1093990	true	open	false	4		2016-09-06T15:52:10Z	2016-09-13T05:44:35Z		timers: do not expose .unref()._handle._list	63		
 8423	4421720	true	open	false	3		2016-09-06T15:52:19Z	2016-09-12T17:59:05Z		doc: add CTC meeting minutes 2016-08-24	33		
 8424	4421720	true	closed	false	2	2	2016-09-06T16:02:59Z	2016-09-12T15:03:23Z	2016-09-12T15:03:23Z	doc: add CTC meeting minutes 2016-08-31	27	4421720	2016-09-12T15:03:23Z
@@ -1479,7 +1480,7 @@
 8426	323878	false	open	false	2		2016-09-06T20:32:22Z	2016-09-08T16:54:07Z		v8 inspector - Runtime.evaluate doesn't work without a contextId	87		
 8427	275871	true	closed	false	5	0	2016-09-06T21:23:09Z	2016-09-11T10:49:50Z	2016-09-11T10:49:50Z	src: remove unneeded Environment error methods	32		
 8428	1093990	false	open	false	3		2016-09-06T21:45:57Z	2016-09-08T23:15:46Z		v6.6.0 pre-proposal	936		
-8429	287917	true	open	false			2016-09-07T01:14:31Z	2016-09-09T23:46:08Z		inspector: Introduce a smoke test for inspector	58		
+8429	287917	true	open	false	11		2016-09-07T01:14:31Z	2016-09-13T16:41:17Z		inspector: introduce a smoke test for inspector	58		
 8430	134460	true	open	false	2		2016-09-07T01:56:40Z	2016-09-09T11:24:45Z		win,build: forward release_urlbase to configure	101		
 8431	1521394	false	closed	false	2		2016-09-07T11:12:37Z	2016-09-08T14:37:46Z	2016-09-08T14:37:46Z	req.emit is not a function	73		
 8432	103639	false	closed	false	8		2016-09-07T14:09:17Z	2016-09-08T07:07:00Z	2016-09-08T07:07:00Z	Stress-testing caused to stuck on OS X	252		
@@ -1514,7 +1515,7 @@
 8461	18223385	false	closed	false	1		2016-09-09T09:58:35Z	2016-09-11T03:57:20Z	2016-09-11T03:57:20Z	how use shell( wget...) auto install nodeJs 	58		
 8462	899444	true	open	false	1		2016-09-09T10:53:26Z	2016-09-09T13:58:26Z		v4.x backport: test,doc: clarify `buf.indexOf(num)` input range	10		
 8463	899444	true	open	false	3		2016-09-09T11:45:41Z	2016-09-09T15:28:24Z		v6.x backport: buffer,string_decoder: consolidate encoding validation logic	35		
-8464	323878	false	open	false	3		2016-09-09T12:30:25Z	2016-09-13T07:38:49Z		Debug already running process using v8-inspector?	38		
+8464	323878	false	open	false	4		2016-09-09T12:30:25Z	2016-09-13T16:39:45Z		Debug already running process using v8-inspector?	38		
 8465	1037138	false	closed	false	8		2016-09-09T13:36:16Z	2016-09-13T13:08:49Z	2016-09-13T13:08:49Z	OSX: setting a custom DYLD_ env console logs undefined when run with child_process.spawn	135		
 8466	1093990	true	open	false	2		2016-09-09T14:45:04Z	2016-09-09T16:52:27Z		v6.6.0 proposal	89		
 8467	4336805	false	open	false	1		2016-09-09T17:01:23Z	2016-09-09T17:17:33Z		Crypto outputs different hashes for node v0.10.42 compared to newer versions	223		
@@ -1552,7 +1553,7 @@
 8499	4421720	true	open	false	0	0	2016-09-12T15:20:38Z	2016-09-12T15:20:38Z		doc: add CTC meeting minutes 2016-09-07	27		
 8500	1616403	false	open	false	2		2016-09-12T17:18:23Z	2016-09-12T18:08:35Z		NodeJS not applying date locales properly	224		
 8501	22124150	false	closed	false	2		2016-09-12T18:39:09Z	2016-09-13T14:12:32Z	2016-09-13T10:56:11Z	how to use Node.js Addons ?	261		
-8502	287917	true	open	false			2016-09-12T19:16:52Z	2016-09-13T11:14:12Z		Default context	100		
+8502	287917	true	open	false			2016-09-12T19:16:52Z	2016-09-13T16:15:28Z		Default context	100		
 8503	439929	true	open	false	0	0	2016-09-12T21:46:26Z	2016-09-12T21:46:26Z		[WIP] V7.0.0 proposal (beta)	141		
 8504	1622515	true	open	false	0	0	2016-09-12T21:51:58Z	2016-09-12T21:51:58Z		[WIP] repl: Proposal for better repl (implementation) 	201		
 8505	287917	true	open	false	2		2016-09-12T21:53:41Z	2016-09-13T16:09:01Z		inspector: wait for both sides closing	65		
@@ -1562,8 +1563,8 @@
 8509	3320742	false	open	false	1		2016-09-13T02:17:53Z	2016-09-13T13:06:44Z		Configuration option to permanently turn on --preserve-symlinks	110		
 8510	10680833	true	open	false			2016-09-13T03:07:50Z	2016-09-13T15:06:48Z		Fixes an issue where Buffer.from was not supporting SharedArrayBuffer	72		
 8511	718899	false	open	false	0		2016-09-13T04:21:25Z	2016-09-13T04:21:25Z		Investigate flaky test-fs-watch-recursive on OS X	10		
-8512	1466123	true	open	false			2016-09-13T05:54:45Z	2016-09-13T12:23:05Z		zlib: fix raw inflate with custom dictionary	74		
+8512	1466123	true	open	false	1		2016-09-13T05:54:45Z	2016-09-13T16:16:02Z		zlib: fix raw inflate with custom dictionary	74		
 8513	1057486	false	closed	false	2		2016-09-13T08:38:35Z	2016-09-13T15:46:09Z	2016-09-13T10:44:54Z	Expose V8's JavaScript parser API as an part of standard library?	92		
-8514	21603	true	open	false	1		2016-09-13T10:43:59Z	2016-09-13T13:10:26Z		lib: Array constructor missing 'new' keyword	50		
+8514	21603	true	open	false	7		2016-09-13T10:43:59Z	2016-09-13T16:19:44Z		tls: Array constructor missing 'new' keyword	50		
 8515	899444	true	open	false	1		2016-09-13T11:53:56Z	2016-09-13T12:04:04Z		fs: fix handling of `struct stat` fields	139		
 8516	1607273	false	open	false	1		2016-09-13T13:50:51Z	2016-09-13T14:57:06Z		Event emitter calls method which removed itself	198		
