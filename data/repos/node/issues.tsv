@@ -253,7 +253,7 @@
 6570	54666	true	closed	false	27		2016-05-04T15:44:50Z	2016-08-30T18:44:25Z	2016-06-14T19:13:56Z	http: optimize checkIsHttpToken() and checkInvalidHeaderChar()	594		
 6571	439929	false	closed	false	1		2016-05-04T15:50:55Z	2016-07-06T05:04:26Z	2016-07-06T05:04:26Z	doc: invalid process.hrtime documentation	15		
 6573	439929	true	open	false	27		2016-05-04T17:43:27Z	2016-08-26T22:47:06Z		errors: add internal/errors module	288		
-6578	17607	false	open	false	19		2016-05-04T22:06:49Z	2016-09-12T06:24:03Z		docs do not state at what version an API was introduced (or deprecated)	420		
+6578	17607	false	open	false	20		2016-05-04T22:06:49Z	2016-09-13T12:45:19Z		docs do not state at what version an API was introduced (or deprecated)	420		
 6582	275871	true	closed	false	14		2016-05-04T22:29:50Z	2016-07-11T21:10:49Z	2016-05-05T11:05:20Z	crypto: disable ssl compression at build time	3		
 6599	79017	true	closed	false	12		2016-05-05T16:22:48Z	2016-07-11T20:16:56Z	2016-05-07T03:30:19Z	src,lib: minor --debug-brk cleanup	116		
 6600	15943089	true	open	false	4		2016-05-05T16:23:19Z	2016-08-22T21:50:48Z		win, build: add node.lib file into headers package	273		
@@ -1189,7 +1189,7 @@
 8136	1909539	false	closed	false	4		2016-08-17T04:33:34Z	2016-08-29T22:00:09Z	2016-08-29T22:00:09Z	spawnSync hangs on linux	29		
 8137	20699254	false	closed	false	3		2016-08-17T05:40:17Z	2016-08-17T06:14:35Z	2016-08-17T05:43:13Z	Can we support Worker API in node environment , like browser's Web work behavior.	28		
 8138	7421183	false	closed	false	5		2016-08-17T08:36:22Z	2016-08-17T18:03:55Z	2016-08-17T08:51:03Z	util.inspect generates different output in Node minor update	122		
-8139	275871	false	open	false	10		2016-08-17T11:40:12Z	2016-08-19T10:12:54Z		benchmark: http/simple is unreliable	396		
+8139	275871	false	closed	false	12		2016-08-17T11:40:12Z	2016-09-13T12:13:53Z	2016-09-13T12:13:53Z	benchmark: http/simple is unreliable	396		
 8140	17704638	true	closed	false	26		2016-08-17T13:08:21Z	2016-08-31T16:02:43Z	2016-08-31T16:02:43Z	benchmark: support for multiple http benchmarkers	88		
 8141	677994	true	open	false	12		2016-08-17T13:12:12Z	2016-08-17T18:16:38Z		"Revert ""repl,util: insert carriage returns in output"""	51		
 8142	4027669	false	closed	false	2		2016-08-17T14:29:41Z	2016-08-20T20:55:26Z	2016-08-20T20:55:26Z	repl: editor mode text not saved in `.save` command	100		
@@ -1462,7 +1462,7 @@
 8410	899444	true	closed	false	9		2016-09-05T12:11:26Z	2016-09-12T03:50:07Z	2016-09-12T03:50:07Z	doc: note that listening on SIGSEGV & co is unsafe	41		
 8411	899444	true	closed	false	10		2016-09-05T14:16:13Z	2016-09-08T08:32:34Z	2016-09-08T08:32:34Z	deps: cherry-pick 8ed65b97 from V8's upstream	180		
 8412	134460	true	closed	false	2	0	2016-09-05T15:02:46Z	2016-09-08T00:08:55Z	2016-09-08T00:08:55Z	win,build: improvements to vcbuild.bat	221		
-8413	899444	true	open	false	3		2016-09-05T20:41:51Z	2016-09-08T13:08:45Z		build: run `npm install` for doc builds in tarball	93		
+8413	899444	true	open	false	4		2016-09-05T20:41:51Z	2016-09-13T12:05:58Z		build: run `npm install` for doc builds in tarball	93		
 8414	718899	true	closed	false	3		2016-09-06T00:32:27Z	2016-09-07T04:10:06Z	2016-09-06T14:45:45Z	WIP: test-stdio-closed troubleshooting	47		
 8415	432351	true	closed	false	8		2016-09-06T07:25:33Z	2016-09-08T09:06:29Z	2016-09-08T06:49:23Z	vm: change ContextifyScript to Script in comment	55		
 8416	432351	true	closed	false	8	0	2016-09-06T07:43:21Z	2016-09-07T08:06:52Z	2016-09-07T08:06:52Z	src: update f function call comment	75		
@@ -1554,14 +1554,14 @@
 8502	287917	true	open	false			2016-09-12T19:16:52Z	2016-09-13T11:14:12Z		Default context	100		
 8503	439929	true	open	false	0	0	2016-09-12T21:46:26Z	2016-09-12T21:46:26Z		[WIP] V7.0.0 proposal (beta)	141		
 8504	1622515	true	open	false	0	0	2016-09-12T21:51:58Z	2016-09-12T21:51:58Z		[WIP] repl: Proposal for better repl (implementation) 	201		
-8505	287917	true	open	false	1		2016-09-12T21:53:41Z	2016-09-12T22:05:07Z		inspector: Wait for both sides closing	65		
-8506	718899	false	open	false	1		2016-09-13T00:00:00Z	2016-09-13T00:02:57Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-09-14	450		
+8505	287917	true	open	false	1		2016-09-12T21:53:41Z	2016-09-13T12:08:39Z		inspector: Wait for both sides closing	65		
+8506	718899	false	open	false	3		2016-09-13T00:00:00Z	2016-09-13T12:41:09Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-09-14	450		
 8507	1466123	false	open	false	0		2016-09-13T00:46:51Z	2016-09-13T05:45:39Z		zlib: invalid distance too far back on `inflateRaw` with custom dictionary	145		
 8508	6354455	false	open	false	0		2016-09-13T02:11:25Z	2016-09-13T02:11:25Z		readline doc: events are _not_ supported on Windows.	45		
 8509	3320742	false	open	false	0		2016-09-13T02:17:53Z	2016-09-13T02:17:53Z		Configuration option to permanently turn on --preserve-symlinks	110		
-8510	10680833	true	open	false	0		2016-09-13T03:07:50Z	2016-09-13T06:19:25Z		Fixes an issue where Buffer.from was not supporting SharedArrayBuffer	72		
+8510	10680833	true	open	false			2016-09-13T03:07:50Z	2016-09-13T12:36:10Z		Fixes an issue where Buffer.from was not supporting SharedArrayBuffer	72		
 8511	718899	false	open	false	0		2016-09-13T04:21:25Z	2016-09-13T04:21:25Z		Investigate flaky test-fs-watch-recursive on OS X	10		
-8512	1466123	true	open	false	0	0	2016-09-13T05:54:45Z	2016-09-13T05:54:45Z		zlib: fix raw inflate with custom dictionary	74		
+8512	1466123	true	open	false			2016-09-13T05:54:45Z	2016-09-13T12:23:05Z		zlib: fix raw inflate with custom dictionary	74		
 8513	1057486	false	closed	false	1		2016-09-13T08:38:35Z	2016-09-13T10:44:54Z	2016-09-13T10:44:54Z	Expose V8's JavaScript parser API as an part of standard library?	92		
 8514	21603	true	open	false	0	0	2016-09-13T10:43:59Z	2016-09-13T10:43:59Z		lib: Array constructor missing 'new' keyword	59		
-8515	899444	true	open	false	0	0	2016-09-13T11:53:56Z	2016-09-13T11:53:56Z		fs: fix handling of `struct stat` fields	137		
+8515	899444	true	open	false	1		2016-09-13T11:53:56Z	2016-09-13T12:04:04Z		fs: fix handling of `struct stat` fields	139		
