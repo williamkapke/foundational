@@ -1253,7 +1253,7 @@
 8198	1935767	true	closed	false	8		2016-08-20T13:44:24Z	2016-08-25T20:04:04Z	2016-08-25T19:55:56Z	async_wrap: add a missing case to test-async-wrap-throw-no-init	54		
 8199	11921153	false	closed	false	2		2016-08-21T00:55:41Z	2016-09-13T13:48:07Z	2016-08-21T08:04:04Z	install Node.js Failed to open XML file C:\Program Files\nodejs\node_etw_provider.man,system error:-2147221164	6		
 8200	10378547	true	closed	false	4		2016-08-21T02:13:25Z	2016-08-27T05:01:09Z	2016-08-27T05:01:09Z	doc: fix onReadable reentry after unshift called	69		
-8201	1187447	false	open	false	0		2016-08-21T02:15:38Z	2016-08-21T11:36:47Z		--inspect flag and cluster module -  Debug port numbers not incrementing	139		
+8201	1187447	false	closed	false	1		2016-08-21T02:15:38Z	2016-09-14T01:13:22Z	2016-09-14T01:13:22Z	--inspect flag and cluster module -  Debug port numbers not incrementing	139		
 8202	718899	true	closed	false	2		2016-08-21T03:06:46Z	2016-08-23T14:09:43Z	2016-08-23T14:09:43Z	test: split test-crypto-timing-safe-equal	79		
 8203	718899	true	closed	false	50		2016-08-21T04:17:23Z	2016-08-27T19:33:14Z	2016-08-22T22:25:34Z	WIP: test: force garbage collection on crypto timing test	52		
 8204	1935767	true	closed	false	18		2016-08-21T05:23:25Z	2016-08-30T20:24:30Z	2016-08-30T20:24:30Z	node_main: use ERROR_EXE_MACHINE_TYPE_MISMATCH instead 1 as exit code	65		
@@ -1437,7 +1437,7 @@
 8383	1084056	true	closed	false	11		2016-09-02T13:17:30Z	2016-09-02T19:41:18Z	2016-09-02T19:08:23Z	test: fix test-cluster-dgram-1 flakiness	49		
 8384	9373002	true	open	false	0	0	2016-09-02T14:40:11Z	2016-09-02T14:40:11Z		test: revert changes to test/parallel/test-cluster-dgram-1.js	54		
 8385	9373002	true	closed	false	4		2016-09-02T15:21:59Z	2016-09-06T14:15:08Z	2016-09-06T14:15:08Z	test: mark pseudo-tty/no_dropped_stdio as flaky	49		
-8386	2512748	true	open	false	7		2016-09-02T15:26:36Z	2016-09-13T10:54:31Z		inspector: listen on process.debugPort	78		
+8386	2512748	true	open	false	9		2016-09-02T15:26:36Z	2016-09-14T01:12:45Z		inspector: listen on process.debugPort	78		
 8387	5689	false	open	false	2		2016-09-02T15:57:49Z	2016-09-02T17:55:37Z		Update Node v6 to use npm 3.10.4+ since npm@3.10.3 has a shrinkwrap regression	45		
 8388	8884298	false	closed	false	21		2016-09-02T16:14:53Z	2016-09-13T23:30:24Z	2016-09-13T23:30:23Z	Node 6.5 fails when using --harmony-proxies flag	41		
 8389	439929	true	open	false	6		2016-09-02T17:16:42Z	2016-09-02T18:12:33Z		doc: update targos email in readme per request	32		
@@ -1557,7 +1557,7 @@
 8503	439929	true	open	false	0	0	2016-09-12T21:46:26Z	2016-09-12T21:46:26Z		[WIP] V7.0.0 proposal (beta)	141		
 8504	1622515	true	open	false	0	0	2016-09-12T21:51:58Z	2016-09-12T21:51:58Z		[WIP] repl: Proposal for better repl (implementation) 	201		
 8505	287917	true	open	false	4		2016-09-12T21:53:41Z	2016-09-13T18:29:52Z		inspector: wait for both sides closing	65		
-8506	718899	false	open	false	5		2016-09-13T00:00:00Z	2016-09-14T00:05:37Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-09-14	450		
+8506	718899	false	open	false	6		2016-09-13T00:00:00Z	2016-09-14T01:32:11Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-09-14	450		
 8507	1466123	false	open	false	0		2016-09-13T00:46:51Z	2016-09-13T05:45:39Z		zlib: invalid distance too far back on `inflateRaw` with custom dictionary	145		
 8508	6354455	false	open	false	0		2016-09-13T02:11:25Z	2016-09-13T02:11:25Z		readline doc: events are _not_ supported on Windows.	45		
 8509	3320742	false	open	false	4		2016-09-13T02:17:53Z	2016-09-13T23:37:53Z		Configuration option to permanently turn on --preserve-symlinks	110		
@@ -1573,8 +1573,9 @@
 8519	115237	true	open	false	10		2016-09-13T18:47:49Z	2016-09-13T20:07:21Z		repl: improve .help	172		
 8520	119891	false	open	false	1		2016-09-13T18:51:17Z	2016-09-13T20:11:58Z		"""There was an internal error in Node's debugger. Please report this bug."""	1602		
 8521	115237	false	open	false	0		2016-09-13T20:45:57Z	2016-09-13T20:45:57Z		macOS 10.12: libstdc++ is deprecated warning	42		
-8522	869312	true	open	false	1		2016-09-13T21:46:18Z	2016-09-13T22:06:32Z		typo: join => joins [ci skip]	46		
+8522	869312	true	closed	false	2	0	2016-09-13T21:46:18Z	2016-09-14T01:01:57Z	2016-09-14T01:01:57Z	typo: join => joins [ci skip]	46		
 8523	13093042	true	open	false	0		2016-09-13T21:59:20Z	2016-09-13T22:03:44Z		Fix path.relative UNC path result	61		
 8524	3967972	true	open	false	0	0	2016-09-13T22:13:14Z	2016-09-13T22:13:14Z		fs: do not emit 'stop' watch event synchronously	73		
 8525	11638619	true	open	false	0	0	2016-09-13T22:23:46Z	2016-09-13T22:23:46Z		doc: add not-an-aardvark to collaborators	51		
 8526	1794527	false	open	false	0		2016-09-14T00:43:16Z	2016-09-14T00:43:16Z		How does require.resolve work?	75		
+8527	869312	true	open	false	0	0	2016-09-14T01:06:48Z	2016-09-14T01:06:48Z		doc: Changed 'join' to 'joins' in path.md	49		
