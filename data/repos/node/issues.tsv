@@ -315,7 +315,7 @@
 6948	275871	true	closed	false	12		2016-05-24T10:01:34Z	2016-07-11T21:35:43Z	2016-05-25T07:57:47Z	src: add include guards to internal headers	24		
 6951	321966	true	closed	false	7		2016-05-24T12:27:44Z	2016-07-12T14:40:15Z	2016-05-29T20:59:51Z	doc: buffers are not sent over IPC with a socket	67		
 6954	718899	false	closed	false	2		2016-05-24T15:49:55Z	2016-07-02T14:33:49Z	2016-07-02T14:33:49Z	Investigate flaky parallel/test-http-client-reject-chunked-with-content-length on smartos14-64	69		
-6956	1093990	true	open	false	13		2016-05-24T20:50:58Z	2016-08-04T22:48:05Z		timers: warn on overflowed timeout duration	66		
+6956	1093990	true	open	false	14		2016-05-24T20:50:58Z	2016-09-15T22:29:24Z		timers: warn on overflowed timeout duration	66		
 6957	899444	true	closed	false	6		2016-05-24T21:27:43Z	2016-06-30T23:28:00Z	2016-06-30T23:28:00Z	Backport 6907 to v4.x (console.* not working when running out of stack space)	40		
 6967	2352663	true	closed	false	8		2016-05-25T10:42:47Z	2016-07-12T06:22:51Z	2016-05-26T07:51:26Z	test: add regression test for Proxy as vm context	48		
 6972	1093990	true	open	false	5		2016-05-25T15:49:15Z	2016-07-05T17:22:30Z		repl: add a `noUnderscore` option	84		
@@ -370,6 +370,7 @@
 7162	275871	true	open	false	11		2016-06-05T16:54:03Z	2016-09-11T11:19:44Z		fs: move stringToFlags() to lib/internal	3		
 7163	628445	false	open	false	12		2016-06-05T18:53:46Z	2016-08-31T05:55:51Z		`systemjs-plugin-babel` fails on `v6.2.0`	47		
 7165	696611	true	open	false	26		2016-06-05T21:37:06Z	2016-09-02T06:34:26Z		"fs: refactor ""options"" processing as a function"	86		
+7166	730640	true	open	false	3		2016-06-05T22:01:01Z	2016-09-15T22:22:44Z		doc: more detail on when timers are executed	61		
 7168	696611	true	closed	false	21		2016-06-05T22:31:56Z	2016-07-28T01:38:31Z	2016-07-21T21:06:43Z	fs: remove maybeCallback function	124		
 7170	5470583	false	closed	false	2		2016-06-06T00:52:46Z	2016-06-30T06:20:53Z	2016-06-30T06:20:53Z	Doc Markup Typo	13		
 7173	239840	false	closed	false	39		2016-06-06T04:56:17Z	2016-09-10T19:03:27Z	2016-06-09T17:34:30Z	Failed to compile from source for armv7l (busybox) on 	187		
@@ -546,7 +547,7 @@
 7488	2352663	true	closed	false	7		2016-06-29T20:45:55Z	2016-07-05T18:56:34Z	2016-06-30T15:30:55Z	deps: fix V8 5.1 tests	40		
 7489	275871	false	open	false	3		2016-06-29T20:58:47Z	2016-06-29T23:06:56Z		v8_inspector: segfault with simple http request	222		
 7490	275871	true	closed	false	2	0	2016-06-29T22:34:06Z	2016-06-29T23:21:49Z	2016-06-29T23:21:49Z	src: fix use-after-free in v8 inspector	5		
-7491	275871	true	open	false	19		2016-06-29T23:24:41Z	2016-09-11T11:06:21Z		src: add /json/protocol endpoint to inspector	24		
+7491	275871	true	open	false	20		2016-06-29T23:24:41Z	2016-09-15T22:46:10Z		src: add /json/protocol endpoint to inspector	24		
 7492	7146748	false	open	false	0		2016-06-30T06:29:11Z	2016-06-30T06:29:11Z		terrible design bug 	184		
 7493	899444	true	closed	false	3		2016-06-30T06:55:54Z	2016-07-05T19:50:22Z	2016-07-05T19:50:21Z	doc: add `added:` information for timers	27		
 7494	238531	true	closed	false			2016-06-30T07:46:53Z	2016-08-24T13:29:46Z	2016-07-11T06:44:51Z	Fix various overflows and UB in src/	129		
@@ -1584,7 +1585,7 @@
 8528	287917	true	open	false	3		2016-09-14T03:23:13Z	2016-09-14T17:31:54Z		inspector: fix tests on Windows	45		
 8529	718899	true	open	false	5		2016-09-14T03:53:06Z	2016-09-14T19:23:07Z		doc: link onboarding to contributing guide	102		
 8530	1898870	true	closed	false	7		2016-09-14T06:16:30Z	2016-09-14T15:53:03Z	2016-09-14T06:42:12Z	doc: add imyller to collaborators	25		
-8531	289174	true	open	false			2016-09-14T10:59:17Z	2016-09-15T21:14:50Z		async_hooks initial implementation	530		
+8531	289174	true	open	false			2016-09-14T10:59:17Z	2016-09-15T22:22:08Z		async_hooks initial implementation	530		
 8532	432351	true	open	false			2016-09-14T13:27:30Z	2016-09-15T10:20:18Z		src: make ReqWrap req_ member private	52		
 8533	15943089	true	closed	false	6		2016-09-14T16:41:34Z	2016-09-14T17:16:49Z	2016-09-14T16:57:29Z	doc: add gibfahn to collaborators	36		
 8534	1093990	false	open	false	0		2016-09-14T16:42:29Z	2016-09-14T16:42:29Z		Impossible to listen to beforeExit in single-tick --eval	379		
@@ -1595,7 +1596,7 @@
 8539	374012	false	open	false	3		2016-09-14T20:28:34Z	2016-09-15T11:27:27Z		child_process.spawnSync is memory unsafe and can be used to dump core	108		
 8540	5352100	false	closed	false	2		2016-09-14T20:39:43Z	2016-09-14T21:14:55Z	2016-09-14T21:14:55Z	Issue in cluster module while running an http server	132		
 8541	13093042	true	open	false	1		2016-09-14T22:38:15Z	2016-09-15T20:31:51Z		Fallback to process cwd when resolving drive cwd	177		
-8542	238531	true	open	false	23		2016-09-14T23:28:52Z	2016-09-15T21:23:32Z		test: make test-tick-processor.js non-flaky	61		
+8542	238531	true	open	false	29		2016-09-14T23:28:52Z	2016-09-15T22:22:57Z		test: make test-tick-processor.js non-flaky	61		
 8543	1898870	true	open	false	3		2016-09-15T07:34:48Z	2016-09-15T08:03:59Z		test: add known issue test for child_process.spawnSync segfault	64		
 8544	2802526	false	open	false	1		2016-09-15T09:50:21Z	2016-09-15T10:07:54Z		Logging works only one out of four times in windows console	129		
 8545	6712914	false	closed	false	4		2016-09-15T12:31:17Z	2016-09-15T15:03:52Z	2016-09-15T13:43:07Z	npm installing to global gives Error: ENOENT, No such file or directory	197		
@@ -1603,8 +1604,8 @@
 8547	17704638	true	open	false	2		2016-09-15T15:01:29Z	2016-09-15T21:02:15Z		benchmark: add --expose_internals switch	54		
 8548	17704638	false	open	false	13		2016-09-15T15:08:25Z	2016-09-15T18:04:43Z		internal/freelist exposed by default on linux	26		
 8549	15943089	true	open	false	5		2016-09-15T16:55:35Z	2016-09-15T20:02:57Z		test: fix fork-dgram on AIX	84		
-8550	287917	true	open	false	0	0	2016-09-15T18:02:28Z	2016-09-15T18:02:28Z		inspector: restore 9229 as a default inspector port	80		
+8550	287917	true	open	false	0		2016-09-15T18:02:28Z	2016-09-15T22:25:22Z		inspector: restore 9229 as a default port	80		
 8551	291301	true	open	false	0		2016-09-15T19:22:54Z	2016-09-15T20:21:31Z		Introduce 'make mdlint' command and tooling, some doc fixes, update remark-lint rules	135		
 8552	2352663	true	open	false			2016-09-15T19:30:18Z	2016-09-15T21:09:18Z		Improve buffer test coverage	39		
-8553	291301	true	open	false	1		2016-09-15T19:35:59Z	2016-09-15T20:19:55Z		doc: fix a formatting error in buffer.md	64		
+8553	291301	true	open	false	5		2016-09-15T19:35:59Z	2016-09-15T22:29:45Z		doc: fix a formatting error in buffer.md	64		
 8554	718899	false	open	false	0		2016-09-15T21:00:14Z	2016-09-15T21:24:51Z		Adopting project workflow to new GitHub features	159		
