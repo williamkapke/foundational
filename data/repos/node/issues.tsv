@@ -188,7 +188,7 @@
 5745	439929	true	closed	false	23	0	2016-03-16T21:21:26Z	2016-07-05T17:55:53Z	2016-07-05T17:55:53Z	buffer: backport --zero-fill-buffers command line option	130		
 5757	514417	false	open	false	3		2016-03-17T09:16:05Z	2016-07-27T11:45:06Z		net.Socket has no setConnectionTimeout(timeout) method	37		
 5793	1093990	true	closed	false	9		2016-03-18T21:09:44Z	2016-08-30T14:13:49Z	2016-03-21T15:23:07Z	timers: give Timeouts a constructor name	53		
-5798	17942010	false	open	false	118		2016-03-19T05:47:12Z	2016-08-28T09:40:29Z		Use system random generator in crypto	33		
+5798	17942010	false	open	false	119		2016-03-19T05:47:12Z	2016-09-15T19:58:47Z		Use system random generator in crypto	33		
 5804	1315533	true	closed	false	16		2016-03-19T18:30:35Z	2016-08-30T14:14:10Z	2016-03-21T15:52:12Z	dns: use isIp consistently	65		
 5816	17975468	false	open	false	6		2016-03-21T06:03:18Z	2016-09-14T13:54:49Z		Issue installing node js on Windows 7 Enterprise edition 64 bit	145		
 5848	718899	false	closed	false	6		2016-03-22T18:47:04Z	2016-06-29T22:36:15Z	2016-06-29T22:36:15Z	Investigate flaky test-dgram-send-callback-buffer-length	30		
@@ -827,7 +827,7 @@
 7770	10796236	false	closed	false	10		2016-07-17T10:00:26Z	2016-07-18T23:16:37Z	2016-07-18T07:49:46Z	arm and LD_LIBRARY_PATH (ld-linux-armhf.so.3: No such file or directory)	94		
 7771	6609554	true	closed	false	19		2016-07-17T16:12:09Z	2016-07-25T15:53:10Z	2016-07-19T21:53:57Z	deps: cherry-pick 2b4c9c1 from v8 upstream	148		
 7772	718899	true	closed	false	15		2016-07-17T16:41:46Z	2016-07-21T20:42:52Z	2016-07-20T16:58:33Z	test: increase RAM requirement for intensive tests	102		
-7773	1093990	true	open	false	4		2016-07-17T20:01:35Z	2016-08-04T22:45:41Z		test: clean up test-buffer-badhex	71		
+7773	1093990	true	open	false	5		2016-07-17T20:01:35Z	2016-09-15T19:39:23Z		test: clean up test-buffer-badhex	71		
 7774	899444	true	open	false	2		2016-07-17T20:53:45Z	2016-07-18T16:19:02Z		test: fix child_process testcase to actually detect regression	39		
 7775	899444	true	closed	false	9		2016-07-17T21:03:46Z	2016-07-25T08:03:09Z	2016-07-25T08:03:09Z	doc: fix `added:` date for `NODE_REPL_HISTORY`	46		
 7776	11649301	false	closed	false	14		2016-07-17T22:09:51Z	2016-07-27T07:00:47Z	2016-07-25T15:17:11Z	ECONNRESET problem with http.Server and https.Server (node 6.3, 6.2.2 and poss earlier)	258		
@@ -1567,7 +1567,7 @@
 8512	1466123	true	open	false			2016-09-13T05:54:45Z	2016-09-14T07:48:26Z		zlib: fix raw inflate with custom dictionary	74		
 8513	1057486	false	closed	false	2		2016-09-13T08:38:35Z	2016-09-13T15:46:09Z	2016-09-13T10:44:54Z	Expose V8's JavaScript parser API as an part of standard library?	92		
 8514	21603	true	open	false	9		2016-09-13T10:43:59Z	2016-09-13T22:55:28Z		tls: add 'new' keyword for Array constructor call	50		
-8515	899444	true	open	false	4		2016-09-13T11:53:56Z	2016-09-13T18:02:31Z		fs: fix handling of `struct stat` fields	139		
+8515	899444	true	open	false	11		2016-09-13T11:53:56Z	2016-09-15T19:42:41Z		fs: fix handling of `struct stat` fields	139		
 8516	1607273	false	closed	false	4		2016-09-13T13:50:51Z	2016-09-14T10:56:51Z	2016-09-14T10:56:51Z	Event emitter calls method which removed itself	198		
 8517	11681052	true	open	false	8		2016-09-13T18:36:53Z	2016-09-15T15:07:26Z		https: made some improvements to test-https-agent.js	89		
 8518	718899	true	open	false	7		2016-09-13T18:41:16Z	2016-09-14T03:41:19Z		test: add coverage for client._addHandle()	60		
@@ -1583,7 +1583,7 @@
 8528	287917	true	open	false	3		2016-09-14T03:23:13Z	2016-09-14T17:31:54Z		inspector: fix tests on Windows	45		
 8529	718899	true	open	false	5		2016-09-14T03:53:06Z	2016-09-14T19:23:07Z		doc: link onboarding to contributing guide	102		
 8530	1898870	true	closed	false	7		2016-09-14T06:16:30Z	2016-09-14T15:53:03Z	2016-09-14T06:42:12Z	doc: add imyller to collaborators	25		
-8531	289174	true	open	false			2016-09-14T10:59:17Z	2016-09-15T17:15:05Z		async_hooks initial implementation	530		
+8531	289174	true	open	false			2016-09-14T10:59:17Z	2016-09-15T19:37:37Z		async_hooks initial implementation	530		
 8532	432351	true	open	false			2016-09-14T13:27:30Z	2016-09-15T10:20:18Z		src: make ReqWrap req_ member private	52		
 8533	15943089	true	closed	false	6		2016-09-14T16:41:34Z	2016-09-14T17:16:49Z	2016-09-14T16:57:29Z	doc: add gibfahn to collaborators	36		
 8534	1093990	false	open	false	0		2016-09-14T16:42:29Z	2016-09-14T16:42:29Z		Impossible to listen to beforeExit in single-tick --eval	379		
