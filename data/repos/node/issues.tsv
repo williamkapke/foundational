@@ -18,6 +18,7 @@
 855	617481	false	open	false	16		2015-02-15T21:57:32Z	2016-08-11T16:02:47Z		vm: references to context inside objects are not === the original context	58		
 862	17607	false	closed	false	8		2015-02-17T05:55:09Z	2016-09-07T13:55:17Z	2015-05-06T21:14:16Z	spawn's stdio can result in stderr being closed in child	158		
 1128	36662	false	open	false	17		2015-03-11T22:48:11Z	2016-08-29T14:15:29Z		feature request: a way to inspect what's in the event loop	137		
+1271	275871	false	open	false	11		2015-03-26T15:30:40Z	2016-09-16T22:14:07Z		timer,domain: timers don't maintain order after exception	62		
 1278	532414	false	closed	false	37		2015-03-26T19:55:14Z	2016-08-22T21:08:42Z	2016-02-12T21:20:04Z	Compressed packages	136		
 1495	902041	false	open	false	31		2015-04-21T23:54:21Z	2016-08-28T10:02:20Z		TLS Module: The default ecdhCurve, prime256v1 (aka NIST P-256) is not safe.	64		
 1592	617235	false	open	false	206		2015-05-02T19:25:40Z	2016-07-25T11:24:25Z		gripe: deprecating fs.exists/existsSync	202		
@@ -103,7 +104,7 @@
 3743	677994	true	closed	false	137		2015-11-10T19:15:06Z	2016-08-05T13:35:58Z	2016-04-26T00:29:24Z	cluster: migrate from worker.suicide	17		
 3773	696611	true	open	false	6		2015-11-11T15:28:03Z	2016-08-06T07:39:49Z		buffer: throw if string is not a valid HEX string	61		
 3786	190866	false	closed	false	7		2015-11-12T10:04:27Z	2016-07-15T13:20:28Z	2016-07-15T13:20:28Z	Still gets a problem with github-url-from-git module not found on Windows	35		
-3796	4813414	false	open	false	21		2015-11-12T19:24:13Z	2016-09-16T18:50:32Z		test-debug-signal-cluster.js fails sometimes (investigate flaky test)	111		
+3796	4813414	false	closed	false	21		2015-11-12T19:24:13Z	2016-09-16T22:54:41Z	2016-09-16T22:54:41Z	test-debug-signal-cluster.js fails sometimes (investigate flaky test)	111		
 3829	4813414	false	closed	false	11		2015-11-15T04:29:13Z	2016-08-03T09:09:58Z	2016-06-07T22:25:36Z	node5: test-repl-envvars.js fails if ~/.node_repl_history is empty	63		
 3891	498775	false	open	false	14		2015-11-18T01:02:45Z	2016-08-09T16:36:03Z		improve error messge in lib/dns	88		
 3898	4831315	false	closed	false	44		2015-11-18T09:01:07Z	2016-07-01T08:53:04Z	2015-12-09T13:18:25Z	trap invalid opcode ip:fea6f9	55		
@@ -239,6 +240,7 @@
 6429	45469	false	closed	false	29		2016-04-27T21:44:57Z	2016-06-27T17:29:28Z	2016-06-27T17:29:28Z	deprecate --use_strict	48		
 6434	677518	false	open	false	6		2016-04-27T23:17:09Z	2016-08-12T21:59:01Z		Module.globalPaths under Windows	68		
 6436	5438027	true	closed	false	38		2016-04-28T01:22:41Z	2016-08-30T18:43:33Z	2016-06-29T09:14:33Z	3x faster setImmediate	110		
+6437	1324510	false	closed	false	7		2016-04-28T02:51:01Z	2016-09-16T22:33:06Z	2016-09-16T22:33:06Z	Path.format doesn't concat .name and .ext	83		
 6439	1315533	true	closed	false	30	13	2016-04-28T08:11:37Z	2016-08-21T22:41:43Z	2016-08-21T22:41:43Z	promise: warn on unhandled rejections	299		
 6440	361327	false	closed	false	7		2016-04-28T08:33:26Z	2016-06-29T16:23:02Z	2016-05-28T20:51:07Z	"http.request option ""family: 6"" doesn't enable request over IPv6"	117		
 6456	3899684	false	open	false	165		2016-04-28T22:47:27Z	2016-07-08T05:43:54Z		stdio buffered writes (chunked) issues & process.exit() truncation	530		
@@ -1610,7 +1612,7 @@
 8551	291301	true	open	false	0		2016-09-15T19:22:54Z	2016-09-15T20:21:31Z		Introduce 'make mdlint' command and tooling, some doc fixes, update remark-lint rules	135		
 8552	2352663	true	open	false	5		2016-09-15T19:30:18Z	2016-09-16T15:06:28Z		Improve buffer test coverage	39		
 8553	291301	true	open	false	7		2016-09-15T19:35:59Z	2016-09-15T23:11:26Z		doc: fix a formatting error in buffer.md	64		
-8554	718899	false	open	false	5		2016-09-15T21:00:14Z	2016-09-16T13:03:04Z		Adopting project workflow to new GitHub features	159		
+8554	718899	false	open	false	6		2016-09-15T21:00:14Z	2016-09-16T22:56:42Z		Adopting project workflow to new GitHub features	159		
 8555	362089	false	open	false	0		2016-09-15T23:22:40Z	2016-09-15T23:22:40Z		vm: node crashes if timeout is set and nofile limit is reached	148		
 8556	3899684	true	open	false			2016-09-16T00:43:41Z	2016-09-16T10:18:08Z		doc, zlib: clarify zlib server example	103		
 8557	11638619	true	open	false	1		2016-09-16T01:26:35Z	2016-09-16T10:55:35Z		doc: remove extra comma in cluster docs	50		
@@ -1624,4 +1626,4 @@
 8565	138133	false	open	false	0		2016-09-16T15:37:37Z	2016-09-16T15:37:37Z		--debug does not provide debugger with 1st breakpoint context	217		
 8566	15943089	false	open	false	0		2016-09-16T17:04:14Z	2016-09-16T17:04:14Z		v6.6.0 commit appearing in master branch	59		
 8567	2512748	true	open	false	1		2016-09-16T18:17:32Z	2016-09-16T21:51:55Z		dns: handle array holes in setServers()	87		
-8568	811047	true	open	false			2016-09-16T18:49:46Z	2016-09-16T21:16:29Z		test: fix test-debug-signal-cluster.js flakyness	53		
+8568	811047	true	open	false	6		2016-09-16T18:49:46Z	2016-09-16T22:36:05Z		test: fix test-debug-signal-cluster.js flakyness	53		
