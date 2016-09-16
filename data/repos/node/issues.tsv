@@ -103,7 +103,7 @@
 3743	677994	true	closed	false	137		2015-11-10T19:15:06Z	2016-08-05T13:35:58Z	2016-04-26T00:29:24Z	cluster: migrate from worker.suicide	17		
 3773	696611	true	open	false	6		2015-11-11T15:28:03Z	2016-08-06T07:39:49Z		buffer: throw if string is not a valid HEX string	61		
 3786	190866	false	closed	false	7		2015-11-12T10:04:27Z	2016-07-15T13:20:28Z	2016-07-15T13:20:28Z	Still gets a problem with github-url-from-git module not found on Windows	35		
-3796	4813414	false	open	false	20		2015-11-12T19:24:13Z	2016-09-16T02:22:04Z		test-debug-signal-cluster.js fails sometimes (investigate flaky test)	111		
+3796	4813414	false	open	false	21		2015-11-12T19:24:13Z	2016-09-16T18:50:32Z		test-debug-signal-cluster.js fails sometimes (investigate flaky test)	111		
 3829	4813414	false	closed	false	11		2015-11-15T04:29:13Z	2016-08-03T09:09:58Z	2016-06-07T22:25:36Z	node5: test-repl-envvars.js fails if ~/.node_repl_history is empty	63		
 3891	498775	false	open	false	14		2015-11-18T01:02:45Z	2016-08-09T16:36:03Z		improve error messge in lib/dns	88		
 3898	4831315	false	closed	false	44		2015-11-18T09:01:07Z	2016-07-01T08:53:04Z	2015-12-09T13:18:25Z	trap invalid opcode ip:fea6f9	55		
@@ -190,7 +190,7 @@
 5745	439929	true	closed	false	23	0	2016-03-16T21:21:26Z	2016-07-05T17:55:53Z	2016-07-05T17:55:53Z	buffer: backport --zero-fill-buffers command line option	130		
 5757	514417	false	open	false	3		2016-03-17T09:16:05Z	2016-07-27T11:45:06Z		net.Socket has no setConnectionTimeout(timeout) method	37		
 5793	1093990	true	closed	false	9		2016-03-18T21:09:44Z	2016-08-30T14:13:49Z	2016-03-21T15:23:07Z	timers: give Timeouts a constructor name	53		
-5798	17942010	false	open	false	119		2016-03-19T05:47:12Z	2016-09-15T19:58:47Z		Use system random generator in crypto	33		
+5798	17942010	false	open	false	119		2016-03-19T05:47:12Z	2016-09-16T18:05:33Z		Use system random generator in crypto	33		
 5804	1315533	true	closed	false	16		2016-03-19T18:30:35Z	2016-08-30T14:14:10Z	2016-03-21T15:52:12Z	dns: use isIp consistently	65		
 5816	17975468	false	open	false	6		2016-03-21T06:03:18Z	2016-09-14T13:54:49Z		Issue installing node js on Windows 7 Enterprise edition 64 bit	145		
 5848	718899	false	closed	false	6		2016-03-22T18:47:04Z	2016-06-29T22:36:15Z	2016-06-29T22:36:15Z	Investigate flaky test-dgram-send-callback-buffer-length	30		
@@ -1355,7 +1355,7 @@
 8296	718899	true	closed	false	13		2016-08-27T06:59:40Z	2016-08-30T17:44:06Z	2016-08-30T17:44:06Z	Enable caching for ESLint	263		
 8297	592637	false	open	false	4		2016-08-27T07:54:16Z	2016-08-27T10:08:45Z		How to use fd with net.Socket?	233		
 8298	899444	true	closed	false	4		2016-08-27T08:57:12Z	2016-08-30T15:12:58Z	2016-08-30T15:12:57Z	events: make memory leak warning more programatically accessible	137		
-8299	505333	true	open	false	5		2016-08-27T11:36:23Z	2016-09-15T20:57:00Z		benchmark: ignore significance when using --runs 1	110		
+8299	505333	true	open	false	6		2016-08-27T11:36:23Z	2016-09-16T18:13:12Z		benchmark: ignore significance when using --runs 1	110		
 8300	899444	true	closed	false	7	0	2016-08-27T14:44:58Z	2016-09-07T22:12:29Z	2016-09-07T22:12:29Z	net: make holding the buffer in memory more robust (v4.x backport)	101		
 8301	3524687	true	closed	false	11		2016-08-27T16:46:50Z	2016-09-09T18:47:53Z	2016-09-04T16:51:23Z	crypto: fix ucs2/ucs-2/utf16le/utf-16le encoding check	60		
 8302	899444	true	closed	false	5		2016-08-27T17:49:55Z	2016-09-08T22:58:56Z	2016-09-02T10:46:59Z	buffer: directly use ArrayBuffer as the pool	271		
@@ -1485,7 +1485,7 @@
 8426	323878	false	open	false	2		2016-09-06T20:32:22Z	2016-09-08T16:54:07Z		v8 inspector - Runtime.evaluate doesn't work without a contextId	87		
 8427	275871	true	closed	false	5	0	2016-09-06T21:23:09Z	2016-09-11T10:49:50Z	2016-09-11T10:49:50Z	src: remove unneeded Environment error methods	32		
 8428	1093990	false	open	false	3		2016-09-06T21:45:57Z	2016-09-08T23:15:46Z		v6.6.0 pre-proposal	936		
-8429	287917	true	open	false	14		2016-09-07T01:14:31Z	2016-09-14T17:27:13Z		inspector: introduce a smoke test for inspector	58		
+8429	287917	true	open	false			2016-09-07T01:14:31Z	2016-09-16T18:57:46Z		inspector: introduce a smoke test for inspector	58		
 8430	134460	true	open	false	2		2016-09-07T01:56:40Z	2016-09-09T11:24:45Z		win,build: forward release_urlbase to configure	101		
 8431	1521394	false	closed	false	2		2016-09-07T11:12:37Z	2016-09-08T14:37:46Z	2016-09-08T14:37:46Z	req.emit is not a function	73		
 8432	103639	false	closed	false	8		2016-09-07T14:09:17Z	2016-09-08T07:07:00Z	2016-09-08T07:07:00Z	Stress-testing caused to stuck on OS X	252		
@@ -1592,7 +1592,7 @@
 8533	15943089	true	closed	false	6		2016-09-14T16:41:34Z	2016-09-14T17:16:49Z	2016-09-14T16:57:29Z	doc: add gibfahn to collaborators	36		
 8534	1093990	false	open	false	0		2016-09-14T16:42:29Z	2016-09-14T16:42:29Z		Impossible to listen to beforeExit in single-tick --eval	379		
 8535	1252061	false	open	false	0		2016-09-14T17:08:57Z	2016-09-14T17:08:57Z		stream.Readable issues data after .push(null)	215		
-8536	287917	true	open	false			2016-09-14T17:25:40Z	2016-09-16T08:43:45Z		inspector: zero out structure members	75		
+8536	287917	true	open	false			2016-09-14T17:25:40Z	2016-09-16T18:38:04Z		inspector: zero out structure members	75		
 8537	374012	false	open	false	0		2016-09-14T20:26:51Z	2016-09-15T08:38:18Z		vm.runInContext is memory unsafe and can be used to dump core	112		
 8538	374012	false	open	false	1		2016-09-14T20:27:45Z	2016-09-15T08:37:49Z		dns.setServers is memory unsafe and can be used to dump core	129		
 8539	374012	false	open	false	3		2016-09-14T20:28:34Z	2016-09-15T11:27:27Z		child_process.spawnSync is memory unsafe and can be used to dump core	108		
@@ -1623,3 +1623,5 @@
 8564	17704638	true	open	false	1		2016-09-16T11:05:16Z	2016-09-16T12:13:15Z		benchmark: make v8-bench.js output consistent	46		
 8565	138133	false	open	false	0		2016-09-16T15:37:37Z	2016-09-16T15:37:37Z		--debug does not provide debugger with 1st breakpoint context	217		
 8566	15943089	false	open	false	0		2016-09-16T17:04:14Z	2016-09-16T17:04:14Z		v6.6.0 commit appearing in master branch	59		
+8567	2512748	true	open	false	0	0	2016-09-16T18:17:32Z	2016-09-16T18:17:32Z		dns: handle array holes in setServers()	87		
+8568	811047	true	open	false	0	0	2016-09-16T18:49:46Z	2016-09-16T18:49:46Z		test: fix test-debug-signal-cluster.js flakyness	53		
