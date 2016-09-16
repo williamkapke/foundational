@@ -200,6 +200,7 @@
 5991	15197820	false	open	false	4		2016-04-01T04:10:50Z	2016-07-06T06:35:33Z		When I write áéíóú, process.stdout.write in Windows English version, process.stdout is closed	35		
 6030	439929	true	closed	false	13		2016-04-03T19:56:47Z	2016-08-30T14:14:47Z	2016-04-10T23:17:57Z	doc: clarification for maxBuffer and Unicode output	89		
 6033	2291463	false	closed	false	9		2016-04-04T07:14:31Z	2016-07-03T03:53:55Z	2016-07-03T03:53:55Z	Features that depend on ICU, in V8 built without ICU.	118		
+6045	248374	false	open	false	4		2016-04-04T22:52:46Z	2016-09-16T16:01:06Z		Windows PlatformToolset: Provide stable C++ API to addons	77		
 6063	7780985	true	closed	false	20		2016-04-05T19:44:10Z	2016-07-11T16:51:08Z	2016-04-26T16:07:07Z	doc, tls: deprecate createSecurePair	141		
 6102	54666	true	open	false	101		2016-04-07T16:10:47Z	2016-09-08T21:32:21Z		http: don't inherit from Object.prototype	57		
 6114	408977	true	closed	false	11		2016-04-08T12:55:18Z	2016-07-06T05:06:41Z	2016-07-06T05:06:41Z	Defensive check for process.config.variables (v4-staging)	10		
@@ -1045,7 +1046,7 @@
 7986	275871	true	open	false	1		2016-08-05T11:40:07Z	2016-08-05T17:43:24Z		tools: add compile_commands.json gyp generator	42		
 7987	4520820	true	closed	false	6		2016-08-05T16:37:29Z	2016-08-08T12:45:42Z	2016-08-08T12:45:42Z	zlib: remove unneeded property	37		
 7988	426418	true	open	false	19		2016-08-05T21:18:17Z	2016-08-12T00:35:41Z		inspector: add inspector console support for native Console	114		
-7989	275871	false	open	false	16		2016-08-06T03:16:44Z	2016-09-16T12:20:12Z		build: drop support for VS 2013 in v6 LTS	192		
+7989	275871	false	open	false	18		2016-08-06T03:16:44Z	2016-09-16T15:44:51Z		build: drop support for VS 2013 in v6 LTS	192		
 7990	2557445	true	closed	false	9		2016-08-06T07:59:12Z	2016-08-08T18:43:02Z	2016-08-08T16:20:30Z	Cleanup: Remove unused using decls	49		
 7991	439929	false	open	false	6		2016-08-06T08:03:44Z	2016-09-08T19:54:12Z		Planning for v7 and the v6 roll over to LTS	434		
 7992	1500684	true	open	false	0	0	2016-08-06T10:18:04Z	2016-08-06T10:18:04Z		docs: add info about --auto-open flag w/ --inspect	73		
@@ -1549,7 +1550,7 @@
 8491	1616242	true	open	false	2		2016-09-11T12:21:11Z	2016-09-11T18:13:18Z		Make it build using openssl 1.1.0	346		
 8492	15197820	false	closed	false	7		2016-09-11T15:39:39Z	2016-09-12T06:58:06Z	2016-09-12T06:58:06Z	TypeError: 'caller' and 'arguments' are restricted function properties and cannot be accessed in this context nodejs	94		
 8493	899444	false	open	false	4		2016-09-11T16:39:59Z	2016-09-13T18:10:38Z		help() or similar for the REPL	391		
-8494	1538624	true	open	false	2		2016-09-12T01:05:26Z	2016-09-12T20:55:10Z		doc/json: make sure links are correctly passed to marked	128		
+8494	1538624	true	closed	false	3	0	2016-09-12T01:05:26Z	2016-09-16T15:31:20Z	2016-09-16T15:31:20Z	doc/json: make sure links are correctly passed to marked	122		
 8495	1614246	false	closed	false	6		2016-09-12T04:18:18Z	2016-09-13T07:40:42Z	2016-09-12T07:49:50Z	debugging and fork (Error: listen EADDRINUSE :::5858)	145		
 8496	275871	false	open	false	1		2016-09-12T07:43:07Z	2016-09-13T04:18:20Z		src: UV_RUN_ONCE in a loop is inefficient	153		
 8497	6354455	true	open	false	5		2016-09-12T13:17:01Z	2016-09-15T06:32:41Z		readline docs: removing unnecessary section on rl.close() method 	45		
@@ -1583,7 +1584,7 @@
 8525	11638619	true	open	false	0	0	2016-09-13T22:23:46Z	2016-09-13T22:23:46Z		doc: add not-an-aardvark to collaborators	51		
 8526	1794527	false	open	false	3		2016-09-14T00:43:16Z	2016-09-15T09:15:02Z		How does require.resolve work?	75		
 8527	869312	true	open	false	3		2016-09-14T01:06:48Z	2016-09-14T16:49:27Z		doc: Changed 'join' to 'joins' in path.md	48		
-8528	287917	true	open	false	3		2016-09-14T03:23:13Z	2016-09-15T23:24:12Z		inspector: fix tests on Windows	45		
+8528	287917	true	open	false	5		2016-09-14T03:23:13Z	2016-09-16T15:47:14Z		inspector: fix tests on Windows	45		
 8529	718899	true	closed	false	6	1	2016-09-14T03:53:06Z	2016-09-16T04:57:37Z	2016-09-16T04:57:37Z	doc: link onboarding to contributing guide	102		
 8530	1898870	true	closed	false	7		2016-09-14T06:16:30Z	2016-09-14T15:53:03Z	2016-09-14T06:42:12Z	doc: add imyller to collaborators	25		
 8531	289174	true	open	false			2016-09-14T10:59:17Z	2016-09-15T22:22:08Z		async_hooks initial implementation	530		
@@ -1607,7 +1608,7 @@
 8549	15943089	true	open	false	6		2016-09-15T16:55:35Z	2016-09-16T13:14:33Z		test: fix fork-dgram on AIX	102		
 8550	287917	true	open	false	8		2016-09-15T18:02:28Z	2016-09-16T14:05:48Z		inspector: restore 9229 as a default port	80		
 8551	291301	true	open	false	0		2016-09-15T19:22:54Z	2016-09-15T20:21:31Z		Introduce 'make mdlint' command and tooling, some doc fixes, update remark-lint rules	135		
-8552	2352663	true	open	false			2016-09-15T19:30:18Z	2016-09-16T07:46:49Z		Improve buffer test coverage	39		
+8552	2352663	true	open	false	5		2016-09-15T19:30:18Z	2016-09-16T15:06:28Z		Improve buffer test coverage	39		
 8553	291301	true	open	false	7		2016-09-15T19:35:59Z	2016-09-15T23:11:26Z		doc: fix a formatting error in buffer.md	64		
 8554	718899	false	open	false	5		2016-09-15T21:00:14Z	2016-09-16T13:03:04Z		Adopting project workflow to new GitHub features	159		
 8555	362089	false	open	false	0		2016-09-15T23:22:40Z	2016-09-15T23:22:40Z		vm: node crashes if timeout is set and nofile limit is reached	148		
@@ -1620,3 +1621,4 @@
 8562	6631117	true	open	false	0	0	2016-09-16T10:27:01Z	2016-09-16T10:27:01Z		 doc: fix link on timers.md	31		
 8563	16976667	false	open	false	0		2016-09-16T10:40:15Z	2016-09-16T10:40:15Z		Getting error	22		
 8564	17704638	true	open	false	1		2016-09-16T11:05:16Z	2016-09-16T12:13:15Z		benchmark: make v8-bench.js output consistent	46		
+8565	138133	false	open	false	0		2016-09-16T15:37:37Z	2016-09-16T15:37:37Z		--debug does not provide debugger with 1st breakpoint context	217		
