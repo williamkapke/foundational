@@ -17,8 +17,9 @@
 854	172	false	open	false	67		2015-02-15T19:37:43Z	2016-09-03T09:46:48Z		os x: FSEventStreamFlushSync assertions logged to console	100		
 855	617481	false	open	false	16		2015-02-15T21:57:32Z	2016-08-11T16:02:47Z		vm: references to context inside objects are not === the original context	58		
 862	17607	false	closed	false	8		2015-02-17T05:55:09Z	2016-09-07T13:55:17Z	2015-05-06T21:14:16Z	spawn's stdio can result in stderr being closed in child	158		
+983	6731985	false	open	false	14		2015-02-27T03:19:51Z	2016-09-17T21:33:07Z		Tab completion for block-scoped variables doesn't work in REPL	60		
 1128	36662	false	open	false	17		2015-03-11T22:48:11Z	2016-08-29T14:15:29Z		feature request: a way to inspect what's in the event loop	137		
-1271	275871	false	open	false	11		2015-03-26T15:30:40Z	2016-09-16T22:14:07Z		timer,domain: timers don't maintain order after exception	62		
+1271	275871	false	open	false	11		2015-03-26T15:30:40Z	2016-09-17T21:21:22Z		timer,domain: timers don't maintain order after exception	62		
 1278	532414	false	closed	false	37		2015-03-26T19:55:14Z	2016-08-22T21:08:42Z	2016-02-12T21:20:04Z	Compressed packages	136		
 1495	902041	false	open	false	31		2015-04-21T23:54:21Z	2016-08-28T10:02:20Z		TLS Module: The default ecdhCurve, prime256v1 (aka NIST P-256) is not safe.	64		
 1592	617235	false	open	false	206		2015-05-02T19:25:40Z	2016-07-25T11:24:25Z		gripe: deprecating fs.exists/existsSync	202		
@@ -322,7 +323,7 @@
 6948	275871	true	closed	false	12		2016-05-24T10:01:34Z	2016-07-11T21:35:43Z	2016-05-25T07:57:47Z	src: add include guards to internal headers	24		
 6951	321966	true	closed	false	7		2016-05-24T12:27:44Z	2016-07-12T14:40:15Z	2016-05-29T20:59:51Z	doc: buffers are not sent over IPC with a socket	67		
 6954	718899	false	closed	false	2		2016-05-24T15:49:55Z	2016-07-02T14:33:49Z	2016-07-02T14:33:49Z	Investigate flaky parallel/test-http-client-reject-chunked-with-content-length on smartos14-64	69		
-6956	1093990	true	open	false	14		2016-05-24T20:50:58Z	2016-09-15T22:29:24Z		timers: warn on overflowed timeout duration	66		
+6956	1093990	true	open	false	15		2016-05-24T20:50:58Z	2016-09-17T21:27:43Z		timers: warn on overflowed timeout duration	66		
 6957	899444	true	closed	false	6		2016-05-24T21:27:43Z	2016-06-30T23:28:00Z	2016-06-30T23:28:00Z	Backport 6907 to v4.x (console.* not working when running out of stack space)	40		
 6967	2352663	true	closed	false	8		2016-05-25T10:42:47Z	2016-07-12T06:22:51Z	2016-05-26T07:51:26Z	test: add regression test for Proxy as vm context	48		
 6972	1093990	true	open	false	5		2016-05-25T15:49:15Z	2016-07-05T17:22:30Z		repl: add a `noUnderscore` option	84		
@@ -1628,12 +1629,12 @@
 8564	17704638	true	open	false	1		2016-09-16T11:05:16Z	2016-09-16T12:13:15Z		benchmark: make v8-bench.js output consistent	46		
 8565	138133	false	open	false	0		2016-09-16T15:37:37Z	2016-09-17T18:04:28Z		--debug does not provide debugger with 1st breakpoint context	217		
 8566	15943089	false	open	false	0		2016-09-16T17:04:14Z	2016-09-16T17:04:14Z		v6.6.0 commit appearing in master branch	59		
-8567	2512748	true	open	false	1		2016-09-16T18:17:32Z	2016-09-16T21:51:55Z		dns: handle array holes in setServers()	87		
+8567	2512748	true	open	false	2		2016-09-16T18:17:32Z	2016-09-17T21:49:56Z		dns: handle array holes in setServers()	87		
 8568	811047	true	open	false	6		2016-09-16T18:49:46Z	2016-09-16T22:36:05Z		test: fix test-debug-signal-cluster.js flakyness	53		
 8569	416585	false	open	false	1		2016-09-17T00:16:21Z	2016-09-17T20:51:53Z		Buffer.from(str, encoding) silently ignores decoding errors	79		
 8570	718899	true	open	false	1		2016-09-17T03:09:33Z	2016-09-17T06:04:30Z		doc: add link to help repo in README	25		
 8571	1400464	false	open	false	10		2016-09-17T04:25:41Z	2016-09-17T18:53:42Z		v6.6.0 node::PBKDF2() Out of Memory	97		
-8572	718899	true	open	false	4		2016-09-17T05:48:38Z	2016-09-17T20:20:50Z		crypto: fix pbkdf2() with empty strings	113		
+8572	718899	true	open	false	5		2016-09-17T05:48:38Z	2016-09-17T22:00:15Z		crypto: fix pbkdf2() with empty strings	113		
 8573	7329402	false	closed	false	1		2016-09-17T06:00:43Z	2016-09-17T20:50:05Z	2016-09-17T20:50:05Z	Error While Installing From FreeBSD Port	246		
 8574	718899	true	open	false	0	0	2016-09-17T06:12:35Z	2016-09-17T06:12:36Z		tools: increase armv6 timeout	73		
 8575	2361826	true	open	false	1		2016-09-17T08:05:56Z	2016-09-17T09:08:37Z		module: Remove deprecated/unused function requireRepl. Part of #4642	34		
@@ -1641,7 +1642,7 @@
 8577	125466	true	open	false	3		2016-09-17T08:30:43Z	2016-09-17T13:57:38Z		test:parallel: cleanup test-c-ares.js	50		
 8578	2361826	true	open	false	0	0	2016-09-17T08:32:01Z	2016-09-17T08:32:01Z		test: cleanup test-child-process-buffering	34		
 8579	1116738	true	open	false			2016-09-17T08:36:12Z	2016-09-17T17:46:49Z		util: Simplify SIMD setup	41		
-8580	515269	true	open	false	5		2016-09-17T08:38:19Z	2016-09-17T13:17:49Z		test: modernize JS and tighten equality checking in test-child-process-detached	34		
+8580	515269	true	open	false			2016-09-17T08:38:19Z	2016-09-17T21:32:18Z		test: modernize JS and tighten equality checking in test-child-process-detached	34		
 8581	356014	true	open	false	2		2016-09-17T08:45:07Z	2016-09-17T12:51:21Z		test: Improve test-child-process-stdout-flush	51		
 8582	17268518	true	open	false			2016-09-17T08:50:25Z	2016-09-17T12:31:04Z		test: refactor test to use latest standards	49		
 8583	1267623	true	closed	false	1	0	2016-09-17T08:58:59Z	2016-09-17T10:34:58Z	2016-09-17T10:34:58Z	test: cleanup test-http-agent-destroyed-socket	54		
@@ -1659,8 +1660,8 @@
 8595	1852796	true	open	false	0	0	2016-09-17T09:33:10Z	2016-09-17T09:33:10Z		test: update var to const, use arrow functions	35		
 8596	1177098	true	open	false	0	0	2016-09-17T09:36:25Z	2016-09-17T09:36:25Z		test: update equal to strictEqual & function to arrow function	47		
 8597	20119184	true	open	false	0	0	2016-09-17T09:36:32Z	2016-09-17T09:36:32Z		test: refactor test-crypto test files	43		
-8598	8742251	true	open	false	0	0	2016-09-17T09:39:33Z	2016-09-17T09:39:34Z		test: update var to const	24		
-8599	1852796	true	open	false	0	0	2016-09-17T09:40:24Z	2016-09-17T09:40:24Z		test: update var to const	27		
+8598	8742251	true	open	false	1		2016-09-17T09:39:33Z	2016-09-17T21:44:03Z		test: update var to const	24		
+8599	1852796	true	open	false	1		2016-09-17T09:40:24Z	2016-09-17T21:20:45Z		test: update var to const	27		
 8600	125466	true	open	false	0	0	2016-09-17T09:42:05Z	2016-09-17T09:42:05Z		test:parallel: cleanup test-child-process-exec-env	55		
 8601	965671	true	open	false			2016-09-17T09:47:07Z	2016-09-17T18:02:01Z		Raise a warning when listening for usafe signals #8591	58		
 8602	515269	true	open	false	0	0	2016-09-17T09:49:07Z	2016-09-17T09:49:07Z		test: modernize JS and tighten equality checking	40		
@@ -1668,21 +1669,21 @@
 8604	2361826	true	open	false			2016-09-17T09:50:26Z	2016-09-17T14:20:06Z		internal: change var to const in internal/child_process.js	39		
 8605	147788	true	open	false			2016-09-17T09:51:21Z	2016-09-17T17:42:35Z		test: replace var with const and add mustCall cb	63		
 8606	4865608	true	open	false	5		2016-09-17T09:52:33Z	2016-09-17T18:27:08Z		test: Improved tests in test-os	74		
-8607	10419222	true	open	false	0	0	2016-09-17T09:55:03Z	2016-09-17T09:55:03Z		changed var to const/let	34		
+8607	10419222	true	open	false	0		2016-09-17T09:55:03Z	2016-09-17T21:17:31Z		test: changed var to const/let in test-child-process-stdio	34		
 8608	6625123	false	closed	false	1		2016-09-17T09:55:10Z	2016-09-17T20:35:15Z	2016-09-17T20:35:15Z	Taskbar is not hidden in fullscreen	80		
 8609	2361826	true	open	false	1		2016-09-17T09:57:56Z	2016-09-17T14:20:06Z		internal: changed var to const in linkedlist	37		
-8610	14981026	true	open	false	2		2016-09-17T10:01:32Z	2016-09-17T20:35:39Z		src: Add does_zap_garbage to v8 HeapStatistics	84		
+8610	14981026	true	open	false			2016-09-17T10:01:32Z	2016-09-17T21:40:35Z		src: Add does_zap_garbage to v8 HeapStatistics	84		
 8611	8657410	true	open	false			2016-09-17T10:02:06Z	2016-09-17T20:31:39Z		crypto: fix default encoding of LazyTransform	50		
 8612	635903	true	open	false	2		2016-09-17T10:09:25Z	2016-09-17T17:53:41Z		util: support SharedArrayBuffer in inspect	76		
 8613	1267623	false	open	false	0		2016-09-17T10:22:46Z	2016-09-17T10:22:46Z		response's close event not being triggered	105		
 8614	2361826	true	open	false	0		2016-09-17T10:36:51Z	2016-09-17T13:31:38Z		internal: changed var to const in internal/process.js	37		
 8615	2361826	true	open	false	4		2016-09-17T10:49:20Z	2016-09-17T18:02:04Z		internal: changed var to const in internal/v8_polyfill	37		
 8616	5240626	true	open	false			2016-09-17T10:50:06Z	2016-09-17T19:07:13Z		test: clean tls-connect-given-socket	34		
-8617	2827690	true	open	false	0	0	2016-09-17T10:51:27Z	2016-09-17T10:51:28Z		test: vars to const and let in child_process	48		
+8617	2827690	true	open	false	0		2016-09-17T10:51:27Z	2016-09-17T21:07:36Z		test: vars to const and let in child_process	52		
 8618	515269	true	open	false	0	0	2016-09-17T10:53:08Z	2016-09-17T10:53:08Z		test: modernize JS and tighten equality checking in test-child-process-cwd	48		
 8619	2361826	true	open	false	0	0	2016-09-17T10:55:57Z	2016-09-17T10:55:57Z		internal: changed var to const in internal/v8_prof_processor	37		
 8620	2361826	true	open	false	0	0	2016-09-17T11:00:45Z	2016-09-17T11:00:45Z		internal: changed var to const in internal/process/promises	37		
-8621	35870	true	open	false	1		2016-09-17T11:04:08Z	2016-09-17T13:02:56Z		test: minor replace var by const	36		
+8621	35870	true	open	false	3		2016-09-17T11:04:08Z	2016-09-17T21:10:31Z		test: minor replace var by const	36		
 8622	1116738	true	open	false	2		2016-09-17T11:10:43Z	2016-09-17T18:21:27Z		Add Eslint rule prefer-assert-methods	99		
 8623	147788	true	open	false			2016-09-17T11:39:30Z	2016-09-17T17:15:48Z		test: assert was never checked	92		
 8624	181076	true	open	false			2016-09-17T11:52:13Z	2016-09-17T17:16:33Z		crypto: fix default encoding of LazyTransform [2]	64		
@@ -1693,11 +1694,11 @@
 8629	6078550	false	open	false	13		2016-09-17T13:01:41Z	2016-09-17T18:37:35Z		alter blog post pushing guidelines and commits to nodejs.org master	75		
 8630	7002530	false	closed	false	4		2016-09-17T13:46:41Z	2016-09-17T14:05:31Z	2016-09-17T14:05:31Z	New keyword returns cached module, is this behavior expected?	17		
 8631	6078550	true	open	false	8		2016-09-17T14:52:56Z	2016-09-17T17:22:59Z		doc: add commit formats for release blog posts	82		
-8632	6013423	true	open	false	1		2016-09-17T15:45:19Z	2016-09-17T17:28:52Z		test: refactored test-crypto-random.js	56		
-8633	2352663	true	open	false			2016-09-17T16:30:34Z	2016-09-17T20:46:01Z		test: improve coverage of the util module	52		
+8632	6013423	true	open	false	2		2016-09-17T15:45:19Z	2016-09-17T21:35:39Z		test: refactored test-crypto-random.js	56		
+8633	2352663	true	open	false			2016-09-17T16:30:34Z	2016-09-17T21:23:51Z		test: improve coverage of the util module	52		
 8634	101553	true	open	false			2016-09-17T17:02:06Z	2016-09-17T18:49:54Z		Watchdog: add error message if we abort	37		
-8635	12407	false	open	false	12		2016-09-17T17:06:29Z	2016-09-17T19:57:57Z		NPM hangs on system with both IPv4 and IPv6 enabled, under OSX 10.11 with Node 6.5+	93		
+8635	12407	false	open	false	12		2016-09-17T17:06:29Z	2016-09-17T21:16:41Z		NPM hangs on system with both IPv4 and IPv6 enabled, under OSX 10.11 with Node 6.5+	93		
 8636	12407	false	open	false	0		2016-09-17T17:08:33Z	2016-09-17T17:08:33Z		Unable to build 4.5.0 LTS on Darwin	18		
-8637	1093990	false	open	false	2		2016-09-17T17:38:07Z	2016-09-17T18:03:12Z		Benchmark var -> const before merging mass rewrites	55		
+8637	1093990	false	open	false	4		2016-09-17T17:38:07Z	2016-09-17T21:39:59Z		Benchmark var -> const before merging mass rewrites	56		
 8638	16693844	false	open	false	0		2016-09-17T18:33:21Z	2016-09-17T18:33:21Z		fs.utimes arguments documentation	159		
-8639	2999209	false	open	false	0		2016-09-17T18:58:16Z	2016-09-17T18:58:16Z		The installation script doesn't work correctly on Ubuntu 16.04 LTS. When the user intends to install v6, v4 is actually installed.	89		
+8639	2999209	false	open	false	0		2016-09-17T18:58:16Z	2016-09-17T21:43:35Z		The installation script doesn't work correctly on Ubuntu 16.04 LTS. When the user intends to install v6, v4 is actually installed.	89		
