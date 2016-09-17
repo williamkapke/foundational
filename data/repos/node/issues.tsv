@@ -43,7 +43,7 @@
 2232	1093990	true	closed	false	10		2015-07-24T00:46:36Z	2016-07-07T20:08:56Z	2016-01-11T20:54:45Z	Port from joyent/node: `timers: fix timeout when added in timer's callback`	11		
 2253	234659	true	closed	false	53		2015-07-27T16:53:56Z	2016-08-30T12:56:44Z	2016-05-11T18:52:36Z	ensure preload modules are always preloaded	30		
 2262	8316625	true	open	false	11		2015-07-28T17:26:23Z	2016-08-06T07:36:34Z		net: fix todo by propogating errors	23		
-2314	1128607	true	open	false	46		2015-08-06T18:34:59Z	2016-09-12T14:12:32Z		stream: add _end method to write streams (equivilent to _flush)	87		
+2314	1128607	true	open	false	47		2015-08-06T18:34:59Z	2016-09-17T13:09:45Z		stream: add _end method to write streams (equivilent to _flush)	87		
 2329	137545	true	open	false	15		2015-08-08T13:37:47Z	2016-08-07T12:44:00Z		[addons] Implement new init function argument dispatch	565		
 2333	115237	false	open	false	20		2015-08-09T06:04:13Z	2016-07-12T19:05:28Z		tty: stdio properties are undefined inside exec() child	45		
 2395	439929	true	closed	false	11	0	2015-08-16T00:23:48Z	2016-08-02T04:18:14Z	2016-08-02T04:18:14Z	http: correct fencepost error when freeing socket	60		
@@ -1599,7 +1599,7 @@
 8535	1252061	false	open	false	0		2016-09-14T17:08:57Z	2016-09-14T17:08:57Z		stream.Readable issues data after .push(null)	215		
 8536	287917	true	open	false			2016-09-14T17:25:40Z	2016-09-16T18:38:04Z		inspector: zero out structure members	75		
 8537	374012	false	open	false	2		2016-09-14T20:26:51Z	2016-09-17T07:24:00Z		vm.runInContext is memory unsafe and can be used to dump core	112		
-8538	374012	false	open	false	2		2016-09-14T20:27:45Z	2016-09-17T07:26:39Z		dns.setServers is memory unsafe and can be used to dump core	129		
+8538	374012	false	open	false	3		2016-09-14T20:27:45Z	2016-09-17T13:33:27Z		dns.setServers is memory unsafe and can be used to dump core	129		
 8539	374012	false	open	false	3		2016-09-14T20:28:34Z	2016-09-15T11:27:27Z		child_process.spawnSync is memory unsafe and can be used to dump core	108		
 8540	5352100	false	closed	false	2		2016-09-14T20:39:43Z	2016-09-14T21:14:55Z	2016-09-14T21:14:55Z	Issue in cluster module while running an http server	132		
 8541	13093042	true	open	false	4		2016-09-14T22:38:15Z	2016-09-16T20:24:29Z		Fallback to process cwd when resolving drive cwd	177		
@@ -1638,22 +1638,22 @@
 8574	718899	true	open	false	0	0	2016-09-17T06:12:35Z	2016-09-17T06:12:36Z		tools: increase armv6 timeout	73		
 8575	2361826	true	open	false	1		2016-09-17T08:05:56Z	2016-09-17T09:08:37Z		module: Remove deprecated/unused function requireRepl. Part of #4642	34		
 8576	1116738	true	open	false	4		2016-09-17T08:11:16Z	2016-09-17T10:40:30Z		module: NativeModule._cache turned to a Map	41		
-8577	125466	true	open	false	0	0	2016-09-17T08:30:43Z	2016-09-17T08:30:43Z		test:parallel: cleanup test-c-ares.js	38		
+8577	125466	true	open	false	3		2016-09-17T08:30:43Z	2016-09-17T13:57:38Z		test:parallel: cleanup test-c-ares.js	50		
 8578	2361826	true	open	false	0	0	2016-09-17T08:32:01Z	2016-09-17T08:32:01Z		test: cleanup test-child-process-buffering	34		
 8579	1116738	true	open	false			2016-09-17T08:36:12Z	2016-09-17T09:13:12Z		util: Simplify SIMD setup	45		
-8580	515269	true	open	false	4		2016-09-17T08:38:19Z	2016-09-17T10:39:15Z		test: fix test-child-process-detached flankyness	34		
+8580	515269	true	open	false	5		2016-09-17T08:38:19Z	2016-09-17T13:17:49Z		test: modernize JS and tighten equality checking in test-child-process-detached	34		
 8581	356014	true	open	false	2		2016-09-17T08:45:07Z	2016-09-17T12:51:21Z		test: Improve test-child-process-stdout-flush	51		
 8582	17268518	true	open	false			2016-09-17T08:50:25Z	2016-09-17T12:31:04Z		test: refactor test to use latest standards	49		
 8583	1267623	true	closed	false	1	0	2016-09-17T08:58:59Z	2016-09-17T10:34:58Z	2016-09-17T10:34:58Z	test: cleanup test-http-agent-destroyed-socket	54		
 8584	10002753	true	open	false			2016-09-17T09:04:20Z	2016-09-17T12:37:44Z		test: cleanup test-child-process-stdio.js	87		
 8585	3909302	true	open	false	0	0	2016-09-17T09:11:28Z	2016-09-17T09:11:28Z		doc: add example for file existence with fs.stat	55		
-8586	4981813	true	open	false	0	0	2016-09-17T09:12:45Z	2016-09-17T09:12:45Z		test: improve test-net-server-address.js	44		
+8586	4981813	true	open	false	2		2016-09-17T09:12:45Z	2016-09-17T13:28:50Z		test: improve test-net-server-address.js	44		
 8587	555645	true	open	false	0	0	2016-09-17T09:16:14Z	2016-09-17T09:16:14Z		util: Add format for SharedArrayBuffer	86		
 8588	2361826	true	open	false	0	0	2016-09-17T09:18:51Z	2016-09-17T09:18:51Z		internal: changed var to const in bootstrap_node.js	57		
 8589	6439292	false	open	false	0		2016-09-17T09:20:37Z	2016-09-17T09:20:37Z		Three c++ test errors	400		
 8590	515269	true	open	false	0	0	2016-09-17T09:23:59Z	2016-09-17T09:23:59Z		test: modernized JS and tighten equality checking in test-eval.js	38		
 8591	965671	false	open	false	0		2016-09-17T09:29:16Z	2016-09-17T09:29:16Z		Raise a warning when listening for usafe signals	27		
-8592	6203008	true	open	false	0	0	2016-09-17T09:29:24Z	2016-09-17T09:29:24Z		test: changed var to const	37		
+8592	6203008	true	open	false	1		2016-09-17T09:29:24Z	2016-09-17T13:47:59Z		test: changed var to const	37		
 8593	1935767	true	open	false	0	0	2016-09-17T09:31:42Z	2016-09-17T09:31:43Z		src: remove unneeded ABORT after CHECK(0)	126		
 8594	2764625	true	open	false	0	0	2016-09-17T09:32:00Z	2016-09-17T09:32:00Z		test: update test child process send utf8	45		
 8595	1852796	true	open	false	0	0	2016-09-17T09:33:10Z	2016-09-17T09:33:10Z		test: update var to const, use arrow functions	35		
@@ -1662,7 +1662,7 @@
 8598	8742251	true	open	false	0	0	2016-09-17T09:39:33Z	2016-09-17T09:39:34Z		test: update var to const	24		
 8599	1852796	true	open	false	0	0	2016-09-17T09:40:24Z	2016-09-17T09:40:24Z		test: update var to const	27		
 8600	125466	true	open	false	0	0	2016-09-17T09:42:05Z	2016-09-17T09:42:05Z		test:parallel: cleanup test-child-process-exec-env	55		
-8601	965671	true	open	false	0	0	2016-09-17T09:47:07Z	2016-09-17T09:47:08Z		Raise a warning when listening for usafe signals #8591	58		
+8601	965671	true	open	false	1		2016-09-17T09:47:08Z	2016-09-17T13:41:25Z		Raise a warning when listening for usafe signals #8591	58		
 8602	515269	true	open	false	0	0	2016-09-17T09:49:07Z	2016-09-17T09:49:07Z		test: modernize JS and tighten equality checking	40		
 8603	3963377	true	open	false	0	0	2016-09-17T09:49:28Z	2016-09-17T09:49:28Z		fix-test-assert.js: use const, let, strictEqual	44		
 8604	2361826	true	open	false	0	0	2016-09-17T09:50:26Z	2016-09-17T09:50:26Z		internal: change var to const in internal/child_process.js	39		
@@ -1672,21 +1672,23 @@
 8608	6625123	false	open	false	0		2016-09-17T09:55:10Z	2016-09-17T09:55:10Z		Taskbar is not hidden in fullscreen	80		
 8609	2361826	true	open	false	1		2016-09-17T09:57:56Z	2016-09-17T11:22:45Z		internal: changed var to const in linkedlist	37		
 8610	14981026	true	open	false	0	0	2016-09-17T10:01:32Z	2016-09-17T10:01:32Z		src: Add does_zap_garbage to v8 HeapStatistics	84		
-8611	8657410	true	open	false	1		2016-09-17T10:02:06Z	2016-09-17T12:03:02Z		crypto: fix default encoding of LazyTransform	50		
+8611	8657410	true	open	false			2016-09-17T10:02:06Z	2016-09-17T13:51:54Z		crypto: fix default encoding of LazyTransform	50		
 8612	635903	true	open	false	0	0	2016-09-17T10:09:25Z	2016-09-17T10:09:25Z		util: support SharedArrayBuffer in inspect	76		
 8613	1267623	false	open	false	0		2016-09-17T10:22:46Z	2016-09-17T10:22:46Z		response's close event not being triggered	105		
-8614	2361826	true	open	false	0	0	2016-09-17T10:36:51Z	2016-09-17T10:36:51Z		internal: changed var to const in internal/process.js	37		
+8614	2361826	true	open	false	0		2016-09-17T10:36:51Z	2016-09-17T13:31:38Z		internal: changed var to const in internal/process.js	37		
 8615	2361826	true	open	false	0	0	2016-09-17T10:49:20Z	2016-09-17T10:49:20Z		internal: changed var to const in internal/v8_polyfill	37		
 8616	5240626	true	open	false	0	0	2016-09-17T10:50:06Z	2016-09-17T10:50:06Z		test: clean tls-connect-given-socket	34		
 8617	2827690	true	open	false	0	0	2016-09-17T10:51:27Z	2016-09-17T10:51:28Z		test: vars to const and let in child_process	48		
 8618	515269	true	open	false	0	0	2016-09-17T10:53:08Z	2016-09-17T10:53:08Z		test: modernize JS and tighten equality checking in test-child-process-cwd	48		
 8619	2361826	true	open	false	0	0	2016-09-17T10:55:57Z	2016-09-17T10:55:57Z		internal: changed var to const in internal/v8_prof_processor	37		
 8620	2361826	true	open	false	0	0	2016-09-17T11:00:45Z	2016-09-17T11:00:45Z		internal: changed var to const in internal/process/promises	37		
-8621	35870	true	open	false	0	0	2016-09-17T11:04:08Z	2016-09-17T11:04:08Z		test: minor replace var by const	36		
-8622	1116738	true	open	false			2016-09-17T11:10:43Z	2016-09-17T12:04:15Z		Add Eslint rule prefer-assert-methods	98		
+8621	35870	true	open	false	1		2016-09-17T11:04:08Z	2016-09-17T13:02:56Z		test: minor replace var by const	36		
+8622	1116738	true	open	false	1		2016-09-17T11:10:43Z	2016-09-17T13:20:48Z		Add Eslint rule prefer-assert-methods	99		
 8623	147788	true	open	false	0	0	2016-09-17T11:39:30Z	2016-09-17T11:39:30Z		test: assert was never checked	92		
 8624	181076	true	open	false			2016-09-17T11:52:13Z	2016-09-17T12:15:47Z		crypto: fix default encoding of LazyTransform [2]	64		
 8625	2960965	true	open	false	1		2016-09-17T11:58:59Z	2016-09-17T12:20:40Z		test: Refactors test/parallel/test-async-wrap-post-did-throw.js	33		
 8626	153413	true	open	false	0	0	2016-09-17T12:37:11Z	2016-09-17T12:37:11Z		udp/stream: use MaybeStackBuffers to manage buffer memory management	40		
-8627	2550152	true	open	false	0	0	2016-09-17T12:44:55Z	2016-09-17T12:44:55Z		test: var variables to const in zlib	52		
-8628	8107784	true	open	false	0	0	2016-09-17T12:59:37Z	2016-09-17T12:59:37Z		test: change equal to strictEqual in path tests	39		
+8627	2550152	true	open	false	1		2016-09-17T12:44:55Z	2016-09-17T13:58:17Z		test: var variables to const in zlib	52		
+8628	8107784	true	open	false	1		2016-09-17T12:59:37Z	2016-09-17T13:11:26Z		test: change equal to strictEqual in path tests	39		
+8629	6078550	false	open	false	0		2016-09-17T13:01:41Z	2016-09-17T13:01:41Z		alter blog post pushing guidelines and commits to node.org master	75		
+8630	7002530	false	open	false	0		2016-09-17T13:46:41Z	2016-09-17T13:46:41Z		New keyword returns cached module, is this behavior expected?	17		
