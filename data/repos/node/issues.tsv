@@ -193,7 +193,7 @@
 5745	439929	true	closed	false	23	0	2016-03-16T21:21:26Z	2016-07-05T17:55:53Z	2016-07-05T17:55:53Z	buffer: backport --zero-fill-buffers command line option	130		
 5757	514417	false	open	false	3		2016-03-17T09:16:05Z	2016-07-27T11:45:06Z		net.Socket has no setConnectionTimeout(timeout) method	37		
 5793	1093990	true	closed	false	9		2016-03-18T21:09:44Z	2016-08-30T14:13:49Z	2016-03-21T15:23:07Z	timers: give Timeouts a constructor name	53		
-5798	17942010	false	open	false	130		2016-03-19T05:47:12Z	2016-09-17T03:10:54Z		Use system random generator in crypto	33		
+5798	17942010	false	open	false	130		2016-03-19T05:47:12Z	2016-09-17T14:06:13Z		Use system random generator in crypto	33		
 5804	1315533	true	closed	false	16		2016-03-19T18:30:35Z	2016-08-30T14:14:10Z	2016-03-21T15:52:12Z	dns: use isIp consistently	65		
 5816	17975468	false	open	false	6		2016-03-21T06:03:18Z	2016-09-14T13:54:49Z		Issue installing node js on Windows 7 Enterprise edition 64 bit	145		
 5848	718899	false	closed	false	6		2016-03-22T18:47:04Z	2016-06-29T22:36:15Z	2016-06-29T22:36:15Z	Investigate flaky test-dgram-send-callback-buffer-length	30		
@@ -1554,7 +1554,7 @@
 8490	19225332	false	closed	false	2		2016-09-11T10:49:34Z	2016-09-11T11:02:22Z	2016-09-11T11:02:22Z	 Unable to install any npm package on Windows 7 connected to Internet via wifi	230		
 8491	1616242	true	open	false	2		2016-09-11T12:21:11Z	2016-09-11T18:13:18Z		Make it build using openssl 1.1.0	346		
 8492	15197820	false	closed	false	7		2016-09-11T15:39:39Z	2016-09-12T06:58:06Z	2016-09-12T06:58:06Z	TypeError: 'caller' and 'arguments' are restricted function properties and cannot be accessed in this context nodejs	94		
-8493	899444	false	open	false	4		2016-09-11T16:39:59Z	2016-09-13T18:10:38Z		help() or similar for the REPL	391		
+8493	899444	false	open	false	10		2016-09-11T16:39:59Z	2016-09-17T14:26:26Z		help() or similar for the REPL	391		
 8494	1538624	true	closed	false	3	0	2016-09-12T01:05:26Z	2016-09-16T15:31:20Z	2016-09-16T15:31:20Z	doc/json: make sure links are correctly passed to marked	122		
 8495	1614246	false	closed	false	6		2016-09-12T04:18:18Z	2016-09-13T07:40:42Z	2016-09-12T07:49:50Z	debugging and fork (Error: listen EADDRINUSE :::5858)	145		
 8496	275871	false	open	false	1		2016-09-12T07:43:07Z	2016-09-13T04:18:20Z		src: UV_RUN_ONCE in a loop is inefficient	153		
@@ -1630,14 +1630,14 @@
 8566	15943089	false	open	false	0		2016-09-16T17:04:14Z	2016-09-16T17:04:14Z		v6.6.0 commit appearing in master branch	59		
 8567	2512748	true	open	false	1		2016-09-16T18:17:32Z	2016-09-16T21:51:55Z		dns: handle array holes in setServers()	87		
 8568	811047	true	open	false	6		2016-09-16T18:49:46Z	2016-09-16T22:36:05Z		test: fix test-debug-signal-cluster.js flakyness	53		
-8569	416585	false	open	false	0		2016-09-17T00:16:21Z	2016-09-17T00:16:21Z		Buffer.from(str, encoding) silently ignores decoding errors	77		
+8569	416585	false	open	false	1		2016-09-17T00:16:21Z	2016-09-17T14:46:36Z		Buffer.from(str, encoding) silently ignores decoding errors	79		
 8570	718899	true	open	false	1		2016-09-17T03:09:33Z	2016-09-17T06:04:30Z		doc: add link to help repo in README	25		
 8571	1400464	false	open	false	8		2016-09-17T04:25:41Z	2016-09-17T09:38:45Z		v6.6.0 node::PBKDF2() Out of Memory	97		
-8572	718899	true	open	false			2016-09-17T05:48:38Z	2016-09-17T11:17:07Z		crypto: fix pbkdf2() with empty strings	113		
+8572	718899	true	open	false			2016-09-17T05:48:38Z	2016-09-17T14:07:13Z		crypto: fix pbkdf2() with empty strings	113		
 8573	7329402	false	open	false	0		2016-09-17T06:00:43Z	2016-09-17T06:00:43Z		Error While Installing From FreeBSD Port	246		
 8574	718899	true	open	false	0	0	2016-09-17T06:12:35Z	2016-09-17T06:12:36Z		tools: increase armv6 timeout	73		
 8575	2361826	true	open	false	1		2016-09-17T08:05:56Z	2016-09-17T09:08:37Z		module: Remove deprecated/unused function requireRepl. Part of #4642	34		
-8576	1116738	true	open	false	4		2016-09-17T08:11:16Z	2016-09-17T10:40:30Z		module: NativeModule._cache turned to a Map	41		
+8576	1116738	true	open	false	5		2016-09-17T08:11:16Z	2016-09-17T14:04:55Z		module: NativeModule._cache turned to a Map	37		
 8577	125466	true	open	false	3		2016-09-17T08:30:43Z	2016-09-17T13:57:38Z		test:parallel: cleanup test-c-ares.js	50		
 8578	2361826	true	open	false	0	0	2016-09-17T08:32:01Z	2016-09-17T08:32:01Z		test: cleanup test-child-process-buffering	34		
 8579	1116738	true	open	false			2016-09-17T08:36:12Z	2016-09-17T09:13:12Z		util: Simplify SIMD setup	45		
@@ -1647,11 +1647,11 @@
 8583	1267623	true	closed	false	1	0	2016-09-17T08:58:59Z	2016-09-17T10:34:58Z	2016-09-17T10:34:58Z	test: cleanup test-http-agent-destroyed-socket	54		
 8584	10002753	true	open	false			2016-09-17T09:04:20Z	2016-09-17T12:37:44Z		test: cleanup test-child-process-stdio.js	87		
 8585	3909302	true	open	false	0	0	2016-09-17T09:11:28Z	2016-09-17T09:11:28Z		doc: add example for file existence with fs.stat	55		
-8586	4981813	true	open	false	2		2016-09-17T09:12:45Z	2016-09-17T13:28:50Z		test: improve test-net-server-address.js	44		
+8586	4981813	true	open	false	2		2016-09-17T09:12:45Z	2016-09-17T14:40:44Z		test: improve test-net-server-address.js	44		
 8587	555645	true	open	false	0	0	2016-09-17T09:16:14Z	2016-09-17T09:16:14Z		util: Add format for SharedArrayBuffer	86		
 8588	2361826	true	open	false	0	0	2016-09-17T09:18:51Z	2016-09-17T09:18:51Z		internal: changed var to const in bootstrap_node.js	57		
 8589	6439292	false	open	false	0		2016-09-17T09:20:37Z	2016-09-17T09:20:37Z		Three c++ test errors	400		
-8590	515269	true	open	false	0	0	2016-09-17T09:23:59Z	2016-09-17T09:23:59Z		test: modernized JS and tighten equality checking in test-eval.js	38		
+8590	515269	true	open	false	1		2016-09-17T09:23:59Z	2016-09-17T14:16:43Z		test: modernized JS and tighten equality checking in test-eval.js	42		
 8591	965671	false	open	false	0		2016-09-17T09:29:16Z	2016-09-17T09:29:16Z		Raise a warning when listening for usafe signals	27		
 8592	6203008	true	open	false	1		2016-09-17T09:29:24Z	2016-09-17T13:47:59Z		test: changed var to const	37		
 8593	1935767	true	open	false	0	0	2016-09-17T09:31:42Z	2016-09-17T09:31:43Z		src: remove unneeded ABORT after CHECK(0)	126		
@@ -1662,16 +1662,16 @@
 8598	8742251	true	open	false	0	0	2016-09-17T09:39:33Z	2016-09-17T09:39:34Z		test: update var to const	24		
 8599	1852796	true	open	false	0	0	2016-09-17T09:40:24Z	2016-09-17T09:40:24Z		test: update var to const	27		
 8600	125466	true	open	false	0	0	2016-09-17T09:42:05Z	2016-09-17T09:42:05Z		test:parallel: cleanup test-child-process-exec-env	55		
-8601	965671	true	open	false	1		2016-09-17T09:47:08Z	2016-09-17T13:41:25Z		Raise a warning when listening for usafe signals #8591	58		
+8601	965671	true	open	false	1		2016-09-17T09:47:08Z	2016-09-17T14:07:17Z		Raise a warning when listening for usafe signals #8591	58		
 8602	515269	true	open	false	0	0	2016-09-17T09:49:07Z	2016-09-17T09:49:07Z		test: modernize JS and tighten equality checking	40		
 8603	3963377	true	open	false	0	0	2016-09-17T09:49:28Z	2016-09-17T09:49:28Z		fix-test-assert.js: use const, let, strictEqual	44		
-8604	2361826	true	open	false	0	0	2016-09-17T09:50:26Z	2016-09-17T09:50:26Z		internal: change var to const in internal/child_process.js	39		
+8604	2361826	true	open	false			2016-09-17T09:50:26Z	2016-09-17T14:20:06Z		internal: change var to const in internal/child_process.js	39		
 8605	147788	true	open	false	0	0	2016-09-17T09:51:21Z	2016-09-17T09:51:21Z		test: replace var with const and add mustCall cb	63		
-8606	4865608	true	open	false	4		2016-09-17T09:52:33Z	2016-09-17T12:47:15Z		test: Improved tests in test-os	74		
+8606	4865608	true	open	false	5		2016-09-17T09:52:33Z	2016-09-17T14:40:06Z		test: Improved tests in test-os	74		
 8607	10419222	true	open	false	0	0	2016-09-17T09:55:03Z	2016-09-17T09:55:03Z		changed var to const/let	34		
-8608	6625123	false	open	false	0		2016-09-17T09:55:10Z	2016-09-17T09:55:10Z		Taskbar is not hidden in fullscreen	80		
-8609	2361826	true	open	false	1		2016-09-17T09:57:56Z	2016-09-17T11:22:45Z		internal: changed var to const in linkedlist	37		
-8610	14981026	true	open	false	0	0	2016-09-17T10:01:32Z	2016-09-17T10:01:32Z		src: Add does_zap_garbage to v8 HeapStatistics	84		
+8608	6625123	false	open	false	1		2016-09-17T09:55:10Z	2016-09-17T14:12:38Z		Taskbar is not hidden in fullscreen	80		
+8609	2361826	true	open	false	1		2016-09-17T09:57:56Z	2016-09-17T14:20:06Z		internal: changed var to const in linkedlist	37		
+8610	14981026	true	open	false			2016-09-17T10:01:32Z	2016-09-17T14:21:49Z		src: Add does_zap_garbage to v8 HeapStatistics	84		
 8611	8657410	true	open	false			2016-09-17T10:02:06Z	2016-09-17T13:51:54Z		crypto: fix default encoding of LazyTransform	50		
 8612	635903	true	open	false	0	0	2016-09-17T10:09:25Z	2016-09-17T10:09:25Z		util: support SharedArrayBuffer in inspect	76		
 8613	1267623	false	open	false	0		2016-09-17T10:22:46Z	2016-09-17T10:22:46Z		response's close event not being triggered	105		
@@ -1687,8 +1687,9 @@
 8623	147788	true	open	false	0	0	2016-09-17T11:39:30Z	2016-09-17T11:39:30Z		test: assert was never checked	92		
 8624	181076	true	open	false			2016-09-17T11:52:13Z	2016-09-17T12:15:47Z		crypto: fix default encoding of LazyTransform [2]	64		
 8625	2960965	true	open	false	1		2016-09-17T11:58:59Z	2016-09-17T12:20:40Z		test: Refactors test/parallel/test-async-wrap-post-did-throw.js	33		
-8626	153413	true	open	false	0	0	2016-09-17T12:37:11Z	2016-09-17T12:37:11Z		udp/stream: use MaybeStackBuffers to manage buffer memory management	40		
-8627	2550152	true	open	false	1		2016-09-17T12:44:55Z	2016-09-17T13:58:17Z		test: var variables to const in zlib	52		
-8628	8107784	true	open	false	1		2016-09-17T12:59:37Z	2016-09-17T13:11:26Z		test: change equal to strictEqual in path tests	39		
-8629	6078550	false	open	false	0		2016-09-17T13:01:41Z	2016-09-17T13:01:41Z		alter blog post pushing guidelines and commits to node.org master	75		
-8630	7002530	false	open	false	0		2016-09-17T13:46:41Z	2016-09-17T13:46:41Z		New keyword returns cached module, is this behavior expected?	17		
+8626	153413	true	open	false			2016-09-17T12:37:11Z	2016-09-17T14:17:26Z		udp/stream: use MaybeStackBuffers to manage buffer memory management	40		
+8627	2550152	true	open	false	3		2016-09-17T12:44:55Z	2016-09-17T14:43:38Z		test: var variables to const in zlib	52		
+8628	8107784	true	open	false			2016-09-17T12:59:37Z	2016-09-17T14:19:55Z		test: change equal to strictEqual in path tests	39		
+8629	6078550	false	open	false	5		2016-09-17T13:01:41Z	2016-09-17T14:05:41Z		alter blog post pushing guidelines and commits to nodejs.org master	75		
+8630	7002530	false	closed	false	4		2016-09-17T13:46:41Z	2016-09-17T14:05:31Z	2016-09-17T14:05:31Z	New keyword returns cached module, is this behavior expected?	17		
+8631	6078550	true	open	false	0	0	2016-09-17T14:52:56Z	2016-09-17T14:52:56Z		doc: add commit formats for release blog posts	82		
