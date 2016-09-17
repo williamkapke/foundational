@@ -139,7 +139,8 @@
 4630	10704816	true	closed	false	13	1	2016-01-11T22:32:27Z	2016-06-29T14:12:03Z	2016-06-29T14:12:03Z	tools: add missing headers	16		
 4646	1731633	false	closed	false	5		2016-01-12T12:07:41Z	2016-08-29T22:33:43Z	2016-08-29T22:33:43Z	http listen method is possible to be called twice with no error	68		
 4647	52195	true	closed	false	31		2016-01-12T12:24:07Z	2016-07-13T15:16:29Z	2016-07-13T14:12:16Z	win,msi: Added Italian translation	38		
-4670	5559820	true	open	false	12		2016-01-13T15:02:13Z	2016-09-15T21:41:11Z		lib: fixme defer error to next tick	41		
+4669	5559820	true	open	false	11		2016-01-13T14:46:53Z	2016-09-16T23:31:05Z		lib: fix basename comparison on windows	36		
+4670	5559820	true	open	false	12		2016-01-13T15:02:13Z	2016-09-16T23:24:28Z		lib: fixme defer error to next tick	41		
 4677	439929	false	closed	false	8		2016-01-13T21:25:47Z	2016-08-09T21:11:36Z	2016-08-09T21:11:36Z	Revising Deprecation Strategy / Labels	689		
 4685	11070840	false	open	false	19		2016-01-14T06:13:50Z	2016-08-14T23:11:57Z		Symantec Quarantining node-v5.4.1-x64.msi	30		
 4701	189835	false	open	false	62		2016-01-14T20:18:01Z	2016-07-19T01:02:19Z		ES2016 compat issue with Buffer subclassing Uint8Array	163		
@@ -152,6 +153,7 @@
 4941	2757844	false	closed	false	4		2016-01-29T05:18:31Z	2016-08-10T18:15:17Z	2016-01-29T08:50:38Z	Error: not implemented when using streams with setInterval	171		
 4956	21203	true	open	false	14		2016-01-29T19:50:47Z	2016-08-27T04:45:47Z		crypto: remove POINT_CONVERSION_HYBRID	44		
 5025	275871	true	open	false	31		2016-02-01T13:14:18Z	2016-08-23T20:38:28Z		debugger: bind to random port with --debug-port=0	13		
+5053	5559820	true	open	false	34		2016-02-03T06:34:54Z	2016-09-16T23:28:42Z		doc: use eslint	55		
 5094	12488060	false	open	false	6		2016-02-04T23:46:05Z	2016-07-09T02:37:13Z		File names in readable_stream folder are not supported in Windows	333		
 5095	8822573	false	open	false	7		2016-02-05T00:53:51Z	2016-07-04T14:21:24Z		node: unix sockets are slow in case of lots of small buffers	445		
 5098	1898870	true	closed	false	14		2016-02-05T11:10:32Z	2016-07-25T11:17:50Z	2016-03-22T05:24:37Z	fs: make 'fs.exists' follow the error first callback convention	21		
@@ -191,7 +193,7 @@
 5745	439929	true	closed	false	23	0	2016-03-16T21:21:26Z	2016-07-05T17:55:53Z	2016-07-05T17:55:53Z	buffer: backport --zero-fill-buffers command line option	130		
 5757	514417	false	open	false	3		2016-03-17T09:16:05Z	2016-07-27T11:45:06Z		net.Socket has no setConnectionTimeout(timeout) method	37		
 5793	1093990	true	closed	false	9		2016-03-18T21:09:44Z	2016-08-30T14:13:49Z	2016-03-21T15:23:07Z	timers: give Timeouts a constructor name	53		
-5798	17942010	false	open	false	125		2016-03-19T05:47:12Z	2016-09-16T21:16:46Z		Use system random generator in crypto	33		
+5798	17942010	false	open	false	129		2016-03-19T05:47:12Z	2016-09-16T23:11:48Z		Use system random generator in crypto	33		
 5804	1315533	true	closed	false	16		2016-03-19T18:30:35Z	2016-08-30T14:14:10Z	2016-03-21T15:52:12Z	dns: use isIp consistently	65		
 5816	17975468	false	open	false	6		2016-03-21T06:03:18Z	2016-09-14T13:54:49Z		Issue installing node js on Windows 7 Enterprise edition 64 bit	145		
 5848	718899	false	closed	false	6		2016-03-22T18:47:04Z	2016-06-29T22:36:15Z	2016-06-29T22:36:15Z	Investigate flaky test-dgram-send-callback-buffer-length	30		
@@ -1575,7 +1577,7 @@
 8514	21603	true	open	false	9		2016-09-13T10:43:59Z	2016-09-13T22:55:28Z		tls: add 'new' keyword for Array constructor call	50		
 8515	899444	true	open	false	11		2016-09-13T11:53:56Z	2016-09-15T19:42:41Z		fs: fix handling of `struct stat` fields	139		
 8516	1607273	false	closed	false	4		2016-09-13T13:50:51Z	2016-09-14T10:56:51Z	2016-09-14T10:56:51Z	Event emitter calls method which removed itself	198		
-8517	11681052	true	open	false	8		2016-09-13T18:36:53Z	2016-09-15T15:07:26Z		https: made some improvements to test-https-agent.js	89		
+8517	11681052	true	closed	false	9	9	2016-09-13T18:36:53Z	2016-09-16T23:08:35Z	2016-09-16T23:08:34Z	https: made some improvements to test-https-agent.js	89		
 8518	718899	true	closed	false	9		2016-09-13T18:41:16Z	2016-09-16T04:54:36Z	2016-09-16T04:54:36Z	test: add coverage for client._addHandle()	60		
 8519	115237	true	closed	false	12		2016-09-13T18:47:49Z	2016-09-16T14:53:32Z	2016-09-16T14:53:32Z	repl: improve .help	172		
 8520	119891	false	open	false	1		2016-09-13T18:51:17Z	2016-09-13T20:11:58Z		"""There was an internal error in Node's debugger. Please report this bug."""	1602		
