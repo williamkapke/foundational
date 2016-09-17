@@ -289,6 +289,7 @@
 6739	1093990	true	closed	false	10	0	2016-05-13T16:11:17Z	2016-06-30T12:54:16Z	2016-06-30T12:54:15Z	os: deprecate `tmpDir()` in favour of `tmpdir()`	166	1093990	2016-06-30T12:54:15Z
 6747	439929	true	closed	false	4	0	2016-05-13T21:21:47Z	2016-08-09T20:33:21Z	2016-08-09T20:33:21Z	test: add known-issue tests for various http related issues	44		
 6749	439929	true	open	false	39		2016-05-13T22:29:10Z	2016-09-02T17:21:14Z		fs: move SyncWriteStream to internal/fs	87		
+6752	4923668	false	open	false	1		2016-05-14T00:43:12Z	2016-09-17T08:21:50Z		Document how to test if a file exists	112		
 6763	988441	false	open	false	12		2016-05-14T20:27:49Z	2016-08-12T12:17:34Z		setTimeout delayed when sleeping on Windows	145		
 6764	718899	true	closed	false	29		2016-05-14T22:32:23Z	2016-07-11T22:38:14Z	2016-05-25T17:59:19Z	child_process: measure buffer length in bytes	75		
 6780	168508	true	closed	false	22		2016-05-16T02:46:18Z	2016-09-04T20:48:50Z	2016-05-27T22:18:47Z	build: Enable building with Ninja	85		
@@ -1500,7 +1501,7 @@
 8437	899444	true	closed	false	5		2016-09-07T22:00:44Z	2016-09-08T23:30:14Z	2016-09-08T19:55:55Z	Backport 8174 (symbol-based custom inspection methods)	26		
 8438	54666	false	open	false	2		2016-09-08T02:30:21Z	2016-09-09T18:45:05Z		v8 inspector Profiles page no longer loads	56		
 8439	2226267	false	closed	false	1		2016-09-08T06:45:46Z	2016-09-08T16:56:51Z	2016-09-08T16:56:51Z	when run node with --prof the `crypto.pbkdf2` will not loged in	103		
-8440	720065	false	open	false	21		2016-09-08T08:29:41Z	2016-09-13T02:14:15Z		Buffer.from not support SharedArrayBuffer	133		
+8440	720065	false	closed	false	22		2016-09-08T08:29:41Z	2016-09-17T08:53:55Z	2016-09-17T08:53:55Z	Buffer.from not support SharedArrayBuffer	133		
 8441	1014367	false	open	false	3		2016-09-08T09:00:13Z	2016-09-13T20:01:39Z		"Error with let: ""Identifier '*' has already been declared"" on REPL"	148		
 8442	731722	false	open	false	5		2016-09-08T09:18:05Z	2016-09-10T01:31:02Z		How do I implement `MyObject.inspect(depth, inspectOpts)`?	107		
 8443	6477435	false	closed	false	5		2016-09-08T10:46:46Z	2016-09-16T04:17:55Z	2016-09-09T08:26:51Z	Hotpatching modules leaks memory	163		
@@ -1570,7 +1571,7 @@
 8507	1466123	false	open	false	0		2016-09-13T00:46:51Z	2016-09-13T05:45:39Z		zlib: invalid distance too far back on `inflateRaw` with custom dictionary	145		
 8508	6354455	false	open	false	0		2016-09-13T02:11:25Z	2016-09-13T02:11:25Z		readline doc: events are _not_ supported on Windows.	45		
 8509	3320742	false	open	false	5		2016-09-13T02:17:53Z	2016-09-15T23:15:40Z		Configuration option to permanently turn on --preserve-symlinks	110		
-8510	10680833	true	open	false	10		2016-09-13T03:07:50Z	2016-09-17T07:50:23Z		Fixes an issue where Buffer.from was not supporting SharedArrayBuffer	72		
+8510	10680833	true	closed	false	12	17	2016-09-13T03:07:50Z	2016-09-17T08:53:42Z	2016-09-17T08:53:42Z	Fixes an issue where Buffer.from was not supporting SharedArrayBuffer	72		
 8511	718899	false	open	false	0		2016-09-13T04:21:25Z	2016-09-13T04:21:25Z		Investigate flaky test-fs-watch-recursive on OS X	10		
 8512	1466123	true	open	false			2016-09-13T05:54:45Z	2016-09-14T07:48:26Z		zlib: fix raw inflate with custom dictionary	74		
 8513	1057486	false	closed	false	2		2016-09-13T08:38:35Z	2016-09-13T15:46:09Z	2016-09-13T10:44:54Z	Expose V8's JavaScript parser API as an part of standard library?	92		
@@ -1612,7 +1613,7 @@
 8549	15943089	true	open	false	6		2016-09-15T16:55:35Z	2016-09-16T13:14:33Z		test: fix fork-dgram on AIX	102		
 8550	287917	true	open	false	8		2016-09-15T18:02:28Z	2016-09-16T16:07:37Z		inspector: restore 9229 as a default port	80		
 8551	291301	true	open	false	0		2016-09-15T19:22:54Z	2016-09-15T20:21:31Z		Introduce 'make mdlint' command and tooling, some doc fixes, update remark-lint rules	135		
-8552	2352663	true	open	false	5		2016-09-15T19:30:18Z	2016-09-16T15:06:28Z		Improve buffer test coverage	39		
+8552	2352663	true	open	false	6		2016-09-15T19:30:18Z	2016-09-17T08:02:03Z		Improve buffer test coverage	39		
 8553	291301	true	open	false	7		2016-09-15T19:35:59Z	2016-09-15T23:11:26Z		doc: fix a formatting error in buffer.md	64		
 8554	718899	false	open	false	6		2016-09-15T21:00:14Z	2016-09-16T22:56:42Z		Adopting project workflow to new GitHub features	159		
 8555	362089	false	open	false	0		2016-09-15T23:22:40Z	2016-09-15T23:22:40Z		vm: node crashes if timeout is set and nofile limit is reached	148		
@@ -1632,6 +1633,15 @@
 8569	416585	false	open	false	0		2016-09-17T00:16:21Z	2016-09-17T00:16:21Z		Buffer.from(str, encoding) silently ignores decoding errors	77		
 8570	718899	true	open	false	1		2016-09-17T03:09:33Z	2016-09-17T06:04:30Z		doc: add link to help repo in README	25		
 8571	1400464	false	open	false	6		2016-09-17T04:25:41Z	2016-09-17T05:49:56Z		v6.6.0 node::PBKDF2() Out of Memory	97		
-8572	718899	true	open	false			2016-09-17T05:48:38Z	2016-09-17T07:19:47Z		crypto: fix pbkdf2() with empty strings	113		
+8572	718899	true	open	false			2016-09-17T05:48:38Z	2016-09-17T08:48:01Z		crypto: fix pbkdf2() with empty strings	113		
 8573	7329402	false	open	false	0		2016-09-17T06:00:43Z	2016-09-17T06:00:43Z		Error While Installing From FreeBSD Port	246		
 8574	718899	true	open	false	0	0	2016-09-17T06:12:35Z	2016-09-17T06:12:36Z		tools: increase armv6 timeout	73		
+8575	2361826	true	open	false	0	0	2016-09-17T08:05:56Z	2016-09-17T08:05:56Z		module: Remove deprecated/unused function requireRepl. Part of #4642	34		
+8576	1116738	true	open	false	0	0	2016-09-17T08:11:16Z	2016-09-17T08:11:16Z		module: NativeModule._cache turned to a Map	57		
+8577	125466	true	open	false	0	0	2016-09-17T08:30:43Z	2016-09-17T08:30:43Z		test:parallel: cleanup test-c-ares.js	38		
+8578	2361826	true	open	false	0	0	2016-09-17T08:32:01Z	2016-09-17T08:32:01Z		test: cleanup test-child-process-buffering	34		
+8579	1116738	true	open	false	0	0	2016-09-17T08:36:12Z	2016-09-17T08:36:12Z		util: Simplify SIMD setup	45		
+8580	515269	true	open	false	0	0	2016-09-17T08:38:19Z	2016-09-17T08:38:19Z		test: fix test-child-process-detached flankyness	34		
+8581	356014	true	open	false	0	0	2016-09-17T08:45:07Z	2016-09-17T08:45:07Z		test: Improve test-child-process-stdout-flush	51		
+8582	17268518	true	open	false	0	0	2016-09-17T08:50:25Z	2016-09-17T08:50:25Z		test: refactor test to use latest standards	50		
+8583	1267623	true	open	false	0	0	2016-09-17T08:58:59Z	2016-09-17T08:58:59Z		test: cleanup test-http-agent-destroyed-socket	54		
