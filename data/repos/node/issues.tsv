@@ -153,7 +153,7 @@
 4941	2757844	false	closed	false	4		2016-01-29T05:18:31Z	2016-08-10T18:15:17Z	2016-01-29T08:50:38Z	Error: not implemented when using streams with setInterval	171		
 4956	21203	true	open	false	14		2016-01-29T19:50:47Z	2016-08-27T04:45:47Z		crypto: remove POINT_CONVERSION_HYBRID	44		
 5025	275871	true	open	false	31		2016-02-01T13:14:18Z	2016-08-23T20:38:28Z		debugger: bind to random port with --debug-port=0	13		
-5053	5559820	true	open	false	34		2016-02-03T06:34:54Z	2016-09-16T23:28:42Z		doc: use eslint	55		
+5053	5559820	true	open	false	34		2016-02-03T06:34:54Z	2016-09-17T09:22:13Z		doc: use eslint	55		
 5094	12488060	false	open	false	6		2016-02-04T23:46:05Z	2016-07-09T02:37:13Z		File names in readable_stream folder are not supported in Windows	333		
 5095	8822573	false	open	false	7		2016-02-05T00:53:51Z	2016-07-04T14:21:24Z		node: unix sockets are slow in case of lots of small buffers	445		
 5098	1898870	true	closed	false	14		2016-02-05T11:10:32Z	2016-07-25T11:17:50Z	2016-03-22T05:24:37Z	fs: make 'fs.exists' follow the error first callback convention	21		
@@ -1571,7 +1571,7 @@
 8507	1466123	false	open	false	0		2016-09-13T00:46:51Z	2016-09-13T05:45:39Z		zlib: invalid distance too far back on `inflateRaw` with custom dictionary	145		
 8508	6354455	false	open	false	0		2016-09-13T02:11:25Z	2016-09-13T02:11:25Z		readline doc: events are _not_ supported on Windows.	45		
 8509	3320742	false	open	false	5		2016-09-13T02:17:53Z	2016-09-15T23:15:40Z		Configuration option to permanently turn on --preserve-symlinks	110		
-8510	10680833	true	closed	false	12	17	2016-09-13T03:07:50Z	2016-09-17T08:53:42Z	2016-09-17T08:53:42Z	Fixes an issue where Buffer.from was not supporting SharedArrayBuffer	72		
+8510	10680833	true	closed	false	13		2016-09-13T03:07:50Z	2016-09-17T09:06:54Z	2016-09-17T08:53:42Z	Fixes an issue where Buffer.from was not supporting SharedArrayBuffer	72		
 8511	718899	false	open	false	0		2016-09-13T04:21:25Z	2016-09-13T04:21:25Z		Investigate flaky test-fs-watch-recursive on OS X	10		
 8512	1466123	true	open	false			2016-09-13T05:54:45Z	2016-09-14T07:48:26Z		zlib: fix raw inflate with custom dictionary	74		
 8513	1057486	false	closed	false	2		2016-09-13T08:38:35Z	2016-09-13T15:46:09Z	2016-09-13T10:44:54Z	Expose V8's JavaScript parser API as an part of standard library?	92		
@@ -1632,16 +1632,42 @@
 8568	811047	true	open	false	6		2016-09-16T18:49:46Z	2016-09-16T22:36:05Z		test: fix test-debug-signal-cluster.js flakyness	53		
 8569	416585	false	open	false	0		2016-09-17T00:16:21Z	2016-09-17T00:16:21Z		Buffer.from(str, encoding) silently ignores decoding errors	77		
 8570	718899	true	open	false	1		2016-09-17T03:09:33Z	2016-09-17T06:04:30Z		doc: add link to help repo in README	25		
-8571	1400464	false	open	false	6		2016-09-17T04:25:41Z	2016-09-17T05:49:56Z		v6.6.0 node::PBKDF2() Out of Memory	97		
+8571	1400464	false	open	false	8		2016-09-17T04:25:41Z	2016-09-17T09:38:45Z		v6.6.0 node::PBKDF2() Out of Memory	97		
 8572	718899	true	open	false			2016-09-17T05:48:38Z	2016-09-17T08:48:01Z		crypto: fix pbkdf2() with empty strings	113		
 8573	7329402	false	open	false	0		2016-09-17T06:00:43Z	2016-09-17T06:00:43Z		Error While Installing From FreeBSD Port	246		
 8574	718899	true	open	false	0	0	2016-09-17T06:12:35Z	2016-09-17T06:12:36Z		tools: increase armv6 timeout	73		
-8575	2361826	true	open	false	0	0	2016-09-17T08:05:56Z	2016-09-17T08:05:56Z		module: Remove deprecated/unused function requireRepl. Part of #4642	34		
-8576	1116738	true	open	false	0	0	2016-09-17T08:11:16Z	2016-09-17T08:11:16Z		module: NativeModule._cache turned to a Map	57		
+8575	2361826	true	open	false	1		2016-09-17T08:05:56Z	2016-09-17T09:08:37Z		module: Remove deprecated/unused function requireRepl. Part of #4642	34		
+8576	1116738	true	open	false	1		2016-09-17T08:11:16Z	2016-09-17T09:11:24Z		module: NativeModule._cache turned to a Map	41		
 8577	125466	true	open	false	0	0	2016-09-17T08:30:43Z	2016-09-17T08:30:43Z		test:parallel: cleanup test-c-ares.js	38		
 8578	2361826	true	open	false	0	0	2016-09-17T08:32:01Z	2016-09-17T08:32:01Z		test: cleanup test-child-process-buffering	34		
-8579	1116738	true	open	false	0	0	2016-09-17T08:36:12Z	2016-09-17T08:36:12Z		util: Simplify SIMD setup	45		
-8580	515269	true	open	false	0	0	2016-09-17T08:38:19Z	2016-09-17T08:38:19Z		test: fix test-child-process-detached flankyness	34		
-8581	356014	true	open	false	0	0	2016-09-17T08:45:07Z	2016-09-17T08:45:07Z		test: Improve test-child-process-stdout-flush	51		
-8582	17268518	true	open	false	0	0	2016-09-17T08:50:25Z	2016-09-17T08:50:25Z		test: refactor test to use latest standards	50		
+8579	1116738	true	open	false			2016-09-17T08:36:12Z	2016-09-17T09:13:12Z		util: Simplify SIMD setup	45		
+8580	515269	true	open	false	1		2016-09-17T08:38:19Z	2016-09-17T09:21:51Z		test: fix test-child-process-detached flankyness	34		
+8581	356014	true	open	false	0		2016-09-17T08:45:07Z	2016-09-17T09:01:36Z		test: Improve test-child-process-stdout-flush	51		
+8582	17268518	true	open	false	1		2016-09-17T08:50:25Z	2016-09-17T09:06:34Z		test: refactor test to use latest standards	49		
 8583	1267623	true	open	false	0	0	2016-09-17T08:58:59Z	2016-09-17T08:58:59Z		test: cleanup test-http-agent-destroyed-socket	54		
+8584	10002753	true	open	false	0	0	2016-09-17T09:04:20Z	2016-09-17T09:04:20Z		test: cleanup test-child-process-stdio.js	54		
+8585	3909302	true	open	false	0	0	2016-09-17T09:11:28Z	2016-09-17T09:11:28Z		doc: add example for file existence with fs.stat	55		
+8586	4981813	true	open	false	0	0	2016-09-17T09:12:45Z	2016-09-17T09:12:45Z		test: improve test-net-server-address.js	44		
+8587	555645	true	open	false	0	0	2016-09-17T09:16:14Z	2016-09-17T09:16:14Z		util: Add format for SharedArrayBuffer	86		
+8588	2361826	true	open	false	0	0	2016-09-17T09:18:51Z	2016-09-17T09:18:51Z		internal: changed var to const in bootstrap_node.js	57		
+8589	6439292	false	open	false	0		2016-09-17T09:20:37Z	2016-09-17T09:20:37Z		Three c++ test errors	400		
+8590	515269	true	open	false	0	0	2016-09-17T09:23:59Z	2016-09-17T09:23:59Z		test: modernized JS and tighten equality checking in test-eval.js	38		
+8591	965671	false	open	false	0		2016-09-17T09:29:16Z	2016-09-17T09:29:16Z		Raise a warning when listening for usafe signals	27		
+8592	6203008	true	open	false	0	0	2016-09-17T09:29:24Z	2016-09-17T09:29:24Z		test: changed var to const	37		
+8593	1935767	true	open	false	0	0	2016-09-17T09:31:42Z	2016-09-17T09:31:43Z		src: remove unneeded ABORT after CHECK(0)	126		
+8594	2764625	true	open	false	0	0	2016-09-17T09:32:00Z	2016-09-17T09:32:00Z		test: update test child process send utf8	45		
+8595	1852796	true	open	false	0	0	2016-09-17T09:33:10Z	2016-09-17T09:33:10Z		test: update var to const, use arrow functions	35		
+8596	1177098	true	open	false	0	0	2016-09-17T09:36:25Z	2016-09-17T09:36:25Z		test: update equal to strictEqual & function to arrow function	47		
+8597	20119184	true	open	false	0	0	2016-09-17T09:36:32Z	2016-09-17T09:36:32Z		test: refactor test-crypto test files	43		
+8598	8742251	true	open	false	0	0	2016-09-17T09:39:33Z	2016-09-17T09:39:34Z		test: update var to const	24		
+8599	1852796	true	open	false	0	0	2016-09-17T09:40:24Z	2016-09-17T09:40:24Z		test: update var to const	27		
+8600	125466	true	open	false	0	0	2016-09-17T09:42:05Z	2016-09-17T09:42:05Z		test:parallel: cleanup test-child-process-exec-env	55		
+8601	965671	true	open	false	0	0	2016-09-17T09:47:07Z	2016-09-17T09:47:08Z		Raise a warning when listening for usafe signals #8591	58		
+8602	515269	true	open	false	0	0	2016-09-17T09:49:07Z	2016-09-17T09:49:07Z		test: modernize JS and tighten equality checking	40		
+8603	3963377	true	open	false	0	0	2016-09-17T09:49:28Z	2016-09-17T09:49:28Z		fix-test-assert.js: use const, let, strictEqual	44		
+8604	2361826	true	open	false	0	0	2016-09-17T09:50:26Z	2016-09-17T09:50:26Z		internal: change var to const in internal/child_process.js	39		
+8605	147788	true	open	false	0	0	2016-09-17T09:51:21Z	2016-09-17T09:51:21Z		test: replace var with const and add mustCall cb	63		
+8606	4865608	true	open	false	0	0	2016-09-17T09:52:33Z	2016-09-17T09:52:33Z		test: Moved from var to const, equal to strictEqual and added typeof tests	68		
+8607	10419222	true	open	false	0	0	2016-09-17T09:55:03Z	2016-09-17T09:55:03Z		changed var to const/let	34		
+8608	6625123	false	open	false	0		2016-09-17T09:55:10Z	2016-09-17T09:55:10Z		Taskbar is not hidden in fullscreen	80		
+8609	2361826	true	open	false	0	0	2016-09-17T09:57:56Z	2016-09-17T09:57:56Z		internal: changed var to const in linkedlist	37		
