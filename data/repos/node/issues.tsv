@@ -324,7 +324,7 @@
 6948	275871	true	closed	false	12		2016-05-24T10:01:34Z	2016-07-11T21:35:43Z	2016-05-25T07:57:47Z	src: add include guards to internal headers	24		
 6951	321966	true	closed	false	7		2016-05-24T12:27:44Z	2016-07-12T14:40:15Z	2016-05-29T20:59:51Z	doc: buffers are not sent over IPC with a socket	67		
 6954	718899	false	closed	false	2		2016-05-24T15:49:55Z	2016-07-02T14:33:49Z	2016-07-02T14:33:49Z	Investigate flaky parallel/test-http-client-reject-chunked-with-content-length on smartos14-64	69		
-6956	1093990	true	open	false	15		2016-05-24T20:50:58Z	2016-09-17T21:27:43Z		timers: warn on overflowed timeout duration	66		
+6956	1093990	true	open	false	15		2016-05-24T20:50:58Z	2016-09-18T08:30:28Z		timers: warn on overflowed timeout duration	66		
 6957	899444	true	closed	false	6		2016-05-24T21:27:43Z	2016-06-30T23:28:00Z	2016-06-30T23:28:00Z	Backport 6907 to v4.x (console.* not working when running out of stack space)	40		
 6967	2352663	true	closed	false	8		2016-05-25T10:42:47Z	2016-07-12T06:22:51Z	2016-05-26T07:51:26Z	test: add regression test for Proxy as vm context	48		
 6972	1093990	true	open	false	5		2016-05-25T15:49:15Z	2016-07-05T17:22:30Z		repl: add a `noUnderscore` option	84		
@@ -902,7 +902,7 @@
 7834	101553	true	open	false	12		2016-07-22T08:53:45Z	2016-08-03T15:27:58Z		deps: cherry-pick a51f429 from V8 upstream	38		
 7835	5707457	false	closed	false	5		2016-07-22T13:04:17Z	2016-07-24T16:26:35Z	2016-07-22T13:55:51Z	url lib can't find host for protocol relative URLs	56		
 7836	1148215	false	open	false	0		2016-07-22T14:12:47Z	2016-07-22T14:12:47Z		Please update minimatch	20		
-7837	988441	false	open	false	9		2016-07-22T15:55:19Z	2016-08-04T12:27:21Z		REPL sometimes prints no output on Windows	23		
+7837	988441	false	closed	false	9		2016-07-22T15:55:19Z	2016-09-18T08:16:13Z	2016-09-18T08:16:12Z	REPL sometimes prints no output on Windows	23		
 7838	2512748	true	closed	false	4	3	2016-07-22T16:11:39Z	2016-08-01T19:10:11Z	2016-08-01T19:10:11Z	cluster: support stdio option for workers	60	2512748	2016-08-01T19:10:11Z
 7839	2512748	true	closed	false	7		2016-07-22T16:25:27Z	2016-08-05T13:43:00Z	2016-08-05T13:43:00Z	src: remove unused IsInt64() function	53		
 7840	5590711	false	closed	false	6		2016-07-22T17:17:22Z	2016-09-06T16:27:42Z	2016-09-06T16:27:42Z	node v5.5.0 compile on OmniOS: failed to resolve V8DB G_OFF_FP_CONTEXT: Unknown variable name	81		
@@ -1640,14 +1640,14 @@
 8574	718899	true	open	false	0	0	2016-09-17T06:12:35Z	2016-09-17T06:12:36Z		tools: increase armv6 timeout	73		
 8575	2361826	true	open	false	1		2016-09-17T08:05:56Z	2016-09-17T09:08:37Z		module: Remove deprecated/unused function requireRepl. Part of #4642	34		
 8576	1116738	true	open	false	11		2016-09-17T08:11:16Z	2016-09-17T17:48:42Z		module: NativeModule._cache turned to a Map	37		
-8577	125466	true	open	false	3		2016-09-17T08:30:43Z	2016-09-17T13:57:38Z		test:parallel: cleanup test-c-ares.js	50		
+8577	125466	true	open	false			2016-09-17T08:30:43Z	2016-09-18T08:34:48Z		test:parallel: cleanup test-c-ares.js	50		
 8578	2361826	true	open	false	0	0	2016-09-17T08:32:01Z	2016-09-17T08:32:01Z		test: cleanup test-child-process-buffering	34		
 8579	1116738	true	open	false			2016-09-17T08:36:12Z	2016-09-17T17:46:49Z		util: Simplify SIMD setup	41		
 8580	515269	true	open	false			2016-09-17T08:38:19Z	2016-09-17T21:32:18Z		test: modernize JS and tighten equality checking in test-child-process-detached	34		
 8581	356014	true	open	false	2		2016-09-17T08:45:07Z	2016-09-17T12:51:21Z		test: Improve test-child-process-stdout-flush	51		
 8582	17268518	true	open	false			2016-09-17T08:50:25Z	2016-09-17T12:31:04Z		test: refactor test to use latest standards	49		
 8583	1267623	true	closed	false	1	0	2016-09-17T08:58:59Z	2016-09-17T10:34:58Z	2016-09-17T10:34:58Z	test: cleanup test-http-agent-destroyed-socket	54		
-8584	10002753	true	open	false			2016-09-17T09:04:20Z	2016-09-17T12:37:44Z		test: cleanup test-child-process-stdio.js	87		
+8584	10002753	true	open	false			2016-09-17T09:04:20Z	2016-09-18T08:03:46Z		test: cleanup test-child-process-stdio.js	87		
 8585	3909302	true	open	false	0		2016-09-17T09:11:28Z	2016-09-17T22:06:39Z		doc: add example for file existence with fs.stat	55		
 8586	4981813	true	open	false	3		2016-09-17T09:12:45Z	2016-09-17T16:59:10Z		test: improve test-net-server-address.js	44		
 8587	555645	true	open	false	2		2016-09-17T09:16:14Z	2016-09-18T07:22:41Z		util: Add format for SharedArrayBuffer	77		
@@ -1663,7 +1663,7 @@
 8597	20119184	true	open	false	0	0	2016-09-17T09:36:32Z	2016-09-17T09:36:32Z		test: refactor test-crypto test files	43		
 8598	8742251	true	open	false	1		2016-09-17T09:39:33Z	2016-09-17T21:44:03Z		test: update var to const	24		
 8599	1852796	true	open	false	1		2016-09-17T09:40:24Z	2016-09-17T21:20:45Z		test: update var to const	27		
-8600	125466	true	open	false			2016-09-17T09:42:05Z	2016-09-17T22:10:26Z		test:parallel: cleanup test-child-process-exec-env	43		
+8600	125466	true	open	false			2016-09-17T09:42:05Z	2016-09-18T08:45:28Z		test:parallel: cleanup test-child-process-exec-env	43		
 8601	965671	true	open	false			2016-09-17T09:47:07Z	2016-09-17T18:02:01Z		Raise a warning when listening for usafe signals #8591	58		
 8602	515269	true	open	false	0	0	2016-09-17T09:49:07Z	2016-09-17T09:49:07Z		test: modernize JS and tighten equality checking	40		
 8603	3963377	true	open	false			2016-09-17T09:49:28Z	2016-09-17T22:13:58Z		fix-test-assert.js: use const, let, strictEqual	43		
@@ -1676,7 +1676,7 @@
 8610	14981026	true	open	false			2016-09-17T10:01:32Z	2016-09-17T21:40:35Z		src: Add does_zap_garbage to v8 HeapStatistics	84		
 8611	8657410	true	open	false			2016-09-17T10:02:06Z	2016-09-17T20:31:39Z		crypto: fix default encoding of LazyTransform	50		
 8612	635903	true	open	false	2		2016-09-17T10:09:25Z	2016-09-17T17:53:41Z		util: support SharedArrayBuffer in inspect	76		
-8613	1267623	false	open	false	0		2016-09-17T10:22:46Z	2016-09-17T22:02:00Z		response's close event not being triggered	105		
+8613	1267623	false	open	false	2		2016-09-17T10:22:46Z	2016-09-18T08:10:01Z		response's close event not being triggered	105		
 8614	2361826	true	open	false	2		2016-09-17T10:36:51Z	2016-09-18T07:44:42Z		internal: changed var to const in internal/process.js	37		
 8615	2361826	true	open	false	4		2016-09-17T10:49:20Z	2016-09-18T04:35:27Z		internal: changed var to const in internal/v8_polyfill	37		
 8616	5240626	true	open	false			2016-09-17T10:50:06Z	2016-09-17T19:07:13Z		test: clean tls-connect-given-socket	34		
@@ -1699,7 +1699,7 @@
 8633	2352663	true	open	false			2016-09-17T16:30:34Z	2016-09-17T21:23:51Z		test: improve coverage of the util module	52		
 8634	101553	true	open	false	1		2016-09-17T17:02:06Z	2016-09-17T23:53:29Z		Watchdog: add error message if we abort	37		
 8635	12407	false	open	false	18		2016-09-17T17:06:29Z	2016-09-18T03:16:55Z		NPM hangs on system, under FreeBSD 11.0 and OSX 10.11 with Node 6.5+	93		
-8636	12407	false	open	false	2		2016-09-17T17:08:33Z	2016-09-18T07:56:45Z		Unable to build 4.5.0 LTS on Darwin	18		
+8636	12407	false	open	false	3		2016-09-17T17:08:33Z	2016-09-18T08:38:11Z		Unable to build 4.5.0 LTS on Darwin	18		
 8637	1093990	false	open	false	4		2016-09-17T17:38:07Z	2016-09-17T21:39:59Z		Benchmark var -> const before merging mass rewrites	56		
 8638	16693844	false	open	false	0		2016-09-17T18:33:21Z	2016-09-17T18:33:21Z		fs.utimes arguments documentation	159		
 8639	2999209	false	open	false	0		2016-09-17T18:58:16Z	2016-09-17T21:43:35Z		The installation script doesn't work correctly on Ubuntu 16.04 LTS. When the user intends to install v6, v4 is actually installed.	89		
@@ -1707,3 +1707,4 @@
 8641	1310155	true	open	false	3		2016-09-18T02:36:43Z	2016-09-18T05:19:27Z		test: refactored test-intl	47		
 8642	718899	true	open	false	1		2016-09-18T04:00:41Z	2016-09-18T04:01:54Z		tools: make argument alignment linting more strict	82		
 8643	11638619	true	open	false			2016-09-18T05:58:34Z	2016-09-18T07:36:36Z		tools: add additional ESLint rules	183		
+8644	52195	false	open	false	0		2016-09-18T08:49:25Z	2016-09-18T08:49:25Z		stream, test: Increase the coverage of _readableState and _writableState properties	186		
