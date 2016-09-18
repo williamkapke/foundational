@@ -293,6 +293,7 @@
 6752	4923668	false	open	false	1		2016-05-14T00:43:12Z	2016-09-17T08:21:50Z		Document how to test if a file exists	112		
 6763	988441	false	open	false	12		2016-05-14T20:27:49Z	2016-08-12T12:17:34Z		setTimeout delayed when sleeping on Windows	145		
 6764	718899	true	closed	false	29		2016-05-14T22:32:23Z	2016-07-11T22:38:14Z	2016-05-25T17:59:19Z	child_process: measure buffer length in bytes	75		
+6773	1093990	true	open	false	48		2016-05-15T16:26:54Z	2016-09-18T04:29:32Z		process: flush stdout/stderr upon `process.exit()`	68		
 6780	168508	true	closed	false	22		2016-05-16T02:46:18Z	2016-09-04T20:48:50Z	2016-05-27T22:18:47Z	build: Enable building with Ninja	85		
 6787	15952	true	closed	false	10		2016-05-16T16:55:31Z	2016-07-13T18:37:39Z	2016-05-20T10:46:41Z	build: Update build-addons when node-gyp changes.	99		
 6792	79017	true	closed	false	140		2016-05-16T20:27:18Z	2016-07-11T10:12:05Z	2016-05-30T16:12:40Z	Add v8_inspector support	530		
@@ -1677,7 +1678,7 @@
 8612	635903	true	open	false	2		2016-09-17T10:09:25Z	2016-09-17T17:53:41Z		util: support SharedArrayBuffer in inspect	76		
 8613	1267623	false	open	false	0		2016-09-17T10:22:46Z	2016-09-17T22:02:00Z		response's close event not being triggered	105		
 8614	2361826	true	open	false	0		2016-09-17T10:36:51Z	2016-09-17T13:31:38Z		internal: changed var to const in internal/process.js	37		
-8615	2361826	true	open	false	4		2016-09-17T10:49:20Z	2016-09-17T18:02:04Z		internal: changed var to const in internal/v8_polyfill	37		
+8615	2361826	true	open	false	4		2016-09-17T10:49:20Z	2016-09-18T04:35:27Z		internal: changed var to const in internal/v8_polyfill	37		
 8616	5240626	true	open	false			2016-09-17T10:50:06Z	2016-09-17T19:07:13Z		test: clean tls-connect-given-socket	34		
 8617	2827690	true	open	false	0		2016-09-17T10:51:27Z	2016-09-17T21:07:36Z		test: vars to const and let in child_process	52		
 8618	515269	true	open	false	0	0	2016-09-17T10:53:08Z	2016-09-17T10:53:08Z		test: modernize JS and tighten equality checking in test-child-process-cwd	48		
@@ -1690,7 +1691,7 @@
 8625	2960965	true	open	false	2		2016-09-17T11:58:59Z	2016-09-17T17:17:56Z		test: Refactors test/parallel/test-async-wrap-post-did-throw.js	33		
 8626	153413	true	open	false	1		2016-09-17T12:37:11Z	2016-09-17T23:46:58Z		udp/stream: use MaybeStackBuffers to manage buffer memory management	40		
 8627	2550152	true	open	false	5		2016-09-17T12:44:55Z	2016-09-17T20:59:08Z		test: var variables to const in zlib	52		
-8628	8107784	true	open	false	3		2016-09-17T12:59:37Z	2016-09-17T20:02:23Z		test: change equal to strictEqual in path tests	39		
+8628	8107784	true	open	false	6		2016-09-17T12:59:37Z	2016-09-18T04:01:20Z		test: change equal to strictEqual in path tests	39		
 8629	6078550	false	open	false	13		2016-09-17T13:01:41Z	2016-09-17T18:37:35Z		alter blog post pushing guidelines and commits to nodejs.org master	75		
 8630	7002530	false	closed	false	5		2016-09-17T13:46:41Z	2016-09-18T02:17:58Z	2016-09-17T14:05:31Z	New keyword returns cached module, is this behavior expected?	17		
 8631	6078550	true	open	false	8		2016-09-17T14:52:56Z	2016-09-17T17:22:59Z		doc: add commit formats for release blog posts	82		
@@ -1703,5 +1704,5 @@
 8638	16693844	false	open	false	0		2016-09-17T18:33:21Z	2016-09-17T18:33:21Z		fs.utimes arguments documentation	159		
 8639	2999209	false	open	false	0		2016-09-17T18:58:16Z	2016-09-17T21:43:35Z		The installation script doesn't work correctly on Ubuntu 16.04 LTS. When the user intends to install v6, v4 is actually installed.	89		
 8640	10355544	true	open	false			2016-09-17T22:14:47Z	2016-09-17T23:17:21Z		Update test-tcp-wrap-listen.js with strictEqual and ES6 syntax	65		
-8641	1310155	true	open	false			2016-09-18T02:36:43Z	2016-09-18T03:50:04Z		test: refactored test-intl	47		
-8642	718899	true	open	false	0	0	2016-09-18T04:00:40Z	2016-09-18T04:00:41Z		tools: make argument alignment linting more strict	82		
+8641	1310155	true	open	false			2016-09-18T02:36:43Z	2016-09-18T04:33:19Z		test: refactored test-intl	47		
+8642	718899	true	open	false	1		2016-09-18T04:00:41Z	2016-09-18T04:01:54Z		tools: make argument alignment linting more strict	82		
