@@ -324,7 +324,7 @@
 6948	275871	true	closed	false	12		2016-05-24T10:01:34Z	2016-07-11T21:35:43Z	2016-05-25T07:57:47Z	src: add include guards to internal headers	24		
 6951	321966	true	closed	false	7		2016-05-24T12:27:44Z	2016-07-12T14:40:15Z	2016-05-29T20:59:51Z	doc: buffers are not sent over IPC with a socket	67		
 6954	718899	false	closed	false	2		2016-05-24T15:49:55Z	2016-07-02T14:33:49Z	2016-07-02T14:33:49Z	Investigate flaky parallel/test-http-client-reject-chunked-with-content-length on smartos14-64	69		
-6956	1093990	true	open	false	15		2016-05-24T20:50:58Z	2016-09-18T08:30:28Z		timers: warn on overflowed timeout duration	66		
+6956	1093990	true	open	false	16		2016-05-24T20:50:58Z	2016-09-19T10:15:25Z		timers: warn on overflowed timeout duration	66		
 6957	899444	true	closed	false	6		2016-05-24T21:27:43Z	2016-06-30T23:28:00Z	2016-06-30T23:28:00Z	Backport 6907 to v4.x (console.* not working when running out of stack space)	40		
 6967	2352663	true	closed	false	8		2016-05-25T10:42:47Z	2016-07-12T06:22:51Z	2016-05-26T07:51:26Z	test: add regression test for Proxy as vm context	48		
 6972	1093990	true	open	false	5		2016-05-25T15:49:15Z	2016-07-05T17:22:30Z		repl: add a `noUnderscore` option	84		
@@ -377,7 +377,7 @@
 7157	469365	true	closed	false	28		2016-06-05T01:13:32Z	2016-07-05T18:16:17Z	2016-06-27T20:40:21Z	buffers: speed up swap16/32, add swap64	566		
 7158	9056756	false	closed	false	5		2016-06-05T04:43:28Z	2016-07-11T09:40:17Z	2016-06-05T06:49:21Z	Unable to cross-compile Node v6.2.1 for iOS	283		
 7162	275871	true	open	false	11		2016-06-05T16:54:03Z	2016-09-11T11:19:44Z		fs: move stringToFlags() to lib/internal	3		
-7163	628445	false	open	false	12		2016-06-05T18:53:46Z	2016-08-31T05:55:51Z		`systemjs-plugin-babel` fails on `v6.2.0`	47		
+7163	628445	false	open	false	14		2016-06-05T18:53:46Z	2016-09-19T10:55:06Z		`systemjs-plugin-babel` fails on `v6.2.0`	47		
 7165	696611	true	open	false	26		2016-06-05T21:37:06Z	2016-09-02T06:34:26Z		"fs: refactor ""options"" processing as a function"	86		
 7166	730640	true	open	false	3		2016-06-05T22:01:01Z	2016-09-15T22:22:44Z		doc: more detail on when timers are executed	61		
 7168	696611	true	closed	false	21		2016-06-05T22:31:56Z	2016-07-28T01:38:31Z	2016-07-21T21:06:43Z	fs: remove maybeCallback function	124		
@@ -1600,7 +1600,7 @@
 8533	15943089	true	closed	false	6		2016-09-14T16:41:34Z	2016-09-14T17:16:49Z	2016-09-14T16:57:29Z	doc: add gibfahn to collaborators	36		
 8534	1093990	false	open	false	0		2016-09-14T16:42:29Z	2016-09-14T16:42:29Z		Impossible to listen to beforeExit in single-tick --eval	379		
 8535	1252061	false	open	false	0		2016-09-14T17:08:57Z	2016-09-14T17:08:57Z		stream.Readable issues data after .push(null)	215		
-8536	287917	true	open	false			2016-09-14T17:25:40Z	2016-09-16T18:38:04Z		inspector: zero out structure members	75		
+8536	287917	true	open	false			2016-09-14T17:25:40Z	2016-09-19T10:48:45Z		inspector: zero out structure members	75		
 8537	374012	false	open	false	4		2016-09-14T20:26:51Z	2016-09-18T17:11:06Z		vm.runInContext is memory unsafe and can be used to dump core	112		
 8538	374012	false	open	false	3		2016-09-14T20:27:45Z	2016-09-17T13:33:27Z		dns.setServers is memory unsafe and can be used to dump core	129		
 8539	374012	false	open	false	3		2016-09-14T20:28:34Z	2016-09-15T11:27:27Z		child_process.spawnSync is memory unsafe and can be used to dump core	108		
@@ -1610,7 +1610,7 @@
 8543	1898870	true	open	false	3		2016-09-15T07:34:48Z	2016-09-15T08:03:59Z		test: add known issue test for child_process.spawnSync segfault	64		
 8544	2802526	false	open	false	1		2016-09-15T09:50:21Z	2016-09-15T10:07:54Z		Logging works only one out of four times in windows console	129		
 8545	6712914	false	closed	false	4		2016-09-15T12:31:17Z	2016-09-15T15:03:52Z	2016-09-15T13:43:07Z	npm installing to global gives Error: ENOENT, No such file or directory	197		
-8546	1443911	true	open	false	2		2016-09-15T12:54:18Z	2016-09-16T10:03:53Z		doc: improve documentation for commit subject line	44		
+8546	1443911	true	open	false	3		2016-09-15T12:54:18Z	2016-09-19T10:47:34Z		doc: improve documentation for commit subject line	44		
 8547	17704638	true	open	false			2016-09-15T15:01:29Z	2016-09-17T17:52:05Z		benchmark: add --expose_internals switch	54		
 8548	17704638	false	open	false	19		2016-09-15T15:08:25Z	2016-09-16T16:58:54Z		internal/freelist exposed by default on linux	26		
 8549	15943089	true	open	false	6		2016-09-15T16:55:35Z	2016-09-16T13:14:33Z		test: fix fork-dgram on AIX	102		
@@ -1626,7 +1626,7 @@
 8559	718899	true	closed	false	2		2016-09-16T05:52:06Z	2016-09-19T04:39:16Z	2016-09-19T04:39:16Z	doc: update exercise portion of onboarding doc	25		
 8560	2542620	false	closed	false	2		2016-09-16T08:14:25Z	2016-09-18T06:51:33Z	2016-09-16T08:21:37Z	Node js gives No such file or directory if the CPU version is incorrect	60		
 8561	16976667	false	open	false	0		2016-09-16T10:07:59Z	2016-09-16T10:07:59Z		Getting error in open	76		
-8562	6631117	true	open	false	1		2016-09-16T10:27:01Z	2016-09-19T06:43:45Z		 doc: fix link on timers.md	31		
+8562	6631117	true	open	false	2		2016-09-16T10:27:01Z	2016-09-19T10:16:45Z		 doc: fix link on timers.md	31		
 8563	16976667	false	open	false	0		2016-09-16T10:40:15Z	2016-09-16T10:40:15Z		Getting error	22		
 8564	17704638	true	open	false	1		2016-09-16T11:05:16Z	2016-09-16T12:13:15Z		benchmark: make v8-bench.js output consistent	46		
 8565	138133	false	open	false	0		2016-09-16T15:37:37Z	2016-09-17T18:04:28Z		--debug does not provide debugger with 1st breakpoint context	217		
@@ -1651,7 +1651,7 @@
 8584	10002753	true	open	false			2016-09-17T09:04:20Z	2016-09-18T08:03:46Z		test: cleanup test-child-process-stdio.js	87		
 8585	3909302	true	open	false	2		2016-09-17T09:11:28Z	2016-09-18T09:10:51Z		doc: add example for file existence with fs.stat	55		
 8586	4981813	true	open	false	3		2016-09-17T09:12:45Z	2016-09-17T16:59:10Z		test: improve test-net-server-address.js	44		
-8587	555645	true	open	false			2016-09-17T09:16:14Z	2016-09-19T09:37:41Z		util: Add format for SharedArrayBuffer	77		
+8587	555645	true	open	false			2016-09-17T09:16:14Z	2016-09-19T10:40:37Z		util: Add format for SharedArrayBuffer	77		
 8588	2361826	true	open	false	0	0	2016-09-17T09:18:51Z	2016-09-17T09:18:51Z		internal: changed var to const in bootstrap_node.js	57		
 8589	6439292	false	open	false	0		2016-09-17T09:20:37Z	2016-09-17T09:20:37Z		Three c++ test errors	400		
 8590	515269	true	open	false	1		2016-09-17T09:23:59Z	2016-09-17T19:30:15Z		test: modernized JS and tighten equality checking in test-eval.js	42		
@@ -1718,4 +1718,4 @@
 8651	2763135	true	open	false	0	0	2016-09-18T20:03:48Z	2016-09-18T20:03:48Z		doc: clarify fs.utimes() arguments	43		
 8652	718899	true	open	false	10		2016-09-19T01:28:41Z	2016-09-19T07:10:29Z		test: skip cpu-intensive tests on slow hosts	72		
 8653	16150723	false	open	false	0		2016-09-19T07:02:58Z	2016-09-19T07:02:58Z		chmodSync is not recursive	39		
-8654	4899192	false	open	false	0		2016-09-19T09:34:30Z	2016-09-19T09:34:30Z		Date.toLocalString() return incorrect string	121		
+8654	4899192	false	open	false	1		2016-09-19T09:34:30Z	2016-09-19T10:26:53Z		Date.toLocalString() return incorrect string	121		
