@@ -1,10 +1,11 @@
 {
-  "words": 3865,
-  "comments": 107,
+  "words": 4461,
+  "comments": 119,
   "prs": {
     "opened": 4,
     "closed": 18,
-    "words": 3865
+    "words": 4461,
+    "reopened": null
   },
   "issues": {
     "opened": 0,
@@ -38,7 +39,13 @@
     "diagnostics": {"open":19},
     "doc-tool": {"open":2},
     "docker-iojs": {"open":5},
-    "docker-node": {"open":18},
+    "docker-node": {
+      "225": {"comments":1,"words":184,"pr":true,"reopened":"","reopener":"2781"},
+      "open": 19,
+      "words": 184,
+      "comments": 1,
+      "reopened": 1
+    },
     "docs": {
       "111": {"comments":2,"words":79,"opened":"2016-09-19T12:08:01Z","opener":"1663259","pr":true},
       "open": 53,
@@ -56,7 +63,12 @@
     },
     "foundation-slides": {"open":4},
     "foundation.nodejs.org": {"open":4},
-    "github-bot": {"open":26},
+    "github-bot": {
+      "75": {"comments":1,"words":26,"pr":true},
+      "open": 26,
+      "words": 26,
+      "comments": 1
+    },
     "hardware": {"open":12},
     "help": {
       "260": {"comments":1,"words":17,"pr":true},
@@ -92,12 +104,15 @@
       "8364": {"comments":7,"words":223,"pr":true},
       "8369": {"comments":1,"words":10,"pr":true},
       "8375": {"comments":1,"words":28,"pr":true},
+      "8429": {"comments":1,"words":21,"pr":true},
       "8494": {"comments":1,"words":23,"pr":true},
       "8512": {"comments":2,"words":52,"pr":true},
       "8515": {"comments":1,"words":142,"pr":true,"closed":"2016-09-19T12:59:40Z","closer":"899444"},
       "8524": {"comments":3,"words":70,"pr":true},
+      "8531": {"comments":3,"words":243,"pr":true},
       "8536": {"comments":4,"words":17,"pr":true},
       "8546": {"comments":1,"words":7,"pr":true},
+      "8548": {"comments":2,"words":70,"pr":true},
       "8552": {"comments":1,"words":43,"pr":true,"closed":"2016-09-19T07:17:45Z","closer":"2352663"},
       "8559": {"comments":1,"words":28,"pr":true,"closed":"2016-09-19T04:39:16Z","closer":"718899"},
       "8562": {"comments":3,"words":63,"pr":true,"closed":"","closer":"1443911"},
@@ -106,23 +121,25 @@
       "8572": {"comments":9,"words":186,"pr":true},
       "8580": {"comments":1,"words":3,"pr":true},
       "8587": {"comments":8,"words":99,"pr":true},
+      "8590": {"comments":1,"words":16,"pr":true},
       "8593": {"comments":1,"words":2,"pr":true},
       "8601": {"comments":2,"words":118,"pr":true},
       "8612": {"comments":1,"words":65,"pr":true},
       "8618": {"comments":1,"words":35,"pr":true},
       "8622": {"comments":4,"words":22,"pr":true},
+      "8631": {"comments":1,"words":2,"pr":true},
       "8633": {"comments":1,"words":1,"pr":true},
       "8636": {"comments":1,"words":95,"pr":true},
       "8644": {"comments":1,"words":30,"pr":true},
-      "8649": {"comments":4,"words":64,"pr":true},
+      "8649": {"comments":6,"words":98,"pr":true},
       "8650": {"comments":5,"words":229,"pr":true},
       "8651": {"comments":2,"words":24,"pr":true},
       "8652": {"comments":14,"words":558,"pr":true,"opened":"2016-09-19T01:28:41Z","opener":"718899"},
       "8653": {"comments":2,"words":104,"opened":"2016-09-19T07:02:58Z","opener":"16150723","pr":true,"closed":"2016-09-19T07:26:49Z","closer":"275871"},
       "8654": {"comments":2,"words":283,"opened":"2016-09-19T09:34:30Z","opener":"4899192","pr":true,"closed":"","closer":"275871"},
       "open": 842,
-      "words": 3340,
-      "comments": 98,
+      "words": 3726,
+      "comments": 108,
       "opened": 3,
       "closed": 6
     },
@@ -202,6 +219,13 @@
     "vm": {"open":2}
   },
   "users": {
+    "2781": {
+      "id": "2781",
+      "login": "chorrell",
+      "words": {
+        "docker-node/pulls/225#248017510": 41
+      }
+    },
     "52195": {
       "id": "52195",
       "login": "mcollina",
@@ -218,7 +242,15 @@
       "login": "mscdex",
       "words": {
         "node/pulls/8572#247993544": 31,
-        "node/pulls/8572#247994677": 3
+        "node/pulls/8572#247994677": 3,
+        "github-bot/pulls/75#248005879": 26
+      }
+    },
+    "79017": {
+      "id": "79017",
+      "login": "ofrobots",
+      "words": {
+        "node/pulls/8429#79398336": 21
       }
     },
     "96150": {
@@ -350,7 +382,8 @@
       "login": "wzoom",
       "words": {
         "node/pulls/8618#247926711": 35,
-        "node/pulls/8580#247927633": 3
+        "node/pulls/8580#247927633": 3,
+        "node/pulls/8590#248014580": 16
       }
     },
     "555645": {
@@ -425,6 +458,16 @@
         "summit/issues/31"
       ]
     },
+    "837533": {
+      "id": "837533",
+      "login": "mraxus",
+      "words": {
+        "docker-node/issues/225": 143
+      },
+      "reopened": [
+        "docker-node/issues/225"
+      ]
+    },
     "899444": {
       "id": "899444",
       "login": "addaleax",
@@ -435,7 +478,8 @@
         "node/pulls/8601#247980754": 87,
         "node/pulls/8515": 139,
         "node/pulls/8515#247986160": 3,
-        "node/pulls/8572#247994261": 15
+        "node/pulls/8572#247994261": 15,
+        "node/pulls/8649#79399552": 32
       },
       "closed": [
         "node/pulls/8515"
@@ -447,6 +491,16 @@
       "words": {
         "node/pulls/8633#247939845": 1,
         "node/pulls/4670#247993649": 1
+      }
+    },
+    "1093990": {
+      "id": "1093990",
+      "login": "Fishrock123",
+      "words": {
+        "node/pulls/8531#248002326": 191,
+        "node/pulls/8531#248003112": 35,
+        "node/pulls/8548#248009792": 14,
+        "node/pulls/8531#79411208": 17
       }
     },
     "1226256": {
@@ -516,7 +570,8 @@
         "node/pulls/8364#247924897": 12,
         "node/pulls/8650#247944677": 16,
         "node/pulls/8650#247946033": 106,
-        "node/pulls/6956#247962111": 141
+        "node/pulls/6956#247962111": 141,
+        "node/pulls/8548#248017676": 56
       }
     },
     "1935767": {
@@ -552,7 +607,8 @@
       "id": "2512748",
       "login": "cjihrig",
       "words": {
-        "node/pulls/8649#248001358": 6
+        "node/pulls/8649#248001358": 6,
+        "node/pulls/8649#248005316": 2
       }
     },
     "2763135": {
@@ -620,6 +676,13 @@
       "login": "sergei-maertens",
       "words": {
         "node/pulls/7163#247963383": 20
+      }
+    },
+    "6078550": {
+      "id": "6078550",
+      "login": "fene",
+      "words": {
+        "node/pulls/8631#248001972": 2
       }
     },
     "6316590": {
