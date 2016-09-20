@@ -1,10 +1,10 @@
 {
-  "words": 2497,
-  "comments": 43,
+  "words": 8572,
+  "comments": 49,
   "prs": {
-    "opened": 9,
-    "closed": 5,
-    "words": 2497
+    "opened": 12,
+    "closed": 7,
+    "words": 8572
   },
   "issues": {
     "opened": 0,
@@ -49,7 +49,14 @@
       "closed": 1
     },
     "docs": {"open":53},
-    "education": {"open":5},
+    "education": {
+      "2": {"comments":1,"words":91,"pr":true},
+      "10": {"comments":1,"words":170,"opened":"2016-09-20T08:18:45Z","opener":"914122","pr":true},
+      "open": 6,
+      "words": 261,
+      "opened": 1,
+      "comments": 2
+    },
     "email": {"open":1},
     "evangelism": {"open":19},
     "foundation-slides": {"open":4},
@@ -68,12 +75,13 @@
     "inclusivity": {"open":19},
     "inclusivity-slack-inviter": {"open":1},
     "installer": {
-      "4": {"comments":1,"words":6,"pr":true},
+      "4": {"comments":1,"words":6,"pr":true,"closed":"2016-09-20T08:05:48Z","closer":"579"},
       "31": {"comments":0,"words":58,"pr":true,"opened":"2016-09-20T07:40:23Z","opener":"4865608"},
-      "open": 13,
+      "open": 12,
       "words": 64,
       "opened": 1,
-      "comments": 1
+      "comments": 1,
+      "closed": 1
     },
     "iojs.org": {"open":9},
     "live.nodejs.org": {"open":17},
@@ -88,6 +96,7 @@
       "8429": {"comments":3,"words":265,"pr":true},
       "8558": {"comments":1,"words":5,"pr":true},
       "8570": {"comments":1,"words":41,"pr":true,"closed":"2016-09-20T06:13:28Z","closer":"718899"},
+      "8571": {"comments":1,"words":22,"pr":true},
       "8572": {"comments":3,"words":149,"pr":true,"closed":"2016-09-20T06:15:21Z","closer":"718899"},
       "8633": {"comments":1,"words":55,"pr":true,"closed":"2016-09-20T07:46:00Z","closer":"2352663"},
       "8649": {"comments":1,"words":37,"pr":true},
@@ -98,11 +107,13 @@
       "8659": {"comments":0,"words":96,"opened":"2016-09-20T00:34:22Z","opener":"54666","pr":true},
       "8660": {"comments":1,"words":58,"pr":true,"opened":"2016-09-20T04:12:52Z","opener":"291301"},
       "8661": {"comments":1,"words":72,"pr":true,"opened":"2016-09-20T06:20:49Z","opener":"54666"},
-      "8662": {"comments":1,"words":73,"pr":true,"opened":"2016-09-20T07:50:33Z","opener":"2352663"},
-      "open": 839,
-      "words": 1542,
-      "comments": 30,
-      "opened": 5,
+      "8662": {"comments":2,"words":75,"pr":true,"opened":"2016-09-20T07:50:33Z","opener":"2352663"},
+      "8663": {"comments":0,"words":129,"opened":"2016-09-20T08:13:39Z","opener":"22315535","pr":true},
+      "8664": {"comments":1,"words":5583,"opened":"2016-09-20T08:23:57Z","opener":"12021159","pr":true},
+      "open": 841,
+      "words": 7278,
+      "comments": 33,
+      "opened": 7,
       "closed": 3
     },
     "node-addon-examples": {"open":28},
@@ -110,11 +121,12 @@
     "node-convergence-archive": {"open":6},
     "node-eps": {"open":20},
     "node-gyp": {
-      "1025": {"comments":7,"words":175,"opened":"2016-09-20T06:56:58Z","opener":"8051577","pr":true},
-      "open": 229,
-      "words": 175,
+      "1025": {"comments":8,"words":253,"opened":"2016-09-20T06:56:58Z","opener":"8051577","pr":true,"closed":"","closer":"8051577"},
+      "open": 228,
+      "words": 253,
       "opened": 1,
-      "comments": 7
+      "comments": 8,
+      "closed": 1
     },
     "node-v0.x-archive": {"open":611},
     "nodejs-ar": {"open":1},
@@ -184,6 +196,16 @@
     "vm": {"open":2}
   },
   "users": {
+    "579": {
+      "id": "579",
+      "login": "mikeal",
+      "words": {
+        "installer/issues/4": 0
+      },
+      "closed": [
+        "installer/issues/4"
+      ]
+    },
     "2781": {
       "id": "2781",
       "login": "chorrell",
@@ -207,7 +229,8 @@
         "node/pulls/8655#79542897": 1,
         "node/pulls/8655#248213490": 4,
         "node/pulls/8658#248218773": 70,
-        "node/pulls/8662#248231280": 7
+        "node/pulls/8662#248231280": 7,
+        "node/pulls/8664#248244446": 16
       },
       "opened": [
         "node/pulls/8658",
@@ -302,6 +325,16 @@
         "build/issues/495"
       ]
     },
+    "914122": {
+      "id": "914122",
+      "login": "martinheidegger",
+      "words": {
+        "education/issues/10": 132
+      },
+      "opened": [
+        "education/issues/10"
+      ]
+    },
     "1211498": {
       "id": "1211498",
       "login": "AdamMajer",
@@ -334,13 +367,22 @@
         "node/pulls/8572#248174699": 5
       }
     },
+    "1981088": {
+      "id": "1981088",
+      "login": "hackygolucky",
+      "words": {
+        "education/pulls/10#248240537": 38,
+        "education/pulls/2#248243082": 91
+      }
+    },
     "2352663": {
       "id": "2352663",
       "login": "targos",
       "words": {
         "node/pulls/8633#248228587": 3,
         "node/pulls/8633": 52,
-        "node/pulls/8662": 66
+        "node/pulls/8662": 66,
+        "node/pulls/8662#248237807": 2
       },
       "closed": [
         "node/pulls/8633"
@@ -381,6 +423,13 @@
         "node/pulls/8655#79534678": 6
       }
     },
+    "6604151": {
+      "id": "6604151",
+      "login": "johanbrandhorst",
+      "words": {
+        "node/pulls/8571#248233675": 22
+      }
+    },
     "8051577": {
       "id": "8051577",
       "login": "sumarouno",
@@ -389,9 +438,13 @@
         "node-gyp/pulls/1025#248220869": 15,
         "node-gyp/pulls/1025#248223269": 7,
         "node-gyp/pulls/1025#248224716": 27,
-        "node-gyp/pulls/1025#248228694": 28
+        "node-gyp/pulls/1025#248228694": 28,
+        "node-gyp/pulls/1025#248232727": 47
       },
       "opened": [
+        "node-gyp/issues/1025"
+      ],
+      "closed": [
         "node-gyp/issues/1025"
       ]
     },
@@ -402,12 +455,32 @@
         "nodejs.org/pulls/888#248210378": 10
       }
     },
+    "12021159": {
+      "id": "12021159",
+      "login": "AhmedFathieg",
+      "words": {
+        "node/issues/8664": 5567
+      },
+      "opened": [
+        "node/issues/8664"
+      ]
+    },
     "16150723": {
       "id": "16150723",
       "login": "kkorada",
       "words": {
         "node/pulls/8653#248222151": 2
       }
+    },
+    "22315535": {
+      "id": "22315535",
+      "login": "vaidyaanand",
+      "words": {
+        "node/issues/8663": 129
+      },
+      "opened": [
+        "node/issues/8663"
+      ]
     }
   }
 }
