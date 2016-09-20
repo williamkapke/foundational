@@ -1331,7 +1331,7 @@
 8261	439929	true	closed	false	11		2016-08-24T21:01:41Z	2016-09-02T12:55:58Z	2016-09-01T14:15:37Z	test: refactor/cleanup a number of cluster tests	68		
 8263	4256376	true	closed	false	2	0	2016-08-24T22:07:47Z	2016-08-24T23:56:14Z	2016-08-24T23:56:14Z	"doc: Added missing e to ""timeout"""	46		
 8264	287917	true	open	false	6		2016-08-24T23:46:45Z	2016-08-31T16:11:58Z		inspector: Make sure all messages are dispatched	55		
-8265	718899	false	open	false	14		2016-08-25T00:17:00Z	2016-09-07T11:42:40Z		Process for determining supported platforms	124		
+8265	718899	false	open	false	16		2016-08-25T00:17:00Z	2016-09-20T21:09:03Z		Process for determining supported platforms	124		
 8266	275871	false	closed	false	5		2016-08-25T08:33:26Z	2016-09-08T21:34:51Z	2016-09-08T21:34:51Z	buffer: zero-sized slices have .buffer but not .parent	51		
 8267	10029810	false	open	false	0		2016-08-25T12:20:58Z	2016-08-25T12:20:58Z		SyntaxError: Octal literals are not allowed in strict mode.	113		
 8268	6802696	false	closed	false	3		2016-08-25T14:18:13Z	2016-08-26T19:38:57Z	2016-08-26T19:38:57Z	nodejs install but not runing	87		
@@ -1573,12 +1573,12 @@
 8504	1622515	true	open	false	0	0	2016-09-12T21:51:58Z	2016-09-12T21:51:58Z		[WIP] repl: Proposal for better repl (implementation) 	201		
 8505	287917	true	open	false	5		2016-09-12T21:53:41Z	2016-09-17T10:21:31Z		inspector: wait for both sides closing	65		
 8506	718899	false	open	false	11		2016-09-13T00:00:00Z	2016-09-15T17:51:26Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-09-14	450		
-8507	1466123	false	open	false	0		2016-09-13T00:46:51Z	2016-09-13T05:45:39Z		zlib: invalid distance too far back on `inflateRaw` with custom dictionary	145		
+8507	1466123	false	closed	false	1		2016-09-13T00:46:51Z	2016-09-20T21:10:34Z	2016-09-20T21:10:34Z	zlib: invalid distance too far back on `inflateRaw` with custom dictionary	145		
 8508	6354455	false	open	false	0		2016-09-13T02:11:25Z	2016-09-13T02:11:25Z		readline doc: events are _not_ supported on Windows.	45		
 8509	3320742	false	open	false	5		2016-09-13T02:17:53Z	2016-09-15T23:15:40Z		Configuration option to permanently turn on --preserve-symlinks	110		
 8510	10680833	true	closed	false	13		2016-09-13T03:07:50Z	2016-09-17T12:46:31Z	2016-09-17T08:53:42Z	Fixes an issue where Buffer.from was not supporting SharedArrayBuffer	72		
 8511	718899	false	open	false	0		2016-09-13T04:21:25Z	2016-09-13T04:21:25Z		Investigate flaky test-fs-watch-recursive on OS X	10		
-8512	1466123	true	open	false	8		2016-09-13T05:54:45Z	2016-09-20T19:03:10Z		zlib: fix raw inflate with custom dictionary	74		
+8512	1466123	true	closed	false	10		2016-09-13T05:54:45Z	2016-09-20T21:10:47Z	2016-09-20T21:10:47Z	zlib: fix raw inflate with custom dictionary	74		
 8513	1057486	false	closed	false	2		2016-09-13T08:38:35Z	2016-09-13T15:46:09Z	2016-09-13T10:44:54Z	Expose V8's JavaScript parser API as an part of standard library?	92		
 8514	21603	true	closed	false	11		2016-09-13T10:43:59Z	2016-09-18T12:30:58Z	2016-09-18T12:30:58Z	tls: add 'new' keyword for Array constructor call	50		
 8515	899444	true	closed	false	14	4	2016-09-13T11:53:56Z	2016-09-19T12:59:41Z	2016-09-19T12:59:40Z	fs: fix handling of `struct stat` fields	139		
@@ -1666,7 +1666,7 @@
 8597	20119184	true	open	false	0		2016-09-17T09:36:32Z	2016-09-20T17:11:45Z		test: refactor test-crypto test files	43		
 8598	8742251	true	open	false	6		2016-09-17T09:39:33Z	2016-09-20T16:14:23Z		test: cleanup test-cluster-disconnect-unshared-tcp	28		
 8599	1852796	true	open	false	2		2016-09-17T09:40:24Z	2016-09-20T18:20:29Z		test: update var to const	27		
-8600	125466	true	open	false	3		2016-09-17T09:42:05Z	2016-09-20T21:00:23Z		test:parallel: cleanup test-child-process-exec-env	43		
+8600	125466	true	open	false	3		2016-09-17T09:42:05Z	2016-09-20T21:05:30Z		test:parallel: cleanup test-child-process-exec-env	43		
 8601	965671	true	open	false	8		2016-09-17T09:47:08Z	2016-09-20T18:45:32Z		Raise a warning when listening for usafe signals	58		
 8602	515269	true	open	false	3		2016-09-17T09:49:07Z	2016-09-20T10:25:55Z		test: modernize JS and tighten equality checking	44		
 8603	3963377	true	open	false			2016-09-17T09:49:28Z	2016-09-20T17:31:58Z		fix-test-assert.js: use const, let, strictEqual	43		
@@ -1727,14 +1727,15 @@
 8658	54666	true	open	false			2016-09-20T00:16:22Z	2016-09-20T11:06:22Z		src: return static buffer on malloc(0)	74		
 8659	54666	false	open	false	0		2016-09-20T00:34:22Z	2016-09-20T00:34:22Z		Feature request: benchmark runner progress indicator	96		
 8660	291301	true	closed	false	1	0	2016-09-20T04:12:52Z	2016-09-20T13:15:09Z	2016-09-20T13:15:09Z	tools: clean up icu/README.md formatting	57	291301	2016-09-20T13:15:09Z
-8661	54666	true	open	false			2016-09-20T06:20:49Z	2016-09-20T20:08:17Z		timers: improve setTimeout/Interval performance	70		
+8661	54666	true	open	false			2016-09-20T06:20:49Z	2016-09-20T21:11:30Z		timers: improve setTimeout/Interval performance	70		
 8662	2352663	true	open	false	5		2016-09-20T07:50:33Z	2016-09-20T16:39:06Z		test: add expectDeprecationWarning to common	66		
 8663	22315535	false	open	false	5		2016-09-20T08:13:39Z	2016-09-20T12:09:05Z		Node.js setup wizard ended prematurely	129		
 8664	12021159	false	closed	false	2		2016-09-20T08:23:57Z	2016-09-20T16:15:31Z	2016-09-20T16:15:31Z	windows npm install errors	5569		
 8665	1443911	true	open	false	0	0	2016-09-20T10:25:56Z	2016-09-20T10:25:56Z		dns: tweak regex for IPv6 addresses	82		
 8666	291301	true	open	false	0	0	2016-09-20T13:38:28Z	2016-09-20T13:38:28Z		tools: update remark configuration	162		
 8667	20224954	false	open	false	0		2016-09-20T14:03:48Z	2016-09-20T14:03:48Z		win: gc/test-http-client-onerror.js failure in v6.6.0	142		
-8668	6354455	true	open	false			2016-09-20T17:59:02Z	2016-09-20T21:00:03Z		test: cleanup stream tests	41		
-8669	54666	false	open	false	0		2016-09-20T18:05:25Z	2016-09-20T18:05:25Z		Investigate flaky inspector/test-inspector	118		
+8668	6354455	true	open	false			2016-09-20T17:59:02Z	2016-09-20T21:22:47Z		test: cleanup stream tests	41		
+8669	54666	false	open	false	4		2016-09-20T18:05:25Z	2016-09-20T21:32:48Z		Investigate flaky inspector/test-inspector	118		
 8670	21145776	false	open	false	2		2016-09-20T19:25:32Z	2016-09-20T20:18:34Z		Garbage collection causes bad performance 	322		
 8671	961599	false	open	false	0		2016-09-20T20:44:14Z	2016-09-20T20:44:14Z		The debug build (node_g) is difficult to install	53		
+8672	287917	true	open	false	0	0	2016-09-20T21:07:12Z	2016-09-20T21:07:13Z		inspector: address race condition	65		
