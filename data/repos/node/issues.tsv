@@ -29,7 +29,7 @@
 1690	10612009	false	closed	false	7		2015-05-13T08:56:13Z	2016-07-07T20:40:26Z	2016-07-07T20:40:26Z	[dgram]no udp multicast message received when binding on a specific address	278		
 1692	10612009	false	closed	false	3		2015-05-13T10:29:17Z	2016-07-10T15:58:44Z	2016-07-10T15:58:44Z	[dgram]socket.addMembership() does not add membership to every interface	179		
 1704	579	false	open	false	38		2015-05-14T16:49:52Z	2016-08-09T20:43:31Z		Deprecation Policy	79		
-1716	1162160	false	closed	false	22		2015-05-16T17:56:53Z	2016-09-20T12:03:54Z	2016-03-22T19:06:10Z	Implement console.group	90		
+1716	1162160	false	open	false	22		2015-05-16T17:56:53Z	2016-09-20T15:42:26Z		Implement console.group	90		
 1741	11692818	false	open	false	18		2015-05-20T08:57:29Z	2016-08-10T14:06:26Z		Why does node/io.js hang when printing to the console inside a loop?	155		
 1765	900690	false	closed	false	9		2015-05-22T09:03:01Z	2016-07-06T06:54:28Z	2016-07-06T06:54:28Z	Windows: fs.realpathSync() adds trailing slash for windows share	68		
 1788	1309053	false	open	false	13		2015-05-24T23:32:23Z	2016-06-27T14:45:36Z		Debug process didn't close after finish debugging	103		
@@ -880,7 +880,7 @@
 7809	495647	false	closed	false	4		2016-07-20T12:18:37Z	2016-08-05T22:02:22Z	2016-08-05T22:02:22Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-07-20	479		
 7810	439929	true	closed	false	10		2016-07-20T15:29:54Z	2016-07-25T13:53:02Z	2016-07-25T13:53:02Z	doc: clarify that the node.js irc channel is not under tsc oversight	71		
 7811	2512748	true	closed	false	6		2016-07-20T16:55:28Z	2016-07-22T16:02:10Z	2016-07-22T16:02:10Z	child_process: support stdio option in fork()	80		
-7812	15943089	false	open	false	1		2016-07-20T17:04:01Z	2016-07-20T19:04:52Z		Possible memory leak in test addons tested with Valgrind	1338		
+7812	15943089	false	closed	false	2		2016-07-20T17:04:01Z	2016-09-20T15:52:46Z	2016-07-20T19:32:43Z	Possible memory leak in test addons tested with Valgrind	1338		
 7813	718899	true	open	false	18		2016-07-20T22:28:30Z	2016-07-28T21:27:03Z		doc: add information about CTC quorum rules	49		
 7814	79017	true	open	false	5		2016-07-21T00:47:02Z	2016-07-29T17:43:16Z		deps: backport 2bcbe2f from V8 upstream	82		
 7815	54666	true	open	false	0	0	2016-07-21T05:15:15Z	2016-07-21T05:15:15Z		Doc improve assert	50		
@@ -1222,7 +1222,7 @@
 8152	718899	true	closed	false	5		2016-08-18T00:02:11Z	2016-08-19T23:51:58Z	2016-08-19T23:51:58Z	test: add missing assert.deepEqual() test case	84		
 8153	8503065	false	open	false	1		2016-08-18T00:37:22Z	2016-08-18T03:36:32Z		Update _stream_readable.js to  delete invalid parameter.	7		
 8154	899444	true	closed	false	9		2016-08-18T02:02:18Z	2016-08-22T21:21:24Z	2016-08-22T21:21:24Z	buffer: allow .write() offset to be at buffer end	57		
-8155	8052307	false	open	false	21		2016-08-18T05:06:48Z	2016-09-20T12:53:26Z		assertion when attaching the Chrome dev tools	67		
+8155	8052307	false	open	false	23		2016-08-18T05:06:48Z	2016-09-20T15:51:17Z		assertion when attaching the Chrome dev tools	67		
 8156	718899	true	closed	false	6	2	2016-08-18T05:43:54Z	2016-08-20T04:48:09Z	2016-08-20T04:48:09Z	test: add assert.notDeepEqual() tests	49		
 8157	505333	false	open	false	7		2016-08-18T12:02:37Z	2016-08-23T10:09:15Z		benchmark jenkins job?	165		
 8158	1404810	true	open	false	4		2016-08-18T12:42:22Z	2016-08-22T09:38:10Z		doc: correct argument type for process.cpuUsage	32		
@@ -1664,8 +1664,8 @@
 8595	1852796	true	open	false	0	0	2016-09-17T09:33:10Z	2016-09-17T09:33:10Z		test: update var to const, use arrow functions	35		
 8596	1177098	true	open	false			2016-09-17T09:36:25Z	2016-09-17T22:08:56Z		test: update equal to strictEqual & function to arrow function	47		
 8597	20119184	true	open	false	0	0	2016-09-17T09:36:32Z	2016-09-17T09:36:32Z		test: refactor test-crypto test files	43		
-8598	8742251	true	open	false	1		2016-09-17T09:39:33Z	2016-09-20T11:06:01Z		test: update var to const	28		
-8599	1852796	true	open	false	1		2016-09-17T09:40:24Z	2016-09-17T21:20:45Z		test: update var to const	27		
+8598	8742251	true	open	false	3		2016-09-17T09:39:33Z	2016-09-20T15:55:52Z		test: cleanup test-cluster-disconnect-unshared-tcp	28		
+8599	1852796	true	open	false	2		2016-09-17T09:40:24Z	2016-09-20T15:58:07Z		test: update var to const	27		
 8600	125466	true	open	false			2016-09-17T09:42:05Z	2016-09-18T08:45:28Z		test:parallel: cleanup test-child-process-exec-env	43		
 8601	965671	true	open	false	6		2016-09-17T09:47:08Z	2016-09-19T21:53:59Z		Raise a warning when listening for usafe signals	58		
 8602	515269	true	open	false	3		2016-09-17T09:49:07Z	2016-09-20T10:25:55Z		test: modernize JS and tighten equality checking	44		
@@ -1715,8 +1715,8 @@
 8646	52195	false	open	false	1		2016-09-18T11:37:12Z	2016-09-18T18:59:25Z		doc: guide/topic on how to use streams	111		
 8647	1898870	true	open	false	6		2016-09-18T12:40:14Z	2016-09-19T16:36:05Z		https: fix memory leak with https.request()	124		
 8648	2764625	true	open	false			2016-09-18T13:27:33Z	2016-09-18T14:08:00Z		test: update test-child-process-recv-handle	54		
-8649	2512748	true	open	false	7		2016-09-18T17:10:43Z	2016-09-20T12:35:33Z		src: handle thrown errors in CopyProperties()	53		
-8650	354641	false	open	false	6		2016-09-18T19:16:11Z	2016-09-19T19:15:08Z		Uncaught TypeError using http.Agent in keep-alive mode	284		
+8649	2512748	true	open	false	8		2016-09-18T17:10:43Z	2016-09-20T15:50:22Z		src: handle thrown errors in CopyProperties()	53		
+8650	354641	false	open	false	7		2016-09-18T19:16:11Z	2016-09-20T15:49:48Z		Uncaught TypeError using http.Agent in keep-alive mode	284		
 8651	2763135	true	open	false			2016-09-18T20:03:48Z	2016-09-19T12:03:51Z		doc: clarify fs.utimes() arguments	43		
 8652	718899	true	open	false	10		2016-09-19T01:28:41Z	2016-09-19T07:10:29Z		test: skip cpu-intensive tests on slow hosts	72		
 8653	16150723	false	closed	false	2		2016-09-19T07:02:58Z	2016-09-20T07:13:54Z	2016-09-19T07:26:49Z	chmodSync is not recursive	39		
@@ -1727,7 +1727,7 @@
 8658	54666	true	open	false			2016-09-20T00:16:22Z	2016-09-20T11:06:22Z		src: return static buffer on malloc(0)	74		
 8659	54666	false	open	false	0		2016-09-20T00:34:22Z	2016-09-20T00:34:22Z		Feature request: benchmark runner progress indicator	96		
 8660	291301	true	closed	false	1	0	2016-09-20T04:12:52Z	2016-09-20T13:15:09Z	2016-09-20T13:15:09Z	tools: clean up icu/README.md formatting	57	291301	2016-09-20T13:15:09Z
-8661	54666	true	open	false			2016-09-20T06:20:49Z	2016-09-20T14:45:38Z		timers: improve setTimeout/Interval performance	70		
+8661	54666	true	open	false			2016-09-20T06:20:49Z	2016-09-20T15:53:05Z		timers: improve setTimeout/Interval performance	70		
 8662	2352663	true	open	false	5		2016-09-20T07:50:33Z	2016-09-20T11:33:15Z		test: add expectDeprecationWarning to common	66		
 8663	22315535	false	open	false	5		2016-09-20T08:13:39Z	2016-09-20T12:09:05Z		Node.js setup wizard ended prematurely	129		
 8664	12021159	false	open	false	0		2016-09-20T08:23:57Z	2016-09-20T08:23:57Z		windows npm install errors	5567		
