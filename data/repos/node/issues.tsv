@@ -17,7 +17,7 @@
 854	172	false	open	false	67		2015-02-15T19:37:43Z	2016-09-03T09:46:48Z		os x: FSEventStreamFlushSync assertions logged to console	100		
 855	617481	false	open	false	16		2015-02-15T21:57:32Z	2016-08-11T16:02:47Z		vm: references to context inside objects are not === the original context	58		
 862	17607	false	closed	false	8		2015-02-17T05:55:09Z	2016-09-07T13:55:17Z	2015-05-06T21:14:16Z	spawn's stdio can result in stderr being closed in child	158		
-983	6731985	false	open	false	15		2015-02-27T03:19:51Z	2016-09-18T09:06:26Z		Tab completion for block-scoped variables doesn't work in REPL	60		
+983	6731985	false	open	false	17		2015-02-27T03:19:51Z	2016-09-20T10:37:18Z		Tab completion for block-scoped variables doesn't work in REPL	60		
 1128	36662	false	open	false	17		2015-03-11T22:48:11Z	2016-08-29T14:15:29Z		feature request: a way to inspect what's in the event loop	137		
 1271	275871	false	open	false	11		2015-03-26T15:30:40Z	2016-09-17T21:21:22Z		timer,domain: timers don't maintain order after exception	62		
 1278	532414	false	closed	false	37		2015-03-26T19:55:14Z	2016-08-22T21:08:42Z	2016-02-12T21:20:04Z	Compressed packages	136		
@@ -1651,7 +1651,7 @@
 8583	1267623	true	closed	false	1	0	2016-09-17T08:58:59Z	2016-09-17T10:34:58Z	2016-09-17T10:34:58Z	test: cleanup test-http-agent-destroyed-socket	54		
 8584	10002753	true	open	false			2016-09-17T09:04:20Z	2016-09-18T08:03:46Z		test: cleanup test-child-process-stdio.js	87		
 8585	3909302	true	open	false	2		2016-09-17T09:11:28Z	2016-09-18T09:10:51Z		doc: add example for file existence with fs.stat	55		
-8586	4981813	true	open	false	6		2016-09-17T09:12:45Z	2016-09-19T21:08:44Z		test: improve test-net-server-address.js	44		
+8586	4981813	true	open	false	8		2016-09-17T09:12:45Z	2016-09-20T10:22:55Z		test: improve test-net-server-address.js	44		
 8587	555645	true	open	false	7		2016-09-17T09:16:14Z	2016-09-19T17:31:44Z		util: Add format for SharedArrayBuffer	77		
 8588	2361826	true	open	false	0	0	2016-09-17T09:18:51Z	2016-09-17T09:18:51Z		internal: changed var to const in bootstrap_node.js	57		
 8589	6439292	false	open	false	0		2016-09-17T09:20:37Z	2016-09-17T09:20:37Z		Three c++ test errors	400		
@@ -1667,7 +1667,7 @@
 8599	1852796	true	open	false	1		2016-09-17T09:40:24Z	2016-09-17T21:20:45Z		test: update var to const	27		
 8600	125466	true	open	false			2016-09-17T09:42:05Z	2016-09-18T08:45:28Z		test:parallel: cleanup test-child-process-exec-env	43		
 8601	965671	true	open	false	6		2016-09-17T09:47:08Z	2016-09-19T21:53:59Z		Raise a warning when listening for usafe signals	58		
-8602	515269	true	open	false	1		2016-09-17T09:49:07Z	2016-09-19T20:41:39Z		test: modernize JS and tighten equality checking	44		
+8602	515269	true	open	false	3		2016-09-17T09:49:07Z	2016-09-20T10:25:55Z		test: modernize JS and tighten equality checking	44		
 8603	3963377	true	open	false			2016-09-17T09:49:28Z	2016-09-17T22:13:58Z		fix-test-assert.js: use const, let, strictEqual	43		
 8604	2361826	true	open	false			2016-09-17T09:50:26Z	2016-09-17T14:20:06Z		internal: change var to const in internal/child_process.js	39		
 8605	147788	true	open	false			2016-09-17T09:51:21Z	2016-09-17T17:42:35Z		test: replace var with const and add mustCall cb	63		
@@ -1686,7 +1686,7 @@
 8618	515269	true	open	false	0		2016-09-17T10:53:08Z	2016-09-19T07:29:25Z		test: modernize JS and tighten equality checking in test-child-process-cwd	48		
 8619	2361826	true	open	false	0		2016-09-17T10:55:57Z	2016-09-18T07:43:43Z		internal: changed var to const in internal/v8_prof_processor	37		
 8620	2361826	true	open	false	2		2016-09-17T11:00:45Z	2016-09-18T13:20:50Z		process: changed var to const in internal/process/promises	37		
-8621	35870	true	open	false	5		2016-09-17T11:04:08Z	2016-09-19T21:02:58Z		test: minor replace var by const	36		
+8621	35870	true	open	false	6		2016-09-17T11:04:08Z	2016-09-20T10:21:10Z		test: minor replace var by const	37		
 8622	1116738	true	open	false	7		2016-09-17T11:10:43Z	2016-09-19T03:20:28Z		Add Eslint rule prefer-assert-methods	99		
 8623	147788	true	open	false			2016-09-17T11:39:30Z	2016-09-17T17:15:48Z		test: assert was never checked	92		
 8624	181076	true	open	false			2016-09-17T11:52:13Z	2016-09-17T17:16:33Z		crypto: fix default encoding of LazyTransform [2]	64		
@@ -1706,8 +1706,8 @@
 8638	16693844	false	open	false	0		2016-09-17T18:33:21Z	2016-09-17T18:33:21Z		fs.utimes arguments documentation	159		
 8639	2999209	false	closed	false	1		2016-09-17T18:58:16Z	2016-09-18T09:11:45Z	2016-09-18T09:11:44Z	The installation script doesn't work correctly on Ubuntu 16.04 LTS. When the user intends to install v6, v4 is actually installed.	89		
 8640	10355544	true	open	false	3		2016-09-17T22:14:47Z	2016-09-18T20:34:46Z		Update test-tcp-wrap-listen.js with strictEqual and ES6 syntax	65		
-8641	1310155	true	open	false	7		2016-09-18T02:36:43Z	2016-09-19T21:16:35Z		test: refactored test-intl	47		
-8642	718899	true	open	false	1		2016-09-18T04:00:41Z	2016-09-18T04:01:54Z		tools: make argument alignment linting more strict	82		
+8641	1310155	true	open	false	9		2016-09-18T02:36:43Z	2016-09-20T11:00:10Z		test: refactored test-intl	47		
+8642	718899	true	open	false	3		2016-09-18T04:00:41Z	2016-09-20T10:57:11Z		tools: make argument alignment linting more strict	82		
 8643	11638619	true	open	false	1		2016-09-18T05:58:34Z	2016-09-18T13:35:06Z		tools: add additional ESLint rules	183		
 8644	52195	false	open	false	2		2016-09-18T08:49:25Z	2016-09-19T08:17:19Z		stream, test: Increase the coverage of _readableState and _writableState properties	186		
 8645	899444	true	open	false	1		2016-09-18T09:25:48Z	2016-09-18T12:34:53Z		"Revert ""repl: disable Ctrl+C support on win32 for now"""	64		
@@ -1723,10 +1723,11 @@
 8655	54666	true	open	false			2016-09-19T17:44:41Z	2016-09-20T06:26:07Z		timers: improve setImmediate() performance	74		
 8656	718899	false	open	false	6		2016-09-19T21:41:35Z	2016-09-20T05:04:44Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-09-21	450		
 8657	287917	true	open	false	0	0	2016-09-19T23:54:10Z	2016-09-19T23:54:10Z		inspector: wait longer on shutdown	49		
-8658	54666	true	open	false	1		2016-09-20T00:16:22Z	2016-09-20T06:47:22Z		src: return static buffer on malloc(0)	74		
+8658	54666	true	open	false			2016-09-20T00:16:22Z	2016-09-20T10:26:21Z		src: return static buffer on malloc(0)	74		
 8659	54666	false	open	false	0		2016-09-20T00:34:22Z	2016-09-20T00:34:22Z		Feature request: benchmark runner progress indicator	96		
 8660	291301	true	open	false	0		2016-09-20T04:12:52Z	2016-09-20T05:08:15Z		tools: clean up icu/README.md formatting	57		
-8661	54666	true	open	false	0	0	2016-09-20T06:20:49Z	2016-09-20T06:20:49Z		timers: improve setTimeout/Interval performance	70		
-8662	2352663	true	open	false	2		2016-09-20T07:50:33Z	2016-09-20T08:29:25Z		test: add expectDeprecationWarning to common	66		
-8663	22315535	false	open	false	1		2016-09-20T08:13:39Z	2016-09-20T09:59:21Z		Node.js setup wizard ended prematurely	129		
+8661	54666	true	open	false			2016-09-20T06:20:49Z	2016-09-20T10:40:44Z		timers: improve setTimeout/Interval performance	70		
+8662	2352663	true	open	false	2		2016-09-20T07:50:33Z	2016-09-20T10:48:56Z		test: add expectDeprecationWarning to common	66		
+8663	22315535	false	open	false	1		2016-09-20T08:13:39Z	2016-09-20T10:37:32Z		Node.js setup wizard ended prematurely	129		
 8664	12021159	false	open	false	0		2016-09-20T08:23:57Z	2016-09-20T08:23:57Z		windows npm install errors	5567		
+8665	1443911	true	open	false	0	0	2016-09-20T10:25:56Z	2016-09-20T10:25:56Z		dns: tweak regex for IPv6 addresses	82		
