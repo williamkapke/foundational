@@ -65,6 +65,7 @@
 2833	1211152	false	closed	false	29		2015-09-12T14:09:10Z	2016-07-29T19:13:35Z	2016-03-09T09:20:02Z	Node.js `crypto` and the WebCrypto API	150		
 2842	692511	false	open	false	7		2015-09-12T21:54:12Z	2016-09-20T23:44:09Z		Exclude the `Trailer` header from 304 responses?	86		
 2848	1348991	false	open	false	37		2015-09-13T21:27:01Z	2016-08-06T12:42:16Z		Add dns.resolve that returns all results	45		
+2860	10118693	false	closed	false	9		2015-09-14T17:07:52Z	2016-09-21T09:54:30Z	2015-11-20T21:42:06Z	Error stack gives incorrect column number	139		
 2883	126482	true	open	false	4		2015-09-15T17:33:30Z	2016-06-29T12:07:18Z		Makefile: use existing variable to reduce complexity	2		
 2933	643505	false	closed	false	34		2015-09-17T18:33:07Z	2016-08-23T23:58:44Z	2015-09-17T18:35:56Z	XCode 7: library not found for -lgcc_s.10.5	307		
 2982	170023	true	open	false	7		2015-09-21T14:10:33Z	2016-07-01T16:26:45Z		readline: add option to stop duplicates in history	161		
@@ -139,7 +140,7 @@
 4528	677994	true	open	false	14		2016-01-04T12:26:41Z	2016-08-09T20:26:39Z		http: make path null in Agent#createSocket	34		
 4629	1084056	true	closed	false	25	0	2016-01-11T21:36:45Z	2016-09-01T17:30:50Z	2016-09-01T17:30:50Z	test: fix `fs-watch-recursive` flakiness	47	1084056	2016-09-01T17:30:50Z
 4630	10704816	true	closed	false	13	1	2016-01-11T22:32:27Z	2016-06-29T14:12:03Z	2016-06-29T14:12:03Z	tools: add missing headers	16		
-4640	718899	false	open	false	25		2016-01-12T05:33:04Z	2016-09-21T08:59:14Z		TODO/XXX/FIXME comments in tests	434		
+4640	718899	false	open	false	25		2016-01-12T05:33:04Z	2016-09-21T09:03:31Z		TODO/XXX/FIXME comments in tests	434		
 4646	1731633	false	closed	false	5		2016-01-12T12:07:41Z	2016-08-29T22:33:43Z	2016-08-29T22:33:43Z	http listen method is possible to be called twice with no error	68		
 4647	52195	true	closed	false	31		2016-01-12T12:24:07Z	2016-07-13T15:16:29Z	2016-07-13T14:12:16Z	win,msi: Added Italian translation	38		
 4669	5559820	true	open	false	11		2016-01-13T14:46:53Z	2016-09-16T23:31:05Z		lib: fix basename comparison on windows	36		
@@ -1730,7 +1731,7 @@
 8658	54666	true	closed	false	8	4	2016-09-20T00:16:22Z	2016-09-20T23:06:22Z	2016-09-20T23:06:22Z	src: return static buffer on malloc(0)	74		
 8659	54666	false	open	false	0		2016-09-20T00:34:22Z	2016-09-20T00:34:22Z		Feature request: benchmark runner progress indicator	96		
 8660	291301	true	closed	false	1	0	2016-09-20T04:12:52Z	2016-09-20T13:15:09Z	2016-09-20T13:15:09Z	tools: clean up icu/README.md formatting	57	291301	2016-09-20T13:15:09Z
-8661	54666	true	open	false			2016-09-20T06:20:49Z	2016-09-21T06:37:16Z		timers: improve setTimeout/Interval performance	70		
+8661	54666	true	open	false	2		2016-09-20T06:20:49Z	2016-09-21T09:07:56Z		timers: improve setTimeout/Interval performance	70		
 8662	2352663	true	open	false	5		2016-09-20T07:50:33Z	2016-09-20T16:39:06Z		test: add expectDeprecationWarning to common	66		
 8663	22315535	false	open	false	7		2016-09-20T08:13:39Z	2016-09-21T07:24:24Z		Node.js setup wizard ended prematurely	129		
 8664	12021159	false	closed	false	2		2016-09-20T08:23:57Z	2016-09-20T16:15:31Z	2016-09-20T16:15:31Z	windows npm install errors	5569		
@@ -1750,7 +1751,7 @@
 8678	718899	true	open	false	1		2016-09-21T03:35:04Z	2016-09-21T04:31:53Z		doc: standardize on `make -j8`	60		
 8679	5140822	true	open	false	2		2016-09-21T03:44:22Z	2016-09-21T07:14:26Z		Removes call to `net.Socket.resume`	43		
 8680	27926	true	open	false			2016-09-21T03:48:55Z	2016-09-21T04:01:40Z		Benchmark: add destructuring object	250		
-8681	15519676	false	open	false	0		2016-09-21T05:47:15Z	2016-09-21T05:47:15Z		Error: Tunneling Socket could not be established, status code=407, code= ECONNRESET	189		
+8681	15519676	false	closed	false	1		2016-09-21T05:47:15Z	2016-09-21T09:04:08Z	2016-09-21T09:04:08Z	Error: Tunneling Socket could not be established, status code=407, code= ECONNRESET	191		
 8682	1456821	true	open	false			2016-09-21T07:14:13Z	2016-09-21T08:14:35Z		test: Add tests for add/remove header after sent.	48		
 8683	52195	false	open	false	0		2016-09-21T07:18:50Z	2016-09-21T07:18:50Z		stream, test: add tests for 'readable' state machine	63		
 8684	52195	false	open	false	0		2016-09-21T07:23:46Z	2016-09-21T07:23:46Z		stream, test: add tests for _readableStream.awaitDrain	18		
@@ -1759,4 +1760,6 @@
 8687	52195	false	open	false	0		2016-09-21T07:35:35Z	2016-09-21T07:35:35Z		stream, test: Add test for _writableState clearBuffer state machine	26		
 8688	13503628	false	open	false	0		2016-09-21T08:23:19Z	2016-09-21T08:23:19Z		 npm 命令出错 Error: EEXIST: file already exists, mkdir 'C:\Program Files\nodejs\npm'     at Error (native) 3.10.3	31		
 8689	5140822	true	open	false	0	0	2016-09-21T08:35:07Z	2016-09-21T08:35:07Z		Removes FIXME	42		
-8690	1336186	false	open	false	0		2016-09-21T08:52:29Z	2016-09-21T08:52:29Z		cannot debug node child process (using node native debugger)	150		
+8690	1336186	false	closed	false	1		2016-09-21T08:52:29Z	2016-09-21T09:01:39Z	2016-09-21T09:01:39Z	cannot debug node child process (using node native debugger)	150		
+8691	5140822	false	open	false	0		2016-09-21T09:16:45Z	2016-09-21T09:16:45Z		Punycode fails for Russian(Cyrillic)	52		
+8692	2816034	false	open	false	0		2016-09-21T09:59:59Z	2016-09-21T09:59:59Z		Possible to build a 64 bit addon on a 32 bit distro	104		
