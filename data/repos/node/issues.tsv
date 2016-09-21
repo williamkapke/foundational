@@ -130,7 +130,7 @@
 4266	1470592	false	open	false	13		2015-12-14T00:40:39Z	2016-08-19T14:06:13Z		buffer.toString fails for buffers larger than 192MB	95		
 4270	495647	false	open	false	21		2015-12-14T10:06:18Z	2016-09-11T12:22:26Z		Discussion: OpenSSL 1.1.0 planning	297		
 4307	12825770	false	closed	false	11		2015-12-16T08:16:14Z	2016-07-11T09:25:48Z	2016-07-11T09:25:48Z	can not step in constructor, will will terminate node.exe	90		
-4329	16335744	false	closed	false	14		2015-12-17T11:41:17Z	2016-07-21T14:42:10Z	2016-01-15T10:53:49Z	node.js Setup Wizard ended prematurely	43		
+4329	16335744	false	closed	false	15		2015-12-17T11:41:17Z	2016-09-21T11:55:59Z	2016-01-15T10:53:49Z	node.js Setup Wizard ended prematurely	43		
 4351	1424946	false	open	false	8		2015-12-19T06:03:34Z	2016-09-13T16:40:03Z		fs.watch file matching is one character off in windows	43		
 4394	1470592	true	open	false	44		2015-12-23T03:38:39Z	2016-08-07T06:04:29Z		buffer: workaround for v8 buffer.toString failure. fixes #4266	20		
 4402	5358145	false	closed	false	4		2015-12-23T19:26:22Z	2016-08-29T22:31:11Z	2016-08-29T22:31:11Z	Bad readline behavior with line ending characters?	588		
@@ -1641,7 +1641,7 @@
 8568	811047	true	open	false	6		2016-09-16T18:49:46Z	2016-09-16T22:36:05Z		test: fix test-debug-signal-cluster.js flakyness	53		
 8569	416585	false	open	false	2		2016-09-17T00:16:21Z	2016-09-18T00:40:41Z		Buffer.from(str, encoding) silently ignores decoding errors	79		
 8570	718899	true	closed	false	4	2	2016-09-17T03:09:33Z	2016-09-20T06:13:28Z	2016-09-20T06:13:28Z	doc: add link to help repo in README	25		
-8571	1400464	false	open	false	13		2016-09-17T04:25:41Z	2016-09-20T08:10:15Z		v6.6.0 node::PBKDF2() Out of Memory	97		
+8571	1400464	false	open	false	14		2016-09-17T04:25:41Z	2016-09-21T11:14:30Z		v6.6.0 node::PBKDF2() Out of Memory	97		
 8572	718899	true	open	false	25		2016-09-17T05:48:38Z	2016-09-21T01:12:25Z		crypto: fix pbkdf2() with empty strings	113		
 8573	7329402	false	closed	false	1		2016-09-17T06:00:43Z	2016-09-17T20:50:05Z	2016-09-17T20:50:05Z	Error While Installing From FreeBSD Port	246		
 8574	718899	true	closed	false	1		2016-09-17T06:12:35Z	2016-09-20T16:40:03Z	2016-09-20T16:40:03Z	tools: increase armv6 timeout	73		
@@ -1740,7 +1740,7 @@
 8667	20224954	false	open	false	0		2016-09-20T14:03:48Z	2016-09-20T14:03:48Z		win: gc/test-http-client-onerror.js failure in v6.6.0	142		
 8668	6354455	true	open	false	2		2016-09-20T17:59:02Z	2016-09-21T05:46:20Z		test: cleanup stream tests	41		
 8669	54666	false	open	false	8		2016-09-20T18:05:25Z	2016-09-20T23:19:57Z		Investigate flaky inspector/test-inspector	118		
-8670	21145776	false	open	false	2		2016-09-20T19:25:32Z	2016-09-20T20:18:34Z		Garbage collection causes bad performance 	322		
+8670	21145776	false	open	false	4		2016-09-20T19:25:32Z	2016-09-21T11:13:03Z		Garbage collection causes bad performance 	322		
 8671	961599	false	open	false	1		2016-09-20T20:44:14Z	2016-09-20T22:16:24Z		The debug build (node_g) is difficult to install	53		
 8672	287917	true	open	false	0	0	2016-09-20T21:07:12Z	2016-09-20T21:07:13Z		inspector: address race condition	65		
 8673	498775	true	open	false	6		2016-09-20T22:12:05Z	2016-09-21T02:19:55Z		deps: cherry-pick 34880eb3dc from V8 upstream	184		
@@ -1752,14 +1752,15 @@
 8679	5140822	true	open	false	2		2016-09-21T03:44:22Z	2016-09-21T07:14:26Z		Removes call to `net.Socket.resume`	43		
 8680	27926	true	open	false			2016-09-21T03:48:55Z	2016-09-21T04:01:40Z		Benchmark: add destructuring object	250		
 8681	15519676	false	closed	false	1		2016-09-21T05:47:15Z	2016-09-21T09:04:08Z	2016-09-21T09:04:08Z	Error: Tunneling Socket could not be established, status code=407, code= ECONNRESET	191		
-8682	1456821	true	open	false			2016-09-21T07:14:13Z	2016-09-21T08:14:35Z		test: Add tests for add/remove header after sent.	48		
+8682	1456821	true	open	false			2016-09-21T07:14:13Z	2016-09-21T11:34:23Z		test: Add tests for add/remove header after sent.	48		
 8683	52195	false	open	false	0		2016-09-21T07:18:50Z	2016-09-21T07:18:50Z		stream, test: add tests for 'readable' state machine	63		
 8684	52195	false	open	false	0		2016-09-21T07:23:46Z	2016-09-21T07:23:46Z		stream, test: add tests for _readableStream.awaitDrain	18		
 8685	52195	false	open	false	0		2016-09-21T07:27:13Z	2016-09-21T07:27:13Z		stream, test: add test for _readableState.readingMore	9		
 8686	52195	false	open	false	0		2016-09-21T07:31:47Z	2016-09-21T07:31:47Z		stream, test: Add test for _writableState state machine	20		
 8687	52195	false	open	false	0		2016-09-21T07:35:35Z	2016-09-21T07:35:35Z		stream, test: Add test for _writableState clearBuffer state machine	26		
-8688	13503628	false	open	false	0		2016-09-21T08:23:19Z	2016-09-21T08:23:19Z		 npm 命令出错 Error: EEXIST: file already exists, mkdir 'C:\Program Files\nodejs\npm'     at Error (native) 3.10.3	31		
+8688	13503628	false	open	false	4		2016-09-21T08:23:19Z	2016-09-21T11:44:48Z		 npm 命令出错 Error: EEXIST: file already exists, mkdir 'C:\Program Files\nodejs\npm'     at Error (native) 3.10.3	31		
 8689	5140822	true	open	false	0	0	2016-09-21T08:35:07Z	2016-09-21T08:35:07Z		Removes FIXME	42		
 8690	1336186	false	closed	false	1		2016-09-21T08:52:29Z	2016-09-21T09:01:39Z	2016-09-21T09:01:39Z	cannot debug node child process (using node native debugger)	150		
 8691	5140822	false	open	false	0		2016-09-21T09:16:45Z	2016-09-21T09:16:45Z		Punycode fails for Russian(Cyrillic)	52		
 8692	2816034	false	open	false	0		2016-09-21T09:59:59Z	2016-09-21T09:59:59Z		Possible to build a 64 bit addon on a 32 bit distro	104		
+8693	1147716	false	open	false	0		2016-09-21T11:54:20Z	2016-09-21T11:54:20Z		wrong hashsum calculation	46		
