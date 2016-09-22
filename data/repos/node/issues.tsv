@@ -720,7 +720,7 @@
 7642	1018196	false	closed	false	5		2016-07-09T23:41:17Z	2016-07-13T04:21:05Z	2016-07-12T10:37:22Z	No nightlies since june 21st	16		
 7643	718899	false	closed	false	1		2016-07-10T02:23:31Z	2016-07-17T17:55:11Z	2016-07-17T17:55:11Z	Investigate flaky test-http-server-consumed-timeout on FreeBSD	60		
 7644	275871	true	open	false	15		2016-07-10T08:59:19Z	2016-08-04T20:58:45Z		src: don't use __builtin_bswap16() and friends	25		
-7645	469365	true	open	false			2016-07-10T20:01:22Z	2016-09-22T10:29:38Z		src: fix build failure for clang 3.2 by checking for builtin presence	19		
+7645	469365	true	open	false	13		2016-07-10T20:01:22Z	2016-09-22T20:58:20Z		src: fix build failure for clang 3.2 by checking for builtin presence	19		
 7646	718899	false	closed	false	0		2016-07-10T20:31:04Z	2016-07-27T21:38:38Z	2016-07-27T21:38:38Z	CONTRIBUTING.md assumes UNIX-like OS	18		
 7647	718899	true	closed	false	11		2016-07-10T21:05:19Z	2016-08-31T00:55:42Z	2016-07-13T18:18:31Z	tools: increase lint coverage	55		
 7648	696611	true	closed	false	9		2016-07-10T21:34:45Z	2016-08-27T14:24:23Z	2016-08-27T14:24:23Z	doc: improve fs.truncate functions' documentation	56		
@@ -1496,7 +1496,7 @@
 8420	1443911	true	closed	false	11		2016-09-06T11:39:49Z	2016-09-12T04:17:45Z	2016-09-12T04:17:45Z	url: fix off-by-one error in loop handling dots	52		
 8421	275871	false	open	false	3		2016-09-06T14:48:40Z	2016-09-13T18:18:48Z		fs: fs.watchFile() should not emit 'stop' event synchronously	45		
 8422	1093990	true	open	false	7		2016-09-06T15:52:10Z	2016-09-15T18:00:52Z		timers: do not expose .unref()._handle._list	63		
-8423	4421720	true	open	false	4		2016-09-06T15:52:19Z	2016-09-21T21:26:06Z		doc: add CTC meeting minutes 2016-08-24	33		
+8423	4421720	true	closed	false	4	0	2016-09-06T15:52:19Z	2016-09-22T20:48:13Z	2016-09-22T20:48:13Z	doc: add CTC meeting minutes 2016-08-24	33	4421720	2016-09-22T20:48:13Z
 8424	4421720	true	closed	false	2	2	2016-09-06T16:02:59Z	2016-09-12T15:03:23Z	2016-09-12T15:03:23Z	doc: add CTC meeting minutes 2016-08-31	27	4421720	2016-09-12T15:03:23Z
 8425	718899	false	open	false	15		2016-09-06T17:57:12Z	2016-09-07T19:14:41Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-09-07	467		
 8426	323878	false	closed	false	2		2016-09-06T20:32:22Z	2016-09-20T18:59:01Z	2016-09-20T18:59:01Z	v8 inspector - Runtime.evaluate doesn't work without a contextId	87		
@@ -1619,7 +1619,7 @@
 8543	1898870	true	open	false	3		2016-09-15T07:34:48Z	2016-09-15T08:03:59Z		test: add known issue test for child_process.spawnSync segfault	64		
 8544	2802526	false	open	false	1		2016-09-15T09:50:21Z	2016-09-15T10:07:54Z		Logging works only one out of four times in windows console	129		
 8545	6712914	false	closed	false	4		2016-09-15T12:31:17Z	2016-09-15T15:03:52Z	2016-09-15T13:43:07Z	npm installing to global gives Error: ENOENT, No such file or directory	197		
-8546	1443911	true	open	false	4		2016-09-15T12:54:18Z	2016-09-22T17:36:43Z		doc: improve documentation for commit subject line	44		
+8546	1443911	true	open	false			2016-09-15T12:54:18Z	2016-09-22T20:56:21Z		doc: improve documentation for commit subject line	44		
 8547	17704638	true	open	false	7		2016-09-15T15:01:29Z	2016-09-22T15:08:22Z		benchmark: add --expose_internals switch	54		
 8548	17704638	false	open	false	21		2016-09-15T15:08:25Z	2016-09-19T14:30:43Z		internal/freelist exposed by default on linux	26		
 8549	15943089	true	open	false	9		2016-09-15T16:55:35Z	2016-09-21T22:04:25Z		test: fix fork-dgram on AIX	102		
@@ -1776,12 +1776,12 @@
 8700	718899	false	open	false	2		2016-09-21T19:06:44Z	2016-09-22T05:15:51Z		Investigate flaky test-cluster-worker-init on Raspberry Pi 1	31		
 8701	416585	false	open	false	2		2016-09-21T19:28:18Z	2016-09-22T16:14:00Z		Unexpected Z_BUF_ERROR when using zlib	80		
 8702	71237	false	closed	false	2		2016-09-21T21:33:55Z	2016-09-22T03:31:46Z	2016-09-22T03:31:45Z	Inspector seg fault when stopping allocation profiler	536		
-8703	1898870	true	open	false	10		2016-09-21T22:34:52Z	2016-09-22T14:14:45Z		test: fix test-cluster-worker-init.js flakyness	54		
+8703	1898870	true	open	false	11		2016-09-21T22:34:52Z	2016-09-22T20:52:17Z		test: fix test-cluster-worker-init.js flakyness	54		
 8704	553630	true	open	false			2016-09-21T22:37:37Z	2016-09-22T19:01:49Z		Update BUILDING.md	67		
 8705	10136054	true	open	false	2		2016-09-21T22:57:11Z	2016-09-22T03:20:20Z		test: cleanup vars to const and '==' to '==='	80		
 8706	17535	true	open	false	6		2016-09-22T01:22:23Z	2016-09-22T15:24:03Z		deps: upgrade npm to 3.10.8	350		
 8707	6354455	true	open	false	0	0	2016-09-22T03:18:29Z	2016-09-22T03:18:29Z		test: stream._writableState.ending	53		
-8708	291301	true	open	false	0	0	2016-09-22T06:41:31Z	2016-09-22T06:41:31Z		tools: enable more remark-lint rules	64		
+8708	291301	true	open	false	1		2016-09-22T06:41:31Z	2016-09-22T20:14:57Z		tools: enable more remark-lint rules	64		
 8709	21365343	false	open	false	0		2016-09-22T08:34:53Z	2016-09-22T08:34:53Z		Q	6		
 8710	275871	true	open	false	3		2016-09-22T09:13:50Z	2016-09-22T18:05:15Z		src: don't abort when c-ares initialization fails	23		
 8711	17898715	false	closed	false	1		2016-09-22T11:41:53Z	2016-09-22T17:15:27Z	2016-09-22T17:15:26Z	TLSSocket sent to the sub-thread, this is no better solution for it	15		
@@ -1794,8 +1794,8 @@
 8718	782880	true	open	false	2		2016-09-22T14:27:06Z	2016-09-22T15:02:30Z		Upgrade to openssl-1.0.1u for v0.12	49		
 8719	498775	true	closed	false	3	0	2016-09-22T14:38:42Z	2016-09-22T17:53:18Z	2016-09-22T17:53:18Z	Upgrade to openssl-1.0.2i v4.x	51	498775	2016-09-22T17:53:18Z
 8720	498775	true	closed	false	1	0	2016-09-22T14:48:46Z	2016-09-22T17:35:48Z	2016-09-22T17:35:48Z	Openssl 1.0.2i v6.x	51	498775	2016-09-22T17:35:48Z
-8721	17704638	true	open	false	2		2016-09-22T15:01:40Z	2016-09-22T19:21:53Z		benchmark: use 'yes' instead of echo in a loop	65		
+8721	17704638	true	open	false	2		2016-09-22T15:01:40Z	2016-09-22T20:02:20Z		benchmark: use 'yes' instead of echo in a loop	65		
 8722	498775	true	open	false	0	0	2016-09-22T15:45:49Z	2016-09-22T15:45:49Z		 Upgrade to openssl-1.0.1u for v0.10	49		
 8723	3058870	false	open	false	0		2016-09-22T16:25:43Z	2016-09-22T17:03:25Z		readdirSync fails on Windows (using Apple Boot camp) when accessing a OSX drive	118		
 8724	275871	false	open	false	1		2016-09-22T17:38:10Z	2016-09-22T18:36:53Z		buffer: segfault writing values with noAssert=true	163		
-8725	9373002	false	open	false	0		2016-09-22T19:05:26Z	2016-09-22T19:05:26Z		smartos - parallel/test-tick-processor-unkonwn failures	42		
+8725	9373002	false	open	false	2		2016-09-22T19:05:26Z	2016-09-22T20:24:37Z		smartos - parallel/test-tick-processor-unkonwn failures	42		
