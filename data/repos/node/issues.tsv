@@ -385,7 +385,7 @@
 7154	718899	true	closed	false	14		2016-06-04T20:16:03Z	2016-07-11T22:54:57Z	2016-06-07T20:33:05Z	debugger: remove obsolete setTimeout	65		
 7157	469365	true	closed	false	28		2016-06-05T01:13:32Z	2016-07-05T18:16:17Z	2016-06-27T20:40:21Z	buffers: speed up swap16/32, add swap64	566		
 7158	9056756	false	closed	false	5		2016-06-05T04:43:28Z	2016-07-11T09:40:17Z	2016-06-05T06:49:21Z	Unable to cross-compile Node v6.2.1 for iOS	283		
-7162	275871	true	open	false	11		2016-06-05T16:54:03Z	2016-09-11T11:19:44Z		fs: move stringToFlags() to lib/internal	3		
+7162	275871	true	closed	false	12	0	2016-06-05T16:54:03Z	2016-09-23T16:26:57Z	2016-09-23T16:26:57Z	fs: move stringToFlags() to lib/internal	3		
 7163	628445	false	closed	false	15		2016-06-05T18:53:46Z	2016-09-19T22:07:28Z	2016-09-19T22:07:28Z	`systemjs-plugin-babel` fails on `v6.2.0`	47		
 7165	696611	true	open	false	26		2016-06-05T21:37:06Z	2016-09-02T06:34:26Z		"fs: refactor ""options"" processing as a function"	86		
 7166	730640	true	open	false	3		2016-06-05T22:01:01Z	2016-09-15T22:22:44Z		doc: more detail on when timers are executed	61		
@@ -567,7 +567,7 @@
 7488	2352663	true	closed	false	7		2016-06-29T20:45:55Z	2016-07-05T18:56:34Z	2016-06-30T15:30:55Z	deps: fix V8 5.1 tests	40		
 7489	275871	false	open	false	3		2016-06-29T20:58:47Z	2016-06-29T23:06:56Z		v8_inspector: segfault with simple http request	222		
 7490	275871	true	closed	false	2	0	2016-06-29T22:34:06Z	2016-06-29T23:21:49Z	2016-06-29T23:21:49Z	src: fix use-after-free in v8 inspector	5		
-7491	275871	true	open	false	20		2016-06-29T23:24:41Z	2016-09-20T16:48:52Z		src: add /json/protocol endpoint to inspector	24		
+7491	275871	true	open	false	22		2016-06-29T23:24:41Z	2016-09-23T16:11:30Z		src: add /json/protocol endpoint to inspector	24		
 7492	7146748	false	open	false	0		2016-06-30T06:29:11Z	2016-06-30T06:29:11Z		terrible design bug 	184		
 7493	899444	true	closed	false	3		2016-06-30T06:55:54Z	2016-07-05T19:50:22Z	2016-07-05T19:50:21Z	doc: add `added:` information for timers	27		
 7494	238531	true	closed	false			2016-06-30T07:46:53Z	2016-08-24T13:29:46Z	2016-07-11T06:44:51Z	Fix various overflows and UB in src/	129		
@@ -1142,7 +1142,7 @@
 8064	84737	false	closed	false	11		2016-08-11T09:33:57Z	2016-08-18T18:23:34Z	2016-08-18T18:23:34Z	`url.format()` encodes '#' inconsistently	83		
 8065	9373002	true	closed	false	16		2016-08-11T16:27:25Z	2016-08-14T14:10:33Z	2016-08-12T13:37:53Z	test: mark test failing on AIX as flaky	114		
 8066	3849161	false	open	false	1		2016-08-11T17:54:25Z	2016-08-11T20:08:45Z		TCP Fast Open	25		
-8067	275871	true	open	false	6		2016-08-11T17:57:29Z	2016-09-16T08:50:25Z		src: remove VS 2013 compatibility hacks	51		
+8067	275871	true	closed	false	7	0	2016-08-11T17:57:29Z	2016-09-23T16:07:12Z	2016-09-23T16:07:12Z	src: remove VS 2013 compatibility hacks	51		
 8068	718899	true	closed	false	10		2016-08-11T17:58:45Z	2016-08-15T09:48:05Z	2016-08-14T09:22:12Z	tools: favor === over == in license2rtf.js	30		
 8069	5445507	true	open	false	5		2016-08-11T19:33:13Z	2016-08-25T21:11:57Z		build: add missing files to zip and 7z packages	55		
 8070	2512748	true	closed	false	10	0	2016-08-11T20:03:08Z	2016-08-16T14:30:43Z	2016-08-16T14:30:42Z	v6.4.0 Proposal	2015	2512748	2016-08-16T14:30:42Z
@@ -1620,12 +1620,12 @@
 8543	1898870	true	open	false	3		2016-09-15T07:34:48Z	2016-09-15T08:03:59Z		test: add known issue test for child_process.spawnSync segfault	64		
 8544	2802526	false	open	false	1		2016-09-15T09:50:21Z	2016-09-15T10:07:54Z		Logging works only one out of four times in windows console	129		
 8545	6712914	false	closed	false	4		2016-09-15T12:31:17Z	2016-09-15T15:03:52Z	2016-09-15T13:43:07Z	npm installing to global gives Error: ENOENT, No such file or directory	197		
-8546	1443911	true	open	false	6		2016-09-15T12:54:18Z	2016-09-23T07:35:09Z		doc: improve documentation for commit subject line	44		
+8546	1443911	true	open	false	7		2016-09-15T12:54:18Z	2016-09-23T16:28:54Z		doc: improve documentation for commit subject line	44		
 8547	17704638	true	open	false	7		2016-09-15T15:01:29Z	2016-09-22T15:08:22Z		benchmark: add --expose_internals switch	54		
 8548	17704638	false	open	false	21		2016-09-15T15:08:25Z	2016-09-19T14:30:43Z		internal/freelist exposed by default on linux	26		
 8549	15943089	true	open	false	9		2016-09-15T16:55:35Z	2016-09-21T22:04:25Z		test: fix fork-dgram on AIX	102		
 8550	287917	true	open	false	10		2016-09-15T18:02:28Z	2016-09-19T20:22:24Z		inspector: restore 9229 as a default port	80		
-8551	291301	true	open	false	9		2016-09-15T19:22:54Z	2016-09-23T14:12:50Z		Introduce 'make mdlint' command and tooling	99		
+8551	291301	true	open	false	11		2016-09-15T19:22:54Z	2016-09-23T16:44:12Z		Introduce 'make mdlint' command and tooling	99		
 8552	2352663	true	closed	false	6	5	2016-09-15T19:30:18Z	2016-09-19T07:17:45Z	2016-09-19T07:17:45Z	Improve buffer test coverage	39	2352663	2016-09-19T07:17:45Z
 8553	291301	true	closed	false	10	0	2016-09-15T19:35:59Z	2016-09-17T18:48:32Z	2016-09-17T18:48:32Z	doc: fix a formatting error in buffer.md	64	291301	2016-09-17T18:48:32Z
 8554	718899	false	open	false	7		2016-09-15T21:00:14Z	2016-09-21T01:33:46Z		Adopting project workflow to new GitHub features	159		
@@ -1803,7 +1803,7 @@
 8726	4421720	true	open	false	2		2016-09-22T21:11:00Z	2016-09-23T10:31:57Z		doc: add CTC meeting minutes 2016-09-14	29		
 8727	4421720	true	open	false			2016-09-22T21:25:54Z	2016-09-22T22:37:27Z		doc: add CTC meeting minutes 2016-09-21	27		
 8728	1869157	false	open	false	0		2016-09-22T23:12:39Z	2016-09-22T23:12:39Z		process.cpuUsage accuracy	173		
-8729	7368115	true	open	false	1		2016-09-23T03:21:30Z	2016-09-23T11:02:58Z		Adds assertions to zero length buffer slice test	71		
+8729	7368115	true	open	false	1		2016-09-23T03:21:30Z	2016-09-23T16:59:36Z		Adds assertions to zero length buffer slice test	71		
 8730	85523	false	open	false	4		2016-09-23T06:56:06Z	2016-09-23T14:24:28Z		lift uv constants into separate constants implemetation files for uv process and lib/dns.js	31		
 8731	85523	false	open	false	0		2016-09-23T07:04:55Z	2016-09-23T07:04:55Z		Request for DNSSEC interface API	33		
 8732	85523	false	closed	false	3		2016-09-23T07:26:38Z	2016-09-23T10:16:39Z	2016-09-23T07:33:13Z	Request for tool to generate constant declarations in C++ and JavaScript from specifications	30		
@@ -1811,10 +1811,11 @@
 8734	18049850	false	open	false	0		2016-09-23T08:57:01Z	2016-09-23T08:57:01Z		node debugger not doing anything after it starts	84		
 8735	7289505	false	closed	false	2		2016-09-23T09:03:10Z	2016-09-23T13:59:34Z	2016-09-23T12:28:04Z	High CPU usage - futex_wait, gettimeofday syscalls	589		
 8736	432351	true	open	false	0	0	2016-09-23T12:19:11Z	2016-09-23T12:19:11Z		src: fix minor typo in comments	39		
-8737	1082417	false	closed	false	4		2016-09-23T13:00:32Z	2016-09-23T15:52:25Z	2016-09-23T15:52:25Z	6.x querystring.parse returns object for which instanceof Object is false (was true for 4.x)	98		
-8738	899444	true	open	false	0	0	2016-09-23T14:01:25Z	2016-09-23T14:01:25Z		benchmark: add benchmarks for `Buffer.from()`	230		
+8737	1082417	false	closed	false	5		2016-09-23T13:00:32Z	2016-09-23T16:04:21Z	2016-09-23T15:52:25Z	6.x querystring.parse returns object for which instanceof Object is false (was true for 4.x)	98		
+8738	899444	true	open	false	2		2016-09-23T14:01:25Z	2016-09-23T16:53:40Z		benchmark: add benchmarks for `Buffer.from()`	230		
 8739	10680833	true	open	false	0	0	2016-09-23T14:38:47Z	2016-09-23T14:38:47Z		buffer: fix check of buffer and rearrange conditional	89		
 8740	1935767	true	open	false			2016-09-23T14:43:51Z	2016-09-23T15:02:47Z		doc,tool: refactor checking jsPrimitives	94		
 8741	1935767	true	open	false	0	0	2016-09-23T14:58:43Z	2016-09-23T14:58:43Z		doc: improve child_process doc types	43		
 8742	1935767	true	open	false	0	0	2016-09-23T15:09:35Z	2016-09-23T15:09:35Z		doc,tool: add tls.TLSSocket to typeMap	40		
 8743	22397837	false	open	false	0		2016-09-23T15:24:19Z	2016-09-23T15:24:19Z		Demo Site for exploring nodejs features?	42		
+8744	275871	false	open	false	0		2016-09-23T16:22:28Z	2016-09-23T16:22:28Z		test,crypto: sequential/test-crypto-timing-safe-equal-benchmarks flaky locally	63		
