@@ -213,7 +213,7 @@
 5991	15197820	false	open	false	4		2016-04-01T04:10:50Z	2016-07-06T06:35:33Z		When I write áéíóú, process.stdout.write in Windows English version, process.stdout is closed	35		
 6030	439929	true	closed	false	13		2016-04-03T19:56:47Z	2016-08-30T14:14:47Z	2016-04-10T23:17:57Z	doc: clarification for maxBuffer and Unicode output	89		
 6033	2291463	false	closed	false	9		2016-04-04T07:14:31Z	2016-07-03T03:53:55Z	2016-07-03T03:53:55Z	Features that depend on ICU, in V8 built without ICU.	118		
-6045	248374	false	open	false	4		2016-04-04T22:52:46Z	2016-09-16T16:01:06Z		Windows PlatformToolset: Provide stable C++ API to addons	77		
+6045	248374	false	open	false	6		2016-04-04T22:52:46Z	2016-09-23T21:18:44Z		Windows PlatformToolset: Provide stable C++ API to addons	77		
 6058	855219	false	closed	false	8		2016-04-05T16:01:32Z	2016-09-20T22:56:10Z	2016-05-04T23:14:40Z	deps: Intl: ICU 57 bump	43		
 6063	7780985	true	closed	false	20		2016-04-05T19:44:10Z	2016-07-11T16:51:08Z	2016-04-26T16:07:07Z	doc, tls: deprecate createSecurePair	141		
 6102	54666	true	open	false	101		2016-04-07T16:10:47Z	2016-09-08T21:32:21Z		http: don't inherit from Object.prototype	57		
@@ -561,7 +561,7 @@
 7481	696611	true	closed	false	6		2016-06-29T18:07:25Z	2016-07-12T00:11:45Z	2016-07-08T14:45:38Z	net: export isIPv4, isIPv6 directly from cares	50		
 7482	2352663	true	closed	false	10		2016-06-29T18:13:01Z	2016-07-12T06:33:53Z	2016-07-10T15:23:52Z	build: add v8 requirement to test-v8* in Makefile	30		
 7483	696611	true	closed	false	10		2016-06-29T18:21:46Z	2016-07-12T04:30:26Z	2016-07-08T14:52:40Z	tools: remove unnecessary imports and assignments	38		
-7484	275871	false	open	false	47		2016-06-29T18:29:06Z	2016-09-14T13:36:22Z		build: drop support for VS 2013 in v7	96		
+7484	275871	false	open	false	49		2016-06-29T18:29:06Z	2016-09-23T21:20:43Z		build: drop support for VS 2013 in v7	96		
 7485	432351	true	closed	false	5	0	2016-06-29T18:42:27Z	2016-06-30T05:36:59Z	2016-06-30T05:36:59Z	doc: fixing minor typo in AtExit hooks section	53		
 7486	275871	true	closed	false	9		2016-06-29T19:17:29Z	2016-06-30T17:37:51Z	2016-06-30T11:33:16Z	build: drop unconditional openssl dep from cctest	23		
 7487	1356314	true	closed	false	25		2016-06-29T20:16:20Z	2016-08-05T13:32:16Z	2016-08-05T13:32:15Z	build: windows sharedlib support	284		
@@ -1065,7 +1065,7 @@
 7986	275871	true	open	false	1		2016-08-05T11:40:07Z	2016-08-05T17:43:24Z		tools: add compile_commands.json gyp generator	42		
 7987	4520820	true	closed	false	6		2016-08-05T16:37:29Z	2016-08-08T12:45:42Z	2016-08-08T12:45:42Z	zlib: remove unneeded property	37		
 7988	426418	true	open	false	19		2016-08-05T21:18:17Z	2016-08-12T00:35:41Z		inspector: add inspector console support for native Console	114		
-7989	275871	false	open	false	22		2016-08-06T03:16:44Z	2016-09-22T05:07:20Z		build: drop support for VS 2013 in v6 LTS	192		
+7989	275871	false	open	false	23		2016-08-06T03:16:44Z	2016-09-23T21:15:59Z		build: drop support for VS 2013 in v6 LTS	192		
 7990	2557445	true	closed	false	9		2016-08-06T07:59:12Z	2016-08-08T18:43:02Z	2016-08-08T16:20:30Z	Cleanup: Remove unused using decls	49		
 7991	439929	false	open	false	6		2016-08-06T08:03:44Z	2016-09-08T19:54:12Z		Planning for v7 and the v6 roll over to LTS	434		
 7992	1500684	true	open	false	0	0	2016-08-06T10:18:04Z	2016-08-06T10:18:04Z		docs: add info about --auto-open flag w/ --inspect	73		
@@ -1585,7 +1585,7 @@
 8507	1466123	false	closed	false	1		2016-09-13T00:46:51Z	2016-09-20T21:10:34Z	2016-09-20T21:10:34Z	zlib: invalid distance too far back on `inflateRaw` with custom dictionary	145		
 8508	6354455	false	open	false	0		2016-09-13T02:11:25Z	2016-09-13T02:11:25Z		readline doc: events are _not_ supported on Windows.	45		
 8509	3320742	false	open	false	5		2016-09-13T02:17:53Z	2016-09-15T23:15:40Z		Configuration option to permanently turn on --preserve-symlinks	110		
-8510	10680833	true	closed	false			2016-09-13T03:07:50Z	2016-09-23T14:02:14Z	2016-09-17T08:53:42Z	Fixes an issue where Buffer.from was not supporting SharedArrayBuffer	72		
+8510	10680833	true	closed	false			2016-09-13T03:07:50Z	2016-09-23T21:46:51Z	2016-09-17T08:53:42Z	Fixes an issue where Buffer.from was not supporting SharedArrayBuffer	72		
 8511	718899	false	open	false	0		2016-09-13T04:21:25Z	2016-09-13T04:21:25Z		Investigate flaky test-fs-watch-recursive on OS X	10		
 8512	1466123	true	closed	false	10		2016-09-13T05:54:45Z	2016-09-20T21:10:47Z	2016-09-20T21:10:47Z	zlib: fix raw inflate with custom dictionary	74		
 8513	1057486	false	closed	false	2		2016-09-13T08:38:35Z	2016-09-13T15:46:09Z	2016-09-13T10:44:54Z	Expose V8's JavaScript parser API as an part of standard library?	92		
@@ -1727,7 +1727,7 @@
 8649	2512748	true	closed	false	9	4	2016-09-18T17:10:43Z	2016-09-20T23:51:39Z	2016-09-20T23:51:39Z	src: handle thrown errors in CopyProperties()	53	2512748	2016-09-20T23:51:39Z
 8650	354641	false	open	false	7		2016-09-18T19:16:11Z	2016-09-20T15:49:48Z		Uncaught TypeError using http.Agent in keep-alive mode	284		
 8651	2763135	true	closed	false	1		2016-09-18T20:03:48Z	2016-09-20T18:13:47Z	2016-09-20T18:13:46Z	doc: clarify fs.utimes() arguments	43		
-8652	718899	true	open	false	6		2016-09-19T01:28:41Z	2016-09-23T19:50:47Z		test: skip cpu-intensive tests on slow hosts	72		
+8652	718899	true	open	false	6		2016-09-19T01:28:41Z	2016-09-23T21:30:02Z		test: skip cpu-intensive tests on slow hosts	72		
 8653	16150723	false	closed	false	2		2016-09-19T07:02:58Z	2016-09-20T07:13:54Z	2016-09-19T07:26:49Z	chmodSync is not recursive	39		
 8654	4899192	false	closed	false	3		2016-09-19T09:34:30Z	2016-09-21T10:18:06Z	2016-09-19T10:41:31Z	Date.toLocalString() return incorrect string	121		
 8655	54666	true	open	false			2016-09-19T17:44:41Z	2016-09-20T17:57:33Z		timers: improve setImmediate() performance	74		
@@ -1747,7 +1747,7 @@
 8669	54666	false	closed	false	11		2016-09-20T18:05:25Z	2016-09-23T18:08:54Z	2016-09-23T18:08:54Z	Investigate flaky inspector/test-inspector	118		
 8670	21145776	false	open	false	9		2016-09-20T19:25:32Z	2016-09-21T16:30:01Z		Garbage collection causes bad performance 	322		
 8671	961599	false	open	false	1		2016-09-20T20:44:14Z	2016-09-20T22:16:24Z		The debug build (node_g) is difficult to install	53		
-8672	287917	true	open	false	3		2016-09-20T21:07:12Z	2016-09-23T18:01:29Z		inspector: address race conditions	65		
+8672	287917	true	closed	false	6		2016-09-20T21:07:12Z	2016-09-23T21:53:43Z	2016-09-23T18:08:46Z	inspector: address race conditions	65		
 8673	498775	true	open	false	15		2016-09-20T22:12:05Z	2016-09-23T14:09:13Z		deps: cherry-pick 34880eb3dc from V8 upstream	184		
 8674	855219	true	open	false			2016-09-20T22:57:10Z	2016-09-21T00:54:24Z		deps: fix icu-shrinker to handle ICU 58	43		
 8675	439929	false	open	false	0		2016-09-20T23:14:21Z	2016-09-20T23:14:21Z		meta: new github review comments and the github API	79		
@@ -1755,9 +1755,9 @@
 8677	27926	true	open	false	0	0	2016-09-21T03:09:34Z	2016-09-21T03:09:34Z		Benchmark: add destructuring object	47		
 8678	718899	true	closed	false	5		2016-09-21T03:35:04Z	2016-09-23T03:14:15Z	2016-09-23T03:14:15Z	doc: standardize on `make -j8`	60		
 8679	5140822	true	open	false	12		2016-09-21T03:44:22Z	2016-09-23T11:01:44Z		Removes call to `net.Socket.resume`	43		
-8680	27926	true	open	false			2016-09-21T03:48:55Z	2016-09-21T04:01:40Z		Benchmark: add destructuring object	250		
+8680	27926	true	open	false	3		2016-09-21T03:48:55Z	2016-09-23T21:53:32Z		Benchmark: add destructuring object	236		
 8681	15519676	false	closed	false	1		2016-09-21T05:47:15Z	2016-09-21T09:04:08Z	2016-09-21T09:04:08Z	Error: Tunneling Socket could not be established, status code=407, code= ECONNRESET	191		
-8682	1456821	true	open	false			2016-09-21T07:14:13Z	2016-09-21T21:44:05Z		test: Add tests for add/remove header after sent.	48		
+8682	1456821	true	open	false	4		2016-09-21T07:14:13Z	2016-09-23T21:31:42Z		test: Add tests for add/remove header after sent.	48		
 8683	52195	false	open	false	0		2016-09-21T07:18:50Z	2016-09-21T07:18:50Z		stream, test: add tests for 'readable' state machine	63		
 8684	52195	false	open	false	0		2016-09-21T07:23:46Z	2016-09-21T07:23:46Z		stream, test: add tests for _readableStream.awaitDrain	18		
 8685	52195	false	open	false	0		2016-09-21T07:27:13Z	2016-09-21T07:27:13Z		stream, test: add test for _readableState.readingMore	9		
@@ -1772,7 +1772,7 @@
 8694	1456821	true	open	false			2016-09-21T13:30:34Z	2016-09-22T06:41:05Z		doc: Recommend using port 0 instead of common.PORT	55		
 8695	275871	true	closed	false	1	0	2016-09-21T16:41:21Z	2016-09-23T15:54:16Z	2016-09-23T15:54:16Z	test: enable cyrillic punycode test case	25		
 8696	287917	true	open	false	0	0	2016-09-21T17:01:19Z	2016-09-21T17:01:19Z		doc: add eugeneo to collaborators	28		
-8697	9373002	true	open	false	12		2016-09-21T18:38:04Z	2016-09-23T15:14:18Z		test: improve test-child-process-fork-dgram	110		
+8697	9373002	true	open	false	15		2016-09-21T18:38:04Z	2016-09-23T21:26:21Z		test: improve test-child-process-fork-dgram	110		
 8698	5498548	false	closed	false	2		2016-09-21T18:44:10Z	2016-09-21T20:14:14Z	2016-09-21T20:14:14Z	RPM Package signing key	83		
 8699	14127285	false	open	false	3		2016-09-21T18:53:09Z	2016-09-21T20:22:52Z		[Archlinux] Need help ! 	77		
 8700	718899	false	open	false	2		2016-09-21T19:06:44Z	2016-09-22T05:15:51Z		Investigate flaky test-cluster-worker-init on Raspberry Pi 1	31		
@@ -1785,7 +1785,7 @@
 8707	6354455	true	open	false	0	0	2016-09-22T03:18:29Z	2016-09-22T03:18:29Z		test: stream._writableState.ending	53		
 8708	291301	true	open	false	1		2016-09-22T06:41:31Z	2016-09-22T20:14:57Z		tools: enable more remark-lint rules	64		
 8709	21365343	false	open	false	0		2016-09-22T08:34:53Z	2016-09-22T08:34:53Z		Q	6		
-8710	275871	true	open	false	3		2016-09-22T09:13:50Z	2016-09-22T18:05:15Z		src: don't abort when c-ares initialization fails	23		
+8710	275871	true	closed	false	3	0	2016-09-22T09:13:50Z	2016-09-23T21:56:59Z	2016-09-23T21:56:59Z	src: don't abort when c-ares initialization fails	23		
 8711	17898715	false	closed	false	4		2016-09-22T11:41:53Z	2016-09-23T05:59:08Z	2016-09-22T17:15:26Z	TLSSocket sent to the sub-thread, this is no better solution for it	15		
 8712	432351	true	open	false	0	0	2016-09-22T12:23:48Z	2016-09-22T12:23:48Z		src: rename handle__ to handle_ in HandleWrap	58		
 8713	291301	true	open	false	3		2016-09-22T12:39:06Z	2016-09-22T17:48:32Z		doc: enable no-file-name-articles remark-lint rule and rename doc/topics/the-event-loop-timers-and-nexttick.md	106		
@@ -1800,7 +1800,7 @@
 8722	498775	true	open	false	2		2016-09-22T15:45:49Z	2016-09-23T14:07:20Z		 Upgrade to openssl-1.0.1u for v0.10	49		
 8723	3058870	false	open	false	0		2016-09-22T16:25:43Z	2016-09-22T17:03:25Z		readdirSync fails on Windows (using Apple Boot camp) when accessing a OSX drive	118		
 8724	275871	false	open	false	1		2016-09-22T17:38:10Z	2016-09-23T03:24:39Z		buffer: segfault writing values with noAssert=true	163		
-8725	9373002	false	open	false	15		2016-09-22T19:05:26Z	2016-09-23T19:37:12Z		smartos - parallel/test-tick-processor-unkonwn failures	51		
+8725	9373002	false	open	false	17		2016-09-22T19:05:26Z	2016-09-23T21:49:11Z		smartos - parallel/test-tick-processor-unkonwn failures	51		
 8726	4421720	true	open	false	2		2016-09-22T21:11:00Z	2016-09-23T10:31:57Z		doc: add CTC meeting minutes 2016-09-14	29		
 8727	4421720	true	open	false			2016-09-22T21:25:54Z	2016-09-22T22:37:27Z		doc: add CTC meeting minutes 2016-09-21	27		
 8728	1869157	false	open	false	0		2016-09-22T23:12:39Z	2016-09-22T23:12:39Z		process.cpuUsage accuracy	173		
@@ -1813,8 +1813,8 @@
 8735	7289505	false	closed	false	2		2016-09-23T09:03:10Z	2016-09-23T13:59:34Z	2016-09-23T12:28:04Z	High CPU usage - futex_wait, gettimeofday syscalls	589		
 8736	432351	true	open	false	0	0	2016-09-23T12:19:11Z	2016-09-23T12:19:11Z		src: fix minor typo in comments	39		
 8737	1082417	false	closed	false	5		2016-09-23T13:00:32Z	2016-09-23T16:04:21Z	2016-09-23T15:52:25Z	6.x querystring.parse returns object for which instanceof Object is false (was true for 4.x)	98		
-8738	899444	true	open	false	6		2016-09-23T14:01:25Z	2016-09-23T20:41:48Z		benchmark: add benchmarks for `Buffer.from()`	230		
-8739	10680833	true	open	false	0	0	2016-09-23T14:38:47Z	2016-09-23T14:38:47Z		buffer: fix check of buffer and rearrange conditional	89		
+8738	899444	true	open	false	7		2016-09-23T14:01:25Z	2016-09-23T21:12:23Z		benchmark: add benchmarks for `Buffer.from()`	230		
+8739	10680833	true	open	false			2016-09-23T14:38:47Z	2016-09-23T21:52:52Z		buffer: fix check of buffer and rearrange conditional	95		
 8740	1935767	true	open	false			2016-09-23T14:43:51Z	2016-09-23T15:02:47Z		doc,tool: refactor checking jsPrimitives	94		
 8741	1935767	true	open	false	0	0	2016-09-23T14:58:43Z	2016-09-23T14:58:43Z		doc: improve child_process doc types	43		
 8742	1935767	true	open	false	0	0	2016-09-23T15:09:35Z	2016-09-23T15:09:35Z		doc,tool: add tls.TLSSocket to typeMap	40		
@@ -1824,6 +1824,7 @@
 8746	860364	false	closed	false	2		2016-09-23T18:28:49Z	2016-09-23T19:48:25Z	2016-09-23T19:48:25Z	global has two different behaviour with the same logic	84		
 8747	5076519	false	open	false	4		2016-09-23T18:46:49Z	2016-09-23T19:19:25Z		Unsafe parsing of URLs	298		
 8748	287917	true	open	false	0	0	2016-09-23T18:50:06Z	2016-09-23T18:50:06Z		test: use Buffer.from	43		
-8749	1813603	true	open	false	0	0	2016-09-23T19:07:34Z	2016-09-23T19:07:34Z		Add NODE_PRESERVE_SYMLINKS environment variable	58		
+8749	1813603	true	open	false			2016-09-23T19:07:34Z	2016-09-23T21:49:51Z		Add NODE_PRESERVE_SYMLINKS environment variable	58		
 8750	9373002	false	open	false	0		2016-09-23T20:25:54Z	2016-09-23T20:25:54Z		V8: v8tests.mjsunit/regress/regress-crbug-514081 failure on PPC BE	45		
 8751	291301	true	open	false	0	0	2016-09-23T20:57:02Z	2016-09-23T20:57:02Z		dgram: use Buffer.alloc(0) for zero-size buffers	59		
+8752	122831	false	open	false	0		2016-09-23T21:14:21Z	2016-09-23T21:14:21Z		cannot use tls.TLSSocket created from net.Socket after first 'data' event	317		
