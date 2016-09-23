@@ -69,6 +69,7 @@
 2860	10118693	false	open	false	9		2015-09-14T17:07:52Z	2016-09-21T10:49:16Z		Error stack gives incorrect column number	139		
 2883	126482	true	open	false	4		2015-09-15T17:33:30Z	2016-06-29T12:07:18Z		Makefile: use existing variable to reduce complexity	2		
 2933	643505	false	closed	false	34		2015-09-17T18:33:07Z	2016-08-23T23:58:44Z	2015-09-17T18:35:56Z	XCode 7: library not found for -lgcc_s.10.5	307		
+2957	9373002	false	closed	false	6		2015-09-18T20:07:48Z	2016-09-23T22:59:50Z	2016-09-23T22:59:50Z	test-tick-processor failures on PPC	87		
 2982	170023	true	open	false	7		2015-09-21T14:10:33Z	2016-07-01T16:26:45Z		readline: add option to stop duplicates in history	161		
 2994	708850	false	open	false	9		2015-09-22T04:48:17Z	2016-09-08T23:20:56Z		Need a way to detect end of stream on custom Writable Streams implementing _write	78		
 3006	914122	false	closed	false	33		2015-09-22T15:57:31Z	2016-08-04T12:01:53Z	2016-03-22T06:28:03Z	Node.js doesn't run as tty on windows / cygwin	33		
@@ -411,6 +412,7 @@
 7205	317464	true	closed	false	18	0	2016-06-07T22:18:12Z	2016-07-11T19:26:19Z	2016-07-11T19:26:19Z	deps: libuv upgrade for v4.x	35		
 7207	439929	true	closed	false	21		2016-06-07T23:07:52Z	2016-07-11T23:07:08Z	2016-06-21T16:29:59Z	buffer,string_decoder: consolidate encoding validation logic	67		
 7213	238531	true	closed	false	7		2016-06-08T05:08:23Z	2016-07-05T19:26:34Z	2016-07-05T19:26:33Z	Backport/6279	5		
+7215	16506071	false	closed	false	3		2016-06-08T06:52:49Z	2016-09-23T22:17:12Z	2016-09-23T22:17:12Z	"Inconsistent resolution of path ""C:"" with spawn on Windows"	131		
 7218	899444	true	closed	false	9		2016-06-08T09:29:09Z	2016-07-12T00:06:55Z	2016-07-06T12:27:39Z	test: skip doctool tests when js-yaml is missing	71		
 7219	1898161	false	closed	false	4		2016-06-08T09:29:33Z	2016-08-17T07:41:47Z	2016-08-17T07:41:47Z	stepping over a function containing a throw does not work	102		
 7223	12755463	false	closed	false	2		2016-06-08T13:30:08Z	2016-07-16T14:21:13Z	2016-06-08T13:58:05Z	URL parse with parseQueryString returning query object doesn't inherit Object.prototype	55		
@@ -705,7 +707,7 @@
 7625	54666	true	open	false	15		2016-07-08T23:27:55Z	2016-07-20T23:07:52Z		build: add conflict marker check on release	52		
 7626	718899	true	closed	false	6		2016-07-08T23:39:54Z	2016-07-12T17:27:15Z	2016-07-12T17:27:15Z	benchmark: fix hanging dgram/array-vs-concat.js	66		
 7627	3397140	false	open	false	11		2016-07-09T00:05:16Z	2016-09-06T15:20:25Z		Get native handle from net.Socket	138		
-7628	237796	true	open	false			2016-07-09T00:39:03Z	2016-07-10T02:45:37Z		test: Fixes test-tick-processor to not hang on Windows	101		
+7628	237796	true	closed	false	3		2016-07-09T00:39:03Z	2016-09-23T22:59:05Z	2016-09-23T22:59:05Z	test: Fixes test-tick-processor to not hang on Windows	101		
 7629	52195	false	open	false	14		2016-07-09T00:51:48Z	2016-07-11T18:14:43Z		[stream] Make _readableState and _writableState part of the public API	150		
 7630	718899	true	closed	false	13		2016-07-09T02:05:54Z	2016-08-31T00:38:01Z	2016-07-12T17:34:39Z	Brace style linting	49		
 7631	2882139	false	open	false	0		2016-07-09T12:10:06Z	2016-07-09T12:10:06Z		why nodejs not support the raw socket?	30		
@@ -1496,7 +1498,7 @@
 8418	413206	false	open	false	6		2016-09-06T10:17:08Z	2016-09-16T09:03:33Z		crypto.createHKDF()	33		
 8419	8774679	true	open	false	6		2016-09-06T10:48:43Z	2016-09-20T17:00:56Z		net: multiple listen() events fail silently	95		
 8420	1443911	true	closed	false	11		2016-09-06T11:39:49Z	2016-09-12T04:17:45Z	2016-09-12T04:17:45Z	url: fix off-by-one error in loop handling dots	52		
-8421	275871	false	open	false	3		2016-09-06T14:48:40Z	2016-09-13T18:18:48Z		fs: fs.watchFile() should not emit 'stop' event synchronously	45		
+8421	275871	false	closed	false	3		2016-09-06T14:48:40Z	2016-09-23T22:27:16Z	2016-09-23T22:27:16Z	fs: fs.watchFile() should not emit 'stop' event synchronously	45		
 8422	1093990	true	open	false	7		2016-09-06T15:52:10Z	2016-09-15T18:00:52Z		timers: do not expose .unref()._handle._list	63		
 8423	4421720	true	closed	false	4	0	2016-09-06T15:52:19Z	2016-09-22T20:48:13Z	2016-09-22T20:48:13Z	doc: add CTC meeting minutes 2016-08-24	33	4421720	2016-09-22T20:48:13Z
 8424	4421720	true	closed	false	2	2	2016-09-06T16:02:59Z	2016-09-12T15:03:23Z	2016-09-12T15:03:23Z	doc: add CTC meeting minutes 2016-08-31	27	4421720	2016-09-12T15:03:23Z
@@ -1599,7 +1601,7 @@
 8521	115237	false	closed	false	2		2016-09-13T20:45:57Z	2016-09-14T15:23:16Z	2016-09-14T15:23:16Z	macOS 10.12: libstdc++ is deprecated warning	42		
 8522	869312	true	closed	false	2	0	2016-09-13T21:46:18Z	2016-09-14T01:01:57Z	2016-09-14T01:01:57Z	typo: join => joins [ci skip]	46		
 8523	13093042	true	closed	false	4	0	2016-09-13T21:59:20Z	2016-09-20T16:58:31Z	2016-09-20T16:58:31Z	Fix path.relative UNC path result	61		
-8524	3967972	true	open	false	10		2016-09-13T22:13:14Z	2016-09-22T17:40:05Z		fs: do not emit 'stop' watch event synchronously	62		
+8524	3967972	true	open	false	11		2016-09-13T22:13:14Z	2016-09-23T22:23:43Z		fs: do not emit 'stop' watch event synchronously	62		
 8525	11638619	true	open	false	0	0	2016-09-13T22:23:46Z	2016-09-13T22:23:46Z		doc: add not-an-aardvark to collaborators	51		
 8526	1794527	false	open	false	6		2016-09-14T00:43:16Z	2016-09-18T12:07:24Z		How does require.resolve work?	75		
 8527	869312	true	closed	false	3		2016-09-14T01:06:48Z	2016-09-18T09:37:07Z	2016-09-18T09:37:07Z	doc: Changed 'join' to 'joins' in path.md	48		
@@ -1616,7 +1618,7 @@
 8538	374012	false	closed	false	3		2016-09-14T20:27:45Z	2016-09-21T00:00:37Z	2016-09-21T00:00:37Z	dns.setServers is memory unsafe and can be used to dump core	129		
 8539	374012	false	open	false	3		2016-09-14T20:28:34Z	2016-09-15T11:27:27Z		child_process.spawnSync is memory unsafe and can be used to dump core	108		
 8540	5352100	false	closed	false	2		2016-09-14T20:39:43Z	2016-09-14T21:14:55Z	2016-09-14T21:14:55Z	Issue in cluster module while running an http server	132		
-8541	13093042	true	open	false	11		2016-09-14T22:38:15Z	2016-09-22T17:37:43Z		Fallback to process cwd when resolving drive cwd	177		
+8541	13093042	true	open	false	12		2016-09-14T22:38:15Z	2016-09-23T22:13:42Z		Fallback to process cwd when resolving drive cwd	177		
 8542	238531	true	open	false	32		2016-09-14T23:28:52Z	2016-09-16T12:18:02Z		test: make test-tick-processor.js non-flaky	61		
 8543	1898870	true	open	false	3		2016-09-15T07:34:48Z	2016-09-15T08:03:59Z		test: add known issue test for child_process.spawnSync segfault	64		
 8544	2802526	false	open	false	1		2016-09-15T09:50:21Z	2016-09-15T10:07:54Z		Logging works only one out of four times in windows console	129		
@@ -1680,7 +1682,7 @@
 8602	515269	true	open	false	3		2016-09-17T09:49:07Z	2016-09-20T10:25:55Z		test: modernize JS and tighten equality checking	44		
 8603	3963377	true	open	false			2016-09-17T09:49:28Z	2016-09-20T17:31:58Z		fix-test-assert.js: use const, let, strictEqual	43		
 8604	2361826	true	open	false			2016-09-17T09:50:26Z	2016-09-17T14:20:06Z		internal: change var to const in internal/child_process.js	39		
-8605	147788	true	open	false	1		2016-09-17T09:51:21Z	2016-09-20T18:39:28Z		test: replace var with const and add mustCall cb	63		
+8605	147788	true	open	false	2		2016-09-17T09:51:21Z	2016-09-23T22:05:39Z		test: replace var with const and add mustCall cb	63		
 8606	4865608	true	open	false	9		2016-09-17T09:52:33Z	2016-09-21T00:35:46Z		test: Improved tests in test-os	74		
 8607	10419222	true	open	false	4		2016-09-17T09:55:03Z	2016-09-20T20:49:42Z		test: changed var to const/let in test-child-process-stdio	34		
 8608	6625123	false	closed	false	1		2016-09-17T09:55:10Z	2016-09-17T20:35:15Z	2016-09-17T20:35:15Z	Taskbar is not hidden in fullscreen	80		
@@ -1727,7 +1729,7 @@
 8649	2512748	true	closed	false	9	4	2016-09-18T17:10:43Z	2016-09-20T23:51:39Z	2016-09-20T23:51:39Z	src: handle thrown errors in CopyProperties()	53	2512748	2016-09-20T23:51:39Z
 8650	354641	false	open	false	7		2016-09-18T19:16:11Z	2016-09-20T15:49:48Z		Uncaught TypeError using http.Agent in keep-alive mode	284		
 8651	2763135	true	closed	false	1		2016-09-18T20:03:48Z	2016-09-20T18:13:47Z	2016-09-20T18:13:46Z	doc: clarify fs.utimes() arguments	43		
-8652	718899	true	open	false	6		2016-09-19T01:28:41Z	2016-09-23T21:30:02Z		test: skip cpu-intensive tests on slow hosts	72		
+8652	718899	true	open	false	8		2016-09-19T01:28:41Z	2016-09-23T23:01:07Z		test: skip cpu-intensive tests on slow hosts	72		
 8653	16150723	false	closed	false	2		2016-09-19T07:02:58Z	2016-09-20T07:13:54Z	2016-09-19T07:26:49Z	chmodSync is not recursive	39		
 8654	4899192	false	closed	false	3		2016-09-19T09:34:30Z	2016-09-21T10:18:06Z	2016-09-19T10:41:31Z	Date.toLocalString() return incorrect string	121		
 8655	54666	true	open	false			2016-09-19T17:44:41Z	2016-09-20T17:57:33Z		timers: improve setImmediate() performance	74		
@@ -1755,7 +1757,7 @@
 8677	27926	true	open	false	0	0	2016-09-21T03:09:34Z	2016-09-21T03:09:34Z		Benchmark: add destructuring object	47		
 8678	718899	true	closed	false	5		2016-09-21T03:35:04Z	2016-09-23T03:14:15Z	2016-09-23T03:14:15Z	doc: standardize on `make -j8`	60		
 8679	5140822	true	open	false	12		2016-09-21T03:44:22Z	2016-09-23T11:01:44Z		Removes call to `net.Socket.resume`	43		
-8680	27926	true	open	false	3		2016-09-21T03:48:55Z	2016-09-23T21:53:32Z		Benchmark: add destructuring object	236		
+8680	27926	true	open	false	4		2016-09-21T03:48:55Z	2016-09-23T22:03:26Z		Benchmark: add destructuring object	236		
 8681	15519676	false	closed	false	1		2016-09-21T05:47:15Z	2016-09-21T09:04:08Z	2016-09-21T09:04:08Z	Error: Tunneling Socket could not be established, status code=407, code= ECONNRESET	191		
 8682	1456821	true	open	false	4		2016-09-21T07:14:13Z	2016-09-23T21:31:42Z		test: Add tests for add/remove header after sent.	48		
 8683	52195	false	open	false	0		2016-09-21T07:18:50Z	2016-09-21T07:18:50Z		stream, test: add tests for 'readable' state machine	63		
@@ -1772,13 +1774,13 @@
 8694	1456821	true	open	false			2016-09-21T13:30:34Z	2016-09-22T06:41:05Z		doc: Recommend using port 0 instead of common.PORT	55		
 8695	275871	true	closed	false	1	0	2016-09-21T16:41:21Z	2016-09-23T15:54:16Z	2016-09-23T15:54:16Z	test: enable cyrillic punycode test case	25		
 8696	287917	true	open	false	0	0	2016-09-21T17:01:19Z	2016-09-21T17:01:19Z		doc: add eugeneo to collaborators	28		
-8697	9373002	true	open	false	15		2016-09-21T18:38:04Z	2016-09-23T21:26:21Z		test: improve test-child-process-fork-dgram	110		
+8697	9373002	true	open	false	16		2016-09-21T18:38:04Z	2016-09-23T22:46:13Z		test: improve test-child-process-fork-dgram	110		
 8698	5498548	false	closed	false	2		2016-09-21T18:44:10Z	2016-09-21T20:14:14Z	2016-09-21T20:14:14Z	RPM Package signing key	83		
 8699	14127285	false	open	false	3		2016-09-21T18:53:09Z	2016-09-21T20:22:52Z		[Archlinux] Need help ! 	77		
 8700	718899	false	open	false	2		2016-09-21T19:06:44Z	2016-09-22T05:15:51Z		Investigate flaky test-cluster-worker-init on Raspberry Pi 1	31		
 8701	416585	false	open	false	2		2016-09-21T19:28:18Z	2016-09-22T16:14:00Z		Unexpected Z_BUF_ERROR when using zlib	80		
 8702	71237	false	closed	false	2		2016-09-21T21:33:55Z	2016-09-22T03:31:46Z	2016-09-22T03:31:45Z	Inspector seg fault when stopping allocation profiler	536		
-8703	1898870	true	open	false	11		2016-09-21T22:34:52Z	2016-09-22T20:52:17Z		test: fix test-cluster-worker-init.js flakyness	54		
+8703	1898870	true	open	false	11		2016-09-21T22:34:52Z	2016-09-23T22:59:03Z		test: fix test-cluster-worker-init.js flakyness	54		
 8704	553630	true	open	false	9		2016-09-21T22:37:37Z	2016-09-23T09:27:45Z		Update BUILDING.md	67		
 8705	10136054	true	open	false	2		2016-09-21T22:57:11Z	2016-09-22T03:20:20Z		test: cleanup vars to const and '==' to '==='	80		
 8706	17535	true	open	false	6		2016-09-22T01:22:23Z	2016-09-22T15:24:03Z		deps: upgrade npm to 3.10.8	350		
@@ -1800,7 +1802,7 @@
 8722	498775	true	open	false	2		2016-09-22T15:45:49Z	2016-09-23T14:07:20Z		 Upgrade to openssl-1.0.1u for v0.10	49		
 8723	3058870	false	open	false	0		2016-09-22T16:25:43Z	2016-09-22T17:03:25Z		readdirSync fails on Windows (using Apple Boot camp) when accessing a OSX drive	118		
 8724	275871	false	open	false	1		2016-09-22T17:38:10Z	2016-09-23T03:24:39Z		buffer: segfault writing values with noAssert=true	163		
-8725	9373002	false	open	false	17		2016-09-22T19:05:26Z	2016-09-23T21:49:11Z		smartos - parallel/test-tick-processor-unkonwn failures	51		
+8725	9373002	false	open	false	19		2016-09-22T19:05:26Z	2016-09-23T22:29:24Z		smartos - parallel/test-tick-processor-unkonwn failures	51		
 8726	4421720	true	open	false	2		2016-09-22T21:11:00Z	2016-09-23T10:31:57Z		doc: add CTC meeting minutes 2016-09-14	29		
 8727	4421720	true	open	false			2016-09-22T21:25:54Z	2016-09-22T22:37:27Z		doc: add CTC meeting minutes 2016-09-21	27		
 8728	1869157	false	open	false	0		2016-09-22T23:12:39Z	2016-09-22T23:12:39Z		process.cpuUsage accuracy	173		
@@ -1820,11 +1822,12 @@
 8742	1935767	true	open	false	0	0	2016-09-23T15:09:35Z	2016-09-23T15:09:35Z		doc,tool: add tls.TLSSocket to typeMap	40		
 8743	22397837	false	open	false	0		2016-09-23T15:24:19Z	2016-09-23T15:24:19Z		Demo Site for exploring nodejs features?	42		
 8744	275871	false	open	false	5		2016-09-23T16:22:28Z	2016-09-23T18:18:43Z		test,crypto: sequential/test-crypto-timing-safe-equal-benchmarks flaky locally	63		
-8745	7698377	false	open	false	4		2016-09-23T17:02:15Z	2016-09-23T20:53:36Z		"Cygwin 'configure' call fails with ""Warning: Missing input files:"""	163		
+8745	7698377	false	open	false	6		2016-09-23T17:02:15Z	2016-09-23T22:17:23Z		"Cygwin 'configure' call fails with ""Warning: Missing input files:"""	163		
 8746	860364	false	closed	false	2		2016-09-23T18:28:49Z	2016-09-23T19:48:25Z	2016-09-23T19:48:25Z	global has two different behaviour with the same logic	84		
 8747	5076519	false	open	false	4		2016-09-23T18:46:49Z	2016-09-23T19:19:25Z		Unsafe parsing of URLs	298		
 8748	287917	true	open	false	0	0	2016-09-23T18:50:06Z	2016-09-23T18:50:06Z		test: use Buffer.from	43		
-8749	1813603	true	open	false			2016-09-23T19:07:34Z	2016-09-23T21:49:51Z		Add NODE_PRESERVE_SYMLINKS environment variable	58		
+8749	1813603	true	open	false			2016-09-23T19:07:34Z	2016-09-23T22:02:38Z		Add NODE_PRESERVE_SYMLINKS environment variable	58		
 8750	9373002	false	open	false	0		2016-09-23T20:25:54Z	2016-09-23T20:25:54Z		V8: v8tests.mjsunit/regress/regress-crbug-514081 failure on PPC BE	45		
 8751	291301	true	open	false	0	0	2016-09-23T20:57:02Z	2016-09-23T20:57:02Z		dgram: use Buffer.alloc(0) for zero-size buffers	59		
 8752	122831	false	open	false	0		2016-09-23T21:14:21Z	2016-09-23T21:14:21Z		cannot use tls.TLSSocket created from net.Socket after first 'data' event	317		
+8753	287917	true	open	false	0	0	2016-09-23T22:15:41Z	2016-09-23T22:15:41Z		inspector: build file cleanup	39		
