@@ -721,7 +721,7 @@
 7642	1018196	false	closed	false	5		2016-07-09T23:41:17Z	2016-07-13T04:21:05Z	2016-07-12T10:37:22Z	No nightlies since june 21st	16		
 7643	718899	false	closed	false	1		2016-07-10T02:23:31Z	2016-07-17T17:55:11Z	2016-07-17T17:55:11Z	Investigate flaky test-http-server-consumed-timeout on FreeBSD	60		
 7644	275871	true	open	false	15		2016-07-10T08:59:19Z	2016-08-04T20:58:45Z		src: don't use __builtin_bswap16() and friends	25		
-7645	469365	true	open	false	19		2016-07-10T20:01:22Z	2016-09-23T09:15:36Z		src: fix build failure for clang 3.2; consolidate byte swapping code	19		
+7645	469365	true	open	false	20		2016-07-10T20:01:22Z	2016-09-23T10:30:09Z		src: fix build failure for clang 3.2; consolidate byte swapping code	19		
 7646	718899	false	closed	false	0		2016-07-10T20:31:04Z	2016-07-27T21:38:38Z	2016-07-27T21:38:38Z	CONTRIBUTING.md assumes UNIX-like OS	18		
 7647	718899	true	closed	false	11		2016-07-10T21:05:19Z	2016-08-31T00:55:42Z	2016-07-13T18:18:31Z	tools: increase lint coverage	55		
 7648	696611	true	closed	false	9		2016-07-10T21:34:45Z	2016-08-27T14:24:23Z	2016-08-27T14:24:23Z	doc: improve fs.truncate functions' documentation	56		
@@ -1354,7 +1354,7 @@
 8277	495647	true	open	false			2016-08-26T08:11:24Z	2016-09-04T13:50:19Z		 No abort on require() with null bytes	107		
 8278	207889	false	closed	false	10		2016-08-26T08:23:30Z	2016-08-27T08:42:14Z	2016-08-27T08:42:14Z	SIGABRT on OS/X	152		
 8279	156539	false	open	false	11		2016-08-26T09:15:59Z	2016-08-27T13:54:05Z		(node:20446) Warning: Possible EventEmitter memory leak detected. 11 error listeners added. Use emitter.setMaxListeners() to increase limit	42		
-8280	317464	true	open	false	13		2016-08-26T10:00:00Z	2016-09-21T16:14:13Z		[WIP] deps: upgrade libuv to 1.10.0	37		
+8280	317464	true	open	false	13		2016-08-26T10:00:00Z	2016-09-23T10:28:12Z		[WIP] deps: upgrade libuv to 1.10.0	37		
 8281	1443911	true	open	false	3		2016-08-26T15:09:18Z	2016-09-12T04:04:49Z		doc: add `added:` information for crypto	27		
 8282	9271155	false	open	false	1		2016-08-26T16:59:30Z	2016-08-26T18:39:33Z		sockets: OutOfBand bytes/packets are not supported	108		
 8283	439929	true	closed	false	4		2016-08-26T18:40:28Z	2016-08-29T22:25:17Z	2016-08-29T22:25:17Z	test: additional refactoring/cleanup of buffer tests	61		
@@ -1800,13 +1800,13 @@
 8723	3058870	false	open	false	0		2016-09-22T16:25:43Z	2016-09-22T17:03:25Z		readdirSync fails on Windows (using Apple Boot camp) when accessing a OSX drive	118		
 8724	275871	false	open	false	1		2016-09-22T17:38:10Z	2016-09-23T03:24:39Z		buffer: segfault writing values with noAssert=true	163		
 8725	9373002	false	open	false	8		2016-09-22T19:05:26Z	2016-09-23T06:36:07Z		smartos - parallel/test-tick-processor-unkonwn failures	42		
-8726	4421720	true	open	false	0		2016-09-22T21:11:00Z	2016-09-22T22:32:15Z		doc: add CTC meeting minutes 2016-09-14	29		
+8726	4421720	true	open	false	2		2016-09-22T21:11:00Z	2016-09-23T10:31:57Z		doc: add CTC meeting minutes 2016-09-14	29		
 8727	4421720	true	open	false			2016-09-22T21:25:54Z	2016-09-22T22:37:27Z		doc: add CTC meeting minutes 2016-09-21	27		
 8728	1869157	false	open	false	0		2016-09-22T23:12:39Z	2016-09-22T23:12:39Z		process.cpuUsage accuracy	173		
 8729	7368115	true	open	false	0	0	2016-09-23T03:21:30Z	2016-09-23T03:21:30Z		Adds assertions to zero length buffer slice test	71		
 8730	85523	false	open	false	1		2016-09-23T06:56:06Z	2016-09-23T07:28:09Z		lift uv constants into separate constants implemetation files for uv process and lib/dns.js	31		
 8731	85523	false	open	false	0		2016-09-23T07:04:55Z	2016-09-23T07:04:55Z		Request for DNSSEC interface API	33		
-8732	85523	false	closed	false	2		2016-09-23T07:26:38Z	2016-09-23T09:44:57Z	2016-09-23T07:33:13Z	Request for tool to generate constant declarations in C++ and JavaScript from specifications	30		
+8732	85523	false	closed	false	3		2016-09-23T07:26:38Z	2016-09-23T10:16:39Z	2016-09-23T07:33:13Z	Request for tool to generate constant declarations in C++ and JavaScript from specifications	30		
 8733	12443664	false	open	false	0		2016-09-23T08:36:42Z	2016-09-23T08:36:42Z		Buffer performance degradation in 6.6.0	218		
 8734	18049850	false	open	false	0		2016-09-23T08:57:01Z	2016-09-23T08:57:01Z		node debugger not doing anything after it starts	84		
 8735	7289505	false	open	false	0		2016-09-23T09:03:10Z	2016-09-23T09:03:10Z		High CPU usage - futex_wait, gettimeofday syscalls	590		
