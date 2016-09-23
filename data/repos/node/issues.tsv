@@ -90,7 +90,7 @@
 3370	1316152	false	open	false	41		2015-10-14T16:29:36Z	2016-07-12T14:06:17Z		Node 4.2 large memory spikes and timeouts on Heroku 	333		
 3384	115237	true	open	false	16		2015-10-15T12:57:10Z	2016-09-02T17:52:43Z		module: remove require('.') with NODE_PATH compat	15		
 3402	595361	false	closed	false	201		2015-10-16T12:45:59Z	2016-07-18T20:32:50Z	2016-04-27T02:45:38Z	Don't resolve symlinks when requiring	120		
-3410	6677095	true	closed	false			2015-10-16T20:54:30Z	2016-09-23T08:59:15Z	2015-11-24T21:09:22Z	src: added big-endian check and support to UTF-16 encode	25		
+3410	6677095	true	closed	false			2015-10-16T20:54:30Z	2016-09-23T13:18:56Z	2015-11-24T21:09:22Z	src: added big-endian check and support to UTF-16 encode	25		
 3431	1145335	false	closed	false	10		2015-10-19T07:06:43Z	2016-09-22T16:42:19Z	2015-10-20T03:03:33Z	Can not install nodejs 4 on Windows 7 64-bit	95		
 3460	855219	false	open	false	57		2015-10-20T22:54:04Z	2016-08-01T16:52:49Z		"detect ""full-icu"" module"	95		
 3462	115237	false	closed	false	16		2015-10-21T00:03:57Z	2016-07-12T05:28:09Z	2015-10-21T16:40:43Z	btoa() and atob()	71		
@@ -721,7 +721,7 @@
 7642	1018196	false	closed	false	5		2016-07-09T23:41:17Z	2016-07-13T04:21:05Z	2016-07-12T10:37:22Z	No nightlies since june 21st	16		
 7643	718899	false	closed	false	1		2016-07-10T02:23:31Z	2016-07-17T17:55:11Z	2016-07-17T17:55:11Z	Investigate flaky test-http-server-consumed-timeout on FreeBSD	60		
 7644	275871	true	open	false	15		2016-07-10T08:59:19Z	2016-08-04T20:58:45Z		src: don't use __builtin_bswap16() and friends	25		
-7645	469365	true	open	false	20		2016-07-10T20:01:22Z	2016-09-23T10:30:09Z		src: fix build failure for clang 3.2; consolidate byte swapping code	19		
+7645	469365	true	open	false			2016-07-10T20:01:22Z	2016-09-23T13:02:54Z		src: fix build failure for clang 3.2; consolidate byte swapping code	19		
 7646	718899	false	closed	false	0		2016-07-10T20:31:04Z	2016-07-27T21:38:38Z	2016-07-27T21:38:38Z	CONTRIBUTING.md assumes UNIX-like OS	18		
 7647	718899	true	closed	false	11		2016-07-10T21:05:19Z	2016-08-31T00:55:42Z	2016-07-13T18:18:31Z	tools: increase lint coverage	55		
 7648	696611	true	closed	false	9		2016-07-10T21:34:45Z	2016-08-27T14:24:23Z	2016-08-27T14:24:23Z	doc: improve fs.truncate functions' documentation	56		
@@ -1645,7 +1645,7 @@
 8568	811047	true	open	false	6		2016-09-16T18:49:46Z	2016-09-16T22:36:05Z		test: fix test-debug-signal-cluster.js flakyness	53		
 8569	416585	false	open	false	4		2016-09-17T00:16:21Z	2016-09-23T09:49:19Z		Buffer.from(str, encoding) silently ignores decoding errors	79		
 8570	718899	true	closed	false	4	2	2016-09-17T03:09:33Z	2016-09-20T06:13:28Z	2016-09-20T06:13:28Z	doc: add link to help repo in README	25		
-8571	1400464	false	closed	false	18		2016-09-17T04:25:41Z	2016-09-22T05:49:56Z	2016-09-22T05:49:56Z	v6.6.0 node::PBKDF2() Out of Memory	97		
+8571	1400464	false	closed	false	19		2016-09-17T04:25:41Z	2016-09-23T13:45:06Z	2016-09-22T05:49:56Z	v6.6.0 node::PBKDF2() Out of Memory	97		
 8572	718899	true	closed	false	29		2016-09-17T05:48:38Z	2016-09-22T05:49:35Z	2016-09-22T05:49:35Z	src: Malloc/Calloc size 0 returns non-null pointer	113		
 8573	7329402	false	closed	false	1		2016-09-17T06:00:43Z	2016-09-17T20:50:05Z	2016-09-17T20:50:05Z	Error While Installing From FreeBSD Port	246		
 8574	718899	true	closed	false	1		2016-09-17T06:12:35Z	2016-09-20T16:40:03Z	2016-09-20T16:40:03Z	tools: increase armv6 timeout	73		
@@ -1809,6 +1809,6 @@
 8732	85523	false	closed	false	3		2016-09-23T07:26:38Z	2016-09-23T10:16:39Z	2016-09-23T07:33:13Z	Request for tool to generate constant declarations in C++ and JavaScript from specifications	30		
 8733	12443664	false	open	false	0		2016-09-23T08:36:42Z	2016-09-23T12:01:42Z		Buffer performance degradation in 6.6.0	218		
 8734	18049850	false	open	false	0		2016-09-23T08:57:01Z	2016-09-23T08:57:01Z		node debugger not doing anything after it starts	84		
-8735	7289505	false	open	false	2		2016-09-23T09:03:10Z	2016-09-23T12:27:57Z		High CPU usage - futex_wait, gettimeofday syscalls	589		
+8735	7289505	false	closed	false	2		2016-09-23T09:03:10Z	2016-09-23T13:59:34Z	2016-09-23T12:28:04Z	High CPU usage - futex_wait, gettimeofday syscalls	589		
 8736	432351	true	open	false	0	0	2016-09-23T12:19:11Z	2016-09-23T12:19:11Z		src: fix minor typo in comments	39		
-8737	1082417	false	open	false	0		2016-09-23T13:00:32Z	2016-09-23T13:00:32Z		6.x querystring.parse returns object for which instanceof Object is false (was true for 4.x)	92		
+8737	1082417	false	open	false	1		2016-09-23T13:00:32Z	2016-09-23T13:41:57Z		6.x querystring.parse returns object for which instanceof Object is false (was true for 4.x)	98		
