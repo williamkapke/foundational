@@ -133,6 +133,7 @@
 4253	855219	true	closed	false	18		2015-12-12T01:21:25Z	2016-08-30T14:10:50Z	2016-05-04T22:07:05Z	nodejs/node#3111 - WIP v8BreakIterator disablement	6		
 4266	1470592	false	open	false	13		2015-12-14T00:40:39Z	2016-08-19T14:06:13Z		buffer.toString fails for buffers larger than 192MB	95		
 4270	495647	false	open	false	22		2015-12-14T10:06:18Z	2016-09-23T18:35:10Z		Discussion: OpenSSL 1.1.0 planning	297		
+4303	7731478	true	open	false	21		2015-12-16T04:12:08Z	2016-09-24T19:28:03Z		timer: make sure timer is cleared	267		
 4307	12825770	false	closed	false	11		2015-12-16T08:16:14Z	2016-07-11T09:25:48Z	2016-07-11T09:25:48Z	can not step in constructor, will will terminate node.exe	90		
 4329	16335744	false	closed	false	15		2015-12-17T11:41:17Z	2016-09-21T11:55:59Z	2016-01-15T10:53:49Z	node.js Setup Wizard ended prematurely	43		
 4351	1424946	false	open	false	8		2015-12-19T06:03:34Z	2016-09-13T16:40:03Z		fs.watch file matching is one character off in windows	43		
@@ -228,6 +229,7 @@
 6190	289174	false	open	false	12		2016-04-13T23:17:48Z	2016-09-05T09:58:35Z		net: multiple listen() events fail silently	94		
 6212	54666	true	closed	false	10		2016-04-15T05:28:43Z	2016-08-30T18:31:41Z	2016-04-18T21:42:09Z	tools: move message listener to worker objects	64		
 6223	291301	false	closed	false	0		2016-04-15T16:38:22Z	2016-07-15T15:13:27Z	2016-07-15T15:13:27Z	uncaughtException documentation should mention that it not a reliable «restart on crash» method	106		
+6230	110455	true	open	false	6		2016-04-15T18:14:52Z	2016-09-24T19:39:44Z		test: split parallel into subsystems	99		
 6266	439929	true	closed	false	25		2016-04-19T04:04:21Z	2016-06-30T23:22:18Z	2016-04-21T19:15:04Z	src: add process.binding('config')	98		
 6271	149531	false	closed	false	18		2016-04-19T06:59:48Z	2016-07-12T19:59:53Z	2016-07-12T19:59:53Z	Improve stack traces for exceptions thrown at a top-level	229		
 6274	275871	true	closed	false	35		2016-04-19T08:05:44Z	2016-08-08T20:24:50Z	2016-07-05T14:13:29Z	test: add openssl add-on test	60		
@@ -357,7 +359,7 @@
 7035	54666	false	closed	false	2		2016-05-28T06:47:06Z	2016-07-02T14:34:40Z	2016-07-02T14:34:40Z	Investigate flaky parallel/test-debugger-repeat-last	29		
 7040	9536601	false	open	false	6		2016-05-28T18:25:18Z	2016-09-06T23:13:12Z		async_wrap: provide a way to act as an asynchronous try-catch	72		
 7042	718899	false	closed	false	8		2016-05-29T00:00:46Z	2016-07-09T04:46:48Z	2016-07-09T04:46:48Z	Investigate flaky test-fs-read-buffer-tostring-fail on Raspberry Pi	64		
-7043	54666	true	open	false	26		2016-05-29T07:14:49Z	2016-08-09T22:02:31Z		cluster,net: fix random port keying	67		
+7043	54666	true	open	false	30		2016-05-29T07:14:49Z	2016-09-24T19:55:43Z		cluster,net: fix random port keying	67		
 7044	207759	false	closed	false	11		2016-05-29T09:10:47Z	2016-08-12T11:14:32Z	2016-08-12T11:14:32Z	npm in Node 6.2.0 MSI does not work in Windows Docker container	348		
 7045	54666	true	closed	false	19		2016-05-29T09:54:33Z	2016-07-11T22:58:27Z	2016-06-11T02:37:42Z	test: use random ports where possible	119		
 7050	2512748	true	closed	false	5		2016-05-29T18:07:21Z	2016-07-11T21:59:19Z	2016-05-31T13:22:45Z	cluster: rewrite debug ports consistently	115		
@@ -1179,7 +1181,7 @@
 8098	718899	true	closed	false	7		2016-08-14T03:48:25Z	2016-08-17T03:53:30Z	2016-08-17T03:53:30Z	test: use strict equality in regression test	38		
 8099	2352663	true	closed	false	6		2016-08-14T09:33:56Z	2016-08-20T15:01:42Z	2016-08-17T07:43:41Z	deps: cherry-pick de5aaad from V8's upstream	86		
 8100	899444	true	open	false	10		2016-08-14T17:22:09Z	2016-09-12T04:03:33Z		fs,module: add module-loader-only realpath cache	112		
-8101	6517897	true	open	false	11		2016-08-14T19:58:27Z	2016-08-31T00:02:45Z		net, http: allow setting socket connection timeout for http request	67		
+8101	6517897	true	open	false	11		2016-08-14T19:58:27Z	2016-09-24T19:18:37Z		net, http: allow setting socket connection timeout for http request	67		
 8102	6850510	false	open	false	8		2016-08-14T20:25:09Z	2016-08-15T19:52:48Z		False successfully end of request	344		
 8103	110455	true	open	false	1		2016-08-14T21:45:22Z	2016-08-14T22:04:14Z		http: fix legacy http.Client instanceof	205		
 8104	54666	true	closed	false	15	0	2016-08-14T22:28:11Z	2016-08-30T01:48:16Z	2016-08-30T01:48:16Z	http: remove deprecated Client interface	53	54666	2016-08-30T01:48:16Z
@@ -1789,7 +1791,7 @@
 8709	21365343	false	open	false	0		2016-09-22T08:34:53Z	2016-09-22T08:34:53Z		Q	6		
 8710	275871	true	closed	false	3	0	2016-09-22T09:13:50Z	2016-09-23T21:56:59Z	2016-09-23T21:56:59Z	src: don't abort when c-ares initialization fails	23		
 8711	17898715	false	closed	false	4		2016-09-22T11:41:53Z	2016-09-23T05:59:08Z	2016-09-22T17:15:26Z	TLSSocket sent to the sub-thread, this is no better solution for it	15		
-8712	432351	true	open	false	0	0	2016-09-22T12:23:48Z	2016-09-22T12:23:48Z		src: rename handle__ to handle_ in HandleWrap	58		
+8712	432351	true	closed	false	2	0	2016-09-22T12:23:48Z	2016-09-24T19:07:56Z	2016-09-24T19:07:56Z	src: rename handle__ to handle_ in HandleWrap	58		
 8713	291301	true	open	false	3		2016-09-22T12:39:06Z	2016-09-22T17:48:32Z		doc: enable no-file-name-articles remark-lint rule and rename doc/topics/the-event-loop-timers-and-nexttick.md	106		
 8714	782880	true	open	false	6		2016-09-22T12:48:25Z	2016-09-22T14:10:57Z		Upgrade to openssl-1.0.2i	82		
 8715	900690	false	open	false	0		2016-09-22T12:49:51Z	2016-09-22T12:49:51Z		Provide a way to call the native realpath function	156		
@@ -1813,7 +1815,7 @@
 8733	12443664	false	open	false	3		2016-09-23T08:36:42Z	2016-09-23T18:40:53Z		Buffer performance degradation in 6.6.0	218		
 8734	18049850	false	open	false	0		2016-09-23T08:57:01Z	2016-09-23T08:57:01Z		node debugger not doing anything after it starts	84		
 8735	7289505	false	closed	false	2		2016-09-23T09:03:10Z	2016-09-23T13:59:34Z	2016-09-23T12:28:04Z	High CPU usage - futex_wait, gettimeofday syscalls	589		
-8736	432351	true	open	false	0	0	2016-09-23T12:19:11Z	2016-09-23T12:19:11Z		src: fix minor typo in comments	39		
+8736	432351	true	closed	false	1	0	2016-09-23T12:19:11Z	2016-09-24T19:15:40Z	2016-09-24T19:15:40Z	src: fix minor typo in comments	39		
 8737	1082417	false	closed	false	5		2016-09-23T13:00:32Z	2016-09-23T16:04:21Z	2016-09-23T15:52:25Z	6.x querystring.parse returns object for which instanceof Object is false (was true for 4.x)	98		
 8738	899444	true	open	false	7		2016-09-23T14:01:25Z	2016-09-23T21:12:23Z		benchmark: add benchmarks for `Buffer.from()`	230		
 8739	10680833	true	open	false			2016-09-23T14:38:47Z	2016-09-24T08:41:38Z		buffer: fix check of buffer and rearrange conditional	95		
