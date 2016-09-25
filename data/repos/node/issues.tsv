@@ -359,7 +359,7 @@
 7035	54666	false	closed	false	2		2016-05-28T06:47:06Z	2016-07-02T14:34:40Z	2016-07-02T14:34:40Z	Investigate flaky parallel/test-debugger-repeat-last	29		
 7040	9536601	false	open	false	6		2016-05-28T18:25:18Z	2016-09-06T23:13:12Z		async_wrap: provide a way to act as an asynchronous try-catch	72		
 7042	718899	false	closed	false	8		2016-05-29T00:00:46Z	2016-07-09T04:46:48Z	2016-07-09T04:46:48Z	Investigate flaky test-fs-read-buffer-tostring-fail on Raspberry Pi	64		
-7043	54666	true	open	false	30		2016-05-29T07:14:49Z	2016-09-24T19:55:43Z		cluster,net: fix random port keying	67		
+7043	54666	true	open	false	30		2016-05-29T07:14:49Z	2016-09-25T17:38:31Z		cluster,net: fix random port keying	67		
 7044	207759	false	closed	false	11		2016-05-29T09:10:47Z	2016-08-12T11:14:32Z	2016-08-12T11:14:32Z	npm in Node 6.2.0 MSI does not work in Windows Docker container	348		
 7045	54666	true	closed	false	19		2016-05-29T09:54:33Z	2016-07-11T22:58:27Z	2016-06-11T02:37:42Z	test: use random ports where possible	119		
 7050	2512748	true	closed	false	5		2016-05-29T18:07:21Z	2016-07-11T21:59:19Z	2016-05-31T13:22:45Z	cluster: rewrite debug ports consistently	115		
@@ -726,7 +726,7 @@
 7642	1018196	false	closed	false	5		2016-07-09T23:41:17Z	2016-07-13T04:21:05Z	2016-07-12T10:37:22Z	No nightlies since june 21st	16		
 7643	718899	false	closed	false	1		2016-07-10T02:23:31Z	2016-07-17T17:55:11Z	2016-07-17T17:55:11Z	Investigate flaky test-http-server-consumed-timeout on FreeBSD	60		
 7644	275871	true	open	false	16		2016-07-10T08:59:19Z	2016-09-24T09:49:14Z		src: don't use __builtin_bswap16() and friends	25		
-7645	469365	true	open	false	23		2016-07-10T20:01:22Z	2016-09-25T05:03:40Z		src: fix build failure for clang 3.2; consolidate byte swapping code; fix buffer writes for unaligned ucs2 strings	19		
+7645	469365	true	open	false	25		2016-07-10T20:01:22Z	2016-09-25T17:31:17Z		src: fix build failure for clang 3.2; consolidate byte swapping code; fix buffer writes for unaligned ucs2 strings	19		
 7646	718899	false	closed	false	0		2016-07-10T20:31:04Z	2016-07-27T21:38:38Z	2016-07-27T21:38:38Z	CONTRIBUTING.md assumes UNIX-like OS	18		
 7647	718899	true	closed	false	11		2016-07-10T21:05:19Z	2016-08-31T00:55:42Z	2016-07-13T18:18:31Z	tools: increase lint coverage	55		
 7648	696611	true	closed	false	9		2016-07-10T21:34:45Z	2016-08-27T14:24:23Z	2016-08-27T14:24:23Z	doc: improve fs.truncate functions' documentation	56		
@@ -937,7 +937,7 @@
 7853	516780	false	open	false	6		2016-07-23T19:28:07Z	2016-08-23T23:01:50Z		node --debug takes a really long time to respond to websockets	180		
 7854	1084056	true	closed	false	10		2016-07-23T20:09:19Z	2016-08-02T14:08:28Z	2016-08-02T14:08:28Z	test: fix test-vm-sigint flakiness	68		
 7855	1422781	true	open	false	21		2016-07-23T20:38:28Z	2016-09-11T18:27:37Z		dgram: setMulticastInterface() outgoing interface selection	72		
-7856	373545	true	open	false	22		2016-07-23T20:49:58Z	2016-09-25T09:41:43Z		fs: Fix default params for fs.write	81		
+7856	373545	true	open	false	23		2016-07-23T20:49:58Z	2016-09-25T17:24:39Z		fs: Fix default params for fs.write	81		
 7857	718899	true	closed	false	26		2016-07-23T21:15:43Z	2016-07-31T20:33:10Z	2016-07-31T20:33:10Z	test: fix flaky test-tls-wrap-timeout	59		
 7858	3524633	false	closed	false	19		2016-07-24T00:23:34Z	2016-09-19T07:03:51Z	2016-07-25T15:53:16Z	Add fsevents to NodeJS	211		
 7859	1084056	true	closed	false	9	5	2016-07-24T06:28:47Z	2016-07-31T21:08:12Z	2016-07-31T21:08:12Z	tools,test: show signal code when test crashes	31	1084056	2016-07-31T21:08:12Z
@@ -1851,4 +1851,4 @@
 8769	1895795	true	open	false	1		2016-09-25T02:14:36Z	2016-09-25T05:26:48Z		test: in test/parallel/test-fs-realpath.js:	89		
 8770	5351085	true	open	false	3		2016-09-25T03:45:11Z	2016-09-25T09:29:44Z		replace ==, !=, some instances of var, and assert.equal()	69		
 8771	2733862	false	open	false	0		2016-09-25T05:51:51Z	2016-09-25T05:51:51Z		Assertion failed & Abort trap 6 when calling multiple times dns.resolve()	83		
-8772	22425789	false	closed	false	0		2016-09-25T13:50:57Z	2016-09-25T15:45:15Z	2016-09-25T15:45:15Z	Installing Problem 'this is not a valid Windows installer' 			
+8772	22425789	false	closed	false	0		2016-09-25T13:50:57Z	2016-09-25T15:45:15Z	2016-09-25T15:45:15Z	Installing Problem 'this is not a valid Windows installer' 	0		
