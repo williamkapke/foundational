@@ -229,7 +229,7 @@
 6190	289174	false	open	false	12		2016-04-13T23:17:48Z	2016-09-05T09:58:35Z		net: multiple listen() events fail silently	94		
 6212	54666	true	closed	false	10		2016-04-15T05:28:43Z	2016-08-30T18:31:41Z	2016-04-18T21:42:09Z	tools: move message listener to worker objects	64		
 6223	291301	false	closed	false	0		2016-04-15T16:38:22Z	2016-07-15T15:13:27Z	2016-07-15T15:13:27Z	uncaughtException documentation should mention that it not a reliable «restart on crash» method	106		
-6230	110455	true	open	false	6		2016-04-15T18:14:52Z	2016-09-24T19:39:44Z		test: split parallel into subsystems	99		
+6230	110455	true	open	false	6		2016-04-15T18:14:52Z	2016-09-25T05:58:52Z		test: split parallel into subsystems	99		
 6266	439929	true	closed	false	25		2016-04-19T04:04:21Z	2016-06-30T23:22:18Z	2016-04-21T19:15:04Z	src: add process.binding('config')	98		
 6271	149531	false	closed	false	18		2016-04-19T06:59:48Z	2016-07-12T19:59:53Z	2016-07-12T19:59:53Z	Improve stack traces for exceptions thrown at a top-level	229		
 6274	275871	true	closed	false	35		2016-04-19T08:05:44Z	2016-08-08T20:24:50Z	2016-07-05T14:13:29Z	test: add openssl add-on test	60		
@@ -726,7 +726,7 @@
 7642	1018196	false	closed	false	5		2016-07-09T23:41:17Z	2016-07-13T04:21:05Z	2016-07-12T10:37:22Z	No nightlies since june 21st	16		
 7643	718899	false	closed	false	1		2016-07-10T02:23:31Z	2016-07-17T17:55:11Z	2016-07-17T17:55:11Z	Investigate flaky test-http-server-consumed-timeout on FreeBSD	60		
 7644	275871	true	open	false	16		2016-07-10T08:59:19Z	2016-09-24T09:49:14Z		src: don't use __builtin_bswap16() and friends	25		
-7645	469365	true	open	false	22		2016-07-10T20:01:22Z	2016-09-24T22:44:31Z		src: fix build failure for clang 3.2; consolidate byte swapping code	19		
+7645	469365	true	open	false	23		2016-07-10T20:01:22Z	2016-09-25T05:03:40Z		src: fix build failure for clang 3.2; consolidate byte swapping code; fix buffer writes for unaligned ucs2 strings	19		
 7646	718899	false	closed	false	0		2016-07-10T20:31:04Z	2016-07-27T21:38:38Z	2016-07-27T21:38:38Z	CONTRIBUTING.md assumes UNIX-like OS	18		
 7647	718899	true	closed	false	11		2016-07-10T21:05:19Z	2016-08-31T00:55:42Z	2016-07-13T18:18:31Z	tools: increase lint coverage	55		
 7648	696611	true	closed	false	9		2016-07-10T21:34:45Z	2016-08-27T14:24:23Z	2016-08-27T14:24:23Z	doc: improve fs.truncate functions' documentation	56		
@@ -1565,7 +1565,7 @@
 8483	718899	false	closed	false	0		2016-09-10T17:39:41Z	2016-09-14T03:36:09Z	2016-09-14T03:36:09Z	Investigate flaky parallel/test-force-repl on Windows	76		
 8484	718899	true	closed	false	7	4	2016-09-10T17:45:22Z	2016-09-14T03:35:56Z	2016-09-14T03:35:56Z	test: fix flaky test-force-repl	62		
 8485	1538624	true	closed	false	4		2016-09-10T20:01:26Z	2016-09-14T06:11:36Z	2016-09-14T06:11:36Z	doc: standardize rest parameters	135		
-8486	1538624	true	open	false	1		2016-09-10T23:16:08Z	2016-09-12T04:27:16Z		doc: revise http documentation	65		
+8486	1538624	true	open	false			2016-09-10T23:16:08Z	2016-09-25T05:07:22Z		doc: revise http documentation	65		
 8487	1935767	true	closed	false	11	0	2016-09-11T01:13:13Z	2016-09-15T06:27:58Z	2016-09-15T06:27:58Z	timers: length == 0 is untouchable because type checking	73		
 8488	1935767	true	open	false	6		2016-09-11T01:44:26Z	2016-09-12T04:35:11Z		doc: fix link on timers.md	49		
 8489	1935767	true	open	false	4		2016-09-11T06:26:36Z	2016-09-15T06:20:18Z		doc, url: fix type names	63		
@@ -1824,7 +1824,7 @@
 8742	1935767	true	open	false	0	0	2016-09-23T15:09:35Z	2016-09-23T15:09:35Z		doc,tool: add tls.TLSSocket to typeMap	40		
 8743	22397837	false	open	false	0		2016-09-23T15:24:19Z	2016-09-23T15:24:19Z		Demo Site for exploring nodejs features?	42		
 8744	275871	false	open	false	5		2016-09-23T16:22:28Z	2016-09-23T18:18:43Z		test,crypto: sequential/test-crypto-timing-safe-equal-benchmarks flaky locally	63		
-8745	7698377	false	open	false	6		2016-09-23T17:02:15Z	2016-09-23T22:17:23Z		"Cygwin 'configure' call fails with ""Warning: Missing input files:"""	163		
+8745	7698377	false	open	false	7		2016-09-23T17:02:15Z	2016-09-25T06:01:14Z		"Cygwin 'configure' call fails with ""Warning: Missing input files:"""	163		
 8746	860364	false	closed	false	2		2016-09-23T18:28:49Z	2016-09-23T19:48:25Z	2016-09-23T19:48:25Z	global has two different behaviour with the same logic	84		
 8747	5076519	false	closed	false	13		2016-09-23T18:46:49Z	2016-09-24T13:14:43Z	2016-09-24T13:14:43Z	Unsafe parsing of URLs	298		
 8748	287917	true	open	false	1		2016-09-23T18:50:06Z	2016-09-23T23:18:59Z		test: use Buffer.from	43		
@@ -1842,11 +1842,12 @@
 8760	2352663	false	open	false	0		2016-09-24T15:22:04Z	2016-09-24T15:22:04Z		Investigate flaky test-tls-connect-pipe on pi1	64		
 8761	133008	true	open	false	1		2016-09-24T21:25:25Z	2016-09-24T22:05:33Z		test: cleanup/update test-os.js	42		
 8762	578156	true	open	false	4		2016-09-24T22:05:10Z	2016-09-24T23:04:01Z		changed var to const, added strict equality checks	45		
-8763	7856010	true	open	false	0	0	2016-09-24T22:19:17Z	2016-09-24T22:19:17Z		Edited BUILDING.md, removing broken workaround for case where `python`	34		
+8763	7856010	true	open	false	2		2016-09-24T22:19:17Z	2016-09-25T05:43:58Z		Edited BUILDING.md, removing broken workaround for case where `python`	34		
 8764	17187383	true	open	false	0	0	2016-09-24T22:43:27Z	2016-09-24T22:43:27Z		test: updates != and var language	49		
 8765	5351085	true	closed	false	1	0	2016-09-24T23:06:04Z	2016-09-25T03:46:03Z	2016-09-25T03:46:03Z	replaced ==, !=, some var instances, assert.equal() for more clarity	71		
-8766	16641264	true	open	false			2016-09-24T23:25:28Z	2016-09-25T01:43:14Z		test:replace indexOf, assert.equal, add mustCall	88		
+8766	16641264	true	open	false	1		2016-09-24T23:25:28Z	2016-09-25T05:42:14Z		test:replace indexOf, assert.equal, add mustCall	88		
 8767	2810775	true	open	false			2016-09-24T23:41:33Z	2016-09-25T01:35:13Z		test: update tests-https-truncate	49		
 8768	5351085	true	closed	false	1	0	2016-09-24T23:47:21Z	2016-09-25T03:46:10Z	2016-09-25T03:46:10Z	replace ==, !=, some instances of var, and assert.equal()	69		
-8769	1895795	true	open	false	0	0	2016-09-25T02:14:36Z	2016-09-25T02:14:36Z		test: in test/parallel/test-fs-realpath.js:	89		
-8770	5351085	true	open	false	0	0	2016-09-25T03:45:11Z	2016-09-25T03:45:11Z		replace ==, !=, some instances of var, and assert.equal()	69		
+8769	1895795	true	open	false	1		2016-09-25T02:14:36Z	2016-09-25T05:26:48Z		test: in test/parallel/test-fs-realpath.js:	89		
+8770	5351085	true	open	false	0		2016-09-25T03:45:11Z	2016-09-25T05:23:04Z		replace ==, !=, some instances of var, and assert.equal()	69		
+8771	2733862	false	open	false	0		2016-09-25T05:51:51Z	2016-09-25T05:51:51Z		Assertion failed & Abort trap 6 when calling multiple times dns.resolve()	83		
