@@ -1768,7 +1768,7 @@
 8683	52195	false	open	false	1		2016-09-21T07:18:50Z	2016-09-24T20:45:28Z		stream, test: add tests for 'readable' state machine	63		
 8684	52195	false	open	false	0		2016-09-21T07:23:46Z	2016-09-21T07:23:46Z		stream, test: add tests for _readableStream.awaitDrain	18		
 8685	52195	false	open	false	0		2016-09-21T07:27:13Z	2016-09-21T07:27:13Z		stream, test: add test for _readableState.readingMore	9		
-8686	52195	false	open	false	0		2016-09-21T07:31:47Z	2016-09-21T07:31:47Z		stream, test: Add test for _writableState state machine	20		
+8686	52195	false	open	false	1		2016-09-21T07:31:47Z	2016-09-26T18:59:34Z		stream, test: Add test for _writableState state machine	23		
 8687	52195	false	open	false	0		2016-09-21T07:35:35Z	2016-09-24T20:55:49Z		stream, test: Add test for _writableState clearBuffer state machine	26		
 8688	13503628	false	open	false	4		2016-09-21T08:23:19Z	2016-09-21T12:13:08Z		 npm 命令出错 Error: EEXIST: file already exists, mkdir 'C:\Program Files\nodejs\npm'     at Error (native) 3.10.3	31		
 8689	5140822	true	open	false	3		2016-09-21T08:35:07Z	2016-09-22T23:07:46Z		Removes FIXME	42		
@@ -1820,7 +1820,7 @@
 8735	7289505	false	closed	false	2		2016-09-23T09:03:10Z	2016-09-23T13:59:34Z	2016-09-23T12:28:04Z	High CPU usage - futex_wait, gettimeofday syscalls	589		
 8736	432351	true	closed	false	1	0	2016-09-23T12:19:11Z	2016-09-24T19:15:40Z	2016-09-24T19:15:40Z	src: fix minor typo in comments	39		
 8737	1082417	false	closed	false	5		2016-09-23T13:00:32Z	2016-09-23T16:04:21Z	2016-09-23T15:52:25Z	6.x querystring.parse returns object for which instanceof Object is false (was true for 4.x)	98		
-8738	899444	true	open	false	7		2016-09-23T14:01:25Z	2016-09-23T21:12:23Z		benchmark: add benchmarks for `Buffer.from()`	230		
+8738	899444	true	closed	false	10		2016-09-23T14:01:25Z	2016-09-26T18:22:42Z	2016-09-26T18:22:41Z	benchmark: add benchmarks for `Buffer.from()`	230		
 8739	10680833	true	open	false			2016-09-23T14:38:47Z	2016-09-25T06:16:51Z		buffer: fix check of buffer and rearrange conditional	95		
 8740	1935767	true	closed	false	4		2016-09-23T14:43:51Z	2016-09-26T14:27:49Z	2016-09-26T14:27:48Z	doc,tool: refactor checking jsPrimitives	94		
 8741	1935767	true	closed	false	0		2016-09-23T14:58:43Z	2016-09-26T16:23:04Z	2016-09-26T16:23:04Z	doc: improve child_process doc types	43		
@@ -1831,12 +1831,12 @@
 8746	860364	false	closed	false	2		2016-09-23T18:28:49Z	2016-09-23T19:48:25Z	2016-09-23T19:48:25Z	global has two different behaviour with the same logic	84		
 8747	5076519	false	closed	false	13		2016-09-23T18:46:49Z	2016-09-24T13:14:43Z	2016-09-24T13:14:43Z	Unsafe parsing of URLs	298		
 8748	287917	true	closed	false	1	3	2016-09-23T18:50:06Z	2016-09-26T16:28:47Z	2016-09-26T16:28:47Z	test: use Buffer.from	43		
-8749	1813603	true	open	false	2		2016-09-23T19:07:34Z	2016-09-26T14:06:01Z		Add NODE_PRESERVE_SYMLINKS environment variable	58		
+8749	1813603	true	open	false	4		2016-09-23T19:07:34Z	2016-09-26T18:44:07Z		Add NODE_PRESERVE_SYMLINKS environment variable	58		
 8750	9373002	false	open	false	3		2016-09-23T20:25:54Z	2016-09-26T17:27:40Z		V8: v8tests.mjsunit/regress/regress-crbug-514081 failure on PPC BE	45		
 8751	291301	true	open	false	0	0	2016-09-23T20:57:02Z	2016-09-23T20:57:02Z		dgram: use Buffer.alloc(0) for zero-size buffers	59		
 8752	122831	false	open	false	0		2016-09-23T21:14:21Z	2016-09-23T23:04:02Z		cannot use tls.TLSSocket created from net.Socket after first 'data' event	348		
 8753	287917	true	closed	false	0	0	2016-09-23T22:15:41Z	2016-09-26T16:29:21Z	2016-09-26T16:29:21Z	inspector: build file cleanup	39		
-8754	2352663	true	open	false	6		2016-09-23T23:05:53Z	2016-09-26T14:30:44Z		buffer: fix performance regression	296		
+8754	2352663	true	closed	false	6	0	2016-09-23T23:05:53Z	2016-09-26T18:14:32Z	2016-09-26T18:14:32Z	buffer: fix performance regression	296	2352663	2016-09-26T18:14:32Z
 8755	718899	true	open	false	3		2016-09-23T23:45:47Z	2016-09-26T14:58:18Z		test: accept expected AIX result test-stdio-closed	86		
 8756	5140822	true	open	false	1		2016-09-24T08:20:14Z	2016-09-26T14:52:30Z		test: removes FIXME parallel/test-repl-persistent-history	55		
 8757	5140822	true	open	false	0		2016-09-24T11:32:35Z	2016-09-25T07:18:07Z		test: remove FIXME pummel/test-tls-securepair-client	78		
@@ -1865,13 +1865,16 @@
 8780	22438485	false	open	false	2		2016-09-26T03:40:07Z	2016-09-26T05:25:00Z		nodejs armv8 can't run normally in Raspberry Pi 3 Model B	40		
 8781	1935767	true	open	false	5		2016-09-26T04:03:00Z	2016-09-26T07:24:23Z		tls: improve createSecureContext in _tls_common	51		
 8782	1935767	true	open	false	0	0	2016-09-26T04:55:28Z	2016-09-26T04:55:28Z		doc: fix title level at tls.md	40		
-8783	1935767	true	open	false	4		2016-09-26T06:03:10Z	2016-09-26T16:20:29Z		tls: should use .deprecated to wrap the deprecated createSecurePair	42		
+8783	1935767	true	open	false	7		2016-09-26T06:03:10Z	2016-09-26T18:10:21Z		tls: should use .deprecated to wrap the deprecated createSecurePair	42		
 8784	275871	true	open	false	2		2016-09-26T08:02:02Z	2016-09-26T09:10:37Z		src: rename CHECK_NOT_OOB() macro	21		
 8785	134460	true	open	false	0	0	2016-09-26T12:16:31Z	2016-09-26T12:16:31Z		win,tools: ignore linting for line breaks	73		
 8786	782880	true	open	false	0		2016-09-26T12:30:17Z	2016-09-26T14:18:32Z		Upgrade to openssl102j	72		
 8787	17819258	false	closed	false	1		2016-09-26T12:36:20Z	2016-09-26T14:21:43Z	2016-09-26T14:21:42Z	when using nvm,How to move global modules to another node version	23		
 8788	17704638	true	open	false			2016-09-26T13:36:29Z	2016-09-26T15:20:24Z		benchmark: add info about required Unix tools	57		
-8789	498775	true	open	false	2		2016-09-26T14:52:37Z	2016-09-26T16:22:34Z		Upgrade to openssl102j v6.x	68		
-8790	498775	true	open	false	0	0	2016-09-26T14:54:18Z	2016-09-26T14:54:19Z		Upgrade Openssl to 1.0.2j v4.x	68		
+8789	498775	true	open	false	3		2016-09-26T14:52:37Z	2016-09-26T18:21:02Z		Upgrade to openssl102j v6.x	68		
+8790	498775	true	open	false	2		2016-09-26T14:54:19Z	2016-09-26T18:20:57Z		Upgrade Openssl to 1.0.2j v4.x	68		
 8791	6354455	true	open	false	0	0	2016-09-26T15:58:42Z	2016-09-26T15:58:42Z		addin test for _stream.writable finished state	53		
-8792	354296	false	open	false	0		2016-09-26T17:06:56Z	2016-09-26T17:06:56Z		Feature request: REPL show variable contents upon variable creation	52		
+8792	354296	false	open	false	1		2016-09-26T17:06:56Z	2016-09-26T18:45:06Z		Feature request: REPL show variable contents upon variable creation	52		
+8793	2352663	false	open	false	0		2016-09-26T18:07:20Z	2016-09-26T18:07:20Z		Audit performance of master with V8 5.4	49		
+8794	441346	true	open	false	0	0	2016-09-26T18:21:35Z	2016-09-26T18:21:35Z		test: fix running child-process-uid-gid as root	55		
+8795	134460	true	open	false	0	0	2016-09-26T18:34:50Z	2016-09-26T18:34:50Z		win,msi: mark INSTALLDIR property as secure	149		
