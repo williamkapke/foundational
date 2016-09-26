@@ -37,6 +37,7 @@
 1802	744035	false	open	false	8		2015-05-26T21:22:12Z	2016-07-03T04:55:24Z		url: parse() fails if auth contain a colon or ampersand	160		
 1843	54666	true	closed	false	71		2015-05-30T08:25:30Z	2016-08-06T07:34:31Z	2016-08-06T07:34:31Z	dns: add new DNS resolver and set it as default	22		
 1873	291301	false	open	false	14		2015-06-02T18:58:34Z	2016-08-03T22:38:15Z		http.OutgoingMessage headers API	64		
+1924	474017	false	open	false	16		2015-06-09T14:12:21Z	2016-09-26T08:32:52Z		Not closing all connections.	187		
 2025	696611	true	closed	false	6		2015-06-20T20:27:17Z	2016-08-29T23:49:08Z	2015-06-21T03:19:14Z	util: moving internal helpers to internal module	35		
 2098	1881921	false	closed	false	20		2015-07-03T10:19:55Z	2016-07-12T10:29:54Z	2016-04-10T08:19:20Z	child_process.spawn sh not killable	166		
 2114	289174	false	open	false	12		2015-07-06T19:32:55Z	2016-07-20T15:59:23Z		incorrect URL parsing	46		
@@ -144,7 +145,7 @@
 4427	718899	false	closed	false	45		2015-12-26T16:25:19Z	2016-09-16T12:18:36Z	2016-09-16T12:18:36Z	Investigate flaky test-tick-processor	5		
 4482	178512	true	closed	false	30		2015-12-30T13:30:25Z	2016-07-28T21:58:08Z	2016-01-04T18:36:32Z	Http(s) Agent: handle errors on idle sockets	57		
 4528	677994	true	open	false	14		2016-01-04T12:26:41Z	2016-08-09T20:26:39Z		http: make path null in Agent#createSocket	34		
-4560	1578784	false	open	false	6		2016-01-07T02:52:14Z	2016-09-22T21:02:45Z		socket stay in ESTABLISHED status	309		
+4560	1578784	false	closed	false	8		2016-01-07T02:52:14Z	2016-09-26T08:36:38Z	2016-09-26T08:36:38Z	socket stay in ESTABLISHED status	309		
 4629	1084056	true	closed	false	25	0	2016-01-11T21:36:45Z	2016-09-01T17:30:50Z	2016-09-01T17:30:50Z	test: fix `fs-watch-recursive` flakiness	47	1084056	2016-09-01T17:30:50Z
 4630	10704816	true	closed	false	13	1	2016-01-11T22:32:27Z	2016-06-29T14:12:03Z	2016-06-29T14:12:03Z	tools: add missing headers	16		
 4640	718899	false	open	false	28		2016-01-12T05:33:04Z	2016-09-22T21:14:24Z		TODO/XXX/FIXME comments in tests	434		
@@ -164,6 +165,7 @@
 4941	2757844	false	closed	false	4		2016-01-29T05:18:31Z	2016-08-10T18:15:17Z	2016-01-29T08:50:38Z	Error: not implemented when using streams with setInterval	171		
 4956	21203	true	open	false	14		2016-01-29T19:50:47Z	2016-08-27T04:45:47Z		crypto: remove POINT_CONVERSION_HYBRID	44		
 5025	275871	true	open	false	31		2016-02-01T13:14:18Z	2016-08-23T20:38:28Z		debugger: bind to random port with --debug-port=0	13		
+5026	6603598	false	open	false	8		2016-02-01T14:05:29Z	2016-09-26T08:37:24Z		NodeJS (Windows Buid) : TCP connection Leak (Stays in Established)	277		
 5053	5559820	true	closed	false	36	3	2016-02-03T06:34:54Z	2016-09-17T10:08:04Z	2016-09-17T10:08:03Z	doc: use eslint	55		
 5094	12488060	false	open	false	6		2016-02-04T23:46:05Z	2016-07-09T02:37:13Z		File names in readable_stream folder are not supported in Windows	333		
 5095	8822573	false	open	false	7		2016-02-05T00:53:51Z	2016-07-04T14:21:24Z		node: unix sockets are slow in case of lots of small buffers	445		
@@ -1655,7 +1657,7 @@
 8572	718899	true	closed	false	29		2016-09-17T05:48:38Z	2016-09-22T05:49:35Z	2016-09-22T05:49:35Z	src: Malloc/Calloc size 0 returns non-null pointer	113		
 8573	7329402	false	closed	false	1		2016-09-17T06:00:43Z	2016-09-17T20:50:05Z	2016-09-17T20:50:05Z	Error While Installing From FreeBSD Port	246		
 8574	718899	true	closed	false	1		2016-09-17T06:12:35Z	2016-09-20T16:40:03Z	2016-09-20T16:40:03Z	tools: increase armv6 timeout	73		
-8575	2361826	true	open	false	3		2016-09-17T08:05:56Z	2016-09-23T15:09:11Z		module: Remove deprecated/unused function requireRepl. Part of #4642	34		
+8575	2361826	true	open	false	5		2016-09-17T08:05:56Z	2016-09-26T08:35:47Z		module: Remove deprecated/unused function requireRepl. Part of #4642	34		
 8576	1116738	true	open	false	20		2016-09-17T08:11:16Z	2016-09-25T01:08:29Z		module: NativeModule._cache turned to a Map	37		
 8577	125466	true	open	false	6		2016-09-17T08:30:43Z	2016-09-19T23:11:13Z		test: cleanup test-c-ares.js	50		
 8578	2361826	true	open	false	2		2016-09-17T08:32:01Z	2016-09-20T20:03:33Z		test: cleanup test-child-process-buffering	34		
@@ -1793,7 +1795,7 @@
 8710	275871	true	closed	false	3	0	2016-09-22T09:13:50Z	2016-09-23T21:56:59Z	2016-09-23T21:56:59Z	src: don't abort when c-ares initialization fails	23		
 8711	17898715	false	closed	false	4		2016-09-22T11:41:53Z	2016-09-23T05:59:08Z	2016-09-22T17:15:26Z	TLSSocket sent to the sub-thread, this is no better solution for it	15		
 8712	432351	true	closed	false	2	0	2016-09-22T12:23:48Z	2016-09-24T19:07:56Z	2016-09-24T19:07:56Z	src: rename handle__ to handle_ in HandleWrap	58		
-8713	291301	true	open	false	3		2016-09-22T12:39:06Z	2016-09-22T17:48:32Z		doc: enable no-file-name-articles remark-lint rule and rename doc/topics/the-event-loop-timers-and-nexttick.md	106		
+8713	291301	true	open	false	4		2016-09-22T12:39:06Z	2016-09-26T08:52:23Z		doc: enable no-file-name-articles remark-lint rule and rename doc/topics/the-event-loop-timers-and-nexttick.md	106		
 8714	782880	true	open	false	6		2016-09-22T12:48:25Z	2016-09-22T14:10:57Z		Upgrade to openssl-1.0.2i	82		
 8715	900690	false	open	false	0		2016-09-22T12:49:51Z	2016-09-22T12:49:51Z		Provide a way to call the native realpath function	156		
 8716	291301	true	open	false	0	0	2016-09-22T13:20:18Z	2016-09-22T13:20:18Z		doc: enable first-heading-level remark-lint rule	138		
@@ -1864,3 +1866,4 @@
 8781	1935767	true	open	false	5		2016-09-26T04:03:00Z	2016-09-26T07:24:23Z		tls: improve createSecureContext in _tls_common	51		
 8782	1935767	true	open	false	0	0	2016-09-26T04:55:28Z	2016-09-26T04:55:28Z		doc: fix title level at tls.md	40		
 8783	1935767	true	open	false	1		2016-09-26T06:03:10Z	2016-09-26T07:32:22Z		tls: should use .deprecated to wrap the deprecated createSecurePair	42		
+8784	275871	true	open	false	0	0	2016-09-26T08:02:02Z	2016-09-26T08:02:02Z		src: rename CHECK_NOT_OOB() macro	21		
