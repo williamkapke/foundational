@@ -52,6 +52,7 @@
 2333	115237	false	open	false	20		2015-08-09T06:04:13Z	2016-07-12T19:05:28Z		tty: stdio properties are undefined inside exec() child	45		
 2395	439929	true	closed	false	11	0	2015-08-16T00:23:48Z	2016-08-02T04:18:14Z	2016-08-02T04:18:14Z	http: correct fencepost error when freeing socket	60		
 2398	439929	false	open	false	40		2015-08-16T01:20:43Z	2016-09-12T13:13:01Z		DTLS Discussion	54		
+2407	355800	true	closed	false			2015-08-17T04:01:53Z	2016-09-27T21:34:56Z	2016-04-18T23:52:16Z	assert: respect assert.doesNotThrow message.	32		
 2498	696611	true	closed	false	22		2015-08-22T20:07:00Z	2016-07-21T22:32:14Z	2016-07-21T22:32:14Z	fs: do basic arg validation of truncate in js	25		
 2521	885648	true	open	false	30		2015-08-24T08:36:14Z	2016-06-30T04:22:37Z		added CSI (\x9b) as additionally allowable escape	135		
 2534	4405297	true	open	false	87		2015-08-25T01:59:16Z	2016-08-08T12:58:00Z		http: fixed socket destruction, timeout and leaking	144		
@@ -132,7 +133,7 @@
 4179	6068824	false	closed	false	15		2015-12-07T22:13:03Z	2016-08-15T20:12:24Z	2016-05-09T12:05:23Z	util.inherits does not establish prototype chain	176		
 4236	10103531	false	open	false	8		2015-12-11T01:18:07Z	2016-07-13T03:34:14Z		child_process.spawn() has undocumented 200kb buffer limit	74		
 4243	524382	true	closed	false	10	0	2015-12-11T17:36:12Z	2016-08-19T15:09:25Z	2016-08-19T15:09:25Z	src: use thread defaults provided by v8::platform	73		
-4246	238531	true	closed	false	7		2015-12-11T20:52:00Z	2016-09-27T20:56:01Z	2015-12-12T00:54:07Z	tls: introduce `secureContext` for `tls.connect`	18		
+4246	238531	true	closed	false	8		2015-12-11T20:52:00Z	2016-09-27T21:01:43Z	2015-12-12T00:54:07Z	tls: introduce `secureContext` for `tls.connect`	18		
 4253	855219	true	closed	false	18		2015-12-12T01:21:25Z	2016-08-30T14:10:50Z	2016-05-04T22:07:05Z	nodejs/node#3111 - WIP v8BreakIterator disablement	6		
 4266	1470592	false	open	false	13		2015-12-14T00:40:39Z	2016-08-19T14:06:13Z		buffer.toString fails for buffers larger than 192MB	95		
 4270	495647	false	open	false	22		2015-12-14T10:06:18Z	2016-09-23T18:35:10Z		Discussion: OpenSSL 1.1.0 planning	297		
@@ -1162,7 +1163,7 @@
 8072	1898870	true	closed	false	8		2016-08-11T20:24:38Z	2016-08-18T18:23:54Z	2016-08-18T18:23:54Z	url: make `url.format()` encode all occurrences of `#` in `search`	67		
 8073	718899	true	closed	false	10		2016-08-11T21:37:29Z	2016-08-15T03:49:09Z	2016-08-15T03:49:09Z	tools: enable rest-spread-spacing	74		
 8074	159100	false	open	false	22		2016-08-11T22:15:51Z	2016-08-31T15:44:46Z		segfault on node v6.3.1 on Ubuntu 14.04.4	138		
-8075	439929	true	open	false			2016-08-12T01:42:22Z	2016-08-17T21:39:41Z		[WIP] proposed new unicode module	62		
+8075	439929	true	open	false	11		2016-08-12T01:42:22Z	2016-09-27T21:56:59Z		[WIP] proposed new unicode module	62		
 8076	9373002	true	closed	false	4		2016-08-12T03:21:18Z	2016-08-25T16:15:40Z	2016-08-25T16:15:40Z	test: exclude tests for AIX	70		
 8077	3254987	false	closed	false	8		2016-08-12T07:53:11Z	2016-09-23T07:43:56Z	2016-08-18T07:20:12Z	child_process.spawn does not recognize local package in Windows	111		
 8078	101553	true	open	false	3		2016-08-12T08:14:23Z	2016-08-17T12:47:14Z		deps: cherry-pick 7bd24767 from v8 upstream (v6.x)	59		
@@ -1620,7 +1621,7 @@
 8531	289174	true	open	false	11		2016-09-14T10:59:17Z	2016-09-20T19:45:53Z		async_hooks initial implementation	530		
 8532	432351	true	closed	false	14		2016-09-14T13:27:30Z	2016-09-23T08:33:17Z	2016-09-23T08:33:17Z	src: make ReqWrap req_ member private	52		
 8533	15943089	true	closed	false	9		2016-09-14T16:41:34Z	2016-09-22T00:45:07Z	2016-09-14T16:57:29Z	doc: add gibfahn to collaborators	36		
-8534	1093990	false	open	false	0		2016-09-14T16:42:29Z	2016-09-14T16:42:29Z		Impossible to listen to beforeExit in single-tick --eval	379		
+8534	1093990	false	open	false	0		2016-09-14T16:42:29Z	2016-09-27T21:29:28Z		Impossible to listen to beforeExit in single-tick --eval	383		
 8535	1252061	false	open	false	0		2016-09-14T17:08:57Z	2016-09-14T17:08:57Z		stream.Readable issues data after .push(null)	215		
 8536	287917	true	closed	false	9	10	2016-09-14T17:25:40Z	2016-09-20T17:21:49Z	2016-09-20T17:21:49Z	inspector: zero out structure members	75		
 8537	374012	false	closed	false	4		2016-09-14T20:26:51Z	2016-09-20T23:51:39Z	2016-09-20T23:51:39Z	vm.runInContext is memory unsafe and can be used to dump core	112		
@@ -1723,7 +1724,7 @@
 8634	101553	true	closed	false	7		2016-09-17T17:02:06Z	2016-09-23T00:13:49Z	2016-09-23T00:13:49Z	src: add error message if we abort	38		
 8635	12407	false	closed	false	28		2016-09-17T17:06:29Z	2016-09-18T23:41:08Z	2016-09-18T09:59:51Z	NPM hangs on system, under FreeBSD 11.0 and OSX 10.11 with Node 6.5+	93		
 8636	12407	false	closed	false	13		2016-09-17T17:08:33Z	2016-09-19T07:43:39Z	2016-09-18T23:05:43Z	Unable to build 4.5.0 LTS on Darwin	18		
-8637	1093990	false	open	false	8		2016-09-17T17:38:07Z	2016-09-27T02:26:16Z		Benchmark var -> const before merging mass rewrites	56		
+8637	1093990	false	open	false	10		2016-09-17T17:38:07Z	2016-09-27T21:31:07Z		Benchmark var -> const before merging mass rewrites	56		
 8638	16693844	false	open	false	0		2016-09-17T18:33:21Z	2016-09-17T18:33:21Z		fs.utimes arguments documentation	159		
 8639	2999209	false	closed	false	1		2016-09-17T18:58:16Z	2016-09-18T09:11:45Z	2016-09-18T09:11:44Z	The installation script doesn't work correctly on Ubuntu 16.04 LTS. When the user intends to install v6, v4 is actually installed.	89		
 8640	10355544	true	closed	false	3		2016-09-17T22:14:47Z	2016-09-20T17:50:39Z	2016-09-20T17:50:39Z	Update test-tcp-wrap-listen.js with strictEqual and ES6 syntax	65		
@@ -1844,7 +1845,7 @@
 8755	718899	true	open	false	3		2016-09-23T23:45:47Z	2016-09-26T14:58:18Z		test: accept expected AIX result test-stdio-closed	86		
 8756	5140822	true	open	false	6		2016-09-24T08:20:14Z	2016-09-27T14:05:27Z		test: removes FIXME parallel/test-repl-persistent-history	55		
 8757	5140822	true	open	false	4		2016-09-24T11:32:35Z	2016-09-27T04:08:32Z		test: remove FIXME pummel/test-tls-securepair-client	78		
-8758	5140822	true	open	false	6		2016-09-24T11:41:35Z	2016-09-27T20:40:27Z		test: Removes FIXME parallel/test-setproctitle	71		
+8758	5140822	true	open	false	8		2016-09-24T11:41:35Z	2016-09-27T21:38:45Z		test: Removes FIXME parallel/test-setproctitle	71		
 8759	2352663	false	open	false	0		2016-09-24T15:20:58Z	2016-09-24T15:20:58Z		Investigate flaky test-regress-GH-4027 on pi1	65		
 8760	2352663	false	open	false	0		2016-09-24T15:22:04Z	2016-09-24T15:22:04Z		Investigate flaky test-tls-connect-pipe on pi1	64		
 8761	133008	true	open	false			2016-09-24T21:25:25Z	2016-09-25T07:21:38Z		test: cleanup/update test-os.js	42		
@@ -1862,7 +1863,7 @@
 8773	472825	false	open	false	0		2016-09-25T20:35:39Z	2016-09-25T20:35:39Z		Where does this value get set at?	116		
 8774	718899	true	open	false	6		2016-09-25T20:42:00Z	2016-09-27T20:38:56Z		doc: add optional step to onboarding doc	47		
 8775	1614246	false	open	false	0		2016-09-25T21:06:26Z	2016-09-25T21:06:26Z		http: abort tcp connection in the middle of request handling	389		
-8776	718899	true	open	false	5		2016-09-25T21:51:57Z	2016-09-26T14:30:40Z		doc: encourage 2FA before onboarding	69		
+8776	718899	true	open	false			2016-09-25T21:51:57Z	2016-09-27T21:51:55Z		doc: encourage 2FA before onboarding	69		
 8777	15350619	false	closed	false	1		2016-09-26T01:42:37Z	2016-09-26T06:33:27Z	2016-09-26T06:33:27Z	FS write and read position problem	98		
 8778	6354455	true	open	false			2016-09-26T02:46:59Z	2016-09-27T13:50:06Z		adding test for _stream.writable `ended` state	53		
 8779	5867109	false	closed	false	2		2016-09-26T03:24:53Z	2016-09-26T06:25:03Z	2016-09-26T06:25:03Z	Node v4.4.7 Strange error with spread related flags	120		
@@ -1884,14 +1885,15 @@
 8795	134460	true	open	false	3		2016-09-26T18:34:50Z	2016-09-27T17:19:33Z		win,msi: mark INSTALLDIR property as secure	149		
 8796	152407	true	closed	false	5		2016-09-26T19:06:45Z	2016-09-27T14:44:43Z	2016-09-27T14:44:43Z	Document crypto.timingSafeEqual() added in v6.6.0	37		
 8797	479816	false	open	false	4		2016-09-27T01:53:51Z	2016-09-27T20:14:54Z		`fs.rmdir()` on file (not directory) has Error result on Linux/macOS, no Error on Windows	95		
-8798	579	false	open	false	3		2016-09-27T03:02:37Z	2016-09-27T08:55:47Z		Add Locki to API documentation	65		
+8798	579	false	open	false	4		2016-09-27T03:02:37Z	2016-09-27T22:00:20Z		Add Locki to API documentation	65		
 8799	6354455	true	open	false			2016-09-27T03:29:25Z	2016-09-27T14:50:09Z		adding test for _stream_writable.js needDrain state	54		
 8800	1935767	true	open	false	7		2016-09-27T03:46:29Z	2016-09-27T20:51:02Z		dns: improve makeAsync internally by removing unneeded vaiable.	61		
-8801	6354455	true	open	false	6		2016-09-27T03:56:28Z	2016-09-27T20:59:09Z		stream: improving error msg for stream	85		
-8802	718899	false	open	false	5		2016-09-27T04:38:37Z	2016-09-27T21:00:17Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-09-28	453		
+8801	6354455	true	open	false	8		2016-09-27T03:56:28Z	2016-09-27T21:03:10Z		stream: improving error msg for stream	85		
+8802	718899	false	open	false	7		2016-09-27T04:38:37Z	2016-09-27T21:26:58Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-09-28	453		
 8803	1224527	false	open	false	0		2016-09-27T05:48:12Z	2016-09-27T05:48:12Z		tls.TLSSocket does not emit error event on handshake failure	117		
 8804	718899	false	open	false	0		2016-09-27T07:21:29Z	2016-09-27T07:21:29Z		investigate flaky inspector/test-inspector on Windows	131		
 8805	1224527	true	open	false			2016-09-27T10:01:40Z	2016-09-27T17:43:47Z		TLS/SSL: tls.TLSSocket emits error event on handshake failure	80		
 8806	2816034	false	closed	false	1		2016-09-27T10:20:51Z	2016-09-27T13:37:43Z	2016-09-27T13:37:43Z	Do I need to install node modules for each node process seperately?	97		
 8807	19629102	false	open	false	0		2016-09-27T16:18:07Z	2016-09-27T16:18:07Z		Can not getting complete stdout	248		
 8808	498775	true	open	false	7		2016-09-27T17:45:23Z	2016-09-27T20:41:37Z		meta: update NODE_MODULE_VERSION to 51	167		
+8809	3148402	false	open	false	0		2016-09-27T21:14:11Z	2016-09-27T21:14:11Z		Node server.js execution fails - Win10 node 4.4.3 npm 3.10.7	98		
