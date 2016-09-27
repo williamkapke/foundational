@@ -228,6 +228,7 @@
 6141	899444	true	open	false	1		2016-04-11T03:27:06Z	2016-08-09T21:56:02Z		zlib: Support for reading/writing Gzip headers	222		
 6160	110455	false	open	false	12		2016-04-12T00:26:17Z	2016-09-02T14:05:29Z		Clearing require.cache of native addon makes it throw when required later.	216		
 6180	3824055	false	closed	false	18		2016-04-13T14:03:54Z	2016-07-26T17:44:29Z	2016-07-26T17:44:29Z	Memory leak in simple test case involving WeakSet	202		
+6181	6279791	false	closed	false	5		2016-04-13T14:17:30Z	2016-09-27T13:15:32Z	2016-04-13T17:24:17Z	Uncaught TypeError when tab-completing constructor in REPL	66		
 6184	289174	true	closed	false	26		2016-04-13T19:21:38Z	2016-08-30T14:15:19Z	2016-05-24T20:44:10Z	src: no abort from GetFD if object isn't wrapped	88		
 6190	289174	false	open	false	12		2016-04-13T23:17:48Z	2016-09-05T09:58:35Z		net: multiple listen() events fail silently	94		
 6212	54666	true	closed	false	10		2016-04-15T05:28:43Z	2016-08-30T18:31:41Z	2016-04-18T21:42:09Z	tools: move message listener to worker objects	64		
@@ -1659,7 +1660,7 @@
 8572	718899	true	closed	false	29		2016-09-17T05:48:38Z	2016-09-22T05:49:35Z	2016-09-22T05:49:35Z	src: Malloc/Calloc size 0 returns non-null pointer	113		
 8573	7329402	false	closed	false	1		2016-09-17T06:00:43Z	2016-09-17T20:50:05Z	2016-09-17T20:50:05Z	Error While Installing From FreeBSD Port	246		
 8574	718899	true	closed	false	1		2016-09-17T06:12:35Z	2016-09-20T16:40:03Z	2016-09-20T16:40:03Z	tools: increase armv6 timeout	73		
-8575	2361826	true	open	false	5		2016-09-17T08:05:56Z	2016-09-26T08:35:47Z		module: Remove deprecated/unused function requireRepl. Part of #4642	34		
+8575	2361826	true	open	false	6		2016-09-17T08:05:56Z	2016-09-27T14:00:21Z		module: Remove deprecated/unused function requireRepl. Part of #4642	34		
 8576	1116738	true	open	false	20		2016-09-17T08:11:16Z	2016-09-25T01:08:29Z		module: NativeModule._cache turned to a Map	37		
 8577	125466	true	open	false	6		2016-09-17T08:30:43Z	2016-09-19T23:11:13Z		test: cleanup test-c-ares.js	50		
 8578	2361826	true	open	false	2		2016-09-17T08:32:01Z	2016-09-20T20:03:33Z		test: cleanup test-child-process-buffering	34		
@@ -1679,7 +1680,7 @@
 8592	6203008	true	open	false	3		2016-09-17T09:29:24Z	2016-09-24T21:44:53Z		test: changed var to const	37		
 8593	1935767	true	closed	false	3		2016-09-17T09:31:42Z	2016-09-22T17:21:59Z	2016-09-22T17:21:59Z	src: remove unneeded ABORT after CHECK(0)	126		
 8594	2764625	true	closed	false	2		2016-09-17T09:32:00Z	2016-09-22T17:11:28Z	2016-09-22T17:11:28Z	test: update test child process send utf8	45		
-8595	1852796	true	open	false	2		2016-09-17T09:33:10Z	2016-09-25T09:33:33Z		test: update var to const, use arrow functions	35		
+8595	1852796	true	closed	false	4		2016-09-17T09:33:10Z	2016-09-27T13:42:48Z	2016-09-27T13:42:48Z	test: update var to const, use arrow functions	35		
 8596	1177098	true	closed	false	3	1	2016-09-17T09:36:25Z	2016-09-22T17:04:21Z	2016-09-22T17:04:21Z	test: update equal to strictEqual & function to arrow function	47		
 8597	20119184	true	open	false	8		2016-09-17T09:36:32Z	2016-09-24T21:50:49Z		test: refactor test-crypto test files	43		
 8598	8742251	true	open	false	6		2016-09-17T09:39:33Z	2016-09-20T16:14:23Z		test: cleanup test-cluster-disconnect-unshared-tcp	28		
@@ -1800,7 +1801,7 @@
 8713	291301	true	open	false	4		2016-09-22T12:39:06Z	2016-09-26T08:52:23Z		doc: enable no-file-name-articles remark-lint rule and rename doc/topics/the-event-loop-timers-and-nexttick.md	106		
 8714	782880	true	open	false	6		2016-09-22T12:48:25Z	2016-09-22T14:10:57Z		Upgrade to openssl-1.0.2i	82		
 8715	900690	false	open	false	0		2016-09-22T12:49:51Z	2016-09-22T12:49:51Z		Provide a way to call the native realpath function	156		
-8716	291301	true	open	false	0	0	2016-09-22T13:20:18Z	2016-09-22T13:20:18Z		doc: enable first-heading-level remark-lint rule	138		
+8716	291301	true	closed	false	1		2016-09-22T13:20:18Z	2016-09-27T13:35:29Z	2016-09-27T13:35:29Z	doc: enable first-heading-level remark-lint rule	138		
 8717	238531	true	open	false	6		2016-09-22T13:50:23Z	2016-09-22T17:54:12Z		test: remove `&socket` from test_inspector_socket	80		
 8718	782880	true	open	false	2		2016-09-22T14:27:06Z	2016-09-22T15:02:30Z		Upgrade to openssl-1.0.1u for v0.12	49		
 8719	498775	true	closed	false	3	0	2016-09-22T14:38:42Z	2016-09-22T17:53:18Z	2016-09-22T17:53:18Z	Upgrade to openssl-1.0.2i v4.x	51	498775	2016-09-22T17:53:18Z
@@ -1862,11 +1863,11 @@
 8775	1614246	false	open	false	0		2016-09-25T21:06:26Z	2016-09-25T21:06:26Z		http: abort tcp connection in the middle of request handling	389		
 8776	718899	true	open	false	5		2016-09-25T21:51:57Z	2016-09-26T14:30:40Z		doc: encourage 2FA before onboarding	69		
 8777	15350619	false	closed	false	1		2016-09-26T01:42:37Z	2016-09-26T06:33:27Z	2016-09-26T06:33:27Z	FS write and read position problem	98		
-8778	6354455	true	open	false	0	0	2016-09-26T02:46:59Z	2016-09-26T02:46:59Z		adding test for _stream.writable `ended` state	53		
+8778	6354455	true	open	false			2016-09-26T02:46:59Z	2016-09-27T13:50:06Z		adding test for _stream.writable `ended` state	53		
 8779	5867109	false	closed	false	2		2016-09-26T03:24:53Z	2016-09-26T06:25:03Z	2016-09-26T06:25:03Z	Node v4.4.7 Strange error with spread related flags	120		
 8780	22438485	false	open	false	2		2016-09-26T03:40:07Z	2016-09-26T05:25:00Z		nodejs armv8 can't run normally in Raspberry Pi 3 Model B	40		
 8781	1935767	true	open	false	5		2016-09-26T04:03:00Z	2016-09-26T07:24:23Z		tls: improve createSecureContext in _tls_common	51		
-8782	1935767	true	open	false	0	0	2016-09-26T04:55:28Z	2016-09-26T04:55:28Z		doc: fix title level at tls.md	40		
+8782	1935767	true	open	false	1		2016-09-26T04:55:28Z	2016-09-27T13:55:51Z		doc: fix title level at tls.md	40		
 8783	1935767	true	open	false	7		2016-09-26T06:03:10Z	2016-09-26T18:10:21Z		tls: should use .deprecated to wrap the deprecated createSecurePair	42		
 8784	275871	true	open	false	2		2016-09-26T08:02:02Z	2016-09-26T09:10:37Z		src: rename CHECK_NOT_OOB() macro	21		
 8785	134460	true	open	false	0	0	2016-09-26T12:16:31Z	2016-09-26T12:16:31Z		win,tools: ignore linting for line breaks	73		
@@ -1876,7 +1877,7 @@
 8789	498775	true	open	false	3		2016-09-26T14:52:37Z	2016-09-26T18:21:02Z		Upgrade to openssl102j v6.x	68		
 8790	498775	true	closed	false	5		2016-09-26T14:54:19Z	2016-09-27T12:07:22Z	2016-09-27T12:07:22Z	Upgrade Openssl to 1.0.2j v4.x	68		
 8791	6354455	true	open	false	0	0	2016-09-26T15:58:42Z	2016-09-26T15:58:42Z		addin test for _stream.writable finished state	53		
-8792	354296	false	open	false	3		2016-09-26T17:06:56Z	2016-09-26T23:03:49Z		Feature request: REPL show variable contents upon variable creation	52		
+8792	354296	false	open	false	5		2016-09-26T17:06:56Z	2016-09-27T13:40:04Z		Feature request: REPL show variable contents upon variable creation	52		
 8793	2352663	false	open	false	0		2016-09-26T18:07:20Z	2016-09-26T18:07:20Z		Audit performance of master with V8 5.4	49		
 8794	441346	true	open	false	0	0	2016-09-26T18:21:35Z	2016-09-26T18:21:35Z		test: fix running child-process-uid-gid as root	55		
 8795	134460	true	open	false	0	0	2016-09-26T18:34:50Z	2016-09-26T18:34:50Z		win,msi: mark INSTALLDIR property as secure	149		
@@ -1885,9 +1886,9 @@
 8798	579	false	open	false	3		2016-09-27T03:02:37Z	2016-09-27T08:55:47Z		Add Locki to API documentation	65		
 8799	6354455	true	open	false	0	0	2016-09-27T03:29:25Z	2016-09-27T03:29:25Z		adding test for _stream_writable.js needDrain state	54		
 8800	1935767	true	open	false	2		2016-09-27T03:46:29Z	2016-09-27T06:13:48Z		dns: improve makeAsync internally by removing unneeded vaiable.	61		
-8801	6354455	true	open	false	3		2016-09-27T03:56:28Z	2016-09-27T12:15:59Z		stream: improving msg when transform._transform() method is not implemented	56		
+8801	6354455	true	open	false	5		2016-09-27T03:56:28Z	2016-09-27T13:19:21Z		stream: improving error msg for stream	77		
 8802	718899	false	open	false	4		2016-09-27T04:38:37Z	2016-09-27T05:05:45Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-09-28	453		
 8803	1224527	false	open	false	0		2016-09-27T05:48:12Z	2016-09-27T05:48:12Z		tls.TLSSocket does not emit error event on handshake failure	117		
 8804	718899	false	open	false	0		2016-09-27T07:21:29Z	2016-09-27T07:21:29Z		investigate flaky inspector/test-inspector on Windows	131		
 8805	1224527	true	open	false	0	0	2016-09-27T10:01:40Z	2016-09-27T10:01:40Z		TLS/SSL: tls.TLSSocket emits error event on handshake failure	86		
-8806	2816034	false	open	false	0		2016-09-27T10:20:51Z	2016-09-27T10:20:51Z		Do I need to install node modules for each node process seperately?	97		
+8806	2816034	false	closed	false	1		2016-09-27T10:20:51Z	2016-09-27T13:37:43Z	2016-09-27T13:37:43Z	Do I need to install node modules for each node process seperately?	97		
