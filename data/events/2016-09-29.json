@@ -1,10 +1,10 @@
 {
-  "words": 8470,
-  "comments": 176,
+  "words": 8888,
+  "comments": 192,
   "prs": {
-    "opened": 18,
+    "opened": 22,
     "closed": 21,
-    "words": 8391
+    "words": 8809
   },
   "issues": {
     "opened": 0,
@@ -30,7 +30,12 @@
       "comments": 4
     },
     "abi-stable-node": {"open":0},
-    "api": {"open":12},
+    "api": {
+      "30": {"comments":0,"words":34,"opened":"2016-09-29T19:17:56Z","opener":"9373002","pr":true},
+      "open": 13,
+      "words": 34,
+      "opened": 1
+    },
     "benchmarking": {
       "59": {"comments":1,"words":3,"pr":true,"closed":"2016-09-29T16:41:13Z","closer":"9373002"},
       "open": 12,
@@ -39,22 +44,23 @@
       "closed": 1
     },
     "build": {
-      "426": {"comments":1,"words":22,"pr":true},
+      "426": {"comments":2,"words":27,"pr":true},
       "445": {"comments":1,"words":121,"pr":true,"closed":"2016-09-29T18:35:44Z","closer":"9373002"},
       "461": {"comments":1,"words":62,"pr":true,"closed":"2016-09-29T16:49:07Z","closer":"9373002"},
       "473": {"comments":1,"words":14,"pr":true},
       "474": {"comments":1,"words":144,"pr":true,"closed":"2016-09-29T17:05:59Z","closer":"9373002"},
-      "484": {"comments":1,"words":13,"pr":true},
+      "484": {"comments":2,"words":18,"pr":true},
       "488": {"comments":4,"words":181,"pr":true},
       "490": {"comments":1,"words":102,"pr":true,"closed":"2016-09-29T17:05:20Z","closer":"9373002"},
       "492": {"comments":1,"words":69,"pr":true},
       "493": {"comments":2,"words":93,"pr":true},
+      "500": {"comments":2,"words":80,"pr":true},
       "502": {"comments":1,"words":6,"pr":true,"closed":"2016-09-29T16:35:13Z","closer":"9373002"},
       "506": {"comments":1,"words":5,"pr":true},
       "507": {"comments":0,"words":22,"pr":true,"opened":"2016-09-29T17:52:42Z","opener":"9373002"},
       "open": 113,
-      "words": 854,
-      "comments": 16,
+      "words": 944,
+      "comments": 20,
       "closed": 5,
       "opened": 1
     },
@@ -116,10 +122,12 @@
     "node": {
       "3009": {"comments":1,"words":97,"pr":true},
       "6269": {"comments":5,"words":229,"pr":true},
-      "6283": {"comments":1,"words":68,"pr":true},
+      "6283": {"comments":2,"words":98,"pr":true},
       "6695": {"comments":1,"words":143,"pr":true,"closed":"","closer":"498775"},
       "6956": {"comments":1,"words":17,"pr":true},
+      "7266": {"comments":1,"words":6,"pr":true},
       "7773": {"comments":0,"words":71,"pr":true,"closed":"2016-09-29T14:02:48Z","closer":"1093990"},
+      "8110": {"comments":2,"words":28,"pr":true},
       "8122": {"comments":2,"words":165,"pr":true},
       "8155": {"comments":12,"words":635,"pr":true},
       "8364": {"comments":1,"words":13,"pr":true},
@@ -129,6 +137,7 @@
       "8586": {"comments":2,"words":73,"pr":true,"closed":"","closer":"1898870"},
       "8655": {"comments":2,"words":14,"pr":true},
       "8661": {"comments":1,"words":2,"pr":true},
+      "8673": {"comments":1,"words":10,"pr":true},
       "8686": {"comments":1,"words":34,"pr":true},
       "8707": {"comments":1,"words":1,"pr":true},
       "8774": {"comments":1,"words":50,"pr":true,"closed":"2016-09-29T00:22:18Z","closer":"718899"},
@@ -137,7 +146,7 @@
       "8788": {"comments":1,"words":1,"pr":true},
       "8791": {"comments":1,"words":7,"pr":true},
       "8804": {"comments":1,"words":5,"pr":true},
-      "8805": {"comments":6,"words":137,"pr":true},
+      "8805": {"comments":7,"words":196,"pr":true},
       "8807": {"comments":1,"words":44,"pr":true},
       "8808": {"comments":0,"words":173,"pr":true,"closed":"2016-09-29T15:52:26Z","closer":"498775"},
       "8811": {"comments":2,"words":16,"pr":true},
@@ -158,12 +167,15 @@
       "8846": {"comments":3,"words":160,"opened":"2016-09-29T12:27:47Z","opener":"3607926","pr":true},
       "8847": {"comments":1,"words":86,"opened":"2016-09-29T12:42:22Z","opener":"9373002","pr":true},
       "8848": {"comments":0,"words":56,"pr":true,"opened":"2016-09-29T16:03:44Z","opener":"441346"},
-      "8849": {"comments":1,"words":59,"pr":true,"opened":"2016-09-29T18:19:35Z","opener":"739555"},
-      "open": 829,
-      "words": 4803,
-      "comments": 121,
+      "8849": {"comments":2,"words":61,"pr":true,"opened":"2016-09-29T18:19:35Z","opener":"739555"},
+      "8850": {"comments":1,"words":70,"pr":true,"opened":"2016-09-29T19:38:29Z","opener":"101553"},
+      "8851": {"comments":2,"words":48,"pr":true,"opened":"2016-09-29T19:42:40Z","opener":"498775"},
+      "8852": {"comments":2,"words":41,"pr":true,"opened":"2016-09-29T19:44:38Z","opener":"2352663"},
+      "open": 832,
+      "words": 5097,
+      "comments": 133,
       "closed": 12,
-      "opened": 10,
+      "opened": 13,
       "4f55158587ab2b701c11085bd39c57d9edb3ea94": {"comments":1,"words":6,"pr":false}
     },
     "node-addon-examples": {"open":29},
@@ -340,11 +352,17 @@
         "node/pulls/8845": 66,
         "node/pulls/8845#81108889": 3,
         "node/pulls/8845#81108954": 6,
-        "node/pulls/8846#250502322": 30
+        "node/pulls/8846#250502322": 30,
+        "node/pulls/8850": 68,
+        "node/pulls/6283#250570481": 30,
+        "node/pulls/8851#250571011": 1,
+        "node/pulls/8852#250571331": 4,
+        "node/pulls/8850#250571956": 2
       },
       "opened": [
         "node/pulls/8844",
-        "node/pulls/8845"
+        "node/pulls/8845",
+        "node/pulls/8850"
       ],
       "closed": [
         "node/pulls/8844"
@@ -383,7 +401,11 @@
         "build/pulls/492#250349553": 69,
         "build/pulls/488#250392086": 37,
         "build/pulls/493#250520381": 36,
-        "build/issues/474": 141
+        "build/issues/474": 141,
+        "node/pulls/8849#250561034": 2,
+        "build/pulls/426#250564917": 5,
+        "build/pulls/484#250565976": 5,
+        "build/pulls/500#250568898": 62
       },
       "closed": [
         "build/issues/474"
@@ -418,7 +440,8 @@
       "login": "indutny",
       "words": {
         "node/pulls/8805#81209824": 18,
-        "node/pulls/8805#81210138": 13
+        "node/pulls/8805#81210138": 13,
+        "node/pulls/8805#250573956": 59
       }
     },
     "275871": {
@@ -509,11 +532,18 @@
         "node/pulls/8503#250546821": 11,
         "node/pulls/8849#250551268": 13,
         "node/pulls/8832#250554580": 12,
-        "node/pulls/8831#250559502": 5
+        "node/pulls/8831#250559502": 5,
+        "node/pulls/8110#250566171": 17,
+        "node/pulls/7266#250566404": 6,
+        "node/pulls/8851": 46,
+        "node/pulls/8673#250570334": 10
       },
       "closed": [
         "node/pulls/8808",
         "node/pulls/6695"
+      ],
+      "opened": [
+        "node/pulls/8851"
       ]
     },
     "502396": {
@@ -599,7 +629,8 @@
       "id": "811047",
       "login": "misterdjules",
       "words": {
-        "node/pulls/8838#250532936": 53
+        "node/pulls/8838#250532936": 53,
+        "build/pulls/500#250567396": 18
       }
     },
     "899444": {
@@ -731,8 +762,14 @@
       "login": "targos",
       "words": {
         "node/pulls/8846#250453934": 2,
-        "citgm/pulls/187#250559170": 1189
-      }
+        "citgm/pulls/187#250559170": 1189,
+        "node/pulls/8852": 32,
+        "node/pulls/8851#250571025": 1,
+        "node/pulls/8852#250573147": 5
+      },
+      "opened": [
+        "node/pulls/8852"
+      ]
     },
     "2512748": {
       "id": "2512748",
@@ -820,6 +857,13 @@
         "node/pulls/8155#250468366": 12
       }
     },
+    "5445507": {
+      "id": "5445507",
+      "login": "richardlau",
+      "words": {
+        "node/pulls/8110#250563652": 11
+      }
+    },
     "6078550": {
       "id": "6078550",
       "login": "fene",
@@ -866,11 +910,13 @@
         "build/issues/445": 98,
         "build/pulls/426#250554478": 22,
         "node-eps/pulls/20#81208092": 21,
-        "node-eps/pulls/20#250559840": 143
+        "node-eps/pulls/20#250559840": 143,
+        "api/issues/30": 34
       },
       "opened": [
         "node/issues/8847",
-        "build/pulls/507"
+        "build/pulls/507",
+        "api/issues/30"
       ],
       "closed": [
         "build/pulls/502",
