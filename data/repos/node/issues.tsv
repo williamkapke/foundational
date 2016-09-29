@@ -346,7 +346,7 @@
 6948	275871	true	closed	false	12		2016-05-24T10:01:34Z	2016-07-11T21:35:43Z	2016-05-25T07:57:47Z	src: add include guards to internal headers	24		
 6951	321966	true	closed	false	7		2016-05-24T12:27:44Z	2016-07-12T14:40:15Z	2016-05-29T20:59:51Z	doc: buffers are not sent over IPC with a socket	67		
 6954	718899	false	closed	false	2		2016-05-24T15:49:55Z	2016-07-02T14:33:49Z	2016-07-02T14:33:49Z	Investigate flaky parallel/test-http-client-reject-chunked-with-content-length on smartos14-64	69		
-6956	1093990	true	open	false	19		2016-05-24T20:50:58Z	2016-09-19T11:27:09Z		timers: warn on overflowed timeout duration	66		
+6956	1093990	true	open	false	20		2016-05-24T20:50:58Z	2016-09-29T14:08:18Z		timers: warn on overflowed timeout duration	66		
 6957	899444	true	closed	false	6		2016-05-24T21:27:43Z	2016-06-30T23:28:00Z	2016-06-30T23:28:00Z	Backport 6907 to v4.x (console.* not working when running out of stack space)	40		
 6967	2352663	true	closed	false	8		2016-05-25T10:42:47Z	2016-07-12T06:22:51Z	2016-05-26T07:51:26Z	test: add regression test for Proxy as vm context	48		
 6972	1093990	true	open	false	5		2016-05-25T15:49:15Z	2016-07-05T17:22:30Z		repl: add a `noUnderscore` option	84		
@@ -864,7 +864,7 @@
 7770	10796236	false	closed	false	10		2016-07-17T10:00:26Z	2016-07-18T23:16:37Z	2016-07-18T07:49:46Z	arm and LD_LIBRARY_PATH (ld-linux-armhf.so.3: No such file or directory)	94		
 7771	6609554	true	closed	false	19		2016-07-17T16:12:09Z	2016-07-25T15:53:10Z	2016-07-19T21:53:57Z	deps: cherry-pick 2b4c9c1 from v8 upstream	148		
 7772	718899	true	closed	false	15		2016-07-17T16:41:46Z	2016-07-21T20:42:52Z	2016-07-20T16:58:33Z	test: increase RAM requirement for intensive tests	102		
-7773	1093990	true	open	false	5		2016-07-17T20:01:35Z	2016-09-20T17:48:42Z		test: clean up test-buffer-badhex	71		
+7773	1093990	true	closed	false	6	0	2016-07-17T20:01:35Z	2016-09-29T14:02:48Z	2016-09-29T14:02:48Z	test: clean up test-buffer-badhex	71	1093990	2016-09-29T14:02:47Z
 7774	899444	true	open	false	2		2016-07-17T20:53:45Z	2016-07-18T16:19:02Z		test: fix child_process testcase to actually detect regression	39		
 7775	899444	true	closed	false	9		2016-07-17T21:03:46Z	2016-07-25T08:03:09Z	2016-07-25T08:03:09Z	doc: fix `added:` date for `NODE_REPL_HISTORY`	46		
 7776	11649301	false	closed	false	14		2016-07-17T22:09:51Z	2016-07-27T07:00:47Z	2016-07-25T15:17:11Z	ECONNRESET problem with http.Server and https.Server (node 6.3, 6.2.2 and poss earlier)	258		
@@ -1900,7 +1900,7 @@
 8808	498775	true	open	false	10		2016-09-27T17:45:23Z	2016-09-28T15:06:15Z		meta: update NODE_MODULE_VERSION to 51	167		
 8809	3148402	false	closed	false	7		2016-09-27T21:14:11Z	2016-09-28T13:10:52Z	2016-09-27T21:31:52Z	Node server.js execution fails - Win10 node 4.4.3 npm 3.10.7	98		
 8810	439929	false	open	false	2		2016-09-27T22:13:15Z	2016-09-28T15:16:23Z		discuss: proposed standardization of `global` by tc-39	90		
-8811	1093990	true	open	false	6		2016-09-27T23:12:56Z	2016-09-29T13:50:33Z		doc: improve header styling for API docs	60		
+8811	1093990	true	open	false	8		2016-09-27T23:12:56Z	2016-09-29T14:50:07Z		doc: improve header styling for API docs	60		
 8812	479816	false	open	false	0		2016-09-28T01:37:14Z	2016-09-28T01:37:14Z		`chmod()` fails silently if process lacks sufficient permissions to change mode	86		
 8813	81581	false	open	false	14		2016-09-28T05:18:00Z	2016-09-28T14:18:29Z		url.toString() is '[object Object]' ?!!	78		
 8814	2876	false	open	false	8		2016-09-28T05:38:19Z	2016-09-28T21:13:35Z		Corrupted upload of node-v6.7.0-linux-ppc64le.tar.gz	32		
@@ -1927,13 +1927,13 @@
 8835	718899	true	open	false	2		2016-09-28T18:46:49Z	2016-09-28T19:03:14Z		test: mark test-inspector flaky on windows	30		
 8836	432351	true	open	false	0	0	2016-09-28T19:00:38Z	2016-09-28T19:00:38Z		test: enable addons test to pass with debug build	142		
 8837	567540	true	open	false			2016-09-28T20:55:31Z	2016-09-28T23:09:48Z		inspector: Allow require in Runtime.evaluate	100		
-8838	718899	false	open	false	0		2016-09-28T21:32:10Z	2016-09-28T21:32:10Z		investigate flaky parallel/test-debug-signal-cluster on SmartOS	75		
+8838	718899	false	open	false	1		2016-09-28T21:32:10Z	2016-09-29T14:31:34Z		investigate flaky parallel/test-debug-signal-cluster on SmartOS	75		
 8839	2205537	false	open	false	2		2016-09-28T23:55:39Z	2016-09-29T07:23:40Z		`process.stdin` is not implemented in bash for Windows 10... unknown type	246		
-8840	602462	true	open	false			2016-09-29T01:05:51Z	2016-09-29T04:15:20Z		doc: Docs for the common module API in tests	52		
+8840	602462	true	open	false			2016-09-29T01:05:51Z	2016-09-29T14:29:30Z		doc: Docs for the common module API in tests	52		
 8841	578156	true	open	false			2016-09-29T02:58:44Z	2016-09-29T07:17:34Z		test: use common.skip for tap skip output and test cleanup	49		
 8842	22516484	false	open	false	0		2016-09-29T07:29:36Z	2016-09-29T07:29:36Z		Node.js cannot find module & etc.	77		
 8843	4739995	false	open	false	1		2016-09-29T08:26:10Z	2016-09-29T09:01:42Z		node doesn't execute JS script and exits silently 	195		
 8844	101553	true	closed	false	2		2016-09-29T08:28:40Z	2016-09-29T09:35:47Z	2016-09-29T08:31:00Z	[doc] use consistent style	48		
-8845	101553	true	open	false			2016-09-29T08:52:40Z	2016-09-29T10:39:51Z		doc: Add example for running with v8-inspector	66		
+8845	101553	true	open	false	1		2016-09-29T08:52:40Z	2016-09-29T14:21:26Z		doc: add example for running with v8-inspector	66		
 8846	3607926	false	open	false	2		2016-09-29T12:27:47Z	2016-09-29T13:45:35Z		v6.7.0 V8_inspector link does not work on macOS 10.12 Chrome 53	117		
 8847	9373002	false	open	false	0		2016-09-29T12:42:22Z	2016-09-29T12:42:22Z		AIX: hang on 4.x run 	74		
