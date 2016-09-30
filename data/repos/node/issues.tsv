@@ -56,7 +56,7 @@
 2498	696611	true	closed	false	22		2015-08-22T20:07:00Z	2016-07-21T22:32:14Z	2016-07-21T22:32:14Z	fs: do basic arg validation of truncate in js	25		
 2521	885648	true	open	false	30		2015-08-24T08:36:14Z	2016-06-30T04:22:37Z		added CSI (\x9b) as additionally allowable escape	135		
 2534	4405297	true	open	false	87		2015-08-25T01:59:16Z	2016-08-08T12:58:00Z		http: fixed socket destruction, timeout and leaking	144		
-2569	13315	true	open	false	26		2015-08-27T04:34:55Z	2016-07-14T03:03:33Z		Add zh-CN i18n support for Windows installer	15		
+2569	13315	true	closed	false	27		2015-08-27T04:34:55Z	2016-09-30T16:14:04Z	2016-07-14T03:03:37Z	Add zh-CN i18n support for Windows installer	15		
 2571	153481	true	closed	false	47		2015-08-27T07:40:39Z	2016-08-09T22:05:24Z	2016-08-09T22:05:24Z	Refactor mac installer (Rebase of #776 against master)	13		
 2642	2645436	false	open	false	30		2015-09-02T06:06:18Z	2016-06-30T18:50:44Z		Keep alive connection do not get closed with server.close()	106		
 2668	291301	false	open	false	7		2015-09-02T21:50:48Z	2016-08-04T02:25:23Z		Unreachable code in buffer.js and unsigned bitwise shifts.	293		
@@ -153,7 +153,7 @@
 4630	10704816	true	closed	false	13	1	2016-01-11T22:32:27Z	2016-06-29T14:12:03Z	2016-06-29T14:12:03Z	tools: add missing headers	16		
 4640	718899	false	open	false	28		2016-01-12T05:33:04Z	2016-09-22T21:14:24Z		TODO/XXX/FIXME comments in tests	434		
 4646	1731633	false	closed	false	5		2016-01-12T12:07:41Z	2016-08-29T22:33:43Z	2016-08-29T22:33:43Z	http listen method is possible to be called twice with no error	68		
-4647	52195	true	closed	false	31		2016-01-12T12:24:07Z	2016-07-13T15:16:29Z	2016-07-13T14:12:16Z	win,msi: Added Italian translation	38		
+4647	52195	true	closed	false	33		2016-01-12T12:24:07Z	2016-09-30T16:12:03Z	2016-07-13T14:12:16Z	win,msi: Added Italian translation	38		
 4669	5559820	true	open	false	11		2016-01-13T14:46:53Z	2016-09-16T23:31:05Z		lib: fix basename comparison on windows	36		
 4670	5559820	true	open	false	16		2016-01-13T15:02:13Z	2016-09-19T13:32:02Z		lib: fixme defer error to next tick	41		
 4677	439929	false	closed	false	8		2016-01-13T21:25:47Z	2016-08-09T21:11:36Z	2016-08-09T21:11:36Z	Revising Deprecation Strategy / Labels	689		
@@ -328,7 +328,7 @@
 6861	12013667	false	closed	false	36		2016-05-18T17:05:18Z	2016-08-12T11:14:32Z	2016-08-12T11:14:32Z	Error: EISDIR illegal operation on directory - Binding.realpath	140		
 6873	18708370	false	closed	false	5		2016-05-19T08:19:41Z	2016-08-09T21:14:40Z	2016-08-09T21:14:40Z	EventEmitter: Inconsistent handling of once() handlers	122		
 6876	6917800	true	open	false	9		2016-05-19T13:18:48Z	2016-07-19T18:29:42Z		build: fix cross-compile issue for Android	132		
-6877	6917800	true	open	false	18		2016-05-19T14:26:13Z	2016-07-19T11:13:32Z		child_process: check accessing a null stderr	60		
+6877	6917800	true	closed	false	20		2016-05-19T14:26:13Z	2016-09-30T16:42:24Z	2016-07-19T11:29:26Z	child_process: check accessing a null stderr	60		
 6878	1093990	false	open	false	8		2016-05-19T15:32:47Z	2016-07-06T05:02:15Z		Discuss planning a long-term renaming of `process.nextTick()`	133		
 6881	1127384	true	open	false	25		2016-05-19T15:56:47Z	2016-08-09T21:12:14Z		events: unwrap #once listeners in #listeners	44		
 6883	4954074	false	closed	false	20		2016-05-19T19:13:10Z	2016-08-15T09:34:48Z	2016-08-14T09:10:20Z	Loop with computed name crash node 6.2.0 without message	89		
@@ -452,7 +452,7 @@
 7277	432351	true	closed	false	8		2016-06-12T16:37:19Z	2016-07-12T00:33:51Z	2016-06-17T18:17:41Z	src: move and update comment about 'node.js' compilation.	90		
 7278	2329683	false	closed	false	10		2016-06-12T17:14:36Z	2016-06-29T01:57:32Z	2016-06-29T01:57:31Z	Change in stream behaviour in Node 4.4.5	192		
 7286	772595	false	closed	false	5		2016-06-13T14:17:13Z	2016-07-01T15:58:59Z	2016-06-13T16:15:12Z	node-gyp problem building with vs2015 w/ update3	121		
-7287	6354455	true	closed	false	10	6	2016-06-13T14:34:24Z	2016-07-17T21:19:26Z	2016-07-17T21:19:26Z	doc: add `added:` information for stream	32		
+7287	6354455	true	closed	false	11		2016-06-13T14:34:24Z	2016-09-30T16:30:05Z	2016-07-17T21:19:26Z	doc: add `added:` information for stream	32		
 7288	15943089	false	closed	false	7		2016-06-13T17:29:26Z	2016-07-11T21:40:19Z	2016-07-11T21:40:19Z	Investigate flaky test-https-connect-address-family.js and test-tls-connect-address-family	148		
 7290	696611	true	closed	false	10	0	2016-06-13T18:51:23Z	2016-07-06T12:37:48Z	2016-07-06T12:37:48Z	tools: fix doctool tests in release builds	80		
 7294	6843713	false	closed	false	9		2016-06-13T23:10:52Z	2016-08-12T11:14:32Z	2016-08-12T11:14:32Z	Windows. Incorrect Module.id with mounted network disk	60		
@@ -728,7 +728,7 @@
 7634	17186793	true	open	false	1		2016-07-09T15:42:14Z	2016-07-09T16:34:25Z		Propose v6.3.0	38		
 7635	1216425	true	open	false	4		2016-07-09T15:53:15Z	2016-08-08T19:21:32Z		Micro refactoring sigintHandlersWrap method	73		
 7636	1216425	true	open	false			2016-07-09T16:14:21Z	2016-07-12T12:04:49Z		Remove extra if and else chain	78		
-7637	291301	true	closed	false			2016-07-09T16:28:19Z	2016-07-18T17:42:58Z	2016-07-14T09:34:43Z	doc: various documentation formatting fixes	111		2016-07-14T09:34:43Z
+7637	291301	true	closed	false	8		2016-07-09T16:28:19Z	2016-09-30T16:14:43Z	2016-07-14T09:34:43Z	doc: various documentation formatting fixes	111		
 7638	101553	true	closed	false	33		2016-07-09T18:05:57Z	2016-07-22T09:23:09Z	2016-07-21T22:28:48Z	Cherry-pick patch from V8 upstream that fixes instanceof problem	47		
 7639	8625570	false	closed	false	1		2016-07-09T20:17:26Z	2016-07-17T16:12:14Z	2016-07-17T16:12:14Z	REPL could print Symbol more verbosely 	69		
 7640	899444	true	closed	false	4		2016-07-09T20:21:17Z	2016-08-09T22:55:21Z	2016-08-09T22:55:21Z	doc: add `added:` information for cluster	27		
@@ -785,7 +785,7 @@
 7691	115237	true	closed	false	7	0	2016-07-12T21:40:52Z	2016-07-13T20:10:54Z	2016-07-13T20:10:54Z	tools: consistent .eslintrc formatting	74		
 7692	17535	true	open	false	1		2016-07-12T21:54:51Z	2016-07-14T18:46:07Z		deps: upgrade npm in LTS to 2.15.9	82		
 7693	718899	true	closed	false	6		2016-07-12T23:34:59Z	2016-07-15T05:11:37Z	2016-07-15T03:28:14Z	test: improve error message in test-tick-processor	39		
-7694	2512748	true	closed	false	3	0	2016-07-13T00:08:57Z	2016-07-15T02:13:19Z	2016-07-15T02:13:19Z	test: cleanup IIFE tests	97	2512748	2016-07-15T02:13:19Z
+7694	2512748	true	closed	false	4		2016-07-13T00:08:57Z	2016-09-30T16:15:50Z	2016-07-15T02:13:19Z	test: cleanup IIFE tests	97		
 7695	20425798	true	open	false	11		2016-07-13T01:53:29Z	2016-08-10T13:16:51Z		cluster:take a worker offline and force GC	248		
 7696	339422	true	closed	false	42		2016-07-13T02:16:38Z	2016-08-08T14:42:53Z	2016-08-08T14:42:53Z	lib: allow custom names for spawned processes	158		
 7697	54666	true	open	false	0	0	2016-07-13T02:34:13Z	2016-07-13T02:34:13Z		test: use random ports where possible	17		
@@ -801,7 +801,7 @@
 7707	495647	false	closed	false	9		2016-07-13T11:46:37Z	2016-08-05T22:02:22Z	2016-08-05T22:02:22Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-07-13	475		
 7708	1265888	false	closed	false	7		2016-07-13T12:41:06Z	2016-08-03T06:19:28Z	2016-08-03T06:19:28Z	ES6 regular expressions unicode mode: case insensitivity case folding inconsistency	29		
 7709	523889	false	closed	false	1		2016-07-13T14:41:13Z	2016-07-14T02:18:41Z	2016-07-14T02:18:41Z	setTimeout clearTimeout	31		
-7710	2512748	true	closed	false	4	0	2016-07-13T15:20:46Z	2016-07-15T14:05:25Z	2016-07-15T14:05:25Z	cluster: remove bind() and self	48	2512748	2016-07-15T14:05:25Z
+7710	2512748	true	closed	false	5		2016-07-13T15:20:46Z	2016-09-30T16:17:29Z	2016-07-15T14:05:25Z	cluster: remove bind() and self	48		
 7711	275871	true	closed	false	7	2	2016-07-13T15:38:23Z	2016-07-18T08:54:15Z	2016-07-18T08:54:15Z	src: fix handle leaks	2		
 7712	1392388	false	open	false	4		2016-07-13T16:04:13Z	2016-07-13T18:13:47Z		Crypto - sign.update, verifier.update default parameter for strings 'utf8' not really true?	185		
 7713	15952	true	closed	false	3		2016-07-13T18:37:03Z	2016-07-14T18:49:01Z	2016-07-14T18:49:01Z	backport: update build-addons when node-gyp changes	96		
@@ -844,7 +844,7 @@
 7750	20170894	false	closed	false	11		2016-07-15T15:09:45Z	2016-07-18T07:41:18Z	2016-07-18T07:41:18Z	Why is toString so slow compared to manual concatenation?	87		
 7751	79017	true	closed	false	5	0	2016-07-15T16:09:25Z	2016-07-19T07:39:21Z	2016-07-19T07:39:21Z	deps: v8_inspector no longer depends on wtf	41		
 7752	2034108	false	closed	false	12		2016-07-15T19:35:09Z	2016-09-09T07:12:40Z	2016-07-16T09:02:05Z	libv8_base.a issues many undefined errors when linking on android/x86 or android/x86_64	192		
-7753	2512748	true	closed	false	9		2016-07-15T20:43:46Z	2016-07-19T12:36:28Z	2016-07-18T21:14:43Z	test: use mustCall() for simple flow tracking	96		
+7753	2512748	true	closed	false	10		2016-07-15T20:43:46Z	2016-09-30T16:34:33Z	2016-07-18T21:14:43Z	test: use mustCall() for simple flow tracking	96		
 7754	899444	true	closed	false	7		2016-07-15T21:42:32Z	2016-08-04T21:40:55Z	2016-08-04T21:40:55Z	readline: show completions only after 2nd TAB	111		
 7755	164625	false	closed	false	6		2016-07-15T21:43:49Z	2016-08-23T21:26:57Z	2016-08-23T21:26:57Z	If node is started with --debug a space appears on the following line	15		
 7756	1018196	true	open	false	12		2016-07-15T21:45:58Z	2016-08-08T15:01:07Z		Fixes #7742: src: --inspect notify contextDestroyed	115		
@@ -875,7 +875,7 @@
 7781	15943089	true	open	false	7		2016-07-18T11:00:13Z	2016-07-29T18:43:36Z		test: avoid connecting to :: in test-net-timeout	115		
 7782	677994	true	closed	false	24		2016-07-18T12:35:29Z	2016-07-25T10:31:19Z	2016-07-21T22:27:50Z	v6.3.1 Release Proposal	1061		
 7783	8297234	true	closed	false	9		2016-07-18T16:03:33Z	2016-07-27T21:37:34Z	2016-07-27T21:37:34Z	doc: remove platform assumption from CONTRIBUTING	46		
-7784	54666	true	closed	false	7	24	2016-07-18T16:52:23Z	2016-07-22T21:44:20Z	2016-07-22T21:44:19Z	doc: make general improvements to Buffer docs	70	54666	2016-07-22T21:44:19Z
+7784	54666	true	closed	false	8		2016-07-18T16:52:23Z	2016-09-30T16:48:49Z	2016-07-22T21:44:19Z	doc: make general improvements to Buffer docs	70		
 7785	4257305	false	open	false	14		2016-07-18T17:49:08Z	2016-07-19T00:51:30Z		--gdbjit segfaults in semver	61		
 7786	696611	true	closed	false	9		2016-07-18T20:38:36Z	2016-07-22T02:58:53Z	2016-07-22T00:17:19Z	test: make import common as the first line	63		
 7787	10796236	true	open	false	4		2016-07-18T23:01:46Z	2016-07-20T20:12:01Z		build: add --v8-target-arch and cross compiling options	53		
@@ -1245,7 +1245,7 @@
 8152	718899	true	closed	false	5		2016-08-18T00:02:11Z	2016-08-19T23:51:58Z	2016-08-19T23:51:58Z	test: add missing assert.deepEqual() test case	84		
 8153	8503065	false	open	false	1		2016-08-18T00:37:22Z	2016-08-18T03:36:32Z		Update _stream_readable.js to  delete invalid parameter.	7		
 8154	899444	true	closed	false	9		2016-08-18T02:02:18Z	2016-08-22T21:21:24Z	2016-08-22T21:21:24Z	buffer: allow .write() offset to be at buffer end	57		
-8155	8052307	false	open	false	54		2016-08-18T05:06:48Z	2016-09-30T15:57:25Z		assertion when attaching the Chrome dev tools	67		
+8155	8052307	false	open	false	55		2016-08-18T05:06:48Z	2016-09-30T16:17:42Z		assertion when attaching the Chrome dev tools	67		
 8156	718899	true	closed	false	6	2	2016-08-18T05:43:54Z	2016-08-20T04:48:09Z	2016-08-20T04:48:09Z	test: add assert.notDeepEqual() tests	49		
 8157	505333	false	open	false	7		2016-08-18T12:02:37Z	2016-08-23T10:09:15Z		benchmark jenkins job?	165		
 8158	1404810	true	open	false	4		2016-08-18T12:42:22Z	2016-08-22T09:38:10Z		doc: correct argument type for process.cpuUsage	32		
@@ -1867,7 +1867,7 @@
 8775	1614246	false	open	false	0		2016-09-25T21:06:26Z	2016-09-25T21:06:26Z		http: abort tcp connection in the middle of request handling	389		
 8776	718899	true	closed	false	8		2016-09-25T21:51:57Z	2016-09-29T20:22:49Z	2016-09-29T00:25:56Z	doc: encourage 2FA before onboarding	69		
 8777	15350619	false	closed	false	1		2016-09-26T01:42:37Z	2016-09-26T06:33:27Z	2016-09-26T06:33:27Z	FS write and read position problem	98		
-8778	6354455	true	open	false	2		2016-09-26T02:46:59Z	2016-09-30T15:06:10Z		adding test for _stream.writable `ended` state	53		
+8778	6354455	true	closed	false	3	1	2016-09-26T02:46:59Z	2016-09-30T16:14:41Z	2016-09-30T16:14:41Z	adding test for _stream.writable `ended` state	53		
 8779	5867109	false	closed	false	2		2016-09-26T03:24:53Z	2016-09-26T06:25:03Z	2016-09-26T06:25:03Z	Node v4.4.7 Strange error with spread related flags	120		
 8780	22438485	false	open	false	2		2016-09-26T03:40:07Z	2016-09-26T05:25:00Z		nodejs armv8 can't run normally in Raspberry Pi 3 Model B	40		
 8781	1935767	true	open	false	6		2016-09-26T04:03:00Z	2016-09-28T01:17:40Z		tls: improve createSecureContext in _tls_common	51		
@@ -1888,7 +1888,7 @@
 8796	152407	true	closed	false	5		2016-09-26T19:06:45Z	2016-09-27T14:44:43Z	2016-09-27T14:44:43Z	Document crypto.timingSafeEqual() added in v6.6.0	37		
 8797	479816	false	open	false	6		2016-09-27T01:53:51Z	2016-09-30T10:03:37Z		"`fs.rmdir()` on file (not directory) has ""ENOTDIR"" on Linux/macOS vs ""ENOENT"" on Windows"	115		
 8798	579	false	open	false	8		2016-09-27T03:02:37Z	2016-09-27T23:03:31Z		Add Locki to API documentation	65		
-8799	6354455	true	open	false			2016-09-27T03:29:25Z	2016-09-27T14:50:09Z		adding test for _stream_writable.js needDrain state	54		
+8799	6354455	true	open	false	1		2016-09-27T03:29:25Z	2016-09-30T16:13:05Z		adding test for _stream_writable.js needDrain state	54		
 8800	1935767	true	closed	false	8	0	2016-09-27T03:46:29Z	2016-09-30T02:06:54Z	2016-09-30T02:06:54Z	dns: improve makeAsync internally by removing unneeded vaiable.	61	1935767	2016-09-30T02:06:54Z
 8801	6354455	true	open	false	9		2016-09-27T03:56:28Z	2016-09-29T22:34:19Z		stream: improving error msg for stream	77		
 8802	718899	false	open	false	14		2016-09-27T04:38:37Z	2016-09-28T19:09:39Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-09-28	453		
@@ -1904,8 +1904,8 @@
 8812	479816	false	open	false	0		2016-09-28T01:37:14Z	2016-09-28T01:37:14Z		`chmod()` fails silently if process lacks sufficient permissions to change mode	86		
 8813	81581	false	open	false	14		2016-09-28T05:18:00Z	2016-09-28T14:18:29Z		url.toString() is '[object Object]' ?!!	78		
 8814	2876	false	open	false	8		2016-09-28T05:38:19Z	2016-09-28T21:13:35Z		Corrupted upload of node-v6.7.0-linux-ppc64le.tar.gz	32		
-8815	432351	true	open	false	4		2016-09-28T05:38:30Z	2016-09-28T14:17:57Z		test: add and assert readable/writable arguments	80		
-8816	432351	true	open	false	0	0	2016-09-28T06:06:22Z	2016-09-28T06:06:22Z		src: add missing length argument to send comment	51		
+8815	432351	true	open	false	5		2016-09-28T05:38:30Z	2016-09-30T16:15:56Z		test: add and assert readable/writable arguments	80		
+8816	432351	true	closed	false	1		2016-09-28T06:06:22Z	2016-09-30T16:36:45Z	2016-09-30T16:36:45Z	src: add missing length argument to send comment	51		
 8817	275871	false	open	false	8		2016-09-28T07:57:43Z	2016-09-28T15:39:41Z		crypto: re-enable openssl /dev/crypto support on freebsd+openbsd?	228		
 8818	152227	false	closed	false	7		2016-09-28T09:01:16Z	2016-09-30T10:02:14Z	2016-09-28T09:09:34Z	NumberFormat is always en-US	80		
 8819	22338567	false	open	false	0		2016-09-28T09:05:06Z	2016-09-28T09:05:06Z		Hi All,	6		
@@ -1930,7 +1930,7 @@
 8838	718899	false	open	false	4		2016-09-28T21:32:10Z	2016-09-29T20:07:00Z		investigate flaky parallel/test-debug-signal-cluster on SmartOS	75		
 8839	2205537	false	open	false	2		2016-09-28T23:55:39Z	2016-09-29T07:23:40Z		`process.stdin` is not implemented in bash for Windows 10... unknown type	246		
 8840	602462	true	open	false			2016-09-29T01:05:51Z	2016-09-30T04:08:13Z		doc: Docs for the common module API in tests	52		
-8841	578156	true	open	false			2016-09-29T02:58:44Z	2016-09-29T07:17:34Z		test: use common.skip for tap skip output and test cleanup	49		
+8841	578156	true	open	false	1		2016-09-29T02:58:44Z	2016-09-30T16:20:32Z		test: use common.skip for tap skip output and test cleanup	49		
 8842	22516484	false	open	false	0		2016-09-29T07:29:36Z	2016-09-29T07:29:36Z		Node.js cannot find module & etc.	77		
 8843	4739995	false	open	false	1		2016-09-29T08:26:10Z	2016-09-29T09:01:42Z		node doesn't execute JS script and exits silently 	195		
 8844	101553	true	closed	false	2		2016-09-29T08:28:40Z	2016-09-29T09:35:47Z	2016-09-29T08:31:00Z	[doc] use consistent style	48		
@@ -1945,10 +1945,10 @@
 8853	10552470	false	open	false	0		2016-09-29T21:26:51Z	2016-09-29T21:26:51Z		Incorrect MD5 computation with crypto library	37		
 8854	122831	false	open	false	0		2016-09-29T22:04:34Z	2016-09-29T22:04:34Z		v8 crashes hard when setting property remoteAddress on wrapped TLS socket	314		
 8855	416585	false	closed	false	4		2016-09-29T23:45:18Z	2016-09-30T02:31:39Z	2016-09-30T02:31:39Z	Ability to set highWaterMark on transform stream?	98		
-8856	54666	false	open	false	0		2016-09-30T01:11:02Z	2016-09-30T01:11:02Z		stream: confusing comment	41		
+8856	54666	false	closed	false	0		2016-09-30T01:11:02Z	2016-09-30T16:48:57Z	2016-09-30T16:48:57Z	stream: confusing comment	42		
 8857	718899	true	open	false	0	0	2016-09-30T03:42:32Z	2016-09-30T03:42:32Z		test: clean up test-timers-immediate	60		
 8858	5292705	false	open	false	0		2016-09-30T03:47:34Z	2016-09-30T03:47:34Z		The SNICertCallback is not called when visiting by IP Adress	129		
 8859	11976448	true	open	false	3		2016-09-30T05:20:26Z	2016-09-30T15:56:07Z		test: expand test coverage for url.js	66		
-8860	8007933	true	open	false	1		2016-09-30T06:38:38Z	2016-09-30T15:17:40Z		src: fixed misplaced comment	55		
+8860	8007933	true	open	false	4		2016-09-30T06:38:38Z	2016-09-30T16:49:55Z		src: fixed misplaced comment	55		
 8861	899444	true	open	false	0	0	2016-09-30T14:19:55Z	2016-09-30T14:19:55Z		build: make addons build  dep. on node_version.h	54		
 8862	899444	true	open	false	0	0	2016-09-30T14:30:53Z	2016-09-30T14:30:53Z		fs: export `realpathCacheKey` from `internal/fs`	70		
