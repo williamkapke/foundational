@@ -135,7 +135,7 @@
 4179	6068824	false	closed	false	15		2015-12-07T22:13:03Z	2016-08-15T20:12:24Z	2016-05-09T12:05:23Z	util.inherits does not establish prototype chain	176		
 4236	10103531	false	open	false	8		2015-12-11T01:18:07Z	2016-07-13T03:34:14Z		child_process.spawn() has undocumented 200kb buffer limit	74		
 4243	524382	true	closed	false	10	0	2015-12-11T17:36:12Z	2016-08-19T15:09:25Z	2016-08-19T15:09:25Z	src: use thread defaults provided by v8::platform	73		
-4246	238531	true	closed	false	10		2015-12-11T20:52:00Z	2016-09-27T23:46:05Z	2015-12-12T00:54:07Z	tls: introduce `secureContext` for `tls.connect`	18		
+4246	238531	true	closed	false	14		2015-12-11T20:52:00Z	2016-10-03T21:15:25Z	2015-12-12T00:54:07Z	tls: introduce `secureContext` for `tls.connect`	18		
 4253	855219	true	closed	false	18		2015-12-12T01:21:25Z	2016-08-30T14:10:50Z	2016-05-04T22:07:05Z	nodejs/node#3111 - WIP v8BreakIterator disablement	6		
 4266	1470592	false	open	false	13		2015-12-14T00:40:39Z	2016-08-19T14:06:13Z		buffer.toString fails for buffers larger than 192MB	95		
 4270	495647	false	open	false	22		2015-12-14T10:06:18Z	2016-09-23T18:35:10Z		Discussion: OpenSSL 1.1.0 planning	297		
@@ -143,6 +143,7 @@
 4307	12825770	false	closed	false	11		2015-12-16T08:16:14Z	2016-07-11T09:25:48Z	2016-07-11T09:25:48Z	can not step in constructor, will will terminate node.exe	90		
 4329	16335744	false	closed	false	15		2015-12-17T11:41:17Z	2016-10-03T06:42:19Z	2016-01-15T10:53:49Z	node.js Setup Wizard ended prematurely	43		
 4351	1424946	false	open	false	8		2015-12-19T06:03:34Z	2016-09-13T16:40:03Z		fs.watch file matching is one character off in windows	43		
+4377	399211	true	closed	false	17		2015-12-21T13:06:26Z	2016-10-03T21:15:13Z	2015-12-24T01:32:36Z	"http: 451 status code ""Unavailable For Legal Reasons"""	26		
 4394	1470592	true	open	false	44		2015-12-23T03:38:39Z	2016-08-07T06:04:29Z		buffer: workaround for v8 buffer.toString failure. fixes #4266	20		
 4402	5358145	false	closed	false	4		2015-12-23T19:26:22Z	2016-08-29T22:31:11Z	2016-08-29T22:31:11Z	Bad readline behavior with line ending characters?	588		
 4415	327019	true	open	false	11		2015-12-24T07:27:06Z	2016-08-15T22:11:15Z		benchmark: add ops/sec for benchmark results	8		
@@ -357,7 +358,7 @@
 6980	1093990	false	open	false	22		2016-05-25T21:24:24Z	2016-08-19T14:16:35Z		Tracking issue: stdio problems	180		
 6981	1084056	true	closed	false	16		2016-05-25T21:42:50Z	2016-07-12T07:04:17Z	2016-05-27T16:55:29Z	cluster: reset handle index on close	56		
 6991	275871	true	closed	false	10	0	2016-05-26T09:19:13Z	2016-06-29T10:47:00Z	2016-06-29T10:47:00Z	build: expose --trace_maps flag in release builds	22		
-6994	1356314	true	closed	false	48		2016-05-26T14:48:27Z	2016-08-02T20:59:06Z	2016-06-28T21:57:09Z	build: introduce configure --shared	277		
+6994	1356314	true	closed	false	48		2016-05-26T14:48:27Z	2016-10-03T21:14:53Z	2016-06-28T21:57:09Z	build: introduce configure --shared	277		
 6997	110455	true	closed	false	11		2016-05-26T17:02:19Z	2016-08-30T18:45:42Z	2016-06-06T22:30:53Z	test: use common.fixturesDir almost everywhere	50		
 6998	2512748	true	closed	false	12		2016-05-26T17:17:59Z	2016-07-12T15:20:16Z	2016-05-31T13:55:52Z	cluster: expose result of send()	90		
 7003	275871	true	closed	false	7		2016-05-26T19:07:39Z	2016-07-12T16:54:43Z	2016-06-29T16:15:19Z	test: check types for http request and response	82		
@@ -1455,7 +1456,7 @@
 8361	1652906	false	open	false	8		2016-08-31T17:34:29Z	2016-09-18T14:11:45Z		require('fs').stat mangling argument	381		
 8362	18403178	false	closed	false	2		2016-08-31T18:14:33Z	2016-08-31T22:10:04Z	2016-08-31T19:08:22Z	Node start uncontrolled paralel process	118		
 8363	1404810	true	closed	false	20		2016-08-31T19:09:34Z	2016-09-01T15:03:39Z	2016-09-01T09:25:28Z	process: add `startTime` property	154		
-8364	96150	true	open	false	31		2016-08-31T23:11:46Z	2016-10-03T14:10:49Z		fs: undeprecate existsSync	45		
+8364	96150	true	open	false	32		2016-08-31T23:11:46Z	2016-10-03T21:03:09Z		fs: undeprecate existsSync	45		
 8365	54666	true	closed	false	6	0	2016-09-01T04:39:55Z	2016-09-02T18:31:47Z	2016-09-02T18:31:47Z	doc: fix broken link in dgram doc	65	54666	2016-09-02T18:31:47Z
 8366	2725624	false	open	false	0		2016-09-01T09:19:11Z	2016-09-01T09:19:11Z		illegal access	107		
 8367	17428714	false	closed	false	5		2016-09-01T09:27:28Z	2016-09-01T14:14:24Z	2016-09-01T13:02:17Z	Question on undocumented API	291		
@@ -1590,14 +1591,14 @@
 8496	275871	false	open	false	1		2016-09-12T07:43:07Z	2016-09-13T04:18:20Z		src: UV_RUN_ONCE in a loop is inefficient	153		
 8497	6354455	true	open	false	5		2016-09-12T13:17:01Z	2016-09-15T06:32:41Z		readline docs: removing unnecessary section on rl.close() method 	45		
 8498	2903325	false	closed	false	7		2016-09-12T14:12:28Z	2016-09-22T18:21:33Z	2016-09-22T18:21:33Z	Test failures on macOS Sierra 10.12 (GM) with Xcode 8.0 (GM)	377		
-8499	4421720	true	open	false	0	0	2016-09-12T15:20:38Z	2016-09-12T15:20:38Z		doc: add CTC meeting minutes 2016-09-07	27		
+8499	4421720	true	open	false	1		2016-09-12T15:20:38Z	2016-10-03T21:48:00Z		doc: add CTC meeting minutes 2016-09-07	27		
 8500	1616403	false	open	false	2		2016-09-12T17:18:23Z	2016-09-12T18:08:35Z		NodeJS not applying date locales properly	224		
 8501	22124150	false	closed	false	2		2016-09-12T18:39:09Z	2016-09-13T14:12:32Z	2016-09-13T10:56:11Z	how to use Node.js Addons ?	261		
 8502	287917	true	closed	false	6		2016-09-12T19:16:52Z	2016-09-20T18:59:00Z	2016-09-20T18:59:00Z	Default context	100		
 8503	439929	true	open	false	25		2016-09-12T21:46:26Z	2016-09-29T18:04:16Z		[WIP] V7.0.0 proposal (beta)	141		
 8504	1622515	true	open	false	0	0	2016-09-12T21:51:58Z	2016-09-12T21:51:58Z		[WIP] repl: Proposal for better repl (implementation) 	201		
 8505	287917	true	closed	false	6		2016-09-12T21:53:41Z	2016-09-22T18:21:34Z	2016-09-22T18:21:34Z	inspector: wait for both sides closing	65		
-8506	718899	false	open	false	11		2016-09-13T00:00:00Z	2016-09-15T17:51:26Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-09-14	450		
+8506	718899	false	closed	false	12		2016-09-13T00:00:00Z	2016-10-03T21:48:21Z	2016-10-03T21:48:21Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-09-14	450		
 8507	1466123	false	closed	false	1		2016-09-13T00:46:51Z	2016-09-20T21:10:34Z	2016-09-20T21:10:34Z	zlib: invalid distance too far back on `inflateRaw` with custom dictionary	145		
 8508	6354455	false	open	false	0		2016-09-13T02:11:25Z	2016-09-13T02:11:25Z		readline doc: events are _not_ supported on Windows.	45		
 8509	3320742	false	open	false	5		2016-09-13T02:17:53Z	2016-09-15T23:15:40Z		Configuration option to permanently turn on --preserve-symlinks	110		
@@ -1747,7 +1748,7 @@
 8653	16150723	false	closed	false	2		2016-09-19T07:02:58Z	2016-09-20T07:13:54Z	2016-09-19T07:26:49Z	chmodSync is not recursive	39		
 8654	4899192	false	closed	false	3		2016-09-19T09:34:30Z	2016-09-21T10:18:06Z	2016-09-19T10:41:31Z	Date.toLocalString() return incorrect string	121		
 8655	54666	true	open	false			2016-09-19T17:44:41Z	2016-09-29T08:13:28Z		timers: improve setImmediate() performance	74		
-8656	718899	false	open	false	23		2016-09-19T21:41:35Z	2016-09-21T20:05:49Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-09-21	477		
+8656	718899	false	closed	false	27		2016-09-19T21:41:35Z	2016-10-03T21:48:34Z	2016-10-03T21:48:34Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-09-21	477		
 8657	287917	true	open	false	0	0	2016-09-19T23:54:10Z	2016-09-19T23:54:10Z		inspector: wait longer on shutdown	49		
 8658	54666	true	closed	false	8	4	2016-09-20T00:16:22Z	2016-09-20T23:06:22Z	2016-09-20T23:06:22Z	src: return static buffer on malloc(0)	74		
 8659	54666	false	open	false	1		2016-09-20T00:34:22Z	2016-09-28T11:04:18Z		Feature request: benchmark runner progress indicator	106		
@@ -1775,7 +1776,7 @@
 8681	15519676	false	closed	false	1		2016-09-21T05:47:15Z	2016-09-21T09:04:08Z	2016-09-21T09:04:08Z	Error: Tunneling Socket could not be established, status code=407, code= ECONNRESET	191		
 8682	1456821	true	open	false	4		2016-09-21T07:14:13Z	2016-09-23T21:31:42Z		test: Add tests for add/remove header after sent.	48		
 8683	52195	false	open	false	1		2016-09-21T07:18:50Z	2016-09-24T20:45:28Z		stream, test: add tests for 'readable' state machine	63		
-8684	52195	false	open	false	0		2016-09-21T07:23:46Z	2016-09-21T07:23:46Z		stream, test: add tests for _readableStream.awaitDrain	18		
+8684	52195	false	open	false	0		2016-09-21T07:23:46Z	2016-10-03T21:21:54Z		stream, test: add tests for _readableStream.awaitDrain	21		
 8685	52195	false	open	false	1		2016-09-21T07:27:13Z	2016-10-02T20:07:29Z		stream, test: add test for _readableState.readingMore	10		
 8686	52195	false	open	false	10		2016-09-21T07:31:47Z	2016-09-30T14:15:45Z		stream, test: Add test for _writableState state machine	23		
 8687	52195	false	open	false	0		2016-09-21T07:35:35Z	2016-09-24T20:55:49Z		stream, test: Add test for _writableState clearBuffer state machine	26		
@@ -1993,7 +1994,7 @@
 8899	21338908	false	closed	false	3		2016-10-02T16:37:37Z	2016-10-03T09:47:07Z	2016-10-03T09:47:07Z	Error: getaddrinfo ENOTFOUND DNS.js	204		
 8900	718899	true	open	false	3		2016-10-03T04:22:47Z	2016-10-03T20:49:30Z		test: mark test-tick-processor-unknown flaky	30		
 8901	1443911	true	open	false	0	0	2016-10-03T08:51:30Z	2016-10-03T08:51:30Z		doc: add `added:` information for globals	27		
-8902	911174	true	open	false	2		2016-10-03T10:24:41Z	2016-10-03T14:02:24Z		doc: make node(1) more consistent with tradition	101		
+8902	911174	true	open	false			2016-10-03T10:24:41Z	2016-10-03T21:26:13Z		doc: make node(1) more consistent with tradition	101		
 8903	911174	false	open	false	2		2016-10-03T10:36:00Z	2016-10-03T19:15:08Z		Ship manpages for all core modules	96		
 8904	1084056	true	open	false	0	0	2016-10-03T10:44:13Z	2016-10-03T10:44:13Z		Backport PR 7572	140		
 8905	432351	true	open	false			2016-10-03T10:46:41Z	2016-10-03T19:38:55Z		build: add config.gypi to test/addons/.buildstamp	121		
@@ -2003,5 +2004,7 @@
 8909	101553	true	open	false	0	0	2016-10-03T16:20:12Z	2016-10-03T16:20:12Z		src: refactor contextify	41		
 8910	275871	true	open	false	0	0	2016-10-03T17:07:16Z	2016-10-03T17:07:16Z		deps: build openssl without cryptodev support	59		
 8911	15943089	false	open	false	0		2016-10-03T17:12:39Z	2016-10-03T17:12:39Z		Avoiding firewall warnings on macOS Sierra	51		
-8912	479538	false	open	false	3		2016-10-03T19:50:58Z	2016-10-03T20:09:57Z		Debugging: Stabilize hidden classes for improved heap snapshots	143		
+8912	479538	false	open	false	4		2016-10-03T19:50:58Z	2016-10-03T21:47:09Z		Debugging: Stabilize hidden classes for improved heap snapshots	143		
 8913	479538	false	open	false	0		2016-10-03T19:58:01Z	2016-10-03T19:58:01Z		Debugging: name every function	95		
+8914	4268223	true	open	false	0	0	2016-10-03T21:15:45Z	2016-10-03T21:15:45Z		test: tests for _readableStream.awaitDrain	30		
+8915	718899	false	open	false	0		2016-10-03T21:59:48Z	2016-10-03T21:59:48Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-10-05	462		
