@@ -1503,7 +1503,7 @@
 8409	275871	true	open	false	3		2016-09-05T08:42:47Z	2016-09-07T22:18:30Z		src: guard against overflow in ParseArrayIndex() (v4.x)	8		
 8410	899444	true	closed	false	9		2016-09-05T12:11:26Z	2016-09-12T03:50:07Z	2016-09-12T03:50:07Z	doc: note that listening on SIGSEGV & co is unsafe	41		
 8411	899444	true	closed	false	10		2016-09-05T14:16:13Z	2016-09-08T08:32:34Z	2016-09-08T08:32:34Z	deps: cherry-pick 8ed65b97 from V8's upstream	180		
-8412	134460	true	closed	false	2		2016-09-05T15:02:46Z	2016-09-30T22:18:18Z	2016-09-08T00:08:55Z	win,build: improvements to vcbuild.bat	221		
+8412	134460	true	closed	false	4		2016-09-05T15:02:46Z	2016-10-03T11:17:15Z	2016-09-08T00:08:55Z	win,build: improvements to vcbuild.bat	221		
 8413	899444	true	closed	false	5		2016-09-05T20:41:51Z	2016-09-20T12:04:55Z	2016-09-20T12:04:55Z	build: run `npm install` for doc builds in tarball	93		
 8414	718899	true	closed	false	3		2016-09-06T00:32:27Z	2016-09-07T04:10:06Z	2016-09-06T14:45:45Z	WIP: test-stdio-closed troubleshooting	47		
 8415	432351	true	closed	false	9		2016-09-06T07:25:33Z	2016-09-30T22:22:17Z	2016-09-08T06:49:23Z	vm: change ContextifyScript to Script in comment	55		
@@ -1521,7 +1521,7 @@
 8427	275871	true	closed	false	6		2016-09-06T21:23:09Z	2016-09-30T22:23:37Z	2016-09-11T10:49:50Z	src: remove unneeded Environment error methods	32		
 8428	1093990	false	open	false	3		2016-09-06T21:45:57Z	2016-09-08T23:15:46Z		v6.6.0 pre-proposal	936		
 8429	287917	true	closed	false	32		2016-09-07T01:14:31Z	2016-09-20T22:18:00Z	2016-09-19T20:13:42Z	inspector: introduce a smoke test for inspector	58		
-8430	134460	true	closed	false	5		2016-09-07T01:56:40Z	2016-09-30T22:22:30Z	2016-09-09T11:29:33Z	win,build: forward release_urlbase to configure	101		
+8430	134460	true	closed	false	5		2016-09-07T01:56:40Z	2016-10-03T11:19:09Z	2016-09-09T11:29:33Z	win,build: forward release_urlbase to configure	101		
 8431	1521394	false	closed	false	2		2016-09-07T11:12:37Z	2016-09-08T14:37:46Z	2016-09-08T14:37:46Z	req.emit is not a function	73		
 8432	103639	false	closed	false	8		2016-09-07T14:09:17Z	2016-09-08T07:07:00Z	2016-09-08T07:07:00Z	Stress-testing caused to stuck on OS X	252		
 8433	8082333	false	open	false	2		2016-09-07T18:18:16Z	2016-09-07T19:04:16Z		wrong localisation for currency in toLocaleString	44		
@@ -1884,7 +1884,7 @@
 8790	498775	true	closed	false	5		2016-09-26T14:54:19Z	2016-09-27T12:07:22Z	2016-09-27T12:07:22Z	Upgrade Openssl to 1.0.2j v4.x	68		
 8791	6354455	true	open	false	2		2016-09-26T15:58:42Z	2016-09-30T15:12:52Z		addin test for _stream.writable finished state	53		
 8792	354296	false	open	false	7		2016-09-26T17:06:56Z	2016-09-27T18:50:10Z		Feature request: REPL show variable contents upon variable creation	52		
-8793	2352663	false	open	false	4		2016-09-26T18:07:20Z	2016-10-03T10:36:16Z		Audit performance of master with V8 5.4	50		
+8793	2352663	false	open	false	5		2016-09-26T18:07:20Z	2016-10-03T11:48:13Z		Audit performance of master with V8 5.4	50		
 8794	441346	true	closed	false	1		2016-09-26T18:21:35Z	2016-09-30T17:36:17Z	2016-09-30T17:36:17Z	test: fix running child-process-uid-gid as root	55		
 8795	134460	true	open	false	3		2016-09-26T18:34:50Z	2016-09-27T17:19:33Z		win,msi: mark INSTALLDIR property as secure	149		
 8796	152407	true	closed	false	5		2016-09-26T19:06:45Z	2016-09-27T14:44:43Z	2016-09-27T14:44:43Z	Document crypto.timingSafeEqual() added in v6.6.0	37		
@@ -1927,11 +1927,11 @@
 8833	2067616	false	closed	false	7		2016-09-28T16:00:07Z	2016-09-29T17:01:44Z	2016-09-29T17:01:44Z	TypeError in child_process, envPairs.push(key + '=' + env[key])	164		
 8834	899444	true	open	false	13		2016-09-28T17:53:51Z	2016-10-02T11:06:33Z		stream: proper `instanceof` for `Writable`s	60		
 8835	718899	true	open	false	5		2016-09-28T18:46:49Z	2016-09-29T15:56:21Z		test: mark test-inspector flaky on windows	30		
-8836	432351	true	open	false	3		2016-09-28T19:00:38Z	2016-10-02T21:00:19Z		test: enable addons test to pass with debug build	142		
-8837	567540	true	open	false			2016-09-28T20:55:31Z	2016-10-03T02:29:56Z		inspector: Allow require in Runtime.evaluate	100		
+8836	432351	true	open	false	4		2016-09-28T19:00:38Z	2016-10-03T11:18:30Z		test: enable addons test to pass with debug build	142		
+8837	567540	true	open	false	3		2016-09-28T20:55:31Z	2016-10-03T11:37:46Z		inspector: Allow require in Runtime.evaluate	92		
 8838	718899	false	open	false	6		2016-09-28T21:32:10Z	2016-09-30T21:17:20Z		investigate flaky parallel/test-debug-signal-cluster on SmartOS	75		
 8839	2205537	false	closed	false	5		2016-09-28T23:55:39Z	2016-10-01T14:00:28Z	2016-10-01T14:00:28Z	`process.stdin` is not implemented in bash for Windows 10... unknown type	246		
-8840	602462	true	open	false			2016-09-29T01:05:51Z	2016-10-01T16:45:49Z		doc: Docs for the common module API in tests	52		
+8840	602462	true	open	false	3		2016-09-29T01:05:51Z	2016-10-03T11:46:35Z		doc: Docs for the common module API in tests	52		
 8841	578156	true	open	false	1		2016-09-29T02:58:44Z	2016-09-30T16:20:32Z		test: use common.skip for tap skip output and test cleanup	49		
 8842	22516484	false	open	false	0		2016-09-29T07:29:36Z	2016-09-29T07:29:36Z		Node.js cannot find module & etc.	77		
 8843	4739995	false	open	false	1		2016-09-29T08:26:10Z	2016-09-29T09:01:42Z		node doesn't execute JS script and exits silently 	195		
@@ -1943,14 +1943,14 @@
 8849	739555	true	closed	false	10		2016-09-29T18:19:35Z	2016-10-03T04:05:44Z	2016-10-02T23:47:10Z	[CVE-2016-5180] ares_create_query: avoid single-byte buffer overwrite	46		
 8850	101553	true	closed	false	3		2016-09-29T19:38:29Z	2016-10-03T10:27:14Z	2016-10-03T10:27:14Z	src: refactor reading of options in contextify	68		
 8851	498775	true	open	false	0	0	2016-09-29T19:42:40Z	2016-09-29T19:42:40Z		deps: bump V8 patch to 84	46		
-8852	2352663	true	open	false	3		2016-09-29T19:44:38Z	2016-10-03T08:49:37Z		deps: update V8 to 5.4.500.31	32		
+8852	2352663	true	closed	false	3	0	2016-09-29T19:44:38Z	2016-10-03T11:12:55Z	2016-10-03T11:12:55Z	deps: update V8 to 5.4.500.31	32		
 8853	10552470	false	closed	false	2		2016-09-29T21:26:51Z	2016-10-01T12:02:04Z	2016-10-01T12:02:04Z	Incorrect MD5 computation with crypto library	37		
 8854	122831	false	open	false	0		2016-09-29T22:04:34Z	2016-09-29T22:04:34Z		v8 crashes hard when setting property remoteAddress on wrapped TLS socket	314		
 8855	416585	false	closed	false	4		2016-09-29T23:45:18Z	2016-09-30T02:31:39Z	2016-09-30T02:31:39Z	Ability to set highWaterMark on transform stream?	98		
 8856	54666	false	closed	false	0		2016-09-30T01:11:02Z	2016-09-30T16:48:57Z	2016-09-30T16:48:57Z	stream: confusing comment	42		
 8857	718899	true	closed	false	1	0	2016-09-30T03:42:32Z	2016-10-03T03:47:20Z	2016-10-03T03:47:19Z	test: clean up test-timers-immediate	60	718899	2016-10-03T03:47:19Z
 8858	5292705	false	open	false	0		2016-09-30T03:47:34Z	2016-09-30T03:47:34Z		The SNICertCallback is not called when visiting by IP Adress	129		
-8859	11976448	true	open	false	3		2016-09-30T05:20:26Z	2016-09-30T15:56:07Z		test: expand test coverage for url.js	66		
+8859	11976448	true	closed	false	4		2016-09-30T05:20:26Z	2016-10-03T11:31:50Z	2016-10-03T11:31:50Z	test: expand test coverage for url.js	66		
 8860	8007933	true	closed	false	6		2016-09-30T06:38:38Z	2016-09-30T17:41:01Z	2016-09-30T16:49:57Z	stream: fixed misplaced comment	55		
 8861	899444	true	open	false	0	0	2016-09-30T14:19:55Z	2016-09-30T14:19:55Z		build: make addons build  dep. on node_version.h	54		
 8862	899444	true	open	false	0	0	2016-09-30T14:30:53Z	2016-09-30T14:30:53Z		fs: export `realpathCacheKey` from `internal/fs`	70		
@@ -1966,7 +1966,7 @@
 8872	1898870	true	open	false	0	0	2016-09-30T22:13:22Z	2016-09-30T22:13:22Z		v4.x backport: url: fix inconsistent port in url.resolveObject	6		
 8873	498775	true	open	false	8		2016-09-30T22:33:37Z	2016-10-02T09:22:53Z		meta: remove let from for loops	67		
 8874	22553123	false	open	false	1		2016-09-30T23:49:22Z	2016-10-02T08:33:11Z		zlib.inflateRawSync how do I get the number of bytes read?	120		
-8875	731722	true	open	false			2016-10-01T01:21:56Z	2016-10-02T03:59:25Z		More realistic custom inspect example	166		
+8875	731722	true	open	false	3		2016-10-01T01:21:56Z	2016-10-03T11:25:34Z		More realistic custom inspect example	166		
 8876	2365820	true	open	false			2016-10-01T04:48:42Z	2016-10-03T09:44:45Z		module: check -e flag in debug break setup	100		
 8877	54666	true	closed	false	1		2016-10-01T05:42:35Z	2016-10-03T10:38:09Z	2016-10-03T10:38:08Z	cluster: remove unused backlog argument	47		
 8878	54666	true	open	false	0	0	2016-10-01T05:49:24Z	2016-10-01T05:49:27Z		src: remove unused function declaration	36		
@@ -1986,14 +1986,15 @@
 8892	5704064	true	open	false	1		2016-10-02T02:31:06Z	2016-10-02T21:07:33Z		Correct grammar in README.md	27		
 8893	718899	false	open	false	4		2016-10-02T05:52:52Z	2016-10-03T10:54:55Z		doc: explain why we don't use the GitHub merge button	75		
 8894	470827	true	open	false	2		2016-10-02T06:37:33Z	2016-10-02T21:31:02Z		Cleanup test file write stream	53		
-8895	1443911	true	open	false	0	0	2016-10-02T10:34:26Z	2016-10-02T10:34:26Z		http: set socket timeout when socket connects	82		
+8895	1443911	true	open	false			2016-10-02T10:34:26Z	2016-10-03T11:13:42Z		http: set socket timeout when socket connects	82		
 8896	815894	true	open	false			2016-10-02T10:39:29Z	2016-10-03T10:54:28Z		test: cleanup/update test-dgram-empty-packet.js	46		
 8897	207759	false	open	false	1		2016-10-02T13:06:45Z	2016-10-03T10:01:49Z		Windows Container: npm can't be used in docker volume directory	744		
 8898	2093546	true	open	false	0	0	2016-10-02T15:09:03Z	2016-10-02T15:09:03Z		V0.12.7 release	47		
 8899	21338908	false	closed	false	3		2016-10-02T16:37:37Z	2016-10-03T09:47:07Z	2016-10-03T09:47:07Z	Error: getaddrinfo ENOTFOUND DNS.js	204		
 8900	718899	true	open	false	2		2016-10-03T04:22:47Z	2016-10-03T05:48:39Z		test: mark test-tick-processor-unknown flaky	30		
 8901	1443911	true	open	false	0	0	2016-10-03T08:51:30Z	2016-10-03T08:51:30Z		doc: add `added:` information for globals	27		
-8902	911174	true	open	false	0	0	2016-10-03T10:24:41Z	2016-10-03T10:24:41Z		doc: make node(1) more consistent with tradition	101		
+8902	911174	true	open	false	1		2016-10-03T10:24:41Z	2016-10-03T11:19:21Z		doc: make node(1) more consistent with tradition	101		
 8903	911174	false	open	false	0		2016-10-03T10:36:00Z	2016-10-03T10:36:00Z		Ship manpages for all core modules	96		
 8904	1084056	true	open	false	0	0	2016-10-03T10:44:13Z	2016-10-03T10:44:13Z		Backport PR 7572	140		
 8905	432351	true	open	false	0	0	2016-10-03T10:46:41Z	2016-10-03T10:46:41Z		build: add config.gypi to test/addons/.buildstamp	121		
+8906	10611767	true	open	false	0	0	2016-10-03T11:19:24Z	2016-10-03T11:19:24Z		Minors improvements	60		
