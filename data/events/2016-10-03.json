@@ -1,10 +1,10 @@
 {
-  "words": 8483,
-  "comments": 214,
+  "words": 9111,
+  "comments": 227,
   "prs": {
-    "opened": 15,
-    "closed": 19,
-    "words": 8483
+    "opened": 17,
+    "closed": 20,
+    "words": 9111
   },
   "issues": {
     "opened": 0,
@@ -27,7 +27,12 @@
       "closed": 1
     },
     "NG": {"open":27},
-    "TSC": {"open":55},
+    "TSC": {
+      "150": {"comments":1,"words":12,"pr":true},
+      "open": 55,
+      "words": 12,
+      "comments": 1
+    },
     "abi-stable-node": {"open":2},
     "api": {"open":8},
     "benchmarking": {
@@ -37,10 +42,10 @@
       "comments": 2
     },
     "build": {
-      "508": {"comments":1,"words":35,"pr":true},
+      "508": {"comments":2,"words":94,"pr":true},
       "open": 114,
-      "words": 35,
-      "comments": 1
+      "words": 94,
+      "comments": 2
     },
     "build-container-sync": {"open":1},
     "build-containers": {"open":1},
@@ -89,7 +94,7 @@
       "7645": {"comments":1,"words":8,"pr":true},
       "7893": {"comments":3,"words":48,"pr":true},
       "7904": {"comments":3,"words":218,"pr":true,"closed":"","closer":"2352663"},
-      "8034": {"comments":1,"words":70,"pr":true},
+      "8034": {"comments":2,"words":90,"pr":true,"closed":"2016-10-03T17:49:26Z","closer":"275871"},
       "8122": {"comments":1,"words":8,"pr":true},
       "8342": {"comments":1,"words":70,"pr":true},
       "8364": {"comments":1,"words":4,"pr":true},
@@ -97,6 +102,7 @@
       "8430": {"comments":1,"words":3,"pr":true},
       "8435": {"comments":4,"words":178,"pr":true,"closed":"2016-10-03T15:57:57Z","closer":"275871"},
       "8671": {"comments":1,"words":10,"pr":true},
+      "8697": {"comments":1,"words":34,"pr":true},
       "8726": {"comments":1,"words":33,"pr":true,"closed":"2016-10-03T12:31:31Z","closer":"101553"},
       "8727": {"comments":1,"words":35,"pr":true,"closed":"2016-10-03T12:05:47Z","closer":"101553"},
       "8750": {"comments":3,"words":27,"pr":true},
@@ -119,7 +125,7 @@
       "8865": {"comments":4,"words":153,"pr":true},
       "8867": {"comments":0,"words":361,"closed":"2016-10-03T10:55:08Z","closer":"101553","pr":true},
       "8875": {"comments":2,"words":46,"pr":true},
-      "8876": {"comments":2,"words":38,"pr":true},
+      "8876": {"comments":3,"words":54,"pr":true},
       "8877": {"comments":1,"words":51,"pr":true,"closed":"2016-10-03T10:38:08Z","closer":"101553"},
       "8884": {"comments":3,"words":45,"pr":true},
       "8886": {"comments":1,"words":36,"pr":true,"closed":"","closer":"101553"},
@@ -137,14 +143,16 @@
       "8904": {"comments":0,"words":140,"pr":true,"opened":"2016-10-03T10:44:13Z","opener":"1084056"},
       "8905": {"comments":1,"words":123,"pr":true,"opened":"2016-10-03T10:46:41Z","opener":"432351"},
       "8906": {"comments":4,"words":204,"pr":true,"opened":"2016-10-03T11:19:24Z","opener":"10611767"},
-      "8907": {"comments":4,"words":205,"pr":true,"opened":"2016-10-03T15:27:41Z","opener":"9373002"},
+      "8907": {"comments":5,"words":238,"pr":true,"opened":"2016-10-03T15:27:41Z","opener":"9373002"},
       "8908": {"comments":1,"words":46,"pr":true,"opened":"2016-10-03T15:51:37Z","opener":"2352663"},
       "8909": {"comments":1,"words":43,"pr":true,"opened":"2016-10-03T16:20:12Z","opener":"101553"},
-      "open": 845,
-      "words": 5807,
-      "comments": 140,
-      "closed": 15,
-      "opened": 10
+      "8910": {"comments":2,"words":79,"pr":true,"opened":"2016-10-03T17:07:16Z","opener":"275871"},
+      "8911": {"comments":2,"words":92,"opened":"2016-10-03T17:12:39Z","opener":"15943089","pr":true},
+      "open": 846,
+      "words": 6081,
+      "comments": 148,
+      "closed": 16,
+      "opened": 12
     },
     "node-addon-examples": {"open":29},
     "node-chakracore": {
@@ -178,12 +186,12 @@
     "nodejs-ja": {"open":4},
     "nodejs-ka": {"open":7},
     "nodejs-ko": {
-      "435": {"comments":29,"words":376,"pr":true,"opened":"2016-10-03T05:58:41Z","opener":"11581464"},
+      "435": {"comments":30,"words":384,"pr":true,"opened":"2016-10-03T05:58:41Z","opener":"11581464"},
       "436": {"comments":0,"words":39,"opened":"2016-10-03T11:30:54Z","opener":"128431","pr":true},
       "open": 14,
-      "words": 415,
+      "words": 423,
       "opened": 2,
-      "comments": 29
+      "comments": 30
     },
     "nodejs-mk": {"open":2},
     "nodejs-ms": {"open":1},
@@ -231,14 +239,21 @@
     "summit": {"open":2},
     "testing": {"open":15},
     "v8": {
-      "1": {"comments":2,"words":64,"pr":true},
+      "1": {"comments":4,"words":339,"pr":true},
       "open": 1,
-      "words": 64,
-      "comments": 2
+      "words": 339,
+      "comments": 4
     },
     "vm": {"open":2}
   },
   "users": {
+    "579": {
+      "id": "579",
+      "login": "mikeal",
+      "words": {
+        "TSC/pulls/150#251176909": 12
+      }
+    },
     "1377": {
       "id": "1377",
       "login": "stefanpenner",
@@ -365,7 +380,8 @@
         "nodejs-ko/pulls/435#81530338": 3,
         "nodejs.org/pulls/904#251081707": 6,
         "nodejs.org/pulls/904#251082000": 9,
-        "nodejs-ko/issues/436": 39
+        "nodejs-ko/issues/436": 39,
+        "nodejs-ko/pulls/435#81599137": 8
       },
       "opened": [
         "nodejs-ko/issues/436"
@@ -419,10 +435,18 @@
         "node/pulls/8836#251083901": 102,
         "node/pulls/8435#251146199": 45,
         "node/pulls/8893#251153222": 6,
-        "node/pulls/8435#251155054": 19
+        "node/pulls/8435#251155054": 19,
+        "node/pulls/8910": 59,
+        "node/pulls/8910#251166823": 7,
+        "node/pulls/8034": 4,
+        "node/pulls/8034#251175915": 16
       },
       "closed": [
-        "node/pulls/8886"
+        "node/pulls/8886",
+        "node/pulls/8034"
+      ],
+      "opened": [
+        "node/pulls/8910"
       ]
     },
     "291301": {
@@ -511,7 +535,9 @@
         "LTS/pulls/141#251033924": 223,
         "node/pulls/7572#251052808": 2,
         "node/pulls/4647#251128598": 86,
-        "node/pulls/8907#251151238": 79
+        "node/pulls/8907#251151238": 79,
+        "node/pulls/8910#251165356": 13,
+        "node/pulls/8911#251170724": 40
       },
       "opened": [
         "LTS/pulls/141"
@@ -582,6 +608,14 @@
       "login": "kesarion",
       "words": {
         "node/pulls/7904#251094803": 27
+      }
+    },
+    "811047": {
+      "id": "811047",
+      "login": "misterdjules",
+      "words": {
+        "v8/pulls/1#251164571": 230,
+        "v8/pulls/1#251177985": 45
       }
     },
     "815894": {
@@ -749,6 +783,13 @@
         "node/pulls/8908"
       ]
     },
+    "2365820": {
+      "id": "2365820",
+      "login": "kjin",
+      "words": {
+        "node/pulls/8876#251176473": 16
+      }
+    },
     "2512748": {
       "id": "2512748",
       "login": "cjihrig",
@@ -890,7 +931,9 @@
         "node/pulls/8750#251124285": 12,
         "node/pulls/8907": 107,
         "node/pulls/8907#251138781": 6,
-        "node/pulls/8907#251139188": 3
+        "node/pulls/8907#251139188": 3,
+        "node/pulls/8907#251165277": 33,
+        "build/pulls/508#251166386": 59
       },
       "opened": [
         "node/pulls/8907"
@@ -931,8 +974,14 @@
       "id": "15943089",
       "login": "gibfahn",
       "words": {
-        "node/pulls/8837#251085447": 41
-      }
+        "node/pulls/8837#251085447": 41,
+        "node/issues/8911": 51,
+        "node/pulls/8697#251171096": 34,
+        "node/pulls/8911#251172070": 1
+      },
+      "opened": [
+        "node/issues/8911"
+      ]
     },
     "16722535": {
       "id": "16722535",
