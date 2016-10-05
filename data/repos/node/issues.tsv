@@ -1,7 +1,7 @@
 1	238531	true	closed	false	4		2014-11-27T15:39:30Z	2016-09-01T18:10:57Z	2014-11-27T16:57:14Z	deps: update openssl to 1.0.1j	2		
 66	643505	false	closed	false	83		2014-12-04T08:42:35Z	2016-07-23T19:11:08Z	2014-12-11T12:34:07Z	deprecate domains	11		
 256	1315533	false	closed	false	27		2015-01-08T07:50:35Z	2016-07-31T16:41:49Z	2015-02-25T00:30:11Z	Consider exposing promise unhandled rejection hook	243		
-428	321966	false	open	false	42		2015-01-14T21:56:04Z	2016-07-08T15:21:33Z		plans on incorporating LibreSSL	35		
+428	321966	false	open	false	42		2015-01-14T21:56:04Z	2016-10-05T15:56:10Z		plans on incorporating LibreSSL	35		
 445	2993861	false	open	false	11		2015-01-15T16:18:56Z	2016-08-03T22:33:47Z		Cleanup `_writableState` and `_readableState` access across codebase	590		
 540	555645	true	closed	false	33		2015-01-21T16:22:26Z	2016-07-18T15:54:13Z	2015-01-28T03:49:14Z	events: Alias EventEmitter.protoype.removeListener as EventEmitter.prototype.off 	95		
 548	1522145	false	open	false	24		2015-01-22T03:48:27Z	2016-09-20T18:22:13Z		Function redefinition in vm.runInContext	42		
@@ -56,6 +56,7 @@
 2498	696611	true	closed	false	22		2015-08-22T20:07:00Z	2016-07-21T22:32:14Z	2016-07-21T22:32:14Z	fs: do basic arg validation of truncate in js	25		
 2521	885648	true	open	false	30		2015-08-24T08:36:14Z	2016-06-30T04:22:37Z		added CSI (\x9b) as additionally allowable escape	135		
 2534	4405297	true	open	false	87		2015-08-25T01:59:16Z	2016-08-08T12:58:00Z		http: fixed socket destruction, timeout and leaking	144		
+2546	9798949	false	closed	false	77		2015-08-25T19:16:53Z	2016-10-05T15:17:35Z	2016-06-02T17:53:08Z	Inspecting Node.js with Chrome DevTools	688		
 2569	13315	true	closed	false	27		2015-08-27T04:34:55Z	2016-09-30T16:14:04Z	2016-07-14T03:03:37Z	Add zh-CN i18n support for Windows installer	15		
 2571	153481	true	closed	false	47		2015-08-27T07:40:39Z	2016-08-09T22:05:24Z	2016-08-09T22:05:24Z	Refactor mac installer (Rebase of #776 against master)	13		
 2642	2645436	false	open	false	30		2015-09-02T06:06:18Z	2016-06-30T18:50:44Z		Keep alive connection do not get closed with server.close()	106		
@@ -1702,7 +1703,7 @@
 8606	4865608	true	open	false	9		2016-09-17T09:52:33Z	2016-09-21T00:35:46Z		test: Improved tests in test-os	74		
 8607	10419222	true	open	false	4		2016-09-17T09:55:03Z	2016-09-20T20:49:42Z		test: changed var to const/let in test-child-process-stdio	34		
 8608	6625123	false	closed	false	1		2016-09-17T09:55:10Z	2016-09-17T20:35:15Z	2016-09-17T20:35:15Z	Taskbar is not hidden in fullscreen	80		
-8609	2361826	true	open	false	13		2016-09-17T09:57:56Z	2016-10-04T13:34:12Z		internal: changed var to const in linkedlist	39		
+8609	2361826	true	open	false	14		2016-09-17T09:57:56Z	2016-10-05T15:07:36Z		internal: changed var to const in linkedlist	39		
 8610	14981026	true	open	false			2016-09-17T10:01:32Z	2016-09-23T09:39:54Z		src: Add does_zap_garbage to v8 HeapStatistics	84		
 8611	8657410	true	open	false	4		2016-09-17T10:02:06Z	2016-09-30T14:26:43Z		crypto: fix default encoding of LazyTransform	50		
 8612	635903	true	open	false	4		2016-09-17T10:09:25Z	2016-09-20T18:23:11Z		util: support SharedArrayBuffer in inspect	76		
@@ -1876,7 +1877,7 @@
 8780	22438485	false	open	false	2		2016-09-26T03:40:07Z	2016-09-26T05:25:00Z		nodejs armv8 can't run normally in Raspberry Pi 3 Model B	40		
 8781	1935767	true	open	false	6		2016-09-26T04:03:00Z	2016-09-28T01:17:40Z		tls: improve createSecureContext in _tls_common	51		
 8782	1935767	true	open	false	2		2016-09-26T04:55:28Z	2016-09-27T14:17:00Z		doc: fix title level at tls.md	40		
-8783	1935767	true	open	false	17		2016-09-26T06:03:10Z	2016-10-05T02:10:48Z		tls: should use .deprecated to wrap the deprecated createSecurePair	42		
+8783	1935767	true	open	false	18		2016-09-26T06:03:10Z	2016-10-05T15:27:49Z		tls: should use .deprecated to wrap the deprecated createSecurePair	42		
 8784	275871	true	closed	false	4	0	2016-09-26T08:02:02Z	2016-09-28T09:06:00Z	2016-09-28T09:06:00Z	src: rename CHECK_NOT_OOB() macro	21		
 8785	134460	true	open	false	0	0	2016-09-26T12:16:31Z	2016-09-26T12:16:31Z		win,tools: ignore linting for line breaks	73		
 8786	782880	true	open	false	0		2016-09-26T12:30:17Z	2016-09-26T14:18:32Z		Upgrade to openssl102j	72		
@@ -1941,7 +1942,7 @@
 8845	101553	true	open	false	5		2016-09-29T08:52:40Z	2016-09-30T15:26:42Z		doc: add example for running with v8-inspector	66		
 8846	3607926	false	open	false	11		2016-09-29T12:27:47Z	2016-09-30T16:00:47Z		v6.7.0 V8_inspector link does not work on macOS 10.12 Chrome 53	117		
 8847	9373002	false	open	false	6		2016-09-29T12:42:22Z	2016-10-04T10:40:42Z		AIX: hang on 4.x run 	74		
-8848	441346	true	open	false	11		2016-09-29T16:03:44Z	2016-10-04T22:35:08Z		test: run faster and cleanup after run	56		
+8848	441346	true	open	false	12		2016-09-29T16:03:44Z	2016-10-05T15:50:53Z		test: run faster and cleanup after run	56		
 8849	739555	true	closed	false	11		2016-09-29T18:19:35Z	2016-10-03T12:31:40Z	2016-10-02T23:47:10Z	[CVE-2016-5180] ares_create_query: avoid single-byte buffer overwrite	46		
 8850	101553	true	closed	false	3		2016-09-29T19:38:29Z	2016-10-03T10:27:14Z	2016-10-03T10:27:14Z	src: refactor reading of options in contextify	68		
 8851	498775	true	closed	false	2	0	2016-09-29T19:42:40Z	2016-10-04T15:17:34Z	2016-10-04T15:17:33Z	deps: bump V8 patch to 84	46	498775	2016-10-04T15:17:33Z
@@ -1956,7 +1957,7 @@
 8860	8007933	true	closed	false	6		2016-09-30T06:38:38Z	2016-09-30T17:41:01Z	2016-09-30T16:49:57Z	stream: fixed misplaced comment	55		
 8861	899444	true	open	false	0	0	2016-09-30T14:19:55Z	2016-09-30T14:19:55Z		build: make addons build  dep. on node_version.h	54		
 8862	899444	true	open	false	0	0	2016-09-30T14:30:53Z	2016-09-30T14:30:53Z		fs: export `realpathCacheKey` from `internal/fs`	70		
-8863	441346	true	open	false	2		2016-09-30T17:03:20Z	2016-10-05T06:32:02Z		internal: fix TypeError in v8-polyfill	62		
+8863	441346	true	open	false	4		2016-09-30T17:03:20Z	2016-10-05T15:01:38Z		internal: fix TypeError in v8-polyfill	62		
 8864	441346	true	closed	false	7		2016-09-30T17:35:54Z	2016-10-04T12:55:15Z	2016-10-03T14:24:37Z	test: fix running child-process-uid-gid as root	57		
 8865	439929	false	open	false	10		2016-09-30T18:10:59Z	2016-10-05T08:51:55Z		Intl: Consider deprecating Intl.v8BreakIterator	74		
 8866	439929	false	open	false	9		2016-09-30T18:19:18Z	2016-10-04T19:44:28Z		Modules: Coordinating ESM implementation in Core	96		
@@ -1985,7 +1986,7 @@
 8889	238531	true	closed	false	2		2016-10-01T19:20:39Z	2016-10-03T23:45:47Z	2016-10-03T23:45:47Z	tls: handle `error` events with `_tlsError`	96		
 8890	54666	true	closed	false	0		2016-10-01T23:04:21Z	2016-10-03T10:43:43Z	2016-10-03T10:43:43Z	inspector: fix minor issues	43		
 8891	815894	true	closed	false	0	0	2016-10-02T00:21:20Z	2016-10-02T01:06:56Z	2016-10-02T01:06:56Z	test: cleanup/update test-dgram-empty-packet.js	58		
-8892	5704064	true	open	false	7		2016-10-02T02:31:06Z	2016-10-04T17:02:05Z		doc: correct grammar in README.md	27		
+8892	5704064	true	closed	false	9		2016-10-02T02:31:06Z	2016-10-05T15:51:13Z	2016-10-04T17:02:11Z	doc: correct grammar in README.md	27		
 8893	718899	false	open	false	9		2016-10-02T05:52:52Z	2016-10-04T07:53:23Z		doc: explain why we don't use the GitHub merge button	75		
 8894	470827	true	open	false	2		2016-10-02T06:37:33Z	2016-10-02T21:31:02Z		Cleanup test file write stream	53		
 8895	1443911	true	open	false			2016-10-02T10:34:26Z	2016-10-03T13:12:56Z		http: set socket timeout when socket connects	82		
@@ -2026,11 +2027,11 @@
 8930	718899	false	open	false	0		2016-10-04T22:57:12Z	2016-10-04T22:57:12Z		investigate flaky sequential/test-net-GH-5504 on SmartOS	113		
 8931	718899	true	open	false	1		2016-10-04T23:19:51Z	2016-10-05T08:11:12Z		test: refactor test-net-server-max-connections	66		
 8932	677994	true	open	false	9		2016-10-04T23:34:01Z	2016-10-05T14:19:41Z		process: improve performance of nextTick	142		
-8933	1250248	true	open	false	1		2016-10-05T03:34:32Z	2016-10-05T05:36:57Z		doc: fix url markdown formatting	69		
+8933	1250248	true	closed	false	2		2016-10-05T03:34:32Z	2016-10-05T15:38:51Z	2016-10-05T15:38:51Z	doc: fix url markdown formatting	69		
 8934	11786120	false	open	false	0		2016-10-05T08:39:23Z	2016-10-05T08:39:23Z		readline: emitKeypressEvents does not properly recognized Alt+Arrow	61		
 8935	4057473	false	open	false	0		2016-10-05T09:42:53Z	2016-10-05T09:42:53Z		No reference error on nonexistent object value	105		
 8936	16836380	false	open	false	0		2016-10-05T09:52:31Z	2016-10-05T09:52:31Z		Solaris SPARC support	46		
 8937	16836380	false	closed	false	2		2016-10-05T10:47:06Z	2016-10-05T11:59:46Z	2016-10-05T11:59:46Z	V8DBG_OFF_FP_CONTEXT: Unknown variable name	123		
 8938	815894	true	open	false	0	0	2016-10-05T11:58:48Z	2016-10-05T11:58:48Z		Test dgram error message	47		
 8939	18028768	false	open	false	0		2016-10-05T13:26:25Z	2016-10-05T13:26:25Z		npm install error!	26		
-8940	21042045	true	open	false	0	0	2016-10-05T13:44:11Z	2016-10-05T13:44:11Z		Update fs.md	50		
+8940	21042045	true	open	false			2016-10-05T13:44:11Z	2016-10-05T15:26:10Z		Update fs.md	51		
