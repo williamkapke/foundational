@@ -1,7 +1,7 @@
 1	238531	true	closed	false	4		2014-11-27T15:39:30Z	2016-09-01T18:10:57Z	2014-11-27T16:57:14Z	deps: update openssl to 1.0.1j	2		
 66	643505	false	closed	false	83		2014-12-04T08:42:35Z	2016-07-23T19:11:08Z	2014-12-11T12:34:07Z	deprecate domains	11		
 256	1315533	false	closed	false	27		2015-01-08T07:50:35Z	2016-07-31T16:41:49Z	2015-02-25T00:30:11Z	Consider exposing promise unhandled rejection hook	243		
-428	321966	false	open	false	42		2015-01-14T21:56:04Z	2016-10-05T15:56:10Z		plans on incorporating LibreSSL	35		
+428	321966	false	open	false	44		2015-01-14T21:56:04Z	2016-10-05T16:24:27Z		plans on incorporating LibreSSL	35		
 445	2993861	false	open	false	11		2015-01-15T16:18:56Z	2016-08-03T22:33:47Z		Cleanup `_writableState` and `_readableState` access across codebase	590		
 540	555645	true	closed	false	33		2015-01-21T16:22:26Z	2016-07-18T15:54:13Z	2015-01-28T03:49:14Z	events: Alias EventEmitter.protoype.removeListener as EventEmitter.prototype.off 	95		
 548	1522145	false	open	false	24		2015-01-22T03:48:27Z	2016-09-20T18:22:13Z		Function redefinition in vm.runInContext	42		
@@ -56,7 +56,7 @@
 2498	696611	true	closed	false	22		2015-08-22T20:07:00Z	2016-07-21T22:32:14Z	2016-07-21T22:32:14Z	fs: do basic arg validation of truncate in js	25		
 2521	885648	true	open	false	30		2015-08-24T08:36:14Z	2016-06-30T04:22:37Z		added CSI (\x9b) as additionally allowable escape	135		
 2534	4405297	true	open	false	87		2015-08-25T01:59:16Z	2016-08-08T12:58:00Z		http: fixed socket destruction, timeout and leaking	144		
-2546	9798949	false	closed	false	77		2015-08-25T19:16:53Z	2016-10-05T15:17:35Z	2016-06-02T17:53:08Z	Inspecting Node.js with Chrome DevTools	688		
+2546	9798949	false	closed	false	81		2015-08-25T19:16:53Z	2016-10-05T16:23:31Z	2016-06-02T17:53:08Z	Inspecting Node.js with Chrome DevTools	688		
 2569	13315	true	closed	false	27		2015-08-27T04:34:55Z	2016-09-30T16:14:04Z	2016-07-14T03:03:37Z	Add zh-CN i18n support for Windows installer	15		
 2571	153481	true	closed	false	47		2015-08-27T07:40:39Z	2016-08-09T22:05:24Z	2016-08-09T22:05:24Z	Refactor mac installer (Rebase of #776 against master)	13		
 2642	2645436	false	open	false	30		2015-09-02T06:06:18Z	2016-06-30T18:50:44Z		Keep alive connection do not get closed with server.close()	106		
@@ -1877,7 +1877,7 @@
 8780	22438485	false	open	false	2		2016-09-26T03:40:07Z	2016-09-26T05:25:00Z		nodejs armv8 can't run normally in Raspberry Pi 3 Model B	40		
 8781	1935767	true	open	false	6		2016-09-26T04:03:00Z	2016-09-28T01:17:40Z		tls: improve createSecureContext in _tls_common	51		
 8782	1935767	true	open	false	2		2016-09-26T04:55:28Z	2016-09-27T14:17:00Z		doc: fix title level at tls.md	40		
-8783	1935767	true	open	false	18		2016-09-26T06:03:10Z	2016-10-05T15:27:49Z		tls: should use .deprecated to wrap the deprecated createSecurePair	42		
+8783	1935767	true	open	false	19		2016-09-26T06:03:10Z	2016-10-05T16:27:38Z		tls: should use .deprecated to wrap the deprecated createSecurePair	42		
 8784	275871	true	closed	false	4	0	2016-09-26T08:02:02Z	2016-09-28T09:06:00Z	2016-09-28T09:06:00Z	src: rename CHECK_NOT_OOB() macro	21		
 8785	134460	true	open	false	0	0	2016-09-26T12:16:31Z	2016-09-26T12:16:31Z		win,tools: ignore linting for line breaks	73		
 8786	782880	true	open	false	0		2016-09-26T12:30:17Z	2016-09-26T14:18:32Z		Upgrade to openssl102j	72		
@@ -1930,7 +1930,7 @@
 8833	2067616	false	closed	false	7		2016-09-28T16:00:07Z	2016-09-29T17:01:44Z	2016-09-29T17:01:44Z	TypeError in child_process, envPairs.push(key + '=' + env[key])	164		
 8834	899444	true	open	false	13		2016-09-28T17:53:51Z	2016-10-02T11:06:33Z		stream: proper `instanceof` for `Writable`s	60		
 8835	718899	true	open	false	5		2016-09-28T18:46:49Z	2016-09-29T15:56:21Z		test: mark test-inspector flaky on windows	30		
-8836	432351	true	open	false	10		2016-09-28T19:00:38Z	2016-10-04T20:03:58Z		test: enable addons test to pass with debug build	142		
+8836	432351	true	open	false	11		2016-09-28T19:00:38Z	2016-10-05T16:22:03Z		test: enable addons test to pass with debug build	142		
 8837	567540	true	open	false			2016-09-28T20:55:31Z	2016-10-04T08:42:43Z		inspector: Allow require in Runtime.evaluate	92		
 8838	718899	false	open	false	6		2016-09-28T21:32:10Z	2016-09-30T21:17:20Z		investigate flaky parallel/test-debug-signal-cluster on SmartOS	75		
 8839	2205537	false	closed	false	5		2016-09-28T23:55:39Z	2016-10-01T14:00:28Z	2016-10-01T14:00:28Z	`process.stdin` is not implemented in bash for Windows 10... unknown type	246		
@@ -1986,16 +1986,16 @@
 8889	238531	true	closed	false	2		2016-10-01T19:20:39Z	2016-10-03T23:45:47Z	2016-10-03T23:45:47Z	tls: handle `error` events with `_tlsError`	96		
 8890	54666	true	closed	false	0		2016-10-01T23:04:21Z	2016-10-03T10:43:43Z	2016-10-03T10:43:43Z	inspector: fix minor issues	43		
 8891	815894	true	closed	false	0	0	2016-10-02T00:21:20Z	2016-10-02T01:06:56Z	2016-10-02T01:06:56Z	test: cleanup/update test-dgram-empty-packet.js	58		
-8892	5704064	true	closed	false	9		2016-10-02T02:31:06Z	2016-10-05T15:51:13Z	2016-10-04T17:02:11Z	doc: correct grammar in README.md	27		
+8892	5704064	true	closed	false	11		2016-10-02T02:31:06Z	2016-10-05T16:06:50Z	2016-10-04T17:02:11Z	doc: correct grammar in README.md	27		
 8893	718899	false	open	false	9		2016-10-02T05:52:52Z	2016-10-04T07:53:23Z		doc: explain why we don't use the GitHub merge button	75		
 8894	470827	true	open	false	2		2016-10-02T06:37:33Z	2016-10-02T21:31:02Z		Cleanup test file write stream	53		
 8895	1443911	true	open	false			2016-10-02T10:34:26Z	2016-10-03T13:12:56Z		http: set socket timeout when socket connects	82		
-8896	815894	true	open	false	8		2016-10-02T10:39:29Z	2016-10-05T13:07:56Z		test: cleanup/update test-dgram-empty-packet.js	46		
+8896	815894	true	open	false	10		2016-10-02T10:39:29Z	2016-10-05T16:16:41Z		test: cleanup/update test-dgram-empty-packet.js	46		
 8897	207759	false	open	false	1		2016-10-02T13:06:45Z	2016-10-03T10:01:49Z		Windows Container: npm can't be used in docker volume directory	744		
 8898	2093546	true	open	false	0	0	2016-10-02T15:09:03Z	2016-10-02T15:09:03Z		V0.12.7 release	47		
 8899	21338908	false	closed	false	3		2016-10-02T16:37:37Z	2016-10-03T09:47:07Z	2016-10-03T09:47:07Z	Error: getaddrinfo ENOTFOUND DNS.js	204		
 8900	718899	true	open	false	7		2016-10-03T04:22:47Z	2016-10-04T22:30:59Z		test: mark test-tick-processor-unknown flaky	30		
-8901	1443911	true	open	false	0	0	2016-10-03T08:51:30Z	2016-10-03T08:51:30Z		doc: add `added:` information for globals	27		
+8901	1443911	true	open	false			2016-10-03T08:51:30Z	2016-10-05T16:25:15Z		doc: add `added:` information for globals	27		
 8902	911174	true	open	false			2016-10-03T10:24:41Z	2016-10-04T17:10:27Z		doc: make node(1) more consistent with tradition	101		
 8903	911174	false	open	false	4		2016-10-03T10:36:00Z	2016-10-04T17:07:23Z		Ship manpages for all core modules	96		
 8904	1084056	true	closed	false	1		2016-10-03T10:44:13Z	2016-10-04T18:45:49Z	2016-10-04T18:45:49Z	Backport PR 7572	140		
@@ -2017,14 +2017,14 @@
 8920	718899	true	open	false			2016-10-04T03:46:37Z	2016-10-04T16:52:36Z		tools: disallow extra blank lines at end of files	33		
 8921	1324157	false	open	false	1		2016-10-04T08:55:10Z	2016-10-04T09:10:07Z		url.resolve() behaves differently depending on the protocol of the base url	84		
 8922	495647	true	open	false			2016-10-04T09:55:01Z	2016-10-04T10:04:51Z		doc: add supported platforms list	51		
-8923	275871	true	open	false	1		2016-10-04T10:28:19Z	2016-10-04T13:51:01Z		http: reject control characters in http.request()	125		
+8923	275871	true	open	false			2016-10-04T10:28:19Z	2016-10-05T16:35:14Z		http: reject control characters in http.request()	125		
 8924	2352663	true	closed	false	4		2016-10-04T12:54:16Z	2016-10-04T23:05:38Z	2016-10-04T23:05:38Z	test: fix child-process-uid-gid on Windows	41		
 8925	815894	false	open	false	0		2016-10-04T15:49:46Z	2016-10-04T15:49:46Z		test: cleanup/update test-dgram-error-message-address.js	11		
 8926	6190179	false	open	false	10		2016-10-04T16:22:32Z	2016-10-04T18:02:02Z		Can't run nodejs 4.6 on Ubuntu 12.04.5 LTS with Geode AMD CPU	168		
 8927	54666	false	open	false	0		2016-10-04T17:23:22Z	2016-10-04T17:23:22Z		child_process: outdated comment	51		
 8928	17535	true	open	false	2		2016-10-04T17:50:29Z	2016-10-04T19:26:03Z		deps: update npm in LTS to 2.15.11	126		
 8929	2725611	false	open	false	0		2016-10-04T20:43:13Z	2016-10-04T20:43:13Z		Replace .eslintrc with something else?	42		
-8930	718899	false	open	false	0		2016-10-04T22:57:12Z	2016-10-04T22:57:12Z		investigate flaky sequential/test-net-GH-5504 on SmartOS	113		
+8930	718899	false	open	false	0		2016-10-04T22:57:12Z	2016-10-05T16:51:59Z		investigate flaky sequential/test-net-GH-5504 on SmartOS	113		
 8931	718899	true	open	false	1		2016-10-04T23:19:51Z	2016-10-05T08:11:12Z		test: refactor test-net-server-max-connections	66		
 8932	677994	true	open	false	9		2016-10-04T23:34:01Z	2016-10-05T14:19:41Z		process: improve performance of nextTick	142		
 8933	1250248	true	closed	false	2		2016-10-05T03:34:32Z	2016-10-05T15:38:51Z	2016-10-05T15:38:51Z	doc: fix url markdown formatting	69		
