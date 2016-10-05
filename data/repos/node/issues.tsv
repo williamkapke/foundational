@@ -135,6 +135,7 @@
 4169	54666	true	closed	false	20		2015-12-06T06:38:35Z	2016-08-30T14:10:41Z	2016-03-18T23:29:42Z	timers: improve setImmediate() performance	51		
 4175	16188318	false	open	false	25		2015-12-07T10:29:32Z	2016-08-31T09:53:05Z		Node uses an hardcoded list of certificate authorities	240		
 4179	6068824	false	closed	false	15		2015-12-07T22:13:03Z	2016-08-15T20:12:24Z	2016-05-09T12:05:23Z	util.inherits does not establish prototype chain	176		
+4217	96150	true	closed	false	32	3	2015-12-09T21:53:28Z	2016-10-05T18:50:34Z	2016-10-05T18:50:34Z	fs: add accessibleSync() which returns a boolean	9		
 4236	10103531	false	open	false	8		2015-12-11T01:18:07Z	2016-07-13T03:34:14Z		child_process.spawn() has undocumented 200kb buffer limit	74		
 4243	524382	true	closed	false	10	0	2015-12-11T17:36:12Z	2016-08-19T15:09:25Z	2016-08-19T15:09:25Z	src: use thread defaults provided by v8::platform	73		
 4246	238531	true	closed	false	15		2015-12-11T20:52:00Z	2016-10-04T11:07:51Z	2015-12-12T00:54:07Z	tls: introduce `secureContext` for `tls.connect`	18		
@@ -405,7 +406,7 @@
 7158	9056756	false	closed	false	5		2016-06-05T04:43:28Z	2016-07-11T09:40:17Z	2016-06-05T06:49:21Z	Unable to cross-compile Node v6.2.1 for iOS	283		
 7162	275871	true	closed	false	12	0	2016-06-05T16:54:03Z	2016-09-23T16:26:57Z	2016-09-23T16:26:57Z	fs: move stringToFlags() to lib/internal	3		
 7163	628445	false	closed	false	15		2016-06-05T18:53:46Z	2016-09-19T22:07:28Z	2016-09-19T22:07:28Z	`systemjs-plugin-babel` fails on `v6.2.0`	47		
-7165	696611	true	open	false	29		2016-06-05T21:37:06Z	2016-09-30T14:55:09Z		"fs: refactor ""options"" processing as a function"	86		
+7165	696611	true	closed	false	29		2016-06-05T21:37:06Z	2016-10-05T18:50:46Z	2016-10-05T18:50:46Z	"fs: refactor ""options"" processing as a function"	86		
 7166	730640	true	open	false	3		2016-06-05T22:01:01Z	2016-09-15T22:22:44Z		doc: more detail on when timers are executed	61		
 7168	696611	true	closed	false	21		2016-06-05T22:31:56Z	2016-07-28T01:38:31Z	2016-07-21T21:06:43Z	fs: remove maybeCallback function	124		
 7170	5470583	false	closed	false	2		2016-06-06T00:52:46Z	2016-06-30T06:20:53Z	2016-06-30T06:20:53Z	Doc Markup Typo	13		
@@ -555,7 +556,7 @@
 7450	287917	true	closed	false	4	8	2016-06-27T23:46:29Z	2016-06-29T23:04:00Z	2016-06-29T23:03:59Z	inspector: Do cleanups before notifying callback	135		
 7451	498775	true	closed	false	16	2	2016-06-28T00:12:14Z	2016-06-29T23:06:16Z	2016-06-29T23:06:16Z	[v4.x backport] test: run v8 tests from node tree	130	498775	2016-06-29T23:06:16Z
 7454	1272762	false	closed	false	40		2016-06-28T04:16:21Z	2016-07-18T09:27:46Z	2016-07-11T13:10:31Z	version 6.2.1 always got Segment Fault error and crash	68		
-7455	96150	true	open	false	33		2016-06-28T05:34:07Z	2016-09-01T15:24:38Z		fs: undeprecate existsSync; use access instead of stat for performance	88		
+7455	96150	true	closed	false	35		2016-06-28T05:34:07Z	2016-10-05T18:49:32Z	2016-10-05T18:49:32Z	fs: undeprecate existsSync; use access instead of stat for performance	88		
 7458	8720367	false	open	false	1		2016-06-28T10:58:32Z	2016-07-27T11:41:08Z		Built-in properties cannot be accessed using Reflect, when Proxy is passed as vm context	95		
 7460	498775	true	closed	false	5	0	2016-06-28T18:37:57Z	2016-06-29T21:33:45Z	2016-06-29T21:33:45Z	tools: explicit path for V8 test tap output	147	498775	2016-06-29T21:33:45Z
 7461	715626	false	closed	false	5		2016-06-28T18:43:05Z	2016-07-06T05:18:37Z	2016-07-06T05:09:34Z	path.dirname used in loop	144		
@@ -891,7 +892,7 @@
 7792	5477955	false	open	false	5		2016-07-19T14:05:49Z	2016-07-20T09:30:01Z		Inconsistent clearTimeout implementation (timer argument is not converted to primitive)	181		
 7793	2512748	true	closed	false	3	0	2016-07-19T15:40:48Z	2016-07-20T17:04:52Z	2016-07-20T17:04:52Z	test: add known issue test for #7788	69	2512748	2016-07-20T17:04:52Z
 7794	1622515	true	closed	false	3		2016-07-19T18:12:14Z	2016-07-21T11:43:30Z	2016-07-21T11:43:30Z	repl: Mitigate vm #548 function redefinition issue	73		
-7795	2512748	true	closed	false	8		2016-07-19T18:46:21Z	2016-10-05T17:56:59Z	2016-07-21T14:38:06Z	repl: default useGlobal to true	76		
+7795	2512748	true	closed	false	9		2016-07-19T18:46:21Z	2016-10-05T18:06:47Z	2016-07-21T14:38:06Z	repl: default useGlobal to true	76		
 7796	79017	true	closed	false	18		2016-07-19T19:34:41Z	2016-08-10T15:42:17Z	2016-07-27T14:36:28Z	deps: update v8_inspector	111		
 7797	5108906	true	open	false	5		2016-07-19T19:47:53Z	2016-07-20T15:57:15Z		Correcting misspelling	51		
 7798	134460	true	closed	false	7	7	2016-07-19T21:27:27Z	2016-08-03T11:51:27Z	2016-08-03T11:51:27Z	win,msi: fix inclusion of translations	77		
@@ -1955,7 +1956,7 @@
 8858	5292705	false	open	false	0		2016-09-30T03:47:34Z	2016-09-30T03:47:34Z		The SNICertCallback is not called when visiting by IP Adress	129		
 8859	11976448	true	closed	false	4		2016-09-30T05:20:26Z	2016-10-03T11:31:50Z	2016-10-03T11:31:50Z	test: expand test coverage for url.js	66		
 8860	8007933	true	closed	false	6		2016-09-30T06:38:38Z	2016-09-30T17:41:01Z	2016-09-30T16:49:57Z	stream: fixed misplaced comment	55		
-8861	899444	true	open	false	0	0	2016-09-30T14:19:55Z	2016-09-30T14:19:55Z		build: make addons build  dep. on node_version.h	54		
+8861	899444	true	open	false	1		2016-09-30T14:19:55Z	2016-10-05T18:54:22Z		build: make addons build  dep. on node_version.h	54		
 8862	899444	true	open	false	0	0	2016-09-30T14:30:53Z	2016-09-30T14:30:53Z		fs: export `realpathCacheKey` from `internal/fs`	70		
 8863	441346	true	open	false	4		2016-09-30T17:03:20Z	2016-10-05T15:01:38Z		internal: fix TypeError in v8-polyfill	62		
 8864	441346	true	closed	false	7		2016-09-30T17:35:54Z	2016-10-04T12:55:15Z	2016-10-03T14:24:37Z	test: fix running child-process-uid-gid as root	57		
@@ -1988,7 +1989,7 @@
 8891	815894	true	closed	false	0	0	2016-10-02T00:21:20Z	2016-10-02T01:06:56Z	2016-10-02T01:06:56Z	test: cleanup/update test-dgram-empty-packet.js	58		
 8892	5704064	true	closed	false	11		2016-10-02T02:31:06Z	2016-10-05T16:06:50Z	2016-10-04T17:02:11Z	doc: correct grammar in README.md	27		
 8893	718899	false	open	false	9		2016-10-02T05:52:52Z	2016-10-04T07:53:23Z		doc: explain why we don't use the GitHub merge button	75		
-8894	470827	true	open	false	2		2016-10-02T06:37:33Z	2016-10-02T21:31:02Z		Cleanup test file write stream	53		
+8894	470827	true	open	false	2		2016-10-02T06:37:33Z	2016-10-05T18:35:32Z		Cleanup test file write stream	53		
 8895	1443911	true	open	false			2016-10-02T10:34:26Z	2016-10-03T13:12:56Z		http: set socket timeout when socket connects	82		
 8896	815894	true	open	false	10		2016-10-02T10:39:29Z	2016-10-05T16:16:41Z		test: cleanup/update test-dgram-empty-packet.js	46		
 8897	207759	false	open	false	1		2016-10-02T13:06:45Z	2016-10-03T10:01:49Z		Windows Container: npm can't be used in docker volume directory	744		
@@ -2025,8 +2026,8 @@
 8928	17535	true	open	false	2		2016-10-04T17:50:29Z	2016-10-04T19:26:03Z		deps: update npm in LTS to 2.15.11	126		
 8929	2725611	false	open	false	0		2016-10-04T20:43:13Z	2016-10-04T20:43:13Z		Replace .eslintrc with something else?	42		
 8930	718899	false	open	false	0		2016-10-04T22:57:12Z	2016-10-05T16:51:59Z		investigate flaky sequential/test-net-GH-5504 on SmartOS	113		
-8931	718899	true	open	false	1		2016-10-04T23:19:51Z	2016-10-05T08:11:12Z		test: refactor test-net-server-max-connections	66		
-8932	677994	true	open	false	10		2016-10-04T23:34:01Z	2016-10-05T17:42:28Z		process: improve performance of nextTick	142		
+8931	718899	true	open	false	3		2016-10-04T23:19:51Z	2016-10-05T18:01:05Z		test: refactor test-net-server-max-connections	66		
+8932	677994	true	open	false	11		2016-10-04T23:34:01Z	2016-10-05T18:37:18Z		process: improve performance of nextTick	142		
 8933	1250248	true	closed	false	2		2016-10-05T03:34:32Z	2016-10-05T15:38:51Z	2016-10-05T15:38:51Z	doc: fix url markdown formatting	69		
 8934	11786120	false	open	false	0		2016-10-05T08:39:23Z	2016-10-05T08:39:23Z		readline: emitKeypressEvents does not properly recognized Alt+Arrow	61		
 8935	4057473	false	open	false	0		2016-10-05T09:42:53Z	2016-10-05T09:42:53Z		No reference error on nonexistent object value	105		
@@ -2035,3 +2036,5 @@
 8938	815894	true	open	false	0	0	2016-10-05T11:58:48Z	2016-10-05T11:58:48Z		Test dgram error message	47		
 8939	18028768	false	open	false	0		2016-10-05T13:26:25Z	2016-10-05T13:26:25Z		npm install error!	26		
 8940	21042045	true	open	false			2016-10-05T13:44:11Z	2016-10-05T15:26:10Z		Update fs.md	51		
+8941	718899	true	open	false	0	0	2016-10-05T18:24:16Z	2016-10-05T18:24:16Z		doc: fix typo in email address in README	29		
+8942	101553	false	open	false	0		2016-10-05T18:28:34Z	2016-10-05T18:28:34Z		Examples in debugger documentation should all use global node	16		
