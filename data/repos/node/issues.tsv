@@ -88,6 +88,7 @@
 3105	452298	false	closed	false	6		2015-09-28T17:02:34Z	2016-07-13T06:35:23Z	2016-07-13T06:35:23Z	Generators are not providing the right line:col for the error message	116		
 3145	369698	false	open	false	14		2015-10-01T12:26:52Z	2016-07-08T19:52:51Z		child_process IPC is very slow, about 100-10000x slower than I expected (scales with msg size)	212		
 3159	131406	false	open	false	4		2015-10-02T13:49:38Z	2016-08-30T13:15:56Z		please provide a way to use system-installed root certificates instead of bundled ones	82		
+3179	8974489	false	closed	false	18		2015-10-05T10:13:45Z	2016-10-06T10:19:34Z	2016-06-07T20:59:21Z	node compile failure on Solaris 11.2 and gcc 4.8 (undefined std::isnan)	266		
 3249	291301	false	closed	false	10		2015-10-07T22:50:32Z	2016-07-13T07:02:20Z	2016-07-13T07:02:20Z	vm: `--expose-gc` breaks gc and crashes with `--max-old-space-size`	314		
 3263	131406	false	closed	false	14		2015-10-08T07:30:48Z	2016-10-05T12:50:15Z	2016-10-05T12:50:15Z	building s390 / s390x	121		
 3280	166891	true	open	false	13		2015-10-08T14:50:04Z	2016-07-04T18:51:12Z		Make tests usable with debug release	51		
@@ -2027,7 +2028,7 @@
 8929	2725611	false	open	false	0		2016-10-04T20:43:13Z	2016-10-04T20:43:13Z		Replace .eslintrc with something else?	42		
 8930	718899	false	open	false	0		2016-10-04T22:57:12Z	2016-10-05T16:51:59Z		investigate flaky sequential/test-net-GH-5504 on SmartOS	113		
 8931	718899	true	open	false	3		2016-10-04T23:19:51Z	2016-10-05T18:01:05Z		test: refactor test-net-server-max-connections	66		
-8932	677994	true	open	false	12		2016-10-04T23:34:01Z	2016-10-05T21:45:01Z		process: improve performance of nextTick	142		
+8932	677994	true	open	false	14		2016-10-04T23:34:01Z	2016-10-06T10:33:26Z		process: improve performance of nextTick	142		
 8933	1250248	true	closed	false	2		2016-10-05T03:34:32Z	2016-10-05T15:38:51Z	2016-10-05T15:38:51Z	doc: fix url markdown formatting	69		
 8934	11786120	false	open	false	0		2016-10-05T08:39:23Z	2016-10-06T02:18:19Z		readline: emitKeypressEvents does not properly recognize Alt+Arrow	76		
 8935	4057473	false	open	false	0		2016-10-05T09:42:53Z	2016-10-05T09:42:53Z		No reference error on nonexistent object value	105		
@@ -2035,19 +2036,20 @@
 8937	16836380	false	closed	false	2		2016-10-05T10:47:06Z	2016-10-05T11:59:46Z	2016-10-05T11:59:46Z	V8DBG_OFF_FP_CONTEXT: Unknown variable name	123		
 8938	815894	true	open	false	1		2016-10-05T11:58:48Z	2016-10-05T19:02:53Z		test: cleanup/update test-dgram-error-message-address.js	45		
 8939	18028768	false	open	false	0		2016-10-05T13:26:25Z	2016-10-05T13:26:25Z		npm install error!	26		
-8940	21042045	true	open	false			2016-10-05T13:44:11Z	2016-10-05T15:26:10Z		Update fs.md	51		
+8940	21042045	true	open	false			2016-10-05T13:44:11Z	2016-10-06T10:36:32Z		fs: fix link rot in fs.md	30		
 8941	718899	true	open	false	0	0	2016-10-05T18:24:16Z	2016-10-05T18:24:16Z		doc: fix typo in email address in README	29		
 8942	101553	false	open	false	0		2016-10-05T18:28:34Z	2016-10-05T18:28:34Z		Examples in debugger documentation should all use global node	16		
 8943	13561163	true	open	false	1		2016-10-05T21:55:51Z	2016-10-05T22:13:51Z		doc:  ./node to node in debugger.md	25		
-8944	12266954	false	open	false	3		2016-10-05T22:46:33Z	2016-10-06T06:05:20Z		Cannot communicate to web app powered by Node 4.6 from Windows Server 2003 using HTTPS	160		
-8945	718899	true	open	false			2016-10-06T03:59:22Z	2016-10-06T04:22:35Z		governance: expand use of CTC issue tracker	68		
+8944	12266954	false	closed	false	6		2016-10-05T22:46:33Z	2016-10-06T11:00:38Z	2016-10-06T11:00:38Z	Cannot communicate to web app powered by Node 4.6 from Windows Server 2003 using HTTPS	160		
+8945	718899	true	open	false			2016-10-06T03:59:22Z	2016-10-06T10:55:42Z		governance: expand use of CTC issue tracker	68		
 8946	54666	true	open	false	0	0	2016-10-06T05:37:52Z	2016-10-06T05:37:52Z		buffer: make byteLength throw on invalid input	108		
 8947	22473522	false	open	false	1		2016-10-06T05:44:29Z	2016-10-06T06:01:54Z		How to read memory stream of a pdf and open it	163		
 8948	54666	true	open	false	0	0	2016-10-06T05:45:14Z	2016-10-06T05:45:14Z		deps: revert default gtest reporter change	69		
 8949	54666	false	open	false	0		2016-10-06T05:59:24Z	2016-10-06T05:59:24Z		Investigate flaky tests on FreeBSD	22		
 8950	54666	false	open	false	4		2016-10-06T06:04:36Z	2016-10-06T09:06:09Z		Investigate flaky parallel/test-child-process-fork-regr-gh-2847	72		
 8951	101553	false	open	false	0		2016-10-06T06:51:35Z	2016-10-06T06:51:35Z		Typo in comment in readline.js	5		
-8952	2892242	false	open	false	1		2016-10-06T08:06:31Z	2016-10-06T09:52:49Z		Sent string through net.Socket gets changed	126		
-8953	7273940	true	open	false	2		2016-10-06T08:08:47Z	2016-10-06T09:22:52Z		doc:concievably typo in readline.js	2		
+8952	2892242	false	closed	false	1		2016-10-06T08:06:31Z	2016-10-06T10:53:16Z	2016-10-06T10:53:16Z	Sent string through net.Socket gets changed	126		
+8953	7273940	true	open	false	3		2016-10-06T08:08:47Z	2016-10-06T10:56:01Z		readline: concievably typo in readline.js	2		
 8954	1084056	true	open	false	1		2016-10-06T08:48:18Z	2016-10-06T09:17:40Z		test: fix test-child-process-fork-regr-gh-2847	103		
 8955	3758485	false	open	false	0		2016-10-06T09:06:12Z	2016-10-06T09:06:12Z		Streams memory leak	540		
+8956	495647	true	open	false	0	0	2016-10-06T10:23:16Z	2016-10-06T10:23:16Z		src: bump version to v8.0.0 for master	106		
