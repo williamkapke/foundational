@@ -142,7 +142,7 @@
 4243	524382	true	closed	false	10	0	2015-12-11T17:36:12Z	2016-08-19T15:09:25Z	2016-08-19T15:09:25Z	src: use thread defaults provided by v8::platform	73		
 4246	238531	true	closed	false	15		2015-12-11T20:52:00Z	2016-10-04T11:07:51Z	2015-12-12T00:54:07Z	tls: introduce `secureContext` for `tls.connect`	18		
 4253	855219	true	closed	false	18		2015-12-12T01:21:25Z	2016-08-30T14:10:50Z	2016-05-04T22:07:05Z	nodejs/node#3111 - WIP v8BreakIterator disablement	6		
-4266	1470592	false	open	false	14		2015-12-14T00:40:39Z	2016-10-06T16:44:49Z		buffer.toString fails for buffers larger than 192MB	95		
+4266	1470592	false	open	false	16		2015-12-14T00:40:39Z	2016-10-06T17:07:34Z		buffer.toString fails for buffers larger than 192MB	95		
 4270	495647	false	open	false	22		2015-12-14T10:06:18Z	2016-09-23T18:35:10Z		Discussion: OpenSSL 1.1.0 planning	297		
 4303	7731478	true	open	false	21		2015-12-16T04:12:08Z	2016-09-24T19:28:03Z		timer: make sure timer is cleared	267		
 4307	12825770	false	closed	false	11		2015-12-16T08:16:14Z	2016-07-11T09:25:48Z	2016-07-11T09:25:48Z	can not step in constructor, will will terminate node.exe	90		
@@ -954,8 +954,8 @@
 7852	886388	false	closed	false	11		2016-07-23T18:24:17Z	2016-07-27T12:36:41Z	2016-07-25T04:16:55Z	Removing listener that was added multiple times	68		
 7853	516780	false	open	false	6		2016-07-23T19:28:07Z	2016-08-23T23:01:50Z		node --debug takes a really long time to respond to websockets	180		
 7854	1084056	true	closed	false	10		2016-07-23T20:09:19Z	2016-08-02T14:08:28Z	2016-08-02T14:08:28Z	test: fix test-vm-sigint flakiness	68		
-7855	1422781	true	open	false	21		2016-07-23T20:38:28Z	2016-09-11T18:27:37Z		dgram: setMulticastInterface() outgoing interface selection	72		
-7856	373545	true	open	false	23		2016-07-23T20:49:58Z	2016-09-25T17:24:39Z		fs: Fix default params for fs.write	81		
+7855	1422781	true	open	false	23		2016-07-23T20:38:28Z	2016-10-06T17:24:59Z		dgram: setMulticastInterface() outgoing interface selection	72		
+7856	373545	true	open	false	24		2016-07-23T20:49:58Z	2016-10-06T17:19:10Z		fs: Fix default params for fs.write	81		
 7857	718899	true	closed	false	26		2016-07-23T21:15:43Z	2016-07-31T20:33:10Z	2016-07-31T20:33:10Z	test: fix flaky test-tls-wrap-timeout	59		
 7858	3524633	false	closed	false	21		2016-07-24T00:23:34Z	2016-10-05T14:48:14Z	2016-07-25T15:53:16Z	Add fsevents to NodeJS	211		
 7859	1084056	true	closed	false	9	5	2016-07-24T06:28:47Z	2016-07-31T21:08:12Z	2016-07-31T21:08:12Z	tools,test: show signal code when test crashes	31	1084056	2016-07-31T21:08:12Z
@@ -1682,7 +1682,7 @@
 8582	17268518	true	open	false	5		2016-09-17T08:50:25Z	2016-09-20T23:35:48Z		test: refactor test to use latest standards	49		
 8583	1267623	true	closed	false	1	0	2016-09-17T08:58:59Z	2016-09-17T10:34:58Z	2016-09-17T10:34:58Z	test: cleanup test-http-agent-destroyed-socket	54		
 8584	10002753	true	closed	false	3		2016-09-17T09:04:20Z	2016-09-22T17:34:07Z	2016-09-22T17:34:06Z	test: cleanup test-child-process-stdio.js	87		
-8585	3909302	true	open	false	6		2016-09-17T09:11:28Z	2016-10-04T18:57:42Z		doc: add example for file existence with fs.stat	55		
+8585	3909302	true	open	false			2016-09-17T09:11:28Z	2016-10-06T17:05:46Z		doc: add example for file existence with fs.stat	55		
 8586	4981813	true	open	false	19		2016-09-17T09:12:45Z	2016-09-29T07:34:35Z		test: improve test-net-server-address.js	44		
 8587	555645	true	closed	false	8		2016-09-17T09:16:14Z	2016-09-26T15:10:21Z	2016-09-26T15:10:21Z	util: Add format for SharedArrayBuffer	77		
 8588	2361826	true	closed	false	2		2016-09-17T09:18:51Z	2016-09-20T18:04:55Z	2016-09-20T18:04:55Z	internal: changed var to const in bootstrap_node.js	57		
@@ -1908,7 +1908,7 @@
 8808	498775	true	closed	false	12	0	2016-09-27T17:45:23Z	2016-09-29T15:52:26Z	2016-09-29T15:52:26Z	meta: update NODE_MODULE_VERSION to 51	173	498775	2016-09-29T15:52:26Z
 8809	3148402	false	closed	false	7		2016-09-27T21:14:11Z	2016-09-28T13:10:52Z	2016-09-27T21:31:52Z	Node server.js execution fails - Win10 node 4.4.3 npm 3.10.7	98		
 8810	439929	false	open	false	2		2016-09-27T22:13:15Z	2016-09-28T15:16:23Z		discuss: proposed standardization of `global` by tc-39	90		
-8811	1093990	true	open	false	11		2016-09-27T23:12:56Z	2016-10-06T16:14:28Z		doc: improve header styling for API docs	60		
+8811	1093990	true	open	false	13		2016-09-27T23:12:56Z	2016-10-06T17:20:32Z		doc: improve header styling for API docs	60		
 8812	479816	false	open	false	0		2016-09-28T01:37:14Z	2016-09-28T01:37:14Z		`chmod()` fails silently if process lacks sufficient permissions to change mode	86		
 8813	81581	false	open	false	14		2016-09-28T05:18:00Z	2016-09-28T14:18:29Z		url.toString() is '[object Object]' ?!!	78		
 8814	2876	false	open	false	9		2016-09-28T05:38:19Z	2016-10-06T14:07:10Z		Corrupted upload of node-v6.7.0-linux-ppc64le.tar.gz	32		
@@ -1933,7 +1933,7 @@
 8833	2067616	false	closed	false	7		2016-09-28T16:00:07Z	2016-09-29T17:01:44Z	2016-09-29T17:01:44Z	TypeError in child_process, envPairs.push(key + '=' + env[key])	164		
 8834	899444	true	open	false	13		2016-09-28T17:53:51Z	2016-10-02T11:06:33Z		stream: proper `instanceof` for `Writable`s	60		
 8835	718899	true	open	false	5		2016-09-28T18:46:49Z	2016-09-29T15:56:21Z		test: mark test-inspector flaky on windows	30		
-8836	432351	true	open	false	11		2016-09-28T19:00:38Z	2016-10-05T16:22:03Z		test: enable addons test to pass with debug build	142		
+8836	432351	true	open	false	12		2016-09-28T19:00:38Z	2016-10-06T17:23:49Z		test: enable addons test to pass with debug build	142		
 8837	567540	true	open	false			2016-09-28T20:55:31Z	2016-10-06T03:16:59Z		inspector: Allow require in Runtime.evaluate	92		
 8838	718899	false	open	false	6		2016-09-28T21:32:10Z	2016-09-30T21:17:20Z		investigate flaky parallel/test-debug-signal-cluster on SmartOS	75		
 8839	2205537	false	closed	false	5		2016-09-28T23:55:39Z	2016-10-01T14:00:28Z	2016-10-01T14:00:28Z	`process.stdin` is not implemented in bash for Windows 10... unknown type	246		
@@ -1960,7 +1960,7 @@
 8860	8007933	true	closed	false	6		2016-09-30T06:38:38Z	2016-09-30T17:41:01Z	2016-09-30T16:49:57Z	stream: fixed misplaced comment	55		
 8861	899444	true	closed	false	3		2016-09-30T14:19:55Z	2016-10-05T22:05:40Z	2016-10-05T22:05:40Z	build: make addons build  dep. on node_version.h	54		
 8862	899444	true	open	false	0	0	2016-09-30T14:30:53Z	2016-09-30T14:30:53Z		fs: export `realpathCacheKey` from `internal/fs`	70		
-8863	441346	true	open	false	4		2016-09-30T17:03:20Z	2016-10-05T15:01:38Z		internal: fix TypeError in v8-polyfill	62		
+8863	441346	true	closed	false	5		2016-09-30T17:03:20Z	2016-10-06T17:20:15Z	2016-10-06T17:20:15Z	internal: fix TypeError in v8-polyfill	62		
 8864	441346	true	closed	false	7		2016-09-30T17:35:54Z	2016-10-04T12:55:15Z	2016-10-03T14:24:37Z	test: fix running child-process-uid-gid as root	57		
 8865	439929	false	open	false	13		2016-09-30T18:10:59Z	2016-10-05T21:03:20Z		Intl: Consider deprecating Intl.v8BreakIterator	74		
 8866	439929	false	open	false	11		2016-09-30T18:19:18Z	2016-10-05T17:35:43Z		Modules: Coordinating ESM implementation in Core	96		
@@ -1999,7 +1999,7 @@
 8899	21338908	false	closed	false	3		2016-10-02T16:37:37Z	2016-10-03T09:47:07Z	2016-10-03T09:47:07Z	Error: getaddrinfo ENOTFOUND DNS.js	204		
 8900	718899	true	open	false	7		2016-10-03T04:22:47Z	2016-10-04T22:30:59Z		test: mark test-tick-processor-unknown flaky	30		
 8901	1443911	true	open	false	5		2016-10-03T08:51:30Z	2016-10-06T14:36:56Z		doc: add `added:` information for globals	27		
-8902	911174	true	open	false			2016-10-03T10:24:41Z	2016-10-04T17:10:27Z		doc: make node(1) more consistent with tradition	101		
+8902	911174	true	open	false			2016-10-03T10:24:41Z	2016-10-06T17:02:04Z		doc: make node(1) more consistent with tradition	101		
 8903	911174	false	open	false	4		2016-10-03T10:36:00Z	2016-10-04T17:07:23Z		Ship manpages for all core modules	96		
 8904	1084056	true	closed	false	1		2016-10-03T10:44:13Z	2016-10-04T18:45:49Z	2016-10-04T18:45:49Z	Backport PR 7572	140		
 8905	432351	true	open	false	4		2016-10-03T10:46:41Z	2016-10-06T14:16:42Z		build: add config.gypi to test/addons/.buildstamp	121		
@@ -2031,14 +2031,14 @@
 8931	718899	true	open	false	3		2016-10-04T23:19:51Z	2016-10-05T18:01:05Z		test: refactor test-net-server-max-connections	66		
 8932	677994	true	open	false	14		2016-10-04T23:34:01Z	2016-10-06T10:33:26Z		process: improve performance of nextTick	142		
 8933	1250248	true	closed	false	2		2016-10-05T03:34:32Z	2016-10-05T15:38:51Z	2016-10-05T15:38:51Z	doc: fix url markdown formatting	69		
-8934	11786120	false	open	false	7		2016-10-05T08:39:23Z	2016-10-06T15:05:55Z		readline: emitKeypressEvents does not properly recognize Alt+Arrow	76		
+8934	11786120	false	open	false	8		2016-10-05T08:39:23Z	2016-10-06T17:19:24Z		readline: emitKeypressEvents does not properly recognize Alt+Arrow	76		
 8935	4057473	false	open	false	0		2016-10-05T09:42:53Z	2016-10-05T09:42:53Z		No reference error on nonexistent object value	105		
 8936	16836380	false	open	false	0		2016-10-05T09:52:31Z	2016-10-05T09:52:31Z		Solaris SPARC support	46		
 8937	16836380	false	closed	false	2		2016-10-05T10:47:06Z	2016-10-05T11:59:46Z	2016-10-05T11:59:46Z	V8DBG_OFF_FP_CONTEXT: Unknown variable name	123		
 8938	815894	true	open	false	1		2016-10-05T11:58:48Z	2016-10-05T19:02:53Z		test: cleanup/update test-dgram-error-message-address.js	45		
 8939	18028768	false	open	false	0		2016-10-05T13:26:25Z	2016-10-05T13:26:25Z		npm install error!	26		
 8940	21042045	true	open	false	1		2016-10-05T13:44:11Z	2016-10-06T13:11:23Z		fs: fix link rot in fs.md	30		
-8941	718899	true	open	false	0	0	2016-10-05T18:24:16Z	2016-10-05T18:24:16Z		doc: fix typo in email address in README	29		
+8941	718899	true	open	false	1		2016-10-05T18:24:16Z	2016-10-06T17:22:41Z		doc: fix typo in email address in README	29		
 8942	101553	false	open	false	0		2016-10-05T18:28:34Z	2016-10-05T18:28:34Z		Examples in debugger documentation should all use global node	16		
 8943	13561163	true	open	false	3		2016-10-05T21:55:51Z	2016-10-06T13:42:09Z		doc:  ./node to node in debugger.md	25		
 8944	12266954	false	closed	false	6		2016-10-05T22:46:33Z	2016-10-06T11:00:38Z	2016-10-06T11:00:38Z	Cannot communicate to web app powered by Node 4.6 from Windows Server 2003 using HTTPS	160		
@@ -2052,6 +2052,8 @@
 8952	2892242	false	closed	false	1		2016-10-06T08:06:31Z	2016-10-06T10:53:16Z	2016-10-06T10:53:16Z	Sent string through net.Socket gets changed	126		
 8953	7273940	true	open	false	4		2016-10-06T08:08:47Z	2016-10-06T16:21:33Z		readline: concievably typo in readline.js	2		
 8954	1084056	true	open	false	4		2016-10-06T08:48:18Z	2016-10-06T16:11:42Z		test: fix test-child-process-fork-regr-gh-2847	103		
-8955	3758485	false	closed	false	5		2016-10-06T09:06:12Z	2016-10-06T16:14:03Z	2016-10-06T16:14:03Z	Streams memory leak	540		
+8955	3758485	false	closed	false	6		2016-10-06T09:06:12Z	2016-10-06T17:15:08Z	2016-10-06T16:14:03Z	Streams memory leak	540		
 8956	495647	true	open	false	2		2016-10-06T10:23:16Z	2016-10-06T14:36:00Z		src: bump version to v8.0.0 for master	106		
 8957	11734962	true	open	false	0	0	2016-10-06T15:14:28Z	2016-10-06T15:14:28Z		"readline : corrected ""concievably"" spelling"	9		
+8958	2512748	true	open	false	0	0	2016-10-06T17:33:25Z	2016-10-06T17:33:25Z		test: add cluster inspector debug port test	60		
+8959	238531	true	open	false	0	0	2016-10-06T17:38:13Z	2016-10-06T17:38:13Z		tls: introduce `secureContext` for `tls.connect`	71		
