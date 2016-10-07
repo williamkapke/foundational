@@ -1639,7 +1639,7 @@
 8538	374012	false	closed	false	3		2016-09-14T20:27:45Z	2016-09-21T00:00:37Z	2016-09-21T00:00:37Z	dns.setServers is memory unsafe and can be used to dump core	129		
 8539	374012	false	open	false	3		2016-09-14T20:28:34Z	2016-09-15T11:27:27Z		child_process.spawnSync is memory unsafe and can be used to dump core	108		
 8540	5352100	false	closed	false	2		2016-09-14T20:39:43Z	2016-09-14T21:14:55Z	2016-09-14T21:14:55Z	Issue in cluster module while running an http server	132		
-8541	13093042	true	closed	false	14		2016-09-14T22:38:15Z	2016-10-06T23:31:18Z	2016-09-23T22:17:18Z	Fallback to process cwd when resolving drive cwd	177		
+8541	13093042	true	closed	false	15		2016-09-14T22:38:15Z	2016-10-07T07:22:54Z	2016-09-23T22:17:18Z	Fallback to process cwd when resolving drive cwd	177		
 8542	238531	true	open	false	32		2016-09-14T23:28:52Z	2016-09-16T12:18:02Z		test: make test-tick-processor.js non-flaky	61		
 8543	1898870	true	open	false	3		2016-09-15T07:34:48Z	2016-09-15T08:03:59Z		test: add known issue test for child_process.spawnSync segfault	64		
 8544	2802526	false	open	false	1		2016-09-15T09:50:21Z	2016-09-15T10:07:54Z		Logging works only one out of four times in windows console	129		
@@ -1923,9 +1923,9 @@
 8822	677994	false	open	false	0		2016-09-28T10:51:35Z	2016-09-28T10:51:35Z		tools/release.sh failed on macOS 10.12	211		
 8823	3653950	false	closed	false	1		2016-09-28T11:00:20Z	2016-09-28T11:11:29Z	2016-09-28T11:11:29Z	fs incorrectly handles mapped network drive on Windows	203		
 8824	677994	true	open	false	1		2016-09-28T11:02:03Z	2016-09-28T15:25:51Z		tools: fix release script on macOS 10.12	81		
-8825	275871	false	open	false	2		2016-09-28T11:42:34Z	2016-10-06T11:25:59Z		doc: dead external link in fs.md	11		
+8825	275871	false	closed	false	2		2016-09-28T11:42:34Z	2016-10-07T07:52:00Z	2016-10-07T07:52:00Z	doc: dead external link in fs.md	11		
 8826	101553	true	open	false	4		2016-09-28T12:24:50Z	2016-09-30T15:00:57Z		doc: fix typo in repl doc	42		
-8827	2522448	false	open	false	0		2016-09-28T12:42:21Z	2016-09-28T12:42:21Z		Memory leak for https.request() on ECONNRESET	173		
+8827	2522448	false	open	false	1		2016-09-28T12:42:21Z	2016-10-07T07:47:34Z		Memory leak for https.request() on ECONNRESET	173		
 8828	52195	false	open	false	8		2016-09-28T12:57:21Z	2016-09-28T21:58:35Z		fs: make process.stdout and stderr descend from Writable.	109		
 8829	8880102	false	open	false	0		2016-09-28T14:47:18Z	2016-09-28T14:47:18Z		 ..	6		
 8830	899444	true	open	false	13		2016-09-28T15:03:31Z	2016-10-01T07:42:28Z		fs: make `SyncWriteStream` inherit from `Writable`	101		
@@ -1948,7 +1948,7 @@
 8847	9373002	false	open	false	6		2016-09-29T12:42:22Z	2016-10-06T06:30:48Z		AIX: hang on 4.x run 	74		
 8848	441346	true	closed	false	18		2016-09-29T16:03:44Z	2016-10-07T02:33:44Z	2016-10-06T22:20:03Z	test: run faster and cleanup after run	56		
 8849	739555	true	closed	false	12		2016-09-29T18:19:35Z	2016-10-06T23:50:29Z	2016-10-02T23:47:10Z	[CVE-2016-5180] ares_create_query: avoid single-byte buffer overwrite	46		
-8850	101553	true	closed	false	4		2016-09-29T19:38:29Z	2016-10-06T23:51:19Z	2016-10-03T10:27:14Z	src: refactor reading of options in contextify	68		
+8850	101553	true	closed	false	5		2016-09-29T19:38:29Z	2016-10-07T07:31:05Z	2016-10-03T10:27:14Z	src: refactor reading of options in contextify	68		
 8851	498775	true	closed	false	2	0	2016-09-29T19:42:40Z	2016-10-04T15:17:34Z	2016-10-04T15:17:33Z	deps: bump V8 patch to 84	46	498775	2016-10-04T15:17:33Z
 8852	2352663	true	closed	false	3	0	2016-09-29T19:44:38Z	2016-10-03T11:12:55Z	2016-10-03T11:12:55Z	deps: update V8 to 5.4.500.31	32		
 8853	10552470	false	closed	false	2		2016-09-29T21:26:51Z	2016-10-01T12:02:04Z	2016-10-01T12:02:04Z	Incorrect MD5 computation with crypto library	37		
@@ -2007,7 +2007,7 @@
 8906	10611767	true	open	false	6		2016-10-03T11:19:24Z	2016-10-06T21:53:17Z		Minor improvements	58		
 8907	9373002	true	closed	false	6		2016-10-03T15:27:41Z	2016-10-05T14:25:40Z	2016-10-05T14:25:40Z	deps: v8 - cherry-pick missing v8 floating patch	107		
 8908	2352663	true	open	false	3		2016-10-03T15:51:37Z	2016-10-06T23:09:01Z		intl: add deprecation warning for v8BreakIterator	40		
-8909	101553	true	open	false	0	0	2016-10-03T16:20:12Z	2016-10-03T16:20:12Z		src: refactor contextify	41		
+8909	101553	true	open	false	2		2016-10-03T16:20:12Z	2016-10-07T07:41:03Z		src: refactor contextify	41		
 8910	275871	true	closed	false	5		2016-10-03T17:07:16Z	2016-10-04T06:50:55Z	2016-10-04T06:50:55Z	deps: build openssl without cryptodev support	59		
 8911	15943089	false	open	false	0		2016-10-03T17:12:39Z	2016-10-03T17:12:39Z		Avoiding firewall warnings on macOS Sierra	51		
 8912	479538	false	open	false	7		2016-10-03T19:50:58Z	2016-10-06T23:02:25Z		Debugging: Stabilize hidden classes for improved heap snapshots	143		
@@ -2019,13 +2019,13 @@
 8918	4268223	false	closed	false	1		2016-10-03T22:52:58Z	2016-10-06T04:12:37Z	2016-10-06T04:12:37Z	Code style: linting whitespace at the end of the file.	73		
 8919	287917	true	open	false	1		2016-10-04T01:04:17Z	2016-10-04T20:09:03Z		inspector: no URLs when the debugger is connected	61		
 8920	718899	true	closed	false	6		2016-10-04T03:46:37Z	2016-10-06T04:13:14Z	2016-10-06T04:13:13Z	tools: disallow extra blank lines at end of files	33		
-8921	1324157	false	open	false	3		2016-10-04T08:55:10Z	2016-10-06T15:35:48Z		url.resolve() behaves differently depending on the protocol of the base url	84		
+8921	1324157	false	open	false	3		2016-10-04T08:55:10Z	2016-10-07T07:48:43Z		url.resolve() behaves differently depending on the protocol of the base url	84		
 8922	495647	true	open	false	5		2016-10-04T09:55:01Z	2016-10-06T18:09:18Z		doc: add supported platforms list	51		
 8923	275871	true	open	false	8		2016-10-04T10:28:19Z	2016-10-06T20:03:32Z		http: reject control characters in http.request()	125		
 8924	2352663	true	closed	false	4		2016-10-04T12:54:16Z	2016-10-04T23:05:38Z	2016-10-04T23:05:38Z	test: fix child-process-uid-gid on Windows	41		
-8925	815894	false	open	false	0		2016-10-04T15:49:46Z	2016-10-04T15:49:46Z		test: cleanup/update test-dgram-error-message-address.js	11		
+8925	815894	false	open	false	0		2016-10-04T15:49:46Z	2016-10-07T07:49:13Z		test: cleanup/update test-dgram-error-message-address.js	11		
 8926	6190179	false	open	false	10		2016-10-04T16:22:32Z	2016-10-04T18:02:02Z		Can't run nodejs 4.6 on Ubuntu 12.04.5 LTS with Geode AMD CPU	168		
-8927	54666	false	open	false	0		2016-10-04T17:23:22Z	2016-10-04T17:23:22Z		child_process: outdated comment	51		
+8927	54666	false	open	false	1		2016-10-04T17:23:22Z	2016-10-07T07:50:12Z		child_process: outdated comment	51		
 8928	17535	true	closed	false	6	0	2016-10-04T17:50:29Z	2016-10-05T20:54:01Z	2016-10-05T20:54:01Z	deps: update npm in LTS to 2.15.11	126		
 8929	2725611	false	open	false	0		2016-10-04T20:43:13Z	2016-10-04T20:43:13Z		Replace .eslintrc with something else?	42		
 8930	718899	false	open	false	0		2016-10-04T22:57:12Z	2016-10-05T16:51:59Z		investigate flaky sequential/test-net-GH-5504 on SmartOS	113		
@@ -2036,7 +2036,7 @@
 8935	4057473	false	open	false	0		2016-10-05T09:42:53Z	2016-10-05T09:42:53Z		No reference error on nonexistent object value	105		
 8936	16836380	false	open	false	0		2016-10-05T09:52:31Z	2016-10-05T09:52:31Z		Solaris SPARC support	46		
 8937	16836380	false	closed	false	2		2016-10-05T10:47:06Z	2016-10-05T11:59:46Z	2016-10-05T11:59:46Z	V8DBG_OFF_FP_CONTEXT: Unknown variable name	123		
-8938	815894	true	open	false	1		2016-10-05T11:58:48Z	2016-10-05T19:02:53Z		test: cleanup/update test-dgram-error-message-address.js	45		
+8938	815894	true	open	false	2		2016-10-05T11:58:48Z	2016-10-07T07:49:28Z		test: cleanup/update test-dgram-error-message-address.js	45		
 8939	18028768	false	open	false	0		2016-10-05T13:26:25Z	2016-10-05T13:26:25Z		npm install error!	26		
 8940	21042045	true	closed	false	3	3	2016-10-05T13:44:11Z	2016-10-06T18:21:33Z	2016-10-06T18:21:33Z	fs: fix link rot in fs.md	30		
 8941	718899	true	open	false	1		2016-10-05T18:24:16Z	2016-10-06T17:22:41Z		doc: fix typo in email address in README	29		
