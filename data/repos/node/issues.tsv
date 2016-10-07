@@ -165,6 +165,7 @@
 4669	5559820	true	open	false	11		2016-01-13T14:46:53Z	2016-09-16T23:31:05Z		lib: fix basename comparison on windows	36		
 4670	5559820	true	open	false	16		2016-01-13T15:02:13Z	2016-09-19T13:32:02Z		lib: fixme defer error to next tick	41		
 4677	439929	false	closed	false	8		2016-01-13T21:25:47Z	2016-08-09T21:11:36Z	2016-08-09T21:11:36Z	Revising Deprecation Strategy / Labels	689		
+4682	439929	true	closed	false	128		2016-01-14T04:23:32Z	2016-10-07T00:22:58Z	2016-03-16T15:36:13Z	buffer: add Buffer.from(), Buffer.alloc() and Buffer.allocUnsafe(), soft-deprecate Buffer(num)	122		
 4685	11070840	false	open	false	19		2016-01-14T06:13:50Z	2016-08-14T23:11:57Z		Symantec Quarantining node-v5.4.1-x64.msi	30		
 4701	189835	false	open	false	62		2016-01-14T20:18:01Z	2016-07-19T01:02:19Z		ES2016 compat issue with Buffer subclassing Uint8Array	163		
 4740	327019	true	open	false			2016-01-18T10:01:35Z	2016-07-06T18:24:41Z		readline: refactor construct Interface	6		
@@ -1758,7 +1759,7 @@
 8658	54666	true	closed	false	8	4	2016-09-20T00:16:22Z	2016-09-20T23:06:22Z	2016-09-20T23:06:22Z	src: return static buffer on malloc(0)	74		
 8659	54666	false	open	false	1		2016-09-20T00:34:22Z	2016-09-28T11:04:18Z		Feature request: benchmark runner progress indicator	106		
 8660	291301	true	closed	false	1	0	2016-09-20T04:12:52Z	2016-09-20T13:15:09Z	2016-09-20T13:15:09Z	tools: clean up icu/README.md formatting	57	291301	2016-09-20T13:15:09Z
-8661	54666	true	closed	false	10		2016-09-20T06:20:49Z	2016-10-06T23:48:09Z	2016-10-01T07:02:33Z	timers: improve setTimeout/Interval performance	70		
+8661	54666	true	closed	false	11		2016-09-20T06:20:49Z	2016-10-07T00:39:07Z	2016-10-01T07:02:33Z	timers: improve setTimeout/Interval performance	70		
 8662	2352663	true	closed	false	10	0	2016-09-20T07:50:33Z	2016-09-24T15:24:45Z	2016-09-24T15:24:45Z	test: add expectDeprecationWarning to common	66		
 8663	22315535	false	closed	false	13		2016-09-20T08:13:39Z	2016-09-23T12:31:02Z	2016-09-23T12:31:02Z	Node.js setup wizard ended prematurely	129		
 8664	12021159	false	closed	false	2		2016-09-20T08:23:57Z	2016-09-20T16:15:31Z	2016-09-20T16:15:31Z	windows npm install errors	5569		
@@ -1853,7 +1854,7 @@
 8753	287917	true	closed	false	0	0	2016-09-23T22:15:41Z	2016-09-26T16:29:21Z	2016-09-26T16:29:21Z	inspector: build file cleanup	39		
 8754	2352663	true	closed	false	6	0	2016-09-23T23:05:53Z	2016-09-26T18:14:32Z	2016-09-26T18:14:32Z	buffer: fix performance regression	296	2352663	2016-09-26T18:14:32Z
 8755	718899	true	open	false	3		2016-09-23T23:45:47Z	2016-09-26T14:58:18Z		test: accept expected AIX result test-stdio-closed	86		
-8756	5140822	true	closed	false	11		2016-09-24T08:20:14Z	2016-10-06T23:40:47Z	2016-09-27T14:06:05Z	test: removes FIXME parallel/test-repl-persistent-history	55		
+8756	5140822	true	closed	false	12		2016-09-24T08:20:14Z	2016-10-07T00:21:18Z	2016-09-27T14:06:05Z	test: removes FIXME parallel/test-repl-persistent-history	55		
 8757	5140822	true	closed	false	7	0	2016-09-24T11:32:35Z	2016-10-06T22:51:07Z	2016-10-06T22:51:07Z	test: remove FIXME pummel/test-tls-securepair-client	78		
 8758	5140822	true	open	false	8		2016-09-24T11:41:35Z	2016-09-27T21:38:45Z		test: Removes FIXME parallel/test-setproctitle	71		
 8759	2352663	false	open	false	0		2016-09-24T15:20:58Z	2016-09-24T15:20:58Z		Investigate flaky test-regress-GH-4027 on pi1	65		
@@ -1986,7 +1987,7 @@
 8886	275871	true	closed	false	1		2016-10-01T14:27:45Z	2016-10-06T23:52:37Z	2016-10-03T10:54:52Z	build: don't build icu with -fno-rtti	33		
 8887	110455	true	closed	false	2	0	2016-10-01T17:26:21Z	2016-10-03T10:49:34Z	2016-10-03T10:49:34Z	"module: correct comment text ""read-only"" to ""shallow"""	55		
 8888	110455	true	open	false	15		2016-10-01T17:46:35Z	2016-10-06T16:45:57Z		module: make require.cache reassignable	93		
-8889	238531	true	closed	false	3		2016-10-01T19:20:39Z	2016-10-06T23:54:45Z	2016-10-03T23:45:47Z	tls: handle `error` events with `_tlsError`	96		
+8889	238531	true	closed	false	3		2016-10-01T19:20:39Z	2016-10-07T00:17:19Z	2016-10-03T23:45:47Z	tls: handle `error` events with `_tlsError`	96		
 8890	54666	true	closed	false	0		2016-10-01T23:04:21Z	2016-10-03T10:43:43Z	2016-10-03T10:43:43Z	inspector: fix minor issues	43		
 8891	815894	true	closed	false	0	0	2016-10-02T00:21:20Z	2016-10-02T01:06:56Z	2016-10-02T01:06:56Z	test: cleanup/update test-dgram-empty-packet.js	58		
 8892	5704064	true	closed	false	11		2016-10-02T02:31:06Z	2016-10-05T16:06:50Z	2016-10-04T17:02:11Z	doc: correct grammar in README.md	27		
@@ -2058,3 +2059,4 @@
 8958	2512748	true	open	false	0	0	2016-10-06T17:33:25Z	2016-10-06T17:33:25Z		test: add cluster inspector debug port test	60		
 8959	238531	true	open	false	0	0	2016-10-06T17:38:13Z	2016-10-06T17:38:13Z		tls: introduce `secureContext` for `tls.connect`	71		
 8960	2512748	true	open	false	0	0	2016-10-06T19:54:26Z	2016-10-06T19:54:26Z		test: add coverage for spawnSync() killSignal	64		
+8961	718899	true	open	false	0	0	2016-10-07T00:28:26Z	2016-10-07T00:28:26Z		timers: improve linked list performance	101		
