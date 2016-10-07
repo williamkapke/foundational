@@ -170,7 +170,7 @@
 4701	189835	false	open	false	62		2016-01-14T20:18:01Z	2016-07-19T01:02:19Z		ES2016 compat issue with Buffer subclassing Uint8Array	163		
 4740	327019	true	open	false			2016-01-18T10:01:35Z	2016-07-06T18:24:41Z		readline: refactor construct Interface	6		
 4747	3899684	true	closed	false	66		2016-01-18T18:08:00Z	2016-07-01T10:04:44Z	2016-04-20T23:00:07Z	doc: renamed doc files to .md, adapted build scripts	27		
-4758	347387	false	open	false	5		2016-01-19T12:08:26Z	2016-07-07T17:46:46Z		SIGINT not triggering with readline	26		
+4758	347387	false	closed	false	6		2016-01-19T12:08:26Z	2016-10-07T14:39:27Z	2016-10-07T14:39:27Z	SIGINT not triggering with readline	26		
 4823	1063255	false	closed	false	4		2016-01-22T23:47:02Z	2016-06-30T15:00:02Z	2016-06-30T15:00:02Z	test: possible flaky test-repl.js	88		
 4878	153219	false	closed	false	12		2016-01-26T11:44:48Z	2016-09-16T12:28:28Z	2016-09-16T12:28:28Z	SNICallback doesn't appear to work with `tls.createSecurePair()`	97		
 4932	961599	false	closed	false	4		2016-01-28T20:34:56Z	2016-08-22T21:49:02Z	2016-08-22T21:49:02Z	Windows: addons cannot use the bundled OpenSSL	79		
@@ -189,6 +189,7 @@
 5183	718899	false	closed	false	2		2016-02-10T19:46:20Z	2016-06-29T22:31:10Z	2016-06-29T22:31:10Z	Investigate flaky test-async-wrap-check-providers	4		
 5189	1622515	true	closed	false	16		2016-02-11T00:01:07Z	2016-07-15T18:54:10Z	2016-07-15T18:54:10Z	repl: Handle unicode escape sequence	3		
 5190	15843	true	closed	false	19		2016-02-11T01:07:06Z	2016-08-30T14:11:10Z	2016-05-19T10:04:02Z	http: use `localAddress` instead of `path`	11		
+5195	17178213	false	closed	false	7		2016-02-11T13:48:50Z	2016-10-07T14:37:50Z	2016-10-07T14:37:50Z	[dgram]no udp multicast message received when IP packet identification header is 0x0000	102		
 5213	439929	false	closed	false	9		2016-02-13T04:41:36Z	2016-08-29T22:13:27Z	2016-08-29T22:13:27Z	Tracking: Revert #5102 when possible	36		
 5256	327019	true	closed	false	29	0	2016-02-16T08:27:34Z	2016-08-01T22:10:12Z	2016-08-01T22:10:12Z	buffer: speed up Buffer.isEncoding() method	9		
 5258	172594	false	open	false	17		2016-02-16T12:06:31Z	2016-09-23T20:50:53Z		Propose NODE_TLS_REJECT_UNAUTHORIZED be renamed	117		
@@ -230,6 +231,7 @@
 5991	15197820	false	open	false	4		2016-04-01T04:10:50Z	2016-07-06T06:35:33Z		When I write áéíóú, process.stdout.write in Windows English version, process.stdout is closed	35		
 6030	439929	true	closed	false	13		2016-04-03T19:56:47Z	2016-08-30T14:14:47Z	2016-04-10T23:17:57Z	doc: clarification for maxBuffer and Unicode output	89		
 6033	2291463	false	closed	false	9		2016-04-04T07:14:31Z	2016-07-03T03:53:55Z	2016-07-03T03:53:55Z	Features that depend on ICU, in V8 built without ICU.	118		
+6036	177641	false	closed	false	12		2016-04-04T10:46:12Z	2016-10-07T14:42:24Z	2016-10-07T14:42:24Z	Weird segmentation fault on Ubuntu 15.10	85		
 6045	248374	false	open	false	6		2016-04-04T22:52:46Z	2016-09-23T21:18:44Z		Windows PlatformToolset: Provide stable C++ API to addons	77		
 6058	855219	false	closed	false	8		2016-04-05T16:01:32Z	2016-09-20T22:56:10Z	2016-05-04T23:14:40Z	deps: Intl: ICU 57 bump	43		
 6063	7780985	true	closed	false	20		2016-04-05T19:44:10Z	2016-07-11T16:51:08Z	2016-04-26T16:07:07Z	doc, tls: deprecate createSecurePair	141		
@@ -536,6 +538,7 @@
 7420	5259935	false	closed	false	11		2016-06-25T16:20:14Z	2016-07-16T09:28:21Z	2016-07-05T13:59:42Z	"In the `fs.watch` callback, `event` parameter is always ""rename"" on OS X"	63		
 7421	557590	true	closed	false	10		2016-06-25T18:49:22Z	2016-07-18T13:35:39Z	2016-07-18T13:35:39Z	Backport 7176 for v6.x (buffer: fix creating from zero-length ArrayBuffer)	49		
 7422	718899	true	closed	false	12		2016-06-25T22:21:41Z	2016-07-12T01:06:11Z	2016-06-29T05:30:02Z	test: test isFullWidthCodePoint with invalid input	63		
+7423	20147093	false	closed	false	9		2016-06-26T01:57:03Z	2016-10-07T14:42:48Z	2016-10-07T14:42:47Z	23.0 mb 02/29/2016 not unistalling after I accidentally clicked uninstall right before restarting.	6		
 7425	899444	true	open	false	20		2016-06-26T04:30:59Z	2016-08-04T21:43:43Z		stream: support decoding buffers for Writables	137		
 7426	238531	false	closed	false	7		2016-06-26T06:26:37Z	2016-06-27T18:11:56Z	2016-06-27T18:11:56Z	OpenSSL windows asm question	92		
 7427	238531	true	closed	false	16		2016-06-26T07:57:12Z	2016-09-03T09:20:32Z	2016-06-27T18:11:40Z	deps: `MASM.UseSafeExceptionHandlers` for OpenSSL	90		
@@ -954,7 +957,7 @@
 7850	1622515	true	open	false			2016-07-23T07:21:50Z	2016-07-25T02:23:59Z		repl: Remove magic mode	169		
 7851	2619581	false	closed	false	2		2016-07-23T16:46:30Z	2016-07-23T19:25:34Z	2016-07-23T17:29:05Z	Using ES6 class syntax in combination with module.exports creates a different instanceof result than using util.inherits	162		
 7852	886388	false	closed	false	11		2016-07-23T18:24:17Z	2016-07-27T12:36:41Z	2016-07-25T04:16:55Z	Removing listener that was added multiple times	68		
-7853	516780	false	open	false	6		2016-07-23T19:28:07Z	2016-08-23T23:01:50Z		node --debug takes a really long time to respond to websockets	180		
+7853	516780	false	open	false	7		2016-07-23T19:28:07Z	2016-10-07T14:46:28Z		node --debug takes a really long time to respond to websockets	180		
 7854	1084056	true	closed	false	10		2016-07-23T20:09:19Z	2016-08-02T14:08:28Z	2016-08-02T14:08:28Z	test: fix test-vm-sigint flakiness	68		
 7855	1422781	true	open	false	23		2016-07-23T20:38:28Z	2016-10-06T17:24:59Z		dgram: setMulticastInterface() outgoing interface selection	72		
 7856	373545	true	open	false	24		2016-07-23T20:49:58Z	2016-10-06T17:19:10Z		fs: Fix default params for fs.write	81		
@@ -1089,7 +1092,7 @@
 7986	275871	true	open	false	1		2016-08-05T11:40:07Z	2016-08-05T17:43:24Z		tools: add compile_commands.json gyp generator	42		
 7987	4520820	true	closed	false	6		2016-08-05T16:37:29Z	2016-08-08T12:45:42Z	2016-08-08T12:45:42Z	zlib: remove unneeded property	37		
 7988	426418	true	open	false	19		2016-08-05T21:18:17Z	2016-08-12T00:35:41Z		inspector: add inspector console support for native Console	114		
-7989	275871	false	open	false	27		2016-08-06T03:16:44Z	2016-10-07T12:22:53Z		build: drop support for VS 2013 in v6 LTS	192		
+7989	275871	false	open	false	27		2016-08-06T03:16:44Z	2016-10-07T14:47:43Z		build: drop support for VS 2013 in v6 LTS	192		
 7990	2557445	true	closed	false	9		2016-08-06T07:59:12Z	2016-09-30T18:10:02Z	2016-08-08T16:20:30Z	Cleanup: Remove unused using decls	49		
 7991	439929	false	open	false	6		2016-08-06T08:03:44Z	2016-09-08T19:54:12Z		Planning for v7 and the v6 roll over to LTS	434		
 7992	1500684	true	open	false	0	0	2016-08-06T10:18:04Z	2016-08-06T10:18:04Z		docs: add info about --auto-open flag w/ --inspect	73		
@@ -1157,7 +1160,7 @@
 8054	79017	true	closed	false	18		2016-08-10T18:37:22Z	2016-09-06T21:17:40Z	2016-08-25T17:44:29Z	Backport V8 5.1 to v6.x	115		
 8055	696611	true	closed	false	10		2016-08-10T19:22:22Z	2016-09-30T18:40:54Z	2016-08-18T01:42:52Z	tls: copy the Buffer object before using	74		
 8056	287917	false	open	false	0		2016-08-10T19:26:36Z	2016-08-10T19:26:36Z		"[v8Inspector] Inspector URL should include ""v8only=true"""	24		
-8057	25837	false	open	false	0		2016-08-10T20:31:38Z	2016-08-10T20:31:38Z		Suggestion: http doc should mention special handling for HEAD and 304	122		
+8057	25837	false	open	false	1		2016-08-10T20:31:38Z	2016-10-07T14:09:41Z		Suggestion: http doc should mention special handling for HEAD and 304	129		
 8058	439929	false	closed	false	6		2016-08-10T21:25:06Z	2016-08-24T20:57:36Z	2016-08-24T20:57:36Z	CTC membership nomination: @TheAlphaNerd	312		
 8059	718899	true	closed	false	9		2016-08-10T22:23:47Z	2016-08-12T21:03:59Z	2016-08-12T21:03:59Z	doc: add POST_STATUS_TO_PR info to onboarding doc	39		
 8060	718899	true	closed	false	5		2016-08-10T22:56:39Z	2016-08-12T21:10:38Z	2016-08-12T21:10:37Z	doc: minor updates to onboarding doc	25		
@@ -1262,7 +1265,7 @@
 8159	2512748	true	closed	false	2	0	2016-08-18T15:32:51Z	2016-08-20T20:17:46Z	2016-08-20T20:17:46Z	test: add test for attempted multiple IPC channels	47	2512748	2016-08-20T20:17:46Z
 8160	2512748	true	closed	false	4		2016-08-18T16:14:22Z	2016-09-30T19:06:24Z	2016-08-20T20:21:23Z	test: test sending over a closed IPC channel	56		
 8161	718899	true	closed	false	4		2016-08-18T16:30:12Z	2016-08-21T22:41:38Z	2016-08-21T22:41:38Z	doc: remove outdated LTS info from ROADMAP.md	110		
-8162	4811358	false	open	false	3		2016-08-18T16:39:58Z	2016-08-18T19:21:24Z		GC Mark-sweep Allocation Failure	221		
+8162	4811358	false	closed	false	4		2016-08-18T16:39:58Z	2016-10-07T14:48:54Z	2016-10-07T14:48:54Z	GC Mark-sweep Allocation Failure	221		
 8163	1095402	false	closed	false	3		2016-08-18T17:34:15Z	2016-08-22T19:20:48Z	2016-08-18T17:39:25Z	Inserting CR in addition to LF in util.inspect() is not right on UNIX OSes	156		
 8164	2512748	true	closed	false	4		2016-08-18T17:44:47Z	2016-09-30T19:11:11Z	2016-08-20T20:27:16Z	child_process: reuse existing no-op function	48		
 8165	159100	false	closed	false	9		2016-08-18T19:12:43Z	2016-08-24T18:41:38Z	2016-08-24T18:41:38Z	url.resolve auth behavior if host does *not* change	121		
@@ -1745,7 +1748,7 @@
 8643	11638619	true	closed	false	5		2016-09-18T05:58:34Z	2016-09-21T03:25:31Z	2016-09-21T03:25:31Z	tools: add additional ESLint rules	183		
 8644	52195	false	open	false	7		2016-09-18T08:49:25Z	2016-09-21T17:42:56Z		stream, test: Increase the coverage of _readableState and _writableState properties	186		
 8645	899444	true	open	false	4		2016-09-18T09:25:48Z	2016-10-06T23:03:56Z		"Revert ""repl: disable Ctrl+C support on win32 for now"""	64		
-8646	52195	false	open	false	1		2016-09-18T11:37:12Z	2016-09-18T18:59:25Z		doc: guide/topic on how to use streams	111		
+8646	52195	false	open	false	3		2016-09-18T11:37:12Z	2016-10-07T14:03:01Z		doc: guide/topic on how to use streams	111		
 8647	1898870	true	closed	false	10		2016-09-18T12:40:14Z	2016-09-30T21:10:42Z	2016-09-21T00:23:43Z	https: fix memory leak with https.request()	124		
 8648	2764625	true	closed	false	1		2016-09-18T13:27:34Z	2016-09-20T22:40:06Z	2016-09-20T22:40:06Z	test: update test-child-process-recv-handle	54		
 8649	2512748	true	closed	false	10		2016-09-18T17:10:43Z	2016-10-07T09:53:22Z	2016-09-20T23:51:39Z	src: handle thrown errors in CopyProperties()	53		
@@ -1800,7 +1803,7 @@
 8698	5498548	false	closed	false	2		2016-09-21T18:44:10Z	2016-09-21T20:14:14Z	2016-09-21T20:14:14Z	RPM Package signing key	83		
 8699	14127285	false	open	false	3		2016-09-21T18:53:09Z	2016-09-21T20:22:52Z		[Archlinux] Need help ! 	77		
 8700	718899	false	closed	false	2		2016-09-21T19:06:44Z	2016-09-23T23:02:04Z	2016-09-23T23:02:04Z	Investigate flaky test-cluster-worker-init on Raspberry Pi 1	31		
-8701	416585	false	open	false	2		2016-09-21T19:28:18Z	2016-09-22T16:14:00Z		Unexpected Z_BUF_ERROR when using zlib	80		
+8701	416585	false	closed	false	3		2016-09-21T19:28:18Z	2016-10-07T14:51:24Z	2016-10-07T14:51:24Z	Unexpected Z_BUF_ERROR when using zlib	80		
 8702	71237	false	closed	false	2		2016-09-21T21:33:55Z	2016-09-22T03:31:46Z	2016-09-22T03:31:45Z	Inspector seg fault when stopping allocation profiler	536		
 8703	1898870	true	closed	false	12		2016-09-21T22:34:52Z	2016-09-23T23:01:49Z	2016-09-23T23:01:49Z	test: fix test-cluster-worker-init.js flakyness	54		
 8704	553630	true	open	false	10		2016-09-21T22:37:37Z	2016-09-23T23:06:34Z		doc: update BUILDING.md	46		
@@ -2010,7 +2013,7 @@
 8908	2352663	true	open	false	3		2016-10-03T15:51:37Z	2016-10-06T23:09:01Z		intl: add deprecation warning for v8BreakIterator	40		
 8909	101553	true	open	false	2		2016-10-03T16:20:12Z	2016-10-07T07:41:03Z		src: refactor contextify	41		
 8910	275871	true	closed	false	5		2016-10-03T17:07:16Z	2016-10-04T06:50:55Z	2016-10-04T06:50:55Z	deps: build openssl without cryptodev support	59		
-8911	15943089	false	open	false	0		2016-10-03T17:12:39Z	2016-10-03T17:12:39Z		Avoiding firewall warnings on macOS Sierra	51		
+8911	15943089	false	open	false	3		2016-10-03T17:12:39Z	2016-10-07T14:56:38Z		Avoiding firewall warnings on macOS Sierra when built from source	51		
 8912	479538	false	open	false	7		2016-10-03T19:50:58Z	2016-10-06T23:02:25Z		Debugging: Stabilize hidden classes for improved heap snapshots	143		
 8913	479538	false	open	false	9		2016-10-03T19:58:01Z	2016-10-07T13:47:46Z		Debugging: name every function	95		
 8914	4268223	true	open	false			2016-10-03T21:15:45Z	2016-10-03T22:04:09Z		test: tests for _readableStream.awaitDrain	30		
@@ -2039,7 +2042,7 @@
 8937	16836380	false	closed	false	2		2016-10-05T10:47:06Z	2016-10-05T11:59:46Z	2016-10-05T11:59:46Z	V8DBG_OFF_FP_CONTEXT: Unknown variable name	123		
 8938	815894	true	open	false	2		2016-10-05T11:58:48Z	2016-10-07T07:49:28Z		test: cleanup/update test-dgram-error-message-address.js	45		
 8939	18028768	false	open	false	0		2016-10-05T13:26:25Z	2016-10-05T13:26:25Z		npm install error!	26		
-8940	21042045	true	closed	false	3	3	2016-10-05T13:44:11Z	2016-10-06T18:21:33Z	2016-10-06T18:21:33Z	fs: fix link rot in fs.md	30		
+8940	21042045	true	closed	false	3		2016-10-05T13:44:11Z	2016-10-07T14:31:32Z	2016-10-06T18:21:33Z	fs: fix link rot in fs.md	30		
 8941	718899	true	open	false	2		2016-10-05T18:24:16Z	2016-10-07T12:26:35Z		doc: fix typo in email address in README	29		
 8942	101553	false	closed	false	0		2016-10-05T18:28:34Z	2016-10-06T21:46:17Z	2016-10-06T21:46:17Z	Examples in debugger documentation should all use global node	16		
 8943	13561163	true	open	false	6		2016-10-05T21:55:51Z	2016-10-06T21:09:11Z		doc:  ./node to node in debugger.md	25		
@@ -2060,7 +2063,7 @@
 8958	2512748	true	open	false	0	0	2016-10-06T17:33:25Z	2016-10-06T17:33:25Z		test: add cluster inspector debug port test	60		
 8959	238531	true	open	false	0	0	2016-10-06T17:38:13Z	2016-10-06T17:38:13Z		tls: introduce `secureContext` for `tls.connect`	71		
 8960	2512748	true	open	false			2016-10-06T19:54:26Z	2016-10-07T09:57:40Z		test: add coverage for spawnSync() killSignal	64		
-8961	718899	true	open	false	8		2016-10-07T00:28:26Z	2016-10-07T13:43:09Z		timers: improve linked list performance	101		
+8961	718899	true	open	false	10		2016-10-07T00:28:26Z	2016-10-07T14:33:59Z		timers: improve linked list performance	101		
 8962	22550884	true	open	false	0	0	2016-10-07T03:36:42Z	2016-10-07T03:36:42Z		test-debugger-pid: assert.ok() by assert.strictEqual()	24		
 8963	20573460	false	closed	false	5		2016-10-07T03:56:29Z	2016-10-07T06:21:00Z	2016-10-07T06:21:00Z	after compilation of node source I can open the file as a zip. Is there a way to prevent  that  ?	6		
 8964	1443911	true	open	false	0	0	2016-10-07T05:54:31Z	2016-10-07T05:54:31Z		v4.x backport: doc: add `added:` information for globals	4		
@@ -2068,6 +2071,8 @@
 8966	275871	false	open	false	0		2016-10-07T08:19:54Z	2016-10-07T08:19:54Z		dns: don't skip getaddrino/getnameinfo when c-ares init fails	68		
 8967	18457837	false	closed	false	0		2016-10-07T08:45:40Z	2016-10-07T09:33:40Z	2016-10-07T09:33:40Z	TypeError: Expected a finite number    at module.exports (C:\Program Files\nodejs\node_modules\npm\node_modules\pretty-ms\index.js:8:9)	86		
 8968	7656167	true	open	false	0	0	2016-10-07T09:55:40Z	2016-10-07T09:55:40Z		Changed the comment on lines 53-54, fixing issue 8927	47		
-8969	11734962	true	open	false	1		2016-10-07T10:10:04Z	2016-10-07T13:52:15Z		url: added url.resolve() method's behaviour	49		
+8969	11734962	true	open	false	3		2016-10-07T10:10:04Z	2016-10-07T14:09:41Z		url: added url.resolve() method's behaviour	49		
 8970	2352663	true	open	false	0	0	2016-10-07T11:22:03Z	2016-10-07T11:22:03Z		v4.x backport: test: improve coverage of the util module	6		
 8971	684817	false	open	false	0		2016-10-07T12:10:37Z	2016-10-07T12:10:37Z		Buffer.toString docs != actual	32		
+8972	3502395	false	open	false	0		2016-10-07T14:29:08Z	2016-10-07T14:29:08Z		Is it possible to notify developer if server.maxConnections reached?	60		
+8973	7408949	false	open	false	0		2016-10-07T14:30:05Z	2016-10-07T14:30:05Z		nodejs Linux clang libc++ no joy?	111		
