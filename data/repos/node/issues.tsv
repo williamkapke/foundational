@@ -668,7 +668,7 @@
 7561	1847934	true	closed	false	7		2016-07-06T12:15:00Z	2016-08-10T09:35:11Z	2016-08-08T13:28:03Z	"Clarify ""fs.readFile"", ""fs.appendFile"", ""fs.writeFile"" doc…"	22		
 7562	291301	true	closed	false	11		2016-07-06T12:32:10Z	2016-07-08T17:09:26Z	2016-07-08T14:49:21Z	New Buffer API backport to v4.x (staging branch)	204		
 7563	9373002	false	closed	false	12		2016-07-06T15:15:31Z	2016-07-18T21:43:27Z	2016-07-18T21:43:27Z	AIX - failure in parallel/test-cluster-disconnect-handles	80		
-7564	9373002	true	closed	false	32		2016-07-06T15:59:12Z	2016-10-07T12:11:18Z	2016-09-06T13:52:40Z	core: normalize malloc, realloc 	87		
+7564	9373002	true	closed	false	33		2016-07-06T15:59:12Z	2016-10-07T15:30:41Z	2016-09-06T13:52:40Z	core: normalize malloc, realloc 	87		
 7565	275871	false	closed	false	8		2016-07-06T17:00:39Z	2016-07-23T14:40:11Z	2016-07-11T17:16:01Z	discuss: future of AsyncWrap	165		
 7566	115237	false	closed	false	3		2016-07-06T17:30:07Z	2016-08-09T18:53:55Z	2016-08-09T18:53:55Z	Changing default options for util.inspect	59		
 7567	17704638	true	open	false	0	0	2016-07-06T18:13:33Z	2016-07-06T18:13:33Z		doc: add bartosz sosnowski to colaborators	2		
@@ -856,7 +856,7 @@
 7749	7488613	false	open	false	0		2016-07-15T14:23:15Z	2016-07-15T14:23:15Z		Getting the stack trace in a structured form	190		
 7750	20170894	false	closed	false	11		2016-07-15T15:09:45Z	2016-07-18T07:41:18Z	2016-07-18T07:41:18Z	Why is toString so slow compared to manual concatenation?	87		
 7751	79017	true	closed	false	5	0	2016-07-15T16:09:25Z	2016-07-19T07:39:21Z	2016-07-19T07:39:21Z	deps: v8_inspector no longer depends on wtf	41		
-7752	2034108	false	closed	false	13		2016-07-15T19:35:09Z	2016-10-07T13:23:30Z	2016-07-16T09:02:05Z	libv8_base.a issues many undefined errors when linking on android/x86 or android/x86_64	192		
+7752	2034108	false	closed	false	15		2016-07-15T19:35:09Z	2016-10-07T15:33:06Z	2016-07-16T09:02:05Z	libv8_base.a issues many undefined errors when linking on android/x86 or android/x86_64	192		
 7753	2512748	true	closed	false	10		2016-07-15T20:43:46Z	2016-09-30T16:34:33Z	2016-07-18T21:14:43Z	test: use mustCall() for simple flow tracking	96		
 7754	899444	true	closed	false	7		2016-07-15T21:42:32Z	2016-08-04T21:40:55Z	2016-08-04T21:40:55Z	readline: show completions only after 2nd TAB	111		
 7755	164625	false	closed	false	6		2016-07-15T21:43:49Z	2016-08-23T21:26:57Z	2016-08-23T21:26:57Z	If node is started with --debug a space appears on the following line	15		
@@ -1851,7 +1851,7 @@
 8746	860364	false	closed	false	2		2016-09-23T18:28:49Z	2016-09-23T19:48:25Z	2016-09-23T19:48:25Z	global has two different behaviour with the same logic	84		
 8747	5076519	false	closed	false	13		2016-09-23T18:46:49Z	2016-09-24T13:14:43Z	2016-09-24T13:14:43Z	Unsafe parsing of URLs	298		
 8748	287917	true	closed	false	1	3	2016-09-23T18:50:06Z	2016-09-26T16:28:47Z	2016-09-26T16:28:47Z	test: use Buffer.from	43		
-8749	1813603	true	open	false	10		2016-09-23T19:07:34Z	2016-10-07T12:54:44Z		Add NODE_PRESERVE_SYMLINKS environment variable	58		
+8749	1813603	true	open	false			2016-09-23T19:07:34Z	2016-10-07T15:16:45Z		Add NODE_PRESERVE_SYMLINKS environment variable	58		
 8750	9373002	false	closed	false	8		2016-09-23T20:25:54Z	2016-10-05T14:25:27Z	2016-10-05T14:25:27Z	V8: v8tests.mjsunit/regress/regress-crbug-514081 failure on PPC BE	45		
 8751	291301	true	closed	false	6		2016-09-23T20:57:02Z	2016-10-07T02:34:02Z	2016-10-06T22:29:25Z	dgram: use Buffer.alloc(0) for zero-size buffers	74		
 8752	122831	false	open	false	6		2016-09-23T21:14:21Z	2016-09-28T01:35:00Z		cannot use tls.TLSSocket created from net.Socket after first 'data' event	348		
@@ -2042,15 +2042,15 @@
 8937	16836380	false	closed	false	2		2016-10-05T10:47:06Z	2016-10-05T11:59:46Z	2016-10-05T11:59:46Z	V8DBG_OFF_FP_CONTEXT: Unknown variable name	123		
 8938	815894	true	open	false	2		2016-10-05T11:58:48Z	2016-10-07T07:49:28Z		test: cleanup/update test-dgram-error-message-address.js	45		
 8939	18028768	false	open	false	0		2016-10-05T13:26:25Z	2016-10-05T13:26:25Z		npm install error!	26		
-8940	21042045	true	closed	false	3		2016-10-05T13:44:11Z	2016-10-07T14:31:32Z	2016-10-06T18:21:33Z	fs: fix link rot in fs.md	30		
+8940	21042045	true	closed	false	5		2016-10-05T13:44:11Z	2016-10-07T15:06:35Z	2016-10-06T18:21:33Z	fs: fix link rot in fs.md	30		
 8941	718899	true	open	false	2		2016-10-05T18:24:16Z	2016-10-07T12:26:35Z		doc: fix typo in email address in README	29		
 8942	101553	false	closed	false	0		2016-10-05T18:28:34Z	2016-10-06T21:46:17Z	2016-10-06T21:46:17Z	Examples in debugger documentation should all use global node	16		
 8943	13561163	true	open	false	6		2016-10-05T21:55:51Z	2016-10-06T21:09:11Z		doc:  ./node to node in debugger.md	25		
 8944	12266954	false	closed	false	6		2016-10-05T22:46:33Z	2016-10-06T11:00:38Z	2016-10-06T11:00:38Z	Cannot communicate to web app powered by Node 4.6 from Windows Server 2003 using HTTPS	160		
 8945	718899	true	open	false	3		2016-10-06T03:59:22Z	2016-10-07T02:32:13Z		governance: expand use of CTC issue tracker	68		
-8946	54666	true	open	false			2016-10-06T05:37:52Z	2016-10-06T20:40:39Z		buffer: make byteLength throw on invalid input	126		
+8946	54666	true	open	false	0		2016-10-06T05:37:52Z	2016-10-07T15:38:35Z		buffer: make byteLength throw on invalid input	126		
 8947	22473522	false	open	false	1		2016-10-06T05:44:29Z	2016-10-06T06:01:54Z		How to read memory stream of a pdf and open it	163		
-8948	54666	true	open	false	14		2016-10-06T05:45:14Z	2016-10-07T11:07:19Z		deps: revert default gtest reporter change	71		
+8948	54666	true	open	false			2016-10-06T05:45:14Z	2016-10-07T15:22:02Z		deps: revert default gtest reporter change	71		
 8949	54666	false	open	false	0		2016-10-06T05:59:24Z	2016-10-06T05:59:24Z		Investigate flaky tests on FreeBSD	22		
 8950	54666	false	open	false	4		2016-10-06T06:04:36Z	2016-10-06T09:06:09Z		Investigate flaky parallel/test-child-process-fork-regr-gh-2847	72		
 8951	101553	false	closed	false	0		2016-10-06T06:51:35Z	2016-10-06T16:31:15Z	2016-10-06T16:31:15Z	Typo in comment in readline.js	5		
@@ -2063,8 +2063,8 @@
 8958	2512748	true	open	false	0	0	2016-10-06T17:33:25Z	2016-10-06T17:33:25Z		test: add cluster inspector debug port test	60		
 8959	238531	true	open	false	0	0	2016-10-06T17:38:13Z	2016-10-06T17:38:13Z		tls: introduce `secureContext` for `tls.connect`	71		
 8960	2512748	true	open	false			2016-10-06T19:54:26Z	2016-10-07T09:57:40Z		test: add coverage for spawnSync() killSignal	64		
-8961	718899	true	open	false	10		2016-10-07T00:28:26Z	2016-10-07T14:33:59Z		timers: improve linked list performance	101		
-8962	22550884	true	open	false	0	0	2016-10-07T03:36:42Z	2016-10-07T03:36:42Z		test-debugger-pid: assert.ok() by assert.strictEqual()	24		
+8961	718899	true	open	false	11		2016-10-07T00:28:26Z	2016-10-07T15:14:07Z		timers: improve linked list performance	101		
+8962	22550884	true	open	false	1		2016-10-07T03:36:42Z	2016-10-07T15:31:08Z		test-debugger-pid: assert.ok() by assert.strictEqual()	24		
 8963	20573460	false	closed	false	5		2016-10-07T03:56:29Z	2016-10-07T06:21:00Z	2016-10-07T06:21:00Z	after compilation of node source I can open the file as a zip. Is there a way to prevent  that  ?	6		
 8964	1443911	true	open	false	0	0	2016-10-07T05:54:31Z	2016-10-07T05:54:31Z		v4.x backport: doc: add `added:` information for globals	4		
 8965	1443911	true	open	false	0	0	2016-10-07T06:04:51Z	2016-10-07T06:04:51Z		v4.x backport: dns: tweak regex for IPv6 addresses	6		
