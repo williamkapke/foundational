@@ -346,6 +346,7 @@
 6901	15614466	false	closed	false	4		2016-05-20T18:51:46Z	2016-09-12T03:32:05Z	2016-05-20T19:06:02Z	child_process fork creates error: Error: listen EADDRINUSE	82		
 6902	2512748	true	closed	false	16		2016-05-20T19:17:00Z	2016-07-05T14:10:42Z	2016-05-25T16:08:10Z	cluster: guard against undefined message handlers	87		
 6904	439929	true	closed	false	17		2016-05-20T20:12:11Z	2016-07-11T21:44:37Z	2016-05-27T01:10:17Z	doc: general improvements to url.md copy	34		
+6911	54666	false	open	false	5		2016-05-21T03:50:27Z	2016-10-07T13:43:51Z		doc: formatting issues for child_process docs	122		
 6918	718899	false	closed	false	3		2016-05-21T17:44:34Z	2016-07-02T03:27:10Z	2016-07-02T03:27:10Z	Investigate flaky test-stdout-close-catch on FreeBSD	19		
 6922	557590	true	closed	false	13		2016-05-22T20:09:04Z	2016-07-12T16:56:42Z	2016-05-28T04:35:06Z	buffer: Fix dataview-set benchmark.	188		
 6933	439929	true	closed	false	21		2016-05-23T19:47:40Z	2016-07-11T21:44:07Z	2016-05-26T15:14:03Z	doc: general improvements to tls.md copy	34		
@@ -852,7 +853,7 @@
 7749	7488613	false	open	false	0		2016-07-15T14:23:15Z	2016-07-15T14:23:15Z		Getting the stack trace in a structured form	190		
 7750	20170894	false	closed	false	11		2016-07-15T15:09:45Z	2016-07-18T07:41:18Z	2016-07-18T07:41:18Z	Why is toString so slow compared to manual concatenation?	87		
 7751	79017	true	closed	false	5	0	2016-07-15T16:09:25Z	2016-07-19T07:39:21Z	2016-07-19T07:39:21Z	deps: v8_inspector no longer depends on wtf	41		
-7752	2034108	false	closed	false	12		2016-07-15T19:35:09Z	2016-09-09T07:12:40Z	2016-07-16T09:02:05Z	libv8_base.a issues many undefined errors when linking on android/x86 or android/x86_64	192		
+7752	2034108	false	closed	false	13		2016-07-15T19:35:09Z	2016-10-07T13:23:30Z	2016-07-16T09:02:05Z	libv8_base.a issues many undefined errors when linking on android/x86 or android/x86_64	192		
 7753	2512748	true	closed	false	10		2016-07-15T20:43:46Z	2016-09-30T16:34:33Z	2016-07-18T21:14:43Z	test: use mustCall() for simple flow tracking	96		
 7754	899444	true	closed	false	7		2016-07-15T21:42:32Z	2016-08-04T21:40:55Z	2016-08-04T21:40:55Z	readline: show completions only after 2nd TAB	111		
 7755	164625	false	closed	false	6		2016-07-15T21:43:49Z	2016-08-23T21:26:57Z	2016-08-23T21:26:57Z	If node is started with --debug a space appears on the following line	15		
@@ -1795,7 +1796,7 @@
 8694	1456821	true	open	false	10		2016-09-21T13:30:34Z	2016-10-03T22:11:18Z		doc: Recommend using port 0 instead of common.PORT	55		
 8695	275871	true	closed	false	1	0	2016-09-21T16:41:21Z	2016-09-23T15:54:16Z	2016-09-23T15:54:16Z	test: enable cyrillic punycode test case	25		
 8696	287917	true	open	false	0	0	2016-09-21T17:01:19Z	2016-09-21T17:01:19Z		doc: add eugeneo to collaborators	28		
-8697	9373002	true	open	false	31		2016-09-21T18:38:04Z	2016-10-05T19:30:15Z		test: improve test-child-process-fork-dgram	110		
+8697	9373002	true	open	false	32		2016-09-21T18:38:04Z	2016-10-07T13:59:13Z		test: improve test-child-process-fork-dgram	110		
 8698	5498548	false	closed	false	2		2016-09-21T18:44:10Z	2016-09-21T20:14:14Z	2016-09-21T20:14:14Z	RPM Package signing key	83		
 8699	14127285	false	open	false	3		2016-09-21T18:53:09Z	2016-09-21T20:22:52Z		[Archlinux] Need help ! 	77		
 8700	718899	false	closed	false	2		2016-09-21T19:06:44Z	2016-09-23T23:02:04Z	2016-09-23T23:02:04Z	Investigate flaky test-cluster-worker-init on Raspberry Pi 1	31		
@@ -2011,7 +2012,7 @@
 8910	275871	true	closed	false	5		2016-10-03T17:07:16Z	2016-10-04T06:50:55Z	2016-10-04T06:50:55Z	deps: build openssl without cryptodev support	59		
 8911	15943089	false	open	false	0		2016-10-03T17:12:39Z	2016-10-03T17:12:39Z		Avoiding firewall warnings on macOS Sierra	51		
 8912	479538	false	open	false	7		2016-10-03T19:50:58Z	2016-10-06T23:02:25Z		Debugging: Stabilize hidden classes for improved heap snapshots	143		
-8913	479538	false	open	false	8		2016-10-03T19:58:01Z	2016-10-07T10:18:15Z		Debugging: name every function	95		
+8913	479538	false	open	false	9		2016-10-03T19:58:01Z	2016-10-07T13:47:46Z		Debugging: name every function	95		
 8914	4268223	true	open	false			2016-10-03T21:15:45Z	2016-10-03T22:04:09Z		test: tests for _readableStream.awaitDrain	30		
 8915	718899	false	closed	false	17		2016-10-03T21:59:48Z	2016-10-06T21:35:24Z	2016-10-06T21:35:24Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-10-05	462		
 8916	5704064	true	open	false	0	0	2016-10-03T22:08:06Z	2016-10-03T22:08:06Z		doc: correct grammar on major documents 	29		
@@ -2025,7 +2026,7 @@
 8924	2352663	true	closed	false	4		2016-10-04T12:54:16Z	2016-10-04T23:05:38Z	2016-10-04T23:05:38Z	test: fix child-process-uid-gid on Windows	41		
 8925	815894	false	open	false	0		2016-10-04T15:49:46Z	2016-10-07T07:49:13Z		test: cleanup/update test-dgram-error-message-address.js	11		
 8926	6190179	false	open	false	10		2016-10-04T16:22:32Z	2016-10-04T18:02:02Z		Can't run nodejs 4.6 on Ubuntu 12.04.5 LTS with Geode AMD CPU	168		
-8927	54666	false	open	false	3		2016-10-04T17:23:22Z	2016-10-07T09:34:58Z		child_process: outdated comment	51		
+8927	54666	false	open	false	4		2016-10-04T17:23:22Z	2016-10-07T13:37:32Z		child_process: outdated comment	51		
 8928	17535	true	closed	false	6	0	2016-10-04T17:50:29Z	2016-10-05T20:54:01Z	2016-10-05T20:54:01Z	deps: update npm in LTS to 2.15.11	126		
 8929	2725611	false	open	false	0		2016-10-04T20:43:13Z	2016-10-04T20:43:13Z		Replace .eslintrc with something else?	42		
 8930	718899	false	open	false	0		2016-10-04T22:57:12Z	2016-10-05T16:51:59Z		investigate flaky sequential/test-net-GH-5504 on SmartOS	113		
@@ -2059,7 +2060,7 @@
 8958	2512748	true	open	false	0	0	2016-10-06T17:33:25Z	2016-10-06T17:33:25Z		test: add cluster inspector debug port test	60		
 8959	238531	true	open	false	0	0	2016-10-06T17:38:13Z	2016-10-06T17:38:13Z		tls: introduce `secureContext` for `tls.connect`	71		
 8960	2512748	true	open	false			2016-10-06T19:54:26Z	2016-10-07T09:57:40Z		test: add coverage for spawnSync() killSignal	64		
-8961	718899	true	open	false	6		2016-10-07T00:28:26Z	2016-10-07T06:17:06Z		timers: improve linked list performance	101		
+8961	718899	true	open	false	8		2016-10-07T00:28:26Z	2016-10-07T13:43:09Z		timers: improve linked list performance	101		
 8962	22550884	true	open	false	0	0	2016-10-07T03:36:42Z	2016-10-07T03:36:42Z		test-debugger-pid: assert.ok() by assert.strictEqual()	24		
 8963	20573460	false	closed	false	5		2016-10-07T03:56:29Z	2016-10-07T06:21:00Z	2016-10-07T06:21:00Z	after compilation of node source I can open the file as a zip. Is there a way to prevent  that  ?	6		
 8964	1443911	true	open	false	0	0	2016-10-07T05:54:31Z	2016-10-07T05:54:31Z		v4.x backport: doc: add `added:` information for globals	4		
@@ -2067,6 +2068,6 @@
 8966	275871	false	open	false	0		2016-10-07T08:19:54Z	2016-10-07T08:19:54Z		dns: don't skip getaddrino/getnameinfo when c-ares init fails	68		
 8967	18457837	false	closed	false	0		2016-10-07T08:45:40Z	2016-10-07T09:33:40Z	2016-10-07T09:33:40Z	TypeError: Expected a finite number    at module.exports (C:\Program Files\nodejs\node_modules\npm\node_modules\pretty-ms\index.js:8:9)	86		
 8968	7656167	true	open	false	0	0	2016-10-07T09:55:40Z	2016-10-07T09:55:40Z		Changed the comment on lines 53-54, fixing issue 8927	47		
-8969	11734962	true	open	false			2016-10-07T10:10:04Z	2016-10-07T12:34:26Z		url: added url.resolve() method's behaviour	49		
+8969	11734962	true	open	false	1		2016-10-07T10:10:04Z	2016-10-07T13:52:15Z		url: added url.resolve() method's behaviour	49		
 8970	2352663	true	open	false	0	0	2016-10-07T11:22:03Z	2016-10-07T11:22:03Z		v4.x backport: test: improve coverage of the util module	6		
 8971	684817	false	open	false	0		2016-10-07T12:10:37Z	2016-10-07T12:10:37Z		Buffer.toString docs != actual	32		
