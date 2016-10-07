@@ -349,6 +349,7 @@
 6902	2512748	true	closed	false	16		2016-05-20T19:17:00Z	2016-07-05T14:10:42Z	2016-05-25T16:08:10Z	cluster: guard against undefined message handlers	87		
 6904	439929	true	closed	false	17		2016-05-20T20:12:11Z	2016-07-11T21:44:37Z	2016-05-27T01:10:17Z	doc: general improvements to url.md copy	34		
 6911	54666	false	open	false	5		2016-05-21T03:50:27Z	2016-10-07T13:43:51Z		doc: formatting issues for child_process docs	122		
+6912	12488060	false	closed	false	17		2016-05-21T07:59:23Z	2016-10-07T17:57:12Z	2016-10-07T17:57:12Z	jslint fails with linebreak on windows	44		
 6918	718899	false	closed	false	3		2016-05-21T17:44:34Z	2016-07-02T03:27:10Z	2016-07-02T03:27:10Z	Investigate flaky test-stdout-close-catch on FreeBSD	19		
 6922	557590	true	closed	false	13		2016-05-22T20:09:04Z	2016-07-12T16:56:42Z	2016-05-28T04:35:06Z	buffer: Fix dataview-set benchmark.	188		
 6933	439929	true	closed	false	21		2016-05-23T19:47:40Z	2016-07-11T21:44:07Z	2016-05-26T15:14:03Z	doc: general improvements to tls.md copy	34		
@@ -1777,7 +1778,7 @@
 8672	287917	true	closed	false	6		2016-09-20T21:07:12Z	2016-09-23T21:53:43Z	2016-09-23T18:08:46Z	inspector: address race conditions	65		
 8673	498775	true	closed	false	19		2016-09-20T22:12:05Z	2016-09-29T19:42:55Z	2016-09-23T14:17:48Z	deps: cherry-pick 34880eb3dc from V8 upstream	184		
 8674	855219	true	open	false			2016-09-20T22:57:10Z	2016-09-21T00:54:24Z		deps: fix icu-shrinker to handle ICU 58	43		
-8675	439929	false	open	false	0		2016-09-20T23:14:21Z	2016-09-20T23:14:21Z		meta: new github review comments and the github API	79		
+8675	439929	false	open	false	1		2016-09-20T23:14:21Z	2016-10-07T17:19:48Z		meta: new github review comments and the github API	79		
 8676	426418	true	open	false	3		2016-09-20T23:40:07Z	2016-09-21T00:12:13Z		doc: add ak239 to collaborators	0		
 8677	27926	true	open	false	0	0	2016-09-21T03:09:34Z	2016-09-21T03:09:34Z		Benchmark: add destructuring object	47		
 8678	718899	true	closed	false	5		2016-09-21T03:35:04Z	2016-09-23T03:14:15Z	2016-09-23T03:14:15Z	doc: standardize on `make -j8`	60		
@@ -1887,7 +1888,7 @@
 8782	1935767	true	open	false	2		2016-09-26T04:55:28Z	2016-09-27T14:17:00Z		doc: fix title level at tls.md	40		
 8783	1935767	true	open	false	21		2016-09-26T06:03:10Z	2016-10-06T22:24:11Z		tls: should use .deprecated to wrap the deprecated createSecurePair	42		
 8784	275871	true	closed	false	7		2016-09-26T08:02:02Z	2016-10-07T08:25:46Z	2016-09-28T09:06:00Z	src: rename CHECK_NOT_OOB() macro	21		
-8785	134460	true	open	false	0	0	2016-09-26T12:16:31Z	2016-09-26T12:16:31Z		win,tools: ignore linting for line breaks	73		
+8785	134460	true	closed	false	0		2016-09-26T12:16:31Z	2016-10-07T17:57:28Z	2016-10-07T17:57:28Z	win,tools: ignore linting for line breaks	73		
 8786	782880	true	open	false	0		2016-09-26T12:30:17Z	2016-09-26T14:18:32Z		Upgrade to openssl102j	72		
 8787	17819258	false	closed	false	1		2016-09-26T12:36:20Z	2016-09-26T14:21:43Z	2016-09-26T14:21:42Z	when using nvm,How to move global modules to another node version	23		
 8788	17704638	true	closed	false	6		2016-09-26T13:36:29Z	2016-09-30T15:25:42Z	2016-09-30T15:25:42Z	benchmark: add info about required Unix tools	57		
@@ -1897,7 +1898,7 @@
 8792	354296	false	open	false	7		2016-09-26T17:06:56Z	2016-09-27T18:50:10Z		Feature request: REPL show variable contents upon variable creation	52		
 8793	2352663	false	open	false	6		2016-09-26T18:07:20Z	2016-10-03T12:07:49Z		Audit performance of master with V8 5.4	50		
 8794	441346	true	closed	false	1		2016-09-26T18:21:35Z	2016-09-30T17:36:17Z	2016-09-30T17:36:17Z	test: fix running child-process-uid-gid as root	55		
-8795	134460	true	open	false	3		2016-09-26T18:34:50Z	2016-09-27T17:19:33Z		win,msi: mark INSTALLDIR property as secure	149		
+8795	134460	true	open	false	4		2016-09-26T18:34:50Z	2016-10-07T17:55:01Z		win,msi: mark INSTALLDIR property as secure	149		
 8796	152407	true	closed	false	5		2016-09-26T19:06:45Z	2016-09-27T14:44:43Z	2016-09-27T14:44:43Z	Document crypto.timingSafeEqual() added in v6.6.0	37		
 8797	479816	false	open	false	6		2016-09-27T01:53:51Z	2016-09-30T10:03:37Z		"`fs.rmdir()` on file (not directory) has ""ENOTDIR"" on Linux/macOS vs ""ENOENT"" on Windows"	115		
 8798	579	false	open	false	30		2016-09-27T03:02:37Z	2016-10-04T07:16:26Z		Add Locki to API documentation	65		
@@ -1964,7 +1965,7 @@
 8859	11976448	true	closed	false	4		2016-09-30T05:20:26Z	2016-10-03T11:31:50Z	2016-10-03T11:31:50Z	test: expand test coverage for url.js	66		
 8860	8007933	true	closed	false	6		2016-09-30T06:38:38Z	2016-09-30T17:41:01Z	2016-09-30T16:49:57Z	stream: fixed misplaced comment	55		
 8861	899444	true	closed	false	3		2016-09-30T14:19:55Z	2016-10-05T22:05:40Z	2016-10-05T22:05:40Z	build: make addons build  dep. on node_version.h	54		
-8862	899444	true	open	false	1		2016-09-30T14:30:53Z	2016-10-06T23:00:50Z		fs: export `realpathCacheKey` from `internal/fs`	70		
+8862	899444	true	open	false	3		2016-09-30T14:30:53Z	2016-10-07T17:52:27Z		fs: export `realpathCacheKey` from `internal/fs`	70		
 8863	441346	true	closed	false	6		2016-09-30T17:03:20Z	2016-10-07T02:31:59Z	2016-10-06T17:20:15Z	internal: fix TypeError in v8-polyfill	62		
 8864	441346	true	closed	false	7		2016-09-30T17:35:54Z	2016-10-04T12:55:15Z	2016-10-03T14:24:37Z	test: fix running child-process-uid-gid as root	57		
 8865	439929	false	closed	false	13		2016-09-30T18:10:59Z	2016-10-07T16:33:56Z	2016-10-07T16:33:56Z	Intl: Consider deprecating Intl.v8BreakIterator	74		
@@ -1978,7 +1979,7 @@
 8873	498775	true	closed	false	8		2016-09-30T22:33:37Z	2016-10-04T16:09:44Z	2016-10-04T15:34:33Z	meta: remove let from for loops	67		
 8874	22553123	false	open	false	1		2016-09-30T23:49:22Z	2016-10-02T08:33:11Z		zlib.inflateRawSync how do I get the number of bytes read?	120		
 8875	731722	true	open	false			2016-10-01T01:21:56Z	2016-10-06T22:08:48Z		More realistic custom inspect example	166		
-8876	2365820	true	open	false	3		2016-10-01T04:48:42Z	2016-10-06T21:58:56Z		debugger: check -e flag in debug break setup	100		
+8876	2365820	true	open	false	4		2016-10-01T04:48:42Z	2016-10-07T17:47:30Z		debugger: check -e flag in debug break setup	100		
 8877	54666	true	closed	false	1		2016-10-01T05:42:35Z	2016-10-03T10:38:09Z	2016-10-03T10:38:08Z	cluster: remove unused backlog argument	47		
 8878	54666	true	open	false	0	0	2016-10-01T05:49:24Z	2016-10-01T05:49:27Z		src: remove unused function declaration	36		
 8879	1443911	true	closed	false	1	0	2016-10-01T06:48:05Z	2016-10-04T18:40:00Z	2016-10-04T18:40:00Z	v4.x backport: doc: add `added:` information for events	6		
@@ -1997,7 +1998,7 @@
 8892	5704064	true	closed	false	11		2016-10-02T02:31:06Z	2016-10-05T16:06:50Z	2016-10-04T17:02:11Z	doc: correct grammar in README.md	27		
 8893	718899	false	open	false	9		2016-10-02T05:52:52Z	2016-10-04T07:53:23Z		doc: explain why we don't use the GitHub merge button	75		
 8894	470827	true	open	false	2		2016-10-02T06:37:33Z	2016-10-05T18:35:32Z		Cleanup test file write stream	53		
-8895	1443911	true	open	false			2016-10-02T10:34:26Z	2016-10-06T18:22:47Z		http: set socket timeout when socket connects	82		
+8895	1443911	true	open	false	3		2016-10-02T10:34:26Z	2016-10-07T17:32:22Z		http: set socket timeout when socket connects	82		
 8896	815894	true	open	false	10		2016-10-02T10:39:29Z	2016-10-05T16:16:41Z		test: cleanup/update test-dgram-empty-packet.js	46		
 8897	207759	false	open	false	1		2016-10-02T13:06:45Z	2016-10-03T10:01:49Z		Windows Container: npm can't be used in docker volume directory	744		
 8898	2093546	true	open	false	0	0	2016-10-02T15:09:03Z	2016-10-02T15:09:03Z		V0.12.7 release	47		
@@ -2008,7 +2009,7 @@
 8903	911174	false	open	false	4		2016-10-03T10:36:00Z	2016-10-04T17:07:23Z		Ship manpages for all core modules	96		
 8904	1084056	true	closed	false	1		2016-10-03T10:44:13Z	2016-10-04T18:45:49Z	2016-10-04T18:45:49Z	Backport PR 7572	140		
 8905	432351	true	closed	false	5		2016-10-03T10:46:41Z	2016-10-07T16:47:42Z	2016-10-07T16:47:42Z	build: add config.gypi to test/addons/.buildstamp	121		
-8906	10611767	true	open	false	6		2016-10-03T11:19:24Z	2016-10-06T21:53:17Z		Minor improvements	58		
+8906	10611767	true	closed	false	7		2016-10-03T11:19:24Z	2016-10-07T17:42:03Z	2016-10-07T17:42:03Z	Minor improvements	58		
 8907	9373002	true	closed	false	6		2016-10-03T15:27:41Z	2016-10-05T14:25:40Z	2016-10-05T14:25:40Z	deps: v8 - cherry-pick missing v8 floating patch	107		
 8908	2352663	true	closed	false	5		2016-10-03T15:51:37Z	2016-10-07T16:34:16Z	2016-10-07T16:34:16Z	intl: add deprecation warning for v8BreakIterator	40		
 8909	101553	true	open	false	3		2016-10-03T16:20:12Z	2016-10-07T16:23:10Z		src: refactor contextify	41		
@@ -2063,14 +2064,14 @@
 8958	2512748	true	open	false	0	0	2016-10-06T17:33:25Z	2016-10-06T17:33:25Z		test: add cluster inspector debug port test	60		
 8959	238531	true	open	false	0	0	2016-10-06T17:38:13Z	2016-10-06T17:38:13Z		tls: introduce `secureContext` for `tls.connect`	71		
 8960	2512748	true	open	false			2016-10-06T19:54:26Z	2016-10-07T09:57:40Z		test: add coverage for spawnSync() killSignal	64		
-8961	718899	true	open	false	12		2016-10-07T00:28:26Z	2016-10-07T16:59:55Z		timers: improve linked list performance	101		
-8962	22550884	true	open	false			2016-10-07T03:36:42Z	2016-10-07T16:20:31Z		test-debugger-pid: assert.ok() by assert.strictEqual()	24		
+8961	718899	true	open	false	12		2016-10-07T00:28:26Z	2016-10-07T17:09:45Z		timers: improve linked list performance	101		
+8962	22550884	true	open	false			2016-10-07T03:36:42Z	2016-10-07T17:49:21Z		test-debugger-pid: assert.ok() by assert.strictEqual()	24		
 8963	20573460	false	closed	false	5		2016-10-07T03:56:29Z	2016-10-07T06:21:00Z	2016-10-07T06:21:00Z	after compilation of node source I can open the file as a zip. Is there a way to prevent  that  ?	6		
 8964	1443911	true	open	false	1		2016-10-07T05:54:31Z	2016-10-07T16:49:26Z		v4.x backport: doc: add `added:` information for globals	6		
-8965	1443911	true	open	false	0		2016-10-07T06:04:51Z	2016-10-07T16:51:30Z		v4.x backport: dns: tweak regex for IPv6 addresses	6		
+8965	1443911	true	open	false	1		2016-10-07T06:04:51Z	2016-10-07T17:02:58Z		v4.x backport: dns: tweak regex for IPv6 addresses	6		
 8966	275871	false	open	false	0		2016-10-07T08:19:54Z	2016-10-07T08:19:54Z		dns: don't skip getaddrino/getnameinfo when c-ares init fails	68		
 8967	18457837	false	closed	false	0		2016-10-07T08:45:40Z	2016-10-07T09:33:40Z	2016-10-07T09:33:40Z	TypeError: Expected a finite number    at module.exports (C:\Program Files\nodejs\node_modules\npm\node_modules\pretty-ms\index.js:8:9)	86		
-8968	7656167	true	open	false	1		2016-10-07T09:55:40Z	2016-10-07T16:40:54Z		lib: update outdated comment	46		
+8968	7656167	true	open	false	1		2016-10-07T09:55:40Z	2016-10-07T17:05:38Z		lib: update outdated comment	23		
 8969	11734962	true	open	false	3		2016-10-07T10:10:04Z	2016-10-07T14:09:41Z		url: added url.resolve() method's behaviour	49		
 8970	2352663	true	open	false	0	0	2016-10-07T11:22:03Z	2016-10-07T11:22:03Z		v4.x backport: test: improve coverage of the util module	6		
 8971	684817	false	open	false	0		2016-10-07T12:10:37Z	2016-10-07T12:10:37Z		Buffer.toString docs != actual	32		
