@@ -1,3 +1,4 @@
+21	71256	false	closed	false	23		2012-02-12T03:16:38Z	2016-10-07T08:36:03Z	2016-10-07T08:36:03Z	Make the dev installation directory configurable (~/.node-gyp)	14		
 94	1760238	false	closed	false	13		2012-07-05T08:45:47Z	2016-06-29T21:31:51Z	2012-07-05T08:47:44Z	node-gyp rebuild error	163		
 119	2099292	false	closed	false	22		2012-08-06T19:09:34Z	2016-10-04T07:22:49Z	2012-08-06T21:43:04Z	NPM fails on msbuild.exe with exit code 1	270		
 154	51479	false	closed	false	38		2012-10-25T00:13:03Z	2016-10-05T13:50:03Z	2013-05-22T15:04:32Z	node-gyp failing on Windows x64	289		
@@ -39,18 +40,21 @@
 874	961599	false	closed	false	13		2016-01-28T17:44:18Z	2016-08-01T12:52:20Z	2016-01-28T18:36:54Z	Under Windows, node-gyp provides headers but not linkable libraries for OpenSSL	43		
 882	1673849	false	open	false	22		2016-02-15T17:30:03Z	2016-08-30T12:46:45Z		node-gyp rebuild Fail on osx with Xcode V 7.2.1	399		
 895	10359412	false	closed	false	3		2016-03-27T10:26:11Z	2016-07-14T10:00:14Z	2016-03-27T16:58:01Z	Build without VS	47		
-916	275871	true	open	false	3		2016-04-28T13:54:49Z	2016-07-13T11:43:28Z		Add --devdir flag.	73		
+911	291575	true	closed	false	3		2016-04-22T10:14:07Z	2016-10-07T08:53:27Z	2016-10-07T08:53:27Z	Use python2 binary in gyp script	22		
+916	275871	true	closed	false	3	0	2016-04-28T13:54:49Z	2016-10-07T08:36:03Z	2016-10-07T08:36:03Z	Add --devdir flag.	73	275871	2016-10-07T08:36:03Z
 917	5541421	false	closed	false	3		2016-05-01T19:09:11Z	2016-09-26T18:16:17Z	2016-05-02T05:02:29Z	build fails on Raspberry Pi 2	300		
-919	52586	true	open	false			2016-05-06T10:31:24Z	2016-08-18T08:39:35Z		Allow build directory to be changed.	7		
+919	52586	true	open	false	5		2016-05-06T10:31:24Z	2016-10-07T08:59:34Z		Allow build directory to be changed.	7		
 920	1485909	true	closed	false	17		2016-05-07T11:33:12Z	2016-07-13T09:45:30Z	2016-05-30T09:30:00Z	Enable V8 deprecation warnings for native modules	46		
 938	4515120	false	open	false	5		2016-05-24T03:09:36Z	2016-08-25T14:22:14Z		npm config set msvs_version 2015 not working with VS15 alpha2	35		
+945	2333632	true	closed	false	2		2016-05-27T15:46:21Z	2016-10-07T08:52:40Z	2016-10-07T08:52:40Z	Issue 297 fixed			
 949	1347002	false	closed	false	12		2016-06-06T14:20:21Z	2016-09-28T15:52:03Z	2016-06-13T13:55:30Z	error compiling win_delay_load_hook.c with visual studio preview 2	85		
 956	1093990	false	closed	false	10		2016-06-13T17:08:12Z	2016-07-01T15:18:03Z	2016-06-28T02:03:26Z	Propose v3.3.2	39		
 960	238531	false	open	false	7		2016-06-17T17:53:54Z	2016-08-10T14:05:19Z		Consider gyp.js?	56		
 962	1122386	true	open	false	19		2016-06-19T00:39:43Z	2016-08-30T21:57:30Z		Initial gyp.js support	28		
-964	1122386	true	open	false	4		2016-06-20T13:19:48Z	2016-07-07T13:15:02Z		build: use target_arch config variable to link against node.lib	52		
+964	1122386	true	open	false	5		2016-06-20T13:19:48Z	2016-10-07T08:50:51Z		build: use target_arch config variable to link against node.lib	52		
 965	1122386	true	open	false	3		2016-06-20T14:05:11Z	2016-07-07T13:17:14Z		install: de-duplicate code in downloadNodeLib() function	52		
 966	432707	false	closed	false	2		2016-06-21T04:08:04Z	2016-06-27T15:32:04Z	2016-06-27T11:36:37Z	Update minimatch to latest version	32		
+969	1122386	true	closed	false	3		2016-06-26T09:34:36Z	2016-10-07T08:48:21Z	2016-10-07T08:48:21Z	Unset executable bit for .bat files	16		
 970	1426799	true	closed	false	16		2016-06-29T07:16:30Z	2016-07-25T01:43:42Z	2016-07-25T01:43:42Z	Add windows-build-tools to Readme	73		
 971	696611	true	closed	false	3	0	2016-06-29T18:43:19Z	2016-06-29T19:24:35Z	2016-06-29T19:24:35Z	"gyp: fix runtime ""NameError""s"	45		
 972	3872744	false	closed	false	19		2016-07-01T08:23:56Z	2016-10-07T03:03:46Z	2016-07-01T09:05:54Z	error C2373: '__pfnDliNotifyHook2': redefinition;	65		
@@ -71,9 +75,9 @@
 987	934986	false	open	false	7		2016-07-12T06:11:17Z	2016-08-24T15:32:39Z		Make sure that python.exe is actually of version 2	179		
 988	1013699	false	closed	false	5		2016-07-12T13:50:23Z	2016-07-14T04:20:08Z	2016-07-14T04:20:08Z	Resolving conflicts between node and local header/src includes.	377		
 989	15989459	false	closed	false	1		2016-07-12T18:06:11Z	2016-07-12T21:28:32Z	2016-07-12T21:28:32Z	ninja: error: build.ninja:101: duplicate rule 'merge_infoplist'	40		
-990	367936	true	open	false	16		2016-07-12T19:47:09Z	2016-10-06T23:09:38Z		Remove path-array	29		
+990	367936	true	closed	false	17		2016-07-12T19:47:09Z	2016-10-07T08:40:51Z	2016-10-07T08:40:51Z	Remove path-array	29		
 991	1106324	false	closed	false	7		2016-07-12T20:28:41Z	2016-07-13T05:52:55Z	2016-07-13T04:23:03Z	Prebuilt v3.4.2 archive does not exist for OSX 10.11.5, making installation difficult	1978		
-992	275871	true	open	false	2		2016-07-13T11:21:14Z	2016-07-14T11:23:05Z		Try python launcher when stock python is python 3.	16		
+992	275871	true	open	false	2		2016-07-13T11:21:14Z	2016-10-07T08:45:41Z		Try python launcher when stock python is python 3.	16		
 993	1013699	false	closed	false	6		2016-07-14T08:40:36Z	2016-07-14T14:01:45Z	2016-07-14T12:35:44Z	Unable to include tree.h in some of the node versions.	241		
 994	11558805	false	closed	false	1		2016-07-14T19:59:43Z	2016-07-14T20:07:12Z	2016-07-14T20:07:12Z	node-gyp rebuild failing on Mac OS X 10.11.5 (15F34)	92		
 995	961599	false	open	false	1		2016-07-15T17:16:34Z	2016-07-16T10:59:02Z		Is there a way to check within the gyp file which Node embedder the library is building against?	33		
