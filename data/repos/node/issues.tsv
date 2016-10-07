@@ -178,6 +178,7 @@
 4956	21203	true	open	false	14		2016-01-29T19:50:47Z	2016-08-27T04:45:47Z		crypto: remove POINT_CONVERSION_HYBRID	44		
 5025	275871	true	open	false	31		2016-02-01T13:14:18Z	2016-08-23T20:38:28Z		debugger: bind to random port with --debug-port=0	13		
 5026	6603598	false	closed	false	10		2016-02-01T14:05:29Z	2016-09-26T09:05:45Z	2016-09-26T09:05:44Z	NodeJS (Windows Buid) : TCP connection Leak (Stays in Established)	277		
+5035	54666	false	closed	false	4		2016-02-02T02:48:20Z	2016-10-07T20:26:48Z	2016-10-07T20:26:48Z	v0.10 crashes with getPeerCertificate()	175		
 5053	5559820	true	closed	false	36	3	2016-02-03T06:34:54Z	2016-09-17T10:08:04Z	2016-09-17T10:08:03Z	doc: use eslint	55		
 5094	12488060	false	open	false	6		2016-02-04T23:46:05Z	2016-07-09T02:37:13Z		File names in readable_stream folder are not supported in Windows	333		
 5095	8822573	false	open	false	7		2016-02-05T00:53:51Z	2016-07-04T14:21:24Z		node: unix sockets are slow in case of lots of small buffers	445		
@@ -1571,7 +1572,7 @@
 8465	1037138	false	closed	false	8		2016-09-09T13:36:16Z	2016-09-13T13:08:49Z	2016-09-13T13:08:49Z	OSX: setting a custom DYLD_ env console logs undefined when run with child_process.spawn	135		
 8466	1093990	true	closed	false	8	0	2016-09-09T14:45:04Z	2016-09-15T20:48:13Z	2016-09-15T20:48:12Z	v6.6.0 proposal	89	1093990	2016-09-15T20:48:12Z
 8467	4336805	false	open	false	1		2016-09-09T17:01:23Z	2016-09-09T17:17:33Z		Crypto outputs different hashes for node v0.10.42 compared to newer versions	223		
-8468	439929	true	open	false	3		2016-09-09T17:37:56Z	2016-09-27T18:33:47Z		test: various test improvements	52		
+8468	439929	true	open	false	6		2016-09-09T17:37:56Z	2016-10-07T20:50:27Z		test: various test improvements	52		
 8469	101553	true	open	false	4		2016-09-09T19:15:08Z	2016-09-12T03:55:56Z		doc: fix example in repl documentation about context properties	56		
 8470	9373002	true	closed	false	5		2016-09-09T19:29:42Z	2016-09-12T14:02:28Z	2016-09-12T14:02:28Z	test: skip pseudo-tty/no_dropped_stdio test	77		
 8471	11976448	true	open	false	13		2016-09-09T20:44:26Z	2016-09-13T04:27:01Z		test: favor `===`  over  in `==` in http test	31		
@@ -2049,7 +2050,7 @@
 8943	13561163	true	open	false	6		2016-10-05T21:55:51Z	2016-10-06T21:09:11Z		doc:  ./node to node in debugger.md	25		
 8944	12266954	false	closed	false	6		2016-10-05T22:46:33Z	2016-10-06T11:00:38Z	2016-10-06T11:00:38Z	Cannot communicate to web app powered by Node 4.6 from Windows Server 2003 using HTTPS	160		
 8945	718899	true	open	false	3		2016-10-06T03:59:22Z	2016-10-07T02:32:13Z		governance: expand use of CTC issue tracker	68		
-8946	54666	true	open	false	2		2016-10-06T05:37:52Z	2016-10-07T16:19:48Z		buffer: make byteLength throw on invalid input	126		
+8946	54666	true	open	false	3		2016-10-06T05:37:52Z	2016-10-07T20:32:00Z		buffer: make byteLength throw on invalid input	126		
 8947	22473522	false	open	false	1		2016-10-06T05:44:29Z	2016-10-06T06:01:54Z		How to read memory stream of a pdf and open it	163		
 8948	54666	true	open	false			2016-10-06T05:45:14Z	2016-10-07T18:10:44Z		deps: revert default gtest reporter change	71		
 8949	54666	false	open	false	5		2016-10-06T05:59:24Z	2016-10-07T19:18:46Z		Investigate flaky tests on FreeBSD	144		
@@ -2071,11 +2072,12 @@
 8965	1443911	true	open	false	3		2016-10-07T06:04:51Z	2016-10-07T18:35:22Z		v4.x backport: dns: tweak regex for IPv6 addresses	6		
 8966	275871	false	open	false	0		2016-10-07T08:19:54Z	2016-10-07T08:19:54Z		dns: don't skip getaddrino/getnameinfo when c-ares init fails	68		
 8967	18457837	false	closed	false	0		2016-10-07T08:45:40Z	2016-10-07T09:33:40Z	2016-10-07T09:33:40Z	TypeError: Expected a finite number    at module.exports (C:\Program Files\nodejs\node_modules\npm\node_modules\pretty-ms\index.js:8:9)	86		
-8968	7656167	true	open	false	1		2016-10-07T09:55:40Z	2016-10-07T17:05:38Z		lib: update outdated comment	23		
-8969	11734962	true	open	false			2016-10-07T10:10:04Z	2016-10-07T18:21:28Z		url: added url.resolve() method's behaviour	49		
+8968	7656167	true	open	false			2016-10-07T09:55:40Z	2016-10-07T20:59:04Z		lib: update outdated comment	23		
+8969	11734962	true	open	false	9		2016-10-07T10:10:04Z	2016-10-07T20:05:45Z		url: added url.resolve() method's behaviour	49		
 8970	2352663	true	open	false	0	0	2016-10-07T11:22:03Z	2016-10-07T11:22:03Z		v4.x backport: test: improve coverage of the util module	6		
 8971	684817	false	open	false	0		2016-10-07T12:10:37Z	2016-10-07T12:10:37Z		Buffer.toString docs != actual	32		
 8972	3502395	false	open	false	0		2016-10-07T14:29:08Z	2016-10-07T14:29:08Z		Is it possible to notify developer if server.maxConnections reached?	60		
 8973	7408949	false	open	false	0		2016-10-07T14:30:05Z	2016-10-07T14:30:05Z		nodejs Linux clang libc++ no joy?	111		
-8974	3397140	false	open	false	0		2016-10-07T19:33:31Z	2016-10-07T19:33:31Z		Official socket transfer support	52		
+8974	3397140	false	open	false	3		2016-10-07T19:33:31Z	2016-10-07T20:07:21Z		Official socket transfer support	52		
 8975	2148448	false	open	false	0		2016-10-07T19:55:09Z	2016-10-07T19:55:09Z		child_process.exec fails non-deterministically	329		
+8976	11976448	true	open	false	0	0	2016-10-07T20:12:59Z	2016-10-07T20:12:59Z		test: expand test coverage for url.js	67		
