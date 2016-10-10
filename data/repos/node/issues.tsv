@@ -415,7 +415,7 @@
 7154	718899	true	closed	false	14		2016-06-04T20:16:03Z	2016-07-11T22:54:57Z	2016-06-07T20:33:05Z	debugger: remove obsolete setTimeout	65		
 7157	469365	true	closed	false	28		2016-06-05T01:13:32Z	2016-07-05T18:16:17Z	2016-06-27T20:40:21Z	buffers: speed up swap16/32, add swap64	566		
 7158	9056756	false	closed	false	5		2016-06-05T04:43:28Z	2016-07-11T09:40:17Z	2016-06-05T06:49:21Z	Unable to cross-compile Node v6.2.1 for iOS	283		
-7162	275871	true	closed	false	12	0	2016-06-05T16:54:03Z	2016-09-23T16:26:57Z	2016-09-23T16:26:57Z	fs: move stringToFlags() to lib/internal	3		
+7162	275871	true	closed	false	13		2016-06-05T16:54:03Z	2016-10-10T15:21:26Z	2016-09-23T16:26:57Z	fs: move stringToFlags() to lib/internal	3		
 7163	628445	false	closed	false	15		2016-06-05T18:53:46Z	2016-09-19T22:07:28Z	2016-09-19T22:07:28Z	`systemjs-plugin-babel` fails on `v6.2.0`	47		
 7165	696611	true	closed	false	36		2016-06-05T21:37:06Z	2016-10-06T21:32:26Z	2016-10-05T18:50:46Z	"fs: refactor ""options"" processing as a function"	86		
 7166	730640	true	open	false	3		2016-06-05T22:01:01Z	2016-09-15T22:22:44Z		doc: more detail on when timers are executed	61		
@@ -508,7 +508,7 @@
 7373	899444	true	closed	false	11		2016-06-22T21:56:07Z	2016-07-11T23:48:06Z	2016-06-25T03:58:34Z	vm: fix nested timeouts with inverse order + fix flaky test-vm-timeout	126		
 7374	275871	true	closed	false	6		2016-06-22T22:33:09Z	2016-07-11T21:17:56Z	2016-06-29T10:23:11Z	Coverity fixes, round one	7		
 7375	718899	true	closed	false	9		2016-06-22T23:25:18Z	2016-07-12T03:02:35Z	2016-06-24T23:35:01Z	test: add test for exec() known issue	42		
-7376	205760	true	open	false			2016-06-22T23:51:37Z	2016-10-10T13:51:11Z		"Add test for HTTP client ""aborted"" event"	69		
+7376	205760	true	open	false	23		2016-06-22T23:51:37Z	2016-10-10T15:48:56Z		"Add test for HTTP client ""aborted"" event"	69		
 7377	718899	true	closed	false	4		2016-06-22T23:54:14Z	2016-06-30T23:07:02Z	2016-06-30T23:07:02Z	"Revert ""child_process: measure buffer length in bytes"""	100		
 7378	1386719	true	closed	false	8	2	2016-06-23T00:08:40Z	2016-06-27T15:29:28Z	2016-06-27T15:29:28Z	Http: Improve `finish()` callback and code legibility (Fixes #7295)	133		
 7379	170270	false	closed	false	12		2016-06-23T00:25:56Z	2016-09-30T18:37:30Z	2016-08-17T18:25:16Z	Readline keypress event is triggered only after pressing Esc key 3 times	110		
@@ -940,7 +940,7 @@
 7828	20170894	false	closed	false	14		2016-07-21T20:02:42Z	2016-07-22T05:48:58Z	2016-07-22T05:48:58Z	Support for null terminated strings with Buffer toString?	138		
 7829	1622515	true	closed	false	23		2016-07-21T22:46:42Z	2016-08-04T20:09:15Z	2016-08-04T20:09:15Z	repl: deprecate unused function convertToContext	34		
 7830	718899	true	closed	false	3		2016-07-22T00:19:49Z	2016-07-22T18:32:03Z	2016-07-22T18:32:03Z	tools: enforce loading required modules first	33		
-7831	696611	true	open	false	52		2016-07-22T03:58:02Z	2016-10-09T14:01:51Z		fs: don't alter user provided `options` object	52		
+7831	696611	true	closed	false	53		2016-07-22T03:58:02Z	2016-10-10T15:18:00Z	2016-10-09T14:09:31Z	fs: don't alter user provided `options` object	52		
 7832	96150	true	closed	false	11		2016-07-22T07:44:22Z	2016-09-30T22:04:04Z	2016-09-01T15:23:31Z	doc: Provide bad/better examples for access() and exists()	37		
 7833	101553	true	closed	false	18	0	2016-07-22T08:08:03Z	2016-08-03T06:19:34Z	2016-08-03T06:19:34Z	deps: cherry-pick a51f429 from V8 upstream 	36		
 7834	101553	true	open	false	12		2016-07-22T08:53:45Z	2016-08-03T15:27:58Z		deps: cherry-pick a51f429 from V8 upstream	38		
@@ -1486,7 +1486,7 @@
 8376	2081487	false	open	false	1		2016-09-02T04:52:16Z	2016-09-02T05:13:25Z		REPL not defined var has been declared	176		
 8377	1531427	false	open	false	0		2016-09-02T07:13:03Z	2016-09-02T08:06:23Z		Memory leak in DiffieHellman.set{Privat,Public}Key() and some suggestions	390		
 8378	1443911	true	open	false	1		2016-09-02T10:14:13Z	2016-09-24T21:12:41Z		doc: fix example in stream doc	54		
-8379	914122	false	open	false	24		2016-09-02T12:46:51Z	2016-09-03T14:12:41Z		Not helpful error message after upgrading Node	136		
+8379	914122	false	closed	false	24		2016-09-02T12:46:51Z	2016-10-10T15:57:48Z	2016-10-10T15:57:48Z	Not helpful error message after upgrading Node	136		
 8380	9373002	false	closed	false	11		2016-09-02T12:53:08Z	2016-09-02T19:05:20Z	2016-09-02T19:05:20Z	AIX: parallel/test-cluster-dgram-1 failures	207		
 8381	115237	false	open	false	6		2016-09-02T13:00:01Z	2016-09-02T16:38:50Z		http: support environment-defined proxy	98		
 8382	914122	false	open	false	11		2016-09-02T13:08:45Z	2016-09-02T15:49:22Z		yield/await support in repl/cli	75		
@@ -1498,7 +1498,7 @@
 8388	8884298	false	closed	false	21		2016-09-02T16:14:53Z	2016-09-13T23:30:24Z	2016-09-13T23:30:23Z	Node 6.5 fails when using --harmony-proxies flag	41		
 8389	439929	true	open	false	6		2016-09-02T17:16:42Z	2016-09-02T18:12:33Z		doc: update targos email in readme per request	32		
 8390	2719681	false	open	false	0		2016-09-02T17:42:50Z	2016-09-02T17:42:50Z		RegExp flags property bug - very simple, very dangerous	30		
-8391	439929	true	open	false			2016-09-02T18:57:35Z	2016-10-08T16:25:44Z		src: update module version mismatch error message	32		
+8391	439929	true	closed	false	15		2016-09-02T18:57:35Z	2016-10-10T15:58:11Z	2016-10-10T15:58:11Z	src: update module version mismatch error message	32		
 8392	115237	true	closed	false	4		2016-09-02T19:27:46Z	2016-09-14T15:24:34Z	2016-09-14T15:24:34Z	doc: add note regarding v8 options to ROADMAP	32		
 8393	16735925	false	closed	false	5		2016-09-02T19:43:08Z	2016-09-09T21:48:13Z	2016-09-09T21:48:13Z	Suggestion: Add lineNumber	45		
 8394	439929	true	closed	false	2		2016-09-02T20:27:08Z	2016-09-26T15:03:07Z	2016-09-26T15:03:07Z	process: fix handling of process.noDeprecation in emitWarning	51		
@@ -1575,7 +1575,7 @@
 8465	1037138	false	closed	false	8		2016-09-09T13:36:16Z	2016-09-13T13:08:49Z	2016-09-13T13:08:49Z	OSX: setting a custom DYLD_ env console logs undefined when run with child_process.spawn	135		
 8466	1093990	true	closed	false	8	0	2016-09-09T14:45:04Z	2016-09-15T20:48:13Z	2016-09-15T20:48:12Z	v6.6.0 proposal	89	1093990	2016-09-15T20:48:12Z
 8467	4336805	false	open	false	1		2016-09-09T17:01:23Z	2016-09-09T17:17:33Z		Crypto outputs different hashes for node v0.10.42 compared to newer versions	223		
-8468	439929	true	open	false	8		2016-09-09T17:37:56Z	2016-10-09T09:24:39Z		test: various test improvements	52		
+8468	439929	true	closed	false	9	4	2016-09-09T17:37:56Z	2016-10-10T15:55:10Z	2016-10-10T15:55:09Z	test: various test improvements	52		
 8469	101553	true	open	false	4		2016-09-09T19:15:08Z	2016-09-12T03:55:56Z		doc: fix example in repl documentation about context properties	56		
 8470	9373002	true	closed	false	5		2016-09-09T19:29:42Z	2016-09-12T14:02:28Z	2016-09-12T14:02:28Z	test: skip pseudo-tty/no_dropped_stdio test	77		
 8471	11976448	true	open	false	13		2016-09-09T20:44:26Z	2016-09-13T04:27:01Z		test: favor `===`  over  in `==` in http test	31		
@@ -1682,7 +1682,7 @@
 8572	718899	true	closed	false	29		2016-09-17T05:48:38Z	2016-09-22T05:49:35Z	2016-09-22T05:49:35Z	src: Malloc/Calloc size 0 returns non-null pointer	113		
 8573	7329402	false	closed	false	1		2016-09-17T06:00:43Z	2016-09-17T20:50:05Z	2016-09-17T20:50:05Z	Error While Installing From FreeBSD Port	246		
 8574	718899	true	closed	false	1		2016-09-17T06:12:35Z	2016-09-20T16:40:03Z	2016-09-20T16:40:03Z	tools: increase armv6 timeout	73		
-8575	2361826	true	closed	false	7		2016-09-17T08:05:56Z	2016-10-07T19:53:56Z	2016-10-07T19:53:56Z	module: Remove deprecated/unused function requireRepl. Part of #4642	34		
+8575	2361826	true	closed	false	8		2016-09-17T08:05:56Z	2016-10-10T15:20:03Z	2016-10-07T19:53:56Z	module: Remove deprecated/unused function requireRepl. Part of #4642	34		
 8576	1116738	true	open	false	20		2016-09-17T08:11:16Z	2016-09-25T01:08:29Z		module: NativeModule._cache turned to a Map	37		
 8577	125466	true	open	false	6		2016-09-17T08:30:43Z	2016-09-19T23:11:13Z		test: cleanup test-c-ares.js	50		
 8578	2361826	true	open	false	2		2016-09-17T08:32:01Z	2016-09-20T20:03:33Z		test: cleanup test-child-process-buffering	34		
@@ -1908,7 +1908,7 @@
 8798	579	false	open	false	30		2016-09-27T03:02:37Z	2016-10-04T07:16:26Z		Add Locki to API documentation	65		
 8799	6354455	true	open	false	1		2016-09-27T03:29:25Z	2016-09-30T16:13:05Z		adding test for _stream_writable.js needDrain state	54		
 8800	1935767	true	closed	false	8	0	2016-09-27T03:46:29Z	2016-09-30T02:06:54Z	2016-09-30T02:06:54Z	dns: improve makeAsync internally by removing unneeded vaiable.	61	1935767	2016-09-30T02:06:54Z
-8801	6354455	true	open	false	9		2016-09-27T03:56:28Z	2016-09-29T22:34:19Z		stream: improving error msg for stream	77		
+8801	6354455	true	closed	false	12		2016-09-27T03:56:28Z	2016-10-10T15:20:48Z	2016-09-29T22:35:56Z	stream: improving error msg for stream	77		
 8802	718899	false	closed	false	15		2016-09-27T04:38:37Z	2016-10-06T21:35:07Z	2016-10-06T21:35:07Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-09-28	453		
 8803	1224527	false	closed	false	0		2016-09-27T05:48:12Z	2016-10-10T08:05:46Z	2016-10-10T08:05:46Z	tls.TLSSocket does not emit error event on handshake failure	117		
 8804	718899	false	open	false	1		2016-09-27T07:21:29Z	2016-09-29T12:00:26Z		investigate flaky inspector/test-inspector on Windows	141		
@@ -2065,9 +2065,9 @@
 8955	3758485	false	closed	false	6		2016-10-06T09:06:12Z	2016-10-06T18:51:35Z	2016-10-06T16:14:03Z	Streams memory leak	540		
 8956	495647	true	open	false	2		2016-10-06T10:23:16Z	2016-10-06T14:36:00Z		src: bump version to v8.0.0 for master	106		
 8957	11734962	true	open	false	0	0	2016-10-06T15:14:28Z	2016-10-06T15:14:28Z		"readline : corrected ""concievably"" spelling"	9		
-8958	2512748	true	open	false	1		2016-10-06T17:33:25Z	2016-10-10T14:35:46Z		test: add cluster inspector debug port test	60		
+8958	2512748	true	closed	false	1	0	2016-10-06T17:33:25Z	2016-10-10T15:38:41Z	2016-10-10T15:38:41Z	test: add cluster inspector debug port test	60	2512748	2016-10-10T15:38:41Z
 8959	238531	true	open	false	0	0	2016-10-06T17:38:13Z	2016-10-06T17:38:13Z		tls: introduce `secureContext` for `tls.connect`	71		
-8960	2512748	true	open	false	1		2016-10-06T19:54:26Z	2016-10-10T14:40:17Z		test: add coverage for spawnSync() killSignal	64		
+8960	2512748	true	open	false	1		2016-10-06T19:54:26Z	2016-10-10T15:25:18Z		test: add coverage for spawnSync() killSignal	64		
 8961	718899	true	open	false	14		2016-10-07T00:28:26Z	2016-10-07T18:14:21Z		timers: improve linked list performance	101		
 8962	22550884	true	open	false	4		2016-10-07T03:36:42Z	2016-10-08T15:27:27Z		test-debugger-pid: assert.ok() by assert.strictEqual()	24		
 8963	20573460	false	closed	false	5		2016-10-07T03:56:29Z	2016-10-07T06:21:00Z	2016-10-07T06:21:00Z	after compilation of node source I can open the file as a zip. Is there a way to prevent  that  ?	6		
@@ -2096,20 +2096,21 @@
 8986	11734962	true	closed	false	2	0	2016-10-08T19:54:55Z	2016-10-09T14:51:41Z	2016-10-09T14:51:41Z	doc: response body in http module	42		
 8987	91933	false	open	false	5		2016-10-09T00:03:49Z	2016-10-09T19:34:24Z		ENOENT thrown when trying to create a file with an invalid filename	70		
 8988	7656167	true	open	false			2016-10-09T09:45:30Z	2016-10-09T18:16:07Z		lib: update outdated comment	29		
-8989	5794547	true	open	false	0	0	2016-10-09T13:07:03Z	2016-10-09T13:07:03Z		src: fix typo in #endif comment	46		
+8989	5794547	true	open	false	2		2016-10-09T13:07:03Z	2016-10-10T15:32:17Z		src: fix typo in #endif comment	46		
 8990	696611	true	open	false	3		2016-10-09T14:30:15Z	2016-10-09T21:37:47Z		build: make node-gyp output silent	58		
 8991	11734962	true	open	false			2016-10-09T14:51:16Z	2016-10-10T05:58:11Z		doc: add url.resolve() method's behaviour	38		
 8992	11734962	true	open	false	0	0	2016-10-09T15:08:55Z	2016-10-09T15:08:55Z		doc: special cases in http module response body	40		
 8993	103052	true	open	false			2016-10-09T17:18:24Z	2016-10-09T22:43:29Z		crypto: naming anonymouse functions	37		
-8994	899444	true	open	false	5		2016-10-09T17:24:11Z	2016-10-09T19:20:07Z		module: allow but deprecate loading internals (in case it’s necessary)	109		
+8994	899444	true	open	false	5		2016-10-09T17:24:11Z	2016-10-10T15:38:13Z		module: allow but deprecate loading internals (in case it’s necessary)	109		
 8995	21203	true	open	false	1		2016-10-09T18:52:49Z	2016-10-09T21:30:35Z		crypto: use SSL_get_SSL_CTX.	86		
 8996	11734962	true	open	false	1		2016-10-09T18:54:20Z	2016-10-09T21:31:21Z		doc: net.Socket in TLSSocket	52		
 8997	154748	false	open	false	0		2016-10-09T19:49:13Z	2016-10-09T19:49:13Z		Occasional infinite loop in previously working code path in 6.5+	236		
 8998	2438449	false	closed	false	2		2016-10-09T20:38:32Z	2016-10-10T11:53:14Z	2016-10-10T11:53:14Z	node debug goes to sleep after setting breakpoint in not-yet-loaded script?	314		
 8999	5351085	true	open	false	1		2016-10-10T05:31:36Z	2016-10-10T10:05:40Z		Make tests more clear	26		
-9000	432351	true	open	false	0	0	2016-10-10T06:13:49Z	2016-10-10T06:13:49Z		src: remove out-of-date TODO comment	114		
+9000	432351	true	open	false	2		2016-10-10T06:13:49Z	2016-10-10T15:44:52Z		src: remove out-of-date TODO comment	114		
 9001	101553	false	open	false	0		2016-10-10T07:20:34Z	2016-10-10T07:20:34Z		Outdated variable name in comment	13		
 9002	2329683	false	open	false	2		2016-10-10T07:43:22Z	2016-10-10T10:37:57Z		Stream not emitting end after removeListener	169		
 9003	5007624	false	open	false	0		2016-10-10T08:39:24Z	2016-10-10T08:39:24Z		TypeError: EventEmitter, setMaxListeners, Symbol	130		
 9004	7888082	true	open	false	4		2016-10-10T10:35:22Z	2016-10-10T13:42:14Z		fix:events.js has a clerical error	9		
-9005	5002453	false	open	false	1		2016-10-10T13:50:50Z	2016-10-10T14:10:31Z		openssl list-public-key-algorithms on crypto docs	96		
+9005	5002453	false	open	false	2		2016-10-10T13:50:50Z	2016-10-10T15:47:04Z		openssl list-public-key-algorithms on crypto docs	96		
+9006	935710	false	open	false	0		2016-10-10T15:20:33Z	2016-10-10T15:20:33Z		buffer.length performance regressed in 6.5.0	59		
