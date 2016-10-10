@@ -142,6 +142,7 @@
 4236	10103531	false	open	false	8		2015-12-11T01:18:07Z	2016-07-13T03:34:14Z		child_process.spawn() has undocumented 200kb buffer limit	74		
 4243	524382	true	closed	false	10	0	2015-12-11T17:36:12Z	2016-08-19T15:09:25Z	2016-08-19T15:09:25Z	src: use thread defaults provided by v8::platform	73		
 4246	238531	true	closed	false	15		2015-12-11T20:52:00Z	2016-10-04T11:07:51Z	2015-12-12T00:54:07Z	tls: introduce `secureContext` for `tls.connect`	18		
+4249	855219	true	open	false	2		2015-12-12T00:13:11Z	2016-10-10T18:42:57Z		Proposing a Global WG.	13		
 4253	855219	true	closed	false	19		2015-12-12T01:21:25Z	2016-10-10T16:51:08Z	2016-05-04T22:07:05Z	nodejs/node#3111 - v8BreakIterator disablement	6		
 4266	1470592	false	open	false	16		2015-12-14T00:40:39Z	2016-10-06T17:07:34Z		buffer.toString fails for buffers larger than 192MB	95		
 4270	495647	false	open	false	22		2015-12-14T10:06:18Z	2016-09-23T18:35:10Z		Discussion: OpenSSL 1.1.0 planning	297		
@@ -431,7 +432,7 @@
 7182	173559	true	open	false	37		2016-06-06T19:53:51Z	2016-10-10T14:14:08Z		Update inspector ready message to be vendor agnostic	240		
 7183	110455	true	closed	false			2016-06-06T23:33:10Z	2016-08-08T16:17:23Z	2016-08-05T20:51:27Z	"doc: clarify ""Reviewed-By"" iff ""LGTM"""	51		
 7186	5177920	true	open	false	2		2016-06-07T02:43:18Z	2016-09-21T16:02:57Z		test: http request - url.parse	60		
-7189	2785744	true	open	false	29		2016-06-07T09:50:34Z	2016-10-10T17:04:25Z		"doc: Highlight deprecated API components in ""Table of Contents"""	29		
+7189	2785744	true	open	false	31		2016-06-07T09:50:34Z	2016-10-10T18:02:39Z		"doc: Highlight deprecated API components in ""Table of Contents"""	29		
 7191	20188	false	open	false	7		2016-06-07T11:22:23Z	2016-09-23T18:04:59Z		many small writes to a stream causes memory leak	238		
 7192	791134	false	closed	false	13		2016-06-07T12:49:41Z	2016-08-12T11:14:32Z	2016-08-12T11:14:32Z	Windows standard user cannot run any node 6 js file on mapped path	170		
 7193	5140254	false	closed	false	2		2016-06-07T13:13:34Z	2016-07-26T08:46:00Z	2016-07-26T08:46:00Z	VCS Files With Colons Cause Errors Trying To Install	444		
@@ -994,7 +995,7 @@
 7880	2330987	false	open	false	11		2016-07-26T11:37:42Z	2016-08-04T12:28:17Z		Upgrade openssl sources to 1.0.2h broke npm install for me (behind proxy)	103		
 7881	718899	false	closed	false	17		2016-07-26T18:11:24Z	2016-08-05T22:02:22Z	2016-08-05T22:02:22Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-07-27	532		
 7882	127666	false	open	false	3		2016-07-26T19:07:04Z	2016-09-13T02:40:36Z		Stop the installer deleting my symlink for AppData\Roaming\npm	2		
-7883	1485909	true	open	false	10		2016-07-26T22:51:35Z	2016-10-07T16:42:51Z		deps: cherry-pick b93c80a from v8 upstream	56		
+7883	1485909	true	open	false	11		2016-07-26T22:51:35Z	2016-10-10T18:02:04Z		deps: cherry-pick b93c80a from v8 upstream	56		
 7884	6316590	true	open	false	5		2016-07-26T23:34:36Z	2016-08-10T04:57:54Z		doc: add missing windowsVerbatimArguments option in child_process.spawn	59		
 7885	634573	true	closed	false	10		2016-07-27T02:32:19Z	2016-07-29T16:15:54Z	2016-07-29T16:15:53Z	doc: remove extra space in console.log examples	51		
 7886	718899	true	open	false	7		2016-07-27T05:34:43Z	2016-07-29T05:08:01Z		test: speed up test-net-reconnect-error	86		
@@ -1149,7 +1150,7 @@
 8036	446283	true	open	false	0	0	2016-08-09T20:17:43Z	2016-08-09T20:17:43Z		Avoid potential memory leak if realloc fails	437		
 8037	439929	true	open	false	1		2016-08-09T20:50:54Z	2016-08-09T22:11:08Z		doc: document vm module limitation with timeouts and async code	28		
 8038	4976075	true	closed	false	15		2016-08-09T21:30:44Z	2016-08-11T17:06:35Z	2016-08-11T16:40:30Z	Cherry pick 588e15c and c0d4bb8 from upstream V8	61		
-8039	899444	true	open	false	11		2016-08-09T22:47:32Z	2016-08-18T01:45:02Z		test: add an zlib binding addon test	71		
+8039	899444	true	closed	false	13		2016-08-09T22:47:32Z	2016-10-10T18:03:18Z	2016-08-18T01:45:26Z	test: add an zlib binding addon test	71		
 8040	11638619	true	closed	false	82		2016-08-09T23:32:06Z	2016-09-12T21:15:26Z	2016-08-20T02:38:11Z	Add crypto.timingSafeEqual()	68		
 8041	718899	false	open	false	3		2016-08-09T23:45:53Z	2016-09-22T21:41:11Z		Investigate flaky test-timers-blocking-callback	38		
 8042	3231296	false	closed	false	3		2016-08-10T01:22:11Z	2016-08-10T22:07:48Z	2016-08-10T11:56:32Z	VM: Add source mapping support	163		
@@ -2054,8 +2055,8 @@
 8942	101553	false	closed	false	0		2016-10-05T18:28:34Z	2016-10-06T21:46:17Z	2016-10-06T21:46:17Z	Examples in debugger documentation should all use global node	16		
 8943	13561163	true	open	false	6		2016-10-05T21:55:51Z	2016-10-06T21:09:11Z		doc:  ./node to node in debugger.md	25		
 8944	12266954	false	closed	false	6		2016-10-05T22:46:33Z	2016-10-06T11:00:38Z	2016-10-06T11:00:38Z	Cannot communicate to web app powered by Node 4.6 from Windows Server 2003 using HTTPS	160		
-8945	718899	true	open	false	3		2016-10-06T03:59:22Z	2016-10-07T02:32:13Z		governance: expand use of CTC issue tracker	68		
-8946	54666	true	open	false	9		2016-10-06T05:37:52Z	2016-10-10T17:51:06Z		buffer: make byteLength throw on invalid input	126		
+8945	718899	true	open	false	3		2016-10-06T03:59:22Z	2016-10-10T18:03:32Z		governance: expand use of CTC issue tracker	68		
+8946	54666	true	open	false	12		2016-10-06T05:37:52Z	2016-10-10T18:47:29Z		buffer: make byteLength throw on invalid input	126		
 8947	22473522	false	open	false	1		2016-10-06T05:44:29Z	2016-10-06T06:01:54Z		How to read memory stream of a pdf and open it	163		
 8948	54666	true	open	false			2016-10-06T05:45:14Z	2016-10-07T18:10:44Z		deps: revert default gtest reporter change	71		
 8949	54666	false	open	false	5		2016-10-06T05:59:24Z	2016-10-07T19:18:46Z		Investigate flaky tests on FreeBSD	144		
@@ -2069,7 +2070,7 @@
 8957	11734962	true	open	false	0	0	2016-10-06T15:14:28Z	2016-10-06T15:14:28Z		"readline : corrected ""concievably"" spelling"	9		
 8958	2512748	true	closed	false	1	0	2016-10-06T17:33:25Z	2016-10-10T15:38:41Z	2016-10-10T15:38:41Z	test: add cluster inspector debug port test	60	2512748	2016-10-10T15:38:41Z
 8959	238531	true	open	false	0	0	2016-10-06T17:38:13Z	2016-10-06T17:38:13Z		tls: introduce `secureContext` for `tls.connect`	71		
-8960	2512748	true	open	false	3		2016-10-06T19:54:26Z	2016-10-10T17:36:12Z		test: add coverage for spawnSync() killSignal	64		
+8960	2512748	true	closed	false	3	1	2016-10-06T19:54:26Z	2016-10-10T18:34:25Z	2016-10-10T18:34:25Z	test: add coverage for spawnSync() killSignal	64	2512748	2016-10-10T18:34:25Z
 8961	718899	true	open	false	14		2016-10-07T00:28:26Z	2016-10-07T18:14:21Z		timers: improve linked list performance	101		
 8962	22550884	true	closed	false	5	11	2016-10-07T03:36:42Z	2016-10-10T16:59:09Z	2016-10-10T16:59:09Z	test-debugger-pid: assert.ok() by assert.strictEqual()	24		
 8963	20573460	false	closed	false	5		2016-10-07T03:56:29Z	2016-10-07T06:21:00Z	2016-10-07T06:21:00Z	after compilation of node source I can open the file as a zip. Is there a way to prevent  that  ?	6		
@@ -2102,7 +2103,7 @@
 8990	696611	true	open	false	3		2016-10-09T14:30:15Z	2016-10-09T21:37:47Z		build: make node-gyp output silent	58		
 8991	11734962	true	open	false			2016-10-09T14:51:16Z	2016-10-10T05:58:11Z		doc: add url.resolve() method's behaviour	38		
 8992	11734962	true	open	false	0	0	2016-10-09T15:08:55Z	2016-10-09T15:08:55Z		doc: special cases in http module response body	40		
-8993	103052	true	open	false			2016-10-09T17:18:24Z	2016-10-09T22:43:29Z		crypto: naming anonymouse functions	37		
+8993	103052	true	open	false	5		2016-10-09T17:18:24Z	2016-10-10T18:37:24Z		crypto: naming anonymouse functions	37		
 8994	899444	true	open	false	5		2016-10-09T17:24:11Z	2016-10-10T15:38:13Z		module: allow but deprecate loading internals (in case it’s necessary)	109		
 8995	21203	true	open	false	1		2016-10-09T18:52:49Z	2016-10-09T21:30:35Z		crypto: use SSL_get_SSL_CTX.	86		
 8996	11734962	true	open	false	1		2016-10-09T18:54:20Z	2016-10-09T21:31:21Z		doc: net.Socket in TLSSocket	52		
@@ -2114,8 +2115,8 @@
 9002	2329683	false	open	false	2		2016-10-10T07:43:22Z	2016-10-10T10:37:57Z		Stream not emitting end after removeListener	169		
 9003	5007624	false	open	false	0		2016-10-10T08:39:24Z	2016-10-10T08:39:24Z		TypeError: EventEmitter, setMaxListeners, Symbol	130		
 9004	7888082	true	open	false	4		2016-10-10T10:35:22Z	2016-10-10T13:42:14Z		fix:events.js has a clerical error	9		
-9005	5002453	false	open	false	3		2016-10-10T13:50:50Z	2016-10-10T17:42:26Z		openssl list-public-key-algorithms on crypto docs	96		
-9006	935710	false	open	false	0		2016-10-10T15:20:33Z	2016-10-10T15:20:33Z		buffer.length performance regressed in 6.5.0	59		
+9005	5002453	false	open	false	4		2016-10-10T13:50:50Z	2016-10-10T18:12:51Z		openssl list-public-key-algorithms on crypto docs	96		
+9006	935710	false	open	false	2		2016-10-10T15:20:33Z	2016-10-10T18:28:32Z		buffer.length performance regressed in 6.5.0	59		
 9007	1141042	true	open	false	0	0	2016-10-10T16:35:59Z	2016-10-10T16:35:59Z		doc: errno is a number, not a string	95		
 9008	855219	true	open	false	2		2016-10-10T16:48:08Z	2016-10-10T17:01:03Z		intl: (v4.x) Don't crash if v8BreakIterator not available	61		
 9009	15943089	true	open	false	0	0	2016-10-10T17:02:31Z	2016-10-10T17:02:31Z		Add platform specific teams to onboarding-extras	151		
