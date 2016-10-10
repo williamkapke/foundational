@@ -396,7 +396,7 @@
 7060	49318	false	closed	false	2		2016-05-30T09:11:28Z	2016-07-05T16:17:08Z	2016-07-05T16:17:08Z	"Will node.js be adapted to work with the new Windows Bash ""subsystem for Linux"" ?"	112		
 7061	6330334	false	closed	false	2		2016-05-30T11:37:48Z	2016-07-13T15:52:22Z	2016-07-13T15:52:22Z	Crashes when UDP/dgram socket is closed during listening event handler	391		
 7064	15861995	false	closed	false	4		2016-05-30T15:43:15Z	2016-07-05T16:14:44Z	2016-07-05T16:14:44Z	Spawn process exit code: 3221225794	75		
-7066	52195	true	closed	false	8		2016-05-30T16:34:42Z	2016-10-10T16:32:52Z	2016-07-13T15:52:06Z	dgram: generalized send queue to handle close	62		
+7066	52195	true	closed	false	9		2016-05-30T16:34:42Z	2016-10-10T20:15:20Z	2016-07-13T15:52:06Z	dgram: generalized send queue to handle close	62		
 7068	696611	true	closed	false	9		2016-05-30T18:19:59Z	2016-07-12T16:48:00Z	2016-06-04T11:03:11Z	fs: execute mkdtemp's callback with no context	111		
 7072	495647	false	open	false	24		2016-05-31T03:52:31Z	2016-08-10T13:15:06Z		Decision to leave v8_inspector support for v6 LTS	305		
 7075	134460	true	open	false	10		2016-05-31T11:49:54Z	2016-07-08T00:23:54Z		Backport for v4.x: win,build: add creation of zip and 7z package	85		
@@ -432,7 +432,7 @@
 7182	173559	true	open	false	37		2016-06-06T19:53:51Z	2016-10-10T14:14:08Z		Update inspector ready message to be vendor agnostic	240		
 7183	110455	true	closed	false			2016-06-06T23:33:10Z	2016-08-08T16:17:23Z	2016-08-05T20:51:27Z	"doc: clarify ""Reviewed-By"" iff ""LGTM"""	51		
 7186	5177920	true	open	false	2		2016-06-07T02:43:18Z	2016-09-21T16:02:57Z		test: http request - url.parse	60		
-7189	2785744	true	open	false	31		2016-06-07T09:50:34Z	2016-10-10T18:02:39Z		"doc: Highlight deprecated API components in ""Table of Contents"""	29		
+7189	2785744	true	open	false			2016-06-07T09:50:34Z	2016-10-10T20:23:26Z		"doc: Highlight deprecated API components in ""Table of Contents"""	29		
 7191	20188	false	open	false	7		2016-06-07T11:22:23Z	2016-09-23T18:04:59Z		many small writes to a stream causes memory leak	238		
 7192	791134	false	closed	false	13		2016-06-07T12:49:41Z	2016-08-12T11:14:32Z	2016-08-12T11:14:32Z	Windows standard user cannot run any node 6 js file on mapped path	170		
 7193	5140254	false	closed	false	2		2016-06-07T13:13:34Z	2016-07-26T08:46:00Z	2016-07-26T08:46:00Z	VCS Files With Colons Cause Errors Trying To Install	444		
@@ -2056,9 +2056,9 @@
 8943	13561163	true	open	false	6		2016-10-05T21:55:51Z	2016-10-06T21:09:11Z		doc:  ./node to node in debugger.md	25		
 8944	12266954	false	closed	false	6		2016-10-05T22:46:33Z	2016-10-06T11:00:38Z	2016-10-06T11:00:38Z	Cannot communicate to web app powered by Node 4.6 from Windows Server 2003 using HTTPS	160		
 8945	718899	true	open	false	3		2016-10-06T03:59:22Z	2016-10-10T18:03:32Z		governance: expand use of CTC issue tracker	68		
-8946	54666	true	open	false	13		2016-10-06T05:37:52Z	2016-10-10T19:08:13Z		buffer: make byteLength throw on invalid input	126		
+8946	54666	true	closed	false	14		2016-10-06T05:37:52Z	2016-10-10T20:03:30Z	2016-10-10T20:03:30Z	buffer: make byteLength throw on invalid input	126		
 8947	22473522	false	open	false	1		2016-10-06T05:44:29Z	2016-10-06T06:01:54Z		How to read memory stream of a pdf and open it	163		
-8948	54666	true	open	false			2016-10-06T05:45:14Z	2016-10-07T18:10:44Z		deps: revert default gtest reporter change	71		
+8948	54666	true	open	false	15		2016-10-06T05:45:14Z	2016-10-10T20:58:36Z		deps: revert default gtest reporter change	71		
 8949	54666	false	open	false	5		2016-10-06T05:59:24Z	2016-10-07T19:18:46Z		Investigate flaky tests on FreeBSD	144		
 8950	54666	false	closed	false	5		2016-10-06T06:04:36Z	2016-10-08T07:18:46Z	2016-10-08T07:18:46Z	Investigate flaky parallel/test-child-process-fork-regr-gh-2847	72		
 8951	101553	false	closed	false	0		2016-10-06T06:51:35Z	2016-10-06T16:31:15Z	2016-10-06T16:31:15Z	Typo in comment in readline.js	5		
@@ -2088,7 +2088,7 @@
 8975	2148448	false	open	false	2		2016-10-07T19:55:09Z	2016-10-08T00:29:02Z		child_process.exec fails non-deterministically	339		
 8976	11976448	true	open	false	2		2016-10-07T20:12:59Z	2016-10-08T15:52:45Z		test: expand test coverage for url.js	67		
 8977	439929	false	open	false	2		2016-10-07T21:04:35Z	2016-10-10T04:05:44Z		meta: npm v4 tracking issue	66		
-8978	4421720	true	open	false	4		2016-10-07T23:05:27Z	2016-10-08T00:03:28Z		inspector,doc: update hint text, add guide [WIP]	99		
+8978	4421720	true	open	false			2016-10-07T23:05:27Z	2016-10-10T20:37:49Z		inspector,doc: update hint text, add guide [WIP]	99		
 8979	4421720	true	open	false	0	0	2016-10-07T23:07:40Z	2016-10-07T23:07:40Z		inspector: add --inspect-brk flag	74		
 8980	11976448	true	closed	false	6		2016-10-08T00:13:30Z	2016-10-10T17:45:17Z	2016-10-10T17:45:17Z	test: refactor  `assert`  in internet  test-dns.js	43		
 8981	7408949	false	open	false	0		2016-10-08T06:09:00Z	2016-10-08T06:09:00Z		test-dgram-membership failed assertion error.	38		
@@ -2112,14 +2112,14 @@
 8999	5351085	true	open	false	1		2016-10-10T05:31:36Z	2016-10-10T10:05:40Z		Make tests more clear	26		
 9000	432351	true	open	false	2		2016-10-10T06:13:49Z	2016-10-10T15:44:52Z		src: remove out-of-date TODO comment	114		
 9001	101553	false	open	false	0		2016-10-10T07:20:34Z	2016-10-10T07:20:34Z		Outdated variable name in comment	13		
-9002	2329683	false	open	false	2		2016-10-10T07:43:22Z	2016-10-10T10:37:57Z		Stream not emitting end after removeListener	169		
+9002	2329683	false	open	false	3		2016-10-10T07:43:22Z	2016-10-10T20:12:35Z		Stream not emitting end after removeListener	169		
 9003	5007624	false	open	false	0		2016-10-10T08:39:24Z	2016-10-10T08:39:24Z		TypeError: EventEmitter, setMaxListeners, Symbol	130		
 9004	7888082	true	open	false	4		2016-10-10T10:35:22Z	2016-10-10T13:42:14Z		fix:events.js has a clerical error	9		
-9005	5002453	false	open	false	4		2016-10-10T13:50:50Z	2016-10-10T18:12:51Z		openssl list-public-key-algorithms on crypto docs	96		
+9005	5002453	false	open	false	7		2016-10-10T13:50:50Z	2016-10-10T20:32:54Z		openssl list-public-key-algorithms on crypto docs	96		
 9006	935710	false	open	false	2		2016-10-10T15:20:33Z	2016-10-10T18:28:32Z		buffer.length performance regressed in 6.5.0	59		
-9007	1141042	true	open	false	0	0	2016-10-10T16:35:59Z	2016-10-10T16:35:59Z		doc: errno is a number, not a string	95		
+9007	1141042	true	open	false			2016-10-10T16:35:59Z	2016-10-10T20:39:39Z		doc: errno is a number, not a string	93		
 9008	855219	true	open	false	2		2016-10-10T16:48:08Z	2016-10-10T17:01:03Z		intl: (v4.x) Don't crash if v8BreakIterator not available	61		
 9009	15943089	true	open	false	0	0	2016-10-10T17:02:31Z	2016-10-10T17:02:31Z		Add platform specific teams to onboarding-extras	151		
 9010	677994	true	open	false	0	0	2016-10-10T17:07:38Z	2016-10-10T17:07:38Z		http: improve invalid character in header error message	65		
 9011	22550884	true	open	false	0	0	2016-10-10T17:10:34Z	2016-10-10T17:10:34Z		test-debugger-pid: Somes fixes that do not change performance	18		
-9012	4400726	false	open	false	0		2016-10-10T19:50:52Z	2016-10-10T19:50:52Z		What makes a Socket idle?	98		
+9012	4400726	false	open	false	2		2016-10-10T19:50:52Z	2016-10-10T20:08:03Z		What makes a Socket idle?	124		
