@@ -464,7 +464,7 @@
 7257	939420	true	open	false	10		2016-06-10T08:25:54Z	2016-07-04T19:23:21Z		Add two child-process stdio flush tests	68		
 7261	631951	false	open	false	1		2016-06-10T09:36:06Z	2016-07-22T10:04:27Z		V8 crash on Windows Server 2012 x64 running on CPU with AVX support	107		
 7262	275871	true	closed	false	9		2016-06-10T09:42:23Z	2016-07-12T10:28:55Z	2016-06-13T10:56:36Z	src: fix erroneous fallthrough in ParseEncoding()	28		
-7266	79017	false	open	false	15		2016-06-10T15:28:10Z	2016-09-30T00:09:48Z		Port the CLI debugger to use the v8 inspector protocol	149		
+7266	79017	false	open	false	17		2016-06-10T15:28:10Z	2016-10-10T23:17:51Z		Port the CLI debugger to use the v8 inspector protocol	149		
 7267	81942	true	closed	false	12		2016-06-10T16:43:18Z	2016-07-12T16:55:46Z	2016-06-17T15:05:02Z	punycode: update to v2.0.0	17		
 7269	11139560	false	closed	false	4		2016-06-10T22:36:13Z	2016-07-06T16:02:08Z	2016-07-06T16:02:08Z	node docs issue in child_process	112		
 7271	287917	true	closed	false	14	22	2016-06-11T00:49:13Z	2016-07-15T00:03:42Z	2016-07-15T00:03:42Z	inspector: Put connect and disconnect events into message queue	63		
@@ -1113,7 +1113,7 @@
 7999	718899	true	closed	false	13	0	2016-08-06T19:15:39Z	2016-08-10T04:20:17Z	2016-08-10T04:20:17Z	tools: enable linting for chained properties	45		
 8000	718899	true	closed	false	11		2016-08-06T20:04:43Z	2016-08-09T21:42:39Z	2016-08-09T21:42:39Z	benchmark: favor === over ==	32		
 8001	121766	false	closed	false	1		2016-08-06T23:18:50Z	2016-08-09T18:44:47Z	2016-08-09T18:44:47Z	assert: deepEqual/deepStrictEqual throws on equivalent typed arrays	272		
-8002	121766	true	closed	false	14		2016-08-06T23:38:49Z	2016-10-10T22:44:34Z	2016-08-09T18:45:13Z	assert: Fix deepEqual/deepStrictEqual on equivalent typed arrays	58		
+8002	121766	true	closed	false	15		2016-08-06T23:38:49Z	2016-10-10T23:23:48Z	2016-08-09T18:45:13Z	assert: Fix deepEqual/deepStrictEqual on equivalent typed arrays	58		
 8003	718899	true	open	false	8		2016-08-07T04:54:19Z	2016-08-10T06:41:28Z		test: console constructor missing new keyword	61		
 8004	17554836	false	closed	false	6		2016-08-07T05:32:54Z	2016-09-01T16:02:17Z	2016-08-12T14:53:54Z	webpack/http-proxy-middleware/http-proxy/agent/keep-alive/_stream_writable:361:3 exception: cb is not a function	230		
 8005	1443911	true	closed	false	7		2016-08-07T10:06:44Z	2016-08-09T18:39:18Z	2016-08-09T18:39:18Z	doc: fix typo in vm.runInNewContext() description	31		
@@ -1239,7 +1239,7 @@
 8125	718899	false	closed	false	10		2016-08-16T17:36:26Z	2016-08-26T20:00:20Z	2016-08-26T20:00:20Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-17	482		
 8126	1981088	true	open	false	12		2016-08-16T18:32:22Z	2016-08-18T16:49:44Z		Update release announcement instruction for Twitter	86		
 8127	20412432	false	closed	false	5		2016-08-16T19:39:05Z	2016-08-24T12:27:26Z	2016-08-22T21:19:41Z	Change between Node 6.3.1 and 6.4 regarding writing strings of length 0 to a Buffer	88		
-8128	718899	true	closed	false	12		2016-08-16T21:20:56Z	2016-08-18T21:42:22Z	2016-08-18T21:42:22Z	build: do not lint src dir for JS errors	49		
+8128	718899	true	closed	false	13		2016-08-16T21:20:56Z	2016-10-10T23:04:20Z	2016-08-18T21:42:22Z	build: do not lint src dir for JS errors	49		
 8129	718899	true	closed	false	6		2016-08-16T22:10:23Z	2016-08-18T22:17:28Z	2016-08-18T22:17:28Z	test: fix assertion in test-watch-file.js	69		
 8130	718899	true	closed	false	4	0	2016-08-16T22:34:25Z	2016-08-18T22:42:17Z	2016-08-18T22:42:17Z	test: favor strict equality check	40		
 8131	718899	true	closed	false	7	0	2016-08-16T22:44:00Z	2016-08-18T22:44:23Z	2016-08-18T22:44:23Z	test: favor `===` over `==` in test-timers.js	38		
@@ -1318,7 +1318,7 @@
 8204	1935767	true	closed	false	18		2016-08-21T05:23:25Z	2016-08-30T20:24:30Z	2016-08-30T20:24:30Z	node_main: use ERROR_EXE_MACHINE_TYPE_MISMATCH instead 1 as exit code	65		
 8205	880513	false	closed	false	2		2016-08-21T08:07:31Z	2016-08-21T10:39:06Z	2016-08-21T08:12:47Z	dgram: lose UDP messages when sending a large number of messages at the same time	113		
 8206	1443911	true	closed	false	6		2016-08-21T09:12:33Z	2016-09-30T20:29:50Z	2016-08-23T18:33:57Z	doc: add `added:` information for util	27		
-8207	275871	true	closed	false	6		2016-08-21T11:26:52Z	2016-10-02T08:13:48Z	2016-08-23T19:16:37Z	src: clean up PER_ISOLATE_STRING_PROPERTIES	2		
+8207	275871	true	closed	false	6		2016-08-21T11:26:52Z	2016-10-10T23:22:03Z	2016-08-23T19:16:37Z	src: clean up PER_ISOLATE_STRING_PROPERTIES	2		
 8208	1347002	false	closed	false	4		2016-08-21T13:48:21Z	2016-09-28T05:23:31Z	2016-08-23T22:20:58Z	--inspect: chrome-devtools - nullptr 	68		
 8209	718899	false	closed	false	0		2016-08-21T14:31:34Z	2016-08-22T22:22:44Z	2016-08-22T22:22:44Z	investigate flaky sequential/test-child-process-pass-fd on SmartoS	741		
 8210	8208733	false	closed	false	2		2016-08-21T17:36:00Z	2016-08-21T19:02:20Z	2016-08-21T19:02:20Z	Cross compiling NodeJS for MIPS V8 requirements	65		
@@ -1349,7 +1349,7 @@
 8235	1408578	false	closed	false	7		2016-08-23T09:18:00Z	2016-08-26T14:18:31Z	2016-08-26T14:18:31Z	error http request at headers is array	94		
 8236	3524687	false	closed	false	3		2016-08-23T13:17:57Z	2016-09-04T16:51:51Z	2016-09-04T16:51:51Z	"crypto: getDecoder throws ""AssertionError: Cannot change encoding"" when encoding is ""ucs2"", ""ucs-2"" or ""utf-16le""."	129		
 8237	458614	false	closed	false	19		2016-08-23T13:51:18Z	2016-08-24T07:36:49Z	2016-08-23T19:27:07Z	process.cwd() casing inconsistent across platforms	180		
-8238	54666	true	closed	false	4	0	2016-08-23T17:58:09Z	2016-08-26T14:18:32Z	2016-08-26T14:18:32Z	http: fix connection upgrade checks	61	54666	2016-08-26T14:18:31Z
+8238	54666	true	closed	false	5		2016-08-23T17:58:09Z	2016-10-10T23:24:12Z	2016-08-26T14:18:32Z	http: fix connection upgrade checks	61		
 8239	9373002	false	closed	false	13		2016-08-23T18:00:34Z	2016-08-30T13:40:53Z	2016-08-30T13:40:53Z	test: intermittent failure running add-on tests on AIX	209		
 8240	3374946	true	closed	false	6		2016-08-23T18:08:27Z	2016-08-25T22:16:24Z	2016-08-25T05:26:31Z	doc: fix buf.readUIntBE, buf.readUIntLE examples	75		
 8241	1622515	true	closed	false	6		2016-08-23T18:52:25Z	2016-08-27T11:36:26Z	2016-08-27T11:36:26Z	repl: Auto alignment for .editor mode	82		
@@ -2055,7 +2055,7 @@
 8942	101553	false	closed	false	0		2016-10-05T18:28:34Z	2016-10-06T21:46:17Z	2016-10-06T21:46:17Z	Examples in debugger documentation should all use global node	16		
 8943	13561163	true	open	false	6		2016-10-05T21:55:51Z	2016-10-06T21:09:11Z		doc:  ./node to node in debugger.md	25		
 8944	12266954	false	closed	false	6		2016-10-05T22:46:33Z	2016-10-06T11:00:38Z	2016-10-06T11:00:38Z	Cannot communicate to web app powered by Node 4.6 from Windows Server 2003 using HTTPS	160		
-8945	718899	true	open	false	3		2016-10-06T03:59:22Z	2016-10-10T18:03:32Z		governance: expand use of CTC issue tracker	68		
+8945	718899	true	open	false	5		2016-10-06T03:59:22Z	2016-10-10T23:57:02Z		governance: expand use of CTC issue tracker	68		
 8946	54666	true	closed	false	14		2016-10-06T05:37:52Z	2016-10-10T20:03:30Z	2016-10-10T20:03:30Z	buffer: make byteLength throw on invalid input	126		
 8947	22473522	false	open	false	1		2016-10-06T05:44:29Z	2016-10-06T06:01:54Z		How to read memory stream of a pdf and open it	163		
 8948	54666	true	open	false	15		2016-10-06T05:45:14Z	2016-10-10T20:58:36Z		deps: revert default gtest reporter change	71		
@@ -2123,7 +2123,7 @@
 9010	677994	true	open	false	0	0	2016-10-10T17:07:38Z	2016-10-10T17:07:38Z		http: improve invalid character in header error message	65		
 9011	22550884	true	open	false	0	0	2016-10-10T17:10:34Z	2016-10-10T17:10:34Z		test-debugger-pid: Somes fixes that do not change performance	18		
 9012	4400726	false	open	false	2		2016-10-10T19:50:52Z	2016-10-10T20:08:03Z		What makes a Socket idle?	124		
-9013	498775	false	open	false	1		2016-10-10T21:35:43Z	2016-10-10T22:51:42Z		FreeBSD failures on v4.x	95		
+9013	498775	false	open	false	3		2016-10-10T21:35:43Z	2016-10-10T23:07:49Z		FreeBSD failures on v4.x	95		
 9014	498775	true	open	false	0	0	2016-10-10T22:09:07Z	2016-10-10T22:09:07Z		Backport src: fix handle leaks #7711	36		
 9015	1674289	false	open	false	0		2016-10-10T22:43:50Z	2016-10-10T22:43:50Z		seg	221		
 9016	498775	true	open	false	0	0	2016-10-10T22:56:01Z	2016-10-10T22:56:01Z		tls: copy the Buffer object before using (backport to v4.x)	39		
