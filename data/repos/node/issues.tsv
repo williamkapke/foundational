@@ -1418,7 +1418,7 @@
 8305	602462	true	closed	false	8		2016-08-27T22:37:24Z	2016-08-30T20:45:48Z	2016-08-30T20:45:48Z	test: cleanup test require symlink	54		
 8306	718899	true	closed	false	4		2016-08-28T03:45:38Z	2016-08-31T02:30:25Z	2016-08-31T02:30:25Z	test: add test for zlib.create*Raw()	63		
 8307	275871	false	open	false	1		2016-08-28T10:38:46Z	2016-08-28T22:58:14Z		module: node aborts when package.json is a directory	114		
-8308	275871	true	closed	false	5		2016-08-28T10:58:22Z	2016-10-11T02:12:23Z	2016-09-05T08:23:29Z	src: unbreak build when compiling against uclibc	43		
+8308	275871	true	closed	false	7		2016-08-28T10:58:22Z	2016-10-11T09:49:02Z	2016-09-05T08:23:29Z	src: unbreak build when compiling against uclibc	43		
 8309	6189009	false	open	false	8		2016-08-28T12:12:35Z	2016-08-29T04:02:24Z		Missing `new` in Set constructor makes variable defined using `let` unusable	100		
 8310	596741	false	open	false	50		2016-08-28T13:30:25Z	2016-09-20T18:15:13Z		Segmentation Fault	260		
 8311	696611	true	closed	false	11		2016-08-28T16:04:35Z	2016-09-13T23:42:42Z	2016-09-08T21:34:24Z	buffer: expose underlying buffer object always	86		
@@ -2101,12 +2101,12 @@
 8988	7656167	true	open	false			2016-10-09T09:45:30Z	2016-10-09T18:16:07Z		lib: update outdated comment	29		
 8989	5794547	true	open	false	2		2016-10-09T13:07:03Z	2016-10-10T15:32:17Z		src: fix typo in #endif comment	46		
 8990	696611	true	open	false	3		2016-10-09T14:30:15Z	2016-10-09T21:37:47Z		build: make node-gyp output silent	58		
-8991	11734962	true	open	false			2016-10-09T14:51:16Z	2016-10-10T05:58:11Z		doc: add url.resolve() method's behaviour	38		
+8991	11734962	true	open	false			2016-10-09T14:51:16Z	2016-10-11T09:01:58Z		doc: add url.resolve() method's behaviour	38		
 8992	11734962	true	open	false	0	0	2016-10-09T15:08:55Z	2016-10-09T15:08:55Z		doc: special cases in http module response body	40		
 8993	103052	true	open	false	5		2016-10-09T17:18:24Z	2016-10-10T18:37:24Z		crypto: naming anonymouse functions	37		
 8994	899444	true	open	false	5		2016-10-09T17:24:11Z	2016-10-10T15:38:13Z		module: allow but deprecate loading internals (in case it’s necessary)	109		
 8995	21203	true	open	false	1		2016-10-09T18:52:49Z	2016-10-09T21:30:35Z		crypto: use SSL_get_SSL_CTX.	86		
-8996	11734962	true	open	false	1		2016-10-09T18:54:20Z	2016-10-09T21:31:21Z		doc: net.Socket in TLSSocket	52		
+8996	11734962	true	open	false	2		2016-10-09T18:54:20Z	2016-10-11T09:35:46Z		doc: net.Socket in TLSSocket	52		
 8997	154748	false	open	false	0		2016-10-09T19:49:13Z	2016-10-09T19:49:13Z		Occasional infinite loop in previously working code path in 6.5+	236		
 8998	2438449	false	closed	false	2		2016-10-09T20:38:32Z	2016-10-10T11:53:14Z	2016-10-10T11:53:14Z	node debug goes to sleep after setting breakpoint in not-yet-loaded script?	314		
 8999	5351085	true	open	false			2016-10-10T05:31:36Z	2016-10-11T07:03:18Z		Make tests more clear	26		
@@ -2115,7 +2115,7 @@
 9002	2329683	false	open	false	3		2016-10-10T07:43:22Z	2016-10-10T20:12:35Z		Stream not emitting end after removeListener	169		
 9003	5007624	false	open	false	0		2016-10-10T08:39:24Z	2016-10-10T08:39:24Z		TypeError: EventEmitter, setMaxListeners, Symbol	130		
 9004	7888082	true	closed	false	5	0	2016-10-10T10:35:22Z	2016-10-11T08:51:12Z	2016-10-11T08:51:12Z	fix:events.js has a clerical error	9		
-9005	5002453	false	open	false	9		2016-10-10T13:50:50Z	2016-10-11T05:35:03Z		openssl list-public-key-algorithms on crypto docs	96		
+9005	5002453	false	open	false	10		2016-10-10T13:50:50Z	2016-10-11T09:45:10Z		openssl list-public-key-algorithms on crypto docs	96		
 9006	935710	false	open	false	4		2016-10-10T15:20:33Z	2016-10-11T08:31:37Z		buffer.length performance regressed in 6.5.0	59		
 9007	1141042	true	open	false	3		2016-10-10T16:35:59Z	2016-10-10T21:04:43Z		doc: errno is a number, not a string	93		
 9008	855219	true	open	false	2		2016-10-10T16:48:08Z	2016-10-10T17:01:03Z		intl: (v4.x) Don't crash if v8BreakIterator not available	61		
@@ -2125,12 +2125,12 @@
 9012	4400726	false	open	false	2		2016-10-10T19:50:52Z	2016-10-10T20:08:03Z		What makes a Socket idle?	124		
 9013	498775	false	open	false	3		2016-10-10T21:35:43Z	2016-10-10T23:07:49Z		FreeBSD failures on v4.x	95		
 9014	498775	true	open	false	0	0	2016-10-10T22:09:07Z	2016-10-10T22:09:07Z		Backport src: fix handle leaks #7711	36		
-9015	1674289	false	open	false	0		2016-10-10T22:43:50Z	2016-10-11T01:34:13Z		Segmentation fault using TLS after uprgrade to nodejs 6.7.0 / CentOS 7	221		
+9015	1674289	false	open	false	2		2016-10-10T22:43:50Z	2016-10-11T10:00:49Z		Segmentation fault using TLS after uprgrade to nodejs 6.7.0 / CentOS 7	221		
 9016	498775	true	open	false	0	0	2016-10-10T22:56:01Z	2016-10-10T22:56:01Z		tls: copy the Buffer object before using (backport to v4.x)	39		
 9017	996487	false	open	false	0		2016-10-11T00:54:44Z	2016-10-11T00:54:44Z		"Problematic process.argv with ""node -e"""	267		
 9018	8603093	false	open	false	0		2016-10-11T01:03:14Z	2016-10-11T01:03:14Z		Will read_cb be called immediately after alloc_cb for uv_read_start?	55		
 9019	592432	false	open	false	0		2016-10-11T03:52:51Z	2016-10-11T05:29:53Z		path.parse: result differs between Windows and macOS for Windows-style paths	92		
 9020	718899	false	open	false	1		2016-10-11T04:22:40Z	2016-10-11T05:37:04Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-10-12	482		
-9021	2908639	true	open	false			2016-10-11T05:22:10Z	2016-10-11T08:32:06Z		Fix https://github.com/nodejs/node/issues/9003 and add test	26		
+9021	2908639	true	open	false	5		2016-10-11T05:22:10Z	2016-10-11T09:41:58Z		Fix https://github.com/nodejs/node/issues/9003 and add test	26		
 9022	718899	true	open	false	0	0	2016-10-11T06:33:25Z	2016-10-11T06:33:25Z		test: move module out of fixture directory	113		
-9023	7273940	true	open	false	0	0	2016-10-11T08:20:37Z	2016-10-11T08:20:37Z		src: fix typo rval to value	54		
+9023	7273940	true	open	false	1		2016-10-11T08:20:37Z	2016-10-11T09:16:46Z		src: fix typo rval to value	54		
