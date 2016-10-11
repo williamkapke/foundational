@@ -259,6 +259,7 @@
 6274	275871	true	closed	false	35		2016-04-19T08:05:44Z	2016-08-08T20:24:50Z	2016-07-05T14:13:29Z	test: add openssl add-on test	60		
 6283	79017	false	open	false	5		2016-04-19T17:26:58Z	2016-10-03T16:04:23Z		node_contextify tracking issue	251		
 6286	238531	true	closed	false	13		2016-04-19T20:48:54Z	2016-07-13T17:11:25Z	2016-04-20T17:58:23Z	http: unref socket timer on parser execute	76		
+6291	54666	true	closed	false			2016-04-20T00:51:59Z	2016-10-11T17:03:10Z	2016-04-20T23:38:32Z	http: disallow sending obviously invalid status codes	41		
 6300	3899684	false	open	false	13		2016-04-20T13:03:08Z	2016-09-12T18:04:52Z		discuss: object serializer/deserializer + transferables	222		
 6301	2552507	false	closed	false	14		2016-04-20T13:18:10Z	2016-06-27T17:32:08Z	2016-06-27T17:32:07Z	Double-free in garbage collector in v5.10.1	1005		
 6306	498775	false	open	false	30		2016-04-20T17:15:56Z	2016-09-06T21:31:30Z		Introduce staging branch for stable release streams	131		
@@ -1020,7 +1021,7 @@
 7905	432351	true	closed	false	8		2016-07-28T08:22:25Z	2016-10-10T16:22:33Z	2016-09-23T05:40:53Z	src: removing unused StringValue macro parameters	62		
 7906	275871	true	closed	false	4	2	2016-07-28T10:36:15Z	2016-08-01T14:18:52Z	2016-08-01T14:18:52Z	src: avoid manual memory management in inspector	79		
 7907	275871	true	closed	false	5	0	2016-07-28T10:38:57Z	2016-08-02T06:37:06Z	2016-08-02T06:37:05Z	src: fix use-after-free in inspector agent	34		
-7908	101553	true	closed	false	16		2016-07-28T11:28:58Z	2016-10-11T08:39:27Z	2016-08-04T19:44:50Z	Do not copy value onto vm sandbox in strict mode	70		
+7908	101553	true	closed	false	19		2016-07-28T11:28:58Z	2016-10-11T17:04:22Z	2016-08-04T19:44:50Z	Do not copy value onto vm sandbox in strict mode	70		
 7909	9951818	false	open	false	0		2016-07-28T14:21:38Z	2016-07-28T14:21:38Z		How to get the source port (not destination) when doing client.send()	135		
 7910	1217455	false	closed	false	6		2016-07-28T14:48:28Z	2016-07-29T20:54:55Z	2016-07-29T20:54:55Z	Stream stops reading from kernel halfway through in http.IncomingMessage	365		
 7911	11440885	true	closed	false	5	0	2016-07-28T15:34:12Z	2016-07-29T05:19:52Z	2016-07-29T05:19:52Z	doc: typo added missing semicolons	14		
@@ -1807,7 +1808,7 @@
 8694	1456821	true	open	false	10		2016-09-21T13:30:34Z	2016-10-03T22:11:18Z		doc: Recommend using port 0 instead of common.PORT	55		
 8695	275871	true	closed	false	1	0	2016-09-21T16:41:21Z	2016-09-23T15:54:16Z	2016-09-23T15:54:16Z	test: enable cyrillic punycode test case	25		
 8696	287917	true	open	false	0	0	2016-09-21T17:01:19Z	2016-09-21T17:01:19Z		doc: add eugeneo to collaborators	28		
-8697	9373002	true	open	false	37		2016-09-21T18:38:04Z	2016-10-10T00:08:02Z		test: improve test-child-process-fork-dgram	110		
+8697	9373002	true	open	false	37		2016-09-21T18:38:04Z	2016-10-11T17:51:04Z		test: improve test-child-process-fork-dgram	110		
 8698	5498548	false	closed	false	2		2016-09-21T18:44:10Z	2016-09-21T20:14:14Z	2016-09-21T20:14:14Z	RPM Package signing key	83		
 8699	14127285	false	open	false	3		2016-09-21T18:53:09Z	2016-09-21T20:22:52Z		[Archlinux] Need help ! 	77		
 8700	718899	false	closed	false	2		2016-09-21T19:06:44Z	2016-09-23T23:02:04Z	2016-09-23T23:02:04Z	Investigate flaky test-cluster-worker-init on Raspberry Pi 1	31		
@@ -1956,7 +1957,7 @@
 8843	4739995	false	closed	false	1		2016-09-29T08:26:10Z	2016-10-06T06:05:32Z	2016-10-06T06:05:32Z	node doesn't execute JS script and exits silently 	195		
 8844	101553	true	closed	false	2		2016-09-29T08:28:40Z	2016-09-29T09:35:47Z	2016-09-29T08:31:00Z	[doc] use consistent style	48		
 8845	101553	true	open	false	5		2016-09-29T08:52:40Z	2016-09-30T15:26:42Z		doc: add example for running with v8-inspector	66		
-8846	3607926	false	open	false	14		2016-09-29T12:27:47Z	2016-10-09T02:15:49Z		v6.7.0 V8_inspector link does not work on macOS 10.12 Chrome 53	117		
+8846	3607926	false	open	false	15		2016-09-29T12:27:47Z	2016-10-11T17:04:27Z		v6.7.0 V8_inspector link does not work on macOS 10.12 Chrome 53	117		
 8847	9373002	false	open	false	6		2016-09-29T12:42:22Z	2016-10-06T06:30:48Z		AIX: hang on 4.x run 	74		
 8848	441346	true	closed	false	18		2016-09-29T16:03:44Z	2016-10-08T19:47:13Z	2016-10-06T22:20:03Z	test: run faster and cleanup after run	56		
 8849	739555	true	closed	false	12		2016-09-29T18:19:35Z	2016-10-06T23:50:29Z	2016-10-02T23:47:10Z	[CVE-2016-5180] ares_create_query: avoid single-byte buffer overwrite	46		
@@ -2103,7 +2104,7 @@
 8990	696611	true	open	false	3		2016-10-09T14:30:15Z	2016-10-09T21:37:47Z		build: make node-gyp output silent	58		
 8991	11734962	true	open	false			2016-10-09T14:51:16Z	2016-10-11T11:20:29Z		doc: add url.resolve() method's behaviour	38		
 8992	11734962	true	open	false	0	0	2016-10-09T15:08:55Z	2016-10-09T15:08:55Z		doc: special cases in http module response body	40		
-8993	103052	true	open	false	5		2016-10-09T17:18:24Z	2016-10-10T18:37:24Z		crypto: naming anonymouse functions	37		
+8993	103052	true	open	false	7		2016-10-09T17:18:24Z	2016-10-11T17:07:40Z		crypto: naming anonymouse functions	37		
 8994	899444	true	open	false	5		2016-10-09T17:24:11Z	2016-10-10T15:38:13Z		module: allow but deprecate loading internals (in case it’s necessary)	109		
 8995	21203	true	open	false	1		2016-10-09T18:52:49Z	2016-10-09T21:30:35Z		crypto: use SSL_get_SSL_CTX.	86		
 8996	11734962	true	open	false	4		2016-10-09T18:54:20Z	2016-10-11T12:04:02Z		doc: net.Socket in TLSSocket	52		
@@ -2111,7 +2112,7 @@
 8998	2438449	false	closed	false	2		2016-10-09T20:38:32Z	2016-10-10T11:53:14Z	2016-10-10T11:53:14Z	node debug goes to sleep after setting breakpoint in not-yet-loaded script?	314		
 8999	5351085	true	open	false			2016-10-10T05:31:36Z	2016-10-11T07:03:18Z		Make tests more clear	26		
 9000	432351	true	open	false	2		2016-10-10T06:13:49Z	2016-10-10T15:44:52Z		src: remove out-of-date TODO comment	114		
-9001	101553	false	open	false	2		2016-10-10T07:20:34Z	2016-10-11T07:48:44Z		Outdated variable name in comment	13		
+9001	101553	false	closed	false	2		2016-10-10T07:20:34Z	2016-10-11T17:02:23Z	2016-10-11T17:02:23Z	Outdated variable name in comment	13		
 9002	2329683	false	open	false	3		2016-10-10T07:43:22Z	2016-10-10T20:12:35Z		Stream not emitting end after removeListener	169		
 9003	5007624	false	open	false	0		2016-10-10T08:39:24Z	2016-10-10T08:39:24Z		TypeError: EventEmitter, setMaxListeners, Symbol	130		
 9004	7888082	true	closed	false	5	0	2016-10-10T10:35:22Z	2016-10-11T08:51:12Z	2016-10-11T08:51:12Z	fix:events.js has a clerical error	9		
@@ -2119,24 +2120,25 @@
 9006	935710	false	open	false	4		2016-10-10T15:20:33Z	2016-10-11T08:31:37Z		buffer.length performance regressed in 6.5.0	59		
 9007	1141042	true	open	false	3		2016-10-10T16:35:59Z	2016-10-10T21:04:43Z		doc: errno is a number, not a string	93		
 9008	855219	true	open	false	2		2016-10-10T16:48:08Z	2016-10-10T17:01:03Z		intl: (v4.x) Don't crash if v8BreakIterator not available	61		
-9009	15943089	true	open	false	6		2016-10-10T17:02:31Z	2016-10-11T15:55:17Z		Add platform specific teams to onboarding-extras	161		
+9009	15943089	true	open	false	6		2016-10-10T17:02:31Z	2016-10-11T17:58:30Z		Add platform specific teams to onboarding-extras	195		
 9010	677994	true	open	false	0	0	2016-10-10T17:07:38Z	2016-10-10T17:07:38Z		http: improve invalid character in header error message	65		
 9011	22550884	true	open	false	2		2016-10-10T17:10:34Z	2016-10-11T04:58:11Z		test-debugger-pid: Somes fixes that do not change performance	18		
 9012	4400726	false	open	false	2		2016-10-10T19:50:52Z	2016-10-10T20:08:03Z		What makes a Socket idle?	124		
 9013	498775	false	open	false	3		2016-10-10T21:35:43Z	2016-10-10T23:07:49Z		FreeBSD failures on v4.x	95		
-9014	498775	true	open	false	3		2016-10-10T22:09:07Z	2016-10-11T16:57:40Z		Backport src: fix handle leaks #7711	36		
+9014	498775	true	open	false	4		2016-10-10T22:09:07Z	2016-10-11T17:50:26Z		Backport src: fix handle leaks #7711	36		
 9015	1674289	false	open	false	3		2016-10-10T22:43:50Z	2016-10-11T10:51:46Z		Segmentation fault using TLS after uprgrade to nodejs 6.7.0 / CentOS 7	221		
-9016	498775	true	open	false			2016-10-10T22:56:01Z	2016-10-11T16:07:21Z		tls: copy the Buffer object before using (backport to v4.x)	39		
+9016	498775	true	closed	false	0	2	2016-10-10T22:56:01Z	2016-10-11T17:50:52Z	2016-10-11T17:50:52Z	tls: copy the Buffer object before using (backport to v4.x)	39	498775	2016-10-11T17:50:52Z
 9017	996487	false	open	false	0		2016-10-11T00:54:44Z	2016-10-11T00:54:44Z		"Problematic process.argv with ""node -e"""	267		
 9018	8603093	false	closed	false	1		2016-10-11T01:03:14Z	2016-10-11T14:52:01Z	2016-10-11T14:52:00Z	Will read_cb be called immediately after alloc_cb for uv_read_start?	55		
 9019	592432	false	open	false	0		2016-10-11T03:52:51Z	2016-10-11T05:29:53Z		path.parse: result differs between Windows and macOS for Windows-style paths	92		
 9020	718899	false	open	false	2		2016-10-11T04:22:40Z	2016-10-11T14:59:07Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-10-12	482		
-9021	2908639	true	open	false			2016-10-11T05:22:10Z	2016-10-11T14:43:09Z		events: fix TypeError in EventEmitter warning	26		
+9021	2908639	true	open	false	8		2016-10-11T05:22:10Z	2016-10-11T17:04:41Z		events: fix TypeError in EventEmitter warning	26		
 9022	718899	true	open	false	0	0	2016-10-11T06:33:25Z	2016-10-11T06:33:25Z		test: move module out of fixture directory	113		
-9023	7273940	true	open	false	4		2016-10-11T08:20:37Z	2016-10-11T12:04:37Z		src: fix typo rval to value	54		
+9023	7273940	true	closed	false	6		2016-10-11T08:20:37Z	2016-10-11T17:02:39Z	2016-10-11T17:02:39Z	src: fix typo rval to value	25		
 9024	5156221	false	closed	false	10		2016-10-11T12:50:52Z	2016-10-11T15:08:32Z	2016-10-11T14:39:05Z	require('crypto') & DES inconsistent	180		
 9025	627123	false	open	false	0		2016-10-11T13:04:48Z	2016-10-11T13:04:48Z		tls.createServer secureOptions	68		
-9026	13483453	true	open	false			2016-10-11T14:21:47Z	2016-10-11T16:31:11Z		doc: clarify relation between a file and a module	51		
+9026	13483453	true	open	false			2016-10-11T14:21:47Z	2016-10-11T17:57:56Z		doc: clarify relation between a file and a module	51		
 9027	114976	false	open	false	0		2016-10-11T15:52:08Z	2016-10-11T16:28:31Z		HTTP Server: incorrect error message if status code is set to a string (like ENOENT)	139		
 9028	287917	true	open	false	0	0	2016-10-11T16:39:50Z	2016-10-11T16:39:50Z		inspector: use final API	83		
-9029	1093990	true	open	false	0	0	2016-10-11T16:51:25Z	2016-10-11T16:51:25Z		test,benchmark: fix lint errors on v6.x	39		
+9029	1093990	true	open	false	1		2016-10-11T16:51:25Z	2016-10-11T17:45:38Z		test,benchmark: fix lint errors on v6.x	59		
+9030	899444	true	open	false	0	0	2016-10-11T17:31:41Z	2016-10-11T17:31:41Z		v6.x backport: fs: make `SyncWriteStream` inherit from `Writable`	99		
