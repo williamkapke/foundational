@@ -89,7 +89,7 @@
 3101	7358595	false	closed	false	11		2015-09-28T11:07:40Z	2016-09-26T13:20:14Z	2015-09-28T12:34:09Z	Destructuring Assignment doesn't work in node v 4.1.0 for me	52		
 3105	452298	false	closed	false	6		2015-09-28T17:02:34Z	2016-07-13T06:35:23Z	2016-07-13T06:35:23Z	Generators are not providing the right line:col for the error message	116		
 3145	369698	false	open	false	14		2015-10-01T12:26:52Z	2016-07-08T19:52:51Z		child_process IPC is very slow, about 100-10000x slower than I expected (scales with msg size)	212		
-3159	131406	false	open	false	4		2015-10-02T13:49:38Z	2016-08-30T13:15:56Z		please provide a way to use system-installed root certificates instead of bundled ones	82		
+3159	131406	false	open	false	6		2015-10-02T13:49:38Z	2016-10-11T07:16:08Z		please provide a way to use system-installed root certificates instead of bundled ones	82		
 3179	8974489	false	closed	false	18		2015-10-05T10:13:45Z	2016-10-06T10:19:34Z	2016-06-07T20:59:21Z	node compile failure on Solaris 11.2 and gcc 4.8 (undefined std::isnan)	266		
 3249	291301	false	closed	false	10		2015-10-07T22:50:32Z	2016-07-13T07:02:20Z	2016-07-13T07:02:20Z	vm: `--expose-gc` breaks gc and crashes with `--max-old-space-size`	314		
 3263	131406	false	closed	false	14		2015-10-08T07:30:48Z	2016-10-05T12:50:15Z	2016-10-05T12:50:15Z	building s390 / s390x	121		
@@ -1057,7 +1057,7 @@
 7943	1988999	false	closed	false	3		2016-08-02T02:32:40Z	2016-08-02T10:15:17Z	2016-08-02T10:15:17Z	node-cli bug on windows 10	46		
 7944	275871	false	closed	false	3		2016-08-02T07:47:10Z	2016-09-09T20:17:15Z	2016-09-09T20:17:15Z	v8_inspector: IgnoreExceptionsScope.h does not exist	27		
 7945	275871	true	closed	false	3		2016-08-02T07:50:03Z	2016-10-10T22:31:24Z	2016-08-03T09:19:52Z	build: fix dependency on missing header file 	34		
-7946	3038254	true	open	false			2016-08-02T08:57:14Z	2016-10-11T06:50:10Z		http: optimize by corking outgoing requests	404		
+7946	3038254	true	open	false	18		2016-08-02T08:57:14Z	2016-10-11T07:01:48Z		http: optimize by corking outgoing requests	404		
 7947	15943089	true	closed	false	12		2016-08-02T10:41:47Z	2016-10-11T02:08:07Z	2016-08-08T16:24:38Z	test: remove internal headers from addons	67		
 7948	718899	false	closed	false	8		2016-08-02T13:49:50Z	2016-08-05T22:02:23Z	2016-08-05T22:02:23Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-03	502		
 7949	1935767	true	closed	false	25		2016-08-02T16:54:51Z	2016-10-10T22:33:06Z	2016-08-05T15:29:33Z	http: specify _implicitHeader in OutgoingMessage	65		
@@ -2109,9 +2109,9 @@
 8996	11734962	true	open	false	1		2016-10-09T18:54:20Z	2016-10-09T21:31:21Z		doc: net.Socket in TLSSocket	52		
 8997	154748	false	open	false	0		2016-10-09T19:49:13Z	2016-10-09T19:49:13Z		Occasional infinite loop in previously working code path in 6.5+	236		
 8998	2438449	false	closed	false	2		2016-10-09T20:38:32Z	2016-10-10T11:53:14Z	2016-10-10T11:53:14Z	node debug goes to sleep after setting breakpoint in not-yet-loaded script?	314		
-8999	5351085	true	open	false			2016-10-10T05:31:36Z	2016-10-11T00:31:13Z		Make tests more clear	26		
+8999	5351085	true	open	false			2016-10-10T05:31:36Z	2016-10-11T07:03:18Z		Make tests more clear	26		
 9000	432351	true	open	false	2		2016-10-10T06:13:49Z	2016-10-10T15:44:52Z		src: remove out-of-date TODO comment	114		
-9001	101553	false	open	false	1		2016-10-10T07:20:34Z	2016-10-11T04:02:11Z		Outdated variable name in comment	13		
+9001	101553	false	open	false	2		2016-10-10T07:20:34Z	2016-10-11T07:48:44Z		Outdated variable name in comment	13		
 9002	2329683	false	open	false	3		2016-10-10T07:43:22Z	2016-10-10T20:12:35Z		Stream not emitting end after removeListener	169		
 9003	5007624	false	open	false	0		2016-10-10T08:39:24Z	2016-10-10T08:39:24Z		TypeError: EventEmitter, setMaxListeners, Symbol	130		
 9004	7888082	true	open	false	4		2016-10-10T10:35:22Z	2016-10-10T13:42:14Z		fix:events.js has a clerical error	9		
@@ -2119,7 +2119,7 @@
 9006	935710	false	open	false	2		2016-10-10T15:20:33Z	2016-10-10T18:28:32Z		buffer.length performance regressed in 6.5.0	59		
 9007	1141042	true	open	false	3		2016-10-10T16:35:59Z	2016-10-10T21:04:43Z		doc: errno is a number, not a string	93		
 9008	855219	true	open	false	2		2016-10-10T16:48:08Z	2016-10-10T17:01:03Z		intl: (v4.x) Don't crash if v8BreakIterator not available	61		
-9009	15943089	true	open	false	0		2016-10-10T17:02:31Z	2016-10-11T06:07:59Z		Add platform specific teams to onboarding-extras	152		
+9009	15943089	true	open	false	1		2016-10-10T17:02:31Z	2016-10-11T07:32:48Z		Add platform specific teams to onboarding-extras	152		
 9010	677994	true	open	false	0	0	2016-10-10T17:07:38Z	2016-10-10T17:07:38Z		http: improve invalid character in header error message	65		
 9011	22550884	true	open	false	2		2016-10-10T17:10:34Z	2016-10-11T04:58:11Z		test-debugger-pid: Somes fixes that do not change performance	18		
 9012	4400726	false	open	false	2		2016-10-10T19:50:52Z	2016-10-10T20:08:03Z		What makes a Socket idle?	124		
@@ -2131,5 +2131,5 @@
 9018	8603093	false	open	false	0		2016-10-11T01:03:14Z	2016-10-11T01:03:14Z		Will read_cb be called immediately after alloc_cb for uv_read_start?	55		
 9019	592432	false	open	false	0		2016-10-11T03:52:51Z	2016-10-11T05:29:53Z		path.parse: result differs between Windows and macOS for Windows-style paths	92		
 9020	718899	false	open	false	1		2016-10-11T04:22:40Z	2016-10-11T05:37:04Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-10-12	482		
-9021	2908639	true	open	false	1		2016-10-11T05:22:10Z	2016-10-11T06:09:44Z		Fix https://github.com/nodejs/node/issues/9003 and add test	26		
+9021	2908639	true	open	false			2016-10-11T05:22:10Z	2016-10-11T07:06:35Z		Fix https://github.com/nodejs/node/issues/9003 and add test	26		
 9022	718899	true	open	false	0	0	2016-10-11T06:33:25Z	2016-10-11T06:33:25Z		test: move module out of fixture directory	113		
