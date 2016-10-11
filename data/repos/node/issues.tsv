@@ -236,7 +236,7 @@
 6030	439929	true	closed	false	13		2016-04-03T19:56:47Z	2016-08-30T14:14:47Z	2016-04-10T23:17:57Z	doc: clarification for maxBuffer and Unicode output	89		
 6033	2291463	false	closed	false	9		2016-04-04T07:14:31Z	2016-07-03T03:53:55Z	2016-07-03T03:53:55Z	Features that depend on ICU, in V8 built without ICU.	118		
 6036	177641	false	closed	false	12		2016-04-04T10:46:12Z	2016-10-07T14:42:24Z	2016-10-07T14:42:24Z	Weird segmentation fault on Ubuntu 15.10	85		
-6045	248374	false	open	false	6		2016-04-04T22:52:46Z	2016-09-23T21:18:44Z		Windows PlatformToolset: Provide stable C++ API to addons	77		
+6045	248374	false	open	false	6		2016-04-04T22:52:46Z	2016-10-11T10:51:33Z		Windows PlatformToolset: Provide stable C++ API to addons	77		
 6057	520678	false	closed	false	12		2016-04-05T15:49:46Z	2016-10-10T16:37:17Z	2016-10-10T16:37:17Z	Windows installer always installs to C:/Program Files	48		
 6058	855219	false	closed	false	8		2016-04-05T16:01:32Z	2016-09-20T22:56:10Z	2016-05-04T23:14:40Z	deps: Intl: ICU 57 bump	43		
 6063	7780985	true	closed	false	20		2016-04-05T19:44:10Z	2016-07-11T16:51:08Z	2016-04-26T16:07:07Z	doc, tls: deprecate createSecurePair	141		
@@ -596,7 +596,7 @@
 7481	696611	true	closed	false	6		2016-06-29T18:07:25Z	2016-07-12T00:11:45Z	2016-07-08T14:45:38Z	net: export isIPv4, isIPv6 directly from cares	50		
 7482	2352663	true	closed	false	10		2016-06-29T18:13:01Z	2016-07-12T06:33:53Z	2016-07-10T15:23:52Z	build: add v8 requirement to test-v8* in Makefile	30		
 7483	696611	true	closed	false	10		2016-06-29T18:21:46Z	2016-07-12T04:30:26Z	2016-07-08T14:52:40Z	tools: remove unnecessary imports and assignments	38		
-7484	275871	false	open	false	49		2016-06-29T18:29:06Z	2016-09-23T21:20:43Z		build: drop support for VS 2013 in v7	96		
+7484	275871	false	closed	false	51		2016-06-29T18:29:06Z	2016-10-11T10:47:28Z	2016-10-11T10:47:28Z	build: drop support for VS 2013 in v7	96		
 7485	432351	true	closed	false	5	0	2016-06-29T18:42:27Z	2016-06-30T05:36:59Z	2016-06-30T05:36:59Z	doc: fixing minor typo in AtExit hooks section	53		
 7486	275871	true	closed	false	9		2016-06-29T19:17:29Z	2016-06-30T17:37:51Z	2016-06-30T11:33:16Z	build: drop unconditional openssl dep from cctest	23		
 7487	1356314	true	closed	false	25		2016-06-29T20:16:20Z	2016-08-05T13:32:16Z	2016-08-05T13:32:15Z	build: windows sharedlib support	284		
@@ -1100,7 +1100,7 @@
 7986	275871	true	open	false	1		2016-08-05T11:40:07Z	2016-08-05T17:43:24Z		tools: add compile_commands.json gyp generator	42		
 7987	4520820	true	closed	false	6		2016-08-05T16:37:29Z	2016-08-08T12:45:42Z	2016-08-08T12:45:42Z	zlib: remove unneeded property	37		
 7988	426418	true	open	false	19		2016-08-05T21:18:17Z	2016-08-12T00:35:41Z		inspector: add inspector console support for native Console	114		
-7989	275871	false	open	false	30		2016-08-06T03:16:44Z	2016-10-08T19:17:16Z		build: drop support for VS 2013 in v6 LTS	192		
+7989	275871	false	closed	false	31		2016-08-06T03:16:44Z	2016-10-11T10:46:10Z	2016-10-11T10:46:10Z	build: drop support for VS 2013 in v6 LTS	192		
 7990	2557445	true	closed	false	9		2016-08-06T07:59:12Z	2016-09-30T18:10:02Z	2016-08-08T16:20:30Z	Cleanup: Remove unused using decls	49		
 7991	439929	false	closed	false	7		2016-08-06T08:03:44Z	2016-10-10T21:28:07Z	2016-10-10T21:28:07Z	Planning for v7 and the v6 roll over to LTS	434		
 7992	1500684	true	open	false	0	0	2016-08-06T10:18:04Z	2016-08-06T10:18:04Z		docs: add info about --auto-open flag w/ --inspect	73		
@@ -1521,7 +1521,7 @@
 8408	5010504	false	open	false	0		2016-09-05T07:08:59Z	2016-09-05T07:08:59Z		Inconsistent `require` Behavior	331		
 8409	275871	true	open	false	3		2016-09-05T08:42:47Z	2016-10-04T18:38:07Z		src: guard against overflow in ParseArrayIndex() (v4.x)	8		
 8410	899444	true	closed	false	9		2016-09-05T12:11:26Z	2016-09-12T03:50:07Z	2016-09-12T03:50:07Z	doc: note that listening on SIGSEGV & co is unsafe	41		
-8411	899444	true	closed	false	11		2016-09-05T14:16:13Z	2016-10-11T02:09:05Z	2016-09-08T08:32:34Z	deps: cherry-pick 8ed65b97 from V8's upstream	180		
+8411	899444	true	closed	false	12		2016-09-05T14:16:13Z	2016-10-11T10:12:26Z	2016-09-08T08:32:34Z	deps: cherry-pick 8ed65b97 from V8's upstream	180		
 8412	134460	true	closed	false	4		2016-09-05T15:02:46Z	2016-10-03T11:17:15Z	2016-09-08T00:08:55Z	win,build: improvements to vcbuild.bat	221		
 8413	899444	true	closed	false	5		2016-09-05T20:41:51Z	2016-09-20T12:04:55Z	2016-09-20T12:04:55Z	build: run `npm install` for doc builds in tarball	93		
 8414	718899	true	closed	false	3		2016-09-06T00:32:27Z	2016-09-07T04:10:06Z	2016-09-06T14:45:45Z	WIP: test-stdio-closed troubleshooting	47		
@@ -2095,7 +2095,7 @@
 8982	275871	true	open	false	0	0	2016-10-08T08:32:52Z	2016-10-08T08:32:52Z		tools: update gyp to 702ac58	2		
 8983	1062408	false	open	false	0		2016-10-08T09:12:37Z	2016-10-08T09:12:37Z		doc: Confusion about transform stream constructor options	150		
 8984	112879	true	open	false			2016-10-08T14:54:53Z	2016-10-08T16:01:08Z		Adding clarity to buffer toString docs.	48		
-8985	134460	true	open	false	1		2016-10-08T19:28:23Z	2016-10-10T16:06:31Z		inspector,test: zero out expectations	91		
+8985	134460	true	closed	false	3		2016-10-08T19:28:23Z	2016-10-11T10:52:47Z	2016-10-11T10:52:47Z	inspector,test: zero out expectations	91		
 8986	11734962	true	closed	false	2	0	2016-10-08T19:54:55Z	2016-10-09T14:51:41Z	2016-10-09T14:51:41Z	doc: response body in http module	42		
 8987	91933	false	open	false	5		2016-10-09T00:03:49Z	2016-10-09T19:34:24Z		ENOENT thrown when trying to create a file with an invalid filename	70		
 8988	7656167	true	open	false			2016-10-09T09:45:30Z	2016-10-09T18:16:07Z		lib: update outdated comment	29		
@@ -2106,7 +2106,7 @@
 8993	103052	true	open	false	5		2016-10-09T17:18:24Z	2016-10-10T18:37:24Z		crypto: naming anonymouse functions	37		
 8994	899444	true	open	false	5		2016-10-09T17:24:11Z	2016-10-10T15:38:13Z		module: allow but deprecate loading internals (in case it’s necessary)	109		
 8995	21203	true	open	false	1		2016-10-09T18:52:49Z	2016-10-09T21:30:35Z		crypto: use SSL_get_SSL_CTX.	86		
-8996	11734962	true	open	false	2		2016-10-09T18:54:20Z	2016-10-11T09:35:46Z		doc: net.Socket in TLSSocket	52		
+8996	11734962	true	open	false	3		2016-10-09T18:54:20Z	2016-10-11T10:54:27Z		doc: net.Socket in TLSSocket	52		
 8997	154748	false	open	false	0		2016-10-09T19:49:13Z	2016-10-09T19:49:13Z		Occasional infinite loop in previously working code path in 6.5+	236		
 8998	2438449	false	closed	false	2		2016-10-09T20:38:32Z	2016-10-10T11:53:14Z	2016-10-10T11:53:14Z	node debug goes to sleep after setting breakpoint in not-yet-loaded script?	314		
 8999	5351085	true	open	false			2016-10-10T05:31:36Z	2016-10-11T07:03:18Z		Make tests more clear	26		
@@ -2124,13 +2124,13 @@
 9011	22550884	true	open	false	2		2016-10-10T17:10:34Z	2016-10-11T04:58:11Z		test-debugger-pid: Somes fixes that do not change performance	18		
 9012	4400726	false	open	false	2		2016-10-10T19:50:52Z	2016-10-10T20:08:03Z		What makes a Socket idle?	124		
 9013	498775	false	open	false	3		2016-10-10T21:35:43Z	2016-10-10T23:07:49Z		FreeBSD failures on v4.x	95		
-9014	498775	true	open	false	0	0	2016-10-10T22:09:07Z	2016-10-10T22:09:07Z		Backport src: fix handle leaks #7711	36		
-9015	1674289	false	open	false	2		2016-10-10T22:43:50Z	2016-10-11T10:00:49Z		Segmentation fault using TLS after uprgrade to nodejs 6.7.0 / CentOS 7	221		
+9014	498775	true	open	false	2		2016-10-10T22:09:07Z	2016-10-11T10:44:21Z		Backport src: fix handle leaks #7711	36		
+9015	1674289	false	open	false	3		2016-10-10T22:43:50Z	2016-10-11T10:51:46Z		Segmentation fault using TLS after uprgrade to nodejs 6.7.0 / CentOS 7	221		
 9016	498775	true	open	false	0	0	2016-10-10T22:56:01Z	2016-10-10T22:56:01Z		tls: copy the Buffer object before using (backport to v4.x)	39		
 9017	996487	false	open	false	0		2016-10-11T00:54:44Z	2016-10-11T00:54:44Z		"Problematic process.argv with ""node -e"""	267		
 9018	8603093	false	open	false	0		2016-10-11T01:03:14Z	2016-10-11T01:03:14Z		Will read_cb be called immediately after alloc_cb for uv_read_start?	55		
 9019	592432	false	open	false	0		2016-10-11T03:52:51Z	2016-10-11T05:29:53Z		path.parse: result differs between Windows and macOS for Windows-style paths	92		
 9020	718899	false	open	false	1		2016-10-11T04:22:40Z	2016-10-11T05:37:04Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-10-12	482		
-9021	2908639	true	open	false	5		2016-10-11T05:22:10Z	2016-10-11T09:41:58Z		Fix https://github.com/nodejs/node/issues/9003 and add test	26		
+9021	2908639	true	open	false			2016-10-11T05:22:10Z	2016-10-11T10:08:32Z		Fix https://github.com/nodejs/node/issues/9003 and add test	26		
 9022	718899	true	open	false	0	0	2016-10-11T06:33:25Z	2016-10-11T06:33:25Z		test: move module out of fixture directory	113		
 9023	7273940	true	open	false	1		2016-10-11T08:20:37Z	2016-10-11T09:16:46Z		src: fix typo rval to value	54		
