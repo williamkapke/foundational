@@ -219,6 +219,7 @@
 5599	711968	true	open	false	6		2016-03-08T15:41:12Z	2016-08-04T03:20:18Z		Bugfix cpplint windows path	103		
 5608	7340772	false	open	false	10		2016-03-08T23:13:41Z	2016-08-10T20:06:17Z		vi style bindings in node interpreter	101		
 5636	1242946	false	closed	false	44		2016-03-10T02:19:40Z	2016-10-12T09:24:12Z	2016-10-12T09:24:12Z	degrading performance after using child_process	198		
+5637	41373	false	closed	false	3		2016-03-10T02:42:07Z	2016-10-12T10:43:45Z	2016-10-12T10:43:45Z	execFile hangs when child process exits, but has disowned children	103		
 5656	495647	true	open	false	6		2016-03-11T07:32:35Z	2016-08-09T22:05:50Z		 Refactor mac installer (built on #2571)	312		
 5659	15952	false	closed	false	22		2016-03-11T16:00:53Z	2016-07-22T20:01:30Z	2016-06-30T17:08:41Z	repl: useGlobal docs and code mismatch	127		
 5687	1699593	false	closed	false	8		2016-03-13T18:58:57Z	2016-08-01T12:36:42Z	2016-03-13T19:12:46Z	Promise.all is not a function	77		
@@ -309,7 +310,7 @@
 6573	439929	true	open	false	27		2016-05-04T17:43:27Z	2016-08-26T22:47:06Z		errors: add internal/errors module	288		
 6578	17607	false	open	false	24		2016-05-04T22:06:49Z	2016-10-02T19:03:28Z		docs do not state at what version an API was introduced (or deprecated)	420		
 6582	275871	true	closed	false	14		2016-05-04T22:29:50Z	2016-07-11T21:10:49Z	2016-05-05T11:05:20Z	crypto: disable ssl compression at build time	3		
-6599	79017	true	closed	false	15		2016-05-05T16:22:48Z	2016-10-12T09:02:41Z	2016-05-07T03:30:19Z	src,lib: minor --debug-brk cleanup	116		
+6599	79017	true	closed	false	20		2016-05-05T16:22:48Z	2016-10-12T10:04:41Z	2016-05-07T03:30:19Z	src,lib: minor --debug-brk cleanup	116		
 6600	15943089	true	open	false	4		2016-05-05T16:23:19Z	2016-08-22T21:50:48Z		win, build: add node.lib file into headers package	273		
 6601	1231635	true	open	false	52		2016-05-05T18:13:42Z	2016-08-31T20:40:22Z		doc: add Google Analytics tracking.	105		
 6604	40265	false	closed	false	12		2016-05-05T21:07:47Z	2016-07-20T09:16:03Z	2016-07-20T09:16:03Z	Encountering segfault	214		
@@ -1939,7 +1940,7 @@
 8821	275871	true	open	false	2		2016-09-28T10:09:13Z	2016-10-02T21:02:54Z		lib: fix beforeExit not working with -e	76		
 8822	677994	false	open	false	0		2016-09-28T10:51:35Z	2016-09-28T10:51:35Z		tools/release.sh failed on macOS 10.12	211		
 8823	3653950	false	closed	false	1		2016-09-28T11:00:20Z	2016-09-28T11:11:29Z	2016-09-28T11:11:29Z	fs incorrectly handles mapped network drive on Windows	203		
-8824	677994	true	open	false	2		2016-09-28T11:02:03Z	2016-10-12T01:53:29Z		tools: fix release script on macOS 10.12	81		
+8824	677994	true	open	false	2		2016-09-28T11:02:03Z	2016-10-12T10:35:32Z		tools: fix release script on macOS 10.12	81		
 8825	275871	false	closed	false	3		2016-09-28T11:42:34Z	2016-10-07T22:36:44Z	2016-10-07T07:52:00Z	doc: dead external link in fs.md	11		
 8826	101553	true	open	false	4		2016-09-28T12:24:50Z	2016-09-30T15:00:57Z		doc: fix typo in repl doc	42		
 8827	2522448	false	open	false	1		2016-09-28T12:42:21Z	2016-10-07T07:47:34Z		Memory leak for https.request() on ECONNRESET	173		
@@ -2060,7 +2061,7 @@
 8942	101553	false	closed	false	0		2016-10-05T18:28:34Z	2016-10-06T21:46:17Z	2016-10-06T21:46:17Z	Examples in debugger documentation should all use global node	16		
 8943	13561163	true	open	false	6		2016-10-05T21:55:51Z	2016-10-06T21:09:11Z		doc:  ./node to node in debugger.md	25		
 8944	12266954	false	closed	false	6		2016-10-05T22:46:33Z	2016-10-06T11:00:38Z	2016-10-06T11:00:38Z	Cannot communicate to web app powered by Node 4.6 from Windows Server 2003 using HTTPS	160		
-8945	718899	true	open	false	6		2016-10-06T03:59:22Z	2016-10-12T03:25:29Z		governance: expand use of CTC issue tracker	68		
+8945	718899	true	open	false	7		2016-10-06T03:59:22Z	2016-10-12T10:16:40Z		governance: expand use of CTC issue tracker	68		
 8946	54666	true	closed	false	14		2016-10-06T05:37:52Z	2016-10-10T20:03:30Z	2016-10-10T20:03:30Z	buffer: make byteLength throw on invalid input	126		
 8947	22473522	false	open	false	1		2016-10-06T05:44:29Z	2016-10-06T06:01:54Z		How to read memory stream of a pdf and open it	163		
 8948	54666	true	open	false	16		2016-10-06T05:45:14Z	2016-10-11T18:41:30Z		deps: revert default gtest reporter change	71		
@@ -2141,7 +2142,7 @@
 9023	7273940	true	closed	false	6		2016-10-11T08:20:37Z	2016-10-11T17:02:39Z	2016-10-11T17:02:39Z	src: fix typo rval to value	25		
 9024	5156221	false	closed	false	10		2016-10-11T12:50:52Z	2016-10-11T15:08:32Z	2016-10-11T14:39:05Z	require('crypto') & DES inconsistent	180		
 9025	627123	false	open	false	2		2016-10-11T13:04:48Z	2016-10-11T19:02:20Z		tls.createServer secureOptions	68		
-9026	13483453	true	open	false			2016-10-11T14:21:47Z	2016-10-11T17:57:56Z		doc: clarify relation between a file and a module	51		
+9026	13483453	true	open	false	4		2016-10-11T14:21:47Z	2016-10-12T10:25:17Z		doc: clarify relation between a file and a module	51		
 9027	114976	false	open	false	0		2016-10-11T15:52:08Z	2016-10-11T16:28:31Z		HTTP Server: incorrect error message if status code is set to a string (like ENOENT)	139		
 9028	287917	true	open	false			2016-10-11T16:39:50Z	2016-10-11T21:13:27Z		inspector: use final API	83		
 9029	1093990	true	closed	false	3		2016-10-11T16:51:25Z	2016-10-11T21:03:41Z	2016-10-11T19:47:10Z	test,benchmark: fix lint errors on v6.x	59		
@@ -2154,7 +2155,7 @@
 9036	1093990	false	open	false	0		2016-10-11T20:10:42Z	2016-10-11T20:10:42Z		consider printing Experimental warnings for all Experimental APIs	40		
 9037	498775	true	open	false	3		2016-10-11T20:28:49Z	2016-10-11T23:45:24Z		ares_create_query: avoid single-byte buffer overwrite	64		
 9038	439929	true	open	false			2016-10-11T21:16:00Z	2016-10-12T08:59:22Z		buffer: add buffer.transcode	93		
-9039	580982	false	open	false	3		2016-10-11T22:04:02Z	2016-10-12T07:10:38Z		Array Joining is slower in Node 6.x	297		
+9039	580982	false	open	false	4		2016-10-11T22:04:02Z	2016-10-12T10:24:40Z		Array Joining is slower in Node 6.x	297		
 9040	439929	true	open	false	1		2016-10-11T22:23:30Z	2016-10-12T02:40:44Z		readline: use icu based string width calculation	113		
 9041	439929	true	open	false	3		2016-10-11T22:32:38Z	2016-10-12T02:20:14Z		url: fix building when using --without-intl	42		
 9042	677994	true	open	false	0	0	2016-10-11T23:22:40Z	2016-10-11T23:22:40Z		process: add emitExperimentalWarning()	89		
@@ -2167,5 +2168,5 @@
 9049	12400507	true	open	false			2016-10-12T05:31:57Z	2016-10-12T06:05:06Z		eslint: avoid let in for loops	47		
 9050	8938552	false	open	false	0		2016-10-12T06:51:17Z	2016-10-12T06:51:17Z		SIGINT and loops	304		
 9051	7273940	true	open	false	0	0	2016-10-12T07:41:58Z	2016-10-12T07:41:58Z		assert: name anonymous functions	15		
-9052	7273940	true	open	false	0		2016-10-12T07:52:47Z	2016-10-12T09:49:41Z		dns: name anonymous functions	15		
-9053	432351	true	open	false	0	0	2016-10-12T09:03:31Z	2016-10-12T09:03:31Z		build: fix config.gypi target	253		
+9052	7273940	true	open	false	2		2016-10-12T07:52:47Z	2016-10-12T10:49:37Z		dns: name anonymous functions	15		
+9053	432351	true	open	false	1		2016-10-12T09:03:31Z	2016-10-12T10:53:27Z		build: fix config.gypi target	253		
