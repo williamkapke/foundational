@@ -55,6 +55,7 @@
 2395	439929	true	closed	false	11	0	2015-08-16T00:23:48Z	2016-08-02T04:18:14Z	2016-08-02T04:18:14Z	http: correct fencepost error when freeing socket	60		
 2398	439929	false	open	false	40		2015-08-16T01:20:43Z	2016-09-12T13:13:01Z		DTLS Discussion	54		
 2407	355800	true	closed	false			2015-08-17T04:01:53Z	2016-09-27T21:34:56Z	2016-04-18T23:52:16Z	assert: respect assert.doesNotThrow message.	32		
+2443	2244675	false	closed	false	8		2015-08-19T14:39:09Z	2016-10-13T11:35:17Z	2016-10-13T11:35:17Z	Incorrect module path resolving with NODE_PATH in Windows	44		
 2498	696611	true	closed	false	22		2015-08-22T20:07:00Z	2016-07-21T22:32:14Z	2016-07-21T22:32:14Z	fs: do basic arg validation of truncate in js	25		
 2521	885648	true	open	false	30		2015-08-24T08:36:14Z	2016-06-30T04:22:37Z		added CSI (\x9b) as additionally allowable escape	135		
 2534	4405297	true	open	false	87		2015-08-25T01:59:16Z	2016-08-08T12:58:00Z		http: fixed socket destruction, timeout and leaking	144		
@@ -145,7 +146,7 @@
 4249	855219	true	open	false	2		2015-12-12T00:13:11Z	2016-10-10T18:42:57Z		Proposing a Global WG.	13		
 4253	855219	true	closed	false	19		2015-12-12T01:21:25Z	2016-10-10T16:51:08Z	2016-05-04T22:07:05Z	nodejs/node#3111 - v8BreakIterator disablement	6		
 4266	1470592	false	open	false	16		2015-12-14T00:40:39Z	2016-10-06T17:07:34Z		buffer.toString fails for buffers larger than 192MB	95		
-4270	495647	false	open	false	22		2015-12-14T10:06:18Z	2016-09-23T18:35:10Z		Discussion: OpenSSL 1.1.0 planning	297		
+4270	495647	false	open	false	24		2015-12-14T10:06:18Z	2016-10-13T11:09:32Z		Discussion: OpenSSL 1.1.0 planning	297		
 4303	7731478	true	open	false	21		2015-12-16T04:12:08Z	2016-09-24T19:28:03Z		timer: make sure timer is cleared	267		
 4307	12825770	false	closed	false	11		2015-12-16T08:16:14Z	2016-07-11T09:25:48Z	2016-07-11T09:25:48Z	can not step in constructor, will will terminate node.exe	90		
 4329	16335744	false	closed	false	15		2015-12-17T11:41:17Z	2016-10-03T06:42:19Z	2016-01-15T10:53:49Z	node.js Setup Wizard ended prematurely	43		
@@ -2040,7 +2041,7 @@
 8920	718899	true	closed	false	6		2016-10-04T03:46:37Z	2016-10-06T04:13:14Z	2016-10-06T04:13:13Z	tools: disallow extra blank lines at end of files	33		
 8921	1324157	false	open	false	5		2016-10-04T08:55:10Z	2016-10-07T09:02:01Z		url.resolve() behaves differently depending on the protocol of the base url	84		
 8922	495647	true	open	false			2016-10-04T09:55:01Z	2016-10-12T16:26:18Z		doc: add supported platforms list	51		
-8923	275871	true	open	false	11		2016-10-04T10:28:19Z	2016-10-11T18:45:04Z		http: reject control characters in http.request()	125		
+8923	275871	true	closed	false	11	9	2016-10-04T10:28:19Z	2016-10-13T11:40:31Z	2016-10-13T11:40:31Z	http: reject control characters in http.request()	125		
 8924	2352663	true	closed	false	4		2016-10-04T12:54:16Z	2016-10-04T23:05:38Z	2016-10-04T23:05:38Z	test: fix child-process-uid-gid on Windows	41		
 8925	815894	false	open	false	0		2016-10-04T15:49:46Z	2016-10-07T07:49:13Z		test: cleanup/update test-dgram-error-message-address.js	11		
 8926	6190179	false	open	false	10		2016-10-04T16:22:32Z	2016-10-04T18:02:02Z		Can't run nodejs 4.6 on Ubuntu 12.04.5 LTS with Geode AMD CPU	168		
@@ -2055,7 +2056,7 @@
 8935	4057473	false	open	false	0		2016-10-05T09:42:53Z	2016-10-05T09:42:53Z		No reference error on nonexistent object value	105		
 8936	16836380	false	open	false	0		2016-10-05T09:52:31Z	2016-10-05T09:52:31Z		Solaris SPARC support	46		
 8937	16836380	false	closed	false	2		2016-10-05T10:47:06Z	2016-10-05T11:59:46Z	2016-10-05T11:59:46Z	V8DBG_OFF_FP_CONTEXT: Unknown variable name	123		
-8938	815894	true	open	false	4		2016-10-05T11:58:48Z	2016-10-13T10:54:50Z		test: cleanup/update test-dgram-error-message-address.js	45		
+8938	815894	true	open	false	6		2016-10-05T11:58:48Z	2016-10-13T11:02:05Z		test: cleanup/update test-dgram-error-message-address.js	45		
 8939	18028768	false	open	false	0		2016-10-05T13:26:25Z	2016-10-05T13:26:25Z		npm install error!	26		
 8940	21042045	true	closed	false	9		2016-10-05T13:44:11Z	2016-10-07T22:49:47Z	2016-10-06T18:21:33Z	fs: fix link rot in fs.md	30		
 8941	718899	true	open	false	3		2016-10-05T18:24:16Z	2016-10-11T05:23:36Z		doc: fix typo in email address in README	29		
@@ -2149,7 +2150,7 @@
 9029	1093990	true	closed	false	3		2016-10-11T16:51:25Z	2016-10-11T21:03:41Z	2016-10-11T19:47:10Z	test,benchmark: fix lint errors on v6.x	59		
 9030	899444	true	open	false	5		2016-10-11T17:31:41Z	2016-10-11T19:43:18Z		v6.x backport: fs: make `SyncWriteStream` inherit from `Writable`	99		
 9031	114976	true	open	false	1		2016-10-11T18:03:04Z	2016-10-11T21:07:17Z		Fix error message for invalid httm status code, fix tests.	99		
-9032	275871	true	open	false			2016-10-11T18:35:31Z	2016-10-12T19:10:30Z		crypto: fix faulty logic in iv size check	46		
+9032	275871	true	open	false	7		2016-10-11T18:35:31Z	2016-10-13T11:41:29Z		crypto: fix faulty logic in iv size check	46		
 9033	498775	true	open	false	3		2016-10-11T19:19:24Z	2016-10-11T20:32:58Z		test: mark test-child-process-uid-gid as flaky	50		
 9034	1093990	true	closed	false	9	0	2016-10-11T19:59:44Z	2016-10-12T20:13:01Z	2016-10-12T20:13:01Z	2016-10-11, Version 6.8.0 (Current)	13	1093990	2016-10-12T20:13:01Z
 9035	114976	true	closed	false	0	0	2016-10-11T20:00:05Z	2016-10-11T20:02:44Z	2016-10-11T20:02:44Z	validate arguments to mustCall(), default value	76		
@@ -2179,12 +2180,12 @@
 9059	7273940	true	closed	false	0	0	2016-10-12T13:51:41Z	2016-10-13T09:36:15Z	2016-10-13T09:36:15Z	http: name anonymous functions in _http_outgoing	15		
 9060	7273940	true	open	false	3		2016-10-12T13:51:53Z	2016-10-13T09:36:58Z		http: name anonymous functions in _http_server	15		
 9061	54666	false	open	false	3		2016-10-12T16:02:25Z	2016-10-12T18:48:09Z		benchmark: 'NA' appended to filename in compare.R output	62		
-9062	13561163	true	open	false	0	0	2016-10-12T18:24:38Z	2016-10-12T18:24:38Z		change for a deprecated method: SetNamedPropertyHandler() to SetHandler()	93		
+9062	13561163	true	open	false			2016-10-12T18:24:38Z	2016-10-13T11:46:21Z		change for a deprecated method: SetNamedPropertyHandler() to SetHandler()	90		
 9063	3442602	false	open	false	6		2016-10-12T18:41:21Z	2016-10-13T10:12:03Z		assert.js rule 7.4 (similar to CJS rule 7.3)	241		
 9064	505333	true	open	false	0	0	2016-10-12T18:47:06Z	2016-10-12T18:47:06Z		Benchmark fixes	178		
 9065	13483453	true	open	false			2016-10-12T20:17:30Z	2016-10-13T10:07:11Z		doc: better example for http.get	206		
 9066	238531	true	open	false	9		2016-10-12T20:41:31Z	2016-10-13T07:07:25Z		net: fix ambiguity in EOF handling	73		
-9067	134460	false	open	false	4		2016-10-12T21:34:37Z	2016-10-13T04:54:21Z		process.on beforeExit broken on Windows	182		
+9067	134460	false	open	false	5		2016-10-12T21:34:37Z	2016-10-13T11:14:23Z		process.on beforeExit broken on Windows	182		
 9068	8849761	true	closed	false	3	3	2016-10-12T22:17:45Z	2016-10-13T10:48:21Z	2016-10-13T10:48:21Z	console: using class	38		
 9069	2148448	false	open	false	1		2016-10-12T23:57:01Z	2016-10-13T01:14:31Z		http core module issue	117		
 9070	9373002	true	open	false			2016-10-13T01:35:04Z	2016-10-13T08:44:22Z		doc: add CTC meeting minutes for 2016-10-12	24		
@@ -2194,5 +2195,5 @@
 9074	718899	false	open	false	0		2016-10-13T06:08:31Z	2016-10-13T06:08:31Z		test-npm-install failing on freebsd11-x64	62		
 9075	748856	false	open	false	0		2016-10-13T07:07:16Z	2016-10-13T07:07:16Z		Does nodejs have interface definition language(.idl) files for automatic generation of bindings in alternative javascript languages?	24		
 9076	1006477	false	open	false	1		2016-10-13T07:46:35Z	2016-10-13T08:07:11Z		6.8.0 fails to compile on Arch	69		
-9077	2227152	true	open	false	1		2016-10-13T07:48:40Z	2016-10-13T09:01:45Z		build: add -DZLIB_CONST when building with --shared-zlib	83		
+9077	2227152	true	open	false	2		2016-10-13T07:48:40Z	2016-10-13T11:42:12Z		build: add -DZLIB_CONST when building with --shared-zlib	83		
 9078	7920569	false	closed	false	1		2016-10-13T09:32:53Z	2016-10-13T10:10:54Z	2016-10-13T10:10:54Z	about getter/setter	59		
