@@ -8,7 +8,7 @@
 550	30827	false	closed	false	10		2015-01-22T05:35:22Z	2016-08-05T22:14:53Z	2016-08-05T22:14:53Z	Proposal: HTTP – Move `bodyHead` to `data` event	125		
 583	643505	false	open	false	46		2015-01-23T23:53:00Z	2016-10-07T08:24:46Z		streaming / iterative fs.readdir	48		
 643	829734	false	open	false	31		2015-01-28T21:12:32Z	2016-08-05T22:17:03Z		Using faster url parser	82		
-678	643505	false	open	false	7		2015-01-31T00:58:15Z	2016-10-13T14:12:55Z		make crypto functions execute in the threadpool asynchronously	83		
+678	643505	false	open	false	12		2015-01-31T00:58:15Z	2016-10-13T15:00:38Z		make crypto functions execute in the threadpool asynchronously	83		
 684	115237	false	closed	false	6		2015-01-31T22:25:05Z	2016-08-18T20:24:09Z	2015-02-01T18:41:19Z	path: tilde expansion	123		
 690	275871	false	closed	false	14		2015-02-02T15:19:55Z	2016-07-19T11:39:40Z	2016-07-19T11:39:40Z	repl: surrogate pair upsets repl / terminal	43		
 729	289174	false	closed	false	8		2015-02-05T20:00:25Z	2016-06-29T11:12:13Z	2016-06-29T11:12:13Z	Converge Tracing/Profiling to Native Set of Hooks	49		
@@ -18,6 +18,7 @@
 854	172	false	open	false	67		2015-02-15T19:37:43Z	2016-09-03T09:46:48Z		os x: FSEventStreamFlushSync assertions logged to console	100		
 855	617481	false	open	false	16		2015-02-15T21:57:32Z	2016-08-11T16:02:47Z		vm: references to context inside objects are not === the original context	58		
 862	17607	false	closed	false	8		2015-02-17T05:55:09Z	2016-09-07T13:55:17Z	2015-05-06T21:14:16Z	spawn's stdio can result in stderr being closed in child	158		
+947	707147	false	open	false	8		2015-02-25T02:05:54Z	2016-10-13T15:04:37Z		EPIPE errors thrown when piping to a closed stream	363		
 983	6731985	false	open	false	17		2015-02-27T03:19:51Z	2016-09-20T10:37:18Z		Tab completion for block-scoped variables doesn't work in REPL	60		
 1128	36662	false	open	false	17		2015-03-11T22:48:11Z	2016-08-29T14:15:29Z		feature request: a way to inspect what's in the event loop	137		
 1271	275871	false	open	false	11		2015-03-26T15:30:40Z	2016-09-17T21:21:22Z		timer,domain: timers don't maintain order after exception	62		
@@ -2157,7 +2158,7 @@
 9035	114976	true	closed	false	0	0	2016-10-11T20:00:05Z	2016-10-11T20:02:44Z	2016-10-11T20:02:44Z	validate arguments to mustCall(), default value	76		
 9036	1093990	false	open	false	0		2016-10-11T20:10:42Z	2016-10-11T20:10:42Z		consider printing Experimental warnings for all Experimental APIs	40		
 9037	498775	true	open	false	3		2016-10-11T20:28:49Z	2016-10-11T23:45:24Z		ares_create_query: avoid single-byte buffer overwrite	64		
-9038	439929	true	open	false			2016-10-11T21:16:00Z	2016-10-13T14:59:29Z		buffer: add buffer.transcode	93		
+9038	439929	true	open	false	3		2016-10-11T21:16:00Z	2016-10-13T15:13:04Z		buffer: add buffer.transcode	93		
 9039	580982	false	open	false	4		2016-10-11T22:04:02Z	2016-10-12T10:24:40Z		Array Joining is slower in Node 6.x	297		
 9040	439929	true	open	false			2016-10-11T22:23:30Z	2016-10-13T14:17:13Z		readline: use icu based string width calculation	113		
 9041	439929	true	closed	false	7		2016-10-11T22:32:38Z	2016-10-12T16:38:29Z	2016-10-12T02:20:47Z	url: fix building when using --without-intl	42		
