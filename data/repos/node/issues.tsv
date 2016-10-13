@@ -1775,7 +1775,7 @@
 8652	718899	true	closed	false	13		2016-09-19T01:28:41Z	2016-10-07T02:09:18Z	2016-09-24T22:46:16Z	test: skip cpu-intensive tests on slow hosts	72		
 8653	16150723	false	closed	false	2		2016-09-19T07:02:58Z	2016-09-20T07:13:54Z	2016-09-19T07:26:49Z	chmodSync is not recursive	39		
 8654	4899192	false	closed	false	3		2016-09-19T09:34:30Z	2016-09-21T10:18:06Z	2016-09-19T10:41:31Z	Date.toLocalString() return incorrect string	121		
-8655	54666	true	closed	false	12		2016-09-19T17:44:41Z	2016-10-13T18:47:02Z	2016-10-05T07:13:14Z	timers: improve setImmediate() performance	74		
+8655	54666	true	closed	false	14		2016-09-19T17:44:41Z	2016-10-13T19:13:51Z	2016-10-05T07:13:14Z	timers: improve setImmediate() performance	74		
 8656	718899	false	closed	false	27		2016-09-19T21:41:35Z	2016-10-03T21:48:34Z	2016-10-03T21:48:34Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-09-21	477		
 8657	287917	true	open	false	0	0	2016-09-19T23:54:10Z	2016-09-19T23:54:10Z		inspector: wait longer on shutdown	49		
 8658	54666	true	closed	false	8	4	2016-09-20T00:16:22Z	2016-09-20T23:06:22Z	2016-09-20T23:06:22Z	src: return static buffer on malloc(0)	74		
@@ -1947,7 +1947,7 @@
 8824	677994	true	open	false	2		2016-09-28T11:02:03Z	2016-10-12T10:35:32Z		tools: fix release script on macOS 10.12	81		
 8825	275871	false	closed	false	3		2016-09-28T11:42:34Z	2016-10-07T22:36:44Z	2016-10-07T07:52:00Z	doc: dead external link in fs.md	11		
 8826	101553	true	open	false	4		2016-09-28T12:24:50Z	2016-09-30T15:00:57Z		doc: fix typo in repl doc	42		
-8827	2522448	false	open	false	1		2016-09-28T12:42:21Z	2016-10-07T07:47:34Z		Memory leak for https.request() on ECONNRESET	173		
+8827	2522448	false	open	false	2		2016-09-28T12:42:21Z	2016-10-13T19:54:16Z		Memory leak for https.request() on ECONNRESET	173		
 8828	52195	false	closed	false	8		2016-09-28T12:57:21Z	2016-10-10T16:22:33Z	2016-10-10T16:22:33Z	fs: make process.stdout and stderr descend from Writable.	109		
 8829	8880102	false	open	false	0		2016-09-28T14:47:18Z	2016-09-28T14:47:18Z		 ..	6		
 8830	899444	true	closed	false	16		2016-09-28T15:03:31Z	2016-10-11T16:50:26Z	2016-10-10T16:22:22Z	fs: make `SyncWriteStream` inherit from `Writable`	101		
@@ -2169,12 +2169,12 @@
 9046	7913893	false	open	false	0		2016-10-12T02:47:43Z	2016-10-12T02:47:43Z		fs.ReadStrem.read(size) trigger 'readable' event twice or once	137		
 9047	4481528	true	open	false	1		2016-10-12T03:57:32Z	2016-10-12T17:54:06Z		console: naming anonymous functions	32		
 9048	718899	false	open	false	0		2016-10-12T04:51:50Z	2016-10-12T04:51:50Z		inspect flaky test-tls-wrap-timeout on ubuntu1604_docker_alpine34-64	36		
-9049	12400507	true	open	false	4		2016-10-12T05:31:57Z	2016-10-12T20:35:21Z		eslint: avoid let in for loops	47		
+9049	12400507	true	open	false			2016-10-12T05:31:57Z	2016-10-13T19:20:58Z		eslint: avoid let in for loops	47		
 9050	8938552	false	open	false	3		2016-10-12T06:51:17Z	2016-10-12T21:36:09Z		SIGINT and loops	304		
 9051	7273940	true	open	false	0	0	2016-10-12T07:41:58Z	2016-10-12T07:41:58Z		assert: name anonymous functions	15		
 9052	7273940	true	open	false	2		2016-10-12T07:52:47Z	2016-10-12T10:49:37Z		dns: name anonymous functions	15		
 9053	432351	true	open	false	3		2016-10-12T09:03:31Z	2016-10-12T11:07:33Z		build: fix config.gypi target	253		
-9054	7273940	true	open	false			2016-10-12T11:07:31Z	2016-10-12T14:19:47Z		http: name anonymous functions	15		
+9054	7273940	true	open	false			2016-10-12T11:07:31Z	2016-10-13T19:37:06Z		http: name anonymous functions	15		
 9055	7273940	true	open	false	1		2016-10-12T11:08:26Z	2016-10-12T13:25:32Z		http_client: name anonymous functions	15		
 9056	27926	false	open	false	5		2016-10-12T13:29:43Z	2016-10-13T14:44:51Z		Should switch classes to define class and fix name anonymous functions?	34		
 9057	4280527	false	open	false	0		2016-10-12T13:48:13Z	2016-10-12T14:30:38Z		Modify https.globalAgent doesn't effect	76		
@@ -2204,3 +2204,5 @@
 9081	2247211	false	open	false	0		2016-10-13T14:18:20Z	2016-10-13T14:18:20Z		NodeJS started to serve static files very slowly	283		
 9082	13630254	false	open	false	0		2016-10-13T16:18:08Z	2016-10-13T16:18:08Z		watch always fires rename event	35		
 9083	275871	false	open	false	0		2016-10-13T18:57:47Z	2016-10-13T18:57:47Z		src: squelch unused function warnings in util.h	139		
+9084	1093990	false	open	false	0		2016-10-13T19:13:27Z	2016-10-13T19:13:27Z		SetImmediate regression in v6.8.0	192		
+9085	1735343	false	open	false	0		2016-10-13T19:36:57Z	2016-10-13T19:36:57Z		HTTP client strange behavior when server responds immediately without reading request body	142		
