@@ -8,7 +8,7 @@
 550	30827	false	closed	false	10		2015-01-22T05:35:22Z	2016-08-05T22:14:53Z	2016-08-05T22:14:53Z	Proposal: HTTP – Move `bodyHead` to `data` event	125		
 583	643505	false	open	false	46		2015-01-23T23:53:00Z	2016-10-07T08:24:46Z		streaming / iterative fs.readdir	48		
 643	829734	false	open	false	31		2015-01-28T21:12:32Z	2016-08-05T22:17:03Z		Using faster url parser	82		
-678	643505	false	open	false	5		2015-01-31T00:58:15Z	2016-08-29T14:13:38Z		make crypto functions execute in the threadpool asynchronously	83		
+678	643505	false	open	false	7		2015-01-31T00:58:15Z	2016-10-13T14:12:55Z		make crypto functions execute in the threadpool asynchronously	83		
 684	115237	false	closed	false	6		2015-01-31T22:25:05Z	2016-08-18T20:24:09Z	2015-02-01T18:41:19Z	path: tilde expansion	123		
 690	275871	false	closed	false	14		2015-02-02T15:19:55Z	2016-07-19T11:39:40Z	2016-07-19T11:39:40Z	repl: surrogate pair upsets repl / terminal	43		
 729	289174	false	closed	false	8		2015-02-05T20:00:25Z	2016-06-29T11:12:13Z	2016-06-29T11:12:13Z	Converge Tracing/Profiling to Native Set of Hooks	49		
@@ -219,7 +219,7 @@
 5588	17536109	false	closed	false	10		2016-03-07T13:45:01Z	2016-10-07T08:09:57Z	2016-10-07T08:09:57Z	Assertion failed: (r) == (0), file src\cares_wrap.cc, line 1262	35		
 5599	711968	true	open	false	6		2016-03-08T15:41:12Z	2016-08-04T03:20:18Z		Bugfix cpplint windows path	103		
 5608	7340772	false	open	false	10		2016-03-08T23:13:41Z	2016-08-10T20:06:17Z		vi style bindings in node interpreter	101		
-5620	1937871	false	open	false	4		2016-03-09T09:37:47Z	2016-10-13T12:36:57Z		`process.stdin` never returns with using Git Bash for Windows	207		
+5620	1937871	false	open	false	4		2016-03-09T09:37:47Z	2016-10-13T14:06:09Z		`process.stdin` never returns with using Git Bash for Windows	207		
 5636	1242946	false	closed	false	44		2016-03-10T02:19:40Z	2016-10-12T09:24:12Z	2016-10-12T09:24:12Z	degrading performance after using child_process	198		
 5637	41373	false	closed	false	3		2016-03-10T02:42:07Z	2016-10-12T10:43:45Z	2016-10-12T10:43:45Z	execFile hangs when child process exits, but has disowned children	103		
 5656	495647	true	open	false	6		2016-03-11T07:32:35Z	2016-08-09T22:05:50Z		 Refactor mac installer (built on #2571)	312		
@@ -1437,7 +1437,7 @@
 8315	2499504	true	closed	false	6		2016-08-29T02:37:55Z	2016-09-02T21:57:07Z	2016-09-02T21:57:07Z	doc: add .md to the link	51		
 8316	5234060	false	open	false	4		2016-08-29T02:56:58Z	2016-09-12T12:30:32Z		`want_separate_host_toolset` wrongly set=0 for android x64 on Mac/Linux(also 64bit)	128		
 8317	2352663	true	closed	false	56		2016-08-29T07:41:54Z	2016-09-27T05:55:03Z	2016-09-22T07:57:32Z	deps: update V8 to 5.4	49		
-8318	413206	false	closed	false	2		2016-08-29T11:24:44Z	2016-08-29T14:17:47Z	2016-08-29T14:17:47Z	Does a createCipheriv stream execute in the threadpool or the main thread?	69		
+8318	413206	false	closed	false	3		2016-08-29T11:24:44Z	2016-10-13T14:16:54Z	2016-08-29T14:17:47Z	Does a createCipheriv stream execute in the threadpool or the main thread?	69		
 8319	7109350	false	open	false	0		2016-08-29T12:13:58Z	2016-08-29T12:13:58Z		repl autocompletion is off for `const` and `let` variables	65		
 8320	11850893	false	closed	false	1		2016-08-29T12:51:42Z	2016-08-29T13:09:40Z	2016-08-29T13:09:40Z	Problem in read JSON with FS	60		
 8321	3726484	false	open	false	7		2016-08-29T13:37:18Z	2016-08-29T16:37:55Z		URL parameters containing russian/chinese language characters are not escaped properly	132		
@@ -1868,7 +1868,7 @@
 8746	860364	false	closed	false	2		2016-09-23T18:28:49Z	2016-09-23T19:48:25Z	2016-09-23T19:48:25Z	global has two different behaviour with the same logic	84		
 8747	5076519	false	closed	false	13		2016-09-23T18:46:49Z	2016-09-24T13:14:43Z	2016-09-24T13:14:43Z	Unsafe parsing of URLs	298		
 8748	287917	true	closed	false	1	3	2016-09-23T18:50:06Z	2016-09-26T16:28:47Z	2016-09-26T16:28:47Z	test: use Buffer.from	43		
-8749	1813603	true	open	false	12		2016-09-23T19:07:34Z	2016-10-13T12:34:47Z		Add NODE_PRESERVE_SYMLINKS environment variable	58		
+8749	1813603	true	open	false	14		2016-09-23T19:07:34Z	2016-10-13T14:27:17Z		Add NODE_PRESERVE_SYMLINKS environment variable	58		
 8750	9373002	false	closed	false	8		2016-09-23T20:25:54Z	2016-10-05T14:25:27Z	2016-10-05T14:25:27Z	V8: v8tests.mjsunit/regress/regress-crbug-514081 failure on PPC BE	45		
 8751	291301	true	closed	false	6		2016-09-23T20:57:02Z	2016-10-07T02:34:02Z	2016-10-06T22:29:25Z	dgram: use Buffer.alloc(0) for zero-size buffers	74		
 8752	122831	false	open	false	6		2016-09-23T21:14:21Z	2016-09-28T01:35:00Z		cannot use tls.TLSSocket created from net.Socket after first 'data' event	348		
@@ -2157,11 +2157,11 @@
 9035	114976	true	closed	false	0	0	2016-10-11T20:00:05Z	2016-10-11T20:02:44Z	2016-10-11T20:02:44Z	validate arguments to mustCall(), default value	76		
 9036	1093990	false	open	false	0		2016-10-11T20:10:42Z	2016-10-11T20:10:42Z		consider printing Experimental warnings for all Experimental APIs	40		
 9037	498775	true	open	false	3		2016-10-11T20:28:49Z	2016-10-11T23:45:24Z		ares_create_query: avoid single-byte buffer overwrite	64		
-9038	439929	true	open	false			2016-10-11T21:16:00Z	2016-10-13T07:46:08Z		buffer: add buffer.transcode	93		
+9038	439929	true	open	false			2016-10-11T21:16:00Z	2016-10-13T14:59:29Z		buffer: add buffer.transcode	93		
 9039	580982	false	open	false	4		2016-10-11T22:04:02Z	2016-10-12T10:24:40Z		Array Joining is slower in Node 6.x	297		
-9040	439929	true	open	false	6		2016-10-11T22:23:30Z	2016-10-12T15:14:50Z		readline: use icu based string width calculation	113		
+9040	439929	true	open	false			2016-10-11T22:23:30Z	2016-10-13T14:17:13Z		readline: use icu based string width calculation	113		
 9041	439929	true	closed	false	7		2016-10-11T22:32:38Z	2016-10-12T16:38:29Z	2016-10-12T02:20:47Z	url: fix building when using --without-intl	42		
-9042	677994	true	open	false			2016-10-11T23:22:40Z	2016-10-12T15:34:34Z		process: add emitExperimentalWarning()	89		
+9042	677994	true	open	false			2016-10-11T23:22:40Z	2016-10-13T14:22:29Z		process: add emitExperimentalWarning()	89		
 9043	10355544	true	open	false	1		2016-10-11T23:29:54Z	2016-10-12T17:35:09Z		doc: correctly reference where to list hash algorithms.	62		
 9044	12400507	true	open	false			2016-10-12T01:42:40Z	2016-10-13T05:24:34Z		doc: explain why we don't use the GitHub merge button	67		
 9045	498775	false	open	false	5		2016-10-12T02:34:36Z	2016-10-13T01:00:27Z		Create Lint Rule to avoid `let` in `for` loops	41		
@@ -2175,7 +2175,7 @@
 9053	432351	true	open	false	3		2016-10-12T09:03:31Z	2016-10-12T11:07:33Z		build: fix config.gypi target	253		
 9054	7273940	true	open	false			2016-10-12T11:07:31Z	2016-10-12T14:19:47Z		http: name anonymous functions	15		
 9055	7273940	true	open	false	1		2016-10-12T11:08:26Z	2016-10-12T13:25:32Z		http_client: name anonymous functions	15		
-9056	27926	false	open	false	5		2016-10-12T13:29:43Z	2016-10-13T13:00:08Z		Should switch classes to define class and fix name anonymous functions?	34		
+9056	27926	false	open	false	5		2016-10-12T13:29:43Z	2016-10-13T14:44:51Z		Should switch classes to define class and fix name anonymous functions?	34		
 9057	4280527	false	open	false	0		2016-10-12T13:48:13Z	2016-10-12T14:30:38Z		Modify https.globalAgent doesn't effect	76		
 9058	7273940	true	closed	false	0	2	2016-10-12T13:51:19Z	2016-10-13T09:35:41Z	2016-10-13T09:35:41Z	http: name anonymous functions in _http_client	15		
 9059	7273940	true	closed	false	0	0	2016-10-12T13:51:41Z	2016-10-13T09:36:15Z	2016-10-13T09:36:15Z	http: name anonymous functions in _http_outgoing	15		
@@ -2191,7 +2191,7 @@
 9069	2148448	false	open	false	1		2016-10-12T23:57:01Z	2016-10-13T01:14:31Z		http core module issue	117		
 9070	9373002	true	open	false			2016-10-13T01:35:04Z	2016-10-13T08:44:22Z		doc: add CTC meeting minutes for 2016-10-12	24		
 9071	495647	true	open	false	0	0	2016-10-13T02:19:59Z	2016-10-13T02:19:59Z		tools: release signing improvements	218		
-9072	718899	true	open	false			2016-10-13T04:42:12Z	2016-10-13T06:05:56Z		doc: add ctc-review label information	32		
+9072	718899	true	open	false	1		2016-10-13T04:42:12Z	2016-10-13T14:06:21Z		doc: add ctc-review label information	32		
 9073	718899	true	open	false	0	0	2016-10-13T05:15:53Z	2016-10-13T05:15:53Z		doc: remove confusing reference in governance doc	109		
 9074	718899	false	open	false	1		2016-10-13T06:08:31Z	2016-10-13T13:02:58Z		test-npm-install failing on freebsd11-x64	62		
 9075	748856	false	open	false	0		2016-10-13T07:07:16Z	2016-10-13T07:07:16Z		Does nodejs have interface definition language(.idl) files for automatic generation of bindings in alternative javascript languages?	24		
@@ -2199,4 +2199,5 @@
 9077	2227152	true	open	false	2		2016-10-13T07:48:40Z	2016-10-13T11:42:12Z		build: add -DZLIB_CONST when building with --shared-zlib	83		
 9078	7920569	false	closed	false	1		2016-10-13T09:32:53Z	2016-10-13T10:10:54Z	2016-10-13T10:10:54Z	about getter/setter	59		
 9079	134460	true	open	false	0	0	2016-10-13T13:01:53Z	2016-10-13T13:01:53Z		test: use npm sandbox in test-npm-install	142		
-9080	3035	false	open	false	0		2016-10-13T13:36:58Z	2016-10-13T13:36:58Z		Cipher without output encoding does not return Buffer	124		
+9080	3035	false	open	false	1		2016-10-13T13:36:58Z	2016-10-13T14:12:18Z		Cipher without output encoding does not return Buffer	124		
+9081	2247211	false	open	false	0		2016-10-13T14:18:20Z	2016-10-13T14:18:20Z		NodeJS started to serve static files very slowly	283		
