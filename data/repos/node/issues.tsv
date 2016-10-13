@@ -8,7 +8,7 @@
 550	30827	false	closed	false	10		2015-01-22T05:35:22Z	2016-08-05T22:14:53Z	2016-08-05T22:14:53Z	Proposal: HTTP – Move `bodyHead` to `data` event	125		
 583	643505	false	open	false	46		2015-01-23T23:53:00Z	2016-10-07T08:24:46Z		streaming / iterative fs.readdir	48		
 643	829734	false	open	false	31		2015-01-28T21:12:32Z	2016-08-05T22:17:03Z		Using faster url parser	82		
-678	643505	false	open	false	12		2015-01-31T00:58:15Z	2016-10-13T15:00:38Z		make crypto functions execute in the threadpool asynchronously	83		
+678	643505	false	open	false	13		2015-01-31T00:58:15Z	2016-10-13T17:12:40Z		make crypto functions execute in the threadpool asynchronously	83		
 684	115237	false	closed	false	6		2015-01-31T22:25:05Z	2016-08-18T20:24:09Z	2015-02-01T18:41:19Z	path: tilde expansion	123		
 690	275871	false	closed	false	14		2015-02-02T15:19:55Z	2016-07-19T11:39:40Z	2016-07-19T11:39:40Z	repl: surrogate pair upsets repl / terminal	43		
 729	289174	false	closed	false	8		2015-02-05T20:00:25Z	2016-06-29T11:12:13Z	2016-06-29T11:12:13Z	Converge Tracing/Profiling to Native Set of Hooks	49		
@@ -2052,7 +2052,7 @@
 8929	2725611	false	open	false	0		2016-10-04T20:43:13Z	2016-10-04T20:43:13Z		Replace .eslintrc with something else?	42		
 8930	718899	false	open	false	0		2016-10-04T22:57:12Z	2016-10-05T16:51:59Z		investigate flaky sequential/test-net-GH-5504 on SmartOS	113		
 8931	718899	true	open	false	5		2016-10-04T23:19:51Z	2016-10-06T21:46:00Z		test: refactor test-net-server-max-connections	66		
-8932	677994	true	open	false	17		2016-10-04T23:34:01Z	2016-10-11T13:56:48Z		process: improve performance of nextTick	142		
+8932	677994	true	closed	false	17	6	2016-10-04T23:34:01Z	2016-10-13T17:18:02Z	2016-10-13T17:18:02Z	process: improve performance of nextTick	142		
 8933	1250248	true	closed	false	2		2016-10-05T03:34:32Z	2016-10-05T15:38:51Z	2016-10-05T15:38:51Z	doc: fix url markdown formatting	69		
 8934	11786120	false	open	false	8		2016-10-05T08:39:23Z	2016-10-06T17:19:24Z		readline: emitKeypressEvents does not properly recognize Alt+Arrow	76		
 8935	4057473	false	open	false	0		2016-10-05T09:42:53Z	2016-10-05T09:42:53Z		No reference error on nonexistent object value	105		
@@ -2129,7 +2129,7 @@
 9006	935710	false	open	false	4		2016-10-10T15:20:33Z	2016-10-11T08:31:37Z		buffer.length performance regressed in 6.5.0	59		
 9007	1141042	true	open	false	3		2016-10-10T16:35:59Z	2016-10-10T21:04:43Z		doc: errno is a number, not a string	93		
 9008	855219	true	open	false	2		2016-10-10T16:48:08Z	2016-10-10T17:01:03Z		intl: (v4.x) Don't crash if v8BreakIterator not available	61		
-9009	15943089	true	open	false	10		2016-10-10T17:02:31Z	2016-10-11T22:32:01Z		Add platform specific teams to onboarding-extras	195		
+9009	15943089	true	open	false	11		2016-10-10T17:02:31Z	2016-10-13T17:20:52Z		Add platform specific teams to onboarding-extras	211		
 9010	677994	true	open	false	1		2016-10-10T17:07:38Z	2016-10-12T16:20:12Z		http: improve invalid character in header error message	62		
 9011	22550884	true	closed	false	5		2016-10-10T17:10:34Z	2016-10-12T16:14:49Z	2016-10-12T16:14:48Z	test-debugger-pid: Somes fixes that do not change performance	18		
 9012	4400726	false	open	false	2		2016-10-10T19:50:52Z	2016-10-10T20:08:03Z		What makes a Socket idle?	124		
@@ -2158,7 +2158,7 @@
 9035	114976	true	closed	false	0	0	2016-10-11T20:00:05Z	2016-10-11T20:02:44Z	2016-10-11T20:02:44Z	validate arguments to mustCall(), default value	76		
 9036	1093990	false	open	false	0		2016-10-11T20:10:42Z	2016-10-11T20:10:42Z		consider printing Experimental warnings for all Experimental APIs	40		
 9037	498775	true	open	false	3		2016-10-11T20:28:49Z	2016-10-11T23:45:24Z		ares_create_query: avoid single-byte buffer overwrite	64		
-9038	439929	true	open	false	3		2016-10-11T21:16:00Z	2016-10-13T15:13:04Z		buffer: add buffer.transcode	93		
+9038	439929	true	open	false			2016-10-11T21:16:00Z	2016-10-13T17:14:52Z		buffer: add buffer.transcode	93		
 9039	580982	false	open	false	4		2016-10-11T22:04:02Z	2016-10-12T10:24:40Z		Array Joining is slower in Node 6.x	297		
 9040	439929	true	open	false			2016-10-11T22:23:30Z	2016-10-13T14:17:13Z		readline: use icu based string width calculation	113		
 9041	439929	true	closed	false	7		2016-10-11T22:32:38Z	2016-10-12T16:38:29Z	2016-10-12T02:20:47Z	url: fix building when using --without-intl	42		
@@ -2189,7 +2189,7 @@
 9066	238531	true	open	false	9		2016-10-12T20:41:31Z	2016-10-13T07:07:25Z		net: fix ambiguity in EOF handling	73		
 9067	134460	false	open	false	5		2016-10-12T21:34:37Z	2016-10-13T13:48:06Z		process.on beforeExit broken on Windows	182		
 9068	8849761	true	closed	false	3	3	2016-10-12T22:17:45Z	2016-10-13T10:48:21Z	2016-10-13T10:48:21Z	console: using class	38		
-9069	2148448	false	open	false	1		2016-10-12T23:57:01Z	2016-10-13T01:14:31Z		http core module issue	117		
+9069	2148448	false	open	false	2		2016-10-12T23:57:01Z	2016-10-13T18:00:26Z		http core module issue	117		
 9070	9373002	true	open	false			2016-10-13T01:35:04Z	2016-10-13T08:44:22Z		doc: add CTC meeting minutes for 2016-10-12	24		
 9071	495647	true	open	false	0		2016-10-13T02:19:59Z	2016-10-13T16:02:31Z		tools: release signing improvements	218		
 9072	718899	true	open	false	1		2016-10-13T04:42:12Z	2016-10-13T14:06:21Z		doc: add ctc-review label information	32		
