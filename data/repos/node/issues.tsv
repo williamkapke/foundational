@@ -255,6 +255,7 @@
 6131	2361826	false	closed	false	6		2016-04-09T10:47:11Z	2016-08-17T20:43:10Z	2016-08-17T20:43:10Z	Move .eslintrc to json or yaml	58		
 6141	899444	true	open	false	1		2016-04-11T03:27:06Z	2016-08-09T21:56:02Z		zlib: Support for reading/writing Gzip headers	222		
 6160	110455	false	open	false	12		2016-04-12T00:26:17Z	2016-09-02T14:05:29Z		Clearing require.cache of native addon makes it throw when required later.	216		
+6171	1088987	true	open	false	3		2016-04-12T19:50:49Z	2016-10-14T19:21:46Z		repl: refactor `LineParser` implementation	94		
 6180	3824055	false	closed	false	18		2016-04-13T14:03:54Z	2016-07-26T17:44:29Z	2016-07-26T17:44:29Z	Memory leak in simple test case involving WeakSet	202		
 6181	6279791	false	closed	false	5		2016-04-13T14:17:30Z	2016-09-27T13:15:32Z	2016-04-13T17:24:17Z	Uncaught TypeError when tab-completing constructor in REPL	66		
 6184	289174	true	closed	false	28		2016-04-13T19:21:38Z	2016-10-10T16:16:56Z	2016-05-24T20:44:10Z	src: no abort from GetFD if object isn't wrapped	88		
@@ -300,7 +301,7 @@
 6506	16545322	false	closed	false	5		2016-05-01T19:30:49Z	2016-07-11T18:02:53Z	2016-07-11T18:02:53Z	doc: dns.resolve wrong callback addresses argument description	31		
 6520	1038062	false	closed	false	1		2016-05-02T11:15:05Z	2016-08-30T19:31:00Z	2016-08-30T19:31:00Z	doc: isabsolute() windows examples use wrong path separator	26		
 6521	277251	false	open	false	3		2016-05-02T12:42:14Z	2016-08-12T17:28:46Z		Building for Android not possible with snapshot	29		
-6522	3899684	true	open	false	2		2016-05-02T14:29:06Z	2016-10-14T18:57:57Z		doc: add guides to (navigational) _toc.md	114		
+6522	3899684	true	open	false	4		2016-05-02T14:29:06Z	2016-10-14T19:01:05Z		doc: add guides to (navigational) _toc.md	114		
 6525	5750	false	closed	false	6		2016-05-02T15:58:56Z	2016-06-27T17:25:01Z	2016-06-27T17:25:01Z	Result of outer generator .return method incorrect if delegate iterator has no .return method	115		
 6526	2024235	false	closed	false	9		2016-05-02T18:45:42Z	2016-07-11T21:08:24Z	2016-05-02T19:12:07Z	import??	53		
 6528	291301	false	open	false	19		2016-05-02T20:27:59Z	2016-08-06T20:58:05Z		API stability level «Locked» is inaccurate	167		
@@ -2175,7 +2176,7 @@
 9052	7273940	true	open	false	2		2016-10-12T07:52:47Z	2016-10-12T10:49:37Z		dns: name anonymous functions	15		
 9053	432351	true	closed	false	6	2	2016-10-12T09:03:31Z	2016-10-14T05:43:26Z	2016-10-14T05:43:26Z	build: fix config.gypi target	253		
 9054	7273940	true	open	false			2016-10-12T11:07:31Z	2016-10-13T19:37:06Z		http: name anonymous functions	15		
-9055	7273940	true	open	false	3		2016-10-12T11:08:26Z	2016-10-13T20:12:07Z		http: name anonymous functions	15		
+9055	7273940	true	open	false	4		2016-10-12T11:08:26Z	2016-10-14T19:11:36Z		http: name anonymous functions	15		
 9056	27926	false	open	false	5		2016-10-12T13:29:43Z	2016-10-13T14:44:51Z		Should switch classes to define class and fix name anonymous functions?	34		
 9057	4280527	false	open	false	0		2016-10-12T13:48:13Z	2016-10-12T14:30:38Z		Modify https.globalAgent doesn't effect	76		
 9058	7273940	true	closed	false	0	2	2016-10-12T13:51:19Z	2016-10-13T09:35:41Z	2016-10-13T09:35:41Z	http: name anonymous functions in _http_client	15		
@@ -2184,8 +2185,8 @@
 9061	54666	false	open	false	3		2016-10-12T16:02:25Z	2016-10-12T18:48:09Z		benchmark: 'NA' appended to filename in compare.R output	62		
 9062	13561163	true	open	false	4		2016-10-12T18:24:38Z	2016-10-14T16:10:37Z		change for a deprecated method: SetNamedPropertyHandler() to SetHandler()	90		
 9063	3442602	false	open	false	6		2016-10-12T18:41:21Z	2016-10-13T18:23:57Z		assert.js rule 7.4 (similar to CJS rule 7.3)	241		
-9064	505333	true	open	false	3		2016-10-12T18:47:06Z	2016-10-14T17:25:02Z		Benchmark fixes	178		
-9065	13483453	true	open	false			2016-10-12T20:17:30Z	2016-10-14T17:07:52Z		doc: better example for http.get	206		
+9064	505333	true	open	false	4		2016-10-12T18:47:06Z	2016-10-14T19:29:38Z		Benchmark fixes	178		
+9065	13483453	true	open	false			2016-10-12T20:17:30Z	2016-10-14T19:45:04Z		doc: better example for http.get	206		
 9066	238531	true	closed	false	10	2	2016-10-12T20:41:31Z	2016-10-14T13:40:43Z	2016-10-14T13:40:43Z	net: fix ambiguity in EOF handling	73		
 9067	134460	false	open	false	5		2016-10-12T21:34:37Z	2016-10-13T13:48:06Z		process.on beforeExit broken on Windows	182		
 9068	8849761	true	closed	false	3	3	2016-10-12T22:17:45Z	2016-10-13T10:48:21Z	2016-10-13T10:48:21Z	console: using class	38		
@@ -2208,7 +2209,7 @@
 9085	1735343	false	open	false	4		2016-10-13T19:36:57Z	2016-10-14T10:21:59Z		HTTP client strange behavior when server responds immediately without reading request body	142		
 9086	54666	true	open	false			2016-10-13T22:07:36Z	2016-10-14T01:07:12Z		timers: fix regression with clearImmediate()	70		
 9087	1093990	false	open	false	2		2016-10-13T22:08:11Z	2016-10-13T23:47:36Z		v6.8.1 patch release?	42		
-9088	899444	true	open	false			2016-10-13T22:14:31Z	2016-10-14T08:14:47Z		stream: fix `Writable` subclass instanceof checks	86		
+9088	899444	true	open	false	3		2016-10-13T22:14:31Z	2016-10-14T19:46:55Z		stream: fix `Writable` subclass instanceof checks	86		
 9089	988441	true	open	false	0	0	2016-10-13T22:31:26Z	2016-10-13T22:31:26Z		doc: fix typo	27		
 9090	11139560	false	open	false	5		2016-10-13T22:44:07Z	2016-10-14T18:06:50Z		feature request - callbacks in exit handlers - to block even if async code is used	245		
 9091	899444	false	open	false	2		2016-10-13T23:23:04Z	2016-10-14T15:50:09Z		Process around new contributors in Node core	438		
@@ -2218,5 +2219,8 @@
 9095	1017132	true	open	false	0	0	2016-10-14T11:11:47Z	2016-10-14T11:11:47Z		doc: further improve child_process doc types	39		
 9096	4437609	false	open	false	1		2016-10-14T15:53:06Z	2016-10-14T17:10:50Z		Buffer.slice unexpected behavior	168		
 9097	432351	true	open	false	0	0	2016-10-14T18:10:25Z	2016-10-14T18:10:25Z		src: make Environment optional for RunAtExit	73		
-9098	718899	true	open	false	0	0	2016-10-14T18:14:04Z	2016-10-14T18:14:04Z		test: fix flaky test-child-process-fork-dgram	89		
-9099	439929	true	open	false	0	0	2016-10-14T18:39:47Z	2016-10-14T18:39:47Z		v7.0.0 Proposal (Actual)	5		
+9098	718899	true	open	false	5		2016-10-14T18:14:04Z	2016-10-14T19:26:50Z		test: fix flaky test-child-process-fork-dgram	89		
+9099	439929	true	open	false	2		2016-10-14T18:39:47Z	2016-10-14T19:03:42Z		v7.0.0 Proposal (Actual)	5		
+9100	14657580	true	open	false	0	0	2016-10-14T19:31:12Z	2016-10-14T19:31:12Z		doc: edit Stream api grammar	43		
+9101	696611	true	open	false	0	0	2016-10-14T19:32:45Z	2016-10-14T19:32:45Z		buffer: coerce slice parameters consistenly	204		
+9102	1652629	false	open	false	0		2016-10-14T19:37:40Z	2016-10-14T19:37:40Z		Event Loop link is broken	22		
