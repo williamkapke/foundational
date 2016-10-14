@@ -1864,7 +1864,7 @@
 8741	1935767	true	closed	false	0		2016-09-23T14:58:43Z	2016-09-26T16:23:04Z	2016-09-26T16:23:04Z	doc: improve child_process doc types	43		
 8742	1935767	true	closed	false	1	0	2016-09-23T15:09:35Z	2016-09-26T16:40:17Z	2016-09-26T16:40:17Z	doc,tool: add tls.TLSSocket to typeMap	33		
 8743	22397837	false	closed	false	2		2016-09-23T15:24:19Z	2016-09-26T14:29:09Z	2016-09-26T14:29:09Z	Demo Site for exploring nodejs features?	42		
-8744	275871	false	open	false	6		2016-09-23T16:22:28Z	2016-10-11T18:15:58Z		test,crypto: sequential/test-crypto-timing-safe-equal-benchmarks flaky locally	63		
+8744	275871	false	open	false	7		2016-09-23T16:22:28Z	2016-10-13T23:44:05Z		test,crypto: sequential/test-crypto-timing-safe-equal-benchmarks flaky locally	63		
 8745	7698377	false	open	false	7		2016-09-23T17:02:15Z	2016-09-25T06:01:14Z		"Cygwin 'configure' call fails with ""Warning: Missing input files:"""	163		
 8746	860364	false	closed	false	2		2016-09-23T18:28:49Z	2016-09-23T19:48:25Z	2016-09-23T19:48:25Z	global has two different behaviour with the same logic	84		
 8747	5076519	false	closed	false	13		2016-09-23T18:46:49Z	2016-09-24T13:14:43Z	2016-09-24T13:14:43Z	Unsafe parsing of URLs	298		
@@ -1990,7 +1990,7 @@
 8867	4069476	false	closed	false	4		2016-09-30T19:15:02Z	2016-10-03T10:55:08Z	2016-10-03T10:55:08Z	Cannot Build Node.js 6.7.0 on CorePure64 Tinycore Linux	361		
 8868	899444	true	open	false	0	0	2016-09-30T20:13:21Z	2016-09-30T20:13:21Z		v4.x backport: doc: use blockquotes for Stability: markers	7		
 8869	899444	true	open	false	0	0	2016-09-30T20:21:49Z	2016-09-30T20:21:49Z		v4.x backport: doc: add `added:` information for cluster	13		
-8870	287917	true	open	false			2016-09-30T21:28:57Z	2016-10-12T09:03:37Z		test: fix issues reported by Coverity	60		
+8870	287917	true	closed	false	5	5	2016-09-30T21:28:57Z	2016-10-13T23:27:38Z	2016-10-13T23:27:38Z	test: fix issues reported by Coverity	60		
 8871	1034314	false	open	false	5		2016-09-30T21:45:21Z	2016-10-03T20:04:04Z		zlib deflate results in a memory leak	148		
 8872	1898870	true	open	false	0	0	2016-09-30T22:13:22Z	2016-09-30T22:13:22Z		v4.x backport: url: fix inconsistent port in url.resolveObject	6		
 8873	498775	true	closed	false	8		2016-09-30T22:33:37Z	2016-10-04T16:09:44Z	2016-10-04T15:34:33Z	meta: remove let from for loops	67		
@@ -2197,7 +2197,7 @@
 9074	718899	false	open	false	3		2016-10-13T06:08:31Z	2016-10-13T16:08:29Z		test-npm-install failing on freebsd 10/11	62		
 9075	748856	false	open	false	0		2016-10-13T07:07:16Z	2016-10-13T07:07:16Z		Does nodejs have interface definition language(.idl) files for automatic generation of bindings in alternative javascript languages?	24		
 9076	1006477	false	open	false	4		2016-10-13T07:46:35Z	2016-10-13T16:19:14Z		6.8.0 fails to compile on Arch	69		
-9077	2227152	true	open	false	5		2016-10-13T07:48:40Z	2016-10-13T20:33:05Z		build: add -DZLIB_CONST when building with --shared-zlib	83		
+9077	2227152	true	open	false	6		2016-10-13T07:48:40Z	2016-10-13T23:44:41Z		build: add -DZLIB_CONST when building with --shared-zlib	83		
 9078	7920569	false	closed	false	1		2016-10-13T09:32:53Z	2016-10-13T10:10:54Z	2016-10-13T10:10:54Z	about getter/setter	59		
 9079	134460	true	open	false	1		2016-10-13T13:01:53Z	2016-10-13T16:07:14Z		test: use npm sandbox in test-npm-install	142		
 9080	3035	false	closed	false	1		2016-10-13T13:36:58Z	2016-10-13T18:32:40Z	2016-10-13T18:32:40Z	Cipher without output encoding does not return Buffer	124		
@@ -2206,8 +2206,9 @@
 9083	275871	false	open	false	0		2016-10-13T18:57:47Z	2016-10-13T18:57:47Z		src: squelch unused function warnings in util.h	139		
 9084	1093990	false	open	false	8		2016-10-13T19:13:27Z	2016-10-13T22:10:05Z		setImmediate regression in v6.8.0	199		
 9085	1735343	false	open	false	0		2016-10-13T19:36:57Z	2016-10-13T19:36:57Z		HTTP client strange behavior when server responds immediately without reading request body	142		
-9086	54666	true	open	false	0	0	2016-10-13T22:07:36Z	2016-10-13T22:07:36Z		timers: fix regression with clearImmediate()	66		
-9087	1093990	false	open	false	0		2016-10-13T22:08:11Z	2016-10-13T22:08:11Z		v6.8.1 patch release?	42		
-9088	899444	true	open	false	0	0	2016-10-13T22:14:31Z	2016-10-13T22:14:31Z		stream: fix `Writable` subclass instanceof checks	86		
+9086	54666	true	open	false			2016-10-13T22:07:36Z	2016-10-13T23:34:02Z		timers: fix regression with clearImmediate()	70		
+9087	1093990	false	open	false	2		2016-10-13T22:08:11Z	2016-10-13T23:47:36Z		v6.8.1 patch release?	42		
+9088	899444	true	open	false	2		2016-10-13T22:14:31Z	2016-10-13T23:52:00Z		stream: fix `Writable` subclass instanceof checks	86		
 9089	988441	true	open	false	0	0	2016-10-13T22:31:26Z	2016-10-13T22:31:26Z		doc: fix typo	27		
-9090	11139560	false	open	false	0		2016-10-13T22:44:07Z	2016-10-13T22:44:07Z		temp title	183		
+9090	11139560	false	open	false	2		2016-10-13T22:44:07Z	2016-10-13T23:27:43Z		feature request - callbacks in exit handlers - to block even if async code is used	245		
+9091	899444	false	open	false	0		2016-10-13T23:23:04Z	2016-10-13T23:23:04Z		Process around new contributors in Node core	438		
