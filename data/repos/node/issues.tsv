@@ -20,6 +20,7 @@
 862	17607	false	closed	false	8		2015-02-17T05:55:09Z	2016-09-07T13:55:17Z	2015-05-06T21:14:16Z	spawn's stdio can result in stderr being closed in child	158		
 947	707147	false	open	false	8		2015-02-25T02:05:54Z	2016-10-13T15:04:37Z		EPIPE errors thrown when piping to a closed stream	363		
 983	6731985	false	open	false	17		2015-02-27T03:19:51Z	2016-09-20T10:37:18Z		Tab completion for block-scoped variables doesn't work in REPL	60		
+1013	176984	false	closed	false	43		2015-03-01T10:58:11Z	2016-10-15T18:42:52Z	2016-04-04T01:52:33Z	Replace deps/cares with pure-javascript alternative	207		
 1128	36662	false	open	false	17		2015-03-11T22:48:11Z	2016-08-29T14:15:29Z		feature request: a way to inspect what's in the event loop	137		
 1271	275871	false	open	false	11		2015-03-26T15:30:40Z	2016-09-17T21:21:22Z		timer,domain: timers don't maintain order after exception	62		
 1278	532414	false	closed	false	37		2015-03-26T19:55:14Z	2016-08-22T21:08:42Z	2016-02-12T21:20:04Z	Compressed packages	136		
@@ -2115,7 +2116,7 @@
 8990	696611	true	open	false	3		2016-10-09T14:30:15Z	2016-10-09T21:37:47Z		build: make node-gyp output silent	58		
 8991	11734962	true	open	false			2016-10-09T14:51:16Z	2016-10-11T11:20:29Z		doc: add url.resolve() method's behaviour	38		
 8992	11734962	true	open	false	0	0	2016-10-09T15:08:55Z	2016-10-09T15:08:55Z		doc: special cases in http module response body	40		
-8993	103052	true	open	false	9		2016-10-09T17:18:24Z	2016-10-12T14:22:25Z		crypto: naming anonymouse functions	35		
+8993	103052	true	open	false	11		2016-10-09T17:18:24Z	2016-10-15T18:37:14Z		crypto: naming anonymouse functions	35		
 8994	899444	true	open	false	5		2016-10-09T17:24:11Z	2016-10-10T15:38:13Z		module: allow but deprecate loading internals (in case it’s necessary)	109		
 8995	21203	true	closed	false	3		2016-10-09T18:52:49Z	2016-10-12T09:08:14Z	2016-10-12T09:08:14Z	crypto: use SSL_get_SSL_CTX.	86		
 8996	11734962	true	open	false	6		2016-10-09T18:54:20Z	2016-10-12T13:18:01Z		doc: net.Socket in TLSSocket	52		
@@ -2191,7 +2192,7 @@
 9066	238531	true	closed	false	10	2	2016-10-12T20:41:31Z	2016-10-14T13:40:43Z	2016-10-14T13:40:43Z	net: fix ambiguity in EOF handling	73		
 9067	134460	false	open	false	5		2016-10-12T21:34:37Z	2016-10-13T13:48:06Z		process.on beforeExit broken on Windows	182		
 9068	8849761	true	closed	false	3	3	2016-10-12T22:17:45Z	2016-10-13T10:48:21Z	2016-10-13T10:48:21Z	console: using class	38		
-9069	2148448	false	open	false	3		2016-10-12T23:57:01Z	2016-10-15T08:27:50Z		http core module issue	117		
+9069	2148448	false	open	false	4		2016-10-12T23:57:01Z	2016-10-15T18:12:24Z		http core module issue	117		
 9070	9373002	true	open	false	1		2016-10-13T01:35:04Z	2016-10-13T18:10:12Z		doc: add CTC meeting minutes for 2016-10-12	24		
 9071	495647	true	open	false	0		2016-10-13T02:19:59Z	2016-10-13T16:02:31Z		tools: release signing improvements	218		
 9072	718899	true	open	false	3		2016-10-13T04:42:12Z	2016-10-14T21:00:33Z		doc: add ctc-review label information	32		
@@ -2213,13 +2214,13 @@
 9088	899444	true	open	false	4		2016-10-13T22:14:31Z	2016-10-14T21:10:55Z		stream: fix `Writable` subclass instanceof checks	86		
 9089	988441	true	open	false	0	0	2016-10-13T22:31:26Z	2016-10-13T22:31:26Z		doc: fix typo	27		
 9090	11139560	false	open	false	5		2016-10-13T22:44:07Z	2016-10-14T18:06:50Z		feature request - callbacks in exit handlers - to block even if async code is used	245		
-9091	899444	false	open	false	8		2016-10-13T23:23:04Z	2016-10-15T12:28:15Z		Process around new contributors in Node core	438		
+9091	899444	false	open	false	9		2016-10-13T23:23:04Z	2016-10-15T18:13:05Z		Process around new contributors in Node core	438		
 9092	1767032	false	closed	false	3		2016-10-14T01:22:20Z	2016-10-14T08:11:46Z	2016-10-14T07:42:58Z	Node v6.8.0 breaks webpack via fsstream	115		
 9093	432351	true	open	false	1		2016-10-14T08:58:52Z	2016-10-14T09:19:01Z		test: enable node-module-version/test.js with debug	94		
 9094	5433874	false	closed	false	1		2016-10-14T09:59:31Z	2016-10-14T10:33:15Z	2016-10-14T10:33:15Z	Encountering problems while executing : npm install exec-sync	174		
 9095	1017132	true	open	false	0	0	2016-10-14T11:11:47Z	2016-10-14T11:11:47Z		doc: further improve child_process doc types	39		
 9096	4437609	false	open	false	1		2016-10-14T15:53:06Z	2016-10-14T17:10:50Z		Buffer.slice unexpected behavior	168		
-9097	432351	true	open	false	1		2016-10-14T18:10:25Z	2016-10-15T17:35:18Z		src: make Environment optional for RunAtExit	73		
+9097	432351	true	open	false	1		2016-10-14T18:10:25Z	2016-10-15T18:14:40Z		src: make Environment optional for RunAtExit	73		
 9098	718899	true	open	false	5		2016-10-14T18:14:04Z	2016-10-14T19:26:50Z		test: fix flaky test-child-process-fork-dgram	89		
 9099	439929	true	open	false	2		2016-10-14T18:39:47Z	2016-10-14T19:03:42Z		v7.0.0 Proposal (Actual)	5		
 9100	14657580	true	open	false			2016-10-14T19:31:12Z	2016-10-14T23:55:53Z		doc: edit Stream api grammar	43		
@@ -2232,3 +2233,5 @@
 9107	495647	true	open	false	0	0	2016-10-15T11:40:47Z	2016-10-15T11:40:47Z		tls: fix minor jslint failure for v0.10	37		
 9108	495647	true	open	false	0	0	2016-10-15T11:44:24Z	2016-10-15T11:44:24Z		deps: c-ares, avoid single-byte buffer overwrite	68		
 9109	1084056	true	open	false	0	0	2016-10-15T12:56:16Z	2016-10-15T12:56:16Z		test: fix test-cluster-dgram-1 flakiness - 4.x backport	82		
+9110	7834613	false	open	false	0		2016-10-15T18:04:59Z	2016-10-15T18:04:59Z		6.8.1 fails to fix const error for shared-zlib older than 1.2.5	95		
+9111	861819	true	open	false	0	0	2016-10-15T18:34:12Z	2016-10-15T18:34:12Z		add IntelliJ project file+directory to .gitignore	31		
