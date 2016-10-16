@@ -267,6 +267,7 @@
 6266	439929	true	closed	false	25		2016-04-19T04:04:21Z	2016-06-30T23:22:18Z	2016-04-21T19:15:04Z	src: add process.binding('config')	98		
 6269	1093990	true	open	false	13		2016-04-19T05:12:48Z	2016-09-29T16:06:27Z		doc: avoid merging other collaborator's PRs	39		
 6271	149531	false	closed	false	18		2016-04-19T06:59:48Z	2016-07-12T19:59:53Z	2016-07-12T19:59:53Z	Improve stack traces for exceptions thrown at a top-level	229		
+6273	10393198	false	open	false	9		2016-04-19T07:27:06Z	2016-10-16T15:13:51Z		Add script files association in Windows installer	171		
 6274	275871	true	closed	false	35		2016-04-19T08:05:44Z	2016-08-08T20:24:50Z	2016-07-05T14:13:29Z	test: add openssl add-on test	60		
 6283	79017	false	open	false	5		2016-04-19T17:26:58Z	2016-10-03T16:04:23Z		node_contextify tracking issue	251		
 6286	238531	true	closed	false	13		2016-04-19T20:48:54Z	2016-07-13T17:11:25Z	2016-04-20T17:58:23Z	http: unref socket timer on parser execute	76		
@@ -349,6 +350,7 @@
 6787	15952	true	closed	false	10		2016-05-16T16:55:31Z	2016-07-13T18:37:39Z	2016-05-20T10:46:41Z	build: Update build-addons when node-gyp changes.	99		
 6792	79017	true	closed	false	140		2016-05-16T20:27:18Z	2016-07-11T10:12:05Z	2016-05-30T16:12:40Z	Add v8_inspector support	530		
 6793	718899	true	closed	false	15		2016-05-16T20:58:19Z	2016-07-11T22:37:42Z	2016-05-24T20:45:06Z	test: improve debug-break-on-uncaught reliability	64		
+6798	54666	false	open	false	6		2016-05-17T01:22:45Z	2016-10-16T15:32:50Z		streams: Readable highWaterMark is measured in bytes *or* characters	103		
 6802	13891170	false	open	false	12		2016-05-17T06:00:09Z	2016-07-21T14:44:54Z		REPL crashes after let process;	35		
 6804	52195	true	closed	false	33		2016-05-17T10:55:16Z	2016-07-12T17:31:26Z	2016-05-26T09:29:32Z	dgram: copy the array when using the list variant in send()	96		
 6816	1093990	true	closed	false	69		2016-05-17T17:00:53Z	2016-08-10T22:32:38Z	2016-08-10T22:32:38Z	tty: set the handle to blocking mode	79		
@@ -1872,7 +1874,7 @@
 8746	860364	false	closed	false	2		2016-09-23T18:28:49Z	2016-09-23T19:48:25Z	2016-09-23T19:48:25Z	global has two different behaviour with the same logic	84		
 8747	5076519	false	closed	false	13		2016-09-23T18:46:49Z	2016-09-24T13:14:43Z	2016-09-24T13:14:43Z	Unsafe parsing of URLs	298		
 8748	287917	true	closed	false	1	3	2016-09-23T18:50:06Z	2016-09-26T16:28:47Z	2016-09-26T16:28:47Z	test: use Buffer.from	43		
-8749	1813603	true	open	false	19		2016-09-23T19:07:34Z	2016-10-14T23:35:10Z		Add NODE_PRESERVE_SYMLINKS environment variable	58		
+8749	1813603	true	open	false	20		2016-09-23T19:07:34Z	2016-10-16T15:16:27Z		Add NODE_PRESERVE_SYMLINKS environment variable	58		
 8750	9373002	false	closed	false	8		2016-09-23T20:25:54Z	2016-10-05T14:25:27Z	2016-10-05T14:25:27Z	V8: v8tests.mjsunit/regress/regress-crbug-514081 failure on PPC BE	45		
 8751	291301	true	closed	false	6		2016-09-23T20:57:02Z	2016-10-07T02:34:02Z	2016-10-06T22:29:25Z	dgram: use Buffer.alloc(0) for zero-size buffers	74		
 8752	122831	false	open	false	6		2016-09-23T21:14:21Z	2016-09-28T01:35:00Z		cannot use tls.TLSSocket created from net.Socket after first 'data' event	348		
@@ -2237,6 +2239,8 @@
 9111	861819	true	closed	false	2		2016-10-15T18:34:12Z	2016-10-16T11:04:26Z	2016-10-16T11:04:26Z	add IntelliJ project file+directory to .gitignore	31		
 9112	718899	true	open	false	0	0	2016-10-15T19:29:01Z	2016-10-15T19:29:01Z		tools: update to eslint 3.8.0, fix unneeded escaping in template strings	82		
 9113	718899	true	open	false			2016-10-15T22:09:52Z	2016-10-16T05:53:36Z		test,lib,benchmark: match function names	98		
-9114	131406	false	open	false	2		2016-10-16T11:07:08Z	2016-10-16T12:29:19Z		node 6.8: mips-arch-variant not applied everywhere in v8 dep	53		
+9114	131406	false	open	false	4		2016-10-16T11:07:08Z	2016-10-16T15:41:33Z		node 6.8: mips-arch-variant not applied everywhere in v8 dep	53		
 9115	103052	true	open	false	0		2016-10-16T11:20:13Z	2016-10-16T13:05:50Z		src: squelch unused function warnings in util.h 	37		
 9116	3001791	true	open	false			2016-10-16T12:54:47Z	2016-10-16T13:32:55Z		http: defines all the fields in the constructor	57		
+9117	793830	false	open	false	0		2016-10-16T15:24:15Z	2016-10-16T15:24:15Z		Why does Buffer get reported as being a Uint8Array?	110		
+9118	12378597	false	open	false	0		2016-10-16T15:41:52Z	2016-10-16T15:41:52Z		Proxy deleteProperty throws TypeError when returning false	72		
