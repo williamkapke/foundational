@@ -218,7 +218,7 @@
 5518	8213782	false	closed	false	2		2016-03-02T04:53:51Z	2016-08-14T08:51:57Z	2016-08-14T08:51:57Z	Cannot find module 'minimatch'	99		
 5549	122831	false	closed	false	1		2016-03-03T19:01:31Z	2016-10-12T17:39:50Z	2016-10-12T09:46:25Z	child_process.spawn will either exit or not control stdin when detached and using inherit	556		
 5574	532414	false	open	false	17		2016-03-06T00:25:17Z	2016-07-18T12:02:43Z		Losing keystrokes when using tty.ReadStream() over process.stdin	117		
-5588	17536109	false	closed	false	12		2016-03-07T13:45:01Z	2016-10-16T16:18:17Z	2016-10-07T08:09:57Z	Assertion failed: (r) == (0), file src\cares_wrap.cc, line 1262	35		
+5588	17536109	false	closed	false	13		2016-03-07T13:45:01Z	2016-10-16T17:50:33Z	2016-10-07T08:09:57Z	Assertion failed: (r) == (0), file src\cares_wrap.cc, line 1262	35		
 5599	711968	true	open	false	6		2016-03-08T15:41:12Z	2016-08-04T03:20:18Z		Bugfix cpplint windows path	103		
 5608	7340772	false	open	false	10		2016-03-08T23:13:41Z	2016-08-10T20:06:17Z		vi style bindings in node interpreter	101		
 5620	1937871	false	open	false	8		2016-03-09T09:37:47Z	2016-10-15T10:03:26Z		`process.stdin` never returns with using Git Bash for Windows	207		
@@ -350,7 +350,7 @@
 6787	15952	true	closed	false	10		2016-05-16T16:55:31Z	2016-07-13T18:37:39Z	2016-05-20T10:46:41Z	build: Update build-addons when node-gyp changes.	99		
 6792	79017	true	closed	false	140		2016-05-16T20:27:18Z	2016-07-11T10:12:05Z	2016-05-30T16:12:40Z	Add v8_inspector support	530		
 6793	718899	true	closed	false	15		2016-05-16T20:58:19Z	2016-07-11T22:37:42Z	2016-05-24T20:45:06Z	test: improve debug-break-on-uncaught reliability	64		
-6798	54666	false	open	false	6		2016-05-17T01:22:45Z	2016-10-16T15:32:50Z		streams: Readable highWaterMark is measured in bytes *or* characters	103		
+6798	54666	false	open	false	7		2016-05-17T01:22:45Z	2016-10-16T17:01:03Z		streams: Readable highWaterMark is measured in bytes *or* characters	103		
 6802	13891170	false	open	false	12		2016-05-17T06:00:09Z	2016-07-21T14:44:54Z		REPL crashes after let process;	35		
 6804	52195	true	closed	false	33		2016-05-17T10:55:16Z	2016-07-12T17:31:26Z	2016-05-26T09:29:32Z	dgram: copy the array when using the list variant in send()	96		
 6816	1093990	true	closed	false	69		2016-05-17T17:00:53Z	2016-08-10T22:32:38Z	2016-08-10T22:32:38Z	tty: set the handle to blocking mode	79		
@@ -2091,7 +2091,7 @@
 8963	20573460	false	closed	false	5		2016-10-07T03:56:29Z	2016-10-07T06:21:00Z	2016-10-07T06:21:00Z	after compilation of node source I can open the file as a zip. Is there a way to prevent  that  ?	6		
 8964	1443911	true	open	false	1		2016-10-07T05:54:31Z	2016-10-07T16:49:26Z		v4.x backport: doc: add `added:` information for globals	6		
 8965	1443911	true	closed	false	4		2016-10-07T06:04:51Z	2016-10-10T21:46:52Z	2016-10-10T21:46:52Z	v4.x backport: dns: tweak regex for IPv6 addresses	6		
-8966	275871	false	open	false	1		2016-10-07T08:19:54Z	2016-10-08T01:10:20Z		dns: don't skip getaddrino/getnameinfo when c-ares init fails	68		
+8966	275871	false	open	false	1		2016-10-07T08:19:54Z	2016-10-16T17:50:25Z		dns: don't skip getaddrino/getnameinfo when c-ares init fails	68		
 8967	18457837	false	closed	false	0		2016-10-07T08:45:40Z	2016-10-07T09:33:40Z	2016-10-07T09:33:40Z	TypeError: Expected a finite number    at module.exports (C:\Program Files\nodejs\node_modules\npm\node_modules\pretty-ms\index.js:8:9)	86		
 8968	7656167	true	closed	false	4	2	2016-10-07T09:55:40Z	2016-10-09T13:56:19Z	2016-10-09T13:56:19Z	lib: update outdated comment	23		
 8969	11734962	true	closed	false	13		2016-10-07T10:10:04Z	2016-10-09T06:07:07Z	2016-10-08T19:49:57Z	url: added url.resolve() method's behaviour	49		
@@ -2104,7 +2104,7 @@
 8976	11976448	true	open	false	2		2016-10-07T20:12:59Z	2016-10-08T15:52:45Z		test: expand test coverage for url.js	67		
 8977	439929	false	open	false	2		2016-10-07T21:04:35Z	2016-10-10T04:05:44Z		meta: npm v4 tracking issue	66		
 8978	4421720	true	open	false	16		2016-10-07T23:05:27Z	2016-10-15T20:20:23Z		inspector,doc: update hint text, add guide	85		
-8979	4421720	true	open	false			2016-10-07T23:07:40Z	2016-10-14T18:18:31Z		inspector: add --inspect-brk flag	68		
+8979	4421720	true	open	false			2016-10-07T23:07:40Z	2016-10-16T18:01:21Z		inspector: add --inspect-brk flag	68		
 8980	11976448	true	closed	false	6		2016-10-08T00:13:30Z	2016-10-10T17:45:17Z	2016-10-10T17:45:17Z	test: refactor  `assert`  in internet  test-dns.js	43		
 8981	7408949	false	open	false	0		2016-10-08T06:09:00Z	2016-10-08T06:09:00Z		test-dgram-membership failed assertion error.	38		
 8982	275871	true	open	false	0	0	2016-10-08T08:32:52Z	2016-10-08T08:32:52Z		tools: update gyp to 702ac58	2		
@@ -2210,19 +2210,19 @@
 9082	13630254	false	open	false	2		2016-10-13T16:18:08Z	2016-10-16T08:38:26Z		watch always fires rename event	35		
 9083	275871	false	open	false	5		2016-10-13T18:57:47Z	2016-10-16T12:16:46Z		src: squelch unused function warnings in util.h	139		
 9084	1093990	false	closed	false	8		2016-10-13T19:13:27Z	2016-10-14T21:05:46Z	2016-10-14T21:05:46Z	setImmediate regression in v6.8.0	199		
-9085	1735343	false	open	false	5		2016-10-13T19:36:57Z	2016-10-15T17:16:04Z		HTTP client strange behavior when server responds immediately without reading request body	142		
+9085	1735343	false	open	false	5		2016-10-13T19:36:57Z	2016-10-16T17:57:25Z		HTTP client strange behavior when server responds immediately without reading request body	142		
 9086	54666	true	closed	false	4		2016-10-13T22:07:36Z	2016-10-14T21:05:29Z	2016-10-14T21:05:29Z	timers: fix regression with clearImmediate()	70		
 9087	1093990	false	closed	false	3		2016-10-13T22:08:11Z	2016-10-15T00:50:05Z	2016-10-15T00:50:05Z	v6.8.1 patch release?	42		
 9088	899444	true	open	false	4		2016-10-13T22:14:31Z	2016-10-14T21:10:55Z		stream: fix `Writable` subclass instanceof checks	86		
 9089	988441	true	open	false	0	0	2016-10-13T22:31:26Z	2016-10-13T22:31:26Z		doc: fix typo	27		
 9090	11139560	false	open	false	5		2016-10-13T22:44:07Z	2016-10-14T18:06:50Z		feature request - callbacks in exit handlers - to block even if async code is used	245		
-9091	899444	false	open	false	9		2016-10-13T23:23:04Z	2016-10-15T18:13:05Z		Process around new contributors in Node core	438		
+9091	899444	false	open	false	11		2016-10-13T23:23:04Z	2016-10-16T17:40:26Z		Process around new contributors in Node core	438		
 9092	1767032	false	closed	false	3		2016-10-14T01:22:20Z	2016-10-14T08:11:46Z	2016-10-14T07:42:58Z	Node v6.8.0 breaks webpack via fsstream	115		
 9093	432351	true	open	false	1		2016-10-14T08:58:52Z	2016-10-14T09:19:01Z		test: enable node-module-version/test.js with debug	94		
 9094	5433874	false	closed	false	1		2016-10-14T09:59:31Z	2016-10-14T10:33:15Z	2016-10-14T10:33:15Z	Encountering problems while executing : npm install exec-sync	174		
 9095	1017132	true	open	false	0	0	2016-10-14T11:11:47Z	2016-10-14T11:11:47Z		doc: further improve child_process doc types	39		
 9096	4437609	false	open	false	1		2016-10-14T15:53:06Z	2016-10-14T17:10:50Z		Buffer.slice unexpected behavior	168		
-9097	432351	true	open	false	1		2016-10-14T18:10:25Z	2016-10-15T18:14:40Z		src: make Environment optional for RunAtExit	73		
+9097	432351	true	open	false	4		2016-10-14T18:10:25Z	2016-10-16T17:46:22Z		src: make Environment optional for RunAtExit	73		
 9098	718899	true	open	false	6		2016-10-14T18:14:04Z	2016-10-15T22:31:11Z		test: fix flaky test-child-process-fork-dgram	89		
 9099	439929	true	open	false	2		2016-10-14T18:39:47Z	2016-10-14T19:03:42Z		v7.0.0 Proposal (Actual)	5		
 9100	14657580	true	open	false			2016-10-14T19:31:12Z	2016-10-14T23:55:53Z		doc: edit Stream api grammar	43		
@@ -2243,5 +2243,6 @@
 9115	103052	true	open	false	0		2016-10-16T11:20:13Z	2016-10-16T13:05:50Z		src: squelch unused function warnings in util.h 	37		
 9116	3001791	true	open	false			2016-10-16T12:54:47Z	2016-10-16T13:32:55Z		http: defines all the fields in the constructor	57		
 9117	793830	false	open	false	0		2016-10-16T15:24:15Z	2016-10-16T15:24:15Z		Why does Buffer get reported as being a Uint8Array?	110		
-9118	12378597	false	open	false	0		2016-10-16T15:41:52Z	2016-10-16T15:41:52Z		Proxy deleteProperty throws TypeError when returning false	72		
+9118	12378597	false	closed	false	1		2016-10-16T15:41:52Z	2016-10-16T17:07:09Z	2016-10-16T17:07:09Z	Proxy deleteProperty throws TypeError when returning false	72		
 9119	22550884	true	open	false	0	0	2016-10-16T16:15:44Z	2016-10-16T16:15:45Z		Fix test debug agent	16		
+9120	2440935	true	open	false	0	0	2016-10-16T17:11:29Z	2016-10-16T17:11:29Z		util: use template literals	44		
