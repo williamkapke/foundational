@@ -2124,7 +2124,7 @@
 8993	103052	true	open	false	12		2016-10-09T17:18:24Z	2016-10-15T19:04:42Z		crypto: naming anonymouse functions	35		
 8994	899444	true	closed	false	7		2016-10-09T17:24:11Z	2016-10-17T17:25:09Z	2016-10-17T17:25:09Z	module: allow but deprecate loading internals (in case it’s necessary)	109		
 8995	21203	true	closed	false	3		2016-10-09T18:52:49Z	2016-10-12T09:08:14Z	2016-10-12T09:08:14Z	crypto: use SSL_get_SSL_CTX.	86		
-8996	11734962	true	open	false	6		2016-10-09T18:54:20Z	2016-10-12T13:18:01Z		doc: net.Socket in TLSSocket	52		
+8996	11734962	true	open	false			2016-10-09T18:54:20Z	2016-10-18T20:39:55Z		doc: net.Socket in TLSSocket	52		
 8997	154748	false	closed	false	5		2016-10-09T19:49:13Z	2016-10-11T15:21:30Z	2016-10-11T15:21:30Z	Occasional infinite loop in previously working code path in 6.5+	236		
 8998	2438449	false	closed	false	2		2016-10-09T20:38:32Z	2016-10-10T11:53:14Z	2016-10-10T11:53:14Z	node debug goes to sleep after setting breakpoint in not-yet-loaded script?	314		
 8999	5351085	true	closed	false	5		2016-10-10T05:31:36Z	2016-10-13T22:12:49Z	2016-10-13T22:12:49Z	Make tests more clear	26		
@@ -2267,7 +2267,7 @@
 9136	12628373	false	open	false	0		2016-10-17T17:16:52Z	2016-10-17T17:16:52Z		Getting error while installing protractor after installing node version	210		
 9137	419139	false	open	false	4		2016-10-17T17:54:24Z	2016-10-17T20:19:43Z		Build fails when the path to the build root is too long	132		
 9138	4976075	true	open	false	4		2016-10-17T17:55:22Z	2016-10-18T03:17:00Z		Cherry pick 3c39bac from upstream V8	45		
-9139	17607	true	open	false	1		2016-10-17T19:35:25Z	2016-10-18T15:33:00Z		crypto: allow adding extra certs to well-known CAs	179		
+9139	17607	true	open	false	4		2016-10-17T19:35:25Z	2016-10-18T20:31:14Z		crypto: allow adding extra certs to well-known CAs	179		
 9140	19806671	false	open	false	0		2016-10-17T21:10:03Z	2016-10-17T21:10:03Z		TypeError: Cannot call method 'forEach' of undefined	190		
 9141	419139	true	open	false	3		2016-10-17T22:52:25Z	2016-10-18T16:03:34Z		gyp: fix node build failure with long build directory path on Linux	138		
 9142	495647	true	open	false	2		2016-10-17T23:16:06Z	2016-10-18T09:44:40Z		tools: check tag is on github before release	31		
@@ -2285,7 +2285,7 @@
 9154	495647	true	closed	false	1	0	2016-10-18T09:30:14Z	2016-10-18T16:37:35Z	2016-10-18T16:37:35Z	Release proposal: v0.10.48	66	495647	2016-10-18T16:37:35Z
 9155	495647	true	closed	false	5		2016-10-18T11:21:22Z	2016-10-18T13:02:18Z	2016-10-18T13:02:18Z	win,build: try multiple timeservers when signing	102		
 9156	1212251	false	closed	false	1		2016-10-18T11:47:29Z	2016-10-18T12:22:19Z	2016-10-18T12:22:19Z	invalid argument, uv_interface_addresses inside Windows Linux Subssystem	68		
-9157	1658949	false	open	false	4		2016-10-18T13:22:44Z	2016-10-18T19:40:46Z		Mention case-insensitivity in process.env docs	35		
+9157	1658949	false	open	false	5		2016-10-18T13:22:44Z	2016-10-18T20:06:53Z		Mention case-insensitivity in process.env docs	35		
 9158	2512748	true	open	false	1		2016-10-18T13:39:32Z	2016-10-18T16:41:04Z		buffer: convert range to numbers before validation	93		
 9159	18714056	false	open	false	0		2016-10-18T14:02:30Z	2016-10-18T14:02:30Z		Example of how to use node.dll in vs 2015	21		
 9160	275871	false	open	false	0		2016-10-18T14:07:55Z	2016-10-18T14:07:55Z		security,unix: audit use of process.env in lib/ for setuid binary	116		
@@ -2294,8 +2294,9 @@
 9163	432351	true	open	false	3		2016-10-18T14:59:23Z	2016-10-18T16:03:20Z		src: make AtExit callback's per Environment	76		
 9164	2292713	false	closed	false	2		2016-10-18T15:13:39Z	2016-10-18T17:01:49Z	2016-10-18T15:30:56Z	Step over/Next does not stop on next line if there is exception thrown and caught inside a function	78		
 9165	781818	false	open	false	6		2016-10-18T16:03:06Z	2016-10-18T18:13:38Z		Incorrect documentation or bug in Node	200		
-9166	1658949	true	open	false	0	0	2016-10-18T16:53:50Z	2016-10-18T16:53:50Z		doc: mention case-insensitive env on windows	58		
+9166	1658949	true	open	false	0		2016-10-18T16:53:50Z	2016-10-18T20:03:50Z		doc: mention case-insensitive env on windows	78		
 9167	899444	true	open	false	0	0	2016-10-18T17:02:12Z	2016-10-18T17:02:12Z		doc: correct metadata of `Buffer.from`	57		
-9168	495647	true	open	false	1		2016-10-18T17:16:05Z	2016-10-18T19:03:25Z		doc: fix changelog index for v6.9.0			
+9168	495647	true	open	false	1		2016-10-18T17:16:05Z	2016-10-18T19:03:25Z		doc: fix changelog index for v6.9.0	0		
 9169	718899	true	open	false	0	0	2016-10-18T18:26:43Z	2016-10-18T18:26:43Z		test: remove duplicate required module	38		
-9170	4206033	false	open	false	0		2016-10-18T19:22:50Z	2016-10-18T19:22:50Z		stream.Readable unpipes the wrong stream when piped into multiple streams	134		
+9170	4206033	false	open	false	6		2016-10-18T19:22:50Z	2016-10-18T20:01:44Z		stream.Readable unpipes the wrong stream when piped into multiple streams	134		
+9171	899444	true	open	false	0	0	2016-10-18T20:35:16Z	2016-10-18T20:35:16Z		streams: fix regression in `unpipe()`	130		
