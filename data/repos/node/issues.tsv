@@ -18,8 +18,9 @@
 854	172	false	open	false	68		2015-02-15T19:37:43Z	2016-10-17T17:25:31Z		os x: FSEventStreamFlushSync assertions logged to console	100		
 855	617481	false	open	false	16		2015-02-15T21:57:32Z	2016-08-11T16:02:47Z		vm: references to context inside objects are not === the original context	58		
 862	17607	false	closed	false	8		2015-02-17T05:55:09Z	2016-09-07T13:55:17Z	2015-05-06T21:14:16Z	spawn's stdio can result in stderr being closed in child	158		
+906	115237	false	open	false	26		2015-02-20T18:06:56Z	2016-10-18T17:58:44Z		net: enable TCP_NODELAY by default on all platforms	32		
 947	707147	false	open	false	8		2015-02-25T02:05:54Z	2016-10-13T15:04:37Z		EPIPE errors thrown when piping to a closed stream	363		
-983	6731985	false	open	false	17		2015-02-27T03:19:51Z	2016-09-20T10:37:18Z		Tab completion for block-scoped variables doesn't work in REPL	60		
+983	6731985	false	open	false	18		2015-02-27T03:19:51Z	2016-10-18T17:52:03Z		Tab completion for block-scoped variables doesn't work in REPL	60		
 1013	176984	false	closed	false	45		2015-03-01T10:58:11Z	2016-10-17T07:18:56Z	2016-04-04T01:52:33Z	Replace deps/cares with pure-javascript alternative	207		
 1128	36662	false	open	false	17		2015-03-11T22:48:11Z	2016-08-29T14:15:29Z		feature request: a way to inspect what's in the event loop	137		
 1271	275871	false	open	false	11		2015-03-26T15:30:40Z	2016-09-17T21:21:22Z		timer,domain: timers don't maintain order after exception	62		
@@ -383,6 +384,7 @@
 6954	718899	false	closed	false	2		2016-05-24T15:49:55Z	2016-07-02T14:33:49Z	2016-07-02T14:33:49Z	Investigate flaky parallel/test-http-client-reject-chunked-with-content-length on smartos14-64	69		
 6956	1093990	true	open	false	20		2016-05-24T20:50:58Z	2016-09-29T14:08:18Z		timers: warn on overflowed timeout duration	66		
 6957	899444	true	closed	false	6		2016-05-24T21:27:43Z	2016-06-30T23:28:00Z	2016-06-30T23:28:00Z	Backport 6907 to v4.x (console.* not working when running out of stack space)	40		
+6963	10919124	true	open	false	3		2016-05-25T06:58:54Z	2016-10-18T17:30:01Z		.gitigore: ignore AppCode's .idea folder	40		
 6967	2352663	true	closed	false	8		2016-05-25T10:42:47Z	2016-07-12T06:22:51Z	2016-05-26T07:51:26Z	test: add regression test for Proxy as vm context	48		
 6972	1093990	true	open	false	5		2016-05-25T15:49:15Z	2016-07-05T17:22:30Z		repl: add a `noUnderscore` option	84		
 6978	676289	false	closed	false	9		2016-05-25T20:37:46Z	2016-08-12T11:14:32Z	2016-08-12T11:14:32Z	Repro of Node loading modules twice on Windows	270		
@@ -1032,7 +1034,7 @@
 7901	54479	false	closed	false	2		2016-07-27T22:59:05Z	2016-07-28T18:50:34Z	2016-07-28T02:15:01Z	Incorrect version of Node package in Yum repo	329		
 7902	110455	false	open	false	2		2016-07-27T23:57:01Z	2016-08-02T05:53:04Z		<=v4: process.hrtime() segfaults on arrays with error-throwing accessors	129		
 7903	2703309	false	open	false	18		2016-07-28T02:45:05Z	2016-09-20T23:27:30Z		Feature. Set DNS server port for DNS client	50		
-7904	2352663	false	closed	false	28		2016-07-28T08:04:07Z	2016-10-18T16:59:05Z	2016-10-03T12:48:22Z	V8 version for 7.0.0 release	156		
+7904	2352663	false	closed	false	29		2016-07-28T08:04:07Z	2016-10-18T17:47:59Z	2016-10-03T12:48:22Z	V8 version for 7.0.0 release	156		
 7905	432351	true	closed	false	8		2016-07-28T08:22:25Z	2016-10-10T16:22:33Z	2016-09-23T05:40:53Z	src: removing unused StringValue macro parameters	62		
 7906	275871	true	closed	false	4	2	2016-07-28T10:36:15Z	2016-08-01T14:18:52Z	2016-08-01T14:18:52Z	src: avoid manual memory management in inspector	79		
 7907	275871	true	closed	false	5	0	2016-07-28T10:38:57Z	2016-08-02T06:37:06Z	2016-08-02T06:37:05Z	src: fix use-after-free in inspector agent	34		
@@ -1143,7 +1145,7 @@
 8013	115237	true	closed	false	20		2016-08-08T14:05:22Z	2016-08-09T18:54:03Z	2016-08-09T18:54:03Z	util: add inspect.defaultOptions	70		
 8014	79017	true	closed	false	6	0	2016-08-08T15:00:26Z	2016-08-11T18:49:18Z	2016-08-11T18:49:18Z	deps: update v8_inspector	35	79017	2016-08-11T18:49:18Z
 8015	8208733	false	open	false	0		2016-08-08T16:03:22Z	2016-08-08T16:03:22Z		Node Builds successfully on custom ARMv5 but fails to run with Segmentation fault	377		
-8016	3967972	true	open	false	23		2016-08-08T17:00:35Z	2016-09-26T15:04:28Z		meta: whitelist dotfiles in .gitignore	36		
+8016	3967972	true	open	false	26		2016-08-08T17:00:35Z	2016-10-18T17:41:31Z		meta: whitelist dotfiles in .gitignore	36		
 8017	469365	true	closed	false	4	0	2016-08-08T17:16:27Z	2016-08-10T13:13:09Z	2016-08-10T13:13:09Z	doc: fix cluster message event docs	42		
 8018	1128607	true	closed	false	18		2016-08-08T17:45:35Z	2016-09-30T19:15:16Z	2016-08-18T01:49:16Z	stream: avoid caching prepend check	69		
 8019	287917	true	closed	false	5	2	2016-08-08T18:32:23Z	2016-08-10T00:29:50Z	2016-08-10T00:29:50Z	inspector: Fix failing test	55		
@@ -1823,7 +1825,7 @@
 8694	1456821	true	open	false	10		2016-09-21T13:30:34Z	2016-10-03T22:11:18Z		doc: Recommend using port 0 instead of common.PORT	55		
 8695	275871	true	closed	false	1	0	2016-09-21T16:41:21Z	2016-09-23T15:54:16Z	2016-09-23T15:54:16Z	test: enable cyrillic punycode test case	25		
 8696	287917	true	open	false	0	0	2016-09-21T17:01:19Z	2016-09-21T17:01:19Z		doc: add eugeneo to collaborators	28		
-8697	9373002	true	open	false	49		2016-09-21T18:38:04Z	2016-10-14T18:16:40Z		test: improve test-child-process-fork-dgram	110		
+8697	9373002	true	closed	false	49		2016-09-21T18:38:04Z	2016-10-18T17:03:16Z	2016-10-18T17:03:16Z	test: improve test-child-process-fork-dgram	110		
 8698	5498548	false	closed	false	2		2016-09-21T18:44:10Z	2016-09-21T20:14:14Z	2016-09-21T20:14:14Z	RPM Package signing key	83		
 8699	14127285	false	open	false	3		2016-09-21T18:53:09Z	2016-09-21T20:22:52Z		[Archlinux] Need help ! 	77		
 8700	718899	false	closed	false	2		2016-09-21T19:06:44Z	2016-09-23T23:02:04Z	2016-09-23T23:02:04Z	Investigate flaky test-cluster-worker-init on Raspberry Pi 1	31		
@@ -2045,7 +2047,7 @@
 8916	5704064	true	open	false	0	0	2016-10-03T22:08:06Z	2016-10-03T22:08:06Z		doc: correct grammar on major documents 	29		
 8917	176984	false	closed	false	5		2016-10-03T22:50:55Z	2016-10-04T16:23:15Z	2016-10-03T23:01:37Z	failed test: parallel/test-tick-processor-unknown (smartos16)	696		
 8918	4268223	false	closed	false	1		2016-10-03T22:52:58Z	2016-10-06T04:12:37Z	2016-10-06T04:12:37Z	Code style: linting whitespace at the end of the file.	73		
-8919	287917	true	open	false			2016-10-04T01:04:17Z	2016-10-18T10:23:46Z		inspector: no URLs when the debugger is connected	61		
+8919	287917	true	open	false			2016-10-04T01:04:17Z	2016-10-18T17:24:39Z		inspector: no URLs when the debugger is connected	61		
 8920	718899	true	closed	false	6		2016-10-04T03:46:37Z	2016-10-06T04:13:14Z	2016-10-06T04:13:13Z	tools: disallow extra blank lines at end of files	33		
 8921	1324157	false	open	false	5		2016-10-04T08:55:10Z	2016-10-07T09:02:01Z		url.resolve() behaves differently depending on the protocol of the base url	84		
 8922	495647	true	open	false			2016-10-04T09:55:01Z	2016-10-12T16:26:18Z		doc: add supported platforms list	51		
@@ -2154,7 +2156,7 @@
 9025	627123	false	open	false	4		2016-10-11T13:04:48Z	2016-10-18T14:26:27Z		tls.createServer secureOptions	68		
 9026	13483453	true	open	false	4		2016-10-11T14:21:47Z	2016-10-12T12:40:07Z		doc: clarify relation between a file and a module	51		
 9027	114976	false	open	false	0		2016-10-11T15:52:08Z	2016-10-11T16:28:31Z		HTTP Server: incorrect error message if status code is set to a string (like ENOENT)	139		
-9028	287917	true	open	false	1		2016-10-11T16:39:50Z	2016-10-13T22:02:10Z		inspector: use final API	83		
+9028	287917	true	open	false	3		2016-10-11T16:39:50Z	2016-10-18T17:28:51Z		inspector: use final API	83		
 9029	1093990	true	closed	false	3		2016-10-11T16:51:25Z	2016-10-11T21:03:41Z	2016-10-11T19:47:10Z	test,benchmark: fix lint errors on v6.x	59		
 9030	899444	true	open	false	5		2016-10-11T17:31:41Z	2016-10-11T19:43:18Z		v6.x backport: fs: make `SyncWriteStream` inherit from `Writable`	99		
 9031	114976	true	open	false	1		2016-10-11T18:03:04Z	2016-10-11T21:07:17Z		Fix error message for invalid httm status code, fix tests.	99		
@@ -2165,7 +2167,7 @@
 9036	1093990	false	open	false	0		2016-10-11T20:10:42Z	2016-10-11T20:10:42Z		consider printing Experimental warnings for all Experimental APIs	40		
 9037	498775	true	open	false	5		2016-10-11T20:28:49Z	2016-10-14T05:20:36Z		ares_create_query: avoid single-byte buffer overwrite	64		
 9038	439929	true	open	false			2016-10-11T21:16:00Z	2016-10-18T15:46:27Z		buffer: add buffer.transcode	93		
-9039	580982	false	open	false	6		2016-10-11T22:04:02Z	2016-10-17T08:06:53Z		Array Joining is slower in Node 6.x	297		
+9039	580982	false	open	false	7		2016-10-11T22:04:02Z	2016-10-18T17:23:20Z		Array Joining is slower in Node 6.x	297		
 9040	439929	true	open	false			2016-10-11T22:23:30Z	2016-10-13T14:17:13Z		readline: use icu based string width calculation	113		
 9041	439929	true	closed	false	7		2016-10-11T22:32:38Z	2016-10-12T16:38:29Z	2016-10-12T02:20:47Z	url: fix building when using --without-intl	42		
 9042	677994	true	open	false			2016-10-11T23:22:40Z	2016-10-13T14:22:29Z		process: add emitExperimentalWarning()	89		
@@ -2276,20 +2278,22 @@
 9147	495647	true	closed	false	2	0	2016-10-18T05:08:51Z	2016-10-18T16:15:36Z	2016-10-18T16:15:36Z	Release proposal: v0.12.17	54	495647	2016-10-18T16:15:36Z
 9148	260223	false	closed	false	2		2016-10-18T06:39:07Z	2016-10-18T08:32:58Z	2016-10-18T08:32:58Z	Useless Stack Traces	290		
 9149	374012	false	open	false	0		2016-10-18T07:13:47Z	2016-10-18T07:13:47Z		Buffer.fill has an out of bounds (arbitrary) memory write	284		
-9150	495647	true	open	false	1		2016-10-18T07:48:58Z	2016-10-18T08:34:58Z		test: mark dgram-multicast-multi-process as flaky on v0.12	24		
+9150	495647	true	open	false	1		2016-10-18T07:48:58Z	2016-10-18T17:01:15Z		test: mark dgram-multicast-multi-process as flaky on v0.12	24		
 9151	495647	true	open	false	0	0	2016-10-18T07:58:20Z	2016-10-18T07:58:20Z		build: add working lint-ci make target (v0.12)	44		
 9152	6917800	true	open	false	0	0	2016-10-18T08:51:30Z	2016-10-18T08:51:30Z		child_process: Check stderr before accessing it	96		
 9153	495647	true	open	false	2		2016-10-18T09:10:56Z	2016-10-18T10:39:05Z		Release proposal: v4.6.1	58		
 9154	495647	true	closed	false	1	0	2016-10-18T09:30:14Z	2016-10-18T16:37:35Z	2016-10-18T16:37:35Z	Release proposal: v0.10.48	66	495647	2016-10-18T16:37:35Z
 9155	495647	true	closed	false	5		2016-10-18T11:21:22Z	2016-10-18T13:02:18Z	2016-10-18T13:02:18Z	win,build: try multiple timeservers when signing	102		
 9156	1212251	false	closed	false	1		2016-10-18T11:47:29Z	2016-10-18T12:22:19Z	2016-10-18T12:22:19Z	invalid argument, uv_interface_addresses inside Windows Linux Subssystem	68		
-9157	1658949	false	open	false	2		2016-10-18T13:22:44Z	2016-10-18T16:55:04Z		Mention case-insensitivity in process.env docs	35		
+9157	1658949	false	open	false	3		2016-10-18T13:22:44Z	2016-10-18T17:41:15Z		Mention case-insensitivity in process.env docs	35		
 9158	2512748	true	open	false	1		2016-10-18T13:39:32Z	2016-10-18T16:41:04Z		buffer: convert range to numbers before validation	93		
 9159	18714056	false	open	false	0		2016-10-18T14:02:30Z	2016-10-18T14:02:30Z		Example of how to use node.dll in vs 2015	21		
 9160	275871	false	open	false	0		2016-10-18T14:07:55Z	2016-10-18T14:07:55Z		security,unix: audit use of process.env in lib/ for setuid binary	116		
 9161	352113	false	open	false	8		2016-10-18T14:25:26Z	2016-10-18T15:01:31Z		bundle with yarn and allow which package manager during build.	42		
 9162	1258773	false	closed	false	3		2016-10-18T14:46:21Z	2016-10-18T16:26:49Z	2016-10-18T16:26:49Z	Crypto: Issue creating md5 for a string containing a apostrophe	114		
 9163	432351	true	open	false	3		2016-10-18T14:59:23Z	2016-10-18T16:03:20Z		src: make AtExit callback's per Environment	76		
-9164	2292713	false	open	false	0		2016-10-18T15:13:39Z	2016-10-18T15:13:39Z		Step over/Next does not stop on next line if there is exception thrown and caught inside a function	78		
-9165	781818	false	open	false	0		2016-10-18T16:03:06Z	2016-10-18T16:03:06Z		Incorrect documentation or bug in Node	200		
+9164	2292713	false	closed	false	2		2016-10-18T15:13:39Z	2016-10-18T17:01:49Z	2016-10-18T15:30:56Z	Step over/Next does not stop on next line if there is exception thrown and caught inside a function	78		
+9165	781818	false	open	false	3		2016-10-18T16:03:06Z	2016-10-18T17:36:21Z		Incorrect documentation or bug in Node	200		
 9166	1658949	true	open	false	0	0	2016-10-18T16:53:50Z	2016-10-18T16:53:50Z		doc: mention case-insensitive env on windows	58		
+9167	899444	true	open	false	0	0	2016-10-18T17:02:12Z	2016-10-18T17:02:12Z		doc: correct metadata of `Buffer.from`	57		
+9168	495647	true	open	false	0	0	2016-10-18T17:16:05Z	2016-10-18T17:16:05Z		doc: fix changelog index for v6.9.0			
