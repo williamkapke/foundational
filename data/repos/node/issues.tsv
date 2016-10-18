@@ -1991,7 +1991,7 @@
 8862	899444	true	open	false	12		2016-09-30T14:30:53Z	2016-10-09T00:35:25Z		fs: export `realpathCacheKey` from `internal/fs`	70		
 8863	441346	true	closed	false	6		2016-09-30T17:03:20Z	2016-10-07T02:31:59Z	2016-10-06T17:20:15Z	internal: fix TypeError in v8-polyfill	62		
 8864	441346	true	closed	false	7		2016-09-30T17:35:54Z	2016-10-04T12:55:15Z	2016-10-03T14:24:37Z	test: fix running child-process-uid-gid as root	57		
-8865	439929	false	closed	false	13		2016-09-30T18:10:59Z	2016-10-07T16:33:56Z	2016-10-07T16:33:56Z	Intl: Consider deprecating Intl.v8BreakIterator	74		
+8865	439929	false	closed	false	13		2016-09-30T18:10:59Z	2016-10-18T14:37:49Z	2016-10-07T16:33:56Z	Intl: Consider deprecating Intl.v8BreakIterator	74		
 8866	439929	false	open	false	12		2016-09-30T18:19:18Z	2016-10-06T19:04:32Z		Modules: Coordinating ESM implementation in Core	96		
 8867	4069476	false	closed	false	4		2016-09-30T19:15:02Z	2016-10-03T10:55:08Z	2016-10-03T10:55:08Z	Cannot Build Node.js 6.7.0 on CorePure64 Tinycore Linux	361		
 8868	899444	true	open	false	0	0	2016-09-30T20:13:21Z	2016-09-30T20:13:21Z		v4.x backport: doc: use blockquotes for Stability: markers	7		
@@ -2151,7 +2151,7 @@
 9022	718899	true	closed	false	2		2016-10-11T06:33:25Z	2016-10-14T03:28:19Z	2016-10-14T03:28:19Z	test: move module out of fixture directory	113		
 9023	7273940	true	closed	false	6		2016-10-11T08:20:37Z	2016-10-11T17:02:39Z	2016-10-11T17:02:39Z	src: fix typo rval to value	25		
 9024	5156221	false	closed	false	10		2016-10-11T12:50:52Z	2016-10-11T15:08:32Z	2016-10-11T14:39:05Z	require('crypto') & DES inconsistent	180		
-9025	627123	false	open	false	3		2016-10-11T13:04:48Z	2016-10-18T12:18:05Z		tls.createServer secureOptions	68		
+9025	627123	false	open	false	4		2016-10-11T13:04:48Z	2016-10-18T14:26:27Z		tls.createServer secureOptions	68		
 9026	13483453	true	open	false	4		2016-10-11T14:21:47Z	2016-10-12T12:40:07Z		doc: clarify relation between a file and a module	51		
 9027	114976	false	open	false	0		2016-10-11T15:52:08Z	2016-10-11T16:28:31Z		HTTP Server: incorrect error message if status code is set to a string (like ENOENT)	139		
 9028	287917	true	open	false	1		2016-10-11T16:39:50Z	2016-10-13T22:02:10Z		inspector: use final API	83		
@@ -2265,9 +2265,9 @@
 9136	12628373	false	open	false	0		2016-10-17T17:16:52Z	2016-10-17T17:16:52Z		Getting error while installing protractor after installing node version	210		
 9137	419139	false	open	false	4		2016-10-17T17:54:24Z	2016-10-17T20:19:43Z		Build fails when the path to the build root is too long	132		
 9138	4976075	true	open	false	4		2016-10-17T17:55:22Z	2016-10-18T03:17:00Z		Cherry pick 3c39bac from upstream V8	45		
-9139	17607	true	open	false			2016-10-17T19:35:25Z	2016-10-17T21:17:44Z		crypto: allow adding extra certs to well-known CAs	179		
+9139	17607	true	open	false			2016-10-17T19:35:25Z	2016-10-18T14:09:09Z		crypto: allow adding extra certs to well-known CAs	179		
 9140	19806671	false	open	false	0		2016-10-17T21:10:03Z	2016-10-17T21:10:03Z		TypeError: Cannot call method 'forEach' of undefined	190		
-9141	419139	true	open	false	1		2016-10-17T22:52:25Z	2016-10-18T02:42:49Z		gyp: fix node build failure with long build directory path on Linux	138		
+9141	419139	true	open	false	2		2016-10-17T22:52:25Z	2016-10-18T14:13:25Z		gyp: fix node build failure with long build directory path on Linux	138		
 9142	495647	true	open	false	2		2016-10-17T23:16:06Z	2016-10-18T09:44:40Z		tools: check tag is on github before release	31		
 9143	718899	false	open	false	0		2016-10-17T23:30:27Z	2016-10-17T23:30:27Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-10-19	488		
 9144	17943805	true	open	false	0	0	2016-10-18T02:06:47Z	2016-10-18T02:06:47Z		doc:fix typo in http doc	52		
@@ -2285,3 +2285,8 @@
 9156	1212251	false	closed	false	1		2016-10-18T11:47:29Z	2016-10-18T12:22:19Z	2016-10-18T12:22:19Z	invalid argument, uv_interface_addresses inside Windows Linux Subssystem	68		
 9157	1658949	false	open	false	0		2016-10-18T13:22:44Z	2016-10-18T13:22:44Z		Mention case-insensitivity in process.env docs	35		
 9158	2512748	true	open	false	0	0	2016-10-18T13:39:32Z	2016-10-18T13:39:32Z		buffer: convert range to numbers before validation	93		
+9159	18714056	false	open	false	0		2016-10-18T14:02:30Z	2016-10-18T14:02:30Z		Example of how to use node.dll in vs 2015	21		
+9160	275871	false	open	false	0		2016-10-18T14:07:55Z	2016-10-18T14:07:55Z		security,unix: audit use of process.env in lib/ for setuid binary	116		
+9161	352113	false	open	false	0		2016-10-18T14:25:26Z	2016-10-18T14:25:26Z		bundle with yarn and allow which package manager during build.	42		
+9162	1258773	false	open	false	0		2016-10-18T14:46:21Z	2016-10-18T14:46:21Z		Crypto: Issue creating md5 for a string containing a apostrophe	114		
+9163	432351	true	open	false	0	0	2016-10-18T14:59:23Z	2016-10-18T14:59:23Z		src: make AtExit callback's per Environment	76		
