@@ -149,7 +149,7 @@
 4249	855219	true	open	false	2		2015-12-12T00:13:11Z	2016-10-10T18:42:57Z		Proposing a Global WG.	13		
 4253	855219	true	closed	false	19		2015-12-12T01:21:25Z	2016-10-10T16:51:08Z	2016-05-04T22:07:05Z	nodejs/node#3111 - v8BreakIterator disablement	6		
 4266	1470592	false	open	false	16		2015-12-14T00:40:39Z	2016-10-06T17:07:34Z		buffer.toString fails for buffers larger than 192MB	95		
-4270	495647	false	open	false	26		2015-12-14T10:06:18Z	2016-10-19T12:20:44Z		Discussion: OpenSSL 1.1.0 planning	297		
+4270	495647	false	open	false	26		2015-12-14T10:06:18Z	2016-10-19T13:13:36Z		Discussion: OpenSSL 1.1.0 planning	297		
 4303	7731478	true	open	false	21		2015-12-16T04:12:08Z	2016-09-24T19:28:03Z		timer: make sure timer is cleared	267		
 4307	12825770	false	closed	false	11		2015-12-16T08:16:14Z	2016-07-11T09:25:48Z	2016-07-11T09:25:48Z	can not step in constructor, will will terminate node.exe	90		
 4329	16335744	false	closed	false	21		2015-12-17T11:41:17Z	2016-10-18T08:40:55Z	2016-01-15T10:53:49Z	node.js Setup Wizard ended prematurely	43		
@@ -384,7 +384,7 @@
 6954	718899	false	closed	false	2		2016-05-24T15:49:55Z	2016-07-02T14:33:49Z	2016-07-02T14:33:49Z	Investigate flaky parallel/test-http-client-reject-chunked-with-content-length on smartos14-64	69		
 6956	1093990	true	open	false	20		2016-05-24T20:50:58Z	2016-09-29T14:08:18Z		timers: warn on overflowed timeout duration	66		
 6957	899444	true	closed	false	6		2016-05-24T21:27:43Z	2016-06-30T23:28:00Z	2016-06-30T23:28:00Z	Backport 6907 to v4.x (console.* not working when running out of stack space)	40		
-6963	10919124	true	open	false	3		2016-05-25T06:58:54Z	2016-10-18T17:30:01Z		.gitigore: ignore AppCode's .idea folder	40		
+6963	10919124	true	open	false	4		2016-05-25T06:58:54Z	2016-10-19T13:09:48Z		.gitigore: ignore AppCode's .idea folder	40		
 6967	2352663	true	closed	false	8		2016-05-25T10:42:47Z	2016-07-12T06:22:51Z	2016-05-26T07:51:26Z	test: add regression test for Proxy as vm context	48		
 6972	1093990	true	open	false	5		2016-05-25T15:49:15Z	2016-07-05T17:22:30Z		repl: add a `noUnderscore` option	84		
 6978	676289	false	closed	false	9		2016-05-25T20:37:46Z	2016-08-12T11:14:32Z	2016-08-12T11:14:32Z	Repro of Node loading modules twice on Windows	270		
@@ -2298,7 +2298,7 @@
 9167	899444	true	open	false	0	0	2016-10-18T17:02:12Z	2016-10-18T17:02:12Z		doc: correct metadata of `Buffer.from`	57		
 9168	495647	true	open	false	2		2016-10-18T17:16:05Z	2016-10-19T02:18:34Z		doc: fix changelog index for v6.9.0	0		
 9169	718899	true	open	false	1		2016-10-18T18:26:43Z	2016-10-18T23:24:46Z		test: remove duplicate required module	38		
-9170	4206033	false	open	false	7		2016-10-18T19:22:50Z	2016-10-19T12:21:33Z		stream.Readable unpipes the wrong stream when piped into multiple streams	134		
+9170	4206033	false	closed	false	7		2016-10-18T19:22:50Z	2016-10-19T13:01:18Z	2016-10-19T13:01:18Z	stream.Readable unpipes the wrong stream when piped into multiple streams	134		
 9171	899444	true	open	false	5		2016-10-18T20:35:16Z	2016-10-19T12:55:43Z		streams: fix regression in `unpipe()`	130		
 9172	9522710	false	open	false	0		2016-10-18T21:28:03Z	2016-10-18T21:28:03Z		Seg fault while executing function	126		
 9173	4976075	true	open	false	0	0	2016-10-18T23:43:54Z	2016-10-18T23:43:54Z		Cherry pick 7166503 from upstream v8	48		
@@ -2309,8 +2309,10 @@
 9178	101553	true	open	false	0	0	2016-10-19T09:09:17Z	2016-10-19T09:09:17Z		test: add regression test for instanceof	66		
 9179	882627	false	open	false	2		2016-10-19T09:24:01Z	2016-10-19T10:44:30Z		Deprecate querystring for URLSearchParams	34		
 9180	310593	false	open	false	0		2016-10-19T10:20:00Z	2016-10-19T10:20:00Z		Fatal error in node's core	264		
-9181	22077072	false	open	false	1		2016-10-19T11:28:59Z	2016-10-19T12:50:06Z		Upon reviewing the installation process it rolls back and reports a fatal error. 	324		
-9182	1093990	true	open	false	0	0	2016-10-19T11:31:23Z	2016-10-19T11:31:23Z		doc: v6 is now LTS rather than Current	41		
-9183	1093990	true	open	false	0	0	2016-10-19T11:32:07Z	2016-10-19T11:32:07Z		doc: fix some table problems in changelog.md	39		
+9181	22077072	false	open	false	1		2016-10-19T11:28:59Z	2016-10-19T13:54:36Z		Upon reviewing the installation process it rolls back and reports a fatal error. 	324		
+9182	1093990	true	open	false	1		2016-10-19T11:31:23Z	2016-10-19T13:12:38Z		doc: v6 is now LTS rather than Current	41		
+9183	1093990	true	open	false	0		2016-10-19T11:32:07Z	2016-10-19T13:12:21Z		doc: fix some table problems in changelog.md	39		
 9184	275871	true	open	false	0	0	2016-10-19T11:33:54Z	2016-10-19T11:33:54Z		inspector: fix request path nullptr dereference	3		
 9185	2352663	false	open	false	0		2016-10-19T11:49:18Z	2016-10-19T11:49:18Z		Disabled or custom UUID for V8 inspector	91		
+9186	498775	true	open	false	0	0	2016-10-19T13:17:45Z	2016-10-19T13:17:45Z		V6.9.1 proposal	108		
+9187	677994	true	open	false	0	0	2016-10-19T13:44:14Z	2016-10-19T13:44:14Z		doc: fix header level for crypto.constants	46		
