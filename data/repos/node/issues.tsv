@@ -1880,7 +1880,7 @@
 8746	860364	false	closed	false	2		2016-09-23T18:28:49Z	2016-09-23T19:48:25Z	2016-09-23T19:48:25Z	global has two different behaviour with the same logic	84		
 8747	5076519	false	closed	false	13		2016-09-23T18:46:49Z	2016-09-24T13:14:43Z	2016-09-24T13:14:43Z	Unsafe parsing of URLs	298		
 8748	287917	true	closed	false	1	3	2016-09-23T18:50:06Z	2016-09-26T16:28:47Z	2016-09-26T16:28:47Z	test: use Buffer.from	43		
-8749	1813603	true	open	false	20		2016-09-23T19:07:34Z	2016-10-16T15:16:27Z		Add NODE_PRESERVE_SYMLINKS environment variable	58		
+8749	1813603	true	open	false	22		2016-09-23T19:07:34Z	2016-10-20T18:50:19Z		Add NODE_PRESERVE_SYMLINKS environment variable	58		
 8750	9373002	false	closed	false	8		2016-09-23T20:25:54Z	2016-10-05T14:25:27Z	2016-10-05T14:25:27Z	V8: v8tests.mjsunit/regress/regress-crbug-514081 failure on PPC BE	45		
 8751	291301	true	closed	false	6		2016-09-23T20:57:02Z	2016-10-07T02:34:02Z	2016-10-06T22:29:25Z	dgram: use Buffer.alloc(0) for zero-size buffers	74		
 8752	122831	false	open	false	6		2016-09-23T21:14:21Z	2016-09-28T01:35:00Z		cannot use tls.TLSSocket created from net.Socket after first 'data' event	348		
@@ -2270,7 +2270,7 @@
 9136	12628373	false	open	false	0		2016-10-17T17:16:52Z	2016-10-17T17:16:52Z		Getting error while installing protractor after installing node version	210		
 9137	419139	false	open	false	4		2016-10-17T17:54:24Z	2016-10-17T20:19:43Z		Build fails when the path to the build root is too long	132		
 9138	4976075	true	open	false	5		2016-10-17T17:55:22Z	2016-10-19T15:46:45Z		Cherry pick 3c39bac from upstream V8	45		
-9139	17607	true	open	false			2016-10-17T19:35:25Z	2016-10-20T17:11:25Z		crypto: allow adding extra certs to well-known CAs	179		
+9139	17607	true	open	false	9		2016-10-17T19:35:25Z	2016-10-20T18:35:29Z		crypto: allow adding extra certs to well-known CAs	179		
 9140	19806671	false	open	false	0		2016-10-17T21:10:03Z	2016-10-17T21:10:03Z		TypeError: Cannot call method 'forEach' of undefined	190		
 9141	419139	true	open	false	4		2016-10-17T22:52:25Z	2016-10-19T14:10:30Z		gyp: fix node build failure with long build directory path on Linux	138		
 9142	495647	true	open	false	4		2016-10-17T23:16:06Z	2016-10-19T03:04:44Z		tools: check tag is on github before release	31		
@@ -2323,20 +2323,20 @@
 9189	4027669	false	open	false	4		2016-10-19T18:12:13Z	2016-10-20T14:03:19Z		repl: error thrown while writing function statement in '.editor' mode	101		
 9190	79017	false	open	false	5		2016-10-19T18:42:28Z	2016-10-20T14:08:19Z		V8 Backports Triage	70		
 9191	5445507	true	open	false	5		2016-10-19T19:46:03Z	2016-10-20T11:26:06Z		process: reintroduce ares to versions	69		
-9192	1485909	true	open	false	1		2016-10-19T20:45:38Z	2016-10-19T23:42:42Z		deps: cherry-pick bb4974d from v8 upstream	170		
+9192	1485909	true	open	false	3		2016-10-19T20:45:38Z	2016-10-20T19:00:27Z		deps: cherry-pick bb4974d from v8 upstream	170		
 9193	4421720	true	open	false	0	0	2016-10-19T20:51:00Z	2016-10-19T20:51:00Z		doc: add 2016-10-19 CTC meeting minutes	30		
 9194	718899	true	open	false	0	0	2016-10-19T21:29:29Z	2016-10-19T21:29:29Z		tools: replace custom lint rule for getter/setter	44		
 9195	677994	true	open	false	2		2016-10-19T21:33:22Z	2016-10-20T00:20:04Z		http: add debug message for invalid header value	75		
 9196	275871	true	open	false			2016-10-19T21:54:28Z	2016-10-20T17:14:55Z		module: skip directories known not to exist	173		
 9197	718899	true	open	false	0	0	2016-10-19T23:03:06Z	2016-10-19T23:03:06Z		test: remove arbitrary timer	59		
-9198	718899	true	open	false	0	0	2016-10-20T00:09:42Z	2016-10-20T00:09:42Z		test: fix flaky test-timers-blocking-callback	128		
+9198	718899	true	open	false	1		2016-10-20T00:09:42Z	2016-10-20T18:52:30Z		test: fix flaky test-timers-blocking-callback	128		
 9199	677994	true	open	false	3		2016-10-20T00:29:32Z	2016-10-20T16:58:47Z		test: fix flaky test by removing timer	61		
 9200	7766085	false	closed	false	8		2016-10-20T00:34:40Z	2016-10-20T08:15:03Z	2016-10-20T08:15:03Z	crypto can't sign RSA-SHA1?	66		
 9201	1829789	false	open	false	6		2016-10-20T04:26:37Z	2016-10-20T13:03:15Z		stdout, stderr and stdin are all Duplex streams but documentation states otherwise	192		
 9202	101553	true	closed	false	6		2016-10-20T11:56:49Z	2016-10-20T14:44:06Z	2016-10-20T14:44:06Z	deps: update V8 to 5.4.524	34		
 9203	275871	true	open	false	0	0	2016-10-20T12:00:08Z	2016-10-20T12:00:08Z		src: disable stdio buffering	6		
 9204	10507098	false	open	false	3		2016-10-20T12:22:11Z	2016-10-20T14:23:51Z		Example of second way of delegating connections to cluster workers	128		
-9205	170197	false	open	false	6		2016-10-20T13:16:22Z	2016-10-20T17:01:49Z		deprecate url module	18		
+9205	170197	false	closed	false	8		2016-10-20T13:16:22Z	2016-10-20T18:48:01Z	2016-10-20T17:05:15Z	deprecate url module	18		
 9206	275871	false	open	false	0		2016-10-20T13:31:31Z	2016-10-20T13:31:31Z		stdio: no longer possible to write to stdin after #1233	103		
 9207	899444	true	open	false	0	0	2016-10-20T15:05:17Z	2016-10-20T15:05:17Z		repl: don’t write to input stream in editor mode	123		
 9208	2512748	true	open	false			2016-10-20T15:42:02Z	2016-10-20T17:10:00Z		test: add child_process.exec() timeout coverage	51		
