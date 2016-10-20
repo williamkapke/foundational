@@ -7,6 +7,7 @@
 548	1522145	false	open	false	24		2015-01-22T03:48:27Z	2016-09-20T18:22:13Z		Function redefinition in vm.runInContext	42		
 550	30827	false	closed	false	10		2015-01-22T05:35:22Z	2016-08-05T22:14:53Z	2016-08-05T22:14:53Z	Proposal: HTTP – Move `bodyHead` to `data` event	125		
 583	643505	false	open	false	46		2015-01-23T23:53:00Z	2016-10-07T08:24:46Z		streaming / iterative fs.readdir	48		
+616	1106489	false	closed	false	11		2015-01-27T02:44:36Z	2016-10-20T11:52:43Z	2015-06-24T23:04:28Z	url.relative (to complement path.relative)	101		
 643	829734	false	open	false	31		2015-01-28T21:12:32Z	2016-08-05T22:17:03Z		Using faster url parser	82		
 678	643505	false	open	false	17		2015-01-31T00:58:15Z	2016-10-14T10:17:26Z		make crypto functions execute in the threadpool asynchronously	83		
 684	115237	false	closed	false	6		2015-01-31T22:25:05Z	2016-08-18T20:24:09Z	2015-02-01T18:41:19Z	path: tilde expansion	123		
@@ -741,7 +742,7 @@
 7607	495647	false	closed	false	9		2016-07-08T08:21:44Z	2016-08-03T22:39:14Z	2016-08-03T22:39:13Z	CTC membership nomination: @addaleax	293		
 7608	18708370	false	closed	false	8		2016-07-08T09:46:39Z	2016-08-12T03:59:59Z	2016-07-08T12:45:45Z	Windows Node 6.3.0 binary exports SSL symbols	127		
 7609	275871	false	open	false	3		2016-07-08T10:24:57Z	2016-07-11T13:43:10Z		test: two unexpected failures when disk is nearly full	135		
-7610	275871	true	closed	false	15		2016-07-08T10:49:38Z	2016-10-10T17:08:11Z	2016-07-11T21:17:23Z	src: disable stdio buffering	100		
+7610	275871	true	closed	false	15		2016-07-08T10:49:38Z	2016-10-20T12:00:56Z	2016-07-11T21:17:23Z	src: disable stdio buffering	100		
 7611	899444	true	closed	false	4		2016-07-08T11:04:44Z	2016-09-09T10:44:17Z	2016-07-13T19:10:52Z	test,doc: clarify `buf.indexOf(num)` input range	71		
 7612	275871	true	closed	false	6		2016-07-08T11:15:21Z	2016-07-19T12:39:41Z	2016-07-18T09:00:27Z	deps: cherry-pick 1f53e42 from v8 upstream	64		
 7613	1093990	true	closed	false	3		2016-07-08T12:27:31Z	2016-08-30T19:09:01Z	2016-07-11T13:27:26Z	Fix tty tests	81		
@@ -2268,7 +2269,7 @@
 9136	12628373	false	open	false	0		2016-10-17T17:16:52Z	2016-10-17T17:16:52Z		Getting error while installing protractor after installing node version	210		
 9137	419139	false	open	false	4		2016-10-17T17:54:24Z	2016-10-17T20:19:43Z		Build fails when the path to the build root is too long	132		
 9138	4976075	true	open	false	5		2016-10-17T17:55:22Z	2016-10-19T15:46:45Z		Cherry pick 3c39bac from upstream V8	45		
-9139	17607	true	open	false			2016-10-17T19:35:25Z	2016-10-19T18:20:35Z		crypto: allow adding extra certs to well-known CAs	179		
+9139	17607	true	open	false			2016-10-17T19:35:25Z	2016-10-20T11:36:48Z		crypto: allow adding extra certs to well-known CAs	179		
 9140	19806671	false	open	false	0		2016-10-17T21:10:03Z	2016-10-17T21:10:03Z		TypeError: Cannot call method 'forEach' of undefined	190		
 9141	419139	true	open	false	4		2016-10-17T22:52:25Z	2016-10-19T14:10:30Z		gyp: fix node build failure with long build directory path on Linux	138		
 9142	495647	true	open	false	4		2016-10-17T23:16:06Z	2016-10-19T03:04:44Z		tools: check tag is on github before release	31		
@@ -2292,7 +2293,7 @@
 9160	275871	false	open	false	0		2016-10-18T14:07:55Z	2016-10-18T14:07:55Z		security,unix: audit use of process.env in lib/ for setuid binary	116		
 9161	352113	false	open	false	18		2016-10-18T14:25:26Z	2016-10-19T21:25:38Z		bundle with yarn and allow which package manager during build.	42		
 9162	1258773	false	closed	false	3		2016-10-18T14:46:21Z	2016-10-18T16:26:49Z	2016-10-18T16:26:49Z	Crypto: Issue creating md5 for a string containing a apostrophe	114		
-9163	432351	true	open	false	5		2016-10-18T14:59:23Z	2016-10-19T12:06:01Z		src: make AtExit callback's per Environment	76		
+9163	432351	true	open	false			2016-10-18T14:59:23Z	2016-10-20T11:51:36Z		src: make AtExit callback's per Environment	76		
 9164	2292713	false	closed	false	2		2016-10-18T15:13:39Z	2016-10-18T17:01:49Z	2016-10-18T15:30:56Z	Step over/Next does not stop on next line if there is exception thrown and caught inside a function	78		
 9165	781818	false	open	false	6		2016-10-18T16:03:06Z	2016-10-18T18:13:38Z		Incorrect documentation or bug in Node	200		
 9166	1658949	true	open	false	4		2016-10-18T16:53:50Z	2016-10-19T06:44:08Z		doc: mention case-insensitive env on windows	78		
@@ -2307,27 +2308,29 @@
 9175	2292713	false	open	false	0		2016-10-19T04:34:49Z	2016-10-19T04:34:49Z		Step out/Shift F11/Out debug command does not stop when exception is thrown inside a function	139		
 9176	6769982	false	closed	false	2		2016-10-19T07:16:40Z	2016-10-19T09:43:24Z	2016-10-19T08:11:22Z	node app not exiting in case of reference error	46		
 9177	20339155	true	closed	false	1	0	2016-10-19T08:48:22Z	2016-10-19T09:01:42Z	2016-10-19T09:01:42Z	Add ssh and mongodb to the list of slashed protocols	84		
-9178	101553	true	open	false	0		2016-10-19T09:09:17Z	2016-10-19T15:30:09Z		test: add regression test for instanceof	66		
+9178	101553	true	open	false	1		2016-10-19T09:09:17Z	2016-10-20T11:09:20Z		test: add regression test for instanceof	66		
 9179	882627	false	open	false	2		2016-10-19T09:24:01Z	2016-10-19T14:53:24Z		Deprecate querystring for URLSearchParams	34		
 9180	310593	false	open	false	0		2016-10-19T10:20:00Z	2016-10-19T10:20:00Z		Fatal error in node's core	264		
 9181	22077072	false	open	false	5		2016-10-19T11:28:59Z	2016-10-20T08:43:39Z		Upon reviewing the installation process it rolls back and reports a fatal error. 	324		
 9182	1093990	true	closed	false	1	0	2016-10-19T11:31:23Z	2016-10-19T18:29:18Z	2016-10-19T18:29:18Z	doc: v6 is now LTS rather than Current	41	1093990	2016-10-19T18:29:18Z
 9183	1093990	true	closed	false	2	0	2016-10-19T11:32:07Z	2016-10-19T18:26:03Z	2016-10-19T18:26:03Z	doc: fix some table problems in changelog.md	39	1093990	2016-10-19T18:26:03Z
 9184	275871	true	open	false	0	0	2016-10-19T11:33:54Z	2016-10-19T11:33:54Z		inspector: fix request path nullptr dereference	3		
-9185	2352663	false	open	false	2		2016-10-19T11:49:18Z	2016-10-19T16:49:36Z		Disabled or custom UUID for V8 inspector	91		
+9185	2352663	false	open	false	3		2016-10-19T11:49:18Z	2016-10-20T11:43:41Z		Disabled or custom UUID for V8 inspector	91		
 9186	498775	true	closed	false	9	2	2016-10-19T13:17:45Z	2016-10-19T22:23:08Z	2016-10-19T22:23:08Z	V6.9.1 proposal	108	498775	2016-10-19T22:23:08Z
 9187	677994	true	open	false	1		2016-10-19T13:44:14Z	2016-10-19T15:36:57Z		doc: fix header level for crypto.constants	46		
 9188	1058931	false	open	false	3		2016-10-19T15:22:26Z	2016-10-19T21:41:03Z		V8 Inspector ignores/squelches evaluation in console panel	96		
 9189	4027669	false	open	false	0		2016-10-19T18:12:13Z	2016-10-19T18:12:13Z		repl: error thrown while writing function statement in '.editor' mode	101		
 9190	79017	false	open	false	3		2016-10-19T18:42:28Z	2016-10-19T23:25:39Z		V8 Backports Triage	70		
-9191	5445507	true	open	false	5		2016-10-19T19:46:03Z	2016-10-20T10:12:56Z		process: reintroduce ares to versions	69		
+9191	5445507	true	open	false	5		2016-10-19T19:46:03Z	2016-10-20T11:26:06Z		process: reintroduce ares to versions	69		
 9192	1485909	true	open	false	1		2016-10-19T20:45:38Z	2016-10-19T23:42:42Z		deps: cherry-pick bb4974d from v8 upstream	170		
 9193	4421720	true	open	false	0	0	2016-10-19T20:51:00Z	2016-10-19T20:51:00Z		doc: add 2016-10-19 CTC meeting minutes	30		
 9194	718899	true	open	false	0	0	2016-10-19T21:29:29Z	2016-10-19T21:29:29Z		tools: replace custom lint rule for getter/setter	44		
 9195	677994	true	open	false	2		2016-10-19T21:33:22Z	2016-10-20T00:20:04Z		http: add debug message for invalid header value	75		
-9196	275871	true	open	false	2		2016-10-19T21:54:28Z	2016-10-20T10:44:41Z		module: skip directories known not to exist	173		
+9196	275871	true	open	false	3		2016-10-19T21:54:28Z	2016-10-20T11:05:50Z		module: skip directories known not to exist	173		
 9197	718899	true	open	false	0	0	2016-10-19T23:03:06Z	2016-10-19T23:03:06Z		test: remove arbitrary timer	59		
 9198	718899	true	open	false	0	0	2016-10-20T00:09:42Z	2016-10-20T00:09:42Z		test: fix flaky test-timers-blocking-callback	128		
 9199	677994	true	open	false	1		2016-10-20T00:29:32Z	2016-10-20T04:39:07Z		test: fix flaky test by removing timer	61		
 9200	7766085	false	closed	false	8		2016-10-20T00:34:40Z	2016-10-20T08:15:03Z	2016-10-20T08:15:03Z	crypto can't sign RSA-SHA1?	66		
 9201	1829789	false	open	false	2		2016-10-20T04:26:37Z	2016-10-20T10:06:52Z		stdout, stderr and stdin are all Duplex streams but documentation states otherwise	192		
+9202	101553	true	open	false	0	0	2016-10-20T11:56:49Z	2016-10-20T11:56:49Z		deps: update V8 to 5.4.524	34		
+9203	275871	true	open	false	0	0	2016-10-20T12:00:08Z	2016-10-20T12:00:08Z		src: disable stdio buffering	6		
