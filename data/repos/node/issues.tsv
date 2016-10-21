@@ -28,6 +28,7 @@
 1128	36662	false	open	false	17		2015-03-11T22:48:11Z	2016-08-29T14:15:29Z		feature request: a way to inspect what's in the event loop	137		
 1271	275871	false	open	false	11		2015-03-26T15:30:40Z	2016-09-17T21:21:22Z		timer,domain: timers don't maintain order after exception	62		
 1278	532414	false	closed	false	37		2015-03-26T19:55:14Z	2016-08-22T21:08:42Z	2016-02-12T21:20:04Z	Compressed packages	136		
+1374	10247	false	closed	false	16		2015-04-08T13:46:19Z	2016-10-21T07:20:28Z	2015-09-03T06:13:19Z	Fatal Error (Abort) creating string larger than 268435440 bytes	93		
 1495	902041	false	open	false	31		2015-04-21T23:54:21Z	2016-08-28T10:02:20Z		TLS Module: The default ecdhCurve, prime256v1 (aka NIST P-256) is not safe.	64		
 1592	617235	false	closed	false	206		2015-05-02T19:25:40Z	2016-10-05T19:11:59Z	2016-10-05T19:11:59Z	gripe: deprecating fs.exists/existsSync	202		
 1634	495647	false	open	false	10		2015-05-06T04:07:08Z	2016-08-03T18:19:05Z		Race condition on history file with multiple REPLs	57		
@@ -1978,7 +1979,7 @@
 8844	101553	true	closed	false	2		2016-09-29T08:28:40Z	2016-09-29T09:35:47Z	2016-09-29T08:31:00Z	[doc] use consistent style	48		
 8845	101553	true	open	false	5		2016-09-29T08:52:40Z	2016-09-30T15:26:42Z		doc: add example for running with v8-inspector	66		
 8846	3607926	false	open	false	17		2016-09-29T12:27:47Z	2016-10-21T02:20:20Z		v6.7.0 V8_inspector link does not work on macOS 10.12 Chrome 53	117		
-8847	9373002	false	open	false	6		2016-09-29T12:42:22Z	2016-10-06T06:30:48Z		AIX: hang on 4.x run 	74		
+8847	9373002	false	open	false	8		2016-09-29T12:42:22Z	2016-10-21T07:27:31Z		AIX: hang on 4.x run 	74		
 8848	441346	true	closed	false	18		2016-09-29T16:03:44Z	2016-10-08T19:47:13Z	2016-10-06T22:20:03Z	test: run faster and cleanup after run	56		
 8849	739555	true	closed	false	12		2016-09-29T18:19:35Z	2016-10-06T23:50:29Z	2016-10-02T23:47:10Z	[CVE-2016-5180] ares_create_query: avoid single-byte buffer overwrite	46		
 8850	101553	true	closed	false	5		2016-09-29T19:38:29Z	2016-10-07T07:31:05Z	2016-10-03T10:27:14Z	src: refactor reading of options in contextify	68		
@@ -2288,7 +2289,7 @@
 9154	495647	true	closed	false	1	0	2016-10-18T09:30:14Z	2016-10-18T16:37:35Z	2016-10-18T16:37:35Z	Release proposal: v0.10.48	66	495647	2016-10-18T16:37:35Z
 9155	495647	true	closed	false	5		2016-10-18T11:21:22Z	2016-10-18T13:02:18Z	2016-10-18T13:02:18Z	win,build: try multiple timeservers when signing	102		
 9156	1212251	false	closed	false	1		2016-10-18T11:47:29Z	2016-10-18T12:22:19Z	2016-10-18T12:22:19Z	invalid argument, uv_interface_addresses inside Windows Linux Subssystem	68		
-9157	1658949	false	open	false	11		2016-10-18T13:22:44Z	2016-10-21T01:10:48Z		Mention case-insensitivity in process.env docs	35		
+9157	1658949	false	open	false	12		2016-10-18T13:22:44Z	2016-10-21T07:57:04Z		Mention case-insensitivity in process.env docs	35		
 9158	2512748	true	closed	false	5	0	2016-10-18T13:39:32Z	2016-10-18T23:01:59Z	2016-10-18T23:01:59Z	buffer: convert range to numbers before validation	93		
 9159	18714056	false	open	false	0		2016-10-18T14:02:30Z	2016-10-18T14:02:30Z		Example of how to use node.dll in vs 2015	21		
 9160	275871	false	open	false	0		2016-10-18T14:07:55Z	2016-10-18T14:07:55Z		security,unix: audit use of process.env in lib/ for setuid binary	116		
@@ -2324,7 +2325,7 @@
 9190	79017	false	open	false	5		2016-10-19T18:42:28Z	2016-10-20T14:08:19Z		V8 Backports Triage	70		
 9191	5445507	true	open	false	5		2016-10-19T19:46:03Z	2016-10-20T11:26:06Z		process: reintroduce ares to versions	69		
 9192	1485909	true	open	false	4		2016-10-19T20:45:38Z	2016-10-20T21:09:52Z		deps: cherry-pick bb4974d from v8 upstream	170		
-9193	4421720	true	open	false			2016-10-19T20:51:00Z	2016-10-20T22:30:17Z		doc: add 2016-10-19 CTC meeting minutes	30		
+9193	4421720	true	open	false			2016-10-19T20:51:00Z	2016-10-21T07:36:52Z		doc: add 2016-10-19 CTC meeting minutes	30		
 9194	718899	true	open	false	1		2016-10-19T21:29:29Z	2016-10-21T06:04:25Z		tools: replace custom lint rule for getter/setter	44		
 9195	677994	true	open	false	6		2016-10-19T21:33:22Z	2016-10-20T22:17:51Z		http: add debug message for invalid header value	75		
 9196	275871	true	open	false			2016-10-19T21:54:28Z	2016-10-20T17:14:55Z		module: skip directories known not to exist	173		
@@ -2339,7 +2340,7 @@
 9205	170197	false	closed	false	9		2016-10-20T13:16:22Z	2016-10-20T19:24:17Z	2016-10-20T17:05:15Z	deprecate url module	18		
 9206	275871	false	open	false	0		2016-10-20T13:31:31Z	2016-10-20T20:30:36Z		stdio: cannot write to stdin after #1233	103		
 9207	899444	true	open	false	0	0	2016-10-20T15:05:17Z	2016-10-20T15:05:17Z		repl: don’t write to input stream in editor mode	123		
-9208	2512748	true	open	false			2016-10-20T15:42:02Z	2016-10-21T06:58:59Z		test: add child_process.exec() timeout coverage	51		
+9208	2512748	true	open	false	2		2016-10-20T15:42:02Z	2016-10-21T07:06:48Z		test: add child_process.exec() timeout coverage	51		
 9209	2512748	true	open	false	0	0	2016-10-20T16:40:38Z	2016-10-20T16:40:38Z		child_process: remove unreachable execSync() code	84		
 9210	7151870	false	open	false	0		2016-10-20T17:15:22Z	2016-10-20T17:15:22Z		vm.runInNewContext: global object leaked after call to require	114		
 9211	2512748	true	open	false	0	0	2016-10-20T17:48:31Z	2016-10-20T17:48:31Z		test: add coverage for execFileSync() errors	55		
@@ -2349,3 +2350,4 @@
 9215	8248574	true	open	false	3		2016-10-21T02:02:12Z	2016-10-21T05:30:48Z		doc: Update Command Line Tools download procedure	55		
 9216	1810178	true	closed	false	0	0	2016-10-21T02:55:39Z	2016-10-21T04:01:04Z	2016-10-21T04:01:04Z	test: name anonymous functions	64		
 9217	1810178	true	open	false	0	0	2016-10-21T03:25:40Z	2016-10-21T03:25:40Z		https: name anonymous functions in https	60		
+9218	2352663	true	open	false	0	0	2016-10-21T07:48:52Z	2016-10-21T07:48:52Z		tools: enable ES2016 support in ESLint	39		
