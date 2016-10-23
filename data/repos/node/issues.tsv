@@ -1,7 +1,7 @@
 1	238531	true	closed	false	4		2014-11-27T15:39:30Z	2016-09-01T18:10:57Z	2014-11-27T16:57:14Z	deps: update openssl to 1.0.1j	2		
 66	643505	false	closed	false	83		2014-12-04T08:42:35Z	2016-07-23T19:11:08Z	2014-12-11T12:34:07Z	deprecate domains	11		
 256	1315533	false	closed	false	27		2015-01-08T07:50:35Z	2016-07-31T16:41:49Z	2015-02-25T00:30:11Z	Consider exposing promise unhandled rejection hook	243		
-428	321966	false	closed	false	48		2015-01-14T21:56:04Z	2016-10-21T16:07:08Z	2016-10-21T16:07:08Z	plans on incorporating LibreSSL	35		
+428	321966	false	closed	false	50		2015-01-14T21:56:04Z	2016-10-23T09:47:03Z	2016-10-21T16:07:08Z	plans on incorporating LibreSSL	35		
 445	2993861	false	open	false	11		2015-01-15T16:18:56Z	2016-08-03T22:33:47Z		Cleanup `_writableState` and `_readableState` access across codebase	590		
 540	555645	true	closed	false	33		2015-01-21T16:22:26Z	2016-07-18T15:54:13Z	2015-01-28T03:49:14Z	events: Alias EventEmitter.protoype.removeListener as EventEmitter.prototype.off 	95		
 548	1522145	false	open	false	24		2015-01-22T03:48:27Z	2016-09-20T18:22:13Z		Function redefinition in vm.runInContext	42		
@@ -14,7 +14,7 @@
 678	643505	false	open	false	17		2015-01-31T00:58:15Z	2016-10-14T10:17:26Z		make crypto functions execute in the threadpool asynchronously	83		
 684	115237	false	closed	false	6		2015-01-31T22:25:05Z	2016-08-18T20:24:09Z	2015-02-01T18:41:19Z	path: tilde expansion	123		
 690	275871	false	closed	false	14		2015-02-02T15:19:55Z	2016-07-19T11:39:40Z	2016-07-19T11:39:40Z	repl: surrogate pair upsets repl / terminal	43		
-708	220205	false	open	false	20		2015-02-03T18:56:57Z	2016-10-22T20:09:17Z		HTTP and HTTPS attempt only single IP, causing intermittent failures	261		
+708	220205	false	open	false	21		2015-02-03T18:56:57Z	2016-10-23T09:32:42Z		HTTP and HTTPS attempt only single IP, causing intermittent failures	261		
 729	289174	false	closed	false	8		2015-02-05T20:00:25Z	2016-06-29T11:12:13Z	2016-06-29T11:12:13Z	Converge Tracing/Profiling to Native Set of Hooks	49		
 731	579	false	closed	false	39		2015-02-05T21:45:00Z	2016-09-12T18:13:14Z	2015-10-07T04:52:55Z	governance: Find Hangout-On-Air alternative.	71		
 805	782880	false	open	false	3		2015-02-11T16:10:53Z	2016-07-19T11:38:52Z		strict printing for X509 Extentions	19		
@@ -1070,7 +1070,7 @@
 7932	718899	true	closed	false	7		2016-08-01T03:46:38Z	2016-08-11T17:19:09Z	2016-08-11T17:19:09Z	test: mark test-util-sigint-watchdog FreeBSD flaky	41		
 7933	899444	true	closed	false	16		2016-08-01T11:11:18Z	2016-09-30T18:22:33Z	2016-08-11T16:35:36Z	test,vm: fix flaky test-util-sigint-watchdog	65		
 7934	20771374	false	open	false	0		2016-08-01T11:30:46Z	2016-08-01T11:30:46Z		unable to install npm package	162		
-7935	2512748	false	open	false	17		2016-08-01T14:34:49Z	2016-09-07T00:12:50Z		Move ecosystem detection tool to nodejs org	67		
+7935	2512748	false	open	false	19		2016-08-01T14:34:49Z	2016-10-23T09:52:58Z		Move ecosystem detection tool to nodejs org	67		
 7936	439929	false	closed	false	3		2016-08-01T14:48:25Z	2016-08-05T12:13:38Z	2016-08-01T15:01:24Z	meta: can the github bot tag PRs from new contributors?	76		
 7937	708850	false	closed	false	5		2016-08-01T16:13:36Z	2016-08-01T17:01:25Z	2016-08-01T16:20:31Z	Can we document --max_old_space_size or is it deprecated?	99		
 7938	189580	false	open	false	1		2016-08-01T17:19:58Z	2016-09-02T13:10:13Z		Feature request: fs.ReadStream#bytesRead	50		
@@ -1686,7 +1686,7 @@
 8549	15943089	true	open	false	9		2016-09-15T16:55:35Z	2016-09-21T22:04:25Z		test: fix fork-dgram on AIX	102		
 8550	287917	true	open	false	10		2016-09-15T18:02:28Z	2016-09-19T20:22:24Z		inspector: restore 9229 as a default port	80		
 8551	291301	true	open	false	11		2016-09-15T19:22:54Z	2016-09-25T10:15:27Z		Introduce 'make doclint' command and tooling	99		
-8552	2352663	true	closed	false	9		2016-09-15T19:30:18Z	2016-10-07T11:33:04Z	2016-09-19T07:17:45Z	Improve buffer test coverage	39		
+8552	2352663	true	closed	false	10		2016-09-15T19:30:18Z	2016-10-23T09:46:21Z	2016-09-19T07:17:45Z	Improve buffer test coverage	39		
 8553	291301	true	closed	false	10	0	2016-09-15T19:35:59Z	2016-09-17T18:48:32Z	2016-09-17T18:48:32Z	doc: fix a formatting error in buffer.md	64	291301	2016-09-17T18:48:32Z
 8554	718899	false	open	false	7		2016-09-15T21:00:14Z	2016-09-21T01:33:46Z		Adopting project workflow to new GitHub features	159		
 8555	362089	false	closed	false	1		2016-09-15T23:22:40Z	2016-09-23T00:13:33Z	2016-09-23T00:13:33Z	vm: node crashes if timeout is set and nofile limit is reached	148		
@@ -1944,7 +1944,7 @@
 8807	19629102	false	open	false	5		2016-09-27T16:18:07Z	2016-10-03T13:52:30Z		Can not getting complete stdout	248		
 8808	498775	true	closed	false	12	0	2016-09-27T17:45:23Z	2016-09-29T15:52:26Z	2016-09-29T15:52:26Z	meta: update NODE_MODULE_VERSION to 51	173	498775	2016-09-29T15:52:26Z
 8809	3148402	false	closed	false	7		2016-09-27T21:14:11Z	2016-09-28T13:10:52Z	2016-09-27T21:31:52Z	Node server.js execution fails - Win10 node 4.4.3 npm 3.10.7	98		
-8810	439929	false	open	false	2		2016-09-27T22:13:15Z	2016-09-28T15:16:23Z		discuss: proposed standardization of `global` by tc-39	90		
+8810	439929	false	open	false	5		2016-09-27T22:13:15Z	2016-10-23T09:51:33Z		discuss: proposed standardization of `global` by tc-39	90		
 8811	1093990	true	open	false	18		2016-09-27T23:12:56Z	2016-10-21T21:03:48Z		doc: improve header styling for API docs	64		
 8812	479816	false	open	false	0		2016-09-28T01:37:14Z	2016-09-28T01:37:14Z		`chmod()` fails silently if process lacks sufficient permissions to change mode	86		
 8813	81581	false	open	false	17		2016-09-28T05:18:00Z	2016-10-10T19:07:35Z		url.toString() is '[object Object]' ?!!	78		
@@ -2360,7 +2360,7 @@
 9223	54666	false	open	false	0		2016-10-21T15:37:27Z	2016-10-21T15:37:27Z		doc: `process` formatting issues	44		
 9224	275871	true	open	false	2		2016-10-21T17:20:15Z	2016-10-22T15:31:28Z		src: clean up program/isolate/env init logic	22		
 9225	1810178	true	open	false	0	0	2016-10-21T19:01:31Z	2016-10-21T19:01:31Z		url: name anonymous functions in url	69		
-9226	204037	false	open	false	3		2016-10-21T19:02:08Z	2016-10-23T09:01:05Z		Buffer.alloc v4: Incorrectly returns zero-filled buffer when encoding is passed	91		
+9226	204037	false	open	false	4		2016-10-21T19:02:08Z	2016-10-23T09:45:01Z		Buffer.alloc v4: Incorrectly returns zero-filled buffer when encoding is passed	91		
 9227	718899	false	open	false	0		2016-10-21T20:21:20Z	2016-10-21T20:21:20Z		investigate flaky test-http-server-consumed-timeout on FreeBSD	66		
 9228	718899	true	open	false	4		2016-10-21T20:55:09Z	2016-10-23T04:42:14Z		test: make test-fs-watch-recursive more robust	123		
 9229	899444	true	open	false			2016-10-21T21:05:29Z	2016-10-21T22:10:03Z		test: check that `process.execPath` is a realpath	47		
@@ -2373,8 +2373,8 @@
 9236	406656	false	open	false	4		2016-10-22T01:35:33Z	2016-10-22T08:28:51Z		"tls.connect() fails with ""sslv3 alert handshake failure"" (RC4/MD5/DES cipher support)"	88		
 9237	855219	false	open	false	0		2016-10-22T02:02:41Z	2016-10-22T02:02:41Z		Add version info: CLDR, Unicode, Timezone	148		
 9238	11638619	true	open	false			2016-10-22T02:43:40Z	2016-10-22T13:42:20Z		buffer: fix `fill` with encoding in Buffer.alloc()	74		
-9239	5827364	true	open	false	2		2016-10-22T04:50:18Z	2016-10-23T04:02:01Z		test: Refactor to ES6	54		
+9239	5827364	true	open	false	4		2016-10-22T04:50:18Z	2016-10-23T09:39:37Z		test: Refactor to ES6	54		
 9240	4235596	false	open	false	0		2016-10-22T13:11:53Z	2016-10-22T13:11:53Z		Stream module	58		
 9241	275871	true	open	false	3		2016-10-22T14:35:36Z	2016-10-22T18:34:17Z		test: make test-crypto-timing-safe-equal-benchmarks more reliable	1		
 9242	416585	false	open	false	0		2016-10-23T07:49:31Z	2016-10-23T07:49:31Z		"Unexpected ""UnhandledPromiseRejectionWarning"" instead of ""unhandled 'error' event"""	71		
-9243	54666	true	open	false	0	0	2016-10-23T08:10:06Z	2016-10-23T08:10:06Z		src: remove unused function	37		
+9243	54666	true	open	false	0		2016-10-23T08:10:06Z	2016-10-23T09:19:22Z		src: remove unused function	39		
