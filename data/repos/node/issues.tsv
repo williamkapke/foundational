@@ -14,7 +14,7 @@
 678	643505	false	open	false	17		2015-01-31T00:58:15Z	2016-10-14T10:17:26Z		make crypto functions execute in the threadpool asynchronously	83		
 684	115237	false	closed	false	6		2015-01-31T22:25:05Z	2016-08-18T20:24:09Z	2015-02-01T18:41:19Z	path: tilde expansion	123		
 690	275871	false	closed	false	14		2015-02-02T15:19:55Z	2016-07-19T11:39:40Z	2016-07-19T11:39:40Z	repl: surrogate pair upsets repl / terminal	43		
-708	220205	false	open	false	23		2015-02-03T18:56:57Z	2016-10-24T18:26:27Z		HTTP and HTTPS attempt only single IP, causing intermittent failures	261		
+708	220205	false	open	false	25		2015-02-03T18:56:57Z	2016-10-24T20:34:20Z		HTTP and HTTPS attempt only single IP, causing intermittent failures	261		
 729	289174	false	closed	false	8		2015-02-05T20:00:25Z	2016-06-29T11:12:13Z	2016-06-29T11:12:13Z	Converge Tracing/Profiling to Native Set of Hooks	49		
 731	579	false	closed	false	39		2015-02-05T21:45:00Z	2016-09-12T18:13:14Z	2015-10-07T04:52:55Z	governance: Find Hangout-On-Air alternative.	71		
 805	782880	false	open	false	3		2015-02-11T16:10:53Z	2016-07-19T11:38:52Z		strict printing for X509 Extentions	19		
@@ -1169,7 +1169,7 @@
 8031	731796	false	closed	false	2		2016-08-09T09:37:29Z	2016-08-09T10:18:32Z	2016-08-09T10:18:32Z	offset out of bounds	37		
 8032	781745	false	open	false	0		2016-08-09T11:54:55Z	2016-08-09T11:54:55Z		BUG: Comparing prototypes of Object	81		
 8033	122434	false	open	false	10		2016-08-09T12:37:54Z	2016-08-10T22:04:59Z		Observe data emitted through stdout and stderr	45		
-8034	275871	true	closed	false	20		2016-08-09T15:25:45Z	2016-10-24T16:44:12Z	2016-10-03T17:49:26Z	build: run cctests as part of test-ci target	4		
+8034	275871	true	closed	false	21		2016-08-09T15:25:45Z	2016-10-24T20:59:35Z	2016-10-03T17:49:26Z	build: run cctests as part of test-ci target	4		
 8035	17704638	true	closed	false	10		2016-08-09T15:33:31Z	2016-08-18T17:38:17Z	2016-08-18T17:38:17Z	doc: script with space  spawn example for windows	46		
 8036	446283	true	open	false	0	0	2016-08-09T20:17:43Z	2016-08-09T20:17:43Z		Avoid potential memory leak if realloc fails	437		
 8037	439929	true	open	false	3		2016-08-09T20:50:54Z	2016-10-24T11:03:23Z		doc: document vm module limitation with timeouts and async code	28		
@@ -1646,10 +1646,10 @@
 8509	3320742	false	closed	false	5		2016-09-13T02:17:53Z	2016-10-24T19:19:26Z	2016-10-24T19:19:26Z	Configuration option to permanently turn on --preserve-symlinks	110		
 8510	10680833	true	closed	false	15		2016-09-13T03:07:50Z	2016-10-06T22:23:13Z	2016-09-17T08:53:42Z	Fixes an issue where Buffer.from was not supporting SharedArrayBuffer	72		
 8511	718899	false	open	false	1		2016-09-13T04:21:25Z	2016-10-21T20:23:35Z		Investigate flaky test-fs-watch-recursive on OS X	10		
-8512	1466123	true	closed	false	11		2016-09-13T05:54:45Z	2016-10-24T16:46:22Z	2016-09-20T21:10:47Z	zlib: fix raw inflate with custom dictionary	74		
+8512	1466123	true	closed	false	13		2016-09-13T05:54:45Z	2016-10-24T20:50:58Z	2016-09-20T21:10:47Z	zlib: fix raw inflate with custom dictionary	74		
 8513	1057486	false	closed	false	2		2016-09-13T08:38:35Z	2016-09-13T15:46:09Z	2016-09-13T10:44:54Z	Expose V8's JavaScript parser API as an part of standard library?	92		
 8514	21603	true	closed	false	11		2016-09-13T10:43:59Z	2016-09-18T12:30:58Z	2016-09-18T12:30:58Z	tls: add 'new' keyword for Array constructor call	50		
-8515	899444	true	closed	false	15		2016-09-13T11:53:56Z	2016-10-24T16:47:07Z	2016-09-19T12:59:40Z	fs: fix handling of `struct stat` fields	139		
+8515	899444	true	closed	false	15		2016-09-13T11:53:56Z	2016-10-24T20:45:01Z	2016-09-19T12:59:40Z	fs: fix handling of `struct stat` fields	139		
 8516	1607273	false	closed	false	4		2016-09-13T13:50:51Z	2016-09-14T10:56:51Z	2016-09-14T10:56:51Z	Event emitter calls method which removed itself	198		
 8517	11681052	true	closed	false	9	9	2016-09-13T18:36:53Z	2016-09-16T23:08:35Z	2016-09-16T23:08:34Z	https: made some improvements to test-https-agent.js	89		
 8518	718899	true	closed	false	9		2016-09-13T18:41:16Z	2016-09-16T04:54:36Z	2016-09-16T04:54:36Z	test: add coverage for client._addHandle()	60		
@@ -1835,7 +1835,7 @@
 8698	5498548	false	closed	false	2		2016-09-21T18:44:10Z	2016-09-21T20:14:14Z	2016-09-21T20:14:14Z	RPM Package signing key	83		
 8699	14127285	false	open	false	3		2016-09-21T18:53:09Z	2016-09-21T20:22:52Z		[Archlinux] Need help ! 	77		
 8700	718899	false	closed	false	2		2016-09-21T19:06:44Z	2016-09-23T23:02:04Z	2016-09-23T23:02:04Z	Investigate flaky test-cluster-worker-init on Raspberry Pi 1	31		
-8701	416585	false	closed	false	6		2016-09-21T19:28:18Z	2016-10-24T11:06:28Z	2016-10-07T14:51:24Z	Unexpected Z_BUF_ERROR when using zlib	80		
+8701	416585	false	closed	false	6		2016-09-21T19:28:18Z	2016-10-24T20:26:13Z	2016-10-07T14:51:24Z	Unexpected Z_BUF_ERROR when using zlib	80		
 8702	71237	false	closed	false	2		2016-09-21T21:33:55Z	2016-09-22T03:31:46Z	2016-09-22T03:31:45Z	Inspector seg fault when stopping allocation profiler	536		
 8703	1898870	true	closed	false	12		2016-09-21T22:34:52Z	2016-09-23T23:01:49Z	2016-09-23T23:01:49Z	test: fix test-cluster-worker-init.js flakyness	54		
 8704	553630	true	open	false	10		2016-09-21T22:37:37Z	2016-09-23T23:06:34Z		doc: update BUILDING.md	46		
@@ -1878,7 +1878,7 @@
 8741	1935767	true	closed	false	0		2016-09-23T14:58:43Z	2016-09-26T16:23:04Z	2016-09-26T16:23:04Z	doc: improve child_process doc types	43		
 8742	1935767	true	closed	false	1	0	2016-09-23T15:09:35Z	2016-09-26T16:40:17Z	2016-09-26T16:40:17Z	doc,tool: add tls.TLSSocket to typeMap	33		
 8743	22397837	false	closed	false	2		2016-09-23T15:24:19Z	2016-09-26T14:29:09Z	2016-09-26T14:29:09Z	Demo Site for exploring nodejs features?	42		
-8744	275871	false	open	false	13		2016-09-23T16:22:28Z	2016-10-22T15:12:03Z		test,crypto: sequential/test-crypto-timing-safe-equal-benchmarks flaky locally	63		
+8744	275871	false	closed	false	13		2016-09-23T16:22:28Z	2016-10-24T20:46:10Z	2016-10-24T20:46:10Z	test,crypto: sequential/test-crypto-timing-safe-equal-benchmarks flaky locally	63		
 8745	7698377	false	open	false	7		2016-09-23T17:02:15Z	2016-09-25T06:01:14Z		"Cygwin 'configure' call fails with ""Warning: Missing input files:"""	163		
 8746	860364	false	closed	false	2		2016-09-23T18:28:49Z	2016-09-23T19:48:25Z	2016-09-23T19:48:25Z	global has two different behaviour with the same logic	84		
 8747	5076519	false	closed	false	13		2016-09-23T18:46:49Z	2016-09-24T13:14:43Z	2016-09-24T13:14:43Z	Unsafe parsing of URLs	298		
@@ -2203,7 +2203,7 @@
 9066	238531	true	closed	false	10	2	2016-10-12T20:41:31Z	2016-10-14T13:40:43Z	2016-10-14T13:40:43Z	net: fix ambiguity in EOF handling	73		
 9067	134460	false	closed	false	7		2016-10-12T21:34:37Z	2016-10-17T18:05:28Z	2016-10-17T18:05:28Z	process.on beforeExit broken on Windows	182		
 9068	8849761	true	closed	false	3	3	2016-10-12T22:17:45Z	2016-10-13T10:48:21Z	2016-10-13T10:48:21Z	console: using class	38		
-9069	2148448	false	open	false	8		2016-10-12T23:57:01Z	2016-10-24T19:34:38Z		http core module issue	117		
+9069	2148448	false	open	false	9		2016-10-12T23:57:01Z	2016-10-24T20:48:58Z		http core module issue	117		
 9070	9373002	true	closed	false	1		2016-10-13T01:35:04Z	2016-10-19T22:13:56Z	2016-10-19T22:13:56Z	doc: add CTC meeting minutes for 2016-10-12	24		
 9071	495647	true	closed	false	2	0	2016-10-13T02:19:59Z	2016-10-19T03:05:43Z	2016-10-19T03:05:43Z	tools: release signing improvements	218		
 9072	718899	true	closed	false	7		2016-10-13T04:42:12Z	2016-10-19T15:36:32Z	2016-10-19T15:36:32Z	doc: add ctc-review label information	32		
@@ -2266,7 +2266,7 @@
 9129	22882405	false	closed	false	3		2016-10-17T08:41:01Z	2016-10-17T09:09:28Z	2016-10-17T09:09:28Z	"""resolv.h"" doesn't compile on MacOS for  c++ native modules "	81		
 9130	7273940	true	open	false	5		2016-10-17T11:53:29Z	2016-10-24T14:36:48Z		stream: name anonymous functions	56		
 9131	984628	false	closed	false	1		2016-10-17T12:15:19Z	2016-10-21T15:30:54Z	2016-10-21T15:30:54Z	discussion: implement green threads in nodejs	88		
-9132	275871	true	open	false	5		2016-10-17T12:18:11Z	2016-10-24T18:41:06Z		src: speed up module loading	2		
+9132	275871	true	closed	false	5	0	2016-10-17T12:18:11Z	2016-10-24T20:32:02Z	2016-10-24T20:32:02Z	src: speed up module loading	2		
 9133	6917800	true	open	false	4		2016-10-17T12:18:14Z	2016-10-18T10:16:32Z		test: Improvement for testing of execSync	81		
 9134	54666	false	open	false	0		2016-10-17T15:48:30Z	2016-10-17T15:48:30Z		doc: typo in http doc	59		
 9135	432351	true	closed	false	3	0	2016-10-17T17:12:29Z	2016-10-19T18:04:02Z	2016-10-19T18:04:02Z	test: rename target to exports for consistency	77		
@@ -2324,13 +2324,13 @@
 9187	677994	true	open	false	1		2016-10-19T13:44:14Z	2016-10-19T15:36:57Z		doc: fix header level for crypto.constants	46		
 9188	1058931	false	open	false	6		2016-10-19T15:22:26Z	2016-10-20T17:08:22Z		V8 Inspector ignores/squelches evaluation in console panel	96		
 9189	4027669	false	open	false	4		2016-10-19T18:12:13Z	2016-10-20T14:03:19Z		repl: error thrown while writing function statement in '.editor' mode	101		
-9190	79017	false	open	false	6		2016-10-19T18:42:28Z	2016-10-24T15:45:55Z		V8 Backports Triage	70		
+9190	79017	false	open	false	7		2016-10-19T18:42:28Z	2016-10-24T20:30:05Z		V8 Backports Triage	70		
 9191	5445507	true	open	false	5		2016-10-19T19:46:03Z	2016-10-20T11:26:06Z		process: reintroduce ares to versions	69		
 9192	1485909	true	open	false	4		2016-10-19T20:45:38Z	2016-10-20T21:09:52Z		deps: cherry-pick bb4974d from v8 upstream	170		
 9193	4421720	true	open	false			2016-10-19T20:51:00Z	2016-10-21T07:36:52Z		doc: add 2016-10-19 CTC meeting minutes	30		
 9194	718899	true	closed	false	1		2016-10-19T21:29:29Z	2016-10-21T14:41:38Z	2016-10-21T14:41:38Z	tools: replace custom lint rule for getter/setter	44		
 9195	677994	true	open	false	9		2016-10-19T21:33:22Z	2016-10-23T08:50:30Z		http: add debug message for invalid header value	75		
-9196	275871	true	open	false			2016-10-19T21:54:28Z	2016-10-20T17:14:55Z		module: skip directories known not to exist	173		
+9196	275871	true	open	false			2016-10-19T21:54:28Z	2016-10-24T20:47:53Z		module: skip directories known not to exist	173		
 9197	718899	true	closed	false	3		2016-10-19T23:03:06Z	2016-10-21T23:27:30Z	2016-10-21T23:27:30Z	test: remove arbitrary timer	59		
 9198	718899	true	closed	false	4	0	2016-10-20T00:09:42Z	2016-10-21T23:30:00Z	2016-10-21T23:30:00Z	test: fix flaky test-timers-blocking-callback	128		
 9199	677994	true	open	false	3		2016-10-20T00:29:32Z	2016-10-20T16:58:47Z		test: fix flaky test by removing timer	61		
@@ -2342,10 +2342,10 @@
 9205	170197	false	closed	false	9		2016-10-20T13:16:22Z	2016-10-20T19:24:17Z	2016-10-20T17:05:15Z	deprecate url module	18		
 9206	275871	false	open	false	2		2016-10-20T13:31:31Z	2016-10-23T06:29:45Z		stdio: cannot write to stdin after #1233	103		
 9207	899444	true	open	false	0	0	2016-10-20T15:05:17Z	2016-10-20T15:05:17Z		repl: don’t write to input stream in editor mode	123		
-9208	2512748	true	open	false	2		2016-10-20T15:42:02Z	2016-10-21T07:06:48Z		test: add child_process.exec() timeout coverage	51		
+9208	2512748	true	open	false	6		2016-10-20T15:42:02Z	2016-10-24T20:34:20Z		test: add child_process.exec() timeout coverage	51		
 9209	2512748	true	open	false	0	0	2016-10-20T16:40:38Z	2016-10-20T16:40:38Z		child_process: remove unreachable execSync() code	84		
 9210	7151870	false	open	false	0		2016-10-20T17:15:22Z	2016-10-20T17:15:22Z		vm.runInNewContext: global object leaked after call to require	114		
-9211	2512748	true	open	false	0	0	2016-10-20T17:48:31Z	2016-10-20T17:48:31Z		test: add coverage for execFileSync() errors	55		
+9211	2512748	true	open	false	0		2016-10-20T17:48:31Z	2016-10-24T20:32:23Z		test: add coverage for execFileSync() errors	55		
 9212	22966265	false	closed	false	2		2016-10-20T19:19:59Z	2016-10-21T04:02:59Z	2016-10-21T04:02:59Z	moment.js Install issue with proxy	53		
 9213	275871	true	open	false	7		2016-10-20T20:49:41Z	2016-10-21T10:10:18Z		src: remove unneeded AssignToContext() call	48		
 9214	11139560	false	open	false	5		2016-10-21T00:38:07Z	2016-10-22T08:16:57Z		stderr and stdout interweave when written to different streams of the same file	119		
@@ -2358,7 +2358,7 @@
 9221	275871	true	open	false	0	0	2016-10-21T10:30:12Z	2016-10-21T10:30:12Z		src: make cross-context MakeCallback() calls work	4		
 9222	9373002	false	open	false	4		2016-10-21T13:06:24Z	2016-10-24T19:12:39Z		V8 nightly tests failing, downloads pointing to wrong repo ?	170		
 9223	54666	false	closed	false	0		2016-10-21T15:37:27Z	2016-10-24T14:06:40Z	2016-10-24T14:06:40Z	doc: `process` formatting issues	90		
-9224	275871	true	open	false	2		2016-10-21T17:20:15Z	2016-10-22T15:31:28Z		src: clean up program/isolate/env init logic	22		
+9224	275871	true	closed	false	2	0	2016-10-21T17:20:15Z	2016-10-24T20:42:03Z	2016-10-24T20:42:03Z	src: clean up program/isolate/env init logic	22		
 9225	1810178	true	open	false	1		2016-10-21T19:01:31Z	2016-10-24T14:03:43Z		url: name anonymous functions in url	67		
 9226	204037	false	open	false	4		2016-10-21T19:02:08Z	2016-10-23T09:45:01Z		Buffer.alloc v4: Incorrectly returns zero-filled buffer when encoding is passed	91		
 9227	718899	false	open	false	0		2016-10-21T20:21:20Z	2016-10-21T20:21:20Z		investigate flaky test-http-server-consumed-timeout on FreeBSD	66		
@@ -2371,11 +2371,11 @@
 9234	855219	true	open	false	9		2016-10-22T00:00:47Z	2016-10-24T19:43:13Z		Icu4c 58	85		
 9235	7606483	true	closed	false	2	0	2016-10-22T00:59:48Z	2016-10-24T14:07:42Z	2016-10-24T14:07:42Z	doc: fixes formatting in process	45		
 9236	406656	false	open	false	4		2016-10-22T01:35:33Z	2016-10-22T08:28:51Z		"tls.connect() fails with ""sslv3 alert handshake failure"" (RC4/MD5/DES cipher support)"	88		
-9237	855219	false	open	false	5		2016-10-22T02:02:41Z	2016-10-24T18:26:02Z		Add version info: CLDR, Unicode, Timezone	148		
-9238	11638619	true	open	false			2016-10-22T02:43:40Z	2016-10-24T19:58:20Z		buffer: fix `fill` with encoding in Buffer.alloc()	74		
+9237	855219	false	open	false	6		2016-10-22T02:02:41Z	2016-10-24T20:54:49Z		Add version info: CLDR, Unicode, Timezone	148		
+9238	11638619	true	open	false	7		2016-10-22T02:43:40Z	2016-10-24T20:11:33Z		buffer: fix `fill` with encoding in Buffer.alloc()	74		
 9239	5827364	true	open	false	4		2016-10-22T04:50:18Z	2016-10-23T09:39:37Z		test: Refactor to ES6	54		
 9240	4235596	false	open	false	0		2016-10-22T13:11:53Z	2016-10-22T13:11:53Z		Stream module	58		
-9241	275871	true	open	false	3		2016-10-22T14:35:36Z	2016-10-22T18:34:17Z		test: make test-crypto-timing-safe-equal-benchmarks more reliable	1		
+9241	275871	true	closed	false	3	0	2016-10-22T14:35:36Z	2016-10-24T20:45:42Z	2016-10-24T20:45:42Z	test: make test-crypto-timing-safe-equal-benchmarks more reliable	1		
 9242	416585	false	open	false	2		2016-10-23T07:49:31Z	2016-10-23T23:42:18Z		"Unexpected ""UnhandledPromiseRejectionWarning"" instead of ""unhandled 'error' event"""	87		
 9243	54666	true	open	false	0		2016-10-23T08:10:06Z	2016-10-23T09:19:22Z		src: remove unused function	39		
 9244	13891170	false	open	false	6		2016-10-23T10:12:12Z	2016-10-24T16:07:17Z		Support Let's Encrypt in core	76		
@@ -2386,14 +2386,15 @@
 9249	718899	true	open	false	1		2016-10-24T05:05:48Z	2016-10-24T10:22:15Z		tools: make --repeat work with -j in test.py	119		
 9250	7344457	true	open	false	4		2016-10-24T05:24:58Z	2016-10-24T17:42:55Z		os: name every function OS module	55		
 9251	609373	false	open	false	0		2016-10-24T10:15:56Z	2016-10-24T10:15:56Z		socket.remoteAddress has a strange value 	57		
-9252	7455872	true	open	false			2016-10-24T10:44:29Z	2016-10-24T17:29:04Z		fs: name anonymous functions	32		
+9252	7455872	true	open	false			2016-10-24T10:44:29Z	2016-10-24T20:56:57Z		fs: name anonymous functions	32		
 9253	2352663	true	closed	false	6	0	2016-10-24T11:03:03Z	2016-10-24T18:26:44Z	2016-10-24T18:26:44Z	deps: update V8 to 5.4.500.36	44		
 9254	3430784	false	open	false	3		2016-10-24T11:14:05Z	2016-10-24T18:55:53Z		Memory leaking with low network speed	127		
 9255	9373002	false	open	false	4		2016-10-24T14:35:45Z	2016-10-24T16:02:46Z		AIX: test-child-process-pass-fd.js processes still running	35		
-9256	8297234	false	open	false	1		2016-10-24T14:55:17Z	2016-10-24T16:00:47Z		parallel/test-http-set-timeout failing occasionally on linux-ppc64le	56		
-9257	17607	true	open	false	5		2016-10-24T15:59:34Z	2016-10-24T18:04:40Z		test: prevent workers outliving parent	78		
+9256	8297234	false	open	false	2		2016-10-24T14:55:17Z	2016-10-24T20:48:06Z		parallel/test-http-set-timeout failing occasionally on linux-ppc64le	56		
+9257	17607	true	open	false	8		2016-10-24T15:59:34Z	2016-10-24T20:59:02Z		test: prevent workers outliving parent	78		
 9258	498775	true	open	false	0	0	2016-10-24T16:08:08Z	2016-10-24T16:08:08Z		tools: use long format for gpg fingerprint	116		
 9259	15943089	true	open	false	0	0	2016-10-24T17:47:06Z	2016-10-24T17:47:06Z		doc: update CONTRIBUTING.md to address editing PRs	161		
-9260	275871	true	open	false	0	0	2016-10-24T18:27:55Z	2016-10-24T18:27:55Z		Backport pr6184 v4.x	1		
+9260	275871	true	open	false	1		2016-10-24T18:27:55Z	2016-10-24T20:13:02Z		Backport pr6184 v4.x	2		
 9261	718899	false	open	false	0		2016-10-24T19:16:41Z	2016-10-24T19:16:41Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-10-26	456		
-9262	176984	true	open	false	0	0	2016-10-24T19:42:12Z	2016-10-24T19:42:12Z		work in progress: test.py tap13 output	163		
+9262	176984	true	open	false	1		2016-10-24T19:42:12Z	2016-10-24T20:03:58Z		work in progress: test.py tap13 output	163		
+9263	275871	true	open	false	0	0	2016-10-24T20:58:13Z	2016-10-24T20:58:13Z		test: use strict assertions in module loader test	1		
