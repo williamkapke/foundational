@@ -1172,7 +1172,7 @@
 8034	275871	true	closed	false	19		2016-08-09T15:25:45Z	2016-10-06T05:22:04Z	2016-10-03T17:49:26Z	build: run cctests as part of test-ci target	4		
 8035	17704638	true	closed	false	10		2016-08-09T15:33:31Z	2016-08-18T17:38:17Z	2016-08-18T17:38:17Z	doc: script with space  spawn example for windows	46		
 8036	446283	true	open	false	0	0	2016-08-09T20:17:43Z	2016-08-09T20:17:43Z		Avoid potential memory leak if realloc fails	437		
-8037	439929	true	open	false	1		2016-08-09T20:50:54Z	2016-08-09T22:11:08Z		doc: document vm module limitation with timeouts and async code	28		
+8037	439929	true	open	false	3		2016-08-09T20:50:54Z	2016-10-24T11:03:23Z		doc: document vm module limitation with timeouts and async code	28		
 8038	4976075	true	closed	false	15		2016-08-09T21:30:44Z	2016-08-11T17:06:35Z	2016-08-11T16:40:30Z	Cherry pick 588e15c and c0d4bb8 from upstream V8	61		
 8039	899444	true	closed	false	18		2016-08-09T22:47:32Z	2016-10-10T21:54:33Z	2016-08-18T01:45:26Z	test: add an zlib binding addon test	71		
 8040	11638619	true	closed	false	82		2016-08-09T23:32:06Z	2016-09-12T21:15:26Z	2016-08-20T02:38:11Z	Add crypto.timingSafeEqual()	68		
@@ -1835,7 +1835,7 @@
 8698	5498548	false	closed	false	2		2016-09-21T18:44:10Z	2016-09-21T20:14:14Z	2016-09-21T20:14:14Z	RPM Package signing key	83		
 8699	14127285	false	open	false	3		2016-09-21T18:53:09Z	2016-09-21T20:22:52Z		[Archlinux] Need help ! 	77		
 8700	718899	false	closed	false	2		2016-09-21T19:06:44Z	2016-09-23T23:02:04Z	2016-09-23T23:02:04Z	Investigate flaky test-cluster-worker-init on Raspberry Pi 1	31		
-8701	416585	false	closed	false	4		2016-09-21T19:28:18Z	2016-10-24T10:41:18Z	2016-10-07T14:51:24Z	Unexpected Z_BUF_ERROR when using zlib	80		
+8701	416585	false	closed	false	6		2016-09-21T19:28:18Z	2016-10-24T11:06:28Z	2016-10-07T14:51:24Z	Unexpected Z_BUF_ERROR when using zlib	80		
 8702	71237	false	closed	false	2		2016-09-21T21:33:55Z	2016-09-22T03:31:46Z	2016-09-22T03:31:45Z	Inspector seg fault when stopping allocation profiler	536		
 8703	1898870	true	closed	false	12		2016-09-21T22:34:52Z	2016-09-23T23:01:49Z	2016-09-23T23:01:49Z	test: fix test-cluster-worker-init.js flakyness	54		
 8704	553630	true	open	false	10		2016-09-21T22:37:37Z	2016-09-23T23:06:34Z		doc: update BUILDING.md	46		
@@ -2259,7 +2259,7 @@
 9122	2227152	true	closed	false	5		2016-10-16T18:36:17Z	2016-10-18T04:45:02Z	2016-10-18T03:21:23Z	build: do not define ZLIB_CONST	57		
 9123	1033043	true	closed	false	2		2016-10-17T00:21:56Z	2016-10-17T16:27:12Z	2016-10-17T16:27:12Z	doc: fix typo (zlib)	45		
 9124	718899	true	closed	false	2		2016-10-17T03:43:34Z	2016-10-18T22:27:28Z	2016-10-18T22:27:28Z	test: remove unused common.libDir	44		
-9125	8791438	false	closed	false	2		2016-10-17T05:10:40Z	2016-10-23T21:16:01Z	2016-10-21T15:39:05Z	[errors] Add built in ErrnoError	258		
+9125	8791438	false	closed	false	3		2016-10-17T05:10:40Z	2016-10-24T11:29:41Z	2016-10-21T15:39:05Z	[errors] Add built in ErrnoError	258		
 9126	9935523	true	open	false	1		2016-10-17T05:10:54Z	2016-10-17T18:50:38Z		doc: minor fixes event-loop-timers-and-nexttick.md	50		
 9127	22756824	false	closed	false	2		2016-10-17T08:01:24Z	2016-10-17T16:31:46Z	2016-10-17T08:27:43Z	Node installed but not linked	41		
 9128	498775	true	closed	false	0		2016-10-17T08:32:37Z	2016-10-19T15:49:32Z	2016-10-19T15:49:32Z	doc: suggest nodejs/help for general support	11		
@@ -2371,8 +2371,8 @@
 9234	855219	true	open	false	1		2016-10-22T00:00:47Z	2016-10-22T15:15:20Z		Icu4c 58	85		
 9235	7606483	true	open	false	1		2016-10-22T00:59:48Z	2016-10-22T01:32:27Z		doc: fixes formatting in process	45		
 9236	406656	false	open	false	4		2016-10-22T01:35:33Z	2016-10-22T08:28:51Z		"tls.connect() fails with ""sslv3 alert handshake failure"" (RC4/MD5/DES cipher support)"	88		
-9237	855219	false	open	false	0		2016-10-22T02:02:41Z	2016-10-23T17:17:56Z		Add version info: CLDR, Unicode, Timezone	148		
-9238	11638619	true	open	false			2016-10-22T02:43:40Z	2016-10-22T13:42:20Z		buffer: fix `fill` with encoding in Buffer.alloc()	74		
+9237	855219	false	open	false	2		2016-10-22T02:02:41Z	2016-10-24T11:39:53Z		Add version info: CLDR, Unicode, Timezone	148		
+9238	11638619	true	open	false			2016-10-22T02:43:40Z	2016-10-24T11:18:48Z		buffer: fix `fill` with encoding in Buffer.alloc()	74		
 9239	5827364	true	open	false	4		2016-10-22T04:50:18Z	2016-10-23T09:39:37Z		test: Refactor to ES6	54		
 9240	4235596	false	open	false	0		2016-10-22T13:11:53Z	2016-10-22T13:11:53Z		Stream module	58		
 9241	275871	true	open	false	3		2016-10-22T14:35:36Z	2016-10-22T18:34:17Z		test: make test-crypto-timing-safe-equal-benchmarks more reliable	1		
@@ -2382,8 +2382,10 @@
 9245	20029251	false	closed	false	5		2016-10-23T12:52:46Z	2016-10-23T15:06:22Z	2016-10-23T15:06:22Z	npm don't install	117		
 9246	439929	true	open	false	3		2016-10-23T15:11:59Z	2016-10-23T17:46:38Z		test: skip whatwg url parse tests when icu is missing	78		
 9247	82626	false	open	false	0		2016-10-24T00:34:14Z	2016-10-24T00:34:14Z		streams documentation for writable.write(chunk) describes return value incorrectly	154		
-9248	3516420	false	open	false	0		2016-10-24T02:03:22Z	2016-10-24T02:03:22Z		Allow assignment of undefined to process.env variables	29		
+9248	3516420	false	closed	false	4		2016-10-24T02:03:22Z	2016-10-24T11:15:47Z	2016-10-24T02:11:48Z	Allow assignment of undefined to process.env variables	29		
 9249	718899	true	open	false	1		2016-10-24T05:05:48Z	2016-10-24T10:22:15Z		tools: make --repeat work with -j in test.py	119		
 9250	7344457	true	open	false	3		2016-10-24T05:24:58Z	2016-10-24T07:13:19Z		os: name every function OS module	51		
 9251	609373	false	open	false	0		2016-10-24T10:15:56Z	2016-10-24T10:15:56Z		socket.remoteAddress has a strange value 	57		
-9252	7455872	true	open	false	0	0	2016-10-24T10:44:29Z	2016-10-24T10:44:29Z		fs: name anonymous functions	32		
+9252	7455872	true	open	false	2		2016-10-24T10:44:29Z	2016-10-24T11:34:49Z		fs: name anonymous functions	32		
+9253	2352663	true	open	false	0	0	2016-10-24T11:03:03Z	2016-10-24T11:03:03Z		deps: update V8 to 5.4.500.36	39		
+9254	3430784	false	open	false	0		2016-10-24T11:14:05Z	2016-10-24T11:14:05Z		Memory leaking with low network speed	127		
