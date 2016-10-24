@@ -266,7 +266,7 @@
 6171	1088987	true	open	false	3		2016-04-12T19:50:49Z	2016-10-14T19:21:46Z		repl: refactor `LineParser` implementation	94		
 6180	3824055	false	closed	false	18		2016-04-13T14:03:54Z	2016-07-26T17:44:29Z	2016-07-26T17:44:29Z	Memory leak in simple test case involving WeakSet	202		
 6181	6279791	false	closed	false	5		2016-04-13T14:17:30Z	2016-09-27T13:15:32Z	2016-04-13T17:24:17Z	Uncaught TypeError when tab-completing constructor in REPL	66		
-6184	289174	true	closed	false	28		2016-04-13T19:21:38Z	2016-10-10T16:16:56Z	2016-05-24T20:44:10Z	src: no abort from GetFD if object isn't wrapped	88		
+6184	289174	true	closed	false	28		2016-04-13T19:21:38Z	2016-10-24T16:37:56Z	2016-05-24T20:44:10Z	src: no abort from GetFD if object isn't wrapped	88		
 6190	289174	false	open	false	12		2016-04-13T23:17:48Z	2016-09-05T09:58:35Z		net: multiple listen() events fail silently	94		
 6212	54666	true	closed	false	12		2016-04-15T05:28:43Z	2016-10-10T16:18:17Z	2016-04-18T21:42:09Z	tools: move message listener to worker objects	64		
 6223	291301	false	closed	false	0		2016-04-15T16:38:22Z	2016-07-15T15:13:27Z	2016-07-15T15:13:27Z	uncaughtException documentation should mention that it not a reliable «restart on crash» method	106		
@@ -590,7 +590,7 @@
 7445	733877	false	open	false	0		2016-06-27T18:32:43Z	2016-06-27T18:32:43Z		Node.js MacOSX Installer problems with npm	455		
 7446	1018196	false	closed	false	4		2016-06-27T18:36:26Z	2016-08-06T18:16:37Z	2016-06-27T19:47:01Z	http fetch api	49		
 7447	715626	false	closed	false	9		2016-06-27T19:09:46Z	2016-06-30T02:05:37Z	2016-06-28T18:46:28Z	path.dirname() doesn't work with Windows' URNs	62		
-7448	439929	true	closed	false	47		2016-06-27T20:02:10Z	2016-10-20T16:19:52Z	2016-10-11T19:43:10Z	url: adding WHATWG URL support	105		
+7448	439929	true	closed	false	48		2016-06-27T20:02:10Z	2016-10-24T16:23:28Z	2016-10-11T19:43:10Z	url: adding WHATWG URL support	105		
 7449	10435209	true	closed	false	13		2016-06-27T20:19:48Z	2016-07-04T14:51:16Z	2016-07-04T14:51:15Z	Fix documentation of process.argv[0]	34		
 7450	287917	true	closed	false	4	8	2016-06-27T23:46:29Z	2016-06-29T23:04:00Z	2016-06-29T23:03:59Z	inspector: Do cleanups before notifying callback	135		
 7451	498775	true	closed	false	16	2	2016-06-28T00:12:14Z	2016-06-29T23:06:16Z	2016-06-29T23:06:16Z	[v4.x backport] test: run v8 tests from node tree	130	498775	2016-06-29T23:06:16Z
@@ -729,7 +729,7 @@
 7590	965036	true	closed	false	10		2016-07-07T18:40:04Z	2016-07-18T13:33:57Z	2016-07-18T13:33:57Z	doc: removed old git conflict markers form fs.md	41		
 7591	3310013	false	closed	false	3		2016-07-07T18:58:29Z	2016-07-13T19:11:28Z	2016-07-13T19:11:28Z	Buffer's indexOf does not seem to handle numbers correctly	178		
 7592	692511	false	open	false	10		2016-07-07T20:29:29Z	2016-07-22T06:45:24Z		Possible bug: instanceof evaluates to true in Node 4 but not Node 6	65		
-7593	379606	false	open	false	4		2016-07-07T21:49:22Z	2016-10-24T15:36:41Z		v8_inspector: Support the V8 debugger from within VM contexts	76		
+7593	379606	false	open	false	4		2016-07-07T21:49:22Z	2016-10-24T16:33:35Z		v8_inspector: Support the V8 debugger from within VM contexts	76		
 7594	718899	true	closed	false	6		2016-07-07T21:57:39Z	2016-07-10T23:06:55Z	2016-07-10T23:06:55Z	tools: remove unused variable	70		
 7595	718899	true	closed	false	4		2016-07-07T22:04:57Z	2016-07-10T23:19:03Z	2016-07-10T23:19:02Z	test: remove unused var in test-tls-server-verify	77		
 7596	718899	true	open	false	5		2016-07-07T22:09:19Z	2016-07-08T08:09:53Z		test: remove unused var from stream2 test	77		
@@ -823,7 +823,7 @@
 7684	321966	true	closed	false	5		2016-07-12T14:54:37Z	2016-07-12T17:39:10Z	2016-07-12T17:39:10Z	doc: buffers are not sent over IPC with a socket	172		
 7685	2512748	true	closed	false	2	0	2016-07-12T16:24:56Z	2016-07-14T14:15:31Z	2016-07-14T14:15:30Z	test: add common.rootDir	61	2512748	2016-07-14T14:15:30Z
 7686	54666	true	closed	false	4		2016-07-12T16:34:11Z	2016-07-14T18:24:38Z	2016-07-14T18:24:38Z	src: clean up string_search	17		
-7687	6487691	true	closed	false	22		2016-07-12T18:10:58Z	2016-10-04T18:35:01Z	2016-08-09T16:02:51Z	Add correct shared library naming on OS X	100		
+7687	6487691	true	closed	false	23		2016-07-12T18:10:58Z	2016-10-24T16:41:14Z	2016-08-09T16:02:51Z	Add correct shared library naming on OS X	100		
 7688	498775	true	closed	false	15		2016-07-12T18:15:10Z	2016-08-16T18:39:57Z	2016-08-16T16:04:09Z	v4.5.0 proposal	3290		
 7689	1485909	true	closed	false	21		2016-07-12T20:16:28Z	2016-08-03T14:36:04Z	2016-07-26T17:47:50Z	deps: cherry-pick b93c80a from v8 upstream	58		
 7690	7135896	true	closed	false	23		2016-07-12T21:11:48Z	2016-09-30T21:38:32Z	2016-08-04T15:56:03Z	util: allow deprecate on classes	66		
@@ -962,7 +962,7 @@
 7823	122434	false	open	false	2		2016-07-21T14:10:31Z	2016-07-22T06:10:46Z		Rely on toJSON in querystring.stringify	50		
 7824	2352663	true	closed	false	18	2	2016-07-21T14:22:58Z	2016-08-29T07:43:03Z	2016-08-29T07:43:03Z	[WIP] Update V8 to 5.2	65		
 7825	17273637	false	open	false	2		2016-07-21T17:10:50Z	2016-07-21T20:22:53Z		[Windows] Impossible enable SIMD in latest nodejs 6.x.x	23		
-7826	2512748	true	closed	false	8		2016-07-21T17:30:23Z	2016-09-30T18:08:37Z	2016-08-08T15:03:52Z	repl: don't override all internal repl defaults	156		
+7826	2512748	true	closed	false	9		2016-07-21T17:30:23Z	2016-10-24T16:42:28Z	2016-08-08T15:03:52Z	repl: don't override all internal repl defaults	156		
 7827	467627	true	closed	false	24		2016-07-21T19:22:34Z	2016-10-10T22:20:20Z	2016-07-29T16:52:39Z	timers: fix cleanup of nested same-timeout timers	122		
 7828	20170894	false	closed	false	14		2016-07-21T20:02:42Z	2016-07-22T05:48:58Z	2016-07-22T05:48:58Z	Support for null terminated strings with Buffer toString?	138		
 7829	1622515	true	closed	false	23		2016-07-21T22:46:42Z	2016-08-04T20:09:15Z	2016-08-04T20:09:15Z	repl: deprecate unused function convertToContext	34		
@@ -1169,7 +1169,7 @@
 8031	731796	false	closed	false	2		2016-08-09T09:37:29Z	2016-08-09T10:18:32Z	2016-08-09T10:18:32Z	offset out of bounds	37		
 8032	781745	false	open	false	0		2016-08-09T11:54:55Z	2016-08-09T11:54:55Z		BUG: Comparing prototypes of Object	81		
 8033	122434	false	open	false	10		2016-08-09T12:37:54Z	2016-08-10T22:04:59Z		Observe data emitted through stdout and stderr	45		
-8034	275871	true	closed	false	19		2016-08-09T15:25:45Z	2016-10-06T05:22:04Z	2016-10-03T17:49:26Z	build: run cctests as part of test-ci target	4		
+8034	275871	true	closed	false	20		2016-08-09T15:25:45Z	2016-10-24T16:44:12Z	2016-10-03T17:49:26Z	build: run cctests as part of test-ci target	4		
 8035	17704638	true	closed	false	10		2016-08-09T15:33:31Z	2016-08-18T17:38:17Z	2016-08-18T17:38:17Z	doc: script with space  spawn example for windows	46		
 8036	446283	true	open	false	0	0	2016-08-09T20:17:43Z	2016-08-09T20:17:43Z		Avoid potential memory leak if realloc fails	437		
 8037	439929	true	open	false	3		2016-08-09T20:50:54Z	2016-10-24T11:03:23Z		doc: document vm module limitation with timeouts and async code	28		
@@ -1646,10 +1646,10 @@
 8509	3320742	false	open	false	5		2016-09-13T02:17:53Z	2016-09-15T23:15:40Z		Configuration option to permanently turn on --preserve-symlinks	110		
 8510	10680833	true	closed	false	15		2016-09-13T03:07:50Z	2016-10-06T22:23:13Z	2016-09-17T08:53:42Z	Fixes an issue where Buffer.from was not supporting SharedArrayBuffer	72		
 8511	718899	false	open	false	1		2016-09-13T04:21:25Z	2016-10-21T20:23:35Z		Investigate flaky test-fs-watch-recursive on OS X	10		
-8512	1466123	true	closed	false	10		2016-09-13T05:54:45Z	2016-09-20T21:10:47Z	2016-09-20T21:10:47Z	zlib: fix raw inflate with custom dictionary	74		
+8512	1466123	true	closed	false	11		2016-09-13T05:54:45Z	2016-10-24T16:46:22Z	2016-09-20T21:10:47Z	zlib: fix raw inflate with custom dictionary	74		
 8513	1057486	false	closed	false	2		2016-09-13T08:38:35Z	2016-09-13T15:46:09Z	2016-09-13T10:44:54Z	Expose V8's JavaScript parser API as an part of standard library?	92		
 8514	21603	true	closed	false	11		2016-09-13T10:43:59Z	2016-09-18T12:30:58Z	2016-09-18T12:30:58Z	tls: add 'new' keyword for Array constructor call	50		
-8515	899444	true	closed	false	14	4	2016-09-13T11:53:56Z	2016-09-19T12:59:41Z	2016-09-19T12:59:40Z	fs: fix handling of `struct stat` fields	139		
+8515	899444	true	closed	false	15		2016-09-13T11:53:56Z	2016-10-24T16:47:07Z	2016-09-19T12:59:40Z	fs: fix handling of `struct stat` fields	139		
 8516	1607273	false	closed	false	4		2016-09-13T13:50:51Z	2016-09-14T10:56:51Z	2016-09-14T10:56:51Z	Event emitter calls method which removed itself	198		
 8517	11681052	true	closed	false	9	9	2016-09-13T18:36:53Z	2016-09-16T23:08:35Z	2016-09-16T23:08:34Z	https: made some improvements to test-https-agent.js	89		
 8518	718899	true	closed	false	9		2016-09-13T18:41:16Z	2016-09-16T04:54:36Z	2016-09-16T04:54:36Z	test: add coverage for client._addHandle()	60		
@@ -1686,7 +1686,7 @@
 8549	15943089	true	open	false	9		2016-09-15T16:55:35Z	2016-09-21T22:04:25Z		test: fix fork-dgram on AIX	102		
 8550	287917	true	open	false	10		2016-09-15T18:02:28Z	2016-09-19T20:22:24Z		inspector: restore 9229 as a default port	80		
 8551	291301	true	open	false	11		2016-09-15T19:22:54Z	2016-09-25T10:15:27Z		Introduce 'make doclint' command and tooling	99		
-8552	2352663	true	closed	false	10		2016-09-15T19:30:18Z	2016-10-23T09:46:21Z	2016-09-19T07:17:45Z	Improve buffer test coverage	39		
+8552	2352663	true	closed	false	11		2016-09-15T19:30:18Z	2016-10-24T16:47:44Z	2016-09-19T07:17:45Z	Improve buffer test coverage	39		
 8553	291301	true	closed	false	10	0	2016-09-15T19:35:59Z	2016-09-17T18:48:32Z	2016-09-17T18:48:32Z	doc: fix a formatting error in buffer.md	64	291301	2016-09-17T18:48:32Z
 8554	718899	false	open	false	7		2016-09-15T21:00:14Z	2016-09-21T01:33:46Z		Adopting project workflow to new GitHub features	159		
 8555	362089	false	closed	false	1		2016-09-15T23:22:40Z	2016-09-23T00:13:33Z	2016-09-23T00:13:33Z	vm: node crashes if timeout is set and nofile limit is reached	148		
@@ -2143,7 +2143,7 @@
 9006	935710	false	open	false	4		2016-10-10T15:20:33Z	2016-10-11T08:31:37Z		buffer.length performance regressed in 6.5.0	59		
 9007	1141042	true	closed	false	3		2016-10-10T16:35:59Z	2016-10-16T18:49:56Z	2016-10-16T18:49:56Z	doc: errno is a number, not a string	93		
 9008	855219	true	open	false	2		2016-10-10T16:48:08Z	2016-10-10T17:01:03Z		intl: (v4.x) Don't crash if v8BreakIterator not available	61		
-9009	15943089	true	closed	false	13		2016-10-10T17:02:31Z	2016-10-24T15:34:25Z	2016-10-24T14:15:17Z	Add platform specific teams to onboarding-extras	202		
+9009	15943089	true	closed	false	13		2016-10-10T17:02:31Z	2016-10-24T16:11:41Z	2016-10-24T14:15:17Z	Add platform specific teams to onboarding-extras	202		
 9010	677994	true	open	false	13		2016-10-10T17:07:38Z	2016-10-24T15:49:54Z		http: improve invalid character in header error message	62		
 9011	22550884	true	closed	false	5		2016-10-10T17:10:34Z	2016-10-12T16:14:49Z	2016-10-12T16:14:48Z	test-debugger-pid: Somes fixes that do not change performance	18		
 9012	4400726	false	open	false	2		2016-10-10T19:50:52Z	2016-10-10T20:08:03Z		What makes a Socket idle?	124		
@@ -2243,7 +2243,7 @@
 9106	5669480	false	open	false	2		2016-10-15T01:44:27Z	2016-10-15T19:11:32Z		fs.statSync does not throw an error when accessing non-existent directory on Windows 10	80		
 9107	495647	true	open	false	3		2016-10-15T11:40:47Z	2016-10-18T02:51:29Z		tls: fix minor jslint failure for v0.10	37		
 9108	495647	true	closed	false	5		2016-10-15T11:44:24Z	2016-10-18T13:35:59Z	2016-10-18T13:35:59Z	deps: c-ares, avoid single-byte buffer overwrite	68		
-9109	1084056	true	open	false	0	0	2016-10-15T12:56:16Z	2016-10-15T12:56:16Z		test: fix test-cluster-dgram-1 flakiness - 4.x backport	82		
+9109	1084056	true	closed	false	1		2016-10-15T12:56:16Z	2016-10-24T16:10:21Z	2016-10-24T16:10:21Z	test: fix test-cluster-dgram-1 flakiness - 4.x backport	82		
 9110	7834613	false	closed	false	3		2016-10-15T18:04:59Z	2016-10-21T15:42:41Z	2016-10-21T15:42:41Z	6.8.1 fails to fix const error for shared-zlib older than 1.2.5	95		
 9111	861819	true	closed	false	2		2016-10-15T18:34:12Z	2016-10-16T11:04:26Z	2016-10-16T11:04:26Z	add IntelliJ project file+directory to .gitignore	31		
 9112	718899	true	closed	false	1		2016-10-15T19:29:01Z	2016-10-18T22:29:16Z	2016-10-18T22:29:16Z	tools: update to eslint 3.8.0, fix unneeded escaping in template strings	82		
@@ -2286,7 +2286,7 @@
 9149	374012	false	closed	false	1		2016-10-18T07:13:47Z	2016-10-20T19:46:54Z	2016-10-20T19:46:54Z	Buffer.fill has an out of bounds (arbitrary) memory write	291		
 9150	495647	true	open	false	1		2016-10-18T07:48:58Z	2016-10-18T17:01:15Z		test: mark dgram-multicast-multi-process as flaky on v0.12	24		
 9151	495647	true	open	false			2016-10-18T07:58:20Z	2016-10-19T10:33:31Z		build: add working lint-ci make target (v0.12)	44		
-9152	6917800	true	open	false	1		2016-10-18T08:51:30Z	2016-10-18T22:48:15Z		child_process: Check stderr before accessing it	96		
+9152	6917800	true	open	false	2		2016-10-18T08:51:30Z	2016-10-24T16:10:42Z		child_process: Check stderr before accessing it	96		
 9153	495647	true	closed	false	3	0	2016-10-18T09:10:56Z	2016-10-19T03:05:13Z	2016-10-19T03:05:13Z	Release proposal: v4.6.1	58		
 9154	495647	true	closed	false	1	0	2016-10-18T09:30:14Z	2016-10-18T16:37:35Z	2016-10-18T16:37:35Z	Release proposal: v0.10.48	66	495647	2016-10-18T16:37:35Z
 9155	495647	true	closed	false	5		2016-10-18T11:21:22Z	2016-10-18T13:02:18Z	2016-10-18T13:02:18Z	win,build: try multiple timeservers when signing	102		
@@ -2301,7 +2301,7 @@
 9164	2292713	false	closed	false	2		2016-10-18T15:13:39Z	2016-10-18T17:01:49Z	2016-10-18T15:30:56Z	Step over/Next does not stop on next line if there is exception thrown and caught inside a function	78		
 9165	781818	false	open	false	6		2016-10-18T16:03:06Z	2016-10-18T18:13:38Z		Incorrect documentation or bug in Node	200		
 9166	1658949	true	open	false			2016-10-18T16:53:50Z	2016-10-24T14:09:23Z		doc: mention case-insensitive env on windows	78		
-9167	899444	true	open	false	0	0	2016-10-18T17:02:12Z	2016-10-18T17:02:12Z		doc: correct metadata of `Buffer.from`	57		
+9167	899444	true	closed	false	0		2016-10-18T17:02:12Z	2016-10-24T16:11:36Z	2016-10-24T16:11:36Z	doc: correct metadata of `Buffer.from`	57		
 9168	495647	true	open	false	2		2016-10-18T17:16:05Z	2016-10-19T02:18:34Z		doc: fix changelog index for v6.9.0	0		
 9169	718899	true	closed	false	2		2016-10-18T18:26:43Z	2016-10-21T05:56:56Z	2016-10-21T05:56:56Z	test: remove duplicate required module	38		
 9170	4206033	false	closed	false	7		2016-10-18T19:22:50Z	2016-10-19T13:01:18Z	2016-10-19T13:01:18Z	stream.Readable unpipes the wrong stream when piped into multiple streams	134		
@@ -2337,7 +2337,7 @@
 9200	7766085	false	closed	false	8		2016-10-20T00:34:40Z	2016-10-20T08:15:03Z	2016-10-20T08:15:03Z	crypto can't sign RSA-SHA1?	66		
 9201	1829789	false	open	false	12		2016-10-20T04:26:37Z	2016-10-23T17:31:46Z		stdout, stderr and stdin are all Duplex streams but documentation states otherwise	192		
 9202	101553	true	closed	false	6		2016-10-20T11:56:49Z	2016-10-20T14:44:06Z	2016-10-20T14:44:06Z	deps: update V8 to 5.4.524	34		
-9203	275871	true	open	false	1		2016-10-20T12:00:08Z	2016-10-24T15:26:10Z		src: disable stdio buffering	6		
+9203	275871	true	open	false	2		2016-10-20T12:00:08Z	2016-10-24T16:24:26Z		src: disable stdio buffering	6		
 9204	10507098	false	open	false	3		2016-10-20T12:22:11Z	2016-10-20T14:23:51Z		Example of second way of delegating connections to cluster workers	128		
 9205	170197	false	closed	false	9		2016-10-20T13:16:22Z	2016-10-20T19:24:17Z	2016-10-20T17:05:15Z	deprecate url module	18		
 9206	275871	false	open	false	2		2016-10-20T13:31:31Z	2016-10-23T06:29:45Z		stdio: cannot write to stdin after #1233	103		
@@ -2367,7 +2367,7 @@
 9230	4481528	true	open	false			2016-10-21T22:06:46Z	2016-10-22T06:45:35Z		querystring: name anonymous functions	37		
 9231	8248574	true	open	false	4		2016-10-21T22:54:52Z	2016-10-22T05:28:58Z		test: clean up `test-child-process-exec-cwd.js`	50		
 9232	68368	true	open	false	2		2016-10-21T23:24:48Z	2016-10-23T13:45:25Z		build: use wxneeded on openbsd	58		
-9233	287917	true	open	false	1		2016-10-21T23:25:20Z	2016-10-22T08:46:40Z		inspector: do not dereference null pointer	49		
+9233	287917	true	closed	false	1	0	2016-10-21T23:25:20Z	2016-10-24T16:15:31Z	2016-10-24T16:15:31Z	inspector: do not dereference null pointer	49		
 9234	855219	true	open	false	4		2016-10-22T00:00:47Z	2016-10-24T14:53:15Z		Icu4c 58	85		
 9235	7606483	true	closed	false	2	0	2016-10-22T00:59:48Z	2016-10-24T14:07:42Z	2016-10-24T14:07:42Z	doc: fixes formatting in process	45		
 9236	406656	false	open	false	4		2016-10-22T01:35:33Z	2016-10-22T08:28:51Z		"tls.connect() fails with ""sslv3 alert handshake failure"" (RC4/MD5/DES cipher support)"	88		
@@ -2378,17 +2378,18 @@
 9241	275871	true	open	false	3		2016-10-22T14:35:36Z	2016-10-22T18:34:17Z		test: make test-crypto-timing-safe-equal-benchmarks more reliable	1		
 9242	416585	false	open	false	2		2016-10-23T07:49:31Z	2016-10-23T23:42:18Z		"Unexpected ""UnhandledPromiseRejectionWarning"" instead of ""unhandled 'error' event"""	87		
 9243	54666	true	open	false	0		2016-10-23T08:10:06Z	2016-10-23T09:19:22Z		src: remove unused function	39		
-9244	13891170	false	open	false	5		2016-10-23T10:12:12Z	2016-10-24T15:55:47Z		Support Let's Encrypt in core	76		
+9244	13891170	false	open	false	6		2016-10-23T10:12:12Z	2016-10-24T16:07:17Z		Support Let's Encrypt in core	76		
 9245	20029251	false	closed	false	5		2016-10-23T12:52:46Z	2016-10-23T15:06:22Z	2016-10-23T15:06:22Z	npm don't install	117		
-9246	439929	true	open	false			2016-10-23T15:11:59Z	2016-10-24T15:51:13Z		test: skip whatwg url parse tests when icu is missing	78		
+9246	439929	true	open	false	5		2016-10-23T15:11:59Z	2016-10-24T16:23:33Z		test: skip whatwg url parse tests when icu is missing	78		
 9247	82626	false	open	false	0		2016-10-24T00:34:14Z	2016-10-24T00:34:14Z		streams documentation for writable.write(chunk) describes return value incorrectly	154		
 9248	3516420	false	closed	false	6		2016-10-24T02:03:22Z	2016-10-24T15:47:33Z	2016-10-24T02:11:48Z	Allow assignment of undefined to process.env variables	29		
 9249	718899	true	open	false	1		2016-10-24T05:05:48Z	2016-10-24T10:22:15Z		tools: make --repeat work with -j in test.py	119		
 9250	7344457	true	open	false	3		2016-10-24T05:24:58Z	2016-10-24T07:13:19Z		os: name every function OS module	51		
 9251	609373	false	open	false	0		2016-10-24T10:15:56Z	2016-10-24T10:15:56Z		socket.remoteAddress has a strange value 	57		
 9252	7455872	true	open	false	6		2016-10-24T10:44:29Z	2016-10-24T13:41:15Z		fs: name anonymous functions	32		
-9253	2352663	true	open	false	2		2016-10-24T11:03:03Z	2016-10-24T14:20:56Z		deps: update V8 to 5.4.500.36	44		
+9253	2352663	true	open	false	4		2016-10-24T11:03:03Z	2016-10-24T16:02:50Z		deps: update V8 to 5.4.500.36	44		
 9254	3430784	false	open	false	1		2016-10-24T11:14:05Z	2016-10-24T15:54:05Z		Memory leaking with low network speed	127		
-9255	9373002	false	open	false	3		2016-10-24T14:35:45Z	2016-10-24T15:13:44Z		AIX: test-child-process-pass-fd.js processes still running	35		
+9255	9373002	false	open	false	4		2016-10-24T14:35:45Z	2016-10-24T16:02:46Z		AIX: test-child-process-pass-fd.js processes still running	35		
 9256	8297234	false	open	false	1		2016-10-24T14:55:17Z	2016-10-24T16:00:47Z		parallel/test-http-set-timeout failing occasionally on linux-ppc64le	56		
-9257	17607	true	open	false	0	0	2016-10-24T15:59:34Z	2016-10-24T15:59:34Z		test: prevent workers outliving parent	78		
+9257	17607	true	open	false	1		2016-10-24T15:59:34Z	2016-10-24T16:11:05Z		test: prevent workers outliving parent	78		
+9258	498775	true	open	false	0	0	2016-10-24T16:08:08Z	2016-10-24T16:08:08Z		tools: use long format for gpg fingerprint	116		
