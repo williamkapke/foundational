@@ -186,6 +186,7 @@
 4747	3899684	true	closed	false	66		2016-01-18T18:08:00Z	2016-07-01T10:04:44Z	2016-04-20T23:00:07Z	doc: renamed doc files to .md, adapted build scripts	27		
 4758	347387	false	closed	false	6		2016-01-19T12:08:26Z	2016-10-07T14:39:27Z	2016-10-07T14:39:27Z	SIGINT not triggering with readline	26		
 4823	1063255	false	closed	false	4		2016-01-22T23:47:02Z	2016-06-30T15:00:02Z	2016-06-30T15:00:02Z	test: possible flaky test-repl.js	88		
+4877	112928	true	open	false	29		2016-01-26T11:42:25Z	2016-10-25T17:51:55Z		Clarify Buffer hex string error message	27		
 4878	153219	false	closed	false	12		2016-01-26T11:44:48Z	2016-09-16T12:28:28Z	2016-09-16T12:28:28Z	SNICallback doesn't appear to work with `tls.createSecurePair()`	97		
 4932	961599	false	closed	false	4		2016-01-28T20:34:56Z	2016-08-22T21:49:02Z	2016-08-22T21:49:02Z	Windows: addons cannot use the bundled OpenSSL	79		
 4941	2757844	false	closed	false	4		2016-01-29T05:18:31Z	2016-08-10T18:15:17Z	2016-01-29T08:50:38Z	Error: not implemented when using streams with setInterval	171		
@@ -2172,7 +2173,7 @@
 9035	114976	true	closed	false	0	0	2016-10-11T20:00:05Z	2016-10-11T20:02:44Z	2016-10-11T20:02:44Z	validate arguments to mustCall(), default value	76		
 9036	1093990	false	open	false	0		2016-10-11T20:10:42Z	2016-10-11T20:10:42Z		consider printing Experimental warnings for all Experimental APIs	40		
 9037	498775	true	open	false	5		2016-10-11T20:28:49Z	2016-10-14T05:20:36Z		ares_create_query: avoid single-byte buffer overwrite	64		
-9038	439929	true	open	false	14		2016-10-11T21:16:00Z	2016-10-25T16:12:56Z		buffer: add buffer.transcode	93		
+9038	439929	true	open	false	15		2016-10-11T21:16:00Z	2016-10-25T17:10:47Z		buffer: add buffer.transcode	93		
 9039	580982	false	open	false	9		2016-10-11T22:04:02Z	2016-10-18T23:14:15Z		Array Joining is slower in Node 6.x	297		
 9040	439929	true	closed	false	15	23	2016-10-11T22:23:30Z	2016-10-25T16:02:25Z	2016-10-25T16:02:25Z	readline: use icu based string width calculation	113		
 9041	439929	true	closed	false	7		2016-10-11T22:32:38Z	2016-10-12T16:38:29Z	2016-10-12T02:20:47Z	url: fix building when using --without-intl	42		
@@ -2250,7 +2251,7 @@
 9113	718899	true	open	false	2		2016-10-15T22:09:52Z	2016-10-20T05:04:47Z		test,lib,benchmark: match function names	98		
 9114	131406	false	closed	false	5		2016-10-16T11:07:08Z	2016-10-16T22:24:21Z	2016-10-16T22:24:21Z	node 6.8: mips-arch-variant not applied everywhere in v8 dep	53		
 9115	103052	true	open	false	9		2016-10-16T11:20:13Z	2016-10-25T10:35:34Z		src: squelch unused function warnings in util.h 	37		
-9116	3001791	true	open	false	5		2016-10-16T12:54:47Z	2016-10-17T08:22:26Z		http: defines all the fields in the constructor	57		
+9116	3001791	true	open	false	6		2016-10-16T12:54:47Z	2016-10-25T17:27:00Z		http: defines all the fields in the constructor	57		
 9117	793830	false	open	false	5		2016-10-16T15:24:15Z	2016-10-21T12:04:03Z		Why does Buffer get reported as being a Uint8Array?	110		
 9118	12378597	false	closed	false	1		2016-10-16T15:41:52Z	2016-10-17T03:25:56Z	2016-10-16T17:07:09Z	Proxy deleteProperty throws TypeError when returning false	72		
 9119	22550884	true	closed	false	3		2016-10-16T16:15:45Z	2016-10-18T22:46:49Z	2016-10-18T22:46:49Z	Fix test debug agent	16		
@@ -2315,7 +2316,7 @@
 9178	101553	true	closed	false	2		2016-10-19T09:09:17Z	2016-10-20T12:13:20Z	2016-10-20T12:13:20Z	test: add regression test for instanceof	66		
 9179	882627	false	closed	false	5		2016-10-19T09:24:01Z	2016-10-21T10:24:20Z	2016-10-21T10:24:20Z	Deprecate querystring for URLSearchParams	34		
 9180	310593	false	open	false	0		2016-10-19T10:20:00Z	2016-10-19T10:20:00Z		Fatal error in node's core	264		
-9181	22077072	false	open	false	6		2016-10-19T11:28:59Z	2016-10-25T15:34:19Z		Upon reviewing the installation process it rolls back and reports a fatal error. 	324		
+9181	22077072	false	open	false	8		2016-10-19T11:28:59Z	2016-10-25T17:46:49Z		Upon reviewing the installation process it rolls back and reports a fatal error. 	324		
 9182	1093990	true	closed	false	1	0	2016-10-19T11:31:23Z	2016-10-19T18:29:18Z	2016-10-19T18:29:18Z	doc: v6 is now LTS rather than Current	41	1093990	2016-10-19T18:29:18Z
 9183	1093990	true	closed	false	2	0	2016-10-19T11:32:07Z	2016-10-19T18:26:03Z	2016-10-19T18:26:03Z	doc: fix some table problems in changelog.md	39	1093990	2016-10-19T18:26:03Z
 9184	275871	true	open	false	2		2016-10-19T11:33:54Z	2016-10-24T21:06:05Z		inspector: fix request path nullptr dereference	5		
@@ -2342,7 +2343,7 @@
 9205	170197	false	closed	false	9		2016-10-20T13:16:22Z	2016-10-20T19:24:17Z	2016-10-20T17:05:15Z	deprecate url module	18		
 9206	275871	false	open	false	2		2016-10-20T13:31:31Z	2016-10-23T06:29:45Z		stdio: cannot write to stdin after #1233	103		
 9207	899444	true	open	false	0	0	2016-10-20T15:05:17Z	2016-10-20T15:05:17Z		repl: don’t write to input stream in editor mode	123		
-9208	2512748	true	open	false	7		2016-10-20T15:42:02Z	2016-10-25T16:56:51Z		test: add child_process.exec() timeout coverage	51		
+9208	2512748	true	closed	false	8		2016-10-20T15:42:02Z	2016-10-25T17:03:43Z	2016-10-25T16:57:01Z	test: add child_process.exec() timeout coverage	51		
 9209	2512748	true	open	false	1		2016-10-20T16:40:38Z	2016-10-25T02:38:40Z		child_process: remove unreachable execSync() code	84		
 9210	7151870	false	open	false	0		2016-10-20T17:15:22Z	2016-10-20T17:15:22Z		vm.runInNewContext: global object leaked after call to require	114		
 9211	2512748	true	closed	false	1	0	2016-10-20T17:48:31Z	2016-10-24T22:47:43Z	2016-10-24T22:47:43Z	test: add coverage for execFileSync() errors	55	2512748	2016-10-24T22:47:43Z
@@ -2356,7 +2357,7 @@
 9219	6009583	false	closed	false	1		2016-10-21T10:02:29Z	2016-10-21T13:50:25Z	2016-10-21T13:50:25Z	UnhandledRejection for Node 6.3.1	48		
 9220	275871	true	open	false	0	0	2016-10-21T10:16:16Z	2016-10-21T10:16:16Z		src: fix -Wunused-function warning	1		
 9221	275871	true	closed	false	1	1	2016-10-21T10:30:12Z	2016-10-25T11:30:36Z	2016-10-25T11:30:36Z	src: make cross-context MakeCallback() calls work	6		
-9222	9373002	false	open	false	4		2016-10-21T13:06:24Z	2016-10-24T19:12:39Z		V8 nightly tests failing, downloads pointing to wrong repo ?	170		
+9222	9373002	false	open	false	5		2016-10-21T13:06:24Z	2016-10-25T17:44:56Z		V8 nightly tests failing, downloads pointing to wrong repo ?	170		
 9223	54666	false	closed	false	0		2016-10-21T15:37:27Z	2016-10-24T14:06:40Z	2016-10-24T14:06:40Z	doc: `process` formatting issues	90		
 9224	275871	true	closed	false	2	0	2016-10-21T17:20:15Z	2016-10-24T20:42:03Z	2016-10-24T20:42:03Z	src: clean up program/isolate/env init logic	22		
 9225	1810178	true	open	false	1		2016-10-21T19:01:31Z	2016-10-24T14:03:43Z		url: name anonymous functions in url	67		
@@ -2400,11 +2401,11 @@
 9263	275871	true	open	false	0		2016-10-24T20:58:13Z	2016-10-24T21:38:33Z		test: use strict assertions in module loader test	2		
 9264	8297234	true	open	false			2016-10-24T22:43:17Z	2016-10-25T10:27:37Z		test: remove err timer from test-http-set-timeout	50		
 9265	439929	true	open	false			2016-10-24T23:34:02Z	2016-10-25T00:05:46Z		errors: add internal/errors.js	85		
-9266	855219	true	open	false	1		2016-10-25T01:50:17Z	2016-10-25T16:42:45Z		intl: Add more versions from ICU	78		
+9266	855219	true	open	false	3		2016-10-25T01:50:17Z	2016-10-25T17:38:24Z		intl: Add more versions from ICU	78		
 9267	2512748	true	open	false	2		2016-10-25T02:31:43Z	2016-10-25T16:16:58Z		deps: upgrade libuv to 1.10.0	55		
 9268	10761110	false	open	false	7		2016-10-25T09:52:07Z	2016-10-25T13:42:51Z		Making several http requests using keep-alive mode generates this trace: Warning: Possible EventEmitter memory leak detected.	62		
 9269	15943089	false	open	false	0		2016-10-25T10:25:04Z	2016-10-25T10:25:04Z		Console output for passing tests with the test runner	52		
 9270	103052	true	open	false	0	0	2016-10-25T13:14:15Z	2016-10-25T13:14:15Z		Cluster	47		
 9271	103052	true	open	false	0	0	2016-10-25T13:29:11Z	2016-10-25T13:29:11Z		v8: name all anonymous functions	46		
 9272	234659	true	open	false	0	0	2016-10-25T15:05:26Z	2016-10-25T15:05:26Z		inspector: add contexts when using vm module	67		
-9273	15859454	false	open	false	0		2016-10-25T16:44:33Z	2016-10-25T16:44:33Z		Mapping files in Chrome Workspaces	186		
+9273	15859454	false	open	false	0		2016-10-25T16:44:33Z	2016-10-25T17:59:02Z		Mapping files in Chrome Workspaces	186		
