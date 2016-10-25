@@ -27,6 +27,7 @@
 947	707147	false	open	false	8		2015-02-25T02:05:54Z	2016-10-13T15:04:37Z		EPIPE errors thrown when piping to a closed stream	363		
 983	6731985	false	open	false	19		2015-02-27T03:19:51Z	2016-10-18T18:01:35Z		Tab completion for block-scoped variables doesn't work in REPL	60		
 1013	176984	false	closed	false	45		2015-03-01T10:58:11Z	2016-10-17T07:18:56Z	2016-04-04T01:52:33Z	Replace deps/cares with pure-javascript alternative	207		
+1127	509651	false	open	false	5		2015-03-11T20:57:31Z	2016-10-25T18:12:43Z		crypto: sign/verify support for RSASSA-PSS	72		
 1128	36662	false	open	false	17		2015-03-11T22:48:11Z	2016-08-29T14:15:29Z		feature request: a way to inspect what's in the event loop	137		
 1271	275871	false	open	false	11		2015-03-26T15:30:40Z	2016-09-17T21:21:22Z		timer,domain: timers don't maintain order after exception	62		
 1278	532414	false	closed	false	37		2015-03-26T19:55:14Z	2016-08-22T21:08:42Z	2016-02-12T21:20:04Z	Compressed packages	136		
@@ -981,7 +982,7 @@
 7841	15943089	false	closed	false	1		2016-07-22T17:18:46Z	2016-07-24T08:34:10Z	2016-07-24T08:34:10Z	V8 backports changing the v8 patch level in v6.x 	100		
 7842	696611	true	closed	false	7		2016-07-22T18:36:30Z	2016-08-24T23:16:22Z	2016-08-24T23:16:22Z	doc: include the optional options parameter	41		
 7843	855219	false	open	false	0		2016-07-22T19:17:46Z	2016-07-22T19:17:46Z		deps: fix TODO in tools/icu/README.md	12		
-7844	855219	false	open	false	24		2016-07-22T19:21:27Z	2016-10-22T01:22:24Z		deps: Intl: ICU 58 bump	32		
+7844	855219	false	open	false	25		2016-07-22T19:21:27Z	2016-10-25T18:14:38Z		deps: Intl: ICU 58 bump	26		
 7845	1084056	true	open	false	10		2016-07-22T22:02:05Z	2016-07-27T06:29:42Z		test: use common platform helpers everywhere	63		
 7846	498775	true	closed	false	37		2016-07-22T23:46:39Z	2016-08-10T16:45:13Z	2016-08-04T22:15:32Z	Revert fs changes	246		
 7847	54666	true	open	false	8		2016-07-23T03:26:28Z	2016-07-26T17:05:20Z		doc: improve https module documentation	57		
@@ -1504,7 +1505,7 @@
 8366	2725624	false	open	false	0		2016-09-01T09:19:11Z	2016-09-01T09:19:11Z		illegal access	107		
 8367	17428714	false	closed	false	5		2016-09-01T09:27:28Z	2016-09-01T14:14:24Z	2016-09-01T13:02:17Z	Question on undocumented API	291		
 8368	5292705	false	closed	false	13		2016-09-01T09:40:10Z	2016-09-10T10:37:29Z	2016-09-10T10:37:29Z	https.request failed for certain URL after first visting	141		
-8369	1336186	false	open	false	7		2016-09-01T13:50:17Z	2016-10-21T20:24:07Z		source maps are not working when debugging with chrome	115		
+8369	1336186	false	open	false	8		2016-09-01T13:50:17Z	2016-10-25T18:24:35Z		source maps are not working when debugging with chrome	115		
 8370	21603	true	closed	false	8		2016-09-01T14:59:03Z	2016-09-03T05:30:27Z	2016-09-02T21:51:10Z	doc: fix typos	34		
 8371	14923241	false	closed	false	1		2016-09-01T16:34:47Z	2016-09-01T20:18:48Z	2016-09-01T20:18:47Z	Cannot run angular 2 quick start npm install 	209		
 8372	1093990	true	open	false	11		2016-09-01T17:20:56Z	2016-09-12T23:54:25Z		timers: optimize same-tick unref	86		
@@ -1809,7 +1810,7 @@
 8671	961599	false	open	false	2		2016-09-20T20:44:14Z	2016-10-03T13:54:48Z		The debug build (node_g) is difficult to install	53		
 8672	287917	true	closed	false	6		2016-09-20T21:07:12Z	2016-09-23T21:53:43Z	2016-09-23T18:08:46Z	inspector: address race conditions	65		
 8673	498775	true	closed	false	19		2016-09-20T22:12:05Z	2016-09-29T19:42:55Z	2016-09-23T14:17:48Z	deps: cherry-pick 34880eb3dc from V8 upstream	184		
-8674	855219	true	open	false	0		2016-09-20T22:57:10Z	2016-10-25T15:34:10Z		deps: fix icu-shrinker to handle ICU 58	43		
+8674	855219	true	open	false			2016-09-20T22:57:10Z	2016-10-25T18:20:57Z		deps: fix icu-shrinker to handle ICU 58	43		
 8675	439929	false	open	false	1		2016-09-20T23:14:21Z	2016-10-07T17:19:48Z		meta: new github review comments and the github API	79		
 8676	426418	true	open	false	3		2016-09-20T23:40:07Z	2016-09-21T00:12:13Z		doc: add ak239 to collaborators	0		
 8677	27926	true	open	false	0	0	2016-09-21T03:09:34Z	2016-09-21T03:09:34Z		Benchmark: add destructuring object	47		
@@ -2175,7 +2176,7 @@
 9037	498775	true	open	false	5		2016-10-11T20:28:49Z	2016-10-14T05:20:36Z		ares_create_query: avoid single-byte buffer overwrite	64		
 9038	439929	true	open	false	15		2016-10-11T21:16:00Z	2016-10-25T17:10:47Z		buffer: add buffer.transcode	93		
 9039	580982	false	open	false	9		2016-10-11T22:04:02Z	2016-10-18T23:14:15Z		Array Joining is slower in Node 6.x	297		
-9040	439929	true	closed	false	15	23	2016-10-11T22:23:30Z	2016-10-25T16:02:25Z	2016-10-25T16:02:25Z	readline: use icu based string width calculation	113		
+9040	439929	true	closed	false	16		2016-10-11T22:23:30Z	2016-10-25T18:21:28Z	2016-10-25T16:02:25Z	readline: use icu based string width calculation	113		
 9041	439929	true	closed	false	7		2016-10-11T22:32:38Z	2016-10-12T16:38:29Z	2016-10-12T02:20:47Z	url: fix building when using --without-intl	42		
 9042	677994	true	open	false	2		2016-10-11T23:22:40Z	2016-10-19T16:00:39Z		process: add emitExperimentalWarning()	89		
 9043	10355544	true	closed	false	3		2016-10-11T23:29:54Z	2016-10-17T15:56:13Z	2016-10-17T15:56:13Z	doc: correctly reference where to list hash algorithms.	62		
@@ -2204,7 +2205,7 @@
 9066	238531	true	closed	false	10	2	2016-10-12T20:41:31Z	2016-10-14T13:40:43Z	2016-10-14T13:40:43Z	net: fix ambiguity in EOF handling	73		
 9067	134460	false	closed	false	7		2016-10-12T21:34:37Z	2016-10-17T18:05:28Z	2016-10-17T18:05:28Z	process.on beforeExit broken on Windows	182		
 9068	8849761	true	closed	false	3	3	2016-10-12T22:17:45Z	2016-10-13T10:48:21Z	2016-10-13T10:48:21Z	console: using class	38		
-9069	2148448	false	open	false	11		2016-10-12T23:57:01Z	2016-10-25T03:57:41Z		http core module issue	117		
+9069	2148448	false	open	false	12		2016-10-12T23:57:01Z	2016-10-25T18:21:32Z		http core module issue	117		
 9070	9373002	true	closed	false	1		2016-10-13T01:35:04Z	2016-10-19T22:13:56Z	2016-10-19T22:13:56Z	doc: add CTC meeting minutes for 2016-10-12	24		
 9071	495647	true	closed	false	2	0	2016-10-13T02:19:59Z	2016-10-19T03:05:43Z	2016-10-19T03:05:43Z	tools: release signing improvements	218		
 9072	718899	true	closed	false	7		2016-10-13T04:42:12Z	2016-10-19T15:36:32Z	2016-10-19T15:36:32Z	doc: add ctc-review label information	32		
@@ -2250,7 +2251,7 @@
 9112	718899	true	closed	false	1		2016-10-15T19:29:01Z	2016-10-18T22:29:16Z	2016-10-18T22:29:16Z	tools: update to eslint 3.8.0, fix unneeded escaping in template strings	82		
 9113	718899	true	open	false	2		2016-10-15T22:09:52Z	2016-10-20T05:04:47Z		test,lib,benchmark: match function names	98		
 9114	131406	false	closed	false	5		2016-10-16T11:07:08Z	2016-10-16T22:24:21Z	2016-10-16T22:24:21Z	node 6.8: mips-arch-variant not applied everywhere in v8 dep	53		
-9115	103052	true	open	false	9		2016-10-16T11:20:13Z	2016-10-25T10:35:34Z		src: squelch unused function warnings in util.h 	37		
+9115	103052	true	open	false	10		2016-10-16T11:20:13Z	2016-10-25T18:14:20Z		src: squelch unused function warnings in util.h 	37		
 9116	3001791	true	open	false	6		2016-10-16T12:54:47Z	2016-10-25T17:27:00Z		http: defines all the fields in the constructor	57		
 9117	793830	false	open	false	5		2016-10-16T15:24:15Z	2016-10-21T12:04:03Z		Why does Buffer get reported as being a Uint8Array?	110		
 9118	12378597	false	closed	false	1		2016-10-16T15:41:52Z	2016-10-17T03:25:56Z	2016-10-16T17:07:09Z	Proxy deleteProperty throws TypeError when returning false	72		
@@ -2274,7 +2275,7 @@
 9136	12628373	false	open	false	0		2016-10-17T17:16:52Z	2016-10-17T17:16:52Z		Getting error while installing protractor after installing node version	210		
 9137	419139	false	open	false	4		2016-10-17T17:54:24Z	2016-10-17T20:19:43Z		Build fails when the path to the build root is too long	132		
 9138	4976075	true	open	false	5		2016-10-17T17:55:22Z	2016-10-19T15:46:45Z		Cherry pick 3c39bac from upstream V8	45		
-9139	17607	true	open	false	10		2016-10-17T19:35:25Z	2016-10-25T13:48:48Z		crypto: allow adding extra certs to well-known CAs	179		
+9139	17607	true	open	false			2016-10-17T19:35:25Z	2016-10-25T18:10:58Z		crypto: allow adding extra certs to well-known CAs	179		
 9140	19806671	false	open	false	0		2016-10-17T21:10:03Z	2016-10-17T21:10:03Z		TypeError: Cannot call method 'forEach' of undefined	190		
 9141	419139	true	open	false	4		2016-10-17T22:52:25Z	2016-10-19T14:10:30Z		gyp: fix node build failure with long build directory path on Linux	138		
 9142	495647	true	open	false	4		2016-10-17T23:16:06Z	2016-10-19T03:04:44Z		tools: check tag is on github before release	31		
@@ -2361,7 +2362,7 @@
 9223	54666	false	closed	false	0		2016-10-21T15:37:27Z	2016-10-24T14:06:40Z	2016-10-24T14:06:40Z	doc: `process` formatting issues	90		
 9224	275871	true	closed	false	2	0	2016-10-21T17:20:15Z	2016-10-24T20:42:03Z	2016-10-24T20:42:03Z	src: clean up program/isolate/env init logic	22		
 9225	1810178	true	open	false	1		2016-10-21T19:01:31Z	2016-10-24T14:03:43Z		url: name anonymous functions in url	67		
-9226	204037	false	open	false	4		2016-10-21T19:02:08Z	2016-10-23T09:45:01Z		Buffer.alloc v4: Incorrectly returns zero-filled buffer when encoding is passed	91		
+9226	204037	false	open	false	5		2016-10-21T19:02:08Z	2016-10-25T19:00:09Z		Buffer.alloc v4: Incorrectly returns zero-filled buffer when encoding is passed	91		
 9227	718899	false	open	false	0		2016-10-21T20:21:20Z	2016-10-21T20:21:20Z		investigate flaky test-http-server-consumed-timeout on FreeBSD	66		
 9228	718899	true	closed	false	4		2016-10-21T20:55:09Z	2016-10-24T05:00:00Z	2016-10-24T05:00:00Z	test: make test-fs-watch-recursive more robust	123		
 9229	899444	true	open	false	5		2016-10-21T21:05:29Z	2016-10-25T16:47:39Z		test: check that `process.execPath` is a realpath	47		
@@ -2369,7 +2370,7 @@
 9231	8248574	true	open	false	4		2016-10-21T22:54:52Z	2016-10-22T05:28:58Z		test: clean up `test-child-process-exec-cwd.js`	50		
 9232	68368	true	open	false	2		2016-10-21T23:24:48Z	2016-10-23T13:45:25Z		build: use wxneeded on openbsd	58		
 9233	287917	true	closed	false	1	0	2016-10-21T23:25:20Z	2016-10-24T16:15:31Z	2016-10-24T16:15:31Z	inspector: do not dereference null pointer	49		
-9234	855219	true	open	false	10		2016-10-22T00:00:47Z	2016-10-25T15:35:02Z		Icu4c 58	85		
+9234	855219	true	open	false	11		2016-10-22T00:00:47Z	2016-10-25T18:26:00Z		Icu4c 58	85		
 9235	7606483	true	closed	false	2	0	2016-10-22T00:59:48Z	2016-10-24T14:07:42Z	2016-10-24T14:07:42Z	doc: fixes formatting in process	45		
 9236	406656	false	open	false	4		2016-10-22T01:35:33Z	2016-10-22T08:28:51Z		"tls.connect() fails with ""sslv3 alert handshake failure"" (RC4/MD5/DES cipher support)"	88		
 9237	855219	false	open	false	9		2016-10-22T02:02:41Z	2016-10-25T02:05:54Z		Add version info: CLDR, Unicode, Timezone	148		
@@ -2395,17 +2396,19 @@
 9257	17607	true	open	false	9		2016-10-24T15:59:34Z	2016-10-25T14:15:39Z		test: prevent workers outliving parent	78		
 9258	498775	true	open	false	0	0	2016-10-24T16:08:08Z	2016-10-24T16:08:08Z		tools: use long format for gpg fingerprint	116		
 9259	15943089	true	open	false	1		2016-10-24T17:47:06Z	2016-10-25T07:13:47Z		doc: update CONTRIBUTING.md to address editing PRs	161		
-9260	275871	true	open	false	1		2016-10-24T18:27:55Z	2016-10-24T20:13:02Z		Backport pr6184 v4.x	2		
+9260	275871	true	open	false	2		2016-10-24T18:27:55Z	2016-10-25T18:13:42Z		Backport pr6184 v4.x	2		
 9261	718899	false	open	false	4		2016-10-24T19:16:41Z	2016-10-25T14:33:37Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-10-26	456		
 9262	176984	true	open	false	3		2016-10-24T19:42:12Z	2016-10-25T15:26:25Z		work in progress: test.py tap13 output	163		
 9263	275871	true	open	false	0		2016-10-24T20:58:13Z	2016-10-24T21:38:33Z		test: use strict assertions in module loader test	2		
-9264	8297234	true	open	false			2016-10-24T22:43:17Z	2016-10-25T10:27:37Z		test: remove err timer from test-http-set-timeout	50		
-9265	439929	true	open	false			2016-10-24T23:34:02Z	2016-10-25T00:05:46Z		errors: add internal/errors.js	85		
-9266	855219	true	open	false	3		2016-10-25T01:50:17Z	2016-10-25T17:38:24Z		intl: Add more versions from ICU	78		
-9267	2512748	true	open	false	2		2016-10-25T02:31:43Z	2016-10-25T16:16:58Z		deps: upgrade libuv to 1.10.0	55		
+9264	8297234	true	open	false	4		2016-10-24T22:43:17Z	2016-10-25T18:11:54Z		test: remove err timer from test-http-set-timeout	50		
+9265	439929	true	open	false	2		2016-10-24T23:34:02Z	2016-10-25T18:54:04Z		errors: add internal/errors.js	85		
+9266	855219	true	open	false			2016-10-25T01:50:17Z	2016-10-25T18:19:39Z		intl: Add more versions from ICU	78		
+9267	2512748	true	open	false	4		2016-10-25T02:31:43Z	2016-10-25T18:17:23Z		deps: upgrade libuv to 1.10.0	55		
 9268	10761110	false	open	false	7		2016-10-25T09:52:07Z	2016-10-25T13:42:51Z		Making several http requests using keep-alive mode generates this trace: Warning: Possible EventEmitter memory leak detected.	62		
 9269	15943089	false	open	false	0		2016-10-25T10:25:04Z	2016-10-25T10:25:04Z		Console output for passing tests with the test runner	52		
 9270	103052	true	open	false	0	0	2016-10-25T13:14:15Z	2016-10-25T13:14:15Z		Cluster	47		
 9271	103052	true	open	false	0	0	2016-10-25T13:29:11Z	2016-10-25T13:29:11Z		v8: name all anonymous functions	46		
-9272	234659	true	open	false	0	0	2016-10-25T15:05:26Z	2016-10-25T15:05:26Z		inspector: add contexts when using vm module	67		
+9272	234659	true	open	false	1		2016-10-25T15:05:26Z	2016-10-25T18:16:33Z		inspector: add contexts when using vm module	69		
 9273	15859454	false	open	false	0		2016-10-25T16:44:33Z	2016-10-25T17:59:02Z		Mapping files in Chrome Workspaces	186		
+9274	2643044	false	open	false	3		2016-10-25T18:04:18Z	2016-10-25T18:17:27Z		Native class of `global` changed in Node v7	123		
+9275	15067568	true	open	false	0	0	2016-10-25T18:35:23Z	2016-10-25T18:35:23Z		socket.end() can take a callback function	182		
