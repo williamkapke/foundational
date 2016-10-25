@@ -14,7 +14,7 @@
 678	643505	false	open	false	17		2015-01-31T00:58:15Z	2016-10-14T10:17:26Z		make crypto functions execute in the threadpool asynchronously	83		
 684	115237	false	closed	false	6		2015-01-31T22:25:05Z	2016-08-18T20:24:09Z	2015-02-01T18:41:19Z	path: tilde expansion	123		
 690	275871	false	closed	false	14		2015-02-02T15:19:55Z	2016-07-19T11:39:40Z	2016-07-19T11:39:40Z	repl: surrogate pair upsets repl / terminal	43		
-708	220205	false	open	false	34		2015-02-03T18:56:57Z	2016-10-25T21:45:28Z		HTTP and HTTPS attempt only single IP, causing intermittent failures	261		
+708	220205	false	open	false	35		2015-02-03T18:56:57Z	2016-10-25T22:50:41Z		HTTP and HTTPS attempt only single IP, causing intermittent failures	261		
 729	289174	false	closed	false	8		2015-02-05T20:00:25Z	2016-06-29T11:12:13Z	2016-06-29T11:12:13Z	Converge Tracing/Profiling to Native Set of Hooks	49		
 731	579	false	closed	false	39		2015-02-05T21:45:00Z	2016-09-12T18:13:14Z	2015-10-07T04:52:55Z	governance: Find Hangout-On-Air alternative.	71		
 805	782880	false	open	false	3		2015-02-11T16:10:53Z	2016-07-19T11:38:52Z		strict printing for X509 Extentions	19		
@@ -2321,7 +2321,7 @@
 9182	1093990	true	closed	false	1	0	2016-10-19T11:31:23Z	2016-10-19T18:29:18Z	2016-10-19T18:29:18Z	doc: v6 is now LTS rather than Current	41	1093990	2016-10-19T18:29:18Z
 9183	1093990	true	closed	false	2	0	2016-10-19T11:32:07Z	2016-10-19T18:26:03Z	2016-10-19T18:26:03Z	doc: fix some table problems in changelog.md	39	1093990	2016-10-19T18:26:03Z
 9184	275871	true	open	false	2		2016-10-19T11:33:54Z	2016-10-24T21:06:05Z		inspector: fix request path nullptr dereference	5		
-9185	2352663	false	open	false	7		2016-10-19T11:49:18Z	2016-10-25T19:10:55Z		Disabled or custom UUID for V8 inspector	91		
+9185	2352663	false	open	false	9		2016-10-19T11:49:18Z	2016-10-25T22:34:13Z		Disabled or custom UUID for V8 inspector	91		
 9186	498775	true	closed	false	10		2016-10-19T13:17:45Z	2016-10-20T12:03:31Z	2016-10-19T22:23:08Z	V6.9.1 proposal	108		
 9187	677994	true	open	false	1		2016-10-19T13:44:14Z	2016-10-19T15:36:57Z		doc: fix header level for crypto.constants	46		
 9188	1058931	false	open	false	6		2016-10-19T15:22:26Z	2016-10-20T17:08:22Z		V8 Inspector ignores/squelches evaluation in console panel	96		
@@ -2397,12 +2397,12 @@
 9258	498775	true	open	false	0	0	2016-10-24T16:08:08Z	2016-10-24T16:08:08Z		tools: use long format for gpg fingerprint	116		
 9259	15943089	true	open	false	1		2016-10-24T17:47:06Z	2016-10-25T07:13:47Z		doc: update CONTRIBUTING.md to address editing PRs	161		
 9260	275871	true	open	false	2		2016-10-24T18:27:55Z	2016-10-25T18:13:42Z		Backport pr6184 v4.x	2		
-9261	718899	false	open	false	4		2016-10-24T19:16:41Z	2016-10-25T14:33:37Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-10-26	456		
+9261	718899	false	open	false	7		2016-10-24T19:16:41Z	2016-10-25T22:07:23Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-10-26	456		
 9262	176984	true	open	false	3		2016-10-24T19:42:12Z	2016-10-25T15:26:25Z		work in progress: test.py tap13 output	163		
 9263	275871	true	open	false	0		2016-10-24T20:58:13Z	2016-10-24T21:38:33Z		test: use strict assertions in module loader test	2		
 9264	8297234	true	open	false	4		2016-10-24T22:43:17Z	2016-10-25T18:11:54Z		test: remove err timer from test-http-set-timeout	50		
 9265	439929	true	open	false	2		2016-10-24T23:34:02Z	2016-10-25T18:54:04Z		errors: add internal/errors.js	85		
-9266	855219	true	open	false			2016-10-25T01:50:17Z	2016-10-25T21:02:36Z		intl: Add more versions from ICU	77		
+9266	855219	true	open	false			2016-10-25T01:50:17Z	2016-10-25T22:32:55Z		intl: Add more versions from ICU	77		
 9267	2512748	true	open	false	4		2016-10-25T02:31:43Z	2016-10-25T18:17:23Z		deps: upgrade libuv to 1.10.0	55		
 9268	10761110	false	open	false	7		2016-10-25T09:52:07Z	2016-10-25T13:42:51Z		Making several http requests using keep-alive mode generates this trace: Warning: Possible EventEmitter memory leak detected.	62		
 9269	15943089	false	open	false	1		2016-10-25T10:25:04Z	2016-10-25T21:55:11Z		Console output for passing tests with the test runner	52		
@@ -2410,11 +2410,12 @@
 9271	103052	true	open	false	0	0	2016-10-25T13:29:11Z	2016-10-25T13:29:11Z		v8: name all anonymous functions	46		
 9272	234659	true	open	false			2016-10-25T15:05:26Z	2016-10-25T20:01:42Z		inspector: add contexts when using vm module	69		
 9273	15859454	false	open	false	0		2016-10-25T16:44:33Z	2016-10-25T17:59:02Z		Mapping files in Chrome Workspaces	186		
-9274	2643044	false	open	false	14		2016-10-25T18:04:18Z	2016-10-25T21:31:53Z		Native class of `global` changed in Node v7	123		
+9274	2643044	false	open	false	15		2016-10-25T18:04:18Z	2016-10-25T22:18:55Z		Native class of `global` changed in Node v7	123		
 9275	15067568	true	open	false	0		2016-10-25T18:35:23Z	2016-10-25T19:06:24Z		socket.end() can take a callback function	182		
 9276	15935886	false	closed	false	2		2016-10-25T19:51:22Z	2016-10-25T21:54:17Z	2016-10-25T20:36:54Z	Warning: node-7.0.0 already installed, it's just not linked	68		
 9277	11913695	true	open	false	0	0	2016-10-25T20:07:26Z	2016-10-25T20:07:26Z		Fix outdated links	26		
 9278	11913695	true	open	false			2016-10-25T20:10:41Z	2016-10-25T21:44:28Z		Fix outdated links	42		
-9279	899444	true	open	false	6		2016-10-25T20:23:33Z	2016-10-25T21:01:58Z		lib: make `String(global) === '[object global]'`	58		
+9279	899444	true	open	false	13		2016-10-25T20:23:33Z	2016-10-25T22:25:33Z		lib: make `String(global) === '[object global]'`	58		
 9280	275871	true	open	false			2016-10-25T20:29:33Z	2016-10-25T21:35:55Z		src: fix use of uninitialized variable	14		
-9281	439929	true	open	false	0	0	2016-10-25T21:55:56Z	2016-10-25T21:55:56Z		src: fix use of uninitialized variable	65		
+9281	439929	true	open	false	0		2016-10-25T21:55:56Z	2016-10-25T22:21:58Z		src: fix use of uninitialized variable	65		
+9282	354349	false	open	false	0		2016-10-25T22:39:22Z	2016-10-25T22:39:22Z		node does not process HTTP informational responses correctly	336		
