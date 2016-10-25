@@ -321,7 +321,7 @@
 6569	5165527	true	open	false	18		2016-05-04T15:42:43Z	2016-10-03T10:25:58Z		Openssl clientcertengine support2	79		
 6570	54666	true	closed	false	29		2016-05-04T15:44:50Z	2016-10-10T16:26:30Z	2016-06-14T19:13:56Z	http: optimize checkIsHttpToken() and checkInvalidHeaderChar()	594		
 6571	439929	false	closed	false	1		2016-05-04T15:50:55Z	2016-07-06T05:04:26Z	2016-07-06T05:04:26Z	doc: invalid process.hrtime documentation	15		
-6573	439929	true	open	false	27		2016-05-04T17:43:27Z	2016-08-26T22:47:06Z		errors: add internal/errors module	288		
+6573	439929	true	closed	false	28		2016-05-04T17:43:27Z	2016-10-24T23:31:53Z	2016-10-24T23:31:53Z	[WIP] errors: add internal/errors module	288		
 6578	17607	false	open	false	24		2016-05-04T22:06:49Z	2016-10-02T19:03:28Z		docs do not state at what version an API was introduced (or deprecated)	420		
 6582	275871	true	closed	false	14		2016-05-04T22:29:50Z	2016-07-11T21:10:49Z	2016-05-05T11:05:20Z	crypto: disable ssl compression at build time	3		
 6599	79017	true	closed	false	20		2016-05-05T16:22:48Z	2016-10-12T10:04:41Z	2016-05-07T03:30:19Z	src,lib: minor --debug-brk cleanup	116		
@@ -729,7 +729,7 @@
 7590	965036	true	closed	false	10		2016-07-07T18:40:04Z	2016-07-18T13:33:57Z	2016-07-18T13:33:57Z	doc: removed old git conflict markers form fs.md	41		
 7591	3310013	false	closed	false	3		2016-07-07T18:58:29Z	2016-07-13T19:11:28Z	2016-07-13T19:11:28Z	Buffer's indexOf does not seem to handle numbers correctly	178		
 7592	692511	false	open	false	10		2016-07-07T20:29:29Z	2016-07-22T06:45:24Z		Possible bug: instanceof evaluates to true in Node 4 but not Node 6	65		
-7593	379606	false	open	false	4		2016-07-07T21:49:22Z	2016-10-24T16:33:35Z		v8_inspector: Support the V8 debugger from within VM contexts	76		
+7593	379606	false	open	false	6		2016-07-07T21:49:22Z	2016-10-24T23:34:57Z		v8_inspector: Support the V8 debugger from within VM contexts	76		
 7594	718899	true	closed	false	6		2016-07-07T21:57:39Z	2016-07-10T23:06:55Z	2016-07-10T23:06:55Z	tools: remove unused variable	70		
 7595	718899	true	closed	false	4		2016-07-07T22:04:57Z	2016-07-10T23:19:03Z	2016-07-10T23:19:02Z	test: remove unused var in test-tls-server-verify	77		
 7596	718899	true	open	false	5		2016-07-07T22:09:19Z	2016-07-08T08:09:53Z		test: remove unused var from stream2 test	77		
@@ -1646,7 +1646,7 @@
 8509	3320742	false	closed	false	5		2016-09-13T02:17:53Z	2016-10-24T19:19:26Z	2016-10-24T19:19:26Z	Configuration option to permanently turn on --preserve-symlinks	110		
 8510	10680833	true	closed	false	15		2016-09-13T03:07:50Z	2016-10-06T22:23:13Z	2016-09-17T08:53:42Z	Fixes an issue where Buffer.from was not supporting SharedArrayBuffer	72		
 8511	718899	false	open	false	1		2016-09-13T04:21:25Z	2016-10-21T20:23:35Z		Investigate flaky test-fs-watch-recursive on OS X	10		
-8512	1466123	true	closed	false	13		2016-09-13T05:54:45Z	2016-10-24T20:50:58Z	2016-09-20T21:10:47Z	zlib: fix raw inflate with custom dictionary	74		
+8512	1466123	true	closed	false	13		2016-09-13T05:54:45Z	2016-10-24T23:12:19Z	2016-09-20T21:10:47Z	zlib: fix raw inflate with custom dictionary	74		
 8513	1057486	false	closed	false	2		2016-09-13T08:38:35Z	2016-09-13T15:46:09Z	2016-09-13T10:44:54Z	Expose V8's JavaScript parser API as an part of standard library?	92		
 8514	21603	true	closed	false	11		2016-09-13T10:43:59Z	2016-09-18T12:30:58Z	2016-09-18T12:30:58Z	tls: add 'new' keyword for Array constructor call	50		
 8515	899444	true	closed	false	15		2016-09-13T11:53:56Z	2016-10-24T20:45:01Z	2016-09-19T12:59:40Z	fs: fix handling of `struct stat` fields	139		
@@ -2174,7 +2174,7 @@
 9037	498775	true	open	false	5		2016-10-11T20:28:49Z	2016-10-14T05:20:36Z		ares_create_query: avoid single-byte buffer overwrite	64		
 9038	439929	true	open	false	13		2016-10-11T21:16:00Z	2016-10-24T17:33:32Z		buffer: add buffer.transcode	93		
 9039	580982	false	open	false	9		2016-10-11T22:04:02Z	2016-10-18T23:14:15Z		Array Joining is slower in Node 6.x	297		
-9040	439929	true	open	false			2016-10-11T22:23:30Z	2016-10-24T21:29:39Z		readline: use icu based string width calculation	113		
+9040	439929	true	open	false	12		2016-10-11T22:23:30Z	2016-10-24T23:42:35Z		readline: use icu based string width calculation	113		
 9041	439929	true	closed	false	7		2016-10-11T22:32:38Z	2016-10-12T16:38:29Z	2016-10-12T02:20:47Z	url: fix building when using --without-intl	42		
 9042	677994	true	open	false	2		2016-10-11T23:22:40Z	2016-10-19T16:00:39Z		process: add emitExperimentalWarning()	89		
 9043	10355544	true	closed	false	3		2016-10-11T23:29:54Z	2016-10-17T15:56:13Z	2016-10-17T15:56:13Z	doc: correctly reference where to list hash algorithms.	62		
@@ -2233,7 +2233,7 @@
 9096	4437609	false	closed	false	1		2016-10-14T15:53:06Z	2016-10-18T22:53:26Z	2016-10-18T22:53:26Z	Buffer.slice unexpected behavior	165		
 9097	432351	true	closed	false	7		2016-10-14T18:10:25Z	2016-10-18T15:10:19Z	2016-10-16T18:36:03Z	src: make Environment optional for RunAtExit	73		
 9098	718899	true	open	false	8		2016-10-14T18:14:04Z	2016-10-18T02:27:49Z		test: fix flaky test-child-process-fork-dgram	89		
-9099	439929	true	open	false	22		2016-10-14T18:39:47Z	2016-10-24T19:26:16Z		v7.0.0 Proposal (Actual)	164		
+9099	439929	true	open	false	23		2016-10-14T18:39:47Z	2016-10-24T23:26:50Z		v7.0.0 Proposal (Actual)	164		
 9100	14657580	true	closed	false	1	1	2016-10-14T19:31:12Z	2016-10-17T16:07:44Z	2016-10-17T16:07:44Z	doc: edit Stream api grammar	43		
 9101	696611	true	open	false	10		2016-10-14T19:32:45Z	2016-10-18T22:53:01Z		buffer: coerce slice parameters consistenly	204		
 9102	1652629	false	closed	false	1		2016-10-14T19:37:40Z	2016-10-14T21:40:29Z	2016-10-14T21:40:29Z	Event Loop link is broken	22		
@@ -2306,7 +2306,7 @@
 9169	718899	true	closed	false	2		2016-10-18T18:26:43Z	2016-10-21T05:56:56Z	2016-10-21T05:56:56Z	test: remove duplicate required module	38		
 9170	4206033	false	closed	false	7		2016-10-18T19:22:50Z	2016-10-19T13:01:18Z	2016-10-19T13:01:18Z	stream.Readable unpipes the wrong stream when piped into multiple streams	134		
 9171	899444	true	open	false	5		2016-10-18T20:35:16Z	2016-10-19T12:55:43Z		streams: fix regression in `unpipe()`	130		
-9172	9522710	false	closed	false	2		2016-10-18T21:28:03Z	2016-10-21T10:25:35Z	2016-10-21T10:25:35Z	Seg fault while executing function	126		
+9172	9522710	false	closed	false	3		2016-10-18T21:28:03Z	2016-10-24T23:21:14Z	2016-10-21T10:25:35Z	Seg fault while executing function	126		
 9173	4976075	true	open	false	2		2016-10-18T23:43:54Z	2016-10-19T19:01:47Z		Cherry pick 7166503 from upstream v8	45		
 9174	289174	true	closed	false	4	2	2016-10-18T23:45:40Z	2016-10-20T19:46:55Z	2016-10-20T19:46:54Z	buffer: fix range checks for slice()	144	289174	2016-10-20T19:46:54Z
 9175	2292713	false	open	false	1		2016-10-19T04:34:49Z	2016-10-24T15:37:13Z		Step out/Shift F11/Out debug command does not stop when exception is thrown inside a function	139		
@@ -2399,3 +2399,4 @@
 9262	176984	true	open	false	1		2016-10-24T19:42:12Z	2016-10-24T20:03:58Z		work in progress: test.py tap13 output	163		
 9263	275871	true	open	false	0		2016-10-24T20:58:13Z	2016-10-24T21:38:33Z		test: use strict assertions in module loader test	2		
 9264	8297234	true	open	false	0	0	2016-10-24T22:43:17Z	2016-10-24T22:43:17Z		test: remove err timer from test-http-set-timeout	50		
+9265	439929	true	open	false	0	0	2016-10-24T23:34:02Z	2016-10-24T23:34:02Z		errors: add internal/errors.js	85		
