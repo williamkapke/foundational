@@ -1,10 +1,10 @@
 {
-  "words": 4329,
-  "comments": 77,
+  "words": 4734,
+  "comments": 87,
   "prs": {
-    "opened": 12,
-    "closed": 13,
-    "words": 4329
+    "opened": 13,
+    "closed": 16,
+    "words": 4734
   },
   "issues": {
     "opened": 0,
@@ -29,7 +29,12 @@
     "abi-stable-node-addon-examples": {"open":0},
     "api": {"open":8},
     "benchmarking": {"open":16},
-    "build": {"open":104},
+    "build": {
+      "516": {"comments":1,"words":58,"pr":true},
+      "open": 104,
+      "words": 58,
+      "comments": 1
+    },
     "build-container-sync": {"open":1},
     "build-containers": {"open":1},
     "citgm": {"open":37},
@@ -61,12 +66,12 @@
     "hardware": {"open":12},
     "help": {
       "338": {"comments":0,"words":161,"opened":"2016-10-25T06:10:31Z","opener":"22443417","pr":true},
-      "339": {"comments":1,"words":100,"opened":"2016-10-25T09:27:10Z","opener":"7939709","pr":true},
+      "339": {"comments":2,"words":112,"opened":"2016-10-25T09:27:10Z","opener":"7939709","pr":true},
       "340": {"comments":1,"words":99,"opened":"2016-10-25T11:38:48Z","opener":"7426501","pr":true},
       "open": 77,
-      "words": 360,
+      "words": 372,
       "opened": 3,
-      "comments": 2
+      "comments": 3
     },
     "http": {"open":14},
     "http-parser": {"open":43},
@@ -92,8 +97,9 @@
       "8791": {"comments":1,"words":2,"pr":true},
       "8799": {"comments":1,"words":2,"pr":true},
       "8913": {"comments":2,"words":53,"pr":true},
+      "8977": {"comments":1,"words":46,"pr":true},
       "9069": {"comments":1,"words":160,"pr":true},
-      "9099": {"comments":1,"words":4,"pr":true},
+      "9099": {"comments":2,"words":177,"pr":true,"closed":"2016-10-25T14:27:06Z","closer":"439929"},
       "9115": {"comments":1,"words":12,"pr":true},
       "9139": {"comments":1,"words":15,"pr":true},
       "9157": {"comments":0,"words":35,"closed":"2016-10-25T09:25:59Z","closer":"1315533","pr":true},
@@ -109,9 +115,9 @@
       "9237": {"comments":3,"words":126,"pr":true},
       "9250": {"comments":1,"words":101,"pr":true},
       "9254": {"comments":2,"words":197,"pr":true,"closed":"2016-10-25T09:33:02Z","closer":"275871"},
-      "9257": {"comments":1,"words":47,"pr":true},
+      "9257": {"comments":2,"words":61,"pr":true},
       "9259": {"comments":3,"words":126,"pr":true},
-      "9261": {"comments":1,"words":8,"pr":true},
+      "9261": {"comments":2,"words":74,"pr":true},
       "9262": {"comments":1,"words":21,"pr":true},
       "9264": {"comments":3,"words":56,"pr":true},
       "9265": {"comments":1,"words":18,"pr":true},
@@ -121,10 +127,10 @@
       "9269": {"comments":0,"words":52,"opened":"2016-10-25T10:25:04Z","opener":"15943089","pr":true},
       "9270": {"comments":0,"words":47,"pr":true,"opened":"2016-10-25T13:14:15Z","opener":"103052"},
       "9271": {"comments":0,"words":46,"pr":true,"opened":"2016-10-25T13:29:11Z","opener":"103052"},
-      "open": 852,
-      "words": 3279,
-      "comments": 59,
-      "closed": 11,
+      "open": 851,
+      "words": 3578,
+      "comments": 63,
+      "closed": 12,
       "opened": 6
     },
     "node-addon-examples": {"open":29},
@@ -189,10 +195,13 @@
     "nodejs.org": {
       "950": {"comments":1,"words":18,"pr":true},
       "990": {"comments":1,"words":101,"pr":true},
-      "992": {"comments":2,"words":60,"pr":true},
-      "open": 53,
-      "words": 179,
-      "comments": 4
+      "992": {"comments":4,"words":90,"pr":true,"closed":"","closer":"498775"},
+      "993": {"comments":2,"words":6,"pr":true,"opened":"2016-10-25T14:20:47Z","opener":"439929","closed":"","closer":"439929"},
+      "open": 52,
+      "words": 215,
+      "comments": 8,
+      "opened": 1,
+      "closed": 2
     },
     "nodejs.org-archive": {"open":12},
     "nodejs.org-new": {"open":2},
@@ -235,7 +244,8 @@
       "words": {
         "node/pulls/9069#255929917": 160,
         "node/pulls/8443#255930729": 73,
-        "node/pulls/9139#256039627": 15
+        "node/pulls/9139#256039627": 15,
+        "node/pulls/9257#256047076": 14
       }
     },
     "52195": {
@@ -339,8 +349,20 @@
       "id": "439929",
       "login": "jasnell",
       "words": {
-        "node/pulls/9099#256029659": 4
-      }
+        "node/pulls/9099#256029659": 4,
+        "nodejs.org/pulls/992#256046852": 1,
+        "nodejs.org/pulls/993": 2,
+        "nodejs.org/pulls/993#256049130": 1,
+        "node/pulls/9099#256050392": 9,
+        "node/pulls/9099": 164
+      },
+      "opened": [
+        "nodejs.org/pulls/993"
+      ],
+      "closed": [
+        "nodejs.org/pulls/993",
+        "node/pulls/9099"
+      ]
     },
     "495647": {
       "id": "495647",
@@ -360,8 +382,14 @@
         "help/pulls/339#256035018": 50,
         "LTS/pulls/148#256035730": 62,
         "node/pulls/8913#256036991": 12,
-        "node/pulls/9261#256037073": 8
-      }
+        "node/pulls/9261#256037073": 8,
+        "nodejs.org/pulls/993#256048716": 1,
+        "nodejs.org/pulls/992": 26,
+        "nodejs.org/pulls/992#256049369": 3
+      },
+      "closed": [
+        "nodejs.org/pulls/992"
+      ]
     },
     "518427": {
       "id": "518427",
@@ -384,6 +412,13 @@
       "closed": [
         "node/pulls/9199"
       ]
+    },
+    "696611": {
+      "id": "696611",
+      "login": "thefourtheye",
+      "words": {
+        "node/pulls/9261#256052316": 66
+      }
     },
     "718899": {
       "id": "718899",
@@ -472,6 +507,13 @@
         "node/issues/9157"
       ]
     },
+    "1716463": {
+      "id": "1716463",
+      "login": "watilde",
+      "words": {
+        "node/pulls/8977#256046920": 46
+      }
+    },
     "1758366": {
       "id": "1758366",
       "login": "mgol",
@@ -499,7 +541,8 @@
       "words": {
         "node/pulls/9267": 55,
         "node/pulls/9209#255920486": 8,
-        "node/pulls/9209": 84
+        "node/pulls/9209": 84,
+        "build/pulls/516#256052795": 58
       },
       "opened": [
         "node/pulls/9267"
@@ -604,7 +647,8 @@
         "node/pulls/9264#255956749": 30,
         "node/issues/9269": 52,
         "node/pulls/9264#84873022": 21,
-        "node/pulls/9268#256024374": 13
+        "node/pulls/9268#256024374": 13,
+        "help/pulls/339#256052119": 12
       },
       "opened": [
         "node/issues/9269"
