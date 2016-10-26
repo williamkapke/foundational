@@ -14,7 +14,7 @@
 678	643505	false	open	false	17		2015-01-31T00:58:15Z	2016-10-14T10:17:26Z		make crypto functions execute in the threadpool asynchronously	83		
 684	115237	false	closed	false	6		2015-01-31T22:25:05Z	2016-08-18T20:24:09Z	2015-02-01T18:41:19Z	path: tilde expansion	123		
 690	275871	false	closed	false	14		2015-02-02T15:19:55Z	2016-07-19T11:39:40Z	2016-07-19T11:39:40Z	repl: surrogate pair upsets repl / terminal	43		
-708	220205	false	open	false	35		2015-02-03T18:56:57Z	2016-10-25T22:50:41Z		HTTP and HTTPS attempt only single IP, causing intermittent failures	261		
+708	220205	false	open	false	36		2015-02-03T18:56:57Z	2016-10-25T23:49:07Z		HTTP and HTTPS attempt only single IP, causing intermittent failures	261		
 729	289174	false	closed	false	8		2015-02-05T20:00:25Z	2016-06-29T11:12:13Z	2016-06-29T11:12:13Z	Converge Tracing/Profiling to Native Set of Hooks	49		
 731	579	false	closed	false	39		2015-02-05T21:45:00Z	2016-09-12T18:13:14Z	2015-10-07T04:52:55Z	governance: Find Hangout-On-Air alternative.	71		
 805	782880	false	open	false	3		2015-02-11T16:10:53Z	2016-07-19T11:38:52Z		strict printing for X509 Extentions	19		
@@ -2358,7 +2358,7 @@
 9219	6009583	false	closed	false	1		2016-10-21T10:02:29Z	2016-10-21T13:50:25Z	2016-10-21T13:50:25Z	UnhandledRejection for Node 6.3.1	48		
 9220	275871	true	open	false	0	0	2016-10-21T10:16:16Z	2016-10-21T10:16:16Z		src: fix -Wunused-function warning	1		
 9221	275871	true	closed	false	1	1	2016-10-21T10:30:12Z	2016-10-25T11:30:36Z	2016-10-25T11:30:36Z	src: make cross-context MakeCallback() calls work	6		
-9222	9373002	false	open	false	5		2016-10-21T13:06:24Z	2016-10-25T17:44:56Z		V8 nightly tests failing, downloads pointing to wrong repo ?	170		
+9222	9373002	false	open	false	7		2016-10-21T13:06:24Z	2016-10-25T23:03:43Z		V8 nightly tests failing, downloads pointing to wrong repo ?	170		
 9223	54666	false	closed	false	0		2016-10-21T15:37:27Z	2016-10-24T14:06:40Z	2016-10-24T14:06:40Z	doc: `process` formatting issues	90		
 9224	275871	true	closed	false	2	0	2016-10-21T17:20:15Z	2016-10-24T20:42:03Z	2016-10-24T20:42:03Z	src: clean up program/isolate/env init logic	22		
 9225	1810178	true	open	false	1		2016-10-21T19:01:31Z	2016-10-24T14:03:43Z		url: name anonymous functions in url	67		
@@ -2410,12 +2410,15 @@
 9271	103052	true	open	false	0	0	2016-10-25T13:29:11Z	2016-10-25T13:29:11Z		v8: name all anonymous functions	46		
 9272	234659	true	open	false			2016-10-25T15:05:26Z	2016-10-25T20:01:42Z		inspector: add contexts when using vm module	69		
 9273	15859454	false	open	false	0		2016-10-25T16:44:33Z	2016-10-25T17:59:02Z		Mapping files in Chrome Workspaces	186		
-9274	2643044	false	open	false	15		2016-10-25T18:04:18Z	2016-10-25T22:18:55Z		Native class of `global` changed in Node v7	123		
+9274	2643044	false	open	false	17		2016-10-25T18:04:18Z	2016-10-25T23:30:12Z		Native class of `global` changed in Node v7	123		
 9275	15067568	true	open	false	0		2016-10-25T18:35:23Z	2016-10-25T19:06:24Z		socket.end() can take a callback function	182		
 9276	15935886	false	closed	false	2		2016-10-25T19:51:22Z	2016-10-25T21:54:17Z	2016-10-25T20:36:54Z	Warning: node-7.0.0 already installed, it's just not linked	68		
 9277	11913695	true	open	false	0	0	2016-10-25T20:07:26Z	2016-10-25T20:07:26Z		Fix outdated links	26		
 9278	11913695	true	open	false			2016-10-25T20:10:41Z	2016-10-25T21:44:28Z		Fix outdated links	42		
 9279	899444	true	open	false	13		2016-10-25T20:23:33Z	2016-10-25T22:25:33Z		lib: make `String(global) === '[object global]'`	58		
-9280	275871	true	open	false			2016-10-25T20:29:33Z	2016-10-25T21:35:55Z		src: fix use of uninitialized variable	14		
+9280	275871	true	closed	false	2		2016-10-25T20:29:33Z	2016-10-25T23:44:54Z	2016-10-25T23:44:54Z	src: fix use of uninitialized variable	14		
 9281	439929	true	open	false	0		2016-10-25T21:55:56Z	2016-10-25T22:21:58Z		src: fix use of uninitialized variable	65		
 9282	354349	false	open	false	0		2016-10-25T22:39:22Z	2016-10-25T22:39:22Z		node does not process HTTP informational responses correctly	336		
+9283	5445507	true	open	false	0	0	2016-10-25T23:23:46Z	2016-10-25T23:23:46Z		module: fix loading from $PREFIX/lib/node on Windows	102		
+9284	17535	true	open	false	0	0	2016-10-25T23:39:15Z	2016-10-25T23:39:15Z		deps: upgrade npm to 4.0.1	562		
+9285	312966	false	open	false	0		2016-10-25T23:46:57Z	2016-10-25T23:46:57Z		support for polling linux character device for incoming data	309		
