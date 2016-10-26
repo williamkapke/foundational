@@ -827,7 +827,7 @@
 7684	321966	true	closed	false	5		2016-07-12T14:54:37Z	2016-07-12T17:39:10Z	2016-07-12T17:39:10Z	doc: buffers are not sent over IPC with a socket	172		
 7685	2512748	true	closed	false	2	0	2016-07-12T16:24:56Z	2016-07-14T14:15:31Z	2016-07-14T14:15:30Z	test: add common.rootDir	61	2512748	2016-07-14T14:15:30Z
 7686	54666	true	closed	false	4		2016-07-12T16:34:11Z	2016-07-14T18:24:38Z	2016-07-14T18:24:38Z	src: clean up string_search	17		
-7687	6487691	true	closed	false	24		2016-07-12T18:10:58Z	2016-10-26T16:06:58Z	2016-08-09T16:02:51Z	Add correct shared library naming on OS X	100		
+7687	6487691	true	closed	false	25		2016-07-12T18:10:58Z	2016-10-26T17:23:05Z	2016-08-09T16:02:51Z	Add correct shared library naming on OS X	100		
 7688	498775	true	closed	false	15		2016-07-12T18:15:10Z	2016-08-16T18:39:57Z	2016-08-16T16:04:09Z	v4.5.0 proposal	3290		
 7689	1485909	true	closed	false	21		2016-07-12T20:16:28Z	2016-08-03T14:36:04Z	2016-07-26T17:47:50Z	deps: cherry-pick b93c80a from v8 upstream	58		
 7690	7135896	true	closed	false	23		2016-07-12T21:11:48Z	2016-09-30T21:38:32Z	2016-08-04T15:56:03Z	util: allow deprecate on classes	66		
@@ -1308,7 +1308,7 @@
 8166	439929	true	open	false	29		2016-08-18T19:15:57Z	2016-09-02T20:14:23Z		lib,fs: use process.emitWarning instead of internal print dep warning	103		
 8167	657552	false	closed	false	4		2016-08-18T19:48:09Z	2016-08-29T22:21:48Z	2016-08-29T22:21:48Z	TypeError: Forked processes must have an IPC channel	61		
 8168	2512748	true	closed	false	6		2016-08-18T20:31:47Z	2016-09-30T22:23:12Z	2016-09-09T23:54:42Z	test: exercise EE function type checking paths	60		
-8169	988441	true	closed	false	43		2016-08-18T20:52:01Z	2016-10-26T16:16:01Z	2016-08-25T18:04:43Z	buffer: hard-deprecate calling Buffer without new	59		
+8169	988441	true	closed	false	46		2016-08-18T20:52:01Z	2016-10-26T17:11:38Z	2016-08-25T18:04:43Z	buffer: hard-deprecate calling Buffer without new	59		
 8170	2512748	true	open	false	6		2016-08-18T21:30:38Z	2016-08-22T18:09:31Z		dns: lookupService() callback must be a function	179		
 8171	248374	true	closed	false	5		2016-08-18T22:02:29Z	2016-08-22T19:08:10Z	2016-08-22T18:05:21Z	build: add node_module_version to config.gypi	25		
 8172	88045	false	closed	false	5		2016-08-18T22:27:28Z	2016-08-23T18:29:50Z	2016-08-18T22:50:20Z	6.4.0 is linking against GLIBCXX_3.4.18 (libstdc++6 >=4.8)	533		
@@ -2290,7 +2290,7 @@
 9149	374012	false	closed	false	1		2016-10-18T07:13:47Z	2016-10-20T19:46:54Z	2016-10-20T19:46:54Z	Buffer.fill has an out of bounds (arbitrary) memory write	291		
 9150	495647	true	open	false	1		2016-10-18T07:48:58Z	2016-10-18T17:01:15Z		test: mark dgram-multicast-multi-process as flaky on v0.12	24		
 9151	495647	true	open	false			2016-10-18T07:58:20Z	2016-10-19T10:33:31Z		build: add working lint-ci make target (v0.12)	44		
-9152	6917800	true	open	false	2		2016-10-18T08:51:30Z	2016-10-26T07:51:06Z		child_process: Check stderr before accessing it	96		
+9152	6917800	true	open	false	4		2016-10-18T08:51:30Z	2016-10-26T17:13:22Z		child_process: Check stderr before accessing it	96		
 9153	495647	true	closed	false	3	0	2016-10-18T09:10:56Z	2016-10-19T03:05:13Z	2016-10-19T03:05:13Z	Release proposal: v4.6.1	58		
 9154	495647	true	closed	false	1	0	2016-10-18T09:30:14Z	2016-10-18T16:37:35Z	2016-10-18T16:37:35Z	Release proposal: v0.10.48	66	495647	2016-10-18T16:37:35Z
 9155	495647	true	closed	false	5		2016-10-18T11:21:22Z	2016-10-18T13:02:18Z	2016-10-18T13:02:18Z	win,build: try multiple timeservers when signing	102		
@@ -2376,7 +2376,7 @@
 9235	7606483	true	closed	false	2	0	2016-10-22T00:59:48Z	2016-10-24T14:07:42Z	2016-10-24T14:07:42Z	doc: fixes formatting in process	45		
 9236	406656	false	open	false	4		2016-10-22T01:35:33Z	2016-10-22T08:28:51Z		"tls.connect() fails with ""sslv3 alert handshake failure"" (RC4/MD5/DES cipher support)"	88		
 9237	855219	false	open	false	9		2016-10-22T02:02:41Z	2016-10-25T02:05:54Z		Add version info: CLDR, Unicode, Timezone	148		
-9238	11638619	true	open	false	7		2016-10-22T02:43:40Z	2016-10-24T20:11:33Z		buffer: fix `fill` with encoding in Buffer.alloc()	74		
+9238	11638619	true	open	false	7		2016-10-22T02:43:40Z	2016-10-26T17:10:14Z		buffer: fix `fill` with encoding in Buffer.alloc()	74		
 9239	5827364	true	open	false	4		2016-10-22T04:50:18Z	2016-10-23T09:39:37Z		test: Refactor to ES6	54		
 9240	4235596	false	open	false	0		2016-10-22T13:11:53Z	2016-10-22T13:11:53Z		Stream module	58		
 9241	275871	true	closed	false	3	0	2016-10-22T14:35:36Z	2016-10-24T20:45:42Z	2016-10-24T20:45:42Z	test: make test-crypto-timing-safe-equal-benchmarks more reliable	1		
@@ -2388,21 +2388,21 @@
 9247	82626	false	open	false	0		2016-10-24T00:34:14Z	2016-10-24T00:34:14Z		streams documentation for writable.write(chunk) describes return value incorrectly	154		
 9248	3516420	false	closed	false	6		2016-10-24T02:03:22Z	2016-10-24T15:47:33Z	2016-10-24T02:11:48Z	Allow assignment of undefined to process.env variables	29		
 9249	718899	true	open	false	1		2016-10-24T05:05:48Z	2016-10-24T10:22:15Z		tools: make --repeat work with -j in test.py	119		
-9250	7344457	true	open	false	8		2016-10-24T05:24:58Z	2016-10-25T20:57:46Z		os: name every function OS module	55		
+9250	7344457	true	open	false	9		2016-10-24T05:24:58Z	2016-10-26T17:17:25Z		os: name every function OS module	55		
 9251	609373	false	open	false	0		2016-10-24T10:15:56Z	2016-10-24T10:15:56Z		socket.remoteAddress has a strange value 	57		
 9252	7455872	true	open	false			2016-10-24T10:44:29Z	2016-10-24T20:56:57Z		fs: name anonymous functions	32		
 9253	2352663	true	closed	false	6	0	2016-10-24T11:03:03Z	2016-10-24T18:26:44Z	2016-10-24T18:26:44Z	deps: update V8 to 5.4.500.36	44		
 9254	3430784	false	closed	false	5		2016-10-24T11:14:05Z	2016-10-25T09:33:02Z	2016-10-25T09:33:02Z	Memory leaking with low network speed	127		
 9255	9373002	false	open	false	4		2016-10-24T14:35:45Z	2016-10-24T16:02:46Z		AIX: test-child-process-pass-fd.js processes still running	35		
-9256	8297234	false	open	false	4		2016-10-24T14:55:17Z	2016-10-26T10:48:51Z		parallel/test-http-set-timeout failing occasionally	56		
+9256	8297234	false	open	false	4		2016-10-24T14:55:17Z	2016-10-26T17:29:03Z		parallel/test-http-set-timeout failing occasionally	56		
 9257	17607	true	open	false	9		2016-10-24T15:59:34Z	2016-10-25T14:15:39Z		test: prevent workers outliving parent	78		
 9258	498775	true	open	false	0	0	2016-10-24T16:08:08Z	2016-10-24T16:08:08Z		tools: use long format for gpg fingerprint	116		
 9259	15943089	true	open	false			2016-10-24T17:47:06Z	2016-10-26T04:02:58Z		doc: update CONTRIBUTING.md to address editing PRs	161		
 9260	275871	true	open	false	2		2016-10-24T18:27:55Z	2016-10-25T18:13:42Z		Backport pr6184 v4.x	2		
-9261	718899	false	open	false	9		2016-10-24T19:16:41Z	2016-10-26T15:04:54Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-10-26	456		
+9261	718899	false	open	false	15		2016-10-24T19:16:41Z	2016-10-26T17:12:39Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-10-26	456		
 9262	176984	true	open	false	7		2016-10-24T19:42:12Z	2016-10-26T16:40:12Z		work in progress: test.py tap13 output	163		
 9263	275871	true	open	false	0		2016-10-24T20:58:13Z	2016-10-24T21:38:33Z		test: use strict assertions in module loader test	2		
-9264	8297234	true	open	false	6		2016-10-24T22:43:17Z	2016-10-26T04:52:01Z		test: remove err timer from test-http-set-timeout	50		
+9264	8297234	true	open	false	7		2016-10-24T22:43:17Z	2016-10-26T17:05:44Z		test: remove err timer from test-http-set-timeout	50		
 9265	439929	true	open	false	2		2016-10-24T23:34:02Z	2016-10-25T18:54:04Z		errors: add internal/errors.js	85		
 9266	855219	true	open	false			2016-10-25T01:50:17Z	2016-10-25T22:32:55Z		intl: Add more versions from ICU	77		
 9267	2512748	true	closed	false	6	0	2016-10-25T02:31:43Z	2016-10-26T13:47:55Z	2016-10-26T13:47:55Z	deps: upgrade libuv to 1.10.0	55	2512748	2016-10-26T13:47:55Z
@@ -2412,26 +2412,27 @@
 9271	103052	true	open	false	0	0	2016-10-25T13:29:11Z	2016-10-25T13:29:11Z		v8: name all anonymous functions	46		
 9272	234659	true	open	false			2016-10-25T15:05:26Z	2016-10-25T20:01:42Z		inspector: add contexts when using vm module	69		
 9273	15859454	false	open	false	0		2016-10-25T16:44:33Z	2016-10-25T17:59:02Z		Mapping files in Chrome Workspaces	186		
-9274	2643044	false	open	false	22		2016-10-25T18:04:18Z	2016-10-26T07:09:38Z		Native class of `global` changed in Node v7	123		
+9274	2643044	false	open	false	24		2016-10-25T18:04:18Z	2016-10-26T17:16:48Z		Native class of `global` changed in Node v7	123		
 9275	15067568	true	open	false	0		2016-10-25T18:35:23Z	2016-10-25T19:06:24Z		socket.end() can take a callback function	182		
 9276	15935886	false	closed	false	2		2016-10-25T19:51:22Z	2016-10-25T21:54:17Z	2016-10-25T20:36:54Z	Warning: node-7.0.0 already installed, it's just not linked	68		
 9277	11913695	true	open	false	0	0	2016-10-25T20:07:26Z	2016-10-25T20:07:26Z		Fix outdated links	26		
 9278	11913695	true	open	false			2016-10-25T20:10:41Z	2016-10-25T21:44:28Z		Fix outdated links	42		
-9279	899444	true	open	false			2016-10-25T20:23:33Z	2016-10-26T03:18:43Z		lib: make `String(global) === '[object global]'`	58		
+9279	899444	true	open	false			2016-10-25T20:23:33Z	2016-10-26T17:34:15Z		lib: make `String(global) === '[object global]'`	58		
 9280	275871	true	closed	false	2		2016-10-25T20:29:33Z	2016-10-25T23:44:54Z	2016-10-25T23:44:54Z	src: fix use of uninitialized variable	14		
 9281	439929	true	open	false	0		2016-10-25T21:55:56Z	2016-10-25T22:21:58Z		src: fix use of uninitialized variable	65		
 9282	354349	false	open	false	0		2016-10-25T22:39:22Z	2016-10-25T22:39:22Z		node does not process HTTP informational responses correctly	336		
 9283	5445507	true	open	false	2		2016-10-25T23:23:46Z	2016-10-26T16:42:22Z		module: fix loading from $PREFIX/lib/node on Windows	102		
 9284	17535	true	open	false	4		2016-10-25T23:39:15Z	2016-10-26T16:40:23Z		deps: upgrade npm to 4.0.1	584		
-9285	312966	false	open	false	15		2016-10-25T23:46:57Z	2016-10-26T16:41:11Z		support for polling linux character device for incoming data	307		
-9286	17535	true	open	false	4		2016-10-26T00:24:34Z	2016-10-26T16:25:47Z		deps: upgrade npm to 3.10.9	167		
+9285	312966	false	open	false	16		2016-10-25T23:46:57Z	2016-10-26T17:21:00Z		support for polling linux character device for incoming data	307		
+9286	17535	true	open	false	5		2016-10-26T00:24:34Z	2016-10-26T17:32:02Z		deps: upgrade npm to 3.10.9	167		
 9287	12198249	false	open	false	0		2016-10-26T06:14:08Z	2016-10-26T06:14:08Z		Edge.JS Could not load file or assembly or one of its dependencies	110		
 9288	18531045	false	open	false	1		2016-10-26T06:57:02Z	2016-10-26T11:36:49Z		inheritance of C/C++ Addons doesn't work	101		
 9289	1889843	true	open	false	1		2016-10-26T07:48:13Z	2016-10-26T08:14:06Z		buffer: use correct name for custom inspect symbol	54		
-9290	11976448	true	open	false	1		2016-10-26T09:39:22Z	2016-10-26T13:12:55Z		test: favor `===` over  `==` in fs-utimes	27		
+9290	11976448	true	open	false	1		2016-10-26T09:39:22Z	2016-10-26T17:35:46Z		test: favor `===` over  `==` in fs-utimes	27		
 9291	22879652	true	open	false	0	0	2016-10-26T11:23:45Z	2016-10-26T11:23:45Z		nodej js project	47		
 9292	11976448	true	open	false	0	0	2016-10-26T11:44:41Z	2016-10-26T11:44:41Z		test: expand test coverage for url.js	78		
 9293	275871	true	open	false			2016-10-26T12:03:46Z	2016-10-26T16:51:44Z		v8: fix new.target inheritance from c++	38		
 9294	129203	true	open	false	0	0	2016-10-26T12:44:11Z	2016-10-26T12:44:11Z		doc: fix broken links to Buffer.from(string)	59		
 9295	984628	false	open	false	3		2016-10-26T15:27:29Z	2016-10-26T16:06:06Z		DOS: js expression make nodejs crash	112		
-9296	275871	true	open	false	0	0	2016-10-26T16:48:39Z	2016-10-26T16:48:39Z		dns: implement {ttl: true} for dns.resolve4() and dns.resolve6()	127		
+9296	275871	true	open	false	1		2016-10-26T16:48:39Z	2016-10-26T17:01:30Z		dns: implement {ttl: true} for dns.resolve4() and dns.resolve6()	127		
+9297	5034465	true	open	false	0	0	2016-10-26T17:31:56Z	2016-10-26T17:31:56Z		test: use 'strictEqual' instead of 'equal'	32		
