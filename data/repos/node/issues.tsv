@@ -14,7 +14,7 @@
 678	643505	false	open	false	17		2015-01-31T00:58:15Z	2016-10-14T10:17:26Z		make crypto functions execute in the threadpool asynchronously	83		
 684	115237	false	closed	false	6		2015-01-31T22:25:05Z	2016-08-18T20:24:09Z	2015-02-01T18:41:19Z	path: tilde expansion	123		
 690	275871	false	closed	false	14		2015-02-02T15:19:55Z	2016-07-19T11:39:40Z	2016-07-19T11:39:40Z	repl: surrogate pair upsets repl / terminal	43		
-708	220205	false	closed	false	40		2015-02-03T18:56:57Z	2016-10-26T18:26:44Z	2016-10-26T16:36:48Z	HTTP and HTTPS attempt only single IP, causing intermittent failures	261		
+708	220205	false	closed	false	42		2015-02-03T18:56:57Z	2016-10-26T20:01:42Z	2016-10-26T16:36:48Z	HTTP and HTTPS attempt only single IP, causing intermittent failures	261		
 729	289174	false	closed	false	8		2015-02-05T20:00:25Z	2016-06-29T11:12:13Z	2016-06-29T11:12:13Z	Converge Tracing/Profiling to Native Set of Hooks	49		
 731	579	false	closed	false	39		2015-02-05T21:45:00Z	2016-09-12T18:13:14Z	2015-10-07T04:52:55Z	governance: Find Hangout-On-Air alternative.	71		
 805	782880	false	open	false	3		2015-02-11T16:10:53Z	2016-07-19T11:38:52Z		strict printing for X509 Extentions	19		
@@ -310,6 +310,7 @@
 6456	3899684	false	open	false	165		2016-04-28T22:47:27Z	2016-07-08T05:43:54Z		stdio buffered writes (chunked) issues & process.exit() truncation	530		
 6459	480640	false	open	false	8		2016-04-29T00:51:07Z	2016-09-27T09:31:38Z		Node 6 uses full CPU core	75		
 6466	275871	false	closed	false	13		2016-04-29T08:46:50Z	2016-07-06T06:44:59Z	2016-07-06T06:44:59Z	os x: re-enable PIE (ASLR)	82		
+6496	273509	false	open	false	9		2016-05-01T02:35:54Z	2016-10-26T20:49:52Z		v0.10.x issues with ECDSA cipher suites	78		
 6503	439929	true	closed	false	41		2016-05-01T15:14:50Z	2016-10-10T16:24:26Z	2016-05-11T16:26:58Z	doc: refactor the changelog by version	400		
 6506	16545322	false	closed	false	5		2016-05-01T19:30:49Z	2016-07-11T18:02:53Z	2016-07-11T18:02:53Z	doc: dns.resolve wrong callback addresses argument description	31		
 6520	1038062	false	closed	false	1		2016-05-02T11:15:05Z	2016-08-30T19:31:00Z	2016-08-30T19:31:00Z	doc: isabsolute() windows examples use wrong path separator	26		
@@ -466,6 +467,7 @@
 7193	5140254	false	closed	false	2		2016-06-07T13:13:34Z	2016-07-26T08:46:00Z	2016-07-26T08:46:00Z	VCS Files With Colons Cause Errors Trying To Install	444		
 7196	4303	false	open	false	8		2016-06-07T17:27:04Z	2016-07-05T15:42:22Z		Exposing more isXyz helpers through node_util.cc.	56		
 7197	718899	false	closed	false	36		2016-06-07T17:40:22Z	2016-08-05T22:05:09Z	2016-07-26T06:11:13Z	governance: add new collaborators XIV	46		
+7199	17978	false	open	false	1		2016-06-07T18:30:22Z	2016-10-26T20:50:19Z		fs.open/fs.openSync in node v0.10.x can not propagate ENFILE errors	72		
 7201	251382	false	closed	false	1		2016-06-07T18:53:05Z	2016-07-06T12:27:39Z	2016-07-06T12:27:39Z	Doctool tests require absent eslint	228		
 7204	439929	false	open	false	4		2016-06-07T22:08:00Z	2016-07-15T07:52:11Z		zlib: there are constants documented that don't exist	33		
 7205	317464	true	closed	false	18	0	2016-06-07T22:18:12Z	2016-07-11T19:26:19Z	2016-07-11T19:26:19Z	deps: libuv upgrade for v4.x	35		
@@ -492,6 +494,7 @@
 7257	939420	true	open	false	10		2016-06-10T08:25:54Z	2016-07-04T19:23:21Z		Add two child-process stdio flush tests	68		
 7261	631951	false	open	false	1		2016-06-10T09:36:06Z	2016-07-22T10:04:27Z		V8 crash on Windows Server 2012 x64 running on CPU with AVX support	107		
 7262	275871	true	closed	false	9		2016-06-10T09:42:23Z	2016-07-12T10:28:55Z	2016-06-13T10:56:36Z	src: fix erroneous fallthrough in ParseEncoding()	28		
+7265	1557314	false	open	false	5		2016-06-10T15:10:09Z	2016-10-26T20:52:14Z		Please upgrade node_root_certs.h for 0.x versions	95		
 7266	79017	false	open	false	17		2016-06-10T15:28:10Z	2016-10-10T23:17:51Z		Port the CLI debugger to use the v8 inspector protocol	149		
 7267	81942	true	closed	false	12		2016-06-10T16:43:18Z	2016-07-12T16:55:46Z	2016-06-17T15:05:02Z	punycode: update to v2.0.0	17		
 7269	11139560	false	closed	false	4		2016-06-10T22:36:13Z	2016-07-06T16:02:08Z	2016-07-06T16:02:08Z	node docs issue in child_process	112		
@@ -948,7 +951,7 @@
 7805	1222029	true	closed	false	6		2016-07-20T06:47:21Z	2016-08-04T20:16:55Z	2016-08-04T20:16:55Z	doc: correct crypto encoding information	66		
 7806	696611	true	closed	false	9	0	2016-07-20T07:38:11Z	2016-07-20T17:42:49Z	2016-07-20T17:42:49Z	test: find IPv6 address from localhost names	56		
 7807	6941888	false	open	false	0		2016-07-20T08:28:35Z	2016-07-20T08:28:35Z		About install gulp  problem	25		
-7808	248374	true	open	false			2016-07-20T08:52:51Z	2016-08-19T14:25:14Z		build: add node_module_version to config.gypi	23		
+7808	248374	true	open	false	17		2016-07-20T08:52:51Z	2016-10-26T20:48:08Z		build: add node_module_version to config.gypi	23		
 7809	495647	false	closed	false	4		2016-07-20T12:18:37Z	2016-08-05T22:02:22Z	2016-08-05T22:02:22Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-07-20	479		
 7810	439929	true	closed	false	10		2016-07-20T15:29:54Z	2016-07-25T13:53:02Z	2016-07-25T13:53:02Z	doc: clarify that the node.js irc channel is not under tsc oversight	71		
 7811	2512748	true	closed	false	6		2016-07-20T16:55:28Z	2016-07-22T16:02:10Z	2016-07-22T16:02:10Z	child_process: support stdio option in fork()	80		
@@ -1101,7 +1104,7 @@
 7959	15943089	false	closed	false	4		2016-08-03T13:01:15Z	2016-09-14T04:30:05Z	2016-08-08T20:48:01Z	v8 inspector build failure: File name too long	109		
 7960	12098035	false	closed	false	7		2016-08-03T13:29:44Z	2016-08-05T19:35:38Z	2016-08-05T19:35:38Z	EnvDeleter should return true	105		
 7961	1495995	true	open	false	16		2016-08-03T14:20:49Z	2016-08-12T11:28:20Z		benchmark: add --format csv option	56		
-7962	275871	false	open	false	2		2016-08-03T14:58:10Z	2016-08-03T17:12:31Z		tls, lts: update root certs in v0.10 and v0.12?	73		
+7962	275871	false	open	false	4		2016-08-03T14:58:10Z	2016-10-26T20:54:01Z		tls, lts: update root certs in v0.10 and v0.12?	73		
 7963	899444	true	closed	false	12		2016-08-03T17:50:51Z	2016-10-08T08:28:48Z	2016-08-08T20:48:54Z	deps: float gyp patch for long filenames	134		
 7964	439929	true	open	false	8		2016-08-03T17:53:52Z	2016-08-30T08:00:07Z		meta: add explicit details of the deprecation and semver-major policy	36		
 7965	11522163	false	open	false	2		2016-08-03T19:32:40Z	2016-08-12T00:50:47Z		readline will echo first line of input	149		
@@ -1308,7 +1311,7 @@
 8166	439929	true	open	false	29		2016-08-18T19:15:57Z	2016-09-02T20:14:23Z		lib,fs: use process.emitWarning instead of internal print dep warning	103		
 8167	657552	false	closed	false	4		2016-08-18T19:48:09Z	2016-08-29T22:21:48Z	2016-08-29T22:21:48Z	TypeError: Forked processes must have an IPC channel	61		
 8168	2512748	true	closed	false	6		2016-08-18T20:31:47Z	2016-09-30T22:23:12Z	2016-09-09T23:54:42Z	test: exercise EE function type checking paths	60		
-8169	988441	true	closed	false	50		2016-08-18T20:52:01Z	2016-10-26T19:44:41Z	2016-08-25T18:04:43Z	buffer: hard-deprecate calling Buffer without new	59		
+8169	988441	true	closed	false	52		2016-08-18T20:52:01Z	2016-10-26T20:27:04Z	2016-08-25T18:04:43Z	buffer: hard-deprecate calling Buffer without new	59		
 8170	2512748	true	open	false	6		2016-08-18T21:30:38Z	2016-08-22T18:09:31Z		dns: lookupService() callback must be a function	179		
 8171	248374	true	closed	false	5		2016-08-18T22:02:29Z	2016-08-22T19:08:10Z	2016-08-22T18:05:21Z	build: add node_module_version to config.gypi	25		
 8172	88045	false	closed	false	5		2016-08-18T22:27:28Z	2016-08-23T18:29:50Z	2016-08-18T22:50:20Z	6.4.0 is linking against GLIBCXX_3.4.18 (libstdc++6 >=4.8)	533		
@@ -1430,7 +1433,7 @@
 8289	718899	true	closed	false	8		2016-08-26T23:32:21Z	2016-08-30T01:55:07Z	2016-08-30T01:55:07Z	test: refactor test-debug-signal-cluster	48		
 8290	439929	true	closed	false	9		2016-08-27T03:29:35Z	2016-08-29T22:22:29Z	2016-08-29T22:22:29Z	doc: document that `'ipc'` is required with fork stdio option	48		
 8291	439929	true	open	false	2		2016-08-27T03:39:05Z	2016-08-30T19:18:47Z		doc: clarify that path.isAbsolute on windows accepts / and \	51		
-8292	495647	true	open	false			2016-08-27T04:05:46Z	2016-09-04T03:23:13Z		fs: move nullCheck to internal/fs.js to dedupe	63		
+8292	495647	true	open	false	5		2016-08-27T04:05:46Z	2016-10-26T20:18:31Z		fs: move nullCheck to internal/fs.js to dedupe	63		
 8293	439929	true	closed	false	7		2016-08-27T04:16:00Z	2016-09-30T21:53:05Z	2016-08-29T22:18:31Z	test: add known issue test for path parse issue #6229	42		
 8294	439929	true	closed	false	4		2016-08-27T04:28:24Z	2016-09-30T21:55:25Z	2016-08-29T22:34:17Z	doc: document what happens when listen is called multiple times	47		
 8295	439929	true	closed	false	4		2016-08-27T04:38:45Z	2016-08-29T22:31:24Z	2016-08-29T22:31:24Z	doc: document that readline write() is processed as input	49		
@@ -1576,7 +1579,7 @@
 8435	7959437	false	closed	false	16		2016-09-07T19:26:43Z	2016-10-03T19:42:48Z	2016-10-03T15:57:57Z	DateTimeOffset	71		
 8436	836802	false	open	false	3		2016-09-07T20:23:15Z	2016-09-08T16:29:05Z		dns.lookup blocks filesystem I/O	294		
 8437	899444	true	closed	false	5		2016-09-07T22:00:44Z	2016-09-08T23:30:14Z	2016-09-08T19:55:55Z	Backport 8174 (symbol-based custom inspection methods)	26		
-8438	54666	false	open	false	2		2016-09-08T02:30:21Z	2016-09-09T18:45:05Z		v8 inspector Profiles page no longer loads	56		
+8438	54666	false	open	false	4		2016-09-08T02:30:21Z	2016-10-26T20:57:58Z		v8 inspector Profiles page no longer loads	56		
 8439	2226267	false	closed	false	1		2016-09-08T06:45:46Z	2016-09-08T16:56:51Z	2016-09-08T16:56:51Z	when run node with --prof the `crypto.pbkdf2` will not loged in	103		
 8440	720065	false	closed	false	22		2016-09-08T08:29:41Z	2016-09-17T08:53:55Z	2016-09-17T08:53:55Z	Buffer.from not support SharedArrayBuffer	133		
 8441	1014367	false	closed	false	6		2016-09-08T09:00:13Z	2016-09-22T08:54:15Z	2016-09-22T07:56:42Z	"Error with let: ""Identifier '*' has already been declared"" on REPL"	148		
@@ -2000,7 +2003,7 @@
 8859	11976448	true	closed	false	4		2016-09-30T05:20:26Z	2016-10-03T11:31:50Z	2016-10-03T11:31:50Z	test: expand test coverage for url.js	66		
 8860	8007933	true	closed	false	6		2016-09-30T06:38:38Z	2016-09-30T17:41:01Z	2016-09-30T16:49:57Z	stream: fixed misplaced comment	55		
 8861	899444	true	closed	false	3		2016-09-30T14:19:55Z	2016-10-05T22:05:40Z	2016-10-05T22:05:40Z	build: make addons build  dep. on node_version.h	54		
-8862	899444	true	open	false	12		2016-09-30T14:30:53Z	2016-10-09T00:35:25Z		fs: export `realpathCacheKey` from `internal/fs`	70		
+8862	899444	true	open	false	14		2016-09-30T14:30:53Z	2016-10-26T20:06:21Z		fs: export `realpathCacheKey` from `internal/fs`	70		
 8863	441346	true	closed	false	6		2016-09-30T17:03:20Z	2016-10-07T02:31:59Z	2016-10-06T17:20:15Z	internal: fix TypeError in v8-polyfill	62		
 8864	441346	true	closed	false	7		2016-09-30T17:35:54Z	2016-10-04T12:55:15Z	2016-10-03T14:24:37Z	test: fix running child-process-uid-gid as root	57		
 8865	439929	false	closed	false	13		2016-09-30T18:10:59Z	2016-10-18T14:37:49Z	2016-10-07T16:33:56Z	Intl: Consider deprecating Intl.v8BreakIterator	74		
@@ -2013,8 +2016,8 @@
 8872	1898870	true	open	false	0	0	2016-09-30T22:13:22Z	2016-09-30T22:13:22Z		v4.x backport: url: fix inconsistent port in url.resolveObject	6		
 8873	498775	true	closed	false	14		2016-09-30T22:33:37Z	2016-10-19T14:39:26Z	2016-10-04T15:34:33Z	meta: remove let from for loops	67		
 8874	22553123	false	open	false	1		2016-09-30T23:49:22Z	2016-10-02T08:33:11Z		zlib.inflateRawSync how do I get the number of bytes read?	120		
-8875	731722	true	open	false	6		2016-10-01T01:21:56Z	2016-10-25T19:40:09Z		More realistic custom inspect example	166		
-8876	2365820	true	open	false	4		2016-10-01T04:48:42Z	2016-10-07T17:47:30Z		debugger: check -e flag in debug break setup	100		
+8875	731722	true	closed	false	8	15	2016-10-01T01:21:56Z	2016-10-26T20:35:20Z	2016-10-26T20:35:20Z	More realistic custom inspect example	166		
+8876	2365820	true	open	false	5		2016-10-01T04:48:42Z	2016-10-26T20:15:22Z		debugger: check -e flag in debug break setup	100		
 8877	54666	true	closed	false	1		2016-10-01T05:42:35Z	2016-10-03T10:38:09Z	2016-10-03T10:38:08Z	cluster: remove unused backlog argument	47		
 8878	54666	true	open	false	0	0	2016-10-01T05:49:24Z	2016-10-01T05:49:27Z		src: remove unused function declaration	36		
 8879	1443911	true	closed	false	1	0	2016-10-01T06:48:05Z	2016-10-04T18:40:00Z	2016-10-04T18:40:00Z	v4.x backport: doc: add `added:` information for events	6		
@@ -2097,7 +2100,7 @@
 8956	495647	true	open	false	6		2016-10-06T10:23:16Z	2016-10-18T02:54:32Z		src: bump version to v8.0.0 for master	106		
 8957	11734962	true	open	false	0	0	2016-10-06T15:14:28Z	2016-10-06T15:14:28Z		"readline : corrected ""concievably"" spelling"	9		
 8958	2512748	true	closed	false	1		2016-10-06T17:33:25Z	2016-10-11T16:10:19Z	2016-10-10T15:38:41Z	test: add cluster inspector debug port test	60		
-8959	238531	true	open	false	5		2016-10-06T17:38:13Z	2016-10-24T18:39:49Z		tls: introduce `secureContext` for `tls.connect`	71		
+8959	238531	true	open	false	6		2016-10-06T17:38:13Z	2016-10-26T20:14:07Z		tls: introduce `secureContext` for `tls.connect`	71		
 8960	2512748	true	closed	false	3	1	2016-10-06T19:54:26Z	2016-10-10T18:34:25Z	2016-10-10T18:34:25Z	test: add coverage for spawnSync() killSignal	64	2512748	2016-10-10T18:34:25Z
 8961	718899	true	closed	false	16		2016-10-07T00:28:26Z	2016-10-13T18:12:50Z	2016-10-13T05:17:44Z	timers: improve linked list performance	101		
 8962	22550884	true	closed	false	5	11	2016-10-07T03:36:42Z	2016-10-10T16:59:09Z	2016-10-10T16:59:09Z	test-debugger-pid: assert.ok() by assert.strictEqual()	24		
@@ -2109,7 +2112,7 @@
 8968	7656167	true	closed	false	4	2	2016-10-07T09:55:40Z	2016-10-09T13:56:19Z	2016-10-09T13:56:19Z	lib: update outdated comment	23		
 8969	11734962	true	closed	false	13		2016-10-07T10:10:04Z	2016-10-09T06:07:07Z	2016-10-08T19:49:57Z	url: added url.resolve() method's behaviour	49		
 8970	2352663	true	open	false	1		2016-10-07T11:22:03Z	2016-10-10T21:49:01Z		v4.x backport: test: improve coverage of the util module	6		
-8971	684817	false	open	false	0		2016-10-07T12:10:37Z	2016-10-07T12:10:37Z		Buffer.toString docs != actual	32		
+8971	684817	false	closed	false	2		2016-10-07T12:10:37Z	2016-10-26T20:13:17Z	2016-10-26T20:13:17Z	Buffer.toString docs != actual	32		
 8972	3502395	false	closed	false	2		2016-10-07T14:29:08Z	2016-10-10T09:01:28Z	2016-10-10T09:01:28Z	Is it possible to notify developer if server.maxConnections reached?	60		
 8973	7408949	false	open	false	11		2016-10-07T14:30:05Z	2016-10-12T02:58:05Z		nodejs Linux clang libc++ no joy?	111		
 8974	3397140	false	open	false	3		2016-10-07T19:33:31Z	2016-10-08T12:41:41Z		Official socket transfer support	52		
@@ -2122,7 +2125,7 @@
 8981	7408949	false	open	false	0		2016-10-08T06:09:00Z	2016-10-08T06:09:00Z		test-dgram-membership failed assertion error.	38		
 8982	275871	true	open	false	0	0	2016-10-08T08:32:52Z	2016-10-08T08:32:52Z		tools: update gyp to 702ac58	2		
 8983	1062408	false	open	false	0		2016-10-08T09:12:37Z	2016-10-08T09:12:37Z		doc: Confusion about transform stream constructor options	150		
-8984	112879	true	open	false			2016-10-08T14:54:53Z	2016-10-08T16:01:08Z		Adding clarity to buffer toString docs.	48		
+8984	112879	true	closed	false	1		2016-10-08T14:54:53Z	2016-10-26T20:13:31Z	2016-10-26T20:13:31Z	Adding clarity to buffer toString docs.	48		
 8985	134460	true	closed	false	3		2016-10-08T19:28:23Z	2016-10-11T10:52:47Z	2016-10-11T10:52:47Z	inspector,test: zero out expectations	91		
 8986	11734962	true	closed	false	2	0	2016-10-08T19:54:55Z	2016-10-09T14:51:41Z	2016-10-09T14:51:41Z	doc: response body in http module	42		
 8987	91933	false	open	false	9		2016-10-09T00:03:49Z	2016-10-19T09:33:49Z		ENOENT thrown when trying to create a file with an invalid filename	70		
@@ -2141,7 +2144,7 @@
 9000	432351	true	open	false	2		2016-10-10T06:13:49Z	2016-10-10T15:44:52Z		src: remove out-of-date TODO comment	114		
 9001	101553	false	closed	false	2		2016-10-10T07:20:34Z	2016-10-11T17:02:23Z	2016-10-11T17:02:23Z	Outdated variable name in comment	13		
 9002	2329683	false	open	false	3		2016-10-10T07:43:22Z	2016-10-10T20:12:35Z		Stream not emitting end after removeListener	169		
-9003	5007624	false	open	false	0		2016-10-10T08:39:24Z	2016-10-10T08:39:24Z		TypeError: EventEmitter, setMaxListeners, Symbol	130		
+9003	5007624	false	closed	false	0		2016-10-10T08:39:24Z	2016-10-26T20:02:58Z	2016-10-26T20:02:58Z	TypeError: EventEmitter, setMaxListeners, Symbol	130		
 9004	7888082	true	closed	false	5	0	2016-10-10T10:35:22Z	2016-10-11T08:51:12Z	2016-10-11T08:51:12Z	fix:events.js has a clerical error	9		
 9005	5002453	false	closed	false	12		2016-10-10T13:50:50Z	2016-10-21T15:50:47Z	2016-10-21T15:50:47Z	openssl list-public-key-algorithms on crypto docs	96		
 9006	935710	false	open	false	4		2016-10-10T15:20:33Z	2016-10-11T08:31:37Z		buffer.length performance regressed in 6.5.0	59		
@@ -2159,7 +2162,7 @@
 9018	8603093	false	closed	false	1		2016-10-11T01:03:14Z	2016-10-11T14:52:01Z	2016-10-11T14:52:00Z	Will read_cb be called immediately after alloc_cb for uv_read_start?	55		
 9019	592432	false	open	false	0		2016-10-11T03:52:51Z	2016-10-11T05:29:53Z		path.parse: result differs between Windows and macOS for Windows-style paths	92		
 9020	718899	false	closed	false	12		2016-10-11T04:22:40Z	2016-10-19T15:09:24Z	2016-10-19T15:09:24Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-10-12	482		
-9021	2908639	true	open	false	12		2016-10-11T05:22:10Z	2016-10-19T16:07:13Z		events: fix TypeError in EventEmitter warning	26		
+9021	2908639	true	closed	false	13	10	2016-10-11T05:22:10Z	2016-10-26T20:04:53Z	2016-10-26T20:04:53Z	events: fix TypeError in EventEmitter warning	26		
 9022	718899	true	closed	false	2		2016-10-11T06:33:25Z	2016-10-14T03:28:19Z	2016-10-14T03:28:19Z	test: move module out of fixture directory	113		
 9023	7273940	true	closed	false	6		2016-10-11T08:20:37Z	2016-10-11T17:02:39Z	2016-10-11T17:02:39Z	src: fix typo rval to value	25		
 9024	5156221	false	closed	false	10		2016-10-11T12:50:52Z	2016-10-11T15:08:32Z	2016-10-11T14:39:05Z	require('crypto') & DES inconsistent	180		
@@ -2277,7 +2280,7 @@
 9136	12628373	false	open	false	0		2016-10-17T17:16:52Z	2016-10-17T17:16:52Z		Getting error while installing protractor after installing node version	210		
 9137	419139	false	open	false	4		2016-10-17T17:54:24Z	2016-10-17T20:19:43Z		Build fails when the path to the build root is too long	132		
 9138	4976075	true	open	false	5		2016-10-17T17:55:22Z	2016-10-19T15:46:45Z		Cherry pick 3c39bac from upstream V8	45		
-9139	17607	true	open	false			2016-10-17T19:35:25Z	2016-10-26T19:59:02Z		crypto: allow adding extra certs to well-known CAs	179		
+9139	17607	true	open	false			2016-10-17T19:35:25Z	2016-10-26T20:03:32Z		crypto: allow adding extra certs to well-known CAs	179		
 9140	19806671	false	open	false	0		2016-10-17T21:10:03Z	2016-10-17T21:10:03Z		TypeError: Cannot call method 'forEach' of undefined	190		
 9141	419139	true	open	false	4		2016-10-17T22:52:25Z	2016-10-19T14:10:30Z		gyp: fix node build failure with long build directory path on Linux	138		
 9142	495647	true	open	false	4		2016-10-17T23:16:06Z	2016-10-19T03:04:44Z		tools: check tag is on github before release	31		
@@ -2372,7 +2375,7 @@
 9231	8248574	true	closed	false	5		2016-10-21T22:54:52Z	2016-10-26T04:42:11Z	2016-10-26T04:42:11Z	test: clean up `test-child-process-exec-cwd.js`	50		
 9232	68368	true	open	false	4		2016-10-21T23:24:48Z	2016-10-26T19:30:05Z		build: use wxneeded on openbsd	58		
 9233	287917	true	closed	false	1	0	2016-10-21T23:25:20Z	2016-10-24T16:15:31Z	2016-10-24T16:15:31Z	inspector: do not dereference null pointer	49		
-9234	855219	true	open	false	12		2016-10-22T00:00:47Z	2016-10-25T21:40:02Z		Icu4c 58	85		
+9234	855219	true	open	false	13		2016-10-22T00:00:47Z	2016-10-26T20:24:03Z		Icu4c 58	85		
 9235	7606483	true	closed	false	2	0	2016-10-22T00:59:48Z	2016-10-24T14:07:42Z	2016-10-24T14:07:42Z	doc: fixes formatting in process	45		
 9236	406656	false	open	false	4		2016-10-22T01:35:33Z	2016-10-22T08:28:51Z		"tls.connect() fails with ""sslv3 alert handshake failure"" (RC4/MD5/DES cipher support)"	88		
 9237	855219	false	open	false	9		2016-10-22T02:02:41Z	2016-10-25T02:05:54Z		Add version info: CLDR, Unicode, Timezone	148		
@@ -2395,12 +2398,12 @@
 9254	3430784	false	closed	false	5		2016-10-24T11:14:05Z	2016-10-25T09:33:02Z	2016-10-25T09:33:02Z	Memory leaking with low network speed	127		
 9255	9373002	false	open	false	4		2016-10-24T14:35:45Z	2016-10-24T16:02:46Z		AIX: test-child-process-pass-fd.js processes still running	35		
 9256	8297234	false	closed	false	5		2016-10-24T14:55:17Z	2016-10-26T19:12:08Z	2016-10-26T19:12:08Z	parallel/test-http-set-timeout failing occasionally	56		
-9257	17607	true	open	false	10		2016-10-24T15:59:34Z	2016-10-26T18:14:48Z		test: prevent workers outliving parent	78		
+9257	17607	true	open	false	12		2016-10-24T15:59:34Z	2016-10-26T20:21:18Z		test: prevent workers outliving parent	78		
 9258	498775	true	open	false	0	0	2016-10-24T16:08:08Z	2016-10-24T16:08:08Z		tools: use long format for gpg fingerprint	116		
 9259	15943089	true	open	false			2016-10-24T17:47:06Z	2016-10-26T04:02:58Z		doc: update CONTRIBUTING.md to address editing PRs	161		
 9260	275871	true	closed	false	4		2016-10-24T18:27:55Z	2016-10-26T18:48:29Z	2016-10-25T18:22:23Z	Backport pr6184 v4.x	2		
 9261	718899	false	open	false	17		2016-10-24T19:16:41Z	2016-10-26T19:59:55Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-10-26	456		
-9262	176984	true	open	false	7		2016-10-24T19:42:12Z	2016-10-26T16:40:12Z		work in progress: test.py tap13 output	163		
+9262	176984	true	open	false	9		2016-10-24T19:42:12Z	2016-10-26T20:20:21Z		work in progress: test.py tap13 output	163		
 9263	275871	true	closed	false	2	0	2016-10-24T20:58:13Z	2016-10-26T19:14:18Z	2016-10-26T19:14:17Z	test: use strict assertions in module loader test	2		
 9264	8297234	true	closed	false	11	1	2016-10-24T22:43:17Z	2016-10-26T19:12:20Z	2016-10-26T19:12:20Z	test: remove err timer from test-http-set-timeout	50		
 9265	439929	true	open	false	2		2016-10-24T23:34:02Z	2016-10-25T18:54:04Z		errors: add internal/errors.js	85		
@@ -2408,9 +2411,9 @@
 9267	2512748	true	closed	false	6	0	2016-10-25T02:31:43Z	2016-10-26T13:47:55Z	2016-10-26T13:47:55Z	deps: upgrade libuv to 1.10.0	55	2512748	2016-10-26T13:47:55Z
 9268	10761110	false	open	false	7		2016-10-25T09:52:07Z	2016-10-25T13:42:51Z		Making several http requests using keep-alive mode generates this trace: Warning: Possible EventEmitter memory leak detected.	62		
 9269	15943089	false	open	false	6		2016-10-25T10:25:04Z	2016-10-26T15:45:52Z		Console output for passing tests with the test runner	52		
-9270	103052	true	open	false			2016-10-25T13:14:15Z	2016-10-26T18:20:45Z		name functions in cluster module	45		
+9270	103052	true	open	false			2016-10-25T13:14:15Z	2016-10-26T20:27:37Z		name functions in cluster module	45		
 9271	103052	true	open	false	0	0	2016-10-25T13:29:11Z	2016-10-25T13:29:11Z		v8: name all anonymous functions	46		
-9272	234659	true	open	false			2016-10-25T15:05:26Z	2016-10-26T19:13:19Z		inspector: add contexts when using vm module	69		
+9272	234659	true	open	false	2		2016-10-25T15:05:26Z	2016-10-26T20:24:22Z		inspector: add contexts when using vm module	69		
 9273	15859454	false	open	false	0		2016-10-25T16:44:33Z	2016-10-25T17:59:02Z		Mapping files in Chrome Workspaces	186		
 9274	2643044	false	open	false	24		2016-10-25T18:04:18Z	2016-10-26T17:16:48Z		Native class of `global` changed in Node v7	123		
 9275	15067568	true	open	false	0		2016-10-25T18:35:23Z	2016-10-25T19:06:24Z		socket.end() can take a callback function	182		
@@ -2428,12 +2431,14 @@
 9287	12198249	false	open	false	0		2016-10-26T06:14:08Z	2016-10-26T06:14:08Z		Edge.JS Could not load file or assembly or one of its dependencies	110		
 9288	18531045	false	open	false	1		2016-10-26T06:57:02Z	2016-10-26T11:36:49Z		inheritance of C/C++ Addons doesn't work	101		
 9289	1889843	true	open	false	1		2016-10-26T07:48:13Z	2016-10-26T08:14:06Z		buffer: use correct name for custom inspect symbol	54		
-9290	11976448	true	open	false	1		2016-10-26T09:39:22Z	2016-10-26T17:35:46Z		test: favor `===` over  `==` in fs-utimes	27		
+9290	11976448	true	open	false	3		2016-10-26T09:39:22Z	2016-10-26T20:39:55Z		test: favor `===` over  `==` in fs-utimes	27		
 9291	22879652	true	open	false	0	0	2016-10-26T11:23:45Z	2016-10-26T11:23:45Z		nodej js project	47		
-9292	11976448	true	open	false	0	0	2016-10-26T11:44:41Z	2016-10-26T11:44:41Z		test: expand test coverage for url.js	78		
+9292	11976448	true	open	false	1		2016-10-26T11:44:41Z	2016-10-26T20:23:04Z		test: expand test coverage for url.js	78		
 9293	275871	true	open	false			2016-10-26T12:03:46Z	2016-10-26T16:51:44Z		v8: fix new.target inheritance from c++	38		
 9294	129203	true	open	false	0	0	2016-10-26T12:44:11Z	2016-10-26T12:44:11Z		doc: fix broken links to Buffer.from(string)	59		
 9295	984628	false	open	false	3		2016-10-26T15:27:29Z	2016-10-26T16:06:06Z		DOS: js expression make nodejs crash	112		
 9296	275871	true	open	false	1		2016-10-26T16:48:39Z	2016-10-26T17:01:30Z		dns: implement {ttl: true} for dns.resolve4() and dns.resolve6()	127		
-9297	5034465	true	open	false	0	0	2016-10-26T17:31:56Z	2016-10-26T17:31:56Z		test: use 'strictEqual' instead of 'equal'	32		
+9297	5034465	true	open	false	1		2016-10-26T17:31:56Z	2016-10-26T20:38:45Z		test: use 'strictEqual' instead of 'equal'	32		
 9298	498775	true	open	false	0	0	2016-10-26T18:39:12Z	2016-10-26T18:39:12Z		V4.6.2 proposal	2763		
+9299	17607	true	open	false	0	0	2016-10-26T20:46:32Z	2016-10-26T20:46:32Z		tools: remove dangling eslint symlink	52		
+9300	3457885	false	open	false	0		2016-10-26T20:55:58Z	2016-10-26T20:55:58Z		Division with comment containing '/' faio	54		
