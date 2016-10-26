@@ -237,6 +237,7 @@
 5656	495647	true	open	false	6		2016-03-11T07:32:35Z	2016-08-09T22:05:50Z		 Refactor mac installer (built on #2571)	312		
 5659	15952	false	closed	false	22		2016-03-11T16:00:53Z	2016-07-22T20:01:30Z	2016-06-30T17:08:41Z	repl: useGlobal docs and code mismatch	127		
 5687	1699593	false	closed	false	8		2016-03-13T18:58:57Z	2016-08-01T12:36:42Z	2016-03-13T19:12:46Z	Promise.all is not a function	77		
+5691	2993861	false	open	false	17		2016-03-13T21:08:30Z	2016-10-26T10:43:51Z		Microtask queue is not flushed when promises are fulfilled in C++	107		
 5701	5038030	false	closed	false	7		2016-03-14T16:47:14Z	2016-09-07T03:03:39Z	2016-03-14T17:15:09Z	Error while loading shared libraries - libhttp_parser	169		
 5703	15952	true	closed	false	27		2016-03-14T20:52:17Z	2016-08-30T14:12:56Z	2016-06-30T17:08:42Z	repl: Default `useGlobal` to false in CLI REPL.	139		
 5730	459764	false	closed	false	12		2016-03-15T23:20:35Z	2016-07-06T15:27:04Z	2016-07-06T15:27:04Z	REPL started with replServer doesn't persist history	182		
@@ -1844,7 +1845,7 @@
 8704	553630	true	open	false	10		2016-09-21T22:37:37Z	2016-09-23T23:06:34Z		doc: update BUILDING.md	46		
 8705	10136054	true	open	false	3		2016-09-21T22:57:11Z	2016-09-24T11:12:17Z		test: cleanup vars to const and '==' to '==='	80		
 8706	17535	true	closed	false	8		2016-09-22T01:22:23Z	2016-09-27T20:57:34Z	2016-09-27T20:57:33Z	deps: upgrade npm to 3.10.8	350		
-8707	6354455	true	open	false	4		2016-09-22T03:18:29Z	2016-10-25T02:02:24Z		test: stream._writableState.ending	60		
+8707	6354455	true	open	false	4		2016-09-22T03:18:29Z	2016-10-26T10:15:18Z		test: stream._writableState.ending	60		
 8708	291301	true	open	false	2		2016-09-22T06:41:31Z	2016-09-25T10:09:39Z		tools: enable more remark-lint rules	64		
 8709	21365343	false	open	false	0		2016-09-22T08:34:53Z	2016-09-22T08:34:53Z		Q	6		
 8710	275871	true	closed	false	3	0	2016-09-22T09:13:50Z	2016-09-23T21:56:59Z	2016-09-23T21:56:59Z	src: don't abort when c-ares initialization fails	23		
@@ -1928,7 +1929,7 @@
 8788	17704638	true	closed	false	6		2016-09-26T13:36:29Z	2016-10-10T16:57:23Z	2016-09-30T15:25:42Z	benchmark: add info about required Unix tools	57		
 8789	498775	true	open	false	3		2016-09-26T14:52:37Z	2016-09-26T18:21:02Z		Upgrade to openssl102j v6.x	68		
 8790	498775	true	closed	false	5		2016-09-26T14:54:19Z	2016-09-27T12:07:22Z	2016-09-27T12:07:22Z	Upgrade Openssl to 1.0.2j v4.x	68		
-8791	6354455	true	open	false	4		2016-09-26T15:58:42Z	2016-10-25T02:02:18Z		addin test for _stream.writable finished state	53		
+8791	6354455	true	open	false	5		2016-09-26T15:58:42Z	2016-10-26T10:14:57Z		addin test for _stream.writable finished state	53		
 8792	354296	false	open	false	7		2016-09-26T17:06:56Z	2016-09-27T18:50:10Z		Feature request: REPL show variable contents upon variable creation	52		
 8793	2352663	false	closed	false	6		2016-09-26T18:07:20Z	2016-10-15T13:31:22Z	2016-10-15T13:31:22Z	Audit performance of master with V8 5.4	50		
 8794	441346	true	closed	false	1		2016-09-26T18:21:35Z	2016-09-30T17:36:17Z	2016-09-30T17:36:17Z	test: fix running child-process-uid-gid as root	55		
@@ -1936,7 +1937,7 @@
 8796	152407	true	closed	false	5		2016-09-26T19:06:45Z	2016-09-27T14:44:43Z	2016-09-27T14:44:43Z	Document crypto.timingSafeEqual() added in v6.6.0	37		
 8797	479816	false	open	false	6		2016-09-27T01:53:51Z	2016-09-30T10:03:37Z		"`fs.rmdir()` on file (not directory) has ""ENOTDIR"" on Linux/macOS vs ""ENOENT"" on Windows"	115		
 8798	579	false	open	false	35		2016-09-27T03:02:37Z	2016-10-14T08:39:16Z		Add Locki to API documentation	65		
-8799	6354455	true	open	false	2		2016-09-27T03:29:25Z	2016-10-25T02:02:10Z		adding test for _stream_writable.js needDrain state	54		
+8799	6354455	true	open	false	3		2016-09-27T03:29:25Z	2016-10-26T10:15:59Z		adding test for _stream_writable.js needDrain state	54		
 8800	1935767	true	closed	false	8	0	2016-09-27T03:46:29Z	2016-09-30T02:06:54Z	2016-09-30T02:06:54Z	dns: improve makeAsync internally by removing unneeded vaiable.	61	1935767	2016-09-30T02:06:54Z
 8801	6354455	true	closed	false	12		2016-09-27T03:56:28Z	2016-10-10T15:20:48Z	2016-09-29T22:35:56Z	stream: improving error msg for stream	77		
 8802	718899	false	closed	false	15		2016-09-27T04:38:37Z	2016-10-06T21:35:07Z	2016-10-06T21:35:07Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-09-28	453		
@@ -2300,7 +2301,7 @@
 9160	275871	false	open	false	2		2016-10-18T14:07:55Z	2016-10-22T08:59:02Z		security,unix: audit use of process.env in lib/ for setuid binary	116		
 9161	352113	false	open	false	18		2016-10-18T14:25:26Z	2016-10-19T21:25:38Z		bundle with yarn and allow which package manager during build.	42		
 9162	1258773	false	closed	false	3		2016-10-18T14:46:21Z	2016-10-18T16:26:49Z	2016-10-18T16:26:49Z	Crypto: Issue creating md5 for a string containing a apostrophe	114		
-9163	432351	true	open	false	8		2016-10-18T14:59:23Z	2016-10-25T15:07:10Z		src: make AtExit callback's per Environment	76		
+9163	432351	true	open	false	9		2016-10-18T14:59:23Z	2016-10-26T10:51:54Z		src: make AtExit callback's per Environment	76		
 9164	2292713	false	closed	false	2		2016-10-18T15:13:39Z	2016-10-18T17:01:49Z	2016-10-18T15:30:56Z	Step over/Next does not stop on next line if there is exception thrown and caught inside a function	78		
 9165	781818	false	open	false	6		2016-10-18T16:03:06Z	2016-10-18T18:13:38Z		Incorrect documentation or bug in Node	200		
 9166	1658949	true	open	false	8		2016-10-18T16:53:50Z	2016-10-25T09:25:04Z		doc: mention case-insensitive env on windows	78		
@@ -2379,7 +2380,7 @@
 9239	5827364	true	open	false	4		2016-10-22T04:50:18Z	2016-10-23T09:39:37Z		test: Refactor to ES6	54		
 9240	4235596	false	open	false	0		2016-10-22T13:11:53Z	2016-10-22T13:11:53Z		Stream module	58		
 9241	275871	true	closed	false	3	0	2016-10-22T14:35:36Z	2016-10-24T20:45:42Z	2016-10-24T20:45:42Z	test: make test-crypto-timing-safe-equal-benchmarks more reliable	1		
-9242	416585	false	open	false	3		2016-10-23T07:49:31Z	2016-10-25T20:18:47Z		"Unexpected ""UnhandledPromiseRejectionWarning"" instead of ""unhandled 'error' event"""	87		
+9242	416585	false	open	false	4		2016-10-23T07:49:31Z	2016-10-26T10:43:02Z		"Unexpected ""UnhandledPromiseRejectionWarning"" instead of ""unhandled 'error' event"""	87		
 9243	54666	true	closed	false	4		2016-10-23T08:10:06Z	2016-10-25T21:40:54Z	2016-10-25T21:40:54Z	src: remove unused function	39		
 9244	13891170	false	open	false	6		2016-10-23T10:12:12Z	2016-10-24T16:07:17Z		Support Let's Encrypt in core	76		
 9245	20029251	false	closed	false	5		2016-10-23T12:52:46Z	2016-10-23T15:06:22Z	2016-10-23T15:06:22Z	npm don't install	117		
@@ -2393,7 +2394,7 @@
 9253	2352663	true	closed	false	6	0	2016-10-24T11:03:03Z	2016-10-24T18:26:44Z	2016-10-24T18:26:44Z	deps: update V8 to 5.4.500.36	44		
 9254	3430784	false	closed	false	5		2016-10-24T11:14:05Z	2016-10-25T09:33:02Z	2016-10-25T09:33:02Z	Memory leaking with low network speed	127		
 9255	9373002	false	open	false	4		2016-10-24T14:35:45Z	2016-10-24T16:02:46Z		AIX: test-child-process-pass-fd.js processes still running	35		
-9256	8297234	false	open	false	3		2016-10-24T14:55:17Z	2016-10-25T16:43:37Z		parallel/test-http-set-timeout failing occasionally	56		
+9256	8297234	false	open	false	4		2016-10-24T14:55:17Z	2016-10-26T10:48:51Z		parallel/test-http-set-timeout failing occasionally	56		
 9257	17607	true	open	false	9		2016-10-24T15:59:34Z	2016-10-25T14:15:39Z		test: prevent workers outliving parent	78		
 9258	498775	true	open	false	0	0	2016-10-24T16:08:08Z	2016-10-24T16:08:08Z		tools: use long format for gpg fingerprint	116		
 9259	15943089	true	open	false			2016-10-24T17:47:06Z	2016-10-26T04:02:58Z		doc: update CONTRIBUTING.md to address editing PRs	161		
@@ -2420,7 +2421,7 @@
 9280	275871	true	closed	false	2		2016-10-25T20:29:33Z	2016-10-25T23:44:54Z	2016-10-25T23:44:54Z	src: fix use of uninitialized variable	14		
 9281	439929	true	open	false	0		2016-10-25T21:55:56Z	2016-10-25T22:21:58Z		src: fix use of uninitialized variable	65		
 9282	354349	false	open	false	0		2016-10-25T22:39:22Z	2016-10-25T22:39:22Z		node does not process HTTP informational responses correctly	336		
-9283	5445507	true	open	false	0	0	2016-10-25T23:23:46Z	2016-10-25T23:23:46Z		module: fix loading from $PREFIX/lib/node on Windows	102		
+9283	5445507	true	open	false	1		2016-10-25T23:23:46Z	2016-10-26T10:01:40Z		module: fix loading from $PREFIX/lib/node on Windows	102		
 9284	17535	true	open	false	3		2016-10-25T23:39:15Z	2016-10-26T08:04:39Z		deps: upgrade npm to 4.0.1	584		
 9285	312966	false	open	false	11		2016-10-25T23:46:57Z	2016-10-26T08:33:49Z		support for polling linux character device for incoming data	307		
 9286	17535	true	open	false	2		2016-10-26T00:24:34Z	2016-10-26T07:16:41Z		deps: upgrade npm to 3.10.9	167		
