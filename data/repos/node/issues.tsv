@@ -10,7 +10,7 @@
 583	643505	false	open	false	46		2015-01-23T23:53:00Z	2016-10-07T08:24:46Z		streaming / iterative fs.readdir	48		
 616	1106489	false	closed	false	11		2015-01-27T02:44:36Z	2016-10-20T11:52:43Z	2015-06-24T23:04:28Z	url.relative (to complement path.relative)	101		
 643	829734	false	open	false	31		2015-01-28T21:12:32Z	2016-08-05T22:17:03Z		Using faster url parser	82		
-669	505333	false	open	false	15		2015-01-30T17:47:08Z	2016-10-22T09:07:47Z		async-wrap: no way to catch errors without changing the throw origin	237		
+669	505333	false	open	false	16		2015-01-30T17:47:08Z	2016-10-27T20:53:00Z		async-wrap: no way to catch errors without changing the throw origin	237		
 678	643505	false	open	false	17		2015-01-31T00:58:15Z	2016-10-14T10:17:26Z		make crypto functions execute in the threadpool asynchronously	83		
 684	115237	false	closed	false	6		2015-01-31T22:25:05Z	2016-08-18T20:24:09Z	2015-02-01T18:41:19Z	path: tilde expansion	123		
 690	275871	false	closed	false	14		2015-02-02T15:19:55Z	2016-07-19T11:39:40Z	2016-07-19T11:39:40Z	repl: surrogate pair upsets repl / terminal	43		
@@ -1475,7 +1475,7 @@
 8331	1443911	true	closed	false	4		2016-08-30T05:56:23Z	2016-08-30T10:07:50Z	2016-08-30T06:13:03Z	doc: add lpinca to collaborators	29		
 8332	696611	true	open	false	2		2016-08-30T06:28:38Z	2016-09-08T19:48:03Z		buffer: deprecate parent property	52		
 8333	16787433	true	open	false	0	0	2016-08-30T12:34:10Z	2016-08-30T12:34:10Z		Merge pull request #1 from nodejs/master	48		
-8334	1211498	true	open	false	30		2016-08-30T12:35:45Z	2016-10-27T15:38:41Z		crypto: use system CAs instead of bundled ones	73		
+8334	1211498	true	open	false	31		2016-08-30T12:35:45Z	2016-10-27T20:54:45Z		crypto: use system CAs instead of bundled ones	73		
 8335	16787433	true	open	false	0	0	2016-08-30T12:37:32Z	2016-08-30T12:37:32Z		Merge pull request #1 from nodejs/master	48		
 8336	16787433	true	open	false	0	0	2016-08-30T12:39:44Z	2016-08-30T12:39:44Z		Merge pull request #1 from nodejs/master	48		
 8337	16787433	true	open	false	0	0	2016-08-30T12:51:40Z	2016-08-30T12:51:40Z		merge from remote	47		
@@ -2242,7 +2242,7 @@
 9098	718899	true	open	false	8		2016-10-14T18:14:04Z	2016-10-18T02:27:49Z		test: fix flaky test-child-process-fork-dgram	89		
 9099	439929	true	closed	false	25		2016-10-14T18:39:47Z	2016-10-25T14:27:06Z	2016-10-25T14:27:06Z	v7.0.0 Proposal	164		
 9100	14657580	true	closed	false	1	1	2016-10-14T19:31:12Z	2016-10-17T16:07:44Z	2016-10-17T16:07:44Z	doc: edit Stream api grammar	43		
-9101	696611	true	open	false	10		2016-10-14T19:32:45Z	2016-10-18T22:53:01Z		buffer: coerce slice parameters consistenly	204		
+9101	696611	true	closed	false	11		2016-10-14T19:32:45Z	2016-10-27T20:56:34Z	2016-10-18T22:53:39Z	buffer: coerce slice parameters consistenly	204		
 9102	1652629	false	closed	false	1		2016-10-14T19:37:40Z	2016-10-14T21:40:29Z	2016-10-14T21:40:29Z	Event Loop link is broken	22		
 9103	2633065	false	closed	false	5		2016-10-14T20:03:23Z	2016-10-17T10:32:16Z	2016-10-17T10:32:15Z	Module._extensions as Array	137		
 9104	677994	true	open	false	4		2016-10-14T21:38:19Z	2016-10-15T00:03:08Z		v6.8.1 proposal	90		
@@ -2463,4 +2463,8 @@
 9319	1165845	false	open	false	0		2016-10-27T17:52:57Z	2016-10-27T17:52:57Z		NodeJS pbkdf2Sync password hasing portability from v0.12.7 to v6.9.1	29		
 9321	4496783	false	closed	false	5		2016-10-27T18:17:43Z	2016-10-27T19:25:35Z	2016-10-27T19:25:35Z	"http creates and uses local domain socket when given a ""host:port"" string"	83		
 9322	2512748	true	open	false	0	0	2016-10-27T18:40:17Z	2016-10-27T18:40:17Z		child_process: add public API for IPC channel	90		
-9323	276876	true	open	false	0	0	2016-10-27T19:24:21Z	2016-10-27T19:24:21Z		"Updated reference to signal list in ""signal events"" section "	17		
+9323	276876	true	open	false	2		2016-10-27T19:24:21Z	2016-10-27T20:17:41Z		"Updated reference to signal list in ""signal events"" section "	17		
+9324	373545	false	open	false	0		2016-10-27T20:20:32Z	2016-10-27T20:20:32Z		Inaccurate https.request options docs	384		
+9325	4421720	true	open	false	0	0	2016-10-27T20:29:14Z	2016-10-27T20:29:14Z		doc: add 2016-09-28 CTC meeting minutes	46		
+9326	4421720	true	open	false	0	0	2016-10-27T20:29:51Z	2016-10-27T20:29:51Z		doc: add 2016-10-05 CTC meeting minutes	39		
+9327	627123	false	open	false	0		2016-10-27T20:43:20Z	2016-10-27T20:43:20Z		OpenSSL Doc Links	82		
