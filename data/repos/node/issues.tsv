@@ -77,6 +77,7 @@
 2681	439929	false	closed	false	5		2015-09-03T15:40:56Z	2016-06-30T23:21:20Z	2016-06-30T23:21:20Z	child_process: execFile and fork arg parsing ambiguity	136		
 2741	275871	true	closed	false	35	18	2015-09-08T19:11:39Z	2016-10-25T11:40:35Z	2016-10-25T11:40:35Z	src: log warning on process.binding('natives')	28		
 2760	194482	false	closed	false	13		2015-09-09T07:12:46Z	2016-08-29T20:25:34Z	2015-09-09T09:46:00Z	--harmony_modules isn't working?	69		
+2763	5754074	false	closed	false	17		2015-09-09T08:09:41Z	2016-10-28T16:17:32Z	2015-09-21T06:56:36Z	"App crashes node4 ""Segmentation fault (core dumped)"""	20		
 2768	2993861	true	closed	false	52		2015-09-09T12:14:52Z	2016-08-28T20:07:36Z	2016-08-06T07:16:39Z	node: deprecate public access to `process.binding`	35		
 2783	75184	false	closed	false	37		2015-09-09T21:17:46Z	2016-08-03T09:18:39Z	2016-05-02T11:32:45Z	Compiling node v4.0.0 with OpenSSL 1.0.1 fails	473		
 2814	12448364	false	closed	false	12		2015-09-11T12:42:32Z	2016-10-14T04:12:56Z	2015-09-11T15:04:16Z	Cannot find module 'npmlog' after upgrading to NodeJS 4.0	79		
@@ -171,6 +172,7 @@
 4482	178512	true	closed	false	30		2015-12-30T13:30:25Z	2016-07-28T21:58:08Z	2016-01-04T18:36:32Z	Http(s) Agent: handle errors on idle sockets	57		
 4500	6631828	false	closed	false	6		2015-12-31T14:09:00Z	2016-10-12T09:50:50Z	2016-10-12T09:50:50Z	Spawned process don't trigger close or exit event	118		
 4528	677994	true	open	false	14		2016-01-04T12:26:41Z	2016-08-09T20:26:39Z		http: make path null in Agent#createSocket	34		
+4550	327019	true	closed	false	28	1	2016-01-06T05:24:16Z	2016-10-28T16:38:00Z	2016-10-28T16:38:00Z	module: deprecate require('module').Module	5		
 4560	1578784	false	closed	false	8		2016-01-07T02:52:14Z	2016-09-26T08:36:38Z	2016-09-26T08:36:38Z	socket stay in ESTABLISHED status	309		
 4629	1084056	true	closed	false	25	0	2016-01-11T21:36:45Z	2016-09-01T17:30:50Z	2016-09-01T17:30:50Z	test: fix `fs-watch-recursive` flakiness	47	1084056	2016-09-01T17:30:50Z
 4630	10704816	true	closed	false	13	1	2016-01-11T22:32:27Z	2016-06-29T14:12:03Z	2016-06-29T14:12:03Z	tools: add missing headers	16		
@@ -1476,7 +1478,7 @@
 8331	1443911	true	closed	false	4		2016-08-30T05:56:23Z	2016-08-30T10:07:50Z	2016-08-30T06:13:03Z	doc: add lpinca to collaborators	29		
 8332	696611	true	open	false	2		2016-08-30T06:28:38Z	2016-09-08T19:48:03Z		buffer: deprecate parent property	52		
 8333	16787433	true	open	false	0	0	2016-08-30T12:34:10Z	2016-08-30T12:34:10Z		Merge pull request #1 from nodejs/master	48		
-8334	1211498	true	open	false	37		2016-08-30T12:35:45Z	2016-10-28T04:52:15Z		crypto: use system CAs instead of bundled ones	73		
+8334	1211498	true	open	false	38		2016-08-30T12:35:45Z	2016-10-28T16:24:35Z		crypto: use system CAs instead of bundled ones	73		
 8335	16787433	true	open	false	0	0	2016-08-30T12:37:32Z	2016-08-30T12:37:32Z		Merge pull request #1 from nodejs/master	48		
 8336	16787433	true	open	false	0	0	2016-08-30T12:39:44Z	2016-08-30T12:39:44Z		Merge pull request #1 from nodejs/master	48		
 8337	16787433	true	open	false	0	0	2016-08-30T12:51:40Z	2016-08-30T12:51:40Z		merge from remote	47		
@@ -2184,7 +2186,7 @@
 9039	580982	false	open	false	9		2016-10-11T22:04:02Z	2016-10-18T23:14:15Z		Array Joining is slower in Node 6.x	297		
 9040	439929	true	closed	false	19		2016-10-11T22:23:30Z	2016-10-25T20:32:49Z	2016-10-25T16:02:25Z	readline: use icu based string width calculation	113		
 9041	439929	true	closed	false	7		2016-10-11T22:32:38Z	2016-10-12T16:38:29Z	2016-10-12T02:20:47Z	url: fix building when using --without-intl	42		
-9042	677994	true	open	false	3		2016-10-11T23:22:40Z	2016-10-26T19:56:17Z		process: add emitExperimentalWarning()	89		
+9042	677994	true	open	false	4		2016-10-11T23:22:40Z	2016-10-28T16:35:28Z		process: add emitExperimentalWarning()	89		
 9043	10355544	true	closed	false	3		2016-10-11T23:29:54Z	2016-10-17T15:56:13Z	2016-10-17T15:56:13Z	doc: correctly reference where to list hash algorithms.	62		
 9044	12400507	true	closed	false	10		2016-10-12T01:42:40Z	2016-10-14T01:24:39Z	2016-10-14T01:24:39Z	doc: explain why we don't use the GitHub merge button	67		
 9045	498775	false	closed	false	7		2016-10-12T02:34:36Z	2016-10-14T20:40:47Z	2016-10-14T20:40:47Z	Create Lint Rule to avoid `let` in `for` loops	41		
@@ -2288,12 +2290,12 @@
 9143	718899	false	open	false	7		2016-10-17T23:30:27Z	2016-10-19T20:13:30Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-10-19	487		
 9144	17943805	true	closed	false	4		2016-10-18T02:06:47Z	2016-10-26T19:34:46Z	2016-10-26T19:34:46Z	doc: fix typo in http doc	30		
 9145	205760	true	closed	false	11		2016-10-18T03:19:40Z	2016-10-21T15:03:00Z	2016-10-21T15:02:59Z	doc: clarify fs.link and fs.linkSync arguments	163		
-9146	587518	false	open	false	5		2016-10-18T03:27:47Z	2016-10-28T15:42:52Z		`exec` and `execSync` `git clone private_repo` + timeout hangs the REPL	152		
+9146	587518	false	open	false	9		2016-10-18T03:27:47Z	2016-10-28T16:54:57Z		`exec` and `execSync` `git clone private_repo` + timeout hangs the REPL	152		
 9147	495647	true	closed	false	2	0	2016-10-18T05:08:51Z	2016-10-18T16:15:36Z	2016-10-18T16:15:36Z	Release proposal: v0.12.17	54	495647	2016-10-18T16:15:36Z
 9148	260223	false	closed	false	7		2016-10-18T06:39:07Z	2016-10-26T16:16:47Z	2016-10-18T08:32:58Z	Useless Stack Traces	290		
 9149	374012	false	closed	false	1		2016-10-18T07:13:47Z	2016-10-20T19:46:54Z	2016-10-20T19:46:54Z	Buffer.fill has an out of bounds (arbitrary) memory write	291		
 9150	495647	true	open	false	1		2016-10-18T07:48:58Z	2016-10-18T17:01:15Z		test: mark dgram-multicast-multi-process as flaky on v0.12	24		
-9151	495647	true	open	false			2016-10-18T07:58:20Z	2016-10-19T10:33:31Z		build: add working lint-ci make target (v0.12)	44		
+9151	495647	true	closed	false	2		2016-10-18T07:58:20Z	2016-10-28T16:29:57Z	2016-10-28T16:29:57Z	build: add working lint-ci make target (v0.12)	44		
 9152	6917800	true	closed	false	5	0	2016-10-18T08:51:30Z	2016-10-26T18:02:43Z	2016-10-26T18:02:43Z	child_process: Check stderr before accessing it	96		
 9153	495647	true	closed	false	3	0	2016-10-18T09:10:56Z	2016-10-19T03:05:13Z	2016-10-19T03:05:13Z	Release proposal: v4.6.1	58		
 9154	495647	true	closed	false	1	0	2016-10-18T09:30:14Z	2016-10-18T16:37:35Z	2016-10-18T16:37:35Z	Release proposal: v0.10.48	66	495647	2016-10-18T16:37:35Z
@@ -2333,11 +2335,11 @@
 9188	1058931	false	open	false	6		2016-10-19T15:22:26Z	2016-10-20T17:08:22Z		V8 Inspector ignores/squelches evaluation in console panel	96		
 9189	4027669	false	closed	false	11		2016-10-19T18:12:13Z	2016-10-26T19:49:18Z	2016-10-26T19:49:18Z	repl: error thrown while writing function statement in '.editor' mode	101		
 9190	79017	false	open	false	7		2016-10-19T18:42:28Z	2016-10-24T20:30:05Z		V8 Backports Triage	70		
-9191	5445507	true	open	false	5		2016-10-19T19:46:03Z	2016-10-20T11:26:06Z		process: reintroduce ares to versions	69		
-9192	1485909	true	open	false	4		2016-10-19T20:45:38Z	2016-10-20T21:09:52Z		deps: cherry-pick bb4974d from v8 upstream	170		
+9191	5445507	true	closed	false	7		2016-10-19T19:46:03Z	2016-10-28T16:27:02Z	2016-10-28T16:27:02Z	process: reintroduce ares to versions	69		
+9192	1485909	true	closed	false	6		2016-10-19T20:45:38Z	2016-10-28T16:24:13Z	2016-10-28T16:24:13Z	deps: cherry-pick bb4974d from v8 upstream	170		
 9193	4421720	true	closed	false	1	4	2016-10-19T20:51:00Z	2016-10-26T19:32:36Z	2016-10-26T19:32:36Z	doc: add 2016-10-19 CTC meeting minutes	30		
 9194	718899	true	closed	false	1		2016-10-19T21:29:29Z	2016-10-21T14:41:38Z	2016-10-21T14:41:38Z	tools: replace custom lint rule for getter/setter	44		
-9195	677994	true	open	false	9		2016-10-19T21:33:22Z	2016-10-25T13:23:04Z		http: add debug message for invalid header value	75		
+9195	677994	true	closed	false	11		2016-10-19T21:33:22Z	2016-10-28T16:20:38Z	2016-10-28T16:20:38Z	http: add debug message for invalid header value	75		
 9196	275871	true	open	false			2016-10-19T21:54:28Z	2016-10-24T20:47:53Z		module: skip directories known not to exist	173		
 9197	718899	true	closed	false	3		2016-10-19T23:03:06Z	2016-10-21T23:27:30Z	2016-10-21T23:27:30Z	test: remove arbitrary timer	59		
 9198	718899	true	closed	false	4	0	2016-10-20T00:09:42Z	2016-10-21T23:30:00Z	2016-10-21T23:30:00Z	test: fix flaky test-timers-blocking-callback	128		
@@ -2374,7 +2376,7 @@
 9229	899444	true	open	false	8		2016-10-21T21:05:29Z	2016-10-26T16:17:55Z		test: check that `process.execPath` is a realpath	47		
 9230	4481528	true	open	false			2016-10-21T22:06:46Z	2016-10-22T06:45:35Z		querystring: name anonymous functions	37		
 9231	8248574	true	closed	false	5		2016-10-21T22:54:52Z	2016-10-26T04:42:11Z	2016-10-26T04:42:11Z	test: clean up `test-child-process-exec-cwd.js`	50		
-9232	68368	true	open	false	4		2016-10-21T23:24:48Z	2016-10-26T19:30:05Z		build: use wxneeded on openbsd	58		
+9232	68368	true	open	false	5		2016-10-21T23:24:48Z	2016-10-28T16:12:34Z		build: use wxneeded on openbsd	58		
 9233	287917	true	closed	false	1	0	2016-10-21T23:25:20Z	2016-10-24T16:15:31Z	2016-10-24T16:15:31Z	inspector: do not dereference null pointer	49		
 9234	855219	true	open	false	17		2016-10-22T00:00:47Z	2016-10-28T15:26:17Z		Icu4c 58	85		
 9235	7606483	true	closed	false	2	0	2016-10-22T00:59:48Z	2016-10-24T14:07:42Z	2016-10-24T14:07:42Z	doc: fixes formatting in process	45		
@@ -2416,12 +2418,12 @@
 9271	103052	true	open	false	0	0	2016-10-25T13:29:11Z	2016-10-25T13:29:11Z		v8: name all anonymous functions	46		
 9272	234659	true	open	false	3		2016-10-25T15:05:26Z	2016-10-26T21:15:01Z		inspector: add contexts when using vm module	69		
 9273	15859454	false	open	false	0		2016-10-25T16:44:33Z	2016-10-25T17:59:02Z		Mapping files in Chrome Workspaces	186		
-9274	2643044	false	open	false	27		2016-10-25T18:04:18Z	2016-10-28T07:38:41Z		Native class of `global` changed in Node v7	123		
+9274	2643044	false	open	false	28		2016-10-25T18:04:18Z	2016-10-28T16:13:49Z		Native class of `global` changed in Node v7	123		
 9275	15067568	true	open	false	0		2016-10-25T18:35:23Z	2016-10-25T19:06:24Z		socket.end() can take a callback function	182		
 9276	15935886	false	closed	false	2		2016-10-25T19:51:22Z	2016-10-25T21:54:17Z	2016-10-25T20:36:54Z	Warning: node-7.0.0 already installed, it's just not linked	68		
 9277	11913695	true	open	false	0	0	2016-10-25T20:07:26Z	2016-10-25T20:07:26Z		Fix outdated links	26		
 9278	11913695	true	open	false			2016-10-25T20:10:41Z	2016-10-25T21:44:28Z		Fix outdated links	42		
-9279	899444	true	open	false	20		2016-10-25T20:23:33Z	2016-10-26T18:23:25Z		lib: make `String(global) === '[object global]'`	58		
+9279	899444	true	open	false	20		2016-10-25T20:23:33Z	2016-10-28T16:11:35Z		lib: make `String(global) === '[object global]'`	58		
 9280	275871	true	closed	false	2		2016-10-25T20:29:33Z	2016-10-25T23:44:54Z	2016-10-25T23:44:54Z	src: fix use of uninitialized variable	14		
 9281	439929	true	open	false	1		2016-10-25T21:55:56Z	2016-10-28T14:51:42Z		src: fix use of uninitialized variable	65		
 9282	354349	false	open	false	0		2016-10-25T22:39:22Z	2016-10-25T22:39:22Z		node does not process HTTP informational responses correctly	336		
@@ -2431,10 +2433,10 @@
 9286	17535	true	open	false	5		2016-10-26T00:24:34Z	2016-10-26T17:32:02Z		deps: upgrade npm to 3.10.9	167		
 9287	12198249	false	open	false	0		2016-10-26T06:14:08Z	2016-10-26T06:14:08Z		Edge.JS Could not load file or assembly or one of its dependencies	110		
 9288	18531045	false	open	false	1		2016-10-26T06:57:02Z	2016-10-26T11:36:49Z		inheritance of C/C++ Addons doesn't work	101		
-9289	1889843	true	open	false	1		2016-10-26T07:48:13Z	2016-10-26T08:14:06Z		buffer: use correct name for custom inspect symbol	54		
+9289	1889843	true	closed	false	1		2016-10-26T07:48:13Z	2016-10-28T16:09:23Z	2016-10-28T16:09:23Z	buffer: use correct name for custom inspect symbol	54		
 9290	11976448	true	open	false	4		2016-10-26T09:39:22Z	2016-10-26T21:15:54Z		test: favor `===` over  `==` in fs-utimes	27		
 9291	22879652	true	open	false	0	0	2016-10-26T11:23:45Z	2016-10-26T11:23:45Z		nodej js project	47		
-9292	11976448	true	open	false	1		2016-10-26T11:44:41Z	2016-10-26T20:23:04Z		test: expand test coverage for url.js	78		
+9292	11976448	true	open	false	4		2016-10-26T11:44:41Z	2016-10-28T16:06:26Z		test: expand test coverage for url.js	78		
 9293	275871	true	open	false			2016-10-26T12:03:46Z	2016-10-26T16:51:44Z		v8: fix new.target inheritance from c++	38		
 9294	129203	true	open	false	0	0	2016-10-26T12:44:11Z	2016-10-26T12:44:11Z		doc: fix broken links to Buffer.from(string)	59		
 9295	984628	false	closed	false	5		2016-10-26T15:27:29Z	2016-10-27T14:21:51Z	2016-10-27T13:12:33Z	DOS: js expression make nodejs crash	112		
@@ -2446,7 +2448,7 @@
 9301	5454763	false	closed	false	5		2016-10-26T21:34:56Z	2016-10-27T15:48:44Z	2016-10-26T22:20:41Z	() => {}.bind(this) is not parsed correctly	73		
 9302	170197	false	open	false	0		2016-10-26T21:44:13Z	2016-10-26T21:44:13Z		WHATWG URLSearchParams issue	12		
 9303	718899	true	open	false	1		2016-10-26T22:49:47Z	2016-10-26T23:05:58Z		test: fix flaky test-fs-watch-recursive on OS X	127		
-9304	1485909	true	open	false			2016-10-26T23:53:35Z	2016-10-28T03:51:52Z		Trace event support for Node.js	425		
+9304	1485909	true	open	false			2016-10-26T23:53:35Z	2016-10-28T17:00:04Z		Trace event support for Node.js	425		
 9305	718899	true	open	false			2016-10-26T23:56:36Z	2016-10-28T15:24:07Z		test: run all of test-timers-blocking-callback	58		
 9306	110455	true	open	false	3		2016-10-27T00:17:55Z	2016-10-28T13:36:26Z		process: maintain constructor descriptor	74		
 9307	2512748	true	open	false	1		2016-10-27T02:51:24Z	2016-10-28T08:26:48Z		test: add child_process customFds test	48		
@@ -2462,6 +2464,7 @@
 9317	718899	true	open	false	4		2016-10-27T13:34:52Z	2016-10-28T08:12:10Z		test: fix freebsd10-64 CI failures	181		
 9318	988441	true	open	false			2016-10-27T17:52:09Z	2016-10-28T14:47:26Z		docs: clarify eventType in fs.watch	38		
 9319	1165845	false	open	false	0		2016-10-27T17:52:57Z	2016-10-27T17:52:57Z		NodeJS pbkdf2Sync password hasing portability from v0.12.7 to v6.9.1	29		
+9320	17457357	false	open	false	1		2016-10-27T18:13:23Z	2016-10-28T16:32:35Z		Incorrect handling registration of subscribers in the EventListener	157		
 9321	4496783	false	closed	false	5		2016-10-27T18:17:43Z	2016-10-27T19:25:35Z	2016-10-27T19:25:35Z	"http creates and uses local domain socket when given a ""host:port"" string"	83		
 9322	2512748	true	open	false	1		2016-10-27T18:40:17Z	2016-10-28T15:27:47Z		child_process: add public API for IPC channel	90		
 9323	276876	true	open	false	5		2016-10-27T19:24:21Z	2016-10-27T21:05:17Z		"Updated reference to signal list in ""signal events"" section "	17		
@@ -2471,9 +2474,9 @@
 9327	627123	false	open	false	1		2016-10-27T20:43:20Z	2016-10-27T21:03:34Z		OpenSSL Doc Links	82		
 9328	855219	false	open	false	0		2016-10-27T21:33:14Z	2016-10-27T21:33:14Z		doc: update collaborator_guide to mention core-validate-commit	11		
 9329	4421720	true	open	false			2016-10-27T21:36:15Z	2016-10-28T14:19:51Z		doc: update Diag WG info	35		
-9330	2512748	true	open	false	1		2016-10-27T21:41:27Z	2016-10-28T03:26:04Z		events: remove unnecessary checks	72		
+9330	2512748	true	open	false	2		2016-10-27T21:41:27Z	2016-10-28T16:56:36Z		events: remove unnecessary checks	72		
 9331	54666	false	open	false	0		2016-10-27T22:03:55Z	2016-10-27T22:03:55Z		doc: buffer TOC incorrectly contains brackets	82		
-9332	495647	true	open	false	0	0	2016-10-28T05:27:10Z	2016-10-28T05:27:10Z		cares: sync with upstream, fully adopt v1.12.0	60		
+9332	495647	true	open	false	2		2016-10-28T05:27:10Z	2016-10-28T16:16:52Z		cares: sync with upstream, fully adopt v1.12.0	60		
 9333	14316093	false	closed	false	3		2016-10-28T08:10:06Z	2016-10-28T10:04:24Z	2016-10-28T10:04:24Z	First day and last day in a month not behaving like in the browser. (Date object)	124		
 9334	432351	true	closed	false	8		2016-10-28T08:41:04Z	2016-10-28T11:01:47Z	2016-10-28T11:00:09Z	test: fix lint error regarding unused commons const	59		
 9335	15943089	true	open	false	0	0	2016-10-28T10:19:12Z	2016-10-28T10:19:12Z		test: fix minor stream-writableState linter error	56		
