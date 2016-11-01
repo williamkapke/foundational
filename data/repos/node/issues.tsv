@@ -549,7 +549,7 @@
 7373	899444	true	closed	false	11		2016-06-22T21:56:07Z	2016-07-11T23:48:06Z	2016-06-25T03:58:34Z	vm: fix nested timeouts with inverse order + fix flaky test-vm-timeout	126		
 7374	275871	true	closed	false	6		2016-06-22T22:33:09Z	2016-07-11T21:17:56Z	2016-06-29T10:23:11Z	Coverity fixes, round one	7		
 7375	718899	true	closed	false	9		2016-06-22T23:25:18Z	2016-07-12T03:02:35Z	2016-06-24T23:35:01Z	test: add test for exec() known issue	42		
-7376	205760	true	open	false	24		2016-06-22T23:51:37Z	2016-10-19T19:09:36Z		"Add test for HTTP client ""aborted"" event"	69		
+7376	205760	true	open	false	25		2016-06-22T23:51:37Z	2016-11-01T19:42:57Z		"Add test for HTTP client ""aborted"" event"	69		
 7377	718899	true	closed	false	4		2016-06-22T23:54:14Z	2016-06-30T23:07:02Z	2016-06-30T23:07:02Z	"Revert ""child_process: measure buffer length in bytes"""	100		
 7378	1386719	true	closed	false	8	2	2016-06-23T00:08:40Z	2016-06-27T15:29:28Z	2016-06-27T15:29:28Z	Http: Improve `finish()` callback and code legibility (Fixes #7295)	133		
 7379	170270	false	closed	false	12		2016-06-23T00:25:56Z	2016-09-30T18:37:30Z	2016-08-17T18:25:16Z	Readline keypress event is triggered only after pressing Esc key 3 times	110		
@@ -785,7 +785,7 @@
 7632	275871	true	closed	false	14		2016-07-09T15:01:20Z	2016-07-15T17:22:08Z	2016-07-11T13:09:56Z	deps: cherry-pick d721121 from v8 upstream	28		
 7633	275871	true	closed	false	3	0	2016-07-09T15:07:31Z	2016-07-18T20:15:56Z	2016-07-18T20:15:55Z	deps: back-port d721121 from v8 upstream (v6.x)	28		
 7634	17186793	true	open	false	1		2016-07-09T15:42:14Z	2016-07-09T16:34:25Z		Propose v6.3.0	38		
-7635	1216425	true	open	false	4		2016-07-09T15:53:15Z	2016-11-01T19:00:06Z		Micro refactoring sigintHandlersWrap method	73		
+7635	1216425	true	open	false	6		2016-07-09T15:53:15Z	2016-11-01T19:20:52Z		Micro refactoring sigintHandlersWrap method	73		
 7636	1216425	true	closed	false	4		2016-07-09T16:14:21Z	2016-10-17T10:36:30Z	2016-10-17T09:12:27Z	Remove extra if and else chain	78		
 7637	291301	true	closed	false	8		2016-07-09T16:28:19Z	2016-09-30T16:14:43Z	2016-07-14T09:34:43Z	doc: various documentation formatting fixes	111		
 7638	101553	true	closed	false	35		2016-07-09T18:05:57Z	2016-10-20T01:27:42Z	2016-07-21T22:28:48Z	Cherry-pick patch from V8 upstream that fixes instanceof problem	47		
@@ -2210,7 +2210,7 @@
 9059	7273940	true	closed	false	0	0	2016-10-12T13:51:41Z	2016-10-13T09:36:15Z	2016-10-13T09:36:15Z	http: name anonymous functions in _http_outgoing	15		
 9060	7273940	true	open	false	3		2016-10-12T13:51:53Z	2016-10-13T09:36:58Z		http: name anonymous functions in _http_server	15		
 9061	54666	false	closed	false	3		2016-10-12T16:02:25Z	2016-10-17T15:59:05Z	2016-10-17T15:59:05Z	benchmark: 'NA' appended to filename in compare.R output	62		
-9062	13561163	true	open	false	9		2016-10-12T18:24:38Z	2016-11-01T18:58:50Z		change for a deprecated method: SetNamedPropertyHandler() to SetHandler()	90		
+9062	13561163	true	closed	false	11	4	2016-10-12T18:24:38Z	2016-11-01T19:23:31Z	2016-11-01T19:23:31Z	change for a deprecated method: SetNamedPropertyHandler() to SetHandler()	90		
 9063	3442602	false	open	false	6		2016-10-12T18:41:21Z	2016-10-13T18:23:57Z		assert.js rule 7.4 (similar to CJS rule 7.3)	241		
 9064	505333	true	closed	false	8		2016-10-12T18:47:06Z	2016-10-18T07:17:04Z	2016-10-17T15:59:31Z	Benchmark fixes	178		
 9065	13483453	true	closed	false	3	17	2016-10-12T20:17:30Z	2016-10-17T16:04:13Z	2016-10-17T16:04:13Z	doc: better example for http.get	206		
@@ -2427,7 +2427,7 @@
 9276	15935886	false	closed	false	2		2016-10-25T19:51:22Z	2016-10-25T21:54:17Z	2016-10-25T20:36:54Z	Warning: node-7.0.0 already installed, it's just not linked	68		
 9277	11913695	true	open	false	0	0	2016-10-25T20:07:26Z	2016-10-25T20:07:26Z		Fix outdated links	26		
 9278	11913695	true	open	false			2016-10-25T20:10:41Z	2016-10-25T21:44:28Z		Fix outdated links	42		
-9279	899444	true	open	false	24		2016-10-25T20:23:33Z	2016-11-01T18:41:58Z		lib: make `String(global) === '[object global]'`	58		
+9279	899444	true	open	false	26		2016-10-25T20:23:33Z	2016-11-01T19:17:37Z		lib: make `String(global) === '[object global]'`	58		
 9280	275871	true	closed	false	2		2016-10-25T20:29:33Z	2016-10-25T23:44:54Z	2016-10-25T23:44:54Z	src: fix use of uninitialized variable	14		
 9281	439929	true	closed	false	3	1	2016-10-25T21:55:56Z	2016-10-28T20:00:23Z	2016-10-28T20:00:23Z	src: fix use of uninitialized variable	65		
 9282	354349	false	open	false	0		2016-10-25T22:39:22Z	2016-10-25T22:39:22Z		node does not process HTTP informational responses correctly	336		
@@ -2442,7 +2442,7 @@
 9291	22879652	true	open	false	0	0	2016-10-26T11:23:45Z	2016-10-26T11:23:45Z		nodej js project	47		
 9292	11976448	true	open	false	6		2016-10-26T11:44:41Z	2016-10-28T18:01:14Z		test: expand test coverage for url.js	78		
 9293	275871	true	open	false			2016-10-26T12:03:46Z	2016-10-26T16:51:44Z		v8: fix new.target inheritance from c++	38		
-9294	129203	true	open	false	0	0	2016-10-26T12:44:11Z	2016-10-26T12:44:11Z		doc: fix broken links to Buffer.from(string)	59		
+9294	129203	true	closed	false	1		2016-10-26T12:44:11Z	2016-11-01T19:20:57Z	2016-11-01T19:20:57Z	doc: fix broken links to Buffer.from(string)	59		
 9295	984628	false	closed	false	5		2016-10-26T15:27:29Z	2016-10-27T14:21:51Z	2016-10-27T13:12:33Z	DOS: js expression make nodejs crash	112		
 9296	275871	true	open	false	6		2016-10-26T16:48:39Z	2016-11-01T09:31:44Z		dns: implement {ttl: true} for dns.resolve4() and dns.resolve6()	127		
 9297	5034465	true	closed	false	6		2016-10-26T17:31:56Z	2016-10-28T17:38:49Z	2016-10-28T17:38:49Z	test: use 'strictEqual' instead of 'equal'	32		
@@ -2470,7 +2470,7 @@
 9319	1165845	false	open	false	0		2016-10-27T17:52:57Z	2016-10-27T17:52:57Z		NodeJS pbkdf2Sync password hasing portability from v0.12.7 to v6.9.1	29		
 9320	17457357	false	open	false	1		2016-10-27T18:13:23Z	2016-10-28T16:32:35Z		Incorrect handling registration of subscribers in the EventListener	157		
 9321	4496783	false	closed	false	5		2016-10-27T18:17:43Z	2016-10-27T19:25:35Z	2016-10-27T19:25:35Z	"http creates and uses local domain socket when given a ""host:port"" string"	83		
-9322	2512748	true	open	false	11		2016-10-27T18:40:17Z	2016-11-01T16:01:37Z		child_process: add public API for IPC channel	89		
+9322	2512748	true	open	false	12		2016-10-27T18:40:17Z	2016-11-01T19:39:49Z		child_process: add public API for IPC channel	89		
 9323	276876	true	open	false	5		2016-10-27T19:24:21Z	2016-10-27T21:05:17Z		"Updated reference to signal list in ""signal events"" section "	17		
 9324	373545	false	open	false	0		2016-10-27T20:20:32Z	2016-10-28T06:59:01Z		Inaccurate https.request options docs	391		
 9325	4421720	true	closed	false	2	0	2016-10-27T20:29:14Z	2016-10-31T19:12:30Z	2016-10-31T19:12:30Z	doc: add 2016-09-28 CTC meeting minutes	46	4421720	2016-10-31T19:12:30Z
@@ -2491,7 +2491,7 @@
 9340	627123	true	open	false			2016-10-28T13:32:53Z	2016-10-28T15:17:16Z		doc: adding tls.createServer secureOptions section	33		
 9341	2512748	true	open	false	11		2016-10-28T14:41:11Z	2016-10-30T12:46:23Z		buffer: coerce offset using Math.floor()	95		
 9342	65633	false	open	false	0		2016-10-28T17:25:22Z	2016-10-28T17:25:22Z		`node-crc` failing on node 6.x only	429		
-9343	2512748	true	open	false	0	0	2016-10-28T18:07:49Z	2016-10-28T18:07:49Z		child_process: remove extra newline in errors	100		
+9343	2512748	true	open	false	1		2016-10-28T18:07:49Z	2016-11-01T19:33:56Z		child_process: remove extra newline in errors	100		
 9344	718899	true	open	false	2		2016-10-28T18:25:22Z	2016-11-01T05:36:19Z		test: refactor test-http-client-readable	71		
 9345	2289	true	open	false	1		2016-10-28T18:29:56Z	2016-10-28T22:31:16Z		doc: add more internal links to fs.Stats object	69		
 9346	62191	false	closed	false	5		2016-10-28T20:26:58Z	2016-10-29T02:12:45Z	2016-10-29T02:12:45Z	DeprecationWarning: Calling an asynchronous function without callback is deprecated.	100		
@@ -2524,10 +2524,10 @@
 9373	11139560	false	open	false	0		2016-10-31T02:06:35Z	2016-10-31T02:06:35Z		incorrect/unexpected behavior in assert module	201		
 9374	718899	true	open	false	4		2016-10-31T04:36:24Z	2016-10-31T22:15:07Z		repl: refactor lib/repl.js	52		
 9375	696611	true	open	false	2		2016-10-31T12:13:16Z	2016-10-31T16:52:51Z		build: start comments at beginning of line	70		
-9376	495647	true	open	false	0	0	2016-10-31T13:03:05Z	2016-10-31T13:03:05Z		crypto: initial LibreSSL support (WIP)	730		
+9376	495647	true	open	false	0		2016-10-31T13:03:05Z	2016-11-01T19:08:10Z		crypto: initial LibreSSL support (WIP)	730		
 9377	7402787	false	open	false	13		2016-10-31T13:32:55Z	2016-11-01T17:20:29Z		Error: Cannot find module 'internal/fs' when npm install on mac	102		
 9378	3973850	false	open	false	13		2016-10-31T13:37:45Z	2016-11-01T11:37:26Z		readdirSync of drive letter lists items of cwd	107		
-9379	1573141	true	open	false			2016-10-31T14:10:42Z	2016-11-01T17:10:02Z		doc: fs: fix link to mkdtemp	39		
+9379	1573141	true	closed	false	3		2016-10-31T14:10:42Z	2016-11-01T19:09:16Z	2016-11-01T19:09:16Z	doc: fs: fix link to mkdtemp	39		
 9380	900690	false	open	false	5		2016-10-31T15:27:32Z	2016-11-01T01:19:50Z		fs.writeFile() removes execute permissions from file	135		
 9381	696611	false	open	false	8		2016-10-31T15:36:18Z	2016-10-31T22:25:13Z		code highlight slightly misaligned	45		
 9382	541359	false	open	false	6		2016-10-31T16:26:40Z	2016-10-31T21:20:26Z		node --inspect: dev tools console not working	86		
@@ -2539,7 +2539,7 @@
 9388	103052	true	open	false			2016-10-31T22:39:22Z	2016-11-01T16:48:52Z		vm: name anonymous functions	39		
 9389	103052	true	open	false	0	0	2016-10-31T23:14:40Z	2016-10-31T23:14:40Z		zlib: name every function	36		
 9390	5234060	false	open	false	2		2016-11-01T04:02:16Z	2016-11-01T18:26:03Z		"Why listening ""::"" (all IPv6) also get ""0.0.0.0""(all IPv4) listened?"	162		
-9391	911174	false	open	false	12		2016-11-01T04:30:10Z	2016-11-01T18:32:27Z		Push rebased PRs before merging	145		
+9391	911174	false	open	false	12		2016-11-01T04:30:10Z	2016-11-01T19:02:04Z		Push rebased PRs before merging	145		
 9392	718899	false	open	false	0		2016-11-01T05:47:37Z	2016-11-01T05:47:37Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-11-02	478		
 9393	577562	true	open	false	0	0	2016-11-01T07:10:23Z	2016-11-01T07:10:23Z		v8: update make-v8.sh to use git	49		
 9394	10074113	false	open	false	0		2016-11-01T11:12:26Z	2016-11-01T11:12:26Z		fs.watch on windows prevents directory being deleted cleanly	124		
@@ -2548,5 +2548,8 @@
 9397	103052	true	open	false	1		2016-11-01T11:49:01Z	2016-11-01T13:03:18Z		tls: name every function	39		
 9398	2633065	true	open	false	3		2016-11-01T12:27:12Z	2016-11-01T17:48:44Z		crypto: return this in setAuthTag/setAAD	40		
 9399	2512748	false	open	false	0		2016-11-01T15:53:35Z	2016-11-01T15:53:35Z		doc: add data types to properties	54		
-9400	11139560	false	open	false	1		2016-11-01T16:46:00Z	2016-11-01T17:28:41Z		old flags for previous node versions should result in no-op, not error	145		
-9401	643344	false	open	false	3		2016-11-01T17:09:46Z	2016-11-01T18:49:30Z		async/await: Support .catch only, on await lines.	110		
+9400	11139560	false	open	false	4		2016-11-01T16:46:00Z	2016-11-01T19:24:29Z		old flags for previous node versions should result in no-op, not error (?)	145		
+9401	643344	false	open	false	5		2016-11-01T17:09:46Z	2016-11-01T19:15:02Z		async/await: Support .catch only, on await lines.	110		
+9402	115237	false	open	false	0		2016-11-01T19:05:09Z	2016-11-01T19:05:09Z		Consistent trailing newlines	71		
+9403	1093990	false	open	false	0		2016-11-01T19:51:11Z	2016-11-01T19:51:11Z		"""write after end"" error when stdout was end()-ed"	101		
+9404	4421720	true	open	false	0	0	2016-11-01T19:58:57Z	2016-11-01T19:58:57Z		src: fix LTTNG tracepoint macros	63		
