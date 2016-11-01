@@ -125,7 +125,7 @@
 3591	26678	false	open	false	40		2015-10-29T19:35:30Z	2016-10-28T15:28:48Z		"multiple headers of the ""same name"" allowed in http"	41		
 3596	125177	false	closed	false	19		2015-10-29T23:54:22Z	2016-10-01T03:45:06Z	2016-06-07T19:43:30Z	detached child_process doesn't inherit stdio	76		
 3604	13315	false	open	false	13		2015-10-30T14:21:10Z	2016-07-21T09:02:46Z		a simple script to crash Node.js with an assertion failure: (loop->watchers[w->fd] == w)	66		
-3606	170197	false	open	false	61		2015-10-30T14:47:16Z	2016-10-14T13:34:05Z		Error: Cannot find module './lib'	31		
+3606	170197	false	open	false	62		2015-10-30T14:47:16Z	2016-11-01T21:39:41Z		Error: Cannot find module './lib'	31		
 3688	1514495	false	closed	false	6		2015-11-06T07:25:54Z	2016-09-05T16:30:10Z	2015-11-06T16:21:29Z	Enable Vtune profiling support for JavaScript to provide source code level profiling in Nodejs 	195		
 3692	8949910	false	open	false	119		2015-11-06T16:05:41Z	2016-09-14T23:21:21Z		HTTP/HTTPS client requests throwing EPROTO	60		
 3715	4831315	false	open	false	12		2015-11-08T23:39:16Z	2016-09-07T07:07:16Z		GC segfault	65		
@@ -2452,7 +2452,7 @@
 9301	5454763	false	closed	false	6		2016-10-26T21:34:56Z	2016-11-01T01:30:16Z	2016-10-26T22:20:41Z	() => {}.bind(this) is not parsed correctly	59		
 9302	170197	false	open	false	0		2016-10-26T21:44:13Z	2016-10-26T21:44:13Z		WHATWG URLSearchParams issue	12		
 9303	718899	true	closed	false	4		2016-10-26T22:49:47Z	2016-10-29T00:11:07Z	2016-10-29T00:11:07Z	test: fix flaky test-fs-watch-recursive on OS X	127		
-9304	1485909	true	open	false			2016-10-26T23:53:35Z	2016-10-31T22:06:29Z		Trace event support for Node.js	428		
+9304	1485909	true	open	false	18		2016-10-26T23:53:35Z	2016-11-01T21:50:27Z		Trace event support for Node.js	428		
 9305	718899	true	closed	false	2		2016-10-26T23:56:36Z	2016-10-29T00:13:03Z	2016-10-29T00:13:02Z	test: run all of test-timers-blocking-callback	58		
 9306	110455	true	open	false	3		2016-10-27T00:17:55Z	2016-10-29T00:16:43Z		process: maintain constructor descriptor	74		
 9307	2512748	true	closed	false	1	0	2016-10-27T02:51:24Z	2016-10-29T17:35:47Z	2016-10-29T17:35:47Z	test: add child_process customFds test	48	2512748	2016-10-29T17:35:47Z
@@ -2489,10 +2489,10 @@
 9338	627123	true	open	false	2		2016-10-28T11:33:01Z	2016-11-01T18:38:42Z		doc: updating OpenSSL links	77		
 9339	349336	false	closed	false	16		2016-10-28T12:23:56Z	2016-11-01T15:16:33Z	2016-10-28T14:53:19Z	Memory leak in async/await	89		
 9340	627123	true	open	false			2016-10-28T13:32:53Z	2016-10-28T15:17:16Z		doc: adding tls.createServer secureOptions section	33		
-9341	2512748	true	open	false	11		2016-10-28T14:41:11Z	2016-10-30T12:46:23Z		buffer: coerce offset using Math.floor()	95		
+9341	2512748	true	open	false	12		2016-10-28T14:41:11Z	2016-11-01T21:27:12Z		buffer: coerce offset using Math.floor()	95		
 9342	65633	false	open	false	0		2016-10-28T17:25:22Z	2016-10-28T17:25:22Z		`node-crc` failing on node 6.x only	429		
 9343	2512748	true	open	false	1		2016-10-28T18:07:49Z	2016-11-01T19:33:56Z		child_process: remove extra newline in errors	100		
-9344	718899	true	open	false	3		2016-10-28T18:25:22Z	2016-11-01T20:48:46Z		test: refactor test-http-client-readable	71		
+9344	718899	true	closed	false	5		2016-10-28T18:25:22Z	2016-11-01T21:21:38Z	2016-11-01T21:21:38Z	test: refactor test-http-client-readable	71		
 9345	2289	true	open	false	1		2016-10-28T18:29:56Z	2016-10-28T22:31:16Z		doc: add more internal links to fs.Stats object	69		
 9346	62191	false	closed	false	5		2016-10-28T20:26:58Z	2016-10-29T02:12:45Z	2016-10-29T02:12:45Z	DeprecationWarning: Calling an asynchronous function without callback is deprecated.	100		
 9347	21203	true	open	false			2016-10-28T20:32:42Z	2016-10-30T18:38:49Z		crypto: use SSL_get_servername.	125		
@@ -2505,7 +2505,7 @@
 9354	15938493	false	closed	false	1		2016-10-29T12:41:50Z	2016-10-29T19:55:49Z	2016-10-29T19:55:49Z	node-gyp error	159		
 9355	308049	false	closed	false	7		2016-10-29T13:37:14Z	2016-10-29T14:38:30Z	2016-10-29T14:38:30Z	node 7.0.0, MODULE_NOT_FOUND internal/fs during npm install	186		
 9356	1810178	true	open	false	1		2016-10-29T15:25:16Z	2016-10-29T21:44:27Z		name repl anonymous functions	66		
-9357	1810178	true	open	false			2016-10-29T15:57:40Z	2016-11-01T20:08:49Z		name net anonymous functions	66		
+9357	1810178	true	open	false	5		2016-10-29T15:57:40Z	2016-11-01T21:19:30Z		name net anonymous functions	66		
 9358	1466123	true	open	false	5		2016-10-29T20:23:31Z	2016-10-30T19:50:04Z		Backport fix for zlib inflation with custom dicts to 4.x	44		
 9359	718899	true	open	false	0	0	2016-10-29T21:16:35Z	2016-10-29T21:16:35Z		test: move timer-dependent test to sequential	76		
 9360	899444	true	open	false	7		2016-10-29T21:29:53Z	2016-10-31T02:19:39Z		test: remove timers from streams test	109		
@@ -2531,7 +2531,7 @@
 9380	900690	false	open	false	5		2016-10-31T15:27:32Z	2016-11-01T01:19:50Z		fs.writeFile() removes execute permissions from file	135		
 9381	696611	false	open	false	8		2016-10-31T15:36:18Z	2016-10-31T22:25:13Z		code highlight slightly misaligned	45		
 9382	541359	false	open	false	6		2016-10-31T16:26:40Z	2016-10-31T21:20:26Z		node --inspect: dev tools console not working	86		
-9383	12400507	true	open	false			2016-10-31T16:31:34Z	2016-11-01T16:56:00Z		child_process: add detached option to .exec()	61		
+9383	12400507	true	open	false	3		2016-10-31T16:31:34Z	2016-11-01T21:23:38Z		child_process: add detached option to .exec()	68		
 9384	13035517	false	open	false	0		2016-10-31T17:10:53Z	2016-10-31T17:10:53Z		cipher.setAutoPadding(false) causes empty ciphertext to be returned	135		
 9385	6487691	true	open	false	0	0	2016-10-31T18:37:52Z	2016-10-31T18:37:52Z		V4.x sharedlib	62		
 9386	1234972	true	open	false			2016-10-31T20:35:01Z	2016-11-01T00:04:07Z		http: make `globalAgent` of `http` and `https` as overridable properties	73		
@@ -2544,15 +2544,17 @@
 9393	577562	true	open	false	0	0	2016-11-01T07:10:23Z	2016-11-01T07:10:23Z		v8: update make-v8.sh to use git	49		
 9394	10074113	false	open	false	0		2016-11-01T11:12:26Z	2016-11-01T11:12:26Z		fs.watch on windows prevents directory being deleted cleanly	124		
 9395	2633065	true	open	false	0	0	2016-11-01T11:33:07Z	2016-11-01T11:33:07Z		crypto: use check macros in CipherBase::SetAuthTag	24		
-9396	7656167	true	open	false	3		2016-11-01T11:34:04Z	2016-11-01T16:09:30Z		doc: update COLLABORATOR_GUIDE and onboarding	43		
+9396	7656167	true	open	false			2016-11-01T11:34:04Z	2016-11-01T21:07:34Z		doc: update COLLABORATOR_GUIDE and onboarding	43		
 9397	103052	true	open	false	1		2016-11-01T11:49:01Z	2016-11-01T13:03:18Z		tls: name every function	39		
 9398	2633065	true	open	false	3		2016-11-01T12:27:12Z	2016-11-01T17:48:44Z		crypto: return this in setAuthTag/setAAD	40		
 9399	2512748	false	open	false	0		2016-11-01T15:53:35Z	2016-11-01T15:53:35Z		doc: add data types to properties	54		
-9400	11139560	false	open	false	5		2016-11-01T16:46:00Z	2016-11-01T20:39:28Z		old flags for previous node versions should result in no-op, not error (?)	145		
+9400	11139560	false	open	false	8		2016-11-01T16:46:00Z	2016-11-01T22:00:17Z		old flags for previous node versions should result in no-op, not error, for current version (?)	147		
 9401	643344	false	open	false	5		2016-11-01T17:09:46Z	2016-11-01T19:15:02Z		async/await: Support .catch only, on await lines.	110		
 9402	115237	false	open	false	3		2016-11-01T19:05:09Z	2016-11-01T20:14:27Z		Consistent trailing newlines	71		
-9403	1093990	false	open	false	0		2016-11-01T19:51:11Z	2016-11-01T19:51:11Z		"""write after end"" error when stdout was end()-ed"	101		
+9403	1093990	false	open	false	3		2016-11-01T19:51:11Z	2016-11-01T21:12:09Z		"""write after end"" error when stdout was end()-ed"	101		
 9404	4421720	true	open	false	0	0	2016-11-01T19:58:57Z	2016-11-01T19:58:57Z		src: fix LTTNG tracepoint macros	63		
 9405	2633065	true	open	false	0	0	2016-11-01T20:08:40Z	2016-11-01T20:08:40Z		crypto: throw error in CipherBase::SetAutoPadding	28		
-9406	11139560	false	open	false	0		2016-11-01T20:37:10Z	2016-11-01T20:37:10Z		util.inspect() should do check for string type	139		
-9407	5545186	false	open	false	0		2016-11-01T20:55:11Z	2016-11-01T20:55:11Z		http.request post method not responding with no error on callback	6		
+9406	11139560	false	open	false	1		2016-11-01T20:37:10Z	2016-11-01T21:59:29Z		util.inspect() should do check for string type	146		
+9407	5545186	false	closed	false	3		2016-11-01T20:55:11Z	2016-11-01T21:08:10Z	2016-11-01T21:08:10Z	http.request post method not responding with no error on callback	113		
+9408	718899	true	open	false	0	0	2016-11-01T21:43:48Z	2016-11-01T21:43:48Z		tools: enforce function name matching in linter	69		
+9409	21203	true	open	false	0	0	2016-11-01T21:46:53Z	2016-11-01T21:46:53Z		Certstore	240		
