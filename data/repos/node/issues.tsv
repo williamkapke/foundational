@@ -92,7 +92,7 @@
 2957	9373002	false	closed	false	6		2015-09-18T20:07:48Z	2016-09-23T22:59:50Z	2016-09-23T22:59:50Z	test-tick-processor failures on PPC	87		
 2982	170023	true	open	false	7		2015-09-21T14:10:33Z	2016-07-01T16:26:45Z		readline: add option to stop duplicates in history	161		
 2994	708850	false	open	false	9		2015-09-22T04:48:17Z	2016-09-08T23:20:56Z		Need a way to detect end of stream on custom Writable Streams implementing _write	78		
-3006	914122	false	closed	false	34		2015-09-22T15:57:31Z	2016-09-28T22:39:15Z	2016-03-22T06:28:03Z	Node.js doesn't run as tty on windows / cygwin	33		
+3006	914122	false	closed	false	36		2015-09-22T15:57:31Z	2016-11-01T16:57:07Z	2016-03-22T06:28:03Z	Node.js doesn't run as tty on windows / cygwin	33		
 3009	112555	false	closed	false	11		2015-09-22T19:15:53Z	2016-09-29T16:35:18Z	2016-04-09T05:21:32Z	Sending a body with a GET request using http.request cannot be received using http.server	235		
 3043	279099	false	closed	false	4		2015-09-24T06:30:04Z	2016-09-12T21:14:47Z	2016-09-12T21:14:47Z	Crypto library should have a constant-time equality function	27		
 3063	98899	true	closed	false	87		2015-09-25T17:01:14Z	2016-10-11T00:42:12Z	2016-07-15T17:38:59Z	timers: fix processing of nested same delay timers	21		
@@ -2469,7 +2469,7 @@
 9319	1165845	false	open	false	0		2016-10-27T17:52:57Z	2016-10-27T17:52:57Z		NodeJS pbkdf2Sync password hasing portability from v0.12.7 to v6.9.1	29		
 9320	17457357	false	open	false	1		2016-10-27T18:13:23Z	2016-10-28T16:32:35Z		Incorrect handling registration of subscribers in the EventListener	157		
 9321	4496783	false	closed	false	5		2016-10-27T18:17:43Z	2016-10-27T19:25:35Z	2016-10-27T19:25:35Z	"http creates and uses local domain socket when given a ""host:port"" string"	83		
-9322	2512748	true	open	false			2016-10-27T18:40:17Z	2016-11-01T15:11:26Z		child_process: add public API for IPC channel	89		
+9322	2512748	true	open	false	11		2016-10-27T18:40:17Z	2016-11-01T16:01:37Z		child_process: add public API for IPC channel	89		
 9323	276876	true	open	false	5		2016-10-27T19:24:21Z	2016-10-27T21:05:17Z		"Updated reference to signal list in ""signal events"" section "	17		
 9324	373545	false	open	false	0		2016-10-27T20:20:32Z	2016-10-28T06:59:01Z		Inaccurate https.request options docs	391		
 9325	4421720	true	closed	false	2	0	2016-10-27T20:29:14Z	2016-10-31T19:12:30Z	2016-10-31T19:12:30Z	doc: add 2016-09-28 CTC meeting minutes	46	4421720	2016-10-31T19:12:30Z
@@ -2530,20 +2530,21 @@
 9380	900690	false	open	false	5		2016-10-31T15:27:32Z	2016-11-01T01:19:50Z		fs.writeFile() removes execute permissions from file	135		
 9381	696611	false	open	false	8		2016-10-31T15:36:18Z	2016-10-31T22:25:13Z		code highlight slightly misaligned	45		
 9382	541359	false	open	false	6		2016-10-31T16:26:40Z	2016-10-31T21:20:26Z		node --inspect: dev tools console not working	86		
-9383	12400507	true	open	false	2		2016-10-31T16:31:34Z	2016-10-31T18:48:29Z		child_process: add detached option to .exec()	61		
+9383	12400507	true	open	false			2016-10-31T16:31:34Z	2016-11-01T16:56:00Z		child_process: add detached option to .exec()	61		
 9384	13035517	false	open	false	0		2016-10-31T17:10:53Z	2016-10-31T17:10:53Z		cipher.setAutoPadding(false) causes empty ciphertext to be returned	135		
 9385	6487691	true	open	false	0	0	2016-10-31T18:37:52Z	2016-10-31T18:37:52Z		V4.x sharedlib	62		
 9386	1234972	true	open	false			2016-10-31T20:35:01Z	2016-11-01T00:04:07Z		http: make `globalAgent` of `http` and `https` as overridable properties	73		
 9387	1761758	false	closed	false	2		2016-10-31T21:37:44Z	2016-11-01T09:16:16Z	2016-11-01T09:16:16Z	Feature request: Cancel all timeouts	160		
-9388	103052	true	open	false	0	0	2016-10-31T22:39:22Z	2016-10-31T22:39:22Z		vm: name anonymous functions	39		
+9388	103052	true	open	false			2016-10-31T22:39:22Z	2016-11-01T16:48:52Z		vm: name anonymous functions	39		
 9389	103052	true	open	false	0	0	2016-10-31T23:14:40Z	2016-10-31T23:14:40Z		zlib: name every function	36		
 9390	5234060	false	open	false	1		2016-11-01T04:02:16Z	2016-11-01T09:05:48Z		"Why listening ""::"" (all IPv6) also get ""0.0.0.0""(all IPv4) listened?"	162		
-9391	911174	false	open	false	5		2016-11-01T04:30:10Z	2016-11-01T15:05:50Z		Push rebased PRs before merging	145		
+9391	911174	false	open	false	11		2016-11-01T04:30:10Z	2016-11-01T16:01:25Z		Push rebased PRs before merging	145		
 9392	718899	false	open	false	0		2016-11-01T05:47:37Z	2016-11-01T05:47:37Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-11-02	478		
 9393	577562	true	open	false	0	0	2016-11-01T07:10:23Z	2016-11-01T07:10:23Z		v8: update make-v8.sh to use git	49		
 9394	10074113	false	open	false	0		2016-11-01T11:12:26Z	2016-11-01T11:12:26Z		fs.watch on windows prevents directory being deleted cleanly	124		
 9395	2633065	true	open	false	0	0	2016-11-01T11:33:07Z	2016-11-01T11:33:07Z		crypto: use check macros in CipherBase::SetAuthTag	24		
-9396	7656167	true	open	false	1		2016-11-01T11:34:04Z	2016-11-01T13:43:48Z		doc: update COLLABORATOR_GUIDE and onboarding to mention core-validat…	43		
+9396	7656167	true	open	false	3		2016-11-01T11:34:04Z	2016-11-01T16:09:30Z		doc: update COLLABORATOR_GUIDE and onboarding	43		
 9397	103052	true	open	false	1		2016-11-01T11:49:01Z	2016-11-01T13:03:18Z		tls: name every function	39		
 9398	2633065	true	open	false	2		2016-11-01T12:27:12Z	2016-11-01T15:12:59Z		crypto: return this in setAuthTag/setAAD	40		
 9399	2512748	false	open	false	0		2016-11-01T15:53:35Z	2016-11-01T15:53:35Z		doc: add data types to properties	54		
+9400	11139560	false	open	false	0		2016-11-01T16:46:00Z	2016-11-01T16:46:00Z		old flags for previous node versions should result in no-op, not error	109		
