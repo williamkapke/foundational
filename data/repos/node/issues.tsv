@@ -368,7 +368,7 @@
 6787	15952	true	closed	false	10		2016-05-16T16:55:31Z	2016-07-13T18:37:39Z	2016-05-20T10:46:41Z	build: Update build-addons when node-gyp changes.	99		
 6792	79017	true	closed	false	140		2016-05-16T20:27:18Z	2016-07-11T10:12:05Z	2016-05-30T16:12:40Z	Add v8_inspector support	530		
 6793	718899	true	closed	false	15		2016-05-16T20:58:19Z	2016-07-11T22:37:42Z	2016-05-24T20:45:06Z	test: improve debug-break-on-uncaught reliability	64		
-6798	54666	false	open	false	25		2016-05-17T01:22:45Z	2016-11-02T20:51:03Z		streams: Readable highWaterMark is measured in bytes *or* characters	103		
+6798	54666	false	open	false	26		2016-05-17T01:22:45Z	2016-11-02T22:04:08Z		streams: Readable highWaterMark is measured in bytes *or* characters	103		
 6802	13891170	false	open	false	12		2016-05-17T06:00:09Z	2016-07-21T14:44:54Z		REPL crashes after let process;	35		
 6804	52195	true	closed	false	33		2016-05-17T10:55:16Z	2016-07-12T17:31:26Z	2016-05-26T09:29:32Z	dgram: copy the array when using the list variant in send()	96		
 6816	1093990	true	closed	false	69		2016-05-17T17:00:53Z	2016-08-10T22:32:38Z	2016-08-10T22:32:38Z	tty: set the handle to blocking mode	79		
@@ -1707,7 +1707,7 @@
 8555	362089	false	closed	false	1		2016-09-15T23:22:40Z	2016-09-23T00:13:33Z	2016-09-23T00:13:33Z	vm: node crashes if timeout is set and nofile limit is reached	148		
 8556	3899684	true	open	false	1		2016-09-16T00:43:41Z	2016-10-07T19:55:16Z		doc, zlib: clarify zlib server example	103		
 8557	11638619	true	closed	false	3	0	2016-09-16T01:26:35Z	2016-09-18T02:13:20Z	2016-09-18T02:13:20Z	doc: remove extra comma in cluster docs	50		
-8558	718899	false	open	false	18		2016-09-16T04:03:32Z	2016-11-02T20:19:50Z		CTC membership nomination: @thefourtheye	242		
+8558	718899	false	closed	false	19		2016-09-16T04:03:32Z	2016-11-02T22:31:05Z	2016-11-02T22:31:05Z	CTC membership nomination: @thefourtheye	242		
 8559	718899	true	closed	false	2		2016-09-16T05:52:06Z	2016-09-19T04:39:16Z	2016-09-19T04:39:16Z	doc: update exercise portion of onboarding doc	25		
 8560	2542620	false	closed	false	2		2016-09-16T08:14:25Z	2016-09-18T06:51:33Z	2016-09-16T08:21:37Z	Node js gives No such file or directory if the CPU version is incorrect	60		
 8561	16976667	false	open	false	0		2016-09-16T10:07:59Z	2016-09-16T10:07:59Z		Getting error in open	76		
@@ -2423,12 +2423,12 @@
 9271	103052	true	open	false	0	0	2016-10-25T13:29:11Z	2016-10-25T13:29:11Z		v8: name all anonymous functions	46		
 9272	234659	true	open	false			2016-10-25T15:05:26Z	2016-10-30T09:40:05Z		inspector: add contexts when using vm module	70		
 9273	15859454	false	open	false	0		2016-10-25T16:44:33Z	2016-10-25T17:59:02Z		Mapping files in Chrome Workspaces	186		
-9274	2643044	false	open	false	36		2016-10-25T18:04:18Z	2016-10-28T19:12:02Z		Native class of `global` changed in Node v7	123		
+9274	2643044	false	closed	false	37		2016-10-25T18:04:18Z	2016-11-02T22:27:24Z	2016-11-02T22:27:24Z	Native class of `global` changed in Node v7	123		
 9275	15067568	true	open	false	0		2016-10-25T18:35:23Z	2016-10-25T19:06:24Z		socket.end() can take a callback function	182		
 9276	15935886	false	closed	false	2		2016-10-25T19:51:22Z	2016-10-25T21:54:17Z	2016-10-25T20:36:54Z	Warning: node-7.0.0 already installed, it's just not linked	68		
 9277	11913695	true	open	false	0	0	2016-10-25T20:07:26Z	2016-10-25T20:07:26Z		Fix outdated links	26		
 9278	11913695	true	closed	false	1		2016-10-25T20:10:41Z	2016-11-01T22:54:15Z	2016-11-01T22:54:15Z	Fix outdated links	42		
-9279	899444	true	open	false	33		2016-10-25T20:23:33Z	2016-11-02T20:57:13Z		lib: make `String(global) === '[object global]'`	60		
+9279	899444	true	open	false	34		2016-10-25T20:23:33Z	2016-11-02T22:25:09Z		lib: make `String(global) === '[object global]'`	60		
 9280	275871	true	closed	false	2		2016-10-25T20:29:33Z	2016-10-25T23:44:54Z	2016-10-25T23:44:54Z	src: fix use of uninitialized variable	14		
 9281	439929	true	closed	false	3	1	2016-10-25T21:55:56Z	2016-10-28T20:00:23Z	2016-10-28T20:00:23Z	src: fix use of uninitialized variable	65		
 9282	354349	false	open	false	0		2016-10-25T22:39:22Z	2016-10-25T22:39:22Z		node does not process HTTP informational responses correctly	336		
@@ -2532,7 +2532,7 @@
 9380	900690	false	open	false	5		2016-10-31T15:27:32Z	2016-11-01T01:19:50Z		fs.writeFile() removes execute permissions from file	135		
 9381	696611	false	open	false	8		2016-10-31T15:36:18Z	2016-10-31T22:25:13Z		code highlight slightly misaligned	45		
 9382	541359	false	open	false	7		2016-10-31T16:26:40Z	2016-11-02T12:04:30Z		node --inspect: dev tools console not working	86		
-9383	12400507	true	open	false			2016-10-31T16:31:34Z	2016-11-02T12:09:53Z		child_process: add detached option to .exec()	68		
+9383	12400507	true	open	false	7		2016-10-31T16:31:34Z	2016-11-02T22:01:47Z		child_process: add detached option to .exec()	68		
 9384	13035517	false	open	false	0		2016-10-31T17:10:53Z	2016-10-31T17:10:53Z		cipher.setAutoPadding(false) causes empty ciphertext to be returned	135		
 9385	6487691	true	open	false	3		2016-10-31T18:37:52Z	2016-11-02T16:22:44Z		Backport --shared to V4.x codebase to allow building as a shared library / DLL	62		
 9386	1234972	true	open	false	5		2016-10-31T20:35:01Z	2016-11-02T14:17:06Z		http: make `globalAgent` of `http` and `https` as overridable properties	86		
@@ -2542,10 +2542,10 @@
 9390	5234060	false	open	false	2		2016-11-01T04:02:16Z	2016-11-01T18:26:03Z		"Why listening ""::"" (all IPv6) also get ""0.0.0.0""(all IPv4) listened?"	162		
 9391	911174	false	open	false	15		2016-11-01T04:30:10Z	2016-11-01T20:40:51Z		Push rebased PRs before merging	145		
 9392	718899	false	open	false	6		2016-11-01T05:47:37Z	2016-11-02T19:12:17Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-11-02	478		
-9393	577562	true	open	false			2016-11-01T07:10:23Z	2016-11-02T10:53:47Z		v8: update make-v8.sh to use git	49		
+9393	577562	true	open	false			2016-11-01T07:10:23Z	2016-11-02T22:30:10Z		v8: update make-v8.sh to use git	49		
 9394	10074113	false	open	false	0		2016-11-01T11:12:26Z	2016-11-01T11:12:26Z		fs.watch on windows prevents directory being deleted cleanly	124		
 9395	2633065	true	open	false			2016-11-01T11:33:07Z	2016-11-02T14:24:32Z		crypto: use check macros in CipherBase::SetAuthTag	24		
-9396	7656167	true	open	false			2016-11-01T11:34:04Z	2016-11-02T08:27:49Z		doc: update COLLABORATOR_GUIDE and onboarding	43		
+9396	7656167	true	open	false			2016-11-01T11:34:04Z	2016-11-02T22:21:10Z		doc: update COLLABORATOR_GUIDE and onboarding	43		
 9397	103052	true	open	false	2		2016-11-01T11:49:01Z	2016-11-01T23:58:08Z		tls: name every function	39		
 9398	2633065	true	open	false	5		2016-11-01T12:27:12Z	2016-11-02T17:10:28Z		crypto: return this in setAuthTag/setAAD	47		
 9399	2512748	false	open	false	1		2016-11-01T15:53:35Z	2016-11-02T03:54:57Z		doc: add data types to properties	54		
@@ -2569,7 +2569,7 @@
 9417	3391470	false	closed	false	3		2016-11-02T17:09:47Z	2016-11-02T20:47:10Z	2016-11-02T17:12:07Z	wrong destructuring use with wrong error message	129		
 9418	23219482	false	closed	false	1		2016-11-02T17:59:24Z	2016-11-02T18:00:36Z	2016-11-02T18:00:36Z	npm pack failing in node 7	88		
 9419	4400726	false	open	false	14		2016-11-02T18:00:03Z	2016-11-02T21:10:30Z		Strange errors, segfaults when upgrading from v6.9.1 to v7.0.0	222		
-9420	718899	false	open	false	8		2016-11-02T18:19:03Z	2016-11-02T20:04:07Z		governance: nominating Michaël Zasso to the CTC	42		
+9420	718899	false	open	false	10		2016-11-02T18:19:03Z	2016-11-02T22:21:25Z		governance: nominating Michaël Zasso to the CTC	42		
 9421	157132	false	open	false	0		2016-11-02T18:20:18Z	2016-11-02T18:20:18Z		ERROR in Cannot find module './lib/api/node.js'	73		
 9422	4976075	true	open	false	0	0	2016-11-02T18:55:13Z	2016-11-02T18:55:13Z		deps: cherry-pick 5c8cb16 from upstream V8	48		
 9423	677994	false	open	false	0		2016-11-02T19:23:44Z	2016-11-02T19:23:44Z		v7.1.0 Release Proposal	44		
@@ -2578,4 +2578,4 @@
 9426	1093990	true	open	false	0	0	2016-11-02T19:40:18Z	2016-11-02T19:40:18Z		testing separate lts/current labels for backports	2		
 9427	495647	true	open	false	2		2016-11-02T20:43:01Z	2016-11-02T21:38:47Z		doc: add Sakthipriyan to the CTC	6		
 9428	4985028	false	open	false	1		2016-11-02T20:57:01Z	2016-11-02T21:37:12Z		Enable --dev-mod-res switch to better support development-time module storage and installs	1370		
-9429	13561163	false	open	false	0		2016-11-02T21:32:27Z	2016-11-02T21:32:27Z		properties created using Symbols in process.env are not intercepted 	45		
+9429	13561163	false	open	false	2		2016-11-02T21:32:27Z	2016-11-02T22:21:27Z		properties created using Symbols in process.env are not intercepted 	45		
