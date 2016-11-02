@@ -69,7 +69,7 @@
 2498	696611	true	closed	false	22		2015-08-22T20:07:00Z	2016-07-21T22:32:14Z	2016-07-21T22:32:14Z	fs: do basic arg validation of truncate in js	25		
 2521	885648	true	open	false	30		2015-08-24T08:36:14Z	2016-06-30T04:22:37Z		added CSI (\x9b) as additionally allowable escape	135		
 2534	4405297	true	open	false	87		2015-08-25T01:59:16Z	2016-08-08T12:58:00Z		http: fixed socket destruction, timeout and leaking	144		
-2546	9798949	false	closed	false	83		2015-08-25T19:16:53Z	2016-11-02T16:44:04Z	2016-06-02T17:53:08Z	Inspecting Node.js with Chrome DevTools	688		
+2546	9798949	false	closed	false	88		2015-08-25T19:16:53Z	2016-11-02T18:08:25Z	2016-06-02T17:53:08Z	Inspecting Node.js with Chrome DevTools	688		
 2569	13315	true	closed	false	27		2015-08-27T04:34:55Z	2016-09-30T16:14:04Z	2016-07-14T03:03:37Z	Add zh-CN i18n support for Windows installer	15		
 2571	153481	true	closed	false	47		2015-08-27T07:40:39Z	2016-08-09T22:05:24Z	2016-08-09T22:05:24Z	Refactor mac installer (Rebase of #776 against master)	13		
 2642	2645436	false	open	false	30		2015-09-02T06:06:18Z	2016-06-30T18:50:44Z		Keep alive connection do not get closed with server.close()	106		
@@ -228,7 +228,7 @@
 5426	1197375	false	closed	false	12		2016-02-25T00:33:42Z	2016-07-15T17:39:28Z	2016-07-15T17:39:28Z	setTimeout() introduces artificial delay between ticks when doing synchronous work	245		
 5436	17198363	false	closed	false	21		2016-02-25T13:57:35Z	2016-08-30T02:56:53Z	2016-02-27T13:41:42Z	"http.get returns ""getaddrinfo ENOTFOUND"" error"	231		
 5450	15943089	true	open	false	29		2016-02-26T12:44:41Z	2016-09-07T22:37:09Z		test: fix flaky tls-inception	43		
-5458	275871	true	closed	false	20	2	2016-02-26T21:01:17Z	2016-10-25T11:16:57Z	2016-10-25T11:16:57Z	src,tools: speed up startup by 2.5%	94		
+5458	275871	true	closed	false	20		2016-02-26T21:01:17Z	2016-11-02T18:18:15Z	2016-10-25T11:16:57Z	src,tools: speed up startup by 2.5%	94		
 5500	54666	true	closed	false	8		2016-03-01T02:05:24Z	2016-09-20T07:17:02Z	2016-03-18T02:35:33Z	doc: fix crypto update() signatures	85		
 5518	8213782	false	closed	false	2		2016-03-02T04:53:51Z	2016-08-14T08:51:57Z	2016-08-14T08:51:57Z	Cannot find module 'minimatch'	99		
 5549	122831	false	closed	false	1		2016-03-03T19:01:31Z	2016-10-12T17:39:50Z	2016-10-12T09:46:25Z	child_process.spawn will either exit or not control stdin when detached and using inherit	556		
@@ -1319,7 +1319,7 @@
 8166	439929	true	open	false	29		2016-08-18T19:15:57Z	2016-09-02T20:14:23Z		lib,fs: use process.emitWarning instead of internal print dep warning	103		
 8167	657552	false	closed	false	4		2016-08-18T19:48:09Z	2016-08-29T22:21:48Z	2016-08-29T22:21:48Z	TypeError: Forked processes must have an IPC channel	61		
 8168	2512748	true	closed	false	6		2016-08-18T20:31:47Z	2016-09-30T22:23:12Z	2016-09-09T23:54:42Z	test: exercise EE function type checking paths	60		
-8169	988441	true	closed	false	65		2016-08-18T20:52:01Z	2016-11-02T17:09:00Z	2016-08-25T18:04:43Z	buffer: hard-deprecate calling Buffer without new	59		
+8169	988441	true	closed	false	69		2016-08-18T20:52:01Z	2016-11-02T18:09:51Z	2016-08-25T18:04:43Z	buffer: hard-deprecate calling Buffer without new	59		
 8170	2512748	true	open	false	6		2016-08-18T21:30:38Z	2016-08-22T18:09:31Z		dns: lookupService() callback must be a function	179		
 8171	248374	true	closed	false	5		2016-08-18T22:02:29Z	2016-08-22T19:08:10Z	2016-08-22T18:05:21Z	build: add node_module_version to config.gypi	25		
 8172	88045	false	closed	false	5		2016-08-18T22:27:28Z	2016-08-23T18:29:50Z	2016-08-18T22:50:20Z	6.4.0 is linking against GLIBCXX_3.4.18 (libstdc++6 >=4.8)	533		
@@ -2407,7 +2407,7 @@
 9255	9373002	false	closed	false	4		2016-10-24T14:35:45Z	2016-10-27T16:54:10Z	2016-10-27T16:54:10Z	AIX: test-child-process-pass-fd.js processes still running	35		
 9256	8297234	false	closed	false	5		2016-10-24T14:55:17Z	2016-10-26T19:12:08Z	2016-10-26T19:12:08Z	parallel/test-http-set-timeout failing occasionally	56		
 9257	17607	true	closed	false	14	0	2016-10-24T15:59:34Z	2016-10-27T16:54:10Z	2016-10-27T16:54:10Z	test: prevent workers outliving parent	78	17607	2016-10-27T16:54:10Z
-9258	498775	true	open	false	2		2016-10-24T16:08:08Z	2016-11-02T17:26:33Z		tools: use long format for gpg fingerprint	116		
+9258	498775	true	open	false	2		2016-10-24T16:08:08Z	2016-11-02T18:40:18Z		tools: use long format for gpg fingerprint	116		
 9259	15943089	true	closed	false	4	14	2016-10-24T17:47:06Z	2016-10-28T10:10:15Z	2016-10-28T10:10:15Z	doc: update CONTRIBUTING.md to address editing PRs	161	15943089	2016-10-28T10:10:15Z
 9260	275871	true	closed	false	4		2016-10-24T18:27:55Z	2016-10-26T18:48:29Z	2016-10-25T18:22:23Z	Backport pr6184 v4.x	2		
 9261	718899	false	closed	false	19		2016-10-24T19:16:41Z	2016-10-28T14:51:10Z	2016-10-28T14:51:10Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-10-26	456		
@@ -2516,7 +2516,7 @@
 9364	242577	false	open	false	0		2016-10-30T01:48:50Z	2016-10-30T01:48:50Z		hash update fail	81		
 9365	718899	true	closed	false	1		2016-10-30T04:04:09Z	2016-11-02T05:11:09Z	2016-11-02T05:11:09Z	doc: move stray sentences in zlib doc	32		
 9366	718899	true	open	false	4		2016-10-30T06:25:28Z	2016-11-02T03:53:13Z		test: increase test coverage for lib/zlib.js	58		
-9367	17898715	false	open	false	2		2016-10-30T10:52:23Z	2016-10-30T12:26:41Z		Do not know why the pop-up a new window, is it a node bug	190		
+9367	17898715	false	open	false	4		2016-10-30T10:52:23Z	2016-11-02T18:25:42Z		Do not know why the pop-up a new window, is it a node bug	194		
 9368	495647	true	closed	false	1	0	2016-10-30T12:43:40Z	2016-10-31T11:48:12Z	2016-10-31T11:48:12Z	build: prioritise --shared-X-Y over pkg-config	52		
 9369	495647	true	closed	false	2		2016-10-30T12:47:43Z	2016-10-30T22:25:25Z	2016-10-30T22:25:25Z	crypto: bypass FIPS_mode if not compiled for FIPS	32		
 9370	1609163	false	open	false	1		2016-10-30T13:36:25Z	2016-10-30T16:25:36Z		node crashes on grunt-ts watch task when ts file change is detected	109		
@@ -2526,7 +2526,7 @@
 9374	718899	true	open	false	4		2016-10-31T04:36:24Z	2016-10-31T22:15:07Z		repl: refactor lib/repl.js	52		
 9375	696611	true	open	false	2		2016-10-31T12:13:16Z	2016-10-31T16:52:51Z		build: start comments at beginning of line	70		
 9376	495647	true	open	false	1		2016-10-31T13:03:05Z	2016-11-01T20:21:58Z		crypto: initial LibreSSL support (WIP)	730		
-9377	7402787	false	open	false	17		2016-10-31T13:32:55Z	2016-11-02T09:34:35Z		Error: Cannot find module 'internal/fs' when npm install on mac	102		
+9377	7402787	false	open	false	18		2016-10-31T13:32:55Z	2016-11-02T18:09:25Z		Error: Cannot find module 'internal/fs' when npm install on mac	102		
 9378	3973850	false	open	false	13		2016-10-31T13:37:45Z	2016-11-01T11:37:26Z		readdirSync of drive letter lists items of cwd	107		
 9379	1573141	true	closed	false	3		2016-10-31T14:10:42Z	2016-11-01T19:09:16Z	2016-11-01T19:09:16Z	doc: fs: fix link to mkdtemp	39		
 9380	900690	false	open	false	5		2016-10-31T15:27:32Z	2016-11-01T01:19:50Z		fs.writeFile() removes execute permissions from file	135		
@@ -2567,5 +2567,8 @@
 9415	15943089	true	open	false	0	0	2016-11-02T17:03:51Z	2016-11-02T17:03:51Z		doc: note that tests should include a description	107		
 9416	696611	true	open	false	0	0	2016-11-02T17:05:46Z	2016-11-02T17:05:46Z		doc: do not link in the headings	119		
 9417	3391470	false	open	false	0		2016-11-02T17:09:47Z	2016-11-02T17:09:47Z		wrong destructuring use with wrong error message	129		
-9418	23219482	false	open	false	0		2016-11-02T17:59:24Z	2016-11-02T17:59:24Z		npm pack failing in node 7	88		
-9419	4400726	false	open	false	0		2016-11-02T18:00:03Z	2016-11-02T18:00:03Z		Strange errors, segfaults when upgrading from v6.9.1 to v7.0.0	208		
+9418	23219482	false	closed	false	1		2016-11-02T17:59:24Z	2016-11-02T18:00:36Z	2016-11-02T18:00:36Z	npm pack failing in node 7	88		
+9419	4400726	false	open	false	1		2016-11-02T18:00:03Z	2016-11-02T18:02:19Z		Strange errors, segfaults when upgrading from v6.9.1 to v7.0.0	222		
+9420	718899	false	open	false	0		2016-11-02T18:19:03Z	2016-11-02T18:19:03Z		governance: nominating Michaël Zasso to the CTC	42		
+9421	157132	false	open	false	0		2016-11-02T18:20:18Z	2016-11-02T18:20:18Z		ERROR in Cannot find module './lib/api/node.js'	73		
+9422	4976075	true	open	false	0	0	2016-11-02T18:55:13Z	2016-11-02T18:55:13Z		deps: cherry-pick 5c8cb16 from upstream V8	48		
