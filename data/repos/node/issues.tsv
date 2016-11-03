@@ -208,6 +208,7 @@
 5098	1898870	true	closed	false	14		2016-02-05T11:10:32Z	2016-07-25T11:17:50Z	2016-03-22T05:24:37Z	fs: make 'fs.exists' follow the error first callback convention	21		
 5099	66357	true	closed	false	27		2016-02-05T11:14:11Z	2016-06-30T18:53:59Z	2016-06-15T04:28:38Z	test: fix test-net-* error code check for getaddrinfo(3)	34		
 5111	718899	false	closed	false	5		2016-02-06T00:11:40Z	2016-07-04T05:30:38Z	2016-07-04T05:30:38Z	Investigate flaky test-tls-session-cache	4		
+5156	349336	true	open	false	12		2016-02-09T09:04:17Z	2016-11-03T17:59:38Z		Doc: stream becomes paused after unpipe. 	12		
 5160	558581	false	open	false	11		2016-02-09T17:32:03Z	2016-10-27T13:56:28Z		Space in network share name(UNC path) causes unknown error	308		
 5173	3929632	true	closed	false	2	0	2016-02-10T09:38:19Z	2016-06-29T12:15:22Z	2016-06-29T12:15:22Z	Update install.py	113		
 5183	718899	false	closed	false	2		2016-02-10T19:46:20Z	2016-06-29T22:31:10Z	2016-06-29T22:31:10Z	Investigate flaky test-async-wrap-check-providers	4		
@@ -2528,12 +2529,12 @@
 9375	696611	true	open	false	2		2016-10-31T12:13:16Z	2016-10-31T16:52:51Z		build: start comments at beginning of line	70		
 9376	495647	true	open	false	1		2016-10-31T13:03:05Z	2016-11-01T20:21:58Z		crypto: initial LibreSSL support (WIP)	730		
 9377	7402787	false	open	false	18		2016-10-31T13:32:55Z	2016-11-02T18:09:25Z		Error: Cannot find module 'internal/fs' when npm install on mac	102		
-9378	3973850	false	open	false	13		2016-10-31T13:37:45Z	2016-11-01T11:37:26Z		readdirSync of drive letter lists items of cwd	107		
+9378	3973850	false	open	false	14		2016-10-31T13:37:45Z	2016-11-03T17:56:42Z		readdirSync of drive letter lists items of cwd	107		
 9379	1573141	true	closed	false	3		2016-10-31T14:10:42Z	2016-11-01T19:09:16Z	2016-11-01T19:09:16Z	doc: fs: fix link to mkdtemp	39		
 9380	900690	false	open	false	5		2016-10-31T15:27:32Z	2016-11-01T01:19:50Z		fs.writeFile() removes execute permissions from file	135		
 9381	696611	false	open	false	8		2016-10-31T15:36:18Z	2016-10-31T22:25:13Z		code highlight slightly misaligned	45		
 9382	541359	false	open	false	7		2016-10-31T16:26:40Z	2016-11-02T12:04:30Z		node --inspect: dev tools console not working	86		
-9383	12400507	true	open	false			2016-10-31T16:31:34Z	2016-11-03T15:01:36Z		child_process: add detached option to .exec()	68		
+9383	12400507	true	open	false	7		2016-10-31T16:31:34Z	2016-11-03T17:34:59Z		child_process: add detached option to .exec()	68		
 9384	13035517	false	open	false	0		2016-10-31T17:10:53Z	2016-10-31T17:10:53Z		cipher.setAutoPadding(false) causes empty ciphertext to be returned	135		
 9385	6487691	true	open	false	3		2016-10-31T18:37:52Z	2016-11-02T16:22:44Z		Backport --shared to V4.x codebase to allow building as a shared library / DLL	62		
 9386	1234972	true	open	false	5		2016-10-31T20:35:01Z	2016-11-02T14:17:06Z		http: make `globalAgent` of `http` and `https` as overridable properties	86		
@@ -2578,7 +2579,7 @@
 9425	718899	true	open	false	0		2016-11-02T19:38:54Z	2016-11-03T00:59:16Z		doc: update minute-taking procedure for CTC	92		
 9426	1093990	true	open	false	0	0	2016-11-02T19:40:18Z	2016-11-02T19:40:18Z		testing separate lts/current labels for backports	2		
 9427	495647	true	closed	false	2	2	2016-11-02T20:43:01Z	2016-11-03T02:26:46Z	2016-11-03T02:26:46Z	doc: add Sakthipriyan to the CTC	6		
-9428	4985028	false	open	false	7		2016-11-02T20:57:01Z	2016-11-03T14:09:22Z		Enable --dev-mod-res switch to better support development-time module storage and installs	1370		
+9428	4985028	false	open	false	9		2016-11-02T20:57:01Z	2016-11-03T17:13:11Z		Enable --dev-mod-res switch to better support development-time module storage and installs	1370		
 9429	13561163	false	open	false	7		2016-11-02T21:32:27Z	2016-11-03T14:35:42Z		properties created using Symbols in process.env are not intercepted 	45		
 9430	4421720	true	open	false			2016-11-03T00:56:48Z	2016-11-03T05:30:41Z		doc: add CTC meeting minutes for 2016-11-02	27		
 9431	718899	true	open	false	0	0	2016-11-03T03:10:36Z	2016-11-03T03:10:36Z		test: move timer-dependent test to sequential	80		
@@ -2591,10 +2592,11 @@
 9438	677994	true	open	false	0	0	2016-11-03T11:02:12Z	2016-11-03T11:02:12Z		v7.1.0 proposal - 2016-11-07	1234		
 9439	413206	false	open	false	6		2016-11-03T11:20:45Z	2016-11-03T14:00:26Z		darwin: double-check that fsync should flush disk write cache using F_FULLFSYNC	98		
 9440	68194	true	open	false			2016-11-03T11:45:10Z	2016-11-03T16:22:50Z		http: remove stale timeout listeners	66		
-9441	5098875	false	closed	false	2		2016-11-03T12:13:56Z	2016-11-03T16:52:46Z	2016-11-03T13:15:29Z	unable to connect to remote host with ipv6 address	57		
+9441	5098875	false	closed	false	3		2016-11-03T12:13:56Z	2016-11-03T17:19:38Z	2016-11-03T13:15:29Z	unable to connect to remote host with ipv6 address	57		
 9442	16076762	false	open	false	0		2016-11-03T13:04:42Z	2016-11-03T13:04:42Z		ReadStream causing memory surge	121		
 9443	16076762	false	closed	false	5		2016-11-03T13:17:43Z	2016-11-03T14:08:06Z	2016-11-03T14:08:06Z	ReadStream causing memory surge	132		
-9444	718899	true	open	false	4		2016-11-03T14:22:59Z	2016-11-03T15:57:48Z		test: increate test-net-GH-5504 timeout	74		
-9445	855219	false	open	false	0		2016-11-03T16:02:46Z	2016-11-03T16:02:46Z		toLocaleUpperCase seems broken for greek on ICU 58	32		
-9446	2512748	true	open	false	0	0	2016-11-03T16:19:24Z	2016-11-03T16:19:24Z		src: throw on process.env symbol usage	57		
+9444	718899	true	open	false	5		2016-11-03T14:22:59Z	2016-11-03T17:51:27Z		test: increase test-net-GH-5504 timeout	74		
+9445	855219	false	open	false	1		2016-11-03T16:02:46Z	2016-11-03T17:10:41Z		toLocaleUpperCase seems broken for greek on ICU 58	32		
+9446	2512748	true	open	false			2016-11-03T16:19:24Z	2016-11-03T17:22:24Z		src: throw on process.env symbol usage	57		
 9447	1197375	true	open	false	0	0	2016-11-03T16:27:16Z	2016-11-03T16:27:16Z		doc: readline.emitKeypressEvents note	81		
+9448	8202898	false	open	false	0		2016-11-03T17:54:44Z	2016-11-03T17:54:44Z		Por variavel de ambiente como o do grunt e ionic de uma biblioteca minha ao instalar ela via npm install como fazer?	1		
