@@ -175,6 +175,7 @@
 4482	178512	true	closed	false	30		2015-12-30T13:30:25Z	2016-07-28T21:58:08Z	2016-01-04T18:36:32Z	Http(s) Agent: handle errors on idle sockets	57		
 4500	6631828	false	closed	false	6		2015-12-31T14:09:00Z	2016-10-12T09:50:50Z	2016-10-12T09:50:50Z	Spawned process don't trigger close or exit event	118		
 4528	677994	true	open	false	14		2016-01-04T12:26:41Z	2016-08-09T20:26:39Z		http: make path null in Agent#createSocket	34		
+4531	1372431	false	open	false	2		2016-01-04T19:11:53Z	2016-11-05T17:52:34Z		process.config.variables.arm_version incorrect in armv7	68		
 4545	6376965	false	closed	false	13		2016-01-06T00:59:50Z	2016-11-04T17:34:09Z	2016-01-18T15:01:02Z	DNS lookup failure dns.js:82	174		
 4550	327019	true	closed	false	28	1	2016-01-06T05:24:16Z	2016-10-28T16:38:00Z	2016-10-28T16:38:00Z	module: deprecate require('module').Module	5		
 4560	1578784	false	closed	false	8		2016-01-07T02:52:14Z	2016-09-26T08:36:38Z	2016-09-26T08:36:38Z	socket stay in ESTABLISHED status	309		
@@ -453,7 +454,7 @@
 7137	439929	true	open	false			2016-06-03T19:17:45Z	2016-07-05T00:13:18Z		doc: general improvements to net.md copy	33		
 7141	10393198	false	open	false	10		2016-06-03T22:32:12Z	2016-10-31T14:50:48Z		URL to v8_inspector in the Windows console is inconvenient to copy	124		
 7149	238531	true	closed	false	6		2016-06-04T04:02:49Z	2016-07-11T22:37:04Z	2016-06-06T17:34:31Z	http: wait for both prefinish/end to keepalive	80		
-7152	988441	true	open	false	73		2016-06-04T16:22:28Z	2016-11-05T16:06:22Z		buffer: hard-deprecate Buffer constructor	133		
+7152	988441	true	open	false	75		2016-06-04T16:22:28Z	2016-11-05T17:32:04Z		buffer: hard-deprecate Buffer constructor	133		
 7154	718899	true	closed	false	14		2016-06-04T20:16:03Z	2016-07-11T22:54:57Z	2016-06-07T20:33:05Z	debugger: remove obsolete setTimeout	65		
 7157	469365	true	closed	false	28		2016-06-05T01:13:32Z	2016-07-05T18:16:17Z	2016-06-27T20:40:21Z	buffers: speed up swap16/32, add swap64	566		
 7158	9056756	false	closed	false	5		2016-06-05T04:43:28Z	2016-07-11T09:40:17Z	2016-06-05T06:49:21Z	Unable to cross-compile Node v6.2.1 for iOS	283		
@@ -2597,7 +2598,7 @@
 9442	16076762	false	open	false	0		2016-11-03T13:04:42Z	2016-11-03T13:04:42Z		ReadStream causing memory surge	121		
 9443	16076762	false	closed	false	5		2016-11-03T13:17:43Z	2016-11-03T14:08:06Z	2016-11-03T14:08:06Z	ReadStream causing memory surge	132		
 9444	718899	true	closed	false	8	0	2016-11-03T14:22:59Z	2016-11-05T04:45:45Z	2016-11-05T04:45:45Z	test: increase test-net-GH-5504 timeout	74		
-9445	855219	false	closed	false	4		2016-11-03T16:02:46Z	2016-11-04T16:50:23Z	2016-11-04T16:50:23Z	toLocaleUpperCase seems broken for greek on ICU 58	32		
+9445	855219	false	closed	false	5		2016-11-03T16:02:46Z	2016-11-05T17:51:21Z	2016-11-04T16:50:23Z	toLocaleUpperCase seems broken for greek on ICU 58	32		
 9446	2512748	true	open	false	4		2016-11-03T16:19:24Z	2016-11-04T06:49:52Z		src: throw on process.env symbol usage	57		
 9447	1197375	true	open	false			2016-11-03T16:27:16Z	2016-11-04T17:51:34Z		doc: readline.emitKeypressEvents note	62		
 9448	8202898	false	closed	false	1		2016-11-03T17:54:44Z	2016-11-03T19:36:06Z	2016-11-03T19:36:06Z	 For environment variable as the grunt and ionic of my library to install it via npm install how to do?	1		
@@ -2630,4 +2631,6 @@
 9475	207759	true	open	false			2016-11-05T01:53:14Z	2016-11-05T10:52:38Z		Don't follow Windows ContainerMappedDirectories	134		
 9476	718899	true	open	false	0	0	2016-11-05T06:32:37Z	2016-11-05T06:32:37Z		test: remove watchdog in test-debug-signal-cluster	150		
 9477	1556432	true	open	false	0	0	2016-11-05T11:45:19Z	2016-11-05T11:45:19Z		child_process: catch json parsing error in ipc	108		
-9478	1528681	false	open	false	0		2016-11-05T15:26:30Z	2016-11-05T15:26:30Z		Get Segmentation fault: 11 error after upgrading Node.js from 6.x to 7.x	120		
+9478	1528681	false	closed	false	3		2016-11-05T15:26:30Z	2016-11-05T17:56:30Z	2016-11-05T17:56:30Z	"Get "" Segmentation fault: 11 "" error after upgrading Node.js from 6.x to 7.x"	120		
+9479	12189628	false	open	false	0		2016-11-05T17:37:08Z	2016-11-05T17:37:08Z		fs.write buffer problem	75		
+9480	19358221	false	open	false	0		2016-11-05T17:38:03Z	2016-11-05T17:38:03Z		Default modules path to run at boot	389		
