@@ -23,7 +23,7 @@
 854	172	false	open	false	68		2015-02-15T19:37:43Z	2016-10-17T17:25:31Z		os x: FSEventStreamFlushSync assertions logged to console	100		
 855	617481	false	open	false	16		2015-02-15T21:57:32Z	2016-08-11T16:02:47Z		vm: references to context inside objects are not === the original context	58		
 862	17607	false	closed	false	8		2015-02-17T05:55:09Z	2016-09-07T13:55:17Z	2015-05-06T21:14:16Z	spawn's stdio can result in stderr being closed in child	158		
-906	115237	false	open	false	26		2015-02-20T18:06:56Z	2016-10-18T17:58:44Z		net: enable TCP_NODELAY by default on all platforms	32		
+906	115237	false	open	false	27		2015-02-20T18:06:56Z	2016-11-08T17:38:20Z		net: enable TCP_NODELAY by default on all platforms	32		
 947	707147	false	open	false	8		2015-02-25T02:05:54Z	2016-10-13T15:04:37Z		EPIPE errors thrown when piping to a closed stream	363		
 983	6731985	false	open	false	19		2015-02-27T03:19:51Z	2016-10-18T18:01:35Z		Tab completion for block-scoped variables doesn't work in REPL	60		
 1013	176984	false	closed	false	45		2015-03-01T10:58:11Z	2016-10-17T07:18:56Z	2016-04-04T01:52:33Z	Replace deps/cares with pure-javascript alternative	207		
@@ -443,6 +443,7 @@
 7077	54666	true	closed	false	31		2016-05-31T17:17:40Z	2016-07-09T00:52:27Z	2016-06-14T19:58:45Z	stream: improve Readable.read() performance	186		
 7079	899444	true	closed	false	18		2016-05-31T17:58:03Z	2016-08-18T19:05:28Z	2016-08-08T13:14:46Z	buffer: throw on negative .allocUnsafe() argument	79		
 7084	718899	true	closed	false	11		2016-05-31T22:58:09Z	2016-07-11T22:25:17Z	2016-06-03T20:42:46Z	test: add test for uid/gid setting in spawn	74		
+7087	1018196	false	open	false	1		2016-06-01T01:17:52Z	2016-11-08T17:46:41Z		--inspect support for source mapped files	24		
 7089	718899	true	closed	false	5		2016-06-01T06:53:55Z	2016-07-11T22:25:41Z	2016-06-04T04:41:05Z	debugger: fix --debug-brk interaction with -e	142		
 7090	275871	true	closed	false	12		2016-06-01T11:24:08Z	2016-07-11T22:09:23Z	2016-06-02T20:41:01Z	src: use stack-allocated Environment instances	11		
 7094	505333	true	closed	false	42		2016-06-01T15:18:38Z	2016-07-27T09:27:20Z	2016-07-26T12:25:16Z	Refactor benchmark tools for statistical significance	603		
@@ -1012,7 +1013,7 @@
 7853	516780	false	open	false	12		2016-07-23T19:28:07Z	2016-10-07T22:02:11Z		node --debug takes a really long time to respond to websockets	180		
 7854	1084056	true	closed	false	10		2016-07-23T20:09:19Z	2016-08-02T14:08:28Z	2016-08-02T14:08:28Z	test: fix test-vm-sigint flakiness	68		
 7855	1422781	true	open	false	23		2016-07-23T20:38:28Z	2016-10-06T17:24:59Z		dgram: setMulticastInterface() outgoing interface selection	72		
-7856	373545	true	open	false	32		2016-07-23T20:49:58Z	2016-11-08T16:17:05Z		fs: Fix default params for fs.write	81		
+7856	373545	true	open	false	38		2016-07-23T20:49:58Z	2016-11-08T17:16:31Z		fs: Fix default params for fs.write	81		
 7857	718899	true	closed	false	26		2016-07-23T21:15:43Z	2016-07-31T20:33:10Z	2016-07-31T20:33:10Z	test: fix flaky test-tls-wrap-timeout	59		
 7858	3524633	false	closed	false	22		2016-07-24T00:23:34Z	2016-11-05T05:52:45Z	2016-07-25T15:53:16Z	Add fsevents to NodeJS	150		
 7859	1084056	true	closed	false	9	5	2016-07-24T06:28:47Z	2016-07-31T21:08:12Z	2016-07-31T21:08:12Z	tools,test: show signal code when test crashes	31	1084056	2016-07-31T21:08:12Z
@@ -2666,5 +2667,5 @@
 9509	782880	false	open	false	0		2016-11-08T11:52:19Z	2016-11-08T12:20:26Z		test failures without openssl-cli	61		
 9510	782880	false	open	false	0		2016-11-08T12:00:47Z	2016-11-08T12:00:47Z		test failures of v8 inspectors build without dependencies	83		
 9511	782880	false	open	false	0		2016-11-08T12:10:29Z	2016-11-08T12:10:29Z		test-icu-transcode fails built without intl	90		
-9512	21085125	false	open	false	1		2016-11-08T13:39:17Z	2016-11-08T16:50:09Z		configure fails on linux for distributions using python 3 as default	98		
+9512	21085125	false	open	false	2		2016-11-08T13:39:17Z	2016-11-08T17:03:56Z		configure fails on linux for distributions using python 3 as default	98		
 9513	1272762	false	open	false	0		2016-11-08T16:09:14Z	2016-11-08T16:09:14Z		Too many sockets of Ubuntu with 'CLOSE_WAIT'	259		
