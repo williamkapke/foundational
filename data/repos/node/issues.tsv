@@ -25,7 +25,7 @@
 862	17607	false	closed	false	8		2015-02-17T05:55:09Z	2016-09-07T13:55:17Z	2015-05-06T21:14:16Z	spawn's stdio can result in stderr being closed in child	158		
 906	115237	false	open	false	27		2015-02-20T18:06:56Z	2016-11-08T17:38:20Z		net: enable TCP_NODELAY by default on all platforms	32		
 947	707147	false	open	false	8		2015-02-25T02:05:54Z	2016-10-13T15:04:37Z		EPIPE errors thrown when piping to a closed stream	363		
-983	6731985	false	open	false	19		2015-02-27T03:19:51Z	2016-10-18T18:01:35Z		Tab completion for block-scoped variables doesn't work in REPL	60		
+983	6731985	false	open	false	21		2015-02-27T03:19:51Z	2016-11-08T18:22:22Z		Tab completion for block-scoped variables doesn't work in REPL	60		
 1013	176984	false	closed	false	45		2015-03-01T10:58:11Z	2016-10-17T07:18:56Z	2016-04-04T01:52:33Z	Replace deps/cares with pure-javascript alternative	207		
 1127	509651	false	open	false	10		2015-03-11T20:57:31Z	2016-10-25T21:03:25Z		crypto: sign/verify support for RSASSA-PSS	72		
 1128	36662	false	open	false	17		2015-03-11T22:48:11Z	2016-08-29T14:15:29Z		feature request: a way to inspect what's in the event loop	137		
@@ -2294,7 +2294,7 @@
 9136	12628373	false	open	false	0		2016-10-17T17:16:52Z	2016-10-17T17:16:52Z		Getting error while installing protractor after installing node version	210		
 9137	419139	false	open	false	5		2016-10-17T17:54:24Z	2016-11-02T13:33:21Z		Build fails when the path to the build root is too long	132		
 9138	4976075	true	open	false	5		2016-10-17T17:55:22Z	2016-10-19T15:46:45Z		Cherry pick 3c39bac from upstream V8	45		
-9139	17607	true	closed	false	15	67	2016-10-17T19:35:25Z	2016-11-08T16:14:12Z	2016-11-08T16:14:12Z	crypto: allow adding extra certs to well-known CAs	179		
+9139	17607	true	open	false			2016-10-17T19:35:25Z	2016-11-08T18:16:09Z		crypto: allow adding extra certs to well-known CAs	179		
 9140	19806671	false	open	false	0		2016-10-17T21:10:03Z	2016-10-17T21:10:03Z		TypeError: Cannot call method 'forEach' of undefined	190		
 9141	419139	true	open	false	4		2016-10-17T22:52:25Z	2016-10-19T14:10:30Z		gyp: fix node build failure with long build directory path on Linux	138		
 9142	495647	true	open	false	4		2016-10-17T23:16:06Z	2016-10-19T03:04:44Z		tools: check tag is on github before release	31		
@@ -2356,7 +2356,7 @@
 9198	718899	true	closed	false	4	0	2016-10-20T00:09:42Z	2016-10-21T23:30:00Z	2016-10-21T23:30:00Z	test: fix flaky test-timers-blocking-callback	128		
 9199	677994	true	closed	false	3	2	2016-10-20T00:29:32Z	2016-10-25T13:20:34Z	2016-10-25T13:20:34Z	test: fix flaky test by removing timer	61		
 9200	7766085	false	closed	false	8		2016-10-20T00:34:40Z	2016-10-20T08:15:03Z	2016-10-20T08:15:03Z	crypto can't sign RSA-SHA1?	66		
-9201	1829789	false	open	false	12		2016-10-20T04:26:37Z	2016-10-23T17:31:46Z		stdout, stderr and stdin are all Duplex streams but documentation states otherwise	192		
+9201	1829789	false	open	false	14		2016-10-20T04:26:37Z	2016-11-08T18:25:11Z		stdout, stderr and stdin are all Duplex streams but documentation states otherwise	146		
 9202	101553	true	closed	false	6		2016-10-20T11:56:49Z	2016-10-20T14:44:06Z	2016-10-20T14:44:06Z	deps: update V8 to 5.4.524	34		
 9203	275871	true	open	false	2		2016-10-20T12:00:08Z	2016-10-24T16:24:26Z		src: disable stdio buffering	6		
 9204	10507098	false	open	false	3		2016-10-20T12:22:11Z	2016-10-20T14:23:51Z		Example of second way of delegating connections to cluster workers	128		
@@ -2417,7 +2417,7 @@
 9259	15943089	true	closed	false	4	14	2016-10-24T17:47:06Z	2016-10-28T10:10:15Z	2016-10-28T10:10:15Z	doc: update CONTRIBUTING.md to address editing PRs	161	15943089	2016-10-28T10:10:15Z
 9260	275871	true	closed	false	4		2016-10-24T18:27:55Z	2016-10-26T18:48:29Z	2016-10-25T18:22:23Z	Backport pr6184 v4.x	2		
 9261	718899	false	closed	false	19		2016-10-24T19:16:41Z	2016-10-28T14:51:10Z	2016-10-28T14:51:10Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-10-26	456		
-9262	176984	true	open	false			2016-10-24T19:42:12Z	2016-11-04T21:46:41Z		work in progress: test.py tap13 output	163		
+9262	176984	true	open	false	15		2016-10-24T19:42:12Z	2016-11-08T18:15:49Z		work in progress: test.py tap13 output	161		
 9263	275871	true	closed	false	2	0	2016-10-24T20:58:13Z	2016-10-26T19:14:18Z	2016-10-26T19:14:17Z	test: use strict assertions in module loader test	2		
 9264	8297234	true	closed	false	11	1	2016-10-24T22:43:17Z	2016-10-26T19:12:20Z	2016-10-26T19:12:20Z	test: remove err timer from test-http-set-timeout	50		
 9265	439929	true	open	false			2016-10-24T23:34:02Z	2016-11-06T10:53:38Z		errors: add internal/errors.js	85		
@@ -2564,7 +2564,7 @@
 9406	11139560	false	closed	false	9		2016-11-01T20:37:10Z	2016-11-02T04:09:05Z	2016-11-01T23:10:36Z	util.inspect() should do check for string type	146		
 9407	5545186	false	closed	false	3		2016-11-01T20:55:11Z	2016-11-01T21:08:10Z	2016-11-01T21:08:10Z	http.request post method not responding with no error on callback	113		
 9408	718899	true	closed	false	3		2016-11-01T21:43:48Z	2016-11-04T02:47:23Z	2016-11-04T02:47:23Z	tools: enforce function name matching in linter	69		
-9409	21203	true	open	false			2016-11-01T21:46:53Z	2016-11-08T03:22:44Z		crypto: fix handling of root_cert_store	240		
+9409	21203	true	open	false			2016-11-01T21:46:53Z	2016-11-08T18:55:38Z		crypto: fix handling of root_cert_store	240		
 9410	115237	true	closed	false	3		2016-11-01T22:11:17Z	2016-11-04T16:17:22Z	2016-11-04T16:17:22Z	tools: enable final newline in .editorconfig	165		
 9411	737120	false	open	false	2		2016-11-02T04:19:49Z	2016-11-03T08:45:24Z		Questions about event-loop-timers-and-nexttick.md	214		
 9412	2352663	true	open	false	2		2016-11-02T10:36:24Z	2016-11-02T19:26:59Z		deps: update V8 to 5.4.500.40	43		
@@ -2667,5 +2667,6 @@
 9509	782880	false	open	false	0		2016-11-08T11:52:19Z	2016-11-08T12:20:26Z		test failures without openssl-cli	61		
 9510	782880	false	open	false	0		2016-11-08T12:00:47Z	2016-11-08T12:00:47Z		test failures of v8 inspectors build without dependencies	83		
 9511	782880	false	open	false	0		2016-11-08T12:10:29Z	2016-11-08T12:10:29Z		test-icu-transcode fails built without intl	90		
-9512	21085125	false	open	false	2		2016-11-08T13:39:17Z	2016-11-08T17:03:56Z		configure fails on linux for distributions using python 3 as default	98		
+9512	21085125	false	open	false	3		2016-11-08T13:39:17Z	2016-11-08T18:22:43Z		configure fails on linux for distributions using python 3 as default	98		
 9513	1272762	false	open	false	0		2016-11-08T16:09:14Z	2016-11-08T16:09:14Z		Too many sockets of Ubuntu with 'CLOSE_WAIT'	259		
+9514	10616396	true	open	false	0	0	2016-11-08T18:43:20Z	2016-11-08T18:43:20Z		doc: added return types of functions and types of static properties	40		
