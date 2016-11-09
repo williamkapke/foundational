@@ -47,6 +47,7 @@
 1788	1309053	false	open	false	14		2015-05-24T23:32:23Z	2016-10-24T09:05:57Z		Debug process didn't close after finish debugging	103		
 1802	744035	false	open	false	9		2015-05-26T21:22:12Z	2016-10-31T17:22:59Z		url: parse() fails if auth contain a colon or ampersand	163		
 1843	54666	true	closed	false	71		2015-05-30T08:25:30Z	2016-08-06T07:34:31Z	2016-08-06T07:34:31Z	dns: add new DNS resolver and set it as default	22		
+1860	407189	false	closed	false	15		2015-06-01T10:39:15Z	2016-11-08T23:53:37Z	2015-11-26T12:37:52Z	Plans on incorporating BoringSSL	115		
 1873	291301	false	open	false	14		2015-06-02T18:58:34Z	2016-08-03T22:38:15Z		http.OutgoingMessage headers API	64		
 1924	474017	false	closed	false	17		2015-06-09T14:12:21Z	2016-09-26T09:04:21Z	2016-09-26T09:04:21Z	Not closing all connections.	187		
 2025	696611	true	closed	false	6		2015-06-20T20:27:17Z	2016-08-29T23:49:08Z	2015-06-21T03:19:14Z	util: moving internal helpers to internal module	35		
@@ -2545,11 +2546,11 @@
 9386	1234972	true	open	false	5		2016-10-31T20:35:01Z	2016-11-02T14:17:06Z		http: make `globalAgent` of `http` and `https` as overridable properties	86		
 9387	1761758	false	closed	false	4		2016-10-31T21:37:44Z	2016-11-01T20:55:30Z	2016-11-01T09:16:16Z	Feature request: Cancel all timeouts	160		
 9388	103052	true	closed	false	2		2016-10-31T22:39:22Z	2016-11-06T18:24:47Z	2016-11-06T18:24:47Z	vm: name anonymous functions	37		
-9389	103052	true	open	false	3		2016-10-31T23:14:40Z	2016-11-08T20:52:37Z		zlib: name every function	36		
+9389	103052	true	open	false	4		2016-10-31T23:14:40Z	2016-11-08T23:21:35Z		zlib: name every function	36		
 9390	5234060	false	open	false	2		2016-11-01T04:02:16Z	2016-11-01T18:26:03Z		"Why listening ""::"" (all IPv6) also get ""0.0.0.0""(all IPv4) listened?"	162		
 9391	911174	false	closed	false	18		2016-11-01T04:30:10Z	2016-11-03T14:06:57Z	2016-11-03T14:06:57Z	Push rebased PRs before merging	145		
 9392	718899	false	open	false	6		2016-11-01T05:47:37Z	2016-11-02T19:12:17Z		Node.js Foundation Core Technical Committee (CTC) Meeting 2016-11-02	478		
-9393	577562	true	open	false	15		2016-11-01T07:10:23Z	2016-11-08T20:46:35Z		v8: update make-v8.sh to use git	49		
+9393	577562	true	open	false	16		2016-11-01T07:10:23Z	2016-11-08T23:14:41Z		v8: update make-v8.sh to use git	49		
 9394	10074113	false	open	false	0		2016-11-01T11:12:26Z	2016-11-01T11:12:26Z		fs.watch on windows prevents directory being deleted cleanly	124		
 9395	2633065	true	open	false			2016-11-01T11:33:07Z	2016-11-02T14:24:32Z		crypto: use check macros in CipherBase::SetAuthTag	24		
 9396	7656167	true	closed	false	10		2016-11-01T11:34:04Z	2016-11-04T17:50:52Z	2016-11-04T15:01:14Z	doc: update COLLABORATOR_GUIDE and onboarding	43		
@@ -2623,7 +2624,7 @@
 9464	8525754	false	open	false	3		2016-11-04T13:25:35Z	2016-11-06T12:50:35Z		child_process execFile / spawn throw non-descript exception on windows if exe requires elevation	138		
 9465	467209	false	closed	false	1		2016-11-04T13:50:42Z	2016-11-04T14:29:01Z	2016-11-04T14:29:01Z	Fatal error in V8 GC	222		
 9466	17898715	false	open	false	0		2016-11-04T14:03:39Z	2016-11-04T14:03:39Z		Why is this posted without the author reply?	22		
-9467	275871	true	open	false	15		2016-11-04T14:49:14Z	2016-11-08T12:42:06Z		src: don't call into VM from AsyncWrap destructor	62		
+9467	275871	true	open	false	16		2016-11-04T14:49:14Z	2016-11-08T23:57:28Z		src: don't call into VM from AsyncWrap destructor	62		
 9468	7656167	true	open	false	2		2016-11-04T15:46:15Z	2016-11-08T05:22:44Z		doc: update stream.md	38		
 9469	782880	true	open	false			2016-11-04T15:58:05Z	2016-11-07T08:53:37Z		Distrust certs issued after 00:00:00 Oct. 21, 2016 by StartCom and WoSign 	106		
 9470	1093990	true	open	false	9		2016-11-04T20:01:26Z	2016-11-06T14:07:09Z		process: swallow stdout/stderr error events	128		
@@ -2675,6 +2676,6 @@
 9516	166301	false	open	false	4		2016-11-08T19:47:30Z	2016-11-08T20:01:04Z		Stack Trace on Depreciation Warnings	88		
 9517	696611	true	open	false	0	0	2016-11-08T20:03:21Z	2016-11-08T20:03:21Z		build: remove valgrind from Makefile	34		
 9518	432351	true	open	false	0	0	2016-11-08T20:09:03Z	2016-11-08T20:09:03Z		doc: make comment indentation consistent	85		
-9519	11139560	false	open	false	0		2016-11-08T20:52:54Z	2016-11-08T20:52:54Z		n.kill(19) throws error	59		
+9519	11139560	false	open	false	1		2016-11-08T20:52:54Z	2016-11-08T23:25:52Z		n.kill(19) throws error	60		
 9521	983798	false	open	false	0		2016-11-08T22:13:26Z	2016-11-08T22:13:26Z		Changes to `file:` URL formatting in Node v7 cause problems for npm	268		
 9522	1269045	false	open	false	0		2016-11-08T22:13:57Z	2016-11-08T22:13:57Z		npm fails in 6.9.1 installation	99		
