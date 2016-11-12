@@ -281,6 +281,7 @@
 6131	2361826	false	closed	false	6		2016-04-09T10:47:11Z	2016-08-17T20:43:10Z	2016-08-17T20:43:10Z	Move .eslintrc to json or yaml	58		
 6141	899444	true	open	false	1		2016-04-11T03:27:06Z	2016-08-09T21:56:02Z		zlib: Support for reading/writing Gzip headers	222		
 6160	110455	false	closed	false	14		2016-04-12T00:26:17Z	2016-10-17T10:38:09Z	2016-10-17T10:38:09Z	Clearing require.cache of native addon makes it throw when required later.	216		
+6162	11958657	false	closed	false	6		2016-04-12T07:36:35Z	2016-11-12T02:00:27Z	2016-04-12T10:05:18Z	require same file twice and exec twice	76		
 6171	1088987	true	open	false	3		2016-04-12T19:50:49Z	2016-10-14T19:21:46Z		repl: refactor `LineParser` implementation	94		
 6180	3824055	false	closed	false	18		2016-04-13T14:03:54Z	2016-07-26T17:44:29Z	2016-07-26T17:44:29Z	Memory leak in simple test case involving WeakSet	202		
 6181	6279791	false	closed	false	5		2016-04-13T14:17:30Z	2016-09-27T13:15:32Z	2016-04-13T17:24:17Z	Uncaught TypeError when tab-completing constructor in REPL	66		
@@ -2256,7 +2257,7 @@
 9095	1017132	true	closed	false	1	0	2016-10-14T11:11:47Z	2016-10-17T16:10:44Z	2016-10-17T16:10:44Z	doc: further improve child_process doc types	39		
 9096	4437609	false	closed	false	1		2016-10-14T15:53:06Z	2016-10-18T22:53:26Z	2016-10-18T22:53:26Z	Buffer.slice unexpected behavior	165		
 9097	432351	true	closed	false	7		2016-10-14T18:10:25Z	2016-10-18T15:10:19Z	2016-10-16T18:36:03Z	src: make Environment optional for RunAtExit	73		
-9098	718899	true	closed	false	10		2016-10-14T18:14:04Z	2016-11-11T20:38:28Z	2016-10-18T02:31:19Z	test: fix flaky test-child-process-fork-dgram	89		
+9098	718899	true	closed	false	10		2016-10-14T18:14:04Z	2016-11-12T01:53:44Z	2016-10-18T02:31:19Z	test: fix flaky test-child-process-fork-dgram	89		
 9099	439929	true	closed	false	25		2016-10-14T18:39:47Z	2016-10-25T14:27:06Z	2016-10-25T14:27:06Z	v7.0.0 Proposal	164		
 9100	14657580	true	closed	false	1	1	2016-10-14T19:31:12Z	2016-10-17T16:07:44Z	2016-10-17T16:07:44Z	doc: edit Stream api grammar	43		
 9101	696611	true	closed	false	15		2016-10-14T19:32:45Z	2016-10-28T14:09:26Z	2016-10-18T22:53:39Z	buffer: coerce slice parameters consistenly	204		
@@ -2715,3 +2716,6 @@
 9554	115237	true	open	false	0	0	2016-11-11T20:32:16Z	2016-11-11T20:32:16Z		doc: consistent 'Returns:'	38		
 9555	1093990	true	open	false	0	0	2016-11-11T20:33:48Z	2016-11-11T20:33:48Z		test: ensure nextTick is not scheduled in exit	57		
 9556	1093990	true	open	false	0	0	2016-11-11T21:01:28Z	2016-11-11T21:01:28Z		test: increase coverage of process.emitWarning	52		
+9557	11139560	false	open	false	0		2016-11-12T01:15:57Z	2016-11-12T01:15:57Z		path.normalize doesn't normalize these paths	64		
+9558	718899	true	open	false	0	0	2016-11-12T01:42:15Z	2016-11-12T01:42:15Z		Backport of #9098: test: fix flaky test-child-process-fork-dgram	70		
+9559	718899	true	open	false	0	0	2016-11-12T01:52:51Z	2016-11-12T01:52:51Z		Backport #9098: test: fix flaky test-child-process-fork-dgram	72		
