@@ -368,7 +368,7 @@
 6738	275871	true	closed	false	5		2016-05-13T14:45:12Z	2016-08-09T20:28:25Z	2016-08-09T20:28:25Z	build: turn on -fno-delete-null-pointer-checks (v0.10)	30		
 6739	1093990	true	closed	false	10	0	2016-05-13T16:11:17Z	2016-06-30T12:54:16Z	2016-06-30T12:54:15Z	os: deprecate `tmpDir()` in favour of `tmpdir()`	166	1093990	2016-06-30T12:54:15Z
 6747	439929	true	closed	false	4	0	2016-05-13T21:21:47Z	2016-08-09T20:33:21Z	2016-08-09T20:33:21Z	test: add known-issue tests for various http related issues	44		
-6749	439929	true	closed	false	41		2016-05-13T22:29:10Z	2016-11-12T22:23:26Z	2016-09-02T17:38:46Z	fs: move SyncWriteStream to internal/fs	87		
+6749	439929	true	closed	false	42		2016-05-13T22:29:10Z	2016-11-14T03:52:48Z	2016-09-02T17:38:46Z	fs: move SyncWriteStream to internal/fs	87		
 6752	4923668	false	open	false	1		2016-05-14T00:43:12Z	2016-09-17T08:21:50Z		Document how to test if a file exists	112		
 6763	988441	false	closed	false	12		2016-05-14T20:27:49Z	2016-10-26T13:47:55Z	2016-10-26T13:47:55Z	setTimeout delayed when sleeping on Windows	145		
 6764	718899	true	closed	false	29		2016-05-14T22:32:23Z	2016-07-11T22:38:14Z	2016-05-25T17:59:19Z	child_process: measure buffer length in bytes	75		
@@ -1376,7 +1376,7 @@
 8213	1898870	false	closed	false	1		2016-08-21T20:22:13Z	2016-08-23T19:45:59Z	2016-08-23T19:45:59Z	url.resolveObject: conflicting values of host and port	79		
 8214	1898870	true	closed	false	4		2016-08-21T20:34:20Z	2016-09-30T20:33:30Z	2016-08-23T19:46:39Z	url: fix inconsistent port in url.resolveObject	87		
 8215	1898870	true	closed	false	8		2016-08-21T20:50:34Z	2016-09-30T21:36:54Z	2016-08-24T18:41:53Z	url: keep auth in `url.resolve()` if host matches	56		
-8216	788473	false	open	false	10		2016-08-21T21:39:44Z	2016-11-14T01:37:56Z		Garbage Collection Crash	130		
+8216	788473	false	open	false	10		2016-08-21T21:39:44Z	2016-11-14T03:07:07Z		Garbage Collection Crash	130		
 8217	439929	true	closed	false	31		2016-08-21T22:40:46Z	2016-11-11T13:16:37Z	2016-08-29T23:32:27Z	promise: warning on unhandled rejection	60		
 8218	2983969	false	closed	false	1		2016-08-22T02:23:11Z	2016-08-22T03:09:46Z	2016-08-22T03:09:46Z	Immediate crash on --inspect	42		
 8219	1935767	false	closed	false	3		2016-08-22T07:30:54Z	2016-08-22T08:30:09Z	2016-08-22T07:52:51Z	test: failed on sequential/test-child-process-pass-fd	55		
@@ -2690,7 +2690,7 @@
 9528	2512748	true	open	false			2016-11-09T15:25:13Z	2016-11-11T20:28:44Z		test: add test for broken child process stdio	82		
 9529	899444	true	open	false	15		2016-11-09T17:00:42Z	2016-11-11T03:36:29Z		"Revert ""buffer: runtime deprecation of calling Buffer without new"""	106		
 9530	3413079	false	open	false	0		2016-11-09T17:19:27Z	2016-11-09T17:19:27Z		Response strings and closures objects leak with http.Agent enabled (Memory Leak)	298		
-9531	899444	false	open	false	11		2016-11-09T21:03:01Z	2016-11-12T21:28:17Z		buffer: discuss future direction of Buffer constructor API	842		
+9531	899444	false	open	false	13		2016-11-09T21:03:01Z	2016-11-14T03:55:34Z		buffer: discuss future direction of Buffer constructor API	842		
 9532	115237	true	open	false			2016-11-09T21:04:33Z	2016-11-10T17:19:33Z		doc: clarify the callback arguments of dns.resolve	47		
 9533	941925	false	open	false	0		2016-11-09T22:31:38Z	2016-11-09T22:31:38Z		Design of legacy tls socket's destroy	330		
 9534	6477435	false	closed	false	7		2016-11-09T23:11:18Z	2016-11-13T20:04:51Z	2016-11-10T10:36:15Z	Spawning child processes in bash on Windows can crash the parent process	118		
@@ -2745,10 +2745,10 @@
 9583	3625666	true	open	false	1		2016-11-12T14:00:33Z	2016-11-13T04:04:39Z		test: use setImmediate() in test of stream2	62		
 9584	1538624	true	open	false			2016-11-12T18:20:53Z	2016-11-13T07:06:51Z		doc: fix type of http.request's `agent` option	33		
 9585	13039748	false	closed	false	3		2016-11-12T18:25:30Z	2016-11-13T09:11:00Z	2016-11-13T09:11:00Z	Problem using Crypto on Node 4.6.0 	174		
-9586	238531	true	open	false	4		2016-11-12T21:23:10Z	2016-11-13T20:54:15Z		tls: fix leak of WriteWrap+TLSWrap combination	149		
+9586	238531	true	open	false			2016-11-12T21:23:10Z	2016-11-14T03:06:15Z		tls: fix leak of WriteWrap+TLSWrap combination	149		
 9587	238531	true	closed	false	9		2016-11-12T21:56:48Z	2016-11-13T21:04:29Z	2016-11-13T20:49:02Z	process: add `externalMemory` to process.memoryUsage	51		
 9588	6137825	false	open	false	2		2016-11-12T22:09:43Z	2016-11-13T15:29:26Z		crypto.privateDecrypt - padding issue	99		
-9589	23219482	false	open	false	1		2016-11-13T02:10:15Z	2016-11-13T04:22:46Z		Suppress the node 7 Buffer DeprecationWarning for global scripts	76		
+9589	23219482	false	closed	false	8		2016-11-13T02:10:15Z	2016-11-14T03:50:14Z	2016-11-13T04:56:44Z	Suppress the node 7 Buffer DeprecationWarning for global scripts	76		
 9590	54666	true	open	false	0	0	2016-11-13T04:44:05Z	2016-11-13T04:44:05Z		doc: changes to process warning documentation	40		
 9591	1622515	true	open	false	0	0	2016-11-13T05:57:39Z	2016-11-13T05:57:39Z		tools: Add no useless regex char class rule	80		
 9592	349336	false	open	false	0		2016-11-13T06:51:50Z	2016-11-13T22:24:02Z		Article on nodejs.org - outdated?	41		
