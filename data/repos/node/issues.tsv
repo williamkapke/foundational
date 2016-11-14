@@ -837,7 +837,7 @@
 7673	32837	false	open	false	0		2016-07-12T10:41:09Z	2016-07-12T10:41:09Z		vm writes error stacktrace lines to console once, even if catched	91		
 7674	677994	true	open	false	3		2016-07-12T11:58:12Z	2016-07-13T12:09:21Z		doc: fix util.deprecate() example	39		
 7675	275871	true	open	false	1		2016-07-12T14:06:28Z	2016-07-12T17:05:42Z		src: fix sporadic deadlock in SIGUSR1 handler	9		
-7676	275871	true	open	false	17		2016-07-12T14:21:15Z	2016-10-24T15:23:30Z		build: export openssl symbols on windows (v4.x)	38		
+7676	275871	true	open	false	18		2016-07-12T14:21:15Z	2016-11-14T16:16:51Z		build: export openssl symbols on windows (v4.x)	38		
 7677	899444	true	closed	false	1		2016-07-12T14:34:07Z	2016-07-12T17:26:33Z	2016-07-12T17:26:33Z	Backport most of the added: info	27		
 7678	899444	true	closed	false	1		2016-07-12T14:34:25Z	2016-07-12T17:42:08Z	2016-07-12T17:42:08Z	Backport buffer added: info	36		
 7679	899444	true	open	false	1		2016-07-12T14:34:36Z	2016-07-12T17:18:54Z		Backport fs added: info	21		
@@ -1499,7 +1499,7 @@
 8337	16787433	true	open	false	0	0	2016-08-30T12:51:40Z	2016-08-30T12:51:40Z		merge from remote	47		
 8338	899444	true	closed	false	7		2016-08-30T12:59:48Z	2016-09-30T22:26:06Z	2016-09-12T03:54:48Z	benchmark: add benches for fs.stat & fs.statSync	59		
 8339	9373002	false	closed	false	4		2016-08-30T14:24:08Z	2016-08-30T15:52:18Z	2016-08-30T15:52:18Z	V8 tests - faling on PPC, 390 on master 	72		
-8340	234659	true	open	false	5		2016-08-30T14:31:45Z	2016-09-08T02:26:23Z		Backport 2253	46		
+8340	234659	true	closed	false	6	0	2016-08-30T14:31:45Z	2016-11-14T16:20:28Z	2016-11-14T16:20:28Z	Backport 2253	46		
 8341	899444	true	closed	false	4		2016-08-30T17:20:34Z	2016-09-04T15:26:47Z	2016-09-04T15:26:46Z	events: make memory leak warning name more verbose	70		
 8342	3824055	false	open	false	7		2016-08-30T17:35:35Z	2016-10-03T16:24:23Z		Should Node.js standard library throw custom Error subclasses?	222		
 8343	79017	true	closed	false	5	0	2016-08-30T17:51:58Z	2016-08-31T22:19:06Z	2016-08-31T22:19:06Z	deps: workaround clang-3.4 ICE	49	79017	2016-08-31T22:19:06Z
@@ -2517,7 +2517,7 @@
 9355	308049	false	closed	false	7		2016-10-29T13:37:14Z	2016-10-29T14:38:30Z	2016-10-29T14:38:30Z	node 7.0.0, MODULE_NOT_FOUND internal/fs during npm install	186		
 9356	1810178	true	closed	false	2		2016-10-29T15:25:16Z	2016-11-01T22:43:21Z	2016-11-01T22:43:21Z	name repl anonymous functions	66		
 9357	1810178	true	closed	false	11		2016-10-29T15:57:40Z	2016-11-02T03:47:19Z	2016-11-01T22:41:11Z	name net anonymous functions	66		
-9358	1466123	true	open	false	5		2016-10-29T20:23:31Z	2016-10-30T19:50:04Z		Backport fix for zlib inflation with custom dicts to 4.x	44		
+9358	1466123	true	open	false	7		2016-10-29T20:23:31Z	2016-11-14T16:37:04Z		Backport fix for zlib inflation with custom dicts to 4.x	44		
 9359	718899	true	closed	false	2		2016-10-29T21:16:35Z	2016-11-02T19:20:58Z	2016-11-02T19:20:58Z	test: move timer-dependent test to sequential	76		
 9360	899444	true	closed	false	8	7	2016-10-29T21:29:53Z	2016-11-02T19:20:39Z	2016-11-02T19:20:39Z	test: remove timers from streams test	109		
 9361	718899	true	closed	false	3		2016-10-29T22:42:15Z	2016-11-02T05:07:02Z	2016-11-02T05:07:02Z	test: remove timer in test-dgram-send-empty-array	54		
@@ -2710,15 +2710,15 @@
 9548	8202898	false	closed	false	3		2016-11-11T02:02:43Z	2016-11-11T16:26:39Z	2016-11-11T16:26:39Z	How contribuitor to Node.JS?	13		
 9549	8800643	false	closed	false	6		2016-11-11T03:07:33Z	2016-11-11T20:13:38Z	2016-11-11T04:32:28Z	Timing Output Difference	131		
 9550	1080761	false	open	false	2		2016-11-11T14:44:27Z	2016-11-11T21:56:19Z		url.parse: Parsing a URL with an invalid port doesn't throw an error	97		
-9551	3226880	false	open	false	21		2016-11-11T15:20:51Z	2016-11-14T15:48:38Z		SSL core dump in v6.9.1	272		
+9551	3226880	false	closed	false	24		2016-11-11T15:20:51Z	2016-11-14T16:11:28Z	2016-11-14T15:51:58Z	SSL core dump in v6.9.1	272		
 9552	8873545	true	open	false			2016-11-11T17:50:18Z	2016-11-14T15:06:53Z		doc: add more detailed illustration for `module.exports` and `exports`.	90		
-9553	498775	true	open	false	0	0	2016-11-11T20:19:51Z	2016-11-11T20:19:51Z		Backport let in for loop 	134		
+9553	498775	true	closed	false	1		2016-11-11T20:19:51Z	2016-11-14T16:41:49Z	2016-11-14T16:41:49Z	Backport removing let in for loop declaration	134		
 9554	115237	true	closed	false	1		2016-11-11T20:32:16Z	2016-11-13T08:00:10Z	2016-11-13T08:00:10Z	doc: consistent 'Returns:'	38		
 9555	1093990	true	open	false	1		2016-11-11T20:33:48Z	2016-11-14T15:25:50Z		test: ensure nextTick is not scheduled in exit	78		
 9556	1093990	true	open	false	1		2016-11-11T21:01:28Z	2016-11-14T15:31:32Z		test: increase coverage of process.emitWarning	73		
 9557	11139560	false	open	false	2		2016-11-12T01:15:57Z	2016-11-12T02:15:57Z		path.normalize doesn't normalize these paths	76		
 9558	718899	true	open	false	0	0	2016-11-12T01:42:15Z	2016-11-12T01:42:15Z		Backport of #9098: test: fix flaky test-child-process-fork-dgram	70		
-9559	718899	true	open	false	0	0	2016-11-12T01:52:51Z	2016-11-12T01:52:51Z		Backport #9098: test: fix flaky test-child-process-fork-dgram	72		
+9559	718899	true	closed	false	0		2016-11-12T01:52:51Z	2016-11-14T16:58:23Z	2016-11-14T16:58:23Z	Backport #9098: test: fix flaky test-child-process-fork-dgram	72		
 9560	10602	true	closed	false	2	0	2016-11-12T03:19:08Z	2016-11-13T07:51:30Z	2016-11-13T07:51:29Z	doc: simplify process.memoryUsage() example code	59		
 9561	10602	false	open	false	0		2016-11-12T06:36:37Z	2016-11-14T13:55:27Z		segfault if clearTimeout(interval)	121		
 9562	1889831	true	closed	false	2		2016-11-12T07:29:39Z	2016-11-12T12:57:06Z	2016-11-12T12:57:06Z	doc: fix the index order in pseudocode of modules	56		
@@ -2755,7 +2755,7 @@
 9593	428948	false	open	false	1		2016-11-13T12:25:55Z	2016-11-13T13:28:44Z		Prototypes that are set in another file are different	123		
 9594	782880	false	open	false	0		2016-11-13T15:48:08Z	2016-11-13T15:48:08Z		RSA, DH, ECDH computation failures due to CVE-2016-7055 on the Intel CPU of Broadwell or later	161		
 9595	1668509	false	open	false	0		2016-11-13T21:35:46Z	2016-11-13T21:35:46Z		Keep-Alive still causes new sockets to be opened for each request	229		
-9596	8202898	false	closed	false	4		2016-11-13T23:01:30Z	2016-11-14T11:30:09Z	2016-11-14T11:30:09Z	Module NET 	30		
+9596	8202898	false	closed	false	5		2016-11-13T23:01:30Z	2016-11-14T16:34:21Z	2016-11-14T11:30:09Z	Module NET 	30		
 9597	4855659	false	open	false	0		2016-11-13T23:30:22Z	2016-11-13T23:30:22Z		Documentation error.	59		
 9598	10393198	true	open	false	0	0	2016-11-13T23:53:13Z	2016-11-13T23:53:13Z		doc: fix a typo in the assert.md	33		
 9599	4519631	false	open	false	1		2016-11-14T00:32:09Z	2016-11-14T01:29:35Z		Fatal error in ../deps/v8/src/execution.cc, line 103	154		
