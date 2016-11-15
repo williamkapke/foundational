@@ -1028,7 +1028,7 @@
 7864	899444	true	closed	false	12		2016-07-25T07:10:17Z	2016-08-02T13:08:18Z	2016-08-02T13:08:18Z	util: fix formatting of objects with SIMD enabled	56		
 7865	4723660	false	closed	false	1		2016-07-25T09:54:31Z	2016-07-25T10:44:27Z	2016-07-25T10:44:27Z	Incorrect schedule task with `setInterval()`	166		
 7866	5807322	false	closed	false	6		2016-07-25T10:12:57Z	2016-07-26T17:39:43Z	2016-07-26T16:41:15Z	Allocation failed - JavaScript heap out of memory on v6.3.1	318		
-7867	15943089	true	open	false	5		2016-07-25T11:23:52Z	2016-09-26T17:24:11Z		[WIP] Update test-npm target	172		
+7867	15943089	true	open	false	8		2016-07-25T11:23:52Z	2016-11-15T08:43:52Z		[WIP] Update test-npm target	151		
 7868	413206	false	open	false	1		2016-07-25T11:54:45Z	2016-07-25T12:09:37Z		docs: `fs.write()` variables are not clear	257		
 7869	6447530	true	open	false	2		2016-07-25T12:02:05Z	2016-08-04T18:01:39Z		test: avoid IPv6 hostname conflict in windows	86		
 7870	10393198	false	open	false	7		2016-07-25T12:54:10Z	2016-07-25T16:21:56Z		child_process: exec and execSync clobber error messages	1157		
@@ -2388,7 +2388,7 @@
 9226	204037	false	open	false	7		2016-10-21T19:02:08Z	2016-10-26T18:28:01Z		Buffer.alloc v4: Incorrectly returns zero-filled buffer when encoding is passed	91		
 9227	718899	false	closed	false	0		2016-10-21T20:21:20Z	2016-10-29T20:12:06Z	2016-10-29T20:12:06Z	investigate flaky test-http-server-consumed-timeout on FreeBSD	68		
 9228	718899	true	closed	false	4		2016-10-21T20:55:09Z	2016-10-24T05:00:00Z	2016-10-24T05:00:00Z	test: make test-fs-watch-recursive more robust	123		
-9229	899444	true	open	false	9		2016-10-21T21:05:29Z	2016-11-13T21:52:06Z		test: check that `process.execPath` is a realpath	47		
+9229	899444	true	open	false	10		2016-10-21T21:05:29Z	2016-11-15T08:45:08Z		test: check that `process.execPath` is a realpath	47		
 9230	4481528	true	open	false			2016-10-21T22:06:46Z	2016-10-22T06:45:35Z		querystring: name anonymous functions	37		
 9231	8248574	true	closed	false	5		2016-10-21T22:54:52Z	2016-10-26T04:42:11Z	2016-10-26T04:42:11Z	test: clean up `test-child-process-exec-cwd.js`	50		
 9232	68368	true	open	false	5		2016-10-21T23:24:48Z	2016-10-28T16:12:34Z		build: use wxneeded on openbsd	58		
@@ -2701,8 +2701,8 @@
 9539	5698911	false	open	false	1		2016-11-10T10:06:36Z	2016-11-10T12:24:48Z		Unnecessary heap usage in in-place functions.	437		
 9540	677994	true	closed	false	0	0	2016-11-10T11:14:19Z	2016-11-11T12:14:44Z	2016-11-11T12:14:44Z	doc: add missing link in changelog	24		
 9541	5292705	false	open	false	1		2016-11-10T11:36:05Z	2016-11-14T11:28:13Z		http.request meet ECONNRESET on Windows every time for certain URLs	140		
-9542	441011	false	open	false	31		2016-11-10T11:57:11Z	2016-11-15T01:59:47Z		EINVAL errors (events.js:160) with Node 7.1.0 on Windows 10	89		
-9543	1935767	true	open	false	1		2016-11-10T14:45:00Z	2016-11-15T03:02:45Z		url: more strict validation on ipv6 hostname	45		
+9542	441011	false	closed	false	31		2016-11-10T11:57:11Z	2016-11-15T08:57:01Z	2016-11-15T08:57:01Z	EINVAL errors (events.js:160) with Node 7.1.0 on Windows 10	89		
+9543	1935767	true	open	false			2016-11-10T14:45:00Z	2016-11-15T08:14:19Z		url: more strict validation on ipv6 hostname	45		
 9544	718899	true	open	false	2		2016-11-10T19:32:05Z	2016-11-13T21:24:27Z		test: refactor test-zlib.js	54		
 9545	739813	true	closed	false	4	0	2016-11-10T20:04:02Z	2016-11-12T08:21:17Z	2016-11-12T08:21:17Z	doc: remove Roadmap Working Group	31		
 9546	15190897	false	open	false	11		2016-11-10T23:36:55Z	2016-11-12T20:22:04Z		The max length of console.log output is 8275	69		
@@ -2745,7 +2745,7 @@
 9583	3625666	true	open	false	1		2016-11-12T14:00:33Z	2016-11-13T04:04:39Z		test: use setImmediate() in test of stream2	62		
 9584	1538624	true	open	false			2016-11-12T18:20:53Z	2016-11-13T07:06:51Z		doc: fix type of http.request's `agent` option	33		
 9585	13039748	false	closed	false	3		2016-11-12T18:25:30Z	2016-11-13T09:11:00Z	2016-11-13T09:11:00Z	Problem using Crypto on Node 4.6.0 	174		
-9586	238531	true	open	false	5		2016-11-12T21:23:10Z	2016-11-15T02:27:45Z		tls: fix leak of WriteWrap+TLSWrap combination	149		
+9586	238531	true	open	false			2016-11-12T21:23:10Z	2016-11-15T08:41:21Z		tls: fix leak of WriteWrap+TLSWrap combination	149		
 9587	238531	true	closed	false	9		2016-11-12T21:56:48Z	2016-11-13T21:04:29Z	2016-11-13T20:49:02Z	process: add `externalMemory` to process.memoryUsage	51		
 9588	6137825	false	closed	false	9		2016-11-12T22:09:43Z	2016-11-15T00:16:55Z	2016-11-15T00:16:55Z	crypto.privateDecrypt - padding issue	99		
 9589	23219482	false	closed	false	8		2016-11-13T02:10:15Z	2016-11-14T03:50:14Z	2016-11-13T04:56:44Z	Suppress the node 7 Buffer DeprecationWarning for global scripts	76		
