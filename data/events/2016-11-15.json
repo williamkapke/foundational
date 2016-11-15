@@ -1,10 +1,11 @@
 {
-  "words": 6132,
-  "comments": 118,
+  "words": 6768,
+  "comments": 132,
   "prs": {
-    "opened": 21,
-    "closed": 9,
-    "words": 6132
+    "opened": 23,
+    "closed": 11,
+    "words": 6768,
+    "reopened": null
   },
   "issues": {
     "opened": 0,
@@ -23,13 +24,16 @@
     "Future-CI": {"open":5},
     "Intl": {"open":20},
     "LTS": {
+      "101": {"comments":1,"words":22,"pr":true},
       "107": {"comments":5,"words":279,"pr":true},
+      "108": {"comments":1,"words":161,"pr":true,"closed":"2016-11-15T15:56:02Z","closer":"1093990"},
       "147": {"comments":2,"words":43,"pr":true},
       "157": {"comments":1,"words":92,"pr":true,"opened":"2016-11-15T11:21:09Z","opener":"495647"},
-      "open": 22,
-      "words": 414,
-      "comments": 8,
-      "opened": 1
+      "open": 21,
+      "words": 597,
+      "comments": 10,
+      "opened": 1,
+      "closed": 1
     },
     "NG": {"open":27},
     "TSC": {
@@ -63,14 +67,14 @@
     "docker-iojs": {"open":5},
     "docker-node": {
       "240": {"comments":1,"words":28,"pr":true},
-      "263": {"comments":9,"words":161,"pr":true},
+      "263": {"comments":11,"words":164,"pr":true},
       "268": {"comments":0,"words":10,"pr":true,"opened":"2016-11-15T03:17:53Z","opener":"2781"},
       "269": {"comments":1,"words":11,"pr":true,"opened":"2016-11-15T12:49:31Z","opener":"1619732","closed":"2016-11-15T14:17:59Z","closer":"2781"},
       "270": {"comments":11,"words":321,"pr":true,"opened":"2016-11-15T12:53:29Z","opener":"1619732"},
       "271": {"comments":1,"words":43,"opened":"2016-11-15T13:05:33Z","opener":"1619732","pr":true},
       "open": 28,
-      "words": 574,
-      "comments": 23,
+      "words": 577,
+      "comments": 25,
       "opened": 4,
       "closed": 1
     },
@@ -97,7 +101,15 @@
     },
     "http": {"open":14},
     "http-parser": {"open":41},
-    "http2": {"open":4},
+    "http2": {
+      "9": {"comments":3,"words":137,"pr":true},
+      "12": {"comments":2,"words":35,"pr":true,"opened":"2016-11-15T15:07:16Z","opener":"439929","closed":"","closer":"439929"},
+      "open": 4,
+      "words": 172,
+      "opened": 1,
+      "comments": 5,
+      "closed": 1
+    },
     "inclusivity": {"open":19},
     "inclusivity-slack-inviter": {"open":1},
     "installer": {"open":13},
@@ -123,14 +135,15 @@
       "7867": {"comments":1,"words":96,"pr":true},
       "8034": {"comments":1,"words":4,"pr":true},
       "8084": {"comments":4,"words":89,"pr":true},
-      "8521": {"comments":1,"words":23,"pr":true},
+      "8521": {"comments":2,"words":34,"pr":true},
       "9229": {"comments":1,"words":7,"pr":true},
       "9270": {"comments":1,"words":88,"pr":true},
+      "9304": {"comments":2,"words":135,"pr":true},
       "9385": {"comments":2,"words":82,"pr":true},
       "9518": {"comments":2,"words":14,"pr":true},
       "9528": {"comments":1,"words":7,"pr":true},
       "9541": {"comments":1,"words":9,"pr":true},
-      "9542": {"comments":7,"words":396,"pr":true,"closed":"2016-11-15T08:57:01Z","closer":"275871"},
+      "9542": {"comments":8,"words":500,"pr":true,"closed":"","closer":"275871","reopened":"","reopener":"2512748"},
       "9543": {"comments":3,"words":105,"pr":true},
       "9546": {"comments":0,"words":69,"closed":"2016-11-15T14:14:19Z","closer":"2512748","pr":true},
       "9547": {"comments":2,"words":40,"pr":true},
@@ -148,11 +161,13 @@
       "9614": {"comments":1,"words":75,"pr":true,"opened":"2016-11-15T11:50:08Z","opener":"708013"},
       "9615": {"comments":1,"words":149,"pr":true,"opened":"2016-11-15T11:53:23Z","opener":"17704638"},
       "9616": {"comments":5,"words":72,"pr":true,"opened":"2016-11-15T11:59:55Z","opener":"8297234"},
-      "open": 910,
-      "words": 2686,
-      "comments": 54,
+      "9617": {"comments":1,"words":28,"opened":"2016-11-15T15:09:09Z","opener":"2864371","pr":true},
+      "open": 912,
+      "words": 2964,
+      "comments": 59,
       "closed": 5,
-      "opened": 7
+      "opened": 8,
+      "reopened": 1
     },
     "node-addon-examples": {"open":30},
     "node-chakracore": {"open":34},
@@ -280,7 +295,9 @@
       "login": "mcollina",
       "words": {
         "readable-stream/pulls/247#260562353": 34,
-        "readable-stream/pulls/247#260605860": 25
+        "readable-stream/pulls/247#260605860": 25,
+        "http2/pulls/9#260668784": 48,
+        "http2/pulls/12#88037684": 9
       }
     },
     "101513": {
@@ -364,7 +381,9 @@
         "docker-node/pulls/270#260638296": 124,
         "docker-node/pulls/263#260646103": 3,
         "docker-node/pulls/263#88021532": 30,
-        "docker-node/pulls/263#260663087": 17
+        "docker-node/pulls/263#260663087": 17,
+        "docker-node/pulls/263#88033940": 2,
+        "docker-node/pulls/263#260664982": 1
       }
     },
     "265896": {
@@ -393,7 +412,8 @@
         "node/pulls/9542#260586505": 40,
         "node/pulls/9616#88006510": 2,
         "node/pulls/9586#88011848": 2,
-        "node/pulls/9586#88012180": 17
+        "node/pulls/9586#88012180": 17,
+        "node/pulls/8521#260672650": 11
       }
     },
     "410211": {
@@ -414,6 +434,22 @@
         "node/pulls/9518#260571348": 12
       }
     },
+    "439929": {
+      "id": "439929",
+      "login": "jasnell",
+      "words": {
+        "http2/pulls/12": 11,
+        "http2/pulls/12#260666999": 4,
+        "http2/pulls/9#260667433": 49,
+        "http2/pulls/9#260668138": 40
+      },
+      "opened": [
+        "http2/pulls/12"
+      ],
+      "closed": [
+        "http2/pulls/12"
+      ]
+    },
     "441011": {
       "id": "441011",
       "login": "mischah",
@@ -421,6 +457,9 @@
         "node/issues/9542": 89
       },
       "closed": [
+        "node/issues/9542"
+      ],
+      "reopened": [
         "node/issues/9542"
       ]
     },
@@ -558,11 +597,16 @@
       "words": {
         "node/pulls/9556": 73,
         "node/pulls/9555": 78,
-        "build/pulls/531#260664372": 17
+        "build/pulls/531#260664372": 17,
+        "node/pulls/9304#260675312": 75,
+        "LTS/pulls/108#260680269": 1,
+        "LTS/issues/108": 160,
+        "LTS/pulls/101#260680889": 22
       },
       "closed": [
         "node/pulls/9556",
-        "node/pulls/9555"
+        "node/pulls/9555",
+        "LTS/issues/108"
       ]
     },
     "1128607": {
@@ -582,6 +626,13 @@
       "opened": [
         "build/pulls/538"
       ]
+    },
+    "1336623": {
+      "id": "1336623",
+      "login": "frankrousseau",
+      "words": {
+        "node/pulls/9304#260671450": 60
+      }
     },
     "1404810": {
       "id": "1404810",
@@ -653,7 +704,9 @@
       "words": {
         "node/pulls/9616#88022207": 5,
         "node/pulls/9614#260657559": 9,
-        "node/pulls/9528#260661086": 7
+        "node/pulls/9528#260661086": 7,
+        "node/pulls/9617#260671637": 6,
+        "node/pulls/9542#260678128": 15
       }
     },
     "2628239": {
@@ -664,6 +717,16 @@
         "nodejs.org/pulls/948#87925112": 8,
         "nodejs.org/pulls/948#260509462": 2
       }
+    },
+    "2864371": {
+      "id": "2864371",
+      "login": "IonicaBizau",
+      "words": {
+        "node/issues/9617": 22
+      },
+      "opened": [
+        "node/issues/9617"
+      ]
     },
     "3226880": {
       "id": "3226880",
