@@ -23,7 +23,7 @@
 854	172	false	open	false	68		2015-02-15T19:37:43Z	2016-10-17T17:25:31Z		os x: FSEventStreamFlushSync assertions logged to console	100		
 855	617481	false	open	false	16		2015-02-15T21:57:32Z	2016-08-11T16:02:47Z		vm: references to context inside objects are not === the original context	58		
 862	17607	false	closed	false	8		2015-02-17T05:55:09Z	2016-09-07T13:55:17Z	2015-05-06T21:14:16Z	spawn's stdio can result in stderr being closed in child	158		
-906	115237	false	open	false	32		2015-02-20T18:06:56Z	2016-11-15T16:15:14Z		net: enable TCP_NODELAY by default on all platforms	32		
+906	115237	false	open	false	33		2015-02-20T18:06:56Z	2016-11-15T21:24:02Z		net: enable TCP_NODELAY by default on all platforms	32		
 947	707147	false	open	false	8		2015-02-25T02:05:54Z	2016-10-13T15:04:37Z		EPIPE errors thrown when piping to a closed stream	363		
 983	6731985	false	open	false	21		2015-02-27T03:19:51Z	2016-11-08T18:22:22Z		Tab completion for block-scoped variables doesn't work in REPL	60		
 1013	176984	false	closed	false	45		2015-03-01T10:58:11Z	2016-10-17T07:18:56Z	2016-04-04T01:52:33Z	Replace deps/cares with pure-javascript alternative	207		
@@ -2035,7 +2035,7 @@
 8873	498775	true	closed	false	14		2016-09-30T22:33:37Z	2016-10-19T14:39:26Z	2016-10-04T15:34:33Z	meta: remove let from for loops	67		
 8874	22553123	false	open	false	1		2016-09-30T23:49:22Z	2016-10-02T08:33:11Z		zlib.inflateRawSync how do I get the number of bytes read?	120		
 8875	731722	true	closed	false	8	15	2016-10-01T01:21:56Z	2016-10-26T20:35:20Z	2016-10-26T20:35:20Z	More realistic custom inspect example	166		
-8876	2365820	true	open	false	7		2016-10-01T04:48:42Z	2016-11-14T19:11:44Z		debugger: check -e flag in debug break setup	100		
+8876	2365820	true	open	false	8		2016-10-01T04:48:42Z	2016-11-15T21:46:30Z		debugger: check -e flag in debug break setup	100		
 8877	54666	true	closed	false	1		2016-10-01T05:42:35Z	2016-10-03T10:38:09Z	2016-10-03T10:38:08Z	cluster: remove unused backlog argument	47		
 8878	54666	true	open	false	0	0	2016-10-01T05:49:24Z	2016-10-01T05:49:27Z		src: remove unused function declaration	36		
 8879	1443911	true	closed	false	1	0	2016-10-01T06:48:05Z	2016-10-04T18:40:00Z	2016-10-04T18:40:00Z	v4.x backport: doc: add `added:` information for events	6		
@@ -2374,7 +2374,7 @@
 9212	22966265	false	closed	false	2		2016-10-20T19:19:59Z	2016-10-21T04:02:59Z	2016-10-21T04:02:59Z	moment.js Install issue with proxy	53		
 9213	275871	true	open	false	8		2016-10-20T20:49:41Z	2016-10-25T11:32:22Z		src: remove unneeded AssignToContext() call	48		
 9214	11139560	false	closed	false	7		2016-10-21T00:38:07Z	2016-11-02T03:32:04Z	2016-11-02T03:32:04Z	stderr and stdout interweave when written to different streams of the same file	120		
-9215	8248574	true	open	false	5		2016-10-21T02:02:12Z	2016-10-21T12:40:07Z		doc: Update Command Line Tools download procedure	55		
+9215	8248574	true	open	false	6		2016-10-21T02:02:12Z	2016-11-15T21:59:13Z		doc: Update Command Line Tools download procedure	55		
 9216	1810178	true	closed	false	0	0	2016-10-21T02:55:39Z	2016-10-21T04:01:04Z	2016-10-21T04:01:04Z	test: name anonymous functions	64		
 9217	1810178	true	open	false	1		2016-10-21T03:25:40Z	2016-10-25T06:01:26Z		https: name anonymous functions in https	67		
 9218	2352663	true	closed	false	8	2	2016-10-21T07:48:52Z	2016-10-24T12:06:47Z	2016-10-24T12:06:47Z	tools: enable ES2016 support in ESLint	39		
@@ -2701,7 +2701,7 @@
 9539	5698911	false	open	false	1		2016-11-10T10:06:36Z	2016-11-10T12:24:48Z		Unnecessary heap usage in in-place functions.	437		
 9540	677994	true	closed	false	0	0	2016-11-10T11:14:19Z	2016-11-11T12:14:44Z	2016-11-11T12:14:44Z	doc: add missing link in changelog	24		
 9541	5292705	false	open	false	2		2016-11-10T11:36:05Z	2016-11-15T14:47:10Z		http.request meet ECONNRESET on Windows every time for certain URLs	140		
-9542	441011	false	open	false	39		2016-11-10T11:57:11Z	2016-11-15T20:55:07Z		EINVAL errors (events.js:160) with Node 7.1.0 on Windows 10	89		
+9542	441011	false	open	false	40		2016-11-10T11:57:11Z	2016-11-15T21:01:56Z		EINVAL errors (events.js:160) with Node 7.1.0 on Windows 10	89		
 9543	1935767	true	open	false			2016-11-10T14:45:00Z	2016-11-15T08:14:19Z		url: more strict validation on ipv6 hostname	45		
 9544	718899	true	open	false	2		2016-11-10T19:32:05Z	2016-11-13T21:24:27Z		test: refactor test-zlib.js	54		
 9545	739813	true	closed	false	4	0	2016-11-10T20:04:02Z	2016-11-12T08:21:17Z	2016-11-12T08:21:17Z	doc: remove Roadmap Working Group	31		
@@ -2714,7 +2714,7 @@
 9552	8873545	true	open	false	7		2016-11-11T17:50:18Z	2016-11-15T18:10:34Z		doc: add more detailed illustration for `module.exports` and `exports`.	90		
 9553	498775	true	closed	false	1		2016-11-11T20:19:51Z	2016-11-14T16:41:49Z	2016-11-14T16:41:49Z	Backport removing let in for loop declaration	134		
 9554	115237	true	closed	false	1		2016-11-11T20:32:16Z	2016-11-13T08:00:10Z	2016-11-13T08:00:10Z	doc: consistent 'Returns:'	38		
-9555	1093990	true	closed	false	3		2016-11-11T20:33:48Z	2016-11-15T17:19:49Z	2016-11-15T14:26:40Z	test: ensure nextTick is not scheduled in exit	78		
+9555	1093990	true	closed	false	6		2016-11-11T20:33:48Z	2016-11-15T21:07:09Z	2016-11-15T14:26:40Z	test: ensure nextTick is not scheduled in exit	78		
 9556	1093990	true	closed	false	1	1	2016-11-11T21:01:28Z	2016-11-15T14:21:32Z	2016-11-15T14:21:32Z	test: increase coverage of process.emitWarning	73		
 9557	11139560	false	open	false	2		2016-11-12T01:15:57Z	2016-11-12T02:15:57Z		path.normalize doesn't normalize these paths	76		
 9558	718899	true	closed	false	1	0	2016-11-12T01:42:15Z	2016-11-15T18:22:50Z	2016-11-15T18:22:50Z	Backport of #9098: test: fix flaky test-child-process-fork-dgram	70		
@@ -2757,7 +2757,7 @@
 9595	1668509	false	open	false	0		2016-11-13T21:35:46Z	2016-11-13T21:35:46Z		Keep-Alive still causes new sockets to be opened for each request	229		
 9596	8202898	false	closed	false	5		2016-11-13T23:01:30Z	2016-11-14T16:34:21Z	2016-11-14T11:30:09Z	Module NET 	30		
 9597	4855659	false	open	false	0		2016-11-13T23:30:22Z	2016-11-13T23:30:22Z		Documentation error.	59		
-9598	10393198	true	open	false	1		2016-11-13T23:53:13Z	2016-11-14T23:41:16Z		doc: fix a typo in the assert.md	35		
+9598	10393198	true	closed	false	2		2016-11-13T23:53:13Z	2016-11-15T21:50:37Z	2016-11-15T21:50:37Z	doc: fix a typo in the assert.md	35		
 9599	4519631	false	open	false	1		2016-11-14T00:32:09Z	2016-11-14T01:29:35Z		Fatal error in ../deps/v8/src/execution.cc, line 103	154		
 9600	4303	false	open	false	2		2016-11-14T01:51:44Z	2016-11-14T06:40:22Z		url: parsed .search should always be a string.	48		
 9601	1622515	true	open	false	0	0	2016-11-14T05:24:08Z	2016-11-14T05:24:08Z		repl: Proposal for better repl (implementation)	231		
