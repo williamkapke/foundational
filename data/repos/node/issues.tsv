@@ -1471,7 +1471,7 @@
 8309	6189009	false	open	false	8		2016-08-28T12:12:35Z	2016-08-29T04:02:24Z		Missing `new` in Set constructor makes variable defined using `let` unusable	100		
 8310	596741	false	open	false	57		2016-08-28T13:30:25Z	2016-10-29T16:53:31Z		Segmentation Fault	260		
 8311	696611	true	closed	false	11		2016-08-28T16:04:35Z	2016-09-13T23:42:42Z	2016-09-08T21:34:24Z	buffer: expose underlying buffer object always	86		
-8312	2512748	true	open	false	8		2016-08-28T18:19:22Z	2016-11-16T01:02:30Z		child_process: spawn() and spawnSync() validation	168		
+8312	2512748	true	open	false	9		2016-08-28T18:19:22Z	2016-11-16T15:01:43Z		child_process: spawn() and spawnSync() validation	168		
 8313	12671072	false	closed	false	1		2016-08-28T23:49:19Z	2016-08-29T00:03:41Z	2016-08-29T00:03:41Z	ES6 getters execute before being called	83		
 8314	1909610	false	closed	false	2		2016-08-29T00:09:19Z	2016-08-29T01:03:13Z	2016-08-29T00:13:04Z	6.5.0 release branch exists here but not on Node	109		
 8315	2499504	true	closed	false	6		2016-08-29T02:37:55Z	2016-09-02T21:57:07Z	2016-09-02T21:57:07Z	doc: add .md to the link	51		
@@ -2701,7 +2701,7 @@
 9539	5698911	false	open	false	1		2016-11-10T10:06:36Z	2016-11-10T12:24:48Z		Unnecessary heap usage in in-place functions.	437		
 9540	677994	true	closed	false	0	0	2016-11-10T11:14:19Z	2016-11-11T12:14:44Z	2016-11-11T12:14:44Z	doc: add missing link in changelog	24		
 9541	5292705	false	open	false	2		2016-11-10T11:36:05Z	2016-11-15T14:47:10Z		http.request meet ECONNRESET on Windows every time for certain URLs	140		
-9542	441011	false	open	false	40		2016-11-10T11:57:11Z	2016-11-15T22:12:41Z		EINVAL errors (events.js:160) with Node 7.1.0 on Windows 10	89		
+9542	441011	false	open	false	41		2016-11-10T11:57:11Z	2016-11-16T15:46:53Z		EINVAL errors (events.js:160) with Node 7.1.0 on Windows 10	89		
 9543	1935767	true	open	false	3		2016-11-10T14:45:00Z	2016-11-16T00:31:09Z		url: more strict validation on ipv6 hostname	45		
 9544	718899	true	open	false	2		2016-11-10T19:32:05Z	2016-11-13T21:24:27Z		test: refactor test-zlib.js	54		
 9545	739813	true	closed	false	4	0	2016-11-10T20:04:02Z	2016-11-12T08:21:17Z	2016-11-12T08:21:17Z	doc: remove Roadmap Working Group	31		
@@ -2793,10 +2793,13 @@
 9631	899444	true	open	false			2016-11-16T01:49:57Z	2016-11-16T08:52:26Z		src: allow getting Symbols on process.env	71		
 9632	899444	true	open	false	0	0	2016-11-16T02:04:11Z	2016-11-16T02:04:11Z		tools,doc: better manpage refs	67		
 9633	4229856	false	open	false	3		2016-11-16T07:58:49Z	2016-11-16T14:02:22Z		Output data lost from spawned process if process ends before all data read	274		
-9634	52195	false	open	false	5		2016-11-16T09:30:28Z	2016-11-16T15:00:23Z		Performance regression in instanceof in v7 and master	122		
+9634	52195	false	open	false	6		2016-11-16T09:30:28Z	2016-11-16T15:19:44Z		Performance regression in instanceof in v7 and master	122		
 9635	8297234	true	open	false	1		2016-11-16T10:21:49Z	2016-11-16T11:03:54Z		doc: onboarding.md landing prs multiple commits	43		
 9636	1260305	false	open	false	0		2016-11-16T10:30:59Z	2016-11-16T10:30:59Z		child_process documentation for stdio	51		
 9637	1260305	true	open	false	0	0	2016-11-16T10:38:24Z	2016-11-16T10:38:24Z		doc: child_process documentation for stdio	39		
 9638	704044	false	open	false	0		2016-11-16T11:38:29Z	2016-11-16T11:38:29Z		child_process.spawn does not handle arguments properly	110		
-9639	2426725	false	open	false	0		2016-11-16T14:44:30Z	2016-11-16T14:44:30Z		subject alternative names not respected by `tls.checkServerIdentity`	108		
-9640	66961	false	open	false	0		2016-11-16T14:46:45Z	2016-11-16T14:46:45Z		Segmentation fault in Generator (node 7.0/7.1/master)	468		
+9639	2426725	false	open	false	1		2016-11-16T14:44:30Z	2016-11-16T15:07:14Z		subject alternative names not respected by `tls.checkServerIdentity`	108		
+9640	66961	false	open	false	0		2016-11-16T14:46:45Z	2016-11-16T15:07:09Z		Segmentation fault in Generator (node 7.0/7.1/master)	468		
+9641	17704638	false	open	false	0		2016-11-16T15:27:03Z	2016-11-16T15:27:03Z		process.env.toString() fails	64		
+9642	19274678	false	open	false	0		2016-11-16T15:41:43Z	2016-11-16T15:41:43Z		"package.json ""main"" may specify a directory; spec says it may not"	162		
+9643	1265507	true	open	false	0	0	2016-11-16T15:48:03Z	2016-11-16T15:48:03Z		Optimize event handling with large arguments	27		
