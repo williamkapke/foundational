@@ -1804,7 +1804,7 @@
 8642	718899	true	closed	false	7		2016-09-18T04:00:41Z	2016-10-06T23:16:44Z	2016-09-20T17:25:48Z	tools: make argument alignment linting more strict	82		
 8643	11638619	true	closed	false	5		2016-09-18T05:58:34Z	2016-09-21T03:25:31Z	2016-09-21T03:25:31Z	tools: add additional ESLint rules	183		
 8644	52195	false	open	false	7		2016-09-18T08:49:25Z	2016-09-21T17:42:56Z		stream, test: Increase the coverage of _readableState and _writableState properties	186		
-8645	899444	true	open	false	7		2016-09-18T09:25:48Z	2016-10-30T17:55:35Z		"Revert ""repl: disable Ctrl+C support on win32 for now"""	64		
+8645	899444	true	closed	false	9		2016-09-18T09:25:48Z	2016-11-16T18:45:45Z	2016-11-16T18:45:45Z	"Revert ""repl: disable Ctrl+C support on win32 for now"""	64		
 8646	52195	false	open	false	3		2016-09-18T11:37:12Z	2016-10-07T14:03:01Z		doc: guide/topic on how to use streams	111		
 8647	1898870	true	closed	false	10		2016-09-18T12:40:14Z	2016-09-30T21:10:42Z	2016-09-21T00:23:43Z	https: fix memory leak with https.request()	124		
 8648	2764625	true	closed	false	1		2016-09-18T13:27:34Z	2016-09-20T22:40:06Z	2016-09-20T22:40:06Z	test: update test-child-process-recv-handle	54		
@@ -2274,7 +2274,7 @@
 9112	718899	true	closed	false	1		2016-10-15T19:29:01Z	2016-10-18T22:29:16Z	2016-10-18T22:29:16Z	tools: update to eslint 3.8.0, fix unneeded escaping in template strings	82		
 9113	718899	true	closed	false	5		2016-10-15T22:09:52Z	2016-11-15T18:36:31Z	2016-10-20T05:22:26Z	test,lib,benchmark: match function names	98		
 9114	131406	false	closed	false	5		2016-10-16T11:07:08Z	2016-10-16T22:24:21Z	2016-10-16T22:24:21Z	node 6.8: mips-arch-variant not applied everywhere in v8 dep	53		
-9115	103052	true	open	false	23		2016-10-16T11:20:13Z	2016-11-14T15:29:52Z		src: squelch unused function warnings in util.h 	37		
+9115	103052	true	open	false	22		2016-10-16T11:20:13Z	2016-11-16T18:02:50Z		src: squelch unused function warnings in util.h 	37		
 9116	3001791	true	open	false	7		2016-10-16T12:54:47Z	2016-10-28T17:07:59Z		http: defines all the fields in the constructor	57		
 9117	793830	false	open	false	5		2016-10-16T15:24:15Z	2016-10-21T12:04:03Z		Why does Buffer get reported as being a Uint8Array?	110		
 9118	12378597	false	closed	false	1		2016-10-16T15:41:52Z	2016-10-17T03:25:56Z	2016-10-16T17:07:09Z	Proxy deleteProperty throws TypeError when returning false	72		
@@ -2688,7 +2688,7 @@
 9526	12429142	false	closed	false	4		2016-11-09T03:35:45Z	2016-11-09T14:02:11Z	2016-11-09T08:54:25Z	make error left operand of shift expression is negative	111		
 9527	9364651	true	closed	false	2		2016-11-09T04:08:28Z	2016-11-11T15:11:05Z	2016-11-11T15:11:05Z	fixes link to Event Loop page	46		
 9528	2512748	true	closed	false	5	3	2016-11-09T15:25:13Z	2016-11-15T20:39:03Z	2016-11-15T20:39:03Z	test: add test for broken child process stdio	82	2512748	2016-11-15T20:39:03Z
-9529	899444	true	open	false	17		2016-11-09T17:00:42Z	2016-11-16T14:55:57Z		"Revert ""buffer: runtime deprecation of calling Buffer without new"""	106		
+9529	899444	true	open	false	17		2016-11-09T17:00:42Z	2016-11-16T18:11:52Z		"Revert ""buffer: runtime deprecation of calling Buffer without new"""	106		
 9530	3413079	false	open	false	3		2016-11-09T17:19:27Z	2016-11-16T08:39:18Z		Response strings and closures objects leak with http.Agent enabled (Memory Leak)	298		
 9531	899444	false	open	false	13		2016-11-09T21:03:01Z	2016-11-14T03:55:34Z		buffer: discuss future direction of Buffer constructor API	842		
 9532	115237	true	open	false			2016-11-09T21:04:33Z	2016-11-10T17:19:33Z		doc: clarify the callback arguments of dns.resolve	47		
@@ -2701,8 +2701,8 @@
 9539	5698911	false	open	false	1		2016-11-10T10:06:36Z	2016-11-10T12:24:48Z		Unnecessary heap usage in in-place functions.	437		
 9540	677994	true	closed	false	0	0	2016-11-10T11:14:19Z	2016-11-11T12:14:44Z	2016-11-11T12:14:44Z	doc: add missing link in changelog	24		
 9541	5292705	false	open	false	2		2016-11-10T11:36:05Z	2016-11-15T14:47:10Z		http.request meet ECONNRESET on Windows every time for certain URLs	140		
-9542	441011	false	open	false	43		2016-11-10T11:57:11Z	2016-11-16T17:51:40Z		EINVAL errors (events.js:160) with Node 7.1.0 on Windows 10	89		
-9543	1935767	true	open	false	3		2016-11-10T14:45:00Z	2016-11-16T00:31:09Z		url: more strict validation on ipv6 hostname	45		
+9542	441011	false	open	false	45		2016-11-10T11:57:11Z	2016-11-16T18:56:42Z		EINVAL errors (events.js:160) with Node 7.1.0 on Windows 10	89		
+9543	1935767	true	open	false			2016-11-10T14:45:00Z	2016-11-16T18:32:46Z		url: more strict validation on ipv6 hostname	45		
 9544	718899	true	open	false	2		2016-11-10T19:32:05Z	2016-11-13T21:24:27Z		test: refactor test-zlib.js	54		
 9545	739813	true	closed	false	4	0	2016-11-10T20:04:02Z	2016-11-12T08:21:17Z	2016-11-12T08:21:17Z	doc: remove Roadmap Working Group	31		
 9546	15190897	false	closed	false	12		2016-11-10T23:36:55Z	2016-11-15T14:14:19Z	2016-11-15T14:14:19Z	The max length of console.log output is 8275	69		
@@ -2782,27 +2782,28 @@
 9620	17607	true	open	false	0		2016-11-15T17:57:55Z	2016-11-15T18:02:19Z		doc: strip trailing whitespace	32		
 9621	635591	false	open	false	4		2016-11-15T18:16:35Z	2016-11-16T09:35:00Z		Feature request: API for debugging node child processes	191		
 9622	17607	true	open	false	5		2016-11-15T18:36:17Z	2016-11-15T19:09:01Z		doc: improve description of module `exports`	91		
-9623	17607	false	open	false	5		2016-11-15T18:41:19Z	2016-11-16T17:41:57Z		should the fact that `this` is bound to module.exports be documented?	28		
+9623	17607	false	open	false	6		2016-11-15T18:41:19Z	2016-11-16T18:32:11Z		should the fact that `this` is bound to module.exports be documented?	28		
 9624	54666	false	closed	false	4		2016-11-15T18:41:20Z	2016-11-15T23:38:20Z	2016-11-15T23:38:20Z	doc: vm documentation has invalid link	41		
 9625	3174006	true	open	false	1		2016-11-15T20:02:58Z	2016-11-16T02:45:03Z		doc: improve description of urlObject.query	68		
-9626	238531	true	open	false	6		2016-11-15T20:20:16Z	2016-11-16T17:18:40Z		tls: fix leak of WriteWrap+TLSWrap combination	165		
+9626	238531	true	open	false	7		2016-11-15T20:20:16Z	2016-11-16T18:28:34Z		tls: fix leak of WriteWrap+TLSWrap combination	165		
 9627	4421720	true	open	false	0	0	2016-11-15T20:31:15Z	2016-11-15T20:31:15Z		src,inspector: fix method name, output format	56		
 9628	10393198	true	open	false	1		2016-11-16T00:01:31Z	2016-11-16T17:33:24Z		doc: small improvements in readline code examples	137		
-9629	5351085	true	open	false	2		2016-11-16T00:13:47Z	2016-11-16T09:12:02Z		changed var to const, assert.equal() to assert.strictEqual()	60		
+9629	5351085	true	open	false	3		2016-11-16T00:13:47Z	2016-11-16T18:53:02Z		test: changed var to const, assert.equal() to assert.strictEqual()	71		
 9630	287917	true	open	false	0		2016-11-16T01:47:39Z	2016-11-16T08:55:01Z		inspector: split HTTP/WS server from the inspector	146		
-9631	899444	true	open	false			2016-11-16T01:49:57Z	2016-11-16T17:46:51Z		src: allow getting Symbols on process.env	71		
+9631	899444	true	open	false			2016-11-16T01:49:57Z	2016-11-16T18:04:37Z		src: allow getting Symbols on process.env	71		
 9632	899444	true	open	false	1		2016-11-16T02:04:11Z	2016-11-16T16:25:59Z		tools,doc: better manpage refs	67		
 9633	4229856	false	open	false	4		2016-11-16T07:58:49Z	2016-11-16T17:56:20Z		Output data lost from spawned process if process ends before all data read	274		
 9634	52195	false	open	false	10		2016-11-16T09:30:28Z	2016-11-16T17:19:22Z		Performance regression in instanceof in v7 and master	122		
-9635	8297234	true	open	false	1		2016-11-16T10:21:49Z	2016-11-16T11:03:54Z		doc: onboarding.md landing prs multiple commits	43		
-9636	1260305	false	open	false	0		2016-11-16T10:30:59Z	2016-11-16T10:30:59Z		child_process documentation for stdio	51		
-9637	1260305	true	open	false	0	0	2016-11-16T10:38:24Z	2016-11-16T10:38:24Z		doc: child_process documentation for stdio	39		
+9635	8297234	true	open	false			2016-11-16T10:21:49Z	2016-11-16T18:03:05Z		doc: onboarding.md landing prs multiple commits	43		
+9636	1260305	false	open	false	1		2016-11-16T10:30:59Z	2016-11-16T18:07:09Z		child_process documentation for stdio	51		
+9637	1260305	true	open	false	1		2016-11-16T10:38:24Z	2016-11-16T18:03:36Z		doc: child_process documentation for stdio	58		
 9638	704044	false	open	false	0		2016-11-16T11:38:29Z	2016-11-16T11:38:29Z		child_process.spawn does not handle arguments properly	110		
 9639	2426725	false	closed	false	3		2016-11-16T14:44:30Z	2016-11-16T16:31:29Z	2016-11-16T16:31:28Z	subject alternative names not respected by `tls.checkServerIdentity`	108		
-9640	66961	false	open	false	0		2016-11-16T14:46:45Z	2016-11-16T15:07:09Z		Segmentation fault in Generator (node 7.0/7.1/master)	468		
+9640	66961	false	open	false	2		2016-11-16T14:46:45Z	2016-11-16T18:54:28Z		Segmentation fault in Generator (node 7.0/7.1/master)	468		
 9641	17704638	false	open	false	0		2016-11-16T15:27:03Z	2016-11-16T15:27:03Z		process.env.toString() fails	64		
 9642	19274678	false	open	false	1		2016-11-16T15:41:43Z	2016-11-16T17:54:21Z		"package.json ""main"" may specify a directory; spec says it may not"	162		
 9643	1265507	true	open	false	4		2016-11-16T15:48:03Z	2016-11-16T17:28:06Z		Optimize event handling with large arguments	26		
 9644	803674	false	open	false	0		2016-11-16T17:04:52Z	2016-11-16T17:04:52Z		Error: spawnSync /bin/sh ENOENT	103		
-9645	15943089	true	open	false	0	0	2016-11-16T17:18:07Z	2016-11-16T17:18:07Z		build: default to ppc64 on AIX	100		
+9645	15943089	true	open	false	2		2016-11-16T17:18:07Z	2016-11-16T18:22:32Z		build: default to ppc64 on AIX	100		
 9646	327019	true	open	false	0	0	2016-11-16T17:24:58Z	2016-11-16T17:24:58Z		internal/util: move the case 'latin1'	54		
+9647	2512748	true	open	false	0	0	2016-11-16T18:56:06Z	2016-11-16T18:56:06Z		deps: upgrade libuv to 1.10.1	55		
