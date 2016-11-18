@@ -40,7 +40,7 @@
 1690	10612009	false	closed	false	7		2015-05-13T08:56:13Z	2016-07-07T20:40:26Z	2016-07-07T20:40:26Z	[dgram]no udp multicast message received when binding on a specific address	278		
 1692	10612009	false	closed	false	3		2015-05-13T10:29:17Z	2016-07-10T15:58:44Z	2016-07-10T15:58:44Z	[dgram]socket.addMembership() does not add membership to every interface	179		
 1704	579	false	open	false	38		2015-05-14T16:49:52Z	2016-08-09T20:43:31Z		Deprecation Policy	79		
-1716	1162160	false	closed	false	24		2015-05-16T17:56:53Z	2016-11-17T21:49:57Z	2016-11-17T21:49:57Z	Implement console.group	90		
+1716	1162160	false	closed	false	25		2015-05-16T17:56:53Z	2016-11-18T08:16:20Z	2016-11-17T21:49:57Z	Implement console.group	90		
 1723	3936867	false	closed	false	8		2015-05-17T19:23:22Z	2016-11-03T11:18:35Z	2015-05-18T22:02:23Z	"""this"" is not defined in constructor method of child class"	137		
 1741	11692818	false	open	false	18		2015-05-20T08:57:29Z	2016-08-10T14:06:26Z		Why does node/io.js hang when printing to the console inside a loop?	155		
 1765	900690	false	closed	false	9		2015-05-22T09:03:01Z	2016-07-06T06:54:28Z	2016-07-06T06:54:28Z	Windows: fs.realpathSync() adds trailing slash for windows share	68		
@@ -2731,10 +2731,10 @@
 9569	4590559	true	open	false	2		2016-11-12T07:46:55Z	2016-11-18T07:56:43Z		doc: fix typo in BUILDING.md	46		
 9570	4981813	true	open	false			2016-11-12T07:47:27Z	2016-11-14T13:46:53Z		test: improve test-cluster-net-send.js	81		
 9571	2077787	true	open	false	0	0	2016-11-12T07:50:52Z	2016-11-12T07:50:52Z		doc: fix e.g., to e.g. in doc/http.md	55		
-9572	2544209	true	open	false	4		2016-11-12T07:55:18Z	2016-11-17T12:53:14Z		test: use port 0 instead of common.PORT	54		
+9572	2544209	true	open	false	5		2016-11-12T07:55:18Z	2016-11-18T08:18:57Z		test: use port 0 instead of common.PORT	54		
 9573	4310946	true	open	false	2		2016-11-12T07:55:23Z	2016-11-13T21:50:52Z		test: use port 0 instead of common.PORT	36		
 9574	1403842	true	closed	false	3		2016-11-12T08:00:30Z	2016-11-14T07:48:20Z	2016-11-14T07:48:20Z	test: replace setInterval with setImmediate	73		
-9575	5195835	true	open	false	2		2016-11-12T08:01:35Z	2016-11-13T07:23:32Z		test: change from setTimeout to setImmediate	64		
+9575	5195835	true	closed	false	4		2016-11-12T08:01:35Z	2016-11-18T08:40:08Z	2016-11-18T08:40:08Z	test: change from setTimeout to setImmediate	64		
 9576	6840413	true	open	false	2		2016-11-12T08:05:01Z	2016-11-16T14:13:16Z		test: add zero, minus and undefined timeout test	81		
 9577	8508543	true	open	false	2		2016-11-12T08:05:34Z	2016-11-12T09:10:30Z		doc: fix typo in doc/moduels.md line: 132	32		
 9578	1638848	true	closed	false	3		2016-11-12T08:06:14Z	2016-11-13T06:02:40Z	2016-11-13T06:02:40Z	test: change from setTimeout to setImmediate	43		
@@ -2778,7 +2778,7 @@
 9616	8297234	true	open	false	2		2016-11-15T11:59:55Z	2016-11-15T20:59:26Z		test: run tests even if os.cpus() fails	58		
 9617	2864371	false	open	false	8		2016-11-15T15:09:09Z	2016-11-15T19:18:22Z		How to detect debug mode	22		
 9618	2352663	true	open	false	4		2016-11-15T16:14:06Z	2016-11-17T21:46:07Z		deps: update V8 to 5.5	69		
-9619	1093990	true	open	false	2		2016-11-15T17:25:04Z	2016-11-18T02:04:22Z		0.12 npm@2 update to latest (v2.15.11)	50		
+9619	1093990	true	open	false	2		2016-11-15T17:25:04Z	2016-11-18T08:48:19Z		0.12 npm@2 update to latest (v2.15.11)	50		
 9620	17607	true	open	false	0		2016-11-15T17:57:55Z	2016-11-15T18:02:19Z		doc: strip trailing whitespace	32		
 9621	635591	false	open	false	4		2016-11-15T18:16:35Z	2016-11-16T09:35:00Z		Feature request: API for debugging node child processes	191		
 9622	17607	true	open	false	5		2016-11-15T18:36:17Z	2016-11-15T19:09:01Z		doc: improve description of module `exports`	91		
@@ -2818,9 +2818,9 @@
 9656	739813	true	open	false			2016-11-17T06:35:00Z	2016-11-17T20:15:32Z		doc: add Working Group dissolution text	149		
 9657	1204466	true	open	false			2016-11-17T07:05:43Z	2016-11-18T07:45:57Z		build: Make configure file parseable on python3	59		
 9658	16486766	false	open	false	3		2016-11-17T09:53:19Z	2016-11-17T15:05:49Z		Error: Cannot find module 'internal/fs'	19		
-9659	588262	true	open	false	4		2016-11-17T11:00:27Z	2016-11-17T23:04:39Z		cluster: fixing debug port logic for forking workers	115		
+9659	588262	true	open	false	5		2016-11-17T11:00:27Z	2016-11-18T08:40:21Z		cluster: fixing debug port logic for forking workers	115		
 9660	696611	true	open	false	0		2016-11-17T12:03:15Z	2016-11-17T19:12:07Z		tools: don't build node for doc build	45		
-9661	2512748	true	open	false	4		2016-11-17T15:20:11Z	2016-11-18T04:04:40Z		buffer: empty string is not a valid encoding	68		
+9661	2512748	true	open	false	5		2016-11-17T15:20:11Z	2016-11-18T08:16:03Z		buffer: empty string is not a valid encoding	68		
 9662	19831373	false	open	false	5		2016-11-17T18:16:28Z	2016-11-18T05:13:08Z		Most Urgent      npm can't work at all	125		
 9663	718899	true	open	false	0	0	2016-11-17T18:27:52Z	2016-11-17T18:27:52Z		test: refactor test-async-wrap-*	40		
 9664	592637	false	open	false	0		2016-11-17T18:29:36Z	2016-11-17T18:29:36Z		"[Aesthetics] Why is it called ""fs.readdirSync"" and ""fs.readFileSync""?"	138		
@@ -2828,5 +2828,6 @@
 9666	5301535	true	open	false	0	0	2016-11-17T20:35:11Z	2016-11-17T20:35:11Z		test: Use strictEqual in test-tls-writewrap-leak	35		
 9667	275871	true	open	false	0	0	2016-11-17T21:10:16Z	2016-11-17T21:10:16Z		test: fix memory leaks in malloc cctests	1		
 9668	1391805	false	open	false	0		2016-11-17T22:24:04Z	2016-11-17T22:24:04Z		HTTPParser inhibits garbage collection on keep-alive connections	157		
-9669	11648785	true	open	false	3		2016-11-17T22:59:25Z	2016-11-18T03:22:50Z		used es6 conventions for variables and anonymous functions declaration	37		
+9669	11648785	true	open	false	4		2016-11-17T22:59:25Z	2016-11-18T08:21:52Z		used es6 conventions for variables and anonymous functions declaration	37		
 9670	54666	true	open	false	0	0	2016-11-18T03:30:07Z	2016-11-18T03:30:07Z		fs: do not pass Buffer when toString() fails	82		
+9671	413206	false	open	false	0		2016-11-18T08:29:35Z	2016-11-18T08:29:35Z		readFile() and readFileSync() fail to read sparse file properly on Windows	321		
