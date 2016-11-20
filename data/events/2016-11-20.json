@@ -1,10 +1,10 @@
 {
-  "words": 1551,
-  "comments": 30,
+  "words": 2403,
+  "comments": 40,
   "prs": {
-    "opened": 3,
+    "opened": 5,
     "closed": 7,
-    "words": 1551
+    "words": 2403
   },
   "issues": {
     "opened": 0,
@@ -40,7 +40,12 @@
     "docker-iojs": {"open":5},
     "docker-node": {"open":24},
     "docs": {"open":51},
-    "education": {"open":7},
+    "education": {
+      "17": {"comments":1,"words":4,"pr":true},
+      "open": 7,
+      "words": 4,
+      "comments": 1
+    },
     "email": {"open":1},
     "evangelism": {"open":20},
     "foundation-slides": {"open":4},
@@ -57,10 +62,11 @@
     "iojs.org": {"open":9},
     "live.nodejs.org": {"open":17},
     "llnode": {
-      "35": {"comments":4,"words":66,"pr":true},
+      "35": {"comments":8,"words":257,"pr":true},
+      "51": {"comments":1,"words":2,"pr":true},
       "open": 9,
-      "words": 66,
-      "comments": 4
+      "words": 259,
+      "comments": 9
     },
     "logos": {"open":0},
     "membership": {"open":4},
@@ -68,6 +74,7 @@
     "node": {
       "8603": {"comments":1,"words":2,"pr":true},
       "8610": {"comments":2,"words":100,"pr":true,"closed":"2016-11-20T02:35:38Z","closer":"899444"},
+      "8804": {"comments":1,"words":16,"pr":true},
       "9358": {"comments":1,"words":58,"pr":true},
       "9377": {"comments":1,"words":58,"pr":true},
       "9398": {"comments":1,"words":54,"pr":true,"closed":"2016-11-20T00:22:35Z","closer":"899444"},
@@ -78,13 +85,15 @@
       "9641": {"comments":0,"words":64,"closed":"2016-11-20T00:52:41Z","closer":"899444","pr":true},
       "9700": {"comments":2,"words":19,"pr":true},
       "9702": {"comments":4,"words":147,"opened":"2016-11-20T00:36:09Z","opener":"170197","pr":true,"closed":"","closer":"170197"},
-      "9703": {"comments":3,"words":524,"pr":true,"opened":"2016-11-20T02:06:30Z","opener":"4443482"},
+      "9703": {"comments":6,"words":571,"pr":true,"opened":"2016-11-20T02:06:30Z","opener":"4443482"},
       "9704": {"comments":0,"words":21,"pr":true,"opened":"2016-11-20T02:21:42Z","opener":"10393198"},
-      "open": 926,
-      "words": 1343,
-      "comments": 21,
+      "9705": {"comments":0,"words":64,"opened":"2016-11-20T04:28:02Z","opener":"23608711","pr":true},
+      "9706": {"comments":0,"words":528,"opened":"2016-11-20T04:40:33Z","opener":"627972","pr":true},
+      "open": 928,
+      "words": 1998,
+      "comments": 25,
       "closed": 7,
-      "opened": 3
+      "opened": 5
     },
     "node-addon-examples": {"open":30},
     "node-chakracore": {"open":34},
@@ -182,7 +191,10 @@
         "llnode/pulls/35#261756920": 49,
         "llnode/pulls/35#261756987": 4,
         "llnode/pulls/35#261756992": 2,
-        "llnode/pulls/35#261757032": 11
+        "llnode/pulls/35#261757032": 11,
+        "llnode/pulls/35#261757680": 3,
+        "llnode/pulls/35#261757790": 20,
+        "llnode/pulls/51#261758087": 2
       }
     },
     "439929": {
@@ -197,7 +209,33 @@
       "login": "rvagg",
       "words": {
         "TSC/pulls/170#261755717": 69,
-        "TSC/pulls/170#261757413": 10
+        "TSC/pulls/170#261757413": 10,
+        "llnode/pulls/35#261757636": 130,
+        "llnode/pulls/35#261758050": 38
+      }
+    },
+    "502396": {
+      "id": "502396",
+      "login": "bnb",
+      "words": {
+        "education/pulls/17#261757575": 4
+      }
+    },
+    "627972": {
+      "id": "627972",
+      "login": "davidvetrano",
+      "words": {
+        "node/issues/9706": 528
+      },
+      "opened": [
+        "node/issues/9706"
+      ]
+    },
+    "718899": {
+      "id": "718899",
+      "login": "Trott",
+      "words": {
+        "node/pulls/8804#261758712": 16
       }
     },
     "899444": {
@@ -217,7 +255,8 @@
         "node/pulls/9703#88792198": 3,
         "node/pulls/9703#88792219": 22,
         "node/pulls/8610#261754304": 7,
-        "node/pulls/9703#88792460": 63
+        "node/pulls/9703#88792460": 63,
+        "node/pulls/9703#88793110": 12
       },
       "closed": [
         "node/pulls/9631"
@@ -264,7 +303,9 @@
       "id": "4443482",
       "login": "davidgilbertson",
       "words": {
-        "node/pulls/9703": 436
+        "node/pulls/9703": 436,
+        "node/pulls/9703#88793070": 23,
+        "node/pulls/9703#88793206": 12
       },
       "opened": [
         "node/pulls/9703"
@@ -309,6 +350,16 @@
       },
       "closed": [
         "node/issues/9641"
+      ]
+    },
+    "23608711": {
+      "id": "23608711",
+      "login": "semiphore",
+      "words": {
+        "node/issues/9705": 64
+      },
+      "opened": [
+        "node/issues/9705"
       ]
     }
   }
