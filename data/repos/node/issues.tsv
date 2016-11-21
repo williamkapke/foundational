@@ -2693,9 +2693,9 @@
 9526	12429142	false	closed	false	4		2016-11-09T03:35:45Z	2016-11-09T14:02:11Z	2016-11-09T08:54:25Z	make error left operand of shift expression is negative	111		
 9527	9364651	true	closed	false	2		2016-11-09T04:08:28Z	2016-11-11T15:11:05Z	2016-11-11T15:11:05Z	fixes link to Event Loop page	46		
 9528	2512748	true	closed	false	5	3	2016-11-09T15:25:13Z	2016-11-15T20:39:03Z	2016-11-15T20:39:03Z	test: add test for broken child process stdio	82	2512748	2016-11-15T20:39:03Z
-9529	899444	true	open	false	19		2016-11-09T17:00:42Z	2016-11-21T07:12:39Z		"Revert ""buffer: runtime deprecation of calling Buffer without new"""	106		
+9529	899444	true	open	false	23		2016-11-09T17:00:42Z	2016-11-21T14:31:37Z		"Revert ""buffer: runtime deprecation of calling Buffer without new"""	106		
 9530	3413079	false	open	false	5		2016-11-09T17:19:27Z	2016-11-18T19:54:40Z		Response strings and closures objects leak with http.Agent enabled (Memory Leak)	298		
-9531	899444	false	open	false	28		2016-11-09T21:03:01Z	2016-11-21T06:40:41Z		buffer: discuss future direction of Buffer constructor API	842		
+9531	899444	false	open	false	28		2016-11-09T21:03:01Z	2016-11-21T14:26:09Z		buffer: discuss future direction of Buffer constructor API	842		
 9532	115237	true	open	false			2016-11-09T21:04:33Z	2016-11-20T08:33:10Z		doc: clarify the callback arguments of dns.resolve	47		
 9533	941925	false	open	false	0		2016-11-09T22:31:38Z	2016-11-09T22:31:38Z		Design of legacy tls socket's destroy	330		
 9534	6477435	false	closed	false	7		2016-11-09T23:11:18Z	2016-11-13T20:04:51Z	2016-11-10T10:36:15Z	Spawning child processes in bash on Windows can crash the parent process	118		
@@ -2798,7 +2798,7 @@
 9631	899444	true	closed	false	3		2016-11-16T01:49:57Z	2016-11-20T01:40:46Z	2016-11-20T00:52:06Z	src: allow getting Symbols on process.env	71		
 9632	899444	true	closed	false	3		2016-11-16T02:04:11Z	2016-11-19T23:55:44Z	2016-11-19T23:55:44Z	tools,doc: better manpage refs	67		
 9633	4229856	false	open	false	6		2016-11-16T07:58:49Z	2016-11-16T20:13:28Z		Output data lost from spawned process if process ends before all data read	274		
-9634	52195	false	open	false	23		2016-11-16T09:30:28Z	2016-11-21T10:08:13Z		Performance regression of instanceof in v7 and master	122		
+9634	52195	false	open	false	24		2016-11-16T09:30:28Z	2016-11-21T14:54:00Z		Performance regression of instanceof in v7 and master	122		
 9635	8297234	true	open	false			2016-11-16T10:21:49Z	2016-11-19T20:34:05Z		doc: onboarding.md landing prs multiple commits	43		
 9636	1260305	false	closed	false	3		2016-11-16T10:30:59Z	2016-11-18T22:43:51Z	2016-11-18T22:43:51Z	child_process documentation for stdio	51		
 9637	1260305	true	closed	false	6		2016-11-16T10:38:24Z	2016-11-19T22:05:01Z	2016-11-18T22:43:25Z	doc: child_process documentation for stdio	58		
@@ -2869,7 +2869,7 @@
 9702	170197	false	open	false	2		2016-11-20T00:36:09Z	2016-11-20T01:01:24Z		URL auth issue	34		
 9703	4443482	true	open	false			2016-11-20T02:06:30Z	2016-11-21T06:11:28Z		Doc fixes	436		
 9704	10393198	true	open	false	0	0	2016-11-20T02:21:42Z	2016-11-20T02:21:42Z		doc: fix typo in assert code example	21		
-9705	23608711	false	open	false	0		2016-11-20T04:28:02Z	2016-11-20T04:28:02Z		module.parent or require.main or process.mainModule for checking if a file is being run as a script?	64		
+9705	23608711	false	open	false	0		2016-11-20T04:28:02Z	2016-11-21T14:59:15Z		module.parent or require.main or process.mainModule for checking if a file is being run as a script?	64		
 9706	627972	false	open	false	1		2016-11-20T04:40:33Z	2016-11-20T07:33:36Z		IPC channel stops delivering messages to cluster workers	528		
 9707	54666	false	open	false	3		2016-11-20T05:21:08Z	2016-11-20T17:13:31Z		build: mkpeephole fails during cross compiling	248		
 9708	803101	false	open	false	0		2016-11-20T13:35:06Z	2016-11-21T11:59:59Z		Wierd behavior on later versions of node	416		
@@ -2877,9 +2877,10 @@
 9710	5234060	false	open	false	1		2016-11-20T15:24:39Z	2016-11-20T17:30:06Z		doc issue: socket server 'error' event: 'close' is not called as described in doc.	239		
 9711	13315143	true	open	false			2016-11-20T18:22:42Z	2016-11-20T23:32:51Z		test:Change declaration by var to let.	75		
 9712	3283419	false	open	false	0		2016-11-20T18:33:20Z	2016-11-20T18:33:20Z		npm install issue	61		
-9713	3283419	false	open	false	0		2016-11-20T19:11:23Z	2016-11-20T19:11:23Z		problem with npm start	30		
+9713	3283419	false	closed	false	2		2016-11-20T19:11:23Z	2016-11-21T14:41:25Z	2016-11-20T19:13:18Z	problem with npm start	30		
 9714	54666	false	open	false	0		2016-11-20T23:22:25Z	2016-11-20T23:22:25Z		doc: repl deprecation styling results in unreadable text	39		
 9715	718899	true	open	false			2016-11-21T05:16:18Z	2016-11-21T09:17:35Z		test:refactor test-tls-hello-parser-failure	51		
 9716	9363437	false	open	false	0		2016-11-21T07:42:40Z	2016-11-21T07:42:40Z		Test case fail with error of heap out of memory	83		
 9717	172594	false	open	false	3		2016-11-21T10:18:08Z	2016-11-21T13:21:23Z		Eliminate crashes on Windows by making 'fs' always graceful 	85		
 9718	20194640	false	open	false	0		2016-11-21T11:13:28Z	2016-11-21T11:13:28Z		npm install	59		
+9719	4985028	true	open	false	0	0	2016-11-21T14:04:56Z	2016-11-21T14:04:56Z		Experimental: Symlinks Just Work	3267		
