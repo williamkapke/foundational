@@ -309,7 +309,7 @@
 6344	718899	true	closed	false	11		2016-04-22T05:35:43Z	2016-07-11T19:57:26Z	2016-04-28T17:58:41Z	crypto: fix error in deprecation message	72		
 6346	8060970	false	open	false	13		2016-04-22T13:54:20Z	2016-07-04T09:25:53Z		process._tickCallback - tock is undefined	205		
 6354	3625244	false	closed	false	13		2016-04-23T07:44:20Z	2016-07-05T12:12:22Z	2016-04-23T08:21:56Z	Does make sense to upgrade V8 to 5.1?	34		
-6374	1356314	true	closed	false	12		2016-04-25T15:57:37Z	2016-11-18T11:41:03Z	2016-04-26T15:52:49Z	crypto: Read OpenSSL config before init	136		
+6374	1356314	true	closed	false	13		2016-04-25T15:57:37Z	2016-11-22T10:28:42Z	2016-04-26T15:52:49Z	crypto: Read OpenSSL config before init	136		
 6375	1093990	true	open	false	79		2016-04-25T17:23:13Z	2016-08-26T22:47:50Z		"lib,src: ""throw"" on unhandled promise rejections"	93		
 6376	1131464	true	closed	false	47		2016-04-25T18:19:43Z	2016-07-13T06:43:47Z	2016-06-27T20:31:48Z	crypto: Allow GCM ciphers to have a longer IV length	61		
 6378	15952	true	closed	false	13	8	2016-04-25T19:52:42Z	2016-07-15T15:12:56Z	2016-07-15T15:12:56Z	doc: Warn against `uncaughtException` dependency.	59		
@@ -2892,9 +2892,9 @@
 9725	354296	false	closed	false	5		2016-11-21T20:52:43Z	2016-11-21T23:37:15Z	2016-11-21T23:37:15Z	fs.Stats class throws an exception instead of returning false with stat.isFile() or stat.isDirectory() when no directory or file exists at that path	340		
 9726	635591	true	open	false	1		2016-11-21T22:15:04Z	2016-11-22T06:19:01Z		Symbol key props visible in inspection by default	88		
 9727	718899	true	open	false	0	0	2016-11-21T22:26:13Z	2016-11-21T22:26:13Z		test: fix flaky test-inspector	76		
-9728	9373002	false	open	false	2		2016-11-21T22:54:09Z	2016-11-21T23:07:59Z		AIX: Intermittent failure on  pseudo-tty/test-tty-wrap	53		
-9729	10393198	false	open	false	8		2016-11-21T23:47:07Z	2016-11-22T08:44:47Z		Strange deoptimzations in cycles	285		
-9730	899444	true	open	false	3		2016-11-22T04:41:08Z	2016-11-22T09:20:42Z		deps: cherry-pick 08377af from v8 upstream	117		
+9728	9373002	false	open	false	5		2016-11-21T22:54:09Z	2016-11-22T11:00:12Z		AIX: Intermittent failure on  pseudo-tty/test-tty-wrap	53		
+9729	10393198	false	open	false	8		2016-11-21T23:47:07Z	2016-11-22T10:35:08Z		Strange deoptimzations in cycles	285		
+9730	899444	true	open	false	5		2016-11-22T04:41:08Z	2016-11-22T10:45:46Z		deps: cherry-pick 08377af from v8 upstream	117		
 9731	718899	true	open	false	0	0	2016-11-22T04:48:03Z	2016-11-22T04:48:03Z		doc: clarify slashes-appending in url module	28		
 9732	718899	true	open	false	1		2016-11-22T06:03:24Z	2016-11-22T09:02:50Z		test: refactor common.js	54		
 9733	899444	true	closed	false	2		2016-11-22T06:31:40Z	2016-11-22T07:59:33Z	2016-11-22T07:59:33Z	v4.x: backport node::Malloc	26		
@@ -2902,3 +2902,4 @@
 9735	498775	true	open	false	0	0	2016-11-22T09:04:52Z	2016-11-22T09:04:52Z		V6.9.2 proposal	1623		
 9736	498775	true	open	false	0	0	2016-11-22T09:12:28Z	2016-11-22T09:12:28Z		v4.7.0 proposal	1271		
 9737	58742	true	open	false	0	0	2016-11-22T09:24:56Z	2016-11-22T09:24:56Z		doc: typo in util.inherits documentation for ES6 example	35		
+9738	22852830	false	open	false	0		2016-11-22T10:13:41Z	2016-11-22T10:13:41Z		the issue #6374 has being applied only for Node 6.0.0	33		
