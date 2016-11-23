@@ -77,7 +77,7 @@
 2642	2645436	false	open	false	30		2015-09-02T06:06:18Z	2016-06-30T18:50:44Z		Keep alive connection do not get closed with server.close()	106		
 2668	291301	false	open	false	7		2015-09-02T21:50:48Z	2016-08-04T02:25:23Z		Unreachable code in buffer.js and unsigned bitwise shifts.	293		
 2681	439929	false	closed	false	5		2015-09-03T15:40:56Z	2016-06-30T23:21:20Z	2016-06-30T23:21:20Z	child_process: execFile and fork arg parsing ambiguity	136		
-2738	3959052	false	closed	false	10		2015-09-08T14:18:32Z	2016-11-23T14:31:13Z	2016-01-07T19:29:18Z	Node.js GC in low memory environments	132		
+2738	3959052	false	closed	false	12		2015-09-08T14:18:32Z	2016-11-23T16:52:28Z	2016-01-07T19:29:18Z	Node.js GC in low memory environments	132		
 2741	275871	true	closed	false	35	18	2015-09-08T19:11:39Z	2016-10-25T11:40:35Z	2016-10-25T11:40:35Z	src: log warning on process.binding('natives')	28		
 2760	194482	false	closed	false	13		2015-09-09T07:12:46Z	2016-08-29T20:25:34Z	2015-09-09T09:46:00Z	--harmony_modules isn't working?	69		
 2763	5754074	false	closed	false	17		2015-09-09T08:09:41Z	2016-10-28T16:17:32Z	2015-09-21T06:56:36Z	"App crashes node4 ""Segmentation fault (core dumped)"""	20		
@@ -143,7 +143,7 @@
 3786	190866	false	closed	false	7		2015-11-12T10:04:27Z	2016-07-15T13:20:28Z	2016-07-15T13:20:28Z	Still gets a problem with github-url-from-git module not found on Windows	35		
 3796	4813414	false	closed	false	21		2015-11-12T19:24:13Z	2016-09-16T22:54:41Z	2016-09-16T22:54:41Z	test-debug-signal-cluster.js fails sometimes (investigate flaky test)	111		
 3829	4813414	false	closed	false	11		2015-11-15T04:29:13Z	2016-08-03T09:09:58Z	2016-06-07T22:25:36Z	node5: test-repl-envvars.js fails if ~/.node_repl_history is empty	63		
-3851	3054867	false	closed	false	16		2015-11-16T11:39:47Z	2016-11-23T14:25:56Z	2015-11-16T11:47:40Z	Spread operator does not work without a flag --harmony	43		
+3851	3054867	false	closed	false	16		2015-11-16T11:39:47Z	2016-11-23T16:22:31Z	2015-11-16T11:47:40Z	Spread operator does not work without a flag --harmony	43		
 3891	498775	false	open	false	14		2015-11-18T01:02:45Z	2016-08-09T16:36:03Z		improve error messge in lib/dns	88		
 3898	4831315	false	closed	false	44		2015-11-18T09:01:07Z	2016-07-01T08:53:04Z	2015-12-09T13:18:25Z	trap invalid opcode ip:fea6f9	55		
 3931	4813414	false	closed	false	13		2015-11-20T00:52:44Z	2016-08-03T08:53:08Z	2016-06-08T00:01:15Z	tools/doc/html.js produces invalid html	67		
@@ -158,7 +158,7 @@
 4092	11175771	false	open	false	1		2015-12-01T09:38:49Z	2016-09-02T12:37:02Z		node.js Setup Wizard ended prematurely	35		
 4111	1524333	true	open	false	29		2015-12-02T00:40:22Z	2016-07-20T16:10:21Z		Windows post-install screen additional build tools messaging	155		
 4169	54666	true	closed	false	20		2015-12-06T06:38:35Z	2016-08-30T14:10:41Z	2016-03-18T23:29:42Z	timers: improve setImmediate() performance	51		
-4175	16188318	false	open	false	27		2015-12-07T10:29:32Z	2016-10-17T19:59:15Z		Node uses an hardcoded list of certificate authorities	240		
+4175	16188318	false	closed	false	27		2015-12-07T10:29:32Z	2016-11-23T16:39:37Z	2016-11-23T16:39:37Z	Node uses an hardcoded list of certificate authorities	240		
 4179	6068824	false	closed	false	15		2015-12-07T22:13:03Z	2016-08-15T20:12:24Z	2016-05-09T12:05:23Z	util.inherits does not establish prototype chain	176		
 4217	96150	true	closed	false	32	3	2015-12-09T21:53:28Z	2016-10-05T18:50:34Z	2016-10-05T18:50:34Z	fs: add accessibleSync() which returns a boolean	9		
 4236	10103531	false	open	false	8		2015-12-11T01:18:07Z	2016-07-13T03:34:14Z		child_process.spawn() has undocumented 200kb buffer limit	74		
@@ -2307,7 +2307,7 @@
 9136	12628373	false	open	false	0		2016-10-17T17:16:52Z	2016-10-17T17:16:52Z		Getting error while installing protractor after installing node version	210		
 9137	419139	false	open	false	5		2016-10-17T17:54:24Z	2016-11-02T13:33:21Z		Build fails when the path to the build root is too long	132		
 9138	4976075	true	closed	false	9	0	2016-10-17T17:55:22Z	2016-11-16T22:14:42Z	2016-11-16T22:14:42Z	Cherry pick 3c39bac from upstream V8	45		
-9139	17607	true	open	false	22		2016-10-17T19:35:25Z	2016-11-22T21:07:49Z		crypto: allow adding extra certs to well-known CAs	179		
+9139	17607	true	closed	false	24	70	2016-10-17T19:35:25Z	2016-11-23T16:39:37Z	2016-11-23T16:39:37Z	crypto: allow adding extra certs to well-known CAs	179	17607	2016-11-23T16:39:37Z
 9140	19806671	false	open	false	0		2016-10-17T21:10:03Z	2016-10-17T21:10:03Z		TypeError: Cannot call method 'forEach' of undefined	190		
 9141	419139	true	open	false	4		2016-10-17T22:52:25Z	2016-10-19T14:10:30Z		gyp: fix node build failure with long build directory path on Linux	138		
 9142	495647	true	open	false	4		2016-10-17T23:16:06Z	2016-10-19T03:04:44Z		tools: check tag is on github before release	31		
@@ -2660,7 +2660,7 @@
 9489	10393198	false	open	false	3		2016-11-06T06:48:15Z	2016-11-06T13:53:22Z		fs.readFileSync can't return a string for a big file	114		
 9490	1084056	true	open	false	1		2016-11-06T12:59:27Z	2016-11-07T12:34:29Z		test: improve test-debugger-util-regression	124		
 9491	1336590	false	open	false	3		2016-11-06T13:17:21Z	2016-11-08T10:46:02Z		process.arch not matching with systems arch output for ARM	131		
-9492	696611	true	open	false			2016-11-06T13:48:36Z	2016-11-23T14:54:38Z		buffer: convert offset & length to int properly	144		
+9492	696611	true	open	false			2016-11-06T13:48:36Z	2016-11-23T16:27:35Z		buffer: convert offset & length to int properly	144		
 9493	718899	false	open	false	7		2016-11-06T13:57:57Z	2016-11-07T01:54:11Z		"timers ""depth"" benchmark usefulness"	214		
 9494	4985028	false	open	false	1		2016-11-06T14:50:31Z	2016-11-06T15:13:55Z		"Research Discussion: ""Smash-ons"" vs add-ons to simplify access to native libraries"	312		
 9495	767105	true	closed	false	1		2016-11-06T21:42:39Z	2016-11-11T20:05:14Z	2016-11-11T20:05:14Z	grammar and structure revisions of wg doc	69		
@@ -2710,7 +2710,7 @@
 9539	5698911	false	open	false	1		2016-11-10T10:06:36Z	2016-11-10T12:24:48Z		Unnecessary heap usage in in-place functions.	437		
 9540	677994	true	closed	false	0	0	2016-11-10T11:14:19Z	2016-11-11T12:14:44Z	2016-11-11T12:14:44Z	doc: add missing link in changelog	24		
 9541	5292705	false	open	false	2		2016-11-10T11:36:05Z	2016-11-15T14:47:10Z		http.request meet ECONNRESET on Windows every time for certain URLs	140		
-9542	441011	false	closed	false	56		2016-11-10T11:57:11Z	2016-11-23T12:37:05Z	2016-11-17T14:57:27Z	EINVAL errors (events.js:160) with Node 7.1.0 on Windows 10	89		
+9542	441011	false	closed	false	57		2016-11-10T11:57:11Z	2016-11-23T16:20:54Z	2016-11-17T14:57:27Z	EINVAL errors (events.js:160) with Node 7.1.0 on Windows 10	89		
 9543	1935767	true	open	false	4		2016-11-10T14:45:00Z	2016-11-17T00:08:23Z		url: more strict validation on ipv6 hostname	45		
 9544	718899	true	open	false	2		2016-11-10T19:32:05Z	2016-11-13T21:24:27Z		test: refactor test-zlib.js	54		
 9545	739813	true	closed	false	4	0	2016-11-10T20:04:02Z	2016-11-12T08:21:17Z	2016-11-12T08:21:17Z	doc: remove Roadmap Working Group	31		
@@ -2902,7 +2902,7 @@
 9731	718899	true	open	false			2016-11-22T04:48:03Z	2016-11-22T22:31:52Z		doc: clarify slashes-appending in url module	28		
 9732	718899	true	open	false	2		2016-11-22T06:03:24Z	2016-11-22T19:31:07Z		test: refactor common.js	54		
 9733	899444	true	closed	false	2		2016-11-22T06:31:40Z	2016-11-22T07:59:33Z	2016-11-22T07:59:33Z	v4.x: backport node::Malloc	26		
-9734	5153007	false	open	false	0		2016-11-22T08:24:33Z	2016-11-22T08:24:33Z		Process crashes when trying to log a large object	51		
+9734	5153007	false	open	false	5		2016-11-22T08:24:33Z	2016-11-23T16:39:26Z		Process crashes when trying to log a large object	74		
 9735	498775	true	open	false	0	0	2016-11-22T09:04:52Z	2016-11-22T09:04:52Z		V6.9.2 proposal	1623		
 9736	498775	true	open	false	1		2016-11-22T09:12:28Z	2016-11-23T07:43:42Z		v4.7.0 proposal	1271		
 9737	58742	true	open	false	0	0	2016-11-22T09:24:56Z	2016-11-22T09:24:56Z		doc: typo in util.inherits documentation for ES6 example	35		
@@ -2912,7 +2912,7 @@
 9741	3967972	true	open	false			2016-11-22T14:27:06Z	2016-11-23T08:43:19Z		test: add toASCII and toUnicode punycode tests	60		
 9742	275871	true	open	false	0	0	2016-11-22T16:16:58Z	2016-11-22T16:16:58Z		tls: TLSSocket emits 'error' on handshake failure	25		
 9743	8314616	false	open	false	1		2016-11-22T16:40:23Z	2016-11-22T17:25:20Z		Node REPL preprocessing input string for custom eval functions	73		
-9744	899444	true	open	false	2		2016-11-22T17:54:54Z	2016-11-23T15:54:12Z		console: do not emit error events	72		
+9744	899444	true	open	false	4		2016-11-22T17:54:54Z	2016-11-23T16:11:27Z		console: do not emit error events	72		
 9745	1093990	true	closed	false	3	1	2016-11-22T18:09:47Z	2016-11-22T23:39:26Z	2016-11-22T23:39:26Z	v7.2.0 proposal	119	1093990	2016-11-22T23:39:26Z
 9746	9373002	true	open	false	2		2016-11-22T18:55:18Z	2016-11-22T19:01:22Z		test: exclude tests failing on AIX for v4.x	109		
 9747	718899	true	open	false	0	0	2016-11-22T19:35:24Z	2016-11-22T19:35:24Z		v6 backport: repl: refactor lib/repl.js	48		
@@ -2927,14 +2927,15 @@
 9756	1490	false	open	false	0		2016-11-23T10:56:02Z	2016-11-23T10:56:02Z		Infinite loop in timers.js	210		
 9757	1559888	true	open	false	0	0	2016-11-23T11:35:31Z	2016-11-23T11:35:31Z		Fix unused result warning in node_url.cc (nit)	48		
 9758	16735925	false	open	false	0		2016-11-23T11:51:29Z	2016-11-23T11:51:29Z		Allow `start` option to be string in readline	80		
-9759	1490	true	open	false			2016-11-23T11:52:52Z	2016-11-23T15:33:42Z		timers: prevent infinite loop when subsequent immediates are cleared - WIP	144		
+9759	1490	true	open	false	6		2016-11-23T11:52:52Z	2016-11-23T16:13:41Z		timers: prevent infinite loop when subsequent immediates are cleared - WIP	144		
 9760	173559	false	open	false	1		2016-11-23T12:53:56Z	2016-11-23T13:21:57Z		v8_inspector: HTTP /json/version returns array instead of object	74		
 9761	1211498	true	closed	false	2		2016-11-23T13:03:26Z	2016-11-23T14:40:28Z	2016-11-23T13:18:20Z	crypto: do not use pointers to std::vector	88		
 9762	275871	true	open	false	0	0	2016-11-23T13:21:03Z	2016-11-23T13:21:03Z		inspector: /json/version returns object, not array	15		
 9763	176984	true	open	false	0	0	2016-11-23T13:21:08Z	2016-11-23T13:21:08Z		v4: fix building v8 on libc++ 3.8.0	57		
 9764	12443664	false	open	false	1		2016-11-23T13:24:04Z	2016-11-23T15:24:28Z		Perf issue: Increased footprint in benchmark on PPC64 on 6.8.0	163		
 9765	9373002	false	open	false	2		2016-11-23T14:57:36Z	2016-11-23T15:03:36Z		AIX: hang on message/vm_dont_display_syntax_error	34		
-9766	1559888	false	open	false	0		2016-11-23T15:10:59Z	2016-11-23T15:10:59Z		Node.js API cleanup ideas for feedback	111		
+9766	1559888	false	open	false	3		2016-11-23T15:10:59Z	2016-11-23T16:47:02Z		Node.js API cleanup ideas for feedback	112		
 9767	1559888	true	open	false	0	0	2016-11-23T15:15:06Z	2016-11-23T15:15:06Z		API cleanup: remove node_internals.h dependency from node.h	171		
 9768	1037138	false	open	false	0		2016-11-23T15:15:15Z	2016-11-23T15:15:15Z		debug list() command showing an extra }); at the end	86		
 9769	6487691	true	open	false	0	0	2016-11-23T15:40:48Z	2016-11-23T15:40:48Z		Make --shared on AIX work on v6.x	54		
+9770	17607	true	open	false	0	0	2016-11-23T16:53:27Z	2016-11-23T16:53:27Z		Extendable ca certs v6	8		
