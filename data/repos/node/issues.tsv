@@ -29,6 +29,7 @@
 1013	176984	false	closed	false	45		2015-03-01T10:58:11Z	2016-10-17T07:18:56Z	2016-04-04T01:52:33Z	Replace deps/cares with pure-javascript alternative	207		
 1127	509651	false	open	false	10		2015-03-11T20:57:31Z	2016-10-25T21:03:25Z		crypto: sign/verify support for RSASSA-PSS	72		
 1128	36662	false	open	false	17		2015-03-11T22:48:11Z	2016-08-29T14:15:29Z		feature request: a way to inspect what's in the event loop	137		
+1173	2924002	false	closed	false	16		2015-03-17T16:37:38Z	2016-11-23T06:28:44Z	2015-03-17T22:53:11Z	installation problem	178		
 1271	275871	false	open	false	11		2015-03-26T15:30:40Z	2016-09-17T21:21:22Z		timer,domain: timers don't maintain order after exception	62		
 1278	532414	false	closed	false	37		2015-03-26T19:55:14Z	2016-08-22T21:08:42Z	2016-02-12T21:20:04Z	Compressed packages	136		
 1374	10247	false	closed	false	16		2015-04-08T13:46:19Z	2016-10-21T07:20:28Z	2015-09-03T06:13:19Z	Fatal Error (Abort) creating string larger than 268435440 bytes	93		
@@ -2696,7 +2697,7 @@
 9528	2512748	true	closed	false	5	3	2016-11-09T15:25:13Z	2016-11-15T20:39:03Z	2016-11-15T20:39:03Z	test: add test for broken child process stdio	82	2512748	2016-11-15T20:39:03Z
 9529	899444	true	open	false	23		2016-11-09T17:00:42Z	2016-11-21T14:31:37Z		"Revert ""buffer: runtime deprecation of calling Buffer without new"""	106		
 9530	3413079	false	open	false	5		2016-11-09T17:19:27Z	2016-11-18T19:54:40Z		Response strings and closures objects leak with http.Agent enabled (Memory Leak)	298		
-9531	899444	false	open	false	39		2016-11-09T21:03:01Z	2016-11-22T17:15:58Z		buffer: discuss future direction of Buffer constructor API	842		
+9531	899444	false	open	false	41		2016-11-09T21:03:01Z	2016-11-23T06:50:34Z		buffer: discuss future direction of Buffer constructor API	842		
 9532	115237	true	open	false			2016-11-09T21:04:33Z	2016-11-20T08:33:10Z		doc: clarify the callback arguments of dns.resolve	47		
 9533	941925	false	open	false	0		2016-11-09T22:31:38Z	2016-11-09T22:31:38Z		Design of legacy tls socket's destroy	330		
 9534	6477435	false	closed	false	7		2016-11-09T23:11:18Z	2016-11-13T20:04:51Z	2016-11-10T10:36:15Z	Spawning child processes in bash on Windows can crash the parent process	118		
@@ -2726,7 +2727,7 @@
 9558	718899	true	closed	false	1	0	2016-11-12T01:42:15Z	2016-11-15T18:22:50Z	2016-11-15T18:22:50Z	Backport of #9098: test: fix flaky test-child-process-fork-dgram	70		
 9559	718899	true	closed	false	0		2016-11-12T01:52:51Z	2016-11-14T16:58:23Z	2016-11-14T16:58:23Z	Backport #9098: test: fix flaky test-child-process-fork-dgram	72		
 9560	10602	true	closed	false	2	0	2016-11-12T03:19:08Z	2016-11-13T07:51:30Z	2016-11-13T07:51:29Z	doc: simplify process.memoryUsage() example code	59		
-9561	10602	false	closed	false	9		2016-11-12T06:36:37Z	2016-11-22T17:29:42Z	2016-11-22T17:29:42Z	segfault if clearTimeout(interval)	121		
+9561	10602	false	closed	false	9		2016-11-12T06:36:37Z	2016-11-23T06:19:22Z	2016-11-22T17:29:42Z	segfault if clearTimeout(interval)	121		
 9562	1889831	true	closed	false	2		2016-11-12T07:29:39Z	2016-11-12T12:57:06Z	2016-11-12T12:57:06Z	doc: fix the index order in pseudocode of modules	56		
 9563	857898	true	open	false	3		2016-11-12T07:32:37Z	2016-11-13T15:54:28Z		doc: fix typo  e.g., => e.g. doc/dns.md	54		
 9564	4006425	true	closed	false	2		2016-11-12T07:33:09Z	2016-11-13T01:30:08Z	2016-11-13T01:30:08Z	doc: fix e.g., to e.g. in doc/http.md	57		
@@ -2791,7 +2792,7 @@
 9623	17607	false	open	false	6		2016-11-15T18:41:19Z	2016-11-16T18:32:11Z		should the fact that `this` is bound to module.exports be documented?	28		
 9624	54666	false	closed	false	4		2016-11-15T18:41:20Z	2016-11-15T23:38:20Z	2016-11-15T23:38:20Z	doc: vm documentation has invalid link	41		
 9625	3174006	true	closed	false	1		2016-11-15T20:02:58Z	2016-11-19T17:19:10Z	2016-11-19T17:19:10Z	doc: improve description of urlObject.query	68		
-9626	238531	true	open	false	19		2016-11-15T20:20:16Z	2016-11-17T20:26:36Z		tls: fix leak of WriteWrap+TLSWrap combination	165		
+9626	238531	true	closed	false	19		2016-11-15T20:20:16Z	2016-11-23T06:24:49Z	2016-11-17T20:26:40Z	tls: fix leak of WriteWrap+TLSWrap combination	165		
 9627	4421720	true	closed	false	1		2016-11-15T20:31:15Z	2016-11-20T00:58:15Z	2016-11-20T00:58:15Z	src,inspector: fix method name, output format	56		
 9628	10393198	true	open	false	2		2016-11-16T00:01:31Z	2016-11-19T17:08:36Z		doc: small improvements in readline code examples	137		
 9629	5351085	true	open	false	5		2016-11-16T00:13:47Z	2016-11-21T15:03:16Z		test: refactor to ES6 to strengthen tests	14		
@@ -2868,7 +2869,7 @@
 9700	13138961	true	open	false	2		2016-11-19T22:33:08Z	2016-11-20T19:31:17Z		Tests: Refactored to es6	61		
 9701	1260305	true	open	false	4		2016-11-19T22:57:15Z	2016-11-22T05:09:06Z		doc: child_process .stdio accepts a String type	48		
 9702	170197	false	open	false	2		2016-11-20T00:36:09Z	2016-11-20T01:01:24Z		URL auth issue	34		
-9703	4443482	true	open	false			2016-11-20T02:06:30Z	2016-11-22T14:28:04Z		Doc fixes	436		
+9703	4443482	true	open	false			2016-11-20T02:06:30Z	2016-11-23T06:38:32Z		Doc fixes	436		
 9704	10393198	true	closed	false	1		2016-11-20T02:21:42Z	2016-11-22T16:30:34Z	2016-11-22T16:30:34Z	doc: fix typo in assert code example	21		
 9705	23608711	false	open	false	0		2016-11-20T04:28:02Z	2016-11-21T14:59:15Z		module.parent or require.main or process.mainModule for checking if a file is being run as a script?	64		
 9706	627972	false	open	false	3		2016-11-20T04:40:33Z	2016-11-22T09:19:30Z		IPC channel stops delivering messages to cluster workers	528		
@@ -2889,7 +2890,7 @@
 9721	3853064	false	open	false	0		2016-11-21T17:05:35Z	2016-11-21T17:05:35Z		Execute some code and NodeJS exit itself.	36		
 9722	17607	false	open	false	9		2016-11-21T17:38:06Z	2016-11-22T13:49:40Z		invalid floating point uid or gid for spawn/execSync causes uv to assert and abort node	47		
 9723	115237	true	closed	false	4		2016-11-21T18:28:00Z	2016-11-23T00:20:59Z	2016-11-22T18:40:26Z	doc: fix <code> inside stability boxes	65		
-9724	718899	true	open	false	6		2016-11-21T19:10:21Z	2016-11-22T22:20:58Z		test: fix flaky test-dgram-empty-packet & friends	90		
+9724	718899	true	open	false	7		2016-11-21T19:10:21Z	2016-11-23T06:56:01Z		test: fix flaky test-dgram-empty-packet & friends	90		
 9725	354296	false	closed	false	5		2016-11-21T20:52:43Z	2016-11-21T23:37:15Z	2016-11-21T23:37:15Z	fs.Stats class throws an exception instead of returning false with stat.isFile() or stat.isDirectory() when no directory or file exists at that path	340		
 9726	635591	true	open	false	8		2016-11-21T22:15:04Z	2016-11-23T04:48:29Z		Symbol key props visible in inspection by default	88		
 9727	718899	true	open	false	4		2016-11-21T22:26:13Z	2016-11-22T14:19:41Z		test: fix flaky test-inspector	76		
@@ -2904,7 +2905,7 @@
 9736	498775	true	open	false	0	0	2016-11-22T09:12:28Z	2016-11-22T09:12:28Z		v4.7.0 proposal	1271		
 9737	58742	true	open	false	0	0	2016-11-22T09:24:56Z	2016-11-22T09:24:56Z		doc: typo in util.inherits documentation for ES6 example	35		
 9738	22852830	false	open	false	3		2016-11-22T10:13:41Z	2016-11-22T11:28:45Z		the solution for the issue #6374 has being applied only for Node 6.0.0	33		
-9739	12082826	true	open	false			2016-11-22T11:35:27Z	2016-11-23T01:30:51Z		stream: bugfix for test-child-process-stdio-big-write-end.js	82		
+9739	12082826	true	open	false			2016-11-22T11:35:27Z	2016-11-23T06:06:40Z		stream: bugfix for test-child-process-stdio-big-write-end.js	82		
 9740	15943089	false	open	false	3		2016-11-22T12:13:10Z	2016-11-22T19:27:37Z		meta: no longer possible to differentiate collaborators and foundation members	40		
 9741	3967972	true	open	false			2016-11-22T14:27:06Z	2016-11-22T18:41:35Z		test: add toASCII and toUnicode punycode tests	60		
 9742	275871	true	open	false	0	0	2016-11-22T16:16:58Z	2016-11-22T16:16:58Z		tls: TLSSocket emits 'error' on handshake failure	25		
