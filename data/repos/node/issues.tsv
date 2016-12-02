@@ -97,7 +97,7 @@
 2967	696611	true	closed	false	33		2015-09-20T07:40:27Z	2016-11-30T22:47:18Z	2015-10-27T03:19:46Z	http{s}: fix connecting to localhost if URL is invalid	47		
 2982	170023	true	open	false	7		2015-09-21T14:10:33Z	2016-07-01T16:26:45Z		readline: add option to stop duplicates in history	161		
 2994	708850	false	open	false	9		2015-09-22T04:48:17Z	2016-09-08T23:20:56Z		Need a way to detect end of stream on custom Writable Streams implementing _write	78		
-3006	914122	false	closed	false	37		2015-09-22T15:57:31Z	2016-11-02T17:07:47Z	2016-03-22T06:28:03Z	Node.js doesn't run as tty on windows / cygwin	33		
+3006	914122	false	closed	false	38		2015-09-22T15:57:31Z	2016-12-02T20:50:06Z	2016-03-22T06:28:03Z	Node.js doesn't run as tty on windows / cygwin	33		
 3009	112555	false	closed	false	13		2015-09-22T19:15:53Z	2016-11-26T11:23:43Z	2016-04-09T05:21:32Z	Sending a body with a GET request using http.request cannot be received using http.server	160		
 3043	279099	false	closed	false	4		2015-09-24T06:30:04Z	2016-09-12T21:14:47Z	2016-09-12T21:14:47Z	Crypto library should have a constant-time equality function	27		
 3063	98899	true	closed	false	87		2015-09-25T17:01:14Z	2016-10-11T00:42:12Z	2016-07-15T17:38:59Z	timers: fix processing of nested same delay timers	21		
@@ -3033,7 +3033,7 @@
 9858	6272507	true	open	false	0	0	2016-11-30T16:32:10Z	2016-11-30T16:32:10Z		test: update test-zlib-truncated to use strictEqual	44		
 9859	348	false	open	false	1		2016-11-30T19:45:15Z	2016-12-01T19:56:49Z		README gpg guidelines are insufficient	90		
 9860	718899	true	open	false	1		2016-11-30T21:26:20Z	2016-12-01T11:59:32Z		debugger: refactor _debugger.js	43		
-9861	15943089	false	open	false	1		2016-11-30T22:59:42Z	2016-11-30T23:01:48Z		Build failures with ninja	162		
+9861	15943089	false	open	false	1		2016-11-30T22:59:42Z	2016-12-02T20:21:12Z		Build failures with ninja	162		
 9862	17607	true	open	false	0	0	2016-11-30T23:21:51Z	2016-11-30T23:21:51Z		doc: remove Sam Roberts from release team	34		
 9863	287917	false	open	false	0		2016-12-01T00:09:12Z	2016-12-01T00:09:12Z		Support for HTTP/WS inspection	109		
 9864	6354455	true	open	false	6		2016-12-01T03:44:24Z	2016-12-01T21:13:44Z		test: stream readable readableListening internal state	50		
@@ -3045,12 +3045,12 @@
 9870	15350619	false	closed	false	7		2016-12-01T07:55:07Z	2016-12-02T09:43:33Z	2016-12-02T09:43:33Z	Same command works in exec but not in execSync	102		
 9871	24241976	false	closed	false	1		2016-12-01T09:58:24Z	2016-12-01T11:56:30Z	2016-12-01T11:56:30Z	i unable to start my electron. i can i solve this issue below mentioned for your reference	200		
 9872	867492	true	open	false	0	0	2016-12-01T15:45:27Z	2016-12-01T15:45:27Z		test: change equal to strictEqual	38		
-9873	7131961	true	closed	false	2		2016-12-01T15:46:06Z	2016-12-02T14:22:00Z	2016-12-01T17:07:00Z	using strictEquals instead of equals	47		
+9873	7131961	true	open	false	3	0	2016-12-01T15:46:06Z	2016-12-02T20:02:54Z		using strictEquals instead of equals	47		
 9874	1250405	true	open	false	2		2016-12-01T15:50:52Z	2016-12-01T20:21:57Z		test: Updating vars to const and tsl server test	49		
 9875	941708	true	open	false	0	0	2016-12-01T15:52:41Z	2016-12-01T15:52:41Z		Test: update vm tests	40		
 9876	175530	true	open	false	0	0	2016-12-01T15:54:52Z	2016-12-01T15:54:52Z		test: refactor test-tls-timeout-server-2	42		
 9877	13667833	true	open	false	5		2016-12-01T15:56:57Z	2016-12-01T19:19:33Z		test: var to const/let in test-tls-set-ciphers	55		
-9878	11317322	true	open	false			2016-12-01T15:57:06Z	2016-12-02T09:48:05Z		clear out const/let	52		
+9878	11317322	true	open	false	5		2016-12-01T15:57:06Z	2016-12-02T20:15:40Z		clear out const/let	52		
 9879	733877	true	open	false	0		2016-12-01T15:58:51Z	2016-12-01T20:23:21Z		test: replace equal with strictEqual	34		
 9880	4448075	true	open	false			2016-12-01T16:00:48Z	2016-12-02T18:32:03Z		child_process: name anonymous functions	170		
 9881	675305	true	open	false	2		2016-12-01T16:01:00Z	2016-12-01T21:35:25Z		Recommend make with good parallel build setting for laptop running 	76		
@@ -3071,8 +3071,8 @@
 9896	4521223	true	open	false	0	0	2016-12-01T16:18:25Z	2016-12-01T16:18:25Z		replace var with const in test code	43		
 9897	17654065	true	open	false	1		2016-12-01T16:18:34Z	2016-12-01T21:23:23Z		test: change var to const	46		
 9898	7892079	true	open	false	1		2016-12-01T16:20:29Z	2016-12-01T21:25:19Z		test: add const/let, mustCall, & === to tls-stream	63		
-9899	10875575	true	open	false	0		2016-12-01T16:21:04Z	2016-12-01T22:27:01Z		Fixed the test with const and strictEqual	37		
-9900	568260	true	open	false	0	0	2016-12-01T16:21:20Z	2016-12-01T16:21:20Z		test: update test to use common.fail	50		
+9899	10875575	true	open	false	2		2016-12-01T16:21:04Z	2016-12-02T20:07:14Z		Fixed the test with const and strictEqual	37		
+9900	568260	true	open	false	6		2016-12-01T16:21:20Z	2016-12-02T20:04:30Z		test: update test to use common.fail	50		
 9901	867492	true	open	false	0	0	2016-12-01T16:22:03Z	2016-12-01T16:22:03Z		doc: document process.versions.modules	41		
 9902	7246312	true	open	false	1		2016-12-01T16:22:16Z	2016-12-01T21:37:42Z		Updated test-cluster-send-deadlock.js to use assert.strictEqual	44		
 9903	13876939	true	open	false	0	0	2016-12-01T16:22:19Z	2016-12-01T16:22:19Z		remove var and use let and const	49		
@@ -3095,7 +3095,7 @@
 9920	6971109	true	open	false	2		2016-12-01T16:30:24Z	2016-12-01T19:18:31Z		changes var to let & const as appropriate	31		
 9921	8977402	true	open	false	2		2016-12-01T16:30:54Z	2016-12-01T23:43:58Z		Test debugger fix	49		
 9922	1857993	true	open	false	2		2016-12-01T16:32:43Z	2016-12-02T01:58:37Z		test: add tests for clearBuffer state machine	59		
-9923	16144158	true	open	false			2016-12-01T16:34:44Z	2016-12-02T17:12:47Z		test: Updated tls-getcipher test	50		
+9923	16144158	true	open	false			2016-12-01T16:34:44Z	2016-12-02T20:45:05Z		test: Updated tls-getcipher test	50		
 9924	4299420	true	open	false	0	0	2016-12-01T16:35:33Z	2016-12-01T16:35:33Z		test: fix test for buffer regression #649	35		
 9925	2251119	true	open	false	0	0	2016-12-01T16:35:51Z	2016-12-01T16:35:51Z		test: convert assert.equal to assert.strictEqual	51		
 9926	8139283	true	open	false	0	0	2016-12-01T16:37:00Z	2016-12-01T16:37:00Z		test: Using const instead of var.	47		
@@ -3114,7 +3114,7 @@
 9939	1888493	true	open	false	0	0	2016-12-01T16:44:26Z	2016-12-01T16:44:26Z		test: update test-stdout-to-file	76		
 9940	2763135	true	open	false	0	0	2016-12-01T16:45:00Z	2016-12-01T16:45:00Z		test: clean up tls junk test	47		
 9941	6383605	true	open	false	0	0	2016-12-01T16:45:51Z	2016-12-01T16:45:51Z		test: change equal to strictEqual and var to const	40		
-9942	7131961	true	open	false	0	0	2016-12-01T16:45:56Z	2016-12-01T16:45:56Z		Test console fix assert equals	36		
+9942	7131961	true	closed	false	0	0	2016-12-01T16:45:56Z	2016-12-02T20:27:07Z	2016-12-02T20:27:07Z	Test console fix assert equals	35		
 9943	733877	true	open	false	0	0	2016-12-01T16:46:06Z	2016-12-01T16:46:06Z		test: refactor test for crypto cipher/decipher iv	43		
 9944	93347	true	open	false	0	0	2016-12-01T16:46:11Z	2016-12-01T16:46:11Z		test:var to const/let; assert.equal to strictEqual	40		
 9945	19673907	true	closed	false	2		2016-12-01T16:46:46Z	2016-12-02T14:19:29Z	2016-12-01T19:11:02Z	test: refactor test-repl-mode.js	40		
@@ -3151,7 +3151,7 @@
 9976	2294736	true	open	false	0	0	2016-12-01T17:03:54Z	2016-12-01T17:03:54Z		test: assert.throws() should include a RegExp	54		
 9977	5799538	true	open	false	8		2016-12-01T17:04:46Z	2016-12-02T17:02:51Z		nina 2016 code-n-learn, issue: use assert.Equal()	64		
 9978	408692	true	open	false	0	0	2016-12-01T17:07:09Z	2016-12-01T17:07:09Z		test: Modernize test-fs-truncate-fd	24		
-9979	4577691	false	open	false	8		2016-12-01T17:07:24Z	2016-12-02T18:17:31Z		Test hangs on OSX 10.9.5 test-domain-no-error-handler-abort-on-uncaught.js	36		
+9979	4577691	false	open	false	10		2016-12-01T17:07:24Z	2016-12-02T20:10:05Z		Test hangs on OSX 10.9.5 test-domain-no-error-handler-abort-on-uncaught.js	36		
 9980	7246312	true	open	false	0	0	2016-12-01T17:07:28Z	2016-12-01T17:07:28Z		Updated test-crypto-ecb.js to change assert.equal to assert.strictEqual	44		
 9981	1535252	true	open	false	0	0	2016-12-01T17:09:02Z	2016-12-01T17:09:02Z		test: fix error in test-cluster-worker-death.js	66		
 9982	6641809	true	open	false	2		2016-12-01T17:09:03Z	2016-12-01T18:04:41Z		test:changed equal to strictEqual in test-child-fork-exec-path.js	44		
@@ -3197,7 +3197,7 @@
 10022	4923947	true	open	false	0	0	2016-12-01T17:39:48Z	2016-12-01T17:39:48Z		test: fix test-child-process-stdin.js	53		
 10023	682197	true	open	false	0	0	2016-12-01T17:41:21Z	2016-12-01T17:41:21Z		test: Refactors variables to ES6 compatible and newer assertions 	98		
 10024	2200377	true	open	false	3		2016-12-01T17:44:15Z	2016-12-02T13:54:17Z		test: Changed assert.equal() to assert.strictEqual() for Test signing…	40		
-10025	733877	true	open	false			2016-12-01T17:45:18Z	2016-12-02T19:06:52Z		test: refactor test for net listen on fd0	46		
+10025	733877	true	open	false	2		2016-12-01T17:45:18Z	2016-12-02T20:48:03Z		test: refactor test for net listen on fd0	46		
 10026	16504253	true	open	false	0	0	2016-12-01T17:46:54Z	2016-12-01T17:46:54Z		test: check for error on invalid signal	45		
 10027	8085795	true	open	false	0	0	2016-12-01T17:48:36Z	2016-12-01T17:48:36Z		test: change the equal() by strictEqual()	52		
 10028	4577691	true	open	false	0	0	2016-12-01T17:48:58Z	2016-12-01T17:48:58Z		test: change usages of assert.equal() to assert.strictEqual()	36		
@@ -3211,20 +3211,20 @@
 10036	874194	true	open	false	0	0	2016-12-01T17:52:36Z	2016-12-01T17:52:36Z		test: assert.strictEqual and linting	37		
 10037	2251119	true	open	false			2016-12-01T17:53:37Z	2016-12-01T21:00:33Z		test: add test for process.stdin.setRawMode()	52		
 10038	181527	true	open	false	2		2016-12-01T17:53:47Z	2016-12-02T08:17:34Z		test: Add regex check to error expectation	54		
-10039	1857993	true	open	false	3		2016-12-01T17:54:21Z	2016-12-02T18:38:11Z		url, test: add inspect to TupleOrigin	52		
+10039	1857993	true	open	false	4		2016-12-01T17:54:21Z	2016-12-02T20:12:03Z		url, test: add inspect to TupleOrigin	52		
 10040	8977402	true	open	false	0	0	2016-12-01T17:55:08Z	2016-12-01T17:55:08Z		Simplified the test by using common.mustCall(). Use of common.mustCal…	54		
 10041	16144158	true	open	false	0	0	2016-12-01T17:55:41Z	2016-12-01T17:55:41Z		fs: copyObject() had unused argument	117		
 10042	3138059	true	open	false	0	0	2016-12-01T17:55:56Z	2016-12-01T17:55:56Z		test: update cluster test	39		
 10043	301830	true	open	false			2016-12-01T17:56:13Z	2016-12-02T17:38:15Z		test: add buffer transcode test	45		
 10044	181527	true	open	false	0	0	2016-12-01T17:57:10Z	2016-12-01T17:57:10Z		test: invalid package.json causes error when require()ing in directory	53		
 10045	4900842	true	closed	false	3		2016-12-01T17:58:02Z	2016-12-02T14:30:49Z	2016-12-01T21:04:21Z	test: Use strictEqual in cwd-enoent	12		
-10046	7142618	true	open	false			2016-12-01T17:58:55Z	2016-12-02T05:07:50Z		doc: update `path.format` description and examples	61		
+10046	7142618	true	open	false			2016-12-01T17:58:55Z	2016-12-02T20:59:44Z		doc: update `path.format` description and examples	61		
 10047	4923947	true	open	false	0	0	2016-12-01T17:59:29Z	2016-12-01T17:59:29Z		Test fix - fix to /test/parallel/test-cluster	38		
 10048	582234	true	open	false	0	0	2016-12-01T18:01:29Z	2016-12-01T18:01:29Z		Improvements to test-buffer-slice from NINA code & learn	47		
 10049	4521223	true	open	false	0	0	2016-12-01T18:02:15Z	2016-12-01T18:02:15Z		test: recommended changes to test-cluster-send-handle-twice.js	84		
 10050	7131961	true	open	false	0	0	2016-12-01T18:04:15Z	2016-12-01T18:04:15Z		doc: Update rinfo object definition for UDP message event	49		
 10051	109983	true	open	false	0	0	2016-12-01T18:06:16Z	2016-12-01T18:06:16Z		test: refactors test-tls-client-verify	45		
-10052	2723032	true	open	false	4		2016-12-01T18:07:50Z	2016-12-02T09:31:22Z		gitignore: add osx .DS_STORE files	57		
+10052	2723032	true	open	false	5		2016-12-01T18:07:50Z	2016-12-02T20:39:21Z		gitignore: add osx .DS_STORE files	57		
 10053	4448075	true	open	false	2		2016-12-01T18:08:18Z	2016-12-02T13:07:12Z		http: throw an error for unexpected agent values	76		
 10054	8404857	true	open	false	0	0	2016-12-01T18:10:42Z	2016-12-01T18:10:42Z		test: refactor test-pipe-file-to-http	62		
 10055	19396993	true	open	false	0	0	2016-12-01T18:13:01Z	2016-12-01T18:13:01Z		test: refactor test-crypto-hash-stream-pipe	54		
@@ -3240,10 +3240,10 @@
 10065	1190716	true	open	false	0	0	2016-12-01T19:32:24Z	2016-12-01T19:32:24Z		assert.equal -> assert.strictEqual	37		
 10066	19673907	true	open	false	0		2016-12-01T19:33:14Z	2016-12-02T17:35:44Z		 test: refactor test-dgram-exclusive-implicit-bind.js	35		
 10067	1190716	true	open	false	1		2016-12-01T19:48:15Z	2016-12-02T17:34:08Z		test: test-crypto-domain.js - assert.equal -> assert.strictEqual	43		
-10068	8107784	true	open	false			2016-12-01T19:50:07Z	2016-12-02T17:22:04Z		test: increase test coverage for cancelling timers	52		
+10068	8107784	true	open	false	3		2016-12-01T19:50:07Z	2016-12-02T20:36:30Z		test: increase test coverage for cancelling timers	52		
 10069	17111478	false	closed	false	1		2016-12-01T19:50:07Z	2016-12-01T20:11:52Z	2016-12-01T20:11:52Z	Node.js with Google Sheets. Only return recent date.	100		
 10070	2723032	true	open	false	0	0	2016-12-01T20:03:36Z	2016-12-01T20:03:36Z		doc: Update CONTRIBUTING.MD to link to V8 guide	62		
-10071	8493613	true	open	false	2		2016-12-01T20:11:40Z	2016-12-02T19:21:51Z		Change assert.equal to assert.strictEqual	47		
+10071	8493613	true	open	false	5		2016-12-01T20:11:40Z	2016-12-02T20:14:42Z		Change assert.equal to assert.strictEqual	47		
 10072	1190716	true	open	false	0	0	2016-12-01T20:16:58Z	2016-12-01T20:16:58Z		test-http-unix-socket.js: var -> const, assert.equal -> assert.strictEqual	48		
 10073	718899	false	open	false	0		2016-12-01T20:21:36Z	2016-12-01T20:21:36Z		investigate flaky sequential/test-regress-GH-897 on Raspberry Pi	40		
 10074	1190716	true	open	false	1		2016-12-01T20:25:02Z	2016-12-01T21:38:31Z		test-https-truncate.js: assert.equal -> assert.strictEqual, var -> const/let	44		
@@ -3254,7 +3254,7 @@
 10079	837500	true	open	false	0	0	2016-12-01T21:25:49Z	2016-12-01T21:25:49Z		test: replace var with let and const also replace equal with strictEqual	62		
 10080	4212452	true	open	false	2		2016-12-01T21:38:51Z	2016-12-02T14:08:51Z		test: test for http.request() invalid method error	69		
 10081	533625	false	closed	false	2		2016-12-01T22:53:12Z	2016-12-01T23:11:14Z	2016-12-01T22:56:08Z	Alpine require native module: __strncpy_chk: symbol not found	105		
-10082	806363	true	open	false	3		2016-12-01T23:27:40Z	2016-12-02T17:55:14Z		On 32 bit node we have a string format mistake:	65		
+10082	806363	true	open	false	4		2016-12-01T23:27:40Z	2016-12-02T20:32:07Z		On 32 bit node we have a string format mistake:	65		
 10083	4299420	true	open	false	1		2016-12-02T01:15:23Z	2016-12-02T14:43:57Z		test, url: improve escaping in url.parse	59		
 10084	24241976	false	open	false	0		2016-12-02T04:14:11Z	2016-12-02T04:14:11Z		npm start error in start script how can i solve this one	203		
 10085	6447530	true	open	false	6		2016-12-02T06:03:31Z	2016-12-02T15:02:42Z		fs: re-enable watch facility in AIX	137		
