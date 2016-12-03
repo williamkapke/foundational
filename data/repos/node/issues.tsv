@@ -2841,7 +2841,7 @@
 9666	5301535	true	closed	false	2	0	2016-11-17T20:35:11Z	2016-11-19T16:29:12Z	2016-11-19T16:29:12Z	test: Use strictEqual in test-tls-writewrap-leak	35		
 9667	275871	true	closed	false	1	0	2016-11-17T21:10:16Z	2016-11-18T20:59:29Z	2016-11-18T20:59:29Z	test: fix memory leaks in malloc cctests	3		
 9668	1391805	false	open	false	2		2016-11-17T22:24:04Z	2016-11-18T15:14:34Z		HTTPParser inhibits garbage collection on keep-alive connections	167		
-9669	11648785	true	open	false			2016-11-17T22:59:25Z	2016-12-03T12:04:50Z		used es6 conventions for variables and anonymous functions declaration	37		
+9669	11648785	true	closed	false	12	12	2016-11-17T22:59:25Z	2016-12-03T18:27:37Z	2016-12-03T18:27:37Z	used es6 conventions for variables and anonymous functions declaration	37		
 9670	54666	true	open	false			2016-11-18T03:30:07Z	2016-11-18T19:51:38Z		fs: do not pass Buffer when toString() fails	84		
 9671	413206	false	open	false	18		2016-11-18T08:29:35Z	2016-11-19T17:19:27Z		readFile() and readFileSync() fail to read sparse file on Windows	321		
 9672	4459551	false	open	false	0		2016-11-18T12:06:04Z	2016-11-18T12:06:04Z		make the --inspect flag more dev friendly	67		
@@ -3066,7 +3066,7 @@
 9891	2043262	true	open	false			2016-12-01T16:15:18Z	2016-12-03T17:06:42Z		test: Update to const and use regex for assertions	62		
 9892	1320750	true	open	false	1		2016-12-01T16:15:34Z	2016-12-01T20:41:58Z		test: change var to const for require and strict equality checks	56		
 9893	12154939	true	open	false	1		2016-12-01T16:17:43Z	2016-12-01T20:48:54Z		test: refactor test-child-process-stdio-inherit	34		
-9894	2251119	true	open	false			2016-12-01T16:17:57Z	2016-12-03T15:35:30Z		update test/parallel/test-fs-read-stream-inherit.js to use ES6 variable declarations and assert.strictEqual	56		
+9894	2251119	true	open	false			2016-12-01T16:17:57Z	2016-12-03T18:45:09Z		update test/parallel/test-fs-read-stream-inherit.js to use ES6 variable declarations and assert.strictEqual	56		
 9895	10002902	true	open	false	2		2016-12-01T16:18:18Z	2016-12-02T22:50:41Z		test: changed assert.equal() to assert.strictEqual() in test-buffer-fill.js	56		
 9896	4521223	true	open	false	0	0	2016-12-01T16:18:25Z	2016-12-01T16:18:25Z		replace var with const in test code	43		
 9897	17654065	true	open	false			2016-12-01T16:18:34Z	2016-12-03T17:44:11Z		test: change var to const	46		
@@ -3201,13 +3201,13 @@
 10026	16504253	true	open	false			2016-12-01T17:46:54Z	2016-12-02T21:02:00Z		test: check for error on invalid signal	45		
 10027	8085795	true	open	false	0	0	2016-12-01T17:48:36Z	2016-12-01T17:48:36Z		test: change the equal() by strictEqual()	52		
 10028	4577691	true	open	false	0	0	2016-12-01T17:48:58Z	2016-12-01T17:48:58Z		test: change usages of assert.equal() to assert.strictEqual()	36		
-10029	1399973	true	open	false	0	0	2016-12-01T17:49:19Z	2016-12-01T17:49:19Z		var to const/let change	55		
+10029	1399973	true	open	false			2016-12-01T17:49:19Z	2016-12-03T18:48:30Z		var to const/let change	38		
 10030	11262165	true	open	false			2016-12-01T17:50:30Z	2016-12-03T16:37:30Z		test: update test-fs-write-file	49		
 10031	4453433	true	open	false	0	0	2016-12-01T17:50:36Z	2016-12-01T17:50:36Z		test: add test for url module domainToAscii and domainToUnicode	47		
 10032	2763135	true	open	false	0	0	2016-12-01T17:50:38Z	2016-12-01T17:50:38Z		test: refactor test-dgram-msgsize.js	46		
 10033	6042252	true	open	false			2016-12-01T17:51:40Z	2016-12-03T15:48:55Z		test: Updates to test-stream2-unpipe-drain	64		
 10034	4591928	true	open	false	0	0	2016-12-01T17:52:33Z	2016-12-01T17:52:33Z		test: const/strictEqual in test-listen-fd-ebadf	38		
-10035	4591928	true	open	false	0	0	2016-12-01T17:52:36Z	2016-12-01T17:52:36Z		test: test-file-write-stream3.js refactor	38		
+10035	4591928	true	open	false			2016-12-01T17:52:36Z	2016-12-03T18:15:53Z		test: test-file-write-stream3.js refactor	38		
 10036	874194	true	open	false			2016-12-01T17:52:36Z	2016-12-03T17:12:07Z		test: assert.strictEqual and linting	37		
 10037	2251119	true	open	false			2016-12-01T17:53:37Z	2016-12-01T21:00:33Z		test: add test for process.stdin.setRawMode()	52		
 10038	181527	true	open	false	2		2016-12-01T17:53:47Z	2016-12-02T08:17:34Z		test: Add regex check to error expectation	54		
@@ -3248,7 +3248,7 @@
 10073	718899	false	open	false	0		2016-12-01T20:21:36Z	2016-12-01T20:21:36Z		investigate flaky sequential/test-regress-GH-897 on Raspberry Pi	40		
 10074	1190716	true	open	false	1		2016-12-01T20:25:02Z	2016-12-01T21:38:31Z		test-https-truncate.js: assert.equal -> assert.strictEqual, var -> const/let	44		
 10075	17607	false	closed	false	4		2016-12-01T20:28:47Z	2016-12-01T23:10:02Z	2016-12-01T23:10:01Z	lets merge docs-requested label with the docs label	27		
-10076	10657293	true	open	false	2		2016-12-01T21:05:41Z	2016-12-03T17:54:26Z		test: refactor test-tls-server-verify	48		
+10076	10657293	true	open	false	4		2016-12-01T21:05:41Z	2016-12-03T18:37:22Z		test: refactor test-tls-server-verify	48		
 10077	4900842	true	open	false	1		2016-12-01T21:06:45Z	2016-12-02T15:57:47Z		test: Use strictEqual in cwd-enoent	37		
 10078	12154939	true	closed	false	0		2016-12-01T21:11:54Z	2016-12-03T13:23:05Z	2016-12-03T13:23:05Z	doc: clarify fs.createReadStream options	65		
 10079	837500	true	closed	false	1		2016-12-01T21:25:49Z	2016-12-03T15:56:03Z	2016-12-03T15:56:03Z	test: replace var with let and const also replace equal with strictEqual	63		
@@ -3269,7 +3269,7 @@
 10094	287917	true	open	false			2016-12-02T19:11:17Z	2016-12-03T17:56:46Z		inspector: check if connected before waiting	60		
 10095	289174	true	open	false	0	0	2016-12-02T21:05:27Z	2016-12-02T21:05:27Z		[async_wrap] backport of gc abort on destroy() fix on v7.x	41		
 10096	289174	true	open	false	0	0	2016-12-02T22:03:23Z	2016-12-02T22:03:23Z		[aysnc_wrap] backport of gc abort on destroy() fix on v6.x	97		
-10097	289174	true	open	false	0	0	2016-12-02T22:25:45Z	2016-12-02T22:25:45Z		[aysnc_wrap] backport of gc abort on destroy() fix on v4.x	63		
+10097	289174	true	open	false			2016-12-02T22:25:45Z	2016-12-03T18:43:06Z		[async_wrap] backport of gc abort on destroy() fix on v4.x	67		
 10098	718899	true	open	false	0	0	2016-12-02T22:44:11Z	2016-12-02T22:44:11Z		doc: correct it's vs. its usage	59		
 10099	15952	true	open	false			2016-12-02T22:53:25Z	2016-12-03T15:01:13Z		debugger: call `this.resume()` after `this.run()`	70		
 10100	4800357	true	open	false			2016-12-02T23:59:44Z	2016-12-03T02:51:56Z		test: updated test-stream-pipe-unpipe-stream	44		
