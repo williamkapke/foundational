@@ -1189,7 +1189,7 @@
 8013	115237	true	closed	false	20		2016-08-08T14:05:22Z	2016-08-09T18:54:03Z	2016-08-09T18:54:03Z	util: add inspect.defaultOptions	70		
 8014	79017	true	closed	false	6	0	2016-08-08T15:00:26Z	2016-08-11T18:49:18Z	2016-08-11T18:49:18Z	deps: update v8_inspector	35	79017	2016-08-11T18:49:18Z
 8015	8208733	false	open	false	0		2016-08-08T16:03:22Z	2016-08-08T16:03:22Z		Node Builds successfully on custom ARMv5 but fails to run with Segmentation fault	377		
-8016	3967972	true	open	false	29		2016-08-08T17:00:35Z	2016-12-02T15:39:12Z		meta: whitelist dotfiles in .gitignore	36		
+8016	3967972	true	open	false	32		2016-08-08T17:00:35Z	2016-12-03T10:01:52Z		meta: whitelist dotfiles in .gitignore	36		
 8017	469365	true	closed	false	4	0	2016-08-08T17:16:27Z	2016-08-10T13:13:09Z	2016-08-10T13:13:09Z	doc: fix cluster message event docs	42		
 8018	1128607	true	closed	false	18		2016-08-08T17:45:35Z	2016-09-30T19:15:16Z	2016-08-18T01:49:16Z	stream: avoid caching prepend check	69		
 8019	287917	true	closed	false	5	2	2016-08-08T18:32:23Z	2016-08-10T00:29:50Z	2016-08-10T00:29:50Z	inspector: Fix failing test	55		
@@ -3047,17 +3047,17 @@
 9872	867492	true	open	false	0	0	2016-12-01T15:45:27Z	2016-12-01T15:45:27Z		test: change equal to strictEqual	38		
 9873	7131961	true	open	false	3	0	2016-12-01T15:46:06Z	2016-12-02T20:02:54Z		using strictEquals instead of equals	47		
 9874	1250405	true	open	false	2		2016-12-01T15:50:52Z	2016-12-01T20:21:57Z		test: Updating vars to const and tsl server test	49		
-9875	941708	true	open	false	0	0	2016-12-01T15:52:41Z	2016-12-01T15:52:41Z		Test: update vm tests	40		
+9875	941708	true	closed	false	2		2016-12-01T15:52:41Z	2016-12-03T10:01:27Z	2016-12-03T10:01:27Z	Test: update vm tests	40		
 9876	175530	true	open	false	0	0	2016-12-01T15:54:52Z	2016-12-01T15:54:52Z		test: refactor test-tls-timeout-server-2	42		
 9877	13667833	true	open	false	5		2016-12-01T15:56:57Z	2016-12-01T19:19:33Z		test: var to const/let in test-tls-set-ciphers	55		
-9878	11317322	true	open	false	9		2016-12-01T15:57:06Z	2016-12-03T00:31:49Z		clear out const/let	52		
+9878	11317322	true	closed	false	10		2016-12-01T15:57:06Z	2016-12-03T10:15:34Z	2016-12-03T10:15:34Z	clear out const/let	52		
 9879	733877	true	open	false	0		2016-12-01T15:58:51Z	2016-12-01T20:23:21Z		test: replace equal with strictEqual	34		
 9880	4448075	true	open	false			2016-12-01T16:00:48Z	2016-12-02T18:32:03Z		child_process: name anonymous functions	170		
 9881	675305	true	open	false	2		2016-12-01T16:01:00Z	2016-12-01T21:35:25Z		Recommend make with good parallel build setting for laptop running 	76		
 9882	2343630	true	open	false			2016-12-01T16:03:41Z	2016-12-02T16:50:23Z		test: update require exceptions	48		
 9883	4299420	true	open	false			2016-12-01T16:04:10Z	2016-12-02T11:07:31Z		test: improve test for crypto pbkdf2	41		
 9884	5985850	true	open	false	0	0	2016-12-01T16:07:06Z	2016-12-01T16:07:06Z		[tests]Changed var -> const, assert.equal -> assert.strictEqual	56		
-9885	1888493	true	open	false	1		2016-12-01T16:09:04Z	2016-12-01T20:31:12Z		test: updated var and assert.equal in net-local-address-port	42		
+9885	1888493	true	closed	false	2		2016-12-01T16:09:04Z	2016-12-03T10:33:04Z	2016-12-03T10:33:04Z	test: updated var and assert.equal in net-local-address-port	42		
 9886	733877	true	open	false	1		2016-12-01T16:10:09Z	2016-12-01T20:33:03Z		test: replace equal with strictEqual in crypto	38		
 9887	341172	true	open	false	1		2016-12-01T16:10:33Z	2016-12-01T20:32:27Z		test: rm console.log in test-vm-static-this.js	48		
 9888	1020672	true	open	false	1		2016-12-01T16:10:59Z	2016-12-01T20:36:48Z		test: swap var->const/let and equal->strictEqual	40		
@@ -3243,7 +3243,7 @@
 10068	8107784	true	open	false	3		2016-12-01T19:50:07Z	2016-12-02T20:36:30Z		test: increase test coverage for cancelling timers	52		
 10069	17111478	false	closed	false	1		2016-12-01T19:50:07Z	2016-12-01T20:11:52Z	2016-12-01T20:11:52Z	Node.js with Google Sheets. Only return recent date.	100		
 10070	2723032	true	open	false	0	0	2016-12-01T20:03:36Z	2016-12-01T20:03:36Z		doc: Update CONTRIBUTING.MD to link to V8 guide	62		
-10071	8493613	true	open	false	8		2016-12-01T20:11:40Z	2016-12-03T07:49:42Z		Change assert.equal to assert.strictEqual	47		
+10071	8493613	true	open	false	9		2016-12-01T20:11:40Z	2016-12-03T10:32:12Z		Change assert.equal to assert.strictEqual	47		
 10072	1190716	true	open	false	0	0	2016-12-01T20:16:58Z	2016-12-01T20:16:58Z		test-http-unix-socket.js: var -> const, assert.equal -> assert.strictEqual	48		
 10073	718899	false	open	false	0		2016-12-01T20:21:36Z	2016-12-01T20:21:36Z		investigate flaky sequential/test-regress-GH-897 on Raspberry Pi	40		
 10074	1190716	true	open	false	1		2016-12-01T20:25:02Z	2016-12-01T21:38:31Z		test-https-truncate.js: assert.equal -> assert.strictEqual, var -> const/let	44		
@@ -3252,7 +3252,7 @@
 10077	4900842	true	open	false	1		2016-12-01T21:06:45Z	2016-12-02T15:57:47Z		test: Use strictEqual in cwd-enoent	37		
 10078	12154939	true	open	false			2016-12-01T21:11:54Z	2016-12-02T17:19:26Z		doc: clarify fs.createReadStream options	65		
 10079	837500	true	open	false	0	0	2016-12-01T21:25:49Z	2016-12-01T21:25:49Z		test: replace var with let and const also replace equal with strictEqual	62		
-10080	4212452	true	open	false	2		2016-12-01T21:38:51Z	2016-12-02T14:08:51Z		test: test for http.request() invalid method error	69		
+10080	4212452	true	closed	false	3		2016-12-01T21:38:51Z	2016-12-03T10:58:44Z	2016-12-03T10:58:44Z	test: test for http.request() invalid method error	69		
 10081	533625	false	closed	false	2		2016-12-01T22:53:12Z	2016-12-01T23:11:14Z	2016-12-01T22:56:08Z	Alpine require native module: __strncpy_chk: symbol not found	105		
 10082	806363	true	open	false	7		2016-12-01T23:27:40Z	2016-12-03T02:11:50Z		On 32 bit node we have a string format mistake:	65		
 10083	4299420	true	open	false	1		2016-12-02T01:15:23Z	2016-12-02T14:43:57Z		test, url: improve escaping in url.parse	59		
@@ -3275,4 +3275,4 @@
 10100	4800357	true	open	false			2016-12-02T23:59:44Z	2016-12-03T02:51:56Z		test: updated test-stream-pipe-unpipe-stream	44		
 10101	3397140	false	open	false	0		2016-12-03T01:16:49Z	2016-12-03T01:16:49Z		process.nextTick & node::MakeCallback are very bloated	201		
 10102	10393198	true	open	false			2016-12-03T05:52:58Z	2016-12-03T06:07:51Z		doc: some fixes in child_process.md	62		
-10103	11638619	true	open	false	0	0	2016-12-03T08:16:26Z	2016-12-03T08:16:26Z		repl: avoid parsing division operator as regex	62		
+10103	11638619	true	open	false	1		2016-12-03T08:16:26Z	2016-12-03T10:18:15Z		repl: avoid parsing division operator as regex	62		
