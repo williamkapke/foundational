@@ -117,6 +117,7 @@
 3306	1226256	false	closed	false	3		2015-10-09T23:27:25Z	2016-06-30T11:49:57Z	2016-06-30T11:49:57Z	Node Debugger Should Make IP Address Configurable	74		
 3307	17535	false	open	false	22		2015-10-09T23:34:40Z	2016-08-26T21:05:38Z		Expose up-to-date list of builtin modules	91		
 3316	275871	true	closed	false	25		2015-10-10T20:20:46Z	2016-11-18T20:22:57Z	2016-06-30T11:49:55Z	debugger: make listen address configurable	5		
+3349	708850	false	open	false	49		2015-10-13T15:44:25Z	2016-12-05T14:10:15Z		Binaries for sunos do not work on Solaris 11.2 - 'GLIBCXX_3.4.20' not found	98		
 3370	1316152	false	open	false	41		2015-10-14T16:29:36Z	2016-07-12T14:06:17Z		Node 4.2 large memory spikes and timeouts on Heroku 	333		
 3384	115237	true	open	false	16		2015-10-15T12:57:10Z	2016-09-02T17:52:43Z		module: remove require('.') with NODE_PATH compat	15		
 3402	595361	false	closed	false	202		2015-10-16T12:45:59Z	2016-12-04T15:34:28Z	2016-04-27T02:45:38Z	Don't resolve symlinks when requiring	120		
@@ -2592,7 +2593,7 @@
 9416	696611	true	closed	false	5	0	2016-11-02T17:05:46Z	2016-11-05T09:45:36Z	2016-11-05T09:45:36Z	doc: do not link in the headings	119		
 9417	3391470	false	closed	false	3		2016-11-02T17:09:47Z	2016-11-02T20:47:10Z	2016-11-02T17:12:07Z	wrong destructuring use with wrong error message	129		
 9418	23219482	false	closed	false	1		2016-11-02T17:59:24Z	2016-11-02T18:00:36Z	2016-11-02T18:00:36Z	npm pack failing in node 7	88		
-9419	4400726	false	open	false	70		2016-11-02T18:00:03Z	2016-11-14T12:14:41Z		Strange errors, segfaults when upgrading from v6.9.1 to v7.0.0	222		
+9419	4400726	false	open	false	72		2016-11-02T18:00:03Z	2016-12-05T14:53:43Z		Strange errors, segfaults when upgrading from v6.9.1 to v7.0.0	222		
 9420	718899	false	open	false	14		2016-11-02T18:19:03Z	2016-11-07T22:13:23Z		governance: nominating Michaël Zasso to the CTC	42		
 9421	157132	false	open	false	0		2016-11-02T18:20:18Z	2016-11-02T18:20:18Z		ERROR in Cannot find module './lib/api/node.js'	73		
 9422	4976075	true	closed	false	14		2016-11-02T18:55:13Z	2016-11-15T17:40:24Z	2016-11-15T17:40:24Z	deps: backport 5c8cb16 from upstream V8	48		
@@ -2785,7 +2786,7 @@
 9609	54666	false	closed	false	1		2016-11-14T23:37:08Z	2016-11-18T22:39:15Z	2016-11-18T22:39:15Z	doc: crypto.privateEncrypt() padding list needs update	44		
 9610	498775	true	closed	false	3		2016-11-15T00:29:34Z	2016-11-17T23:00:07Z	2016-11-17T19:51:09Z	Fix V8 patch	221		
 9611	5035902	true	closed	false	4	0	2016-11-15T02:30:41Z	2016-11-18T22:38:53Z	2016-11-18T22:38:53Z	doc: remove invalid padding from privateEncrypt	27		
-9612	238531	false	open	false	8		2016-11-15T02:32:25Z	2016-11-23T11:23:09Z		Detailed report for async_wrap in `process.memoryUsage()`	29		
+9612	238531	false	open	false	10		2016-11-15T02:32:25Z	2016-12-05T14:22:28Z		Detailed report for async_wrap in `process.memoryUsage()`	29		
 9613	677994	true	closed	false	0	0	2016-11-15T11:30:50Z	2016-11-17T13:50:20Z	2016-11-17T13:50:20Z	src: use ABORT() macro instead of abort()	43		
 9614	708013	true	closed	false	8		2016-11-15T11:50:08Z	2016-11-25T00:40:26Z	2016-11-24T20:23:50Z	doc: changed order of invocations in example.	66		
 9615	17704638	true	open	false	4		2016-11-15T11:53:23Z	2016-11-29T12:53:52Z		benchmark: remove %OptimizeFunctionOnNextCall	138		
@@ -2813,7 +2814,7 @@
 9637	1260305	true	closed	false	6		2016-11-16T10:38:24Z	2016-11-19T22:05:01Z	2016-11-18T22:43:25Z	doc: child_process documentation for stdio	58		
 9638	704044	false	open	false	0		2016-11-16T11:38:29Z	2016-11-16T11:38:29Z		child_process.spawn does not handle arguments properly	110		
 9639	2426725	false	closed	false	3		2016-11-16T14:44:30Z	2016-11-16T16:31:29Z	2016-11-16T16:31:28Z	subject alternative names not respected by `tls.checkServerIdentity`	108		
-9640	66961	false	open	false	5		2016-11-16T14:46:45Z	2016-12-05T10:15:19Z		Segmentation fault in Generator (node 7.0/7.1/master)	468		
+9640	66961	false	closed	false	6		2016-11-16T14:46:45Z	2016-12-05T14:52:01Z	2016-12-05T14:52:01Z	Segmentation fault in Generator (node 7.0/7.1/master)	468		
 9641	17704638	false	closed	false	1		2016-11-16T15:27:03Z	2016-11-20T00:52:41Z	2016-11-20T00:52:41Z	process.env.toString() fails	64		
 9642	19274678	false	open	false	1		2016-11-16T15:41:43Z	2016-11-16T17:54:21Z		"package.json ""main"" may specify a directory; spec says it may not"	162		
 9643	1265507	true	open	false	26		2016-11-16T15:48:03Z	2016-11-20T14:30:17Z		Optimize event handling with large arguments	26		
@@ -2916,7 +2917,7 @@
 9740	15943089	false	open	false	4		2016-11-22T12:13:10Z	2016-11-23T12:35:16Z		meta: no longer possible to differentiate collaborators and foundation members	40		
 9741	3967972	true	closed	false	5	8	2016-11-22T14:27:06Z	2016-11-30T09:07:11Z	2016-11-30T09:07:11Z	test: add toASCII and toUnicode punycode tests	60		
 9742	275871	true	open	false	0	0	2016-11-22T16:16:58Z	2016-11-22T16:16:58Z		tls: TLSSocket emits 'error' on handshake failure	25		
-9743	8314616	false	open	false	1		2016-11-22T16:40:23Z	2016-11-22T17:25:20Z		Node REPL preprocessing input string for custom eval functions	73		
+9743	8314616	false	closed	false	1		2016-11-22T16:40:23Z	2016-12-05T14:06:33Z	2016-12-05T14:06:33Z	Node REPL preprocessing input string for custom eval functions	73		
 9744	899444	true	open	false	6		2016-11-22T17:54:54Z	2016-11-23T17:28:12Z		console: do not emit error events	72		
 9745	1093990	true	closed	false	4		2016-11-22T18:09:47Z	2016-12-03T20:16:14Z	2016-11-22T23:39:26Z	v7.2.0 proposal	119		
 9746	9373002	true	open	false	2		2016-11-22T18:55:18Z	2016-11-22T19:01:22Z		test: exclude tests failing on AIX for v4.x	109		
@@ -2925,14 +2926,14 @@
 9749	718899	true	open	false	0	0	2016-11-22T19:44:28Z	2016-11-22T19:44:28Z		v6 bacport: benchmark,lib,test,tools: remove unneeded . escape	69		
 9750	718899	true	open	false	0	0	2016-11-22T19:49:04Z	2016-11-22T19:49:04Z		benchmark,lib,test,tools: remove unneeded . escape	68		
 9751	1084056	true	closed	false	1	0	2016-11-22T21:51:58Z	2016-11-29T09:10:39Z	2016-11-29T09:10:39Z	url: fix -Warray-bounds warning	37	1084056	2016-11-29T09:10:39Z
-9752	1622515	true	open	false	8		2016-11-22T22:48:49Z	2016-12-03T20:45:18Z		repl: preprocess only for defaultEval	56		
+9752	1622515	true	closed	false	9	4	2016-11-22T22:48:49Z	2016-12-05T14:07:01Z	2016-12-05T14:07:01Z	repl: preprocess only for defaultEval	56		
 9753	289174	true	open	false			2016-11-23T05:41:48Z	2016-12-01T23:16:53Z		[async_wrap] fix fatal error during destroy() calls	96		
 9754	2352663	true	open	false	11		2016-11-23T09:54:13Z	2016-11-28T07:38:25Z		deps: introduce embedder version number for V8	40		
 9755	1084956	false	closed	false	1		2016-11-23T10:55:22Z	2016-11-23T11:11:18Z	2016-11-23T11:11:18Z	Node.js installation fails error status: 1603.	152		
 9756	1490	false	open	false	0		2016-11-23T10:56:02Z	2016-11-23T10:56:02Z		Infinite loop in timers.js	210		
 9757	1559888	true	closed	false	1	0	2016-11-23T11:35:31Z	2016-11-24T16:23:02Z	2016-11-24T16:23:02Z	Fix unused result warning in node_url.cc (nit)	48		
 9758	16735925	false	open	false	4		2016-11-23T11:51:29Z	2016-11-26T19:13:06Z		Allow `start` option to be string in readline	80		
-9759	1490	true	open	false	7		2016-11-23T11:52:52Z	2016-11-24T10:31:56Z		timers: prevent infinite loop when subsequent immediates are cleared - WIP	90		
+9759	1490	true	open	false	8		2016-11-23T11:52:52Z	2016-12-05T14:28:18Z		timers: prevent infinite loop when subsequent immediates are cleared	90		
 9760	173559	false	closed	false	1		2016-11-23T12:53:56Z	2016-11-25T15:42:44Z	2016-11-25T15:42:44Z	v8_inspector: HTTP /json/version returns array instead of object	74		
 9761	1211498	true	closed	false	3		2016-11-23T13:03:26Z	2016-12-03T21:50:32Z	2016-11-23T13:18:20Z	crypto: do not use pointers to std::vector	88		
 9762	275871	true	closed	false	0	0	2016-11-23T13:21:03Z	2016-11-25T15:42:13Z	2016-11-25T15:42:13Z	inspector: /json/version returns object, not array	17		
@@ -3020,7 +3021,7 @@
 9844	2352663	true	closed	false	1	1	2016-11-29T19:38:24Z	2016-12-02T12:29:50Z	2016-12-02T12:29:50Z	test: refactor test-fs-non-number-arguments-throw	46		
 9845	5212649	false	closed	false	7		2016-11-29T19:57:23Z	2016-12-01T20:05:17Z	2016-12-01T12:32:12Z	socket hang up on https request	525		
 9846	718899	true	closed	false	1		2016-11-29T20:25:58Z	2016-12-02T15:09:20Z	2016-12-02T15:09:20Z	doc: update Collaborators list in README	53		
-9847	983798	true	open	false	3		2016-11-29T22:28:58Z	2016-12-01T19:55:47Z		deps: upgrade npm in LTS to 3.10.10	86		
+9847	983798	true	open	false	4		2016-11-29T22:28:58Z	2016-12-05T14:51:48Z		deps: upgrade npm in LTS to 3.10.10	86		
 9848	983798	true	open	false	3		2016-11-29T23:56:31Z	2016-11-30T17:09:48Z		deps: upgrade npm to 4.0.2	263		
 9849	7892079	true	closed	false	6		2016-11-30T00:02:14Z	2016-12-03T01:39:09Z	2016-12-03T01:39:08Z	lib: use strict equality in _http_server and _tls_wrap	48		
 9850	4404683	false	closed	false	8		2016-11-30T00:08:50Z	2016-12-02T08:24:39Z	2016-12-02T08:24:39Z	Generators in REPL can't be specified using function *gen() {}	60		
@@ -3262,7 +3263,7 @@
 10086	8873545	true	closed	false	1	0	2016-12-02T07:27:29Z	2016-12-04T23:39:24Z	2016-12-04T23:39:24Z	doc: fix typo for `decipher.final`.	43		
 10087	158390	true	closed	false	0		2016-12-02T07:33:39Z	2016-12-04T23:42:08Z	2016-12-04T23:42:08Z	test: polish test-net-better-error-messages-listen	50		
 10088	24241976	false	open	false	0		2016-12-02T10:27:11Z	2016-12-02T10:27:11Z		how can i solve this issue	25		
-10089	2352663	true	open	false	1		2016-12-02T12:49:19Z	2016-12-02T16:13:37Z		tools: add ESLint rule for assert.throws arguments	138		
+10089	2352663	true	open	false	3		2016-12-02T12:49:19Z	2016-12-05T14:43:30Z		tools: add ESLint rule for assert.throws arguments	138		
 10090	175530	true	open	false	0	0	2016-12-02T17:06:04Z	2016-12-02T17:06:04Z		doc: it’s -> its in api/child_process.md	34		
 10091	2441666	true	open	false	0	0	2016-12-02T17:48:53Z	2016-12-02T17:48:53Z		tools: adding osx-uninstall script	212		
 10092	10393198	true	closed	false	1		2016-12-02T18:06:52Z	2016-12-03T13:13:27Z	2016-12-03T13:13:27Z	doc: var => const in js code examples of addons.md	22		
@@ -3280,21 +3281,21 @@
 10104	2352663	false	open	false	0		2016-12-03T14:17:25Z	2016-12-04T09:02:20Z		Investigate AIX test failures	23		
 10105	837500	true	open	false	0	0	2016-12-03T16:28:53Z	2016-12-03T16:28:53Z		test: refactor test-https-agent-session-reuse	57		
 10106	1108065	true	closed	false	1	0	2016-12-04T00:42:59Z	2016-12-04T12:31:45Z	2016-12-04T12:31:45Z	Correcting parameters for vcbuild on Windows	72		
-10107	4985028	false	open	false	0		2016-12-04T02:03:36Z	2016-12-04T02:03:36Z		Fixing --preserve-symlinks. Enhancing node to exploit.	983		
+10107	4985028	false	open	false	1		2016-12-04T02:03:36Z	2016-12-05T14:38:12Z		Fixing --preserve-symlinks. Enhancing node to exploit.	983		
 10108	5892997	false	closed	false	1		2016-12-04T05:46:15Z	2016-12-04T06:06:41Z	2016-12-04T06:06:41Z	fs methods do not accept a Buffer	56		
 10109	175530	true	closed	false	1		2016-12-04T06:45:43Z	2016-12-05T06:11:03Z	2016-12-05T06:11:03Z	doc: add link to `net.Server` in tls.md	70		
 10110	11262165	true	closed	false	1	0	2016-12-04T07:17:31Z	2016-12-05T00:29:58Z	2016-12-05T00:29:58Z	test: refactor test-fs-append-file	57		
 10111	332968	true	open	false			2016-12-04T08:51:19Z	2016-12-04T13:32:14Z		http: verify method is a string	92		
 10112	1108065	true	open	false	1		2016-12-04T13:39:03Z	2016-12-05T06:43:40Z		doc: corrected vcbuild parameters for testing on windows	72		
 10113	16144158	true	closed	false	4		2016-12-04T17:57:21Z	2016-12-05T00:19:17Z	2016-12-05T00:19:17Z	fs: 'O_SYMLINK' property on constant variable	77		
-10114	432351	true	open	false			2016-12-04T18:04:31Z	2016-12-05T10:50:49Z		tools: add macosx-firewall script to avoid popups	132		
+10114	432351	true	open	false			2016-12-04T18:04:31Z	2016-12-05T14:41:58Z		tools: add macosx-firewall script to avoid popups	132		
 10115	16144158	true	open	false	1		2016-12-04T20:13:02Z	2016-12-04T21:11:53Z		console: Updated var declarations to let/const	49		
 10116	439929	true	open	false	3		2016-12-04T21:10:15Z	2016-12-05T06:06:57Z		process: Add code to warnings, assign codes to deprecations	340		
-10117	439929	false	open	false	3		2016-12-05T02:31:15Z	2016-12-05T07:04:34Z		Node.js 8.0.0 Tracking Issue	69		
+10117	439929	false	open	false	4		2016-12-05T02:31:15Z	2016-12-05T14:12:28Z		Node.js 8.0.0 Tracking Issue	69		
 10118	23263252	false	closed	false	3		2016-12-05T02:31:59Z	2016-12-05T07:18:37Z	2016-12-05T07:18:37Z	not able to write large data	283		
-10119	75209	false	open	false	3		2016-12-05T03:24:05Z	2016-12-05T05:50:46Z		Proposal: add a console.write method	91		
+10119	75209	false	open	false	4		2016-12-05T03:24:05Z	2016-12-05T14:31:37Z		Proposal: add a console.write method	91		
 10120	10419222	true	open	false	0	0	2016-12-05T05:23:37Z	2016-12-05T05:23:37Z		subsystem: test	51		
-10121	11262165	true	open	false			2016-12-05T06:31:13Z	2016-12-05T07:04:19Z		test: refactor test-beforeexit-event	73		
+10121	11262165	true	open	false			2016-12-05T06:31:13Z	2016-12-05T14:36:53Z		test: refactor test-beforeexit-event	77		
 10122	1133578	false	open	false	1		2016-12-05T09:56:51Z	2016-12-05T10:46:04Z		crash on mips64le	778		
 10123	7685948	false	open	false	0		2016-12-05T11:26:56Z	2016-12-05T11:26:56Z		Cluster fork can't debug	15		
 10124	20419303	false	open	false	1		2016-12-05T12:40:49Z	2016-12-05T13:11:37Z		Window Miss node module folder	84		
