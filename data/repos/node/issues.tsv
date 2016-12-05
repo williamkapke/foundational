@@ -26,7 +26,7 @@
 906	115237	false	open	false	33		2015-02-20T18:06:56Z	2016-11-15T21:24:02Z		net: enable TCP_NODELAY by default on all platforms	32		
 947	707147	false	open	false	9		2015-02-25T02:05:54Z	2016-11-21T15:28:32Z		EPIPE errors thrown when piping to a closed stream	363		
 983	6731985	false	open	false	22		2015-02-27T03:19:51Z	2016-11-23T11:28:52Z		Tab completion for block-scoped variables doesn't work in REPL	60		
-1010	218257	false	closed	false	51		2015-02-28T22:28:55Z	2016-12-05T10:52:27Z	2015-03-25T01:31:37Z	Ship websockets in core	23		
+1010	218257	false	closed	false	53		2015-02-28T22:28:55Z	2016-12-05T11:27:32Z	2015-03-25T01:31:37Z	Ship websockets in core	23		
 1013	176984	false	closed	false	45		2015-03-01T10:58:11Z	2016-10-17T07:18:56Z	2016-04-04T01:52:33Z	Replace deps/cares with pure-javascript alternative	207		
 1127	509651	false	open	false	10		2015-03-11T20:57:31Z	2016-10-25T21:03:25Z		crypto: sign/verify support for RSASSA-PSS	72		
 1128	36662	false	open	false	17		2015-03-11T22:48:11Z	2016-08-29T14:15:29Z		feature request: a way to inspect what's in the event loop	137		
@@ -3034,7 +3034,7 @@
 9858	6272507	true	closed	false	2		2016-11-30T16:32:10Z	2016-12-03T00:49:05Z	2016-12-03T00:49:05Z	test: update test-zlib-truncated to use strictEqual	44		
 9859	348	false	open	false	1		2016-11-30T19:45:15Z	2016-12-01T19:56:49Z		README gpg guidelines are insufficient	90		
 9860	718899	true	closed	false	2	0	2016-11-30T21:26:20Z	2016-12-05T06:59:39Z	2016-12-05T06:59:39Z	debugger: refactor _debugger.js	43		
-9861	15943089	false	open	false	1		2016-11-30T22:59:42Z	2016-12-02T20:21:12Z		Build failures with ninja	162		
+9861	15943089	false	open	false	3		2016-11-30T22:59:42Z	2016-12-05T11:25:16Z		Build failures with ninja	162		
 9862	17607	true	open	false	1		2016-11-30T23:21:51Z	2016-12-02T21:36:09Z		doc: remove Sam Roberts from release team	34		
 9863	287917	false	open	false	0		2016-12-01T00:09:12Z	2016-12-01T00:09:12Z		Support for HTTP/WS inspection	109		
 9864	6354455	true	open	false	6		2016-12-01T03:44:24Z	2016-12-01T21:13:44Z		test: stream readable readableListening internal state	50		
@@ -3097,7 +3097,7 @@
 9921	8977402	true	open	false	2		2016-12-01T16:30:54Z	2016-12-01T23:43:58Z		Test debugger fix	49		
 9922	1857993	true	open	false	4		2016-12-01T16:32:43Z	2016-12-03T06:59:21Z		test: add tests for clearBuffer state machine	59		
 9923	16144158	true	open	false			2016-12-01T16:34:44Z	2016-12-05T08:28:24Z		test: Updated tls-getcipher test	50		
-9924	4299420	true	open	false	3		2016-12-01T16:35:33Z	2016-12-05T10:37:27Z		test: fix test for buffer regression #649	35		
+9924	4299420	true	open	false	5		2016-12-01T16:35:33Z	2016-12-05T11:31:00Z		test: fix test for buffer regression #649	35		
 9925	2251119	true	open	false	0	0	2016-12-01T16:35:51Z	2016-12-01T16:35:51Z		test: convert assert.equal to assert.strictEqual	51		
 9926	8139283	true	open	false	0	0	2016-12-01T16:37:00Z	2016-12-01T16:37:00Z		test: Using const instead of var.	47		
 9927	1250405	true	open	false	0		2016-12-01T16:38:46Z	2016-12-01T17:07:47Z		test: Update vars to const/let & equal to strictEqual	52		
@@ -3267,7 +3267,7 @@
 10091	2441666	true	open	false	0	0	2016-12-02T17:48:53Z	2016-12-02T17:48:53Z		tools: adding osx-uninstall script	212		
 10092	10393198	true	closed	false	1		2016-12-02T18:06:52Z	2016-12-03T13:13:27Z	2016-12-03T13:13:27Z	doc: var => const in js code examples of addons.md	22		
 10093	287917	false	open	false	0		2016-12-02T18:38:56Z	2016-12-02T18:38:56Z		inspector: Node waiting for frontend disconnect when unable to find the script file	26		
-10094	287917	true	open	false			2016-12-02T19:11:17Z	2016-12-03T17:56:46Z		inspector: check if connected before waiting	60		
+10094	287917	true	open	false			2016-12-02T19:11:17Z	2016-12-05T11:47:37Z		inspector: check if connected before waiting	60		
 10095	289174	true	open	false	0	0	2016-12-02T21:05:27Z	2016-12-02T21:05:27Z		[async_wrap] backport of gc abort on destroy() fix on v7.x	41		
 10096	289174	true	open	false	0	0	2016-12-02T22:03:23Z	2016-12-02T22:03:23Z		[aysnc_wrap] backport of gc abort on destroy() fix on v6.x	97		
 10097	289174	true	open	false			2016-12-02T22:25:45Z	2016-12-03T18:43:06Z		[async_wrap] backport of gc abort on destroy() fix on v4.x	67		
@@ -3296,3 +3296,4 @@
 10120	10419222	true	open	false	0	0	2016-12-05T05:23:37Z	2016-12-05T05:23:37Z		subsystem: test	51		
 10121	11262165	true	open	false			2016-12-05T06:31:13Z	2016-12-05T07:04:19Z		test: refactor test-beforeexit-event	73		
 10122	1133578	false	open	false	1		2016-12-05T09:56:51Z	2016-12-05T10:46:04Z		crash on mips64le	778		
+10123	7685948	false	open	false	0		2016-12-05T11:26:56Z	2016-12-05T11:26:56Z		Cluster fork can't debug	15		
