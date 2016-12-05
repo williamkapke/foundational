@@ -65,6 +65,7 @@
 2314	1128607	true	open	false	47		2015-08-06T18:34:59Z	2016-09-17T13:09:45Z		stream: add _end method to write streams (equivilent to _flush)	87		
 2329	137545	true	open	false	15		2015-08-08T13:37:47Z	2016-08-07T12:44:00Z		[addons] Implement new init function argument dispatch	565		
 2333	115237	false	open	false	20		2015-08-09T06:04:13Z	2016-07-12T19:05:28Z		tty: stdio properties are undefined inside exec() child	45		
+2339	115237	false	open	false	10		2015-08-09T20:15:44Z	2016-12-05T16:56:32Z		tty: process.stdin.isAttached	115		
 2395	439929	true	closed	false	11	0	2015-08-16T00:23:48Z	2016-08-02T04:18:14Z	2016-08-02T04:18:14Z	http: correct fencepost error when freeing socket	60		
 2398	439929	false	open	false	40		2015-08-16T01:20:43Z	2016-11-23T14:58:06Z		DTLS Discussion	54		
 2407	355800	true	closed	false			2015-08-17T04:01:53Z	2016-09-27T21:34:56Z	2016-04-18T23:52:16Z	assert: respect assert.doesNotThrow message.	32		
@@ -3084,9 +3085,9 @@
 9907	5158539	true	closed	false	4		2016-12-01T16:23:44Z	2016-12-05T03:25:09Z	2016-12-05T03:25:09Z	test: Update test to new conventions	39		
 9908	10419222	true	closed	false	5		2016-12-01T16:24:25Z	2016-12-05T05:15:28Z	2016-12-05T05:02:10Z	xRequire resolve	51		
 9909	148124	true	closed	false	4		2016-12-01T16:25:06Z	2016-12-05T04:30:00Z	2016-12-05T04:30:00Z	test: changed equal to strictEqual in dgram-send-multi-buffer-copy.js	36		
-9910	1189785	true	open	false	2		2016-12-01T16:25:17Z	2016-12-05T04:31:02Z		test: replace equal with strictEqual in test-freelist.js	47		
+9910	1189785	true	closed	false	3	0	2016-12-01T16:25:17Z	2016-12-05T16:22:10Z	2016-12-05T16:22:10Z	test: replace equal with strictEqual in test-freelist.js	47		
 9911	8404857	true	open	false	1		2016-12-01T16:26:26Z	2016-12-05T04:33:18Z		test: refactor test-crypto-certificate	51		
-9912	4453433	true	open	false	4		2016-12-01T16:26:54Z	2016-12-02T18:16:52Z		test: update test to assert require() and es6ify variables	39		
+9912	4453433	true	open	false	6		2016-12-01T16:26:54Z	2016-12-05T16:23:25Z		test: update test to assert require() and es6ify variables	39		
 9913	3713384	true	closed	false	3	0	2016-12-01T16:27:38Z	2016-12-03T23:07:04Z	2016-12-03T23:07:04Z	test: var -> let/const, .equal -> .strictEqual	52		
 9914	3819165	true	open	false			2016-12-01T16:28:04Z	2016-12-05T08:00:02Z		test: refactor assert.equal, update assert.throws	39		
 9915	4577691	true	open	false	0	0	2016-12-01T16:28:10Z	2016-12-01T16:28:10Z		add my name to AUTHORS	39		
@@ -3095,16 +3096,16 @@
 9918	6225935	true	open	false			2016-12-01T16:29:06Z	2016-12-04T06:04:05Z		test: added validation regex argument to test	58		
 9919	408692	true	open	false	0	0	2016-12-01T16:30:08Z	2016-12-01T16:30:08Z		test: use assert.strictEqual in test-cli-eval	23		
 9920	6971109	true	open	false	2		2016-12-01T16:30:24Z	2016-12-01T19:18:31Z		changes var to let & const as appropriate	31		
-9921	8977402	true	open	false	2		2016-12-01T16:30:54Z	2016-12-01T23:43:58Z		Test debugger fix	49		
+9921	8977402	true	open	false	3		2016-12-01T16:30:54Z	2016-12-05T16:31:41Z		Test debugger fix	49		
 9922	1857993	true	open	false	4		2016-12-01T16:32:43Z	2016-12-03T06:59:21Z		test: add tests for clearBuffer state machine	59		
-9923	16144158	true	open	false			2016-12-01T16:34:44Z	2016-12-05T08:28:24Z		test: Updated tls-getcipher test	50		
-9924	4299420	true	open	false	5		2016-12-01T16:35:33Z	2016-12-05T11:31:00Z		test: fix test for buffer regression #649	35		
-9925	2251119	true	open	false	0	0	2016-12-01T16:35:51Z	2016-12-01T16:35:51Z		test: convert assert.equal to assert.strictEqual	51		
-9926	8139283	true	open	false	0	0	2016-12-01T16:37:00Z	2016-12-01T16:37:00Z		test: Using const instead of var.	47		
-9927	1250405	true	open	false	0		2016-12-01T16:38:46Z	2016-12-01T17:07:47Z		test: Update vars to const/let & equal to strictEqual	52		
+9923	16144158	true	closed	false	7		2016-12-01T16:34:44Z	2016-12-05T16:36:54Z	2016-12-05T16:36:54Z	test: Updated tls-getcipher test	50		
+9924	4299420	true	open	false	6		2016-12-01T16:35:33Z	2016-12-05T16:38:10Z		test: fix test for buffer regression #649	35		
+9925	2251119	true	open	false	1		2016-12-01T16:35:51Z	2016-12-05T16:40:11Z		test: convert assert.equal to assert.strictEqual	51		
+9926	8139283	true	open	false	1		2016-12-01T16:37:00Z	2016-12-05T16:41:05Z		test: Using const instead of var.	45		
+9927	1250405	true	open	false	1		2016-12-01T16:38:46Z	2016-12-05T16:42:36Z		test: Update vars to const/let & equal to strictEqual	52		
 9928	7892079	true	open	false	0	0	2016-12-01T16:39:16Z	2016-12-01T16:39:16Z		test: const/let, strictEqual in symlink-dir-junct	47		
 9929	132841	true	closed	false	2	0	2016-12-01T16:39:20Z	2016-12-04T22:05:53Z	2016-12-04T22:05:53Z	Changed assert strict for assert.strictEqual	43		
-9930	4193348	true	open	false	0	0	2016-12-01T16:39:40Z	2016-12-01T16:39:40Z		test: use strictEqual instead of equal	44		
+9930	4193348	true	closed	false	1		2016-12-01T16:39:40Z	2016-12-05T16:47:12Z	2016-12-05T16:47:12Z	test: use strictEqual instead of equal	44		
 9931	135120	true	open	false			2016-12-01T16:40:23Z	2016-12-04T15:51:49Z		test: clean up repl-reset-event file	59		
 9932	9204736	true	open	false	0	0	2016-12-01T16:40:25Z	2016-12-01T16:40:25Z		test: update test-net-connect-handle-econnrefused	51		
 9933	551007	true	closed	false	5		2016-12-01T16:40:32Z	2016-12-01T17:21:30Z	2016-12-01T17:21:30Z	test: setTimeout must have at least 2 arguments timer-arguments	43		
@@ -3135,9 +3136,9 @@
 9958	835690	true	open	false	0	0	2016-12-01T16:55:41Z	2016-12-01T16:55:41Z		test: crypto-hmac test assert.equal -> assert.strictEqual	75		
 9959	390146	true	open	false			2016-12-01T16:55:56Z	2016-12-05T00:52:40Z		test: replace var with const/let and use common.mustCall for cb	66		
 9960	2343630	true	open	false	2		2016-12-01T16:57:04Z	2016-12-04T06:02:16Z		test: ensure cluster setup callback runs once	54		
-9961	2251119	true	open	false	5		2016-12-01T16:57:27Z	2016-12-03T20:10:42Z		doc: add note to parallelize make	63		
+9961	2251119	true	open	false	6		2016-12-01T16:57:27Z	2016-12-05T16:28:47Z		doc: add note to parallelize make	63		
 9962	695933	true	open	false			2016-12-01T16:58:21Z	2016-12-05T00:54:57Z		test: change var declarations, add mustCall check	70		
-9963	12154939	true	open	false	0	0	2016-12-01T16:58:37Z	2016-12-01T16:58:37Z		test: refactor test-preload	34		
+9963	12154939	true	open	false	1		2016-12-01T16:58:37Z	2016-12-05T16:04:34Z		test: refactor test-preload	34		
 9964	4591928	true	closed	false	2		2016-12-01T16:58:47Z	2016-12-05T01:33:39Z	2016-12-05T01:33:39Z	test: strictEqual in test-cli-eval-event test	37		
 9965	13397	true	open	false	0	0	2016-12-01T16:59:08Z	2016-12-01T16:59:08Z		test: refactor to const/let and assert.strictEqual	39		
 9966	1535252	true	closed	false	1	0	2016-12-01T16:59:26Z	2016-12-01T17:19:43Z	2016-12-01T17:19:43Z	subsystem: fix error in test-cluster-worker-death.js	64		
@@ -3281,7 +3282,7 @@
 10104	2352663	false	open	false	0		2016-12-03T14:17:25Z	2016-12-04T09:02:20Z		Investigate AIX test failures	23		
 10105	837500	true	open	false	0	0	2016-12-03T16:28:53Z	2016-12-03T16:28:53Z		test: refactor test-https-agent-session-reuse	57		
 10106	1108065	true	closed	false	1	0	2016-12-04T00:42:59Z	2016-12-04T12:31:45Z	2016-12-04T12:31:45Z	Correcting parameters for vcbuild on Windows	72		
-10107	4985028	false	open	false	2		2016-12-04T02:03:36Z	2016-12-05T15:18:31Z		Fixing --preserve-symlinks. Enhancing node to exploit.	983		
+10107	4985028	false	open	false	4		2016-12-04T02:03:36Z	2016-12-05T16:17:12Z		Fixing --preserve-symlinks. Enhancing node to exploit.	983		
 10108	5892997	false	closed	false	1		2016-12-04T05:46:15Z	2016-12-04T06:06:41Z	2016-12-04T06:06:41Z	fs methods do not accept a Buffer	56		
 10109	175530	true	closed	false	1		2016-12-04T06:45:43Z	2016-12-05T06:11:03Z	2016-12-05T06:11:03Z	doc: add link to `net.Server` in tls.md	70		
 10110	11262165	true	closed	false	1	0	2016-12-04T07:17:31Z	2016-12-05T00:29:58Z	2016-12-05T00:29:58Z	test: refactor test-fs-append-file	57		
@@ -3300,3 +3301,5 @@
 10123	7685948	false	open	false	0		2016-12-05T11:26:56Z	2016-12-05T11:26:56Z		Cluster fork can't debug	15		
 10124	20419303	false	open	false	1		2016-12-05T12:40:49Z	2016-12-05T13:11:37Z		Window Miss node module folder	84		
 10125	837347	false	open	false	0		2016-12-05T15:37:46Z	2016-12-05T15:37:46Z		Regex and const - strange results	86		
+10126	275871	true	open	false	0	0	2016-12-05T16:15:17Z	2016-12-05T16:15:17Z		test: check result of uv_loop_init and uv_write	1		
+10127	1093990	true	open	false	0	0	2016-12-05T16:23:31Z	2016-12-05T16:23:31Z		v7.2.1 proposal	1556		
