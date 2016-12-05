@@ -1556,7 +1556,7 @@
 8378	1443911	true	open	false	1		2016-09-02T10:14:13Z	2016-09-24T21:12:41Z		doc: fix example in stream doc	54		
 8379	914122	false	closed	false	24		2016-09-02T12:46:51Z	2016-10-10T15:57:48Z	2016-10-10T15:57:48Z	Not helpful error message after upgrading Node	136		
 8380	9373002	false	closed	false	11		2016-09-02T12:53:08Z	2016-09-02T19:05:20Z	2016-09-02T19:05:20Z	AIX: parallel/test-cluster-dgram-1 failures	207		
-8381	115237	false	open	false	10		2016-09-02T13:00:01Z	2016-12-05T07:26:18Z		http: support environment-defined proxy	98		
+8381	115237	false	open	false	11		2016-09-02T13:00:01Z	2016-12-05T21:23:44Z		http: support environment-defined proxy	98		
 8382	914122	false	open	false	11		2016-09-02T13:08:45Z	2016-09-02T15:49:22Z		yield/await support in repl/cli	75		
 8383	1084056	true	closed	false	13		2016-09-02T13:17:30Z	2016-10-15T12:59:06Z	2016-09-02T19:08:23Z	test: fix test-cluster-dgram-1 flakiness	49		
 8384	9373002	true	open	false	0	0	2016-09-02T14:40:11Z	2016-09-02T14:40:11Z		test: revert changes to test/parallel/test-cluster-dgram-1.js	54		
@@ -3136,7 +3136,7 @@
 9958	835690	true	open	false			2016-12-01T16:55:41Z	2016-12-05T20:22:23Z		test: crypto-hmac test assert.equal -> assert.strictEqual	75		
 9959	390146	true	open	false			2016-12-01T16:55:56Z	2016-12-05T00:52:40Z		test: replace var with const/let and use common.mustCall for cb	66		
 9960	2343630	true	open	false	2		2016-12-01T16:57:04Z	2016-12-04T06:02:16Z		test: ensure cluster setup callback runs once	54		
-9961	2251119	true	open	false	8		2016-12-01T16:57:27Z	2016-12-05T17:50:23Z		doc: add note to parallelize make	63		
+9961	2251119	true	open	false	9		2016-12-01T16:57:27Z	2016-12-05T21:38:51Z		doc: add note to parallelize make	63		
 9962	695933	true	open	false			2016-12-01T16:58:21Z	2016-12-05T00:54:57Z		test: change var declarations, add mustCall check	70		
 9963	12154939	true	open	false	1		2016-12-01T16:58:37Z	2016-12-05T16:04:34Z		test: refactor test-preload	34		
 9964	4591928	true	closed	false	2		2016-12-01T16:58:47Z	2016-12-05T01:33:39Z	2016-12-05T01:33:39Z	test: strictEqual in test-cli-eval-event test	37		
@@ -3169,27 +3169,27 @@
 9991	941708	true	closed	false	4	0	2016-12-01T17:17:03Z	2016-12-05T20:58:52Z	2016-12-05T20:58:52Z	test: update repl tests	40		
 9992	4520641	true	open	false	2		2016-12-01T17:18:40Z	2016-12-04T03:20:57Z		Test: Updated test/parallel/test-fs-write-file.js.	67		
 9993	7293048	true	open	false	1		2016-12-01T17:19:02Z	2016-12-04T05:19:10Z		test: change assert.equal to assert.strictEqual in parallel/test-cluster-setup-argv.js	38		
-9994	5494584	true	open	false	2		2016-12-01T17:21:08Z	2016-12-02T18:00:06Z		test: using assert.strictEqual() instead of assert.equal()	45		
+9994	5494584	true	closed	false	4		2016-12-01T17:21:08Z	2016-12-05T21:32:17Z	2016-12-05T21:32:17Z	test: using assert.strictEqual() instead of assert.equal()	45		
 9995	678335	true	open	false	1		2016-12-01T17:21:56Z	2016-12-01T20:10:54Z		Test net keepalive	32		
-9996	8010038	true	open	false	6		2016-12-01T17:23:11Z	2016-12-03T02:01:37Z		test: use strictEqual() domain-http	39		
-9997	2441666	true	open	false	8		2016-12-01T17:23:40Z	2016-12-04T03:59:00Z		test: Added more validations to setEncoding	55		
-9998	5757415	true	open	false			2016-12-01T17:24:05Z	2016-12-04T22:03:51Z		test: fix buffer alloc tests	42		
+9996	8010038	true	closed	false	9		2016-12-01T17:23:11Z	2016-12-05T21:37:32Z	2016-12-05T21:37:32Z	test: use strictEqual() domain-http	39		
+9997	2441666	true	closed	false	9	1	2016-12-01T17:23:40Z	2016-12-05T21:42:05Z	2016-12-05T21:42:05Z	test: Added more validations to setEncoding	55		
+9998	5757415	true	closed	false	2	2	2016-12-01T17:24:05Z	2016-12-05T21:46:19Z	2016-12-05T21:46:19Z	test: fix buffer alloc tests	42		
 9999	413505	true	open	false	0	0	2016-12-01T17:24:40Z	2016-12-01T17:24:40Z		test: fix assert.equal to strictEq	34		
 10000	11638619	true	closed	false	2	1	2016-12-01T17:24:56Z	2016-12-03T23:35:15Z	2016-12-03T23:35:15Z	doc: suggest Buffer.alloc instead of Buffer#fill	52		
-10001	8710766	true	open	false	1		2016-12-01T17:25:07Z	2016-12-05T20:08:18Z		test: use const or let and assert.strictEqual	43		
+10001	8710766	true	open	false	2		2016-12-01T17:25:07Z	2016-12-05T21:14:55Z		test: use const or let and assert.strictEqual	43		
 10002	23178902	true	open	false	0	0	2016-12-01T17:25:24Z	2016-12-01T17:25:24Z		Changed assert.equal => assert.strictEqual line 56. Cast response to Number()	48		
 10003	16144158	true	open	false	0	0	2016-12-01T17:26:22Z	2016-12-01T17:26:22Z		test: updated test-domain-exit-dispose-again	53		
 10004	155475	true	closed	false	7		2016-12-01T17:27:48Z	2016-12-05T20:02:11Z	2016-12-05T20:02:11Z	code and learn pr change	5		
-10005	2763135	true	open	false	3		2016-12-01T17:28:03Z	2016-12-05T03:08:27Z		doc: fix awkward sentence for fs.utimes()	43		
+10005	2763135	true	open	false	5		2016-12-01T17:28:03Z	2016-12-05T21:53:44Z		doc: fix awkward sentence for fs.utimes()	43		
 10006	874194	true	open	false			2016-12-01T17:28:30Z	2016-12-05T17:34:01Z		test: cleanup test-stdout-close-catch.js	50		
 10007	1661466	true	closed	false	6		2016-12-01T17:28:39Z	2016-12-04T03:17:43Z	2016-12-04T03:17:43Z	test: update to const and strictEqual	47		
 10008	4750614	true	closed	false	2		2016-12-01T17:29:09Z	2016-12-02T14:20:06Z	2016-12-01T19:04:18Z	test: use strictEqual in test-child-process-constructor	46		
 10009	10557763	true	open	false	0	0	2016-12-01T17:29:35Z	2016-12-01T17:29:35Z		test: update parallel/test-crypto-hash.js	44		
 10010	18546826	true	open	false			2016-12-01T17:30:05Z	2016-12-01T22:17:58Z		Testfix1	62		
-10011	1981088	true	open	false	1		2016-12-01T17:30:34Z	2016-12-01T20:21:58Z		test: replace equal with strictEqual	31		
+10011	1981088	true	open	false	2		2016-12-01T17:30:34Z	2016-12-05T21:58:02Z		test: replace equal with strictEqual	31		
 10012	11317322	true	open	false	0	0	2016-12-01T17:32:22Z	2016-12-01T17:32:22Z		test: refactor test-stdin-from-file.js	63		
 10013	1848673	true	open	false			2016-12-01T17:32:25Z	2016-12-05T20:03:50Z		test: update test-tls-alert-handling.js	49		
-10014	6608426	true	open	false	0	0	2016-12-01T17:32:34Z	2016-12-01T17:32:34Z		test: Modernize test-tls-peer-certificate.js.	52		
+10014	6608426	true	open	false	2		2016-12-01T17:32:34Z	2016-12-05T21:48:07Z		test: Modernize test-tls-peer-certificate.js	52		
 10015	23087528	true	open	false	0	0	2016-12-01T17:32:58Z	2016-12-01T17:32:58Z		test: changed assert.equal() to assert.strictEqual()	30		
 10016	15010749	true	open	false			2016-12-01T17:33:03Z	2016-12-04T01:05:44Z		es6 modification and include error message	45		
 10017	11701272	true	open	false			2016-12-01T17:33:44Z	2016-12-05T17:41:29Z		test: refactor test and add common.mustCall	53		
@@ -3279,10 +3279,10 @@
 10101	3397140	false	open	false	0		2016-12-03T01:16:49Z	2016-12-03T20:16:46Z		process.nextTick & node::MakeCallback are very bloated	296		
 10102	10393198	true	open	false	1		2016-12-03T05:52:58Z	2016-12-05T18:36:37Z		doc: some fixes in child_process.md	62		
 10103	11638619	true	open	false	3		2016-12-03T08:16:26Z	2016-12-05T08:41:25Z		repl: avoid parsing division operator as regex	62		
-10104	2352663	false	open	false	0		2016-12-03T14:17:25Z	2016-12-04T09:02:20Z		Investigate AIX test failures	23		
+10104	2352663	false	open	false	1		2016-12-03T14:17:25Z	2016-12-05T21:37:18Z		Investigate AIX test failures	23		
 10105	837500	true	open	false	0	0	2016-12-03T16:28:53Z	2016-12-03T16:28:53Z		test: refactor test-https-agent-session-reuse	57		
 10106	1108065	true	closed	false	1	0	2016-12-04T00:42:59Z	2016-12-04T12:31:45Z	2016-12-04T12:31:45Z	Correcting parameters for vcbuild on Windows	72		
-10107	4985028	false	open	false	10		2016-12-04T02:03:36Z	2016-12-05T20:51:39Z		Fixing --preserve-symlinks. Enhancing node to exploit.	983		
+10107	4985028	false	open	false	11		2016-12-04T02:03:36Z	2016-12-05T21:20:12Z		Fixing --preserve-symlinks. Enhancing node to exploit.	983		
 10108	5892997	false	closed	false	1		2016-12-04T05:46:15Z	2016-12-04T06:06:41Z	2016-12-04T06:06:41Z	fs methods do not accept a Buffer	56		
 10109	175530	true	closed	false	1		2016-12-04T06:45:43Z	2016-12-05T06:11:03Z	2016-12-05T06:11:03Z	doc: add link to `net.Server` in tls.md	70		
 10110	11262165	true	closed	false	1	0	2016-12-04T07:17:31Z	2016-12-05T00:29:58Z	2016-12-05T00:29:58Z	test: refactor test-fs-append-file	57		
@@ -3290,7 +3290,7 @@
 10112	1108065	true	open	false	1		2016-12-04T13:39:03Z	2016-12-05T06:43:40Z		doc: corrected vcbuild parameters for testing on windows	72		
 10113	16144158	true	closed	false	4		2016-12-04T17:57:21Z	2016-12-05T00:19:17Z	2016-12-05T00:19:17Z	fs: 'O_SYMLINK' property on constant variable	77		
 10114	432351	true	open	false			2016-12-04T18:04:31Z	2016-12-05T19:45:05Z		tools: add macosx-firewall script to avoid popups	132		
-10115	16144158	true	open	false	1		2016-12-04T20:13:02Z	2016-12-04T21:11:53Z		console: Updated var declarations to let/const	49		
+10115	16144158	true	closed	false	3	0	2016-12-04T20:13:02Z	2016-12-05T21:56:59Z	2016-12-05T21:56:59Z	console: Updated var declarations to let/const	49		
 10116	439929	true	open	false	7		2016-12-04T21:10:15Z	2016-12-05T18:13:09Z		process: Add code to warnings, assign codes to deprecations	340		
 10117	439929	false	open	false	15		2016-12-05T02:31:15Z	2016-12-05T20:34:22Z		Node.js 8.0.0 Tracking Issue	69		
 10118	23263252	false	closed	false	3		2016-12-05T02:31:59Z	2016-12-05T07:18:37Z	2016-12-05T07:18:37Z	not able to write large data	283		
@@ -3302,5 +3302,7 @@
 10124	20419303	false	open	false	2		2016-12-05T12:40:49Z	2016-12-05T17:23:10Z		Window Miss node module folder	84		
 10125	837347	false	closed	false	2		2016-12-05T15:37:46Z	2016-12-05T17:13:53Z	2016-12-05T15:49:34Z	Regex and const - strange results	86		
 10126	275871	true	open	false	0	0	2016-12-05T16:15:17Z	2016-12-05T16:15:17Z		test: check result of uv_loop_init and uv_write	1		
-10127	1093990	true	open	false	0	0	2016-12-05T16:23:31Z	2016-12-05T16:23:31Z		v7.2.1 proposal	1556		
-10128	6487691	true	open	false	0	0	2016-12-05T18:29:38Z	2016-12-05T18:29:38Z		build: Modify library search path on AIX to include /opt/freeware/lib	356		
+10127	1093990	true	open	false	0		2016-12-05T16:23:31Z	2016-12-05T21:42:22Z		v7.2.1 proposal	1556		
+10128	6487691	true	open	false	1		2016-12-05T18:29:38Z	2016-12-05T21:18:08Z		build: Modify library search path on AIX to include /opt/freeware/lib	356		
+10129	115237	false	open	false	0		2016-12-05T21:03:59Z	2016-12-05T21:03:59Z		tools: evaluate removing args exception from no-unused-vars lint rule	52		
+10130	9373002	false	open	false	0		2016-12-05T21:13:59Z	2016-12-05T21:13:59Z		test-https-set-timeout-server on freebsd	83		
