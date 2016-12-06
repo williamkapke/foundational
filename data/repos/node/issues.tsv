@@ -3012,7 +3012,7 @@
 9834	289174	false	closed	false	1		2016-11-29T08:15:19Z	2016-12-06T00:48:24Z	2016-12-06T00:48:24Z	[buffer] transcode() to utf16le is broken	115		
 9835	1581989	false	closed	false	5		2016-11-29T08:27:55Z	2016-11-30T00:45:51Z	2016-11-29T11:34:48Z	bable-node not working	72		
 9836	289174	false	open	false	0		2016-11-29T08:28:24Z	2016-11-29T08:28:24Z		[buffer] fill() for utf16le is broken	30		
-9837	899444	true	open	false	3		2016-11-29T11:12:21Z	2016-12-06T02:46:11Z		buffer: fix single-character string filling	95		
+9837	899444	true	open	false			2016-11-29T11:12:21Z	2016-12-06T05:29:04Z		buffer: fix single-character string filling	95		
 9838	899444	true	closed	false	2		2016-11-29T11:27:19Z	2016-12-06T00:47:43Z	2016-12-06T00:47:43Z	buffer: fix transcode for single-byte enc to ucs2	63		
 9839	12165955	false	open	false	0		2016-11-29T12:30:48Z	2016-11-29T12:30:48Z		Solaris 11.3 build issue:	204		
 9840	718899	false	open	false	0		2016-11-29T15:32:53Z	2016-11-29T15:32:53Z		doc: doc/api/modules.md needs a better explanation of `exports`	45		
@@ -3094,16 +3094,16 @@
 9916	4521223	true	open	false	2		2016-12-01T16:28:51Z	2016-12-05T08:06:38Z		test: replace var with const in test-require-dot	52		
 9917	7897262	true	open	false	4		2016-12-01T16:28:55Z	2016-12-05T15:00:56Z		test: update var to let const in tests	66		
 9918	6225935	true	open	false			2016-12-01T16:29:06Z	2016-12-04T06:04:05Z		test: added validation regex argument to test	58		
-9919	408692	true	open	false	0	0	2016-12-01T16:30:08Z	2016-12-01T16:30:08Z		test: use assert.strictEqual in test-cli-eval	23		
-9920	6971109	true	open	false	2		2016-12-01T16:30:24Z	2016-12-01T19:18:31Z		changes var to let & const as appropriate	31		
+9919	408692	true	open	false	1		2016-12-01T16:30:08Z	2016-12-06T05:40:26Z		test: use assert.strictEqual in test-cli-eval	60		
+9920	6971109	true	open	false	3		2016-12-01T16:30:24Z	2016-12-06T05:35:33Z		changes var to let & const as appropriate	31		
 9921	8977402	true	closed	false	4		2016-12-01T16:30:54Z	2016-12-06T03:52:52Z	2016-12-06T03:52:52Z	Test debugger fix	49		
 9922	1857993	true	open	false	4		2016-12-01T16:32:43Z	2016-12-03T06:59:21Z		test: add tests for clearBuffer state machine	59		
 9923	16144158	true	closed	false	7		2016-12-01T16:34:44Z	2016-12-05T16:36:54Z	2016-12-05T16:36:54Z	test: Updated tls-getcipher test	50		
 9924	4299420	true	open	false	8		2016-12-01T16:35:33Z	2016-12-05T19:43:16Z		test: fix test for buffer regression #649	35		
 9925	2251119	true	closed	false	2		2016-12-01T16:35:51Z	2016-12-06T03:43:20Z	2016-12-06T03:43:20Z	test: convert assert.equal to assert.strictEqual	51		
 9926	8139283	true	closed	false	2		2016-12-01T16:37:00Z	2016-12-06T03:49:23Z	2016-12-06T03:49:23Z	test: Using const instead of var.	45		
-9927	1250405	true	open	false	1		2016-12-01T16:38:46Z	2016-12-05T16:42:36Z		test: Update vars to const/let & equal to strictEqual	52		
-9928	7892079	true	open	false	1		2016-12-01T16:39:16Z	2016-12-05T19:50:57Z		test: const/let, strictEqual in symlink-dir-junct	47		
+9927	1250405	true	open	false	3		2016-12-01T16:38:46Z	2016-12-06T05:41:49Z		test: Update vars to const/let & equal to strictEqual	52		
+9928	7892079	true	open	false	2		2016-12-01T16:39:16Z	2016-12-06T05:50:33Z		test: const/let, strictEqual in symlink-dir-junct	47		
 9929	132841	true	closed	false	2	0	2016-12-01T16:39:20Z	2016-12-04T22:05:53Z	2016-12-04T22:05:53Z	Changed assert strict for assert.strictEqual	43		
 9930	4193348	true	closed	false	1		2016-12-01T16:39:40Z	2016-12-05T16:47:12Z	2016-12-05T16:47:12Z	test: use strictEqual instead of equal	44		
 9931	135120	true	open	false			2016-12-01T16:40:23Z	2016-12-04T15:51:49Z		test: clean up repl-reset-event file	59		
@@ -3148,7 +3148,7 @@
 9970	4750614	true	open	false	0	0	2016-12-01T17:01:27Z	2016-12-01T17:01:27Z		test: refactor test-tls-ocsp-callback	56		
 9971	148124	true	closed	false	6	0	2016-12-01T17:01:34Z	2016-12-05T01:12:07Z	2016-12-05T01:12:07Z	test: minor changes to test-crypto-padding.js	49		
 9972	1467678	true	open	false	2		2016-12-01T17:01:43Z	2016-12-05T01:12:49Z		changes var to const/let in tls-ecdh; #28 from nina16	69		
-9973	10526646	true	open	false	0	0	2016-12-01T17:02:13Z	2016-12-01T17:02:13Z		test: changed assert.Equal to asset.strictEqual	51		
+9973	10526646	true	open	false	1		2016-12-01T17:02:13Z	2016-12-06T05:55:06Z		test: changed assert.Equal to asset.strictEqual	51		
 9974	1661466	true	open	false	3		2016-12-01T17:02:17Z	2016-12-04T00:13:43Z		test: updated to const and strictEqual	47		
 9975	7142618	true	open	false	1		2016-12-01T17:02:18Z	2016-12-02T21:02:58Z		test: use `assert.strictEqual`	45		
 9976	2294736	true	open	false	1		2016-12-01T17:03:54Z	2016-12-05T23:55:42Z		test: assert.throws() should include a RegExp	54		
@@ -3157,7 +3157,7 @@
 9979	4577691	false	open	false	10		2016-12-01T17:07:24Z	2016-12-02T20:10:05Z		Test hangs on OSX 10.9.5 test-domain-no-error-handler-abort-on-uncaught.js	36		
 9980	7246312	true	open	false	3		2016-12-01T17:07:28Z	2016-12-04T04:17:03Z		Updated test-crypto-ecb.js to change assert.equal to assert.strictEqual	44		
 9981	1535252	true	open	false	1		2016-12-01T17:09:02Z	2016-12-05T23:57:54Z		test: fix error in test-cluster-worker-death.js	63		
-9982	6641809	true	open	false	2		2016-12-01T17:09:03Z	2016-12-01T18:04:41Z		test:changed equal to strictEqual in test-child-fork-exec-path.js	44		
+9982	6641809	true	open	false	3		2016-12-01T17:09:03Z	2016-12-06T05:53:25Z		test:changed equal to strictEqual in test-child-fork-exec-path.js	44		
 9983	15010749	true	closed	false	2		2016-12-01T17:09:07Z	2016-12-01T21:15:11Z	2016-12-01T21:15:11Z	es6 modification and include error msg	51		
 9984	678335	true	open	false	0	0	2016-12-01T17:10:41Z	2016-12-01T17:10:41Z		test: add mustCall to setTimeout	48		
 9985	4212452	true	open	false	1		2016-12-01T17:12:10Z	2016-12-01T23:02:56Z		test: updating test file to use strictEqual	46		
@@ -3206,7 +3206,7 @@
 10028	4577691	true	open	false	0	0	2016-12-01T17:48:58Z	2016-12-01T17:48:58Z		test: change usages of assert.equal() to assert.strictEqual()	36		
 10029	1399973	true	closed	false	3		2016-12-01T17:49:19Z	2016-12-05T06:07:19Z	2016-12-05T06:07:19Z	var to const/let change	38		
 10030	11262165	true	closed	false	3		2016-12-01T17:50:30Z	2016-12-04T04:02:49Z	2016-12-04T04:02:49Z	test: update test-fs-write-file	61		
-10031	4453433	true	open	false	6		2016-12-01T17:50:36Z	2016-12-06T04:03:07Z		test: add test for url module domainToAscii and domainToUnicode	47		
+10031	4453433	true	open	false	7		2016-12-01T17:50:36Z	2016-12-06T05:28:33Z		test: add test for url module domainToAscii and domainToUnicode	47		
 10032	2763135	true	open	false	1		2016-12-01T17:50:38Z	2016-12-06T00:09:35Z		test: refactor test-dgram-msgsize.js	46		
 10033	6042252	true	open	false			2016-12-01T17:51:40Z	2016-12-05T17:11:07Z		test: Updates to test-stream2-unpipe-drain	64		
 10034	4591928	true	open	false	0	0	2016-12-01T17:52:33Z	2016-12-01T17:52:33Z		test: const/strictEqual in test-listen-fd-ebadf	38		
@@ -3276,13 +3276,13 @@
 10098	718899	true	closed	false	1		2016-12-02T22:44:11Z	2016-12-05T23:15:33Z	2016-12-05T23:15:33Z	doc: correct it's vs. its usage	59		
 10099	15952	true	closed	false	9		2016-12-02T22:53:25Z	2016-12-05T19:32:19Z	2016-12-05T19:32:18Z	debugger: call `this.resume()` after `this.run()`	70		
 10100	4800357	true	open	false	2		2016-12-02T23:59:44Z	2016-12-05T12:19:19Z		test: updated test-stream-pipe-unpipe-stream	44		
-10101	3397140	false	open	false	0		2016-12-03T01:16:49Z	2016-12-03T20:16:46Z		process.nextTick & node::MakeCallback are very bloated	296		
+10101	3397140	false	open	false	2		2016-12-03T01:16:49Z	2016-12-06T05:14:42Z		process.nextTick & node::MakeCallback are very bloated	296		
 10102	10393198	true	open	false	1		2016-12-03T05:52:58Z	2016-12-05T18:36:37Z		doc: some fixes in child_process.md	62		
 10103	11638619	true	open	false	3		2016-12-03T08:16:26Z	2016-12-05T08:41:25Z		repl: avoid parsing division operator as regex	62		
 10104	2352663	false	open	false	1		2016-12-03T14:17:25Z	2016-12-05T21:37:18Z		Investigate AIX test failures	23		
 10105	837500	true	open	false	0	0	2016-12-03T16:28:53Z	2016-12-03T16:28:53Z		test: refactor test-https-agent-session-reuse	57		
 10106	1108065	true	closed	false	1	0	2016-12-04T00:42:59Z	2016-12-04T12:31:45Z	2016-12-04T12:31:45Z	Correcting parameters for vcbuild on Windows	72		
-10107	4985028	false	open	false	33		2016-12-04T02:03:36Z	2016-12-06T04:10:26Z		Fixing --preserve-symlinks. Enhancing node to exploit.	983		
+10107	4985028	false	open	false	35		2016-12-04T02:03:36Z	2016-12-06T05:01:07Z		Fixing --preserve-symlinks. Enhancing node to exploit.	983		
 10108	5892997	false	closed	false	1		2016-12-04T05:46:15Z	2016-12-04T06:06:41Z	2016-12-04T06:06:41Z	fs methods do not accept a Buffer	56		
 10109	175530	true	closed	false	1		2016-12-04T06:45:43Z	2016-12-05T06:11:03Z	2016-12-05T06:11:03Z	doc: add link to `net.Server` in tls.md	70		
 10110	11262165	true	closed	false	1	0	2016-12-04T07:17:31Z	2016-12-05T00:29:58Z	2016-12-05T00:29:58Z	test: refactor test-fs-append-file	57		
@@ -3295,7 +3295,7 @@
 10117	439929	false	open	false	15		2016-12-05T02:31:15Z	2016-12-05T20:34:22Z		Node.js 8.0.0 Tracking Issue	69		
 10118	23263252	false	closed	false	3		2016-12-05T02:31:59Z	2016-12-05T07:18:37Z	2016-12-05T07:18:37Z	not able to write large data	283		
 10119	75209	false	open	false	4		2016-12-05T03:24:05Z	2016-12-05T14:31:37Z		Proposal: add a console.write method	91		
-10120	10419222	true	open	false	0		2016-12-05T05:23:37Z	2016-12-05T17:17:36Z		subsystem: test	52		
+10120	10419222	true	open	false	2		2016-12-05T05:23:37Z	2016-12-06T05:26:52Z		subsystem: test	52		
 10121	11262165	true	open	false			2016-12-05T06:31:13Z	2016-12-05T14:36:53Z		test: refactor test-beforeexit-event	77		
 10122	1133578	false	open	false	1		2016-12-05T09:56:51Z	2016-12-05T10:46:04Z		crash on mips64le	778		
 10123	7685948	false	open	false	0		2016-12-05T11:26:56Z	2016-12-05T11:26:56Z		Cluster fork can't debug	15		
@@ -3311,3 +3311,4 @@
 10133	7834613	false	open	false	0		2016-12-06T00:42:54Z	2016-12-06T00:42:54Z		http.Agent free sockets maintain reference to initial ClientRequest object until the socket is destroyed/closed	283		
 10134	7834613	true	open	false	0	0	2016-12-06T03:11:55Z	2016-12-06T03:11:55Z		"Eliminate capture of ""cb"" in createSocket context"	138		
 10135	275871	true	open	false	0		2016-12-06T03:55:43Z	2016-12-06T04:05:41Z		lib: be robust when process global is clobbered	66		
+10136	2920525	true	open	false	0	0	2016-12-06T05:44:11Z	2016-12-06T05:44:11Z		doc: fix typo in code example of 'path' module	30		
