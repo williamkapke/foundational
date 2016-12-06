@@ -1556,7 +1556,7 @@
 8378	1443911	true	open	false	1		2016-09-02T10:14:13Z	2016-09-24T21:12:41Z		doc: fix example in stream doc	54		
 8379	914122	false	closed	false	24		2016-09-02T12:46:51Z	2016-10-10T15:57:48Z	2016-10-10T15:57:48Z	Not helpful error message after upgrading Node	136		
 8380	9373002	false	closed	false	11		2016-09-02T12:53:08Z	2016-09-02T19:05:20Z	2016-09-02T19:05:20Z	AIX: parallel/test-cluster-dgram-1 failures	207		
-8381	115237	false	open	false	12		2016-09-02T13:00:01Z	2016-12-06T00:34:12Z		http: support environment-defined proxy	98		
+8381	115237	false	open	false	13		2016-09-02T13:00:01Z	2016-12-06T12:36:25Z		http: support environment-defined proxy	98		
 8382	914122	false	open	false	11		2016-09-02T13:08:45Z	2016-09-02T15:49:22Z		yield/await support in repl/cli	75		
 8383	1084056	true	closed	false	13		2016-09-02T13:17:30Z	2016-10-15T12:59:06Z	2016-09-02T19:08:23Z	test: fix test-cluster-dgram-1 flakiness	49		
 8384	9373002	true	open	false	0	0	2016-09-02T14:40:11Z	2016-09-02T14:40:11Z		test: revert changes to test/parallel/test-cluster-dgram-1.js	54		
@@ -2874,7 +2874,7 @@
 9696	1777466	false	open	false	0		2016-11-19T12:17:04Z	2016-11-19T12:17:04Z		NPM 3.10.8 crashed	238		
 9697	2352663	true	closed	false	2		2016-11-19T13:41:22Z	2016-11-22T03:55:01Z	2016-11-22T03:55:01Z	deps: update V8 to 5.4.500.43	48		
 9698	4233173	false	open	false	1		2016-11-19T14:47:33Z	2016-11-19T19:02:27Z		nullCheck in fs.js not checking 'undefined'	30		
-9699	988441	true	open	false	4		2016-11-19T17:47:22Z	2016-12-05T23:20:36Z		fs: make sure readFile[Sync] reads from the beginning	156		
+9699	988441	true	open	false	5		2016-11-19T17:47:22Z	2016-12-06T13:08:25Z		fs: make sure readFile[Sync] reads from the beginning	156		
 9700	13138961	true	open	false			2016-11-19T22:33:08Z	2016-12-05T22:56:57Z		Tests: Refactored to es6	61		
 9701	1260305	true	open	false	4		2016-11-19T22:57:15Z	2016-11-22T05:09:06Z		doc: child_process .stdio accepts a String type	48		
 9702	170197	false	open	false	2		2016-11-20T00:36:09Z	2016-11-20T01:01:24Z		URL auth issue	34		
@@ -3012,7 +3012,7 @@
 9834	289174	false	closed	false	1		2016-11-29T08:15:19Z	2016-12-06T00:48:24Z	2016-12-06T00:48:24Z	[buffer] transcode() to utf16le is broken	115		
 9835	1581989	false	closed	false	5		2016-11-29T08:27:55Z	2016-11-30T00:45:51Z	2016-11-29T11:34:48Z	bable-node not working	72		
 9836	289174	false	open	false	0		2016-11-29T08:28:24Z	2016-11-29T08:28:24Z		[buffer] fill() for utf16le is broken	30		
-9837	899444	true	open	false			2016-11-29T11:12:21Z	2016-12-06T05:29:04Z		buffer: fix single-character string filling	95		
+9837	899444	true	open	false			2016-11-29T11:12:21Z	2016-12-06T12:39:58Z		buffer: fix single-character string filling	95		
 9838	899444	true	closed	false	2		2016-11-29T11:27:19Z	2016-12-06T00:47:43Z	2016-12-06T00:47:43Z	buffer: fix transcode for single-byte enc to ucs2	63		
 9839	12165955	false	open	false	0		2016-11-29T12:30:48Z	2016-11-29T12:30:48Z		Solaris 11.3 build issue:	204		
 9840	718899	false	open	false	0		2016-11-29T15:32:53Z	2016-11-29T15:32:53Z		doc: doc/api/modules.md needs a better explanation of `exports`	45		
@@ -3310,8 +3310,8 @@
 10132	4985028	true	open	false	8		2016-12-06T00:33:41Z	2016-12-06T11:01:51Z		Fix --preserve-symlinks, Enhancement to exploit	70		
 10133	7834613	false	open	false	0		2016-12-06T00:42:54Z	2016-12-06T00:42:54Z		http.Agent free sockets maintain reference to initial ClientRequest object until the socket is destroyed/closed	283		
 10134	7834613	true	open	false	0	0	2016-12-06T03:11:55Z	2016-12-06T03:11:55Z		"Eliminate capture of ""cb"" in createSocket context"	138		
-10135	275871	true	open	false			2016-12-06T03:55:43Z	2016-12-06T10:51:52Z		lib: be robust when process global is clobbered	66		
+10135	275871	true	open	false			2016-12-06T03:55:43Z	2016-12-06T12:42:34Z		lib: be robust when process global is clobbered	66		
 10136	2920525	true	open	false	0	0	2016-12-06T05:44:11Z	2016-12-06T05:44:11Z		doc: fix typo in code example of 'path' module	30		
-10137	680220	false	open	false	1		2016-12-06T08:02:41Z	2016-12-06T10:21:27Z		FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memory	199		
-10138	327019	true	open	false			2016-12-06T09:48:18Z	2016-12-06T10:46:47Z		http: make the expression test more faster	95		
-10139	1559888	true	open	false	0	0	2016-12-06T11:39:01Z	2016-12-06T11:39:01Z		Build, warning, header, and include fixes	438		
+10137	680220	false	open	false	2		2016-12-06T08:02:41Z	2016-12-06T12:01:49Z		FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memory	199		
+10138	327019	true	open	false			2016-12-06T09:48:18Z	2016-12-06T13:03:04Z		http: make the expression test more faster	95		
+10139	1559888	true	open	false	1		2016-12-06T11:39:01Z	2016-12-06T12:33:45Z		Build, warning, header, and include fixes	438		
