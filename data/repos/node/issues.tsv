@@ -57,7 +57,7 @@
 2098	1881921	false	closed	false	20		2015-07-03T10:19:55Z	2016-07-12T10:29:54Z	2016-04-10T08:19:20Z	child_process.spawn sh not killable	166		
 2114	289174	false	open	false	12		2015-07-06T19:32:55Z	2016-07-20T15:59:23Z		incorrect URL parsing	46		
 2126	122831	false	open	false	8		2015-07-07T21:10:41Z	2016-07-11T22:19:43Z		SNICallback callback doesn't throw an error with invalid input	77		
-2133	829734	true	open	false			2015-07-08T12:31:57Z	2016-11-24T12:19:35Z		workers: initial implementation	56		
+2133	829734	true	open	false	140		2015-07-08T12:31:57Z	2016-12-06T09:24:43Z		workers: initial implementation	56		
 2138	495647	false	closed	false	24		2015-07-09T00:43:28Z	2016-06-30T05:17:39Z	2016-06-30T05:17:39Z	Process startup time on ARM	248		
 2232	1093990	true	closed	false	10		2015-07-24T00:46:36Z	2016-07-07T20:08:56Z	2016-01-11T20:54:45Z	Port from joyent/node: `timers: fix timeout when added in timer's callback`	11		
 2253	234659	true	closed	false	53		2015-07-27T16:53:56Z	2016-08-30T12:56:44Z	2016-05-11T18:52:36Z	ensure preload modules are always preloaded	30		
@@ -2858,7 +2858,7 @@
 9680	498775	true	open	false	0	0	2016-11-18T19:59:41Z	2016-11-18T19:59:41Z		(WIP) lib: fix beforeExit not working with -e	211		
 9681	54666	true	closed	false	4	0	2016-11-18T20:21:25Z	2016-11-22T08:01:17Z	2016-11-22T08:01:17Z	backport: http: fix connection upgrade checks	67		
 9682	54666	true	open	false	9		2016-11-18T20:42:20Z	2016-11-22T06:06:06Z		backport: cctest TAP output changes	47		
-9683	988441	true	open	false	3		2016-11-18T20:46:06Z	2016-11-25T18:18:31Z		fs: remove fs.read's string interface	125		
+9683	988441	true	open	false	3		2016-11-18T20:46:06Z	2016-12-06T09:22:39Z		fs: remove fs.read's string interface	125		
 9684	498775	false	closed	false	7		2016-11-18T20:49:05Z	2016-11-26T08:21:28Z	2016-11-26T08:21:28Z	tools/test.py should be able to get a full path to a test to manually run it	86		
 9685	1093990	true	closed	false	4	13	2016-11-18T20:53:51Z	2016-11-22T17:29:42Z	2016-11-22T17:29:42Z	timers: use consistent checks for canceled timers	123	1093990	2016-11-22T17:29:42Z
 9686	17607	true	closed	false	3		2016-11-18T21:45:45Z	2016-11-19T00:12:57Z	2016-11-18T21:53:03Z	crypto: fix faulty logic in iv size check	159		
@@ -3291,7 +3291,7 @@
 10113	16144158	true	closed	false	4		2016-12-04T17:57:21Z	2016-12-05T00:19:17Z	2016-12-05T00:19:17Z	fs: 'O_SYMLINK' property on constant variable	77		
 10114	432351	true	open	false			2016-12-04T18:04:31Z	2016-12-06T07:07:26Z		tools: add macosx-firewall script to avoid popups	132		
 10115	16144158	true	closed	false	3	0	2016-12-04T20:13:02Z	2016-12-05T21:56:59Z	2016-12-05T21:56:59Z	console: Updated var declarations to let/const	49		
-10116	439929	true	open	false	7		2016-12-04T21:10:15Z	2016-12-05T18:13:09Z		process: Add code to warnings, assign codes to deprecations	340		
+10116	439929	true	open	false	10		2016-12-04T21:10:15Z	2016-12-06T09:20:30Z		process: Add code to warnings, assign codes to deprecations	340		
 10117	439929	false	open	false	15		2016-12-05T02:31:15Z	2016-12-05T20:34:22Z		Node.js 8.0.0 Tracking Issue	69		
 10118	23263252	false	closed	false	3		2016-12-05T02:31:59Z	2016-12-05T07:18:37Z	2016-12-05T07:18:37Z	not able to write large data	283		
 10119	75209	false	open	false	4		2016-12-05T03:24:05Z	2016-12-05T14:31:37Z		Proposal: add a console.write method	91		
@@ -3307,9 +3307,10 @@
 10129	115237	false	open	false	2		2016-12-05T21:03:59Z	2016-12-05T22:50:57Z		tools: evaluate removing args exception from no-unused-vars lint rule	52		
 10130	9373002	false	open	false	2		2016-12-05T21:13:59Z	2016-12-05T22:49:22Z		test-https-set-timeout-server on freebsd	83		
 10131	225809	false	open	false	2		2016-12-05T22:02:02Z	2016-12-06T00:14:40Z		IPC parse errors virtually irrecoverable	337		
-10132	4985028	true	open	false	6		2016-12-06T00:33:41Z	2016-12-06T08:01:06Z		Fix --preserve-symlinks, Enhancement to exploit	70		
+10132	4985028	true	open	false	7		2016-12-06T00:33:41Z	2016-12-06T09:35:58Z		Fix --preserve-symlinks, Enhancement to exploit	70		
 10133	7834613	false	open	false	0		2016-12-06T00:42:54Z	2016-12-06T00:42:54Z		http.Agent free sockets maintain reference to initial ClientRequest object until the socket is destroyed/closed	283		
 10134	7834613	true	open	false	0	0	2016-12-06T03:11:55Z	2016-12-06T03:11:55Z		"Eliminate capture of ""cb"" in createSocket context"	138		
 10135	275871	true	open	false	0		2016-12-06T03:55:43Z	2016-12-06T04:05:41Z		lib: be robust when process global is clobbered	66		
 10136	2920525	true	open	false	0	0	2016-12-06T05:44:11Z	2016-12-06T05:44:11Z		doc: fix typo in code example of 'path' module	30		
 10137	680220	false	open	false	0		2016-12-06T08:02:41Z	2016-12-06T08:02:41Z		FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memory	196		
+10138	327019	true	open	false	0	0	2016-12-06T09:48:18Z	2016-12-06T09:48:18Z		http: make the expression test more faster	95		
