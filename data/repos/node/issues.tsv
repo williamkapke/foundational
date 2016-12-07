@@ -248,6 +248,7 @@
 5458	275871	true	closed	false	22		2016-02-26T21:01:17Z	2016-11-03T04:19:32Z	2016-10-25T11:16:57Z	src,tools: speed up startup by 2.5%	94		
 5500	54666	true	closed	false	8		2016-03-01T02:05:24Z	2016-09-20T07:17:02Z	2016-03-18T02:35:33Z	doc: fix crypto update() signatures	85		
 5518	8213782	false	closed	false	2		2016-03-02T04:53:51Z	2016-08-14T08:51:57Z	2016-08-14T08:51:57Z	Cannot find module 'minimatch'	99		
+5525	5740732	false	closed	false	2		2016-03-02T16:03:33Z	2016-12-07T14:23:46Z	2016-04-02T23:38:27Z	Documentation for __dirname is misleading	124		
 5549	122831	false	closed	false	1		2016-03-03T19:01:31Z	2016-10-12T17:39:50Z	2016-10-12T09:46:25Z	child_process.spawn will either exit or not control stdin when detached and using inherit	556		
 5573	1127384	true	closed	false	5	1	2016-03-05T16:19:34Z	2016-11-08T21:51:48Z	2016-11-08T21:51:48Z	async_wrap: WIP/Experiment, init/destroy HTTPParser on each use	88		
 5574	532414	false	open	false	17		2016-03-06T00:25:17Z	2016-07-18T12:02:43Z		Losing keystrokes when using tty.ReadStream() over process.stdin	117		
@@ -3275,7 +3276,7 @@
 10096	289174	true	open	false	6		2016-12-02T22:03:23Z	2016-12-06T02:16:55Z		[async_wrap] backport of gc abort on destroy() fix on v6.x	97		
 10097	289174	true	open	false			2016-12-02T22:25:45Z	2016-12-03T18:43:06Z		[async_wrap] backport of gc abort on destroy() fix on v4.x	67		
 10098	718899	true	closed	false	1		2016-12-02T22:44:11Z	2016-12-05T23:15:33Z	2016-12-05T23:15:33Z	doc: correct it's vs. its usage	59		
-10099	15952	true	closed	false	9		2016-12-02T22:53:25Z	2016-12-05T19:32:19Z	2016-12-05T19:32:18Z	debugger: call `this.resume()` after `this.run()`	70		
+10099	15952	true	closed	false	12		2016-12-02T22:53:25Z	2016-12-07T14:36:46Z	2016-12-05T19:32:18Z	debugger: call `this.resume()` after `this.run()`	70		
 10100	4800357	true	open	false	2		2016-12-02T23:59:44Z	2016-12-05T12:19:19Z		test: updated test-stream-pipe-unpipe-stream	44		
 10101	3397140	false	open	false	4		2016-12-03T01:16:49Z	2016-12-07T02:45:12Z		process.nextTick & node::MakeCallback are very bloated	296		
 10102	10393198	true	open	false			2016-12-03T05:52:58Z	2016-12-07T02:04:12Z		doc: some fixes in child_process.md	62		
@@ -3308,7 +3309,7 @@
 10129	115237	false	open	false	2		2016-12-05T21:03:59Z	2016-12-05T22:50:57Z		tools: evaluate removing args exception from no-unused-vars lint rule	52		
 10130	9373002	false	open	false	3		2016-12-05T21:13:59Z	2016-12-07T00:37:40Z		test-https-set-timeout-server on freebsd	83		
 10131	225809	false	open	false	2		2016-12-05T22:02:02Z	2016-12-06T00:14:40Z		IPC parse errors virtually irrecoverable	337		
-10132	4985028	true	open	false	33		2016-12-06T00:33:41Z	2016-12-07T13:16:55Z		Fix --preserve-symlinks, Enhancement to exploit	70		
+10132	4985028	true	open	false	34		2016-12-06T00:33:41Z	2016-12-07T14:08:32Z		Fix --preserve-symlinks, Enhancement to exploit	70		
 10133	7834613	false	open	false	0		2016-12-06T00:42:54Z	2016-12-06T00:42:54Z		http.Agent free sockets maintain reference to initial ClientRequest object until the socket is destroyed/closed	283		
 10134	7834613	true	open	false			2016-12-06T03:11:55Z	2016-12-07T01:15:18Z		"Eliminate capture of ""cb"" in createSocket context"	137		
 10135	275871	true	open	false	4		2016-12-06T03:55:43Z	2016-12-06T15:58:49Z		lib: be robust when process global is clobbered	66		
@@ -3340,5 +3341,5 @@
 10161	718899	true	open	false	10		2016-12-07T05:14:45Z	2016-12-07T07:09:12Z		test: move long-running test to sequential	55		
 10162	169280	true	open	false	0	0	2016-12-07T09:20:50Z	2016-12-07T09:20:50Z		doc: clarify Buffer.indexOf() and lastIndexOf()	62		
 10163	819638	false	open	false	0		2016-12-07T12:18:31Z	2016-12-07T12:18:31Z		Abort in uv_cond_wait	286		
-10164	2979104	false	open	false	0		2016-12-07T13:07:25Z	2016-12-07T13:07:25Z		Segmentation Fault when returning valueOf calculated date	375		
+10164	2979104	false	open	false	7		2016-12-07T13:07:25Z	2016-12-07T14:03:49Z		Segmentation Fault when returning valueOf calculated date	375		
 10165	426158	false	open	false	0		2016-12-07T13:46:46Z	2016-12-07T13:46:46Z		Handling of CTRL_CLOSE_EVENT/SIGHUP on Windows causes races and deadlocks	564		
