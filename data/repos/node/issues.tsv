@@ -2191,7 +2191,7 @@
 9012	4400726	false	open	false	2		2016-10-10T19:50:52Z	2016-10-10T20:08:03Z		What makes a Socket idle?	124		
 9013	498775	false	open	false	3		2016-10-10T21:35:43Z	2016-10-10T23:07:49Z		FreeBSD failures on v4.x	95		
 9014	498775	true	open	false	5		2016-10-10T22:09:07Z	2016-10-11T18:57:27Z		Backport src: fix handle leaks #7711	36		
-9015	1674289	false	open	false	4		2016-10-10T22:43:50Z	2016-10-11T18:28:42Z		Segmentation fault using TLS after uprgrade to nodejs 6.7.0 / CentOS 7	221		
+9015	1674289	false	open	false	5		2016-10-10T22:43:50Z	2016-12-07T12:08:01Z		Segmentation fault using TLS after uprgrade to nodejs 6.7.0 / CentOS 7	200		
 9016	498775	true	closed	false	0	2	2016-10-10T22:56:01Z	2016-10-11T17:50:52Z	2016-10-11T17:50:52Z	tls: copy the Buffer object before using (backport to v4.x)	39	498775	2016-10-11T17:50:52Z
 9017	996487	false	open	false	0		2016-10-11T00:54:44Z	2016-10-11T00:54:44Z		"Problematic process.argv with ""node -e"""	267		
 9018	8603093	false	closed	false	1		2016-10-11T01:03:14Z	2016-10-11T14:52:01Z	2016-10-11T14:52:00Z	Will read_cb be called immediately after alloc_cb for uv_read_start?	55		
@@ -3203,14 +3203,14 @@
 10024	2200377	true	closed	false	4		2016-12-01T17:44:15Z	2016-12-05T22:12:02Z	2016-12-05T22:12:02Z	test: Changed assert.equal() to assert.strictEqual() for Test signing…	40		
 10025	733877	true	closed	false	4		2016-12-01T17:45:18Z	2016-12-05T22:14:37Z	2016-12-05T22:14:37Z	test: refactor test for net listen on fd0	46		
 10026	16504253	true	open	false			2016-12-01T17:46:54Z	2016-12-05T22:14:11Z		test: check for error on invalid signal	45		
-10027	8085795	true	open	false	0	0	2016-12-01T17:48:36Z	2016-12-01T17:48:36Z		test: change the equal() by strictEqual()	52		
+10027	8085795	true	closed	false	1		2016-12-01T17:48:36Z	2016-12-07T12:44:50Z	2016-12-07T12:44:50Z	test: change the equal() by strictEqual()	53		
 10028	4577691	true	open	false	0	0	2016-12-01T17:48:58Z	2016-12-01T17:48:58Z		test: change usages of assert.equal() to assert.strictEqual()	36		
 10029	1399973	true	closed	false	3		2016-12-01T17:49:19Z	2016-12-05T06:07:19Z	2016-12-05T06:07:19Z	var to const/let change	38		
 10030	11262165	true	closed	false	3		2016-12-01T17:50:30Z	2016-12-04T04:02:49Z	2016-12-04T04:02:49Z	test: update test-fs-write-file	61		
 10031	4453433	true	closed	false	8	1	2016-12-01T17:50:36Z	2016-12-06T15:45:48Z	2016-12-06T15:45:48Z	test: add test for url module domainToAscii and domainToUnicode	47		
 10032	2763135	true	closed	false	4		2016-12-01T17:50:38Z	2016-12-07T00:39:07Z	2016-12-06T08:12:20Z	test: refactor test-dgram-msgsize.js	46		
 10033	6042252	true	open	false			2016-12-01T17:51:40Z	2016-12-05T17:11:07Z		test: Updates to test-stream2-unpipe-drain	64		
-10034	4591928	true	open	false	0	0	2016-12-01T17:52:33Z	2016-12-01T17:52:33Z		test: const/strictEqual in test-listen-fd-ebadf	38		
+10034	4591928	true	closed	false	1	0	2016-12-01T17:52:33Z	2016-12-07T12:49:19Z	2016-12-07T12:49:19Z	test: const/strictEqual in test-listen-fd-ebadf	38		
 10035	4591928	true	open	false	2		2016-12-01T17:52:36Z	2016-12-05T23:01:20Z		test: test-file-write-stream3.js refactor	38		
 10036	874194	true	open	false			2016-12-01T17:52:36Z	2016-12-03T17:12:07Z		test: assert.strictEqual and linting	37		
 10037	2251119	true	closed	false	3		2016-12-01T17:53:37Z	2016-12-06T16:18:53Z	2016-12-05T22:25:38Z	test: add test for process.stdin.setRawMode()	52		
@@ -3283,7 +3283,7 @@
 10104	2352663	false	open	false	1		2016-12-03T14:17:25Z	2016-12-05T21:37:18Z		Investigate AIX test failures	23		
 10105	837500	true	open	false	0	0	2016-12-03T16:28:53Z	2016-12-03T16:28:53Z		test: refactor test-https-agent-session-reuse	57		
 10106	1108065	true	closed	false	1	0	2016-12-04T00:42:59Z	2016-12-04T12:31:45Z	2016-12-04T12:31:45Z	Correcting parameters for vcbuild on Windows	72		
-10107	4985028	false	open	false	39		2016-12-04T02:03:36Z	2016-12-07T01:10:45Z		Fixing --preserve-symlinks. Enhancing node to exploit.	983		
+10107	4985028	false	open	false	39		2016-12-04T02:03:36Z	2016-12-07T12:15:47Z		Fixing --preserve-symlinks. Enhancing node to exploit.	1173		
 10108	5892997	false	closed	false	1		2016-12-04T05:46:15Z	2016-12-04T06:06:41Z	2016-12-04T06:06:41Z	fs methods do not accept a Buffer	56		
 10109	175530	true	closed	false	1		2016-12-04T06:45:43Z	2016-12-05T06:11:03Z	2016-12-05T06:11:03Z	doc: add link to `net.Server` in tls.md	70		
 10110	11262165	true	closed	false	1	0	2016-12-04T07:17:31Z	2016-12-05T00:29:58Z	2016-12-05T00:29:58Z	test: refactor test-fs-append-file	57		
@@ -3308,13 +3308,13 @@
 10129	115237	false	open	false	2		2016-12-05T21:03:59Z	2016-12-05T22:50:57Z		tools: evaluate removing args exception from no-unused-vars lint rule	52		
 10130	9373002	false	open	false	3		2016-12-05T21:13:59Z	2016-12-07T00:37:40Z		test-https-set-timeout-server on freebsd	83		
 10131	225809	false	open	false	2		2016-12-05T22:02:02Z	2016-12-06T00:14:40Z		IPC parse errors virtually irrecoverable	337		
-10132	4985028	true	open	false	31		2016-12-06T00:33:41Z	2016-12-07T11:53:02Z		Fix --preserve-symlinks, Enhancement to exploit	70		
+10132	4985028	true	open	false	32		2016-12-06T00:33:41Z	2016-12-07T12:20:29Z		Fix --preserve-symlinks, Enhancement to exploit	70		
 10133	7834613	false	open	false	0		2016-12-06T00:42:54Z	2016-12-06T00:42:54Z		http.Agent free sockets maintain reference to initial ClientRequest object until the socket is destroyed/closed	283		
 10134	7834613	true	open	false			2016-12-06T03:11:55Z	2016-12-07T01:15:18Z		"Eliminate capture of ""cb"" in createSocket context"	137		
 10135	275871	true	open	false	4		2016-12-06T03:55:43Z	2016-12-06T15:58:49Z		lib: be robust when process global is clobbered	66		
 10136	2920525	true	open	false	0	0	2016-12-06T05:44:11Z	2016-12-06T05:44:11Z		doc: fix typo in code example of 'path' module	30		
 10137	680220	false	open	false	6		2016-12-06T08:02:41Z	2016-12-07T08:15:05Z		FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memory	199		
-10138	327019	true	open	false	1		2016-12-06T09:48:18Z	2016-12-07T05:29:18Z		http: make the expression test more faster	85		
+10138	327019	true	open	false	4		2016-12-06T09:48:18Z	2016-12-07T12:02:06Z		http: make the expression test more faster	85		
 10139	1559888	true	closed	false	2		2016-12-06T11:39:01Z	2016-12-06T14:35:24Z	2016-12-06T12:52:36Z	Build, warning, header, and include fixes	438		
 10140	1559888	true	open	false	1		2016-12-06T13:28:16Z	2016-12-06T15:32:17Z		build: --without-profiler option, add Windows build options	95		
 10141	1559888	true	open	false	4		2016-12-06T14:05:47Z	2016-12-07T09:21:51Z		url: build warning fixes	87		
@@ -3339,3 +3339,4 @@
 10160	10393198	true	open	false			2016-12-06T23:46:21Z	2016-12-07T01:26:23Z		doc: some fixes in repl.md	135		
 10161	718899	true	open	false	10		2016-12-07T05:14:45Z	2016-12-07T07:09:12Z		test: move long-running test to sequential	55		
 10162	169280	true	open	false	0	0	2016-12-07T09:20:50Z	2016-12-07T09:20:50Z		doc: clarify Buffer.indexOf() and lastIndexOf()	62		
+10163	819638	false	open	false	0		2016-12-07T12:18:31Z	2016-12-07T12:18:31Z		Abort in uv_cond_wait	286		
