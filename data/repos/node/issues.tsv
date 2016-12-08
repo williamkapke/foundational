@@ -1252,7 +1252,7 @@
 8071	4573903	false	closed	false	4		2016-08-11T20:08:32Z	2016-08-25T05:23:10Z	2016-08-25T05:23:10Z	console.log calls inspect function on passed object	161		
 8072	1898870	true	closed	false	8		2016-08-11T20:24:38Z	2016-08-18T18:23:54Z	2016-08-18T18:23:54Z	url: make `url.format()` encode all occurrences of `#` in `search`	67		
 8073	718899	true	closed	false	10		2016-08-11T21:37:29Z	2016-08-15T03:49:09Z	2016-08-15T03:49:09Z	tools: enable rest-spread-spacing	74		
-8074	159100	false	open	false	22		2016-08-11T22:15:51Z	2016-08-31T15:44:46Z		segfault on node v6.3.1 on Ubuntu 14.04.4	138		
+8074	159100	false	open	false	24		2016-08-11T22:15:51Z	2016-12-08T05:24:24Z		segfault on node v6.3.1 on Ubuntu 14.04.4	138		
 8075	439929	true	closed	false	12	58	2016-08-12T01:42:22Z	2016-10-11T21:15:25Z	2016-10-11T21:15:25Z	[WIP] proposed new unicode module	62		
 8076	9373002	true	closed	false	4		2016-08-12T03:21:18Z	2016-08-25T16:15:40Z	2016-08-25T16:15:40Z	test: exclude tests for AIX	70		
 8077	3254987	false	closed	false	8		2016-08-12T07:53:11Z	2016-09-23T07:43:56Z	2016-08-18T07:20:12Z	child_process.spawn does not recognize local package in Windows	111		
@@ -1558,7 +1558,7 @@
 8378	1443911	true	open	false	1		2016-09-02T10:14:13Z	2016-09-24T21:12:41Z		doc: fix example in stream doc	54		
 8379	914122	false	closed	false	24		2016-09-02T12:46:51Z	2016-10-10T15:57:48Z	2016-10-10T15:57:48Z	Not helpful error message after upgrading Node	136		
 8380	9373002	false	closed	false	11		2016-09-02T12:53:08Z	2016-09-02T19:05:20Z	2016-09-02T19:05:20Z	AIX: parallel/test-cluster-dgram-1 failures	207		
-8381	115237	false	open	false	24		2016-09-02T13:00:01Z	2016-12-07T19:09:48Z		http: support environment-defined proxy	98		
+8381	115237	false	open	false	26		2016-09-02T13:00:01Z	2016-12-08T05:03:11Z		http: support environment-defined proxy	98		
 8382	914122	false	open	false	11		2016-09-02T13:08:45Z	2016-09-02T15:49:22Z		yield/await support in repl/cli	75		
 8383	1084056	true	closed	false	13		2016-09-02T13:17:30Z	2016-10-15T12:59:06Z	2016-09-02T19:08:23Z	test: fix test-cluster-dgram-1 flakiness	49		
 8384	9373002	true	open	false	0	0	2016-09-02T14:40:11Z	2016-09-02T14:40:11Z		test: revert changes to test/parallel/test-cluster-dgram-1.js	54		
@@ -3135,10 +3135,10 @@
 9955	281512	true	closed	false	4		2016-12-01T16:54:06Z	2016-12-05T20:20:03Z	2016-12-05T20:20:03Z	first codenlearn commit	49		
 9956	8710766	true	open	false	0	0	2016-12-01T16:54:24Z	2016-12-01T16:54:24Z		test: change assert.equal to assert.strictEqual in file	40		
 9957	16504253	true	closed	false	3		2016-12-01T16:54:24Z	2016-12-06T15:32:11Z	2016-12-06T15:32:11Z	test: update assert.equal to assert.strictEqual and add argument to s…	46		
-9958	835690	true	open	false			2016-12-01T16:55:41Z	2016-12-08T00:44:50Z		test: crypto-hmac test assert.equal -> assert.strictEqual	75		
+9958	835690	true	closed	false	4		2016-12-01T16:55:41Z	2016-12-08T05:09:36Z	2016-12-08T05:09:36Z	test: crypto-hmac test assert.equal -> assert.strictEqual	75		
 9959	390146	true	open	false			2016-12-01T16:55:56Z	2016-12-05T00:52:40Z		test: replace var with const/let and use common.mustCall for cb	66		
 9960	2343630	true	open	false	2		2016-12-01T16:57:04Z	2016-12-04T06:02:16Z		test: ensure cluster setup callback runs once	54		
-9961	2251119	true	open	false	12		2016-12-01T16:57:27Z	2016-12-07T23:34:44Z		doc: add note to parallelize make	63		
+9961	2251119	true	open	false	13		2016-12-01T16:57:27Z	2016-12-08T05:08:34Z		doc: add note to parallelize make	63		
 9962	695933	true	open	false	4		2016-12-01T16:58:21Z	2016-12-06T19:58:04Z		test: change var declarations, add mustCall check	70		
 9963	12154939	true	closed	false	2		2016-12-01T16:58:37Z	2016-12-06T14:42:26Z	2016-12-06T14:42:26Z	test: refactor test-domain-multi	34		
 9964	4591928	true	closed	false	2		2016-12-01T16:58:47Z	2016-12-05T01:33:39Z	2016-12-05T01:33:39Z	test: strictEqual in test-cli-eval-event test	37		
@@ -3162,7 +3162,7 @@
 9982	6641809	true	closed	false	4		2016-12-01T17:09:03Z	2016-12-06T06:57:00Z	2016-12-06T06:57:00Z	test:changed equal to strictEqual in test-child-fork-exec-path.js	44		
 9983	15010749	true	closed	false	2		2016-12-01T17:09:07Z	2016-12-01T21:15:11Z	2016-12-01T21:15:11Z	es6 modification and include error msg	51		
 9984	678335	true	open	false	0	0	2016-12-01T17:10:41Z	2016-12-01T17:10:41Z		test: add mustCall to setTimeout	48		
-9985	4212452	true	open	false	1		2016-12-01T17:12:10Z	2016-12-01T23:02:56Z		test: updating test file to use strictEqual	46		
+9985	4212452	true	open	false	3		2016-12-01T17:12:10Z	2016-12-08T05:29:44Z		test: updating test file to use strictEqual	46		
 9986	290472	true	open	false			2016-12-01T17:13:05Z	2016-12-05T23:03:43Z		test-tls-check-server-identity var->const, assert, string template	45		
 9987	14057999	true	open	false			2016-12-01T17:13:57Z	2016-12-05T20:51:16Z		test: add second argument to assert.throws()	50		
 9988	4245215	true	open	false	0	0	2016-12-01T17:14:39Z	2016-12-01T17:14:39Z		subsystem: changed assert.strict to assert.strictEqual()	48		
@@ -3172,7 +3172,7 @@
 9992	4520641	true	open	false	2		2016-12-01T17:18:40Z	2016-12-04T03:20:57Z		Test: Updated test/parallel/test-fs-write-file.js.	67		
 9993	7293048	true	open	false	1		2016-12-01T17:19:02Z	2016-12-04T05:19:10Z		test: change assert.equal to assert.strictEqual in parallel/test-cluster-setup-argv.js	38		
 9994	5494584	true	closed	false	4		2016-12-01T17:21:08Z	2016-12-05T21:32:17Z	2016-12-05T21:32:17Z	test: using assert.strictEqual() instead of assert.equal()	45		
-9995	678335	true	open	false	1		2016-12-01T17:21:56Z	2016-12-01T20:10:54Z		Test net keepalive	32		
+9995	678335	true	open	false	2		2016-12-01T17:21:56Z	2016-12-08T05:46:05Z		Test net keepalive	32		
 9996	8010038	true	closed	false	9		2016-12-01T17:23:11Z	2016-12-05T21:37:32Z	2016-12-05T21:37:32Z	test: use strictEqual() domain-http	39		
 9997	2441666	true	closed	false	9	1	2016-12-01T17:23:40Z	2016-12-05T21:42:05Z	2016-12-05T21:42:05Z	test: Added more validations to setEncoding	55		
 9998	5757415	true	closed	false	2	2	2016-12-01T17:24:05Z	2016-12-05T21:46:19Z	2016-12-05T21:46:19Z	test: fix buffer alloc tests	42		
@@ -3299,7 +3299,7 @@
 10119	75209	false	open	false	4		2016-12-05T03:24:05Z	2016-12-06T18:57:58Z		Proposal: add a console.write method	91		
 10120	10419222	true	open	false	2		2016-12-05T05:23:37Z	2016-12-06T05:26:52Z		subsystem: test	52		
 10121	11262165	true	closed	false	8		2016-12-05T06:31:13Z	2016-12-07T21:30:58Z	2016-12-07T21:30:58Z	test: refactor test-beforeexit-event	67		
-10122	1133578	false	open	false	2		2016-12-05T09:56:51Z	2016-12-07T11:16:10Z		crash on mips64le	778		
+10122	1133578	false	open	false	4		2016-12-05T09:56:51Z	2016-12-08T05:27:33Z		crash on mips64le	778		
 10123	7685948	false	open	false	0		2016-12-05T11:26:56Z	2016-12-05T11:26:56Z		Cluster fork can't debug	15		
 10124	20419303	false	open	false	2		2016-12-05T12:40:49Z	2016-12-05T17:23:10Z		Window Miss node module folder	84		
 10125	837347	false	closed	false	2		2016-12-05T15:37:46Z	2016-12-05T17:13:53Z	2016-12-05T15:49:34Z	Regex and const - strange results	86		
@@ -3329,7 +3329,7 @@
 10149	899444	true	open	false	0	0	2016-12-06T17:13:17Z	2016-12-06T17:13:17Z		test: set stdin toofor pseudo-tty tests	44		
 10150	899444	true	open	false	0	0	2016-12-06T17:31:08Z	2016-12-06T17:31:08Z		test: fail for missing output files	60		
 10151	4299420	true	open	false			2016-12-06T17:44:08Z	2016-12-06T19:19:49Z		doc: buffer allocation methods throw for negative size	35		
-10152	4299420	true	open	false	4		2016-12-06T17:59:12Z	2016-12-07T03:14:59Z		buffer: throw a consistent range error for length > kMaxLength	802		
+10152	4299420	true	open	false	5		2016-12-06T17:59:12Z	2016-12-08T05:35:38Z		buffer: throw a consistent range error for length > kMaxLength	802		
 10153	432351	true	closed	false	2		2016-12-06T18:35:20Z	2016-12-07T16:03:25Z	2016-12-07T16:03:25Z	build: fix node_g target	80		
 10154	13483453	false	open	false	4		2016-12-06T19:21:02Z	2016-12-07T18:14:48Z		setTimeout callback executed before delay elapses	116		
 10155	439929	true	open	false	7		2016-12-06T19:56:27Z	2016-12-07T00:02:15Z		[WIP] Restore copyright attribution	249		
@@ -3339,10 +3339,10 @@
 10159	287917	true	open	false			2016-12-06T23:03:13Z	2016-12-07T17:14:09Z		inspector: stop relying on magic strings	64		
 10160	10393198	true	open	false	4		2016-12-06T23:46:21Z	2016-12-07T19:26:06Z		doc: some fixes in repl.md	135		
 10161	718899	true	closed	false	11	0	2016-12-07T05:14:45Z	2016-12-07T15:37:08Z	2016-12-07T15:37:08Z	test: move long-running test to sequential	55		
-10162	169280	true	open	false			2016-12-07T09:20:50Z	2016-12-08T02:24:58Z		doc: clarify Buffer.indexOf() and lastIndexOf()	62		
+10162	169280	true	open	false			2016-12-07T09:20:50Z	2016-12-08T05:11:39Z		doc: clarify Buffer.indexOf() and lastIndexOf()	62		
 10163	819638	false	open	false	0		2016-12-07T12:18:31Z	2016-12-07T12:18:31Z		Abort in uv_cond_wait	286		
 10164	2979104	false	open	false	7		2016-12-07T13:07:25Z	2016-12-07T14:03:49Z		Segmentation Fault when returning valueOf calculated date	375		
-10165	426158	false	open	false	2		2016-12-07T13:46:46Z	2016-12-07T22:48:26Z		Handling of CTRL_CLOSE_EVENT/SIGHUP on Windows causes races and deadlocks	564		
+10165	426158	false	open	false	3		2016-12-07T13:46:46Z	2016-12-08T05:08:33Z		Handling of CTRL_CLOSE_EVENT/SIGHUP on Windows causes races and deadlocks	564		
 10166	9373002	false	closed	false	3		2016-12-07T15:48:12Z	2016-12-07T20:44:57Z	2016-12-07T20:44:57Z	test: test-buffer-creation-regression intermittent failure on smartos	38		
 10167	1189785	true	open	false	1		2016-12-07T16:22:46Z	2016-12-07T21:32:06Z		test: add ES6 and improve test-fs-truncate	47		
 10168	6354455	true	closed	false	1		2016-12-07T17:58:15Z	2016-12-07T18:09:42Z	2016-12-07T18:09:42Z	doc: removing extra space in README	52		
@@ -3352,5 +3352,6 @@
 10172	718899	true	open	false	0	0	2016-12-07T21:13:03Z	2016-12-07T21:13:03Z		test: fix flaky test-net-socket-timeout	65		
 10173	15161981	true	open	false	6		2016-12-07T21:26:24Z	2016-12-07T23:28:28Z		deps: define missing operator delete functions	72		
 10174	580536	false	open	false	1		2016-12-07T21:27:13Z	2016-12-07T22:09:58Z		Windows binaries zip of node.js with npm	82		
-10175	5985850	true	open	false	1		2016-12-07T23:13:45Z	2016-12-08T00:14:43Z		buffer: removed unused variable conf from buffer-base64-decode & buffer-base64-encode	62		
+10175	5985850	true	open	false	2		2016-12-07T23:13:45Z	2016-12-08T05:43:17Z		buffer: removed unused variable conf from buffer-base64-decode & buffer-base64-encode	62		
 10176	11262165	true	open	false	0	0	2016-12-08T01:20:35Z	2016-12-08T01:20:35Z		test: refactor test-fs-fsync	65		
+10177	109983	true	open	false	0	0	2016-12-08T05:52:45Z	2016-12-08T05:52:45Z		test: swaps var for let/const throughout common module	66		
