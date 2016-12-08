@@ -28,6 +28,7 @@
 983	6731985	false	open	false	22		2015-02-27T03:19:51Z	2016-11-23T11:28:52Z		Tab completion for block-scoped variables doesn't work in REPL	60		
 1010	218257	false	closed	false	53		2015-02-28T22:28:55Z	2016-12-05T11:27:32Z	2015-03-25T01:31:37Z	Ship websockets in core	23		
 1013	176984	false	closed	false	45		2015-03-01T10:58:11Z	2016-10-17T07:18:56Z	2016-04-04T01:52:33Z	Replace deps/cares with pure-javascript alternative	207		
+1041	443639	false	open	false	10		2015-03-03T12:02:28Z	2016-12-08T20:45:59Z		Stream not emitting data event after pipe+unpipe	51		
 1127	509651	false	open	false	10		2015-03-11T20:57:31Z	2016-10-25T21:03:25Z		crypto: sign/verify support for RSASSA-PSS	72		
 1128	36662	false	open	false	17		2015-03-11T22:48:11Z	2016-08-29T14:15:29Z		feature request: a way to inspect what's in the event loop	137		
 1173	2924002	false	closed	false	16		2015-03-17T16:37:38Z	2016-11-23T06:28:44Z	2015-03-17T22:53:11Z	installation problem	178		
@@ -1641,7 +1642,7 @@
 8461	18223385	false	closed	false	1		2016-09-09T09:58:35Z	2016-09-11T03:57:20Z	2016-09-11T03:57:20Z	how use shell( wget...) auto install nodeJs 	58		
 8462	899444	true	closed	false	2	0	2016-09-09T10:53:26Z	2016-10-04T18:39:09Z	2016-10-04T18:39:09Z	v4.x backport: test,doc: clarify `buf.indexOf(num)` input range	10		
 8463	899444	true	open	false	6		2016-09-09T11:45:41Z	2016-09-13T23:17:38Z		v6.x backport: buffer,string_decoder: consolidate encoding validation logic	35		
-8464	323878	false	open	false	25		2016-09-09T12:30:25Z	2016-11-25T17:24:03Z		Debug already running process using v8-inspector?	38		
+8464	323878	false	open	false	26		2016-09-09T12:30:25Z	2016-12-08T20:43:03Z		Debug already running process using v8-inspector?	38		
 8465	1037138	false	closed	false	8		2016-09-09T13:36:16Z	2016-09-13T13:08:49Z	2016-09-13T13:08:49Z	OSX: setting a custom DYLD_ env console logs undefined when run with child_process.spawn	135		
 8466	1093990	true	closed	false	8	0	2016-09-09T14:45:04Z	2016-09-15T20:48:13Z	2016-09-15T20:48:12Z	v6.6.0 proposal	89	1093990	2016-09-15T20:48:12Z
 8467	4336805	false	open	false	1		2016-09-09T17:01:23Z	2016-09-09T17:17:33Z		Crypto outputs different hashes for node v0.10.42 compared to newer versions	223		
@@ -2469,7 +2470,7 @@
 9289	1889843	true	closed	false	1		2016-10-26T07:48:13Z	2016-10-28T16:09:23Z	2016-10-28T16:09:23Z	buffer: use correct name for custom inspect symbol	54		
 9290	11976448	true	open	false	4		2016-10-26T09:39:22Z	2016-10-26T21:15:54Z		test: favor `===` over  `==` in fs-utimes	27		
 9291	22879652	true	open	false	0	0	2016-10-26T11:23:45Z	2016-10-26T11:23:45Z		nodej js project	47		
-9292	11976448	true	open	false	19		2016-10-26T11:44:41Z	2016-12-08T19:51:12Z		url: refactor truncating long hostname	73		
+9292	11976448	true	open	false	20		2016-10-26T11:44:41Z	2016-12-08T20:50:56Z		url: refactor truncating long hostname	73		
 9293	275871	true	open	false	15		2016-10-26T12:03:46Z	2016-11-22T13:44:08Z		v8: fix new.target inheritance from c++	38		
 9294	129203	true	closed	false	1		2016-10-26T12:44:11Z	2016-11-01T19:20:57Z	2016-11-01T19:20:57Z	doc: fix broken links to Buffer.from(string)	59		
 9295	984628	false	closed	false	5		2016-10-26T15:27:29Z	2016-10-27T14:21:51Z	2016-10-27T13:12:33Z	DOS: js expression make nodejs crash	112		
@@ -2836,7 +2837,7 @@
 9656	739813	true	open	false			2016-11-17T06:35:00Z	2016-12-05T06:11:34Z		doc: add Working Group revocation text	149		
 9657	1204466	true	closed	false	4		2016-11-17T07:05:43Z	2016-11-30T16:01:06Z	2016-11-30T16:01:06Z	build: Make configure file parseable on python3	43		
 9658	16486766	false	open	false	3		2016-11-17T09:53:19Z	2016-11-17T15:05:49Z		Error: Cannot find module 'internal/fs'	19		
-9659	588262	true	open	false	20		2016-11-17T11:00:27Z	2016-12-08T19:26:42Z		cluster: fixing debug port logic for forking workers	113		
+9659	588262	true	open	false	22		2016-11-17T11:00:27Z	2016-12-08T20:41:35Z		cluster: fixing debug port logic for forking workers	113		
 9660	696611	true	open	false	4		2016-11-17T12:03:15Z	2016-11-20T14:58:09Z		tools: don't build node for doc build	45		
 9661	2512748	true	closed	false	6	0	2016-11-17T15:20:11Z	2016-11-23T20:19:56Z	2016-11-23T20:19:56Z	buffer: empty string is not a valid encoding	68		
 9662	19831373	false	open	false	6		2016-11-17T18:16:28Z	2016-11-19T00:07:56Z		Most Urgent      npm can't work at all	125		
@@ -3036,7 +3037,7 @@
 9856	835897	false	closed	false	3		2016-11-30T15:12:18Z	2016-12-01T12:58:35Z	2016-12-01T03:32:52Z	Build failure on Solaris 10 with Node v7	55		
 9857	6272507	true	open	false	4		2016-11-30T15:54:24Z	2016-12-03T00:39:55Z		test: update test-debugger-client.js to use strictEqual	47		
 9858	6272507	true	closed	false	2		2016-11-30T16:32:10Z	2016-12-03T00:49:05Z	2016-12-03T00:49:05Z	test: update test-zlib-truncated to use strictEqual	44		
-9859	348	false	open	false	1		2016-11-30T19:45:15Z	2016-12-01T19:56:49Z		README gpg guidelines are insufficient	90		
+9859	348	false	open	false	1		2016-11-30T19:45:15Z	2016-12-08T20:38:31Z		README gpg guidelines are insufficient	90		
 9860	718899	true	closed	false	2	0	2016-11-30T21:26:20Z	2016-12-05T06:59:39Z	2016-12-05T06:59:39Z	debugger: refactor _debugger.js	43		
 9861	15943089	false	open	false	8		2016-11-30T22:59:42Z	2016-12-08T17:01:22Z		Build failures with ninja	162		
 9862	17607	true	closed	false	4		2016-11-30T23:21:51Z	2016-12-06T17:57:16Z	2016-12-05T23:14:21Z	doc: remove Sam Roberts from release team	34		
@@ -3311,7 +3312,7 @@
 10131	225809	false	closed	false	5		2016-12-05T22:02:02Z	2016-12-08T16:10:49Z	2016-12-08T16:10:49Z	IPC parse errors virtually irrecoverable	337		
 10132	4985028	true	open	false	34		2016-12-06T00:33:41Z	2016-12-07T14:08:32Z		Fix --preserve-symlinks, Enhancement to exploit	70		
 10133	7834613	false	open	false	0		2016-12-06T00:42:54Z	2016-12-06T00:42:54Z		http.Agent free sockets maintain reference to initial ClientRequest object until the socket is destroyed/closed	283		
-10134	7834613	true	open	false			2016-12-06T03:11:55Z	2016-12-08T15:26:31Z		"Eliminate capture of ""cb"" in createSocket context"	137		
+10134	7834613	true	open	false	2		2016-12-06T03:11:55Z	2016-12-08T20:53:37Z		"Eliminate capture of ""cb"" in createSocket context"	137		
 10135	275871	true	open	false	4		2016-12-06T03:55:43Z	2016-12-06T15:58:49Z		lib: be robust when process global is clobbered	66		
 10136	2920525	true	open	false	0	0	2016-12-06T05:44:11Z	2016-12-06T05:44:11Z		doc: fix typo in code example of 'path' module	30		
 10137	680220	false	closed	false	9		2016-12-06T08:02:41Z	2016-12-08T17:10:47Z	2016-12-08T13:40:07Z	FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memory	199		
@@ -3352,7 +3353,7 @@
 10172	718899	true	open	false	6		2016-12-07T21:13:03Z	2016-12-08T19:02:34Z		test: fix flaky test-net-socket-timeout	65		
 10173	15161981	true	closed	false	8		2016-12-07T21:26:24Z	2016-12-08T17:37:44Z	2016-12-08T16:28:19Z	deps: define missing operator delete functions	72		
 10174	580536	false	closed	false	2		2016-12-07T21:27:13Z	2016-12-08T14:17:10Z	2016-12-08T14:17:10Z	Windows binaries zip of node.js with npm	82		
-10175	5985850	true	open	false	5		2016-12-07T23:13:45Z	2016-12-08T19:20:43Z		buffer: removed unused variable conf from buffer-base64-decode & buffer-base64-encode	62		
+10175	5985850	true	open	false	9		2016-12-07T23:13:45Z	2016-12-08T20:01:23Z		buffer: removed unused variable conf from buffer-base64-decode & buffer-base64-encode	62		
 10176	11262165	true	open	false			2016-12-08T01:20:35Z	2016-12-08T17:26:47Z		test: refactor test-fs-fsync	66		
 10177	109983	true	open	false	3		2016-12-08T05:52:45Z	2016-12-08T19:01:26Z		test: swaps var for let/const throughout common module	66		
 10178	2352663	true	open	false	2		2016-12-08T09:43:08Z	2016-12-08T17:53:48Z		tools: enforce consistent operator linebreak style	151		
@@ -3361,3 +3362,4 @@
 10181	1189785	true	open	false	0	0	2016-12-08T17:05:27Z	2016-12-08T17:05:27Z		test: use strictEqual in test-debug-break	42		
 10182	1189785	true	open	false	0	0	2016-12-08T17:19:58Z	2016-12-08T17:19:58Z		test: use strictEqual in test fixtures symlinked	46		
 10183	1189785	true	open	false	0	0	2016-12-08T17:56:34Z	2016-12-08T17:56:34Z		test: use ES6 in test-debugger-client.js	47		
+10184	238531	true	open	false	0	0	2016-12-08T20:37:43Z	2016-12-08T20:37:43Z		stream_base: homogenize req_wrap_obj use	47		
