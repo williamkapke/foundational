@@ -2708,7 +2708,7 @@
 9528	2512748	true	closed	false	5	3	2016-11-09T15:25:13Z	2016-11-15T20:39:03Z	2016-11-15T20:39:03Z	test: add test for broken child process stdio	82	2512748	2016-11-15T20:39:03Z
 9529	899444	true	open	false	26		2016-11-09T17:00:42Z	2016-11-28T17:09:17Z		"Revert ""buffer: runtime deprecation of calling Buffer without new"""	106		
 9530	3413079	false	open	false	5		2016-11-09T17:19:27Z	2016-11-18T19:54:40Z		Response strings and closures objects leak with http.Agent enabled (Memory Leak)	298		
-9531	899444	false	open	false	56		2016-11-09T21:03:01Z	2016-12-02T13:14:54Z		buffer: discuss future direction of Buffer constructor API	842		
+9531	899444	false	open	false	56		2016-11-09T21:03:01Z	2016-12-07T23:51:26Z		buffer: discuss future direction of Buffer constructor API	842		
 9532	115237	true	open	false	3		2016-11-09T21:04:33Z	2016-12-05T22:46:31Z		doc: clarify the callback arguments of dns.resolve	47		
 9533	941925	false	open	false	0		2016-11-09T22:31:38Z	2016-11-09T22:31:38Z		Design of legacy tls socket's destroy	330		
 9534	6477435	false	closed	false	7		2016-11-09T23:11:18Z	2016-11-13T20:04:51Z	2016-11-10T10:36:15Z	Spawning child processes in bash on Windows can crash the parent process	118		
@@ -3135,10 +3135,10 @@
 9955	281512	true	closed	false	4		2016-12-01T16:54:06Z	2016-12-05T20:20:03Z	2016-12-05T20:20:03Z	first codenlearn commit	49		
 9956	8710766	true	open	false	0	0	2016-12-01T16:54:24Z	2016-12-01T16:54:24Z		test: change assert.equal to assert.strictEqual in file	40		
 9957	16504253	true	closed	false	3		2016-12-01T16:54:24Z	2016-12-06T15:32:11Z	2016-12-06T15:32:11Z	test: update assert.equal to assert.strictEqual and add argument to s…	46		
-9958	835690	true	open	false			2016-12-01T16:55:41Z	2016-12-05T20:22:23Z		test: crypto-hmac test assert.equal -> assert.strictEqual	75		
+9958	835690	true	open	false	1		2016-12-01T16:55:41Z	2016-12-07T23:08:27Z		test: crypto-hmac test assert.equal -> assert.strictEqual	75		
 9959	390146	true	open	false			2016-12-01T16:55:56Z	2016-12-05T00:52:40Z		test: replace var with const/let and use common.mustCall for cb	66		
 9960	2343630	true	open	false	2		2016-12-01T16:57:04Z	2016-12-04T06:02:16Z		test: ensure cluster setup callback runs once	54		
-9961	2251119	true	open	false	11		2016-12-01T16:57:27Z	2016-12-07T17:29:21Z		doc: add note to parallelize make	63		
+9961	2251119	true	open	false	12		2016-12-01T16:57:27Z	2016-12-07T23:34:44Z		doc: add note to parallelize make	63		
 9962	695933	true	open	false	4		2016-12-01T16:58:21Z	2016-12-06T19:58:04Z		test: change var declarations, add mustCall check	70		
 9963	12154939	true	closed	false	2		2016-12-01T16:58:37Z	2016-12-06T14:42:26Z	2016-12-06T14:42:26Z	test: refactor test-domain-multi	34		
 9964	4591928	true	closed	false	2		2016-12-01T16:58:47Z	2016-12-05T01:33:39Z	2016-12-05T01:33:39Z	test: strictEqual in test-cli-eval-event test	37		
@@ -3249,7 +3249,7 @@
 10069	17111478	false	closed	false	1		2016-12-01T19:50:07Z	2016-12-01T20:11:52Z	2016-12-01T20:11:52Z	Node.js with Google Sheets. Only return recent date.	100		
 10070	2723032	true	open	false	0	0	2016-12-01T20:03:36Z	2016-12-01T20:03:36Z		doc: Update CONTRIBUTING.MD to link to V8 guide	62		
 10071	8493613	true	closed	false	14		2016-12-01T20:11:40Z	2016-12-05T18:37:02Z	2016-12-05T02:55:13Z	Change assert.equal to assert.strictEqual	47		
-10072	1190716	true	open	false	0	0	2016-12-01T20:16:58Z	2016-12-01T20:16:58Z		test-http-unix-socket.js: var -> const, assert.equal -> assert.strictEqual	48		
+10072	1190716	true	open	false	4		2016-12-01T20:16:58Z	2016-12-07T23:05:28Z		test: test-http-unix-socket.js - var -> const, assert.equal -> assert.strictEqual	55		
 10073	718899	false	open	false	0		2016-12-01T20:21:36Z	2016-12-01T20:21:36Z		investigate flaky sequential/test-regress-GH-897 on Raspberry Pi	40		
 10074	1190716	true	closed	false	2	0	2016-12-01T20:25:02Z	2016-12-05T02:51:39Z	2016-12-05T02:51:39Z	test: test-https-truncate.js - assert.equal -> assert.strictEqual, var -> const/let	50		
 10075	17607	false	closed	false	4		2016-12-01T20:28:47Z	2016-12-01T23:10:02Z	2016-12-01T23:10:01Z	lets merge docs-requested label with the docs label	27		
@@ -3311,7 +3311,7 @@
 10131	225809	false	open	false	2		2016-12-05T22:02:02Z	2016-12-06T00:14:40Z		IPC parse errors virtually irrecoverable	337		
 10132	4985028	true	open	false	34		2016-12-06T00:33:41Z	2016-12-07T14:08:32Z		Fix --preserve-symlinks, Enhancement to exploit	70		
 10133	7834613	false	open	false	0		2016-12-06T00:42:54Z	2016-12-06T00:42:54Z		http.Agent free sockets maintain reference to initial ClientRequest object until the socket is destroyed/closed	283		
-10134	7834613	true	open	false			2016-12-06T03:11:55Z	2016-12-07T01:15:18Z		"Eliminate capture of ""cb"" in createSocket context"	137		
+10134	7834613	true	open	false	2		2016-12-06T03:11:55Z	2016-12-07T23:34:50Z		"Eliminate capture of ""cb"" in createSocket context"	137		
 10135	275871	true	open	false	4		2016-12-06T03:55:43Z	2016-12-06T15:58:49Z		lib: be robust when process global is clobbered	66		
 10136	2920525	true	open	false	0	0	2016-12-06T05:44:11Z	2016-12-06T05:44:11Z		doc: fix typo in code example of 'path' module	30		
 10137	680220	false	open	false	7		2016-12-06T08:02:41Z	2016-12-07T18:13:22Z		FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memory	199		
@@ -3350,5 +3350,6 @@
 10170	6354455	true	closed	false	1		2016-12-07T18:24:20Z	2016-12-07T20:53:32Z	2016-12-07T20:53:32Z	doc: adding missing - in README	37		
 10171	4299420	true	open	false	1		2016-12-07T19:56:18Z	2016-12-07T21:31:17Z		test: increase test coverage of BufferList	55		
 10172	718899	true	open	false	0	0	2016-12-07T21:13:03Z	2016-12-07T21:13:03Z		test: fix flaky test-net-socket-timeout	65		
-10173	15161981	true	open	false	3		2016-12-07T21:26:24Z	2016-12-07T22:24:17Z		deps: define missing operator delete functions	72		
+10173	15161981	true	open	false	6		2016-12-07T21:26:24Z	2016-12-07T23:28:28Z		deps: define missing operator delete functions	72		
 10174	580536	false	open	false	1		2016-12-07T21:27:13Z	2016-12-07T22:09:58Z		Windows binaries zip of node.js with npm	82		
+10175	5985850	true	open	false	0	0	2016-12-07T23:13:45Z	2016-12-07T23:13:45Z		buffer: removed unused variable conf from buffer-base64-decode & buffer-base64-encode	62		
