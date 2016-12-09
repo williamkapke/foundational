@@ -127,7 +127,7 @@
 3384	115237	true	open	false	16		2015-10-15T12:57:10Z	2016-09-02T17:52:43Z		module: remove require('.') with NODE_PATH compat	15		
 3402	595361	false	closed	false	202		2015-10-16T12:45:59Z	2016-12-04T15:34:28Z	2016-04-27T02:45:38Z	Don't resolve symlinks when requiring	120		
 3410	6677095	true	closed	false			2015-10-16T20:54:30Z	2016-09-23T13:18:56Z	2015-11-24T21:09:22Z	src: added big-endian check and support to UTF-16 encode	25		
-3431	1145335	false	closed	false	11		2015-10-19T07:06:43Z	2016-09-27T07:26:23Z	2015-10-20T03:03:33Z	Can not install nodejs 4 on Windows 7 64-bit	95		
+3431	1145335	false	closed	false	13		2015-10-19T07:06:43Z	2016-12-09T17:18:12Z	2015-10-20T03:03:33Z	Can not install nodejs 4 on Windows 7 64-bit	66		
 3460	855219	false	open	false	57		2015-10-20T22:54:04Z	2016-08-01T16:52:49Z		"detect ""full-icu"" module"	95		
 3462	115237	false	closed	false	17		2015-10-21T00:03:57Z	2016-10-19T05:36:02Z	2015-10-21T16:40:43Z	btoa() and atob()	71		
 3469	900724	false	closed	false	13		2015-10-21T10:31:11Z	2016-09-10T04:38:19Z	2015-10-21T18:08:27Z	Can't run app with debugger: Error: listen EADDRINUSE :::5858	153		
@@ -1255,7 +1255,7 @@
 8071	4573903	false	closed	false	4		2016-08-11T20:08:32Z	2016-08-25T05:23:10Z	2016-08-25T05:23:10Z	console.log calls inspect function on passed object	161		
 8072	1898870	true	closed	false	8		2016-08-11T20:24:38Z	2016-08-18T18:23:54Z	2016-08-18T18:23:54Z	url: make `url.format()` encode all occurrences of `#` in `search`	67		
 8073	718899	true	closed	false	10		2016-08-11T21:37:29Z	2016-08-15T03:49:09Z	2016-08-15T03:49:09Z	tools: enable rest-spread-spacing	74		
-8074	159100	false	open	false	45		2016-08-11T22:15:51Z	2016-12-08T21:15:37Z		segfault on node v6.3.1 on Ubuntu 14.04.4	138		
+8074	159100	false	open	false	47		2016-08-11T22:15:51Z	2016-12-09T17:02:08Z		segfault on node v6.3.1 on Ubuntu 14.04.4	138		
 8075	439929	true	closed	false	12	58	2016-08-12T01:42:22Z	2016-10-11T21:15:25Z	2016-10-11T21:15:25Z	[WIP] proposed new unicode module	62		
 8076	9373002	true	closed	false	4		2016-08-12T03:21:18Z	2016-08-25T16:15:40Z	2016-08-25T16:15:40Z	test: exclude tests for AIX	70		
 8077	3254987	false	closed	false	8		2016-08-12T07:53:11Z	2016-09-23T07:43:56Z	2016-08-18T07:20:12Z	child_process.spawn does not recognize local package in Windows	111		
@@ -2871,7 +2871,7 @@
 9688	899444	true	open	false	0		2016-11-18T22:00:31Z	2016-11-26T07:08:00Z		v4.x: backport util.inspect.custom	57		
 9689	275871	true	closed	false	0	3	2016-11-18T22:05:19Z	2016-11-21T13:37:12Z	2016-11-21T13:37:12Z	test: add new.target add-on regression test	23		
 9690	988441	false	closed	false	5		2016-11-18T22:47:05Z	2016-12-06T08:49:33Z	2016-12-06T08:49:33Z	Pasting large amount of text into REPL causes assertion failure	75		
-9691	287917	true	open	false	6		2016-11-19T00:50:33Z	2016-12-06T22:57:43Z		inspector: move options parsing	77		
+9691	287917	true	closed	false	6	27	2016-11-19T00:50:33Z	2016-12-09T17:10:13Z	2016-12-09T17:10:13Z	inspector: move options parsing	77		
 9692	205482	true	closed	false	4	0	2016-11-19T03:11:14Z	2016-11-22T05:02:37Z	2016-11-22T05:02:37Z	backport: debugger: make listen address configurable	42		
 9693	205482	true	closed	false	3		2016-11-19T04:07:27Z	2016-11-22T20:15:03Z	2016-11-22T20:15:03Z	backport: src,tools: speed up startup by 2.5%	38		
 9694	25966	true	closed	false	7		2016-11-19T05:22:37Z	2016-11-26T08:21:08Z	2016-11-26T08:21:08Z	tools: allow test.py to use full paths of tests	66		
@@ -3170,7 +3170,7 @@
 9987	14057999	true	open	false			2016-12-01T17:13:57Z	2016-12-05T20:51:16Z		test: add second argument to assert.throws()	50		
 9988	4245215	true	open	false	0	0	2016-12-01T17:14:39Z	2016-12-01T17:14:39Z		subsystem: changed assert.strict to assert.strictEqual()	48		
 9989	15734957	true	open	false			2016-12-01T17:15:13Z	2016-12-05T17:29:26Z		test: change indexOf to includes in ecdh-disable	73		
-9990	24297754	true	open	false	3		2016-12-01T17:15:49Z	2016-12-08T22:25:37Z		Change var to const or let in test-child-process-ipc.js	45		
+9990	24297754	true	open	false			2016-12-01T17:15:49Z	2016-12-09T17:55:03Z		Change var to const or let in test-child-process-ipc.js	45		
 9991	941708	true	closed	false	4	0	2016-12-01T17:17:03Z	2016-12-05T20:58:52Z	2016-12-05T20:58:52Z	test: update repl tests	40		
 9992	4520641	true	open	false	2		2016-12-01T17:18:40Z	2016-12-04T03:20:57Z		Test: Updated test/parallel/test-fs-write-file.js.	67		
 9993	7293048	true	open	false	1		2016-12-01T17:19:02Z	2016-12-04T05:19:10Z		test: change assert.equal to assert.strictEqual in parallel/test-cluster-setup-argv.js	38		
@@ -3200,7 +3200,7 @@
 10017	11701272	true	open	false			2016-12-01T17:33:44Z	2016-12-05T17:41:29Z		test: refactor test and add common.mustCall	53		
 10018	7274454	true	open	false	8		2016-12-01T17:34:09Z	2016-12-04T14:53:43Z		test: change var to const/let - change assert.equal to assert.strictE…	71		
 10019	5158539	true	open	false	13		2016-12-01T17:36:13Z	2016-12-07T05:00:19Z		cluster: return worker reference from disconnect()	62		
-10020	14075231	true	open	false			2016-12-01T17:37:55Z	2016-12-06T15:10:12Z		Add regex to text-crypto-random	64		
+10020	14075231	true	open	false	5		2016-12-01T17:37:55Z	2016-12-09T17:24:03Z		Add regex to text-crypto-random	64		
 10021	4299420	true	open	false	8		2016-12-01T17:39:46Z	2016-12-08T11:05:02Z		url, test: WHATWG url originFor should include a base as argument	166		
 10022	4923947	true	open	false			2016-12-01T17:39:48Z	2016-12-05T17:45:39Z		test: fix test-child-process-stdin.js	53		
 10023	682197	true	open	false	4		2016-12-01T17:41:21Z	2016-12-07T08:02:30Z		test: Refactors variables to ES6 compatible and newer assertions 	98		
@@ -3314,7 +3314,7 @@
 10131	225809	false	closed	false	9		2016-12-05T22:02:02Z	2016-12-09T14:40:15Z	2016-12-08T16:10:49Z	IPC parse errors virtually irrecoverable	337		
 10132	4985028	true	open	false	34		2016-12-06T00:33:41Z	2016-12-07T14:08:32Z		Fix --preserve-symlinks, Enhancement to exploit	70		
 10133	7834613	false	open	false	0		2016-12-06T00:42:54Z	2016-12-06T00:42:54Z		http.Agent free sockets maintain reference to initial ClientRequest object until the socket is destroyed/closed	283		
-10134	7834613	true	open	false	4		2016-12-06T03:11:55Z	2016-12-09T00:55:29Z		http: Eliminate ClientRequest capture by Agent socket listeners	137		
+10134	7834613	true	open	false	6		2016-12-06T03:11:55Z	2016-12-09T17:09:27Z		http: Eliminate ClientRequest capture by Agent socket listeners	137		
 10135	275871	true	open	false	4		2016-12-06T03:55:43Z	2016-12-06T15:58:49Z		lib: be robust when process global is clobbered	66		
 10136	2920525	true	open	false	0	0	2016-12-06T05:44:11Z	2016-12-06T05:44:11Z		doc: fix typo in code example of 'path' module	30		
 10137	680220	false	closed	false	9		2016-12-06T08:02:41Z	2016-12-08T17:10:47Z	2016-12-08T13:40:07Z	FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memory	199		
@@ -3339,13 +3339,13 @@
 10156	237796	true	open	false	12		2016-12-06T21:06:01Z	2016-12-08T22:37:32Z		build: change nosign flag to sign and flip the logic	158		
 10157	115237	true	open	false			2016-12-06T21:39:47Z	2016-12-06T23:16:44Z		src/doc: improve man page and --help	72		
 10158	17607	false	open	false	0		2016-12-06T22:35:13Z	2016-12-06T22:35:13Z		debugging a process causes disconnect event to not fire	323		
-10159	287917	true	open	false			2016-12-06T23:03:13Z	2016-12-07T17:14:09Z		inspector: stop relying on magic strings	64		
+10159	287917	true	closed	false	0	1	2016-12-06T23:03:13Z	2016-12-09T17:14:50Z	2016-12-09T17:14:50Z	inspector: stop relying on magic strings	64		
 10160	10393198	true	open	false	4		2016-12-06T23:46:21Z	2016-12-07T19:26:06Z		doc: some fixes in repl.md	135		
 10161	718899	true	closed	false	11	0	2016-12-07T05:14:45Z	2016-12-07T15:37:08Z	2016-12-07T15:37:08Z	test: move long-running test to sequential	55		
 10162	169280	true	open	false			2016-12-07T09:20:50Z	2016-12-08T09:52:53Z		doc: clarify Buffer.indexOf() and lastIndexOf()	62		
 10163	819638	false	open	false	1		2016-12-07T12:18:31Z	2016-12-08T14:01:53Z		Abort in uv_cond_wait	286		
 10164	2979104	false	open	false	7		2016-12-07T13:07:25Z	2016-12-07T14:03:49Z		Segmentation Fault when returning valueOf calculated date	375		
-10165	426158	false	open	false	7		2016-12-07T13:46:46Z	2016-12-09T15:14:37Z		Handling of CTRL_CLOSE_EVENT/SIGHUP on Windows causes races and deadlocks	564		
+10165	426158	false	open	false	8		2016-12-07T13:46:46Z	2016-12-09T17:46:52Z		Handling of CTRL_CLOSE_EVENT/SIGHUP on Windows causes races and deadlocks	564		
 10166	9373002	false	closed	false	3		2016-12-07T15:48:12Z	2016-12-07T20:44:57Z	2016-12-07T20:44:57Z	test: test-buffer-creation-regression intermittent failure on smartos	38		
 10167	1189785	true	open	false	1		2016-12-07T16:22:46Z	2016-12-07T21:32:06Z		test: add ES6 and improve test-fs-truncate	47		
 10168	6354455	true	closed	false	1		2016-12-07T17:58:15Z	2016-12-07T18:09:42Z	2016-12-07T18:09:42Z	doc: removing extra space in README	52		
@@ -3357,12 +3357,12 @@
 10174	580536	false	closed	false	2		2016-12-07T21:27:13Z	2016-12-08T14:17:10Z	2016-12-08T14:17:10Z	Windows binaries zip of node.js with npm	82		
 10175	5985850	true	open	false			2016-12-07T23:13:45Z	2016-12-08T22:45:57Z		buffer: removed unused variable conf from buffer-base64-decode & buffer-base64-encode	62		
 10176	11262165	true	open	false			2016-12-08T01:20:35Z	2016-12-09T04:19:31Z		test: refactor test-fs-fsync	66		
-10177	109983	true	open	false	7		2016-12-08T05:52:45Z	2016-12-09T05:45:10Z		test: swaps var for let/const throughout common module	66		
+10177	109983	true	open	false			2016-12-08T05:52:45Z	2016-12-09T17:22:15Z		test: swaps var for let/const throughout common module	66		
 10178	2352663	true	open	false	4		2016-12-08T09:43:08Z	2016-12-09T07:37:29Z		tools: enforce consistent operator linebreak style	151		
 10179	16321487	false	closed	false	1		2016-12-08T15:57:27Z	2016-12-08T16:09:45Z	2016-12-08T16:09:45Z	Asynchronous / Synchronous definitions	26		
 10180	2439838	false	open	false	2		2016-12-08T17:01:50Z	2016-12-09T15:57:31Z		occasional error with node compile failure (error 255 / ECONNRESET)	208		
 10181	1189785	true	open	false	0	0	2016-12-08T17:05:27Z	2016-12-08T17:05:27Z		test: use strictEqual in test-debug-break	42		
-10182	1189785	true	open	false	0	0	2016-12-08T17:19:58Z	2016-12-08T17:19:58Z		test: use strictEqual in test fixtures symlinked	46		
+10182	1189785	true	open	false			2016-12-08T17:19:58Z	2016-12-09T17:16:23Z		test: use strictEqual in test fixtures symlinked	46		
 10183	1189785	true	open	false	0	0	2016-12-08T17:56:34Z	2016-12-08T17:56:34Z		test: use ES6 in test-debugger-client.js	47		
 10184	238531	true	open	false			2016-12-08T20:37:43Z	2016-12-08T21:24:43Z		stream_base: homogenize req_wrap_obj use	47		
 10185	5455479	false	open	false	0		2016-12-08T22:41:55Z	2016-12-08T22:41:55Z		The property heap_size_limit from getHeapStatistics is incorrect for memory over 4032MB	114		
@@ -3375,7 +3375,7 @@
 10192	7886068	true	open	false	0	0	2016-12-09T08:03:36Z	2016-12-09T08:03:36Z		minor update to test/parallel/test-domain-uncaught-exception.js	48		
 10193	7886068	true	open	false			2016-12-09T08:11:27Z	2016-12-09T15:02:23Z		"test: fix setTimeout() and remove unused ""err"" in test-domain-uncaught-exception "	46		
 10194	7323348	false	closed	false	1		2016-12-09T10:25:26Z	2016-12-09T14:33:22Z	2016-12-09T14:33:22Z	Close and exit event triggering on launching child process 	92		
-10195	12683784	false	open	false	5		2016-12-09T12:29:04Z	2016-12-09T16:06:45Z		The installation package could not be opened	59		
+10195	12683784	false	open	false	13		2016-12-09T12:29:04Z	2016-12-09T17:06:17Z		The installation package could not be opened	59		
 10196	1404810	false	closed	false	3		2016-12-09T12:57:08Z	2016-12-09T13:01:51Z	2016-12-09T12:58:09Z	Downloading from nodejs.org is so slow it breaks builds	32		
 10197	7524911	false	closed	false	1		2016-12-09T15:00:32Z	2016-12-09T15:06:28Z	2016-12-09T15:06:28Z	Always show % at the end of line	88		
 10198	1127729	false	open	false	0		2016-12-09T15:07:15Z	2016-12-09T15:07:15Z		Something is wrong with the installers and download page	23		
