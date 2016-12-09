@@ -2463,7 +2463,7 @@
 9280	275871	true	closed	false	2		2016-10-25T20:29:33Z	2016-10-25T23:44:54Z	2016-10-25T23:44:54Z	src: fix use of uninitialized variable	14		
 9281	439929	true	closed	false	4		2016-10-25T21:55:56Z	2016-11-22T07:15:19Z	2016-10-28T20:00:23Z	src: fix use of uninitialized variable	65		
 9282	354349	false	open	false	0		2016-10-25T22:39:22Z	2016-10-25T22:39:22Z		node does not process HTTP informational responses correctly	336		
-9283	5445507	true	open	false	5		2016-10-25T23:23:46Z	2016-12-08T16:08:01Z		module: fix loading from $PREFIX/lib/node on Windows	102		
+9283	5445507	true	open	false			2016-10-25T23:23:46Z	2016-12-09T19:33:50Z		module: fix loading from $PREFIX/lib/node on Windows	167		
 9284	17535	true	closed	false	7	0	2016-10-25T23:39:15Z	2016-11-30T02:54:21Z	2016-11-30T02:54:20Z	deps: upgrade npm to 4.0.1	584		
 9285	312966	false	open	false	18		2016-10-25T23:46:57Z	2016-10-26T18:06:08Z		support for polling linux character device for incoming data	307		
 9286	17535	true	closed	false	7		2016-10-26T00:24:34Z	2016-11-04T21:53:14Z	2016-11-04T21:53:14Z	deps: upgrade npm to 3.10.9	167		
@@ -2712,7 +2712,7 @@
 9529	899444	true	open	false	26		2016-11-09T17:00:42Z	2016-11-28T17:09:17Z		"Revert ""buffer: runtime deprecation of calling Buffer without new"""	106		
 9530	3413079	false	open	false	5		2016-11-09T17:19:27Z	2016-11-18T19:54:40Z		Response strings and closures objects leak with http.Agent enabled (Memory Leak)	298		
 9531	899444	false	open	false	56		2016-11-09T21:03:01Z	2016-12-07T23:51:26Z		buffer: discuss future direction of Buffer constructor API	842		
-9532	115237	true	open	false	3		2016-11-09T21:04:33Z	2016-12-05T22:46:31Z		doc: clarify the callback arguments of dns.resolve	47		
+9532	115237	true	open	false	5		2016-11-09T21:04:33Z	2016-12-09T19:15:23Z		doc: clarify the callback arguments of dns.resolve	47		
 9533	941925	false	open	false	0		2016-11-09T22:31:38Z	2016-11-09T22:31:38Z		Design of legacy tls socket's destroy	330		
 9534	6477435	false	closed	false	7		2016-11-09T23:11:18Z	2016-11-13T20:04:51Z	2016-11-10T10:36:15Z	Spawning child processes in bash on Windows can crash the parent process	118		
 9535	1917947	true	closed	false	10		2016-11-10T04:00:21Z	2016-11-11T00:43:19Z	2016-11-10T16:52:25Z	doc: Add padding: 0 to pre > code	28		
@@ -2933,13 +2933,13 @@
 9750	718899	true	open	false	0	0	2016-11-22T19:49:04Z	2016-11-22T19:49:04Z		benchmark,lib,test,tools: remove unneeded . escape	68		
 9751	1084056	true	closed	false	1	0	2016-11-22T21:51:58Z	2016-11-29T09:10:39Z	2016-11-29T09:10:39Z	url: fix -Warray-bounds warning	37	1084056	2016-11-29T09:10:39Z
 9752	1622515	true	closed	false	9	4	2016-11-22T22:48:49Z	2016-12-05T14:07:01Z	2016-12-05T14:07:01Z	repl: preprocess only for defaultEval	56		
-9753	289174	true	open	false			2016-11-23T05:41:48Z	2016-12-01T23:16:53Z		[async_wrap] fix fatal error during destroy() calls	96		
+9753	289174	true	closed	false	10		2016-11-23T05:41:48Z	2016-12-09T19:19:12Z	2016-12-01T23:51:19Z	[async_wrap] fix fatal error during destroy() calls	96		
 9754	2352663	true	open	false	14		2016-11-23T09:54:13Z	2016-12-07T17:56:08Z		deps: introduce embedder version number for V8	40		
 9755	1084956	false	closed	false	1		2016-11-23T10:55:22Z	2016-11-23T11:11:18Z	2016-11-23T11:11:18Z	Node.js installation fails error status: 1603.	152		
 9756	1490	false	open	false	0		2016-11-23T10:56:02Z	2016-11-23T10:56:02Z		Infinite loop in timers.js	210		
 9757	1559888	true	closed	false	1	0	2016-11-23T11:35:31Z	2016-11-24T16:23:02Z	2016-11-24T16:23:02Z	Fix unused result warning in node_url.cc (nit)	48		
 9758	16735925	false	open	false	4		2016-11-23T11:51:29Z	2016-11-26T19:13:06Z		Allow `start` option to be string in readline	80		
-9759	1490	true	open	false	8		2016-11-23T11:52:52Z	2016-12-05T14:28:18Z		timers: prevent infinite loop when subsequent immediates are cleared	90		
+9759	1490	true	open	false			2016-11-23T11:52:52Z	2016-12-09T19:34:24Z		timers: prevent infinite loop when subsequent immediates are cleared	90		
 9760	173559	false	closed	false	1		2016-11-23T12:53:56Z	2016-11-25T15:42:44Z	2016-11-25T15:42:44Z	v8_inspector: HTTP /json/version returns array instead of object	74		
 9761	1211498	true	closed	false	3		2016-11-23T13:03:26Z	2016-12-03T21:50:32Z	2016-11-23T13:18:20Z	crypto: do not use pointers to std::vector	88		
 9762	275871	true	closed	false	0	0	2016-11-23T13:21:03Z	2016-11-25T15:42:13Z	2016-11-25T15:42:13Z	inspector: /json/version returns object, not array	17		
@@ -2980,7 +2980,7 @@
 9797	291301	false	open	false	7		2016-11-25T13:31:17Z	2016-11-28T11:24:19Z		Feature proposal: buffer.convert(value[, fromEnc], toEnc)	200		
 9798	12400507	true	open	false	3		2016-11-25T19:19:25Z	2016-11-26T05:18:16Z		test: known issue url.parse() does not return an empty string	60		
 9799	275871	false	open	false	0		2016-11-25T19:56:40Z	2016-11-25T19:56:40Z		test: DNS for bare domain fails with fritz.box search domain	215		
-9800	17607	true	open	false			2016-11-25T20:38:23Z	2016-12-08T22:42:03Z		Improvements to tls API documentation, batch 1	49		
+9800	17607	true	open	false			2016-11-25T20:38:23Z	2016-12-09T19:09:29Z		Improvements to tls API documentation, batch 1	49		
 9801	10393198	false	open	false	7		2016-11-26T00:15:08Z	2016-12-07T07:19:50Z		byteOffset argument in buffer indexOf / lastIndexOf has some contradictions in code vs doc vs test	137		
 9802	718899	true	closed	false	3	0	2016-11-26T04:41:59Z	2016-11-29T14:45:52Z	2016-11-29T14:45:52Z	test: refactor test-http-status-reason-invalid-chars	53		
 9803	718899	true	closed	false	2		2016-11-26T04:50:05Z	2016-11-29T14:47:38Z	2016-11-29T14:47:38Z	test: refactor test-preload	50		
@@ -3282,7 +3282,7 @@
 10099	15952	true	closed	false	12		2016-12-02T22:53:25Z	2016-12-07T14:36:46Z	2016-12-05T19:32:18Z	debugger: call `this.resume()` after `this.run()`	70		
 10100	4800357	true	open	false	2		2016-12-02T23:59:44Z	2016-12-05T12:19:19Z		test: updated test-stream-pipe-unpipe-stream	44		
 10101	3397140	false	open	false	15		2016-12-03T01:16:49Z	2016-12-09T14:04:57Z		process.nextTick & node::MakeCallback are very bloated	296		
-10102	10393198	true	open	false	2		2016-12-03T05:52:58Z	2016-12-09T18:42:56Z		doc: some fixes in child_process.md	62		
+10102	10393198	true	open	false	3		2016-12-03T05:52:58Z	2016-12-09T19:02:37Z		doc: some fixes in child_process.md	62		
 10103	11638619	true	closed	false	3	0	2016-12-03T08:16:26Z	2016-12-06T07:29:58Z	2016-12-06T07:29:58Z	repl: avoid parsing division operator as regex	62	11638619	2016-12-06T07:29:58Z
 10104	2352663	false	open	false	1		2016-12-03T14:17:25Z	2016-12-05T21:37:18Z		Investigate AIX test failures	23		
 10105	837500	true	closed	false	2	1	2016-12-03T16:28:53Z	2016-12-08T00:17:58Z	2016-12-08T00:17:58Z	test: refactor test-https-agent-session-reuse	57		
@@ -3380,4 +3380,6 @@
 10197	7524911	false	closed	false	1		2016-12-09T15:00:32Z	2016-12-09T15:06:28Z	2016-12-09T15:06:28Z	Always show % at the end of line	88		
 10198	1127729	false	closed	true	3		2016-12-09T15:07:15Z	2016-12-09T18:36:24Z	2016-12-09T18:36:24Z	Something is wrong with the installers and download page	23		
 10199	5698911	false	closed	false	1		2016-12-09T15:55:27Z	2016-12-09T16:17:40Z	2016-12-09T16:17:40Z	Non deterministic behavior for failing executables	337		
-10200	1189785	true	open	false	0	0	2016-12-09T18:49:16Z	2016-12-09T18:49:16Z		test: improve the code in test-dns-ipv4	50		
+10200	1189785	true	open	false			2016-12-09T18:49:16Z	2016-12-09T19:30:46Z		test: improve the code in test-dns-ipv4	50		
+10201	829827	true	open	false	0	0	2016-12-09T19:04:06Z	2016-12-09T19:04:06Z		Update process.md	28		
+10202	4299420	true	open	false	0	0	2016-12-09T19:19:45Z	2016-12-09T19:19:45Z		doc: clarify the review process	76		
