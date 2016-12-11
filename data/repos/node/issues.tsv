@@ -3017,7 +3017,7 @@
 9834	289174	false	closed	false	1		2016-11-29T08:15:19Z	2016-12-06T00:48:24Z	2016-12-06T00:48:24Z	[buffer] transcode() to utf16le is broken	115		
 9835	1581989	false	closed	false	5		2016-11-29T08:27:55Z	2016-11-30T00:45:51Z	2016-11-29T11:34:48Z	bable-node not working	72		
 9836	289174	false	open	false	0		2016-11-29T08:28:24Z	2016-11-29T08:28:24Z		[buffer] fill() for utf16le is broken	30		
-9837	899444	true	open	false			2016-11-29T11:12:21Z	2016-12-09T22:30:38Z		buffer: fix single-character string filling	95		
+9837	899444	true	open	false	5		2016-11-29T11:12:21Z	2016-12-11T22:36:32Z		buffer: fix single-character string filling	95		
 9838	899444	true	closed	false	2		2016-11-29T11:27:19Z	2016-12-06T00:47:43Z	2016-12-06T00:47:43Z	buffer: fix transcode for single-byte enc to ucs2	63		
 9839	12165955	false	open	false	0		2016-11-29T12:30:48Z	2016-11-29T12:30:48Z		Solaris 11.3 build issue:	204		
 9840	718899	false	open	false	0		2016-11-29T15:32:53Z	2016-11-29T15:32:53Z		doc: doc/api/modules.md needs a better explanation of `exports`	45		
@@ -3367,7 +3367,7 @@
 10184	238531	true	open	false			2016-12-08T20:37:43Z	2016-12-08T21:24:43Z		stream_base: homogenize req_wrap_obj use	47		
 10185	5455479	false	closed	false	1		2016-12-08T22:41:55Z	2016-12-11T13:49:56Z	2016-12-11T13:49:56Z	The property heap_size_limit from getHeapStatistics is incorrect for memory over 4032MB	114		
 10186	275871	true	closed	false	1	0	2016-12-08T23:19:42Z	2016-12-11T13:48:54Z	2016-12-11T13:48:54Z	lib,src: support values > 4GB in heap statistics	2		
-10187	567540	true	open	false			2016-12-09T04:34:15Z	2016-12-11T20:09:58Z		deps: Add node-inspect 1.10.1	88		
+10187	567540	true	open	false	3		2016-12-09T04:34:15Z	2016-12-11T22:34:40Z		deps: Add node-inspect 1.10.1	88		
 10188	718899	true	open	false			2016-12-09T06:29:03Z	2016-12-10T15:16:47Z		test: refactor test-handle-wrap-close-abort	53		
 10189	718899	true	open	false	0	0	2016-12-09T06:55:25Z	2016-12-09T06:55:25Z		tets: refactor http pipelined socket test	52		
 10190	718899	true	open	false	0	0	2016-12-09T07:24:48Z	2016-12-09T07:24:48Z		test: refactor assert.equal, update syntax to ES6	34		
@@ -3389,12 +3389,12 @@
 10206	855219	true	open	false	0	0	2016-12-09T20:47:45Z	2016-12-09T20:47:45Z		deps: ICU 58.2 bump	51		
 10207	3611800	true	open	false	2		2016-12-09T21:03:20Z	2016-12-10T05:01:02Z		test: fix setTimeout, add const, remove unused var	50		
 10208	347452	false	open	false	2		2016-12-09T22:08:51Z	2016-12-10T11:20:50Z		Win64 .msi install breaks Windows Explorer.	106		
-10209	677994	true	open	false	2		2016-12-09T23:18:22Z	2016-12-10T03:56:09Z		src: allow passing a buffer to RandomBytes	147		
+10209	677994	true	open	false	4		2016-12-09T23:18:22Z	2016-12-11T22:40:14Z		src: allow passing a buffer to RandomBytes	147		
 10210	718899	true	open	false	0	0	2016-12-10T00:14:07Z	2016-12-10T00:14:07Z		test: refactor test-http-pause-resume-one-end	47		
 10211	1037138	true	open	false	0		2016-12-10T01:06:46Z	2016-12-10T08:49:03Z		doc: document R CRAN mirror process	67		
-10212	718899	true	open	false			2016-12-10T06:49:23Z	2016-12-11T18:15:31Z		test: fix flaky test-dgram-exclusive-implicit-bind	103		
+10212	718899	true	open	false	5		2016-12-10T06:49:23Z	2016-12-11T22:22:31Z		test: fix flaky test-dgram-exclusive-implicit-bind	103		
 10213	2352663	true	open	false	3		2016-12-10T10:15:12Z	2016-12-11T15:35:24Z		tools: enforce linebreak after ternary operators	44		
-10214	880513	false	open	false	0		2016-12-10T13:38:29Z	2016-12-10T13:38:29Z		stream: readable.push returns true at internal buffer size equal highWaterMark	161		
+10214	880513	false	open	false	0		2016-12-10T13:38:29Z	2016-12-11T22:36:57Z		stream: readable.push returns true at internal buffer size equal highWaterMark	161		
 10218	10773353	false	open	false	0		2016-12-10T16:30:54Z	2016-12-10T16:30:54Z		Add button at reading docs	33		
 10219	1189785	true	open	false	2		2016-12-10T16:53:25Z	2016-12-11T13:10:31Z		test: refactor the code in test-dns-ipv6	62		
 10220	5356588	false	open	false	3		2016-12-10T20:16:07Z	2016-12-11T01:56:29Z		Cannot debug code with `node --inspect` due to: Uncaught ReferenceError: DevToolsAPI is not defined	200		
@@ -3406,3 +3406,4 @@
 10226	718899	true	open	false	0	0	2016-12-11T05:45:40Z	2016-12-11T05:45:40Z		test: refactor test-stream-big-push	46		
 10227	275871	true	open	false	1		2016-12-11T16:38:51Z	2016-12-11T17:54:44Z		src: don't overwrite non-writable vm globals	21		
 10228	131406	false	open	false	0		2016-12-11T19:21:58Z	2016-12-11T19:21:58Z		Missing make rule for test/fixtures/keys/0-dns-*	25		
+10229	22550884	true	open	false	0	0	2016-12-11T22:29:18Z	2016-12-11T22:29:18Z		test:  refactor test-http-after-connect.js	42		
