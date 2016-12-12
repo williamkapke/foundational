@@ -206,7 +206,7 @@
 4685	11070840	false	open	false	19		2016-01-14T06:13:50Z	2016-08-14T23:11:57Z		Symantec Quarantining node-v5.4.1-x64.msi	30		
 4701	189835	false	open	false	62		2016-01-14T20:18:01Z	2016-07-19T01:02:19Z		ES2016 compat issue with Buffer subclassing Uint8Array	163		
 4716	10805246	false	closed	false	4		2016-01-15T22:58:34Z	2016-12-01T18:02:37Z	2016-01-16T16:27:04Z	windows 7 cygwin64 installation, Make fails at tools/gyp_node.py	67		
-4740	327019	true	open	false			2016-01-18T10:01:35Z	2016-07-06T18:24:41Z		readline: refactor construct Interface	6		
+4740	327019	true	open	false			2016-01-18T10:01:35Z	2016-12-12T15:31:19Z		readline: refactor construct Interface	6		
 4747	3899684	true	closed	false	66		2016-01-18T18:08:00Z	2016-07-01T10:04:44Z	2016-04-20T23:00:07Z	doc: renamed doc files to .md, adapted build scripts	27		
 4758	347387	false	closed	false	6		2016-01-19T12:08:26Z	2016-10-07T14:39:27Z	2016-10-07T14:39:27Z	SIGINT not triggering with readline	26		
 4823	1063255	false	closed	false	4		2016-01-22T23:47:02Z	2016-06-30T15:00:02Z	2016-06-30T15:00:02Z	test: possible flaky test-repl.js	88		
@@ -2068,7 +2068,7 @@
 8885	1443911	true	closed	false	0		2016-10-01T07:47:35Z	2016-10-04T18:42:16Z	2016-10-04T18:42:16Z	v4.x backport: doc: add `added:` information for crypto	6		
 8886	275871	true	closed	false	3		2016-10-01T14:27:45Z	2016-10-07T08:28:36Z	2016-10-03T10:54:52Z	build: don't build icu with -fno-rtti	33		
 8887	110455	true	closed	false	2	0	2016-10-01T17:26:21Z	2016-10-03T10:49:34Z	2016-10-03T10:49:34Z	"module: correct comment text ""read-only"" to ""shallow"""	55		
-8888	110455	true	open	false	15		2016-10-01T17:46:35Z	2016-10-06T16:45:57Z		module: make require.cache reassignable	93		
+8888	110455	true	open	false	15		2016-10-01T17:46:35Z	2016-12-12T15:02:56Z		module: make require.cache reassignable	93		
 8889	238531	true	closed	false	3		2016-10-01T19:20:39Z	2016-10-07T00:17:19Z	2016-10-03T23:45:47Z	tls: handle `error` events with `_tlsError`	96		
 8890	54666	true	closed	false	0		2016-10-01T23:04:21Z	2016-10-03T10:43:43Z	2016-10-03T10:43:43Z	inspector: fix minor issues	43		
 8891	815894	true	closed	false	0	0	2016-10-02T00:21:20Z	2016-10-02T01:06:56Z	2016-10-02T01:06:56Z	test: cleanup/update test-dgram-empty-packet.js	58		
@@ -3016,8 +3016,8 @@
 9833	718899	true	closed	false	3		2016-11-29T05:40:27Z	2016-12-02T15:07:49Z	2016-12-02T15:07:49Z	test: refactor test-debug-args	39		
 9834	289174	false	closed	false	1		2016-11-29T08:15:19Z	2016-12-06T00:48:24Z	2016-12-06T00:48:24Z	[buffer] transcode() to utf16le is broken	115		
 9835	1581989	false	closed	false	5		2016-11-29T08:27:55Z	2016-11-30T00:45:51Z	2016-11-29T11:34:48Z	bable-node not working	72		
-9836	289174	false	open	false	0		2016-11-29T08:28:24Z	2016-11-29T08:28:24Z		[buffer] fill() for utf16le is broken	30		
-9837	899444	true	open	false			2016-11-29T11:12:21Z	2016-12-12T14:33:40Z		buffer: fix single-character string filling	95		
+9836	289174	false	closed	false	0		2016-11-29T08:28:24Z	2016-12-12T16:00:14Z	2016-12-12T16:00:14Z	[buffer] fill() for utf16le is broken	30		
+9837	899444	true	closed	false	6		2016-11-29T11:12:21Z	2016-12-12T15:59:12Z	2016-12-12T15:59:12Z	buffer: fix single-character string filling	97		
 9838	899444	true	closed	false	2		2016-11-29T11:27:19Z	2016-12-06T00:47:43Z	2016-12-06T00:47:43Z	buffer: fix transcode for single-byte enc to ucs2	63		
 9839	12165955	false	open	false	0		2016-11-29T12:30:48Z	2016-11-29T12:30:48Z		Solaris 11.3 build issue:	204		
 9840	718899	false	open	false	0		2016-11-29T15:32:53Z	2016-11-29T15:32:53Z		doc: doc/api/modules.md needs a better explanation of `exports`	45		
@@ -3233,7 +3233,7 @@
 10050	7131961	true	open	false	0		2016-12-01T18:04:15Z	2016-12-05T04:11:00Z		doc: Update rinfo object definition for UDP message event	41		
 10051	109983	true	closed	false	4	2	2016-12-01T18:06:16Z	2016-12-08T00:22:59Z	2016-12-08T00:22:59Z	test: refactors test-tls-client-verify	45		
 10052	2723032	true	closed	false	8		2016-12-01T18:07:50Z	2016-12-05T00:37:43Z	2016-12-05T00:37:43Z	gitignore: add osx .DS_STORE files	57		
-10053	4448075	true	open	false			2016-12-01T18:08:18Z	2016-12-12T03:58:53Z		http: throw an error for unexpected agent values	69		
+10053	4448075	true	open	false	9		2016-12-01T18:08:18Z	2016-12-12T15:11:31Z		http: throw an error for unexpected agent values	69		
 10054	8404857	true	open	false			2016-12-01T18:10:42Z	2016-12-03T04:48:56Z		test: refactor test-pipe-file-to-http	62		
 10055	19396993	true	open	false			2016-12-01T18:13:01Z	2016-12-04T18:07:51Z		test: refactor test-crypto-hash-stream-pipe	54		
 10056	2294736	true	closed	false	2	0	2016-12-01T18:14:07Z	2016-12-04T05:14:12Z	2016-12-04T05:14:12Z	test: update var to let/const and assert.equal to assert.strictEqual.	51		
@@ -3282,7 +3282,7 @@
 10099	15952	true	closed	false	12		2016-12-02T22:53:25Z	2016-12-07T14:36:46Z	2016-12-05T19:32:18Z	debugger: call `this.resume()` after `this.run()`	70		
 10100	4800357	true	open	false	2		2016-12-02T23:59:44Z	2016-12-05T12:19:19Z		test: updated test-stream-pipe-unpipe-stream	44		
 10101	3397140	false	open	false	15		2016-12-03T01:16:49Z	2016-12-09T14:04:57Z		process.nextTick & node::MakeCallback are very bloated	296		
-10102	10393198	true	open	false			2016-12-03T05:52:58Z	2016-12-10T18:11:15Z		doc: some fixes in child_process.md	62		
+10102	10393198	true	closed	false	5		2016-12-03T05:52:58Z	2016-12-12T15:57:26Z	2016-12-12T15:57:26Z	doc: some fixes in child_process.md	66		
 10103	11638619	true	closed	false	3	0	2016-12-03T08:16:26Z	2016-12-06T07:29:58Z	2016-12-06T07:29:58Z	repl: avoid parsing division operator as regex	62	11638619	2016-12-06T07:29:58Z
 10104	2352663	false	open	false	1		2016-12-03T14:17:25Z	2016-12-05T21:37:18Z		Investigate AIX test failures	23		
 10105	837500	true	closed	false	2	1	2016-12-03T16:28:53Z	2016-12-08T00:17:58Z	2016-12-08T00:17:58Z	test: refactor test-https-agent-session-reuse	57		
@@ -3315,8 +3315,8 @@
 10132	4985028	true	closed	false	19		2016-12-06T00:33:41Z	2016-12-11T14:09:05Z	2016-12-11T00:54:19Z	Fix --preserve-symlinks, Enhancement to exploit	70		
 10133	7834613	false	open	false	0		2016-12-06T00:42:54Z	2016-12-06T00:42:54Z		http.Agent free sockets maintain reference to initial ClientRequest object until the socket is destroyed/closed	283		
 10134	7834613	true	open	false	6		2016-12-06T03:11:55Z	2016-12-09T17:09:27Z		http: Eliminate ClientRequest capture by Agent socket listeners	137		
-10135	275871	true	open	false	7		2016-12-06T03:55:43Z	2016-12-11T17:54:26Z		lib: be robust when process global is clobbered	66		
-10136	2920525	true	open	false	0	0	2016-12-06T05:44:11Z	2016-12-06T05:44:11Z		doc: fix typo in code example of 'path' module	30		
+10135	275871	true	open	false			2016-12-06T03:55:43Z	2016-12-12T15:32:12Z		lib: be robust when process global is clobbered	66		
+10136	2920525	true	closed	false	2		2016-12-06T05:44:11Z	2016-12-12T15:11:09Z	2016-12-12T15:11:09Z	doc: fix typo in code example of 'path' module	30		
 10137	680220	false	closed	false	9		2016-12-06T08:02:41Z	2016-12-08T17:10:47Z	2016-12-08T13:40:07Z	FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memory	199		
 10138	327019	true	open	false	4		2016-12-06T09:48:18Z	2016-12-07T12:02:06Z		http: make the expression test more faster	85		
 10139	1559888	true	closed	false	2		2016-12-06T11:39:01Z	2016-12-06T14:35:24Z	2016-12-06T12:52:36Z	Build, warning, header, and include fixes	438		
@@ -3330,7 +3330,7 @@
 10147	1093990	true	closed	false	1	8	2016-12-06T16:26:52Z	2016-12-08T18:42:54Z	2016-12-08T18:42:54Z	doc: add some info on `tty#setRawMode()`	54	1093990	2016-12-08T18:42:54Z
 10148	101553	false	open	false	6		2016-12-06T16:26:55Z	2016-12-06T20:24:14Z		Can we add a new label to make merging easier?	68		
 10149	899444	true	closed	false	2	0	2016-12-06T17:13:17Z	2016-12-09T14:26:44Z	2016-12-09T14:26:44Z	test: set stdin too for pseudo-tty tests	44		
-10150	899444	true	open	false	0		2016-12-06T17:31:08Z	2016-12-12T14:32:17Z		test: fail for missing output files	60		
+10150	899444	true	closed	false	2	0	2016-12-06T17:31:08Z	2016-12-12T15:16:02Z	2016-12-12T15:16:02Z	test: fail for missing output files	60		
 10151	4299420	true	closed	false	10		2016-12-06T17:44:08Z	2016-12-09T18:32:14Z	2016-12-09T14:42:41Z	doc: buffer allocation methods throw for negative size	35		
 10152	4299420	true	open	false	5		2016-12-06T17:59:12Z	2016-12-08T05:35:38Z		buffer: throw a consistent range error for length > kMaxLength	802		
 10153	432351	true	closed	false	2		2016-12-06T18:35:20Z	2016-12-07T16:03:25Z	2016-12-07T16:03:25Z	build: fix node_g target	80		
@@ -3389,13 +3389,13 @@
 10206	855219	true	open	false	0	0	2016-12-09T20:47:45Z	2016-12-09T20:47:45Z		deps: ICU 58.2 bump	51		
 10207	3611800	true	open	false	2		2016-12-09T21:03:20Z	2016-12-10T05:01:02Z		test: fix setTimeout, add const, remove unused var	50		
 10208	347452	false	open	false	2		2016-12-09T22:08:51Z	2016-12-10T11:20:50Z		Win64 .msi install breaks Windows Explorer.	106		
-10209	677994	true	open	false	5		2016-12-09T23:18:22Z	2016-12-12T11:37:00Z		src: allow passing a buffer to RandomBytes	147		
+10209	677994	true	open	false			2016-12-09T23:18:22Z	2016-12-12T15:05:44Z		src: allow passing a buffer to RandomBytes	147		
 10210	718899	true	open	false	0	0	2016-12-10T00:14:07Z	2016-12-10T00:14:07Z		test: refactor test-http-pause-resume-one-end	47		
 10211	1037138	true	open	false	3		2016-12-10T01:06:46Z	2016-12-12T14:02:48Z		doc: document R CRAN mirror process	67		
 10212	718899	true	open	false	5		2016-12-10T06:49:23Z	2016-12-11T22:22:31Z		test: fix flaky test-dgram-exclusive-implicit-bind	103		
 10213	2352663	true	open	false	3		2016-12-10T10:15:12Z	2016-12-11T15:35:24Z		tools: enforce linebreak after ternary operators	44		
 10214	880513	false	open	false	3		2016-12-10T13:38:29Z	2016-12-12T04:08:41Z		stream: readable.push returns true at internal buffer size equal highWaterMark	161		
-10218	10773353	false	open	false	0		2016-12-10T16:30:54Z	2016-12-10T16:30:54Z		Add button at reading docs	33		
+10218	10773353	false	open	false	1		2016-12-10T16:30:54Z	2016-12-12T15:46:38Z		Add button at reading docs	33		
 10219	1189785	true	open	false	2		2016-12-10T16:53:25Z	2016-12-11T13:10:31Z		test: refactor the code in test-dns-ipv6	62		
 10220	5356588	false	open	false	3		2016-12-10T20:16:07Z	2016-12-11T01:56:29Z		Cannot debug code with `node --inspect` due to: Uncaught ReferenceError: DevToolsAPI is not defined	200		
 10221	10393198	true	open	false	0		2016-12-10T23:47:33Z	2016-12-12T08:20:39Z		doc: document argument variant in the repl.md	97		
@@ -3405,10 +3405,11 @@
 10225	718899	true	open	false	0	0	2016-12-11T05:16:04Z	2016-12-11T05:16:04Z		test: refactor test-https-truncate	55		
 10226	718899	true	open	false			2016-12-11T05:45:40Z	2016-12-11T23:11:01Z		test: refactor test-stream-big-push	46		
 10227	275871	true	open	false			2016-12-11T16:38:51Z	2016-12-12T13:33:33Z		src: don't overwrite non-writable vm globals	21		
-10228	131406	false	open	false	0		2016-12-11T19:21:58Z	2016-12-11T19:21:58Z		Missing make rule for test/fixtures/keys/0-dns-*	25		
+10228	131406	false	open	false	2		2016-12-11T19:21:58Z	2016-12-12T15:19:23Z		Missing make rule for test/fixtures/keys/0-dns-*	25		
 10229	22550884	true	open	false	4		2016-12-11T22:29:18Z	2016-12-12T13:22:05Z		test:  refactor test-http-after-connect.js	42		
 10230	52195	false	open	false	3		2016-12-11T23:11:29Z	2016-12-12T11:52:28Z		stream, test: Add test for _readableState.needReadable and _readableState.emittedReadable	23		
 10231	568260	true	open	false	0	0	2016-12-12T01:47:05Z	2016-12-12T01:47:05Z		url, test: fix typo in inspect output, add test	107		
 10232	718899	true	open	false	0	0	2016-12-12T04:38:55Z	2016-12-12T04:38:55Z		test: refactor test-crypto-random	60		
 10233	2455054	false	open	false	1		2016-12-12T07:29:27Z	2016-12-12T08:40:41Z		possible edge case when packaging self-contained node with C++/CLI native modules	266		
 10234	6487691	false	open	false	0		2016-12-12T14:46:47Z	2016-12-12T14:46:47Z		test-stdio-closed failing on some AIX environments	247		
+10235	24527049	false	open	false	0		2016-12-12T15:53:14Z	2016-12-12T15:53:14Z		Problems about 'ToInt32' is deprecated	1756		
