@@ -839,7 +839,7 @@
 7654	4551130	false	closed	false	12		2016-07-11T11:54:59Z	2016-09-06T20:38:30Z	2016-09-06T14:04:28Z	v8 GC crash on node 4.4.7	271		
 7655	1449826	false	closed	false	7		2016-07-11T12:15:57Z	2016-10-09T14:09:47Z	2016-10-09T14:09:47Z	External objects should not be modified	73		
 7656	419466	false	open	false	6		2016-07-11T13:00:04Z	2016-07-12T18:01:20Z		Composition vs. prototype for module exports	68		
-7657	2197250	false	open	false	13		2016-07-11T14:11:57Z	2016-12-12T16:59:09Z		IPC can freeze the process	514		
+7657	2197250	false	open	false	14		2016-07-11T14:11:57Z	2016-12-12T17:29:48Z		IPC can freeze the process	514		
 7658	1495995	true	open	false	13		2016-07-11T16:37:49Z	2016-09-27T14:08:20Z		buffer:Performance increase for buffer-indexof	81		
 7659	9373002	false	closed	false	8		2016-07-11T21:07:55Z	2016-07-19T21:54:38Z	2016-07-19T21:54:38Z	s390: v8tests.cctest/test-platform/StackAlignment  in v8 tests	104		
 7660	275871	true	open	false	3		2016-07-11T21:10:40Z	2016-07-12T01:15:01Z		src: don't use locale-sensitive strcasecmp() (v4.x)	3		
@@ -2953,7 +2953,7 @@
 9770	17607	true	open	false	0	0	2016-11-23T16:53:27Z	2016-11-23T16:53:27Z		Extendable ca certs v6	8		
 9771	17607	true	open	false	0	0	2016-11-23T17:02:44Z	2016-11-23T17:02:44Z		Extendable ca certs v4	49		
 9772	9373002	true	closed	false	5		2016-11-23T17:20:32Z	2016-11-25T15:41:01Z	2016-11-25T15:41:01Z	test: exclude no_interleaved_stdio test for AIX	82		
-9773	1037138	true	open	false	11		2016-11-23T18:54:27Z	2016-12-12T16:31:37Z		Debugger - Filter out the ending of the Module wrapper when using the list command	157		
+9773	1037138	true	open	false	13		2016-11-23T18:54:27Z	2016-12-12T17:46:54Z		Debugger - Filter out the ending of the Module wrapper when using the list command	157		
 9774	2512748	true	open	false	0	0	2016-11-23T20:16:45Z	2016-11-23T20:16:45Z		Backport: repl: don't override all internal repl defaults	10		
 9775	2512748	true	open	false	0	0	2016-11-23T20:50:03Z	2016-11-23T20:50:03Z		Backport: test: refactor large event emitter tests	10		
 9776	2512748	true	open	false	2		2016-11-23T22:03:05Z	2016-11-24T03:36:41Z		Backport: assert: Fix deepEqual/deepStrictEqual on equivalent typed arrays	32		
@@ -3402,7 +3402,7 @@
 10222	490562	false	closed	false	4		2016-12-11T00:54:31Z	2016-12-11T05:27:34Z	2016-12-11T05:27:34Z	Error message when destructuring a non array is unclear	124		
 10223	12378597	false	open	false	3		2016-12-11T02:59:00Z	2016-12-11T17:31:37Z		Object.defineProperty on the global object does not handle 'writable' properly in vm context	174		
 10224	718899	true	open	false	6		2016-12-11T04:40:40Z	2016-12-11T20:47:38Z		test: fix http-client-timeout-option-listeners	68		
-10225	718899	true	open	false			2016-12-11T05:16:04Z	2016-12-12T16:27:22Z		test: refactor test-https-truncate	55		
+10225	718899	true	open	false			2016-12-11T05:16:04Z	2016-12-12T17:11:05Z		test: refactor test-https-truncate	55		
 10226	718899	true	open	false			2016-12-11T05:45:40Z	2016-12-11T23:11:01Z		test: refactor test-stream-big-push	46		
 10227	275871	true	open	false			2016-12-11T16:38:51Z	2016-12-12T13:33:33Z		src: don't overwrite non-writable vm globals	21		
 10228	131406	false	open	false	3		2016-12-11T19:21:58Z	2016-12-12T16:16:03Z		Missing make rule for test/fixtures/keys/0-dns-*	25		
@@ -3411,6 +3411,9 @@
 10231	568260	true	open	false	0	0	2016-12-12T01:47:05Z	2016-12-12T01:47:05Z		url, test: fix typo in inspect output, add test	107		
 10232	718899	true	open	false	0	0	2016-12-12T04:38:55Z	2016-12-12T04:38:55Z		test: refactor test-crypto-random	60		
 10233	2455054	false	open	false	1		2016-12-12T07:29:27Z	2016-12-12T08:40:41Z		possible edge case when packaging self-contained node with C++/CLI native modules	266		
-10234	6487691	false	open	false	0		2016-12-12T14:46:47Z	2016-12-12T14:46:47Z		test-stdio-closed failing on some AIX environments	247		
-10235	24527049	false	open	false	0		2016-12-12T15:53:14Z	2016-12-12T15:53:14Z		Problems about 'ToInt32' is deprecated	1756		
-10236	899444	true	open	false	0	0	2016-12-12T16:25:35Z	2016-12-12T16:25:35Z		buffer: allow Uint8Array input to methods	3931		
+10234	6487691	false	open	false	1		2016-12-12T14:46:47Z	2016-12-12T17:04:04Z		test-stdio-closed failing on some AIX environments	247		
+10235	24527049	false	closed	false	1		2016-12-12T15:53:14Z	2016-12-12T17:12:19Z	2016-12-12T17:12:19Z	Problems about 'ToInt32' is deprecated	324		
+10236	899444	true	open	false	1		2016-12-12T16:25:35Z	2016-12-12T17:04:59Z		buffer: allow Uint8Array input to methods	3934		
+10237	163333	false	open	false	0		2016-12-12T17:18:03Z	2016-12-12T17:18:03Z		FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - process out of memory	129		
+10238	21217649	false	open	false	0		2016-12-12T17:31:28Z	2016-12-12T17:31:28Z		Node REPL does not work in a cygwin shell	22		
+10239	6487691	true	open	false	0	0	2016-12-12T17:55:03Z	2016-12-12T17:55:03Z		test: Allow all valid AIX rc in test-stdio-closed	91		
