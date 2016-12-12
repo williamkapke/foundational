@@ -839,7 +839,7 @@
 7654	4551130	false	closed	false	12		2016-07-11T11:54:59Z	2016-09-06T20:38:30Z	2016-09-06T14:04:28Z	v8 GC crash on node 4.4.7	271		
 7655	1449826	false	closed	false	7		2016-07-11T12:15:57Z	2016-10-09T14:09:47Z	2016-10-09T14:09:47Z	External objects should not be modified	73		
 7656	419466	false	open	false	6		2016-07-11T13:00:04Z	2016-07-12T18:01:20Z		Composition vs. prototype for module exports	68		
-7657	2197250	false	open	false	12		2016-07-11T14:11:57Z	2016-10-17T11:10:43Z		IPC can freeze the process	514		
+7657	2197250	false	open	false	13		2016-07-11T14:11:57Z	2016-12-12T16:59:09Z		IPC can freeze the process	514		
 7658	1495995	true	open	false	13		2016-07-11T16:37:49Z	2016-09-27T14:08:20Z		buffer:Performance increase for buffer-indexof	81		
 7659	9373002	false	closed	false	8		2016-07-11T21:07:55Z	2016-07-19T21:54:38Z	2016-07-19T21:54:38Z	s390: v8tests.cctest/test-platform/StackAlignment  in v8 tests	104		
 7660	275871	true	open	false	3		2016-07-11T21:10:40Z	2016-07-12T01:15:01Z		src: don't use locale-sensitive strcasecmp() (v4.x)	3		
@@ -2953,7 +2953,7 @@
 9770	17607	true	open	false	0	0	2016-11-23T16:53:27Z	2016-11-23T16:53:27Z		Extendable ca certs v6	8		
 9771	17607	true	open	false	0	0	2016-11-23T17:02:44Z	2016-11-23T17:02:44Z		Extendable ca certs v4	49		
 9772	9373002	true	closed	false	5		2016-11-23T17:20:32Z	2016-11-25T15:41:01Z	2016-11-25T15:41:01Z	test: exclude no_interleaved_stdio test for AIX	82		
-9773	1037138	true	open	false			2016-11-23T18:54:27Z	2016-12-09T14:16:40Z		Debugger - Filter out the ending of the Module wrapper when using the list command	157		
+9773	1037138	true	open	false	11		2016-11-23T18:54:27Z	2016-12-12T16:31:37Z		Debugger - Filter out the ending of the Module wrapper when using the list command	157		
 9774	2512748	true	open	false	0	0	2016-11-23T20:16:45Z	2016-11-23T20:16:45Z		Backport: repl: don't override all internal repl defaults	10		
 9775	2512748	true	open	false	0	0	2016-11-23T20:50:03Z	2016-11-23T20:50:03Z		Backport: test: refactor large event emitter tests	10		
 9776	2512748	true	open	false	2		2016-11-23T22:03:05Z	2016-11-24T03:36:41Z		Backport: assert: Fix deepEqual/deepStrictEqual on equivalent typed arrays	32		
@@ -2980,12 +2980,12 @@
 9797	291301	false	open	false	7		2016-11-25T13:31:17Z	2016-11-28T11:24:19Z		Feature proposal: buffer.convert(value[, fromEnc], toEnc)	200		
 9798	12400507	true	open	false	3		2016-11-25T19:19:25Z	2016-11-26T05:18:16Z		test: known issue url.parse() does not return an empty string	60		
 9799	275871	false	open	false	0		2016-11-25T19:56:40Z	2016-11-25T19:56:40Z		test: DNS for bare domain fails with fritz.box search domain	215		
-9800	17607	true	open	false			2016-11-25T20:38:23Z	2016-12-09T19:09:29Z		Improvements to tls API documentation, batch 1	49		
+9800	17607	true	closed	false	7		2016-11-25T20:38:23Z	2016-12-12T16:17:29Z	2016-12-12T16:17:29Z	Improvements to tls API documentation, batch 1	49		
 9801	10393198	false	open	false	10		2016-11-26T00:15:08Z	2016-12-09T22:06:13Z		byteOffset argument in buffer indexOf / lastIndexOf has some contradictions in code vs doc vs test	137		
 9802	718899	true	closed	false	3	0	2016-11-26T04:41:59Z	2016-11-29T14:45:52Z	2016-11-29T14:45:52Z	test: refactor test-http-status-reason-invalid-chars	53		
 9803	718899	true	closed	false	2		2016-11-26T04:50:05Z	2016-11-29T14:47:38Z	2016-11-29T14:47:38Z	test: refactor test-preload	50		
 9804	718899	true	closed	false	2	0	2016-11-26T05:18:34Z	2016-11-29T14:51:52Z	2016-11-29T14:51:52Z	test: refactor test-util-inspect	82		
-9805	11001914	false	open	false	0		2016-11-26T07:37:09Z	2016-11-26T07:37:09Z		Different timestamp created by node.js and browser	24		
+9805	11001914	false	closed	false	6		2016-11-26T07:37:09Z	2016-12-12T16:55:00Z	2016-11-26T07:46:16Z	Different timestamp created by node.js and browser	26		
 9806	13572570	false	closed	false	2		2016-11-26T08:15:33Z	2016-11-28T10:23:11Z	2016-11-28T10:23:11Z	Warning: Possible EventEmitter memory leak detected. 11 timeout listeners added. Use emitter.setMaxListeners() to increase limit	40		
 9807	2352663	true	closed	false	2	3	2016-11-26T08:44:58Z	2016-11-29T12:37:21Z	2016-11-29T12:37:21Z	test: refactor and fix test-crypto	77		
 9808	2352663	true	closed	false	2	0	2016-11-26T09:22:43Z	2016-11-28T12:50:28Z	2016-11-28T12:50:28Z	test: refactor and fix test-buffer-bytelength	47		
@@ -3096,7 +3096,7 @@
 9913	3713384	true	closed	false	3	0	2016-12-01T16:27:38Z	2016-12-03T23:07:04Z	2016-12-03T23:07:04Z	test: var -> let/const, .equal -> .strictEqual	52		
 9914	3819165	true	open	false	2		2016-12-01T16:28:04Z	2016-12-09T07:12:58Z		test: refactor assert.equal, update assert.throws	39		
 9915	4577691	true	open	false	0	0	2016-12-01T16:28:10Z	2016-12-01T16:28:10Z		add my name to AUTHORS	39		
-9916	4521223	true	open	false	3		2016-12-01T16:28:51Z	2016-12-12T04:48:14Z		test: replace var with const in test-require-dot	52		
+9916	4521223	true	closed	false	4	3	2016-12-01T16:28:51Z	2016-12-12T16:26:06Z	2016-12-12T16:26:06Z	test: replace var with const in test-require-dot	52		
 9917	7897262	true	closed	false	9		2016-12-01T16:28:55Z	2016-12-06T21:07:07Z	2016-12-06T21:07:07Z	test: update var to let const in tests	66		
 9918	6225935	true	open	false	2		2016-12-01T16:29:06Z	2016-12-12T06:15:21Z		test: added validation regex argument to test	58		
 9919	408692	true	closed	false	2		2016-12-01T16:30:08Z	2016-12-06T06:46:42Z	2016-12-06T06:46:42Z	test: use assert.strictEqual in test-cli-eval	60		
@@ -3347,7 +3347,7 @@
 10164	2979104	false	open	false	7		2016-12-07T13:07:25Z	2016-12-07T14:03:49Z		Segmentation Fault when returning valueOf calculated date	375		
 10165	426158	false	open	false	9		2016-12-07T13:46:46Z	2016-12-10T15:58:34Z		Handling of CTRL_CLOSE_EVENT/SIGHUP on Windows causes races and deadlocks	564		
 10166	9373002	false	closed	false	3		2016-12-07T15:48:12Z	2016-12-07T20:44:57Z	2016-12-07T20:44:57Z	test: test-buffer-creation-regression intermittent failure on smartos	38		
-10167	1189785	true	open	false	1		2016-12-07T16:22:46Z	2016-12-07T21:32:06Z		test: add ES6 and improve test-fs-truncate	47		
+10167	1189785	true	closed	false	2	0	2016-12-07T16:22:46Z	2016-12-12T16:32:51Z	2016-12-12T16:32:51Z	test: add ES6 and improve test-fs-truncate	47		
 10168	6354455	true	closed	false	1		2016-12-07T17:58:15Z	2016-12-07T18:09:42Z	2016-12-07T18:09:42Z	doc: removing extra space in README	52		
 10169	4976075	true	open	false	5		2016-12-07T18:13:16Z	2016-12-08T17:38:25Z		deps: backport 2bd7464 from upstream V8	154		
 10170	6354455	true	closed	false	1		2016-12-07T18:24:20Z	2016-12-07T20:53:32Z	2016-12-07T20:53:32Z	doc: adding missing - in README	37		
@@ -3389,11 +3389,11 @@
 10206	855219	true	open	false	0	0	2016-12-09T20:47:45Z	2016-12-09T20:47:45Z		deps: ICU 58.2 bump	51		
 10207	3611800	true	open	false	2		2016-12-09T21:03:20Z	2016-12-10T05:01:02Z		test: fix setTimeout, add const, remove unused var	50		
 10208	347452	false	open	false	2		2016-12-09T22:08:51Z	2016-12-10T11:20:50Z		Win64 .msi install breaks Windows Explorer.	106		
-10209	677994	true	open	false			2016-12-09T23:18:22Z	2016-12-12T15:05:44Z		src: allow passing a buffer to RandomBytes	147		
+10209	677994	true	open	false	6		2016-12-09T23:18:22Z	2016-12-12T16:55:23Z		src: allow passing a buffer to RandomBytes	147		
 10210	718899	true	open	false	0	0	2016-12-10T00:14:07Z	2016-12-10T00:14:07Z		test: refactor test-http-pause-resume-one-end	47		
-10211	1037138	true	open	false	3		2016-12-10T01:06:46Z	2016-12-12T14:02:48Z		doc: document R CRAN mirror process	67		
+10211	1037138	true	open	false	6		2016-12-10T01:06:46Z	2016-12-12T16:54:42Z		doc: document R CRAN mirror process	67		
 10212	718899	true	open	false	5		2016-12-10T06:49:23Z	2016-12-11T22:22:31Z		test: fix flaky test-dgram-exclusive-implicit-bind	103		
-10213	2352663	true	open	false	3		2016-12-10T10:15:12Z	2016-12-11T15:35:24Z		tools: enforce linebreak after ternary operators	44		
+10213	2352663	true	open	false	4		2016-12-10T10:15:12Z	2016-12-12T16:46:12Z		tools: enforce linebreak after ternary operators	44		
 10214	880513	false	open	false	3		2016-12-10T13:38:29Z	2016-12-12T04:08:41Z		stream: readable.push returns true at internal buffer size equal highWaterMark	161		
 10218	10773353	false	open	false	1		2016-12-10T16:30:54Z	2016-12-12T15:46:38Z		Add button at reading docs	33		
 10219	1189785	true	open	false	2		2016-12-10T16:53:25Z	2016-12-11T13:10:31Z		test: refactor the code in test-dns-ipv6	62		
@@ -3402,14 +3402,15 @@
 10222	490562	false	closed	false	4		2016-12-11T00:54:31Z	2016-12-11T05:27:34Z	2016-12-11T05:27:34Z	Error message when destructuring a non array is unclear	124		
 10223	12378597	false	open	false	3		2016-12-11T02:59:00Z	2016-12-11T17:31:37Z		Object.defineProperty on the global object does not handle 'writable' properly in vm context	174		
 10224	718899	true	open	false	6		2016-12-11T04:40:40Z	2016-12-11T20:47:38Z		test: fix http-client-timeout-option-listeners	68		
-10225	718899	true	open	false	0	0	2016-12-11T05:16:04Z	2016-12-11T05:16:04Z		test: refactor test-https-truncate	55		
+10225	718899	true	open	false			2016-12-11T05:16:04Z	2016-12-12T16:27:22Z		test: refactor test-https-truncate	55		
 10226	718899	true	open	false			2016-12-11T05:45:40Z	2016-12-11T23:11:01Z		test: refactor test-stream-big-push	46		
 10227	275871	true	open	false			2016-12-11T16:38:51Z	2016-12-12T13:33:33Z		src: don't overwrite non-writable vm globals	21		
-10228	131406	false	open	false	2		2016-12-11T19:21:58Z	2016-12-12T15:19:23Z		Missing make rule for test/fixtures/keys/0-dns-*	25		
-10229	22550884	true	open	false	4		2016-12-11T22:29:18Z	2016-12-12T13:22:05Z		test:  refactor test-http-after-connect.js	42		
+10228	131406	false	open	false	3		2016-12-11T19:21:58Z	2016-12-12T16:16:03Z		Missing make rule for test/fixtures/keys/0-dns-*	25		
+10229	22550884	true	open	false	5		2016-12-11T22:29:18Z	2016-12-12T16:59:31Z		test:  refactor test-http-after-connect.js	42		
 10230	52195	false	open	false	3		2016-12-11T23:11:29Z	2016-12-12T11:52:28Z		stream, test: Add test for _readableState.needReadable and _readableState.emittedReadable	23		
 10231	568260	true	open	false	0	0	2016-12-12T01:47:05Z	2016-12-12T01:47:05Z		url, test: fix typo in inspect output, add test	107		
 10232	718899	true	open	false	0	0	2016-12-12T04:38:55Z	2016-12-12T04:38:55Z		test: refactor test-crypto-random	60		
 10233	2455054	false	open	false	1		2016-12-12T07:29:27Z	2016-12-12T08:40:41Z		possible edge case when packaging self-contained node with C++/CLI native modules	266		
 10234	6487691	false	open	false	0		2016-12-12T14:46:47Z	2016-12-12T14:46:47Z		test-stdio-closed failing on some AIX environments	247		
 10235	24527049	false	open	false	0		2016-12-12T15:53:14Z	2016-12-12T15:53:14Z		Problems about 'ToInt32' is deprecated	1756		
+10236	899444	true	open	false	0	0	2016-12-12T16:25:35Z	2016-12-12T16:25:35Z		buffer: allow Uint8Array input to methods	3931		
