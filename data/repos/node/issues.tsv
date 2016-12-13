@@ -1040,7 +1040,7 @@
 7853	516780	false	open	false	12		2016-07-23T19:28:07Z	2016-10-07T22:02:11Z		node --debug takes a really long time to respond to websockets	180		
 7854	1084056	true	closed	false	10		2016-07-23T20:09:19Z	2016-08-02T14:08:28Z	2016-08-02T14:08:28Z	test: fix test-vm-sigint flakiness	68		
 7855	1422781	true	open	false	23		2016-07-23T20:38:28Z	2016-10-06T17:24:59Z		dgram: setMulticastInterface() outgoing interface selection	72		
-7856	373545	true	open	false	38		2016-07-23T20:49:58Z	2016-11-08T17:16:31Z		fs: Fix default params for fs.write	81		
+7856	373545	true	closed	false	40		2016-07-23T20:49:58Z	2016-12-13T19:54:17Z	2016-11-08T17:50:17Z	fs: Fix default params for fs.write	81		
 7857	718899	true	closed	false	26		2016-07-23T21:15:43Z	2016-07-31T20:33:10Z	2016-07-31T20:33:10Z	test: fix flaky test-tls-wrap-timeout	59		
 7858	3524633	false	closed	false	22		2016-07-24T00:23:34Z	2016-11-05T05:52:45Z	2016-07-25T15:53:16Z	Add fsevents to NodeJS	150		
 7859	1084056	true	closed	false	9	5	2016-07-24T06:28:47Z	2016-07-31T21:08:12Z	2016-07-31T21:08:12Z	tools,test: show signal code when test crashes	31	1084056	2016-07-31T21:08:12Z
@@ -2019,7 +2019,7 @@
 8834	899444	true	closed	false	23		2016-09-28T17:53:51Z	2016-10-13T22:15:24Z	2016-10-10T16:14:50Z	stream: proper `instanceof` for `Writable`s	60		
 8835	718899	true	open	false	5		2016-09-28T18:46:49Z	2016-09-29T15:56:21Z		test: mark test-inspector flaky on windows	30		
 8836	432351	true	closed	false	16		2016-09-28T19:00:38Z	2016-11-18T20:56:25Z	2016-10-06T17:31:04Z	test: enable addons test to pass with debug build	142		
-8837	567540	true	open	false			2016-09-28T20:55:31Z	2016-12-13T16:33:03Z		inspector: Allow require in Runtime.evaluate	92		
+8837	567540	true	open	false	9		2016-09-28T20:55:31Z	2016-12-13T19:41:22Z		inspector: Allow require in Runtime.evaluate	92		
 8838	718899	false	open	false	6		2016-09-28T21:32:10Z	2016-09-30T21:17:20Z		investigate flaky parallel/test-debug-signal-cluster on SmartOS	75		
 8839	2205537	false	closed	false	5		2016-09-28T23:55:39Z	2016-10-01T14:00:28Z	2016-10-01T14:00:28Z	`process.stdin` is not implemented in bash for Windows 10... unknown type	246		
 8840	602462	true	closed	false	6	16	2016-09-29T01:05:51Z	2016-10-03T22:26:49Z	2016-10-03T22:26:49Z	doc: Docs for the common module API in tests	52		
@@ -2529,7 +2529,7 @@
 9344	718899	true	closed	false	6		2016-10-28T18:25:22Z	2016-11-01T22:51:18Z	2016-11-01T21:21:38Z	test: refactor test-http-client-readable	71		
 9345	2289	true	closed	false	2		2016-10-28T18:29:56Z	2016-11-01T22:58:40Z	2016-11-01T22:58:40Z	doc: add more internal links to fs.Stats object	69		
 9346	62191	false	closed	false	5		2016-10-28T20:26:58Z	2016-10-29T02:12:45Z	2016-10-29T02:12:45Z	DeprecationWarning: Calling an asynchronous function without callback is deprecated.	100		
-9347	21203	true	closed	false	7	3	2016-10-28T20:32:42Z	2016-11-09T09:39:47Z	2016-11-09T09:39:47Z	crypto: use SSL_get_servername.	125		
+9347	21203	true	closed	false	8		2016-10-28T20:32:42Z	2016-12-13T20:01:04Z	2016-11-09T09:39:47Z	crypto: use SSL_get_servername.	125		
 9348	718899	true	closed	false	1	3	2016-10-28T22:38:55Z	2016-11-01T05:39:47Z	2016-11-01T05:39:47Z	doc: add 2016-10-26 CTC meeting minutes	25		
 9349	110455	true	closed	false	2	1	2016-10-28T23:46:36Z	2016-11-29T12:36:31Z	2016-11-29T12:36:31Z	constants: errors -> errno	53		
 9350	54666	false	closed	false	3		2016-10-29T00:42:27Z	2016-10-29T01:03:06Z	2016-10-29T01:03:06Z	test: test/parallel/test-whatwg-url-parsing.js fails without intl	90		
@@ -2591,7 +2591,7 @@
 9406	11139560	false	closed	false	9		2016-11-01T20:37:10Z	2016-11-02T04:09:05Z	2016-11-01T23:10:36Z	util.inspect() should do check for string type	146		
 9407	5545186	false	closed	false	3		2016-11-01T20:55:11Z	2016-11-01T21:08:10Z	2016-11-01T21:08:10Z	http.request post method not responding with no error on callback	113		
 9408	718899	true	closed	false	5		2016-11-01T21:43:48Z	2016-11-22T19:39:45Z	2016-11-04T02:47:23Z	tools: enforce function name matching in linter	69		
-9409	21203	true	closed	false			2016-11-01T21:46:53Z	2016-12-13T13:06:07Z	2016-11-09T02:30:22Z	crypto: fix handling of root_cert_store	240		
+9409	21203	true	closed	false	13		2016-11-01T21:46:53Z	2016-12-13T19:57:51Z	2016-11-09T02:30:22Z	crypto: fix handling of root_cert_store	240		
 9410	115237	true	closed	false	5		2016-11-01T22:11:17Z	2016-11-22T16:40:30Z	2016-11-04T16:17:22Z	tools: enable final newline in .editorconfig	165		
 9411	737120	false	closed	false	2		2016-11-02T04:19:49Z	2016-12-04T11:35:54Z	2016-12-04T11:35:54Z	Questions about event-loop-timers-and-nexttick.md	214		
 9412	2352663	true	open	false	5		2016-11-02T10:36:24Z	2016-11-11T09:32:20Z		deps: update V8 to 5.4.500.41	43		
@@ -2924,7 +2924,7 @@
 9739	12082826	true	open	false			2016-11-22T11:35:27Z	2016-11-24T13:02:21Z		stream: bugfix for test-child-process-stdio-big-write-end.js	83		
 9740	15943089	false	open	false	4		2016-11-22T12:13:10Z	2016-11-23T12:35:16Z		meta: no longer possible to differentiate collaborators and foundation members	40		
 9741	3967972	true	closed	false	5	8	2016-11-22T14:27:06Z	2016-11-30T09:07:11Z	2016-11-30T09:07:11Z	test: add toASCII and toUnicode punycode tests	60		
-9742	275871	true	open	false	0	0	2016-11-22T16:16:58Z	2016-11-22T16:16:58Z		tls: TLSSocket emits 'error' on handshake failure	25		
+9742	275871	true	open	false	1		2016-11-22T16:16:58Z	2016-12-13T19:23:29Z		tls: TLSSocket emits 'error' on handshake failure	27		
 9743	8314616	false	closed	false	1		2016-11-22T16:40:23Z	2016-12-05T14:06:33Z	2016-12-05T14:06:33Z	Node REPL preprocessing input string for custom eval functions	73		
 9744	899444	true	open	false	8		2016-11-22T17:54:54Z	2016-12-13T18:31:00Z		console: do not emit error events	72		
 9745	1093990	true	closed	false	4		2016-11-22T18:09:47Z	2016-12-03T20:16:14Z	2016-11-22T23:39:26Z	v7.2.0 proposal	119		
@@ -3083,7 +3083,7 @@
 9898	7892079	true	closed	false	7	2	2016-12-01T16:20:29Z	2016-12-07T09:39:05Z	2016-12-07T09:39:05Z	test: add const/let, mustCall, & === to tls-stream	63		
 9899	10875575	true	closed	false	5	1	2016-12-01T16:21:04Z	2016-12-07T17:09:04Z	2016-12-07T17:09:04Z	Fixed the test with const and strictEqual	37		
 9900	568260	true	closed	false	7		2016-12-01T16:21:20Z	2016-12-05T02:59:10Z	2016-12-05T02:59:10Z	test: update test to use common.fail	50		
-9901	867492	true	open	false	0		2016-12-01T16:22:03Z	2016-12-13T18:07:30Z		doc: document process.versions.modules	41		
+9901	867492	true	open	false	3		2016-12-01T16:22:03Z	2016-12-13T19:35:35Z		doc: document process.versions.modules	41		
 9902	7246312	true	closed	false	2	0	2016-12-01T16:22:16Z	2016-12-05T03:03:33Z	2016-12-05T03:03:33Z	Updated test-cluster-send-deadlock.js to use assert.strictEqual	44		
 9903	13876939	true	open	false	10		2016-12-01T16:22:19Z	2016-12-09T03:29:14Z		remove var and use let and const	61		
 9904	2723032	true	closed	false	2		2016-12-01T16:22:28Z	2016-12-05T03:10:34Z	2016-12-05T03:10:34Z	Use const in test-require-json.js	37		
@@ -3310,7 +3310,7 @@
 10125	837347	false	closed	false	2		2016-12-05T15:37:46Z	2016-12-05T17:13:53Z	2016-12-05T15:49:34Z	Regex and const - strange results	86		
 10126	275871	true	closed	false	1	0	2016-12-05T16:15:17Z	2016-12-07T16:56:01Z	2016-12-07T16:56:01Z	test: check result of uv_loop_init and uv_write	3		
 10127	1093990	true	closed	false	13	0	2016-12-05T16:23:31Z	2016-12-06T22:37:02Z	2016-12-06T22:37:01Z	v7.2.1 proposal	1556	1093990	2016-12-06T22:37:01Z
-10128	6487691	true	open	false	5		2016-12-05T18:29:38Z	2016-12-12T18:55:29Z		build: Modify library search path on AIX to include /opt/freeware/lib	356		
+10128	6487691	true	open	false	5		2016-12-05T18:29:38Z	2016-12-13T19:44:06Z		build: Modify library search path on AIX to include /opt/freeware/lib	356		
 10129	115237	false	open	false	2		2016-12-05T21:03:59Z	2016-12-05T22:50:57Z		tools: evaluate removing args exception from no-unused-vars lint rule	52		
 10130	9373002	false	open	false	3		2016-12-05T21:13:59Z	2016-12-07T00:37:40Z		test-https-set-timeout-server on freebsd	83		
 10131	225809	false	closed	false	9		2016-12-05T22:02:02Z	2016-12-09T14:40:15Z	2016-12-08T16:10:49Z	IPC parse errors virtually irrecoverable	337		
@@ -3341,7 +3341,7 @@
 10156	237796	true	open	false	14		2016-12-06T21:06:01Z	2016-12-13T18:34:20Z		build: change nosign flag to sign and flip the logic	158		
 10157	115237	true	open	false			2016-12-06T21:39:47Z	2016-12-06T23:16:44Z		src/doc: improve man page and --help	72		
 10158	17607	false	open	false	0		2016-12-06T22:35:13Z	2016-12-06T22:35:13Z		debugging a process causes disconnect event to not fire	323		
-10159	287917	true	closed	false	2		2016-12-06T23:03:13Z	2016-12-13T15:56:59Z	2016-12-09T17:14:50Z	inspector: stop relying on magic strings	64		
+10159	287917	true	closed	false	3		2016-12-06T23:03:13Z	2016-12-13T19:14:43Z	2016-12-09T17:14:50Z	inspector: stop relying on magic strings	64		
 10160	10393198	true	open	false	7		2016-12-06T23:46:21Z	2016-12-12T22:20:39Z		doc: some fixes in repl.md	123		
 10161	718899	true	closed	false	11	0	2016-12-07T05:14:45Z	2016-12-07T15:37:08Z	2016-12-07T15:37:08Z	test: move long-running test to sequential	55		
 10162	169280	true	open	false			2016-12-07T09:20:50Z	2016-12-10T06:40:00Z		doc: clarify Buffer.indexOf() and lastIndexOf()	62		
@@ -3351,7 +3351,7 @@
 10166	9373002	false	closed	false	3		2016-12-07T15:48:12Z	2016-12-07T20:44:57Z	2016-12-07T20:44:57Z	test: test-buffer-creation-regression intermittent failure on smartos	38		
 10167	1189785	true	closed	false	2	0	2016-12-07T16:22:46Z	2016-12-12T16:32:51Z	2016-12-12T16:32:51Z	test: add ES6 and improve test-fs-truncate	47		
 10168	6354455	true	closed	false	1		2016-12-07T17:58:15Z	2016-12-07T18:09:42Z	2016-12-07T18:09:42Z	doc: removing extra space in README	52		
-10169	4976075	true	open	false	6		2016-12-07T18:13:16Z	2016-12-13T18:19:54Z		deps: backport 2bd7464 from upstream V8	154		
+10169	4976075	true	closed	false	8		2016-12-07T18:13:16Z	2016-12-13T20:00:59Z	2016-12-13T18:29:36Z	deps: backport 2bd7464 from upstream V8	154		
 10170	6354455	true	closed	false	1		2016-12-07T18:24:20Z	2016-12-07T20:53:32Z	2016-12-07T20:53:32Z	doc: adding missing - in README	37		
 10171	4299420	true	closed	false	4		2016-12-07T19:56:18Z	2016-12-08T21:15:15Z	2016-12-08T21:15:15Z	test: increase test coverage of BufferList	55		
 10172	718899	true	open	false	6		2016-12-07T21:13:03Z	2016-12-08T19:02:34Z		test: fix flaky test-net-socket-timeout	65		
@@ -3375,7 +3375,7 @@
 10190	718899	true	closed	false	3		2016-12-09T07:24:48Z	2016-12-12T21:49:43Z	2016-12-12T21:49:42Z	test: refactor assert.equal, update syntax to ES6	34		
 10191	718899	true	open	false	2		2016-12-09T07:39:04Z	2016-12-09T14:15:29Z		test: fix accidental skipping of pseudo-tty test	68		
 10192	7886068	true	open	false	0	0	2016-12-09T08:03:36Z	2016-12-09T08:03:36Z		minor update to test/parallel/test-domain-uncaught-exception.js	48		
-10193	7886068	true	open	false	2		2016-12-09T08:11:27Z	2016-12-13T18:03:35Z		test: fix setTimeout, remove unused err	46		
+10193	7886068	true	open	false	3		2016-12-09T08:11:27Z	2016-12-13T19:30:54Z		test: fix setTimeout, remove unused err	46		
 10194	7323348	false	closed	false	3		2016-12-09T10:25:26Z	2016-12-13T05:09:48Z	2016-12-09T14:33:22Z	Close and exit event triggering on launching child process 	92		
 10195	12683784	false	open	false	13		2016-12-09T12:29:04Z	2016-12-09T17:06:17Z		The installation package could not be opened	59		
 10196	1404810	false	closed	false	3		2016-12-09T12:57:08Z	2016-12-09T13:01:51Z	2016-12-09T12:58:09Z	Downloading from nodejs.org is so slow it breaks builds	32		
@@ -3410,7 +3410,7 @@
 10228	131406	false	open	false	3		2016-12-11T19:21:58Z	2016-12-12T16:16:03Z		Missing make rule for test/fixtures/keys/0-dns-*	25		
 10229	22550884	true	closed	false	6		2016-12-11T22:29:18Z	2016-12-13T13:02:35Z	2016-12-13T13:02:34Z	test:  refactor test-http-after-connect.js	42		
 10230	52195	false	open	false	7		2016-12-11T23:11:29Z	2016-12-13T15:34:30Z		stream, test: Add test for _readableState.needReadable and _readableState.emittedReadable	23		
-10231	568260	true	open	false			2016-12-12T01:47:05Z	2016-12-13T17:48:24Z		url, test: fix typo in inspect output, add test	107		
+10231	568260	true	open	false	3		2016-12-12T01:47:05Z	2016-12-13T19:22:50Z		url, test: fix typo in inspect output, add test	107		
 10232	718899	true	open	false	0	0	2016-12-12T04:38:55Z	2016-12-12T04:38:55Z		test: refactor test-crypto-random	60		
 10233	2455054	false	open	false	1		2016-12-12T07:29:27Z	2016-12-12T08:40:41Z		possible edge case when packaging self-contained node with C++/CLI native modules	266		
 10234	6487691	false	open	false	1		2016-12-12T14:46:47Z	2016-12-12T17:04:04Z		test-stdio-closed failing on some AIX environments	247		
@@ -3431,3 +3431,4 @@
 10249	4299420	true	open	false	1		2016-12-13T14:58:28Z	2016-12-13T15:00:49Z		stream, test: test for _readableState.emittedReadable	50		
 10250	7455872	false	closed	false	8		2016-12-13T17:09:41Z	2016-12-13T18:01:19Z	2016-12-13T17:41:09Z	Console wrongly printing the object constructor class	104		
 10251	718899	true	open	false	0	0	2016-12-13T17:27:56Z	2016-12-13T17:27:56Z		doc: expand common module material in test guide	56		
+10252	16945543	false	open	false	0		2016-12-13T19:14:39Z	2016-12-13T19:14:39Z		Not able to download the NPM package it says Failed - Network Error	6		
