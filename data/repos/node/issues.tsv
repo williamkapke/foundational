@@ -254,6 +254,7 @@
 5458	275871	true	closed	false	22		2016-02-26T21:01:17Z	2016-11-03T04:19:32Z	2016-10-25T11:16:57Z	src,tools: speed up startup by 2.5%	94		
 5500	54666	true	closed	false	8		2016-03-01T02:05:24Z	2016-09-20T07:17:02Z	2016-03-18T02:35:33Z	doc: fix crypto update() signatures	85		
 5518	8213782	false	closed	false	2		2016-03-02T04:53:51Z	2016-08-14T08:51:57Z	2016-08-14T08:51:57Z	Cannot find module 'minimatch'	99		
+5522	238531	true	closed	false	19		2016-03-02T13:36:11Z	2016-12-14T17:18:11Z	2016-03-02T18:25:52Z	crypto, string_bytes: treat `buffer` str as `utf8`	141		
 5525	5740732	false	closed	false	4		2016-03-02T16:03:33Z	2016-12-07T21:11:53Z	2016-04-02T23:38:27Z	Documentation for __dirname is misleading	124		
 5549	122831	false	closed	false	1		2016-03-03T19:01:31Z	2016-10-12T17:39:50Z	2016-10-12T09:46:25Z	child_process.spawn will either exit or not control stdin when detached and using inherit	556		
 5573	1127384	true	closed	false	5	1	2016-03-05T16:19:34Z	2016-11-08T21:51:48Z	2016-11-08T21:51:48Z	async_wrap: WIP/Experiment, init/destroy HTTPParser on each use	88		
@@ -2502,7 +2503,7 @@
 9315	6515203	false	closed	false	5		2016-10-27T10:50:39Z	2016-10-30T09:25:40Z	2016-10-30T09:25:40Z	node-v6.9.1-linux-armv7l -> /usr/bin/node: /usr/lib/libstdc++.so.6: version `GLIBCXX_3.4.18' and version `GLIBCXX_3.4.15' not found	1227		
 9316	8593658	false	closed	false	1		2016-10-27T12:43:25Z	2016-10-27T17:24:26Z	2016-10-27T17:24:26Z	When I download nodejs V7.0.0 using the Win 64 installer how do I know which dependencies are also pulled into the application along with the nodejs code?  Is there  an easily deciphered list ?	6		
 9317	718899	true	open	false	7		2016-10-27T13:34:52Z	2016-10-29T20:08:24Z		test: fix freebsd10-64 CI failures	181		
-9318	988441	true	closed	false	3		2016-10-27T17:52:09Z	2016-12-13T20:53:15Z	2016-11-15T22:12:32Z	docs: clarify eventType in fs.watch	38		
+9318	988441	true	closed	false	4		2016-10-27T17:52:09Z	2016-12-14T17:53:54Z	2016-11-15T22:12:32Z	docs: clarify eventType in fs.watch	38		
 9319	1165845	false	open	false	0		2016-10-27T17:52:57Z	2016-10-27T17:52:57Z		NodeJS pbkdf2Sync password hasing portability from v0.12.7 to v6.9.1	29		
 9320	17457357	false	open	false	1		2016-10-27T18:13:23Z	2016-10-28T16:32:35Z		Incorrect handling registration of subscribers in the EventListener	157		
 9321	4496783	false	closed	false	5		2016-10-27T18:17:43Z	2016-10-27T19:25:35Z	2016-10-27T19:25:35Z	"http creates and uses local domain socket when given a ""host:port"" string"	83		
@@ -2836,7 +2837,7 @@
 9649	495647	true	closed	false	1	0	2016-11-17T00:22:26Z	2016-11-19T23:52:23Z	2016-11-19T23:52:23Z	test: simplify test-http-client-unescaped-path	17		
 9650	23512658	false	closed	false	4		2016-11-17T00:53:29Z	2016-11-22T02:07:32Z	2016-11-22T02:07:32Z	Random Error While using Casperjs with exec on PHP page	149		
 9651	5355921	true	open	false			2016-11-17T01:24:28Z	2016-11-21T17:49:48Z		child_process: support numeric signal argument to kill.	73		
-9652	899444	true	open	false	37		2016-11-17T01:59:55Z	2016-12-14T15:42:37Z		src: allow loading lib/ files from disk	147		
+9652	899444	true	open	false	38		2016-11-17T01:59:55Z	2016-12-14T17:32:50Z		src: allow loading lib/ files from disk	147		
 9653	10134378	true	closed	false	8		2016-11-17T04:59:59Z	2016-12-14T11:42:11Z	2016-12-14T11:42:11Z	url: add a got host pattern in url.js	39		
 9654	1131567	false	open	false	1		2016-11-17T05:20:20Z	2016-11-18T04:48:13Z		Buffer.isEncoding regards an empty string as a valid encoding	154		
 9655	739813	true	open	false			2016-11-17T05:57:27Z	2016-11-17T18:53:20Z		doc: redirect 'Start a Working Group' to TSC repo	56		
@@ -3204,7 +3205,7 @@
 10017	11701272	true	open	false			2016-12-01T17:33:44Z	2016-12-05T17:41:29Z		test: refactor test and add common.mustCall	53		
 10018	7274454	true	open	false	8		2016-12-01T17:34:09Z	2016-12-04T14:53:43Z		test: change var to const/let - change assert.equal to assert.strictE…	71		
 10019	5158539	true	open	false	13		2016-12-01T17:36:13Z	2016-12-07T05:00:19Z		cluster: return worker reference from disconnect()	62		
-10020	14075231	true	open	false	7		2016-12-01T17:37:55Z	2016-12-13T22:01:53Z		Add regex to text-crypto-random	64		
+10020	14075231	true	open	false	8		2016-12-01T17:37:55Z	2016-12-14T17:51:53Z		Add regex to text-crypto-random	64		
 10021	4299420	true	closed	false	12		2016-12-01T17:39:46Z	2016-12-12T14:56:39Z	2016-12-12T14:56:39Z	url, test: WHATWG url originFor should include a base as argument	166		
 10022	4923947	true	open	false			2016-12-01T17:39:48Z	2016-12-05T17:45:39Z		test: fix test-child-process-stdin.js	53		
 10023	682197	true	open	false	4		2016-12-01T17:41:21Z	2016-12-07T08:02:30Z		test: Refactors variables to ES6 compatible and newer assertions 	98		
@@ -3377,7 +3378,7 @@
 10190	718899	true	closed	false	3		2016-12-09T07:24:48Z	2016-12-12T21:49:43Z	2016-12-12T21:49:42Z	test: refactor assert.equal, update syntax to ES6	34		
 10191	718899	true	open	false	2		2016-12-09T07:39:04Z	2016-12-09T14:15:29Z		test: fix accidental skipping of pseudo-tty test	68		
 10192	7886068	true	open	false	0	0	2016-12-09T08:03:36Z	2016-12-09T08:03:36Z		minor update to test/parallel/test-domain-uncaught-exception.js	48		
-10193	7886068	true	open	false	5		2016-12-09T08:11:27Z	2016-12-13T22:06:28Z		test: fix setTimeout, remove unused err	46		
+10193	7886068	true	open	false	13		2016-12-09T08:11:27Z	2016-12-14T17:57:22Z		test: fix setTimeout, remove unused err	46		
 10194	7323348	false	closed	false	3		2016-12-09T10:25:26Z	2016-12-13T05:09:48Z	2016-12-09T14:33:22Z	Close and exit event triggering on launching child process 	92		
 10195	12683784	false	open	false	13		2016-12-09T12:29:04Z	2016-12-09T17:06:17Z		The installation package could not be opened	59		
 10196	1404810	false	closed	false	3		2016-12-09T12:57:08Z	2016-12-09T13:01:51Z	2016-12-09T12:58:09Z	Downloading from nodejs.org is so slow it breaks builds	32		
@@ -3390,7 +3391,7 @@
 10203	17607	false	open	false	0		2016-12-09T20:07:00Z	2016-12-09T20:07:00Z		https agent docs are incomprehensible	307		
 10204	1037138	false	open	false	6		2016-12-09T20:35:50Z	2016-12-10T01:07:33Z		Benchmark docs: how to select the CRAN Mirror for R	61		
 10205	1093990	true	open	false	5		2016-12-09T20:45:21Z	2016-12-12T19:11:23Z		timers: cleanup extraneous property on Immediates	154		
-10206	855219	true	closed	false	1	0	2016-12-09T20:47:45Z	2016-12-12T22:47:44Z	2016-12-12T22:47:44Z	deps: ICU 58.2 bump	50		
+10206	855219	true	open	false	4		2016-12-09T20:47:45Z	2016-12-14T17:41:18Z		deps: ICU 58.2 bump	50		
 10207	3611800	true	open	false	2		2016-12-09T21:03:20Z	2016-12-10T05:01:02Z		test: fix setTimeout, add const, remove unused var	50		
 10208	347452	false	open	false	3		2016-12-09T22:08:51Z	2016-12-12T22:25:19Z		Win64 .msi install breaks Windows Explorer.	106		
 10209	677994	true	open	false	8		2016-12-09T23:18:22Z	2016-12-14T14:47:58Z		src: allow passing a buffer to RandomBytes	147		
@@ -3421,12 +3422,12 @@
 10237	163333	false	open	false	0		2016-12-12T17:18:03Z	2016-12-12T17:18:03Z		FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - process out of memory	129		
 10238	21217649	false	open	false	5		2016-12-12T17:31:28Z	2016-12-13T17:38:46Z		Node REPL does not work in a cygwin shell	78		
 10239	6487691	true	open	false	12		2016-12-12T17:55:03Z	2016-12-13T22:20:25Z		test: Allow all valid AIX rc in test-stdio-closed	91		
-10240	287917	true	open	false	0	0	2016-12-12T18:54:12Z	2016-12-12T18:54:12Z		inspector: fix Coverity defects	61		
+10240	287917	true	closed	false	0	0	2016-12-12T18:54:12Z	2016-12-14T17:58:30Z	2016-12-14T17:58:30Z	inspector: fix Coverity defects	61		
 10241	4299420	true	open	false	12		2016-12-12T19:42:52Z	2016-12-13T21:10:00Z		stream, test: add test for _readableState.needReadable	52		
 10242	3671262	false	open	false	5		2016-12-12T21:35:43Z	2016-12-13T00:01:24Z		Change in fs.statSync behavior between 7.1.0 and 7.2.0	105		
 10243	1189785	true	closed	false	5	3	2016-12-12T21:40:34Z	2016-12-14T15:07:24Z	2016-12-14T15:07:24Z	test: refactor test-http-dns-fail	67		
 10244	10393198	true	open	false	0	0	2016-12-13T00:00:17Z	2016-12-13T00:00:17Z		Repl.md	150		
-10245	15161981	true	open	false	4		2016-12-13T05:06:56Z	2016-12-13T12:35:41Z		aix: fix os.release()	37		
+10245	15161981	true	open	false	5		2016-12-13T05:06:56Z	2016-12-14T17:45:37Z		aix: fix os.release()	37		
 10246	718899	true	open	false	2		2016-12-13T05:38:43Z	2016-12-14T15:16:14Z		test: refactor test-fs-read-stream-inherit	69		
 10247	3397140	true	open	false	3		2016-12-13T12:14:25Z	2016-12-13T14:02:12Z		core: properly skip tick_callback_function call	15		
 10248	17704638	true	open	false			2016-12-13T13:19:34Z	2016-12-14T08:33:36Z		win, watchdog: add flag to mark handler as disabled	85		
@@ -3438,7 +3439,7 @@
 10254	1026325	false	closed	false	1		2016-12-13T20:54:04Z	2016-12-13T22:15:54Z	2016-12-13T20:58:30Z	how to run different version of node on same machine ?	48		
 10255	10393198	false	open	false	0		2016-12-13T22:08:30Z	2016-12-13T22:08:30Z		Debug call illustration in the cluster doc does not match with output in Windows	219		
 10256	2329683	false	closed	false	7		2016-12-13T22:24:04Z	2016-12-14T07:45:19Z	2016-12-13T22:39:55Z	Backpressure on http.ServerResponse	133		
-10257	1189785	true	open	false	0	0	2016-12-13T22:51:46Z	2016-12-13T22:51:46Z		test: improve code in test-child-process-kill	54		
+10257	1189785	true	open	false	0		2016-12-13T22:51:46Z	2016-12-14T17:34:54Z		test: improve code in test-child-process-kill	54		
 10258	6732831	false	open	false	10		2016-12-13T23:29:30Z	2016-12-14T15:08:04Z		assert.deepStrictEqual is fooled by strange dates	97		
 10259	7225068	false	open	false	6		2016-12-13T23:32:39Z	2016-12-14T02:38:08Z		Promises Missing from Node: Common-ish Problem?	172		
 10260	25966	true	open	false	2		2016-12-13T23:35:56Z	2016-12-14T01:03:07Z		fs: remove needless assignment of null	79		
@@ -3446,5 +3447,5 @@
 10262	1857993	true	open	false			2016-12-14T03:15:32Z	2016-12-14T04:23:33Z		doc: add warning about url.resolve	27		
 10263	8259431	false	closed	false	1		2016-12-14T04:48:49Z	2016-12-14T05:12:36Z	2016-12-14T05:12:36Z	Initialization Vector length in createCipheriv/createeciperiv for aes-128-ecb	125		
 10264	17607	true	open	false	0	0	2016-12-14T15:22:38Z	2016-12-14T15:22:38Z		doc: add tls.DEFAULT_ECDH_CURVE	47		
-10265	620746	false	closed	false	1		2016-12-14T15:55:50Z	2016-12-14T17:01:16Z	2016-12-14T17:01:16Z	crypto.pbkdf2Sync can't handle non ASCII character in Node 6.9.2	218		
-10266	13561163	true	open	false	0	0	2016-12-14T16:04:24Z	2016-12-14T16:04:24Z		test: add known_issues test for #6287	72		
+10265	620746	false	open	false	2		2016-12-14T15:55:50Z	2016-12-14T17:06:01Z		crypto.pbkdf2Sync can't handle non ASCII character in Node 6.9.2	218		
+10266	13561163	true	open	false			2016-12-14T16:04:24Z	2016-12-14T17:13:36Z		test: add known_issues test for #6287	66		
