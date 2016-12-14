@@ -249,7 +249,7 @@
 5360	677994	true	closed	false	18		2016-02-22T08:57:24Z	2016-07-12T10:24:59Z	2016-03-04T23:28:27Z	util: improve util.format performance	100		
 5386	15943089	false	open	false	30		2016-02-23T14:33:55Z	2016-10-29T00:24:41Z		Intermittent test-tls-inception failure on windows	140		
 5426	1197375	false	closed	false	12		2016-02-25T00:33:42Z	2016-07-15T17:39:28Z	2016-07-15T17:39:28Z	setTimeout() introduces artificial delay between ticks when doing synchronous work	245		
-5436	17198363	false	closed	false	23		2016-02-25T13:57:35Z	2016-11-18T05:03:26Z	2016-02-27T13:41:42Z	"http.get returns ""getaddrinfo ENOTFOUND"" error"	231		
+5436	17198363	false	closed	false	23		2016-02-25T13:57:35Z	2016-12-14T16:01:53Z	2016-02-27T13:41:42Z	"http.get returns ""getaddrinfo ENOTFOUND"" error"	231		
 5450	15943089	true	open	false	29		2016-02-26T12:44:41Z	2016-09-07T22:37:09Z		test: fix flaky tls-inception	43		
 5458	275871	true	closed	false	22		2016-02-26T21:01:17Z	2016-11-03T04:19:32Z	2016-10-25T11:16:57Z	src,tools: speed up startup by 2.5%	94		
 5500	54666	true	closed	false	8		2016-03-01T02:05:24Z	2016-09-20T07:17:02Z	2016-03-18T02:35:33Z	doc: fix crypto update() signatures	85		
@@ -1147,7 +1147,7 @@
 7959	15943089	false	closed	false	4		2016-08-03T13:01:15Z	2016-09-14T04:30:05Z	2016-08-08T20:48:01Z	v8 inspector build failure: File name too long	109		
 7960	12098035	false	closed	false	7		2016-08-03T13:29:44Z	2016-08-05T19:35:38Z	2016-08-05T19:35:38Z	EnvDeleter should return true	105		
 7961	1495995	true	open	false	16		2016-08-03T14:20:49Z	2016-08-12T11:28:20Z		benchmark: add --format csv option	56		
-7962	275871	false	open	false	6		2016-08-03T14:58:10Z	2016-12-14T01:44:56Z		tls, lts: update root certs in v0.12?	73		
+7962	275871	false	closed	false	6		2016-08-03T14:58:10Z	2016-12-14T16:19:02Z	2016-12-14T16:19:02Z	tls, lts: update root certs in v0.12?	73		
 7963	899444	true	closed	false	12		2016-08-03T17:50:51Z	2016-10-08T08:28:48Z	2016-08-08T20:48:54Z	deps: float gyp patch for long filenames	134		
 7964	439929	true	open	false	8		2016-08-03T17:53:52Z	2016-08-30T08:00:07Z		meta: add explicit details of the deprecation and semver-major policy	36		
 7965	11522163	false	open	false	2		2016-08-03T19:32:40Z	2016-08-12T00:50:47Z		readline will echo first line of input	149		
@@ -3012,7 +3012,7 @@
 9825	9373002	false	closed	false	3		2016-11-28T14:56:08Z	2016-12-05T20:27:52Z	2016-12-05T20:27:52Z	AIX: v4x-staging - object factory test failures	412		
 9826	20808551	false	open	false	7		2016-11-28T16:22:15Z	2016-11-28T18:11:14Z		cordova installation failed 	34		
 9827	6487691	true	closed	false	8		2016-11-28T18:52:28Z	2016-12-06T18:54:37Z	2016-12-05T20:27:27Z	build: Don't regenerate node->out/*/node symlink if already there	284		
-9828	855219	true	open	false	5		2016-11-28T19:29:09Z	2016-11-29T01:56:19Z		deps: work around v8 bug in toUpper('ç')	59		
+9828	855219	true	open	false	5		2016-11-28T19:29:09Z	2016-12-14T16:03:01Z		deps: work around v8 bug in toUpper('ç')	59		
 9829	11214	false	open	false	9		2016-11-28T19:38:38Z	2016-12-13T18:11:28Z		maxBuffer default too small	112		
 9830	2352663	false	closed	false	6		2016-11-28T21:37:52Z	2016-12-05T10:14:09Z	2016-12-05T10:14:09Z	Segmentation fault	321		
 9831	7834613	true	open	false	1		2016-11-28T21:59:05Z	2016-12-12T21:03:53Z		http: remove stale timeout listeners	94		
@@ -3371,7 +3371,7 @@
 10184	238531	true	open	false			2016-12-08T20:37:43Z	2016-12-08T21:24:43Z		stream_base: homogenize req_wrap_obj use	47		
 10185	5455479	false	closed	false	1		2016-12-08T22:41:55Z	2016-12-11T13:49:56Z	2016-12-11T13:49:56Z	The property heap_size_limit from getHeapStatistics is incorrect for memory over 4032MB	114		
 10186	275871	true	closed	false	1	0	2016-12-08T23:19:42Z	2016-12-11T13:48:54Z	2016-12-11T13:48:54Z	lib,src: support values > 4GB in heap statistics	2		
-10187	567540	true	open	false	16		2016-12-09T04:34:15Z	2016-12-14T03:45:55Z		deps: Add node-inspect	90		
+10187	567540	true	open	false	18		2016-12-09T04:34:15Z	2016-12-14T16:54:57Z		deps: Add node-inspect	90		
 10188	718899	true	closed	false	5		2016-12-09T06:29:03Z	2016-12-12T21:28:32Z	2016-12-12T21:28:32Z	test: refactor test-handle-wrap-close-abort	53		
 10189	718899	true	closed	false	2		2016-12-09T06:55:25Z	2016-12-12T21:47:43Z	2016-12-12T21:47:42Z	test: refactor http pipelined socket test	52		
 10190	718899	true	closed	false	3		2016-12-09T07:24:48Z	2016-12-12T21:49:43Z	2016-12-12T21:49:42Z	test: refactor assert.equal, update syntax to ES6	34		
@@ -3432,7 +3432,7 @@
 10248	17704638	true	open	false			2016-12-13T13:19:34Z	2016-12-14T08:33:36Z		win, watchdog: add flag to mark handler as disabled	85		
 10249	4299420	true	open	false	1		2016-12-13T14:58:28Z	2016-12-13T15:00:49Z		stream, test: test for _readableState.emittedReadable	50		
 10250	7455872	false	closed	false	8		2016-12-13T17:09:41Z	2016-12-13T18:01:19Z	2016-12-13T17:41:09Z	Console wrongly printing the object constructor class	104		
-10251	718899	true	open	false			2016-12-13T17:27:56Z	2016-12-14T08:35:44Z		doc: expand common module material in test guide	56		
+10251	718899	true	open	false			2016-12-13T17:27:56Z	2016-12-14T16:46:00Z		doc: expand common module material in test guide	56		
 10252	16945543	false	closed	false	4		2016-12-13T19:14:39Z	2016-12-13T20:03:10Z	2016-12-13T19:40:28Z	Not able to download the NPM package it says Failed - Network Error	6		
 10253	1736496	true	open	false	3		2016-12-13T20:05:15Z	2016-12-14T13:45:01Z		Cache non-symlinks in realpathSync	235		
 10254	1026325	false	closed	false	1		2016-12-13T20:54:04Z	2016-12-13T22:15:54Z	2016-12-13T20:58:30Z	how to run different version of node on same machine ?	48		
@@ -3442,8 +3442,9 @@
 10258	6732831	false	open	false	10		2016-12-13T23:29:30Z	2016-12-14T15:08:04Z		assert.deepStrictEqual is fooled by strange dates	97		
 10259	7225068	false	open	false	6		2016-12-13T23:32:39Z	2016-12-14T02:38:08Z		Promises Missing from Node: Common-ish Problem?	172		
 10260	25966	true	open	false	2		2016-12-13T23:35:56Z	2016-12-14T01:03:07Z		fs: remove needless assignment of null	79		
-10261	17607	true	open	false	3		2016-12-14T01:42:41Z	2016-12-14T15:09:06Z		tls: update builtin cert bundle for 0.12	41		
+10261	17607	true	open	false	5		2016-12-14T01:42:41Z	2016-12-14T16:04:50Z		tls: update builtin cert bundle for 0.12	41		
 10262	1857993	true	open	false			2016-12-14T03:15:32Z	2016-12-14T04:23:33Z		doc: add warning about url.resolve	27		
 10263	8259431	false	closed	false	1		2016-12-14T04:48:49Z	2016-12-14T05:12:36Z	2016-12-14T05:12:36Z	Initialization Vector length in createCipheriv/createeciperiv for aes-128-ecb	125		
 10264	17607	true	open	false	0	0	2016-12-14T15:22:38Z	2016-12-14T15:22:38Z		doc: add tls.DEFAULT_ECDH_CURVE	47		
-10265	620746	false	open	false	0		2016-12-14T15:55:50Z	2016-12-14T15:55:50Z		crypto.pbkdf2Sync can't handle non ASCII character in Node 6.9.2	218		
+10265	620746	false	closed	false	1		2016-12-14T15:55:50Z	2016-12-14T17:01:16Z	2016-12-14T17:01:16Z	crypto.pbkdf2Sync can't handle non ASCII character in Node 6.9.2	218		
+10266	13561163	true	open	false	0	0	2016-12-14T16:04:24Z	2016-12-14T16:04:24Z		test: add known_issues test for #6287	72		
