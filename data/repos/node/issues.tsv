@@ -116,6 +116,7 @@
 3105	452298	false	closed	false	6		2015-09-28T17:02:34Z	2016-07-13T06:35:23Z	2016-07-13T06:35:23Z	Generators are not providing the right line:col for the error message	116		
 3145	369698	false	open	false	14		2015-10-01T12:26:52Z	2016-07-08T19:52:51Z		child_process IPC is very slow, about 100-10000x slower than I expected (scales with msg size)	212		
 3159	131406	false	open	false	6		2015-10-02T13:49:38Z	2016-10-11T07:16:08Z		please provide a way to use system-installed root certificates instead of bundled ones	82		
+3164	8023447	false	closed	false	7		2015-10-03T03:28:07Z	2016-12-14T07:55:50Z	2015-10-03T16:26:02Z	State of ES6/ES7 in node/v8?	175		
 3179	8974489	false	closed	false	18		2015-10-05T10:13:45Z	2016-10-06T10:19:34Z	2016-06-07T20:59:21Z	node compile failure on Solaris 11.2 and gcc 4.8 (undefined std::isnan)	266		
 3249	291301	false	closed	false	10		2015-10-07T22:50:32Z	2016-07-13T07:02:20Z	2016-07-13T07:02:20Z	vm: `--expose-gc` breaks gc and crashes with `--max-old-space-size`	314		
 3263	131406	false	closed	false	14		2015-10-08T07:30:48Z	2016-10-05T12:50:15Z	2016-10-05T12:50:15Z	building s390 / s390x	121		
@@ -2688,7 +2689,7 @@
 9502	1093990	true	closed	false	1	1	2016-11-07T14:28:38Z	2016-11-11T15:25:04Z	2016-11-11T15:25:04Z	doc: clarify the exit code part of writing_tests.md	46	1093990	2016-11-11T15:25:04Z
 9503	439929	true	closed	false	2	0	2016-11-07T16:28:20Z	2016-11-18T15:31:30Z	2016-11-18T15:31:30Z	doc: move TSC and CTC meeting minutes out of core repo	39		
 9504	10616396	true	closed	false	2		2016-11-07T20:27:45Z	2016-11-07T21:33:17Z	2016-11-07T21:33:17Z	doc: clarify fs.write type of data argument	34		
-9505	10616396	true	closed	false	4		2016-11-07T21:26:58Z	2016-12-13T20:30:20Z	2016-11-11T20:26:27Z	doc: add process api data types to documentation	43		
+9505	10616396	true	closed	false	5		2016-11-07T21:26:58Z	2016-12-14T07:26:30Z	2016-11-11T20:26:27Z	doc: add process api data types to documentation	43		
 9506	718899	true	closed	false	5		2016-11-07T21:37:40Z	2016-12-13T20:06:54Z	2016-11-10T04:57:45Z	test: move tick-processor tests to own directory	106		
 9507	718899	false	closed	false	11		2016-11-07T22:27:45Z	2016-11-21T23:03:41Z	2016-11-21T23:03:41Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-11-09	467		
 9508	518319	true	closed	false	6	0	2016-11-07T23:41:16Z	2016-11-11T20:17:56Z	2016-11-11T20:17:56Z	doc: fix fs constants link	33		
@@ -2697,7 +2698,7 @@
 9511	782880	false	open	false	5		2016-11-08T12:10:29Z	2016-11-19T06:04:41Z		test-icu-transcode fails built without intl	90		
 9512	21085125	false	closed	false	19		2016-11-08T13:39:17Z	2016-12-01T13:13:50Z	2016-11-30T16:05:27Z	configure fails on linux for distributions using python 3 as default	98		
 9513	1272762	false	closed	false	3		2016-11-08T16:09:14Z	2016-11-10T04:48:12Z	2016-11-10T04:48:12Z	Too many sockets of Ubuntu with 'CLOSE_WAIT'	261		
-9514	10616396	true	closed	false	2		2016-11-08T18:43:20Z	2016-12-13T20:29:59Z	2016-11-11T20:24:47Z	doc: added return types of functions and types of static properties	40		
+9514	10616396	true	closed	false	3		2016-11-08T18:43:20Z	2016-12-14T07:26:53Z	2016-11-11T20:24:47Z	doc: added return types of functions and types of static properties	40		
 9515	498775	true	open	false	0	0	2016-11-08T19:46:48Z	2016-11-08T19:46:48Z		doc: fix heading type for v4.6.2 changelog	6		
 9516	166301	false	closed	false	18		2016-11-08T19:47:30Z	2016-11-18T19:11:33Z	2016-11-18T19:11:33Z	Stack Trace on Depreciation Warnings	88		
 9517	696611	true	closed	false	2	0	2016-11-08T20:03:21Z	2016-11-09T13:58:49Z	2016-11-09T13:58:49Z	build: remove valgrind from Makefile	34		
@@ -2853,7 +2854,7 @@
 9667	275871	true	closed	false	2		2016-11-17T21:10:16Z	2016-12-13T21:10:38Z	2016-11-18T20:59:29Z	test: fix memory leaks in malloc cctests	3		
 9668	1391805	false	open	false	2		2016-11-17T22:24:04Z	2016-11-18T15:14:34Z		HTTPParser inhibits garbage collection on keep-alive connections	167		
 9669	11648785	true	closed	false	14	12	2016-11-17T22:59:25Z	2016-12-05T23:20:39Z	2016-12-05T23:20:39Z	used es6 conventions for variables and anonymous functions declaration	37		
-9670	54666	true	open	false			2016-11-18T03:30:07Z	2016-11-18T19:51:38Z		fs: do not pass Buffer when toString() fails	84		
+9670	54666	true	open	false	3		2016-11-18T03:30:07Z	2016-12-14T07:09:08Z		fs: do not pass Buffer when toString() fails	84		
 9671	413206	false	open	false	18		2016-11-18T08:29:35Z	2016-11-19T17:19:27Z		readFile() and readFileSync() fail to read sparse file on Windows	321		
 9672	4459551	false	open	false	0		2016-11-18T12:06:04Z	2016-11-18T12:06:04Z		make the --inspect flag more dev friendly	67		
 9673	4985028	false	closed	false	14		2016-11-18T12:56:50Z	2016-12-04T16:19:11Z	2016-11-21T21:49:45Z	RFI: What are the know issues with --preserve-symlinks	368		
@@ -3436,9 +3437,9 @@
 10253	1736496	true	open	false	2		2016-12-13T20:05:15Z	2016-12-13T21:36:57Z		Cache non-symlinks in realpathSync	235		
 10254	1026325	false	closed	false	1		2016-12-13T20:54:04Z	2016-12-13T22:15:54Z	2016-12-13T20:58:30Z	how to run different version of node on same machine ?	48		
 10255	10393198	false	open	false	0		2016-12-13T22:08:30Z	2016-12-13T22:08:30Z		Debug call illustration in the cluster doc does not match with output in Windows	219		
-10256	2329683	false	closed	false	6		2016-12-13T22:24:04Z	2016-12-14T01:48:12Z	2016-12-13T22:39:55Z	Backpressure on http.ServerResponse	133		
+10256	2329683	false	closed	false	7		2016-12-13T22:24:04Z	2016-12-14T07:45:19Z	2016-12-13T22:39:55Z	Backpressure on http.ServerResponse	133		
 10257	1189785	true	open	false	0	0	2016-12-13T22:51:46Z	2016-12-13T22:51:46Z		test: improve code in test-child-process-kill	54		
-10258	6732831	false	open	false	5		2016-12-13T23:29:30Z	2016-12-14T06:07:48Z		assert.deepStrictEqual is fooled by strange dates	97		
+10258	6732831	false	open	false	8		2016-12-13T23:29:30Z	2016-12-14T07:31:01Z		assert.deepStrictEqual is fooled by strange dates	97		
 10259	7225068	false	open	false	6		2016-12-13T23:32:39Z	2016-12-14T02:38:08Z		Promises Missing from Node: Common-ish Problem?	172		
 10260	25966	true	open	false	2		2016-12-13T23:35:56Z	2016-12-14T01:03:07Z		fs: remove needless assignment of null	79		
 10261	17607	true	open	false	1		2016-12-14T01:42:41Z	2016-12-14T04:35:54Z		tls: update builtin cert bundle for 0.12	41		
