@@ -1131,7 +1131,7 @@
 7943	1988999	false	closed	false	3		2016-08-02T02:32:40Z	2016-08-02T10:15:17Z	2016-08-02T10:15:17Z	node-cli bug on windows 10	46		
 7944	275871	false	closed	false	3		2016-08-02T07:47:10Z	2016-09-09T20:17:15Z	2016-09-09T20:17:15Z	v8_inspector: IgnoreExceptionsScope.h does not exist	27		
 7945	275871	true	closed	false	3		2016-08-02T07:50:03Z	2016-10-10T22:31:24Z	2016-08-03T09:19:52Z	build: fix dependency on missing header file 	34		
-7946	3038254	true	open	false	19		2016-08-02T08:57:14Z	2016-10-11T08:27:20Z		http: optimize by corking outgoing requests	404		
+7946	3038254	true	open	false	20		2016-08-02T08:57:14Z	2016-12-14T15:29:25Z		http: optimize by corking outgoing requests	404		
 7947	15943089	true	closed	false	12		2016-08-02T10:41:47Z	2016-10-11T02:08:07Z	2016-08-08T16:24:38Z	test: remove internal headers from addons	67		
 7948	718899	false	closed	false	8		2016-08-02T13:49:50Z	2016-08-05T22:02:23Z	2016-08-05T22:02:23Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-03	502		
 7949	1935767	true	closed	false	25		2016-08-02T16:54:51Z	2016-10-10T22:33:06Z	2016-08-05T15:29:33Z	http: specify _implicitHeader in OutgoingMessage	65		
@@ -2836,7 +2836,7 @@
 9649	495647	true	closed	false	1	0	2016-11-17T00:22:26Z	2016-11-19T23:52:23Z	2016-11-19T23:52:23Z	test: simplify test-http-client-unescaped-path	17		
 9650	23512658	false	closed	false	4		2016-11-17T00:53:29Z	2016-11-22T02:07:32Z	2016-11-22T02:07:32Z	Random Error While using Casperjs with exec on PHP page	149		
 9651	5355921	true	open	false			2016-11-17T01:24:28Z	2016-11-21T17:49:48Z		child_process: support numeric signal argument to kill.	73		
-9652	899444	true	open	false	33		2016-11-17T01:59:55Z	2016-12-05T19:08:27Z		src: allow loading lib/ files from disk	147		
+9652	899444	true	open	false	37		2016-11-17T01:59:55Z	2016-12-14T15:42:37Z		src: allow loading lib/ files from disk	147		
 9653	10134378	true	closed	false	8		2016-11-17T04:59:59Z	2016-12-14T11:42:11Z	2016-12-14T11:42:11Z	url: add a got host pattern in url.js	39		
 9654	1131567	false	open	false	1		2016-11-17T05:20:20Z	2016-11-18T04:48:13Z		Buffer.isEncoding regards an empty string as a valid encoding	154		
 9655	739813	true	open	false			2016-11-17T05:57:27Z	2016-11-17T18:53:20Z		doc: redirect 'Start a Working Group' to TSC repo	56		
@@ -2940,10 +2940,10 @@
 9753	289174	true	closed	false	10		2016-11-23T05:41:48Z	2016-12-09T21:22:58Z	2016-12-01T23:51:19Z	[async_wrap] fix fatal error during destroy() calls	96		
 9754	2352663	true	open	false	19		2016-11-23T09:54:13Z	2016-12-14T11:13:16Z		deps: introduce embedder version number for V8	40		
 9755	1084956	false	closed	false	1		2016-11-23T10:55:22Z	2016-11-23T11:11:18Z	2016-11-23T11:11:18Z	Node.js installation fails error status: 1603.	152		
-9756	1490	false	open	false	0		2016-11-23T10:56:02Z	2016-11-23T10:56:02Z		Infinite loop in timers.js	210		
+9756	1490	false	closed	false	0		2016-11-23T10:56:02Z	2016-12-14T15:13:22Z	2016-12-14T15:13:22Z	Infinite loop in timers.js	216		
 9757	1559888	true	closed	false	1	0	2016-11-23T11:35:31Z	2016-11-24T16:23:02Z	2016-11-24T16:23:02Z	Fix unused result warning in node_url.cc (nit)	48		
 9758	16735925	false	open	false	4		2016-11-23T11:51:29Z	2016-11-26T19:13:06Z		Allow `start` option to be string in readline	80		
-9759	1490	true	open	false	15		2016-11-23T11:52:52Z	2016-12-14T09:16:34Z		timers: prevent infinite loop when subsequent immediates are cleared	82		
+9759	1490	true	closed	false	17		2016-11-23T11:52:52Z	2016-12-14T15:13:00Z	2016-12-14T15:12:59Z	timers: prevent infinite loop when subsequent immediates are cleared	82		
 9760	173559	false	closed	false	1		2016-11-23T12:53:56Z	2016-11-25T15:42:44Z	2016-11-25T15:42:44Z	v8_inspector: HTTP /json/version returns array instead of object	74		
 9761	1211498	true	closed	false	3		2016-11-23T13:03:26Z	2016-12-03T21:50:32Z	2016-11-23T13:18:20Z	crypto: do not use pointers to std::vector	88		
 9762	275871	true	closed	false	0	0	2016-11-23T13:21:03Z	2016-11-25T15:42:13Z	2016-11-25T15:42:13Z	inspector: /json/version returns object, not array	17		
@@ -3231,7 +3231,7 @@
 10044	181527	true	closed	false	3	3	2016-12-01T17:57:10Z	2016-12-07T15:03:17Z	2016-12-07T15:03:17Z	test: invalid package.json causes error when require()ing in directory	53		
 10045	4900842	true	closed	false	3		2016-12-01T17:58:02Z	2016-12-02T14:30:49Z	2016-12-01T21:04:21Z	test: Use strictEqual in cwd-enoent	12		
 10046	7142618	true	closed	false	4	4	2016-12-01T17:58:55Z	2016-12-08T06:55:18Z	2016-12-08T06:55:18Z	doc: update `path.format` description and examples	61		
-10047	4923947	true	open	false	1		2016-12-01T17:59:29Z	2016-12-08T22:16:59Z		Test fix - fix to /test/parallel/test-cluster	38		
+10047	4923947	true	open	false	1		2016-12-01T17:59:29Z	2016-12-14T15:17:54Z		Test fix - fix to /test/parallel/test-cluster	38		
 10048	582234	true	open	false			2016-12-01T18:01:29Z	2016-12-05T22:32:34Z		Improvements to test-buffer-slice from NINA code & learn	44		
 10049	4521223	true	open	false			2016-12-01T18:02:15Z	2016-12-03T15:45:06Z		test: recommended changes to test-cluster-send-handle-twice.js	90		
 10050	7131961	true	open	false	0		2016-12-01T18:04:15Z	2016-12-05T04:11:00Z		doc: Update rinfo object definition for UDP message event	41		
@@ -3407,7 +3407,7 @@
 10223	12378597	false	closed	false	3		2016-12-11T02:59:00Z	2016-12-13T12:19:13Z	2016-12-13T12:19:13Z	Object.defineProperty on the global object does not handle 'writable' properly in vm context	174		
 10224	718899	true	open	false	8		2016-12-11T04:40:40Z	2016-12-14T00:44:47Z		test: fix http-client-timeout-option-listeners	68		
 10225	718899	true	closed	false	2	3	2016-12-11T05:16:04Z	2016-12-12T22:07:49Z	2016-12-12T22:07:49Z	test: refactor test-https-truncate	55		
-10226	718899	true	open	false	2		2016-12-11T05:45:40Z	2016-12-14T01:33:32Z		test: refactor test-stream-big-push	46		
+10226	718899	true	closed	false	3	2	2016-12-11T05:45:40Z	2016-12-14T15:15:38Z	2016-12-14T15:15:38Z	test: refactor test-stream-big-push	46		
 10227	275871	true	closed	false	1	3	2016-12-11T16:38:51Z	2016-12-13T12:18:10Z	2016-12-13T12:18:10Z	src: don't overwrite non-writable vm globals	21		
 10228	131406	false	open	false	3		2016-12-11T19:21:58Z	2016-12-12T16:16:03Z		Missing make rule for test/fixtures/keys/0-dns-*	25		
 10229	22550884	true	closed	false	6		2016-12-11T22:29:18Z	2016-12-13T13:02:35Z	2016-12-13T13:02:34Z	test:  refactor test-http-after-connect.js	42		
@@ -3424,10 +3424,10 @@
 10240	287917	true	open	false	0	0	2016-12-12T18:54:12Z	2016-12-12T18:54:12Z		inspector: fix Coverity defects	61		
 10241	4299420	true	open	false	12		2016-12-12T19:42:52Z	2016-12-13T21:10:00Z		stream, test: add test for _readableState.needReadable	52		
 10242	3671262	false	open	false	5		2016-12-12T21:35:43Z	2016-12-13T00:01:24Z		Change in fs.statSync behavior between 7.1.0 and 7.2.0	105		
-10243	1189785	true	open	false	4		2016-12-12T21:40:34Z	2016-12-13T01:29:32Z		test: refactor test-http-dns-fail	67		
+10243	1189785	true	closed	false	5	3	2016-12-12T21:40:34Z	2016-12-14T15:07:24Z	2016-12-14T15:07:24Z	test: refactor test-http-dns-fail	67		
 10244	10393198	true	open	false	0	0	2016-12-13T00:00:17Z	2016-12-13T00:00:17Z		Repl.md	150		
 10245	15161981	true	open	false	4		2016-12-13T05:06:56Z	2016-12-13T12:35:41Z		aix: fix os.release()	37		
-10246	718899	true	open	false	1		2016-12-13T05:38:43Z	2016-12-13T21:49:01Z		test: refactor test-fs-read-stream-inherit	69		
+10246	718899	true	open	false	2		2016-12-13T05:38:43Z	2016-12-14T15:16:14Z		test: refactor test-fs-read-stream-inherit	69		
 10247	3397140	true	open	false	3		2016-12-13T12:14:25Z	2016-12-13T14:02:12Z		core: properly skip tick_callback_function call	15		
 10248	17704638	true	open	false			2016-12-13T13:19:34Z	2016-12-14T08:33:36Z		win, watchdog: add flag to mark handler as disabled	85		
 10249	4299420	true	open	false	1		2016-12-13T14:58:28Z	2016-12-13T15:00:49Z		stream, test: test for _readableState.emittedReadable	50		
@@ -3439,9 +3439,11 @@
 10255	10393198	false	open	false	0		2016-12-13T22:08:30Z	2016-12-13T22:08:30Z		Debug call illustration in the cluster doc does not match with output in Windows	219		
 10256	2329683	false	closed	false	7		2016-12-13T22:24:04Z	2016-12-14T07:45:19Z	2016-12-13T22:39:55Z	Backpressure on http.ServerResponse	133		
 10257	1189785	true	open	false	0	0	2016-12-13T22:51:46Z	2016-12-13T22:51:46Z		test: improve code in test-child-process-kill	54		
-10258	6732831	false	open	false	8		2016-12-13T23:29:30Z	2016-12-14T07:31:01Z		assert.deepStrictEqual is fooled by strange dates	97		
+10258	6732831	false	open	false	10		2016-12-13T23:29:30Z	2016-12-14T15:08:04Z		assert.deepStrictEqual is fooled by strange dates	97		
 10259	7225068	false	open	false	6		2016-12-13T23:32:39Z	2016-12-14T02:38:08Z		Promises Missing from Node: Common-ish Problem?	172		
 10260	25966	true	open	false	2		2016-12-13T23:35:56Z	2016-12-14T01:03:07Z		fs: remove needless assignment of null	79		
-10261	17607	true	open	false	3		2016-12-14T01:42:41Z	2016-12-14T14:42:56Z		tls: update builtin cert bundle for 0.12	41		
+10261	17607	true	open	false	3		2016-12-14T01:42:41Z	2016-12-14T15:09:06Z		tls: update builtin cert bundle for 0.12	41		
 10262	1857993	true	open	false			2016-12-14T03:15:32Z	2016-12-14T04:23:33Z		doc: add warning about url.resolve	27		
 10263	8259431	false	closed	false	1		2016-12-14T04:48:49Z	2016-12-14T05:12:36Z	2016-12-14T05:12:36Z	Initialization Vector length in createCipheriv/createeciperiv for aes-128-ecb	125		
+10264	17607	true	open	false	0	0	2016-12-14T15:22:38Z	2016-12-14T15:22:38Z		doc: add tls.DEFAULT_ECDH_CURVE	47		
+10265	620746	false	open	false	0		2016-12-14T15:55:50Z	2016-12-14T15:55:50Z		crypto.pbkdf2Sync can't handle non ASCII character in Node 6.9.2	218		
