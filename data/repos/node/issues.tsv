@@ -329,7 +329,7 @@
 6346	8060970	false	open	false	13		2016-04-22T13:54:20Z	2016-07-04T09:25:53Z		process._tickCallback - tock is undefined	205		
 6354	3625244	false	closed	false	13		2016-04-23T07:44:20Z	2016-07-05T12:12:22Z	2016-04-23T08:21:56Z	Does make sense to upgrade V8 to 5.1?	34		
 6359	56582	true	open	false	11		2016-04-24T09:06:24Z	2016-12-13T02:45:48Z		debugger: Reduce global variables and expose some APIs for the debugger.	203		
-6374	1356314	true	closed	false	15		2016-04-25T15:57:37Z	2016-12-16T10:03:38Z	2016-04-26T15:52:49Z	crypto: Read OpenSSL config before init	136		
+6374	1356314	true	closed	false	16		2016-04-25T15:57:37Z	2016-12-16T11:47:02Z	2016-04-26T15:52:49Z	crypto: Read OpenSSL config before init	136		
 6375	1093990	true	open	false	79		2016-04-25T17:23:13Z	2016-08-26T22:47:50Z		"lib,src: ""throw"" on unhandled promise rejections"	93		
 6376	1131464	true	closed	false	47		2016-04-25T18:19:43Z	2016-07-13T06:43:47Z	2016-06-27T20:31:48Z	crypto: Allow GCM ciphers to have a longer IV length	61		
 6378	15952	true	closed	false	13	8	2016-04-25T19:52:42Z	2016-07-15T15:12:56Z	2016-07-15T15:12:56Z	doc: Warn against `uncaughtException` dependency.	59		
@@ -370,7 +370,7 @@
 6578	17607	false	open	false	24		2016-05-04T22:06:49Z	2016-10-02T19:03:28Z		docs do not state at what version an API was introduced (or deprecated)	420		
 6582	275871	true	closed	false	14		2016-05-04T22:29:50Z	2016-07-11T21:10:49Z	2016-05-05T11:05:20Z	crypto: disable ssl compression at build time	3		
 6599	79017	true	closed	false	20		2016-05-05T16:22:48Z	2016-10-12T10:04:41Z	2016-05-07T03:30:19Z	src,lib: minor --debug-brk cleanup	116		
-6600	15943089	true	open	false	4		2016-05-05T16:23:19Z	2016-08-22T21:50:48Z		win, build: add node.lib file into headers package	273		
+6600	15943089	true	closed	false	5	1	2016-05-05T16:23:18Z	2016-12-16T11:17:47Z	2016-12-16T11:17:47Z	win, build: add node.lib file into headers package	273		
 6601	1231635	true	open	false	52		2016-05-05T18:13:42Z	2016-08-31T20:40:22Z		doc: add Google Analytics tracking.	105		
 6604	40265	false	closed	false	14		2016-05-05T21:07:47Z	2016-10-29T19:48:35Z	2016-07-20T09:16:03Z	Encountering segfault	214		
 6610	5108906	false	closed	false	4		2016-05-06T02:18:49Z	2016-08-14T09:08:27Z	2016-08-14T09:08:27Z	Super-slow arrays in 6.x	472		
@@ -426,7 +426,7 @@
 6912	12488060	false	closed	false	17		2016-05-21T07:59:23Z	2016-10-07T17:57:12Z	2016-10-07T17:57:12Z	jslint fails with linebreak on windows	44		
 6918	718899	false	closed	false	3		2016-05-21T17:44:34Z	2016-07-02T03:27:10Z	2016-07-02T03:27:10Z	Investigate flaky test-stdout-close-catch on FreeBSD	19		
 6922	557590	true	closed	false	13		2016-05-22T20:09:04Z	2016-07-12T16:56:42Z	2016-05-28T04:35:06Z	buffer: Fix dataview-set benchmark.	188		
-6933	439929	true	closed	false	21		2016-05-23T19:47:40Z	2016-07-11T21:44:07Z	2016-05-26T15:14:03Z	doc: general improvements to tls.md copy	34		
+6933	439929	true	closed	false			2016-05-23T19:47:40Z	2016-12-16T11:37:48Z	2016-05-26T15:14:03Z	doc: general improvements to tls.md copy	34		
 6937	439929	true	open	false	21		2016-05-23T21:13:33Z	2016-06-27T16:04:40Z		doc: general improvements to timers.md	33		
 6940	439929	true	closed	false	7		2016-05-23T21:33:16Z	2016-07-11T21:36:19Z	2016-05-25T15:56:43Z	doc: general improvements to string_decoder.md copy	32		
 6943	899444	true	closed	false	12		2016-05-23T22:17:35Z	2016-07-12T00:53:41Z	2016-05-25T22:55:37Z	tools: make sure doctool anchors respect @include	110		
@@ -2917,7 +2917,7 @@
 9727	718899	true	open	false	5		2016-11-21T22:26:13Z	2016-11-23T18:29:02Z		test: fix flaky test-inspector	76		
 9728	9373002	false	open	false	10		2016-11-21T22:54:09Z	2016-12-15T17:17:19Z		AIX: Intermittent failure on  pseudo-tty/test-tty-wrap	53		
 9729	10393198	false	closed	false	20		2016-11-21T23:47:07Z	2016-12-02T11:38:30Z	2016-11-23T11:53:23Z	Strange deoptimzations in cycles	285		
-9730	899444	true	closed	false	19		2016-11-22T04:41:08Z	2016-12-16T08:46:52Z	2016-12-04T14:42:12Z	deps: cherry-pick 08377af from v8 upstream	117		
+9730	899444	true	closed	false	19		2016-11-22T04:41:08Z	2016-12-16T11:38:49Z	2016-12-04T14:42:12Z	deps: cherry-pick 08377af from v8 upstream	117		
 9731	718899	true	closed	false	1		2016-11-22T04:48:03Z	2016-11-24T04:58:19Z	2016-11-24T04:58:19Z	doc: clarify slashes-appending in url module	28		
 9732	718899	true	closed	false	4		2016-11-22T06:03:24Z	2016-11-26T04:26:17Z	2016-11-26T04:26:17Z	test: refactor common.js	54		
 9733	899444	true	closed	false	2		2016-11-22T06:31:40Z	2016-11-22T07:59:33Z	2016-11-22T07:59:33Z	v4.x: backport node::Malloc	26		
@@ -2925,7 +2925,7 @@
 9735	498775	true	closed	false	5	1	2016-11-22T09:04:52Z	2016-12-06T19:28:03Z	2016-12-06T19:28:03Z	v6.9.2 proposal	1840	498775	2016-12-06T19:28:03Z
 9736	498775	true	closed	false	4	0	2016-11-22T09:12:28Z	2016-12-06T19:55:18Z	2016-12-06T19:55:18Z	v4.7.0 proposal	1508	498775	2016-12-06T19:55:18Z
 9737	58742	true	closed	false	0		2016-11-22T09:24:56Z	2016-11-23T18:30:21Z	2016-11-23T18:30:21Z	doc: typo in util.inherits documentation for ES6 example	35		
-9738	22852830	false	open	false	7		2016-11-22T10:13:41Z	2016-12-16T08:02:49Z		the solution for the issue #6374 has being applied only for Node 6.0.0	33		
+9738	22852830	false	open	false	8		2016-11-22T10:13:41Z	2016-12-16T11:37:22Z		the solution for the issue #6374 has being applied only for Node 6.0.0	33		
 9739	12082826	true	open	false			2016-11-22T11:35:27Z	2016-11-24T13:02:21Z		stream: bugfix for test-child-process-stdio-big-write-end.js	83		
 9740	15943089	false	open	false	4		2016-11-22T12:13:10Z	2016-11-23T12:35:16Z		meta: no longer possible to differentiate collaborators and foundation members	40		
 9741	3967972	true	closed	false	5	8	2016-11-22T14:27:06Z	2016-11-30T09:07:11Z	2016-11-30T09:07:11Z	test: add toASCII and toUnicode punycode tests	60		
@@ -3389,7 +3389,7 @@
 10199	5698911	false	closed	false	1		2016-12-09T15:55:27Z	2016-12-09T16:17:40Z	2016-12-09T16:17:40Z	Non deterministic behavior for failing executables	337		
 10200	1189785	true	open	false			2016-12-09T18:49:16Z	2016-12-10T18:29:50Z		test: refactor the code in test-dns-ipv4	50		
 10201	829827	true	open	false			2016-12-09T19:04:06Z	2016-12-09T21:02:26Z		Update process.md	28		
-10202	4299420	true	open	false			2016-12-09T19:19:45Z	2016-12-16T03:21:09Z		doc: clarify the review and landing process	106		
+10202	4299420	true	open	false	12		2016-12-09T19:19:45Z	2016-12-16T11:20:54Z		doc: clarify the review and landing process	106		
 10203	17607	false	open	false	0		2016-12-09T20:07:00Z	2016-12-09T20:07:00Z		https agent docs are incomprehensible	307		
 10204	1037138	false	closed	false	7		2016-12-09T20:35:50Z	2016-12-15T21:52:23Z	2016-12-15T21:52:23Z	Benchmark docs: how to select the CRAN Mirror for R	61		
 10205	1093990	true	open	false	5		2016-12-09T20:45:21Z	2016-12-12T19:11:23Z		timers: cleanup extraneous property on Immediates	154		
@@ -3480,9 +3480,10 @@
 10293	718899	true	open	false	5		2016-12-15T22:03:26Z	2016-12-16T01:09:39Z		test: fix flaky test-http-client-timeout-event	45		
 10294	17607	true	open	false	1		2016-12-15T22:26:59Z	2016-12-15T23:01:19Z		tls: allow obvious key/passphrase combinations	94		
 10295	9287	false	open	false	2		2016-12-15T22:43:36Z	2016-12-16T05:25:22Z		RFE: A way to spawn a foreground process	172		
-10296	677994	true	open	false			2016-12-15T23:25:24Z	2016-12-16T10:41:54Z		repl: allow autocompletion for scoped packages	59		
+10296	677994	true	open	false			2016-12-15T23:25:24Z	2016-12-16T11:10:35Z		repl: allow autocompletion for scoped packages	59		
 10297	1189785	true	open	false			2016-12-16T00:10:03Z	2016-12-16T07:11:22Z		test: refactor code in test-cluster-http-pipe	72		
 10298	13918090	true	open	false	0	0	2016-12-16T02:26:42Z	2016-12-16T02:26:42Z		Merge pull request #1 from nodejs/master	50		
 10299	6354455	true	open	false	0	0	2016-12-16T03:19:39Z	2016-12-16T03:19:39Z		test: stream readable resumeScheduled state	47		
 10300	2352663	false	open	false	0		2016-12-16T07:20:59Z	2016-12-16T07:20:59Z		String decoder must be fixed for next V8 update	158		
 10301	2352663	true	open	false	0	0	2016-12-16T08:48:33Z	2016-12-16T08:48:33Z		tools: forbid template literals in assert.throws	69		
+10302	24506672	false	open	false	0		2016-12-16T11:24:19Z	2016-12-16T11:24:19Z		fs.spawn parity between windows and posix	158		
