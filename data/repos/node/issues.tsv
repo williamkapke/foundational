@@ -248,6 +248,7 @@
 5312	11139560	false	closed	false	9		2016-02-18T23:11:50Z	2016-09-02T20:51:43Z	2016-03-08T12:09:46Z	feature request for assert core module	107		
 5323	3899684	true	closed	false	21		2016-02-19T11:38:23Z	2016-07-01T00:11:03Z	2016-04-22T04:48:28Z	doc: vm, run http server in vm by requiring	114		
 5344	1622515	false	closed	false	7		2016-02-21T05:47:46Z	2016-12-13T14:16:23Z	2016-08-04T19:44:36Z	VM: weird behaviour in runInContext/runInThisContext 	165		
+5350	3477316	false	open	false	8		2016-02-21T13:47:18Z	2016-12-16T15:49:08Z		sandbox inheritied properties flattened after vm.runInNewContext	174		
 5360	677994	true	closed	false	18		2016-02-22T08:57:24Z	2016-07-12T10:24:59Z	2016-03-04T23:28:27Z	util: improve util.format performance	100		
 5386	15943089	false	open	false	30		2016-02-23T14:33:55Z	2016-10-29T00:24:41Z		Intermittent test-tls-inception failure on windows	140		
 5426	1197375	false	closed	false	12		2016-02-25T00:33:42Z	2016-07-15T17:39:28Z	2016-07-15T17:39:28Z	setTimeout() introduces artificial delay between ticks when doing synchronous work	245		
@@ -282,6 +283,7 @@
 5798	17942010	false	open	false	130		2016-03-19T05:47:12Z	2016-09-17T14:06:13Z		Use system random generator in crypto	33		
 5804	1315533	true	closed	false	16		2016-03-19T18:30:35Z	2016-08-30T14:14:10Z	2016-03-21T15:52:12Z	dns: use isIp consistently	65		
 5816	17975468	false	open	false	6		2016-03-21T06:03:18Z	2016-09-14T13:54:49Z		Issue installing node js on Windows 7 Enterprise edition 64 bit	145		
+5841	532414	true	open	false	21		2016-03-22T08:22:59Z	2016-12-16T15:11:41Z		test: test for issue #5574	185		
 5848	718899	false	closed	false	6		2016-03-22T18:47:04Z	2016-06-29T22:36:15Z	2016-06-29T22:36:15Z	Investigate flaky test-dgram-send-callback-buffer-length	30		
 5870	607109	false	closed	false	6		2016-03-23T17:01:39Z	2016-10-12T09:18:22Z	2016-10-12T09:18:22Z	child processes started with `--debug-brk` do not buffer messages	294		
 5893	200959	false	closed	false	16		2016-03-24T20:27:43Z	2016-10-30T18:43:09Z	2016-05-13T23:31:33Z	Native DNS caching for lookups	62		
@@ -1521,7 +1523,7 @@
 8331	1443911	true	closed	false	4		2016-08-30T05:56:23Z	2016-08-30T10:07:50Z	2016-08-30T06:13:03Z	doc: add lpinca to collaborators	29		
 8332	696611	true	open	false	2		2016-08-30T06:28:38Z	2016-09-08T19:48:03Z		buffer: deprecate parent property	52		
 8333	16787433	true	open	false	0	0	2016-08-30T12:34:10Z	2016-08-30T12:34:10Z		Merge pull request #1 from nodejs/master	48		
-8334	1211498	true	open	false			2016-08-30T12:35:45Z	2016-12-12T19:04:32Z		crypto: use system CAs instead of bundled ones	74		
+8334	1211498	true	open	false	42		2016-08-30T12:35:45Z	2016-12-16T15:05:13Z		crypto: use system CAs instead of bundled ones	74		
 8335	16787433	true	open	false	0	0	2016-08-30T12:37:32Z	2016-08-30T12:37:32Z		Merge pull request #1 from nodejs/master	48		
 8336	16787433	true	open	false	0	0	2016-08-30T12:39:44Z	2016-08-30T12:39:44Z		Merge pull request #1 from nodejs/master	48		
 8337	16787433	true	open	false	0	0	2016-08-30T12:51:40Z	2016-08-30T12:51:40Z		merge from remote	47		
@@ -2649,7 +2651,7 @@
 9459	1090382	false	open	false	1		2016-11-04T10:08:31Z	2016-11-04T11:18:22Z		Request for unifying shell command form when using exec and spawn	80		
 9460	1084056	true	closed	false	0	0	2016-11-04T10:09:50Z	2016-11-06T09:19:26Z	2016-11-06T09:19:26Z	test: fix flaky test-force-repl-with-eval	84	1084056	2016-11-06T09:19:26Z
 9461	1084056	true	closed	false	3	0	2016-11-04T10:21:39Z	2016-11-06T09:24:12Z	2016-11-06T09:24:12Z	test: fix flaky test-net-GH-5504	50	1084056	2016-11-06T09:24:12Z
-9462	10378547	false	open	false	4		2016-11-04T11:01:11Z	2016-11-05T01:03:48Z		How to generate core dump file when SIGBUS?	88		
+9462	10378547	false	closed	false	7		2016-11-04T11:01:11Z	2016-12-16T15:14:10Z	2016-12-16T15:14:10Z	How to generate core dump file when SIGBUS?	88		
 9463	12443664	true	open	false	3		2016-11-04T11:11:42Z	2016-11-08T14:24:24Z		Add --coverage option to configure to produce C based coverage reports	94		
 9464	8525754	false	open	false	4		2016-11-04T13:25:35Z	2016-11-30T23:46:05Z		child_process execFile / spawn throw non-descript exception on windows if exe requires elevation	138		
 9465	467209	false	closed	false	1		2016-11-04T13:50:42Z	2016-11-04T14:29:01Z	2016-11-04T14:29:01Z	Fatal error in V8 GC	222		
@@ -2838,7 +2840,7 @@
 9648	10616396	true	closed	false	3		2016-11-16T20:32:49Z	2016-11-18T22:25:32Z	2016-11-18T22:25:32Z	doc: os properties functions return types	35		
 9649	495647	true	closed	false	1	0	2016-11-17T00:22:26Z	2016-11-19T23:52:23Z	2016-11-19T23:52:23Z	test: simplify test-http-client-unescaped-path	17		
 9650	23512658	false	closed	false	4		2016-11-17T00:53:29Z	2016-11-22T02:07:32Z	2016-11-22T02:07:32Z	Random Error While using Casperjs with exec on PHP page	149		
-9651	5355921	true	open	false			2016-11-17T01:24:28Z	2016-11-21T17:49:48Z		child_process: support numeric signal argument to kill.	73		
+9651	5355921	true	open	false	18		2016-11-17T01:24:28Z	2016-12-16T15:03:23Z		child_process: support numeric signal argument to kill.	73		
 9652	899444	true	open	false	38		2016-11-17T01:59:55Z	2016-12-14T17:32:50Z		src: allow loading lib/ files from disk	147		
 9653	10134378	true	closed	false	8		2016-11-17T04:59:59Z	2016-12-14T11:42:11Z	2016-12-14T11:42:11Z	url: add a got host pattern in url.js	39		
 9654	1131567	false	open	false	1		2016-11-17T05:20:20Z	2016-11-18T04:48:13Z		Buffer.isEncoding regards an empty string as a valid encoding	154		
@@ -2976,7 +2978,7 @@
 9786	10393198	false	closed	false	5		2016-11-24T12:59:32Z	2016-12-06T18:23:02Z	2016-12-06T18:23:02Z	Some questions about buffer doc	558		
 9787	275871	true	closed	false	0	0	2016-11-24T13:52:11Z	2016-12-01T13:03:53Z	2016-12-01T13:03:53Z	test: run cpplint on files in test/cctest	23		
 9788	7553275	false	closed	false	3		2016-11-24T13:55:53Z	2016-11-26T14:14:58Z	2016-11-24T14:32:11Z	Questions about setImmediate&I/O callback order	94		
-9789	2291463	false	open	false	0		2016-11-24T21:40:54Z	2016-11-26T15:48:36Z		Legacy JSON debug API removed as of V8 5.7	63		
+9789	2291463	false	open	false	1		2016-11-24T21:40:54Z	2016-12-16T15:17:13Z		Legacy JSON debug API removed as of V8 5.7	63		
 9790	718899	true	closed	false	3		2016-11-24T22:15:53Z	2016-11-28T05:52:13Z	2016-11-28T05:52:13Z	benchmark: reformat code for clarity	75		
 9791	718899	true	closed	false	1		2016-11-24T23:18:31Z	2016-11-28T05:55:29Z	2016-11-28T05:55:29Z	test: fix flaky test-cluster-dgram-2	98		
 9792	12400507	true	open	false	2		2016-11-24T23:41:44Z	2016-11-25T15:53:36Z		doc: clarifying variables in fs.write() and fs.read()	104		
@@ -3245,7 +3247,7 @@
 10055	19396993	true	open	false			2016-12-01T18:13:01Z	2016-12-04T18:07:51Z		test: refactor test-crypto-hash-stream-pipe	54		
 10056	2294736	true	closed	false	2	0	2016-12-01T18:14:07Z	2016-12-04T05:14:12Z	2016-12-04T05:14:12Z	test: update var to let/const and assert.equal to assert.strictEqual.	51		
 10057	13372907	true	closed	false	3		2016-12-01T18:22:24Z	2016-12-05T17:17:45Z	2016-12-05T03:58:17Z	switch assert.equal to assert.strictEqual	47		
-10058	13672036	true	open	false	5		2016-12-01T18:23:27Z	2016-12-16T14:28:42Z		test: add a RegExp	39		
+10058	13672036	true	open	false	8		2016-12-01T18:23:27Z	2016-12-16T15:06:29Z		test: add a RegExp	39		
 10059	1320750	true	open	false			2016-12-01T18:25:35Z	2016-12-02T17:56:10Z		repl:null check when invoked from cmdline with throw null	57		
 10060	4750614	true	closed	false	2		2016-12-01T19:07:23Z	2016-12-05T03:55:04Z	2016-12-05T03:55:04Z	test: refactor test-child-process-constructor	43		
 10061	19673907	true	closed	false	1		2016-12-01T19:12:16Z	2016-12-05T03:53:17Z	2016-12-05T03:53:17Z	 test: refactor test-repl-mode.js	39		
@@ -3341,7 +3343,7 @@
 10151	4299420	true	closed	false	10		2016-12-06T17:44:08Z	2016-12-09T18:32:14Z	2016-12-09T14:42:41Z	doc: buffer allocation methods throw for negative size	35		
 10152	4299420	true	closed	false	11		2016-12-06T17:59:12Z	2016-12-13T18:26:33Z	2016-12-13T18:26:33Z	buffer: throw a consistent range error for length > kMaxLength	802		
 10153	432351	true	closed	false	2		2016-12-06T18:35:20Z	2016-12-07T16:03:25Z	2016-12-07T16:03:25Z	build: fix node_g target	80		
-10154	13483453	false	open	false	13		2016-12-06T19:21:02Z	2016-12-10T10:57:21Z		setTimeout callback executed before delay elapses	116		
+10154	13483453	false	open	false	14		2016-12-06T19:21:02Z	2016-12-16T15:16:22Z		setTimeout callback executed before delay elapses	116		
 10155	439929	true	open	false	7		2016-12-06T19:56:27Z	2016-12-07T00:02:15Z		[WIP] Restore copyright attribution	249		
 10156	237796	true	open	false	18		2016-12-06T21:06:01Z	2016-12-15T03:44:16Z		build: change nosign flag to sign and flip the logic	158		
 10157	115237	true	open	false			2016-12-06T21:39:47Z	2016-12-06T23:16:44Z		src/doc: improve man page and --help	72		
@@ -3364,7 +3366,7 @@
 10174	580536	false	closed	false	2		2016-12-07T21:27:13Z	2016-12-08T14:17:10Z	2016-12-08T14:17:10Z	Windows binaries zip of node.js with npm	82		
 10175	5985850	true	open	false			2016-12-07T23:13:45Z	2016-12-08T22:45:57Z		buffer: removed unused variable conf from buffer-base64-decode & buffer-base64-encode	62		
 10176	11262165	true	closed	false	3	4	2016-12-08T01:20:35Z	2016-12-13T21:03:49Z	2016-12-13T21:03:49Z	test: refactor test-fs-fsync	59		
-10177	109983	true	open	false	13		2016-12-08T05:52:45Z	2016-12-16T13:23:44Z		test: swaps var for let/const throughout common module	66		
+10177	109983	true	open	false	15		2016-12-08T05:52:45Z	2016-12-16T15:42:24Z		test: swaps var for let/const throughout common module	66		
 10178	2352663	true	closed	false	5		2016-12-08T09:43:08Z	2016-12-10T09:52:11Z	2016-12-10T09:52:11Z	tools: enforce consistent operator linebreak style	151		
 10179	16321487	false	closed	false	1		2016-12-08T15:57:27Z	2016-12-08T16:09:45Z	2016-12-08T16:09:45Z	Asynchronous / Synchronous definitions	26		
 10180	2439838	false	open	false	2		2016-12-08T17:01:50Z	2016-12-09T15:57:31Z		occasional error with node compile failure (error 255 / ECONNRESET)	208		
@@ -3418,7 +3420,7 @@
 10231	568260	true	open	false	5		2016-12-12T01:47:05Z	2016-12-14T04:19:21Z		url, test: fix typo in inspect output, add test	97		
 10232	718899	true	closed	false	2		2016-12-12T04:38:55Z	2016-12-14T01:30:02Z	2016-12-14T01:30:02Z	test: refactor test-crypto-random	60		
 10233	2455054	false	closed	false	1		2016-12-12T07:29:27Z	2016-12-15T13:27:28Z	2016-12-15T13:27:28Z	possible edge case when packaging self-contained node with C++/CLI native modules	266		
-10234	6487691	false	open	false	11		2016-12-12T14:46:47Z	2016-12-16T14:08:32Z		test-stdio-closed failing on some AIX environments	247		
+10234	6487691	false	open	false	13		2016-12-12T14:46:47Z	2016-12-16T15:45:00Z		test-stdio-closed failing on some AIX environments	247		
 10235	24527049	false	closed	false	1		2016-12-12T15:53:14Z	2016-12-12T17:12:19Z	2016-12-12T17:12:19Z	Problems about 'ToInt32' is deprecated	324		
 10236	899444	true	open	false	6		2016-12-12T16:25:35Z	2016-12-13T17:49:26Z		buffer: allow Uint8Array input to methods	3934		
 10237	163333	false	open	false	0		2016-12-12T17:18:03Z	2016-12-12T17:18:03Z		FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - process out of memory	129		
@@ -3448,7 +3450,7 @@
 10261	17607	true	open	false	5		2016-12-14T01:42:41Z	2016-12-14T16:04:50Z		tls: update builtin cert bundle for 0.12	41		
 10262	1857993	true	open	false			2016-12-14T03:15:32Z	2016-12-14T04:23:33Z		doc: add warning about url.resolve	27		
 10263	8259431	false	closed	false	1		2016-12-14T04:48:49Z	2016-12-14T05:12:36Z	2016-12-14T05:12:36Z	Initialization Vector length in createCipheriv/createeciperiv for aes-128-ecb	125		
-10264	17607	true	open	false			2016-12-14T15:22:38Z	2016-12-16T02:34:52Z		doc: add tls.DEFAULT_ECDH_CURVE	47		
+10264	17607	true	open	false			2016-12-14T15:22:38Z	2016-12-16T15:33:12Z		doc: add tls.DEFAULT_ECDH_CURVE	47		
 10265	620746	false	open	false	2		2016-12-14T15:55:50Z	2016-12-14T17:06:01Z		crypto.pbkdf2Sync can't handle non ASCII character in Node 6.9.2	218		
 10266	13561163	true	closed	false	3	1	2016-12-14T16:04:24Z	2016-12-14T23:45:34Z	2016-12-14T23:45:34Z	test: add known_issues test for #6287	66		
 10267	9373002	true	open	false	4		2016-12-14T19:05:40Z	2016-12-15T22:18:06Z		doc: fix broken link in COLLABORATOR_GUIDE.md	65		
@@ -3456,7 +3458,7 @@
 10269	718899	true	open	false	0	0	2016-12-14T20:36:36Z	2016-12-14T20:36:36Z		test: refactor domain test	38		
 10270	10393198	true	open	false			2016-12-14T22:24:46Z	2016-12-15T14:15:17Z		doc: modernize code examples in the cluster.md	67		
 10271	532414	false	open	false	0		2016-12-14T23:09:38Z	2016-12-16T09:19:38Z		"Consider different C lib as ""cross-compile"""	149		
-10272	13561163	true	open	false	0		2016-12-14T23:51:22Z	2016-12-16T08:37:49Z		test: add known_issues test for #6287	66		
+10272	13561163	true	open	false			2016-12-14T23:51:22Z	2016-12-16T15:56:11Z		test: add known_issues test for #6287	66		
 10273	1189785	true	open	false	2		2016-12-15T00:07:34Z	2016-12-15T14:12:10Z		test: improve test-child-process-fork-and-spawn	52		
 10274	289174	true	open	false			2016-12-15T00:36:50Z	2016-12-16T01:10:23Z		src: return early if nextTickQueue is empty	90		
 10275	1189785	true	open	false	0	0	2016-12-15T01:09:09Z	2016-12-15T01:09:09Z		test: improve test-child-process-fork-and-spawn	52		
@@ -3466,7 +3468,7 @@
 10279	6712608	false	open	false	1		2016-12-15T07:07:56Z	2016-12-15T15:18:24Z		http.request() to a IPV6 server directly with IP address will be failed on MacOS.	198		
 10280	11898796	true	open	false	0	0	2016-12-15T07:21:00Z	2016-12-15T07:21:00Z		Merge pull request #1 from nodejs/master	48		
 10281	20139338	false	closed	false	1		2016-12-15T08:27:33Z	2016-12-15T12:02:50Z	2016-12-15T11:06:15Z	How to build Nodejs for an arm64 architecture machine ?	68		
-10282	4299420	true	open	false			2016-12-15T08:41:44Z	2016-12-16T10:54:39Z		assert: enforce type check in deepStrictEqual	87		
+10282	4299420	true	open	false	3		2016-12-15T08:41:44Z	2016-12-16T15:35:02Z		assert: enforce type check in deepStrictEqual	87		
 10283	15943089	true	open	false	11		2016-12-15T09:01:54Z	2016-12-16T14:15:12Z		build: remove zlib and cares headers from tarball	66		
 10284	3762808	false	open	false	3		2016-12-15T09:32:35Z	2016-12-15T15:06:07Z		dns.lookup() not considering Ipv6 entries in /etc/hosts file.	96		
 10285	20139338	false	closed	false	15		2016-12-15T11:09:57Z	2016-12-16T14:45:47Z	2016-12-16T14:45:47Z	Why the version of Node.js is not correct ?	48		
@@ -3474,18 +3476,19 @@
 10287	532414	true	open	false	1		2016-12-15T11:17:33Z	2016-12-15T14:12:19Z		Allow to explicitly define a build as (not) cross-compiled	153		
 10288	10245831	false	closed	false	5		2016-12-15T13:02:31Z	2016-12-16T14:08:44Z	2016-12-16T14:08:44Z	 Cannot find module 'write-file-atomic'	48		
 10289	163333	false	closed	false	1		2016-12-15T14:11:22Z	2016-12-15T16:25:07Z	2016-12-15T15:06:56Z	../../nan/nan.h:590:20: error: no type named 'GCEpilogueCallback' in 'v8::Isolate'	492		
-10290	1062181	false	open	false	0		2016-12-15T15:50:24Z	2016-12-15T15:50:24Z		`dns.lookup('localhost', ...)` fails on Surface Pro 3 in Airplane Mode	225		
+10290	1062181	false	open	false	1		2016-12-15T15:50:24Z	2016-12-16T15:17:52Z		`dns.lookup('localhost', ...)` fails on Surface Pro 3 in Airplane Mode	225		
 10291	10169274	true	open	false	4		2016-12-15T18:39:17Z	2016-12-16T05:23:16Z		test: clean up test-domain-no-error-handler-abort-on-uncaught.js	44		
 10292	24595609	false	open	false	5		2016-12-15T21:33:47Z	2016-12-16T14:40:04Z		console.log and util.format should support the %i integer conversion	110		
 10293	718899	true	open	false	5		2016-12-15T22:03:26Z	2016-12-16T01:09:39Z		test: fix flaky test-http-client-timeout-event	45		
 10294	17607	true	open	false	2		2016-12-15T22:26:59Z	2016-12-16T14:58:46Z		tls: allow obvious key/passphrase combinations	94		
 10295	9287	false	open	false	2		2016-12-15T22:43:36Z	2016-12-16T05:25:22Z		RFE: A way to spawn a foreground process	172		
 10296	677994	true	open	false			2016-12-15T23:25:24Z	2016-12-16T13:41:51Z		repl: allow autocompletion for scoped packages	59		
-10297	1189785	true	open	false			2016-12-16T00:10:03Z	2016-12-16T07:11:22Z		test: refactor code in test-cluster-http-pipe	72		
+10297	1189785	true	open	false	2		2016-12-16T00:10:03Z	2016-12-16T15:43:49Z		test: refactor code in test-cluster-http-pipe	72		
 10298	13918090	true	open	false	0	0	2016-12-16T02:26:42Z	2016-12-16T02:26:42Z		Merge pull request #1 from nodejs/master	50		
 10299	6354455	true	open	false	0	0	2016-12-16T03:19:39Z	2016-12-16T03:19:39Z		test: stream readable resumeScheduled state	47		
 10300	2352663	false	open	false	0		2016-12-16T07:20:59Z	2016-12-16T07:20:59Z		String decoder must be fixed for next V8 update	158		
 10301	2352663	true	open	false	0	0	2016-12-16T08:48:33Z	2016-12-16T08:48:33Z		tools: forbid template literals in assert.throws	69		
-10302	24506672	false	open	false	2		2016-12-16T11:24:19Z	2016-12-16T14:47:27Z		child_process.spawn parity between windows and posix	171		
+10302	24506672	false	open	false	3		2016-12-16T11:24:19Z	2016-12-16T15:08:05Z		child_process.spawn parity between windows and posix	171		
 10303	175003	false	open	false	1		2016-12-16T12:39:40Z	2016-12-16T13:27:46Z		error when building node 7 series on OpenWRT + mips relying on uClibc	183		
-10304	20139338	false	open	false	2		2016-12-16T13:56:29Z	2016-12-16T14:10:23Z		Error when compiling Node.js for an ARM architecture	130		
+10304	20139338	false	open	false	8		2016-12-16T13:56:29Z	2016-12-16T15:03:07Z		Error when compiling Node.js for an ARM architecture	130		
+10305	20139338	false	open	false	0		2016-12-16T15:44:37Z	2016-12-16T15:44:37Z		/usr/bin/env: node: No such file or directory	229		
