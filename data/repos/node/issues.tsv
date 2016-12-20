@@ -1650,7 +1650,7 @@
 8456	11638619	true	closed	false	11	3	2016-09-08T23:31:27Z	2016-09-12T04:06:38Z	2016-09-12T04:06:38Z	test: make crypto.timingSafeEqual test less flaky	141		
 8457	1093990	true	open	false	5		2016-09-08T23:40:40Z	2016-09-09T14:45:46Z		v6.6.0 Proposal (old)	16		
 8458	551402	true	open	false	13		2016-09-09T04:22:47Z	2016-09-12T04:24:41Z		test: clean up net server try ports test	46		
-8459	718899	false	open	false	5		2016-09-09T06:30:52Z	2016-12-20T20:11:35Z		Investigate flaky sequential/test-timers-same-timeout-wrong-list-deleted	43		
+8459	718899	false	open	false	6		2016-09-09T06:30:52Z	2016-12-20T21:33:35Z		Investigate flaky sequential/test-timers-same-timeout-wrong-list-deleted	43		
 8460	275871	false	open	false	1		2016-09-09T08:11:59Z	2016-09-12T07:30:35Z		Make setTimeout and setImmediate timers run consecutively	53		
 8461	18223385	false	closed	false	1		2016-09-09T09:58:35Z	2016-09-11T03:57:20Z	2016-09-11T03:57:20Z	how use shell( wget...) auto install nodeJs 	58		
 8462	899444	true	closed	false	2	0	2016-09-09T10:53:26Z	2016-10-04T18:39:09Z	2016-10-04T18:39:09Z	v4.x backport: test,doc: clarify `buf.indexOf(num)` input range	10		
@@ -3035,7 +3035,7 @@
 9841	498775	false	closed	false	21		2016-11-29T18:22:10Z	2016-12-05T06:09:28Z	2016-12-05T06:09:28Z	"New ""Notable change"" label."	51		
 9842	4448075	true	closed	false	7		2016-11-29T19:09:38Z	2016-12-01T19:52:27Z	2016-12-01T19:52:27Z	test: replace assert.equal with assert.strictEqual	60		
 9843	2352663	true	closed	false	2		2016-11-29T19:37:40Z	2016-12-01T17:41:32Z	2016-12-01T17:41:32Z	test: refactor test-crypto-timing-safe-equal	39		
-9844	2352663	true	closed	false	1	1	2016-11-29T19:38:24Z	2016-12-02T12:29:50Z	2016-12-02T12:29:50Z	test: refactor test-fs-non-number-arguments-throw	46		
+9844	2352663	true	closed	false	2		2016-11-29T19:38:24Z	2016-12-20T21:17:17Z	2016-12-02T12:29:50Z	test: refactor test-fs-non-number-arguments-throw	46		
 9845	5212649	false	closed	false	7		2016-11-29T19:57:23Z	2016-12-01T20:05:17Z	2016-12-01T12:32:12Z	socket hang up on https request	525		
 9846	718899	true	closed	false	1		2016-11-29T20:25:58Z	2016-12-02T15:09:20Z	2016-12-02T15:09:20Z	doc: update Collaborators list in README	53		
 9847	983798	true	closed	false	9		2016-11-29T22:28:58Z	2016-12-15T09:38:00Z	2016-12-05T15:23:56Z	deps: upgrade npm in LTS to 3.10.10	86		
@@ -3169,7 +3169,7 @@
 9975	7142618	true	closed	false	2		2016-12-01T17:02:18Z	2016-12-08T00:46:17Z	2016-12-08T00:46:17Z	test: use `assert.strictEqual`	45		
 9976	2294736	true	closed	false	3	0	2016-12-01T17:03:54Z	2016-12-07T15:24:49Z	2016-12-07T15:24:49Z	test: assert.throws() should include a RegExp	54		
 9977	5799538	true	closed	false	9	3	2016-12-01T17:04:46Z	2016-12-04T05:08:58Z	2016-12-04T05:08:58Z	nina 2016 code-n-learn, issue: use assert.Equal()	64		
-9978	408692	true	closed	false	5	0	2016-12-01T17:07:09Z	2016-12-05T20:43:42Z	2016-12-05T20:43:42Z	test: Modernize test-fs-truncate-fd	61		
+9978	408692	true	closed	false	6		2016-12-01T17:07:09Z	2016-12-20T22:02:30Z	2016-12-05T20:43:42Z	test: Modernize test-fs-truncate-fd	61		
 9979	4577691	false	open	false	18		2016-12-01T17:07:24Z	2016-12-19T05:12:09Z		Test hangs on OSX 10.9.5 test-domain-no-error-handler-abort-on-uncaught.js	36		
 9980	7246312	true	open	false	3		2016-12-01T17:07:28Z	2016-12-04T04:17:03Z		Updated test-crypto-ecb.js to change assert.equal to assert.strictEqual	44		
 9981	1535252	true	closed	false	3	0	2016-12-01T17:09:02Z	2016-12-08T00:50:55Z	2016-12-08T00:50:55Z	test: fix error in test-cluster-worker-death.js	63		
@@ -3271,7 +3271,7 @@
 10077	4900842	true	closed	false	2		2016-12-01T21:06:45Z	2016-12-04T23:37:35Z	2016-12-04T23:37:35Z	test: Use strictEqual in cwd-enoent	37		
 10078	12154939	true	closed	false	0		2016-12-01T21:11:54Z	2016-12-03T13:23:05Z	2016-12-03T13:23:05Z	doc: clarify fs.createReadStream options	65		
 10079	837500	true	closed	false	1		2016-12-01T21:25:49Z	2016-12-03T15:56:03Z	2016-12-03T15:56:03Z	test: replace var with let and const also replace equal with strictEqual	63		
-10080	4212452	true	closed	false	3		2016-12-01T21:38:51Z	2016-12-03T10:58:44Z	2016-12-03T10:58:44Z	test: test for http.request() invalid method error	69		
+10080	4212452	true	closed	false	4		2016-12-01T21:38:51Z	2016-12-20T21:23:50Z	2016-12-03T10:58:44Z	test: test for http.request() invalid method error	69		
 10081	533625	false	closed	false	2		2016-12-01T22:53:12Z	2016-12-01T23:11:14Z	2016-12-01T22:56:08Z	Alpine require native module: __strncpy_chk: symbol not found	105		
 10082	806363	true	closed	false	14		2016-12-01T23:27:40Z	2016-12-16T19:34:51Z	2016-12-16T19:34:51Z	src: fix string format mistake for 32 bit node	65		
 10083	4299420	true	closed	false	2		2016-12-02T01:15:23Z	2016-12-04T23:50:26Z	2016-12-04T23:50:26Z	test, url: improve escaping in url.parse	59		
@@ -3465,7 +3465,7 @@
 10274	289174	true	open	false			2016-12-15T00:36:50Z	2016-12-19T23:23:01Z		src: return early if nextTickQueue is empty	90		
 10275	1189785	true	closed	false	2		2016-12-15T01:09:09Z	2016-12-18T01:15:07Z	2016-12-18T01:15:07Z	test: improve test-child-process-exec-buffer	52		
 10276	4421720	true	open	false	3		2016-12-15T01:48:14Z	2016-12-17T18:59:42Z		src, lib: deprecate old debug-agent and CLI debugger	138		
-10277	6354455	true	open	false	28		2016-12-15T02:09:18Z	2016-12-20T02:49:35Z		v7.3.0 proposal	1371		
+10277	6354455	true	closed	false	29	0	2016-12-15T02:09:18Z	2016-12-20T21:32:42Z	2016-12-20T21:32:41Z	v7.3.0 proposal	1597	2512748	2016-12-20T21:32:41Z
 10278	54666	true	open	false			2016-12-15T06:40:45Z	2016-12-19T11:38:29Z		src: improve hex encoding performance	132		
 10279	6712608	false	open	false	1		2016-12-15T07:07:56Z	2016-12-15T15:18:24Z		http.request() to a IPV6 server directly with IP address will be failed on MacOS.	198		
 10280	11898796	true	open	false	0	0	2016-12-15T07:21:00Z	2016-12-15T07:21:00Z		Merge pull request #1 from nodejs/master	48		
@@ -3544,5 +3544,7 @@
 10356	275871	true	open	false	2		2016-12-20T12:12:03Z	2016-12-20T14:08:40Z		deps: define missing operator delete functions	83		
 10357	5655189	true	open	false	0		2016-12-20T13:00:43Z	2016-12-20T16:17:42Z		test: refactor the code in test-fs-watch.js	70		
 10358	40952	false	open	false	2		2016-12-20T13:21:44Z	2016-12-20T19:14:23Z		HTTP client returns truncated response	464		
-10359	22550884	true	open	false	0	0	2016-12-20T19:48:31Z	2016-12-20T19:48:31Z		test: basic  functionality of readUIntLE()	30		
+10359	22550884	true	open	false	1		2016-12-20T19:48:31Z	2016-12-20T21:17:45Z		test: basic  functionality of readUIntLE()	29		
 10360	54666	true	open	false	0	0	2016-12-20T20:03:29Z	2016-12-20T20:03:29Z		benchmark: use commas in non-csv rate output	55		
+10361	498775	false	open	false	0		2016-12-20T21:20:08Z	2016-12-20T21:20:08Z		Debugger tests are timing out on v4.x	27		
+10362	718899	true	open	false	0	0	2016-12-20T21:46:32Z	2016-12-20T21:46:32Z		test: fix timers-same-timeout-wrong-list-deleted	227		
