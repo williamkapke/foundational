@@ -1650,7 +1650,7 @@
 8456	11638619	true	closed	false	11	3	2016-09-08T23:31:27Z	2016-09-12T04:06:38Z	2016-09-12T04:06:38Z	test: make crypto.timingSafeEqual test less flaky	141		
 8457	1093990	true	open	false	5		2016-09-08T23:40:40Z	2016-09-09T14:45:46Z		v6.6.0 Proposal (old)	16		
 8458	551402	true	open	false	13		2016-09-09T04:22:47Z	2016-09-12T04:24:41Z		test: clean up net server try ports test	46		
-8459	718899	false	open	false	4		2016-09-09T06:30:52Z	2016-12-20T18:15:40Z		Investigate flaky parallel/test-timers-same-timeout-wrong-list-deleted on Windows	43		
+8459	718899	false	open	false	5		2016-09-09T06:30:52Z	2016-12-20T20:11:35Z		Investigate flaky sequential/test-timers-same-timeout-wrong-list-deleted	43		
 8460	275871	false	open	false	1		2016-09-09T08:11:59Z	2016-09-12T07:30:35Z		Make setTimeout and setImmediate timers run consecutively	53		
 8461	18223385	false	closed	false	1		2016-09-09T09:58:35Z	2016-09-11T03:57:20Z	2016-09-11T03:57:20Z	how use shell( wget...) auto install nodeJs 	58		
 8462	899444	true	closed	false	2	0	2016-09-09T10:53:26Z	2016-10-04T18:39:09Z	2016-10-04T18:39:09Z	v4.x backport: test,doc: clarify `buf.indexOf(num)` input range	10		
@@ -2365,7 +2365,7 @@
 9171	899444	true	open	false	5		2016-10-18T20:35:16Z	2016-10-19T12:55:43Z		streams: fix regression in `unpipe()`	130		
 9172	9522710	false	closed	false	3		2016-10-18T21:28:03Z	2016-10-24T23:21:14Z	2016-10-21T10:25:35Z	Seg fault while executing function	126		
 9173	4976075	true	closed	false	5		2016-10-18T23:43:54Z	2016-11-28T17:07:16Z	2016-11-28T17:07:16Z	deps: cherry pick 7166503 from upstream v8	45		
-9174	289174	true	closed	false	5		2016-10-18T23:45:40Z	2016-11-15T18:41:05Z	2016-10-20T19:46:54Z	buffer: fix range checks for slice()	144		
+9174	289174	true	closed	false	5		2016-10-18T23:45:40Z	2016-12-20T20:32:49Z	2016-10-20T19:46:54Z	buffer: fix range checks for slice()	144		
 9175	2292713	false	open	false	3		2016-10-19T04:34:49Z	2016-10-25T06:41:59Z		Step out/Shift F11/Out debug command does not stop when exception is thrown inside a function	139		
 9176	6769982	false	closed	false	2		2016-10-19T07:16:40Z	2016-10-19T09:43:24Z	2016-10-19T08:11:22Z	node app not exiting in case of reference error	46		
 9177	20339155	true	closed	false	1	0	2016-10-19T08:48:22Z	2016-10-19T09:01:42Z	2016-10-19T09:01:42Z	Add ssh and mongodb to the list of slashed protocols	84		
@@ -2428,7 +2428,7 @@
 9234	855219	true	closed	false	18	0	2016-10-22T00:00:47Z	2016-10-31T20:53:56Z	2016-10-31T20:53:56Z	Icu4c 58	85		
 9235	7606483	true	closed	false	2	0	2016-10-22T00:59:48Z	2016-10-24T14:07:42Z	2016-10-24T14:07:42Z	doc: fixes formatting in process	45		
 9236	406656	false	open	false	4		2016-10-22T01:35:33Z	2016-10-22T08:28:51Z		"tls.connect() fails with ""sslv3 alert handshake failure"" (RC4/MD5/DES cipher support)"	88		
-9237	855219	false	closed	false	12		2016-10-22T02:02:41Z	2016-10-29T22:54:36Z	2016-10-27T02:27:40Z	Add version info: CLDR, Unicode, Timezone	148		
+9237	855219	false	closed	false	14		2016-10-22T02:02:41Z	2016-12-20T20:36:01Z	2016-10-27T02:27:40Z	Add version info: CLDR, Unicode, Timezone	154		
 9238	11638619	true	closed	false	13		2016-10-22T02:43:40Z	2016-10-26T18:00:59Z	2016-10-26T18:00:59Z	buffer: fix `fill` with encoding in Buffer.alloc()	74		
 9239	5827364	true	closed	false	6		2016-10-22T04:50:18Z	2016-10-26T19:28:56Z	2016-10-26T19:28:56Z	test: refactor /parallel/test-cluster-uncaught-exception.js to ES6	54		
 9240	4235596	false	open	false	0		2016-10-22T13:11:53Z	2016-10-22T13:11:53Z		Stream module	58		
@@ -2495,7 +2495,7 @@
 9301	5454763	false	closed	false	6		2016-10-26T21:34:56Z	2016-11-01T01:30:16Z	2016-10-26T22:20:41Z	() => {}.bind(this) is not parsed correctly	59		
 9302	170197	false	closed	false	1		2016-10-26T21:44:13Z	2016-12-07T17:22:12Z	2016-12-07T17:22:12Z	WHATWG URLSearchParams issue	52		
 9303	718899	true	closed	false	4		2016-10-26T22:49:47Z	2016-10-29T00:11:07Z	2016-10-29T00:11:07Z	test: fix flaky test-fs-watch-recursive on OS X	127		
-9304	1485909	true	open	false	80		2016-10-26T23:53:35Z	2016-12-20T18:53:31Z		Trace event support for Node.js	393		
+9304	1485909	true	closed	false	81		2016-10-26T23:53:35Z	2016-12-20T20:33:43Z	2016-12-20T20:33:43Z	Trace event support for Node.js	393		
 9305	718899	true	closed	false	2		2016-10-26T23:56:36Z	2016-10-29T00:13:03Z	2016-10-29T00:13:02Z	test: run all of test-timers-blocking-callback	58		
 9306	110455	true	open	false	5		2016-10-27T00:17:55Z	2016-12-05T23:03:40Z		process: maintain constructor descriptor	74		
 9307	2512748	true	closed	false	3		2016-10-27T02:51:24Z	2016-11-22T14:15:49Z	2016-10-29T17:35:47Z	test: add child_process customFds test	48		
@@ -2716,7 +2716,7 @@
 9522	1269045	false	open	false	0		2016-11-08T22:13:57Z	2016-11-08T22:13:57Z		npm fails in 6.9.1 installation	99		
 9523	448908	false	closed	false	15		2016-11-09T00:04:38Z	2016-12-05T17:31:09Z	2016-12-05T17:31:09Z	unhandledRejection Stack Traces are unhelpful	160		
 9524	718899	true	open	false	0	0	2016-11-09T00:33:36Z	2016-11-09T00:33:36Z		zlib: fix linting recently-introduce lint error	58		
-9525	899444	true	open	false	6		2016-11-09T01:17:51Z	2016-12-05T17:11:12Z		promise: better stack traces for --trace-warnings	83		
+9525	899444	true	closed	false	9		2016-11-09T01:17:51Z	2016-12-20T20:20:37Z	2016-12-05T17:30:18Z	promise: better stack traces for --trace-warnings	83		
 9526	12429142	false	closed	false	4		2016-11-09T03:35:45Z	2016-11-09T14:02:11Z	2016-11-09T08:54:25Z	make error left operand of shift expression is negative	111		
 9527	9364651	true	closed	false	2		2016-11-09T04:08:28Z	2016-11-11T15:11:05Z	2016-11-11T15:11:05Z	fixes link to Event Loop page	46		
 9528	2512748	true	closed	false	5	3	2016-11-09T15:25:13Z	2016-11-15T20:39:03Z	2016-11-15T20:39:03Z	test: add test for broken child process stdio	82	2512748	2016-11-15T20:39:03Z
@@ -2821,7 +2821,7 @@
 9627	4421720	true	closed	false	1		2016-11-15T20:31:15Z	2016-11-20T00:58:15Z	2016-11-20T00:58:15Z	src,inspector: fix method name, output format	56		
 9628	10393198	true	open	false	2		2016-11-16T00:01:31Z	2016-11-19T17:08:36Z		doc: small improvements in readline code examples	137		
 9629	5351085	true	closed	false	11		2016-11-16T00:13:47Z	2016-12-07T20:21:03Z	2016-12-07T20:21:03Z	test: improve test-fs-read-stream.js	14		
-9630	287917	true	open	false	8		2016-11-16T01:47:39Z	2016-12-06T22:26:41Z		inspector: split HTTP/WS server from the inspector	146		
+9630	287917	true	closed	false	11		2016-11-16T01:47:39Z	2016-12-20T20:56:37Z	2016-12-06T22:49:52Z	inspector: split HTTP/WS server from the inspector	146		
 9631	899444	true	closed	false	3		2016-11-16T01:49:57Z	2016-11-20T01:40:46Z	2016-11-20T00:52:06Z	src: allow getting Symbols on process.env	71		
 9632	899444	true	closed	false	3		2016-11-16T02:04:11Z	2016-11-19T23:55:44Z	2016-11-19T23:55:44Z	tools,doc: better manpage refs	67		
 9633	4229856	false	open	false	6		2016-11-16T07:58:49Z	2016-11-16T20:13:28Z		Output data lost from spawned process if process ends before all data read	274		
@@ -2986,7 +2986,7 @@
 9792	12400507	true	open	false	2		2016-11-24T23:41:44Z	2016-11-25T15:53:36Z		doc: clarifying variables in fs.write() and fs.read()	104		
 9793	1488688	false	open	false	0		2016-11-24T23:51:10Z	2016-11-24T23:51:10Z		Z_BUF_ERROR	88		
 9794	11139560	false	open	false	5		2016-11-25T00:12:47Z	2016-11-25T04:06:46Z		NPM postinstall script not compiling with vm.runInThisContext	335		
-9795	10393198	true	open	false	10		2016-11-25T04:16:54Z	2016-12-06T18:15:15Z		doc: small fixes in the buffer.md	111		
+9795	10393198	true	closed	false	14		2016-11-25T04:16:54Z	2016-12-20T20:53:53Z	2016-12-06T18:22:39Z	doc: small fixes in the buffer.md	111		
 9796	5876036	true	closed	false	6		2016-11-25T07:07:59Z	2016-11-25T18:26:34Z	2016-11-25T17:20:34Z	"fix crypto ""Verify"" typo"	63		
 9797	291301	false	open	false	7		2016-11-25T13:31:17Z	2016-11-28T11:24:19Z		Feature proposal: buffer.convert(value[, fromEnc], toEnc)	200		
 9798	12400507	true	open	false	3		2016-11-25T19:19:25Z	2016-11-26T05:18:16Z		test: known issue url.parse() does not return an empty string	60		
@@ -3006,7 +3006,7 @@
 9812	2352663	true	closed	false	2		2016-11-26T11:21:53Z	2016-11-29T12:20:07Z	2016-11-29T12:20:07Z	test: refactor test-net-pingpong	71		
 9813	10140041	false	open	false	0		2016-11-26T14:34:52Z	2016-11-26T14:34:52Z		getting unnecessary error to install phonegap using npm.	202		
 9814	718899	true	closed	false	9		2016-11-26T17:55:25Z	2016-11-27T10:31:52Z	2016-11-26T19:42:42Z	"Revert ""buffer: convert offset & length to int properly"""	112		
-9815	696611	true	closed	false	7		2016-11-27T10:30:04Z	2016-12-07T05:07:03Z	2016-12-05T12:46:30Z	buffer: convert offset & length to int properly	162		
+9815	696611	true	closed	false	9		2016-11-27T10:30:04Z	2016-12-20T20:15:57Z	2016-12-05T12:46:30Z	buffer: convert offset & length to int properly	162		
 9816	718899	true	closed	false	2	0	2016-11-27T19:17:40Z	2016-11-29T21:46:32Z	2016-11-29T21:46:32Z	doc: clarify introductory module material	26		
 9817	374012	false	open	false	0		2016-11-27T22:55:08Z	2016-11-27T22:55:08Z		{Hash, Hmac}.digest and sign hard crash when supplied 'ucs2' encoding	140		
 9818	304505	false	open	false	13		2016-11-28T00:25:48Z	2016-11-28T21:49:32Z		Crashing with Abort on FreeBSD when run via Salt.	230		
@@ -3029,7 +3029,7 @@
 9835	1581989	false	closed	false	5		2016-11-29T08:27:55Z	2016-11-30T00:45:51Z	2016-11-29T11:34:48Z	bable-node not working	72		
 9836	289174	false	closed	false	1		2016-11-29T08:28:24Z	2016-12-13T00:44:05Z	2016-12-12T16:00:14Z	[buffer] fill() for utf16le is broken	30		
 9837	899444	true	closed	false	6		2016-11-29T11:12:21Z	2016-12-12T15:59:12Z	2016-12-12T15:59:12Z	buffer: fix single-character string filling	97		
-9838	899444	true	closed	false	2		2016-11-29T11:27:19Z	2016-12-06T00:47:43Z	2016-12-06T00:47:43Z	buffer: fix transcode for single-byte enc to ucs2	63		
+9838	899444	true	closed	false	2		2016-11-29T11:27:19Z	2016-12-20T20:36:41Z	2016-12-06T00:47:43Z	buffer: fix transcode for single-byte enc to ucs2	63		
 9839	12165955	false	open	false	0		2016-11-29T12:30:48Z	2016-11-29T12:30:48Z		Solaris 11.3 build issue:	204		
 9840	718899	false	open	false	0		2016-11-29T15:32:53Z	2016-11-29T15:32:53Z		doc: doc/api/modules.md needs a better explanation of `exports`	45		
 9841	498775	false	closed	false	21		2016-11-29T18:22:10Z	2016-12-05T06:09:28Z	2016-12-05T06:09:28Z	"New ""Notable change"" label."	51		
@@ -3280,7 +3280,7 @@
 10086	8873545	true	closed	false	1	0	2016-12-02T07:27:29Z	2016-12-04T23:39:24Z	2016-12-04T23:39:24Z	doc: fix typo for `decipher.final`.	43		
 10087	158390	true	closed	false	0		2016-12-02T07:33:39Z	2016-12-04T23:42:08Z	2016-12-04T23:42:08Z	test: polish test-net-better-error-messages-listen	50		
 10088	24241976	false	open	false	0		2016-12-02T10:27:11Z	2016-12-02T10:27:11Z		how can i solve this issue	25		
-10089	2352663	true	closed	false	4	0	2016-12-02T12:49:19Z	2016-12-05T15:02:31Z	2016-12-05T15:02:30Z	tools: add ESLint rule for assert.throws arguments	138		
+10089	2352663	true	closed	false	5		2016-12-02T12:49:19Z	2016-12-20T20:19:59Z	2016-12-05T15:02:30Z	tools: add ESLint rule for assert.throws arguments	138		
 10090	175530	true	open	false	0	0	2016-12-02T17:06:04Z	2016-12-02T17:06:04Z		doc: it’s -> its in api/child_process.md	34		
 10091	2441666	true	open	false	2		2016-12-02T17:48:53Z	2016-12-07T17:37:42Z		tools: adding osx-uninstall script	212		
 10092	10393198	true	closed	false	1		2016-12-02T18:06:52Z	2016-12-03T13:13:27Z	2016-12-03T13:13:27Z	doc: var => const in js code examples of addons.md	22		
@@ -3294,7 +3294,7 @@
 10100	4800357	true	open	false	2		2016-12-02T23:59:44Z	2016-12-05T12:19:19Z		test: updated test-stream-pipe-unpipe-stream	44		
 10101	3397140	false	open	false	33		2016-12-03T01:16:49Z	2016-12-13T23:40:02Z		process.nextTick & node::MakeCallback are very bloated	296		
 10102	10393198	true	closed	false	5		2016-12-03T05:52:58Z	2016-12-12T15:57:26Z	2016-12-12T15:57:26Z	doc: some fixes in child_process.md	66		
-10103	11638619	true	closed	false	3	0	2016-12-03T08:16:26Z	2016-12-06T07:29:58Z	2016-12-06T07:29:58Z	repl: avoid parsing division operator as regex	62	11638619	2016-12-06T07:29:58Z
+10103	11638619	true	closed	false	5		2016-12-03T08:16:26Z	2016-12-20T20:46:17Z	2016-12-06T07:29:58Z	repl: avoid parsing division operator as regex	62		
 10104	2352663	false	open	false	1		2016-12-03T14:17:25Z	2016-12-05T21:37:18Z		Investigate AIX test failures	23		
 10105	837500	true	closed	false	2	1	2016-12-03T16:28:53Z	2016-12-08T00:17:58Z	2016-12-08T00:17:58Z	test: refactor test-https-agent-session-reuse	57		
 10106	1108065	true	closed	false	1	0	2016-12-04T00:42:59Z	2016-12-04T12:31:45Z	2016-12-04T12:31:45Z	Correcting parameters for vcbuild on Windows	72		
@@ -3533,7 +3533,7 @@
 10345	17607	true	closed	false	1	0	2016-12-19T21:23:40Z	2016-12-20T14:32:13Z	2016-12-20T14:32:13Z	doc: fix typo in ecdhCurve, a tls property name	32		
 10346	238531	true	open	false	8		2016-12-19T22:17:40Z	2016-12-20T10:44:14Z		stream_wrap: export `_externalUVStream`	60		
 10347	609229	false	open	false	5		2016-12-19T22:50:03Z	2016-12-20T00:14:55Z		Destructuring of arrow function arguments via computed property throws in v6.9.2	86		
-10348	287917	true	open	false	2		2016-12-20T00:20:21Z	2016-12-20T15:35:29Z		inspector: do not rely on debug context	72		
+10348	287917	true	open	false	3		2016-12-20T00:20:21Z	2016-12-20T20:03:46Z		inspector: do not rely on debug context	72		
 10349	149531	false	open	false	4		2016-12-20T02:22:38Z	2016-12-20T15:07:39Z		HTTPS Feature request: Hotswap TLS certificates	63		
 10350	1189785	true	open	false	1		2016-12-20T02:35:32Z	2016-12-20T03:24:58Z		test: refactor the code in test-http-keep-alive	58		
 10351	19588484	true	open	false	0	0	2016-12-20T03:38:15Z	2016-12-20T03:38:15Z		Update code latest code changes	50		
@@ -3545,3 +3545,4 @@
 10357	5655189	true	open	false	0		2016-12-20T13:00:43Z	2016-12-20T16:17:42Z		test: refactor the code in test-fs-watch.js	70		
 10358	40952	false	open	false	2		2016-12-20T13:21:44Z	2016-12-20T19:14:23Z		HTTP client returns truncated response	464		
 10359	22550884	true	open	false	0	0	2016-12-20T19:48:31Z	2016-12-20T19:48:31Z		test: basic  functionality of readUIntLE()	30		
+10360	54666	true	open	false	0	0	2016-12-20T20:03:29Z	2016-12-20T20:03:29Z		benchmark: use commas in non-csv rate output	55		
