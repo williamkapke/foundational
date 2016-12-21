@@ -362,7 +362,7 @@
 6525	5750	false	closed	false	6		2016-05-02T15:58:56Z	2016-06-27T17:25:01Z	2016-06-27T17:25:01Z	Result of outer generator .return method incorrect if delegate iterator has no .return method	115		
 6526	2024235	false	closed	false	9		2016-05-02T18:45:42Z	2016-07-11T21:08:24Z	2016-05-02T19:12:07Z	import??	53		
 6528	291301	false	open	false	19		2016-05-02T20:27:59Z	2016-08-06T20:58:05Z		API stability level «Locked» is inaccurate	167		
-6533	54666	true	open	false			2016-05-02T21:15:42Z	2016-12-21T14:37:31Z		http: server code refactor	619		
+6533	54666	true	open	false	11		2016-05-02T21:15:42Z	2016-12-21T15:30:19Z		http: server code refactor	619		
 6543	568962	false	open	false	18		2016-05-03T08:01:47Z	2016-08-17T14:51:56Z		discuss: tool to simplify landing of PR	206		
 6550	782880	true	closed	false	12		2016-05-03T19:33:57Z	2016-08-26T19:55:00Z	2016-05-04T15:37:15Z	Upgrade to openssl 102h for master	124		
 6558	238531	true	closed	false	12		2016-05-04T03:12:57Z	2016-07-07T07:30:44Z	2016-05-04T19:30:16Z	Support ASLR in v8's profiler	39		
@@ -3530,10 +3530,10 @@
 10341	3899684	false	open	false	1		2016-12-19T17:01:31Z	2016-12-19T20:05:05Z		build, api, docs: android support	155		
 10342	1485909	true	closed	false	9		2016-12-19T19:03:03Z	2016-12-20T00:38:41Z	2016-12-20T00:38:41Z	deps: cherry-pick 081fce3 from V8 upstream	12		
 10343	6487691	true	open	false			2016-12-19T19:22:34Z	2016-12-20T07:38:12Z		doc: Update CONTRIBUTING.md with backport info	120		
-10344	54666	false	open	false	6		2016-12-19T19:39:27Z	2016-12-19T21:28:24Z		http: IncomingMessage not emitting 'end'	126		
+10344	54666	false	closed	false	8		2016-12-19T19:39:27Z	2016-12-21T16:07:54Z	2016-12-21T16:07:54Z	http: IncomingMessage not emitting 'end'	126		
 10345	17607	true	closed	false	1	0	2016-12-19T21:23:40Z	2016-12-20T14:32:13Z	2016-12-20T14:32:13Z	doc: fix typo in ecdhCurve, a tls property name	32		
 10346	238531	true	open	false	8		2016-12-19T22:17:40Z	2016-12-20T10:44:14Z		stream_wrap: export `_externalUVStream`	60		
-10347	609229	false	open	false	13		2016-12-19T22:50:03Z	2016-12-21T13:25:02Z		Destructuring of arrow function arguments via computed property throws in v6.x	66		
+10347	609229	false	open	false	17		2016-12-19T22:50:03Z	2016-12-21T15:25:05Z		Destructuring of arrow function arguments via computed property throws in v6.x	66		
 10348	287917	true	open	false	3		2016-12-20T00:20:21Z	2016-12-20T20:03:46Z		inspector: do not rely on debug context	72		
 10349	149531	false	open	false	4		2016-12-20T02:22:38Z	2016-12-20T15:07:39Z		HTTPS Feature request: Hotswap TLS certificates	63		
 10350	1189785	true	open	false	2		2016-12-20T02:35:32Z	2016-12-21T00:01:28Z		test: refactor the code in test-http-keep-alive	58		
@@ -3558,7 +3558,7 @@
 10369	20425798	true	open	false	0	0	2016-12-21T01:35:48Z	2016-12-21T01:35:48Z		cluster:RR - Added public API pausing/unpausing a worker	143		
 10370	696611	true	open	false	0		2016-12-21T01:56:29Z	2016-12-21T06:16:18Z		test: fix and improve debug-break-on-uncaught	85		
 10371	696611	true	open	false	1		2016-12-21T02:18:36Z	2016-12-21T06:09:15Z		test: fix and improve debugger-client test	89		
-10372	170197	false	open	false	7		2016-12-21T03:07:38Z	2016-12-21T14:17:33Z		searchParams empty value not keyed	28		
+10372	170197	false	open	false	9		2016-12-21T03:07:38Z	2016-12-21T15:44:48Z		searchParams empty value not keyed	28		
 10373	696611	true	open	false	0	0	2016-12-21T04:27:54Z	2016-12-21T04:27:54Z		"v4.x: backport of ""make configure file parseable on python3"""	36		
 10374	617481	false	open	false	2		2016-12-21T04:36:44Z	2016-12-21T13:52:54Z		Remove nonstandard URL.originFor	29		
 10375	617481	false	open	false	0		2016-12-21T04:38:10Z	2016-12-21T04:38:10Z		Remove removed-from-spec URL.domainToASCII/domainToUnicode	52		
@@ -3566,9 +3566,10 @@
 10377	718899	true	open	false	1		2016-12-21T06:00:46Z	2016-12-21T15:12:25Z		tools: enable block-spacing in .eslintrc	102		
 10378	899444	true	open	false	0	0	2016-12-21T06:10:01Z	2016-12-21T06:10:01Z		v6.x backport: promise: better stack traces for --trace-warnings	103		
 10379	16798457	false	closed	false	1		2016-12-21T07:19:34Z	2016-12-21T08:49:44Z	2016-12-21T08:49:44Z	auto restart node 	16		
-10380	899444	true	open	false			2016-12-21T07:32:54Z	2016-12-21T14:27:10Z		fs: remove superfluous type check in `_write()`	47		
+10380	899444	true	closed	false	2	1	2016-12-21T07:32:54Z	2016-12-21T15:48:44Z	2016-12-21T15:48:44Z	fs: remove superfluous type check in `_write()`	47		
 10381	2352663	true	open	false	0		2016-12-21T07:34:00Z	2016-12-21T13:55:10Z		doc: add Michaël Zasso to the CTC	60		
 10382	899444	true	open	false	2		2016-12-21T07:35:59Z	2016-12-21T09:46:27Z		fs: support Uint8Array input to methods	56		
 10383	2352663	true	open	false	0	0	2016-12-21T10:22:28Z	2016-12-21T10:22:28Z		"v4.x: backport of ""test: refactor test-fs-non-number-arguments-throw"""	46		
 10384	696611	true	open	false	1		2016-12-21T10:32:14Z	2016-12-21T14:59:32Z		test: refactor test-init.js	65		
 10385	16402596	true	open	false	0	0	2016-12-21T11:09:05Z	2016-12-21T11:09:05Z		[async_wrap] close the destroy_ids_idle_handle_ on environment destruction	157		
+10386	2352663	true	open	false	0	0	2016-12-21T15:24:52Z	2016-12-21T15:24:52Z		deps: backport f795a79 from upstream V8	87		
