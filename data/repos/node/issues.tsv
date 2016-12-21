@@ -173,6 +173,7 @@
 4169	54666	true	closed	false	20		2015-12-06T06:38:35Z	2016-08-30T14:10:41Z	2016-03-18T23:29:42Z	timers: improve setImmediate() performance	51		
 4175	16188318	false	closed	false	27		2015-12-07T10:29:32Z	2016-11-23T16:39:37Z	2016-11-23T16:39:37Z	Node uses an hardcoded list of certificate authorities	240		
 4179	6068824	false	closed	false	15		2015-12-07T22:13:03Z	2016-08-15T20:12:24Z	2016-05-09T12:05:23Z	util.inherits does not establish prototype chain	176		
+4210	1586881	false	closed	false	4		2015-12-09T13:06:00Z	2016-12-21T22:35:57Z	2016-03-22T06:33:31Z	Memory Leak? native Promise and complex arrow functions with Generators	451		
 4217	96150	true	closed	false	32	3	2015-12-09T21:53:28Z	2016-10-05T18:50:34Z	2016-10-05T18:50:34Z	fs: add accessibleSync() which returns a boolean	9		
 4236	10103531	false	open	false	8		2015-12-11T01:18:07Z	2016-07-13T03:34:14Z		child_process.spawn() has undocumented 200kb buffer limit	74		
 4243	524382	true	closed	false	10	0	2015-12-11T17:36:12Z	2016-08-19T15:09:25Z	2016-08-19T15:09:25Z	src: use thread defaults provided by v8::platform	73		
@@ -1052,7 +1053,7 @@
 7855	1422781	true	open	false	23		2016-07-23T20:38:28Z	2016-10-06T17:24:59Z		dgram: setMulticastInterface() outgoing interface selection	72		
 7856	373545	true	closed	false	40		2016-07-23T20:49:58Z	2016-12-13T19:54:17Z	2016-11-08T17:50:17Z	fs: Fix default params for fs.write	81		
 7857	718899	true	closed	false	26		2016-07-23T21:15:43Z	2016-07-31T20:33:10Z	2016-07-31T20:33:10Z	test: fix flaky test-tls-wrap-timeout	59		
-7858	3524633	false	closed	false	23		2016-07-24T00:23:34Z	2016-12-16T17:08:18Z	2016-07-25T15:53:16Z	Add fsevents to NodeJS	150		
+7858	3524633	false	closed	false	24		2016-07-24T00:23:34Z	2016-12-21T22:17:35Z	2016-07-25T15:53:16Z	Add fsevents to NodeJS	150		
 7859	1084056	true	closed	false	9	5	2016-07-24T06:28:47Z	2016-07-31T21:08:12Z	2016-07-31T21:08:12Z	tools,test: show signal code when test crashes	31	1084056	2016-07-31T21:08:12Z
 7860	101553	false	open	false	6		2016-07-24T08:24:19Z	2016-07-27T08:24:42Z		Test failing in Debug mode	109		
 7861	131406	false	open	false	1		2016-07-24T10:54:23Z	2016-07-24T11:11:08Z		TCP_DEFER_ACCEPT option for http server ?	34		
@@ -1644,7 +1645,7 @@
 8449	4390247	true	open	false	0	0	2016-09-08T18:50:06Z	2016-09-08T18:50:06Z		Update cmd-list.js	50		
 8450	1084056	true	closed	false	8		2016-09-08T20:13:09Z	2016-09-13T22:28:30Z	2016-09-09T20:02:22Z	src: fix unused-result warning	107		
 8451	21268802	false	closed	false	11		2016-09-08T21:02:35Z	2016-09-11T22:08:18Z	2016-09-11T22:08:18Z	Crash in mksnapshot while building 4.5.0 on debian wheezy	1038		
-8452	110455	true	closed	false	15		2016-09-08T21:10:49Z	2016-12-21T19:58:53Z	2016-09-20T17:05:56Z	util: don't init Debug if it's not needed yet	61		
+8452	110455	true	closed	false	16		2016-09-08T21:10:49Z	2016-12-21T22:47:42Z	2016-09-20T17:05:56Z	util: don't init Debug if it's not needed yet	61		
 8453	54666	true	closed	false	10		2016-09-08T22:35:28Z	2016-10-11T02:19:43Z	2016-09-12T04:13:58Z	buffer: fix ArrayBuffer checks	67		
 8454	718899	true	closed	false	5		2016-09-08T22:45:55Z	2016-09-12T04:01:22Z	2016-09-12T04:01:22Z	test: add test-debug-protocol-execute	66		
 8455	718899	false	closed	false	5		2016-09-08T23:21:15Z	2016-09-14T17:32:09Z	2016-09-14T17:32:09Z	Investigate flaky parallel/test-crypto-binary-default on linux-fips	23		
@@ -2305,7 +2306,7 @@
 9110	7834613	false	closed	false	3		2016-10-15T18:04:59Z	2016-10-21T15:42:41Z	2016-10-21T15:42:41Z	6.8.1 fails to fix const error for shared-zlib older than 1.2.5	95		
 9111	861819	true	closed	false	2		2016-10-15T18:34:12Z	2016-10-16T11:04:26Z	2016-10-16T11:04:26Z	add IntelliJ project file+directory to .gitignore	31		
 9112	718899	true	closed	false	1		2016-10-15T19:29:01Z	2016-10-18T22:29:16Z	2016-10-18T22:29:16Z	tools: update to eslint 3.8.0, fix unneeded escaping in template strings	82		
-9113	718899	true	closed	false	8		2016-10-15T22:09:52Z	2016-12-21T20:02:45Z	2016-10-20T05:22:26Z	test,lib,benchmark: match function names	98		
+9113	718899	true	closed	false	9		2016-10-15T22:09:52Z	2016-12-21T22:15:42Z	2016-10-20T05:22:26Z	test,lib,benchmark: match function names	98		
 9114	131406	false	closed	false	5		2016-10-16T11:07:08Z	2016-10-16T22:24:21Z	2016-10-16T22:24:21Z	node 6.8: mips-arch-variant not applied everywhere in v8 dep	53		
 9115	103052	true	closed	false	24		2016-10-16T11:20:13Z	2016-12-13T21:05:02Z	2016-11-18T16:32:23Z	src: squelch unused function warnings in util.h 	37		
 9116	3001791	true	open	false	7		2016-10-16T12:54:47Z	2016-10-28T17:07:59Z		http: defines all the fields in the constructor	57		
@@ -3093,7 +3094,7 @@
 9898	7892079	true	closed	false	7	2	2016-12-01T16:20:29Z	2016-12-07T09:39:05Z	2016-12-07T09:39:05Z	test: add const/let, mustCall, & === to tls-stream	63		
 9899	10875575	true	closed	false	5	1	2016-12-01T16:21:04Z	2016-12-07T17:09:04Z	2016-12-07T17:09:04Z	Fixed the test with const and strictEqual	37		
 9900	568260	true	closed	false	7		2016-12-01T16:21:20Z	2016-12-05T02:59:10Z	2016-12-05T02:59:10Z	test: update test to use common.fail	50		
-9901	867492	true	open	false	3		2016-12-01T16:22:03Z	2016-12-13T19:35:35Z		doc: document process.versions.modules	41		
+9901	867492	true	open	false	4		2016-12-01T16:22:03Z	2016-12-21T22:48:47Z		doc: document process.versions.modules	41		
 9902	7246312	true	closed	false	2	0	2016-12-01T16:22:16Z	2016-12-05T03:03:33Z	2016-12-05T03:03:33Z	Updated test-cluster-send-deadlock.js to use assert.strictEqual	44		
 9903	13876939	true	open	false	10		2016-12-01T16:22:19Z	2016-12-09T03:29:14Z		remove var and use let and const	61		
 9904	2723032	true	closed	false	2		2016-12-01T16:22:28Z	2016-12-05T03:10:34Z	2016-12-05T03:10:34Z	Use const in test-require-json.js	37		
@@ -3463,7 +3464,7 @@
 10271	532414	false	open	false	0		2016-12-14T23:09:38Z	2016-12-16T09:19:38Z		"Consider different C lib as ""cross-compile"""	149		
 10272	13561163	true	closed	false	4		2016-12-14T23:51:22Z	2016-12-18T01:31:53Z	2016-12-18T01:31:53Z	test: add known_issues test for #6287	66		
 10273	1189785	true	closed	false	6		2016-12-15T00:07:34Z	2016-12-19T11:48:46Z	2016-12-19T11:48:46Z	test: improve test-child-process-fork-and-spawn	52		
-10274	289174	true	open	false			2016-12-15T00:36:50Z	2016-12-19T23:23:01Z		src: return early if nextTickQueue is empty	90		
+10274	289174	true	closed	false	2	10	2016-12-15T00:36:50Z	2016-12-21T22:57:51Z	2016-12-21T22:57:51Z	src: return early if nextTickQueue is empty	90		
 10275	1189785	true	closed	false	2		2016-12-15T01:09:09Z	2016-12-18T01:15:07Z	2016-12-18T01:15:07Z	test: improve test-child-process-exec-buffer	52		
 10276	4421720	true	open	false	3		2016-12-15T01:48:14Z	2016-12-17T18:59:42Z		src, lib: deprecate old debug-agent and CLI debugger	138		
 10277	6354455	true	closed	false	29	0	2016-12-15T02:09:18Z	2016-12-20T21:32:42Z	2016-12-20T21:32:41Z	v7.3.0 proposal	1597	2512748	2016-12-20T21:32:41Z
@@ -3555,7 +3556,7 @@
 10366	696611	true	closed	false	1	0	2016-12-21T00:22:31Z	2016-12-21T17:59:08Z	2016-12-21T17:59:07Z	v4.x backport silent logs in addons tests	39		
 10367	1189785	true	open	false	0	0	2016-12-21T00:31:37Z	2016-12-21T00:31:37Z		test: refactor for test-fs-readfile-error	65		
 10368	4824797	false	closed	false	3		2016-12-21T00:36:44Z	2016-12-21T01:45:00Z	2016-12-21T01:45:00Z	Having problem Installing all packages	295		
-10369	20425798	true	open	false	2		2016-12-21T01:35:48Z	2016-12-21T18:45:21Z		cluster:RR - Added public API pausing/unpausing a worker	143		
+10369	20425798	true	open	false	4		2016-12-21T01:35:48Z	2016-12-21T22:37:48Z		cluster:RR - Added public API pausing/unpausing a worker	143		
 10370	696611	true	open	false	0		2016-12-21T01:56:29Z	2016-12-21T06:16:18Z		test: fix and improve debug-break-on-uncaught	85		
 10371	696611	true	open	false	1		2016-12-21T02:18:36Z	2016-12-21T06:09:15Z		test: fix and improve debugger-client test	89		
 10372	170197	false	closed	false	9		2016-12-21T03:07:38Z	2016-12-21T17:21:05Z	2016-12-21T17:21:05Z	searchParams empty value not keyed	28		
@@ -3567,19 +3568,21 @@
 10378	899444	true	open	false	0	0	2016-12-21T06:10:01Z	2016-12-21T06:10:01Z		v6.x backport: promise: better stack traces for --trace-warnings	103		
 10379	16798457	false	closed	false	1		2016-12-21T07:19:34Z	2016-12-21T08:49:44Z	2016-12-21T08:49:44Z	auto restart node 	16		
 10380	899444	true	closed	false	2	1	2016-12-21T07:32:54Z	2016-12-21T15:48:44Z	2016-12-21T15:48:44Z	fs: remove superfluous type check in `_write()`	47		
-10381	2352663	true	open	false	2		2016-12-21T07:34:00Z	2016-12-21T17:10:13Z		doc: add Michaël Zasso to the CTC	60		
+10381	2352663	true	closed	false	4		2016-12-21T07:34:00Z	2016-12-21T22:34:05Z	2016-12-21T17:11:45Z	doc: add Michaël Zasso to the CTC	60		
 10382	899444	true	open	false	3		2016-12-21T07:35:59Z	2016-12-21T22:01:59Z		fs: support Uint8Array input to methods	56		
 10383	2352663	true	closed	false	1		2016-12-21T10:22:28Z	2016-12-21T18:02:43Z	2016-12-21T18:02:43Z	"v4.x: backport of ""test: refactor test-fs-non-number-arguments-throw"""	46		
 10384	696611	true	open	false	1		2016-12-21T10:32:14Z	2016-12-21T14:59:32Z		test: refactor test-init.js	65		
 10385	16402596	true	open	false	0	0	2016-12-21T11:09:05Z	2016-12-21T11:09:05Z		[async_wrap] close the destroy_ids_idle_handle_ on environment destruction	157		
 10386	2352663	true	open	false	2		2016-12-21T15:24:52Z	2016-12-21T18:08:25Z		deps: backport f795a79 from upstream V8	87		
-10387	53454	true	open	false			2016-12-21T17:51:08Z	2016-12-21T21:18:41Z		Update events.js	133		
+10387	53454	true	open	false			2016-12-21T17:51:08Z	2016-12-21T22:25:20Z		Update events.js	133		
 10388	327746	false	open	false	2		2016-12-21T17:53:39Z	2016-12-21T19:13:12Z		deps/v8/src/objects.h:3263:46: error: invalid use of incomplete type ‘class v8::internal::Heap	145		
 10389	17607	true	open	false	1		2016-12-21T18:00:39Z	2016-12-21T18:42:31Z		Doc and test cert apis	83		
 10390	718899	true	open	false	1		2016-12-21T18:16:32Z	2016-12-21T19:30:25Z		doc: improve common.mustCall() explanation	25		
-10391	498775	true	open	false	1		2016-12-21T19:16:18Z	2016-12-21T20:09:57Z		doc: consistent 'Returns:' part two	48		
+10391	498775	true	open	false	2		2016-12-21T19:16:18Z	2016-12-21T22:39:29Z		doc: consistent 'Returns:' part two	48		
 10392	287917	true	open	false	0	0	2016-12-21T20:19:38Z	2016-12-21T20:19:38Z		inspector: remove unused uv_async_t	38		
 10393	1093990	true	open	false	0	0	2016-12-21T20:41:24Z	2016-12-21T20:41:24Z		tty: remove NODE_TTY_UNSAFE_ASYNC	46		
-10394	498775	true	open	false	0	0	2016-12-21T20:44:18Z	2016-12-21T20:44:18Z		V6.9.3 proposal	3066		
+10394	498775	true	open	false	1		2016-12-21T20:44:18Z	2016-12-21T22:03:32Z		V6.9.3 proposal	3066		
 10395	498775	true	open	false	0	0	2016-12-21T20:45:06Z	2016-12-21T20:45:06Z		V4.7.1 proposal	1937		
 10396	1189785	true	open	false	0	0	2016-12-21T21:48:16Z	2016-12-21T21:48:16Z		test: improve test-cluster-worker-constructor.js	49		
+10397	1189785	true	open	false	0	0	2016-12-21T22:13:27Z	2016-12-21T22:13:27Z		test: refactor the code in test-http-connect	69		
+10398	718899	true	open	false	0	0	2016-12-21T22:15:30Z	2016-12-21T22:15:30Z		v4.x backport for #9113: test,lib,benchmark: match function names	125		
