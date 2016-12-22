@@ -287,6 +287,7 @@
 5816	17975468	false	open	false	6		2016-03-21T06:03:18Z	2016-09-14T13:54:49Z		Issue installing node js on Windows 7 Enterprise edition 64 bit	145		
 5841	532414	true	open	false	28		2016-03-22T08:22:59Z	2016-12-22T13:33:03Z		test: test for issue #5574	185		
 5848	718899	false	closed	false	6		2016-03-22T18:47:04Z	2016-06-29T22:36:15Z	2016-06-29T22:36:15Z	Investigate flaky test-dgram-send-callback-buffer-length	30		
+5852	1231697	false	closed	false	9		2016-03-22T22:29:43Z	2016-12-22T20:27:36Z	2016-03-23T17:09:13Z	"zlib.createGunzip ""unknown compression method"""	40		
 5870	607109	false	closed	false	6		2016-03-23T17:01:39Z	2016-10-12T09:18:22Z	2016-10-12T09:18:22Z	child processes started with `--debug-brk` do not buffer messages	294		
 5893	200959	false	closed	false	16		2016-03-24T20:27:43Z	2016-10-30T18:43:09Z	2016-05-13T23:31:33Z	Native DNS caching for lookups	62		
 5900	7657959	false	open	false	35		2016-03-25T12:02:48Z	2016-07-13T05:29:23Z		Segmentation fault in node v5.*	191		
@@ -3229,7 +3230,7 @@
 10033	6042252	true	open	false	0		2016-12-01T17:51:40Z	2016-12-22T03:00:30Z		test: Updates to test-stream2-unpipe-drain	64		
 10034	4591928	true	closed	false	1	0	2016-12-01T17:52:33Z	2016-12-07T12:49:19Z	2016-12-07T12:49:19Z	test: const/strictEqual in test-listen-fd-ebadf	38		
 10035	4591928	true	open	false	2		2016-12-01T17:52:36Z	2016-12-05T23:01:20Z		test: test-file-write-stream3.js refactor	38		
-10036	874194	true	open	false	2		2016-12-01T17:52:36Z	2016-12-22T01:07:56Z		test: assert.strictEqual and linting	37		
+10036	874194	true	open	false	3		2016-12-01T17:52:36Z	2016-12-22T20:35:45Z		test: assert.strictEqual and linting	37		
 10037	2251119	true	closed	false	3		2016-12-01T17:53:37Z	2016-12-06T16:18:53Z	2016-12-05T22:25:38Z	test: add test for process.stdin.setRawMode()	52		
 10038	181527	true	open	false	4		2016-12-01T17:53:47Z	2016-12-22T01:13:08Z		test: Add regex check to error expectation	54		
 10039	1857993	true	closed	false	8		2016-12-01T17:54:21Z	2016-12-05T02:14:25Z	2016-12-05T02:14:25Z	url, test: add inspect to TupleOrigin	52		
@@ -3327,7 +3328,7 @@
 10131	225809	false	closed	false	9		2016-12-05T22:02:02Z	2016-12-09T14:40:15Z	2016-12-08T16:10:49Z	IPC parse errors virtually irrecoverable	337		
 10132	4985028	true	closed	false	19		2016-12-06T00:33:41Z	2016-12-11T14:09:05Z	2016-12-11T00:54:19Z	Fix --preserve-symlinks, Enhancement to exploit	70		
 10133	7834613	false	open	false	0		2016-12-06T00:42:54Z	2016-12-06T00:42:54Z		http.Agent free sockets maintain reference to initial ClientRequest object until the socket is destroyed/closed	283		
-10134	7834613	true	open	false	10		2016-12-06T03:11:55Z	2016-12-19T19:20:34Z		http: Eliminate ClientRequest capture by Agent socket listeners	137		
+10134	7834613	true	open	false	11		2016-12-06T03:11:55Z	2016-12-22T21:00:41Z		http: Eliminate ClientRequest capture by Agent socket listeners	137		
 10135	275871	true	open	false	8		2016-12-06T03:55:43Z	2016-12-15T11:41:24Z		lib: be robust when process global is clobbered	66		
 10136	2920525	true	closed	false	2		2016-12-06T05:44:11Z	2016-12-12T15:11:09Z	2016-12-12T15:11:09Z	doc: fix typo in code example of 'path' module	30		
 10137	680220	false	closed	false	9		2016-12-06T08:02:41Z	2016-12-08T17:10:47Z	2016-12-08T13:40:07Z	FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memory	199		
@@ -3574,7 +3575,7 @@
 10384	696611	true	open	false	1		2016-12-21T10:32:14Z	2016-12-21T14:59:32Z		test: refactor test-init.js	65		
 10385	16402596	true	open	false	2		2016-12-21T11:09:05Z	2016-12-22T11:35:09Z		async_wrap: close the destroy_ids_idle_handle_ on environment destruction	160		
 10386	2352663	true	open	false	2		2016-12-21T15:24:52Z	2016-12-21T18:08:25Z		deps: backport f795a79 from upstream V8	87		
-10387	53454	true	open	false			2016-12-21T17:51:08Z	2016-12-22T00:09:31Z		Update events.js	133		
+10387	53454	true	open	false			2016-12-21T17:51:08Z	2016-12-22T20:12:15Z		Update events.js	133		
 10388	327746	false	open	false	4		2016-12-21T17:53:39Z	2016-12-22T14:24:35Z		deps/v8/src/objects.h:3263:46: error: invalid use of incomplete type ‘class v8::internal::Heap	145		
 10389	17607	true	open	false	1		2016-12-21T18:00:39Z	2016-12-21T18:42:31Z		Doc and test cert apis	83		
 10390	718899	true	open	false			2016-12-21T18:16:32Z	2016-12-22T16:16:45Z		doc: improve common.mustCall() explanation	25		
@@ -3588,12 +3589,12 @@
 10398	718899	true	open	false	0	0	2016-12-21T22:15:30Z	2016-12-21T22:15:30Z		v4.x backport for #9113: test,lib,benchmark: match function names	125		
 10399	1538624	true	open	false	0	0	2016-12-21T23:07:22Z	2016-12-21T23:07:22Z		More URLSearchParams improvements	369		
 10400	289174	true	open	false			2016-12-21T23:09:28Z	2016-12-22T15:33:13Z		async_wrap: clear destroy_ids vector	73		
-10401	289174	true	open	false			2016-12-21T23:53:10Z	2016-12-22T18:27:47Z		url: check MaybeLocal return value	97		
+10401	289174	true	open	false	3		2016-12-21T23:53:10Z	2016-12-22T20:55:09Z		url: check MaybeLocal return value	97		
 10402	983798	false	open	false	3		2016-12-22T00:47:08Z	2016-12-22T11:06:30Z		Windows installer can corrupt its npm installation	347		
 10403	495647	true	open	false	6		2016-12-22T01:04:46Z	2016-12-22T14:15:48Z		build: revert to pretty-print by default	525		
 10404	718899	true	open	false	2		2016-12-22T01:57:55Z	2016-12-22T04:37:27Z		test: fix flaky test-https-timeout	79		
 10405	45469	true	open	false	11		2016-12-22T03:36:12Z	2016-12-22T17:13:45Z		update: ensure proper property descriptor on `global`	119		
-10406	13243875	false	open	false	5		2016-12-22T08:35:04Z	2016-12-22T18:57:56Z		Proxy Error wrapped Promise in debug mode	103		
+10406	13243875	false	open	false	5		2016-12-22T08:35:04Z	2016-12-22T20:05:08Z		Proxy Error wrapped Promise in debug mode	103		
 10407	275871	true	open	false	0	0	2016-12-22T09:13:59Z	2016-12-22T09:13:59Z		src: remove unused PROTOCOL_JSON array	15		
 10408	4299420	true	open	false			2016-12-22T09:33:12Z	2016-12-22T19:46:50Z		url: make WHATWG URL properties spec compliant	159		
 10409	275871	true	open	false	0		2016-12-22T12:32:21Z	2016-12-22T13:41:27Z		v8: make ObjectMirror handle proxy objects	19		
@@ -3602,3 +3603,5 @@
 10412	6211775	false	open	false	3		2016-12-22T16:37:36Z	2016-12-22T17:04:04Z		child_process.fork and child_process.exec do not work together.	191		
 10413	17607	true	open	false	0	0	2016-12-22T16:54:49Z	2016-12-22T16:54:49Z		crypto: use CHECK_NE instead of ABORT or abort	53		
 10414	17607	true	open	false	0	0	2016-12-22T18:33:10Z	2016-12-22T18:33:10Z		src: describe what NODE_MODULE_VERSION is for	45		
+10415	10456131	false	open	false	0		2016-12-22T20:07:43Z	2016-12-22T20:07:43Z		Problem with pipe : EPIPE read.	219		
+10416	1084056	true	open	false	0	0	2016-12-22T20:51:02Z	2016-12-22T20:51:02Z		Fix trace warnings	50		
