@@ -3432,7 +3432,7 @@
 10239	6487691	true	open	false	16		2016-12-12T17:55:03Z	2016-12-15T22:35:15Z		test: Allow all valid AIX rc in test-stdio-closed	91		
 10240	287917	true	closed	false	2		2016-12-12T18:54:12Z	2016-12-15T03:56:51Z	2016-12-14T17:58:30Z	inspector: fix Coverity defects	61		
 10241	4299420	true	closed	false	13		2016-12-12T19:42:52Z	2016-12-16T03:29:07Z	2016-12-16T03:29:07Z	stream, test: add test for _readableState.needReadable	52		
-10242	3671262	false	open	false	8		2016-12-12T21:35:43Z	2016-12-21T23:07:44Z		Change in fs.statSync behavior between 7.1.0 and 7.2.0	105		
+10242	3671262	false	open	false	9		2016-12-12T21:35:43Z	2016-12-22T16:36:41Z		Change in fs.statSync behavior between 7.1.0 and 7.2.0	105		
 10243	1189785	true	closed	false	5	3	2016-12-12T21:40:34Z	2016-12-14T15:07:24Z	2016-12-14T15:07:24Z	test: refactor test-http-dns-fail	67		
 10244	10393198	true	open	false	3		2016-12-13T00:00:17Z	2016-12-20T23:14:03Z		doc: some fixes in repl.md	153		
 10245	15161981	true	open	false	5		2016-12-13T05:06:56Z	2016-12-14T17:45:37Z		aix: fix os.release()	37		
@@ -3540,8 +3540,8 @@
 10350	1189785	true	closed	false	3		2016-12-20T02:35:32Z	2016-12-22T01:44:18Z	2016-12-22T01:44:18Z	test: refactor the code in test-http-keep-alive	58		
 10351	19588484	true	open	false	0	0	2016-12-20T03:38:15Z	2016-12-20T03:38:15Z		Update code latest code changes	50		
 10352	495647	true	closed	false	14	0	2016-12-20T04:15:34Z	2016-12-21T14:30:02Z	2016-12-21T14:30:02Z	v0.12.18 release proposal	116	495647	2016-12-21T14:30:02Z
-10353	718899	true	open	false			2016-12-20T05:43:11Z	2016-12-22T13:40:51Z		test: refactor test-stream2-writable	64		
-10354	12243963	false	open	false	2		2016-12-20T09:20:00Z	2016-12-21T09:28:39Z		getHeader() returns undefined after using writeHead() in a certain circumstance	112		
+10353	718899	true	open	false			2016-12-20T05:43:11Z	2016-12-22T17:01:07Z		test: refactor test-stream2-writable	64		
+10354	12243963	false	open	false	3		2016-12-20T09:20:00Z	2016-12-22T16:10:07Z		getHeader() returns undefined after using writeHead() in a certain circumstance	112		
 10355	275871	true	open	false	3		2016-12-20T11:59:37Z	2016-12-22T11:08:19Z		build: add node_module_version to config.gypi	5		
 10356	275871	true	closed	false	5	0	2016-12-20T12:12:03Z	2016-12-21T12:08:01Z	2016-12-21T12:08:01Z	deps: define missing operator delete functions	83		
 10357	5655189	true	open	false	2		2016-12-20T13:00:43Z	2016-12-21T07:38:38Z		test: refactor the code in test-fs-watch.js	70		
@@ -3577,11 +3577,11 @@
 10387	53454	true	open	false			2016-12-21T17:51:08Z	2016-12-22T00:09:31Z		Update events.js	133		
 10388	327746	false	open	false	4		2016-12-21T17:53:39Z	2016-12-22T14:24:35Z		deps/v8/src/objects.h:3263:46: error: invalid use of incomplete type ‘class v8::internal::Heap	145		
 10389	17607	true	open	false	1		2016-12-21T18:00:39Z	2016-12-21T18:42:31Z		Doc and test cert apis	83		
-10390	718899	true	open	false	1		2016-12-21T18:16:32Z	2016-12-21T19:30:25Z		doc: improve common.mustCall() explanation	25		
+10390	718899	true	open	false			2016-12-21T18:16:32Z	2016-12-22T16:16:45Z		doc: improve common.mustCall() explanation	25		
 10391	498775	true	open	false	2		2016-12-21T19:16:18Z	2016-12-21T22:39:29Z		doc: consistent 'Returns:' part two	48		
 10392	287917	true	open	false	0	0	2016-12-21T20:19:38Z	2016-12-21T20:19:38Z		inspector: remove unused uv_async_t	38		
 10393	1093990	true	open	false	0	0	2016-12-21T20:41:24Z	2016-12-21T20:41:24Z		tty: remove NODE_TTY_UNSAFE_ASYNC	46		
-10394	498775	true	open	false	3		2016-12-21T20:44:18Z	2016-12-22T04:02:47Z		V6.9.3 proposal	3066		
+10394	498775	true	open	false	4		2016-12-21T20:44:18Z	2016-12-22T16:54:08Z		V6.9.3 proposal	3066		
 10395	498775	true	open	false	0	0	2016-12-21T20:45:06Z	2016-12-21T20:45:06Z		V4.7.1 proposal	1937		
 10396	1189785	true	open	false	1		2016-12-21T21:48:16Z	2016-12-22T02:06:46Z		test: improve test-cluster-worker-constructor.js	49		
 10397	1189785	true	open	false	0	0	2016-12-21T22:13:27Z	2016-12-21T22:13:27Z		test: refactor the code in test-http-connect	69		
@@ -3592,8 +3592,12 @@
 10402	983798	false	open	false	3		2016-12-22T00:47:08Z	2016-12-22T11:06:30Z		Windows installer can corrupt its npm installation	347		
 10403	495647	true	open	false	6		2016-12-22T01:04:46Z	2016-12-22T14:15:48Z		build: revert to pretty-print by default	525		
 10404	718899	true	open	false	2		2016-12-22T01:57:55Z	2016-12-22T04:37:27Z		test: fix flaky test-https-timeout	79		
-10405	45469	true	open	false	8		2016-12-22T03:36:12Z	2016-12-22T14:13:34Z		update: ensure proper property descriptor on `global`	119		
+10405	45469	true	open	false	9		2016-12-22T03:36:12Z	2016-12-22T16:14:03Z		update: ensure proper property descriptor on `global`	119		
 10406	13243875	false	open	false	4		2016-12-22T08:35:04Z	2016-12-22T12:34:09Z		Proxy Error wrapped Promise in debug mode	103		
 10407	275871	true	open	false	0	0	2016-12-22T09:13:59Z	2016-12-22T09:13:59Z		src: remove unused PROTOCOL_JSON array	15		
 10408	4299420	true	open	false	3		2016-12-22T09:33:12Z	2016-12-22T12:42:45Z		url: make WHATWG URL properties spec compliant	159		
 10409	275871	true	open	false	0		2016-12-22T12:32:21Z	2016-12-22T13:41:27Z		v8: make ObjectMirror handle proxy objects	19		
+10410	7833752	false	open	false	0		2016-12-22T16:04:06Z	2016-12-22T16:04:06Z		Mention chrome://inspect when using node --inspect	171		
+10411	856469	true	open	false	0	0	2016-12-22T16:19:33Z	2016-12-22T16:19:33Z		doc: fix a trivial mistake in stream document.	108		
+10412	6211775	false	open	false	0		2016-12-22T16:37:36Z	2016-12-22T16:37:36Z		child_process.fork and child_process.exec do not work together.	191		
+10413	17607	true	open	false	0	0	2016-12-22T16:54:49Z	2016-12-22T16:54:49Z		crypto: use CHECK_NE instead of ABORT or abort	53		
