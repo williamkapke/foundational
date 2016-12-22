@@ -187,7 +187,7 @@
 4329	16335744	false	closed	false	22		2015-12-17T11:41:17Z	2016-10-19T14:13:36Z	2016-01-15T10:53:49Z	node.js Setup Wizard ended prematurely	43		
 4351	1424946	false	closed	false	8		2015-12-19T06:03:34Z	2016-10-26T13:47:55Z	2016-10-26T13:47:55Z	fs.watch file matching is one character off in windows	43		
 4377	399211	true	closed	false	17		2015-12-21T13:06:26Z	2016-10-03T21:15:13Z	2015-12-24T01:32:36Z	"http: 451 status code ""Unavailable For Legal Reasons"""	26		
-4394	1470592	true	open	false	45		2015-12-23T03:38:39Z	2016-12-20T10:06:59Z		buffer: workaround for v8 buffer.toString failure. fixes #4266	20		
+4394	1470592	true	closed	false	46		2015-12-23T03:38:39Z	2016-12-22T01:55:47Z	2016-12-22T01:55:47Z	buffer: workaround for v8 buffer.toString failure. fixes #4266	20		
 4402	5358145	false	closed	false	4		2015-12-23T19:26:22Z	2016-08-29T22:31:11Z	2016-08-29T22:31:11Z	Bad readline behavior with line ending characters?	588		
 4415	327019	true	open	false	11		2015-12-24T07:27:06Z	2016-08-15T22:11:15Z		benchmark: add ops/sec for benchmark results	8		
 4427	718899	false	closed	false	45		2015-12-26T16:25:19Z	2016-09-16T12:18:36Z	2016-09-16T12:18:36Z	Investigate flaky test-tick-processor	5		
@@ -2081,7 +2081,7 @@
 8885	1443911	true	closed	false	0		2016-10-01T07:47:35Z	2016-10-04T18:42:16Z	2016-10-04T18:42:16Z	v4.x backport: doc: add `added:` information for crypto	6		
 8886	275871	true	closed	false	3		2016-10-01T14:27:45Z	2016-10-07T08:28:36Z	2016-10-03T10:54:52Z	build: don't build icu with -fno-rtti	33		
 8887	110455	true	closed	false	2	0	2016-10-01T17:26:21Z	2016-10-03T10:49:34Z	2016-10-03T10:49:34Z	"module: correct comment text ""read-only"" to ""shallow"""	55		
-8888	110455	true	open	false	15		2016-10-01T17:46:35Z	2016-12-12T15:02:56Z		module: make require.cache reassignable	93		
+8888	110455	true	open	false	17		2016-10-01T17:46:35Z	2016-12-22T02:03:24Z		module: make require.cache reassignable	93		
 8889	238531	true	closed	false	3		2016-10-01T19:20:39Z	2016-10-07T00:17:19Z	2016-10-03T23:45:47Z	tls: handle `error` events with `_tlsError`	96		
 8890	54666	true	closed	false	0		2016-10-01T23:04:21Z	2016-10-03T10:43:43Z	2016-10-03T10:43:43Z	inspector: fix minor issues	43		
 8891	815894	true	closed	false	0	0	2016-10-02T00:21:20Z	2016-10-02T01:06:56Z	2016-10-02T01:06:56Z	test: cleanup/update test-dgram-empty-packet.js	58		
@@ -3134,7 +3134,7 @@
 9938	24298434	true	closed	false	3		2016-12-01T16:44:18Z	2016-12-07T04:58:19Z	2016-12-07T04:58:19Z	test: Change equal to strictEqual and pass delay to setTimeout	42		
 9939	1888493	true	closed	false	2	0	2016-12-01T16:44:26Z	2016-12-06T15:22:53Z	2016-12-06T15:22:53Z	test: update test-stdout-to-file	76		
 9940	2763135	true	closed	false	5	0	2016-12-01T16:45:00Z	2016-12-06T15:27:50Z	2016-12-06T15:27:50Z	test: clean up tls junk test	47		
-9941	6383605	true	open	false	1		2016-12-01T16:45:51Z	2016-12-16T06:55:34Z		test: change equal to strictEqual and var to const	40		
+9941	6383605	true	open	false	2		2016-12-01T16:45:51Z	2016-12-22T01:07:47Z		test: change equal to strictEqual and var to const	40		
 9942	7131961	true	closed	false	0	0	2016-12-01T16:45:56Z	2016-12-02T20:27:07Z	2016-12-02T20:27:07Z	Test console fix assert equals	35		
 9943	733877	true	open	false	0		2016-12-01T16:46:06Z	2016-12-04T06:11:49Z		test: refactor test for crypto cipher/decipher iv	43		
 9944	93347	true	open	false	3		2016-12-01T16:46:11Z	2016-12-16T05:47:19Z		test: var to const/let; equal to strictEqual	40		
@@ -3143,7 +3143,7 @@
 9947	1431853	true	closed	false	2		2016-12-01T16:47:10Z	2016-12-07T15:43:11Z	2016-12-07T15:43:11Z	test: replace assert.equal to assert.strictEqual, var to const/let	62		
 9948	4591928	true	open	false	2		2016-12-01T16:48:33Z	2016-12-21T23:23:24Z		test: const, let and strictEqual in test-tls-0	47		
 9949	181527	true	closed	false	2	0	2016-12-01T16:49:47Z	2016-12-01T17:50:18Z	2016-12-01T17:50:18Z	Add regex check to error expectation	44		
-9950	10875575	true	open	false	2		2016-12-01T16:50:15Z	2016-12-21T23:32:31Z		Using assert.strictEqual instead of equal	32		
+9950	10875575	true	closed	false	6		2016-12-01T16:50:15Z	2016-12-22T01:36:55Z	2016-12-22T01:36:55Z	Using assert.strictEqual instead of equal	32		
 9951	301830	true	open	false	2		2016-12-01T16:50:32Z	2016-12-04T17:33:37Z		test: use const and strictEqual in child-process-spawn-error	73		
 9952	6677094	true	closed	false	5		2016-12-01T16:52:20Z	2016-12-21T23:29:21Z	2016-12-21T23:29:21Z	Use assert.strictEqual instead of assert.equal	41		
 9953	2249900	true	open	false			2016-12-01T16:52:32Z	2016-12-05T20:15:13Z		test: improve test-cluster-net-listen.js	45		
@@ -3181,7 +3181,7 @@
 9985	4212452	true	closed	false	4		2016-12-01T17:12:10Z	2016-12-08T07:02:05Z	2016-12-08T07:02:05Z	test: updating test file to use strictEqual	46		
 9986	290472	true	open	false			2016-12-01T17:13:05Z	2016-12-22T00:38:53Z		test-tls-check-server-identity var->const, assert, string template	45		
 9987	14057999	true	open	false	3		2016-12-01T17:13:57Z	2016-12-22T00:37:31Z		test: add second argument to assert.throws()	50		
-9988	4245215	true	open	false	4		2016-12-01T17:14:39Z	2016-12-22T00:40:57Z		test: changed assert.strict to assert.strictEqual()	48		
+9988	4245215	true	closed	false	5		2016-12-01T17:14:39Z	2016-12-22T02:03:26Z	2016-12-22T02:03:26Z	test: changed assert.strict to assert.strictEqual()	48		
 9989	15734957	true	open	false	5		2016-12-01T17:15:13Z	2016-12-16T16:08:37Z		test: change indexOf to includes in ecdh-disable	73		
 9990	24297754	true	open	false	4		2016-12-01T17:15:49Z	2016-12-22T00:45:44Z		Change var to const or let in test-child-process-ipc.js	45		
 9991	941708	true	closed	false	4	0	2016-12-01T17:17:03Z	2016-12-05T20:58:52Z	2016-12-05T20:58:52Z	test: update repl tests	40		
@@ -3215,7 +3215,7 @@
 10019	5158539	true	closed	false	19		2016-12-01T17:36:13Z	2016-12-19T17:48:10Z	2016-12-19T17:48:10Z	cluster: return worker reference from disconnect()	62		
 10020	14075231	true	open	false	10		2016-12-01T17:37:55Z	2016-12-22T01:02:10Z		Add regex to text-crypto-random	64		
 10021	4299420	true	closed	false	13		2016-12-01T17:39:46Z	2016-12-21T04:34:25Z	2016-12-12T14:56:39Z	url, test: WHATWG url originFor should include a base as argument	166		
-10022	4923947	true	open	false			2016-12-01T17:39:48Z	2016-12-05T17:45:39Z		test: fix test-child-process-stdin.js	53		
+10022	4923947	true	open	false	1		2016-12-01T17:39:48Z	2016-12-22T01:12:00Z		test: fix test-child-process-stdin.js	53		
 10023	682197	true	open	false	4		2016-12-01T17:41:21Z	2016-12-07T08:02:30Z		test: Refactors variables to ES6 compatible and newer assertions 	98		
 10024	2200377	true	closed	false	4		2016-12-01T17:44:15Z	2016-12-05T22:12:02Z	2016-12-05T22:12:02Z	test: Changed assert.equal() to assert.strictEqual() for Test signing…	40		
 10025	733877	true	closed	false	4		2016-12-01T17:45:18Z	2016-12-05T22:14:37Z	2016-12-05T22:14:37Z	test: refactor test for net listen on fd0	46		
@@ -3226,14 +3226,14 @@
 10030	11262165	true	closed	false	3		2016-12-01T17:50:30Z	2016-12-04T04:02:49Z	2016-12-04T04:02:49Z	test: update test-fs-write-file	61		
 10031	4453433	true	closed	false	8	1	2016-12-01T17:50:36Z	2016-12-06T15:45:48Z	2016-12-06T15:45:48Z	test: add test for url module domainToAscii and domainToUnicode	47		
 10032	2763135	true	closed	false	4		2016-12-01T17:50:38Z	2016-12-07T00:39:07Z	2016-12-06T08:12:20Z	test: refactor test-dgram-msgsize.js	46		
-10033	6042252	true	open	false			2016-12-01T17:51:40Z	2016-12-05T17:11:07Z		test: Updates to test-stream2-unpipe-drain	64		
+10033	6042252	true	open	false			2016-12-01T17:51:40Z	2016-12-22T01:07:09Z		test: Updates to test-stream2-unpipe-drain	64		
 10034	4591928	true	closed	false	1	0	2016-12-01T17:52:33Z	2016-12-07T12:49:19Z	2016-12-07T12:49:19Z	test: const/strictEqual in test-listen-fd-ebadf	38		
 10035	4591928	true	open	false	2		2016-12-01T17:52:36Z	2016-12-05T23:01:20Z		test: test-file-write-stream3.js refactor	38		
-10036	874194	true	open	false	1		2016-12-01T17:52:36Z	2016-12-08T22:17:29Z		test: assert.strictEqual and linting	37		
+10036	874194	true	open	false	2		2016-12-01T17:52:36Z	2016-12-22T01:07:56Z		test: assert.strictEqual and linting	37		
 10037	2251119	true	closed	false	3		2016-12-01T17:53:37Z	2016-12-06T16:18:53Z	2016-12-05T22:25:38Z	test: add test for process.stdin.setRawMode()	52		
-10038	181527	true	open	false	4		2016-12-01T17:53:47Z	2016-12-18T01:32:50Z		test: Add regex check to error expectation	54		
+10038	181527	true	open	false	4		2016-12-01T17:53:47Z	2016-12-22T01:13:08Z		test: Add regex check to error expectation	54		
 10039	1857993	true	closed	false	8		2016-12-01T17:54:21Z	2016-12-05T02:14:25Z	2016-12-05T02:14:25Z	url, test: add inspect to TupleOrigin	52		
-10040	8977402	true	open	false	1		2016-12-01T17:55:08Z	2016-12-16T13:43:24Z		Simplified the test by using common.mustCall(). Use of common.mustCal…	54		
+10040	8977402	true	closed	false	2	3	2016-12-01T17:55:08Z	2016-12-22T01:31:21Z	2016-12-22T01:31:21Z	Simplified the test by using common.mustCall(). Use of common.mustCal…	54		
 10041	16144158	true	closed	false	4	0	2016-12-01T17:55:41Z	2016-12-14T14:20:34Z	2016-12-14T14:20:34Z	fs: copyObject() had unused argument	117		
 10042	3138059	true	open	false	2		2016-12-01T17:55:56Z	2016-12-04T03:13:56Z		test: update cluster test	40		
 10043	301830	true	closed	false	4	3	2016-12-01T17:56:13Z	2016-12-12T13:27:33Z	2016-12-12T13:27:33Z	test: add buffer transcode test	45		
@@ -3242,8 +3242,8 @@
 10046	7142618	true	closed	false	4	4	2016-12-01T17:58:55Z	2016-12-08T06:55:18Z	2016-12-08T06:55:18Z	doc: update `path.format` description and examples	61		
 10047	4923947	true	open	false	3		2016-12-01T17:59:29Z	2016-12-16T16:43:18Z		Test fix - fix to /test/parallel/test-cluster	38		
 10048	582234	true	open	false			2016-12-01T18:01:29Z	2016-12-05T22:32:34Z		Improvements to test-buffer-slice from NINA code & learn	44		
-10049	4521223	true	open	false			2016-12-01T18:02:15Z	2016-12-03T15:45:06Z		test: recommended changes to test-cluster-send-handle-twice.js	90		
-10050	7131961	true	open	false	0		2016-12-01T18:04:15Z	2016-12-05T04:11:00Z		doc: Update rinfo object definition for UDP message event	41		
+10049	4521223	true	open	false			2016-12-01T18:02:15Z	2016-12-22T01:19:49Z		test: recommended changes to test-cluster-send-handle-twice.js	90		
+10050	7131961	true	open	false	2		2016-12-01T18:04:15Z	2016-12-22T01:13:43Z		doc: Update rinfo object definition for UDP message event	41		
 10051	109983	true	closed	false	4	2	2016-12-01T18:06:16Z	2016-12-08T00:22:59Z	2016-12-08T00:22:59Z	test: refactors test-tls-client-verify	45		
 10052	2723032	true	closed	false	8		2016-12-01T18:07:50Z	2016-12-05T00:37:43Z	2016-12-05T00:37:43Z	gitignore: add osx .DS_STORE files	57		
 10053	4448075	true	open	false	12		2016-12-01T18:08:18Z	2016-12-19T17:09:53Z		http: throw an error for unexpected agent values	69		
@@ -3507,7 +3507,7 @@
 10314	9603509	false	closed	false	3		2016-12-17T05:32:46Z	2016-12-18T11:34:57Z	2016-12-18T11:34:57Z	lib\_stream_readable.js - computeNewHighWaterMark( 0 ) returns 0 as a hwm	112		
 10315	718899	true	open	false	4		2016-12-17T06:08:38Z	2016-12-21T06:13:05Z		test: refactor test-timers-this	65		
 10316	1084056	true	closed	false	2	0	2016-12-17T08:13:04Z	2016-12-19T19:03:15Z	2016-12-19T19:03:15Z	test: fix flaky test-debug-port	52	1084056	2016-12-19T19:03:15Z
-10317	2352663	true	open	false	11		2016-12-17T13:23:01Z	2016-12-20T07:31:23Z		url: make IPv4 parser more spec compliant	85		
+10317	2352663	true	open	false			2016-12-17T13:23:01Z	2016-12-22T01:58:12Z		url: make IPv4 parser more spec compliant	85		
 10318	1189785	true	open	false	0		2016-12-17T16:11:38Z	2016-12-17T17:08:09Z		test: improve code in test-http-bind-twice.js	52		
 10319	13561163	true	closed	false	5		2016-12-17T16:16:00Z	2016-12-21T14:59:34Z	2016-12-21T14:59:34Z	test: add known_issues test for #5350	95		
 10320	567540	true	open	false			2016-12-17T18:57:29Z	2016-12-19T16:27:17Z		doc: Deprecate old debug protocol	93		
@@ -3537,7 +3537,7 @@
 10347	609229	false	open	false	17		2016-12-19T22:50:03Z	2016-12-21T15:25:05Z		Destructuring of arrow function arguments via computed property throws in v6.x	66		
 10348	287917	true	open	false	3		2016-12-20T00:20:21Z	2016-12-20T20:03:46Z		inspector: do not rely on debug context	72		
 10349	149531	false	open	false	4		2016-12-20T02:22:38Z	2016-12-20T15:07:39Z		HTTPS Feature request: Hotswap TLS certificates	63		
-10350	1189785	true	open	false	2		2016-12-20T02:35:32Z	2016-12-21T00:01:28Z		test: refactor the code in test-http-keep-alive	58		
+10350	1189785	true	closed	false	3		2016-12-20T02:35:32Z	2016-12-22T01:44:18Z	2016-12-22T01:44:18Z	test: refactor the code in test-http-keep-alive	58		
 10351	19588484	true	open	false	0	0	2016-12-20T03:38:15Z	2016-12-20T03:38:15Z		Update code latest code changes	50		
 10352	495647	true	closed	false	14	0	2016-12-20T04:15:34Z	2016-12-21T14:30:02Z	2016-12-21T14:30:02Z	v0.12.18 release proposal	116	495647	2016-12-21T14:30:02Z
 10353	718899	true	open	false	1		2016-12-20T05:43:11Z	2016-12-20T16:53:48Z		test: refactor test-stream2-writable	64		
@@ -3545,7 +3545,7 @@
 10355	275871	true	open	false	2		2016-12-20T11:59:37Z	2016-12-20T22:51:19Z		build: add node_module_version to config.gypi	5		
 10356	275871	true	closed	false	5	0	2016-12-20T12:12:03Z	2016-12-21T12:08:01Z	2016-12-21T12:08:01Z	deps: define missing operator delete functions	83		
 10357	5655189	true	open	false	2		2016-12-20T13:00:43Z	2016-12-21T07:38:38Z		test: refactor the code in test-fs-watch.js	70		
-10358	40952	false	open	false	3		2016-12-20T13:21:44Z	2016-12-21T11:12:11Z		HTTP client returns truncated response	464		
+10358	40952	false	open	false	4		2016-12-20T13:21:44Z	2016-12-22T02:02:21Z		HTTP client returns truncated response	464		
 10359	22550884	true	open	false			2016-12-20T19:48:31Z	2016-12-21T06:01:07Z		test: basic  functionality of readUIntLE()	29		
 10360	54666	true	open	false	0	0	2016-12-20T20:03:29Z	2016-12-20T20:03:29Z		benchmark: use commas in non-csv rate output	55		
 10361	498775	false	open	false	2		2016-12-20T21:20:08Z	2016-12-21T02:20:30Z		Debugger tests are timing out on v4.x	27		
@@ -3556,7 +3556,7 @@
 10366	696611	true	closed	false	1	0	2016-12-21T00:22:31Z	2016-12-21T17:59:08Z	2016-12-21T17:59:07Z	v4.x backport silent logs in addons tests	39		
 10367	1189785	true	open	false	0	0	2016-12-21T00:31:37Z	2016-12-21T00:31:37Z		test: refactor for test-fs-readfile-error	65		
 10368	4824797	false	closed	false	3		2016-12-21T00:36:44Z	2016-12-21T01:45:00Z	2016-12-21T01:45:00Z	Having problem Installing all packages	295		
-10369	20425798	true	open	false	5		2016-12-21T01:35:48Z	2016-12-21T23:44:49Z		cluster:RR - Added public API pausing/unpausing a worker	143		
+10369	20425798	true	open	false	6		2016-12-21T01:35:48Z	2016-12-22T01:04:24Z		cluster:RR - Added public API pausing/unpausing a worker	143		
 10370	696611	true	open	false	0		2016-12-21T01:56:29Z	2016-12-21T06:16:18Z		test: fix and improve debug-break-on-uncaught	85		
 10371	696611	true	open	false	1		2016-12-21T02:18:36Z	2016-12-21T06:09:15Z		test: fix and improve debugger-client test	89		
 10372	170197	false	closed	false	9		2016-12-21T03:07:38Z	2016-12-21T17:21:05Z	2016-12-21T17:21:05Z	searchParams empty value not keyed	28		
@@ -3590,3 +3590,5 @@
 10400	289174	true	open	false	0	0	2016-12-21T23:09:28Z	2016-12-21T23:09:28Z		async_wrap: clear destroy_ids vector	71		
 10401	289174	true	open	false	0	0	2016-12-21T23:53:10Z	2016-12-21T23:53:10Z		url: check MaybeLocal return value	60		
 10402	983798	false	open	false	0		2016-12-22T00:47:08Z	2016-12-22T00:47:08Z		Windows installer can corrupt it's npm installation	347		
+10403	495647	true	open	false	0	0	2016-12-22T01:04:46Z	2016-12-22T01:04:46Z		build: revert to pretty-print by default	525		
+10404	718899	true	open	false	0	0	2016-12-22T01:57:55Z	2016-12-22T01:57:55Z		test: fix flaky test-https-timeout	79		
