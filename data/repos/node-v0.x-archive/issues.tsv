@@ -31,19 +31,25 @@
 5108	1735343	false	closed	false	107		2013-03-21T19:49:02Z	2016-08-31T23:51:01Z	2015-06-22T23:04:09Z	net.js - possible EventEmitter memory leak detected	76		
 5233	252072	false	closed	false	3		2013-04-07T03:40:03Z	2016-08-11T19:39:12Z	2013-04-07T05:01:31Z	It's confused that CWD option of execFile() cause changing path of finding.	180		
 5243	418097	false	closed	false	20		2013-04-08T00:00:53Z	2016-11-21T08:04:39Z	2014-02-16T04:16:09Z	context: core module to manage generic contexts for async call chains	477		
+5497	9287	false	closed	false	7		2013-05-17T23:32:09Z	2016-12-22T15:16:30Z	2016-12-22T15:16:30Z	use hrtime instead of Date.now for timeouts	45		
 5644	416585	false	closed	false	4		2013-06-08T15:28:16Z	2016-08-23T10:53:10Z	2013-06-08T16:02:25Z	Exit code in child.on('exit') is 8 if child opened a net connection	107		
 5727	41422	false	closed	false	5		2013-06-21T01:02:19Z	2016-07-21T15:06:37Z	2013-06-21T20:34:32Z	Send binary data via ChildProcess.send	109		
 5841	1691398	false	closed	false	7		2013-07-12T18:55:57Z	2016-09-24T09:41:22Z	2013-07-27T19:39:37Z	`Error: spawn ENOENT` when executing a program installed globally via npm (Windows)	144		
 5849	1311919	false	closed	false	20		2013-07-14T12:25:43Z	2016-06-27T17:45:17Z	2015-07-22T16:00:16Z	Installation failed: node-v0.10.13-x64.msi 	33		
 5949	1073082	false	closed	false	4		2013-07-30T16:20:20Z	2016-09-18T10:48:57Z	2013-07-30T17:18:33Z	GC not works as expected with crypto module	1312		
+6116	1891942	false	open	false	2		2013-08-23T18:52:56Z	2016-12-22T15:18:04Z		"Unchecking ""npm"" still installs it with .pkg"	58		
+6249	54051	false	closed	false	8		2013-09-20T12:33:23Z	2016-12-22T15:19:48Z	2016-12-22T15:19:48Z	process.stdout and process.stderr get flushed out-of-order in Windows when piped	154		
 6339	124288	false	closed	false	10		2013-10-12T01:49:25Z	2016-08-05T20:39:06Z	2013-10-12T08:37:53Z	"Spawning Child Processes Causes ""Error: uv_signal_start EINVAL"" Exception for 0.10.20 or 0.11.8-pre in AMD64 Linux Environment."	168		
 6756	153580	false	closed	false	8		2013-12-24T04:39:07Z	2016-08-15T12:16:03Z	2013-12-24T12:11:26Z	http server: empty response (instead of 400 Bad Request) if space in URL	90		
 6797	1000865	false	closed	false	7		2014-01-03T10:31:23Z	2016-09-19T16:03:12Z	2016-09-19T16:03:12Z	Windows: Error Spawning Process That Requires Elevated Privileges	40		
 6805	1088720	false	open	false	11		2014-01-04T19:36:26Z	2016-10-16T17:56:57Z		Feature request: partial reading option in .readFile / .readFileSync	157		
+6872	846867	false	closed	false	7		2014-01-14T17:36:57Z	2016-12-22T15:21:11Z	2016-12-22T15:21:11Z	Poor timer resolution on windows 7	130		
 6928	422013	false	closed	false	15		2014-01-21T22:19:07Z	2016-12-22T14:59:23Z	2016-12-21T20:36:54Z	'Hang' after timeout on https request	382		
 6933	177641	false	closed	false	5		2014-01-22T03:10:00Z	2016-11-30T07:57:13Z	2014-01-27T19:03:10Z	[Documentation] On process.stdout.cursorTo	34		
 7000	1577701	false	closed	false	2		2014-01-30T17:04:07Z	2016-09-17T17:47:38Z	2014-01-31T03:07:20Z	File timestamp resolution is inconsistent with fs.stat / fs.utimes	125		
+7222	153219	false	closed	false	24		2014-03-02T01:19:38Z	2016-12-22T15:25:06Z	2016-12-22T15:25:06Z	Build breakage on ARMv6 devices with v0.11 branch	120		
 7412	230541	false	closed	false	17		2014-04-06T16:36:47Z	2016-09-22T21:44:44Z	2014-04-06T17:10:11Z	"fs.readFile[Sync](""/dev/stdin"") does not always read the entire file."	160		
+7481	376661	false	closed	false	8		2014-04-18T17:24:59Z	2016-12-22T15:54:31Z	2016-12-22T15:54:31Z	Referencing process.stdin causes EPIPE	214		
 7549	643505	false	closed	false	14		2014-05-02T16:16:25Z	2016-11-17T15:10:03Z	2014-05-07T21:35:38Z	v1: executing async functions without callbacks should return promises	59		
 7629	5349881	false	closed	false	2		2014-05-15T15:53:11Z	2016-11-29T02:54:32Z	2015-07-22T16:00:48Z	NodeJS Windows MSI installs Per User	142		
 7729	91258	false	closed	false	38		2014-06-04T18:03:50Z	2016-11-08T10:09:36Z	2016-11-08T10:09:36Z	deadlock on getaddrinfo	108		
@@ -53,10 +59,13 @@
 8196	5777296	false	closed	false	24		2014-08-16T15:40:28Z	2016-08-18T17:11:43Z	2014-09-26T16:04:44Z	node server hung, control-c 'fixes' things	253		
 8229	96947	false	open	false	6		2014-08-22T09:05:06Z	2016-10-05T12:34:48Z		For tracing - add unique ID to created `TCP` and `IncomingMessage` objects	20		
 8368	160197	false	closed	false	4		2014-09-14T22:42:02Z	2016-07-24T09:06:42Z	2014-09-15T13:31:44Z	assert.throws does not appear to work when dealing with generators	92		
+8383	4379298	false	closed	false	7		2014-09-16T20:27:43Z	2016-12-22T15:45:18Z	2016-12-22T15:45:18Z	timers.js assertionError	74		
+8549	56582	false	closed	false	15		2014-10-15T07:09:01Z	2016-12-22T15:30:50Z	2016-12-22T15:30:50Z	Node crashes in V8 on Raspberry Pi	76		
 8861	855219	true	closed	false	1	0	2014-12-11T19:38:40Z	2016-07-12T20:50:36Z	2016-07-12T20:50:36Z	"build: change `graphviz.py` to support ""all"""	44		
 8929	265902	false	closed	false	11		2014-12-22T22:10:58Z	2016-12-06T20:13:55Z	2014-12-24T04:31:22Z	socket.setNoDelay documentation is contradictory	38		
 9075	5438027	false	open	false	4		2015-01-21T23:49:17Z	2016-11-04T14:16:16Z		setting http.globalAgent.keepAlive does nothing	39		
 9158	68940	false	closed	false	5		2015-02-07T01:04:40Z	2016-08-07T12:20:03Z	2016-08-07T12:20:03Z	`child_process.spawnSync()` throws an error when `options` argument is shared	54		
+9163	1680341	false	closed	false	6		2015-02-08T17:51:26Z	2016-12-22T15:33:43Z	2016-12-22T15:33:43Z	Error Compiling Armv6 (Raspberry Pi B+)	81		
 9280	1216791	false	open	false	0		2015-02-25T03:18:44Z	2016-12-06T02:35:52Z		Docs say Node always uses SO_REUSEADDR, but 0.11.3 and onward do not	48		
 9291	1141042	false	open	false	6		2015-02-26T19:41:28Z	2016-12-01T09:09:47Z		Node v0.12: npm update -g deletes npm	231		
 9369	11335371	false	open	false	2		2015-03-10T14:24:02Z	2016-07-26T17:03:33Z		Node 0.12.0: fs.utimes does not set sub-second time on windows	98		
