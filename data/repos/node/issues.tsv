@@ -173,7 +173,7 @@
 4169	54666	true	closed	false	20		2015-12-06T06:38:35Z	2016-08-30T14:10:41Z	2016-03-18T23:29:42Z	timers: improve setImmediate() performance	51		
 4175	16188318	false	closed	false	27		2015-12-07T10:29:32Z	2016-11-23T16:39:37Z	2016-11-23T16:39:37Z	Node uses an hardcoded list of certificate authorities	240		
 4179	6068824	false	closed	false	15		2015-12-07T22:13:03Z	2016-08-15T20:12:24Z	2016-05-09T12:05:23Z	util.inherits does not establish prototype chain	176		
-4210	1586881	false	closed	false	4		2015-12-09T13:06:00Z	2016-12-21T22:35:57Z	2016-03-22T06:33:31Z	Memory Leak? native Promise and complex arrow functions with Generators	451		
+4210	1586881	false	closed	false	5		2015-12-09T13:06:00Z	2016-12-22T08:43:55Z	2016-03-22T06:33:31Z	Memory Leak? native Promise and complex arrow functions with Generators	451		
 4217	96150	true	closed	false	32	3	2015-12-09T21:53:28Z	2016-10-05T18:50:34Z	2016-10-05T18:50:34Z	fs: add accessibleSync() which returns a boolean	9		
 4236	10103531	false	open	false	8		2015-12-11T01:18:07Z	2016-07-13T03:34:14Z		child_process.spawn() has undocumented 200kb buffer limit	74		
 4243	524382	true	closed	false	10	0	2015-12-11T17:36:12Z	2016-08-19T15:09:25Z	2016-08-19T15:09:25Z	src: use thread defaults provided by v8::platform	73		
@@ -363,7 +363,7 @@
 6525	5750	false	closed	false	6		2016-05-02T15:58:56Z	2016-06-27T17:25:01Z	2016-06-27T17:25:01Z	Result of outer generator .return method incorrect if delegate iterator has no .return method	115		
 6526	2024235	false	closed	false	9		2016-05-02T18:45:42Z	2016-07-11T21:08:24Z	2016-05-02T19:12:07Z	import??	53		
 6528	291301	false	open	false	19		2016-05-02T20:27:59Z	2016-08-06T20:58:05Z		API stability level «Locked» is inaccurate	167		
-6533	54666	true	open	false			2016-05-02T21:15:42Z	2016-12-22T07:43:05Z		http: server code refactor	619		
+6533	54666	true	open	false			2016-05-02T21:15:42Z	2016-12-22T08:04:56Z		http: server code refactor	619		
 6543	568962	false	open	false	18		2016-05-03T08:01:47Z	2016-08-17T14:51:56Z		discuss: tool to simplify landing of PR	206		
 6550	782880	true	closed	false	12		2016-05-03T19:33:57Z	2016-08-26T19:55:00Z	2016-05-04T15:37:15Z	Upgrade to openssl 102h for master	124		
 6558	238531	true	closed	false	12		2016-05-04T03:12:57Z	2016-07-07T07:30:44Z	2016-05-04T19:30:16Z	Support ASLR in v8's profiler	39		
@@ -3002,7 +3002,7 @@
 9806	13572570	false	closed	false	2		2016-11-26T08:15:33Z	2016-11-28T10:23:11Z	2016-11-28T10:23:11Z	Warning: Possible EventEmitter memory leak detected. 11 timeout listeners added. Use emitter.setMaxListeners() to increase limit	40		
 9807	2352663	true	closed	false	2	3	2016-11-26T08:44:58Z	2016-11-29T12:37:21Z	2016-11-29T12:37:21Z	test: refactor and fix test-crypto	77		
 9808	2352663	true	closed	false	3		2016-11-26T09:22:43Z	2016-12-21T19:43:42Z	2016-11-28T12:50:28Z	test: refactor and fix test-buffer-bytelength	47		
-9809	2352663	true	closed	false	5		2016-11-26T09:29:49Z	2016-12-22T07:43:11Z	2016-11-29T12:24:13Z	test: fix test-buffer-slow	42		
+9809	2352663	true	closed	false	6		2016-11-26T09:29:49Z	2016-12-22T08:29:56Z	2016-11-29T12:24:13Z	test: fix test-buffer-slow	42		
 9810	2352663	true	open	false	1		2016-11-26T10:07:00Z	2016-11-29T12:29:58Z		test: refactor test-crypto-binary-default	69		
 9811	2352663	true	closed	false	2	3	2016-11-26T10:20:47Z	2016-11-29T12:15:30Z	2016-11-29T12:15:30Z	test: refactor and fix test-dns	55		
 9812	2352663	true	closed	false	2		2016-11-26T11:21:53Z	2016-11-29T12:20:07Z	2016-11-29T12:20:07Z	test: refactor test-net-pingpong	71		
@@ -3468,7 +3468,7 @@
 10275	1189785	true	closed	false	2		2016-12-15T01:09:09Z	2016-12-18T01:15:07Z	2016-12-18T01:15:07Z	test: improve test-child-process-exec-buffer	52		
 10276	4421720	true	open	false	3		2016-12-15T01:48:14Z	2016-12-17T18:59:42Z		src, lib: deprecate old debug-agent and CLI debugger	138		
 10277	6354455	true	closed	false	29	0	2016-12-15T02:09:18Z	2016-12-20T21:32:42Z	2016-12-20T21:32:41Z	v7.3.0 proposal	1597	2512748	2016-12-20T21:32:41Z
-10278	54666	true	open	false			2016-12-15T06:40:45Z	2016-12-19T11:38:29Z		src: improve hex encoding performance	132		
+10278	54666	true	open	false			2016-12-15T06:40:45Z	2016-12-22T08:56:41Z		src: improve hex encoding performance	132		
 10279	6712608	false	open	false	1		2016-12-15T07:07:56Z	2016-12-15T15:18:24Z		http.request() to a IPV6 server directly with IP address will be failed on MacOS.	198		
 10280	11898796	true	open	false	0	0	2016-12-15T07:21:00Z	2016-12-15T07:21:00Z		Merge pull request #1 from nodejs/master	48		
 10281	20139338	false	closed	false	1		2016-12-15T08:27:33Z	2016-12-15T12:02:50Z	2016-12-15T11:06:15Z	How to build Nodejs for an arm64 architecture machine ?	68		
@@ -3572,7 +3572,7 @@
 10382	899444	true	open	false	3		2016-12-21T07:35:59Z	2016-12-21T22:01:59Z		fs: support Uint8Array input to methods	56		
 10383	2352663	true	closed	false	1		2016-12-21T10:22:28Z	2016-12-21T18:02:43Z	2016-12-21T18:02:43Z	"v4.x: backport of ""test: refactor test-fs-non-number-arguments-throw"""	46		
 10384	696611	true	open	false	1		2016-12-21T10:32:14Z	2016-12-21T14:59:32Z		test: refactor test-init.js	65		
-10385	16402596	true	open	false	0	0	2016-12-21T11:09:05Z	2016-12-21T11:09:05Z		[async_wrap] close the destroy_ids_idle_handle_ on environment destruction	157		
+10385	16402596	true	open	false	1		2016-12-21T11:09:05Z	2016-12-22T08:37:28Z		async_wrap: close the destroy_ids_idle_handle_ on environment destruction	160		
 10386	2352663	true	open	false	2		2016-12-21T15:24:52Z	2016-12-21T18:08:25Z		deps: backport f795a79 from upstream V8	87		
 10387	53454	true	open	false			2016-12-21T17:51:08Z	2016-12-22T00:09:31Z		Update events.js	133		
 10388	327746	false	open	false	2		2016-12-21T17:53:39Z	2016-12-21T19:13:12Z		deps/v8/src/objects.h:3263:46: error: invalid use of incomplete type ‘class v8::internal::Heap	145		
@@ -3593,3 +3593,4 @@
 10403	495647	true	open	false	3		2016-12-22T01:04:46Z	2016-12-22T07:53:36Z		build: revert to pretty-print by default	525		
 10404	718899	true	open	false	2		2016-12-22T01:57:55Z	2016-12-22T04:37:27Z		test: fix flaky test-https-timeout	79		
 10405	45469	true	open	false			2016-12-22T03:36:12Z	2016-12-22T06:16:33Z		update: ensure proper property descriptor on `global`	121		
+10406	13243875	false	open	false	0		2016-12-22T08:35:04Z	2016-12-22T08:35:04Z		Proxy Error wrapped Promise in debug mode	103		
