@@ -2486,7 +2486,7 @@
 9289	1889843	true	closed	false	1		2016-10-26T07:48:13Z	2016-10-28T16:09:23Z	2016-10-28T16:09:23Z	buffer: use correct name for custom inspect symbol	54		
 9290	11976448	true	open	false	4		2016-10-26T09:39:22Z	2016-10-26T21:15:54Z		test: favor `===` over  `==` in fs-utimes	27		
 9291	22879652	true	open	false	0	0	2016-10-26T11:23:45Z	2016-10-26T11:23:45Z		nodej js project	47		
-9292	11976448	true	open	false			2016-10-26T11:44:41Z	2016-12-09T22:48:23Z		url: refactor truncating long hostname	73		
+9292	11976448	true	open	false	25		2016-10-26T11:44:41Z	2016-12-23T18:26:46Z		url: refactor truncating long hostname	73		
 9293	275871	true	open	false	17		2016-10-26T12:03:46Z	2016-12-08T21:30:30Z		v8: fix new.target inheritance from c++	38		
 9294	129203	true	closed	false	1		2016-10-26T12:44:11Z	2016-11-01T19:20:57Z	2016-11-01T19:20:57Z	doc: fix broken links to Buffer.from(string)	59		
 9295	984628	false	closed	false	5		2016-10-26T15:27:29Z	2016-10-27T14:21:51Z	2016-10-27T13:12:33Z	DOS: js expression make nodejs crash	112		
@@ -3369,7 +3369,7 @@
 10172	718899	true	open	false	6		2016-12-07T21:13:03Z	2016-12-08T19:02:34Z		test: fix flaky test-net-socket-timeout	65		
 10173	15161981	true	closed	false	10		2016-12-07T21:26:24Z	2016-12-20T12:12:56Z	2016-12-08T16:28:19Z	deps: define missing operator delete functions	72		
 10174	580536	false	closed	false	2		2016-12-07T21:27:13Z	2016-12-08T14:17:10Z	2016-12-08T14:17:10Z	Windows binaries zip of node.js with npm	82		
-10175	5985850	true	open	false	14		2016-12-07T23:13:45Z	2016-12-23T05:23:27Z		buffer: removed unused variable conf from buffer-base64-decode & buffer-base64-encode	62		
+10175	5985850	true	open	false	14		2016-12-07T23:13:45Z	2016-12-23T18:25:16Z		buffer: removed unused variable conf from buffer-base64-decode & buffer-base64-encode	62		
 10176	11262165	true	closed	false	3	4	2016-12-08T01:20:35Z	2016-12-13T21:03:49Z	2016-12-13T21:03:49Z	test: refactor test-fs-fsync	59		
 10177	109983	true	open	false	21		2016-12-08T05:52:45Z	2016-12-23T05:50:45Z		test: swaps var for let/const throughout common module	54		
 10178	2352663	true	closed	false	5		2016-12-08T09:43:08Z	2016-12-10T09:52:11Z	2016-12-10T09:52:11Z	tools: enforce consistent operator linebreak style	151		
@@ -3394,12 +3394,12 @@
 10197	7524911	false	closed	false	1		2016-12-09T15:00:32Z	2016-12-09T15:06:28Z	2016-12-09T15:06:28Z	Always show % at the end of line	88		
 10198	1127729	false	closed	true	3		2016-12-09T15:07:15Z	2016-12-09T18:36:24Z	2016-12-09T18:36:24Z	Something is wrong with the installers and download page	23		
 10199	5698911	false	closed	false	1		2016-12-09T15:55:27Z	2016-12-09T16:17:40Z	2016-12-09T16:17:40Z	Non deterministic behavior for failing executables	337		
-10200	1189785	true	open	false	4		2016-12-09T18:49:16Z	2016-12-20T02:07:52Z		test: refactor the code in test-dns-ipv4	50		
+10200	1189785	true	open	false	5		2016-12-09T18:49:16Z	2016-12-23T18:29:06Z		test: refactor the code in test-dns-ipv4	50		
 10201	829827	true	open	false			2016-12-09T19:04:06Z	2016-12-23T04:15:29Z		Update process.md	28		
 10202	4299420	true	closed	false	16		2016-12-09T19:19:45Z	2016-12-22T15:55:55Z	2016-12-22T15:55:55Z	doc: clarify the review and landing process	106		
 10203	17607	false	open	false	0		2016-12-09T20:07:00Z	2016-12-09T20:07:00Z		https agent docs are incomprehensible	307		
 10204	1037138	false	closed	false	7		2016-12-09T20:35:50Z	2016-12-15T21:52:23Z	2016-12-15T21:52:23Z	Benchmark docs: how to select the CRAN Mirror for R	61		
-10205	1093990	true	open	false	7		2016-12-09T20:45:21Z	2016-12-23T17:20:38Z		timers: cleanup extraneous property on Immediates	154		
+10205	1093990	true	open	false	8		2016-12-09T20:45:21Z	2016-12-23T18:15:16Z		timers: cleanup extraneous property on Immediates	154		
 10206	855219	true	open	false	6		2016-12-09T20:47:45Z	2016-12-23T17:16:32Z		deps: ICU 58.2 bump	50		
 10207	3611800	true	closed	false	4		2016-12-09T21:03:20Z	2016-12-14T18:13:36Z	2016-12-14T18:13:36Z	test: fix setTimeout, add const, remove unused var	50		
 10208	347452	false	open	false	3		2016-12-09T22:08:51Z	2016-12-12T22:25:19Z		Win64 .msi install breaks Windows Explorer.	106		
@@ -3444,7 +3444,7 @@
 10250	7455872	false	closed	false	8		2016-12-13T17:09:41Z	2016-12-13T18:01:19Z	2016-12-13T17:41:09Z	Console wrongly printing the object constructor class	104		
 10251	718899	true	closed	false	2		2016-12-13T17:27:56Z	2016-12-16T06:01:02Z	2016-12-16T06:01:02Z	doc: expand common module material in test guide	56		
 10252	16945543	false	closed	false	4		2016-12-13T19:14:39Z	2016-12-13T20:03:10Z	2016-12-13T19:40:28Z	Not able to download the NPM package it says Failed - Network Error	6		
-10253	1736496	true	open	false	4		2016-12-13T20:05:15Z	2016-12-23T16:56:21Z		Cache non-symlinks in realpathSync	235		
+10253	1736496	true	open	false	6		2016-12-13T20:05:15Z	2016-12-23T18:23:38Z		Cache non-symlinks in realpathSync	235		
 10254	1026325	false	closed	false	1		2016-12-13T20:54:04Z	2016-12-13T22:15:54Z	2016-12-13T20:58:30Z	how to run different version of node on same machine ?	48		
 10255	10393198	false	closed	false	2		2016-12-13T22:08:30Z	2016-12-22T14:21:14Z	2016-12-22T14:21:14Z	Debug call illustration in the cluster doc does not match with output in Windows	253		
 10256	2329683	false	closed	false	7		2016-12-13T22:24:04Z	2016-12-14T07:45:19Z	2016-12-13T22:39:55Z	Backpressure on http.ServerResponse	133		
@@ -3508,7 +3508,7 @@
 10314	9603509	false	closed	false	3		2016-12-17T05:32:46Z	2016-12-18T11:34:57Z	2016-12-18T11:34:57Z	lib\_stream_readable.js - computeNewHighWaterMark( 0 ) returns 0 as a hwm	112		
 10315	718899	true	open	false	4		2016-12-17T06:08:38Z	2016-12-21T06:13:05Z		test: refactor test-timers-this	65		
 10316	1084056	true	closed	false	2	0	2016-12-17T08:13:04Z	2016-12-19T19:03:15Z	2016-12-19T19:03:15Z	test: fix flaky test-debug-port	52	1084056	2016-12-19T19:03:15Z
-10317	2352663	true	open	false	14		2016-12-17T13:23:01Z	2016-12-23T16:13:18Z		url: make WHATWG URL implementation more spec compliant	85		
+10317	2352663	true	open	false	15		2016-12-17T13:23:01Z	2016-12-23T18:17:48Z		url: make WHATWG URL implementation more spec compliant	85		
 10318	1189785	true	closed	false	2	0	2016-12-17T16:11:38Z	2016-12-23T06:19:58Z	2016-12-23T06:19:57Z	test: improve code in test-http-bind-twice.js	52		
 10319	13561163	true	closed	false	5		2016-12-17T16:16:00Z	2016-12-21T14:59:34Z	2016-12-21T14:59:34Z	test: add known_issues test for #5350	95		
 10320	567540	true	open	false	1		2016-12-17T18:57:29Z	2016-12-22T02:20:15Z		doc: Deprecate old debug protocol	93		
@@ -3547,7 +3547,7 @@
 10356	275871	true	closed	false	5	0	2016-12-20T12:12:03Z	2016-12-21T12:08:01Z	2016-12-21T12:08:01Z	deps: define missing operator delete functions	83		
 10357	5655189	true	closed	false	3		2016-12-20T13:00:43Z	2016-12-23T07:04:05Z	2016-12-23T07:01:23Z	test: refactor the code in test-fs-watch.js	70		
 10358	40952	false	open	false	5		2016-12-20T13:21:44Z	2016-12-22T10:05:16Z		HTTP client returns truncated response	464		
-10359	22550884	true	open	false			2016-12-20T19:48:31Z	2016-12-23T17:09:15Z		test: basic  functionality of readUIntLE()	29		
+10359	22550884	true	open	false			2016-12-20T19:48:31Z	2016-12-23T18:19:59Z		test: basic  functionality of readUIntLE()	29		
 10360	54666	true	open	false	0	0	2016-12-20T20:03:29Z	2016-12-20T20:03:29Z		benchmark: use commas in non-csv rate output	55		
 10361	498775	false	open	false	2		2016-12-20T21:20:08Z	2016-12-21T02:20:30Z		Debugger tests are timing out on v4.x	27		
 10362	718899	true	closed	false	6		2016-12-20T21:46:32Z	2016-12-23T00:41:05Z	2016-12-23T00:41:05Z	test: fix timers-same-timeout-wrong-list-deleted	227		
@@ -3605,7 +3605,7 @@
 10414	17607	true	open	false	3		2016-12-22T18:33:10Z	2016-12-23T02:08:48Z		src: describe what NODE_MODULE_VERSION is for	45		
 10415	10456131	false	open	false	2		2016-12-22T20:07:43Z	2016-12-22T23:16:30Z		Problem with pipe : EPIPE read.	219		
 10416	1084056	true	open	false	0	0	2016-12-22T20:51:02Z	2016-12-22T20:51:02Z		Fix trace warnings	50		
-10417	22550884	true	open	false			2016-12-22T22:28:02Z	2016-12-23T17:13:27Z		test: basic functionality of readUIntBE()	26		
+10417	22550884	true	open	false			2016-12-22T22:28:02Z	2016-12-23T18:11:12Z		test: basic functionality of readUIntBE()	26		
 10418	4923947	true	open	false	1		2016-12-22T23:25:38Z	2016-12-23T01:09:44Z		test test-child-process-stdin.js: change assert.ok to assert.strictEqual	52		
 10419	718899	true	open	false	0	0	2016-12-23T01:06:26Z	2016-12-23T01:06:26Z		 doc,src: clarify doc/comment about ABI number	38		
 10420	4923947	true	open	false	2		2016-12-23T03:38:58Z	2016-12-23T04:22:40Z		test fix: Use assert.strictEqual instead of assert.equal and assert.ok	46		
@@ -3614,4 +3614,6 @@
 10423	696611	true	open	false			2016-12-23T10:20:24Z	2016-12-23T15:09:01Z		child_process: improve killSignal validations	116		
 10424	696611	true	open	false	0	0	2016-12-23T10:56:06Z	2016-12-23T10:56:06Z		doc: killSignal option accepts integer values	37		
 10425	4723	false	open	false	0		2016-12-23T17:24:03Z	2016-12-23T17:24:03Z		Command-line arguments trimmed when passed to a script specified with -e option	94		
-10426	22550884	true	open	false	0	0	2016-12-23T18:02:34Z	2016-12-23T18:02:34Z		test: basic functionality of readUInt16LE()	22		
+10426	22550884	true	open	false			2016-12-23T18:02:34Z	2016-12-23T18:10:09Z		test: basic functionality of readUInt16LE()	22		
+10427	22550884	true	open	false	0	0	2016-12-23T18:24:34Z	2016-12-23T18:24:34Z		Test : readuint8()	25		
+10428	1189785	true	open	false	0	0	2016-12-23T18:46:41Z	2016-12-23T18:46:41Z		test: improve code in test-vm-preserves-property	47		
