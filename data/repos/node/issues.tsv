@@ -328,6 +328,7 @@
 6300	3899684	false	open	false	13		2016-04-20T13:03:08Z	2016-09-12T18:04:52Z		discuss: object serializer/deserializer + transferables	222		
 6301	2552507	false	closed	false	14		2016-04-20T13:18:10Z	2016-06-27T17:32:08Z	2016-06-27T17:32:07Z	Double-free in garbage collector in v5.10.1	1005		
 6306	498775	false	open	false	30		2016-04-20T17:15:56Z	2016-09-06T21:31:30Z		Introduce staging branch for stable release streams	131		
+6307	10342420	false	open	false	9		2016-04-20T17:49:42Z	2016-12-23T22:21:03Z		order of getaddrinfo results not respected	75		
 6313	5678694	true	open	false	10		2016-04-20T20:51:16Z	2016-07-15T04:30:47Z		doc: fix style inconsistencies in code examples	33		
 6332	16402596	true	open	false			2016-04-21T15:57:17Z	2016-07-05T19:58:36Z		debugger: fix stuck debugger when debuggee exits	157		
 6344	718899	true	closed	false	11		2016-04-22T05:35:43Z	2016-07-11T19:57:26Z	2016-04-28T17:58:41Z	crypto: fix error in deprecation message	72		
@@ -2126,7 +2127,7 @@
 8929	2725611	false	open	false	0		2016-10-04T20:43:13Z	2016-10-04T20:43:13Z		Replace .eslintrc with something else?	42		
 8930	718899	false	closed	false	1		2016-10-04T22:57:12Z	2016-11-06T09:24:13Z	2016-11-06T09:24:13Z	investigate flaky sequential/test-net-GH-5504 on SmartOS	113		
 8931	718899	true	open	false	5		2016-10-04T23:19:51Z	2016-10-06T21:46:00Z		test: refactor test-net-server-max-connections	66		
-8932	677994	true	closed	false	21		2016-10-04T23:34:01Z	2016-12-21T18:15:20Z	2016-10-13T17:18:02Z	process: improve performance of nextTick	142		
+8932	677994	true	closed	false	22		2016-10-04T23:34:01Z	2016-12-23T22:07:21Z	2016-10-13T17:18:02Z	process: improve performance of nextTick	142		
 8933	1250248	true	closed	false	2		2016-10-05T03:34:32Z	2016-10-05T15:38:51Z	2016-10-05T15:38:51Z	doc: fix url markdown formatting	69		
 8934	11786120	false	open	false	8		2016-10-05T08:39:23Z	2016-10-06T17:19:24Z		readline: emitKeypressEvents does not properly recognize Alt+Arrow	76		
 8935	4057473	false	open	false	0		2016-10-05T09:42:53Z	2016-10-05T09:42:53Z		No reference error on nonexistent object value	105		
@@ -3227,7 +3228,7 @@
 10030	11262165	true	closed	false	3		2016-12-01T17:50:30Z	2016-12-04T04:02:49Z	2016-12-04T04:02:49Z	test: update test-fs-write-file	61		
 10031	4453433	true	closed	false	8	1	2016-12-01T17:50:36Z	2016-12-06T15:45:48Z	2016-12-06T15:45:48Z	test: add test for url module domainToAscii and domainToUnicode	47		
 10032	2763135	true	closed	false	4		2016-12-01T17:50:38Z	2016-12-07T00:39:07Z	2016-12-06T08:12:20Z	test: refactor test-dgram-msgsize.js	46		
-10033	6042252	true	open	false	4		2016-12-01T17:51:40Z	2016-12-23T03:13:13Z		test: Updates to test-stream2-unpipe-drain	64		
+10033	6042252	true	open	false			2016-12-01T17:51:40Z	2016-12-23T22:40:24Z		test: Updates to test-stream2-unpipe-drain	64		
 10034	4591928	true	closed	false	1	0	2016-12-01T17:52:33Z	2016-12-07T12:49:19Z	2016-12-07T12:49:19Z	test: const/strictEqual in test-listen-fd-ebadf	38		
 10035	4591928	true	open	false	2		2016-12-01T17:52:36Z	2016-12-05T23:01:20Z		test: test-file-write-stream3.js refactor	38		
 10036	874194	true	closed	false	6	2	2016-12-01T17:52:36Z	2016-12-23T01:32:15Z	2016-12-23T01:32:15Z	test: assert.strictEqual and linting	37		
@@ -3619,5 +3620,6 @@
 10428	1189785	true	open	false	0	0	2016-12-23T18:46:41Z	2016-12-23T18:46:41Z		test: improve code in test-vm-preserves-property	47		
 10429	1189785	true	open	false	0	0	2016-12-23T19:02:59Z	2016-12-23T19:02:59Z		test: improve code in test-vm-symbols	48		
 10430	824632	false	open	false	0		2016-12-23T19:20:28Z	2016-12-23T19:20:28Z		require loading wrong module inside of a nested app	229		
-10431	718899	true	open	false	0	0	2016-12-23T21:06:58Z	2016-12-23T21:06:58Z		test: fix flaky test-http-client-timeout-with-data	125		
+10431	718899	true	open	false	4		2016-12-23T21:06:58Z	2016-12-23T22:37:29Z		test: fix flaky test-http-client-timeout-with-data	125		
 10432	2387356	false	open	false	0		2016-12-23T21:32:58Z	2016-12-23T21:32:58Z		Prevent EMFILE	50		
+10433	677994	true	open	false	0	0	2016-12-23T22:07:01Z	2016-12-23T22:07:01Z		process: improve performance of nextTick (v4.x backport)	62		
