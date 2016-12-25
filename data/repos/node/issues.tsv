@@ -1865,7 +1865,7 @@
 8667	20224954	false	open	false	3		2016-09-20T14:03:48Z	2016-09-21T18:37:35Z		win: gc/test-http-client-onerror.js failure in v6.6.0	142		
 8668	6354455	true	open	false	3		2016-09-20T17:59:02Z	2016-09-22T21:50:24Z		test: cleanup stream tests	41		
 8669	54666	false	closed	false	11		2016-09-20T18:05:25Z	2016-09-23T18:08:54Z	2016-09-23T18:08:54Z	Investigate flaky inspector/test-inspector	118		
-8670	21145776	false	open	false	14		2016-09-20T19:25:32Z	2016-12-25T18:30:14Z		Garbage collection causes bad performance 	285		
+8670	21145776	false	open	false	16		2016-09-20T19:25:32Z	2016-12-25T19:03:17Z		Garbage collection causes bad performance 	285		
 8671	961599	false	open	false	2		2016-09-20T20:44:14Z	2016-10-03T13:54:48Z		The debug build (node_g) is difficult to install	53		
 8672	287917	true	closed	false	6		2016-09-20T21:07:12Z	2016-09-23T21:53:43Z	2016-09-23T18:08:46Z	inspector: address race conditions	65		
 8673	498775	true	closed	false	19		2016-09-20T22:12:05Z	2016-09-29T19:42:55Z	2016-09-23T14:17:48Z	deps: cherry-pick 34880eb3dc from V8 upstream	184		
@@ -3594,7 +3594,7 @@
 10402	983798	false	open	false	5		2016-12-22T00:47:08Z	2016-12-25T12:39:29Z		Windows installer can corrupt its npm installation	347		
 10403	495647	true	open	false	6		2016-12-22T01:04:46Z	2016-12-22T14:15:48Z		build: revert to pretty-print by default	525		
 10404	718899	true	closed	false	4	0	2016-12-22T01:57:55Z	2016-12-24T04:44:11Z	2016-12-24T04:44:11Z	test: fix flaky test-https-timeout	79		
-10405	45469	true	open	false			2016-12-22T03:36:12Z	2016-12-25T18:05:01Z		src: make `global` non-enumerable	119		
+10405	45469	true	open	false			2016-12-22T03:36:12Z	2016-12-25T19:47:48Z		src: make `global` non-enumerable	119		
 10406	13243875	false	open	false	5		2016-12-22T08:35:04Z	2016-12-22T20:05:08Z		Proxy Error wrapped Promise in debug mode	103		
 10407	275871	true	open	false	0	0	2016-12-22T09:13:59Z	2016-12-22T09:13:59Z		src: remove unused PROTOCOL_JSON array	15		
 10408	4299420	true	open	false			2016-12-22T09:33:12Z	2016-12-23T08:44:17Z		url: make WHATWG URL properties spec compliant	161		
@@ -3613,7 +3613,7 @@
 10421	696611	true	open	false	0	0	2016-12-23T05:34:55Z	2016-12-23T05:34:55Z		test: fix linter error in whatwg-url-parsing	44		
 10422	14938690	false	open	false	4		2016-12-23T07:45:36Z	2016-12-23T11:49:57Z		Error: read ECONNRESET - HTTP post request from Meteor to Node js server	322		
 10423	696611	true	open	false			2016-12-23T10:20:24Z	2016-12-23T15:09:01Z		child_process: improve killSignal validations	116		
-10424	696611	true	open	false	0	0	2016-12-23T10:56:06Z	2016-12-23T10:56:06Z		doc: killSignal option accepts integer values	37		
+10424	696611	true	open	false	1		2016-12-23T10:56:06Z	2016-12-25T19:43:41Z		doc: killSignal option accepts integer values	37		
 10425	4723	false	open	false	1		2016-12-23T17:24:03Z	2016-12-23T19:29:20Z		Command-line arguments trimmed when passed to a script specified with -e option	94		
 10426	22550884	true	open	false			2016-12-23T18:02:34Z	2016-12-24T16:29:12Z		test: basic functionality of readUInt16LE()	22		
 10427	22550884	true	open	false			2016-12-23T18:24:34Z	2016-12-24T16:24:26Z		Test : readuint8()	25		
@@ -3621,7 +3621,7 @@
 10429	1189785	true	open	false	0	0	2016-12-23T19:02:59Z	2016-12-23T19:02:59Z		test: improve code in test-vm-symbols	48		
 10430	824632	false	open	false	0		2016-12-23T19:20:28Z	2016-12-23T19:20:28Z		require loading wrong module inside of a nested app	229		
 10431	718899	true	open	false	4		2016-12-23T21:06:58Z	2016-12-23T22:37:29Z		test: fix flaky test-http-client-timeout-with-data	125		
-10432	2387356	false	open	false	1		2016-12-23T21:32:58Z	2016-12-24T17:02:25Z		Prevent EMFILE	52		
+10432	2387356	false	open	false	2		2016-12-23T21:32:58Z	2016-12-25T19:47:44Z		Prevent EMFILE	52		
 10433	677994	true	closed	false	3		2016-12-23T22:07:01Z	2016-12-23T23:23:53Z	2016-12-23T23:23:53Z	process: improve performance of nextTick (v4.x backport)	62		
 10434	10070816	true	open	false	0	0	2016-12-24T08:36:36Z	2016-12-24T08:36:36Z		Fix a loose example in stream.md	6		
 10435	1296500	false	open	false	3		2016-12-24T13:16:23Z	2016-12-24T16:17:01Z		Node v4 not respect const scope in while block	53		
@@ -3637,8 +3637,9 @@
 10445	54666	true	open	false	0	0	2016-12-25T04:06:01Z	2016-12-25T04:06:01Z		events: improve once() performance	92		
 10446	54666	true	open	false	0	0	2016-12-25T04:31:19Z	2016-12-25T04:31:19Z		benchmark: tidy `net` benchmarks	42		
 10447	7455872	false	open	false	1		2016-12-25T08:49:42Z	2016-12-25T09:30:48Z		Feature request: System time change notification	38		
-10448	4299420	true	open	false	4		2016-12-25T09:34:56Z	2016-12-25T18:59:30Z		benchmark: imply flags with comments in benchmarks	169		
+10448	4299420	true	open	false	5		2016-12-25T09:34:56Z	2016-12-25T19:27:24Z		benchmark: imply flags with comments in benchmarks	169		
 10449	18419656	false	open	false	0		2016-12-25T14:27:36Z	2016-12-25T14:27:36Z		node response close during response.write	233		
 10450	9286933	false	open	false	0		2016-12-25T18:18:37Z	2016-12-25T18:18:37Z		Feature request: add support for the Google Closure Compiler	45		
 10451	10393198	true	open	false	0	0	2016-12-25T18:31:30Z	2016-12-25T18:31:30Z		doc: some fixes in console.md	104		
-10452	1189785	true	open	false	0	0	2016-12-25T19:01:44Z	2016-12-25T19:01:44Z		test: improve the code in test-pipe.js	67		
+10452	1189785	true	open	false			2016-12-25T19:01:44Z	2016-12-25T19:09:12Z		test: improve the code in test-pipe.js	67		
+10453	2101743	false	open	false	0		2016-12-25T19:29:53Z	2016-12-25T19:29:53Z		VM: VM is much slower when `timeout` was specified	91		
