@@ -211,6 +211,7 @@
 4677	439929	false	closed	false	8		2016-01-13T21:25:47Z	2016-08-09T21:11:36Z	2016-08-09T21:11:36Z	Revising Deprecation Strategy / Labels	689		
 4682	439929	true	closed	false	132		2016-01-14T04:23:32Z	2016-10-19T16:28:24Z	2016-03-16T15:36:13Z	buffer: add Buffer.from(), Buffer.alloc() and Buffer.allocUnsafe(), soft-deprecate Buffer(num)	122		
 4685	11070840	false	open	false	19		2016-01-14T06:13:50Z	2016-08-14T23:11:57Z		Symantec Quarantining node-v5.4.1-x64.msi	30		
+4693	677994	true	closed	false	9		2016-01-14T14:48:11Z	2016-12-28T12:06:21Z	2016-01-19T15:37:27Z	src: cares_wrap: only loop through once on lookup	56		
 4701	189835	false	open	false	62		2016-01-14T20:18:01Z	2016-07-19T01:02:19Z		ES2016 compat issue with Buffer subclassing Uint8Array	163		
 4716	10805246	false	closed	false	4		2016-01-15T22:58:34Z	2016-12-01T18:02:37Z	2016-01-16T16:27:04Z	windows 7 cygwin64 installation, Make fails at tools/gyp_node.py	67		
 4740	327019	true	open	false			2016-01-18T10:01:35Z	2016-12-12T15:31:19Z		readline: refactor construct Interface	6		
@@ -1532,7 +1533,7 @@
 8331	1443911	true	closed	false	4		2016-08-30T05:56:23Z	2016-08-30T10:07:50Z	2016-08-30T06:13:03Z	doc: add lpinca to collaborators	29		
 8332	696611	true	open	false	2		2016-08-30T06:28:38Z	2016-09-08T19:48:03Z		buffer: deprecate parent property	52		
 8333	16787433	true	open	false	0	0	2016-08-30T12:34:10Z	2016-08-30T12:34:10Z		Merge pull request #1 from nodejs/master	48		
-8334	1211498	true	open	false	47		2016-08-30T12:35:45Z	2016-12-21T10:23:17Z		crypto: use system CAs instead of bundled ones	74		
+8334	1211498	true	open	false	48		2016-08-30T12:35:45Z	2016-12-28T12:33:21Z		crypto: use system CAs instead of bundled ones	74		
 8335	16787433	true	open	false	0	0	2016-08-30T12:37:32Z	2016-08-30T12:37:32Z		Merge pull request #1 from nodejs/master	48		
 8336	16787433	true	open	false	0	0	2016-08-30T12:39:44Z	2016-08-30T12:39:44Z		Merge pull request #1 from nodejs/master	48		
 8337	16787433	true	open	false	0	0	2016-08-30T12:51:40Z	2016-08-30T12:51:40Z		merge from remote	47		
@@ -3333,7 +3334,7 @@
 10132	4985028	true	closed	false	19		2016-12-06T00:33:41Z	2016-12-11T14:09:05Z	2016-12-11T00:54:19Z	Fix --preserve-symlinks, Enhancement to exploit	70		
 10133	7834613	false	open	false	0		2016-12-06T00:42:54Z	2016-12-06T00:42:54Z		http.Agent free sockets maintain reference to initial ClientRequest object until the socket is destroyed/closed	283		
 10134	7834613	true	open	false	11		2016-12-06T03:11:55Z	2016-12-22T21:00:41Z		http: Eliminate ClientRequest capture by Agent socket listeners	137		
-10135	275871	true	open	false	10		2016-12-06T03:55:43Z	2016-12-28T07:40:02Z		lib: be robust when process global is clobbered	66		
+10135	275871	true	open	false	12		2016-12-06T03:55:43Z	2016-12-28T12:54:31Z		lib: be robust when process global is clobbered	66		
 10136	2920525	true	closed	false	2		2016-12-06T05:44:11Z	2016-12-12T15:11:09Z	2016-12-12T15:11:09Z	doc: fix typo in code example of 'path' module	30		
 10137	680220	false	closed	false	9		2016-12-06T08:02:41Z	2016-12-08T17:10:47Z	2016-12-08T13:40:07Z	FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memory	199		
 10138	327019	true	open	false	4		2016-12-06T09:48:18Z	2016-12-07T12:02:06Z		http: make the expression test more faster	85		
@@ -3398,7 +3399,7 @@
 10197	7524911	false	closed	false	1		2016-12-09T15:00:32Z	2016-12-09T15:06:28Z	2016-12-09T15:06:28Z	Always show % at the end of line	88		
 10198	1127729	false	closed	true	3		2016-12-09T15:07:15Z	2016-12-09T18:36:24Z	2016-12-09T18:36:24Z	Something is wrong with the installers and download page	23		
 10199	5698911	false	closed	false	1		2016-12-09T15:55:27Z	2016-12-09T16:17:40Z	2016-12-09T16:17:40Z	Non deterministic behavior for failing executables	337		
-10200	1189785	true	open	false	7		2016-12-09T18:49:16Z	2016-12-23T20:07:54Z		test: refactor the code in test-dns-ipv4	50		
+10200	1189785	true	open	false	8		2016-12-09T18:49:16Z	2016-12-28T12:21:05Z		test: refactor the code in test-dns-ipv4	50		
 10201	829827	true	open	false			2016-12-09T19:04:06Z	2016-12-24T04:12:45Z		Update process.md	28		
 10202	4299420	true	closed	false	16		2016-12-09T19:19:45Z	2016-12-22T15:55:55Z	2016-12-22T15:55:55Z	doc: clarify the review and landing process	106		
 10203	17607	false	open	false	0		2016-12-09T20:07:00Z	2016-12-09T20:07:00Z		https agent docs are incomprehensible	307		
@@ -3649,7 +3650,7 @@
 10454	7604540	false	open	false	0		2016-12-26T07:13:23Z	2016-12-26T07:13:23Z		'querystring.parse' works a inconsistent way with URLSearchParams(chrome) and python's urlparse.parse_qs	76		
 10455	696611	true	open	false			2016-12-26T08:59:29Z	2016-12-26T18:49:41Z		test: refactor test-debugger-remote	94		
 10456	696611	true	open	false			2016-12-26T09:10:29Z	2016-12-28T04:24:02Z		build: enable debugger tests in CI	46		
-10457	6124091	false	open	false	4		2016-12-26T09:42:42Z	2016-12-27T17:21:22Z		Debugger isn't stopped at the `debugger;` statement when debugging using `--inspect`	71		
+10457	6124091	false	open	false	5		2016-12-26T09:42:42Z	2016-12-28T12:23:59Z		Debugger isn't stopped at the `debugger;` statement when debugging using `--inspect`	71		
 10458	696611	true	open	false	3		2016-12-26T11:19:18Z	2016-12-27T22:40:00Z		lib,src: make constants not inherit from Object	54		
 10459	2352663	true	closed	false	2	0	2016-12-26T12:15:54Z	2016-12-26T14:38:00Z	2016-12-26T14:37:59Z	v6.x: backport test: fix test-buffer-slow	3	2352663	2016-12-26T14:37:59Z
 10460	2352663	true	closed	false	1		2016-12-26T12:22:49Z	2016-12-27T12:08:25Z	2016-12-27T12:08:25Z	v4.x: backport test: fix test-buffer-slow	3		
@@ -3679,3 +3680,4 @@
 10484	718899	true	open	false	0	0	2016-12-28T06:44:59Z	2016-12-28T06:44:59Z		meta: modify pull request template for prepending	52		
 10485	7252180	false	open	false	0		2016-12-28T08:06:20Z	2016-12-28T08:06:20Z		using Reflect TypeError: CreateListFromArrayLike called on non-object	65		
 10486	2352663	true	open	false	0	0	2016-12-28T09:17:30Z	2016-12-28T09:17:30Z		url: fix URL query update if searchParams changes	50		
+10487	1735343	false	open	false	0		2016-12-28T12:48:46Z	2016-12-28T12:48:46Z		Sending HTTP request with 'Expect: 100-continue'	92		
