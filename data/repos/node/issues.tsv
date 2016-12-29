@@ -336,7 +336,7 @@
 6300	3899684	false	open	false	13		2016-04-20T13:03:08Z	2016-09-12T18:04:52Z		discuss: object serializer/deserializer + transferables	222		
 6301	2552507	false	closed	false	14		2016-04-20T13:18:10Z	2016-06-27T17:32:08Z	2016-06-27T17:32:07Z	Double-free in garbage collector in v5.10.1	1005		
 6306	498775	false	open	false	30		2016-04-20T17:15:56Z	2016-09-06T21:31:30Z		Introduce staging branch for stable release streams	131		
-6307	10342420	false	open	false	10		2016-04-20T17:49:42Z	2016-12-27T13:03:17Z		order of getaddrinfo results not respected	75		
+6307	10342420	false	open	false	10		2016-04-20T17:49:42Z	2016-12-29T20:11:00Z		order of getaddrinfo results not respected	75		
 6313	5678694	true	open	false	10		2016-04-20T20:51:16Z	2016-07-15T04:30:47Z		doc: fix style inconsistencies in code examples	33		
 6332	16402596	true	open	false	12		2016-04-21T15:57:17Z	2016-12-29T18:05:15Z		debugger: fix stuck debugger when debuggee exits	147		
 6344	718899	true	closed	false	11		2016-04-22T05:35:43Z	2016-07-11T19:57:26Z	2016-04-28T17:58:41Z	crypto: fix error in deprecation message	72		
@@ -2225,7 +2225,7 @@
 9014	498775	true	open	false	5		2016-10-10T22:09:07Z	2016-10-11T18:57:27Z		Backport src: fix handle leaks #7711	36		
 9015	1674289	false	open	false	5		2016-10-10T22:43:50Z	2016-12-07T12:08:01Z		Segmentation fault using TLS after uprgrade to nodejs 6.7.0 / CentOS 7	200		
 9016	498775	true	closed	false	0	2	2016-10-10T22:56:01Z	2016-10-11T17:50:52Z	2016-10-11T17:50:52Z	tls: copy the Buffer object before using (backport to v4.x)	39	498775	2016-10-11T17:50:52Z
-9017	996487	false	open	false	0		2016-10-11T00:54:44Z	2016-10-11T00:54:44Z		"Problematic process.argv with ""node -e"""	267		
+9017	996487	false	open	false	1		2016-10-11T00:54:44Z	2016-12-29T20:40:15Z		"Problematic process.argv with ""node -e"""	267		
 9018	8603093	false	closed	false	1		2016-10-11T01:03:14Z	2016-10-11T14:52:01Z	2016-10-11T14:52:00Z	Will read_cb be called immediately after alloc_cb for uv_read_start?	55		
 9019	592432	false	open	false	0		2016-10-11T03:52:51Z	2016-10-11T05:29:53Z		path.parse: result differs between Windows and macOS for Windows-style paths	92		
 9020	718899	false	closed	false	12		2016-10-11T04:22:40Z	2016-10-19T15:09:24Z	2016-10-19T15:09:24Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-10-12	482		
@@ -3417,7 +3417,7 @@
 10206	855219	true	open	false	7		2016-12-09T20:47:45Z	2016-12-27T22:17:58Z		deps: ICU 58.2 bump	50		
 10207	3611800	true	closed	false	4		2016-12-09T21:03:20Z	2016-12-14T18:13:36Z	2016-12-14T18:13:36Z	test: fix setTimeout, add const, remove unused var	50		
 10208	347452	false	open	false	3		2016-12-09T22:08:51Z	2016-12-12T22:25:19Z		Win64 .msi install breaks Windows Explorer.	106		
-10209	677994	true	open	false	10		2016-12-09T23:18:22Z	2016-12-23T09:45:51Z		src: allow passing a buffer to RandomBytes	147		
+10209	677994	true	open	false	11		2016-12-09T23:18:22Z	2016-12-29T20:49:42Z		src: allow passing a buffer to RandomBytes	147		
 10210	718899	true	closed	false	2		2016-12-10T00:14:07Z	2016-12-14T00:31:26Z	2016-12-14T00:31:26Z	test: refactor test-http-pause-resume-one-end	47		
 10211	1037138	true	closed	false	8		2016-12-10T01:06:46Z	2016-12-15T21:51:38Z	2016-12-15T21:51:38Z	doc: document R CRAN mirror process	67		
 10212	718899	true	closed	false	6		2016-12-10T06:49:23Z	2016-12-13T21:42:32Z	2016-12-13T21:42:32Z	test: fix flaky test-dgram-exclusive-implicit-bind	103		
@@ -3497,7 +3497,7 @@
 10289	163333	false	closed	false	1		2016-12-15T14:11:22Z	2016-12-15T16:25:07Z	2016-12-15T15:06:56Z	../../nan/nan.h:590:20: error: no type named 'GCEpilogueCallback' in 'v8::Isolate'	492		
 10290	1062181	false	open	false	1		2016-12-15T15:50:24Z	2016-12-16T15:17:52Z		`dns.lookup('localhost', ...)` fails on Surface Pro 3 in Airplane Mode	225		
 10291	10169274	true	closed	false	5		2016-12-15T18:39:17Z	2016-12-17T08:42:31Z	2016-12-17T08:42:31Z	test: clean up test-domain-no-error-handler-abort-on-uncaught.js	44		
-10292	24595609	false	open	false	21		2016-12-15T21:33:47Z	2016-12-27T01:33:55Z		console.log and util.format should support the %i integer conversion	110		
+10292	24595609	false	open	false	22		2016-12-15T21:33:47Z	2016-12-29T20:25:27Z		console.log and util.format should support the %i integer conversion	110		
 10293	718899	true	closed	false	7		2016-12-15T22:03:26Z	2016-12-19T04:59:21Z	2016-12-19T04:59:21Z	test: fix flaky test-http-client-timeout-event	45		
 10294	17607	true	closed	false	6	2	2016-12-15T22:26:59Z	2016-12-19T21:49:25Z	2016-12-19T21:49:25Z	tls: allow obvious key/passphrase combinations	94		
 10295	9287	false	open	false	2		2016-12-15T22:43:36Z	2016-12-16T05:25:22Z		RFE: A way to spawn a foreground process	172		
@@ -3643,7 +3643,7 @@
 10438	718899	true	closed	false	0		2016-12-24T18:34:49Z	2016-12-27T21:32:10Z	2016-12-27T21:32:10Z	"doc: use ""Node.js"" in V8 guide"	56		
 10439	4299420	true	open	false	9		2016-12-24T19:37:36Z	2016-12-26T05:25:56Z		util: improve readability of normalizeEncoding	43		
 10440	1189785	true	closed	false	2	0	2016-12-24T21:12:21Z	2016-12-28T02:26:28Z	2016-12-28T02:26:28Z	test: refactor the code in test-fs-chmod	71		
-10441	13150079	false	open	false	1		2016-12-24T22:31:22Z	2016-12-25T00:45:37Z		path.SEP	17		
+10441	13150079	false	open	false	1		2016-12-24T22:31:22Z	2016-12-29T20:37:03Z		path.SEP	17		
 10442	718899	true	closed	false	2	0	2016-12-24T23:03:13Z	2016-12-29T06:37:52Z	2016-12-29T06:37:52Z	tools: refactor json.js	107		
 10443	54666	true	closed	false	3		2016-12-25T02:05:36Z	2016-12-27T23:03:20Z	2016-12-27T23:03:20Z	buffer: improve allocation and from(arrayLike) performance	343		
 10444	11139560	false	open	false	0		2016-12-25T03:21:44Z	2016-12-25T03:21:44Z		stderr message using child_process#spawn	92		
@@ -3663,12 +3663,12 @@
 10458	696611	true	open	false	3		2016-12-26T11:19:18Z	2016-12-27T22:40:00Z		lib,src: make constants not inherit from Object	54		
 10459	2352663	true	closed	false	2	0	2016-12-26T12:15:54Z	2016-12-26T14:38:00Z	2016-12-26T14:37:59Z	v6.x: backport test: fix test-buffer-slow	3	2352663	2016-12-26T14:37:59Z
 10460	2352663	true	closed	false	1		2016-12-26T12:22:49Z	2016-12-27T12:08:25Z	2016-12-27T12:08:25Z	v4.x: backport test: fix test-buffer-slow	3		
-10461	24250786	false	open	false	1		2016-12-26T13:47:24Z	2016-12-27T03:53:20Z		child_process.spawn double quotes problem in [args] parameters.	69		
+10461	24250786	false	closed	false	1		2016-12-26T13:47:24Z	2016-12-29T20:20:29Z	2016-12-29T20:20:29Z	child_process.spawn double quotes problem in [args] parameters.	69		
 10462	1189785	true	open	false	5		2016-12-26T13:47:50Z	2016-12-28T15:43:49Z		test: improve the code in test-http-chunked-304	61		
 10463	2352663	true	closed	false	3	0	2016-12-26T17:01:25Z	2016-12-27T20:02:49Z	2016-12-27T20:02:48Z	v6.x: build: remove node.dsYM directory	7		
-10464	10393198	false	open	false	0		2016-12-26T20:14:36Z	2016-12-26T20:14:36Z		Undocumented properties in object returned by child_process.spawnSync()	147		
+10464	10393198	false	open	false	0		2016-12-26T20:14:36Z	2016-12-29T20:31:30Z		Undocumented properties in object returned by child_process.spawnSync()	149		
 10465	2352663	true	closed	false	3		2016-12-26T20:17:44Z	2016-12-28T09:53:32Z	2016-12-28T09:53:32Z	v4.x: backport test: use mustCall() for simple flow tracking	37		
-10466	1420843	true	open	false	9		2016-12-26T22:50:16Z	2016-12-29T01:07:43Z		doc: Provide a warning around child_process.exec()	70		
+10466	1420843	true	open	false	10		2016-12-26T22:50:16Z	2016-12-29T21:02:18Z		doc: Provide a warning around child_process.exec()	70		
 10467	439929	true	open	false	0	0	2016-12-27T02:40:27Z	2016-12-27T02:40:27Z		fs: runtime deprecation for fs.SyncWriteStream	61		
 10468	16020076	true	closed	false	2		2016-12-27T04:14:30Z	2016-12-27T12:29:35Z	2016-12-27T04:27:27Z	Create a new function to listen to a server.	46		
 10469	439929	true	open	false			2016-12-27T05:01:30Z	2016-12-29T17:15:20Z		url: performance improvement in URL implementation	36		
