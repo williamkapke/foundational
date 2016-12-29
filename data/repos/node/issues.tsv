@@ -34,7 +34,7 @@
 1128	36662	false	open	false	17		2015-03-11T22:48:11Z	2016-08-29T14:15:29Z		feature request: a way to inspect what's in the event loop	137		
 1159	829734	true	closed	false	85		2015-03-15T22:38:28Z	2016-12-13T02:44:29Z	2015-07-08T12:32:14Z	workers: initial implementation	1656		
 1173	2924002	false	closed	false	16		2015-03-17T16:37:38Z	2016-11-23T06:28:44Z	2015-03-17T22:53:11Z	installation problem	178		
-1271	275871	false	open	false	17		2015-03-26T15:30:40Z	2016-12-29T15:41:29Z		timer,domain: timers don't maintain order after exception	63		
+1271	275871	false	open	false	17		2015-03-26T15:30:40Z	2016-12-29T17:06:56Z		timer,domain: timers don't maintain order after exception	63		
 1278	532414	false	closed	false	37		2015-03-26T19:55:14Z	2016-08-22T21:08:42Z	2016-02-12T21:20:04Z	Compressed packages	136		
 1374	10247	false	closed	false	16		2015-04-08T13:46:19Z	2016-10-21T07:20:28Z	2015-09-03T06:13:19Z	Fatal Error (Abort) creating string larger than 268435440 bytes	93		
 1495	902041	false	open	false	31		2015-04-21T23:54:21Z	2016-08-28T10:02:20Z		TLS Module: The default ecdhCurve, prime256v1 (aka NIST P-256) is not safe.	64		
@@ -65,7 +65,7 @@
 2232	1093990	true	closed	false	10		2015-07-24T00:46:36Z	2016-07-07T20:08:56Z	2016-01-11T20:54:45Z	Port from joyent/node: `timers: fix timeout when added in timer's callback`	11		
 2253	234659	true	closed	false	53		2015-07-27T16:53:56Z	2016-08-30T12:56:44Z	2016-05-11T18:52:36Z	ensure preload modules are always preloaded	30		
 2262	8316625	true	open	false	11		2015-07-28T17:26:23Z	2016-08-06T07:36:34Z		net: fix todo by propogating errors	23		
-2314	1128607	true	open	false	47		2015-08-06T18:34:59Z	2016-09-17T13:09:45Z		stream: add _end method to write streams (equivilent to _flush)	87		
+2314	1128607	true	open	false	49		2015-08-06T18:34:59Z	2016-12-29T18:01:15Z		stream: add _end method to write streams (equivilent to _flush)	87		
 2329	137545	true	open	false	15		2015-08-08T13:37:47Z	2016-08-07T12:44:00Z		[addons] Implement new init function argument dispatch	565		
 2333	115237	false	open	false	20		2015-08-09T06:04:13Z	2016-07-12T19:05:28Z		tty: stdio properties are undefined inside exec() child	45		
 2339	115237	false	open	false	10		2015-08-09T20:15:44Z	2016-12-05T16:56:32Z		tty: process.stdin.isAttached	115		
@@ -101,6 +101,7 @@
 2906	17607	true	closed	false	11	0	2015-09-16T15:34:34Z	2016-12-13T18:11:54Z	2016-12-13T18:11:54Z	net: add net.listen, symetrical with net.connect	57		
 2908	17607	true	closed	false	15		2015-09-16T15:39:07Z	2016-11-02T17:06:40Z	2016-03-22T05:30:28Z	Spawn detached window hide option	75		
 2933	643505	false	closed	false	34		2015-09-17T18:33:07Z	2016-08-23T23:58:44Z	2015-09-17T18:35:56Z	XCode 7: library not found for -lgcc_s.10.5	307		
+2937	744035	true	open	false	22		2015-09-17T21:40:29Z	2016-12-29T18:01:35Z		url: parse() fails if the auth field contains a colon(:) or at-sign(@).	52		
 2948	5166506	false	closed	false	19		2015-09-18T08:58:35Z	2016-10-31T14:28:39Z	2016-03-09T04:06:34Z	Build the lightest node binary possible	77		
 2957	9373002	false	closed	false	6		2015-09-18T20:07:48Z	2016-09-23T22:59:50Z	2016-09-23T22:59:50Z	test-tick-processor failures on PPC	87		
 2967	696611	true	closed	false	33		2015-09-20T07:40:27Z	2016-11-30T22:47:18Z	2015-10-27T03:19:46Z	http{s}: fix connecting to localhost if URL is invalid	47		
@@ -199,6 +200,7 @@
 4545	6376965	false	closed	false	13		2016-01-06T00:59:50Z	2016-11-04T17:34:09Z	2016-01-18T15:01:02Z	DNS lookup failure dns.js:82	174		
 4550	327019	true	closed	false	28	1	2016-01-06T05:24:16Z	2016-10-28T16:38:00Z	2016-10-28T16:38:00Z	module: deprecate require('module').Module	5		
 4560	1578784	false	closed	false	8		2016-01-07T02:52:14Z	2016-09-26T08:36:38Z	2016-09-26T08:36:38Z	socket stay in ESTABLISHED status	309		
+4598	2512748	true	closed	false	19		2016-01-09T01:38:11Z	2016-12-29T17:40:53Z	2016-01-27T15:11:30Z	child_process: add shell option to spawn()	41		
 4629	1084056	true	closed	false	25	0	2016-01-11T21:36:45Z	2016-09-01T17:30:50Z	2016-09-01T17:30:50Z	test: fix `fs-watch-recursive` flakiness	47	1084056	2016-09-01T17:30:50Z
 4630	10704816	true	closed	false	13	1	2016-01-11T22:32:27Z	2016-06-29T14:12:03Z	2016-06-29T14:12:03Z	tools: add missing headers	16		
 4640	718899	false	open	false	28		2016-01-12T05:33:04Z	2016-09-22T21:14:24Z		TODO/XXX/FIXME comments in tests	434		
@@ -318,6 +320,7 @@
 6190	289174	false	open	false	12		2016-04-13T23:17:48Z	2016-09-05T09:58:35Z		net: multiple listen() events fail silently	94		
 6204	1093990	true	closed	false	15		2016-04-14T23:00:37Z	2016-11-18T20:24:15Z	2016-04-25T23:09:08Z	handle_wrap: IsRefed -> Unrefed, no isAlive check	118		
 6212	54666	true	closed	false	12		2016-04-15T05:28:43Z	2016-10-10T16:18:17Z	2016-04-18T21:42:09Z	tools: move message listener to worker objects	64		
+6220	5445507	false	closed	false	20		2016-04-15T15:48:05Z	2016-12-29T17:55:38Z	2016-12-29T17:55:38Z	make test-npm in LTS (4.4.3)	153		
 6223	291301	false	closed	false	0		2016-04-15T16:38:22Z	2016-07-15T15:13:27Z	2016-07-15T15:13:27Z	uncaughtException documentation should mention that it not a reliable «restart on crash» method	106		
 6230	110455	true	closed	false	10		2016-04-15T18:14:52Z	2016-10-27T02:10:51Z	2016-10-27T02:10:51Z	test: split parallel into subsystems	99		
 6266	439929	true	closed	false	25		2016-04-19T04:04:21Z	2016-06-30T23:22:18Z	2016-04-21T19:15:04Z	src: add process.binding('config')	98		
@@ -470,6 +473,7 @@
 7043	54666	true	open	false	33		2016-05-29T07:14:49Z	2016-09-25T22:35:13Z		cluster,net: fix random port keying	67		
 7044	207759	false	closed	false	11		2016-05-29T09:10:47Z	2016-08-12T11:14:32Z	2016-08-12T11:14:32Z	npm in Node 6.2.0 MSI does not work in Windows Docker container	348		
 7045	54666	true	closed	false	19		2016-05-29T09:54:33Z	2016-07-11T22:58:27Z	2016-06-11T02:37:42Z	test: use random ports where possible	119		
+7049	54666	true	closed	false	8		2016-05-29T16:27:18Z	2016-12-29T17:04:14Z	2016-06-07T04:05:36Z	test: fix spawn on windows	64		
 7050	2512748	true	closed	false	5		2016-05-29T18:07:21Z	2016-07-11T21:59:19Z	2016-05-31T13:22:45Z	cluster: rewrite debug ports consistently	115		
 7056	899444	true	closed	false	11		2016-05-29T23:50:19Z	2016-07-11T23:40:06Z	2016-06-08T09:42:55Z	test: fix tests for non-crypto builds	57		
 7057	416585	true	open	false	1		2016-05-30T00:44:54Z	2016-10-10T10:35:53Z		doc: improve readable.unshift example	65		
@@ -3497,7 +3501,7 @@
 10297	1189785	true	closed	false	3		2016-12-16T00:10:03Z	2016-12-23T06:26:48Z	2016-12-23T06:26:48Z	test: refactor code in test-cluster-http-pipe	72		
 10298	13918090	true	open	false	0	0	2016-12-16T02:26:42Z	2016-12-16T02:26:42Z		Merge pull request #1 from nodejs/master	50		
 10299	6354455	true	closed	false	2		2016-12-16T03:19:39Z	2016-12-20T16:24:17Z	2016-12-20T16:24:17Z	test: stream readable resumeScheduled state	51		
-10300	2352663	false	open	false	4		2016-12-16T07:20:59Z	2016-12-29T09:50:19Z		String decoder must be fixed for next V8 update	158		
+10300	2352663	false	open	false	5		2016-12-16T07:20:59Z	2016-12-29T17:25:44Z		String decoder must be fixed for next V8 update	158		
 10301	2352663	true	closed	false	5		2016-12-16T08:48:33Z	2016-12-26T14:40:34Z	2016-12-19T07:08:16Z	tools: forbid template literals in assert.throws	69		
 10302	24506672	false	open	false	12		2016-12-16T11:24:19Z	2016-12-19T19:06:36Z		child_process.spawn parity between windows and posix	171		
 10303	175003	false	open	false	1		2016-12-16T12:39:40Z	2016-12-16T13:27:46Z		error when building node 7 series on OpenWRT + mips relying on uClibc	183		
@@ -3537,7 +3541,7 @@
 10340	21282864	false	open	false	0		2016-12-19T16:19:49Z	2016-12-19T16:19:49Z		Sessions working fine on localhost, but gets expired in Chrome/Firefox after some time.	52		
 10341	3899684	false	open	false	1		2016-12-19T17:01:31Z	2016-12-19T20:05:05Z		build, api, docs: android support	155		
 10342	1485909	true	closed	false	9		2016-12-19T19:03:03Z	2016-12-20T00:38:41Z	2016-12-20T00:38:41Z	deps: cherry-pick 081fce3 from V8 upstream	12		
-10343	6487691	true	open	false			2016-12-19T19:22:34Z	2016-12-29T15:02:49Z		doc: Update CONTRIBUTING.md with backport info	120		
+10343	6487691	true	open	false			2016-12-19T19:22:34Z	2016-12-29T17:47:11Z		doc: Update CONTRIBUTING.md with backport info	120		
 10344	54666	false	closed	false	8		2016-12-19T19:39:27Z	2016-12-21T16:07:54Z	2016-12-21T16:07:54Z	http: IncomingMessage not emitting 'end'	126		
 10345	17607	true	closed	false	1	0	2016-12-19T21:23:40Z	2016-12-20T14:32:13Z	2016-12-20T14:32:13Z	doc: fix typo in ecdhCurve, a tls property name	32		
 10346	238531	true	open	false	9		2016-12-19T22:17:40Z	2016-12-27T21:44:28Z		stream_wrap: export `_externalUVStream`	60		
@@ -3602,7 +3606,7 @@
 10405	45469	true	open	false			2016-12-22T03:36:12Z	2016-12-25T19:47:48Z		src: make `global` non-enumerable	119		
 10406	13243875	false	open	false	5		2016-12-22T08:35:04Z	2016-12-22T20:05:08Z		Proxy Error wrapped Promise in debug mode	103		
 10407	275871	true	open	false	0	0	2016-12-22T09:13:59Z	2016-12-22T09:13:59Z		src: remove unused PROTOCOL_JSON array	15		
-10408	4299420	true	open	false	10		2016-12-22T09:33:12Z	2016-12-29T11:49:24Z		url: make WHATWG URL properties spec compliant	177		
+10408	4299420	true	open	false			2016-12-22T09:33:12Z	2016-12-29T17:22:06Z		url: make WHATWG URL properties spec compliant	177		
 10409	275871	true	open	false	0		2016-12-22T12:32:21Z	2016-12-22T13:41:27Z		v8: make ObjectMirror handle proxy objects	19		
 10410	7833752	false	open	false	9		2016-12-22T16:04:06Z	2016-12-22T19:34:26Z		Mention chrome://inspect when using node --inspect	171		
 10411	856469	true	closed	false	3	4	2016-12-22T16:19:33Z	2016-12-27T21:44:50Z	2016-12-27T21:44:50Z	doc: fix trivial mistakes in stream document.	116		
@@ -3663,7 +3667,7 @@
 10466	1420843	true	open	false	9		2016-12-26T22:50:16Z	2016-12-29T01:07:43Z		doc: Provide a warning around child_process.exec()	70		
 10467	439929	true	open	false	0	0	2016-12-27T02:40:27Z	2016-12-27T02:40:27Z		fs: runtime deprecation for fs.SyncWriteStream	61		
 10468	16020076	true	closed	false	2		2016-12-27T04:14:30Z	2016-12-27T12:29:35Z	2016-12-27T04:27:27Z	Create a new function to listen to a server.	46		
-10469	439929	true	open	false			2016-12-27T05:01:30Z	2016-12-29T11:05:47Z		url: performance improvement in URL implementation	36		
+10469	439929	true	open	false			2016-12-27T05:01:30Z	2016-12-29T17:15:20Z		url: performance improvement in URL implementation	36		
 10470	2352663	true	closed	false	2	0	2016-12-27T12:49:43Z	2016-12-27T20:06:49Z	2016-12-27T20:06:49Z	v4.x: backport test: refactor and fix test-dns	6		
 10471	2352663	true	closed	false	1		2016-12-27T13:16:55Z	2016-12-27T20:05:48Z	2016-12-27T20:05:48Z	v4.x: backport test: refactor test-crypto-binary-default	6		
 10472	16020076	true	closed	false	4	3	2016-12-27T17:09:32Z	2016-12-28T20:42:36Z	2016-12-28T20:42:36Z	os.js nodejs core library changes	77		
@@ -3678,7 +3682,7 @@
 10481	170197	false	closed	false	12		2016-12-28T04:11:26Z	2016-12-28T20:21:04Z	2016-12-28T19:56:28Z	Weird URLSearchParams delete issue	75		
 10482	718899	true	open	false	0	0	2016-12-28T06:19:08Z	2016-12-28T06:19:08Z		test: refactor test-tls-alert-handling	40		
 10483	718899	true	open	false	0	0	2016-12-28T06:36:08Z	2016-12-28T06:36:08Z		test: refactor test-stream-pipe-after-end	52		
-10484	718899	true	open	false	2		2016-12-28T06:44:59Z	2016-12-28T23:26:03Z		meta: modify pull request template for prepending	52		
+10484	718899	true	closed	false	3	0	2016-12-28T06:44:59Z	2016-12-29T17:59:48Z	2016-12-29T17:59:48Z	meta: modify pull request template for prepending	52		
 10485	7252180	false	open	false	0		2016-12-28T08:06:20Z	2016-12-28T08:06:20Z		using Reflect TypeError: CreateListFromArrayLike called on non-object	65		
 10486	2352663	true	open	false	0	0	2016-12-28T09:17:30Z	2016-12-28T09:17:30Z		url: fix URL query update if searchParams changes	50		
 10487	1735343	false	closed	false	4		2016-12-28T12:48:46Z	2016-12-28T18:19:30Z	2016-12-28T18:19:30Z	Sending HTTP request with 'Expect: 100-continue'	92		
@@ -3711,9 +3715,11 @@
 10514	718899	true	open	false			2016-12-29T05:26:43Z	2016-12-29T16:26:35Z		tools: enable ESLint arrow-body-style rule (explicit braces and `return`)	86		
 10515	718899	false	open	false	2		2016-12-29T07:20:57Z	2016-12-29T14:47:18Z		buffer: inconsistencies in readIntBE() and readIntLE()	131		
 10516	4640651	false	open	false	0		2016-12-29T08:27:40Z	2016-12-29T08:27:40Z		`const` performance loss ? Node 6 vs Node 7	91		
-10517	8297234	true	open	false	0	0	2016-12-29T12:01:25Z	2016-12-29T12:01:25Z		test: refactor parallel/test-timer-close	48		
+10517	8297234	true	open	false			2016-12-29T12:01:25Z	2016-12-29T17:51:59Z		test: refactor parallel/test-timer-close	40		
 10518	13561163	true	open	false	1		2016-12-29T12:27:37Z	2016-12-29T12:35:39Z		API doc edit in vm.createContext([sandbox])	122		
 10519	13561163	true	open	false	0	0	2016-12-29T13:05:00Z	2016-12-29T13:05:00Z		clarify the statement in vm.createContext() API	80		
 10520	6487691	false	open	false	2		2016-12-29T14:26:01Z	2016-12-29T14:49:42Z		SIGQUIT handler being ignored when node is loaded as a shared library	227		
 10521	1189785	true	open	false	0	0	2016-12-29T16:50:55Z	2016-12-29T16:50:55Z		test: improve the code in test-fs-null-bytes	62		
-10522	15161981	true	open	false	0	0	2016-12-29T16:57:22Z	2016-12-29T16:57:22Z		timer,domain: maintain order of timers upon uncaught exception	71		
+10522	15161981	true	open	false	1		2016-12-29T16:57:22Z	2016-12-29T17:53:53Z		timer,domain: maintain order of timers upon uncaught exception	60		
+10523	6487691	true	open	false	0	0	2016-12-29T17:06:54Z	2016-12-29T17:06:54Z		test: fix test-child-process-flush-stdio on windows	126		
+10524	8297234	true	open	false	0	0	2016-12-29T17:30:01Z	2016-12-29T17:30:01Z		test: refactor several parallel/test-timer tests	64		
