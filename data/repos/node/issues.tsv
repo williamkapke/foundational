@@ -34,7 +34,7 @@
 1128	36662	false	open	false	17		2015-03-11T22:48:11Z	2016-08-29T14:15:29Z		feature request: a way to inspect what's in the event loop	137		
 1159	829734	true	closed	false	85		2015-03-15T22:38:28Z	2016-12-13T02:44:29Z	2015-07-08T12:32:14Z	workers: initial implementation	1656		
 1173	2924002	false	closed	false	16		2015-03-17T16:37:38Z	2016-11-23T06:28:44Z	2015-03-17T22:53:11Z	installation problem	178		
-1271	275871	false	open	false	15		2015-03-26T15:30:40Z	2016-12-29T08:03:02Z		timer,domain: timers don't maintain order after exception	63		
+1271	275871	false	open	false	16		2015-03-26T15:30:40Z	2016-12-29T11:33:08Z		timer,domain: timers don't maintain order after exception	63		
 1278	532414	false	closed	false	37		2015-03-26T19:55:14Z	2016-08-22T21:08:42Z	2016-02-12T21:20:04Z	Compressed packages	136		
 1374	10247	false	closed	false	16		2015-04-08T13:46:19Z	2016-10-21T07:20:28Z	2015-09-03T06:13:19Z	Fatal Error (Abort) creating string larger than 268435440 bytes	93		
 1495	902041	false	open	false	31		2015-04-21T23:54:21Z	2016-08-28T10:02:20Z		TLS Module: The default ecdhCurve, prime256v1 (aka NIST P-256) is not safe.	64		
@@ -3602,7 +3602,7 @@
 10405	45469	true	open	false			2016-12-22T03:36:12Z	2016-12-25T19:47:48Z		src: make `global` non-enumerable	119		
 10406	13243875	false	open	false	5		2016-12-22T08:35:04Z	2016-12-22T20:05:08Z		Proxy Error wrapped Promise in debug mode	103		
 10407	275871	true	open	false	0	0	2016-12-22T09:13:59Z	2016-12-22T09:13:59Z		src: remove unused PROTOCOL_JSON array	15		
-10408	4299420	true	open	false			2016-12-22T09:33:12Z	2016-12-27T04:53:56Z		url: make WHATWG URL properties spec compliant	177		
+10408	4299420	true	open	false	10		2016-12-22T09:33:12Z	2016-12-29T11:49:24Z		url: make WHATWG URL properties spec compliant	177		
 10409	275871	true	open	false	0		2016-12-22T12:32:21Z	2016-12-22T13:41:27Z		v8: make ObjectMirror handle proxy objects	19		
 10410	7833752	false	open	false	9		2016-12-22T16:04:06Z	2016-12-22T19:34:26Z		Mention chrome://inspect when using node --inspect	171		
 10411	856469	true	closed	false	3	4	2016-12-22T16:19:33Z	2016-12-27T21:44:50Z	2016-12-27T21:44:50Z	doc: fix trivial mistakes in stream document.	116		
@@ -3642,7 +3642,7 @@
 10445	54666	true	closed	false	0	0	2016-12-25T04:06:01Z	2016-12-29T02:28:16Z	2016-12-29T02:28:16Z	events: improve once() performance	94	54666	2016-12-29T02:28:16Z
 10446	54666	true	open	false	0	0	2016-12-25T04:31:19Z	2016-12-25T04:31:19Z		benchmark: tidy `net` benchmarks	42		
 10447	7455872	false	closed	false	1		2016-12-25T08:49:42Z	2016-12-27T06:57:04Z	2016-12-27T06:57:04Z	Feature request: System time change notification	38		
-10448	4299420	true	open	false	9		2016-12-25T09:34:56Z	2016-12-27T10:28:49Z		benchmark: imply flags with comments in benchmarks	169		
+10448	4299420	true	open	false	11		2016-12-25T09:34:56Z	2016-12-29T12:10:09Z		benchmark: imply flags with comments in benchmarks	169		
 10449	18419656	false	closed	false	3		2016-12-25T14:27:36Z	2016-12-26T17:15:58Z	2016-12-25T14:46:38Z	node response close during response.write	221		
 10450	9286933	false	open	false	3		2016-12-25T18:18:37Z	2016-12-28T13:38:41Z		Feature request: add support for the Google Closure Compiler	45		
 10451	10393198	true	closed	false	1		2016-12-25T18:31:30Z	2016-12-27T21:17:47Z	2016-12-27T21:17:47Z	doc: some fixes in console.md	109		
@@ -3711,3 +3711,5 @@
 10514	718899	true	open	false	0	0	2016-12-29T05:26:43Z	2016-12-29T05:26:43Z		tools: enable ESLint arrow-body-style rule (explicit braces and `return`)	86		
 10515	718899	false	open	false	0		2016-12-29T07:20:57Z	2016-12-29T07:20:57Z		buffer: inconsistencies in readIntBE() and readIntLE()	131		
 10516	4640651	false	open	false	0		2016-12-29T08:27:40Z	2016-12-29T08:27:40Z		`const` performance loss ? Node 6 vs Node 7	91		
+10517	8297234	true	open	false	0	0	2016-12-29T12:01:25Z	2016-12-29T12:01:25Z		test: refactor parallel/test-timer-close	48		
+10518	13561163	true	open	false	0	0	2016-12-29T12:27:37Z	2016-12-29T12:27:37Z		API doc edit in vm.createContext([sandbox])	122		
