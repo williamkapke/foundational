@@ -34,7 +34,7 @@
 1128	36662	false	open	false	17		2015-03-11T22:48:11Z	2016-08-29T14:15:29Z		feature request: a way to inspect what's in the event loop	137		
 1159	829734	true	closed	false	85		2015-03-15T22:38:28Z	2016-12-13T02:44:29Z	2015-07-08T12:32:14Z	workers: initial implementation	1656		
 1173	2924002	false	closed	false	16		2015-03-17T16:37:38Z	2016-11-23T06:28:44Z	2015-03-17T22:53:11Z	installation problem	178		
-1271	275871	false	open	false	16		2015-03-26T15:30:40Z	2016-12-29T11:33:08Z		timer,domain: timers don't maintain order after exception	63		
+1271	275871	false	open	false	17		2015-03-26T15:30:40Z	2016-12-29T15:41:29Z		timer,domain: timers don't maintain order after exception	63		
 1278	532414	false	closed	false	37		2015-03-26T19:55:14Z	2016-08-22T21:08:42Z	2016-02-12T21:20:04Z	Compressed packages	136		
 1374	10247	false	closed	false	16		2015-04-08T13:46:19Z	2016-10-21T07:20:28Z	2015-09-03T06:13:19Z	Fatal Error (Abort) creating string larger than 268435440 bytes	93		
 1495	902041	false	open	false	31		2015-04-21T23:54:21Z	2016-08-28T10:02:20Z		TLS Module: The default ecdhCurve, prime256v1 (aka NIST P-256) is not safe.	64		
@@ -3537,7 +3537,7 @@
 10340	21282864	false	open	false	0		2016-12-19T16:19:49Z	2016-12-19T16:19:49Z		Sessions working fine on localhost, but gets expired in Chrome/Firefox after some time.	52		
 10341	3899684	false	open	false	1		2016-12-19T17:01:31Z	2016-12-19T20:05:05Z		build, api, docs: android support	155		
 10342	1485909	true	closed	false	9		2016-12-19T19:03:03Z	2016-12-20T00:38:41Z	2016-12-20T00:38:41Z	deps: cherry-pick 081fce3 from V8 upstream	12		
-10343	6487691	true	open	false			2016-12-19T19:22:34Z	2016-12-28T14:06:59Z		doc: Update CONTRIBUTING.md with backport info	120		
+10343	6487691	true	open	false			2016-12-19T19:22:34Z	2016-12-29T15:02:49Z		doc: Update CONTRIBUTING.md with backport info	120		
 10344	54666	false	closed	false	8		2016-12-19T19:39:27Z	2016-12-21T16:07:54Z	2016-12-21T16:07:54Z	http: IncomingMessage not emitting 'end'	126		
 10345	17607	true	closed	false	1	0	2016-12-19T21:23:40Z	2016-12-20T14:32:13Z	2016-12-20T14:32:13Z	doc: fix typo in ecdhCurve, a tls property name	32		
 10346	238531	true	open	false	9		2016-12-19T22:17:40Z	2016-12-27T21:44:28Z		stream_wrap: export `_externalUVStream`	60		
@@ -3698,20 +3698,20 @@
 10501	22550884	true	closed	false	0	0	2016-12-28T16:12:44Z	2016-12-28T17:42:22Z	2016-12-28T17:42:22Z	test: basic functionalities of readDoubleLE()	32		
 10502	22550884	true	closed	false	0	0	2016-12-28T16:14:38Z	2016-12-28T17:41:47Z	2016-12-28T17:41:47Z	test: basic functionalities of readDoubleBE()	32		
 10503	1189785	true	open	false	1		2016-12-28T17:49:06Z	2016-12-28T18:08:23Z		test: improve test-http-allow-req-after-204-res	59		
-10504	22550884	true	open	false			2016-12-28T17:52:07Z	2016-12-29T07:19:08Z		test: basic functionalities of some functions	32		
+10504	22550884	true	open	false			2016-12-28T17:52:07Z	2016-12-29T15:45:13Z		test: basic functionalities of some functions	32		
 10505	498775	false	open	false	0		2016-12-28T20:39:39Z	2016-12-28T20:39:39Z		Landing npm 4 into node 7	182		
 10506	4482233	false	open	false	2		2016-12-28T22:11:29Z	2016-12-28T23:08:11Z		Event Emitter Becomes Empty Object (TypeError: EventBus.emit is not a function)	180		
 10507	1485909	true	open	false	2		2016-12-28T22:39:55Z	2016-12-29T01:45:11Z		src: always initialize tracing controller in agent	29		
 10508	170197	false	open	false	0		2016-12-28T22:44:50Z	2016-12-28T22:44:50Z		Cannot empty URL port	13		
 10509	5227618	false	closed	false	4		2016-12-28T22:55:58Z	2016-12-28T23:04:37Z	2016-12-28T23:04:37Z	eval() not working in Node 7	39		
 10510	287917	true	open	false	0	0	2016-12-28T23:03:20Z	2016-12-28T23:03:20Z		test: fix Coverity warning in inspector test	40		
-10511	718899	true	open	false	11		2016-12-28T23:28:46Z	2016-12-29T05:27:18Z		tools: enable ESLint arrow-body-style rule (no braces or `return` if not needed)	117		
+10511	718899	true	open	false	12		2016-12-28T23:28:46Z	2016-12-29T15:22:23Z		tools: enable ESLint arrow-body-style rule (no braces or `return` if not needed)	117		
 10512	439929	true	open	false	1		2016-12-28T23:57:47Z	2016-12-29T05:11:42Z		url: move originFor, domainToAscii and domainToUnicode	58		
 10513	3647351	false	open	false	0		2016-12-29T03:55:13Z	2016-12-29T03:55:13Z		cluster fork can't debug	175		
-10514	718899	true	open	false	0	0	2016-12-29T05:26:43Z	2016-12-29T05:26:43Z		tools: enable ESLint arrow-body-style rule (explicit braces and `return`)	86		
-10515	718899	false	open	false	0		2016-12-29T07:20:57Z	2016-12-29T07:20:57Z		buffer: inconsistencies in readIntBE() and readIntLE()	131		
+10514	718899	true	open	false			2016-12-29T05:26:43Z	2016-12-29T15:34:15Z		tools: enable ESLint arrow-body-style rule (explicit braces and `return`)	86		
+10515	718899	false	open	false	2		2016-12-29T07:20:57Z	2016-12-29T14:47:18Z		buffer: inconsistencies in readIntBE() and readIntLE()	131		
 10516	4640651	false	open	false	0		2016-12-29T08:27:40Z	2016-12-29T08:27:40Z		`const` performance loss ? Node 6 vs Node 7	91		
 10517	8297234	true	open	false	0	0	2016-12-29T12:01:25Z	2016-12-29T12:01:25Z		test: refactor parallel/test-timer-close	48		
 10518	13561163	true	open	false	1		2016-12-29T12:27:37Z	2016-12-29T12:35:39Z		API doc edit in vm.createContext([sandbox])	122		
 10519	13561163	true	open	false	0	0	2016-12-29T13:05:00Z	2016-12-29T13:05:00Z		clarify the statement in vm.createContext() API	80		
-10520	6487691	false	open	false	0		2016-12-29T14:26:01Z	2016-12-29T14:26:01Z		SIGQUIT handler being ignored when node is loaded as a shared library	227		
+10520	6487691	false	open	false	2		2016-12-29T14:26:01Z	2016-12-29T14:49:42Z		SIGQUIT handler being ignored when node is loaded as a shared library	227		
