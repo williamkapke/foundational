@@ -76,7 +76,7 @@
 2465	42354	false	closed	false	4		2015-08-20T18:35:12Z	2016-12-15T12:59:44Z	2015-08-20T19:09:50Z	url.parse parses hostname as protocol when protocol/scheme is absent in hostname:port formatted uRL	54		
 2498	696611	true	closed	false	22		2015-08-22T20:07:00Z	2016-07-21T22:32:14Z	2016-07-21T22:32:14Z	fs: do basic arg validation of truncate in js	25		
 2521	885648	true	open	false	30		2015-08-24T08:36:14Z	2016-06-30T04:22:37Z		added CSI (\x9b) as additionally allowable escape	135		
-2534	4405297	true	open	false	88		2015-08-25T01:59:16Z	2016-12-26T08:39:06Z		http: fixed socket destruction, timeout and leaking	144		
+2534	4405297	true	open	false	89		2015-08-25T01:59:16Z	2016-12-29T19:16:47Z		http: fixed socket destruction, timeout and leaking	144		
 2546	9798949	false	closed	false	89		2015-08-25T19:16:53Z	2016-11-16T04:38:02Z	2016-06-02T17:53:08Z	Inspecting Node.js with Chrome DevTools	688		
 2569	13315	true	closed	false	27		2015-08-27T04:34:55Z	2016-09-30T16:14:04Z	2016-07-14T03:03:37Z	Add zh-CN i18n support for Windows installer	15		
 2571	153481	true	closed	false	47		2015-08-27T07:40:39Z	2016-08-09T22:05:24Z	2016-08-09T22:05:24Z	Refactor mac installer (Rebase of #776 against master)	13		
@@ -307,7 +307,7 @@
 6057	520678	false	closed	false	12		2016-04-05T15:49:46Z	2016-10-10T16:37:17Z	2016-10-10T16:37:17Z	Windows installer always installs to C:/Program Files	48		
 6058	855219	false	closed	false	8		2016-04-05T16:01:32Z	2016-09-20T22:56:10Z	2016-05-04T23:14:40Z	deps: Intl: ICU 57 bump	43		
 6063	7780985	true	closed	false	20		2016-04-05T19:44:10Z	2016-07-11T16:51:08Z	2016-04-26T16:07:07Z	doc, tls: deprecate createSecurePair	141		
-6102	54666	true	open	false	102		2016-04-07T16:10:47Z	2016-12-29T18:05:00Z		http: don't inherit from Object.prototype	57		
+6102	54666	true	open	false	104		2016-04-07T16:10:47Z	2016-12-29T19:07:26Z		http: don't inherit from Object.prototype	57		
 6114	408977	true	closed	false	11		2016-04-08T12:55:18Z	2016-07-06T05:06:41Z	2016-07-06T05:06:41Z	Defensive check for process.config.variables (v4-staging)	10		
 6115	408977	true	closed	false	18		2016-04-08T12:59:35Z	2016-07-05T17:59:27Z	2016-07-05T17:59:26Z	Defensive fix for process.config.variables regression (v5)	21		
 6131	2361826	false	closed	false	6		2016-04-09T10:47:11Z	2016-08-17T20:43:10Z	2016-08-17T20:43:10Z	Move .eslintrc to json or yaml	58		
@@ -373,7 +373,7 @@
 6525	5750	false	closed	false	6		2016-05-02T15:58:56Z	2016-06-27T17:25:01Z	2016-06-27T17:25:01Z	Result of outer generator .return method incorrect if delegate iterator has no .return method	115		
 6526	2024235	false	closed	false	9		2016-05-02T18:45:42Z	2016-07-11T21:08:24Z	2016-05-02T19:12:07Z	import??	53		
 6528	291301	false	open	false	19		2016-05-02T20:27:59Z	2016-08-06T20:58:05Z		API stability level «Locked» is inaccurate	167		
-6533	54666	true	open	false	24		2016-05-02T21:15:42Z	2016-12-29T18:31:08Z		http: server code refactor	619		
+6533	54666	true	closed	false	25	33	2016-05-02T21:15:42Z	2016-12-29T19:28:32Z	2016-12-29T19:28:32Z	http: server code refactor	619	54666	2016-12-29T19:28:32Z
 6543	568962	false	open	false	18		2016-05-03T08:01:47Z	2016-08-17T14:51:56Z		discuss: tool to simplify landing of PR	206		
 6550	782880	true	closed	false	12		2016-05-03T19:33:57Z	2016-08-26T19:55:00Z	2016-05-04T15:37:15Z	Upgrade to openssl 102h for master	124		
 6558	238531	true	closed	false	12		2016-05-04T03:12:57Z	2016-07-07T07:30:44Z	2016-05-04T19:30:16Z	Support ASLR in v8's profiler	39		
@@ -404,6 +404,7 @@
 6695	498775	true	open	false	24		2016-05-11T17:51:09Z	2016-09-29T16:00:45Z		tools: fix lint tap reporter for Jenkins support	115		
 6700	9373002	true	closed	false	17		2016-05-11T22:01:54Z	2016-07-14T23:24:19Z	2016-05-13T13:28:40Z	test: add --repeat option to tools/test.py	142		
 6713	2677165	false	open	false	8		2016-05-12T13:36:49Z	2016-07-14T11:52:10Z		Allow setting maximum age for http Agent's keep-alive 	186		
+6724	19337225	false	closed	false	3		2016-05-13T01:38:31Z	2016-12-29T19:02:06Z	2016-12-29T19:02:06Z	segment fault when compile node 0.1x branch with gcc 6.1.1 in 64bit linux	94		
 6726	718899	false	closed	false	3		2016-05-13T05:02:10Z	2016-07-02T02:40:44Z	2016-07-02T02:40:44Z	Investigate flaky test-stream2-readable-empty-buffer-no-eof on FreeBSD	13		
 6734	275871	true	closed	false	36		2016-05-13T09:37:53Z	2016-08-30T19:02:19Z	2016-06-29T11:52:38Z	src: print backtrace on fatal error	18		
 6738	275871	true	closed	false	5		2016-05-13T14:45:12Z	2016-08-09T20:28:25Z	2016-08-09T20:28:25Z	build: turn on -fno-delete-null-pointer-checks (v0.10)	30		
@@ -424,6 +425,7 @@
 6816	1093990	true	closed	false	69		2016-05-17T17:00:53Z	2016-08-10T22:32:38Z	2016-08-10T22:32:38Z	tty: set the handle to blocking mode	79		
 6821	498775	false	open	false	17		2016-05-17T22:23:23Z	2016-11-03T02:32:02Z		Warning when following instruction in verifying release	62		
 6825	767105	true	closed	false	24		2016-05-18T00:46:45Z	2016-07-12T00:04:31Z	2016-07-01T17:04:26Z	Doc: Adding guide on Timers	28		
+6826	5634074	false	closed	false	6		2016-05-18T03:46:41Z	2016-12-29T19:02:24Z	2016-12-29T19:02:24Z	Crypto pbkdf2 issue with 0.12.9	77		
 6861	12013667	false	closed	false	36		2016-05-18T17:05:18Z	2016-08-12T11:14:32Z	2016-08-12T11:14:32Z	Error: EISDIR illegal operation on directory - Binding.realpath	140		
 6867	291301	false	open	false	10		2016-05-18T21:00:16Z	2016-10-17T15:19:29Z		Missing or truncated error message	124		
 6873	18708370	false	closed	false	5		2016-05-19T08:19:41Z	2016-08-09T21:14:40Z	2016-08-09T21:14:40Z	EventEmitter: Inconsistent handling of once() handlers	122		
@@ -558,7 +560,7 @@
 7257	939420	true	open	false	10		2016-06-10T08:25:54Z	2016-07-04T19:23:21Z		Add two child-process stdio flush tests	68		
 7261	631951	false	open	false	1		2016-06-10T09:36:06Z	2016-07-22T10:04:27Z		V8 crash on Windows Server 2012 x64 running on CPU with AVX support	107		
 7262	275871	true	closed	false	9		2016-06-10T09:42:23Z	2016-07-12T10:28:55Z	2016-06-13T10:56:36Z	src: fix erroneous fallthrough in ParseEncoding()	28		
-7265	1557314	false	open	false	5		2016-06-10T15:10:09Z	2016-10-26T20:52:14Z		Please upgrade node_root_certs.h for 0.x versions	95		
+7265	1557314	false	closed	false	6		2016-06-10T15:10:09Z	2016-12-29T19:02:44Z	2016-12-29T19:02:44Z	Please upgrade node_root_certs.h for 0.x versions	95		
 7266	79017	false	open	false	17		2016-06-10T15:28:10Z	2016-10-10T23:17:51Z		Port the CLI debugger to use the v8 inspector protocol	149		
 7267	81942	true	closed	false	12		2016-06-10T16:43:18Z	2016-07-12T16:55:46Z	2016-06-17T15:05:02Z	punycode: update to v2.0.0	17		
 7269	11139560	false	closed	false	4		2016-06-10T22:36:13Z	2016-07-06T16:02:08Z	2016-07-06T16:02:08Z	node docs issue in child_process	112		
@@ -2928,7 +2930,7 @@
 9719	4985028	true	closed	false	27		2016-11-21T14:04:56Z	2016-12-04T02:06:42Z	2016-11-25T12:51:38Z	Experimental: Symlinks Just Work	3278		
 9720	23529148	false	open	false	1		2016-11-21T16:51:07Z	2016-11-30T18:31:14Z		Poll phase documentation	119		
 9721	3853064	false	open	false	0		2016-11-21T17:05:35Z	2016-11-21T17:05:35Z		Execute some code and NodeJS exit itself.	36		
-9722	17607	false	open	false	9		2016-11-21T17:38:06Z	2016-11-22T13:49:40Z		invalid floating point uid or gid for spawn/execSync causes uv to assert and abort node	47		
+9722	17607	false	open	false	10		2016-11-21T17:38:06Z	2016-12-29T19:03:35Z		invalid floating point uid or gid for spawn/execSync causes uv to assert and abort node	47		
 9723	115237	true	closed	false	4		2016-11-21T18:28:00Z	2016-11-23T00:20:59Z	2016-11-22T18:40:26Z	doc: fix <code> inside stability boxes	65		
 9724	718899	true	open	false	9		2016-11-21T19:10:21Z	2016-11-24T22:38:40Z		test: fix flaky test-dgram-empty-packet & friends	90		
 9725	354296	false	closed	false	5		2016-11-21T20:52:43Z	2016-11-21T23:37:15Z	2016-11-21T23:37:15Z	fs.Stats class throws an exception instead of returning false with stat.isFile() or stat.isDirectory() when no directory or file exists at that path	340		
@@ -3467,7 +3469,7 @@
 10261	17607	true	open	false	5		2016-12-14T01:42:41Z	2016-12-14T16:04:50Z		tls: update builtin cert bundle for 0.12	41		
 10262	1857993	true	open	false			2016-12-14T03:15:32Z	2016-12-14T04:23:33Z		doc: add warning about url.resolve	27		
 10263	8259431	false	closed	false	1		2016-12-14T04:48:49Z	2016-12-14T05:12:36Z	2016-12-14T05:12:36Z	Initialization Vector length in createCipheriv/createeciperiv for aes-128-ecb	125		
-10264	17607	true	closed	false	1		2016-12-14T15:22:38Z	2016-12-27T21:59:10Z	2016-12-27T21:59:10Z	doc: add tls.DEFAULT_ECDH_CURVE	47		
+10264	17607	true	closed	false	3		2016-12-14T15:22:38Z	2016-12-29T19:53:49Z	2016-12-27T21:59:10Z	doc: add tls.DEFAULT_ECDH_CURVE	47		
 10265	620746	false	open	false	2		2016-12-14T15:55:50Z	2016-12-14T17:06:01Z		crypto.pbkdf2Sync can't handle non ASCII character in Node 6.9.2	218		
 10266	13561163	true	closed	false	3	1	2016-12-14T16:04:24Z	2016-12-14T23:45:34Z	2016-12-14T23:45:34Z	test: add known_issues test for #6287	66		
 10267	9373002	true	closed	false	5		2016-12-14T19:05:40Z	2016-12-16T21:00:16Z	2016-12-16T21:00:16Z	doc: fix broken link in COLLABORATOR_GUIDE.md	63		
@@ -3539,7 +3541,7 @@
 10336	15943089	false	open	false	6		2016-12-19T12:06:57Z	2016-12-19T17:05:32Z		Clarify dont-land-on labels	423		
 10337	12075322	true	closed	false	1		2016-12-19T13:02:11Z	2016-12-21T13:33:18Z	2016-12-21T13:33:18Z	 doc: fix broken link in COLLABORATOR_GUIDE.md	59		
 10338	14080426	false	open	false	10		2016-12-19T15:15:38Z	2016-12-19T23:03:46Z		V8 Inspector not showing all files in sources	47		
-10339	15161981	true	open	false	6		2016-12-19T15:53:53Z	2016-12-20T04:46:28Z		test: only check fd 0,1,2 are used and not their access modes	71		
+10339	15161981	true	open	false	7		2016-12-19T15:53:53Z	2016-12-29T19:44:07Z		test: only check fd 0,1,2 are used and not their access modes	71		
 10340	21282864	false	open	false	0		2016-12-19T16:19:49Z	2016-12-19T16:19:49Z		Sessions working fine on localhost, but gets expired in Chrome/Firefox after some time.	52		
 10341	3899684	false	open	false	1		2016-12-19T17:01:31Z	2016-12-19T20:05:05Z		build, api, docs: android support	155		
 10342	1485909	true	closed	false	9		2016-12-19T19:03:03Z	2016-12-20T00:38:41Z	2016-12-20T00:38:41Z	deps: cherry-pick 081fce3 from V8 upstream	12		
@@ -3555,7 +3557,7 @@
 10352	495647	true	closed	false	14	0	2016-12-20T04:15:34Z	2016-12-21T14:30:02Z	2016-12-21T14:30:02Z	v0.12.18 release proposal	116	495647	2016-12-21T14:30:02Z
 10353	718899	true	closed	false	3		2016-12-20T05:43:11Z	2016-12-23T00:38:49Z	2016-12-23T00:38:49Z	test: refactor test-stream2-writable	64		
 10354	12243963	false	open	false	3		2016-12-20T09:20:00Z	2016-12-22T16:10:07Z		getHeader() returns undefined after using writeHead() in a certain circumstance	112		
-10355	275871	true	open	false	3		2016-12-20T11:59:37Z	2016-12-22T11:08:19Z		build: add node_module_version to config.gypi	5		
+10355	275871	true	open	false	4		2016-12-20T11:59:37Z	2016-12-29T19:05:49Z		build: add node_module_version to config.gypi	5		
 10356	275871	true	closed	false	5	0	2016-12-20T12:12:03Z	2016-12-21T12:08:01Z	2016-12-21T12:08:01Z	deps: define missing operator delete functions	83		
 10357	5655189	true	closed	false	3		2016-12-20T13:00:43Z	2016-12-23T07:04:05Z	2016-12-23T07:01:23Z	test: refactor the code in test-fs-watch.js	70		
 10358	40952	false	open	false	5		2016-12-20T13:21:44Z	2016-12-22T10:05:16Z		HTTP client returns truncated response	464		
@@ -3608,7 +3610,7 @@
 10405	45469	true	open	false			2016-12-22T03:36:12Z	2016-12-25T19:47:48Z		src: make `global` non-enumerable	119		
 10406	13243875	false	open	false	5		2016-12-22T08:35:04Z	2016-12-22T20:05:08Z		Proxy Error wrapped Promise in debug mode	103		
 10407	275871	true	open	false	0	0	2016-12-22T09:13:59Z	2016-12-22T09:13:59Z		src: remove unused PROTOCOL_JSON array	15		
-10408	4299420	true	open	false			2016-12-22T09:33:12Z	2016-12-29T17:22:06Z		url: make WHATWG URL properties spec compliant	177		
+10408	4299420	true	open	false	11		2016-12-22T09:33:12Z	2016-12-29T19:43:26Z		url: make WHATWG URL properties spec compliant	177		
 10409	275871	true	open	false	0		2016-12-22T12:32:21Z	2016-12-22T13:41:27Z		v8: make ObjectMirror handle proxy objects	19		
 10410	7833752	false	open	false	9		2016-12-22T16:04:06Z	2016-12-22T19:34:26Z		Mention chrome://inspect when using node --inspect	171		
 10411	856469	true	closed	false	3	4	2016-12-22T16:19:33Z	2016-12-27T21:44:50Z	2016-12-27T21:44:50Z	doc: fix trivial mistakes in stream document.	116		
@@ -3624,7 +3626,7 @@
 10421	696611	true	open	false	0	0	2016-12-23T05:34:55Z	2016-12-23T05:34:55Z		test: fix linter error in whatwg-url-parsing	44		
 10422	14938690	false	open	false	4		2016-12-23T07:45:36Z	2016-12-23T11:49:57Z		Error: read ECONNRESET - HTTP post request from Meteor to Node js server	322		
 10423	696611	true	open	false			2016-12-23T10:20:24Z	2016-12-28T19:26:27Z		child_process: improve killSignal validations	116		
-10424	696611	true	open	false	3		2016-12-23T10:56:06Z	2016-12-28T19:18:59Z		doc: killSignal option accepts integer values	37		
+10424	696611	true	open	false	6		2016-12-23T10:56:06Z	2016-12-29T19:41:43Z		doc: killSignal option accepts integer values	37		
 10425	4723	false	open	false	1		2016-12-23T17:24:03Z	2016-12-23T19:29:20Z		Command-line arguments trimmed when passed to a script specified with -e option	94		
 10426	22550884	true	closed	false	2	4	2016-12-23T18:02:34Z	2016-12-28T17:50:13Z	2016-12-28T17:50:13Z	test: basic functionality of readUInt16LE()	22		
 10427	22550884	true	closed	false	1	2	2016-12-23T18:24:34Z	2016-12-28T17:49:57Z	2016-12-28T17:49:57Z	Test : readuint8()	25		
@@ -3656,7 +3658,7 @@
 10453	2101743	false	open	false	2		2016-12-25T19:29:53Z	2016-12-25T20:36:05Z		VM: VM is much slower when `timeout` was specified	178		
 10454	7604540	false	open	false	0		2016-12-26T07:13:23Z	2016-12-26T07:13:23Z		'querystring.parse' works a inconsistent way with URLSearchParams(chrome) and python's urlparse.parse_qs	76		
 10455	696611	true	open	false	0		2016-12-26T08:59:29Z	2016-12-28T13:07:07Z		test: refactor test-debugger-remote	124		
-10456	696611	true	open	false			2016-12-26T09:10:29Z	2016-12-28T18:05:34Z		build: enable debugger tests in CI	46		
+10456	696611	true	closed	false	4		2016-12-26T09:10:29Z	2016-12-29T19:38:05Z	2016-12-29T19:38:05Z	build: enable debugger tests in CI	46		
 10457	6124091	false	closed	false	5		2016-12-26T09:42:42Z	2016-12-28T14:48:53Z	2016-12-28T14:48:53Z	Debugger isn't stopped at the `debugger;` statement when debugging using `--inspect`	71		
 10458	696611	true	open	false	3		2016-12-26T11:19:18Z	2016-12-27T22:40:00Z		lib,src: make constants not inherit from Object	54		
 10459	2352663	true	closed	false	2	0	2016-12-26T12:15:54Z	2016-12-26T14:38:00Z	2016-12-26T14:37:59Z	v6.x: backport test: fix test-buffer-slow	3	2352663	2016-12-26T14:37:59Z
@@ -3678,7 +3680,7 @@
 10475	470626	false	closed	false	1		2016-12-27T21:06:45Z	2016-12-28T09:01:23Z	2016-12-28T09:01:23Z	Compile error: InspectorProtocol.cpp:23:5: error: 'snprintf' is not a member of 'std'	106		
 10476	3743662	false	open	false	0		2016-12-27T21:07:39Z	2016-12-27T21:07:39Z		Arguments object scope not maintained within inner functions when using function shorthand ()	77		
 10477	158390	true	open	false	0		2016-12-27T23:32:19Z	2016-12-28T04:38:01Z		test, win32: fix up symlink tests	166		
-10478	24800959	true	open	false	4		2016-12-28T02:22:46Z	2016-12-29T04:06:22Z		codeandlearn: use strictEqual instead of equal	46		
+10478	24800959	true	closed	false	5		2016-12-28T02:22:46Z	2016-12-29T19:35:13Z	2016-12-29T19:35:13Z	codeandlearn: use strictEqual instead of equal	46		
 10479	1189785	true	open	false	2		2016-12-28T02:45:22Z	2016-12-28T15:26:09Z		test: improve test-fs-empty-readStream.js	59		
 10480	170197	false	open	false	2		2016-12-28T03:56:41Z	2016-12-28T09:18:54Z		"Emptying URLSearchParams causes unwanted ""?"" char"	46		
 10481	170197	false	closed	false	12		2016-12-28T04:11:26Z	2016-12-28T20:21:04Z	2016-12-28T19:56:28Z	Weird URLSearchParams delete issue	75		
@@ -3707,7 +3709,7 @@
 10504	22550884	true	open	false			2016-12-28T17:52:07Z	2016-12-29T18:29:59Z		test: basic functionalities of some functions	32		
 10505	498775	false	open	false	0		2016-12-28T20:39:39Z	2016-12-28T20:39:39Z		Landing npm 4 into node 7	182		
 10506	4482233	false	open	false	2		2016-12-28T22:11:29Z	2016-12-28T23:08:11Z		Event Emitter Becomes Empty Object (TypeError: EventBus.emit is not a function)	180		
-10507	1485909	true	open	false	3		2016-12-28T22:39:55Z	2016-12-29T18:44:24Z		src: always initialize tracing controller in agent	29		
+10507	1485909	true	closed	false	4		2016-12-28T22:39:55Z	2016-12-29T19:09:29Z	2016-12-29T18:44:34Z	src: always initialize tracing controller in agent	29		
 10508	170197	false	open	false	0		2016-12-28T22:44:50Z	2016-12-28T22:44:50Z		Cannot empty URL port	13		
 10509	5227618	false	closed	false	4		2016-12-28T22:55:58Z	2016-12-28T23:04:37Z	2016-12-28T23:04:37Z	eval() not working in Node 7	39		
 10510	287917	true	open	false	0	0	2016-12-28T23:03:20Z	2016-12-28T23:03:20Z		test: fix Coverity warning in inspector test	40		
