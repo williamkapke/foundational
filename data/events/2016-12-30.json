@@ -1,10 +1,10 @@
 {
-  "words": 368,
-  "comments": 17,
+  "words": 1616,
+  "comments": 32,
   "prs": {
-    "opened": 1,
-    "closed": 2,
-    "words": 368
+    "opened": 4,
+    "closed": 4,
+    "words": 1616
   },
   "issues": {
     "opened": 0,
@@ -17,7 +17,12 @@
     "Intl": {"open":20},
     "LTS": {"open":26},
     "NG": {"open":27},
-    "TSC": {"open":65},
+    "TSC": {
+      "182": {"comments":0,"words":404,"closed":"2016-12-30T05:59:03Z","closer":"495647","pr":true},
+      "open": 64,
+      "words": 404,
+      "closed": 1
+    },
     "abi-stable-node": {"open":24},
     "abi-stable-node-addon-examples": {"open":0},
     "api": {"open":8},
@@ -62,22 +67,32 @@
     "nan": {"open":32},
     "node": {
       "9828": {"comments":2,"words":21,"pr":true},
-      "10116": {"comments":2,"words":7,"pr":true},
+      "10116": {"comments":8,"words":230,"pr":true},
       "10376": {"comments":0,"words":22,"closed":"2016-12-30T00:03:19Z","closer":"439929","pr":true},
       "10408": {"comments":1,"words":182,"pr":true,"closed":"2016-12-30T00:03:46Z","closer":"439929"},
       "10466": {"comments":2,"words":17,"pr":true},
       "10467": {"comments":1,"words":6,"pr":true},
       "10469": {"comments":3,"words":9,"pr":true},
-      "10512": {"comments":3,"words":10,"pr":true},
+      "10483": {"comments":2,"words":58,"pr":true,"closed":"2016-12-30T05:02:15Z","closer":"718899"},
+      "10512": {"comments":4,"words":27,"pr":true},
       "10529": {"comments":1,"words":76,"pr":true,"opened":"2016-12-30T00:19:31Z","opener":"718899"},
-      "open": 1007,
-      "words": 350,
-      "closed": 2,
-      "comments": 15,
-      "opened": 1
+      "10530": {"comments":1,"words":57,"pr":true,"opened":"2016-12-30T05:25:30Z","opener":"718899"},
+      "10531": {"comments":1,"words":56,"pr":true,"opened":"2016-12-30T05:35:51Z","opener":"5655189"},
+      "10532": {"comments":1,"words":62,"pr":true,"opened":"2016-12-30T05:41:03Z","opener":"718899"},
+      "open": 1009,
+      "words": 823,
+      "closed": 3,
+      "comments": 27,
+      "opened": 4
     },
     "node-addon-examples": {"open":30},
-    "node-chakracore": {"open":40},
+    "node-chakracore": {
+      "159": {"comments":1,"words":17,"pr":true},
+      "161": {"comments":2,"words":354,"pr":true},
+      "open": 40,
+      "words": 371,
+      "comments": 3
+    },
     "node-convergence-archive": {"open":6},
     "node-eps": {"open":22},
     "node-gyp": {"open":231},
@@ -158,8 +173,19 @@
         "node/pulls/10116#269719415": 2,
         "node/pulls/10512#269722117": 5,
         "node/pulls/10469#269722127": 5,
-        "node/pulls/10116#269722198": 5
+        "node/pulls/10116#269722198": 5,
+        "node/pulls/10116#269734064": 11
       }
+    },
+    "495647": {
+      "id": "495647",
+      "login": "rvagg",
+      "words": {
+        "TSC/issues/182": 404
+      },
+      "closed": [
+        "TSC/issues/182"
+      ]
     },
     "617481": {
       "id": "617481",
@@ -171,15 +197,42 @@
         "node/issues/10376"
       ]
     },
+    "638477": {
+      "id": "638477",
+      "login": "sidkshatriya",
+      "words": {
+        "node-chakracore/pulls/159#269732317": 17,
+        "node-chakracore/pulls/161#269733589": 178,
+        "node-chakracore/pulls/161#269734441": 176
+      }
+    },
     "718899": {
       "id": "718899",
       "login": "Trott",
       "words": {
         "node/pulls/10529": 57,
-        "node/pulls/10529#269714391": 19
+        "node/pulls/10529#269714391": 19,
+        "node/pulls/10116#269730249": 31,
+        "node/pulls/10512#269730364": 17,
+        "node/pulls/10116#269731842": 21,
+        "node/pulls/10483": 52,
+        "node/pulls/10483#269732893": 3,
+        "node/pulls/10483#269733255": 3,
+        "node/pulls/10530": 55,
+        "node/pulls/10532": 60,
+        "node/pulls/10530#269734668": 2,
+        "node/pulls/10532#269734685": 2,
+        "node/pulls/10116#94204208": 83,
+        "node/pulls/10116#94204230": 20,
+        "node/pulls/10116#94204370": 57
       },
       "opened": [
-        "node/pulls/10529"
+        "node/pulls/10529",
+        "node/pulls/10530",
+        "node/pulls/10532"
+      ],
+      "closed": [
+        "node/pulls/10483"
       ]
     },
     "855219": {
@@ -212,6 +265,17 @@
       },
       "closed": [
         "node/pulls/10408"
+      ]
+    },
+    "5655189": {
+      "id": "5655189",
+      "login": "sivaprs",
+      "words": {
+        "node/pulls/10531": 54,
+        "node/pulls/10531#269734467": 2
+      },
+      "opened": [
+        "node/pulls/10531"
       ]
     }
   }
