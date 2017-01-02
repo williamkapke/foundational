@@ -1247,7 +1247,7 @@
 8034	275871	true	closed	false	26		2016-08-09T15:25:45Z	2016-11-18T20:44:16Z	2016-10-03T17:49:26Z	build: run cctests as part of test-ci target	4		
 8035	17704638	true	closed	false	10		2016-08-09T15:33:31Z	2016-08-18T17:38:17Z	2016-08-18T17:38:17Z	doc: script with space  spawn example for windows	46		
 8036	446283	true	open	false	0	0	2016-08-09T20:17:43Z	2016-08-09T20:17:43Z		Avoid potential memory leak if realloc fails	437		
-8037	439929	true	open	false	3		2016-08-09T20:50:54Z	2016-10-24T11:03:23Z		doc: document vm module limitation with timeouts and async code	28		
+8037	439929	true	open	false			2016-08-09T20:50:54Z	2017-01-02T16:01:27Z		doc: document vm module limitation with timeouts and async code	28		
 8038	4976075	true	closed	false	15		2016-08-09T21:30:44Z	2016-08-11T17:06:35Z	2016-08-11T16:40:30Z	Cherry pick 588e15c and c0d4bb8 from upstream V8	61		
 8039	899444	true	closed	false	18		2016-08-09T22:47:32Z	2016-10-10T21:54:33Z	2016-08-18T01:45:26Z	test: add an zlib binding addon test	71		
 8040	11638619	true	closed	false	82		2016-08-09T23:32:06Z	2016-09-12T21:15:26Z	2016-08-20T02:38:11Z	Add crypto.timingSafeEqual()	68		
@@ -3577,8 +3577,8 @@
 10371	696611	true	closed	false	4		2016-12-21T02:18:36Z	2016-12-26T07:17:40Z	2016-12-26T07:17:39Z	test: fix and improve debugger-client test	89		
 10372	170197	false	closed	false	10		2016-12-21T03:07:38Z	2016-12-22T06:18:46Z	2016-12-21T17:21:05Z	searchParams empty value not keyed	28		
 10373	696611	true	closed	false	0		2016-12-21T04:27:54Z	2016-12-21T18:01:37Z	2016-12-21T18:01:37Z	"v4.x: backport of ""make configure file parseable on python3"""	36		
-10374	617481	false	open	false	2		2016-12-21T04:36:44Z	2016-12-21T13:52:54Z		Remove nonstandard URL.originFor	29		
-10375	617481	false	open	false	0		2016-12-21T04:38:10Z	2016-12-21T04:38:10Z		Remove removed-from-spec URL.domainToASCII/domainToUnicode	52		
+10374	617481	false	closed	false	3		2016-12-21T04:36:44Z	2017-01-02T15:20:21Z	2017-01-02T15:20:21Z	Remove nonstandard URL.originFor	29		
+10375	617481	false	closed	false	2		2016-12-21T04:38:10Z	2017-01-02T15:20:08Z	2017-01-02T15:20:08Z	Remove removed-from-spec URL.domainToASCII/domainToUnicode	52		
 10376	617481	false	closed	false	3		2016-12-21T04:40:46Z	2016-12-30T00:03:19Z	2016-12-30T00:03:19Z	Consider making URL prototype properties enumerable to match the spec	22		
 10377	718899	true	closed	false	2	0	2016-12-21T06:00:46Z	2016-12-21T16:30:38Z	2016-12-21T16:30:38Z	tools: enable block-spacing in .eslintrc	102		
 10378	899444	true	open	false	0	0	2016-12-21T06:10:01Z	2016-12-21T06:10:01Z		v6.x backport: promise: better stack traces for --trace-warnings	103		
@@ -3744,14 +3744,14 @@
 10538	4065244	false	open	false	0		2016-12-30T11:48:25Z	2016-12-30T11:48:25Z		tls: inconsistency between doc and code for createSecureContext() options in TLSSocket constructor	109		
 10539	6487691	true	open	false	1		2016-12-30T13:08:59Z	2016-12-30T15:00:32Z		build: don't squash signal handlers with --shared	101		
 10540	15943089	false	open	false	1		2016-12-30T14:57:50Z	2016-12-30T15:40:24Z		AIX processes left on machines	508		
-10541	2512748	true	open	false			2016-12-30T15:11:40Z	2016-12-31T06:04:15Z		test: s/assert.notEqual()/assert.notStrictEqual()/	25		
+10541	2512748	true	open	false	3		2016-12-30T15:11:40Z	2017-01-02T15:42:42Z		test: s/assert.notEqual()/assert.notStrictEqual()/	25		
 10542	1189785	true	open	false	2		2016-12-30T15:30:53Z	2016-12-31T16:11:09Z		test: improve the code in test-fs-access	63		
 10543	2512748	true	closed	false	5	5	2016-12-30T15:56:25Z	2017-01-02T14:50:49Z	2017-01-02T14:50:49Z	test: increase usage of assert.ifError()	29	2512748	2017-01-02T14:50:49Z
 10544	2512748	true	closed	false	2	0	2016-12-30T16:49:38Z	2017-01-02T14:57:44Z	2017-01-02T14:57:44Z	test: s/ASSERT/assert/	53	2512748	2017-01-02T14:57:44Z
 10545	17607	true	open	false	1		2016-12-30T17:17:29Z	2016-12-31T19:24:04Z		doc: new TLSSocket has no secure context options	51		
 10546	15161981	true	open	false	1		2016-12-30T17:39:55Z	2016-12-30T20:28:48Z		deps: cherry-pick 224d37 from V8 upstream	20		
-10547	2512748	true	open	false	0	0	2016-12-30T19:03:40Z	2016-12-30T19:03:40Z		test: update test-cluster-shared-handle-bind-error	48		
-10548	2512748	true	open	false	1		2016-12-30T20:47:44Z	2016-12-30T23:43:33Z		test: avoid assigning this to variables	85		
+10547	2512748	true	closed	false	1	0	2016-12-30T19:03:40Z	2017-01-02T15:13:47Z	2017-01-02T15:13:47Z	test: update test-cluster-shared-handle-bind-error	48	2512748	2017-01-02T15:13:47Z
+10548	2512748	true	closed	false	1	0	2016-12-30T20:47:44Z	2017-01-02T15:05:27Z	2017-01-02T15:05:27Z	test: avoid assigning this to variables	85	2512748	2017-01-02T15:05:27Z
 10549	439929	true	open	false	1		2016-12-30T21:59:13Z	2016-12-30T22:23:23Z		url: fix accidental filemode change	40		
 10550	2512748	true	open	false	2		2016-12-30T23:42:04Z	2017-01-01T19:26:04Z		test: use const for all require() calls	44		
 10551	13262488	true	open	false	5		2016-12-31T04:16:00Z	2016-12-31T20:16:25Z		Test revisions	42		
@@ -3761,11 +3761,11 @@
 10555	4065244	false	open	false	0		2016-12-31T10:27:15Z	2016-12-31T10:27:15Z		tls: secureConnect event will not be emitted if TLSSocket is created via constructor instead of tls.connect	57		
 10556	1189785	true	open	false	1		2016-12-31T15:53:31Z	2017-01-02T04:37:24Z		test: improve the code in test-fs-read-stream	57		
 10557	400558	true	open	false	5		2016-12-31T16:58:36Z	2017-01-01T18:42:49Z		Optimize child_process IPC for large data	279		
-10558	54666	true	open	false			2016-12-31T21:53:37Z	2017-01-02T13:18:50Z		http: various performance improvements	2579		
+10558	54666	true	open	false			2016-12-31T21:53:37Z	2017-01-02T15:29:16Z		http: various performance improvements	2579		
 10559	54666	true	open	false	0	0	2017-01-01T02:53:28Z	2017-01-01T02:53:28Z		benchmark: keep decimals in results	44		
 10560	13608139	false	open	false	0		2017-01-01T05:19:26Z	2017-01-01T05:19:26Z		npm start gives many errors	16		
 10561	718899	true	open	false	1		2017-01-01T06:03:06Z	2017-01-01T10:14:44Z		tools: update ESLint to current version	133		
-10562	439929	true	open	false			2017-01-01T07:19:40Z	2017-01-02T12:48:56Z		url: set toStringTag for the URL class	34		
+10562	439929	true	open	false			2017-01-01T07:19:40Z	2017-01-02T15:30:32Z		url: set toStringTag for the URL class	34		
 10563	24838796	false	closed	false	1		2017-01-01T09:34:53Z	2017-01-01T14:52:37Z	2017-01-01T14:52:37Z	get 'dump ended with error (set phase) => Error: read ECONNRESET' error,	67		
 10564	5640348	true	open	false	0	0	2017-01-01T13:14:41Z	2017-01-01T13:14:41Z		Update License	64		
 10565	5640348	true	closed	false	1	0	2017-01-01T13:20:33Z	2017-01-01T17:48:51Z	2017-01-01T17:48:51Z	docs: Update copyright year of licenses	38		
@@ -3774,6 +3774,7 @@
 10568	2022803	true	open	false			2017-01-01T22:27:03Z	2017-01-02T09:48:49Z		events: avoid emit() eager deopt	80		
 10569	11638619	true	open	false	5		2017-01-02T00:28:55Z	2017-01-02T03:59:43Z		util: avoid out-of-bounds arguments index access	77		
 10570	1189785	true	open	false	1		2017-01-02T04:50:08Z	2017-01-02T05:15:38Z		test: improve test-fs-readfile-zero-byte-liar	48		
-10571	815988	true	open	false	2		2017-01-02T06:52:04Z	2017-01-02T12:23:45Z		events: Optimize arrayClone by copying in forward direction.	45		
+10571	815988	true	open	false	7		2017-01-02T06:52:04Z	2017-01-02T15:47:32Z		events: Optimize arrayClone by copying in forward direction.	45		
 10572	54666	true	open	false	0	0	2017-01-02T08:21:08Z	2017-01-02T08:21:08Z		events: improve removeListener() performance	68		
-10573	17898715	false	open	false	0		2017-01-02T11:21:53Z	2017-01-02T11:21:53Z		I spawn through the creation of sub-thread How non-stdio: 'inherit' set tty to true	14		
+10573	17898715	false	open	false	1		2017-01-02T11:21:53Z	2017-01-02T15:33:17Z		I spawn through the creation of sub-thread How non-stdio: 'inherit' set tty to true	14		
+10574	327019	true	open	false	0	0	2017-01-02T16:00:01Z	2017-01-02T16:00:01Z		lib: clarify get byteLength	40		
