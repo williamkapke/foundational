@@ -387,7 +387,7 @@
 6582	275871	true	closed	false	14		2016-05-04T22:29:50Z	2016-07-11T21:10:49Z	2016-05-05T11:05:20Z	crypto: disable ssl compression at build time	3		
 6599	79017	true	closed	false	20		2016-05-05T16:22:48Z	2016-10-12T10:04:41Z	2016-05-07T03:30:19Z	src,lib: minor --debug-brk cleanup	116		
 6600	15943089	true	closed	false	5	1	2016-05-05T16:23:18Z	2016-12-16T11:17:47Z	2016-12-16T11:17:47Z	win, build: add node.lib file into headers package	273		
-6601	1231635	true	open	false	54		2016-05-05T18:13:42Z	2017-01-02T09:17:35Z		doc: add Google Analytics tracking.	105		
+6601	1231635	true	open	false	55		2016-05-05T18:13:42Z	2017-01-02T12:04:05Z		doc: add Google Analytics tracking.	105		
 6604	40265	false	closed	false	14		2016-05-05T21:07:47Z	2016-10-29T19:48:35Z	2016-07-20T09:16:03Z	Encountering segfault	214		
 6610	5108906	false	closed	false	4		2016-05-06T02:18:49Z	2016-08-14T09:08:27Z	2016-08-14T09:08:27Z	Super-slow arrays in 6.x	472		
 6611	718899	false	closed	false	7		2016-05-06T03:24:47Z	2016-07-04T13:33:48Z	2016-07-04T13:33:48Z	Investigate flaky test-net-GH-5504	3		
@@ -3131,7 +3131,7 @@
 9919	408692	true	closed	false	2		2016-12-01T16:30:08Z	2016-12-06T06:46:42Z	2016-12-06T06:46:42Z	test: use assert.strictEqual in test-cli-eval	60		
 9920	6971109	true	closed	false	4		2016-12-01T16:30:24Z	2016-12-06T06:31:44Z	2016-12-06T06:31:44Z	changes var to let & const as appropriate	31		
 9921	8977402	true	closed	false	4		2016-12-01T16:30:54Z	2016-12-06T03:52:52Z	2016-12-06T03:52:52Z	Test debugger fix	49		
-9922	1857993	true	closed	false	11		2016-12-01T16:32:43Z	2016-12-23T17:05:58Z	2016-12-23T03:42:36Z	test: add tests for clearBuffer state machine	59		
+9922	1857993	true	open	false	13		2016-12-01T16:32:43Z	2017-01-02T12:28:22Z		test: add tests for clearBuffer state machine	59		
 9923	16144158	true	closed	false	7		2016-12-01T16:34:44Z	2016-12-05T16:36:54Z	2016-12-05T16:36:54Z	test: Updated tls-getcipher test	50		
 9924	4299420	true	closed	false	18		2016-12-01T16:35:33Z	2016-12-08T10:40:45Z	2016-12-06T21:04:18Z	test: fix test for buffer regression #649	35		
 9925	2251119	true	closed	false	2		2016-12-01T16:35:51Z	2016-12-06T03:43:20Z	2016-12-06T03:43:20Z	test: convert assert.equal to assert.strictEqual	51		
@@ -3658,8 +3658,8 @@
 10452	1189785	true	closed	false	6		2016-12-25T19:01:44Z	2016-12-27T18:28:30Z	2016-12-27T18:28:30Z	test: improve the code in test-pipe.js	67		
 10453	2101743	false	open	false	2		2016-12-25T19:29:53Z	2016-12-25T20:36:05Z		VM: VM is much slower when `timeout` was specified	178		
 10454	7604540	false	open	false	0		2016-12-26T07:13:23Z	2016-12-26T07:13:23Z		'querystring.parse' works a inconsistent way with URLSearchParams(chrome) and python's urlparse.parse_qs	76		
-10455	696611	true	open	false	0		2016-12-26T08:59:29Z	2016-12-28T13:07:07Z		test: refactor test-debugger-remote	124		
-10456	696611	true	closed	false	4		2016-12-26T09:10:29Z	2016-12-29T19:38:05Z	2016-12-29T19:38:05Z	build: enable debugger tests in CI	46		
+10455	696611	true	open	false	2		2016-12-26T08:59:29Z	2017-01-02T12:44:47Z		test: refactor test-debugger-remote	124		
+10456	696611	true	open	false	6		2016-12-26T09:10:29Z	2017-01-02T12:46:47Z		build: enable debugger tests in CI	46		
 10457	6124091	false	closed	false	5		2016-12-26T09:42:42Z	2016-12-28T14:48:53Z	2016-12-28T14:48:53Z	Debugger isn't stopped at the `debugger;` statement when debugging using `--inspect`	71		
 10458	696611	true	open	false	3		2016-12-26T11:19:18Z	2016-12-27T22:40:00Z		lib,src: make constants not inherit from Object	54		
 10459	2352663	true	closed	false	2	0	2016-12-26T12:15:54Z	2016-12-26T14:38:00Z	2016-12-26T14:37:59Z	v6.x: backport test: fix test-buffer-slow	3	2352663	2016-12-26T14:37:59Z
@@ -3734,7 +3734,7 @@
 10528	540554	false	closed	false	2		2016-12-29T22:44:16Z	2016-12-30T14:55:28Z	2016-12-30T14:55:28Z	UNC paths are not handled appropriately by `path.relative`	103		
 10529	718899	true	closed	false	3	1	2016-12-30T00:19:31Z	2016-12-30T16:58:00Z	2016-12-30T16:58:00Z	doc: require two-factor authentication	57		
 10530	718899	true	closed	false	2	0	2016-12-30T05:25:30Z	2017-01-02T05:11:46Z	2017-01-02T05:11:46Z	test: refactor test-stream-pipe-error-handling	55		
-10531	5655189	true	open	false			2016-12-30T05:35:51Z	2017-01-02T07:36:53Z		test: refactor the code in test-util-debug.js	54		
+10531	5655189	true	open	false	3		2016-12-30T05:35:51Z	2017-01-02T12:59:52Z		test: refactor the code in test-util-debug.js	54		
 10532	718899	true	closed	false	2		2016-12-30T05:41:03Z	2017-01-02T05:13:30Z	2017-01-02T05:13:30Z	test: refactor test-stream-unshift-read-race	60		
 10533	7323348	false	closed	false	1		2016-12-30T06:08:26Z	2016-12-30T16:10:04Z	2016-12-30T16:10:04Z	Node js child process exit event triggering before closing the application	84		
 10534	327019	true	open	false	2		2016-12-30T08:06:32Z	2017-01-02T03:31:10Z		lib: clean up usage of threw	28		
@@ -3765,7 +3765,7 @@
 10559	54666	true	open	false	0	0	2017-01-01T02:53:28Z	2017-01-01T02:53:28Z		benchmark: keep decimals in results	44		
 10560	13608139	false	open	false	0		2017-01-01T05:19:26Z	2017-01-01T05:19:26Z		npm start gives many errors	16		
 10561	718899	true	open	false	1		2017-01-01T06:03:06Z	2017-01-01T10:14:44Z		tools: update ESLint to current version	133		
-10562	439929	true	open	false			2017-01-01T07:19:40Z	2017-01-01T15:18:36Z		url: set toStringTag for the URL class	34		
+10562	439929	true	open	false			2017-01-01T07:19:40Z	2017-01-02T12:48:56Z		url: set toStringTag for the URL class	34		
 10563	24838796	false	closed	false	1		2017-01-01T09:34:53Z	2017-01-01T14:52:37Z	2017-01-01T14:52:37Z	get 'dump ended with error (set phase) => Error: read ECONNRESET' error,	67		
 10564	5640348	true	open	false	0	0	2017-01-01T13:14:41Z	2017-01-01T13:14:41Z		Update License	64		
 10565	5640348	true	closed	false	1	0	2017-01-01T13:20:33Z	2017-01-01T17:48:51Z	2017-01-01T17:48:51Z	docs: Update copyright year of licenses	38		
@@ -3774,6 +3774,6 @@
 10568	2022803	true	open	false			2017-01-01T22:27:03Z	2017-01-02T09:48:49Z		events: avoid emit() eager deopt	80		
 10569	11638619	true	open	false	5		2017-01-02T00:28:55Z	2017-01-02T03:59:43Z		util: avoid out-of-bounds arguments index access	77		
 10570	1189785	true	open	false	1		2017-01-02T04:50:08Z	2017-01-02T05:15:38Z		test: improve test-fs-readfile-zero-byte-liar	48		
-10571	815988	true	open	false	1		2017-01-02T06:52:04Z	2017-01-02T08:02:07Z		events: Optimize arrayClone by copying in forward direction.	45		
+10571	815988	true	open	false	2		2017-01-02T06:52:04Z	2017-01-02T12:23:45Z		events: Optimize arrayClone by copying in forward direction.	45		
 10572	54666	true	open	false	0	0	2017-01-02T08:21:08Z	2017-01-02T08:21:08Z		events: improve removeListener() performance	68		
 10573	17898715	false	open	false	0		2017-01-02T11:21:53Z	2017-01-02T11:21:53Z		I spawn through the creation of sub-thread How non-stdio: 'inherit' set tty to true	14		
