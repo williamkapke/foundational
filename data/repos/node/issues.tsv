@@ -147,6 +147,7 @@
 3596	125177	false	closed	false	19		2015-10-29T23:54:22Z	2016-10-01T03:45:06Z	2016-06-07T19:43:30Z	detached child_process doesn't inherit stdio	76		
 3604	13315	false	open	false	13		2015-10-30T14:21:10Z	2016-07-21T09:02:46Z		a simple script to crash Node.js with an assertion failure: (loop->watchers[w->fd] == w)	66		
 3606	170197	false	open	false	62		2015-10-30T14:47:16Z	2016-11-01T21:39:41Z		Error: Cannot find module './lib'	31		
+3659	7237097	false	closed	false	45		2015-11-04T10:35:25Z	2017-01-02T17:00:38Z	2017-01-02T17:00:38Z	Performance of 'http' + anonymous functions eventually slows down	600		
 3688	1514495	false	closed	false	6		2015-11-06T07:25:54Z	2016-09-05T16:30:10Z	2015-11-06T16:21:29Z	Enable Vtune profiling support for JavaScript to provide source code level profiling in Nodejs 	195		
 3692	8949910	false	open	false	119		2015-11-06T16:05:41Z	2016-09-14T23:21:21Z		HTTP/HTTPS client requests throwing EPROTO	60		
 3715	4831315	false	open	false	12		2015-11-08T23:39:16Z	2016-09-07T07:07:16Z		GC segfault	65		
@@ -3131,7 +3132,7 @@
 9919	408692	true	closed	false	2		2016-12-01T16:30:08Z	2016-12-06T06:46:42Z	2016-12-06T06:46:42Z	test: use assert.strictEqual in test-cli-eval	60		
 9920	6971109	true	closed	false	4		2016-12-01T16:30:24Z	2016-12-06T06:31:44Z	2016-12-06T06:31:44Z	changes var to let & const as appropriate	31		
 9921	8977402	true	closed	false	4		2016-12-01T16:30:54Z	2016-12-06T03:52:52Z	2016-12-06T03:52:52Z	Test debugger fix	49		
-9922	1857993	true	open	false	14		2016-12-01T16:32:43Z	2017-01-02T13:50:45Z		test: add tests for clearBuffer state machine	59		
+9922	1857993	true	open	false	15		2016-12-01T16:32:43Z	2017-01-02T17:02:41Z		test: add tests for clearBuffer state machine	59		
 9923	16144158	true	closed	false	7		2016-12-01T16:34:44Z	2016-12-05T16:36:54Z	2016-12-05T16:36:54Z	test: Updated tls-getcipher test	50		
 9924	4299420	true	closed	false	18		2016-12-01T16:35:33Z	2016-12-08T10:40:45Z	2016-12-06T21:04:18Z	test: fix test for buffer regression #649	35		
 9925	2251119	true	closed	false	2		2016-12-01T16:35:51Z	2016-12-06T03:43:20Z	2016-12-06T03:43:20Z	test: convert assert.equal to assert.strictEqual	51		
@@ -3541,7 +3542,7 @@
 10335	15943089	false	open	false	7		2016-12-19T11:17:03Z	2016-12-19T18:08:06Z		REPL .load SyntaxError with test-stdio-closed.js 	177		
 10336	15943089	false	open	false	6		2016-12-19T12:06:57Z	2016-12-19T17:05:32Z		Clarify dont-land-on labels	423		
 10337	12075322	true	closed	false	1		2016-12-19T13:02:11Z	2016-12-21T13:33:18Z	2016-12-21T13:33:18Z	 doc: fix broken link in COLLABORATOR_GUIDE.md	59		
-10338	14080426	false	open	false	10		2016-12-19T15:15:38Z	2016-12-19T23:03:46Z		V8 Inspector not showing all files in sources	47		
+10338	14080426	false	open	false	12		2016-12-19T15:15:38Z	2017-01-02T16:41:22Z		V8 Inspector not showing all files in sources	47		
 10339	15161981	true	open	false	7		2016-12-19T15:53:53Z	2016-12-29T19:44:07Z		test: only check fd 0,1,2 are used and not their access modes	71		
 10340	21282864	false	open	false	0		2016-12-19T16:19:49Z	2016-12-19T16:19:49Z		Sessions working fine on localhost, but gets expired in Chrome/Firefox after some time.	52		
 10341	3899684	false	open	false	1		2016-12-19T17:01:31Z	2016-12-19T20:05:05Z		build, api, docs: android support	155		
@@ -3774,7 +3775,7 @@
 10568	2022803	true	open	false			2017-01-01T22:27:03Z	2017-01-02T09:48:49Z		events: avoid emit() eager deopt	80		
 10569	11638619	true	open	false	5		2017-01-02T00:28:55Z	2017-01-02T03:59:43Z		util: avoid out-of-bounds arguments index access	77		
 10570	1189785	true	open	false	1		2017-01-02T04:50:08Z	2017-01-02T05:15:38Z		test: improve test-fs-readfile-zero-byte-liar	48		
-10571	815988	true	open	false	7		2017-01-02T06:52:04Z	2017-01-02T15:47:32Z		events: Optimize arrayClone by copying in forward direction.	45		
+10571	815988	true	open	false	8		2017-01-02T06:52:04Z	2017-01-02T16:33:54Z		events: Optimize arrayClone by copying in forward direction.	45		
 10572	54666	true	open	false	0	0	2017-01-02T08:21:08Z	2017-01-02T08:21:08Z		events: improve removeListener() performance	68		
 10573	17898715	false	open	false	1		2017-01-02T11:21:53Z	2017-01-02T15:33:17Z		I spawn through the creation of sub-thread How non-stdio: 'inherit' set tty to true	14		
-10574	327019	true	open	false	0	0	2017-01-02T16:00:01Z	2017-01-02T16:00:01Z		lib: clarify get byteLength	40		
+10574	327019	true	open	false	0		2017-01-02T16:00:01Z	2017-01-02T16:25:39Z		lib: clarify get byteLength	40		
