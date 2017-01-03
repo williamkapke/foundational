@@ -217,6 +217,7 @@
 4682	439929	true	closed	false	132		2016-01-14T04:23:32Z	2016-10-19T16:28:24Z	2016-03-16T15:36:13Z	buffer: add Buffer.from(), Buffer.alloc() and Buffer.allocUnsafe(), soft-deprecate Buffer(num)	122		
 4685	11070840	false	open	false	19		2016-01-14T06:13:50Z	2016-08-14T23:11:57Z		Symantec Quarantining node-v5.4.1-x64.msi	30		
 4693	677994	true	closed	false	9		2016-01-14T14:48:11Z	2016-12-28T12:06:21Z	2016-01-19T15:37:27Z	src: cares_wrap: only loop through once on lookup	56		
+4697	8181630	false	open	false	5		2016-01-14T18:23:57Z	2017-01-03T22:35:09Z		Surprising I/O behaviour on Windows	670		
 4701	189835	false	open	false	62		2016-01-14T20:18:01Z	2016-07-19T01:02:19Z		ES2016 compat issue with Buffer subclassing Uint8Array	163		
 4716	10805246	false	closed	false	4		2016-01-15T22:58:34Z	2016-12-01T18:02:37Z	2016-01-16T16:27:04Z	windows 7 cygwin64 installation, Make fails at tools/gyp_node.py	67		
 4740	327019	true	open	false			2016-01-18T10:01:35Z	2016-12-12T15:31:19Z		readline: refactor construct Interface	6		
@@ -3548,7 +3549,7 @@
 10338	14080426	false	open	false	13		2016-12-19T15:15:38Z	2017-01-03T18:49:43Z		V8 Inspector not showing all files in sources	47		
 10339	15161981	true	open	false	7		2016-12-19T15:53:53Z	2016-12-29T19:44:07Z		test: only check fd 0,1,2 are used and not their access modes	71		
 10340	21282864	false	open	false	0		2016-12-19T16:19:49Z	2016-12-19T16:19:49Z		Sessions working fine on localhost, but gets expired in Chrome/Firefox after some time.	52		
-10341	3899684	false	open	false	1		2016-12-19T17:01:31Z	2016-12-19T20:05:05Z		build, api, docs: android support	155		
+10341	3899684	false	open	false	3		2016-12-19T17:01:31Z	2017-01-03T22:06:28Z		build, api, docs: android support	155		
 10342	1485909	true	closed	false	9		2016-12-19T19:03:03Z	2016-12-20T00:38:41Z	2016-12-20T00:38:41Z	deps: cherry-pick 081fce3 from V8 upstream	12		
 10343	6487691	true	open	false			2016-12-19T19:22:34Z	2017-01-03T18:09:33Z		doc: Update CONTRIBUTING.md with backport info	120		
 10344	54666	false	closed	false	8		2016-12-19T19:39:27Z	2016-12-21T16:07:54Z	2016-12-21T16:07:54Z	http: IncomingMessage not emitting 'end'	126		
@@ -3746,13 +3747,13 @@
 10536	24838796	false	open	false	2		2016-12-30T09:55:06Z	2016-12-30T13:11:47Z		get error 'CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memory'	177		
 10537	432351	true	open	false			2016-12-30T10:08:43Z	2016-12-30T19:26:56Z		src: reduce test_inspector_socket_server output	147		
 10538	4065244	false	open	false	0		2016-12-30T11:48:25Z	2016-12-30T11:48:25Z		tls: inconsistency between doc and code for createSecureContext() options in TLSSocket constructor	109		
-10539	6487691	true	open	false	2		2016-12-30T13:08:59Z	2017-01-03T16:48:37Z		build: don't squash signal handlers with --shared	101		
+10539	6487691	true	open	false			2016-12-30T13:08:59Z	2017-01-03T22:18:10Z		build: don't squash signal handlers with --shared	101		
 10540	15943089	false	open	false	1		2016-12-30T14:57:50Z	2016-12-30T15:40:24Z		AIX processes left on machines	508		
 10541	2512748	true	open	false	3		2016-12-30T15:11:40Z	2017-01-02T15:42:42Z		test: s/assert.notEqual()/assert.notStrictEqual()/	25		
 10542	1189785	true	open	false	3		2016-12-30T15:30:53Z	2017-01-03T03:11:46Z		test: improve the code in test-fs-access	63		
 10543	2512748	true	closed	false	6		2016-12-30T15:56:25Z	2017-01-02T18:51:07Z	2017-01-02T14:50:49Z	test: increase usage of assert.ifError()	29		
 10544	2512748	true	closed	false	2	0	2016-12-30T16:49:38Z	2017-01-02T14:57:44Z	2017-01-02T14:57:44Z	test: s/ASSERT/assert/	53	2512748	2017-01-02T14:57:44Z
-10545	17607	true	open	false	3		2016-12-30T17:17:29Z	2017-01-03T21:38:24Z		doc: new TLSSocket has no secure context options	51		
+10545	17607	true	open	false	5		2016-12-30T17:17:29Z	2017-01-03T22:02:27Z		doc: new TLSSocket has no secure context options	51		
 10546	15161981	true	open	false	1		2016-12-30T17:39:55Z	2016-12-30T20:28:48Z		deps: cherry-pick 224d37 from V8 upstream	20		
 10547	2512748	true	closed	false	1	0	2016-12-30T19:03:40Z	2017-01-02T15:13:47Z	2017-01-02T15:13:47Z	test: update test-cluster-shared-handle-bind-error	48	2512748	2017-01-02T15:13:47Z
 10548	2512748	true	closed	false	1	0	2016-12-30T20:47:44Z	2017-01-02T15:05:27Z	2017-01-02T15:05:27Z	test: avoid assigning this to variables	85	2512748	2017-01-02T15:05:27Z
@@ -3765,11 +3766,11 @@
 10555	4065244	false	open	false	0		2016-12-31T10:27:15Z	2016-12-31T10:27:15Z		tls: secureConnect event will not be emitted if TLSSocket is created via constructor instead of tls.connect	57		
 10556	1189785	true	closed	false	6		2016-12-31T15:53:31Z	2017-01-03T12:48:57Z	2017-01-03T12:48:57Z	test: improve the code in test-fs-read-stream	57		
 10557	400558	true	open	false	5		2016-12-31T16:58:36Z	2017-01-01T18:42:49Z		Optimize child_process IPC for large data	279		
-10558	54666	true	open	false			2016-12-31T21:53:37Z	2017-01-03T16:11:29Z		http: various performance improvements	2579		
+10558	54666	true	open	false			2016-12-31T21:53:37Z	2017-01-03T22:52:59Z		http: various performance improvements	2579		
 10559	54666	true	open	false	1		2017-01-01T02:53:28Z	2017-01-03T21:49:20Z		benchmark: keep decimals in results	48		
 10560	13608139	false	open	false	0		2017-01-01T05:19:26Z	2017-01-01T05:19:26Z		npm start gives many errors	16		
 10561	718899	true	open	false	3		2017-01-01T06:03:06Z	2017-01-03T14:53:41Z		tools: update ESLint to current version	133		
-10562	439929	true	open	false			2017-01-01T07:19:40Z	2017-01-03T20:46:34Z		url: set toStringTag for the URL class	34		
+10562	439929	true	open	false	2		2017-01-01T07:19:40Z	2017-01-03T22:57:55Z		url: set toStringTag for the URL class	34		
 10563	24838796	false	closed	false	1		2017-01-01T09:34:53Z	2017-01-01T14:52:37Z	2017-01-01T14:52:37Z	get 'dump ended with error (set phase) => Error: read ECONNRESET' error,	67		
 10564	5640348	true	open	false	0	0	2017-01-01T13:14:41Z	2017-01-01T13:14:41Z		Update License	64		
 10565	5640348	true	closed	false	1	0	2017-01-01T13:20:33Z	2017-01-01T17:48:51Z	2017-01-01T17:48:51Z	docs: Update copyright year of licenses	38		
@@ -3787,7 +3788,7 @@
 10577	2512748	true	open	false			2017-01-02T17:44:51Z	2017-01-03T16:24:40Z		test: refactor test-beforeexit-event-exit.js	25		
 10578	4483844	false	open	false	0		2017-01-02T17:46:49Z	2017-01-02T17:46:49Z		URL generation prevents me from being able to reload DevTools	98		
 10579	7041728	true	open	false	6		2017-01-02T23:26:45Z	2017-01-03T05:41:32Z		assert: update comments	122		
-10580	54666	true	open	false			2017-01-02T23:56:14Z	2017-01-03T16:06:36Z		stream: skip chunk validation for Buffers	51		
+10580	54666	true	open	false			2017-01-02T23:56:14Z	2017-01-03T22:43:56Z		stream: skip chunk validation for Buffers	51		
 10581	718899	true	open	false	4		2017-01-03T01:26:48Z	2017-01-03T19:12:09Z		test: refactor beforeExit tests	64		
 10582	82626	true	open	false	1		2017-01-03T01:43:32Z	2017-01-03T16:08:59Z		doc: update writable.write return value	27		
 10583	1189785	true	open	false	3		2017-01-03T03:06:10Z	2017-01-03T16:07:42Z		test: improve the code in test-util-debug.js	50		
@@ -3802,6 +3803,8 @@
 10592	9373002	false	open	false	1		2017-01-03T14:41:00Z	2017-01-03T18:29:25Z		smartos: test-http-res-write-after-end - possible intermittent failure	35		
 10593	899444	true	open	false	0	0	2017-01-03T15:07:31Z	2017-01-03T15:07:31Z		v7.x backport: fs: support Uint8Array input to methods	26		
 10594	1093990	true	open	false	4		2017-01-03T15:53:53Z	2017-01-03T18:01:01Z		util: avoid leaking `arguments` in `_deprecate()`.	58		
-10595	170197	false	open	false	2		2017-01-03T17:38:04Z	2017-01-03T19:32:07Z		URL empty passwords	11		
+10595	170197	false	open	false	2		2017-01-03T17:38:04Z	2017-01-03T22:24:41Z		URL empty passwords	11		
 10596	677551	false	open	false	0		2017-01-03T18:04:54Z	2017-01-03T18:04:54Z		Source-map error with bootstrap-sass ambersands	115		
 10597	696611	true	open	false	1		2017-01-03T19:29:21Z	2017-01-03T20:09:05Z		test: fix process.title expectation	65		
+10598	617481	false	open	false	0		2017-01-03T22:25:42Z	2017-01-03T22:25:42Z		URL: don't decode arbitrary %2e during parsing	6		
+10599	439929	true	open	false	0	0	2017-01-03T22:54:50Z	2017-01-03T22:54:50Z		[WIP] meta: update copyright statements	61		
