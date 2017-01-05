@@ -34,7 +34,7 @@
 1128	36662	false	open	false	17		2015-03-11T22:48:11Z	2016-08-29T14:15:29Z		feature request: a way to inspect what's in the event loop	137		
 1159	829734	true	closed	false	85		2015-03-15T22:38:28Z	2016-12-13T02:44:29Z	2015-07-08T12:32:14Z	workers: initial implementation	1656		
 1173	2924002	false	closed	false	16		2015-03-17T16:37:38Z	2016-11-23T06:28:44Z	2015-03-17T22:53:11Z	installation problem	178		
-1180	2414252	false	closed	false	13		2015-03-17T21:35:00Z	2017-01-05T09:52:59Z	2016-04-10T23:34:08Z	CreateReadStream doesn't close the file	104		
+1180	2414252	false	closed	false	14		2015-03-17T21:35:00Z	2017-01-05T20:50:27Z	2016-04-10T23:34:08Z	CreateReadStream doesn't close the file	104		
 1271	275871	false	open	false	17		2015-03-26T15:30:40Z	2016-12-29T17:06:56Z		timer,domain: timers don't maintain order after exception	63		
 1278	532414	false	closed	false	37		2015-03-26T19:55:14Z	2016-08-22T21:08:42Z	2016-02-12T21:20:04Z	Compressed packages	136		
 1374	10247	false	closed	false	16		2015-04-08T13:46:19Z	2016-10-21T07:20:28Z	2015-09-03T06:13:19Z	Fatal Error (Abort) creating string larger than 268435440 bytes	93		
@@ -2332,7 +2332,7 @@
 9113	718899	true	closed	false	9		2016-10-15T22:09:52Z	2016-12-21T22:15:42Z	2016-10-20T05:22:26Z	test,lib,benchmark: match function names	98		
 9114	131406	false	closed	false	5		2016-10-16T11:07:08Z	2016-10-16T22:24:21Z	2016-10-16T22:24:21Z	node 6.8: mips-arch-variant not applied everywhere in v8 dep	53		
 9115	103052	true	closed	false	24		2016-10-16T11:20:13Z	2016-12-13T21:05:02Z	2016-11-18T16:32:23Z	src: squelch unused function warnings in util.h 	37		
-9116	3001791	true	open	false	7		2016-10-16T12:54:47Z	2016-10-28T17:07:59Z		http: defines all the fields in the constructor	57		
+9116	3001791	true	open	false	9		2016-10-16T12:54:47Z	2017-01-05T20:38:29Z		http: defines all the fields in the constructor	57		
 9117	793830	false	open	false	5		2016-10-16T15:24:15Z	2016-10-21T12:04:03Z		Why does Buffer get reported as being a Uint8Array?	110		
 9118	12378597	false	closed	false	1		2016-10-16T15:41:52Z	2016-10-17T03:25:56Z	2016-10-16T17:07:09Z	Proxy deleteProperty throws TypeError when returning false	72		
 9119	22550884	true	closed	false	3		2016-10-16T16:15:45Z	2016-10-18T22:46:49Z	2016-10-18T22:46:49Z	Fix test debug agent	16		
@@ -2894,7 +2894,7 @@
 9675	6487691	true	closed	false	7		2016-11-18T16:38:14Z	2016-12-09T00:10:22Z	2016-11-22T19:24:09Z	Make --shared on AIX work (shared library support)	116		
 9676	17607	true	closed	false	1		2016-11-18T17:46:26Z	2016-11-21T17:09:20Z	2016-11-21T17:09:20Z	tools: disallow trailing whitespace for markdown	62		
 9677	6354455	true	open	false	0	0	2016-11-18T18:18:06Z	2016-11-18T18:18:07Z		doc: add italoacasas to collaborators	29		
-9678	718899	false	open	false	0		2016-11-18T19:11:34Z	2016-11-18T19:11:34Z		Investigate flaky test-net-socket-timeout	26		
+9678	718899	false	closed	false	3		2016-11-18T19:11:34Z	2017-01-05T20:35:55Z	2017-01-05T20:35:55Z	Investigate flaky test-net-socket-timeout	26		
 9679	718899	true	closed	false	3		2016-11-18T19:50:22Z	2016-11-18T21:48:06Z	2016-11-18T21:48:05Z	test: make gh-2847 regression test stricter	55		
 9680	498775	true	open	false	0	0	2016-11-18T19:59:41Z	2016-11-18T19:59:41Z		(WIP) lib: fix beforeExit not working with -e	211		
 9681	54666	true	closed	false	4	0	2016-11-18T20:21:25Z	2016-11-22T08:01:17Z	2016-11-22T08:01:17Z	backport: http: fix connection upgrade checks	67		
@@ -3778,7 +3778,7 @@
 10565	5640348	true	closed	false	1	0	2017-01-01T13:20:33Z	2017-01-01T17:48:51Z	2017-01-01T17:48:51Z	docs: Update copyright year of licenses	38		
 10566	499820	false	closed	false	3		2017-01-01T19:50:18Z	2017-01-01T20:24:51Z	2017-01-01T20:24:51Z	RHEL 7.3 installation fails (using official nodesource repo)	324		
 10567	8143236	false	open	false	4		2017-01-01T20:32:53Z	2017-01-02T20:35:21Z		"References to an ""KeepAlive"" flag in the http.Agent constructor, when it is actually ""keepAlive"""	65		
-10568	2022803	true	open	false	1		2017-01-01T22:27:03Z	2017-01-02T21:34:45Z		events: avoid emit() eager deopt	80		
+10568	2022803	true	open	false	2		2017-01-01T22:27:03Z	2017-01-05T20:56:18Z		events: avoid emit() eager deopt	80		
 10569	11638619	true	closed	false	6	0	2017-01-02T00:28:55Z	2017-01-05T06:53:52Z	2017-01-05T06:53:52Z	util: avoid out-of-bounds arguments index access	77	11638619	2017-01-05T06:53:52Z
 10570	1189785	true	open	false	1		2017-01-02T04:50:08Z	2017-01-02T05:15:38Z		test: improve test-fs-readfile-zero-byte-liar	48		
 10571	815988	true	closed	false	17		2017-01-02T06:52:04Z	2017-01-04T14:01:41Z	2017-01-04T14:01:41Z	events: optimize arrayClone by copying forward	45		
@@ -3834,7 +3834,7 @@
 10621	13374460	false	open	false	0		2017-01-05T00:18:06Z	2017-01-05T00:18:06Z		`readFileSync` Appears  Un-synchronous or Fails on Raspberry Pi 3	161		
 10622	11262165	true	open	false	1		2017-01-05T00:51:59Z	2017-01-05T04:49:34Z		test: refactor test-crypto-padding-eas256	42		
 10623	13093042	true	open	false	1		2017-01-05T00:58:42Z	2017-01-05T01:26:51Z		tracing: fix TracingController cleanup	110		
-10624	1189785	true	open	false	0	0	2017-01-05T03:32:40Z	2017-01-05T03:32:40Z		test: improve code in test-fs-write-file-sync	46		
+10624	1189785	true	open	false			2017-01-05T03:32:40Z	2017-01-05T20:13:25Z		test: improve code in test-fs-write-file-sync	46		
 10625	4299420	false	open	false	12		2017-01-05T04:00:13Z	2017-01-05T18:21:43Z		meta, url: track WHATWG URL implementation in GitHub project	118		
 10626	3691490	true	open	false	4		2017-01-05T05:45:33Z	2017-01-05T09:59:47Z		build: xz tarball extreme compression	122		
 10627	7455872	false	closed	false	2		2017-01-05T08:45:18Z	2017-01-05T09:51:49Z	2017-01-05T09:51:49Z	Node REPL instantaneous printing is weirdly displaying the Uint8Array content while setting them	59		
@@ -3844,11 +3844,14 @@
 10631	52195	true	open	false			2017-01-05T10:37:18Z	2017-01-05T16:21:31Z		doc: avoid memory leaks when writable.write() return false	65		
 10632	1101386	false	closed	false	2		2017-01-05T13:06:48Z	2017-01-05T16:07:49Z	2017-01-05T16:07:49Z	path.resolve() goes left to right, right?	33		
 10633	11979939	true	open	false	4		2017-01-05T14:59:52Z	2017-01-05T19:28:37Z		src: do not modify original argv array on AIX	70		
-10634	439929	false	open	false	0		2017-01-05T15:46:53Z	2017-01-05T15:46:53Z		url: track whatwg url issue #185 (non-special URL host)	38		
-10635	439929	false	open	false	0		2017-01-05T16:03:52Z	2017-01-05T16:03:52Z		url: track whatwg pr #175	41		
+10634	439929	false	open	false	1		2017-01-05T15:46:53Z	2017-01-05T20:45:00Z		url: track whatwg url issue #185 (non-special URL host)	38		
+10635	439929	false	open	false	1		2017-01-05T16:03:52Z	2017-01-05T20:44:14Z		url: track whatwg pr #175	41		
 10636	2512748	true	open	false			2017-01-05T17:27:27Z	2017-01-05T18:48:58Z		test: improve module version mismatch error check	39		
-10637	899444	true	open	false	1		2017-01-05T18:10:17Z	2017-01-05T19:23:12Z		doc: mention cc-ing nodejs/python team for reviews	52		
+10637	899444	true	open	false	2		2017-01-05T18:10:17Z	2017-01-05T20:18:37Z		doc: mention cc-ing nodejs/python team for reviews	52		
 10638	439929	true	open	false	0	0	2017-01-05T18:27:27Z	2017-01-05T18:27:27Z		url: allow use of URL with http.request and https.request	45		
 10639	498775	true	open	false	3		2017-01-05T18:30:02Z	2017-01-05T19:48:35Z		v4.7.2 Proposal	66		
 10640	498775	true	open	false	3		2017-01-05T18:30:42Z	2017-01-05T19:48:20Z		v6.9.4 Proposal	66		
 10641	1265507	true	open	false	0	0	2017-01-05T19:05:09Z	2017-01-05T19:05:09Z		Improve spliceOne	33		
+10642	18743742	false	open	false	0		2017-01-05T20:09:28Z	2017-01-05T20:09:28Z		Separate V8 from node and chrome/chromium	22		
+10643	5690145	false	open	false	0		2017-01-05T20:48:28Z	2017-01-05T20:48:28Z		default secure context is not created with options passed to TLSSocket constructor	78		
+10644	5690145	false	open	false	0		2017-01-05T20:54:13Z	2017-01-05T20:54:13Z		"when SSL handshake is done ""secure"" instead of ""secureConnect"" event is emitted"	62		
