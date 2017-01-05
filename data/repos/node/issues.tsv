@@ -92,7 +92,7 @@
 2760	194482	false	closed	false	13		2015-09-09T07:12:46Z	2016-08-29T20:25:34Z	2015-09-09T09:46:00Z	--harmony_modules isn't working?	69		
 2763	5754074	false	closed	false	17		2015-09-09T08:09:41Z	2016-10-28T16:17:32Z	2015-09-21T06:56:36Z	"App crashes node4 ""Segmentation fault (core dumped)"""	20		
 2768	2993861	true	closed	false	52		2015-09-09T12:14:52Z	2016-08-28T20:07:36Z	2016-08-06T07:16:39Z	node: deprecate public access to `process.binding`	35		
-2783	75184	false	closed	false	37		2015-09-09T21:17:46Z	2016-08-03T09:18:39Z	2016-05-02T11:32:45Z	Compiling node v4.0.0 with OpenSSL 1.0.1 fails	473		
+2783	75184	false	closed	false	38		2015-09-09T21:17:46Z	2017-01-05T21:19:26Z	2016-05-02T11:32:45Z	Compiling node v4.0.0 with OpenSSL 1.0.1 fails	473		
 2794	1217541	false	closed	false	6		2015-09-10T12:04:58Z	2016-12-07T10:13:47Z	2015-09-11T03:15:56Z	crypto, bad decrypt 	103		
 2814	12448364	false	closed	false	14		2015-09-11T12:42:32Z	2016-11-17T17:06:28Z	2015-09-11T15:04:16Z	Cannot find module 'npmlog' after upgrading to NodeJS 4.0	39		
 2833	1211152	false	closed	false	29		2015-09-12T14:09:10Z	2016-07-29T19:13:35Z	2016-03-09T09:20:02Z	Node.js `crypto` and the WebCrypto API	150		
@@ -1181,7 +1181,7 @@
 7961	1495995	true	open	false	16		2016-08-03T14:20:49Z	2016-08-12T11:28:20Z		benchmark: add --format csv option	56		
 7962	275871	false	closed	false	6		2016-08-03T14:58:10Z	2016-12-14T16:19:02Z	2016-12-14T16:19:02Z	tls, lts: update root certs in v0.12?	73		
 7963	899444	true	closed	false	12		2016-08-03T17:50:51Z	2016-10-08T08:28:48Z	2016-08-08T20:48:54Z	deps: float gyp patch for long filenames	134		
-7964	439929	true	open	false			2016-08-03T17:53:52Z	2017-01-05T19:07:07Z		meta: deprecation policy	36		
+7964	439929	true	open	false	20		2016-08-03T17:53:52Z	2017-01-05T21:12:31Z		meta: deprecation policy	36		
 7965	11522163	false	open	false	2		2016-08-03T19:32:40Z	2016-08-12T00:50:47Z		readline will echo first line of input	149		
 7966	899444	true	open	false	4		2016-08-03T21:23:59Z	2016-08-03T22:00:50Z		doc: add @addaleax to the CTC	28		
 7967	4421720	true	open	false	5		2016-08-03T21:38:30Z	2016-08-05T19:45:35Z		tools: add .vscode folder to .gitignore	33		
@@ -3755,23 +3755,23 @@
 10542	1189785	true	open	false	3		2016-12-30T15:30:53Z	2017-01-03T03:11:46Z		test: improve the code in test-fs-access	63		
 10543	2512748	true	closed	false	6		2016-12-30T15:56:25Z	2017-01-02T18:51:07Z	2017-01-02T14:50:49Z	test: increase usage of assert.ifError()	29		
 10544	2512748	true	closed	false	2	0	2016-12-30T16:49:38Z	2017-01-02T14:57:44Z	2017-01-02T14:57:44Z	test: s/ASSERT/assert/	53	2512748	2017-01-02T14:57:44Z
-10545	17607	true	open	false	5		2016-12-30T17:17:29Z	2017-01-03T22:02:27Z		doc: new TLSSocket has no secure context options	51		
+10545	17607	true	open	false	6		2016-12-30T17:17:29Z	2017-01-05T21:06:49Z		doc: new TLSSocket has no secure context options	51		
 10546	15161981	true	open	false	1		2016-12-30T17:39:55Z	2016-12-30T20:28:48Z		deps: cherry-pick 224d37 from V8 upstream	20		
 10547	2512748	true	closed	false	1	0	2016-12-30T19:03:40Z	2017-01-02T15:13:47Z	2017-01-02T15:13:47Z	test: update test-cluster-shared-handle-bind-error	48	2512748	2017-01-02T15:13:47Z
 10548	2512748	true	closed	false	1	0	2016-12-30T20:47:44Z	2017-01-02T15:05:27Z	2017-01-02T15:05:27Z	test: avoid assigning this to variables	85	2512748	2017-01-02T15:05:27Z
 10549	439929	true	closed	false	2	0	2016-12-30T21:59:13Z	2017-01-03T18:24:54Z	2017-01-03T18:24:54Z	url: fix accidental filemode change	40		
 10550	2512748	true	closed	false	2	0	2016-12-30T23:42:04Z	2017-01-02T23:45:07Z	2017-01-02T23:45:07Z	test: use const for all require() calls	44	2512748	2017-01-02T23:45:07Z
-10551	13262488	true	closed	false	10		2016-12-31T04:16:00Z	2017-01-04T19:50:35Z	2017-01-03T06:04:46Z	Test revisions	42		
+10551	13262488	true	closed	false	10		2016-12-31T04:16:00Z	2017-01-05T21:16:42Z	2017-01-03T06:04:46Z	Test revisions	42		
 10552	4299420	true	closed	false	4		2016-12-31T07:14:29Z	2017-01-04T15:33:44Z	2017-01-04T06:40:18Z	url: TupleOrigin#toString use unicode by default	94		
 10553	10627527	true	open	false	0	0	2016-12-31T08:17:53Z	2016-12-31T08:17:53Z		V7.x_outsiderLazy	42		
 10554	170197	false	closed	false	2		2016-12-31T09:01:22Z	2017-01-03T23:36:14Z	2017-01-03T23:36:14Z	URL with Object.prototype.toString	27		
 10555	4065244	false	open	false	0		2016-12-31T10:27:15Z	2016-12-31T10:27:15Z		tls: secureConnect event will not be emitted if TLSSocket is created via constructor instead of tls.connect	57		
 10556	1189785	true	closed	false	6		2016-12-31T15:53:31Z	2017-01-03T12:48:57Z	2017-01-03T12:48:57Z	test: improve the code in test-fs-read-stream	57		
 10557	400558	true	open	false	5		2016-12-31T16:58:36Z	2017-01-01T18:42:49Z		Optimize child_process IPC for large data	279		
-10558	54666	true	open	false			2016-12-31T21:53:37Z	2017-01-03T23:49:10Z		http: various performance improvements	2579		
+10558	54666	true	open	false	0		2016-12-31T21:53:37Z	2017-01-05T21:06:01Z		http: various performance improvements	2579		
 10559	54666	true	closed	false	1	0	2017-01-01T02:53:28Z	2017-01-05T07:52:09Z	2017-01-05T07:52:09Z	benchmark: keep decimals in results	48	54666	2017-01-05T07:52:09Z
 10560	13608139	false	open	false	0		2017-01-01T05:19:26Z	2017-01-01T05:19:26Z		npm start gives many errors	16		
-10561	718899	true	open	false	3		2017-01-01T06:03:06Z	2017-01-03T14:53:41Z		tools: update ESLint to current version	133		
+10561	718899	true	open	false	4		2017-01-01T06:03:06Z	2017-01-05T21:03:04Z		tools: update ESLint to current version	133		
 10562	439929	true	open	false	3		2017-01-01T07:19:40Z	2017-01-03T23:30:07Z		url: set toStringTag for the URL class	34		
 10563	24838796	false	closed	false	2		2017-01-01T09:34:53Z	2017-01-05T02:52:48Z	2017-01-01T14:52:37Z	get 'dump ended with error (set phase) => Error: read ECONNRESET' error,	67		
 10564	5640348	true	open	false	0	0	2017-01-01T13:14:41Z	2017-01-01T13:14:41Z		Update License	64		
@@ -3830,13 +3830,13 @@
 10617	17607	false	open	false	4		2017-01-04T20:34:11Z	2017-01-05T00:02:18Z		errors and contradictions in docs for process.stdout/stderr	773		
 10618	9373002	true	closed	false	4		2017-01-04T20:38:38Z	2017-01-05T19:45:33Z	2017-01-05T19:45:33Z	test: mark test-tty-wrap as flaky for AIX	53		
 10619	18743742	false	open	false	3		2017-01-04T23:01:06Z	2017-01-05T13:59:42Z		console.log speed issue	134		
-10620	439929	true	open	false	7		2017-01-04T23:44:03Z	2017-01-05T18:05:10Z		doc: add basic documentation for WHATWG URL API	28		
+10620	439929	true	open	false			2017-01-04T23:44:03Z	2017-01-05T21:31:32Z		doc: add basic documentation for WHATWG URL API	28		
 10621	13374460	false	open	false	0		2017-01-05T00:18:06Z	2017-01-05T00:18:06Z		`readFileSync` Appears  Un-synchronous or Fails on Raspberry Pi 3	161		
 10622	11262165	true	open	false	1		2017-01-05T00:51:59Z	2017-01-05T04:49:34Z		test: refactor test-crypto-padding-eas256	42		
 10623	13093042	true	open	false	1		2017-01-05T00:58:42Z	2017-01-05T01:26:51Z		tracing: fix TracingController cleanup	110		
-10624	1189785	true	open	false			2017-01-05T03:32:40Z	2017-01-05T20:13:25Z		test: improve code in test-fs-write-file-sync	46		
+10624	1189785	true	open	false	1		2017-01-05T03:32:40Z	2017-01-05T21:44:32Z		test: improve code in test-fs-write-file-sync	46		
 10625	4299420	false	open	false	12		2017-01-05T04:00:13Z	2017-01-05T18:21:43Z		meta, url: track WHATWG URL implementation in GitHub project	118		
-10626	3691490	true	open	false	4		2017-01-05T05:45:33Z	2017-01-05T09:59:47Z		build: xz tarball extreme compression	122		
+10626	3691490	true	open	false	6		2017-01-05T05:45:33Z	2017-01-05T21:54:45Z		build: xz tarball extreme compression	122		
 10627	7455872	false	closed	false	2		2017-01-05T08:45:18Z	2017-01-05T09:51:49Z	2017-01-05T09:51:49Z	Node REPL instantaneous printing is weirdly displaying the Uint8Array content while setting them	59		
 10628	2352663	true	open	false	5		2017-01-05T08:49:32Z	2017-01-05T19:06:19Z		src: separate trace_event_common from trace_event	50		
 10629	3691490	false	open	false	0		2017-01-05T09:14:28Z	2017-01-05T09:14:28Z		build: introduce zopfli compression	628		
@@ -3855,3 +3855,6 @@
 10642	18743742	false	open	false	0		2017-01-05T20:09:28Z	2017-01-05T20:09:28Z		Separate V8 from node and chrome/chromium	22		
 10643	5690145	false	open	false	0		2017-01-05T20:48:28Z	2017-01-05T20:48:28Z		default secure context is not created with options passed to TLSSocket constructor	78		
 10644	5690145	false	open	false	0		2017-01-05T20:54:13Z	2017-01-05T20:54:13Z		"when SSL handshake is done ""secure"" instead of ""secureConnect"" event is emitted"	62		
+10645	11630298	false	open	false	0		2017-01-05T21:25:03Z	2017-01-05T21:25:03Z		EADDRINUSE connect EADDRINUSE 127.0.0.1:<port number> error seen 	91		
+10646	1486340	false	open	false	0		2017-01-05T21:34:44Z	2017-01-05T21:34:44Z		test-child-process-uid-gid fails on FreeBSD	159		
+10647	2512748	true	open	false	0	0	2017-01-05T21:50:08Z	2017-01-05T21:50:08Z		test: allow testing uid and gid separately	51		
