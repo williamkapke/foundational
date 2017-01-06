@@ -354,7 +354,7 @@
 6354	3625244	false	closed	false	13		2016-04-23T07:44:20Z	2016-07-05T12:12:22Z	2016-04-23T08:21:56Z	Does make sense to upgrade V8 to 5.1?	34		
 6359	56582	true	open	false	12		2016-04-24T09:06:24Z	2017-01-06T20:05:09Z		debugger: Reduce global variables and expose some APIs for the debugger.	203		
 6374	1356314	true	closed	false	16		2016-04-25T15:57:37Z	2016-12-16T11:47:02Z	2016-04-26T15:52:49Z	crypto: Read OpenSSL config before init	136		
-6375	1093990	true	open	false			2016-04-25T17:23:13Z	2017-01-05T19:03:54Z		"lib,src: ""throw"" on unhandled promise rejections"	93		
+6375	1093990	true	open	false	85		2016-04-25T17:23:13Z	2017-01-06T21:21:55Z		"lib,src: ""throw"" on unhandled promise rejections"	93		
 6376	1131464	true	closed	false	47		2016-04-25T18:19:43Z	2016-07-13T06:43:47Z	2016-06-27T20:31:48Z	crypto: Allow GCM ciphers to have a longer IV length	61		
 6378	15952	true	closed	false	13	8	2016-04-25T19:52:42Z	2016-07-15T15:12:56Z	2016-07-15T15:12:56Z	doc: Warn against `uncaughtException` dependency.	59		
 6379	291301	false	open	false	36		2016-04-25T21:03:08Z	2016-08-09T09:51:03Z		stdout/stderr buffering considerations	333		
@@ -461,7 +461,7 @@
 6948	275871	true	closed	false	12		2016-05-24T10:01:34Z	2016-07-11T21:35:43Z	2016-05-25T07:57:47Z	src: add include guards to internal headers	24		
 6951	321966	true	closed	false	7		2016-05-24T12:27:44Z	2016-07-12T14:40:15Z	2016-05-29T20:59:51Z	doc: buffers are not sent over IPC with a socket	67		
 6954	718899	false	closed	false	2		2016-05-24T15:49:55Z	2016-07-02T14:33:49Z	2016-07-02T14:33:49Z	Investigate flaky parallel/test-http-client-reject-chunked-with-content-length on smartos14-64	69		
-6956	1093990	true	open	false	20		2016-05-24T20:50:58Z	2017-01-06T19:36:28Z		timers: warn on overflowed timeout duration	66		
+6956	1093990	true	open	false	21		2016-05-24T20:50:58Z	2017-01-06T21:09:16Z		timers: warn on overflowed timeout duration	66		
 6957	899444	true	closed	false	6		2016-05-24T21:27:43Z	2016-06-30T23:28:00Z	2016-06-30T23:28:00Z	Backport 6907 to v4.x (console.* not working when running out of stack space)	40		
 6963	10919124	true	open	false	4		2016-05-25T06:58:54Z	2016-10-19T13:09:48Z		.gitigore: ignore AppCode's .idea folder	40		
 6967	2352663	true	closed	false	8		2016-05-25T10:42:47Z	2016-07-12T06:22:51Z	2016-05-26T07:51:26Z	test: add regression test for Proxy as vm context	48		
@@ -655,7 +655,7 @@
 7421	557590	true	closed	false	10		2016-06-25T18:49:22Z	2016-07-18T13:35:39Z	2016-07-18T13:35:39Z	Backport 7176 for v6.x (buffer: fix creating from zero-length ArrayBuffer)	49		
 7422	718899	true	closed	false	12		2016-06-25T22:21:41Z	2016-07-12T01:06:11Z	2016-06-29T05:30:02Z	test: test isFullWidthCodePoint with invalid input	63		
 7423	20147093	false	closed	false	9		2016-06-26T01:57:03Z	2016-10-07T14:42:48Z	2016-10-07T14:42:47Z	23.0 mb 02/29/2016 not unistalling after I accidentally clicked uninstall right before restarting.	6		
-7425	899444	true	open	false	21		2016-06-26T04:30:59Z	2017-01-06T21:01:01Z		stream: support decoding buffers for Writables	137		
+7425	899444	true	open	false	22		2016-06-26T04:30:59Z	2017-01-06T21:10:18Z		stream: support decoding buffers for Writables	137		
 7426	238531	false	closed	false	7		2016-06-26T06:26:37Z	2016-06-27T18:11:56Z	2016-06-27T18:11:56Z	OpenSSL windows asm question	92		
 7427	238531	true	closed	false	16		2016-06-26T07:57:12Z	2016-09-03T09:20:32Z	2016-06-27T18:11:40Z	deps: `MASM.UseSafeExceptionHandlers` for OpenSSL	90		
 7429	4134127	false	open	false	21		2016-06-26T10:53:21Z	2016-10-19T19:03:13Z		getting this when trying to run ghost blog on arm64	2474		
@@ -2334,7 +2334,7 @@
 9113	718899	true	closed	false	9		2016-10-15T22:09:52Z	2016-12-21T22:15:42Z	2016-10-20T05:22:26Z	test,lib,benchmark: match function names	98		
 9114	131406	false	closed	false	5		2016-10-16T11:07:08Z	2016-10-16T22:24:21Z	2016-10-16T22:24:21Z	node 6.8: mips-arch-variant not applied everywhere in v8 dep	53		
 9115	103052	true	closed	false	24		2016-10-16T11:20:13Z	2016-12-13T21:05:02Z	2016-11-18T16:32:23Z	src: squelch unused function warnings in util.h 	37		
-9116	3001791	true	open	false	35		2016-10-16T12:54:47Z	2017-01-06T20:06:01Z		http: defines all the fields in the constructor	57		
+9116	3001791	true	open	false	36		2016-10-16T12:54:47Z	2017-01-06T21:12:25Z		http: defines all the fields in the constructor	57		
 9117	793830	false	open	false	5		2016-10-16T15:24:15Z	2016-10-21T12:04:03Z		Why does Buffer get reported as being a Uint8Array?	110		
 9118	12378597	false	closed	false	1		2016-10-16T15:41:52Z	2016-10-17T03:25:56Z	2016-10-16T17:07:09Z	Proxy deleteProperty throws TypeError when returning false	72		
 9119	22550884	true	closed	false	3		2016-10-16T16:15:45Z	2016-10-18T22:46:49Z	2016-10-18T22:46:49Z	Fix test debug agent	16		
@@ -2595,7 +2595,7 @@
 9374	718899	true	closed	false	9		2016-10-31T04:36:24Z	2016-11-22T19:38:39Z	2016-11-03T20:27:38Z	repl: refactor lib/repl.js	52		
 9375	696611	true	closed	false	6		2016-10-31T12:13:16Z	2016-12-20T23:52:49Z	2016-11-05T09:38:27Z	build: start comments at beginning of line	70		
 9376	495647	true	open	false	1		2016-10-31T13:03:05Z	2016-11-01T20:21:58Z		crypto: initial LibreSSL support (WIP)	730		
-9377	7402787	false	closed	false	56		2016-10-31T13:32:55Z	2017-01-05T11:47:06Z	2016-11-06T10:38:10Z	Error: Cannot find module 'internal/fs' when npm install on mac	102		
+9377	7402787	false	closed	false	56		2016-10-31T13:32:55Z	2017-01-06T22:08:41Z	2016-11-06T10:38:10Z	Error: Cannot find module 'internal/fs' when npm install on mac	102		
 9378	3973850	false	open	false	24		2016-10-31T13:37:45Z	2016-11-21T05:28:37Z		readdirSync of drive letter lists items of cwd	107		
 9379	1573141	true	closed	false	3		2016-10-31T14:10:42Z	2016-11-01T19:09:16Z	2016-11-01T19:09:16Z	doc: fs: fix link to mkdtemp	39		
 9380	900690	false	open	false	5		2016-10-31T15:27:32Z	2016-11-01T01:19:50Z		fs.writeFile() removes execute permissions from file	135		
@@ -2836,7 +2836,7 @@
 9615	17704638	true	open	false	13		2016-11-15T11:53:23Z	2017-01-05T15:04:33Z		benchmark: remove %OptimizeFunctionOnNextCall	138		
 9616	8297234	true	open	false	3		2016-11-15T11:59:55Z	2016-11-18T17:38:43Z		test: run tests even if os.cpus() fails	58		
 9617	2864371	false	closed	false	11		2016-11-15T15:09:09Z	2016-12-23T10:36:02Z	2016-12-08T14:19:27Z	How to detect debug mode	22		
-9618	2352663	true	open	false	34		2016-11-15T16:14:06Z	2017-01-06T20:07:28Z		deps: update V8 to 5.5	53		
+9618	2352663	true	open	false	35		2016-11-15T16:14:06Z	2017-01-06T21:46:56Z		deps: update V8 to 5.5	53		
 9619	1093990	true	closed	false	3	0	2016-11-15T17:25:04Z	2016-11-18T21:20:13Z	2016-11-18T21:20:12Z	0.12 npm@2 update to latest (v2.15.11)	50	1093990	2016-11-18T21:20:12Z
 9620	17607	true	closed	false	5	0	2016-11-15T17:57:55Z	2016-11-18T17:29:21Z	2016-11-18T17:29:21Z	doc: strip trailing whitespace	32	17607	2016-11-18T17:29:21Z
 9621	635591	false	open	false	4		2016-11-15T18:16:35Z	2016-11-16T09:35:00Z		Feature request: API for debugging node child processes	191		
@@ -3046,7 +3046,7 @@
 9825	9373002	false	closed	false	3		2016-11-28T14:56:08Z	2016-12-05T20:27:52Z	2016-12-05T20:27:52Z	AIX: v4x-staging - object factory test failures	412		
 9826	20808551	false	open	false	7		2016-11-28T16:22:15Z	2016-11-28T18:11:14Z		cordova installation failed 	34		
 9827	6487691	true	closed	false	8		2016-11-28T18:52:28Z	2016-12-06T18:54:37Z	2016-12-05T20:27:27Z	build: Don't regenerate node->out/*/node symlink if already there	284		
-9828	855219	true	closed	false	17	1	2016-11-28T19:29:09Z	2017-01-06T20:39:39Z	2017-01-06T20:39:38Z	deps: backport fix to v8 bug in toUpper('ç')	59		
+9828	855219	true	closed	false	17		2016-11-28T19:29:09Z	2017-01-06T21:13:17Z	2017-01-06T20:39:38Z	deps: backport fix to v8 bug in toUpper('ç')	59		
 9829	11214	false	open	false	9		2016-11-28T19:38:38Z	2016-12-13T18:11:28Z		maxBuffer default too small	112		
 9830	2352663	false	closed	false	6		2016-11-28T21:37:52Z	2016-12-05T10:14:09Z	2016-12-05T10:14:09Z	Segmentation fault	321		
 9831	7834613	true	closed	false	2		2016-11-28T21:59:05Z	2017-01-06T18:18:05Z	2017-01-06T18:18:05Z	http: remove stale timeout listeners	94		
@@ -3330,7 +3330,7 @@
 10109	175530	true	closed	false	1		2016-12-04T06:45:43Z	2016-12-05T06:11:03Z	2016-12-05T06:11:03Z	doc: add link to `net.Server` in tls.md	70		
 10110	11262165	true	closed	false	1	0	2016-12-04T07:17:31Z	2016-12-05T00:29:58Z	2016-12-05T00:29:58Z	test: refactor test-fs-append-file	57		
 10111	332968	true	closed	false	10		2016-12-04T08:51:19Z	2016-12-08T15:01:16Z	2016-12-08T15:01:16Z	http: verify method is a string	90		
-10112	1108065	true	open	false	5		2016-12-04T13:39:03Z	2017-01-06T18:17:05Z		doc: corrected vcbuild parameters for testing on windows	72		
+10112	1108065	true	closed	false	7		2016-12-04T13:39:03Z	2017-01-06T22:04:27Z	2017-01-06T18:44:08Z	doc: corrected vcbuild parameters for testing on windows	72		
 10113	16144158	true	closed	false	4		2016-12-04T17:57:21Z	2016-12-05T00:19:17Z	2016-12-05T00:19:17Z	fs: 'O_SYMLINK' property on constant variable	77		
 10114	432351	true	closed	false	2		2016-12-04T18:04:31Z	2016-12-09T07:35:35Z	2016-12-09T07:35:35Z	tools: add macosx-firewall script to avoid popups	132		
 10115	16144158	true	closed	false	3	0	2016-12-04T20:13:02Z	2016-12-05T21:56:59Z	2016-12-05T21:56:59Z	console: Updated var declarations to let/const	49		
@@ -3686,7 +3686,7 @@
 10471	2352663	true	closed	false	1		2016-12-27T13:16:55Z	2016-12-27T20:05:48Z	2016-12-27T20:05:48Z	v4.x: backport test: refactor test-crypto-binary-default	6		
 10472	16020076	true	closed	false	4	3	2016-12-27T17:09:32Z	2016-12-28T20:42:36Z	2016-12-28T20:42:36Z	os.js nodejs core library changes	77		
 10473	924465	true	open	false	1		2016-12-27T17:51:50Z	2016-12-27T18:37:17Z		dgram: improve Socket docs and invalid arg behavior	271		
-10474	592149	true	open	false	1		2016-12-27T19:39:26Z	2017-01-05T17:55:38Z		fix: setting timeout propagates to sockets	48		
+10474	592149	true	open	false	1		2016-12-27T19:39:26Z	2017-01-06T21:31:22Z		fix: setting timeout propagates to sockets	48		
 10475	470626	false	closed	false	1		2016-12-27T21:06:45Z	2016-12-28T09:01:23Z	2016-12-28T09:01:23Z	Compile error: InspectorProtocol.cpp:23:5: error: 'snprintf' is not a member of 'std'	106		
 10476	3743662	false	open	false	0		2016-12-27T21:07:39Z	2016-12-27T21:07:39Z		Arguments object scope not maintained within inner functions when using function shorthand ()	77		
 10477	158390	true	closed	false	5		2016-12-27T23:32:19Z	2016-12-31T22:29:11Z	2016-12-31T22:29:11Z	test, win32: fix up symlink tests	166		
@@ -3773,7 +3773,7 @@
 10558	54666	true	open	false			2016-12-31T21:53:37Z	2017-01-06T07:23:36Z		http: various performance improvements	2579		
 10559	54666	true	closed	false	1	0	2017-01-01T02:53:28Z	2017-01-05T07:52:09Z	2017-01-05T07:52:09Z	benchmark: keep decimals in results	48	54666	2017-01-05T07:52:09Z
 10560	13608139	false	open	false	0		2017-01-01T05:19:26Z	2017-01-01T05:19:26Z		npm start gives many errors	16		
-10561	718899	true	open	false	5		2017-01-01T06:03:06Z	2017-01-05T23:57:43Z		tools: update ESLint to current version	133		
+10561	718899	true	open	false	6		2017-01-01T06:03:06Z	2017-01-06T21:42:33Z		tools: update ESLint to current version	133		
 10562	439929	true	open	false	3		2017-01-01T07:19:40Z	2017-01-03T23:30:07Z		url: set toStringTag for the URL class	34		
 10563	24838796	false	closed	false	2		2017-01-01T09:34:53Z	2017-01-05T02:52:48Z	2017-01-01T14:52:37Z	get 'dump ended with error (set phase) => Error: read ECONNRESET' error,	67		
 10564	5640348	true	open	false	0	0	2017-01-01T13:14:41Z	2017-01-01T13:14:41Z		Update License	64		
@@ -3826,7 +3826,7 @@
 10611	899444	true	closed	false	1		2017-01-04T16:50:44Z	2017-01-06T17:17:23Z	2017-01-06T17:17:23Z	test: minor cleanup in test-fs-*-buffer tests	39		
 10612	24845478	false	open	false	7		2017-01-04T16:54:57Z	2017-01-05T18:05:19Z		util.inspect for Uint8Array should print hex	99		
 10613	696611	true	open	false	0	0	2017-01-04T17:21:56Z	2017-01-04T17:21:56Z		test: Revert add option to use node in path	78		
-10614	7455872	true	open	false	0	0	2017-01-04T17:27:55Z	2017-01-04T17:27:55Z		Changes to http.md	22		
+10614	7455872	true	open	false	3		2017-01-04T17:27:55Z	2017-01-06T22:02:35Z		Changes to http.md	22		
 10615	439929	true	open	false	3		2017-01-04T18:26:33Z	2017-01-04T18:34:26Z		url: ensure host setter matches parse for file url	132		
 10616	17607	true	open	false	0	0	2017-01-04T18:42:37Z	2017-01-04T18:42:37Z		Sort requires	23		
 10617	17607	false	open	false	4		2017-01-04T20:34:11Z	2017-01-05T00:02:18Z		errors and contradictions in docs for process.stdout/stderr	773		
@@ -3860,7 +3860,7 @@
 10645	11630298	false	open	false	0		2017-01-05T21:25:03Z	2017-01-05T21:25:03Z		EADDRINUSE connect EADDRINUSE 127.0.0.1:<port number> error seen 	91		
 10646	1486340	false	open	false	1		2017-01-05T21:34:44Z	2017-01-06T00:21:21Z		test-child-process-uid-gid fails on FreeBSD	159		
 10647	2512748	true	open	false	0		2017-01-05T21:50:08Z	2017-01-06T15:12:12Z		test: allow testing uid and gid separately	51		
-10648	1189785	true	open	false	1		2017-01-05T22:40:03Z	2017-01-06T15:11:04Z		test: improve code in test-https-strict	46		
+10648	1189785	true	open	false	1		2017-01-05T22:40:03Z	2017-01-06T21:54:16Z		test: improve code in test-https-strict	46		
 10649	1486340	false	open	false	0		2017-01-06T00:03:53Z	2017-01-06T09:41:32Z		Bundled zlib is compiled despite the --shared-zlib configure-flag	104		
 10650	24947163	false	open	false	1		2017-01-06T00:16:34Z	2017-01-06T07:27:41Z		inspect reserved keyword for class function	91		
 10651	15161981	true	open	false	5		2017-01-06T00:20:27Z	2017-01-06T20:12:10Z		"""--"" after ""-e <script>"" means end-of-options"	69		
@@ -3877,7 +3877,8 @@
 10662	718899	false	open	false	0		2017-01-06T17:28:02Z	2017-01-06T17:28:02Z		Collaborator nominations	109		
 10663	439929	true	open	false			2017-01-06T18:37:35Z	2017-01-06T20:09:04Z		meta: add references to DCO and CoC to issue/pr templates	61		
 10664	2512748	true	open	false			2017-01-06T18:45:47Z	2017-01-06T19:49:20Z		lib: remove pointless uses of arguments	43		
-10665	498775	true	open	false	0	0	2017-01-06T19:09:05Z	2017-01-06T19:09:05Z		"docs: ""s/git apply/git am -3"" in V8 guide"	18		
+10665	498775	true	open	false			2017-01-06T19:09:05Z	2017-01-06T21:14:27Z		"docs: ""s/git apply/git am -3"" in V8 guide"	18		
 10666	498775	true	open	false	0	0	2017-01-06T20:18:15Z	2017-01-06T20:18:15Z		Filter left trimmer v6.x	17		
-10667	1189785	true	open	false	0	0	2017-01-06T20:24:02Z	2017-01-06T20:24:02Z		test: improve the code in test-process-hrtime	59		
+10667	1189785	true	open	false	0		2017-01-06T20:24:02Z	2017-01-06T21:31:10Z		test: improve the code in test-process-hrtime	59		
 10668	498775	true	open	false	0	0	2017-01-06T20:29:36Z	2017-01-06T20:29:36Z		Filter left trimmer v4.x	97		
+10669	3320261	true	open	false	0	0	2017-01-06T21:14:57Z	2017-01-06T21:14:57Z		doc: update BUILDING.md	17		
