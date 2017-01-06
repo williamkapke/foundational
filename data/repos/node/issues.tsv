@@ -120,7 +120,7 @@
 3098	639601	true	closed	false	15		2015-09-28T03:35:50Z	2016-06-30T12:31:35Z	2016-05-19T11:01:44Z	src: fix linking when built as shared library	192		
 3101	7358595	false	closed	false	11		2015-09-28T11:07:40Z	2016-09-26T13:20:14Z	2015-09-28T12:34:09Z	Destructuring Assignment doesn't work in node v 4.1.0 for me	52		
 3105	452298	false	closed	false	6		2015-09-28T17:02:34Z	2016-07-13T06:35:23Z	2016-07-13T06:35:23Z	Generators are not providing the right line:col for the error message	116		
-3145	369698	false	open	false	14		2015-10-01T12:26:52Z	2017-01-06T00:38:38Z		child_process IPC is very slow, about 100-10000x slower than I expected (scales with msg size)	213		
+3145	369698	false	open	false	16		2015-10-01T12:26:52Z	2017-01-06T01:07:02Z		child_process IPC is very slow, about 100-10000x slower than I expected (scales with msg size)	213		
 3159	131406	false	open	false	6		2015-10-02T13:49:38Z	2016-10-11T07:16:08Z		please provide a way to use system-installed root certificates instead of bundled ones	82		
 3164	8023447	false	closed	false	7		2015-10-03T03:28:07Z	2016-12-14T07:55:50Z	2015-10-03T16:26:02Z	State of ES6/ES7 in node/v8?	175		
 3179	8974489	false	closed	false	18		2015-10-05T10:13:45Z	2016-10-06T10:19:34Z	2016-06-07T20:59:21Z	node compile failure on Solaris 11.2 and gcc 4.8 (undefined std::isnan)	266		
@@ -3755,7 +3755,7 @@
 10542	1189785	true	open	false	3		2016-12-30T15:30:53Z	2017-01-03T03:11:46Z		test: improve the code in test-fs-access	63		
 10543	2512748	true	closed	false	6		2016-12-30T15:56:25Z	2017-01-02T18:51:07Z	2017-01-02T14:50:49Z	test: increase usage of assert.ifError()	29		
 10544	2512748	true	closed	false	2	0	2016-12-30T16:49:38Z	2017-01-02T14:57:44Z	2017-01-02T14:57:44Z	test: s/ASSERT/assert/	53	2512748	2017-01-02T14:57:44Z
-10545	17607	true	open	false	6		2016-12-30T17:17:29Z	2017-01-05T21:06:49Z		doc: new TLSSocket has no secure context options	51		
+10545	17607	true	open	false	6		2016-12-30T17:17:29Z	2017-01-06T01:51:14Z		doc: new TLSSocket has no secure context options	51		
 10546	15161981	true	open	false	1		2016-12-30T17:39:55Z	2016-12-30T20:28:48Z		deps: cherry-pick 224d37 from V8 upstream	20		
 10547	2512748	true	closed	false	1	0	2016-12-30T19:03:40Z	2017-01-02T15:13:47Z	2017-01-02T15:13:47Z	test: update test-cluster-shared-handle-bind-error	48	2512748	2017-01-02T15:13:47Z
 10548	2512748	true	closed	false	1	0	2016-12-30T20:47:44Z	2017-01-02T15:05:27Z	2017-01-02T15:05:27Z	test: avoid assigning this to variables	85	2512748	2017-01-02T15:05:27Z
@@ -3794,11 +3794,11 @@
 10581	718899	true	closed	false	9		2017-01-03T01:26:48Z	2017-01-06T00:57:21Z	2017-01-06T00:57:21Z	test: refactor beforeExit tests	64		
 10582	82626	true	open	false	1		2017-01-03T01:43:32Z	2017-01-03T16:08:59Z		doc: update writable.write return value	27		
 10583	1189785	true	open	false	3		2017-01-03T03:06:10Z	2017-01-03T16:07:42Z		test: improve the code in test-util-debug.js	50		
-10584	718899	true	open	false			2017-01-03T04:02:23Z	2017-01-06T00:58:07Z		doc: add test naming information to guide	52		
+10584	718899	true	open	false	0		2017-01-03T04:02:23Z	2017-01-06T01:02:46Z		doc: add test naming information to guide	52		
 10585	718899	true	open	false			2017-01-03T04:30:02Z	2017-01-03T16:01:33Z		doc: edit writing-tests.md	34		
 10586	498775	true	closed	false	4		2017-01-03T04:31:29Z	2017-01-03T18:49:16Z	2017-01-03T18:49:16Z	doc: update TheAlphaNerd to MylesBorins	25		
 10587	13260877	false	open	false	0		2017-01-03T05:28:39Z	2017-01-03T05:28:39Z		Wrap custom inspect hook in try/catch within util.js	250		
-10588	718899	true	open	false			2017-01-03T06:29:58Z	2017-01-03T15:53:45Z		test: refactor test-stream-transform-object	44		
+10588	718899	true	open	false			2017-01-03T06:29:58Z	2017-01-06T01:09:44Z		test: refactor test-stream-transform-object	44		
 10589	677994	true	closed	false	3	0	2017-01-03T06:33:40Z	2017-01-04T18:36:55Z	2017-01-04T18:36:55Z	v7.4.0 release proposal	1710	677994	2017-01-04T18:36:55Z
 10590	199179	false	open	false	0		2017-01-03T09:10:49Z	2017-01-03T09:10:49Z		Confusing http.Agent documentation: keep-alive on by default or not?	210		
 10591	12598261	true	open	false			2017-01-03T12:29:16Z	2017-01-03T15:48:34Z		fs: update fs module	42		
@@ -3847,7 +3847,7 @@
 10634	439929	false	open	false	1		2017-01-05T15:46:53Z	2017-01-05T20:45:00Z		url: track whatwg url issue #185 (non-special URL host)	38		
 10635	439929	false	open	false	1		2017-01-05T16:03:52Z	2017-01-05T20:44:14Z		url: track whatwg pr #175	41		
 10636	2512748	true	open	false			2017-01-05T17:27:27Z	2017-01-05T18:48:58Z		test: improve module version mismatch error check	39		
-10637	899444	true	open	false	2		2017-01-05T18:10:17Z	2017-01-05T20:18:37Z		doc: mention cc-ing nodejs/python team for reviews	52		
+10637	899444	true	closed	false	3	0	2017-01-05T18:10:17Z	2017-01-06T01:02:09Z	2017-01-06T01:02:09Z	doc: mention cc-ing nodejs/python team for reviews	52		
 10638	439929	true	open	false			2017-01-05T18:27:27Z	2017-01-05T22:36:13Z		url: allow use of URL with http.request and https.request	45		
 10639	498775	true	open	false	4		2017-01-05T18:30:02Z	2017-01-05T22:31:39Z		v4.7.2 Proposal	66		
 10640	498775	true	open	false	4		2017-01-05T18:30:42Z	2017-01-05T22:31:29Z		v6.9.4 Proposal	66		
@@ -3862,3 +3862,5 @@
 10649	1486340	false	open	false	0		2017-01-06T00:03:53Z	2017-01-06T00:03:53Z		Bundled zlib is compiled despite the --shared-zlib configure-flag	104		
 10650	24947163	false	open	false	0		2017-01-06T00:16:34Z	2017-01-06T00:16:34Z		inspect reserved keyword for class function	93		
 10651	15161981	true	open	false	0	0	2017-01-06T00:20:27Z	2017-01-06T00:20:27Z		"""--"" after ""-e <script>"" means end-of-options"	72		
+10652	899444	true	open	false	0	0	2017-01-06T01:04:27Z	2017-01-06T01:04:27Z		doc: mention cc-ing nodejs/url team for reviews	21		
+10653	899444	true	open	false	0	0	2017-01-06T01:23:46Z	2017-01-06T01:23:46Z		child_process: support Uint8Array input to methods	47		
