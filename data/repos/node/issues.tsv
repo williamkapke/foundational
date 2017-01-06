@@ -1638,7 +1638,7 @@
 8419	8774679	true	open	false	25		2016-09-06T10:48:43Z	2016-10-20T17:55:08Z		net: multiple listen() events fail silently	95		
 8420	1443911	true	closed	false	11		2016-09-06T11:39:49Z	2016-09-12T04:17:45Z	2016-09-12T04:17:45Z	url: fix off-by-one error in loop handling dots	52		
 8421	275871	false	closed	false	3		2016-09-06T14:48:40Z	2016-09-23T22:27:16Z	2016-09-23T22:27:16Z	fs: fs.watchFile() should not emit 'stop' event synchronously	45		
-8422	1093990	true	open	false			2016-09-06T15:52:10Z	2017-01-06T12:01:33Z		timers: do not expose .unref()._handle._list	63		
+8422	1093990	true	open	false			2016-09-06T15:52:10Z	2017-01-06T14:59:54Z		timers: do not expose .unref()._handle._list	63		
 8423	4421720	true	closed	false	4	0	2016-09-06T15:52:19Z	2016-09-22T20:48:13Z	2016-09-22T20:48:13Z	doc: add CTC meeting minutes 2016-08-24	33	4421720	2016-09-22T20:48:13Z
 8424	4421720	true	closed	false	2	2	2016-09-06T16:02:59Z	2016-09-12T15:03:23Z	2016-09-12T15:03:23Z	doc: add CTC meeting minutes 2016-08-31	27	4421720	2016-09-12T15:03:23Z
 8425	718899	false	closed	false	17		2016-09-06T17:57:12Z	2016-10-06T21:35:07Z	2016-10-06T21:35:07Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-09-07	467		
@@ -2834,7 +2834,7 @@
 9615	17704638	true	open	false	13		2016-11-15T11:53:23Z	2017-01-05T15:04:33Z		benchmark: remove %OptimizeFunctionOnNextCall	138		
 9616	8297234	true	open	false	3		2016-11-15T11:59:55Z	2016-11-18T17:38:43Z		test: run tests even if os.cpus() fails	58		
 9617	2864371	false	closed	false	11		2016-11-15T15:09:09Z	2016-12-23T10:36:02Z	2016-12-08T14:19:27Z	How to detect debug mode	22		
-9618	2352663	true	open	false	30		2016-11-15T16:14:06Z	2017-01-06T13:06:20Z		deps: update V8 to 5.5	53		
+9618	2352663	true	open	false	31		2016-11-15T16:14:06Z	2017-01-06T14:33:45Z		deps: update V8 to 5.5	53		
 9619	1093990	true	closed	false	3	0	2016-11-15T17:25:04Z	2016-11-18T21:20:13Z	2016-11-18T21:20:12Z	0.12 npm@2 update to latest (v2.15.11)	50	1093990	2016-11-18T21:20:12Z
 9620	17607	true	closed	false	5	0	2016-11-15T17:57:55Z	2016-11-18T17:29:21Z	2016-11-18T17:29:21Z	doc: strip trailing whitespace	32	17607	2016-11-18T17:29:21Z
 9621	635591	false	open	false	4		2016-11-15T18:16:35Z	2016-11-16T09:35:00Z		Feature request: API for debugging node child processes	191		
@@ -3752,7 +3752,7 @@
 10539	6487691	true	open	false			2016-12-30T13:08:59Z	2017-01-04T13:14:29Z		build: don't squash signal handlers with --shared	101		
 10540	15943089	false	open	false	1		2016-12-30T14:57:50Z	2016-12-30T15:40:24Z		AIX processes left on machines	508		
 10541	2512748	true	open	false	3		2016-12-30T15:11:40Z	2017-01-02T15:42:42Z		test: s/assert.notEqual()/assert.notStrictEqual()/	25		
-10542	1189785	true	open	false	3		2016-12-30T15:30:53Z	2017-01-06T13:56:34Z		test: improve the code in test-fs-access	63		
+10542	1189785	true	closed	false	4		2016-12-30T15:30:53Z	2017-01-06T14:58:17Z	2017-01-06T14:58:17Z	test: improve the code in test-fs-access	63		
 10543	2512748	true	closed	false	6		2016-12-30T15:56:25Z	2017-01-02T18:51:07Z	2017-01-02T14:50:49Z	test: increase usage of assert.ifError()	29		
 10544	2512748	true	closed	false	2	0	2016-12-30T16:49:38Z	2017-01-02T14:57:44Z	2017-01-02T14:57:44Z	test: s/ASSERT/assert/	53	2512748	2017-01-02T14:57:44Z
 10545	17607	true	open	false	6		2016-12-30T17:17:29Z	2017-01-06T01:51:14Z		doc: new TLSSocket has no secure context options	51		
@@ -3857,11 +3857,11 @@
 10644	5690145	false	open	false	0		2017-01-05T20:54:13Z	2017-01-05T20:54:13Z		"when SSL handshake is done ""secure"" instead of ""secureConnect"" event is emitted"	62		
 10645	11630298	false	open	false	0		2017-01-05T21:25:03Z	2017-01-05T21:25:03Z		EADDRINUSE connect EADDRINUSE 127.0.0.1:<port number> error seen 	91		
 10646	1486340	false	open	false	1		2017-01-05T21:34:44Z	2017-01-06T00:21:21Z		test-child-process-uid-gid fails on FreeBSD	159		
-10647	2512748	true	open	false	0	0	2017-01-05T21:50:08Z	2017-01-05T21:50:08Z		test: allow testing uid and gid separately	51		
-10648	1189785	true	open	false			2017-01-05T22:40:03Z	2017-01-06T03:18:45Z		test: improve code in test-https-strict	46		
+10647	2512748	true	open	false	0		2017-01-05T21:50:08Z	2017-01-06T15:12:12Z		test: allow testing uid and gid separately	51		
+10648	1189785	true	open	false	1		2017-01-05T22:40:03Z	2017-01-06T15:11:04Z		test: improve code in test-https-strict	46		
 10649	1486340	false	open	false	0		2017-01-06T00:03:53Z	2017-01-06T09:41:32Z		Bundled zlib is compiled despite the --shared-zlib configure-flag	104		
 10650	24947163	false	open	false	1		2017-01-06T00:16:34Z	2017-01-06T07:27:41Z		inspect reserved keyword for class function	91		
-10651	15161981	true	open	false			2017-01-06T00:20:27Z	2017-01-06T13:45:50Z		"""--"" after ""-e <script>"" means end-of-options"	69		
+10651	15161981	true	open	false			2017-01-06T00:20:27Z	2017-01-06T14:19:02Z		"""--"" after ""-e <script>"" means end-of-options"	69		
 10652	899444	true	open	false			2017-01-06T01:04:27Z	2017-01-06T08:03:14Z		doc: mention cc-ing nodejs/url team for reviews	21		
 10653	899444	true	open	false	0	0	2017-01-06T01:23:46Z	2017-01-06T01:23:46Z		child_process: support Uint8Array input to methods	47		
 10654	54666	true	open	false			2017-01-06T08:18:10Z	2017-01-06T12:00:29Z		http: improve ClientRequest constructor	102		
@@ -3869,3 +3869,4 @@
 10656	527245	false	open	false	0		2017-01-06T10:02:50Z	2017-01-06T10:02:50Z		Segfault (seems random)	162		
 10657	15943089	true	open	false	0	0	2017-01-06T10:11:14Z	2017-01-06T10:11:14Z		build: fix using shared zlib	31		
 10658	2105621	false	open	false	0		2017-01-06T10:12:33Z	2017-01-06T10:12:33Z		dova	6		
+10659	378984	false	open	false	0		2017-01-06T15:01:26Z	2017-01-06T15:01:26Z		Fatal error in ../deps/v8/src/api.cc, line 1051	165		
