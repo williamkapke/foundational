@@ -120,7 +120,7 @@
 3098	639601	true	closed	false	15		2015-09-28T03:35:50Z	2016-06-30T12:31:35Z	2016-05-19T11:01:44Z	src: fix linking when built as shared library	192		
 3101	7358595	false	closed	false	11		2015-09-28T11:07:40Z	2016-09-26T13:20:14Z	2015-09-28T12:34:09Z	Destructuring Assignment doesn't work in node v 4.1.0 for me	52		
 3105	452298	false	closed	false	6		2015-09-28T17:02:34Z	2016-07-13T06:35:23Z	2016-07-13T06:35:23Z	Generators are not providing the right line:col for the error message	116		
-3145	369698	false	open	false	14		2015-10-01T12:26:52Z	2016-07-08T19:52:51Z		child_process IPC is very slow, about 100-10000x slower than I expected (scales with msg size)	212		
+3145	369698	false	open	false	14		2015-10-01T12:26:52Z	2017-01-06T00:38:38Z		child_process IPC is very slow, about 100-10000x slower than I expected (scales with msg size)	213		
 3159	131406	false	open	false	6		2015-10-02T13:49:38Z	2016-10-11T07:16:08Z		please provide a way to use system-installed root certificates instead of bundled ones	82		
 3164	8023447	false	closed	false	7		2015-10-03T03:28:07Z	2016-12-14T07:55:50Z	2015-10-03T16:26:02Z	State of ES6/ES7 in node/v8?	175		
 3179	8974489	false	closed	false	18		2015-10-05T10:13:45Z	2016-10-06T10:19:34Z	2016-06-07T20:59:21Z	node compile failure on Solaris 11.2 and gcc 4.8 (undefined std::isnan)	266		
@@ -302,7 +302,7 @@
 5852	1231697	false	closed	false	9		2016-03-22T22:29:43Z	2016-12-22T20:27:36Z	2016-03-23T17:09:13Z	"zlib.createGunzip ""unknown compression method"""	40		
 5870	607109	false	closed	false	6		2016-03-23T17:01:39Z	2016-10-12T09:18:22Z	2016-10-12T09:18:22Z	child processes started with `--debug-brk` do not buffer messages	294		
 5893	200959	false	closed	false	16		2016-03-24T20:27:43Z	2016-10-30T18:43:09Z	2016-05-13T23:31:33Z	Native DNS caching for lookups	62		
-5900	7657959	false	open	false	35		2016-03-25T12:02:48Z	2016-07-13T05:29:23Z		Segmentation fault in node v5.*	191		
+5900	7657959	false	closed	false	36		2016-03-25T12:02:48Z	2017-01-06T00:28:45Z	2016-07-13T05:30:41Z	Segmentation fault in node v5.*	191		
 5904	275871	true	closed	false	17		2016-03-25T17:36:35Z	2016-07-12T14:07:16Z	2016-05-10T09:27:40Z	src: fix sporadic deadlock in SIGUSR1 handler	122		
 5958	3625244	true	closed	false	50		2016-03-30T17:34:00Z	2016-07-11T19:53:17Z	2016-05-13T15:37:10Z	repl: Copying tab characters into the repl calls tabComplete	90		
 5991	15197820	false	open	false	4		2016-04-01T04:10:50Z	2016-07-06T06:35:33Z		When I write áéíóú, process.stdout.write in Windows English version, process.stdout is closed	35		
@@ -3615,7 +3615,7 @@
 10402	983798	false	open	false	5		2016-12-22T00:47:08Z	2016-12-25T12:39:29Z		Windows installer can corrupt its npm installation	347		
 10403	495647	true	open	false	6		2016-12-22T01:04:46Z	2016-12-22T14:15:48Z		build: revert to pretty-print by default	525		
 10404	718899	true	closed	false	4	0	2016-12-22T01:57:55Z	2016-12-24T04:44:11Z	2016-12-24T04:44:11Z	test: fix flaky test-https-timeout	79		
-10405	45469	true	open	false	30		2016-12-22T03:36:12Z	2017-01-06T00:05:50Z		src: make `global` non-enumerable	119		
+10405	45469	true	open	false	32		2016-12-22T03:36:12Z	2017-01-06T00:09:17Z		src: make `global` non-enumerable	119		
 10406	13243875	false	open	false	5		2016-12-22T08:35:04Z	2016-12-22T20:05:08Z		Proxy Error wrapped Promise in debug mode	103		
 10407	275871	true	open	false	0	0	2016-12-22T09:13:59Z	2016-12-22T09:13:59Z		src: remove unused PROTOCOL_JSON array	15		
 10408	4299420	true	closed	false	12	15	2016-12-22T09:33:12Z	2016-12-30T00:03:46Z	2016-12-30T00:03:46Z	url: make WHATWG URL properties spec compliant	177		
@@ -3768,7 +3768,7 @@
 10555	4065244	false	open	false	0		2016-12-31T10:27:15Z	2016-12-31T10:27:15Z		tls: secureConnect event will not be emitted if TLSSocket is created via constructor instead of tls.connect	57		
 10556	1189785	true	closed	false	6		2016-12-31T15:53:31Z	2017-01-03T12:48:57Z	2017-01-03T12:48:57Z	test: improve the code in test-fs-read-stream	57		
 10557	400558	true	open	false	5		2016-12-31T16:58:36Z	2017-01-01T18:42:49Z		Optimize child_process IPC for large data	279		
-10558	54666	true	open	false	0		2016-12-31T21:53:37Z	2017-01-05T21:06:01Z		http: various performance improvements	2579		
+10558	54666	true	open	false	2		2016-12-31T21:53:37Z	2017-01-06T00:14:45Z		http: various performance improvements	2579		
 10559	54666	true	closed	false	1	0	2017-01-01T02:53:28Z	2017-01-05T07:52:09Z	2017-01-05T07:52:09Z	benchmark: keep decimals in results	48	54666	2017-01-05T07:52:09Z
 10560	13608139	false	open	false	0		2017-01-01T05:19:26Z	2017-01-01T05:19:26Z		npm start gives many errors	16		
 10561	718899	true	open	false	5		2017-01-01T06:03:06Z	2017-01-05T23:57:43Z		tools: update ESLint to current version	133		
@@ -3791,10 +3791,10 @@
 10578	4483844	false	open	false	0		2017-01-02T17:46:49Z	2017-01-02T17:46:49Z		URL generation prevents me from being able to reload DevTools	98		
 10579	7041728	true	open	false	9		2017-01-02T23:26:45Z	2017-01-04T19:10:03Z		assert: update comments	122		
 10580	54666	true	closed	false	7	16	2017-01-02T23:56:14Z	2017-01-05T08:02:53Z	2017-01-05T08:02:53Z	stream: skip chunk validation for Buffers	51	54666	2017-01-05T08:02:53Z
-10581	718899	true	open	false	9		2017-01-03T01:26:48Z	2017-01-05T06:16:20Z		test: refactor beforeExit tests	64		
+10581	718899	true	closed	false	9		2017-01-03T01:26:48Z	2017-01-06T00:57:21Z	2017-01-06T00:57:21Z	test: refactor beforeExit tests	64		
 10582	82626	true	open	false	1		2017-01-03T01:43:32Z	2017-01-03T16:08:59Z		doc: update writable.write return value	27		
 10583	1189785	true	open	false	3		2017-01-03T03:06:10Z	2017-01-03T16:07:42Z		test: improve the code in test-util-debug.js	50		
-10584	718899	true	open	false			2017-01-03T04:02:23Z	2017-01-03T16:05:42Z		doc: add test naming information to guide	52		
+10584	718899	true	open	false			2017-01-03T04:02:23Z	2017-01-06T00:58:07Z		doc: add test naming information to guide	52		
 10585	718899	true	open	false			2017-01-03T04:30:02Z	2017-01-03T16:01:33Z		doc: edit writing-tests.md	34		
 10586	498775	true	closed	false	4		2017-01-03T04:31:29Z	2017-01-03T18:49:16Z	2017-01-03T18:49:16Z	doc: update TheAlphaNerd to MylesBorins	25		
 10587	13260877	false	open	false	0		2017-01-03T05:28:39Z	2017-01-03T05:28:39Z		Wrap custom inspect hook in try/catch within util.js	250		
@@ -3856,7 +3856,9 @@
 10643	5690145	false	open	false	0		2017-01-05T20:48:28Z	2017-01-05T20:48:28Z		default secure context is not created with options passed to TLSSocket constructor	78		
 10644	5690145	false	open	false	0		2017-01-05T20:54:13Z	2017-01-05T20:54:13Z		"when SSL handshake is done ""secure"" instead of ""secureConnect"" event is emitted"	62		
 10645	11630298	false	open	false	0		2017-01-05T21:25:03Z	2017-01-05T21:25:03Z		EADDRINUSE connect EADDRINUSE 127.0.0.1:<port number> error seen 	91		
-10646	1486340	false	open	false	0		2017-01-05T21:34:44Z	2017-01-05T23:33:59Z		test-child-process-uid-gid fails on FreeBSD	159		
+10646	1486340	false	open	false	1		2017-01-05T21:34:44Z	2017-01-06T00:21:21Z		test-child-process-uid-gid fails on FreeBSD	159		
 10647	2512748	true	open	false	0	0	2017-01-05T21:50:08Z	2017-01-05T21:50:08Z		test: allow testing uid and gid separately	51		
 10648	1189785	true	open	false	0	0	2017-01-05T22:40:03Z	2017-01-05T22:40:03Z		test: improve code in test-https-strict	46		
 10649	1486340	false	open	false	0		2017-01-06T00:03:53Z	2017-01-06T00:03:53Z		Bundled zlib is compiled despite the --shared-zlib configure-flag	104		
+10650	24947163	false	open	false	0		2017-01-06T00:16:34Z	2017-01-06T00:16:34Z		inspect reserved keyword for class function	93		
+10651	15161981	true	open	false	0	0	2017-01-06T00:20:27Z	2017-01-06T00:20:27Z		"""--"" after ""-e <script>"" means end-of-options"	72		
