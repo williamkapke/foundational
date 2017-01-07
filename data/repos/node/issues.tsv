@@ -92,7 +92,7 @@
 2760	194482	false	closed	false	13		2015-09-09T07:12:46Z	2016-08-29T20:25:34Z	2015-09-09T09:46:00Z	--harmony_modules isn't working?	69		
 2763	5754074	false	closed	false	17		2015-09-09T08:09:41Z	2016-10-28T16:17:32Z	2015-09-21T06:56:36Z	"App crashes node4 ""Segmentation fault (core dumped)"""	20		
 2768	2993861	true	closed	false	52		2015-09-09T12:14:52Z	2016-08-28T20:07:36Z	2016-08-06T07:16:39Z	node: deprecate public access to `process.binding`	35		
-2783	75184	false	closed	false	41		2015-09-09T21:17:46Z	2017-01-07T13:54:16Z	2016-05-02T11:32:45Z	Compiling node v4.0.0 with OpenSSL 1.0.1 fails	473		
+2783	75184	false	closed	false	42		2015-09-09T21:17:46Z	2017-01-07T14:05:37Z	2016-05-02T11:32:45Z	Compiling node v4.0.0 with OpenSSL 1.0.1 fails	473		
 2794	1217541	false	closed	false	6		2015-09-10T12:04:58Z	2016-12-07T10:13:47Z	2015-09-11T03:15:56Z	crypto, bad decrypt 	103		
 2814	12448364	false	closed	false	14		2015-09-11T12:42:32Z	2016-11-17T17:06:28Z	2015-09-11T15:04:16Z	Cannot find module 'npmlog' after upgrading to NodeJS 4.0	39		
 2833	1211152	false	closed	false	29		2015-09-12T14:09:10Z	2016-07-29T19:13:35Z	2016-03-09T09:20:02Z	Node.js `crypto` and the WebCrypto API	150		
@@ -1660,7 +1660,7 @@
 8438	54666	false	closed	false	5		2016-09-08T02:30:21Z	2016-10-31T23:23:15Z	2016-10-31T23:23:15Z	v8 inspector Profiles page no longer loads	56		
 8439	2226267	false	closed	false	1		2016-09-08T06:45:46Z	2016-09-08T16:56:51Z	2016-09-08T16:56:51Z	when run node with --prof the `crypto.pbkdf2` will not loged in	103		
 8440	720065	false	closed	false	22		2016-09-08T08:29:41Z	2016-09-17T08:53:55Z	2016-09-17T08:53:55Z	Buffer.from not support SharedArrayBuffer	133		
-8441	1014367	false	closed	false	8		2016-09-08T09:00:13Z	2016-10-30T09:40:19Z	2016-09-22T07:56:42Z	"Error with let: ""Identifier '*' has already been declared"" on REPL"	148		
+8441	1014367	false	closed	false	9		2016-09-08T09:00:13Z	2017-01-07T14:47:03Z	2016-09-22T07:56:42Z	"Error with let: ""Identifier '*' has already been declared"" on REPL"	118		
 8442	731722	false	open	false	6		2016-09-08T09:18:05Z	2016-09-30T15:12:33Z		How do I implement `MyObject.inspect(depth, inspectOpts)`?	107		
 8443	6477435	false	open	false	14		2016-09-08T10:46:46Z	2016-11-25T16:04:59Z		Hotpatching modules leaks memory	164		
 8444	158641	false	closed	false	0		2016-09-08T13:49:07Z	2016-09-20T16:56:12Z	2016-09-20T16:56:12Z	path.relative method returns wrong path when UNC path is provided	54		
@@ -3837,7 +3837,7 @@
 10621	13374460	false	open	false	0		2017-01-05T00:18:06Z	2017-01-05T00:18:06Z		`readFileSync` Appears  Un-synchronous or Fails on Raspberry Pi 3	161		
 10622	11262165	true	open	false	1		2017-01-05T00:51:59Z	2017-01-05T04:49:34Z		test: refactor test-crypto-padding-eas256	42		
 10623	13093042	true	open	false	4		2017-01-05T00:58:42Z	2017-01-07T00:33:01Z		tracing: fix TracingController cleanup	110		
-10624	1189785	true	open	false			2017-01-05T03:32:40Z	2017-01-07T11:02:44Z		test: improve code in test-fs-write-file-sync	46		
+10624	1189785	true	open	false	1		2017-01-05T03:32:40Z	2017-01-07T14:59:11Z		test: improve code in test-fs-write-file-sync	46		
 10625	4299420	false	open	false	12		2017-01-05T04:00:13Z	2017-01-05T18:21:43Z		meta, url: track WHATWG URL implementation in GitHub project	118		
 10626	3691490	true	open	false	6		2017-01-05T05:45:33Z	2017-01-05T21:54:45Z		build: xz tarball extreme compression	122		
 10627	7455872	false	closed	false	2		2017-01-05T08:45:18Z	2017-01-05T09:51:49Z	2017-01-05T09:51:49Z	Node REPL instantaneous printing is weirdly displaying the Uint8Array content while setting them	59		
@@ -3888,4 +3888,4 @@
 10672	7567088	false	open	false	1		2017-01-07T00:37:14Z	2017-01-07T12:15:19Z		v8 debugger source url mismatch with workspaces in windows	206		
 10674	1746853	true	open	false	0	0	2017-01-07T04:13:40Z	2017-01-07T04:13:40Z		test: refactor of zlib-from-gzip-with-trailing-garbage	29		
 10675	718899	true	open	false	0		2017-01-07T05:43:24Z	2017-01-07T06:04:00Z		test: add test-cluster-worker-deprecated	52		
-10676	16308754	false	open	false	2		2017-01-07T12:03:57Z	2017-01-07T13:39:38Z		`readline.Interface#write` produces EINVAL error when writing '\n'	66		
+10676	16308754	false	closed	false	7		2017-01-07T12:03:57Z	2017-01-07T14:04:41Z	2017-01-07T14:04:41Z	`readline.Interface#write` produces EINVAL error when writing '\n'	66		
