@@ -1,10 +1,10 @@
 {
-  "words": 5391,
-  "comments": 87,
+  "words": 6128,
+  "comments": 94,
   "prs": {
-    "opened": 11,
-    "closed": 18,
-    "words": 5391
+    "opened": 16,
+    "closed": 20,
+    "words": 6128
   },
   "issues": {
     "opened": 0,
@@ -18,7 +18,15 @@
     "LTS": {"open":27},
     "NG": {"open":27},
     "TSC": {"open":56},
-    "abi-stable-node": {"open":24},
+    "abi-stable-node": {
+      "27": {"comments":1,"words":58,"pr":true},
+      "42": {"comments":0,"words":16,"pr":true,"opened":"2017-01-08T20:32:03Z","opener":"976081"},
+      "43": {"comments":0,"words":20,"pr":true,"opened":"2017-01-08T20:33:59Z","opener":"976081"},
+      "open": 26,
+      "words": 94,
+      "opened": 2,
+      "comments": 1
+    },
     "abi-stable-node-addon-examples": {"open":0},
     "api": {"open":8},
     "benchmarking": {"open":23},
@@ -31,7 +39,12 @@
     },
     "build-container-sync": {"open":1},
     "build-containers": {"open":1},
-    "citgm": {"open":47},
+    "citgm": {
+      "307": {"comments":0,"words":193,"opened":"2017-01-08T20:41:56Z","opener":"3408176","pr":true},
+      "open": 48,
+      "words": 193,
+      "opened": 1
+    },
     "code-and-learn": {"open":9},
     "collaboration": {"open":6},
     "contribution-slides": {"open":0},
@@ -82,16 +95,22 @@
     "logos": {"open":2},
     "membership": {"open":5},
     "nan": {
-      "286": {"comments":3,"words":100,"pr":true},
+      "286": {"comments":4,"words":156,"pr":true},
       "open": 31,
-      "words": 100,
-      "comments": 3
+      "words": 156,
+      "comments": 4
     },
     "node": {
       "2198": {"comments":1,"words":14,"pr":true},
       "2783": {"comments":1,"words":156,"pr":true},
       "5599": {"comments":2,"words":44,"pr":true},
+      "8977": {"comments":0,"words":66,"closed":"2017-01-08T21:16:08Z","closer":"2352663","pr":true},
+      "9013": {"comments":1,"words":4,"pr":true},
+      "9031": {"comments":1,"words":33,"pr":true},
       "9116": {"comments":4,"words":47,"pr":true},
+      "9165": {"comments":1,"words":188,"pr":true,"closed":"2017-01-08T20:37:10Z","closer":"2352663"},
+      "9175": {"comments":1,"words":26,"pr":true},
+      "9190": {"comments":1,"words":3,"pr":true},
       "9268": {"comments":1,"words":69,"pr":true,"closed":"2017-01-08T15:10:10Z","closer":"2352663"},
       "9310": {"comments":1,"words":7,"pr":true},
       "9320": {"comments":0,"words":157,"closed":"2017-01-08T19:28:22Z","closer":"2352663","pr":true},
@@ -129,11 +148,13 @@
       "10685": {"comments":3,"words":189,"pr":true,"opened":"2017-01-08T14:59:24Z","opener":"15943089"},
       "10686": {"comments":3,"words":136,"pr":true,"opened":"2017-01-08T15:16:21Z","opener":"15943089"},
       "10687": {"comments":5,"words":77,"pr":true,"opened":"2017-01-08T18:36:38Z","opener":"2352663"},
+      "10688": {"comments":0,"words":37,"pr":true,"opened":"2017-01-08T20:32:53Z","opener":"2352663"},
+      "10689": {"comments":0,"words":37,"pr":true,"opened":"2017-01-08T20:33:28Z","opener":"2352663"},
       "open": 1014,
-      "words": 4409,
-      "comments": 71,
-      "opened": 7,
-      "closed": 13
+      "words": 4803,
+      "comments": 76,
+      "opened": 9,
+      "closed": 15
     },
     "node-addon-examples": {"open":30},
     "node-chakracore": {
@@ -310,13 +331,15 @@
         "node/pulls/5599#271120531": 11,
         "http2/pulls/31": 31,
         "http2/pulls/24#271134908": 7,
-        "http2/pulls/24": 5
+        "http2/pulls/24": 5,
+        "node/issues/8977": 66
       },
       "opened": [
         "http2/pulls/31"
       ],
       "closed": [
-        "http2/pulls/24"
+        "http2/pulls/24",
+        "node/issues/8977"
       ]
     },
     "577562": {
@@ -330,7 +353,8 @@
       "id": "580251",
       "login": "unbalanced",
       "words": {
-        "nan/pulls/286#271161543": 46
+        "nan/pulls/286#271161543": 46,
+        "nan/pulls/286#271176908": 56
       }
     },
     "627123": {
@@ -361,6 +385,16 @@
       },
       "opened": [
         "node/pulls/10682"
+      ]
+    },
+    "781818": {
+      "id": "781818",
+      "login": "mrchief",
+      "words": {
+        "node/issues/9165": 185
+      },
+      "closed": [
+        "node/issues/9165"
       ]
     },
     "803674": {
@@ -405,6 +439,19 @@
       },
       "closed": [
         "node/issues/9533"
+      ]
+    },
+    "976081": {
+      "id": "976081",
+      "login": "gabrielschulhof",
+      "words": {
+        "abi-stable-node/pulls/42": 16,
+        "abi-stable-node/pulls/43": 20,
+        "abi-stable-node/pulls/27#271177500": 58
+      },
+      "opened": [
+        "abi-stable-node/pulls/42",
+        "abi-stable-node/pulls/43"
       ]
     },
     "988441": {
@@ -490,10 +537,19 @@
         "node/pulls/9400#271171805": 31,
         "node/pulls/9399#271171975": 5,
         "node/pulls/9327#271172766": 3,
-        "node/pulls/9310#271173243": 7
+        "node/pulls/9310#271173243": 7,
+        "node/pulls/9190#271175252": 3,
+        "node/pulls/10688": 37,
+        "node/pulls/10689": 37,
+        "node/pulls/9175#271177399": 26,
+        "node/pulls/9165#271177524": 3,
+        "node/pulls/9031#95088268": 33,
+        "node/pulls/9013#271179277": 4
       },
       "opened": [
-        "node/pulls/10687"
+        "node/pulls/10687",
+        "node/pulls/10688",
+        "node/pulls/10689"
       ]
     },
     "2376199": {
@@ -525,6 +581,16 @@
         "node/pulls/9116#271145356": 24,
         "node/pulls/9116#271145467": 11
       }
+    },
+    "3408176": {
+      "id": "3408176",
+      "login": "TheLarkInn",
+      "words": {
+        "citgm/issues/307": 193
+      },
+      "opened": [
+        "citgm/issues/307"
+      ]
     },
     "4299420": {
       "id": "4299420",
