@@ -138,6 +138,7 @@
 3402	595361	false	closed	false	202		2015-10-16T12:45:59Z	2016-12-04T15:34:28Z	2016-04-27T02:45:38Z	Don't resolve symlinks when requiring	120		
 3410	6677095	true	closed	false			2015-10-16T20:54:30Z	2016-09-23T13:18:56Z	2015-11-24T21:09:22Z	src: added big-endian check and support to UTF-16 encode	25		
 3431	1145335	false	closed	false	17		2015-10-19T07:06:43Z	2016-12-17T10:41:59Z	2015-10-20T03:03:33Z	Can not install nodejs 4 on Windows 7 64-bit	66		
+3449	333455	false	closed	false	13		2015-10-20T13:20:15Z	2017-01-09T00:05:19Z	2015-11-26T03:16:10Z	is it a bug? setting up process.env.TZ depends on order of execution.	54		
 3460	855219	false	open	false	57		2015-10-20T22:54:04Z	2016-08-01T16:52:49Z		"detect ""full-icu"" module"	95		
 3462	115237	false	closed	false	17		2015-10-21T00:03:57Z	2016-10-19T05:36:02Z	2015-10-21T16:40:43Z	btoa() and atob()	71		
 3469	900724	false	closed	false	13		2015-10-21T10:31:11Z	2017-01-06T15:48:54Z	2015-10-21T18:08:27Z	Can't run app with debugger: Error: listen EADDRINUSE :::5858	145		
@@ -3880,16 +3881,16 @@
 10664	2512748	true	open	false			2017-01-06T18:45:47Z	2017-01-06T19:49:20Z		lib: remove pointless uses of arguments	43		
 10665	498775	true	open	false			2017-01-06T19:09:05Z	2017-01-06T22:34:20Z		"docs: ""s/git apply/git am -3"" in V8 guide"	18		
 10666	498775	true	open	false	0	0	2017-01-06T20:18:15Z	2017-01-06T20:18:15Z		Filter left trimmer v6.x	17		
-10667	1189785	true	open	false	1		2017-01-06T20:24:02Z	2017-01-08T07:04:47Z		test: improve the code in test-process-hrtime	59		
+10667	1189785	true	open	false	2		2017-01-06T20:24:02Z	2017-01-08T23:43:12Z		test: improve the code in test-process-hrtime	59		
 10668	498775	true	open	false			2017-01-06T20:29:36Z	2017-01-07T18:43:25Z		Filter left trimmer v4.x	100		
 10669	3320261	true	open	false	0		2017-01-06T21:14:57Z	2017-01-06T23:12:58Z		doc: update BUILDING.md	17		
-10670	15943089	true	open	false			2017-01-06T22:52:23Z	2017-01-08T14:28:52Z		doc: document use of Refs: for references	92		
+10670	15943089	true	open	false	4		2017-01-06T22:52:23Z	2017-01-08T23:55:01Z		doc: document use of Refs: for references	92		
 10671	11638619	true	open	false	0		2017-01-07T00:34:31Z	2017-01-07T01:18:43Z		tools,test: enforce assert.ifError with lint rule	49		
 10672	7567088	false	open	false	1		2017-01-07T00:37:14Z	2017-01-07T12:15:19Z		v8 debugger source url mismatch with workspaces in windows	206		
 10674	1746853	true	open	false			2017-01-07T04:13:40Z	2017-01-07T16:17:09Z		test: refactor of zlib-from-gzip-with-trailing-garbage	29		
 10675	718899	true	open	false	0		2017-01-07T05:43:24Z	2017-01-07T06:04:00Z		test: add test-cluster-worker-deprecated	52		
 10676	16308754	false	closed	false	7		2017-01-07T12:03:57Z	2017-01-07T14:04:41Z	2017-01-07T14:04:41Z	`readline.Interface#write` produces EINVAL error when writing '\n'	66		
-10677	4923335	true	open	false	2		2017-01-07T15:32:54Z	2017-01-08T22:45:54Z		pipe: enable writev for pipe handles on Unix	153		
+10677	4923335	true	open	false			2017-01-07T15:32:54Z	2017-01-08T23:25:36Z		pipe: enable writev for pipe handles on Unix	153		
 10678	4299420	true	open	false			2017-01-07T16:47:54Z	2017-01-08T07:31:49Z		benchmark: compare WHATWG URL props with old API	186		
 10679	5655189	true	open	false	0		2017-01-07T17:43:22Z	2017-01-08T10:43:19Z		test: refactor test-watch-file.js	50		
 10680	4483844	false	open	false	0		2017-01-07T18:40:10Z	2017-01-07T19:05:50Z		What's the point of keeping `EventEmitter.init`?	85		
@@ -3897,7 +3898,7 @@
 10682	718899	true	open	false	2		2017-01-08T04:54:01Z	2017-01-08T06:40:44Z		lib: refactor crypto cipher/hash/curve getters	48		
 10683	11756943	false	open	false	0		2017-01-08T08:12:07Z	2017-01-08T08:12:07Z		how implement IPC in different node process?	9		
 10684	5655189	true	open	false	0		2017-01-08T08:38:10Z	2017-01-08T10:42:55Z		test: refactor the code of test-keep-alive.js	62		
-10685	15943089	true	open	false	3		2017-01-08T14:59:24Z	2017-01-08T22:29:14Z		test: convert var->const/let in tests	134		
+10685	15943089	true	open	false	4		2017-01-08T14:59:24Z	2017-01-08T23:03:51Z		test: convert var->const/let in tests	134		
 10686	15943089	true	open	false	0	0	2017-01-08T15:16:21Z	2017-01-08T15:16:21Z		doc: correct vcbuild options for windows testing	84		
 10687	2352663	true	open	false	2		2017-01-08T18:36:38Z	2017-01-08T19:28:23Z		doc: add note about max string length in buffer.toString	36		
 10688	2352663	true	open	false	0	0	2017-01-08T20:32:53Z	2017-01-08T20:32:53Z		v7.x: deps: cherry-pick baba152 from V8 upstream	37		
@@ -3909,3 +3910,5 @@
 10694	3367801	true	open	false	0	0	2017-01-08T21:57:58Z	2017-01-08T21:57:58Z		test: refactor test-http-abort-stream-end.js	35		
 10695	3367801	true	open	false	0	0	2017-01-08T22:05:26Z	2017-01-08T22:05:26Z		test: refactor test-https-loop-to-google.js	32		
 10696	3367801	true	open	false	0	0	2017-01-08T22:18:59Z	2017-01-08T22:18:59Z		Feature/refactor test doctool	32		
+10697	54666	false	open	false	0		2017-01-08T23:22:11Z	2017-01-08T23:22:11Z		vm: misleading language	78		
+10698	15943089	true	open	false	0	0	2017-01-08T23:33:46Z	2017-01-08T23:33:46Z		test, eslintrc: s/assert.equal/assert.strictEqual/	46		
