@@ -2251,7 +2251,7 @@
 9028	287917	true	closed	false	12		2016-10-11T16:39:50Z	2016-11-19T00:07:34Z	2016-10-26T16:45:21Z	inspector: use final API	83		
 9029	1093990	true	closed	false	3		2016-10-11T16:51:25Z	2016-10-11T21:03:41Z	2016-10-11T19:47:10Z	test,benchmark: fix lint errors on v6.x	59		
 9030	899444	true	open	false	5		2016-10-11T17:31:41Z	2016-10-11T19:43:18Z		v6.x backport: fs: make `SyncWriteStream` inherit from `Writable`	99		
-9031	114976	true	open	false			2016-10-11T18:03:04Z	2017-01-08T21:48:28Z		Fix error message for invalid http status code, fix tests.	99		
+9031	114976	true	open	false			2016-10-11T18:03:04Z	2017-01-09T04:54:41Z		Fix error message for invalid http status code, fix tests.	99		
 9032	275871	true	closed	false	14		2016-10-11T18:35:31Z	2016-11-21T17:47:04Z	2016-10-17T15:08:28Z	crypto: fix faulty logic in iv size check	46		
 9033	498775	true	closed	false	3	0	2016-10-11T19:19:24Z	2016-11-02T17:26:40Z	2016-11-02T17:26:40Z	test: mark test-child-process-uid-gid as flaky	50		
 9034	1093990	true	closed	false	9	0	2016-10-11T19:59:44Z	2016-10-12T20:13:01Z	2016-10-12T20:13:01Z	2016-10-11, Version 6.8.0 (Current)	13	1093990	2016-10-12T20:13:01Z
@@ -2903,7 +2903,7 @@
 9680	498775	true	open	false	0	0	2016-11-18T19:59:41Z	2016-11-18T19:59:41Z		(WIP) lib: fix beforeExit not working with -e	211		
 9681	54666	true	closed	false	4	0	2016-11-18T20:21:25Z	2016-11-22T08:01:17Z	2016-11-22T08:01:17Z	backport: http: fix connection upgrade checks	67		
 9682	54666	true	open	false	9		2016-11-18T20:42:20Z	2016-11-22T06:06:06Z		backport: cctest TAP output changes	47		
-9683	988441	true	open	false	7		2016-11-18T20:46:06Z	2017-01-08T17:13:44Z		fs: remove fs.read's string interface	125		
+9683	988441	true	open	false	8		2016-11-18T20:46:06Z	2017-01-09T04:59:25Z		fs: remove fs.read's string interface	125		
 9684	498775	false	closed	false	7		2016-11-18T20:49:05Z	2016-11-26T08:21:28Z	2016-11-26T08:21:28Z	tools/test.py should be able to get a full path to a test to manually run it	86		
 9685	1093990	true	closed	false	8		2016-11-18T20:53:51Z	2016-12-21T07:56:53Z	2016-11-22T17:29:42Z	timers: use consistent checks for canceled timers	123		
 9686	17607	true	closed	false	3		2016-11-18T21:45:45Z	2016-11-19T00:12:57Z	2016-11-18T21:53:03Z	crypto: fix faulty logic in iv size check	159		
@@ -3892,12 +3892,12 @@
 10676	16308754	false	closed	false	7		2017-01-07T12:03:57Z	2017-01-07T14:04:41Z	2017-01-07T14:04:41Z	`readline.Interface#write` produces EINVAL error when writing '\n'	66		
 10677	4923335	true	open	false			2017-01-07T15:32:54Z	2017-01-08T23:25:36Z		pipe: enable writev for pipe handles on Unix	153		
 10678	4299420	true	open	false			2017-01-07T16:47:54Z	2017-01-08T07:31:49Z		benchmark: compare WHATWG URL props with old API	186		
-10679	5655189	true	open	false	0		2017-01-07T17:43:22Z	2017-01-08T10:43:19Z		test: refactor test-watch-file.js	50		
+10679	5655189	true	open	false			2017-01-07T17:43:22Z	2017-01-09T04:12:44Z		test: refactor test-watch-file.js	50		
 10680	4483844	false	open	false	0		2017-01-07T18:40:10Z	2017-01-07T19:05:50Z		What's the point of keeping `EventEmitter.init`?	85		
 10681	1189785	true	open	false	1		2017-01-08T02:43:19Z	2017-01-09T02:08:18Z		test: improve the code in test-crypto-rsa-dsa	58		
 10682	718899	true	open	false	2		2017-01-08T04:54:01Z	2017-01-08T06:40:44Z		lib: refactor crypto cipher/hash/curve getters	48		
 10683	11756943	false	open	false	0		2017-01-08T08:12:07Z	2017-01-08T08:12:07Z		how implement IPC in different node process?	9		
-10684	5655189	true	open	false	0		2017-01-08T08:38:10Z	2017-01-08T10:42:55Z		test: refactor the code of test-keep-alive.js	62		
+10684	5655189	true	open	false			2017-01-08T08:38:10Z	2017-01-09T04:04:54Z		test: refactor the code of test-keep-alive.js	62		
 10685	15943089	true	open	false	4		2017-01-08T14:59:24Z	2017-01-08T23:03:51Z		test: convert var->const/let in tests	134		
 10686	15943089	true	open	false	0	0	2017-01-08T15:16:21Z	2017-01-08T15:16:21Z		doc: correct vcbuild options for windows testing	84		
 10687	2352663	true	open	false	2		2017-01-08T18:36:38Z	2017-01-08T19:28:23Z		doc: add note about max string length in buffer.toString	36		
@@ -3911,5 +3911,6 @@
 10695	3367801	true	open	false	0	0	2017-01-08T22:05:26Z	2017-01-08T22:05:26Z		test: refactor test-https-loop-to-google.js	32		
 10696	3367801	true	open	false	0	0	2017-01-08T22:18:59Z	2017-01-08T22:18:59Z		Feature/refactor test doctool	32		
 10697	54666	false	open	false	0		2017-01-08T23:22:11Z	2017-01-08T23:22:11Z		vm: misleading language	78		
-10698	15943089	true	open	false	0	0	2017-01-08T23:33:46Z	2017-01-08T23:33:46Z		test, eslintrc: s/assert.equal/assert.strictEqual/	46		
+10698	15943089	true	open	false	2		2017-01-08T23:33:46Z	2017-01-09T04:56:07Z		test, eslintrc: s/assert.equal/assert.strictEqual/	46		
 10699	1189785	true	open	false	0	0	2017-01-09T03:42:22Z	2017-01-09T03:42:22Z		test: improve test stream transform constructor	61		
+10700	3367801	true	open	false	0	0	2017-01-09T04:42:10Z	2017-01-09T04:42:10Z		test: refactor test-net-isip.js	29		
