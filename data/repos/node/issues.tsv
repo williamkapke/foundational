@@ -268,7 +268,7 @@
 5386	15943089	false	open	false	30		2016-02-23T14:33:55Z	2016-10-29T00:24:41Z		Intermittent test-tls-inception failure on windows	140		
 5387	3899684	true	open	false	7		2016-02-23T14:53:44Z	2017-01-06T19:22:38Z		tests: remove legacy regression test -> double pipe	151		
 5426	1197375	false	closed	false	12		2016-02-25T00:33:42Z	2016-07-15T17:39:28Z	2016-07-15T17:39:28Z	setTimeout() introduces artificial delay between ticks when doing synchronous work	245		
-5436	17198363	false	closed	false	23		2016-02-25T13:57:35Z	2016-12-14T16:01:53Z	2016-02-27T13:41:42Z	"http.get returns ""getaddrinfo ENOTFOUND"" error"	231		
+5436	17198363	false	closed	false	25		2016-02-25T13:57:35Z	2017-01-09T15:51:50Z	2016-02-27T13:41:42Z	"http.get returns ""getaddrinfo ENOTFOUND"" error"	231		
 5450	15943089	true	open	false	32		2016-02-26T12:44:41Z	2017-01-07T14:01:18Z		test: fix flaky tls-inception	43		
 5458	275871	true	closed	false	22		2016-02-26T21:01:17Z	2016-11-03T04:19:32Z	2016-10-25T11:16:57Z	src,tools: speed up startup by 2.5%	94		
 5500	54666	true	closed	false	8		2016-03-01T02:05:24Z	2016-09-20T07:17:02Z	2016-03-18T02:35:33Z	doc: fix crypto update() signatures	85		
@@ -840,7 +840,7 @@
 7611	899444	true	closed	false	4		2016-07-08T11:04:44Z	2016-09-09T10:44:17Z	2016-07-13T19:10:52Z	test,doc: clarify `buf.indexOf(num)` input range	71		
 7612	275871	true	closed	false	6		2016-07-08T11:15:21Z	2016-07-19T12:39:41Z	2016-07-18T09:00:27Z	deps: cherry-pick 1f53e42 from v8 upstream	64		
 7613	1093990	true	closed	false	3		2016-07-08T12:27:31Z	2016-08-30T19:09:01Z	2016-07-11T13:27:26Z	Fix tty tests	81		
-7614	1093990	false	open	false	2		2016-07-08T12:42:32Z	2016-07-12T10:41:37Z		Make test-http-full-response not depend on apachebench (ab)	38		
+7614	1093990	false	open	false	2		2016-07-08T12:42:32Z	2017-01-09T15:37:17Z		Make test-http-full-response not depend on apachebench (ab)	38		
 7615	275871	true	closed	false	7		2016-07-08T12:59:24Z	2016-07-19T09:03:37Z	2016-07-09T07:14:08Z	deps: update V8 to 5.1.281.75	25		
 7616	4949308	true	closed	false	6		2016-07-08T13:10:27Z	2016-08-08T20:12:53Z	2016-08-08T20:12:53Z	benchmark: Repair http chunked benchmark	116		
 7617	696611	true	closed	false	3	5	2016-07-08T14:34:35Z	2016-07-11T09:10:04Z	2016-07-11T09:10:04Z	tools: make the progress bar spacing consistent	87		
@@ -3691,7 +3691,7 @@
 10470	2352663	true	closed	false	2	0	2016-12-27T12:49:43Z	2016-12-27T20:06:49Z	2016-12-27T20:06:49Z	v4.x: backport test: refactor and fix test-dns	6		
 10471	2352663	true	closed	false	1		2016-12-27T13:16:55Z	2016-12-27T20:05:48Z	2016-12-27T20:05:48Z	v4.x: backport test: refactor test-crypto-binary-default	6		
 10472	16020076	true	closed	false	4	3	2016-12-27T17:09:32Z	2016-12-28T20:42:36Z	2016-12-28T20:42:36Z	os.js nodejs core library changes	77		
-10473	924465	true	open	false			2016-12-27T17:51:50Z	2017-01-09T14:46:24Z		"dgram: improve ""address"" parameter behavior in Socket.prototype.send"	293		
+10473	924465	true	open	false			2016-12-27T17:51:50Z	2017-01-09T15:11:03Z		"dgram: improve ""address"" parameter behavior in Socket.prototype.send"	293		
 10474	592149	true	open	false	5		2016-12-27T19:39:26Z	2017-01-09T14:10:59Z		fix: setting timeout propagates to sockets	48		
 10475	470626	false	closed	false	1		2016-12-27T21:06:45Z	2016-12-28T09:01:23Z	2016-12-28T09:01:23Z	Compile error: InspectorProtocol.cpp:23:5: error: 'snprintf' is not a member of 'std'	106		
 10476	3743662	false	open	false	0		2016-12-27T21:07:39Z	2016-12-27T21:07:39Z		Arguments object scope not maintained within inner functions when using function shorthand ()	77		
@@ -3757,7 +3757,7 @@
 10536	24838796	false	open	false	2		2016-12-30T09:55:06Z	2016-12-30T13:11:47Z		get error 'CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memory'	177		
 10537	432351	true	closed	false	3	2	2016-12-30T10:08:43Z	2017-01-06T19:17:23Z	2017-01-06T19:17:23Z	src: reduce test_inspector_socket_server output	147		
 10538	4065244	false	open	false	0		2016-12-30T11:48:25Z	2016-12-30T11:48:25Z		tls: inconsistency between doc and code for createSecureContext() options in TLSSocket constructor	109		
-10539	6487691	true	open	false			2016-12-30T13:08:59Z	2017-01-04T13:14:29Z		build: don't squash signal handlers with --shared	101		
+10539	6487691	true	open	false	3		2016-12-30T13:08:59Z	2017-01-09T15:12:51Z		build: don't squash signal handlers with --shared	101		
 10540	15943089	false	open	false	1		2016-12-30T14:57:50Z	2016-12-30T15:40:24Z		AIX processes left on machines	508		
 10541	2512748	true	closed	false	4	5	2016-12-30T15:11:40Z	2017-01-06T19:11:44Z	2017-01-06T19:11:44Z	test: s/assert.notEqual()/assert.notStrictEqual()/	25	2512748	2017-01-06T19:11:44Z
 10542	1189785	true	closed	false	4		2016-12-30T15:30:53Z	2017-01-06T14:58:17Z	2017-01-06T14:58:17Z	test: improve the code in test-fs-access	63		
@@ -3892,7 +3892,7 @@
 10671	11638619	true	open	false	0		2017-01-07T00:34:31Z	2017-01-07T01:18:43Z		tools,test: enforce assert.ifError with lint rule	49		
 10672	7567088	false	open	false	1		2017-01-07T00:37:14Z	2017-01-07T12:15:19Z		v8 debugger source url mismatch with workspaces in windows	206		
 10674	1746853	true	open	false			2017-01-07T04:13:40Z	2017-01-07T16:17:09Z		test: refactor of zlib-from-gzip-with-trailing-garbage	29		
-10675	718899	true	open	false	0		2017-01-07T05:43:24Z	2017-01-07T06:04:00Z		test: add test-cluster-worker-deprecated	52		
+10675	718899	true	open	false			2017-01-07T05:43:24Z	2017-01-09T15:12:18Z		test: add test-cluster-worker-deprecated	52		
 10676	16308754	false	closed	false	7		2017-01-07T12:03:57Z	2017-01-07T14:04:41Z	2017-01-07T14:04:41Z	`readline.Interface#write` produces EINVAL error when writing '\n'	66		
 10677	4923335	true	open	false			2017-01-07T15:32:54Z	2017-01-08T23:25:36Z		pipe: enable writev for pipe handles on Unix	153		
 10678	4299420	true	open	false			2017-01-07T16:47:54Z	2017-01-08T07:31:49Z		benchmark: compare WHATWG URL props with old API	186		
@@ -3924,4 +3924,9 @@
 10704	9124564	false	open	false	0		2017-01-09T12:23:07Z	2017-01-09T12:23:07Z		Crash using SNICallback over a netSocket	272		
 10705	25007505	false	open	false	0		2017-01-09T12:56:16Z	2017-01-09T13:05:53Z		Query does not work for node js	164		
 10706	238531	true	open	false	1		2017-01-09T13:44:01Z	2017-01-09T14:30:55Z		tls: do not crash on STARTTLS when OCSP requested	61		
-10707	1716463	true	open	false			2017-01-09T13:57:50Z	2017-01-09T14:57:06Z		test: skip test-icu-transcode if ICU is not present	57		
+10707	1716463	true	open	false			2017-01-09T13:57:50Z	2017-01-09T15:41:29Z		test: skip test-icu-transcode if ICU is not present	57		
+10708	4923335	true	open	false	0	0	2017-01-09T15:11:18Z	2017-01-09T15:11:18Z		doc: fix misleading language in vm docs	47		
+10709	25007505	false	open	false	0		2017-01-09T15:14:37Z	2017-01-09T15:14:37Z		Process exited with error code 199	65		
+10710	1794099	false	open	false	0		2017-01-09T15:48:50Z	2017-01-09T15:48:50Z		doc: missing negation in streams doc	59		
+10711	106150	false	open	false	0		2017-01-09T15:50:13Z	2017-01-09T15:50:13Z		Internal error in Node's debugger.  Please report this bug	73		
+10712	1794099	true	open	false	0	0	2017-01-09T15:54:16Z	2017-01-09T15:54:16Z		Fix missing negation	57		
