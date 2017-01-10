@@ -34,7 +34,7 @@
 1128	36662	false	open	false	17		2015-03-11T22:48:11Z	2016-08-29T14:15:29Z		feature request: a way to inspect what's in the event loop	137		
 1159	829734	true	closed	false	85		2015-03-15T22:38:28Z	2016-12-13T02:44:29Z	2015-07-08T12:32:14Z	workers: initial implementation	1656		
 1173	2924002	false	closed	false	16		2015-03-17T16:37:38Z	2016-11-23T06:28:44Z	2015-03-17T22:53:11Z	installation problem	178		
-1180	2414252	false	closed	false	17		2015-03-17T21:35:00Z	2017-01-10T10:06:35Z	2016-04-10T23:34:08Z	CreateReadStream doesn't close the file	104		
+1180	2414252	false	closed	false	19		2015-03-17T21:35:00Z	2017-01-10T12:17:40Z	2016-04-10T23:34:08Z	CreateReadStream doesn't close the file	104		
 1271	275871	false	open	false	17		2015-03-26T15:30:40Z	2016-12-29T17:06:56Z		timer,domain: timers don't maintain order after exception	63		
 1278	532414	false	closed	false	37		2015-03-26T19:55:14Z	2016-08-22T21:08:42Z	2016-02-12T21:20:04Z	Compressed packages	136		
 1374	10247	false	closed	false	16		2015-04-08T13:46:19Z	2016-10-21T07:20:28Z	2015-09-03T06:13:19Z	Fatal Error (Abort) creating string larger than 268435440 bytes	93		
@@ -420,7 +420,7 @@
 6695	498775	true	open	false	24		2016-05-11T17:51:09Z	2016-09-29T16:00:45Z		tools: fix lint tap reporter for Jenkins support	115		
 6700	9373002	true	closed	false	17		2016-05-11T22:01:54Z	2016-07-14T23:24:19Z	2016-05-13T13:28:40Z	test: add --repeat option to tools/test.py	142		
 6713	2677165	false	open	false	8		2016-05-12T13:36:49Z	2016-07-14T11:52:10Z		Allow setting maximum age for http Agent's keep-alive 	186		
-6724	19337225	false	closed	false	3		2016-05-13T01:38:31Z	2016-12-29T19:02:06Z	2016-12-29T19:02:06Z	segment fault when compile node 0.1x branch with gcc 6.1.1 in 64bit linux	94		
+6724	19337225	false	closed	false	3		2016-05-13T01:38:31Z	2017-01-10T12:23:11Z	2016-12-29T19:02:06Z	segment fault when compile node 0.1x branch with gcc 6.1.1 in 64bit linux	94		
 6726	718899	false	closed	false	3		2016-05-13T05:02:10Z	2016-07-02T02:40:44Z	2016-07-02T02:40:44Z	Investigate flaky test-stream2-readable-empty-buffer-no-eof on FreeBSD	13		
 6734	275871	true	closed	false	36		2016-05-13T09:37:53Z	2016-08-30T19:02:19Z	2016-06-29T11:52:38Z	src: print backtrace on fatal error	18		
 6738	275871	true	closed	false	5		2016-05-13T14:45:12Z	2016-08-09T20:28:25Z	2016-08-09T20:28:25Z	build: turn on -fno-delete-null-pointer-checks (v0.10)	30		
@@ -2908,7 +2908,7 @@
 9680	498775	true	open	false	0	0	2016-11-18T19:59:41Z	2016-11-18T19:59:41Z		(WIP) lib: fix beforeExit not working with -e	211		
 9681	54666	true	closed	false	4	0	2016-11-18T20:21:25Z	2016-11-22T08:01:17Z	2016-11-22T08:01:17Z	backport: http: fix connection upgrade checks	67		
 9682	54666	true	open	false	9		2016-11-18T20:42:20Z	2016-11-22T06:06:06Z		backport: cctest TAP output changes	47		
-9683	988441	true	open	false	8		2016-11-18T20:46:06Z	2017-01-09T04:59:25Z		fs: remove fs.read's string interface	125		
+9683	988441	true	closed	false	9	5	2016-11-18T20:46:06Z	2017-01-10T12:26:24Z	2017-01-10T12:26:24Z	fs: remove fs.read's string interface	125	988441	2017-01-10T12:26:24Z
 9684	498775	false	closed	false	7		2016-11-18T20:49:05Z	2016-11-26T08:21:28Z	2016-11-26T08:21:28Z	tools/test.py should be able to get a full path to a test to manually run it	86		
 9685	1093990	true	closed	false	8		2016-11-18T20:53:51Z	2016-12-21T07:56:53Z	2016-11-22T17:29:42Z	timers: use consistent checks for canceled timers	123		
 9686	17607	true	closed	false	3		2016-11-18T21:45:45Z	2016-11-19T00:12:57Z	2016-11-18T21:53:03Z	crypto: fix faulty logic in iv size check	159		
@@ -3651,7 +3651,7 @@
 10429	1189785	true	open	false	0		2016-12-23T19:02:59Z	2016-12-26T11:06:05Z		test: improve code in test-vm-symbols	48		
 10430	824632	false	closed	false	3		2016-12-23T19:20:28Z	2017-01-03T17:14:12Z	2017-01-03T17:14:12Z	require loading wrong module inside of a nested app	229		
 10431	718899	true	closed	false	7		2016-12-23T21:06:58Z	2016-12-31T06:34:18Z	2016-12-31T06:34:18Z	test: fix flaky test-http-client-timeout-with-data	125		
-10432	2387356	false	open	false	2		2016-12-23T21:32:58Z	2016-12-25T19:47:44Z		Prevent EMFILE	52		
+10432	2387356	false	closed	false	2		2016-12-23T21:32:58Z	2017-01-10T12:46:27Z	2017-01-10T12:46:27Z	Prevent EMFILE	52		
 10433	677994	true	closed	false	3		2016-12-23T22:07:01Z	2016-12-23T23:23:53Z	2016-12-23T23:23:53Z	process: improve performance of nextTick (v4.x backport)	62		
 10434	10070816	true	closed	false	0	0	2016-12-24T08:36:36Z	2016-12-26T12:49:58Z	2016-12-26T12:49:58Z	Fix a loose example in stream.md	6		
 10435	1296500	false	open	false	4		2016-12-24T13:16:23Z	2016-12-27T22:10:40Z		Node v4 not respect const scope in while block	53		
@@ -3921,7 +3921,7 @@
 10700	3367801	true	open	false	0		2017-01-09T04:42:10Z	2017-01-10T05:19:20Z		test: refactor test-net-isip.js	29		
 10701	3367801	true	open	false	0		2017-01-09T07:12:08Z	2017-01-09T23:13:57Z		test: refactor cluster-preload.js	37		
 10702	4337080	true	open	false			2017-01-09T07:28:24Z	2017-01-09T21:26:41Z		doc: keepAliveMsecs refers to an initial delay not interval	62		
-10703	24735504	false	open	false	0		2017-01-09T10:18:16Z	2017-01-09T10:18:16Z		"not support file URLs containing drive specifiers (e.g., ""file:///c:/path"")"	25		
+10703	24735504	false	open	false	0		2017-01-09T10:18:16Z	2017-01-10T12:05:11Z		"not support file URLs containing drive specifiers (e.g., ""file:///c:/path"")"	25		
 10704	9124564	false	open	false	0		2017-01-09T12:23:07Z	2017-01-09T12:23:07Z		Crash using SNICallback over a netSocket	272		
 10705	25007505	false	open	false	0		2017-01-09T12:56:16Z	2017-01-09T13:05:53Z		Query does not work for node js	164		
 10706	238531	true	open	false			2017-01-09T13:44:01Z	2017-01-10T01:58:13Z		tls: do not crash on STARTTLS when OCSP requested	61		
@@ -3938,3 +3938,5 @@
 10717	2512748	true	open	false	1		2017-01-09T22:14:37Z	2017-01-10T07:14:30Z		deps: upgrade libuv to 1.10.2	82		
 10718	442374	false	open	false	0		2017-01-10T03:54:50Z	2017-01-10T03:54:50Z		What is the Current branch considered?	77		
 10719	718899	true	closed	false	2	0	2017-01-10T06:27:56Z	2017-01-10T07:18:39Z	2017-01-10T07:18:39Z	WIP: lib: remove unnecessary bootstrap function?	56		
+10720	677994	true	open	false	0	0	2017-01-10T12:14:27Z	2017-01-10T12:14:27Z		doc: update LTS info for current releases	58		
+10721	4157827	false	open	false	0		2017-01-10T12:49:59Z	2017-01-10T12:49:59Z		Strange error about function	120		
