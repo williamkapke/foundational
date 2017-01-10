@@ -202,6 +202,7 @@
 4464	829734	false	open	false	11		2015-12-29T12:45:03Z	2016-12-20T23:18:31Z		https server should allow changing credentials dynamically	104		
 4482	178512	true	closed	false	30		2015-12-30T13:30:25Z	2016-07-28T21:58:08Z	2016-01-04T18:36:32Z	Http(s) Agent: handle errors on idle sockets	57		
 4500	6631828	false	closed	false	6		2015-12-31T14:09:00Z	2016-10-12T09:50:50Z	2016-10-12T09:50:50Z	Spawned process don't trigger close or exit event	118		
+4523	62512	true	open	false	12		2016-01-03T23:44:26Z	2017-01-10T07:19:34Z		Custom logger func	42		
 4528	677994	true	open	false	14		2016-01-04T12:26:41Z	2016-08-09T20:26:39Z		http: make path null in Agent#createSocket	34		
 4531	1372431	false	open	false	2		2016-01-04T19:11:53Z	2016-11-05T17:52:34Z		process.config.variables.arm_version incorrect in armv7	68		
 4545	6376965	false	closed	false	13		2016-01-06T00:59:50Z	2016-11-04T17:34:09Z	2016-01-18T15:01:02Z	DNS lookup failure dns.js:82	174		
@@ -2512,7 +2513,7 @@
 9285	312966	false	open	false	18		2016-10-25T23:46:57Z	2016-10-26T18:06:08Z		support for polling linux character device for incoming data	307		
 9286	17535	true	closed	false	7		2016-10-26T00:24:34Z	2016-11-04T21:53:14Z	2016-11-04T21:53:14Z	deps: upgrade npm to 3.10.9	167		
 9287	12198249	false	open	false	0		2016-10-26T06:14:08Z	2016-10-26T06:14:08Z		Edge.JS Could not load file or assembly or one of its dependencies	110		
-9288	18531045	false	open	false	1		2016-10-26T06:57:02Z	2016-10-26T11:36:49Z		inheritance of C/C++ Addons doesn't work	101		
+9288	18531045	false	open	false	2		2016-10-26T06:57:02Z	2017-01-10T07:26:18Z		inheritance of C/C++ Addons doesn't work	94		
 9289	1889843	true	closed	false	1		2016-10-26T07:48:13Z	2016-10-28T16:09:23Z	2016-10-28T16:09:23Z	buffer: use correct name for custom inspect symbol	54		
 9290	11976448	true	open	false	6		2016-10-26T09:39:22Z	2017-01-06T23:26:52Z		test: favor `===` over  `==` in fs-utimes	27		
 9291	22879652	true	open	false	0	0	2016-10-26T11:23:45Z	2016-10-26T11:23:45Z		nodej js project	47		
@@ -2842,7 +2843,7 @@
 9615	17704638	true	open	false	13		2016-11-15T11:53:23Z	2017-01-05T15:04:33Z		benchmark: remove %OptimizeFunctionOnNextCall	138		
 9616	8297234	true	open	false	3		2016-11-15T11:59:55Z	2016-11-18T17:38:43Z		test: run tests even if os.cpus() fails	58		
 9617	2864371	false	closed	false	11		2016-11-15T15:09:09Z	2016-12-23T10:36:02Z	2016-12-08T14:19:27Z	How to detect debug mode	22		
-9618	2352663	true	open	false	40		2016-11-15T16:14:06Z	2017-01-09T16:47:27Z		deps: update V8 to 5.5	53		
+9618	2352663	true	open	false	41		2016-11-15T16:14:06Z	2017-01-10T07:22:47Z		deps: update V8 to 5.5	53		
 9619	1093990	true	closed	false	3	0	2016-11-15T17:25:04Z	2016-11-18T21:20:13Z	2016-11-18T21:20:12Z	0.12 npm@2 update to latest (v2.15.11)	50	1093990	2016-11-18T21:20:12Z
 9620	17607	true	closed	false	5	0	2016-11-15T17:57:55Z	2016-11-18T17:29:21Z	2016-11-18T17:29:21Z	doc: strip trailing whitespace	32	17607	2016-11-18T17:29:21Z
 9621	635591	false	open	false	4		2016-11-15T18:16:35Z	2016-11-16T09:35:00Z		Feature request: API for debugging node child processes	191		
@@ -3541,7 +3542,7 @@
 10317	2352663	true	closed	false	22	5	2016-12-17T13:23:01Z	2017-01-01T10:03:05Z	2017-01-01T10:03:05Z	url: make WHATWG URL implementation more spec compliant	85	2352663	2017-01-01T10:03:05Z
 10318	1189785	true	closed	false	2	0	2016-12-17T16:11:38Z	2016-12-23T06:19:58Z	2016-12-23T06:19:57Z	test: improve code in test-http-bind-twice.js	52		
 10319	13561163	true	closed	false	5		2016-12-17T16:16:00Z	2016-12-21T14:59:34Z	2016-12-21T14:59:34Z	test: add known_issues test for #5350	95		
-10320	567540	true	open	false	9		2016-12-17T18:57:29Z	2017-01-04T17:26:59Z		doc: Deprecate old debug protocol	93		
+10320	567540	true	closed	false	11		2016-12-17T18:57:29Z	2017-01-10T07:32:08Z	2017-01-04T17:30:41Z	doc: Deprecate old debug protocol	93		
 10321	12075322	true	closed	false	3		2016-12-18T02:07:57Z	2016-12-23T01:25:53Z	2016-12-23T01:25:53Z	test: refactor stdin-script-child	54		
 10322	13561163	true	closed	false	2		2016-12-18T12:35:21Z	2016-12-18T20:58:47Z	2016-12-18T20:58:47Z	test: add known_issues test for #2734	64		
 10323	10393198	false	open	false	12		2016-12-18T15:02:40Z	2017-01-02T06:06:07Z		Possibly deoptimizing use of `arguments` in libs	332		
@@ -3859,7 +3860,7 @@
 10638	439929	true	closed	false	3		2017-01-05T18:27:27Z	2017-01-09T17:30:47Z	2017-01-09T17:30:47Z	url: allow use of URL with http.request and https.request	45		
 10639	498775	true	open	false	4		2017-01-05T18:30:02Z	2017-01-05T22:31:39Z		v4.7.2 Proposal	66		
 10640	498775	true	open	false	4		2017-01-05T18:30:42Z	2017-01-05T22:31:29Z		v6.9.4 Proposal	66		
-10641	1265507	true	open	false	0	0	2017-01-05T19:05:09Z	2017-01-05T19:05:09Z		Improve spliceOne	33		
+10641	1265507	true	open	false	0		2017-01-05T19:05:09Z	2017-01-10T07:16:56Z		Improve spliceOne	33		
 10642	18743742	false	open	false	0		2017-01-05T20:09:28Z	2017-01-05T20:09:28Z		Separate V8 from node and chrome/chromium	22		
 10643	5690145	false	open	false	0		2017-01-05T20:48:28Z	2017-01-05T20:48:28Z		default secure context is not created with options passed to TLSSocket constructor	78		
 10644	5690145	false	open	false	0		2017-01-05T20:54:13Z	2017-01-05T20:54:13Z		"when SSL handshake is done ""secure"" instead of ""secureConnect"" event is emitted"	62		
@@ -3885,18 +3886,18 @@
 10664	2512748	true	open	false			2017-01-06T18:45:47Z	2017-01-06T19:49:20Z		lib: remove pointless uses of arguments	43		
 10665	498775	true	open	false			2017-01-06T19:09:05Z	2017-01-06T22:34:20Z		"docs: ""s/git apply/git am -3"" in V8 guide"	18		
 10666	498775	true	open	false	0	0	2017-01-06T20:18:15Z	2017-01-06T20:18:15Z		Filter left trimmer v6.x	17		
-10667	1189785	true	open	false	2		2017-01-06T20:24:02Z	2017-01-08T23:43:12Z		test: improve the code in test-process-hrtime	59		
+10667	1189785	true	closed	false	3		2017-01-06T20:24:02Z	2017-01-10T07:52:32Z	2017-01-10T07:52:32Z	test: improve the code in test-process-hrtime	59		
 10668	498775	true	open	false			2017-01-06T20:29:36Z	2017-01-07T18:43:25Z		Filter left trimmer v4.x	100		
-10669	3320261	true	open	false	0		2017-01-06T21:14:57Z	2017-01-06T23:12:58Z		doc: update BUILDING.md	17		
-10670	15943089	true	open	false			2017-01-06T22:52:23Z	2017-01-09T17:15:00Z		doc: document use of Refs: for references	92		
+10669	3320261	true	closed	false	1		2017-01-06T21:14:57Z	2017-01-10T07:29:16Z	2017-01-10T07:29:16Z	doc: update BUILDING.md	17		
+10670	15943089	true	closed	false	5		2017-01-06T22:52:23Z	2017-01-10T07:27:33Z	2017-01-10T07:27:33Z	doc: document use of Refs: for references	92		
 10671	11638619	true	closed	false	1		2017-01-07T00:34:31Z	2017-01-09T17:24:30Z	2017-01-09T17:24:30Z	tools,test: enforce assert.ifError with lint rule	49		
 10672	7567088	false	open	false	1		2017-01-07T00:37:14Z	2017-01-07T12:15:19Z		v8 debugger source url mismatch with workspaces in windows	206		
 10674	1746853	true	closed	false	4		2017-01-07T04:13:40Z	2017-01-10T05:10:49Z	2017-01-10T05:10:49Z	test: refactor of zlib-from-gzip-with-trailing-garbage	29		
 10675	718899	true	closed	false	1		2017-01-07T05:43:24Z	2017-01-10T05:46:47Z	2017-01-10T05:46:47Z	test: add test-cluster-worker-deprecated	52		
 10676	16308754	false	closed	false	7		2017-01-07T12:03:57Z	2017-01-07T14:04:41Z	2017-01-07T14:04:41Z	`readline.Interface#write` produces EINVAL error when writing '\n'	66		
-10677	4923335	true	open	false	3		2017-01-07T15:32:54Z	2017-01-09T18:47:49Z		pipe: enable writev for pipe handles on Unix	171		
+10677	4923335	true	open	false	5		2017-01-07T15:32:54Z	2017-01-10T07:25:00Z		pipe: enable writev for pipe handles on Unix	171		
 10678	4299420	true	open	false			2017-01-07T16:47:54Z	2017-01-08T07:31:49Z		benchmark: compare WHATWG URL props with old API	186		
-10679	5655189	true	open	false	1		2017-01-07T17:43:22Z	2017-01-09T23:13:31Z		test: refactor test-watch-file.js	50		
+10679	5655189	true	closed	false	2		2017-01-07T17:43:22Z	2017-01-10T07:23:06Z	2017-01-10T07:23:06Z	test: refactor test-watch-file.js	50		
 10680	4483844	false	open	false	0		2017-01-07T18:40:10Z	2017-01-07T19:05:50Z		What's the point of keeping `EventEmitter.init`?	85		
 10681	1189785	true	open	false	3		2017-01-08T02:43:19Z	2017-01-09T17:17:21Z		test: improve the code in test-crypto-rsa-dsa	58		
 10682	718899	true	open	false	2		2017-01-08T04:54:01Z	2017-01-08T06:40:44Z		lib: refactor crypto cipher/hash/curve getters	48		
@@ -3934,6 +3935,6 @@
 10714	1189785	true	open	false			2017-01-09T17:29:24Z	2017-01-10T03:50:06Z		test: improve the code in test-process-cpuUsage	42		
 10715	15952	true	open	false	2		2017-01-09T17:59:21Z	2017-01-09T21:06:41Z		doc: update http.md for consistency	187		
 10716	17607	true	open	false	0	0	2017-01-09T20:37:20Z	2017-01-09T20:37:20Z		doc: specify sorted tests	37		
-10717	2512748	true	open	false	0		2017-01-09T22:14:37Z	2017-01-10T00:59:51Z		deps: upgrade libuv to 1.10.2	82		
+10717	2512748	true	open	false	1		2017-01-09T22:14:37Z	2017-01-10T07:14:30Z		deps: upgrade libuv to 1.10.2	82		
 10718	442374	false	open	false	0		2017-01-10T03:54:50Z	2017-01-10T03:54:50Z		What is the Current branch considered?	77		
-10719	718899	true	open	false	0	0	2017-01-10T06:27:56Z	2017-01-10T06:27:56Z		lib: remove unnecessary bootstrap function	56		
+10719	718899	true	closed	false	2	0	2017-01-10T06:27:56Z	2017-01-10T07:18:39Z	2017-01-10T07:18:39Z	WIP: lib: remove unnecessary bootstrap function?	56		
