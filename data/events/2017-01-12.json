@@ -1,10 +1,10 @@
 {
-  "words": 3213,
-  "comments": 78,
+  "words": 4457,
+  "comments": 86,
   "prs": {
-    "opened": 17,
-    "closed": 8,
-    "words": 3213
+    "opened": 19,
+    "closed": 10,
+    "words": 4457
   },
   "issues": {
     "opened": 0,
@@ -23,10 +23,14 @@
     "LTS": {"open":26},
     "NG": {"open":27},
     "TSC": {
+      "109": {"comments":1,"words":48,"pr":true},
+      "144": {"comments":3,"words":81,"pr":true},
       "192": {"comments":1,"words":20,"pr":true},
-      "open": 58,
-      "words": 20,
-      "comments": 1
+      "194": {"comments":0,"words":489,"opened":"2017-01-12T11:59:23Z","opener":"495647","pr":true},
+      "open": 59,
+      "words": 638,
+      "comments": 5,
+      "opened": 1
     },
     "abi-stable-node": {
       "45": {"comments":0,"words":123,"pr":true,"opened":"2017-01-12T07:53:15Z","opener":"13093042"},
@@ -45,7 +49,12 @@
     },
     "build-container-sync": {"open":1},
     "build-containers": {"open":1},
-    "citgm": {"open":55},
+    "citgm": {
+      "321": {"comments":0,"words":25,"pr":true,"opened":"2017-01-12T11:38:10Z","opener":"20224954"},
+      "open": 56,
+      "words": 25,
+      "opened": 1
+    },
     "code-and-learn": {"open":9},
     "collaboration": {"open":6},
     "community-committee": {
@@ -76,10 +85,10 @@
     "hardware": {"open":12},
     "help": {
       "429": {"comments":1,"words":14,"pr":true},
-      "441": {"comments":0,"words":88,"opened":"2017-01-12T03:31:53Z","opener":"10280768","pr":true},
+      "441": {"comments":1,"words":104,"opened":"2017-01-12T03:31:53Z","opener":"10280768","pr":true},
       "open": 82,
-      "words": 102,
-      "comments": 1,
+      "words": 118,
+      "comments": 2,
       "opened": 1
     },
     "http": {"open":14},
@@ -111,6 +120,7 @@
       "10619": {"comments":1,"words":22,"pr":true},
       "10620": {"comments":6,"words":171,"pr":true},
       "10625": {"comments":1,"words":12,"pr":true},
+      "10633": {"comments":1,"words":12,"pr":true},
       "10655": {"comments":1,"words":36,"pr":true},
       "10677": {"comments":2,"words":29,"pr":true},
       "10699": {"comments":1,"words":7,"pr":true},
@@ -139,26 +149,29 @@
       "10762": {"comments":0,"words":65,"pr":true,"opened":"2017-01-12T07:24:07Z","opener":"718899"},
       "10763": {"comments":0,"words":88,"opened":"2017-01-12T10:58:17Z","opener":"1205100","pr":true},
       "open": 1007,
-      "words": 2465,
-      "comments": 56,
+      "words": 2477,
+      "comments": 57,
       "closed": 6,
       "opened": 15
     },
     "node-addon-examples": {"open":30},
     "node-chakracore": {
-      "164": {"comments":4,"words":14,"pr":true},
+      "164": {"comments":4,"words":41,"pr":true,"closed":"2017-01-12T11:02:42Z","closer":"4390745"},
       "167": {"comments":1,"words":7,"pr":true},
-      "open": 43,
-      "words": 21,
-      "comments": 5
+      "open": 42,
+      "words": 48,
+      "comments": 5,
+      "closed": 1
     },
     "node-convergence-archive": {"open":6},
     "node-eps": {"open":22},
     "node-gyp": {
       "746": {"comments":1,"words":4,"pr":true},
-      "open": 232,
-      "words": 4,
-      "comments": 1
+      "1089": {"comments":1,"words":495,"pr":true,"closed":"2017-01-12T11:41:24Z","closer":"275871"},
+      "open": 231,
+      "words": 499,
+      "comments": 2,
+      "closed": 1
     },
     "node-v0.x-archive": {"open":595},
     "nodejs-ar": {"open":2},
@@ -201,12 +214,12 @@
     "nodejs-zh-TW": {"open":21},
     "nodejs.org": {
       "1084": {"comments":1,"words":6,"pr":true},
-      "1094": {"comments":5,"words":341,"pr":true},
+      "1094": {"comments":6,"words":392,"pr":true},
       "1098": {"comments":0,"words":12,"pr":true,"closed":"2017-01-12T08:45:04Z","closer":"1231635"},
       "open": 66,
-      "words": 359,
+      "words": 410,
       "closed": 1,
-      "comments": 6
+      "comments": 7
     },
     "nodejs.org-archive": {"open":12},
     "nodejs.org-new": {"open":2},
@@ -229,6 +242,16 @@
     "vm": {"open":3}
   },
   "users": {
+    "28737": {
+      "id": "28737",
+      "login": "evaisse",
+      "words": {
+        "node-gyp/issues/1089": 466
+      },
+      "closed": [
+        "node-gyp/issues/1089"
+      ]
+    },
     "35047": {
       "id": "35047",
       "login": "vielmetti",
@@ -287,14 +310,27 @@
         "node/pulls/10135#272058272": 19
       }
     },
+    "275871": {
+      "id": "275871",
+      "login": "bnoordhuis",
+      "words": {
+        "nodejs.org/pulls/1094#272138322": 51,
+        "help/pulls/441#272140836": 16,
+        "node-gyp/pulls/1089#272142717": 29
+      }
+    },
     "367236": {
       "id": "367236",
       "login": "jackTheRipper",
       "words": {
         "node-chakracore/pulls/164#95748753": 5,
         "node-chakracore/pulls/164#95748787": 1,
-        "node-chakracore/pulls/164#272134826": 2
-      }
+        "node-chakracore/pulls/164#272134826": 2,
+        "node-chakracore/pulls/164": 27
+      },
+      "closed": [
+        "node-chakracore/pulls/164"
+      ]
     },
     "439929": {
       "id": "439929",
@@ -318,6 +354,20 @@
       "opened": [
         "node/issues/10760",
         "node/issues/10761"
+      ]
+    },
+    "495647": {
+      "id": "495647",
+      "login": "rvagg",
+      "words": {
+        "TSC/pulls/144#95774250": 18,
+        "TSC/pulls/144#95774366": 6,
+        "TSC/pulls/144#272144246": 57,
+        "TSC/pulls/109#272145780": 48,
+        "TSC/issues/194": 489
+      },
+      "opened": [
+        "TSC/issues/194"
       ]
     },
     "514149": {
@@ -591,6 +641,13 @@
         "node/pulls/10758"
       ]
     },
+    "11979939": {
+      "id": "11979939",
+      "login": "hhellyer",
+      "words": {
+        "node/pulls/10633#272138856": 12
+      }
+    },
     "13093042": {
       "id": "13093042",
       "login": "jasongin",
@@ -638,6 +695,16 @@
       },
       "opened": [
         "node/pulls/10755"
+      ]
+    },
+    "20224954": {
+      "id": "20224954",
+      "login": "gdams",
+      "words": {
+        "citgm/pulls/321": 25
+      },
+      "opened": [
+        "citgm/pulls/321"
       ]
     },
     "24838796": {
