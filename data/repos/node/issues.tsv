@@ -1647,7 +1647,7 @@
 8419	8774679	true	open	false	25		2016-09-06T10:48:43Z	2016-10-20T17:55:08Z		net: multiple listen() events fail silently	95		
 8420	1443911	true	closed	false	11		2016-09-06T11:39:49Z	2016-09-12T04:17:45Z	2016-09-12T04:17:45Z	url: fix off-by-one error in loop handling dots	52		
 8421	275871	false	closed	false	3		2016-09-06T14:48:40Z	2016-09-23T22:27:16Z	2016-09-23T22:27:16Z	fs: fs.watchFile() should not emit 'stop' event synchronously	45		
-8422	1093990	true	open	false			2016-09-06T15:52:10Z	2017-01-06T16:40:44Z		timers: do not expose .unref()._handle._list	63		
+8422	1093990	true	open	false	10		2016-09-06T15:52:10Z	2017-01-12T16:16:11Z		timers: do not expose .unref()._handle._list	63		
 8423	4421720	true	closed	false	4	0	2016-09-06T15:52:19Z	2016-09-22T20:48:13Z	2016-09-22T20:48:13Z	doc: add CTC meeting minutes 2016-08-24	33	4421720	2016-09-22T20:48:13Z
 8424	4421720	true	closed	false	2	2	2016-09-06T16:02:59Z	2016-09-12T15:03:23Z	2016-09-12T15:03:23Z	doc: add CTC meeting minutes 2016-08-31	27	4421720	2016-09-12T15:03:23Z
 8425	718899	false	closed	false	17		2016-09-06T17:57:12Z	2016-10-06T21:35:07Z	2016-10-06T21:35:07Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-09-07	467		
@@ -2091,7 +2091,7 @@
 8863	441346	true	closed	false	6		2016-09-30T17:03:20Z	2016-10-07T02:31:59Z	2016-10-06T17:20:15Z	internal: fix TypeError in v8-polyfill	62		
 8864	441346	true	closed	false	7		2016-09-30T17:35:54Z	2016-10-04T12:55:15Z	2016-10-03T14:24:37Z	test: fix running child-process-uid-gid as root	57		
 8865	439929	false	closed	false	13		2016-09-30T18:10:59Z	2016-10-18T14:37:49Z	2016-10-07T16:33:56Z	Intl: Consider deprecating Intl.v8BreakIterator	74		
-8866	439929	false	open	false	15		2016-09-30T18:19:18Z	2017-01-06T03:25:36Z		Modules: Coordinating ESM implementation in Core	96		
+8866	439929	false	open	false	16		2016-09-30T18:19:18Z	2017-01-12T16:53:37Z		Modules: Coordinating ESM implementation in Core	96		
 8867	4069476	false	closed	false	4		2016-09-30T19:15:02Z	2016-10-03T10:55:08Z	2016-10-03T10:55:08Z	Cannot Build Node.js 6.7.0 on CorePure64 Tinycore Linux	361		
 8868	899444	true	open	false	0	0	2016-09-30T20:13:21Z	2016-09-30T20:13:21Z		v4.x backport: doc: use blockquotes for Stability: markers	7		
 8869	899444	true	open	false	0	0	2016-09-30T20:21:49Z	2016-09-30T20:21:49Z		v4.x backport: doc: add `added:` information for cluster	13		
@@ -2139,7 +2139,7 @@
 8911	15943089	false	closed	false	7		2016-10-03T17:12:39Z	2016-12-02T09:11:30Z	2016-10-07T14:56:40Z	Avoiding firewall warnings on macOS Sierra when built from source	51		
 8912	479538	false	closed	false	10		2016-10-03T19:50:58Z	2017-01-10T18:13:56Z	2017-01-10T18:13:56Z	Debugging: Stabilize hidden classes for improved heap snapshots	143		
 8913	479538	false	open	false	44		2016-10-03T19:58:01Z	2016-12-02T04:43:35Z		Debugging: name every function	95		
-8914	4268223	true	open	false	4		2016-10-03T21:15:45Z	2016-12-06T08:14:07Z		test: tests for _readableStream.awaitDrain	30		
+8914	4268223	true	open	false	4		2016-10-03T21:15:45Z	2017-01-12T16:13:41Z		test: tests for _readableStream.awaitDrain	30		
 8915	718899	false	closed	false	17		2016-10-03T21:59:48Z	2016-10-06T21:35:24Z	2016-10-06T21:35:24Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-10-05	462		
 8916	5704064	true	open	false	0	0	2016-10-03T22:08:06Z	2016-10-03T22:08:06Z		doc: correct grammar on major documents 	29		
 8917	176984	false	closed	false	5		2016-10-03T22:50:55Z	2016-10-04T16:23:15Z	2016-10-03T23:01:37Z	failed test: parallel/test-tick-processor-unknown (smartos16)	696		
@@ -3341,7 +3341,7 @@
 10113	16144158	true	closed	false	4		2016-12-04T17:57:21Z	2016-12-05T00:19:17Z	2016-12-05T00:19:17Z	fs: 'O_SYMLINK' property on constant variable	77		
 10114	432351	true	closed	false	2		2016-12-04T18:04:31Z	2016-12-09T07:35:35Z	2016-12-09T07:35:35Z	tools: add macosx-firewall script to avoid popups	132		
 10115	16144158	true	closed	false	3	0	2016-12-04T20:13:02Z	2016-12-05T21:56:59Z	2016-12-05T21:56:59Z	console: Updated var declarations to let/const	49		
-10116	439929	true	open	false			2016-12-04T21:10:15Z	2017-01-11T21:22:05Z		process: Add code to warnings, assign codes to deprecations	340		
+10116	439929	true	open	false			2016-12-04T21:10:15Z	2017-01-12T16:10:59Z		process: Add code to warnings, assign codes to deprecations	340		
 10117	439929	false	open	false	16		2016-12-05T02:31:15Z	2016-12-21T08:53:21Z		Node.js 8.0.0 Tracking Issue	69		
 10118	23263252	false	closed	false	3		2016-12-05T02:31:59Z	2016-12-05T07:18:37Z	2016-12-05T07:18:37Z	not able to write large data	283		
 10119	75209	false	open	false	7		2016-12-05T03:24:05Z	2016-12-16T05:06:41Z		Proposal: add a console.write method	91		
@@ -3839,7 +3839,7 @@
 10617	17607	false	open	false	4		2017-01-04T20:34:11Z	2017-01-05T00:02:18Z		errors and contradictions in docs for process.stdout/stderr	773		
 10618	9373002	true	closed	false	4		2017-01-04T20:38:38Z	2017-01-05T19:45:33Z	2017-01-05T19:45:33Z	test: mark test-tty-wrap as flaky for AIX	53		
 10619	18743742	false	open	false	4		2017-01-04T23:01:06Z	2017-01-12T06:19:04Z		console.log speed issue	134		
-10620	439929	true	open	false			2017-01-04T23:44:03Z	2017-01-12T06:20:01Z		doc: add basic documentation for WHATWG URL API	28		
+10620	439929	true	open	false	11		2017-01-04T23:44:03Z	2017-01-12T16:07:13Z		doc: add basic documentation for WHATWG URL API	28		
 10621	13374460	false	open	false	0		2017-01-05T00:18:06Z	2017-01-05T00:18:06Z		`readFileSync` Appears  Un-synchronous or Fails on Raspberry Pi 3	161		
 10622	11262165	true	closed	false	3		2017-01-05T00:51:59Z	2017-01-10T21:07:27Z	2017-01-10T21:07:27Z	test: refactor test-crypto-padding-aes256	42		
 10623	13093042	true	closed	false	5		2017-01-05T00:58:42Z	2017-01-07T15:45:27Z	2017-01-07T15:45:27Z	tracing: fix TracingController cleanup	110		
@@ -3854,7 +3854,7 @@
 10632	1101386	false	closed	false	2		2017-01-05T13:06:48Z	2017-01-05T16:07:49Z	2017-01-05T16:07:49Z	path.resolve() goes left to right, right?	33		
 10633	11979939	true	open	false	8		2017-01-05T14:59:52Z	2017-01-12T11:20:14Z		src: do not modify original argv array on AIX	70		
 10634	439929	false	open	false	1		2017-01-05T15:46:53Z	2017-01-05T20:45:00Z		url: track whatwg url issue #185 (non-special URL host)	38		
-10635	439929	false	open	false	1		2017-01-05T16:03:52Z	2017-01-05T20:44:14Z		url: track whatwg pr #175	41		
+10635	439929	false	open	false	1		2017-01-05T16:03:52Z	2017-01-12T16:41:12Z		url: track whatwg pr #175	41		
 10636	2512748	true	closed	false	1	2	2017-01-05T17:27:27Z	2017-01-09T17:07:03Z	2017-01-09T17:07:02Z	test: improve module version mismatch error check	39	2512748	2017-01-09T17:07:02Z
 10637	899444	true	closed	false	3	0	2017-01-05T18:10:17Z	2017-01-06T01:02:09Z	2017-01-06T01:02:09Z	doc: mention cc-ing nodejs/python team for reviews	52		
 10638	439929	true	closed	false	3		2017-01-05T18:27:27Z	2017-01-09T17:30:47Z	2017-01-09T17:30:47Z	url: allow use of URL with http.request and https.request	45		
@@ -3896,7 +3896,7 @@
 10675	718899	true	closed	false	1		2017-01-07T05:43:24Z	2017-01-10T05:46:47Z	2017-01-10T05:46:47Z	test: add test-cluster-worker-deprecated	52		
 10676	16308754	false	closed	false	7		2017-01-07T12:03:57Z	2017-01-07T14:04:41Z	2017-01-07T14:04:41Z	`readline.Interface#write` produces EINVAL error when writing '\n'	66		
 10677	4923335	true	open	false	9		2017-01-07T15:32:54Z	2017-01-12T00:15:48Z		pipe: enable writev for pipe handles on Unix	171		
-10678	4299420	true	open	false	9		2017-01-07T16:47:54Z	2017-01-12T12:48:27Z		benchmark: improve WHATWG URL benchmarks	186		
+10678	4299420	true	open	false			2017-01-07T16:47:54Z	2017-01-12T17:02:16Z		benchmark: improve WHATWG URL benchmarks	186		
 10679	5655189	true	closed	false	2		2017-01-07T17:43:22Z	2017-01-10T07:23:06Z	2017-01-10T07:23:06Z	test: refactor test-watch-file.js	50		
 10680	4483844	false	open	false	0		2017-01-07T18:40:10Z	2017-01-07T19:05:50Z		What's the point of keeping `EventEmitter.init`?	85		
 10681	1189785	true	closed	false	4		2017-01-08T02:43:19Z	2017-01-10T16:56:36Z	2017-01-10T16:56:36Z	test: improve the code in test-crypto-rsa-dsa	58		
@@ -3917,7 +3917,7 @@
 10696	3367801	true	open	false	1		2017-01-08T22:18:59Z	2017-01-10T17:09:27Z		test: refactor test doctool	32		
 10697	54666	false	open	false	0		2017-01-08T23:22:11Z	2017-01-09T14:36:59Z		vm: misleading language	78		
 10698	15943089	true	closed	false	10	9	2017-01-08T23:33:46Z	2017-01-11T14:33:00Z	2017-01-11T14:33:00Z	test, eslintrc: s/assert.equal/assert.strictEqual/	46	15943089	2017-01-11T14:33:00Z
-10699	1189785	true	open	false	1		2017-01-09T03:42:22Z	2017-01-12T05:10:06Z		test: improve test stream transform constructor	61		
+10699	1189785	true	closed	false	3	0	2017-01-09T03:42:22Z	2017-01-12T16:14:45Z	2017-01-12T16:14:45Z	test: improve test stream transform constructor	61		
 10700	3367801	true	open	false	0		2017-01-09T04:42:10Z	2017-01-10T05:19:20Z		test: refactor test-net-isip.js	29		
 10701	3367801	true	closed	false	1		2017-01-09T07:12:08Z	2017-01-10T22:03:11Z	2017-01-10T22:03:11Z	test: refactor cluster-preload.js	37		
 10702	4337080	true	open	false	0		2017-01-09T07:28:24Z	2017-01-10T18:49:45Z		doc: keepAliveMsecs refers to an initial delay not interval	62		
@@ -3949,10 +3949,10 @@
 10728	5804246	false	open	false	0		2017-01-10T22:08:17Z	2017-01-10T22:08:17Z		Async/Await should support generators	91		
 10729	3367801	true	open	false	0	0	2017-01-10T23:03:24Z	2017-01-10T23:03:24Z		test: refactor test-fs-read-zero-length.js	45		
 10730	115237	true	open	false	0	0	2017-01-10T23:45:08Z	2017-01-10T23:45:08Z		src/doc: improve man page and --help	7		
-10731	469365	false	open	false	0		2017-01-11T00:29:18Z	2017-01-11T01:05:08Z		`console.log(proxy)` invokes `get` trap with built-in Symbols	500		
+10731	469365	false	open	false	4		2017-01-11T00:29:18Z	2017-01-12T16:13:50Z		`console.log(proxy)` invokes `get` trap with built-in Symbols	500		
 10732	79017	true	open	false			2017-01-11T00:40:40Z	2017-01-11T10:55:49Z		deps: V8: fix backtrace for symbols	106		
 10733	79017	true	open	false	0		2017-01-11T01:26:33Z	2017-01-11T22:58:04Z		deps: cherry-pick a814b8a from upstream V8	94		
-10734	1189785	true	open	false			2017-01-11T04:06:46Z	2017-01-12T14:09:00Z		test: improve the code in test-crypto-dh	57		
+10734	1189785	true	open	false			2017-01-11T04:06:46Z	2017-01-12T16:10:44Z		test: improve the code in test-crypto-dh	43		
 10735	383288	false	closed	false	0		2017-01-11T10:43:02Z	2017-01-11T11:27:26Z	2017-01-11T11:27:26Z	Sorry please close	3		
 10736	559569	false	closed	false	1		2017-01-11T11:29:47Z	2017-01-11T14:25:37Z	2017-01-11T14:25:37Z	fs.writeFile - ENAMETOOLONG error is not being caught	97		
 10737	4299420	true	open	false	0		2017-01-11T11:41:06Z	2017-01-11T13:12:19Z		"benchmark: use ""confidence"" in output of compare.R"	53		
@@ -3974,13 +3974,14 @@
 10753	976391	true	closed	false	2		2017-01-12T03:42:33Z	2017-01-12T05:55:58Z	2017-01-12T05:55:58Z	test: cleanup test-crypto-dh.js	53		
 10754	14946708	true	closed	false	1	0	2017-01-12T04:01:32Z	2017-01-12T05:22:12Z	2017-01-12T05:22:12Z	test: check error msg in test-process-cpuUsage.js	39		
 10755	16128022	true	open	false	0	0	2017-01-12T04:23:13Z	2017-01-12T04:23:13Z		test: check error msg in test/parallel/test-writeint.js	37		
-10756	54666	true	open	false	0		2017-01-12T04:36:24Z	2017-01-12T08:55:47Z		benchmark: don't lint autogenerated modules	43		
+10756	54666	true	closed	false	2	0	2017-01-12T04:36:24Z	2017-01-12T16:15:19Z	2017-01-12T16:15:19Z	benchmark: don't lint autogenerated modules	43		
 10757	5317799	true	open	false	0	0	2017-01-12T04:52:38Z	2017-01-12T04:52:38Z		test: improve tests in pummel/test-exec	48		
 10758	11042262	true	open	false	0	0	2017-01-12T05:09:26Z	2017-01-12T05:09:26Z		test: no unused args test-fs-watch-file.js	20		
 10759	14946708	true	open	false	0		2017-01-12T05:30:02Z	2017-01-12T06:36:01Z		test: assert unused vars in test-cli-eval.js	37		
 10760	439929	false	open	false	0		2017-01-12T06:48:03Z	2017-01-12T13:47:22Z		url: track WHATWG URL issue #26	32		
 10761	439929	false	open	false	0		2017-01-12T06:52:02Z	2017-01-12T06:52:02Z		url: export URLSearchParams alongside URL	22		
-10762	718899	true	open	false	0	0	2017-01-12T07:24:07Z	2017-01-12T07:24:07Z		test,net: add tests for server.connections	65		
+10762	718899	true	open	false			2017-01-12T07:24:07Z	2017-01-12T16:36:32Z		test,net: add tests for server.connections	65		
 10763	1205100	false	open	false	0		2017-01-12T10:58:17Z	2017-01-12T15:28:19Z		Disable/Hide all command line options?	88		
-10764	4299420	true	open	false	0	0	2017-01-12T12:29:44Z	2017-01-12T12:29:44Z		process: improve process.hrtime	132		
+10764	4299420	true	open	false	0		2017-01-12T12:29:44Z	2017-01-12T16:31:26Z		process: improve process.hrtime	132		
 10765	11823240	false	closed	false	0		2017-01-12T12:45:43Z	2017-01-12T13:13:29Z	2017-01-12T13:13:29Z	String.prototype.toLocaleUpperCase bug in tr_TR.UTF-8 Locale	62		
+10766	52195	false	open	false	0		2017-01-12T16:51:50Z	2017-01-12T16:51:50Z		doc: guide on backpressure	37		
