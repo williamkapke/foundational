@@ -81,6 +81,7 @@
 2521	885648	true	open	false	30		2015-08-24T08:36:14Z	2016-06-30T04:22:37Z		added CSI (\x9b) as additionally allowable escape	135		
 2534	4405297	true	open	false	95		2015-08-25T01:59:16Z	2017-01-07T15:36:38Z		http: fixed socket destruction, timeout and leaking	144		
 2546	9798949	false	closed	false	89		2015-08-25T19:16:53Z	2016-11-16T04:38:02Z	2016-06-02T17:53:08Z	Inspecting Node.js with Chrome DevTools	688		
+2564	782880	true	closed	false	26		2015-08-26T15:50:32Z	2017-01-14T01:01:24Z	2015-10-26T16:15:13Z	tls, crypto: add ALPN Support	130		
 2569	13315	true	closed	false	27		2015-08-27T04:34:55Z	2016-09-30T16:14:04Z	2016-07-14T03:03:37Z	Add zh-CN i18n support for Windows installer	15		
 2571	153481	true	closed	false	47		2015-08-27T07:40:39Z	2016-08-09T22:05:24Z	2016-08-09T22:05:24Z	Refactor mac installer (Rebase of #776 against master)	13		
 2616	5769562	true	closed	false	1	17	2015-08-30T00:52:45Z	2016-12-14T02:15:52Z	2016-12-14T02:15:52Z	Removing a readable listener now updates the readable state i.e.	47		
@@ -1661,7 +1662,7 @@
 8433	8082333	false	open	false	2		2016-09-07T18:18:16Z	2016-09-07T19:04:16Z		wrong localisation for currency in toLocaleString	44		
 8434	1093990	false	closed	false	2		2016-09-07T19:11:18Z	2016-12-13T17:34:43Z	2016-12-13T17:34:43Z	Reccomend allowing edits from maintainers in issue templates / Contributing.md?	11		
 8435	7959437	false	closed	false	16		2016-09-07T19:26:43Z	2016-10-03T19:42:48Z	2016-10-03T15:57:57Z	DateTimeOffset	71		
-8436	836802	false	open	false	9		2016-09-07T20:23:15Z	2017-01-13T19:06:06Z		dns.lookup blocks filesystem I/O	294		
+8436	836802	false	open	false	10		2016-09-07T20:23:15Z	2017-01-14T00:10:14Z		dns.lookup blocks filesystem I/O	294		
 8437	899444	true	closed	false	5		2016-09-07T22:00:44Z	2016-09-08T23:30:14Z	2016-09-08T19:55:55Z	Backport 8174 (symbol-based custom inspection methods)	26		
 8438	54666	false	closed	false	5		2016-09-08T02:30:21Z	2016-10-31T23:23:15Z	2016-10-31T23:23:15Z	v8 inspector Profiles page no longer loads	56		
 8439	2226267	false	closed	false	1		2016-09-08T06:45:46Z	2016-09-08T16:56:51Z	2016-09-08T16:56:51Z	when run node with --prof the `crypto.pbkdf2` will not loged in	103		
@@ -4013,4 +4014,5 @@
 10792	677994	false	open	false	3		2017-01-13T19:08:05Z	2017-01-13T23:09:04Z		Proposal to move guides to nodejs/nodejs.org	72		
 10793	21090493	false	open	false	13		2017-01-13T19:27:12Z	2017-01-14T00:01:45Z		Child Process: fork stdio option doesn't support the String variant that spawn does	99		
 10794	1063492	false	open	false	0		2017-01-13T22:22:58Z	2017-01-13T22:22:58Z		Proposal for better cluster tuning	189		
-10795	718899	true	open	false	0	0	2017-01-14T00:02:03Z	2017-01-14T00:02:03Z		crypto,tls: fix mutability of return values	85		
+10795	718899	true	open	false			2017-01-14T00:02:03Z	2017-01-14T00:03:34Z		crypto,tls: fix mutability of return values	85		
+10796	498775	true	open	false	0	0	2017-01-14T00:27:08Z	2017-01-14T00:27:08Z		process: add process.cpuUsage() - implementation, doc, tests	66		
