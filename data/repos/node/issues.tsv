@@ -927,7 +927,7 @@
 7696	339422	true	closed	false	42		2016-07-13T02:16:38Z	2016-08-08T14:42:53Z	2016-08-08T14:42:53Z	lib: allow custom names for spawned processes	158		
 7697	54666	true	open	false	0	0	2016-07-13T02:34:13Z	2016-07-13T02:34:13Z		test: use random ports where possible	17		
 7698	54666	true	open	false	1		2016-07-13T02:36:59Z	2016-07-14T18:47:07Z		test: use random ports where possible	18		
-7699	696611	true	open	false	18		2016-07-13T04:02:38Z	2017-01-11T14:54:23Z		eslintrc: rename files to an undeprecated format	61		
+7699	696611	true	open	false	20		2016-07-13T04:02:38Z	2017-01-14T18:58:43Z		eslintrc: rename files to an undeprecated format	61		
 7700	1059956	false	closed	false	3		2016-07-13T04:29:25Z	2016-07-13T05:04:50Z	2016-07-13T04:40:13Z	`fs.access` is not reliable in `windows7`	52		
 7701	19247615	false	closed	false	0		2016-07-13T04:58:50Z	2016-07-13T05:07:49Z	2016-07-13T05:07:49Z	[bogus]	6		
 7702	6447530	true	open	false	14		2016-07-13T06:09:06Z	2016-07-18T21:05:34Z		test: Avoid usage of mixed IPV6 addresses	166		
@@ -2897,7 +2897,7 @@
 9668	1391805	false	open	false	3		2016-11-17T22:24:04Z	2017-01-10T00:31:28Z		HTTPParser inhibits garbage collection on keep-alive connections	167		
 9669	11648785	true	closed	false	14	12	2016-11-17T22:59:25Z	2016-12-05T23:20:39Z	2016-12-05T23:20:39Z	used es6 conventions for variables and anonymous functions declaration	37		
 9670	54666	true	closed	false	3	2	2016-11-18T03:30:07Z	2016-12-14T08:33:18Z	2016-12-14T08:33:18Z	fs: do not pass Buffer when toString() fails	84	54666	2016-12-14T08:33:18Z
-9671	413206	false	open	false	18		2016-11-18T08:29:35Z	2016-11-19T17:19:27Z		readFile() and readFileSync() fail to read sparse file on Windows	321		
+9671	413206	false	closed	false	20		2016-11-18T08:29:35Z	2017-01-14T18:33:18Z	2017-01-14T18:33:18Z	readFile() and readFileSync() fail to read sparse file on Windows	321		
 9672	4459551	false	open	false	0		2016-11-18T12:06:04Z	2016-11-18T12:06:04Z		make the --inspect flag more dev friendly	67		
 9673	4985028	false	closed	false	14		2016-11-18T12:56:50Z	2016-12-04T16:19:11Z	2016-11-21T21:49:45Z	RFI: What are the know issues with --preserve-symlinks	368		
 9674	20224954	true	closed	false	11		2016-11-18T14:21:17Z	2017-01-04T17:44:19Z	2017-01-04T12:21:15Z	test: add the ability to run the tests from node in the path	63		
@@ -2925,7 +2925,7 @@
 9696	1777466	false	open	false	0		2016-11-19T12:17:04Z	2016-11-19T12:17:04Z		NPM 3.10.8 crashed	238		
 9697	2352663	true	closed	false	2		2016-11-19T13:41:22Z	2016-11-22T03:55:01Z	2016-11-22T03:55:01Z	deps: update V8 to 5.4.500.43	48		
 9698	4233173	false	open	false	1		2016-11-19T14:47:33Z	2016-11-19T19:02:27Z		nullCheck in fs.js not checking 'undefined'	30		
-9699	988441	true	open	false	16		2016-11-19T17:47:22Z	2017-01-08T16:45:50Z		fs: make sure readFile[Sync] reads from the beginning	155		
+9699	988441	true	closed	false	17	10	2016-11-19T17:47:22Z	2017-01-14T18:33:18Z	2017-01-14T18:33:18Z	fs: make sure readFile[Sync] reads from the beginning	155	988441	2017-01-14T18:33:18Z
 9700	13138961	true	open	false	3		2016-11-19T22:33:08Z	2016-12-19T21:02:56Z		Tests: Refactored to es6	61		
 9701	1260305	true	open	false	4		2016-11-19T22:57:15Z	2016-11-22T05:09:06Z		doc: child_process .stdio accepts a String type	48		
 9702	170197	false	open	false	2		2016-11-20T00:36:09Z	2016-11-20T01:01:24Z		URL auth issue	34		
@@ -4025,5 +4025,6 @@
 10803	54666	false	open	false	0		2017-01-14T14:25:32Z	2017-01-14T14:25:32Z		doc: http response.getHeader() documentation partially incorrect	59		
 10804	25119916	false	open	false	3		2017-01-14T14:46:19Z	2017-01-14T15:13:32Z		Error for running a program in REPL	23		
 10805	54666	true	open	false			2017-01-14T14:50:00Z	2017-01-14T15:37:32Z		http: add outgoing.getHeaders()	72		
-10806	617481	false	open	false	0		2017-01-14T15:07:57Z	2017-01-14T16:33:49Z		vm regression: assigning a property the first time does not work; only the second time	102		
+10806	617481	false	open	false	1		2017-01-14T15:07:57Z	2017-01-14T18:22:50Z		vm regression: assigning a property the first time does not work; only the second time	102		
 10807	142175	true	open	false	0		2017-01-14T15:36:54Z	2017-01-14T16:02:34Z		test: add msg validation to test-buffer-compare	30		
+10808	3367801	true	open	false	0	0	2017-01-14T18:38:16Z	2017-01-14T18:38:16Z		test: add test case to test-http-response-statuscode.js	41		
