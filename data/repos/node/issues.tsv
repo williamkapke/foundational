@@ -123,7 +123,7 @@
 3098	639601	true	closed	false	15		2015-09-28T03:35:50Z	2016-06-30T12:31:35Z	2016-05-19T11:01:44Z	src: fix linking when built as shared library	192		
 3101	7358595	false	closed	false	11		2015-09-28T11:07:40Z	2016-09-26T13:20:14Z	2015-09-28T12:34:09Z	Destructuring Assignment doesn't work in node v 4.1.0 for me	52		
 3105	452298	false	closed	false	6		2015-09-28T17:02:34Z	2016-07-13T06:35:23Z	2016-07-13T06:35:23Z	Generators are not providing the right line:col for the error message	116		
-3145	369698	false	closed	false	17		2015-10-01T12:26:52Z	2017-01-16T05:46:58Z	2017-01-16T05:46:58Z	child_process IPC is very slow, about 100-10000x slower than I expected (scales with msg size)	213		
+3145	369698	false	closed	false	17		2015-10-01T12:26:52Z	2017-01-16T17:58:21Z	2017-01-16T05:46:58Z	child_process IPC is very slow, about 100-10000x slower than I expected (scales with msg size)	213		
 3159	131406	false	open	false	6		2015-10-02T13:49:38Z	2016-10-11T07:16:08Z		please provide a way to use system-installed root certificates instead of bundled ones	82		
 3164	8023447	false	closed	false	7		2015-10-03T03:28:07Z	2016-12-14T07:55:50Z	2015-10-03T16:26:02Z	State of ES6/ES7 in node/v8?	175		
 3179	8974489	false	closed	false	18		2015-10-05T10:13:45Z	2016-10-06T10:19:34Z	2016-06-07T20:59:21Z	node compile failure on Solaris 11.2 and gcc 4.8 (undefined std::isnan)	266		
@@ -178,7 +178,7 @@
 3979	495647	false	closed	false	15		2015-11-23T09:04:11Z	2017-01-09T12:03:25Z	2017-01-09T12:03:25Z	Seek legal advice on LICENSE and copyright blocks in code	84		
 4007	1093990	true	closed	false	69		2015-11-24T17:15:03Z	2016-08-30T14:09:47Z	2016-02-26T23:13:34Z	Refactor Timers	188		
 4037	321966	false	closed	false	6		2015-11-26T14:11:47Z	2016-09-22T11:40:07Z	2015-11-27T13:24:14Z	"""Error: write EBADF"" when sending a TLSSocket to the parent process"	256		
-4039	4520820	true	closed	false	24		2015-11-26T17:23:49Z	2017-01-15T11:15:33Z	2016-09-12T14:58:48Z	net: refactor Server.prototype.listen	226		
+4039	4520820	true	closed	false	24		2015-11-26T17:23:49Z	2017-01-16T17:49:29Z	2016-09-12T14:58:48Z	net: refactor Server.prototype.listen	226		
 4092	11175771	false	open	false	1		2015-12-01T09:38:49Z	2016-09-02T12:37:02Z		node.js Setup Wizard ended prematurely	35		
 4111	1524333	true	open	false	29		2015-12-02T00:40:22Z	2016-07-20T16:10:21Z		Windows post-install screen additional build tools messaging	155		
 4169	54666	true	closed	false	20		2015-12-06T06:38:35Z	2016-08-30T14:10:41Z	2016-03-18T23:29:42Z	timers: improve setImmediate() performance	51		
@@ -576,7 +576,7 @@
 7246	350686	false	open	false	2		2016-06-09T13:27:50Z	2016-09-09T18:38:06Z		v8_inspector: set title to application file, but not to node path	41		
 7249	9698639	false	closed	false	14		2016-06-09T17:51:52Z	2017-01-09T16:01:45Z	2017-01-09T16:01:45Z	[Bug] Cryptic output some commands v-6.2.1	290		
 7251	106903	true	closed	false	5		2016-06-09T18:46:56Z	2016-06-30T23:20:01Z	2016-06-30T23:20:01Z	zlib: release callback and buffer after processing	5		
-7253	855219	false	open	false	4		2016-06-10T01:20:29Z	2016-08-09T22:12:18Z		speed up canned small-icu build	117		
+7253	855219	false	open	false	4		2016-06-10T01:20:29Z	2017-01-16T17:21:18Z		speed up canned small-icu build	117		
 7254	855219	true	open	false	2		2016-06-10T01:28:18Z	2016-08-09T22:11:53Z		Speedup canned small-icu build	109		
 7255	5177920	true	closed	false	4	17	2016-06-10T02:18:11Z	2016-06-27T15:33:36Z	2016-06-27T15:33:36Z	benchmark: `util._extend` vs `object.assign`	177		
 7257	939420	true	open	false	10		2016-06-10T08:25:54Z	2016-07-04T19:23:21Z		Add two child-process stdio flush tests	68		
@@ -1542,7 +1542,7 @@
 8309	6189009	false	open	false	8		2016-08-28T12:12:35Z	2016-08-29T04:02:24Z		Missing `new` in Set constructor makes variable defined using `let` unusable	100		
 8310	596741	false	open	false	57		2016-08-28T13:30:25Z	2016-10-29T16:53:31Z		Segmentation Fault	260		
 8311	696611	true	closed	false	11		2016-08-28T16:04:35Z	2016-09-13T23:42:42Z	2016-09-08T21:34:24Z	buffer: expose underlying buffer object always	86		
-8312	2512748	true	closed	false	15		2016-08-28T18:19:22Z	2017-01-16T16:57:18Z	2016-12-25T17:54:08Z	child_process: spawn() and spawnSync() validation	168		
+8312	2512748	true	closed	false	16		2016-08-28T18:19:22Z	2017-01-16T17:05:08Z	2016-12-25T17:54:08Z	child_process: spawn() and spawnSync() validation	168		
 8313	12671072	false	closed	false	1		2016-08-28T23:49:19Z	2016-08-29T00:03:41Z	2016-08-29T00:03:41Z	ES6 getters execute before being called	83		
 8314	1909610	false	closed	false	2		2016-08-29T00:09:19Z	2016-08-29T01:03:13Z	2016-08-29T00:13:04Z	6.5.0 release branch exists here but not on Node	109		
 8315	2499504	true	closed	false	6		2016-08-29T02:37:55Z	2016-09-02T21:57:07Z	2016-09-02T21:57:07Z	doc: add .md to the link	51		
@@ -3030,7 +3030,7 @@
 9797	291301	false	open	false	7		2016-11-25T13:31:17Z	2016-11-28T11:24:19Z		Feature proposal: buffer.convert(value[, fromEnc], toEnc)	200		
 9798	12400507	true	open	false	3		2016-11-25T19:19:25Z	2016-11-26T05:18:16Z		test: known issue url.parse() does not return an empty string	60		
 9799	275871	false	open	false	0		2016-11-25T19:56:40Z	2016-11-25T19:56:40Z		test: DNS for bare domain fails with fritz.box search domain	215		
-9800	17607	true	closed	false	9		2016-11-25T20:38:23Z	2017-01-16T16:48:23Z	2016-12-12T16:17:29Z	Improvements to tls API documentation, batch 1	49		
+9800	17607	true	closed	false	10		2016-11-25T20:38:23Z	2017-01-16T17:15:16Z	2016-12-12T16:17:29Z	Improvements to tls API documentation, batch 1	49		
 9801	10393198	false	open	false	10		2016-11-26T00:15:08Z	2016-12-09T22:06:13Z		byteOffset argument in buffer indexOf / lastIndexOf has some contradictions in code vs doc vs test	137		
 9802	718899	true	closed	false	3	0	2016-11-26T04:41:59Z	2016-11-29T14:45:52Z	2016-11-29T14:45:52Z	test: refactor test-http-status-reason-invalid-chars	53		
 9803	718899	true	closed	false	2		2016-11-26T04:50:05Z	2016-11-29T14:47:38Z	2016-11-29T14:47:38Z	test: refactor test-preload	50		
@@ -3762,7 +3762,7 @@
 10535	1561860	false	closed	false	2		2016-12-30T09:38:14Z	2016-12-30T14:37:19Z	2016-12-30T14:37:19Z	EventEmmitter on method can no longer be chained (?)	106		
 10536	24838796	false	open	false	2		2016-12-30T09:55:06Z	2016-12-30T13:11:47Z		get error 'CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memory'	177		
 10537	432351	true	closed	false	3	2	2016-12-30T10:08:43Z	2017-01-06T19:17:23Z	2017-01-06T19:17:23Z	src: reduce test_inspector_socket_server output	147		
-10538	4065244	false	open	false	1		2016-12-30T11:48:25Z	2017-01-16T07:57:10Z		tls: inconsistency between doc and code for createSecureContext() options in TLSSocket constructor	109		
+10538	4065244	false	open	false	2		2016-12-30T11:48:25Z	2017-01-16T17:32:42Z		tls: inconsistency between doc and code for createSecureContext() options in TLSSocket constructor	109		
 10539	6487691	true	open	false			2016-12-30T13:08:59Z	2017-01-16T11:18:53Z		build: don't squash signal handlers with --shared	101		
 10540	15943089	false	open	false	1		2016-12-30T14:57:50Z	2016-12-30T15:40:24Z		AIX processes left on machines	508		
 10541	2512748	true	closed	false	4	5	2016-12-30T15:11:40Z	2017-01-06T19:11:44Z	2017-01-06T19:11:44Z	test: s/assert.notEqual()/assert.notStrictEqual()/	25	2512748	2017-01-06T19:11:44Z
@@ -3779,7 +3779,7 @@
 10552	4299420	true	closed	false	4		2016-12-31T07:14:29Z	2017-01-04T15:33:44Z	2017-01-04T06:40:18Z	url: TupleOrigin#toString use unicode by default	94		
 10553	10627527	true	open	false	0	0	2016-12-31T08:17:53Z	2016-12-31T08:17:53Z		V7.x_outsiderLazy	42		
 10554	170197	false	closed	false	2		2016-12-31T09:01:22Z	2017-01-03T23:36:14Z	2017-01-03T23:36:14Z	URL with Object.prototype.toString	27		
-10555	4065244	false	open	false	0		2016-12-31T10:27:15Z	2016-12-31T10:27:15Z		tls: secureConnect event will not be emitted if TLSSocket is created via constructor instead of tls.connect	57		
+10555	4065244	false	open	false	0		2016-12-31T10:27:15Z	2017-01-16T17:28:45Z		tls: secureConnect event will not be emitted if TLSSocket is created via constructor instead of tls.connect	57		
 10556	1189785	true	closed	false	6		2016-12-31T15:53:31Z	2017-01-03T12:48:57Z	2017-01-03T12:48:57Z	test: improve the code in test-fs-read-stream	57		
 10557	400558	true	closed	false	8		2016-12-31T16:58:36Z	2017-01-16T05:46:12Z	2017-01-16T05:46:12Z	Optimize child_process IPC for large data	279		
 10558	54666	true	closed	false	6		2016-12-31T21:53:37Z	2017-01-14T15:05:56Z	2017-01-11T18:00:52Z	http: various performance improvements	2579		
@@ -3909,7 +3909,7 @@
 10683	11756943	false	open	false	0		2017-01-08T08:12:07Z	2017-01-08T08:12:07Z		how implement IPC in different node process?	9		
 10684	5655189	true	closed	false	3		2017-01-08T08:38:10Z	2017-01-10T19:25:23Z	2017-01-10T19:25:23Z	test: refactor the code of test-keep-alive.js	62		
 10685	15943089	true	closed	false	13		2017-01-08T14:59:24Z	2017-01-16T12:18:28Z	2017-01-11T12:03:27Z	test: convert var->const/let in tests	137		
-10686	15943089	true	open	false	5	0	2017-01-08T15:16:21Z	2017-01-16T16:20:50Z		doc: correct vcbuild options for windows testing	84		
+10686	15943089	true	open	false	5		2017-01-08T15:16:21Z	2017-01-16T17:09:29Z		v7.x - doc: correct vcbuild options for windows testing	84		
 10687	2352663	true	open	false			2017-01-08T18:36:38Z	2017-01-10T18:09:43Z		doc: add note about max string length in buffer.toString	36		
 10688	2352663	true	open	false	1		2017-01-08T20:32:53Z	2017-01-13T13:54:47Z		v7.x: deps: cherry-pick baba152 from V8 upstream	37		
 10689	2352663	true	closed	false	2	0	2017-01-08T20:33:28Z	2017-01-10T17:57:06Z	2017-01-10T17:57:05Z	v6.x: deps: cherry-pick baba152 from V8 upstream	37		
@@ -3930,7 +3930,7 @@
 10704	9124564	false	open	false	0		2017-01-09T12:23:07Z	2017-01-09T12:23:07Z		Crash using SNICallback over a netSocket	272		
 10705	25007505	false	open	false	0		2017-01-09T12:56:16Z	2017-01-09T13:05:53Z		Query does not work for node js	164		
 10706	238531	true	open	false			2017-01-09T13:44:01Z	2017-01-10T18:59:34Z		tls: do not crash on STARTTLS when OCSP requested	61		
-10707	1716463	true	open	false	0		2017-01-09T13:57:50Z	2017-01-09T23:12:56Z		test: skip test-icu-transcode if ICU is not present	57		
+10707	1716463	true	open	false			2017-01-09T13:57:50Z	2017-01-16T17:18:03Z		test: skip test-icu-transcode if ICU is not present	57		
 10708	4923335	true	open	false	2		2017-01-09T15:11:18Z	2017-01-11T22:10:37Z		doc: fix misleading language in vm docs	47		
 10709	25007505	false	closed	false	0		2017-01-09T15:14:37Z	2017-01-09T16:32:17Z	2017-01-09T16:32:17Z	Process exited with error code 199	65		
 10710	1794099	false	closed	false	3		2017-01-09T15:48:50Z	2017-01-10T21:10:23Z	2017-01-10T21:10:23Z	doc: missing negation in streams doc	59		
@@ -4028,7 +4028,7 @@
 10802	1149663	false	open	false	0		2017-01-14T09:00:15Z	2017-01-14T09:00:15Z		Cannot disable warnings when scripts are launched from the shell.	76		
 10803	54666	false	open	false	0		2017-01-14T14:25:32Z	2017-01-14T14:25:32Z		doc: http response.getHeader() documentation partially incorrect	59		
 10804	25119916	false	open	false	3		2017-01-14T14:46:19Z	2017-01-14T15:13:32Z		Error for running a program in REPL	23		
-10805	54666	true	open	false	6		2017-01-14T14:50:00Z	2017-01-16T15:07:01Z		http: add outgoing.getHeaders()	72		
+10805	54666	true	open	false			2017-01-14T14:50:00Z	2017-01-16T17:21:27Z		http: add outgoing.getHeaders()	79		
 10806	617481	false	open	false	1		2017-01-14T15:07:57Z	2017-01-14T18:22:50Z		vm regression: assigning a property the first time does not work; only the second time	102		
 10807	142175	true	open	false	0		2017-01-14T15:36:54Z	2017-01-14T16:02:34Z		test: add msg validation to test-buffer-compare	30		
 10808	3367801	true	open	false	3		2017-01-14T18:38:16Z	2017-01-15T12:03:47Z		test: add test case to test-http-response-statuscode.js	41		
@@ -4051,11 +4051,11 @@
 10825	1658949	false	open	false	3		2017-01-15T22:45:21Z	2017-01-16T14:10:25Z		"Conflicting ""Added in"" versions"	40		
 10826	899444	true	open	false			2017-01-15T22:57:24Z	2017-01-16T15:32:19Z		doc: minor fixups for `added` tags	32		
 10827	899444	true	open	false	0	0	2017-01-15T22:59:06Z	2017-01-15T22:59:06Z		doc: minor fixups for changelogs	32		
-10828	899444	true	open	false			2017-01-16T01:00:02Z	2017-01-16T08:10:57Z		doc: fix broken internal link in process.md	32		
+10828	899444	true	closed	false	1	3	2017-01-16T01:00:02Z	2017-01-16T17:05:39Z	2017-01-16T17:05:38Z	doc: fix broken internal link in process.md	32		
 10829	899444	true	open	false			2017-01-16T01:00:24Z	2017-01-16T13:58:29Z		doc: add links for zlib convenience methods	44		
 10830	1189785	true	open	false	0		2017-01-16T03:24:23Z	2017-01-16T04:30:44Z		test: improve code in test-http-host-headers	45		
 10831	782880	true	open	false			2017-01-16T05:11:18Z	2017-01-16T06:18:32Z		Backport ALPN to v4.x LTS	70		
-10832	3367801	true	open	false	0	0	2017-01-16T07:50:14Z	2017-01-16T07:50:14Z		test: add http-common's test	45		
+10832	3367801	true	open	false			2017-01-16T07:50:14Z	2017-01-16T17:48:05Z		test: add http-common's test	45		
 10833	327019	true	open	false			2017-01-16T09:20:52Z	2017-01-16T15:11:08Z		http: use direct parameters instead	51		
 10834	327019	true	open	false	0		2017-01-16T09:23:08Z	2017-01-16T15:09:25Z		lib: remove unnecessary parameter for assertCrypto()	36		
 10835	17702550	false	open	false	0		2017-01-16T12:15:35Z	2017-01-16T12:15:35Z		PROTOCOL_CONNECTION_LOST	61		
