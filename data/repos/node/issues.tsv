@@ -3900,7 +3900,7 @@
 10674	1746853	true	closed	false	4		2017-01-07T04:13:40Z	2017-01-10T05:10:49Z	2017-01-10T05:10:49Z	test: refactor of zlib-from-gzip-with-trailing-garbage	29		
 10675	718899	true	closed	false	1		2017-01-07T05:43:24Z	2017-01-10T05:46:47Z	2017-01-10T05:46:47Z	test: add test-cluster-worker-deprecated	52		
 10676	16308754	false	closed	false	7		2017-01-07T12:03:57Z	2017-01-07T14:04:41Z	2017-01-07T14:04:41Z	`readline.Interface#write` produces EINVAL error when writing '\n'	66		
-10677	4923335	true	closed	false	11	10	2017-01-07T15:32:54Z	2017-01-12T21:35:37Z	2017-01-12T21:35:37Z	pipe: enable writev for pipe handles on Unix	171		
+10677	4923335	true	closed	false	11		2017-01-07T15:32:54Z	2017-01-16T15:16:09Z	2017-01-12T21:35:37Z	pipe: enable writev for pipe handles on Unix	171		
 10678	4299420	true	closed	false	16	29	2017-01-07T16:47:54Z	2017-01-15T12:29:03Z	2017-01-15T12:29:03Z	benchmark: improve WHATWG URL benchmarks	186		
 10679	5655189	true	closed	false	2		2017-01-07T17:43:22Z	2017-01-10T07:23:06Z	2017-01-10T07:23:06Z	test: refactor test-watch-file.js	50		
 10680	4483844	false	open	false	0		2017-01-07T18:40:10Z	2017-01-07T19:05:50Z		What's the point of keeping `EventEmitter.init`?	85		
@@ -4028,7 +4028,7 @@
 10802	1149663	false	open	false	0		2017-01-14T09:00:15Z	2017-01-14T09:00:15Z		Cannot disable warnings when scripts are launched from the shell.	76		
 10803	54666	false	open	false	0		2017-01-14T14:25:32Z	2017-01-14T14:25:32Z		doc: http response.getHeader() documentation partially incorrect	59		
 10804	25119916	false	open	false	3		2017-01-14T14:46:19Z	2017-01-14T15:13:32Z		Error for running a program in REPL	23		
-10805	54666	true	open	false	3		2017-01-14T14:50:00Z	2017-01-16T09:10:13Z		http: add outgoing.getHeaders()	72		
+10805	54666	true	open	false	6		2017-01-14T14:50:00Z	2017-01-16T15:07:01Z		http: add outgoing.getHeaders()	72		
 10806	617481	false	open	false	1		2017-01-14T15:07:57Z	2017-01-14T18:22:50Z		vm regression: assigning a property the first time does not work; only the second time	102		
 10807	142175	true	open	false	0		2017-01-14T15:36:54Z	2017-01-14T16:02:34Z		test: add msg validation to test-buffer-compare	30		
 10808	3367801	true	open	false	3		2017-01-14T18:38:16Z	2017-01-15T12:03:47Z		test: add test case to test-http-response-statuscode.js	41		
@@ -4042,21 +4042,22 @@
 10816	718899	true	open	false			2017-01-15T06:49:46Z	2017-01-16T04:16:02Z		vm: improve performance of vm.runIn*()	129		
 10817	7455872	true	open	false			2017-01-15T12:54:15Z	2017-01-15T18:50:06Z		HTTP response getHeader doc fix	33		
 10818	1443911	true	open	false			2017-01-15T14:00:17Z	2017-01-16T14:22:18Z		http: make `request.abort()` destroy the socket	67		
-10819	711968	false	open	false	0		2017-01-15T15:24:30Z	2017-01-15T15:24:30Z		child_process: fork does not accept null or undefined args array	69		
+10819	711968	false	open	false	0		2017-01-15T15:24:30Z	2017-01-16T15:30:31Z		child_process: fork does not accept null or undefined args array	69		
 10820	3367801	true	open	false			2017-01-15T16:45:00Z	2017-01-16T02:16:30Z		test: increase coverage of _http_outgoing	38		
 10821	1538624	false	open	false	0		2017-01-15T19:01:07Z	2017-01-15T19:01:07Z		url: track status of a spec-compliant URLSearchParams	66		
 10822	696611	true	open	false			2017-01-15T19:09:10Z	2017-01-15T23:19:32Z		test: increase timeout in break-on-uncaught	80		
 10823	4299420	true	open	false	0		2017-01-15T19:09:52Z	2017-01-15T20:18:36Z		benchmark: add progress indicator to compare.js	65		
 10824	899444	false	open	false	1		2017-01-15T19:44:02Z	2017-01-15T22:43:30Z		querystring should maybe support Buffers	64		
 10825	1658949	false	open	false	3		2017-01-15T22:45:21Z	2017-01-16T14:10:25Z		"Conflicting ""Added in"" versions"	40		
-10826	899444	true	open	false	0	0	2017-01-15T22:57:24Z	2017-01-15T22:57:24Z		doc: minor fixups for `added` tags	32		
+10826	899444	true	open	false			2017-01-15T22:57:24Z	2017-01-16T15:32:19Z		doc: minor fixups for `added` tags	32		
 10827	899444	true	open	false	0	0	2017-01-15T22:59:06Z	2017-01-15T22:59:06Z		doc: minor fixups for changelogs	32		
 10828	899444	true	open	false			2017-01-16T01:00:02Z	2017-01-16T08:10:57Z		doc: fix broken internal link in process.md	32		
 10829	899444	true	open	false			2017-01-16T01:00:24Z	2017-01-16T13:58:29Z		doc: add links for zlib convenience methods	44		
 10830	1189785	true	open	false	0		2017-01-16T03:24:23Z	2017-01-16T04:30:44Z		test: improve code in test-http-host-headers	45		
 10831	782880	true	open	false			2017-01-16T05:11:18Z	2017-01-16T06:18:32Z		Backport ALPN to v4.x LTS	70		
 10832	3367801	true	open	false	0	0	2017-01-16T07:50:14Z	2017-01-16T07:50:14Z		test: add http-common's test	45		
-10833	327019	true	open	false	0	0	2017-01-16T09:20:52Z	2017-01-16T09:20:52Z		http: use direct parameters instead	59		
-10834	327019	true	open	false	0	0	2017-01-16T09:23:08Z	2017-01-16T09:23:08Z		lib: remove unnecessary parameter for assertCrypto()	37		
+10833	327019	true	open	false			2017-01-16T09:20:52Z	2017-01-16T15:11:08Z		http: use direct parameters instead	51		
+10834	327019	true	open	false	0		2017-01-16T09:23:08Z	2017-01-16T15:09:25Z		lib: remove unnecessary parameter for assertCrypto()	36		
 10835	17702550	false	open	false	0		2017-01-16T12:15:35Z	2017-01-16T12:15:35Z		PROTOCOL_CONNECTION_LOST	61		
-10836	607109	false	open	false	0		2017-01-16T13:44:36Z	2017-01-16T14:02:53Z		Accessing process.stdin hangs on Windows	200		
+10836	607109	false	open	false	2		2017-01-16T13:44:36Z	2017-01-16T15:28:55Z		Accessing process.stdin hangs on Windows	200		
+10837	54666	true	open	false	0	0	2017-01-16T15:21:28Z	2017-01-16T15:21:28Z		querystring: improve unescapeBuffer performance	77		
