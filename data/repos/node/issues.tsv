@@ -63,7 +63,7 @@
 2098	1881921	false	closed	false	20		2015-07-03T10:19:55Z	2016-07-12T10:29:54Z	2016-04-10T08:19:20Z	child_process.spawn sh not killable	166		
 2114	289174	false	open	false	12		2015-07-06T19:32:55Z	2016-07-20T15:59:23Z		incorrect URL parsing	46		
 2126	122831	false	open	false	8		2015-07-07T21:10:41Z	2016-07-11T22:19:43Z		SNICallback callback doesn't throw an error with invalid input	77		
-2133	829734	true	closed	false	146		2015-07-08T12:31:57Z	2017-01-15T10:23:34Z	2016-12-11T14:25:53Z	workers: initial implementation	56		
+2133	829734	true	closed	false	147		2015-07-08T12:31:57Z	2017-01-16T02:50:31Z	2016-12-11T14:25:53Z	workers: initial implementation	56		
 2138	495647	false	closed	false	24		2015-07-09T00:43:28Z	2016-06-30T05:17:39Z	2016-06-30T05:17:39Z	Process startup time on ARM	248		
 2198	430233	false	closed	false	10		2015-07-17T09:44:41Z	2017-01-10T08:33:24Z	2015-07-17T09:55:22Z	Cannot find module 'absolute-path'	112		
 2232	1093990	true	closed	false	10		2015-07-24T00:46:36Z	2016-07-07T20:08:56Z	2016-01-11T20:54:45Z	Port from joyent/node: `timers: fix timeout when added in timer's callback`	11		
@@ -3438,7 +3438,7 @@
 10206	855219	true	closed	false	8	0	2016-12-09T20:47:45Z	2016-12-29T22:32:21Z	2016-12-29T22:32:21Z	deps: ICU 58.2 bump	50		
 10207	3611800	true	closed	false	4		2016-12-09T21:03:20Z	2016-12-14T18:13:36Z	2016-12-14T18:13:36Z	test: fix setTimeout, add const, remove unused var	50		
 10208	347452	false	open	false	3		2016-12-09T22:08:51Z	2016-12-12T22:25:19Z		Win64 .msi install breaks Windows Explorer.	106		
-10209	677994	true	open	false			2016-12-09T23:18:22Z	2017-01-13T21:30:04Z		"\t crypto: add randomFill and randomFillSync"	78		
+10209	677994	true	open	false			2016-12-09T23:18:22Z	2017-01-16T02:52:26Z		"\t crypto: add randomFill and randomFillSync"	78		
 10210	718899	true	closed	false	2		2016-12-10T00:14:07Z	2016-12-14T00:31:26Z	2016-12-14T00:31:26Z	test: refactor test-http-pause-resume-one-end	47		
 10211	1037138	true	closed	false	8		2016-12-10T01:06:46Z	2016-12-15T21:51:38Z	2016-12-15T21:51:38Z	doc: document R CRAN mirror process	67		
 10212	718899	true	closed	false	6		2016-12-10T06:49:23Z	2016-12-13T21:42:32Z	2016-12-13T21:42:32Z	test: fix flaky test-dgram-exclusive-implicit-bind	103		
@@ -3999,7 +3999,7 @@
 10774	15952	false	closed	false	4		2017-01-12T19:50:54Z	2017-01-13T16:04:31Z	2017-01-13T16:04:31Z	HTTP client connection pooling and keep-alive behavior is confusing	511		
 10775	2467217	false	open	false	0		2017-01-12T20:26:59Z	2017-01-12T20:26:59Z		Strange multiple assignment behavior in v7.3.x and 7.4.x	81		
 10776	582698	true	open	false	7		2017-01-12T20:49:00Z	2017-01-15T23:37:27Z		test: get rid of done in test-dns and use common.mustCall	59		
-10777	718899	true	open	false	0		2017-01-12T20:55:50Z	2017-01-12T22:17:22Z		test: add coverage for repl .clear + useGlobal	64		
+10777	718899	true	closed	false	1		2017-01-12T20:55:50Z	2017-01-16T02:34:03Z	2017-01-16T02:34:03Z	test: add coverage for repl .clear + useGlobal	64		
 10778	469365	true	open	false	0	0	2017-01-13T00:30:25Z	2017-01-13T00:30:25Z		doc: clarify memory sharing behavior of buffer ctor	45		
 10779	1189785	true	open	false	0		2017-01-13T00:34:25Z	2017-01-15T16:51:43Z		test: improve test-fs-write-stream-throw-type	43		
 10780	3367801	true	open	false			2017-01-13T00:47:11Z	2017-01-13T20:46:09Z		test: add tests for rs+, sr+ to test-fs-open-flags.js	41		
@@ -4042,7 +4042,7 @@
 10817	7455872	true	open	false			2017-01-15T12:54:15Z	2017-01-15T18:50:06Z		HTTP response getHeader doc fix	33		
 10818	1443911	true	open	false			2017-01-15T14:00:17Z	2017-01-15T23:48:30Z		http: make `request.abort()` destroy the socket	67		
 10819	711968	false	open	false	0		2017-01-15T15:24:30Z	2017-01-15T15:24:30Z		child_process: fork does not accept null or undefined args array	69		
-10820	3367801	true	open	false			2017-01-15T16:45:00Z	2017-01-15T23:11:52Z		test: increase coverage of _http_outgoing	38		
+10820	3367801	true	open	false			2017-01-15T16:45:00Z	2017-01-16T02:16:30Z		test: increase coverage of _http_outgoing	38		
 10821	1538624	false	open	false	0		2017-01-15T19:01:07Z	2017-01-15T19:01:07Z		url: track status of a spec-compliant URLSearchParams	66		
 10822	696611	true	open	false			2017-01-15T19:09:10Z	2017-01-15T23:19:32Z		test: increase timeout in break-on-uncaught	80		
 10823	4299420	true	open	false	0		2017-01-15T19:09:52Z	2017-01-15T20:18:36Z		benchmark: add progress indicator to compare.js	65		
