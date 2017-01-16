@@ -1,6 +1,6 @@
 1	238531	true	closed	false	4		2014-11-27T15:39:30Z	2016-09-01T18:10:57Z	2014-11-27T16:57:14Z	deps: update openssl to 1.0.1j	2		
 66	643505	false	closed	false	83		2014-12-04T08:42:35Z	2016-07-23T19:11:08Z	2014-12-11T12:34:07Z	deprecate domains	11		
-89	37303	false	closed	false	64		2014-12-05T19:23:16Z	2017-01-16T11:59:52Z	2015-02-04T03:59:32Z	Streams pain points	277		
+89	37303	false	closed	false	65		2014-12-05T19:23:16Z	2017-01-16T21:57:59Z	2015-02-04T03:59:32Z	Streams pain points	277		
 256	1315533	false	closed	false	27		2015-01-08T07:50:35Z	2016-07-31T16:41:49Z	2015-02-25T00:30:11Z	Consider exposing promise unhandled rejection hook	243		
 428	321966	false	closed	false	52		2015-01-14T21:56:04Z	2017-01-15T15:58:26Z	2016-10-21T16:07:08Z	plans on incorporating LibreSSL	35		
 445	2993861	false	open	false	11		2015-01-15T16:18:56Z	2016-08-03T22:33:47Z		Cleanup `_writableState` and `_readableState` access across codebase	590		
@@ -2221,7 +2221,7 @@
 8988	7656167	true	closed	false	3	4	2016-10-09T09:45:30Z	2016-10-14T16:02:00Z	2016-10-14T16:02:00Z	lib: update outdated comment	29		
 8989	5794547	true	open	false	2		2016-10-09T13:07:03Z	2016-10-10T15:32:17Z		src: fix typo in #endif comment	46		
 8990	696611	true	closed	false	13		2016-10-09T14:30:15Z	2016-11-30T11:10:19Z	2016-11-02T14:56:44Z	build: make node-gyp output silent	58		
-8991	11734962	true	open	false			2016-10-09T14:51:16Z	2016-11-03T15:00:18Z		doc: add url.resolve() method's behaviour	38		
+8991	11734962	true	open	false	7		2016-10-09T14:51:16Z	2017-01-16T21:31:35Z		doc: add url.resolve() method's behaviour	38		
 8992	11734962	true	open	false	6		2016-10-09T15:08:55Z	2016-11-02T14:37:11Z		doc: special cases in http module response body	40		
 8993	103052	true	closed	false	15		2016-10-09T17:18:24Z	2016-11-11T20:24:04Z	2016-10-15T19:25:55Z	crypto: naming anonymouse functions	35		
 8994	899444	true	closed	false	7		2016-10-09T17:24:11Z	2016-10-17T17:25:09Z	2016-10-17T17:25:09Z	module: allow but deprecate loading internals (in case it’s necessary)	109		
@@ -2930,10 +2930,10 @@
 9697	2352663	true	closed	false	2		2016-11-19T13:41:22Z	2016-11-22T03:55:01Z	2016-11-22T03:55:01Z	deps: update V8 to 5.4.500.43	48		
 9698	4233173	false	open	false	1		2016-11-19T14:47:33Z	2016-11-19T19:02:27Z		nullCheck in fs.js not checking 'undefined'	30		
 9699	988441	true	closed	false	17	10	2016-11-19T17:47:22Z	2017-01-14T18:33:18Z	2017-01-14T18:33:18Z	fs: make sure readFile[Sync] reads from the beginning	155	988441	2017-01-14T18:33:18Z
-9700	13138961	true	open	false	3		2016-11-19T22:33:08Z	2016-12-19T21:02:56Z		Tests: Refactored to es6	61		
+9700	13138961	true	open	false	3		2016-11-19T22:33:08Z	2017-01-16T21:25:53Z		Tests: Refactored to es6	61		
 9701	1260305	true	open	false	4		2016-11-19T22:57:15Z	2016-11-22T05:09:06Z		doc: child_process .stdio accepts a String type	48		
 9702	170197	false	open	false	2		2016-11-20T00:36:09Z	2016-11-20T01:01:24Z		URL auth issue	34		
-9703	4443482	true	open	false	1		2016-11-20T02:06:30Z	2016-11-27T07:03:19Z		Doc fixes	436		
+9703	4443482	true	open	false	1		2016-11-20T02:06:30Z	2017-01-16T21:20:31Z		Doc fixes	436		
 9704	10393198	true	closed	false	1		2016-11-20T02:21:42Z	2016-11-22T16:30:34Z	2016-11-22T16:30:34Z	doc: fix typo in assert code example	21		
 9705	23608711	false	open	false	0		2016-11-20T04:28:02Z	2016-11-21T14:59:15Z		module.parent or require.main or process.mainModule for checking if a file is being run as a script?	64		
 9706	627972	false	open	false	4		2016-11-20T04:40:33Z	2016-12-13T23:53:31Z		IPC channel stops delivering messages to cluster workers	528		
@@ -2941,7 +2941,7 @@
 9708	803101	false	open	false	2		2016-11-20T13:35:06Z	2016-11-23T11:19:51Z		Wierd behavior on later versions of node	416		
 9709	635591	false	closed	false	8		2016-11-20T13:54:43Z	2016-11-21T19:43:49Z	2016-11-20T14:25:21Z	Inspected objects’ symbol key properties are hidden by default	183		
 9710	5234060	false	open	false	1		2016-11-20T15:24:39Z	2016-11-20T17:30:06Z		doc issue: socket server 'error' event: 'close' is not called as described in doc.	239		
-9711	13315143	true	open	false			2016-11-20T18:22:42Z	2016-11-25T04:17:06Z		test:Change declaration by var to let.	75		
+9711	13315143	true	open	false	5		2016-11-20T18:22:42Z	2017-01-16T21:24:59Z		test: Change declaration by var to let.	75		
 9712	3283419	false	open	false	0		2016-11-20T18:33:20Z	2016-11-20T18:33:20Z		npm install issue	61		
 9713	3283419	false	closed	false	2		2016-11-20T19:11:23Z	2016-11-21T14:41:25Z	2016-11-20T19:13:18Z	problem with npm start	30		
 9714	54666	false	closed	false	1		2016-11-20T23:22:25Z	2016-11-22T18:40:51Z	2016-11-22T18:40:51Z	doc: repl deprecation styling results in unreadable text	39		
@@ -2969,7 +2969,7 @@
 9736	498775	true	closed	false	4	0	2016-11-22T09:12:28Z	2016-12-06T19:55:18Z	2016-12-06T19:55:18Z	v4.7.0 proposal	1508	498775	2016-12-06T19:55:18Z
 9737	58742	true	closed	false	0		2016-11-22T09:24:56Z	2016-11-23T18:30:21Z	2016-11-23T18:30:21Z	doc: typo in util.inherits documentation for ES6 example	35		
 9738	22852830	false	closed	false	15		2016-11-22T10:13:41Z	2016-12-19T10:20:56Z	2016-12-19T10:20:56Z	the solution for the issue #6374 has being applied only for Node 6.0.0	33		
-9739	12082826	true	open	false			2016-11-22T11:35:27Z	2016-11-24T13:02:21Z		stream: bugfix for test-child-process-stdio-big-write-end.js	83		
+9739	12082826	true	open	false	3		2016-11-22T11:35:27Z	2017-01-16T21:21:42Z		stream: bugfix for test-child-process-stdio-big-write-end.js	83		
 9740	15943089	false	open	false	4		2016-11-22T12:13:10Z	2016-11-23T12:35:16Z		meta: no longer possible to differentiate collaborators and foundation members	40		
 9741	3967972	true	closed	false	5	8	2016-11-22T14:27:06Z	2016-11-30T09:07:11Z	2016-11-30T09:07:11Z	test: add toASCII and toUnicode punycode tests	60		
 9742	275871	true	open	false	1		2016-11-22T16:16:58Z	2016-12-13T19:23:29Z		tls: TLSSocket emits 'error' on handshake failure	27		
@@ -3000,7 +3000,7 @@
 9767	1559888	true	closed	false	5		2016-11-23T15:15:06Z	2016-11-24T14:42:19Z	2016-11-24T13:55:56Z	node.h [API] cleanup: remove node_internals.h & extra dependencies from node.h	240		
 9768	1037138	false	open	false	2		2016-11-23T15:15:15Z	2016-11-23T18:56:45Z		debug list() command showing an extra }); at the end	86		
 9769	6487691	true	closed	false	5	0	2016-11-23T15:40:48Z	2016-12-08T23:30:17Z	2016-12-08T23:30:17Z	Make --shared on AIX work on v6.x	89		
-9770	17607	true	open	false	6		2016-11-23T16:53:27Z	2017-01-11T17:58:17Z		Extendable ca certs v6	49		
+9770	17607	true	open	false	7		2016-11-23T16:53:27Z	2017-01-16T21:16:34Z		Extendable ca certs v6	49		
 9771	17607	true	open	false	0	0	2016-11-23T17:02:44Z	2016-11-23T17:02:44Z		Extendable ca certs v4	49		
 9772	9373002	true	closed	false	5		2016-11-23T17:20:32Z	2016-11-25T15:41:01Z	2016-11-25T15:41:01Z	test: exclude no_interleaved_stdio test for AIX	82		
 9773	1037138	true	open	false	17		2016-11-23T18:54:27Z	2016-12-13T18:39:48Z		Debugger - Filter out the ending of the Module wrapper when using the list command	157		
@@ -3489,7 +3489,7 @@
 10259	7225068	false	open	false	6		2016-12-13T23:32:39Z	2016-12-14T02:38:08Z		Promises Missing from Node: Common-ish Problem?	172		
 10260	25966	true	closed	false	6		2016-12-13T23:35:56Z	2016-12-20T01:06:19Z	2016-12-20T01:06:19Z	fs: remove needless assignment of null	79		
 10261	17607	true	open	false	5		2016-12-14T01:42:41Z	2016-12-14T16:04:50Z		tls: update builtin cert bundle for 0.12	41		
-10262	1857993	true	open	false			2016-12-14T03:15:32Z	2016-12-14T04:23:33Z		doc: add warning about url.resolve	27		
+10262	1857993	true	open	false	0		2016-12-14T03:15:32Z	2017-01-16T21:30:37Z		doc: add warning about url.resolve	27		
 10263	8259431	false	closed	false	1		2016-12-14T04:48:49Z	2016-12-14T05:12:36Z	2016-12-14T05:12:36Z	Initialization Vector length in createCipheriv/createeciperiv for aes-128-ecb	125		
 10264	17607	true	closed	false	3		2016-12-14T15:22:38Z	2016-12-29T19:53:49Z	2016-12-27T21:59:10Z	doc: add tls.DEFAULT_ECDH_CURVE	47		
 10265	620746	false	open	false	2		2016-12-14T15:55:50Z	2016-12-14T17:06:01Z		crypto.pbkdf2Sync can't handle non ASCII character in Node 6.9.2	218		
@@ -3923,7 +3923,7 @@
 10697	54666	false	open	false	0		2017-01-08T23:22:11Z	2017-01-09T14:36:59Z		vm: misleading language	78		
 10698	15943089	true	closed	false	11		2017-01-08T23:33:46Z	2017-01-16T12:16:51Z	2017-01-11T14:33:00Z	test, eslintrc: s/assert.equal/assert.strictEqual/	46		
 10699	1189785	true	closed	false	3	0	2017-01-09T03:42:22Z	2017-01-12T16:14:45Z	2017-01-12T16:14:45Z	test: improve test stream transform constructor	61		
-10700	3367801	true	open	false	0		2017-01-09T04:42:10Z	2017-01-10T05:19:20Z		test: refactor test-net-isip.js	29		
+10700	3367801	true	open	false	2		2017-01-09T04:42:10Z	2017-01-16T21:48:22Z		test: refactor test-net-isip.js	29		
 10701	3367801	true	closed	false	1		2017-01-09T07:12:08Z	2017-01-10T22:03:11Z	2017-01-10T22:03:11Z	test: refactor cluster-preload.js	37		
 10702	4337080	true	open	false	0		2017-01-09T07:28:24Z	2017-01-10T18:49:45Z		doc: keepAliveMsecs refers to an initial delay not interval	62		
 10703	24735504	false	open	false	6		2017-01-09T10:18:16Z	2017-01-11T09:03:27Z		"not support file URLs containing drive specifiers (e.g., ""file:///c:/path"")"	25		
@@ -3937,7 +3937,7 @@
 10711	106150	false	closed	false	2		2017-01-09T15:50:13Z	2017-01-09T18:06:47Z	2017-01-09T18:06:47Z	Internal error in Node's debugger.  Please report this bug	73		
 10712	1794099	true	open	false	1		2017-01-09T15:54:16Z	2017-01-10T21:11:06Z		Fix missing negation	15		
 10713	22550884	true	open	false	6		2017-01-09T17:27:44Z	2017-01-10T23:08:02Z		test: buffer read functions tests  for noAssert in one file	19		
-10714	1189785	true	open	false			2017-01-09T17:29:24Z	2017-01-12T02:12:13Z		test: improve the code in test-process-cpuUsage	42		
+10714	1189785	true	closed	false	3		2017-01-09T17:29:24Z	2017-01-16T21:45:56Z	2017-01-16T21:45:56Z	test: improve the code in test-process-cpuUsage	42		
 10715	15952	true	open	false	6		2017-01-09T17:59:21Z	2017-01-12T18:26:16Z		doc: update http.md for consistency	187		
 10716	17607	true	closed	false	0	0	2017-01-09T20:37:20Z	2017-01-10T15:32:43Z	2017-01-10T15:32:43Z	doc: specify sorted tests	37		
 10717	2512748	true	closed	false	3	0	2017-01-09T22:14:37Z	2017-01-12T15:33:30Z	2017-01-12T15:33:30Z	deps: upgrade libuv to 1.10.2	82	2512748	2017-01-12T15:33:30Z
@@ -3948,11 +3948,11 @@
 10722	1080471	false	open	false	0		2017-01-10T14:17:09Z	2017-01-10T14:17:09Z		Incorrect SHASUM method listed on v4.4.7	36		
 10723	15943089	true	closed	false	8		2017-01-10T14:36:55Z	2017-01-16T12:22:05Z	2017-01-12T21:34:48Z	test: use realpath for NODE_TEST_DIR in common.js	90		
 10724	1762535	false	open	false	2		2017-01-10T16:22:00Z	2017-01-11T02:52:06Z		"process.domain is undefined after using ""await"" in node7 "	131		
-10725	962099	true	open	false	1		2017-01-10T16:43:42Z	2017-01-10T22:07:14Z		test: improve test-stream2-large-read-stall	61		
+10725	962099	true	open	false	6		2017-01-10T16:43:42Z	2017-01-16T21:46:36Z		test: improve test-stream2-large-read-stall	61		
 10726	193412	false	open	false	4		2017-01-10T17:05:26Z	2017-01-10T22:32:04Z		node js api document should link to LTS release from each page	106		
 10727	22373642	false	open	false	7		2017-01-10T18:27:51Z	2017-01-11T17:28:05Z		querystring.unescape() accepting input that is not URL escaped	204		
 10728	5804246	false	open	false	0		2017-01-10T22:08:17Z	2017-01-10T22:08:17Z		Async/Await should support generators	91		
-10729	3367801	true	open	false	0	0	2017-01-10T23:03:24Z	2017-01-10T23:03:24Z		test: refactor test-fs-read-zero-length.js	45		
+10729	3367801	true	open	false	1		2017-01-10T23:03:24Z	2017-01-16T21:47:19Z		test: refactor test-fs-read-zero-length.js	52		
 10730	115237	true	open	false			2017-01-10T23:45:08Z	2017-01-13T18:23:26Z		(backport) src/doc: improve man page and --help	7		
 10731	469365	false	open	false	4		2017-01-11T00:29:18Z	2017-01-12T16:13:50Z		`console.log(proxy)` invokes `get` trap with built-in Symbols	500		
 10732	79017	true	closed	false	3	2	2017-01-11T00:40:40Z	2017-01-12T22:30:14Z	2017-01-12T22:30:14Z	deps: V8: fix backtrace for symbols	106		
@@ -3962,11 +3962,11 @@
 10736	559569	false	closed	false	1		2017-01-11T11:29:47Z	2017-01-11T14:25:37Z	2017-01-11T14:25:37Z	fs.writeFile - ENAMETOOLONG error is not being caught	97		
 10737	4299420	true	open	false	2		2017-01-11T11:41:06Z	2017-01-14T07:01:10Z		"benchmark: use ""confidence"" in output of compare.R"	53		
 10738	24838796	false	closed	false	2		2017-01-11T14:23:09Z	2017-01-12T02:13:28Z	2017-01-11T14:56:22Z	"get error ""RangeError: Invalid string length"""	61		
-10739	439929	true	open	false	9		2017-01-11T15:13:26Z	2017-01-16T18:05:48Z		fs: allow WHATWG URL and file: URLs as paths	207		
+10739	439929	true	open	false			2017-01-11T15:13:26Z	2017-01-16T21:19:01Z		fs: allow WHATWG URL and file: URLs as paths	207		
 10740	3367801	true	open	false	1		2017-01-11T15:45:43Z	2017-01-11T16:40:44Z		test: refactor codes in fixtures	32		
 10741	711968	true	closed	false	0		2017-01-11T16:17:32Z	2017-01-13T17:55:36Z	2017-01-13T17:55:36Z	doc: remove duplicate properties bullet in readme	46		
 10742	54666	false	closed	false	2		2017-01-11T17:33:40Z	2017-01-12T01:19:36Z	2017-01-12T01:19:36Z	Investigate flaky test-fs-readfile-tostring-fail on macOS	40		
-10743	291301	true	closed	false	2		2017-01-11T18:47:26Z	2017-01-16T19:30:45Z	2017-01-16T19:30:45Z	doc: note v5, v0.10, v0.12 EOL in the CHANGELOG	115		
+10743	291301	true	closed	false	3		2017-01-11T18:47:26Z	2017-01-16T21:17:51Z	2017-01-16T19:30:45Z	doc: note v5, v0.10, v0.12 EOL in the CHANGELOG	115		
 10744	718899	true	closed	false	7		2017-01-11T19:21:22Z	2017-01-12T01:19:03Z	2017-01-12T01:19:03Z	test: move resource intensive test to sequential	50		
 10745	1281234	false	open	false	3		2017-01-11T19:48:35Z	2017-01-13T14:36:29Z		Add fs.statvfs function to get disk size/free/available space + other info	53		
 10746	2512748	true	closed	false	5	16	2017-01-11T20:47:22Z	2017-01-13T22:08:30Z	2017-01-13T22:08:30Z	cluster: refactor module into multiple files	119	2512748	2017-01-13T22:08:30Z
@@ -3993,7 +3993,7 @@
 10767	7282720	true	open	false	0	0	2017-01-12T18:08:45Z	2017-01-12T18:08:45Z		child_process: Allow an unlimited maxBuffer size in child_process	31		
 10768	17607	false	open	false	0		2017-01-12T18:43:30Z	2017-01-12T18:43:30Z		maxBuffer of Infinity aborts child_process.execSync	196		
 10769	2512748	true	open	false	7		2017-01-12T18:44:09Z	2017-01-16T20:33:03Z		child_process: allow Infinity as maxBuffer value	34		
-10770	469365	false	open	false	0		2017-01-12T19:06:57Z	2017-01-12T19:06:57Z		Unclear docs on copying/sharing memory for Buffer.from(arrayBuffer)	166		
+10770	469365	false	closed	false	1		2017-01-12T19:06:57Z	2017-01-16T21:39:07Z	2017-01-16T21:39:07Z	Unclear docs on copying/sharing memory for Buffer.from(arrayBuffer)	166		
 10771	17607	true	open	false	6		2017-01-12T19:38:15Z	2017-01-12T21:14:31Z		Eslint fixes	33		
 10772	3367801	true	open	false	1		2017-01-12T19:42:20Z	2017-01-16T13:39:11Z		test: add test cases to test-readline-keys.js	45		
 10773	1730156	false	open	false	0		2017-01-12T19:49:15Z	2017-01-12T19:49:15Z		assert: assert.ok(10) passes but assert.ok(0) fails.	154		
@@ -4001,13 +4001,13 @@
 10775	2467217	false	open	false	0		2017-01-12T20:26:59Z	2017-01-12T20:26:59Z		Strange multiple assignment behavior in v7.3.x and 7.4.x	81		
 10776	582698	true	open	false	7		2017-01-12T20:49:00Z	2017-01-15T23:37:27Z		test: get rid of done in test-dns and use common.mustCall	59		
 10777	718899	true	closed	false	1		2017-01-12T20:55:50Z	2017-01-16T02:34:03Z	2017-01-16T02:34:03Z	test: add coverage for repl .clear + useGlobal	64		
-10778	469365	true	open	false	0	0	2017-01-13T00:30:25Z	2017-01-13T00:30:25Z		doc: clarify memory sharing behavior of buffer ctor	45		
+10778	469365	true	closed	false	0		2017-01-13T00:30:25Z	2017-01-16T21:38:56Z	2017-01-16T21:38:56Z	doc: clarify memory sharing behavior of buffer ctor	45		
 10779	1189785	true	closed	false	2	0	2017-01-13T00:34:25Z	2017-01-16T18:48:11Z	2017-01-16T18:48:11Z	test: improve test-fs-write-stream-throw-type	43		
 10780	3367801	true	open	false	1		2017-01-13T00:47:11Z	2017-01-16T20:02:29Z		test: add tests for rs+, sr+ to test-fs-open-flags.js	41		
 10781	983798	true	open	false	0		2017-01-13T01:47:51Z	2017-01-13T02:59:51Z		deps: upgrade npm to 4.1.1	89		
 10782	317571	false	open	false	0		2017-01-13T03:43:45Z	2017-01-13T03:43:45Z		v7.x branch casues Bus error with `ember`	372		
-10783	3367801	true	open	false			2017-01-13T05:02:35Z	2017-01-15T23:23:12Z		test: update coverage for dgram.js	63		
-10784	718899	true	open	false	1		2017-01-13T06:19:31Z	2017-01-15T16:52:40Z		test: increase test-crypto.js strictness	40		
+10783	3367801	true	open	false	2		2017-01-13T05:02:35Z	2017-01-16T21:42:51Z		test: update coverage for dgram.js	63		
+10784	718899	true	closed	false	2		2017-01-13T06:19:31Z	2017-01-16T21:41:15Z	2017-01-16T21:41:15Z	test: increase test-crypto.js strictness	40		
 10785	718899	true	closed	false	3	3	2017-01-13T06:49:01Z	2017-01-16T18:43:31Z	2017-01-16T18:43:31Z	test,util: remove lint workarounds	59		
 10786	3367801	true	open	false	5		2017-01-13T11:25:55Z	2017-01-16T18:35:36Z		test: add crypto's setEngine test	70		
 10787	533294	false	open	false	1		2017-01-13T12:04:43Z	2017-01-13T17:12:59Z		"Documentation for HttpClient ""abort"" and ""aborted"" events mixed up."	215		
@@ -4042,7 +4042,7 @@
 10816	718899	true	open	false			2017-01-15T06:49:46Z	2017-01-16T04:16:02Z		vm: improve performance of vm.runIn*()	129		
 10817	7455872	true	open	false			2017-01-15T12:54:15Z	2017-01-15T18:50:06Z		HTTP response getHeader doc fix	33		
 10818	1443911	true	open	false			2017-01-15T14:00:17Z	2017-01-16T14:22:18Z		http: make `request.abort()` destroy the socket	67		
-10819	711968	false	open	false	0		2017-01-15T15:24:30Z	2017-01-16T15:30:31Z		child_process: fork does not accept null or undefined args array	69		
+10819	711968	false	open	false	3		2017-01-15T15:24:30Z	2017-01-16T21:21:47Z		child_process: fork does not accept null or undefined args array	69		
 10820	3367801	true	open	false			2017-01-15T16:45:00Z	2017-01-16T02:16:30Z		test: increase coverage of _http_outgoing	38		
 10821	1538624	false	open	false	0		2017-01-15T19:01:07Z	2017-01-15T19:01:07Z		url: track status of a spec-compliant URLSearchParams	66		
 10822	696611	true	open	false			2017-01-15T19:09:10Z	2017-01-16T19:14:40Z		test: increase timeout in break-on-uncaught	80		
@@ -4055,7 +4055,7 @@
 10829	899444	true	open	false			2017-01-16T01:00:24Z	2017-01-16T13:58:29Z		doc: add links for zlib convenience methods	44		
 10830	1189785	true	closed	false	1		2017-01-16T03:24:23Z	2017-01-16T20:01:37Z	2017-01-16T20:01:37Z	test: improve code in test-http-host-headers	45		
 10831	782880	true	open	false			2017-01-16T05:11:18Z	2017-01-16T06:18:32Z		Backport ALPN to v4.x LTS	70		
-10832	3367801	true	open	false			2017-01-16T07:50:14Z	2017-01-16T17:48:05Z		test: add http-common's test	45		
+10832	3367801	true	open	false	0		2017-01-16T07:50:14Z	2017-01-16T21:23:11Z		test: add http-common's test	45		
 10833	327019	true	open	false			2017-01-16T09:20:52Z	2017-01-16T15:11:08Z		http: use direct parameters instead	51		
 10834	327019	true	open	false	0		2017-01-16T09:23:08Z	2017-01-16T15:09:25Z		lib: remove unnecessary parameter for assertCrypto()	36		
 10835	17702550	false	open	false	0		2017-01-16T12:15:35Z	2017-01-16T12:15:35Z		PROTOCOL_CONNECTION_LOST	61		
@@ -4063,3 +4063,5 @@
 10837	54666	true	open	false			2017-01-16T15:21:28Z	2017-01-16T16:23:36Z		querystring: improve unescapeBuffer performance	77		
 10838	607109	false	open	false	0		2017-01-16T16:26:53Z	2017-01-16T16:26:53Z		"Malformed ""url"" parameter in ""Debugger.scriptParsed"" event"	91		
 10839	15943089	true	open	false	0	0	2017-01-16T16:35:13Z	2017-01-16T16:35:13Z		"Revert ""doc: correct vcbuild options for windows testing"""	57		
+10840	2512748	true	open	false	0		2017-01-16T21:13:04Z	2017-01-16T21:16:55Z		test: fix broken assertion	55		
+10841	1716463	true	open	false	0	0	2017-01-16T21:19:05Z	2017-01-16T21:19:05Z		test: Use `common.hasIntl` in tests related to ICU	89		
