@@ -250,7 +250,7 @@
 5098	1898870	true	closed	false	14		2016-02-05T11:10:32Z	2016-07-25T11:17:50Z	2016-03-22T05:24:37Z	fs: make 'fs.exists' follow the error first callback convention	21		
 5099	66357	true	closed	false	27		2016-02-05T11:14:11Z	2016-06-30T18:53:59Z	2016-06-15T04:28:38Z	test: fix test-net-* error code check for getaddrinfo(3)	34		
 5111	718899	false	closed	false	5		2016-02-06T00:11:40Z	2016-07-04T05:30:38Z	2016-07-04T05:30:38Z	Investigate flaky test-tls-session-cache	4		
-5156	349336	true	open	false	17		2016-02-09T09:04:17Z	2017-01-17T10:09:35Z		Doc: stream becomes paused after unpipe. 	12		
+5156	349336	true	closed	false	18	2	2016-02-09T09:04:17Z	2017-01-17T19:26:57Z	2017-01-17T19:26:57Z	Doc: stream becomes paused after unpipe. 	12		
 5160	558581	false	open	false	11		2016-02-09T17:32:03Z	2016-10-27T13:56:28Z		Space in network share name(UNC path) causes unknown error	308		
 5173	3929632	true	closed	false	2	0	2016-02-10T09:38:19Z	2016-06-29T12:15:22Z	2016-06-29T12:15:22Z	Update install.py	113		
 5183	718899	false	closed	false	2		2016-02-10T19:46:20Z	2016-06-29T22:31:10Z	2016-06-29T22:31:10Z	Investigate flaky test-async-wrap-check-providers	4		
@@ -3006,7 +3006,7 @@
 9770	17607	true	open	false	9		2016-11-23T16:53:27Z	2017-01-17T04:05:07Z		Extendable ca certs v6	49		
 9771	17607	true	open	false	0	0	2016-11-23T17:02:44Z	2016-11-23T17:02:44Z		Extendable ca certs v4	49		
 9772	9373002	true	closed	false	5		2016-11-23T17:20:32Z	2016-11-25T15:41:01Z	2016-11-25T15:41:01Z	test: exclude no_interleaved_stdio test for AIX	82		
-9773	1037138	true	open	false	17		2016-11-23T18:54:27Z	2016-12-13T18:39:48Z		Debugger - Filter out the ending of the Module wrapper when using the list command	157		
+9773	1037138	true	open	false	19		2016-11-23T18:54:27Z	2017-01-17T19:51:20Z		Debugger - Filter out the ending of the Module wrapper when using the list command	157		
 9774	2512748	true	closed	false	2	6	2016-11-23T20:16:45Z	2016-12-13T21:26:46Z	2016-12-13T21:26:46Z	Backport: repl: don't override all internal repl defaults	10		
 9775	2512748	true	closed	false	1		2016-11-23T20:50:03Z	2016-12-13T21:27:08Z	2016-12-13T21:27:08Z	Backport: test: refactor large event emitter tests	10		
 9776	2512748	true	open	false	3		2016-11-23T22:03:05Z	2016-12-13T21:27:20Z		Backport: assert: Fix deepEqual/deepStrictEqual on equivalent typed arrays	32		
@@ -3286,7 +3286,7 @@
 10050	7131961	true	closed	false	15		2016-12-01T18:04:15Z	2016-12-29T05:38:13Z	2016-12-28T05:33:25Z	doc: Update rinfo object definition for UDP message event	41		
 10051	109983	true	closed	false	4	2	2016-12-01T18:06:16Z	2016-12-08T00:22:59Z	2016-12-08T00:22:59Z	test: refactors test-tls-client-verify	45		
 10052	2723032	true	closed	false	8		2016-12-01T18:07:50Z	2016-12-05T00:37:43Z	2016-12-05T00:37:43Z	gitignore: add osx .DS_STORE files	57		
-10053	4448075	true	open	false	15		2016-12-01T18:08:18Z	2017-01-17T18:23:17Z		http: throw an error for unexpected agent values	69		
+10053	4448075	true	open	false	18		2016-12-01T18:08:18Z	2017-01-17T19:08:03Z		http: throw an error for unexpected agent values	69		
 10054	8404857	true	closed	false	4		2016-12-01T18:10:42Z	2016-12-24T06:14:12Z	2016-12-24T06:14:12Z	test: refactor test-pipe-file-to-http	62		
 10055	19396993	true	open	false			2016-12-01T18:13:01Z	2016-12-04T18:07:51Z		test: refactor test-crypto-hash-stream-pipe	54		
 10056	2294736	true	closed	false	2	0	2016-12-01T18:14:07Z	2016-12-04T05:14:12Z	2016-12-04T05:14:12Z	test: update var to let/const and assert.equal to assert.strictEqual.	51		
@@ -3878,7 +3878,7 @@
 10648	1189785	true	closed	false	3		2017-01-05T22:40:03Z	2017-01-09T17:27:38Z	2017-01-09T17:27:38Z	test: improve code in test-https-strict	46		
 10649	1486340	false	open	false	0		2017-01-06T00:03:53Z	2017-01-06T09:41:32Z		Bundled zlib is compiled despite the --shared-zlib configure-flag	104		
 10650	24947163	false	closed	false	4		2017-01-06T00:16:34Z	2017-01-15T22:44:36Z	2017-01-15T22:44:36Z	inspect reserved keyword for class function	91		
-10651	15161981	true	open	false	7		2017-01-06T00:20:27Z	2017-01-10T19:41:44Z		"""--"" after ""-e <script>"" means end-of-options"	69		
+10651	15161981	true	open	false			2017-01-06T00:20:27Z	2017-01-17T19:04:57Z		"""--"" after ""-e <script>"" means end-of-options"	69		
 10652	899444	true	closed	false	3		2017-01-06T01:04:27Z	2017-01-11T17:32:12Z	2017-01-11T17:32:12Z	doc: mention cc-ing nodejs/url team for reviews	21		
 10653	899444	true	closed	false	5	0	2017-01-06T01:23:46Z	2017-01-10T19:37:39Z	2017-01-10T19:37:39Z	child_process: support Uint8Array input to methods	47		
 10654	54666	true	closed	false	4	8	2017-01-06T08:18:10Z	2017-01-13T21:13:05Z	2017-01-13T21:13:05Z	http: improve ClientRequest constructor	102	54666	2017-01-13T21:13:05Z
@@ -3998,7 +3998,7 @@
 10769	2512748	true	open	false	8		2017-01-12T18:44:09Z	2017-01-17T15:19:48Z		child_process: allow Infinity as maxBuffer value	34		
 10770	469365	false	closed	false	1		2017-01-12T19:06:57Z	2017-01-16T21:39:07Z	2017-01-16T21:39:07Z	Unclear docs on copying/sharing memory for Buffer.from(arrayBuffer)	166		
 10771	17607	true	open	false	6		2017-01-12T19:38:15Z	2017-01-12T21:14:31Z		Eslint fixes	33		
-10772	3367801	true	open	false	1		2017-01-12T19:42:20Z	2017-01-16T13:39:11Z		test: add test cases to test-readline-keys.js	45		
+10772	3367801	true	open	false	3		2017-01-12T19:42:20Z	2017-01-17T19:10:56Z		test: add test cases to test-readline-keys.js	45		
 10773	1730156	false	open	false	0		2017-01-12T19:49:15Z	2017-01-12T19:49:15Z		assert: assert.ok(10) passes but assert.ok(0) fails.	154		
 10774	15952	false	closed	false	4		2017-01-12T19:50:54Z	2017-01-13T16:04:31Z	2017-01-13T16:04:31Z	HTTP client connection pooling and keep-alive behavior is confusing	511		
 10775	2467217	false	open	false	0		2017-01-12T20:26:59Z	2017-01-12T20:26:59Z		Strange multiple assignment behavior in v7.3.x and 7.4.x	81		
@@ -4049,7 +4049,7 @@
 10820	3367801	true	open	false			2017-01-15T16:45:00Z	2017-01-16T02:16:30Z		test: increase coverage of _http_outgoing	38		
 10821	1538624	false	open	false	0		2017-01-15T19:01:07Z	2017-01-15T19:01:07Z		url: track status of a spec-compliant URLSearchParams	66		
 10822	696611	true	open	false			2017-01-15T19:09:10Z	2017-01-16T19:14:40Z		test: increase timeout in break-on-uncaught	80		
-10823	4299420	true	open	false			2017-01-15T19:09:52Z	2017-01-17T18:16:21Z		benchmark: add progress indicator to compare.js	65		
+10823	4299420	true	open	false			2017-01-15T19:09:52Z	2017-01-17T19:46:25Z		benchmark: add progress indicator to compare.js	65		
 10824	899444	false	open	false	1		2017-01-15T19:44:02Z	2017-01-15T22:43:30Z		querystring should maybe support Buffers	64		
 10825	1658949	false	open	false	3		2017-01-15T22:45:21Z	2017-01-16T14:10:25Z		"Conflicting ""Added in"" versions"	40		
 10826	899444	true	open	false			2017-01-15T22:57:24Z	2017-01-17T00:45:59Z		doc: minor fixups for `added` tags	32		
@@ -4079,8 +4079,8 @@
 10850	432351	true	open	false	0	0	2017-01-17T06:57:14Z	2017-01-17T06:57:14Z		build: move source files from headers section	63		
 10851	432351	true	open	false	0	0	2017-01-17T07:14:53Z	2017-01-17T07:14:53Z		build: add missing src/tracing header files	62		
 10852	54666	true	open	false	0	0	2017-01-17T08:05:36Z	2017-01-17T08:05:36Z		querystring: improve stringify() performance	56		
-10853	988441	true	open	false	5		2017-01-17T09:38:30Z	2017-01-17T18:24:04Z		doc: clarify the behavior of readFile with fd	137		
+10853	988441	true	open	false	9		2017-01-17T09:38:30Z	2017-01-17T19:02:15Z		doc: clarify the behavior of readFile with fd	142		
 10854	15943089	true	open	false	0	0	2017-01-17T10:54:47Z	2017-01-17T10:54:47Z		test: don't connect to :: (use localhost instead)	123		
 10855	1205100	false	open	false	5		2017-01-17T12:06:02Z	2017-01-17T17:04:07Z		"child_process.spawn(""vcbuild.bat"",...) hangs in virtual windows"	71		
 10856	12443664	true	open	false	1		2017-01-17T15:00:50Z	2017-01-17T16:08:36Z		Build: Produce C/JS code coverage reports from make	270		
-10857	439929	true	open	false	0	0	2017-01-17T17:11:47Z	2017-01-17T17:11:47Z		url: extend url.format to support WHATWG URL	116		
+10857	439929	true	open	false	2		2017-01-17T17:11:47Z	2017-01-17T19:02:03Z		url: extend url.format to support WHATWG URL	116		
