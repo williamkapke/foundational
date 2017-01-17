@@ -250,7 +250,7 @@
 5098	1898870	true	closed	false	14		2016-02-05T11:10:32Z	2016-07-25T11:17:50Z	2016-03-22T05:24:37Z	fs: make 'fs.exists' follow the error first callback convention	21		
 5099	66357	true	closed	false	27		2016-02-05T11:14:11Z	2016-06-30T18:53:59Z	2016-06-15T04:28:38Z	test: fix test-net-* error code check for getaddrinfo(3)	34		
 5111	718899	false	closed	false	5		2016-02-06T00:11:40Z	2016-07-04T05:30:38Z	2016-07-04T05:30:38Z	Investigate flaky test-tls-session-cache	4		
-5156	349336	true	open	false	15		2016-02-09T09:04:17Z	2017-01-06T19:18:03Z		Doc: stream becomes paused after unpipe. 	12		
+5156	349336	true	open	false	17		2016-02-09T09:04:17Z	2017-01-17T10:09:35Z		Doc: stream becomes paused after unpipe. 	12		
 5160	558581	false	open	false	11		2016-02-09T17:32:03Z	2016-10-27T13:56:28Z		Space in network share name(UNC path) causes unknown error	308		
 5173	3929632	true	closed	false	2	0	2016-02-10T09:38:19Z	2016-06-29T12:15:22Z	2016-06-29T12:15:22Z	Update install.py	113		
 5183	718899	false	closed	false	2		2016-02-10T19:46:20Z	2016-06-29T22:31:10Z	2016-06-29T22:31:10Z	Investigate flaky test-async-wrap-check-providers	4		
@@ -313,6 +313,7 @@
 5893	200959	false	closed	false	16		2016-03-24T20:27:43Z	2016-10-30T18:43:09Z	2016-05-13T23:31:33Z	Native DNS caching for lookups	62		
 5900	7657959	false	closed	false	36		2016-03-25T12:02:48Z	2017-01-06T00:28:45Z	2016-07-13T05:30:41Z	Segmentation fault in node v5.*	191		
 5904	275871	true	closed	false	17		2016-03-25T17:36:35Z	2016-07-12T14:07:16Z	2016-05-10T09:27:40Z	src: fix sporadic deadlock in SIGUSR1 handler	122		
+5906	10672721	true	open	false	5		2016-03-25T19:31:48Z	2017-01-17T10:15:47Z		stream: remove unnecessary wrapping of chunks in object mode	69		
 5930	1328807	false	closed	false	1		2016-03-28T05:10:08Z	2017-01-09T12:10:15Z	2017-01-09T12:10:15Z	Debugger executes on first line, before intended breakpoint	106		
 5958	3625244	true	closed	false	50		2016-03-30T17:34:00Z	2016-07-11T19:53:17Z	2016-05-13T15:37:10Z	repl: Copying tab characters into the repl calls tabComplete	90		
 5991	15197820	false	open	false	4		2016-04-01T04:10:50Z	2016-07-06T06:35:33Z		When I write áéíóú, process.stdout.write in Windows English version, process.stdout is closed	35		
@@ -432,6 +433,7 @@
 6747	439929	true	closed	false	4	0	2016-05-13T21:21:47Z	2016-08-09T20:33:21Z	2016-08-09T20:33:21Z	test: add known-issue tests for various http related issues	44		
 6749	439929	true	closed	false	42		2016-05-13T22:29:10Z	2016-11-14T03:52:48Z	2016-09-02T17:38:46Z	fs: move SyncWriteStream to internal/fs	87		
 6752	4923668	false	open	false	1		2016-05-14T00:43:12Z	2016-09-17T08:21:50Z		Document how to test if a file exists	112		
+6761	1267409	true	open	false	4		2016-05-14T18:01:59Z	2017-01-17T10:19:42Z		stream: Correct bufferedRequestCount in writes	56		
 6763	988441	false	closed	false	12		2016-05-14T20:27:49Z	2016-10-26T13:47:55Z	2016-10-26T13:47:55Z	setTimeout delayed when sleeping on Windows	145		
 6764	718899	true	closed	false	29		2016-05-14T22:32:23Z	2016-07-11T22:38:14Z	2016-05-25T17:59:19Z	child_process: measure buffer length in bytes	75		
 6773	1093990	true	open	false	48		2016-05-15T16:26:54Z	2016-09-18T04:29:32Z		process: flush stdout/stderr upon `process.exit()`	68		
@@ -500,7 +502,7 @@
 7049	54666	true	closed	false	8		2016-05-29T16:27:18Z	2016-12-29T17:04:14Z	2016-06-07T04:05:36Z	test: fix spawn on windows	64		
 7050	2512748	true	closed	false	5		2016-05-29T18:07:21Z	2016-07-11T21:59:19Z	2016-05-31T13:22:45Z	cluster: rewrite debug ports consistently	115		
 7056	899444	true	closed	false	11		2016-05-29T23:50:19Z	2016-07-11T23:40:06Z	2016-06-08T09:42:55Z	test: fix tests for non-crypto builds	57		
-7057	416585	true	open	false	1		2016-05-30T00:44:54Z	2016-10-10T10:35:53Z		doc: improve readable.unshift example	65		
+7057	416585	true	open	false	2		2016-05-30T00:44:54Z	2017-01-17T10:35:52Z		doc: improve readable.unshift example	65		
 7060	49318	false	closed	false	2		2016-05-30T09:11:28Z	2016-07-05T16:17:08Z	2016-07-05T16:17:08Z	"Will node.js be adapted to work with the new Windows Bash ""subsystem for Linux"" ?"	112		
 7061	6330334	false	closed	false	2		2016-05-30T11:37:48Z	2016-07-13T15:52:22Z	2016-07-13T15:52:22Z	Crashes when UDP/dgram socket is closed during listening event handler	391		
 7064	15861995	false	closed	false	4		2016-05-30T15:43:15Z	2016-07-05T16:14:44Z	2016-07-05T16:14:44Z	Spawn process exit code: 3221225794	75		
@@ -2145,7 +2147,7 @@
 8911	15943089	false	closed	false	7		2016-10-03T17:12:39Z	2016-12-02T09:11:30Z	2016-10-07T14:56:40Z	Avoiding firewall warnings on macOS Sierra when built from source	51		
 8912	479538	false	closed	false	10		2016-10-03T19:50:58Z	2017-01-10T18:13:56Z	2017-01-10T18:13:56Z	Debugging: Stabilize hidden classes for improved heap snapshots	143		
 8913	479538	false	open	false	44		2016-10-03T19:58:01Z	2016-12-02T04:43:35Z		Debugging: name every function	95		
-8914	4268223	true	open	false	8		2016-10-03T21:15:45Z	2017-01-17T09:06:56Z		test: tests for _readableStream.awaitDrain	30		
+8914	4268223	true	open	false	11		2016-10-03T21:15:45Z	2017-01-17T10:45:55Z		test: tests for _readableStream.awaitDrain	30		
 8915	718899	false	closed	false	17		2016-10-03T21:59:48Z	2016-10-06T21:35:24Z	2016-10-06T21:35:24Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-10-05	462		
 8916	5704064	true	open	false	0	0	2016-10-03T22:08:06Z	2016-10-03T22:08:06Z		doc: correct grammar on major documents 	29		
 8917	176984	false	closed	false	5		2016-10-03T22:50:55Z	2016-10-04T16:23:15Z	2016-10-03T23:01:37Z	failed test: parallel/test-tick-processor-unknown (smartos16)	696		
@@ -2361,7 +2363,7 @@
 9127	22756824	false	closed	false	2		2016-10-17T08:01:24Z	2016-10-17T16:31:46Z	2016-10-17T08:27:43Z	Node installed but not linked	41		
 9128	498775	true	closed	false	0		2016-10-17T08:32:37Z	2016-10-19T15:49:32Z	2016-10-19T15:49:32Z	doc: suggest nodejs/help for general support	11		
 9129	22882405	false	closed	false	3		2016-10-17T08:41:01Z	2016-10-17T09:09:28Z	2016-10-17T09:09:28Z	"""resolv.h"" doesn't compile on MacOS for  c++ native modules "	81		
-9130	7273940	true	open	false	6		2016-10-17T11:53:29Z	2016-11-08T08:39:08Z		stream: name anonymous functions	56		
+9130	7273940	true	open	false			2016-10-17T11:53:29Z	2017-01-17T10:27:23Z		stream: name anonymous functions	56		
 9131	984628	false	closed	false	5		2016-10-17T12:15:19Z	2016-10-27T13:09:49Z	2016-10-21T15:30:54Z	discussion: implement green threads in nodejs	88		
 9132	275871	true	closed	false	6		2016-10-17T12:18:11Z	2016-11-18T10:58:16Z	2016-10-24T20:32:02Z	src: speed up module loading	2		
 9133	6917800	true	open	false	4		2016-10-17T12:18:14Z	2016-10-18T10:16:32Z		test: Improvement for testing of execSync	81		
@@ -4016,7 +4018,7 @@
 10789	54666	true	open	false			2017-01-13T15:07:46Z	2017-01-13T18:09:31Z		module: improve require() performance	284		
 10790	22550884	true	open	false			2017-01-13T17:27:12Z	2017-01-14T22:59:53Z		test: testing noAssert in buffer.write()	34		
 10791	22550884	true	closed	false	1		2017-01-13T17:52:06Z	2017-01-16T18:34:05Z	2017-01-16T18:34:05Z	test: delete duplicate test of noAssert in readUInt*	27		
-10792	677994	false	open	false	3		2017-01-13T19:08:05Z	2017-01-13T23:09:04Z		Proposal to move guides to nodejs/nodejs.org	72		
+10792	677994	false	open	false	4		2017-01-13T19:08:05Z	2017-01-17T10:02:30Z		Proposal to move guides to nodejs/nodejs.org	72		
 10793	21090493	false	open	false	13		2017-01-13T19:27:12Z	2017-01-14T00:01:45Z		Child Process: fork stdio option doesn't support the String variant that spawn does	99		
 10794	1063492	false	open	false	0		2017-01-13T22:22:58Z	2017-01-13T22:22:58Z		Proposal for better cluster tuning	189		
 10795	718899	true	closed	false	4		2017-01-14T00:02:03Z	2017-01-17T04:32:32Z	2017-01-17T04:32:32Z	crypto,tls: fix mutability of return values	85		
@@ -4078,3 +4080,4 @@
 10851	432351	true	open	false	0	0	2017-01-17T07:14:53Z	2017-01-17T07:14:53Z		build: add missing src/tracing header files	62		
 10852	54666	true	open	false	0	0	2017-01-17T08:05:36Z	2017-01-17T08:05:36Z		querystring: improve stringify() performance	56		
 10853	988441	true	open	false	0	0	2017-01-17T09:38:30Z	2017-01-17T09:38:30Z		doc: clarify the behavior of readFile with fd	136		
+10854	15943089	true	open	false	0	0	2017-01-17T10:54:47Z	2017-01-17T10:54:47Z		test: don't connect to :: (use localhost instead)	123		
