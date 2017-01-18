@@ -40,7 +40,7 @@
 1278	532414	false	closed	false	37		2015-03-26T19:55:14Z	2016-08-22T21:08:42Z	2016-02-12T21:20:04Z	Compressed packages	136		
 1374	10247	false	closed	false	16		2015-04-08T13:46:19Z	2016-10-21T07:20:28Z	2015-09-03T06:13:19Z	Fatal Error (Abort) creating string larger than 268435440 bytes	93		
 1495	902041	false	open	false	31		2015-04-21T23:54:21Z	2016-08-28T10:02:20Z		TLS Module: The default ecdhCurve, prime256v1 (aka NIST P-256) is not safe.	64		
-1568	1848357	true	open	false	31		2015-04-30T18:13:47Z	2017-01-18T00:09:05Z		core: implement resourceUsage()	79		
+1568	1848357	true	open	false	32		2015-04-30T18:13:47Z	2017-01-18T05:48:54Z		core: implement resourceUsage()	79		
 1592	617235	false	closed	false	206		2015-05-02T19:25:40Z	2016-10-05T19:11:59Z	2016-10-05T19:11:59Z	gripe: deprecating fs.exists/existsSync	202		
 1634	495647	false	open	false	10		2015-05-06T04:07:08Z	2016-08-03T18:19:05Z		Race condition on history file with multiple REPLs	57		
 1671	291301	false	open	false	51		2015-05-11T05:25:09Z	2016-07-19T11:45:03Z		`Buffer` and `ArrayBuffer`-based objects trigger mark-sweeps instead of scavenges	67		
@@ -66,7 +66,7 @@
 2126	122831	false	open	false	8		2015-07-07T21:10:41Z	2016-07-11T22:19:43Z		SNICallback callback doesn't throw an error with invalid input	77		
 2133	829734	true	closed	false	149		2015-07-08T12:31:57Z	2017-01-16T04:05:15Z	2016-12-11T14:25:53Z	workers: initial implementation	56		
 2138	495647	false	closed	false	24		2015-07-09T00:43:28Z	2016-06-30T05:17:39Z	2016-06-30T05:17:39Z	Process startup time on ARM	248		
-2198	430233	false	closed	false	10		2015-07-17T09:44:41Z	2017-01-10T08:33:24Z	2015-07-17T09:55:22Z	Cannot find module 'absolute-path'	112		
+2198	430233	false	closed	false	11		2015-07-17T09:44:41Z	2017-01-18T05:29:45Z	2015-07-17T09:55:22Z	Cannot find module 'absolute-path'	112		
 2232	1093990	true	closed	false	10		2015-07-24T00:46:36Z	2016-07-07T20:08:56Z	2016-01-11T20:54:45Z	Port from joyent/node: `timers: fix timeout when added in timer's callback`	11		
 2253	234659	true	closed	false	53		2015-07-27T16:53:56Z	2016-08-30T12:56:44Z	2016-05-11T18:52:36Z	ensure preload modules are always preloaded	30		
 2262	8316625	true	open	false	11		2015-07-28T17:26:23Z	2016-08-06T07:36:34Z		net: fix todo by propogating errors	23		
@@ -262,7 +262,7 @@
 5213	439929	false	closed	false	9		2016-02-13T04:41:36Z	2016-08-29T22:13:27Z	2016-08-29T22:13:27Z	Tracking: Revert #5102 when possible	36		
 5256	327019	true	closed	false	29	0	2016-02-16T08:27:34Z	2016-08-01T22:10:12Z	2016-08-01T22:10:12Z	buffer: speed up Buffer.isEncoding() method	9		
 5258	172594	false	open	false	17		2016-02-16T12:06:31Z	2016-09-23T20:50:53Z		Propose NODE_TLS_REJECT_UNAUTHORIZED be renamed	117		
-5261	1715054	false	open	false	16		2016-02-16T18:43:30Z	2017-01-16T22:51:28Z		Error: EPERM: operation not permitted, open 'C:\Users\username\.node_repl_history'	15		
+5261	1715054	false	open	false	18		2016-02-16T18:43:30Z	2017-01-18T05:07:07Z		Error: EPERM: operation not permitted, open 'C:\Users\username\.node_repl_history'	15		
 5266	1656054	false	closed	false	11		2016-02-17T00:03:03Z	2017-01-09T14:21:34Z	2017-01-09T14:21:34Z	Segfault when passing objects between vm contexts	221		
 5270	3832082	true	open	false	10		2016-02-17T06:10:56Z	2016-12-29T18:04:41Z		debugger: fix debugger blocked main thread	25		
 5285	568962	false	open	false	3		2016-02-17T16:20:08Z	2016-07-11T00:45:33Z		util: possible way to speed up util.format()	74		
@@ -3370,7 +3370,7 @@
 10132	4985028	true	closed	false	19		2016-12-06T00:33:41Z	2016-12-11T14:09:05Z	2016-12-11T00:54:19Z	Fix --preserve-symlinks, Enhancement to exploit	70		
 10133	7834613	false	open	false	0		2016-12-06T00:42:54Z	2016-12-06T00:42:54Z		http.Agent free sockets maintain reference to initial ClientRequest object until the socket is destroyed/closed	283		
 10134	7834613	true	closed	false	11		2016-12-06T03:11:55Z	2017-01-06T18:15:29Z	2017-01-06T18:15:29Z	http: Eliminate ClientRequest capture by Agent socket listeners	137		
-10135	275871	true	open	false			2016-12-06T03:55:43Z	2017-01-13T18:04:35Z		lib: be robust when process global is clobbered	66		
+10135	275871	true	open	false	28		2016-12-06T03:55:43Z	2017-01-18T05:34:14Z		lib: be robust when process global is clobbered	66		
 10136	2920525	true	closed	false	2		2016-12-06T05:44:11Z	2016-12-12T15:11:09Z	2016-12-12T15:11:09Z	doc: fix typo in code example of 'path' module	30		
 10137	680220	false	closed	false	9		2016-12-06T08:02:41Z	2016-12-08T17:10:47Z	2016-12-08T13:40:07Z	FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memory	199		
 10138	327019	true	closed	false	4	6	2016-12-06T09:48:18Z	2017-01-13T15:27:58Z	2017-01-13T15:27:58Z	http: make the expression test more faster	85		
@@ -4020,7 +4020,7 @@
 10789	54666	true	open	false			2017-01-13T15:07:46Z	2017-01-13T18:09:31Z		module: improve require() performance	284		
 10790	22550884	true	open	false			2017-01-13T17:27:12Z	2017-01-14T22:59:53Z		test: testing noAssert in buffer.write()	34		
 10791	22550884	true	closed	false	1		2017-01-13T17:52:06Z	2017-01-16T18:34:05Z	2017-01-16T18:34:05Z	test: delete duplicate test of noAssert in readUInt*	27		
-10792	677994	false	open	false	5		2017-01-13T19:08:05Z	2017-01-18T04:39:09Z		Proposal to move guides to nodejs/nodejs.org	72		
+10792	677994	false	open	false	8		2017-01-13T19:08:05Z	2017-01-18T05:24:27Z		Proposal to move guides to nodejs/nodejs.org	72		
 10793	21090493	false	open	false	13		2017-01-13T19:27:12Z	2017-01-14T00:01:45Z		Child Process: fork stdio option doesn't support the String variant that spawn does	99		
 10794	1063492	false	open	false	2		2017-01-13T22:22:58Z	2017-01-18T04:40:46Z		Proposal for better cluster tuning	189		
 10795	718899	true	closed	false	4		2017-01-14T00:02:03Z	2017-01-17T04:32:32Z	2017-01-17T04:32:32Z	crypto,tls: fix mutability of return values	85		
@@ -4071,7 +4071,7 @@
 10840	2512748	true	closed	false	3		2017-01-16T21:13:04Z	2017-01-17T00:42:47Z	2017-01-17T00:42:47Z	test: fix broken assertion	55		
 10841	1716463	true	open	false			2017-01-16T21:19:05Z	2017-01-17T08:52:30Z		test: Use `common.hasIntl` in tests related to ICU	89		
 10842	2512748	true	open	false	1		2017-01-16T22:01:51Z	2017-01-17T15:59:10Z		process: add NODE_NO_WARNINGS environment variable	60		
-10843	9287	false	open	false	4		2017-01-17T00:22:15Z	2017-01-17T03:25:09Z		What will Domain be replaced with?	153		
+10843	9287	false	open	false	6		2017-01-17T00:22:15Z	2017-01-18T05:13:01Z		What will Domain be replaced with?	153		
 10844	3367801	true	open	false	1		2017-01-17T01:52:49Z	2017-01-17T20:47:41Z		test: increase coverage of dns-lookup	40		
 10845	1189785	true	open	false			2017-01-17T02:36:35Z	2017-01-17T03:14:05Z		test: improve code in test-crypto-verify	53		
 10846	17607	true	open	false	0		2017-01-17T03:48:53Z	2017-01-17T21:41:44Z		tests for new tls.TLSSocket, and support for sec ctx options	39		
@@ -4090,5 +4090,5 @@
 10859	21203	true	open	false			2017-01-17T20:21:38Z	2017-01-18T01:41:04Z		crypto: don't reference |freelist_max_len| in OpenSSL 1.1.0.	67		
 10860	718899	true	open	false	0	0	2017-01-17T22:24:00Z	2017-01-17T22:24:00Z		test: simplify array initialization	26		
 10861	287917	true	open	false	0	0	2017-01-18T00:46:17Z	2017-01-18T00:46:17Z		test: have inspector test pick an open port	68		
-10862	327019	true	open	false	0	0	2017-01-18T03:55:31Z	2017-01-18T03:55:31Z		fs: remove unused parameter for encodeRealpathResult	35		
+10862	327019	true	open	false	0		2017-01-18T03:55:31Z	2017-01-18T05:22:54Z		fs: remove unused parameter for encodeRealpathResult	33		
 10863	3367801	true	open	false	0	0	2017-01-18T04:43:20Z	2017-01-18T04:43:20Z		test: increase coverage of starting-decoder	50		
