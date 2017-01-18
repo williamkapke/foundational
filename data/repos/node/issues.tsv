@@ -40,6 +40,7 @@
 1278	532414	false	closed	false	37		2015-03-26T19:55:14Z	2016-08-22T21:08:42Z	2016-02-12T21:20:04Z	Compressed packages	136		
 1374	10247	false	closed	false	16		2015-04-08T13:46:19Z	2016-10-21T07:20:28Z	2015-09-03T06:13:19Z	Fatal Error (Abort) creating string larger than 268435440 bytes	93		
 1495	902041	false	open	false	31		2015-04-21T23:54:21Z	2016-08-28T10:02:20Z		TLS Module: The default ecdhCurve, prime256v1 (aka NIST P-256) is not safe.	64		
+1568	1848357	true	open	false	31		2015-04-30T18:13:47Z	2017-01-18T00:09:05Z		core: implement resourceUsage()	79		
 1592	617235	false	closed	false	206		2015-05-02T19:25:40Z	2016-10-05T19:11:59Z	2016-10-05T19:11:59Z	gripe: deprecating fs.exists/existsSync	202		
 1634	495647	false	open	false	10		2015-05-06T04:07:08Z	2016-08-03T18:19:05Z		Race condition on history file with multiple REPLs	57		
 1671	291301	false	open	false	51		2015-05-11T05:25:09Z	2016-07-19T11:45:03Z		`Buffer` and `ArrayBuffer`-based objects trigger mark-sweeps instead of scavenges	67		
@@ -137,7 +138,7 @@
 3316	275871	true	closed	false	25		2015-10-10T20:20:46Z	2016-11-18T20:22:57Z	2016-06-30T11:49:55Z	debugger: make listen address configurable	5		
 3349	708850	false	open	false	49		2015-10-13T15:44:25Z	2016-12-05T14:10:15Z		Binaries for sunos do not work on Solaris 11.2 - 'GLIBCXX_3.4.20' not found	98		
 3370	1316152	false	open	false	41		2015-10-14T16:29:36Z	2016-07-12T14:06:17Z		Node 4.2 large memory spikes and timeouts on Heroku 	333		
-3384	115237	true	open	false	17		2015-10-15T12:57:10Z	2016-12-29T18:02:49Z		module: remove require('.') with NODE_PATH compat	15		
+3384	115237	true	open	false	17		2015-10-15T12:57:10Z	2017-01-18T00:38:09Z		module: remove require('.') with NODE_PATH compat	15		
 3402	595361	false	closed	false	202		2015-10-16T12:45:59Z	2016-12-04T15:34:28Z	2016-04-27T02:45:38Z	Don't resolve symlinks when requiring	120		
 3410	6677095	true	closed	false			2015-10-16T20:54:30Z	2016-09-23T13:18:56Z	2015-11-24T21:09:22Z	src: added big-endian check and support to UTF-16 encode	25		
 3431	1145335	false	closed	false	17		2015-10-19T07:06:43Z	2016-12-17T10:41:59Z	2015-10-20T03:03:33Z	Can not install nodejs 4 on Windows 7 64-bit	66		
@@ -249,6 +250,7 @@
 5095	8822573	false	closed	false	7		2016-02-05T00:53:51Z	2017-01-12T00:32:43Z	2017-01-12T00:32:43Z	node: unix sockets are slow in case of lots of small buffers	445		
 5098	1898870	true	closed	false	14		2016-02-05T11:10:32Z	2016-07-25T11:17:50Z	2016-03-22T05:24:37Z	fs: make 'fs.exists' follow the error first callback convention	21		
 5099	66357	true	closed	false	27		2016-02-05T11:14:11Z	2016-06-30T18:53:59Z	2016-06-15T04:28:38Z	test: fix test-net-* error code check for getaddrinfo(3)	34		
+5104	1523129	true	open	false	6		2016-02-05T18:53:20Z	2017-01-18T00:05:28Z		Update _http_server.js	9		
 5111	718899	false	closed	false	5		2016-02-06T00:11:40Z	2016-07-04T05:30:38Z	2016-07-04T05:30:38Z	Investigate flaky test-tls-session-cache	4		
 5156	349336	true	closed	false	18	2	2016-02-09T09:04:17Z	2017-01-17T19:26:57Z	2017-01-17T19:26:57Z	Doc: stream becomes paused after unpipe. 	12		
 5160	558581	false	open	false	11		2016-02-09T17:32:03Z	2016-10-27T13:56:28Z		Space in network share name(UNC path) causes unknown error	308		
@@ -2876,7 +2878,7 @@
 9640	66961	false	closed	false	6		2016-11-16T14:46:45Z	2016-12-05T14:52:01Z	2016-12-05T14:52:01Z	Segmentation fault in Generator (node 7.0/7.1/master)	468		
 9641	17704638	false	closed	false	1		2016-11-16T15:27:03Z	2016-11-20T00:52:41Z	2016-11-20T00:52:41Z	process.env.toString() fails	64		
 9642	19274678	false	open	false	1		2016-11-16T15:41:43Z	2016-11-16T17:54:21Z		"package.json ""main"" may specify a directory; spec says it may not"	162		
-9643	1265507	true	open	false	34		2016-11-16T15:48:03Z	2017-01-17T08:25:49Z		Optimize event handling with large arguments	26		
+9643	1265507	true	open	false	36		2016-11-16T15:48:03Z	2017-01-18T00:05:38Z		Optimize event handling with large arguments	26		
 9644	803674	false	closed	false	2		2016-11-16T17:04:52Z	2017-01-08T16:20:31Z	2017-01-08T16:20:31Z	Error: spawnSync /bin/sh ENOENT	103		
 9645	15943089	true	closed	false	7	0	2016-11-16T17:18:07Z	2016-11-21T11:38:58Z	2016-11-21T11:38:57Z	build: default to ppc64 on AIX	100	15943089	2016-11-21T11:38:57Z
 9646	327019	true	closed	false	3		2016-11-16T17:24:58Z	2016-12-05T22:45:01Z	2016-12-05T22:45:01Z	internal/util: move the case 'latin1'	38		
@@ -4084,5 +4086,7 @@
 10855	1205100	false	open	false	5		2017-01-17T12:06:02Z	2017-01-17T17:04:07Z		"child_process.spawn(""vcbuild.bat"",...) hangs in virtual windows"	71		
 10856	12443664	true	open	false	1		2017-01-17T15:00:50Z	2017-01-17T16:08:36Z		Build: Produce C/JS code coverage reports from make	270		
 10857	439929	true	open	false	2		2017-01-17T17:11:47Z	2017-01-17T19:02:03Z		url: extend url.format to support WHATWG URL	116		
+10858	289174	false	open	false	0		2017-01-17T20:09:47Z	2017-01-18T00:48:49Z		inspector aborts when another process is running the inspector	172		
 10859	21203	true	open	false	2		2017-01-17T20:21:38Z	2017-01-17T22:54:30Z		crypto: don't reference |freelist_max_len| in OpenSSL 1.1.0.	67		
 10860	718899	true	open	false	0	0	2017-01-17T22:24:00Z	2017-01-17T22:24:00Z		test: simplify array initialization	26		
+10861	287917	true	open	false	0	0	2017-01-18T00:46:17Z	2017-01-18T00:46:17Z		test: have inspector test pick an open port	68		
