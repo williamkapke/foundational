@@ -3289,7 +3289,7 @@
 10050	7131961	true	closed	false	15		2016-12-01T18:04:15Z	2016-12-29T05:38:13Z	2016-12-28T05:33:25Z	doc: Update rinfo object definition for UDP message event	41		
 10051	109983	true	closed	false	4	2	2016-12-01T18:06:16Z	2016-12-08T00:22:59Z	2016-12-08T00:22:59Z	test: refactors test-tls-client-verify	45		
 10052	2723032	true	closed	false	8		2016-12-01T18:07:50Z	2016-12-05T00:37:43Z	2016-12-05T00:37:43Z	gitignore: add osx .DS_STORE files	57		
-10053	4448075	true	open	false	18		2016-12-01T18:08:18Z	2017-01-18T01:39:50Z		http: throw an error for unexpected agent values	69		
+10053	4448075	true	open	false	19		2016-12-01T18:08:18Z	2017-01-18T08:08:07Z		http: throw an error for unexpected agent values	69		
 10054	8404857	true	closed	false	4		2016-12-01T18:10:42Z	2016-12-24T06:14:12Z	2016-12-24T06:14:12Z	test: refactor test-pipe-file-to-http	62		
 10055	19396993	true	open	false			2016-12-01T18:13:01Z	2016-12-04T18:07:51Z		test: refactor test-crypto-hash-stream-pipe	54		
 10056	2294736	true	closed	false	2	0	2016-12-01T18:14:07Z	2016-12-04T05:14:12Z	2016-12-04T05:14:12Z	test: update var to let/const and assert.equal to assert.strictEqual.	51		
@@ -3743,7 +3743,7 @@
 10510	287917	true	closed	false	0	0	2016-12-28T23:03:20Z	2017-01-03T18:13:35Z	2017-01-03T18:13:34Z	test: fix Coverity warning in inspector test	40	287917	2017-01-03T18:13:34Z
 10511	718899	true	open	false	12		2016-12-28T23:28:46Z	2016-12-29T16:04:29Z		tools: enable ESLint arrow-body-style rule (no braces or `return` if not needed)	117		
 10512	439929	true	closed	false	7		2016-12-28T23:57:47Z	2016-12-30T18:15:33Z	2016-12-30T18:15:33Z	url: move originFor, domainToAscii and domainToUnicode	58		
-10513	3647351	false	open	false	1		2016-12-29T03:55:13Z	2017-01-18T06:29:16Z		cluster fork can't debug	175		
+10513	3647351	false	open	false	2		2016-12-29T03:55:13Z	2017-01-18T07:06:33Z		cluster fork can't debug	175		
 10514	718899	true	open	false			2016-12-29T05:26:43Z	2016-12-29T16:26:35Z		tools: enable ESLint arrow-body-style rule (explicit braces and `return`)	86		
 10515	718899	false	open	false	6		2016-12-29T07:20:57Z	2017-01-11T22:46:41Z		buffer: inconsistencies in readIntBE() and readIntLE()	131		
 10516	4640651	false	closed	false	2		2016-12-29T08:27:40Z	2016-12-30T18:33:00Z	2016-12-30T18:33:00Z	`const` performance loss ? Node 6 vs Node 7	91		
@@ -4056,9 +4056,9 @@
 10824	899444	false	open	false	1		2017-01-15T19:44:02Z	2017-01-15T22:43:30Z		querystring should maybe support Buffers	64		
 10825	1658949	false	open	false	3		2017-01-15T22:45:21Z	2017-01-16T14:10:25Z		"Conflicting ""Added in"" versions"	40		
 10826	899444	true	closed	false	0		2017-01-15T22:57:24Z	2017-01-18T03:54:02Z	2017-01-18T03:54:02Z	doc: minor fixups for `added` tags	32		
-10827	899444	true	open	false	0	0	2017-01-15T22:59:06Z	2017-01-15T22:59:06Z		doc: minor fixups for changelogs	32		
+10827	899444	true	closed	false	0		2017-01-15T22:59:06Z	2017-01-18T08:31:05Z	2017-01-18T08:31:05Z	doc: minor fixups for changelogs	32		
 10828	899444	true	closed	false	1	3	2017-01-16T01:00:02Z	2017-01-16T17:05:39Z	2017-01-16T17:05:38Z	doc: fix broken internal link in process.md	32		
-10829	899444	true	open	false			2017-01-16T01:00:24Z	2017-01-16T13:58:29Z		doc: add links for zlib convenience methods	44		
+10829	899444	true	closed	false	0		2017-01-16T01:00:24Z	2017-01-18T08:32:55Z	2017-01-18T08:32:55Z	doc: add links for zlib convenience methods	44		
 10830	1189785	true	closed	false	1		2017-01-16T03:24:23Z	2017-01-16T20:01:37Z	2017-01-16T20:01:37Z	test: improve code in test-http-host-headers	45		
 10831	782880	true	open	false			2017-01-16T05:11:18Z	2017-01-16T06:18:32Z		Backport ALPN to v4.x LTS	70		
 10832	3367801	true	open	false	2		2017-01-16T07:50:14Z	2017-01-17T20:49:29Z		test: add http-common's test	45		
@@ -4079,18 +4079,20 @@
 10847	718899	true	open	false			2017-01-17T04:22:31Z	2017-01-17T18:45:28Z		Optimize cluster.setupMaster()	118		
 10848	15811347	true	open	false	0	0	2017-01-17T05:38:55Z	2017-01-17T05:38:55Z		It can be a real array.	42		
 10849	439929	true	open	false			2017-01-17T06:39:30Z	2017-01-17T15:34:40Z		util: runtime deprecation for util._extend()	149		
-10850	432351	true	open	false	0	0	2017-01-17T06:57:14Z	2017-01-17T06:57:14Z		build: move source files from headers section	63		
-10851	432351	true	open	false	0	0	2017-01-17T07:14:53Z	2017-01-17T07:14:53Z		build: add missing src/tracing header files	62		
+10850	432351	true	closed	false	1		2017-01-17T06:57:14Z	2017-01-18T07:27:05Z	2017-01-18T07:27:05Z	build: move source files from headers section	63		
+10851	432351	true	closed	false	1	0	2017-01-17T07:14:53Z	2017-01-18T07:21:29Z	2017-01-18T07:21:29Z	build: add missing src/tracing header files	62		
 10852	54666	true	open	false	0	0	2017-01-17T08:05:36Z	2017-01-17T08:05:36Z		querystring: improve stringify() performance	56		
-10853	988441	true	open	false	11		2017-01-17T09:38:30Z	2017-01-17T20:34:20Z		doc: clarify the behavior of readFile with fd	142		
+10853	988441	true	open	false	12		2017-01-17T09:38:30Z	2017-01-18T07:34:48Z		doc: clarify the behavior of readFile with fd	142		
 10854	15943089	true	open	false	0	0	2017-01-17T10:54:47Z	2017-01-17T10:54:47Z		test: don't connect to :: (use localhost instead)	123		
 10855	1205100	false	open	false	5		2017-01-17T12:06:02Z	2017-01-17T17:04:07Z		"child_process.spawn(""vcbuild.bat"",...) hangs in virtual windows"	71		
 10856	12443664	true	open	false			2017-01-17T15:00:50Z	2017-01-18T03:15:39Z		Build: Produce C/JS code coverage reports from make	270		
 10857	439929	true	open	false	2		2017-01-17T17:11:47Z	2017-01-17T19:02:03Z		url: extend url.format to support WHATWG URL	116		
 10858	289174	false	open	false	1		2017-01-17T20:09:47Z	2017-01-18T02:41:57Z		inspector aborts when another process is running the inspector	172		
-10859	21203	true	open	false			2017-01-17T20:21:38Z	2017-01-18T01:41:04Z		crypto: don't reference |freelist_max_len| in OpenSSL 1.1.0.	67		
+10859	21203	true	open	false			2017-01-17T20:21:38Z	2017-01-18T07:04:43Z		crypto: don't reference |freelist_max_len| in OpenSSL 1.1.0.	67		
 10860	718899	true	open	false	0	0	2017-01-17T22:24:00Z	2017-01-17T22:24:00Z		test: simplify array initialization	26		
 10861	287917	true	open	false	0	0	2017-01-18T00:46:17Z	2017-01-18T00:46:17Z		test: have inspector test pick an open port	68		
 10862	327019	true	open	false	0		2017-01-18T03:55:31Z	2017-01-18T05:22:54Z		fs: remove unused parameter for encodeRealpathResult	33		
 10863	3367801	true	open	false	0	0	2017-01-18T04:43:20Z	2017-01-18T04:43:20Z		test: increase coverage of starting-decoder	50		
-10864	1326517	false	open	false	0		2017-01-18T06:10:12Z	2017-01-18T06:10:12Z		http server keep-alive not work with ab	671		
+10864	1326517	false	closed	false	2		2017-01-18T06:10:12Z	2017-01-18T07:35:47Z	2017-01-18T07:35:47Z	http server keep-alive not work with ab	671		
+10865	782880	true	open	false	0	0	2017-01-18T07:14:30Z	2017-01-18T07:14:30Z		crypto: Add crypto.getEngines()	180		
+10866	711968	true	open	false	0	0	2017-01-18T07:37:25Z	2017-01-18T07:37:25Z		child_process.fork: add string-shortcut for stdio	48		
