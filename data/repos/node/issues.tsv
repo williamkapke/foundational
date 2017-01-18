@@ -2936,7 +2936,7 @@
 9697	2352663	true	closed	false	2		2016-11-19T13:41:22Z	2016-11-22T03:55:01Z	2016-11-22T03:55:01Z	deps: update V8 to 5.4.500.43	48		
 9698	4233173	false	open	false	1		2016-11-19T14:47:33Z	2016-11-19T19:02:27Z		nullCheck in fs.js not checking 'undefined'	30		
 9699	988441	true	closed	false	17	10	2016-11-19T17:47:22Z	2017-01-14T18:33:18Z	2017-01-14T18:33:18Z	fs: make sure readFile[Sync] reads from the beginning	155	988441	2017-01-14T18:33:18Z
-9700	13138961	true	open	false	3		2016-11-19T22:33:08Z	2017-01-16T21:25:53Z		Tests: Refactored to es6	61		
+9700	13138961	true	open	false	4		2016-11-19T22:33:08Z	2017-01-18T20:02:46Z		Tests: Refactored to es6	61		
 9701	1260305	true	open	false	4		2016-11-19T22:57:15Z	2016-11-22T05:09:06Z		doc: child_process .stdio accepts a String type	48		
 9702	170197	false	open	false	2		2016-11-20T00:36:09Z	2016-11-20T01:01:24Z		URL auth issue	34		
 9703	4443482	true	open	false	5		2016-11-20T02:06:30Z	2017-01-18T10:39:14Z		Doc fixes	436		
@@ -4094,12 +4094,12 @@
 10862	327019	true	closed	false	2	0	2017-01-18T03:55:31Z	2017-01-18T14:30:53Z	2017-01-18T14:30:53Z	fs: remove unused parameter for encodeRealpathResult	33		
 10863	3367801	true	open	false	3		2017-01-18T04:43:20Z	2017-01-18T16:04:35Z		test: increase coverage of string-decoder	42		
 10864	1326517	false	closed	false	2		2017-01-18T06:10:12Z	2017-01-18T07:35:47Z	2017-01-18T07:35:47Z	http server keep-alive not work with ab	671		
-10865	782880	true	open	false	2		2017-01-18T07:14:30Z	2017-01-18T12:31:51Z		crypto: Add crypto.getEngines()	180		
+10865	782880	true	open	false			2017-01-18T07:14:30Z	2017-01-18T20:17:28Z		crypto: Add crypto.getEngines()	180		
 10866	711968	true	open	false			2017-01-18T07:37:25Z	2017-01-18T18:48:43Z		child_process.fork: add string-shortcut for stdio	48		
 10867	15811347	true	closed	false	2		2017-01-18T09:14:52Z	2017-01-18T14:31:38Z	2017-01-18T14:31:38Z	Update BufferList.js	42		
-10868	6487691	true	open	false	0	0	2017-01-18T11:11:19Z	2017-01-18T11:11:19Z		build: don't squash signal handlers with --shared	155		
+10868	6487691	true	open	false	2		2017-01-18T11:11:19Z	2017-01-18T20:20:36Z		V4 backport: don't squash signal handlers with --shared	155		
 10869	899444	true	open	false	6		2017-01-18T11:32:43Z	2017-01-18T18:01:37Z		doc: mention moderation repo in onboarding doc	8		
-10870	9862565	false	open	false	0		2017-01-18T11:41:38Z	2017-01-18T11:41:38Z		All links in doc/api/_toc.md point to .html instead of .md.	35		
+10870	9862565	false	closed	false	0		2017-01-18T11:41:38Z	2017-01-18T20:22:45Z	2017-01-18T20:22:45Z	All links in doc/api/_toc.md point to .html instead of .md.	29		
 10871	6693546	false	open	false	0		2017-01-18T12:17:09Z	2017-01-18T18:32:32Z		'end' event not called on connected socket wrapped with tls	167		
 10872	6487691	true	open	false	1		2017-01-18T13:07:24Z	2017-01-18T14:11:26Z		doc: Clarify msg when doc/api/cli.md not updated	57		
 10873	4976075	true	open	false	2		2017-01-18T16:28:14Z	2017-01-18T18:22:50Z		deps: backport 2bd7464 from upstream V8	65		
@@ -4107,6 +4107,8 @@
 10875	6962326	true	open	false	0	0	2017-01-18T18:29:50Z	2017-01-18T18:29:50Z		CODE AND LEARN: Updated `equal` to `strictEqual`	44		
 10876	4299009	true	open	false	0	0	2017-01-18T18:31:00Z	2017-01-18T18:31:00Z		Codeandlearn: updated to assert.strictEqual	42		
 10877	13428961	true	open	false	0	0	2017-01-18T18:31:25Z	2017-01-18T18:31:25Z		Starting with codeAndLearn: update assert.equal to assert.strictEqual.	42		
-10878	287917	true	open	false	0	0	2017-01-18T18:40:24Z	2017-01-18T18:40:24Z		inspector: no crash when WS server can't start	57		
+10878	287917	true	open	false	0		2017-01-18T18:40:24Z	2017-01-18T20:02:58Z		inspector: no crash when WS server can't start	57		
+10879	718899	true	open	false			2017-01-18T19:03:10Z	2017-01-18T20:29:43Z		test: refactor test-repl-tab-complete	43		
 10880	2512748	false	open	false	1		2017-01-18T19:08:21Z	2017-01-18T19:20:23Z		RFC cluster: make scheduler pluggable	152		
-10881	4976075	true	open	false	0	0	2017-01-18T19:50:05Z	2017-01-18T19:50:05Z		deps backport 07d0f6d from upstream V8	64		
+10881	4976075	true	open	false	1		2017-01-18T19:50:05Z	2017-01-18T20:52:30Z		deps backport 07d0f6d from upstream V8	64		
+10882	109690	true	open	false	0	0	2017-01-18T20:25:43Z	2017-01-18T20:25:43Z		crypto: Remove unused access of tlsext_hostname.	97		
