@@ -179,7 +179,7 @@
 3979	495647	false	closed	false	15		2015-11-23T09:04:11Z	2017-01-09T12:03:25Z	2017-01-09T12:03:25Z	Seek legal advice on LICENSE and copyright blocks in code	84		
 4007	1093990	true	closed	false	69		2015-11-24T17:15:03Z	2016-08-30T14:09:47Z	2016-02-26T23:13:34Z	Refactor Timers	188		
 4037	321966	false	closed	false	6		2015-11-26T14:11:47Z	2016-09-22T11:40:07Z	2015-11-27T13:24:14Z	"""Error: write EBADF"" when sending a TLSSocket to the parent process"	256		
-4039	4520820	true	closed	false	31		2015-11-26T17:23:49Z	2017-01-18T19:30:23Z	2016-09-12T14:58:48Z	net: refactor Server.prototype.listen	226		
+4039	4520820	true	closed	false	32		2015-11-26T17:23:49Z	2017-01-19T00:27:01Z	2016-09-12T14:58:48Z	net: refactor Server.prototype.listen	226		
 4092	11175771	false	open	false	1		2015-12-01T09:38:49Z	2016-09-02T12:37:02Z		node.js Setup Wizard ended prematurely	35		
 4111	1524333	true	open	false	29		2015-12-02T00:40:22Z	2016-07-20T16:10:21Z		Windows post-install screen additional build tools messaging	155		
 4169	54666	true	closed	false	20		2015-12-06T06:38:35Z	2016-08-30T14:10:41Z	2016-03-18T23:29:42Z	timers: improve setImmediate() performance	51		
@@ -505,7 +505,7 @@
 7049	54666	true	closed	false	8		2016-05-29T16:27:18Z	2016-12-29T17:04:14Z	2016-06-07T04:05:36Z	test: fix spawn on windows	64		
 7050	2512748	true	closed	false	5		2016-05-29T18:07:21Z	2016-07-11T21:59:19Z	2016-05-31T13:22:45Z	cluster: rewrite debug ports consistently	115		
 7056	899444	true	closed	false	11		2016-05-29T23:50:19Z	2016-07-11T23:40:06Z	2016-06-08T09:42:55Z	test: fix tests for non-crypto builds	57		
-7057	416585	true	open	false	4		2016-05-30T00:44:54Z	2017-01-18T13:25:44Z		doc: improve readable.unshift example	65		
+7057	416585	true	open	false	7		2016-05-30T00:44:54Z	2017-01-19T00:06:18Z		doc: improve readable.unshift example	65		
 7060	49318	false	closed	false	2		2016-05-30T09:11:28Z	2016-07-05T16:17:08Z	2016-07-05T16:17:08Z	"Will node.js be adapted to work with the new Windows Bash ""subsystem for Linux"" ?"	112		
 7061	6330334	false	closed	false	2		2016-05-30T11:37:48Z	2016-07-13T15:52:22Z	2016-07-13T15:52:22Z	Crashes when UDP/dgram socket is closed during listening event handler	391		
 7064	15861995	false	closed	false	4		2016-05-30T15:43:15Z	2016-07-05T16:14:44Z	2016-07-05T16:14:44Z	Spawn process exit code: 3221225794	75		
@@ -3756,7 +3756,7 @@
 10523	6487691	true	open	false	4		2016-12-29T17:06:54Z	2017-01-06T17:54:31Z		test: fix test-child-process-flush-stdio on windows (Node V4 only)	126		
 10524	8297234	true	closed	false	3	4	2016-12-29T17:30:01Z	2017-01-03T17:20:07Z	2017-01-03T17:20:07Z	test: refactor several parallel/test-timer tests	64		
 10525	1883394	true	open	false	6		2016-12-29T21:05:11Z	2017-01-04T19:20:19Z		fix compile bug in v8/lookup.h	69		
-10526	15161981	true	open	false	12		2016-12-29T22:06:02Z	2017-01-18T22:25:00Z		deps: cherry-pick 224d37 from V8 upstream	104		
+10526	15161981	true	open	false	13		2016-12-29T22:06:02Z	2017-01-19T00:38:27Z		deps: backport 224d376 from V8 upstream	104		
 10527	17607	true	closed	false	0	5	2016-12-29T22:13:55Z	2017-01-03T21:40:09Z	2017-01-03T21:40:09Z	doc: unify dirname and filename description	79		
 10528	540554	false	closed	false	2		2016-12-29T22:44:16Z	2016-12-30T14:55:28Z	2016-12-30T14:55:28Z	UNC paths are not handled appropriately by `path.relative`	103		
 10529	718899	true	closed	false	3	1	2016-12-30T00:19:31Z	2016-12-30T16:58:00Z	2016-12-30T16:58:00Z	doc: require two-factor authentication	57		
@@ -4034,7 +4034,7 @@
 10802	1149663	false	open	false	0		2017-01-14T09:00:15Z	2017-01-14T09:00:15Z		Cannot disable warnings when scripts are launched from the shell.	76		
 10803	54666	false	open	false	0		2017-01-14T14:25:32Z	2017-01-14T14:25:32Z		doc: http response.getHeader() documentation partially incorrect	59		
 10804	25119916	false	open	false	3		2017-01-14T14:46:19Z	2017-01-14T15:13:32Z		Error for running a program in REPL	23		
-10805	54666	true	open	false			2017-01-14T14:50:00Z	2017-01-18T18:33:25Z		http: add new functions to OutgoingMessage	81		
+10805	54666	true	open	false			2017-01-14T14:50:00Z	2017-01-19T00:31:50Z		http: add new functions to OutgoingMessage	81		
 10806	617481	false	open	false	1		2017-01-14T15:07:57Z	2017-01-14T18:22:50Z		vm regression: assigning a property the first time does not work; only the second time	102		
 10807	142175	true	closed	false	2	0	2017-01-14T15:36:54Z	2017-01-16T18:28:07Z	2017-01-16T18:28:07Z	test: add msg validation to test-buffer-compare	30		
 10808	3367801	true	closed	false	4		2017-01-14T18:38:16Z	2017-01-16T18:25:30Z	2017-01-16T18:25:30Z	test: add test case to test-http-response-statuscode.js	41		
@@ -4097,7 +4097,7 @@
 10865	782880	true	open	false			2017-01-18T07:14:30Z	2017-01-18T20:17:28Z		crypto: Add crypto.getEngines()	180		
 10866	711968	true	open	false			2017-01-18T07:37:25Z	2017-01-18T18:48:43Z		child_process.fork: add string-shortcut for stdio	48		
 10867	15811347	true	closed	false	2		2017-01-18T09:14:52Z	2017-01-18T14:31:38Z	2017-01-18T14:31:38Z	Update BufferList.js	42		
-10868	6487691	true	open	false	2		2017-01-18T11:11:19Z	2017-01-18T20:20:36Z		V4 backport: don't squash signal handlers with --shared	155		
+10868	6487691	true	open	false	3		2017-01-18T11:11:19Z	2017-01-19T00:09:52Z		V4 backport: don't squash signal handlers with --shared	155		
 10869	899444	true	open	false	6		2017-01-18T11:32:43Z	2017-01-18T18:01:37Z		doc: mention moderation repo in onboarding doc	8		
 10870	9862565	false	closed	false	0		2017-01-18T11:41:38Z	2017-01-18T20:22:45Z	2017-01-18T20:22:45Z	All links in doc/api/_toc.md point to .html instead of .md.	29		
 10871	6693546	false	open	false	0		2017-01-18T12:17:09Z	2017-01-18T18:32:32Z		'end' event not called on connected socket wrapped with tls	167		
@@ -4114,4 +4114,5 @@
 10882	109690	true	open	false	1		2017-01-18T20:25:43Z	2017-01-18T21:02:35Z		crypto: Remove unused access of tlsext_hostname.	97		
 10883	1189785	true	open	false	0	0	2017-01-18T21:11:12Z	2017-01-18T21:11:12Z		doc: add edsadr to collaborators	36		
 10884	17607	true	open	false	0	0	2017-01-18T21:25:12Z	2017-01-18T21:25:12Z		process,console: describe when stdout/err is sync	50		
-10885	6354455	true	open	false	1		2017-01-18T21:50:11Z	2017-01-18T22:03:19Z		v7.x-staging update	93		
+10885	6354455	true	closed	false	6	0	2017-01-18T21:50:11Z	2017-01-19T00:33:31Z	2017-01-19T00:33:31Z	v7.x-staging update	93		
+10886	6354455	true	open	false	0	0	2017-01-19T00:39:14Z	2017-01-19T00:39:14Z		Updating v7.x-staging	91		
