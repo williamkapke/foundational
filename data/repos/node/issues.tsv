@@ -262,7 +262,7 @@
 5213	439929	false	closed	false	9		2016-02-13T04:41:36Z	2016-08-29T22:13:27Z	2016-08-29T22:13:27Z	Tracking: Revert #5102 when possible	36		
 5256	327019	true	closed	false	29	0	2016-02-16T08:27:34Z	2016-08-01T22:10:12Z	2016-08-01T22:10:12Z	buffer: speed up Buffer.isEncoding() method	9		
 5258	172594	false	open	false	17		2016-02-16T12:06:31Z	2016-09-23T20:50:53Z		Propose NODE_TLS_REJECT_UNAUTHORIZED be renamed	117		
-5261	1715054	false	open	false	18		2016-02-16T18:43:30Z	2017-01-18T05:07:07Z		Error: EPERM: operation not permitted, open 'C:\Users\username\.node_repl_history'	15		
+5261	1715054	false	open	false	20		2016-02-16T18:43:30Z	2017-01-19T14:31:34Z		Error: EPERM: operation not permitted, open 'C:\Users\username\.node_repl_history'	15		
 5266	1656054	false	closed	false	11		2016-02-17T00:03:03Z	2017-01-09T14:21:34Z	2017-01-09T14:21:34Z	Segfault when passing objects between vm contexts	221		
 5270	3832082	true	open	false	10		2016-02-17T06:10:56Z	2016-12-29T18:04:41Z		debugger: fix debugger blocked main thread	25		
 5285	568962	false	open	false	3		2016-02-17T16:20:08Z	2016-07-11T00:45:33Z		util: possible way to speed up util.format()	74		
@@ -1981,7 +1981,7 @@
 8742	1935767	true	closed	false	1	0	2016-09-23T15:09:35Z	2016-09-26T16:40:17Z	2016-09-26T16:40:17Z	doc,tool: add tls.TLSSocket to typeMap	33		
 8743	22397837	false	closed	false	2		2016-09-23T15:24:19Z	2016-09-26T14:29:09Z	2016-09-26T14:29:09Z	Demo Site for exploring nodejs features?	42		
 8744	275871	false	closed	false	13		2016-09-23T16:22:28Z	2016-10-24T20:46:10Z	2016-10-24T20:46:10Z	test,crypto: sequential/test-crypto-timing-safe-equal-benchmarks flaky locally	63		
-8745	7698377	false	closed	false	8		2016-09-23T17:02:15Z	2017-01-19T12:07:46Z	2017-01-19T12:07:46Z	"Cygwin 'configure' call fails with ""Warning: Missing input files:"""	165		
+8745	7698377	false	closed	false	9		2016-09-23T17:02:15Z	2017-01-19T14:23:39Z	2017-01-19T12:07:46Z	"Cygwin 'configure' call fails with ""Warning: Missing input files:"""	165		
 8746	860364	false	closed	false	2		2016-09-23T18:28:49Z	2016-09-23T19:48:25Z	2016-09-23T19:48:25Z	global has two different behaviour with the same logic	84		
 8747	5076519	false	closed	false	13		2016-09-23T18:46:49Z	2016-09-24T13:14:43Z	2016-09-24T13:14:43Z	Unsafe parsing of URLs	298		
 8748	287917	true	closed	false	1	3	2016-09-23T18:50:06Z	2016-09-26T16:28:47Z	2016-09-26T16:28:47Z	test: use Buffer.from	43		
@@ -2305,7 +2305,7 @@
 9066	238531	true	closed	false	11		2016-10-12T20:41:31Z	2016-11-11T19:53:21Z	2016-10-14T13:40:43Z	net: fix ambiguity in EOF handling	73		
 9067	134460	false	closed	false	7		2016-10-12T21:34:37Z	2016-10-17T18:05:28Z	2016-10-17T18:05:28Z	process.on beforeExit broken on Windows	182		
 9068	8849761	true	closed	false	3	3	2016-10-12T22:17:45Z	2016-10-13T10:48:21Z	2016-10-13T10:48:21Z	console: using class	38		
-9069	2148448	false	open	false	12		2016-10-12T23:57:01Z	2016-10-25T18:21:32Z		http core module issue	117		
+9069	2148448	false	closed	false	14		2016-10-12T23:57:01Z	2017-01-19T14:20:21Z	2017-01-19T14:20:21Z	http core module issue	117		
 9070	9373002	true	closed	false	1		2016-10-13T01:35:04Z	2016-10-19T22:13:56Z	2016-10-19T22:13:56Z	doc: add CTC meeting minutes for 2016-10-12	24		
 9071	495647	true	closed	false	2	0	2016-10-13T02:19:59Z	2016-10-19T03:05:43Z	2016-10-19T03:05:43Z	tools: release signing improvements	218		
 9072	718899	true	closed	false	7		2016-10-13T04:42:12Z	2016-10-19T15:36:32Z	2016-10-19T15:36:32Z	doc: add ctc-review label information	32		
@@ -2622,7 +2622,7 @@
 9383	12400507	true	open	false	12		2016-10-31T16:31:34Z	2016-11-27T05:51:44Z		child_process: add detached option to .exec()	68		
 9384	13035517	false	open	false	0		2016-10-31T17:10:53Z	2016-10-31T17:10:53Z		cipher.setAutoPadding(false) causes empty ciphertext to be returned	135		
 9385	6487691	true	closed	false	26	11	2016-10-31T18:37:52Z	2016-11-18T20:18:38Z	2016-11-18T20:18:38Z	Backport --shared to V4.x codebase to allow building as a shared library / DLL	62		
-9386	1234972	true	open	false	5		2016-10-31T20:35:01Z	2016-11-02T14:17:06Z		http: make `globalAgent` of `http` and `https` as overridable properties	86		
+9386	1234972	true	open	false	5		2016-10-31T20:35:01Z	2017-01-19T14:26:04Z		http: make `globalAgent` of `http` and `https` as overridable properties	86		
 9387	1761758	false	closed	false	4		2016-10-31T21:37:44Z	2016-11-01T20:55:30Z	2016-11-01T09:16:16Z	Feature request: Cancel all timeouts	160		
 9388	103052	true	closed	false	2		2016-10-31T22:39:22Z	2016-11-06T18:24:47Z	2016-11-06T18:24:47Z	vm: name anonymous functions	37		
 9389	103052	true	closed	false	6		2016-10-31T23:14:40Z	2016-11-09T00:30:41Z	2016-11-08T23:28:26Z	zlib: name every function	36		
@@ -3369,7 +3369,7 @@
 10130	9373002	false	open	false	3		2016-12-05T21:13:59Z	2016-12-07T00:37:40Z		test-https-set-timeout-server on freebsd	83		
 10131	225809	false	closed	false	9		2016-12-05T22:02:02Z	2016-12-09T14:40:15Z	2016-12-08T16:10:49Z	IPC parse errors virtually irrecoverable	337		
 10132	4985028	true	closed	false	19		2016-12-06T00:33:41Z	2016-12-11T14:09:05Z	2016-12-11T00:54:19Z	Fix --preserve-symlinks, Enhancement to exploit	70		
-10133	7834613	false	open	false	0		2016-12-06T00:42:54Z	2016-12-06T00:42:54Z		http.Agent free sockets maintain reference to initial ClientRequest object until the socket is destroyed/closed	283		
+10133	7834613	false	closed	false	1		2016-12-06T00:42:54Z	2017-01-19T14:12:23Z	2017-01-19T14:12:23Z	http.Agent free sockets maintain reference to initial ClientRequest object until the socket is destroyed/closed	283		
 10134	7834613	true	closed	false	11		2016-12-06T03:11:55Z	2017-01-06T18:15:29Z	2017-01-06T18:15:29Z	http: Eliminate ClientRequest capture by Agent socket listeners	137		
 10135	275871	true	open	false	28		2016-12-06T03:55:43Z	2017-01-18T05:34:14Z		lib: be robust when process global is clobbered	66		
 10136	2920525	true	closed	false	2		2016-12-06T05:44:11Z	2016-12-12T15:11:09Z	2016-12-12T15:11:09Z	doc: fix typo in code example of 'path' module	30		
@@ -3573,7 +3573,7 @@
 10340	21282864	false	open	false	0		2016-12-19T16:19:49Z	2016-12-19T16:19:49Z		Sessions working fine on localhost, but gets expired in Chrome/Firefox after some time.	52		
 10341	3899684	false	open	false	3		2016-12-19T17:01:31Z	2017-01-06T23:47:22Z		build, api, docs: android support	155		
 10342	1485909	true	closed	false	9		2016-12-19T19:03:03Z	2016-12-20T00:38:41Z	2016-12-20T00:38:41Z	deps: cherry-pick 081fce3 from V8 upstream	12		
-10343	6487691	true	open	false			2016-12-19T19:22:34Z	2017-01-19T13:02:29Z		doc: Update CONTRIBUTING.md with backport info	120		
+10343	6487691	true	open	false	4		2016-12-19T19:22:34Z	2017-01-19T14:09:57Z		doc: Update CONTRIBUTING.md with backport info	120		
 10344	54666	false	closed	false	8		2016-12-19T19:39:27Z	2016-12-21T16:07:54Z	2016-12-21T16:07:54Z	http: IncomingMessage not emitting 'end'	126		
 10345	17607	true	closed	false	1	0	2016-12-19T21:23:40Z	2016-12-20T14:32:13Z	2016-12-20T14:32:13Z	doc: fix typo in ecdhCurve, a tls property name	32		
 10346	238531	true	open	false	9		2016-12-19T22:17:40Z	2016-12-27T21:44:28Z		stream_wrap: export `_externalUVStream`	60		
@@ -3756,7 +3756,7 @@
 10523	6487691	true	open	false	5		2016-12-29T17:06:54Z	2017-01-19T13:00:47Z		test: fix test-child-process-flush-stdio on windows (Node V4 only)	126		
 10524	8297234	true	closed	false	3	4	2016-12-29T17:30:01Z	2017-01-03T17:20:07Z	2017-01-03T17:20:07Z	test: refactor several parallel/test-timer tests	64		
 10525	1883394	true	open	false	6		2016-12-29T21:05:11Z	2017-01-04T19:20:19Z		fix compile bug in v8/lookup.h	69		
-10526	15161981	true	open	false	13		2016-12-29T22:06:02Z	2017-01-19T00:38:27Z		deps: backport 224d376 from V8 upstream	104		
+10526	15161981	true	open	false	15		2016-12-29T22:06:02Z	2017-01-19T14:22:03Z		deps: backport 224d376 from V8 upstream	104		
 10527	17607	true	closed	false	0	5	2016-12-29T22:13:55Z	2017-01-03T21:40:09Z	2017-01-03T21:40:09Z	doc: unify dirname and filename description	79		
 10528	540554	false	closed	false	2		2016-12-29T22:44:16Z	2016-12-30T14:55:28Z	2016-12-30T14:55:28Z	UNC paths are not handled appropriately by `path.relative`	103		
 10529	718899	true	closed	false	3	1	2016-12-30T00:19:31Z	2016-12-30T16:58:00Z	2016-12-30T16:58:00Z	doc: require two-factor authentication	57		
@@ -3944,7 +3944,7 @@
 10712	1794099	true	open	false	1		2017-01-09T15:54:16Z	2017-01-10T21:11:06Z		Fix missing negation	15		
 10713	22550884	true	open	false	6		2017-01-09T17:27:44Z	2017-01-10T23:08:02Z		test: buffer read functions tests  for noAssert in one file	19		
 10714	1189785	true	closed	false	3		2017-01-09T17:29:24Z	2017-01-16T21:45:56Z	2017-01-16T21:45:56Z	test: improve the code in test-process-cpuUsage	42		
-10715	15952	true	open	false			2017-01-09T17:59:21Z	2017-01-18T22:01:53Z		doc: update http.md for consistency	187		
+10715	15952	true	open	false			2017-01-09T17:59:21Z	2017-01-19T14:03:59Z		doc: update http.md for consistency	187		
 10716	17607	true	closed	false	0	0	2017-01-09T20:37:20Z	2017-01-10T15:32:43Z	2017-01-10T15:32:43Z	doc: specify sorted tests	37		
 10717	2512748	true	closed	false	3	0	2017-01-09T22:14:37Z	2017-01-12T15:33:30Z	2017-01-12T15:33:30Z	deps: upgrade libuv to 1.10.2	82	2512748	2017-01-12T15:33:30Z
 10718	442374	false	open	false	3		2017-01-10T03:54:50Z	2017-01-10T18:41:25Z		What is the Current branch considered?	77		
@@ -4062,7 +4062,7 @@
 10830	1189785	true	closed	false	1		2017-01-16T03:24:23Z	2017-01-16T20:01:37Z	2017-01-16T20:01:37Z	test: improve code in test-http-host-headers	45		
 10831	782880	true	open	false	1		2017-01-16T05:11:18Z	2017-01-18T16:10:25Z		Backport ALPN to v4.x LTS	70		
 10832	3367801	true	closed	false	2		2017-01-16T07:50:14Z	2017-01-18T15:35:34Z	2017-01-18T15:35:34Z	test: add http-common's test	45		
-10833	327019	true	open	false	4		2017-01-16T09:20:52Z	2017-01-18T03:45:54Z		http: use direct parameters instead	42		
+10833	327019	true	open	false	5		2017-01-16T09:20:52Z	2017-01-19T14:41:17Z		http: use direct parameters instead	42		
 10834	327019	true	closed	false	3		2017-01-16T09:23:08Z	2017-01-18T03:19:01Z	2017-01-18T03:19:01Z	lib: remove unnecessary parameter for assertCrypto()	35		
 10835	17702550	false	open	false	0		2017-01-16T12:15:35Z	2017-01-16T12:15:35Z		PROTOCOL_CONNECTION_LOST	61		
 10836	607109	false	open	false	2		2017-01-16T13:44:36Z	2017-01-16T15:28:55Z		Accessing process.stdin hangs on Windows	200		
@@ -4122,7 +4122,8 @@
 10890	108959	true	open	false			2017-01-19T04:35:23Z	2017-01-19T06:03:14Z		test: added msg verification on assert.throws	45		
 10891	108959	true	open	false	4		2017-01-19T04:40:11Z	2017-01-19T12:39:18Z		crypto: return result of openssl HMAC_Update instead of just true.	72		
 10892	432351	true	open	false	0	0	2017-01-19T06:44:20Z	2017-01-19T06:44:20Z		build: sort sources alphabetically	51		
-10893	1319028	true	open	false			2017-01-19T06:48:12Z	2017-01-19T12:16:43Z		url: add return value to ToUnicode/ToAscii stubs	25		
+10893	1319028	true	open	false			2017-01-19T06:48:12Z	2017-01-19T14:59:03Z		url: add return value to ToUnicode/ToAscii stubs	25		
 10894	3367801	true	open	false			2017-01-19T06:49:06Z	2017-01-19T07:37:41Z		test: add dgram.Socket.prototype.bind's test	34		
-10895	54666	true	open	false			2017-01-19T08:25:31Z	2017-01-19T12:04:31Z		buffer: improve toJSON() performance	101		
+10895	54666	true	open	false			2017-01-19T08:25:31Z	2017-01-19T14:30:15Z		buffer: improve toJSON() performance	101		
 10896	677994	true	open	false	0		2017-01-19T11:58:00Z	2017-01-19T12:08:22Z		doc: move topics/guides to website	56		
+10897	172594	false	open	false	0		2017-01-19T14:13:30Z	2017-01-19T14:13:30Z		ASI fails with destructuring assignment	82		
