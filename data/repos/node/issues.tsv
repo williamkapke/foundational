@@ -277,7 +277,7 @@
 5426	1197375	false	closed	false	12		2016-02-25T00:33:42Z	2016-07-15T17:39:28Z	2016-07-15T17:39:28Z	setTimeout() introduces artificial delay between ticks when doing synchronous work	245		
 5436	17198363	false	closed	false	27		2016-02-25T13:57:35Z	2017-01-18T10:11:38Z	2016-02-27T13:41:42Z	"http.get returns ""getaddrinfo ENOTFOUND"" error"	231		
 5450	15943089	true	open	false	32		2016-02-26T12:44:41Z	2017-01-07T14:01:18Z		test: fix flaky tls-inception	43		
-5458	275871	true	closed	false	22		2016-02-26T21:01:17Z	2016-11-03T04:19:32Z	2016-10-25T11:16:57Z	src,tools: speed up startup by 2.5%	94		
+5458	275871	true	closed	false	22		2016-02-26T21:01:17Z	2017-01-23T01:30:51Z	2016-10-25T11:16:57Z	src,tools: speed up startup by 2.5%	94		
 5500	54666	true	closed	false	8		2016-03-01T02:05:24Z	2016-09-20T07:17:02Z	2016-03-18T02:35:33Z	doc: fix crypto update() signatures	85		
 5518	8213782	false	closed	false	2		2016-03-02T04:53:51Z	2016-08-14T08:51:57Z	2016-08-14T08:51:57Z	Cannot find module 'minimatch'	99		
 5522	238531	true	closed	false	19		2016-03-02T13:36:11Z	2016-12-14T17:18:11Z	2016-03-02T18:25:52Z	crypto, string_bytes: treat `buffer` str as `utf8`	141		
@@ -1569,7 +1569,7 @@
 8329	9373002	false	open	false	7		2016-08-29T22:29:02Z	2016-09-12T19:21:28Z		V8 5.4 compilation failure on linuxOne/s390x	292		
 8330	718899	false	closed	false	20		2016-08-30T02:23:27Z	2016-09-01T14:11:55Z	2016-09-01T14:11:55Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-08-31	510		
 8331	1443911	true	closed	false	4		2016-08-30T05:56:23Z	2016-08-30T10:07:50Z	2016-08-30T06:13:03Z	doc: add lpinca to collaborators	29		
-8332	696611	true	closed	false	5		2016-08-30T06:28:38Z	2017-01-18T06:25:00Z	2017-01-18T06:25:00Z	buffer: deprecate parent property	52		
+8332	696611	true	closed	false	6		2016-08-30T06:28:38Z	2017-01-23T01:33:20Z	2017-01-18T06:25:00Z	buffer: deprecate parent property	52		
 8333	16787433	true	open	false	0	0	2016-08-30T12:34:10Z	2016-08-30T12:34:10Z		Merge pull request #1 from nodejs/master	48		
 8334	1211498	true	open	false			2016-08-30T12:35:45Z	2017-01-20T00:38:46Z		crypto: use system CAs instead of bundled ones	74		
 8335	16787433	true	open	false	0	0	2016-08-30T12:37:32Z	2016-08-30T12:37:32Z		Merge pull request #1 from nodejs/master	48		
@@ -1882,7 +1882,7 @@
 8642	718899	true	closed	false	7		2016-09-18T04:00:41Z	2016-10-06T23:16:44Z	2016-09-20T17:25:48Z	tools: make argument alignment linting more strict	82		
 8643	11638619	true	closed	false	5		2016-09-18T05:58:34Z	2016-09-21T03:25:31Z	2016-09-21T03:25:31Z	tools: add additional ESLint rules	183		
 8644	52195	false	closed	false	8		2016-09-18T08:49:25Z	2017-01-18T13:13:55Z	2017-01-18T13:13:55Z	stream, test: Increase the coverage of _readableState and _writableState properties	202		
-8645	899444	true	closed	false	10		2016-09-18T09:25:48Z	2016-11-19T13:59:31Z	2016-11-16T18:45:45Z	"Revert ""repl: disable Ctrl+C support on win32 for now"""	64		
+8645	899444	true	closed	false	11		2016-09-18T09:25:48Z	2017-01-23T01:36:01Z	2016-11-16T18:45:45Z	"Revert ""repl: disable Ctrl+C support on win32 for now"""	64		
 8646	52195	false	open	false	3		2016-09-18T11:37:12Z	2016-10-07T14:03:01Z		doc: guide/topic on how to use streams	111		
 8647	1898870	true	closed	false	10		2016-09-18T12:40:14Z	2016-09-30T21:10:42Z	2016-09-21T00:23:43Z	https: fix memory leak with https.request()	124		
 8648	2764625	true	closed	false	1		2016-09-18T13:27:34Z	2016-09-20T22:40:06Z	2016-09-20T22:40:06Z	test: update test-child-process-recv-handle	54		
@@ -2432,7 +2432,7 @@
 9192	1485909	true	closed	false	6		2016-10-19T20:45:38Z	2016-10-28T16:24:13Z	2016-10-28T16:24:13Z	deps: cherry-pick bb4974d from v8 upstream	170		
 9193	4421720	true	closed	false	1	4	2016-10-19T20:51:00Z	2016-10-26T19:32:36Z	2016-10-26T19:32:36Z	doc: add 2016-10-19 CTC meeting minutes	30		
 9194	718899	true	closed	false	1		2016-10-19T21:29:29Z	2016-10-21T14:41:38Z	2016-10-21T14:41:38Z	tools: replace custom lint rule for getter/setter	44		
-9195	677994	true	closed	false	13		2016-10-19T21:33:22Z	2016-12-21T18:18:48Z	2016-10-28T16:20:38Z	http: add debug message for invalid header value	75		
+9195	677994	true	closed	false	13		2016-10-19T21:33:22Z	2017-01-23T01:37:10Z	2016-10-28T16:20:38Z	http: add debug message for invalid header value	75		
 9196	275871	true	closed	false	6		2016-10-19T21:54:28Z	2016-11-18T11:00:33Z	2016-10-24T20:51:54Z	module: skip directories known not to exist	177		
 9197	718899	true	closed	false	3		2016-10-19T23:03:06Z	2016-10-21T23:27:30Z	2016-10-21T23:27:30Z	test: remove arbitrary timer	59		
 9198	718899	true	closed	false	4	0	2016-10-20T00:09:42Z	2016-10-21T23:30:00Z	2016-10-21T23:30:00Z	test: fix flaky test-timers-blocking-callback	128		
@@ -2504,7 +2504,7 @@
 9264	8297234	true	closed	false	11	1	2016-10-24T22:43:17Z	2016-10-26T19:12:20Z	2016-10-26T19:12:20Z	test: remove err timer from test-http-set-timeout	50		
 9265	439929	true	open	false			2016-10-24T23:34:02Z	2016-11-06T10:53:38Z		errors: add internal/errors.js	85		
 9266	855219	true	closed	false	11		2016-10-25T01:50:17Z	2016-11-22T07:10:14Z	2016-10-27T02:27:59Z	intl: Add more versions from ICU	77		
-9267	2512748	true	closed	false	7		2016-10-25T02:31:43Z	2016-11-18T18:45:05Z	2016-10-26T13:47:55Z	deps: upgrade libuv to 1.10.0	55		
+9267	2512748	true	closed	false	7		2016-10-25T02:31:43Z	2017-01-23T01:38:32Z	2016-10-26T13:47:55Z	deps: upgrade libuv to 1.10.0	55		
 9268	10761110	false	closed	false	15		2016-10-25T09:52:07Z	2017-01-09T18:07:20Z	2017-01-08T15:10:10Z	Making several http requests using keep-alive mode generates this trace: Warning: Possible EventEmitter memory leak detected.	62		
 9269	15943089	false	open	false	7		2016-10-25T10:25:04Z	2016-10-27T10:49:08Z		Console output for passing tests with the test runner	52		
 9270	103052	true	open	false			2016-10-25T13:14:15Z	2016-11-21T20:50:32Z		name functions in cluster module	45		
@@ -2646,7 +2646,7 @@
 9406	11139560	false	closed	false	9		2016-11-01T20:37:10Z	2016-11-02T04:09:05Z	2016-11-01T23:10:36Z	util.inspect() should do check for string type	146		
 9407	5545186	false	closed	false	3		2016-11-01T20:55:11Z	2016-11-01T21:08:10Z	2016-11-01T21:08:10Z	http.request post method not responding with no error on callback	113		
 9408	718899	true	closed	false	5		2016-11-01T21:43:48Z	2016-11-22T19:39:45Z	2016-11-04T02:47:23Z	tools: enforce function name matching in linter	69		
-9409	21203	true	closed	false			2016-11-01T21:46:53Z	2016-12-22T07:17:55Z	2016-11-09T02:30:22Z	crypto: fix handling of root_cert_store	240		
+9409	21203	true	closed	false	16		2016-11-01T21:46:53Z	2017-01-23T01:45:58Z	2016-11-09T02:30:22Z	crypto: fix handling of root_cert_store	240		
 9410	115237	true	closed	false	5		2016-11-01T22:11:17Z	2016-11-22T16:40:30Z	2016-11-04T16:17:22Z	tools: enable final newline in .editorconfig	165		
 9411	737120	false	closed	false	2		2016-11-02T04:19:49Z	2016-12-04T11:35:54Z	2016-12-04T11:35:54Z	Questions about event-loop-timers-and-nexttick.md	214		
 9412	2352663	true	open	false	5		2016-11-02T10:36:24Z	2016-11-11T09:32:20Z		deps: update V8 to 5.4.500.41	43		
@@ -2841,7 +2841,7 @@
 9601	1622515	true	open	false	0		2016-11-14T05:24:08Z	2016-11-18T15:36:41Z		repl: Proposal for better repl (implementation)	231		
 9602	1171415	false	closed	false	1		2016-11-14T07:50:25Z	2016-11-14T09:19:01Z	2016-11-14T09:19:01Z	https.request get a read ECONNRESET error, but curl can get response of the url requested	57		
 9603	1909610	false	open	false	0		2016-11-14T12:09:14Z	2016-11-14T12:09:14Z		require prepends \\?\ to paths on windows 10	214		
-9604	275871	true	closed	false	2		2016-11-14T12:44:32Z	2016-12-03T09:18:44Z	2016-11-18T20:49:16Z	src: fix memory leak introduced in 34febfbf4	3		
+9604	275871	true	closed	false	2		2016-11-14T12:44:32Z	2017-01-23T01:46:27Z	2016-11-18T20:49:16Z	src: fix memory leak introduced in 34febfbf4	3		
 9605	864578	false	closed	false	1		2016-11-14T14:54:31Z	2017-01-08T16:51:08Z	2017-01-08T16:51:08Z	ServerResponse.OutgoingMessage._finish / AssertionError: null == true	133		
 9606	2512748	true	closed	false	2	0	2016-11-14T15:34:44Z	2016-11-18T21:13:51Z	2016-11-18T21:13:51Z	timers: handle unrefed intervals in clearTimeout()	73		
 9607	23456535	false	closed	false	2		2016-11-14T15:35:08Z	2017-01-08T16:35:51Z	2017-01-08T16:35:51Z	Issues with Powershell commands issued using Statefull Command Proxy	299		
@@ -2884,7 +2884,7 @@
 9644	803674	false	closed	false	2		2016-11-16T17:04:52Z	2017-01-08T16:20:31Z	2017-01-08T16:20:31Z	Error: spawnSync /bin/sh ENOENT	103		
 9645	15943089	true	closed	false	7	0	2016-11-16T17:18:07Z	2016-11-21T11:38:58Z	2016-11-21T11:38:57Z	build: default to ppc64 on AIX	100	15943089	2016-11-21T11:38:57Z
 9646	327019	true	closed	false	3		2016-11-16T17:24:58Z	2016-12-05T22:45:01Z	2016-12-05T22:45:01Z	internal/util: move the case 'latin1'	38		
-9647	2512748	true	closed	false	3		2016-11-16T18:56:06Z	2016-11-18T21:21:23Z	2016-11-17T14:57:27Z	deps: upgrade libuv to 1.10.1	55		
+9647	2512748	true	closed	false	5		2016-11-16T18:56:06Z	2017-01-23T01:39:42Z	2016-11-17T14:57:27Z	deps: upgrade libuv to 1.10.1	55		
 9648	10616396	true	closed	false	3		2016-11-16T20:32:49Z	2016-11-18T22:25:32Z	2016-11-18T22:25:32Z	doc: os properties functions return types	35		
 9649	495647	true	closed	false	2		2016-11-17T00:22:26Z	2016-12-21T19:30:18Z	2016-11-19T23:52:23Z	test: simplify test-http-client-unescaped-path	17		
 9650	23512658	false	closed	false	4		2016-11-17T00:53:29Z	2016-11-22T02:07:32Z	2016-11-22T02:07:32Z	Random Error While using Casperjs with exec on PHP page	149		
@@ -2990,7 +2990,7 @@
 9750	718899	true	closed	false	1		2016-11-22T19:49:04Z	2016-12-13T21:26:33Z	2016-12-13T21:26:33Z	v4 backport: benchmark,lib,test,tools: remove unneeded . escape	68		
 9751	1084056	true	closed	false	1	0	2016-11-22T21:51:58Z	2016-11-29T09:10:39Z	2016-11-29T09:10:39Z	url: fix -Warray-bounds warning	37	1084056	2016-11-29T09:10:39Z
 9752	1622515	true	closed	false	9	4	2016-11-22T22:48:49Z	2016-12-05T14:07:01Z	2016-12-05T14:07:01Z	repl: preprocess only for defaultEval	56		
-9753	289174	true	closed	false	13		2016-11-23T05:41:48Z	2016-12-21T23:11:50Z	2016-12-01T23:51:19Z	[async_wrap] fix fatal error during destroy() calls	96		
+9753	289174	true	closed	false	13		2016-11-23T05:41:48Z	2017-01-23T01:56:49Z	2016-12-01T23:51:19Z	[async_wrap] fix fatal error during destroy() calls	96		
 9754	2352663	true	closed	false	20	11	2016-11-23T09:54:13Z	2017-01-21T17:26:41Z	2017-01-21T17:26:41Z	deps: introduce embedder version number for V8	40		
 9755	1084956	false	closed	false	1		2016-11-23T10:55:22Z	2016-11-23T11:11:18Z	2016-11-23T11:11:18Z	Node.js installation fails error status: 1603.	152		
 9756	1490	false	closed	false	0		2016-11-23T10:56:02Z	2016-12-14T15:13:22Z	2016-12-14T15:13:22Z	Infinite loop in timers.js	216		
@@ -3052,7 +3052,7 @@
 9812	2352663	true	closed	false	2		2016-11-26T11:21:53Z	2016-11-29T12:20:07Z	2016-11-29T12:20:07Z	test: refactor test-net-pingpong	71		
 9813	10140041	false	open	false	0		2016-11-26T14:34:52Z	2016-11-26T14:34:52Z		getting unnecessary error to install phonegap using npm.	202		
 9814	718899	true	closed	false	9		2016-11-26T17:55:25Z	2016-11-27T10:31:52Z	2016-11-26T19:42:42Z	"Revert ""buffer: convert offset & length to int properly"""	112		
-9815	696611	true	closed	false	12		2016-11-27T10:30:04Z	2017-01-11T21:27:20Z	2016-12-05T12:46:30Z	buffer: convert offset & length to int properly	162		
+9815	696611	true	closed	false	14		2016-11-27T10:30:04Z	2017-01-23T01:57:20Z	2016-12-05T12:46:30Z	buffer: convert offset & length to int properly	162		
 9816	718899	true	closed	false	2	0	2016-11-27T19:17:40Z	2016-11-29T21:46:32Z	2016-11-29T21:46:32Z	doc: clarify introductory module material	26		
 9817	374012	false	open	false	0		2016-11-27T22:55:08Z	2016-11-27T22:55:08Z		{Hash, Hmac}.digest and sign hard crash when supplied 'ucs2' encoding	140		
 9818	304505	false	open	false	13		2016-11-28T00:25:48Z	2016-11-28T21:49:32Z		Crashing with Abort on FreeBSD when run via Salt.	230		
@@ -3631,7 +3631,7 @@
 10397	1189785	true	open	false	6		2016-12-21T22:13:27Z	2016-12-30T11:21:49Z		test: refactor the code in test-http-connect	69		
 10398	718899	true	open	false	1		2016-12-21T22:15:30Z	2016-12-27T19:52:05Z		v4.x backport for #9113: test,lib,benchmark: match function names	125		
 10399	1538624	true	open	false	12		2016-12-21T23:07:22Z	2017-01-19T19:37:10Z		More URLSearchParams improvements	380		
-10400	289174	true	open	false			2016-12-21T23:09:28Z	2016-12-22T15:33:13Z		async_wrap: clear destroy_ids vector	73		
+10400	289174	true	closed	false	2		2016-12-21T23:09:28Z	2017-01-23T01:56:36Z	2016-12-22T15:38:43Z	async_wrap: clear destroy_ids vector	73		
 10401	289174	true	closed	false	7	1	2016-12-21T23:53:10Z	2017-01-20T21:13:04Z	2017-01-20T21:13:04Z	url: check MaybeLocal return value	97		
 10402	983798	false	open	false	5		2016-12-22T00:47:08Z	2016-12-25T12:39:29Z		Windows installer can corrupt its npm installation	347		
 10403	495647	true	open	false	6		2016-12-22T01:04:46Z	2016-12-22T14:15:48Z		build: revert to pretty-print by default	525		
@@ -3644,7 +3644,7 @@
 10410	7833752	false	open	false	9		2016-12-22T16:04:06Z	2016-12-22T19:34:26Z		Mention chrome://inspect when using node --inspect	171		
 10411	856469	true	closed	false	3	4	2016-12-22T16:19:33Z	2016-12-27T21:44:50Z	2016-12-27T21:44:50Z	doc: fix trivial mistakes in stream document.	116		
 10412	6211775	false	open	false	3		2016-12-22T16:37:36Z	2016-12-22T17:04:04Z		child_process.fork and child_process.exec do not work together.	191		
-10413	17607	true	closed	false	2	0	2016-12-22T16:54:49Z	2016-12-29T21:41:29Z	2016-12-29T21:41:29Z	crypto: use CHECK_NE instead of ABORT or abort	53	17607	2016-12-29T21:41:29Z
+10413	17607	true	closed	false	2		2016-12-22T16:54:49Z	2017-01-23T01:04:05Z	2016-12-29T21:41:29Z	crypto: use CHECK_NE instead of ABORT or abort	53		
 10414	17607	true	closed	false	5	0	2016-12-22T18:33:10Z	2016-12-27T21:41:44Z	2016-12-27T21:41:44Z	src: describe what NODE_MODULE_VERSION is for	45		
 10415	10456131	false	open	false	2		2016-12-22T20:07:43Z	2016-12-22T23:16:30Z		Problem with pipe : EPIPE read.	219		
 10416	1084056	true	closed	false	0	0	2016-12-22T20:51:02Z	2016-12-28T09:59:40Z	2016-12-28T09:59:40Z	Fix trace warnings	50	1084056	2016-12-28T09:59:40Z
@@ -3679,7 +3679,7 @@
 10445	54666	true	closed	false	0	0	2016-12-25T04:06:01Z	2016-12-29T02:28:16Z	2016-12-29T02:28:16Z	events: improve once() performance	94	54666	2016-12-29T02:28:16Z
 10446	54666	true	open	false	1		2016-12-25T04:31:19Z	2017-01-05T07:43:32Z		benchmark: tidy `net` benchmarks	42		
 10447	7455872	false	closed	false	1		2016-12-25T08:49:42Z	2016-12-27T06:57:04Z	2016-12-27T06:57:04Z	Feature request: System time change notification	38		
-10448	4299420	true	open	false	17		2016-12-25T09:34:56Z	2017-01-04T14:28:50Z		benchmark: allow benchmarks to specify flags	118		
+10448	4299420	true	closed	false	18		2016-12-25T09:34:56Z	2017-01-23T01:21:17Z	2017-01-04T14:50:13Z	benchmark: allow benchmarks to specify flags	118		
 10449	18419656	false	closed	false	3		2016-12-25T14:27:36Z	2016-12-26T17:15:58Z	2016-12-25T14:46:38Z	node response close during response.write	221		
 10450	9286933	false	open	false	3		2016-12-25T18:18:37Z	2016-12-28T13:38:41Z		Feature request: add support for the Google Closure Compiler	45		
 10451	10393198	true	closed	false	1		2016-12-25T18:31:30Z	2016-12-27T21:17:47Z	2016-12-27T21:17:47Z	doc: some fixes in console.md	109		
@@ -3750,7 +3750,7 @@
 10516	4640651	false	closed	false	2		2016-12-29T08:27:40Z	2016-12-30T18:33:00Z	2016-12-30T18:33:00Z	`const` performance loss ? Node 6 vs Node 7	91		
 10517	8297234	true	open	false	2		2016-12-29T12:01:25Z	2017-01-03T12:07:35Z		test: refactor parallel/test-timer-close	40		
 10518	13561163	true	open	false	1		2016-12-29T12:27:37Z	2016-12-29T12:35:39Z		API doc edit in vm.createContext([sandbox])	122		
-10519	13561163	true	closed	false	2		2016-12-29T13:05:00Z	2017-01-04T09:40:55Z	2017-01-04T09:40:55Z	clarify the statement in vm.createContext() API	80		
+10519	13561163	true	closed	false	2		2016-12-29T13:05:00Z	2017-01-23T01:20:33Z	2017-01-04T09:40:55Z	clarify the statement in vm.createContext() API	80		
 10520	6487691	false	closed	false	2		2016-12-29T14:26:01Z	2017-01-17T14:12:59Z	2017-01-17T14:12:59Z	SIGQUIT handler being ignored when node is loaded as a shared library	227		
 10521	1189785	true	open	false	2		2016-12-29T16:50:55Z	2017-01-05T17:32:26Z		test: improve the code in test-fs-null-bytes	62		
 10522	15161981	true	open	false	3		2016-12-29T16:57:22Z	2017-01-19T12:58:55Z		timer,domain: maintain order of timers upon uncaught exception	60		
@@ -4131,7 +4131,7 @@
 10898	2512748	true	open	false			2017-01-19T15:47:25Z	2017-01-19T17:17:41Z		test: refactor test-cli-eval.js	40		
 10899	2512748	true	open	false			2017-01-19T16:29:13Z	2017-01-22T06:59:26Z		test: use common.fail() instead of assert(false)	25		
 10900	1470375	false	closed	false	2		2017-01-19T16:57:16Z	2017-01-19T17:22:46Z	2017-01-19T17:22:46Z	ECONNRESET on  newer node versions	142		
-10901	3367801	true	open	false	1		2017-01-19T18:34:40Z	2017-01-22T14:43:27Z		test: add dgram.Socket.prototype.sendto's test	34		
+10901	3367801	true	open	false	2		2017-01-19T18:34:40Z	2017-01-23T02:02:33Z		test: add dgram.Socket.prototype.sendto's test	34		
 10902	2512748	true	open	false	2		2017-01-19T18:51:55Z	2017-01-20T02:05:27Z		WIP: dgram: add maxSendQueueSize socket option	110		
 10903	718899	true	open	false	0	0	2017-01-19T19:25:04Z	2017-01-19T19:25:04Z		test: fix flaky test-regress-GH-897	171		
 10904	8463876	false	open	false	8		2017-01-19T23:49:56Z	2017-01-22T23:13:04Z		Compilation Fails for 7.4.0 on OpenBSD 6.0	363		
@@ -4186,4 +4186,4 @@
 10953	3367801	true	open	false	0		2017-01-22T16:33:13Z	2017-01-22T21:45:35Z		test: add TupleOrigin's test for url	42		
 10954	1538624	true	open	false	0	0	2017-01-22T21:31:15Z	2017-01-22T21:31:15Z		doc: add TimothyGu to collaborators	38		
 10955	1538624	true	open	false	0	0	2017-01-22T23:07:44Z	2017-01-22T23:07:44Z		url: stop exporting originFor()	93		
-10956	85749	false	open	false	0		2017-01-22T23:14:09Z	2017-01-22T23:14:09Z		discuss: asynchronous module.import	243		
+10956	85749	false	open	false	0		2017-01-22T23:14:09Z	2017-01-23T01:36:39Z		discuss: asynchronous module.import	243		
