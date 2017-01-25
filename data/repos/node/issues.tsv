@@ -139,7 +139,7 @@
 3316	275871	true	closed	false	25		2015-10-10T20:20:46Z	2016-11-18T20:22:57Z	2016-06-30T11:49:55Z	debugger: make listen address configurable	5		
 3349	708850	false	open	false	49		2015-10-13T15:44:25Z	2016-12-05T14:10:15Z		Binaries for sunos do not work on Solaris 11.2 - 'GLIBCXX_3.4.20' not found	98		
 3370	1316152	false	open	false	41		2015-10-14T16:29:36Z	2016-07-12T14:06:17Z		Node 4.2 large memory spikes and timeouts on Heroku 	333		
-3384	115237	true	open	false	21		2015-10-15T12:57:10Z	2017-01-25T19:45:43Z		module: remove require('.') with NODE_PATH compat	15		
+3384	115237	true	open	false	24		2015-10-15T12:57:10Z	2017-01-25T20:03:34Z		module: remove require('.') with NODE_PATH compat	15		
 3402	595361	false	closed	false	202		2015-10-16T12:45:59Z	2016-12-04T15:34:28Z	2016-04-27T02:45:38Z	Don't resolve symlinks when requiring	120		
 3410	6677095	true	closed	false			2015-10-16T20:54:30Z	2016-09-23T13:18:56Z	2015-11-24T21:09:22Z	src: added big-endian check and support to UTF-16 encode	25		
 3431	1145335	false	closed	false	17		2015-10-19T07:06:43Z	2016-12-17T10:41:59Z	2015-10-20T03:03:33Z	Can not install nodejs 4 on Windows 7 64-bit	66		
@@ -413,7 +413,7 @@
 6582	275871	true	closed	false	14		2016-05-04T22:29:50Z	2016-07-11T21:10:49Z	2016-05-05T11:05:20Z	crypto: disable ssl compression at build time	3		
 6599	79017	true	closed	false	20		2016-05-05T16:22:48Z	2016-10-12T10:04:41Z	2016-05-07T03:30:19Z	src,lib: minor --debug-brk cleanup	116		
 6600	15943089	true	closed	false	5	1	2016-05-05T16:23:18Z	2016-12-16T11:17:47Z	2016-12-16T11:17:47Z	win, build: add node.lib file into headers package	273		
-6601	1231635	true	open	false			2016-05-05T18:13:42Z	2017-01-13T17:29:26Z		doc: add Google Analytics tracking.	105		
+6601	1231635	true	closed	false	57	17	2016-05-05T18:13:42Z	2017-01-25T20:58:19Z	2017-01-25T20:58:19Z	doc: add Google Analytics tracking.	105		
 6604	40265	false	closed	false	14		2016-05-05T21:07:47Z	2016-10-29T19:48:35Z	2016-07-20T09:16:03Z	Encountering segfault	214		
 6610	5108906	false	closed	false	4		2016-05-06T02:18:49Z	2016-08-14T09:08:27Z	2016-08-14T09:08:27Z	Super-slow arrays in 6.x	472		
 6611	718899	false	closed	false	7		2016-05-06T03:24:47Z	2016-07-04T13:33:48Z	2016-07-04T13:33:48Z	Investigate flaky test-net-GH-5504	3		
@@ -4080,7 +4080,7 @@
 10843	9287	false	open	false	9		2017-01-17T00:22:15Z	2017-01-18T06:07:42Z		What will Domain be replaced with?	153		
 10844	3367801	true	open	false	1		2017-01-17T01:52:49Z	2017-01-18T15:33:03Z		test: increase coverage of dns-lookup	40		
 10845	1189785	true	closed	false	3		2017-01-17T02:36:35Z	2017-01-23T21:08:21Z	2017-01-23T21:08:21Z	test: improve code in test-crypto-verify	53		
-10846	17607	true	open	false	7		2017-01-17T03:48:53Z	2017-01-24T16:09:41Z		tests for new tls.TLSSocket, and support for sec ctx options	39		
+10846	17607	true	open	false	8		2017-01-17T03:48:53Z	2017-01-25T20:58:38Z		tests for new tls.TLSSocket, and support for sec ctx options	39		
 10847	718899	true	open	false			2017-01-17T04:22:31Z	2017-01-17T18:45:28Z		Optimize cluster.setupMaster()	118		
 10848	15811347	true	open	false	0	0	2017-01-17T05:38:55Z	2017-01-17T05:38:55Z		It can be a real array.	42		
 10849	439929	true	open	false	3		2017-01-17T06:39:30Z	2017-01-19T17:53:58Z		util: runtime deprecation for util._extend()	149		
@@ -4100,7 +4100,7 @@
 10863	3367801	true	closed	false	3		2017-01-18T04:43:20Z	2017-01-21T09:10:16Z	2017-01-21T09:10:16Z	test: increase coverage of string-decoder	42		
 10864	1326517	false	closed	false	2		2017-01-18T06:10:12Z	2017-01-18T07:35:47Z	2017-01-18T07:35:47Z	http server keep-alive not work with ab	671		
 10865	782880	true	open	false			2017-01-18T07:14:30Z	2017-01-19T05:44:46Z		crypto: Add crypto.getEngines()	180		
-10866	711968	true	open	false	8		2017-01-18T07:37:25Z	2017-01-25T17:01:21Z		child_process.fork: add string-shortcut for stdio	48		
+10866	711968	true	open	false	12		2017-01-18T07:37:25Z	2017-01-25T20:02:39Z		child_process.fork: add string-shortcut for stdio	48		
 10867	15811347	true	closed	false	2		2017-01-18T09:14:52Z	2017-01-18T14:31:38Z	2017-01-18T14:31:38Z	Update BufferList.js	42		
 10868	6487691	true	open	false	3		2017-01-18T11:11:19Z	2017-01-19T00:09:52Z		V4 backport: don't squash signal handlers with --shared	155		
 10869	899444	true	closed	false	8		2017-01-18T11:32:43Z	2017-01-21T07:57:57Z	2017-01-21T07:57:57Z	doc: mention moderation repo in onboarding doc	8		
@@ -4116,14 +4116,14 @@
 10879	718899	true	closed	false	1		2017-01-18T19:03:10Z	2017-01-21T04:39:47Z	2017-01-21T04:39:47Z	test: refactor test-repl-tab-complete	43		
 10880	2512748	false	open	false	6		2017-01-18T19:08:21Z	2017-01-20T17:47:07Z		RFC cluster: make scheduler pluggable	152		
 10881	4976075	true	open	false	3		2017-01-18T19:50:05Z	2017-01-24T07:13:23Z		deps backport 7c3748a from upstream V8	64		
-10882	109690	true	open	false	3		2017-01-18T20:25:43Z	2017-01-25T18:33:13Z		crypto: Remove unused access of tlsext_hostname.	97		
+10882	109690	true	open	false	4		2017-01-18T20:25:43Z	2017-01-25T20:08:15Z		crypto: Remove unused access of tlsext_hostname.	97		
 10883	1189785	true	open	false	0	0	2017-01-18T21:11:12Z	2017-01-18T21:11:12Z		doc: add edsadr to collaborators	36		
-10884	17607	true	open	false	0		2017-01-18T21:25:12Z	2017-01-19T17:39:37Z		process,console: describe when stdout/err is sync	50		
+10884	17607	true	open	false	2		2017-01-18T21:25:12Z	2017-01-25T20:48:47Z		doc: describe when stdout/err is sync	50		
 10885	6354455	true	closed	false	6	0	2017-01-18T21:50:11Z	2017-01-19T00:33:31Z	2017-01-19T00:33:31Z	v7.x-staging update	93		
 10886	6354455	true	closed	false	6	0	2017-01-19T00:39:14Z	2017-01-24T17:55:02Z	2017-01-24T17:55:02Z	v7.x-staging update proposal	293		
 10887	855219	true	closed	false	5	0	2017-01-19T01:41:43Z	2017-01-20T16:33:53Z	2017-01-20T16:33:52Z	deps: v6.x backport of #9234/#10206 bump ICU to 58.2 🍒 	52		
 10888	108959	true	closed	false	0	0	2017-01-19T03:01:32Z	2017-01-19T04:13:47Z	2017-01-19T04:13:47Z	test: added msg verification on assert.throws	45		
-10889	54666	true	open	false	0	0	2017-01-19T03:25:36Z	2017-01-19T03:25:36Z		backport: v7.x: #10654	38		
+10889	54666	true	closed	false	0	0	2017-01-19T03:25:36Z	2017-01-25T20:34:28Z	2017-01-25T20:34:28Z	backport: v7.x: #10654	40	54666	2017-01-25T20:34:28Z
 10890	108959	true	closed	false	2		2017-01-19T04:35:23Z	2017-01-22T05:11:55Z	2017-01-22T05:11:55Z	test: added msg verification on assert.throws	42		
 10891	108959	true	closed	false	8		2017-01-19T04:40:11Z	2017-01-24T22:27:10Z	2017-01-24T22:27:10Z	crypto: return result of openssl HMAC_Update instead of just true.	72		
 10892	432351	true	closed	false	0		2017-01-19T06:44:20Z	2017-01-20T07:06:38Z	2017-01-20T07:06:38Z	build: sort sources alphabetically	51		
@@ -4182,7 +4182,7 @@
 10945	10533913	true	closed	false	1	0	2017-01-22T00:19:49Z	2017-01-23T17:31:51Z	2017-01-23T17:31:51Z	doc: update AUTHORS list	28		
 10946	15197820	false	closed	false	3		2017-01-22T01:51:19Z	2017-01-22T04:24:14Z	2017-01-22T04:24:14Z	question or bug?: HTTP Server only handle one concurrent request (I'm not using synchronous methods)	165		
 10947	4542024	true	open	false	3		2017-01-22T04:14:53Z	2017-01-24T02:41:55Z		test: expand test coverage of events.js and fs.js	83		
-10948	6216576	true	open	false	21		2017-01-22T06:15:59Z	2017-01-25T05:22:09Z		"cli: fix the misalinged text on ""node --help"""	55		
+10948	6216576	true	open	false	23		2017-01-22T06:15:59Z	2017-01-25T20:27:03Z		"cli: fix the misalinged text on ""node --help"""	55		
 10949	2352663	true	open	false	0		2017-01-22T09:56:26Z	2017-01-22T10:09:55Z		benchmark: add benchmark for object properties	77		
 10950	13891170	false	open	false	0		2017-01-22T11:41:30Z	2017-01-22T19:15:19Z		Function declaration throws in REPL	76		
 10951	9162706	true	open	false			2017-01-22T13:48:36Z	2017-01-25T13:50:11Z		assertion testing: add second argument (a regexp) to assert.throws me…	0		
@@ -4202,8 +4202,8 @@
 10965	4836896	false	open	false	0		2017-01-23T18:47:22Z	2017-01-23T18:47:22Z		worker.send striping Map and replacing with {}	57		
 10966	718899	false	open	false	7		2017-01-23T19:18:55Z	2017-01-25T12:04:28Z		investigate flaky test-tls-regr-gh-5108	24		
 10967	1716463	true	open	false			2017-01-23T21:01:40Z	2017-01-25T18:50:38Z		querystring, url: repeated '&' in a paramsString will be skipped	64		
-10968	17607	true	open	false	0		2017-01-23T21:21:48Z	2017-01-24T19:42:55Z		v4 backport: doc: unify dirname and filename description	1		
-10969	17607	true	open	false	2		2017-01-23T22:03:01Z	2017-01-25T18:57:39Z		v4 backport: crypto: fix handling of root_cert_store.	34		
+10968	17607	true	open	false	1		2017-01-23T21:21:48Z	2017-01-25T20:48:17Z		v4 backport: doc: unify dirname and filename description	1		
+10969	17607	true	open	false	3		2017-01-23T22:03:01Z	2017-01-25T20:46:48Z		v4 backport: crypto: fix handling of root_cert_store.	34		
 10970	4421720	true	open	false	0		2017-01-23T23:26:43Z	2017-01-24T21:08:03Z		lib: deprecate node --debug at runtime	233		
 10971	19787902	false	closed	false	5		2017-01-24T01:02:06Z	2017-01-24T02:08:12Z	2017-01-24T02:08:12Z	Error installing Node.js	27		
 10972	4542024	true	open	false			2017-01-24T04:28:57Z	2017-01-24T14:06:49Z		test: expand test coverage of fs.js	44		
@@ -4214,7 +4214,7 @@
 10977	13561163	false	open	false	8		2017-01-24T15:41:32Z	2017-01-24T23:46:15Z		Object.defineProperty called inside the vm context fails to copy data properties onto the sandbox	129		
 10978	439929	false	open	false	0		2017-01-24T16:34:00Z	2017-01-24T16:34:00Z		url: watch WHATWG URL issue #217 (file state clarification)	25		
 10979	4299420	true	open	false			2017-01-24T16:38:09Z	2017-01-25T06:00:41Z		buffer, test: add tests for buffer.toJSON	50		
-10980	17607	true	open	false	5		2017-01-24T17:57:39Z	2017-01-25T18:30:24Z		deps: upgrade zlib to 1.2.11	27		
+10980	17607	true	open	false	6		2017-01-24T17:57:39Z	2017-01-25T20:42:32Z		deps: upgrade zlib to 1.2.11	27		
 10981	17607	true	open	false	2		2017-01-24T19:41:21Z	2017-01-25T17:41:25Z		"doc: for style, remove ""isn't"" contraction"	21		
 10982	718899	false	open	false	0		2017-01-24T21:52:10Z	2017-01-24T21:52:10Z		Collaborator nominations	108		
 10983	17607	true	closed	false	1	0	2017-01-24T22:05:25Z	2017-01-25T17:32:44Z	2017-01-25T17:32:44Z	doc: DEFAULT_ECDH_CURVE was added in 0.11.13	21		
@@ -4224,7 +4224,7 @@
 10987	25335557	false	open	false	3		2017-01-25T01:02:38Z	2017-01-25T14:19:35Z		TLS.js checkServerIdentity did not take wildcard in altername into consideration	24		
 10988	1189785	true	open	false			2017-01-25T03:10:35Z	2017-01-25T06:09:53Z		test: improve test-fs-access error validation	41		
 10989	6354455	true	open	false	1		2017-01-25T04:40:31Z	2017-01-25T18:46:57Z		Proposal to update v7.x-staging	2655		
-10990	3367801	true	open	false			2017-01-25T04:43:10Z	2017-01-25T19:08:41Z		lib: validate argument for punycode.encode and decode	381		
+10990	3367801	true	open	false			2017-01-25T04:43:10Z	2017-01-25T20:43:27Z		lib: validate argument for punycode.encode and decode	381		
 10991	22978069	true	open	false	0	0	2017-01-25T08:26:01Z	2017-01-25T08:26:01Z		Ported to mips64el	56		
 10992	2352663	true	open	false	3		2017-01-25T10:21:10Z	2017-01-25T17:11:10Z		deps: update V8 to 5.6	50		
 10993	20224954	true	open	false	5		2017-01-25T11:06:06Z	2017-01-25T18:08:55Z		tools: updated eslintrc to use eslint:recommended	70		
@@ -4238,3 +4238,5 @@
 11001	10393198	false	open	false	0		2017-01-25T18:08:07Z	2017-01-25T18:08:07Z		Another case of possibly deoptimizing use of `arguments` in libs	575		
 11002	17607	true	open	false	0	0	2017-01-25T19:19:45Z	2017-01-25T19:19:45Z		v4 backport of pr 5463	1		
 11003	9373002	false	open	false	0		2017-01-25T19:30:09Z	2017-01-25T19:30:09Z		test-tls-session-cache failure on smtartos16 - v7.x	26		
+11004	20413407	false	open	false	0		2017-01-25T20:55:35Z	2017-01-25T20:55:35Z		Unreasonable demand for installation Node.js for Windows	74		
+11005	17607	true	open	false	0	0	2017-01-25T20:55:54Z	2017-01-25T20:55:54Z		tls: new tls.TLSSocket() supports sec ctx options	39		
