@@ -2257,7 +2257,7 @@
 9014	498775	true	open	false	5		2016-10-10T22:09:07Z	2016-10-11T18:57:27Z		Backport src: fix handle leaks #7711	36		
 9015	1674289	false	open	false	5		2016-10-10T22:43:50Z	2016-12-07T12:08:01Z		Segmentation fault using TLS after uprgrade to nodejs 6.7.0 / CentOS 7	200		
 9016	498775	true	closed	false	0	2	2016-10-10T22:56:01Z	2016-10-11T17:50:52Z	2016-10-11T17:50:52Z	tls: copy the Buffer object before using (backport to v4.x)	39	498775	2016-10-11T17:50:52Z
-9017	996487	false	open	false	3		2016-10-11T00:54:44Z	2017-01-04T22:11:18Z		"Problematic process.argv with ""node -e"""	267		
+9017	996487	false	open	false	3		2016-10-11T00:54:44Z	2017-01-25T14:13:22Z		"Problematic process.argv with ""node -e"""	267		
 9018	8603093	false	closed	false	1		2016-10-11T01:03:14Z	2016-10-11T14:52:01Z	2016-10-11T14:52:00Z	Will read_cb be called immediately after alloc_cb for uv_read_start?	55		
 9019	592432	false	open	false	0		2016-10-11T03:52:51Z	2016-10-11T05:29:53Z		path.parse: result differs between Windows and macOS for Windows-style paths	92		
 9020	718899	false	closed	false	12		2016-10-11T04:22:40Z	2016-10-19T15:09:24Z	2016-10-19T15:09:24Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-10-12	482		
@@ -3885,7 +3885,7 @@
 10648	1189785	true	closed	false	3		2017-01-05T22:40:03Z	2017-01-09T17:27:38Z	2017-01-09T17:27:38Z	test: improve code in test-https-strict	46		
 10649	1486340	false	open	false	0		2017-01-06T00:03:53Z	2017-01-06T09:41:32Z		Bundled zlib is compiled despite the --shared-zlib configure-flag	104		
 10650	24947163	false	closed	false	4		2017-01-06T00:16:34Z	2017-01-15T22:44:36Z	2017-01-15T22:44:36Z	inspect reserved keyword for class function	91		
-10651	15161981	true	closed	false	16		2017-01-06T00:20:27Z	2017-01-25T08:59:42Z	2017-01-25T06:11:40Z	"""--"" after ""-e <script>"" means end-of-options"	69		
+10651	15161981	true	closed	false	17		2017-01-06T00:20:27Z	2017-01-25T14:23:28Z	2017-01-25T06:11:40Z	"""--"" after ""-e <script>"" means end-of-options"	69		
 10652	899444	true	closed	false	3		2017-01-06T01:04:27Z	2017-01-11T17:32:12Z	2017-01-11T17:32:12Z	doc: mention cc-ing nodejs/url team for reviews	21		
 10653	899444	true	closed	false	5	0	2017-01-06T01:23:46Z	2017-01-10T19:37:39Z	2017-01-10T19:37:39Z	child_process: support Uint8Array input to methods	47		
 10654	54666	true	closed	false	4	8	2017-01-06T08:18:10Z	2017-01-13T21:13:05Z	2017-01-13T21:13:05Z	http: improve ClientRequest constructor	102	54666	2017-01-13T21:13:05Z
@@ -4152,7 +4152,7 @@
 10916	4794630	true	closed	false	3		2017-01-20T11:58:42Z	2017-01-24T07:26:46Z	2017-01-24T07:26:46Z	test: improve test-assert	78		
 10917	79017	true	open	false	0		2017-01-20T13:42:25Z	2017-01-22T10:05:52Z		test: update V8 flag in test	41		
 10918	2512748	true	open	false	0		2017-01-20T15:40:25Z	2017-01-23T16:37:39Z		src: add NODE_NO_WARNINGS to --help output	55		
-10919	2512748	true	open	false	1		2017-01-20T18:23:39Z	2017-01-23T17:44:50Z		test: increase coverage for exec() functions	58		
+10919	2512748	true	closed	false	2	1	2017-01-20T18:23:39Z	2017-01-25T14:40:45Z	2017-01-25T14:40:45Z	test: increase coverage for exec() functions	58	2512748	2017-01-25T14:40:45Z
 10920	899444	true	open	false	1		2017-01-20T18:57:01Z	2017-01-24T05:58:16Z		"Revert ""src: don't overwrite non-writable vm globals"""	29		
 10921	10450602	true	open	false	1		2017-01-20T19:11:33Z	2017-01-23T21:35:47Z		doc: update child_process exec documentation	52		
 10922	17607	true	open	false	0	0	2017-01-20T19:14:15Z	2017-01-20T19:14:15Z		deps: upgrade zlib to 1.2.11	32		
@@ -4184,7 +4184,7 @@
 10948	6216576	true	open	false	21		2017-01-22T06:15:59Z	2017-01-25T05:22:09Z		"cli: fix the misalinged text on ""node --help"""	55		
 10949	2352663	true	open	false	0		2017-01-22T09:56:26Z	2017-01-22T10:09:55Z		benchmark: add benchmark for object properties	77		
 10950	13891170	false	open	false	0		2017-01-22T11:41:30Z	2017-01-22T19:15:19Z		Function declaration throws in REPL	76		
-10951	9162706	true	open	false			2017-01-22T13:48:36Z	2017-01-25T13:50:11Z		assertion testing: add second argument (a regexp) to assert.throws me…			
+10951	9162706	true	open	false			2017-01-22T13:48:36Z	2017-01-25T13:50:11Z		assertion testing: add second argument (a regexp) to assert.throws me…	0		
 10952	3367801	true	open	false	0		2017-01-22T16:18:33Z	2017-01-22T22:08:16Z		test: increase coverage for URL.searchParams	49		
 10953	3367801	true	open	false	1		2017-01-22T16:33:13Z	2017-01-23T13:44:35Z		test: add TupleOrigin's test for url	42		
 10954	1538624	true	open	false	0	0	2017-01-22T21:31:15Z	2017-01-22T21:31:15Z		doc: add TimothyGu to collaborators	38		
@@ -4194,7 +4194,7 @@
 10958	6627780	true	open	false			2017-01-23T04:46:31Z	2017-01-24T03:19:01Z		doc: add links to alternative versions of doc	126		
 10959	275871	true	open	false	6		2017-01-23T05:01:23Z	2017-01-23T21:00:55Z		src: move trace_event.h include to internal header	30		
 10960	718899	true	open	false	1		2017-01-23T05:30:33Z	2017-01-25T07:15:13Z		test: enhance test-timers	64		
-10961	1684137	false	open	false	1		2017-01-23T09:43:22Z	2017-01-25T03:49:26Z		pause() on response of http.request() causes 'aborted' event, and ClientRequest.abort() resumes the response.	180		
+10961	1684137	false	open	false	2		2017-01-23T09:43:22Z	2017-01-25T14:39:15Z		pause() on response of http.request() causes 'aborted' event, and ClientRequest.abort() resumes the response.	180		
 10962	15943003	false	open	false	0		2017-01-23T11:38:32Z	2017-01-23T12:07:06Z		Reading a directory	57		
 10963	3367801	true	open	false	1		2017-01-23T13:40:29Z	2017-01-23T16:58:47Z		test: increase coverage for stream's duplex	50		
 10964	5886475	true	open	false			2017-01-23T13:55:45Z	2017-01-23T18:04:06Z		test: increase coverage of internal/util	32		
@@ -4218,15 +4218,15 @@
 10982	718899	false	open	false	0		2017-01-24T21:52:10Z	2017-01-24T21:52:10Z		Collaborator nominations	108		
 10983	17607	true	open	false	0	0	2017-01-24T22:05:25Z	2017-01-24T22:05:25Z		doc: DEFAULT_ECDH_CURVE was added in 0.11.13	21		
 10984	17607	true	open	false	0	0	2017-01-24T22:15:46Z	2017-01-24T22:15:46Z		v4 backport: doc: add tls.DEFAULT_ECDH_CURVE	80		
-10985	1226256	false	open	false	2		2017-01-24T22:38:54Z	2017-01-25T05:39:23Z		Writing to a piped stdout stream results in Uncaught TypeError: cb is not a function	394		
-10986	11780786	true	open	false			2017-01-25T00:32:12Z	2017-01-25T07:28:00Z		doc: add and fix System Error properties	234		
-10987	25335557	false	open	false	2		2017-01-25T01:02:38Z	2017-01-25T02:12:53Z		TLS.js checkServerIdentity did not take wildcard in altername into consideration	24		
+10985	1226256	false	open	false	3		2017-01-24T22:38:54Z	2017-01-25T14:13:14Z		Writing to a piped stdout stream results in Uncaught TypeError: cb is not a function	394		
+10986	11780786	true	open	false			2017-01-25T00:32:12Z	2017-01-25T14:35:36Z		doc: add and fix System Error properties	234		
+10987	25335557	false	open	false	3		2017-01-25T01:02:38Z	2017-01-25T14:19:35Z		TLS.js checkServerIdentity did not take wildcard in altername into consideration	24		
 10988	1189785	true	open	false			2017-01-25T03:10:35Z	2017-01-25T06:09:53Z		test: improve test-fs-access error validation	41		
 10989	6354455	true	open	false	0		2017-01-25T04:40:31Z	2017-01-25T05:40:15Z		Proposal to update v7.x-staging	2655		
 10990	3367801	true	open	false	0	0	2017-01-25T04:43:10Z	2017-01-25T04:43:10Z		lib: validate argument for punycode.encode and decode	382		
 10991	22978069	true	open	false	0	0	2017-01-25T08:26:01Z	2017-01-25T08:26:01Z		Ported to mips64el	56		
 10992	2352663	true	open	false	1		2017-01-25T10:21:10Z	2017-01-25T12:57:25Z		deps: update V8 to 5.6	50		
-10993	20224954	true	open	false	1		2017-01-25T11:06:06Z	2017-01-25T13:48:42Z		tools: updated eslintrc to use eslint:recommended	70		
-10994	677994	true	open	false	0	0	2017-01-25T11:21:21Z	2017-01-25T11:21:21Z		doc: make os api doc more consistent	38		
-10995	12032248	false	open	false	0		2017-01-25T12:16:06Z	2017-01-25T12:16:06Z		JSON Stringify indentation not working	20		
+10993	20224954	true	open	false	2		2017-01-25T11:06:06Z	2017-01-25T14:22:17Z		tools: updated eslintrc to use eslint:recommended	70		
+10994	677994	true	open	false	0		2017-01-25T11:21:21Z	2017-01-25T14:01:30Z		doc: make os api doc more consistent	38		
+10995	12032248	false	open	false	1		2017-01-25T12:16:06Z	2017-01-25T14:19:21Z		JSON Stringify indentation not working	20		
 10996	16387161	false	open	false	0		2017-01-25T13:26:17Z	2017-01-25T13:26:17Z		path.sep not the same in different parts of the application	74		
