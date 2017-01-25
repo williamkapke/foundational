@@ -3426,7 +3426,7 @@
 10183	1189785	true	closed	false	6		2016-12-08T17:56:34Z	2017-01-16T16:45:22Z	2016-12-12T14:59:48Z	test: use ES6 in test-debugger-client.js	47		
 10184	238531	true	closed	false	7		2016-12-08T20:37:43Z	2017-01-23T05:32:07Z	2016-12-19T22:20:27Z	stream_base: homogenize req_wrap_obj use	47		
 10185	5455479	false	closed	false	1		2016-12-08T22:41:55Z	2016-12-11T13:49:56Z	2016-12-11T13:49:56Z	The property heap_size_limit from getHeapStatistics is incorrect for memory over 4032MB	114		
-10186	275871	true	closed	false	2		2016-12-08T23:19:42Z	2017-01-25T07:58:21Z	2016-12-11T13:48:54Z	lib,src: support values > 4GB in heap statistics	2		
+10186	275871	true	closed	false	3		2016-12-08T23:19:42Z	2017-01-25T18:48:36Z	2016-12-11T13:48:54Z	lib,src: support values > 4GB in heap statistics	2		
 10187	567540	true	open	false	49		2016-12-09T04:34:15Z	2017-01-24T16:06:59Z		deps: Add node-inspect	90		
 10188	718899	true	closed	false	5		2016-12-09T06:29:03Z	2016-12-12T21:28:32Z	2016-12-12T21:28:32Z	test: refactor test-handle-wrap-close-abort	53		
 10189	718899	true	closed	false	2		2016-12-09T06:55:25Z	2016-12-12T21:47:43Z	2016-12-12T21:47:42Z	test: refactor http pipelined socket test	52		
@@ -3501,7 +3501,7 @@
 10261	17607	true	open	false	5		2016-12-14T01:42:41Z	2016-12-14T16:04:50Z		tls: update builtin cert bundle for 0.12	41		
 10262	1857993	true	open	false	0		2016-12-14T03:15:32Z	2017-01-16T21:30:37Z		doc: add warning about url.resolve	27		
 10263	8259431	false	closed	false	1		2016-12-14T04:48:49Z	2016-12-14T05:12:36Z	2016-12-14T05:12:36Z	Initialization Vector length in createCipheriv/createeciperiv for aes-128-ecb	125		
-10264	17607	true	closed	false	4		2016-12-14T15:22:38Z	2017-01-24T22:19:48Z	2016-12-27T21:59:10Z	doc: add tls.DEFAULT_ECDH_CURVE	47		
+10264	17607	true	closed	false	5		2016-12-14T15:22:38Z	2017-01-25T18:59:08Z	2016-12-27T21:59:10Z	doc: add tls.DEFAULT_ECDH_CURVE	47		
 10265	620746	false	open	false	2		2016-12-14T15:55:50Z	2016-12-14T17:06:01Z		crypto.pbkdf2Sync can't handle non ASCII character in Node 6.9.2	218		
 10266	13561163	true	closed	false	3	1	2016-12-14T16:04:24Z	2016-12-14T23:45:34Z	2016-12-14T23:45:34Z	test: add known_issues test for #6287	66		
 10267	9373002	true	closed	false	5		2016-12-14T19:05:40Z	2016-12-16T21:00:16Z	2016-12-16T21:00:16Z	doc: fix broken link in COLLABORATOR_GUIDE.md	63		
@@ -3519,7 +3519,7 @@
 10279	6712608	false	open	false	1		2016-12-15T07:07:56Z	2016-12-15T15:18:24Z		http.request() to a IPV6 server directly with IP address will be failed on MacOS.	198		
 10280	11898796	true	open	false	0	0	2016-12-15T07:21:00Z	2016-12-15T07:21:00Z		Merge pull request #1 from nodejs/master	48		
 10281	20139338	false	closed	false	1		2016-12-15T08:27:33Z	2016-12-15T12:02:50Z	2016-12-15T11:06:15Z	How to build Nodejs for an arm64 architecture machine ?	68		
-10282	4299420	true	open	false			2016-12-15T08:41:44Z	2017-01-25T17:03:02Z		assert: enforce type check in deepStrictEqual	87		
+10282	4299420	true	open	false	25		2016-12-15T08:41:44Z	2017-01-25T18:16:37Z		assert: enforce type check in deepStrictEqual	87		
 10283	15943089	true	open	false	13		2016-12-15T09:01:54Z	2016-12-30T15:52:15Z		build: remove cares header from tarball	66		
 10284	3762808	false	open	false	3		2016-12-15T09:32:35Z	2016-12-15T15:06:07Z		dns.lookup() not considering Ipv6 entries in /etc/hosts file.	96		
 10285	20139338	false	closed	false	15		2016-12-15T11:09:57Z	2016-12-16T14:45:47Z	2016-12-16T14:45:47Z	Why the version of Node.js is not correct ?	48		
@@ -3531,7 +3531,7 @@
 10291	10169274	true	closed	false	5		2016-12-15T18:39:17Z	2016-12-17T08:42:31Z	2016-12-17T08:42:31Z	test: clean up test-domain-no-error-handler-abort-on-uncaught.js	44		
 10292	24595609	false	open	false	27		2016-12-15T21:33:47Z	2017-01-11T20:19:42Z		console.log and util.format should support the %i integer conversion	110		
 10293	718899	true	closed	false	7		2016-12-15T22:03:26Z	2016-12-19T04:59:21Z	2016-12-19T04:59:21Z	test: fix flaky test-http-client-timeout-event	45		
-10294	17607	true	closed	false	6	2	2016-12-15T22:26:59Z	2016-12-19T21:49:25Z	2016-12-19T21:49:25Z	tls: allow obvious key/passphrase combinations	94		
+10294	17607	true	closed	false	6		2016-12-15T22:26:59Z	2017-01-25T18:58:06Z	2016-12-19T21:49:25Z	tls: allow obvious key/passphrase combinations	94		
 10295	9287	false	open	false	2		2016-12-15T22:43:36Z	2016-12-16T05:25:22Z		RFE: A way to spawn a foreground process	172		
 10296	677994	true	closed	false	3		2016-12-15T23:25:24Z	2017-01-23T02:35:21Z	2016-12-23T06:10:42Z	repl: allow autocompletion for scoped packages	59		
 10297	1189785	true	closed	false	3		2016-12-16T00:10:03Z	2016-12-23T06:26:48Z	2016-12-23T06:26:48Z	test: refactor code in test-cluster-http-pipe	72		
@@ -3597,7 +3597,7 @@
 10360	54666	true	closed	false	1		2016-12-20T20:03:29Z	2017-01-23T00:39:11Z	2016-12-24T07:26:43Z	benchmark: use commas in non-csv rate output	55		
 10361	498775	false	open	false	2		2016-12-20T21:20:08Z	2016-12-21T02:20:30Z		Debugger tests are timing out on v4.x	27		
 10362	718899	true	closed	false	6		2016-12-20T21:46:32Z	2016-12-23T00:41:05Z	2016-12-23T00:41:05Z	test: fix timers-same-timeout-wrong-list-deleted	227		
-10363	1087603	false	open	false	0		2016-12-20T22:18:08Z	2017-01-25T05:00:36Z		`http.ClientRequest.setTimeout` does not timeout if dns.lookup exceeds the timeout	134		
+10363	1087603	false	closed	false	2		2016-12-20T22:18:08Z	2017-01-25T18:43:15Z	2017-01-25T18:43:15Z	`http.ClientRequest.setTimeout` does not timeout if dns.lookup exceeds the timeout	134		
 10364	696611	true	closed	false	1	0	2016-12-20T23:37:06Z	2016-12-21T17:52:00Z	2016-12-21T17:51:59Z	v4.x: backport 9375 - indenting comments in makefile	79		
 10365	1093990	true	closed	false	1		2016-12-21T00:05:13Z	2016-12-21T19:32:38Z	2016-12-21T17:56:05Z	Fix timers cancel in interval v4.x	62		
 10366	696611	true	closed	false	1	0	2016-12-21T00:22:31Z	2016-12-21T17:59:08Z	2016-12-21T17:59:07Z	v4.x backport silent logs in addons tests	39		
@@ -3999,7 +3999,7 @@
 10763	1205100	false	closed	false	4		2017-01-12T10:58:17Z	2017-01-13T16:51:57Z	2017-01-13T16:51:57Z	Disable/Hide all command line options?	88		
 10764	4299420	true	closed	false	9		2017-01-12T12:29:44Z	2017-01-23T13:32:45Z	2017-01-23T13:32:45Z	process: improve process.hrtime	132		
 10765	11823240	false	closed	false	0		2017-01-12T12:45:43Z	2017-01-12T13:13:29Z	2017-01-12T13:13:29Z	String.prototype.toLocaleUpperCase bug in tr_TR.UTF-8 Locale	62		
-10766	52195	false	open	false	8		2017-01-12T16:51:50Z	2017-01-23T04:24:34Z		doc: guide on backpressure	37		
+10766	52195	false	open	false	9		2017-01-12T16:51:50Z	2017-01-25T18:21:27Z		doc: guide on backpressure	37		
 10767	7282720	true	open	false	0	0	2017-01-12T18:08:45Z	2017-01-12T18:08:45Z		child_process: Allow an unlimited maxBuffer size in child_process	31		
 10768	17607	false	open	false	0		2017-01-12T18:43:30Z	2017-01-12T18:43:30Z		maxBuffer of Infinity aborts child_process.execSync	196		
 10769	2512748	true	open	false	8		2017-01-12T18:44:09Z	2017-01-17T15:19:48Z		child_process: allow Infinity as maxBuffer value	34		
@@ -4115,7 +4115,7 @@
 10879	718899	true	closed	false	1		2017-01-18T19:03:10Z	2017-01-21T04:39:47Z	2017-01-21T04:39:47Z	test: refactor test-repl-tab-complete	43		
 10880	2512748	false	open	false	6		2017-01-18T19:08:21Z	2017-01-20T17:47:07Z		RFC cluster: make scheduler pluggable	152		
 10881	4976075	true	open	false	3		2017-01-18T19:50:05Z	2017-01-24T07:13:23Z		deps backport 7c3748a from upstream V8	64		
-10882	109690	true	open	false	2		2017-01-18T20:25:43Z	2017-01-19T22:27:18Z		crypto: Remove unused access of tlsext_hostname.	97		
+10882	109690	true	open	false	3		2017-01-18T20:25:43Z	2017-01-25T18:33:13Z		crypto: Remove unused access of tlsext_hostname.	97		
 10883	1189785	true	open	false	0	0	2017-01-18T21:11:12Z	2017-01-18T21:11:12Z		doc: add edsadr to collaborators	36		
 10884	17607	true	open	false	0		2017-01-18T21:25:12Z	2017-01-19T17:39:37Z		process,console: describe when stdout/err is sync	50		
 10885	6354455	true	closed	false	6	0	2017-01-18T21:50:11Z	2017-01-19T00:33:31Z	2017-01-19T00:33:31Z	v7.x-staging update	93		
@@ -4200,9 +4200,9 @@
 10964	5886475	true	open	false			2017-01-23T13:55:45Z	2017-01-23T18:04:06Z		test: increase coverage of internal/util	32		
 10965	4836896	false	open	false	0		2017-01-23T18:47:22Z	2017-01-23T18:47:22Z		worker.send striping Map and replacing with {}	57		
 10966	718899	false	open	false	7		2017-01-23T19:18:55Z	2017-01-25T12:04:28Z		investigate flaky test-tls-regr-gh-5108	24		
-10967	1716463	true	open	false	11		2017-01-23T21:01:40Z	2017-01-25T09:02:59Z		querystring, url: repeated '&' in a paramsString will be skipped	64		
+10967	1716463	true	open	false			2017-01-23T21:01:40Z	2017-01-25T18:50:38Z		querystring, url: repeated '&' in a paramsString will be skipped	64		
 10968	17607	true	open	false	0		2017-01-23T21:21:48Z	2017-01-24T19:42:55Z		v4 backport: doc: unify dirname and filename description	1		
-10969	17607	true	open	false	1		2017-01-23T22:03:01Z	2017-01-24T18:58:32Z		v4 backport: crypto: fix handling of root_cert_store.	34		
+10969	17607	true	open	false	2		2017-01-23T22:03:01Z	2017-01-25T18:57:39Z		v4 backport: crypto: fix handling of root_cert_store.	34		
 10970	4421720	true	open	false	0		2017-01-23T23:26:43Z	2017-01-24T21:08:03Z		lib: deprecate node --debug at runtime	233		
 10971	19787902	false	closed	false	5		2017-01-24T01:02:06Z	2017-01-24T02:08:12Z	2017-01-24T02:08:12Z	Error installing Node.js	27		
 10972	4542024	true	open	false			2017-01-24T04:28:57Z	2017-01-24T14:06:49Z		test: expand test coverage of fs.js	44		
@@ -4213,23 +4213,25 @@
 10977	13561163	false	open	false	8		2017-01-24T15:41:32Z	2017-01-24T23:46:15Z		Object.defineProperty called inside the vm context fails to copy data properties onto the sandbox	129		
 10978	439929	false	open	false	0		2017-01-24T16:34:00Z	2017-01-24T16:34:00Z		url: watch WHATWG URL issue #217 (file state clarification)	25		
 10979	4299420	true	open	false			2017-01-24T16:38:09Z	2017-01-25T06:00:41Z		buffer, test: add tests for buffer.toJSON	50		
-10980	17607	true	open	false	4		2017-01-24T17:57:39Z	2017-01-25T17:53:51Z		deps: upgrade zlib to 1.2.11	27		
+10980	17607	true	open	false	5		2017-01-24T17:57:39Z	2017-01-25T18:30:24Z		deps: upgrade zlib to 1.2.11	27		
 10981	17607	true	open	false	2		2017-01-24T19:41:21Z	2017-01-25T17:41:25Z		"doc: for style, remove ""isn't"" contraction"	21		
 10982	718899	false	open	false	0		2017-01-24T21:52:10Z	2017-01-24T21:52:10Z		Collaborator nominations	108		
 10983	17607	true	closed	false	1	0	2017-01-24T22:05:25Z	2017-01-25T17:32:44Z	2017-01-25T17:32:44Z	doc: DEFAULT_ECDH_CURVE was added in 0.11.13	21		
 10984	17607	true	open	false	0	0	2017-01-24T22:15:46Z	2017-01-24T22:15:46Z		v4 backport: doc: add tls.DEFAULT_ECDH_CURVE	80		
-10985	1226256	false	open	false	5		2017-01-24T22:38:54Z	2017-01-25T17:23:30Z		Writing to a piped stdout stream results in Uncaught TypeError: cb is not a function	394		
+10985	1226256	false	open	false	6		2017-01-24T22:38:54Z	2017-01-25T18:35:39Z		Writing to a piped stdout stream results in Uncaught TypeError: cb is not a function	394		
 10986	11780786	true	open	false			2017-01-25T00:32:12Z	2017-01-25T16:20:37Z		doc: add and fix System Error properties	234		
 10987	25335557	false	open	false	3		2017-01-25T01:02:38Z	2017-01-25T14:19:35Z		TLS.js checkServerIdentity did not take wildcard in altername into consideration	24		
 10988	1189785	true	open	false			2017-01-25T03:10:35Z	2017-01-25T06:09:53Z		test: improve test-fs-access error validation	41		
-10989	6354455	true	open	false	0		2017-01-25T04:40:31Z	2017-01-25T05:40:15Z		Proposal to update v7.x-staging	2655		
+10989	6354455	true	open	false	1		2017-01-25T04:40:31Z	2017-01-25T18:46:57Z		Proposal to update v7.x-staging	2655		
 10990	3367801	true	open	false	0		2017-01-25T04:43:10Z	2017-01-25T17:40:20Z		lib: validate argument for punycode.encode and decode	381		
 10991	22978069	true	open	false	0	0	2017-01-25T08:26:01Z	2017-01-25T08:26:01Z		Ported to mips64el	56		
 10992	2352663	true	open	false	3		2017-01-25T10:21:10Z	2017-01-25T17:11:10Z		deps: update V8 to 5.6	50		
-10993	20224954	true	open	false	4		2017-01-25T11:06:06Z	2017-01-25T16:55:34Z		tools: updated eslintrc to use eslint:recommended	70		
+10993	20224954	true	open	false	5		2017-01-25T11:06:06Z	2017-01-25T18:08:55Z		tools: updated eslintrc to use eslint:recommended	70		
 10994	677994	true	open	false	0		2017-01-25T11:21:21Z	2017-01-25T14:01:30Z		doc: make os api doc more consistent	38		
 10995	12032248	false	open	false	1		2017-01-25T12:16:06Z	2017-01-25T14:19:21Z		JSON Stringify indentation not working	20		
 10996	16387161	false	open	false	0		2017-01-25T13:26:17Z	2017-01-25T13:26:17Z		path.sep not the same in different parts of the application	74		
 10997	3171327	false	open	false	0		2017-01-25T17:03:22Z	2017-01-25T17:03:22Z		"Documentation: conflicting ""Added in"" for Buffer methods"	79		
 10998	718899	true	open	false	0	0	2017-01-25T17:17:51Z	2017-01-25T17:17:51Z		test: allow for slow hosts in spawnSync() test	49		
 10999	17169119	false	open	false	0		2017-01-25T17:21:35Z	2017-01-25T17:21:35Z		Is fs.createReadStream able to make stream from buffer as written in doc?	118		
+11000	439929	false	open	false	0		2017-01-25T18:07:00Z	2017-01-25T18:07:00Z		url: track WHATWG URL issue #216: Host parser UTF-8 failure	21		
+11001	10393198	false	open	false	0		2017-01-25T18:08:07Z	2017-01-25T18:08:07Z		Another case of possibly deoptimizing use of `arguments` in libs	575		
