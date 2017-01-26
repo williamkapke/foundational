@@ -1622,7 +1622,7 @@
 8378	1443911	true	open	false	1		2016-09-02T10:14:13Z	2016-09-24T21:12:41Z		doc: fix example in stream doc	54		
 8379	914122	false	closed	false	24		2016-09-02T12:46:51Z	2016-10-10T15:57:48Z	2016-10-10T15:57:48Z	Not helpful error message after upgrading Node	136		
 8380	9373002	false	closed	false	11		2016-09-02T12:53:08Z	2016-09-02T19:05:20Z	2016-09-02T19:05:20Z	AIX: parallel/test-cluster-dgram-1 failures	207		
-8381	115237	false	open	false	36		2016-09-02T13:00:01Z	2017-01-25T16:05:57Z		http: support environment-defined proxy	98		
+8381	115237	false	open	false	37		2016-09-02T13:00:01Z	2017-01-25T23:44:14Z		http: support environment-defined proxy	98		
 8382	914122	false	open	false	17		2016-09-02T13:08:45Z	2017-01-05T15:34:37Z		yield/await support in repl/cli	75		
 8383	1084056	true	closed	false	13		2016-09-02T13:17:30Z	2016-10-15T12:59:06Z	2016-09-02T19:08:23Z	test: fix test-cluster-dgram-1 flakiness	49		
 8384	9373002	true	open	false	0	0	2016-09-02T14:40:11Z	2016-09-02T14:40:11Z		test: revert changes to test/parallel/test-cluster-dgram-1.js	54		
@@ -3461,7 +3461,7 @@
 10220	5356588	false	open	false	4		2016-12-10T20:16:07Z	2017-01-03T21:20:06Z		Cannot debug code with `node --inspect` due to: Uncaught ReferenceError: DevToolsAPI is not defined	200		
 10221	10393198	true	open	false	2		2016-12-10T23:47:33Z	2016-12-12T21:10:27Z		doc: document argument variant in the repl.md	97		
 10222	490562	false	closed	false	4		2016-12-11T00:54:31Z	2016-12-11T05:27:34Z	2016-12-11T05:27:34Z	Error message when destructuring a non array is unclear	124		
-10223	12378597	false	closed	false	3		2016-12-11T02:59:00Z	2016-12-13T12:19:13Z	2016-12-13T12:19:13Z	Object.defineProperty on the global object does not handle 'writable' properly in vm context	174		
+10223	12378597	false	open	false	4		2016-12-11T02:59:00Z	2017-01-25T23:54:06Z		Object.defineProperty on the global object does not handle 'writable' properly in vm context	174		
 10224	718899	true	closed	false	10		2016-12-11T04:40:40Z	2016-12-14T20:46:47Z	2016-12-14T20:46:47Z	test: fix http-client-timeout-option-listeners	68		
 10225	718899	true	closed	false	2	3	2016-12-11T05:16:04Z	2016-12-12T22:07:49Z	2016-12-12T22:07:49Z	test: refactor test-https-truncate	55		
 10226	718899	true	closed	false	3	2	2016-12-11T05:45:40Z	2016-12-14T15:15:38Z	2016-12-14T15:15:38Z	test: refactor test-stream-big-push	46		
@@ -3727,7 +3727,7 @@
 10489	22550884	true	closed	false	0	0	2016-12-28T15:57:10Z	2016-12-28T17:47:03Z	2016-12-28T17:47:03Z	test: basic functionality of readUInt32BE()	32		
 10490	22550884	true	closed	false	0	0	2016-12-28T15:58:17Z	2016-12-28T17:46:46Z	2016-12-28T17:46:46Z	test: basic functionality of readUInt32LE()	32		
 10491	22550884	true	closed	false	0	0	2016-12-28T15:59:37Z	2016-12-28T17:46:28Z	2016-12-28T17:46:28Z	test: basic functionality of readIntLE()	32		
-10492	13352	false	open	false	1		2016-12-28T16:00:21Z	2016-12-28T16:31:39Z		Regression in Jest with jsdom	111		
+10492	13352	false	closed	false	1		2016-12-28T16:00:21Z	2017-01-25T23:48:51Z	2017-01-25T23:48:51Z	Regression in Jest with jsdom	111		
 10493	22550884	true	closed	false	0	0	2016-12-28T16:00:51Z	2016-12-28T17:46:10Z	2016-12-28T17:46:10Z	test: basic functionalities of readIntBE()	32		
 10494	22550884	true	closed	false	0	0	2016-12-28T16:03:16Z	2016-12-28T17:45:52Z	2016-12-28T17:45:52Z	test: basic functionalities of readInt8	32		
 10495	22550884	true	closed	false	0	0	2016-12-28T16:05:07Z	2016-12-28T17:45:35Z	2016-12-28T17:45:35Z	test: basic functionalities of readInt16LE()	32		
@@ -4039,8 +4039,8 @@
 10802	1149663	false	closed	false	0		2017-01-14T09:00:15Z	2017-01-19T15:03:55Z	2017-01-19T15:03:55Z	Cannot disable warnings when node is launched via a shell script.	76		
 10803	54666	false	closed	false	0		2017-01-14T14:25:32Z	2017-01-19T19:24:29Z	2017-01-19T19:24:29Z	doc: http response.getHeader() documentation partially incorrect	59		
 10804	25119916	false	open	false	3		2017-01-14T14:46:19Z	2017-01-14T15:13:32Z		Error for running a program in REPL	23		
-10805	54666	true	open	false			2017-01-14T14:50:00Z	2017-01-24T19:05:01Z		http: add new functions to OutgoingMessage	81		
-10806	617481	false	open	false	5		2017-01-14T15:07:57Z	2017-01-20T18:30:44Z		vm regression: assigning a property the first time does not work; only the second time	102		
+10805	54666	true	open	false			2017-01-14T14:50:00Z	2017-01-25T23:05:51Z		http: add new functions to OutgoingMessage	81		
+10806	617481	false	closed	false	6		2017-01-14T15:07:57Z	2017-01-25T23:48:51Z	2017-01-25T23:48:51Z	vm regression: assigning a property the first time does not work; only the second time	102		
 10807	142175	true	closed	false	2		2017-01-14T15:36:54Z	2017-01-23T02:44:06Z	2017-01-16T18:28:07Z	test: add msg validation to test-buffer-compare	30		
 10808	3367801	true	closed	false	4		2017-01-14T18:38:16Z	2017-01-16T18:25:30Z	2017-01-16T18:25:30Z	test: add test case to test-http-response-statuscode.js	41		
 10809	696611	true	closed	false	10		2017-01-14T19:17:46Z	2017-01-15T21:54:48Z	2017-01-14T19:51:35Z	"Revert ""fs: ensure readFile[Sync] reads from the beginning"""	317		
@@ -4154,7 +4154,7 @@
 10917	79017	true	open	false	0		2017-01-20T13:42:25Z	2017-01-22T10:05:52Z		test: update V8 flag in test	41		
 10918	2512748	true	open	false	0		2017-01-20T15:40:25Z	2017-01-23T16:37:39Z		src: add NODE_NO_WARNINGS to --help output	55		
 10919	2512748	true	closed	false	2	1	2017-01-20T18:23:39Z	2017-01-25T14:40:45Z	2017-01-25T14:40:45Z	test: increase coverage for exec() functions	58	2512748	2017-01-25T14:40:45Z
-10920	899444	true	open	false	1		2017-01-20T18:57:01Z	2017-01-24T05:58:16Z		"Revert ""src: don't overwrite non-writable vm globals"""	29		
+10920	899444	true	closed	false	2		2017-01-20T18:57:01Z	2017-01-25T23:48:21Z	2017-01-25T23:48:21Z	"Revert ""src: don't overwrite non-writable vm globals"""	29		
 10921	10450602	true	open	false	3		2017-01-20T19:11:33Z	2017-01-25T17:21:46Z		doc: update child_process exec documentation	52		
 10922	17607	true	open	false	0	0	2017-01-20T19:14:15Z	2017-01-20T19:14:15Z		deps: upgrade zlib to 1.2.11	32		
 10923	17607	true	closed	false	1	3	2017-01-20T19:16:45Z	2017-01-23T20:47:07Z	2017-01-23T20:47:07Z	test: test hmac binding robustness	82	17607	2017-01-23T20:47:07Z
@@ -4238,7 +4238,7 @@
 11001	10393198	false	open	false	0		2017-01-25T18:08:07Z	2017-01-25T18:08:07Z		Another case of possibly deoptimizing use of `arguments` in libs	575		
 11002	17607	true	open	false	0	0	2017-01-25T19:19:45Z	2017-01-25T19:19:45Z		v4 backport of pr 5463	1		
 11003	9373002	false	open	false	0		2017-01-25T19:30:09Z	2017-01-25T19:30:09Z		test-tls-session-cache failure on smtartos16 - v7.x	26		
-11004	20413407	false	open	false	0		2017-01-25T20:55:35Z	2017-01-25T21:02:04Z		Unreasonable demand for installation Node.js for Windows	74		
+11004	20413407	false	closed	false	3		2017-01-25T20:55:35Z	2017-01-26T00:00:49Z	2017-01-26T00:00:49Z	Unreasonable demand for installation Node.js for Windows	74		
 11005	17607	true	open	false	0	0	2017-01-25T20:55:54Z	2017-01-25T20:55:54Z		tls: new tls.TLSSocket() supports sec ctx options	39		
-11006	17607	true	open	false	0	0	2017-01-25T22:17:58Z	2017-01-25T22:17:58Z		crypto: support OPENSSL_CONF again	106		
+11006	17607	true	open	false	2		2017-01-25T22:17:58Z	2017-01-25T23:55:29Z		crypto: support OPENSSL_CONF again	106		
 11007	17607	true	open	false	0	0	2017-01-25T22:22:09Z	2017-01-25T22:22:09Z		doc: add version meta for SSL_CERT_DIR/FILE	34		
