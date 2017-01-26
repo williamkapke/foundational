@@ -2860,7 +2860,7 @@
 9615	17704638	true	open	false	13		2016-11-15T11:53:23Z	2017-01-18T16:44:48Z		benchmark: remove %OptimizeFunctionOnNextCall	138		
 9616	8297234	true	open	false	3		2016-11-15T11:59:55Z	2016-11-18T17:38:43Z		test: run tests even if os.cpus() fails	58		
 9617	2864371	false	closed	false	11		2016-11-15T15:09:09Z	2016-12-23T10:36:02Z	2016-12-08T14:19:27Z	How to detect debug mode	22		
-9618	2352663	true	open	false	58		2016-11-15T16:14:06Z	2017-01-26T00:28:17Z		deps: update V8 to 5.5	52		
+9618	2352663	true	open	false	59		2016-11-15T16:14:06Z	2017-01-26T13:12:54Z		deps: update V8 to 5.5	52		
 9619	1093990	true	closed	false	3	0	2016-11-15T17:25:04Z	2016-11-18T21:20:13Z	2016-11-18T21:20:12Z	0.12 npm@2 update to latest (v2.15.11)	50	1093990	2016-11-18T21:20:12Z
 9620	17607	true	closed	false	5	0	2016-11-15T17:57:55Z	2016-11-18T17:29:21Z	2016-11-18T17:29:21Z	doc: strip trailing whitespace	32	17607	2016-11-18T17:29:21Z
 9621	635591	false	open	false	4		2016-11-15T18:16:35Z	2016-11-16T09:35:00Z		Feature request: API for debugging node child processes	191		
@@ -4053,12 +4053,12 @@
 10815	25032555	false	open	false	0		2017-01-15T06:20:39Z	2017-01-15T06:20:39Z		I found that the NodejsForDelphi is not thread safe?	58		
 10816	718899	true	closed	false	6	5	2017-01-15T06:49:46Z	2017-01-18T16:29:33Z	2017-01-18T16:29:33Z	vm: improve performance of vm.runIn*()	129		
 10817	7455872	true	closed	false	2		2017-01-15T12:54:15Z	2017-01-18T16:22:09Z	2017-01-18T16:22:09Z	HTTP response getHeader doc fix	33		
-10818	1443911	true	open	false	7		2017-01-15T14:00:17Z	2017-01-26T07:22:56Z		http: make `request.abort()` destroy the socket	67		
+10818	1443911	true	open	false	8		2017-01-15T14:00:17Z	2017-01-26T13:24:17Z		http: make `request.abort()` destroy the socket	67		
 10819	711968	false	open	false	3		2017-01-15T15:24:30Z	2017-01-16T21:21:47Z		child_process: fork does not accept null or undefined args array	69		
 10820	3367801	true	closed	false	2		2017-01-15T16:45:00Z	2017-01-22T14:28:28Z	2017-01-22T14:28:28Z	test: increase coverage of _http_outgoing	38		
 10821	1538624	false	open	false	0		2017-01-15T19:01:07Z	2017-01-15T19:01:07Z		url: track status of a spec-compliant URLSearchParams	66		
 10822	696611	true	open	false			2017-01-15T19:09:10Z	2017-01-16T19:14:40Z		test: increase timeout in break-on-uncaught	80		
-10823	4299420	true	open	false	17		2017-01-15T19:09:52Z	2017-01-24T23:06:41Z		benchmark: add progress indicator to compare.js	65		
+10823	4299420	true	open	false	18		2017-01-15T19:09:52Z	2017-01-26T13:45:31Z		benchmark: add progress indicator to compare.js	65		
 10824	899444	false	open	false	1		2017-01-15T19:44:02Z	2017-01-15T22:43:30Z		querystring should maybe support Buffers	64		
 10825	1658949	false	open	false	5		2017-01-15T22:45:21Z	2017-01-25T17:12:22Z		"Conflicting ""Added in"" versions"	40		
 10826	899444	true	closed	false	0		2017-01-15T22:57:24Z	2017-01-18T03:54:02Z	2017-01-18T03:54:02Z	doc: minor fixups for `added` tags	32		
@@ -4091,7 +4091,7 @@
 10853	988441	true	open	false	33		2017-01-17T09:38:30Z	2017-01-18T19:16:14Z		doc: clarify the behavior of readFile with fd	142		
 10854	15943089	true	closed	false	3	0	2017-01-17T10:54:47Z	2017-01-23T03:32:20Z	2017-01-23T03:32:20Z	test: don't connect to :: (use localhost instead)	123		
 10855	1205100	false	open	false	8		2017-01-17T12:06:02Z	2017-01-24T15:15:01Z		"child_process.spawn(""vcbuild.bat"",...) hangs in virtual windows"	71		
-10856	12443664	true	open	false			2017-01-17T15:00:50Z	2017-01-25T05:19:58Z		Build: Produce C/JS code coverage reports from make	270		
+10856	12443664	true	open	false			2017-01-17T15:00:50Z	2017-01-26T13:42:24Z		Build: Produce C/JS code coverage reports from make	270		
 10857	439929	true	open	false	13		2017-01-17T17:11:47Z	2017-01-24T20:17:22Z		url: extend url.format to support WHATWG URL	116		
 10858	289174	false	closed	false	3		2017-01-17T20:09:47Z	2017-01-20T17:13:51Z	2017-01-20T17:13:51Z	inspector aborts when another process is running the inspector	172		
 10859	21203	true	closed	false	12	5	2017-01-17T20:21:38Z	2017-01-23T06:18:51Z	2017-01-23T06:18:51Z	crypto: don't reference |freelist_max_len| in OpenSSL 1.1.0.	67		
@@ -4214,7 +4214,7 @@
 10976	1131063	false	closed	false	1		2017-01-24T14:42:23Z	2017-01-25T09:34:30Z	2017-01-24T20:53:27Z	socket._handle.fd invalid when domain is used	208		
 10977	13561163	false	open	false	8		2017-01-24T15:41:32Z	2017-01-24T23:46:15Z		Object.defineProperty called inside the vm context fails to copy data properties onto the sandbox	129		
 10978	439929	false	open	false	0		2017-01-24T16:34:00Z	2017-01-24T16:34:00Z		url: watch WHATWG URL issue #217 (file state clarification)	25		
-10979	4299420	true	open	false			2017-01-24T16:38:09Z	2017-01-25T06:00:41Z		buffer, test: add tests for buffer.toJSON	50		
+10979	4299420	true	open	false	1		2017-01-24T16:38:09Z	2017-01-26T13:34:51Z		buffer, test: add tests for buffer.toJSON	50		
 10980	17607	true	open	false	6		2017-01-24T17:57:39Z	2017-01-25T20:42:32Z		deps: upgrade zlib to 1.2.11	27		
 10981	17607	true	open	false	2		2017-01-24T19:41:21Z	2017-01-25T17:41:25Z		"doc: for style, remove ""isn't"" contraction"	21		
 10982	718899	false	open	false	0		2017-01-24T21:52:10Z	2017-01-24T21:52:10Z		Collaborator nominations	108		
@@ -4249,7 +4249,8 @@
 11011	275871	true	open	false	0	0	2017-01-26T01:04:46Z	2017-01-26T01:04:46Z		doc: remove Chris Dickinson from active releasers	10		
 11012	15161981	true	open	false	0	0	2017-01-26T02:45:06Z	2017-01-26T02:45:06Z		"v4 backport: support ""--"" after ""-e"" as end-of-options"	73		
 11013	15161981	true	open	false	0	0	2017-01-26T02:47:26Z	2017-01-26T02:47:26Z		"v6 backport: support ""--"" after ""-e"" as end-of-options"	73		
-11014	3065230	false	open	false	0		2017-01-26T08:57:26Z	2017-01-26T12:01:21Z		Cannot differentiate between client and server aborting	93		
+11014	3065230	false	closed	false	1		2017-01-26T08:57:26Z	2017-01-26T13:29:30Z	2017-01-26T13:29:30Z	Cannot differentiate between client and server aborting	93		
 11015	5157107	true	open	false	0	0	2017-01-26T12:29:33Z	2017-01-26T12:29:33Z		src: unconsme stream fix	102		
 11016	24886230	false	open	false	0		2017-01-26T12:53:48Z	2017-01-26T12:53:48Z		Node	6		
 11017	5157107	false	open	false	0		2017-01-26T12:58:16Z	2017-01-26T12:58:16Z		Assert is raised when emitting 'connection' event	281		
+11018	432351	true	open	false	0	0	2017-01-26T13:04:55Z	2017-01-26T13:04:55Z		timers: clarify lib/timer.js comment	77		
