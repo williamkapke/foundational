@@ -344,6 +344,7 @@
 6180	3824055	false	closed	false	18		2016-04-13T14:03:54Z	2016-07-26T17:44:29Z	2016-07-26T17:44:29Z	Memory leak in simple test case involving WeakSet	202		
 6181	6279791	false	closed	false	5		2016-04-13T14:17:30Z	2016-09-27T13:15:32Z	2016-04-13T17:24:17Z	Uncaught TypeError when tab-completing constructor in REPL	66		
 6184	289174	true	closed	false	29		2016-04-13T19:21:38Z	2016-10-24T18:28:57Z	2016-05-24T20:44:10Z	src: no abort from GetFD if object isn't wrapped	88		
+6189	829269	false	open	false	9		2016-04-13T22:59:02Z	2017-01-26T06:59:32Z		Potential memory leak in UDP	130		
 6190	289174	false	open	false	12		2016-04-13T23:17:48Z	2016-09-05T09:58:35Z		net: multiple listen() events fail silently	94		
 6204	1093990	true	closed	false	15		2016-04-14T23:00:37Z	2016-11-18T20:24:15Z	2016-04-25T23:09:08Z	handle_wrap: IsRefed -> Unrefed, no isAlive check	118		
 6212	54666	true	closed	false	12		2016-04-15T05:28:43Z	2016-10-10T16:18:17Z	2016-04-18T21:42:09Z	tools: move message listener to worker objects	64		
@@ -4232,7 +4233,7 @@
 10995	12032248	false	open	false	2		2017-01-25T12:16:06Z	2017-01-26T05:27:46Z		JSON Stringify indentation not working	20		
 10996	16387161	false	open	false	0		2017-01-25T13:26:17Z	2017-01-25T13:26:17Z		path.sep not the same in different parts of the application	74		
 10997	3171327	false	open	false	0		2017-01-25T17:03:22Z	2017-01-25T17:03:22Z		"Documentation: conflicting ""Added in"" for Buffer methods"	79		
-10998	718899	true	open	false	0	0	2017-01-25T17:17:51Z	2017-01-25T17:17:51Z		test: allow for slow hosts in spawnSync() test	49		
+10998	718899	true	open	false	2		2017-01-25T17:17:51Z	2017-01-26T06:43:32Z		test: allow for slow hosts in spawnSync() test	49		
 10999	17169119	false	open	false	0		2017-01-25T17:21:35Z	2017-01-25T17:21:35Z		Is fs.createReadStream able to make stream from buffer as written in doc?	118		
 11000	439929	false	open	false	0		2017-01-25T18:07:00Z	2017-01-25T18:07:00Z		url: track WHATWG URL issue #216: Host parser UTF-8 failure	21		
 11001	10393198	false	open	false	0		2017-01-25T18:08:07Z	2017-01-25T18:08:07Z		Another case of possibly deoptimizing use of `arguments` in libs	575		
@@ -4242,7 +4243,7 @@
 11005	17607	true	open	false			2017-01-25T20:55:54Z	2017-01-26T00:10:54Z		tls: new tls.TLSSocket() supports sec ctx options	39		
 11006	17607	true	open	false	3		2017-01-25T22:17:58Z	2017-01-26T01:12:50Z		crypto: support OPENSSL_CONF again	106		
 11007	17607	true	open	false	0	0	2017-01-25T22:22:09Z	2017-01-25T22:22:09Z		doc: add version meta for SSL_CERT_DIR/FILE	34		
-11008	79017	true	open	false	0	0	2017-01-26T00:45:11Z	2017-01-26T00:45:11Z		test: fix timing sensitivity in debugger test	69		
+11008	79017	true	open	false			2017-01-26T00:45:11Z	2017-01-26T06:10:55Z		test: fix timing sensitivity in debugger test	69		
 11009	718899	true	open	false	0	0	2017-01-26T00:51:53Z	2017-01-26T00:51:53Z		v7.x backport: tools: update ESLint to current version	3		
 11010	8401213	true	open	false	0	0	2017-01-26T01:03:16Z	2017-01-26T01:03:16Z		Move setImmediate benchmarks from misc/ to timers	2		
 11011	275871	true	open	false	0	0	2017-01-26T01:04:46Z	2017-01-26T01:04:46Z		doc: remove Chris Dickinson from active releasers	10		
