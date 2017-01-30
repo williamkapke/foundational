@@ -1,10 +1,10 @@
 {
-  "words": 11456,
-  "comments": 69,
+  "words": 11813,
+  "comments": 78,
   "prs": {
-    "opened": 11,
-    "closed": 6,
-    "words": 11450
+    "opened": 12,
+    "closed": 10,
+    "words": 11807
   },
   "issues": {
     "opened": 0,
@@ -60,10 +60,14 @@
     "doc-tool": {"open":2},
     "docker-iojs": {"open":5},
     "docker-node": {
-      "318": {"comments":1,"words":33,"pr":true},
-      "open": 33,
-      "words": 33,
-      "comments": 1
+      "298": {"comments":1,"words":22,"pr":true,"closed":"2017-01-30T14:01:22Z","closer":"2781"},
+      "310": {"comments":1,"words":35,"pr":true,"closed":"2017-01-30T14:01:39Z","closer":"2781"},
+      "317": {"comments":0,"words":34,"closed":"2017-01-30T14:01:55Z","closer":"2781","pr":true},
+      "318": {"comments":3,"words":104,"pr":true,"closed":"","closer":"6694151"},
+      "open": 29,
+      "words": 195,
+      "comments": 5,
+      "closed": 4
     },
     "docs": {"open":55},
     "education": {"open":5},
@@ -90,7 +94,13 @@
     "installer": {"open":13},
     "iojs.org": {"open":9},
     "live.nodejs.org": {"open":17},
-    "llnode": {"open":10},
+    "llnode": {
+      "64": {"comments":1,"words":45,"opened":"2017-01-30T14:06:23Z","opener":"7190422","pr":true},
+      "open": 11,
+      "words": 45,
+      "opened": 1,
+      "comments": 1
+    },
     "logos": {"open":2},
     "membership": {"open":10},
     "nan": {"open":29},
@@ -100,6 +110,7 @@
       "10822": {"comments":1,"words":83,"pr":true,"closed":"2017-01-30T12:44:49Z","closer":"696611"},
       "10967": {"comments":4,"words":89,"pr":true},
       "10975": {"comments":1,"words":24,"pr":true,"closed":"2017-01-30T10:48:52Z","closer":"1443911"},
+      "11015": {"comments":1,"words":8,"pr":true},
       "11018": {"comments":1,"words":12,"pr":true},
       "11024": {"comments":1,"words":89,"pr":true,"closed":"2017-01-30T09:24:23Z","closer":"101553"},
       "11037": {"comments":1,"words":55,"pr":true,"closed":"2017-01-30T12:42:35Z","closer":"696611"},
@@ -107,15 +118,16 @@
       "11041": {"comments":1,"words":279,"pr":true},
       "11048": {"comments":2,"words":64,"pr":true},
       "11054": {"comments":3,"words":89,"pr":true},
+      "11062": {"comments":2,"words":30,"pr":true},
       "11067": {"comments":1,"words":23,"pr":true},
       "11068": {"comments":1,"words":39,"pr":true,"opened":"2017-01-30T02:23:23Z","opener":"718899"},
       "11069": {"comments":1,"words":64,"pr":true,"opened":"2017-01-30T04:09:11Z","opener":"1538624"},
       "11070": {"comments":12,"words":3078,"opened":"2017-01-30T08:20:54Z","opener":"14813922","pr":true,"closed":"2017-01-30T09:33:51Z","closer":"4299420"},
       "11071": {"comments":1,"words":68,"pr":true,"opened":"2017-01-30T09:02:16Z","opener":"327019"},
-      "11072": {"comments":0,"words":33,"opened":"2017-01-30T12:42:50Z","opener":"882627","pr":true},
+      "11072": {"comments":1,"words":145,"opened":"2017-01-30T12:42:50Z","opener":"882627","pr":true},
       "open": 1020,
-      "words": 4232,
-      "comments": 43,
+      "words": 4382,
+      "comments": 47,
       "opened": 5,
       "c2c6ae52eaf302da9c106699b69d17c083ced316": {"comments":1,"words":6,"pr":false},
       "closed": 5
@@ -193,6 +205,14 @@
     "vm": {"open":3}
   },
   "users": {
+    "2781": {
+      "id": "2781",
+      "login": "chorrell",
+      "words": {
+        "docker-node/pulls/298#276069349": 14,
+        "docker-node/pulls/310#276069400": 14
+      }
+    },
     "15952": {
       "id": "15952",
       "login": "lance",
@@ -400,12 +420,23 @@
         "node/pulls/10975"
       ]
     },
+    "2029255": {
+      "id": "2029255",
+      "login": "ellerbrock",
+      "words": {
+        "docker-node/pulls/310": 21
+      },
+      "closed": [
+        "docker-node/pulls/310"
+      ]
+    },
     "2352663": {
       "id": "2352663",
       "login": "targos",
       "words": {
         "node/pulls/11069#275994686": 1,
-        "node/pulls/11048#98432682": 14
+        "node/pulls/11048#98432682": 14,
+        "node/pulls/11062#276082373": 14
       }
     },
     "3673943": {
@@ -416,6 +447,16 @@
         "node/pulls/11039#276062947": 1
       }
     },
+    "3691490": {
+      "id": "3691490",
+      "login": "PeterDaveHello",
+      "words": {
+        "docker-node/pulls/298": 8
+      },
+      "closed": [
+        "docker-node/pulls/298"
+      ]
+    },
     "4299420": {
       "id": "4299420",
       "login": "joyeecheung",
@@ -424,7 +465,9 @@
         "node/pulls/10967#98399854": 1,
         "node/pulls/11070#276016053": 77,
         "node/pulls/11070#276016727": 10,
-        "node/pulls/10967#276067497": 29
+        "node/pulls/10967#276067497": 29,
+        "node/pulls/11072#276072520": 112,
+        "node/pulls/11015#276076252": 8
       }
     },
     "4883668": {
@@ -444,11 +487,42 @@
         "help/pulls/472#276049387": 65
       }
     },
+    "6694151": {
+      "id": "6694151",
+      "login": "pascalandy",
+      "words": {
+        "docker-node/issues/317": 34,
+        "docker-node/pulls/318#276071051": 32,
+        "docker-node/pulls/318#276071108": 2,
+        "docker-node/issues/318": 37
+      },
+      "closed": [
+        "docker-node/issues/317",
+        "docker-node/issues/318"
+      ]
+    },
+    "7190422": {
+      "id": "7190422",
+      "login": "natorion",
+      "words": {
+        "llnode/issues/64": 39
+      },
+      "opened": [
+        "llnode/issues/64"
+      ]
+    },
     "7273940": {
       "id": "7273940",
       "login": "maasencioh",
       "words": {
         "node/pulls/9130#275959299": 6
+      }
+    },
+    "9373002": {
+      "id": "9373002",
+      "login": "mhdawson",
+      "words": {
+        "llnode/pulls/64#276084185": 6
       }
     },
     "11979939": {
@@ -503,7 +577,8 @@
       "id": "15943089",
       "login": "gibfahn",
       "words": {
-        "citgm/pulls/340#276040356": 85
+        "citgm/pulls/340#276040356": 85,
+        "node/pulls/11062#276080803": 16
       }
     },
     "20224954": {
