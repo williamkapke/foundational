@@ -27,7 +27,7 @@
 855	617481	false	open	false	16		2015-02-15T21:57:32Z	2016-08-11T16:02:47Z		vm: references to context inside objects are not === the original context	58		
 862	17607	false	closed	false	8		2015-02-17T05:55:09Z	2016-09-07T13:55:17Z	2015-05-06T21:14:16Z	spawn's stdio can result in stderr being closed in child	158		
 894	7220484	false	open	false	26		2015-02-19T16:50:29Z	2016-12-15T06:34:40Z		dns.setServers() crash	113		
-906	115237	false	open	false	34		2015-02-20T18:06:56Z	2016-12-06T19:25:01Z		net: enable TCP_NODELAY by default on all platforms	32		
+906	115237	false	open	false	35		2015-02-20T18:06:56Z	2017-02-02T18:59:48Z		net: enable TCP_NODELAY by default on all platforms	32		
 947	707147	false	open	false	9		2015-02-25T02:05:54Z	2016-11-21T15:28:32Z		EPIPE errors thrown when piping to a closed stream	363		
 983	6731985	false	open	false	22		2015-02-27T03:19:51Z	2016-11-23T11:28:52Z		Tab completion for block-scoped variables doesn't work in REPL	60		
 1010	218257	false	closed	false	53		2015-02-28T22:28:55Z	2016-12-05T11:27:32Z	2015-03-25T01:31:37Z	Ship websockets in core	23		
@@ -1710,7 +1710,7 @@
 8461	18223385	false	closed	false	1		2016-09-09T09:58:35Z	2016-09-11T03:57:20Z	2016-09-11T03:57:20Z	how use shell( wget...) auto install nodeJs 	58		
 8462	899444	true	closed	false	2	0	2016-09-09T10:53:26Z	2016-10-04T18:39:09Z	2016-10-04T18:39:09Z	v4.x backport: test,doc: clarify `buf.indexOf(num)` input range	10		
 8463	899444	true	open	false	6		2016-09-09T11:45:41Z	2016-09-13T23:17:38Z		v6.x backport: buffer,string_decoder: consolidate encoding validation logic	35		
-8464	323878	false	open	false	35		2016-09-09T12:30:25Z	2017-02-01T23:24:33Z		Debug already running process using v8-inspector?	38		
+8464	323878	false	open	false	37		2016-09-09T12:30:25Z	2017-02-02T19:22:33Z		Debug already running process using v8-inspector?	38		
 8465	1037138	false	closed	false	8		2016-09-09T13:36:16Z	2016-09-13T13:08:49Z	2016-09-13T13:08:49Z	OSX: setting a custom DYLD_ env console logs undefined when run with child_process.spawn	135		
 8466	1093990	true	closed	false	8	0	2016-09-09T14:45:04Z	2016-09-15T20:48:13Z	2016-09-15T20:48:12Z	v6.6.0 proposal	89	1093990	2016-09-15T20:48:12Z
 8467	4336805	false	open	false	1		2016-09-09T17:01:23Z	2016-09-09T17:17:33Z		Crypto outputs different hashes for node v0.10.42 compared to newer versions	223		
@@ -2715,7 +2715,7 @@
 9466	17898715	false	open	false	0		2016-11-04T14:03:39Z	2016-11-04T14:03:39Z		Why is this posted without the author reply?	22		
 9467	275871	true	closed	false	28		2016-11-04T14:49:14Z	2016-12-06T00:27:11Z	2016-12-06T00:27:11Z	src: don't call into VM from AsyncWrap destructor	62		
 9468	7656167	true	closed	false	5		2016-11-04T15:46:15Z	2016-12-21T17:01:28Z	2016-12-21T17:01:28Z	doc: update stream.md	38		
-9469	782880	true	open	false	9		2016-11-04T15:58:05Z	2017-01-31T12:39:33Z		Distrust certs issued after 00:00:00 Oct. 21, 2016 by StartCom and WoSign 	106		
+9469	782880	true	open	false	11		2016-11-04T15:58:05Z	2017-02-02T18:06:09Z		Distrust certs issued after 00:00:00 Oct. 21, 2016 by StartCom and WoSign 	106		
 9470	1093990	true	open	false	37		2016-11-04T20:01:26Z	2016-11-22T18:12:16Z		process: swallow stdout/stderr error events	128		
 9471	899444	true	closed	false	17	0	2016-11-04T20:48:21Z	2016-12-05T23:08:16Z	2016-12-05T23:08:16Z	doc: add the diagnostics team to cc for async_wrap	19		
 9472	718899	true	open	false	2		2016-11-04T21:13:22Z	2017-01-06T23:25:24Z		tools,test: provide duration/interval to timers, require it with lint rule	179		
@@ -4207,10 +4207,10 @@
 10964	5886475	true	open	false	3		2017-01-23T13:55:45Z	2017-01-30T17:10:15Z		test: increase coverage of internal/util	32		
 10965	4836896	false	open	false	0		2017-01-23T18:47:22Z	2017-01-23T18:47:22Z		worker.send striping Map and replacing with {}	57		
 10966	718899	false	open	false	8		2017-01-23T19:18:55Z	2017-01-31T17:58:42Z		investigate flaky test-tls-regr-gh-5108	24		
-10967	1716463	true	open	false	28		2017-01-23T21:01:40Z	2017-02-02T08:03:44Z		querystring, url: repeated '&' in a paramsString will be skipped	64		
+10967	1716463	true	open	false	30		2017-01-23T21:01:40Z	2017-02-02T18:07:53Z		querystring, url: repeated '&' in a paramsString will be skipped	64		
 10968	17607	true	open	false	1		2017-01-23T21:21:48Z	2017-01-25T20:48:17Z		v4 backport: doc: unify dirname and filename description	1		
 10969	17607	true	open	false	3		2017-01-23T22:03:01Z	2017-01-25T20:46:48Z		v4 backport: crypto: fix handling of root_cert_store.	34		
-10970	4421720	true	open	false	9		2017-01-23T23:26:43Z	2017-02-02T16:53:03Z		lib: deprecate node --debug at runtime	233		
+10970	4421720	true	open	false	10		2017-01-23T23:26:43Z	2017-02-02T19:13:28Z		lib: deprecate node --debug at runtime	233		
 10971	19787902	false	closed	false	5		2017-01-24T01:02:06Z	2017-01-24T02:08:12Z	2017-01-24T02:08:12Z	Error installing Node.js	27		
 10972	4542024	true	open	false	3		2017-01-24T04:28:57Z	2017-01-26T16:32:21Z		test: expand test coverage of fs.js	44		
 10973	498775	true	open	false	3		2017-01-24T08:27:04Z	2017-01-26T14:09:44Z		v4.8.0 proposal	1279		
@@ -4281,10 +4281,10 @@
 11038	2512748	true	open	false	1		2017-01-27T20:15:56Z	2017-01-30T16:09:07Z		test: cover thrown errors from exec() kill	54		
 11039	3673943	true	closed	false	11		2017-01-27T20:25:25Z	2017-01-30T20:15:37Z	2017-01-30T18:25:28Z	test-console: streamline arrow fn and refine inspect regex	47		
 11040	1093990	true	open	false	8		2017-01-27T20:32:18Z	2017-01-30T18:26:33Z		timers: use Maps for internal duration pooling	167		
-11041	718899	false	open	false	9		2017-01-27T21:31:56Z	2017-02-01T19:19:32Z		fix flaky sequential/test-child-process-pass-fd on fedora 24	269		
+11041	718899	false	open	false	12		2017-01-27T21:31:56Z	2017-02-02T19:34:05Z		fix flaky sequential/test-child-process-pass-fd on fedora 24	269		
 11042	4010111	false	closed	false	2		2017-01-27T21:41:37Z	2017-01-28T00:08:13Z	2017-01-27T21:55:46Z	C Stack Trace From ESLint ?	141		
 11043	234019	false	closed	false	1		2017-01-27T21:56:18Z	2017-01-28T11:23:40Z	2017-01-28T11:23:40Z	./configure --debug (node 6.9.2) fails on Alpine Linux	971		
-11044	17607	true	open	false	7		2017-01-27T22:53:30Z	2017-02-01T18:18:03Z		child_process: align fork/spawn stdio error msg 	15		
+11044	17607	true	open	false	8		2017-01-27T22:53:30Z	2017-02-02T19:58:48Z		child_process: align fork/spawn stdio error msg 	15		
 11045	718899	true	closed	false	4		2017-01-27T23:44:30Z	2017-02-01T00:42:51Z	2017-01-30T16:37:16Z	doc: edit CONTRIBUTING.md for clarity	21		
 11046	20421115	false	open	false	0		2017-01-28T01:40:11Z	2017-01-28T01:40:11Z		++ not working correctly in console	41		
 11047	24409318	false	open	false	8		2017-01-28T03:09:45Z	2017-02-02T15:20:38Z		Swapping two arrays seems to behave asynchronous outside function	324		
@@ -4319,47 +4319,49 @@
 11076	17607	true	open	false	3		2017-01-30T19:26:34Z	2017-01-30T23:27:20Z		v6 openssl 1.0.2k	4		
 11077	234019	false	open	false	10		2017-01-30T20:16:35Z	2017-02-01T14:11:59Z		Unusually large (but constant) memory usage with transparent huge pages enabled	267		
 11078	1382679	true	open	false	3		2017-01-31T05:51:12Z	2017-01-31T18:15:59Z		readline: update 6 comparisons to strict	28		
-11079	4299420	true	open	false	6		2017-01-31T12:26:21Z	2017-02-02T17:17:50Z		url, test: synchronize web-platform-test url tests	219		
+11079	4299420	true	open	false	7		2017-01-31T12:26:21Z	2017-02-02T18:04:34Z		url, test: synchronize web-platform-test url tests	219		
 11080	3367801	true	open	false	2		2017-01-31T13:38:32Z	2017-01-31T14:10:19Z		doc: add abouthiroppy to collaborators	27		
 11081	498775	true	closed	false	5	0	2017-01-31T16:10:24Z	2017-01-31T22:07:08Z	2017-01-31T22:07:08Z	2017-01-31, Version 6.9.5 'Boron' (LTS)	176	498775	2017-01-31T22:07:08Z
-11082	17607	true	open	false	5		2017-01-31T16:21:04Z	2017-02-01T18:05:13Z		deps: hide zlib internal symbols	46		
+11082	17607	true	closed	false	6	1	2017-01-31T16:21:04Z	2017-02-02T18:14:03Z	2017-02-02T18:14:03Z	deps: hide zlib internal symbols	46		
 11083	498775	true	closed	false	3	2	2017-01-31T16:22:17Z	2017-02-01T00:50:28Z	2017-02-01T00:50:28Z	2017-01-31, Version 4.7.3 'Argon' (LTS)	176	498775	2017-02-01T00:50:28Z
 11084	17704638	true	open	false	1		2017-01-31T16:24:46Z	2017-02-01T23:46:11Z		win,build: add Visual Studio 2017 support	302		
 11085	134460	true	closed	false	5		2017-01-31T17:08:50Z	2017-01-31T20:30:12Z	2017-01-31T18:28:19Z	deps: fix npm files from upgrade to 4.1.2	71		
-11086	811047	true	open	false	8		2017-01-31T17:51:14Z	2017-02-02T16:59:42Z		test: add --abort-on-timeout option to test.py	133		
-11087	718899	true	open	false	5		2017-01-31T17:51:15Z	2017-02-02T17:10:06Z		test: make test-fs-access stricter	93		
+11086	811047	true	open	false	9		2017-01-31T17:51:14Z	2017-02-02T19:44:33Z		test: add --abort-on-timeout option to test.py	133		
+11087	718899	true	open	false	6		2017-01-31T17:51:15Z	2017-02-02T18:11:32Z		test: make test-fs-access stricter	93		
 11088	305455	true	open	false			2017-01-31T18:33:50Z	2017-02-02T16:46:04Z		src: fix building --without-v8-platform	105		
-11089	718899	true	open	false	0		2017-01-31T19:03:25Z	2017-01-31T20:56:20Z		doc: add personal pronouns option	21		
+11089	718899	true	open	false	1		2017-01-31T19:03:25Z	2017-02-02T19:41:02Z		doc: add personal pronouns option	21		
 11090	498775	true	closed	false	1		2017-01-31T22:17:25Z	2017-01-31T23:47:06Z	2017-01-31T23:47:06Z	doc: fix changelog for v6	6		
 11091	4532328	false	open	false	3		2017-01-31T22:35:17Z	2017-02-01T18:28:34Z		SIGSEGV on closure / stack heavy program	52		
 11092	4299420	true	open	false	2		2017-01-31T23:51:35Z	2017-02-02T17:18:16Z		benchmark: add assert.deep[Strict]Equal benchmarks	49		
 11093	4299420	false	open	false	2		2017-02-01T00:42:03Z	2017-02-01T01:03:40Z		url, querystring: escaping searchParams per WHATWG URL spec	170		
 11094	2512748	true	open	false	3		2017-02-01T01:08:50Z	2017-02-02T15:52:05Z		deps: upgrade libuv to 1.11.0	25		
-11095	1587053	true	open	false	5		2017-02-01T04:58:43Z	2017-02-02T09:41:14Z		test: skip when openssl CLI doesn't exist	35		
+11095	1587053	true	open	false	7		2017-02-01T04:58:43Z	2017-02-02T18:06:58Z		test: skip when openssl CLI doesn't exist	35		
 11096	1189785	true	open	false			2017-02-01T05:31:03Z	2017-02-01T12:15:48Z		test: refactor test-fs-error-messages.js	73		
 11097	11139560	false	open	false	0		2017-02-01T07:03:38Z	2017-02-01T07:03:38Z		potential bug in dgram module	117		
 11098	1538624	true	open	false	2		2017-02-01T08:11:21Z	2017-02-01T23:14:27Z		url: add urlSearchParams.sort()	143		
 11099	677994	true	open	false			2017-02-01T12:00:43Z	2017-02-02T08:19:00Z		doc: add guide for backporting prs	37		
 11100	5249140	false	open	false	0		2017-02-01T13:00:09Z	2017-02-01T13:34:19Z		reverse proxy to node server udp outbound packet loss	140		
 11101	170197	false	open	false	2		2017-02-01T15:04:33Z	2017-02-01T17:45:15Z		this[searchParams].push is not a function	71		
-11102	13561163	true	open	false			2017-02-01T15:24:42Z	2017-02-01T18:05:22Z		src: refactor of CopyProperties in node_contextify.cc using V8 5.5 DefineProperty	72		
+11102	13561163	true	open	false			2017-02-01T15:24:42Z	2017-02-02T19:22:44Z		src: refactor of CopyProperties in node_contextify.cc using V8 5.5 DefineProperty	86		
 11103	11838792	false	open	false	3		2017-02-01T15:25:17Z	2017-02-02T07:42:51Z		v7.x undocumented backward incompatibility of url.format()	173		
 11104	5268928	false	open	false	2		2017-02-01T15:32:46Z	2017-02-01T16:03:54Z		7.5.0 clock_gettime runtime failure built with macOS 10.11 and Xcode 8.x	541		
 11105	1538624	true	open	false			2017-02-01T17:35:02Z	2017-02-02T06:27:29Z		url: fix setting `url.search` to the empty string	39		
-11106	1485909	true	open	false	1		2017-02-01T17:56:19Z	2017-02-01T19:03:28Z		src: Node Tracing Controller	121		
+11106	1485909	true	open	false	1		2017-02-01T17:56:19Z	2017-02-02T19:31:33Z		src: Node Tracing Controller	121		
 11107	3086146	true	closed	false	0		2017-02-01T18:20:09Z	2017-02-02T13:37:23Z	2017-02-01T18:21:05Z	Fix node	49		
 11108	156867	true	open	false	0		2017-02-01T19:22:13Z	2017-02-01T20:39:45Z		"doc: fix ""initial delay"" link in http.md"	8		
-11109	101553	true	open	false	0	0	2017-02-01T19:32:45Z	2017-02-01T19:32:45Z		src: don't overwrite non-writable vm globals	95		
+11109	101553	true	open	false			2017-02-01T19:32:45Z	2017-02-02T18:10:54Z		src: don't overwrite non-writable vm globals	95		
 11110	10393198	true	open	false			2017-02-01T21:35:33Z	2017-02-01T23:02:32Z		doc: fix and modernize code examples in domain.md	53		
 11111	1538624	true	open	false	0	0	2017-02-02T00:00:30Z	2017-02-02T00:00:30Z		benchmark: simplify URLSearchParams import	25		
 11112	718899	true	open	false	0	0	2017-02-02T00:05:43Z	2017-02-02T00:05:43Z		doc: edit stability text for clarity and style	31		
-11113	718899	true	open	false	0		2017-02-02T00:06:36Z	2017-02-02T06:51:24Z		doc: remove assertions about assert	84		
+11113	718899	true	open	false			2017-02-02T00:06:36Z	2017-02-02T18:06:32Z		doc: remove assertions about assert	84		
 11114	6216576	true	open	false	3		2017-02-02T00:45:50Z	2017-02-02T16:55:32Z		"backport: backporting misaligned ""node --help"" text to v7.x staging"	36		
 11115	126226	true	open	false	2		2017-02-02T04:42:56Z	2017-02-02T17:09:15Z		fs: avoid out-of-bounds arguments index access	59		
 11116	718899	true	open	false			2017-02-02T05:10:30Z	2017-02-02T13:42:46Z		test: make module testing stricter	112		
 11117	4299420	true	open	false	0	0	2017-02-02T07:28:19Z	2017-02-02T07:28:19Z		buffer, test: add tests for buffer.toJSON (backport v7.x)	62		
 11118	7408689	false	open	false	1		2017-02-02T10:14:06Z	2017-02-02T14:02:48Z		Can't build v6.9.5 with gcc 7.0.1	593		
 11119	988441	true	open	false	0	0	2017-02-02T15:08:58Z	2017-02-02T15:08:58Z		"build: notify about the redundancy of ""nosign"""	43		
-11120	988441	true	open	false	4		2017-02-02T15:24:54Z	2017-02-02T17:36:43Z		buffer: stricter argument checking in toString	104		
+11120	988441	true	open	false	10		2017-02-02T15:24:54Z	2017-02-02T18:16:54Z		buffer: stricter argument checking in toString	104		
 11121	4964823	false	open	false	1		2017-02-02T15:49:21Z	2017-02-02T16:09:11Z		`finish` event of stream.Writable is not expectedly emitted	183		
 11122	5886475	true	open	false	0	0	2017-02-02T16:08:16Z	2017-02-02T16:08:16Z		test: increase coverage of buffer	32		
+11123	1716463	true	open	false	0	0	2017-02-02T19:22:37Z	2017-02-02T19:22:37Z		url: fix file state clarification in binding	63		
+11124	718899	true	open	false	0	0	2017-02-02T19:41:36Z	2017-02-02T19:41:36Z		test: simplify output handling in repl tests	34		
