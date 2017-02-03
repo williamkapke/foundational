@@ -3947,7 +3947,7 @@
 10703	24735504	false	open	false	6		2017-01-09T10:18:16Z	2017-01-11T09:03:27Z		"not support file URLs containing drive specifiers (e.g., ""file:///c:/path"")"	25		
 10704	9124564	false	open	false	0		2017-01-09T12:23:07Z	2017-01-09T12:23:07Z		Crash using SNICallback over a netSocket	272		
 10705	25007505	false	open	false	0		2017-01-09T12:56:16Z	2017-01-09T13:05:53Z		Query does not work for node js	164		
-10706	238531	true	open	false	6		2017-01-09T13:44:01Z	2017-02-03T14:57:41Z		tls: do not crash on STARTTLS when OCSP requested	61		
+10706	238531	true	open	false			2017-01-09T13:44:01Z	2017-02-03T17:43:51Z		tls: do not crash on STARTTLS when OCSP requested	61		
 10707	1716463	true	open	false			2017-01-09T13:57:50Z	2017-01-16T17:18:03Z		test: skip test-icu-transcode if ICU is not present	57		
 10708	4923335	true	open	false	2		2017-01-09T15:11:18Z	2017-01-11T22:10:37Z		doc: fix misleading language in vm docs	47		
 10709	25007505	false	closed	false	0		2017-01-09T15:14:37Z	2017-01-09T16:32:17Z	2017-01-09T16:32:17Z	Process exited with error code 199	65		
@@ -4355,7 +4355,7 @@
 11111	1538624	true	open	false	0	0	2017-02-02T00:00:30Z	2017-02-02T00:00:30Z		benchmark: simplify URLSearchParams import	25		
 11112	718899	true	closed	false	1		2017-02-02T00:05:43Z	2017-02-03T16:25:19Z	2017-02-03T16:25:19Z	doc: edit stability text for clarity and style	31		
 11113	718899	true	open	false			2017-02-02T00:06:36Z	2017-02-02T18:06:32Z		doc: remove assertions about assert	84		
-11114	6216576	true	open	false	5		2017-02-02T00:45:50Z	2017-02-03T15:43:58Z		"backport: backporting misaligned ""node --help"" text to v7.x staging"	36		
+11114	6216576	true	open	false	7		2017-02-02T00:45:50Z	2017-02-03T17:50:05Z		"backport: backporting misaligned ""node --help"" text to v7.x staging"	36		
 11115	126226	true	open	false	2		2017-02-02T04:42:56Z	2017-02-02T17:09:15Z		fs: avoid out-of-bounds arguments index access	59		
 11116	718899	true	open	false			2017-02-02T05:10:30Z	2017-02-02T13:42:46Z		test: make module testing stricter	112		
 11117	4299420	true	open	false	0	0	2017-02-02T07:28:19Z	2017-02-02T07:28:19Z		buffer, test: add tests for buffer.toJSON (backport v7.x)	62		
@@ -4370,7 +4370,7 @@
 11126	718899	true	open	false	0	0	2017-02-02T22:05:37Z	2017-02-02T22:05:37Z		test: simplify WPT.assert_throws()	26		
 11127	718899	true	open	false			2017-02-02T22:21:50Z	2017-02-02T23:16:00Z		doc: add common.WPT to test README	22		
 11128	4299420	true	open	false	2		2017-02-02T22:39:03Z	2017-02-03T06:41:14Z		assert: fix _deepEqual and improve assert.md	252		
-11129	275871	true	open	false			2017-02-02T22:39:09Z	2017-02-03T07:18:56Z		src: support UTF-8 in compiled-in JS source files	38		
+11129	275871	true	open	false	6		2017-02-02T22:39:09Z	2017-02-03T17:59:14Z		src: support UTF-8 in compiled-in JS source files	38		
 11130	439929	true	open	false			2017-02-02T23:38:03Z	2017-02-03T01:08:29Z		util: add inspectTag template literal tag	110		
 11131	4988795	true	open	false	0	0	2017-02-03T03:14:36Z	2017-02-03T03:14:36Z		test: improve readline coverage to check end and clear keys	50		
 11132	122831	false	open	false	3		2017-02-03T03:22:27Z	2017-02-03T07:30:30Z		fs.readFileSync returns corrupt ArrayBuffer (fs.readFile works as expected)	109		
@@ -4383,10 +4383,11 @@
 11139	4964823	true	open	false	1		2017-02-03T06:52:39Z	2017-02-03T16:57:06Z		stream: minor fix for ReadableState	44		
 11140	1453603	true	open	false	0	0	2017-02-03T07:10:21Z	2017-02-03T07:10:21Z		test: improve events coverage to check removeListeners functions	73		
 11141	432351	true	open	false	5		2017-02-03T07:23:44Z	2017-02-03T16:14:38Z		doc: add info about using nvm	48		
-11142	5215027	true	open	false			2017-02-03T08:30:30Z	2017-02-03T16:19:21Z		test, url: updated assertions in url-searchparams-getall tests	42		
+11142	5215027	true	open	false	3		2017-02-03T08:30:30Z	2017-02-03T17:47:31Z		test, url: updated assertions in url-searchparams-getall tests	42		
 11143	1028226	true	open	false	1		2017-02-03T09:22:08Z	2017-02-03T10:33:15Z		test: improve crypto.setEngine coverage to check for errors	41		
 11144	1028226	true	open	false	0	0	2017-02-03T12:12:55Z	2017-02-03T12:12:55Z		test: improve punycode test coverage	63		
 11145	1979197	false	open	false	0		2017-02-03T14:06:56Z	2017-02-03T14:06:56Z		querystring.parse not parsing arrays consistently	75		
 11146	1028226	true	open	false	0		2017-02-03T15:08:55Z	2017-02-03T16:07:26Z		buffer: add a check for byteLength in readIntBE() and readIntLE()	53		
 11147	327019	true	open	false	0	0	2017-02-03T16:32:18Z	2017-02-03T16:32:18Z		internal/child_process: move anonymous class out of setupChannel	52		
-11148	327019	true	open	false	0	0	2017-02-03T16:56:35Z	2017-02-03T16:56:35Z		child_process: charify the usage of 'else'	51		
+11148	327019	true	open	false	0		2017-02-03T16:56:35Z	2017-02-03T17:44:45Z		child_process: charify the usage of 'else'	35		
+11149	4421720	true	open	false	0	0	2017-02-03T17:48:14Z	2017-02-03T17:48:14Z		src, inspector: add --inspect-brk option (backport 7.x)	64		
