@@ -3413,7 +3413,7 @@
 10163	819638	false	open	false	1		2016-12-07T12:18:31Z	2016-12-08T14:01:53Z		Abort in uv_cond_wait	286		
 10164	2979104	false	open	false	9		2016-12-07T13:07:25Z	2016-12-21T08:45:32Z		Segmentation Fault when returning valueOf calculated date	375		
 10165	426158	false	open	false	9		2016-12-07T13:46:46Z	2016-12-10T15:58:34Z		Handling of CTRL_CLOSE_EVENT/SIGHUP on Windows causes races and deadlocks	564		
-10166	9373002	false	open	false	6		2016-12-07T15:48:12Z	2017-02-03T20:46:34Z		test: test-buffer-creation-regression intermittent failure on smartos	38		
+10166	9373002	false	open	false	7		2016-12-07T15:48:12Z	2017-02-03T21:47:13Z		test: test-buffer-creation-regression intermittent failure on smartos	38		
 10167	1189785	true	closed	false	2	0	2016-12-07T16:22:46Z	2016-12-12T16:32:51Z	2016-12-12T16:32:51Z	test: add ES6 and improve test-fs-truncate	47		
 10168	6354455	true	closed	false	1		2016-12-07T17:58:15Z	2016-12-07T18:09:42Z	2016-12-07T18:09:42Z	doc: removing extra space in README	52		
 10169	4976075	true	closed	false	8		2016-12-07T18:13:16Z	2016-12-13T20:00:59Z	2016-12-13T18:29:36Z	deps: backport 2bd7464 from upstream V8	154		
@@ -4090,7 +4090,7 @@
 10846	17607	true	open	false	12		2017-01-17T03:48:53Z	2017-01-31T21:13:38Z		tests for new tls.TLSSocket, and support for sec ctx options	110		
 10847	718899	true	open	false			2017-01-17T04:22:31Z	2017-01-17T18:45:28Z		Optimize cluster.setupMaster()	118		
 10848	15811347	true	open	false	0	0	2017-01-17T05:38:55Z	2017-01-17T05:38:55Z		It can be a real array.	42		
-10849	439929	true	open	false	3		2017-01-17T06:39:30Z	2017-01-19T17:53:58Z		util: runtime deprecation for util._extend()	149		
+10849	439929	true	closed	false	5		2017-01-17T06:39:30Z	2017-02-03T21:57:02Z	2017-02-03T21:57:01Z	util: runtime deprecation for util._extend()	149		
 10850	432351	true	closed	false	1		2017-01-17T06:57:14Z	2017-01-18T07:27:05Z	2017-01-18T07:27:05Z	build: move source files from headers section	63		
 10851	432351	true	closed	false	1	0	2017-01-17T07:14:53Z	2017-01-18T07:21:29Z	2017-01-18T07:21:29Z	build: add missing src/tracing header files	62		
 10852	54666	true	closed	false	0	0	2017-01-17T08:05:36Z	2017-01-25T07:18:26Z	2017-01-25T07:18:26Z	querystring: improve stringify() performance	65	54666	2017-01-25T07:18:26Z
@@ -4267,7 +4267,7 @@
 11023	718899	true	closed	false	2		2017-01-26T17:14:18Z	2017-01-29T23:37:29Z	2017-01-29T23:37:29Z	test: guarantee test runs in test-readline-keys	40		
 11024	13561163	true	closed	false	1		2017-01-26T17:40:32Z	2017-01-30T09:24:23Z	2017-01-30T09:24:23Z	test: add known_issues test for #10223	85		
 11025	911174	true	closed	false	1		2017-01-26T21:23:50Z	2017-01-31T20:53:39Z	2017-01-31T20:53:39Z	doc: correct dgram's Socket.bind required args	36		
-11026	718899	false	open	false	6		2017-01-26T21:50:08Z	2017-02-03T20:55:19Z		investigate flaky test-http-client-race-2 on SmartOS	24		
+11026	718899	false	open	false	7		2017-01-26T21:50:08Z	2017-02-03T21:49:29Z		investigate flaky test-http-client-race-2 on SmartOS	24		
 11027	1597854	true	closed	false	4		2017-01-26T23:05:25Z	2017-02-01T22:38:52Z	2017-02-01T19:22:31Z	test: improve error messages in test-npm-install	41		
 11028	2257337	false	closed	false	6		2017-01-26T23:32:02Z	2017-01-27T18:45:28Z	2017-01-27T11:38:54Z	Allow --inspect flag to be provided after script name	99		
 11029	2352663	true	open	false			2017-01-26T23:34:51Z	2017-02-03T13:05:05Z		v7.x: backport update to V8 5.5	75		
@@ -4342,11 +4342,11 @@
 11098	1538624	true	open	false	4		2017-02-01T08:11:21Z	2017-02-03T05:29:40Z		url: add urlSearchParams.sort()	143		
 11099	677994	true	open	false			2017-02-01T12:00:43Z	2017-02-03T08:26:16Z		doc: add guide for backporting prs	37		
 11100	5249140	false	closed	false	3		2017-02-01T13:00:09Z	2017-02-02T20:55:55Z	2017-02-02T20:55:55Z	reverse proxy to node server udp outbound packet loss	140		
-11101	170197	false	open	false	2		2017-02-01T15:04:33Z	2017-02-01T17:45:15Z		this[searchParams].push is not a function	71		
+11101	170197	false	closed	false	3		2017-02-01T15:04:33Z	2017-02-03T21:04:34Z	2017-02-03T21:04:34Z	this[searchParams].push is not a function	71		
 11102	13561163	true	open	false			2017-02-01T15:24:42Z	2017-02-03T18:29:30Z		src: refactor of CopyProperties with V8 5.5 DefineProperty	86		
 11103	11838792	false	open	false	3		2017-02-01T15:25:17Z	2017-02-02T07:42:51Z		v7.x undocumented backward incompatibility of url.format()	173		
 11104	5268928	false	open	false	2		2017-02-01T15:32:46Z	2017-02-01T16:03:54Z		7.5.0 clock_gettime runtime failure built with macOS 10.11 and Xcode 8.x	541		
-11105	1538624	true	open	false			2017-02-01T17:35:02Z	2017-02-02T06:27:29Z		url: fix setting `url.search` to the empty string	39		
+11105	1538624	true	closed	false	4	3	2017-02-01T17:35:02Z	2017-02-03T21:04:02Z	2017-02-03T21:04:02Z	url: fix setting `url.search` to the empty string	39		
 11106	1485909	true	open	false	2		2017-02-01T17:56:19Z	2017-02-03T02:13:26Z		src: Node Tracing Controller	121		
 11107	3086146	true	closed	false	0		2017-02-01T18:20:09Z	2017-02-02T13:37:23Z	2017-02-01T18:21:05Z	Fix node	49		
 11108	156867	true	open	false	0		2017-02-01T19:22:13Z	2017-02-01T20:39:45Z		"doc: fix ""initial delay"" link in http.md"	8		
@@ -4362,7 +4362,7 @@
 11118	7408689	false	open	false	1		2017-02-02T10:14:06Z	2017-02-02T14:02:48Z		Can't build v6.9.5 with gcc 7.0.1	593		
 11119	988441	true	closed	false	0	0	2017-02-02T15:08:58Z	2017-02-03T18:35:11Z	2017-02-03T18:35:11Z	"build: notify about the redundancy of ""nosign"""	43	988441	2017-02-03T18:35:11Z
 11120	988441	true	open	false	10		2017-02-02T15:24:54Z	2017-02-02T18:16:54Z		buffer: stricter argument checking in toString	104		
-11121	4964823	false	open	false	1		2017-02-02T15:49:21Z	2017-02-03T02:45:03Z		`finish` event of stream.Writable is not expectedly emitted	183		
+11121	4964823	false	open	false	3		2017-02-02T15:49:21Z	2017-02-03T21:24:49Z		`finish` event of stream.Writable is not expectedly emitted	183		
 11122	5886475	true	open	false	0		2017-02-02T16:08:16Z	2017-02-03T01:50:36Z		test: increase coverage of buffer	32		
 11123	1716463	true	open	false	0		2017-02-02T19:22:37Z	2017-02-02T21:36:47Z		url: fix file state clarification in binding	58		
 11124	718899	true	open	false	0	0	2017-02-02T19:41:36Z	2017-02-02T19:41:36Z		test: simplify output handling in repl tests	34		
@@ -4379,7 +4379,7 @@
 11135	2546485	false	open	false	0		2017-02-03T05:50:19Z	2017-02-03T06:22:45Z		[Documention][want_to_contribute] docs have very less information provided per API	115		
 11136	5234060	true	open	false			2017-02-03T05:51:42Z	2017-02-03T16:56:13Z		doc: add comment for net.Server's error event	23		
 11137	1453603	true	open	false	0		2017-02-03T05:57:32Z	2017-02-03T06:11:21Z		test: improve events coverage to check removeListeners, removeAllListeners functions	73		
-11138	439929	true	open	false	0	0	2017-02-03T06:04:15Z	2017-02-03T06:04:15Z		crypto: refactor crypto module	67		
+11138	439929	true	open	false	1		2017-02-03T06:04:15Z	2017-02-03T21:56:38Z		crypto: refactor crypto module	67		
 11139	4964823	true	open	false	1		2017-02-03T06:52:39Z	2017-02-03T16:57:06Z		stream: minor fix for ReadableState	44		
 11140	1453603	true	open	false	0	0	2017-02-03T07:10:21Z	2017-02-03T07:10:21Z		test: improve events coverage to check removeListeners functions	73		
 11141	432351	true	open	false	14		2017-02-03T07:23:44Z	2017-02-03T19:45:50Z		doc: add info about using nvm	48		
@@ -4387,10 +4387,12 @@
 11143	1028226	true	open	false	1		2017-02-03T09:22:08Z	2017-02-03T10:33:15Z		test: improve crypto.setEngine coverage to check for errors	41		
 11144	1028226	true	open	false	0	0	2017-02-03T12:12:55Z	2017-02-03T12:12:55Z		test: improve punycode test coverage	63		
 11145	1979197	false	open	false	0		2017-02-03T14:06:56Z	2017-02-03T14:06:56Z		querystring.parse not parsing arrays consistently	75		
-11146	1028226	true	open	false	4		2017-02-03T15:08:55Z	2017-02-03T20:56:33Z		buffer: add a check for byteLength in readIntBE() and readIntLE()	65		
+11146	1028226	true	open	false	6		2017-02-03T15:08:55Z	2017-02-03T21:05:00Z		buffer: add a check for byteLength in readIntBE() and readIntLE()	65		
 11147	327019	true	open	false	0	0	2017-02-03T16:32:18Z	2017-02-03T16:32:18Z		internal/child_process: move anonymous class out of setupChannel	52		
 11148	327019	true	open	false	2		2017-02-03T16:56:35Z	2017-02-03T20:50:12Z		child_process: charify the usage of 'else'	35		
 11149	4421720	true	open	false	0	0	2017-02-03T17:48:14Z	2017-02-03T17:48:14Z		src, inspector: add --inspect-brk option (backport 7.x)	64		
-11151	718899	true	open	false			2017-02-03T19:20:39Z	2017-02-03T20:57:00Z		doc: fix linting command for vcbuild	47		
-11152	2512748	true	open	false			2017-02-03T20:00:37Z	2017-02-03T20:55:15Z		test: add common.mustNotCall()	61		
+11150	4299420	true	open	false			2017-02-03T18:18:51Z	2017-02-03T21:44:29Z		doc: improve testing guide	48		
+11151	718899	true	open	false			2017-02-03T19:20:39Z	2017-02-03T21:52:21Z		doc: fix linting command for vcbuild	47		
+11152	2512748	true	open	false			2017-02-03T20:00:37Z	2017-02-03T21:18:39Z		test: add common.mustNotCall()	61		
 11153	811047	true	open	false	0	0	2017-02-03T20:15:34Z	2017-02-03T20:15:34Z		test: fix test.py command line options processing	86		
+11154	1093990	true	open	false	0	0	2017-02-03T21:16:19Z	2017-02-03T21:16:19Z		net: use actual Timeout instance on Sockets	182		
