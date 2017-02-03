@@ -709,6 +709,7 @@
 7454	1272762	false	closed	false	40		2016-06-28T04:16:21Z	2016-07-18T09:27:46Z	2016-07-11T13:10:31Z	version 6.2.1 always got Segment Fault error and crash	68		
 7455	96150	true	closed	false	35		2016-06-28T05:34:07Z	2016-10-05T18:49:32Z	2016-10-05T18:49:32Z	fs: undeprecate existsSync; use access instead of stat for performance	88		
 7458	8720367	false	open	false	2		2016-06-28T10:58:32Z	2016-11-04T01:08:22Z		Built-in properties cannot be accessed using Reflect, when Proxy is passed as vm context	96		
+7459	5234060	false	closed	false	0		2016-06-28T14:25:14Z	2017-02-03T07:41:20Z	2017-02-03T07:41:20Z	suspicious multi-byte string handling in _debug_agent.js	579		
 7460	498775	true	closed	false	5	0	2016-06-28T18:37:57Z	2016-06-29T21:33:45Z	2016-06-29T21:33:45Z	tools: explicit path for V8 test tap output	147	498775	2016-06-29T21:33:45Z
 7461	715626	false	closed	false	5		2016-06-28T18:43:05Z	2016-07-06T05:18:37Z	2016-07-06T05:09:34Z	path.dirname used in loop	144		
 7462	275871	true	closed	false	15		2016-06-28T19:49:00Z	2016-07-12T02:05:40Z	2016-06-29T08:51:13Z	Upgrade cpplint	25		
@@ -1857,7 +1858,7 @@
 8608	6625123	false	closed	false	1		2016-09-17T09:55:10Z	2016-09-17T20:35:15Z	2016-09-17T20:35:15Z	Taskbar is not hidden in fullscreen	80		
 8609	2361826	true	closed	false	15		2016-09-17T09:57:56Z	2016-10-06T23:07:43Z	2016-10-06T23:07:43Z	internal: changed var to const in linkedlist	39		
 8610	14981026	true	closed	false	12		2016-09-17T10:01:32Z	2016-11-20T02:35:38Z	2016-11-20T02:35:38Z	src: Add does_zap_garbage to v8 HeapStatistics	84		
-8611	8657410	true	open	false	6		2016-09-17T10:02:06Z	2017-01-09T19:26:09Z		crypto: fix default encoding of LazyTransform	50		
+8611	8657410	true	open	false	7		2016-09-17T10:02:06Z	2017-02-03T07:02:18Z		crypto: fix default encoding of LazyTransform	50		
 8612	635903	true	open	false	4		2016-09-17T10:09:25Z	2016-09-20T18:23:11Z		util: support SharedArrayBuffer in inspect	76		
 8613	1267623	false	open	false	2		2016-09-17T10:22:46Z	2016-09-18T09:10:44Z		response's close event not being triggered	117		
 8614	2361826	true	closed	false	9		2016-09-17T10:36:51Z	2016-09-23T09:17:37Z	2016-09-23T00:01:23Z	process: changed var to const in internal/process.js	37		
@@ -4226,7 +4227,7 @@
 10983	17607	true	closed	false	1	0	2017-01-24T22:05:25Z	2017-01-25T17:32:44Z	2017-01-25T17:32:44Z	doc: DEFAULT_ECDH_CURVE was added in 0.11.13	21		
 10984	17607	true	open	false	0	0	2017-01-24T22:15:46Z	2017-01-24T22:15:46Z		v4 backport: doc: add tls.DEFAULT_ECDH_CURVE	80		
 10985	1226256	false	closed	false	15		2017-01-24T22:38:54Z	2017-01-27T23:05:06Z	2017-01-27T23:05:06Z	Writing to a piped stdout stream results in Uncaught TypeError: cb is not a function	394		
-10986	11780786	true	open	false			2017-01-25T00:32:12Z	2017-02-03T05:22:52Z		doc: add and fix System Error properties	234		
+10986	11780786	true	open	false			2017-01-25T00:32:12Z	2017-02-03T07:14:32Z		doc: add and fix System Error properties	234		
 10987	25335557	false	closed	false	6		2017-01-25T01:02:38Z	2017-01-26T12:12:10Z	2017-01-26T12:12:10Z	TLS.js checkServerIdentity did not take wildcard in altername into consideration	24		
 10988	1189785	true	closed	false	3		2017-01-25T03:10:35Z	2017-01-31T18:57:27Z	2017-01-31T18:57:27Z	test: improve test-fs-access error validation	41		
 10989	6354455	true	closed	false	20		2017-01-25T04:40:31Z	2017-01-27T16:07:48Z	2017-01-27T13:21:12Z	Proposal to update v7.x-staging	2650		
@@ -4369,14 +4370,16 @@
 11126	718899	true	open	false	0	0	2017-02-02T22:05:37Z	2017-02-02T22:05:37Z		test: simplify WPT.assert_throws()	26		
 11127	718899	true	open	false			2017-02-02T22:21:50Z	2017-02-02T23:16:00Z		doc: add common.WPT to test README	22		
 11128	4299420	true	open	false	2		2017-02-02T22:39:03Z	2017-02-03T06:41:14Z		assert: fix _deepEqual and improve assert.md	252		
-11129	275871	true	open	false	1		2017-02-02T22:39:09Z	2017-02-02T23:30:10Z		src: support UTF-8 in compiled-in JS source files	38		
+11129	275871	true	open	false			2017-02-02T22:39:09Z	2017-02-03T07:18:56Z		src: support UTF-8 in compiled-in JS source files	38		
 11130	439929	true	open	false			2017-02-02T23:38:03Z	2017-02-03T01:08:29Z		util: add inspectTag template literal tag	110		
 11131	4988795	true	open	false	0	0	2017-02-03T03:14:36Z	2017-02-03T03:14:36Z		test: improve readline coverage to check end and clear keys	50		
-11132	122831	false	open	false	1		2017-02-03T03:22:27Z	2017-02-03T06:29:03Z		fs.readFileSync returns corrupt ArrayBuffer (fs.readFile works as expected)	109		
+11132	122831	false	open	false	3		2017-02-03T03:22:27Z	2017-02-03T07:30:30Z		fs.readFileSync returns corrupt ArrayBuffer (fs.readFile works as expected)	109		
 11133	5234060	true	closed	false	0	0	2017-02-03T04:45:34Z	2017-02-03T05:42:58Z	2017-02-03T05:42:58Z	doc for net.Server's error event. (issues 9710)	24		
 11134	5234060	true	open	false	0	0	2017-02-03T05:26:16Z	2017-02-03T05:26:16Z		doc for net.Server.listen IPv6 '::'. See issues 9390	23		
 11135	2546485	false	open	false	0		2017-02-03T05:50:19Z	2017-02-03T06:22:45Z		[Documention][want_to_contribute] docs have very less information provided per API	115		
-11136	5234060	true	open	false	0	0	2017-02-03T05:51:42Z	2017-02-03T05:51:42Z		doc: add comment for net.Server's error event	23		
+11136	5234060	true	open	false			2017-02-03T05:51:42Z	2017-02-03T07:10:02Z		doc: add comment for net.Server's error event	23		
 11137	1453603	true	open	false	0		2017-02-03T05:57:32Z	2017-02-03T06:11:21Z		test: improve events coverage to check removeListeners, removeAllListeners functions	73		
 11138	439929	true	open	false	0	0	2017-02-03T06:04:15Z	2017-02-03T06:04:15Z		crypto: refactor crypto module	67		
 11139	4964823	true	open	false	0	0	2017-02-03T06:52:39Z	2017-02-03T06:52:39Z		Minor fix for ReadableState	44		
+11140	1453603	true	open	false	0	0	2017-02-03T07:10:21Z	2017-02-03T07:10:21Z		test: improve events coverage to check removeListeners functions	73		
+11141	432351	true	open	false	0	0	2017-02-03T07:23:44Z	2017-02-03T07:23:44Z		doc: add info about using nvm	48		
