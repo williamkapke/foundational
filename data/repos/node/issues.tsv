@@ -580,7 +580,7 @@
 7223	12755463	false	closed	false	2		2016-06-08T13:30:08Z	2016-07-16T14:21:13Z	2016-06-08T13:58:05Z	URL parse with parseQueryString returning query object doesn't inherit Object.prototype	55		
 7225	439929	true	closed	false	10		2016-06-08T15:30:23Z	2016-10-10T17:01:37Z	2016-06-21T17:04:22Z	crypto,tls: perf improvements for crypto and tls getCiphers	103		
 7229	624456	true	closed	false	13		2016-06-08T18:43:49Z	2016-07-05T21:00:16Z	2016-07-04T17:15:18Z	src: temporary fix for AIX malloc issue	151		
-7230	9319556	true	open	false	7		2016-06-08T18:57:58Z	2017-02-04T17:57:03Z		doc: clarify tls.createServer's {cert, ca}	46		
+7230	9319556	true	open	false	8		2016-06-08T18:57:58Z	2017-02-04T20:38:55Z		doc: clarify tls.createServer's {cert, ca}	46		
 7231	2144779	false	open	false	3		2016-06-08T19:40:39Z	2016-09-18T18:38:05Z		How to add max timeout on DNS query?	28		
 7236	439929	true	closed	false	8		2016-06-08T22:54:12Z	2016-10-10T17:03:15Z	2016-06-21T17:54:25Z	tls: avoid calling Buffer.byteLength multiple times	98		
 7237	718899	true	closed	false	5		2016-06-08T23:26:07Z	2016-07-12T02:11:45Z	2016-06-12T03:12:27Z	doc: add information for IncomingMessage.destroy()	33		
@@ -3981,7 +3981,7 @@
 10736	559569	false	closed	false	1		2017-01-11T11:29:47Z	2017-01-11T14:25:37Z	2017-01-11T14:25:37Z	fs.writeFile - ENAMETOOLONG error is not being caught	97		
 10737	4299420	true	open	false	2		2017-01-11T11:41:06Z	2017-01-14T07:01:10Z		"benchmark: use ""confidence"" in output of compare.R"	53		
 10738	24838796	false	closed	false	2		2017-01-11T14:23:09Z	2017-01-12T02:13:28Z	2017-01-11T14:56:22Z	"get error ""RangeError: Invalid string length"""	61		
-10739	439929	true	open	false	25		2017-01-11T15:13:26Z	2017-02-04T19:02:33Z		fs: allow WHATWG URL and file: URLs as paths	215		
+10739	439929	true	open	false			2017-01-11T15:13:26Z	2017-02-04T20:25:11Z		fs: allow WHATWG URL and file: URLs as paths	215		
 10740	3367801	true	open	false	1		2017-01-11T15:45:43Z	2017-01-11T16:40:44Z		test: refactor codes in fixtures	32		
 10741	711968	true	closed	false	0		2017-01-11T16:17:32Z	2017-01-13T17:55:36Z	2017-01-13T17:55:36Z	doc: remove duplicate properties bullet in readme	46		
 10742	54666	false	closed	false	2		2017-01-11T17:33:40Z	2017-01-12T01:19:36Z	2017-01-12T01:19:36Z	Investigate flaky test-fs-readfile-tostring-fail on macOS	40		
@@ -4361,7 +4361,7 @@
 11116	718899	true	closed	false	1		2017-02-02T05:10:30Z	2017-02-04T19:32:34Z	2017-02-04T19:32:34Z	test: make module testing stricter	112		
 11117	4299420	true	closed	false	0		2017-02-02T07:28:19Z	2017-02-04T11:43:13Z	2017-02-04T11:43:13Z	buffer, test: add tests for buffer.toJSON (backport v7.x)	46		
 11118	7408689	false	open	false	1		2017-02-02T10:14:06Z	2017-02-02T14:02:48Z		Can't build v6.9.5 with gcc 7.0.1	593		
-11119	988441	true	closed	false	0		2017-02-02T15:08:58Z	2017-02-04T00:45:51Z	2017-02-03T18:35:11Z	"build: notify about the redundancy of ""nosign"""	43		
+11119	988441	true	closed	false	1		2017-02-02T15:08:58Z	2017-02-04T20:52:43Z	2017-02-03T18:35:11Z	"build: notify about the redundancy of ""nosign"""	43		
 11120	988441	true	open	false	10		2017-02-02T15:24:54Z	2017-02-02T18:16:54Z		buffer: stricter argument checking in toString	104		
 11121	4964823	false	open	false	5		2017-02-02T15:49:21Z	2017-02-04T15:42:39Z		`finish` event of stream.Writable is not expectedly emitted	183		
 11122	5886475	true	open	false	0		2017-02-02T16:08:16Z	2017-02-03T01:50:36Z		test: increase coverage of buffer	32		
@@ -4392,9 +4392,9 @@
 11147	327019	true	open	false	0		2017-02-03T16:32:18Z	2017-02-04T13:00:27Z		internal/child_process: move anonymous class out of setupChannel	36		
 11148	327019	true	open	false	2		2017-02-03T16:56:35Z	2017-02-03T20:50:12Z		child_process: charify the usage of 'else'	35		
 11149	4421720	true	open	false	0	0	2017-02-03T17:48:14Z	2017-02-03T17:48:14Z		src, inspector: add --inspect-brk option (backport 7.x)	64		
-11150	4299420	true	open	false	1		2017-02-03T18:18:51Z	2017-02-04T13:53:54Z		doc: improve testing guide	48		
+11150	4299420	true	open	false			2017-02-03T18:18:51Z	2017-02-04T20:14:13Z		doc: improve testing guide	48		
 11151	718899	true	open	false			2017-02-03T19:20:39Z	2017-02-03T21:52:21Z		doc: fix linting command for vcbuild	47		
-11152	2512748	true	open	false			2017-02-03T20:00:37Z	2017-02-04T11:46:39Z		test: add common.mustNotCall()	61		
+11152	2512748	true	open	false			2017-02-03T20:00:37Z	2017-02-04T21:00:28Z		test: add common.mustNotCall()	61		
 11153	811047	true	open	false	2		2017-02-03T20:15:34Z	2017-02-04T05:21:00Z		test: fix test.py command line options processing	86		
 11154	1093990	true	open	false	5		2017-02-03T21:16:19Z	2017-02-04T19:37:57Z		net: use actual Timeout instances on Sockets	184		
 11155	439929	true	open	false	1		2017-02-03T23:28:57Z	2017-02-04T00:18:17Z		"Revert ""test: refactor test-fs-error-messages.js"""	79		
@@ -4403,7 +4403,7 @@
 11158	2006839	true	closed	false	2		2017-02-04T03:52:23Z	2017-02-04T05:55:08Z	2017-02-04T05:55:08Z	doc: Fix Math Error	21		
 11159	718899	true	open	false	0		2017-02-04T05:13:13Z	2017-02-04T17:46:06Z		tools: enable no-else-return ESLint rule	55		
 11160	18730857	false	open	false	0		2017-02-04T06:15:04Z	2017-02-04T06:15:04Z		problem installing ionic	13		
-11161	1538624	true	open	false			2017-02-04T06:37:35Z	2017-02-04T09:02:49Z		url: fix surrogate handling in encodeAuth()	128		
+11161	1538624	true	open	false			2017-02-04T06:37:35Z	2017-02-04T20:26:09Z		url: fix surrogate handling in encodeAuth()	128		
 11162	5886475	true	open	false	3		2017-02-04T09:34:30Z	2017-02-04T18:58:55Z		url: fix error message of url.format	94		
 11163	899444	true	open	false	0	0	2017-02-04T10:10:52Z	2017-02-04T10:10:52Z		doc: typographical fixes in COLLABORATOR_GUIDE.md	25		
 11164	7567088	false	open	false	0		2017-02-04T11:59:57Z	2017-02-04T12:42:22Z		Debugger.getPossibleBreakpoints' wasn't found	90		
@@ -4411,3 +4411,5 @@
 11166	8692540	false	open	false	6		2017-02-04T14:14:47Z	2017-02-04T16:30:20Z		require in module.js problem with paths 	30		
 11167	115237	true	open	false	0		2017-02-04T17:08:17Z	2017-02-04T18:47:23Z		tools/doc: improvements for types	70		
 11168	718899	true	open	false	0	0	2017-02-04T19:29:34Z	2017-02-04T19:29:34Z		tools: enable no-throw-literal ESLint rule	45		
+11169	718899	true	open	false	0	0	2017-02-04T20:06:18Z	2017-02-04T20:06:18Z		doc: add not-an-aardvark as ESLint contact	31		
+11170	4299420	true	open	false	0	0	2017-02-04T20:41:20Z	2017-02-04T20:41:20Z		benchmark: URLSearchParams v.s. querystring	70		
