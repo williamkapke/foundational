@@ -671,7 +671,7 @@
 7401	1935767	false	closed	false	8		2016-06-24T10:03:04Z	2016-08-01T23:56:13Z	2016-08-01T23:56:13Z	punycode: remove the module system detection from punycode.js	117		
 7404	1093990	true	open	false	11		2016-06-24T12:46:48Z	2016-07-18T09:59:02Z		test: add tests for ensuring proper timer delays	122		
 7406	9373002	false	open	false	6		2016-06-24T14:57:03Z	2016-06-27T16:16:51Z		parallel/test-https-connect-address-family and parallel/test-tls-connect-address-family failures	105		
-7408	238531	true	open	false			2016-06-24T17:46:45Z	2017-02-04T10:02:51Z		build: introduce `./configure --with-lto`	171		
+7408	238531	true	open	false	11		2016-06-24T17:46:45Z	2017-02-06T22:57:29Z		build: introduce `./configure --with-lto`	171		
 7411	5832730	true	closed	false	5	0	2016-06-24T21:28:36Z	2016-06-27T15:44:49Z	2016-06-27T15:44:48Z	"doc: fix ""sign.verify"" typo in crypto doc."	31		
 7412	983798	true	closed	false	2	0	2016-06-24T21:38:38Z	2016-06-28T20:12:00Z	2016-06-28T20:12:00Z	upgrade npm in LTS to 2.15.8	129		
 7413	718899	true	closed	false	6	0	2016-06-24T22:42:05Z	2016-06-27T23:59:39Z	2016-06-27T23:59:39Z	assert: remove unneeded arguments special handling	201		
@@ -2226,7 +2226,7 @@
 8975	2148448	false	open	false	2		2016-10-07T19:55:09Z	2016-10-08T00:29:02Z		child_process.exec fails non-deterministically	339		
 8976	11976448	true	open	false	2		2016-10-07T20:12:59Z	2016-10-08T15:52:45Z		test: expand test coverage for url.js	67		
 8977	439929	false	closed	false	8		2016-10-07T21:04:35Z	2017-01-08T21:16:08Z	2017-01-08T21:16:08Z	meta: npm v4 tracking issue	66		
-8978	4421720	true	open	false	22		2016-10-07T23:05:27Z	2017-02-06T20:37:29Z		inspector,doc: update hint text, add guide	85		
+8978	4421720	true	open	false	23		2016-10-07T23:05:27Z	2017-02-06T22:36:33Z		inspector,doc: update hint text, add guide	85		
 8979	4421720	true	closed	false	9		2016-10-07T23:07:40Z	2017-02-04T01:27:52Z	2017-01-03T23:50:52Z	inspector: add --inspect-brk flag	68		
 8980	11976448	true	closed	false	7		2016-10-08T00:13:30Z	2016-11-22T06:39:12Z	2016-10-10T17:45:17Z	test: refactor  `assert`  in internet  test-dns.js	43		
 8981	7408949	false	open	false	0		2016-10-08T06:09:00Z	2016-10-08T06:09:00Z		test-dgram-membership failed assertion error.	38		
@@ -3652,7 +3652,7 @@
 10407	275871	true	closed	false	0	0	2016-12-22T09:13:59Z	2017-01-16T05:48:07Z	2017-01-16T05:48:07Z	src: remove unused PROTOCOL_JSON array	17		
 10408	4299420	true	closed	false	12	15	2016-12-22T09:33:12Z	2016-12-30T00:03:46Z	2016-12-30T00:03:46Z	url: make WHATWG URL properties spec compliant	177		
 10409	275871	true	open	false	0		2016-12-22T12:32:21Z	2016-12-22T13:41:27Z		v8: make ObjectMirror handle proxy objects	19		
-10410	7833752	false	open	false	9		2016-12-22T16:04:06Z	2016-12-22T19:34:26Z		Mention chrome://inspect when using node --inspect	171		
+10410	7833752	false	closed	false	11		2016-12-22T16:04:06Z	2017-02-06T22:41:04Z	2016-12-22T20:02:45Z	Mention chrome://inspect when using node --inspect	171		
 10411	856469	true	closed	false	3	4	2016-12-22T16:19:33Z	2016-12-27T21:44:50Z	2016-12-27T21:44:50Z	doc: fix trivial mistakes in stream document.	116		
 10412	6211775	false	open	false	3		2016-12-22T16:37:36Z	2016-12-22T17:04:04Z		child_process.fork and child_process.exec do not work together.	191		
 10413	17607	true	closed	false	3		2016-12-22T16:54:49Z	2017-01-23T22:20:02Z	2016-12-29T21:41:29Z	crypto: use CHECK_NE instead of ABORT or abort	53		
@@ -3841,7 +3841,7 @@
 10596	677551	false	open	false	0		2017-01-03T18:04:54Z	2017-01-03T18:04:54Z		Source-map error with bootstrap-sass ambersands	115		
 10597	696611	true	closed	false	3		2017-01-03T19:29:21Z	2017-01-05T19:22:51Z	2017-01-05T19:22:51Z	test: fix process.title expectation	65		
 10598	617481	false	closed	false	0		2017-01-03T22:25:42Z	2017-01-06T04:26:31Z	2017-01-06T04:26:31Z	URL: don't decode arbitrary %2e during parsing	6		
-10599	439929	true	open	false	11		2017-01-03T22:54:50Z	2017-02-06T21:58:13Z		[WIP] meta: update copyright statements	61		
+10599	439929	true	open	false	12		2017-01-03T22:54:50Z	2017-02-06T22:31:18Z		[WIP] meta: update copyright statements	61		
 10600	1189785	true	closed	false	2		2017-01-04T00:45:19Z	2017-01-06T19:02:59Z	2017-01-06T19:02:59Z	test: improve test-event-emitter-modify-in-emit	44		
 10601	439929	true	closed	false	2	0	2017-01-04T05:32:00Z	2017-01-06T04:26:59Z	2017-01-06T04:26:59Z	url: change null password handling	52		
 10602	439929	true	closed	false	2	0	2017-01-04T05:49:44Z	2017-01-06T04:27:21Z	2017-01-06T04:27:21Z	url: do not decode arbitrary %2e sequences in paths	67		
@@ -4126,7 +4126,7 @@
 10881	4976075	true	open	false	3		2017-01-18T19:50:05Z	2017-01-24T07:13:23Z		deps backport 7c3748a from upstream V8	64		
 10882	109690	true	open	false	9		2017-01-18T20:25:43Z	2017-02-02T20:32:05Z		crypto: Remove unused access of tlsext_hostname.	97		
 10883	1189785	true	open	false	0	0	2017-01-18T21:11:12Z	2017-01-18T21:11:12Z		doc: add edsadr to collaborators	36		
-10884	17607	true	open	false			2017-01-18T21:25:12Z	2017-02-06T21:27:18Z		doc: describe when stdout/err is sync	50		
+10884	17607	true	open	false			2017-01-18T21:25:12Z	2017-02-06T22:02:43Z		doc: describe when stdout/err is sync	50		
 10885	6354455	true	closed	false	6	0	2017-01-18T21:50:11Z	2017-01-19T00:33:31Z	2017-01-19T00:33:31Z	v7.x-staging update	93		
 10886	6354455	true	closed	false	6	0	2017-01-19T00:39:14Z	2017-01-24T17:55:02Z	2017-01-24T17:55:02Z	v7.x-staging update proposal	293		
 10887	855219	true	closed	false	5	0	2017-01-19T01:41:43Z	2017-01-20T16:33:53Z	2017-01-20T16:33:52Z	deps: v6.x backport of #9234/#10206 bump ICU to 58.2 🍒 	52		
@@ -4215,8 +4215,8 @@
 10970	4421720	true	open	false	13		2017-01-23T23:26:43Z	2017-02-04T00:49:25Z		lib: deprecate node --debug at runtime	233		
 10971	19787902	false	closed	false	5		2017-01-24T01:02:06Z	2017-01-24T02:08:12Z	2017-01-24T02:08:12Z	Error installing Node.js	27		
 10972	4542024	true	open	false	3		2017-01-24T04:28:57Z	2017-01-26T16:32:21Z		test: expand test coverage of fs.js	44		
-10973	498775	true	open	false	3		2017-01-24T08:27:04Z	2017-01-26T14:09:44Z		v4.8.0 proposal	1279		
-10974	498775	true	open	false	1		2017-01-24T08:31:10Z	2017-02-06T21:28:36Z		v6.10.0 proposal	1827		
+10973	498775	true	open	false	4		2017-01-24T08:27:04Z	2017-02-06T22:02:10Z		v4.8.0 proposal	1337		
+10974	498775	true	open	false	2		2017-01-24T08:31:10Z	2017-02-06T22:01:39Z		v6.10.0 proposal	1827		
 10975	1818757	true	closed	false	0		2017-01-24T10:16:51Z	2017-01-30T10:48:52Z	2017-01-30T10:48:52Z	doc: Content-length -> Content-Length	21		
 10976	1131063	false	closed	false	1		2017-01-24T14:42:23Z	2017-01-25T09:34:30Z	2017-01-24T20:53:27Z	socket._handle.fd invalid when domain is used	208		
 10977	13561163	false	open	false	8		2017-01-24T15:41:32Z	2017-01-24T23:46:15Z		Object.defineProperty called inside the vm context fails to copy data properties onto the sandbox	129		
@@ -4271,7 +4271,7 @@
 11026	718899	false	open	false	7		2017-01-26T21:50:08Z	2017-02-03T21:49:29Z		investigate flaky test-http-client-race-2 on SmartOS	24		
 11027	1597854	true	closed	false	4		2017-01-26T23:05:25Z	2017-02-01T22:38:52Z	2017-02-01T19:22:31Z	test: improve error messages in test-npm-install	41		
 11028	2257337	false	closed	false	6		2017-01-26T23:32:02Z	2017-01-27T18:45:28Z	2017-01-27T11:38:54Z	Allow --inspect flag to be provided after script name	99		
-11029	2352663	true	open	false			2017-01-26T23:34:51Z	2017-02-03T13:05:05Z		v7.x: backport update to V8 5.5	75		
+11029	2352663	true	open	false	14		2017-01-26T23:34:51Z	2017-02-06T22:12:42Z		v7.x: backport update to V8 5.5	75		
 11030	25259366	false	open	false	0		2017-01-27T01:13:20Z	2017-01-27T11:18:36Z		https requests complete despite handshake timeout	360		
 11031	15811347	true	closed	false	6	1	2017-01-27T01:47:38Z	2017-01-28T13:52:22Z	2017-01-28T13:52:22Z	Update module.js	42		
 11032	15811347	true	closed	false	7	0	2017-01-27T02:14:59Z	2017-01-28T13:51:55Z	2017-01-28T13:51:55Z	Update module.js	42		
@@ -4352,7 +4352,7 @@
 11107	3086146	true	closed	false	0		2017-02-01T18:20:09Z	2017-02-02T13:37:23Z	2017-02-01T18:21:05Z	Fix node	49		
 11108	156867	true	closed	false	2	0	2017-02-01T19:22:13Z	2017-02-04T08:10:50Z	2017-02-04T08:10:50Z	"doc: fix ""initial delay"" link in http.md"	8		
 11109	101553	true	closed	false	0		2017-02-01T19:32:45Z	2017-02-04T11:27:55Z	2017-02-04T11:27:55Z	src: don't overwrite non-writable vm globals	95		
-11110	10393198	true	open	false			2017-02-01T21:35:33Z	2017-02-01T23:02:32Z		doc: fix and modernize code examples in domain.md	53		
+11110	10393198	true	open	false	0		2017-02-01T21:35:33Z	2017-02-06T22:17:01Z		doc: fix and modernize code examples in domain.md	53		
 11111	1538624	true	closed	false	1		2017-02-02T00:00:30Z	2017-02-03T20:24:07Z	2017-02-03T20:24:07Z	benchmark: simplify URLSearchParams import	25		
 11112	718899	true	closed	false	1		2017-02-02T00:05:43Z	2017-02-03T16:25:19Z	2017-02-03T16:25:19Z	doc: edit stability text for clarity and style	31		
 11113	718899	true	closed	false	2		2017-02-02T00:06:36Z	2017-02-04T08:53:07Z	2017-02-03T17:06:53Z	doc: remove assertions about assert	84		
@@ -4445,6 +4445,8 @@
 11200	498775	false	open	false	0		2017-02-06T18:39:30Z	2017-02-06T18:39:30Z		"Changing Definition of ""Locked"" for Stability Index in API Docs"	205		
 11201	7693422	true	open	false	0	0	2017-02-06T21:14:23Z	2017-02-06T21:14:23Z		test: wrap callbacks in mustCall() for test-http-agent-destroyed-socket.js 	40		
 11202	6354455	true	open	false	0	0	2017-02-06T21:22:08Z	2017-02-06T21:22:08Z		doc: adding Italo A. Casas PGP Fingerprint	107		
-11203	4660500	true	open	false	0	0	2017-02-06T21:22:11Z	2017-02-06T21:22:11Z		Improve buffer.includes tests	51		
+11203	4660500	true	open	false			2017-02-06T21:22:11Z	2017-02-06T22:49:49Z		Improve buffer.includes error verification tests	51		
 11204	275871	true	open	false	0	0	2017-02-06T21:33:32Z	2017-02-06T21:33:32Z		deps: back-port b049d1a from V8 upstream	22		
 11205	275871	true	open	false	0	0	2017-02-06T21:50:48Z	2017-02-06T21:50:48Z		build: disable C4267 conversion compiler warning	27		
+11206	10393198	true	open	false	0	0	2017-02-06T22:14:25Z	2017-02-06T22:14:25Z		doc: synchronize + update _toc.md and all.md	34		
+11207	4421720	true	open	false	0	0	2017-02-06T22:35:56Z	2017-02-06T22:35:56Z		[WIP] inspector: hint text update	161		
