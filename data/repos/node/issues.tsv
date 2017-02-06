@@ -2625,7 +2625,7 @@
 9374	718899	true	closed	false	9		2016-10-31T04:36:24Z	2016-11-22T19:38:39Z	2016-11-03T20:27:38Z	repl: refactor lib/repl.js	52		
 9375	696611	true	closed	false	6		2016-10-31T12:13:16Z	2016-12-20T23:52:49Z	2016-11-05T09:38:27Z	build: start comments at beginning of line	70		
 9376	495647	true	open	false	2		2016-10-31T13:03:05Z	2017-02-01T20:09:12Z		crypto: initial LibreSSL support (WIP)	730		
-9377	7402787	false	closed	false	60		2016-10-31T13:32:55Z	2017-02-06T07:40:47Z	2016-11-06T10:38:10Z	Error: Cannot find module 'internal/fs' when npm install on mac	102		
+9377	7402787	false	closed	false	61		2016-10-31T13:32:55Z	2017-02-06T08:23:44Z	2016-11-06T10:38:10Z	Error: Cannot find module 'internal/fs' when npm install on mac	102		
 9378	3973850	false	open	false	24		2016-10-31T13:37:45Z	2016-11-21T05:28:37Z		readdirSync of drive letter lists items of cwd	107		
 9379	1573141	true	closed	false	3		2016-10-31T14:10:42Z	2016-11-01T19:09:16Z	2016-11-01T19:09:16Z	doc: fs: fix link to mkdtemp	39		
 9380	900690	false	open	false	5		2016-10-31T15:27:32Z	2016-11-01T01:19:50Z		fs.writeFile() removes execute permissions from file	135		
@@ -4370,7 +4370,7 @@
 11125	1028226	true	open	false	0	0	2017-02-02T21:27:17Z	2017-02-02T21:27:17Z		replace var with let and const in fs.js	19		
 11126	718899	true	open	false	0	0	2017-02-02T22:05:37Z	2017-02-02T22:05:37Z		test: simplify WPT.assert_throws()	26		
 11127	718899	true	closed	false	4	8	2017-02-02T22:21:50Z	2017-02-06T05:18:09Z	2017-02-06T05:18:09Z	doc: add common.WPT to test README	22		
-11128	4299420	true	open	false			2017-02-02T22:39:03Z	2017-02-06T07:48:53Z		assert: fix _deepEqual and improve assert.md	252		
+11128	4299420	true	open	false	7		2017-02-02T22:39:03Z	2017-02-06T08:12:04Z		assert: fix _deepEqual and improve assert.md	252		
 11129	275871	true	open	false	6		2017-02-02T22:39:09Z	2017-02-03T17:59:14Z		src: support UTF-8 in compiled-in JS source files	38		
 11130	439929	true	open	false			2017-02-02T23:38:03Z	2017-02-03T01:08:29Z		util: add inspectTag template literal tag	110		
 11131	4988795	true	open	false	0	0	2017-02-03T03:14:36Z	2017-02-03T03:14:36Z		test: improve readline coverage to check end and clear keys	50		
@@ -4386,9 +4386,9 @@
 11141	432351	true	closed	false	20		2017-02-03T07:23:44Z	2017-02-05T05:49:12Z	2017-02-04T10:53:57Z	doc: add info about using nvm	48		
 11142	5215027	true	closed	false	7		2017-02-03T08:30:30Z	2017-02-03T20:57:54Z	2017-02-03T20:57:54Z	test, url: updated assertions in url-searchparams-getall tests	42		
 11143	1028226	true	open	false	1		2017-02-03T09:22:08Z	2017-02-03T10:33:15Z		test: improve crypto.setEngine coverage to check for errors	41		
-11144	1028226	true	open	false	0		2017-02-03T12:12:55Z	2017-02-05T23:31:25Z		test: improve punycode test coverage	63		
+11144	1028226	true	open	false	1		2017-02-03T12:12:55Z	2017-02-06T08:54:06Z		test: improve punycode test coverage	63		
 11145	1979197	false	open	false	0		2017-02-03T14:06:56Z	2017-02-03T14:06:56Z		querystring.parse not parsing arrays consistently	75		
-11146	1028226	true	open	false			2017-02-03T15:08:55Z	2017-02-06T02:08:39Z		buffer: add a check for byteLength in readIntBE() and readIntLE()	65		
+11146	1028226	true	open	false			2017-02-03T15:08:55Z	2017-02-06T08:50:17Z		buffer: add a check for byteLength in readIntBE() and readIntLE()	65		
 11147	327019	true	open	false	0		2017-02-03T16:32:18Z	2017-02-04T13:00:27Z		internal/child_process: move anonymous class out of setupChannel	36		
 11148	327019	true	open	false	8		2017-02-03T16:56:35Z	2017-02-06T06:13:23Z		child_process: charify the usage of 'else'	35		
 11149	4421720	true	open	false	0	0	2017-02-03T17:48:14Z	2017-02-03T17:48:14Z		src, inspector: add --inspect-brk option (backport 7.x)	64		
@@ -4429,8 +4429,9 @@
 11184	696611	true	open	false	0		2017-02-05T15:50:29Z	2017-02-06T01:05:28Z		Backport debugger test fixes v6.x	29		
 11185	6354455	true	open	false	0	0	2017-02-05T20:09:54Z	2017-02-05T20:09:54Z		Version 7.6.0 proposal	510		
 11186	718899	true	open	false	0	0	2017-02-05T21:27:29Z	2017-02-05T21:27:29Z		doc: fix typo in dgram doc	39		
-11187	718899	true	open	false	0	0	2017-02-05T22:04:30Z	2017-02-05T22:04:30Z		test: increase specificity in dgram test	38		
+11187	718899	true	open	false	0		2017-02-05T22:04:30Z	2017-02-06T08:39:22Z		test: increase specificity in dgram test	38		
 11188	1716463	false	open	false	0		2017-02-06T00:56:06Z	2017-02-06T01:12:34Z		url: repeated slashes in file URL should be arranged	54		
 11189	142914	true	open	false	4		2017-02-06T01:20:31Z	2017-02-06T02:02:04Z		Correct typos	11		
 11190	4299420	false	open	false	0		2017-02-06T03:41:51Z	2017-02-06T03:41:51Z		Move benchmark/README.md to doc/guide	41		
 11191	718899	true	open	false	0	0	2017-02-06T05:06:31Z	2017-02-06T05:06:31Z		test: add missing initialization in test-assert	74		
+11192	19763027	false	open	false	0		2017-02-06T08:23:22Z	2017-02-06T08:23:22Z		not showing current version, although i have change the path.	6		
