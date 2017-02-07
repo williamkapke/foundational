@@ -10,7 +10,7 @@
 556	7656868	false	open	false	27		2015-01-22T12:22:06Z	2017-01-07T06:31:51Z		Silent Mode execution	314		
 583	643505	false	open	false	49		2015-01-23T23:53:00Z	2016-12-22T20:02:43Z		streaming / iterative fs.readdir	50		
 616	1106489	false	closed	false	11		2015-01-27T02:44:36Z	2016-10-20T11:52:43Z	2015-06-24T23:04:28Z	url.relative (to complement path.relative)	101		
-643	829734	false	open	false	31		2015-01-28T21:12:32Z	2016-08-05T22:17:03Z		Using faster url parser	82		
+643	829734	false	closed	false	32		2015-01-28T21:12:32Z	2017-02-07T10:58:10Z	2016-08-05T22:17:26Z	Using faster url parser	82		
 646	54666	false	open	false	16		2015-01-29T01:38:54Z	2017-01-28T13:29:38Z		switch to benchmark.js module for benchmarking	54		
 669	505333	false	open	false	16		2015-01-30T17:47:08Z	2016-10-27T20:53:00Z		async-wrap: no way to catch errors without changing the throw origin	237		
 678	643505	false	open	false	18		2015-01-31T00:58:15Z	2016-12-28T11:50:03Z		make crypto functions execute in the threadpool asynchronously	83		
@@ -2305,7 +2305,7 @@
 9054	7273940	true	closed	false	3		2016-10-12T11:07:31Z	2016-10-18T22:31:16Z	2016-10-18T22:31:16Z	http: name anonymous functions	15		
 9055	7273940	true	open	false	8		2016-10-12T11:08:26Z	2016-10-18T22:41:39Z		http: name anonymous functions	15		
 9056	27926	false	closed	false	6		2016-10-12T13:29:43Z	2016-10-15T06:55:56Z	2016-10-15T06:55:56Z	Should switch classes to define class and fix name anonymous functions?	34		
-9057	4280527	false	open	false	6		2016-10-12T13:48:13Z	2017-02-06T21:44:21Z		Modify https.globalAgent doesn't effect	76		
+9057	4280527	false	open	false	7		2016-10-12T13:48:13Z	2017-02-07T10:09:07Z		Modify https.globalAgent doesn't effect	76		
 9058	7273940	true	closed	false	0	2	2016-10-12T13:51:19Z	2016-10-13T09:35:41Z	2016-10-13T09:35:41Z	http: name anonymous functions in _http_client	15		
 9059	7273940	true	closed	false	0	0	2016-10-12T13:51:41Z	2016-10-13T09:36:15Z	2016-10-13T09:36:15Z	http: name anonymous functions in _http_outgoing	15		
 9060	7273940	true	open	false	3		2016-10-12T13:51:53Z	2016-10-13T09:36:58Z		http: name anonymous functions in _http_server	15		
@@ -2653,7 +2653,7 @@
 9402	115237	false	closed	false	4		2016-11-01T19:05:09Z	2016-11-04T16:17:38Z	2016-11-04T16:17:38Z	Consistent trailing newlines	71		
 9403	1093990	false	open	false	4		2016-11-01T19:51:11Z	2016-11-01T22:01:11Z		"""write after end"" error when stdout was end()-ed"	101		
 9404	4421720	true	open	false	3		2016-11-01T19:58:57Z	2017-01-11T05:16:11Z		src: fix LTTNG tracepoint macros	63		
-9405	2633065	true	open	false	3		2016-11-01T20:08:40Z	2016-11-02T17:58:30Z		crypto: throw error in CipherBase::SetAutoPadding	42		
+9405	2633065	true	open	false	3		2016-11-01T20:08:40Z	2017-02-07T10:14:41Z		crypto: throw error in CipherBase::SetAutoPadding	40		
 9406	11139560	false	closed	false	9		2016-11-01T20:37:10Z	2016-11-02T04:09:05Z	2016-11-01T23:10:36Z	util.inspect() should do check for string type	146		
 9407	5545186	false	closed	false	3		2016-11-01T20:55:11Z	2016-11-01T21:08:10Z	2016-11-01T21:08:10Z	http.request post method not responding with no error on callback	113		
 9408	718899	true	closed	false	5		2016-11-01T21:43:48Z	2016-11-22T19:39:45Z	2016-11-04T02:47:23Z	tools: enforce function name matching in linter	69		
@@ -4376,7 +4376,7 @@
 11131	4988795	true	open	false	0	0	2017-02-03T03:14:36Z	2017-02-03T03:14:36Z		test: improve readline coverage to check end and clear keys	50		
 11132	122831	false	closed	false	15		2017-02-03T03:22:27Z	2017-02-07T07:32:32Z	2017-02-06T16:13:29Z	fs.readFileSync returns corrupt ArrayBuffer (fs.readFile works as expected)	109		
 11133	5234060	true	closed	false	0	0	2017-02-03T04:45:34Z	2017-02-03T05:42:58Z	2017-02-03T05:42:58Z	doc for net.Server's error event. (issues 9710)	24		
-11134	5234060	true	open	false			2017-02-03T05:26:16Z	2017-02-07T09:55:31Z		doc: add comment for net.Server.listen IPv6 '::'	23		
+11134	5234060	true	open	false	1		2017-02-03T05:26:16Z	2017-02-07T10:25:24Z		doc: add comment for net.Server.listen IPv6 '::'	23		
 11135	2546485	false	open	false	0		2017-02-03T05:50:19Z	2017-02-03T06:22:45Z		[Documention][want_to_contribute] docs have very less information provided per API	115		
 11136	5234060	true	open	false	0		2017-02-03T05:51:42Z	2017-02-05T04:36:47Z		doc: add comment for net.Server's error event	23		
 11137	1453603	true	open	false	0		2017-02-03T05:57:32Z	2017-02-03T06:11:21Z		test: improve events coverage to check removeListeners, removeAllListeners functions	73		
@@ -4452,4 +4452,4 @@
 11207	4421720	true	open	false			2017-02-06T22:35:56Z	2017-02-07T03:02:22Z		[WIP] inspector: hint text update	161		
 11208	170197	false	closed	false	2		2017-02-07T00:43:46Z	2017-02-07T02:23:22Z	2017-02-07T02:23:22Z	URLSearchParams regression	43		
 11209	15943089	false	open	false	0		2017-02-07T07:35:07Z	2017-02-07T08:50:34Z		Linter rule: use ASCII quotes not Unicode ones	71		
-11210	2352663	true	open	false	0	0	2017-02-07T09:50:53Z	2017-02-07T09:50:53Z		Util async func	32		
+11210	2352663	true	open	false			2017-02-07T09:50:53Z	2017-02-07T10:04:57Z		util: emphasize inspected async functions	32		
