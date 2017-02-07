@@ -42,6 +42,7 @@
 1271	275871	false	open	false	17		2015-03-26T15:30:40Z	2016-12-29T17:06:56Z		timer,domain: timers don't maintain order after exception	63		
 1278	532414	false	closed	false	37		2015-03-26T19:55:14Z	2016-08-22T21:08:42Z	2016-02-12T21:20:04Z	Compressed packages	136		
 1374	10247	false	closed	false	16		2015-04-08T13:46:19Z	2016-10-21T07:20:28Z	2015-09-03T06:13:19Z	Fatal Error (Abort) creating string larger than 268435440 bytes	93		
+1462	238531	false	open	false	24		2015-04-18T08:08:35Z	2017-02-07T18:05:25Z		Removing `newSession`/`resumeSession`	83		
 1495	902041	false	open	false	31		2015-04-21T23:54:21Z	2016-08-28T10:02:20Z		TLS Module: The default ecdhCurve, prime256v1 (aka NIST P-256) is not safe.	64		
 1568	1848357	true	open	false	32		2015-04-30T18:13:47Z	2017-01-18T05:48:54Z		core: implement resourceUsage()	79		
 1592	617235	false	closed	false	206		2015-05-02T19:25:40Z	2016-10-05T19:11:59Z	2016-10-05T19:11:59Z	gripe: deprecating fs.exists/existsSync	202		
@@ -63,6 +64,7 @@
 1878	17607	true	closed	false	7	3	2015-06-03T05:25:47Z	2017-01-03T21:45:04Z	2017-01-03T21:45:04Z	util: treat all args identically in absence of a format	105		
 1924	474017	false	closed	false	18		2015-06-09T14:12:21Z	2017-01-25T17:35:43Z	2016-09-26T09:04:21Z	Not closing all connections.	188		
 2025	696611	true	closed	false	6		2015-06-20T20:27:17Z	2016-08-29T23:49:08Z	2015-06-21T03:19:14Z	util: moving internal helpers to internal module	35		
+2069	150063	false	closed	false	15		2015-06-27T13:55:19Z	2017-02-07T18:12:20Z	2017-02-07T18:12:20Z	Windows: Setting fs.futimes{Sync} subsecond (millisecond) precision?	89		
 2084	495647	false	open	false	4		2015-06-30T11:59:42Z	2016-10-20T01:31:00Z		DISTTYPEDIR in vcbuild.bat persists across builds	289		
 2098	1881921	false	closed	false	20		2015-07-03T10:19:55Z	2016-07-12T10:29:54Z	2016-04-10T08:19:20Z	child_process.spawn sh not killable	166		
 2114	289174	false	open	false	12		2015-07-06T19:32:55Z	2016-07-20T15:59:23Z		incorrect URL parsing	46		
@@ -108,15 +110,17 @@
 2848	1348991	false	open	false	37		2015-09-13T21:27:01Z	2016-08-06T12:42:16Z		Add dns.resolve that returns all results	45		
 2853	631240	false	open	false	21		2015-09-14T08:12:48Z	2016-09-28T14:05:55Z		Shouldn't the default SIGINT handler trigger process.on('exit')?	84		
 2860	10118693	false	open	false	9		2015-09-14T17:07:52Z	2016-09-21T10:49:16Z		Error stack gives incorrect column number	139		
+2875	2864371	false	closed	false	16		2015-09-15T10:14:21Z	2017-02-07T18:18:46Z	2017-02-07T18:18:46Z	Autocompletion in debugger is extremely slow	24		
 2883	126482	true	open	false	4		2015-09-15T17:33:30Z	2016-06-29T12:07:18Z		Makefile: use existing variable to reduce complexity	2		
 2906	17607	true	closed	false	11	0	2015-09-16T15:34:34Z	2016-12-13T18:11:54Z	2016-12-13T18:11:54Z	net: add net.listen, symetrical with net.connect	57		
 2908	17607	true	closed	false	15		2015-09-16T15:39:07Z	2016-11-02T17:06:40Z	2016-03-22T05:30:28Z	Spawn detached window hide option	75		
 2933	643505	false	closed	false	34		2015-09-17T18:33:07Z	2016-08-23T23:58:44Z	2015-09-17T18:35:56Z	XCode 7: library not found for -lgcc_s.10.5	307		
 2937	744035	true	open	false	23		2015-09-17T21:40:29Z	2016-12-29T18:03:32Z		url: parse() fails if the auth field contains a colon(:) or at-sign(@).	52		
 2948	5166506	false	closed	false	19		2015-09-18T08:58:35Z	2016-10-31T14:28:39Z	2016-03-09T04:06:34Z	Build the lightest node binary possible	77		
-2950	1692672	false	open	false	5		2015-09-18T14:40:37Z	2017-01-30T13:53:54Z		"""WriteStream.close"" from ""fs"" module not executing the callback"	82		
+2950	1692672	false	open	false	6		2015-09-18T14:40:37Z	2017-02-07T18:03:05Z		"""WriteStream.close"" from ""fs"" module not executing the callback"	82		
 2951	5774638	false	closed	false	22		2015-09-18T14:48:41Z	2017-01-16T10:07:17Z	2017-01-16T10:07:17Z	x64 Windows installer installs to `Program Files (x86)`	46		
 2957	9373002	false	closed	false	6		2015-09-18T20:07:48Z	2016-09-23T22:59:50Z	2016-09-23T22:59:50Z	test-tick-processor failures on PPC	87		
+2962	2311111	false	closed	false	10		2015-09-19T15:29:09Z	2017-02-07T18:13:21Z	2017-02-07T18:13:21Z	4.X Tarball will not extract on Intel Edison (Yocto)	65		
 2967	696611	true	closed	false	33		2015-09-20T07:40:27Z	2016-11-30T22:47:18Z	2015-10-27T03:19:46Z	http{s}: fix connecting to localhost if URL is invalid	47		
 2982	170023	true	open	false	7		2015-09-21T14:10:33Z	2016-07-01T16:26:45Z		readline: add option to stop duplicates in history	161		
 2994	708850	false	open	false	9		2015-09-22T04:48:17Z	2016-09-08T23:20:56Z		Need a way to detect end of stream on custom Writable Streams implementing _write	78		
@@ -2517,7 +2521,7 @@
 9265	439929	true	open	false			2016-10-24T23:34:02Z	2016-11-06T10:53:38Z		errors: add internal/errors.js	85		
 9266	855219	true	closed	false	11		2016-10-25T01:50:17Z	2016-11-22T07:10:14Z	2016-10-27T02:27:59Z	intl: Add more versions from ICU	77		
 9267	2512748	true	closed	false	7		2016-10-25T02:31:43Z	2017-01-23T01:38:32Z	2016-10-26T13:47:55Z	deps: upgrade libuv to 1.10.0	55		
-9268	10761110	false	closed	false	15		2016-10-25T09:52:07Z	2017-01-09T18:07:20Z	2017-01-08T15:10:10Z	Making several http requests using keep-alive mode generates this trace: Warning: Possible EventEmitter memory leak detected.	62		
+9268	10761110	false	closed	false	16		2016-10-25T09:52:07Z	2017-02-07T18:37:57Z	2017-01-08T15:10:10Z	Making several http requests using keep-alive mode generates this trace: Warning: Possible EventEmitter memory leak detected.	62		
 9269	15943089	false	open	false	7		2016-10-25T10:25:04Z	2016-10-27T10:49:08Z		Console output for passing tests with the test runner	52		
 9270	103052	true	open	false			2016-10-25T13:14:15Z	2016-11-21T20:50:32Z		name functions in cluster module	45		
 9271	103052	true	open	false	0	0	2016-10-25T13:29:11Z	2016-10-25T13:29:11Z		v8: name all anonymous functions	46		
@@ -2975,7 +2979,7 @@
 9723	115237	true	closed	false	4		2016-11-21T18:28:00Z	2016-11-23T00:20:59Z	2016-11-22T18:40:26Z	doc: fix <code> inside stability boxes	65		
 9724	718899	true	open	false	9		2016-11-21T19:10:21Z	2016-11-24T22:38:40Z		test: fix flaky test-dgram-empty-packet & friends	90		
 9725	354296	false	closed	false	5		2016-11-21T20:52:43Z	2016-11-21T23:37:15Z	2016-11-21T23:37:15Z	fs.Stats class throws an exception instead of returning false with stat.isFile() or stat.isDirectory() when no directory or file exists at that path	340		
-9726	635591	true	open	false	33		2016-11-21T22:15:04Z	2017-02-07T17:42:29Z		Symbol key props visible in inspection by default	88		
+9726	635591	true	open	false	35		2016-11-21T22:15:04Z	2017-02-07T18:08:08Z		Symbol key props visible in inspection by default	88		
 9727	718899	true	open	false	5		2016-11-21T22:26:13Z	2016-11-23T18:29:02Z		test: fix flaky test-inspector	76		
 9728	9373002	false	open	false	17		2016-11-21T22:54:09Z	2017-01-16T14:13:46Z		AIX: Intermittent failure on  pseudo-tty/test-tty-wrap	53		
 9729	10393198	false	closed	false	20		2016-11-21T23:47:07Z	2016-12-02T11:38:30Z	2016-11-23T11:53:23Z	Strange deoptimzations in cycles	285		
@@ -4173,7 +4177,7 @@
 10927	54666	true	closed	false	0	0	2017-01-20T23:54:27Z	2017-01-25T06:44:05Z	2017-01-25T06:44:05Z	buffer: improve compare() performance	255	54666	2017-01-25T06:44:05Z
 10928	524902	false	closed	false	12		2017-01-21T01:11:20Z	2017-01-23T14:15:04Z	2017-01-23T14:15:04Z	Possible file system corruption on Red Hat Linux	275		
 10929	5445507	true	closed	false	5		2017-01-21T01:32:29Z	2017-01-23T12:23:44Z	2017-01-23T12:23:44Z	build: add tracing/trace_event.h to tarballs	195		
-10930	12488060	false	open	false	7		2017-01-21T02:39:08Z	2017-02-02T23:44:19Z		Questions on optimizing IncomingMessage() object	498		
+10930	12488060	false	open	false	10		2017-01-21T02:39:08Z	2017-02-07T18:49:02Z		Questions on optimizing IncomingMessage() object	498		
 10931	4923335	true	closed	false	3		2017-01-21T04:51:10Z	2017-01-23T17:38:27Z	2017-01-23T17:38:27Z	src: add a missing space in node_os.cc	41		
 10932	718899	false	closed	false	1		2017-01-21T05:58:32Z	2017-01-25T22:12:48Z	2017-01-25T22:12:48Z	zlib strategy constants not strictly enforced	52		
 10933	718899	true	closed	false	0		2017-01-21T05:59:46Z	2017-01-23T06:11:35Z	2017-01-23T06:11:35Z	test,zlib: check string strategies	58		
@@ -4366,7 +4370,7 @@
 11120	988441	true	closed	false	11	3	2017-02-02T15:24:54Z	2017-02-05T12:14:54Z	2017-02-05T12:14:54Z	buffer: stricter argument checking in toString	103	988441	2017-02-05T12:14:54Z
 11121	4964823	false	open	false	5		2017-02-02T15:49:21Z	2017-02-04T15:42:39Z		`finish` event of stream.Writable is not expectedly emitted	183		
 11122	5886475	true	closed	false	2		2017-02-02T16:08:16Z	2017-02-06T00:59:38Z	2017-02-06T00:59:38Z	test: increase coverage of buffer	32		
-11123	1716463	true	open	false	0		2017-02-02T19:22:37Z	2017-02-02T21:36:47Z		url: fix file state clarification in binding	58		
+11123	1716463	true	open	false	2		2017-02-02T19:22:37Z	2017-02-07T18:31:25Z		url: fix file state clarification in binding	58		
 11124	718899	true	closed	false	1		2017-02-02T19:41:36Z	2017-02-05T20:28:10Z	2017-02-05T20:28:10Z	test: simplify output handling in repl tests	34		
 11125	1028226	true	open	false	0	0	2017-02-02T21:27:17Z	2017-02-02T21:27:17Z		replace var with let and const in fs.js	19		
 11126	718899	true	open	false	0	0	2017-02-02T22:05:37Z	2017-02-02T22:05:37Z		test: simplify WPT.assert_throws()	26		
@@ -4463,5 +4467,9 @@
 11217	96947	true	open	false	0	0	2017-02-07T15:56:23Z	2017-02-07T15:56:23Z		build: kill evil path Voodoo in	37		
 11218	12154939	false	open	false	0		2017-02-07T17:21:41Z	2017-02-07T17:21:41Z		Question: does dns.resolveMx support unicode domains?	136		
 11219	2512748	true	open	false	0	0	2017-02-07T17:22:55Z	2017-02-07T17:22:55Z		test: fix incorrect indentation	46		
-11220	439929	true	open	false	0	0	2017-02-07T17:51:57Z	2017-02-07T17:51:57Z		errors: add internal/errors.js	90		
+11220	439929	true	open	false			2017-02-07T17:51:57Z	2017-02-07T18:36:24Z		errors: add internal/errors.js	90		
 11221	2512748	true	open	false	0	0	2017-02-07T17:53:58Z	2017-02-07T17:53:58Z		http: include provided status code in range error	85		
+11222	52195	true	open	false	0	0	2017-02-07T18:13:27Z	2017-02-07T18:13:27Z		doc: add links between cork() and uncork()	53		
+11223	2512748	true	open	false	0	0	2017-02-07T18:31:44Z	2017-02-07T18:31:44Z		test: improve checks in test-path-parse-format	43		
+11224	52195	false	open	false	0		2017-02-07T18:37:33Z	2017-02-07T18:37:33Z		Document fs.createReadStream and fs.createWriteStream close and destroy methods	30		
+11225	52195	true	open	false	0	0	2017-02-07T18:45:13Z	2017-02-07T18:45:13Z		fs: avoid emitting error EBADF for double closeo	69		
