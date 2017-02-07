@@ -11,7 +11,7 @@
 583	643505	false	open	false	49		2015-01-23T23:53:00Z	2016-12-22T20:02:43Z		streaming / iterative fs.readdir	50		
 616	1106489	false	closed	false	11		2015-01-27T02:44:36Z	2016-10-20T11:52:43Z	2015-06-24T23:04:28Z	url.relative (to complement path.relative)	101		
 643	829734	false	closed	false	32		2015-01-28T21:12:32Z	2017-02-07T10:58:10Z	2016-08-05T22:17:26Z	Using faster url parser	82		
-646	54666	false	open	false	16		2015-01-29T01:38:54Z	2017-01-28T13:29:38Z		switch to benchmark.js module for benchmarking	54		
+646	54666	false	closed	false	18		2015-01-29T01:38:54Z	2017-02-07T17:58:41Z	2017-02-07T17:58:41Z	switch to benchmark.js module for benchmarking	54		
 669	505333	false	open	false	16		2015-01-30T17:47:08Z	2016-10-27T20:53:00Z		async-wrap: no way to catch errors without changing the throw origin	237		
 678	643505	false	open	false	18		2015-01-31T00:58:15Z	2016-12-28T11:50:03Z		make crypto functions execute in the threadpool asynchronously	83		
 684	115237	false	closed	false	6		2015-01-31T22:25:05Z	2016-08-18T20:24:09Z	2015-02-01T18:41:19Z	path: tilde expansion	123		
@@ -2975,7 +2975,7 @@
 9723	115237	true	closed	false	4		2016-11-21T18:28:00Z	2016-11-23T00:20:59Z	2016-11-22T18:40:26Z	doc: fix <code> inside stability boxes	65		
 9724	718899	true	open	false	9		2016-11-21T19:10:21Z	2016-11-24T22:38:40Z		test: fix flaky test-dgram-empty-packet & friends	90		
 9725	354296	false	closed	false	5		2016-11-21T20:52:43Z	2016-11-21T23:37:15Z	2016-11-21T23:37:15Z	fs.Stats class throws an exception instead of returning false with stat.isFile() or stat.isDirectory() when no directory or file exists at that path	340		
-9726	635591	true	open	false	33		2016-11-21T22:15:04Z	2017-02-07T15:34:49Z		Symbol key props visible in inspection by default	88		
+9726	635591	true	open	false	33		2016-11-21T22:15:04Z	2017-02-07T17:42:29Z		Symbol key props visible in inspection by default	88		
 9727	718899	true	open	false	5		2016-11-21T22:26:13Z	2016-11-23T18:29:02Z		test: fix flaky test-inspector	76		
 9728	9373002	false	open	false	17		2016-11-21T22:54:09Z	2017-01-16T14:13:46Z		AIX: Intermittent failure on  pseudo-tty/test-tty-wrap	53		
 9729	10393198	false	closed	false	20		2016-11-21T23:47:07Z	2016-12-02T11:38:30Z	2016-11-23T11:53:23Z	Strange deoptimzations in cycles	285		
@@ -4320,7 +4320,7 @@
 11074	696611	true	closed	false	1	0	2017-01-30T18:53:29Z	2017-02-01T18:12:59Z	2017-02-01T18:12:59Z	doc: replace newlines in deprecation with space	120		
 11075	17607	true	closed	false	6		2017-01-30T19:20:16Z	2017-01-31T16:52:29Z	2017-01-31T16:52:29Z	v4 backport openssl 1.0.2k	4		
 11076	17607	true	open	false	3		2017-01-30T19:26:34Z	2017-01-30T23:27:20Z		v6 openssl 1.0.2k	4		
-11077	234019	false	open	false	10		2017-01-30T20:16:35Z	2017-02-01T14:11:59Z		Unusually large (but constant) memory usage with transparent huge pages enabled	267		
+11077	234019	false	open	false	10		2017-01-30T20:16:35Z	2017-02-07T17:55:40Z		Unusually large (but constant) memory usage with transparent huge pages enabled	267		
 11078	1382679	true	closed	false	5		2017-01-31T05:51:12Z	2017-02-04T06:21:12Z	2017-02-04T06:21:12Z	readline: update 6 comparisons to strict	28		
 11079	4299420	true	open	false	7		2017-01-31T12:26:21Z	2017-02-02T18:04:34Z		url, test: synchronize web-platform-test url tests	219		
 11080	3367801	true	open	false	2		2017-01-31T13:38:32Z	2017-01-31T14:10:19Z		doc: add abouthiroppy to collaborators	27		
@@ -4361,7 +4361,7 @@
 11115	126226	true	open	false	2		2017-02-02T04:42:56Z	2017-02-02T17:09:15Z		fs: avoid out-of-bounds arguments index access	59		
 11116	718899	true	closed	false	1		2017-02-02T05:10:30Z	2017-02-04T19:32:34Z	2017-02-04T19:32:34Z	test: make module testing stricter	112		
 11117	4299420	true	closed	false	0		2017-02-02T07:28:19Z	2017-02-04T11:43:13Z	2017-02-04T11:43:13Z	buffer, test: add tests for buffer.toJSON (backport v7.x)	46		
-11118	7408689	false	open	false	1		2017-02-02T10:14:06Z	2017-02-02T14:02:48Z		Can't build v6.9.5 with gcc 7.0.1	593		
+11118	7408689	false	closed	false	3		2017-02-02T10:14:06Z	2017-02-07T17:53:46Z	2017-02-07T17:53:46Z	Can't build v6.9.5 with gcc 7.0.1	593		
 11119	988441	true	closed	false	2		2017-02-02T15:08:58Z	2017-02-05T00:11:48Z	2017-02-03T18:35:11Z	"build: notify about the redundancy of ""nosign"""	43		
 11120	988441	true	closed	false	11	3	2017-02-02T15:24:54Z	2017-02-05T12:14:54Z	2017-02-05T12:14:54Z	buffer: stricter argument checking in toString	103	988441	2017-02-05T12:14:54Z
 11121	4964823	false	open	false	5		2017-02-02T15:49:21Z	2017-02-04T15:42:39Z		`finish` event of stream.Writable is not expectedly emitted	183		
@@ -4441,7 +4441,7 @@
 11195	17898715	false	closed	false	4		2017-02-06T10:16:17Z	2017-02-06T11:57:58Z	2017-02-06T11:57:58Z	I spawn through the creation of sub-thread How non-stdio: 'inherit' set tty to true	24		
 11196	1028226	true	open	false	0	0	2017-02-06T11:05:43Z	2017-02-06T11:05:43Z		child_process: increase default maxBuffer to 1024*1024	58		
 11197	275871	true	open	false	0	0	2017-02-06T13:38:58Z	2017-02-06T13:38:58Z		src: fix -Wunused-result compiler warning	48		
-11198	12997967	false	open	false	3		2017-02-06T13:51:35Z	2017-02-06T16:46:01Z		Expose arbitrary constants like TIMEOUT_MAX	139		
+11198	12997967	false	open	false	4		2017-02-06T13:51:35Z	2017-02-07T17:49:28Z		Expose arbitrary constants like TIMEOUT_MAX	139		
 11199	432351	true	open	false	0		2017-02-06T15:07:04Z	2017-02-07T06:59:25Z		lib: introduce constant MAX_TICKS	45		
 11200	498775	false	open	false	4		2017-02-06T18:39:30Z	2017-02-07T15:07:10Z		"Changing Definition of ""Locked"" for Stability Index in API Docs"	205		
 11201	7693422	true	open	false	2		2017-02-06T21:14:23Z	2017-02-07T00:57:46Z		test: wrap callbacks in mustCall() for test-http-agent-destroyed-socket.js 	40		
@@ -4455,9 +4455,13 @@
 11209	15943089	false	open	false	0		2017-02-07T07:35:07Z	2017-02-07T08:50:34Z		Linter rule: use ASCII quotes not Unicode ones	71		
 11210	2352663	true	open	false			2017-02-07T09:50:53Z	2017-02-07T15:07:26Z		util: improve inspect for (Async|Generator)Function	32		
 11211	2352663	true	open	false	0	0	2017-02-07T12:48:41Z	2017-02-07T12:48:41Z		util: improve inspect for AsyncFunction	32		
-11212	4920092	false	open	false	0		2017-02-07T14:11:27Z	2017-02-07T14:11:27Z		Put And Post Method not working in node	6		
+11212	4920092	false	closed	false	2		2017-02-07T14:11:27Z	2017-02-07T17:50:35Z	2017-02-07T17:50:35Z	Put And Post Method not working in node	49		
 11213	17024515	false	open	false	1		2017-02-07T14:34:15Z	2017-02-07T15:02:00Z		Throw error 	70		
 11214	11038992	true	open	false	0	0	2017-02-07T14:49:56Z	2017-02-07T14:49:56Z		Adding regular expression as an argument to an assert.throws()	13		
 11215	11038992	true	open	false	0	0	2017-02-07T14:58:30Z	2017-02-07T14:58:30Z		test: add regexp as 2nd argument to throw in test-assert	9		
 11216	20775355	false	open	false	0		2017-02-07T15:01:47Z	2017-02-07T15:01:47Z		Buffer error	51		
 11217	96947	true	open	false	0	0	2017-02-07T15:56:23Z	2017-02-07T15:56:23Z		build: kill evil path Voodoo in	37		
+11218	12154939	false	open	false	0		2017-02-07T17:21:41Z	2017-02-07T17:21:41Z		Question: does dns.resolveMx support unicode domains?	136		
+11219	2512748	true	open	false	0	0	2017-02-07T17:22:55Z	2017-02-07T17:22:55Z		test: fix incorrect indentation	46		
+11220	439929	true	open	false	0	0	2017-02-07T17:51:57Z	2017-02-07T17:51:57Z		errors: add internal/errors.js	90		
+11221	2512748	true	open	false	0	0	2017-02-07T17:53:58Z	2017-02-07T17:53:58Z		http: include provided status code in range error	85		
