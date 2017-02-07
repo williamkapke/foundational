@@ -595,6 +595,7 @@
 7254	855219	true	open	false	2		2016-06-10T01:28:18Z	2016-08-09T22:11:53Z		Speedup canned small-icu build	109		
 7255	5177920	true	closed	false	4	17	2016-06-10T02:18:11Z	2016-06-27T15:33:36Z	2016-06-27T15:33:36Z	benchmark: `util._extend` vs `object.assign`	177		
 7257	939420	true	open	false	10		2016-06-10T08:25:54Z	2016-07-04T19:23:21Z		Add two child-process stdio flush tests	68		
+7259	373545	false	open	false	4		2016-06-10T08:36:07Z	2017-02-07T15:01:41Z		V8 crash during MarkCompact GC	451		
 7261	631951	false	open	false	1		2016-06-10T09:36:06Z	2016-07-22T10:04:27Z		V8 crash on Windows Server 2012 x64 running on CPU with AVX support	107		
 7262	275871	true	closed	false	9		2016-06-10T09:42:23Z	2016-07-12T10:28:55Z	2016-06-13T10:56:36Z	src: fix erroneous fallthrough in ParseEncoding()	28		
 7265	1557314	false	closed	false	6		2016-06-10T15:10:09Z	2016-12-29T19:02:44Z	2016-12-29T19:02:44Z	Please upgrade node_root_certs.h for 0.x versions	95		
@@ -1235,7 +1236,7 @@
 7983	3397140	true	closed	false	12		2016-08-05T03:08:13Z	2016-08-08T14:30:54Z	2016-08-08T13:22:58Z	build: export zlib symbols on Windows	80		
 7984	27926	false	open	false	0		2016-08-05T04:06:07Z	2016-08-05T04:06:07Z		Question: how to improve performances for proxies?	157		
 7985	101553	true	closed	false	7		2016-08-05T08:49:51Z	2016-08-08T15:56:56Z	2016-08-08T15:56:56Z	lib: remove double check	38		
-7986	275871	true	open	false	1		2016-08-05T11:40:07Z	2017-01-06T20:15:57Z		tools: add compile_commands.json gyp generator	42		
+7986	275871	true	open	false	3		2016-08-05T11:40:07Z	2017-02-07T15:49:31Z		tools: add compile_commands.json gyp generator	42		
 7987	4520820	true	closed	false	6		2016-08-05T16:37:29Z	2016-08-08T12:45:42Z	2016-08-08T12:45:42Z	zlib: remove unneeded property	37		
 7988	426418	true	open	false	19		2016-08-05T21:18:17Z	2016-08-12T00:35:41Z		inspector: add inspector console support for native Console	114		
 7989	275871	false	closed	false	31		2016-08-06T03:16:44Z	2016-10-11T10:46:10Z	2016-10-11T10:46:10Z	build: drop support for VS 2013 in v6 LTS	192		
@@ -2974,7 +2975,7 @@
 9723	115237	true	closed	false	4		2016-11-21T18:28:00Z	2016-11-23T00:20:59Z	2016-11-22T18:40:26Z	doc: fix <code> inside stability boxes	65		
 9724	718899	true	open	false	9		2016-11-21T19:10:21Z	2016-11-24T22:38:40Z		test: fix flaky test-dgram-empty-packet & friends	90		
 9725	354296	false	closed	false	5		2016-11-21T20:52:43Z	2016-11-21T23:37:15Z	2016-11-21T23:37:15Z	fs.Stats class throws an exception instead of returning false with stat.isFile() or stat.isDirectory() when no directory or file exists at that path	340		
-9726	635591	true	open	false	31		2016-11-21T22:15:04Z	2017-02-07T09:47:48Z		Symbol key props visible in inspection by default	88		
+9726	635591	true	open	false	33		2016-11-21T22:15:04Z	2017-02-07T15:34:49Z		Symbol key props visible in inspection by default	88		
 9727	718899	true	open	false	5		2016-11-21T22:26:13Z	2016-11-23T18:29:02Z		test: fix flaky test-inspector	76		
 9728	9373002	false	open	false	17		2016-11-21T22:54:09Z	2017-01-16T14:13:46Z		AIX: Intermittent failure on  pseudo-tty/test-tty-wrap	53		
 9729	10393198	false	closed	false	20		2016-11-21T23:47:07Z	2016-12-02T11:38:30Z	2016-11-23T11:53:23Z	Strange deoptimzations in cycles	285		
@@ -4296,7 +4297,7 @@
 11051	275871	true	open	false	1		2017-01-28T12:36:19Z	2017-02-07T13:29:06Z		src: make copies of startup environment variables	24		
 11052	8297234	false	open	false	7		2017-01-28T13:50:48Z	2017-02-03T18:32:14Z		parallel/test-child-process-exec-timeout not cleaning up child process on win7	101		
 11053	5308680	false	closed	false	2		2017-01-28T14:41:25Z	2017-01-29T05:27:32Z	2017-01-28T15:47:11Z	node 6.9.1 build: node -v says 0.12.15	23		
-11054	275871	true	open	false			2017-01-28T15:53:54Z	2017-01-31T22:47:38Z		doc: don't imply that we still do io.js releases	21		
+11054	275871	true	open	false	1		2017-01-28T15:53:54Z	2017-02-07T15:27:30Z		doc: don't imply that we still do io.js releases	21		
 11055	16735925	false	open	false	3		2017-01-28T16:19:45Z	2017-02-02T11:23:36Z		Required module outside exports turns into object	61		
 11056	3067604	false	closed	false	3		2017-01-28T16:34:17Z	2017-01-29T08:14:42Z	2017-01-28T17:07:08Z	Promise subclassing	101		
 11057	1538624	true	open	false			2017-01-28T17:50:31Z	2017-01-31T17:27:46Z		url: make URLSearchParams properties spec-compliant	113		
@@ -4392,7 +4393,7 @@
 11147	327019	true	open	false	0		2017-02-03T16:32:18Z	2017-02-04T13:00:27Z		internal/child_process: move anonymous class out of setupChannel	36		
 11148	327019	true	open	false	8		2017-02-03T16:56:35Z	2017-02-06T06:13:23Z		child_process: charify the usage of 'else'	35		
 11149	4421720	true	open	false	0		2017-02-03T17:48:14Z	2017-02-06T17:45:55Z		src, inspector: add --inspect-brk option (backport 7.x)	64		
-11150	4299420	true	open	false			2017-02-03T18:18:51Z	2017-02-07T14:42:59Z		doc: improve testing guide	48		
+11150	4299420	true	open	false			2017-02-03T18:18:51Z	2017-02-07T15:34:58Z		doc: improve testing guide	48		
 11151	718899	true	closed	false	4		2017-02-03T19:20:39Z	2017-02-06T23:35:58Z	2017-02-06T23:35:58Z	doc: fix linting command for vcbuild	47		
 11152	2512748	true	open	false	1		2017-02-03T20:00:37Z	2017-02-06T01:06:46Z		test: add common.mustNotCall()	61		
 11153	811047	true	open	false	2		2017-02-03T20:15:34Z	2017-02-04T05:21:00Z		test: fix test.py command line options processing	86		
@@ -4412,7 +4413,7 @@
 11167	115237	true	open	false	5		2017-02-04T17:08:17Z	2017-02-05T15:57:03Z		tools/doc: improvements for types	70		
 11168	718899	true	open	false	0		2017-02-04T19:29:34Z	2017-02-06T01:01:43Z		tools: enable no-throw-literal ESLint rule	45		
 11169	718899	true	closed	false	1	0	2017-02-04T20:06:18Z	2017-02-06T01:04:22Z	2017-02-06T01:04:21Z	doc: add not-an-aardvark as ESLint contact	31		
-11170	4299420	true	open	false			2017-02-04T20:41:20Z	2017-02-04T21:06:57Z		benchmark: URLSearchParams v.s. querystring	70		
+11170	4299420	true	open	false	4		2017-02-04T20:41:20Z	2017-02-07T15:41:02Z		benchmark: URLSearchParams v.s. querystring	70		
 11171	1716463	true	open	false	11		2017-02-04T21:56:19Z	2017-02-07T08:58:11Z		querystring: fix state machine in querystring.parse	76		
 11172	567540	true	open	false	0	0	2017-02-04T22:54:27Z	2017-02-04T22:54:27Z		Backport #10320 to 7.x	72		
 11173	9287	false	open	false	2		2017-02-04T23:32:08Z	2017-02-05T16:25:16Z		Dist request: add http://nodejs.org/dist/latest-lts/	31		
@@ -4442,19 +4443,21 @@
 11197	275871	true	open	false	0	0	2017-02-06T13:38:58Z	2017-02-06T13:38:58Z		src: fix -Wunused-result compiler warning	48		
 11198	12997967	false	open	false	3		2017-02-06T13:51:35Z	2017-02-06T16:46:01Z		Expose arbitrary constants like TIMEOUT_MAX	139		
 11199	432351	true	open	false	0		2017-02-06T15:07:04Z	2017-02-07T06:59:25Z		lib: introduce constant MAX_TICKS	45		
-11200	498775	false	open	false	2		2017-02-06T18:39:30Z	2017-02-07T09:18:05Z		"Changing Definition of ""Locked"" for Stability Index in API Docs"	205		
+11200	498775	false	open	false	4		2017-02-06T18:39:30Z	2017-02-07T15:07:10Z		"Changing Definition of ""Locked"" for Stability Index in API Docs"	205		
 11201	7693422	true	open	false	2		2017-02-06T21:14:23Z	2017-02-07T00:57:46Z		test: wrap callbacks in mustCall() for test-http-agent-destroyed-socket.js 	40		
 11202	6354455	true	open	false	0	0	2017-02-06T21:22:08Z	2017-02-06T21:22:08Z		doc: adding Italo A. Casas PGP Fingerprint	107		
 11203	4660500	true	open	false	0		2017-02-06T21:22:11Z	2017-02-07T04:57:02Z		Improve buffer.includes error verification tests	51		
 11204	275871	true	open	false	0	0	2017-02-06T21:33:32Z	2017-02-06T21:33:32Z		deps: back-port b049d1a from V8 upstream	22		
 11205	275871	true	open	false	0	0	2017-02-06T21:50:48Z	2017-02-06T21:50:48Z		build: disable C4267 conversion compiler warning	27		
 11206	10393198	true	open	false	0	0	2017-02-06T22:14:25Z	2017-02-06T22:14:25Z		doc: synchronize + update _toc.md and all.md	34		
-11207	4421720	true	open	false	0		2017-02-06T22:35:56Z	2017-02-07T14:15:45Z		[WIP] inspector: hint text update	161		
+11207	4421720	true	open	false	1		2017-02-06T22:35:56Z	2017-02-07T15:47:12Z		[WIP] inspector: hint text update	161		
 11208	170197	false	closed	false	2		2017-02-07T00:43:46Z	2017-02-07T02:23:22Z	2017-02-07T02:23:22Z	URLSearchParams regression	43		
 11209	15943089	false	open	false	0		2017-02-07T07:35:07Z	2017-02-07T08:50:34Z		Linter rule: use ASCII quotes not Unicode ones	71		
-11210	2352663	true	open	false			2017-02-07T09:50:53Z	2017-02-07T12:25:54Z		util: improve inspect for (Async|Generator)Function	32		
+11210	2352663	true	open	false			2017-02-07T09:50:53Z	2017-02-07T15:07:26Z		util: improve inspect for (Async|Generator)Function	32		
 11211	2352663	true	open	false	0	0	2017-02-07T12:48:41Z	2017-02-07T12:48:41Z		util: improve inspect for AsyncFunction	32		
 11212	4920092	false	open	false	0		2017-02-07T14:11:27Z	2017-02-07T14:11:27Z		Put And Post Method not working in node	6		
-11213	17024515	false	open	false	0		2017-02-07T14:34:15Z	2017-02-07T14:34:15Z		Throw error 	70		
+11213	17024515	false	open	false	1		2017-02-07T14:34:15Z	2017-02-07T15:02:00Z		Throw error 	70		
 11214	11038992	true	open	false	0	0	2017-02-07T14:49:56Z	2017-02-07T14:49:56Z		Adding regular expression as an argument to an assert.throws()	13		
 11215	11038992	true	open	false	0	0	2017-02-07T14:58:30Z	2017-02-07T14:58:30Z		test: add regexp as 2nd argument to throw in test-assert	9		
+11216	20775355	false	open	false	0		2017-02-07T15:01:47Z	2017-02-07T15:01:47Z		Buffer error	51		
+11217	96947	true	open	false	0	0	2017-02-07T15:56:23Z	2017-02-07T15:56:23Z		build: kill evil path Voodoo in	37		
