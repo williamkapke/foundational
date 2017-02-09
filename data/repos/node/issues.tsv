@@ -656,7 +656,7 @@
 7333	3899684	false	open	false	7		2016-06-17T21:06:49Z	2016-07-06T05:00:37Z		process, doc: discourage use of process.exit() for control flow in docs	183		
 7334	275871	true	closed	false	12		2016-06-18T11:00:47Z	2016-09-05T08:06:28Z	2016-06-21T08:31:13Z	src: use RAII for mutexes and condition variables	25		
 7335	4965093	false	open	false	2		2016-06-18T19:12:27Z	2016-07-02T05:36:07Z		Wrong definition of keepAliveMsecs in http.Agent documentation	85		
-7340	6354455	false	open	false	7		2016-06-19T23:27:24Z	2016-07-04T13:49:39Z		stream docs, writable.cork() and writable.uncork() methods	37		
+7340	6354455	false	closed	false	7		2016-06-19T23:27:24Z	2017-02-09T07:07:28Z	2017-02-09T07:07:28Z	stream docs, writable.cork() and writable.uncork() methods	37		
 7342	1333469	false	closed	false	9		2016-06-20T16:20:30Z	2016-06-30T23:05:52Z	2016-06-30T23:05:52Z	Encoding of child_process.exec.stdout changed from String to Buffer in v6.2.1	191		
 7343	18704287	false	closed	false	18		2016-06-20T16:48:51Z	2016-07-11T14:05:14Z	2016-06-20T20:31:26Z	Cross compiled Node.js v4.4.5 LTS for ARM7, but node threw illegal instruction error 	350		
 7344	4017750	false	closed	false	10		2016-06-20T18:01:30Z	2016-09-12T19:47:10Z	2016-09-12T19:47:10Z	Performance degradation when doing JSON.stringify(obj).replace(/regexp/, func) on Node 6.2.2 comparing to 4.4.5	357		
@@ -4320,7 +4320,7 @@
 11048	899444	true	open	false			2017-01-28T04:27:52Z	2017-02-04T08:42:11Z		v8: expose new V8 5.5 serialization API	99		
 11049	4299420	true	closed	false	3		2017-01-28T09:50:15Z	2017-02-02T14:24:40Z	2017-01-30T18:21:14Z	test, url: break up test-url.js	91		
 11050	1231635	false	open	false	2		2017-01-28T11:51:56Z	2017-01-31T07:33:03Z		Include $DOCS_ANALYTICS when building docs	81		
-11051	275871	true	closed	false			2017-01-28T12:36:19Z	2017-02-08T20:21:27Z	2017-02-08T14:09:02Z	src: make copies of startup environment variables	24		
+11051	275871	true	closed	false			2017-01-28T12:36:19Z	2017-02-09T07:25:09Z	2017-02-08T14:09:02Z	src: make copies of startup environment variables	24		
 11052	8297234	false	open	false	7		2017-01-28T13:50:48Z	2017-02-03T18:32:14Z		parallel/test-child-process-exec-timeout not cleaning up child process on win7	101		
 11053	5308680	false	closed	false	2		2017-01-28T14:41:25Z	2017-01-29T05:27:32Z	2017-01-28T15:47:11Z	node 6.9.1 build: node -v says 0.12.15	23		
 11054	275871	true	open	false	1		2017-01-28T15:53:54Z	2017-02-08T11:25:36Z		doc: don't imply that we still do io.js releases	21		
@@ -4469,7 +4469,7 @@
 11197	275871	true	open	false	0	0	2017-02-06T13:38:58Z	2017-02-06T13:38:58Z		src: fix -Wunused-result compiler warning	48		
 11198	12997967	false	open	false	6		2017-02-06T13:51:35Z	2017-02-08T10:06:31Z		Expose arbitrary constants like TIMEOUT_MAX	139		
 11199	432351	true	open	false	1		2017-02-06T15:07:04Z	2017-02-08T06:41:38Z		lib: introduce constant MAX_TICKS	45		
-11200	498775	false	open	false	10		2017-02-06T18:39:30Z	2017-02-08T21:49:58Z		"Changing Definition of ""Locked"" for Stability Index in API Docs"	205		
+11200	498775	false	open	false	11		2017-02-06T18:39:30Z	2017-02-09T07:01:25Z		"Changing Definition of ""Locked"" for Stability Index in API Docs"	205		
 11201	7693422	true	open	false	4		2017-02-06T21:14:23Z	2017-02-07T19:25:16Z		test: wrap callbacks in mustCall() for test-http-agent-destroyed-socket.js 	40		
 11202	6354455	true	open	false	3		2017-02-06T21:22:08Z	2017-02-07T22:30:49Z		doc: adding Italo A. Casas PGP Fingerprint	107		
 11203	4660500	true	open	false	8		2017-02-06T21:22:11Z	2017-02-08T21:54:23Z		test: improve buffer.includes error verification tests	51		
@@ -4491,7 +4491,7 @@
 11219	2512748	true	open	false	3		2017-02-07T17:22:55Z	2017-02-09T01:53:21Z		test: fix incorrect indentation	46		
 11220	439929	true	open	false			2017-02-07T17:51:57Z	2017-02-09T00:22:17Z		errors: add internal/errors.js	90		
 11221	2512748	true	open	false	0		2017-02-07T17:53:58Z	2017-02-09T01:55:03Z		http: include provided status code in range error	85		
-11222	52195	true	open	false	0	0	2017-02-07T18:13:27Z	2017-02-07T18:13:27Z		doc: add links between cork() and uncork()	53		
+11222	52195	true	closed	false	1		2017-02-07T18:13:27Z	2017-02-09T07:07:05Z	2017-02-09T07:07:05Z	doc: add links between cork() and uncork()	53		
 11223	2512748	true	open	false	0		2017-02-07T18:31:44Z	2017-02-09T01:58:13Z		test: improve checks in test-path-parse-format	43		
 11224	52195	false	open	false	0		2017-02-07T18:37:33Z	2017-02-07T18:37:33Z		Document fs.createReadStream and fs.createWriteStream close and destroy methods	30		
 11225	52195	true	open	false	6		2017-02-07T18:45:13Z	2017-02-08T15:38:10Z		fs: avoid emitting error EBADF for double closeo	69		
@@ -4501,14 +4501,14 @@
 11229	11038992	true	open	false			2017-02-07T23:51:15Z	2017-02-08T01:02:40Z		src: fix throw error for 304 responses with 'trailer' header set	11		
 11230	10393198	true	open	false			2017-02-08T00:01:44Z	2017-02-08T00:06:01Z		doc: unify titles	74		
 11231	718899	false	open	false	1		2017-02-08T00:57:22Z	2017-02-08T01:39:25Z		Update CONTRIBUTING.md to clarify single-test running 	107		
-11232	718899	true	open	false			2017-02-08T04:54:12Z	2017-02-08T22:02:32Z		test: refactor test-fs-buffer	96		
+11232	718899	true	open	false			2017-02-08T04:54:12Z	2017-02-09T08:00:31Z		test: refactor test-fs-buffer	96		
 11233	718899	false	open	false	1		2017-02-08T06:13:01Z	2017-02-09T04:00:06Z		tracking issue: async loader for module interop	70		
 11234	54666	true	open	false			2017-02-08T08:23:50Z	2017-02-08T10:02:40Z		querystring: fix empty pairs handling	198		
 11235	54666	true	open	false	2		2017-02-08T08:32:30Z	2017-02-08T09:38:49Z		benchmark: fix timer display in progress output	52		
 11236	2352663	true	open	false			2017-02-08T10:11:48Z	2017-02-08T19:24:59Z		url: implement URL.prototype.toJSON	41		
 11237	4299420	true	open	false			2017-02-08T11:19:44Z	2017-02-08T17:47:58Z		doc: reorganize benchmarking guide/readme, update test/README.md	105		
 11238	988441	true	open	false	1		2017-02-08T14:49:27Z	2017-02-08T19:02:35Z		doc: clarify behavior of byteLength with 'base64'	23		
-11239	275871	true	open	false			2017-02-08T14:54:04Z	2017-02-08T20:22:13Z		test: remove dependency on node-weak	54		
+11239	275871	true	open	false			2017-02-08T14:54:04Z	2017-02-09T07:57:25Z		test: remove dependency on node-weak	54		
 11240	2512748	true	open	false	0	0	2017-02-08T15:18:34Z	2017-02-08T15:18:34Z		test: increase dgram ref()/unref() coverage	43		
 11241	2512748	true	open	false	1		2017-02-08T15:44:25Z	2017-02-09T02:44:39Z		test: add coverage to dgram receive error case	54		
 11242	10393198	true	open	false	6		2017-02-08T16:27:36Z	2017-02-08T23:47:39Z		dgram: fix possibly deoptimizing use of arguments	1068		
@@ -4522,5 +4522,6 @@
 11250	10393198	false	open	false	3		2017-02-08T22:04:32Z	2017-02-09T03:40:41Z		node/test/parallel/test-debugger-pid.js fails in localized Windows	171		
 11251	1716463	true	open	false	0		2017-02-09T02:47:30Z	2017-02-09T06:13:42Z		test: qs.escape with multibyte characters under 0x800	48		
 11252	2512748	true	open	false	0		2017-02-09T03:20:34Z	2017-02-09T05:10:15Z		test: refactor test-dgram-setBroadcast.js	78		
-11253	15142111	true	open	false	0	0	2017-02-09T04:55:15Z	2017-02-09T05:04:15Z		test: add error validation to assert.throws calls	59		
+11253	15142111	true	open	false	1		2017-02-09T04:55:15Z	2017-02-09T07:05:10Z		test: add error validation to assert.throws calls	59		
 11254	718899	true	open	false	1		2017-02-09T05:33:18Z	2017-02-09T06:41:58Z		assert: fix misformatted error message	33		
+11255	275871	true	open	false	0	0	2017-02-09T07:23:43Z	2017-02-09T07:23:43Z		src: fix recent --icu-data-dir= regression	36		
