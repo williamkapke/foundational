@@ -280,6 +280,7 @@
 5095	8822573	false	closed	false	7		2016-02-05T00:53:51Z	2017-01-12T00:32:43Z	2017-01-12T00:32:43Z	node: unix sockets are slow in case of lots of small buffers	445		
 5098	1898870	true	closed	false	14		2016-02-05T11:10:32Z	2016-07-25T11:17:50Z	2016-03-22T05:24:37Z	fs: make 'fs.exists' follow the error first callback convention	21		
 5099	66357	true	closed	false	27		2016-02-05T11:14:11Z	2016-06-30T18:53:59Z	2016-06-15T04:28:38Z	test: fix test-net-* error code check for getaddrinfo(3)	34		
+5102	291301	true	closed	false	103		2016-02-05T17:07:23Z	2017-02-09T12:58:48Z	2016-02-13T04:41:40Z	fs: add a temporary fix for re-evaluation support	45		
 5104	1523129	true	open	false	6		2016-02-05T18:53:20Z	2017-01-18T00:05:28Z		Update _http_server.js	9		
 5111	718899	false	closed	false	5		2016-02-06T00:11:40Z	2016-07-04T05:30:38Z	2016-07-04T05:30:38Z	Investigate flaky test-tls-session-cache	4		
 5156	349336	true	closed	false	18	2	2016-02-09T09:04:17Z	2017-01-17T19:26:57Z	2017-01-17T19:26:57Z	Doc: stream becomes paused after unpipe. 	12		
@@ -4524,7 +4525,9 @@
 11252	2512748	true	open	false	0		2017-02-09T03:20:34Z	2017-02-09T05:10:15Z		test: refactor test-dgram-setBroadcast.js	78		
 11253	15142111	true	open	false	1		2017-02-09T04:55:15Z	2017-02-09T07:05:10Z		test: add error validation to assert.throws calls	59		
 11254	718899	true	open	false	1		2017-02-09T05:33:18Z	2017-02-09T06:41:58Z		assert: fix misformatted error message	33		
-11255	275871	true	open	false			2017-02-09T07:23:43Z	2017-02-09T08:05:32Z		src: fix recent --icu-data-dir= regression	36		
+11255	275871	true	open	false			2017-02-09T07:23:43Z	2017-02-09T12:48:26Z		src: fix recent --icu-data-dir= regression	36		
 11256	9287	false	open	false	0		2017-02-09T08:13:28Z	2017-02-09T08:13:28Z		Multiple cookie headers need special-case concatenation using ; instead of ,	207		
 11257	60136	false	open	false	0		2017-02-09T08:23:07Z	2017-02-09T08:23:07Z		stderr redirection breaks require	108		
 11258	13089569	false	open	false	0		2017-02-09T09:19:59Z	2017-02-09T09:19:59Z		Multiline function arguments with trailing comma - SyntaxError: Unexpected token )	70		
+11259	54666	true	open	false	0	0	2017-02-09T12:05:01Z	2017-02-09T12:05:01Z		http: append Cookie header values with semicolon	70		
+11260	677994	true	open	false	0	0	2017-02-09T12:14:23Z	2017-02-09T12:14:23Z		internal: lazy load fs due to circular dependency	75		
