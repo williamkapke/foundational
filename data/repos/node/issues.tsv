@@ -4240,7 +4240,7 @@
 10967	1716463	true	closed	false	39		2017-01-23T21:01:40Z	2017-02-02T23:09:47Z	2017-02-02T21:15:39Z	querystring, url: repeated '&' in a paramsString will be skipped	64		
 10968	17607	true	open	false	1		2017-01-23T21:21:48Z	2017-01-25T20:48:17Z		v4 backport: doc: unify dirname and filename description	1		
 10969	17607	true	open	false	3		2017-01-23T22:03:01Z	2017-01-25T20:46:48Z		v4 backport: crypto: fix handling of root_cert_store.	34		
-10970	4421720	true	open	false	18		2017-01-23T23:26:43Z	2017-02-09T22:57:28Z		lib: deprecate node --debug at runtime	233		
+10970	4421720	true	open	false	19		2017-01-23T23:26:43Z	2017-02-09T23:15:08Z		lib: deprecate node --debug at runtime	233		
 10971	19787902	false	closed	false	5		2017-01-24T01:02:06Z	2017-01-24T02:08:12Z	2017-01-24T02:08:12Z	Error installing Node.js	27		
 10972	4542024	true	open	false	3		2017-01-24T04:28:57Z	2017-01-26T16:32:21Z		test: expand test coverage of fs.js	44		
 10973	498775	true	open	false	4		2017-01-24T08:27:04Z	2017-02-06T22:02:10Z		v4.8.0 proposal	1337		
@@ -4467,7 +4467,7 @@
 11194	1028226	true	open	false	1		2017-02-06T09:59:45Z	2017-02-06T15:08:58Z		doc: stdout, stderr and stdin are all Duplex streams	40		
 11195	17898715	false	closed	false	4		2017-02-06T10:16:17Z	2017-02-06T11:57:58Z	2017-02-06T11:57:58Z	I spawn through the creation of sub-thread How non-stdio: 'inherit' set tty to true	24		
 11196	1028226	true	open	false	0	0	2017-02-06T11:05:43Z	2017-02-06T11:05:43Z		child_process: increase default maxBuffer to 1024*1024	58		
-11197	275871	true	closed	false	1		2017-02-06T13:38:58Z	2017-02-09T18:45:26Z	2017-02-09T13:55:30Z	src: fix -Wunused-result compiler warning	50		
+11197	275871	true	closed	false	2		2017-02-06T13:38:58Z	2017-02-09T23:11:18Z	2017-02-09T13:55:30Z	src: fix -Wunused-result compiler warning	50		
 11198	12997967	false	open	false	6		2017-02-06T13:51:35Z	2017-02-08T10:06:31Z		Expose arbitrary constants like TIMEOUT_MAX	139		
 11199	432351	true	open	false	1		2017-02-06T15:07:04Z	2017-02-08T06:41:38Z		lib: introduce constant MAX_TICKS	45		
 11200	498775	false	open	false	11		2017-02-06T18:39:30Z	2017-02-09T07:01:25Z		"Changing Definition of ""Locked"" for Stability Index in API Docs"	205		
@@ -4500,11 +4500,11 @@
 11227	439929	true	open	false			2017-02-07T20:44:23Z	2017-02-09T21:43:16Z		benchmarks: add spread operator benchmark	72		
 11228	718899	true	open	false	0	0	2017-02-07T21:09:57Z	2017-02-07T21:09:57Z		doc: edit maxBuffer/Unicode paragraph for clarity	28		
 11229	11038992	true	open	false			2017-02-07T23:51:15Z	2017-02-08T01:02:40Z		src: fix throw error for 304 responses with 'trailer' header set	11		
-11230	10393198	true	open	false			2017-02-08T00:01:44Z	2017-02-08T00:06:01Z		doc: unify titles	74		
+11230	10393198	true	open	false	1		2017-02-08T00:01:44Z	2017-02-09T23:02:57Z		doc: unify titles	74		
 11231	718899	false	open	false	6		2017-02-08T00:57:22Z	2017-02-09T22:31:05Z		Update CONTRIBUTING.md to clarify single-test running 	107		
 11232	718899	true	open	false	0		2017-02-08T04:54:12Z	2017-02-09T16:59:38Z		test: refactor test-fs-buffer	96		
 11233	718899	false	open	false	1		2017-02-08T06:13:01Z	2017-02-09T04:00:06Z		tracking issue: async loader for module interop	70		
-11234	54666	true	open	false			2017-02-08T08:23:50Z	2017-02-08T10:02:40Z		querystring: fix empty pairs handling	198		
+11234	54666	true	open	false	0		2017-02-08T08:23:50Z	2017-02-09T23:24:22Z		querystring: fix empty pairs handling	198		
 11235	54666	true	open	false	2		2017-02-08T08:32:30Z	2017-02-08T09:38:49Z		benchmark: fix timer display in progress output	52		
 11236	2352663	true	open	false			2017-02-08T10:11:48Z	2017-02-08T19:24:59Z		url: implement URL.prototype.toJSON	41		
 11237	4299420	true	open	false			2017-02-08T11:19:44Z	2017-02-08T17:47:58Z		doc: reorganize benchmarking guide/readme, update test/README.md	105		
@@ -4539,8 +4539,10 @@
 11266	101553	true	open	false			2017-02-09T17:56:12Z	2017-02-09T22:54:28Z		src: fix delete in vm module	121		
 11267	37303	true	open	false	0	0	2017-02-09T18:44:10Z	2017-02-09T18:44:10Z		remove myself from CTC	34		
 11268	439929	true	open	false	0	0	2017-02-09T18:48:30Z	2017-02-09T18:48:30Z		process: backport process.emitWarning() API	114		
-11269	718899	true	open	false			2017-02-09T18:50:35Z	2017-02-09T22:56:32Z		build: fail on CI if leftover processes	44		
+11269	718899	true	open	false			2017-02-09T18:50:35Z	2017-02-09T23:01:00Z		build: fail on CI if leftover processes	44		
 11270	10393198	true	open	false	0	0	2017-02-09T19:51:18Z	2017-02-09T19:51:18Z		test: adapt test-debugger-pid to localized Windows	28		
 11271	2512748	true	open	false	0	0	2017-02-09T19:53:43Z	2017-02-09T19:53:43Z		test: refactor test-dgram-address.js	58		
 11273	439929	false	open	false	0		2017-02-09T21:58:17Z	2017-02-09T21:58:17Z		Tracking Issue: Migrate errors to internal/errors.js	412		
 11274	718899	true	open	false	0	0	2017-02-09T22:28:16Z	2017-02-09T22:28:16Z		test: refactor test-http-response-statuscode	57		
+11275	4421720	true	open	false	0	0	2017-02-09T23:15:46Z	2017-02-09T23:15:46Z		(backport 7.x) lib: deprecate node --debug at runtime	50		
+11276	22751352	false	open	false	0		2017-02-09T23:51:32Z	2017-02-09T23:51:32Z		Cannot kill dedupe	26		
