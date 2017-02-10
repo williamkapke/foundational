@@ -2653,7 +2653,7 @@
 9374	718899	true	closed	false	9		2016-10-31T04:36:24Z	2016-11-22T19:38:39Z	2016-11-03T20:27:38Z	repl: refactor lib/repl.js	52		
 9375	696611	true	closed	false	6		2016-10-31T12:13:16Z	2016-12-20T23:52:49Z	2016-11-05T09:38:27Z	build: start comments at beginning of line	70		
 9376	495647	true	open	false	2		2016-10-31T13:03:05Z	2017-02-01T20:09:12Z		crypto: initial LibreSSL support (WIP)	730		
-9377	7402787	false	closed	false	62		2016-10-31T13:32:55Z	2017-02-07T09:56:54Z	2016-11-06T10:38:10Z	Error: Cannot find module 'internal/fs' when npm install on mac	102		
+9377	7402787	false	closed	false	63		2016-10-31T13:32:55Z	2017-02-10T01:44:39Z	2016-11-06T10:38:10Z	Error: Cannot find module 'internal/fs' when npm install on mac	102		
 9378	3973850	false	open	false	24		2016-10-31T13:37:45Z	2016-11-21T05:28:37Z		readdirSync of drive letter lists items of cwd	107		
 9379	1573141	true	closed	false	3		2016-10-31T14:10:42Z	2016-11-01T19:09:16Z	2016-11-01T19:09:16Z	doc: fs: fix link to mkdtemp	39		
 9380	900690	false	open	false	5		2016-10-31T15:27:32Z	2016-11-01T01:19:50Z		fs.writeFile() removes execute permissions from file	135		
@@ -4400,7 +4400,7 @@
 11127	718899	true	closed	false	4	8	2017-02-02T22:21:50Z	2017-02-06T05:18:09Z	2017-02-06T05:18:09Z	doc: add common.WPT to test README	22		
 11128	4299420	true	open	false	8		2017-02-02T22:39:03Z	2017-02-09T17:09:04Z		assert: fix _deepEqual and improve assert.md	252		
 11129	275871	true	open	false	10		2017-02-02T22:39:09Z	2017-02-06T20:31:47Z		src: support UTF-8 in compiled-in JS source files	38		
-11130	439929	true	open	false			2017-02-02T23:38:03Z	2017-02-03T01:08:29Z		util: add inspectTag template literal tag	110		
+11130	439929	true	closed	false	4	9	2017-02-02T23:38:03Z	2017-02-10T01:35:09Z	2017-02-10T01:35:09Z	util: add inspectTag template literal tag	110		
 11131	4988795	true	open	false	0	0	2017-02-03T03:14:36Z	2017-02-03T03:14:36Z		test: improve readline coverage to check end and clear keys	50		
 11132	122831	false	closed	false	15		2017-02-03T03:22:27Z	2017-02-07T07:32:32Z	2017-02-06T16:13:29Z	fs.readFileSync returns corrupt ArrayBuffer (fs.readFile works as expected)	109		
 11133	5234060	true	closed	false	0	0	2017-02-03T04:45:34Z	2017-02-03T05:42:58Z	2017-02-03T05:42:58Z	doc for net.Server's error event. (issues 9710)	24		
@@ -4479,7 +4479,7 @@
 11206	10393198	true	open	false	0	0	2017-02-06T22:14:25Z	2017-02-06T22:14:25Z		doc: synchronize + update _toc.md and all.md	34		
 11207	4421720	true	open	false	2		2017-02-06T22:35:56Z	2017-02-09T16:49:03Z		[WIP] inspector: hint text update	161		
 11208	170197	false	closed	false	2		2017-02-07T00:43:46Z	2017-02-07T02:23:22Z	2017-02-07T02:23:22Z	URLSearchParams regression	43		
-11209	15943089	false	open	false	4		2017-02-07T07:35:07Z	2017-02-08T05:19:03Z		Linter rule: use ASCII quotes not Unicode ones	71		
+11209	15943089	false	open	false	5		2017-02-07T07:35:07Z	2017-02-10T01:07:46Z		Linter rule: use ASCII quotes not Unicode ones	71		
 11210	2352663	true	open	false			2017-02-07T09:50:53Z	2017-02-07T15:07:26Z		util: improve inspect for (Async|Generator)Function	32		
 11211	2352663	true	open	false	2		2017-02-07T12:48:41Z	2017-02-08T21:04:39Z		v7.x: util: improve inspect for AsyncFunction	32		
 11212	4920092	false	closed	false	2		2017-02-07T14:11:27Z	2017-02-09T13:17:20Z	2017-02-07T17:50:35Z	Put And Post Method not working in node	49		
@@ -4497,7 +4497,7 @@
 11224	52195	false	open	false	0		2017-02-07T18:37:33Z	2017-02-07T18:37:33Z		Document fs.createReadStream and fs.createWriteStream close and destroy methods	30		
 11225	52195	true	open	false	6		2017-02-07T18:45:13Z	2017-02-08T15:38:10Z		fs: avoid emitting error EBADF for double closeo	69		
 11226	7135896	true	open	false	6		2017-02-07T20:28:24Z	2017-02-08T15:33:27Z		lib: make NativeModule._cache private	63		
-11227	439929	true	open	false			2017-02-07T20:44:23Z	2017-02-09T21:43:16Z		benchmarks: add spread operator benchmark	72		
+11227	439929	true	open	false			2017-02-07T20:44:23Z	2017-02-10T01:13:20Z		benchmarks: add spread operator benchmark	72		
 11228	718899	true	open	false	0	0	2017-02-07T21:09:57Z	2017-02-07T21:09:57Z		doc: edit maxBuffer/Unicode paragraph for clarity	28		
 11229	11038992	true	open	false			2017-02-07T23:51:15Z	2017-02-08T01:02:40Z		src: fix throw error for 304 responses with 'trailer' header set	11		
 11230	10393198	true	open	false	1		2017-02-08T00:01:44Z	2017-02-09T23:02:57Z		doc: unify titles	74		
@@ -4529,7 +4529,7 @@
 11256	9287	false	open	false	0		2017-02-09T08:13:28Z	2017-02-09T08:13:28Z		Multiple cookie headers need special-case concatenation using ; instead of ,	207		
 11257	60136	false	open	false	0		2017-02-09T08:23:07Z	2017-02-09T08:23:07Z		stderr redirection breaks require	108		
 11258	13089569	false	open	false	0		2017-02-09T09:19:59Z	2017-02-09T09:19:59Z		Multiline function arguments with trailing comma - SyntaxError: Unexpected token )	70		
-11259	54666	true	open	false	2		2017-02-09T12:05:01Z	2017-02-09T18:14:35Z		http: append Cookie header values with semicolon	89		
+11259	54666	true	open	false	3		2017-02-09T12:05:01Z	2017-02-10T01:19:54Z		http: append Cookie header values with semicolon	89		
 11260	677994	true	open	false			2017-02-09T12:14:23Z	2017-02-09T15:10:51Z		internal: lazy load fs due to circular dependency	65		
 11261	54666	false	open	false	0		2017-02-09T13:02:55Z	2017-02-09T13:02:55Z		Investigate flaky test-vm-timeout-rethrow on Windows	44		
 11262	4920092	false	open	false	0		2017-02-09T13:22:30Z	2017-02-09T13:22:30Z		Post method not working	6		
