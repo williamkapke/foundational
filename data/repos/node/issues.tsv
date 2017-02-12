@@ -79,7 +79,7 @@
 2315	677994	true	closed	false	27		2015-08-06T20:20:44Z	2017-01-24T15:39:59Z	2015-08-21T12:51:10Z	assert: add support for Set and Map	87		
 2329	137545	true	open	false	15		2015-08-08T13:37:47Z	2016-08-07T12:44:00Z		[addons] Implement new init function argument dispatch	565		
 2333	115237	false	open	false	20		2015-08-09T06:04:13Z	2016-07-12T19:05:28Z		tty: stdio properties are undefined inside exec() child	45		
-2339	115237	false	open	false	16		2015-08-09T20:15:44Z	2017-02-12T16:06:33Z		tty: process.stdin.isPipe	115		
+2339	115237	false	open	false	19		2015-08-09T20:15:44Z	2017-02-12T17:09:56Z		tty: process.stdin.isPipe	115		
 2363	220205	false	open	false	11		2015-08-12T16:32:09Z	2017-02-08T23:37:27Z		Optionally log master secrets for TLS connections	106		
 2371	855219	false	closed	false	10		2015-08-13T21:17:09Z	2017-02-08T15:05:59Z	2017-02-07T20:12:49Z	Non-BMP variable names don't work from the REPL	17		
 2395	439929	true	closed	false	11	0	2015-08-16T00:23:48Z	2016-08-02T04:18:14Z	2016-08-02T04:18:14Z	http: correct fencepost error when freeing socket	60		
@@ -3020,7 +3020,7 @@
 9741	3967972	true	closed	false	5	8	2016-11-22T14:27:06Z	2016-11-30T09:07:11Z	2016-11-30T09:07:11Z	test: add toASCII and toUnicode punycode tests	60		
 9742	275871	true	open	false	1		2016-11-22T16:16:58Z	2016-12-13T19:23:29Z		tls: TLSSocket emits 'error' on handshake failure	27		
 9743	8314616	false	closed	false	1		2016-11-22T16:40:23Z	2016-12-05T14:06:33Z	2016-12-05T14:06:33Z	Node REPL preprocessing input string for custom eval functions	73		
-9744	899444	true	open	false	14		2016-11-22T17:54:54Z	2017-02-12T16:29:56Z		console: do not emit error events	72		
+9744	899444	true	open	false			2016-11-22T17:54:54Z	2017-02-12T17:28:06Z		console: do not emit error events	72		
 9745	1093990	true	closed	false	4		2016-11-22T18:09:47Z	2016-12-03T20:16:14Z	2016-11-22T23:39:26Z	v7.2.0 proposal	119		
 9746	9373002	true	open	false	2		2016-11-22T18:55:18Z	2016-11-22T19:01:22Z		test: exclude tests failing on AIX for v4.x	109		
 9747	718899	true	closed	false	1		2016-11-22T19:35:24Z	2016-12-08T23:13:43Z	2016-12-08T23:13:43Z	v6 backport: repl: refactor lib/repl.js	48		
@@ -3743,7 +3743,7 @@
 10470	2352663	true	closed	false	2	0	2016-12-27T12:49:43Z	2016-12-27T20:06:49Z	2016-12-27T20:06:49Z	v4.x: backport test: refactor and fix test-dns	6		
 10471	2352663	true	closed	false	1		2016-12-27T13:16:55Z	2016-12-27T20:05:48Z	2016-12-27T20:05:48Z	v4.x: backport test: refactor test-crypto-binary-default	6		
 10472	16020076	true	closed	false	4	3	2016-12-27T17:09:32Z	2016-12-28T20:42:36Z	2016-12-28T20:42:36Z	os.js nodejs core library changes	77		
-10473	924465	true	open	false	33		2016-12-27T17:51:50Z	2017-02-11T01:07:42Z		"dgram: improve ""address"" parameter behavior in Socket.prototype.send"	293		
+10473	924465	true	open	false	34		2016-12-27T17:51:50Z	2017-02-12T17:22:53Z		"dgram: improve ""address"" parameter behavior in Socket.prototype.send"	293		
 10474	592149	true	open	false			2016-12-27T19:39:26Z	2017-01-10T01:09:29Z		fix: setting timeout propagates to sockets	48		
 10475	470626	false	closed	false	1		2016-12-27T21:06:45Z	2016-12-28T09:01:23Z	2016-12-28T09:01:23Z	Compile error: InspectorProtocol.cpp:23:5: error: 'snprintf' is not a member of 'std'	106		
 10476	3743662	false	open	false	0		2016-12-27T21:07:39Z	2016-12-27T21:07:39Z		Arguments object scope not maintained within inner functions when using function shorthand ()	77		
@@ -4431,7 +4431,7 @@
 11158	2006839	true	closed	false	3		2017-02-04T03:52:23Z	2017-02-05T19:05:26Z	2017-02-04T05:55:08Z	doc: Fix Math Error	21		
 11159	718899	true	open	false	2		2017-02-04T05:13:13Z	2017-02-05T09:43:20Z		tools: enable no-else-return ESLint rule	55		
 11160	18730857	false	open	false	0		2017-02-04T06:15:04Z	2017-02-04T06:15:04Z		problem installing ionic	13		
-11161	1538624	true	open	false			2017-02-04T06:37:35Z	2017-02-12T11:46:39Z		url: fix surrogate handling in encodeAuth()	144		
+11161	1538624	true	open	false			2017-02-04T06:37:35Z	2017-02-12T17:34:23Z		url: fix surrogate handling in encodeAuth()	144		
 11162	5886475	true	closed	false	7	5	2017-02-04T09:34:30Z	2017-02-11T22:01:20Z	2017-02-11T22:01:20Z	url: fix error message of url.format	94		
 11163	899444	true	open	false	0	0	2017-02-04T10:10:52Z	2017-02-04T10:10:52Z		doc: typographical fixes in COLLABORATOR_GUIDE.md	25		
 11164	7567088	false	open	false	0		2017-02-04T11:59:57Z	2017-02-04T12:42:22Z		Debugger.getPossibleBreakpoints' wasn't found	90		
@@ -4567,19 +4567,19 @@
 11294	439929	true	open	false			2017-02-10T16:57:04Z	2017-02-11T11:10:27Z		errors, process: port internal/process errors to internal/errors	88		
 11295	2512748	true	open	false	0	0	2017-02-10T17:00:53Z	2017-02-10T17:00:53Z		test: cover cluster error during dgram socket bind	66		
 11296	22550884	true	open	false	3		2017-02-10T17:28:26Z	2017-02-10T18:35:21Z		lib/src: refactoring out of range index	57		
-11297	22550884	true	open	false	0	0	2017-02-10T17:38:46Z	2017-02-10T17:38:46Z		test: consolidating buffer.read()	16		
-11298	439929	true	open	false	5		2017-02-10T18:26:16Z	2017-02-12T06:38:54Z		errors: assign error code to bootstrap_node created error	72		
+11297	22550884	true	open	false			2017-02-10T17:38:46Z	2017-02-12T17:26:13Z		test: consolidating buffer.read()	16		
+11298	439929	true	open	false			2017-02-10T18:26:16Z	2017-02-12T17:47:01Z		errors: assign error code to bootstrap_node created error	72		
 11299	4299420	false	open	false	0		2017-02-10T19:10:24Z	2017-02-10T20:16:05Z		New error system in WHATWG URL implementation	59		
 11300	439929	true	open	false	0	0	2017-02-10T20:10:25Z	2017-02-10T20:10:25Z		errors, child_process: migrate to using internal/errors	48		
-11301	1028226	true	open	false			2017-02-10T20:26:27Z	2017-02-12T06:45:54Z		internal/util: use internal/errors.js	57		
-11302	1028226	true	open	false			2017-02-10T21:19:34Z	2017-02-12T06:30:02Z		errors,net: change internal/net.js to use internal/errors.js	57		
+11301	1028226	true	open	false			2017-02-10T20:26:27Z	2017-02-12T17:45:01Z		internal/util: use internal/errors.js	57		
+11302	1028226	true	open	false			2017-02-10T21:19:34Z	2017-02-12T17:43:07Z		errors,net: change internal/net.js to use internal/errors.js	57		
 11303	718899	true	open	false	1		2017-02-10T21:57:07Z	2017-02-11T00:18:41Z		test: refactor test-repl-sigint-nested-eval	44		
 11304	718899	true	open	false	1		2017-02-10T22:14:21Z	2017-02-12T15:36:46Z		assert: unlock the assert API	34		
-11305	439929	true	open	false	1		2017-02-10T22:52:06Z	2017-02-11T22:16:41Z		crypto: upgrade pbkdf2 without digest to an error	92		
-11306	4976075	true	open	false	0	0	2017-02-10T23:39:40Z	2017-02-10T23:39:40Z		deps: backport 2bd7464 from upstream V8	153		
+11305	439929	true	open	false			2017-02-10T22:52:06Z	2017-02-12T17:21:07Z		crypto: upgrade pbkdf2 without digest to an error	92		
+11306	4976075	true	open	false	0		2017-02-10T23:39:40Z	2017-02-12T17:18:01Z		deps: backport 2bd7464 from upstream V8	153		
 11307	914178	false	open	false	5		2017-02-11T01:09:42Z	2017-02-12T10:09:30Z		100% CPU + Sockets idling in CLOSE_WAIT state	331		
-11308	11801881	true	open	false	0	0	2017-02-11T02:05:15Z	2017-02-11T02:05:15Z		errors, console: migrate to use internal/errors.js	49		
-11309	718899	true	open	false	0	0	2017-02-11T07:27:51Z	2017-02-11T07:27:51Z		test: refactor test-repl-sigint	44		
+11308	11801881	true	open	false			2017-02-11T02:05:15Z	2017-02-12T17:16:59Z		errors, console: migrate to use internal/errors.js	49		
+11309	718899	true	open	false			2017-02-11T07:27:51Z	2017-02-12T17:15:12Z		test: refactor test-repl-sigint	44		
 11310	696611	true	closed	false	2		2017-02-11T08:15:44Z	2017-02-11T14:47:52Z	2017-02-11T14:47:52Z	update licenses and remove v8_inspector deps license	45		
 11311	275871	true	open	false	0	0	2017-02-11T13:41:43Z	2017-02-11T13:41:44Z		build: don't rebuild test/gc add-on unnecessarily	32		
 11312	5886475	true	open	false	0	0	2017-02-11T13:48:25Z	2017-02-11T13:48:25Z		backport: v7.x - #11122 - test: increase coverage of buffer	37		
@@ -4587,12 +4587,12 @@
 11314	718899	true	open	false	2		2017-02-11T15:58:57Z	2017-02-12T08:14:34Z		assert: remove unneeded condition	41		
 11315	8738437	false	closed	false	7		2017-02-11T19:57:57Z	2017-02-12T10:07:19Z	2017-02-12T10:07:19Z	thread closes without error when module.export function is undefined	72		
 11316	1853456	false	open	false	0		2017-02-11T23:54:52Z	2017-02-11T23:54:52Z		Critical issue: no apparent way to use pure binary TCP sockets in Node 6.9.5	187		
-11317	7684574	true	open	false	0	0	2017-02-12T01:28:40Z	2017-02-12T01:28:40Z		errors: port internal/fs errors to internal/errors	71		
+11317	7684574	true	open	false			2017-02-12T01:28:40Z	2017-02-12T17:11:57Z		errors: port internal/fs errors to internal/errors	71		
 11318	5035902	true	open	false	0	0	2017-02-12T03:53:33Z	2017-02-12T03:53:33Z		doc: update email and add personal pronoun	23		
-11319	1028226	true	open	false	0	0	2017-02-12T08:11:17Z	2017-02-12T08:11:17Z		errors, path: migrate to use internal/errors.js	48		
+11319	1028226	true	open	false			2017-02-12T08:11:17Z	2017-02-12T17:10:14Z		errors, path: migrate to use internal/errors.js	48		
 11320	694779	false	open	false	0		2017-02-12T09:01:23Z	2017-02-12T09:01:23Z		net.connect fails looking up localhost when offline (node-v0.x-archive/issues/25489 duplicate)	160		
-11321	15943089	true	open	false	0	0	2017-02-12T09:36:46Z	2017-02-12T09:36:46Z		doc: add STYLE_GUIDE (moved from nodejs/docs)	112		
+11321	15943089	true	open	false	0		2017-02-12T09:36:46Z	2017-02-12T17:01:06Z		doc: add STYLE_GUIDE (moved from nodejs/docs)	112		
 11322	275871	true	open	false	0	0	2017-02-12T10:34:55Z	2017-02-12T10:34:55Z		src: remove unused typedef	14		
-11323	217065	true	open	false	0	0	2017-02-12T13:19:27Z	2017-02-12T13:19:27Z		remove duplicated word	13		
+11323	217065	true	open	false	0		2017-02-12T13:19:27Z	2017-02-12T17:40:13Z		remove duplicated word in comment	13		
 11324	988441	true	open	false	0	0	2017-02-12T15:21:15Z	2017-02-12T15:21:15Z		buffer: remove Uit8Array check	42		
 11325	291301	false	open	false	0		2017-02-12T16:10:59Z	2017-02-12T16:10:59Z		meta: `ctc-agenda` label is misused according to the Project Governance	283		
