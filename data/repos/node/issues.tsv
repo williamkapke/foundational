@@ -79,7 +79,7 @@
 2315	677994	true	closed	false	27		2015-08-06T20:20:44Z	2017-01-24T15:39:59Z	2015-08-21T12:51:10Z	assert: add support for Set and Map	87		
 2329	137545	true	open	false	15		2015-08-08T13:37:47Z	2016-08-07T12:44:00Z		[addons] Implement new init function argument dispatch	565		
 2333	115237	false	open	false	20		2015-08-09T06:04:13Z	2016-07-12T19:05:28Z		tty: stdio properties are undefined inside exec() child	45		
-2339	115237	false	open	false	19		2015-08-09T20:15:44Z	2017-02-12T17:09:56Z		tty: process.stdin.isPipe	115		
+2339	115237	false	open	false	23		2015-08-09T20:15:44Z	2017-02-12T18:02:25Z		child_process: async spawn methods not closing stdin	115		
 2363	220205	false	open	false	11		2015-08-12T16:32:09Z	2017-02-08T23:37:27Z		Optionally log master secrets for TLS connections	106		
 2371	855219	false	closed	false	10		2015-08-13T21:17:09Z	2017-02-08T15:05:59Z	2017-02-07T20:12:49Z	Non-BMP variable names don't work from the REPL	17		
 2395	439929	true	closed	false	11	0	2015-08-16T00:23:48Z	2016-08-02T04:18:14Z	2016-08-02T04:18:14Z	http: correct fencepost error when freeing socket	60		
@@ -3693,7 +3693,7 @@
 10420	4923947	true	open	false	3		2016-12-23T03:38:58Z	2016-12-24T02:10:01Z		test fix: Use assert.strictEqual instead of assert.equal and assert.ok	46		
 10421	696611	true	open	false	0	0	2016-12-23T05:34:55Z	2016-12-23T05:34:55Z		test: fix linter error in whatwg-url-parsing	44		
 10422	14938690	false	open	false	4		2016-12-23T07:45:36Z	2016-12-23T11:49:57Z		Error: read ECONNRESET - HTTP post request from Meteor to Node js server	322		
-10423	696611	true	open	false			2016-12-23T10:20:24Z	2017-02-11T16:50:34Z		child_process: improve killSignal validations	116		
+10423	696611	true	open	false			2016-12-23T10:20:24Z	2017-02-12T19:00:15Z		child_process: improve killSignal validations	116		
 10424	696611	true	closed	false	7	0	2016-12-23T10:56:06Z	2017-01-06T17:59:50Z	2017-01-06T17:59:50Z	doc: killSignal option accepts integer values	37		
 10425	4723	false	open	false	1		2016-12-23T17:24:03Z	2016-12-23T19:29:20Z		Command-line arguments trimmed when passed to a script specified with -e option	94		
 10426	22550884	true	closed	false	2	4	2016-12-23T18:02:34Z	2016-12-28T17:50:13Z	2016-12-28T17:50:13Z	test: basic functionality of readUInt16LE()	22		
@@ -4408,7 +4408,7 @@
 11135	2546485	false	open	false	0		2017-02-03T05:50:19Z	2017-02-03T06:22:45Z		[Documention][want_to_contribute] docs have very less information provided per API	115		
 11136	5234060	true	open	false	4		2017-02-03T05:51:42Z	2017-02-12T09:42:29Z		doc: add comment for net.Server's error event	23		
 11137	1453603	true	open	false	0		2017-02-03T05:57:32Z	2017-02-03T06:11:21Z		test: improve events coverage to check removeListeners, removeAllListeners functions	73		
-11138	439929	true	open	false			2017-02-03T06:04:15Z	2017-02-12T06:23:54Z		crypto: refactor crypto module	67		
+11138	439929	true	open	false			2017-02-03T06:04:15Z	2017-02-12T18:36:22Z		crypto: refactor crypto module	67		
 11139	4964823	true	open	false	1		2017-02-03T06:52:39Z	2017-02-03T16:57:06Z		stream: minor fix for ReadableState	44		
 11140	1453603	true	closed	false	1		2017-02-03T07:10:21Z	2017-02-03T22:47:56Z	2017-02-03T22:47:56Z	test: improve events coverage to check removeListeners functions	73		
 11141	432351	true	closed	false	20		2017-02-03T07:23:44Z	2017-02-05T05:49:12Z	2017-02-04T10:53:57Z	doc: add info about using nvm	48		
@@ -4542,7 +4542,7 @@
 11269	718899	true	open	false	3		2017-02-09T18:50:35Z	2017-02-10T23:06:49Z		build: fail on CI if leftover processes	44		
 11270	10393198	true	closed	false	1		2017-02-09T19:51:18Z	2017-02-11T16:59:10Z	2017-02-11T16:59:10Z	test: adapt test-debugger-pid to localized Windows	28		
 11271	2512748	true	open	false	0		2017-02-09T19:53:43Z	2017-02-10T17:12:11Z		test: refactor test-dgram-address.js	58		
-11272	17607	true	open	false	2		2017-02-09T21:10:36Z	2017-02-10T16:42:01Z		src: use .data() instead of .c_str()	61		
+11272	17607	true	open	false	4		2017-02-09T21:10:36Z	2017-02-12T18:21:42Z		src: use .data() instead of .c_str()	61		
 11273	439929	false	open	false	7		2017-02-09T21:58:17Z	2017-02-11T13:52:37Z		Tracking Issue: Migrate errors to internal/errors.js	451		
 11274	718899	true	open	false	0		2017-02-09T22:28:16Z	2017-02-10T23:08:35Z		test: refactor test-http-response-statuscode	57		
 11275	4421720	true	open	false	7		2017-02-09T23:15:46Z	2017-02-11T19:50:17Z		(backport 7.x) lib: deprecate node --debug at runtime	50		
@@ -4555,11 +4555,11 @@
 11282	16459829	false	closed	false	0		2017-02-10T06:07:58Z	2017-02-10T11:21:19Z	2017-02-10T11:21:19Z	file open event for fs.watch	26		
 11283	647210	false	open	false	13		2017-02-10T09:20:41Z	2017-02-12T08:58:00Z		"no support for ""connected"" UDP sockets"	104		
 11284	1031876	false	open	false	0		2017-02-10T11:38:43Z	2017-02-10T15:04:06Z		child_process.spawnSync returns status=0 when signal=SIGKILL	70		
-11285	7732206	false	open	false	0		2017-02-10T13:27:28Z	2017-02-10T13:27:28Z		Can you please provide all the error codes with its desription which we get in require('child_process').exec function?	278		
+11285	7732206	false	closed	false	2		2017-02-10T13:27:28Z	2017-02-12T18:32:36Z	2017-02-12T18:32:36Z	Can you please provide all the error codes with its desription which we get in require('child_process').exec function?	278		
 11286	988441	true	open	false	7		2017-02-10T13:33:03Z	2017-02-12T10:35:55Z		doc: clarify out-of-bounds behavior of buf[index]	23		
 11287	988441	true	closed	false	0	2	2017-02-10T14:24:37Z	2017-02-10T20:21:36Z	2017-02-10T20:21:36Z	benchmark: fix typos	21	988441	2017-02-10T20:21:36Z
 11288	2512748	true	open	false			2017-02-10T15:03:41Z	2017-02-10T16:17:30Z		child_process: exit spawnSync with null on signal	59		
-11289	600821	false	open	false	1		2017-02-10T15:05:38Z	2017-02-10T16:46:19Z		Memory leak when calling fs.write() in long synchronous loop	380		
+11289	600821	false	open	false	2		2017-02-10T15:05:38Z	2017-02-12T18:20:44Z		Memory leak when calling fs.write() in long synchronous loop	383		
 11290	5886475	true	open	false	4		2017-02-10T15:26:03Z	2017-02-11T21:45:42Z		test: increase coverage of timers	32		
 11291	2512748	true	open	false	0	0	2017-02-10T15:34:39Z	2017-02-10T15:34:39Z		test: add coverage for dgram _createSocketHandle()	48		
 11292	2512748	true	open	false	0	0	2017-02-10T16:45:16Z	2017-02-10T16:45:16Z		test: cover dgram socket close during cluster bind	72		
@@ -4572,7 +4572,7 @@
 11299	4299420	false	open	false	0		2017-02-10T19:10:24Z	2017-02-10T20:16:05Z		New error system in WHATWG URL implementation	59		
 11300	439929	true	open	false	0	0	2017-02-10T20:10:25Z	2017-02-10T20:10:25Z		errors, child_process: migrate to using internal/errors	48		
 11301	1028226	true	open	false			2017-02-10T20:26:27Z	2017-02-12T17:45:01Z		internal/util: use internal/errors.js	57		
-11302	1028226	true	open	false			2017-02-10T21:19:34Z	2017-02-12T17:43:07Z		errors,net: change internal/net.js to use internal/errors.js	57		
+11302	1028226	true	open	false			2017-02-10T21:19:34Z	2017-02-12T18:32:59Z		errors,net: change internal/net.js to use internal/errors.js	57		
 11303	718899	true	open	false	1		2017-02-10T21:57:07Z	2017-02-11T00:18:41Z		test: refactor test-repl-sigint-nested-eval	44		
 11304	718899	true	open	false	1		2017-02-10T22:14:21Z	2017-02-12T15:36:46Z		assert: unlock the assert API	34		
 11305	439929	true	open	false			2017-02-10T22:52:06Z	2017-02-12T17:21:07Z		crypto: upgrade pbkdf2 without digest to an error	92		
@@ -4594,5 +4594,5 @@
 11321	15943089	true	open	false	0		2017-02-12T09:36:46Z	2017-02-12T17:01:06Z		doc: add STYLE_GUIDE (moved from nodejs/docs)	112		
 11322	275871	true	open	false	0	0	2017-02-12T10:34:55Z	2017-02-12T10:34:55Z		src: remove unused typedef	14		
 11323	217065	true	open	false	0		2017-02-12T13:19:27Z	2017-02-12T17:40:13Z		remove duplicated word in comment	13		
-11324	988441	true	open	false	0	0	2017-02-12T15:21:15Z	2017-02-12T15:21:15Z		buffer: remove Uit8Array check	42		
+11324	988441	true	open	false			2017-02-12T15:21:15Z	2017-02-12T18:38:55Z		buffer: remove Uint8Array check	44		
 11325	291301	false	open	false	0		2017-02-12T16:10:59Z	2017-02-12T16:10:59Z		meta: `ctc-agenda` label is misused according to the Project Governance	283		
