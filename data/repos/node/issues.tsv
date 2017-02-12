@@ -79,7 +79,7 @@
 2315	677994	true	closed	false	27		2015-08-06T20:20:44Z	2017-01-24T15:39:59Z	2015-08-21T12:51:10Z	assert: add support for Set and Map	87		
 2329	137545	true	open	false	15		2015-08-08T13:37:47Z	2016-08-07T12:44:00Z		[addons] Implement new init function argument dispatch	565		
 2333	115237	false	open	false	20		2015-08-09T06:04:13Z	2016-07-12T19:05:28Z		tty: stdio properties are undefined inside exec() child	45		
-2339	115237	false	open	false	10		2015-08-09T20:15:44Z	2017-02-11T19:51:58Z		tty: process.stdin.isPipe	115		
+2339	115237	false	open	false	11		2015-08-09T20:15:44Z	2017-02-12T10:25:24Z		tty: process.stdin.isPipe	115		
 2363	220205	false	open	false	11		2015-08-12T16:32:09Z	2017-02-08T23:37:27Z		Optionally log master secrets for TLS connections	106		
 2371	855219	false	closed	false	10		2015-08-13T21:17:09Z	2017-02-08T15:05:59Z	2017-02-07T20:12:49Z	Non-BMP variable names don't work from the REPL	17		
 2395	439929	true	closed	false	11	0	2015-08-16T00:23:48Z	2016-08-02T04:18:14Z	2016-08-02T04:18:14Z	http: correct fencepost error when freeing socket	60		
@@ -4399,12 +4399,12 @@
 11126	718899	true	open	false	0	0	2017-02-02T22:05:37Z	2017-02-02T22:05:37Z		test: simplify WPT.assert_throws()	26		
 11127	718899	true	closed	false	4	8	2017-02-02T22:21:50Z	2017-02-06T05:18:09Z	2017-02-06T05:18:09Z	doc: add common.WPT to test README	22		
 11128	4299420	true	open	false	8		2017-02-02T22:39:03Z	2017-02-09T17:09:04Z		assert: fix _deepEqual and improve assert.md	252		
-11129	275871	true	open	false	10		2017-02-02T22:39:09Z	2017-02-11T21:01:08Z		src: support UTF-8 in compiled-in JS source files	38		
+11129	275871	true	open	false	11		2017-02-02T22:39:09Z	2017-02-12T10:15:07Z		src: support UTF-8 in compiled-in JS source files	38		
 11130	439929	true	closed	false	4	9	2017-02-02T23:38:03Z	2017-02-10T01:35:09Z	2017-02-10T01:35:09Z	util: add inspectTag template literal tag	110		
 11131	4988795	true	open	false	0	0	2017-02-03T03:14:36Z	2017-02-03T03:14:36Z		test: improve readline coverage to check end and clear keys	50		
 11132	122831	false	closed	false	15		2017-02-03T03:22:27Z	2017-02-07T07:32:32Z	2017-02-06T16:13:29Z	fs.readFileSync returns corrupt ArrayBuffer (fs.readFile works as expected)	109		
 11133	5234060	true	closed	false	0	0	2017-02-03T04:45:34Z	2017-02-03T05:42:58Z	2017-02-03T05:42:58Z	doc for net.Server's error event. (issues 9710)	24		
-11134	5234060	true	open	false			2017-02-03T05:26:16Z	2017-02-12T09:52:50Z		doc: add comment for net.Server.listen IPv6 '::'	23		
+11134	5234060	true	open	false	3		2017-02-03T05:26:16Z	2017-02-12T10:13:34Z		doc: add comment for net.Server.listen IPv6 '::'	23		
 11135	2546485	false	open	false	0		2017-02-03T05:50:19Z	2017-02-03T06:22:45Z		[Documention][want_to_contribute] docs have very less information provided per API	115		
 11136	5234060	true	open	false	4		2017-02-03T05:51:42Z	2017-02-12T09:42:29Z		doc: add comment for net.Server's error event	23		
 11137	1453603	true	open	false	0		2017-02-03T05:57:32Z	2017-02-03T06:11:21Z		test: improve events coverage to check removeListeners, removeAllListeners functions	73		
@@ -4507,7 +4507,7 @@
 11234	54666	true	open	false			2017-02-08T08:23:50Z	2017-02-10T11:03:44Z		querystring: fix empty pairs handling	198		
 11235	54666	true	open	false	2		2017-02-08T08:32:30Z	2017-02-08T09:38:49Z		benchmark: fix timer display in progress output	52		
 11236	2352663	true	open	false			2017-02-08T10:11:48Z	2017-02-08T19:24:59Z		url: implement URL.prototype.toJSON	41		
-11237	4299420	true	open	false			2017-02-08T11:19:44Z	2017-02-12T09:11:57Z		doc: reorganize benchmarking guide/readme, update test/README.md	105		
+11237	4299420	true	open	false	3		2017-02-08T11:19:44Z	2017-02-12T10:27:17Z		doc: reorganize benchmarking guide/readme, update test/README.md	105		
 11238	988441	true	closed	false	1	8	2017-02-08T14:49:27Z	2017-02-09T18:47:49Z	2017-02-09T18:47:48Z	doc: clarify behavior of byteLength with 'base64'	23	988441	2017-02-09T18:47:48Z
 11239	275871	true	closed	false	3	4	2017-02-08T14:54:04Z	2017-02-11T13:22:51Z	2017-02-11T13:22:51Z	test: remove dependency on node-weak	54		
 11240	2512748	true	open	false	1		2017-02-08T15:18:34Z	2017-02-10T17:11:15Z		test: increase dgram ref()/unref() coverage	43		
@@ -4529,7 +4529,7 @@
 11256	9287	false	open	false	0		2017-02-09T08:13:28Z	2017-02-09T08:13:28Z		Multiple cookie headers need special-case concatenation using ; instead of ,	207		
 11257	60136	false	open	false	0		2017-02-09T08:23:07Z	2017-02-09T08:23:07Z		stderr redirection breaks require	108		
 11258	13089569	false	open	false	0		2017-02-09T09:19:59Z	2017-02-09T09:19:59Z		Multiline function arguments with trailing comma - SyntaxError: Unexpected token )	70		
-11259	54666	true	open	false	9		2017-02-09T12:05:01Z	2017-02-11T01:36:23Z		http: append Cookie header values with semicolon	89		
+11259	54666	true	open	false			2017-02-09T12:05:01Z	2017-02-12T10:12:54Z		http: append Cookie header values with semicolon	89		
 11260	677994	true	open	false			2017-02-09T12:14:23Z	2017-02-09T15:10:51Z		internal: lazy load fs due to circular dependency	65		
 11261	54666	false	open	false	0		2017-02-09T13:02:55Z	2017-02-09T13:02:55Z		Investigate flaky test-vm-timeout-rethrow on Windows	44		
 11262	4920092	false	open	false	0		2017-02-09T13:22:30Z	2017-02-09T13:22:30Z		Post method not working	6		
@@ -4556,7 +4556,7 @@
 11283	647210	false	open	false	13		2017-02-10T09:20:41Z	2017-02-12T08:58:00Z		"no support for ""connected"" UDP sockets"	104		
 11284	1031876	false	open	false	0		2017-02-10T11:38:43Z	2017-02-10T15:04:06Z		child_process.spawnSync returns status=0 when signal=SIGKILL	70		
 11285	7732206	false	open	false	0		2017-02-10T13:27:28Z	2017-02-10T13:27:28Z		Can you please provide all the error codes with its desription which we get in require('child_process').exec function?	278		
-11286	988441	true	open	false	6		2017-02-10T13:33:03Z	2017-02-12T08:20:04Z		doc: clarify out-of-bounds behavior of buf[index]	23		
+11286	988441	true	open	false	7		2017-02-10T13:33:03Z	2017-02-12T10:35:55Z		doc: clarify out-of-bounds behavior of buf[index]	23		
 11287	988441	true	closed	false	0	2	2017-02-10T14:24:37Z	2017-02-10T20:21:36Z	2017-02-10T20:21:36Z	benchmark: fix typos	21	988441	2017-02-10T20:21:36Z
 11288	2512748	true	open	false			2017-02-10T15:03:41Z	2017-02-10T16:17:30Z		child_process: exit spawnSync with null on signal	59		
 11289	600821	false	open	false	1		2017-02-10T15:05:38Z	2017-02-10T16:46:19Z		Memory leak when calling fs.write() in long synchronous loop	380		
@@ -4577,7 +4577,7 @@
 11304	718899	true	open	false	0	0	2017-02-10T22:14:21Z	2017-02-10T22:14:21Z		assert: unlock the assert API	34		
 11305	439929	true	open	false	1		2017-02-10T22:52:06Z	2017-02-11T22:16:41Z		crypto: upgrade pbkdf2 without digest to an error	92		
 11306	4976075	true	open	false	0	0	2017-02-10T23:39:40Z	2017-02-10T23:39:40Z		deps: backport 2bd7464 from upstream V8	153		
-11307	914178	false	open	false	4		2017-02-11T01:09:42Z	2017-02-12T05:49:56Z		100% CPU + Sockets idling in CLOSE_WAIT state	331		
+11307	914178	false	open	false	5		2017-02-11T01:09:42Z	2017-02-12T10:09:30Z		100% CPU + Sockets idling in CLOSE_WAIT state	331		
 11308	11801881	true	open	false	0	0	2017-02-11T02:05:15Z	2017-02-11T02:05:15Z		errors, console: migrate to use internal/errors.js	49		
 11309	718899	true	open	false	0	0	2017-02-11T07:27:51Z	2017-02-11T07:27:51Z		test: refactor test-repl-sigint	44		
 11310	696611	true	closed	false	2		2017-02-11T08:15:44Z	2017-02-11T14:47:52Z	2017-02-11T14:47:52Z	update licenses and remove v8_inspector deps license	45		
@@ -4585,10 +4585,11 @@
 11312	5886475	true	open	false	0	0	2017-02-11T13:48:25Z	2017-02-11T13:48:25Z		backport: v7.x - #11122 - test: increase coverage of buffer	37		
 11313	10393198	true	open	false	0	0	2017-02-11T14:33:35Z	2017-02-11T14:33:35Z		benchmarks: add dgram bind(+/- params) benchmark	123		
 11314	718899	true	open	false	2		2017-02-11T15:58:57Z	2017-02-12T08:14:34Z		assert: remove unneeded condition	41		
-11315	8738437	false	open	false	5		2017-02-11T19:57:57Z	2017-02-11T23:30:38Z		thread closes without error when module.export function is undefined	72		
+11315	8738437	false	closed	false	7		2017-02-11T19:57:57Z	2017-02-12T10:07:19Z	2017-02-12T10:07:19Z	thread closes without error when module.export function is undefined	72		
 11316	1853456	false	open	false	0		2017-02-11T23:54:52Z	2017-02-11T23:54:52Z		Critical issue: no apparent way to use pure binary TCP sockets in Node 6.9.5	187		
 11317	7684574	true	open	false	0	0	2017-02-12T01:28:40Z	2017-02-12T01:28:40Z		errors: port internal/fs errors to internal/errors	71		
 11318	5035902	true	open	false	0	0	2017-02-12T03:53:33Z	2017-02-12T03:53:33Z		doc: update email and add personal pronoun	23		
 11319	1028226	true	open	false	0	0	2017-02-12T08:11:17Z	2017-02-12T08:11:17Z		errors, path: migrate to use internal/errors.js	48		
 11320	694779	false	open	false	0		2017-02-12T09:01:23Z	2017-02-12T09:01:23Z		net.connect fails looking up localhost when offline (node-v0.x-archive/issues/25489 duplicate)	160		
 11321	15943089	true	open	false	0	0	2017-02-12T09:36:46Z	2017-02-12T09:36:46Z		doc: add STYLE_GUIDE (moved from nodejs/docs)	112		
+11322	275871	true	open	false	0	0	2017-02-12T10:34:55Z	2017-02-12T10:34:55Z		src: remove unused typedef	14		
