@@ -3793,7 +3793,7 @@
 10519	13561163	true	closed	false	3		2016-12-29T13:05:00Z	2017-01-23T19:14:59Z	2017-01-04T09:40:55Z	clarify the statement in vm.createContext() API	80		
 10520	6487691	false	closed	false	2		2016-12-29T14:26:01Z	2017-01-17T14:12:59Z	2017-01-17T14:12:59Z	SIGQUIT handler being ignored when node is loaded as a shared library	227		
 10521	1189785	true	open	false	2		2016-12-29T16:50:55Z	2017-01-05T17:32:26Z		test: improve the code in test-fs-null-bytes	62		
-10522	15161981	true	open	false			2016-12-29T16:57:22Z	2017-02-10T20:40:55Z		timer,domain: maintain order of timers upon uncaught exception	60		
+10522	15161981	true	open	false	4		2016-12-29T16:57:22Z	2017-02-13T20:01:19Z		timer,domain: maintain order of timers upon uncaught exception	60		
 10523	6487691	true	open	false			2016-12-29T17:06:54Z	2017-01-31T14:16:40Z		test: fix test-child-process-flush-stdio on windows (Node V4 only)	126		
 10524	8297234	true	closed	false	3	4	2016-12-29T17:30:01Z	2017-01-03T17:20:07Z	2017-01-03T17:20:07Z	test: refactor several parallel/test-timer tests	64		
 10525	1883394	true	open	false	6		2016-12-29T21:05:11Z	2017-01-04T19:20:19Z		fix compile bug in v8/lookup.h	69		
@@ -4370,7 +4370,7 @@
 11096	1189785	true	open	false	4		2017-02-01T05:31:03Z	2017-02-07T01:54:36Z		test: refactor test-fs-error-messages.js	73		
 11097	11139560	false	open	false	0		2017-02-01T07:03:38Z	2017-02-01T07:03:38Z		potential bug in dgram module	117		
 11098	1538624	true	open	false	16		2017-02-01T08:11:21Z	2017-02-11T19:47:16Z		url: add urlSearchParams.sort()	143		
-11099	677994	true	open	false	7		2017-02-01T12:00:43Z	2017-02-13T14:03:30Z		doc: add guide for backporting prs	37		
+11099	677994	true	open	false	10		2017-02-01T12:00:43Z	2017-02-13T20:47:50Z		doc: add guide for backporting prs	37		
 11100	5249140	false	closed	false	3		2017-02-01T13:00:09Z	2017-02-02T20:55:55Z	2017-02-02T20:55:55Z	reverse proxy to node server udp outbound packet loss	140		
 11101	170197	false	closed	false	3		2017-02-01T15:04:33Z	2017-02-03T21:04:34Z	2017-02-03T21:04:34Z	this[searchParams].push is not a function	71		
 11102	13561163	true	closed	false	4		2017-02-01T15:24:42Z	2017-02-05T19:45:26Z	2017-02-05T09:02:01Z	src: refactor of CopyProperties with V8 5.5 DefineProperty	86		
@@ -4559,7 +4559,7 @@
 11285	7732206	false	closed	false	2		2017-02-10T13:27:28Z	2017-02-13T09:00:26Z	2017-02-12T18:32:36Z	Can you please provide all the error codes with its desription which we get in require('child_process').exec function?	278		
 11286	988441	true	open	false	8		2017-02-10T13:33:03Z	2017-02-13T18:46:05Z		doc: clarify out-of-bounds behavior of buf[index]	23		
 11287	988441	true	closed	false	0	2	2017-02-10T14:24:37Z	2017-02-10T20:21:36Z	2017-02-10T20:21:36Z	benchmark: fix typos	21	988441	2017-02-10T20:21:36Z
-11288	2512748	true	open	false	0		2017-02-10T15:03:41Z	2017-02-13T15:28:41Z		child_process: exit spawnSync with null on signal	59		
+11288	2512748	true	open	false	1		2017-02-10T15:03:41Z	2017-02-13T20:38:30Z		child_process: exit spawnSync with null on signal	59		
 11289	600821	false	open	false	2		2017-02-10T15:05:38Z	2017-02-12T18:20:44Z		Memory leak when calling fs.write() in long synchronous loop	383		
 11290	5886475	true	open	false	4		2017-02-10T15:26:03Z	2017-02-11T21:45:42Z		test: increase coverage of timers	32		
 11291	2512748	true	open	false	0		2017-02-10T15:34:39Z	2017-02-13T15:20:26Z		test: add coverage for dgram _createSocketHandle()	48		
@@ -4578,7 +4578,7 @@
 11304	718899	true	open	false	1		2017-02-10T22:14:21Z	2017-02-12T15:36:46Z		assert: unlock the assert API	34		
 11305	439929	true	closed	false	5	8	2017-02-10T22:52:06Z	2017-02-13T19:09:00Z	2017-02-13T19:09:00Z	crypto: upgrade pbkdf2 without digest to an error	92		
 11306	4976075	true	open	false	1		2017-02-10T23:39:40Z	2017-02-12T21:00:38Z		deps: backport 2bd7464 from upstream V8	153		
-11307	914178	false	open	false	38		2017-02-11T01:09:42Z	2017-02-13T19:12:00Z		100% CPU + Sockets idling in CLOSE_WAIT state	331		
+11307	914178	false	open	false	54		2017-02-11T01:09:42Z	2017-02-13T20:16:41Z		100% CPU + Sockets idling in CLOSE_WAIT state	331		
 11308	11801881	true	open	false			2017-02-11T02:05:15Z	2017-02-12T22:25:19Z		errors, console: migrate to use internal/errors.js	49		
 11309	718899	true	closed	false	1		2017-02-11T07:27:51Z	2017-02-13T16:16:50Z	2017-02-13T16:16:50Z	test: refactor test-repl-sigint	44		
 11310	696611	true	closed	false	2		2017-02-11T08:15:44Z	2017-02-11T14:47:52Z	2017-02-11T14:47:52Z	update licenses and remove v8_inspector deps license	45		
@@ -4587,7 +4587,7 @@
 11313	10393198	true	open	false	0	0	2017-02-11T14:33:35Z	2017-02-11T14:33:35Z		benchmarks: add dgram bind(+/- params) benchmark	123		
 11314	718899	true	open	false	2		2017-02-11T15:58:57Z	2017-02-12T08:14:34Z		assert: remove unneeded condition	41		
 11315	8738437	false	closed	false	7		2017-02-11T19:57:57Z	2017-02-12T10:07:19Z	2017-02-12T10:07:19Z	thread closes without error when module.export function is undefined	72		
-11316	1853456	false	closed	false	3		2017-02-11T23:54:52Z	2017-02-13T15:42:13Z	2017-02-11T23:58:12Z	Critical issue: no apparent way to use pure binary TCP sockets in Node 6.9.5	305		
+11316	1853456	false	closed	false	4		2017-02-11T23:54:52Z	2017-02-13T20:25:47Z	2017-02-11T23:58:12Z	Critical issue: no apparent way to use pure binary TCP sockets in Node 6.9.5	305		
 11317	7684574	true	open	false			2017-02-12T01:28:40Z	2017-02-13T01:56:21Z		errors: port internal/fs errors to internal/errors	71		
 11318	5035902	true	open	false	0		2017-02-12T03:53:33Z	2017-02-13T02:25:08Z		doc: update email and add personal pronoun	23		
 11319	1028226	true	open	false			2017-02-12T08:11:17Z	2017-02-13T09:33:57Z		errors, path: migrate to use internal/errors.js	48		
@@ -4600,23 +4600,29 @@
 11326	1716463	true	open	false			2017-02-12T19:49:28Z	2017-02-12T23:39:09Z		test: add cases for unescape & unescapeBuffer	50		
 11327	1301158	false	closed	false	2		2017-02-12T20:21:40Z	2017-02-13T04:18:21Z	2017-02-12T23:01:49Z	Core Infrastructure Initiative (CII) Best Practices	32		
 11328	1301158	false	closed	false	2		2017-02-12T20:27:52Z	2017-02-13T08:02:47Z	2017-02-13T07:55:30Z	Sign git tags	40		
-11329	1716463	true	open	false			2017-02-12T22:06:33Z	2017-02-13T17:25:16Z		test: cases to querystring related to empty string	56		
+11329	1716463	true	open	false			2017-02-12T22:06:33Z	2017-02-13T20:50:54Z		test: cases to querystring related to empty string	56		
 11330	1538624	true	open	false			2017-02-13T00:01:54Z	2017-02-13T19:42:22Z		doc, url: various improvements to WHATWG API	22		
 11331	10393198	true	open	false	0		2017-02-13T03:10:19Z	2017-02-13T07:30:27Z		doc: fix sorting in API references	209		
 11332	1131567	true	open	false	1		2017-02-13T08:19:47Z	2017-02-13T09:15:33Z		util: use ES2015+ Object.is to check negative zero	56		
 11333	771001	false	open	false	0		2017-02-13T12:20:59Z	2017-02-13T12:20:59Z		end event is not properly documented in httpClient request documentation	31		
-11334	6220422	true	closed	false	0	2	2017-02-13T13:03:53Z	2017-02-13T17:00:11Z	2017-02-13T17:00:11Z	dns.lookup return a string with no options	19		
+11334	6220422	true	closed	false			2017-02-13T13:03:53Z	2017-02-13T20:06:13Z	2017-02-13T17:00:11Z	dns.lookup return a string with no options	19		
 11335	24968144	false	open	false	0		2017-02-13T14:09:32Z	2017-02-13T15:03:31Z		problem with cross-compiling flag building windows binary under linux OS	134		
 11336	101553	true	open	false	0	0	2017-02-13T15:46:59Z	2017-02-13T15:46:59Z		doc: update link to V8 Embedder's guide	21		
 11337	474017	false	open	false	0		2017-02-13T15:52:42Z	2017-02-13T15:52:42Z		FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memory	303		
 11338	24884095	true	open	false	0	0	2017-02-13T16:07:28Z	2017-02-13T16:07:28Z		errors: port internal/net errors to internal/errors	71		
 11339	24884095	true	open	false	0	0	2017-02-13T16:46:42Z	2017-02-13T16:46:42Z		Internal error	71		
-11340	3952583	true	open	false			2017-02-13T16:57:21Z	2017-02-13T18:50:02Z		errors: migrate lib/console	49		
-11341	24884095	true	open	false			2017-02-13T17:00:30Z	2017-02-13T18:33:32Z		errors: port internal/buffer errors to internal/errors	73		
+11340	3952583	true	open	false	0		2017-02-13T16:57:21Z	2017-02-13T20:57:04Z		errors: migrate lib/console	49		
+11341	24884095	true	open	false	0		2017-02-13T17:00:30Z	2017-02-13T20:49:02Z		errors: port internal/buffer errors to internal/errors	73		
 11342	516118	false	open	false	4		2017-02-13T17:11:05Z	2017-02-13T18:03:25Z		Don't kill REPL!	121		
-11343	11838792	false	open	false	0		2017-02-13T17:32:13Z	2017-02-13T17:32:13Z		Error.captureStackTrace() performance regression in v7.x	128		
+11343	11838792	false	open	false	1		2017-02-13T17:32:13Z	2017-02-13T20:23:37Z		Error.captureStackTrace() performance regression in v7.x	129		
 11344	17607	true	open	false	0	0	2017-02-13T17:39:31Z	2017-02-13T17:39:31Z		7.x backport: crypto: support OPENSSL_CONF again (and its dependencies)	42		
 11345	17607	true	open	false	0	0	2017-02-13T17:40:29Z	2017-02-13T17:40:29Z		7.x backport: crypto: support OPENSSL_CONF again (and its dependencies)	42		
 11346	275871	true	open	false	0		2017-02-13T17:56:51Z	2017-02-13T18:36:09Z		lib: remove simd support from util.format()	77		
 11347	1748653	true	open	false	0	0	2017-02-13T18:11:57Z	2017-02-13T18:11:57Z		Repl errors	71		
-11348	733364	true	open	false	0	0	2017-02-13T18:52:25Z	2017-02-13T18:52:25Z		build: fix building with ninja on linux	83		
+11348	733364	true	open	false	1		2017-02-13T18:52:25Z	2017-02-13T20:11:52Z		build: fix building with ninja on linux	83		
+11349	439929	true	open	false	0	0	2017-02-13T20:04:22Z	2017-02-13T20:04:22Z		tls: upgrade CryptoStream.prototype.readyState deprecation	58		
+11350	17607	true	open	false	0	0	2017-02-13T20:05:42Z	2017-02-13T20:05:42Z		doc: dns examples implied string args were arrays	23		
+11351	811047	true	open	false	0	0	2017-02-13T20:20:28Z	2017-02-13T20:20:28Z		Backport test abort on timeout to v4.x	54		
+11352	17607	false	open	false	0		2017-02-13T20:25:25Z	2017-02-13T20:25:25Z		socket encodings don't link to possible encoding values, and describe behaviour which does not exist	110		
+11353	439929	true	open	false	0	0	2017-02-13T20:30:40Z	2017-02-13T20:30:40Z		http: deprecate Agent.prototype.addRequest() legacy sig	64		
+11354	811047	true	open	false	0	0	2017-02-13T20:34:54Z	2017-02-13T20:34:54Z		Backport test abort on timeout to v6.x	54		
