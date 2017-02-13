@@ -2570,7 +2570,7 @@
 9290	11976448	true	open	false	6		2016-10-26T09:39:22Z	2017-01-06T23:26:52Z		test: favor `===` over  `==` in fs-utimes	27		
 9291	22879652	true	open	false	0	0	2016-10-26T11:23:45Z	2016-10-26T11:23:45Z		nodej js project	47		
 9292	11976448	true	open	false	32		2016-10-26T11:44:41Z	2016-12-25T05:04:08Z		url: refactor truncating long hostname	73		
-9293	275871	true	open	false			2016-10-26T12:03:46Z	2017-02-08T18:30:33Z		v8: fix new.target inheritance from c++	38		
+9293	275871	true	open	false	20		2016-10-26T12:03:46Z	2017-02-13T18:41:21Z		v8: fix new.target inheritance from c++	38		
 9294	129203	true	closed	false	1		2016-10-26T12:44:11Z	2016-11-01T19:20:57Z	2016-11-01T19:20:57Z	doc: fix broken links to Buffer.from(string)	59		
 9295	984628	false	closed	false	5		2016-10-26T15:27:29Z	2016-10-27T14:21:51Z	2016-10-27T13:12:33Z	DOS: js expression make nodejs crash	112		
 9296	275871	true	closed	false	12	0	2016-10-26T16:48:39Z	2016-11-18T21:03:23Z	2016-11-18T21:03:23Z	dns: implement {ttl: true} for dns.resolve4() and dns.resolve6()	127		
@@ -3464,7 +3464,7 @@
 10184	238531	true	closed	false	7		2016-12-08T20:37:43Z	2017-01-23T05:32:07Z	2016-12-19T22:20:27Z	stream_base: homogenize req_wrap_obj use	47		
 10185	5455479	false	closed	false	1		2016-12-08T22:41:55Z	2016-12-11T13:49:56Z	2016-12-11T13:49:56Z	The property heap_size_limit from getHeapStatistics is incorrect for memory over 4032MB	114		
 10186	275871	true	closed	false	3		2016-12-08T23:19:42Z	2017-01-25T18:48:36Z	2016-12-11T13:48:54Z	lib,src: support values > 4GB in heap statistics	2		
-10187	567540	true	closed	false	56		2016-12-09T04:34:15Z	2017-02-13T17:57:59Z	2017-02-13T13:52:14Z	deps: Add node-inspect	90		
+10187	567540	true	closed	false	57		2016-12-09T04:34:15Z	2017-02-13T18:55:26Z	2017-02-13T13:52:14Z	deps: Add node-inspect	90		
 10188	718899	true	closed	false	5		2016-12-09T06:29:03Z	2016-12-12T21:28:32Z	2016-12-12T21:28:32Z	test: refactor test-handle-wrap-close-abort	53		
 10189	718899	true	closed	false	2		2016-12-09T06:55:25Z	2016-12-12T21:47:43Z	2016-12-12T21:47:42Z	test: refactor http pipelined socket test	52		
 10190	718899	true	closed	false	3		2016-12-09T07:24:48Z	2016-12-12T21:49:43Z	2016-12-12T21:49:42Z	test: refactor assert.equal, update syntax to ES6	34		
@@ -3725,7 +3725,7 @@
 10451	10393198	true	closed	false	1		2016-12-25T18:31:30Z	2016-12-27T21:17:47Z	2016-12-27T21:17:47Z	doc: some fixes in console.md	109		
 10452	1189785	true	closed	false	6		2016-12-25T19:01:44Z	2016-12-27T18:28:30Z	2016-12-27T18:28:30Z	test: improve the code in test-pipe.js	67		
 10453	2101743	false	open	false	2		2016-12-25T19:29:53Z	2016-12-25T20:36:05Z		VM: VM is much slower when `timeout` was specified	178		
-10454	7604540	false	open	false	3		2016-12-26T07:13:23Z	2017-02-04T01:14:55Z		'querystring.parse' works a inconsistent way with URLSearchParams(chrome) and python's urlparse.parse_qs	76		
+10454	7604540	false	closed	false	4		2016-12-26T07:13:23Z	2017-02-13T18:48:49Z	2017-02-13T18:48:49Z	'querystring.parse' works a inconsistent way with URLSearchParams(chrome) and python's urlparse.parse_qs	76		
 10455	696611	true	closed	false	2		2016-12-26T08:59:29Z	2017-01-23T02:56:35Z	2017-01-02T12:44:53Z	test: refactor test-debugger-remote	124		
 10456	696611	true	open	false			2016-12-26T09:10:29Z	2017-02-01T19:17:41Z		build: enable debugger tests in CI	46		
 10457	6124091	false	closed	false	5		2016-12-26T09:42:42Z	2016-12-28T14:48:53Z	2016-12-28T14:48:53Z	Debugger isn't stopped at the `debugger;` statement when debugging using `--inspect`	71		
@@ -4311,7 +4311,7 @@
 11037	696611	true	closed	false	0		2017-01-27T19:12:00Z	2017-01-30T12:42:35Z	2017-01-30T12:42:35Z	doc: change logical to bitwise OR in dns lookup	52		
 11038	2512748	true	open	false	1		2017-01-27T20:15:56Z	2017-02-10T23:25:29Z		test: cover thrown errors from exec() kill	54		
 11039	3673943	true	closed	false	11		2017-01-27T20:25:25Z	2017-01-30T20:15:37Z	2017-01-30T18:25:28Z	test-console: streamline arrow fn and refine inspect regex	47		
-11040	1093990	true	open	false	11		2017-01-27T20:32:18Z	2017-02-13T16:10:39Z		timers: use Maps for internal duration pooling	167		
+11040	1093990	true	open	false	12		2017-01-27T20:32:18Z	2017-02-13T18:31:20Z		timers: use Maps for internal duration pooling	167		
 11041	718899	false	open	false	19		2017-01-27T21:31:56Z	2017-02-03T18:22:23Z		fix flaky sequential/test-child-process-pass-fd on fedora 24	273		
 11042	4010111	false	closed	false	2		2017-01-27T21:41:37Z	2017-01-28T00:08:13Z	2017-01-27T21:55:46Z	C Stack Trace From ESLint ?	141		
 11043	234019	false	closed	false	1		2017-01-27T21:56:18Z	2017-01-28T11:23:40Z	2017-01-28T11:23:40Z	./configure --debug (node 6.9.2) fails on Alpine Linux	971		
@@ -4348,7 +4348,7 @@
 11074	696611	true	closed	false	1	0	2017-01-30T18:53:29Z	2017-02-01T18:12:59Z	2017-02-01T18:12:59Z	doc: replace newlines in deprecation with space	120		
 11075	17607	true	closed	false	6		2017-01-30T19:20:16Z	2017-01-31T16:52:29Z	2017-01-31T16:52:29Z	v4 backport openssl 1.0.2k	4		
 11076	17607	true	open	false	3		2017-01-30T19:26:34Z	2017-01-30T23:27:20Z		v6 openssl 1.0.2k	4		
-11077	234019	false	open	false	10		2017-01-30T20:16:35Z	2017-02-07T17:55:40Z		Unusually large (but constant) memory usage with transparent huge pages enabled	267		
+11077	234019	false	open	false	11		2017-01-30T20:16:35Z	2017-02-13T18:27:47Z		Unusually large (but constant) memory usage with transparent huge pages enabled	267		
 11078	1382679	true	closed	false	5		2017-01-31T05:51:12Z	2017-02-04T06:21:12Z	2017-02-04T06:21:12Z	readline: update 6 comparisons to strict	28		
 11079	4299420	true	open	false	7		2017-01-31T12:26:21Z	2017-02-02T18:04:34Z		url, test: synchronize web-platform-test url tests	219		
 11080	3367801	true	open	false	2		2017-01-31T13:38:32Z	2017-01-31T14:10:19Z		doc: add abouthiroppy to collaborators	27		
@@ -4400,7 +4400,7 @@
 11126	718899	true	open	false	0	0	2017-02-02T22:05:37Z	2017-02-02T22:05:37Z		test: simplify WPT.assert_throws()	26		
 11127	718899	true	closed	false	4	8	2017-02-02T22:21:50Z	2017-02-06T05:18:09Z	2017-02-06T05:18:09Z	doc: add common.WPT to test README	22		
 11128	4299420	true	open	false	8		2017-02-02T22:39:03Z	2017-02-09T17:09:04Z		assert: fix _deepEqual and improve assert.md	252		
-11129	275871	true	open	false	11		2017-02-02T22:39:09Z	2017-02-12T10:15:07Z		src: support UTF-8 in compiled-in JS source files	38		
+11129	275871	true	closed	false	12	5	2017-02-02T22:39:09Z	2017-02-13T18:24:19Z	2017-02-13T18:24:19Z	src: support UTF-8 in compiled-in JS source files	38		
 11130	439929	true	closed	false	4	9	2017-02-02T23:38:03Z	2017-02-10T01:35:09Z	2017-02-10T01:35:09Z	util: add inspectTag template literal tag	110		
 11131	4988795	true	open	false	0	0	2017-02-03T03:14:36Z	2017-02-03T03:14:36Z		test: improve readline coverage to check end and clear keys	50		
 11132	122831	false	closed	false	15		2017-02-03T03:22:27Z	2017-02-07T07:32:32Z	2017-02-06T16:13:29Z	fs.readFileSync returns corrupt ArrayBuffer (fs.readFile works as expected)	109		
@@ -4505,7 +4505,7 @@
 11231	718899	false	open	false	7		2017-02-08T00:57:22Z	2017-02-10T14:32:29Z		Update CONTRIBUTING.md to clarify single-test running 	107		
 11232	718899	true	closed	false	1		2017-02-08T04:54:12Z	2017-02-10T04:49:12Z	2017-02-10T04:49:12Z	test: refactor test-fs-buffer	96		
 11233	718899	false	open	false	1		2017-02-08T06:13:01Z	2017-02-09T04:00:06Z		tracking issue: async loader for module interop	70		
-11234	54666	true	open	false	2		2017-02-08T08:23:50Z	2017-02-13T16:59:21Z		querystring: fix empty pairs handling	198		
+11234	54666	true	closed	false	3		2017-02-08T08:23:50Z	2017-02-13T18:50:26Z	2017-02-13T18:50:26Z	querystring: fix empty pairs handling	198		
 11235	54666	true	open	false	2		2017-02-08T08:32:30Z	2017-02-08T09:38:49Z		benchmark: fix timer display in progress output	52		
 11236	2352663	true	open	false			2017-02-08T10:11:48Z	2017-02-08T19:24:59Z		url: implement URL.prototype.toJSON	41		
 11237	4299420	true	open	false	12		2017-02-08T11:19:44Z	2017-02-13T15:01:30Z		doc: reorganize benchmarking guide/readme, update test/README.md	105		
@@ -4557,7 +4557,7 @@
 11283	647210	false	open	false	13		2017-02-10T09:20:41Z	2017-02-12T08:58:00Z		"no support for ""connected"" UDP sockets"	104		
 11284	1031876	false	open	false	0		2017-02-10T11:38:43Z	2017-02-10T15:04:06Z		child_process.spawnSync returns status=0 when signal=SIGKILL	70		
 11285	7732206	false	closed	false	2		2017-02-10T13:27:28Z	2017-02-13T09:00:26Z	2017-02-12T18:32:36Z	Can you please provide all the error codes with its desription which we get in require('child_process').exec function?	278		
-11286	988441	true	open	false	7		2017-02-10T13:33:03Z	2017-02-12T10:35:55Z		doc: clarify out-of-bounds behavior of buf[index]	23		
+11286	988441	true	open	false	8		2017-02-10T13:33:03Z	2017-02-13T18:46:05Z		doc: clarify out-of-bounds behavior of buf[index]	23		
 11287	988441	true	closed	false	0	2	2017-02-10T14:24:37Z	2017-02-10T20:21:36Z	2017-02-10T20:21:36Z	benchmark: fix typos	21	988441	2017-02-10T20:21:36Z
 11288	2512748	true	open	false	0		2017-02-10T15:03:41Z	2017-02-13T15:28:41Z		child_process: exit spawnSync with null on signal	59		
 11289	600821	false	open	false	2		2017-02-10T15:05:38Z	2017-02-12T18:20:44Z		Memory leak when calling fs.write() in long synchronous loop	383		
@@ -4566,7 +4566,7 @@
 11292	2512748	true	open	false	0		2017-02-10T16:45:16Z	2017-02-13T15:19:26Z		test: cover dgram socket close during cluster bind	72		
 11293	1028226	true	open	false			2017-02-10T16:52:01Z	2017-02-10T20:27:10Z		https: use internal/errors.js	43		
 11294	439929	true	open	false			2017-02-10T16:57:04Z	2017-02-11T11:10:27Z		errors, process: port internal/process errors to internal/errors	88		
-11295	2512748	true	open	false	0		2017-02-10T17:00:53Z	2017-02-13T15:18:35Z		test: cover cluster error during dgram socket bind	66		
+11295	2512748	true	closed	false	1	0	2017-02-10T17:00:53Z	2017-02-13T18:33:40Z	2017-02-13T18:33:40Z	test: cover cluster error during dgram socket bind	66	2512748	2017-02-13T18:33:40Z
 11296	22550884	true	open	false	3		2017-02-10T17:28:26Z	2017-02-10T18:35:21Z		lib/src: refactoring out of range index	57		
 11297	22550884	true	open	false			2017-02-10T17:38:46Z	2017-02-12T17:26:13Z		test: consolidating buffer.read()	16		
 11298	439929	true	open	false			2017-02-10T18:26:16Z	2017-02-13T16:38:00Z		errors: assign error code to bootstrap_node created error	72		
@@ -4576,7 +4576,7 @@
 11302	1028226	true	open	false			2017-02-10T21:19:34Z	2017-02-13T15:37:09Z		errors,net: change internal/net.js to use internal/errors.js	57		
 11303	718899	true	open	false	1		2017-02-10T21:57:07Z	2017-02-11T00:18:41Z		test: refactor test-repl-sigint-nested-eval	44		
 11304	718899	true	open	false	1		2017-02-10T22:14:21Z	2017-02-12T15:36:46Z		assert: unlock the assert API	34		
-11305	439929	true	open	false	4		2017-02-10T22:52:06Z	2017-02-13T16:08:10Z		crypto: upgrade pbkdf2 without digest to an error	92		
+11305	439929	true	open	false			2017-02-10T22:52:06Z	2017-02-13T19:00:01Z		crypto: upgrade pbkdf2 without digest to an error	92		
 11306	4976075	true	open	false	1		2017-02-10T23:39:40Z	2017-02-12T21:00:38Z		deps: backport 2bd7464 from upstream V8	153		
 11307	914178	false	open	false	37		2017-02-11T01:09:42Z	2017-02-13T14:09:09Z		100% CPU + Sockets idling in CLOSE_WAIT state	331		
 11308	11801881	true	open	false			2017-02-11T02:05:15Z	2017-02-12T22:25:19Z		errors, console: migrate to use internal/errors.js	49		
@@ -4611,10 +4611,12 @@
 11337	474017	false	open	false	0		2017-02-13T15:52:42Z	2017-02-13T15:52:42Z		FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memory	303		
 11338	24884095	true	open	false	0	0	2017-02-13T16:07:28Z	2017-02-13T16:07:28Z		errors: port internal/net errors to internal/errors	71		
 11339	24884095	true	open	false	0	0	2017-02-13T16:46:42Z	2017-02-13T16:46:42Z		Internal error	71		
-11340	3952583	true	open	false	0	0	2017-02-13T16:57:21Z	2017-02-13T16:57:21Z		errors: migrate lib/console	40		
-11341	24884095	true	open	false	0		2017-02-13T17:00:30Z	2017-02-13T17:53:31Z		errors: port internal/buffer errors to internal/errors	71		
-11342	516118	false	open	false	0		2017-02-13T17:11:05Z	2017-02-13T17:11:05Z		Don't kill REPL!	120		
+11340	3952583	true	open	false			2017-02-13T16:57:21Z	2017-02-13T18:50:02Z		errors: migrate lib/console	49		
+11341	24884095	true	open	false			2017-02-13T17:00:30Z	2017-02-13T18:33:32Z		errors: port internal/buffer errors to internal/errors	73		
+11342	516118	false	open	false	4		2017-02-13T17:11:05Z	2017-02-13T18:03:25Z		Don't kill REPL!	121		
 11343	11838792	false	open	false	0		2017-02-13T17:32:13Z	2017-02-13T17:32:13Z		Error.captureStackTrace() performance regression in v7.x	128		
 11344	17607	true	open	false	0	0	2017-02-13T17:39:31Z	2017-02-13T17:39:31Z		7.x backport: crypto: support OPENSSL_CONF again (and its dependencies)	42		
 11345	17607	true	open	false	0	0	2017-02-13T17:40:29Z	2017-02-13T17:40:29Z		7.x backport: crypto: support OPENSSL_CONF again (and its dependencies)	42		
-11346	275871	true	open	false	0	0	2017-02-13T17:56:51Z	2017-02-13T17:56:51Z		lib: remove simd support from util.format()	77		
+11346	275871	true	open	false	0		2017-02-13T17:56:51Z	2017-02-13T18:36:09Z		lib: remove simd support from util.format()	77		
+11347	1748653	true	open	false	0	0	2017-02-13T18:11:57Z	2017-02-13T18:11:57Z		Repl errors	71		
+11348	733364	true	open	false	0	0	2017-02-13T18:52:25Z	2017-02-13T18:52:25Z		build: fix building with ninja on linux	83		
