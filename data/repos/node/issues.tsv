@@ -560,7 +560,7 @@
 7090	275871	true	closed	false	12		2016-06-01T11:24:08Z	2016-07-11T22:09:23Z	2016-06-02T20:41:01Z	src: use stack-allocated Environment instances	11		
 7094	505333	true	closed	false	42		2016-06-01T15:18:38Z	2016-07-27T09:27:20Z	2016-07-26T12:25:16Z	Refactor benchmark tools for statistical significance	603		
 7095	238531	true	open	false	11		2016-06-01T16:28:23Z	2016-08-19T15:11:48Z		deps: cherry-pick 9fa206e from v8's upstream	108		
-7098	259374	false	closed	false	36		2016-06-01T22:27:37Z	2017-02-16T21:56:38Z	2017-02-15T21:10:14Z	proposal: a strategy to modularize core	469		
+7098	259374	false	closed	false	37		2016-06-01T22:27:37Z	2017-02-16T22:11:39Z	2017-02-15T21:10:14Z	proposal: a strategy to modularize core	469		
 7099	10393198	false	closed	false	4		2016-06-02T00:00:20Z	2016-12-03T13:24:01Z	2016-12-03T13:24:01Z	Omission in the fs doc	174		
 7102	2316198	false	closed	false	11		2016-06-02T02:35:44Z	2016-09-16T12:58:12Z	2016-06-02T07:40:51Z	"""ReferenceError: v8debug is not defined"" when doing remote debug"	142		
 7104	718899	true	closed	false	10		2016-06-02T06:18:40Z	2016-07-11T22:26:03Z	2016-06-04T21:25:37Z	repl: refine handling of illegal tokens	75		
@@ -4364,7 +4364,7 @@
 11088	305455	true	closed	false	7		2017-01-31T18:33:50Z	2017-02-04T01:45:08Z	2017-02-03T22:53:00Z	src: fix building --without-v8-platform	105		
 11089	718899	true	open	false	1		2017-01-31T19:03:25Z	2017-02-02T19:41:02Z		doc: add personal pronouns option	21		
 11090	498775	true	closed	false	1		2017-01-31T22:17:25Z	2017-01-31T23:47:06Z	2017-01-31T23:47:06Z	doc: fix changelog for v6	6		
-11091	4532328	false	open	false	3		2017-01-31T22:35:17Z	2017-02-01T18:28:34Z		SIGSEGV on closure / stack heavy program	52		
+11091	4532328	false	open	false	3		2017-01-31T22:35:17Z	2017-02-16T22:27:53Z		SIGSEGV on closure / stack heavy program	52		
 11092	4299420	true	closed	false	6		2017-01-31T23:51:35Z	2017-02-06T03:26:05Z	2017-02-06T03:26:05Z	benchmark: add assert.deep[Strict]Equal benchmarks	49		
 11093	4299420	false	open	false	2		2017-02-01T00:42:03Z	2017-02-01T01:03:40Z		url, querystring: escaping searchParams per WHATWG URL spec	170		
 11094	2512748	true	closed	false	10		2017-02-01T01:08:50Z	2017-02-09T18:15:16Z	2017-02-09T18:15:16Z	deps: upgrade libuv to 1.11.0	25		
@@ -4570,7 +4570,7 @@
 11294	439929	true	open	false	3		2017-02-10T16:57:04Z	2017-02-16T20:24:48Z		errors, process: port internal/process errors to internal/errors	88		
 11295	2512748	true	closed	false	1	0	2017-02-10T17:00:53Z	2017-02-13T18:33:40Z	2017-02-13T18:33:40Z	test: cover cluster error during dgram socket bind	66	2512748	2017-02-13T18:33:40Z
 11296	22550884	true	open	false	4		2017-02-10T17:28:26Z	2017-02-14T00:53:23Z		lib/src: refactoring out of range index	57		
-11297	22550884	true	open	false	0		2017-02-10T17:38:46Z	2017-02-14T17:50:21Z		test: consolidating buffer.read()	16		
+11297	22550884	true	open	false	1		2017-02-10T17:38:46Z	2017-02-16T22:59:46Z		test: consolidating buffer.read()	16		
 11298	439929	true	open	false	6		2017-02-10T18:26:16Z	2017-02-14T16:13:12Z		errors: assign error code to bootstrap_node created error	72		
 11299	4299420	false	open	false	0		2017-02-10T19:10:24Z	2017-02-10T20:16:05Z		New error system in WHATWG URL implementation	59		
 11300	439929	true	open	false	0	0	2017-02-10T20:10:25Z	2017-02-10T20:10:25Z		errors, child_process: migrate to using internal/errors	48		
@@ -4586,7 +4586,7 @@
 11310	696611	true	closed	false	2		2017-02-11T08:15:44Z	2017-02-11T14:47:52Z	2017-02-11T14:47:52Z	update licenses and remove v8_inspector deps license	45		
 11311	275871	true	closed	false	0	0	2017-02-11T13:41:43Z	2017-02-14T13:54:55Z	2017-02-14T13:54:55Z	build: don't rebuild test/gc add-on unnecessarily	32		
 11312	5886475	true	closed	false	2		2017-02-11T13:48:25Z	2017-02-16T15:24:47Z	2017-02-16T15:24:47Z	backport: v7.x - #11122 - test: increase coverage of buffer	37		
-11313	10393198	true	open	false	0		2017-02-11T14:33:35Z	2017-02-16T14:27:53Z		benchmarks: add dgram bind(+/- params) benchmark	121		
+11313	10393198	true	open	false	1		2017-02-11T14:33:35Z	2017-02-16T22:58:03Z		benchmarks: add dgram bind(+/- params) benchmark	121		
 11314	718899	true	open	false	2		2017-02-11T15:58:57Z	2017-02-15T20:29:37Z		assert: remove unneeded condition	41		
 11315	8738437	false	closed	false	7		2017-02-11T19:57:57Z	2017-02-12T10:07:19Z	2017-02-12T10:07:19Z	thread closes without error when module.export function is undefined	72		
 11316	1853456	false	closed	false	5		2017-02-11T23:54:52Z	2017-02-14T01:53:21Z	2017-02-11T23:58:12Z	Critical issue: no apparent way to use pure binary TCP sockets in Node 6.9.5	305		
@@ -4594,18 +4594,18 @@
 11318	5035902	true	open	false	0		2017-02-12T03:53:33Z	2017-02-13T02:25:08Z		doc: update email and add personal pronoun	23		
 11319	1028226	true	open	false			2017-02-12T08:11:17Z	2017-02-13T09:33:57Z		errors, path: migrate to use internal/errors.js	48		
 11320	694779	false	open	false	4		2017-02-12T09:01:23Z	2017-02-13T15:28:49Z		net.connect fails looking up localhost when offline (node-v0.x-archive/issues/25489 duplicate)	160		
-11321	15943089	true	open	false	0		2017-02-12T09:36:46Z	2017-02-12T17:01:06Z		doc: add STYLE_GUIDE (moved from nodejs/docs)	112		
+11321	15943089	true	closed	false	1		2017-02-12T09:36:46Z	2017-02-16T22:57:26Z	2017-02-16T22:57:26Z	doc: add STYLE_GUIDE (moved from nodejs/docs)	112		
 11322	275871	true	closed	false	0	0	2017-02-12T10:34:55Z	2017-02-14T18:36:16Z	2017-02-14T18:36:16Z	src: remove unused typedef	14		
 11323	217065	true	closed	false	1		2017-02-12T13:19:27Z	2017-02-12T23:21:45Z	2017-02-12T23:21:45Z	remove duplicated word in comment	13		
 11324	988441	true	closed	false	10		2017-02-12T15:21:15Z	2017-02-16T17:54:46Z	2017-02-16T14:55:57Z	buffer: remove Uint8Array check	44		
 11325	291301	false	open	false	4		2017-02-12T16:10:59Z	2017-02-14T00:50:16Z		meta: `ctc-agenda` label is misused according to the Project Governance	352		
-11326	1716463	true	open	false			2017-02-12T19:49:28Z	2017-02-12T23:39:09Z		test: add cases for unescape & unescapeBuffer	50		
+11326	1716463	true	open	false	1		2017-02-12T19:49:28Z	2017-02-16T22:52:46Z		test: add cases for unescape & unescapeBuffer	50		
 11327	1301158	false	closed	false	2		2017-02-12T20:21:40Z	2017-02-13T04:18:21Z	2017-02-12T23:01:49Z	Core Infrastructure Initiative (CII) Best Practices	32		
 11328	1301158	false	closed	false	2		2017-02-12T20:27:52Z	2017-02-13T08:02:47Z	2017-02-13T07:55:30Z	Sign git tags	40		
-11329	1716463	true	open	false			2017-02-12T22:06:33Z	2017-02-13T20:50:54Z		test: cases to querystring related to empty string	56		
+11329	1716463	true	closed	false	2	5	2017-02-12T22:06:33Z	2017-02-16T22:52:17Z	2017-02-16T22:52:17Z	test: cases to querystring related to empty string	56		
 11330	1538624	true	open	false	1		2017-02-13T00:01:54Z	2017-02-16T05:57:18Z		doc, url: various improvements to WHATWG API	22		
 11331	10393198	true	open	false	0		2017-02-13T03:10:19Z	2017-02-13T07:30:27Z		doc: fix sorting in API references	209		
-11332	1131567	true	open	false	1		2017-02-13T08:19:47Z	2017-02-13T09:15:33Z		util: use ES2015+ Object.is to check negative zero	56		
+11332	1131567	true	closed	false	2		2017-02-13T08:19:47Z	2017-02-16T22:48:43Z	2017-02-16T22:48:43Z	util: use ES2015+ Object.is to check negative zero	56		
 11333	771001	false	open	false	0		2017-02-13T12:20:59Z	2017-02-13T12:20:59Z		end event is not properly documented in httpClient request documentation	31		
 11334	6220422	true	closed	false			2017-02-13T13:03:53Z	2017-02-13T20:06:13Z	2017-02-13T17:00:11Z	dns.lookup return a string with no options	19		
 11335	24968144	false	open	false	3		2017-02-13T14:09:32Z	2017-02-14T10:19:32Z		problem with cross-compiling flag building windows binary under linux OS	134		
@@ -4621,8 +4621,8 @@
 11345	17607	true	open	false	7		2017-02-13T17:40:29Z	2017-02-16T17:09:02Z		7.x backport: crypto: support OPENSSL_CONF again (and its dependencies)	50		
 11346	275871	true	closed	false	10		2017-02-13T17:56:51Z	2017-02-15T17:59:34Z	2017-02-15T17:59:34Z	lib: remove simd support from util.format()	77		
 11347	1748653	true	open	false			2017-02-13T18:11:57Z	2017-02-14T19:32:12Z		errors, repl: migrate to use internal/errors.js	71		
-11348	733364	true	open	false	1		2017-02-13T18:52:25Z	2017-02-13T20:11:52Z		build: fix building with ninja on linux	83		
-11349	439929	true	open	false	2		2017-02-13T20:04:22Z	2017-02-14T16:05:36Z		tls: upgrade CryptoStream.prototype.readyState deprecation	58		
+11348	733364	true	open	false	3		2017-02-13T18:52:25Z	2017-02-16T22:44:21Z		build: fix building with ninja on linux	83		
+11349	439929	true	open	false	4		2017-02-13T20:04:22Z	2017-02-16T22:32:28Z		tls: runtime deprecate _tls_legacy	62		
 11350	17607	true	open	false	0		2017-02-13T20:05:42Z	2017-02-16T17:35:52Z		doc: dns examples implied string args were arrays	23		
 11351	811047	true	closed	false	8		2017-02-13T20:20:28Z	2017-02-16T17:37:09Z	2017-02-15T18:48:56Z	Backport test abort on timeout to v4.x	54		
 11352	17607	false	open	false	3		2017-02-13T20:25:25Z	2017-02-14T02:12:15Z		socket encodings don't link to possible encoding values, and describe behaviour which does not exist	110		
@@ -4648,7 +4648,7 @@
 11372	1538624	true	open	false	0	0	2017-02-14T07:24:51Z	2017-02-14T07:24:51Z		url: fix handling of ? in URLSearchParams creation	36		
 11373	22236206	false	closed	false	1		2017-02-14T08:08:49Z	2017-02-14T09:13:49Z	2017-02-14T08:48:37Z	npm install error 	11		
 11374	2502292	false	open	false	8		2017-02-14T14:30:39Z	2017-02-14T17:44:28Z		fs.stat should returns the actual file path	15		
-11375	115237	true	open	false	0		2017-02-14T15:18:29Z	2017-02-14T16:34:25Z		tools: add python version help text to configure	66		
+11375	115237	true	closed	false	2		2017-02-14T15:18:29Z	2017-02-16T22:28:08Z	2017-02-16T22:28:08Z	tools: suggest python2 command in configure	66		
 11376	11088793	false	closed	false	2		2017-02-14T15:27:24Z	2017-02-15T11:28:11Z	2017-02-15T08:42:48Z	wrong error on destructing assignment	110		
 11377	5886475	true	open	false	0	0	2017-02-14T15:34:04Z	2017-02-14T15:34:04Z		test: increase coverage of vm	32		
 11378	11820832	false	open	false	0		2017-02-14T15:49:05Z	2017-02-14T15:49:05Z		ar	6		
@@ -4690,7 +4690,7 @@
 11414	5884549	false	closed	false	1		2017-02-16T08:34:03Z	2017-02-16T10:04:10Z	2017-02-16T10:04:10Z	Unhandled 'error' event : ECONNRESET	70		
 11415	11139560	false	closed	false	1		2017-02-16T09:29:03Z	2017-02-16T15:18:04Z	2017-02-16T09:44:15Z	Simple stdout from child process does not always reach parent process	165		
 11416	11979939	true	open	false	1		2017-02-16T15:24:20Z	2017-02-16T17:27:47Z		test: Run test-setproctitle where setting the process title is supported by libuv	137		
-11417	4923335	true	open	false	15		2017-02-16T15:25:20Z	2017-02-16T20:18:44Z		tools: make js2c.py strip comments from sources	77		
+11417	4923335	true	open	false	18		2017-02-16T15:25:20Z	2017-02-16T22:07:45Z		tools: make js2c.py strip comments from sources	77		
 11418	474017	false	closed	false	1		2017-02-16T15:33:04Z	2017-02-16T19:39:30Z	2017-02-16T19:39:30Z	(fork) Error: read ECONNRESET	126		
 11419	1610233	true	open	false	0	0	2017-02-16T16:41:34Z	2017-02-16T16:41:34Z		test: add coverage for utf8CheckIncomplete()	47		
 11420	79017	false	open	false	0		2017-02-16T16:42:46Z	2017-02-16T16:42:46Z		Implement a test to ensure that cluster properly interoperates with the --{inspect,debug}-brk options	61		
@@ -4699,9 +4699,10 @@
 11423	4923335	true	open	false			2017-02-16T18:29:33Z	2017-02-16T19:12:00Z		test: add Unicode characters regression test	51		
 11424	287917	false	open	false	0		2017-02-16T18:48:00Z	2017-02-16T18:48:00Z		SIGUSR1 does not interrupt running JavaScript code	45		
 11425	287917	false	open	false	0		2017-02-16T18:52:34Z	2017-02-16T18:52:34Z		Inspector messages are only processed while the JavaScript is executed.	47		
-11426	1716463	true	open	false	0	0	2017-02-16T19:21:20Z	2017-02-16T19:21:20Z		test, url: check the origin of the blob URLs	75		
+11426	1716463	true	open	false	0		2017-02-16T19:21:20Z	2017-02-16T22:55:11Z		test, url: check the origin of the blob URLs	75		
 11427	2512748	true	open	false	0	0	2017-02-16T20:06:53Z	2017-02-16T20:06:53Z		child_process: remove empty if condition	36		
 11428	1716463	true	open	false	0	0	2017-02-16T20:09:37Z	2017-02-16T20:09:37Z		test, url: URLSearchParams splits across lines	61		
 11429	1084409	true	open	false			2017-02-16T20:34:44Z	2017-02-16T21:06:40Z		test: refactor test-http-response-splitting	46		
 11430	10393198	false	open	false	0		2017-02-16T20:49:27Z	2017-02-16T21:02:32Z		module.exports = {} approach and objects with fast / slow properties	384		
 11431	287917	true	open	false	0	0	2017-02-16T21:20:09Z	2017-02-16T21:20:09Z		debug: activate inspector with _debugProcess	23		
+11432	718899	true	open	false	0	0	2017-02-16T22:13:00Z	2017-02-16T22:13:00Z		test: skip IPv6 test on non-IPv6 systems	87		
