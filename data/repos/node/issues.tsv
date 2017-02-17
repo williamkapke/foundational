@@ -4664,8 +4664,8 @@
 11388	718899	true	closed	false	2	0	2017-02-14T21:47:44Z	2017-02-16T20:45:09Z	2017-02-16T20:45:08Z	test: refactor test-dgram-membership	38		
 11389	17535	true	open	false	1		2017-02-14T23:41:19Z	2017-02-16T07:37:33Z		deps: upgrade npm to 4.2.0	142		
 11390	11801881	true	open	false	0	0	2017-02-15T04:05:08Z	2017-02-15T04:05:08Z		errors, readline: migrate to use internal/errors.js	47		
-11391	439929	true	open	false	8		2017-02-15T04:16:52Z	2017-02-16T20:49:27Z		zlib: refactor zlib module	106		
-11392	439929	true	open	false	8		2017-02-15T05:04:21Z	2017-02-16T17:20:55Z		vm: refactor vm module	34		
+11391	439929	true	open	false	9		2017-02-15T04:16:52Z	2017-02-17T17:28:19Z		zlib: refactor zlib module	106		
+11392	439929	true	open	false	14		2017-02-15T05:04:21Z	2017-02-17T17:44:29Z		vm: refactor vm module	34		
 11393	718899	true	closed	false	1		2017-02-15T05:58:20Z	2017-02-16T20:42:50Z	2017-02-16T20:42:50Z	test: improve message in net-connect-local-error	54		
 11394	1131567	true	open	false	1		2017-02-15T07:15:44Z	2017-02-15T11:10:33Z		benchmarks, util: use various types of values in util.inspect bench	75		
 11395	1716463	true	open	false	1		2017-02-15T09:15:45Z	2017-02-15T22:09:25Z		test, url: test resolveObject with an empty path	75		
@@ -4684,13 +4684,13 @@
 11408	718899	true	open	false	0	0	2017-02-15T23:12:12Z	2017-02-15T23:12:12Z		test: use common.expectsError() in test-http-request-invalid-method-error.js	49		
 11409	718899	true	open	false	0	0	2017-02-15T23:34:23Z	2017-02-15T23:34:23Z		test: use expectsError in require-invalid-package	37		
 11410	1084409	true	open	false	0		2017-02-16T00:50:44Z	2017-02-16T09:31:04Z		test: use expectsError in test-debug-agent.js	47		
-11411	1084409	true	open	false	15		2017-02-16T04:28:36Z	2017-02-17T15:15:53Z		net: avoid use of `arguments`	29		
+11411	1084409	true	open	false	16		2017-02-16T04:28:36Z	2017-02-17T17:06:32Z		net: avoid use of `arguments`	29		
 11412	15943089	false	open	false	2		2017-02-16T07:00:41Z	2017-02-17T10:05:55Z		Using core.whitespace fix in git	116		
 11413	5876249	true	open	false	8		2017-02-16T07:17:13Z	2017-02-17T09:48:24Z		fix test-module-loading test case	31		
 11414	5884549	false	closed	false	1		2017-02-16T08:34:03Z	2017-02-16T10:04:10Z	2017-02-16T10:04:10Z	Unhandled 'error' event : ECONNRESET	70		
 11415	11139560	false	closed	false	1		2017-02-16T09:29:03Z	2017-02-16T15:18:04Z	2017-02-16T09:44:15Z	Simple stdout from child process does not always reach parent process	165		
 11416	11979939	true	open	false	1		2017-02-16T15:24:20Z	2017-02-16T17:27:47Z		test: Run test-setproctitle where setting the process title is supported by libuv	137		
-11417	4923335	true	open	false	18		2017-02-16T15:25:20Z	2017-02-16T22:07:45Z		tools: make js2c.py strip comments from sources	77		
+11417	4923335	true	open	false	20		2017-02-16T15:25:20Z	2017-02-17T17:27:26Z		tools: make js2c.py strip comments from sources	77		
 11418	474017	false	closed	false	1		2017-02-16T15:33:04Z	2017-02-16T19:39:30Z	2017-02-16T19:39:30Z	(fork) Error: read ECONNRESET	126		
 11419	1610233	true	open	false			2017-02-16T16:41:34Z	2017-02-17T00:43:10Z		test: add coverage for utf8CheckIncomplete()	47		
 11420	79017	false	open	false	0		2017-02-16T16:42:46Z	2017-02-16T16:42:46Z		Implement a test to ensure that cluster properly interoperates with the --{inspect,debug}-brk options	61		
@@ -4703,16 +4703,17 @@
 11427	2512748	true	open	false	0		2017-02-16T20:06:53Z	2017-02-17T14:55:10Z		child_process: remove empty if condition	36		
 11428	1716463	true	open	false	1		2017-02-16T20:09:37Z	2017-02-17T13:53:12Z		test, url: URLSearchParams splits across lines	60		
 11429	1084409	true	open	false			2017-02-16T20:34:44Z	2017-02-16T21:06:40Z		test: refactor test-http-response-splitting	46		
-11430	10393198	false	open	false	2		2017-02-16T20:49:27Z	2017-02-16T23:25:01Z		module.exports = {} approach and objects with fast / slow properties	382		
+11430	10393198	false	open	false	3		2017-02-16T20:49:27Z	2017-02-17T17:16:00Z		module.exports = {} approach and objects with fast / slow properties	382		
 11431	287917	true	open	false	2		2017-02-16T21:20:09Z	2017-02-17T01:33:30Z		debug: activate inspector with _debugProcess	23		
 11432	718899	true	closed	false	5	0	2017-02-16T22:13:00Z	2017-02-17T00:07:26Z	2017-02-17T00:07:26Z	test: skip IPv6 test on non-IPv6 systems	89		
 11433	718899	true	open	false	0		2017-02-16T23:58:57Z	2017-02-17T00:07:28Z		test: enhance test-common.js	51		
 11434	4924797	false	closed	false	1		2017-02-17T02:14:01Z	2017-02-17T13:25:14Z	2017-02-17T13:25:14Z	fs.readdir -> fs.readDir (Suggestion)	99		
 11435	4988795	true	open	false			2017-02-17T04:03:13Z	2017-02-17T15:20:26Z		test: improve https coverage to check create connection	40		
-11436	1538624	true	open	false	7		2017-02-17T05:17:59Z	2017-02-17T16:07:23Z		url: enforce valid UTF-8 in WHATWG parser	63		
+11436	1538624	true	open	false	9		2017-02-17T05:17:59Z	2017-02-17T17:04:46Z		url: enforce valid UTF-8 in WHATWG parser	63		
 11437	2352663	true	open	false			2017-02-17T10:16:42Z	2017-02-17T14:13:17Z		src,test: Prepare for future V8 changes	24		
 11438	275871	true	open	false	0	0	2017-02-17T13:12:36Z	2017-02-17T13:12:36Z		domain,events: support non-object 'error' argument	21		
 11439	4299420	true	open	false	0	0	2017-02-17T13:33:39Z	2017-02-17T13:33:39Z		test, url: sync WPT url test data	98		
 11440	24968144	false	closed	false	1		2017-02-17T15:20:57Z	2017-02-17T16:10:57Z	2017-02-17T16:10:57Z	frightening warning during fully-static compilation	117		
 11441	79017	true	open	false	0	0	2017-02-17T15:40:12Z	2017-02-17T15:40:12Z		inspector: make `debug` and alias for `inspect`	162		
 11442	1839117	false	open	false	0		2017-02-17T16:55:41Z	2017-02-17T16:55:41Z		.	6		
+11443	899444	true	open	false	0	0	2017-02-17T17:20:04Z	2017-02-17T17:20:04Z		console: fixup `console.dir()` error handling	54		
