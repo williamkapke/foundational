@@ -4563,7 +4563,7 @@
 11287	988441	true	closed	false	0	2	2017-02-10T14:24:37Z	2017-02-10T20:21:36Z	2017-02-10T20:21:36Z	benchmark: fix typos	21	988441	2017-02-10T20:21:36Z
 11288	2512748	true	closed	false	4		2017-02-10T15:03:41Z	2017-02-16T16:25:42Z	2017-02-14T16:50:44Z	child_process: exit spawnSync with null on signal	59		
 11289	600821	false	open	false	2		2017-02-10T15:05:38Z	2017-02-12T18:20:44Z		Memory leak when calling fs.write() in long synchronous loop	383		
-11290	5886475	true	open	false	5		2017-02-10T15:26:03Z	2017-02-17T00:03:54Z		test: increase coverage of timers	32		
+11290	5886475	true	open	false	6		2017-02-10T15:26:03Z	2017-02-17T18:20:50Z		test: increase coverage of timers	32		
 11291	2512748	true	closed	false	1	0	2017-02-10T15:34:39Z	2017-02-13T22:27:13Z	2017-02-13T22:27:13Z	test: add coverage for dgram _createSocketHandle()	48	2512748	2017-02-13T22:27:13Z
 11292	2512748	true	closed	false	2	0	2017-02-10T16:45:16Z	2017-02-14T16:58:13Z	2017-02-14T16:58:13Z	test: cover dgram socket close during cluster bind	72	2512748	2017-02-14T16:58:13Z
 11293	1028226	true	open	false	2		2017-02-10T16:52:01Z	2017-02-15T16:13:59Z		https: use internal/errors.js	43		
@@ -4599,7 +4599,7 @@
 11323	217065	true	closed	false	1		2017-02-12T13:19:27Z	2017-02-12T23:21:45Z	2017-02-12T23:21:45Z	remove duplicated word in comment	13		
 11324	988441	true	closed	false	10		2017-02-12T15:21:15Z	2017-02-16T17:54:46Z	2017-02-16T14:55:57Z	buffer: remove Uint8Array check	44		
 11325	291301	false	open	false	4		2017-02-12T16:10:59Z	2017-02-14T00:50:16Z		meta: `ctc-agenda` label is misused according to the Project Governance	352		
-11326	1716463	true	open	false	2		2017-02-12T19:49:28Z	2017-02-17T05:43:55Z		test: add cases for unescape & unescapeBuffer	50		
+11326	1716463	true	open	false	3		2017-02-12T19:49:28Z	2017-02-17T18:11:05Z		test: add cases for unescape & unescapeBuffer	50		
 11327	1301158	false	closed	false	2		2017-02-12T20:21:40Z	2017-02-13T04:18:21Z	2017-02-12T23:01:49Z	Core Infrastructure Initiative (CII) Best Practices	32		
 11328	1301158	false	closed	false	2		2017-02-12T20:27:52Z	2017-02-13T08:02:47Z	2017-02-13T07:55:30Z	Sign git tags	40		
 11329	1716463	true	closed	false	2	5	2017-02-12T22:06:33Z	2017-02-16T22:52:17Z	2017-02-16T22:52:17Z	test: cases to querystring related to empty string	56		
@@ -4659,17 +4659,17 @@
 11383	2512748	true	closed	false	1	0	2017-02-14T19:11:20Z	2017-02-16T18:09:13Z	2017-02-16T18:09:13Z	test: cover dgram socket close during bind case	47	2512748	2017-02-16T18:09:13Z
 11384	7693422	true	open	false			2017-02-14T20:34:56Z	2017-02-15T17:15:43Z		timers, errors: migrate to internal/errors.js	36		
 11385	7693422	true	open	false			2017-02-14T20:57:14Z	2017-02-15T17:01:56Z		errors, string_decoder: migrate to internal/errors.js	36		
-11386	79017	true	open	false			2017-02-14T21:27:00Z	2017-02-16T16:43:00Z		cluster: properly handle --inspect-{brk,port}	45		
+11386	79017	true	open	false			2017-02-14T21:27:00Z	2017-02-17T18:53:09Z		cluster: properly handle --inspect-{brk,port}	45		
 11387	1538624	true	open	false	0	0	2017-02-14T21:28:23Z	2017-02-14T21:28:23Z		(v6.x backport) url: fix surrogate handling in encodeAuth()	35		
 11388	718899	true	closed	false	2	0	2017-02-14T21:47:44Z	2017-02-16T20:45:09Z	2017-02-16T20:45:08Z	test: refactor test-dgram-membership	38		
 11389	17535	true	open	false	1		2017-02-14T23:41:19Z	2017-02-16T07:37:33Z		deps: upgrade npm to 4.2.0	142		
 11390	11801881	true	open	false	0	0	2017-02-15T04:05:08Z	2017-02-15T04:05:08Z		errors, readline: migrate to use internal/errors.js	47		
-11391	439929	true	open	false	9		2017-02-15T04:16:52Z	2017-02-17T17:28:19Z		zlib: refactor zlib module	106		
-11392	439929	true	open	false	14		2017-02-15T05:04:21Z	2017-02-17T17:44:29Z		vm: refactor vm module	34		
+11391	439929	true	closed	false	10		2017-02-15T04:16:52Z	2017-02-17T18:41:06Z	2017-02-17T18:41:06Z	zlib: refactor zlib module	106		
+11392	439929	true	closed	false	16		2017-02-15T05:04:21Z	2017-02-17T18:25:39Z	2017-02-17T18:25:39Z	vm: refactor vm module	34		
 11393	718899	true	closed	false	1		2017-02-15T05:58:20Z	2017-02-16T20:42:50Z	2017-02-16T20:42:50Z	test: improve message in net-connect-local-error	54		
 11394	1131567	true	open	false	1		2017-02-15T07:15:44Z	2017-02-15T11:10:33Z		benchmarks, util: use various types of values in util.inspect bench	75		
 11395	1716463	true	open	false	1		2017-02-15T09:15:45Z	2017-02-15T22:09:25Z		test, url: test resolveObject with an empty path	75		
-11396	5776864	true	open	false	3		2017-02-15T09:42:23Z	2017-02-16T09:02:57Z		test: remove unused args and comparison fix.	37		
+11396	5776864	true	open	false	5		2017-02-15T09:42:23Z	2017-02-17T18:06:14Z		test: remove unused args and comparison fix.	38		
 11397	2897520	true	open	false	8		2017-02-15T12:09:40Z	2017-02-16T10:04:34Z		build: depend on python2 specifically	72		
 11398	7693422	true	open	false			2017-02-15T12:19:26Z	2017-02-15T22:06:02Z		errors, querystring: migrate to internal/errors.js	32		
 11399	1716463	true	open	false	2		2017-02-15T12:35:52Z	2017-02-16T19:28:36Z		test: test bottom-up merge sort in URLSearchParams	86		
@@ -4703,13 +4703,13 @@
 11427	2512748	true	open	false	0		2017-02-16T20:06:53Z	2017-02-17T14:55:10Z		child_process: remove empty if condition	36		
 11428	1716463	true	open	false	1		2017-02-16T20:09:37Z	2017-02-17T13:53:12Z		test, url: URLSearchParams splits across lines	60		
 11429	1084409	true	open	false			2017-02-16T20:34:44Z	2017-02-16T21:06:40Z		test: refactor test-http-response-splitting	46		
-11430	10393198	false	open	false	3		2017-02-16T20:49:27Z	2017-02-17T17:16:00Z		module.exports = {} approach and objects with fast / slow properties	382		
+11430	10393198	false	open	false	5		2017-02-16T20:49:27Z	2017-02-17T18:48:27Z		module.exports = {} approach and objects with fast / slow properties	382		
 11431	287917	true	open	false	2		2017-02-16T21:20:09Z	2017-02-17T01:33:30Z		debug: activate inspector with _debugProcess	23		
 11432	718899	true	closed	false	5	0	2017-02-16T22:13:00Z	2017-02-17T00:07:26Z	2017-02-17T00:07:26Z	test: skip IPv6 test on non-IPv6 systems	89		
 11433	718899	true	open	false	0		2017-02-16T23:58:57Z	2017-02-17T00:07:28Z		test: enhance test-common.js	51		
 11434	4924797	false	closed	false	1		2017-02-17T02:14:01Z	2017-02-17T13:25:14Z	2017-02-17T13:25:14Z	fs.readdir -> fs.readDir (Suggestion)	99		
 11435	4988795	true	open	false			2017-02-17T04:03:13Z	2017-02-17T15:20:26Z		test: improve https coverage to check create connection	40		
-11436	1538624	true	open	false	9		2017-02-17T05:17:59Z	2017-02-17T17:04:46Z		url: enforce valid UTF-8 in WHATWG parser	63		
+11436	1538624	true	open	false			2017-02-17T05:17:59Z	2017-02-17T18:02:49Z		url: enforce valid UTF-8 in WHATWG parser	63		
 11437	2352663	true	open	false			2017-02-17T10:16:42Z	2017-02-17T14:13:17Z		src,test: Prepare for future V8 changes	24		
 11438	275871	true	open	false	0	0	2017-02-17T13:12:36Z	2017-02-17T13:12:36Z		domain,events: support non-object 'error' argument	21		
 11439	4299420	true	open	false	0	0	2017-02-17T13:33:39Z	2017-02-17T13:33:39Z		test, url: sync WPT url test data	98		
