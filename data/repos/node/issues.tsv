@@ -79,7 +79,7 @@
 2315	677994	true	closed	false	27		2015-08-06T20:20:44Z	2017-01-24T15:39:59Z	2015-08-21T12:51:10Z	assert: add support for Set and Map	87		
 2329	137545	true	open	false	15		2015-08-08T13:37:47Z	2016-08-07T12:44:00Z		[addons] Implement new init function argument dispatch	565		
 2333	115237	false	open	false	20		2015-08-09T06:04:13Z	2016-07-12T19:05:28Z		tty: stdio properties are undefined inside exec() child	45		
-2339	115237	false	open	false	26		2015-08-09T20:15:44Z	2017-02-17T19:19:22Z		child_process: async spawn methods not closing stdin	115		
+2339	115237	false	open	false	27		2015-08-09T20:15:44Z	2017-02-19T07:04:37Z		child_process: async spawn methods not closing stdin	115		
 2363	220205	false	open	false	13		2015-08-12T16:32:09Z	2017-02-14T18:36:56Z		Optionally log master secrets for TLS connections	106		
 2371	855219	false	closed	false	10		2015-08-13T21:17:09Z	2017-02-08T15:05:59Z	2017-02-07T20:12:49Z	Non-BMP variable names don't work from the REPL	17		
 2395	439929	true	closed	false	11	0	2015-08-16T00:23:48Z	2016-08-02T04:18:14Z	2016-08-02T04:18:14Z	http: correct fencepost error when freeing socket	60		
@@ -3544,7 +3544,7 @@
 10265	620746	false	open	false	2		2016-12-14T15:55:50Z	2016-12-14T17:06:01Z		crypto.pbkdf2Sync can't handle non ASCII character in Node 6.9.2	218		
 10266	13561163	true	closed	false	3	1	2016-12-14T16:04:24Z	2016-12-14T23:45:34Z	2016-12-14T23:45:34Z	test: add known_issues test for #6287	66		
 10267	9373002	true	closed	false	5		2016-12-14T19:05:40Z	2016-12-16T21:00:16Z	2016-12-16T21:00:16Z	doc: fix broken link in COLLABORATOR_GUIDE.md	63		
-10268	1494154	false	open	false	4		2016-12-14T20:20:33Z	2017-02-18T22:03:29Z		stall net connection after ETIMEDOUT	1269		
+10268	1494154	false	open	false	5		2016-12-14T20:20:33Z	2017-02-19T07:48:07Z		stall net connection after ETIMEDOUT	1269		
 10269	718899	true	closed	false	2		2016-12-14T20:36:36Z	2016-12-17T05:19:44Z	2016-12-17T05:19:44Z	test: refactor domain test	38		
 10270	10393198	true	closed	false	2		2016-12-14T22:24:46Z	2016-12-22T14:21:03Z	2016-12-22T14:21:03Z	doc: modernize code examples in the cluster.md	67		
 10271	532414	false	closed	false	1		2016-12-14T23:09:38Z	2016-12-27T21:49:06Z	2016-12-27T21:49:06Z	"Consider different C lib as ""cross-compile"""	149		
@@ -4364,7 +4364,7 @@
 11088	305455	true	closed	false	7		2017-01-31T18:33:50Z	2017-02-04T01:45:08Z	2017-02-03T22:53:00Z	src: fix building --without-v8-platform	105		
 11089	718899	true	open	false	1		2017-01-31T19:03:25Z	2017-02-02T19:41:02Z		doc: add personal pronouns option	21		
 11090	498775	true	closed	false	1		2017-01-31T22:17:25Z	2017-01-31T23:47:06Z	2017-01-31T23:47:06Z	doc: fix changelog for v6	6		
-11091	4532328	false	open	false	5		2017-01-31T22:35:17Z	2017-02-18T19:20:05Z		SIGSEGV on closure / stack heavy program	52		
+11091	4532328	false	open	false	6		2017-01-31T22:35:17Z	2017-02-19T07:47:33Z		SIGSEGV on closure / stack heavy program	52		
 11092	4299420	true	closed	false	6		2017-01-31T23:51:35Z	2017-02-06T03:26:05Z	2017-02-06T03:26:05Z	benchmark: add assert.deep[Strict]Equal benchmarks	49		
 11093	4299420	false	open	false	6		2017-02-01T00:42:03Z	2017-02-17T09:36:23Z		url, querystring: web platform tests broken by WHATWG URL implementation	170		
 11094	2512748	true	closed	false	10		2017-02-01T01:08:50Z	2017-02-09T18:15:16Z	2017-02-09T18:15:16Z	deps: upgrade libuv to 1.11.0	25		
@@ -4702,7 +4702,7 @@
 11426	1716463	true	open	false			2017-02-16T19:21:20Z	2017-02-18T19:21:18Z		test, url: check the origin of the blob URLs	75		
 11427	2512748	true	closed	false	1		2017-02-16T20:06:53Z	2017-02-18T14:59:50Z	2017-02-18T14:59:50Z	child_process: remove empty if condition	36		
 11428	1716463	true	closed	false	2		2017-02-16T20:09:37Z	2017-02-18T14:53:53Z	2017-02-18T14:53:53Z	test, url: URLSearchParams splits across lines	60		
-11429	1084409	true	open	false	3		2017-02-16T20:34:44Z	2017-02-18T19:01:16Z		test: refactor test-http-response-splitting	51		
+11429	1084409	true	open	false	4		2017-02-16T20:34:44Z	2017-02-19T07:11:14Z		test: refactor test-http-response-splitting	51		
 11430	10393198	false	open	false	6		2017-02-16T20:49:27Z	2017-02-17T19:28:23Z		module.exports = {} approach and objects with fast / slow properties	382		
 11431	287917	true	open	false	2		2017-02-16T21:20:09Z	2017-02-17T01:33:30Z		debug: activate inspector with _debugProcess	23		
 11432	718899	true	closed	false	5	0	2017-02-16T22:13:00Z	2017-02-17T00:07:26Z	2017-02-17T00:07:26Z	test: skip IPv6 test on non-IPv6 systems	89		
@@ -4733,5 +4733,5 @@
 11457	1538624	true	open	false	0	0	2017-02-18T19:40:24Z	2017-02-18T19:40:24Z		(v7.x backport) URL-related changes	55		
 11458	1084409	true	closed	false	1	2	2017-02-18T23:50:53Z	2017-02-19T01:53:49Z	2017-02-19T01:53:49Z	lib: change forEach to for-loop	37		
 11459	1084409	true	closed	false	1		2017-02-19T00:35:20Z	2017-02-19T01:53:43Z	2017-02-19T01:53:43Z	lib: change forEach to for-loop in internal/module	32		
-11460	15719653	true	open	false	1		2017-02-19T00:59:43Z	2017-02-19T01:12:00Z		Fixed style-guide link in CONTRIBUTING.md	9		
+11460	15719653	true	open	false	2		2017-02-19T00:59:43Z	2017-02-19T07:10:29Z		Fixed style-guide link in CONTRIBUTING.md	9		
 11461	6288765	false	open	false	0		2017-02-19T05:11:44Z	2017-02-19T05:11:44Z		_compile method of module.constructor throws when filename is not passed or is null/undefined	110		
