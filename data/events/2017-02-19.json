@@ -1,10 +1,10 @@
 {
-  "words": 112,
-  "comments": 6,
+  "words": 265,
+  "comments": 12,
   "prs": {
     "opened": 2,
-    "closed": 0,
-    "words": 112
+    "closed": 2,
+    "words": 265
   },
   "issues": {
     "opened": 0,
@@ -17,7 +17,12 @@
     "Intl": {"open":21},
     "LTS": {"open":26},
     "NG": {"open":27},
-    "TSC": {"open":59},
+    "TSC": {
+      "212": {"comments":2,"words":5,"pr":true},
+      "open": 59,
+      "words": 5,
+      "comments": 2
+    },
     "abi-stable-node": {"open":34},
     "abi-stable-node-addon-examples": {"open":0},
     "abi-stable-node-wrapper": {"open":0},
@@ -58,13 +63,15 @@
     "logos": {"open":2},
     "nan": {"open":30},
     "node": {
-      "11458": {"comments":3,"words":42,"pr":true},
-      "11459": {"comments":3,"words":61,"pr":true,"opened":"2017-02-19T00:35:20Z","opener":"1084409"},
-      "11460": {"comments":0,"words":9,"pr":true,"opened":"2017-02-19T00:59:43Z","opener":"15719653"},
-      "open": 1044,
-      "words": 112,
-      "comments": 6,
-      "opened": 2
+      "11456": {"comments":1,"words":3,"pr":true},
+      "11458": {"comments":3,"words":79,"pr":true,"closed":"2017-02-19T01:53:49Z","closer":"1084409"},
+      "11459": {"comments":4,"words":116,"pr":true,"opened":"2017-02-19T00:35:20Z","opener":"1084409","closed":"2017-02-19T01:53:43Z","closer":"1084409"},
+      "11460": {"comments":2,"words":62,"pr":true,"opened":"2017-02-19T00:59:43Z","opener":"15719653"},
+      "open": 1042,
+      "words": 260,
+      "comments": 10,
+      "opened": 2,
+      "closed": 2
     },
     "node-addon-examples": {"open":30},
     "node-chakracore": {"open":41},
@@ -128,6 +135,13 @@
     "vm": {"open":3}
   },
   "users": {
+    "2876": {
+      "id": "2876",
+      "login": "aredridel",
+      "words": {
+        "TSC/pulls/212#280888754": 1
+      }
+    },
     "115237": {
       "id": "115237",
       "login": "silverwind",
@@ -135,14 +149,27 @@
         "node/pulls/11458#101905633": 25
       }
     },
+    "418097": {
+      "id": "418097",
+      "login": "othiym23",
+      "words": {
+        "TSC/pulls/212#280889338": 4
+      }
+    },
     "1084409": {
       "id": "1084409",
       "login": "notarseniy",
       "words": {
-        "node/pulls/11459": 32
+        "node/pulls/11459": 32,
+        "node/pulls/11459#280889489": 23,
+        "node/pulls/11458": 37
       },
       "opened": [
         "node/pulls/11459"
+      ],
+      "closed": [
+        "node/pulls/11459",
+        "node/pulls/11458"
       ]
     },
     "2993861": {
@@ -151,6 +178,13 @@
       "words": {
         "node/pulls/11458#280886331": 5,
         "node/pulls/11459#280886387": 5
+      }
+    },
+    "4299420": {
+      "id": "4299420",
+      "login": "joyeecheung",
+      "words": {
+        "node/pulls/11460#280887527": 26
       }
     },
     "4964823": {
@@ -166,7 +200,9 @@
       "id": "15719653",
       "login": "Dean-Coakley",
       "words": {
-        "node/pulls/11460": 9
+        "node/pulls/11460": 9,
+        "node/pulls/11456#280887059": 3,
+        "node/pulls/11460#280887707": 27
       },
       "opened": [
         "node/pulls/11460"
