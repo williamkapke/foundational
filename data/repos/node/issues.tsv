@@ -671,7 +671,7 @@
 7355	439929	true	closed	false	28		2016-06-21T21:10:08Z	2016-07-11T23:31:34Z	2016-06-30T00:15:47Z	net: use icu's punycode implementation	370		
 7356	718899	true	closed	false	9		2016-06-22T00:19:44Z	2016-07-12T03:01:10Z	2016-06-24T00:05:48Z	test: fix flaky test-fs-watch-encoding on OS X	138		
 7358	432351	true	closed	false	6		2016-06-22T02:53:47Z	2016-07-16T19:07:30Z	2016-07-16T19:07:30Z	src: moving dispatch_debug_messages_async to Environment	51		
-7360	635085	true	open	false	26		2016-06-22T06:11:25Z	2017-02-20T20:44:20Z		tty: add ref() so process.stdin.ref() etc. work	129		
+7360	635085	true	open	false	27		2016-06-22T06:11:25Z	2017-02-20T21:32:10Z		tty: add ref() so process.stdin.ref() etc. work	129		
 7363	275871	true	closed	false	8		2016-06-22T10:24:10Z	2016-07-11T21:16:05Z	2016-06-23T07:31:07Z	crypto: update root certificates	49		
 7366	495647	false	closed	false	12		2016-06-22T14:09:53Z	2016-07-03T03:51:58Z	2016-07-03T03:51:58Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-06-22	394		
 7367	9932290	false	closed	false	17		2016-06-22T14:17:16Z	2016-08-09T15:42:06Z	2016-08-09T10:40:58Z	child_process.spawn fails on Windows given a space in both the command and an argument	87		
@@ -2990,7 +2990,7 @@
 9707	54666	false	open	false	8		2016-11-20T05:21:08Z	2016-12-22T22:42:58Z		build: mkpeephole fails during cross compiling	248		
 9708	803101	false	open	false	2		2016-11-20T13:35:06Z	2016-11-23T11:19:51Z		Wierd behavior on later versions of node	416		
 9709	635591	false	closed	false	8		2016-11-20T13:54:43Z	2016-11-21T19:43:49Z	2016-11-20T14:25:21Z	Inspected objects’ symbol key properties are hidden by default	183		
-9710	5234060	false	open	false	3		2016-11-20T15:24:39Z	2017-02-03T04:46:33Z		doc issue: socket server 'error' event: 'close' is not called as described in doc.	239		
+9710	5234060	false	closed	false	4		2016-11-20T15:24:39Z	2017-02-20T21:42:04Z	2017-02-20T21:42:04Z	doc issue: socket server 'error' event: 'close' is not called as described in doc.	239		
 9711	13315143	true	open	false	7		2016-11-20T18:22:42Z	2017-01-17T18:51:05Z		test: Change declaration by var to let.	75		
 9712	3283419	false	open	false	0		2016-11-20T18:33:20Z	2016-11-20T18:33:20Z		npm install issue	61		
 9713	3283419	false	closed	false	2		2016-11-20T19:11:23Z	2016-11-21T14:41:25Z	2016-11-20T19:13:18Z	problem with npm start	30		
@@ -4079,7 +4079,7 @@
 10802	1149663	false	closed	false	0		2017-01-14T09:00:15Z	2017-01-19T15:03:55Z	2017-01-19T15:03:55Z	Cannot disable warnings when node is launched via a shell script.	76		
 10803	54666	false	closed	false	0		2017-01-14T14:25:32Z	2017-01-19T19:24:29Z	2017-01-19T19:24:29Z	doc: http response.getHeader() documentation partially incorrect	59		
 10804	25119916	false	open	false	3		2017-01-14T14:46:19Z	2017-01-14T15:13:32Z		Error for running a program in REPL	23		
-10805	54666	true	open	false	25		2017-01-14T14:50:00Z	2017-02-20T20:47:33Z		http: add new functions to OutgoingMessage	81		
+10805	54666	true	closed	false	26	76	2017-01-14T14:50:00Z	2017-02-20T21:52:52Z	2017-02-20T21:52:52Z	http: add new functions to OutgoingMessage	81	54666	2017-02-20T21:52:52Z
 10806	617481	false	closed	false	6		2017-01-14T15:07:57Z	2017-01-25T23:48:51Z	2017-01-25T23:48:51Z	vm regression: assigning a property the first time does not work; only the second time	102		
 10807	142175	true	closed	false	2		2017-01-14T15:36:54Z	2017-01-23T02:44:06Z	2017-01-16T18:28:07Z	test: add msg validation to test-buffer-compare	30		
 10808	3367801	true	closed	false	4		2017-01-14T18:38:16Z	2017-01-16T18:25:30Z	2017-01-16T18:25:30Z	test: add test case to test-http-response-statuscode.js	41		
@@ -4256,7 +4256,7 @@
 10979	4299420	true	closed	false	4		2017-01-24T16:38:09Z	2017-01-31T19:26:53Z	2017-01-28T15:59:13Z	buffer, test: add tests for buffer.toJSON	50		
 10980	17607	true	closed	false	20	3	2017-01-24T17:57:39Z	2017-02-20T16:46:55Z	2017-02-20T16:46:55Z	deps: upgrade zlib to 1.2.11	27	17607	2017-02-20T16:46:55Z
 10981	17607	true	open	false	4		2017-01-24T19:41:21Z	2017-01-27T21:19:27Z		"doc: for style, remove ""isn't"" contraction"	21		
-10982	718899	false	open	false	5		2017-01-24T21:52:10Z	2017-02-20T18:37:00Z		Collaborator nominations	108		
+10982	718899	false	open	false	6		2017-01-24T21:52:10Z	2017-02-20T21:17:26Z		Collaborator nominations	108		
 10983	17607	true	closed	false	1	0	2017-01-24T22:05:25Z	2017-01-25T17:32:44Z	2017-01-25T17:32:44Z	doc: DEFAULT_ECDH_CURVE was added in 0.11.13	21		
 10984	17607	true	open	false	0	0	2017-01-24T22:15:46Z	2017-01-24T22:15:46Z		v4 backport: doc: add tls.DEFAULT_ECDH_CURVE	80		
 10985	1226256	false	closed	false	15		2017-01-24T22:38:54Z	2017-01-27T23:05:06Z	2017-01-27T23:05:06Z	Writing to a piped stdout stream results in Uncaught TypeError: cb is not a function	394		
@@ -4410,7 +4410,7 @@
 11133	5234060	true	closed	false	0	0	2017-02-03T04:45:34Z	2017-02-03T05:42:58Z	2017-02-03T05:42:58Z	doc for net.Server's error event. (issues 9710)	24		
 11134	5234060	true	closed	false	4		2017-02-03T05:26:16Z	2017-02-17T00:48:57Z	2017-02-17T00:48:57Z	doc: add comment for net.Server.listen IPv6 '::'	23		
 11135	2546485	false	open	false	0		2017-02-03T05:50:19Z	2017-02-03T06:22:45Z		[Documention][want_to_contribute] docs have very less information provided per API	115		
-11136	5234060	true	open	false			2017-02-03T05:51:42Z	2017-02-17T02:15:33Z		doc: add comment for net.Server's error event	23		
+11136	5234060	true	closed	false	5		2017-02-03T05:51:42Z	2017-02-20T21:41:30Z	2017-02-20T21:41:30Z	doc: add comment for net.Server's error event	23		
 11137	1453603	true	open	false	0		2017-02-03T05:57:32Z	2017-02-03T06:11:21Z		test: improve events coverage to check removeListeners, removeAllListeners functions	73		
 11138	439929	true	open	false			2017-02-03T06:04:15Z	2017-02-20T18:14:04Z		crypto: refactor crypto module	67		
 11139	4964823	true	open	false	1		2017-02-03T06:52:39Z	2017-02-03T16:57:06Z		stream: minor fix for ReadableState	44		
@@ -4459,7 +4459,7 @@
 11182	696611	true	open	false	0	0	2017-02-05T15:11:50Z	2017-02-05T15:11:50Z		Backport 10424 - v6.x - doc: killSignal option accepts integer values	46		
 11183	696611	true	open	false	0	0	2017-02-05T15:20:06Z	2017-02-05T15:20:06Z		Backport 10424 - v4.x - doc: killSignal option accepts integer values	46		
 11184	696611	true	open	false	0		2017-02-05T15:50:29Z	2017-02-06T01:05:28Z		Backport debugger test fixes v6.x	29		
-11185	6354455	true	open	false	30		2017-02-05T20:09:54Z	2017-02-18T19:42:23Z		Proposal - 7.6.0 (Current)	1503		
+11185	6354455	true	open	false	31		2017-02-05T20:09:54Z	2017-02-20T21:09:44Z		Proposal - 7.6.0 (Current)	1503		
 11186	718899	true	closed	false	0		2017-02-05T21:27:29Z	2017-02-07T23:45:14Z	2017-02-07T23:45:14Z	doc: fix typo in dgram doc	39		
 11187	718899	true	closed	false	2		2017-02-05T22:04:30Z	2017-02-08T04:15:30Z	2017-02-08T04:15:30Z	test: increase specificity in dgram test	38		
 11188	1716463	false	open	false	0		2017-02-06T00:56:06Z	2017-02-06T01:12:34Z		url: repeated slashes in file URL should be arranged	54		
@@ -4470,10 +4470,10 @@
 11193	12011447	true	closed	false	8		2017-02-06T09:18:30Z	2017-02-11T21:55:44Z	2017-02-11T21:55:44Z	test: add regex	46		
 11194	1028226	true	open	false			2017-02-06T09:59:45Z	2017-02-17T20:40:56Z		doc: stdout, stderr and stdin are all Duplex streams	40		
 11195	17898715	false	closed	false	4		2017-02-06T10:16:17Z	2017-02-06T11:57:58Z	2017-02-06T11:57:58Z	I spawn through the creation of sub-thread How non-stdio: 'inherit' set tty to true	24		
-11196	1028226	true	open	false	1		2017-02-06T11:05:43Z	2017-02-14T20:49:16Z		child_process: increase default maxBuffer to 1024*1024 bytes	58		
+11196	1028226	true	open	false	2		2017-02-06T11:05:43Z	2017-02-20T21:11:36Z		child_process: increase default maxBuffer to 1024*1024 bytes	58		
 11197	275871	true	closed	false	4		2017-02-06T13:38:58Z	2017-02-10T11:28:06Z	2017-02-09T13:55:30Z	src: fix -Wunused-result compiler warning	50		
 11198	12997967	false	open	false	6		2017-02-06T13:51:35Z	2017-02-08T10:06:31Z		Expose arbitrary constants like TIMEOUT_MAX	139		
-11199	432351	true	closed	false	4		2017-02-06T15:07:04Z	2017-02-17T00:34:10Z	2017-02-17T00:34:10Z	lib: introduce constant MAX_TICKS	45		
+11199	432351	true	closed	false	5		2017-02-06T15:07:04Z	2017-02-20T21:24:24Z	2017-02-17T00:34:10Z	lib: introduce constant MAX_TICKS	45		
 11200	498775	false	open	false	24		2017-02-06T18:39:30Z	2017-02-15T20:11:14Z		"Changing Definition of ""Locked"" for Stability Index in API Docs"	205		
 11201	7693422	true	closed	false	5	2	2017-02-06T21:14:23Z	2017-02-11T21:51:01Z	2017-02-11T21:51:01Z	test: wrap callbacks in mustCall() for test-http-agent-destroyed-socket.js 	40		
 11202	6354455	true	closed	false	4		2017-02-06T21:22:08Z	2017-02-11T21:45:18Z	2017-02-11T21:45:18Z	doc: adding Italo A. Casas PGP Fingerprint	107		
@@ -4570,7 +4570,7 @@
 11293	1028226	true	open	false	2		2017-02-10T16:52:01Z	2017-02-15T16:13:59Z		https: use internal/errors.js	43		
 11294	439929	true	open	false	3		2017-02-10T16:57:04Z	2017-02-16T20:24:48Z		errors, process: port internal/process errors to internal/errors	88		
 11295	2512748	true	closed	false	1	0	2017-02-10T17:00:53Z	2017-02-13T18:33:40Z	2017-02-13T18:33:40Z	test: cover cluster error during dgram socket bind	66	2512748	2017-02-13T18:33:40Z
-11296	22550884	true	open	false			2017-02-10T17:28:26Z	2017-02-19T06:02:57Z		lib/src: refactoring out of range index	57		
+11296	22550884	true	open	false			2017-02-10T17:28:26Z	2017-02-20T21:30:29Z		lib/src: refactoring out of range index	57		
 11297	22550884	true	closed	false	2		2017-02-10T17:38:46Z	2017-02-17T00:02:45Z	2017-02-17T00:02:45Z	test: consolidating buffer.read()	16		
 11298	439929	true	open	false	6		2017-02-10T18:26:16Z	2017-02-14T16:13:12Z		errors: assign error code to bootstrap_node created error	72		
 11299	4299420	false	open	false	0		2017-02-10T19:10:24Z	2017-02-10T20:16:05Z		New error system in WHATWG URL implementation	59		
@@ -4605,7 +4605,7 @@
 11328	1301158	false	closed	false	2		2017-02-12T20:27:52Z	2017-02-13T08:02:47Z	2017-02-13T07:55:30Z	Sign git tags	40		
 11329	1716463	true	closed	false	2	5	2017-02-12T22:06:33Z	2017-02-16T22:52:17Z	2017-02-16T22:52:17Z	test: cases to querystring related to empty string	56		
 11330	1538624	true	open	false	1		2017-02-13T00:01:54Z	2017-02-16T05:57:18Z		doc, url: various improvements to WHATWG API	22		
-11331	10393198	true	open	false	4		2017-02-13T03:10:19Z	2017-02-20T19:05:30Z		doc: fix sorting in API references	209		
+11331	10393198	true	open	false	5		2017-02-13T03:10:19Z	2017-02-20T21:10:22Z		doc: fix sorting in API references	209		
 11332	1131567	true	closed	false	2		2017-02-13T08:19:47Z	2017-02-16T22:48:43Z	2017-02-16T22:48:43Z	util: use ES2015+ Object.is to check negative zero	56		
 11333	771001	false	open	false	0		2017-02-13T12:20:59Z	2017-02-13T12:20:59Z		end event is not properly documented in httpClient request documentation	31		
 11334	6220422	true	closed	false			2017-02-13T13:03:53Z	2017-02-13T20:06:13Z	2017-02-13T17:00:11Z	dns.lookup return a string with no options	19		
@@ -4723,23 +4723,23 @@
 11446	718899	true	closed	false	1		2017-02-17T21:41:39Z	2017-02-19T20:55:11Z	2017-02-19T20:55:11Z	test: add error checking in callback	30		
 11447	439929	true	closed	false	8		2017-02-17T23:02:45Z	2017-02-20T17:36:02Z	2017-02-20T14:59:12Z	tls: use emitWarning() for dhparam < 2048 bits	72		
 11448	439929	true	closed	false	1		2017-02-17T23:27:21Z	2017-02-19T20:34:47Z	2017-02-19T20:34:47Z	util, debugger: remove internalUtil.error	43		
-11449	1084056	true	open	false	5		2017-02-17T23:42:16Z	2017-02-20T18:02:54Z		test: print call checks when a test times out	127		
+11449	1084056	true	open	false	9		2017-02-17T23:42:16Z	2017-02-20T21:08:58Z		test: print call checks when a test times out	127		
 11450	439929	true	closed	false	2		2017-02-17T23:45:02Z	2017-02-19T23:10:15Z	2017-02-19T23:10:15Z	util: cleanup internalUtil.deprecate	42		
 11451	439929	true	closed	false	1		2017-02-18T00:51:41Z	2017-02-19T20:17:39Z	2017-02-19T20:17:39Z	util: eliminate unnecessary exports	47		
 11452	5886475	true	open	false			2017-02-18T02:37:47Z	2017-02-19T08:26:44Z		doc: restrict the ES.Next features usage in tests	70		
 11453	3367801	true	closed	false	1		2017-02-18T07:07:04Z	2017-02-19T20:46:47Z	2017-02-19T20:46:47Z	test: add test cases for path	41		
 11454	2255752	true	open	false	0	0	2017-02-18T14:23:41Z	2017-02-18T14:23:41Z		tty: avoid out-of-bounds warning in TTYWrap::GetWindowSize()	93		
 11455	439929	true	open	false	6		2017-02-18T15:29:37Z	2017-02-19T20:45:38Z		util: eliminate unecessary internal/util export	50		
-11456	17553085	false	open	false	3		2017-02-18T19:11:59Z	2017-02-20T06:52:15Z		Incorrect link to style guide inside CONTRIBUTING.md	20		
+11456	17553085	false	open	false	4		2017-02-18T19:11:59Z	2017-02-20T21:49:10Z		Incorrect link to style guide inside CONTRIBUTING.md	20		
 11457	1538624	true	closed	false	4		2017-02-18T19:40:24Z	2017-02-20T02:20:16Z	2017-02-20T02:20:16Z	(v7.x backport) URL-related changes	55		
 11458	1084409	true	closed	false	1	2	2017-02-18T23:50:53Z	2017-02-19T01:53:49Z	2017-02-19T01:53:49Z	lib: change forEach to for-loop	37		
 11459	1084409	true	closed	false	1		2017-02-19T00:35:20Z	2017-02-19T01:53:43Z	2017-02-19T01:53:43Z	lib: change forEach to for-loop in internal/module	32		
 11460	15719653	true	open	false	16		2017-02-19T00:59:43Z	2017-02-20T13:26:22Z		doc: change STYLE-GUIDE to STYLE_GUIDE	20		
 11461	6288765	false	open	false	3		2017-02-19T05:11:44Z	2017-02-20T18:32:22Z		_compile method of module.constructor throws when filename is not passed or is null/undefined	114		
 11462	2352663	true	open	false			2017-02-19T12:50:28Z	2017-02-20T16:42:26Z		tools: enable one-var-declaration-per-line ESLint rule	46		
-11463	10393198	false	open	false	6		2017-02-19T15:59:34Z	2017-02-20T20:13:31Z		4 Failing tests in master	232		
+11463	10393198	false	open	false	9		2017-02-19T15:59:34Z	2017-02-20T21:57:23Z		4 Failing tests in master	232		
 11464	1538624	true	open	false			2017-02-20T06:56:22Z	2017-02-20T18:19:42Z		src: clean up MaybeStackBuffer usage in i18n	319		
 11465	22807515	false	closed	false	0		2017-02-20T07:48:15Z	2017-02-20T08:04:59Z	2017-02-20T08:04:59Z	Giving path in require command	30		
 11466	54666	true	open	false	0	0	2017-02-20T13:32:40Z	2017-02-20T13:32:40Z		build: fix newlines in addon build output	45		
 11467	13801505	false	open	false	0		2017-02-20T19:33:55Z	2017-02-20T20:45:04Z		tls documentation says that checkServerIdentity function should throw an error. It should not.	98		
-11468	886059	true	open	false	0	0	2017-02-20T20:54:53Z	2017-02-20T20:54:53Z		Fixes incorrect documentation.	19		
+11468	886059	true	open	false	0		2017-02-20T20:54:53Z	2017-02-20T21:36:37Z		Fixes incorrect documentation.	19		
