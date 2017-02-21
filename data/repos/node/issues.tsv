@@ -2657,7 +2657,7 @@
 9374	718899	true	closed	false	9		2016-10-31T04:36:24Z	2016-11-22T19:38:39Z	2016-11-03T20:27:38Z	repl: refactor lib/repl.js	52		
 9375	696611	true	closed	false	6		2016-10-31T12:13:16Z	2016-12-20T23:52:49Z	2016-11-05T09:38:27Z	build: start comments at beginning of line	70		
 9376	495647	true	open	false	2		2016-10-31T13:03:05Z	2017-02-01T20:09:12Z		crypto: initial LibreSSL support (WIP)	730		
-9377	7402787	false	closed	false	63		2016-10-31T13:32:55Z	2017-02-10T01:44:39Z	2016-11-06T10:38:10Z	Error: Cannot find module 'internal/fs' when npm install on mac	102		
+9377	7402787	false	closed	false	64		2016-10-31T13:32:55Z	2017-02-21T00:20:22Z	2016-11-06T10:38:10Z	Error: Cannot find module 'internal/fs' when npm install on mac	102		
 9378	3973850	false	open	false	24		2016-10-31T13:37:45Z	2016-11-21T05:28:37Z		readdirSync of drive letter lists items of cwd	107		
 9379	1573141	true	closed	false	3		2016-10-31T14:10:42Z	2016-11-01T19:09:16Z	2016-11-01T19:09:16Z	doc: fs: fix link to mkdtemp	39		
 9380	900690	false	open	false	5		2016-10-31T15:27:32Z	2016-11-01T01:19:50Z		fs.writeFile() removes execute permissions from file	135		
@@ -4587,7 +4587,7 @@
 11310	696611	true	closed	false	2		2017-02-11T08:15:44Z	2017-02-11T14:47:52Z	2017-02-11T14:47:52Z	update licenses and remove v8_inspector deps license	45		
 11311	275871	true	closed	false	0	0	2017-02-11T13:41:43Z	2017-02-14T13:54:55Z	2017-02-14T13:54:55Z	build: don't rebuild test/gc add-on unnecessarily	32		
 11312	5886475	true	closed	false	2		2017-02-11T13:48:25Z	2017-02-16T15:24:47Z	2017-02-16T15:24:47Z	backport: v7.x - #11122 - test: increase coverage of buffer	37		
-11313	10393198	true	open	false	2		2017-02-11T14:33:35Z	2017-02-17T00:09:47Z		benchmarks: add dgram bind(+/- params) benchmark	120		
+11313	10393198	true	open	false	3		2017-02-11T14:33:35Z	2017-02-21T00:36:54Z		benchmarks: add dgram bind(+/- params) benchmark	120		
 11314	718899	true	open	false	2		2017-02-11T15:58:57Z	2017-02-15T20:29:37Z		assert: remove unneeded condition	41		
 11315	8738437	false	closed	false	7		2017-02-11T19:57:57Z	2017-02-12T10:07:19Z	2017-02-12T10:07:19Z	thread closes without error when module.export function is undefined	72		
 11316	1853456	false	closed	false	5		2017-02-11T23:54:52Z	2017-02-14T01:53:21Z	2017-02-11T23:58:12Z	Critical issue: no apparent way to use pure binary TCP sockets in Node 6.9.5	305		
@@ -4709,7 +4709,7 @@
 11432	718899	true	closed	false	5	0	2017-02-16T22:13:00Z	2017-02-17T00:07:26Z	2017-02-17T00:07:26Z	test: skip IPv6 test on non-IPv6 systems	89		
 11433	718899	true	closed	false	2		2017-02-16T23:58:57Z	2017-02-19T20:38:33Z	2017-02-19T20:38:33Z	test: enhance test-common.js	51		
 11434	4924797	false	closed	false	1		2017-02-17T02:14:01Z	2017-02-17T13:25:14Z	2017-02-17T13:25:14Z	fs.readdir -> fs.readDir (Suggestion)	99		
-11435	4988795	true	open	false			2017-02-17T04:03:13Z	2017-02-17T15:20:26Z		test: improve https coverage to check create connection	40		
+11435	4988795	true	open	false	0		2017-02-17T04:03:13Z	2017-02-21T00:50:20Z		test: improve https coverage to check create connection	40		
 11436	1538624	true	open	false			2017-02-17T05:17:59Z	2017-02-20T07:06:25Z		url: enforce valid UTF-8 in WHATWG parser	63		
 11437	2352663	true	open	false	1		2017-02-17T10:16:42Z	2017-02-19T09:24:11Z		src,test: Prepare for future V8 changes	24		
 11438	275871	true	open	false	0	0	2017-02-17T13:12:36Z	2017-02-17T13:12:36Z		domain,events: support non-object 'error' argument	21		
@@ -4737,11 +4737,11 @@
 11460	15719653	true	open	false	16		2017-02-19T00:59:43Z	2017-02-20T13:26:22Z		doc: change STYLE-GUIDE to STYLE_GUIDE	20		
 11461	6288765	false	open	false	3		2017-02-19T05:11:44Z	2017-02-20T18:32:22Z		_compile method of module.constructor throws when filename is not passed or is null/undefined	114		
 11462	2352663	true	open	false			2017-02-19T12:50:28Z	2017-02-20T16:42:26Z		tools: enable one-var-declaration-per-line ESLint rule	46		
-11463	10393198	false	open	false	10		2017-02-19T15:59:34Z	2017-02-20T23:07:32Z		4 Failing tests in master	232		
+11463	10393198	false	open	false	14		2017-02-19T15:59:34Z	2017-02-21T00:05:25Z		4 Failing tests in master	232		
 11464	1538624	true	open	false			2017-02-20T06:56:22Z	2017-02-20T18:19:42Z		src: clean up MaybeStackBuffer usage in i18n	319		
 11465	22807515	false	closed	false	0		2017-02-20T07:48:15Z	2017-02-20T08:04:59Z	2017-02-20T08:04:59Z	Giving path in require command	30		
 11466	54666	true	open	false	0	0	2017-02-20T13:32:40Z	2017-02-20T13:32:40Z		build: fix newlines in addon build output	45		
 11467	13801505	false	open	false	0		2017-02-20T19:33:55Z	2017-02-20T20:45:04Z		tls documentation says that checkServerIdentity function should throw an error. It should not.	98		
 11468	886059	true	open	false	0		2017-02-20T20:54:53Z	2017-02-20T21:36:37Z		Fixes incorrect documentation.	19		
-11469	10393198	false	open	false	0		2017-02-20T23:26:46Z	2017-02-20T23:26:46Z		test\parallel\test-child-process-stdin.js fails in Windows with Unicode shell codepage	106		
+11469	10393198	false	open	false	0		2017-02-20T23:26:46Z	2017-02-21T00:03:49Z		Tests that call `more` fail in Windows with Unicode shell codepage	106		
 11470	10393198	false	open	false	0		2017-02-20T23:51:48Z	2017-02-20T23:51:48Z		Tests that rely upon common.spawnCat() faill in Windows with Unicode shell codepage	74		
