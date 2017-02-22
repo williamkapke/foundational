@@ -44,7 +44,7 @@
 1374	10247	false	closed	false	16		2015-04-08T13:46:19Z	2016-10-21T07:20:28Z	2015-09-03T06:13:19Z	Fatal Error (Abort) creating string larger than 268435440 bytes	93		
 1462	238531	false	open	false	24		2015-04-18T08:08:35Z	2017-02-07T18:05:25Z		Removing `newSession`/`resumeSession`	83		
 1495	902041	false	open	false	31		2015-04-21T23:54:21Z	2016-08-28T10:02:20Z		TLS Module: The default ecdhCurve, prime256v1 (aka NIST P-256) is not safe.	64		
-1568	1848357	true	open	false	32		2015-04-30T18:13:47Z	2017-01-18T05:48:54Z		core: implement resourceUsage()	79		
+1568	1848357	true	closed	false	33		2015-04-30T18:13:47Z	2017-02-22T01:02:32Z	2017-02-22T01:02:32Z	core: implement resourceUsage()	79		
 1592	617235	false	closed	false	206		2015-05-02T19:25:40Z	2016-10-05T19:11:59Z	2016-10-05T19:11:59Z	gripe: deprecating fs.exists/existsSync	202		
 1634	495647	false	open	false	10		2015-05-06T04:07:08Z	2016-08-03T18:19:05Z		Race condition on history file with multiple REPLs	57		
 1671	291301	false	open	false	51		2015-05-11T05:25:09Z	2016-07-19T11:45:03Z		`Buffer` and `ArrayBuffer`-based objects trigger mark-sweeps instead of scavenges	67		
@@ -4247,7 +4247,7 @@
 10970	4421720	true	closed	false	21		2017-01-23T23:26:43Z	2017-02-10T20:42:06Z	2017-02-10T20:42:06Z	lib: deprecate node --debug at runtime	233		
 10971	19787902	false	closed	false	5		2017-01-24T01:02:06Z	2017-01-24T02:08:12Z	2017-01-24T02:08:12Z	Error installing Node.js	27		
 10972	4542024	true	open	false	3		2017-01-24T04:28:57Z	2017-01-26T16:32:21Z		test: expand test coverage of fs.js	44		
-10973	498775	true	open	false	6		2017-01-24T08:27:04Z	2017-02-21T22:03:30Z		v4.8.0 proposal	1337		
+10973	498775	true	closed	false	7	0	2017-01-24T08:27:04Z	2017-02-22T01:39:12Z	2017-02-22T01:39:12Z	v4.8.0 proposal	1337	498775	2017-02-22T01:39:12Z
 10974	498775	true	open	false	5		2017-01-24T08:31:10Z	2017-02-21T23:35:04Z		v6.10.0 proposal	1827		
 10975	1818757	true	closed	false	0		2017-01-24T10:16:51Z	2017-01-30T10:48:52Z	2017-01-30T10:48:52Z	doc: Content-length -> Content-Length	21		
 10976	1131063	false	closed	false	1		2017-01-24T14:42:23Z	2017-01-25T09:34:30Z	2017-01-24T20:53:27Z	socket._handle.fd invalid when domain is used	208		
@@ -4459,7 +4459,7 @@
 11182	696611	true	closed	false	0		2017-02-05T15:11:50Z	2017-02-21T21:27:54Z	2017-02-21T21:27:54Z	Backport 10424 - v6.x - doc: killSignal option accepts integer values	46		
 11183	696611	true	open	false	0	0	2017-02-05T15:20:06Z	2017-02-05T15:20:06Z		Backport 10424 - v4.x - doc: killSignal option accepts integer values	46		
 11184	696611	true	open	false	0		2017-02-05T15:50:29Z	2017-02-06T01:05:28Z		Backport debugger test fixes v6.x	29		
-11185	6354455	true	open	false	33		2017-02-05T20:09:54Z	2017-02-21T19:44:05Z		Proposal - 7.6.0 (Current)	1512		
+11185	6354455	true	open	false	35		2017-02-05T20:09:54Z	2017-02-22T01:39:19Z		Proposal - 7.6.0 (Current)	1535		
 11186	718899	true	closed	false	0		2017-02-05T21:27:29Z	2017-02-07T23:45:14Z	2017-02-07T23:45:14Z	doc: fix typo in dgram doc	39		
 11187	718899	true	closed	false	2		2017-02-05T22:04:30Z	2017-02-08T04:15:30Z	2017-02-08T04:15:30Z	test: increase specificity in dgram test	38		
 11188	1716463	false	open	false	0		2017-02-06T00:56:06Z	2017-02-06T01:12:34Z		url: repeated slashes in file URL should be arranged	54		
@@ -4710,7 +4710,7 @@
 11433	718899	true	closed	false	2		2017-02-16T23:58:57Z	2017-02-19T20:38:33Z	2017-02-19T20:38:33Z	test: enhance test-common.js	51		
 11434	4924797	false	closed	false	1		2017-02-17T02:14:01Z	2017-02-17T13:25:14Z	2017-02-17T13:25:14Z	fs.readdir -> fs.readDir (Suggestion)	99		
 11435	4988795	true	open	false	0		2017-02-17T04:03:13Z	2017-02-21T00:50:20Z		test: improve https coverage to check create connection	40		
-11436	1538624	true	open	false			2017-02-17T05:17:59Z	2017-02-20T07:06:25Z		url: enforce valid UTF-8 in WHATWG parser	63		
+11436	1538624	true	open	false	12		2017-02-17T05:17:59Z	2017-02-22T01:31:24Z		url: enforce valid UTF-8 in WHATWG parser	63		
 11437	2352663	true	open	false	1		2017-02-17T10:16:42Z	2017-02-19T09:24:11Z		src,test: Prepare for future V8 changes	24		
 11438	275871	true	open	false	0	0	2017-02-17T13:12:36Z	2017-02-17T13:12:36Z		domain,events: support non-object 'error' argument	21		
 11439	4299420	true	open	false	1		2017-02-17T13:33:39Z	2017-02-19T08:33:15Z		test, url: sync WPT url test data	99		
@@ -4738,7 +4738,7 @@
 11461	6288765	false	open	false	4		2017-02-19T05:11:44Z	2017-02-21T15:41:46Z		_compile method of module.constructor throws when filename is not passed or is null/undefined	114		
 11462	2352663	true	open	false	1		2017-02-19T12:50:28Z	2017-02-21T12:02:31Z		tools: enable one-var-declaration-per-line ESLint rule	46		
 11463	10393198	false	open	false	14		2017-02-19T15:59:34Z	2017-02-21T00:05:25Z		4 Failing tests in master	232		
-11464	1538624	true	open	false			2017-02-20T06:56:22Z	2017-02-20T18:19:42Z		src: clean up MaybeStackBuffer usage in i18n	319		
+11464	1538624	true	open	false	3		2017-02-20T06:56:22Z	2017-02-22T01:04:51Z		src: clean up MaybeStackBuffer usage in i18n	319		
 11465	22807515	false	closed	false	0		2017-02-20T07:48:15Z	2017-02-20T08:04:59Z	2017-02-20T08:04:59Z	Giving path in require command	30		
 11466	54666	true	open	false	0	0	2017-02-20T13:32:40Z	2017-02-20T13:32:40Z		build: fix newlines in addon build output	45		
 11467	13801505	false	open	false	0		2017-02-20T19:33:55Z	2017-02-20T20:45:04Z		tls documentation says that checkServerIdentity function should throw an error. It should not.	98		
@@ -4763,5 +4763,5 @@
 11486	899444	true	open	false	0	0	2017-02-21T23:18:29Z	2017-02-21T23:18:29Z		doc,test: args to `buffer.copy` can be Uint8Arrays	55		
 11487	1151283	false	open	false	0		2017-02-22T00:02:35Z	2017-02-22T00:33:11Z		Error bubbling oddities with for...of loop + async await	142		
 11488	495647	true	open	false	0	0	2017-02-22T00:40:38Z	2017-02-22T00:40:38Z		governance: add Franziska Hinkelmann to the CTC	162		
-11489	899444	true	open	false	0	0	2017-02-22T00:43:37Z	2017-02-22T00:43:37Z		doc: add per-item changelogs	82		
-11490	718899	true	open	false	0	0	2017-02-22T01:00:05Z	2017-02-22T01:00:05Z		process: implement resourceUsage()	148		
+11489	899444	true	open	false	2		2017-02-22T00:43:37Z	2017-02-22T01:09:52Z		doc: add per-item changelogs	82		
+11490	718899	true	open	false			2017-02-22T01:00:05Z	2017-02-22T01:03:20Z		process: implement resourceUsage()	148		
