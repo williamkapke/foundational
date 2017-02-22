@@ -671,7 +671,7 @@
 7355	439929	true	closed	false	28		2016-06-21T21:10:08Z	2016-07-11T23:31:34Z	2016-06-30T00:15:47Z	net: use icu's punycode implementation	370		
 7356	718899	true	closed	false	9		2016-06-22T00:19:44Z	2016-07-12T03:01:10Z	2016-06-24T00:05:48Z	test: fix flaky test-fs-watch-encoding on OS X	138		
 7358	432351	true	closed	false	6		2016-06-22T02:53:47Z	2016-07-16T19:07:30Z	2016-07-16T19:07:30Z	src: moving dispatch_debug_messages_async to Environment	51		
-7360	635085	true	open	false			2016-06-22T06:11:25Z	2017-02-22T15:29:16Z		tty: add ref() so process.stdin.ref() etc. work	129		
+7360	635085	true	open	false	35		2016-06-22T06:11:25Z	2017-02-22T21:31:05Z		tty: add ref() so process.stdin.ref() etc. work	129		
 7363	275871	true	closed	false	8		2016-06-22T10:24:10Z	2016-07-11T21:16:05Z	2016-06-23T07:31:07Z	crypto: update root certificates	49		
 7366	495647	false	closed	false	12		2016-06-22T14:09:53Z	2016-07-03T03:51:58Z	2016-07-03T03:51:58Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-06-22	394		
 7367	9932290	false	closed	false	17		2016-06-22T14:17:16Z	2016-08-09T15:42:06Z	2016-08-09T10:40:58Z	child_process.spawn fails on Windows given a space in both the command and an argument	87		
@@ -3560,7 +3560,7 @@
 10280	11898796	true	open	false	0	0	2016-12-15T07:21:00Z	2016-12-15T07:21:00Z		Merge pull request #1 from nodejs/master	48		
 10281	20139338	false	closed	false	1		2016-12-15T08:27:33Z	2016-12-15T12:02:50Z	2016-12-15T11:06:15Z	How to build Nodejs for an arm64 architecture machine ?	68		
 10282	4299420	true	open	false	37		2016-12-15T08:41:44Z	2017-02-17T16:11:49Z		assert: enforce type check in deepStrictEqual	106		
-10283	15943089	true	open	false	13		2016-12-15T09:01:54Z	2016-12-30T15:52:15Z		build: remove cares header from tarball	66		
+10283	15943089	true	open	false	14		2016-12-15T09:01:54Z	2017-02-22T21:59:57Z		build: remove cares header from tarball	66		
 10284	3762808	false	open	false	3		2016-12-15T09:32:35Z	2016-12-15T15:06:07Z		dns.lookup() not considering Ipv6 entries in /etc/hosts file.	96		
 10285	20139338	false	closed	false	15		2016-12-15T11:09:57Z	2016-12-16T14:45:47Z	2016-12-16T14:45:47Z	Why the version of Node.js is not correct ?	48		
 10286	21217649	false	open	false	2		2016-12-15T11:13:47Z	2016-12-15T22:25:54Z		Intermittent parallel/test-http-regr-gh-2821 failure on V6.9.2 (Windows)	40		
@@ -3741,7 +3741,7 @@
 10464	10393198	false	open	false	0		2016-12-26T20:14:36Z	2016-12-29T20:31:30Z		Undocumented properties in object returned by child_process.spawnSync()	149		
 10465	2352663	true	closed	false	3		2016-12-26T20:17:44Z	2016-12-28T09:53:32Z	2016-12-28T09:53:32Z	v4.x: backport test: use mustCall() for simple flow tracking	37		
 10466	1420843	true	closed	false	15		2016-12-26T22:50:16Z	2016-12-31T23:45:55Z	2016-12-30T17:27:20Z	doc: Provide a warning around child_process.exec()	50		
-10467	439929	true	open	false	38		2016-12-27T02:40:27Z	2017-02-22T20:59:22Z		fs: runtime deprecation for fs.SyncWriteStream	61		
+10467	439929	true	open	false	38		2016-12-27T02:40:27Z	2017-02-22T21:08:24Z		fs: runtime deprecation for fs.SyncWriteStream	61		
 10468	16020076	true	closed	false	2		2016-12-27T04:14:30Z	2016-12-27T12:29:35Z	2016-12-27T04:27:27Z	Create a new function to listen to a server.	46		
 10469	439929	true	closed	false	10		2016-12-27T05:01:30Z	2016-12-30T20:55:26Z	2016-12-30T17:50:36Z	url: performance improvement in URL implementation	36		
 10470	2352663	true	closed	false	2	0	2016-12-27T12:49:43Z	2016-12-27T20:06:49Z	2016-12-27T20:06:49Z	v4.x: backport test: refactor and fix test-dns	6		
@@ -4021,7 +4021,7 @@
 10744	718899	true	closed	false	7		2017-01-11T19:21:22Z	2017-01-12T01:19:03Z	2017-01-12T01:19:03Z	test: move resource intensive test to sequential	50		
 10745	1281234	false	open	false	3		2017-01-11T19:48:35Z	2017-01-13T14:36:29Z		Add fs.statvfs function to get disk size/free/available space + other info	53		
 10746	2512748	true	closed	false	5	16	2017-01-11T20:47:22Z	2017-01-13T22:08:30Z	2017-01-13T22:08:30Z	cluster: refactor module into multiple files	119	2512748	2017-01-13T22:08:30Z
-10747	17607	true	open	false	21		2017-01-11T22:43:42Z	2017-02-22T15:39:52Z		Generate more certs/identities, and use them for better multi-cert test coverage	63		
+10747	17607	true	open	false	22		2017-01-11T22:43:42Z	2017-02-22T21:04:54Z		Generate more certs/identities, and use them for better multi-cert test coverage	63		
 10748	8540239	false	open	false	4		2017-01-12T00:30:05Z	2017-01-19T19:55:03Z		Request: support out of tree build	88		
 10749	718899	true	closed	false	2		2017-01-12T00:34:07Z	2017-01-13T18:11:58Z	2017-01-13T18:11:58Z	lib: refactor bootstrap_node.js regular expression	79		
 10750	617481	false	closed	false	2		2017-01-12T01:04:35Z	2017-02-02T21:22:14Z	2017-02-02T21:22:14Z	Remove nonstandard WHATWG URL url.toString(true)	26		
@@ -4623,7 +4623,7 @@
 11346	275871	true	closed	false	10		2017-02-13T17:56:51Z	2017-02-15T17:59:34Z	2017-02-15T17:59:34Z	lib: remove simd support from util.format()	77		
 11347	1748653	true	open	false			2017-02-13T18:11:57Z	2017-02-14T19:32:12Z		errors, repl: migrate to use internal/errors.js	71		
 11348	733364	true	closed	false	4		2017-02-13T18:52:25Z	2017-02-17T01:18:15Z	2017-02-17T01:18:15Z	build: fix building with ninja on linux	83		
-11349	439929	true	open	false			2017-02-13T20:04:22Z	2017-02-22T20:14:15Z		tls: runtime deprecate _tls_legacy	62		
+11349	439929	true	open	false			2017-02-13T20:04:22Z	2017-02-22T21:03:20Z		tls: runtime deprecate _tls_legacy	62		
 11350	17607	true	open	false	0		2017-02-13T20:05:42Z	2017-02-16T17:35:52Z		doc: dns examples implied string args were arrays	23		
 11351	811047	true	closed	false	8		2017-02-13T20:20:28Z	2017-02-16T17:37:09Z	2017-02-15T18:48:56Z	Backport test abort on timeout to v4.x	54		
 11352	17607	false	open	false	3		2017-02-13T20:25:25Z	2017-02-14T02:12:15Z		socket encodings don't link to possible encoding values, and describe behaviour which does not exist	110		
@@ -4773,8 +4773,8 @@
 11496	379606	false	open	false	5		2017-02-22T07:50:06Z	2017-02-22T17:22:22Z		proposal: programmatically expose the V8 inspector URL	81		
 11497	54666	true	open	false	0	0	2017-02-22T08:15:18Z	2017-02-22T08:15:18Z		process: improve memoryUsage() performance	83		
 11498	569527	true	open	false			2017-02-22T09:01:58Z	2017-02-22T15:43:35Z		test: add regex to assert in test_cyclic_link_protection	32		
-11499	5807322	false	closed	false	5		2017-02-22T09:21:24Z	2017-02-22T20:07:47Z	2017-02-22T13:59:58Z	SHA256 checksums do not match	46		
-11500	10393198	false	open	false	0		2017-02-22T09:46:59Z	2017-02-22T10:03:06Z		Degraded performance of local builds	197		
+11499	5807322	false	closed	false	10		2017-02-22T09:21:24Z	2017-02-22T21:35:57Z	2017-02-22T13:59:58Z	SHA256 checksums do not match	46		
+11500	10393198	false	open	false	2		2017-02-22T09:46:59Z	2017-02-22T21:03:09Z		Degraded performance of local builds	197		
 11501	14075323	false	closed	false	1		2017-02-22T11:27:04Z	2017-02-22T13:39:35Z	2017-02-22T13:39:35Z	Capitalized first letter removes circular dependency error	88		
 11502	73215	false	closed	false	1		2017-02-22T12:06:01Z	2017-02-22T17:27:02Z	2017-02-22T12:22:31Z	async/await in 7.6.0?	27		
 11503	20170364	true	open	false	0	0	2017-02-22T14:31:20Z	2017-02-22T14:31:20Z		fix typo in comments	27		
@@ -4785,3 +4785,4 @@
 11508	1028226	true	open	false	0	0	2017-02-22T20:24:16Z	2017-02-22T20:24:16Z		http: add bytesRead property to IncomingMessage	69		
 11509	8813134	false	open	false	0		2017-02-22T20:39:33Z	2017-02-22T20:39:33Z		"__dirname encodes space with ""%20"" while fs.existsSync() doesn't take encoded path"	114		
 11510	3807312	false	open	false	0		2017-02-22T20:45:22Z	2017-02-22T20:45:22Z		How to know if a file is already open on macOS Sierra ?	61		
+11511	718899	true	open	false	0	0	2017-02-22T21:56:29Z	2017-02-22T21:56:29Z		assert: apply minor refactoring	77		
