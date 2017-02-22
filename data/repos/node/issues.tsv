@@ -671,7 +671,7 @@
 7355	439929	true	closed	false	28		2016-06-21T21:10:08Z	2016-07-11T23:31:34Z	2016-06-30T00:15:47Z	net: use icu's punycode implementation	370		
 7356	718899	true	closed	false	9		2016-06-22T00:19:44Z	2016-07-12T03:01:10Z	2016-06-24T00:05:48Z	test: fix flaky test-fs-watch-encoding on OS X	138		
 7358	432351	true	closed	false	6		2016-06-22T02:53:47Z	2016-07-16T19:07:30Z	2016-07-16T19:07:30Z	src: moving dispatch_debug_messages_async to Environment	51		
-7360	635085	true	open	false	35		2016-06-22T06:11:25Z	2017-02-22T21:31:05Z		tty: add ref() so process.stdin.ref() etc. work	129		
+7360	635085	true	open	false			2016-06-22T06:11:25Z	2017-02-22T22:21:47Z		tty: add ref() so process.stdin.ref() etc. work	129		
 7363	275871	true	closed	false	8		2016-06-22T10:24:10Z	2016-07-11T21:16:05Z	2016-06-23T07:31:07Z	crypto: update root certificates	49		
 7366	495647	false	closed	false	12		2016-06-22T14:09:53Z	2016-07-03T03:51:58Z	2016-07-03T03:51:58Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-06-22	394		
 7367	9932290	false	closed	false	17		2016-06-22T14:17:16Z	2016-08-09T15:42:06Z	2016-08-09T10:40:58Z	child_process.spawn fails on Windows given a space in both the command and an argument	87		
@@ -3662,7 +3662,7 @@
 10385	16402596	true	closed	false	3		2016-12-21T11:09:05Z	2016-12-24T07:06:48Z	2016-12-24T07:06:48Z	async_wrap: close the destroy_ids_idle_handle_ on environment destruction	160		
 10386	2352663	true	closed	false	3		2016-12-21T15:24:52Z	2016-12-26T11:57:33Z	2016-12-26T11:57:33Z	deps: backport f795a79 from upstream V8	87		
 10387	53454	true	open	false			2016-12-21T17:51:08Z	2016-12-27T05:57:58Z		Update events.js	133		
-10388	327746	false	open	false	8		2016-12-21T17:53:39Z	2017-02-15T20:21:33Z		deps/v8/src/objects.h:3263:46: error: invalid use of incomplete type ‘class v8::internal::Heap	145		
+10388	327746	false	open	false	9		2016-12-21T17:53:39Z	2017-02-22T22:26:54Z		deps/v8/src/objects.h:3263:46: error: invalid use of incomplete type ‘class v8::internal::Heap	145		
 10389	17607	true	closed	false	5	22	2016-12-21T18:00:39Z	2017-01-12T19:12:05Z	2017-01-12T19:12:05Z	Doc and test cert apis	83	17607	2017-01-12T19:12:05Z
 10390	718899	true	closed	false	5	1	2016-12-21T18:16:32Z	2016-12-23T21:50:07Z	2016-12-23T21:50:07Z	doc: improve common.mustCall() explanation	25		
 10391	498775	true	closed	false	2		2016-12-21T19:16:18Z	2016-12-23T17:16:36Z	2016-12-23T17:16:36Z	doc: consistent 'Returns:' part two	48		
@@ -3741,7 +3741,7 @@
 10464	10393198	false	open	false	0		2016-12-26T20:14:36Z	2016-12-29T20:31:30Z		Undocumented properties in object returned by child_process.spawnSync()	149		
 10465	2352663	true	closed	false	3		2016-12-26T20:17:44Z	2016-12-28T09:53:32Z	2016-12-28T09:53:32Z	v4.x: backport test: use mustCall() for simple flow tracking	37		
 10466	1420843	true	closed	false	15		2016-12-26T22:50:16Z	2016-12-31T23:45:55Z	2016-12-30T17:27:20Z	doc: Provide a warning around child_process.exec()	50		
-10467	439929	true	open	false	38		2016-12-27T02:40:27Z	2017-02-22T21:08:24Z		fs: runtime deprecation for fs.SyncWriteStream	61		
+10467	439929	true	open	false	40		2016-12-27T02:40:27Z	2017-02-22T22:42:54Z		fs: runtime deprecation for fs.SyncWriteStream	61		
 10468	16020076	true	closed	false	2		2016-12-27T04:14:30Z	2016-12-27T12:29:35Z	2016-12-27T04:27:27Z	Create a new function to listen to a server.	46		
 10469	439929	true	closed	false	10		2016-12-27T05:01:30Z	2016-12-30T20:55:26Z	2016-12-30T17:50:36Z	url: performance improvement in URL implementation	36		
 10470	2352663	true	closed	false	2	0	2016-12-27T12:49:43Z	2016-12-27T20:06:49Z	2016-12-27T20:06:49Z	v4.x: backport test: refactor and fix test-dns	6		
@@ -4392,7 +4392,7 @@
 11115	126226	true	closed	false	4		2017-02-02T04:42:56Z	2017-02-08T19:23:18Z	2017-02-08T19:23:18Z	fs: avoid out-of-bounds arguments index access	59		
 11116	718899	true	closed	false	1		2017-02-02T05:10:30Z	2017-02-04T19:32:34Z	2017-02-04T19:32:34Z	test: make module testing stricter	112		
 11117	4299420	true	closed	false	0		2017-02-02T07:28:19Z	2017-02-04T11:43:13Z	2017-02-04T11:43:13Z	buffer, test: add tests for buffer.toJSON (backport v7.x)	46		
-11118	7408689	false	closed	false	3		2017-02-02T10:14:06Z	2017-02-07T17:53:46Z	2017-02-07T17:53:46Z	Can't build v6.9.5 with gcc 7.0.1	593		
+11118	7408689	false	closed	false	4		2017-02-02T10:14:06Z	2017-02-22T22:21:36Z	2017-02-07T17:53:46Z	Can't build v6.9.5 with gcc 7.0.1	593		
 11119	988441	true	closed	false	2		2017-02-02T15:08:58Z	2017-02-05T00:11:48Z	2017-02-03T18:35:11Z	"build: notify about the redundancy of ""nosign"""	43		
 11120	988441	true	closed	false	11	3	2017-02-02T15:24:54Z	2017-02-05T12:14:54Z	2017-02-05T12:14:54Z	buffer: stricter argument checking in toString	103	988441	2017-02-05T12:14:54Z
 11121	4964823	false	open	false	5		2017-02-02T15:49:21Z	2017-02-04T15:42:39Z		`finish` event of stream.Writable is not expectedly emitted	183		
@@ -4547,7 +4547,7 @@
 11270	10393198	true	closed	false	1		2017-02-09T19:51:18Z	2017-02-11T16:59:10Z	2017-02-11T16:59:10Z	test: adapt test-debugger-pid to localized Windows	28		
 11271	2512748	true	closed	false	1	0	2017-02-09T19:53:43Z	2017-02-13T15:09:34Z	2017-02-13T15:09:34Z	test: refactor test-dgram-address.js	58	2512748	2017-02-13T15:09:34Z
 11272	17607	true	closed	false	5	0	2017-02-09T21:10:36Z	2017-02-12T23:31:38Z	2017-02-12T23:31:38Z	src: use .data() instead of .c_str()	61		
-11273	439929	false	open	false	18		2017-02-09T21:58:17Z	2017-02-22T20:10:05Z		Tracking Issue: Migrate errors to internal/errors.js	504		
+11273	439929	false	open	false	19		2017-02-09T21:58:17Z	2017-02-22T22:37:28Z		Tracking Issue: Migrate errors to internal/errors.js	504		
 11274	718899	true	closed	false	3		2017-02-09T22:28:16Z	2017-02-14T22:07:12Z	2017-02-13T07:51:19Z	test: refactor test-http-response-statuscode	57		
 11275	4421720	true	open	false	10		2017-02-09T23:15:46Z	2017-02-22T20:43:53Z		(backport 7.x) lib: deprecate node --debug at runtime	50		
 11276	22751352	false	open	false	0		2017-02-09T23:51:32Z	2017-02-09T23:51:32Z		Cannot kill dedupe	26		
@@ -4570,7 +4570,7 @@
 11293	1028226	true	open	false	3		2017-02-10T16:52:01Z	2017-02-22T09:24:22Z		https: use internal/errors.js	43		
 11294	439929	true	open	false	3		2017-02-10T16:57:04Z	2017-02-16T20:24:48Z		errors, process: port internal/process errors to internal/errors	88		
 11295	2512748	true	closed	false	1	0	2017-02-10T17:00:53Z	2017-02-13T18:33:40Z	2017-02-13T18:33:40Z	test: cover cluster error during dgram socket bind	66	2512748	2017-02-13T18:33:40Z
-11296	22550884	true	open	false			2017-02-10T17:28:26Z	2017-02-22T15:09:16Z		lib/src: refactoring out of range index and and migrate error for consistency	57		
+11296	22550884	true	open	false			2017-02-10T17:28:26Z	2017-02-22T22:32:37Z		lib/src: refactoring out of range index and and migrate error for consistency	57		
 11297	22550884	true	closed	false	2		2017-02-10T17:38:46Z	2017-02-17T00:02:45Z	2017-02-17T00:02:45Z	test: consolidating buffer.read()	16		
 11298	439929	true	open	false	6		2017-02-10T18:26:16Z	2017-02-14T16:13:12Z		errors: assign error code to bootstrap_node created error	72		
 11299	4299420	false	open	false	0		2017-02-10T19:10:24Z	2017-02-10T20:16:05Z		New error system in WHATWG URL implementation	59		
@@ -4756,14 +4756,14 @@
 11479	899444	true	open	false			2017-02-21T17:39:37Z	2017-02-21T19:21:32Z		tools: enable unicode-bom ESLint rule	25		
 11480	55628	false	open	false	6		2017-02-21T18:36:22Z	2017-02-21T22:04:02Z		Destructuring Assignment Parse Error - works in Chrome & Safari but not Node	80		
 11481	1716463	true	open	false	0		2017-02-21T18:39:34Z	2017-02-21T19:43:41Z		test,querystring: improve querystring coverage to cover two more lines	45		
-11482	6902508	true	open	false			2017-02-21T19:17:39Z	2017-02-22T15:56:25Z		test: add regex to assert in zlib-write-after-close	71		
+11482	6902508	true	open	false	3		2017-02-21T19:17:39Z	2017-02-22T22:35:06Z		test: add regex to assert in zlib-write-after-close	71		
 11483	2352663	true	open	false	2		2017-02-21T22:03:47Z	2017-02-22T20:56:02Z		v6.x: deps: backport dfb8d33 from V8 upstream	49		
 11484	9373002	false	open	false	3		2017-02-21T22:04:19Z	2017-02-22T15:31:35Z		Improve make coverage target	108		
 11485	1538624	false	open	false	0		2017-02-21T23:09:32Z	2017-02-21T23:09:32Z		url: tracking WHATWG 'remove javascript URL special case'	13		
 11486	899444	true	open	false			2017-02-21T23:18:29Z	2017-02-22T17:53:00Z		doc,test: args to `buffer.copy` can be Uint8Arrays	57		
 11487	1151283	false	open	false	0		2017-02-22T00:02:35Z	2017-02-22T00:33:11Z		Error bubbling oddities with for...of loop + async await	142		
 11488	495647	true	open	false	0	0	2017-02-22T00:40:38Z	2017-02-22T00:40:38Z		governance: add Franziska Hinkelmann to the CTC	162		
-11489	899444	true	open	false	9		2017-02-22T00:43:37Z	2017-02-22T17:46:22Z		doc: add per-item changelogs	83		
+11489	899444	true	open	false	10		2017-02-22T00:43:37Z	2017-02-22T22:36:34Z		doc: add per-item changelogs	83		
 11490	718899	true	open	false	4		2017-02-22T01:00:05Z	2017-02-22T15:50:48Z		process: implement resourceUsage()	165		
 11491	54666	false	open	false	2		2017-02-22T04:07:48Z	2017-02-22T14:33:44Z		process: typo in comment	17		
 11492	3367801	false	open	false	0		2017-02-22T05:17:42Z	2017-02-22T15:38:49Z		fg(1) in readline's page is broken link	17		
@@ -4772,17 +4772,17 @@
 11495	379606	true	open	false	0	0	2017-02-22T07:36:36Z	2017-02-22T07:36:36Z		doc: update V8 debugger doc to mention --inspect-brk	58		
 11496	379606	false	open	false	5		2017-02-22T07:50:06Z	2017-02-22T17:22:22Z		proposal: programmatically expose the V8 inspector URL	81		
 11497	54666	true	open	false	0	0	2017-02-22T08:15:18Z	2017-02-22T08:15:18Z		process: improve memoryUsage() performance	83		
-11498	569527	true	open	false			2017-02-22T09:01:58Z	2017-02-22T15:43:35Z		test: add regex to assert in test_cyclic_link_protection	32		
-11499	5807322	false	closed	false	10		2017-02-22T09:21:24Z	2017-02-22T21:35:57Z	2017-02-22T13:59:58Z	SHA256 checksums do not match	46		
+11498	569527	true	open	false			2017-02-22T09:01:58Z	2017-02-22T23:01:31Z		test: add regex to assert in test_cyclic_link_protection	32		
+11499	5807322	false	closed	false	11		2017-02-22T09:21:24Z	2017-02-22T22:14:32Z	2017-02-22T13:59:58Z	SHA256 checksums do not match	46		
 11500	10393198	false	open	false	2		2017-02-22T09:46:59Z	2017-02-22T21:03:09Z		Degraded performance of local builds	197		
 11501	14075323	false	closed	false	1		2017-02-22T11:27:04Z	2017-02-22T13:39:35Z	2017-02-22T13:39:35Z	Capitalized first letter removes circular dependency error	88		
 11502	73215	false	closed	false	1		2017-02-22T12:06:01Z	2017-02-22T17:27:02Z	2017-02-22T12:22:31Z	async/await in 7.6.0?	27		
 11503	20170364	true	open	false	0	0	2017-02-22T14:31:20Z	2017-02-22T14:31:20Z		fix typo in comments	27		
-11504	1824298	true	open	false	2		2017-02-22T15:11:29Z	2017-02-22T17:28:31Z		docs: Fix broken fg(1) links	32		
-11505	22550884	true	open	false	0	0	2017-02-22T15:18:29Z	2017-02-22T15:18:29Z		error,test: migrating error to intenal/errors	14		
+11504	1824298	true	open	false	5		2017-02-22T15:11:29Z	2017-02-22T22:14:42Z		docs: Fix broken fg(1) links	32		
+11505	22550884	true	open	false	0		2017-02-22T15:18:29Z	2017-02-22T22:03:19Z		error,test: migrating error to intenal/errors	14		
 11506	830952	false	open	false	0		2017-02-22T17:23:58Z	2017-02-22T17:23:58Z		Expose `ScriptCompiler::CachedDataVersionTag`	73		
 11507	3065230	false	open	false	0		2017-02-22T19:00:30Z	2017-02-22T19:00:30Z		IncomingMessage.bytesRead	31		
 11508	1028226	true	open	false	0	0	2017-02-22T20:24:16Z	2017-02-22T20:24:16Z		http: add bytesRead property to IncomingMessage	69		
 11509	8813134	false	open	false	0		2017-02-22T20:39:33Z	2017-02-22T20:39:33Z		"__dirname encodes space with ""%20"" while fs.existsSync() doesn't take encoded path"	114		
 11510	3807312	false	open	false	0		2017-02-22T20:45:22Z	2017-02-22T20:45:22Z		How to know if a file is already open on macOS Sierra ?	61		
-11511	718899	true	open	false	0	0	2017-02-22T21:56:29Z	2017-02-22T21:56:29Z		assert: apply minor refactoring	77		
+11511	718899	true	open	false			2017-02-22T21:56:29Z	2017-02-22T22:12:47Z		assert: apply minor refactoring	77		
