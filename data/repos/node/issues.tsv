@@ -3697,7 +3697,7 @@
 10420	4923947	true	open	false	3		2016-12-23T03:38:58Z	2016-12-24T02:10:01Z		test fix: Use assert.strictEqual instead of assert.equal and assert.ok	46		
 10421	696611	true	open	false	0	0	2016-12-23T05:34:55Z	2016-12-23T05:34:55Z		test: fix linter error in whatwg-url-parsing	44		
 10422	14938690	false	open	false	4		2016-12-23T07:45:36Z	2016-12-23T11:49:57Z		Error: read ECONNRESET - HTTP post request from Meteor to Node js server	322		
-10423	696611	true	open	false	5		2016-12-23T10:20:24Z	2017-02-21T22:34:55Z		child_process: improve killSignal validations	116		
+10423	696611	true	open	false			2016-12-23T10:20:24Z	2017-02-22T04:39:15Z		child_process: improve killSignal validations	116		
 10424	696611	true	closed	false	7	0	2016-12-23T10:56:06Z	2017-01-06T17:59:50Z	2017-01-06T17:59:50Z	doc: killSignal option accepts integer values	37		
 10425	4723	false	open	false	1		2016-12-23T17:24:03Z	2016-12-23T19:29:20Z		Command-line arguments trimmed when passed to a script specified with -e option	94		
 10426	22550884	true	closed	false	2	4	2016-12-23T18:02:34Z	2016-12-28T17:50:13Z	2016-12-28T17:50:13Z	test: basic functionality of readUInt16LE()	22		
@@ -4450,8 +4450,8 @@
 11173	9287	false	open	false	2		2017-02-04T23:32:08Z	2017-02-05T16:25:16Z		Dist request: add http://nodejs.org/dist/latest-lts/	31		
 11174	718899	true	closed	false	2		2017-02-05T04:54:13Z	2017-02-07T23:31:36Z	2017-02-07T23:31:36Z	doc: remove extraneous paragraph from assert doc	47		
 11175	13817239	false	closed	false	1		2017-02-05T09:53:25Z	2017-02-05T11:50:46Z	2017-02-05T11:50:46Z	debug for the child_process,the error is EADDRINUSE	72		
-11176	696611	true	open	false	0		2017-02-05T13:43:45Z	2017-02-21T21:46:05Z		Backport 9815 & 10161 to v6.x	182		
-11177	696611	true	open	false	0		2017-02-05T14:48:46Z	2017-02-17T00:38:13Z		test: reduce buffer size in buffer-creation test	46		
+11176	696611	true	open	false	1		2017-02-05T13:43:45Z	2017-02-22T04:08:08Z		Backport 9815 & 10161 to v6.x	182		
+11177	696611	true	open	false	1		2017-02-05T14:48:46Z	2017-02-22T04:05:32Z		test: reduce buffer size in buffer-creation test	46		
 11178	696611	true	closed	false	0		2017-02-05T14:56:41Z	2017-02-21T21:45:38Z	2017-02-21T21:45:38Z	backport of 11074 - doc: replace newlines in deprecation with space	120		
 11179	696611	true	open	false	0	0	2017-02-05T14:59:53Z	2017-02-05T14:59:53Z		Backport of #11074 - v4.x - doc: replace newlines in deprecation with space	120		
 11180	696611	true	closed	false	0		2017-02-05T15:05:10Z	2017-02-21T21:44:28Z	2017-02-21T21:44:28Z	Backport 11037 - v6.x - doc: change logical to bitwise OR in dns lookup	74		
@@ -4757,11 +4757,12 @@
 11480	55628	false	open	false	6		2017-02-21T18:36:22Z	2017-02-21T22:04:02Z		Destructuring Assignment Parse Error - works in Chrome & Safari but not Node	80		
 11481	1716463	true	open	false	0		2017-02-21T18:39:34Z	2017-02-21T19:43:41Z		test,querystring: improve querystring coverage to cover two more lines	45		
 11482	6902508	true	open	false	0	0	2017-02-21T19:17:39Z	2017-02-21T19:17:39Z		test: add regex argument to assert throw in /test/parallel/test-zlib-write-after-close.js	72		
-11483	2352663	true	open	false	0	0	2017-02-21T22:03:47Z	2017-02-21T22:03:47Z		v6.x: deps: backport dfb8d33 from V8 upstream	49		
+11483	2352663	true	open	false			2017-02-21T22:03:47Z	2017-02-22T04:17:56Z		v6.x: deps: backport dfb8d33 from V8 upstream	49		
 11484	9373002	false	open	false	0		2017-02-21T22:04:19Z	2017-02-21T22:04:19Z		Improve make coverage target	108		
 11485	1538624	false	open	false	0		2017-02-21T23:09:32Z	2017-02-21T23:09:32Z		url: tracking WHATWG 'remove javascript URL special case'	13		
 11486	899444	true	open	false	0	0	2017-02-21T23:18:29Z	2017-02-21T23:18:29Z		doc,test: args to `buffer.copy` can be Uint8Arrays	55		
 11487	1151283	false	open	false	0		2017-02-22T00:02:35Z	2017-02-22T00:33:11Z		Error bubbling oddities with for...of loop + async await	142		
 11488	495647	true	open	false	0	0	2017-02-22T00:40:38Z	2017-02-22T00:40:38Z		governance: add Franziska Hinkelmann to the CTC	162		
 11489	899444	true	open	false	7		2017-02-22T00:43:37Z	2017-02-22T03:59:57Z		doc: add per-item changelogs	83		
-11490	718899	true	open	false			2017-02-22T01:00:05Z	2017-02-22T01:03:20Z		process: implement resourceUsage()	148		
+11490	718899	true	open	false			2017-02-22T01:00:05Z	2017-02-22T04:40:10Z		process: implement resourceUsage()	165		
+11491	54666	false	open	false	0		2017-02-22T04:07:48Z	2017-02-22T04:07:48Z		Typo in comment	14		
