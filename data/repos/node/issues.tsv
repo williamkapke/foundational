@@ -80,7 +80,7 @@
 2329	137545	true	open	false	15		2015-08-08T13:37:47Z	2016-08-07T12:44:00Z		[addons] Implement new init function argument dispatch	565		
 2333	115237	false	open	false	20		2015-08-09T06:04:13Z	2016-07-12T19:05:28Z		tty: stdio properties are undefined inside exec() child	45		
 2339	115237	false	open	false	27		2015-08-09T20:15:44Z	2017-02-19T07:04:37Z		child_process: async spawn methods not closing stdin	115		
-2363	220205	false	open	false	14		2015-08-12T16:32:09Z	2017-02-21T01:02:29Z		Optionally log master secrets for TLS connections	106		
+2363	220205	false	open	false	15		2015-08-12T16:32:09Z	2017-02-23T22:21:52Z		Optionally log master secrets for TLS connections	106		
 2371	855219	false	closed	false	10		2015-08-13T21:17:09Z	2017-02-08T15:05:59Z	2017-02-07T20:12:49Z	Non-BMP variable names don't work from the REPL	17		
 2395	439929	true	closed	false	11	0	2015-08-16T00:23:48Z	2016-08-02T04:18:14Z	2016-08-02T04:18:14Z	http: correct fencepost error when freeing socket	60		
 2398	439929	false	open	false	48		2015-08-16T01:20:43Z	2016-12-13T14:44:30Z		DTLS Discussion	54		
@@ -3903,7 +3903,7 @@
 10625	4299420	false	closed	false	15		2017-01-05T04:00:13Z	2017-01-12T15:18:35Z	2017-01-07T15:04:05Z	meta, url: track WHATWG URL implementation in GitHub project	118		
 10626	3691490	true	open	false	6		2017-01-05T05:45:33Z	2017-01-05T21:54:45Z		build: xz tarball extreme compression	122		
 10627	7455872	false	closed	false	2		2017-01-05T08:45:18Z	2017-01-05T09:51:49Z	2017-01-05T09:51:49Z	Node REPL instantaneous printing is weirdly displaying the Uint8Array content while setting them	59		
-10628	2352663	true	open	false	6		2017-01-05T08:49:32Z	2017-02-06T17:41:12Z		src: separate trace_event_common from trace_event	50		
+10628	2352663	true	open	false	7		2017-01-05T08:49:32Z	2017-02-23T22:21:29Z		src: separate trace_event_common from trace_event	50		
 10629	3691490	false	open	false	0		2017-01-05T09:14:28Z	2017-01-15T13:15:36Z		build: introduce zopfli compression	637		
 10630	11517187	false	open	false	0		2017-01-05T09:39:41Z	2017-01-05T09:39:41Z		Possibly wrong checksum for node-v4.7.1-headers.tar.gz in SHASUMS256.txt	139		
 10631	52195	true	closed	false	7		2017-01-05T10:37:18Z	2017-01-11T16:28:52Z	2017-01-11T16:28:52Z	doc: avoid memory leaks when writable.write() return false	65		
@@ -4464,7 +4464,7 @@
 11186	718899	true	closed	false	0		2017-02-05T21:27:29Z	2017-02-07T23:45:14Z	2017-02-07T23:45:14Z	doc: fix typo in dgram doc	39		
 11187	718899	true	closed	false	2		2017-02-05T22:04:30Z	2017-02-08T04:15:30Z	2017-02-08T04:15:30Z	test: increase specificity in dgram test	38		
 11188	1716463	false	open	false	0		2017-02-06T00:56:06Z	2017-02-06T01:12:34Z		url: repeated slashes in file URL should be arranged	54		
-11189	142914	true	open	false	13		2017-02-06T01:20:31Z	2017-02-23T21:24:22Z		Correct typos	11		
+11189	142914	true	open	false	14		2017-02-06T01:20:31Z	2017-02-23T22:35:33Z		Correct typos	11		
 11190	4299420	false	closed	false	2		2017-02-06T03:41:51Z	2017-02-17T15:51:23Z	2017-02-17T15:51:23Z	Move benchmark/README.md to doc/guide	41		
 11191	718899	true	open	false	0	0	2017-02-06T05:06:31Z	2017-02-06T05:06:31Z		test: add missing initialization in test-assert	74		
 11192	19763027	false	closed	false	2		2017-02-06T08:23:22Z	2017-02-06T11:13:24Z	2017-02-06T11:13:24Z	not showing current version, although i have change the path.	6		
@@ -4680,7 +4680,7 @@
 11402	1028226	true	closed	false	7		2017-02-15T20:07:56Z	2017-02-22T09:25:54Z	2017-02-19T20:42:29Z	path: rename sep to SEPARATOR and delimiter to DELIMITER	68		
 11403	12488060	true	open	false			2017-02-15T20:27:35Z	2017-02-23T02:35:58Z		Http rawheaders allocation optimization	255		
 11404	439929	true	open	false	7		2017-02-15T21:22:41Z	2017-02-21T16:53:22Z		lib: refactor internal/util	40		
-11405	1084409	true	open	false			2017-02-15T21:44:41Z	2017-02-18T18:46:30Z		doc: define use case of `common.platformTimeout`	43		
+11405	1084409	true	open	false	1		2017-02-15T21:44:41Z	2017-02-23T22:48:55Z		doc: define use case of `common.platformTimeout`	43		
 11406	439929	true	closed	false	3		2017-02-15T22:38:17Z	2017-02-22T16:58:46Z	2017-02-22T16:58:46Z	lib: refactor some lib/internals	64		
 11407	170197	false	open	false	0		2017-02-15T23:00:32Z	2017-02-15T23:00:32Z		No macOS nightlies?	16		
 11408	718899	true	closed	false	1		2017-02-15T23:12:12Z	2017-02-18T07:41:09Z	2017-02-18T07:41:09Z	test: use common.expectsError() in test-http-request-invalid-method-error.js	49		
@@ -4765,7 +4765,7 @@
 11487	1151283	false	open	false	0		2017-02-22T00:02:35Z	2017-02-22T00:33:11Z		Error bubbling oddities with for...of loop + async await	142		
 11488	495647	true	open	false	0	0	2017-02-22T00:40:38Z	2017-02-22T00:40:38Z		governance: add Franziska Hinkelmann to the CTC	162		
 11489	899444	true	open	false			2017-02-22T00:43:37Z	2017-02-23T16:40:58Z		doc: add per-item changelogs	83		
-11490	718899	true	open	false	5		2017-02-22T01:00:05Z	2017-02-23T21:07:07Z		process: implement resourceUsage()	165		
+11490	718899	true	open	false	6		2017-02-22T01:00:05Z	2017-02-23T22:36:29Z		process: implement resourceUsage()	165		
 11491	54666	false	open	false	5		2017-02-22T04:07:48Z	2017-02-23T11:40:50Z		process: typo in comment	17		
 11492	3367801	false	open	false	0		2017-02-22T05:17:42Z	2017-02-22T15:38:49Z		fg(1) in readline's page is broken link	17		
 11493	7315383	false	open	false	3		2017-02-22T05:41:37Z	2017-02-22T15:27:47Z		Node 7.6.0 ARMv6 binary missing	14		
@@ -4786,7 +4786,7 @@
 11508	1028226	true	open	false	2		2017-02-22T20:24:16Z	2017-02-23T04:55:32Z		http: add bytesRead property to IncomingMessage	69		
 11509	8813134	false	open	false	0		2017-02-22T20:39:33Z	2017-02-22T20:39:33Z		"__dirname encodes space with ""%20"" while fs.existsSync() doesn't take encoded path"	114		
 11510	3807312	false	open	false	0		2017-02-22T20:45:22Z	2017-02-22T20:45:22Z		How to know if a file is already open on macOS Sierra ?	61		
-11511	718899	true	open	false			2017-02-22T21:56:29Z	2017-02-22T22:12:47Z		assert: apply minor refactoring	77		
+11511	718899	true	open	false			2017-02-22T21:56:29Z	2017-02-23T22:51:44Z		assert: apply minor refactoring	77		
 11512	718899	true	open	false	2		2017-02-22T23:33:15Z	2017-02-23T00:06:12Z		test: change common.expectsError() signature	247		
 11513	1084409	true	open	false	1		2017-02-22T23:54:50Z	2017-02-23T00:21:27Z		net: prefer === to ==	33		
 11514	705783	false	open	false	29		2017-02-23T02:38:57Z	2017-02-23T21:25:58Z		node blocks when piping to standard output.  Git for Bash on Windows 10, Cygwin too.	155		
@@ -4801,3 +4801,5 @@
 11523	18662996	true	open	false	0	0	2017-02-23T18:35:11Z	2017-02-23T18:35:11Z		errors, http client: migrate to internal/error.js	46		
 11524	25935833	false	open	false	0		2017-02-23T21:18:07Z	2017-02-23T21:18:07Z		Better error message when request has incorrect content-length	193		
 11525	410447	false	open	false	0		2017-02-23T21:46:30Z	2017-02-23T21:46:30Z		repl doesn't honor inputrc	43		
+11526	6216576	false	open	false	0		2017-02-23T22:16:30Z	2017-02-23T22:16:30Z		Update the authors list	17		
+11527	17053486	false	open	false	0		2017-02-23T22:51:54Z	2017-02-23T22:51:54Z		Cannot read property 'path' of null	438		
