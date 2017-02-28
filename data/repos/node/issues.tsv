@@ -183,7 +183,7 @@
 3664	907301	false	closed	false	5		2015-11-04T19:52:31Z	2017-02-07T21:11:04Z	2017-02-07T21:11:04Z	npmrc file node installer generates needs to be changed	93		
 3688	1514495	false	closed	false	6		2015-11-06T07:25:54Z	2016-09-05T16:30:10Z	2015-11-06T16:21:29Z	Enable Vtune profiling support for JavaScript to provide source code level profiling in Nodejs 	195		
 3692	8949910	false	open	false	119		2015-11-06T16:05:41Z	2016-09-14T23:21:21Z		HTTP/HTTPS client requests throwing EPROTO	60		
-3715	4831315	false	closed	false	14		2015-11-08T23:39:16Z	2017-02-07T21:06:36Z	2017-02-07T21:06:36Z	GC segfault	65		
+3715	4831315	false	closed	false	14		2015-11-08T23:39:16Z	2017-02-28T14:30:48Z	2017-02-07T21:06:36Z	GC segfault	65		
 3741	275871	false	closed	false	26		2015-11-10T18:00:28Z	2016-09-06T14:56:52Z	2016-09-06T14:56:52Z	V8 working group	122		
 3742	15664368	false	closed	false	19		2015-11-10T18:55:31Z	2016-10-26T09:26:40Z	2016-04-28T12:47:31Z	Nodejs 4 introduces UNABLE_TO_GET_ISSUER_CERT_LOCALLY error for users behind company firewalls	74		
 3743	677994	true	closed	false	137		2015-11-10T19:15:06Z	2016-08-05T13:35:58Z	2016-04-26T00:29:24Z	cluster: migrate from worker.suicide	17		
@@ -342,7 +342,7 @@
 5757	514417	false	open	false	3		2016-03-17T09:16:05Z	2016-07-27T11:45:06Z		net.Socket has no setConnectionTimeout(timeout) method	37		
 5780	471070	true	closed	false	5	7	2016-03-18T10:49:38Z	2017-01-18T06:16:27Z	2017-01-18T06:16:27Z	buffer: Error message should be more explicit for .toString() on huge…	153		
 5793	1093990	true	closed	false	9		2016-03-18T21:09:44Z	2016-08-30T14:13:49Z	2016-03-21T15:23:07Z	timers: give Timeouts a constructor name	53		
-5796	9373002	false	open	false	5		2016-03-18T22:51:56Z	2017-01-02T17:08:34Z		V8 test - cctest/compiler/codegen-tester.h fails on arm	82		
+5796	9373002	false	closed	false	6		2016-03-18T22:51:56Z	2017-02-28T14:42:32Z	2017-02-28T14:42:32Z	V8 test - cctest/compiler/codegen-tester.h fails on arm	82		
 5798	17942010	false	open	false	130		2016-03-19T05:47:12Z	2016-09-17T14:06:13Z		Use system random generator in crypto	33		
 5804	1315533	true	closed	false	16		2016-03-19T18:30:35Z	2016-08-30T14:14:10Z	2016-03-21T15:52:12Z	dns: use isIp consistently	65		
 5816	17975468	false	open	false	6		2016-03-21T06:03:18Z	2016-09-14T13:54:49Z		Issue installing node js on Windows 7 Enterprise edition 64 bit	145		
@@ -2459,7 +2459,7 @@
 9172	9522710	false	closed	false	3		2016-10-18T21:28:03Z	2016-10-24T23:21:14Z	2016-10-21T10:25:35Z	Seg fault while executing function	126		
 9173	4976075	true	closed	false	5		2016-10-18T23:43:54Z	2016-11-28T17:07:16Z	2016-11-28T17:07:16Z	deps: cherry pick 7166503 from upstream v8	45		
 9174	289174	true	closed	false	5		2016-10-18T23:45:40Z	2016-12-20T20:32:49Z	2016-10-20T19:46:54Z	buffer: fix range checks for slice()	144		
-9175	2292713	false	open	false	4		2016-10-19T04:34:49Z	2017-01-10T06:15:50Z		Step out/Shift F11/Out debug command does not stop when exception is thrown inside a function	140		
+9175	2292713	false	closed	false	7		2016-10-19T04:34:49Z	2017-02-28T14:41:14Z	2017-02-28T14:41:14Z	Step out/Shift F11/Out debug command does not stop when exception is thrown inside a function	140		
 9176	6769982	false	closed	false	2		2016-10-19T07:16:40Z	2016-10-19T09:43:24Z	2016-10-19T08:11:22Z	node app not exiting in case of reference error	46		
 9177	20339155	true	closed	false	1	0	2016-10-19T08:48:22Z	2016-10-19T09:01:42Z	2016-10-19T09:01:42Z	Add ssh and mongodb to the list of slashed protocols	84		
 9178	101553	true	closed	false	2		2016-10-19T09:09:17Z	2016-10-20T12:13:20Z	2016-10-20T12:13:20Z	test: add regression test for instanceof	66		
@@ -3666,7 +3666,7 @@
 10385	16402596	true	closed	false	3		2016-12-21T11:09:05Z	2016-12-24T07:06:48Z	2016-12-24T07:06:48Z	async_wrap: close the destroy_ids_idle_handle_ on environment destruction	160		
 10386	2352663	true	closed	false	3		2016-12-21T15:24:52Z	2016-12-26T11:57:33Z	2016-12-26T11:57:33Z	deps: backport f795a79 from upstream V8	87		
 10387	53454	true	open	false			2016-12-21T17:51:08Z	2016-12-27T05:57:58Z		Update events.js	133		
-10388	327746	false	open	false	11		2016-12-21T17:53:39Z	2017-02-23T06:04:41Z		deps/v8/src/objects.h:3263:46: error: invalid use of incomplete type ‘class v8::internal::Heap	145		
+10388	327746	false	open	false	11		2016-12-21T17:53:39Z	2017-02-28T14:35:18Z		deps/v8/src/objects.h:3263:46: error: invalid use of incomplete type ‘class v8::internal::Heap	145		
 10389	17607	true	closed	false	5	22	2016-12-21T18:00:39Z	2017-01-12T19:12:05Z	2017-01-12T19:12:05Z	Doc and test cert apis	83	17607	2017-01-12T19:12:05Z
 10390	718899	true	closed	false	5	1	2016-12-21T18:16:32Z	2016-12-23T21:50:07Z	2016-12-23T21:50:07Z	doc: improve common.mustCall() explanation	25		
 10391	498775	true	closed	false	2		2016-12-21T19:16:18Z	2016-12-23T17:16:36Z	2016-12-23T17:16:36Z	doc: consistent 'Returns:' part two	48		
@@ -4067,7 +4067,7 @@
 10786	3367801	true	open	false	6		2017-01-13T11:25:55Z	2017-01-17T16:16:24Z		test: add crypto's setEngine test	70		
 10787	533294	false	closed	false	4		2017-01-13T12:04:43Z	2017-01-17T09:41:44Z	2017-01-17T09:41:44Z	"Documentation for HttpClient ""abort"" and ""aborted"" events mixed up."	215		
 10788	16086197	false	closed	false	1		2017-01-13T14:58:15Z	2017-01-13T15:04:07Z	2017-01-13T15:00:25Z	Array spread operators are slower than its counter part	68		
-10789	54666	true	open	false	4		2017-01-13T15:07:46Z	2017-02-19T09:28:43Z		module: improve require() performance	285		
+10789	54666	true	open	false			2017-01-13T15:07:46Z	2017-02-28T14:48:44Z		module: improve require() performance	285		
 10790	22550884	true	open	false	5		2017-01-13T17:27:12Z	2017-01-26T22:01:10Z		test: testing noAssert in buffer.write()	34		
 10791	22550884	true	closed	false	1		2017-01-13T17:52:06Z	2017-01-16T18:34:05Z	2017-01-16T18:34:05Z	test: delete duplicate test of noAssert in readUInt*	27		
 10792	677994	false	closed	false	9		2017-01-13T19:08:05Z	2017-01-24T13:43:12Z	2017-01-24T13:43:12Z	Proposal to move guides to nodejs/nodejs.org	72		
@@ -4478,7 +4478,7 @@
 11197	275871	true	closed	false	4		2017-02-06T13:38:58Z	2017-02-10T11:28:06Z	2017-02-09T13:55:30Z	src: fix -Wunused-result compiler warning	50		
 11198	12997967	false	open	false	6		2017-02-06T13:51:35Z	2017-02-08T10:06:31Z		Expose arbitrary constants like TIMEOUT_MAX	139		
 11199	432351	true	closed	false	9		2017-02-06T15:07:04Z	2017-02-21T07:14:58Z	2017-02-17T00:34:10Z	lib: introduce constant MAX_TICKS	45		
-11200	498775	false	open	false	24		2017-02-06T18:39:30Z	2017-02-15T20:11:14Z		"Changing Definition of ""Locked"" for Stability Index in API Docs"	205		
+11200	498775	false	open	false	25		2017-02-06T18:39:30Z	2017-02-28T14:59:38Z		"Changing Definition of ""Locked"" for Stability Index in API Docs"	205		
 11201	7693422	true	closed	false	5	2	2017-02-06T21:14:23Z	2017-02-11T21:51:01Z	2017-02-11T21:51:01Z	test: wrap callbacks in mustCall() for test-http-agent-destroyed-socket.js 	40		
 11202	6354455	true	closed	false	4		2017-02-06T21:22:08Z	2017-02-11T21:45:18Z	2017-02-11T21:45:18Z	doc: adding Italo A. Casas PGP Fingerprint	107		
 11203	4660500	true	closed	false	11		2017-02-06T21:22:11Z	2017-02-14T17:07:05Z	2017-02-11T21:42:33Z	test: improve buffer.includes error verification tests	51		
@@ -4512,7 +4512,7 @@
 11231	718899	false	open	false	7		2017-02-08T00:57:22Z	2017-02-10T14:32:29Z		Update CONTRIBUTING.md to clarify single-test running 	107		
 11232	718899	true	closed	false	1		2017-02-08T04:54:12Z	2017-02-10T04:49:12Z	2017-02-10T04:49:12Z	test: refactor test-fs-buffer	96		
 11233	718899	false	open	false	6		2017-02-08T06:13:01Z	2017-02-24T19:38:48Z		tracking issue: async loader for module interop	250		
-11234	54666	true	closed	false	9		2017-02-08T08:23:50Z	2017-02-28T04:21:07Z	2017-02-13T18:50:26Z	querystring: fix empty pairs handling	198		
+11234	54666	true	closed	false	10		2017-02-08T08:23:50Z	2017-02-28T14:24:31Z	2017-02-13T18:50:26Z	querystring: fix empty pairs handling	198		
 11235	54666	true	closed	false	4		2017-02-08T08:32:30Z	2017-02-17T00:25:12Z	2017-02-17T00:25:12Z	benchmark: fix timer display in progress output	52		
 11236	2352663	true	closed	false	7		2017-02-08T10:11:48Z	2017-02-16T20:37:28Z	2017-02-16T20:37:28Z	url: implement URL.prototype.toJSON	41		
 11237	4299420	true	closed	false	14		2017-02-08T11:19:44Z	2017-02-17T15:54:12Z	2017-02-17T15:54:12Z	doc: reorganize benchmarking guide/readme, update test/README.md	105		
@@ -4768,7 +4768,7 @@
 11487	1151283	false	open	false	0		2017-02-22T00:02:35Z	2017-02-22T00:33:11Z		Error bubbling oddities with for...of loop + async await	142		
 11488	495647	true	open	false	1		2017-02-22T00:40:38Z	2017-02-26T01:05:56Z		governance: add Franziska Hinkelmann to the CTC	275		
 11489	899444	true	closed	false	13	7	2017-02-22T00:43:37Z	2017-02-24T01:08:10Z	2017-02-24T01:08:10Z	doc: add per-item changelogs	83	899444	2017-02-24T01:08:10Z
-11490	718899	true	open	false	23		2017-02-22T01:00:05Z	2017-02-27T23:49:57Z		process: implement resourceUsage()	165		
+11490	718899	true	open	false			2017-02-22T01:00:05Z	2017-02-28T14:57:34Z		process: implement resourceUsage()	165		
 11491	54666	false	closed	false	6		2017-02-22T04:07:48Z	2017-02-25T15:57:04Z	2017-02-25T15:57:04Z	process: typo in comment	17		
 11492	3367801	false	closed	false	1		2017-02-22T05:17:42Z	2017-02-24T01:44:55Z	2017-02-24T01:44:55Z	fg(1) in readline's page is broken link	17		
 11493	7315383	false	open	false	3		2017-02-22T05:41:37Z	2017-02-22T15:27:47Z		Node 7.6.0 ARMv6 binary missing	14		
@@ -4831,7 +4831,7 @@
 11550	275871	false	open	false	1		2017-02-25T12:25:55Z	2017-02-25T16:18:41Z		doc,vm: warn more prominently against executing untrusted code	56		
 11551	1716463	true	open	false	0		2017-02-25T15:33:20Z	2017-02-27T20:02:20Z		test: add two test cases for querystring	74		
 11552	156562	false	open	false	1		2017-02-25T16:26:44Z	2017-02-26T06:48:44Z		node servers should handle upgrade headers gracefully	100		
-11553	6354455	true	open	false			2017-02-25T16:38:22Z	2017-02-28T06:50:38Z		7.7.0 Proposal	1590		
+11553	6354455	true	open	false			2017-02-25T16:38:22Z	2017-02-28T14:37:44Z		7.7.0 Proposal	1912		
 11554	19511039	true	open	false			2017-02-25T17:41:47Z	2017-02-25T21:13:30Z		doc: argument types for console methods	37		
 11555	439929	true	open	false	4		2017-02-25T19:18:29Z	2017-02-27T22:11:09Z		meta: move WORKING_GROUPS.md to CTC repo	29		
 11556	439929	true	open	false	1		2017-02-25T19:26:49Z	2017-02-26T05:24:05Z		meta: remove out of date ROADMAP.md file	43		
@@ -4878,8 +4878,10 @@
 11597	439929	true	open	false	0	0	2017-02-28T01:56:47Z	2017-02-28T01:56:47Z		dns: minor refactor of dns module	34		
 11598	5056373	false	open	false	0		2017-02-28T02:28:07Z	2017-02-28T02:28:07Z		"when I  use   fetch  upload file ,the headers‘s boundary will be added a """"(涮引号)"	107		
 11599	1538624	true	open	false	0	0	2017-02-28T03:07:06Z	2017-02-28T03:07:06Z		repl: docs-only deprecate magic mode	104		
-11600	718899	true	open	false	0	0	2017-02-28T08:24:22Z	2017-02-28T08:24:22Z		buffer: add tests for Buffer.prototype.inspect() and refactor	150		
+11600	718899	true	open	false	0		2017-02-28T08:24:22Z	2017-02-28T14:56:45Z		buffer: add tests for Buffer.prototype.inspect() and refactor	150		
 11601	10393198	true	open	false	0		2017-02-28T10:52:36Z	2017-02-28T11:57:23Z		test: fix params in parallel/test-fs-null-bytes.js	77		
 11602	6447530	true	open	false			2017-02-28T11:56:24Z	2017-02-28T12:38:55Z		test: exclude pseudo-tty test pertinent to #11541	82		
 11603	26087493	false	open	false	0		2017-02-28T12:31:23Z	2017-02-28T12:31:23Z		EADDRINUSE Error please help me	56		
 11604	2599332	false	open	false	0		2017-02-28T13:41:11Z	2017-02-28T13:51:57Z		Backslash with ES6 String Template not displaying correctly in REPL	67		
+11605	327019	false	open	false	0		2017-02-28T14:42:37Z	2017-02-28T14:42:37Z		Add assert.equal for length of Buffer.concat(list, length)	25		
+11606	21952142	false	open	false	0		2017-02-28T14:57:30Z	2017-02-28T14:57:30Z		GC segfault	111		
