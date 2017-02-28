@@ -4384,7 +4384,7 @@
 11103	11838792	false	open	false	3		2017-02-01T15:25:17Z	2017-02-02T07:42:51Z		v7.x undocumented backward incompatibility of url.format()	173		
 11104	5268928	false	closed	false	4		2017-02-01T15:32:46Z	2017-02-10T07:43:19Z	2017-02-09T18:15:37Z	7.5.0 clock_gettime runtime failure built with macOS 10.11 and Xcode 8.x	541		
 11105	1538624	true	closed	false	4	3	2017-02-01T17:35:02Z	2017-02-03T21:04:02Z	2017-02-03T21:04:02Z	url: fix setting `url.search` to the empty string	39		
-11106	1485909	true	open	false	5		2017-02-01T17:56:19Z	2017-02-27T22:52:55Z		v7.x backport - src: Node Tracing Controller	121		
+11106	1485909	true	open	false	6		2017-02-01T17:56:19Z	2017-02-27T23:13:14Z		v7.x backport - src: Node Tracing Controller	121		
 11107	3086146	true	closed	false	0		2017-02-01T18:20:09Z	2017-02-02T13:37:23Z	2017-02-01T18:21:05Z	Fix node	49		
 11108	156867	true	closed	false	2	0	2017-02-01T19:22:13Z	2017-02-04T08:10:50Z	2017-02-04T08:10:50Z	"doc: fix ""initial delay"" link in http.md"	8		
 11109	101553	true	closed	false	0		2017-02-01T19:32:45Z	2017-02-04T11:27:55Z	2017-02-04T11:27:55Z	src: don't overwrite non-writable vm globals	95		
@@ -4768,7 +4768,7 @@
 11487	1151283	false	open	false	0		2017-02-22T00:02:35Z	2017-02-22T00:33:11Z		Error bubbling oddities with for...of loop + async await	142		
 11488	495647	true	open	false	1		2017-02-22T00:40:38Z	2017-02-26T01:05:56Z		governance: add Franziska Hinkelmann to the CTC	275		
 11489	899444	true	closed	false	13	7	2017-02-22T00:43:37Z	2017-02-24T01:08:10Z	2017-02-24T01:08:10Z	doc: add per-item changelogs	83	899444	2017-02-24T01:08:10Z
-11490	718899	true	open	false	22		2017-02-22T01:00:05Z	2017-02-27T21:49:51Z		process: implement resourceUsage()	165		
+11490	718899	true	open	false	23		2017-02-22T01:00:05Z	2017-02-27T23:49:57Z		process: implement resourceUsage()	165		
 11491	54666	false	closed	false	6		2017-02-22T04:07:48Z	2017-02-25T15:57:04Z	2017-02-25T15:57:04Z	process: typo in comment	17		
 11492	3367801	false	closed	false	1		2017-02-22T05:17:42Z	2017-02-24T01:44:55Z	2017-02-24T01:44:55Z	fg(1) in readline's page is broken link	17		
 11493	7315383	false	open	false	3		2017-02-22T05:41:37Z	2017-02-22T15:27:47Z		Node 7.6.0 ARMv6 binary missing	14		
@@ -4827,7 +4827,7 @@
 11546	2512748	true	open	false	0		2017-02-25T00:05:23Z	2017-02-27T15:54:37Z		WIP: cluster: make scheduler configurable	378		
 11547	718899	true	closed	false	0		2017-02-25T06:20:08Z	2017-02-27T20:17:18Z	2017-02-27T20:17:18Z	test: favor assertions over console logging	34		
 11548	19511039	true	closed	false	1		2017-02-25T07:40:53Z	2017-02-27T20:10:03Z	2017-02-27T20:10:03Z	doc: argument types for assert methods	37		
-11549	1538624	true	open	false			2017-02-25T08:31:49Z	2017-02-27T21:33:58Z		src: do not ignore IDNA conversion error	252		
+11549	1538624	true	open	false			2017-02-25T08:31:49Z	2017-02-27T23:06:30Z		src: do not ignore IDNA conversion error	252		
 11550	275871	false	open	false	1		2017-02-25T12:25:55Z	2017-02-25T16:18:41Z		doc,vm: warn more prominently against executing untrusted code	56		
 11551	1716463	true	open	false	0		2017-02-25T15:33:20Z	2017-02-27T20:02:20Z		test: add two test cases for querystring	74		
 11552	156562	false	open	false	1		2017-02-25T16:26:44Z	2017-02-26T06:48:44Z		node servers should handle upgrade headers gracefully	100		
@@ -4867,6 +4867,8 @@
 11586	8810350	false	open	false	0		2017-02-27T19:43:46Z	2017-02-27T19:43:46Z		Wrong time offset and changing the system's timezone	121		
 11587	1764424	false	open	false	0		2017-02-27T20:59:50Z	2017-02-27T20:59:50Z		Docs say that 'data' event mechanisms is preferred over 'readable'	53		
 11588	6991779	true	open	false	0	0	2017-02-27T21:52:43Z	2017-02-27T21:52:43Z		test: changed test1 of test-vm-timeout.js so that entire error messag…	69		
-11589	14098140	false	open	false	0		2017-02-27T22:14:21Z	2017-02-27T22:14:21Z		Breakpoints can't be set by a debugger (Chrome or VS Code) while the Node program is running	178		
-11590	6991779	true	open	false	0	0	2017-02-27T22:15:42Z	2017-02-27T22:15:42Z		 test: changed test1 of test-vm-timeout.js so that entire error message would be matched	63		
-11591	1087603	false	open	false	0		2017-02-27T22:43:37Z	2017-02-27T22:43:37Z		Chrome DevTools not able to connect to Node inspect since 7.5.0	175		
+11589	14098140	false	open	false	0		2017-02-27T22:14:21Z	2017-02-27T23:09:02Z		Breakpoints can't be set by a debugger (Chrome or VS Code) while the Node program is running	337		
+11590	6991779	true	open	false	0		2017-02-27T22:15:42Z	2017-02-27T23:16:06Z		 test: changed test1 of test-vm-timeout.js so that entire error message would be matched	63		
+11591	1087603	false	open	false	0		2017-02-27T22:43:37Z	2017-02-27T23:08:33Z		Chrome DevTools not able to connect to Node inspect since 7.5.0	175		
+11592	9060496	true	open	false	0	0	2017-02-27T23:06:56Z	2017-02-27T23:06:56Z		Internal errors	57		
+11593	585279	false	open	false	0		2017-02-27T23:20:49Z	2017-02-27T23:20:49Z		Not really possible to use global symbols inside vm	101		
