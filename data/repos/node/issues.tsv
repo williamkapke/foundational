@@ -251,7 +251,7 @@
 4482	178512	true	closed	false	30		2015-12-30T13:30:25Z	2016-07-28T21:58:08Z	2016-01-04T18:36:32Z	Http(s) Agent: handle errors on idle sockets	57		
 4496	596443	false	closed	false	9		2015-12-31T07:24:26Z	2017-02-07T21:28:38Z	2017-02-07T21:28:38Z	Add GC Insights	280		
 4500	6631828	false	closed	false	6		2015-12-31T14:09:00Z	2016-10-12T09:50:50Z	2016-10-12T09:50:50Z	Spawned process don't trigger close or exit event	118		
-4523	62512	true	open	false	14		2016-01-03T23:44:26Z	2017-02-28T23:03:30Z		Custom logger func	42		
+4523	62512	true	open	false	15		2016-01-03T23:44:26Z	2017-03-01T14:06:06Z		Custom logger func	42		
 4528	677994	true	open	false	14		2016-01-04T12:26:41Z	2016-08-09T20:26:39Z		http: make path null in Agent#createSocket	34		
 4531	1372431	false	open	false	2		2016-01-04T19:11:53Z	2016-11-05T17:52:34Z		process.config.variables.arm_version incorrect in armv7	68		
 4545	6376965	false	closed	false	13		2016-01-06T00:59:50Z	2016-11-04T17:34:09Z	2016-01-18T15:01:02Z	DNS lookup failure dns.js:82	174		
@@ -300,7 +300,7 @@
 5102	291301	true	closed	false	104		2016-02-05T17:07:23Z	2017-02-09T13:12:05Z	2016-02-13T04:41:40Z	fs: add a temporary fix for re-evaluation support	45		
 5104	1523129	true	open	false	6		2016-02-05T18:53:20Z	2017-01-18T00:05:28Z		Update _http_server.js	9		
 5111	718899	false	closed	false	5		2016-02-06T00:11:40Z	2016-07-04T05:30:38Z	2016-07-04T05:30:38Z	Investigate flaky test-tls-session-cache	4		
-5127	54666	true	open	false	21		2016-02-07T05:50:12Z	2017-02-28T23:09:55Z		events: improve eventEmitter.once() performance	107		
+5127	54666	true	open	false	23		2016-02-07T05:50:12Z	2017-03-01T14:56:35Z		events: improve eventEmitter.once() performance	107		
 5139	3942904	true	closed	false	18		2016-02-08T13:09:36Z	2017-02-28T23:10:33Z	2017-02-28T23:10:33Z	crypto: add secure key comparsion function	61		
 5142	173025	true	closed	false	2		2016-02-08T14:09:25Z	2017-02-28T23:11:01Z	2017-02-28T23:11:01Z	debugger: limit size of mirrored buffer	67		
 5156	349336	true	closed	false	18	2	2016-02-09T09:04:17Z	2017-01-17T19:26:57Z	2017-01-17T19:26:57Z	Doc: stream becomes paused after unpipe. 	12		
@@ -532,7 +532,7 @@
 6861	12013667	false	closed	false	36		2016-05-18T17:05:18Z	2016-08-12T11:14:32Z	2016-08-12T11:14:32Z	Error: EISDIR illegal operation on directory - Binding.realpath	140		
 6867	291301	false	open	false	10		2016-05-18T21:00:16Z	2016-10-17T15:19:29Z		Missing or truncated error message	124		
 6873	18708370	false	closed	false	5		2016-05-19T08:19:41Z	2016-08-09T21:14:40Z	2016-08-09T21:14:40Z	EventEmitter: Inconsistent handling of once() handlers	122		
-6876	6917800	true	open	false	10		2016-05-19T13:18:48Z	2017-03-01T11:28:12Z		build: fix cross-compile issue for Android	132		
+6876	6917800	true	closed	false	11		2016-05-19T13:18:48Z	2017-03-01T14:01:05Z	2017-03-01T14:01:05Z	build: fix cross-compile issue for Android	132		
 6877	6917800	true	closed	false	25		2016-05-19T14:26:13Z	2016-10-17T12:16:43Z	2016-07-19T11:29:26Z	child_process: check accessing a null stderr	60		
 6878	1093990	false	open	false	8		2016-05-19T15:32:47Z	2016-07-06T05:02:15Z		Discuss planning a long-term renaming of `process.nextTick()`	133		
 6881	1127384	true	open	false	25		2016-05-19T15:56:47Z	2016-08-09T21:12:14Z		events: unwrap #once listeners in #listeners	44		
@@ -556,7 +556,7 @@
 6948	275871	true	closed	false	12		2016-05-24T10:01:34Z	2016-07-11T21:35:43Z	2016-05-25T07:57:47Z	src: add include guards to internal headers	24		
 6951	321966	true	closed	false	7		2016-05-24T12:27:44Z	2016-07-12T14:40:15Z	2016-05-29T20:59:51Z	doc: buffers are not sent over IPC with a socket	67		
 6954	718899	false	closed	false	2		2016-05-24T15:49:55Z	2016-07-02T14:33:49Z	2016-07-02T14:33:49Z	Investigate flaky parallel/test-http-client-reject-chunked-with-content-length on smartos14-64	69		
-6956	1093990	true	open	false	23		2016-05-24T20:50:58Z	2017-03-01T00:55:07Z		timers: warn on overflowed timeout duration	66		
+6956	1093990	true	open	false	24		2016-05-24T20:50:58Z	2017-03-01T14:49:47Z		timers: warn on overflowed timeout duration	66		
 6957	899444	true	closed	false	6		2016-05-24T21:27:43Z	2016-06-30T23:28:00Z	2016-06-30T23:28:00Z	Backport 6907 to v4.x (console.* not working when running out of stack space)	40		
 6963	10919124	true	closed	false	4		2016-05-25T06:58:54Z	2017-02-22T19:34:58Z	2017-02-22T19:34:58Z	.gitigore: ignore AppCode's .idea folder	40		
 6967	2352663	true	closed	false	8		2016-05-25T10:42:47Z	2016-07-12T06:22:51Z	2016-05-26T07:51:26Z	test: add regression test for Proxy as vm context	48		
@@ -4516,7 +4516,7 @@
 11197	275871	true	closed	false	4		2017-02-06T13:38:58Z	2017-02-10T11:28:06Z	2017-02-09T13:55:30Z	src: fix -Wunused-result compiler warning	50		
 11198	12997967	false	open	false	6		2017-02-06T13:51:35Z	2017-02-08T10:06:31Z		Expose arbitrary constants like TIMEOUT_MAX	139		
 11199	432351	true	closed	false	9		2017-02-06T15:07:04Z	2017-02-21T07:14:58Z	2017-02-17T00:34:10Z	lib: introduce constant MAX_TICKS	45		
-11200	498775	false	open	false	27		2017-02-06T18:39:30Z	2017-03-01T09:58:12Z		"Changing Definition of ""Locked"" for Stability Index in API Docs"	205		
+11200	498775	false	open	false	28		2017-02-06T18:39:30Z	2017-03-01T14:26:29Z		"Changing Definition of ""Locked"" for Stability Index in API Docs"	205		
 11201	7693422	true	closed	false	5	2	2017-02-06T21:14:23Z	2017-02-11T21:51:01Z	2017-02-11T21:51:01Z	test: wrap callbacks in mustCall() for test-http-agent-destroyed-socket.js 	40		
 11202	6354455	true	closed	false	4		2017-02-06T21:22:08Z	2017-02-11T21:45:18Z	2017-02-11T21:45:18Z	doc: adding Italo A. Casas PGP Fingerprint	107		
 11203	4660500	true	closed	false	11		2017-02-06T21:22:11Z	2017-02-14T17:07:05Z	2017-02-11T21:42:33Z	test: improve buffer.includes error verification tests	51		
@@ -4941,11 +4941,13 @@
 11622	569527	true	open	false	0	0	2017-02-28T23:24:34Z	2017-02-28T23:24:34Z		test: add regex to assert in test_cyclic_link_protection	32		
 11623	2882139	false	open	false	1		2017-03-01T02:02:22Z	2017-03-01T03:12:55Z		There is a bug about the require function	139		
 11624	9661806	true	open	false	0	0	2017-03-01T03:20:21Z	2017-03-01T03:20:21Z		util: convert inspect.styles to prototype-less object	50		
-11625	4299420	true	open	false	0	0	2017-03-01T03:34:24Z	2017-03-01T03:34:24Z		doc: add link to references in net.Socket	33		
+11625	4299420	true	open	false	0		2017-03-01T03:34:24Z	2017-03-01T14:07:34Z		doc: add link to references in net.Socket	33		
 11626	1538624	true	open	false	1		2017-03-01T04:19:37Z	2017-03-01T05:39:54Z		url: spec-compliant URLSearchParams serializer	296		
 11627	1006477	false	open	false	0		2017-03-01T07:09:34Z	2017-03-01T08:24:36Z		Multiple test failures in 7.7.0	1412		
-11628	4760120	false	open	false	0		2017-03-01T09:10:51Z	2017-03-01T09:10:51Z		trace_event.h is not included in the distributable, but referred by node.h	65		
+11628	4760120	false	open	false	1		2017-03-01T09:10:51Z	2017-03-01T14:09:18Z		trace_event.h is not included in the distributable, but referred by node.h	65		
 11629	25509586	false	open	false	0		2017-03-01T09:12:02Z	2017-03-01T10:49:14Z		Illegal invocation error using ES6 Proxy and node.js	84		
-11630	7455872	true	open	false	0	0	2017-03-01T09:17:49Z	2017-03-01T09:17:49Z		fs: getOption to populate passed in default values	161		
+11630	7455872	true	open	false	0		2017-03-01T09:17:49Z	2017-03-01T14:29:32Z		fs: getOption to populate passed in default values	163		
 11631	432351	true	open	false	0	0	2017-03-01T13:49:58Z	2017-03-01T13:49:58Z		test: make tests pass when configured --without-ssl	93		
-11632	15087079	false	open	false	0		2017-03-01T13:58:47Z	2017-03-01T13:58:47Z		node inspect url changing on every node app restarts			
+11632	15087079	false	closed	false	0		2017-03-01T13:58:47Z	2017-03-01T14:20:48Z	2017-03-01T14:20:48Z	node inspect url changing on every node app restarts			
+11633	1890238	false	open	false	0		2017-03-01T14:24:04Z	2017-03-01T14:24:04Z		new Date mismatch	44		
+11634	2352663	true	open	false	0	0	2017-03-01T14:41:35Z	2017-03-01T14:41:35Z		v7.x: cherry-pick tracing related fixes	2		
