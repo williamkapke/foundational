@@ -89,7 +89,7 @@
 2443	2244675	false	closed	false	8		2015-08-19T14:39:09Z	2016-10-13T11:35:17Z	2016-10-13T11:35:17Z	Incorrect module path resolving with NODE_PATH in Windows	44		
 2465	42354	false	closed	false	4		2015-08-20T18:35:12Z	2016-12-15T12:59:44Z	2015-08-20T19:09:50Z	url.parse parses hostname as protocol when protocol/scheme is absent in hostname:port formatted uRL	54		
 2498	696611	true	closed	false	22		2015-08-22T20:07:00Z	2016-07-21T22:32:14Z	2016-07-21T22:32:14Z	fs: do basic arg validation of truncate in js	25		
-2521	885648	true	open	false	30		2015-08-24T08:36:14Z	2017-02-28T22:51:14Z		added CSI (\x9b) as additionally allowable escape	135		
+2521	885648	true	closed	false	35		2015-08-24T08:36:14Z	2017-03-01T17:20:15Z	2017-03-01T17:20:15Z	added CSI (\x9b) as additionally allowable escape	135		
 2534	4405297	true	open	false	95		2015-08-25T01:59:16Z	2017-01-07T15:36:38Z		http: fixed socket destruction, timeout and leaking	144		
 2538	1107239	true	open	false	28		2015-08-25T13:44:32Z	2017-02-28T22:52:31Z		added before-flushing-head event to _http_server.ServerResponse.writeHead	94		
 2546	9798949	false	closed	false	89		2015-08-25T19:16:53Z	2016-11-16T04:38:02Z	2016-06-02T17:53:08Z	Inspecting Node.js with Chrome DevTools	688		
@@ -4867,10 +4867,10 @@
 11548	19511039	true	closed	false	1		2017-02-25T07:40:53Z	2017-02-27T20:10:03Z	2017-02-27T20:10:03Z	doc: argument types for assert methods	37		
 11549	1538624	true	closed	false	6	14	2017-02-25T08:31:49Z	2017-03-01T02:33:04Z	2017-03-01T02:33:04Z	src: do not ignore IDNA conversion error	252		
 11550	275871	false	open	false	1		2017-02-25T12:25:55Z	2017-02-25T16:18:41Z		doc,vm: warn more prominently against executing untrusted code	56		
-11551	1716463	true	open	false	0		2017-02-25T15:33:20Z	2017-02-27T20:02:20Z		test: add two test cases for querystring	74		
+11551	1716463	true	closed	false	1		2017-02-25T15:33:20Z	2017-03-01T17:09:38Z	2017-03-01T17:09:38Z	test: add two test cases for querystring	74		
 11552	156562	false	open	false	1		2017-02-25T16:26:44Z	2017-02-26T06:48:44Z		node servers should handle upgrade headers gracefully	100		
 11553	6354455	true	closed	false	8		2017-02-25T16:38:22Z	2017-03-01T16:11:01Z	2017-03-01T02:44:05Z	7.7.0 Proposal	1938		
-11554	19511039	true	open	false			2017-02-25T17:41:47Z	2017-02-25T21:13:30Z		doc: argument types for console methods	37		
+11554	19511039	true	closed	false	1		2017-02-25T17:41:47Z	2017-03-01T17:12:30Z	2017-03-01T17:12:30Z	doc: argument types for console methods	37		
 11555	439929	true	open	false	4		2017-02-25T19:18:29Z	2017-02-27T22:11:09Z		meta: move WORKING_GROUPS.md to CTC repo	29		
 11556	439929	true	closed	false	3		2017-02-25T19:26:49Z	2017-03-01T16:43:54Z	2017-03-01T16:43:54Z	meta: remove out of date ROADMAP.md file	43		
 11557	910691	true	open	false			2017-02-25T20:18:38Z	2017-02-28T04:27:14Z		doc: add note that vm module is not a security machanism	81		
@@ -4892,7 +4892,7 @@
 11573	275871	true	closed	false	0		2017-02-27T04:59:52Z	2017-03-01T16:34:43Z	2017-03-01T16:34:43Z	net: remove misleading comment	66		
 11574	24477874	false	open	false	0		2017-02-27T05:47:01Z	2017-02-27T05:47:01Z		My program could run on Mac, but error on Window	42		
 11575	718899	true	closed	false	3		2017-02-27T06:44:00Z	2017-03-01T16:38:43Z	2017-03-01T16:38:43Z	test: apply strict mode in test-repl	47		
-11576	4923335	true	open	false	12		2017-02-27T07:35:31Z	2017-03-01T16:31:06Z		util: change sparse arrays inspection format	95		
+11576	4923335	true	open	false	21		2017-02-27T07:35:31Z	2017-03-01T17:01:58Z		util: change sparse arrays inspection format	95		
 11577	156269	true	open	false	1		2017-02-27T08:04:29Z	2017-02-27T10:25:43Z		http: subclass of Agent can override the initialization	49		
 11578	3662372	false	open	false	2		2017-02-27T09:37:55Z	2017-02-27T22:25:10Z		Node.js http micro benchmark tests for http are flaky	198		
 11579	782880	true	open	false			2017-02-27T13:00:05Z	2017-03-01T05:23:37Z		test: add script to create 0-dns-cert.pem	109		
@@ -4940,16 +4940,16 @@
 11621	6354455	true	open	false	0	0	2017-02-28T21:15:10Z	2017-02-28T21:15:10Z		doc: adding deprecations.md	78		
 11622	569527	true	open	false	0	0	2017-02-28T23:24:34Z	2017-02-28T23:24:34Z		test: add regex to assert in test_cyclic_link_protection	32		
 11623	2882139	false	open	false	1		2017-03-01T02:02:22Z	2017-03-01T03:12:55Z		There is a bug about the require function	139		
-11624	9661806	true	open	false			2017-03-01T03:20:21Z	2017-03-01T16:56:33Z		util: convert inspect.styles to prototype-less object	50		
+11624	9661806	true	open	false			2017-03-01T03:20:21Z	2017-03-01T17:03:36Z		util: convert inspect.styles to prototype-less object	50		
 11625	4299420	true	closed	false	2	0	2017-03-01T03:34:24Z	2017-03-01T15:38:20Z	2017-03-01T15:38:20Z	doc: add link to references in net.Socket	33		
 11626	1538624	true	open	false			2017-03-01T04:19:37Z	2017-03-01T16:18:32Z		url: spec-compliant URLSearchParams serializer	296		
-11627	1006477	false	open	false	3		2017-03-01T07:09:34Z	2017-03-01T16:05:14Z		Multiple test failures in 7.7.0	1414		
+11627	1006477	false	open	false	6		2017-03-01T07:09:34Z	2017-03-01T17:49:58Z		Multiple test failures in 7.7.0	1414		
 11628	4760120	false	open	false	1		2017-03-01T09:10:51Z	2017-03-01T14:09:18Z		trace_event.h is not included in the distributable, but referred by node.h	65		
 11629	25509586	false	open	false	0		2017-03-01T09:12:02Z	2017-03-01T10:49:14Z		Illegal invocation error using ES6 Proxy and node.js	84		
-11630	7455872	true	open	false	0		2017-03-01T09:17:49Z	2017-03-01T14:29:32Z		fs: getOption to populate passed in default values	163		
+11630	7455872	true	open	false	1		2017-03-01T09:17:49Z	2017-03-01T17:07:16Z		fs: getOption to populate passed in default values	163		
 11631	432351	true	open	false	0	0	2017-03-01T13:49:58Z	2017-03-01T13:49:58Z		test: make tests pass when configured --without-ssl	93		
-11632	15087079	false	closed	false	0		2017-03-01T13:58:47Z	2017-03-01T14:20:48Z	2017-03-01T14:20:48Z	node inspect url changing on every node app restarts	0		
+11632	15087079	false	closed	false	1		2017-03-01T13:58:47Z	2017-03-01T17:24:08Z	2017-03-01T14:20:48Z	node inspect url changing on every node app restarts			
 11633	1890238	false	open	false	0		2017-03-01T14:24:04Z	2017-03-01T14:24:04Z		new Date mismatch	44		
 11634	2352663	true	open	false	4		2017-03-01T14:41:35Z	2017-03-01T15:04:05Z		v7.x: cherry-pick tracing related fixes	2		
 11635	3077684	true	closed	false	0		2017-03-01T15:26:02Z	2017-03-01T16:09:10Z	2017-03-01T16:09:10Z	Table of Contents and Relative Links	47		
-11636	4299420	true	open	false			2017-03-01T16:00:34Z	2017-03-01T16:07:05Z		doc: various improvements to net.md	117		
+11636	4299420	true	open	false	0		2017-03-01T16:00:34Z	2017-03-01T17:14:34Z		doc: various improvements to net.md	117		
