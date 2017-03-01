@@ -401,7 +401,7 @@
 6160	110455	false	closed	false	14		2016-04-12T00:26:17Z	2016-10-17T10:38:09Z	2016-10-17T10:38:09Z	Clearing require.cache of native addon makes it throw when required later.	216		
 6162	11958657	false	closed	false	10		2016-04-12T07:36:35Z	2016-11-15T04:46:14Z	2016-04-12T10:05:18Z	require same file twice and exec twice	76		
 6165	2993861	true	closed	false	15	2	2016-04-12T16:15:29Z	2016-12-27T14:14:23Z	2016-12-27T14:14:23Z	module: maintain separate cache for native modules	98		
-6171	1088987	true	open	false	4		2016-04-12T19:50:49Z	2017-03-01T01:13:21Z		repl: refactor `LineParser` implementation	94		
+6171	1088987	true	open	false	5		2016-04-12T19:50:49Z	2017-03-01T03:53:52Z		repl: refactor `LineParser` implementation	94		
 6180	3824055	false	closed	false	18		2016-04-13T14:03:54Z	2016-07-26T17:44:29Z	2016-07-26T17:44:29Z	Memory leak in simple test case involving WeakSet	202		
 6181	6279791	false	closed	false	5		2016-04-13T14:17:30Z	2016-09-27T13:15:32Z	2016-04-13T17:24:17Z	Uncaught TypeError when tab-completing constructor in REPL	66		
 6184	289174	true	closed	false	29		2016-04-13T19:21:38Z	2016-10-24T18:28:57Z	2016-05-24T20:44:10Z	src: no abort from GetFD if object isn't wrapped	88		
@@ -596,7 +596,7 @@
 7077	54666	true	closed	false	31		2016-05-31T17:17:40Z	2016-07-09T00:52:27Z	2016-06-14T19:58:45Z	stream: improve Readable.read() performance	186		
 7079	899444	true	closed	false	18		2016-05-31T17:58:03Z	2016-08-18T19:05:28Z	2016-08-08T13:14:46Z	buffer: throw on negative .allocUnsafe() argument	79		
 7084	718899	true	closed	false	11		2016-05-31T22:58:09Z	2016-07-11T22:25:17Z	2016-06-03T20:42:46Z	test: add test for uid/gid setting in spawn	74		
-7086	1018196	true	open	false	9		2016-06-01T00:11:43Z	2017-03-01T01:31:29Z		Fixes #7065: cli help documentation for --debug and --debug-brk	57		
+7086	1018196	true	open	false	10		2016-06-01T00:11:43Z	2017-03-01T03:50:02Z		Fixes #7065: cli help documentation for --debug and --debug-brk	57		
 7087	1018196	false	open	false	4		2016-06-01T01:17:52Z	2016-11-30T19:27:39Z		--inspect support for source mapped files	24		
 7089	718899	true	closed	false	5		2016-06-01T06:53:55Z	2016-07-11T22:25:41Z	2016-06-04T04:41:05Z	debugger: fix --debug-brk interaction with -e	142		
 7090	275871	true	closed	false	12		2016-06-01T11:24:08Z	2016-07-11T22:09:23Z	2016-06-02T20:41:01Z	src: use stack-allocated Environment instances	11		
@@ -1598,7 +1598,7 @@
 8274	9373002	true	open	false	7		2016-08-25T23:16:48Z	2016-08-26T12:56:47Z		test: mark test-child-process-fork-dgram as flaky	38		
 8275	1197615	true	open	false	15		2016-08-26T07:11:33Z	2017-03-01T02:01:01Z		_debugger: add select stack frame command	22		
 8276	926815	false	open	false	5		2016-08-26T07:12:52Z	2016-08-30T07:34:14Z		Provide access to file system times with nanoseconds resolution	162		
-8277	495647	true	open	false	15		2016-08-26T08:11:24Z	2017-03-01T02:01:37Z		 No abort on require() with null bytes	107		
+8277	495647	true	open	false	16		2016-08-26T08:11:24Z	2017-03-01T03:47:23Z		 No abort on require() with null bytes	107		
 8278	207889	false	closed	false	10		2016-08-26T08:23:30Z	2016-08-27T08:42:14Z	2016-08-27T08:42:14Z	SIGABRT on OS/X	152		
 8279	156539	false	open	false	11		2016-08-26T09:15:59Z	2016-08-27T13:54:05Z		(node:20446) Warning: Possible EventEmitter memory leak detected. 11 error listeners added. Use emitter.setMaxListeners() to increase limit	42		
 8280	317464	true	closed	false	25	0	2016-08-26T10:00:00Z	2016-10-24T14:50:00Z	2016-10-24T14:50:00Z	[WIP] deps: upgrade libuv to 1.10.0	37		
@@ -2348,11 +2348,11 @@
 9024	5156221	false	closed	false	10		2016-10-11T12:50:52Z	2016-10-11T15:08:32Z	2016-10-11T14:39:05Z	require('crypto') & DES inconsistent	180		
 9025	627123	false	closed	false	9		2016-10-11T13:04:48Z	2016-12-13T21:42:44Z	2016-12-13T21:42:44Z	tls.createServer secureOptions	68		
 9026	13483453	true	closed	false	6	7	2016-10-11T14:21:47Z	2016-10-26T19:58:19Z	2016-10-26T19:58:19Z	doc: clarify relation between a file and a module	51		
-9027	114976	false	open	false	2		2016-10-11T15:52:08Z	2017-01-11T15:11:44Z		HTTP Server: incorrect error message if status code is set to a string (like ENOENT)	156		
+9027	114976	false	closed	false	2		2016-10-11T15:52:08Z	2017-03-01T03:11:06Z	2017-03-01T03:11:06Z	HTTP Server: incorrect error message if status code is set to a string (like ENOENT)	156		
 9028	287917	true	closed	false	12		2016-10-11T16:39:50Z	2016-11-19T00:07:34Z	2016-10-26T16:45:21Z	inspector: use final API	83		
 9029	1093990	true	closed	false	3		2016-10-11T16:51:25Z	2016-10-11T21:03:41Z	2016-10-11T19:47:10Z	test,benchmark: fix lint errors on v6.x	59		
 9030	899444	true	open	false	5		2016-10-11T17:31:41Z	2016-10-11T19:43:18Z		v6.x backport: fs: make `SyncWriteStream` inherit from `Writable`	99		
-9031	114976	true	open	false	2		2016-10-11T18:03:04Z	2017-03-01T02:21:45Z		http: more strict statusCode validation	119		
+9031	114976	true	closed	false	4	12	2016-10-11T18:03:04Z	2017-03-01T03:13:27Z	2017-03-01T03:13:27Z	http: more strict statusCode validation	119		
 9032	275871	true	closed	false	14		2016-10-11T18:35:31Z	2016-11-21T17:47:04Z	2016-10-17T15:08:28Z	crypto: fix faulty logic in iv size check	46		
 9033	498775	true	closed	false	3	0	2016-10-11T19:19:24Z	2016-11-02T17:26:40Z	2016-11-02T17:26:40Z	test: mark test-child-process-uid-gid as flaky	50		
 9034	1093990	true	closed	false	9	0	2016-10-11T19:59:44Z	2016-10-12T20:13:01Z	2016-10-12T20:13:01Z	2016-10-11, Version 6.8.0 (Current)	13	1093990	2016-10-12T20:13:01Z
@@ -2852,7 +2852,7 @@
 9528	2512748	true	closed	false	5	3	2016-11-09T15:25:13Z	2016-11-15T20:39:03Z	2016-11-15T20:39:03Z	test: add test for broken child process stdio	82	2512748	2016-11-15T20:39:03Z
 9529	899444	true	open	false	26		2016-11-09T17:00:42Z	2016-11-28T17:09:17Z		"Revert ""buffer: runtime deprecation of calling Buffer without new"""	106		
 9530	3413079	false	open	false	5		2016-11-09T17:19:27Z	2016-11-18T19:54:40Z		Response strings and closures objects leak with http.Agent enabled (Memory Leak)	298		
-9531	899444	false	open	false	70		2016-11-09T21:03:01Z	2017-01-18T18:33:44Z		buffer: discuss future direction of Buffer constructor API	842		
+9531	899444	false	open	false	71		2016-11-09T21:03:01Z	2017-03-01T03:04:00Z		buffer: discuss future direction of Buffer constructor API	842		
 9532	115237	true	open	false	7		2016-11-09T21:04:33Z	2017-01-11T17:14:11Z		doc: clarify the callback arguments of dns.resolve	47		
 9533	941925	false	closed	false	1		2016-11-09T22:31:38Z	2017-01-08T17:37:00Z	2017-01-08T17:37:00Z	Design of legacy tls socket's destroy	332		
 9534	6477435	false	closed	false	7		2016-11-09T23:11:18Z	2016-11-13T20:04:51Z	2016-11-10T10:36:15Z	Spawning child processes in bash on Windows can crash the parent process	118		
@@ -4805,7 +4805,7 @@
 11487	1151283	false	open	false	0		2017-02-22T00:02:35Z	2017-02-22T00:33:11Z		Error bubbling oddities with for...of loop + async await	142		
 11488	495647	true	open	false	1		2017-02-22T00:40:38Z	2017-02-26T01:05:56Z		governance: add Franziska Hinkelmann to the CTC	275		
 11489	899444	true	closed	false	13	7	2017-02-22T00:43:37Z	2017-02-24T01:08:10Z	2017-02-24T01:08:10Z	doc: add per-item changelogs	83	899444	2017-02-24T01:08:10Z
-11490	718899	true	open	false			2017-02-22T01:00:05Z	2017-02-28T16:13:59Z		process: implement resourceUsage()	165		
+11490	718899	true	open	false			2017-02-22T01:00:05Z	2017-03-01T03:59:19Z		process: implement resourceUsage()	165		
 11491	54666	false	closed	false	6		2017-02-22T04:07:48Z	2017-02-25T15:57:04Z	2017-02-25T15:57:04Z	process: typo in comment	17		
 11492	3367801	false	closed	false	1		2017-02-22T05:17:42Z	2017-02-24T01:44:55Z	2017-02-24T01:44:55Z	fg(1) in readline's page is broken link	17		
 11493	7315383	false	open	false	3		2017-02-22T05:41:37Z	2017-02-22T15:27:47Z		Node 7.6.0 ARMv6 binary missing	14		
@@ -4898,7 +4898,7 @@
 11580	718899	true	open	false	4		2017-02-27T15:35:13Z	2017-02-27T20:15:31Z		timers: unlock the timers API	77		
 11581	234659	true	open	false	0	0	2017-02-27T18:04:35Z	2017-02-27T18:04:35Z		doc: package main can be directory with an index	50		
 11582	439929	true	open	false	6		2017-02-27T18:19:15Z	2017-02-28T04:02:15Z		lib: avoid using Array.prototype.forEach	88		
-11583	17607	true	open	false	3		2017-02-27T18:45:10Z	2017-02-27T20:17:33Z		7.x backport: crypto: support OPENSSL_CONF again (and its dependencies	46		
+11583	17607	true	open	false			2017-02-27T18:45:10Z	2017-03-01T03:48:43Z		6.x backport: crypto: support OPENSSL_CONF again (and its dependencies)	46		
 11584	696611	true	open	false	0	0	2017-02-27T18:49:21Z	2017-02-27T18:49:21Z		test: skip the test with proper TAP message	68		
 11585	696611	true	open	false	0	0	2017-02-27T18:57:50Z	2017-02-27T18:57:50Z		test: skip tests with common.skip	49		
 11586	8810350	false	closed	false	1		2017-02-27T19:43:46Z	2017-02-28T00:03:45Z	2017-02-28T00:03:45Z	Wrong time offset after changing the system's timezone	123		
@@ -4923,7 +4923,7 @@
 11605	327019	false	open	false	1		2017-02-28T14:42:37Z	2017-03-01T02:13:10Z		Add assert.equal for length of Buffer.concat(list, length)	25		
 11606	21952142	false	open	false	0		2017-02-28T14:57:30Z	2017-02-28T14:57:30Z		GC segfault	111		
 11607	988441	true	open	false	0		2017-02-28T15:20:46Z	2017-02-28T18:27:20Z		fs: don't conflate data and callback in arguments	119		
-11608	899444	true	open	false	3		2017-02-28T15:34:52Z	2017-02-28T20:21:31Z		stream: support Uint8Array input to methods	143		
+11608	899444	true	open	false			2017-02-28T15:34:52Z	2017-03-01T03:13:26Z		stream: support Uint8Array input to methods	143		
 11609	439929	true	open	false	1		2017-02-28T16:13:56Z	2017-02-28T17:40:17Z		benchmark: ES6 class vs function benchmark	121		
 11610	696611	true	open	false	6		2017-02-28T16:28:08Z	2017-03-01T01:59:38Z		introduce doc linter	125		
 11611	439929	true	open	false	0		2017-02-28T16:50:45Z	2017-03-01T00:59:14Z		benchmark: obj property access benchmark	89		
@@ -4933,9 +4933,11 @@
 11615	988441	true	open	false	0	0	2017-02-28T17:55:11Z	2017-02-28T17:55:11Z		doc: fix typo in STYLE_GUIDE.md	13		
 11616	17607	true	open	false	0	0	2017-02-28T18:34:28Z	2017-02-28T18:34:28Z		deps: fix CLEAR_HASH macro to be usable as a single statement	56		
 11617	287917	true	open	false	0	0	2017-02-28T19:10:48Z	2017-02-28T19:10:48Z		inspector: libuv notification on incoming message	71		
-11618	432351	true	open	false	0	0	2017-02-28T19:15:14Z	2017-02-28T19:15:14Z		src: add HAVE_OPENSSL directive to openssl_config	82		
+11618	432351	true	open	false	1		2017-02-28T19:15:14Z	2017-03-01T03:49:09Z		src: add HAVE_OPENSSL directive to openssl_config	82		
 11619	9373002	false	open	false	0		2017-02-28T19:17:03Z	2017-02-28T19:17:03Z		parallel/test-debug-port-numbers - intermittent failure	29		
 11620	432351	true	open	false	0	0	2017-02-28T19:52:18Z	2017-02-28T19:52:18Z		test: fix test-internal-util-assertCrypto regex	101		
 11621	6354455	true	open	false	0	0	2017-02-28T21:15:10Z	2017-02-28T21:15:10Z		doc: adding deprecations.md	78		
 11622	569527	true	open	false	0	0	2017-02-28T23:24:34Z	2017-02-28T23:24:34Z		test: add regex to assert in test_cyclic_link_protection	32		
-11623	2882139	false	open	false	0		2017-03-01T02:02:22Z	2017-03-01T02:02:22Z		There is a bug about the require function	139		
+11623	2882139	false	open	false	1		2017-03-01T02:02:22Z	2017-03-01T03:12:55Z		There is a bug about the require function	139		
+11624	9661806	true	open	false	0	0	2017-03-01T03:20:21Z	2017-03-01T03:20:21Z		util: convert inspect.styles to prototype-less object	50		
+11625	4299420	true	open	false	0	0	2017-03-01T03:34:24Z	2017-03-01T03:34:24Z		doc: add link to references in net.Socket	33		
