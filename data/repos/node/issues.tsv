@@ -167,7 +167,7 @@
 3384	115237	true	open	false	24		2015-10-15T12:57:10Z	2017-01-25T20:03:34Z		module: remove require('.') with NODE_PATH compat	15		
 3402	595361	false	closed	false	202		2015-10-16T12:45:59Z	2016-12-04T15:34:28Z	2016-04-27T02:45:38Z	Don't resolve symlinks when requiring	120		
 3410	6677095	true	closed	false			2015-10-16T20:54:30Z	2016-09-23T13:18:56Z	2015-11-24T21:09:22Z	src: added big-endian check and support to UTF-16 encode	25		
-3431	1145335	false	closed	false	21		2015-10-19T07:06:43Z	2017-02-28T17:47:44Z	2015-10-20T03:03:33Z	Can not install nodejs 4 on Windows 7 64-bit	66		
+3431	1145335	false	closed	false	22		2015-10-19T07:06:43Z	2017-03-02T21:52:42Z	2015-10-20T03:03:33Z	Can not install nodejs 4 on Windows 7 64-bit	66		
 3449	333455	false	closed	false	14		2015-10-20T13:20:15Z	2017-01-09T14:20:29Z	2015-11-26T03:16:10Z	is it a bug? setting up process.env.TZ depends on order of execution.	54		
 3460	855219	false	open	false	57		2015-10-20T22:54:04Z	2016-08-01T16:52:49Z		"detect ""full-icu"" module"	95		
 3462	115237	false	closed	false	17		2015-10-21T00:03:57Z	2016-10-19T05:36:02Z	2015-10-21T16:40:43Z	btoa() and atob()	71		
@@ -216,6 +216,7 @@
 4014	732166	true	closed	false	11		2015-11-25T04:15:48Z	2017-02-28T23:01:28Z	2017-02-28T23:01:28Z	Expose RAND_poll / RAND_add to user code via crypto module.	139		
 4037	321966	false	closed	false	6		2015-11-26T14:11:47Z	2016-09-22T11:40:07Z	2015-11-27T13:24:14Z	"""Error: write EBADF"" when sending a TLSSocket to the parent process"	256		
 4039	4520820	true	closed	false	32		2015-11-26T17:23:49Z	2017-01-19T00:27:01Z	2016-09-12T14:58:48Z	net: refactor Server.prototype.listen	226		
+4086	14157219	false	closed	false	10		2015-12-01T07:11:47Z	2017-03-02T21:53:04Z	2016-06-08T04:54:49Z	Node js installation Error	116		
 4092	11175771	false	closed	false	2		2015-12-01T09:38:49Z	2017-02-07T21:14:20Z	2017-02-07T21:14:20Z	node.js Setup Wizard ended prematurely	35		
 4101	1521841	false	closed	false	9		2015-12-01T18:28:24Z	2017-02-07T21:21:22Z	2017-02-07T21:21:22Z	url.format does not postfix :// when parsed url is not fully qualified but a protocol is specified	119		
 4111	1524333	true	open	false	30		2015-12-02T00:40:22Z	2017-03-01T18:56:33Z		Windows post-install screen additional build tools messaging	155		
@@ -362,6 +363,7 @@
 5741	696611	true	open	false	15		2016-03-16T17:59:03Z	2017-03-01T05:20:17Z		tools: install components optionally	104		
 5745	439929	true	closed	false	23	0	2016-03-16T21:21:26Z	2016-07-05T17:55:53Z	2016-07-05T17:55:53Z	buffer: backport --zero-fill-buffers command line option	130		
 5757	514417	false	open	false	3		2016-03-17T09:16:05Z	2016-07-27T11:45:06Z		net.Socket has no setConnectionTimeout(timeout) method	37		
+5759	8860917	false	closed	false	4		2016-03-17T12:55:10Z	2017-03-02T21:53:47Z	2016-03-17T17:34:16Z	Unable to Install Node V4.4.0 - msi DLL Error	42		
 5774	238531	true	open	false	23		2016-03-18T00:39:28Z	2017-02-28T23:19:38Z		tls: deprecate `newSession`/`resumeSession` events	177		
 5780	471070	true	closed	false	5	7	2016-03-18T10:49:38Z	2017-01-18T06:16:27Z	2017-01-18T06:16:27Z	buffer: Error message should be more explicit for .toString() on huge…	153		
 5793	1093990	true	closed	false	9		2016-03-18T21:09:44Z	2016-08-30T14:13:49Z	2016-03-21T15:23:07Z	timers: give Timeouts a constructor name	53		
@@ -1724,7 +1726,7 @@
 8399	238531	true	closed	false	7		2016-09-03T09:20:18Z	2016-09-04T18:26:20Z	2016-09-04T18:26:20Z	Backport/gh 7427	54		
 8400	1443911	true	closed	false	3		2016-09-03T09:52:35Z	2016-09-09T16:20:09Z	2016-09-09T16:20:09Z	doc: clarify sentence in event loop doc	50		
 8401	1622515	true	closed	false	6		2016-09-03T10:42:22Z	2016-09-06T13:07:34Z	2016-09-05T17:32:57Z	readline: Emit 'line' event with line number	71		
-8402	17122340	false	open	false	2		2016-09-03T15:43:52Z	2016-09-12T14:02:15Z		DLL error on Windows 8.1	39		
+8402	17122340	false	open	false	3		2016-09-03T15:43:52Z	2017-03-02T21:53:59Z		DLL error on Windows 8.1	39		
 8403	718899	true	closed	false	7		2016-09-04T05:31:33Z	2016-09-30T22:17:37Z	2016-09-07T05:50:53Z	test: increase _debugger coverage	69		
 8404	229633	false	open	false	9		2016-09-04T07:52:25Z	2016-09-06T13:14:24Z		Node 6.5.0 compilation fails on Debian Jessie with non ascii pathes	149		
 8405	432351	true	closed	false	7		2016-09-04T19:00:12Z	2016-09-06T18:54:05Z	2016-09-05T06:12:59Z	src: moving f function call comment	52		
@@ -1985,7 +1987,7 @@
 8660	291301	true	closed	false	1	0	2016-09-20T04:12:52Z	2016-09-20T13:15:09Z	2016-09-20T13:15:09Z	tools: clean up icu/README.md formatting	57	291301	2016-09-20T13:15:09Z
 8661	54666	true	closed	true	12		2016-09-20T06:20:49Z	2016-10-14T15:25:17Z	2016-10-01T07:02:33Z	timers: improve setTimeout/Interval performance	70		
 8662	2352663	true	closed	false	10	0	2016-09-20T07:50:33Z	2016-09-24T15:24:45Z	2016-09-24T15:24:45Z	test: add expectDeprecationWarning to common	66		
-8663	22315535	false	closed	false	14		2016-09-20T08:13:39Z	2017-02-24T14:45:08Z	2016-09-23T12:31:02Z	Node.js setup wizard ended prematurely	129		
+8663	22315535	false	closed	false	15		2016-09-20T08:13:39Z	2017-03-02T21:55:23Z	2016-09-23T12:31:02Z	Node.js setup wizard ended prematurely	129		
 8664	12021159	false	closed	false	2		2016-09-20T08:23:57Z	2016-09-20T16:15:31Z	2016-09-20T16:15:31Z	windows npm install errors	5569		
 8665	1443911	true	closed	false	4		2016-09-20T10:25:56Z	2016-10-06T23:13:36Z	2016-09-22T22:06:32Z	dns: tweak regex for IPv6 addresses	82		
 8666	291301	true	open	false	1		2016-09-20T13:38:28Z	2016-09-21T18:03:31Z		tools: update remark configuration	168		
@@ -3642,7 +3644,7 @@
 10320	567540	true	closed	false	17		2016-12-17T18:57:29Z	2017-02-04T22:55:05Z	2017-01-04T17:30:41Z	doc: Deprecate old debug protocol	93		
 10321	12075322	true	closed	false	3		2016-12-18T02:07:57Z	2016-12-23T01:25:53Z	2016-12-23T01:25:53Z	test: refactor stdin-script-child	54		
 10322	13561163	true	closed	false	2		2016-12-18T12:35:21Z	2016-12-18T20:58:47Z	2016-12-18T20:58:47Z	test: add known_issues test for #2734	64		
-10323	10393198	false	open	false	12		2016-12-18T15:02:40Z	2017-02-02T00:12:59Z		Possibly deoptimizing use of `arguments` in libs	388		
+10323	10393198	false	closed	false	13		2016-12-18T15:02:40Z	2017-03-02T21:35:42Z	2017-03-02T21:35:42Z	Possibly deoptimizing use of `arguments` in libs	403		
 10324	738830	true	closed	false	5	5	2016-12-18T16:54:36Z	2016-12-23T06:44:43Z	2016-12-23T06:44:43Z	doc: require() tries first core not native modules	49		
 10328	144631	false	open	false	5		2016-12-19T03:41:44Z	2017-01-18T04:03:33Z		Inspector not work with custom port using supervisor.	460		
 10329	4299420	true	open	false	2		2016-12-19T04:44:49Z	2016-12-22T05:13:14Z		test: reduce unmanaged parallelism in test	82		
@@ -4962,13 +4964,13 @@
 11643	718899	true	open	false	0		2017-03-02T02:59:33Z	2017-03-02T18:33:34Z		test: remove obsolete eslint-disable comment	49		
 11644	718899	false	closed	false	5		2017-03-02T03:03:43Z	2017-03-02T17:22:50Z	2017-03-02T17:22:50Z	Investigate flaky test-https-agent-create-connection on multiple platforms	37		
 11645	8374494	false	open	false	5		2017-03-02T03:53:22Z	2017-03-02T09:40:29Z		node closure context bug.	96		
-11646	782880	true	open	false	1		2017-03-02T04:06:52Z	2017-03-02T20:30:27Z		timers: fix not to close reused timer handle	153		
+11646	782880	true	open	false			2017-03-02T04:06:52Z	2017-03-02T21:23:36Z		timers: fix not to close reused timer handle	153		
 11647	5445507	true	open	false	0		2017-03-02T05:40:14Z	2017-03-02T17:36:49Z		doc: fix WHATWG URL url.protocol example	41		
 11648	3395610	false	closed	false	0		2017-03-02T09:52:46Z	2017-03-02T10:21:55Z	2017-03-02T10:21:55Z	How about support async/await for internal asynchronous methods?	31		
 11649	1084056	true	open	false	6		2017-03-02T11:36:37Z	2017-03-02T17:03:32Z		test: fix flaky test-https-agent-create-connection	43		
 11650	4471189	false	open	false	3		2017-03-02T11:49:02Z	2017-03-02T15:03:35Z		Node fails to compile if OPENSSL_NO_NEXTPROTONEG is set	103		
 11651	25150721	false	closed	false	1		2017-03-02T11:50:43Z	2017-03-02T12:02:28Z	2017-03-02T11:54:18Z	Bug in console.log ?	83		
-11652	275871	true	open	false	0	0	2017-03-02T12:27:11Z	2017-03-02T12:27:11Z		"Revert ""v8: drop v8::FunctionCallbackInfo<T>::NewTarget()"""	27		
+11652	275871	true	open	false	0		2017-03-02T12:27:11Z	2017-03-02T21:49:21Z		"Revert ""v8: drop v8::FunctionCallbackInfo<T>::NewTarget()"""	29		
 11653	5886475	true	open	false	1		2017-03-02T13:33:30Z	2017-03-02T15:14:30Z		test: increase coverage of console	32		
 11654	9373002	false	open	false	0		2017-03-02T14:41:12Z	2017-03-02T14:41:12Z		AIX: Intermittent failure - test-cluster-inspector-debug-brk	208		
 11655	782880	true	open	false	0	0	2017-03-02T15:01:39Z	2017-03-02T15:01:39Z		tls: fix macro to check NPN feature	152		
@@ -4979,3 +4981,5 @@
 11660	1018196	true	open	false	2		2017-03-02T18:35:12Z	2017-03-02T19:33:32Z		Fix #7065: cli help documentation for --inspect	32		
 11661	718899	true	open	false	0	0	2017-03-02T18:40:12Z	2017-03-02T18:40:12Z		Unlock module and remove Locked from stability index	70		
 11662	275871	true	open	false	0		2017-03-02T18:56:57Z	2017-03-02T20:25:42Z		url: don't scan number twice	45		
+11663	406656	false	open	false	0		2017-03-02T21:20:06Z	2017-03-02T21:20:06Z		"fs.link() fails on ReFS with ""operation not supported on socket"""	113		
+11664	617638	true	open	false	0	0	2017-03-02T21:33:54Z	2017-03-02T21:33:54Z		doc: adds links to the stability index reference	313		
