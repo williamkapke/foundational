@@ -556,7 +556,7 @@
 6948	275871	true	closed	false	12		2016-05-24T10:01:34Z	2016-07-11T21:35:43Z	2016-05-25T07:57:47Z	src: add include guards to internal headers	24		
 6951	321966	true	closed	false	7		2016-05-24T12:27:44Z	2016-07-12T14:40:15Z	2016-05-29T20:59:51Z	doc: buffers are not sent over IPC with a socket	67		
 6954	718899	false	closed	false	2		2016-05-24T15:49:55Z	2016-07-02T14:33:49Z	2016-07-02T14:33:49Z	Investigate flaky parallel/test-http-client-reject-chunked-with-content-length on smartos14-64	69		
-6956	1093990	true	open	false	27		2016-05-24T20:50:58Z	2017-03-01T16:28:57Z		timers: warn on overflowed timeout duration	66		
+6956	1093990	true	open	false	28		2016-05-24T20:50:58Z	2017-03-02T10:44:24Z		timers: warn on overflowed timeout duration	66		
 6957	899444	true	closed	false	6		2016-05-24T21:27:43Z	2016-06-30T23:28:00Z	2016-06-30T23:28:00Z	Backport 6907 to v4.x (console.* not working when running out of stack space)	40		
 6963	10919124	true	closed	false	4		2016-05-25T06:58:54Z	2017-02-22T19:34:58Z	2017-02-22T19:34:58Z	.gitigore: ignore AppCode's .idea folder	40		
 6967	2352663	true	closed	false	8		2016-05-25T10:42:47Z	2016-07-12T06:22:51Z	2016-05-26T07:51:26Z	test: add regression test for Proxy as vm context	48		
@@ -1346,7 +1346,7 @@
 8020	2512748	false	closed	false	22		2016-08-08T19:14:02Z	2016-08-11T20:06:53Z	2016-08-11T20:06:52Z	v6.4.0 Release Proposal	1577		
 8021	426418	true	closed	false	13	3	2016-08-08T19:27:27Z	2016-08-23T20:51:51Z	2016-08-23T20:51:51Z	inspector: fix inspector hung while disconnecting	113		
 8022	899444	true	closed	false	5		2016-08-08T20:10:14Z	2016-08-16T19:12:01Z	2016-08-10T13:58:16Z	v6.x backport of 'latin1' encoding	17		
-8023	1422781	true	open	false	7		2016-08-08T20:16:00Z	2017-03-01T01:47:54Z		net: net.isIP() needs scope tests and a review of its type checking	74		
+8023	1422781	true	open	false	7		2016-08-08T20:16:00Z	2017-03-02T10:43:45Z		net: net.isIP() needs scope tests and a review of its type checking	74		
 8024	225351	false	open	false	2		2016-08-08T20:22:27Z	2016-08-18T00:58:40Z		Cross-platform differences in fs.readSync()	100		
 8025	1231635	true	closed	false	5		2016-08-08T21:54:51Z	2016-08-24T14:11:00Z	2016-08-24T14:11:00Z	Backport doc: server.listen() random port	84		
 8026	439929	false	closed	false	3		2016-08-08T22:22:03Z	2016-09-13T16:20:10Z	2016-09-13T16:20:10Z	meta: codename for v6 LTS	143		
@@ -3050,7 +3050,7 @@
 9725	354296	false	closed	false	5		2016-11-21T20:52:43Z	2016-11-21T23:37:15Z	2016-11-21T23:37:15Z	fs.Stats class throws an exception instead of returning false with stat.isFile() or stat.isDirectory() when no directory or file exists at that path	340		
 9726	635591	true	open	false	47		2016-11-21T22:15:04Z	2017-02-27T15:23:36Z		Symbol key props visible in inspection by default	88		
 9727	718899	true	open	false	5		2016-11-21T22:26:13Z	2016-11-23T18:29:02Z		test: fix flaky test-inspector	76		
-9728	9373002	false	open	false	21		2016-11-21T22:54:09Z	2017-02-17T08:30:20Z		AIX: Intermittent failure on  pseudo-tty/test-tty-wrap	53		
+9728	9373002	false	open	false	22		2016-11-21T22:54:09Z	2017-03-02T11:00:36Z		AIX: Intermittent failure on  pseudo-tty/test-tty-wrap	53		
 9729	10393198	false	closed	false	20		2016-11-21T23:47:07Z	2016-12-02T11:38:30Z	2016-11-23T11:53:23Z	Strange deoptimzations in cycles	285		
 9730	899444	true	closed	false	19		2016-11-22T04:41:08Z	2016-12-16T11:38:49Z	2016-12-04T14:42:12Z	deps: cherry-pick 08377af from v8 upstream	117		
 9731	718899	true	closed	false	1		2016-11-22T04:48:03Z	2016-11-24T04:58:19Z	2016-11-24T04:58:19Z	doc: clarify slashes-appending in url module	28		
@@ -4880,7 +4880,7 @@
 11561	24409318	false	open	false	2		2017-02-26T00:43:52Z	2017-02-26T12:09:05Z		Recursion causes terminating Node.js process without any warnings in virtual operating systems	228		
 11562	54666	true	closed	false	3		2017-02-26T00:50:47Z	2017-02-28T07:12:48Z	2017-02-28T02:40:51Z	backport: 10805	48		
 11563	5678671	false	closed	false	0		2017-02-26T00:57:52Z	2017-02-26T01:54:45Z	2017-02-26T00:58:32Z	Dangling comma in function arguments	91		
-11564	54666	true	open	false	3		2017-02-26T04:57:41Z	2017-02-28T03:25:16Z		os: improve cpus() performance	50		
+11564	54666	true	open	false	6		2017-02-26T04:57:41Z	2017-03-02T10:49:19Z		os: improve cpus() performance	50		
 11565	1334536	true	open	false	3		2017-02-26T13:16:48Z	2017-02-28T09:56:25Z		WIP: module,errors: port module to internal/errors	153		
 11566	10393198	true	closed	false	2	4	2017-02-26T16:11:04Z	2017-03-01T15:55:35Z	2017-03-01T15:55:35Z	doc: some fixes in errors.md	66		
 11567	156269	true	open	false	5		2017-02-26T17:15:42Z	2017-02-27T08:08:19Z		http: should support userland Agent	73		
@@ -4944,10 +4944,10 @@
 11625	4299420	true	closed	false	2	0	2017-03-01T03:34:24Z	2017-03-01T15:38:20Z	2017-03-01T15:38:20Z	doc: add link to references in net.Socket	33		
 11626	1538624	true	open	false			2017-03-01T04:19:37Z	2017-03-02T03:02:07Z		url: spec-compliant URLSearchParams serializer	296		
 11627	1006477	false	open	false	12		2017-03-01T07:09:34Z	2017-03-02T08:21:24Z		Multiple test failures in 7.7.0	1414		
-11628	4760120	false	closed	false	13		2017-03-01T09:10:51Z	2017-03-02T09:37:26Z	2017-03-02T08:24:53Z	all native modules on 7.7.0 are broken because trace_event.h is not included in the distributable, but referred by node.h	65		
+11628	4760120	false	closed	false	14		2017-03-01T09:10:51Z	2017-03-02T10:18:46Z	2017-03-02T08:24:53Z	all native modules on 7.7.0 are broken because trace_event.h is not included in the distributable, but referred by node.h	65		
 11629	25509586	false	open	false	0		2017-03-01T09:12:02Z	2017-03-01T10:49:14Z		Illegal invocation error using ES6 Proxy and node.js	84		
 11630	7455872	true	open	false	1		2017-03-01T09:17:49Z	2017-03-01T17:07:16Z		fs: getOption to populate passed in default values	163		
-11631	432351	true	open	false	1		2017-03-01T13:49:58Z	2017-03-02T06:52:00Z		test: make tests pass when configured --without-ssl	57		
+11631	432351	true	open	false	2		2017-03-01T13:49:58Z	2017-03-02T10:01:52Z		test: make tests pass when configured --without-ssl	56		
 11632	15087079	false	closed	false	1		2017-03-01T13:58:47Z	2017-03-01T17:24:08Z	2017-03-01T14:20:48Z	node inspect url changing on every node app restarts	0		
 11633	1890238	false	open	false	0		2017-03-01T14:24:04Z	2017-03-01T14:24:04Z		new Date mismatch	44		
 11634	2352663	true	open	false	16		2017-03-01T14:41:35Z	2017-03-01T20:05:26Z		v7.x: cherry-pick tracing related fixes	2		
@@ -4960,8 +4960,8 @@
 11641	289174	true	open	false	0		2017-03-01T22:50:26Z	2017-03-01T23:48:24Z		fs: allow read/write to accept an ArrayBuffer	162		
 11642	781746	false	open	false	0		2017-03-02T01:07:27Z	2017-03-02T01:07:27Z		Clarify usage of util.deprecate()	376		
 11643	718899	true	open	false	0	0	2017-03-02T02:59:33Z	2017-03-02T02:59:33Z		test: remove obsolete eslint-disable comment	49		
-11644	718899	false	open	false	0		2017-03-02T03:03:43Z	2017-03-02T03:03:43Z		Investigate flaky test-https-agent-create-connection on LinuxONE	37		
+11644	718899	false	open	false	0		2017-03-02T03:03:43Z	2017-03-02T10:54:59Z		Investigate flaky test-https-agent-create-connection on LinuxONE	37		
 11645	8374494	false	open	false	5		2017-03-02T03:53:22Z	2017-03-02T09:40:29Z		node closure context bug.	96		
 11646	782880	true	open	false	0	0	2017-03-02T04:06:52Z	2017-03-02T04:06:52Z		timers: fix not to close reused timer handle	153		
 11647	5445507	true	open	false	0	0	2017-03-02T05:40:14Z	2017-03-02T05:40:14Z		doc: fix WHATWG URL url.protocol example	41		
-11648	3395610	false	open	false	0		2017-03-02T09:52:46Z	2017-03-02T09:52:46Z		How about support async/await for internal asynchronous methods?	31		
+11648	3395610	false	closed	false	0		2017-03-02T09:52:46Z	2017-03-02T10:21:55Z	2017-03-02T10:21:55Z	How about support async/await for internal asynchronous methods?	31		
