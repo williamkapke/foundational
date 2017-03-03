@@ -404,7 +404,7 @@
 6160	110455	false	closed	false	14		2016-04-12T00:26:17Z	2016-10-17T10:38:09Z	2016-10-17T10:38:09Z	Clearing require.cache of native addon makes it throw when required later.	216		
 6162	11958657	false	closed	false	10		2016-04-12T07:36:35Z	2016-11-15T04:46:14Z	2016-04-12T10:05:18Z	require same file twice and exec twice	76		
 6165	2993861	true	closed	false	15	2	2016-04-12T16:15:29Z	2016-12-27T14:14:23Z	2016-12-27T14:14:23Z	module: maintain separate cache for native modules	98		
-6171	1088987	true	open	false	7		2016-04-12T19:50:49Z	2017-03-01T05:49:58Z		repl: refactor `LineParser` implementation	94		
+6171	1088987	true	open	false	8		2016-04-12T19:50:49Z	2017-03-03T06:21:22Z		repl: refactor `LineParser` implementation	94		
 6180	3824055	false	closed	false	18		2016-04-13T14:03:54Z	2016-07-26T17:44:29Z	2016-07-26T17:44:29Z	Memory leak in simple test case involving WeakSet	202		
 6181	6279791	false	closed	false	5		2016-04-13T14:17:30Z	2016-09-27T13:15:32Z	2016-04-13T17:24:17Z	Uncaught TypeError when tab-completing constructor in REPL	66		
 6184	289174	true	closed	false	29		2016-04-13T19:21:38Z	2016-10-24T18:28:57Z	2016-05-24T20:44:10Z	src: no abort from GetFD if object isn't wrapped	88		
@@ -2628,7 +2628,7 @@
 9301	5454763	false	closed	false	6		2016-10-26T21:34:56Z	2016-11-01T01:30:16Z	2016-10-26T22:20:41Z	() => {}.bind(this) is not parsed correctly	59		
 9302	170197	false	closed	false	1		2016-10-26T21:44:13Z	2016-12-07T17:22:12Z	2016-12-07T17:22:12Z	WHATWG URLSearchParams issue	52		
 9303	718899	true	closed	false	4		2016-10-26T22:49:47Z	2016-10-29T00:11:07Z	2016-10-29T00:11:07Z	test: fix flaky test-fs-watch-recursive on OS X	127		
-9304	1485909	true	closed	false	85		2016-10-26T23:53:35Z	2017-02-01T17:57:10Z	2016-12-20T20:33:43Z	Trace event support for Node.js	393		
+9304	1485909	true	closed	false	86		2016-10-26T23:53:35Z	2017-03-03T06:45:20Z	2016-12-20T20:33:43Z	Trace event support for Node.js	393		
 9305	718899	true	closed	false	2		2016-10-26T23:56:36Z	2016-10-29T00:13:03Z	2016-10-29T00:13:02Z	test: run all of test-timers-blocking-callback	58		
 9306	110455	true	open	false	5		2016-10-27T00:17:55Z	2017-01-11T00:33:17Z		process: maintain constructor descriptor	74		
 9307	2512748	true	closed	false	5		2016-10-27T02:51:24Z	2017-01-05T18:20:36Z	2016-10-29T17:35:47Z	test: add child_process customFds test	48		
@@ -2700,7 +2700,7 @@
 9373	11139560	false	closed	false	2		2016-10-31T02:06:35Z	2016-11-06T13:20:23Z	2016-11-06T13:20:23Z	incorrect/unexpected behavior in assert module	216		
 9374	718899	true	closed	false	9		2016-10-31T04:36:24Z	2016-11-22T19:38:39Z	2016-11-03T20:27:38Z	repl: refactor lib/repl.js	52		
 9375	696611	true	closed	false	6		2016-10-31T12:13:16Z	2016-12-20T23:52:49Z	2016-11-05T09:38:27Z	build: start comments at beginning of line	70		
-9376	495647	true	open	false	2		2016-10-31T13:03:05Z	2017-02-01T20:09:12Z		crypto: initial LibreSSL support (WIP)	730		
+9376	495647	true	open	false	3		2016-10-31T13:03:05Z	2017-03-03T06:37:12Z		crypto: initial LibreSSL support (WIP)	730		
 9377	7402787	false	closed	false	64		2016-10-31T13:32:55Z	2017-02-21T00:20:22Z	2016-11-06T10:38:10Z	Error: Cannot find module 'internal/fs' when npm install on mac	102		
 9378	3973850	false	open	false	24		2016-10-31T13:37:45Z	2016-11-21T05:28:37Z		readdirSync of drive letter lists items of cwd	107		
 9379	1573141	true	closed	false	3		2016-10-31T14:10:42Z	2016-11-01T19:09:16Z	2016-11-01T19:09:16Z	doc: fs: fix link to mkdtemp	39		
@@ -4383,7 +4383,7 @@
 11062	6354455	true	closed	false	11		2017-01-29T02:49:33Z	2017-02-01T10:56:35Z	2017-02-01T02:49:27Z	v7.5.0 proposal	3415		
 11063	3367801	true	closed	false	1		2017-01-29T03:51:53Z	2017-02-02T00:43:15Z	2017-02-02T00:43:15Z	test: add path.join's test	55		
 11064	899444	true	closed	false	2		2017-01-29T05:38:57Z	2017-01-30T17:42:54Z	2017-01-30T17:42:54Z	src: fix v8 local handling in node_url.cc	67		
-11065	718899	true	closed	false	4		2017-01-29T05:53:38Z	2017-02-03T02:24:13Z	2017-02-02T04:00:41Z	test: increase strictness for test-trace-event	48		
+11065	718899	true	closed	false	5		2017-01-29T05:53:38Z	2017-03-03T06:43:23Z	2017-02-02T04:00:41Z	test: increase strictness for test-trace-event	48		
 11066	1538624	true	closed	false	4	5	2017-01-29T10:42:51Z	2017-02-01T07:58:25Z	2017-02-01T07:58:24Z	src: remove usage of V8 deprecated APIs in node_url.cc	27		
 11067	11778762	true	closed	false	6	0	2017-01-29T14:28:15Z	2017-02-03T20:46:42Z	2017-02-03T20:46:42Z	removed unused arguments & switch '==' to '==='	66		
 11068	718899	true	closed	false	2	0	2017-01-30T02:23:23Z	2017-01-31T18:34:44Z	2017-01-31T18:34:43Z	test: require handler to be run in sigwinch test	37		
@@ -4424,7 +4424,7 @@
 11103	11838792	false	open	false	3		2017-02-01T15:25:17Z	2017-02-02T07:42:51Z		v7.x undocumented backward incompatibility of url.format()	173		
 11104	5268928	false	closed	false	4		2017-02-01T15:32:46Z	2017-02-10T07:43:19Z	2017-02-09T18:15:37Z	7.5.0 clock_gettime runtime failure built with macOS 10.11 and Xcode 8.x	541		
 11105	1538624	true	closed	false	4	3	2017-02-01T17:35:02Z	2017-02-03T21:04:02Z	2017-02-03T21:04:02Z	url: fix setting `url.search` to the empty string	39		
-11106	1485909	true	open	false	11		2017-02-01T17:56:19Z	2017-02-28T21:30:38Z		v7.x backport: src: add tracing controller	121		
+11106	1485909	true	closed	false	13		2017-02-01T17:56:19Z	2017-03-03T06:44:36Z	2017-03-01T00:23:01Z	v7.x backport: src: add tracing controller	121		
 11107	3086146	true	closed	false	0		2017-02-01T18:20:09Z	2017-02-02T13:37:23Z	2017-02-01T18:21:05Z	Fix node	49		
 11108	156867	true	closed	false	2	0	2017-02-01T19:22:13Z	2017-02-04T08:10:50Z	2017-02-04T08:10:50Z	"doc: fix ""initial delay"" link in http.md"	8		
 11109	101553	true	closed	false	0		2017-02-01T19:32:45Z	2017-02-04T11:27:55Z	2017-02-04T11:27:55Z	src: don't overwrite non-writable vm globals	95		
@@ -4949,7 +4949,7 @@
 11628	4760120	false	closed	false	17		2017-03-01T09:10:51Z	2017-03-02T19:56:26Z	2017-03-02T08:24:53Z	all native modules on 7.7.0 are broken because trace_event.h is not included in the distributable, but referred by node.h	65		
 11629	25509586	false	open	false	0		2017-03-01T09:12:02Z	2017-03-01T10:49:14Z		Illegal invocation error using ES6 Proxy and node.js	84		
 11630	7455872	true	open	false	1		2017-03-01T09:17:49Z	2017-03-01T17:07:16Z		fs: getOption to populate passed in default values	163		
-11631	432351	true	open	false	4		2017-03-01T13:49:58Z	2017-03-02T18:46:14Z		test: make tests pass when configured --without-ssl	56		
+11631	432351	true	open	false	5		2017-03-01T13:49:58Z	2017-03-03T06:42:26Z		test: make tests pass when configured --without-ssl	56		
 11632	15087079	false	closed	false	1		2017-03-01T13:58:47Z	2017-03-01T17:24:08Z	2017-03-01T14:20:48Z	node inspect url changing on every node app restarts	0		
 11633	1890238	false	open	false	0		2017-03-01T14:24:04Z	2017-03-01T14:24:04Z		new Date mismatch	44		
 11634	2352663	true	open	false	16		2017-03-01T14:41:35Z	2017-03-01T20:05:26Z		v7.x: cherry-pick tracing related fixes	2		
@@ -4982,6 +4982,7 @@
 11661	718899	true	open	false	0		2017-03-02T18:40:12Z	2017-03-02T22:29:38Z		Unlock module and remove Locked from stability index	70		
 11662	275871	true	open	false	0		2017-03-02T18:56:57Z	2017-03-02T20:25:42Z		url: don't scan number twice	45		
 11663	406656	false	open	false	0		2017-03-02T21:20:06Z	2017-03-02T21:20:06Z		"fs.link() fails on ReFS with ""operation not supported on socket"""	113		
-11664	617638	true	open	false	2		2017-03-02T21:33:54Z	2017-03-03T00:02:23Z		doc: adds links to the stability index reference	313		
+11664	617638	true	open	false	2		2017-03-02T21:33:54Z	2017-03-03T06:43:36Z		tools: adds doc links to the stability index reference	313		
 11665	54666	true	open	false	0	0	2017-03-03T03:47:39Z	2017-03-03T03:47:39Z		fs: include more fs.stat*() optimizations	214		
 11666	1890238	false	open	false	0		2017-03-03T04:11:53Z	2017-03-03T04:11:53Z		Date Bug	24		
+11667	4299420	true	open	false	0	0	2017-03-03T06:52:45Z	2017-03-03T06:52:45Z		net: refactor overloaded argument handling	105		
