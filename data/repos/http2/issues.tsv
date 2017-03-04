@@ -7,16 +7,16 @@
 7	52195	false	open	false	3		2016-10-14T08:26:40Z	2016-10-24T16:22:20Z		engaging with the maintainer of http2 on npm	35		
 8	439929	true	open	false	2		2016-10-31T21:07:25Z	2016-11-04T02:33:17Z		Second round of implementation upates	29		
 9	439929	true	closed	false	8		2016-11-04T22:40:18Z	2016-11-15T15:12:26Z	2016-11-10T04:46:39Z	Round 3	8		
-10	52195	false	open	false	1		2016-11-14T09:40:30Z	2016-11-17T00:16:18Z		tests not passing	120		
-11	52195	false	open	false	1		2016-11-14T09:42:02Z	2016-11-17T00:17:30Z		missing unit tests	36		
+10	52195	false	closed	false	1		2016-11-14T09:40:30Z	2017-03-04T16:25:13Z	2017-03-04T16:25:13Z	tests not passing	120		
+11	52195	false	closed	false	2		2016-11-14T09:42:02Z	2017-03-04T16:24:49Z	2017-03-04T16:24:49Z	missing unit tests	36		
 12	439929	true	closed	false	2		2016-11-15T15:07:16Z	2016-11-15T17:17:13Z	2016-11-15T15:11:05Z	Round 4	11		
 13	439929	true	closed	false	9		2016-11-17T00:08:34Z	2016-11-18T13:37:40Z	2016-11-18T07:46:28Z	Round 5	2050		
 14	439929	true	closed	false	2		2016-11-22T23:00:36Z	2016-12-02T17:10:41Z	2016-12-02T17:10:41Z	Round6	142		
 15	439929	true	closed	false	1		2016-11-23T16:57:37Z	2016-11-23T22:43:03Z	2016-11-23T22:43:03Z	Rebase on master	6		
 16	78718	true	closed	false	0	0	2016-12-02T00:41:03Z	2016-12-02T21:31:50Z	2016-12-02T21:31:50Z	Typo sendContinuue -> sendContinue	14	52195	2016-12-02T21:31:50Z
-17	439929	false	open	false	0		2016-12-02T18:28:49Z	2016-12-02T18:28:49Z		Use _writev in the Http2Stream duplex and Http2Outgoing	0		
-18	439929	false	open	false	0		2016-12-02T18:29:24Z	2016-12-02T18:29:24Z		Move [kRusume]() calls into internal src/node_http2.cc as much as possible	0		
-19	439929	false	open	false	0		2016-12-02T18:39:27Z	2016-12-02T18:39:27Z		Internal buffering of writes before telling nghttp to resume a stream	0		
+17	439929	false	closed	false	0		2016-12-02T18:28:49Z	2017-03-04T16:25:26Z	2017-03-04T16:25:26Z	Use _writev in the Http2Stream duplex and Http2Outgoing			
+18	439929	false	open	false	0		2016-12-02T18:29:24Z	2017-03-04T16:26:11Z		Move [kRusume]() calls into internal src/node_http2.cc as much as possible			
+19	439929	false	open	false	0		2016-12-02T18:39:27Z	2017-03-04T16:26:19Z		Internal buffering of writes before telling nghttp to resume a stream			
 20	52195	true	open	false	1		2016-12-02T18:39:56Z	2016-12-03T03:24:42Z		http2: 10% perf improvement.	9		
 21	52195	true	open	false	3		2016-12-05T12:52:45Z	2016-12-07T00:27:36Z		more perf updates	2		
 22	52195	false	open	false	0		2016-12-05T15:01:08Z	2016-12-05T15:01:08Z		Memory leak with h2load	10		
@@ -24,7 +24,7 @@
 24	439929	true	open	false	14		2016-12-07T00:21:26Z	2017-01-08T07:16:35Z		Round7	5		
 25	52195	true	closed	false	3	0	2016-12-07T09:18:53Z	2016-12-09T10:46:19Z	2016-12-09T10:46:19Z	Removed stream accessor	18		
 26	52195	false	closed	false	19		2016-12-07T17:30:01Z	2017-02-01T17:49:54Z	2017-02-01T17:49:54Z	HTTP2 meeting	30		
-27	52195	false	open	false	1		2016-12-09T10:57:03Z	2016-12-09T15:23:20Z		setHeader is an hot function	52		
+27	52195	false	closed	false	1		2016-12-09T10:57:03Z	2017-03-04T16:24:30Z	2017-03-04T16:24:30Z	setHeader is an hot function	52		
 28	52195	true	closed	false	1		2016-12-09T11:18:44Z	2016-12-09T17:32:14Z	2016-12-09T17:32:14Z	http2: prefer kStream to .stream accessor to speed things up.	11		
 29	178857	false	open	false	33		2016-12-16T07:32:57Z	2017-02-03T14:36:44Z		Why is http2 exposed as a property of the http module?	50		
 30	10163112	false	closed	false	2		2016-12-23T07:20:21Z	2016-12-23T08:11:19Z	2016-12-23T07:25:00Z	Sending illegal frame (DATA) in CLOSED state. and AssertionError: false == true	143		
@@ -39,5 +39,5 @@
 39	1150553	true	closed	false	1		2017-02-06T17:02:31Z	2017-02-06T19:08:20Z	2017-02-06T19:08:20Z	Fix links	7		
 40	52195	false	closed	false	2		2017-02-07T09:56:32Z	2017-02-17T17:46:22Z	2017-02-17T17:46:22Z	stream.respond() not ordering :status header correctly	268		
 41	899444	true	open	false	2		2017-02-18T23:37:18Z	2017-02-28T22:25:14Z		C++ refactor	30		
-42	6354455	false	open	false	0		2017-02-20T18:46:26Z	2017-02-20T18:46:26Z		Test List	193		
+42	6354455	false	open	false	1		2017-02-20T18:46:26Z	2017-03-04T16:23:58Z		Test List	193		
 43	52195	true	open	false	8		2017-02-22T09:13:28Z	2017-03-04T15:50:51Z		http2: client round 1	17		

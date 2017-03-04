@@ -1,10 +1,10 @@
 {
-  "words": 4447,
-  "comments": 70,
+  "words": 5434,
+  "comments": 99,
   "prs": {
-    "opened": 9,
-    "closed": 3,
-    "words": 4447
+    "opened": 10,
+    "closed": 9,
+    "words": 5434
   },
   "issues": {
     "opened": 0,
@@ -68,17 +68,34 @@
     },
     "foundation-slides": {"open":4},
     "foundation.nodejs.org": {"open":5},
-    "github-bot": {"open":32},
+    "github-bot": {
+      "127": {"comments":0,"words":64,"opened":"2017-03-04T16:33:49Z","opener":"15943089","pr":true},
+      "open": 33,
+      "words": 64,
+      "opened": 1
+    },
     "hardware": {"open":12},
-    "help": {"open":90},
+    "help": {
+      "510": {"comments":3,"words":76,"pr":true},
+      "open": 90,
+      "words": 76,
+      "comments": 3
+    },
     "http": {"open":14},
     "http-parser": {"open":46},
     "http2": {
+      "10": {"comments":1,"words":121,"pr":true,"closed":"2017-03-04T16:25:13Z","closer":"52195"},
+      "11": {"comments":1,"words":41,"pr":true,"closed":"2017-03-04T16:24:49Z","closer":"52195"},
+      "17": {"comments":1,"words":5,"pr":true,"closed":"2017-03-04T16:25:26Z","closer":"52195"},
+      "18": {"comments":2,"words":57,"pr":true,"closed":"","closer":"439929"},
+      "19": {"comments":1,"words":3,"pr":true},
+      "27": {"comments":1,"words":56,"pr":true,"closed":"2017-03-04T16:24:30Z","closer":"52195"},
+      "42": {"comments":1,"words":61,"pr":true},
       "43": {"comments":2,"words":33,"pr":true,"closed":"","closer":"439929"},
-      "open": 11,
-      "words": 33,
-      "comments": 2,
-      "closed": 1
+      "open": 6,
+      "words": 377,
+      "comments": 10,
+      "closed": 6
     },
     "inclusivity": {"open":20},
     "inclusivity-slack-inviter": {"open":1},
@@ -89,21 +106,26 @@
     "logos": {"open":2},
     "nan": {"open":29},
     "node": {
+      "1127": {"comments":1,"words":8,"pr":true},
       "7305": {"comments":1,"words":50,"pr":true},
       "8419": {"comments":8,"words":499,"pr":true},
       "9659": {"comments":1,"words":42,"pr":true},
       "10958": {"comments":1,"words":7,"pr":true},
-      "11139": {"comments":1,"words":66,"pr":true},
+      "11139": {"comments":2,"words":88,"pr":true},
       "11387": {"comments":1,"words":4,"pr":true},
       "11533": {"comments":1,"words":18,"pr":true},
+      "11568": {"comments":1,"words":12,"pr":true},
+      "11571": {"comments":1,"words":48,"pr":true,"closed":"2017-03-04T16:08:01Z","closer":"439929"},
+      "11622": {"comments":2,"words":103,"pr":true},
       "11626": {"comments":4,"words":31,"pr":true},
       "11636": {"comments":2,"words":138,"pr":true,"closed":"","closer":"4299420"},
-      "11656": {"comments":1,"words":94,"pr":true},
+      "11656": {"comments":2,"words":108,"pr":true},
       "11662": {"comments":1,"words":46,"pr":true},
+      "11665": {"comments":2,"words":32,"pr":true},
       "11666": {"comments":2,"words":31,"pr":true},
       "11667": {"comments":2,"words":448,"pr":true},
       "11670": {"comments":1,"words":6,"pr":true},
-      "11674": {"comments":8,"words":872,"pr":true},
+      "11674": {"comments":12,"words":971,"pr":true},
       "11675": {"comments":5,"words":334,"pr":true},
       "11678": {"comments":2,"words":266,"pr":true},
       "11679": {"comments":2,"words":23,"pr":true},
@@ -112,12 +134,12 @@
       "11683": {"comments":1,"words":147,"opened":"2017-03-04T09:03:57Z","opener":"275871","pr":true},
       "11684": {"comments":2,"words":203,"pr":true,"opened":"2017-03-04T12:16:43Z","opener":"4299420"},
       "11685": {"comments":0,"words":43,"opened":"2017-03-04T14:02:26Z","opener":"15943089","pr":true},
-      "11686": {"comments":2,"words":85,"pr":true,"opened":"2017-03-04T15:30:36Z","opener":"15943089"},
-      "open": 1023,
-      "words": 3616,
-      "comments": 53,
+      "11686": {"comments":7,"words":250,"pr":true,"opened":"2017-03-04T15:30:36Z","opener":"15943089"},
+      "open": 1022,
+      "words": 4119,
+      "comments": 71,
       "opened": 6,
-      "closed": 2
+      "closed": 3
     },
     "node-addon-examples": {"open":30},
     "node-chakracore": {"open":48},
@@ -215,10 +237,24 @@
       "login": "mcollina",
       "words": {
         "http2/pulls/43#284125405": 15,
-        "http2/pulls/43": 17
+        "http2/pulls/43": 17,
+        "node/pulls/11139#284161776": 22,
+        "http2/pulls/42#284162059": 61,
+        "http2/pulls/27#284162093": 4,
+        "http2/issues/27": 52,
+        "http2/pulls/11#284162114": 5,
+        "http2/issues/11": 36,
+        "http2/pulls/10#284162146": 1,
+        "http2/issues/10": 120,
+        "http2/pulls/17#284162160": 5,
+        "http2/pulls/18#284162210": 3,
+        "http2/pulls/19#284162222": 3
       },
       "closed": [
-        "http2/pulls/43"
+        "http2/pulls/43",
+        "http2/issues/27",
+        "http2/issues/11",
+        "http2/issues/10"
       ]
     },
     "109983": {
@@ -242,7 +278,10 @@
       "words": {
         "node/pulls/11666#284137442": 27,
         "node/pulls/11662#284137658": 46,
-        "node/issues/11683": 110
+        "node/issues/11683": 110,
+        "node/pulls/1127#284162503": 8,
+        "node/pulls/11665#104291937": 16,
+        "help/pulls/510#284164350": 31
       },
       "opened": [
         "node/issues/11683"
@@ -253,6 +292,14 @@
       "login": "jpolo",
       "words": {
         "node-eps/pulls/13#284142594": 56
+      }
+    },
+    "341828": {
+      "id": "341828",
+      "login": "hamid2c",
+      "words": {
+        "help/pulls/510#284163842": 37,
+        "help/pulls/510#284164639": 8
       }
     },
     "390146": {
@@ -272,7 +319,22 @@
       "id": "439929",
       "login": "jasnell",
       "words": {
-        "http2/pulls/43#284159835": 1
+        "http2/pulls/43#284159835": 1,
+        "node/pulls/11571#284160924": 3,
+        "http2/issues/17": 0,
+        "http2/issues/18": 0,
+        "http2/pulls/18#284162705": 54
+      },
+      "closed": [
+        "http2/issues/17",
+        "http2/issues/18"
+      ]
+    },
+    "569527": {
+      "id": "569527",
+      "login": "clarenced",
+      "words": {
+        "node/pulls/11622#284161046": 75
       }
     },
     "588262": {
@@ -318,7 +380,12 @@
       "words": {
         "node/pulls/8419#104290255": 4,
         "node/pulls/11674#284159130": 48,
-        "node/pulls/11139#284159873": 66
+        "node/pulls/11139#284159873": 66,
+        "node/pulls/11568#284160531": 12,
+        "node/pulls/11656#284160913": 14,
+        "node/pulls/11622#284161325": 28,
+        "node/pulls/11665#104291358": 16,
+        "node/pulls/11674#284163744": 30
       }
     },
     "988441": {
@@ -328,14 +395,21 @@
         "node/pulls/11674#284143797": 129,
         "node/pulls/11674#284144848": 53,
         "node/pulls/11674#284150220": 196,
-        "node/pulls/11686#104290256": 8
+        "node/pulls/11686#104290256": 8,
+        "node/pulls/11686#104291241": 20,
+        "node/pulls/11674#284163953": 22
       }
     },
     "1443911": {
       "id": "1443911",
       "login": "lpinca",
       "words": {
-        "node/pulls/11674#284144688": 58
+        "node/pulls/11674#284144688": 58,
+        "node/pulls/11686#104291168": 24,
+        "node/pulls/11686#104291387": 57,
+        "node/pulls/11686#104291437": 23,
+        "node/pulls/11674#284163344": 35,
+        "node/pulls/11674#284164133": 12
       }
     },
     "1538624": {
@@ -354,6 +428,16 @@
       "words": {
         "node/pulls/11670#284154004": 6
       }
+    },
+    "1716463": {
+      "id": "1716463",
+      "login": "watilde",
+      "words": {
+        "node/pulls/11571": 45
+      },
+      "closed": [
+        "node/pulls/11571"
+      ]
     },
     "2006839": {
       "id": "2006839",
@@ -469,13 +553,16 @@
         "node/pulls/11667#284154405": 7,
         "node-gyp/pulls/809#284155388": 381,
         "node-gyp/pulls/809#284155871": 16,
-        "node/pulls/11686": 54,
+        "node/pulls/11686": 60,
         "node/pulls/11686#284158545": 23,
-        "node/pulls/11674#284158572": 3
+        "node/pulls/11674#284158572": 3,
+        "github-bot/issues/127": 64,
+        "node/pulls/11686#104291981": 35
       },
       "opened": [
         "node/issues/11685",
-        "node/pulls/11686"
+        "node/pulls/11686",
+        "github-bot/issues/127"
       ]
     },
     "19511039": {

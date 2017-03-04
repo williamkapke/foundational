@@ -34,7 +34,7 @@
 1013	176984	false	closed	false	45		2015-03-01T10:58:11Z	2016-10-17T07:18:56Z	2016-04-04T01:52:33Z	Replace deps/cares with pure-javascript alternative	207		
 1041	443639	false	open	false	11		2015-03-03T12:02:28Z	2016-12-09T07:17:52Z		Stream not emitting data event after pipe+unpipe	51		
 1043	9287	false	closed	false	35		2015-03-03T17:40:37Z	2017-01-28T10:31:17Z	2015-03-12T18:13:55Z	Proposal: global.window = global	93		
-1127	509651	false	open	false	12		2015-03-11T20:57:31Z	2017-03-03T14:39:51Z		crypto: sign/verify support for RSASSA-PSS	72		
+1127	509651	false	open	false	13		2015-03-11T20:57:31Z	2017-03-04T16:30:10Z		crypto: sign/verify support for RSASSA-PSS	72		
 1128	36662	false	open	false	17		2015-03-11T22:48:11Z	2016-08-29T14:15:29Z		feature request: a way to inspect what's in the event loop	137		
 1159	829734	true	closed	false	85		2015-03-15T22:38:28Z	2016-12-13T02:44:29Z	2015-07-08T12:32:14Z	workers: initial implementation	1656		
 1173	2924002	false	closed	false	16		2015-03-17T16:37:38Z	2016-11-23T06:28:44Z	2015-03-17T22:53:11Z	installation problem	178		
@@ -4457,7 +4457,7 @@
 11136	5234060	true	closed	false	5		2017-02-03T05:51:42Z	2017-02-20T21:41:30Z	2017-02-20T21:41:30Z	doc: add comment for net.Server's error event	23		
 11137	1453603	true	open	false	0		2017-02-03T05:57:32Z	2017-02-03T06:11:21Z		test: improve events coverage to check removeListeners, removeAllListeners functions	73		
 11138	439929	true	open	false			2017-02-03T06:04:15Z	2017-02-20T18:14:04Z		crypto: refactor crypto module	67		
-11139	4964823	true	closed	false	6		2017-02-03T06:52:39Z	2017-03-04T15:51:33Z	2017-03-03T22:18:10Z	stream: minor fix for ReadableState	44		
+11139	4964823	true	closed	false	7		2017-02-03T06:52:39Z	2017-03-04T16:20:17Z	2017-03-03T22:18:10Z	stream: minor fix for ReadableState	44		
 11140	1453603	true	closed	false	1		2017-02-03T07:10:21Z	2017-02-03T22:47:56Z	2017-02-03T22:47:56Z	test: improve events coverage to check removeListeners functions	73		
 11141	432351	true	closed	false	20		2017-02-03T07:23:44Z	2017-02-05T05:49:12Z	2017-02-04T10:53:57Z	doc: add info about using nvm	48		
 11142	5215027	true	closed	false	7		2017-02-03T08:30:30Z	2017-02-03T20:57:54Z	2017-02-03T20:57:54Z	test, url: updated assertions in url-searchparams-getall tests	42		
@@ -4886,10 +4886,10 @@
 11565	1334536	true	open	false	3		2017-02-26T13:16:48Z	2017-02-28T09:56:25Z		WIP: module,errors: port module to internal/errors	153		
 11566	10393198	true	closed	false	2	4	2017-02-26T16:11:04Z	2017-03-01T15:55:35Z	2017-03-01T15:55:35Z	doc: some fixes in errors.md	66		
 11567	156269	true	open	false	5		2017-02-26T17:15:42Z	2017-02-27T08:08:19Z		http: should support userland Agent	73		
-11568	4129748	false	open	false	10		2017-02-26T17:27:29Z	2017-03-03T16:18:22Z		Any way to to turn console into fully synchronous?	131		
+11568	4129748	false	open	false	11		2017-02-26T17:27:29Z	2017-03-04T16:02:11Z		Any way to to turn console into fully synchronous?	131		
 11569	696611	true	closed	false	1	0	2017-02-26T20:18:35Z	2017-02-27T12:28:44Z	2017-02-27T12:28:44Z	doc: make the heading consistent	38		
 11570	1538624	false	open	false	4		2017-02-26T21:10:13Z	2017-02-27T07:10:04Z		Confusing inspection for sparse arrays	151		
-11571	1716463	true	open	false	5		2017-02-27T00:00:41Z	2017-03-03T16:52:25Z		url: use `hasIntl` instead of `try-catch`	45		
+11571	1716463	true	closed	false	6	0	2017-02-27T00:00:41Z	2017-03-04T16:08:01Z	2017-03-04T16:08:01Z	url: use `hasIntl` instead of `try-catch`	45		
 11572	1474688	false	closed	false	1		2017-02-27T01:53:47Z	2017-02-27T06:15:32Z	2017-02-27T05:03:05Z	[Consult]: TCP connections permanently stay at FIN_WAIT2	90		
 11573	275871	true	closed	false	0		2017-02-27T04:59:52Z	2017-03-01T16:34:43Z	2017-03-01T16:34:43Z	net: remove misleading comment	66		
 11574	24477874	false	open	false	0		2017-02-27T05:47:01Z	2017-02-27T05:47:01Z		My program could run on Mac, but error on Window	42		
@@ -4940,7 +4940,7 @@
 11619	9373002	false	open	false	2		2017-02-28T19:17:03Z	2017-03-01T15:44:22Z		parallel/test-debug-port-numbers - intermittent failure	29		
 11620	432351	true	closed	false	1		2017-02-28T19:52:18Z	2017-03-02T06:37:14Z	2017-03-02T06:37:14Z	test: fix test-internal-util-assertCrypto regex	101		
 11621	6354455	true	open	false	0	0	2017-02-28T21:15:10Z	2017-02-28T21:15:10Z		doc: adding deprecations.md	78		
-11622	569527	true	open	false	2		2017-02-28T23:24:34Z	2017-03-02T22:31:54Z		test: add regex to assert in test_cyclic_link_protection	32		
+11622	569527	true	open	false	3		2017-02-28T23:24:34Z	2017-03-04T16:09:16Z		test: add regex to assert in test_cyclic_link_protection	32		
 11623	2882139	false	open	false	1		2017-03-01T02:02:22Z	2017-03-01T03:12:55Z		There is a bug about the require function	139		
 11624	9661806	true	open	false			2017-03-01T03:20:21Z	2017-03-01T17:03:36Z		util: convert inspect.styles to prototype-less object	50		
 11625	4299420	true	closed	false	2	0	2017-03-01T03:34:24Z	2017-03-01T15:38:20Z	2017-03-01T15:38:20Z	doc: add link to references in net.Socket	33		
@@ -4974,7 +4974,7 @@
 11653	5886475	true	open	false	1		2017-03-02T13:33:30Z	2017-03-02T15:14:30Z		test: increase coverage of console	32		
 11654	9373002	false	open	false	0		2017-03-02T14:41:12Z	2017-03-02T14:41:12Z		AIX: Intermittent failure - test-cluster-inspector-debug-brk	208		
 11655	782880	true	open	false	0		2017-03-02T15:01:39Z	2017-03-03T05:19:49Z		tls: fix macro to check NPN feature	152		
-11656	3980400	false	open	false	10		2017-03-02T15:21:48Z	2017-03-04T14:39:24Z		"""Implement me. Unknown stdin file type!"" error thrown when running headless process in win32"	144		
+11656	3980400	false	open	false	11		2017-03-02T15:21:48Z	2017-03-04T16:07:55Z		"""Implement me. Unknown stdin file type!"" error thrown when running headless process in win32"	144		
 11657	3174006	true	open	false	0	0	2017-03-02T15:25:05Z	2017-03-02T15:25:05Z		doc: fix misleading ASCII comments	56		
 11658	115237	true	open	false	0	0	2017-03-02T17:33:38Z	2017-03-02T17:33:38Z		tools: fix lint issue in doctool	9		
 11659	1379799	false	open	false	1		2017-03-02T17:59:18Z	2017-03-02T18:07:03Z		TypeError: Cannot convert a Symbol value to a number at util.js:398:16	134		
@@ -4983,7 +4983,7 @@
 11662	275871	true	open	false	2		2017-03-02T18:56:57Z	2017-03-04T08:43:17Z		url: don't scan number twice	45		
 11663	406656	false	open	false	0		2017-03-02T21:20:06Z	2017-03-02T21:20:06Z		"fs.link() fails on ReFS with ""operation not supported on socket"""	113		
 11664	617638	true	open	false			2017-03-02T21:33:54Z	2017-03-03T13:57:38Z		tools: adds doc links to the stability index reference	313		
-11665	54666	true	open	false	3		2017-03-03T03:47:39Z	2017-03-03T20:56:49Z		fs: include more fs.stat*() optimizations	232		
+11665	54666	true	open	false			2017-03-03T03:47:39Z	2017-03-04T16:31:39Z		fs: include more fs.stat*() optimizations	232		
 11666	1890238	false	open	false	13		2017-03-03T04:11:53Z	2017-03-04T08:38:17Z		Date Bug	47		
 11667	4299420	true	open	false	6		2017-03-03T06:52:45Z	2017-03-04T14:23:18Z		net: refactor overloaded argument handling	105		
 11668	782880	true	open	false			2017-03-03T08:24:55Z	2017-03-03T23:39:12Z		build: fix llvm version detection in freebsd-10	99		
@@ -4992,7 +4992,7 @@
 11671	13561163	true	open	false	0	0	2017-03-03T12:33:41Z	2017-03-03T12:33:41Z		test: failing behaviour on sandboxed Proxy	77		
 11672	1263419	true	open	false	0		2017-03-03T12:47:39Z	2017-03-03T13:55:15Z		util: fix inspecting symbol key in string	48		
 11673	7337239	false	open	false	0		2017-03-03T13:19:49Z	2017-03-03T13:19:49Z		Http/Https response corrupted	133		
-11674	988441	false	open	false	11		2017-03-03T15:10:55Z	2017-03-04T15:31:54Z		Reasons for not using GitHub's green button are unconvincing	230		
+11674	988441	false	open	false	13		2017-03-03T15:10:55Z	2017-03-04T16:41:44Z		Reasons for not using GitHub's green button are unconvincing	230		
 11675	234659	false	open	false	4		2017-03-03T16:49:34Z	2017-03-04T01:08:24Z		require fallthrough behavior	132		
 11676	1716463	true	open	false	0	0	2017-03-03T17:03:25Z	2017-03-03T17:03:25Z		doc: add `Daijiro Wachi` to collaborators	21		
 11677	154208	true	open	false	0	0	2017-03-03T17:53:54Z	2017-03-03T17:53:54Z		doc: fixed readable.isPaused() 'Added in version' annotation	38		
@@ -5004,4 +5004,4 @@
 11683	275871	false	open	false	0		2017-03-04T09:03:57Z	2017-03-04T13:11:03Z		benchmark: disable concurrent recompilation+sweeping?	110		
 11684	4299420	true	open	false	1		2017-03-04T12:16:43Z	2017-03-04T14:31:10Z		test: fail when child died in fork-net	145		
 11685	15943089	false	open	false	0		2017-03-04T14:02:26Z	2017-03-04T14:02:26Z		Document that you can only listen on an already closed socket	43		
-11686	15943089	true	open	false	0	0	2017-03-04T15:30:36Z	2017-03-04T15:30:36Z		doc: document use of the Squash and merge button	54		
+11686	15943089	true	open	false			2017-03-04T15:30:36Z	2017-03-04T16:18:28Z		doc: document use of the Squash and merge button	60		
