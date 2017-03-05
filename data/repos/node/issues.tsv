@@ -541,6 +541,7 @@
 6883	4954074	false	closed	false	20		2016-05-19T19:13:10Z	2016-08-15T09:34:48Z	2016-08-14T09:10:20Z	Loop with computed name crash node 6.2.0 without message	89		
 6885	1093990	true	open	false	5		2016-05-19T19:51:55Z	2017-03-01T19:46:12Z		doc: add core-structure topic doc	159		
 6887	238531	true	closed	false	10		2016-05-20T00:35:45Z	2016-07-12T02:29:49Z	2016-05-25T20:07:41Z	tls: catch `certCbDone` exceptions	60		
+6890	275871	false	closed	false	2		2016-05-20T06:58:51Z	2017-03-05T20:26:03Z	2017-03-05T20:26:03Z	streams: synchronous unpipe() causes data stalls	91		
 6896	718899	false	closed	false	2		2016-05-20T15:50:20Z	2016-07-02T19:42:29Z	2016-07-02T19:42:29Z	Investigate flaky test-tls-server-verify on win10	17		
 6898	3899684	true	open	false	8		2016-05-20T17:19:40Z	2017-03-01T01:26:26Z		node: move pre-definitions into separate file	185		
 6901	15614466	false	closed	false	4		2016-05-20T18:51:46Z	2016-09-12T03:32:05Z	2016-05-20T19:06:02Z	child_process fork creates error: Error: listen EADDRINUSE	82		
@@ -1743,7 +1744,7 @@
 8416	432351	true	closed	false	8	0	2016-09-06T07:43:21Z	2016-09-07T08:06:52Z	2016-09-07T08:06:52Z	src: update f function call comment	75		
 8417	413206	false	closed	false	3		2016-09-06T10:15:12Z	2016-09-06T14:11:14Z	2016-09-06T14:11:14Z	crypto.scryptSync()	37		
 8418	413206	false	open	false	6		2016-09-06T10:17:08Z	2016-09-16T09:03:33Z		crypto.createHKDF()	33		
-8419	8774679	true	open	false	38		2016-09-06T10:48:43Z	2017-03-05T15:41:13Z		net: multiple listen() events fail silently	95		
+8419	8774679	true	open	false	39		2016-09-06T10:48:43Z	2017-03-05T20:16:23Z		net: multiple listen() events fail silently	95		
 8420	1443911	true	closed	false	11		2016-09-06T11:39:49Z	2016-09-12T04:17:45Z	2016-09-12T04:17:45Z	url: fix off-by-one error in loop handling dots	52		
 8421	275871	false	closed	false	3		2016-09-06T14:48:40Z	2016-09-23T22:27:16Z	2016-09-23T22:27:16Z	fs: fs.watchFile() should not emit 'stop' event synchronously	45		
 8422	1093990	true	open	false	12		2016-09-06T15:52:10Z	2017-03-01T02:05:42Z		timers: do not expose .unref()._handle._list	63		
@@ -4985,7 +4986,7 @@
 11664	617638	true	open	false			2017-03-02T21:33:54Z	2017-03-03T13:57:38Z		tools: adds doc links to the stability index reference	313		
 11665	54666	true	open	false			2017-03-03T03:47:39Z	2017-03-04T16:31:39Z		fs: include more fs.stat*() optimizations	232		
 11666	1890238	false	closed	false	15		2017-03-03T04:11:53Z	2017-03-05T04:56:52Z	2017-03-04T18:18:48Z	Date Bug	47		
-11667	4299420	true	open	false	10		2017-03-03T06:52:45Z	2017-03-05T19:08:10Z		net: refactor overloaded argument handling	105		
+11667	4299420	true	open	false	11		2017-03-03T06:52:45Z	2017-03-05T20:20:35Z		net: refactor overloaded argument handling	105		
 11668	782880	true	open	false			2017-03-03T08:24:55Z	2017-03-03T23:39:12Z		build: fix llvm version detection in freebsd-10	99		
 11669	432351	true	closed	false	0		2017-03-03T10:06:00Z	2017-03-04T19:04:22Z	2017-03-04T19:04:22Z	src: remove outdated FIXME in node_crypto.cc	48		
 11670	1610233	true	open	false	3		2017-03-03T11:37:51Z	2017-03-04T14:15:46Z		doc: the url is not found	42		
@@ -5018,3 +5019,4 @@
 11697	115237	true	open	false	0	0	2017-03-05T17:10:47Z	2017-03-05T17:10:47Z		doc: fix more type case inconsistencies	106		
 11698	3967972	true	open	false			2017-03-05T17:17:49Z	2017-03-05T18:17:02Z		net: refactor net module to module.exports	52		
 11699	704044	false	open	false	0		2017-03-05T17:49:00Z	2017-03-05T17:49:00Z		Readline: resume() replays input received during pause	119		
+11700	4299420	true	open	false	0	0	2017-03-05T20:44:36Z	2017-03-05T20:44:36Z		doc: improve docs for net.connect, net.createConnection, net.Socket	76		
