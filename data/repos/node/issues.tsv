@@ -84,7 +84,7 @@
 2363	220205	false	open	false	16		2015-08-12T16:32:09Z	2017-02-24T22:44:09Z		Optionally log master secrets for TLS connections	106		
 2371	855219	false	closed	false	10		2015-08-13T21:17:09Z	2017-02-08T15:05:59Z	2017-02-07T20:12:49Z	Non-BMP variable names don't work from the REPL	17		
 2395	439929	true	closed	false	11	0	2015-08-16T00:23:48Z	2016-08-02T04:18:14Z	2016-08-02T04:18:14Z	http: correct fencepost error when freeing socket	60		
-2398	439929	false	open	false	48		2015-08-16T01:20:43Z	2016-12-13T14:44:30Z		DTLS Discussion	54		
+2398	439929	false	open	false	48		2015-08-16T01:20:43Z	2017-03-06T01:42:36Z		DTLS Discussion	54		
 2407	355800	true	closed	false			2015-08-17T04:01:53Z	2016-09-27T21:34:56Z	2016-04-18T23:52:16Z	assert: respect assert.doesNotThrow message.	32		
 2443	2244675	false	closed	false	8		2015-08-19T14:39:09Z	2016-10-13T11:35:17Z	2016-10-13T11:35:17Z	Incorrect module path resolving with NODE_PATH in Windows	44		
 2465	42354	false	closed	false	4		2015-08-20T18:35:12Z	2016-12-15T12:59:44Z	2015-08-20T19:09:50Z	url.parse parses hostname as protocol when protocol/scheme is absent in hostname:port formatted uRL	54		
@@ -4865,7 +4865,7 @@
 11543	25020067	true	open	false	2		2017-02-24T19:30:07Z	2017-02-27T16:21:15Z		Have console.timeEnd return the elapsed time.	14		
 11544	469365	true	closed	false	0		2017-02-24T20:54:11Z	2017-02-27T20:20:38Z	2017-02-27T20:20:38Z	doc: document clientRequest.aborted	96		
 11545	76945	false	open	false	3		2017-02-24T22:08:50Z	2017-02-27T17:23:03Z		Bug on array spread operator on NodeJS 6.10.0 with --optimize_for_size	303		
-11546	2512748	true	open	false	7		2017-02-25T00:05:23Z	2017-03-05T23:47:00Z		WIP: cluster: make scheduler configurable	378		
+11546	2512748	true	open	false	8		2017-02-25T00:05:23Z	2017-03-06T01:25:49Z		WIP: cluster: make scheduler configurable	378		
 11547	718899	true	closed	false	0		2017-02-25T06:20:08Z	2017-02-27T20:17:18Z	2017-02-27T20:17:18Z	test: favor assertions over console logging	34		
 11548	19511039	true	closed	false	1		2017-02-25T07:40:53Z	2017-02-27T20:10:03Z	2017-02-27T20:10:03Z	doc: argument types for assert methods	37		
 11549	1538624	true	closed	false	6	14	2017-02-25T08:31:49Z	2017-03-01T02:33:04Z	2017-03-01T02:33:04Z	src: do not ignore IDNA conversion error	252		
@@ -4984,7 +4984,7 @@
 11662	275871	true	open	false	2		2017-03-02T18:56:57Z	2017-03-04T08:43:17Z		url: don't scan number twice	45		
 11663	406656	false	open	false	0		2017-03-02T21:20:06Z	2017-03-02T21:20:06Z		"fs.link() fails on ReFS with ""operation not supported on socket"""	113		
 11664	617638	true	open	false			2017-03-02T21:33:54Z	2017-03-03T13:57:38Z		tools: adds doc links to the stability index reference	313		
-11665	54666	true	open	false			2017-03-03T03:47:39Z	2017-03-04T16:31:39Z		fs: include more fs.stat*() optimizations	232		
+11665	54666	true	open	false			2017-03-03T03:47:39Z	2017-03-06T01:45:28Z		fs: include more fs.stat*() optimizations	232		
 11666	1890238	false	closed	false	15		2017-03-03T04:11:53Z	2017-03-05T04:56:52Z	2017-03-04T18:18:48Z	Date Bug	47		
 11667	4299420	true	open	false	13		2017-03-03T06:52:45Z	2017-03-05T22:03:50Z		net: refactor overloaded argument handling	105		
 11668	782880	true	open	false			2017-03-03T08:24:55Z	2017-03-03T23:39:12Z		build: fix llvm version detection in freebsd-10	99		
@@ -5008,14 +5008,14 @@
 11686	15943089	true	open	false	1		2017-03-04T15:30:36Z	2017-03-05T19:16:17Z		doc: document use of the Squash and merge button	60		
 11687	5908321	false	closed	false	1		2017-03-04T21:11:30Z	2017-03-05T09:00:54Z	2017-03-05T09:00:54Z	dns.resolve4 doesn't return TTL as expected	133		
 11688	2456635	false	open	false	0		2017-03-04T21:28:43Z	2017-03-04T21:28:43Z		async await for class method 	60		
-11689	11638619	true	open	false			2017-03-05T08:16:47Z	2017-03-06T01:00:50Z		lib: ensure --check flag works for piped-in code	72		
+11689	11638619	true	open	false			2017-03-05T08:16:47Z	2017-03-06T01:21:38Z		lib: ensure --check flag works for piped-in code	72		
 11690	54666	true	open	false			2017-03-05T10:37:43Z	2017-03-05T22:08:47Z		url: avoid instanceof for WHATWG URL	212		
 11691	54666	true	open	false			2017-03-05T11:19:26Z	2017-03-05T18:11:06Z		WHATWG URL origin cleanup + tests	80		
 11692	899444	true	open	false	0	0	2017-03-05T11:43:04Z	2017-03-05T11:43:04Z		src: drop the NODE_ISOLATE_SLOT macro	35		
 11693	4299420	true	open	false			2017-03-05T11:45:55Z	2017-03-05T13:03:53Z		net: fix net.Server.prototype.listen error message	91		
 11694	4525736	false	open	false	0		2017-03-05T13:41:44Z	2017-03-05T14:11:27Z		https.request() can't connect to a website (ETIMEDOUT) but curl can	205		
 11695	15943089	true	open	false	0	0	2017-03-05T16:28:44Z	2017-03-05T16:28:44Z		doc: reduce font size on smaller screens	45		
-11696	3967972	true	open	false	0	0	2017-03-05T17:09:18Z	2017-03-05T17:09:18Z		dgram: refactor dgram to module.exports	39		
+11696	3967972	true	open	false	0		2017-03-05T17:09:18Z	2017-03-06T01:51:34Z		dgram: refactor dgram to module.exports	39		
 11697	115237	true	open	false	0	0	2017-03-05T17:10:47Z	2017-03-05T17:10:47Z		doc: fix more type case inconsistencies	106		
 11698	3967972	true	open	false			2017-03-05T17:17:49Z	2017-03-05T18:17:02Z		net: refactor net module to module.exports	52		
 11699	704044	false	open	false	0		2017-03-05T17:49:00Z	2017-03-06T00:14:37Z		Readline: resume() replays input received during pause	119		
@@ -5024,4 +5024,4 @@
 11702	6639188	false	open	false	0		2017-03-05T22:32:19Z	2017-03-05T23:24:12Z		Discussion: Deploying nodejs apps to end-users machine	206		
 11703	781746	false	open	false	0		2017-03-05T23:24:49Z	2017-03-05T23:24:49Z		Make warnings more beginner-friendly	84		
 11704	10393198	false	open	false	0		2017-03-05T23:54:58Z	2017-03-05T23:54:58Z		Thank you	102		
-11705	3109072	true	open	false	0	0	2017-03-06T00:27:41Z	2017-03-06T00:27:41Z		crypto: add sign/verify support for RSASSA-PSS	99		
+11705	3109072	true	open	false			2017-03-06T00:27:41Z	2017-03-06T01:49:19Z		crypto: add sign/verify support for RSASSA-PSS	99		
