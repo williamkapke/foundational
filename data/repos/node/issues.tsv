@@ -700,7 +700,7 @@
 7310	54666	true	closed	false	21		2016-06-15T16:48:03Z	2016-07-14T12:02:20Z	2016-06-24T03:52:12Z	string_decoder: fix bad utf8 character handling	78		
 7311	54666	true	open	false	29		2016-06-15T17:31:24Z	2016-07-26T11:11:05Z		Fix benchmark issues	43		
 7312	718899	false	closed	false	13		2016-06-15T21:06:13Z	2016-07-21T08:55:01Z	2016-07-21T08:55:00Z	meta: feedback on release process	246		
-7316	2805297	false	closed	false	9		2016-06-16T11:55:13Z	2017-01-19T17:11:44Z	2017-01-19T17:11:44Z	"Cross-compiling Node for Mips32/OpenWRT fails with ""assembler.cc:(.text._ZN2v88internalL23f32_nearest_int_wrapperEPf+0x18): undefined reference to `nearbyintf'"""	56		
+7316	2805297	false	closed	false	9		2016-06-16T11:55:13Z	2017-03-07T06:57:06Z	2017-01-19T17:11:44Z	"Cross-compiling Node for Mips32/OpenWRT fails with ""assembler.cc:(.text._ZN2v88internalL23f32_nearest_int_wrapperEPf+0x18): undefined reference to `nearbyintf'"""	56		
 7317	134460	true	open	false	13		2016-06-16T11:58:04Z	2016-07-02T18:11:30Z		build: split CI rules in Makefile	160		
 7320	4421720	true	closed	false	5	1	2016-06-16T15:44:13Z	2016-08-01T19:03:53Z	2016-08-01T19:03:53Z	doc: add CTC meeting minutes 2016-06-15	37		
 7327	718899	true	closed	false	14		2016-06-16T17:59:31Z	2016-07-12T03:00:04Z	2016-06-22T04:13:36Z	test: refresh the tmpdir before using	51		
@@ -4328,7 +4328,7 @@
 11004	20413407	false	closed	false	15		2017-01-25T20:55:35Z	2017-01-29T12:19:03Z	2017-01-26T00:00:49Z	Unreasonable demand for installation Node.js for Windows	74		
 11005	17607	true	open	false	3		2017-01-25T20:55:54Z	2017-02-20T15:28:42Z		tls: new tls.TLSSocket() supports sec ctx options	39		
 11006	17607	true	closed	false	12		2017-01-25T22:17:58Z	2017-02-13T03:00:46Z	2017-02-09T21:05:15Z	crypto: support OPENSSL_CONF again	106		
-11007	17607	true	closed	false	6		2017-01-25T22:22:09Z	2017-02-20T17:26:57Z	2017-02-20T15:32:44Z	doc: add version meta for SSL_CERT_DIR/FILE	34		
+11007	17607	true	closed	false	7		2017-01-25T22:22:09Z	2017-03-07T06:34:24Z	2017-02-20T15:32:44Z	doc: add version meta for SSL_CERT_DIR/FILE	34		
 11008	79017	true	closed	false	1	4	2017-01-26T00:45:11Z	2017-02-02T20:11:42Z	2017-02-02T20:11:42Z	test: fix timing sensitivity in debugger test	69		
 11009	718899	true	closed	false	4		2017-01-26T00:51:53Z	2017-01-27T21:39:43Z	2017-01-27T20:05:44Z	v7.x backport: tools: update ESLint to current version	3		
 11010	8401213	true	open	false	4		2017-01-26T01:03:16Z	2017-01-30T16:39:38Z		Move setImmediate benchmarks from misc/ to timers	2		
@@ -4685,7 +4685,7 @@
 11361	2512748	true	open	false	2		2017-02-13T22:46:52Z	2017-02-15T18:34:52Z		src: remove unused variable	35		
 11362	291301	false	open	false	13		2017-02-14T00:36:46Z	2017-02-14T15:18:51Z		WHATWG URL API is marked as `Experimental`, but is not behind a flag	176		
 11363	1853456	true	open	false			2017-02-14T01:51:51Z	2017-02-14T14:49:40Z		Update stream.md - fix issue in setEncoding method	61		
-11364	696611	true	closed	false	4		2017-02-14T02:09:02Z	2017-02-22T05:05:53Z	2017-02-22T05:05:53Z	lib: remove unnecessary assignments with _extend	46		
+11364	696611	true	closed	false	5		2017-02-14T02:09:02Z	2017-03-07T06:22:17Z	2017-02-22T05:05:53Z	lib: remove unnecessary assignments with _extend	46		
 11365	469795	false	open	false	4		2017-02-14T03:20:26Z	2017-02-14T08:57:50Z		Wrong timezone in v6.9	34		
 11366	1084409	true	closed	false	7		2017-02-14T03:50:40Z	2017-02-18T19:03:22Z	2017-02-18T19:03:22Z	child_process: refactor internal/child_process.js	51		
 11367	718899	true	closed	false	2		2017-02-14T04:39:23Z	2017-02-16T04:26:40Z	2017-02-16T04:26:40Z	test: refactor test-tls-cert-chains-in-ca	66		
@@ -4754,12 +4754,12 @@
 11430	10393198	false	open	false	6		2017-02-16T20:49:27Z	2017-02-17T19:28:23Z		module.exports = {} approach and objects with fast / slow properties	382		
 11431	287917	true	open	false	3		2017-02-16T21:20:09Z	2017-02-21T23:31:18Z		debug: activate inspector with _debugProcess	23		
 11432	718899	true	closed	false	5	0	2017-02-16T22:13:00Z	2017-02-17T00:07:26Z	2017-02-17T00:07:26Z	test: skip IPv6 test on non-IPv6 systems	89		
-11433	718899	true	closed	false	2		2017-02-16T23:58:57Z	2017-02-19T20:38:33Z	2017-02-19T20:38:33Z	test: enhance test-common.js	51		
+11433	718899	true	closed	false	3		2017-02-16T23:58:57Z	2017-03-07T06:52:19Z	2017-02-19T20:38:33Z	test: enhance test-common.js	51		
 11434	4924797	false	closed	false	1		2017-02-17T02:14:01Z	2017-02-17T13:25:14Z	2017-02-17T13:25:14Z	fs.readdir -> fs.readDir (Suggestion)	99		
 11435	4988795	true	closed	false	4		2017-02-17T04:03:13Z	2017-03-02T11:18:51Z	2017-03-02T00:26:47Z	test: improve https coverage to check create connection	40		
 11436	1538624	true	closed	false	16		2017-02-17T05:17:59Z	2017-03-01T02:39:57Z	2017-03-01T02:39:57Z	url: enforce valid UTF-8 in WHATWG parser	63		
 11437	2352663	true	open	false	1		2017-02-17T10:16:42Z	2017-02-19T09:24:11Z		src,test: Prepare for future V8 changes	24		
-11438	275871	true	closed	false	1	0	2017-02-17T13:12:36Z	2017-02-22T20:43:43Z	2017-02-22T20:43:43Z	domain,events: support non-object 'error' argument	21		
+11438	275871	true	closed	false	1		2017-02-17T13:12:36Z	2017-03-07T06:10:39Z	2017-02-22T20:43:43Z	domain,events: support non-object 'error' argument	21		
 11439	4299420	true	open	false	1		2017-02-17T13:33:39Z	2017-02-19T08:33:15Z		test, url: sync WPT url test data	99		
 11440	24968144	false	closed	false	1		2017-02-17T15:20:57Z	2017-02-17T16:10:57Z	2017-02-17T16:10:57Z	frightening warning during fully-static compilation	117		
 11441	79017	true	open	false			2017-02-17T15:40:12Z	2017-02-23T16:24:22Z		inspector: make `debug` an alias for `inspect`	168		
@@ -4767,23 +4767,23 @@
 11443	899444	true	closed	false	1		2017-02-17T17:20:04Z	2017-02-21T15:53:17Z	2017-02-21T15:53:17Z	console: fixup `console.dir()` error handling	54		
 11444	602701	false	closed	false	10		2017-02-17T20:41:38Z	2017-02-20T17:21:24Z	2017-02-20T17:21:24Z	On SunOS fatal relocation error shows up between Node version 6.7.0 and 6.8.0	169		
 11445	1093990	false	open	false	0		2017-02-17T20:54:56Z	2017-02-17T20:54:56Z		Coverage file writing hook is called too early during 'exit'.	182		
-11446	718899	true	closed	false	1		2017-02-17T21:41:39Z	2017-02-19T20:55:11Z	2017-02-19T20:55:11Z	test: add error checking in callback	30		
+11446	718899	true	closed	false	2		2017-02-17T21:41:39Z	2017-03-07T06:42:39Z	2017-02-19T20:55:11Z	test: add error checking in callback	30		
 11447	439929	true	closed	false	9		2017-02-17T23:02:45Z	2017-02-21T09:53:08Z	2017-02-20T14:59:12Z	tls: use emitWarning() for dhparam < 2048 bits	72		
-11448	439929	true	closed	false	1		2017-02-17T23:27:21Z	2017-02-19T20:34:47Z	2017-02-19T20:34:47Z	util, debugger: remove internalUtil.error	43		
+11448	439929	true	closed	false	2		2017-02-17T23:27:21Z	2017-03-07T06:53:59Z	2017-02-19T20:34:47Z	util, debugger: remove internalUtil.error	43		
 11449	1084056	true	open	false	10		2017-02-17T23:42:16Z	2017-02-23T23:15:03Z		test: print call checks when a test times out	127		
 11450	439929	true	closed	false	3		2017-02-17T23:45:02Z	2017-03-07T05:05:39Z	2017-02-19T23:10:15Z	util: cleanup internalUtil.deprecate	42		
-11451	439929	true	closed	false	1		2017-02-18T00:51:41Z	2017-02-19T20:17:39Z	2017-02-19T20:17:39Z	util: eliminate unnecessary exports	47		
-11452	5886475	true	closed	false	6	8	2017-02-18T02:37:47Z	2017-02-21T03:31:24Z	2017-02-21T03:31:24Z	doc: restrict the ES.Next features usage in tests	70		
-11453	3367801	true	closed	false	1		2017-02-18T07:07:04Z	2017-02-19T20:46:47Z	2017-02-19T20:46:47Z	test: add test cases for path	41		
+11451	439929	true	closed	false	2		2017-02-18T00:51:41Z	2017-03-07T06:55:28Z	2017-02-19T20:17:39Z	util: eliminate unnecessary exports	47		
+11452	5886475	true	closed	false	6		2017-02-18T02:37:47Z	2017-03-07T06:31:13Z	2017-02-21T03:31:24Z	doc: restrict the ES.Next features usage in tests	70		
+11453	3367801	true	closed	false	2		2017-02-18T07:07:04Z	2017-03-07T06:50:58Z	2017-02-19T20:46:47Z	test: add test cases for path	41		
 11454	2255752	true	closed	false	2		2017-02-18T14:23:41Z	2017-02-22T19:31:02Z	2017-02-22T19:31:02Z	tty: avoid oob warning in TTYWrap::GetWindowSize()	93		
 11455	439929	true	closed	false	7		2017-02-18T15:29:37Z	2017-02-23T01:19:23Z	2017-02-23T01:19:23Z	util: eliminate unecessary internal/util export	50		
 11456	17553085	false	closed	false	6		2017-02-18T19:11:59Z	2017-02-22T06:14:49Z	2017-02-22T06:14:49Z	Incorrect link to style guide inside CONTRIBUTING.md	20		
 11457	1538624	true	closed	false	4		2017-02-18T19:40:24Z	2017-02-20T02:20:16Z	2017-02-20T02:20:16Z	(v7.x backport) URL-related changes	55		
 11458	1084409	true	closed	false	1	2	2017-02-18T23:50:53Z	2017-02-19T01:53:49Z	2017-02-19T01:53:49Z	lib: change forEach to for-loop	37		
 11459	1084409	true	closed	false	1		2017-02-19T00:35:20Z	2017-02-19T01:53:43Z	2017-02-19T01:53:43Z	lib: change forEach to for-loop in internal/module	32		
-11460	15719653	true	closed	false	18		2017-02-19T00:59:43Z	2017-02-22T06:15:33Z	2017-02-22T06:15:33Z	doc: change STYLE-GUIDE to STYLE_GUIDE	20		
+11460	15719653	true	closed	false	19		2017-02-19T00:59:43Z	2017-03-07T06:20:51Z	2017-02-22T06:15:33Z	doc: change STYLE-GUIDE to STYLE_GUIDE	20		
 11461	6288765	false	open	false	4		2017-02-19T05:11:44Z	2017-02-21T15:41:46Z		_compile method of module.constructor throws when filename is not passed or is null/undefined	114		
-11462	2352663	true	open	false	1		2017-02-19T12:50:28Z	2017-02-21T12:02:31Z		tools: enable one-var-declaration-per-line ESLint rule	46		
+11462	2352663	true	closed	false	2		2017-02-19T12:50:28Z	2017-03-07T06:25:37Z	2017-02-21T12:02:32Z	tools: enable one-var-declaration-per-line ESLint rule	46		
 11463	10393198	false	open	false	14		2017-02-19T15:59:34Z	2017-02-21T00:05:25Z		4 Failing tests in master	232		
 11464	1538624	true	closed	false	6		2017-02-20T06:56:22Z	2017-03-07T05:13:54Z	2017-02-25T01:55:57Z	src: clean up MaybeStackBuffer usage in i18n	319		
 11465	22807515	false	closed	false	0		2017-02-20T07:48:15Z	2017-02-20T08:04:59Z	2017-02-20T08:04:59Z	Giving path in require command	30		
@@ -4795,7 +4795,7 @@
 11471	3293332	true	open	false	2		2017-02-21T02:01:38Z	2017-03-01T16:39:44Z		test: test clusters --inspect-brk and --debug-brk	39		
 11472	16969674	false	closed	false	2		2017-02-21T03:03:13Z	2017-02-21T03:55:45Z	2017-02-21T03:55:45Z	npm error	55		
 11473	5035902	true	open	false	2		2017-02-21T04:15:25Z	2017-02-24T01:12:47Z		lib: rename kMaxCallbacksUntilQueueIsShortened	27		
-11474	432351	true	closed	false	1		2017-02-21T07:52:07Z	2017-02-23T07:52:12Z	2017-02-23T07:52:12Z	test: add support for --gtest_filter	168		
+11474	432351	true	closed	false	2		2017-02-21T07:52:07Z	2017-03-07T06:06:09Z	2017-02-23T07:52:12Z	test: add support for --gtest_filter	168		
 11475	1272762	false	open	false	2		2017-02-21T11:47:02Z	2017-02-24T08:25:11Z		Cannot get 'getNegotiatedProtocol' of null when requesting via https in request.js	115		
 11476	24968144	false	closed	false	4		2017-02-21T11:56:55Z	2017-02-24T22:50:21Z	2017-02-21T14:08:32Z	please explain coverage flag	42		
 11477	432351	true	closed	false	5	0	2017-02-21T12:11:23Z	2017-02-23T07:44:15Z	2017-02-23T07:44:15Z	src: update http-parser link	60		
@@ -4992,7 +4992,7 @@
 11668	782880	true	open	false	1		2017-03-03T08:24:55Z	2017-03-06T21:48:54Z		build: fix llvm version detection in freebsd-10	99		
 11669	432351	true	closed	false	0		2017-03-03T10:06:00Z	2017-03-04T19:04:22Z	2017-03-04T19:04:22Z	src: remove outdated FIXME in node_crypto.cc	48		
 11670	1610233	true	open	false	4		2017-03-03T11:37:51Z	2017-03-06T15:09:50Z		doc: the url is not found	42		
-11671	13561163	true	open	false	6		2017-03-03T12:33:41Z	2017-03-06T21:52:51Z		test: failing behaviour on sandboxed Proxy	67		
+11671	13561163	true	open	false			2017-03-03T12:33:41Z	2017-03-07T06:11:22Z		test: failing behaviour on sandboxed Proxy	67		
 11672	1263419	true	open	false	6		2017-03-03T12:47:39Z	2017-03-06T15:23:28Z		util: fix inspecting symbol key in string	48		
 11673	7337239	false	closed	false	3		2017-03-03T13:19:49Z	2017-03-06T16:25:49Z	2017-03-03T13:24:15Z	Http/Https response corrupted	133		
 11674	988441	false	open	false	28		2017-03-03T15:10:55Z	2017-03-05T09:04:49Z		Reasons for not using GitHub's green button are unconvincing	230		
@@ -5021,7 +5021,7 @@
 11697	115237	true	open	false			2017-03-05T17:10:47Z	2017-03-06T23:00:35Z		doc: fix more type case inconsistencies	101		
 11698	3967972	true	open	false			2017-03-05T17:17:49Z	2017-03-05T18:17:02Z		net: refactor net module to module.exports	52		
 11699	704044	false	closed	false	2		2017-03-05T17:49:00Z	2017-03-06T10:14:02Z	2017-03-06T10:14:02Z	Readline: resume() replays input received during pause	119		
-11700	4299420	true	open	false			2017-03-05T20:44:36Z	2017-03-07T05:37:36Z		doc: improve docs for net.connect, net.createConnection, net.Socket	76		
+11700	4299420	true	open	false			2017-03-05T20:44:36Z	2017-03-07T06:18:01Z		doc: improve docs for net.connect, net.createConnection, net.Socket	76		
 11701	609373	false	open	false	0		2017-03-05T21:03:36Z	2017-03-05T21:03:36Z		Node --inspect uuid 	70		
 11702	6639188	false	open	false	0		2017-03-05T22:32:19Z	2017-03-05T23:24:12Z		Discussion: Deploying nodejs apps to end-users machine	206		
 11703	781746	false	open	false	4		2017-03-05T23:24:49Z	2017-03-06T15:14:59Z		Make warnings more beginner-friendly	84		
@@ -5044,5 +5044,6 @@
 11720	17704638	true	open	false	0	0	2017-03-06T19:12:34Z	2017-03-06T19:12:34Z		benchmark: fix punycode and get-ciphers benchmark	55		
 11721	26197226	true	open	false	0	0	2017-03-06T20:52:28Z	2017-03-06T20:52:28Z		Merge remote-tracking branch 'refs/remotes/nodejs/master'	0		
 11722	8774679	false	open	false	3		2017-03-06T21:59:56Z	2017-03-07T05:50:57Z		Tests fail on Windows	342		
-11723	142914	true	open	false	1		2017-03-06T22:23:50Z	2017-03-07T02:11:33Z		"Breaking change, typo ""s/Unkown/Unknown GC Type"""	10		
+11723	142914	true	open	false	2		2017-03-06T22:23:50Z	2017-03-07T06:32:15Z		"Breaking change, typo ""s/Unkown/Unknown GC Type"""	10		
 11724	718899	true	open	false	0	0	2017-03-06T23:56:49Z	2017-03-06T23:56:49Z		test: limit lint rule disabling in message test	50		
+11725	5886475	true	open	false	0	0	2017-03-07T06:51:28Z	2017-03-07T06:51:28Z		backport: v4.x - #11452 - doc: restrict the ES.Next features usage in tests	37		
