@@ -151,7 +151,7 @@
 3164	8023447	false	closed	false	7		2015-10-03T03:28:07Z	2016-12-14T07:55:50Z	2015-10-03T16:26:02Z	State of ES6/ES7 in node/v8?	175		
 3173	2622601	true	open	false	8		2015-10-04T09:40:31Z	2017-02-28T22:58:18Z		crypto: check for valid iteration length in pbkdf2	48		
 3179	8974489	false	closed	false	18		2015-10-05T10:13:45Z	2016-10-06T10:19:34Z	2016-06-07T20:59:21Z	node compile failure on Solaris 11.2 and gcc 4.8 (undefined std::isnan)	266		
-3203	3990007	false	open	false	11		2015-10-06T08:21:08Z	2017-02-27T22:56:39Z		Readable.push calling _read	153		
+3203	3990007	false	open	false	11		2015-10-06T08:21:08Z	2017-03-09T04:26:07Z		Readable.push calling _read	153		
 3238	458155	false	closed	false	4		2015-10-07T15:25:07Z	2017-01-29T19:02:52Z	2015-11-11T16:22:12Z	cluster: suicide flag is not set on master when calling disconnect from a worker	104		
 3249	291301	false	closed	false	10		2015-10-07T22:50:32Z	2016-07-13T07:02:20Z	2016-07-13T07:02:20Z	vm: `--expose-gc` breaks gc and crashes with `--max-old-space-size`	314		
 3263	131406	false	closed	false	14		2015-10-08T07:30:48Z	2016-10-05T12:50:15Z	2016-10-05T12:50:15Z	building s390 / s390x	121		
@@ -4203,7 +4203,7 @@
 10879	718899	true	closed	false	1		2017-01-18T19:03:10Z	2017-01-21T04:39:47Z	2017-01-21T04:39:47Z	test: refactor test-repl-tab-complete	43		
 10880	2512748	false	open	false	17		2017-01-18T19:08:21Z	2017-02-25T00:06:15Z		RFC cluster: make scheduler pluggable	152		
 10881	4976075	true	open	false	3		2017-01-18T19:50:05Z	2017-01-24T07:13:23Z		deps backport 7c3748a from upstream V8	64		
-10882	109690	true	closed	false	15		2017-01-18T20:25:43Z	2017-03-08T22:59:22Z	2017-02-13T21:57:25Z	crypto: Remove unused access of tlsext_hostname.	97		
+10882	109690	true	closed	false	16		2017-01-18T20:25:43Z	2017-03-09T04:30:12Z	2017-02-13T21:57:25Z	crypto: Remove unused access of tlsext_hostname.	97		
 10883	1189785	true	open	false	0	0	2017-01-18T21:11:12Z	2017-01-18T21:11:12Z		doc: add edsadr to collaborators	36		
 10884	17607	true	closed	false	6		2017-01-18T21:25:12Z	2017-03-07T16:06:27Z	2017-02-16T17:15:17Z	doc: describe when stdout/err is sync	50		
 10885	6354455	true	closed	false	6	0	2017-01-18T21:50:11Z	2017-01-19T00:33:31Z	2017-01-19T00:33:31Z	v7.x-staging update	93		
@@ -5072,9 +5072,9 @@
 11749	23642410	false	open	false	0		2017-03-08T16:34:48Z	2017-03-08T16:34:48Z		Fixed Error 1909 and NPM works but I keep getting a weird error before NPM runs.	168		
 11750	115237	true	open	false	0	0	2017-03-08T16:47:38Z	2017-03-08T16:47:38Z		(v7.x-staging backport) doc type fixes	14		
 11751	323878	false	open	false	0		2017-03-08T17:36:50Z	2017-03-08T17:36:50Z		Node on Windows doesn't send initial Pause event to inspector	96		
-11752	2352663	true	open	false	2		2017-03-08T20:15:40Z	2017-03-09T00:39:16Z		WIP: deps: update V8 to 5.7	83		
+11752	2352663	true	open	false	3		2017-03-08T20:15:40Z	2017-03-09T04:44:36Z		WIP: deps: update V8 to 5.7	83		
 11753	855219	false	open	false	0		2017-03-08T21:48:08Z	2017-03-08T21:48:08Z		missing #include <unicode/ustring.h>	88		
-11754	855219	true	open	false	0	0	2017-03-08T22:11:01Z	2017-03-08T22:11:01Z		src: add missing #include <unicode/ustring.h>	54		
+11754	855219	true	open	false	1		2017-03-08T22:11:01Z	2017-03-09T04:26:08Z		src: add missing #include <unicode/ustring.h>	53		
 11755	287917	true	open	false	0	0	2017-03-08T22:39:17Z	2017-03-08T22:39:17Z		inspector: proper WS URLs when bound to 0.0.0.0	50		
 11756	10393198	false	open	false	0		2017-03-09T00:12:03Z	2017-03-09T00:12:03Z		Legacy API of Agent.prototype.addRequest()	78		
 11757	718899	true	closed	false	1	0	2017-03-09T00:16:04Z	2017-03-09T01:08:35Z	2017-03-09T01:08:34Z	v6.x backport: tools: update ESLint to current version 	3		
@@ -5082,4 +5082,5 @@
 11759	498775	true	open	false	0	0	2017-03-09T01:30:51Z	2017-03-09T01:30:51Z		v6.10.1 proposal	3471		
 11760	498775	true	open	false	0	0	2017-03-09T01:39:06Z	2017-03-09T01:39:06Z		v4.8.1 proposal	1736		
 11761	1812260	false	open	false	0		2017-03-09T03:27:06Z	2017-03-09T03:27:06Z		net.Socket.prototype.connect is having TypeError when called without connectionListener	86		
-11762	1812260	true	open	false	0	0	2017-03-09T03:38:30Z	2017-03-09T03:38:30Z		net: Socket.prototype.connect should accept args like net.connect #11761	34		
+11762	1812260	true	open	false	0		2017-03-09T03:38:30Z	2017-03-09T04:55:36Z		net: Socket.prototype.connect should accept args like net.connect #11761	33		
+11763	11637781	false	open	false	0		2017-03-09T04:29:17Z	2017-03-09T04:29:17Z		Cluster worker does not include process enviroment variables	72		
