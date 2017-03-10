@@ -47,7 +47,7 @@
 1568	1848357	true	closed	false	33		2015-04-30T18:13:47Z	2017-02-22T01:02:32Z	2017-02-22T01:02:32Z	core: implement resourceUsage()	79		
 1592	617235	false	closed	false	206		2015-05-02T19:25:40Z	2016-10-05T19:11:59Z	2016-10-05T19:11:59Z	gripe: deprecating fs.exists/existsSync	202		
 1634	495647	false	open	false	10		2015-05-06T04:07:08Z	2016-08-03T18:19:05Z		Race condition on history file with multiple REPLs	57		
-1671	291301	false	open	false	51		2015-05-11T05:25:09Z	2017-03-10T13:50:40Z		`Buffer` and `ArrayBuffer`-based objects trigger mark-sweeps instead of scavenges	68		
+1671	291301	false	open	false	52		2015-05-11T05:25:09Z	2017-03-10T14:14:49Z		`Buffer` and `ArrayBuffer`-based objects trigger mark-sweeps instead of scavenges	68		
 1684	291301	false	open	false	8		2015-05-12T14:14:52Z	2016-06-29T11:15:27Z		Put a warning against misusing `*Sync` methods to the API docs.	193		
 1690	10612009	false	closed	false	7		2015-05-13T08:56:13Z	2016-07-07T20:40:26Z	2016-07-07T20:40:26Z	[dgram]no udp multicast message received when binding on a specific address	278		
 1692	10612009	false	closed	false	3		2015-05-13T10:29:17Z	2016-07-10T15:58:44Z	2016-07-10T15:58:44Z	[dgram]socket.addMembership() does not add membership to every interface	179		
@@ -141,7 +141,7 @@
 3062	355454	true	open	false	8		2015-09-25T15:52:59Z	2017-03-01T09:27:11Z		http: Reject paths containing non-ASCII characters	123		
 3063	98899	true	closed	false	87		2015-09-25T17:01:14Z	2016-10-11T00:42:12Z	2016-07-15T17:38:59Z	timers: fix processing of nested same delay timers	21		
 3064	2559673	true	closed	false	32	22	2015-09-25T17:01:57Z	2017-02-28T22:57:03Z	2017-02-28T22:57:02Z	https: throw error if required params missing	58		
-3072	247721	false	open	false	111		2015-09-26T02:29:39Z	2017-03-03T08:08:07Z		Cluster crash in main process, callback undefined when handling internal messages	152		
+3072	247721	false	open	false	113		2015-09-26T02:29:39Z	2017-03-10T14:17:00Z		Cluster crash in main process, callback undefined when handling internal messages	152		
 3073	220205	true	closed	false	48		2015-09-26T09:13:35Z	2016-08-22T18:20:41Z	2016-08-22T18:20:41Z	Add crypto.timingSafeEqual().	2		
 3098	639601	true	closed	false	15		2015-09-28T03:35:50Z	2016-06-30T12:31:35Z	2016-05-19T11:01:44Z	src: fix linking when built as shared library	192		
 3101	7358595	false	closed	false	11		2015-09-28T11:07:40Z	2016-09-26T13:20:14Z	2015-09-28T12:34:09Z	Destructuring Assignment doesn't work in node v 4.1.0 for me	52		
@@ -2610,7 +2610,7 @@
 9280	275871	true	closed	false	2		2016-10-25T20:29:33Z	2016-10-25T23:44:54Z	2016-10-25T23:44:54Z	src: fix use of uninitialized variable	14		
 9281	439929	true	closed	false	4		2016-10-25T21:55:56Z	2016-11-22T07:15:19Z	2016-10-28T20:00:23Z	src: fix use of uninitialized variable	65		
 9282	354349	false	open	false	0		2016-10-25T22:39:22Z	2016-10-25T22:39:22Z		node does not process HTTP informational responses correctly	336		
-9283	5445507	true	open	false	19		2016-10-25T23:23:46Z	2017-02-27T11:09:12Z		module: fix loading from global folders on Windows	167		
+9283	5445507	true	open	false	21		2016-10-25T23:23:46Z	2017-03-10T14:53:16Z		module: fix loading from global folders on Windows	167		
 9284	17535	true	closed	false	7	0	2016-10-25T23:39:15Z	2016-11-30T02:54:21Z	2016-11-30T02:54:20Z	deps: upgrade npm to 4.0.1	584		
 9285	312966	false	open	false	18		2016-10-25T23:46:57Z	2016-10-26T18:06:08Z		support for polling linux character device for incoming data	307		
 9286	17535	true	closed	false	7		2016-10-26T00:24:34Z	2016-11-04T21:53:14Z	2016-11-04T21:53:14Z	deps: upgrade npm to 3.10.9	167		
@@ -2704,7 +2704,7 @@
 9374	718899	true	closed	false	9		2016-10-31T04:36:24Z	2016-11-22T19:38:39Z	2016-11-03T20:27:38Z	repl: refactor lib/repl.js	52		
 9375	696611	true	closed	false	6		2016-10-31T12:13:16Z	2016-12-20T23:52:49Z	2016-11-05T09:38:27Z	build: start comments at beginning of line	70		
 9376	495647	true	open	false	4		2016-10-31T13:03:05Z	2017-03-03T16:02:12Z		crypto: initial LibreSSL support (WIP)	730		
-9377	7402787	false	closed	false	65		2016-10-31T13:32:55Z	2017-03-08T22:33:54Z	2016-11-06T10:38:10Z	Error: Cannot find module 'internal/fs' when npm install on mac	102		
+9377	7402787	false	closed	false	66		2016-10-31T13:32:55Z	2017-03-10T14:28:25Z	2016-11-06T10:38:10Z	Error: Cannot find module 'internal/fs' when npm install on mac	102		
 9378	3973850	false	open	false	24		2016-10-31T13:37:45Z	2016-11-21T05:28:37Z		readdirSync of drive letter lists items of cwd	107		
 9379	1573141	true	closed	false	3		2016-10-31T14:10:42Z	2016-11-01T19:09:16Z	2016-11-01T19:09:16Z	doc: fs: fix link to mkdtemp	39		
 9380	900690	false	open	false	5		2016-10-31T15:27:32Z	2016-11-01T01:19:50Z		fs.writeFile() removes execute permissions from file	135		
@@ -5066,7 +5066,7 @@
 11743	5886475	true	closed	false	1		2017-03-08T10:00:21Z	2017-03-09T21:10:47Z	2017-03-09T21:10:47Z	backport: v6.x - #11452 - doc: restrict the ES.Next features usage in tests	37		
 11744	17704638	true	open	false	0		2017-03-08T10:50:09Z	2017-03-09T11:39:34Z		backport v7.x - #9615 - benchmark: remove %OptimizeFunctionOnNextCall	47		
 11745	677994	true	closed	false	1	0	2017-03-08T11:52:00Z	2017-03-08T21:57:55Z	2017-03-08T21:57:55Z	v7.7.2 proposal	603	677994	2017-03-08T21:57:55Z
-11746	361671	false	open	false	1		2017-03-08T12:37:00Z	2017-03-08T15:00:23Z		Use of variables + for loop + switch in a generator function cases inspector to crash	104		
+11746	361671	false	open	false	2		2017-03-08T12:37:00Z	2017-03-10T14:48:53Z		Use of variables + for loop + switch in a generator function causes inspector to crash	104		
 11747	432351	true	closed	false	1		2017-03-08T12:46:06Z	2017-03-10T06:42:20Z	2017-03-10T06:42:20Z	test: add hasCrypto check to tls-legacy-deprecated	52		
 11748	10393198	true	open	false	1		2017-03-08T13:22:37Z	2017-03-08T17:30:36Z		(v7.x backport) child_process: fix deoptimizing use of arguments	36		
 11749	23642410	false	open	false	0		2017-03-08T16:34:48Z	2017-03-08T16:34:48Z		Fixed Error 1909 and NPM works but I keep getting a weird error before NPM runs.	168		
@@ -5091,7 +5091,7 @@
 11768	54666	false	open	false	0		2017-03-09T13:53:05Z	2017-03-09T13:53:05Z		Investigate flaky parallel/test-http-set-timeout-server on freebsd	55		
 11769	13561163	true	open	false			2017-03-09T14:05:20Z	2017-03-09T18:34:02Z		test: added test for indexed properties	86		
 11770	2352663	false	open	false	5		2017-03-09T14:11:23Z	2017-03-09T19:07:15Z		Move V8 inspector to stable	43		
-11771	1936786	false	open	false	0		2017-03-09T15:10:38Z	2017-03-09T15:10:38Z		tls requires a subject even when altNames are defined	78		
+11771	1936786	false	open	false	0		2017-03-09T15:10:38Z	2017-03-10T14:59:14Z		tls requires a subject even when altNames are defined	78		
 11772	4923335	true	open	false	0	0	2017-03-09T16:24:01Z	2017-03-09T16:24:01Z		test: fix repl-function-redefinition-edge-case	79		
 11773	15943089	true	open	false	3		2017-03-09T16:38:50Z	2017-03-10T00:49:07Z		WIP - v4.x backport - test: convert var->const/let in tests	63		
 11774	739555	true	open	false	0	0	2017-03-09T19:41:31Z	2017-03-09T19:41:31Z		CRYPTO: Add configure option to use system CA certificates	92		
