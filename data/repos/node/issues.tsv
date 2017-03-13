@@ -1709,7 +1709,7 @@
 8379	914122	false	closed	false	24		2016-09-02T12:46:51Z	2016-10-10T15:57:48Z	2016-10-10T15:57:48Z	Not helpful error message after upgrading Node	136		
 8380	9373002	false	closed	false	11		2016-09-02T12:53:08Z	2016-09-02T19:05:20Z	2016-09-02T19:05:20Z	AIX: parallel/test-cluster-dgram-1 failures	207		
 8381	115237	false	open	false	42		2016-09-02T13:00:01Z	2017-03-07T13:54:06Z		http: support environment-defined proxy	98		
-8382	914122	false	open	false	18		2016-09-02T13:08:45Z	2017-02-22T05:16:56Z		yield/await support in repl/cli	75		
+8382	914122	false	open	false	23		2016-09-02T13:08:45Z	2017-03-13T19:35:55Z		yield/await support in repl/cli	75		
 8383	1084056	true	closed	false	13		2016-09-02T13:17:30Z	2016-10-15T12:59:06Z	2016-09-02T19:08:23Z	test: fix test-cluster-dgram-1 flakiness	49		
 8384	9373002	true	open	false	0	0	2016-09-02T14:40:11Z	2016-09-02T14:40:11Z		test: revert changes to test/parallel/test-cluster-dgram-1.js	54		
 8385	9373002	true	closed	false	4		2016-09-02T15:21:59Z	2016-09-06T14:15:08Z	2016-09-06T14:15:08Z	test: mark pseudo-tty/no_dropped_stdio as flaky	49		
@@ -4912,7 +4912,7 @@
 11588	6991779	true	open	false	0	0	2017-02-27T21:52:43Z	2017-02-27T21:52:43Z		test: changed test1 of test-vm-timeout.js so that entire error messag…	69		
 11589	14098140	false	closed	false	2		2017-02-27T22:14:21Z	2017-03-03T19:42:36Z	2017-03-03T19:42:36Z	Breakpoints can't be set by a debugger (Chrome or VS Code) while the Node program is running	339		
 11590	6991779	true	closed	false	2		2017-02-27T22:15:42Z	2017-03-05T13:21:16Z	2017-03-05T13:21:16Z	 test: changed test1 of test-vm-timeout.js so that entire error message would be matched	63		
-11591	1087603	false	open	false	14		2017-02-27T22:43:37Z	2017-03-13T17:47:58Z		Chrome DevTools not able to connect to Node inspect since 7.5.0	175		
+11591	1087603	false	closed	false	15		2017-02-27T22:43:37Z	2017-03-13T19:57:31Z	2017-03-13T19:57:31Z	Chrome DevTools not able to connect to Node inspect since 7.5.0	175		
 11592	9060496	true	open	false	0	0	2017-02-27T23:06:56Z	2017-02-27T23:06:56Z		Internal errors	57		
 11593	585279	false	closed	false	8		2017-02-27T23:20:49Z	2017-02-28T16:32:57Z	2017-02-27T23:36:39Z	Not really possible to use global symbols inside vm	101		
 11594	439929	true	open	false			2017-02-28T01:04:32Z	2017-03-01T08:31:07Z		http: simple code refactoring	45		
@@ -4986,7 +4986,7 @@
 11662	275871	true	open	false	3		2017-03-02T18:56:57Z	2017-03-13T09:03:18Z		url: don't scan number twice	45		
 11663	406656	false	open	false	0		2017-03-02T21:20:06Z	2017-03-02T21:20:06Z		"fs.link() fails on ReFS with ""operation not supported on socket"""	113		
 11664	617638	true	closed	false	4		2017-03-02T21:33:54Z	2017-03-09T10:11:14Z	2017-03-09T10:11:14Z	tools: adds doc links to the stability index reference	313		
-11665	54666	true	open	false	14		2017-03-03T03:47:39Z	2017-03-13T08:36:53Z		fs: include more fs.stat*() optimizations	329		
+11665	54666	true	open	false	15		2017-03-03T03:47:39Z	2017-03-13T19:56:57Z		fs: include more fs.stat*() optimizations	330		
 11666	1890238	false	closed	false	15		2017-03-03T04:11:53Z	2017-03-05T04:56:52Z	2017-03-04T18:18:48Z	Date Bug	47		
 11667	4299420	true	closed	false	16		2017-03-03T06:52:45Z	2017-03-08T07:04:09Z	2017-03-08T07:04:09Z	net: refactor overloaded argument handling	105		
 11668	782880	true	closed	false	2		2017-03-03T08:24:55Z	2017-03-07T13:57:22Z	2017-03-07T13:57:22Z	build: fix llvm version detection in freebsd-10	99		
@@ -5153,4 +5153,5 @@
 11830	9373002	false	open	false	3		2017-03-13T15:37:18Z	2017-03-13T17:52:28Z		AIX: parallel/test-cluster-inspector-debug-brk intermittent failures 	201		
 11831	6354455	true	open	false	0	0	2017-03-13T16:03:35Z	2017-03-13T16:03:35Z		7.7.3 Release Proposal	258		
 11832	289004	false	open	false	0		2017-03-13T16:31:39Z	2017-03-13T16:31:39Z		iciecfjdcddijcvunibfjigbcindrgtkbjdl	6		
-11833	8734691	true	open	false	0	0	2017-03-13T17:22:15Z	2017-03-13T17:22:15Z		lib: removed unused msg parameter in debug_agent	55		
+11833	8734691	true	open	false	0		2017-03-13T17:22:15Z	2017-03-13T19:10:40Z		lib: removed unused msg parameter in debug_agent	55		
+11834	54666	true	open	false	0	0	2017-03-13T19:07:17Z	2017-03-13T19:07:17Z		tools: add unescaped regexp dot rule to linter	88		
