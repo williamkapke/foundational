@@ -5066,7 +5066,7 @@
 11743	5886475	true	closed	false	1		2017-03-08T10:00:21Z	2017-03-09T21:10:47Z	2017-03-09T21:10:47Z	backport: v6.x - #11452 - doc: restrict the ES.Next features usage in tests	37		
 11744	17704638	true	open	false	0		2017-03-08T10:50:09Z	2017-03-09T11:39:34Z		backport v7.x - #9615 - benchmark: remove %OptimizeFunctionOnNextCall	47		
 11745	677994	true	closed	false	1	0	2017-03-08T11:52:00Z	2017-03-08T21:57:55Z	2017-03-08T21:57:55Z	v7.7.2 proposal	603	677994	2017-03-08T21:57:55Z
-11746	361671	false	open	false	3		2017-03-08T12:37:00Z	2017-03-13T09:29:30Z		Use of variables + for loop + switch in a generator function causes inspector to crash	104		
+11746	361671	false	open	false	4		2017-03-08T12:37:00Z	2017-03-13T12:24:01Z		Use of variables + for loop + switch in a generator function causes inspector to crash	104		
 11747	432351	true	closed	false	1		2017-03-08T12:46:06Z	2017-03-10T06:42:20Z	2017-03-10T06:42:20Z	test: add hasCrypto check to tls-legacy-deprecated	52		
 11748	10393198	true	open	false	1		2017-03-08T13:22:37Z	2017-03-08T17:30:36Z		(v7.x backport) child_process: fix deoptimizing use of arguments	36		
 11749	23642410	false	open	false	0		2017-03-08T16:34:48Z	2017-03-12T14:51:52Z		Fixed Error 1909 and NPM works but I keep getting a weird error before NPM runs.	168		
@@ -5081,8 +5081,8 @@
 11758	10393198	true	closed	false	1	0	2017-03-09T01:08:47Z	2017-03-09T21:17:48Z	2017-03-09T21:17:47Z	(v4.x backport) dgram: fix possibly deoptimizing use of arguments	28		
 11759	498775	true	open	false	1		2017-03-09T01:30:51Z	2017-03-09T21:30:43Z		v6.10.1 proposal	3498		
 11760	498775	true	open	false	2		2017-03-09T01:39:06Z	2017-03-11T19:54:54Z		v4.8.1 proposal	1761		
-11761	1812260	false	open	false	9		2017-03-09T03:27:06Z	2017-03-13T03:51:46Z		net.Socket.prototype.connect is having TypeError when called without connectionListener	86		
-11762	1812260	true	open	false	12		2017-03-09T03:38:30Z	2017-03-13T03:53:39Z		net: Socket.prototype.connect should accept args like net.connect #11761	33		
+11761	1812260	false	closed	false	10		2017-03-09T03:27:06Z	2017-03-13T12:09:03Z	2017-03-13T12:09:03Z	net.Socket.prototype.connect is having TypeError when called without connectionListener	86		
+11762	1812260	true	closed	false	13		2017-03-09T03:38:30Z	2017-03-13T12:10:02Z	2017-03-13T12:10:02Z	net: Socket.prototype.connect should accept args like net.connect #11761	33		
 11763	11637781	false	open	false	0		2017-03-09T04:29:17Z	2017-03-09T04:29:17Z		Cluster worker does not include process enviroment variables	72		
 11764	19511039	true	open	false	2		2017-03-09T05:45:17Z	2017-03-10T22:53:57Z		doc: argument types for dns methods	36		
 11765	1443911	true	open	false	5		2017-03-09T07:41:45Z	2017-03-11T20:03:41Z		v4.x backport: http: make request.abort() destroy the socket	25		
@@ -5110,7 +5110,7 @@
 11787	101553	true	open	false	0	0	2017-03-10T10:37:00Z	2017-03-10T10:37:00Z		doc: update to current V8 versions	56		
 11788	1522145	false	open	false	0		2017-03-10T10:47:33Z	2017-03-10T10:47:33Z		OutgoingMessage._send misperforms ucs2 encoding of first chunk	452		
 11789	25148017	false	closed	false	5		2017-03-10T15:22:18Z	2017-03-11T20:20:50Z	2017-03-11T15:50:33Z	JSON: Implicit dependency of space over replacer argument in stringify	123		
-11790	1084056	true	open	false	1		2017-03-10T16:40:55Z	2017-03-12T16:36:33Z		test: fix flaky test-http-set-timeout-server	76		
+11790	1084056	true	open	false	1		2017-03-10T16:40:55Z	2017-03-13T12:48:12Z		test: fix flaky test-http-set-timeout-server	76		
 11791	718899	true	open	false	0	0	2017-03-10T17:47:13Z	2017-03-10T17:47:13Z		doc: improve child_process `maxBuffer` text	41		
 11792	17607	true	open	false	1		2017-03-10T19:40:29Z	2017-03-12T14:48:00Z		doc: linkable commit message guidelines	83		
 11793	14932284	false	open	false	0		2017-03-10T20:01:39Z	2017-03-10T20:01:39Z		Unexpected reserved word	57		
@@ -5147,3 +5147,4 @@
 11824	52195	true	open	false	0	0	2017-03-13T10:40:41Z	2017-03-13T10:40:41Z		doc: handle backpressure when write() return false	72		
 11825	9822643	false	open	false	0		2017-03-13T11:27:41Z	2017-03-13T11:27:41Z		how to use async/await in node.js v7.6+?	72		
 11826	15943089	false	open	false	0		2017-03-13T11:41:02Z	2017-03-13T11:41:02Z		Fix flaky sequential/test-domain-abort-on-uncaught and move back to parallel	212		
+11827	10393198	false	open	false	0		2017-03-13T12:27:23Z	2017-03-13T12:27:23Z		Node.js 8.0 and v8 5.9	51		
