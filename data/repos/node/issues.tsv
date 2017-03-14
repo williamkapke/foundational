@@ -405,7 +405,7 @@
 6160	110455	false	closed	false	14		2016-04-12T00:26:17Z	2016-10-17T10:38:09Z	2016-10-17T10:38:09Z	Clearing require.cache of native addon makes it throw when required later.	216		
 6162	11958657	false	closed	false	10		2016-04-12T07:36:35Z	2016-11-15T04:46:14Z	2016-04-12T10:05:18Z	require same file twice and exec twice	76		
 6165	2993861	true	closed	false	15	2	2016-04-12T16:15:29Z	2016-12-27T14:14:23Z	2016-12-27T14:14:23Z	module: maintain separate cache for native modules	98		
-6171	1088987	true	open	false	14		2016-04-12T19:50:49Z	2017-03-14T16:23:05Z		repl: refactor `LineParser` implementation	94		
+6171	1088987	true	closed	false	14		2016-04-12T19:50:49Z	2017-03-14T22:09:06Z	2017-03-14T22:09:06Z	repl: refactor `LineParser` implementation	94		
 6180	3824055	false	closed	false	18		2016-04-13T14:03:54Z	2016-07-26T17:44:29Z	2016-07-26T17:44:29Z	Memory leak in simple test case involving WeakSet	202		
 6181	6279791	false	closed	false	5		2016-04-13T14:17:30Z	2016-09-27T13:15:32Z	2016-04-13T17:24:17Z	Uncaught TypeError when tab-completing constructor in REPL	66		
 6184	289174	true	closed	false	29		2016-04-13T19:21:38Z	2016-10-24T18:28:57Z	2016-05-24T20:44:10Z	src: no abort from GetFD if object isn't wrapped	88		
@@ -4405,7 +4405,7 @@
 11081	498775	true	closed	false	5	0	2017-01-31T16:10:24Z	2017-01-31T22:07:08Z	2017-01-31T22:07:08Z	2017-01-31, Version 6.9.5 'Boron' (LTS)	176	498775	2017-01-31T22:07:08Z
 11082	17607	true	closed	false	6	1	2017-01-31T16:21:04Z	2017-02-02T18:14:03Z	2017-02-02T18:14:03Z	deps: hide zlib internal symbols	46		
 11083	498775	true	closed	false	3	2	2017-01-31T16:22:17Z	2017-02-01T00:50:28Z	2017-02-01T00:50:28Z	2017-01-31, Version 4.7.3 'Argon' (LTS)	176	498775	2017-02-01T00:50:28Z
-11084	17704638	true	open	false	6		2017-01-31T16:24:46Z	2017-03-14T21:20:33Z		win,build: add Visual Studio 2017 support	302		
+11084	17704638	true	open	false	7		2017-01-31T16:24:46Z	2017-03-14T22:26:54Z		win,build: add Visual Studio 2017 support	302		
 11085	134460	true	closed	false	5		2017-01-31T17:08:50Z	2017-01-31T20:30:12Z	2017-01-31T18:28:19Z	deps: fix npm files from upgrade to 4.1.2	71		
 11086	811047	true	closed	false	21		2017-01-31T17:51:14Z	2017-02-03T20:16:19Z	2017-02-03T16:53:22Z	test: add --abort-on-timeout option to test.py	133		
 11087	718899	true	closed	false	8		2017-01-31T17:51:15Z	2017-03-07T22:22:58Z	2017-02-02T18:49:46Z	test: make test-fs-access stricter	93		
@@ -4762,7 +4762,7 @@
 11438	275871	true	closed	false	1		2017-02-17T13:12:36Z	2017-03-07T06:10:39Z	2017-02-22T20:43:43Z	domain,events: support non-object 'error' argument	21		
 11439	4299420	true	open	false	1		2017-02-17T13:33:39Z	2017-02-19T08:33:15Z		test, url: sync WPT url test data	99		
 11440	24968144	false	closed	false	1		2017-02-17T15:20:57Z	2017-02-17T16:10:57Z	2017-02-17T16:10:57Z	frightening warning during fully-static compilation	117		
-11441	79017	true	open	false	0		2017-02-17T15:40:12Z	2017-03-14T21:52:26Z		inspector: make `debug` an alias for `inspect`	168		
+11441	79017	true	open	false			2017-02-17T15:40:12Z	2017-03-14T22:16:48Z		inspector: make `debug` an alias for `inspect`	85		
 11442	1839117	false	open	false	0		2017-02-17T16:55:41Z	2017-02-17T16:55:41Z		.	6		
 11443	899444	true	closed	false	1		2017-02-17T17:20:04Z	2017-02-21T15:53:17Z	2017-02-21T15:53:17Z	console: fixup `console.dir()` error handling	54		
 11444	602701	false	closed	false	10		2017-02-17T20:41:38Z	2017-02-20T17:21:24Z	2017-02-20T17:21:24Z	On SunOS fatal relocation error shows up between Node version 6.7.0 and 6.8.0	169		
@@ -5005,7 +5005,7 @@
 11681	19511039	true	closed	false	6		2017-03-04T00:11:19Z	2017-03-13T15:50:54Z	2017-03-08T15:49:59Z	doc: argument types for https & argument types cleanup for http	67		
 11682	2006839	true	closed	false	0	0	2017-03-04T07:57:20Z	2017-03-04T08:04:20Z	2017-03-04T08:04:20Z	doc: note removeListener doesn't work with once()	31		
 11683	275871	false	open	false	3		2017-03-04T09:03:57Z	2017-03-14T15:00:25Z		benchmark: disable concurrent recompilation+sweeping?	110		
-11684	4299420	true	open	false	3		2017-03-04T12:16:43Z	2017-03-14T16:42:56Z		test: fail when child died in fork-net	145		
+11684	4299420	true	closed	false	4		2017-03-04T12:16:43Z	2017-03-14T22:14:08Z	2017-03-14T22:14:08Z	test: fail when child died in fork-net	145		
 11685	15943089	false	open	false	2		2017-03-04T14:02:26Z	2017-03-05T15:35:59Z		Document that you can only listen on an already closed socket	43		
 11686	15943089	true	open	false	7		2017-03-04T15:30:36Z	2017-03-06T17:20:05Z		doc: document use of the Squash and merge button	60		
 11687	5908321	false	closed	false	1		2017-03-04T21:11:30Z	2017-03-05T09:00:54Z	2017-03-05T09:00:54Z	dns.resolve4 doesn't return TTL as expected	133		
@@ -5026,7 +5026,7 @@
 11702	6639188	false	open	false	0		2017-03-05T22:32:19Z	2017-03-05T23:24:12Z		Discussion: Deploying nodejs apps to end-users machine	206		
 11703	781746	false	open	false	5		2017-03-05T23:24:49Z	2017-03-13T14:10:52Z		Make warnings more beginner-friendly	84		
 11704	10393198	false	closed	false	2		2017-03-05T23:54:58Z	2017-03-14T13:45:37Z	2017-03-14T13:45:37Z	Thank you	104		
-11705	3109072	true	open	false			2017-03-06T00:27:41Z	2017-03-14T20:34:50Z		crypto: add sign/verify support for RSASSA-PSS	99		
+11705	3109072	true	open	false			2017-03-06T00:27:41Z	2017-03-14T22:53:44Z		crypto: add sign/verify support for RSASSA-PSS	99		
 11706	718899	true	closed	false	3		2017-03-06T03:35:16Z	2017-03-09T17:01:52Z	2017-03-09T09:48:03Z	test: test buffer behavior when zeroFill undefined	93		
 11707	4985201	false	closed	false	2		2017-03-06T05:54:27Z	2017-03-10T02:19:11Z	2017-03-06T07:13:23Z	URL parser inconsistency.	45		
 11708	1538624	true	closed	false	8		2017-03-06T07:00:52Z	2017-03-11T02:29:12Z	2017-03-11T02:29:12Z	util: throw toJSON errors when formatting %j	65		
@@ -5151,7 +5151,7 @@
 11828	782880	true	open	false	7		2017-03-13T15:10:50Z	2017-03-14T15:07:37Z		Upgrade openssl-1.1.0e for Node-v8 (DO NOT LAND THIS)	564		
 11829	5886475	true	open	false			2017-03-13T15:36:24Z	2017-03-13T16:06:36Z		errors: add duplicate symbol checking in E() and increase coverage	48		
 11830	9373002	false	open	false	3		2017-03-13T15:37:18Z	2017-03-13T17:52:28Z		AIX: parallel/test-cluster-inspector-debug-brk intermittent failures 	201		
-11831	6354455	true	open	false	6		2017-03-13T16:03:35Z	2017-03-14T20:41:34Z		7.7.3 Release Proposal	406		
+11831	6354455	true	closed	false	8	0	2017-03-13T16:03:35Z	2017-03-14T22:35:27Z	2017-03-14T22:35:27Z	7.7.3 Release Proposal	406	6354455	2017-03-14T22:35:27Z
 11832	289004	false	open	false	0		2017-03-13T16:31:39Z	2017-03-13T16:31:39Z		iciecfjdcddijcvunibfjigbcindrgtkbjdl	6		
 11833	8734691	true	open	false	2		2017-03-13T17:22:15Z	2017-03-14T04:55:03Z		lib: removed unused msg parameter in debug_agent	55		
 11834	54666	true	open	false			2017-03-13T19:07:17Z	2017-03-14T09:19:53Z		tools: add unescaped regexp dot rule to linter	90		
@@ -5172,3 +5172,4 @@
 11849	17619590	false	open	false	2		2017-03-14T17:03:35Z	2017-03-14T18:13:16Z		using --enable-fips or --force-fips with crypto.fips=1 fails	133		
 11850	287917	true	open	false	2		2017-03-14T17:17:14Z	2017-03-14T21:20:39Z		inspector: proper WS URLs when bound to 0.0.0.0	87		
 11851	10393198	false	open	false	5		2017-03-14T17:34:53Z	2017-03-14T19:03:15Z		Ignition + TurboFan: Node.js benchmarks	117		
+11852	96947	true	open	false	0	0	2017-03-14T22:25:05Z	2017-03-14T22:25:05Z		[win] Make build-able on vs2017	86		
