@@ -405,7 +405,7 @@
 6160	110455	false	closed	false	14		2016-04-12T00:26:17Z	2016-10-17T10:38:09Z	2016-10-17T10:38:09Z	Clearing require.cache of native addon makes it throw when required later.	216		
 6162	11958657	false	closed	false	10		2016-04-12T07:36:35Z	2016-11-15T04:46:14Z	2016-04-12T10:05:18Z	require same file twice and exec twice	76		
 6165	2993861	true	closed	false	15	2	2016-04-12T16:15:29Z	2016-12-27T14:14:23Z	2016-12-27T14:14:23Z	module: maintain separate cache for native modules	98		
-6171	1088987	true	closed	false	14		2016-04-12T19:50:49Z	2017-03-14T22:09:06Z	2017-03-14T22:09:06Z	repl: refactor `LineParser` implementation	94		
+6171	1088987	true	closed	false			2016-04-12T19:50:49Z	2017-03-15T19:37:14Z	2017-03-14T22:09:06Z	repl: refactor `LineParser` implementation	94		
 6180	3824055	false	closed	false	18		2016-04-13T14:03:54Z	2016-07-26T17:44:29Z	2016-07-26T17:44:29Z	Memory leak in simple test case involving WeakSet	202		
 6181	6279791	false	closed	false	5		2016-04-13T14:17:30Z	2016-09-27T13:15:32Z	2016-04-13T17:24:17Z	Uncaught TypeError when tab-completing constructor in REPL	66		
 6184	289174	true	closed	false	29		2016-04-13T19:21:38Z	2016-10-24T18:28:57Z	2016-05-24T20:44:10Z	src: no abort from GetFD if object isn't wrapped	88		
@@ -2858,7 +2858,7 @@
 9528	2512748	true	closed	false	5	3	2016-11-09T15:25:13Z	2016-11-15T20:39:03Z	2016-11-15T20:39:03Z	test: add test for broken child process stdio	82	2512748	2016-11-15T20:39:03Z
 9529	899444	true	open	false	26		2016-11-09T17:00:42Z	2016-11-28T17:09:17Z		"Revert ""buffer: runtime deprecation of calling Buffer without new"""	106		
 9530	3413079	false	open	false	5		2016-11-09T17:19:27Z	2016-11-18T19:54:40Z		Response strings and closures objects leak with http.Agent enabled (Memory Leak)	298		
-9531	899444	false	open	false	134		2016-11-09T21:03:01Z	2017-03-12T08:25:49Z		buffer: discuss future direction of Buffer constructor API	842		
+9531	899444	false	open	false	135		2016-11-09T21:03:01Z	2017-03-15T19:28:08Z		buffer: discuss future direction of Buffer constructor API	842		
 9532	115237	true	open	false	7		2016-11-09T21:04:33Z	2017-01-11T17:14:11Z		doc: clarify the callback arguments of dns.resolve	47		
 9533	941925	false	closed	false	1		2016-11-09T22:31:38Z	2017-01-08T17:37:00Z	2017-01-08T17:37:00Z	Design of legacy tls socket's destroy	332		
 9534	6477435	false	closed	false	7		2016-11-09T23:11:18Z	2016-11-13T20:04:51Z	2016-11-10T10:36:15Z	Spawning child processes in bash on Windows can crash the parent process	118		
@@ -5087,7 +5087,7 @@
 11764	19511039	true	closed	false	3		2017-03-09T05:45:17Z	2017-03-15T00:32:03Z	2017-03-15T00:32:03Z	doc: argument types for dns methods	36		
 11765	1443911	true	open	false	5		2017-03-09T07:41:45Z	2017-03-11T20:03:41Z		v4.x backport: http: make request.abort() destroy the socket	25		
 11766	432351	true	closed	false	10		2017-03-09T10:02:32Z	2017-03-13T18:53:33Z	2017-03-13T18:53:33Z	build: add node_use_openssl check to install.py	63		
-11767	898057	false	open	false	17		2017-03-09T10:46:50Z	2017-03-15T14:51:27Z		Proposal: add option to automatically add BOM to write methods	65		
+11767	898057	false	open	false	18		2017-03-09T10:46:50Z	2017-03-15T19:50:06Z		Proposal: add option to automatically add BOM to write methods	65		
 11768	54666	false	closed	false	0		2017-03-09T13:53:05Z	2017-03-14T09:44:07Z	2017-03-14T09:44:07Z	Investigate flaky parallel/test-http-set-timeout-server on freebsd	55		
 11769	13561163	true	closed	false	3		2017-03-09T14:05:20Z	2017-03-15T05:12:07Z	2017-03-15T05:12:07Z	test: added test for indexed properties	86		
 11770	2352663	false	open	false	5		2017-03-09T14:11:23Z	2017-03-09T19:07:15Z		Move V8 inspector to stable	43		
@@ -5147,7 +5147,7 @@
 11824	52195	true	open	false	0	0	2017-03-13T10:40:41Z	2017-03-13T10:40:41Z		doc: handle backpressure when write() return false	72		
 11825	9822643	false	closed	false	2		2017-03-13T11:27:41Z	2017-03-13T20:08:12Z	2017-03-13T11:38:46Z	how to use async/await in node.js v7.6+?	72		
 11826	15943089	false	open	false	2		2017-03-13T11:41:02Z	2017-03-14T23:15:43Z		Fix flaky sequential/test-domain-abort-on-uncaught and move back to parallel	212		
-11827	10393198	false	open	false	2		2017-03-13T12:27:23Z	2017-03-15T13:28:19Z		Node.js 8.0 and v8 5.9	50		
+11827	10393198	false	open	false	3		2017-03-13T12:27:23Z	2017-03-15T19:38:54Z		Node.js 8.0 and v8 5.9	50		
 11828	782880	true	open	false	7		2017-03-13T15:10:50Z	2017-03-14T15:07:37Z		Upgrade openssl-1.1.0e for Node-v8 (DO NOT LAND THIS)	564		
 11829	5886475	true	closed	false	4		2017-03-13T15:36:24Z	2017-03-15T16:10:53Z	2017-03-15T16:10:53Z	errors: add duplicate symbol checking in E() and increase coverage	48		
 11830	9373002	false	open	false	3		2017-03-13T15:37:18Z	2017-03-13T17:52:28Z		AIX: parallel/test-cluster-inspector-debug-brk intermittent failures 	201		
@@ -5172,7 +5172,7 @@
 11849	17619590	false	open	false	2		2017-03-14T17:03:35Z	2017-03-14T18:13:16Z		using --enable-fips or --force-fips with crypto.fips=1 fails	133		
 11850	287917	true	open	false	2		2017-03-14T17:17:14Z	2017-03-14T21:20:39Z		inspector: proper WS URLs when bound to 0.0.0.0	87		
 11851	10393198	false	open	false	8		2017-03-14T17:34:53Z	2017-03-15T14:23:20Z		Ignition + TurboFan: Node.js benchmarks	117		
-11852	96947	true	open	false	8		2017-03-14T22:25:05Z	2017-03-15T16:54:43Z		[win] Make build-able on vs2017	109		
+11852	96947	true	open	false	9		2017-03-14T22:25:05Z	2017-03-15T19:22:03Z		[win] Make build-able on vs2017	109		
 11853	5876741	false	open	false	0		2017-03-15T00:55:08Z	2017-03-15T00:55:08Z		Feature request: Env Var NODE_REQUIRE	79		
 11854	12488060	true	open	false			2017-03-15T00:56:56Z	2017-03-15T01:09:48Z		lib: Use regex to compare error message	37		
 11855	3315328	false	open	false	14		2017-03-15T01:34:38Z	2017-03-15T15:28:34Z		let v8 use libuv thread pool	17		
@@ -5186,7 +5186,7 @@
 11863	17704638	true	open	false	1		2017-03-15T12:22:01Z	2017-03-15T17:06:13Z		src: ensure that fd 0-2 are valid on windows	61		
 11864	1900816	false	closed	false	0		2017-03-15T14:31:03Z	2017-03-15T15:39:36Z	2017-03-15T15:39:36Z	Plain node debugging cannot connect	143		
 11865	25828402	false	open	false	0		2017-03-15T15:13:13Z	2017-03-15T15:13:13Z		Missing stack traces from async functions after the first await	602		
-11866	413206	false	open	false	1		2017-03-15T15:14:46Z	2017-03-15T17:02:06Z		buffer.write(buffer, 'base64')	71		
+11866	413206	false	open	false	4		2017-03-15T15:14:46Z	2017-03-15T19:41:06Z		buffer.write(buffer, 'base64')	71		
 11867	134460	true	open	false	0	0	2017-03-15T16:25:52Z	2017-03-15T16:25:52Z		win,build: add Visual Studio 2017 support	163		
 11868	1443911	false	open	false	0		2017-03-15T17:17:39Z	2017-03-15T17:17:39Z		High memory usage for upgraded http requests	196		
-11869	567540	true	open	false	0	0	2017-03-15T18:19:10Z	2017-03-15T18:19:10Z		deps: Add node-inspect 1.10.6	247		
+11869	567540	true	open	false	1		2017-03-15T18:19:10Z	2017-03-15T19:40:51Z		deps: Add node-inspect 1.10.6	254		
