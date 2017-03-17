@@ -621,6 +621,7 @@
 7145	730640	false	open	false	8		2016-06-04T01:08:19Z	2017-01-17T17:53:16Z		observed setImmediate and setTimeout execution order contradicts documentation	163		
 7146	15693070	false	open	false	1		2016-06-04T01:28:07Z	2016-12-20T19:34:25Z		Interval stops after set date in the past from command line.	313		
 7149	238531	true	closed	false	6		2016-06-04T04:02:49Z	2016-07-11T22:37:04Z	2016-06-06T17:34:31Z	http: wait for both prefinish/end to keepalive	80		
+7151	812558	false	open	false	1		2016-06-04T15:34:28Z	2017-03-17T13:21:44Z		Module resolution description does not reflect the implementation	78		
 7152	988441	true	open	false			2016-06-04T16:22:28Z	2017-03-12T13:58:27Z		buffer: runtime-deprecate Buffer constructor	139		
 7154	718899	true	closed	false	14		2016-06-04T20:16:03Z	2016-07-11T22:54:57Z	2016-06-07T20:33:05Z	debugger: remove obsolete setTimeout	65		
 7157	469365	true	closed	false	28		2016-06-05T01:13:32Z	2016-07-05T18:16:17Z	2016-06-27T20:40:21Z	buffers: speed up swap16/32, add swap64	566		
@@ -2986,7 +2987,7 @@
 9656	739813	true	closed	false	5		2016-11-17T06:35:00Z	2016-12-28T06:47:07Z	2016-12-28T06:47:07Z	doc: add Working Group revocation text	149		
 9657	1204466	true	closed	false	6		2016-11-17T07:05:43Z	2016-12-20T19:47:36Z	2016-11-30T16:01:06Z	build: Make configure file parseable on python3	43		
 9658	16486766	false	closed	false	6		2016-11-17T09:53:19Z	2017-03-14T03:11:02Z	2017-01-08T15:55:20Z	Error: Cannot find module 'internal/fs'	19		
-9659	588262	true	open	false			2016-11-17T11:00:27Z	2017-03-17T12:57:09Z		cluster: fixing debug port logic for forking workers	170		
+9659	588262	true	open	false	63		2016-11-17T11:00:27Z	2017-03-17T13:03:05Z		cluster: fixing debug port logic for forking workers	170		
 9660	696611	true	open	false	4		2016-11-17T12:03:15Z	2016-11-20T14:58:09Z		tools: don't build node for doc build	45		
 9661	2512748	true	closed	false	6	0	2016-11-17T15:20:11Z	2016-11-23T20:19:56Z	2016-11-23T20:19:56Z	buffer: empty string is not a valid encoding	68		
 9662	19831373	false	closed	false	6		2016-11-17T18:16:28Z	2017-01-08T15:53:51Z	2017-01-08T15:53:51Z	Most Urgent      npm can't work at all	125		
@@ -5205,15 +5206,16 @@
 11882	15730986	false	open	false	20		2017-03-16T16:08:30Z	2017-03-17T11:42:56Z		npm --version segfaults on v7.7.3 linux ppc64 (BE) only ON RHEL 7	38		
 11883	289174	true	open	false	0		2017-03-16T17:40:27Z	2017-03-16T22:34:28Z		async_hooks initial implementation	209		
 11884	1154680	false	open	false	6		2017-03-16T18:21:37Z	2017-03-17T11:22:11Z		require accepts incoherent files	104		
-11885	22823019	false	open	false	1		2017-03-16T22:34:58Z	2017-03-17T02:31:02Z		SIGSEGV When Reading From SSL Stream	470		
+11885	22823019	false	open	false	2		2017-03-16T22:34:58Z	2017-03-17T13:44:12Z		SIGSEGV When Reading From SSL Stream	470		
 11886	332968	true	open	false			2017-03-16T23:01:47Z	2017-03-16T23:08:53Z		test: added tests for unixtimestamp generation	40		
 11887	1716463	true	open	false	3		2017-03-17T01:20:43Z	2017-03-17T03:01:57Z		url: update the processing in the scheme state.	126		
 11888	5876741	true	open	false	0	0	2017-03-17T04:17:30Z	2017-03-17T04:17:30Z		module: check env NODE_REQUIRE for preload modules	84		
 11889	914122	false	open	false	1		2017-03-17T05:23:41Z	2017-03-17T08:10:39Z		Practical Problem: case-mismatch in package/file require statements	102		
-11890	718899	true	open	false	0	0	2017-03-17T05:52:15Z	2017-03-17T05:52:15Z		tools: ignore URLs in line length linting	52		
+11890	718899	true	open	false	0		2017-03-17T05:52:15Z	2017-03-17T13:12:44Z		tools: ignore URLs in line length linting	52		
 11891	5886475	true	open	false	0	0	2017-03-17T06:33:03Z	2017-03-17T06:33:03Z		errors: remove needless lazyAssert 	60		
 11892	2291463	false	open	false	0		2017-03-17T07:53:42Z	2017-03-17T07:53:42Z		node --inspect --debug-brk should break before the script even executes	55		
 11893	2291463	false	open	false	0		2017-03-17T08:05:10Z	2017-03-17T11:16:21Z		Node.js' internal scripts should be hidden in the inspector.	63		
 11894	2352663	true	open	false	0		2017-03-17T08:38:32Z	2017-03-17T09:37:17Z		benchmark: avoid TurboFan deopt in arrays bench	99		
 11895	2352663	false	open	false	0		2017-03-17T10:36:47Z	2017-03-17T10:36:47Z		vm benchmarks are broken	28		
 11896	275871	true	open	false	0	0	2017-03-17T10:45:21Z	2017-03-17T10:45:21Z		tls: fix SecurePair external memory reporting	35		
+11897	234659	true	open	false	0	0	2017-03-17T13:20:29Z	2017-03-17T13:20:29Z		doc: require uses fs root for '/' prefix	26		
