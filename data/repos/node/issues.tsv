@@ -1366,7 +1366,7 @@
 8034	275871	true	closed	false	26		2016-08-09T15:25:45Z	2016-11-18T20:44:16Z	2016-10-03T17:49:26Z	build: run cctests as part of test-ci target	4		
 8035	17704638	true	closed	false	10		2016-08-09T15:33:31Z	2016-08-18T17:38:17Z	2016-08-18T17:38:17Z	doc: script with space  spawn example for windows	46		
 8036	446283	true	open	false	0	0	2016-08-09T20:17:43Z	2016-08-09T20:17:43Z		Avoid potential memory leak if realloc fails	437		
-8037	439929	true	closed	false	4	1	2016-08-09T20:50:54Z	2017-02-15T18:58:15Z	2017-02-15T18:58:15Z	doc: document vm module limitation with timeouts and async code	28		
+8037	439929	true	closed	false	4		2016-08-09T20:50:54Z	2017-03-17T15:00:14Z	2017-02-15T18:58:15Z	doc: document vm module limitation with timeouts and async code	28		
 8038	4976075	true	closed	false	15		2016-08-09T21:30:44Z	2016-08-11T17:06:35Z	2016-08-11T16:40:30Z	Cherry pick 588e15c and c0d4bb8 from upstream V8	61		
 8039	899444	true	closed	false	18		2016-08-09T22:47:32Z	2016-10-10T21:54:33Z	2016-08-18T01:45:26Z	test: add an zlib binding addon test	71		
 8040	11638619	true	closed	false	82		2016-08-09T23:32:06Z	2016-09-12T21:15:26Z	2016-08-20T02:38:11Z	Add crypto.timingSafeEqual()	68		
@@ -5193,7 +5193,7 @@
 11869	567540	true	open	false	4		2017-03-15T18:19:10Z	2017-03-16T17:27:58Z		deps: Add node-inspect 1.10.6	246		
 11870	26011383	false	open	false	3		2017-03-15T20:02:02Z	2017-03-16T13:29:01Z		Error encrypting files	213		
 11871	567540	true	open	false	2		2017-03-15T20:50:47Z	2017-03-15T22:16:47Z		repl: Empty command should be sent to eval function	51		
-11872	9373002	true	open	false			2017-03-15T22:16:30Z	2017-03-16T22:36:11Z		doc: add supported platforms list	51		
+11872	9373002	true	open	false			2017-03-15T22:16:30Z	2017-03-17T14:45:21Z		doc: add supported platforms list	51		
 11873	332968	true	open	false			2017-03-15T23:45:07Z	2017-03-17T09:26:10Z		test: added net.connect lookup type check	49		
 11874	1773996	false	open	false	0		2017-03-16T01:07:47Z	2017-03-16T01:07:47Z		node: src/threadpool.c:252: uv__queue_done: Assertion	79		
 11875	1538624	false	open	false	4		2017-03-16T02:09:51Z	2017-03-16T15:42:08Z		Find an alternative to V8's Debug Mirror API for util.inspect	68		
@@ -5205,17 +5205,18 @@
 11881	1799756	false	closed	false	4		2017-03-16T16:01:30Z	2017-03-16T19:20:40Z	2017-03-16T19:20:40Z	Invalid output with backslashes in string literals, if console.log has multiple parameters	33		
 11882	15730986	false	open	false	20		2017-03-16T16:08:30Z	2017-03-17T11:42:56Z		npm --version segfaults on v7.7.3 linux ppc64 (BE) only ON RHEL 7	38		
 11883	289174	true	open	false	0		2017-03-16T17:40:27Z	2017-03-16T22:34:28Z		async_hooks initial implementation	209		
-11884	1154680	false	open	false	6		2017-03-16T18:21:37Z	2017-03-17T11:22:11Z		require accepts incoherent files	104		
-11885	22823019	false	open	false	2		2017-03-16T22:34:58Z	2017-03-17T13:44:12Z		SIGSEGV When Reading From SSL Stream	470		
+11884	1154680	false	open	false	6		2017-03-16T18:21:37Z	2017-03-17T14:05:10Z		require accepts incoherent files	104		
+11885	22823019	false	open	false	3		2017-03-16T22:34:58Z	2017-03-17T14:50:21Z		SIGSEGV When Reading From SSL Stream	470		
 11886	332968	true	open	false			2017-03-16T23:01:47Z	2017-03-16T23:08:53Z		test: added tests for unixtimestamp generation	40		
 11887	1716463	true	open	false	3		2017-03-17T01:20:43Z	2017-03-17T03:01:57Z		url: update the processing in the scheme state.	126		
-11888	5876741	true	open	false	0	0	2017-03-17T04:17:30Z	2017-03-17T04:17:30Z		module: check env NODE_REQUIRE for preload modules	84		
+11888	5876741	true	open	false	0		2017-03-17T04:17:30Z	2017-03-17T14:20:19Z		module: check env NODE_REQUIRE for preload modules	83		
 11889	914122	false	open	false	1		2017-03-17T05:23:41Z	2017-03-17T08:10:39Z		Practical Problem: case-mismatch in package/file require statements	102		
 11890	718899	true	open	false	0		2017-03-17T05:52:15Z	2017-03-17T13:12:44Z		tools: ignore URLs in line length linting	52		
-11891	5886475	true	open	false	0	0	2017-03-17T06:33:03Z	2017-03-17T06:33:03Z		errors: remove needless lazyAssert 	60		
+11891	5886475	true	open	false	0		2017-03-17T06:33:03Z	2017-03-17T14:05:41Z		errors: remove needless lazyAssert 	60		
 11892	2291463	false	open	false	0		2017-03-17T07:53:42Z	2017-03-17T07:53:42Z		node --inspect --debug-brk should break before the script even executes	55		
 11893	2291463	false	open	false	0		2017-03-17T08:05:10Z	2017-03-17T11:16:21Z		Node.js' internal scripts should be hidden in the inspector.	63		
 11894	2352663	true	open	false	0		2017-03-17T08:38:32Z	2017-03-17T09:37:17Z		benchmark: avoid TurboFan deopt in arrays bench	99		
-11895	2352663	false	open	false	0		2017-03-17T10:36:47Z	2017-03-17T10:36:47Z		vm benchmarks are broken	28		
+11895	2352663	false	open	false	0		2017-03-17T10:36:47Z	2017-03-17T14:45:22Z		vm benchmarks are broken	28		
 11896	275871	true	open	false	0	0	2017-03-17T10:45:21Z	2017-03-17T10:45:21Z		tls: fix SecurePair external memory reporting	35		
-11897	234659	true	open	false	0	0	2017-03-17T13:20:29Z	2017-03-17T13:20:29Z		doc: require uses fs root for '/' prefix	26		
+11897	234659	true	open	false			2017-03-17T13:20:29Z	2017-03-17T14:51:24Z		doc: require uses fs root for '/' prefix	26		
+11898	275871	true	open	false	0	0	2017-03-17T14:49:18Z	2017-03-17T14:49:18Z		tls: fix segfault on destroy after partial read	2		
