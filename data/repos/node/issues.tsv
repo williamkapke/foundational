@@ -131,7 +131,7 @@
 2960	3038254	true	open	false	11		2015-09-19T00:13:07Z	2017-02-28T22:55:01Z		net: write syscall optimization and a bytesWritten bug fix	158		
 2962	2311111	false	closed	false	10		2015-09-19T15:29:09Z	2017-02-07T18:13:21Z	2017-02-07T18:13:21Z	4.X Tarball will not extract on Intel Edison (Yocto)	65		
 2967	696611	true	closed	false	33		2015-09-20T07:40:27Z	2016-11-30T22:47:18Z	2015-10-27T03:19:46Z	http{s}: fix connecting to localhost if URL is invalid	47		
-2982	170023	true	open	false	9		2015-09-21T14:10:33Z	2017-03-17T19:39:26Z		readline: add option to stop duplicates in history	161		
+2982	170023	true	open	false	10		2015-09-21T14:10:33Z	2017-03-17T20:57:02Z		readline: add option to stop duplicates in history	161		
 2994	708850	false	open	false	9		2015-09-22T04:48:17Z	2016-09-08T23:20:56Z		Need a way to detect end of stream on custom Writable Streams implementing _write	78		
 3006	914122	false	closed	false	46		2015-09-22T15:57:31Z	2017-02-15T10:16:21Z	2016-03-22T06:28:03Z	Node.js doesn't run as tty on windows / cygwin	33		
 3009	112555	false	closed	false	13		2015-09-22T19:15:53Z	2016-11-26T11:23:43Z	2016-04-09T05:21:32Z	Sending a body with a GET request using http.request cannot be received using http.server	160		
@@ -1396,7 +1396,7 @@
 8063	17704638	true	closed	false	17		2016-08-11T07:08:18Z	2016-09-12T11:49:03Z	2016-09-09T18:59:46Z	child_process, win: fix shell spawn with AutoRun	84		
 8064	84737	false	closed	false	12		2016-08-11T09:33:57Z	2016-09-30T19:01:14Z	2016-08-18T18:23:34Z	`url.format()` encodes '#' inconsistently	83		
 8065	9373002	true	closed	false	16		2016-08-11T16:27:25Z	2016-09-30T18:23:31Z	2016-08-12T13:37:53Z	test: mark test failing on AIX as flaky	114		
-8066	3849161	false	open	false	1		2016-08-11T17:54:25Z	2016-08-11T20:08:45Z		TCP Fast Open	25		
+8066	3849161	false	open	false	2		2016-08-11T17:54:25Z	2017-03-17T20:46:07Z		TCP Fast Open	25		
 8067	275871	true	closed	false	7	0	2016-08-11T17:57:29Z	2016-09-23T16:07:12Z	2016-09-23T16:07:12Z	src: remove VS 2013 compatibility hacks	51		
 8068	718899	true	closed	false	10		2016-08-11T17:58:45Z	2016-08-15T09:48:05Z	2016-08-14T09:22:12Z	tools: favor === over == in license2rtf.js	30		
 8069	5445507	true	closed	false	9		2016-08-11T19:33:13Z	2016-10-01T00:25:05Z	2016-08-25T21:57:41Z	build: add missing files to zip and 7z packages	55		
@@ -4930,7 +4930,7 @@
 11604	2599332	false	open	false	0		2017-02-28T13:41:11Z	2017-02-28T13:51:57Z		Backslash with ES6 String Template not displaying correctly in REPL	67		
 11605	327019	false	closed	false	2		2017-02-28T14:42:37Z	2017-03-16T22:10:27Z	2017-03-16T22:10:27Z	Add assert.equal for length of Buffer.concat(list, length)	25		
 11606	21952142	false	open	false	1		2017-02-28T14:57:30Z	2017-03-03T14:13:11Z		GC segfault	126		
-11607	988441	true	open	false	2		2017-02-28T15:20:46Z	2017-03-17T19:55:20Z		fs: don't conflate data and callback in arguments	119		
+11607	988441	true	open	false	3		2017-02-28T15:20:46Z	2017-03-17T20:30:53Z		fs: don't conflate data and callback in arguments	119		
 11608	899444	true	open	false	15		2017-02-28T15:34:52Z	2017-03-06T18:32:13Z		stream: support Uint8Array input to methods	143		
 11609	439929	true	open	false			2017-02-28T16:13:56Z	2017-03-07T02:05:36Z		benchmark: ES6 class vs function benchmark	154		
 11610	696611	true	open	false	8		2017-02-28T16:28:08Z	2017-03-07T20:23:38Z		introduce doc linter	125		
@@ -5122,7 +5122,7 @@
 11797	13262488	true	open	false	0		2017-03-11T05:00:27Z	2017-03-13T00:58:13Z		(v6.x backport) test: refactor test-stream2-readable-wrap.js	17		
 11798	20789810	false	open	false	0		2017-03-11T05:05:17Z	2017-03-11T05:05:17Z		有中国朋友吗？	1		
 11799	19511039	true	closed	false	0		2017-03-11T06:40:52Z	2017-03-15T00:18:47Z	2017-03-15T00:18:47Z	doc: argument types for crypto methods	35		
-11800	718899	true	open	false	5		2017-03-11T06:44:43Z	2017-03-17T19:59:26Z		test: add coverage for child_process bounds check	74		
+11800	718899	true	open	false	6		2017-03-11T06:44:43Z	2017-03-17T20:49:50Z		test: add coverage for child_process bounds check	74		
 11801	439929	true	open	false			2017-03-11T07:38:59Z	2017-03-11T23:57:23Z		url: introduce native URL class for internal use	55		
 11802	19511039	true	closed	false	2	3	2017-03-11T08:19:15Z	2017-03-15T00:18:01Z	2017-03-15T00:18:01Z	doc: missing argument types for events methods	36		
 11803	13561163	false	closed	false	20		2017-03-11T13:24:43Z	2017-03-14T19:37:52Z	2017-03-14T19:37:52Z	assert.deepStrictEqual() fails to compare ES6 style object properties	100		
@@ -5174,7 +5174,7 @@
 11849	17619590	false	open	false	7		2017-03-14T17:03:35Z	2017-03-16T20:32:12Z		using --enable-fips or --force-fips with crypto.fips=1 fails	138		
 11850	287917	true	closed	false	3	0	2017-03-14T17:17:14Z	2017-03-16T16:58:58Z	2017-03-16T16:58:58Z	inspector: proper WS URLs when bound to 0.0.0.0	87	287917	2017-03-16T16:58:58Z
 11851	10393198	false	open	false	27		2017-03-14T17:34:53Z	2017-03-17T08:19:29Z		Ignition + TurboFan: Node.js benchmarks	128		
-11852	96947	true	open	false	21		2017-03-14T22:25:05Z	2017-03-17T18:02:40Z		[win] Make build-able on vs2017	170		
+11852	96947	true	open	false	24		2017-03-14T22:25:05Z	2017-03-17T20:16:43Z		[win] Make build-able on vs2017	170		
 11853	5876741	false	open	false	0		2017-03-15T00:55:08Z	2017-03-16T20:16:09Z		Feature request: Env Var NODE_REQUIRE	79		
 11854	12488060	true	open	false			2017-03-15T00:56:56Z	2017-03-15T23:31:10Z		lib: Use regex to compare error message	37		
 11855	3315328	false	open	false	15		2017-03-15T01:34:38Z	2017-03-16T08:21:49Z		let v8 use libuv thread pool	17		
@@ -5209,12 +5209,12 @@
 11884	1154680	false	open	false	9		2017-03-16T18:21:37Z	2017-03-17T16:14:53Z		require accepts incoherent files	104		
 11885	22823019	false	open	false	3		2017-03-16T22:34:58Z	2017-03-17T14:50:21Z		SIGSEGV When Reading From SSL Stream	470		
 11886	332968	true	open	false			2017-03-16T23:01:47Z	2017-03-17T19:31:29Z		test: added tests for unixtimestamp generation	40		
-11887	1716463	true	open	false			2017-03-17T01:20:43Z	2017-03-17T16:25:35Z		url: update the processing in the scheme state.	126		
+11887	1716463	true	open	false			2017-03-17T01:20:43Z	2017-03-17T20:12:47Z		url: update the processing in the scheme state.	126		
 11888	5876741	true	open	false	21		2017-03-17T04:17:30Z	2017-03-17T19:05:46Z		module: check env NODE_REQUIRE for preload modules	83		
 11889	914122	false	open	false	1		2017-03-17T05:23:41Z	2017-03-17T08:10:39Z		Practical Problem: case-mismatch in package/file require statements	102		
 11890	718899	true	open	false	0		2017-03-17T05:52:15Z	2017-03-17T13:12:44Z		tools: ignore URLs in line length linting	52		
 11891	5886475	true	open	false	0		2017-03-17T06:33:03Z	2017-03-17T14:05:41Z		errors: remove needless lazyAssert 	60		
-11892	2291463	false	open	false	3		2017-03-17T07:53:42Z	2017-03-17T19:22:44Z		node --inspect --debug-brk should break before the script even executes	74		
+11892	2291463	false	open	false	4		2017-03-17T07:53:42Z	2017-03-17T20:26:21Z		node --inspect --debug-brk should break before the script even executes	74		
 11893	2291463	false	open	false	4		2017-03-17T08:05:10Z	2017-03-17T19:20:58Z		Node.js' internal scripts should be hidden in the inspector.	63		
 11894	2352663	true	open	false	0		2017-03-17T08:38:32Z	2017-03-17T09:37:17Z		benchmark: avoid TurboFan deopt in arrays bench	99		
 11895	2352663	false	open	false	0		2017-03-17T10:36:47Z	2017-03-17T14:45:22Z		vm benchmarks are broken	28		
@@ -5225,6 +5225,7 @@
 11900	2512748	true	open	false	2		2017-03-17T16:07:43Z	2017-03-17T17:06:49Z		lib: make callback checks more strict	88		
 11901	13737185	true	open	false	3		2017-03-17T16:16:30Z	2017-03-17T17:12:45Z		check uv_async_t wasn't already close	35		
 11902	439929	false	open	false	0		2017-03-17T16:42:57Z	2017-03-17T16:42:57Z		vm: known issue with CopyProperties throw on empty code	79		
-11903	234659	false	open	false	0		2017-03-17T18:15:07Z	2017-03-17T18:15:07Z		Feature Request: Distributable Artifacts	1527		
-11904	10393198	true	open	false	0	0	2017-03-17T18:15:11Z	2017-03-17T18:15:11Z		benchmark: fix fs\bench-realpathSync.js	77		
+11903	234659	false	open	false	0		2017-03-17T18:15:07Z	2017-03-17T20:19:36Z		Feature Request: Distributable Artifacts	1527		
+11904	10393198	true	open	false	0		2017-03-17T18:15:11Z	2017-03-17T20:38:45Z		benchmark: fix fs\bench-realpathSync.js	77		
 11905	101553	true	open	false	0		2017-03-17T18:50:00Z	2017-03-17T19:15:53Z		deps: cherry-pick 09de996 from V8 upstream	155		
+11906	718899	true	open	false	0	0	2017-03-17T20:51:27Z	2017-03-17T20:51:27Z		buffer: remove unneeded eslint-disable comment	62		
