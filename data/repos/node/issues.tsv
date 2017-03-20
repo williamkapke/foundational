@@ -3150,7 +3150,7 @@
 9817	374012	false	open	false	0		2016-11-27T22:55:08Z	2016-11-27T22:55:08Z		{Hash, Hmac}.digest and sign hard crash when supplied 'ucs2' encoding	140		
 9818	304505	false	open	false	13		2016-11-28T00:25:48Z	2016-11-28T21:49:32Z		Crashing with Abort on FreeBSD when run via Salt.	230		
 9819	374012	false	open	false	0		2016-11-28T02:45:12Z	2016-11-28T02:45:12Z		Crypto Hashm/Hmac digest segfault on bad input	130		
-9820	374012	false	open	false	1		2016-11-28T03:06:25Z	2017-03-20T00:18:17Z		spawnSync segfaults when given throwing toString	93		
+9820	374012	false	open	false	2		2016-11-28T03:06:25Z	2017-03-20T20:36:57Z		spawnSync segfaults when given throwing toString	93		
 9821	374012	false	open	false	7		2016-11-28T03:07:56Z	2016-11-28T04:14:36Z		spawnSync's SyncProcessRunner::CopyJsStringArray segfaults with bad getter	180		
 9822	54666	false	open	false	1		2016-11-28T03:13:29Z	2016-11-28T04:11:34Z		doc: update TLS protocol version example	137		
 9823	374012	false	open	false	1		2016-11-28T04:12:03Z	2016-11-28T05:03:26Z		spawnSync can be used to perform OOB memory write	350		
@@ -4289,7 +4289,7 @@
 10962	15943003	false	open	false	0		2017-01-23T11:38:32Z	2017-01-23T12:07:06Z		Reading a directory	57		
 10963	3367801	true	closed	false	1		2017-01-23T13:40:29Z	2017-01-27T21:52:45Z	2017-01-27T21:52:45Z	test: increase coverage for stream's duplex	50		
 10964	5886475	true	closed	false	5		2017-01-23T13:55:45Z	2017-03-08T01:51:33Z	2017-01-30T17:15:09Z	test: increase coverage of internal/util	32		
-10965	4836896	false	closed	false	2		2017-01-23T18:47:22Z	2017-03-20T16:41:10Z	2017-03-20T16:41:10Z	worker.send stripping Map and replacing with {}	57		
+10965	4836896	false	open	false	3		2017-01-23T18:47:22Z	2017-03-20T20:26:39Z		worker.send stripping Map and replacing with {}	57		
 10966	718899	false	open	false	8		2017-01-23T19:18:55Z	2017-01-31T17:58:42Z		investigate flaky test-tls-regr-gh-5108	24		
 10967	1716463	true	closed	false	39		2017-01-23T21:01:40Z	2017-02-02T23:09:47Z	2017-02-02T21:15:39Z	querystring, url: repeated '&' in a paramsString will be skipped	64		
 10968	17607	true	closed	false	4		2017-01-23T21:21:48Z	2017-02-21T20:34:39Z	2017-02-21T20:34:39Z	v4 backport: doc: unify dirname and filename description	1		
@@ -4610,7 +4610,7 @@
 11283	647210	false	open	false	13		2017-02-10T09:20:41Z	2017-02-12T08:58:00Z		"no support for ""connected"" UDP sockets"	104		
 11284	1031876	false	closed	false	1		2017-02-10T11:38:43Z	2017-02-14T16:50:44Z	2017-02-14T16:50:44Z	child_process.spawnSync returns status=0 when signal=SIGKILL	70		
 11285	7732206	false	closed	false	2		2017-02-10T13:27:28Z	2017-02-13T09:00:26Z	2017-02-12T18:32:36Z	Can you please provide all the error codes with its desription which we get in require('child_process').exec function?	278		
-11286	988441	true	open	false	15		2017-02-10T13:33:03Z	2017-03-20T01:26:57Z		doc: clarify out-of-bounds behavior of buf[index]	23		
+11286	988441	true	open	false	16		2017-02-10T13:33:03Z	2017-03-20T20:55:24Z		doc: clarify out-of-bounds behavior of buf[index]	23		
 11287	988441	true	closed	false	0	2	2017-02-10T14:24:37Z	2017-02-10T20:21:36Z	2017-02-10T20:21:36Z	benchmark: fix typos	21	988441	2017-02-10T20:21:36Z
 11288	2512748	true	closed	false	6		2017-02-10T15:03:41Z	2017-03-07T17:18:38Z	2017-02-14T16:50:44Z	child_process: exit spawnSync with null on signal	59		
 11289	600821	false	open	false	2		2017-02-10T15:05:38Z	2017-02-12T18:20:44Z		Memory leak when calling fs.write() in long synchronous loop	383		
@@ -4954,7 +4954,7 @@
 11627	1006477	false	open	false	12		2017-03-01T07:09:34Z	2017-03-02T08:21:24Z		Multiple test failures in 7.7.0	1414		
 11628	4760120	false	closed	false	17		2017-03-01T09:10:51Z	2017-03-02T19:56:26Z	2017-03-02T08:24:53Z	all native modules on 7.7.0 are broken because trace_event.h is not included in the distributable, but referred by node.h	65		
 11629	25509586	false	open	false	7		2017-03-01T09:12:02Z	2017-03-06T19:57:08Z		Illegal invocation error using ES6 Proxy and node.js	84		
-11630	7455872	true	open	false	8		2017-03-01T09:17:49Z	2017-03-16T11:26:09Z		fs: getOption to populate passed in default values	128		
+11630	7455872	true	open	false	9		2017-03-01T09:17:49Z	2017-03-20T20:23:27Z		fs: getOption to populate passed in default values	128		
 11631	432351	true	closed	false	9		2017-03-01T13:49:58Z	2017-03-07T11:45:44Z	2017-03-04T19:21:55Z	test: make tests pass when configured --without-ssl	56		
 11632	15087079	false	closed	false	1		2017-03-01T13:58:47Z	2017-03-01T17:24:08Z	2017-03-01T14:20:48Z	node inspect url changing on every node app restarts	0		
 11633	1890238	false	open	false	0		2017-03-01T14:24:04Z	2017-03-01T14:24:04Z		new Date mismatch	44		
@@ -5189,7 +5189,7 @@
 11863	17704638	true	closed	false	5		2017-03-15T12:22:01Z	2017-03-20T19:52:29Z	2017-03-20T19:52:29Z	src: ensure that fd 0-2 are valid on windows	61		
 11864	1900816	false	closed	false	0		2017-03-15T14:31:03Z	2017-03-15T15:39:36Z	2017-03-15T15:39:36Z	Plain node debugging cannot connect	143		
 11865	25828402	false	open	false	1		2017-03-15T15:13:13Z	2017-03-16T05:46:36Z		Missing stack traces from async functions after the first await	602		
-11866	413206	false	open	false	11		2017-03-15T15:14:46Z	2017-03-16T15:11:47Z		buffer.write(buffer, 'base64')	71		
+11866	413206	false	open	false	13		2017-03-15T15:14:46Z	2017-03-20T20:01:50Z		buffer.write(buffer, 'base64')	71		
 11867	134460	true	open	false			2017-03-15T16:25:52Z	2017-03-17T17:32:28Z		win,build: add Visual Studio 2017 support	163		
 11868	1443911	false	open	false	0		2017-03-15T17:17:39Z	2017-03-19T09:03:34Z		High memory usage for upgraded http requests	360		
 11869	567540	true	open	false	6		2017-03-15T18:19:10Z	2017-03-17T17:39:47Z		deps: Add node-inspect 1.10.6	246		
@@ -5243,13 +5243,13 @@
 11917	1538624	true	open	false	1		2017-03-18T17:59:46Z	2017-03-18T20:21:53Z		src, url: WHATWG URL C++ parser cleanup	37		
 11918	886059	false	open	false	0		2017-03-18T20:43:02Z	2017-03-18T20:43:02Z		`Socket.write` does not reliably fire callback with error.	634		
 11919	332968	true	open	false	3		2017-03-18T20:57:28Z	2017-03-20T17:21:26Z		fs: (+/-)Infinity and NaN invalid unixtimestamp	75		
-11920	569527	true	open	false			2017-03-18T22:47:17Z	2017-03-20T17:20:19Z		Fix 11826	26		
+11920	569527	true	open	false			2017-03-18T22:47:17Z	2017-03-20T20:29:14Z		Fix 11826	26		
 11921	718899	true	open	false	10		2017-03-19T03:04:37Z	2017-03-19T22:13:03Z		test: fix flaky test-tls-socket-close	37		
 11922	1538624	true	open	false			2017-03-19T03:54:49Z	2017-03-20T01:31:44Z		src: make PercentDecode return void	45		
 11923	1898413	false	open	false	17		2017-03-19T10:23:06Z	2017-03-20T19:02:50Z		significant performance degradation with v7.x	56		
 11924	10393198	true	open	false	0		2017-03-19T10:42:11Z	2017-03-20T03:50:05Z		benchmark: add final clean-up to module-loader.js	99		
 11925	10393198	true	open	false	0		2017-03-19T13:23:14Z	2017-03-20T00:45:41Z		benchmark: harmonize progress bar and stderr output	389		
-11926	1443911	true	open	false	2		2017-03-19T20:11:59Z	2017-03-20T19:18:10Z		http: avoid retaining unneeded memory	51		
+11926	1443911	true	open	false	4		2017-03-19T20:11:59Z	2017-03-20T20:05:54Z		http: avoid retaining unneeded memory	51		
 11927	1538624	true	open	false	0	0	2017-03-19T20:41:18Z	2017-03-19T20:41:18Z		src, buffer: do not segfault on out-of-range index	48		
 11928	11139560	false	open	false	4		2017-03-19T21:04:55Z	2017-03-20T00:05:52Z		require.resolve() either malfunctions or gives less than detailed information	221		
 11929	718899	true	open	false	0		2017-03-19T21:42:19Z	2017-03-20T00:27:06Z		test: add test for child_process.execFile()	78		
@@ -5257,7 +5257,7 @@
 11931	7028495	false	open	false	0		2017-03-20T00:43:57Z	2017-03-20T00:43:57Z		cross build fail:icupkg exec format error(on linux for android)	57		
 11932	10393198	true	closed	false	1		2017-03-20T00:53:19Z	2017-03-20T01:14:49Z	2017-03-20T01:14:49Z	doc: add vsemozhetbyt to collaborators	29		
 11933	718899	true	open	false	0	0	2017-03-20T03:52:32Z	2017-03-20T03:52:32Z		doc: remove superfluous sample assert code	45		
-11934	4299420	true	open	false	2		2017-03-20T06:28:53Z	2017-03-20T17:02:03Z		url: show input in parse error message	82		
+11934	4299420	true	open	false			2017-03-20T06:28:53Z	2017-03-20T20:11:33Z		url: show input in parse error message	82		
 11935	1636249	false	open	false	0		2017-03-20T08:58:54Z	2017-03-20T09:05:33Z		Failed to install Nodejs 6.10 on Debian Wheezy Armhf	214		
 11936	527631	false	open	false	3		2017-03-20T12:46:55Z	2017-03-20T17:12:22Z		Codesign node binary for macOS	103		
 11937	25031476	false	open	false	2		2017-03-20T13:43:43Z	2017-03-20T14:14:26Z		question: Average CPU consumption range and threshold for Node.js apps in Production	239		
@@ -5267,3 +5267,5 @@
 11941	6354455	true	open	false	0	0	2017-03-20T18:25:09Z	2017-03-20T18:25:09Z		v7.7.4 Release Proposal	522		
 11942	9373002	true	open	false			2017-03-20T18:51:13Z	2017-03-20T19:31:45Z		doc: add statement about support for dependencies	73		
 11943	9373002	true	open	false	0	0	2017-03-20T19:47:11Z	2017-03-20T19:47:11Z		V6 platform support	61		
+11944	115237	true	open	false	0	0	2017-03-20T20:26:24Z	2017-03-20T20:26:24Z		doc: fix gitter badge in README	40		
+11945	275871	true	open	false	0	0	2017-03-20T20:27:07Z	2017-03-20T20:27:07Z		src: use persistent strings from node::Environment	31		
