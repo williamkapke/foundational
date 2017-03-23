@@ -187,6 +187,7 @@
 3655	731722	false	open	false	4		2015-11-04T02:44:31Z	2017-02-07T20:21:50Z		uv_read_start: Assertion `((stream)->io_watcher.fd) >= 0' failed.	14		
 3659	7237097	false	closed	false	47		2015-11-04T10:35:25Z	2017-01-02T19:12:24Z	2017-01-02T17:00:38Z	Performance of 'http' + anonymous functions eventually slows down	600		
 3664	907301	false	closed	false	5		2015-11-04T19:52:31Z	2017-02-07T21:11:04Z	2017-02-07T21:11:04Z	npmrc file node installer generates needs to be changed	93		
+3675	75448	false	closed	false	7		2015-11-05T11:21:05Z	2017-03-22T23:05:58Z	2015-11-06T08:12:24Z	`child_process.spawn` does not work with `npm run scripts` on windows.	127		
 3688	1514495	false	closed	false	6		2015-11-06T07:25:54Z	2016-09-05T16:30:10Z	2015-11-06T16:21:29Z	Enable Vtune profiling support for JavaScript to provide source code level profiling in Nodejs 	195		
 3692	8949910	false	open	false	119		2015-11-06T16:05:41Z	2017-03-01T18:18:33Z		HTTP/HTTPS client requests throwing EPROTO	60		
 3715	4831315	false	closed	false	14		2015-11-08T23:39:16Z	2017-02-28T14:30:48Z	2017-02-07T21:06:36Z	GC segfault	65		
@@ -380,7 +381,7 @@
 5900	7657959	false	closed	false	36		2016-03-25T12:02:48Z	2017-01-06T00:28:45Z	2016-07-13T05:30:41Z	Segmentation fault in node v5.*	191		
 5904	275871	true	closed	false	17		2016-03-25T17:36:35Z	2016-07-12T14:07:16Z	2016-05-10T09:27:40Z	src: fix sporadic deadlock in SIGUSR1 handler	122		
 5906	10672721	true	closed	false	6		2016-03-25T19:31:48Z	2017-01-26T10:01:53Z	2017-01-26T10:01:53Z	stream: remove unnecessary wrapping of chunks in object mode	69		
-5923	3625244	true	open	false			2016-03-27T13:12:31Z	2017-03-22T22:55:19Z		tls: rejectUnauthorized is treated to true by default	69		
+5923	3625244	true	open	false	5		2016-03-27T13:12:31Z	2017-03-22T23:03:30Z		tls: rejectUnauthorized is treated to true by default	69		
 5924	7780985	true	closed	false	9		2016-03-27T14:36:25Z	2017-03-01T01:09:10Z	2017-03-01T01:09:10Z	tls: remove tls_legacy, createSecurePair	148		
 5930	1328807	false	closed	false	1		2016-03-28T05:10:08Z	2017-01-09T12:10:15Z	2017-01-09T12:10:15Z	Debugger executes on first line, before intended breakpoint	106		
 5953	4102581	true	closed	false	6	0	2016-03-30T14:17:39Z	2017-02-07T20:14:18Z	2017-02-07T20:14:18Z	Fix for #2371 : Paste Unicode.	101		
@@ -4364,7 +4365,7 @@
 11037	696611	true	closed	false	0		2017-01-27T19:12:00Z	2017-01-30T12:42:35Z	2017-01-30T12:42:35Z	doc: change logical to bitwise OR in dns lookup	52		
 11038	2512748	true	open	false	2		2017-01-27T20:15:56Z	2017-02-17T01:07:10Z		test: cover thrown errors from exec() kill	54		
 11039	3673943	true	closed	false	11		2017-01-27T20:25:25Z	2017-01-30T20:15:37Z	2017-01-30T18:25:28Z	test-console: streamline arrow fn and refine inspect regex	47		
-11040	1093990	true	open	false	13		2017-01-27T20:32:18Z	2017-02-28T18:48:10Z		timers: use Maps for internal duration pooling	167		
+11040	1093990	true	open	false	14		2017-01-27T20:32:18Z	2017-03-22T23:05:39Z		timers: use Maps for internal duration pooling	167		
 11041	718899	false	open	false	19		2017-01-27T21:31:56Z	2017-02-03T18:22:23Z		fix flaky sequential/test-child-process-pass-fd on fedora 24	273		
 11042	4010111	false	closed	false	2		2017-01-27T21:41:37Z	2017-01-28T00:08:13Z	2017-01-27T21:55:46Z	C Stack Trace From ESLint ?	141		
 11043	234019	false	closed	false	1		2017-01-27T21:56:18Z	2017-01-28T11:23:40Z	2017-01-28T11:23:40Z	./configure --debug (node 6.9.2) fails on Alpine Linux	971		
@@ -4478,7 +4479,7 @@
 11151	718899	true	closed	false	5		2017-02-03T19:20:39Z	2017-03-07T19:24:39Z	2017-02-06T23:35:58Z	doc: fix linting command for vcbuild	47		
 11152	2512748	true	closed	false	4		2017-02-03T20:00:37Z	2017-03-07T19:06:51Z	2017-02-06T19:15:23Z	test: add common.mustNotCall()	61		
 11153	811047	true	closed	false	5		2017-02-03T20:15:34Z	2017-02-08T16:39:38Z	2017-02-04T05:53:04Z	test: fix test.py command line options processing	86		
-11154	1093990	true	open	false	10		2017-02-03T21:16:19Z	2017-03-22T22:13:55Z		net: use actual Timeout instances on Sockets	184		
+11154	1093990	true	open	false			2017-02-03T21:16:19Z	2017-03-22T23:51:22Z		net: use actual Timeout instances on Sockets	184		
 11155	439929	true	open	false	1		2017-02-03T23:28:57Z	2017-02-04T00:18:17Z		"Revert ""test: refactor test-fs-error-messages.js"""	79		
 11156	7796741	false	open	false	10		2017-02-03T23:49:31Z	2017-03-20T08:55:30Z		segmentation fault at v8::internal::StoreBuffer::EnsureSpace ()	830		
 11157	305455	true	closed	false	6		2017-02-04T01:59:10Z	2017-03-07T20:40:34Z	2017-02-06T17:42:09Z	src: fix building --without-v8-platform (backport v7.x)	63		
@@ -5199,7 +5200,7 @@
 11873	332968	true	closed	false	3		2017-03-15T23:45:07Z	2017-03-21T14:35:21Z	2017-03-20T16:52:53Z	test: added net.connect lookup type check	49		
 11874	1773996	false	open	false	0		2017-03-16T01:07:47Z	2017-03-16T01:07:47Z		node: src/threadpool.c:252: uv__queue_done: Assertion	79		
 11875	1538624	false	open	false	4		2017-03-16T02:09:51Z	2017-03-16T15:42:08Z		Find an alternative to V8's Debug Mirror API for util.inspect	68		
-11876	317210	true	open	false	7		2017-03-16T06:22:06Z	2017-03-20T10:07:11Z		stream: Fixes missing 'unpipe' event for pipes made with {end: false}	136		
+11876	317210	true	open	false	9		2017-03-16T06:22:06Z	2017-03-22T23:47:44Z		stream: Fixes missing 'unpipe' event for pipes made with {end: false}	136		
 11877	14099508	false	open	false	2		2017-03-16T08:57:55Z	2017-03-22T10:56:10Z		"npm delete itself after I make ""npm update -g"""	124		
 11878	52195	true	open	false	4		2017-03-16T09:22:59Z	2017-03-22T17:05:42Z		http: make OutgoingMessage look like it is a Writable	112		
 11879	1984980	false	open	false	0		2017-03-16T10:00:56Z	2017-03-16T11:06:06Z		Crypto SHA1 - NodeJs v C#	186		
@@ -5211,7 +5212,7 @@
 11885	22823019	false	closed	false	5		2017-03-16T22:34:58Z	2017-03-20T15:54:25Z	2017-03-20T15:54:25Z	SIGSEGV When Reading From SSL Stream	470		
 11886	332968	true	closed	false	4		2017-03-16T23:01:47Z	2017-03-21T14:34:52Z	2017-03-20T17:19:22Z	test: added tests for unixtimestamp generation	40		
 11887	1716463	true	closed	false	7		2017-03-17T01:20:43Z	2017-03-20T18:46:33Z	2017-03-20T18:46:33Z	url: update the processing in the scheme state.	126		
-11888	5876741	true	open	false			2017-03-17T04:17:30Z	2017-03-19T01:02:48Z		module: check env NODE_PRELOAD for preload modules	117		
+11888	5876741	true	open	false			2017-03-17T04:17:30Z	2017-03-22T23:10:33Z		module: check env NODE_PRELOAD for preload modules	117		
 11889	914122	false	open	false	1		2017-03-17T05:23:41Z	2017-03-17T08:10:39Z		Practical Problem: case-mismatch in package/file require statements	102		
 11890	718899	true	closed	false	2		2017-03-17T05:52:15Z	2017-03-21T01:29:56Z	2017-03-21T01:29:56Z	tools: ignore URLs in line length linting	52		
 11891	5886475	true	closed	false	2		2017-03-17T06:33:03Z	2017-03-22T06:33:07Z	2017-03-22T06:33:07Z	errors: remove needless lazyAssert 	60		
@@ -5243,7 +5244,7 @@
 11917	1538624	true	open	false	2		2017-03-18T17:59:46Z	2017-03-22T18:29:00Z		src, url: WHATWG URL C++ parser cleanup	37		
 11918	886059	false	open	false	5		2017-03-18T20:43:02Z	2017-03-21T17:31:49Z		`Socket.write` does not reliably fire callback with error.	634		
 11919	332968	true	closed	false	5		2017-03-18T20:57:28Z	2017-03-22T05:42:19Z	2017-03-22T05:42:19Z	fs: (+/-)Infinity and NaN invalid unixtimestamp	75		
-11920	569527	true	open	false			2017-03-18T22:47:17Z	2017-03-20T20:29:14Z		Fix 11826	26		
+11920	569527	true	open	false	7		2017-03-18T22:47:17Z	2017-03-22T23:20:43Z		Fix 11826	26		
 11921	718899	true	open	false	10		2017-03-19T03:04:37Z	2017-03-19T22:13:03Z		test: fix flaky test-tls-socket-close	37		
 11922	1538624	true	closed	false	2	1	2017-03-19T03:54:49Z	2017-03-22T01:21:57Z	2017-03-22T01:21:57Z	src: make PercentDecode return void	45		
 11923	1898413	false	closed	false	21		2017-03-19T10:23:06Z	2017-03-22T06:42:45Z	2017-03-22T06:42:45Z	significant performance degradation with v7.x	56		
@@ -5270,7 +5271,7 @@
 11944	115237	true	open	false	0	0	2017-03-20T20:26:24Z	2017-03-20T20:26:24Z		doc: fix gitter badge in README	40		
 11945	275871	true	closed	false	2		2017-03-20T20:27:07Z	2017-03-22T16:24:19Z	2017-03-22T16:24:19Z	src: use persistent strings from node::Environment	31		
 11946	899444	true	closed	false	1	0	2017-03-20T21:26:38Z	2017-03-22T16:19:10Z	2017-03-22T16:19:10Z	test: minor fixups for REPL eval tests	49		
-11947	289174	true	open	false			2017-03-20T22:07:22Z	2017-03-22T05:46:05Z		stream_base,tls_wrap: notify on destruct	111		
+11947	289174	true	open	false			2017-03-20T22:07:22Z	2017-03-22T23:20:54Z		stream_base,tls_wrap: notify on destruct	111		
 11948	671378	false	open	false	1		2017-03-20T22:21:54Z	2017-03-21T10:51:47Z		message not received in child process when forked with --eval	111		
 11949	10393198	true	closed	false	3		2017-03-20T22:51:43Z	2017-03-22T18:02:44Z	2017-03-22T16:18:18Z	doc: correct info in child_process.md	119		
 11950	170023	true	closed	false	2		2017-03-20T23:01:37Z	2017-03-22T16:04:36Z	2017-03-22T16:04:36Z	readline: rename `deDupeHistory` option	90		
@@ -5300,7 +5301,7 @@
 11974	9514958	true	open	false			2017-03-21T17:59:44Z	2017-03-21T18:23:31Z		test: improve test-vm-cached-data.js	40		
 11975	13093042	true	open	false			2017-03-21T19:25:21Z	2017-03-22T19:18:10Z		module: add support for abi stable module API	371		
 11976	7681901	false	open	false	0		2017-03-21T20:21:14Z	2017-03-21T20:21:14Z		node.js Setup Wizard ended prematurely	38		
-11977	325737	false	open	false	9		2017-03-21T21:49:48Z	2017-03-22T20:06:23Z		V8 Fatal Exception, 0x99b617	67		
+11977	325737	false	open	false	11		2017-03-21T21:49:48Z	2017-03-22T23:13:20Z		V8 Fatal Exception, 0x99b617	67		
 11978	1154741	false	open	false	4		2017-03-21T23:08:07Z	2017-03-22T22:02:17Z		https: no error reported when certificate not provided for createServer()	104		
 11979	718899	true	open	false	1		2017-03-22T00:12:05Z	2017-03-22T04:36:30Z		test: add minimal test for net benchmarks	94		
 11980	718899	false	open	false	0		2017-03-22T04:36:04Z	2017-03-22T05:51:55Z		Investigate flaky parallel/test-cluster-disconnect on armv7-ubuntu1404	24		
@@ -5309,13 +5310,14 @@
 11983	899444	true	open	false	0	0	2017-03-22T06:56:17Z	2017-03-22T06:56:17Z		crypto: support Uint8Array prime in createDH	41		
 11984	899444	true	open	false	1		2017-03-22T06:59:33Z	2017-03-22T14:38:48Z		tls: support Uint8Arrays for protocol list buffers	41		
 11985	899444	true	open	false			2017-03-22T07:07:27Z	2017-03-22T15:42:02Z		dgram: support Uint8Array input to send()	45		
-11986	677994	true	open	false	3		2017-03-22T10:34:18Z	2017-03-22T22:43:45Z		fs: avoid circular dependency in SyncWriteStream	70		
+11986	677994	true	open	false	5		2017-03-22T10:34:18Z	2017-03-22T23:41:56Z		fs: avoid circular dependency in SyncWriteStream	70		
 11987	413206	false	open	false	1		2017-03-22T11:20:07Z	2017-03-22T14:56:36Z		Buffer.from('base64') decodes some white space as data	124		
 11988	2602859	false	closed	false	0		2017-03-22T12:40:16Z	2017-03-22T13:29:23Z	2017-03-22T13:29:23Z	crypto: Unexpected hash result using crypto PBKDF2	122		
 11989	5886475	true	open	false	0		2017-03-22T14:12:56Z	2017-03-22T15:41:24Z		test: add internal/socket_list tests	43		
 11990	24754773	false	open	false	0		2017-03-22T15:11:25Z	2017-03-22T15:11:25Z		tlsClientError event does not provide access to the remote address	69		
 11991	1686193	false	open	false	0		2017-03-22T19:03:49Z	2017-03-22T20:38:13Z		Crashes when using ajv on Alpine Linux	203		
-11992	18106180	true	open	false	2		2017-03-22T19:33:48Z	2017-03-22T21:12:18Z		doc: adds options for cpp linting to help section of Windows build script	48		
+11992	18106180	true	open	false	3		2017-03-22T19:33:48Z	2017-03-22T23:19:06Z		doc: adds options for cpp linting to help section of Windows build script	48		
 11993	5762381	false	open	false	3		2017-03-22T20:09:29Z	2017-03-22T22:09:14Z		Lots of files and --debug-brk slowdown	149		
 11994	6778619	false	open	false	0		2017-03-22T20:16:03Z	2017-03-22T20:16:03Z		Connection error to MySQL server on Windows Bash	92		
 11995	988441	true	open	false			2017-03-22T21:34:41Z	2017-03-22T22:07:36Z		src: fix base64 decoding	49		
+11996	718899	true	open	false	0	0	2017-03-22T23:13:57Z	2017-03-22T23:13:57Z		doc: update collaborator email address	44		
