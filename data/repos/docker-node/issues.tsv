@@ -1,20 +1,26 @@
-46	2781	false	open	false	25		2015-09-18T14:45:17Z	2016-09-09T00:14:14Z		Add an Alpine variant?	13		
-57	181295	false	closed	false	27		2015-10-21T14:06:11Z	2016-08-09T04:14:12Z	2016-07-29T22:14:28Z	Excessive npm log output in 4.x	48		
+35	105936	false	open	false	6		2015-08-14T08:07:37Z	2016-10-21T13:16:47Z		onbuild fails on Windows due to node_modules and long filenames	108		
+46	2781	false	open	false	27		2015-09-18T14:45:17Z	2016-11-10T16:15:11Z		Add an Alpine variant?	13		
+57	181295	false	closed	false	27		2015-10-21T14:06:11Z	2016-12-22T13:29:21Z	2016-07-29T22:14:28Z	Excessive npm log output in 4.x	48		
 65	418678	false	closed	false	7		2015-11-17T16:14:09Z	2016-08-03T21:35:04Z	2016-01-14T09:26:23Z	onbuild does not work with npm-shrinkwrap.json	26		
-104	968267	false	open	false	4		2016-02-17T07:00:28Z	2016-07-11T08:40:48Z		Comments on Docker Hub – why is there no `lts` tag?	94		
+104	968267	false	open	false	4		2016-02-17T07:00:28Z	2016-09-26T09:32:50Z		Comments on Docker Hub – why is there no `lts` tag?	94		
 113	968267	true	open	false	7		2016-03-04T08:41:10Z	2016-07-29T22:14:07Z		Explain the npm verbosity in the node image	17		
-150	476567	false	open	false	3		2016-04-14T21:30:15Z	2016-08-01T19:13:52Z		Feature request for private modules	58		
-156	1090826	true	open	false	38		2016-04-19T13:29:27Z	2016-08-23T20:07:41Z		Added an alpine variant	0		
+141	1081565	true	open	false	16		2016-04-05T02:52:42Z	2016-12-11T21:21:31Z		Build suite	59		
+145	2066766	false	closed	false	3		2016-04-08T15:16:36Z	2016-11-21T07:35:50Z	2016-04-08T16:03:01Z	access npm private packages on dockerhub	86		
+150	476567	false	open	false	5		2016-04-14T21:30:15Z	2016-12-23T00:49:03Z		Feature request for private modules	58		
+156	1090826	true	closed	false	69		2016-04-19T13:29:27Z	2016-12-07T13:04:24Z	2016-11-10T16:13:52Z	Added an alpine variant	0		
+161	6052785	false	open	false	8		2016-04-23T12:25:10Z	2017-01-25T15:29:01Z		[Discussion] Node.js in Docker for production	100		
+172	968267	false	open	false	13		2016-04-27T06:39:47Z	2016-11-18T23:07:44Z		Add Laurent Goderre (@LaurentGoderre) as a collaborator	28		
 181	1008324	false	closed	false	4		2016-05-11T12:52:59Z	2016-08-29T20:19:38Z	2016-08-29T20:19:38Z	node vs. nodejs?	66		
 192	2781	true	open	false	8		2016-06-03T15:16:12Z	2016-08-29T20:19:32Z		Add symlink to nodejs. Fixes #181	25		
+194	15870106	false	open	false	4		2016-06-14T10:16:40Z	2016-12-21T15:56:02Z		Accessibility of generated files	76		
 195	548843	false	closed	false	16		2016-06-15T06:55:36Z	2016-08-26T18:12:41Z	2016-07-22T18:46:40Z	"""This image has vulnerabilities"" on Docker Hub"	0		
 198	2054772	false	closed	false	4		2016-06-20T11:00:28Z	2016-08-13T09:25:57Z	2016-08-13T09:25:57Z	Include the headers of the installation in the docker image	45		
 202	2781	false	closed	false	0		2016-06-23T13:07:27Z	2016-06-28T23:25:10Z	2016-06-28T23:25:10Z	Update for Node.js v4.4.7	9		
 203	2781	false	closed	false	0		2016-06-23T13:07:55Z	2016-08-29T20:29:57Z	2016-08-29T20:29:57Z	Update for Node.js v4.5.0	6		
-206	6046654	false	open	false	1		2016-06-26T02:04:55Z	2016-06-28T01:09:54Z		Node 6.2.2 & node.bcrypt.js	151		
+206	6046654	false	open	false	3		2016-06-26T02:04:55Z	2017-02-12T03:12:52Z		Node 6.2.2 & node.bcrypt.js	151		
 207	9373002	false	open	false	4		2016-06-27T22:55:01Z	2016-08-22T17:20:17Z		Node/js/docker images for PPC le	59		
 208	2781	true	open	false	0	0	2016-06-28T23:19:24Z	2016-06-28T23:19:24Z		Update to Node.js v4.4.7. Fixes #202.	5		
-209	914122	false	open	false	1		2016-06-29T00:33:34Z	2016-07-22T00:51:41Z		`man` tool missing	21		
+209	914122	false	open	false	2		2016-06-29T00:33:34Z	2016-09-17T20:37:00Z		`man` tool missing	21		
 210	968267	true	open	false	0	0	2016-07-06T21:17:19Z	2016-07-06T21:17:19Z		Upgrade Node to 6.3.0	15		
 211	229881	true	open	false	2		2016-07-07T16:04:55Z	2016-07-07T21:13:52Z		docs: Fix minor typos in BestPractices.md	7		
 212	2781	false	open	false	0		2016-07-22T00:39:16Z	2016-07-22T00:39:16Z		Update for v6.3.1	6		
@@ -24,15 +30,147 @@
 216	2781	false	open	false	0		2016-08-16T15:40:13Z	2016-08-16T15:40:13Z		Update for Node.js v6.4.0	4		
 217	2781	true	open	false	0	0	2016-08-16T15:54:17Z	2016-08-16T15:54:17Z		Update for Node.js v6.4.0	2		
 218	2781	true	open	false	0	0	2016-08-16T19:13:34Z	2016-08-16T19:13:34Z		Update for Node.js v4.5.0	3		
-219	833473	false	open	false	2		2016-08-21T09:24:31Z	2016-08-24T01:38:50Z		Reduce CVE issues of node:slim images reported by quay.io	67		
+219	833473	false	closed	false	2		2016-08-21T09:24:31Z	2016-11-23T13:57:45Z	2016-11-23T13:57:45Z	Reduce CVE issues of node:slim images reported by quay.io	67		
 220	10894843	true	open	false	2		2016-08-24T09:16:34Z	2016-08-24T10:04:24Z		Create .dockerignore	29		
 221	10894843	true	open	false	3		2016-08-24T10:08:04Z	2016-08-24T22:37:54Z		Update README.md	9		
-222	207759	true	open	false			2016-08-25T14:59:46Z	2016-09-04T07:24:05Z		Proposal: Introduce Dockerfiles for windowsservercore	225		
-223	207759	true	open	false	0	0	2016-08-25T16:28:39Z	2016-08-25T16:28:39Z		Proposal: Introduce Dockerfiles for nanoserver	251		
+222	207759	true	open	false	27		2016-08-25T14:59:46Z	2017-03-22T07:21:15Z		Proposal: Introduce Dockerfiles for windowsservercore	199		
+223	207759	true	closed	false	5		2016-08-25T16:28:39Z	2017-03-22T07:27:56Z	2017-03-22T07:27:56Z	Proposal: Introduce Dockerfiles for nanoserver	267		
 224	1306267	false	open	false	0		2016-08-25T21:18:43Z	2016-08-25T21:18:43Z		socket initialization not working in windows.	38		
-225	837533	false	closed	false	11		2016-08-29T15:33:10Z	2016-09-07T16:00:54Z	2016-09-07T16:00:54Z	Unfriendly output in Jenkins	143		
+225	837533	false	open	false	13		2016-08-29T15:33:10Z	2017-03-08T09:36:10Z		Unfriendly output in Jenkins	145		
 226	2781	true	open	false	0	0	2016-08-29T20:25:12Z	2016-08-29T20:25:12Z		Update for Node.js v6.5.0	3		
 227	973543	false	open	false	2		2016-08-30T18:53:29Z	2016-08-30T19:02:34Z		Massive time drift	27		
 228	1101318	true	open	false	6		2016-09-15T12:51:17Z	2016-09-16T18:10:46Z		Add NODE_ENV ARG to onbuild template	41		
 229	2781	true	open	false	0	0	2016-09-16T01:18:07Z	2016-09-16T01:18:07Z		Update for Node.js v6.6.0	2		
 230	2781	true	open	false	1		2016-09-16T01:42:38Z	2016-09-16T14:38:27Z		Drop Node.js v5	37		
+231	2781	true	closed	false	3		2016-09-19T15:17:06Z	2016-09-21T16:47:16Z	2016-09-19T15:34:56Z	Add NODE_ENV ARG to all Dockerfiles	8		
+232	2781	true	closed	false	0	0	2016-09-19T20:36:15Z	2016-09-20T00:24:09Z	2016-09-20T00:24:09Z	Set ENV for NODE_ENV	33	2781	2016-09-20T00:24:09Z
+233	2781	true	open	false	7		2016-09-23T14:21:59Z	2016-09-23T20:02:07Z		Update to use newer manifest file format	22		
+234	640811	false	closed	false	2		2016-09-24T18:00:38Z	2016-09-25T06:28:59Z	2016-09-25T06:28:59Z	postinstall typings in node container	213		
+235	2781	false	closed	false	3		2016-09-26T13:41:48Z	2016-09-28T02:14:54Z	2016-09-28T02:14:54Z	Security updates, September 2016	44		
+236	2781	true	open	false	1		2016-09-26T14:42:24Z	2016-09-26T17:43:31Z		Update script improvements	13		
+237	2781	true	open	false	0	0	2016-09-28T02:06:21Z	2016-09-28T02:06:21Z		Security updates, September 2016. Closes #235	29		
+238	9356687	false	closed	false	2		2016-09-28T16:10:52Z	2016-10-05T15:48:23Z	2016-10-05T15:48:23Z	apt-get update fails	123		
+239	2781	true	closed	false	2	0	2016-09-29T13:50:04Z	2016-09-29T20:32:06Z	2016-09-29T20:32:06Z	Improve test	23	2781	2016-09-29T20:32:06Z
+240	2781	false	closed	false	7		2016-10-02T19:05:27Z	2016-11-15T20:18:38Z	2016-11-15T20:18:38Z	Remove v0.10 image on or after 2016-10-31	38		
+241	2781	false	closed	false	2		2016-10-02T19:07:26Z	2017-01-04T00:48:35Z	2017-01-04T00:48:35Z	Remove v0.12 image on  or after 2016-12-31	38		
+242	16866642	false	closed	false	9		2016-10-07T14:51:37Z	2016-11-23T13:56:46Z	2016-11-23T13:56:46Z	How to run electron in docker	92		
+243	1946920	false	closed	false	36		2016-10-12T09:44:59Z	2017-03-02T08:21:30Z	2017-02-28T16:57:40Z	Please add `yarn`(awesome npm alternative)	19		
+244	2781	true	closed	false	2		2016-10-12T21:05:56Z	2016-10-13T06:48:28Z	2016-10-12T21:18:11Z	Update for Node.js v6.8.0	2		
+245	583992	true	open	false	1		2016-10-13T02:36:22Z	2016-10-13T12:56:55Z		Update README.md	6		
+246	2781	true	open	false	0	0	2016-10-15T01:15:37Z	2016-10-15T01:15:37Z		Update for Node.js v6.8.1	3		
+247	2781	false	open	false	5		2016-10-18T14:21:02Z	2016-10-18T19:33:07Z		Update for v6.9.0 LTS release (boron) and October Security Updates	46		
+248	2781	true	open	false	0	0	2016-10-18T16:24:12Z	2016-10-18T16:24:12Z		Update for Node.js v0.12.17	10		
+249	2781	true	open	false	0	0	2016-10-18T16:44:49Z	2016-10-18T16:44:49Z		Updated for v0.10.48	8		
+250	2781	true	open	false	0	0	2016-10-18T17:13:03Z	2016-10-18T17:13:03Z		Update for Node.js v4.6.1	10		
+251	2781	true	open	false	0	0	2016-10-18T18:21:31Z	2016-10-18T18:21:31Z		Update for Node.js v6.9.0 LTS (boron)	5		
+252	670701	false	closed	false	5		2016-10-18T22:34:09Z	2016-10-28T08:34:39Z	2016-10-19T00:21:23Z	Invalid UTC date in the container	61		
+253	1090826	false	closed	false	7		2016-10-19T19:30:25Z	2016-11-04T13:37:43Z	2016-11-03T20:05:15Z	Add a default `node` user to all image	69		
+254	2781	true	open	false	0	0	2016-10-19T23:04:53Z	2016-10-19T23:04:53Z		Update for Node.js v6.9.1	3		
+255	1090826	true	closed	false	7		2016-10-21T13:08:10Z	2016-11-09T18:01:31Z	2016-11-09T17:32:11Z	Added LaurentGoderre as a collaborator	3		
+256	2781	false	open	false	4		2016-10-25T15:06:57Z	2016-10-26T15:18:17Z		Update for Node.js v7.0.0	4		
+257	2781	true	open	false	0	0	2016-10-25T15:14:51Z	2016-10-25T15:14:51Z		Add Node.js v7.0.0	2		
+258	1090826	true	closed	false	4		2016-10-25T18:36:10Z	2017-01-06T14:20:37Z	2016-11-03T20:05:15Z	Added a non root user	9		
+259	2528018	false	closed	false	2		2016-10-31T15:17:28Z	2016-11-10T12:18:57Z	2016-11-10T12:18:57Z	libstdc++.so.6: version `GLIBCXX_3.4.21' not found	108		
+260	333918	true	closed	false	8		2016-11-02T11:46:20Z	2017-02-28T16:56:32Z	2017-02-28T16:56:32Z	Docker node yarn variant	4		
+261	2781	true	open	false	0	0	2016-11-03T20:23:35Z	2016-11-03T20:23:35Z		"Add non-root ""node"" user to all Docker images"	3		
+262	91933	false	closed	false	9		2016-11-05T05:52:29Z	2016-11-27T18:45:00Z	2016-11-26T15:06:38Z	Debian packages?	16		
+263	244586	true	closed	false	18		2016-11-07T09:45:25Z	2016-12-14T15:03:17Z	2016-11-18T22:49:46Z	Add node group/user with gid/uid 1000 and a home directory	60		
+264	1090826	true	closed	false	1	0	2016-11-07T15:03:33Z	2016-11-07T21:29:28Z	2016-11-07T21:29:28Z	Updated the non-root section of the Best Practices	0	2781	2016-11-07T21:29:28Z
+265	2781	false	closed	false	1		2016-11-09T14:35:58Z	2016-11-10T03:07:38Z	2016-11-10T03:07:38Z	Update for Node.js v7.1.0 and v4.6.2	5		
+266	2781	true	open	false	2		2016-11-09T14:56:15Z	2016-11-09T16:24:47Z		Update for V7.10 and v4.6.2	5		
+267	2781	false	closed	false	6		2016-11-11T20:31:57Z	2016-11-25T14:14:58Z	2016-11-25T14:14:58Z	Docs update for the new alpine variant	20		
+268	2781	true	open	false	1		2016-11-15T03:17:53Z	2016-11-15T20:05:41Z		Drop Node.js v0.10. Fixes #240	10		
+269	1619732	true	closed	false	1	0	2016-11-15T12:49:31Z	2016-11-15T14:17:59Z	2016-11-15T14:17:59Z	Wrong username mentioned in docs	4	2781	2016-11-15T14:17:59Z
+270	1619732	true	closed	false	12	0	2016-11-15T12:53:29Z	2016-11-23T13:53:41Z	2016-11-23T13:53:41Z	In docs example use home dir as work dir	14	2781	2016-11-23T13:53:41Z
+271	1619732	false	open	false	2		2016-11-15T13:05:33Z	2016-11-23T13:54:32Z		Node user does not have shell specified	24		
+272	1404810	true	closed	false	0	0	2016-11-16T15:46:25Z	2016-11-16T16:41:34Z	2016-11-16T16:41:34Z	Remove mention of 0.10 from update script	2	2781	2016-11-16T16:41:34Z
+273	2781	false	closed	false	1		2016-11-23T14:26:28Z	2016-11-23T20:46:43Z	2016-11-23T20:46:43Z	Update for v7.2.0	17		
+274	2781	true	closed	false	1	0	2016-11-23T14:27:58Z	2016-11-23T15:09:16Z	2016-11-23T15:09:16Z	Update for Node.js v7.2.0	14	2781	2016-11-23T15:09:16Z
+275	2781	true	closed	false	1	0	2016-11-23T15:11:34Z	2016-11-23T16:48:52Z	2016-11-23T16:48:52Z	Update for v7.2.0	12	2781	2016-11-23T16:48:52Z
+276	1090826	true	closed	false	0	0	2016-11-25T13:40:23Z	2016-11-25T14:14:58Z	2016-11-25T14:14:58Z	Added the alpine docs to the readme	2	2781	2016-11-25T14:14:58Z
+277	2636785	false	closed	false	5		2016-11-26T01:04:51Z	2016-12-06T13:31:11Z	2016-12-01T00:56:32Z	Use node-ffi failed for symbol not found	401		
+278	3691490	true	closed	false	0	0	2016-11-27T14:25:16Z	2016-11-28T13:52:38Z	2016-11-28T13:52:38Z	Alpine Dockfile update	0	2781	2016-11-28T13:52:38Z
+279	237905	true	closed	false	0	0	2016-11-28T00:09:30Z	2016-11-28T13:53:14Z	2016-11-28T13:53:14Z	Incorrect backtick	8	2781	2016-11-28T13:53:14Z
+280	3691490	true	open	false	17		2016-11-28T17:33:06Z	2016-11-30T16:12:30Z		add alpine variant for node v0.12	0		
+281	3691490	true	open	false	12		2016-11-29T08:02:37Z	2016-12-10T17:37:31Z		Use clang to build nodejs in alpine	8		
+282	1090826	false	open	false	0		2016-12-06T13:37:42Z	2016-12-06T13:37:42Z		Document how to use alpine with dependencies that rely on node-gyp	57		
+283	2781	true	open	false	1		2016-12-06T20:48:22Z	2016-12-06T21:17:50Z		Update for Node.js v6.9.2	0		
+284	2781	true	closed	false	3	0	2016-12-07T01:11:10Z	2016-12-07T19:08:04Z	2016-12-07T19:08:04Z	Update for Node.js v7.2.1 and v4.7.0	5	2781	2016-12-07T19:08:04Z
+285	2029255	true	closed	false	8	2	2016-12-07T03:36:04Z	2017-03-08T15:26:58Z	2017-03-08T15:26:58Z	feat(security): run node process as unprivileged user	83		
+286	54712	false	open	false	3		2016-12-07T13:12:12Z	2016-12-07T18:17:09Z		Use system icu in containers	82		
+287	3152067	false	closed	false	7		2016-12-08T17:54:31Z	2016-12-09T20:28:18Z	2016-12-09T20:28:18Z	Permission Denied for User	192		
+288	1686193	false	open	false	20		2016-12-09T20:12:56Z	2017-03-22T18:56:02Z		Crash with node alpine but not node slim	26		
+289	1147163	false	open	false	9		2016-12-14T14:13:59Z	2017-02-09T12:33:05Z		Adding a non-root user with UID 1000 breaks custom builds	63		
+290	1147163	true	open	false	4		2016-12-14T14:27:58Z	2017-01-12T17:30:00Z		Updated adduser to allow choosing which user to create	17		
+291	2781	true	closed	false	0	0	2016-12-21T00:41:45Z	2016-12-21T13:57:14Z	2016-12-21T13:57:14Z	Update for Node.js v7.3.0	3	2781	2016-12-21T13:57:14Z
+292	838003	true	closed	false	1		2016-12-21T13:11:02Z	2016-12-21T14:13:02Z	2016-12-21T13:57:41Z	docs: fix best-practices memory heading level	19		
+293	2781	true	closed	false	0	0	2016-12-21T15:12:10Z	2016-12-21T17:05:05Z	2016-12-21T17:05:05Z	Update for Node.js v0.12.18	3	2781	2016-12-21T17:05:05Z
+294	11583535	false	closed	false	2		2016-12-23T09:11:11Z	2017-01-03T15:47:43Z	2017-01-03T14:16:24Z	Node:alpine doesn't support debugging with nodemon 	29		
+295	54712	true	closed	false	3		2016-12-25T14:56:09Z	2017-01-05T18:45:28Z	2017-01-05T18:45:28Z	Upgrade to latest alpine stable (3.5)	15		
+296	19168174	false	open	false	1		2016-12-27T18:18:56Z	2016-12-27T19:44:35Z		Additional Feature Implemented - Docker node.js on Windows Native	79		
+297	19168174	true	closed	false	1		2016-12-27T19:39:55Z	2016-12-28T14:23:08Z	2016-12-28T14:23:08Z	Added Windows Native Support for Docker	29		
+298	3691490	true	closed	false	18		2016-12-28T02:14:41Z	2017-03-17T20:06:30Z	2017-01-30T14:01:22Z	Use Alpine v3.5	8		
+299	229881	true	closed	false			2016-12-28T19:23:05Z	2017-01-03T06:20:32Z	2016-12-28T21:48:44Z	Update BestPractices.md with alpine user	28		2016-12-28T21:48:44Z
+300	19150809	false	open	false	2		2016-12-28T20:59:20Z	2017-03-08T13:32:36Z		Inconsistent build result - Node-Angular2-Webpack application while dockerizing	238		
+301	2781	true	open	false	1		2017-01-03T14:25:09Z	2017-01-04T00:23:32Z		EOL v0.12. Fixes #241	10		
+302	2781	true	closed	false	4		2017-01-04T00:53:45Z	2017-01-04T19:31:58Z	2017-01-04T16:27:35Z	Update for Node.js v4.7.1 and v6.9.3	5		
+303	978004	false	closed	false	1		2017-01-04T09:18:28Z	2017-01-04T16:27:48Z	2017-01-04T16:27:48Z	Update for Node.js v6.9.3	5		
+304	2781	true	open	false	1		2017-01-04T19:30:51Z	2017-01-04T20:23:27Z		Update for Node.js v7.4.0	3		
+305	1158861	false	open	false	2		2017-01-04T22:22:16Z	2017-01-05T08:12:59Z		Why Wheezy and not Jessie?	18		
+306	2781	true	closed	false	0	0	2017-01-06T00:05:17Z	2017-01-06T14:35:58Z	2017-01-06T14:35:58Z	Update for Node.js v4.7.2 and v6.9.4	7	2781	2017-01-06T14:35:58Z
+307	229881	true	open	false	0	0	2017-01-06T17:16:05Z	2017-01-06T17:16:05Z		Add group & user in alpine to match wheezy	151		
+308	424084	true	open	false	0		2017-01-06T20:26:32Z	2017-01-09T15:25:46Z		Run 'npm cache clean' after 'npm install' in onbuild variants	29		
+309	2805194	false	open	false	0		2017-01-17T09:48:58Z	2017-01-17T17:41:29Z		Add onbuild image based on alpine	27		
+310	2029255	true	closed	false	2		2017-01-20T01:29:50Z	2017-01-30T14:01:39Z	2017-01-30T14:01:39Z	feat(docker): update alpine linux to v.3.5 and add dumb-init	21		
+311	411114	false	open	false	1		2017-01-22T11:40:16Z	2017-01-23T15:26:59Z		Why the Image is so big?	38		
+312	13633179	false	open	false	4		2017-01-24T10:45:25Z	2017-01-24T22:09:50Z		TypeError	142		
+313	79312	false	open	false	1		2017-01-27T13:56:11Z	2017-01-27T15:07:39Z		minimum Dockerfile	121		
+314	2781	false	closed	false	2		2017-01-27T14:48:30Z	2017-02-01T15:04:53Z	2017-02-01T15:04:53Z	Updates for  OpenSSL version 1.0.2k	24		
+315	79312	false	open	false	0		2017-01-27T15:46:19Z	2017-01-27T16:07:58Z		ansi escape codes stripped from output	53		
+316	583992	true	open	false			2017-01-27T16:35:22Z	2017-02-10T15:04:14Z		Add Docker Compose example	0		
+317	6694151	false	closed	false	1		2017-01-29T15:44:16Z	2017-01-30T14:01:55Z	2017-01-30T14:01:55Z	Update alpine to version 3.5	34		
+318	6694151	false	open	false	2		2017-01-29T15:47:07Z	2017-01-30T14:08:56Z		Creating an alpine-slim version.	37		
+319	3752964	true	open	false	3		2017-01-31T18:02:38Z	2017-02-03T14:17:26Z		Add libc6-compat to Alpine Docker images	110		
+320	2781	true	closed	false	0	0	2017-02-01T01:49:49Z	2017-02-01T13:03:27Z	2017-02-01T13:03:27Z	Update for Node.js v4.7.3 and v6.9.5	9	2781	2017-02-01T13:03:27Z
+321	2781	true	open	false	1		2017-02-01T13:54:44Z	2017-02-01T14:50:18Z		Update for Node.js v7.5.0	7		
+322	2781	true	open	false	11		2017-02-01T16:11:22Z	2017-02-10T20:09:16Z		Use shell expansion when selecting which NODE_VERSION to build	52		
+323	1081565	false	closed	false	3		2017-02-02T20:42:30Z	2017-02-03T14:15:26Z	2017-02-03T14:15:26Z	Properly handle signals from kernel	60		
+324	1081565	true	closed	false	1	0	2017-02-02T21:20:05Z	2017-02-03T14:15:26Z	2017-02-03T14:15:26Z	Document init wrapper	2	2781	2017-02-03T14:15:26Z
+325	10901163	false	closed	false	9		2017-02-06T00:06:56Z	2017-02-24T21:10:10Z	2017-02-24T21:10:10Z	build for armhf	43		
+326	4322454	false	closed	false	9		2017-02-06T18:27:47Z	2017-02-07T12:25:39Z	2017-02-06T22:12:42Z	No exported port on alpine version and other issues with angular	155		
+327	13939351	false	open	false	3		2017-02-08T11:04:00Z	2017-02-13T18:09:19Z		Cannot find module internal/fs	270		
+328	3746963	true	open	false	0		2017-02-09T13:53:46Z	2017-02-09T16:10:58Z		Adds instructions for modifying the `node` user	37		
+329	15118808	false	open	false	0		2017-02-10T07:34:42Z	2017-02-10T09:11:33Z		libstdc++.so.6: version `GLIBCXX_3.4.21' not found 	162		
+330	917232	false	closed	false	11		2017-02-16T17:11:59Z	2017-02-23T14:19:06Z	2017-02-16T21:19:42Z	Alpine image cannot be used with Atlassian pipelines	18		
+331	128096	false	closed	false	3		2017-02-17T16:09:03Z	2017-02-20T10:15:10Z	2017-02-20T10:15:10Z	No permission in $HOME	112		
+332	4608475	true	open	false	0	0	2017-02-20T22:04:08Z	2017-02-20T22:04:08Z		Updated Alpine Linux version 3.4 -> 3.5	7		
+333	2781	true	closed	false	0	0	2017-02-22T02:24:52Z	2017-02-22T12:42:55Z	2017-02-22T12:42:55Z	Update for Node.js v4.8.0	3	2781	2017-02-22T12:42:55Z
+334	2781	true	closed	false	0	0	2017-02-22T02:28:25Z	2017-02-22T13:01:43Z	2017-02-22T13:01:43Z	Update for Node.js v6.10.0	3	2781	2017-02-22T13:01:43Z
+335	2781	true	open	false	2		2017-02-22T03:07:24Z	2017-02-22T13:05:32Z		Update for Node.js v7.60	3		
+336	2781	true	open	false	0		2017-02-22T13:17:04Z	2017-02-22T15:41:43Z		V7.6.0 add sig	15		
+337	265896	true	closed	false	23		2017-02-23T14:23:18Z	2017-03-02T09:02:16Z	2017-02-28T16:48:26Z	Proposal to add Yarn to the existing images	388		
+338	2140016	false	open	false	0		2017-02-24T02:17:55Z	2017-02-24T02:17:55Z		 error while loading shared libraries: /usr/lib/x86_64-linux-gnu/libidn.so.11: file too short	203		
+339	1711940	false	closed	false	1		2017-02-27T10:01:54Z	2017-02-28T00:53:38Z	2017-02-28T00:53:38Z	bind-tools needed for DNS lookups	157		
+340	930510	false	closed	false	10		2017-02-28T13:25:11Z	2017-03-03T08:32:14Z	2017-03-03T08:32:14Z	gpg: keyserver timed out	190		
+341	1296183	false	open	false	0		2017-02-28T18:14:09Z	2017-02-28T18:14:09Z		node 7.5-alpine missing	6		
+342	265896	true	open	false	0	0	2017-03-01T00:14:12Z	2017-03-01T00:14:12Z		Build stability improvements (curl & gpg)	7		
+343	2781	true	open	false	0		2017-03-01T15:44:22Z	2017-03-01T16:26:55Z		Update for Node.js v7.7.0	3		
+344	491393	false	closed	false	0		2017-03-01T18:59:05Z	2017-03-01T19:02:44Z	2017-03-01T19:02:44Z	Unable to npm install -g yarn on 6.10	111		
+345	968267	true	open	false	5		2017-03-01T19:38:14Z	2017-03-03T20:45:28Z		Mention yarn in the README.md	24		
+346	633002	false	closed	false	17		2017-03-01T20:44:37Z	2017-03-02T23:27:03Z	2017-03-02T19:05:02Z	Yarn's bundled node-gyp broken	35		
+347	3691490	true	closed	false	0	0	2017-03-02T01:26:55Z	2017-03-02T02:24:52Z	2017-03-02T02:24:52Z	Update for Node.js v7.7.1	1	2781	2017-03-02T02:24:52Z
+348	1090826	false	open	false	0		2017-03-02T13:03:38Z	2017-03-02T13:03:38Z		 Refusing to delete /usr/local/bin/yarn: node_modules/npm/bin/npm-cli.js symlink target is not controlled by npm /usr/local	57		
+349	451164	false	open	false	2		2017-03-02T19:24:43Z	2017-03-02T20:05:21Z		Version 7.7.0 fails to install bcrypt with yarn	275		
+350	216176	false	open	false	1		2017-03-02T21:17:57Z	2017-03-03T08:32:08Z		yarn, as included in official docker node image, fails to install get-cursor-position	64		
+351	412180	false	open	false	0		2017-03-04T23:19:57Z	2017-03-04T23:19:57Z		Install Yarn as suggested in official documentation	139		
+352	1136805	false	open	false	1		2017-03-06T08:22:15Z	2017-03-06T17:51:44Z		"Globally installed yarn packages are not available to ""node"" user"	72		
+353	2527405	false	open	false	3		2017-03-07T04:19:21Z	2017-03-07T08:09:05Z		Using yarn in node:6.10.0 got warning You don't appear to have an internet connection	42		
+354	2781	true	closed	false	0	0	2017-03-09T00:45:43Z	2017-03-09T01:28:51Z	2017-03-09T01:28:51Z	Update for Node.js v7.7.2	2	2781	2017-03-09T01:28:51Z
+355	13280928	false	closed	false	4		2017-03-09T16:12:46Z	2017-03-10T00:44:07Z	2017-03-10T00:44:07Z	Build failure with 7.7.1-alpine when trying to build pty.js	194		
+356	622789	false	open	false	0		2017-03-10T06:11:25Z	2017-03-10T06:11:25Z		Upgrade to use alpine linux 4+?	6		
+357	26320311	false	open	false	0		2017-03-10T07:09:06Z	2017-03-15T17:49:19Z		According to the node. Js's website links from dockerfile execution and found the key is failure An error is as follows	175		
+358	2781	true	closed	false	6		2017-03-14T23:14:10Z	2017-03-15T13:07:21Z	2017-03-15T12:32:47Z	Update for Node.js v7.7.3	2		
+359	6031925	true	closed	false	11		2017-03-15T16:12:37Z	2017-03-15T21:12:52Z	2017-03-15T20:42:47Z	Update docker images with latest keys	21		
+360	2781	true	closed	false	0	0	2017-03-21T22:11:10Z	2017-03-22T14:39:12Z	2017-03-22T14:39:12Z	Update for Node.js v4.8.1 and v6.10.1	5	2781	2017-03-22T14:39:12Z
+361	2781	true	closed	false	0	0	2017-03-21T22:15:50Z	2017-03-22T14:39:31Z	2017-03-22T14:39:31Z	Update for Node.js v7.7.4	3	2781	2017-03-22T14:39:31Z
+362	207759	true	open	false	2		2017-03-22T07:26:43Z	2017-03-22T15:19:21Z		Introduce windows images	55		

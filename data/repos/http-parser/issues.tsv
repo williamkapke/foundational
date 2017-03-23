@@ -1,15 +1,47 @@
+33	294689	false	closed	false	2		2011-02-11T19:51:44Z	2016-11-24T07:02:16Z	2011-03-01T13:36:45Z	Overflow detection on chunk trailers	119		
+184	3534453	true	open	false	14		2014-08-05T18:04:50Z	2017-01-12T16:12:43Z		Solaris doesn't necessarily have stdint.h, use inttypes.h	13		
+272	1241845	true	closed	false	4		2015-11-02T15:59:41Z	2017-01-17T13:35:25Z	2016-05-01T02:18:03Z	Makefile improvements	4		
 294	5880835	true	open	false	4		2016-03-23T09:29:13Z	2016-07-07T13:44:17Z		Added support for compiling on MinGW platform	46		
 301	1503976	false	open	false	8		2016-04-25T05:01:01Z	2016-07-19T23:32:29Z		Is this valid according to rfc2616?	72		
+306	4700523	false	closed	false	4		2016-05-04T06:09:11Z	2017-01-07T22:07:05Z	2016-05-08T16:13:06Z	Parsing requests\responses data from async sockets	35		
+307	8630900	false	open	false	1		2016-05-18T22:20:53Z	2017-01-01T22:07:21Z		Making it easier to build it for OpenIndiana	62		
+311	404610	true	open	false	3		2016-05-28T10:26:13Z	2016-09-26T22:56:25Z		Allow non-standard HTTP method	64		
 322	1503976	false	open	false	2		2016-06-24T19:30:31Z	2016-06-27T17:06:38Z		There's a brand new C++, header-only HTTP parser here!	63		
-323	649835	true	open	false	2		2016-06-30T05:28:49Z	2016-07-01T18:41:30Z		simplify parsing M-SEARCH method, group P methods	143		
+323	649835	true	open	false	4		2016-06-30T05:28:49Z	2016-10-06T21:16:39Z		simplify parsing M-SEARCH method, group P methods	143		
 324	4057921	false	closed	false	3		2016-07-03T13:47:59Z	2016-07-17T23:24:30Z	2016-07-17T23:24:30Z	Content-Length Header	149		
 325	275871	true	open	false	4		2016-07-04T08:59:58Z	2016-07-17T23:24:41Z		Fix Content-Length header parsing.	31		
 326	439929	true	open	false			2016-07-05T19:42:04Z	2016-07-05T21:17:06Z		add settings flags, refactor lenient_http_headers setting	87		
-327	17925342	false	open	false	0		2016-07-07T07:10:56Z	2016-07-07T07:10:56Z		on_message_complete callback doesn't invoke after an answer from squid proxy server	47		
+327	17925342	false	closed	false	1		2016-07-07T07:10:56Z	2017-01-09T07:28:53Z	2017-01-09T07:28:53Z	on_message_complete callback doesn't invoke after an answer from squid proxy server	48		
 328	238531	false	closed	false	2		2016-07-10T03:56:59Z	2016-07-17T23:25:48Z	2016-07-17T23:25:48Z	Use `git-secure-tag` for releases	24		
-329	30030	false	open	false	0		2016-07-14T23:48:39Z	2016-07-14T23:48:39Z		Document support of (or lack of) HTTP2	4		
+329	30030	false	open	false	3		2016-07-14T23:48:39Z	2016-10-19T17:12:44Z		Document support of (or lack of) HTTP2	4		
 330	349754	false	open	false	3		2016-08-15T17:32:05Z	2016-08-16T17:21:14Z		Connection hanging after HPE_CB_headers_complete	42		
 331	1614246	false	open	false	0		2016-09-01T02:46:32Z	2016-09-01T02:46:32Z		Add content length check when handling http requests	367		
 332	1614246	false	open	false	0		2016-09-01T02:48:31Z	2016-09-01T03:23:28Z		Full body isn't received when writing chunks with small delay	131		
-333	5990337	false	open	false	0		2016-09-02T03:13:38Z	2016-09-02T03:13:38Z		Windows x64 compile warning	118		
-334	9947279	true	open	false			2016-09-14T09:34:13Z	2016-09-15T18:15:10Z		build: vms and os400 support			
+333	5990337	false	open	false	1		2016-09-02T03:13:38Z	2016-09-19T21:01:10Z		Windows x64 compile warning	118		
+334	9947279	true	open	false			2016-09-14T09:34:13Z	2016-09-15T18:15:10Z		build: vms and os400 support	0		
+335	1522494	true	closed	false	1		2016-09-23T08:46:14Z	2016-09-30T21:05:22Z	2016-09-30T21:05:22Z	Remove duplicate code	0		
+336	1935767	true	closed	false	1		2016-09-27T08:56:22Z	2016-09-27T10:36:27Z	2016-09-27T10:36:27Z	header: remove unneeded symbols from headers	21		
+337	288304	true	closed	false	5		2016-10-06T06:09:25Z	2016-10-18T22:54:02Z	2016-10-18T22:54:02Z	Add HTTP_STATUS_MAP(XX) and enum http_status	30		
+338	288304	false	open	false	8		2016-10-06T18:31:38Z	2016-10-06T21:05:26Z		Pipelined requests and error handling	74		
+339	184819	false	closed	false	1		2016-10-10T14:28:57Z	2016-10-10T19:27:33Z	2016-10-10T19:27:33Z	Usage clarification requested (proper socket recv in interaction with the lib)	287		
+340	1494211	false	closed	false	2		2016-10-12T13:05:39Z	2016-10-31T11:42:55Z	2016-10-31T11:42:55Z	Unexpected behaviour with invalid first line of request	77		
+341	2554816	false	closed	false	0		2016-10-17T00:05:23Z	2016-10-31T02:15:04Z	2016-10-31T02:15:04Z	always report Parse Error HPE_INVALID_CONSTANT on zadego.com	48		
+342	306372	true	open	false	6		2016-10-19T12:34:08Z	2017-01-24T14:41:32Z		Various optimizations	311		
+343	4044581	false	closed	false	3		2016-10-27T02:34:24Z	2016-10-31T00:52:19Z	2016-10-31T00:52:19Z	Semver compatibility for API/ABI?	33		
+344	7662738	false	closed	false	11		2016-11-10T01:03:28Z	2016-11-10T22:49:37Z	2016-11-10T22:49:37Z	Swift Port - request for OSS License modification	107		
+345	1211498	false	closed	false	2		2016-12-01T14:15:14Z	2016-12-27T22:29:59Z	2016-12-27T22:29:59Z	Soname bumped on every version	64		
+346	1211498	true	open	false	0	0	2016-12-01T16:49:15Z	2016-12-01T16:49:15Z		makefile: Flexible install fixes	29		
+347	863752	true	open	false	4		2016-12-29T12:55:10Z	2017-01-09T19:13:07Z		parser: fix handling of newlines before HTTP responses	28		
+348	271107	true	open	false	1		2017-01-01T21:53:54Z	2017-01-01T22:23:59Z		Unbreak `make install` in BSDs	24		
+349	9025382	true	closed	false	2		2017-01-08T19:07:06Z	2017-01-09T12:48:10Z	2017-01-09T12:48:10Z	Add line-by-line comments for http_parser_execute	0		
+350	10772249	false	open	false	0		2017-01-25T05:22:12Z	2017-01-25T05:22:12Z		http/2.0 parser support  	23		
+351	1312290	true	open	false	0	0	2017-02-14T09:18:19Z	2017-02-14T09:18:19Z		Cython bindings -- Interested?	30		
+352	12488060	true	open	false	4		2017-02-15T20:19:29Z	2017-02-23T17:49:34Z		http header parsing	176		
+353	5990337	false	closed	false	1		2017-03-01T10:33:54Z	2017-03-13T09:43:22Z	2017-03-01T12:25:34Z	on_url did not parse http version ?	14		
+354	7495796	false	closed	false	1		2017-03-03T04:03:50Z	2017-03-03T08:06:33Z	2017-03-03T08:06:33Z	why not support char '_' in host of http	25		
+355	23631317	false	open	false	0		2017-03-06T14:13:56Z	2017-03-06T14:13:56Z		Status code callback not triggered in response	53		
+356	667105	false	open	false	4		2017-03-07T08:06:14Z	2017-03-14T18:02:17Z		[enhancement] set install_name on Darwin platforms	112		
+357	50925	true	open	false	0	0	2017-03-09T14:56:38Z	2017-03-09T14:56:38Z		Fix FALLTHROUGH warning in switch of GCC7	4		
+358	667105	true	open	false	0	0	2017-03-14T17:38:22Z	2017-03-14T17:38:22Z		Makefile: set install_name on Darwin, issue #356	21		
+359	667105	true	open	false	0	0	2017-03-14T18:01:44Z	2017-03-14T18:01:44Z		Makefile: set versions for SONAME correctly	44		
+360	1925803	true	open	false	0	0	2017-03-15T16:47:17Z	2017-03-15T16:47:17Z		Include stddef.h instead of sys/types.h.	17		
