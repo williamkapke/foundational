@@ -29,7 +29,7 @@
 894	7220484	false	open	false	26		2015-02-19T16:50:29Z	2016-12-15T06:34:40Z		dns.setServers() crash	113		
 906	115237	false	open	false	35		2015-02-20T18:06:56Z	2017-02-02T20:26:12Z		net: enable TCP_NODELAY by default on all platforms	32		
 947	707147	false	closed	false	9		2015-02-25T02:05:54Z	2017-02-15T20:31:40Z	2017-02-15T20:31:40Z	EPIPE errors thrown when piping to a closed stream	363		
-983	6731985	false	open	false	22		2015-02-27T03:19:51Z	2016-11-23T11:28:52Z		Tab completion for block-scoped variables doesn't work in REPL	60		
+983	6731985	false	open	false	22		2015-02-27T03:19:51Z	2017-03-24T14:58:00Z		Tab completion for block-scoped variables doesn't work in REPL	60		
 1010	218257	false	closed	false	53		2015-02-28T22:28:55Z	2016-12-05T11:27:32Z	2015-03-25T01:31:37Z	Ship websockets in core	23		
 1013	176984	false	closed	false	45		2015-03-01T10:58:11Z	2016-10-17T07:18:56Z	2016-04-04T01:52:33Z	Replace deps/cares with pure-javascript alternative	207		
 1041	443639	false	open	false	11		2015-03-03T12:02:28Z	2016-12-09T07:17:52Z		Stream not emitting data event after pipe+unpipe	51		
@@ -621,6 +621,7 @@
 7119	498775	true	closed	false	9		2016-06-03T00:18:29Z	2016-07-27T23:39:04Z	2016-06-13T18:03:03Z	tools: fix license builder to work with icu-small	71		
 7123	498775	false	closed	false	17		2016-06-03T01:04:12Z	2016-07-27T14:36:28Z	2016-07-27T14:36:28Z	Do we need to include any new licenses when we ship the new v8 inspector?	64		
 7132	1084056	true	closed	false	10		2016-06-03T12:49:16Z	2016-07-12T07:01:48Z	2016-06-08T13:52:41Z	cluster: don't send messages if no IPC channel	53		
+7136	7594068	false	closed	false	5		2016-06-03T14:50:50Z	2017-03-24T14:21:40Z	2016-06-07T19:00:29Z	HTTP Parse Error if Response is using transfer-encoding chunked, but includes a content-length header	74		
 7137	439929	true	closed	false	9		2016-06-03T19:17:45Z	2017-02-16T16:20:53Z	2017-02-15T18:58:15Z	doc: general improvements to net.md copy	33		
 7141	10393198	false	open	false	14		2016-06-03T22:32:12Z	2017-01-06T18:03:04Z		URL to v8_inspector in the Windows console is inconvenient to copy	124		
 7145	730640	false	open	false	8		2016-06-04T01:08:19Z	2017-01-17T17:53:16Z		observed setImmediate and setTimeout execution order contradicts documentation	163		
@@ -1560,7 +1561,7 @@
 8223	439929	true	open	false	7		2016-08-22T16:31:49Z	2016-08-31T17:11:18Z		promise: warning on unhandled rejection (v6.x)	71		
 8224	714117	false	open	false	4		2016-08-22T16:54:02Z	2016-08-22T19:35:43Z		REPL debugging Proxy bug	105		
 8225	439929	true	closed	false	8		2016-08-22T18:18:33Z	2016-09-07T03:54:04Z	2016-08-23T17:54:23Z	"Revert ""crypto: add crypto.timingSafeEqual"""	70		
-8226	961599	false	open	false	2		2016-08-22T18:43:07Z	2016-08-22T21:44:43Z		Some c-ares symbols in Node headers not exported by Node executable	95		
+8226	961599	false	closed	false	3		2016-08-22T18:43:07Z	2017-03-24T14:12:28Z	2017-03-24T14:12:28Z	Some c-ares symbols in Node headers not exported by Node executable	94		
 8227	3374946	false	closed	false	3		2016-08-22T19:32:15Z	2016-08-26T19:46:32Z	2016-08-26T19:46:32Z	buf.readUIntBE and buf.readUIntLE documentation examples are switched	80		
 8228	56045	false	open	false	0		2016-08-22T20:30:30Z	2016-08-22T20:30:30Z		buffer.write empty string to end of buffer: regression?	116		
 8229	4421720	true	closed	false	4	3	2016-08-22T22:53:12Z	2016-09-06T18:06:33Z	2016-09-06T18:06:33Z	doc: add 2016-08-10 CTC meeting minutes	30	4421720	2016-09-06T18:06:33Z
@@ -1755,7 +1756,7 @@
 8419	8774679	true	open	false	44		2016-09-06T10:48:43Z	2017-03-18T03:32:34Z		net: multiple listen() events fail silently	94		
 8420	1443911	true	closed	false	11		2016-09-06T11:39:49Z	2016-09-12T04:17:45Z	2016-09-12T04:17:45Z	url: fix off-by-one error in loop handling dots	52		
 8421	275871	false	closed	false	3		2016-09-06T14:48:40Z	2016-09-23T22:27:16Z	2016-09-23T22:27:16Z	fs: fs.watchFile() should not emit 'stop' event synchronously	45		
-8422	1093990	true	open	false	13		2016-09-06T15:52:10Z	2017-03-22T22:25:13Z		timers: do not expose .unref()._handle._list	63		
+8422	1093990	true	open	false	15		2016-09-06T15:52:10Z	2017-03-24T14:40:31Z		timers: do not expose .unref()._handle._list	63		
 8423	4421720	true	closed	false	4	0	2016-09-06T15:52:19Z	2016-09-22T20:48:13Z	2016-09-22T20:48:13Z	doc: add CTC meeting minutes 2016-08-24	33	4421720	2016-09-22T20:48:13Z
 8424	4421720	true	closed	false	2	2	2016-09-06T16:02:59Z	2016-09-12T15:03:23Z	2016-09-12T15:03:23Z	doc: add CTC meeting minutes 2016-08-31	27	4421720	2016-09-12T15:03:23Z
 8425	718899	false	closed	false	17		2016-09-06T17:57:12Z	2016-10-06T21:35:07Z	2016-10-06T21:35:07Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-09-07	467		
@@ -4621,7 +4622,7 @@
 11291	2512748	true	closed	false	1	0	2017-02-10T15:34:39Z	2017-02-13T22:27:13Z	2017-02-13T22:27:13Z	test: add coverage for dgram _createSocketHandle()	48	2512748	2017-02-13T22:27:13Z
 11292	2512748	true	closed	false	2		2017-02-10T16:45:16Z	2017-03-07T17:16:50Z	2017-02-14T16:58:13Z	test: cover dgram socket close during cluster bind	72		
 11293	1028226	true	open	false	3		2017-02-10T16:52:01Z	2017-02-22T09:24:22Z		https: use internal/errors.js	43		
-11294	439929	true	open	false	7		2017-02-10T16:57:04Z	2017-03-23T18:39:23Z		errors, process: port internal/process errors to internal/errors	88		
+11294	439929	true	open	false	8		2017-02-10T16:57:04Z	2017-03-24T15:01:38Z		errors, process: port internal/process errors to internal/errors	88		
 11295	2512748	true	closed	false	1		2017-02-10T17:00:53Z	2017-03-09T00:04:21Z	2017-02-13T18:33:40Z	test: cover cluster error during dgram socket bind	66		
 11296	22550884	true	open	false	19		2017-02-10T17:28:26Z	2017-03-07T18:26:39Z		lib/src: refactoring out of range index and and migrate error for consistency	57		
 11297	22550884	true	closed	false	3		2017-02-10T17:38:46Z	2017-03-07T15:09:31Z	2017-02-17T00:02:45Z	test: consolidating buffer.read()	16		
@@ -5303,7 +5304,7 @@
 11974	9514958	true	open	false	0		2017-03-21T17:59:44Z	2017-03-23T14:47:40Z		test: improve test-vm-cached-data.js	40		
 11975	13093042	true	open	false			2017-03-21T19:25:21Z	2017-03-23T22:29:14Z		module: add support for abi stable module API	371		
 11976	7681901	false	open	false	2		2017-03-21T20:21:14Z	2017-03-23T20:05:46Z		node.js Setup Wizard ended prematurely	38		
-11977	325737	false	open	false	20		2017-03-21T21:49:48Z	2017-03-24T13:02:43Z		V8 Fatal Exception, 0x99b617	67		
+11977	325737	false	open	false	21		2017-03-21T21:49:48Z	2017-03-24T14:57:09Z		V8 Fatal Exception, 0x99b617	67		
 11978	1154741	false	closed	false	9		2017-03-21T23:08:07Z	2017-03-23T17:41:13Z	2017-03-23T17:41:13Z	https: no error reported when certificate not provided for createServer()	104		
 11979	718899	true	open	false	1		2017-03-22T00:12:05Z	2017-03-22T04:36:30Z		test: add minimal test for net benchmarks	94		
 11980	718899	false	open	false	0		2017-03-22T04:36:04Z	2017-03-22T05:51:55Z		Investigate flaky parallel/test-cluster-disconnect on armv7-ubuntu1404	24		
@@ -5323,7 +5324,7 @@
 11994	6778619	false	open	false	2		2017-03-22T20:16:03Z	2017-03-23T11:58:23Z		Connection error to MySQL server on Windows Bash	92		
 11995	988441	true	open	false			2017-03-22T21:34:41Z	2017-03-24T07:39:59Z		src: fix base64 decoding	49		
 11996	718899	true	open	false	1		2017-03-22T23:13:57Z	2017-03-23T01:31:35Z		doc: update collaborator email address	44		
-11997	439929	false	open	false	17		2017-03-23T00:03:06Z	2017-03-24T13:53:59Z		Proposal: --config=file command line argument	153		
+11997	439929	false	open	false	18		2017-03-23T00:03:06Z	2017-03-24T14:21:00Z		Proposal: --config=file command line argument	153		
 11998	79017	true	open	false	0	0	2017-03-23T01:31:39Z	2017-03-23T01:31:39Z		deps: cherry-pick 22858cb from V8 upstream	79		
 11999	3367801	true	open	false	0	0	2017-03-23T03:20:02Z	2017-03-23T03:20:02Z		test: add test for url	34		
 12000	16479124	false	open	false	0		2017-03-23T03:21:00Z	2017-03-23T03:21:00Z		Question: Use ES6 Promises?	28		
@@ -5335,8 +5336,8 @@
 12006	52195	false	open	false	1		2017-03-23T14:27:00Z	2017-03-23T15:04:07Z		stream: citgm fails with READABLE_STREAM=disable flag	490		
 12007	3286504	false	open	false	2		2017-03-23T18:54:59Z	2017-03-24T00:21:45Z		Doc issue	46		
 12008	3286504	true	open	false	1		2017-03-23T20:13:28Z	2017-03-24T00:22:07Z		doc: fix link in timers api doc.	23		
-12009	332968	true	open	false	0	0	2017-03-23T21:06:38Z	2017-03-23T21:06:38Z		test: testing validity of prefix in mkdtempSync	56		
-12010	1093990	true	open	false	0		2017-03-23T21:28:45Z	2017-03-24T10:31:35Z		lib,src: exit process on unhandled promise rejection cleanup	206		
+12009	332968	true	open	false	0		2017-03-23T21:06:38Z	2017-03-24T14:03:08Z		test: testing validity of prefix in mkdtempSync	56		
+12010	1093990	true	open	false	2		2017-03-23T21:28:45Z	2017-03-24T14:46:27Z		lib,src: exit process on unhandled promise rejection cleanup	206		
 12011	590520	true	open	false	0	0	2017-03-23T23:09:48Z	2017-03-23T23:09:48Z		Improve test-tls-key-mismatch.js	0		
 12012	718899	true	open	false			2017-03-23T23:40:21Z	2017-03-24T07:38:10Z		buffer: better error for malformated hex string	50		
 12013	23180155	false	closed	false	3		2017-03-23T23:46:08Z	2017-03-24T02:10:07Z	2017-03-24T02:10:07Z	Writing Invalid File Does Not Throw Error (fs)	46		
