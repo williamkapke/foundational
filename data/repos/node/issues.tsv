@@ -3857,7 +3857,7 @@
 10523	6487691	true	closed	false	11	2	2016-12-29T17:06:54Z	2017-03-11T19:45:42Z	2017-03-11T19:45:42Z	test: fix test-child-process-flush-stdio on windows (Node V4 only)	126		
 10524	8297234	true	closed	false	3		2016-12-29T17:30:01Z	2017-03-08T09:58:01Z	2017-01-03T17:20:07Z	test: refactor several parallel/test-timer tests	64		
 10525	1883394	true	open	false	6		2016-12-29T21:05:11Z	2017-01-04T19:20:19Z		fix compile bug in v8/lookup.h	69		
-10526	15161981	true	open	false	19		2016-12-29T22:06:02Z	2017-03-25T00:55:11Z		deps: backport 224d376 from V8 upstream	104		
+10526	15161981	true	closed	false	20		2016-12-29T22:06:02Z	2017-03-25T16:35:53Z	2017-03-25T16:35:53Z	deps: backport 224d376 from V8 upstream	104		
 10527	17607	true	closed	false	0		2016-12-29T22:13:55Z	2017-01-23T03:01:04Z	2017-01-03T21:40:09Z	doc: unify dirname and filename description	79		
 10528	540554	false	closed	false	2		2016-12-29T22:44:16Z	2016-12-30T14:55:28Z	2016-12-30T14:55:28Z	UNC paths are not handled appropriately by `path.relative`	103		
 10529	718899	true	closed	false	3	1	2016-12-30T00:19:31Z	2016-12-30T16:58:00Z	2016-12-30T16:58:00Z	doc: require two-factor authentication	57		
@@ -5302,7 +5302,7 @@
 11969	4923335	true	open	false	1		2017-03-21T16:38:35Z	2017-03-24T11:11:46Z		(v6.x backport) doc: fix stylistic issues in api/net.md	32		
 11970	4923335	true	open	false	1		2017-03-21T16:56:40Z	2017-03-24T11:10:29Z		(v6.x backport) test: add arrow functions to test-util-inspect	36		
 11971	96947	false	closed	false	7		2017-03-21T17:13:51Z	2017-03-24T15:23:58Z	2017-03-24T15:23:58Z	new lint option on windows is missing documentation	15		
-11972	10393198	false	open	false	4		2017-03-21T17:27:52Z	2017-03-25T15:04:07Z		benchmark: net/tcp-raw-pipe.js gives wrong data	206		
+11972	10393198	false	open	false	5		2017-03-21T17:27:52Z	2017-03-25T16:15:03Z		benchmark: net/tcp-raw-pipe.js gives wrong data	206		
 11973	886059	false	open	false	0		2017-03-21T17:30:33Z	2017-03-21T17:30:33Z		Remotely closed sockets don't reliably fire write callback with error on Linux.	572		
 11974	9514958	true	closed	false	2	2	2017-03-21T17:59:44Z	2017-03-24T16:12:03Z	2017-03-24T16:12:03Z	test: improve test-vm-cached-data.js	40		
 11975	13093042	true	open	false			2017-03-21T19:25:21Z	2017-03-25T06:52:26Z		module: add support for abi stable module API	371		
@@ -5351,7 +5351,7 @@
 12018	2352663	false	open	false	0		2017-03-24T09:54:15Z	2017-03-24T09:54:15Z		V6.x crash with holes following spreads in array literals	25		
 12019	3817770	false	closed	false	6		2017-03-24T11:13:21Z	2017-03-24T12:09:26Z	2017-03-24T12:09:26Z	Node v7.6.0+ memory leak	141		
 12020	5445507	true	open	false	0	0	2017-03-24T12:31:34Z	2017-03-24T12:31:34Z		doc: add richardlau to collaborators	24		
-12021	15943089	false	open	false	0		2017-03-24T12:38:04Z	2017-03-24T16:35:42Z		Document CI jobs	23		
+12021	15943089	false	open	false	1		2017-03-24T12:38:04Z	2017-03-25T16:29:06Z		Document CI jobs	23		
 12022	1093990	true	open	false	0		2017-03-24T15:54:12Z	2017-03-24T16:05:11Z		node: warn if cwd is inaccessible during bootstrap	86		
 12023	1093990	true	open	false	0	0	2017-03-24T16:27:57Z	2017-03-24T16:27:57Z		lib: remove an unnecessary coverage check	112		
 12024	4328800	false	open	false	0		2017-03-24T18:13:39Z	2017-03-24T19:14:21Z		Illegal Instruction in core in debugger dev tools	163		
@@ -5362,9 +5362,9 @@
 12029	899444	true	open	false	0	0	2017-03-24T22:24:02Z	2017-03-24T22:24:02Z		build: always use V8_ENABLE_CHECKS in debug mode	55		
 12030	10393198	true	open	false	3		2017-03-24T23:24:24Z	2017-03-25T14:02:32Z		benchmark: check end() argument to be > 0	32		
 12031	54666	false	open	false	0		2017-03-25T04:06:18Z	2017-03-25T08:52:16Z		test: tweak addon tests	107		
-12033	182844	false	open	false	2		2017-03-25T08:58:25Z	2017-03-25T14:15:19Z		Suspect memory leak in v6.10.1	97		
+12033	182844	false	open	false	4		2017-03-25T08:58:25Z	2017-03-25T16:17:10Z		Suspect memory leak in v6.10.1	97		
 12034	11780786	true	open	false	1		2017-03-25T10:57:30Z	2017-03-25T16:00:02Z		doc: fix fs.read arg type and setImmediate desc	142		
-12035	10393198	true	open	false	0	0	2017-03-25T14:12:48Z	2017-03-25T14:12:48Z		doc: modernize and fix code examples in fs.md	59		
+12035	10393198	true	open	false			2017-03-25T14:12:48Z	2017-03-25T16:36:42Z		doc: modernize and fix code examples in fs.md	58		
 12036	4978439	false	open	false	0		2017-03-25T14:13:29Z	2017-03-25T14:13:29Z		Using node in a Win32 GUI Application fails (stdin/stderr/stdout)	706		
 12037	2352663	true	open	false	0	0	2017-03-25T14:23:54Z	2017-03-25T14:23:54Z		v6.x: backport V8 fixes for parser bugs	63		
 12038	1140553	false	closed	false	0		2017-03-25T14:37:11Z	2017-03-25T16:00:46Z	2017-03-25T16:00:46Z	setTimeout breaks async tack trace in DevTools inspector	205		
