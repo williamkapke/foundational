@@ -307,7 +307,7 @@
 5102	291301	true	closed	false	104		2016-02-05T17:07:23Z	2017-02-09T13:12:05Z	2016-02-13T04:41:40Z	fs: add a temporary fix for re-evaluation support	45		
 5104	1523129	true	closed	false	9		2016-02-05T18:53:20Z	2017-03-26T11:14:13Z	2017-03-26T11:14:13Z	Update _http_server.js	9		
 5111	718899	false	closed	false	5		2016-02-06T00:11:40Z	2016-07-04T05:30:38Z	2016-07-04T05:30:38Z	Investigate flaky test-tls-session-cache	4		
-5127	54666	true	open	false	25		2016-02-07T05:50:12Z	2017-03-26T11:13:04Z		events: improve eventEmitter.once() performance	107		
+5127	54666	true	open	false	26		2016-02-07T05:50:12Z	2017-03-26T13:38:34Z		events: improve eventEmitter.once() performance	107		
 5132	1948863	false	closed	false	4		2016-02-07T12:23:58Z	2017-03-26T12:31:01Z	2016-02-08T13:20:11Z	`cb` is null but didn't validate when use it	3		
 5139	3942904	true	closed	false	18		2016-02-08T13:09:36Z	2017-02-28T23:10:33Z	2017-02-28T23:10:33Z	crypto: add secure key comparsion function	61		
 5142	173025	true	closed	false	2		2016-02-08T14:09:25Z	2017-02-28T23:11:01Z	2017-02-28T23:11:01Z	debugger: limit size of mirrored buffer	67		
@@ -404,7 +404,7 @@
 6078	12937885	false	open	false	17		2016-04-06T11:07:12Z	2017-01-24T04:39:45Z		Reduce memory consumption of streams for large amounts of data	515		
 6082	8702326	true	open	false	13		2016-04-06T18:50:20Z	2017-03-26T12:32:29Z		async_wrap,lib: Firing async-wrap callbacks for next-tick callbacks	373		
 6089	195826	false	closed	false	6		2016-04-06T23:21:40Z	2017-01-03T11:34:13Z	2016-04-07T00:47:32Z	Consider moving from gyp to gn	50		
-6102	54666	true	open	false	104		2016-04-07T16:10:47Z	2017-03-26T11:03:39Z		http: don't inherit from Object.prototype	57		
+6102	54666	true	closed	false	106	1	2016-04-07T16:10:47Z	2017-03-26T13:23:14Z	2017-03-26T13:23:14Z	http: don't inherit from Object.prototype	57		
 6114	408977	true	closed	false	11		2016-04-08T12:55:18Z	2016-07-06T05:06:41Z	2016-07-06T05:06:41Z	Defensive check for process.config.variables (v4-staging)	10		
 6115	408977	true	closed	false	18		2016-04-08T12:59:35Z	2016-07-05T17:59:27Z	2016-07-05T17:59:26Z	Defensive fix for process.config.variables regression (v5)	21		
 6131	2361826	false	closed	false	6		2016-04-09T10:47:11Z	2016-08-17T20:43:10Z	2016-08-17T20:43:10Z	Move .eslintrc to json or yaml	58		
@@ -817,7 +817,7 @@
 7473	783424	false	closed	false	4		2016-06-29T09:03:08Z	2016-06-29T19:05:56Z	2016-06-29T19:05:55Z	process.stdin.on('end', function(){}); After use chroot, the event can't be triggered in nodejs v4.4.6 LTS	216		
 7474	495647	false	closed	false	14		2016-06-29T10:45:01Z	2016-07-03T03:51:58Z	2016-07-03T03:51:58Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-06-29	439		
 7475	291301	true	closed	false	10		2016-06-29T13:30:18Z	2016-07-06T12:33:36Z	2016-07-06T12:33:36Z	New Buffer API backport to v4.x	212		
-7476	178512	true	open	false	28		2016-06-29T13:38:13Z	2017-03-26T12:27:31Z		tls: add host and port info to ECONNRESET errors	70		
+7476	178512	true	open	false	29		2016-06-29T13:38:13Z	2017-03-26T13:45:11Z		tls: add host and port info to ECONNRESET errors	70		
 7477	9373002	false	closed	false	18		2016-06-29T14:03:22Z	2016-06-30T17:30:16Z	2016-06-30T15:30:41Z	207 failures in v8 tests within node tree	114		
 7478	291301	false	closed	false	4		2016-06-29T14:14:00Z	2016-06-30T11:33:38Z	2016-06-30T11:33:38Z	build: --shared-openssl still builds openssl	25		
 7479	767105	true	closed	false	13		2016-06-29T16:36:32Z	2016-07-12T14:46:29Z	2016-07-12T14:46:28Z	Event Loop Guide grammar fixes	37		
@@ -1931,7 +1931,7 @@
 8589	6439292	false	open	false	0		2016-09-17T09:20:37Z	2016-09-17T09:20:37Z		Three c++ test errors	400		
 8590	515269	true	closed	false	6		2016-09-17T09:23:59Z	2016-09-22T17:27:13Z	2016-09-22T17:27:13Z	test: modernized JS and tighten equality checking in test-eval.js	42		
 8591	965671	false	open	false	0		2016-09-17T09:29:16Z	2016-09-17T20:40:38Z		Raise a warning when listening for usafe signals	27		
-8592	6203008	true	closed	false	9		2016-09-17T09:29:24Z	2017-03-26T12:19:24Z	2017-03-26T11:38:31Z	test: changed var to const	37		
+8592	6203008	true	closed	false	10		2016-09-17T09:29:24Z	2017-03-26T13:30:10Z	2017-03-26T11:38:31Z	test: changed var to const	37		
 8593	1935767	true	closed	false	3		2016-09-17T09:31:42Z	2016-09-22T17:21:59Z	2016-09-22T17:21:59Z	src: remove unneeded ABORT after CHECK(0)	126		
 8594	2764625	true	closed	false	2		2016-09-17T09:32:00Z	2016-09-22T17:11:28Z	2016-09-22T17:11:28Z	test: update test child process send utf8	45		
 8595	1852796	true	closed	false	4		2016-09-17T09:33:10Z	2016-09-27T13:42:48Z	2016-09-27T13:42:48Z	test: update var to const, use arrow functions	35		
@@ -2982,7 +2982,7 @@
 9640	66961	false	closed	false	6		2016-11-16T14:46:45Z	2016-12-05T14:52:01Z	2016-12-05T14:52:01Z	Segmentation fault in Generator (node 7.0/7.1/master)	468		
 9641	17704638	false	closed	false	1		2016-11-16T15:27:03Z	2016-11-20T00:52:41Z	2016-11-20T00:52:41Z	process.env.toString() fails	64		
 9642	19274678	false	closed	false	3		2016-11-16T15:41:43Z	2017-03-17T11:23:59Z	2017-03-17T11:23:59Z	"package.json ""main"" may specify a directory; spec says it may not"	162		
-9643	1265507	true	open	false	38		2016-11-16T15:48:03Z	2017-03-26T12:19:46Z		Optimize event handling with large arguments	26		
+9643	1265507	true	closed	false	39	0	2016-11-16T15:48:03Z	2017-03-26T13:09:02Z	2017-03-26T13:09:02Z	Optimize event handling with large arguments	26		
 9644	803674	false	closed	false	5		2016-11-16T17:04:52Z	2017-02-24T10:13:53Z	2017-01-08T16:20:31Z	Error: spawnSync /bin/sh ENOENT	103		
 9645	15943089	true	closed	false	7	0	2016-11-16T17:18:07Z	2016-11-21T11:38:58Z	2016-11-21T11:38:57Z	build: default to ppc64 on AIX	100	15943089	2016-11-21T11:38:57Z
 9646	327019	true	closed	false	3		2016-11-16T17:24:58Z	2016-12-05T22:45:01Z	2016-12-05T22:45:01Z	internal/util: move the case 'latin1'	38		
@@ -4968,7 +4968,7 @@
 11632	15087079	false	closed	false	1		2017-03-01T13:58:47Z	2017-03-01T17:24:08Z	2017-03-01T14:20:48Z	node inspect url changing on every node app restarts	0		
 11633	1890238	false	open	false	0		2017-03-01T14:24:04Z	2017-03-01T14:24:04Z		new Date mismatch	44		
 11634	2352663	true	open	false	16		2017-03-01T14:41:35Z	2017-03-01T20:05:26Z		v7.x: cherry-pick tracing related fixes	2		
-11635	3077684	true	open	false	4		2017-03-01T15:26:02Z	2017-03-26T09:58:24Z		Table of Contents and Relative Links	47		
+11635	3077684	true	open	false	5		2017-03-01T15:26:02Z	2017-03-26T13:23:06Z		Table of Contents and Relative Links	47		
 11636	4299420	true	closed	false	5		2017-03-01T16:00:34Z	2017-03-07T12:02:04Z	2017-03-04T08:48:40Z	doc: various improvements to net.md	117		
 11637	329222	false	open	false	1		2017-03-01T20:13:55Z	2017-03-01T21:11:47Z		Unhandled promise rejection with a symbol crashes node	159		
 11638	6354455	true	open	false	9		2017-03-01T20:50:08Z	2017-03-02T00:14:14Z		7.7.1 Proposal	136		
@@ -5200,7 +5200,7 @@
 11865	25828402	false	open	false	13		2017-03-15T15:13:13Z	2017-03-22T20:21:16Z		Missing stack traces from async functions after the first await	602		
 11866	413206	false	open	false	13		2017-03-15T15:14:46Z	2017-03-20T20:01:50Z		buffer.write(buffer, 'base64')	71		
 11867	134460	true	open	false	5		2017-03-15T16:25:52Z	2017-03-21T16:31:40Z		win,build: add Visual Studio 2017 support	163		
-11868	1443911	false	open	false	2		2017-03-15T17:17:39Z	2017-03-26T10:07:54Z		High memory usage for upgraded http requests	360		
+11868	1443911	false	open	false	4		2017-03-15T17:17:39Z	2017-03-26T13:56:37Z		High memory usage for upgraded http requests	360		
 11869	567540	true	open	false	6		2017-03-15T18:19:10Z	2017-03-17T17:39:47Z		deps: Add node-inspect 1.10.6	246		
 11870	26011383	false	open	false	5		2017-03-15T20:02:02Z	2017-03-21T11:29:45Z		Error encrypting files	213		
 11871	567540	true	closed	false	3		2017-03-15T20:50:47Z	2017-03-17T16:01:34Z	2017-03-17T16:01:34Z	repl: Empty command should be sent to eval function	51		
@@ -5362,7 +5362,7 @@
 12027	439929	true	open	false	5		2017-03-24T19:47:27Z	2017-03-25T13:20:12Z		test, tools: add common.noop and common.mustNotCall lint rule	155		
 12028	17607	true	open	false	0		2017-03-24T22:15:58Z	2017-03-25T19:13:09Z		src: allow NODEOPT to be used to set CLI options	129		
 12029	899444	true	open	false	0	0	2017-03-24T22:24:02Z	2017-03-24T22:24:02Z		build: always use V8_ENABLE_CHECKS in debug mode	55		
-12030	10393198	true	open	false	21		2017-03-24T23:24:24Z	2017-03-26T12:31:23Z		benchmark: check end() argument to be > 0	34		
+12030	10393198	true	open	false	24		2017-03-24T23:24:24Z	2017-03-26T13:19:35Z		benchmark: check end() argument to be > 0	34		
 12031	54666	false	open	false	0		2017-03-25T04:06:18Z	2017-03-25T08:52:16Z		test: tweak addon tests	107		
 12033	182844	false	open	false	4		2017-03-25T08:58:25Z	2017-03-25T16:17:10Z		Suspect memory leak in v6.10.1	97		
 12034	11780786	true	open	false	1		2017-03-25T10:57:30Z	2017-03-25T16:00:02Z		doc: fix fs.read arg type and setImmediate desc	142		
@@ -5380,4 +5380,4 @@
 12046	899444	true	open	false	0	0	2017-03-26T00:31:23Z	2017-03-26T00:31:23Z		util: use `[Array]` for deeply nested arrays	89		
 12047	15043356	false	open	false	0		2017-03-26T05:31:55Z	2017-03-26T06:21:03Z		subsequent http get requests trigger unjust socket hangup error	645		
 12048	101553	true	open	false	0	0	2017-03-26T09:25:01Z	2017-03-26T09:25:01Z		test: fix misleading comment	31		
-12049	1013699	false	open	false	0		2017-03-26T12:34:07Z	2017-03-26T12:34:07Z		Relative require	101		
+12049	1013699	false	open	false	2		2017-03-26T12:34:07Z	2017-03-26T13:11:25Z		Relative require	101		
