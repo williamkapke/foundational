@@ -2814,7 +2814,7 @@
 9472	718899	true	open	false	2		2016-11-04T21:13:22Z	2017-01-06T23:25:24Z		tools,test: provide duration/interval to timers, require it with lint rule	179		
 9473	4985028	false	closed	false	16		2016-11-05T00:28:11Z	2016-11-12T03:23:55Z	2016-11-12T03:23:55Z	Research Discussion: Faster startup with dynamically generated custom v8 snapshots	260		
 9474	2866997	false	closed	false	4		2016-11-05T00:57:47Z	2016-11-06T16:35:35Z	2016-11-05T07:59:37Z	AsyncFunction constructor in Node.js 7	121		
-9475	207759	true	open	false	3		2016-11-05T01:53:14Z	2017-03-25T08:18:42Z		Don't follow Windows ContainerMappedDirectories	134		
+9475	207759	true	closed	false	5		2016-11-05T01:53:14Z	2017-03-28T15:59:40Z	2017-03-25T08:18:52Z	Don't follow Windows ContainerMappedDirectories	134		
 9476	718899	true	closed	false	2		2016-11-05T06:32:37Z	2016-11-08T19:14:39Z	2016-11-08T19:14:39Z	test: remove watchdog in test-debug-signal-cluster	150		
 9477	1556432	true	open	false	3		2016-11-05T11:45:19Z	2017-03-26T12:21:34Z		child_process: catch json parsing error in ipc	108		
 9478	1528681	false	closed	false	3		2016-11-05T15:26:30Z	2016-11-05T17:56:30Z	2016-11-05T17:56:30Z	"Get "" Segmentation fault: 11 "" error after upgrading Node.js from 6.x to 7.x"	120		
@@ -5214,8 +5214,8 @@
 11879	1984980	false	open	false	0		2017-03-16T10:00:56Z	2017-03-16T11:06:06Z		Crypto SHA1 - NodeJs v C#	186		
 11880	2456635	false	closed	false	3		2017-03-16T13:12:21Z	2017-03-16T23:50:33Z	2017-03-16T23:50:33Z	node --inspect not working 	166		
 11881	1799756	false	closed	false	4		2017-03-16T16:01:30Z	2017-03-16T19:20:40Z	2017-03-16T19:20:40Z	Invalid output with backslashes in string literals, if console.log has multiple parameters	33		
-11882	15730986	false	open	false	22		2017-03-16T16:08:30Z	2017-03-23T18:31:57Z		npm --version segfaults on v7.7.3 linux ppc64 (BE) only ON RHEL 7	38		
-11883	289174	true	open	false	5		2017-03-16T17:40:27Z	2017-03-28T11:54:28Z		async_hooks initial implementation	209		
+11882	15730986	false	open	false	23		2017-03-16T16:08:30Z	2017-03-28T15:34:39Z		npm --version segfaults on v7.7.3 linux ppc64 (BE) only ON RHEL 7	38		
+11883	289174	true	open	false			2017-03-16T17:40:27Z	2017-03-28T15:20:47Z		async_hooks initial implementation	209		
 11884	1154680	false	open	false	13		2017-03-16T18:21:37Z	2017-03-25T01:32:46Z		require accepts incoherent files	104		
 11885	22823019	false	closed	false	5		2017-03-16T22:34:58Z	2017-03-20T15:54:25Z	2017-03-20T15:54:25Z	SIGSEGV When Reading From SSL Stream	470		
 11886	332968	true	closed	false	4		2017-03-16T23:01:47Z	2017-03-21T14:34:52Z	2017-03-20T17:19:22Z	test: added tests for unixtimestamp generation	40		
@@ -5360,7 +5360,7 @@
 12025	718899	true	open	false	0	0	2017-03-24T19:15:11Z	2017-03-24T19:15:11Z		test,benchmark: enable minimal CI for http bench	60		
 12026	718899	true	closed	false	3		2017-03-24T19:45:20Z	2017-03-26T09:31:04Z	2017-03-26T09:31:04Z	benchmark: update obsolete information pointer	61		
 12027	439929	true	open	false	6		2017-03-24T19:47:27Z	2017-03-26T19:09:30Z		test, tools: add common.noop and common.mustNotCall lint rule	155		
-12028	17607	true	open	false	25		2017-03-24T22:15:58Z	2017-03-28T14:25:37Z		src: allow NODEOPT to be used to set CLI options	310		
+12028	17607	true	open	false	33		2017-03-24T22:15:58Z	2017-03-28T15:42:25Z		src: allow NODEOPT to be used to set CLI options	310		
 12029	899444	true	open	false	8		2017-03-24T22:24:02Z	2017-03-27T18:19:08Z		build: always use V8_ENABLE_CHECKS in debug mode	55		
 12030	10393198	true	closed	false	36		2017-03-24T23:24:24Z	2017-03-28T08:34:15Z	2017-03-28T00:22:26Z	benchmark: check end() argument to be > 0	19		
 12031	54666	false	open	false	0		2017-03-25T04:06:18Z	2017-03-25T08:52:16Z		test: tweak addon tests	107		
@@ -5411,15 +5411,18 @@
 12077	855219	false	open	false	0		2017-03-27T20:29:19Z	2017-03-27T20:29:19Z		deps: ICU 59 bump	28		
 12078	855219	true	open	false	0	0	2017-03-27T20:44:21Z	2017-03-27T20:44:21Z		"tools: add missing #include ""unicode/putil.h"""	61		
 12079	54666	false	open	false	0		2017-03-27T21:45:20Z	2017-03-27T21:45:20Z		assert: throw error in doesNotThrow()	65		
-12080	332968	true	open	false			2017-03-27T22:07:17Z	2017-03-28T14:29:10Z		test: refactor mkdtemp test and added async	61		
+12080	332968	true	open	false			2017-03-27T22:07:17Z	2017-03-28T15:15:14Z		test: refactor mkdtemp test and added async	61		
 12081	3375505	true	open	false	0	0	2017-03-27T22:15:47Z	2017-03-27T22:15:47Z		Fix compilation on PPC64 when libc musl is used instead of glibc	38		
 12083	439929	false	open	false	0		2017-03-28T00:05:00Z	2017-03-28T00:05:00Z		`--use-bundled-ca` and `--use-openssl-ca` order	72		
 12084	96947	false	open	false	0		2017-03-28T03:45:43Z	2017-03-28T03:45:43Z		build: on windows can't build in a path that has a space in it	35		
 12085	8111748	false	open	false	6		2017-03-28T05:08:21Z	2017-03-28T10:02:04Z		Sometimes REPL cannot display the result	36		
-12086	6023090	false	open	false	3		2017-03-28T06:12:13Z	2017-03-28T12:13:48Z		"Should we replace the word ""OS X"" with ""macOS""?"	31		
+12086	6023090	false	open	false	4		2017-03-28T06:12:13Z	2017-03-28T15:01:51Z		"Should we replace the word ""OS X"" with ""macOS""?"	31		
 12087	432351	true	open	false	5		2017-03-28T07:30:05Z	2017-03-28T13:11:27Z		src: add --use-bundled-ca --use-openssl-ca check	60		
 12088	3764614	false	open	false	0		2017-03-28T08:15:09Z	2017-03-28T08:15:09Z		Why node doesn't use cmake as a build tool ?	16		
 12089	935710	true	open	false	6		2017-03-28T10:42:07Z	2017-03-28T12:19:51Z		crypto: fix memory leaks in cert validation	41		
 12090	2291463	false	open	false	6		2017-03-28T10:54:46Z	2017-03-28T13:24:03Z		Should Node.js update to newer V8 than the current stable branch?	156		
 12091	9373002	true	open	false	0	0	2017-03-28T13:31:58Z	2017-03-28T13:31:58Z		Docsupport4x	58		
 12092	11346489	false	open	false	1		2017-03-28T14:00:23Z	2017-03-28T14:34:58Z		Get method does not check options's Object prototype	224		
+12093	17607	true	open	false	0	0	2017-03-28T15:15:16Z	2017-03-28T15:15:16Z		src: allow inspector to be run on ephemeral port	79		
+12094	469989	true	open	false	0	0	2017-03-28T15:38:30Z	2017-03-28T15:38:30Z		"Fixed typo in default property for ""mode"""	45		
+12095	469989	true	open	false	0	0	2017-03-28T15:45:54Z	2017-03-28T15:45:54Z		doc: fix fs properties for file permissions	39		
