@@ -738,6 +738,7 @@
 7366	495647	false	closed	false	12		2016-06-22T14:09:53Z	2016-07-03T03:51:58Z	2016-07-03T03:51:58Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-06-22	394		
 7367	9932290	false	closed	false	17		2016-06-22T14:17:16Z	2016-08-09T15:42:06Z	2016-08-09T10:40:58Z	child_process.spawn fails on Windows given a space in both the command and an argument	87		
 7369	15952	true	closed	false	14		2016-06-22T17:13:34Z	2016-07-12T13:53:37Z	2016-06-27T21:51:39Z	repl: Enable tab completion for global properties when useGlobal is false	99		
+7372	718899	false	closed	false	0		2016-06-22T21:30:00Z	2017-04-03T07:44:38Z	2017-04-03T07:44:38Z	repl: exponentiation operator SyntaxError swallowed	39		
 7373	899444	true	closed	false	11		2016-06-22T21:56:07Z	2016-07-11T23:48:06Z	2016-06-25T03:58:34Z	vm: fix nested timeouts with inverse order + fix flaky test-vm-timeout	126		
 7374	275871	true	closed	false	6		2016-06-22T22:33:09Z	2016-07-11T21:17:56Z	2016-06-29T10:23:11Z	Coverity fixes, round one	7		
 7375	718899	true	closed	false	9		2016-06-22T23:25:18Z	2016-07-12T03:02:35Z	2016-06-24T23:35:01Z	test: add test for exec() known issue	42		
@@ -2944,7 +2945,7 @@
 9598	10393198	true	closed	false	2		2016-11-13T23:53:13Z	2016-11-15T21:50:37Z	2016-11-15T21:50:37Z	doc: fix a typo in the assert.md	35		
 9599	4519631	false	open	false	1		2016-11-14T00:32:09Z	2016-11-14T01:29:35Z		Fatal error in ../deps/v8/src/execution.cc, line 103	154		
 9600	4303	false	open	false	9		2016-11-14T01:51:44Z	2016-11-26T05:57:43Z		url: parsed .search should always be a string.	48		
-9601	1622515	true	open	false			2016-11-14T05:24:08Z	2017-04-02T20:43:47Z		repl: Proposal for better repl (implementation)	223		
+9601	1622515	true	open	false			2016-11-14T05:24:08Z	2017-04-03T07:21:15Z		repl: Proposal for better repl (implementation)	223		
 9602	1171415	false	closed	false	1		2016-11-14T07:50:25Z	2016-11-14T09:19:01Z	2016-11-14T09:19:01Z	https.request get a read ECONNRESET error, but curl can get response of the url requested	57		
 9603	1909610	false	open	false	0		2016-11-14T12:09:14Z	2016-11-14T12:09:14Z		require prepends \\?\ to paths on windows 10	214		
 9604	275871	true	closed	false	2		2016-11-14T12:44:32Z	2017-01-23T01:46:27Z	2016-11-18T20:49:16Z	src: fix memory leak introduced in 34febfbf4	3		
@@ -4491,7 +4492,7 @@
 11151	718899	true	closed	false	5		2017-02-03T19:20:39Z	2017-03-07T19:24:39Z	2017-02-06T23:35:58Z	doc: fix linting command for vcbuild	47		
 11152	2512748	true	closed	false	4		2017-02-03T20:00:37Z	2017-03-07T19:06:51Z	2017-02-06T19:15:23Z	test: add common.mustNotCall()	61		
 11153	811047	true	closed	false	5		2017-02-03T20:15:34Z	2017-02-08T16:39:38Z	2017-02-04T05:53:04Z	test: fix test.py command line options processing	86		
-11154	1093990	true	open	false	14		2017-02-03T21:16:19Z	2017-03-23T16:25:32Z		net: use actual Timeout instances on Sockets	184		
+11154	1093990	true	open	false	16		2017-02-03T21:16:19Z	2017-04-03T07:15:25Z		net: use actual Timeout instances on Sockets	184		
 11155	439929	true	open	false	1		2017-02-03T23:28:57Z	2017-02-04T00:18:17Z		"Revert ""test: refactor test-fs-error-messages.js"""	79		
 11156	7796741	false	open	false	10		2017-02-03T23:49:31Z	2017-03-20T08:55:30Z		segmentation fault at v8::internal::StoreBuffer::EnsureSpace ()	830		
 11157	305455	true	closed	false	6		2017-02-04T01:59:10Z	2017-03-07T20:40:34Z	2017-02-06T17:42:09Z	src: fix building --without-v8-platform (backport v7.x)	63		
@@ -5026,7 +5027,7 @@
 11686	15943089	true	closed	false	22		2017-03-04T15:30:36Z	2017-03-27T12:25:17Z	2017-03-27T01:16:59Z	doc: document use of the Squash and merge button	60		
 11687	5908321	false	closed	false	1		2017-03-04T21:11:30Z	2017-03-05T09:00:54Z	2017-03-05T09:00:54Z	dns.resolve4 doesn't return TTL as expected	133		
 11688	2456635	false	open	false	0		2017-03-04T21:28:43Z	2017-03-04T21:28:43Z		async await for class method 	60		
-11689	11638619	true	open	false	6		2017-03-05T08:16:47Z	2017-04-01T07:40:15Z		cli: ensure --check flag works for piped-in code	72		
+11689	11638619	true	open	false			2017-03-05T08:16:47Z	2017-04-03T08:02:41Z		cli: ensure --check flag works for piped-in code	72		
 11690	54666	true	open	false	2		2017-03-05T10:37:43Z	2017-03-30T10:08:10Z		url: avoid instanceof for WHATWG URL	212		
 11691	54666	true	closed	false	0	2	2017-03-05T11:19:26Z	2017-03-09T14:00:54Z	2017-03-09T14:00:54Z	WHATWG URL origin cleanup + tests	80	54666	2017-03-09T14:00:54Z
 11692	899444	true	closed	false	0		2017-03-05T11:43:04Z	2017-03-09T10:04:57Z	2017-03-09T10:04:57Z	src: drop the NODE_ISOLATE_SLOT macro	35		
@@ -5078,7 +5079,7 @@
 11739	20348639	false	open	false	0		2017-03-08T07:22:41Z	2017-03-08T07:22:41Z		how to get http response	163		
 11740	15943089	true	closed	false	2	0	2017-03-08T07:34:58Z	2017-03-08T09:11:30Z	2017-03-08T09:11:30Z	v4.x Backport - test: don't connect to :: (use localhost instead)	28		
 11741	1177112	false	open	false	0		2017-03-08T07:40:22Z	2017-03-08T07:40:22Z		`vm.runInContext` Failed to evaluated object literal.	54		
-11742	2725624	false	closed	false	6		2017-03-08T09:21:18Z	2017-03-15T08:46:16Z	2017-03-15T08:46:16Z	API response is extremely slow	167		
+11742	2725624	false	closed	false	7		2017-03-08T09:21:18Z	2017-04-03T08:02:47Z	2017-03-15T08:46:16Z	API response is extremely slow	167		
 11743	5886475	true	closed	false	1		2017-03-08T10:00:21Z	2017-03-09T21:10:47Z	2017-03-09T21:10:47Z	backport: v6.x - #11452 - doc: restrict the ES.Next features usage in tests	37		
 11744	17704638	true	closed	false	1		2017-03-08T10:50:09Z	2017-03-21T13:57:10Z	2017-03-21T13:57:10Z	backport v7.x - #9615 - benchmark: remove %OptimizeFunctionOnNextCall	47		
 11745	677994	true	closed	false	1	0	2017-03-08T11:52:00Z	2017-03-08T21:57:55Z	2017-03-08T21:57:55Z	v7.7.2 proposal	603	677994	2017-03-08T21:57:55Z
@@ -5337,7 +5338,7 @@
 11998	79017	true	open	false	0		2017-03-23T01:31:39Z	2017-03-29T03:53:00Z		deps: cherry-pick 22858cb from V8 upstream	84		
 11999	3367801	true	open	false	2		2017-03-23T03:20:02Z	2017-03-24T15:59:16Z		test: add test for url	34		
 12000	16479124	false	open	false	0		2017-03-23T03:21:00Z	2017-03-23T03:21:00Z		Question: Use ES6 Promises?	28		
-12001	1538624	true	open	false	3		2017-03-23T03:43:43Z	2017-03-31T20:23:16Z		zlib: support Uint8Array in convenience methods	42		
+12001	1538624	true	closed	false	4		2017-03-23T03:43:43Z	2017-04-03T07:55:11Z	2017-04-03T07:55:11Z	zlib: support Uint8Array in convenience methods	42		
 12002	432351	true	open	false			2017-03-23T10:52:34Z	2017-03-24T13:22:31Z		crypto: add OPENSSL_NO_EC guard	95		
 12003	11088793	false	closed	false	1		2017-03-23T11:35:49Z	2017-03-23T12:15:08Z	2017-03-23T12:15:08Z	error destructuring binding in function parameters	90		
 12004	2352663	true	closed	false	4	7	2017-03-23T11:58:14Z	2017-03-27T08:19:41Z	2017-03-27T08:19:41Z	deps: fix async await desugaring in V8	126	2352663	2017-03-27T08:19:41Z
@@ -5382,7 +5383,7 @@
 12044	8791438	false	closed	false	0		2017-03-25T22:28:56Z	2017-03-26T09:05:52Z	2017-03-26T09:05:52Z	ObjectWrap: there is no way to make v8 api call on GC	113		
 12045	8791438	true	closed	false	2	0	2017-03-25T22:33:43Z	2017-03-26T09:04:04Z	2017-03-26T09:04:04Z	ObjectWrap: allow v8 api calls on GC	19		
 12046	899444	true	open	false	3		2017-03-26T00:31:23Z	2017-03-28T20:10:24Z		util: use `[Array]` for deeply nested arrays	89		
-12047	15043356	false	open	false	3		2017-03-26T05:31:55Z	2017-04-03T03:48:39Z		subsequent http get requests trigger unjust socket hangup error	645		
+12047	15043356	false	open	false	4		2017-03-26T05:31:55Z	2017-04-03T07:56:47Z		subsequent http get requests trigger unjust socket hangup error	645		
 12048	101553	true	closed	false	1		2017-03-26T09:25:01Z	2017-03-28T16:35:30Z	2017-03-28T16:35:30Z	test: fix misleading comment	31		
 12049	1013699	false	closed	false	4		2017-03-26T12:34:07Z	2017-03-27T10:28:40Z	2017-03-26T17:30:01Z	Relative require	101		
 12050	15943089	true	open	false	0		2017-03-26T15:09:21Z	2017-03-28T20:02:58Z		lib: add comment to script eval _tickCallback	49		
@@ -5396,7 +5397,7 @@
 12058	1716463	true	open	false	5		2017-03-27T05:41:52Z	2017-04-02T16:45:04Z		url: change path parsing for non-special URLs	71		
 12059	4299420	true	open	false	7		2017-03-27T05:56:31Z	2017-04-02T14:08:12Z		build: sort .PHONY rules and add test-gc-clean	61		
 12060	432351	true	closed	false	0		2017-03-27T08:08:59Z	2017-03-29T05:49:36Z	2017-03-29T05:49:36Z	deps: backport 8dde6ac from upstream V8	76		
-12061	432351	true	open	false	8		2017-03-27T08:09:49Z	2017-03-31T17:45:04Z		deps: backport ec1ffe3 from upstream V8	163		
+12061	432351	true	open	false	9		2017-03-27T08:09:49Z	2017-04-03T07:31:59Z		deps: backport ec1ffe3 from upstream V8	163		
 12062	1028226	true	open	false	10		2017-03-27T09:32:13Z	2017-03-29T13:38:20Z		test: run the addon tests last	82		
 12063	1684236	false	closed	false	0		2017-03-27T09:42:44Z	2017-03-27T10:40:31Z	2017-03-27T10:40:31Z	fs.createWriteStream doesn't work if a directory with same name exist	95		
 12064	3967972	true	open	false	0		2017-03-27T11:48:03Z	2017-03-27T14:25:52Z		test: improve readline test coverage for tty	51		
@@ -5440,7 +5441,7 @@
 12103	718899	true	open	false	0	0	2017-03-28T23:37:15Z	2017-03-28T23:37:15Z		v7.x backport: tools: ignore URLs in line length linting	101		
 12104	498775	true	closed	false	6	0	2017-03-28T23:47:24Z	2017-03-29T03:01:04Z	2017-03-29T03:01:04Z	V7.8.0 proposal	866	498775	2017-03-29T03:01:04Z
 12105	54666	true	open	false			2017-03-28T23:53:42Z	2017-03-30T02:28:01Z		fs: Optimizations 3: The Revenge	779		
-12106	6009809	true	open	false	7		2017-03-28T23:57:46Z	2017-04-03T06:09:02Z		doc: change Mac OS X to macOS	43		
+12106	6009809	true	open	false	9		2017-03-28T23:57:46Z	2017-04-03T07:21:44Z		doc: change Mac OS X to macOS	43		
 12107	10393198	false	closed	false	6		2017-03-29T02:16:38Z	2017-04-02T11:03:40Z	2017-03-30T05:30:40Z	A bookmarklet to check commit messages in PRs	222		
 12108	631240	false	open	false	0		2017-03-29T02:27:07Z	2017-03-29T04:08:35Z		No official way to uninstall Node?	61		
 12109	5886475	true	open	false	0	0	2017-03-29T02:51:01Z	2017-03-29T02:51:01Z		backport: v7.x - #11989 - test: add internal/socket_list tests	40		
@@ -5502,15 +5503,15 @@
 12165	8019430	false	closed	false	3		2017-04-02T17:06:15Z	2017-04-02T18:55:19Z	2017-04-02T17:34:16Z	"Inconsistent availablity of .toString(""hex"");"	75		
 12166	432351	true	open	false	0	0	2017-04-02T17:20:54Z	2017-04-02T17:20:54Z		test: add variable arguments support for Argv	78		
 12167	910691	true	open	false	6		2017-04-02T17:46:00Z	2017-04-03T02:58:56Z		assert.doesNotThrow, show error message	95		
-12168	555645	false	open	false	1		2017-04-02T18:31:30Z	2017-04-03T00:48:32Z		url.parse would be better to not decode authority?	228		
+12168	555645	false	open	false	2		2017-04-02T18:31:30Z	2017-04-03T07:04:28Z		url.parse would be better to not decode authority?	228		
 12169	10393198	true	open	false	0	0	2017-04-02T19:07:29Z	2017-04-02T19:07:29Z		doc: modernize and fix code examples in http.md	59		
 12170	10393198	true	open	false	0		2017-04-02T21:46:49Z	2017-04-02T22:18:14Z		benchmark: replace [].join() with ''.repeat()	140		
 12171	10393198	true	open	false	0	0	2017-04-03T00:03:39Z	2017-04-03T00:03:39Z		doc: modernize and fix code examples in https.md	46		
 12172	10393198	true	open	false	2		2017-04-03T01:05:00Z	2017-04-03T02:22:58Z		benchmark: replace polyfill by padStart() in _benchmark_progress.js	27		
 12173	1587053	true	open	false	0	0	2017-04-03T02:36:25Z	2017-04-03T02:36:25Z		test: skip when openssl CLI doesn't exist	51		
-12174	12392344	false	open	false	0		2017-04-03T04:38:31Z	2017-04-03T04:38:31Z		"get different ""global"" variables on node cli and file by ""require"""	114		
+12174	12392344	false	open	false	1		2017-04-03T04:38:31Z	2017-04-03T07:19:16Z		"get different ""global"" variables on node cli and file by ""require"""	114		
 12175	432351	true	open	false	0	0	2017-04-03T06:12:44Z	2017-04-03T06:12:44Z		build: add checks for openssl configure options	85		
 12176	432351	true	open	false	0	0	2017-04-03T06:24:24Z	2017-04-03T06:24:24Z		build: make configure print statements consistent	71		
 12177	374012	false	open	false	0		2017-04-03T06:38:53Z	2017-04-03T06:38:53Z		Type confusion bugs in process_wrap.cc.	77		
 12178	374012	false	open	false	0		2017-04-03T06:41:08Z	2017-04-03T06:41:08Z		Type confusion bug in HTTP parser	89		
-12179	374012	false	open	false	0		2017-04-03T06:43:39Z	2017-04-03T06:43:39Z		Type confusion bug in WriteFloatGeneric	71		
+12179	374012	false	open	false	0		2017-04-03T06:43:39Z	2017-04-03T07:40:29Z		Type confusion bug in WriteFloatGeneric	71		
