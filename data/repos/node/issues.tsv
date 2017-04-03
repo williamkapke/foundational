@@ -1766,7 +1766,7 @@
 8419	8774679	true	open	false			2016-09-06T10:48:43Z	2017-04-03T15:28:28Z		net: multiple listen() events fail silently	94		
 8420	1443911	true	closed	false	11		2016-09-06T11:39:49Z	2016-09-12T04:17:45Z	2016-09-12T04:17:45Z	url: fix off-by-one error in loop handling dots	52		
 8421	275871	false	closed	false	3		2016-09-06T14:48:40Z	2016-09-23T22:27:16Z	2016-09-23T22:27:16Z	fs: fs.watchFile() should not emit 'stop' event synchronously	45		
-8422	1093990	true	open	false	15		2016-09-06T15:52:10Z	2017-03-24T14:40:31Z		timers: do not expose .unref()._handle._list	63		
+8422	1093990	true	open	false			2016-09-06T15:52:10Z	2017-04-03T19:01:09Z		timers: do not expose .unref()._handle._list	63		
 8423	4421720	true	closed	false	4	0	2016-09-06T15:52:19Z	2016-09-22T20:48:13Z	2016-09-22T20:48:13Z	doc: add CTC meeting minutes 2016-08-24	33	4421720	2016-09-22T20:48:13Z
 8424	4421720	true	closed	false	2	2	2016-09-06T16:02:59Z	2016-09-12T15:03:23Z	2016-09-12T15:03:23Z	doc: add CTC meeting minutes 2016-08-31	27	4421720	2016-09-12T15:03:23Z
 8425	718899	false	closed	false	17		2016-09-06T17:57:12Z	2016-10-06T21:35:07Z	2016-10-06T21:35:07Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-09-07	467		
@@ -5397,7 +5397,7 @@
 12058	1716463	true	closed	false	6		2017-03-27T05:41:52Z	2017-04-03T09:18:27Z	2017-04-03T09:18:27Z	url: change path parsing for non-special URLs	71		
 12059	4299420	true	open	false	7		2017-03-27T05:56:31Z	2017-04-02T14:08:12Z		build: sort .PHONY rules and add test-gc-clean	61		
 12060	432351	true	closed	false	0		2017-03-27T08:08:59Z	2017-03-29T05:49:36Z	2017-03-29T05:49:36Z	deps: backport 8dde6ac from upstream V8	76		
-12061	432351	true	open	false	11		2017-03-27T08:09:49Z	2017-04-03T15:29:52Z		deps: backport ec1ffe3 from upstream V8	163		
+12061	432351	true	open	false	12		2017-03-27T08:09:49Z	2017-04-03T18:34:34Z		deps: backport ec1ffe3 from upstream V8	163		
 12062	1028226	true	open	false	10		2017-03-27T09:32:13Z	2017-03-29T13:38:20Z		test: run the addon tests last	82		
 12063	1684236	false	closed	false	0		2017-03-27T09:42:44Z	2017-03-27T10:40:31Z	2017-03-27T10:40:31Z	fs.createWriteStream doesn't work if a directory with same name exist	95		
 12064	3967972	true	open	false	0		2017-03-27T11:48:03Z	2017-03-27T14:25:52Z		test: improve readline test coverage for tty	51		
@@ -5476,7 +5476,7 @@
 12138	96947	true	open	false	0	0	2017-03-30T16:55:30Z	2017-03-30T16:55:30Z		test: performance - remove Popen(shell=True)	34		
 12139	5447484	true	open	false	3		2017-03-30T20:23:20Z	2017-03-30T23:19:27Z		test: add RegExp second argument to assert.throws	37		
 12140	332968	true	open	false	1		2017-03-30T22:01:01Z	2017-04-03T17:29:50Z		test: extended test to makeCallback cb type check	42		
-12141	439929	true	closed	false	7		2017-03-31T03:14:54Z	2017-04-03T16:59:55Z	2017-04-03T16:59:55Z	buffer: zero fill Buffer(num) by default	52		
+12141	439929	true	closed	false	8		2017-03-31T03:14:54Z	2017-04-03T18:05:02Z	2017-04-03T16:59:55Z	buffer: zero fill Buffer(num) by default	52		
 12142	47413	true	open	false	15		2017-03-31T04:00:51Z	2017-04-01T17:53:57Z		assert: Add support for Map and Set in deepEqual	311		
 12143	899444	true	closed	false	4		2017-03-31T06:29:15Z	2017-04-03T12:41:24Z	2017-04-03T08:41:19Z	v8: fix offsets for TypedArray deserialization	73		
 12144	4923335	true	open	false	0		2017-03-31T08:42:55Z	2017-03-31T14:23:38Z		src: use const parameters in base64_decode_slow()	45		
@@ -5502,7 +5502,7 @@
 12164	3109072	true	open	false			2017-04-02T13:15:58Z	2017-04-03T14:27:25Z		crypto: Handle exceptions in hmac/hash.digest	120		
 12165	8019430	false	closed	false	3		2017-04-02T17:06:15Z	2017-04-02T18:55:19Z	2017-04-02T17:34:16Z	"Inconsistent availablity of .toString(""hex"");"	75		
 12166	432351	true	open	false	0	0	2017-04-02T17:20:54Z	2017-04-02T17:20:54Z		test: add variable arguments support for Argv	78		
-12167	910691	true	open	false	10		2017-04-02T17:46:00Z	2017-04-03T17:57:35Z		assert.doesNotThrow, show error message	95		
+12167	910691	true	open	false	11		2017-04-02T17:46:00Z	2017-04-03T18:16:58Z		assert.doesNotThrow, show error message	95		
 12168	555645	false	open	false	4		2017-04-02T18:31:30Z	2017-04-03T13:14:08Z		url.parse would be better to not decode authority?	228		
 12169	10393198	true	open	false	0	0	2017-04-02T19:07:29Z	2017-04-02T19:07:29Z		doc: modernize and fix code examples in http.md	59		
 12170	10393198	true	open	false			2017-04-02T21:46:48Z	2017-04-03T13:03:20Z		benchmark: replace [].join() with ''.repeat()	140		
@@ -5511,7 +5511,7 @@
 12173	1587053	true	open	false	0	0	2017-04-03T02:36:25Z	2017-04-03T02:36:25Z		test: skip when openssl CLI doesn't exist	51		
 12174	12392344	false	open	false	1		2017-04-03T04:38:31Z	2017-04-03T07:19:16Z		"get different ""global"" variables on node cli and file by ""require"""	114		
 12175	432351	true	open	false			2017-04-03T06:12:44Z	2017-04-03T11:07:36Z		build: add checks for openssl configure options	85		
-12176	432351	true	open	false	0	0	2017-04-03T06:24:24Z	2017-04-03T06:24:24Z		build: make configure print statements consistent	71		
+12176	432351	true	open	false			2017-04-03T06:24:24Z	2017-04-03T18:18:57Z		build: make configure print statements consistent	71		
 12177	374012	false	open	false	0		2017-04-03T06:38:53Z	2017-04-03T06:38:53Z		Type confusion bugs in process_wrap.cc.	77		
 12178	374012	false	open	false	0		2017-04-03T06:41:08Z	2017-04-03T06:41:08Z		Type confusion bug in HTTP parser	89		
 12179	374012	false	open	false	0		2017-04-03T06:43:39Z	2017-04-03T07:40:29Z		Type confusion bug in WriteFloatGeneric	71		
@@ -5527,3 +5527,5 @@
 12190	10393198	false	open	false	0		2017-04-03T14:54:01Z	2017-04-03T17:13:56Z		Explicit conditions consideration	44		
 12191	9373002	true	open	false			2017-04-03T15:50:07Z	2017-04-03T16:27:29Z		napi: break dep between v8 and napi attributes	54		
 12192	9373002	true	open	false	0	0	2017-04-03T16:38:59Z	2017-04-03T16:38:59Z		napi: supress invalid coverity leak message	89		
+12193	2227152	true	open	false	0	0	2017-04-03T18:20:37Z	2017-04-03T18:20:37Z		build: support dtrace on ARM	47		
+12194	10393198	true	open	false	0	0	2017-04-03T18:23:22Z	2017-04-03T18:23:22Z		benchmark: use object literal shorthands	50		
