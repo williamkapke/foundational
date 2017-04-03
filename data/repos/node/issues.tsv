@@ -4884,7 +4884,7 @@
 11543	25020067	true	open	false	2		2017-02-24T19:30:07Z	2017-02-27T16:21:15Z		Have console.timeEnd return the elapsed time.	14		
 11544	469365	true	closed	false	0		2017-02-24T20:54:11Z	2017-02-27T20:20:38Z	2017-02-27T20:20:38Z	doc: document clientRequest.aborted	96		
 11545	76945	false	open	false	3		2017-02-24T22:08:50Z	2017-02-27T17:23:03Z		Bug on array spread operator on NodeJS 6.10.0 with --optimize_for_size	303		
-11546	2512748	true	open	false	20		2017-02-25T00:05:23Z	2017-04-03T12:25:05Z		WIP: cluster: make scheduler configurable	378		
+11546	2512748	true	open	false	22		2017-02-25T00:05:23Z	2017-04-03T17:39:03Z		WIP: cluster: make scheduler configurable	378		
 11547	718899	true	closed	false	0		2017-02-25T06:20:08Z	2017-02-27T20:17:18Z	2017-02-27T20:17:18Z	test: favor assertions over console logging	34		
 11548	19511039	true	closed	false	1		2017-02-25T07:40:53Z	2017-02-27T20:10:03Z	2017-02-27T20:10:03Z	doc: argument types for assert methods	37		
 11549	1538624	true	closed	false	6	14	2017-02-25T08:31:49Z	2017-03-01T02:33:04Z	2017-03-01T02:33:04Z	src: do not ignore IDNA conversion error	252		
@@ -5471,11 +5471,11 @@
 12133	523889	false	closed	false	4		2017-03-30T06:41:37Z	2017-03-30T08:06:02Z	2017-03-30T08:06:02Z	Asynchronous write in stream	281		
 12134	1538624	true	open	false			2017-03-30T07:15:19Z	2017-04-01T17:25:28Z		url: stricter domainTo*() argument checking	35		
 12135	210965	true	open	false			2017-03-30T13:00:13Z	2017-03-30T13:13:08Z		test: add case for url.parse throwing a URIError	97		
-12136	332968	false	open	false	3		2017-03-30T15:12:05Z	2017-03-30T18:25:36Z		Possible error with coverage report	35		
+12136	332968	false	closed	false	5		2017-03-30T15:12:05Z	2017-04-03T17:39:02Z	2017-04-03T17:39:02Z	Possible error with coverage report	35		
 12137	28645	false	open	false	0		2017-03-30T15:19:21Z	2017-03-30T15:19:21Z		SNICallback doesn't seem to support some TLDs	26		
 12138	96947	true	open	false	0	0	2017-03-30T16:55:30Z	2017-03-30T16:55:30Z		test: performance - remove Popen(shell=True)	34		
 12139	5447484	true	open	false	3		2017-03-30T20:23:20Z	2017-03-30T23:19:27Z		test: add RegExp second argument to assert.throws	37		
-12140	332968	true	open	false	0		2017-03-30T22:01:01Z	2017-04-03T16:52:34Z		test: extended test to makeCallback cb type check	42		
+12140	332968	true	open	false	1		2017-03-30T22:01:01Z	2017-04-03T17:29:50Z		test: extended test to makeCallback cb type check	42		
 12141	439929	true	closed	false	7		2017-03-31T03:14:54Z	2017-04-03T16:59:55Z	2017-04-03T16:59:55Z	buffer: zero fill Buffer(num) by default	52		
 12142	47413	true	open	false	15		2017-03-31T04:00:51Z	2017-04-01T17:53:57Z		assert: Add support for Map and Set in deepEqual	311		
 12143	899444	true	closed	false	4		2017-03-31T06:29:15Z	2017-04-03T12:41:24Z	2017-04-03T08:41:19Z	v8: fix offsets for TypedArray deserialization	73		
@@ -5502,7 +5502,7 @@
 12164	3109072	true	open	false			2017-04-02T13:15:58Z	2017-04-03T14:27:25Z		crypto: Handle exceptions in hmac/hash.digest	120		
 12165	8019430	false	closed	false	3		2017-04-02T17:06:15Z	2017-04-02T18:55:19Z	2017-04-02T17:34:16Z	"Inconsistent availablity of .toString(""hex"");"	75		
 12166	432351	true	open	false	0	0	2017-04-02T17:20:54Z	2017-04-02T17:20:54Z		test: add variable arguments support for Argv	78		
-12167	910691	true	open	false	9		2017-04-02T17:46:00Z	2017-04-03T16:49:13Z		assert.doesNotThrow, show error message	95		
+12167	910691	true	open	false	10		2017-04-02T17:46:00Z	2017-04-03T17:57:35Z		assert.doesNotThrow, show error message	95		
 12168	555645	false	open	false	4		2017-04-02T18:31:30Z	2017-04-03T13:14:08Z		url.parse would be better to not decode authority?	228		
 12169	10393198	true	open	false	0	0	2017-04-02T19:07:29Z	2017-04-02T19:07:29Z		doc: modernize and fix code examples in http.md	59		
 12170	10393198	true	open	false			2017-04-02T21:46:48Z	2017-04-03T13:03:20Z		benchmark: replace [].join() with ''.repeat()	140		
@@ -5518,12 +5518,12 @@
 12181	3109072	true	open	false			2017-04-03T10:09:25Z	2017-04-03T15:14:32Z		doc: path functions ignore trailing slashes	42		
 12182	2931196	true	open	false	3		2017-04-03T11:14:08Z	2017-04-03T13:13:18Z		Implement assert.isInstanceOf()	69		
 12183	2291463	true	open	false	10		2017-04-03T11:49:50Z	2017-04-03T15:19:45Z		process: use rest parameters in nextTick.	58		
-12184	134460	true	open	false	3		2017-04-03T12:09:31Z	2017-04-03T16:44:51Z		Fix building on Windows x86	230		
+12184	134460	true	open	false	5		2017-04-03T12:09:31Z	2017-04-03T17:19:45Z		Fix building on Windows x86	230		
 12185	5249794	false	open	false	0		2017-04-03T12:13:57Z	2017-04-03T12:13:57Z		API Documentation for C++ Addons similar to other modules	93		
 12186	899444	true	open	false			2017-04-03T12:52:52Z	2017-04-03T13:11:46Z		test: fix V8 test on big-endian machines	4		
 12187	3764614	true	open	false			2017-04-03T13:23:40Z	2017-04-03T14:14:46Z		Refactor/code optimization	66		
 12188	349336	false	open	false	0		2017-04-03T13:26:59Z	2017-04-03T13:26:59Z		Any chances on promise-compatible built-in functions?	66		
 12189	6230776	false	closed	false	4		2017-04-03T13:30:45Z	2017-04-03T14:08:09Z	2017-04-03T13:44:42Z	How can I read string of given length, using only file descriptor, returned by fs.open()?	92		
-12190	10393198	false	open	false	0		2017-04-03T14:54:01Z	2017-04-03T14:54:01Z		Explicit conditions consideration	44		
+12190	10393198	false	open	false	0		2017-04-03T14:54:01Z	2017-04-03T17:13:56Z		Explicit conditions consideration	44		
 12191	9373002	true	open	false			2017-04-03T15:50:07Z	2017-04-03T16:27:29Z		napi: break dep between v8 and napi attributes	54		
 12192	9373002	true	open	false	0	0	2017-04-03T16:38:59Z	2017-04-03T16:38:59Z		napi: supress invalid coverity leak message	89		
