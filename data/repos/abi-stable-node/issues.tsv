@@ -100,7 +100,7 @@
 100	13093042	true	closed	false	0	0	2017-02-11T05:40:10Z	2017-02-13T21:44:12Z	2017-02-13T21:44:12Z	RangeError APIs (ChakraCore)	14	13093042	2017-02-13T21:44:12Z
 101	13093042	true	open	false	5		2017-02-11T06:16:29Z	2017-02-22T22:34:21Z		Property & class definition improvements (ChakraCore)	62		
 102	13093042	false	open	false	0		2017-02-13T17:48:15Z	2017-02-13T22:04:42Z		Unit test coverage	110		
-103	9373002	false	open	false	0		2017-02-13T22:02:34Z	2017-02-13T22:02:34Z		Make sure to run CI for all commit	15		
+103	9373002	false	closed	false	2		2017-02-13T22:02:34Z	2017-04-04T20:49:11Z	2017-04-04T20:49:11Z	Make sure to run CI for all commit	71		
 104	976081	true	closed	false	0	2	2017-02-14T11:22:16Z	2017-02-14T20:05:01Z	2017-02-14T20:05:01Z	build: size_t needs stdlib.h on linux	0	976081	2017-02-14T20:05:01Z
 105	976081	false	closed	false	9		2017-02-14T13:07:43Z	2017-03-02T18:32:23Z	2017-03-02T18:32:23Z	Does this napi_value have native data associated with it, and if so, what type is it?	361		
 106	976081	true	closed	false	0	0	2017-02-15T10:52:01Z	2017-02-15T20:16:41Z	2017-02-15T20:16:41Z	napi: function may be called with any value as recv	14	976081	2017-02-15T20:16:40Z
@@ -135,7 +135,7 @@
 135	4103081	false	closed	false	0		2017-03-08T15:55:39Z	2017-03-16T01:10:39Z	2017-03-16T01:10:39Z	Buffer data argument should be void*, not char*	124		
 136	13093042	false	open	false	1		2017-03-09T18:41:59Z	2017-03-15T20:04:08Z		Delete node_api_helpers.h and update code that used it	89		
 137	976081	false	closed	false	1		2017-03-09T19:42:37Z	2017-03-16T18:02:23Z	2017-03-16T18:02:23Z	Remove build flag	26		
-138	12057627	false	open	false	2		2017-03-09T23:54:34Z	2017-03-21T00:02:33Z		Final Validation	109		
+138	12057627	false	closed	false	4		2017-03-09T23:54:34Z	2017-04-04T20:48:37Z	2017-04-04T20:48:37Z	Final Validation	99		
 139	158390	true	closed	false	4		2017-03-10T00:24:27Z	2017-03-11T01:46:15Z	2017-03-10T23:34:40Z	napi, test: Fix eslint errors	14		
 140	158390	true	open	false	13		2017-03-10T01:16:08Z	2017-03-16T18:11:29Z		napi: Fix cpplint errors	18		
 141	7670632	true	open	false	2		2017-03-13T21:16:44Z	2017-03-15T15:54:12Z		napi: Remove code that is not going in PR	8		
@@ -167,7 +167,7 @@
 167	13093042	true	closed	false	8	0	2017-03-18T18:37:30Z	2017-03-20T21:12:12Z	2017-03-20T21:12:12Z	Enable back-compat with pre-N-API node	263	13093042	2017-03-20T21:12:12Z
 168	9373002	false	open	false	3		2017-03-20T15:13:50Z	2017-03-20T17:22:12Z		CI run broken by N-API experimental warning	88		
 169	13093042	true	open	false	0	0	2017-03-20T17:19:44Z	2017-03-20T17:19:44Z		Disable N-API by default	18		
-170	9373002	true	open	false	4		2017-03-20T23:48:32Z	2017-04-03T20:25:03Z		doc: initial version of error handling section	49		
+170	9373002	true	closed	false	5		2017-03-20T23:48:32Z	2017-04-04T20:39:07Z	2017-04-04T20:39:07Z	doc: initial version of error handling section	49		
 171	9373002	true	open	false	4		2017-03-21T06:40:23Z	2017-04-03T20:13:15Z		doc: initial version of memory management documentation	0		
 172	9373002	true	open	false	2		2017-03-21T06:40:53Z	2017-04-03T20:10:22Z		doc: initial version of module registration documentation	0		
 173	976081	true	open	false	3		2017-03-21T07:30:17Z	2017-03-21T15:14:53Z		tools: do not install node_macros.h	0		
@@ -213,9 +213,9 @@
 213	1569843	true	open	false	0	0	2017-03-30T01:15:24Z	2017-03-30T01:15:24Z		Add the _array suffix to the TypedArray type enum	5		
 214	976081	true	open	false	2		2017-03-31T15:13:48Z	2017-04-03T05:10:09Z		209 cache has instance	60		
 215	158390	true	open	false			2017-04-03T06:09:57Z	2017-04-04T16:40:33Z		Add doc for N-API basic datatypes	31		
-216	158390	true	open	false			2017-04-03T06:11:16Z	2017-04-04T01:10:58Z		Add doc for N-API Abstract Operations APIs	21		
+216	158390	true	open	false			2017-04-03T06:11:16Z	2017-04-04T20:55:23Z		Add doc for N-API Abstract Operations APIs	21		
 217	158390	true	open	false			2017-04-03T06:12:23Z	2017-04-03T20:07:01Z		Add doc for N-API APIs to interop with JS functions	19		
 218	158390	true	open	false			2017-04-03T06:12:47Z	2017-04-03T19:14:08Z		Add N-API doc to create and manipulate JS datatypes	2		
 219	158390	true	open	false			2017-04-03T06:13:51Z	2017-04-04T16:50:21Z		Add N-API doc to describe property operations	18		
 220	9373002	false	open	false	0		2017-04-03T15:37:34Z	2017-04-03T15:37:34Z		Adjust CI jobs now that PR has landed	32		
-221	1538624	false	open	false	2		2017-04-03T23:50:38Z	2017-04-04T16:55:02Z		Modernize napi_property_attributes enum names	113		
+221	1538624	false	open	false	4		2017-04-03T23:50:38Z	2017-04-04T20:45:42Z		Modernize napi_property_attributes enum names	113		
