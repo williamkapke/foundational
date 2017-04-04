@@ -8,7 +8,7 @@
 548	1522145	false	closed	false	26		2015-01-22T03:48:27Z	2017-01-26T21:48:27Z	2017-01-26T21:48:27Z	Function redefinition in vm.runInContext	44		
 550	30827	false	closed	false	10		2015-01-22T05:35:22Z	2016-08-05T22:14:53Z	2016-08-05T22:14:53Z	Proposal: HTTP – Move `bodyHead` to `data` event	125		
 556	7656868	false	open	false	27		2015-01-22T12:22:06Z	2017-01-07T06:31:51Z		Silent Mode execution	314		
-583	643505	false	open	false	49		2015-01-23T23:53:00Z	2017-04-03T22:45:40Z		streaming / iterative fs.readdir	50		
+583	643505	false	open	false	50		2015-01-23T23:53:00Z	2017-04-04T11:58:22Z		streaming / iterative fs.readdir	50		
 616	1106489	false	closed	false	11		2015-01-27T02:44:36Z	2016-10-20T11:52:43Z	2015-06-24T23:04:28Z	url.relative (to complement path.relative)	101		
 643	829734	false	closed	false	32		2015-01-28T21:12:32Z	2017-02-07T10:58:10Z	2016-08-05T22:17:26Z	Using faster url parser	82		
 646	54666	false	closed	false	18		2015-01-29T01:38:54Z	2017-02-07T17:58:41Z	2017-02-07T17:58:41Z	switch to benchmark.js module for benchmarking	54		
@@ -5296,7 +5296,7 @@
 11954	374012	false	closed	false	0		2017-03-21T04:43:25Z	2017-03-27T00:09:11Z	2017-03-27T00:09:11Z	Buffer::Length hard crashes	106		
 11955	14886044	false	open	false	0		2017-03-21T05:27:32Z	2017-03-21T05:27:32Z		createWriteStream and createReadStream  not working properly with Socket	85		
 11956	432351	true	closed	false	3		2017-03-21T09:02:12Z	2017-03-28T22:33:56Z	2017-03-24T15:31:35Z	build: enable cctest to use generated objects	319		
-11957	52195	true	open	false	15		2017-03-21T09:11:49Z	2017-03-27T19:22:05Z		stream: move prefixed files into internal/streams.	62		
+11957	52195	true	open	false	16		2017-03-21T09:11:49Z	2017-04-04T11:05:31Z		stream: move prefixed files into internal/streams.	62		
 11958	275871	true	closed	false	5		2017-03-21T10:50:56Z	2017-03-30T14:57:35Z	2017-03-24T16:26:32Z	lib: fix event race condition with -e	86		
 11959	20812784	false	open	false	0		2017-03-21T11:46:34Z	2017-03-21T12:13:57Z		Overclocked AMD causes NPM to respond Assertion failed: new_time >= loop->time ...	64		
 11960	880513	false	closed	false	8		2017-03-21T12:41:56Z	2017-03-25T08:46:13Z	2017-03-25T08:46:13Z	In async function, returns a value in try block will before await statement in finally block	48		
@@ -5479,7 +5479,7 @@
 12139	5447484	true	open	false	3		2017-03-30T20:23:20Z	2017-03-30T23:19:27Z		test: add RegExp second argument to assert.throws	37		
 12140	332968	true	open	false	1		2017-03-30T22:01:01Z	2017-04-03T17:29:50Z		test: extended test to makeCallback cb type check	42		
 12141	439929	true	closed	false	8		2017-03-31T03:14:54Z	2017-04-03T18:05:02Z	2017-04-03T16:59:55Z	buffer: zero fill Buffer(num) by default	52		
-12142	47413	true	open	false	15		2017-03-31T04:00:51Z	2017-04-01T17:53:57Z		assert: Add support for Map and Set in deepEqual	311		
+12142	47413	true	closed	false	17		2017-03-31T04:00:51Z	2017-04-04T11:20:58Z	2017-04-03T08:19:53Z	assert: Add support for Map and Set in deepEqual	311		
 12143	899444	true	closed	false	4		2017-03-31T06:29:15Z	2017-04-03T12:41:24Z	2017-04-03T08:41:19Z	v8: fix offsets for TypedArray deserialization	73		
 12144	4923335	true	open	false	0		2017-03-31T08:42:55Z	2017-03-31T14:23:38Z		src: use const parameters in base64_decode_slow()	45		
 12145	3841492	false	open	false	0		2017-03-31T12:20:51Z	2017-03-31T12:20:51Z		NPM terminates	116		
@@ -5505,7 +5505,7 @@
 12165	8019430	false	closed	false	3		2017-04-02T17:06:15Z	2017-04-02T18:55:19Z	2017-04-02T17:34:16Z	"Inconsistent availablity of .toString(""hex"");"	75		
 12166	432351	true	open	false	0	0	2017-04-02T17:20:54Z	2017-04-02T17:20:54Z		test: add variable arguments support for Argv	78		
 12167	910691	true	open	false	13		2017-04-02T17:46:00Z	2017-04-04T08:37:55Z		assert.doesNotThrow, show error message	95		
-12168	555645	false	open	false	4		2017-04-02T18:31:30Z	2017-04-03T13:14:08Z		url.parse would be better to not decode authority?	228		
+12168	555645	false	open	false	5		2017-04-02T18:31:30Z	2017-04-04T11:21:20Z		url.parse would be better to not decode authority?	228		
 12169	10393198	true	open	false	0	0	2017-04-02T19:07:29Z	2017-04-02T19:07:29Z		doc: modernize and fix code examples in http.md	59		
 12170	10393198	true	open	false			2017-04-02T21:46:48Z	2017-04-03T13:03:20Z		benchmark: replace [].join() with ''.repeat()	140		
 12171	10393198	true	open	false	1		2017-04-03T00:03:39Z	2017-04-03T14:07:48Z		doc: modernize and fix code examples in https.md	46		
@@ -5526,11 +5526,11 @@
 12187	3764614	true	open	false			2017-04-03T13:23:40Z	2017-04-03T14:14:46Z		Refactor/code optimization	66		
 12188	349336	false	open	false	0		2017-04-03T13:26:59Z	2017-04-03T13:26:59Z		Any chances on promise-compatible built-in functions?	66		
 12189	6230776	false	closed	false	4		2017-04-03T13:30:45Z	2017-04-03T14:08:09Z	2017-04-03T13:44:42Z	How can I read string of given length, using only file descriptor, returned by fs.open()?	92		
-12190	10393198	false	open	false	1		2017-04-03T14:54:01Z	2017-04-04T08:14:48Z		Explicit conditions consideration	44		
+12190	10393198	false	open	false	3		2017-04-03T14:54:01Z	2017-04-04T11:55:37Z		Explicit conditions consideration	44		
 12191	9373002	true	open	false			2017-04-03T15:50:07Z	2017-04-04T03:19:28Z		napi: break dep between v8 and napi attributes	54		
 12192	9373002	true	open	false	0	0	2017-04-03T16:38:59Z	2017-04-03T16:38:59Z		napi: supress invalid coverity leak message	89		
 12193	2227152	true	open	false	0	0	2017-04-03T18:20:37Z	2017-04-03T18:20:37Z		build: support dtrace on ARM	47		
-12194	10393198	true	open	false	2		2017-04-03T18:23:22Z	2017-04-04T08:25:15Z		benchmark: use object literal shorthands	50		
+12194	10393198	true	open	false	5		2017-04-03T18:23:22Z	2017-04-04T11:54:09Z		benchmark: use object literal shorthands	50		
 12195	976081	true	open	false	3		2017-04-03T20:49:30Z	2017-04-04T05:33:45Z		napi: create napi_env as a real structure	137		
 12196	1093990	true	open	false	1		2017-04-03T22:03:51Z	2017-04-04T08:03:31Z		src: remove PumpMessageLoop() from Start() (?)	64		
 12197	567540	true	open	false	3		2017-04-03T22:27:31Z	2017-04-04T05:05:50Z		src: Remove support for --debug	78		
@@ -5540,3 +5540,4 @@
 12201	15943089	true	open	false	0	0	2017-04-04T09:16:09Z	2017-04-04T09:16:09Z		build: don't test addons-napi twice	67		
 12202	1028226	true	open	false	0		2017-04-04T10:00:10Z	2017-04-04T10:10:18Z		module: standardize strip shebang behaviour	67		
 12203	1716463	true	open	false	0	0	2017-04-04T10:41:53Z	2017-04-04T10:41:53Z		url: trim leading slashes of file URL paths	50		
+12204	432351	true	open	false	0	0	2017-04-04T11:23:20Z	2017-04-04T11:23:20Z		build: create test_addons function	55		
