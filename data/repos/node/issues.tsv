@@ -5233,7 +5233,7 @@
 11891	5886475	true	closed	false	5		2017-03-17T06:33:03Z	2017-03-24T02:42:05Z	2017-03-22T06:33:07Z	errors: remove needless lazyAssert 	60		
 11892	2291463	false	open	false	4		2017-03-17T07:53:42Z	2017-03-17T20:26:21Z		node --inspect --debug-brk should break before the script even executes	74		
 11893	2291463	false	open	false	7		2017-03-17T08:05:10Z	2017-03-20T08:01:19Z		Node.js' internal scripts should be hidden in the inspector.	63		
-11894	2352663	true	open	false	4		2017-03-17T08:38:32Z	2017-03-29T08:34:35Z		benchmark: avoid TurboFan deopt in arrays bench	99		
+11894	2352663	true	open	false	5		2017-03-17T08:38:32Z	2017-04-04T09:02:14Z		benchmark: avoid TurboFan deopt in arrays bench	99		
 11895	2352663	false	closed	false	2		2017-03-17T10:36:47Z	2017-03-21T09:14:04Z	2017-03-21T09:14:04Z	vm benchmarks are broken	28		
 11896	275871	true	closed	false	2		2017-03-17T10:45:21Z	2017-03-22T16:44:09Z	2017-03-22T16:44:09Z	tls: fix SecurePair external memory reporting	35		
 11897	234659	true	closed	false	1	2	2017-03-17T13:20:29Z	2017-03-22T06:09:35Z	2017-03-22T06:09:35Z	doc: require uses fs root for '/' prefix	26		
@@ -5492,11 +5492,11 @@
 12152	835618	false	open	false	0		2017-03-31T22:22:46Z	2017-03-31T22:22:46Z		Node crashes for corner case with streams / readline	144		
 12153	718899	true	open	false	2		2017-04-01T05:52:21Z	2017-04-03T14:32:04Z		buffer,util: refactor for performance	53		
 12154	1587053	true	open	false	0	0	2017-04-01T08:16:47Z	2017-04-01T08:16:47Z		Test openssl cli v6 backport	13		
-12155	6239057	false	closed	false	9		2017-04-01T10:14:11Z	2017-04-04T07:49:41Z	2017-04-04T07:49:41Z	build: fail to build in raspberry Pi 3 + raspbian wheezy	1347		
+12155	6239057	false	closed	false	10		2017-04-01T10:14:11Z	2017-04-04T08:11:59Z	2017-04-04T07:49:41Z	build: fail to build in raspberry Pi 3 + raspbian wheezy	1347		
 12156	2376199	false	open	false	3		2017-04-01T10:48:23Z	2017-04-01T11:15:43Z		The docs for path.resolve does not state if cross platform	71		
 12157	15943089	true	open	false	0	0	2017-04-01T17:36:03Z	2017-04-01T17:36:03Z		build: use $(RM) in Makefile for consistency	104		
 12158	15943089	true	open	false	0	0	2017-04-01T18:59:48Z	2017-04-01T18:59:48Z		build: avoid passing kill empty input in Makefile	82		
-12159	1084056	true	open	false	2		2017-04-01T19:09:05Z	2017-04-03T15:29:49Z		test: fix flaky test-child-process-exec-timeout	95		
+12159	1084056	true	open	false	5		2017-04-01T19:09:05Z	2017-04-04T08:36:55Z		test: fix flaky test-child-process-exec-timeout	95		
 12160	1176319	true	open	false	0	0	2017-04-01T21:02:46Z	2017-04-01T21:02:46Z		start inspect agent on SIGUSR2	58		
 12161	357304	false	open	false	0		2017-04-02T05:12:53Z	2017-04-02T05:12:53Z		Documentation, dns.resolvePtr(hostname) missing callback argument	19		
 12162	718899	true	open	false	2		2017-04-02T06:12:46Z	2017-04-02T13:34:24Z		tools: update to Eslint 3.19.0 and replace custom rule	61		
@@ -5504,7 +5504,7 @@
 12164	3109072	true	open	false			2017-04-02T13:15:58Z	2017-04-03T14:27:25Z		crypto: Handle exceptions in hmac/hash.digest	120		
 12165	8019430	false	closed	false	3		2017-04-02T17:06:15Z	2017-04-02T18:55:19Z	2017-04-02T17:34:16Z	"Inconsistent availablity of .toString(""hex"");"	75		
 12166	432351	true	open	false	0	0	2017-04-02T17:20:54Z	2017-04-02T17:20:54Z		test: add variable arguments support for Argv	78		
-12167	910691	true	open	false	11		2017-04-02T17:46:00Z	2017-04-03T18:16:58Z		assert.doesNotThrow, show error message	95		
+12167	910691	true	open	false	13		2017-04-02T17:46:00Z	2017-04-04T08:37:55Z		assert.doesNotThrow, show error message	95		
 12168	555645	false	open	false	4		2017-04-02T18:31:30Z	2017-04-03T13:14:08Z		url.parse would be better to not decode authority?	228		
 12169	10393198	true	open	false	0	0	2017-04-02T19:07:29Z	2017-04-02T19:07:29Z		doc: modernize and fix code examples in http.md	59		
 12170	10393198	true	open	false			2017-04-02T21:46:48Z	2017-04-03T13:03:20Z		benchmark: replace [].join() with ''.repeat()	140		
@@ -5526,13 +5526,13 @@
 12187	3764614	true	open	false			2017-04-03T13:23:40Z	2017-04-03T14:14:46Z		Refactor/code optimization	66		
 12188	349336	false	open	false	0		2017-04-03T13:26:59Z	2017-04-03T13:26:59Z		Any chances on promise-compatible built-in functions?	66		
 12189	6230776	false	closed	false	4		2017-04-03T13:30:45Z	2017-04-03T14:08:09Z	2017-04-03T13:44:42Z	How can I read string of given length, using only file descriptor, returned by fs.open()?	92		
-12190	10393198	false	open	false	0		2017-04-03T14:54:01Z	2017-04-03T17:13:56Z		Explicit conditions consideration	44		
+12190	10393198	false	open	false	1		2017-04-03T14:54:01Z	2017-04-04T08:14:48Z		Explicit conditions consideration	44		
 12191	9373002	true	open	false			2017-04-03T15:50:07Z	2017-04-04T03:19:28Z		napi: break dep between v8 and napi attributes	54		
 12192	9373002	true	open	false	0	0	2017-04-03T16:38:59Z	2017-04-03T16:38:59Z		napi: supress invalid coverity leak message	89		
 12193	2227152	true	open	false	0	0	2017-04-03T18:20:37Z	2017-04-03T18:20:37Z		build: support dtrace on ARM	47		
-12194	10393198	true	open	false	1		2017-04-03T18:23:22Z	2017-04-04T06:47:40Z		benchmark: use object literal shorthands	50		
+12194	10393198	true	open	false	2		2017-04-03T18:23:22Z	2017-04-04T08:25:15Z		benchmark: use object literal shorthands	50		
 12195	976081	true	open	false	3		2017-04-03T20:49:30Z	2017-04-04T05:33:45Z		napi: create napi_env as a real structure	137		
-12196	1093990	true	open	false	0	0	2017-04-03T22:03:51Z	2017-04-03T22:03:51Z		src: remove PumpMessageLoop() from Start() (?)	63		
+12196	1093990	true	open	false	1		2017-04-03T22:03:51Z	2017-04-04T08:03:31Z		src: remove PumpMessageLoop() from Start() (?)	64		
 12197	567540	true	open	false	3		2017-04-03T22:27:31Z	2017-04-04T05:05:50Z		src: Remove support for --debug	78		
 12198	7834613	false	open	false	2		2017-04-04T00:30:49Z	2017-04-04T03:10:29Z		test-intl-no-icu-data.js fails unless node compiled --with-intl=small-icu	58		
 12199	718899	true	open	false	1		2017-04-04T03:48:32Z	2017-04-04T07:16:42Z		test: remove disabled debugger test	63		
