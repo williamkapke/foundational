@@ -151,6 +151,7 @@
 3101	7358595	false	closed	false	11		2015-09-28T11:07:40Z	2016-09-26T13:20:14Z	2015-09-28T12:34:09Z	Destructuring Assignment doesn't work in node v 4.1.0 for me	52		
 3105	452298	false	closed	false	6		2015-09-28T17:02:34Z	2016-07-13T06:35:23Z	2016-07-13T06:35:23Z	Generators are not providing the right line:col for the error message	116		
 3145	369698	false	closed	false	17		2015-10-01T12:26:52Z	2017-01-16T17:58:21Z	2017-01-16T05:46:58Z	child_process IPC is very slow, about 100-10000x slower than I expected (scales with msg size)	213		
+3156	718899	false	closed	false	3		2015-10-02T03:40:19Z	2017-04-04T03:51:18Z	2017-04-04T03:51:18Z	make test-debugger fails hard, amirite?	36		
 3159	131406	false	closed	false	6		2015-10-02T13:49:38Z	2017-01-24T21:46:29Z	2017-01-24T21:46:29Z	please provide a way to use system-installed root certificates instead of bundled ones	82		
 3164	8023447	false	closed	false	7		2015-10-03T03:28:07Z	2016-12-14T07:55:50Z	2015-10-03T16:26:02Z	State of ES6/ES7 in node/v8?	175		
 3173	2622601	true	closed	false	10	3	2015-10-04T09:40:31Z	2017-03-24T23:35:18Z	2017-03-24T23:35:18Z	crypto: check for valid iteration length in pbkdf2	48		
@@ -328,6 +329,7 @@
 5258	172594	false	open	false	17		2016-02-16T12:06:31Z	2016-09-23T20:50:53Z		Propose NODE_TLS_REJECT_UNAUTHORIZED be renamed	117		
 5261	1715054	false	open	false	20		2016-02-16T18:43:30Z	2017-01-19T14:31:34Z		Error: EPERM: operation not permitted, open 'C:\Users\username\.node_repl_history'	15		
 5266	1656054	false	closed	false	11		2016-02-17T00:03:03Z	2017-01-09T14:21:34Z	2017-01-09T14:21:34Z	Segfault when passing objects between vm contexts	221		
+5268	718899	false	closed	false	0		2016-02-17T03:49:37Z	2017-04-04T03:52:20Z	2017-04-04T03:52:20Z	Windows 10 access violation with debugger	157		
 5270	3832082	true	closed	false	15	0	2016-02-17T06:10:56Z	2017-03-26T11:10:28Z	2017-03-26T11:10:28Z	debugger: fix debugger blocked main thread	25		
 5285	568962	false	closed	false	4		2016-02-17T16:20:08Z	2017-02-16T12:10:13Z	2017-02-16T12:10:13Z	util: possible way to speed up util.format()	74		
 5307	4813414	false	open	false	11		2016-02-18T19:31:51Z	2016-11-17T21:28:34Z		RFE: node should have a mktemp()	43		
@@ -2182,7 +2184,7 @@
 8835	718899	true	open	false	5		2016-09-28T18:46:49Z	2016-09-29T15:56:21Z		test: mark test-inspector flaky on windows	30		
 8836	432351	true	closed	false	16		2016-09-28T19:00:38Z	2016-11-18T20:56:25Z	2016-10-06T17:31:04Z	test: enable addons test to pass with debug build	142		
 8837	567540	true	open	false	12		2016-09-28T20:55:31Z	2017-03-26T20:33:19Z		inspector: Allow require in Runtime.evaluate	92		
-8838	718899	false	open	false	6		2016-09-28T21:32:10Z	2016-09-30T21:17:20Z		investigate flaky parallel/test-debug-signal-cluster on SmartOS	75		
+8838	718899	false	closed	false	7		2016-09-28T21:32:10Z	2017-04-04T03:53:02Z	2017-04-04T03:53:01Z	investigate flaky parallel/test-debug-signal-cluster on SmartOS	75		
 8839	2205537	false	closed	false	5		2016-09-28T23:55:39Z	2016-10-01T14:00:28Z	2016-10-01T14:00:28Z	`process.stdin` is not implemented in bash for Windows 10... unknown type	246		
 8840	602462	true	closed	false	6	16	2016-09-29T01:05:51Z	2016-10-03T22:26:49Z	2016-10-03T22:26:49Z	doc: Docs for the common module API in tests	52		
 8841	578156	true	open	false	1		2016-09-29T02:58:44Z	2016-09-30T16:20:32Z		test: use common.skip for tap skip output and test cleanup	49		
@@ -5220,7 +5222,7 @@
 11880	2456635	false	closed	false	3		2017-03-16T13:12:21Z	2017-03-16T23:50:33Z	2017-03-16T23:50:33Z	node --inspect not working 	166		
 11881	1799756	false	closed	false	4		2017-03-16T16:01:30Z	2017-03-16T19:20:40Z	2017-03-16T19:20:40Z	Invalid output with backslashes in string literals, if console.log has multiple parameters	33		
 11882	15730986	false	open	false	26		2017-03-16T16:08:30Z	2017-03-31T14:28:00Z		npm --version segfaults on v7.7.3 linux ppc64 (BE) only ON RHEL 7	38		
-11883	289174	true	open	false	6		2017-03-16T17:40:27Z	2017-04-03T21:29:14Z		async_hooks initial implementation	209		
+11883	289174	true	open	false	7		2017-03-16T17:40:27Z	2017-04-04T03:03:58Z		async_hooks initial implementation	209		
 11884	1154680	false	open	false	13		2017-03-16T18:21:37Z	2017-03-25T01:32:46Z		require accepts incoherent files	104		
 11885	22823019	false	closed	false	5		2017-03-16T22:34:58Z	2017-03-20T15:54:25Z	2017-03-20T15:54:25Z	SIGSEGV When Reading From SSL Stream	470		
 11886	332968	true	closed	false	4		2017-03-16T23:01:47Z	2017-03-21T14:34:52Z	2017-03-20T17:19:22Z	test: added tests for unixtimestamp generation	40		
@@ -5511,7 +5513,7 @@
 12173	1587053	true	open	false	0	0	2017-04-03T02:36:25Z	2017-04-03T02:36:25Z		test: skip when openssl CLI doesn't exist	51		
 12174	12392344	false	open	false	1		2017-04-03T04:38:31Z	2017-04-03T07:19:16Z		"get different ""global"" variables on node cli and file by ""require"""	114		
 12175	432351	true	open	false			2017-04-03T06:12:44Z	2017-04-03T11:07:36Z		build: add checks for openssl configure options	85		
-12176	432351	true	open	false			2017-04-03T06:24:24Z	2017-04-03T18:18:57Z		build: make configure print statements consistent	71		
+12176	432351	true	open	false			2017-04-03T06:24:24Z	2017-04-04T03:58:58Z		build: make configure print statements consistent	71		
 12177	374012	false	open	false	0		2017-04-03T06:38:53Z	2017-04-03T06:38:53Z		Type confusion bugs in process_wrap.cc.	77		
 12178	374012	false	open	false	0		2017-04-03T06:41:08Z	2017-04-03T06:41:08Z		Type confusion bug in HTTP parser	89		
 12179	374012	false	open	false	0		2017-04-03T06:43:39Z	2017-04-03T07:40:29Z		Type confusion bug in WriteFloatGeneric	71		
@@ -5525,11 +5527,12 @@
 12188	349336	false	open	false	0		2017-04-03T13:26:59Z	2017-04-03T13:26:59Z		Any chances on promise-compatible built-in functions?	66		
 12189	6230776	false	closed	false	4		2017-04-03T13:30:45Z	2017-04-03T14:08:09Z	2017-04-03T13:44:42Z	How can I read string of given length, using only file descriptor, returned by fs.open()?	92		
 12190	10393198	false	open	false	0		2017-04-03T14:54:01Z	2017-04-03T17:13:56Z		Explicit conditions consideration	44		
-12191	9373002	true	open	false			2017-04-03T15:50:07Z	2017-04-03T16:27:29Z		napi: break dep between v8 and napi attributes	54		
+12191	9373002	true	open	false			2017-04-03T15:50:07Z	2017-04-04T03:19:28Z		napi: break dep between v8 and napi attributes	54		
 12192	9373002	true	open	false	0	0	2017-04-03T16:38:59Z	2017-04-03T16:38:59Z		napi: supress invalid coverity leak message	89		
 12193	2227152	true	open	false	0	0	2017-04-03T18:20:37Z	2017-04-03T18:20:37Z		build: support dtrace on ARM	47		
 12194	10393198	true	open	false	0	0	2017-04-03T18:23:22Z	2017-04-03T18:23:22Z		benchmark: use object literal shorthands	50		
 12195	976081	true	open	false	1		2017-04-03T20:49:30Z	2017-04-03T21:49:15Z		napi: create napi_env as a real structure	137		
 12196	1093990	true	open	false	0	0	2017-04-03T22:03:51Z	2017-04-03T22:03:51Z		src: remove PumpMessageLoop() from Start() (?)	63		
 12197	567540	true	open	false	1		2017-04-03T22:27:31Z	2017-04-03T23:26:46Z		src: Remove support for --debug	78		
-12198	7834613	false	open	false	0		2017-04-04T00:30:49Z	2017-04-04T00:30:49Z		test-intl-no-icu-data.js fails unless node compiled --with-intl=small-icu	58		
+12198	7834613	false	open	false	2		2017-04-04T00:30:49Z	2017-04-04T03:10:29Z		test-intl-no-icu-data.js fails unless node compiled --with-intl=small-icu	58		
+12199	718899	true	open	false	0	0	2017-04-04T03:48:32Z	2017-04-04T03:48:32Z		test: remove disabled debugger test	63		
