@@ -529,7 +529,7 @@
 6739	1093990	true	closed	false	10	0	2016-05-13T16:11:17Z	2016-06-30T12:54:16Z	2016-06-30T12:54:15Z	os: deprecate `tmpDir()` in favour of `tmpdir()`	166	1093990	2016-06-30T12:54:15Z
 6747	439929	true	closed	false	4	0	2016-05-13T21:21:47Z	2016-08-09T20:33:21Z	2016-08-09T20:33:21Z	test: add known-issue tests for various http related issues	44		
 6749	439929	true	closed	false	42		2016-05-13T22:29:10Z	2016-11-14T03:52:48Z	2016-09-02T17:38:46Z	fs: move SyncWriteStream to internal/fs	87		
-6752	4923668	false	open	false	1		2016-05-14T00:43:12Z	2016-09-17T08:21:50Z		Document how to test if a file exists	112		
+6752	4923668	false	open	false	2		2016-05-14T00:43:12Z	2017-04-06T02:55:30Z		Document how to test if a file exists	112		
 6761	1267409	true	open	false	4		2016-05-14T18:01:59Z	2017-01-17T10:19:42Z		stream: Correct bufferedRequestCount in writes	56		
 6763	988441	false	closed	false	12		2016-05-14T20:27:49Z	2016-10-26T13:47:55Z	2016-10-26T13:47:55Z	setTimeout delayed when sleeping on Windows	145		
 6764	718899	true	closed	false	29		2016-05-14T22:32:23Z	2016-07-11T22:38:14Z	2016-05-25T17:59:19Z	child_process: measure buffer length in bytes	75		
@@ -5536,11 +5536,11 @@
 12196	1093990	true	closed	false	6		2017-04-03T22:03:51Z	2017-04-04T18:52:17Z	2017-04-04T17:34:35Z	src: remove PumpMessageLoop() from Start() (?)	67		
 12197	567540	true	open	false	6		2017-04-03T22:27:31Z	2017-04-04T22:12:34Z		src: Remove support for --debug	78		
 12198	7834613	false	open	false	5		2017-04-04T00:30:49Z	2017-04-05T03:10:24Z		test-intl-no-icu-data.js fails unless node compiled --with-intl=small-icu	58		
-12199	718899	true	open	false	3		2017-04-04T03:48:32Z	2017-04-05T18:04:55Z		test: remove disabled debugger test	63		
+12199	718899	true	closed	false	4	0	2017-04-04T03:48:32Z	2017-04-06T02:06:29Z	2017-04-06T02:06:29Z	test: remove disabled debugger test	63		
 12200	275871	true	open	false	0	0	2017-04-04T07:45:40Z	2017-04-04T07:45:40Z		build: --without-ssl implies --without-inspector	26		
 12201	15943089	true	open	false	0	0	2017-04-04T09:16:09Z	2017-04-04T09:16:09Z		build: don't test addons-napi twice	67		
 12202	1028226	true	open	false			2017-04-04T10:00:10Z	2017-04-04T20:46:27Z		module: standardize strip shebang behaviour	67		
-12203	1716463	true	open	false	1		2017-04-04T10:41:53Z	2017-04-05T07:40:00Z		url: trim leading slashes of file URL paths	50		
+12203	1716463	true	open	false			2017-04-04T10:41:53Z	2017-04-06T02:09:01Z		url: trim leading slashes of file URL paths	53		
 12204	432351	true	closed	false	6		2017-04-04T11:23:20Z	2017-04-05T13:33:15Z	2017-04-05T13:33:15Z	build: create test_addons function	55		
 12206	14329097	true	closed	false	1		2017-04-04T13:01:53Z	2017-04-04T16:06:31Z	2017-04-04T16:06:31Z	doc: fix typo in CHANGELOG_V6.md	16		
 12207	17704638	true	open	false			2017-04-04T13:48:36Z	2017-04-05T08:54:30Z		repl: support hidden history file on Windows	74		
@@ -5573,14 +5573,16 @@
 12234	9306961	false	open	false	1		2017-04-05T15:32:55Z	2017-04-05T18:24:00Z		Any way to bypass querystring.stringify with empty Object ?	168		
 12235	9373002	true	open	false	2		2017-04-05T16:20:05Z	2017-04-05T22:55:12Z		doc: update OS level support for AIX	76		
 12236	54666	false	open	false	0		2017-04-05T17:11:53Z	2017-04-05T20:06:40Z		buffer: improve constructor error message	132		
-12237	26934328	false	open	false	0		2017-04-05T17:33:00Z	2017-04-05T17:33:00Z		nodejs LTS v6.10.2 Windows installs give npm version 1.4.2 instead of 3.10.10	96		
+12237	26934328	false	open	false	0		2017-04-05T17:33:00Z	2017-04-06T02:16:50Z		nodejs LTS v6.10.2 Windows installs give npm version 1.4.2 instead of 3.10.10	96		
 12238	4923335	true	open	false	0	0	2017-04-05T17:47:00Z	2017-04-05T17:47:00Z		test: add basic cctest for base64.h	92		
 12239	718899	true	open	false	0	0	2017-04-05T18:03:47Z	2017-04-05T18:03:47Z		test: complete coverage for lib/assert.js	71		
 12240	13093042	true	open	false			2017-04-05T18:18:42Z	2017-04-06T01:10:24Z		n-api: Update property attrs enum to match JS spec	90		
 12241	17607	true	open	false	0	0	2017-04-05T18:49:35Z	2017-04-05T18:49:35Z		src: use a std::vector for preload_modules	48		
-12243	4421720	true	open	false	6		2017-04-05T19:47:10Z	2017-04-06T01:07:37Z		src: deprecate vm.runInDebugContext	77		
-12244	1794907	false	open	false	2		2017-04-05T20:57:09Z	2017-04-05T23:10:06Z		zlib different on OSX and Linux in newest releases	156		
-12245	17607	true	open	false			2017-04-05T21:14:01Z	2017-04-05T22:42:55Z		src: use option parser for expose_internals	73		
+12243	4421720	true	open	false	8		2017-04-05T19:47:10Z	2017-04-06T02:14:24Z		src: deprecate vm.runInDebugContext	77		
+12244	1794907	false	open	false	3		2017-04-05T20:57:09Z	2017-04-06T02:06:14Z		zlib different on OSX and Linux in newest releases	156		
+12245	17607	true	open	false			2017-04-05T21:14:01Z	2017-04-06T02:11:07Z		src: use option parser for expose_internals	73		
 12246	976081	true	open	false	0	0	2017-04-05T22:30:43Z	2017-04-05T22:30:43Z		n-api: cache Symbol.hasInstance	57		
-12247	10393198	true	open	false	0	0	2017-04-05T23:53:13Z	2017-04-05T23:53:13Z		doc: fix confusing reference in net.md	49		
+12247	10393198	true	open	false			2017-04-05T23:53:13Z	2017-04-06T02:11:54Z		doc: fix confusing reference in net.md	49		
 12248	1569843	true	open	false	0	0	2017-04-06T01:21:48Z	2017-04-06T01:21:48Z		napi: change napi_callback to return napi_value	207		
+12249	718899	true	open	false	0	0	2017-04-06T02:13:40Z	2017-04-06T02:13:40Z		tools: replace custom new-with-error rule	41		
+12250	1569843	true	open	false	0	0	2017-04-06T02:32:54Z	2017-04-06T02:32:54Z		napi: implement async helper methods	206		
