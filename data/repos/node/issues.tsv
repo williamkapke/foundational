@@ -695,7 +695,7 @@
 7261	631951	false	open	false	1		2016-06-10T09:36:06Z	2016-07-22T10:04:27Z		V8 crash on Windows Server 2012 x64 running on CPU with AVX support	107		
 7262	275871	true	closed	false	9		2016-06-10T09:42:23Z	2016-07-12T10:28:55Z	2016-06-13T10:56:36Z	src: fix erroneous fallthrough in ParseEncoding()	28		
 7265	1557314	false	closed	false	6		2016-06-10T15:10:09Z	2016-12-29T19:02:44Z	2016-12-29T19:02:44Z	Please upgrade node_root_certs.h for 0.x versions	95		
-7266	79017	false	open	false	18		2016-06-10T15:28:10Z	2017-03-29T17:56:06Z		Port the CLI debugger to use the v8 inspector protocol	149		
+7266	79017	false	closed	false	19		2016-06-10T15:28:10Z	2017-04-06T00:24:40Z	2017-04-06T00:24:40Z	Port the CLI debugger to use the v8 inspector protocol	149		
 7267	81942	true	closed	false	12		2016-06-10T16:43:18Z	2016-07-12T16:55:46Z	2016-06-17T15:05:02Z	punycode: update to v2.0.0	17		
 7269	11139560	false	closed	false	4		2016-06-10T22:36:13Z	2016-07-06T16:02:08Z	2016-07-06T16:02:08Z	node docs issue in child_process	112		
 7271	287917	true	closed	false	14	22	2016-06-11T00:49:13Z	2016-07-15T00:03:42Z	2016-07-15T00:03:42Z	inspector: Put connect and disconnect events into message queue	63		
@@ -5459,7 +5459,7 @@
 12118	275871	true	closed	false	1	0	2017-03-29T12:27:08Z	2017-03-31T19:56:10Z	2017-03-31T19:56:10Z	src: add .FromJust(), fix -Wunused-result warnings	10		
 12119	275871	true	open	false			2017-03-29T13:04:59Z	2017-03-30T16:08:18Z		buffer: remove noAssert argument	106		
 12120	96947	true	closed	false	5		2017-03-29T14:10:51Z	2017-04-04T17:59:05Z	2017-04-04T17:59:05Z	test: more robust check for location of `node.exe`	21		
-12121	4299420	true	open	false	9		2017-03-29T16:28:52Z	2017-04-05T23:59:36Z		benchmark, test: test the HTTP benchmark with a dummy benchmarker	129		
+12121	4299420	true	open	false	10		2017-03-29T16:28:52Z	2017-04-06T00:04:22Z		benchmark, test: test the HTTP benchmark with a dummy benchmarker	129		
 12122	7455872	false	open	false	0		2017-03-29T16:54:31Z	2017-03-29T16:54:31Z		Setting root directory for child process	57		
 12123	498775	true	closed	false	4		2017-03-29T20:07:52Z	2017-03-29T23:14:12Z	2017-03-29T20:30:31Z	"Revert ""Revert ""repl: disable Ctrl+C support..."""	18		
 12124	527631	true	closed	false	1		2017-03-29T20:19:04Z	2017-04-04T16:59:51Z	2017-04-04T16:59:51Z	doc: adding note regarding http.get options	37		
@@ -5562,7 +5562,7 @@
 12223	1538624	true	open	false	6		2017-04-05T00:21:13Z	2017-04-05T17:57:26Z		Allow all ArrayBufferView types as Buffers	412		
 12224	10393198	true	open	false	0	0	2017-04-05T01:39:23Z	2017-04-05T01:39:23Z		doc: modernize and fix code examples in modules.md	58		
 12225	11139560	false	open	false	0		2017-04-05T02:04:17Z	2017-04-05T02:04:17Z		require.resolve('core-module') => bad output	115		
-12226	7834613	true	open	false	0		2017-04-05T03:09:24Z	2017-04-05T06:24:20Z		test: Skip intl-no-icu-data test when not (Intl and smallICU)	47		
+12226	7834613	true	open	false	1		2017-04-05T03:09:24Z	2017-04-06T00:15:34Z		test: Skip intl-no-icu-data test when not (Intl and smallICU)	47		
 12227	432351	false	open	false	2		2017-04-05T07:20:39Z	2017-04-05T20:22:32Z		Add docs for gdbinit and lldbinit	57		
 12228	5678459	false	open	false	0		2017-04-05T10:37:01Z	2017-04-05T10:37:01Z		Error when multiple instances try to listen on the same address	591		
 12229	772855	true	open	false	0	0	2017-04-05T10:50:40Z	2017-04-05T10:50:40Z		Merge pull request #1 from nodejs/master	48		
@@ -5578,7 +5578,7 @@
 12239	718899	true	open	false	0	0	2017-04-05T18:03:47Z	2017-04-05T18:03:47Z		test: complete coverage for lib/assert.js	71		
 12240	13093042	true	open	false	0	0	2017-04-05T18:18:42Z	2017-04-05T18:18:42Z		n-api: Update property attrs enum to match JS spec	90		
 12241	17607	true	open	false	0	0	2017-04-05T18:49:35Z	2017-04-05T18:49:35Z		src: use a std::vector for preload_modules	48		
-12243	4421720	true	open	false	4		2017-04-05T19:47:10Z	2017-04-05T23:54:26Z		src: deprecate vm.runInDebugContext	77		
+12243	4421720	true	open	false	5		2017-04-05T19:47:10Z	2017-04-06T01:01:57Z		src: deprecate vm.runInDebugContext	77		
 12244	1794907	false	open	false	2		2017-04-05T20:57:09Z	2017-04-05T23:10:06Z		zlib different on OSX and Linux in newest releases	156		
 12245	17607	true	open	false			2017-04-05T21:14:01Z	2017-04-05T22:42:55Z		src: use option parser for expose_internals	73		
 12246	976081	true	open	false	0	0	2017-04-05T22:30:43Z	2017-04-05T22:30:43Z		n-api: cache Symbol.hasInstance	57		
