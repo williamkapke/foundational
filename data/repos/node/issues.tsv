@@ -813,7 +813,7 @@
 7461	715626	false	closed	false	5		2016-06-28T18:43:05Z	2016-07-06T05:18:37Z	2016-07-06T05:09:34Z	path.dirname used in loop	144		
 7462	275871	true	closed	false	15		2016-06-28T19:49:00Z	2016-07-12T02:05:40Z	2016-06-29T08:51:13Z	Upgrade cpplint	25		
 7463	1485909	true	open	false	0	0	2016-06-28T21:03:20Z	2016-06-28T21:03:20Z		benchmark: fix hanging test client-request-body	108		
-7464	15857768	false	closed	false	5		2016-06-28T21:47:17Z	2017-04-06T23:37:04Z	2016-06-29T08:25:08Z	crypto.pbkdf2Sync return different result that previous node versions	80		
+7464	15857768	false	closed	false	6		2016-06-28T21:47:17Z	2017-04-07T07:36:42Z	2016-06-29T08:25:08Z	crypto.pbkdf2Sync return different result that previous node versions	80		
 7465	3899684	true	open	false			2016-06-28T23:48:08Z	2016-06-29T10:15:44Z		build: reduces unused js2c.py code	178		
 7466	718899	true	closed	false	5		2016-06-28T23:59:42Z	2016-07-01T04:59:14Z	2016-07-01T04:59:14Z	doc: improve usage of `zero`/`0`	38		
 7467	718899	true	closed	false	9		2016-06-29T00:17:10Z	2016-07-01T05:47:40Z	2016-07-01T05:47:40Z	test: remove common.PORT from http tests	41		
@@ -5519,7 +5519,7 @@
 12178	374012	false	open	false	0		2017-04-03T06:41:08Z	2017-04-03T06:41:08Z		Type confusion bug in HTTP parser	89		
 12179	374012	false	open	false	0		2017-04-03T06:43:39Z	2017-04-03T07:40:29Z		Type confusion bug in WriteFloatGeneric	71		
 12181	3109072	true	open	false			2017-04-03T10:09:25Z	2017-04-05T21:25:48Z		doc: path functions ignore trailing slashes	42		
-12182	2931196	true	closed	false	10		2017-04-03T11:14:08Z	2017-04-05T06:59:51Z	2017-04-05T02:53:13Z	Implement assert.isInstanceOf()	69		
+12182	2931196	true	closed	false	11		2017-04-03T11:14:08Z	2017-04-07T08:01:29Z	2017-04-05T02:53:13Z	Implement assert.isInstanceOf()	69		
 12183	2291463	true	open	false	10		2017-04-03T11:49:50Z	2017-04-03T15:19:45Z		process: use rest parameters in nextTick.	58		
 12184	134460	true	open	false	8		2017-04-03T12:09:31Z	2017-04-04T21:22:26Z		Fix building on Windows x86	230		
 12185	5249794	false	open	false	3		2017-04-03T12:13:57Z	2017-04-04T15:45:53Z		API Documentation for C++ Addons similar to other modules	93		
@@ -5554,13 +5554,13 @@
 12215	4770180	false	closed	false	3		2017-04-04T17:24:55Z	2017-04-04T20:05:16Z	2017-04-04T19:32:08Z	the future of nodejs global / anti pattern	164		
 12216	718899	true	open	false	0		2017-04-04T17:29:25Z	2017-04-06T01:41:01Z		doc: update pull request template URL layout	94		
 12217	275871	true	open	false	3		2017-04-04T17:57:02Z	2017-04-05T14:08:37Z		installer: install ICU header files	22		
-12218	96947	true	open	false	2		2017-04-04T19:22:25Z	2017-04-07T04:19:45Z		icu-generic.gyp refactor - merge similar actions	57		
+12218	96947	true	open	false			2017-04-04T19:22:25Z	2017-04-07T08:06:14Z		icu-generic.gyp refactor - merge similar actions	57		
 12219	9373002	false	open	false	0		2017-04-04T20:24:10Z	2017-04-04T20:24:10Z		N-API code coverage	66		
 12220	439929	true	open	false	2		2017-04-04T21:07:24Z	2017-04-05T02:52:22Z		[WIP] 8.0.0 Release Proposal	3971		
 12221	603426	true	open	false	6		2017-04-04T21:22:56Z	2017-04-04T22:05:56Z		doc: Stream 'finish' event string interpolation fix	47		
 12222	8436742	false	open	false	0		2017-04-04T22:16:26Z	2017-04-04T22:16:26Z		Download link down	12		
 12223	1538624	true	open	false	6		2017-04-05T00:21:13Z	2017-04-05T17:57:26Z		Allow all ArrayBufferView types as Buffers	412		
-12224	10393198	true	open	false			2017-04-05T01:39:23Z	2017-04-07T06:25:45Z		doc: modernize and fix code examples in modules.md	58		
+12224	10393198	true	open	false			2017-04-05T01:39:23Z	2017-04-07T08:01:20Z		doc: modernize and fix code examples in modules.md	58		
 12225	11139560	false	open	false	0		2017-04-05T02:04:17Z	2017-04-05T02:04:17Z		require.resolve('core-module') => bad output	115		
 12226	7834613	true	open	false	5		2017-04-05T03:09:24Z	2017-04-06T19:36:08Z		test: Skip intl-no-icu-data test when not (Intl and smallICU)	47		
 12227	432351	false	closed	false	4		2017-04-05T07:20:39Z	2017-04-06T05:48:04Z	2017-04-06T05:48:04Z	Add docs for gdbinit and lldbinit	57		
@@ -5592,13 +5592,15 @@
 12254	1538624	true	open	false			2017-04-06T05:34:14Z	2017-04-07T05:13:32Z		util: use V8 C++ API for inspecting Promises	38		
 12255	432351	true	open	false	1		2017-04-06T10:21:01Z	2017-04-06T11:13:40Z		src: use std::list for at_exit_functions	46		
 12256	12787473	true	open	false	0	0	2017-04-06T10:41:35Z	2017-04-06T10:41:35Z		doc: fix missing callback argument for dns.resolvePtr	23		
-12257	10393198	false	open	false	4		2017-04-06T10:45:48Z	2017-04-06T21:31:04Z		v8: backport needed	51		
+12257	10393198	false	open	false	5		2017-04-06T10:45:48Z	2017-04-07T07:14:47Z		v8: backport needed	51		
 12258	96947	true	open	false	10		2017-04-06T12:48:17Z	2017-04-06T20:35:02Z		benchmark: readStart only after completion	45		
 12259	1324476	false	closed	false	1		2017-04-06T12:54:46Z	2017-04-06T13:08:17Z	2017-04-06T13:08:17Z	Cannot close node server	93		
 12260	896560	false	open	false	0		2017-04-06T14:55:52Z	2017-04-06T14:55:52Z		Windows 10, infinite loop running NPM	39		
 12261	718899	true	open	false	5		2017-04-06T16:29:33Z	2017-04-06T17:06:55Z		test: skip irrelevant test on Windows	31		
 12262	567540	true	open	false	0	0	2017-04-06T16:50:36Z	2017-04-06T16:50:36Z		test: Update information on known_issues	51		
-12263	287917	true	open	false	5		2017-04-06T17:27:30Z	2017-04-07T05:45:11Z		inspector: JavaScript bindings for the inspector	93		
+12263	287917	true	open	false	6		2017-04-06T17:27:30Z	2017-04-07T08:01:53Z		inspector: JavaScript bindings for the inspector	93		
 12264	17607	false	open	false	0		2017-04-06T20:22:01Z	2017-04-06T20:22:01Z		node aborts with --debug when it self-exits	186		
 12265	4044581	true	open	false	0	0	2017-04-07T05:32:44Z	2017-04-07T05:32:44Z		test: check curve algorithm is supported	68		
 12266	432351	true	open	false	0	0	2017-04-07T06:54:58Z	2017-04-07T06:54:58Z		src: only block SIGUSR1 when HAVE_INSPECTOR	112		
+12267	3927355	false	open	false	0		2017-04-07T08:04:15Z	2017-04-07T08:04:15Z		How cross build node.js for mac on a linux meachine.	25		
+12268	2352663	true	open	false	0	0	2017-04-07T08:11:08Z	2017-04-07T08:11:08Z		v7.x: doc: add deprecations page to docs toc	14		
