@@ -813,7 +813,7 @@
 7461	715626	false	closed	false	5		2016-06-28T18:43:05Z	2016-07-06T05:18:37Z	2016-07-06T05:09:34Z	path.dirname used in loop	144		
 7462	275871	true	closed	false	15		2016-06-28T19:49:00Z	2016-07-12T02:05:40Z	2016-06-29T08:51:13Z	Upgrade cpplint	25		
 7463	1485909	true	open	false	0	0	2016-06-28T21:03:20Z	2016-06-28T21:03:20Z		benchmark: fix hanging test client-request-body	108		
-7464	15857768	false	closed	false	6		2016-06-28T21:47:17Z	2017-04-07T07:36:42Z	2016-06-29T08:25:08Z	crypto.pbkdf2Sync return different result that previous node versions	80		
+7464	15857768	false	closed	false	7		2016-06-28T21:47:17Z	2017-04-07T15:29:40Z	2016-06-29T08:25:08Z	crypto.pbkdf2Sync return different result that previous node versions	80		
 7465	3899684	true	open	false			2016-06-28T23:48:08Z	2016-06-29T10:15:44Z		build: reduces unused js2c.py code	178		
 7466	718899	true	closed	false	5		2016-06-28T23:59:42Z	2016-07-01T04:59:14Z	2016-07-01T04:59:14Z	doc: improve usage of `zero`/`0`	38		
 7467	718899	true	closed	false	9		2016-06-29T00:17:10Z	2016-07-01T05:47:40Z	2016-07-01T05:47:40Z	test: remove common.PORT from http tests	41		
@@ -4887,7 +4887,7 @@
 11543	25020067	true	open	false	2		2017-02-24T19:30:07Z	2017-02-27T16:21:15Z		Have console.timeEnd return the elapsed time.	14		
 11544	469365	true	closed	false	0		2017-02-24T20:54:11Z	2017-02-27T20:20:38Z	2017-02-27T20:20:38Z	doc: document clientRequest.aborted	96		
 11545	76945	false	open	false	3		2017-02-24T22:08:50Z	2017-02-27T17:23:03Z		Bug on array spread operator on NodeJS 6.10.0 with --optimize_for_size	303		
-11546	2512748	true	open	false	23		2017-02-25T00:05:23Z	2017-04-04T15:18:18Z		WIP: cluster: make scheduler configurable	378		
+11546	2512748	true	open	false	24		2017-02-25T00:05:23Z	2017-04-07T15:17:16Z		WIP: cluster: make scheduler configurable	378		
 11547	718899	true	closed	false	0		2017-02-25T06:20:08Z	2017-02-27T20:17:18Z	2017-02-27T20:17:18Z	test: favor assertions over console logging	34		
 11548	19511039	true	closed	false	1		2017-02-25T07:40:53Z	2017-02-27T20:10:03Z	2017-02-27T20:10:03Z	doc: argument types for assert methods	37		
 11549	1538624	true	closed	false	6	14	2017-02-25T08:31:49Z	2017-03-01T02:33:04Z	2017-03-01T02:33:04Z	src: do not ignore IDNA conversion error	252		
@@ -5192,7 +5192,7 @@
 11849	17619590	false	open	false	8		2017-03-14T17:03:35Z	2017-04-04T14:47:53Z		using --enable-fips or --force-fips with crypto.fips=1 fails	138		
 11850	287917	true	closed	false	3	0	2017-03-14T17:17:14Z	2017-03-16T16:58:58Z	2017-03-16T16:58:58Z	inspector: proper WS URLs when bound to 0.0.0.0	87	287917	2017-03-16T16:58:58Z
 11851	10393198	false	open	false	52		2017-03-14T17:34:53Z	2017-03-30T21:36:49Z		Ignition + TurboFan: Node.js benchmarks	175		
-11852	96947	true	open	false	29		2017-03-14T22:25:05Z	2017-04-07T13:54:09Z		[win] Make build-able on vs2017	170		
+11852	96947	true	open	false	30		2017-03-14T22:25:05Z	2017-04-07T15:19:28Z		[win] Make build-able on vs2017	170		
 11853	5876741	false	closed	false	6		2017-03-15T00:55:08Z	2017-03-25T01:15:54Z	2017-03-25T01:15:54Z	Feature request: Env Var NODE_REQUIRE	79		
 11854	12488060	true	closed	false	3		2017-03-15T00:56:56Z	2017-03-28T22:27:17Z	2017-03-22T16:57:52Z	lib: Use regex to compare error message	37		
 11855	3315328	false	open	false	15		2017-03-15T01:34:38Z	2017-03-16T08:21:49Z		let v8 use libuv thread pool	17		
@@ -5580,8 +5580,8 @@
 12241	17607	true	open	false	2		2017-04-05T18:49:35Z	2017-04-06T19:13:53Z		src: use a std::vector for preload_modules	48		
 12243	4421720	true	open	false	12		2017-04-05T19:47:10Z	2017-04-07T13:05:36Z		src: deprecate vm.runInDebugContext	77		
 12244	1794907	false	open	false	7		2017-04-05T20:57:09Z	2017-04-06T17:16:09Z		zlib different on OSX and Linux in newest releases	156		
-12245	17607	true	open	false			2017-04-05T21:14:01Z	2017-04-06T19:08:34Z		src: use option parser for expose_internals	73		
-12246	976081	true	open	false			2017-04-05T22:30:43Z	2017-04-07T13:29:30Z		n-api: cache Symbol.hasInstance	57		
+12245	17607	true	open	false			2017-04-05T21:14:01Z	2017-04-07T15:58:48Z		src: use option parser for expose_internals	73		
+12246	976081	true	open	false	0		2017-04-05T22:30:43Z	2017-04-07T15:42:36Z		n-api: cache Symbol.hasInstance	57		
 12247	10393198	true	open	false			2017-04-05T23:53:13Z	2017-04-06T19:11:22Z		doc: fix confusing reference in net.md	49		
 12248	1569843	true	open	false	1		2017-04-06T01:21:48Z	2017-04-07T13:47:20Z		napi: change napi_callback to return napi_value	197		
 12249	718899	true	open	false	0	0	2017-04-06T02:13:40Z	2017-04-06T02:13:40Z		tools: replace custom new-with-error rule	41		
@@ -5606,3 +5606,5 @@
 12268	2352663	true	open	false	0	0	2017-04-07T08:11:08Z	2017-04-07T08:11:08Z		v7.x: doc: add deprecations page to docs toc	14		
 12269	1437211	false	open	false	1		2017-04-07T11:54:53Z	2017-04-07T13:30:48Z		Why crypto.createHash() is not writable until setEncoding() is called?	101		
 12270	2352663	true	open	false	0	0	2017-04-07T14:22:22Z	2017-04-07T14:22:22Z		tools: enforce two arguments in assert.throws	64		
+12271	7466144	false	open	false	0		2017-04-07T15:14:05Z	2017-04-07T15:14:05Z		child process : exit code when process is out of memory	234		
+12272	287917	true	open	false	0	0	2017-04-07T15:47:21Z	2017-04-07T15:47:21Z		inspector: fix Coverity defects	27		
