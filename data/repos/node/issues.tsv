@@ -552,7 +552,7 @@
 6873	18708370	false	closed	false	5		2016-05-19T08:19:41Z	2016-08-09T21:14:40Z	2016-08-09T21:14:40Z	EventEmitter: Inconsistent handling of once() handlers	122		
 6876	6917800	true	closed	false	11		2016-05-19T13:18:48Z	2017-03-01T14:01:05Z	2017-03-01T14:01:05Z	build: fix cross-compile issue for Android	132		
 6877	6917800	true	closed	false	25		2016-05-19T14:26:13Z	2016-10-17T12:16:43Z	2016-07-19T11:29:26Z	child_process: check accessing a null stderr	60		
-6878	1093990	false	open	false	8		2016-05-19T15:32:47Z	2017-04-07T14:13:39Z		Discuss planning a long-term renaming of `process.nextTick()`	133		
+6878	1093990	false	open	false	10		2016-05-19T15:32:47Z	2017-04-07T17:06:46Z		Discuss planning a long-term renaming of `process.nextTick()`	133		
 6881	1127384	true	open	false	25		2016-05-19T15:56:47Z	2016-08-09T21:12:14Z		events: unwrap #once listeners in #listeners	44		
 6883	4954074	false	closed	false	20		2016-05-19T19:13:10Z	2016-08-15T09:34:48Z	2016-08-14T09:10:20Z	Loop with computed name crash node 6.2.0 without message	89		
 6885	1093990	true	open	false	5		2016-05-19T19:51:55Z	2017-03-01T19:46:12Z		doc: add core-structure topic doc	159		
@@ -4954,7 +4954,7 @@
 11610	696611	true	open	false	8		2017-02-28T16:28:08Z	2017-03-07T20:23:38Z		introduce doc linter	125		
 11611	439929	true	open	false			2017-02-28T16:50:45Z	2017-03-15T06:12:07Z		benchmark: obj property access benchmark	89		
 11612	718899	true	closed	false	2		2017-02-28T17:04:20Z	2017-03-02T18:32:41Z	2017-03-02T18:32:41Z	tools: remove NODE_PATH from environment for tests	112		
-11613	899444	true	open	false	6		2017-02-28T17:15:25Z	2017-04-04T20:07:41Z		string_decoder: support Uint8Array input to methods	277		
+11613	899444	true	open	false	7		2017-02-28T17:15:25Z	2017-04-07T17:05:58Z		string_decoder: support Uint8Array input to methods	277		
 11614	9661806	false	closed	false	3		2017-02-28T17:39:50Z	2017-03-06T21:16:20Z	2017-03-06T21:16:20Z	Altering `Object.prototype.name` breaks in the REPL	346		
 11615	988441	true	open	false	0	0	2017-02-28T17:55:11Z	2017-02-28T17:55:11Z		doc: fix typo in STYLE_GUIDE.md	13		
 11616	17607	true	closed	false	4		2017-02-28T18:34:28Z	2017-03-10T21:25:47Z	2017-03-06T17:38:51Z	deps: fix CLEAR_HASH macro to be usable as a single statement	56		
@@ -5421,6 +5421,7 @@
 12079	54666	false	open	false	0		2017-03-27T21:45:20Z	2017-03-27T21:45:20Z		assert: throw error in doesNotThrow()	65		
 12080	332968	true	closed	false	5	9	2017-03-27T22:07:17Z	2017-04-04T18:51:27Z	2017-04-04T18:51:27Z	test: refactor mkdtemp test and added async	53		
 12081	3375505	true	open	false	0	0	2017-03-27T22:15:47Z	2017-03-27T22:15:47Z		Fix compilation on PPC64 when libc musl is used instead of glibc	38		
+12082	54666	false	open	false	0		2017-03-27T23:36:31Z	2017-04-07T18:01:25Z		build: cpplint should always run, even if jslint fails	31		
 12083	439929	false	closed	false	0		2017-03-28T00:05:00Z	2017-03-31T18:23:55Z	2017-03-31T18:23:55Z	`--use-bundled-ca` and `--use-openssl-ca` order	72		
 12084	96947	false	open	false	0		2017-03-28T03:45:43Z	2017-03-28T03:45:43Z		build: on windows can't build in a path that has a space in it	35		
 12085	8111748	false	open	false	6		2017-03-28T05:08:21Z	2017-03-28T10:02:04Z		Sometimes REPL cannot display the result	36		
@@ -5604,8 +5605,9 @@
 12266	432351	true	open	false			2017-04-07T06:54:58Z	2017-04-07T10:04:16Z		src: only block SIGUSR1 when HAVE_INSPECTOR	112		
 12267	3927355	false	closed	false	2		2017-04-07T08:04:15Z	2017-04-07T08:15:54Z	2017-04-07T08:07:24Z	How cross build node.js for mac on a linux meachine.	25		
 12268	2352663	true	open	false	0	0	2017-04-07T08:11:08Z	2017-04-07T08:11:08Z		v7.x: doc: add deprecations page to docs toc	14		
-12269	1437211	false	open	false	1		2017-04-07T11:54:53Z	2017-04-07T13:30:48Z		Why crypto.createHash() is not writable until setEncoding() is called?	101		
-12270	2352663	true	open	false	0	0	2017-04-07T14:22:22Z	2017-04-07T14:22:22Z		tools: enforce two arguments in assert.throws	64		
+12269	1437211	false	open	false	7		2017-04-07T11:54:53Z	2017-04-07T17:37:53Z		Why crypto.createHash() is not writable until setEncoding() is called?	101		
+12270	2352663	true	open	false			2017-04-07T14:22:22Z	2017-04-07T17:10:41Z		tools: enforce two arguments in assert.throws	64		
 12271	7466144	false	open	false	0		2017-04-07T15:14:05Z	2017-04-07T15:14:05Z		child process : exit code when process is out of memory	234		
-12272	287917	true	open	false	0	0	2017-04-07T15:47:21Z	2017-04-07T15:47:21Z		inspector: fix Coverity defects	27		
+12272	287917	true	open	false			2017-04-07T15:47:21Z	2017-04-07T17:35:25Z		inspector: fix Coverity defects	27		
 12273	4923335	true	open	false	0	0	2017-04-07T16:24:19Z	2017-04-07T16:24:19Z		doc: add aqrln to collaborators	32		
+12274	2352663	false	open	false	0		2017-04-07T17:54:57Z	2017-04-07T17:54:57Z		AssertionError is not documented	27		
