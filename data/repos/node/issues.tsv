@@ -4954,7 +4954,7 @@
 11610	696611	true	open	false	8		2017-02-28T16:28:08Z	2017-03-07T20:23:38Z		introduce doc linter	125		
 11611	439929	true	open	false			2017-02-28T16:50:45Z	2017-03-15T06:12:07Z		benchmark: obj property access benchmark	89		
 11612	718899	true	closed	false	2		2017-02-28T17:04:20Z	2017-03-02T18:32:41Z	2017-03-02T18:32:41Z	tools: remove NODE_PATH from environment for tests	112		
-11613	899444	true	open	false	8		2017-02-28T17:15:25Z	2017-04-07T19:32:06Z		string_decoder: support Uint8Array input to methods	277		
+11613	899444	true	open	false	9		2017-02-28T17:15:25Z	2017-04-09T15:27:33Z		string_decoder: support Uint8Array input to methods	277		
 11614	9661806	false	closed	false	3		2017-02-28T17:39:50Z	2017-03-06T21:16:20Z	2017-03-06T21:16:20Z	Altering `Object.prototype.name` breaks in the REPL	346		
 11615	988441	true	open	false	0	0	2017-02-28T17:55:11Z	2017-02-28T17:55:11Z		doc: fix typo in STYLE_GUIDE.md	13		
 11616	17607	true	closed	false	4		2017-02-28T18:34:28Z	2017-03-10T21:25:47Z	2017-03-06T17:38:51Z	deps: fix CLEAR_HASH macro to be usable as a single statement	56		
@@ -5579,6 +5579,7 @@
 12239	718899	true	closed	false	1		2017-04-05T18:03:47Z	2017-04-07T18:12:58Z	2017-04-07T18:12:58Z	test: complete coverage for lib/assert.js	71		
 12240	13093042	true	closed	false	5		2017-04-05T18:18:42Z	2017-04-07T23:53:06Z	2017-04-07T13:44:58Z	n-api: Update property attrs enum to match JS spec	90		
 12241	17607	true	open	false	2		2017-04-05T18:49:35Z	2017-04-06T19:13:53Z		src: use a std::vector for preload_modules	48		
+12242	17607	true	closed	false	1		2017-04-05T19:24:19Z	2017-04-09T15:36:26Z	2017-04-09T15:36:26Z	src: use std::string for trace enabled_categories	67		
 12243	4421720	true	open	false	12		2017-04-05T19:47:10Z	2017-04-07T13:05:36Z		src: deprecate vm.runInDebugContext	77		
 12244	1794907	false	open	false	7		2017-04-05T20:57:09Z	2017-04-06T17:16:09Z		zlib different on OSX and Linux in newest releases	156		
 12245	17607	true	open	false			2017-04-05T21:14:01Z	2017-04-07T16:12:09Z		src: use option parser for expose_internals	73		
@@ -5587,7 +5588,7 @@
 12248	1569843	true	open	false	2		2017-04-06T01:21:48Z	2017-04-07T21:59:26Z		napi: change napi_callback to return napi_value	197		
 12249	718899	true	closed	false	1		2017-04-06T02:13:40Z	2017-04-08T19:34:40Z	2017-04-08T19:34:40Z	tools: replace custom new-with-error rule	41		
 12250	1569843	true	open	false			2017-04-06T02:32:54Z	2017-04-08T01:18:18Z		napi: implement async helper methods	205		
-12251	1538624	true	open	false	0	0	2017-04-06T04:45:06Z	2017-04-06T04:45:06Z		src: clean up WHATWG URL parser, round 2	148		
+12251	1538624	true	open	false			2017-04-06T04:45:06Z	2017-04-09T15:53:32Z		src: clean up WHATWG URL parser, round 2	152		
 12252	1538624	true	open	false	3		2017-04-06T04:47:51Z	2017-04-08T06:58:15Z		url: clean up WHATWG URL origin generation	43		
 12253	1538624	true	open	false	0		2017-04-06T04:57:32Z	2017-04-07T13:18:52Z		url: improve WHATWG URL inspection	76		
 12254	1538624	true	open	false	0		2017-04-06T05:34:14Z	2017-04-08T18:08:42Z		util: use V8 C++ API for inspecting Promises	38		
@@ -5608,7 +5609,7 @@
 12269	1437211	false	open	false	7		2017-04-07T11:54:53Z	2017-04-07T17:37:53Z		Why crypto.createHash() is not writable until setEncoding() is called?	101		
 12270	2352663	true	open	false			2017-04-07T14:22:22Z	2017-04-07T17:10:41Z		tools: enforce two arguments in assert.throws	64		
 12271	7466144	false	open	false	0		2017-04-07T15:14:05Z	2017-04-07T15:14:05Z		child process : exit code when process is out of memory	234		
-12272	287917	true	open	false			2017-04-07T15:47:21Z	2017-04-07T17:35:25Z		inspector: fix Coverity defects	27		
+12272	287917	true	open	false			2017-04-07T15:47:21Z	2017-04-09T15:25:37Z		inspector: fix Coverity defects	27		
 12273	4923335	true	open	false	0	0	2017-04-07T16:24:19Z	2017-04-07T16:24:19Z		doc: add aqrln to collaborators	32		
 12274	2352663	false	open	false	0		2017-04-07T17:54:57Z	2017-04-07T17:54:57Z		AssertionError is not documented	27		
 12275	718899	true	open	false	0	0	2017-04-07T19:12:39Z	2017-04-07T19:12:39Z		test: remove disabled tls_server.js	83		
@@ -5626,4 +5627,4 @@
 12287	718899	true	open	false			2017-04-09T02:45:42Z	2017-04-09T11:00:15Z		tools: replace custom assert.fail lint rule	38		
 12288	6447530	true	open	false	0	0	2017-04-09T10:35:02Z	2017-04-09T10:35:02Z		http_parser: assert on incoming argument's type	53		
 12289	1431799	false	open	false	0		2017-04-09T14:04:06Z	2017-04-09T14:04:06Z		Need a correction in the document, I guess	197		
-12290	4044581	true	open	false	0	0	2017-04-09T14:34:22Z	2017-04-09T14:34:22Z		test: fix allocUnsafe uninitialized buffer check	61		
+12290	4044581	true	open	false	0		2017-04-09T14:34:22Z	2017-04-09T15:19:30Z		test: fix allocUnsafe uninitialized buffer check	61		
