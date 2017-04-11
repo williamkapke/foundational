@@ -5267,7 +5267,7 @@
 11923	1898413	false	closed	false	23		2017-03-19T10:23:06Z	2017-04-03T21:58:19Z	2017-03-22T06:42:45Z	significant performance degradation with v7.x	56		
 11924	10393198	true	closed	false	3		2017-03-19T10:42:11Z	2017-03-28T22:26:01Z	2017-03-22T05:26:41Z	benchmark: add final clean-up to module-loader.js	99		
 11925	10393198	true	closed	false	1		2017-03-19T13:23:14Z	2017-03-22T05:07:03Z	2017-03-22T05:07:03Z	benchmark: harmonize progress bar and stderr output	389		
-11926	1443911	true	closed	false	12		2017-03-19T20:11:59Z	2017-04-11T08:33:28Z	2017-03-22T17:32:10Z	http: avoid retaining unneeded memory	51		
+11926	1443911	true	closed	false	14		2017-03-19T20:11:59Z	2017-04-11T19:37:12Z	2017-03-22T17:32:10Z	http: avoid retaining unneeded memory	51		
 11927	1538624	true	closed	false	3		2017-03-19T20:41:18Z	2017-03-22T04:56:12Z	2017-03-22T04:56:12Z	src, buffer: do not segfault on out-of-range index	48		
 11928	11139560	false	open	false	4		2017-03-19T21:04:55Z	2017-03-20T00:05:52Z		require.resolve() either malfunctions or gives less than detailed information	221		
 11929	718899	true	closed	false	1		2017-03-19T21:42:19Z	2017-03-22T04:52:38Z	2017-03-22T04:52:38Z	test: add test for child_process.execFile()	78		
@@ -5501,7 +5501,7 @@
 12158	15943089	true	closed	false	1		2017-04-01T18:59:48Z	2017-04-11T11:26:46Z	2017-04-04T09:49:50Z	build: avoid passing kill empty input in Makefile	89		
 12159	1084056	true	closed	false	6	1	2017-04-01T19:09:05Z	2017-04-04T13:09:05Z	2017-04-04T13:09:04Z	test: fix flaky test-child-process-exec-timeout	95	1084056	2017-04-04T13:09:04Z
 12160	1176319	true	open	false	0	0	2017-04-01T21:02:46Z	2017-04-01T21:02:46Z		start inspect agent on SIGUSR2	58		
-12161	357304	false	closed	false	0		2017-04-02T05:12:53Z	2017-04-08T22:17:39Z	2017-04-08T22:17:39Z	Documentation, dns.resolvePtr(hostname) missing callback argument	19		
+12161	357304	false	closed	false	1		2017-04-02T05:12:53Z	2017-04-11T19:05:39Z	2017-04-08T22:17:39Z	Documentation, dns.resolvePtr(hostname) missing callback argument	19		
 12162	718899	true	closed	false	6		2017-04-02T06:12:46Z	2017-04-11T05:44:55Z	2017-04-04T17:31:04Z	tools: update to Eslint 3.19.0 and replace custom rule	61		
 12163	5886475	true	closed	false	2		2017-04-02T09:26:30Z	2017-04-04T16:33:41Z	2017-04-04T16:33:41Z	test: increase querystring coverage	35		
 12164	3109072	true	closed	false	6		2017-04-02T13:15:58Z	2017-04-10T14:41:58Z	2017-04-10T14:41:58Z	crypto: Handle exceptions in hmac/hash.digest	120		
@@ -5581,7 +5581,7 @@
 12240	13093042	true	closed	false	5		2017-04-05T18:18:42Z	2017-04-07T23:53:06Z	2017-04-07T13:44:58Z	n-api: Update property attrs enum to match JS spec	90		
 12241	17607	true	closed	false	5		2017-04-05T18:49:35Z	2017-04-10T22:19:30Z	2017-04-10T14:11:05Z	src: use a std::vector for preload_modules	48		
 12242	17607	true	closed	false	1		2017-04-05T19:24:19Z	2017-04-09T15:36:26Z	2017-04-09T15:36:26Z	src: use std::string for trace enabled_categories	67		
-12243	4421720	true	open	false	17		2017-04-05T19:47:10Z	2017-04-11T17:10:27Z		src: deprecate vm.runInDebugContext	77		
+12243	4421720	true	open	false	18		2017-04-05T19:47:10Z	2017-04-11T19:24:06Z		src: deprecate vm.runInDebugContext	77		
 12244	1794907	false	open	false	7		2017-04-05T20:57:09Z	2017-04-06T17:16:09Z		zlib different on OSX and Linux in newest releases	156		
 12245	17607	true	open	false	5		2017-04-05T21:14:01Z	2017-04-11T14:18:58Z		src: use option parser for expose_internals	73		
 12246	976081	true	closed	false	12		2017-04-05T22:30:43Z	2017-04-11T12:05:17Z	2017-04-07T22:41:05Z	n-api: cache Symbol.hasInstance	57		
@@ -5676,10 +5676,11 @@
 12335	7136386	false	open	false	4		2017-04-11T10:30:25Z	2017-04-11T13:06:08Z		crypto sign error  Error: error:100AE081:elliptic curve routines:EC_GROUP_new_by_curve_name:unknown group	155		
 12336	12330766	false	open	false	0		2017-04-11T10:57:40Z	2017-04-11T11:02:49Z		"How to debug internal module, like ""internal/process/stdio"""	8		
 12337	15943089	true	open	false	0	0	2017-04-11T11:25:30Z	2017-04-11T11:25:30Z		v7.x Backport - build: avoid passing kill empty input in Makefile	25		
-12338	12330766	false	open	false	0		2017-04-11T11:30:24Z	2017-04-11T15:42:24Z		Embed node.js to win32 Application	76		
+12338	12330766	false	open	false	2		2017-04-11T11:30:24Z	2017-04-11T19:10:38Z		Embed node.js to win32 Application	76		
 12339	753512	false	open	false	0		2017-04-11T12:09:49Z	2017-04-11T12:09:49Z		Missing response for certain POST requests	363		
 12340	4044581	true	open	false	0	0	2017-04-11T13:50:18Z	2017-04-11T13:50:18Z		doc: use GH issue/PR shorthand in commit messages	41		
 12341	899444	false	open	false	0		2017-04-11T18:12:51Z	2017-04-11T18:12:51Z		doc,fs: document WHATWG URL support	118		
-12342	275871	true	open	false	0	0	2017-04-11T18:26:00Z	2017-04-11T18:26:00Z		net: micro cleanups	23		
+12342	275871	true	open	false			2017-04-11T18:26:00Z	2017-04-11T19:13:26Z		net: micro cleanups	25		
 12343	2512748	true	open	false	0	0	2017-04-11T18:30:48Z	2017-04-11T18:30:48Z		test: add cwd ENOENT known issue test	49		
-12344	275871	true	open	false	0	0	2017-04-11T18:49:05Z	2017-04-11T18:49:05Z		src: don't call uv_run() after 'exit' event [DO NOT LAND]	14		
+12344	275871	true	open	false	0		2017-04-11T18:49:05Z	2017-04-11T20:01:46Z		src: don't call uv_run() after 'exit' event [DO NOT LAND]	14		
+12345	13050025	false	open	false	0		2017-04-11T20:02:02Z	2017-04-11T20:02:02Z		the Nodejs installer can not set the right `PATH` on window 10 	59		
