@@ -8,7 +8,7 @@
 548	1522145	false	closed	false	26		2015-01-22T03:48:27Z	2017-01-26T21:48:27Z	2017-01-26T21:48:27Z	Function redefinition in vm.runInContext	44		
 550	30827	false	closed	false	10		2015-01-22T05:35:22Z	2016-08-05T22:14:53Z	2016-08-05T22:14:53Z	Proposal: HTTP – Move `bodyHead` to `data` event	125		
 556	7656868	false	open	false	27		2015-01-22T12:22:06Z	2017-01-07T06:31:51Z		Silent Mode execution	314		
-583	643505	false	open	false	50		2015-01-23T23:53:00Z	2017-04-04T11:58:22Z		streaming / iterative fs.readdir	50		
+583	643505	false	open	false	51		2015-01-23T23:53:00Z	2017-04-12T15:21:55Z		streaming / iterative fs.readdir	50		
 616	1106489	false	closed	false	11		2015-01-27T02:44:36Z	2016-10-20T11:52:43Z	2015-06-24T23:04:28Z	url.relative (to complement path.relative)	101		
 643	829734	false	closed	false	32		2015-01-28T21:12:32Z	2017-02-07T10:58:10Z	2016-08-05T22:17:26Z	Using faster url parser	82		
 646	54666	false	closed	false	18		2015-01-29T01:38:54Z	2017-02-07T17:58:41Z	2017-02-07T17:58:41Z	switch to benchmark.js module for benchmarking	54		
@@ -2509,7 +2509,7 @@
 9158	2512748	true	closed	false	5	0	2016-10-18T13:39:32Z	2016-10-18T23:01:59Z	2016-10-18T23:01:59Z	buffer: convert range to numbers before validation	93		
 9159	18714056	false	open	false	0		2016-10-18T14:02:30Z	2016-10-18T14:02:30Z		Example of how to use node.dll in vs 2015	21		
 9160	275871	false	open	false	2		2016-10-18T14:07:55Z	2016-10-22T08:59:02Z		security,unix: audit use of process.env in lib/ for setuid binary	116		
-9161	352113	false	open	false	18		2016-10-18T14:25:26Z	2016-10-19T21:25:38Z		bundle with yarn and allow which package manager during build.	42		
+9161	352113	false	open	false	18		2016-10-18T14:25:26Z	2017-04-12T15:48:23Z		bundle with yarn and allow which package manager during build.	42		
 9162	1258773	false	closed	false	3		2016-10-18T14:46:21Z	2016-10-18T16:26:49Z	2016-10-18T16:26:49Z	Crypto: Issue creating md5 for a string containing a apostrophe	114		
 9163	432351	true	closed	false	31		2016-10-18T14:59:23Z	2017-04-12T11:18:28Z	2017-04-12T11:18:28Z	src: make AtExit callback's per Environment	76		
 9164	2292713	false	closed	false	2		2016-10-18T15:13:39Z	2016-10-18T17:01:49Z	2016-10-18T15:30:56Z	Step over/Next does not stop on next line if there is exception thrown and caught inside a function	78		
@@ -4496,7 +4496,7 @@
 11151	718899	true	closed	false	5		2017-02-03T19:20:39Z	2017-03-07T19:24:39Z	2017-02-06T23:35:58Z	doc: fix linting command for vcbuild	47		
 11152	2512748	true	closed	false	4		2017-02-03T20:00:37Z	2017-03-07T19:06:51Z	2017-02-06T19:15:23Z	test: add common.mustNotCall()	61		
 11153	811047	true	closed	false	5		2017-02-03T20:15:34Z	2017-02-08T16:39:38Z	2017-02-04T05:53:04Z	test: fix test.py command line options processing	86		
-11154	1093990	true	open	false	20		2017-02-03T21:16:19Z	2017-04-12T14:59:39Z		net: use actual Timeout instances on Sockets	184		
+11154	1093990	true	open	false			2017-02-03T21:16:19Z	2017-04-12T15:11:03Z		net: use actual Timeout instances on Sockets	184		
 11155	439929	true	open	false	1		2017-02-03T23:28:57Z	2017-02-04T00:18:17Z		"Revert ""test: refactor test-fs-error-messages.js"""	79		
 11156	7796741	false	open	false	10		2017-02-03T23:49:31Z	2017-03-20T08:55:30Z		segmentation fault at v8::internal::StoreBuffer::EnsureSpace ()	830		
 11157	305455	true	closed	false	6		2017-02-04T01:59:10Z	2017-03-07T20:40:34Z	2017-02-06T17:42:09Z	src: fix building --without-v8-platform (backport v7.x)	63		
@@ -5591,7 +5591,7 @@
 12250	1569843	true	closed	false	20		2017-04-06T02:32:54Z	2017-04-11T22:51:35Z	2017-04-10T23:41:52Z	n-api: implement async helper methods	205		
 12251	1538624	true	open	false	0		2017-04-06T04:45:06Z	2017-04-11T10:10:59Z		src: clean up WHATWG URL parser, round 2	152		
 12252	1538624	true	open	false	3		2017-04-06T04:47:51Z	2017-04-08T06:58:15Z		url: clean up WHATWG URL origin generation	43		
-12253	1538624	true	open	false			2017-04-06T04:57:32Z	2017-04-12T13:30:54Z		url: improve WHATWG URL inspection	76		
+12253	1538624	true	open	false			2017-04-06T04:57:32Z	2017-04-12T15:49:25Z		url: improve WHATWG URL inspection	76		
 12254	1538624	true	closed	false	2		2017-04-06T05:34:14Z	2017-04-10T22:15:32Z	2017-04-08T18:51:56Z	util: use V8 C++ API for inspecting Promises	38		
 12255	432351	true	closed	false	3		2017-04-06T10:21:01Z	2017-04-10T05:30:47Z	2017-04-10T05:30:47Z	src: use std::list for at_exit_functions	46		
 12256	12787473	true	closed	false	0		2017-04-06T10:41:35Z	2017-04-08T22:18:16Z	2017-04-08T22:18:16Z	doc: fix missing callback for dns.resolvePtr()	23		
@@ -5626,7 +5626,7 @@
 12285	15850680	false	open	false	17		2017-04-08T17:13:25Z	2017-04-08T20:18:32Z		Child_process assertion failed	195		
 12286	54666	true	open	false			2017-04-08T18:54:05Z	2017-04-08T21:37:40Z		buffer: use slightly faster NaN check	63		
 12287	718899	true	open	false			2017-04-09T02:45:42Z	2017-04-09T17:29:33Z		tools: replace custom assert.fail lint rule	38		
-12288	6447530	true	open	false			2017-04-09T10:35:02Z	2017-04-12T14:44:23Z		http_parser: assert on incoming argument's type	53		
+12288	6447530	true	open	false			2017-04-09T10:35:02Z	2017-04-12T15:15:43Z		http_parser: assert on incoming argument's type	53		
 12289	1431799	false	open	false	4		2017-04-09T14:04:06Z	2017-04-10T03:07:19Z		Code example in the docs of Error.captureStackTrace needs better wording	211		
 12290	4044581	true	closed	false	1		2017-04-09T14:34:22Z	2017-04-11T09:47:23Z	2017-04-11T09:47:23Z	test: fix allocUnsafe uninitialized buffer check	61		
 12291	10393198	false	closed	false	8		2017-04-09T16:44:34Z	2017-04-11T09:36:38Z	2017-04-11T09:36:38Z	doc: are `os.uptime()` returned type and remark correct?	51		
@@ -5647,7 +5647,7 @@
 12306	5886475	true	open	false	1		2017-04-10T16:01:26Z	2017-04-11T00:26:44Z		test: add internal/fs tests	56		
 12307	115237	true	closed	false	0		2017-04-10T16:16:50Z	2017-04-11T09:39:00Z	2017-04-11T09:39:00Z	doc: add link on logo to README	37		
 12308	11459446	false	open	false	0		2017-04-10T16:36:42Z	2017-04-10T17:22:00Z		Fatal V8 Compiler Error	146		
-12309	9373002	true	open	false	2		2017-04-10T17:15:27Z	2017-04-11T17:39:09Z		doc: drop PPC BE from supported platforms	68		
+12309	9373002	true	open	false	6		2017-04-10T17:15:27Z	2017-04-12T15:45:06Z		doc: drop PPC BE from supported platforms	68		
 12310	96947	false	open	false	3		2017-04-10T17:42:44Z	2017-04-12T14:15:03Z		build: refactor vcbuild.bat	97		
 12311	26882952	false	open	false	5		2017-04-10T18:21:30Z	2017-04-12T00:53:34Z		NodeJS Installation Error | Windows 10 64-bit	48		
 12312	7693422	true	open	false	0		2017-04-10T18:36:07Z	2017-04-11T07:50:02Z		doc: add history of `options` param being added to `fs.readdir()`	23		
@@ -5665,7 +5665,7 @@
 12324	4299420	true	open	false	0	0	2017-04-11T02:56:53Z	2017-04-11T02:56:53Z		(v7.x backport) test: add more test cases of server.listen option	47		
 12325	4299420	true	open	false	0	0	2017-04-11T03:05:41Z	2017-04-11T03:05:41Z		(v7.x backport) test: add more and refactor test cases to net.connect	34		
 12326	4299420	true	open	false			2017-04-11T03:20:13Z	2017-04-12T10:27:11Z		test: add test for child_process benchmark	35		
-12327	9373002	true	open	false			2017-04-11T03:20:19Z	2017-04-11T17:31:45Z		test: improve test coverage for n-api	53		
+12327	9373002	true	open	false	2		2017-04-11T03:20:19Z	2017-04-12T15:46:37Z		test: improve test coverage for n-api	53		
 12328	718899	true	open	false	0	0	2017-04-11T05:33:02Z	2017-04-11T05:33:02Z		Backport 12153 to 7.x: buffer,util: refactor for performance	81		
 12329	718899	true	open	false	0	0	2017-04-11T05:44:34Z	2017-04-11T05:44:34Z		Backport f637: tools: replace custom ESLint timers rule	72		
 12330	718899	true	open	false	0	0	2017-04-11T05:54:50Z	2017-04-11T05:54:50Z		test: remove disabled test-dgram-send-error	52		
@@ -5686,7 +5686,7 @@
 12345	13050025	false	open	false	12		2017-04-11T20:02:02Z	2017-04-12T14:30:05Z		installer will not overwrite user's .npmrc, even if invalid	59		
 12346	10441177	false	closed	false	8		2017-04-11T20:07:56Z	2017-04-12T10:20:00Z	2017-04-11T20:35:25Z	QUESTION: How to write sync code in Node.js?	63		
 12347	718899	true	open	false	0	0	2017-04-11T20:10:43Z	2017-04-11T20:10:43Z		test: add test-benchmark-crypto	52		
-12348	2512748	true	open	false			2017-04-11T20:46:32Z	2017-04-11T22:35:06Z		child_process: internal cleanup and input validation improvements	117		
+12348	2512748	true	open	false			2017-04-11T20:46:32Z	2017-04-12T15:05:06Z		child_process: internal cleanup and input validation improvements	117		
 12349	205482	true	open	false	1		2017-04-11T23:40:37Z	2017-04-12T01:05:35Z		src: let preloaded modules set source transformer	107		
 12350	718899	true	open	false	0	0	2017-04-11T23:48:05Z	2017-04-11T23:48:05Z		doc: fix formatting in onboarding-extras	31		
 12351	10393198	false	open	false	0		2017-04-12T00:11:15Z	2017-04-12T00:11:15Z		ENOENT error message inconsistencies	232		
@@ -5694,10 +5694,13 @@
 12353	26710557	false	open	false	0		2017-04-12T05:56:30Z	2017-04-12T06:24:03Z		Error: Can't set headers after they are sent.( TRYING TO SEND DATA FROM ONE PAGE TO ANOTHER).	153		
 12354	1029249	true	open	false	1		2017-04-12T07:14:14Z	2017-04-12T08:21:26Z		test: improve punycode coverage to check surrogate pair	45		
 12355	332968	true	open	false			2017-04-12T09:39:13Z	2017-04-12T11:08:06Z		test: buffer should always be stringified	46		
-12356	4560610	false	open	false	2		2017-04-12T09:44:24Z	2017-04-12T14:27:49Z		Promise execution differs migrating from node v6.10.2 to 7.x.x (breaking existing code)	596		
+12356	4560610	false	open	false	3		2017-04-12T09:44:24Z	2017-04-12T15:54:57Z		Promise execution differs migrating from node v6.10.2 to 7.x.x (breaking existing code)	596		
 12357	432351	true	open	false	0	0	2017-04-12T10:40:18Z	2017-04-12T10:40:18Z		test: add hasCrypto check to test-debug-usage	167		
 12358	677994	true	open	false	0	0	2017-04-12T10:52:26Z	2017-04-12T10:52:26Z		doc: limit lines to 80 cols in internal README	24		
 12359	1430657	false	open	false	1		2017-04-12T10:55:23Z	2017-04-12T12:16:57Z		exit/beforeExit events not fired on Ubuntu 	115		
 12360	5008982	false	open	false	0		2017-04-12T11:28:18Z	2017-04-12T11:28:18Z		Latest nodejs v8 nightly build dont have --debug-brk option	30		
 12361	54666	true	open	false	0	0	2017-04-12T13:25:24Z	2017-04-12T13:25:24Z		buffer: various performance improvements	791		
 12362	114642	false	open	false	9		2017-04-12T13:30:44Z	2017-04-12T14:05:12Z		util.format was broken 2 years ago in an attempt to gain performance	34		
+12363	567540	true	open	false	0	0	2017-04-12T15:10:16Z	2017-04-12T15:10:16Z		deps: update node-inspect to v1.11.1	206		
+12364	323878	false	open	false	0		2017-04-12T15:17:07Z	2017-04-12T15:17:07Z		Inspector protocol - retain support for `--inspect --debug-brk`	118		
+12365	9373002	true	open	false	0	0	2017-04-12T15:40:50Z	2017-04-12T15:40:50Z		n-api: fix coverity scan report	42		
