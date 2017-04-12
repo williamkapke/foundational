@@ -8,7 +8,7 @@
 548	1522145	false	closed	false	26		2015-01-22T03:48:27Z	2017-01-26T21:48:27Z	2017-01-26T21:48:27Z	Function redefinition in vm.runInContext	44		
 550	30827	false	closed	false	10		2015-01-22T05:35:22Z	2016-08-05T22:14:53Z	2016-08-05T22:14:53Z	Proposal: HTTP – Move `bodyHead` to `data` event	125		
 556	7656868	false	open	false	27		2015-01-22T12:22:06Z	2017-01-07T06:31:51Z		Silent Mode execution	314		
-583	643505	false	open	false	51		2015-01-23T23:53:00Z	2017-04-12T15:21:55Z		streaming / iterative fs.readdir	50		
+583	643505	false	open	false	52		2015-01-23T23:53:00Z	2017-04-12T21:04:47Z		streaming / iterative fs.readdir	50		
 616	1106489	false	closed	false	11		2015-01-27T02:44:36Z	2016-10-20T11:52:43Z	2015-06-24T23:04:28Z	url.relative (to complement path.relative)	101		
 643	829734	false	closed	false	32		2015-01-28T21:12:32Z	2017-02-07T10:58:10Z	2016-08-05T22:17:26Z	Using faster url parser	82		
 646	54666	false	closed	false	18		2015-01-29T01:38:54Z	2017-02-07T17:58:41Z	2017-02-07T17:58:41Z	switch to benchmark.js module for benchmarking	54		
@@ -4110,8 +4110,8 @@
 10765	11823240	false	closed	false	0		2017-01-12T12:45:43Z	2017-01-12T13:13:29Z	2017-01-12T13:13:29Z	String.prototype.toLocaleUpperCase bug in tr_TR.UTF-8 Locale	62		
 10766	52195	false	closed	false	11		2017-01-12T16:51:50Z	2017-01-31T17:05:40Z	2017-01-31T17:05:40Z	doc: guide on backpressure	37		
 10767	7282720	true	open	false	0	0	2017-01-12T18:08:45Z	2017-01-12T18:08:45Z		child_process: Allow an unlimited maxBuffer size in child_process	31		
-10768	17607	false	open	false	0		2017-01-12T18:43:30Z	2017-04-11T10:46:40Z		maxBuffer of Infinity aborts child_process.execSync	196		
-10769	2512748	true	open	false	8		2017-01-12T18:44:09Z	2017-01-17T15:19:48Z		child_process: allow Infinity as maxBuffer value	34		
+10768	17607	false	open	false	1		2017-01-12T18:43:30Z	2017-04-12T21:23:12Z		maxBuffer of Infinity aborts child_process.execSync	196		
+10769	2512748	true	closed	false	9		2017-01-12T18:44:09Z	2017-04-12T21:20:03Z	2017-01-17T15:51:10Z	child_process: allow Infinity as maxBuffer value	34		
 10770	469365	false	closed	false	1		2017-01-12T19:06:57Z	2017-01-16T21:39:07Z	2017-01-16T21:39:07Z	Unclear docs on copying/sharing memory for Buffer.from(arrayBuffer)	166		
 10771	17607	true	open	false	6		2017-01-12T19:38:15Z	2017-01-12T21:14:31Z		Eslint fixes	33		
 10772	3367801	true	closed	false	6		2017-01-12T19:42:20Z	2017-03-07T19:08:20Z	2017-02-08T16:37:46Z	test: add test cases to test-readline-keys.js	45		
@@ -5193,7 +5193,7 @@
 11849	17619590	false	open	false	8		2017-03-14T17:03:35Z	2017-04-04T14:47:53Z		using --enable-fips or --force-fips with crypto.fips=1 fails	138		
 11850	287917	true	closed	false	3	0	2017-03-14T17:17:14Z	2017-03-16T16:58:58Z	2017-03-16T16:58:58Z	inspector: proper WS URLs when bound to 0.0.0.0	87	287917	2017-03-16T16:58:58Z
 11851	10393198	false	open	false	53		2017-03-14T17:34:53Z	2017-04-11T22:53:18Z		Ignition + TurboFan: Node.js benchmarks	175		
-11852	96947	true	open	false	36		2017-03-14T22:25:05Z	2017-04-12T20:36:19Z		[win] Make build-able on vs2017	170		
+11852	96947	true	open	false	38		2017-03-14T22:25:05Z	2017-04-12T21:06:39Z		[win] Make build-able on vs2017	170		
 11853	5876741	false	closed	false	6		2017-03-15T00:55:08Z	2017-03-25T01:15:54Z	2017-03-25T01:15:54Z	Feature request: Env Var NODE_REQUIRE	79		
 11854	12488060	true	closed	false	3		2017-03-15T00:56:56Z	2017-03-28T22:27:17Z	2017-03-22T16:57:52Z	lib: Use regex to compare error message	37		
 11855	3315328	false	open	false	15		2017-03-15T01:34:38Z	2017-03-16T08:21:49Z		let v8 use libuv thread pool	17		
@@ -5224,7 +5224,7 @@
 11880	2456635	false	closed	false	3		2017-03-16T13:12:21Z	2017-03-16T23:50:33Z	2017-03-16T23:50:33Z	node --inspect not working 	166		
 11881	1799756	false	closed	false	4		2017-03-16T16:01:30Z	2017-03-16T19:20:40Z	2017-03-16T19:20:40Z	Invalid output with backslashes in string literals, if console.log has multiple parameters	33		
 11882	15730986	false	closed	false	28		2017-03-16T16:08:30Z	2017-04-05T13:14:02Z	2017-03-31T14:44:32Z	npm --version segfaults on v7.7.3 linux ppc64 (BE) only ON RHEL 7	38		
-11883	289174	true	open	false	16		2017-03-16T17:40:27Z	2017-04-12T15:02:40Z		async_hooks initial implementation	211		
+11883	289174	true	open	false	17		2017-03-16T17:40:27Z	2017-04-12T22:02:10Z		async_hooks initial implementation	211		
 11884	1154680	false	open	false	13		2017-03-16T18:21:37Z	2017-03-25T01:32:46Z		require accepts incoherent files	104		
 11885	22823019	false	closed	false	5		2017-03-16T22:34:58Z	2017-03-20T15:54:25Z	2017-03-20T15:54:25Z	SIGSEGV When Reading From SSL Stream	470		
 11886	332968	true	closed	false	4		2017-03-16T23:01:47Z	2017-03-21T14:34:52Z	2017-03-20T17:19:22Z	test: added tests for unixtimestamp generation	40		
@@ -5519,7 +5519,7 @@
 12176	432351	true	closed	false	2		2017-04-03T06:24:24Z	2017-04-05T06:25:11Z	2017-04-05T06:25:11Z	build: make configure print statements consistent	71		
 12177	374012	false	open	false	0		2017-04-03T06:38:53Z	2017-04-03T06:38:53Z		Type confusion bugs in process_wrap.cc.	77		
 12178	374012	false	open	false	2		2017-04-03T06:41:08Z	2017-04-09T07:12:11Z		Type confusion bug in HTTP parser	89		
-12179	374012	false	open	false	0		2017-04-03T06:43:39Z	2017-04-03T07:40:29Z		Type confusion bug in WriteFloatGeneric	71		
+12179	374012	false	open	false	5		2017-04-03T06:43:39Z	2017-04-12T21:10:44Z		Type confusion bug in WriteFloatGeneric	71		
 12181	3109072	true	open	false	6		2017-04-03T10:09:25Z	2017-04-11T10:23:34Z		doc: path functions ignore trailing slashes	42		
 12182	2931196	true	closed	false	11		2017-04-03T11:14:08Z	2017-04-07T08:01:29Z	2017-04-05T02:53:13Z	Implement assert.isInstanceOf()	69		
 12183	2291463	true	open	false	10		2017-04-03T11:49:50Z	2017-04-03T15:19:45Z		process: use rest parameters in nextTick.	58		
@@ -5583,7 +5583,7 @@
 12242	17607	true	closed	false	1		2017-04-05T19:24:19Z	2017-04-09T15:36:26Z	2017-04-09T15:36:26Z	src: use std::string for trace enabled_categories	67		
 12243	4421720	true	open	false	19		2017-04-05T19:47:10Z	2017-04-11T22:22:33Z		src: deprecate vm.runInDebugContext	77		
 12244	1794907	false	open	false	7		2017-04-05T20:57:09Z	2017-04-06T17:16:09Z		zlib different on OSX and Linux in newest releases	156		
-12245	17607	true	open	false	5		2017-04-05T21:14:01Z	2017-04-11T14:18:58Z		src: use option parser for expose_internals	73		
+12245	17607	true	open	false	6		2017-04-05T21:14:01Z	2017-04-12T21:05:25Z		src: use option parser for expose_internals	73		
 12246	976081	true	closed	false	12		2017-04-05T22:30:43Z	2017-04-11T12:05:17Z	2017-04-07T22:41:05Z	n-api: cache Symbol.hasInstance	57		
 12247	10393198	true	closed	false	2		2017-04-05T23:53:13Z	2017-04-08T13:12:33Z	2017-04-08T13:12:33Z	doc: fix confusing reference in net.md	49		
 12248	1569843	true	closed	false	10	32	2017-04-06T01:21:48Z	2017-04-10T21:32:37Z	2017-04-10T21:32:37Z	napi: change napi_callback to return napi_value	197		
@@ -5631,13 +5631,13 @@
 12290	4044581	true	closed	false	1		2017-04-09T14:34:22Z	2017-04-11T09:47:23Z	2017-04-11T09:47:23Z	test: fix allocUnsafe uninitialized buffer check	61		
 12291	10393198	false	closed	false	8		2017-04-09T16:44:34Z	2017-04-11T09:36:38Z	2017-04-11T09:36:38Z	doc: are `os.uptime()` returned type and remark correct?	51		
 12292	9489084	false	closed	false	3		2017-04-09T17:14:13Z	2017-04-09T21:28:00Z	2017-04-09T17:22:28Z	Array.prototype.map unexpected behaviour with parseInt 	94		
-12293	718899	true	open	false	10		2017-04-09T17:56:54Z	2017-04-12T20:13:36Z		assert.fail() accept a single argument or two arguments 	156		
+12293	718899	true	closed	false	11		2017-04-09T17:56:54Z	2017-04-12T21:30:47Z	2017-04-12T21:30:47Z	assert.fail() accept a single argument or two arguments 	156		
 12294	10393198	true	closed	false	12		2017-04-09T19:44:30Z	2017-04-11T09:38:12Z	2017-04-11T09:38:12Z	doc: update os.uptime() and process.uptime() descriptions	24		
 12295	11045284	false	open	false	0		2017-04-09T22:15:17Z	2017-04-09T22:15:17Z		Possibility for ES6 import/export usage via harmony flags.	60		
 12296	10393198	true	closed	false	0		2017-04-09T23:57:27Z	2017-04-12T00:25:22Z	2017-04-12T00:25:22Z	doc: modernize and fix code examples in path.md	42		
 12297	23745671	false	closed	false	3		2017-04-10T01:13:29Z	2017-04-10T04:49:55Z	2017-04-10T03:08:40Z	node install.js	241		
 12298	4729968	false	closed	false	3		2017-04-10T01:32:33Z	2017-04-10T12:29:17Z	2017-04-10T07:52:22Z	path.posix.normalize does not replace windows slashes	37		
-12299	392868	false	open	false	2		2017-04-10T02:21:50Z	2017-04-10T11:45:10Z		readdir docs don’t mention when options argument was added	137		
+12299	392868	false	closed	false	3		2017-04-10T02:21:50Z	2017-04-12T21:40:25Z	2017-04-12T21:40:25Z	readdir docs don’t mention when options argument was added	137		
 12300	275871	false	open	false	2		2017-04-10T08:11:32Z	2017-04-12T10:42:45Z		vm: strict mode ReferenceError with assignment to context property	38		
 12301	1102038	false	open	false	0		2017-04-10T10:19:28Z	2017-04-10T10:19:28Z		missing SHASUMS file of v7.8.0	153		
 12302	432351	true	closed	false	2		2017-04-10T13:29:33Z	2017-04-12T11:09:16Z	2017-04-12T11:09:16Z	src: guard bundled_ca/openssl_ca with HAVE_OPENSSL	74		
@@ -5650,16 +5650,16 @@
 12309	9373002	true	closed	false	6		2017-04-10T17:15:27Z	2017-04-12T19:24:02Z	2017-04-12T19:24:02Z	doc: drop PPC BE from supported platforms	68		
 12310	96947	false	open	false	4		2017-04-10T17:42:44Z	2017-04-12T16:24:18Z		build: refactor vcbuild.bat	97		
 12311	26882952	false	open	false	5		2017-04-10T18:21:30Z	2017-04-12T00:53:34Z		NodeJS Installation Error | Windows 10 64-bit	48		
-12312	7693422	true	open	false	0		2017-04-10T18:36:07Z	2017-04-11T07:50:02Z		doc: add history of `options` param being added to `fs.readdir()`	23		
+12312	7693422	true	closed	false	1		2017-04-10T18:36:07Z	2017-04-12T21:40:08Z	2017-04-12T21:40:08Z	doc: add history of `options` param being added to `fs.readdir()`	23		
 12313	7693422	true	open	false			2017-04-10T19:38:04Z	2017-04-12T19:10:36Z		docs: add info about serializable types for `querystring.stringify()`	37		
 12314	910691	true	open	false	2		2017-04-10T20:07:03Z	2017-04-12T19:35:38Z		doc: response.write ignores body in some cases	77		
 12315	1716463	true	open	false			2017-04-10T20:12:26Z	2017-04-12T18:28:24Z		url: disallow invalid IPv4 in IPv6 parser	19		
 12316	17607	true	open	false			2017-04-10T20:24:44Z	2017-04-11T14:21:50Z		src: do not join an uninitialized thread	140		
-12317	10393198	true	open	false	2		2017-04-10T21:35:53Z	2017-04-11T08:52:58Z		benchmark: replace more [].join() with ''.repeat()	31		
+12317	10393198	true	closed	false	3		2017-04-10T21:35:53Z	2017-04-12T21:33:19Z	2017-04-12T21:33:19Z	benchmark: replace more [].join() with ''.repeat()	31		
 12318	899444	true	open	false	1		2017-04-10T22:10:44Z	2017-04-11T18:00:31Z		test: fix compiler warning in n-api test	55		
 12319	6354455	true	closed	false	6	0	2017-04-10T22:29:17Z	2017-04-11T17:32:00Z	2017-04-11T17:32:00Z	v7.9.0 Release Proposal	694	6354455	2017-04-11T17:32:00Z
 12320	79017	true	open	false	0	0	2017-04-10T23:29:18Z	2017-04-10T23:29:18Z		doc: missing _ in Writable ES6 examples	30		
-12321	4923335	true	open	false	2		2017-04-11T00:53:22Z	2017-04-11T23:17:04Z		(v7.x-backport) build: enable cctest to use generated objects	41		
+12321	4923335	true	open	false	3		2017-04-11T00:53:22Z	2017-04-12T22:25:48Z		(v7.x-backport) build: enable cctest to use generated objects	41		
 12322	10393198	false	open	false	14		2017-04-11T00:56:14Z	2017-04-11T18:49:52Z		process: flaky behavior of 'exit' event handler	167		
 12323	4299420	true	open	false	0	0	2017-04-11T02:33:12Z	2017-04-11T02:33:12Z		(v7.x-backport): test the HTTP benchmark with a dummy benchmarker 	37		
 12324	4299420	true	open	false	0	0	2017-04-11T02:56:53Z	2017-04-11T02:56:53Z		(v7.x backport) test: add more test cases of server.listen option	47		
@@ -5668,7 +5668,7 @@
 12327	9373002	true	closed	false	2		2017-04-11T03:20:19Z	2017-04-12T19:28:59Z	2017-04-12T19:28:59Z	test: improve test coverage for n-api	53		
 12328	718899	true	open	false	0	0	2017-04-11T05:33:02Z	2017-04-11T05:33:02Z		Backport 12153 to 7.x: buffer,util: refactor for performance	81		
 12329	718899	true	open	false	0	0	2017-04-11T05:44:34Z	2017-04-11T05:44:34Z		Backport f637: tools: replace custom ESLint timers rule	72		
-12330	718899	true	open	false	0	0	2017-04-11T05:54:50Z	2017-04-11T05:54:50Z		test: remove disabled test-dgram-send-error	52		
+12330	718899	true	open	false	2		2017-04-11T05:54:50Z	2017-04-12T21:32:35Z		test: remove disabled test-dgram-send-error	52		
 12331	1716463	true	closed	false	3	0	2017-04-11T05:55:39Z	2017-04-12T18:54:40Z	2017-04-12T18:54:40Z	url: remove javascript URL special case	27		
 12332	432351	true	open	false	0		2017-04-11T06:42:36Z	2017-04-11T14:25:02Z		(v7.x backport) src,test: --without ssl fixes	103		
 12333	275871	true	closed	false	1	0	2017-04-11T09:41:44Z	2017-04-11T14:01:02Z	2017-04-11T14:01:02Z	n-api: fix -Wmismatched-tags compiler warning	14		
@@ -5683,11 +5683,11 @@
 12342	275871	true	open	false			2017-04-11T18:26:00Z	2017-04-11T19:13:26Z		net: micro cleanups	25		
 12343	2512748	true	open	false			2017-04-11T18:30:48Z	2017-04-11T22:04:42Z		test: add cwd ENOENT known issue test	49		
 12344	275871	true	open	false	0		2017-04-11T18:49:05Z	2017-04-11T20:01:46Z		src: don't call uv_run() after 'exit' event [DO NOT LAND]	14		
-12345	13050025	false	open	false	12		2017-04-11T20:02:02Z	2017-04-12T14:30:05Z		installer will not overwrite user's .npmrc, even if invalid	59		
+12345	13050025	false	open	false	13		2017-04-11T20:02:02Z	2017-04-12T21:27:47Z		installer will not overwrite user's .npmrc, even if invalid	59		
 12346	10441177	false	closed	false	8		2017-04-11T20:07:56Z	2017-04-12T10:20:00Z	2017-04-11T20:35:25Z	QUESTION: How to write sync code in Node.js?	63		
 12347	718899	true	open	false	0	0	2017-04-11T20:10:43Z	2017-04-11T20:10:43Z		test: add test-benchmark-crypto	52		
 12348	2512748	true	open	false			2017-04-11T20:46:32Z	2017-04-12T15:05:06Z		child_process: internal cleanup and input validation improvements	117		
-12349	205482	true	open	false	1		2017-04-11T23:40:37Z	2017-04-12T01:05:35Z		src: let preloaded modules set source transformer	107		
+12349	205482	true	open	false	2		2017-04-11T23:40:37Z	2017-04-12T21:27:46Z		src: let preloaded modules set source transformer	180		
 12350	718899	true	open	false	0	0	2017-04-11T23:48:05Z	2017-04-11T23:48:05Z		doc: fix formatting in onboarding-extras	31		
 12351	10393198	false	open	false	0		2017-04-12T00:11:15Z	2017-04-12T00:11:15Z		ENOENT error message inconsistencies	232		
 12352	498775	true	open	false	7		2017-04-12T05:36:32Z	2017-04-12T17:04:49Z		src: remove experimental warning for inspect	29		
@@ -5700,14 +5700,19 @@
 12359	1430657	false	open	false	1		2017-04-12T10:55:23Z	2017-04-12T12:16:57Z		exit/beforeExit events not fired on Ubuntu 	115		
 12360	5008982	false	open	false	0		2017-04-12T11:28:18Z	2017-04-12T11:28:18Z		Latest nodejs v8 nightly build dont have --debug-brk option	30		
 12361	54666	true	open	false	0	0	2017-04-12T13:25:24Z	2017-04-12T13:25:24Z		buffer: various performance improvements	791		
-12362	114642	false	open	false	16		2017-04-12T13:30:44Z	2017-04-12T20:03:11Z		doc: confusing language in util.format() docs	34		
-12363	567540	true	open	false	1		2017-04-12T15:10:16Z	2017-04-12T20:32:24Z		deps: update node-inspect to v1.11.1	214		
-12364	323878	false	open	false	1		2017-04-12T15:17:07Z	2017-04-12T20:26:20Z		Inspector protocol - retain support for `--inspect --debug-brk`	135		
+12362	114642	false	open	false	18		2017-04-12T13:30:44Z	2017-04-12T21:37:49Z		doc: confusing language in util.format() docs	34		
+12363	567540	true	open	false	3		2017-04-12T15:10:16Z	2017-04-12T22:06:01Z		deps: update node-inspect to v1.11.1	214		
+12364	323878	false	open	false	2		2017-04-12T15:17:07Z	2017-04-12T21:56:28Z		Inspector protocol - retain support for `--inspect --debug-brk`	135		
 12365	9373002	true	open	false	0	0	2017-04-12T15:40:50Z	2017-04-12T15:40:50Z		n-api: fix coverity scan report	42		
-12366	899444	true	open	false	0	0	2017-04-12T17:52:53Z	2017-04-12T17:52:53Z		src: reduce number of exported symbols	48		
+12366	899444	true	open	false			2017-04-12T17:52:53Z	2017-04-12T21:55:07Z		src: reduce number of exported symbols	48		
 12367	2512748	true	open	false	0	0	2017-04-12T18:12:04Z	2017-04-12T18:12:04Z		test: complete coverage of lib/child_process.js	214		
 12368	7670632	true	open	false			2017-04-12T18:28:58Z	2017-04-12T20:08:01Z		n-api: add string api for latin1 encoding and new test cases	35		
 12369	3109072	false	open	false	0		2017-04-12T19:56:50Z	2017-04-12T19:56:50Z		Multiple segmentation faults in contextify when parsing options	41		
 12370	3109072	false	open	false	0		2017-04-12T19:56:57Z	2017-04-12T19:56:57Z		os.userInfo can cause segmentation fault	42		
 12371	3109072	true	open	false	0	0	2017-04-12T20:03:19Z	2017-04-12T20:03:19Z		os,contextify: fix segfaults and CHECK failure	52		
-12372	2512748	false	open	false	0		2017-04-12T20:06:35Z	2017-04-12T20:06:35Z		Let's make a plan for bad getters and toString() methods	124		
+12372	2512748	false	open	false	4		2017-04-12T20:06:35Z	2017-04-12T21:06:42Z		Let's make a plan for bad getters and toString() methods	124		
+12373	6395399	false	open	false	0		2017-04-12T21:03:25Z	2017-04-12T21:03:25Z		`setTimeout(function(){throw null},0)` crashes toplevel	86		
+12374	5329230	true	open	false	0	0	2017-04-12T21:32:30Z	2017-04-12T21:32:30Z		doc: add single arg scenario for util.format	46		
+12375	18039004	false	open	false	0		2017-04-12T21:58:39Z	2017-04-12T21:58:39Z		Segmentation Fault for SuperUser	165		
+12376	718899	false	open	false	0		2017-04-12T22:11:03Z	2017-04-12T22:11:03Z		Remove `common.PORT` usage from `parallel` tests	346		
+12377	718899	true	open	false	0	0	2017-04-12T22:26:11Z	2017-04-12T22:26:11Z		test: remove common.PORT from test-cluster-basic	66		
