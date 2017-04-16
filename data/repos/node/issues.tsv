@@ -550,6 +550,7 @@
 6793	718899	true	closed	false	15		2016-05-16T20:58:19Z	2016-07-11T22:37:42Z	2016-05-24T20:45:06Z	test: improve debug-break-on-uncaught reliability	64		
 6798	54666	false	open	false	26		2016-05-17T01:22:45Z	2016-11-02T22:04:08Z		streams: Readable highWaterMark is measured in bytes *or* characters	103		
 6802	13891170	false	open	false	12		2016-05-17T06:00:09Z	2016-07-21T14:44:54Z		REPL crashes after let process;	35		
+6803	413206	false	closed	false	14		2016-05-17T08:34:13Z	2017-04-16T00:22:42Z	2017-04-16T00:22:42Z	child_process.exec() fails with spaces in absolute or relative path to binary file	77		
 6804	52195	true	closed	false	33		2016-05-17T10:55:16Z	2016-07-12T17:31:26Z	2016-05-26T09:29:32Z	dgram: copy the array when using the list variant in send()	96		
 6816	1093990	true	closed	false	69		2016-05-17T17:00:53Z	2016-08-10T22:32:38Z	2016-08-10T22:32:38Z	tty: set the handle to blocking mode	79		
 6821	498775	false	open	false	19		2016-05-17T22:23:23Z	2017-03-11T19:43:16Z		Warning when following instruction in verifying release	62		
@@ -4270,7 +4271,7 @@
 10918	2512748	true	open	false	0		2017-01-20T15:40:25Z	2017-01-23T16:37:39Z		src: add NODE_NO_WARNINGS to --help output	55		
 10919	2512748	true	closed	false	2		2017-01-20T18:23:39Z	2017-03-08T22:39:44Z	2017-01-25T14:40:45Z	test: increase coverage for exec() functions	58		
 10920	899444	true	closed	false	2		2017-01-20T18:57:01Z	2017-01-25T23:48:21Z	2017-01-25T23:48:21Z	"Revert ""src: don't overwrite non-writable vm globals"""	29		
-10921	10450602	true	open	false	13		2017-01-20T19:11:33Z	2017-04-04T18:57:16Z		doc: child_process exec string is processed by shell	52		
+10921	10450602	true	closed	false	14		2017-01-20T19:11:33Z	2017-04-16T00:22:28Z	2017-04-16T00:22:28Z	doc: child_process exec string is processed by shell	52		
 10922	17607	true	open	false	0	0	2017-01-20T19:14:15Z	2017-01-20T19:14:15Z		deps: upgrade zlib to 1.2.11	32		
 10923	17607	true	closed	false	1	3	2017-01-20T19:16:45Z	2017-01-23T20:47:07Z	2017-01-23T20:47:07Z	test: test hmac binding robustness	82	17607	2017-01-23T20:47:07Z
 10924	2512748	true	closed	false	0		2017-01-20T19:47:56Z	2017-03-08T02:23:08Z	2017-01-23T17:39:16Z	test: verify shell option internals	89		
@@ -5080,7 +5081,7 @@
 11729	12045962	false	open	false	1		2017-03-07T11:52:50Z	2017-03-07T12:04:16Z		child_process exec '<()' unexpected token	136		
 11730	1722371	true	open	false	12		2017-03-07T15:38:04Z	2017-03-10T13:36:07Z		s390: enable march=z196	16		
 11731	24761660	false	closed	false	0		2017-03-07T15:45:14Z	2017-03-07T21:02:43Z	2017-03-07T21:02:43Z	Error: connection timeout	255		
-11732	142914	true	open	false			2017-03-07T16:05:33Z	2017-03-30T22:04:39Z		doc: make commit guidelines easier to reference	41		
+11732	142914	true	open	false	8		2017-03-07T16:05:33Z	2017-04-16T00:24:27Z		doc: make commit guidelines easier to reference	41		
 11733	6663906	true	open	false	13		2017-03-07T16:35:11Z	2017-04-06T01:34:01Z		buffer: Preallocate array with buffer length in Buffer#toJSON	90		
 11734	432351	true	open	false	1		2017-03-07T19:20:30Z	2017-03-07T20:29:41Z		src: add HAVE_OPENSSL directive to openssl_config	116		
 11735	75209	false	closed	false	3		2017-03-07T21:44:34Z	2017-03-11T13:30:17Z	2017-03-11T13:30:17Z	"Make ""exports"" a const"	54		
@@ -5650,7 +5651,7 @@
 12302	432351	true	closed	false	2		2017-04-10T13:29:33Z	2017-04-12T11:09:16Z	2017-04-12T11:09:16Z	src: guard bundled_ca/openssl_ca with HAVE_OPENSSL	74		
 12303	432351	true	open	false	1		2017-04-10T13:45:37Z	2017-04-12T10:53:36Z		src: guard default_inspector_port	57		
 12304	9373002	false	open	false	0		2017-04-10T15:25:48Z	2017-04-10T15:25:48Z		Review latest coverity issues reported on node_api.cc	23		
-12305	327019	true	open	false			2017-04-10T15:53:36Z	2017-04-15T17:11:55Z		test: replace [].join() with ''.repeat()	29		
+12305	327019	true	closed	false	5		2017-04-10T15:53:36Z	2017-04-16T00:13:00Z	2017-04-16T00:13:00Z	test: replace [].join() with ''.repeat()	29		
 12306	5886475	true	closed	false	2		2017-04-10T16:01:26Z	2017-04-14T21:09:12Z	2017-04-14T21:09:12Z	test: add internal/fs tests	56		
 12307	115237	true	closed	false	0		2017-04-10T16:16:50Z	2017-04-11T09:39:00Z	2017-04-11T09:39:00Z	doc: add link on logo to README	37		
 12308	11459446	false	open	false	6		2017-04-10T16:36:42Z	2017-04-13T10:18:12Z		Fatal V8 Compiler Error	146		
@@ -5694,7 +5695,7 @@
 12346	10441177	false	closed	false	8		2017-04-11T20:07:56Z	2017-04-12T10:20:00Z	2017-04-11T20:35:25Z	QUESTION: How to write sync code in Node.js?	63		
 12347	718899	true	closed	false	5		2017-04-11T20:10:43Z	2017-04-14T21:31:05Z	2017-04-14T21:31:05Z	test: add test-benchmark-crypto	52		
 12348	2512748	true	open	false			2017-04-11T20:46:32Z	2017-04-12T15:05:06Z		child_process: internal cleanup and input validation improvements	117		
-12349	205482	true	open	false	23		2017-04-11T23:40:37Z	2017-04-15T23:07:07Z		src: add require transform pipeline	179		
+12349	205482	true	open	false			2017-04-11T23:40:37Z	2017-04-16T00:45:14Z		src: add require transform pipeline	118		
 12350	718899	true	closed	false	1		2017-04-11T23:48:05Z	2017-04-14T21:09:23Z	2017-04-14T21:09:23Z	doc: fix formatting in onboarding-extras	31		
 12351	10393198	false	open	false	0		2017-04-12T00:11:15Z	2017-04-12T00:11:15Z		ENOENT error message inconsistencies	232		
 12352	498775	true	closed	false	9	0	2017-04-12T05:36:32Z	2017-04-13T22:04:36Z	2017-04-13T22:04:36Z	src: remove experimental warning for inspect	29		
@@ -5721,7 +5722,7 @@
 12373	6395399	false	open	false	3		2017-04-12T21:03:25Z	2017-04-13T15:56:01Z		`setTimeout(function(){throw null},0)` crashes toplevel	86		
 12374	5329230	true	closed	false	3		2017-04-12T21:32:30Z	2017-04-13T14:50:14Z	2017-04-13T14:50:14Z	doc: add single arg scenario for util.format	46		
 12375	18039004	false	closed	false	3		2017-04-12T21:58:39Z	2017-04-13T09:48:28Z	2017-04-13T09:48:28Z	Segmentation Fault for SuperUser	165		
-12376	718899	false	open	false	5		2017-04-12T22:11:03Z	2017-04-15T21:11:18Z		Remove `common.PORT` usage from `parallel` tests	350		
+12376	718899	false	open	false	6		2017-04-12T22:11:03Z	2017-04-16T00:28:03Z		Remove `common.PORT` usage from `parallel` tests	350		
 12377	718899	true	closed	false	1		2017-04-12T22:26:11Z	2017-04-15T05:10:24Z	2017-04-15T05:10:24Z	test: remove common.PORT from test-cluster-basic	66		
 12378	10393198	false	open	false	7		2017-04-12T23:06:04Z	2017-04-13T18:24:05Z		process: process.kill() and signals on Windows	236		
 12379	8233071	false	open	false	1		2017-04-13T00:09:12Z	2017-04-13T01:50:10Z		Make Error	301		
@@ -5748,11 +5749,11 @@
 12400	2512748	true	open	false			2017-04-13T15:58:22Z	2017-04-14T14:37:32Z		repl: handle unexpected error objects	50		
 12401	8297234	true	open	false	2		2017-04-13T17:04:25Z	2017-04-13T19:26:31Z		v6.x backport: test: refactor several parallel/test-timer tests	48		
 12402	275871	true	open	false	0	0	2017-04-13T18:13:12Z	2017-04-13T18:13:12Z		crypto: update root certificates	53		
-12403	718899	true	open	false			2017-04-13T19:49:32Z	2017-04-15T11:08:36Z		test: enable setuid/setgid test	52		
+12403	718899	true	open	false			2017-04-13T19:49:32Z	2017-04-16T00:35:29Z		test: enable setuid/setgid test	52		
 12404	17607	true	open	false	6		2017-04-13T19:58:07Z	2017-04-14T21:57:12Z		"Revert ""Make a noble effort at setting OS_CODE correctly."""	97		
 12405	14274375	true	open	false	3		2017-04-13T20:31:18Z	2017-04-13T22:53:09Z		test: changed equality comparison to identity operator	35		
 12406	899444	true	open	false	9		2017-04-13T20:34:57Z	2017-04-13T22:04:56Z		build: disable -O3 for C++ coverage	33		
-12407	5803170	true	open	false	16		2017-04-14T00:57:40Z	2017-04-15T15:09:51Z		util: refactor format method.	122		
+12407	5803170	true	open	false	18		2017-04-14T00:57:40Z	2017-04-16T00:24:13Z		util: refactor format method.	122		
 12408	2512748	true	open	false	0	0	2017-04-14T01:03:17Z	2017-04-14T01:03:17Z		doc: remove inspector experimental warning	34		
 12409	158390	true	open	false	7		2017-04-14T03:26:08Z	2017-04-14T21:29:09Z		n-api: port test for make_callback	46		
 12410	1840183	false	open	false	1		2017-04-14T09:45:55Z	2017-04-14T12:18:04Z		IPV6 error with percent devicename (for local fe80 ranges)	111		
