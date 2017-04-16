@@ -106,7 +106,7 @@
 2668	291301	false	closed	false	11		2015-09-02T21:50:48Z	2017-03-23T22:52:46Z	2017-03-23T22:52:46Z	Unreachable code in buffer.js and unsigned bitwise shifts.	294		
 2681	439929	false	closed	false	5		2015-09-03T15:40:56Z	2016-06-30T23:21:20Z	2016-06-30T23:21:20Z	child_process: execFile and fork arg parsing ambiguity	136		
 2734	617481	false	open	false	2		2015-09-08T06:04:26Z	2017-02-03T22:15:44Z		vm: accessor properties get converted to data properties inside the vm	176		
-2738	3959052	false	closed	false	13		2015-09-08T14:18:32Z	2017-04-16T13:42:25Z	2016-01-07T19:29:18Z	Node.js GC in low memory environments	132		
+2738	3959052	false	closed	false	14		2015-09-08T14:18:32Z	2017-04-16T14:19:03Z	2016-01-07T19:29:18Z	Node.js GC in low memory environments	132		
 2741	275871	true	closed	false	35	18	2015-09-08T19:11:39Z	2016-10-25T11:40:35Z	2016-10-25T11:40:35Z	src: log warning on process.binding('natives')	28		
 2760	194482	false	closed	false	13		2015-09-09T07:12:46Z	2017-01-12T02:25:17Z	2015-09-09T09:46:00Z	--harmony_modules isn't working?	71		
 2762	13868315	false	closed	false	20		2015-09-09T08:03:33Z	2017-02-24T13:10:59Z	2016-03-22T14:38:22Z	v4.0.0 doesn't give file/line for wrong syntax.	72		
@@ -4246,7 +4246,7 @@
 10893	1319028	true	closed	false	4	6	2017-01-19T06:48:12Z	2017-01-23T02:21:17Z	2017-01-23T02:21:17Z	url: add return value to ToUnicode/ToAscii stubs	25		
 10894	3367801	true	closed	false	1		2017-01-19T06:49:06Z	2017-01-22T14:38:26Z	2017-01-22T14:38:26Z	test: add dgram.Socket.prototype.bind's test	34		
 10895	54666	true	closed	false	4		2017-01-19T08:25:31Z	2017-03-22T11:49:48Z	2017-01-23T12:29:23Z	buffer: improve toJSON() performance	101		
-10896	677994	true	closed	false	7		2017-01-19T11:58:00Z	2017-04-14T00:52:31Z	2017-01-24T13:42:22Z	doc: move topics/guides to website	56		
+10896	677994	true	closed	false	8		2017-01-19T11:58:00Z	2017-04-16T14:04:11Z	2017-01-24T13:42:22Z	doc: move topics/guides to website	56		
 10897	172594	false	closed	false	9		2017-01-19T14:13:30Z	2017-01-19T15:05:52Z	2017-01-19T15:05:52Z	ASI fails with destructuring assignment	84		
 10898	2512748	true	closed	false	1		2017-01-19T15:47:25Z	2017-03-08T22:17:15Z	2017-01-23T18:22:37Z	test: refactor test-cli-eval.js	40		
 10899	2512748	true	closed	false	1		2017-01-19T16:29:13Z	2017-03-08T22:11:39Z	2017-01-23T14:52:30Z	test: use common.fail() instead of assert(false)	25		
@@ -5251,7 +5251,7 @@
 11899	5110676	false	open	false	0		2017-03-17T15:14:54Z	2017-03-17T15:14:54Z		npm install error	18		
 11900	2512748	true	open	false	2		2017-03-17T16:07:43Z	2017-03-17T17:06:49Z		lib: make callback checks more strict	88		
 11901	13737185	true	open	false	3		2017-03-17T16:16:30Z	2017-03-17T17:12:45Z		check uv_async_t wasn't already close	35		
-11902	439929	false	open	false	1		2017-03-17T16:42:57Z	2017-04-16T05:27:41Z		vm: known issue with CopyProperties throw on empty code	79		
+11902	439929	false	open	false	3		2017-03-17T16:42:57Z	2017-04-16T14:09:35Z		vm: known issue with CopyProperties throw on empty code	79		
 11903	234659	false	open	false	1		2017-03-17T18:15:07Z	2017-03-17T21:06:00Z		Feature Request: Distributable Artifacts	1527		
 11904	10393198	true	closed	false	8		2017-03-17T18:15:11Z	2017-03-21T15:39:10Z	2017-03-21T12:06:37Z	benchmark: fix fs\bench-realpathSync.js	77		
 11905	101553	true	closed	false	6		2017-03-17T18:50:00Z	2017-03-21T14:10:01Z	2017-03-19T20:49:54Z	deps: cherry-pick 09de996 from V8 upstream	155		
@@ -5722,7 +5722,7 @@
 12373	6395399	false	open	false	3		2017-04-12T21:03:25Z	2017-04-13T15:56:01Z		`setTimeout(function(){throw null},0)` crashes toplevel	86		
 12374	5329230	true	closed	false	3		2017-04-12T21:32:30Z	2017-04-13T14:50:14Z	2017-04-13T14:50:14Z	doc: add single arg scenario for util.format	46		
 12375	18039004	false	closed	false	3		2017-04-12T21:58:39Z	2017-04-13T09:48:28Z	2017-04-13T09:48:28Z	Segmentation Fault for SuperUser	165		
-12376	718899	false	open	false	7		2017-04-12T22:11:03Z	2017-04-16T13:35:37Z		Remove `common.PORT` usage from `parallel` tests	350		
+12376	718899	false	open	false	9		2017-04-12T22:11:03Z	2017-04-16T14:18:33Z		Remove `common.PORT` usage from `parallel` tests	350		
 12377	718899	true	closed	false	1		2017-04-12T22:26:11Z	2017-04-15T05:10:24Z	2017-04-15T05:10:24Z	test: remove common.PORT from test-cluster-basic	66		
 12378	10393198	false	open	false	8		2017-04-12T23:06:04Z	2017-04-16T13:21:46Z		process: process.kill() and signals on Windows	236		
 12379	8233071	false	open	false	1		2017-04-13T00:09:12Z	2017-04-13T01:50:10Z		Make Error	301		
@@ -5778,7 +5778,7 @@
 12429	10393198	true	open	false	1		2017-04-15T19:53:53Z	2017-04-16T01:57:48Z		benchmark: fix CLI arguments check in common.js	65		
 12430	54666	false	open	false	0		2017-04-15T20:06:22Z	2017-04-15T20:06:22Z		Typo in CHANGELOG.MD	33		
 12431	899444	true	open	false	3		2017-04-15T20:08:42Z	2017-04-16T13:46:14Z		doc: describe labelling process for backports	18		
-12432	899444	true	open	false	0	0	2017-04-15T20:10:39Z	2017-04-15T20:10:39Z		zlib: remove unused declaration	48		
+12432	899444	true	closed	false	1		2017-04-15T20:10:39Z	2017-04-16T14:15:33Z	2017-04-16T14:15:33Z	zlib: remove unused declaration	48		
 12433	718899	false	open	false	0		2017-04-15T20:18:24Z	2017-04-16T03:20:52Z		investigate flaky sequential/test-benchmark-http	266		
 12434	8397274	true	open	false	1		2017-04-15T21:31:40Z	2017-04-15T23:04:01Z		minor fix: removed < in changelog.md	4		
 12435	5886475	true	closed	false	1		2017-04-15T22:49:16Z	2017-04-16T02:59:22Z	2017-04-15T23:05:14Z	doc: add DavidCai1993 to collaborators	32		
@@ -5786,3 +5786,4 @@
 12437	718899	true	open	false	0		2017-04-16T04:09:01Z	2017-04-16T08:57:04Z		doc: consolidate -j information for make	75		
 12438	718899	true	open	false	2		2017-04-16T06:09:10Z	2017-04-16T08:14:40Z		buffer: remove unreachable code	97		
 12439	54666	true	open	false	0	0	2017-04-16T07:45:45Z	2017-04-16T07:45:45Z		buffer: fix backwards incompatibility	69		
+12440	910691	false	open	false	0		2017-04-16T14:46:59Z	2017-04-16T14:46:59Z		internet/test-dns.js test_resolveNs_failure failed with ETIMEOUT	80		
