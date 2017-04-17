@@ -66,7 +66,7 @@
 1878	17607	true	closed	false	7	3	2015-06-03T05:25:47Z	2017-01-03T21:45:04Z	2017-01-03T21:45:04Z	util: treat all args identically in absence of a format	105		
 1917	327019	true	closed	false	17		2015-06-08T13:55:41Z	2017-04-14T21:52:24Z	2017-04-14T21:52:24Z	test: add unicode test case for exec	26		
 1924	474017	false	closed	false	18		2015-06-09T14:12:21Z	2017-01-25T17:35:43Z	2016-09-26T09:04:21Z	Not closing all connections.	188		
-1999	2128182	false	open	false	4		2015-06-17T08:54:39Z	2017-04-17T14:49:48Z		Improve Path.parse / Path.format combo	210		
+1999	2128182	false	open	false	5		2015-06-17T08:54:39Z	2017-04-17T17:46:56Z		Improve Path.parse / Path.format combo	210		
 2025	696611	true	closed	false	6		2015-06-20T20:27:17Z	2016-08-29T23:49:08Z	2015-06-21T03:19:14Z	util: moving internal helpers to internal module	35		
 2069	150063	false	closed	false	15		2015-06-27T13:55:19Z	2017-02-07T18:12:20Z	2017-02-07T18:12:20Z	Windows: Setting fs.futimes{Sync} subsecond (millisecond) precision?	89		
 2084	495647	false	open	false	4		2015-06-30T11:59:42Z	2016-10-20T01:31:00Z		DISTTYPEDIR in vcbuild.bat persists across builds	289		
@@ -3568,7 +3568,7 @@
 10206	855219	true	closed	false	8	0	2016-12-09T20:47:45Z	2016-12-29T22:32:21Z	2016-12-29T22:32:21Z	deps: ICU 58.2 bump	50		
 10207	3611800	true	closed	false	4		2016-12-09T21:03:20Z	2016-12-14T18:13:36Z	2016-12-14T18:13:36Z	test: fix setTimeout, add const, remove unused var	50		
 10208	347452	false	closed	false	4		2016-12-09T22:08:51Z	2017-02-04T10:12:09Z	2017-02-04T10:12:09Z	Win64 .msi install breaks Windows Explorer.	106		
-10209	677994	true	open	false	24		2016-12-09T23:18:22Z	2017-04-17T10:27:50Z		"\t crypto: add randomFill and randomFillSync"	78		
+10209	677994	true	open	false			2016-12-09T23:18:22Z	2017-04-17T18:00:17Z		"\t crypto: add randomFill and randomFillSync"	78		
 10210	718899	true	closed	false	2		2016-12-10T00:14:07Z	2016-12-14T00:31:26Z	2016-12-14T00:31:26Z	test: refactor test-http-pause-resume-one-end	47		
 10211	1037138	true	closed	false	9		2016-12-10T01:06:46Z	2017-01-23T07:36:19Z	2016-12-15T21:51:38Z	doc: document R CRAN mirror process	67		
 10212	718899	true	closed	false	6		2016-12-10T06:49:23Z	2016-12-13T21:42:32Z	2016-12-13T21:42:32Z	test: fix flaky test-dgram-exclusive-implicit-bind	103		
@@ -4886,7 +4886,7 @@
 11530	12488060	true	closed	false	1		2017-02-24T02:24:36Z	2017-03-12T16:37:14Z	2017-02-24T22:59:39Z	test: Fix flaky test-vm-timeout-rethrow	82		
 11531	7689236	true	open	false	1		2017-02-24T03:44:55Z	2017-03-17T18:23:08Z		test: improve console coverage to check ignoreErrors	50		
 11532	3591899	false	open	false	0		2017-02-24T03:44:56Z	2017-02-24T03:44:56Z		Will there be awaitable APIs ?	52		
-11533	6216576	true	open	false			2017-02-24T05:06:03Z	2017-04-15T20:18:26Z		Update AUTHORS list to reflect new contributions.	48		
+11533	6216576	true	open	false	22		2017-02-24T05:06:03Z	2017-04-17T17:23:52Z		Update AUTHORS list to reflect new contributions.	48		
 11534	1443911	true	closed	false	2	0	2017-02-24T08:33:27Z	2017-02-25T01:49:10Z	2017-02-25T01:49:10Z	doc: add missing entry in v6 changelog table	31		
 11535	10393198	true	closed	false	18		2017-02-24T08:59:02Z	2017-03-08T13:28:55Z	2017-03-01T15:30:29Z	child_process: fix deoptimizing use of arguments	488		
 11536	20224954	false	open	false	0		2017-02-24T09:58:03Z	2017-02-24T10:53:48Z		sequential/test-debug-host-port hanging when the port is not available	51		
@@ -5272,7 +5272,7 @@
 11917	1538624	true	closed	false	9		2017-03-18T17:59:46Z	2017-04-10T17:54:14Z	2017-03-30T05:20:37Z	src, url: WHATWG URL C++ parser cleanup	37		
 11918	886059	false	open	false	5		2017-03-18T20:43:02Z	2017-03-21T17:31:49Z		`Socket.write` does not reliably fire callback with error.	634		
 11919	332968	true	closed	false	5		2017-03-18T20:57:28Z	2017-03-22T05:42:19Z	2017-03-22T05:42:19Z	fs: (+/-)Infinity and NaN invalid unixtimestamp	75		
-11920	569527	true	open	false	10		2017-03-18T22:47:17Z	2017-04-17T15:46:45Z		Fix 11826	26		
+11920	569527	true	open	false			2017-03-18T22:47:17Z	2017-04-17T17:46:18Z		Fix 11826	26		
 11921	718899	true	open	false	10		2017-03-19T03:04:37Z	2017-03-19T22:13:03Z		test: fix flaky test-tls-socket-close	37		
 11922	1538624	true	closed	false	2	1	2017-03-19T03:54:49Z	2017-03-22T01:21:57Z	2017-03-22T01:21:57Z	src: make PercentDecode return void	45		
 11923	1898413	false	closed	false	23		2017-03-19T10:23:06Z	2017-04-03T21:58:19Z	2017-03-22T06:42:45Z	significant performance degradation with v7.x	56		
@@ -5756,7 +5756,7 @@
 12404	17607	true	open	false	6		2017-04-13T19:58:07Z	2017-04-14T21:57:12Z		"Revert ""Make a noble effort at setting OS_CODE correctly."""	97		
 12405	14274375	true	closed	false	4		2017-04-13T20:31:18Z	2017-04-16T17:45:32Z	2017-04-16T17:45:32Z	test: changed equality comparison to identity operator	35		
 12406	899444	true	open	false	9		2017-04-13T20:34:57Z	2017-04-13T22:04:56Z		build: disable -O3 for C++ coverage	33		
-12407	5803170	true	open	false	23		2017-04-14T00:57:40Z	2017-04-16T19:13:14Z		util: refactor format method.	122		
+12407	5803170	true	open	false	24		2017-04-14T00:57:40Z	2017-04-17T17:25:43Z		util: refactor format method.	114		
 12408	2512748	true	closed	false	1	0	2017-04-14T01:03:17Z	2017-04-17T16:01:59Z	2017-04-17T16:01:59Z	doc: remove inspector experimental warning	34		
 12409	158390	true	open	false	7		2017-04-14T03:26:08Z	2017-04-14T21:29:09Z		n-api: port test for make_callback	46		
 12410	1840183	false	open	false	1		2017-04-14T09:45:55Z	2017-04-14T12:18:04Z		IPV6 error with percent devicename (for local fe80 ranges)	111		
@@ -5803,9 +5803,9 @@
 12451	5329230	true	open	false	4		2017-04-16T20:59:08Z	2017-04-17T09:04:36Z		tests: remove common.PORT from shared,master,rr tests	52		
 12452	1163342	true	open	false			2017-04-16T21:02:55Z	2017-04-17T09:08:52Z		test:  use dynamic port in test-dgram-bind-shared-ports	74		
 12453	2309317	false	open	false	4		2017-04-16T21:54:56Z	2017-04-17T04:10:55Z		Proxies: console.log uses overridden proxy methods by default	118		
-12454	7414255	true	open	false			2017-04-17T01:00:45Z	2017-04-17T16:49:26Z		console: make console consistent with the standard - overridable	91		
+12454	7414255	true	open	false			2017-04-17T01:00:45Z	2017-04-17T17:23:28Z		console: make console consistent with the standard - overridable	91		
 12455	10393198	true	open	false			2017-04-17T02:12:55Z	2017-04-17T11:49:24Z		benchmark: reduce string concatenations	275		
-12456	54666	true	open	false	16		2017-04-17T04:32:12Z	2017-04-17T16:37:32Z		build: allow easier checking of permanent deoptimizations	415		
+12456	54666	true	open	false	17		2017-04-17T04:32:12Z	2017-04-17T17:26:25Z		build: allow easier checking of permanent deoptimizations	415		
 12457	15608388	true	open	false	1		2017-04-17T06:00:14Z	2017-04-17T11:47:00Z		Migrate cluster worker disconnect on error test from common.PORT	51		
 12458	25947346	false	closed	false	4		2017-04-17T06:42:05Z	2017-04-17T10:28:24Z	2017-04-17T10:28:24Z	Reg : Problem in receiving output using stdout through application	220		
 12459	2908639	true	open	false	0		2017-04-17T06:55:12Z	2017-04-17T11:40:49Z		(v6.x backport) events,test: fix TypeError in EventEmitter warning	52		
@@ -5819,4 +5819,6 @@
 12467	85523	false	open	false	0		2017-04-17T15:37:11Z	2017-04-17T15:37:11Z		Debugging HHTP & HTTPS Requests and responses	66		
 12468	17607	true	closed	false	0		2017-04-17T15:39:31Z	2017-04-17T16:36:19Z	2017-04-17T16:36:19Z	(v6.x backport) Doc and test cert apis	23		
 12469	17607	true	open	false	0	0	2017-04-17T16:24:57Z	2017-04-17T16:24:57Z		test: initialize platform in NodeTestFixture	86		
-12470	4078325	true	open	false	0	0	2017-04-17T16:36:19Z	2017-04-17T16:36:19Z		test: change the common.PORT to 0 in test-debugger-repeat-last.js	35		
+12470	4078325	true	open	false			2017-04-17T16:36:19Z	2017-04-17T17:24:49Z		test: change the common.PORT to 0 in test-debugger-repeat-last.js	34		
+12471	2291463	false	open	false	0		2017-04-17T17:36:26Z	2017-04-17T17:36:26Z		Consider minifying JS sources?	164		
+12472	15608388	true	open	false	0	0	2017-04-17T17:46:39Z	2017-04-17T17:46:39Z		tests: remove common.PORT from cluster send tests	55		
