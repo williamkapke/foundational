@@ -1,10 +1,10 @@
 {
-  "words": 2282,
-  "comments": 14,
+  "words": 3240,
+  "comments": 26,
   "prs": {
-    "opened": 3,
-    "closed": 1,
-    "words": 2282
+    "opened": 5,
+    "closed": 2,
+    "words": 3240
   },
   "issues": {
     "opened": 0,
@@ -23,7 +23,12 @@
     "api": {"open":8},
     "benchmarking": {"open":22},
     "board": {"open":8},
-    "build": {"open":150},
+    "build": {
+      "687": {"comments":1,"words":24,"pr":true},
+      "open": 150,
+      "words": 24,
+      "comments": 1
+    },
     "build-container-sync": {"open":1},
     "build-containers": {"open":1},
     "citgm": {"open":47},
@@ -45,10 +50,11 @@
     "github-bot": {"open":32},
     "hardware": {"open":12},
     "help": {
-      "590": {"comments":2,"words":70,"pr":true},
-      "open": 113,
-      "words": 70,
-      "comments": 2
+      "590": {"comments":5,"words":656,"pr":true,"closed":"","closer":"19880921"},
+      "open": 112,
+      "words": 656,
+      "comments": 5,
+      "closed": 1
     },
     "http": {"open":14},
     "http-parser": {"open":54},
@@ -63,23 +69,31 @@
     "installer": {"open":13},
     "iojs.org": {"open":9},
     "live.nodejs.org": {"open":17},
-    "llnode": {"open":18},
+    "llnode": {
+      "73": {"comments":1,"words":39,"pr":true},
+      "open": 18,
+      "words": 39,
+      "comments": 1
+    },
     "logos": {"open":2},
     "nan": {"open":30},
     "node": {
       "9306": {"comments":1,"words":4,"pr":true},
       "11217": {"comments":1,"words":13,"pr":true},
+      "11646": {"comments":1,"words":90,"pr":true},
       "11733": {"comments":1,"words":36,"pr":true},
       "12224": {"comments":1,"words":17,"pr":true},
       "12404": {"comments":1,"words":100,"pr":true,"closed":"2017-04-19T00:00:39Z","closer":"498775"},
-      "12498": {"comments":3,"words":1748,"pr":true,"opened":"2017-04-19T00:13:54Z","opener":"498775"},
-      "12499": {"comments":2,"words":191,"pr":true,"opened":"2017-04-19T00:14:45Z","opener":"498775"},
+      "12498": {"comments":7,"words":1807,"pr":true,"opened":"2017-04-19T00:13:54Z","opener":"498775"},
+      "12499": {"comments":3,"words":194,"pr":true,"opened":"2017-04-19T00:14:45Z","opener":"498775"},
       "12500": {"comments":0,"words":54,"pr":true,"opened":"2017-04-19T00:40:59Z","opener":"10393198"},
-      "open": 1014,
-      "words": 2163,
+      "12501": {"comments":0,"words":73,"pr":true,"opened":"2017-04-19T01:06:23Z","opener":"2512748"},
+      "12502": {"comments":0,"words":70,"pr":true,"opened":"2017-04-19T01:38:46Z","opener":"2512748"},
+      "open": 1016,
+      "words": 2458,
       "closed": 1,
-      "comments": 10,
-      "opened": 3
+      "comments": 16,
+      "opened": 5
     },
     "node-addon-examples": {"open":30},
     "node-api": {"open":7},
@@ -132,7 +146,12 @@
     "nodejs.org-archive": {"open":12},
     "nodejs.org-new": {"open":3},
     "post-mortem": {"open":19},
-    "promises": {"open":19},
+    "promises": {
+      "1": {"comments":1,"words":14,"pr":true},
+      "open": 19,
+      "words": 14,
+      "comments": 1
+    },
     "readable-stream": {"open":24},
     "roadmap": {"open":14},
     "security-wg": {"open":9},
@@ -175,7 +194,13 @@
         "node/pulls/11217#295024202": 13,
         "help/pulls/590#295028646": 60,
         "help/pulls/590#295029021": 10,
-        "node/pulls/12498#295030495": 1
+        "node/pulls/12498#295030495": 1,
+        "node/pulls/12498#295031868": 15,
+        "node/pulls/12498#295033113": 34,
+        "node/pulls/12498#295033188": 3,
+        "node/pulls/12498#295033979": 7,
+        "node/pulls/12499#295037815": 3,
+        "help/pulls/590#295040325": 8
       }
     },
     "110455": {
@@ -190,6 +215,13 @@
       "login": "jasnell",
       "words": {
         "http2/pulls/47#295020766": 40
+      }
+    },
+    "495647": {
+      "id": "495647",
+      "login": "rvagg",
+      "words": {
+        "build/pulls/687#295032830": 24
       }
     },
     "498775": {
@@ -209,6 +241,39 @@
         "node/pulls/12499"
       ]
     },
+    "782880": {
+      "id": "782880",
+      "login": "shigeki",
+      "words": {
+        "node/pulls/11646#295037240": 90
+      }
+    },
+    "1091500": {
+      "id": "1091500",
+      "login": "earlymeme",
+      "words": {
+        "llnode/pulls/73#295040524": 39
+      }
+    },
+    "2512748": {
+      "id": "2512748",
+      "login": "cjihrig",
+      "words": {
+        "node/pulls/12501": 73,
+        "node/pulls/12502": 70
+      },
+      "opened": [
+        "node/pulls/12501",
+        "node/pulls/12502"
+      ]
+    },
+    "6165538": {
+      "id": "6165538",
+      "login": "stephenhuh",
+      "words": {
+        "promises/pulls/1#295035159": 14
+      }
+    },
     "10393198": {
       "id": "10393198",
       "login": "vsemozhetbyt",
@@ -218,6 +283,18 @@
       },
       "opened": [
         "node/pulls/12500"
+      ]
+    },
+    "19880921": {
+      "id": "19880921",
+      "login": "ichiga88",
+      "words": {
+        "help/pulls/590#295039921": 22,
+        "help/issues/590": 483,
+        "help/pulls/590#295041711": 73
+      },
+      "closed": [
+        "help/issues/590"
       ]
     }
   }
