@@ -3494,7 +3494,7 @@
 10132	4985028	true	closed	false	19		2016-12-06T00:33:41Z	2016-12-11T14:09:05Z	2016-12-11T00:54:19Z	Fix --preserve-symlinks, Enhancement to exploit	70		
 10133	7834613	false	closed	false	1		2016-12-06T00:42:54Z	2017-01-19T14:12:23Z	2017-01-19T14:12:23Z	http.Agent free sockets maintain reference to initial ClientRequest object until the socket is destroyed/closed	283		
 10134	7834613	true	closed	false	12		2016-12-06T03:11:55Z	2017-03-07T23:53:48Z	2017-01-06T18:15:29Z	http: Eliminate ClientRequest capture by Agent socket listeners	137		
-10135	275871	true	open	false	32		2016-12-06T03:55:43Z	2017-03-22T22:12:21Z		lib: be robust when process global is clobbered	66		
+10135	275871	true	closed	false	34	25	2016-12-06T03:55:43Z	2017-04-19T09:04:42Z	2017-04-19T09:04:42Z	lib: be robust when process global is clobbered	66		
 10136	2920525	true	closed	false	2		2016-12-06T05:44:11Z	2016-12-12T15:11:09Z	2016-12-12T15:11:09Z	doc: fix typo in code example of 'path' module	30		
 10137	680220	false	closed	false	12		2016-12-06T08:02:41Z	2017-04-16T13:43:15Z	2016-12-08T13:40:07Z	FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memory	199		
 10138	327019	true	closed	false	4	6	2016-12-06T09:48:18Z	2017-01-13T15:27:58Z	2017-01-13T15:27:58Z	http: make the expression test more faster	85		
@@ -3741,7 +3741,7 @@
 10385	16402596	true	closed	false	4		2016-12-21T11:09:05Z	2017-04-13T19:32:48Z	2016-12-24T07:06:48Z	async_wrap: close the destroy_ids_idle_handle_ on environment destruction	160		
 10386	2352663	true	closed	false	3		2016-12-21T15:24:52Z	2016-12-26T11:57:33Z	2016-12-26T11:57:33Z	deps: backport f795a79 from upstream V8	87		
 10387	53454	true	open	false	16		2016-12-21T17:51:08Z	2017-03-24T23:11:32Z		Update events.js	133		
-10388	327746	false	open	false	20		2016-12-21T17:53:39Z	2017-04-13T11:59:01Z		deps/v8/src/objects.h:3263:46: error: invalid use of incomplete type ‘class v8::internal::Heap	145		
+10388	327746	false	closed	false	21		2016-12-21T17:53:39Z	2017-04-19T09:03:44Z	2017-04-19T09:03:44Z	deps/v8/src/objects.h:3263:46: error: invalid use of incomplete type ‘class v8::internal::Heap	145		
 10389	17607	true	closed	false	9		2016-12-21T18:00:39Z	2017-04-17T15:40:00Z	2017-01-12T19:12:05Z	Doc and test cert apis	83		
 10390	718899	true	closed	false	5	1	2016-12-21T18:16:32Z	2016-12-23T21:50:07Z	2016-12-23T21:50:07Z	doc: improve common.mustCall() explanation	25		
 10391	498775	true	closed	false	2		2016-12-21T19:16:18Z	2016-12-23T17:16:36Z	2016-12-23T17:16:36Z	doc: consistent 'Returns:' part two	48		
@@ -4335,7 +4335,7 @@
 10979	4299420	true	closed	false	4		2017-01-24T16:38:09Z	2017-03-07T21:57:56Z	2017-01-28T15:59:13Z	buffer, test: add tests for buffer.toJSON	50		
 10980	17607	true	closed	false			2017-01-24T17:57:39Z	2017-04-11T22:21:45Z	2017-02-20T16:46:55Z	deps: upgrade zlib to 1.2.11	27		2017-02-20T16:46:55Z
 10981	17607	true	closed	false	7		2017-01-24T19:41:21Z	2017-03-08T23:11:41Z	2017-01-27T22:24:33Z	"doc: for style, remove ""isn't"" contraction"	21		
-10982	718899	false	open	false	41		2017-01-24T21:52:10Z	2017-04-19T06:11:10Z		Collaborator nominations	108		
+10982	718899	false	open	false	42		2017-01-24T21:52:10Z	2017-04-19T09:12:42Z		Collaborator nominations	108		
 10983	17607	true	closed	false	1	0	2017-01-24T22:05:25Z	2017-01-25T17:32:44Z	2017-01-25T17:32:44Z	doc: DEFAULT_ECDH_CURVE was added in 0.11.13	21		
 10984	17607	true	open	false	0	0	2017-01-24T22:15:46Z	2017-01-24T22:15:46Z		v4 backport: doc: add tls.DEFAULT_ECDH_CURVE	80		
 10985	1226256	false	closed	false	15		2017-01-24T22:38:54Z	2017-01-27T23:05:06Z	2017-01-27T23:05:06Z	Writing to a piped stdout stream results in Uncaught TypeError: cb is not a function	394		
@@ -4639,7 +4639,7 @@
 11283	647210	false	open	false	13		2017-02-10T09:20:41Z	2017-02-12T08:58:00Z		"no support for ""connected"" UDP sockets"	104		
 11284	1031876	false	closed	false	1		2017-02-10T11:38:43Z	2017-02-14T16:50:44Z	2017-02-14T16:50:44Z	child_process.spawnSync returns status=0 when signal=SIGKILL	70		
 11285	7732206	false	closed	false	2		2017-02-10T13:27:28Z	2017-02-13T09:00:26Z	2017-02-12T18:32:36Z	Can you please provide all the error codes with its desription which we get in require('child_process').exec function?	278		
-11286	988441	true	closed	false	20		2017-02-10T13:33:03Z	2017-04-18T23:07:18Z	2017-03-28T08:42:55Z	doc: clarify out-of-bounds behavior of buf[index]	23		
+11286	988441	true	closed	false	21		2017-02-10T13:33:03Z	2017-04-19T09:42:42Z	2017-03-28T08:42:55Z	doc: clarify out-of-bounds behavior of buf[index]	23		
 11287	988441	true	closed	false	0	2	2017-02-10T14:24:37Z	2017-02-10T20:21:36Z	2017-02-10T20:21:36Z	benchmark: fix typos	21	988441	2017-02-10T20:21:36Z
 11288	2512748	true	closed	false	6		2017-02-10T15:03:41Z	2017-03-07T17:18:38Z	2017-02-14T16:50:44Z	child_process: exit spawnSync with null on signal	59		
 11289	600821	false	open	false	2		2017-02-10T15:05:38Z	2017-02-12T18:20:44Z		Memory leak when calling fs.write() in long synchronous loop	383		
@@ -5671,7 +5671,7 @@
 12319	6354455	true	closed	false	6	0	2017-04-10T22:29:17Z	2017-04-11T17:32:00Z	2017-04-11T17:32:00Z	v7.9.0 Release Proposal	694	6354455	2017-04-11T17:32:00Z
 12320	79017	true	open	false	0	0	2017-04-10T23:29:18Z	2017-04-10T23:29:18Z		doc: missing _ in Writable ES6 examples	30		
 12321	4923335	true	open	false	3		2017-04-11T00:53:22Z	2017-04-12T22:25:48Z		(v7.x-backport) build: enable cctest to use generated objects	41		
-12322	10393198	false	open	false	14		2017-04-11T00:56:14Z	2017-04-11T18:49:52Z		process: flaky behavior of 'exit' event handler	167		
+12322	10393198	false	closed	false	15		2017-04-11T00:56:14Z	2017-04-19T09:22:12Z	2017-04-19T09:22:12Z	process: flaky behavior of 'exit' event handler	167		
 12323	4299420	true	open	false	0	0	2017-04-11T02:33:12Z	2017-04-11T02:33:12Z		(v7.x-backport): test the HTTP benchmark with a dummy benchmarker 	37		
 12324	4299420	true	open	false	0	0	2017-04-11T02:56:53Z	2017-04-11T02:56:53Z		(v7.x backport) test: add more test cases of server.listen option	47		
 12325	4299420	true	open	false	0	0	2017-04-11T03:05:41Z	2017-04-11T03:05:41Z		(v7.x backport) test: add more and refactor test cases to net.connect	34		
@@ -5693,7 +5693,7 @@
 12341	899444	false	open	false	1		2017-04-11T18:12:51Z	2017-04-12T16:18:10Z		doc,fs: document WHATWG URL support	170		
 12342	275871	true	closed	false	2	2	2017-04-11T18:26:00Z	2017-04-18T20:05:49Z	2017-04-18T20:05:49Z	net: micro cleanups	25		
 12343	2512748	true	open	false	1		2017-04-11T18:30:48Z	2017-04-18T17:05:16Z		test: add cwd ENOENT known issue test	49		
-12344	275871	true	open	false	1		2017-04-11T18:49:05Z	2017-04-13T11:03:13Z		src: don't call uv_run() after 'exit' event	14		
+12344	275871	true	closed	false	2	0	2017-04-11T18:49:05Z	2017-04-19T09:21:37Z	2017-04-19T09:21:37Z	src: don't call uv_run() after 'exit' event	14		
 12345	13050025	false	open	false	13		2017-04-11T20:02:02Z	2017-04-12T21:27:47Z		installer will not overwrite user's .npmrc, even if invalid	59		
 12346	10441177	false	closed	false	8		2017-04-11T20:07:56Z	2017-04-12T10:20:00Z	2017-04-11T20:35:25Z	QUESTION: How to write sync code in Node.js?	63		
 12347	718899	true	closed	false	5		2017-04-11T20:10:43Z	2017-04-14T21:31:05Z	2017-04-14T21:31:05Z	test: add test-benchmark-crypto	52		
@@ -5855,5 +5855,5 @@
 12503	5447484	true	open	false	0	0	2017-04-19T02:14:49Z	2017-04-19T02:14:49Z		test: add inspect-brk option to cluster module	42		
 12504	718899	true	open	false	0		2017-04-19T04:04:11Z	2017-04-19T07:37:36Z		Backport 12162 to 6.x	6		
 12505	10393198	true	open	false	0		2017-04-19T04:25:55Z	2017-04-19T06:37:03Z		doc: unify quotes in an assert.md code example	22		
-12506	16794169	false	open	false	0		2017-04-19T06:50:00Z	2017-04-19T07:16:37Z		postion=0,but fs.read() doesn't always get the first Chinese characters	20		
+12506	16794169	false	open	false	3		2017-04-19T06:50:00Z	2017-04-19T10:02:18Z		postion=0,but fs.read() doesn't always get the first Chinese characters	20		
 12507	1538624	true	open	false	0	0	2017-04-19T07:43:13Z	2017-04-19T07:43:13Z		(v7.x backport) url: updates to the WHATWG URL parser	99		
