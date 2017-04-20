@@ -1781,7 +1781,7 @@
 8419	8774679	true	open	false			2016-09-06T10:48:43Z	2017-04-03T15:28:28Z		net: multiple listen() events fail silently	94		
 8420	1443911	true	closed	false	11		2016-09-06T11:39:49Z	2016-09-12T04:17:45Z	2016-09-12T04:17:45Z	url: fix off-by-one error in loop handling dots	52		
 8421	275871	false	closed	false	3		2016-09-06T14:48:40Z	2016-09-23T22:27:16Z	2016-09-23T22:27:16Z	fs: fs.watchFile() should not emit 'stop' event synchronously	45		
-8422	1093990	true	open	false			2016-09-06T15:52:10Z	2017-04-13T16:02:05Z		timers: do not expose .unref()._handle._list	63		
+8422	1093990	true	open	false	21		2016-09-06T15:52:10Z	2017-04-20T15:44:10Z		timers: do not expose .unref()._handle._list	63		
 8423	4421720	true	closed	false	4	0	2016-09-06T15:52:19Z	2016-09-22T20:48:13Z	2016-09-22T20:48:13Z	doc: add CTC meeting minutes 2016-08-24	33	4421720	2016-09-22T20:48:13Z
 8424	4421720	true	closed	false	2	2	2016-09-06T16:02:59Z	2016-09-12T15:03:23Z	2016-09-12T15:03:23Z	doc: add CTC meeting minutes 2016-08-31	27	4421720	2016-09-12T15:03:23Z
 8425	718899	false	closed	false	17		2016-09-06T17:57:12Z	2016-10-06T21:35:07Z	2016-10-06T21:35:07Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-09-07	467		
@@ -2644,7 +2644,7 @@
 9282	354349	false	open	false	0		2016-10-25T22:39:22Z	2016-10-25T22:39:22Z		node does not process HTTP informational responses correctly	336		
 9283	5445507	true	closed	false	23		2016-10-25T23:23:46Z	2017-04-17T22:39:01Z	2017-03-11T22:11:19Z	module: fix loading from global folders on Windows	167		
 9284	17535	true	closed	false	7	0	2016-10-25T23:39:15Z	2016-11-30T02:54:21Z	2016-11-30T02:54:20Z	deps: upgrade npm to 4.0.1	584		
-9285	312966	false	open	false	18		2016-10-25T23:46:57Z	2016-10-26T18:06:08Z		support for polling linux character device for incoming data	307		
+9285	312966	false	open	false	19		2016-10-25T23:46:57Z	2017-04-20T15:18:27Z		support for polling linux character device for incoming data	307		
 9286	17535	true	closed	false	7		2016-10-26T00:24:34Z	2016-11-04T21:53:14Z	2016-11-04T21:53:14Z	deps: upgrade npm to 3.10.9	167		
 9287	12198249	false	open	false	0		2016-10-26T06:14:08Z	2016-10-26T06:14:08Z		Edge.JS Could not load file or assembly or one of its dependencies	110		
 9288	18531045	false	closed	false	4		2016-10-26T06:57:02Z	2017-03-02T12:18:30Z	2017-03-02T12:18:30Z	inheritance of C/C++ Addons doesn't work	101		
@@ -4507,7 +4507,7 @@
 11151	718899	true	closed	false	5		2017-02-03T19:20:39Z	2017-03-07T19:24:39Z	2017-02-06T23:35:58Z	doc: fix linting command for vcbuild	47		
 11152	2512748	true	closed	false	4		2017-02-03T20:00:37Z	2017-03-07T19:06:51Z	2017-02-06T19:15:23Z	test: add common.mustNotCall()	61		
 11153	811047	true	closed	false	5		2017-02-03T20:15:34Z	2017-02-08T16:39:38Z	2017-02-04T05:53:04Z	test: fix test.py command line options processing	86		
-11154	1093990	true	open	false			2017-02-03T21:16:19Z	2017-04-12T15:11:03Z		net: use actual Timeout instances on Sockets	184		
+11154	1093990	true	open	false	22		2017-02-03T21:16:19Z	2017-04-20T15:54:38Z		net: use actual Timeout instances on Sockets	184		
 11155	439929	true	open	false	1		2017-02-03T23:28:57Z	2017-02-04T00:18:17Z		"Revert ""test: refactor test-fs-error-messages.js"""	79		
 11156	7796741	false	open	false	10		2017-02-03T23:49:31Z	2017-03-20T08:55:30Z		segmentation fault at v8::internal::StoreBuffer::EnsureSpace ()	830		
 11157	305455	true	closed	false	6		2017-02-04T01:59:10Z	2017-03-07T20:40:34Z	2017-02-06T17:42:09Z	src: fix building --without-v8-platform (backport v7.x)	63		
@@ -5380,7 +5380,7 @@
 12025	718899	true	closed	false	2		2017-03-24T19:15:11Z	2017-04-09T17:02:00Z	2017-04-09T17:02:00Z	test,benchmark: enable minimal CI for http bench	60		
 12026	718899	true	closed	false	3		2017-03-24T19:45:20Z	2017-03-26T09:31:04Z	2017-03-26T09:31:04Z	benchmark: update obsolete information pointer	61		
 12027	439929	true	closed	false	11		2017-03-24T19:47:27Z	2017-03-28T22:36:34Z	2017-03-26T19:50:44Z	test, tools: add common.noop and common.mustNotCall lint rule	155		
-12028	17607	true	open	false			2017-03-24T22:15:58Z	2017-04-19T21:07:28Z		src: allow CLI args in env with NODE_OPTIONS 	308		
+12028	17607	true	open	false			2017-03-24T22:15:58Z	2017-04-20T15:39:13Z		src: allow CLI args in env with NODE_OPTIONS 	308		
 12029	899444	true	closed	false	10		2017-03-24T22:24:02Z	2017-03-31T20:18:11Z	2017-03-31T20:18:11Z	build: always use V8_ENABLE_CHECKS in debug mode	55		
 12030	10393198	true	closed	false	40		2017-03-24T23:24:24Z	2017-04-18T23:06:46Z	2017-03-28T00:22:26Z	benchmark: check end() argument to be > 0	19		
 12031	54666	false	open	false	0		2017-03-25T04:06:18Z	2017-03-25T08:52:16Z		test: tweak addon tests	107		
@@ -5466,7 +5466,7 @@
 12112	1443911	true	open	false	0	0	2017-03-29T06:43:22Z	2017-03-29T06:43:22Z		v7.x backport: http: avoid retaining unneeded memory	4		
 12113	54666	true	open	false	6		2017-03-29T07:45:35Z	2017-04-04T17:03:01Z		linkedlist: remove public module	48		
 12114	413206	false	open	false	5		2017-03-29T08:50:05Z	2017-04-07T13:40:15Z		base64 decoder could be 2x faster when decoding wrapped base64	224		
-12115	7016138	false	open	false	27		2017-03-29T09:24:52Z	2017-04-20T14:10:07Z		Node occasionally gives multiple files/folders the same inode	299		
+12115	7016138	false	open	false	28		2017-03-29T09:24:52Z	2017-04-20T15:10:49Z		Node occasionally gives multiple files/folders the same inode	299		
 12116	2352663	true	closed	false	0		2017-03-29T11:21:18Z	2017-03-31T12:45:20Z	2017-03-31T12:45:20Z	tools: update dotfile whitelist in .gitignore	18		
 12117	509375	false	closed	false	1		2017-03-29T12:23:53Z	2017-03-29T13:30:13Z	2017-03-29T13:30:13Z	child_process#spawn breaks backward compatibility in node v4.8.0	107		
 12118	275871	true	closed	false	1	0	2017-03-29T12:27:08Z	2017-03-31T19:56:10Z	2017-03-31T19:56:10Z	src: add .FromJust(), fix -Wunused-result warnings	10		
@@ -5698,7 +5698,7 @@
 12346	10441177	false	closed	false	8		2017-04-11T20:07:56Z	2017-04-12T10:20:00Z	2017-04-11T20:35:25Z	QUESTION: How to write sync code in Node.js?	63		
 12347	718899	true	closed	false	5		2017-04-11T20:10:43Z	2017-04-14T21:31:05Z	2017-04-14T21:31:05Z	test: add test-benchmark-crypto	52		
 12348	2512748	true	closed	false	3	6	2017-04-11T20:46:32Z	2017-04-17T20:26:29Z	2017-04-17T20:26:29Z	child_process: internal cleanup and input validation improvements	117	2512748	2017-04-17T20:26:29Z
-12349	205482	true	open	false	25		2017-04-11T23:40:37Z	2017-04-18T13:34:11Z		src: add require transform pipeline	118		
+12349	205482	true	open	false	26		2017-04-11T23:40:37Z	2017-04-20T15:11:18Z		src: add require transform pipeline	118		
 12350	718899	true	closed	false	1		2017-04-11T23:48:05Z	2017-04-14T21:09:23Z	2017-04-14T21:09:23Z	doc: fix formatting in onboarding-extras	31		
 12351	10393198	false	open	false	0		2017-04-12T00:11:15Z	2017-04-12T00:11:15Z		ENOENT error message inconsistencies	232		
 12352	498775	true	closed	false	9	0	2017-04-12T05:36:32Z	2017-04-13T22:04:36Z	2017-04-13T22:04:36Z	src: remove experimental warning for inspect	29		
@@ -5822,13 +5822,13 @@
 12470	4078325	true	open	false	7		2017-04-17T16:36:19Z	2017-04-19T23:38:25Z		test: moved test-debugger-repeat-last.js from parallel to sequential	34		
 12471	2291463	false	open	false	13		2017-04-17T17:36:26Z	2017-04-18T16:25:14Z		Consider minifying JS sources?	164		
 12472	15608388	true	closed	false	1		2017-04-17T17:46:39Z	2017-04-19T17:14:51Z	2017-04-19T17:14:51Z	tests: remove common.PORT from cluster send tests	55		
-12473	5358146	true	open	false	14		2017-04-17T18:28:17Z	2017-04-19T19:36:12Z		Remove common.PORT usage from `parallel` tests 	48		
+12473	5358146	true	open	false	15		2017-04-17T18:28:17Z	2017-04-20T16:00:37Z		Remove common.PORT usage from `parallel` tests 	48		
 12474	439929	true	open	false	0	0	2017-04-17T22:11:17Z	2017-04-17T22:11:17Z		"Revert ""benchmark: fix CLI arguments check in common.js"""	62		
 12475	439929	true	closed	false	1		2017-04-17T22:54:20Z	2017-04-17T23:52:21Z	2017-04-17T23:52:21Z	"Revert ""test: port test for make_callback to n-api"""	49		
 12476	718899	true	open	false	2		2017-04-17T23:27:45Z	2017-04-19T16:52:52Z		test: increase coverage for buffer.js	46		
 12477	10393198	true	closed	false	1		2017-04-18T00:25:47Z	2017-04-18T04:30:29Z	2017-04-18T04:30:29Z	(v6.x backport) test: fix args in parallel/test-fs-null-bytes.js	44		
 12478	19880921	false	closed	false	6		2017-04-18T01:48:53Z	2017-04-18T20:48:09Z	2017-04-18T07:19:38Z	Strange problem of out of memory	1		
-12479	983798	true	open	false	1		2017-04-18T01:48:55Z	2017-04-20T10:37:13Z		upgrade npm to 2.15.12	64		
+12479	983798	true	open	false	2		2017-04-18T01:48:55Z	2017-04-20T15:47:42Z		upgrade npm to 2.15.12	64		
 12480	983798	true	open	false	4		2017-04-18T04:41:34Z	2017-04-19T05:53:52Z		deps: upgrade npm to 4.5.0	291		
 12481	2291463	true	open	false	1		2017-04-18T05:50:22Z	2017-04-19T13:29:30Z		test: use JSON.stringify to trigger stack overflow	70		
 12482	9718840	true	closed	false	5		2017-04-18T07:31:33Z	2017-04-18T16:16:52Z	2017-04-18T16:16:52Z	NodeJS v7.9.0 does not support latin-1	42		
@@ -5848,7 +5848,7 @@
 12496	13093042	true	open	false	0		2017-04-18T22:12:40Z	2017-04-20T13:06:53Z		n-api: remove napi_get_value_string_length()	170		
 12497	1093990	false	open	false	0		2017-04-18T23:16:32Z	2017-04-19T04:33:32Z		fedora test failure: test-benchmark-crypto	124		
 12498	498775	true	open	false	9		2017-04-19T00:13:54Z	2017-04-20T14:24:41Z		v6.10.3 proposal	1726		
-12499	498775	true	open	false	2		2017-04-19T00:14:45Z	2017-04-19T01:45:00Z		v4.8.3 proposal	172		
+12499	498775	true	open	false	3		2017-04-19T00:14:45Z	2017-04-20T15:49:15Z		v4.8.3 proposal	172		
 12500	10393198	true	open	false	0	0	2017-04-19T00:40:59Z	2017-04-19T00:40:59Z		(v6.x backport) doc: modernize and fix code examples in modules.md	54		
 12501	2512748	true	open	false	0	0	2017-04-19T01:06:23Z	2017-04-19T01:06:23Z		events: remove unreachable code	73		
 12502	2512748	true	open	false	0	0	2017-04-19T01:38:46Z	2017-04-19T01:38:46Z		test: verify listener leak is only emitted once	70		
@@ -5871,7 +5871,7 @@
 12519	439929	true	open	false	3		2017-04-19T19:04:14Z	2017-04-19T22:07:00Z		domain: add --pending-deprecation warning	68		
 12520	2512748	true	open	false			2017-04-19T19:16:32Z	2017-04-20T03:10:03Z		stream: improve multiple callback error message	64		
 12521	1058243	false	open	false	0		2017-04-19T19:20:20Z	2017-04-19T19:20:20Z		fs.writeFile writes wrong file case if file already exists on Windows	47		
-12522	96947	true	open	false	0	0	2017-04-19T20:26:27Z	2017-04-19T20:26:27Z		build, icu: fix case in lib names	36		
+12522	96947	true	open	false	0		2017-04-19T20:26:27Z	2017-04-20T15:50:24Z		build, icu: fix case in lib names	36		
 12523	1538624	true	open	false	5		2017-04-19T22:09:11Z	2017-04-20T09:18:46Z		url: update WHATWG URL parser to latest spec	133		
 12524	13093042	true	open	false			2017-04-19T22:32:23Z	2017-04-20T07:06:24Z		n-api: Enable scope and ref APIs during exception	179		
 12525	5803170	true	open	false			2017-04-19T22:40:53Z	2017-04-19T23:04:36Z		lib: improve querystring unescapeBuffer perf	81		
@@ -5885,9 +5885,11 @@
 12533	432351	true	open	false	0	0	2017-04-20T11:04:13Z	2017-04-20T11:04:13Z		src: replace IsConstructCalls with lambda	49		
 12534	19409103	false	open	false	0		2017-04-20T12:32:45Z	2017-04-20T12:32:45Z		events.js:141    throw er; // Unhandled 'error' event	6		
 12535	2291463	true	open	false	0		2017-04-20T12:46:38Z	2017-04-20T13:22:07Z		deps: backport 75f2d65f00 from upstream V8	130		
-12536	432351	true	open	false	1		2017-04-20T12:46:48Z	2017-04-20T14:53:10Z		src: remove uv errno	81		
+12536	432351	true	open	false	2		2017-04-20T12:46:48Z	2017-04-20T15:26:17Z		src: remove uv errno	81		
 12537	95562	false	open	false	0		2017-04-20T13:30:36Z	2017-04-20T13:30:36Z		os.networkInterfaces() throws EAFNOSUPPORT under qemu-user-static on x86 host	215		
 12538	332968	true	closed	false	0	0	2017-04-20T14:04:56Z	2017-04-20T14:19:13Z	2017-04-20T14:19:13Z	doc: add Luca Maraschi to collaborators	21	332968	2017-04-20T14:19:12Z
-12539	976081	true	open	false	0	0	2017-04-20T14:06:18Z	2017-04-20T14:06:18Z		n-api: tighten null-checking and clean up last error	110		
+12539	976081	true	open	false			2017-04-20T14:06:18Z	2017-04-20T15:50:15Z		n-api: tighten null-checking and clean up last error	110		
 12540	17704638	true	open	false	0	0	2017-04-20T14:21:52Z	2017-04-20T14:21:52Z		src: add fcntl.h include to node.cc	52		
-12541	696611	true	open	false	0	0	2017-04-20T15:02:08Z	2017-04-20T15:02:08Z		doc: improve randomfill and fix broken link	40		
+12541	696611	true	open	false			2017-04-20T15:02:08Z	2017-04-20T15:04:05Z		doc: improve randomfill and fix broken link	40		
+12542	275871	true	open	false	0	0	2017-04-20T15:19:34Z	2017-04-20T15:19:34Z		v8: update v8 patch version number (v7.x)	64		
+12543	275871	true	open	false	0	0	2017-04-20T15:24:13Z	2017-04-20T15:24:13Z		v8: update v8 patch version number	10		
