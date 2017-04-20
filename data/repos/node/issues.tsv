@@ -336,7 +336,7 @@
 5251	696611	true	open	false	81		2016-02-15T23:12:35Z	2017-02-28T23:12:27Z		emit `error` events consistently in next tick	81		
 5256	327019	true	closed	false	29	0	2016-02-16T08:27:34Z	2016-08-01T22:10:12Z	2016-08-01T22:10:12Z	buffer: speed up Buffer.isEncoding() method	9		
 5258	172594	false	open	false	17		2016-02-16T12:06:31Z	2016-09-23T20:50:53Z		Propose NODE_TLS_REJECT_UNAUTHORIZED be renamed	117		
-5261	1715054	false	open	false	20		2016-02-16T18:43:30Z	2017-01-19T14:31:34Z		Error: EPERM: operation not permitted, open 'C:\Users\username\.node_repl_history'	15		
+5261	1715054	false	closed	false	20		2016-02-16T18:43:30Z	2017-04-20T11:23:29Z	2017-04-20T11:23:29Z	Error: EPERM: operation not permitted, open 'C:\Users\username\.node_repl_history'	15		
 5266	1656054	false	closed	false	11		2016-02-17T00:03:03Z	2017-01-09T14:21:34Z	2017-01-09T14:21:34Z	Segfault when passing objects between vm contexts	221		
 5268	718899	false	closed	false	0		2016-02-17T03:49:37Z	2017-04-04T03:52:20Z	2017-04-04T03:52:20Z	Windows 10 access violation with debugger	157		
 5270	3832082	true	closed	false	15	0	2016-02-17T06:10:56Z	2017-03-26T11:10:28Z	2017-03-26T11:10:28Z	debugger: fix debugger blocked main thread	25		
@@ -3987,7 +3987,7 @@
 10631	52195	true	closed	false	11		2017-01-05T10:37:18Z	2017-03-13T10:42:23Z	2017-01-11T16:28:52Z	doc: avoid memory leaks when writable.write() return false	65		
 10632	1101386	false	closed	false	2		2017-01-05T13:06:48Z	2017-01-05T16:07:49Z	2017-01-05T16:07:49Z	path.resolve() goes left to right, right?	33		
 10633	11979939	true	closed	false	10		2017-01-05T14:59:52Z	2017-01-18T16:46:54Z	2017-01-18T16:46:53Z	src: do not modify original argv array on AIX	70		
-10634	439929	false	open	false	1		2017-01-05T15:46:53Z	2017-01-28T18:34:27Z		url: track whatwg url issue #185 (non-special URL host)	38		
+10634	439929	false	open	false	2		2017-01-05T15:46:53Z	2017-04-20T11:24:29Z		url: track whatwg url issue #185 (non-special URL host)	38		
 10635	439929	false	closed	false	5		2017-01-05T16:03:52Z	2017-02-01T07:54:03Z	2017-02-01T07:54:03Z	url: extend URLSearchParams constructor (whatwg #175)	41		
 10636	2512748	true	closed	false	1		2017-01-05T17:27:27Z	2017-01-23T02:16:22Z	2017-01-09T17:07:02Z	test: improve module version mismatch error check	39		
 10637	899444	true	closed	false	3	0	2017-01-05T18:10:17Z	2017-01-06T01:02:09Z	2017-01-06T01:02:09Z	doc: mention cc-ing nodejs/python team for reviews	52		
@@ -5556,7 +5556,7 @@
 12203	1716463	true	closed	false	9		2017-04-04T10:41:53Z	2017-04-10T22:19:49Z	2017-04-10T16:58:30Z	url: trim leading slashes of file URL paths	53		
 12204	432351	true	closed	false	6		2017-04-04T11:23:20Z	2017-04-05T13:33:15Z	2017-04-05T13:33:15Z	build: create test_addons function	55		
 12206	14329097	true	closed	false	1		2017-04-04T13:01:53Z	2017-04-04T16:06:31Z	2017-04-04T16:06:31Z	doc: fix typo in CHANGELOG_V6.md	16		
-12207	17704638	true	open	false			2017-04-04T13:48:36Z	2017-04-05T08:54:30Z		repl: support hidden history file on Windows	74		
+12207	17704638	true	closed	false	3	3	2017-04-04T13:48:36Z	2017-04-20T11:23:18Z	2017-04-20T11:23:18Z	repl: support hidden history file on Windows	74		
 12208	11330934	false	closed	false	0		2017-04-04T14:09:21Z	2017-04-04T15:11:21Z	2017-04-04T15:11:21Z	node.js RSS memory grows over time despite fairly consistent heap sizes	92		
 12209	2286294	false	open	false	2		2017-04-04T14:13:37Z	2017-04-08T10:55:10Z		http.createServer req.on('end', ...) fires more than once for the same request	294		
 12210	15943089	true	open	false			2017-04-04T14:40:36Z	2017-04-04T19:07:47Z		crypto: only try to set FIPS mode if different	81		
@@ -5833,7 +5833,7 @@
 12481	2291463	true	open	false	1		2017-04-18T05:50:22Z	2017-04-19T13:29:30Z		test: use JSON.stringify to trigger stack overflow	70		
 12482	9718840	true	closed	false	5		2017-04-18T07:31:33Z	2017-04-18T16:16:52Z	2017-04-18T16:16:52Z	NodeJS v7.9.0 does not support latin-1	42		
 12483	7455872	true	closed	false	2	0	2017-04-18T08:20:34Z	2017-04-19T21:02:21Z	2017-04-19T21:02:21Z	test: console.log removed from test-net-localport	41		
-12484	432351	true	open	false	16		2017-04-18T09:52:02Z	2017-04-20T10:54:42Z		build: fix ninja build failure	153		
+12484	432351	true	open	false	18		2017-04-18T09:52:02Z	2017-04-20T11:27:07Z		build: fix ninja build failure	153		
 12485	432351	true	closed	false	1		2017-04-18T13:25:31Z	2017-04-20T07:47:39Z	2017-04-20T07:47:39Z	test: skip tests using ca flags	92		
 12486	855219	true	open	false	0	0	2017-04-18T13:45:33Z	2017-04-18T13:45:33Z		deps: ICU 59.1 bump	53		
 12487	15608388	true	open	false			2017-04-18T15:21:31Z	2017-04-19T12:49:00Z		test: dynamic port in cluster worker dgram	49		
@@ -5881,4 +5881,5 @@
 12529	2309868	false	open	false	0		2017-04-20T08:34:36Z	2017-04-20T08:34:36Z		String::localeCompare support required.	79		
 12530	275871	false	open	false	0		2017-04-20T08:58:18Z	2017-04-20T08:58:18Z		net,udp: throw on invalid link-local IPv6 address?	92		
 12531	15943089	false	open	false	0		2017-04-20T10:38:22Z	2017-04-20T10:38:22Z		xcrun error when building master	92		
-12532	5795847	false	open	false	0		2017-04-20T10:47:15Z	2017-04-20T10:47:15Z		Deps: Upgrade `c-ares` to >= 1.12.0 (CVE-2016-5180)	41		
+12532	5795847	false	closed	false	0		2017-04-20T10:47:15Z	2017-04-20T11:13:55Z	2017-04-20T11:13:55Z	Deps: Upgrade `c-ares` to >= 1.12.0 (CVE-2016-5180)	41		
+12533	432351	true	open	false	0	0	2017-04-20T11:04:13Z	2017-04-20T11:04:13Z		src: replace IsConstructCalls with lambda	49		
