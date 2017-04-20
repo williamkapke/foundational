@@ -185,7 +185,7 @@
 3477	367936	false	closed	false	14		2015-10-21T23:22:50Z	2016-07-19T19:51:42Z	2016-07-19T11:50:04Z	Pipe/stream performance regression after v2.5.0	223		
 3516	718899	true	closed	false	12		2015-10-25T18:55:14Z	2016-07-18T06:09:28Z	2015-10-28T23:22:53Z	lib,doc: return boolean from child.send()	32		
 3524	3015402	false	closed	false	7		2015-10-26T08:55:04Z	2017-03-01T06:12:29Z	2015-10-26T10:04:03Z	Loop of console.log causes out of memory	257		
-3540	495647	false	closed	false	34		2015-10-27T01:47:13Z	2016-12-28T04:09:07Z	2015-11-03T09:26:04Z	Missing `github-url-from-git` from npm@3 in Node v5 RC1	134		
+3540	495647	false	closed	false	34		2015-10-27T01:47:13Z	2017-04-20T16:44:35Z	2015-11-03T09:26:04Z	Missing `github-url-from-git` from npm@3 in Node v5 RC1	134		
 3572	1722371	true	closed	false	6		2015-10-28T19:52:00Z	2016-08-10T11:01:19Z	2015-10-28T20:15:22Z	test: fix heap-profiler link error LNK1194 on win	33		
 3591	26678	false	open	false	44		2015-10-29T19:35:30Z	2017-01-10T05:04:28Z		"multiple headers of the ""same name"" allowed in http"	41		
 3596	125177	false	closed	false	19		2015-10-29T23:54:22Z	2016-10-01T03:45:06Z	2016-06-07T19:43:30Z	detached child_process doesn't inherit stdio	76		
@@ -4647,7 +4647,7 @@
 11291	2512748	true	closed	false	1	0	2017-02-10T15:34:39Z	2017-02-13T22:27:13Z	2017-02-13T22:27:13Z	test: add coverage for dgram _createSocketHandle()	48	2512748	2017-02-13T22:27:13Z
 11292	2512748	true	closed	false	2		2017-02-10T16:45:16Z	2017-03-07T17:16:50Z	2017-02-14T16:58:13Z	test: cover dgram socket close during cluster bind	72		
 11293	1028226	true	open	false	3		2017-02-10T16:52:01Z	2017-02-22T09:24:22Z		https: use internal/errors.js	43		
-11294	439929	true	open	false	20		2017-02-10T16:57:04Z	2017-04-19T16:44:13Z		errors, process: port internal/process errors to internal/errors	88		
+11294	439929	true	open	false	23		2017-02-10T16:57:04Z	2017-04-20T16:14:54Z		errors, process: port internal/process errors to internal/errors	88		
 11295	2512748	true	closed	false	1		2017-02-10T17:00:53Z	2017-03-09T00:04:21Z	2017-02-13T18:33:40Z	test: cover cluster error during dgram socket bind	66		
 11296	22550884	true	open	false	19		2017-02-10T17:28:26Z	2017-03-07T18:26:39Z		lib/src: refactoring out of range index and and migrate error for consistency	57		
 11297	22550884	true	closed	false	3		2017-02-10T17:38:46Z	2017-03-07T15:09:31Z	2017-02-17T00:02:45Z	test: consolidating buffer.read()	16		
@@ -5240,7 +5240,7 @@
 11885	22823019	false	closed	false	5		2017-03-16T22:34:58Z	2017-03-20T15:54:25Z	2017-03-20T15:54:25Z	SIGSEGV When Reading From SSL Stream	470		
 11886	332968	true	closed	false	4		2017-03-16T23:01:47Z	2017-03-21T14:34:52Z	2017-03-20T17:19:22Z	test: added tests for unixtimestamp generation	40		
 11887	1716463	true	closed	false	7		2017-03-17T01:20:43Z	2017-03-20T18:46:33Z	2017-03-20T18:46:33Z	url: update the processing in the scheme state.	126		
-11888	5876741	true	open	false	27		2017-03-17T04:17:30Z	2017-03-23T17:58:40Z		module: check env NODE_PRELOAD for preload modules	117		
+11888	5876741	true	closed	false	28	9	2017-03-17T04:17:30Z	2017-04-20T16:29:20Z	2017-04-20T16:29:20Z	module: check env NODE_PRELOAD for preload modules	117		
 11889	914122	false	open	false	1		2017-03-17T05:23:41Z	2017-03-17T08:10:39Z		Practical Problem: case-mismatch in package/file require statements	102		
 11890	718899	true	closed	false	5		2017-03-17T05:52:15Z	2017-03-28T23:37:33Z	2017-03-21T01:29:56Z	tools: ignore URLs in line length linting	52		
 11891	5886475	true	closed	false	5		2017-03-17T06:33:03Z	2017-03-24T02:42:05Z	2017-03-22T06:33:07Z	errors: remove needless lazyAssert 	60		
@@ -5466,7 +5466,7 @@
 12112	1443911	true	open	false	0	0	2017-03-29T06:43:22Z	2017-03-29T06:43:22Z		v7.x backport: http: avoid retaining unneeded memory	4		
 12113	54666	true	open	false	6		2017-03-29T07:45:35Z	2017-04-04T17:03:01Z		linkedlist: remove public module	48		
 12114	413206	false	open	false	5		2017-03-29T08:50:05Z	2017-04-07T13:40:15Z		base64 decoder could be 2x faster when decoding wrapped base64	224		
-12115	7016138	false	open	false	28		2017-03-29T09:24:52Z	2017-04-20T15:10:49Z		Node occasionally gives multiple files/folders the same inode	299		
+12115	7016138	false	open	false	32		2017-03-29T09:24:52Z	2017-04-20T16:43:14Z		Node occasionally gives multiple files/folders the same inode	310		
 12116	2352663	true	closed	false	0		2017-03-29T11:21:18Z	2017-03-31T12:45:20Z	2017-03-31T12:45:20Z	tools: update dotfile whitelist in .gitignore	18		
 12117	509375	false	closed	false	1		2017-03-29T12:23:53Z	2017-03-29T13:30:13Z	2017-03-29T13:30:13Z	child_process#spawn breaks backward compatibility in node v4.8.0	107		
 12118	275871	true	closed	false	1	0	2017-03-29T12:27:08Z	2017-03-31T19:56:10Z	2017-03-31T19:56:10Z	src: add .FromJust(), fix -Wunused-result warnings	10		
@@ -5698,7 +5698,7 @@
 12346	10441177	false	closed	false	8		2017-04-11T20:07:56Z	2017-04-12T10:20:00Z	2017-04-11T20:35:25Z	QUESTION: How to write sync code in Node.js?	63		
 12347	718899	true	closed	false	5		2017-04-11T20:10:43Z	2017-04-14T21:31:05Z	2017-04-14T21:31:05Z	test: add test-benchmark-crypto	52		
 12348	2512748	true	closed	false	3	6	2017-04-11T20:46:32Z	2017-04-17T20:26:29Z	2017-04-17T20:26:29Z	child_process: internal cleanup and input validation improvements	117	2512748	2017-04-17T20:26:29Z
-12349	205482	true	open	false	26		2017-04-11T23:40:37Z	2017-04-20T15:11:18Z		src: add require transform pipeline	118		
+12349	205482	true	open	false	27		2017-04-11T23:40:37Z	2017-04-20T16:31:28Z		src: add require transform pipeline	118		
 12350	718899	true	closed	false	1		2017-04-11T23:48:05Z	2017-04-14T21:09:23Z	2017-04-14T21:09:23Z	doc: fix formatting in onboarding-extras	31		
 12351	10393198	false	open	false	0		2017-04-12T00:11:15Z	2017-04-12T00:11:15Z		ENOENT error message inconsistencies	232		
 12352	498775	true	closed	false	9	0	2017-04-12T05:36:32Z	2017-04-13T22:04:36Z	2017-04-13T22:04:36Z	src: remove experimental warning for inspect	29		
@@ -5847,11 +5847,11 @@
 12495	275871	true	open	false	0		2017-04-18T21:46:08Z	2017-04-18T22:09:06Z		lib: remove _debugger.js	60		
 12496	13093042	true	open	false	0		2017-04-18T22:12:40Z	2017-04-20T13:06:53Z		n-api: remove napi_get_value_string_length()	170		
 12497	1093990	false	open	false	0		2017-04-18T23:16:32Z	2017-04-19T04:33:32Z		fedora test failure: test-benchmark-crypto	124		
-12498	498775	true	open	false	9		2017-04-19T00:13:54Z	2017-04-20T14:24:41Z		v6.10.3 proposal	1726		
+12498	498775	true	open	false	10		2017-04-19T00:13:54Z	2017-04-20T16:07:58Z		v6.10.3 proposal	1726		
 12499	498775	true	open	false	3		2017-04-19T00:14:45Z	2017-04-20T15:49:15Z		v4.8.3 proposal	172		
 12500	10393198	true	open	false	0	0	2017-04-19T00:40:59Z	2017-04-19T00:40:59Z		(v6.x backport) doc: modernize and fix code examples in modules.md	54		
-12501	2512748	true	open	false	0	0	2017-04-19T01:06:23Z	2017-04-19T01:06:23Z		events: remove unreachable code	73		
-12502	2512748	true	open	false	0	0	2017-04-19T01:38:46Z	2017-04-19T01:38:46Z		test: verify listener leak is only emitted once	70		
+12501	2512748	true	open	false	0		2017-04-19T01:06:23Z	2017-04-20T16:46:02Z		events: remove unreachable code	73		
+12502	2512748	true	open	false	0		2017-04-19T01:38:46Z	2017-04-20T16:47:14Z		test: verify listener leak is only emitted once	70		
 12503	5447484	true	open	false			2017-04-19T02:14:49Z	2017-04-19T19:40:44Z		test: add inspect-brk option to cluster module	42		
 12504	718899	true	open	false	4		2017-04-19T04:04:11Z	2017-04-20T06:23:18Z		Backport 12162 to 6.x	6		
 12505	10393198	true	closed	false	1		2017-04-19T04:25:55Z	2017-04-19T14:42:31Z	2017-04-19T14:42:31Z	doc: unify quotes in an assert.md code example	22		
@@ -5860,7 +5860,7 @@
 12508	289004	true	open	false	0		2017-04-19T11:28:31Z	2017-04-20T10:56:37Z		test: remove common.PORT from test-tls-connect	39		
 12509	2291463	false	open	false	1		2017-04-19T12:02:19Z	2017-04-19T19:46:04Z		V8 API: convert Local<Array> into a list of Local<Value>	188		
 12510	9373002	true	open	false	1		2017-04-19T13:15:56Z	2017-04-20T13:13:49Z		doc: add suggestion to use --3way	70		
-12511	96947	true	open	false	12		2017-04-19T13:19:14Z	2017-04-19T19:04:58Z		[wip] path: improve parse => format combination	66		
+12511	96947	true	open	false	12		2017-04-19T13:19:14Z	2017-04-20T16:57:56Z		[wip] path: improve parse => format combination	66		
 12512	2512748	true	open	false	0		2017-04-19T14:55:00Z	2017-04-20T09:18:00Z		test: add coverage for vm's breakOnSigint option	69		
 12513	613956	false	open	false	0		2017-04-19T15:25:13Z	2017-04-19T15:25:13Z		The error message is confusing when the callback of transform implementation is called multiple times	105		
 12514	2512748	true	open	false	0		2017-04-19T16:11:46Z	2017-04-20T09:21:30Z		test: use duplex streams in duplex stream test	82		
@@ -5873,14 +5873,14 @@
 12521	1058243	false	open	false	0		2017-04-19T19:20:20Z	2017-04-19T19:20:20Z		fs.writeFile writes wrong file case if file already exists on Windows	47		
 12522	96947	true	open	false	0		2017-04-19T20:26:27Z	2017-04-20T15:50:24Z		build, icu: fix case in lib names	36		
 12523	1538624	true	open	false	5		2017-04-19T22:09:11Z	2017-04-20T09:18:46Z		url: update WHATWG URL parser to latest spec	133		
-12524	13093042	true	open	false			2017-04-19T22:32:23Z	2017-04-20T07:06:24Z		n-api: Enable scope and ref APIs during exception	179		
+12524	13093042	true	open	false	2		2017-04-19T22:32:23Z	2017-04-20T16:48:12Z		n-api: Enable scope and ref APIs during exception	179		
 12525	5803170	true	open	false			2017-04-19T22:40:53Z	2017-04-19T23:04:36Z		lib: improve querystring unescapeBuffer perf	81		
 12526	1538624	true	open	false			2017-04-20T06:13:39Z	2017-04-20T08:27:40Z		url: use util's getConstructorOf	18		
 12527	718899	true	open	false	0		2017-04-20T06:16:16Z	2017-04-20T09:17:43Z		test: check that pending warning is emitted once	63		
-12528	1384537	true	open	false	0	0	2017-04-20T08:21:13Z	2017-04-20T08:21:13Z		module: correcting comment spelling	30		
+12528	1384537	true	open	false			2017-04-20T08:21:13Z	2017-04-20T16:36:13Z		module: correcting comment spelling	30		
 12529	2309868	false	open	false	1		2017-04-20T08:34:36Z	2017-04-20T12:25:52Z		String::localeCompare support required.	79		
 12530	275871	false	open	false	0		2017-04-20T08:58:18Z	2017-04-20T14:59:47Z		net,udp: throw on invalid link-local IPv6 address?	92		
-12531	15943089	false	open	false	5		2017-04-20T10:38:22Z	2017-04-20T13:42:36Z		xcrun error when building master	92		
+12531	15943089	false	open	false	6		2017-04-20T10:38:22Z	2017-04-20T16:05:05Z		xcrun error when building master	92		
 12532	5795847	false	closed	false	0		2017-04-20T10:47:15Z	2017-04-20T11:13:55Z	2017-04-20T11:13:55Z	Deps: Upgrade `c-ares` to >= 1.12.0 (CVE-2016-5180)	41		
 12533	432351	true	open	false	0	0	2017-04-20T11:04:13Z	2017-04-20T11:04:13Z		src: replace IsConstructCalls with lambda	49		
 12534	19409103	false	open	false	0		2017-04-20T12:32:45Z	2017-04-20T12:32:45Z		events.js:141    throw er; // Unhandled 'error' event	6		
@@ -5893,3 +5893,4 @@
 12541	696611	true	open	false			2017-04-20T15:02:08Z	2017-04-20T15:04:05Z		doc: improve randomfill and fix broken link	40		
 12542	275871	true	open	false	0	0	2017-04-20T15:19:34Z	2017-04-20T15:19:34Z		v8: update v8 patch version number (v7.x)	64		
 12543	275871	true	open	false	0	0	2017-04-20T15:24:13Z	2017-04-20T15:24:13Z		v8: update v8 patch version number	10		
+12544	1774305	true	open	false	0	0	2017-04-20T16:31:06Z	2017-04-20T16:31:06Z		Update buffer swap test to use better variable names	67		
