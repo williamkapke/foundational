@@ -4733,7 +4733,7 @@
 11377	5886475	true	closed	false	4		2017-02-14T15:34:04Z	2017-03-07T05:59:28Z	2017-02-24T00:59:00Z	test: increase coverage of vm	32		
 11378	11820832	false	open	false	0		2017-02-14T15:49:05Z	2017-02-14T15:49:05Z		ar	6		
 11379	2502292	false	closed	false	1		2017-02-14T16:07:02Z	2017-02-14T17:39:56Z	2017-02-14T17:39:56Z	fs.realpath doesn't return the real path under Windows	27		
-11380	7693422	true	open	false	1		2017-02-14T18:23:07Z	2017-02-15T16:08:46Z		debugger, errors: migrate to use internal/errors.js	36		
+11380	7693422	true	closed	false	2		2017-02-14T18:23:07Z	2017-04-21T21:46:10Z	2017-04-21T21:46:10Z	debugger, errors: migrate to use internal/errors.js	36		
 11381	718899	true	closed	false	2		2017-02-14T18:50:08Z	2017-02-18T06:03:34Z	2017-02-18T06:03:34Z	test: refactor common.expectsError()	46		
 11382	718899	true	closed	false	1		2017-02-14T19:02:01Z	2017-03-07T15:30:06Z	2017-02-16T20:48:16Z	doc: add missing function to test common doc	28		
 11383	2512748	true	closed	false	1		2017-02-14T19:11:20Z	2017-03-07T15:41:01Z	2017-02-16T18:09:13Z	test: cover dgram socket close during bind case	47		
@@ -5791,7 +5791,7 @@
 12439	54666	true	closed	false	2		2017-04-16T07:45:45Z	2017-04-18T16:08:33Z	2017-04-18T16:08:33Z	buffer: fix backwards incompatibility	73		
 12440	910691	false	open	false	2		2017-04-16T14:46:59Z	2017-04-16T16:03:27Z		internet/test-dns.js test_resolveNs_failure failed with ETIMEOUT	80		
 12441	5329230	true	closed	false	6	0	2017-04-16T15:03:21Z	2017-04-18T16:49:29Z	2017-04-18T16:49:29Z	Migrate cluster tests from common.PORT	48		
-12442	899444	true	open	false			2017-04-16T16:30:05Z	2017-04-21T06:51:03Z		util: add util.promisify()	167		
+12442	899444	true	open	false			2017-04-16T16:30:05Z	2017-04-21T22:02:37Z		util: add util.promisify()	167		
 12443	15608388	true	closed	false	8	0	2017-04-16T18:10:10Z	2017-04-18T15:43:27Z	2017-04-18T15:43:27Z	tests: remove common.PORT from cluster worker disconnect, exit and kill	48		
 12444	899988	true	closed	false	5		2017-04-16T18:15:30Z	2017-04-17T19:26:22Z	2017-04-17T14:21:00Z	add missing ) in CONTRIBUTING.md	21		
 12445	899988	true	closed	false	12		2017-04-16T18:15:34Z	2017-04-18T18:27:43Z	2017-04-18T15:33:31Z	doc: fix recommendation to use useless config	21		
@@ -5838,7 +5838,7 @@
 12486	855219	true	open	false	0	0	2017-04-18T13:45:33Z	2017-04-18T13:45:33Z		deps: ICU 59.1 bump	53		
 12487	15608388	true	open	false	1		2017-04-18T15:21:31Z	2017-04-21T04:42:39Z		test: dynamic port in cluster worker dgram	49		
 12488	5008	false	open	false	7		2017-04-18T16:03:49Z	2017-04-19T23:31:09Z		Undefined hostname defaults to 127.0.0.1	137		
-12489	899444	true	open	false	17		2017-04-18T16:14:14Z	2017-04-20T02:20:06Z		domain: support promises	123		
+12489	899444	true	open	false			2017-04-18T16:14:14Z	2017-04-21T21:42:22Z		domain: support promises	123		
 12490	1093990	true	open	false	0		2017-04-18T16:23:30Z	2017-04-18T17:24:28Z		test: pipe some error output if npm fails	56		
 12491	9402714	true	open	false			2017-04-18T18:28:28Z	2017-04-19T14:05:16Z		test: fix global.PORT in dgram-cluster-test-1	81		
 12492	718899	true	open	false			2017-04-18T18:36:51Z	2017-04-18T19:38:07Z		test: replace common.PORT in test-cluster-dgram-2	39		
@@ -5906,20 +5906,21 @@
 12554	10393198	false	open	false	3		2017-04-20T21:23:51Z	2017-04-21T00:37:45Z		meta: beware review comments for long diffs	20		
 12555	26514778	true	open	false			2017-04-20T22:33:59Z	2017-04-21T18:43:27Z		documentation: add descriptions of CI jobs	20		
 12556	196883	false	open	false	6		2017-04-20T23:10:30Z	2017-04-21T16:04:53Z		Cross compiling from Linux to Mac not working	222		
-12557	10393198	true	open	false	3		2017-04-21T01:07:10Z	2017-04-21T16:24:16Z		doc: unify trailing commas in code examples	87		
+12557	10393198	true	closed	false	5	2	2017-04-21T01:07:10Z	2017-04-21T21:05:06Z	2017-04-21T21:05:06Z	doc: unify trailing commas in code examples	87		
 12558	197329	false	open	false	1		2017-04-21T02:54:11Z	2017-04-21T08:10:08Z		"Is it ok to call it ""node"" or has to be ""node.js""?"	50		
 12559	12330766	false	open	false	0		2017-04-21T03:26:14Z	2017-04-21T14:15:16Z		Stop inspect the main thread Blocked.	64		
 12560	718899	false	open	false	3		2017-04-21T04:34:01Z	2017-04-21T20:17:25Z		investigate flaky sequential/test-benchmark-child-process on Windows	255		
 12561	718899	true	open	false	1		2017-04-21T04:38:14Z	2017-04-21T05:21:10Z		test: set benchmark-child-process flaky on windows	49		
 12562	696611	true	open	false			2017-04-21T04:54:19Z	2017-04-21T20:56:40Z		fs: throw on invalid callbacks for async functions	68		
-12563	10393198	true	open	false	7		2017-04-21T05:10:34Z	2017-04-21T20:10:42Z		doc: prepare js code for eslint-plugin-markdown	188		
-12564	718899	true	open	false	3		2017-04-21T05:36:53Z	2017-04-21T20:37:38Z		test: remove flaky designation for test on AIX	46		
+12563	10393198	true	open	false	13		2017-04-21T05:10:34Z	2017-04-21T21:34:25Z		doc: prepare js code for eslint-plugin-markdown	188		
+12564	718899	true	open	false	5		2017-04-21T05:36:53Z	2017-04-21T21:15:31Z		test: remove flaky designation for test on AIX	46		
 12565	54666	false	open	false	1		2017-04-21T06:44:39Z	2017-04-21T12:57:15Z		doc: typo in api/process.md	71		
 12566	10393198	false	open	false	2		2017-04-21T07:27:08Z	2017-04-21T14:09:41Z		tools: question about some ESLint config options	138		
 12567	8297234	true	open	false	0	0	2017-04-21T09:32:03Z	2017-04-21T09:32:03Z		backport v4.x: test: fix flaky test-tls-wrap-timeout	65		
 12568	8208733	false	open	false	3		2017-04-21T11:16:09Z	2017-04-21T15:43:19Z		Decreased performance in code running in Temporal Dead Zone	459		
-12569	27858046	false	open	false	0		2017-04-21T13:18:40Z	2017-04-21T13:18:40Z		Updating A Web App That Is Made In NodeJS	121		
+12569	27858046	false	closed	false	3		2017-04-21T13:18:40Z	2017-04-21T22:06:15Z	2017-04-21T13:47:21Z	Updating A Web App That Is Made In NodeJS	121		
 12570	10393198	true	open	false	0	0	2017-04-21T14:47:23Z	2017-04-21T14:47:23Z		tools: add `root: true` in main .eslintrc.yaml	16		
 12571	15608388	true	open	false	0	0	2017-04-21T15:17:25Z	2017-04-21T15:17:25Z		test: dynamic port in test cluster ipc throw	54		
 12572	1491690	false	open	false	0		2017-04-21T16:04:52Z	2017-04-21T16:04:52Z		UDP multicast in the cluster does not work 	124		
 12573	4258094	false	open	false	0		2017-04-21T17:09:06Z	2017-04-21T17:15:26Z		Fatal error when comparing long strings	116		
+12574	1538624	true	open	false	0	0	2017-04-21T21:38:59Z	2017-04-21T21:38:59Z		url: port WHATWG URL API to internal/errors	44		
