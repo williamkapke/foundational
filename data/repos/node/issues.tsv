@@ -4651,7 +4651,7 @@
 11295	2512748	true	closed	false	1		2017-02-10T17:00:53Z	2017-03-09T00:04:21Z	2017-02-13T18:33:40Z	test: cover cluster error during dgram socket bind	66		
 11296	22550884	true	open	false	19		2017-02-10T17:28:26Z	2017-03-07T18:26:39Z		lib/src: refactoring out of range index and and migrate error for consistency	57		
 11297	22550884	true	closed	false	3		2017-02-10T17:38:46Z	2017-03-07T15:09:31Z	2017-02-17T00:02:45Z	test: consolidating buffer.read()	16		
-11298	439929	true	open	false	13		2017-02-10T18:26:16Z	2017-04-21T17:07:40Z		errors: assign error code to bootstrap_node created error	72		
+11298	439929	true	open	false	14		2017-02-10T18:26:16Z	2017-04-21T17:41:31Z		errors: assign error code to bootstrap_node created error	72		
 11299	4299420	false	closed	false	2		2017-02-10T19:10:24Z	2017-03-22T03:17:12Z	2017-03-22T03:17:12Z	New error system in WHATWG URL implementation	59		
 11300	439929	true	open	false	3		2017-02-10T20:10:25Z	2017-04-20T23:05:50Z		errors, child_process: migrate to using internal/errors	48		
 11301	1028226	true	open	false	0		2017-02-10T20:26:27Z	2017-02-15T16:18:37Z		internal/util: use internal/errors.js	57		
@@ -5380,7 +5380,7 @@
 12025	718899	true	closed	false	2		2017-03-24T19:15:11Z	2017-04-09T17:02:00Z	2017-04-09T17:02:00Z	test,benchmark: enable minimal CI for http bench	60		
 12026	718899	true	closed	false	3		2017-03-24T19:45:20Z	2017-03-26T09:31:04Z	2017-03-26T09:31:04Z	benchmark: update obsolete information pointer	61		
 12027	439929	true	closed	false	11		2017-03-24T19:47:27Z	2017-03-28T22:36:34Z	2017-03-26T19:50:44Z	test, tools: add common.noop and common.mustNotCall lint rule	155		
-12028	17607	true	open	false			2017-03-24T22:15:58Z	2017-04-20T15:39:13Z		src: allow CLI args in env with NODE_OPTIONS 	308		
+12028	17607	true	open	false	61		2017-03-24T22:15:58Z	2017-04-21T17:11:52Z		src: allow CLI args in env with NODE_OPTIONS 	308		
 12029	899444	true	closed	false	10		2017-03-24T22:24:02Z	2017-03-31T20:18:11Z	2017-03-31T20:18:11Z	build: always use V8_ENABLE_CHECKS in debug mode	55		
 12030	10393198	true	closed	false	40		2017-03-24T23:24:24Z	2017-04-18T23:06:46Z	2017-03-28T00:22:26Z	benchmark: check end() argument to be > 0	19		
 12031	54666	false	open	false	0		2017-03-25T04:06:18Z	2017-03-25T08:52:16Z		test: tweak addon tests	107		
@@ -5850,7 +5850,7 @@
 12498	498775	true	open	false	11		2017-04-19T00:13:54Z	2017-04-20T18:09:22Z		v6.10.3 proposal	1726		
 12499	498775	true	open	false	4		2017-04-19T00:14:45Z	2017-04-20T18:09:56Z		v4.8.3 proposal	172		
 12500	10393198	true	open	false	0	0	2017-04-19T00:40:59Z	2017-04-19T00:40:59Z		(v6.x backport) doc: modernize and fix code examples in modules.md	54		
-12501	2512748	true	open	false	0		2017-04-19T01:06:23Z	2017-04-20T16:46:02Z		events: remove unreachable code	73		
+12501	2512748	true	closed	false	1	0	2017-04-19T01:06:23Z	2017-04-21T17:11:01Z	2017-04-21T17:11:01Z	events: remove unreachable code	73	2512748	2017-04-21T17:11:01Z
 12502	2512748	true	open	false	0		2017-04-19T01:38:46Z	2017-04-20T16:47:14Z		test: verify listener leak is only emitted once	70		
 12503	5447484	true	open	false	1		2017-04-19T02:14:49Z	2017-04-20T22:13:06Z		test: add inspect-brk option to cluster module	42		
 12504	718899	true	open	false	4		2017-04-19T04:04:11Z	2017-04-20T06:23:18Z		Backport 12162 to 6.x	6		
@@ -5904,14 +5904,14 @@
 12552	20647694	true	closed	false	2	0	2017-04-20T20:58:14Z	2017-04-20T23:42:38Z	2017-04-20T23:42:38Z	doc: update link to Code of Conduct	16		
 12553	835618	false	open	false	0		2017-04-20T21:10:05Z	2017-04-20T21:10:05Z		Int32 overflow when creating a buffer	115		
 12554	10393198	false	open	false	3		2017-04-20T21:23:51Z	2017-04-21T00:37:45Z		meta: beware review comments for long diffs	20		
-12555	26514778	true	open	false	1		2017-04-20T22:33:59Z	2017-04-21T12:44:39Z		documentation: add descriptions of CI jobs	20		
+12555	26514778	true	open	false			2017-04-20T22:33:59Z	2017-04-21T18:03:48Z		documentation: add descriptions of CI jobs	20		
 12556	196883	false	open	false	6		2017-04-20T23:10:30Z	2017-04-21T16:04:53Z		Cross compiling from Linux to Mac not working	222		
 12557	10393198	true	open	false	3		2017-04-21T01:07:10Z	2017-04-21T16:24:16Z		doc: unify trailing commas in code examples	87		
 12558	197329	false	open	false	1		2017-04-21T02:54:11Z	2017-04-21T08:10:08Z		"Is it ok to call it ""node"" or has to be ""node.js""?"	50		
 12559	12330766	false	open	false	0		2017-04-21T03:26:14Z	2017-04-21T14:15:16Z		Stop inspect the main thread Blocked.	64		
 12560	718899	false	open	false	0		2017-04-21T04:34:01Z	2017-04-21T04:34:01Z		investigate flaky sequential/test-benchmark-child-process on Windows	235		
 12561	718899	true	open	false	1		2017-04-21T04:38:14Z	2017-04-21T05:21:10Z		test: set benchmark-child-process flaky on windows	49		
-12562	696611	true	open	false	0		2017-04-21T04:54:19Z	2017-04-21T16:35:12Z		fs: throw on invalid callbacks for async functions	68		
+12562	696611	true	open	false			2017-04-21T04:54:19Z	2017-04-21T17:45:33Z		fs: throw on invalid callbacks for async functions	68		
 12563	10393198	true	open	false			2017-04-21T05:10:34Z	2017-04-21T16:39:55Z		doc: prepare js code for eslint-plugin-markdown	134		
 12564	718899	true	open	false	1		2017-04-21T05:36:53Z	2017-04-21T06:45:50Z		test: remove flaky designation for test on AIX	46		
 12565	54666	false	open	false	1		2017-04-21T06:44:39Z	2017-04-21T12:57:15Z		doc: typo in api/process.md	71		
@@ -5922,4 +5922,4 @@
 12570	10393198	true	open	false	0	0	2017-04-21T14:47:23Z	2017-04-21T14:47:23Z		tools: add `root: true` in main .eslintrc.yaml	16		
 12571	15608388	true	open	false	0	0	2017-04-21T15:17:25Z	2017-04-21T15:17:25Z		test: dynamic port in test cluster ipc throw	54		
 12572	1491690	false	open	false	0		2017-04-21T16:04:52Z	2017-04-21T16:04:52Z		UDP multicast in the cluster does not work 	124		
-12573	4258094	false	open	false	0		2017-04-21T17:09:06Z	2017-04-21T17:09:06Z		Fatal error when comparing long strings	116		
+12573	4258094	false	open	false	0		2017-04-21T17:09:06Z	2017-04-21T17:15:26Z		Fatal error when comparing long strings	116		
