@@ -4651,9 +4651,9 @@
 11295	2512748	true	closed	false	1		2017-02-10T17:00:53Z	2017-03-09T00:04:21Z	2017-02-13T18:33:40Z	test: cover cluster error during dgram socket bind	66		
 11296	22550884	true	open	false	19		2017-02-10T17:28:26Z	2017-03-07T18:26:39Z		lib/src: refactoring out of range index and and migrate error for consistency	57		
 11297	22550884	true	closed	false	3		2017-02-10T17:38:46Z	2017-03-07T15:09:31Z	2017-02-17T00:02:45Z	test: consolidating buffer.read()	16		
-11298	439929	true	open	false	9		2017-02-10T18:26:16Z	2017-04-20T19:06:39Z		errors: assign error code to bootstrap_node created error	72		
+11298	439929	true	open	false	11		2017-02-10T18:26:16Z	2017-04-20T23:04:44Z		errors: assign error code to bootstrap_node created error	72		
 11299	4299420	false	closed	false	2		2017-02-10T19:10:24Z	2017-03-22T03:17:12Z	2017-03-22T03:17:12Z	New error system in WHATWG URL implementation	59		
-11300	439929	true	open	false			2017-02-10T20:10:25Z	2017-03-23T15:55:06Z		errors, child_process: migrate to using internal/errors	48		
+11300	439929	true	open	false	3		2017-02-10T20:10:25Z	2017-04-20T23:05:50Z		errors, child_process: migrate to using internal/errors	48		
 11301	1028226	true	open	false	0		2017-02-10T20:26:27Z	2017-02-15T16:18:37Z		internal/util: use internal/errors.js	57		
 11302	1028226	true	open	false	0		2017-02-10T21:19:34Z	2017-02-15T16:19:29Z		errors,net: change internal/net.js to use internal/errors.js	57		
 11303	718899	true	closed	false	1		2017-02-10T21:57:07Z	2017-02-13T22:23:22Z	2017-02-13T22:23:22Z	test: refactor test-repl-sigint-nested-eval	44		
@@ -5843,7 +5843,7 @@
 12491	9402714	true	open	false			2017-04-18T18:28:28Z	2017-04-19T14:05:16Z		test: fix global.PORT in dgram-cluster-test-1	81		
 12492	718899	true	open	false			2017-04-18T18:36:51Z	2017-04-18T19:38:07Z		test: replace common.PORT in test-cluster-dgram-2	39		
 12493	96947	false	open	false	8		2017-04-18T20:11:30Z	2017-04-19T20:04:09Z		"PSA: new tag ""regression"""	229		
-12494	439929	true	open	false	1		2017-04-18T20:38:08Z	2017-04-19T22:39:15Z		http: add type checking for hostname	62		
+12494	439929	true	open	false	2		2017-04-18T20:38:08Z	2017-04-20T23:10:11Z		http: add type checking for hostname	62		
 12495	275871	true	open	false	0		2017-04-18T21:46:08Z	2017-04-18T22:09:06Z		lib: remove _debugger.js	60		
 12496	13093042	true	closed	false	1		2017-04-18T22:12:40Z	2017-04-20T17:29:33Z	2017-04-20T17:29:33Z	n-api: remove napi_get_value_string_length()	170		
 12497	1093990	false	open	false	0		2017-04-18T23:16:32Z	2017-04-19T04:33:32Z		fedora test failure: test-benchmark-crypto	124		
@@ -5868,7 +5868,7 @@
 12516	696611	false	open	false	4		2017-04-19T17:20:48Z	2017-04-19T19:39:22Z		"What are Node.js ""Linked"" modules?"	48		
 12517	9657490	false	closed	false	0		2017-04-19T17:39:18Z	2017-04-19T18:44:54Z	2017-04-19T18:44:54Z	Change the script for hte install of node.js 7 in oracle linux	90		
 12518	718899	true	closed	false	20		2017-04-19T17:49:32Z	2017-04-20T00:14:13Z	2017-04-19T22:57:04Z	test: minimize time for child_process benchmark	50		
-12519	439929	true	open	false	3		2017-04-19T19:04:14Z	2017-04-19T22:07:00Z		domain: add --pending-deprecation warning	68		
+12519	439929	true	closed	false	4		2017-04-19T19:04:14Z	2017-04-20T23:09:02Z	2017-04-20T23:09:02Z	domain: add --pending-deprecation warning	68		
 12520	2512748	true	open	false			2017-04-19T19:16:32Z	2017-04-20T03:10:03Z		stream: improve multiple callback error message	64		
 12521	1058243	false	open	false	0		2017-04-19T19:20:20Z	2017-04-19T19:20:20Z		fs.writeFile writes wrong file case if file already exists on Windows	47		
 12522	96947	true	open	false	0		2017-04-19T20:26:27Z	2017-04-20T15:50:24Z		build, icu: fix case in lib names	36		
@@ -5900,8 +5900,9 @@
 12548	432351	true	open	false	1		2017-04-20T18:18:44Z	2017-04-20T19:28:16Z		src: call linux getauxval(AT_SECURE) in SafeGetenv	47		
 12549	9373002	true	open	false	0		2017-04-20T18:25:08Z	2017-04-20T22:15:12Z		doc: Add initial documentation for N-API	101		
 12550	1570449	true	closed	false	0		2017-04-20T18:57:56Z	2017-04-20T19:18:25Z	2017-04-20T19:18:25Z	fixes fs.watch docs typo	7		
-12551	13093042	true	open	false	0	0	2017-04-20T20:27:15Z	2017-04-20T20:27:15Z		n-api: Reference and external tests	73		
-12552	20647694	true	open	false	0		2017-04-20T20:58:14Z	2017-04-20T21:34:05Z		doc: update link to Code of Conduct	16		
+12551	13093042	true	open	false			2017-04-20T20:27:15Z	2017-04-20T23:50:40Z		n-api: Reference and external tests	73		
+12552	20647694	true	closed	false	2	0	2017-04-20T20:58:14Z	2017-04-20T23:42:38Z	2017-04-20T23:42:38Z	doc: update link to Code of Conduct	16		
 12553	835618	false	open	false	0		2017-04-20T21:10:05Z	2017-04-20T21:10:05Z		Int32 overflow when creating a buffer	115		
-12554	10393198	false	open	false	0		2017-04-20T21:23:51Z	2017-04-20T22:04:18Z		meta: beware review comments for long diffs	20		
+12554	10393198	false	open	false	2		2017-04-20T21:23:51Z	2017-04-20T23:13:12Z		meta: beware review comments for long diffs	20		
 12555	26514778	true	open	false	0	0	2017-04-20T22:33:59Z	2017-04-20T22:33:59Z		documentation: add descriptions of CI jobs	20		
+12556	196883	false	open	false	0		2017-04-20T23:10:30Z	2017-04-20T23:10:30Z		Cross compiling from Linux to Mac not working	222		
