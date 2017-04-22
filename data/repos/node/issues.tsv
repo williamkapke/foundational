@@ -1455,7 +1455,7 @@
 8092	432351	true	closed	false	4	6	2016-08-13T06:14:44Z	2016-08-18T01:36:49Z	2016-08-18T01:36:49Z	src: updating references to the old node.js file	89		
 8093	2037007	false	closed	false	1		2016-08-13T06:58:40Z	2016-08-13T11:56:19Z	2016-08-13T07:06:59Z	No such file or directory	171		
 8094	17309586	false	closed	false	1		2016-08-13T11:40:53Z	2016-08-13T12:50:13Z	2016-08-13T12:50:13Z	Error not able to resolve on mac	147		
-8095	835618	false	open	false	1		2016-08-13T15:25:03Z	2017-04-22T14:43:43Z		Readline does not appear to fully parse long stdin streams when printing	371		
+8095	835618	false	open	false	2		2016-08-13T15:25:03Z	2017-04-22T18:02:33Z		Readline does not appear to fully parse long stdin streams when printing	371		
 8096	1081565	false	closed	false	7		2016-08-13T19:29:10Z	2016-12-25T17:54:08Z	2016-12-25T17:54:08Z	uv_close: Assertion `0' failed on child_process.execSync w/ Infinite maxBuffer	74		
 8097	718899	true	closed	false	9		2016-08-13T22:13:24Z	2016-10-10T23:00:13Z	2016-08-16T22:17:32Z	tools: update ESLint to 3.3.0 and enable rules	99		
 8098	718899	true	closed	false	7		2016-08-14T03:48:25Z	2016-08-17T03:53:30Z	2016-08-17T03:53:30Z	test: use strict equality in regression test	38		
@@ -5876,7 +5876,7 @@
 12523	1538624	true	open	false	6		2017-04-19T22:09:11Z	2017-04-20T18:54:54Z		url: update WHATWG URL parser to latest spec	137		
 12524	13093042	true	open	false	3		2017-04-19T22:32:23Z	2017-04-21T13:41:08Z		n-api: Enable scope and ref APIs during exception	179		
 12525	5803170	true	open	false			2017-04-19T22:40:53Z	2017-04-19T23:04:36Z		lib: improve querystring unescapeBuffer perf	81		
-12526	1538624	true	open	false			2017-04-20T06:13:39Z	2017-04-22T17:25:01Z		url: use util's getConstructorOf	18		
+12526	1538624	true	open	false			2017-04-20T06:13:39Z	2017-04-22T18:20:09Z		url: use util's getConstructorOf	18		
 12527	718899	true	open	false	0		2017-04-20T06:16:16Z	2017-04-20T09:17:43Z		test: check that pending warning is emitted once	63		
 12528	1384537	true	open	false	0		2017-04-20T08:21:13Z	2017-04-21T15:38:39Z		module: correcting comment spelling	30		
 12529	2309868	false	open	false	4		2017-04-20T08:34:36Z	2017-04-22T11:41:35Z		String::localeCompare support required.	79		
@@ -5933,9 +5933,13 @@
 12580	17607	true	open	false	0	0	2017-04-22T03:41:58Z	2017-04-22T03:41:58Z		inspector: restore --debug-brk alias	87		
 12581	17607	true	open	false	2		2017-04-22T03:43:22Z	2017-04-22T17:47:35Z		inspector: document bad usage for --inspect-port	102		
 12582	718899	true	open	false	0	0	2017-04-22T05:50:20Z	2017-04-22T05:50:20Z		debugger: remove obsolete _debug_agent.js	34		
-12583	13963941	true	open	false	3		2017-04-22T08:23:03Z	2017-04-22T14:05:31Z		fs: add fs.copy, fs.copySync, fs.delete and fs.deleteSync with docs and tests.	450		
+12583	13963941	true	open	false	6		2017-04-22T08:23:03Z	2017-04-22T18:16:42Z		fs: add fs.copy, fs.copySync, fs.delete and fs.deleteSync with docs and tests.	450		
 12584	15608388	true	open	false	0	0	2017-04-22T10:10:43Z	2017-04-22T10:10:43Z		test: dynamic port in parallel cluster tests	63		
-12585	5803170	true	open	false	0	0	2017-04-22T12:23:06Z	2017-04-22T12:23:06Z		benchmark: add improvement and t-test in Node	207		
-12586	96947	false	open	false	4		2017-04-22T13:22:28Z	2017-04-22T17:30:21Z		Remove `indexOf` usage from tests in favor of `includes`	29		
+12585	5803170	true	open	false	2		2017-04-22T12:23:06Z	2017-04-22T18:06:10Z		benchmark: add improvement and t-test in Node	207		
+12586	96947	false	open	false	8		2017-04-22T13:22:28Z	2017-04-22T18:09:47Z		Remove `indexOf` usage from tests in favor of `includes`	363		
 12587	5924185	false	open	false	0		2017-04-22T17:08:05Z	2017-04-22T17:08:05Z		node_modules directory creation	59		
-12588	11764379	true	open	false	0	0	2017-04-22T17:58:24Z	2017-04-22T17:58:24Z		test: improve test-process-kill-pid	42		
+12588	11764379	true	open	false	0		2017-04-22T17:58:24Z	2017-04-22T18:14:48Z		test: improve test-process-kill-pid	39		
+12589	6517545	true	open	false	0	0	2017-04-22T18:20:05Z	2017-04-22T18:20:05Z		test: improve test-process-chdir	47		
+12590	8000808	true	open	false	0	0	2017-04-22T18:20:39Z	2017-04-22T18:20:39Z		refactoring: use block scope in test-buffer-swap.js	42		
+12591	11621037	true	open	false	0	0	2017-04-22T18:34:57Z	2017-04-22T18:34:57Z		test: improved type checking with regex	41		
+12592	6517545	true	open	false	0	0	2017-04-22T18:56:25Z	2017-04-22T18:56:25Z		Change socket tls	38		
