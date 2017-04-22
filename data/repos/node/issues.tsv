@@ -4,6 +4,7 @@
 256	1315533	false	closed	false	27		2015-01-08T07:50:35Z	2016-07-31T16:41:49Z	2015-02-25T00:30:11Z	Consider exposing promise unhandled rejection hook	243		
 428	321966	false	closed	false	53		2015-01-14T21:56:04Z	2017-02-17T08:06:06Z	2016-10-21T16:07:08Z	plans on incorporating LibreSSL	35		
 445	2993861	false	open	false	11		2015-01-15T16:18:56Z	2016-08-03T22:33:47Z		Cleanup `_writableState` and `_readableState` access across codebase	590		
+498	493139	false	open	false	8		2015-01-18T19:42:03Z	2017-04-22T20:23:25Z		`os.networkInterfaces` does not list all interfaces. 	169		
 540	555645	true	closed	false	33		2015-01-21T16:22:26Z	2017-04-22T05:00:45Z	2015-01-28T03:49:14Z	events: Alias EventEmitter.protoype.removeListener as EventEmitter.prototype.off 	95		
 548	1522145	false	closed	false	26		2015-01-22T03:48:27Z	2017-01-26T21:48:27Z	2017-01-26T21:48:27Z	Function redefinition in vm.runInContext	44		
 550	30827	false	closed	false	10		2015-01-22T05:35:22Z	2016-08-05T22:14:53Z	2016-08-05T22:14:53Z	Proposal: HTTP – Move `bodyHead` to `data` event	125		
@@ -4057,7 +4058,7 @@
 10700	3367801	true	closed	false	2		2017-01-09T04:42:10Z	2017-01-16T22:00:59Z	2017-01-16T21:57:19Z	test: refactor test-net-isip.js	29		
 10701	3367801	true	closed	false	1		2017-01-09T07:12:08Z	2017-01-10T22:03:11Z	2017-01-10T22:03:11Z	test: refactor cluster-preload.js	37		
 10702	4337080	true	closed	false	1	2	2017-01-09T07:28:24Z	2017-01-31T00:54:31Z	2017-01-31T00:54:31Z	doc: keepAliveMsecs refers to an initial delay not interval	62		
-10703	24735504	false	open	false	6		2017-01-09T10:18:16Z	2017-01-11T09:03:27Z		"not support file URLs containing drive specifiers (e.g., ""file:///c:/path"")"	25		
+10703	24735504	false	closed	false	7		2017-01-09T10:18:16Z	2017-04-22T20:28:23Z	2017-04-22T20:28:23Z	"not support file URLs containing drive specifiers (e.g., ""file:///c:/path"")"	25		
 10704	9124564	false	closed	false	1		2017-01-09T12:23:07Z	2017-02-22T17:37:13Z	2017-02-22T17:37:13Z	Crash using SNICallback over a netSocket	272		
 10705	25007505	false	open	false	0		2017-01-09T12:56:16Z	2017-01-09T13:05:53Z		Query does not work for node js	164		
 10706	238531	true	closed	false	16		2017-01-09T13:44:01Z	2017-02-22T18:59:39Z	2017-02-22T17:36:56Z	tls: do not crash on STARTTLS when OCSP requested	61		
@@ -5804,7 +5805,7 @@
 12451	5329230	true	closed	false	5		2017-04-16T20:59:08Z	2017-04-18T15:18:26Z	2017-04-18T15:18:26Z	tests: remove common.PORT from shared,master,rr tests	52		
 12452	1163342	true	open	false	5		2017-04-16T21:02:55Z	2017-04-18T20:07:37Z		test:  use dynamic port in test-dgram-bind-shared-ports	74		
 12453	2309317	false	open	false	4		2017-04-16T21:54:56Z	2017-04-17T04:10:55Z		Proxies: console.log uses overridden proxy methods by default	118		
-12454	7414255	true	open	false			2017-04-17T01:00:45Z	2017-04-22T16:22:55Z		console: make console consistent with the standard - overridable	91		
+12454	7414255	true	open	false	1		2017-04-17T01:00:45Z	2017-04-22T20:53:08Z		console: make console consistent with the standard - overridable	91		
 12455	10393198	true	closed	false			2017-04-17T02:12:55Z	2017-04-21T06:54:43Z	2017-04-20T01:51:28Z	benchmark: reduce string concatenations	275		
 12456	54666	true	open	false	20		2017-04-17T04:32:12Z	2017-04-17T18:29:09Z		build: allow easier checking of permanent deoptimizations	415		
 12457	15608388	true	closed	false	3	2	2017-04-17T06:00:14Z	2017-04-19T17:35:57Z	2017-04-19T17:35:57Z	tests: remove common.PORT from cluster-worker-disconnect-on-error	51		
@@ -5876,7 +5877,7 @@
 12523	1538624	true	open	false	6		2017-04-19T22:09:11Z	2017-04-20T18:54:54Z		url: update WHATWG URL parser to latest spec	137		
 12524	13093042	true	open	false	3		2017-04-19T22:32:23Z	2017-04-21T13:41:08Z		n-api: Enable scope and ref APIs during exception	179		
 12525	5803170	true	open	false			2017-04-19T22:40:53Z	2017-04-19T23:04:36Z		lib: improve querystring unescapeBuffer perf	81		
-12526	1538624	true	open	false			2017-04-20T06:13:39Z	2017-04-22T18:20:09Z		url: use util's getConstructorOf	18		
+12526	1538624	true	open	false			2017-04-20T06:13:39Z	2017-04-22T20:10:18Z		url: use util's getConstructorOf	18		
 12527	718899	true	open	false	0		2017-04-20T06:16:16Z	2017-04-20T09:17:43Z		test: check that pending warning is emitted once	63		
 12528	1384537	true	open	false	0		2017-04-20T08:21:13Z	2017-04-21T15:38:39Z		module: correcting comment spelling	30		
 12529	2309868	false	open	false	4		2017-04-20T08:34:36Z	2017-04-22T11:41:35Z		String::localeCompare support required.	79		
@@ -5936,7 +5937,7 @@
 12583	13963941	true	open	false	7		2017-04-22T08:23:03Z	2017-04-22T19:02:02Z		fs: add fs.copy, fs.copySync, fs.delete and fs.deleteSync with docs and tests.	450		
 12584	15608388	true	open	false	0	0	2017-04-22T10:10:43Z	2017-04-22T10:10:43Z		test: dynamic port in parallel cluster tests	63		
 12585	5803170	true	open	false	2		2017-04-22T12:23:06Z	2017-04-22T18:06:10Z		benchmark: add improvement and t-test in Node	207		
-12586	96947	false	open	false	9		2017-04-22T13:22:28Z	2017-04-22T19:36:48Z		Remove `indexOf` usage from tests in favor of `includes`	363		
+12586	96947	false	open	false	14		2017-04-22T13:22:28Z	2017-04-22T20:10:11Z		Remove `indexOf` usage from tests in favor of `includes`	363		
 12587	5924185	false	open	false	0		2017-04-22T17:08:05Z	2017-04-22T17:08:05Z		node_modules directory creation	59		
 12588	11764379	true	open	false	0		2017-04-22T17:58:24Z	2017-04-22T18:14:48Z		test: improve test-process-kill-pid	39		
 12589	6517545	true	open	false	0	0	2017-04-22T18:20:05Z	2017-04-22T18:20:05Z		test: improve test-process-chdir	47		
@@ -5946,6 +5947,11 @@
 12593	3109072	true	open	false	0	0	2017-04-22T19:15:14Z	2017-04-22T19:15:14Z		stream: add highWaterMark validity checks	47		
 12594	8000808	true	open	false	0	0	2017-04-22T19:31:34Z	2017-04-22T19:31:34Z		test: adding mustCall in test-timers-unrefed-in-callback.js	40		
 12595	20189491	true	open	false	0	0	2017-04-22T19:35:08Z	2017-04-22T19:35:08Z		test: cleanup test-fs-watch.js 	46		
-12596	9672257	true	open	false	0	0	2017-04-22T19:38:36Z	2017-04-22T19:38:36Z		test: refactored context type err message to regex	42		
+12596	9672257	true	open	false			2017-04-22T19:38:36Z	2017-04-22T20:17:30Z		test: refactored context type err message to regex	24		
 12597	11621037	true	open	false	0	0	2017-04-22T19:44:51Z	2017-04-22T19:44:51Z		test: added relative to accommodate path length	41		
-12598	8000808	true	open	false	0	0	2017-04-22T19:50:52Z	2017-04-22T19:50:52Z		test: adding mustCall in test-timers-clearImmediate.js	40		
+12598	8000808	true	open	false			2017-04-22T19:50:52Z	2017-04-22T20:03:01Z		test: adding mustCall in test-timers-clearImmediate.js	40		
+12599	11764379	true	open	false	0	0	2017-04-22T20:14:26Z	2017-04-22T20:14:26Z		test: improve test-tcp-wrap-listen	31		
+12600	10393198	false	open	false	0		2017-04-22T20:23:44Z	2017-04-22T20:23:44Z		doc, meta, tools: preparations for eslint-plugin-markdown	64		
+12601	11621037	true	open	false	0	0	2017-04-22T20:28:48Z	2017-04-22T20:28:48Z		test: Added relative path to accommodate limit	49		
+12602	20189491	true	open	false	0	0	2017-04-22T20:29:04Z	2017-04-22T20:29:04Z		test: cleanup test-utils-inherits.js	38		
+12603	2265260	true	open	false	0	0	2017-04-22T20:50:35Z	2017-04-22T20:50:35Z		test: replace assertion error functions w regex err msg	42		
