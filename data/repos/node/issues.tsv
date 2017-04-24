@@ -148,7 +148,7 @@
 3062	355454	true	open	false	14		2015-09-25T15:52:59Z	2017-03-27T18:54:22Z		http: Reject paths containing non-ASCII characters	123		
 3063	98899	true	closed	false	87		2015-09-25T17:01:14Z	2016-10-11T00:42:12Z	2016-07-15T17:38:59Z	timers: fix processing of nested same delay timers	21		
 3064	2559673	true	closed	false	32	22	2015-09-25T17:01:57Z	2017-02-28T22:57:03Z	2017-02-28T22:57:02Z	https: throw error if required params missing	58		
-3072	247721	false	open	false	113		2015-09-26T02:29:39Z	2017-03-10T14:17:00Z		Cluster crash in main process, callback undefined when handling internal messages	152		
+3072	247721	false	open	false	114		2015-09-26T02:29:39Z	2017-04-24T20:05:15Z		Cluster crash in main process, callback undefined when handling internal messages	152		
 3073	220205	true	closed	false	48		2015-09-26T09:13:35Z	2016-08-22T18:20:41Z	2016-08-22T18:20:41Z	Add crypto.timingSafeEqual().	2		
 3098	639601	true	closed	false	15		2015-09-28T03:35:50Z	2016-06-30T12:31:35Z	2016-05-19T11:01:44Z	src: fix linking when built as shared library	192		
 3101	7358595	false	closed	false	11		2015-09-28T11:07:40Z	2016-09-26T13:20:14Z	2015-09-28T12:34:09Z	Destructuring Assignment doesn't work in node v 4.1.0 for me	52		
@@ -5256,7 +5256,7 @@
 11898	275871	true	closed	false	8		2017-03-17T14:49:18Z	2017-03-21T15:14:57Z	2017-03-20T15:53:48Z	tls: fix segfault on destroy after partial read	2		
 11899	5110676	false	open	false	0		2017-03-17T15:14:54Z	2017-03-17T15:14:54Z		npm install error	18		
 11900	2512748	true	open	false	2		2017-03-17T16:07:43Z	2017-03-17T17:06:49Z		lib: make callback checks more strict	88		
-11901	13737185	true	open	false	5		2017-03-17T16:16:30Z	2017-04-24T17:21:30Z		check uv_async_t wasn't already close	35		
+11901	13737185	true	closed	false	6		2017-03-17T16:16:30Z	2017-04-24T20:37:53Z	2017-04-24T20:37:53Z	check uv_async_t wasn't already close	35		
 11902	439929	false	open	false	4		2017-03-17T16:42:57Z	2017-04-16T21:56:29Z		vm: known issue with CopyProperties throw on empty code	79		
 11903	234659	false	open	false	5		2017-03-17T18:15:07Z	2017-04-23T02:54:42Z		Feature Request: Distributable Artifacts	1527		
 11904	10393198	true	closed	false	9		2017-03-17T18:15:11Z	2017-04-18T19:53:16Z	2017-03-21T12:06:37Z	benchmark: fix fs\bench-realpathSync.js	77		
@@ -5383,7 +5383,7 @@
 12025	718899	true	closed	false	2		2017-03-24T19:15:11Z	2017-04-09T17:02:00Z	2017-04-09T17:02:00Z	test,benchmark: enable minimal CI for http bench	60		
 12026	718899	true	closed	false	3		2017-03-24T19:45:20Z	2017-03-26T09:31:04Z	2017-03-26T09:31:04Z	benchmark: update obsolete information pointer	61		
 12027	439929	true	closed	false	11		2017-03-24T19:47:27Z	2017-03-28T22:36:34Z	2017-03-26T19:50:44Z	test, tools: add common.noop and common.mustNotCall lint rule	155		
-12028	17607	true	open	false	65		2017-03-24T22:15:58Z	2017-04-24T18:11:30Z		src: allow CLI args in env with NODE_OPTIONS 	308		
+12028	17607	true	open	false	66		2017-03-24T22:15:58Z	2017-04-24T20:23:21Z		src: allow CLI args in env with NODE_OPTIONS 	308		
 12029	899444	true	closed	false	10		2017-03-24T22:24:02Z	2017-03-31T20:18:11Z	2017-03-31T20:18:11Z	build: always use V8_ENABLE_CHECKS in debug mode	55		
 12030	10393198	true	closed	false	40		2017-03-24T23:24:24Z	2017-04-18T23:06:46Z	2017-03-28T00:22:26Z	benchmark: check end() argument to be > 0	19		
 12031	54666	false	open	false	0		2017-03-25T04:06:18Z	2017-03-25T08:52:16Z		test: tweak addon tests	107		
@@ -5794,7 +5794,7 @@
 12439	54666	true	closed	false	2		2017-04-16T07:45:45Z	2017-04-18T16:08:33Z	2017-04-18T16:08:33Z	buffer: fix backwards incompatibility	73		
 12440	910691	false	open	false	2		2017-04-16T14:46:59Z	2017-04-16T16:03:27Z		internet/test-dns.js test_resolveNs_failure failed with ETIMEOUT	80		
 12441	5329230	true	closed	false	6	0	2017-04-16T15:03:21Z	2017-04-18T16:49:29Z	2017-04-18T16:49:29Z	Migrate cluster tests from common.PORT	48		
-12442	899444	true	open	false			2017-04-16T16:30:05Z	2017-04-24T17:23:52Z		util: add util.promisify()	167		
+12442	899444	true	open	false			2017-04-16T16:30:05Z	2017-04-24T20:36:36Z		util: add util.promisify()	167		
 12443	15608388	true	closed	false	8	0	2017-04-16T18:10:10Z	2017-04-18T15:43:27Z	2017-04-18T15:43:27Z	tests: remove common.PORT from cluster worker disconnect, exit and kill	48		
 12444	899988	true	closed	false	5		2017-04-16T18:15:30Z	2017-04-17T19:26:22Z	2017-04-17T14:21:00Z	add missing ) in CONTRIBUTING.md	21		
 12445	899988	true	closed	false	12		2017-04-16T18:15:34Z	2017-04-18T18:27:43Z	2017-04-18T15:33:31Z	doc: fix recommendation to use useless config	21		
@@ -5832,7 +5832,7 @@
 12477	10393198	true	closed	false	1		2017-04-18T00:25:47Z	2017-04-18T04:30:29Z	2017-04-18T04:30:29Z	(v6.x backport) test: fix args in parallel/test-fs-null-bytes.js	44		
 12478	19880921	false	closed	false	6		2017-04-18T01:48:53Z	2017-04-18T20:48:09Z	2017-04-18T07:19:38Z	Strange problem of out of memory	1		
 12479	983798	true	open	false	3		2017-04-18T01:48:55Z	2017-04-24T01:21:38Z		upgrade npm to 2.15.12	64		
-12480	983798	true	open	false	6		2017-04-18T04:41:34Z	2017-04-24T15:32:35Z		deps: upgrade npm to 4.5.0	291		
+12480	983798	true	open	false	7		2017-04-18T04:41:34Z	2017-04-24T20:20:35Z		deps: upgrade npm to 4.5.0	291		
 12481	2291463	true	closed	false	2		2017-04-18T05:50:22Z	2017-04-21T09:50:37Z	2017-04-21T09:50:37Z	test: use JSON.stringify to trigger stack overflow	70		
 12482	9718840	true	closed	false	5		2017-04-18T07:31:33Z	2017-04-18T16:16:52Z	2017-04-18T16:16:52Z	NodeJS v7.9.0 does not support latin-1	42		
 12483	7455872	true	closed	false	2	0	2017-04-18T08:20:34Z	2017-04-19T21:02:21Z	2017-04-19T21:02:21Z	test: console.log removed from test-net-localport	41		
@@ -5893,13 +5893,13 @@
 12538	332968	true	closed	false	0	0	2017-04-20T14:04:56Z	2017-04-20T14:19:13Z	2017-04-20T14:19:13Z	doc: add Luca Maraschi to collaborators	21	332968	2017-04-20T14:19:12Z
 12539	976081	true	open	false	2		2017-04-20T14:06:18Z	2017-04-24T19:35:27Z		n-api: tighten null-checking and clean up last error	110		
 12540	17704638	true	closed	false	3	1	2017-04-20T14:21:52Z	2017-04-24T16:22:38Z	2017-04-24T16:22:38Z	src: add fcntl.h include to node.cc	52		
-12541	696611	true	open	false			2017-04-20T15:02:08Z	2017-04-20T15:04:05Z		doc: improve randomfill and fix broken link	40		
+12541	696611	true	closed	false	0		2017-04-20T15:02:08Z	2017-04-24T20:49:21Z	2017-04-24T20:49:21Z	doc: improve randomfill and fix broken link	40		
 12542	275871	true	open	false	2		2017-04-20T15:19:34Z	2017-04-21T15:53:50Z		v8: update v8 patch version number (v7.x)	64		
 12543	275871	true	closed	false	0		2017-04-20T15:24:13Z	2017-04-24T17:31:06Z	2017-04-24T17:31:06Z	v8: update v8 patch version number	10		
-12544	1774305	true	open	false	5		2017-04-20T16:31:06Z	2017-04-21T03:54:48Z		Update buffer swap test to use better variable names	67		
+12544	1774305	true	closed	false	8	1	2017-04-20T16:31:06Z	2017-04-24T20:48:24Z	2017-04-24T20:48:23Z	Update buffer swap test to use better variable names	67		
 12545	15608388	true	open	false			2017-04-20T17:11:02Z	2017-04-22T16:58:45Z		test: dynamic port in test cluster disconnect	54		
 12546	2512748	true	open	false	0	0	2017-04-20T17:53:43Z	2017-04-20T17:53:43Z		src: expose V8's IsNativeError() in util bindings	63		
-12547	15608388	true	open	false	0	0	2017-04-20T18:13:37Z	2017-04-20T18:13:37Z		test: dynamic port in test cluster eaddrinuse	54		
+12547	15608388	true	closed	false	2	0	2017-04-20T18:13:37Z	2017-04-24T20:44:15Z	2017-04-24T20:44:15Z	test: dynamic port in test cluster eaddrinuse	54		
 12548	432351	true	open	false	7		2017-04-20T18:18:44Z	2017-04-24T12:57:45Z		src: call linux getauxval(AT_SECURE) in SafeGetenv	47		
 12549	9373002	true	open	false			2017-04-20T18:25:08Z	2017-04-24T17:23:30Z		doc: Add initial documentation for N-API	102		
 12550	1570449	true	closed	false	0		2017-04-20T18:57:56Z	2017-04-20T19:18:25Z	2017-04-20T19:18:25Z	fixes fs.watch docs typo	7		
@@ -5912,7 +5912,7 @@
 12557	10393198	true	closed	false	5		2017-04-21T01:07:10Z	2017-04-23T17:07:00Z	2017-04-21T21:05:06Z	doc: unify trailing commas in code examples	87		
 12558	197329	false	closed	false	5		2017-04-21T02:54:11Z	2017-04-24T13:57:48Z	2017-04-24T13:57:48Z	"Is it ok to call it ""node"" or has to be ""node.js""?"	50		
 12559	12330766	false	open	false	2		2017-04-21T03:26:14Z	2017-04-24T09:31:10Z		Stop inspect the main thread Blocked.	64		
-12560	718899	false	open	false	3		2017-04-21T04:34:01Z	2017-04-21T20:17:25Z		investigate flaky sequential/test-benchmark-child-process on Windows	255		
+12560	718899	false	open	false	5		2017-04-21T04:34:01Z	2017-04-24T20:19:25Z		investigate flaky sequential/test-benchmark-child-process on Windows	255		
 12561	718899	true	open	false	1		2017-04-21T04:38:14Z	2017-04-21T05:21:10Z		test: set benchmark-child-process flaky on windows	49		
 12562	696611	true	open	false			2017-04-21T04:54:19Z	2017-04-21T20:56:40Z		fs: throw on invalid callbacks for async functions	68		
 12563	10393198	true	open	false	23		2017-04-21T05:10:34Z	2017-04-24T17:18:29Z		doc, tools: use eslint-plugin-markdown	243		
@@ -5923,19 +5923,19 @@
 12568	8208733	false	open	false	3		2017-04-21T11:16:09Z	2017-04-21T15:43:19Z		Decreased performance in code running in Temporal Dead Zone	459		
 12569	27858046	false	closed	false	3		2017-04-21T13:18:40Z	2017-04-21T22:06:15Z	2017-04-21T13:47:21Z	Updating A Web App That Is Made In NodeJS	121		
 12570	10393198	true	closed	false	3		2017-04-21T14:47:23Z	2017-04-24T16:46:59Z	2017-04-24T16:46:59Z	tools: add `root: true` in main .eslintrc.yaml	41		
-12571	15608388	true	open	false	0	0	2017-04-21T15:17:25Z	2017-04-21T15:17:25Z		test: dynamic port in test cluster ipc throw	54		
+12571	15608388	true	closed	false	1		2017-04-21T15:17:25Z	2017-04-24T20:37:31Z	2017-04-24T20:37:31Z	test: dynamic port in test cluster ipc throw	54		
 12572	1491690	false	open	false	1		2017-04-21T16:04:52Z	2017-04-22T12:05:56Z		UDP multicast in the cluster does not work 	124		
 12573	4258094	false	open	false	6		2017-04-21T17:09:06Z	2017-04-23T17:43:56Z		Fatal error when comparing long strings	116		
-12574	1538624	true	open	false			2017-04-21T21:38:59Z	2017-04-24T06:57:52Z		url: port WHATWG URL API to internal/errors	44		
+12574	1538624	true	open	false			2017-04-21T21:38:59Z	2017-04-24T20:29:56Z		url: port WHATWG URL API to internal/errors	44		
 12575	9373002	true	open	false			2017-04-21T22:12:12Z	2017-04-24T15:26:43Z		test: add coverage for napi_cancel_async_work	42		
-12576	287917	true	open	false			2017-04-21T22:34:20Z	2017-04-24T16:33:04Z		inspector: remove AgentImpl	72		
-12577	2512748	true	open	false			2017-04-21T22:52:18Z	2017-04-22T14:23:22Z		tools: enable no-useless-return eslint rule	25		
+12576	287917	true	open	false			2017-04-21T22:34:20Z	2017-04-24T20:51:06Z		inspector: remove AgentImpl	72		
+12577	2512748	true	open	false	1		2017-04-21T22:52:18Z	2017-04-24T20:24:49Z		tools: enable no-useless-return eslint rule	25		
 12578	5823031	false	closed	false	2		2017-04-22T02:47:42Z	2017-04-22T05:42:05Z	2017-04-22T05:42:05Z	proposal: function declaration behaviour	68		
-12579	718899	true	open	false	0		2017-04-22T03:18:45Z	2017-04-22T04:05:16Z		url: improve descriptiveness of identifier	46		
+12579	718899	true	closed	false	2		2017-04-22T03:18:45Z	2017-04-24T20:23:59Z	2017-04-24T20:23:59Z	url: improve descriptiveness of identifier	46		
 12580	17607	true	open	false	17		2017-04-22T03:41:58Z	2017-04-24T13:30:07Z		inspector: restore --debug-brk alias	87		
 12581	17607	true	open	false	4		2017-04-22T03:43:22Z	2017-04-24T19:14:32Z		inspector: document bad usage for --inspect-port	102		
 12582	718899	true	closed	false	2		2017-04-22T05:50:20Z	2017-04-24T17:28:39Z	2017-04-24T17:28:39Z	debugger: remove obsolete _debug_agent.js	34		
-12583	13963941	true	open	false	67		2017-04-22T08:23:03Z	2017-04-24T11:48:53Z		fs: add fs.copy, fs.copySync, fs.delete and fs.deleteSync with docs and tests.	449		
+12583	13963941	true	closed	false	68		2017-04-22T08:23:03Z	2017-04-24T20:12:47Z	2017-04-24T20:12:47Z	fs: add fs.copy, fs.copySync, fs.delete and fs.deleteSync with docs and tests.	449		
 12584	15608388	true	closed	false	1		2017-04-22T10:10:43Z	2017-04-24T17:32:52Z	2017-04-24T17:32:52Z	test: dynamic port in parallel cluster tests	63		
 12585	5803170	true	open	false	3		2017-04-22T12:23:06Z	2017-04-24T18:44:08Z		benchmark: add improvement and t-test in Node	207		
 12586	96947	false	open	false	15		2017-04-22T13:22:28Z	2017-04-23T15:08:18Z		Remove `indexOf` usage from tests in favor of `includes`	363		
@@ -5955,7 +5955,7 @@
 12600	10393198	false	open	false	0		2017-04-22T20:23:44Z	2017-04-22T20:23:44Z		doc, meta, tools: preparations for eslint-plugin-markdown	64		
 12601	11621037	true	open	false			2017-04-22T20:28:48Z	2017-04-23T02:26:52Z		test: Added relative path to accommodate limit	49		
 12602	20189491	true	open	false			2017-04-22T20:29:04Z	2017-04-24T18:18:29Z		test: cleanup test-utils-inherits.js	38		
-12603	2265260	true	open	false	4		2017-04-22T20:50:35Z	2017-04-24T18:14:51Z		test: replace assertion error functions w regex err msg	66		
+12603	2265260	true	closed	false	5		2017-04-22T20:50:35Z	2017-04-24T20:10:24Z	2017-04-24T20:10:24Z	test: replace assertion error functions w regex err msg	66		
 12604	6529684	true	open	false	4		2017-04-23T00:11:32Z	2017-04-24T17:41:27Z		test: replace indexOf with includes	27		
 12605	10393198	true	open	false			2017-04-23T00:17:49Z	2017-04-23T15:47:39Z		doc: fix typo in readline.md	43		
 12606	10393198	false	open	false	3		2017-04-23T00:48:54Z	2017-04-24T01:40:56Z		readline: prompt opt-out behavior	125		
@@ -5968,7 +5968,7 @@
 12613	10393198	true	open	false			2017-04-23T22:30:57Z	2017-04-24T16:39:58Z		test: apply no-useless-concat ESLint rule to tests	84		
 12614	54666	true	open	false	0	0	2017-04-24T02:05:28Z	2017-04-24T02:05:28Z		backport: 11665 to v7	134		
 12615	96947	true	open	false	7		2017-04-24T03:15:51Z	2017-04-24T18:03:24Z		inspector: enable --inspect-brk in v6	66		
-12616	54666	true	open	false	0		2017-04-24T06:35:16Z	2017-04-24T16:34:37Z		net: move debug statement	42		
+12616	54666	true	open	false	1		2017-04-24T06:35:16Z	2017-04-24T20:30:07Z		net: move debug statement	42		
 12617	1469388	false	open	false	0		2017-04-24T07:13:19Z	2017-04-24T07:13:19Z		Docs: http.ServerResponse is missing `socket` and `connection` fields	33		
 12618	24622518	false	open	false	0		2017-04-24T09:21:30Z	2017-04-24T09:21:30Z		How to use Internal libraries in C++ Addons?	13		
 12619	2352663	true	open	false	1		2017-04-24T09:58:44Z	2017-04-24T12:18:04Z		test: support unreleased V8 versions	52		
@@ -5976,6 +5976,8 @@
 12621	2352663	true	open	false	0	0	2017-04-24T13:37:23Z	2017-04-24T13:37:23Z		src: remove debugger dead code	27		
 12622	2352663	true	open	false	0	0	2017-04-24T14:18:40Z	2017-04-24T14:18:40Z		test: make tests pass when built without inspector	26		
 12623	15608388	true	open	false	0	0	2017-04-24T14:21:47Z	2017-04-24T14:21:47Z		test: dynamic port in dgram tests	62		
-12624	10393198	false	open	false	0		2017-04-24T15:12:47Z	2017-04-24T15:12:47Z		meta: 2 identical files in the same folder	48		
+12624	10393198	false	open	false	4		2017-04-24T15:12:47Z	2017-04-24T20:19:36Z		meta: 2 identical files in the same folder	48		
 12625	439929	true	open	false	0	0	2017-04-24T16:42:00Z	2017-04-24T16:42:00Z		src: fix linting error	44		
 12626	498775	true	closed	false	13		2017-04-24T16:48:01Z	2017-04-24T19:23:05Z	2017-04-24T16:55:19Z	src: remove erroneous dot	8		
+12627	899444	true	open	false	0	0	2017-04-24T20:31:14Z	2017-04-24T20:31:14Z		test: fixup test-http-hostname-typechecking	65		
+12628	10393198	false	open	false	0		2017-04-24T20:52:12Z	2017-04-24T20:52:12Z		doc, meta: document what to do if `git push upstream master` is rejected	114		
