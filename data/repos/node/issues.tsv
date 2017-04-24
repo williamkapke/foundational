@@ -4510,7 +4510,7 @@
 11151	718899	true	closed	false	5		2017-02-03T19:20:39Z	2017-03-07T19:24:39Z	2017-02-06T23:35:58Z	doc: fix linting command for vcbuild	47		
 11152	2512748	true	closed	false	4		2017-02-03T20:00:37Z	2017-03-07T19:06:51Z	2017-02-06T19:15:23Z	test: add common.mustNotCall()	61		
 11153	811047	true	closed	false	5		2017-02-03T20:15:34Z	2017-02-08T16:39:38Z	2017-02-04T05:53:04Z	test: fix test.py command line options processing	86		
-11154	1093990	true	open	false			2017-02-03T21:16:19Z	2017-04-23T22:06:29Z		net: use actual Timeout instances on Sockets	184		
+11154	1093990	true	open	false			2017-02-03T21:16:19Z	2017-04-24T16:45:06Z		net: use actual Timeout instances on Sockets	184		
 11155	439929	true	open	false	1		2017-02-03T23:28:57Z	2017-02-04T00:18:17Z		"Revert ""test: refactor test-fs-error-messages.js"""	79		
 11156	7796741	false	open	false	10		2017-02-03T23:49:31Z	2017-03-20T08:55:30Z		segmentation fault at v8::internal::StoreBuffer::EnsureSpace ()	830		
 11157	305455	true	closed	false	6		2017-02-04T01:59:10Z	2017-03-07T20:40:34Z	2017-02-06T17:42:09Z	src: fix building --without-v8-platform (backport v7.x)	63		
@@ -4654,9 +4654,9 @@
 11295	2512748	true	closed	false	1		2017-02-10T17:00:53Z	2017-03-09T00:04:21Z	2017-02-13T18:33:40Z	test: cover cluster error during dgram socket bind	66		
 11296	22550884	true	open	false	19		2017-02-10T17:28:26Z	2017-03-07T18:26:39Z		lib/src: refactoring out of range index and and migrate error for consistency	57		
 11297	22550884	true	closed	false	3		2017-02-10T17:38:46Z	2017-03-07T15:09:31Z	2017-02-17T00:02:45Z	test: consolidating buffer.read()	16		
-11298	439929	true	open	false			2017-02-10T18:26:16Z	2017-04-24T14:33:05Z		errors: assign error code to bootstrap_node created error	72		
+11298	439929	true	closed	false	15		2017-02-10T18:26:16Z	2017-04-24T16:16:02Z	2017-04-24T16:16:02Z	errors: assign error code to bootstrap_node created error	72		
 11299	4299420	false	closed	false	2		2017-02-10T19:10:24Z	2017-03-22T03:17:12Z	2017-03-22T03:17:12Z	New error system in WHATWG URL implementation	59		
-11300	439929	true	open	false			2017-02-10T20:10:25Z	2017-04-24T14:28:18Z		errors, child_process: migrate to using internal/errors	48		
+11300	439929	true	open	false			2017-02-10T20:10:25Z	2017-04-24T16:26:07Z		errors, child_process: migrate to using internal/errors	48		
 11301	1028226	true	open	false	0		2017-02-10T20:26:27Z	2017-02-15T16:18:37Z		internal/util: use internal/errors.js	57		
 11302	1028226	true	open	false	0		2017-02-10T21:19:34Z	2017-02-15T16:19:29Z		errors,net: change internal/net.js to use internal/errors.js	57		
 11303	718899	true	closed	false	1		2017-02-10T21:57:07Z	2017-02-13T22:23:22Z	2017-02-13T22:23:22Z	test: refactor test-repl-sigint-nested-eval	44		
@@ -4889,7 +4889,7 @@
 11530	12488060	true	closed	false	1		2017-02-24T02:24:36Z	2017-03-12T16:37:14Z	2017-02-24T22:59:39Z	test: Fix flaky test-vm-timeout-rethrow	82		
 11531	7689236	true	open	false	1		2017-02-24T03:44:55Z	2017-03-17T18:23:08Z		test: improve console coverage to check ignoreErrors	50		
 11532	3591899	false	open	false	0		2017-02-24T03:44:56Z	2017-02-24T03:44:56Z		Will there be awaitable APIs ?	52		
-11533	6216576	true	open	false	27		2017-02-24T05:06:03Z	2017-04-18T09:17:32Z		Update AUTHORS list to reflect new contributions.	48		
+11533	6216576	true	open	false	28		2017-02-24T05:06:03Z	2017-04-24T16:10:45Z		Update AUTHORS list to reflect new contributions.	48		
 11534	1443911	true	closed	false	2	0	2017-02-24T08:33:27Z	2017-02-25T01:49:10Z	2017-02-25T01:49:10Z	doc: add missing entry in v6 changelog table	31		
 11535	10393198	true	closed	false	18		2017-02-24T08:59:02Z	2017-03-08T13:28:55Z	2017-03-01T15:30:29Z	child_process: fix deoptimizing use of arguments	488		
 11536	20224954	false	open	false	0		2017-02-24T09:58:03Z	2017-02-24T10:53:48Z		sequential/test-debug-host-port hanging when the port is not available	51		
@@ -5615,7 +5615,7 @@
 12260	896560	false	open	false	0		2017-04-06T14:55:52Z	2017-04-06T14:55:52Z		Windows 10, infinite loop running NPM	39		
 12261	718899	true	open	false	5		2017-04-06T16:29:33Z	2017-04-06T17:06:55Z		test: skip irrelevant test on Windows	31		
 12262	567540	true	closed	false	0		2017-04-06T16:50:36Z	2017-04-09T18:49:24Z	2017-04-09T18:49:24Z	test: Update information on known_issues	52		
-12263	287917	true	open	false			2017-04-06T17:27:30Z	2017-04-18T00:25:12Z		inspector: JavaScript bindings for the inspector	98		
+12263	287917	true	open	false			2017-04-06T17:27:30Z	2017-04-24T17:00:30Z		inspector: JavaScript bindings for the inspector	98		
 12264	17607	false	open	false	0		2017-04-06T20:22:01Z	2017-04-06T20:22:01Z		node aborts with --debug when it self-exits	186		
 12265	4044581	true	closed	false	1		2017-04-07T05:32:44Z	2017-04-10T22:17:13Z	2017-04-10T13:59:37Z	test: check curve algorithm is supported	52		
 12266	432351	true	closed	false	8		2017-04-07T06:54:58Z	2017-04-11T06:43:59Z	2017-04-10T05:23:12Z	src: only block SIGUSR1 when HAVE_INSPECTOR	112		
@@ -5794,7 +5794,7 @@
 12439	54666	true	closed	false	2		2017-04-16T07:45:45Z	2017-04-18T16:08:33Z	2017-04-18T16:08:33Z	buffer: fix backwards incompatibility	73		
 12440	910691	false	open	false	2		2017-04-16T14:46:59Z	2017-04-16T16:03:27Z		internet/test-dns.js test_resolveNs_failure failed with ETIMEOUT	80		
 12441	5329230	true	closed	false	6	0	2017-04-16T15:03:21Z	2017-04-18T16:49:29Z	2017-04-18T16:49:29Z	Migrate cluster tests from common.PORT	48		
-12442	899444	true	open	false			2017-04-16T16:30:05Z	2017-04-24T08:05:47Z		util: add util.promisify()	167		
+12442	899444	true	open	false			2017-04-16T16:30:05Z	2017-04-24T16:27:30Z		util: add util.promisify()	167		
 12443	15608388	true	closed	false	8	0	2017-04-16T18:10:10Z	2017-04-18T15:43:27Z	2017-04-18T15:43:27Z	tests: remove common.PORT from cluster worker disconnect, exit and kill	48		
 12444	899988	true	closed	false	5		2017-04-16T18:15:30Z	2017-04-17T19:26:22Z	2017-04-17T14:21:00Z	add missing ) in CONTRIBUTING.md	21		
 12445	899988	true	closed	false	12		2017-04-16T18:15:34Z	2017-04-18T18:27:43Z	2017-04-18T15:33:31Z	doc: fix recommendation to use useless config	21		
@@ -5841,12 +5841,12 @@
 12486	855219	true	open	false	0	0	2017-04-18T13:45:33Z	2017-04-18T13:45:33Z		deps: ICU 59.1 bump	53		
 12487	15608388	true	closed	false	2		2017-04-18T15:21:31Z	2017-04-23T05:45:25Z	2017-04-23T05:45:25Z	test: dynamic port in cluster worker dgram	49		
 12488	5008	false	open	false	7		2017-04-18T16:03:49Z	2017-04-19T23:31:09Z		Undefined hostname defaults to 127.0.0.1	137		
-12489	899444	true	open	false			2017-04-18T16:14:14Z	2017-04-24T01:17:27Z		domain: support promises	122		
+12489	899444	true	open	false	22		2017-04-18T16:14:14Z	2017-04-24T16:53:02Z		domain: support promises	122		
 12490	1093990	true	open	false	0		2017-04-18T16:23:30Z	2017-04-18T17:24:28Z		test: pipe some error output if npm fails	56		
 12491	9402714	true	open	false			2017-04-18T18:28:28Z	2017-04-19T14:05:16Z		test: fix global.PORT in dgram-cluster-test-1	81		
 12492	718899	true	closed	false	1		2017-04-18T18:36:51Z	2017-04-23T05:45:44Z	2017-04-23T05:45:44Z	test: replace common.PORT in test-cluster-dgram-2	39		
 12493	96947	false	open	false	10		2017-04-18T20:11:30Z	2017-04-24T13:51:58Z		"PSA: new tag ""regression"""	236		
-12494	439929	true	open	false			2017-04-18T20:38:08Z	2017-04-21T15:16:52Z		http: add type checking for hostname	62		
+12494	439929	true	open	false	3		2017-04-18T20:38:08Z	2017-04-24T16:28:56Z		http: add type checking for hostname	62		
 12495	275871	true	closed	false	3		2017-04-18T21:46:08Z	2017-04-21T15:51:51Z	2017-04-21T08:37:31Z	lib: remove _debugger.js	60		
 12496	13093042	true	closed	false	1		2017-04-18T22:12:40Z	2017-04-20T17:29:33Z	2017-04-20T17:29:33Z	n-api: remove napi_get_value_string_length()	170		
 12497	1093990	false	open	false	0		2017-04-18T23:16:32Z	2017-04-19T04:33:32Z		fedora test failure: test-benchmark-crypto	124		
@@ -5892,7 +5892,7 @@
 12537	95562	false	open	false	0		2017-04-20T13:30:36Z	2017-04-20T17:35:42Z		os.networkInterfaces() throws EAFNOSUPPORT under qemu-user-static on x86 host	215		
 12538	332968	true	closed	false	0	0	2017-04-20T14:04:56Z	2017-04-20T14:19:13Z	2017-04-20T14:19:13Z	doc: add Luca Maraschi to collaborators	21	332968	2017-04-20T14:19:12Z
 12539	976081	true	open	false	1		2017-04-20T14:06:18Z	2017-04-23T20:09:24Z		n-api: tighten null-checking and clean up last error	110		
-12540	17704638	true	open	false	1		2017-04-20T14:21:52Z	2017-04-24T00:43:40Z		src: add fcntl.h include to node.cc	52		
+12540	17704638	true	closed	false	3	1	2017-04-20T14:21:52Z	2017-04-24T16:22:38Z	2017-04-24T16:22:38Z	src: add fcntl.h include to node.cc	52		
 12541	696611	true	open	false			2017-04-20T15:02:08Z	2017-04-20T15:04:05Z		doc: improve randomfill and fix broken link	40		
 12542	275871	true	open	false	2		2017-04-20T15:19:34Z	2017-04-21T15:53:50Z		v8: update v8 patch version number (v7.x)	64		
 12543	275871	true	open	false	0	0	2017-04-20T15:24:13Z	2017-04-20T15:24:13Z		v8: update v8 patch version number	10		
@@ -5918,17 +5918,17 @@
 12563	10393198	true	open	false	22		2017-04-21T05:10:34Z	2017-04-24T08:36:05Z		doc, tools: use eslint-plugin-markdown	243		
 12564	718899	true	open	false	7		2017-04-21T05:36:53Z	2017-04-22T09:33:19Z		test: remove flaky designation for test on AIX	46		
 12565	54666	false	closed	false	6		2017-04-21T06:44:39Z	2017-04-24T08:27:29Z	2017-04-24T08:27:29Z	doc: typo in api/process.md	71		
-12566	10393198	false	open	false	2		2017-04-21T07:27:08Z	2017-04-21T14:09:41Z		tools: question about some ESLint config options	138		
+12566	10393198	false	closed	false	6		2017-04-21T07:27:08Z	2017-04-24T16:37:46Z	2017-04-24T16:37:46Z	tools: question about some ESLint config options	138		
 12567	8297234	true	open	false	1		2017-04-21T09:32:03Z	2017-04-24T00:39:43Z		backport v4.x: test: fix flaky test-tls-wrap-timeout	65		
 12568	8208733	false	open	false	3		2017-04-21T11:16:09Z	2017-04-21T15:43:19Z		Decreased performance in code running in Temporal Dead Zone	459		
 12569	27858046	false	closed	false	3		2017-04-21T13:18:40Z	2017-04-21T22:06:15Z	2017-04-21T13:47:21Z	Updating A Web App That Is Made In NodeJS	121		
-12570	10393198	true	open	false	1		2017-04-21T14:47:23Z	2017-04-21T23:26:48Z		tools: add `root: true` in main .eslintrc.yaml	16		
+12570	10393198	true	closed	false	3		2017-04-21T14:47:23Z	2017-04-24T16:46:59Z	2017-04-24T16:46:59Z	tools: add `root: true` in main .eslintrc.yaml	41		
 12571	15608388	true	open	false	0	0	2017-04-21T15:17:25Z	2017-04-21T15:17:25Z		test: dynamic port in test cluster ipc throw	54		
 12572	1491690	false	open	false	1		2017-04-21T16:04:52Z	2017-04-22T12:05:56Z		UDP multicast in the cluster does not work 	124		
 12573	4258094	false	open	false	6		2017-04-21T17:09:06Z	2017-04-23T17:43:56Z		Fatal error when comparing long strings	116		
 12574	1538624	true	open	false			2017-04-21T21:38:59Z	2017-04-24T06:57:52Z		url: port WHATWG URL API to internal/errors	44		
 12575	9373002	true	open	false			2017-04-21T22:12:12Z	2017-04-24T15:26:43Z		test: add coverage for napi_cancel_async_work	42		
-12576	287917	true	open	false			2017-04-21T22:34:20Z	2017-04-22T11:04:44Z		inspector: remove AgentImpl	72		
+12576	287917	true	open	false			2017-04-21T22:34:20Z	2017-04-24T16:33:04Z		inspector: remove AgentImpl	72		
 12577	2512748	true	open	false			2017-04-21T22:52:18Z	2017-04-22T14:23:22Z		tools: enable no-useless-return eslint rule	25		
 12578	5823031	false	closed	false	2		2017-04-22T02:47:42Z	2017-04-22T05:42:05Z	2017-04-22T05:42:05Z	proposal: function declaration behaviour	68		
 12579	718899	true	open	false	0		2017-04-22T03:18:45Z	2017-04-22T04:05:16Z		url: improve descriptiveness of identifier	46		
@@ -5954,9 +5954,9 @@
 12599	11764379	true	open	false			2017-04-22T20:14:26Z	2017-04-24T08:44:45Z		test: improve test-tcp-wrap-listen	31		
 12600	10393198	false	open	false	0		2017-04-22T20:23:44Z	2017-04-22T20:23:44Z		doc, meta, tools: preparations for eslint-plugin-markdown	64		
 12601	11621037	true	open	false			2017-04-22T20:28:48Z	2017-04-23T02:26:52Z		test: Added relative path to accommodate limit	49		
-12602	20189491	true	open	false	2		2017-04-22T20:29:04Z	2017-04-23T04:04:15Z		test: cleanup test-utils-inherits.js	38		
+12602	20189491	true	open	false			2017-04-22T20:29:04Z	2017-04-24T16:59:42Z		test: cleanup test-utils-inherits.js	38		
 12603	2265260	true	open	false	0		2017-04-22T20:50:35Z	2017-04-22T21:04:14Z		test: replace assertion error functions w regex err msg	39		
-12604	6529684	true	open	false	2		2017-04-23T00:11:32Z	2017-04-23T01:29:27Z		test: replace indexOf with includes	28		
+12604	6529684	true	open	false	3		2017-04-23T00:11:32Z	2017-04-24T16:46:14Z		test: replace indexOf with includes	27		
 12605	10393198	true	open	false			2017-04-23T00:17:49Z	2017-04-23T15:47:39Z		doc: fix typo in readline.md	43		
 12606	10393198	false	open	false	3		2017-04-23T00:48:54Z	2017-04-24T01:40:56Z		readline: prompt opt-out behavior	125		
 12607	163642	true	open	false	16		2017-04-23T07:01:19Z	2017-04-23T23:07:25Z		src: round nsec instead of truncating stat times	175		
@@ -5965,14 +5965,17 @@
 12610	910691	true	open	false	0	0	2017-04-23T16:57:15Z	2017-04-23T16:57:15Z		build: use do_not_edit variable in configure script	90		
 12611	15943089	false	open	false	0		2017-04-23T16:58:01Z	2017-04-24T04:26:46Z		Document the eslint update process	168		
 12612	26514778	true	closed	false	1		2017-04-23T21:54:30Z	2017-04-24T08:27:11Z	2017-04-24T08:27:11Z	doc: fix typo in doc/api/process.md	23		
-12613	10393198	true	open	false	7		2017-04-23T22:30:57Z	2017-04-24T10:58:15Z		test: apply no-useless-concat ESLint rule to tests	84		
+12613	10393198	true	open	false			2017-04-23T22:30:57Z	2017-04-24T16:39:58Z		test: apply no-useless-concat ESLint rule to tests	84		
 12614	54666	true	open	false	0	0	2017-04-24T02:05:28Z	2017-04-24T02:05:28Z		backport: 11665 to v7	134		
 12615	96947	true	open	false	1		2017-04-24T03:15:51Z	2017-04-24T13:31:48Z		inspector: enable --inspect-brk in v6	66		
+12616	54666	true	open	false	0		2017-04-24T06:35:16Z	2017-04-24T16:34:37Z		net: move debug statement	42		
 12617	1469388	false	open	false	0		2017-04-24T07:13:19Z	2017-04-24T07:13:19Z		Docs: http.ServerResponse is missing `socket` and `connection` fields	33		
 12618	24622518	false	open	false	0		2017-04-24T09:21:30Z	2017-04-24T09:21:30Z		How to use Internal libraries in C++ Addons?	13		
 12619	2352663	true	open	false	1		2017-04-24T09:58:44Z	2017-04-24T12:18:04Z		test: support unreleased V8 versions	52		
-12620	15608388	true	open	false	2		2017-04-24T12:36:20Z	2017-04-24T13:04:28Z		test: dynamic port in dgram bind shared ports	50		
+12620	15608388	true	open	false	4		2017-04-24T12:36:20Z	2017-04-24T16:58:25Z		test: dynamic port in dgram bind shared ports	50		
 12621	2352663	true	open	false	0	0	2017-04-24T13:37:23Z	2017-04-24T13:37:23Z		src: remove debugger dead code	27		
 12622	2352663	true	open	false	0	0	2017-04-24T14:18:40Z	2017-04-24T14:18:40Z		test: make tests pass when built without inspector	26		
 12623	15608388	true	open	false	0	0	2017-04-24T14:21:47Z	2017-04-24T14:21:47Z		test: dynamic port in dgram tests	62		
 12624	10393198	false	open	false	0		2017-04-24T15:12:47Z	2017-04-24T15:12:47Z		meta: 2 identical files in the same folder	48		
+12625	439929	true	open	false	0	0	2017-04-24T16:42:00Z	2017-04-24T16:42:00Z		src: fix linting error	44		
+12626	498775	true	open	false	0	0	2017-04-24T16:48:01Z	2017-04-24T16:48:01Z		src: remove erroneous dot	8		
