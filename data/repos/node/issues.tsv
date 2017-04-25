@@ -5413,7 +5413,7 @@
 12056	439929	true	closed	false	4		2017-03-27T02:59:23Z	2017-04-19T07:50:16Z	2017-03-30T03:57:03Z	url: add ToObject method to native URL class	70		
 12057	899444	true	closed	false	9		2017-03-27T04:34:40Z	2017-03-31T20:04:26Z	2017-03-31T20:04:26Z	tty: remove NODE_TTY_UNSAFE_ASYNC	19		
 12058	1716463	true	closed	false	6		2017-03-27T05:41:52Z	2017-04-03T09:18:27Z	2017-04-03T09:18:27Z	url: change path parsing for non-special URLs	71		
-12059	4299420	true	closed	false	10		2017-03-27T05:56:31Z	2017-04-11T03:29:30Z	2017-04-11T03:29:30Z	build: sort .PHONY rules and add test-gc-clean	61		
+12059	4299420	true	closed	false	11		2017-03-27T05:56:31Z	2017-04-25T13:58:49Z	2017-04-11T03:29:30Z	build: sort .PHONY rules and add test-gc-clean	61		
 12060	432351	true	closed	false	1		2017-03-27T08:08:59Z	2017-04-18T23:09:08Z	2017-03-29T05:49:36Z	deps: backport 8dde6ac from upstream V8	76		
 12061	432351	true	closed	false	16		2017-03-27T08:09:49Z	2017-04-18T23:45:43Z	2017-04-06T05:47:42Z	deps: backport ec1ffe3 from upstream V8	163		
 12062	1028226	true	open	false	16		2017-03-27T09:32:13Z	2017-04-13T22:08:11Z		test: run the addon tests last	82		
@@ -5716,7 +5716,7 @@
 12361	54666	true	closed	false	4		2017-04-12T13:25:24Z	2017-04-18T16:53:46Z	2017-04-14T21:09:33Z	buffer: various performance improvements	795		
 12362	114642	false	closed	false	19		2017-04-12T13:30:44Z	2017-04-13T14:50:27Z	2017-04-13T14:50:27Z	doc: confusing language in util.format() docs	34		
 12363	567540	true	closed	false	10		2017-04-12T15:10:16Z	2017-04-14T21:49:29Z	2017-04-14T21:49:29Z	deps: update node-inspect to v1.11.2	229		
-12364	323878	false	open	false	30		2017-04-12T15:17:07Z	2017-04-25T10:16:02Z		Inspector protocol - retain support for `--inspect --debug-brk`	135		
+12364	323878	false	open	false	31		2017-04-12T15:17:07Z	2017-04-25T13:08:30Z		Inspector protocol - retain support for `--inspect --debug-brk`	135		
 12365	9373002	true	closed	false	1		2017-04-12T15:40:50Z	2017-04-14T21:09:50Z	2017-04-14T21:09:50Z	n-api: fix coverity scan report	42		
 12366	899444	true	closed	false	8		2017-04-12T17:52:53Z	2017-04-14T21:09:02Z	2017-04-14T21:09:02Z	src: reduce number of exported symbols	48		
 12367	2512748	true	closed	false	4	2	2017-04-12T18:12:04Z	2017-04-18T19:16:57Z	2017-04-18T19:16:57Z	test: complete coverage of lib/child_process.js	214	2512748	2017-04-18T19:16:57Z
@@ -5808,7 +5808,7 @@
 12453	2309317	false	open	false	4		2017-04-16T21:54:56Z	2017-04-17T04:10:55Z		Proxies: console.log uses overridden proxy methods by default	118		
 12454	7414255	true	open	false	1		2017-04-17T01:00:45Z	2017-04-22T20:53:08Z		console: make console consistent with the standard - overridable	91		
 12455	10393198	true	closed	false			2017-04-17T02:12:55Z	2017-04-21T06:54:43Z	2017-04-20T01:51:28Z	benchmark: reduce string concatenations	275		
-12456	54666	true	open	false	29		2017-04-17T04:32:12Z	2017-04-24T17:04:05Z		build: allow easier checking of permanent deoptimizations	398		
+12456	54666	true	open	false	30		2017-04-17T04:32:12Z	2017-04-25T13:24:24Z		build: allow easier checking of permanent deoptimizations	398		
 12457	15608388	true	closed	false	3	2	2017-04-17T06:00:14Z	2017-04-19T17:35:57Z	2017-04-19T17:35:57Z	tests: remove common.PORT from cluster-worker-disconnect-on-error	51		
 12458	25947346	false	closed	false	4		2017-04-17T06:42:05Z	2017-04-17T10:28:24Z	2017-04-17T10:28:24Z	Reg : Problem in receiving output using stdout through application	220		
 12459	2908639	true	open	false	2		2017-04-17T06:55:12Z	2017-04-18T04:47:55Z		(v6.x backport) events,test: fix TypeError in EventEmitter warning	52		
@@ -5891,7 +5891,7 @@
 12536	432351	true	closed	false	6		2017-04-20T12:46:48Z	2017-04-24T14:28:16Z	2017-04-21T23:25:29Z	src: remove TODO about uv errno removal	54		
 12537	95562	false	open	false	0		2017-04-20T13:30:36Z	2017-04-20T17:35:42Z		os.networkInterfaces() throws EAFNOSUPPORT under qemu-user-static on x86 host	215		
 12538	332968	true	closed	false	0	0	2017-04-20T14:04:56Z	2017-04-20T14:19:13Z	2017-04-20T14:19:13Z	doc: add Luca Maraschi to collaborators	21	332968	2017-04-20T14:19:12Z
-12539	976081	true	open	false	4		2017-04-20T14:06:18Z	2017-04-24T23:36:18Z		n-api: tighten null-checking and clean up last error	110		
+12539	976081	true	open	false	5		2017-04-20T14:06:18Z	2017-04-25T13:56:34Z		n-api: tighten null-checking and clean up last error	110		
 12540	17704638	true	closed	false	3	1	2017-04-20T14:21:52Z	2017-04-24T16:22:38Z	2017-04-24T16:22:38Z	src: add fcntl.h include to node.cc	52		
 12541	696611	true	closed	false	0		2017-04-20T15:02:08Z	2017-04-24T20:49:21Z	2017-04-24T20:49:21Z	doc: improve randomfill and fix broken link	40		
 12542	275871	true	open	false	2		2017-04-20T15:19:34Z	2017-04-21T15:53:50Z		v8: update v8 patch version number (v7.x)	64		
@@ -5973,25 +5973,25 @@
 12618	24622518	false	open	false	0		2017-04-24T09:21:30Z	2017-04-24T09:21:30Z		How to use Internal libraries in C++ Addons?	13		
 12619	2352663	true	open	false	1		2017-04-24T09:58:44Z	2017-04-24T12:18:04Z		test: support unreleased V8 versions	52		
 12620	15608388	true	open	false	5		2017-04-24T12:36:20Z	2017-04-24T19:20:34Z		test: dynamic port in dgram bind shared ports	50		
-12621	2352663	true	open	false	0		2017-04-24T13:37:23Z	2017-04-25T08:13:30Z		src: remove debugger dead code	27		
+12621	2352663	true	open	false	1		2017-04-24T13:37:23Z	2017-04-25T13:32:11Z		src: remove debugger dead code	27		
 12622	2352663	true	open	false	0	0	2017-04-24T14:18:40Z	2017-04-24T14:18:40Z		test: make tests pass when built without inspector	26		
 12623	15608388	true	open	false	0	0	2017-04-24T14:21:47Z	2017-04-24T14:21:47Z		test: dynamic port in dgram tests	62		
 12624	10393198	false	open	false	6		2017-04-24T15:12:47Z	2017-04-24T23:07:33Z		meta: 2 identical files in the same folder	48		
 12625	439929	true	open	false	0	0	2017-04-24T16:42:00Z	2017-04-24T16:42:00Z		src: fix linting error	44		
 12626	498775	true	closed	false	15		2017-04-24T16:48:01Z	2017-04-25T03:37:34Z	2017-04-24T16:55:19Z	src: remove erroneous dot	8		
-12627	899444	true	open	false			2017-04-24T20:31:14Z	2017-04-25T12:40:08Z		test: fixup test-http-hostname-typechecking	65		
+12627	899444	true	open	false	1		2017-04-24T20:31:14Z	2017-04-25T13:56:07Z		test: fixup test-http-hostname-typechecking	65		
 12628	10393198	false	open	false	2		2017-04-24T20:52:12Z	2017-04-24T23:04:17Z		doc, meta: document what to do if `git push upstream master` is rejected	118		
 12629	910691	true	open	false	0	0	2017-04-24T21:20:03Z	2017-04-24T21:20:03Z		test: use common.js to check platform	67		
-12630	96947	false	open	false	8		2017-04-24T21:58:33Z	2017-04-25T07:48:57Z		Uniform way to trigger debugger on first line	296		
+12630	96947	false	open	false	9		2017-04-24T21:58:33Z	2017-04-25T13:14:09Z		Uniform way to trigger debugger on first line	296		
 12631	439929	true	open	false	0	0	2017-04-24T22:04:58Z	2017-04-24T22:04:58Z		Deprecate util deprecate	51		
 12632	96947	true	open	false	1		2017-04-24T22:31:10Z	2017-04-25T02:16:42Z		gyp: get ninja generator compatible with VS2017	42		
 12633	9373002	true	open	false	0	0	2017-04-24T23:06:50Z	2017-04-24T23:06:50Z		test: test documented napi_get_value_int32 behaviour	61		
 12634	10393198	true	open	false	0	0	2017-04-24T23:54:34Z	2017-04-24T23:54:34Z		doc: modernize and fix code examples in readline.md	43		
 12635	10393198	false	open	false	5		2017-04-25T01:02:35Z	2017-04-25T10:32:08Z		doc, tools: doc linting does not work in CI	60		
-12636	96947	false	open	false	0		2017-04-25T03:47:53Z	2017-04-25T06:44:33Z		doc: code style guide	66		
+12636	96947	false	open	false	1		2017-04-25T03:47:53Z	2017-04-25T13:56:38Z		doc: code style guide	66		
 12637	3118295	false	closed	false	1		2017-04-25T09:20:50Z	2017-04-25T11:40:07Z	2017-04-25T10:56:02Z	can i get res.body at server.on('request') event?	38		
 12638	432351	true	open	false	0	0	2017-04-25T10:43:41Z	2017-04-25T10:43:41Z		src: remove GTEST_DONT_DEFINE_ASSERT_EQ in util.h	38		
 12639	15608388	true	open	false	0	0	2017-04-25T10:56:17Z	2017-04-25T10:56:17Z		test: dynamic port in parallel regress tests	49		
-12640	10393198	true	open	false	1		2017-04-25T10:59:26Z	2017-04-25T12:11:02Z		doc, tools: add doc linting to CI	19		
-12641	152227	false	closed	false	0		2017-04-25T12:01:17Z	2017-04-25T12:16:10Z	2017-04-25T12:16:10Z	Supply the latest NPM	108		
+12640	10393198	true	open	false	6		2017-04-25T10:59:26Z	2017-04-25T13:07:01Z		doc, tools: add doc linting to CI	19		
+12641	152227	false	closed	false	1		2017-04-25T12:01:17Z	2017-04-25T13:18:33Z	2017-04-25T12:16:10Z	Supply the latest NPM	108		
 12642	677994	true	open	false	0	0	2017-04-25T13:00:40Z	2017-04-25T13:00:40Z		(v7.x backport) crypto: add randomFill and randomFillSync	95		
