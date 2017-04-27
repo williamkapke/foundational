@@ -1,10 +1,11 @@
 {
-  "words": 3525,
-  "comments": 50,
+  "words": 4085,
+  "comments": 59,
   "prs": {
-    "opened": 12,
-    "closed": 5,
-    "words": 3525
+    "opened": 16,
+    "closed": 6,
+    "words": 4085,
+    "reopened": null
   },
   "issues": {
     "opened": 0,
@@ -23,10 +24,10 @@
     "LTS": {"open":25},
     "NG": {"open":27},
     "TSC": {
-      "256": {"comments":1,"words":113,"pr":true},
+      "256": {"comments":2,"words":152,"pr":true},
       "open": 36,
-      "words": 113,
-      "comments": 1
+      "words": 152,
+      "comments": 2
     },
     "abi-stable-node": {
       "238": {"comments":0,"words":55,"opened":"2017-04-27T05:40:59Z","opener":"976081","pr":true},
@@ -95,7 +96,12 @@
     "installer": {"open":13},
     "iojs.org": {"open":9},
     "live.nodejs.org": {"open":17},
-    "llnode": {"open":15},
+    "llnode": {
+      "61": {"comments":1,"words":9,"pr":true},
+      "open": 15,
+      "words": 9,
+      "comments": 1
+    },
     "logos": {"open":2},
     "nan": {"open":30},
     "node": {
@@ -120,16 +126,21 @@
       "12684": {"comments":1,"words":47,"pr":true,"opened":"2017-04-27T01:34:24Z","opener":"10393198"},
       "12685": {"comments":1,"words":42,"pr":true,"opened":"2017-04-27T01:53:33Z","opener":"10393198"},
       "12686": {"comments":0,"words":47,"opened":"2017-04-27T02:13:09Z","opener":"10393198","pr":true},
-      "12687": {"comments":5,"words":193,"pr":true,"opened":"2017-04-27T02:16:21Z","opener":"696611"},
+      "12687": {"comments":6,"words":201,"pr":true,"opened":"2017-04-27T02:16:21Z","opener":"696611"},
       "12688": {"comments":1,"words":43,"pr":true,"opened":"2017-04-27T03:46:55Z","opener":"432351"},
       "12689": {"comments":2,"words":318,"opened":"2017-04-27T03:59:05Z","opener":"1906114","pr":true},
-      "12690": {"comments":1,"words":107,"pr":true,"opened":"2017-04-27T07:23:14Z","opener":"993508"},
-      "12691": {"comments":0,"words":133,"opened":"2017-04-27T07:55:31Z","opener":"3061653","pr":true},
-      "open": 1049,
-      "words": 2467,
-      "comments": 35,
-      "opened": 10,
-      "closed": 2
+      "12690": {"comments":2,"words":151,"pr":true,"opened":"2017-04-27T07:23:14Z","opener":"993508"},
+      "12691": {"comments":2,"words":147,"opened":"2017-04-27T07:55:31Z","opener":"3061653","pr":true},
+      "12692": {"comments":1,"words":61,"pr":true,"opened":"2017-04-27T08:14:53Z","opener":"432351"},
+      "12693": {"comments":1,"words":283,"opened":"2017-04-27T08:15:14Z","opener":"961178","pr":true,"closed":"","closer":"54666","reopened":"","reopener":"54666"},
+      "12694": {"comments":1,"words":43,"opened":"2017-04-27T08:16:26Z","opener":"19426476","pr":true},
+      "12695": {"comments":0,"words":59,"opened":"2017-04-27T08:17:17Z","opener":"14886044","pr":true},
+      "open": 1053,
+      "words": 2979,
+      "comments": 42,
+      "opened": 14,
+      "closed": 3,
+      "reopened": 1
     },
     "node-addon-examples": {"open":30},
     "node-api": {"open":9},
@@ -194,6 +205,13 @@
     "vm": {"open":1}
   },
   "users": {
+    "579": {
+      "id": "579",
+      "login": "mikeal",
+      "words": {
+        "TSC/pulls/256#297645794": 39
+      }
+    },
     "54666": {
       "id": "54666",
       "login": "mscdex",
@@ -202,7 +220,9 @@
         "node/pulls/12687#113609947": 28,
         "node/pulls/12688#297603957": 1,
         "node/pulls/12689#297619029": 24,
-        "node/pulls/12689#297619751": 120
+        "node/pulls/12689#297619751": 120,
+        "node/pulls/12691#297653221": 3,
+        "node/pulls/12693#297653581": 22
       }
     },
     "91933": {
@@ -263,10 +283,13 @@
         "node/pulls/12688": 42,
         "node/pulls/12662#113610235": 35,
         "node/pulls/12660#297616550": 20,
-        "node/pulls/12660#297618231": 3
+        "node/pulls/12660#297618231": 3,
+        "node/pulls/12692": 59,
+        "node/pulls/12692#297645549": 2
       },
       "opened": [
-        "node/pulls/12688"
+        "node/pulls/12688",
+        "node/pulls/12692"
       ]
     },
     "439929": {
@@ -326,7 +349,8 @@
         "node/pulls/12687": 63,
         "node/pulls/12687#297592566": 3,
         "node/pulls/12473#113604480": 80,
-        "node/pulls/12687#113608235": 25
+        "node/pulls/12687#113608235": 25,
+        "node/pulls/12687#113647915": 8
       },
       "opened": [
         "node/pulls/12687"
@@ -350,6 +374,22 @@
         "build/pulls/692#113633304": 19
       }
     },
+    "961178": {
+      "id": "961178",
+      "login": "deadbeef84",
+      "words": {
+        "node/issues/12693": 87
+      },
+      "opened": [
+        "node/issues/12693"
+      ],
+      "closed": [
+        "node/issues/12693"
+      ],
+      "reopened": [
+        "node/issues/12693"
+      ]
+    },
     "976081": {
       "id": "976081",
       "login": "gabrielschulhof",
@@ -364,7 +404,8 @@
       "id": "993508",
       "login": "anshulguleria",
       "words": {
-        "node/pulls/12690": 54
+        "node/pulls/12690": 54,
+        "node/pulls/12690#297656103": 44
       },
       "opened": [
         "node/pulls/12690"
@@ -406,7 +447,8 @@
       "id": "3061653",
       "login": "vejo",
       "words": {
-        "node/issues/12691": 133
+        "node/issues/12691": 133,
+        "node/pulls/12691#297656251": 11
       },
       "opened": [
         "node/issues/12691"
@@ -417,6 +459,13 @@
       "login": "adityaanandmc",
       "words": {
         "node/pulls/12473#113630896": 33
+      }
+    },
+    "5803170": {
+      "id": "5803170",
+      "login": "jseijas",
+      "words": {
+        "node/pulls/12694#297656308": 37
       }
     },
     "8622566": {
@@ -460,6 +509,33 @@
         "node/pulls/12684",
         "node/pulls/12685",
         "node/issues/12686"
+      ]
+    },
+    "12997967": {
+      "id": "12997967",
+      "login": "scottinet",
+      "words": {
+        "llnode/pulls/61#297654862": 9
+      }
+    },
+    "14886044": {
+      "id": "14886044",
+      "login": "HSunboy",
+      "words": {
+        "node/issues/12695": 59
+      },
+      "opened": [
+        "node/issues/12695"
+      ]
+    },
+    "19426476": {
+      "id": "19426476",
+      "login": "DanceSmile",
+      "words": {
+        "node/issues/12694": 6
+      },
+      "opened": [
+        "node/issues/12694"
       ]
     }
   }
