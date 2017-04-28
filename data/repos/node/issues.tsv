@@ -5889,7 +5889,7 @@
 12534	19409103	false	open	false	0		2017-04-20T12:32:45Z	2017-04-20T12:32:45Z		events.js:141    throw er; // Unhandled 'error' event	6		
 12535	2291463	true	closed	false	3	0	2017-04-20T12:46:38Z	2017-04-24T17:27:10Z	2017-04-24T17:27:10Z	deps: backport 75f2d65f00 from upstream V8	130		
 12536	432351	true	closed	false	6		2017-04-20T12:46:48Z	2017-04-24T14:28:16Z	2017-04-21T23:25:29Z	src: remove TODO about uv errno removal	54		
-12537	95562	false	open	false	1		2017-04-20T13:30:36Z	2017-04-26T19:46:31Z		os.networkInterfaces() throws EAFNOSUPPORT under qemu-user-static on x86 host	215		
+12537	95562	false	open	false	3		2017-04-20T13:30:36Z	2017-04-28T13:55:35Z		os.networkInterfaces() throws EAFNOSUPPORT under qemu-user-static on x86 host	215		
 12538	332968	true	closed	false	0	0	2017-04-20T14:04:56Z	2017-04-20T14:19:13Z	2017-04-20T14:19:13Z	doc: add Luca Maraschi to collaborators	21	332968	2017-04-20T14:19:12Z
 12539	976081	true	open	false	7		2017-04-20T14:06:18Z	2017-04-25T17:25:29Z		n-api: tighten null-checking and clean up last error	110		
 12540	17704638	true	closed	false	3	1	2017-04-20T14:21:52Z	2017-04-24T16:22:38Z	2017-04-24T16:22:38Z	src: add fcntl.h include to node.cc	52		
@@ -6020,18 +6020,18 @@
 12665	607109	false	open	false	9		2017-04-26T12:30:27Z	2017-04-27T11:48:52Z		Allow to suppress --inspect hint	137		
 12666	7524854	false	open	false	0		2017-04-26T12:50:33Z	2017-04-26T14:15:54Z		"""apt-get install nodejs-dev"" on Linux Mint requires node to be 4.2.6"	229		
 12667	2350193	false	open	false	0		2017-04-26T14:06:50Z	2017-04-26T16:09:53Z		v7.6.0 anonymous function use 'async await' got different result between 2 mac	368		
-12668	12046617	true	open	false	7		2017-04-26T14:23:27Z	2017-04-28T04:12:47Z		refactor http.get expectedCount with common.mustCall	47		
-12669	2512748	true	open	false	0	0	2017-04-26T14:56:17Z	2017-04-26T14:56:17Z		test: remove eslint comments	44		
+12668	12046617	true	closed	false	7		2017-04-26T14:23:27Z	2017-04-28T14:01:00Z	2017-04-28T14:01:00Z	refactor http.get expectedCount with common.mustCall	47		
+12669	2512748	true	open	false	0		2017-04-26T14:56:17Z	2017-04-28T13:49:27Z		test: remove eslint comments	44		
 12670	515506	true	open	false	10		2017-04-26T15:59:42Z	2017-04-27T22:41:16Z		doc: add WHATWG file URLs in fs module	84		
 12671	2512748	true	closed	false	21		2017-04-26T16:28:08Z	2017-04-27T13:19:14Z	2017-04-27T01:05:43Z	WIP: src,inspector: add --inspect-silent option	80		
 12672	15943089	true	open	false	5		2017-04-26T17:02:42Z	2017-04-27T02:13:52Z		doc: note that EoL platforms are not supported	41		
 12673	439929	true	open	false	0		2017-04-26T17:17:51Z	2017-04-28T12:46:03Z		doc: replace uses of `you` and other style nits	48		
-12674	13093042	true	open	false	3		2017-04-26T17:18:13Z	2017-04-27T19:13:08Z		n-api: Sync with back-compat changes	217		
+12674	13093042	true	open	false	4		2017-04-26T17:18:13Z	2017-04-28T13:32:34Z		n-api: Sync with back-compat changes	217		
 12675	439929	false	open	false	0		2017-04-26T18:00:59Z	2017-04-26T18:15:58Z		console: console exposing non-implemented methods	149		
 12676	7408689	true	open	false	0	0	2017-04-26T18:11:58Z	2017-04-26T18:11:58Z		v8: fix gcc 7 build errors	60		
 12677	17607	true	open	false	0	0	2017-04-26T19:01:27Z	2017-04-26T19:01:27Z		(v6.x backport) src: allow CLI args in env with NODE_OPTIONS	156		
 12678	439929	true	open	false	22		2017-04-26T19:46:40Z	2017-04-27T19:05:00Z		console: add console.count() and console.clear()	54		
-12679	9373002	true	open	false			2017-04-26T21:54:33Z	2017-04-27T17:06:38Z		doc: clarify arch support for power platforms	111		
+12679	9373002	true	open	false	0		2017-04-26T21:54:33Z	2017-04-28T13:43:12Z		doc: clarify arch support for power platforms	111		
 12680	10393198	false	open	false	0		2017-04-26T22:59:48Z	2017-04-26T23:13:07Z		meta: beware rebase / pull / update / merge on case insensitive OS after #12643	44		
 12681	439929	true	open	false			2017-04-26T23:50:17Z	2017-04-28T02:35:49Z		v8: refactor the v8 module	53		
 12682	1538624	false	open	false	0		2017-04-27T00:13:56Z	2017-04-28T00:06:35Z		Relative URLs in WHATWG URL API	460		
@@ -6039,11 +6039,11 @@
 12684	10393198	true	open	false	0	0	2017-04-27T01:34:24Z	2017-04-27T01:34:24Z		doc: fix examples in repl.md	44		
 12685	10393198	true	open	false	0	0	2017-04-27T01:53:33Z	2017-04-27T01:53:33Z		doc: update example in repl.md	39		
 12686	10393198	false	open	false	0		2017-04-27T02:13:09Z	2017-04-27T16:09:40Z		doc: undocumented entities in code example in repl.md	48		
-12687	696611	true	open	false	1		2017-04-27T02:16:21Z	2017-04-27T09:03:12Z		test: remove AIX guard in fs-options-immutable	63		
+12687	696611	true	open	false	4		2017-04-27T02:16:21Z	2017-04-28T13:48:43Z		test: remove AIX guard in fs-options-immutable	63		
 12688	432351	true	closed	false	2		2017-04-27T03:46:55Z	2017-04-27T17:15:30Z	2017-04-27T17:15:30Z	src: fix incorrect macro comment	42		
 12689	1906114	false	open	false	2		2017-04-27T03:59:05Z	2017-04-28T05:55:09Z		Socket Hangup when using https post request	179		
 12690	993508	true	open	false	4		2017-04-27T07:23:14Z	2017-04-28T12:51:49Z		doc: adds clarification for fs constants for node < v6.3.x in fs.md	54		
-12691	3061653	false	open	false	8		2017-04-27T07:55:31Z	2017-04-28T12:50:10Z		SSL problem on Intel Celeron N3350	133		
+12691	3061653	false	open	false	9		2017-04-27T07:55:31Z	2017-04-28T13:19:45Z		SSL problem on Intel Celeron N3350	133		
 12692	432351	true	open	false	2		2017-04-27T08:14:53Z	2017-04-27T18:25:12Z		test: add hasCrypto check to test-cli-node-options	59		
 12693	961178	false	open	false	4		2017-04-27T08:15:14Z	2017-04-27T19:21:56Z		Set inspect.defaultOptions using environment variables	87		
 12694	19426476	false	closed	false	1		2017-04-27T08:16:26Z	2017-04-27T11:15:04Z	2017-04-27T11:15:04Z	希望出中文文档	6		
@@ -6057,14 +6057,14 @@
 12702	12046617	true	open	false	1		2017-04-27T18:25:23Z	2017-04-28T03:35:05Z		test: refactoring test with common.mustCall	51		
 12703	24783272	true	open	false			2017-04-27T19:16:12Z	2017-04-27T21:35:25Z		modified test-repl-persistent-history to use common.mustCall	42		
 12704	718899	true	open	false	0	0	2017-04-27T20:33:07Z	2017-04-27T20:33:07Z		test: move test to sequential for reliability	45		
-12705	976081	true	open	false	0	0	2017-04-27T20:40:19Z	2017-04-27T20:40:19Z		n-api: remove unnecessary try-catch bracket from certain APIs	65		
+12705	976081	true	open	false	0		2017-04-27T20:40:19Z	2017-04-28T13:39:23Z		n-api: remove unnecessary try-catch bracket from certain APIs	65		
 12706	1093990	false	open	false	0		2017-04-27T21:05:39Z	2017-04-27T21:05:39Z		The inspector `process.on(SIGPROF)` warning is non-standard.	88		
 12707	1716463	true	open	false	0		2017-04-27T21:17:40Z	2017-04-28T08:27:01Z		src: support domains with empty labels in i18n 	109		
 12708	861080	false	open	false	0		2017-04-27T21:39:07Z	2017-04-27T21:39:07Z		Some of the Tests of the NodeJS_v_6_10_2 fail on Raspberry Pi 3, Raspbian	1159		
 12709	2512748	true	open	false	0	0	2017-04-27T22:29:06Z	2017-04-27T22:29:06Z		src: make SIGPROF message a real warning	37		
 12710	439929	true	open	false	1		2017-04-28T00:16:21Z	2017-04-28T12:48:51Z		doc: graduate WHATWG URL from Experimental	64		
 12711	718899	true	open	false			2017-04-28T00:34:00Z	2017-04-28T08:51:56Z		tools: require function declarations	125		
-12712	96947	true	open	false	4		2017-04-28T02:22:53Z	2017-04-28T04:08:35Z		[WIP] util: add util.callbackify()	101		
+12712	96947	true	open	false			2017-04-28T02:22:53Z	2017-04-28T13:20:28Z		[WIP] util: add util.callbackify()	101		
 12713	718899	true	open	false	3		2017-04-28T02:48:45Z	2017-04-28T05:16:05Z		wip: test: make regression test reliable	31		
 12714	5886475	true	open	false	1		2017-04-28T03:08:52Z	2017-04-28T05:19:04Z		test: increase coverage of buffer	45		
 12715	2343630	true	open	false	0	0	2017-04-28T03:12:25Z	2017-04-28T03:12:25Z		test: remove common.PORT in test tls ticket cluster	40		
