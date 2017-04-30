@@ -5795,7 +5795,7 @@
 12439	54666	true	closed	false	2		2017-04-16T07:45:45Z	2017-04-18T16:08:33Z	2017-04-18T16:08:33Z	buffer: fix backwards incompatibility	73		
 12440	910691	false	open	false	2		2017-04-16T14:46:59Z	2017-04-16T16:03:27Z		internet/test-dns.js test_resolveNs_failure failed with ETIMEOUT	80		
 12441	5329230	true	closed	false	6	0	2017-04-16T15:03:21Z	2017-04-18T16:49:29Z	2017-04-18T16:49:29Z	Migrate cluster tests from common.PORT	48		
-12442	899444	true	open	false	44		2017-04-16T16:30:05Z	2017-04-28T23:15:00Z		util: add util.promisify()	167		
+12442	899444	true	open	false			2017-04-16T16:30:05Z	2017-04-30T12:08:58Z		util: add util.promisify()	167		
 12443	15608388	true	closed	false	8	0	2017-04-16T18:10:10Z	2017-04-18T15:43:27Z	2017-04-18T15:43:27Z	tests: remove common.PORT from cluster worker disconnect, exit and kill	48		
 12444	899988	true	closed	false	5		2017-04-16T18:15:30Z	2017-04-17T19:26:22Z	2017-04-17T14:21:00Z	add missing ) in CONTRIBUTING.md	21		
 12445	899988	true	closed	false	12		2017-04-16T18:15:34Z	2017-04-18T18:27:43Z	2017-04-18T15:33:31Z	doc: fix recommendation to use useless config	21		
@@ -5898,7 +5898,7 @@
 12542	275871	true	open	false	2		2017-04-20T15:19:34Z	2017-04-21T15:53:50Z		v8: update v8 patch version number (v7.x)	64		
 12543	275871	true	closed	false	0		2017-04-20T15:24:13Z	2017-04-24T17:31:06Z	2017-04-24T17:31:06Z	v8: update v8 patch version number	10		
 12544	1774305	true	closed	false	8	1	2017-04-20T16:31:06Z	2017-04-24T20:48:24Z	2017-04-24T20:48:23Z	Update buffer swap test to use better variable names	67		
-12545	15608388	true	open	false			2017-04-20T17:11:02Z	2017-04-29T23:12:55Z		test: dynamic port in test cluster disconnect	54		
+12545	15608388	true	open	false			2017-04-20T17:11:02Z	2017-04-30T12:22:27Z		test: dynamic port in test cluster disconnect	54		
 12546	2512748	true	closed	false	1	1	2017-04-20T17:53:43Z	2017-04-25T16:46:57Z	2017-04-25T16:46:57Z	src: expose V8's IsNativeError() in util bindings	63	2512748	2017-04-25T16:46:57Z
 12547	15608388	true	closed	false	2	0	2017-04-20T18:13:37Z	2017-04-24T20:44:15Z	2017-04-24T20:44:15Z	test: dynamic port in test cluster eaddrinuse	54		
 12548	432351	true	open	false	7		2017-04-20T18:18:44Z	2017-04-24T12:57:45Z		src: call linux getauxval(AT_SECURE) in SafeGetenv	47		
@@ -6083,11 +6083,11 @@
 12728	13756727	true	open	false			2017-04-28T19:03:19Z	2017-04-29T13:26:21Z		minor fixes to test-module-loading.js	45		
 12729	9373002	true	open	false	0	0	2017-04-28T19:33:54Z	2017-04-28T19:33:54Z		test: add coverage for error apis	62		
 12730	9373002	true	open	false	0	0	2017-04-28T20:00:43Z	2017-04-28T20:00:43Z		test: fix warning in n-api reference test	42		
-12731	96947	true	closed	false	1	0	2017-04-28T20:31:45Z	2017-04-30T10:52:21Z	2017-04-30T10:52:20Z	doc: Fix formatting of TOC	21	15943089	2017-04-30T10:52:20Z
+12731	96947	true	closed	false	1		2017-04-28T20:31:46Z	2017-04-30T12:50:42Z	2017-04-30T10:52:20Z	doc: Fix formatting of TOC	21		
 12732	4923335	true	open	false	7		2017-04-28T21:48:38Z	2017-04-29T16:09:11Z		test: make common.noop a getter	77		
 12733	9373002	true	open	false	0	0	2017-04-28T22:14:04Z	2017-04-28T22:14:04Z		src: add --napi-modules to whitelist	54		
 12734	1093990	true	open	false	3		2017-04-28T22:34:28Z	2017-04-30T04:46:09Z		lib,src: eagerly exit process on unhanded promise rejections	228		
-12735	10393198	true	open	false			2017-04-28T22:42:15Z	2017-04-30T11:49:54Z		test: reduce string concatenations	94		
+12735	10393198	true	open	false	17		2017-04-28T22:42:15Z	2017-04-30T12:22:27Z		test: reduce string concatenations	94		
 12736	718899	true	open	false	5		2017-04-29T05:25:53Z	2017-04-29T14:43:57Z		test: move WPT to its own testing module	93		
 12737	318622	false	open	false	1		2017-04-29T05:48:43Z	2017-04-30T00:30:10Z		fs.lstatSync doesn't handle specific Windows REPARSE POINTS	212		
 12738	718899	true	open	false	1		2017-04-29T05:57:09Z	2017-04-29T14:47:36Z		cluster: remove debug arg handling	71		
@@ -6107,6 +6107,6 @@
 12752	899444	true	open	false	0	0	2017-04-29T22:51:10Z	2017-04-29T22:51:10Z		crypto: throw proper errors if out enc is UTF-16	47		
 12753	899444	true	open	false	0	0	2017-04-29T23:50:05Z	2017-04-29T23:50:05Z		src: turn buffer type-CHECK into exception	50		
 12754	1716463	true	open	false	0	0	2017-04-30T02:25:58Z	2017-04-30T02:25:58Z		tools: ignore node_trace.*.log	21		
-12755	439929	true	open	false	0	0	2017-04-30T03:56:23Z	2017-04-30T03:56:23Z		Refactor readline	69		
-12756	1716463	true	open	false			2017-04-30T06:07:08Z	2017-04-30T11:24:35Z		tools: introduce `make mdlint` command and tools	80		
+12755	439929	true	open	false			2017-04-30T03:56:23Z	2017-04-30T12:15:16Z		readline: refactor readline module	69		
+12756	1716463	true	open	false	2		2017-04-30T06:07:08Z	2017-04-30T12:56:13Z		tools: introduce `make mdlint` command and tools	80		
 12757	432351	true	open	false	1		2017-04-30T06:23:41Z	2017-04-30T11:20:21Z		test: add hasCrypto check to cluster-inspect-brk	66		
