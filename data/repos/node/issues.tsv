@@ -381,6 +381,7 @@
 5701	5038030	false	closed	false	7		2016-03-14T16:47:14Z	2016-09-07T03:03:39Z	2016-03-14T17:15:09Z	Error while loading shared libraries - libhttp_parser	169		
 5703	15952	true	closed	false	27		2016-03-14T20:52:17Z	2016-08-30T14:12:56Z	2016-06-30T17:08:42Z	repl: Default `useGlobal` to false in CLI REPL.	139		
 5704	1093990	true	open	false	25		2016-03-14T21:33:11Z	2017-03-26T11:06:50Z		src: try to open `man 1 node` on Unix for --help	96		
+5711	336433	false	closed	false	6		2016-03-15T06:17:00Z	2017-04-30T17:53:14Z	2017-04-30T17:53:14Z	stream: Writing null to objectMode Transform is unrecoverable	201		
 5719	6221849	true	closed	false	15		2016-03-15T14:17:41Z	2017-02-28T23:18:40Z	2017-02-28T23:18:40Z	http.ClientRequest doc update	12		
 5730	459764	false	closed	false	12		2016-03-15T23:20:35Z	2016-07-06T15:27:04Z	2016-07-06T15:27:04Z	REPL started with replServer doesn't persist history	182		
 5741	696611	true	open	false	16		2016-03-16T17:59:03Z	2017-03-26T11:05:51Z		tools: install components optionally	104		
@@ -390,6 +391,7 @@
 5774	238531	true	open	false	23		2016-03-18T00:39:28Z	2017-02-28T23:19:38Z		tls: deprecate `newSession`/`resumeSession` events	177		
 5780	471070	true	closed	false	5	7	2016-03-18T10:49:38Z	2017-01-18T06:16:27Z	2017-01-18T06:16:27Z	buffer: Error message should be more explicit for .toString() on huge…	153		
 5793	1093990	true	closed	false	9		2016-03-18T21:09:44Z	2016-08-30T14:13:49Z	2016-03-21T15:23:07Z	timers: give Timeouts a constructor name	53		
+5794	1009114	false	open	false	4		2016-03-18T21:17:12Z	2017-04-30T17:56:54Z		REPL does not exit properly after listeners are removed	184		
 5796	9373002	false	closed	false	6		2016-03-18T22:51:56Z	2017-02-28T14:42:32Z	2017-02-28T14:42:32Z	V8 test - cctest/compiler/codegen-tester.h fails on arm	82		
 5798	17942010	false	open	false	130		2016-03-19T05:47:12Z	2016-09-17T14:06:13Z		Use system random generator in crypto	33		
 5804	1315533	true	closed	false	16		2016-03-19T18:30:35Z	2016-08-30T14:14:10Z	2016-03-21T15:52:12Z	dns: use isIp consistently	65		
@@ -6101,7 +6103,7 @@
 12746	899444	true	open	false	2		2017-04-29T18:33:34Z	2017-04-30T14:19:16Z		stream: fix pipe(x)+pipe(x)+unpipe(x) scenario	97		
 12747	899444	true	open	false	0	0	2017-04-29T19:13:26Z	2017-04-29T19:13:26Z		http: fix first body chunk fast case for UTF-16	74		
 12748	96947	true	open	false	5		2017-04-29T20:14:42Z	2017-04-29T23:02:16Z		doc:spin off technical guide	80		
-12749	7902626	true	open	false	1		2017-04-29T20:51:37Z	2017-04-29T23:30:01Z		test: add new tests for fs.link()	42		
+12749	7902626	true	open	false	2		2017-04-29T20:51:37Z	2017-04-30T18:00:54Z		test: add new tests for fs.link()	42		
 12750	4923335	true	open	false	0	0	2017-04-29T21:12:03Z	2017-04-29T21:12:03Z		doc: fixup the collaborators list	34		
 12751	899444	true	open	false			2017-04-29T21:49:07Z	2017-04-29T23:03:10Z		doc: document vm timeout option perf impact	34		
 12752	899444	true	open	false	0	0	2017-04-29T22:51:10Z	2017-04-29T22:51:10Z		crypto: throw proper errors if out enc is UTF-16	47		
@@ -6110,9 +6112,11 @@
 12755	439929	true	open	false			2017-04-30T03:56:23Z	2017-04-30T12:15:16Z		readline: refactor readline module	69		
 12756	1716463	true	open	false	6		2017-04-30T06:07:08Z	2017-04-30T14:16:13Z		tools: introduce `make mdlint` command and tools	80		
 12757	432351	true	open	false	2		2017-04-30T06:23:41Z	2017-04-30T13:10:06Z		test: add hasCrypto check to cluster-inspect-brk	66		
-12758	96947	false	open	false	0		2017-04-30T13:16:54Z	2017-04-30T13:16:54Z		inspector: unavailable when built --without-ssl	39		
+12758	96947	false	open	false	1		2017-04-30T13:16:54Z	2017-04-30T17:11:52Z		inspector: unavailable when built --without-ssl	39		
 12759	606771	false	open	false	0		2017-04-30T13:26:51Z	2017-04-30T13:26:51Z		NODE_SET_PROTOTYPE_METHOD does not accept Symbol as property	132		
 12760	899444	true	open	false	0	0	2017-04-30T14:20:01Z	2017-04-30T14:20:01Z		buffer: remove pointless C++ utility methods	27		
 12761	899444	true	open	false	0	0	2017-04-30T14:35:12Z	2017-04-30T14:35:12Z		test: increase readline coverage	33		
-12762	54666	true	open	false	0	0	2017-04-30T15:37:14Z	2017-04-30T15:37:14Z		repl: fix /dev/null history file regression	51		
+12762	54666	true	open	false			2017-04-30T15:37:14Z	2017-04-30T17:09:51Z		repl: fix /dev/null history file regression	53		
 12763	910691	true	open	false	0	0	2017-04-30T16:12:25Z	2017-04-30T16:12:25Z		add missing option to node PrintHelp	67		
+12764	1211376	true	open	false	0	0	2017-04-30T17:18:35Z	2017-04-30T17:18:35Z		vcbuild.bat: adding option static enabling the option --enable-static	44		
+12765	899444	true	open	false	0	0	2017-04-30T17:30:02Z	2017-04-30T17:30:02Z		src: do proper StringBytes error handling	144		
