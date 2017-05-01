@@ -76,7 +76,7 @@
 2126	122831	false	open	false	8		2015-07-07T21:10:41Z	2017-04-14T21:44:39Z		SNICallback callback doesn't throw an error with invalid input	78		
 2133	829734	true	closed	false	149		2015-07-08T12:31:57Z	2017-01-16T04:05:15Z	2016-12-11T14:25:53Z	workers: initial implementation	56		
 2138	495647	false	closed	false	24		2015-07-09T00:43:28Z	2016-06-30T05:17:39Z	2016-06-30T05:17:39Z	Process startup time on ARM	248		
-2148	54666	false	open	false	10		2015-07-09T20:45:50Z	2017-05-01T19:24:27Z		stdout/stderr buffering with TTY	338		
+2148	54666	false	open	false	11		2015-07-09T20:45:50Z	2017-05-01T20:07:57Z		stdout/stderr buffering with TTY	338		
 2198	430233	false	closed	false	11		2015-07-17T09:44:41Z	2017-01-18T05:29:45Z	2015-07-17T09:55:22Z	Cannot find module 'absolute-path'	112		
 2232	1093990	true	closed	false	10		2015-07-24T00:46:36Z	2016-07-07T20:08:56Z	2016-01-11T20:54:45Z	Port from joyent/node: `timers: fix timeout when added in timer's callback`	11		
 2253	234659	true	closed	false	53		2015-07-27T16:53:56Z	2016-08-30T12:56:44Z	2016-05-11T18:52:36Z	ensure preload modules are always preloaded	30		
@@ -4657,7 +4657,7 @@
 11290	5886475	true	open	false	6		2017-02-10T15:26:03Z	2017-02-17T18:20:50Z		test: increase coverage of timers	32		
 11291	2512748	true	closed	false	1	0	2017-02-10T15:34:39Z	2017-02-13T22:27:13Z	2017-02-13T22:27:13Z	test: add coverage for dgram _createSocketHandle()	48	2512748	2017-02-13T22:27:13Z
 11292	2512748	true	closed	false	2		2017-02-10T16:45:16Z	2017-03-07T17:16:50Z	2017-02-14T16:58:13Z	test: cover dgram socket close during cluster bind	72		
-11293	1028226	true	open	false	3		2017-02-10T16:52:01Z	2017-02-22T09:24:22Z		https: use internal/errors.js	43		
+11293	1028226	true	open	false	4		2017-02-10T16:52:01Z	2017-05-01T20:24:09Z		https: use internal/errors.js	43		
 11294	439929	true	open	false	24		2017-02-10T16:57:04Z	2017-04-20T18:32:18Z		errors, process: port internal/process errors to internal/errors	88		
 11295	2512748	true	closed	false	1		2017-02-10T17:00:53Z	2017-03-09T00:04:21Z	2017-02-13T18:33:40Z	test: cover cluster error during dgram socket bind	66		
 11296	22550884	true	open	false	19		2017-02-10T17:28:26Z	2017-03-07T18:26:39Z		lib/src: refactoring out of range index and and migrate error for consistency	57		
@@ -4665,7 +4665,7 @@
 11298	439929	true	closed	false	16		2017-02-10T18:26:16Z	2017-04-24T18:17:22Z	2017-04-24T16:16:02Z	errors: assign error code to bootstrap_node created error	72		
 11299	4299420	false	closed	false	2		2017-02-10T19:10:24Z	2017-03-22T03:17:12Z	2017-03-22T03:17:12Z	New error system in WHATWG URL implementation	59		
 11300	439929	true	closed	false	9		2017-02-10T20:10:25Z	2017-04-27T22:46:20Z	2017-04-27T22:46:20Z	errors, child_process: migrate to using internal/errors	48		
-11301	1028226	true	open	false	1		2017-02-10T20:26:27Z	2017-05-01T19:16:25Z		internal/util: use internal/errors.js	57		
+11301	1028226	true	open	false	2		2017-02-10T20:26:27Z	2017-05-01T20:12:45Z		internal/util: use internal/errors.js	57		
 11302	1028226	true	open	false	1		2017-02-10T21:19:34Z	2017-05-01T19:17:00Z		errors,net: change internal/net.js to use internal/errors.js	57		
 11303	718899	true	closed	false	1		2017-02-10T21:57:07Z	2017-02-13T22:23:22Z	2017-02-13T22:23:22Z	test: refactor test-repl-sigint-nested-eval	44		
 11304	718899	true	closed	false	4	0	2017-02-10T22:14:21Z	2017-02-15T20:05:29Z	2017-02-15T20:05:29Z	assert: unlock the assert API	34		
@@ -4890,7 +4890,7 @@
 11523	18662996	true	open	false			2017-02-23T18:35:11Z	2017-02-27T18:48:11Z		WIP: errors, http client: migrate to internal/error.js	63		
 11524	25935833	false	open	false	1		2017-02-23T21:18:07Z	2017-02-24T20:18:54Z		Better error message when request has incorrect content-length	193		
 11525	410447	false	open	false	0		2017-02-23T21:46:30Z	2017-02-23T21:46:30Z		repl doesn't honor inputrc	43		
-11526	6216576	false	open	false	0		2017-02-23T22:16:30Z	2017-02-23T22:16:30Z		Update the authors list	17		
+11526	6216576	false	closed	false	0		2017-02-23T22:16:30Z	2017-05-01T20:28:53Z	2017-05-01T20:28:53Z	Update the authors list	17		
 11527	17053486	false	open	false	0		2017-02-23T22:51:54Z	2017-02-23T22:51:54Z		Cannot read property 'path' of null	438		
 11528	718899	true	closed	false	3	0	2017-02-23T23:07:53Z	2017-02-27T21:47:57Z	2017-02-27T21:47:57Z	test: add expected error checking in test-assert	26		
 11529	899444	true	closed	false	1		2017-02-24T01:35:53Z	2017-03-07T05:02:44Z	2017-02-25T20:16:12Z	(v7.x) doc: backport “fix sorting in API references”, “add changelogs for {v8,buffer}”	25		
@@ -5769,7 +5769,7 @@
 12406	899444	true	open	false	9		2017-04-13T20:34:57Z	2017-04-13T22:04:56Z		build: disable -O3 for C++ coverage	33		
 12407	5803170	true	open	false	24		2017-04-14T00:57:40Z	2017-04-17T17:25:43Z		util: refactor format method.	114		
 12408	2512748	true	closed	false	1	0	2017-04-14T01:03:17Z	2017-04-17T16:01:59Z	2017-04-17T16:01:59Z	doc: remove inspector experimental warning	34		
-12409	158390	true	open	false	17		2017-04-14T03:26:08Z	2017-04-30T18:19:56Z		n-api: port test for make_callback	46		
+12409	158390	true	open	false	18		2017-04-14T03:26:08Z	2017-05-01T20:57:52Z		n-api: port test for make_callback	46		
 12410	1840183	false	open	false	5		2017-04-14T09:45:55Z	2017-04-20T08:17:38Z		IPV6 error with percent devicename (for link-local ranges / zone id)	111		
 12411	347870	false	closed	false	9		2017-04-14T11:01:34Z	2017-04-28T11:46:33Z	2017-04-19T08:56:20Z	ToString(Object) sometimes returns [object Null]	91		
 12412	275871	true	open	false	2		2017-04-14T11:51:56Z	2017-04-19T08:50:24Z		deps: cherry-pick 79aee39 from upstream v8	73		
@@ -5802,7 +5802,7 @@
 12439	54666	true	closed	false	2		2017-04-16T07:45:45Z	2017-04-18T16:08:33Z	2017-04-18T16:08:33Z	buffer: fix backwards incompatibility	73		
 12440	910691	false	open	false	2		2017-04-16T14:46:59Z	2017-04-16T16:03:27Z		internet/test-dns.js test_resolveNs_failure failed with ETIMEOUT	80		
 12441	5329230	true	closed	false	6	0	2017-04-16T15:03:21Z	2017-04-18T16:49:29Z	2017-04-18T16:49:29Z	Migrate cluster tests from common.PORT	48		
-12442	899444	true	open	false	54		2017-04-16T16:30:05Z	2017-05-01T18:03:01Z		util: add util.promisify()	167		
+12442	899444	true	open	false	59		2017-04-16T16:30:05Z	2017-05-01T20:07:57Z		util: add util.promisify()	167		
 12443	15608388	true	closed	false	8	0	2017-04-16T18:10:10Z	2017-04-18T15:43:27Z	2017-04-18T15:43:27Z	tests: remove common.PORT from cluster worker disconnect, exit and kill	48		
 12444	899988	true	closed	false	5		2017-04-16T18:15:30Z	2017-04-17T19:26:22Z	2017-04-17T14:21:00Z	add missing ) in CONTRIBUTING.md	21		
 12445	899988	true	closed	false	12		2017-04-16T18:15:34Z	2017-04-18T18:27:43Z	2017-04-18T15:33:31Z	doc: fix recommendation to use useless config	21		
@@ -5936,7 +5936,7 @@
 12573	4258094	false	open	false	7		2017-04-21T17:09:06Z	2017-04-27T12:13:59Z		Fatal error when comparing long strings	116		
 12574	1538624	true	closed	false	2		2017-04-21T21:38:59Z	2017-04-25T23:34:11Z	2017-04-25T23:34:11Z	url: port WHATWG URL API to internal/errors	44		
 12575	9373002	true	open	false	7		2017-04-21T22:12:12Z	2017-04-27T01:52:55Z		test: add coverage for napi_cancel_async_work	42		
-12576	287917	true	open	false			2017-04-21T22:34:20Z	2017-04-24T20:51:06Z		inspector: remove AgentImpl	72		
+12576	287917	true	closed	false	2		2017-04-21T22:34:20Z	2017-05-01T20:44:19Z	2017-04-24T20:54:46Z	inspector: remove AgentImpl	72		
 12577	2512748	true	closed	false	2	1	2017-04-21T22:52:18Z	2017-04-25T16:03:54Z	2017-04-25T16:03:54Z	tools: enable no-useless-return eslint rule	25	2512748	2017-04-25T16:03:54Z
 12578	5823031	false	closed	false	2		2017-04-22T02:47:42Z	2017-04-22T05:42:05Z	2017-04-22T05:42:05Z	proposal: function declaration behaviour	68		
 12579	718899	true	closed	false	2		2017-04-22T03:18:45Z	2017-04-24T20:23:59Z	2017-04-24T20:23:59Z	url: improve descriptiveness of identifier	46		
@@ -6110,7 +6110,7 @@
 12748	96947	true	open	false	5		2017-04-29T20:14:42Z	2017-04-29T23:02:16Z		doc:spin off technical guide	80		
 12749	7902626	true	open	false	4		2017-04-29T20:51:37Z	2017-05-01T13:48:52Z		test: add new tests for fs.link()	42		
 12750	4923335	true	open	false	0	0	2017-04-29T21:12:03Z	2017-04-29T21:12:03Z		doc: fixup the collaborators list	34		
-12751	899444	true	open	false			2017-04-29T21:49:07Z	2017-04-29T23:03:10Z		doc: document vm timeout option perf impact	34		
+12751	899444	true	open	false	0		2017-04-29T21:49:07Z	2017-05-01T20:53:18Z		doc: document vm timeout option perf impact	34		
 12752	899444	true	open	false	3		2017-04-29T22:51:10Z	2017-05-01T13:49:52Z		crypto: throw proper errors if out enc is UTF-16	47		
 12753	899444	true	open	false	0	0	2017-04-29T23:50:05Z	2017-04-29T23:50:05Z		src: turn buffer type-CHECK into exception	50		
 12754	1716463	true	open	false	0		2017-04-30T02:25:58Z	2017-05-01T12:12:06Z		tools: ignore node_trace.*.log	21		
@@ -6122,7 +6122,7 @@
 12760	899444	true	open	false	0		2017-04-30T14:20:01Z	2017-04-30T23:06:35Z		buffer: remove pointless C++ utility methods	29		
 12761	899444	true	open	false	2		2017-04-30T14:35:12Z	2017-04-30T23:07:20Z		test: increase readline coverage	33		
 12762	54666	true	open	false			2017-04-30T15:37:14Z	2017-04-30T17:09:51Z		repl: fix /dev/null history file regression	53		
-12763	910691	true	open	false	0	0	2017-04-30T16:12:25Z	2017-04-30T16:12:25Z		add missing option to node PrintHelp	67		
+12763	910691	true	open	false	4		2017-04-30T16:12:25Z	2017-05-01T20:44:00Z		add missing option to node PrintHelp	67		
 12764	1211376	true	open	false	1		2017-04-30T17:18:35Z	2017-04-30T20:41:56Z		vcbuild.bat: adding option static enabling the option --enable-static	43		
 12765	899444	true	open	false	2		2017-04-30T17:30:02Z	2017-05-01T18:45:05Z		src: do proper StringBytes error handling	143		
 12766	899444	true	open	false	7		2017-04-30T18:12:44Z	2017-05-01T17:02:50Z		stream: make `.setEncoding(null)` reset to default	105		
@@ -6135,4 +6135,5 @@
 12773	10393198	false	open	false	6		2017-05-01T07:33:31Z	2017-05-01T18:20:19Z		test: tests fails on Windows with spaces in paths	452		
 12774	177641	false	open	false	2		2017-05-01T11:28:51Z	2017-05-01T12:36:21Z		Print better error messages on RequireObjectCoercible error	110		
 12775	677994	true	open	false	0		2017-05-01T15:16:15Z	2017-05-01T16:23:14Z		v7.10.0 proposal	2131		
-12776	5880012	false	open	false	0		2017-05-01T18:43:28Z	2017-05-01T19:52:57Z		File descriptors not closed properly on OSX	171		
+12776	5880012	false	open	false	1		2017-05-01T18:43:28Z	2017-05-01T20:03:43Z		File descriptors not closed properly on OSX	171		
+12777	287917	true	open	false	0	0	2017-05-01T20:42:41Z	2017-05-01T20:42:41Z		inspector: implement process._debugEnd()	58		
