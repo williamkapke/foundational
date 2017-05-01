@@ -391,7 +391,7 @@
 5774	238531	true	open	false	23		2016-03-18T00:39:28Z	2017-02-28T23:19:38Z		tls: deprecate `newSession`/`resumeSession` events	177		
 5780	471070	true	closed	false	5	7	2016-03-18T10:49:38Z	2017-01-18T06:16:27Z	2017-01-18T06:16:27Z	buffer: Error message should be more explicit for .toString() on huge…	153		
 5793	1093990	true	closed	false	9		2016-03-18T21:09:44Z	2016-08-30T14:13:49Z	2016-03-21T15:23:07Z	timers: give Timeouts a constructor name	53		
-5794	1009114	false	open	false	8		2016-03-18T21:17:12Z	2017-05-01T06:54:05Z		REPL does not exit properly after listeners are removed	184		
+5794	1009114	false	open	false	9		2016-03-18T21:17:12Z	2017-05-01T16:20:00Z		REPL does not exit properly after listeners are removed	184		
 5796	9373002	false	closed	false	6		2016-03-18T22:51:56Z	2017-02-28T14:42:32Z	2017-02-28T14:42:32Z	V8 test - cctest/compiler/codegen-tester.h fails on arm	82		
 5798	17942010	false	open	false	130		2016-03-19T05:47:12Z	2016-09-17T14:06:13Z		Use system random generator in crypto	33		
 5804	1315533	true	closed	false	16		2016-03-19T18:30:35Z	2016-08-30T14:14:10Z	2016-03-21T15:52:12Z	dns: use isIp consistently	65		
@@ -5327,7 +5327,7 @@
 11962	1716463	false	closed	false	0		2017-03-21T15:01:30Z	2017-04-03T09:18:50Z	2017-04-03T09:18:50Z	url: tracking whatwg url issue #212	33		
 11963	696611	true	closed	false	0		2017-03-21T15:15:11Z	2017-04-04T07:39:42Z	2017-04-04T07:39:42Z	doc: minor improvements in BUILDING.md	79		
 11964	332968	true	closed	false	7	1	2017-03-21T15:26:44Z	2017-03-24T16:17:35Z	2017-03-24T16:17:35Z	test: invalid chars in http client path	57		
-11965	4923335	true	open	false	0	0	2017-03-21T15:37:53Z	2017-03-21T15:37:53Z		(v7.x backport) doc: fix stylistic issues in api/net.md	29		
+11965	4923335	true	closed	false	0		2017-03-21T15:37:53Z	2017-05-01T16:09:44Z	2017-05-01T16:09:44Z	(v7.x backport) doc: fix stylistic issues in api/net.md	32		
 11966	4923335	true	open	false	0		2017-03-21T15:57:22Z	2017-04-11T01:12:01Z		(v7.x backport) test: refactor test-util-inspect.js	36		
 11967	4923335	true	open	false	0		2017-03-21T16:07:27Z	2017-04-11T01:09:38Z		(v7.x backport) test: add arrow functions to test-util-inspect	36		
 11968	439929	true	closed	false	52		2017-03-21T16:37:48Z	2017-04-19T16:26:32Z	2017-04-19T16:26:32Z	src, buffer: add --pending-deprecation flag	116		
@@ -5813,7 +5813,7 @@
 12451	5329230	true	closed	false	5		2017-04-16T20:59:08Z	2017-04-18T15:18:26Z	2017-04-18T15:18:26Z	tests: remove common.PORT from shared,master,rr tests	52		
 12452	1163342	true	open	false	7		2017-04-16T21:02:55Z	2017-04-27T04:08:38Z		test:  use dynamic port in test-dgram-bind-shared-ports	74		
 12453	2309317	false	open	false	4		2017-04-16T21:54:56Z	2017-04-17T04:10:55Z		Proxies: console.log uses overridden proxy methods by default	118		
-12454	7414255	true	open	false			2017-04-17T01:00:45Z	2017-05-01T15:24:31Z		console: make console consistent with the standard - overridable	91		
+12454	7414255	true	open	false			2017-04-17T01:00:45Z	2017-05-01T16:40:31Z		console: make console consistent with the standard - overridable	91		
 12455	10393198	true	closed	false			2017-04-17T02:12:55Z	2017-04-21T06:54:43Z	2017-04-20T01:51:28Z	benchmark: reduce string concatenations	275		
 12456	54666	true	closed	false	32	7	2017-04-17T04:32:12Z	2017-04-30T07:19:24Z	2017-04-30T07:19:24Z	build: allow easier checking of permanent deoptimizations	398	54666	2017-04-30T07:19:24Z
 12457	15608388	true	closed	false	3	2	2017-04-17T06:00:14Z	2017-04-19T17:35:57Z	2017-04-19T17:35:57Z	tests: remove common.PORT from cluster-worker-disconnect-on-error	51		
@@ -5989,7 +5989,7 @@
 12627	899444	true	closed	false	2		2017-04-24T20:31:14Z	2017-04-27T15:17:42Z	2017-04-27T15:17:42Z	test: fixup test-http-hostname-typechecking	65		
 12628	10393198	false	open	false	2		2017-04-24T20:52:12Z	2017-04-24T23:04:17Z		doc, meta: document what to do if `git push upstream master` is rejected	118		
 12629	910691	true	closed	false	1		2017-04-24T21:20:03Z	2017-04-27T15:16:20Z	2017-04-27T15:16:20Z	test: use common.js to check platform	67		
-12630	96947	false	open	false	34		2017-04-24T21:58:33Z	2017-05-01T15:10:01Z		Uniform way to trigger debugger on first line	296		
+12630	96947	false	open	false	37		2017-04-24T21:58:33Z	2017-05-01T16:19:14Z		Uniform way to trigger debugger on first line	296		
 12631	439929	true	closed	false	6		2017-04-24T22:04:58Z	2017-04-26T20:07:58Z	2017-04-26T16:41:52Z	util: deprecate util.deprecate()	52		
 12632	96947	true	open	false	9		2017-04-24T22:31:10Z	2017-04-30T23:04:22Z		gyp: get ninja generator compatible with VS2017	47		
 12633	9373002	true	closed	false	5		2017-04-24T23:06:50Z	2017-04-26T20:56:17Z	2017-04-26T20:56:17Z	test: test documented napi_get_value_int32 behaviour	61		
@@ -6015,7 +6015,7 @@
 12653	96947	true	open	false			2017-04-25T21:37:42Z	2017-04-26T13:28:59Z		build: reduce one level of spawning in node_gyp	41		
 12654	439929	true	open	false			2017-04-25T21:53:53Z	2017-04-29T19:28:18Z		os: refactor structure of the os module	71		
 12655	6529684	true	open	false	5		2017-04-25T22:01:21Z	2017-04-25T23:23:05Z		events: remove code duplication	48		
-12656	287917	true	open	false			2017-04-25T22:04:47Z	2017-04-30T19:50:13Z		inspector: do not add 'inspector' property	71		
+12656	287917	true	open	false			2017-04-25T22:04:47Z	2017-05-01T16:11:22Z		inspector: do not add 'inspector' property	71		
 12657	439929	false	open	false	0		2017-04-25T22:59:22Z	2017-04-25T23:24:00Z		events: performance regression in event benchmarks	92		
 12658	718899	true	closed	false	5		2017-04-26T02:57:50Z	2017-04-28T23:22:33Z	2017-04-28T23:22:33Z	benchmark: terminate child process on Windows	48		
 12659	718899	true	closed	false	2		2017-04-26T03:48:41Z	2017-04-26T18:27:27Z	2017-04-26T18:27:27Z	test: remove obsolete lint comment	44		
@@ -6080,7 +6080,7 @@
 12718	3661994	false	open	false	2		2017-04-28T04:23:23Z	2017-04-29T18:33:46Z		Piping twice to same stream then unpiping loses data	215		
 12719	7408689	false	open	false	0		2017-04-28T08:55:59Z	2017-04-28T08:55:59Z		Missing yesterday v8.0.0 nightly source tarball	6		
 12721	498775	true	open	false	2		2017-04-28T11:05:27Z	2017-04-29T09:53:29Z		"Revert ""src: fix delete operator on vm context"""	54		
-12722	275871	true	closed	false	0	0	2017-04-28T11:43:17Z	2017-05-01T15:18:49Z	2017-05-01T15:18:49Z	deps: cherry-pick bfae9db from upstream v8	17		
+12722	275871	true	closed	false	3		2017-04-28T11:43:17Z	2017-05-01T16:18:36Z	2017-05-01T15:18:49Z	deps: cherry-pick bfae9db from upstream v8	17		
 12723	439929	true	open	false			2017-04-28T14:28:21Z	2017-04-29T16:58:44Z		doc: update experimental status to reflect use	44		
 12724	1506512	false	open	false	6		2017-04-28T14:44:47Z	2017-04-29T17:21:15Z		node.js cluster, workers stdouts overlay each other on some hosts	149		
 12725	439929	true	open	false	1		2017-04-28T16:18:27Z	2017-04-28T23:18:54Z		process: add optional detail to process emitWarning	154		
@@ -6104,7 +6104,7 @@
 12743	4299420	true	open	false	0	0	2017-04-29T15:35:36Z	2017-04-29T15:35:36Z		"Revert ""test: remove eslint comments"""	45		
 12744	96947	true	open	false			2017-04-29T16:26:11Z	2017-04-29T19:13:41Z		"doc: adding ""rules of thumb"""	170		
 12745	439929	true	open	false	2		2017-04-29T16:54:19Z	2017-04-29T17:18:54Z		timer: refactor to use module.exports = {} and ES6 classes	65		
-12746	899444	true	open	false	6		2017-04-29T18:33:34Z	2017-05-01T14:53:05Z		stream: fix pipe(x)+pipe(x)+unpipe(x) scenario	97		
+12746	899444	true	open	false	7		2017-04-29T18:33:34Z	2017-05-01T17:00:04Z		stream: fix pipe(x)+pipe(x)+unpipe(x) scenario	97		
 12747	899444	true	open	false	0		2017-04-29T19:13:26Z	2017-05-01T00:12:16Z		http: fix first body chunk fast case for UTF-16	74		
 12748	96947	true	open	false	5		2017-04-29T20:14:42Z	2017-04-29T23:02:16Z		doc:spin off technical guide	80		
 12749	7902626	true	open	false	4		2017-04-29T20:51:37Z	2017-05-01T13:48:52Z		test: add new tests for fs.link()	42		
@@ -6113,7 +6113,7 @@
 12752	899444	true	open	false	3		2017-04-29T22:51:10Z	2017-05-01T13:49:52Z		crypto: throw proper errors if out enc is UTF-16	47		
 12753	899444	true	open	false	0	0	2017-04-29T23:50:05Z	2017-04-29T23:50:05Z		src: turn buffer type-CHECK into exception	50		
 12754	1716463	true	open	false	0		2017-04-30T02:25:58Z	2017-05-01T12:12:06Z		tools: ignore node_trace.*.log	21		
-12755	439929	true	open	false			2017-04-30T03:56:23Z	2017-04-30T18:51:30Z		readline: refactor readline module	69		
+12755	439929	true	open	false			2017-04-30T03:56:23Z	2017-05-01T16:46:31Z		readline: refactor readline module	69		
 12756	1716463	true	open	false			2017-04-30T06:07:08Z	2017-05-01T14:13:49Z		tools: introduce `make mdlint` command and tools	106		
 12757	432351	true	open	false	2		2017-04-30T06:23:41Z	2017-04-30T13:10:06Z		test: add hasCrypto check to cluster-inspect-brk	66		
 12758	96947	false	open	false	1		2017-04-30T13:16:54Z	2017-04-30T17:11:52Z		inspector: unavailable when built --without-ssl	39		
@@ -6125,12 +6125,12 @@
 12764	1211376	true	open	false	1		2017-04-30T17:18:35Z	2017-04-30T20:41:56Z		vcbuild.bat: adding option static enabling the option --enable-static	43		
 12765	899444	true	open	false			2017-04-30T17:30:02Z	2017-05-01T15:10:29Z		src: do proper StringBytes error handling	143		
 12766	899444	true	open	false	3		2017-04-30T18:12:44Z	2017-05-01T14:45:42Z		stream: make `.setEncoding(null)` reset to default	105		
-12767	899444	true	open	false	0		2017-04-30T18:39:29Z	2017-05-01T06:21:06Z		stream: remove unnecessary parameter	41		
-12768	96947	true	open	false	2		2017-04-30T19:33:45Z	2017-05-01T12:59:00Z		build: renamed `inspector` switch to `debugger`	91		
+12767	899444	true	open	false	1		2017-04-30T18:39:29Z	2017-05-01T16:40:58Z		stream: remove unnecessary parameter	41		
+12768	96947	true	open	false	3		2017-04-30T19:33:45Z	2017-05-01T16:11:17Z		build: renamed `inspector` switch to `debugger`	91		
 12769	17785196	false	open	false	6		2017-04-30T21:44:02Z	2017-05-01T12:53:05Z		Newest node js installs npm old version!	33		
 12770	718899	true	open	false	3		2017-04-30T22:55:57Z	2017-05-01T00:59:01Z		test: enable test-debugger-pid	54		
 12771	10393198	false	open	false	2		2017-05-01T00:56:08Z	2017-05-01T13:24:53Z		doc, test: question about test.py -v key in CONTRIBUTING.md	113		
 12772	131776	false	open	false	0		2017-05-01T06:35:16Z	2017-05-01T06:35:16Z		visual tools for profiling logs?	18		
 12773	10393198	false	open	false	2		2017-05-01T07:33:31Z	2017-05-01T13:12:00Z		test: tests fails on Windows with spaces in paths	452		
 12774	177641	false	open	false	2		2017-05-01T11:28:51Z	2017-05-01T12:36:21Z		Print better error messages on RequireObjectCoercible error	110		
-12775	677994	true	open	false	0	0	2017-05-01T15:16:15Z	2017-05-01T15:16:15Z		v7.10.0 proposal	1678		
+12775	677994	true	open	false	0		2017-05-01T15:16:15Z	2017-05-01T16:23:14Z		v7.10.0 proposal	2131		
