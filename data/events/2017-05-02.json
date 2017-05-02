@@ -1,10 +1,10 @@
 {
-  "words": 774,
-  "comments": 14,
+  "words": 1560,
+  "comments": 24,
   "prs": {
-    "opened": 1,
-    "closed": 1,
-    "words": 774
+    "opened": 4,
+    "closed": 5,
+    "words": 1560
   },
   "issues": {
     "opened": 0,
@@ -13,10 +13,13 @@
   },
   "activity": {
     "CTC": {
-      "100": {"comments":1,"words":27,"pr":true},
+      "100": {"comments":2,"words":229,"pr":true,"closed":"","closer":"96947"},
+      "118": {"comments":0,"words":70,"opened":"2017-05-02T01:42:47Z","opener":"96947","pr":true},
       "open": 19,
-      "words": 27,
-      "comments": 1
+      "words": 299,
+      "comments": 2,
+      "closed": 1,
+      "opened": 1
     },
     "Future-CI": {"open":4},
     "Intl": {"open":20},
@@ -52,7 +55,16 @@
     "help": {"open":110},
     "http": {"open":14},
     "http-parser": {"open":54},
-    "http2": {"open":11},
+    "http2": {
+      "54": {"comments":1,"words":47,"pr":true,"closed":"2017-05-02T01:07:25Z","closer":"439929"},
+      "56": {"comments":1,"words":52,"pr":true,"closed":"2017-05-02T01:07:14Z","closer":"439929"},
+      "57": {"comments":0,"words":30,"opened":"2017-05-02T01:45:47Z","opener":"439929","pr":true},
+      "open": 10,
+      "words": 129,
+      "comments": 2,
+      "closed": 2,
+      "opened": 1
+    },
     "inclusivity": {"open":19},
     "inclusivity-slack-inviter": {"open":1},
     "installer": {"open":13},
@@ -62,30 +74,40 @@
     "logos": {"open":2},
     "nan": {"open":31},
     "node": {
+      "12545": {"comments":1,"words":10,"pr":true},
       "12691": {"comments":2,"words":58,"pr":true},
       "12712": {"comments":1,"words":64,"pr":true},
       "12734": {"comments":1,"words":131,"pr":true},
       "12736": {"comments":4,"words":234,"pr":true},
+      "12771": {"comments":1,"words":40,"pr":true},
       "12774": {"comments":1,"words":51,"pr":true},
       "12777": {"comments":1,"words":24,"pr":true},
       "12778": {"comments":1,"words":90,"closed":"2017-05-02T00:19:06Z","closer":"1538624","pr":true},
-      "open": 1050,
-      "words": 652,
-      "comments": 11,
-      "closed": 1
+      "12781": {"comments":1,"words":214,"opened":"2017-05-02T01:34:08Z","opener":"439929","pr":true},
+      "open": 1051,
+      "words": 916,
+      "comments": 14,
+      "closed": 1,
+      "opened": 1
     },
     "node-addon-examples": {"open":30},
     "node-api": {"open":8},
     "node-chakracore": {
       "223": {"comments":1,"words":35,"pr":true},
-      "230": {"comments":1,"words":60,"pr":true,"opened":"2017-05-02T00:57:41Z","opener":"931192"},
-      "open": 57,
-      "words": 95,
+      "230": {"comments":2,"words":137,"pr":true,"opened":"2017-05-02T00:57:41Z","opener":"931192","closed":"","closer":"931192"},
+      "open": 56,
+      "words": 172,
       "opened": 1,
-      "comments": 2
+      "comments": 3,
+      "closed": 1
     },
     "node-convergence-archive": {"open":6},
-    "node-eps": {"open":20},
+    "node-eps": {
+      "39": {"comments":2,"words":28,"pr":true},
+      "open": 20,
+      "words": 28,
+      "comments": 2
+    },
     "node-gyp": {"open":266},
     "node-inspect": {"open":7},
     "node-report": {"open":17},
@@ -137,7 +159,12 @@
     "roadmap": {"open":14},
     "security-wg": {"open":9},
     "smoke-test": {"open":4},
-    "summit": {"open":2},
+    "summit": {
+      "41": {"comments":1,"words":16,"pr":true},
+      "open": 2,
+      "words": 16,
+      "comments": 1
+    },
     "testing": {"open":20},
     "v8": {"open":3},
     "version-management": {"open":9},
@@ -150,6 +177,30 @@
       "words": {
         "node/pulls/12734#298467739": 131
       }
+    },
+    "73085": {
+      "id": "73085",
+      "login": "Kovensky",
+      "words": {
+        "node-eps/pulls/39#114235794": 24,
+        "node-eps/pulls/39#114235932": 4
+      }
+    },
+    "96947": {
+      "id": "96947",
+      "login": "refack",
+      "words": {
+        "CTC/pulls/100#298476360": 2,
+        "CTC/issues/100": 200,
+        "CTC/issues/118": 70,
+        "node/pulls/12781#298478068": 35
+      },
+      "closed": [
+        "CTC/issues/100"
+      ],
+      "opened": [
+        "CTC/issues/118"
+      ]
     },
     "158390": {
       "id": "158390",
@@ -164,6 +215,21 @@
       "words": {
         "node/pulls/12774#298467574": 51
       }
+    },
+    "439929": {
+      "id": "439929",
+      "login": "jasnell",
+      "words": {
+        "http2/pulls/56#298472668": 1,
+        "http2/pulls/54#298472690": 1,
+        "node/issues/12781": 179,
+        "summit/pulls/41#298476595": 16,
+        "http2/issues/57": 30
+      },
+      "opened": [
+        "node/issues/12781",
+        "http2/issues/57"
+      ]
     },
     "498775": {
       "id": "498775",
@@ -193,9 +259,13 @@
       "login": "kfarnung",
       "words": {
         "node-chakracore/pulls/230": 58,
-        "node-chakracore/pulls/230#298471601": 2
+        "node-chakracore/pulls/230#298471601": 2,
+        "node-chakracore/pulls/230#298474014": 19
       },
       "opened": [
+        "node-chakracore/pulls/230"
+      ],
+      "closed": [
         "node-chakracore/pulls/230"
       ]
     },
@@ -215,6 +285,18 @@
         "node/pulls/12777#298469677": 24
       }
     },
+    "2365820": {
+      "id": "2365820",
+      "login": "kjin",
+      "words": {
+        "http2/pulls/56": 51,
+        "http2/pulls/54": 46
+      },
+      "closed": [
+        "http2/pulls/56",
+        "http2/pulls/54"
+      ]
+    },
     "3061653": {
       "id": "3061653",
       "login": "vejo",
@@ -231,6 +313,20 @@
       "closed": [
         "node/issues/12778"
       ]
+    },
+    "4923335": {
+      "id": "4923335",
+      "login": "aqrln",
+      "words": {
+        "node/pulls/12545#114236308": 10
+      }
+    },
+    "5445507": {
+      "id": "5445507",
+      "login": "richardlau",
+      "words": {
+        "node/pulls/12771#298478234": 40
+      }
     }
   }
 }
