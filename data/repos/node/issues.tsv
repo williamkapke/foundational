@@ -195,7 +195,7 @@
 3604	13315	false	open	false	13		2015-10-30T14:21:10Z	2016-07-21T09:02:46Z		a simple script to crash Node.js with an assertion failure: (loop->watchers[w->fd] == w)	66		
 3606	170197	false	open	false	62		2015-10-30T14:47:16Z	2017-02-23T01:28:38Z		Error: Cannot find module './lib'	31		
 3648	2056977	false	open	false	10		2015-11-03T18:22:21Z	2017-02-07T20:27:51Z		util.inspect is not so hot on large typed arrays	102		
-3655	731722	false	open	false	4		2015-11-04T02:44:31Z	2017-02-07T20:21:50Z		uv_read_start: Assertion `((stream)->io_watcher.fd) >= 0' failed.	14		
+3655	731722	false	open	false	5		2015-11-04T02:44:31Z	2017-05-02T19:09:33Z		uv_read_start: Assertion `((stream)->io_watcher.fd) >= 0' failed.	14		
 3659	7237097	false	closed	false	47		2015-11-04T10:35:25Z	2017-01-02T19:12:24Z	2017-01-02T17:00:38Z	Performance of 'http' + anonymous functions eventually slows down	600		
 3664	907301	false	closed	false	5		2015-11-04T19:52:31Z	2017-02-07T21:11:04Z	2017-02-07T21:11:04Z	npmrc file node installer generates needs to be changed	93		
 3665	1093990	false	open	false	9		2015-11-04T21:10:29Z	2017-04-13T14:22:06Z		Revisit unrefed handles and `beforeExit` internals	282		
@@ -4326,7 +4326,7 @@
 10959	275871	true	closed	false	7	0	2017-01-23T05:01:23Z	2017-01-26T00:56:11Z	2017-01-26T00:56:11Z	src: move trace_event.h include to internal header	30		
 10960	718899	true	closed	false	2		2017-01-23T05:30:33Z	2017-01-26T00:04:05Z	2017-01-26T00:04:05Z	test: enhance test-timers	64		
 10961	1684137	false	open	false	4		2017-01-23T09:43:22Z	2017-01-25T15:05:21Z		pause() on response of http.request() causes 'aborted' event, and ClientRequest.abort() resumes the response.	180		
-10962	15943003	false	open	false	1		2017-01-23T11:38:32Z	2017-03-22T22:27:13Z		Reading a directory	57		
+10962	15943003	false	open	false	3		2017-01-23T11:38:32Z	2017-05-02T19:16:20Z		Reading a directory	57		
 10963	3367801	true	closed	false	1		2017-01-23T13:40:29Z	2017-01-27T21:52:45Z	2017-01-27T21:52:45Z	test: increase coverage for stream's duplex	50		
 10964	5886475	true	closed	false	6		2017-01-23T13:55:45Z	2017-04-17T21:28:04Z	2017-01-30T17:15:09Z	test: increase coverage of internal/util	32		
 10965	4836896	false	open	false	3		2017-01-23T18:47:22Z	2017-03-20T20:26:39Z		worker.send stripping Map and replacing with {}	57		
@@ -5373,7 +5373,7 @@
 12007	3286504	false	closed	false	4		2017-03-23T18:54:59Z	2017-03-28T09:09:56Z	2017-03-28T09:09:56Z	Doc issue	46		
 12008	3286504	true	open	false	1		2017-03-23T20:13:28Z	2017-03-24T00:22:07Z		doc: fix link in timers api doc.	23		
 12009	332968	true	closed	false	3		2017-03-23T21:06:38Z	2017-03-26T09:43:09Z	2017-03-26T09:43:09Z	test: testing validity of prefix in mkdtempSync	56		
-12010	1093990	true	open	false	13		2017-03-23T21:28:45Z	2017-05-01T15:29:14Z		lib,src: exit process on unhandled promise rejection cleanup	206		
+12010	1093990	true	open	false	14		2017-03-23T21:28:45Z	2017-05-02T19:30:11Z		lib,src: exit process on unhandled promise rejection cleanup	206		
 12011	590520	true	closed	false	4		2017-03-23T23:09:48Z	2017-03-26T09:40:54Z	2017-03-26T09:40:54Z	Improve test-tls-key-mismatch.js	11		
 12012	718899	true	closed	false	11		2017-03-23T23:40:21Z	2017-03-28T18:35:42Z	2017-03-28T18:35:42Z	buffer: remove error for malformatted hex string	50		
 12013	23180155	false	closed	false	3		2017-03-23T23:46:08Z	2017-03-24T02:10:07Z	2017-03-24T02:10:07Z	Writing Invalid File Does Not Throw Error (fs)	46		
@@ -6087,7 +6087,7 @@
 12725	439929	true	closed	false	2		2017-04-28T16:18:27Z	2017-05-01T18:57:31Z	2017-05-01T18:57:31Z	process: add optional detail to process emitWarning	154		
 12726	17607	true	open	false	0	0	2017-04-28T17:54:10Z	2017-04-28T17:54:10Z		doc: sort bottom-of-file markdown links	21		
 12727	15825329	true	open	false			2017-04-28T18:14:22Z	2017-04-28T21:58:40Z		made the function change from indexOf to includes only for placeholde…	46		
-12728	13756727	true	open	false			2017-04-28T19:03:19Z	2017-04-29T13:26:21Z		minor fixes to test-module-loading.js	45		
+12728	13756727	true	open	false	1		2017-04-28T19:03:19Z	2017-05-02T19:11:07Z		test: minor fixes to test-module-loading.js	45		
 12729	9373002	true	open	false			2017-04-28T19:33:54Z	2017-05-02T14:30:23Z		test: add coverage for error apis	62		
 12730	9373002	true	open	false	1		2017-04-28T20:00:43Z	2017-05-01T22:02:51Z		test: fix warning in n-api reference test	42		
 12731	96947	true	closed	false	1		2017-04-28T20:31:46Z	2017-04-30T12:50:42Z	2017-04-30T10:52:20Z	doc: Fix formatting of TOC	21		
@@ -6125,7 +6125,7 @@
 12763	910691	true	open	false	5		2017-04-30T16:12:25Z	2017-05-02T05:33:49Z		add missing option to node PrintHelp	67		
 12764	1211376	true	open	false	1		2017-04-30T17:18:35Z	2017-04-30T20:41:56Z		vcbuild.bat: adding option static enabling the option --enable-static	43		
 12765	899444	true	open	false	2		2017-04-30T17:30:02Z	2017-05-01T18:45:05Z		src: do proper StringBytes error handling	143		
-12766	899444	true	open	false	7		2017-04-30T18:12:44Z	2017-05-01T17:02:50Z		stream: make `.setEncoding(null)` reset to default	105		
+12766	899444	true	open	false	10		2017-04-30T18:12:44Z	2017-05-02T19:28:41Z		stream: make `.setEncoding(null)` reset to default	105		
 12767	899444	true	open	false	1		2017-04-30T18:39:29Z	2017-05-01T16:40:58Z		stream: remove unnecessary parameter	41		
 12768	96947	true	open	false	6		2017-04-30T19:33:45Z	2017-05-01T17:40:30Z		build: require `--without-debugger` explicitly	95		
 12769	17785196	false	open	false	6		2017-04-30T21:44:02Z	2017-05-01T12:53:05Z		Newest node js installs npm old version!	33		
@@ -6143,16 +6143,19 @@
 12781	439929	false	open	false	0		2017-05-02T01:34:08Z	2017-05-02T01:34:08Z		Meta: Reminder about Collaborator Summit in Berlin, this Thursday and Friday	179		
 12782	5637961	false	open	false	0		2017-05-02T02:55:30Z	2017-05-02T03:32:25Z		Windows named pipes race condition on latest node	384		
 12783	52195	true	open	false	1		2017-05-02T07:13:51Z	2017-05-02T13:09:36Z		stream: Backport of #11876, fixes missing 'unpipe' event	63		
-12784	2352663	true	open	false	5		2017-05-02T09:11:05Z	2017-05-02T18:22:21Z		deps: update V8 to 5.8	50		
+12784	2352663	true	open	false	6		2017-05-02T09:11:05Z	2017-05-02T19:37:21Z		deps: update V8 to 5.8	50		
 12785	2253649	true	open	false			2017-05-02T09:34:18Z	2017-05-02T10:24:32Z		test-vm-is-context.js : changed the assert.thows object to regex and …	24		
 12786	10393198	false	open	false	4		2017-05-02T09:41:13Z	2017-05-02T16:40:24Z		test, tools: tools\test.py --help fails on Windows in shell with Unicode codepage	364		
 12787	432351	true	open	false	1		2017-05-02T12:43:38Z	2017-05-02T13:22:21Z		src: rename CryptoPemCallback -> PasswordCallback	76		
 12788	432351	true	open	false	0	0	2017-05-02T13:05:49Z	2017-05-02T13:05:49Z		src: make root_cert_vector function scoped	62		
-12789	899444	false	open	false	1		2017-05-02T14:47:37Z	2017-05-02T16:04:20Z		CTC membership nomination: @joyeecheung	253		
-12790	899444	false	open	false	5		2017-05-02T14:49:02Z	2017-05-02T17:53:33Z		CTC membership nomination: @mcollina	238		
+12789	899444	false	open	false	3		2017-05-02T14:47:37Z	2017-05-02T20:02:36Z		CTC membership nomination: @joyeecheung	253		
+12790	899444	false	open	false	5		2017-05-02T14:49:02Z	2017-05-02T19:55:41Z		CTC membership nomination: @mcollina	238		
 12791	96947	true	open	false	4		2017-05-02T14:50:34Z	2017-05-02T18:39:04Z		"doc: add ""Troubleshooting"" & ""rules of thumb"""	222		
 12792	10393198	true	open	false	1		2017-05-02T14:59:32Z	2017-05-02T18:57:38Z		test: fix too optimistic guess in setproctitle	194		
 12793	15943089	false	open	false	3		2017-05-02T15:33:49Z	2017-05-02T18:31:26Z		Note that whatwg-url tests should not be modified	35		
 12794	794604	true	open	false			2017-05-02T17:29:48Z	2017-05-02T18:19:57Z		Add process.dlopenFlags	166		
-12796	718899	true	open	false	0	0	2017-05-02T18:32:02Z	2017-05-02T18:32:02Z		doc: edit CONTRIBUTING.md for clarity etc.	25		
-12797	16063953	true	open	false	0	0	2017-05-02T18:33:45Z	2017-05-02T18:33:45Z		test: add comment to all whatwg-url tests saying they should not be m…	43		
+12796	718899	true	open	false			2017-05-02T18:32:02Z	2017-05-02T19:06:31Z		doc: edit CONTRIBUTING.md for clarity etc.	25		
+12797	16063953	true	closed	false	2	0	2017-05-02T18:33:45Z	2017-05-02T19:06:54Z	2017-05-02T19:06:54Z	test: add comment to all whatwg-url tests saying they should not be m…	43		
+12798	16063953	true	open	false	0	0	2017-05-02T19:06:35Z	2017-05-02T19:06:35Z		test: add comment to all whatwg-url tests	63		
+12799	910691	true	open	false	0	0	2017-05-02T19:10:05Z	2017-05-02T19:10:05Z		tls: do not wrap net.Socket with StreamWrap	133		
+12800	5358146	true	open	false	0	0	2017-05-02T19:14:34Z	2017-05-02T19:14:34Z		Updated fs.md for readFileSync	37		
