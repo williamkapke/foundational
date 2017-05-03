@@ -4657,7 +4657,7 @@
 11290	5886475	true	open	false	6		2017-02-10T15:26:03Z	2017-02-17T18:20:50Z		test: increase coverage of timers	32		
 11291	2512748	true	closed	false	1	0	2017-02-10T15:34:39Z	2017-02-13T22:27:13Z	2017-02-13T22:27:13Z	test: add coverage for dgram _createSocketHandle()	48	2512748	2017-02-13T22:27:13Z
 11292	2512748	true	closed	false	2		2017-02-10T16:45:16Z	2017-03-07T17:16:50Z	2017-02-14T16:58:13Z	test: cover dgram socket close during cluster bind	72		
-11293	1028226	true	open	false	6		2017-02-10T16:52:01Z	2017-05-02T21:56:18Z		https: use internal/errors.js	43		
+11293	1028226	true	open	false			2017-02-10T16:52:01Z	2017-05-02T23:29:32Z		https: use internal/errors.js	43		
 11294	439929	true	open	false	24		2017-02-10T16:57:04Z	2017-04-20T18:32:18Z		errors, process: port internal/process errors to internal/errors	88		
 11295	2512748	true	closed	false	1		2017-02-10T17:00:53Z	2017-03-09T00:04:21Z	2017-02-13T18:33:40Z	test: cover cluster error during dgram socket bind	66		
 11296	22550884	true	open	false	19		2017-02-10T17:28:26Z	2017-03-07T18:26:39Z		lib/src: refactoring out of range index and and migrate error for consistency	57		
@@ -4665,7 +4665,7 @@
 11298	439929	true	closed	false	16		2017-02-10T18:26:16Z	2017-04-24T18:17:22Z	2017-04-24T16:16:02Z	errors: assign error code to bootstrap_node created error	72		
 11299	4299420	false	closed	false	2		2017-02-10T19:10:24Z	2017-03-22T03:17:12Z	2017-03-22T03:17:12Z	New error system in WHATWG URL implementation	59		
 11300	439929	true	closed	false	9		2017-02-10T20:10:25Z	2017-04-27T22:46:20Z	2017-04-27T22:46:20Z	errors, child_process: migrate to using internal/errors	48		
-11301	1028226	true	open	false	4		2017-02-10T20:26:27Z	2017-05-02T21:55:38Z		internal/util: use internal/errors.js	57		
+11301	1028226	true	open	false			2017-02-10T20:26:27Z	2017-05-02T23:35:01Z		internal/util: use internal/errors.js	57		
 11302	1028226	true	open	false	1		2017-02-10T21:19:34Z	2017-05-01T19:17:00Z		errors,net: change internal/net.js to use internal/errors.js	57		
 11303	718899	true	closed	false	1		2017-02-10T21:57:07Z	2017-02-13T22:23:22Z	2017-02-13T22:23:22Z	test: refactor test-repl-sigint-nested-eval	44		
 11304	718899	true	closed	false	4	0	2017-02-10T22:14:21Z	2017-02-15T20:05:29Z	2017-02-15T20:05:29Z	assert: unlock the assert API	34		
@@ -6087,14 +6087,14 @@
 12725	439929	true	closed	false	2		2017-04-28T16:18:27Z	2017-05-01T18:57:31Z	2017-05-01T18:57:31Z	process: add optional detail to process emitWarning	154		
 12726	17607	true	open	false	0	0	2017-04-28T17:54:10Z	2017-04-28T17:54:10Z		doc: sort bottom-of-file markdown links	21		
 12727	15825329	true	open	false			2017-04-28T18:14:22Z	2017-04-28T21:58:40Z		made the function change from indexOf to includes only for placeholde…	46		
-12728	13756727	true	open	false	1		2017-04-28T19:03:19Z	2017-05-02T19:11:07Z		test: minor fixes to test-module-loading.js	45		
+12728	13756727	true	closed	false	4	5	2017-04-28T19:03:19Z	2017-05-02T23:11:49Z	2017-05-02T23:11:49Z	test: minor fixes to test-module-loading.js	45		
 12729	9373002	true	open	false			2017-04-28T19:33:54Z	2017-05-02T14:30:23Z		test: add coverage for error apis	62		
 12730	9373002	true	open	false	1		2017-04-28T20:00:43Z	2017-05-01T22:02:51Z		test: fix warning in n-api reference test	42		
 12731	96947	true	closed	false	1		2017-04-28T20:31:46Z	2017-04-30T12:50:42Z	2017-04-30T10:52:20Z	doc: Fix formatting of TOC	21		
 12732	4923335	true	open	false	7		2017-04-28T21:48:38Z	2017-04-29T16:09:11Z		test: make common.noop a getter	77		
 12733	9373002	true	open	false	0		2017-04-28T22:14:04Z	2017-05-01T21:02:21Z		src: add --napi-modules to whitelist	54		
 12734	1093990	true	open	false	23		2017-04-28T22:34:28Z	2017-05-02T17:47:23Z		lib,src: eagerly exit process on unhanded promise rejections	228		
-12735	10393198	true	open	false	23		2017-04-28T22:42:15Z	2017-05-02T16:34:13Z		test: reduce string concatenations	94		
+12735	10393198	true	open	false	25		2017-04-28T22:42:15Z	2017-05-02T23:49:58Z		test: reduce string concatenations	94		
 12736	718899	true	open	false	16		2017-04-29T05:25:53Z	2017-05-02T21:57:09Z		test: move WPT to its own testing module	93		
 12737	318622	false	open	false	1		2017-04-29T05:48:43Z	2017-04-30T00:30:10Z		fs.lstatSync doesn't handle specific Windows REPARSE POINTS	212		
 12738	718899	true	closed	false	2		2017-04-29T05:57:09Z	2017-05-02T22:04:53Z	2017-05-02T22:04:53Z	cluster: remove debug arg handling	71		
@@ -6130,13 +6130,13 @@
 12768	96947	true	open	false	6		2017-04-30T19:33:45Z	2017-05-01T17:40:30Z		build: require `--without-debugger` explicitly	95		
 12769	17785196	false	open	false	6		2017-04-30T21:44:02Z	2017-05-01T12:53:05Z		Newest node js installs npm old version!	33		
 12770	718899	true	open	false	3		2017-04-30T22:55:57Z	2017-05-01T00:59:01Z		test: enable test-debugger-pid	54		
-12771	10393198	false	open	false	8		2017-05-01T00:56:08Z	2017-05-02T09:41:33Z		doc, test: question about test.py -v key in CONTRIBUTING.md	113		
+12771	10393198	false	open	false	9		2017-05-01T00:56:08Z	2017-05-02T23:11:58Z		doc, test: question about test.py -v key in CONTRIBUTING.md	113		
 12772	131776	false	open	false	0		2017-05-01T06:35:16Z	2017-05-01T06:35:16Z		visual tools for profiling logs?	18		
 12773	10393198	false	open	false	6		2017-05-01T07:33:31Z	2017-05-01T18:20:19Z		test: tests fails on Windows with spaces in paths	452		
 12774	177641	false	closed	false	4		2017-05-01T11:28:51Z	2017-05-02T22:52:22Z	2017-05-02T22:52:22Z	Print better error messages on RequireObjectCoercible error	110		
 12775	677994	true	open	false	1		2017-05-01T15:16:15Z	2017-05-02T18:13:15Z		v7.10.0 proposal	2253		
 12776	5880012	false	open	false	11		2017-05-01T18:43:28Z	2017-05-02T11:19:39Z		File descriptors not closed properly on OSX	171		
-12777	287917	true	open	false	6		2017-05-01T20:42:41Z	2017-05-02T21:56:58Z		inspector: implement process._debugEnd()	58		
+12777	287917	true	open	false			2017-05-01T20:42:41Z	2017-05-02T23:03:19Z		inspector: implement process._debugEnd()	58		
 12778	3134574	false	closed	false	1		2017-05-01T21:02:38Z	2017-05-02T00:19:06Z	2017-05-02T00:19:06Z	new URLSearchParams([[key1, val1], [key2, val2]]) is not working	38		
 12779	79017	true	open	false	0	0	2017-05-01T21:07:40Z	2017-05-01T21:07:40Z		deps: cherry-pick e560815 from upstream v8	70		
 12780	26774806	false	open	false	2		2017-05-01T21:25:32Z	2017-05-01T23:48:00Z		Feature request: utilize Symbol.toStringTag in util.inspect	66		
@@ -6161,5 +6161,5 @@
 12799	910691	true	open	false	0		2017-05-02T19:10:05Z	2017-05-02T21:36:40Z		tls: do not wrap net.Socket with StreamWrap	133		
 12800	5358146	true	open	false			2017-05-02T19:14:34Z	2017-05-02T22:24:39Z		doc: updated readFileSync in fs.md	34		
 12801	10393198	false	open	false	0		2017-05-02T20:57:44Z	2017-05-02T21:24:13Z		fs: question about chmod() mode argument type	39		
-12802	412362	false	open	false	0		2017-05-02T22:23:34Z	2017-05-02T22:23:34Z		https.createServer accepts any non-falsey values for key and cert	245		
+12802	412362	false	open	false	1		2017-05-02T22:23:34Z	2017-05-02T23:21:56Z		https.createServer accepts any non-falsey values for key and cert	263		
 12803	10393198	false	open	false	0		2017-05-02T22:57:08Z	2017-05-02T22:57:08Z		fs, test: edge case in Windows prevents fs.fchmod() from changing mode and breaks incomplete test	595		
