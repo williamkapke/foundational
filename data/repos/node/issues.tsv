@@ -5474,7 +5474,7 @@
 12109	5886475	true	open	false	0		2017-03-29T02:51:01Z	2017-04-10T22:46:29Z		backport: v7.x - #11989 - test: add internal/socket_list tests	40		
 12110	432351	true	closed	false	0		2017-03-29T05:44:40Z	2017-03-31T05:22:41Z	2017-03-31T05:22:41Z	test: fix truncation of argv	83		
 12111	718899	true	closed	false	22		2017-03-29T05:50:22Z	2017-03-31T05:50:15Z	2017-03-31T05:50:15Z	test: fix flaky child-process-exec-kill-throws	115		
-12112	1443911	true	open	false	0	0	2017-03-29T06:43:22Z	2017-03-29T06:43:22Z		v7.x backport: http: avoid retaining unneeded memory	4		
+12112	1443911	true	open	false	1		2017-03-29T06:43:22Z	2017-05-03T10:11:45Z		v7.x backport: http: avoid retaining unneeded memory	4		
 12113	54666	true	open	false	6		2017-03-29T07:45:35Z	2017-04-04T17:03:01Z		linkedlist: remove public module	48		
 12114	413206	false	open	false	5		2017-03-29T08:50:05Z	2017-04-07T13:40:15Z		base64 decoder could be 2x faster when decoding wrapped base64	224		
 12115	7016138	false	open	false	40		2017-03-29T09:24:52Z	2017-04-25T04:55:11Z		Node occasionally gives multiple files/folders the same inode	310		
@@ -5953,7 +5953,7 @@
 12590	8000808	true	open	false	0	0	2017-04-22T18:20:39Z	2017-04-22T18:20:39Z		refactoring: use block scope in test-buffer-swap.js	42		
 12591	11621037	true	closed	false	2	0	2017-04-22T18:34:57Z	2017-04-26T04:19:04Z	2017-04-26T04:19:04Z	test: improved type checking with regex	41		
 12592	6517545	true	open	false			2017-04-22T18:56:25Z	2017-04-24T14:26:28Z		test: use common.mustCall in test-tls-connect-given-socket.js	38		
-12593	3109072	true	open	false	9		2017-04-22T19:15:14Z	2017-05-03T09:43:26Z		stream: add highWaterMark validity checks	47		
+12593	3109072	true	open	false	10		2017-04-22T19:15:14Z	2017-05-03T10:18:31Z		stream: add highWaterMark validity checks	47		
 12594	8000808	true	open	false	7		2017-04-22T19:31:34Z	2017-04-29T15:32:29Z		test: adding mustCall in test-timers-unrefed-in-callback.js	40		
 12595	20189491	true	closed	false	4		2017-04-22T19:35:08Z	2017-04-26T04:15:53Z	2017-04-26T04:15:53Z	test: cleanup test-fs-watch.js 	46		
 12596	9672257	true	closed	false	3		2017-04-22T19:38:36Z	2017-04-25T05:55:46Z	2017-04-24T18:29:21Z	test: refactored context type err message to regex	24		
@@ -6065,7 +6065,7 @@
 12702	12046617	true	open	false	6		2017-04-27T18:25:23Z	2017-05-02T16:08:22Z		test: refactoring test with common.mustCall	51		
 12703	24783272	true	open	false			2017-04-27T19:16:12Z	2017-05-02T18:20:44Z		modified test-repl-persistent-history to use common.mustCall	42		
 12704	718899	true	closed	false	3	0	2017-04-27T20:33:07Z	2017-04-30T20:40:51Z	2017-04-30T20:40:51Z	test: move test to sequential for reliability	45		
-12705	976081	true	open	false	0		2017-04-27T20:40:19Z	2017-04-28T13:39:23Z		n-api: remove unnecessary try-catch bracket from certain APIs	65		
+12705	976081	true	open	false	1		2017-04-27T20:40:19Z	2017-05-03T11:01:22Z		n-api: remove unnecessary try-catch bracket from certain APIs	65		
 12706	1093990	false	open	false	0		2017-04-27T21:05:39Z	2017-04-27T21:05:39Z		The inspector `process.on(SIGPROF)` warning is non-standard.	88		
 12707	1716463	true	closed	false	5		2017-04-27T21:17:40Z	2017-05-01T17:24:41Z	2017-05-01T17:24:41Z	src: support domains with empty labels in i18n 	109		
 12708	861080	false	open	false	0		2017-04-27T21:39:07Z	2017-04-27T21:39:07Z		Some of the Tests of the NodeJS_v_6_10_2 fail on Raspberry Pi 3, Raspbian	1159		
@@ -6167,5 +6167,6 @@
 12805	968222	false	open	false	2		2017-05-03T03:03:48Z	2017-05-03T06:29:28Z		high rss and steady and low heap usage	116		
 12806	718899	true	open	false	0	0	2017-05-03T04:03:06Z	2017-05-03T04:03:06Z		tools: remove unused code from test.py	25		
 12807	718899	true	open	false	0	0	2017-05-03T06:17:50Z	2017-05-03T06:17:50Z		tools: relax lint rule for regexps	94		
-12808	1716463	true	open	false	0	0	2017-05-03T07:32:43Z	2017-05-03T07:32:43Z		url: handle windows drive letter in the file state	57		
+12808	1716463	true	open	false	1		2017-05-03T07:32:43Z	2017-05-03T10:12:57Z		url: handle windows drive letter in the file state	57		
 12809	1062408	false	open	false	1		2017-05-03T08:53:06Z	2017-05-03T09:08:00Z		Intl: comma swapped with thousands for language DE in currency	64		
+12810	26805623	false	open	false	0		2017-05-03T10:46:54Z	2017-05-03T10:46:54Z		Error:“read ECONNRESET”  - While connect nodeJS code with bluemix to retrieve data	96		
