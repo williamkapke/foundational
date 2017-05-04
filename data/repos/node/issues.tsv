@@ -84,7 +84,7 @@
 2277	114976	false	closed	false	3		2015-07-30T17:38:32Z	2017-03-24T23:31:42Z	2017-03-24T23:31:42Z	url.format prefers host over hostname, but http.request does the opposite	134		
 2303	1197375	true	closed	false	36		2015-08-05T01:08:53Z	2017-02-28T22:48:32Z	2017-02-28T22:48:32Z	url: Improve url module performance #3 	53		
 2309	43438	false	closed	false	8		2015-08-05T17:40:28Z	2017-03-29T19:20:25Z	2015-10-19T04:10:48Z	assert.deepEqual & post-ES5 Data Types e.g. Map, Set, Iterables, etc	51		
-2314	1128607	true	open	false	52		2015-08-06T18:34:59Z	2017-03-26T11:35:29Z		stream: add _end method to write streams (equivilent to _flush)	87		
+2314	1128607	true	open	false	53		2015-08-06T18:34:59Z	2017-05-04T12:27:23Z		stream: add _end method to write streams (equivilent to _flush)	87		
 2315	677994	true	closed	false	27		2015-08-06T20:20:44Z	2017-01-24T15:39:59Z	2015-08-21T12:51:10Z	assert: add support for Set and Map	87		
 2329	137545	true	closed	false	16		2015-08-08T13:37:47Z	2017-03-24T23:32:22Z	2017-03-24T23:32:22Z	[addons] Implement new init function argument dispatch	567		
 2333	115237	false	open	false	20		2015-08-09T06:04:13Z	2016-07-12T19:05:28Z		tty: stdio properties are undefined inside exec() child	45		
@@ -662,7 +662,7 @@
 7146	15693070	false	open	false	1		2016-06-04T01:28:07Z	2017-03-19T18:45:43Z		Interval stops after set date in the past from command line.	313		
 7149	238531	true	closed	false	6		2016-06-04T04:02:49Z	2016-07-11T22:37:04Z	2016-06-06T17:34:31Z	http: wait for both prefinish/end to keepalive	80		
 7151	812558	false	closed	false	2		2016-06-04T15:34:28Z	2017-03-22T06:08:22Z	2017-03-22T06:08:22Z	Module resolution description does not reflect the implementation	78		
-7152	988441	true	open	false	93		2016-06-04T16:22:28Z	2017-05-04T11:59:18Z		buffer: runtime-deprecate Buffer constructor	139		
+7152	988441	true	closed	false	94		2016-06-04T16:22:28Z	2017-05-04T12:06:39Z	2017-05-04T12:06:39Z	buffer: runtime-deprecate Buffer constructor	139		
 7154	718899	true	closed	false	14		2016-06-04T20:16:03Z	2016-07-11T22:54:57Z	2016-06-07T20:33:05Z	debugger: remove obsolete setTimeout	65		
 7157	469365	true	closed	false	28		2016-06-05T01:13:32Z	2016-07-05T18:16:17Z	2016-06-27T20:40:21Z	buffers: speed up swap16/32, add swap64	566		
 7158	9056756	false	closed	false	5		2016-06-05T04:43:28Z	2016-07-11T09:40:17Z	2016-06-05T06:49:21Z	Unable to cross-compile Node v6.2.1 for iOS	283		
@@ -4657,7 +4657,7 @@
 11290	5886475	true	open	false	6		2017-02-10T15:26:03Z	2017-02-17T18:20:50Z		test: increase coverage of timers	32		
 11291	2512748	true	closed	false	1	0	2017-02-10T15:34:39Z	2017-02-13T22:27:13Z	2017-02-13T22:27:13Z	test: add coverage for dgram _createSocketHandle()	48	2512748	2017-02-13T22:27:13Z
 11292	2512748	true	closed	false	2		2017-02-10T16:45:16Z	2017-03-07T17:16:50Z	2017-02-14T16:58:13Z	test: cover dgram socket close during cluster bind	72		
-11293	1028226	true	open	false	8		2017-02-10T16:52:01Z	2017-05-04T11:18:19Z		https: use internal/errors.js	43		
+11293	1028226	true	open	false			2017-02-10T16:52:01Z	2017-05-04T12:09:22Z		https: use internal/errors.js	43		
 11294	439929	true	open	false	24		2017-02-10T16:57:04Z	2017-04-20T18:32:18Z		errors, process: port internal/process errors to internal/errors	88		
 11295	2512748	true	closed	false	1		2017-02-10T17:00:53Z	2017-03-09T00:04:21Z	2017-02-13T18:33:40Z	test: cover cluster error during dgram socket bind	66		
 11296	22550884	true	open	false	19		2017-02-10T17:28:26Z	2017-03-07T18:26:39Z		lib/src: refactoring out of range index and and migrate error for consistency	57		
@@ -5090,7 +5090,7 @@
 11723	142914	true	closed	false	5		2017-03-06T22:23:50Z	2017-03-10T18:30:25Z	2017-03-10T18:30:25Z	src: fix typos in node_lttng_provider.h	10		
 11724	718899	true	closed	false	2	0	2017-03-06T23:56:49Z	2017-03-08T17:38:38Z	2017-03-08T17:38:38Z	test: limit lint rule disabling in message test	50		
 11725	5886475	true	closed	false	0		2017-03-07T06:51:28Z	2017-03-11T19:46:56Z	2017-03-11T19:46:56Z	backport: v4.x - #11452 - doc: restrict the ES.Next features usage in tests	37		
-11726	54666	true	closed	false	8		2017-03-07T08:14:07Z	2017-04-04T18:05:24Z	2017-04-04T18:05:24Z	linkedlist: remove unused methods	75		
+11726	54666	true	closed	false	9		2017-03-07T08:14:07Z	2017-05-04T12:22:42Z	2017-04-04T18:05:24Z	linkedlist: remove unused methods	75		
 11728	4224802	false	closed	false	1		2017-03-07T11:46:59Z	2017-03-07T13:10:42Z	2017-03-07T13:10:42Z	C-Ares version update for buffer overflow vulnerability fix?	41		
 11729	12045962	false	open	false	1		2017-03-07T11:52:50Z	2017-03-07T12:04:16Z		child_process exec '<()' unexpected token	136		
 11730	1722371	true	closed	false	15		2017-03-07T15:38:04Z	2017-04-18T16:12:44Z	2017-03-10T13:40:12Z	s390: enable march=z196	16		
@@ -5320,7 +5320,7 @@
 11954	374012	false	closed	false	0		2017-03-21T04:43:25Z	2017-03-27T00:09:11Z	2017-03-27T00:09:11Z	Buffer::Length hard crashes	106		
 11955	14886044	false	open	false	0		2017-03-21T05:27:32Z	2017-03-21T05:27:32Z		createWriteStream and createReadStream  not working properly with Socket	85		
 11956	432351	true	closed	false	4		2017-03-21T09:02:12Z	2017-04-16T15:26:35Z	2017-03-24T15:31:35Z	build: enable cctest to use generated objects	319		
-11957	52195	true	open	false	23		2017-03-21T09:11:49Z	2017-05-02T21:53:14Z		stream: move prefixed files into internal/streams.	62		
+11957	52195	true	open	false	24		2017-03-21T09:11:49Z	2017-05-04T12:38:47Z		stream: move prefixed files into internal/streams.	62		
 11958	275871	true	closed	false	6		2017-03-21T10:50:56Z	2017-04-18T22:41:09Z	2017-03-24T16:26:32Z	lib: fix event race condition with -e	86		
 11959	20812784	false	open	false	0		2017-03-21T11:46:34Z	2017-03-21T12:13:57Z		Overclocked AMD causes NPM to respond Assertion failed: new_time >= loop->time ...	64		
 11960	880513	false	closed	false	8		2017-03-21T12:41:56Z	2017-03-25T08:46:13Z	2017-03-25T08:46:13Z	In async function, returns a value in try block will before await statement in finally block	48		
@@ -5475,7 +5475,7 @@
 12110	432351	true	closed	false	0		2017-03-29T05:44:40Z	2017-03-31T05:22:41Z	2017-03-31T05:22:41Z	test: fix truncation of argv	83		
 12111	718899	true	closed	false	22		2017-03-29T05:50:22Z	2017-03-31T05:50:15Z	2017-03-31T05:50:15Z	test: fix flaky child-process-exec-kill-throws	115		
 12112	1443911	true	open	false	1		2017-03-29T06:43:22Z	2017-05-03T10:11:45Z		v7.x backport: http: avoid retaining unneeded memory	4		
-12113	54666	true	open	false	6		2017-03-29T07:45:35Z	2017-04-04T17:03:01Z		linkedlist: remove public module	48		
+12113	54666	true	closed	false	8		2017-03-29T07:45:35Z	2017-05-04T12:30:28Z	2017-04-04T17:15:23Z	linkedlist: remove public module	48		
 12114	413206	false	open	false	5		2017-03-29T08:50:05Z	2017-04-07T13:40:15Z		base64 decoder could be 2x faster when decoding wrapped base64	224		
 12115	7016138	false	open	false	40		2017-03-29T09:24:52Z	2017-04-25T04:55:11Z		Node occasionally gives multiple files/folders the same inode	310		
 12116	2352663	true	closed	false	0		2017-03-29T11:21:18Z	2017-03-31T12:45:20Z	2017-03-31T12:45:20Z	tools: update dotfile whitelist in .gitignore	18		
@@ -5940,7 +5940,7 @@
 12577	2512748	true	closed	false	2	1	2017-04-21T22:52:18Z	2017-04-25T16:03:54Z	2017-04-25T16:03:54Z	tools: enable no-useless-return eslint rule	25	2512748	2017-04-25T16:03:54Z
 12578	5823031	false	closed	false	2		2017-04-22T02:47:42Z	2017-04-22T05:42:05Z	2017-04-22T05:42:05Z	proposal: function declaration behaviour	68		
 12579	718899	true	closed	false	2		2017-04-22T03:18:45Z	2017-04-24T20:23:59Z	2017-04-24T20:23:59Z	url: improve descriptiveness of identifier	46		
-12580	17607	true	open	false	25		2017-04-22T03:41:58Z	2017-04-29T23:35:28Z		inspector: restore --debug-brk alias	87		
+12580	17607	true	open	false	26		2017-04-22T03:41:58Z	2017-05-04T12:57:47Z		inspector: restore --debug-brk alias	87		
 12581	17607	true	open	false	6		2017-04-22T03:43:22Z	2017-04-28T17:13:54Z		inspector: document bad usage for --inspect-port	102		
 12582	718899	true	closed	false	2		2017-04-22T05:50:20Z	2017-04-24T17:28:39Z	2017-04-24T17:28:39Z	debugger: remove obsolete _debug_agent.js	34		
 12583	13963941	true	closed	false	68		2017-04-22T08:23:03Z	2017-04-24T20:12:47Z	2017-04-24T20:12:47Z	fs: add fs.copy, fs.copySync, fs.delete and fs.deleteSync with docs and tests.	449		
@@ -5953,7 +5953,7 @@
 12590	8000808	true	open	false	0	0	2017-04-22T18:20:39Z	2017-04-22T18:20:39Z		refactoring: use block scope in test-buffer-swap.js	42		
 12591	11621037	true	closed	false	2	0	2017-04-22T18:34:57Z	2017-04-26T04:19:04Z	2017-04-26T04:19:04Z	test: improved type checking with regex	41		
 12592	6517545	true	open	false			2017-04-22T18:56:25Z	2017-04-24T14:26:28Z		test: use common.mustCall in test-tls-connect-given-socket.js	38		
-12593	3109072	true	open	false			2017-04-22T19:15:14Z	2017-05-04T08:04:36Z		stream: add highWaterMark validity checks	47		
+12593	3109072	true	open	false			2017-04-22T19:15:14Z	2017-05-04T12:27:34Z		stream: add highWaterMark validity checks	47		
 12594	8000808	true	open	false	7		2017-04-22T19:31:34Z	2017-04-29T15:32:29Z		test: adding mustCall in test-timers-unrefed-in-callback.js	40		
 12595	20189491	true	closed	false	4		2017-04-22T19:35:08Z	2017-04-26T04:15:53Z	2017-04-26T04:15:53Z	test: cleanup test-fs-watch.js 	46		
 12596	9672257	true	closed	false	3		2017-04-22T19:38:36Z	2017-04-25T05:55:46Z	2017-04-24T18:29:21Z	test: refactored context type err message to regex	24		
@@ -6082,7 +6082,7 @@
 12719	7408689	false	open	false	0		2017-04-28T08:55:59Z	2017-04-28T08:55:59Z		Missing yesterday v8.0.0 nightly source tarball	6		
 12721	498775	true	open	false	2		2017-04-28T11:05:27Z	2017-04-29T09:53:29Z		"Revert ""src: fix delete operator on vm context"""	54		
 12722	275871	true	closed	false	3		2017-04-28T11:43:17Z	2017-05-01T16:18:36Z	2017-05-01T15:18:49Z	deps: cherry-pick bfae9db from upstream v8	17		
-12723	439929	true	open	false	8		2017-04-28T14:28:21Z	2017-05-01T19:41:10Z		doc: update experimental status to reflect use	44		
+12723	439929	true	open	false	10		2017-04-28T14:28:21Z	2017-05-04T12:27:47Z		doc: update experimental status to reflect use	44		
 12724	1506512	false	open	false	7		2017-04-28T14:44:47Z	2017-05-03T09:18:43Z		node.js cluster, workers stdouts overlay each other on some hosts	149		
 12725	439929	true	closed	false	2		2017-04-28T16:18:27Z	2017-05-01T18:57:31Z	2017-05-01T18:57:31Z	process: add optional detail to process emitWarning	154		
 12726	17607	true	open	false	0	0	2017-04-28T17:54:10Z	2017-04-28T17:54:10Z		doc: sort bottom-of-file markdown links	21		
@@ -6115,7 +6115,7 @@
 12753	899444	true	open	false			2017-04-29T23:50:05Z	2017-05-03T16:50:44Z		src: turn buffer type-CHECK into exception	50		
 12754	1716463	true	closed	false	1		2017-04-30T02:25:58Z	2017-05-02T04:55:57Z	2017-05-02T04:55:57Z	tools: ignore node_trace.*.log	21		
 12755	439929	true	open	false	4		2017-04-30T03:56:23Z	2017-05-03T17:32:28Z		readline: refactor readline module	69		
-12756	1716463	true	open	false	17		2017-04-30T06:07:08Z	2017-05-04T11:43:16Z		tools: introduce `make mdlint` command and tools	106		
+12756	1716463	true	open	false	20		2017-04-30T06:07:08Z	2017-05-04T12:05:56Z		tools: introduce `make mdlint` command and tools	106		
 12757	432351	true	closed	false	4		2017-04-30T06:23:41Z	2017-05-02T05:52:19Z	2017-05-02T05:52:19Z	test: skipIfInspectorDisabled cluster-inspect-brk	66		
 12758	96947	false	open	false	5		2017-04-30T13:16:54Z	2017-05-04T09:58:45Z		build: --without-ssl has unintended consequences (no debugger) 	53		
 12759	606771	false	open	false	0		2017-04-30T13:26:51Z	2017-04-30T13:26:51Z		NODE_SET_PROTOTYPE_METHOD does not accept Symbol as property	132		
@@ -6146,8 +6146,8 @@
 12784	2352663	true	open	false	10		2017-05-02T09:11:05Z	2017-05-04T09:37:43Z		deps: update V8 to 5.8	50		
 12785	2253649	true	open	false			2017-05-02T09:34:18Z	2017-05-02T10:24:32Z		test-vm-is-context.js : changed the assert.thows object to regex and …	24		
 12786	10393198	false	open	false	4		2017-05-02T09:41:13Z	2017-05-02T16:40:24Z		test, tools: tools\test.py --help fails on Windows in shell with Unicode codepage	364		
-12787	432351	true	open	false	1		2017-05-02T12:43:38Z	2017-05-02T13:22:21Z		src: rename CryptoPemCallback -> PasswordCallback	76		
-12788	432351	true	open	false	0	0	2017-05-02T13:05:49Z	2017-05-02T13:05:49Z		src: make root_cert_vector function scoped	62		
+12787	432351	true	closed	false	2		2017-05-02T12:43:38Z	2017-05-04T12:28:48Z	2017-05-04T12:28:48Z	src: rename CryptoPemCallback -> PasswordCallback	76		
+12788	432351	true	open	false	2		2017-05-02T13:05:49Z	2017-05-04T12:31:20Z		src: make root_cert_vector function scoped	62		
 12789	899444	false	open	false	7		2017-05-02T14:47:37Z	2017-05-03T08:52:11Z		CTC membership nomination: @joyeecheung	253		
 12790	899444	false	open	false	26		2017-05-02T14:49:02Z	2017-05-04T07:24:02Z		CTC membership nomination: @mcollina	238		
 12791	96947	true	open	false	4		2017-05-02T14:50:34Z	2017-05-02T18:39:04Z		"doc: add ""Troubleshooting"" & ""rules of thumb"""	222		
@@ -6177,12 +6177,13 @@
 12815	4421720	true	open	false			2017-05-03T19:04:57Z	2017-05-04T01:03:39Z		src: deprecate vm.runInDebugContext	46		
 12816	361671	false	open	false	3		2017-05-03T20:21:57Z	2017-05-04T03:34:52Z		writeFile behavior changed with 7.10	40		
 12817	718899	false	open	false	0		2017-05-03T22:04:34Z	2017-05-04T03:57:19Z		investigate flaky test-benchmark-child-process on Windows	24		
-12818	163642	true	open	false	6		2017-05-03T22:28:06Z	2017-05-04T09:55:35Z		Lazy stat dates	246		
+12818	163642	true	open	false			2017-05-03T22:28:06Z	2017-05-04T12:11:26Z		Lazy stat dates	246		
 12819	127971	false	open	false	0		2017-05-03T23:53:32Z	2017-05-03T23:53:32Z		`.errno` field of errors from `child_process.execSync` is in string form instead of numeric.	54		
-12820	96947	true	open	false	2		2017-05-04T03:13:04Z	2017-05-04T05:24:35Z		assert: generate interesting stack trace	57		
-12821	96947	true	open	false	0		2017-05-04T04:01:20Z	2017-05-04T04:02:49Z		test: fix flakyness with `yes.exe`	38		
-12822	718899	true	open	false	1		2017-05-04T04:25:46Z	2017-05-04T06:41:06Z		test: remove common.noop	194		
-12823	6447530	false	open	false	0		2017-05-04T04:55:12Z	2017-05-04T04:55:12Z		test: common.nodeProcessAborted() does not catch aborts in Windows	146		
+12820	96947	true	open	false	3		2017-05-04T03:13:04Z	2017-05-04T12:37:33Z		assert: generate interesting stack trace	57		
+12821	96947	true	open	false			2017-05-04T04:01:20Z	2017-05-04T12:50:20Z		test: fix flakyness with `yes.exe`	38		
+12822	718899	true	open	false	2		2017-05-04T04:25:46Z	2017-05-04T12:40:07Z		test: remove common.noop	194		
+12823	6447530	false	open	false	1		2017-05-04T04:55:12Z	2017-05-04T12:09:48Z		test: common.nodeProcessAborted() does not catch aborts in Windows	146		
 12824	22405288	false	open	false	3		2017-05-04T05:55:43Z	2017-05-04T07:20:50Z		Error in sum!	73		
 12825	1538624	false	open	false	0		2017-05-04T06:13:53Z	2017-05-04T06:13:53Z		url: erroneous WHATWG whitespace handling	285		
-12826	432351	true	open	false	0	0	2017-05-04T08:13:10Z	2017-05-04T08:13:10Z		src: only call FatalException if not verbose	41		
+12826	432351	true	open	false	0		2017-05-04T08:13:10Z	2017-05-04T12:28:50Z		src: only call FatalException if not verbose	41		
+12827	432351	true	open	false	0	0	2017-05-04T12:56:11Z	2017-05-04T12:56:11Z		src: split CryptoPemCallback into two functions	107		
