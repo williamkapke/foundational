@@ -6162,7 +6162,7 @@
 12800	5358146	true	open	false			2017-05-02T19:14:34Z	2017-05-04T16:22:29Z		doc: updated readFileSync in fs.md	34		
 12801	10393198	false	open	false	0		2017-05-02T20:57:44Z	2017-05-02T21:24:13Z		fs: question about chmod() mode argument type	39		
 12802	412362	false	open	false	1		2017-05-02T22:23:34Z	2017-05-02T23:21:56Z		https.createServer accepts any non-falsey values for key and cert	263		
-12803	10393198	false	open	false	7		2017-05-02T22:57:08Z	2017-05-04T22:07:04Z		fs, test: edge case in Windows prevents fs.fchmod() from changing mode and breaks incomplete test	630		
+12803	10393198	false	open	false	8		2017-05-02T22:57:08Z	2017-05-04T23:16:14Z		fs, test: edge case in Windows prevents fs.fchmod() from changing mode and breaks incomplete test	630		
 12804	10393198	true	open	false	0	0	2017-05-03T01:14:57Z	2017-05-03T01:14:57Z		test: add callback to fs.close() in test-fs-stat	50		
 12805	968222	false	open	false	2		2017-05-03T03:03:48Z	2017-05-03T06:29:28Z		high rss and steady and low heap usage	116		
 12806	718899	true	open	false	3		2017-05-03T04:03:06Z	2017-05-04T02:51:04Z		tools: remove unused code from test.py	25		
@@ -6177,24 +6177,26 @@
 12815	4421720	true	open	false			2017-05-03T19:04:57Z	2017-05-04T13:57:57Z		src: deprecate vm.runInDebugContext	46		
 12816	361671	false	open	false	3		2017-05-03T20:21:57Z	2017-05-04T03:34:52Z		writeFile behavior changed with 7.10	40		
 12817	718899	false	open	false	0		2017-05-03T22:04:34Z	2017-05-04T03:57:19Z		investigate flaky test-benchmark-child-process on Windows	24		
-12818	163642	true	open	false	18		2017-05-03T22:28:06Z	2017-05-04T22:49:15Z		Lazy stat dates	248		
+12818	163642	true	open	false	19		2017-05-03T22:28:06Z	2017-05-04T23:52:22Z		Lazy stat dates	248		
 12819	127971	false	open	false	0		2017-05-03T23:53:32Z	2017-05-03T23:53:32Z		`.errno` field of errors from `child_process.execSync` is in string form instead of numeric.	54		
 12820	96947	true	open	false	9		2017-05-04T03:13:04Z	2017-05-04T14:24:59Z		assert: wrap original err on `ifError` fail	58		
 12821	96947	true	open	false			2017-05-04T04:01:20Z	2017-05-04T13:14:16Z		test: fix flakyness with `yes.exe`	38		
 12822	718899	true	open	false	4		2017-05-04T04:25:46Z	2017-05-04T17:08:33Z		test: remove common.noop	194		
-12823	6447530	false	open	false	1		2017-05-04T04:55:12Z	2017-05-04T12:09:48Z		test: common.nodeProcessAborted() does not catch aborts in Windows	146		
+12823	6447530	false	open	false	2		2017-05-04T04:55:12Z	2017-05-04T23:48:27Z		test: common.nodeProcessAborted() does not catch aborts in Windows	146		
 12824	22405288	false	open	false	3		2017-05-04T05:55:43Z	2017-05-04T07:20:50Z		Error in sum!	73		
 12825	1538624	false	open	false	0		2017-05-04T06:13:53Z	2017-05-04T06:13:53Z		url: erroneous WHATWG whitespace handling	285		
 12826	432351	true	open	false	0		2017-05-04T08:13:10Z	2017-05-04T12:28:50Z		src: only call FatalException if not verbose	41		
 12827	432351	true	open	false	1		2017-05-04T12:56:11Z	2017-05-04T19:30:22Z		src: split CryptoPemCallback into two functions	107		
-12828	1128607	true	open	false			2017-05-04T14:29:32Z	2017-05-04T19:24:29Z		stream: add final method	107		
+12828	1128607	true	open	false			2017-05-04T14:29:32Z	2017-05-04T23:28:51Z		stream: add final method	107		
 12829	291301	false	open	false	0		2017-05-04T14:42:05Z	2017-05-04T19:29:38Z		doc: the «Deprecated» stability index description is inaccurate	134		
 12830	100928	true	open	false	6		2017-05-04T15:30:33Z	2017-05-04T18:05:32Z		doc: Change test option at STEP 5: Test in CONTRIBUTING.md	23		
 12831	5886475	true	open	false			2017-05-04T15:39:00Z	2017-05-04T18:20:31Z		test: complete coverage of buffer	199		
 12832	1081565	false	open	false	0		2017-05-04T16:51:59Z	2017-05-04T19:21:52Z		server.maxConnections check happens on EventLoop	193		
-12833	976081	false	open	false	0		2017-05-04T17:54:03Z	2017-05-04T19:14:40Z		N-API documentation appears on 7.10.0	10		
+12833	976081	false	open	false	1		2017-05-04T17:54:03Z	2017-05-04T23:58:42Z		N-API documentation appears on 7.10.0	10		
 12834	26607998	false	closed	false	2		2017-05-04T19:54:40Z	2017-05-04T21:02:05Z	2017-05-04T19:57:58Z	Calculation error	56		
-12835	96947	true	open	false	3		2017-05-04T20:08:22Z	2017-05-04T22:12:01Z		test, fs: fix chmod mask testing on windows	45		
-12836	718899	false	open	false	0		2017-05-04T20:09:50Z	2017-05-04T21:11:04Z		`test-npm` applicability	72		
+12835	96947	true	open	false	4		2017-05-04T20:08:22Z	2017-05-04T23:23:43Z		test, fs: fix chmod mask testing on windows	45		
+12836	718899	false	open	false	1		2017-05-04T20:09:50Z	2017-05-04T23:41:26Z		`test-npm` applicability	72		
 12837	12102068	false	open	false	0		2017-05-04T22:23:35Z	2017-05-04T22:23:35Z		Support NODE_NO_WARNINGS in node 6?	113		
-12838	13093042	true	open	false	0	0	2017-05-04T22:46:27Z	2017-05-04T22:46:27Z		n-api: Handle fatal exception in async callback	135		
+12838	13093042	true	open	false			2017-05-04T22:46:27Z	2017-05-04T23:10:52Z		n-api: Handle fatal exception in async callback	135		
+12839	238531	true	open	false	0	0	2017-05-04T23:12:10Z	2017-05-04T23:12:10Z		tls: accept `lookup` option for `tls.connect()`	76		
+12840	718899	true	open	false	0	0	2017-05-04T23:54:33Z	2017-05-04T23:54:33Z		doc: remove test-npm from general build doc	74		
