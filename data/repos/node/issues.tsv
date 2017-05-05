@@ -5911,7 +5911,7 @@
 12548	432351	true	open	false	7		2017-04-20T18:18:44Z	2017-04-24T12:57:45Z		src: call linux getauxval(AT_SECURE) in SafeGetenv	47		
 12549	9373002	true	closed	false	26		2017-04-20T18:25:08Z	2017-04-28T21:09:57Z	2017-04-28T21:09:57Z	doc: Add initial documentation for N-API	102		
 12550	1570449	true	closed	false	0		2017-04-20T18:57:56Z	2017-04-20T19:18:25Z	2017-04-20T19:18:25Z	fixes fs.watch docs typo	7		
-12551	13093042	true	closed	false	7		2017-04-20T20:27:15Z	2017-05-05T09:17:46Z	2017-04-27T20:34:54Z	n-api: Reference and external tests	73		
+12551	13093042	true	closed	false	8		2017-04-20T20:27:15Z	2017-05-05T16:18:23Z	2017-04-27T20:34:54Z	n-api: Reference and external tests	73		
 12552	20647694	true	closed	false	2	0	2017-04-20T20:58:14Z	2017-04-20T23:42:38Z	2017-04-20T23:42:38Z	doc: update link to Code of Conduct	16		
 12553	835618	false	open	false	3		2017-04-20T21:10:05Z	2017-04-22T14:37:48Z		Int32 overflow when creating a buffer	115		
 12554	10393198	false	open	false	3		2017-04-20T21:23:51Z	2017-04-21T00:37:45Z		meta: beware review comments for long diffs	20		
@@ -6208,17 +6208,17 @@
 12846	1538624	true	open	false	0	0	2017-05-05T06:46:26Z	2017-05-05T06:46:26Z		WIP url: standard-conformant C0 control and whitespace handling	39		
 12847	5886475	true	open	false			2017-05-05T08:00:06Z	2017-05-05T14:28:02Z		buffer: fix Buffer.isEncoding() return value for empty string	57		
 12848	794604	false	open	false	2		2017-05-05T08:05:00Z	2017-05-05T15:16:06Z		New dlopen flags API	280		
-12849	899444	true	open	false			2017-05-05T09:15:00Z	2017-05-05T12:07:32Z		assert: improve deepEqual perf for large input	131		
+12849	899444	true	open	false	7		2017-05-05T09:15:00Z	2017-05-05T15:22:21Z		assert: improve deepEqual perf for large input	131		
 12850	1716463	true	open	false	0		2017-05-05T09:22:16Z	2017-05-05T12:36:09Z		(v7.x backport) net: remove an unused internal module `assertPort`	43		
 12851	4299420	true	open	false			2017-05-05T09:39:26Z	2017-05-05T12:06:23Z		test: add test for timers benchmarks	33		
 12852	2512748	true	open	false	3		2017-05-05T09:45:05Z	2017-05-05T13:07:00Z		"Revert ""net: don't normalize twice in Socket#connect()"""	45		
 12853	103800	false	open	false	0		2017-05-05T11:02:33Z	2017-05-05T11:30:06Z		node: ../deps/uv/src/unix/async.c:136: uv__async_io: Assertion `n == sizeof(val)' failed.	134		
-12854	677994	true	open	false	0	0	2017-05-05T11:18:41Z	2017-05-05T11:18:41Z		"Revert ""net: remove unnecessary process.nextTick()"""	72		
-12855	1128607	true	open	false	0	0	2017-05-05T11:21:53Z	2017-05-05T11:21:53Z		streams: remove all references to readableState/writableState from docs	119		
+12854	677994	true	open	false	2		2017-05-05T11:18:41Z	2017-05-05T15:51:41Z		"Revert ""net: remove unnecessary process.nextTick()"""	72		
+12855	1128607	true	open	false	0		2017-05-05T11:21:53Z	2017-05-05T15:55:10Z		streams: remove all references to readableState/writableState from docs	115		
 12856	6447530	true	open	false	1		2017-05-05T11:47:48Z	2017-05-05T12:13:15Z		test: detect all types of aborts in windows	90		
-12857	1128607	true	open	false	0	0	2017-05-05T12:52:43Z	2017-05-05T12:52:43Z		stream: remove {writeableState/readableState}.length	75		
-12858	10393198	false	open	false	0		2017-05-05T13:26:55Z	2017-05-05T13:26:55Z		test, timers, tools: question about fails on Windows	177		
-12859	3865838	false	open	false	0		2017-05-05T14:04:33Z	2017-05-05T14:04:33Z		"Crash with ""prodnode.sh: line 1: 23004 Aborted"""	191		
-12860	1128607	true	open	false	0	0	2017-05-05T14:18:47Z	2017-05-05T14:18:47Z		stream: remove useage of _readableState/_writableState.highWaterMark	46		
-12861	10602	true	open	false	0	0	2017-05-05T14:27:00Z	2017-05-05T14:27:00Z		net: ensure net.connect calls Socket connect	111		
+12857	1128607	true	open	false	0		2017-05-05T12:52:43Z	2017-05-05T15:49:47Z		stream: remove {writeableState/readableState}.length	64		
+12858	10393198	false	open	false	0		2017-05-05T13:26:55Z	2017-05-05T15:40:01Z		test, timers, tools: question about fails on Windows	177		
+12859	3865838	false	open	false	0		2017-05-05T14:04:33Z	2017-05-05T15:45:19Z		"Crash with ""prodnode.sh: line 1: 23004 Aborted"""	193		
+12860	1128607	true	open	false	0		2017-05-05T14:18:47Z	2017-05-05T15:31:45Z		stream: remove useage of _readableState/_writableState.highWaterMark	46		
+12861	10602	true	open	false	0		2017-05-05T14:27:00Z	2017-05-05T15:42:42Z		net: ensure net.connect calls Socket connect	111		
 12862	10602	true	open	false	0	0	2017-05-05T14:47:39Z	2017-05-05T14:47:39Z		doc: fix commit guideline url	22		
