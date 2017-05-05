@@ -16,7 +16,7 @@
 16	78718	true	closed	false	0	0	2016-12-02T00:41:03Z	2016-12-02T21:31:50Z	2016-12-02T21:31:50Z	Typo sendContinuue -> sendContinue	14	52195	2016-12-02T21:31:50Z
 17	439929	false	closed	false	0		2016-12-02T18:28:49Z	2017-03-04T16:25:26Z	2017-03-04T16:25:26Z	Use _writev in the Http2Stream duplex and Http2Outgoing	0		
 18	439929	false	open	false	0		2016-12-02T18:29:24Z	2017-03-04T16:26:11Z		Move [kRusume]() calls into internal src/node_http2.cc as much as possible	0		
-19	439929	false	closed	false	3		2016-12-02T18:39:27Z	2017-05-05T06:37:10Z	2017-05-05T06:37:10Z	Internal buffering of writes before telling nghttp to resume a stream			
+19	439929	false	closed	false	3		2016-12-02T18:39:27Z	2017-05-05T06:37:10Z	2017-05-05T06:37:10Z	Internal buffering of writes before telling nghttp to resume a stream	0		
 20	52195	true	open	false	1		2016-12-02T18:39:56Z	2016-12-03T03:24:42Z		http2: 10% perf improvement.	9		
 21	52195	true	open	false	3		2016-12-05T12:52:45Z	2016-12-07T00:27:36Z		more perf updates	2		
 22	52195	false	closed	false	4		2016-12-05T15:01:08Z	2017-05-05T06:34:19Z	2017-05-05T06:34:19Z	Memory leak with h2load	10		
@@ -58,23 +58,23 @@
 58	439929	true	closed	false	2		2017-05-02T16:57:56Z	2017-05-05T04:40:30Z	2017-05-05T04:40:30Z	http2: update nghttp2 to 1.22.0	48		
 59	816093	false	open	false	0		2017-05-02T17:44:07Z	2017-05-02T17:50:17Z		a better default configuration for TLS connection of http2	93		
 60	2365820	true	open	false	4		2017-05-02T18:32:05Z	2017-05-05T04:49:38Z		Change stream write loop exit condition in Nghttp2Session::OnStreamRead	114		
-61	816093	true	open	false	5		2017-05-02T18:36:35Z	2017-05-05T06:25:28Z		http2: specify default TLS options for http2 client connection.	2		
+61	816093	true	open	false	6		2017-05-02T18:36:35Z	2017-05-05T08:13:07Z		http2: specify default TLS options for http2 client connection.	2		
 62	2365820	false	open	false	0		2017-05-02T22:39:35Z	2017-05-02T22:39:35Z		Http2Session::destroy doesn't destroy associated socket	55		
 63	580251	false	closed	false	2		2017-05-03T10:44:33Z	2017-05-03T14:20:10Z	2017-05-03T14:20:10Z	HTTP/2 requests	68		
 64	2365820	true	open	false			2017-05-03T21:30:50Z	2017-05-05T06:25:58Z		http2: client session destroy also destroys associated socket	23		
 65	52195	true	closed	false	2		2017-05-04T09:05:35Z	2017-05-05T05:16:29Z	2017-05-05T05:16:29Z	http2: fix test-http2-binding after round 11	7		
-66	52195	false	open	false	0		2017-05-04T09:13:36Z	2017-05-04T09:13:36Z		http2: HTTP 1 connection upgrade path	10		
+66	52195	false	open	false	0		2017-05-04T09:13:36Z	2017-05-05T08:31:49Z		http2: HTTP 1 connection upgrade path	105		
 67	52195	false	open	false	3		2017-05-04T09:27:15Z	2017-05-05T06:41:50Z		http2: status of push API	7		
-68	52195	false	open	false	0		2017-05-04T09:32:29Z	2017-05-04T10:28:32Z		http2: websocket upgrade path?	6		
+68	52195	false	closed	false	1		2017-05-04T09:32:29Z	2017-05-05T08:29:22Z	2017-05-05T08:29:22Z	http2: websocket upgrade path?	6		
 69	439929	false	open	false	0		2017-05-04T09:39:57Z	2017-05-04T09:39:57Z		http2: prioritization api / support	10		
 70	439929	false	open	false	0		2017-05-04T09:46:28Z	2017-05-04T09:46:28Z		http2: padding support	13		
 71	432351	true	closed	false	0		2017-05-04T09:48:42Z	2017-05-05T05:25:32Z	2017-05-05T05:25:32Z	test: assert headers and flags	55		
 72	52195	false	open	false	0		2017-05-04T09:56:10Z	2017-05-04T09:56:10Z		http2: streams does not exist in onSessionStreamClose	112		
 73	52195	false	open	false	0		2017-05-04T09:56:28Z	2017-05-04T09:56:28Z		http2: document how to benchmark	0		
-74	432351	true	open	false	0		2017-05-04T10:07:50Z	2017-05-05T05:22:01Z		src: make node-http2-core files consistent	58		
-75	555645	true	open	false	0	0	2017-05-04T11:50:07Z	2017-05-04T11:50:07Z		http2: fix res.setHeader to update linkedlist APIs	52		
+74	432351	true	open	false	1		2017-05-04T10:07:50Z	2017-05-05T08:08:06Z		src: make node-http2-core files consistent	58		
+75	555645	true	open	false	1		2017-05-04T11:50:07Z	2017-05-05T08:47:56Z		http2: fix res.setHeader to update linkedlist APIs	52		
 76	298166	false	open	false	0		2017-05-04T12:28:02Z	2017-05-05T04:38:46Z		http2: get path throws	177		
 77	555645	false	open	false	0		2017-05-04T13:03:42Z	2017-05-05T04:36:58Z		http2: client.socket.destroy() throws AssertionError: Internal HTTP/2 Failure. Stream does not exist.	322		
 78	432351	true	closed	false	0		2017-05-04T14:33:55Z	2017-05-05T05:25:06Z	2017-05-05T05:25:06Z	src: minor comment correction	25		
 79	439929	false	open	false	0		2017-05-05T04:33:49Z	2017-05-05T04:33:49Z		Process notes	389		
-80	439929	true	open	false	0	0	2017-05-05T06:03:11Z	2017-05-05T06:03:11Z		http2: an accumulation of another round of edits	18		
+80	439929	true	open	false			2017-05-05T06:03:11Z	2017-05-05T08:19:58Z		http2: an accumulation of another round of edits	18		
