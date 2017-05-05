@@ -251,7 +251,7 @@
 4288	24795	true	closed	false	15		2015-12-15T09:07:25Z	2017-02-28T23:02:24Z	2017-02-28T23:02:24Z	Warn against use of appendFile for writing to a single file.	41		
 4303	7731478	true	closed	false	23		2015-12-16T04:12:08Z	2017-03-24T15:35:28Z	2017-03-24T15:35:28Z	timer: make sure timer is cleared	119		
 4307	12825770	false	closed	false	11		2015-12-16T08:16:14Z	2016-07-11T09:25:48Z	2016-07-11T09:25:48Z	can not step in constructor, will will terminate node.exe	90		
-4329	16335744	false	closed	false	25		2015-12-17T11:41:17Z	2017-03-27T00:03:41Z	2016-01-15T10:53:49Z	node.js Setup Wizard ended prematurely	43		
+4329	16335744	false	closed	false	27		2015-12-17T11:41:17Z	2017-05-05T05:16:15Z	2016-01-15T10:53:49Z	node.js Setup Wizard ended prematurely	43		
 4351	1424946	false	closed	false	8		2015-12-19T06:03:34Z	2016-10-26T13:47:55Z	2016-10-26T13:47:55Z	fs.watch file matching is one character off in windows	43		
 4352	4082216	false	closed	false	7		2015-12-19T13:04:57Z	2017-02-08T09:44:17Z	2017-02-07T21:18:14Z	More detailed `fs` documentation 	81		
 4358	718899	false	closed	false	3		2015-12-19T23:44:16Z	2017-02-08T01:10:41Z	2017-02-08T01:10:41Z	Strange behavior specific to Windows 2012r2 with a single processor	298		
@@ -6165,7 +6165,7 @@
 12803	10393198	false	open	false	14		2017-05-02T22:57:08Z	2017-05-05T00:06:18Z		fs, test: one set of file attributes in Windows prevents fs.fchmod() from changing mode to RW and breaks incomplete test	630		
 12804	10393198	true	closed	false	2		2017-05-03T01:14:57Z	2017-05-05T02:11:23Z	2017-05-05T02:11:23Z	test: add callback to fs.close() in test-fs-stat	38		
 12805	968222	false	open	false	2		2017-05-03T03:03:48Z	2017-05-03T06:29:28Z		high rss and steady and low heap usage	116		
-12806	718899	true	open	false	3		2017-05-03T04:03:06Z	2017-05-04T02:51:04Z		tools: remove unused code from test.py	25		
+12806	718899	true	closed	false	5	0	2017-05-03T04:03:06Z	2017-05-05T05:15:54Z	2017-05-05T05:15:54Z	tools: remove unused code from test.py	25		
 12807	718899	true	open	false	2		2017-05-03T06:17:50Z	2017-05-04T17:32:20Z		tools: relax lint rule for regexps	94		
 12808	1716463	true	closed	false	9	7	2017-05-03T07:32:43Z	2017-05-05T01:22:27Z	2017-05-05T01:22:27Z	url: handle windows drive letter in the file state	57		
 12809	1062408	false	closed	false	3		2017-05-03T08:53:06Z	2017-05-03T13:06:22Z	2017-05-03T11:41:05Z	Intl: comma swapped with thousands for language DE in currency	64		
@@ -6187,7 +6187,7 @@
 12825	1538624	false	open	false	0		2017-05-04T06:13:53Z	2017-05-04T06:13:53Z		url: erroneous WHATWG whitespace handling	285		
 12826	432351	true	open	false	0		2017-05-04T08:13:10Z	2017-05-04T12:28:50Z		src: only call FatalException if not verbose	41		
 12827	432351	true	open	false	1		2017-05-04T12:56:11Z	2017-05-04T19:30:22Z		src: split CryptoPemCallback into two functions	107		
-12828	1128607	true	open	false			2017-05-04T14:29:32Z	2017-05-04T23:28:51Z		stream: add final method	107		
+12828	1128607	true	open	false			2017-05-04T14:29:32Z	2017-05-05T05:43:28Z		stream: add final method	107		
 12829	291301	false	open	false	0		2017-05-04T14:42:05Z	2017-05-04T19:29:38Z		doc: the «Deprecated» stability index description is inaccurate	134		
 12830	100928	true	open	false	6		2017-05-04T15:30:33Z	2017-05-04T18:05:32Z		doc: Change test option at STEP 5: Test in CONTRIBUTING.md	23		
 12831	5886475	true	open	false			2017-05-04T15:39:00Z	2017-05-04T18:20:31Z		test: complete coverage of buffer	199		
@@ -6200,5 +6200,7 @@
 12838	13093042	true	open	false			2017-05-04T22:46:27Z	2017-05-04T23:10:52Z		n-api: Handle fatal exception in async callback	135		
 12839	238531	true	open	false	0	0	2017-05-04T23:12:10Z	2017-05-04T23:12:10Z		tls: accept `lookup` option for `tls.connect()`	76		
 12840	718899	true	open	false	0	0	2017-05-04T23:54:33Z	2017-05-04T23:54:33Z		doc: remove test-npm from general build doc	74		
-12841	1660263	false	open	false	0		2017-05-05T02:00:09Z	2017-05-05T02:00:09Z		`ENETUNREACH` not handled for `http.request` in 7.10.0	205		
+12841	1660263	false	open	false	0		2017-05-05T02:00:09Z	2017-05-05T05:54:03Z		`ENETUNREACH` not handled for `http.request` in 7.10.0	205		
 12842	6732831	false	open	false	0		2017-05-05T03:49:47Z	2017-05-05T04:29:34Z		Comparing arrays with `assert` seems to take polynomial time.	239		
+12843	718899	true	open	false	0	0	2017-05-05T05:14:12Z	2017-05-05T05:14:12Z		assert: restore TypeError if no arguments	96		
+12844	718899	true	open	false	0	0	2017-05-05T05:20:27Z	2017-05-05T05:20:27Z		test: remove unused testpy code	55		
