@@ -5835,7 +5835,7 @@
 12470	4078325	true	open	false	8		2017-04-17T16:36:19Z	2017-04-22T06:25:14Z		test: moved test-debugger-repeat-last.js from parallel to sequential	34		
 12471	2291463	false	open	false	23		2017-04-17T17:36:26Z	2017-05-01T01:52:05Z		Consider minifying JS sources?	164		
 12472	15608388	true	closed	false	1		2017-04-17T17:46:39Z	2017-04-19T17:14:51Z	2017-04-19T17:14:51Z	tests: remove common.PORT from cluster send tests	55		
-12473	5358146	true	open	false	31		2017-04-17T18:28:17Z	2017-05-05T19:10:03Z		Remove common.PORT usage from `parallel` tests 	66		
+12473	5358146	true	open	false			2017-04-17T18:28:17Z	2017-05-06T12:32:42Z		Remove common.PORT usage from `parallel` tests 	66		
 12474	439929	true	open	false	0	0	2017-04-17T22:11:17Z	2017-04-17T22:11:17Z		"Revert ""benchmark: fix CLI arguments check in common.js"""	62		
 12475	439929	true	closed	false	1		2017-04-17T22:54:20Z	2017-04-17T23:52:21Z	2017-04-17T23:52:21Z	"Revert ""test: port test for make_callback to n-api"""	49		
 12476	718899	true	open	false	2		2017-04-17T23:27:45Z	2017-04-19T16:52:52Z		test: increase coverage for buffer.js	46		
@@ -5910,7 +5910,7 @@
 12545	15608388	true	open	false	6		2017-04-20T17:11:02Z	2017-05-04T13:53:39Z		test: dynamic port in test cluster disconnect	54		
 12546	2512748	true	closed	false	1	1	2017-04-20T17:53:43Z	2017-04-25T16:46:57Z	2017-04-25T16:46:57Z	src: expose V8's IsNativeError() in util bindings	63	2512748	2017-04-25T16:46:57Z
 12547	15608388	true	closed	false	2	0	2017-04-20T18:13:37Z	2017-04-24T20:44:15Z	2017-04-24T20:44:15Z	test: dynamic port in test cluster eaddrinuse	54		
-12548	432351	true	open	false	7		2017-04-20T18:18:44Z	2017-04-24T12:57:45Z		src: call linux getauxval(AT_SECURE) in SafeGetenv	47		
+12548	432351	true	open	false	9		2017-04-20T18:18:44Z	2017-05-06T12:27:01Z		src: call linux getauxval(AT_SECURE) in SafeGetenv	47		
 12549	9373002	true	closed	false	26		2017-04-20T18:25:08Z	2017-04-28T21:09:57Z	2017-04-28T21:09:57Z	doc: Add initial documentation for N-API	102		
 12550	1570449	true	closed	false	0		2017-04-20T18:57:56Z	2017-04-20T19:18:25Z	2017-04-20T19:18:25Z	fixes fs.watch docs typo	7		
 12551	13093042	true	closed	false	8		2017-04-20T20:27:15Z	2017-05-05T16:18:23Z	2017-04-27T20:34:54Z	n-api: Reference and external tests	73		
@@ -6178,11 +6178,11 @@
 12814	287917	true	closed	false	0	4	2017-05-03T19:02:14Z	2017-05-05T18:51:25Z	2017-05-05T18:51:25Z	inspector: report when main context is destroyed	43		
 12815	4421720	true	open	false			2017-05-03T19:04:57Z	2017-05-04T13:57:57Z		src: deprecate vm.runInDebugContext	46		
 12816	361671	false	open	false	3		2017-05-03T20:21:57Z	2017-05-04T03:34:52Z		writeFile behavior changed with 7.10	40		
-12817	718899	false	open	false	0		2017-05-03T22:04:34Z	2017-05-04T03:57:19Z		investigate flaky test-benchmark-child-process on Windows	24		
+12817	718899	false	closed	false	1		2017-05-03T22:04:34Z	2017-05-06T12:22:14Z	2017-05-06T12:22:14Z	investigate flaky test-benchmark-child-process on Windows	24		
 12818	163642	true	open	false	22		2017-05-03T22:28:06Z	2017-05-05T01:04:02Z		Lazy stat dates	248		
 12819	127971	false	open	false	1		2017-05-03T23:53:32Z	2017-05-05T20:01:27Z		`.errno` field of errors from `child_process.execSync` is in string form instead of numeric.	67		
 12820	96947	true	open	false	9		2017-05-04T03:13:04Z	2017-05-04T14:24:59Z		assert: wrap original err on `ifError` fail	58		
-12821	96947	true	open	false			2017-05-04T04:01:20Z	2017-05-04T13:14:16Z		test: fix flakyness with `yes.exe`	38		
+12821	96947	true	closed	false	3	3	2017-05-04T04:01:20Z	2017-05-06T12:22:23Z	2017-05-06T12:22:23Z	test: fix flakyness with `yes.exe`	38		
 12822	718899	true	open	false	6		2017-05-04T04:25:46Z	2017-05-06T06:09:02Z		test: remove common.noop	194		
 12823	6447530	false	open	false	3		2017-05-04T04:55:12Z	2017-05-05T00:36:25Z		test: common.nodeProcessAborted() does not catch aborts in Windows	146		
 12824	22405288	false	open	false	3		2017-05-04T05:55:43Z	2017-05-04T07:20:50Z		Error in sum!	73		
@@ -6200,7 +6200,7 @@
 12836	718899	false	open	false	1		2017-05-04T20:09:50Z	2017-05-04T23:41:26Z		`test-npm` applicability	72		
 12837	12102068	false	open	false	0		2017-05-04T22:23:35Z	2017-05-04T22:23:35Z		Support NODE_NO_WARNINGS in node 6?	113		
 12838	13093042	true	open	false			2017-05-04T22:46:27Z	2017-05-04T23:10:52Z		n-api: Handle fatal exception in async callback	135		
-12839	238531	true	open	false	10		2017-05-04T23:12:10Z	2017-05-06T09:58:21Z		tls: accept `lookup` option for `tls.connect()`	76		
+12839	238531	true	open	false	11		2017-05-04T23:12:10Z	2017-05-06T12:11:42Z		tls: accept `lookup` option for `tls.connect()`	76		
 12840	718899	true	open	false	0	0	2017-05-04T23:54:33Z	2017-05-04T23:54:33Z		doc: remove test-npm from general build doc	74		
 12841	1660263	false	open	false	1		2017-05-05T02:00:09Z	2017-05-05T06:31:35Z		`ENETUNREACH` not handled for `http.request` in 7.10.0	205		
 12842	6732831	false	open	false	2		2017-05-05T03:49:47Z	2017-05-05T09:15:15Z		Comparing arrays with `assert` seems to take polynomial time.	239		
@@ -6229,7 +6229,7 @@
 12865	10393198	false	open	false	0		2017-05-05T21:12:41Z	2017-05-05T21:12:41Z		meta: collaborators list nits in README.md	96		
 12866	10393198	true	open	false			2017-05-05T22:45:52Z	2017-05-06T09:36:36Z		meta: fix nits in README.md collaborators list	27		
 12867	2993861	true	open	false	0	0	2017-05-06T00:48:14Z	2017-05-06T00:48:14Z		contextify: ignore property if getter throws	32		
-12868	718899	true	open	false	0	0	2017-05-06T06:04:07Z	2017-05-06T06:04:07Z		test: remove obsolete lint config comments	52		
+12868	718899	true	open	false	0		2017-05-06T06:04:07Z	2017-05-06T12:36:38Z		test: remove obsolete lint config comments	52		
 12869	7262553	false	open	false	0		2017-05-06T09:20:15Z	2017-05-06T09:28:37Z		   3433 segmentation fault  node -v	51		
 12870	532414	false	open	false	0		2017-05-06T11:06:19Z	2017-05-06T11:06:19Z		Add `open` event to `ChildProcess` objects	81		
 12871	432351	true	open	false	0	0	2017-05-06T11:22:24Z	2017-05-06T11:22:24Z		lib: check and throw on error for getsockname	38		
