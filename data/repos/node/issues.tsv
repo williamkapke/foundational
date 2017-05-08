@@ -3,7 +3,7 @@
 89	37303	false	closed	false	65		2014-12-05T19:23:16Z	2017-01-16T21:57:59Z	2015-02-04T03:59:32Z	Streams pain points	277		
 256	1315533	false	closed	false	27		2015-01-08T07:50:35Z	2016-07-31T16:41:49Z	2015-02-25T00:30:11Z	Consider exposing promise unhandled rejection hook	243		
 428	321966	false	closed	false	53		2015-01-14T21:56:04Z	2017-02-17T08:06:06Z	2016-10-21T16:07:08Z	plans on incorporating LibreSSL	35		
-445	2993861	false	open	false	19		2015-01-15T16:18:56Z	2017-05-08T16:12:08Z		Cleanup `_writableState` and `_readableState` access across codebase	586		
+445	2993861	false	open	false	22		2015-01-15T16:18:56Z	2017-05-08T18:13:31Z		Cleanup `_writableState` and `_readableState` access across codebase	586		
 498	493139	false	open	false	8		2015-01-18T19:42:03Z	2017-04-22T20:23:25Z		`os.networkInterfaces` does not list all interfaces. 	169		
 540	555645	true	closed	false	33		2015-01-21T16:22:26Z	2017-04-22T05:00:45Z	2015-01-28T03:49:14Z	events: Alias EventEmitter.protoype.removeListener as EventEmitter.prototype.off 	95		
 548	1522145	false	closed	false	26		2015-01-22T03:48:27Z	2017-01-26T21:48:27Z	2017-01-26T21:48:27Z	Function redefinition in vm.runInContext	44		
@@ -5222,7 +5222,7 @@
 11854	12488060	true	closed	false	3		2017-03-15T00:56:56Z	2017-03-28T22:27:17Z	2017-03-22T16:57:52Z	lib: Use regex to compare error message	37		
 11855	3315328	false	open	false	15		2017-03-15T01:34:38Z	2017-03-16T08:21:49Z		let v8 use libuv thread pool	17		
 11856	3293332	true	closed	false	7		2017-03-15T03:18:38Z	2017-04-18T17:18:04Z	2017-03-17T16:26:42Z	build: add cpp linting to windows build	70		
-11857	432351	true	closed	false	3		2017-03-15T04:38:37Z	2017-05-08T15:28:24Z	2017-03-17T12:56:27Z	build: mac OBJ_DIR should point to obj.target	111		
+11857	432351	true	closed	false	4		2017-03-15T04:38:37Z	2017-05-08T18:01:44Z	2017-03-17T12:56:27Z	build: mac OBJ_DIR should point to obj.target	111		
 11858	1538624	true	closed	false	5		2017-03-15T05:23:18Z	2017-03-28T22:24:58Z	2017-03-22T00:35:20Z	url: spec-compliant URLSearchParams parser	402		
 11859	1538624	true	closed	false	3		2017-03-15T06:45:53Z	2017-03-21T14:34:21Z	2017-03-16T23:40:32Z	src: remove explicit UTF-8 validity check in url	61		
 11860	1773996	false	open	false	0		2017-03-15T09:46:19Z	2017-03-15T09:46:19Z		uv__queue_done: Assertion	69		
@@ -5441,7 +5441,7 @@
 12074	26723772	false	open	false	0		2017-03-27T19:36:38Z	2017-03-27T19:36:38Z		Error while debugging via Atom IDE: Uncaught TypeError: this.processManager.startActiveFile is not a function	154		
 12075	718899	false	open	false	4		2017-03-27T20:14:19Z	2017-03-28T04:49:33Z		Investigate flaky parallel/test-net-better-error-messages-port-hostname	55		
 12076	287917	true	closed	false	4		2017-03-27T20:23:04Z	2017-04-10T17:54:43Z	2017-03-30T20:27:37Z	"inspector: use inspector API for ""break on start"""	47		
-12077	855219	false	open	false	0		2017-03-27T20:29:19Z	2017-05-06T13:02:38Z		deps: ICU 59 bump	29		
+12077	855219	false	open	false	1		2017-03-27T20:29:19Z	2017-05-08T19:00:18Z		deps: ICU 59 bump	29		
 12078	855219	true	closed	false	3		2017-03-27T20:44:21Z	2017-04-18T23:10:01Z	2017-03-30T22:10:08Z	"tools: add missing #include ""unicode/putil.h"""	60		
 12079	54666	false	open	false	0		2017-03-27T21:45:20Z	2017-03-27T21:45:20Z		assert: throw error in doesNotThrow()	65		
 12080	332968	true	closed	false	5		2017-03-27T22:07:17Z	2017-04-18T23:40:42Z	2017-04-04T18:51:27Z	test: refactor mkdtemp test and added async	53		
@@ -5911,7 +5911,7 @@
 12546	2512748	true	closed	false	1	1	2017-04-20T17:53:43Z	2017-04-25T16:46:57Z	2017-04-25T16:46:57Z	src: expose V8's IsNativeError() in util bindings	63	2512748	2017-04-25T16:46:57Z
 12547	15608388	true	closed	false	2	0	2017-04-20T18:13:37Z	2017-04-24T20:44:15Z	2017-04-24T20:44:15Z	test: dynamic port in test cluster eaddrinuse	54		
 12548	432351	true	open	false	9		2017-04-20T18:18:44Z	2017-05-06T12:27:01Z		src: call linux getauxval(AT_SECURE) in SafeGetenv	47		
-12549	9373002	true	closed	false	26		2017-04-20T18:25:08Z	2017-04-28T21:09:57Z	2017-04-28T21:09:57Z	doc: Add initial documentation for N-API	102		
+12549	9373002	true	closed	false	27		2017-04-20T18:25:08Z	2017-05-08T18:49:44Z	2017-04-28T21:09:57Z	doc: Add initial documentation for N-API	102		
 12550	1570449	true	closed	false	0		2017-04-20T18:57:56Z	2017-04-20T19:18:25Z	2017-04-20T19:18:25Z	fixes fs.watch docs typo	7		
 12551	13093042	true	closed	false	8		2017-04-20T20:27:15Z	2017-05-05T16:18:23Z	2017-04-27T20:34:54Z	n-api: Reference and external tests	73		
 12552	20647694	true	closed	false	2	0	2017-04-20T20:58:14Z	2017-04-20T23:42:38Z	2017-04-20T23:42:38Z	doc: update link to Code of Conduct	16		
@@ -6129,7 +6129,7 @@
 12765	899444	true	closed	false	4		2017-04-30T17:30:02Z	2017-05-03T17:23:33Z	2017-05-03T17:23:33Z	src: do proper StringBytes error handling	143		
 12766	899444	true	open	false	10		2017-04-30T18:12:44Z	2017-05-02T19:28:41Z		stream: make `.setEncoding(null)` reset to default	105		
 12767	899444	true	closed	false	2		2017-04-30T18:39:29Z	2017-05-03T13:19:45Z	2017-05-03T13:19:45Z	stream: remove unnecessary parameter	41		
-12768	96947	true	open	false	8		2017-04-30T19:33:45Z	2017-05-08T16:46:26Z		build: require `--without-debugger` explicitly	95		
+12768	96947	true	open	false	9		2017-04-30T19:33:45Z	2017-05-08T18:38:01Z		build: require `--without-debugger` explicitly	95		
 12769	17785196	false	open	false	6		2017-04-30T21:44:02Z	2017-05-01T12:53:05Z		Newest node js installs npm old version!	33		
 12770	718899	true	closed	false	6		2017-04-30T22:55:57Z	2017-05-04T03:08:20Z	2017-05-04T03:08:20Z	test: enable test-debugger-pid	54		
 12771	10393198	false	open	false	11		2017-05-01T00:56:08Z	2017-05-08T09:13:12Z		doc, test: question about test.py -v key in CONTRIBUTING.md	113		
@@ -6204,7 +6204,7 @@
 12840	718899	true	closed	false	1	0	2017-05-04T23:54:33Z	2017-05-07T20:50:26Z	2017-05-07T20:50:25Z	doc: remove test-npm from general build doc	74		
 12841	1660263	false	open	false	1		2017-05-05T02:00:09Z	2017-05-05T06:31:35Z		`ENETUNREACH` not handled for `http.request` in 7.10.0	205		
 12842	6732831	false	closed	false	3		2017-05-05T03:49:47Z	2017-05-07T19:43:27Z	2017-05-07T19:43:27Z	Comparing arrays with `assert` seems to take polynomial time.	239		
-12843	718899	true	open	false	3		2017-05-05T05:14:12Z	2017-05-06T23:36:30Z		assert: restore TypeError if no arguments	96		
+12843	718899	true	closed	false	4		2017-05-05T05:14:12Z	2017-05-08T18:42:49Z	2017-05-08T18:42:49Z	assert: restore TypeError if no arguments	96		
 12844	718899	true	open	false	0		2017-05-05T05:20:27Z	2017-05-05T06:33:33Z		test: remove unused testpy code	55		
 12845	13568652	false	open	false	0		2017-05-05T06:41:19Z	2017-05-05T07:20:03Z		E/downloader - { Error: unable to get local issuer certificate	98		
 12846	1538624	true	open	false	0	0	2017-05-05T06:46:26Z	2017-05-05T06:46:26Z		WIP url: standard-conformant C0 control and whitespace handling	39		
@@ -6242,7 +6242,7 @@
 12878	498775	true	open	false	2		2017-05-07T09:58:42Z	2017-05-07T11:36:23Z		Patch V8 API to be ABI compatible with v5.9.	41		
 12879	11230479	true	open	false			2017-05-07T11:30:01Z	2017-05-08T15:38:35Z		test: update test for url.parse() to match the exact error through re…	49		
 12880	1716463	true	open	false	0	0	2017-05-07T12:05:39Z	2017-05-07T12:05:39Z		(v7.x backport) url: handle windows drive letter in the file state	61		
-12881	432351	true	open	false			2017-05-07T12:42:49Z	2017-05-08T15:32:27Z		lib: add try/catch to inspector binding	122		
+12881	432351	true	open	false			2017-05-07T12:42:49Z	2017-05-08T18:05:22Z		lib: add try/catch to inspector binding	122		
 12882	432351	true	open	false	0	0	2017-05-07T12:43:22Z	2017-05-07T12:43:22Z		test: add skipIfInspectorDisabled to debugger-pid	35		
 12883	718899	true	open	false			2017-05-07T16:32:45Z	2017-05-07T18:09:41Z		test: favor deepStrictEqual over deepEqual	50		
 12884	327019	true	open	false	0	0	2017-05-07T18:03:53Z	2017-05-07T18:03:53Z		lib: remove unless default caught	55		
@@ -6253,11 +6253,13 @@
 12889	9373002	true	open	false	0	0	2017-05-07T23:51:19Z	2017-05-07T23:51:19Z		doc: fix broken links in n-api doc	46		
 12890	9373002	true	open	false	1		2017-05-08T00:17:27Z	2017-05-08T17:22:08Z		test: improve n-api array func coverage	43		
 12891	7041980	true	open	false	7		2017-05-08T01:47:43Z	2017-05-08T15:24:53Z		test: replace assert throws message with a regexp	41		
-12892	505333	true	open	false	11		2017-05-08T07:37:38Z	2017-05-08T16:10:16Z		Async Hooks - Initial Implementation	338		
+12892	505333	true	open	false	14		2017-05-08T07:37:38Z	2017-05-08T18:07:01Z		Async Hooks - Initial Implementation	338		
 12893	1272762	false	open	false	6		2017-05-08T09:02:24Z	2017-05-08T13:03:40Z		Always crash when the memory increased to 4~5G	272		
 12894	13674071	false	closed	false	1		2017-05-08T14:04:51Z	2017-05-08T15:50:35Z	2017-05-08T15:50:35Z	instanceof with arrow function generates error	111		
 12895	18708370	false	open	false	7		2017-05-08T14:12:46Z	2017-05-08T16:10:12Z		net.Server.address() returns a string instead of an object for Pipes	79		
 12896	25020067	false	open	false	0		2017-05-08T14:28:23Z	2017-05-08T14:28:23Z		Assignment to global object possible between files	72		
 12897	5322914	false	open	false	0		2017-05-08T15:11:44Z	2017-05-08T16:13:15Z		Nodejs Connection limit	66		
 12898	8297234	true	open	false	0	0	2017-05-08T15:26:33Z	2017-05-08T15:26:33Z		doc: clarify node.js addons language	23		
-12899	4421720	true	open	false	0	0	2017-05-08T17:49:42Z	2017-05-08T17:49:42Z		src: fix comments re PER_ISOLATE macros	47		
+12899	4421720	true	open	false			2017-05-08T17:49:42Z	2017-05-08T18:59:07Z		src: fix comments re PER_ISOLATE macros	47		
+12900	96947	false	open	false	0		2017-05-08T18:01:26Z	2017-05-08T18:01:26Z		test: is `sequential/test-fs-watch` flaky on macOS	22		
+12901	7041980	true	open	false	0	0	2017-05-08T18:02:42Z	2017-05-08T18:02:42Z		test: remove common.PORT or move test to sequential	85		
