@@ -139,7 +139,7 @@
 2960	3038254	true	closed	false	12		2015-09-19T00:13:07Z	2017-03-26T10:49:15Z	2017-03-26T10:49:15Z	net: write syscall optimization and a bytesWritten bug fix	158		
 2962	2311111	false	closed	false	10		2015-09-19T15:29:09Z	2017-02-07T18:13:21Z	2017-02-07T18:13:21Z	4.X Tarball will not extract on Intel Edison (Yocto)	65		
 2967	696611	true	closed	false	33		2015-09-20T07:40:27Z	2016-11-30T22:47:18Z	2015-10-27T03:19:46Z	http{s}: fix connecting to localhost if URL is invalid	47		
-2982	170023	true	closed	false	18		2015-09-21T14:10:33Z	2017-03-21T08:38:55Z	2017-03-17T21:03:28Z	readline: add option to stop duplicates in history	161		
+2982	170023	true	closed	false	19		2015-09-21T14:10:33Z	2017-05-08T15:30:44Z	2017-03-17T21:03:28Z	readline: add option to stop duplicates in history	161		
 2994	708850	false	open	false	9		2015-09-22T04:48:17Z	2016-09-08T23:20:56Z		Need a way to detect end of stream on custom Writable Streams implementing _write	78		
 3006	914122	false	closed	false	46		2015-09-22T15:57:31Z	2017-02-15T10:16:21Z	2016-03-22T06:28:03Z	Node.js doesn't run as tty on windows / cygwin	33		
 3009	112555	false	closed	false	13		2015-09-22T19:15:53Z	2016-11-26T11:23:43Z	2016-04-09T05:21:32Z	Sending a body with a GET request using http.request cannot be received using http.server	160		
@@ -761,7 +761,7 @@
 7355	439929	true	closed	false	28		2016-06-21T21:10:08Z	2016-07-11T23:31:34Z	2016-06-30T00:15:47Z	net: use icu's punycode implementation	370		
 7356	718899	true	closed	false	9		2016-06-22T00:19:44Z	2016-07-12T03:01:10Z	2016-06-24T00:05:48Z	test: fix flaky test-fs-watch-encoding on OS X	138		
 7358	432351	true	closed	false	6		2016-06-22T02:53:47Z	2016-07-16T19:07:30Z	2016-07-16T19:07:30Z	src: moving dispatch_debug_messages_async to Environment	51		
-7360	635085	true	closed	false	45		2016-06-22T06:11:25Z	2017-04-17T16:57:00Z	2017-02-28T17:55:38Z	tty: add ref() so process.stdin.ref() etc. work	129		
+7360	635085	true	closed	false	46		2016-06-22T06:11:25Z	2017-05-08T15:20:55Z	2017-02-28T17:55:38Z	tty: add ref() so process.stdin.ref() etc. work	129		
 7363	275871	true	closed	false	8		2016-06-22T10:24:10Z	2016-07-11T21:16:05Z	2016-06-23T07:31:07Z	crypto: update root certificates	49		
 7366	495647	false	closed	false	12		2016-06-22T14:09:53Z	2016-07-03T03:51:58Z	2016-07-03T03:51:58Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-06-22	394		
 7367	9932290	false	closed	false	17		2016-06-22T14:17:16Z	2016-08-09T15:42:06Z	2016-08-09T10:40:58Z	child_process.spawn fails on Windows given a space in both the command and an argument	87		
@@ -3392,7 +3392,7 @@
 10017	11701272	true	open	false	3		2016-12-01T17:33:44Z	2016-12-24T05:35:30Z		test: refactor test and add common.mustCall	53		
 10018	7274454	true	open	false	8		2016-12-01T17:34:09Z	2016-12-04T14:53:43Z		test: change var to const/let - change assert.equal to assert.strictE…	71		
 10019	5158539	true	closed	false	19		2016-12-01T17:36:13Z	2016-12-19T17:48:10Z	2016-12-19T17:48:10Z	cluster: return worker reference from disconnect()	62		
-10020	14075231	true	closed	false	14		2016-12-01T17:37:55Z	2017-01-23T00:57:45Z	2016-12-28T05:58:03Z	Add regex to text-crypto-random	64		
+10020	14075231	true	closed	false	15		2016-12-01T17:37:55Z	2017-05-08T15:09:30Z	2016-12-28T05:58:03Z	Add regex to text-crypto-random	64		
 10021	4299420	true	closed	false	13		2016-12-01T17:39:46Z	2016-12-21T04:34:25Z	2016-12-12T14:56:39Z	url, test: WHATWG url originFor should include a base as argument	166		
 10022	4923947	true	closed	false	6		2016-12-01T17:39:48Z	2016-12-24T02:08:46Z	2016-12-24T02:08:46Z	test: fix test-child-process-stdin.js	53		
 10023	682197	true	open	false	4		2016-12-01T17:41:21Z	2016-12-07T08:02:30Z		test: Refactors variables to ES6 compatible and newer assertions 	98		
@@ -3515,7 +3515,7 @@
 10140	1559888	true	open	false	1		2016-12-06T13:28:16Z	2017-03-24T22:57:52Z		build: --without-profiler option, add Windows build options	95		
 10141	1559888	true	closed	false	8		2016-12-06T14:05:47Z	2017-01-23T02:47:22Z	2016-12-27T22:47:28Z	url: build warning fixes	87		
 10142	1559888	true	open	false			2016-12-06T14:13:21Z	2016-12-08T13:27:54Z		crypto: build warning fixes	143		
-10143	1559888	true	closed	false	5		2016-12-06T14:18:19Z	2017-01-23T00:55:43Z	2016-12-27T22:41:06Z	dtrace: resolve conversion warning (Windows)	107		
+10143	1559888	true	closed	false	6		2016-12-06T14:18:19Z	2017-05-08T15:09:09Z	2016-12-27T22:41:06Z	dtrace: resolve conversion warning (Windows)	107		
 10144	9373002	false	open	false	4		2016-12-06T14:22:58Z	2016-12-06T22:38:12Z		Cluster tests (test changes ?) leaving processes behind	139		
 10145	1559888	true	closed	false	2		2016-12-06T14:32:34Z	2016-12-08T09:24:43Z	2016-12-08T09:24:43Z	src: resolve miscellaneous conversion warnings (Windows)	160		
 10146	2251119	true	closed	false	7		2016-12-06T16:26:36Z	2016-12-26T13:06:31Z	2016-12-09T14:28:43Z	test: add stdin-setrawmode.out file to accompany test	68		
@@ -3751,7 +3751,7 @@
 10382	899444	true	closed	false	7		2016-12-21T07:35:59Z	2017-01-03T15:08:33Z	2016-12-26T09:14:27Z	fs: support Uint8Array input to methods	56		
 10383	2352663	true	closed	false	1		2016-12-21T10:22:28Z	2016-12-21T18:02:43Z	2016-12-21T18:02:43Z	"v4.x: backport of ""test: refactor test-fs-non-number-arguments-throw"""	46		
 10384	696611	true	closed	false	2		2016-12-21T10:32:14Z	2016-12-23T12:52:22Z	2016-12-23T12:52:22Z	test: refactor test-init.js	65		
-10385	16402596	true	closed	false	4		2016-12-21T11:09:05Z	2017-04-13T19:32:48Z	2016-12-24T07:06:48Z	async_wrap: close the destroy_ids_idle_handle_ on environment destruction	160		
+10385	16402596	true	closed	false	5		2016-12-21T11:09:05Z	2017-05-08T15:10:18Z	2016-12-24T07:06:48Z	async_wrap: close the destroy_ids_idle_handle_ on environment destruction	160		
 10386	2352663	true	closed	false	3		2016-12-21T15:24:52Z	2016-12-26T11:57:33Z	2016-12-26T11:57:33Z	deps: backport f795a79 from upstream V8	87		
 10387	53454	true	open	false	16		2016-12-21T17:51:08Z	2017-03-24T23:11:32Z		Update events.js	133		
 10388	327746	false	closed	false	22		2016-12-21T17:53:39Z	2017-04-28T20:06:38Z	2017-04-19T09:03:44Z	deps/v8/src/objects.h:3263:46: error: invalid use of incomplete type ‘class v8::internal::Heap	145		
@@ -3909,7 +3909,7 @@
 10540	15943089	false	open	false	1		2016-12-30T14:57:50Z	2016-12-30T15:40:24Z		AIX processes left on machines	508		
 10541	2512748	true	closed	false	4		2016-12-30T15:11:40Z	2017-03-08T20:30:08Z	2017-01-06T19:11:44Z	test: s/assert.notEqual()/assert.notStrictEqual()/	25		
 10542	1189785	true	closed	false	4		2016-12-30T15:30:53Z	2017-01-06T14:58:17Z	2017-01-06T14:58:17Z	test: improve the code in test-fs-access	63		
-10543	2512748	true	closed	false	6		2016-12-30T15:56:25Z	2017-03-08T09:48:20Z	2017-01-02T14:50:49Z	test: increase usage of assert.ifError()	29		
+10543	2512748	true	closed	false	7		2016-12-30T15:56:25Z	2017-05-08T15:15:13Z	2017-01-02T14:50:49Z	test: increase usage of assert.ifError()	29		
 10544	2512748	true	closed	false	2	0	2016-12-30T16:49:38Z	2017-01-02T14:57:44Z	2017-01-02T14:57:44Z	test: s/ASSERT/assert/	53	2512748	2017-01-02T14:57:44Z
 10545	17607	true	closed	false	9		2016-12-30T17:17:29Z	2017-03-08T18:18:01Z	2017-01-06T17:48:29Z	doc: new TLSSocket has no secure context options	51		
 10546	15161981	true	open	false	3		2016-12-30T17:39:55Z	2017-01-24T07:11:27Z		deps: backport 224d376 from V8 upstream	20		
@@ -3923,7 +3923,7 @@
 10554	170197	false	closed	false	2		2016-12-31T09:01:22Z	2017-01-03T23:36:14Z	2017-01-03T23:36:14Z	URL with Object.prototype.toString	27		
 10555	4065244	false	open	false	1		2016-12-31T10:27:15Z	2017-01-19T23:39:28Z		tls: secureConnect event will not be emitted if TLSSocket is created via constructor instead of tls.connect	57		
 10556	1189785	true	closed	false	6		2016-12-31T15:53:31Z	2017-01-03T12:48:57Z	2017-01-03T12:48:57Z	test: improve the code in test-fs-read-stream	57		
-10557	400558	true	closed	false	9		2016-12-31T16:58:36Z	2017-03-08T01:56:29Z	2017-01-16T05:46:12Z	Optimize child_process IPC for large data	279		
+10557	400558	true	closed	false	10		2016-12-31T16:58:36Z	2017-05-08T15:12:05Z	2017-01-16T05:46:12Z	Optimize child_process IPC for large data	279		
 10558	54666	true	closed	false	13		2016-12-31T21:53:37Z	2017-02-20T22:36:20Z	2017-01-11T18:00:52Z	http: various performance improvements	2579		
 10559	54666	true	closed	false	2		2017-01-01T02:53:28Z	2017-03-07T01:55:08Z	2017-01-05T07:52:09Z	benchmark: keep decimals in results	48		
 10560	13608139	false	open	false	0		2017-01-01T05:19:26Z	2017-01-01T05:19:26Z		npm start gives many errors	16		
@@ -4020,7 +4020,7 @@
 10651	15161981	true	closed	false	17		2017-01-06T00:20:27Z	2017-01-25T14:23:28Z	2017-01-25T06:11:40Z	"""--"" after ""-e <script>"" means end-of-options"	69		
 10652	899444	true	closed	false	3		2017-01-06T01:04:27Z	2017-01-11T17:32:12Z	2017-01-11T17:32:12Z	doc: mention cc-ing nodejs/url team for reviews	21		
 10653	899444	true	closed	false	5	0	2017-01-06T01:23:46Z	2017-01-10T19:37:39Z	2017-01-10T19:37:39Z	child_process: support Uint8Array input to methods	47		
-10654	54666	true	closed	false	4		2017-01-06T08:18:10Z	2017-03-07T01:19:24Z	2017-01-13T21:13:05Z	http: improve ClientRequest constructor	102		
+10654	54666	true	closed	false	5		2017-01-06T08:18:10Z	2017-05-08T15:09:38Z	2017-01-13T21:13:05Z	http: improve ClientRequest constructor	102		
 10655	2352663	false	closed	false	3		2017-01-06T08:38:13Z	2017-04-14T17:13:36Z	2017-04-14T17:13:36Z	url-whatwg: disallow invalid IPv4 in IPv6 parser	5		
 10656	527245	false	closed	false	9		2017-01-06T10:02:50Z	2017-03-20T08:53:56Z	2017-03-20T08:53:56Z	Segfault (seems random)	162		
 10657	15943089	true	closed	false	6		2017-01-06T10:11:14Z	2017-03-11T01:29:30Z	2017-01-29T22:44:44Z	build: don't bundle deps/zlib if --shared-zlib set	56		
@@ -4073,7 +4073,7 @@
 10704	9124564	false	closed	false	1		2017-01-09T12:23:07Z	2017-02-22T17:37:13Z	2017-02-22T17:37:13Z	Crash using SNICallback over a netSocket	272		
 10705	25007505	false	open	false	0		2017-01-09T12:56:16Z	2017-01-09T13:05:53Z		Query does not work for node js	164		
 10706	238531	true	closed	false	16		2017-01-09T13:44:01Z	2017-02-22T18:59:39Z	2017-02-22T17:36:56Z	tls: do not crash on STARTTLS when OCSP requested	61		
-10707	1716463	true	closed	false	3		2017-01-09T13:57:50Z	2017-03-08T01:58:49Z	2017-01-16T17:49:35Z	test: skip test-icu-transcode if ICU is not present	57		
+10707	1716463	true	closed	false	4		2017-01-09T13:57:50Z	2017-05-08T15:12:30Z	2017-01-16T17:49:35Z	test: skip test-icu-transcode if ICU is not present	57		
 10708	4923335	true	open	false	2		2017-01-09T15:11:18Z	2017-01-11T22:10:37Z		doc: fix misleading language in vm docs	47		
 10709	25007505	false	closed	false	0		2017-01-09T15:14:37Z	2017-01-09T16:32:17Z	2017-01-09T16:32:17Z	Process exited with error code 199	65		
 10710	1794099	false	closed	false	3		2017-01-09T15:48:50Z	2017-01-10T21:10:23Z	2017-01-10T21:10:23Z	doc: missing negation in streams doc	59		
@@ -4262,7 +4262,7 @@
 10893	1319028	true	closed	false	4	6	2017-01-19T06:48:12Z	2017-01-23T02:21:17Z	2017-01-23T02:21:17Z	url: add return value to ToUnicode/ToAscii stubs	25		
 10894	3367801	true	closed	false	1		2017-01-19T06:49:06Z	2017-01-22T14:38:26Z	2017-01-22T14:38:26Z	test: add dgram.Socket.prototype.bind's test	34		
 10895	54666	true	closed	false	4		2017-01-19T08:25:31Z	2017-03-22T11:49:48Z	2017-01-23T12:29:23Z	buffer: improve toJSON() performance	101		
-10896	677994	true	closed	false	8		2017-01-19T11:58:00Z	2017-04-16T14:04:11Z	2017-01-24T13:42:22Z	doc: move topics/guides to website	56		
+10896	677994	true	closed	false	9		2017-01-19T11:58:00Z	2017-05-08T15:10:09Z	2017-01-24T13:42:22Z	doc: move topics/guides to website	56		
 10897	172594	false	closed	false	9		2017-01-19T14:13:30Z	2017-01-19T15:05:52Z	2017-01-19T15:05:52Z	ASI fails with destructuring assignment	84		
 10898	2512748	true	closed	false	1		2017-01-19T15:47:25Z	2017-03-08T22:17:15Z	2017-01-23T18:22:37Z	test: refactor test-cli-eval.js	40		
 10899	2512748	true	closed	false	1		2017-01-19T16:29:13Z	2017-03-08T22:11:39Z	2017-01-23T14:52:30Z	test: use common.fail() instead of assert(false)	25		
@@ -5033,7 +5033,7 @@
 11664	617638	true	closed	false	4		2017-03-02T21:33:54Z	2017-03-09T10:11:14Z	2017-03-09T10:11:14Z	tools: adds doc links to the stability index reference	313		
 11665	54666	true	closed	false	27		2017-03-03T03:47:39Z	2017-04-15T21:10:03Z	2017-03-15T04:58:54Z	fs: include more fs.stat*() optimizations	330		
 11666	1890238	false	closed	false	15		2017-03-03T04:11:53Z	2017-03-05T04:56:52Z	2017-03-04T18:18:48Z	Date Bug	47		
-11667	4299420	true	closed	false	17		2017-03-03T06:52:45Z	2017-04-17T22:20:04Z	2017-03-08T07:04:09Z	net: refactor overloaded argument handling	105		
+11667	4299420	true	closed	false	18		2017-03-03T06:52:45Z	2017-05-08T15:21:12Z	2017-03-08T07:04:09Z	net: refactor overloaded argument handling	105		
 11668	782880	true	closed	false	2		2017-03-03T08:24:55Z	2017-03-07T13:57:22Z	2017-03-07T13:57:22Z	build: fix llvm version detection in freebsd-10	99		
 11669	432351	true	closed	false	0		2017-03-03T10:06:00Z	2017-03-04T19:04:22Z	2017-03-04T19:04:22Z	src: remove outdated FIXME in node_crypto.cc	48		
 11670	1610233	true	open	false	4		2017-03-03T11:37:51Z	2017-03-06T15:09:50Z		doc: the url is not found	42		
@@ -5063,7 +5063,7 @@
 11694	4525736	false	open	false	0		2017-03-05T13:41:44Z	2017-03-05T14:11:27Z		https.request() can't connect to a website (ETIMEDOUT) but curl can	205		
 11695	15943089	true	closed	false	4		2017-03-05T16:28:44Z	2017-03-09T10:00:00Z	2017-03-09T10:00:00Z	doc: reduce font size on smaller screens	45		
 11696	3967972	true	closed	false	6		2017-03-05T17:09:18Z	2017-04-17T22:42:23Z	2017-03-09T09:51:34Z	dgram: refactor dgram to module.exports	39		
-11697	115237	true	closed	false	5		2017-03-05T17:10:47Z	2017-04-19T18:07:24Z	2017-03-08T16:20:34Z	doc: fix more type case inconsistencies	101		
+11697	115237	true	closed	false	6		2017-03-05T17:10:47Z	2017-05-08T15:27:34Z	2017-03-08T16:20:34Z	doc: fix more type case inconsistencies	101		
 11698	3967972	true	closed	false	4		2017-03-05T17:17:49Z	2017-04-18T22:53:09Z	2017-03-26T10:03:57Z	net: refactor net module to module.exports	52		
 11699	704044	false	closed	false	2		2017-03-05T17:49:00Z	2017-03-06T10:14:02Z	2017-03-06T10:14:02Z	Readline: resume() replays input received during pause	119		
 11700	4299420	true	closed	false	6		2017-03-05T20:44:36Z	2017-03-13T15:51:25Z	2017-03-11T02:50:12Z	doc: improve docs for net.connect, net.createConnection, net.Socket	76		
@@ -5119,7 +5119,7 @@
 11751	323878	false	open	false	0		2017-03-08T17:36:50Z	2017-03-08T17:36:50Z		Node on Windows doesn't send initial Pause event to inspector	96		
 11752	2352663	true	closed	false	26	0	2017-03-08T20:15:40Z	2017-03-25T08:46:08Z	2017-03-25T08:46:08Z	deps: update V8 to 5.7	83	2352663	2017-03-25T08:46:08Z
 11753	855219	false	closed	false	6		2017-03-08T21:48:08Z	2017-04-18T13:34:39Z	2017-03-09T18:10:49Z	missing #include <unicode/ustring.h>	88		
-11754	855219	true	closed	false	4		2017-03-08T22:11:01Z	2017-04-17T22:35:47Z	2017-03-09T18:10:40Z	src: add missing #include <unicode/ustring.h>	53		
+11754	855219	true	closed	false	5		2017-03-08T22:11:01Z	2017-05-08T15:22:00Z	2017-03-09T18:10:40Z	src: add missing #include <unicode/ustring.h>	53		
 11755	287917	true	closed	false	9		2017-03-08T22:39:17Z	2017-03-28T17:29:58Z	2017-03-13T17:44:42Z	inspector: proper WS URLs when bound to 0.0.0.0	50		
 11756	10393198	false	closed	false	2		2017-03-09T00:12:03Z	2017-03-10T12:17:33Z	2017-03-10T12:17:33Z	Legacy API of Agent.prototype.addRequest()	78		
 11757	718899	true	closed	false	1	0	2017-03-09T00:16:04Z	2017-03-09T01:08:35Z	2017-03-09T01:08:34Z	v6.x backport: tools: update ESLint to current version 	3		
@@ -5222,7 +5222,7 @@
 11854	12488060	true	closed	false	3		2017-03-15T00:56:56Z	2017-03-28T22:27:17Z	2017-03-22T16:57:52Z	lib: Use regex to compare error message	37		
 11855	3315328	false	open	false	15		2017-03-15T01:34:38Z	2017-03-16T08:21:49Z		let v8 use libuv thread pool	17		
 11856	3293332	true	closed	false	7		2017-03-15T03:18:38Z	2017-04-18T17:18:04Z	2017-03-17T16:26:42Z	build: add cpp linting to windows build	70		
-11857	432351	true	closed	false	2		2017-03-15T04:38:37Z	2017-04-18T17:17:33Z	2017-03-17T12:56:27Z	build: mac OBJ_DIR should point to obj.target	111		
+11857	432351	true	closed	false	3		2017-03-15T04:38:37Z	2017-05-08T15:28:24Z	2017-03-17T12:56:27Z	build: mac OBJ_DIR should point to obj.target	111		
 11858	1538624	true	closed	false	5		2017-03-15T05:23:18Z	2017-03-28T22:24:58Z	2017-03-22T00:35:20Z	url: spec-compliant URLSearchParams parser	402		
 11859	1538624	true	closed	false	3		2017-03-15T06:45:53Z	2017-03-21T14:34:21Z	2017-03-16T23:40:32Z	src: remove explicit UTF-8 validity check in url	61		
 11860	1773996	false	open	false	0		2017-03-15T09:46:19Z	2017-03-15T09:46:19Z		uv__queue_done: Assertion	69		
@@ -5281,7 +5281,7 @@
 11913	11979293	false	closed	false	0		2017-03-18T15:02:12Z	2017-03-20T19:17:59Z	2017-03-20T19:17:59Z	Missing word in Stream docs 	89		
 11914	11979293	true	open	false	0		2017-03-18T15:18:19Z	2017-03-20T19:17:30Z		doc: add missing word in stream.md	40		
 11915	115237	false	open	false	2		2017-03-18T16:01:41Z	2017-04-06T18:30:23Z		Document tls.Server#listen(path, callback) and possible other signatures	25		
-11916	20017097	true	closed	false	6		2017-03-18T17:26:49Z	2017-04-18T20:00:27Z	2017-03-22T05:57:17Z	build: don't create a new directory for android toolchain	78		
+11916	20017097	true	closed	false	8		2017-03-18T17:26:49Z	2017-05-08T15:29:20Z	2017-03-22T05:57:17Z	build: don't create a new directory for android toolchain	78		
 11917	1538624	true	closed	false	9		2017-03-18T17:59:46Z	2017-04-10T17:54:14Z	2017-03-30T05:20:37Z	src, url: WHATWG URL C++ parser cleanup	37		
 11918	886059	false	open	false	5		2017-03-18T20:43:02Z	2017-03-21T17:31:49Z		`Socket.write` does not reliably fire callback with error.	634		
 11919	332968	true	closed	false	5		2017-03-18T20:57:28Z	2017-03-22T05:42:19Z	2017-03-22T05:42:19Z	fs: (+/-)Infinity and NaN invalid unixtimestamp	75		
@@ -6084,7 +6084,7 @@
 12719	7408689	false	open	false	0		2017-04-28T08:55:59Z	2017-04-28T08:55:59Z		Missing yesterday v8.0.0 nightly source tarball	6		
 12721	498775	true	open	false	2		2017-04-28T11:05:27Z	2017-04-29T09:53:29Z		"Revert ""src: fix delete operator on vm context"""	54		
 12722	275871	true	closed	false	3		2017-04-28T11:43:17Z	2017-05-01T16:18:36Z	2017-05-01T15:18:49Z	deps: cherry-pick bfae9db from upstream v8	17		
-12723	439929	true	open	false			2017-04-28T14:28:21Z	2017-05-08T01:09:35Z		doc: update experimental status to reflect use	44		
+12723	439929	true	open	false	20		2017-04-28T14:28:21Z	2017-05-08T15:52:21Z		doc: update experimental status to reflect use	44		
 12724	1506512	false	open	false	7		2017-04-28T14:44:47Z	2017-05-03T09:18:43Z		node.js cluster, workers stdouts overlay each other on some hosts	149		
 12725	439929	true	closed	false	2		2017-04-28T16:18:27Z	2017-05-01T18:57:31Z	2017-05-01T18:57:31Z	process: add optional detail to process emitWarning	154		
 12726	17607	true	open	false	1		2017-04-28T17:54:10Z	2017-05-07T21:02:38Z		doc: sort bottom-of-file markdown links	21		
@@ -6152,7 +6152,7 @@
 12788	432351	true	closed	false	4		2017-05-02T13:05:49Z	2017-05-04T13:17:46Z	2017-05-04T12:41:07Z	src: make root_cert_vector function scoped	62		
 12789	899444	false	open	false	7		2017-05-02T14:47:37Z	2017-05-03T08:52:11Z		CTC membership nomination: @joyeecheung	253		
 12790	899444	false	open	false	28		2017-05-02T14:49:02Z	2017-05-05T10:06:16Z		CTC membership nomination: @mcollina	238		
-12791	96947	true	open	false			2017-05-02T14:50:34Z	2017-05-08T09:05:44Z		"doc: add ""Troubleshooting"" & ""best practices"""	232		
+12791	96947	true	open	false			2017-05-02T14:50:34Z	2017-05-08T15:40:18Z		"doc: add ""Troubleshooting"" & ""best practices"""	232		
 12792	10393198	true	closed	false	10		2017-05-02T14:59:32Z	2017-05-04T18:15:55Z	2017-05-04T18:15:55Z	test: fix too optimistic guess in setproctitle	194		
 12793	15943089	false	open	false	3		2017-05-02T15:33:49Z	2017-05-05T00:29:19Z		Note that whatwg-url tests should not be modified	35		
 12794	794604	true	open	false	3		2017-05-02T17:29:48Z	2017-05-07T07:43:55Z		Add process.dlopenFlags	166		
@@ -6193,7 +6193,7 @@
 12829	291301	false	open	false	0		2017-05-04T14:42:05Z	2017-05-04T19:29:38Z		doc: the «Deprecated» stability index description is inaccurate	134		
 12830	100928	true	open	false			2017-05-04T15:30:33Z	2017-05-07T16:53:26Z		doc: Change test option at STEP 5: Test in CONTRIBUTING.md	23		
 12831	5886475	true	closed	false	2		2017-05-04T15:39:00Z	2017-05-07T20:24:00Z	2017-05-07T20:24:00Z	test: complete coverage of buffer	199		
-12832	1081565	false	open	false	0		2017-05-04T16:51:59Z	2017-05-04T19:21:52Z		server.maxConnections check happens on EventLoop	193		
+12832	1081565	false	open	false	1		2017-05-04T16:51:59Z	2017-05-08T15:43:04Z		server.maxConnections check happens on EventLoop	193		
 12833	976081	false	open	false	1		2017-05-04T17:54:03Z	2017-05-04T23:58:42Z		N-API documentation appears on 7.10.0	10		
 12834	26607998	false	closed	false	2		2017-05-04T19:54:40Z	2017-05-04T21:02:05Z	2017-05-04T19:57:58Z	Calculation error	56		
 12835	96947	true	open	false	13		2017-05-04T20:08:22Z	2017-05-05T16:40:03Z		test, fs: fix chmod mask testing on windows	45		
@@ -6237,12 +6237,12 @@
 12873	96947	false	open	false	3		2017-05-06T17:56:49Z	2017-05-06T20:22:22Z		test: is `parallel/test-https-client-get-url` flaky on macOS	44		
 12874	96947	true	open	false			2017-05-06T18:32:54Z	2017-05-08T13:05:09Z		test, build: add test-ci wrappers	70		
 12875	899444	true	open	false	3		2017-05-06T18:33:39Z	2017-05-07T17:35:03Z		v8: forward compatibility to current V8 master	137		
-12876	15608388	true	open	false			2017-05-06T20:32:35Z	2017-05-08T11:14:37Z		test: fix flaky test-https-client-get-url	48		
+12876	15608388	true	open	false			2017-05-06T20:32:35Z	2017-05-08T15:42:11Z		test: fix flaky test-https-client-get-url	48		
 12877	559409	false	open	false	0		2017-05-07T05:55:29Z	2017-05-07T05:55:29Z		http: setting multiple headers could be more efficient	123		
 12878	498775	true	open	false	2		2017-05-07T09:58:42Z	2017-05-07T11:36:23Z		Patch V8 API to be ABI compatible with v5.9.	41		
-12879	11230479	true	open	false			2017-05-07T11:30:01Z	2017-05-07T18:59:00Z		test: update test for url.parse() to match the exact error through re…	49		
+12879	11230479	true	open	false			2017-05-07T11:30:01Z	2017-05-08T15:38:35Z		test: update test for url.parse() to match the exact error through re…	49		
 12880	1716463	true	open	false	0	0	2017-05-07T12:05:39Z	2017-05-07T12:05:39Z		(v7.x backport) url: handle windows drive letter in the file state	61		
-12881	432351	true	open	false	0	0	2017-05-07T12:42:49Z	2017-05-07T12:42:49Z		lib: add try/catch to inspector binding	122		
+12881	432351	true	open	false			2017-05-07T12:42:49Z	2017-05-08T15:32:27Z		lib: add try/catch to inspector binding	122		
 12882	432351	true	open	false	0	0	2017-05-07T12:43:22Z	2017-05-07T12:43:22Z		test: add skipIfInspectorDisabled to debugger-pid	35		
 12883	718899	true	open	false			2017-05-07T16:32:45Z	2017-05-07T18:09:41Z		test: favor deepStrictEqual over deepEqual	50		
 12884	327019	true	open	false	0	0	2017-05-07T18:03:53Z	2017-05-07T18:03:53Z		lib: remove unless default caught	55		
@@ -6252,9 +6252,11 @@
 12888	1898413	false	open	false	4		2017-05-07T22:13:42Z	2017-05-08T07:04:06Z		`typeof` should not bring an undeclared variable into existence	124		
 12889	9373002	true	open	false	0	0	2017-05-07T23:51:19Z	2017-05-07T23:51:19Z		doc: fix broken links in n-api doc	46		
 12890	9373002	true	open	false	0	0	2017-05-08T00:17:27Z	2017-05-08T00:17:27Z		test: improve n-api array func coverage	43		
-12891	7041980	true	open	false	5		2017-05-08T01:47:43Z	2017-05-08T07:38:18Z		test: replace assert throws message with a regexp	59		
-12892	505333	true	open	false	7		2017-05-08T07:37:38Z	2017-05-08T14:44:15Z		Async Hooks - Initial Implementation	338		
+12891	7041980	true	open	false	7		2017-05-08T01:47:43Z	2017-05-08T15:24:53Z		test: replace assert throws message with a regexp	41		
+12892	505333	true	open	false	10		2017-05-08T07:37:38Z	2017-05-08T15:33:02Z		Async Hooks - Initial Implementation	338		
 12893	1272762	false	open	false	6		2017-05-08T09:02:24Z	2017-05-08T13:03:40Z		Always crash when the memory increased to 4~5G	272		
-12894	13674071	false	open	false	0		2017-05-08T14:04:51Z	2017-05-08T14:04:51Z		instanceof with arrow function generates error	111		
-12895	18708370	false	open	false	0		2017-05-08T14:12:46Z	2017-05-08T14:12:46Z		net.Server.address() returns a string instead of an object	79		
+12894	13674071	false	closed	false	1		2017-05-08T14:04:51Z	2017-05-08T15:50:35Z	2017-05-08T15:50:35Z	instanceof with arrow function generates error	111		
+12895	18708370	false	open	false	3		2017-05-08T14:12:46Z	2017-05-08T15:43:51Z		net.Server.address() returns a string instead of an object for Pipes	79		
 12896	25020067	false	open	false	0		2017-05-08T14:28:23Z	2017-05-08T14:28:23Z		Assignment to global object possible between files	72		
+12897	5322914	false	open	false	0		2017-05-08T15:11:44Z	2017-05-08T15:11:44Z		Nodejs Connection limit	52		
+12898	8297234	true	open	false	0	0	2017-05-08T15:26:33Z	2017-05-08T15:26:33Z		doc: clarify node.js addons language	23		
