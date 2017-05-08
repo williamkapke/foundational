@@ -5835,7 +5835,7 @@
 12470	4078325	true	open	false	8		2017-04-17T16:36:19Z	2017-04-22T06:25:14Z		test: moved test-debugger-repeat-last.js from parallel to sequential	34		
 12471	2291463	false	open	false	23		2017-04-17T17:36:26Z	2017-05-01T01:52:05Z		Consider minifying JS sources?	164		
 12472	15608388	true	closed	false	1		2017-04-17T17:46:39Z	2017-04-19T17:14:51Z	2017-04-19T17:14:51Z	tests: remove common.PORT from cluster send tests	55		
-12473	5358146	true	open	false			2017-04-17T18:28:17Z	2017-05-08T10:08:32Z		Remove common.PORT usage from `parallel` tests 	66		
+12473	5358146	true	open	false			2017-04-17T18:28:17Z	2017-05-08T12:34:42Z		Remove common.PORT usage from `parallel` tests 	66		
 12474	439929	true	open	false	0	0	2017-04-17T22:11:17Z	2017-04-17T22:11:17Z		"Revert ""benchmark: fix CLI arguments check in common.js"""	62		
 12475	439929	true	closed	false	1		2017-04-17T22:54:20Z	2017-04-17T23:52:21Z	2017-04-17T23:52:21Z	"Revert ""test: port test for make_callback to n-api"""	49		
 12476	718899	true	open	false	2		2017-04-17T23:27:45Z	2017-04-19T16:52:52Z		test: increase coverage for buffer.js	46		
@@ -5921,7 +5921,7 @@
 12556	196883	false	open	false	11		2017-04-20T23:10:30Z	2017-04-27T19:15:17Z		doc: fix documentation regarding cross-compilation	222		
 12557	10393198	true	closed	false	5		2017-04-21T01:07:10Z	2017-04-23T17:07:00Z	2017-04-21T21:05:06Z	doc: unify trailing commas in code examples	87		
 12558	197329	false	closed	false	5		2017-04-21T02:54:11Z	2017-04-24T13:57:48Z	2017-04-24T13:57:48Z	"Is it ok to call it ""node"" or has to be ""node.js""?"	50		
-12559	12330766	false	open	false	5		2017-04-21T03:26:14Z	2017-05-02T05:58:39Z		Stop inspect the main thread Blocked.	64		
+12559	12330766	false	open	false	5		2017-04-21T03:26:14Z	2017-05-08T12:54:47Z		Stop inspect the main thread Blocked.	64		
 12560	718899	false	open	false	7		2017-04-21T04:34:01Z	2017-04-25T20:37:07Z		investigate flaky sequential/test-benchmark-child-process on Windows	255		
 12561	718899	true	open	false	1		2017-04-21T04:38:14Z	2017-04-21T05:21:10Z		test: set benchmark-child-process flaky on windows	49		
 12562	696611	true	open	false			2017-04-21T04:54:19Z	2017-04-27T02:03:12Z		fs: throw on invalid callbacks for async functions	68		
@@ -6218,10 +6218,10 @@
 12854	677994	true	open	false	2		2017-05-05T11:18:41Z	2017-05-07T07:02:21Z		"Revert ""net: remove unnecessary process.nextTick()"""	72		
 12855	1128607	true	open	false	0		2017-05-05T11:21:53Z	2017-05-05T15:55:10Z		streams: remove all references to readableState/writableState from docs	115		
 12856	6447530	true	open	false	5		2017-05-05T11:47:48Z	2017-05-08T07:41:23Z		test: detect all types of aborts in windows	90		
-12857	1128607	true	open	false	1		2017-05-05T12:52:43Z	2017-05-05T21:55:22Z		stream: remove {writeableState/readableState}.length	64		
+12857	1128607	true	open	false	2		2017-05-05T12:52:43Z	2017-05-08T12:03:58Z		stream: remove {writeableState/readableState}.length	64		
 12858	10393198	false	open	false	5		2017-05-05T13:26:55Z	2017-05-05T19:42:19Z		test, timers, tools: question about fails on Windows	177		
 12859	3865838	false	closed	false	1		2017-05-05T14:04:33Z	2017-05-05T18:27:19Z	2017-05-05T18:27:19Z	"Crash with ""prodnode.sh: line 1: 23004 Aborted"""	193		
-12860	1128607	true	open	false	2		2017-05-05T14:18:47Z	2017-05-06T06:33:37Z		stream: remove useage of _readableState/_writableState.highWaterMark	46		
+12860	1128607	true	open	false	4		2017-05-05T14:18:47Z	2017-05-08T12:04:51Z		stream: remove useage of _readableState/_writableState.highWaterMark	46		
 12861	10602	true	open	false	5		2017-05-05T14:27:00Z	2017-05-07T18:05:40Z		net: ensure net.connect calls Socket connect	111		
 12862	10602	true	open	false	1		2017-05-05T14:47:39Z	2017-05-05T22:00:35Z		doc: fix commit guideline url	22		
 12863	13093042	true	open	false	0		2017-05-05T18:42:51Z	2017-05-07T21:15:19Z		n-api: napi_get_cb_info should always fill array	91		
@@ -6253,5 +6253,5 @@
 12889	9373002	true	open	false	0	0	2017-05-07T23:51:19Z	2017-05-07T23:51:19Z		doc: fix broken links in n-api doc	46		
 12890	9373002	true	open	false	0	0	2017-05-08T00:17:27Z	2017-05-08T00:17:27Z		test: improve n-api array func coverage	43		
 12891	7041980	true	open	false	5		2017-05-08T01:47:43Z	2017-05-08T07:38:18Z		test: replace assert throws message with a regexp	59		
-12892	505333	true	open	false	1		2017-05-08T07:37:38Z	2017-05-08T11:29:16Z		Async Hooks - Initial Implementation	338		
-12893	1272762	false	open	false	1		2017-05-08T09:02:24Z	2017-05-08T10:33:06Z		Always crash when the memory increased to 4~5G	272		
+12892	505333	true	open	false	3		2017-05-08T07:37:38Z	2017-05-08T12:30:28Z		Async Hooks - Initial Implementation	338		
+12893	1272762	false	open	false	3		2017-05-08T09:02:24Z	2017-05-08T12:29:12Z		Always crash when the memory increased to 4~5G	272		
