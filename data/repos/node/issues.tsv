@@ -4912,7 +4912,7 @@
 11543	25020067	true	open	false	2		2017-02-24T19:30:07Z	2017-02-27T16:21:15Z		Have console.timeEnd return the elapsed time.	14		
 11544	469365	true	closed	false	0		2017-02-24T20:54:11Z	2017-02-27T20:20:38Z	2017-02-27T20:20:38Z	doc: document clientRequest.aborted	96		
 11545	76945	false	open	false	3		2017-02-24T22:08:50Z	2017-02-27T17:23:03Z		Bug on array spread operator on NodeJS 6.10.0 with --optimize_for_size	303		
-11546	2512748	true	open	false	27		2017-02-25T00:05:23Z	2017-05-05T06:30:40Z		WIP: cluster: make scheduler configurable	378		
+11546	2512748	true	open	false	28		2017-02-25T00:05:23Z	2017-05-08T19:13:29Z		WIP: cluster: make scheduler configurable	378		
 11547	718899	true	closed	false	0		2017-02-25T06:20:08Z	2017-02-27T20:17:18Z	2017-02-27T20:17:18Z	test: favor assertions over console logging	34		
 11548	19511039	true	closed	false	1		2017-02-25T07:40:53Z	2017-02-27T20:10:03Z	2017-02-27T20:10:03Z	doc: argument types for assert methods	37		
 11549	1538624	true	closed	false	6	14	2017-02-25T08:31:49Z	2017-03-01T02:33:04Z	2017-03-01T02:33:04Z	src: do not ignore IDNA conversion error	252		
@@ -5118,8 +5118,8 @@
 11750	115237	true	closed	false	0		2017-03-08T16:47:38Z	2017-03-13T15:53:42Z	2017-03-13T15:53:42Z	(v7.x-staging backport) doc type fixes	14		
 11751	323878	false	open	false	0		2017-03-08T17:36:50Z	2017-03-08T17:36:50Z		Node on Windows doesn't send initial Pause event to inspector	96		
 11752	2352663	true	closed	false	26	0	2017-03-08T20:15:40Z	2017-03-25T08:46:08Z	2017-03-25T08:46:08Z	deps: update V8 to 5.7	83	2352663	2017-03-25T08:46:08Z
-11753	855219	false	closed	false	6		2017-03-08T21:48:08Z	2017-04-18T13:34:39Z	2017-03-09T18:10:49Z	missing #include <unicode/ustring.h>	88		
-11754	855219	true	closed	false	5		2017-03-08T22:11:01Z	2017-05-08T15:22:00Z	2017-03-09T18:10:40Z	src: add missing #include <unicode/ustring.h>	53		
+11753	855219	false	closed	false	8		2017-03-08T21:48:08Z	2017-05-08T19:10:12Z	2017-03-09T18:10:49Z	missing #include <unicode/ustring.h>	88		
+11754	855219	true	closed	false	6		2017-03-08T22:11:01Z	2017-05-08T19:08:31Z	2017-03-09T18:10:40Z	src: add missing #include <unicode/ustring.h>	53		
 11755	287917	true	closed	false	9		2017-03-08T22:39:17Z	2017-03-28T17:29:58Z	2017-03-13T17:44:42Z	inspector: proper WS URLs when bound to 0.0.0.0	50		
 11756	10393198	false	closed	false	2		2017-03-09T00:12:03Z	2017-03-10T12:17:33Z	2017-03-10T12:17:33Z	Legacy API of Agent.prototype.addRequest()	78		
 11757	718899	true	closed	false	1	0	2017-03-09T00:16:04Z	2017-03-09T01:08:35Z	2017-03-09T01:08:34Z	v6.x backport: tools: update ESLint to current version 	3		
@@ -5432,7 +5432,7 @@
 12065	559317	false	open	false	0		2017-03-27T12:47:15Z	2017-03-27T13:38:24Z		fully qualified path names result in build failing	166		
 12066	5886475	true	closed	false	3		2017-03-27T14:02:59Z	2017-04-04T18:52:03Z	2017-04-04T18:52:03Z	test: increase coverage of internal/socket_list	35		
 12067	918438	false	open	false	0		2017-03-27T14:27:02Z	2017-03-27T14:27:02Z		url.format ignores port	31		
-12068	1093990	false	open	false	5		2017-03-27T14:38:25Z	2017-05-08T16:57:54Z		test the benchmarks at one iteration	88		
+12068	1093990	false	open	false	6		2017-03-27T14:38:25Z	2017-05-08T19:23:27Z		test the benchmarks at one iteration	88		
 12069	1500684	false	open	false	6		2017-03-27T15:37:24Z	2017-03-27T16:02:54Z		Add --auto-open flag w/ --inspect	52		
 12070	3764614	false	closed	false	5		2017-03-27T16:07:07Z	2017-03-27T17:52:22Z	2017-03-27T16:26:41Z	Build node sources under visual studio 2013	63		
 12071	1093990	true	open	false	0	0	2017-03-27T16:09:12Z	2017-03-27T16:09:12Z		node: improve invalid promiseRejectEvent message	64		
@@ -5441,7 +5441,7 @@
 12074	26723772	false	open	false	0		2017-03-27T19:36:38Z	2017-03-27T19:36:38Z		Error while debugging via Atom IDE: Uncaught TypeError: this.processManager.startActiveFile is not a function	154		
 12075	718899	false	open	false	4		2017-03-27T20:14:19Z	2017-03-28T04:49:33Z		Investigate flaky parallel/test-net-better-error-messages-port-hostname	55		
 12076	287917	true	closed	false	4		2017-03-27T20:23:04Z	2017-04-10T17:54:43Z	2017-03-30T20:27:37Z	"inspector: use inspector API for ""break on start"""	47		
-12077	855219	false	open	false	1		2017-03-27T20:29:19Z	2017-05-08T19:00:18Z		deps: ICU 59 bump	29		
+12077	855219	false	open	false	2		2017-03-27T20:29:19Z	2017-05-08T19:13:12Z		deps: ICU 59 bump	29		
 12078	855219	true	closed	false	3		2017-03-27T20:44:21Z	2017-04-18T23:10:01Z	2017-03-30T22:10:08Z	"tools: add missing #include ""unicode/putil.h"""	60		
 12079	54666	false	open	false	0		2017-03-27T21:45:20Z	2017-03-27T21:45:20Z		assert: throw error in doesNotThrow()	65		
 12080	332968	true	closed	false	5		2017-03-27T22:07:17Z	2017-04-18T23:40:42Z	2017-04-04T18:51:27Z	test: refactor mkdtemp test and added async	53		
@@ -5848,7 +5848,7 @@
 12483	7455872	true	closed	false	2	0	2017-04-18T08:20:34Z	2017-04-19T21:02:21Z	2017-04-19T21:02:21Z	test: console.log removed from test-net-localport	41		
 12484	432351	true	open	false	23		2017-04-18T09:52:02Z	2017-04-20T18:06:42Z		build: fix ninja build failure	153		
 12485	432351	true	closed	false	1		2017-04-18T13:25:31Z	2017-04-20T07:47:39Z	2017-04-20T07:47:39Z	test: skip tests using ca flags	92		
-12486	855219	true	open	false	0	0	2017-04-18T13:45:33Z	2017-04-18T13:45:33Z		deps: ICU 59.1 bump	53		
+12486	855219	true	open	false	0		2017-04-18T13:45:33Z	2017-05-08T19:12:29Z		deps: ICU 59.1 bump	58		
 12487	15608388	true	closed	false	2		2017-04-18T15:21:31Z	2017-04-23T05:45:25Z	2017-04-23T05:45:25Z	test: dynamic port in cluster worker dgram	49		
 12488	5008	false	open	false	7		2017-04-18T16:03:49Z	2017-04-19T23:31:09Z		Undefined hostname defaults to 127.0.0.1	137		
 12489	899444	true	closed	false	33		2017-04-18T16:14:14Z	2017-04-27T18:15:37Z	2017-04-27T15:46:04Z	domain: support promises	122		
@@ -6253,7 +6253,7 @@
 12889	9373002	true	open	false	0	0	2017-05-07T23:51:19Z	2017-05-07T23:51:19Z		doc: fix broken links in n-api doc	46		
 12890	9373002	true	open	false	1		2017-05-08T00:17:27Z	2017-05-08T17:22:08Z		test: improve n-api array func coverage	43		
 12891	7041980	true	open	false	7		2017-05-08T01:47:43Z	2017-05-08T15:24:53Z		test: replace assert throws message with a regexp	41		
-12892	505333	true	open	false	14		2017-05-08T07:37:38Z	2017-05-08T18:07:01Z		Async Hooks - Initial Implementation	338		
+12892	505333	true	open	false	22		2017-05-08T07:37:38Z	2017-05-08T19:46:04Z		Async Hooks - Initial Implementation	338		
 12893	1272762	false	open	false	6		2017-05-08T09:02:24Z	2017-05-08T13:03:40Z		Always crash when the memory increased to 4~5G	272		
 12894	13674071	false	closed	false	1		2017-05-08T14:04:51Z	2017-05-08T15:50:35Z	2017-05-08T15:50:35Z	instanceof with arrow function generates error	111		
 12895	18708370	false	open	false	7		2017-05-08T14:12:46Z	2017-05-08T16:10:12Z		net.Server.address() returns a string instead of an object for Pipes	79		
@@ -6263,3 +6263,6 @@
 12899	4421720	true	open	false			2017-05-08T17:49:42Z	2017-05-08T18:59:07Z		src: fix comments re PER_ISOLATE macros	47		
 12900	96947	false	open	false	0		2017-05-08T18:01:26Z	2017-05-08T18:01:26Z		test: is `sequential/test-fs-watch` flaky on macOS	22		
 12901	7041980	true	open	false	0	0	2017-05-08T18:02:42Z	2017-05-08T18:02:42Z		test: remove common.PORT or move test to sequential	85		
+12902	194713	false	open	false	0		2017-05-08T19:08:38Z	2017-05-08T19:08:38Z		Provide a way to create clone/CoW copies	161		
+12903	10393198	false	open	false	0		2017-05-08T19:49:17Z	2017-05-08T19:49:17Z		benchmark, http, test: test/sequential/test-benchmark-http.js is incomplete	154		
+12904	10393198	true	open	false	0	0	2017-05-08T19:58:48Z	2017-05-08T19:58:48Z		benchmark: update an obsolete path	19		
