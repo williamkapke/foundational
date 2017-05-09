@@ -338,7 +338,7 @@
 5213	439929	false	closed	false	9		2016-02-13T04:41:36Z	2016-08-29T22:13:27Z	2016-08-29T22:13:27Z	Tracking: Revert #5102 when possible	36		
 5251	696611	true	open	false	81		2016-02-15T23:12:35Z	2017-02-28T23:12:27Z		emit `error` events consistently in next tick	81		
 5256	327019	true	closed	false	29	0	2016-02-16T08:27:34Z	2016-08-01T22:10:12Z	2016-08-01T22:10:12Z	buffer: speed up Buffer.isEncoding() method	9		
-5258	172594	false	open	false	22		2016-02-16T12:06:31Z	2017-05-09T13:09:03Z		Propose NODE_TLS_REJECT_UNAUTHORIZED be renamed	105		
+5258	172594	false	open	false	23		2016-02-16T12:06:31Z	2017-05-09T14:31:16Z		Propose NODE_TLS_REJECT_UNAUTHORIZED be renamed	105		
 5261	1715054	false	closed	false	20		2016-02-16T18:43:30Z	2017-04-20T11:23:29Z	2017-04-20T11:23:29Z	Error: EPERM: operation not permitted, open 'C:\Users\username\.node_repl_history'	15		
 5266	1656054	false	closed	false	11		2016-02-17T00:03:03Z	2017-01-09T14:21:34Z	2017-01-09T14:21:34Z	Segfault when passing objects between vm contexts	221		
 5268	718899	false	closed	false	0		2016-02-17T03:49:37Z	2017-04-04T03:52:20Z	2017-04-04T03:52:20Z	Windows 10 access violation with debugger	157		
@@ -3125,7 +3125,7 @@
 9750	718899	true	closed	false	1		2016-11-22T19:49:04Z	2016-12-13T21:26:33Z	2016-12-13T21:26:33Z	v4 backport: benchmark,lib,test,tools: remove unneeded . escape	68		
 9751	1084056	true	closed	false	1	0	2016-11-22T21:51:58Z	2016-11-29T09:10:39Z	2016-11-29T09:10:39Z	url: fix -Warray-bounds warning	37	1084056	2016-11-29T09:10:39Z
 9752	1622515	true	closed	false	9	4	2016-11-22T22:48:49Z	2016-12-05T14:07:01Z	2016-12-05T14:07:01Z	repl: preprocess only for defaultEval	56		
-9753	289174	true	closed	false	15		2016-11-23T05:41:48Z	2017-05-08T14:41:01Z	2016-12-01T23:51:19Z	[async_wrap] fix fatal error during destroy() calls	96		
+9753	289174	true	closed	false	16		2016-11-23T05:41:48Z	2017-05-09T14:59:14Z	2016-12-01T23:51:19Z	[async_wrap] fix fatal error during destroy() calls	96		
 9754	2352663	true	closed	false	20	11	2016-11-23T09:54:13Z	2017-01-21T17:26:41Z	2017-01-21T17:26:41Z	deps: introduce embedder version number for V8	40		
 9755	1084956	false	closed	false	1		2016-11-23T10:55:22Z	2016-11-23T11:11:18Z	2016-11-23T11:11:18Z	Node.js installation fails error status: 1603.	152		
 9756	1490	false	closed	false	0		2016-11-23T10:56:02Z	2016-12-14T15:13:22Z	2016-12-14T15:13:22Z	Infinite loop in timers.js	216		
@@ -4090,7 +4090,7 @@
 10721	4157827	false	closed	false	0		2017-01-10T12:49:59Z	2017-01-10T13:03:10Z	2017-01-10T13:03:10Z	Strange error about function	120		
 10722	1080471	false	open	false	0		2017-01-10T14:17:09Z	2017-01-10T14:17:09Z		Incorrect SHASUM method listed on v4.4.7	36		
 10723	15943089	true	closed	false	9		2017-01-10T14:36:55Z	2017-03-08T01:37:53Z	2017-01-12T21:34:48Z	test: use realpath for NODE_TEST_DIR in common.js	90		
-10724	1762535	false	closed	false	5		2017-01-10T16:22:00Z	2017-05-09T13:57:56Z	2017-04-27T15:46:52Z	"process.domain is undefined after using ""await"" in node7 "	131		
+10724	1762535	false	closed	false	7		2017-01-10T16:22:00Z	2017-05-09T14:15:15Z	2017-04-27T15:46:52Z	"process.domain is undefined after using ""await"" in node7 "	131		
 10725	962099	true	open	false	7		2017-01-10T16:43:42Z	2017-01-16T22:04:57Z		test: improve test-stream2-large-read-stall	61		
 10726	193412	false	open	false	4		2017-01-10T17:05:26Z	2017-01-31T17:10:18Z		node js api document should link to LTS release from each page	106		
 10727	22373642	false	open	false	10		2017-01-10T18:27:51Z	2017-03-20T16:44:40Z		querystring.unescape() accepting input that is not URL escaped	204		
@@ -6019,7 +6019,7 @@
 12654	439929	true	closed	false	12		2017-04-25T21:53:53Z	2017-05-01T18:47:38Z	2017-05-01T18:47:38Z	os: refactor structure of the os module	71		
 12655	6529684	true	open	false	5		2017-04-25T22:01:21Z	2017-04-25T23:23:05Z		events: remove code duplication	48		
 12656	287917	true	closed	false	1	8	2017-04-25T22:04:47Z	2017-05-04T17:44:36Z	2017-05-04T17:44:35Z	inspector: do not add 'inspector' property	71	287917	2017-05-04T17:44:35Z
-12657	439929	false	open	false	0		2017-04-25T22:59:22Z	2017-04-25T23:24:00Z		events: performance regression in event benchmarks	92		
+12657	439929	false	open	false	1		2017-04-25T22:59:22Z	2017-05-09T14:26:36Z		events: performance regression in event benchmarks	92		
 12658	718899	true	closed	false	5		2017-04-26T02:57:50Z	2017-04-28T23:22:33Z	2017-04-28T23:22:33Z	benchmark: terminate child process on Windows	48		
 12659	718899	true	closed	false	2		2017-04-26T03:48:41Z	2017-04-26T18:27:27Z	2017-04-26T18:27:27Z	test: remove obsolete lint comment	44		
 12660	432351	true	closed	false	7		2017-04-26T06:45:27Z	2017-04-28T03:46:18Z	2017-04-28T03:46:18Z	test: chdir before running test-cli-node-options	61		
@@ -6189,7 +6189,7 @@
 12825	1538624	false	open	false	0		2017-05-04T06:13:53Z	2017-05-05T08:26:08Z		url: erroneous WHATWG whitespace handling	286		
 12826	432351	true	open	false	2		2017-05-04T08:13:10Z	2017-05-09T08:33:14Z		src: only call FatalException if not verbose	41		
 12827	432351	true	open	false	3		2017-05-04T12:56:11Z	2017-05-09T11:26:50Z		src: split CryptoPemCallback into two functions	107		
-12828	1128607	true	open	false			2017-05-04T14:29:32Z	2017-05-09T13:31:32Z		stream: add final method	103		
+12828	1128607	true	open	false			2017-05-04T14:29:32Z	2017-05-09T14:15:11Z		stream: add final method	103		
 12829	291301	false	open	false	0		2017-05-04T14:42:05Z	2017-05-04T19:29:38Z		doc: the «Deprecated» stability index description is inaccurate	134		
 12830	100928	true	open	false			2017-05-04T15:30:33Z	2017-05-07T16:53:26Z		doc: Change test option at STEP 5: Test in CONTRIBUTING.md	23		
 12831	5886475	true	closed	false	2		2017-05-04T15:39:00Z	2017-05-07T20:24:00Z	2017-05-07T20:24:00Z	test: complete coverage of buffer	199		
@@ -6253,7 +6253,7 @@
 12889	9373002	true	open	false	0		2017-05-07T23:51:19Z	2017-05-09T12:08:30Z		doc: fix broken links in n-api doc	45		
 12890	9373002	true	open	false	1		2017-05-08T00:17:27Z	2017-05-08T17:22:08Z		test: improve n-api array func coverage	43		
 12891	7041980	true	open	false	7		2017-05-08T01:47:43Z	2017-05-08T15:24:53Z		test: replace assert throws message with a regexp	41		
-12892	505333	true	open	false	34		2017-05-08T07:37:38Z	2017-05-09T13:17:35Z		Async Hooks - Initial Implementation	338		
+12892	505333	true	open	false	44		2017-05-08T07:37:38Z	2017-05-09T14:03:07Z		Async Hooks - Initial Implementation	338		
 12893	1272762	false	closed	false	12		2017-05-08T09:02:24Z	2017-05-09T08:18:14Z	2017-05-09T07:33:30Z	Always crash when the memory increased to 4~5G	272		
 12894	13674071	false	closed	false	1		2017-05-08T14:04:51Z	2017-05-08T15:50:35Z	2017-05-08T15:50:35Z	instanceof with arrow function generates error	111		
 12895	18708370	false	open	false	7		2017-05-08T14:12:46Z	2017-05-08T16:10:12Z		net.Server.address() returns a string instead of an object for Pipes	79		
@@ -6275,10 +6275,11 @@
 12911	3827565	true	open	false	0	0	2017-05-09T00:27:37Z	2017-05-09T00:27:37Z		test: remove common.PORT from test-cluster-inspector-debug-port && test: remove common.Port from test-cluster-disconnect	34		
 12912	3827565	true	open	false	0	0	2017-05-09T00:41:37Z	2017-05-09T00:41:37Z		test: remove common.PORT from test-cluster-inspector-debug-port && test: remove common.PORT from test-cluster-disconnect	34		
 12913	782880	true	open	false	0	0	2017-05-09T02:47:42Z	2017-05-09T02:47:42Z		fix wrong hash results on Windows with some CPUs that support Intel SHA Extension	119		
-12914	25148017	true	open	false	1		2017-05-09T06:10:05Z	2017-05-09T12:11:01Z		test: add a simple abort check in windows	84		
+12914	25148017	true	open	false	2		2017-05-09T06:10:05Z	2017-05-09T14:56:51Z		test: add a simple abort check in windows	84		
 12915	7041980	true	open	false	0		2017-05-09T06:27:35Z	2017-05-09T07:23:53Z		test: replace common.PORT with zero	53		
 12916	4299420	true	open	false	0	0	2017-05-09T09:10:01Z	2017-05-09T09:10:01Z		benchmark: chunky http client should exit with 0	71		
 12917	8327599	false	closed	false	1		2017-05-09T09:46:34Z	2017-05-09T10:03:38Z	2017-05-09T10:03:38Z	"Array gets serialized into a weird string format ('{""a"",""b""}') inside a superclass method without serialization calls."	281		
 12918	1762535	false	open	false	0		2017-05-09T12:09:35Z	2017-05-09T12:09:35Z		Instantiation of `Agent` without parameter caused an error	79		
 12919	976081	true	open	false	0	0	2017-05-09T12:20:24Z	2017-05-09T12:20:24Z		addons: remove semicolons from after module definition	65		
 12920	2446168	false	open	false	0		2017-05-09T13:05:20Z	2017-05-09T13:05:20Z		Problem with www-authenticate header	157		
+12921	1138623	false	open	false	0		2017-05-09T14:35:48Z	2017-05-09T14:35:48Z		stdout always cuts off the stream at character 8192	59		
