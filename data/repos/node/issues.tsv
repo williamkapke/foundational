@@ -338,7 +338,7 @@
 5213	439929	false	closed	false	9		2016-02-13T04:41:36Z	2016-08-29T22:13:27Z	2016-08-29T22:13:27Z	Tracking: Revert #5102 when possible	36		
 5251	696611	true	open	false	81		2016-02-15T23:12:35Z	2017-02-28T23:12:27Z		emit `error` events consistently in next tick	81		
 5256	327019	true	closed	false	29	0	2016-02-16T08:27:34Z	2016-08-01T22:10:12Z	2016-08-01T22:10:12Z	buffer: speed up Buffer.isEncoding() method	9		
-5258	172594	false	open	false	21		2016-02-16T12:06:31Z	2017-05-09T12:48:58Z		Propose NODE_TLS_REJECT_UNAUTHORIZED be renamed	105		
+5258	172594	false	open	false	22		2016-02-16T12:06:31Z	2017-05-09T13:09:03Z		Propose NODE_TLS_REJECT_UNAUTHORIZED be renamed	105		
 5261	1715054	false	closed	false	20		2016-02-16T18:43:30Z	2017-04-20T11:23:29Z	2017-04-20T11:23:29Z	Error: EPERM: operation not permitted, open 'C:\Users\username\.node_repl_history'	15		
 5266	1656054	false	closed	false	11		2016-02-17T00:03:03Z	2017-01-09T14:21:34Z	2017-01-09T14:21:34Z	Segfault when passing objects between vm contexts	221		
 5268	718899	false	closed	false	0		2016-02-17T03:49:37Z	2017-04-04T03:52:20Z	2017-04-04T03:52:20Z	Windows 10 access violation with debugger	157		
@@ -4090,7 +4090,7 @@
 10721	4157827	false	closed	false	0		2017-01-10T12:49:59Z	2017-01-10T13:03:10Z	2017-01-10T13:03:10Z	Strange error about function	120		
 10722	1080471	false	open	false	0		2017-01-10T14:17:09Z	2017-01-10T14:17:09Z		Incorrect SHASUM method listed on v4.4.7	36		
 10723	15943089	true	closed	false	9		2017-01-10T14:36:55Z	2017-03-08T01:37:53Z	2017-01-12T21:34:48Z	test: use realpath for NODE_TEST_DIR in common.js	90		
-10724	1762535	false	closed	false	4		2017-01-10T16:22:00Z	2017-05-08T17:10:06Z	2017-04-27T15:46:52Z	"process.domain is undefined after using ""await"" in node7 "	131		
+10724	1762535	false	closed	false	5		2017-01-10T16:22:00Z	2017-05-09T13:57:56Z	2017-04-27T15:46:52Z	"process.domain is undefined after using ""await"" in node7 "	131		
 10725	962099	true	open	false	7		2017-01-10T16:43:42Z	2017-01-16T22:04:57Z		test: improve test-stream2-large-read-stall	61		
 10726	193412	false	open	false	4		2017-01-10T17:05:26Z	2017-01-31T17:10:18Z		node js api document should link to LTS release from each page	106		
 10727	22373642	false	open	false	10		2017-01-10T18:27:51Z	2017-03-20T16:44:40Z		querystring.unescape() accepting input that is not URL escaped	204		
@@ -5804,7 +5804,7 @@
 12439	54666	true	closed	false	2		2017-04-16T07:45:45Z	2017-04-18T16:08:33Z	2017-04-18T16:08:33Z	buffer: fix backwards incompatibility	73		
 12440	910691	false	open	false	2		2017-04-16T14:46:59Z	2017-04-16T16:03:27Z		internet/test-dns.js test_resolveNs_failure failed with ETIMEOUT	80		
 12441	5329230	true	closed	false	6	0	2017-04-16T15:03:21Z	2017-04-18T16:49:29Z	2017-04-18T16:49:29Z	Migrate cluster tests from common.PORT	48		
-12442	899444	true	open	false	74		2017-04-16T16:30:05Z	2017-05-09T12:49:10Z		util: add util.promisify()	171		
+12442	899444	true	closed	false	77	111	2017-04-16T16:30:05Z	2017-05-09T13:05:49Z	2017-05-09T13:05:49Z	util: add util.promisify()	171		
 12443	15608388	true	closed	false	8	0	2017-04-16T18:10:10Z	2017-04-18T15:43:27Z	2017-04-18T15:43:27Z	tests: remove common.PORT from cluster worker disconnect, exit and kill	48		
 12444	899988	true	closed	false	5		2017-04-16T18:15:30Z	2017-04-17T19:26:22Z	2017-04-17T14:21:00Z	add missing ) in CONTRIBUTING.md	21		
 12445	899988	true	closed	false	12		2017-04-16T18:15:34Z	2017-04-18T18:27:43Z	2017-04-18T15:33:31Z	doc: fix recommendation to use useless config	21		
@@ -5848,7 +5848,7 @@
 12483	7455872	true	closed	false	2	0	2017-04-18T08:20:34Z	2017-04-19T21:02:21Z	2017-04-19T21:02:21Z	test: console.log removed from test-net-localport	41		
 12484	432351	true	open	false	23		2017-04-18T09:52:02Z	2017-04-20T18:06:42Z		build: fix ninja build failure	153		
 12485	432351	true	closed	false	1		2017-04-18T13:25:31Z	2017-04-20T07:47:39Z	2017-04-20T07:47:39Z	test: skip tests using ca flags	92		
-12486	855219	true	open	false	3		2017-04-18T13:45:33Z	2017-05-08T23:52:58Z		deps: ICU 59.1 bump	58		
+12486	855219	true	open	false	5		2017-04-18T13:45:33Z	2017-05-09T13:04:52Z		deps: ICU 59.1 bump	58		
 12487	15608388	true	closed	false	2		2017-04-18T15:21:31Z	2017-04-23T05:45:25Z	2017-04-23T05:45:25Z	test: dynamic port in cluster worker dgram	49		
 12488	5008	false	open	false	7		2017-04-18T16:03:49Z	2017-04-19T23:31:09Z		Undefined hostname defaults to 127.0.0.1	137		
 12489	899444	true	closed	false	33		2017-04-18T16:14:14Z	2017-04-27T18:15:37Z	2017-04-27T15:46:04Z	domain: support promises	122		
@@ -5899,7 +5899,7 @@
 12534	19409103	false	open	false	0		2017-04-20T12:32:45Z	2017-04-20T12:32:45Z		events.js:141    throw er; // Unhandled 'error' event	6		
 12535	2291463	true	closed	false	3	0	2017-04-20T12:46:38Z	2017-04-24T17:27:10Z	2017-04-24T17:27:10Z	deps: backport 75f2d65f00 from upstream V8	130		
 12536	432351	true	closed	false	6		2017-04-20T12:46:48Z	2017-04-24T14:28:16Z	2017-04-21T23:25:29Z	src: remove TODO about uv errno removal	54		
-12537	95562	false	closed	false	6		2017-04-20T13:30:36Z	2017-04-29T10:55:49Z	2017-04-29T10:55:49Z	os.networkInterfaces() throws EAFNOSUPPORT under qemu-user-static on x86 host	215		
+12537	95562	false	closed	false	6		2017-04-20T13:30:36Z	2017-05-09T13:39:37Z	2017-04-29T10:55:49Z	os.networkInterfaces() throws EAFNOSUPPORT under qemu-user-static on x86 host	215		
 12538	332968	true	closed	false	0	0	2017-04-20T14:04:56Z	2017-04-20T14:19:13Z	2017-04-20T14:19:13Z	doc: add Luca Maraschi to collaborators	21	332968	2017-04-20T14:19:12Z
 12539	976081	true	open	false	7		2017-04-20T14:06:18Z	2017-04-25T17:25:29Z		n-api: tighten null-checking and clean up last error	110		
 12540	17704638	true	closed	false	3	1	2017-04-20T14:21:52Z	2017-04-24T16:22:38Z	2017-04-24T16:22:38Z	src: add fcntl.h include to node.cc	52		
@@ -6189,7 +6189,7 @@
 12825	1538624	false	open	false	0		2017-05-04T06:13:53Z	2017-05-05T08:26:08Z		url: erroneous WHATWG whitespace handling	286		
 12826	432351	true	open	false	2		2017-05-04T08:13:10Z	2017-05-09T08:33:14Z		src: only call FatalException if not verbose	41		
 12827	432351	true	open	false	3		2017-05-04T12:56:11Z	2017-05-09T11:26:50Z		src: split CryptoPemCallback into two functions	107		
-12828	1128607	true	open	false	4		2017-05-04T14:29:32Z	2017-05-09T12:27:56Z		stream: add final method	103		
+12828	1128607	true	open	false			2017-05-04T14:29:32Z	2017-05-09T13:31:32Z		stream: add final method	103		
 12829	291301	false	open	false	0		2017-05-04T14:42:05Z	2017-05-04T19:29:38Z		doc: the «Deprecated» stability index description is inaccurate	134		
 12830	100928	true	open	false			2017-05-04T15:30:33Z	2017-05-07T16:53:26Z		doc: Change test option at STEP 5: Test in CONTRIBUTING.md	23		
 12831	5886475	true	closed	false	2		2017-05-04T15:39:00Z	2017-05-07T20:24:00Z	2017-05-07T20:24:00Z	test: complete coverage of buffer	199		
@@ -6235,14 +6235,14 @@
 12871	432351	true	open	false	13		2017-05-06T11:22:24Z	2017-05-09T10:31:58Z		net: check and throw on error for getsockname	38		
 12872	532414	false	open	false	0		2017-05-06T11:53:34Z	2017-05-06T16:35:56Z		`process.stdin` still fetch bytes after clossing file descriptor `0`	135		
 12873	96947	false	open	false	3		2017-05-06T17:56:49Z	2017-05-06T20:22:22Z		test: is `parallel/test-https-client-get-url` flaky on macOS	44		
-12874	96947	true	open	false			2017-05-06T18:32:54Z	2017-05-08T13:05:09Z		test, build: add test-ci wrappers	70		
+12874	96947	true	open	false			2017-05-06T18:32:54Z	2017-05-09T14:00:57Z		test, build: add test-ci wrappers	70		
 12875	899444	true	open	false	3		2017-05-06T18:33:39Z	2017-05-07T17:35:03Z		v8: forward compatibility to current V8 master	137		
 12876	15608388	true	open	false			2017-05-06T20:32:35Z	2017-05-08T16:51:48Z		test: fix flaky test-https-client-get-url	48		
 12877	559409	false	open	false	0		2017-05-07T05:55:29Z	2017-05-07T05:55:29Z		http: setting multiple headers could be more efficient	123		
 12878	498775	true	open	false	2		2017-05-07T09:58:42Z	2017-05-07T11:36:23Z		Patch V8 API to be ABI compatible with v5.9.	41		
 12879	11230479	true	open	false			2017-05-07T11:30:01Z	2017-05-08T15:38:35Z		test: update test for url.parse() to match the exact error through re…	49		
 12880	1716463	true	open	false	0	0	2017-05-07T12:05:39Z	2017-05-07T12:05:39Z		(v7.x backport) url: handle windows drive letter in the file state	61		
-12881	432351	true	open	false	3		2017-05-07T12:42:49Z	2017-05-09T10:30:55Z		lib: add guard to originalConsole	99		
+12881	432351	true	open	false			2017-05-07T12:42:49Z	2017-05-09T13:14:04Z		lib: add guard to originalConsole	99		
 12882	432351	true	open	false	1		2017-05-07T12:43:22Z	2017-05-09T10:44:01Z		test: add skipIfInspectorDisabled to debugger-pid	35		
 12883	718899	true	open	false			2017-05-07T16:32:45Z	2017-05-07T18:09:41Z		test: favor deepStrictEqual over deepEqual	50		
 12884	327019	true	open	false	0	0	2017-05-07T18:03:53Z	2017-05-07T18:03:53Z		lib: remove unless default caught	55		
@@ -6253,7 +6253,7 @@
 12889	9373002	true	open	false	0		2017-05-07T23:51:19Z	2017-05-09T12:08:30Z		doc: fix broken links in n-api doc	45		
 12890	9373002	true	open	false	1		2017-05-08T00:17:27Z	2017-05-08T17:22:08Z		test: improve n-api array func coverage	43		
 12891	7041980	true	open	false	7		2017-05-08T01:47:43Z	2017-05-08T15:24:53Z		test: replace assert throws message with a regexp	41		
-12892	505333	true	open	false	33		2017-05-08T07:37:38Z	2017-05-09T12:42:13Z		Async Hooks - Initial Implementation	338		
+12892	505333	true	open	false	34		2017-05-08T07:37:38Z	2017-05-09T13:17:35Z		Async Hooks - Initial Implementation	338		
 12893	1272762	false	closed	false	12		2017-05-08T09:02:24Z	2017-05-09T08:18:14Z	2017-05-09T07:33:30Z	Always crash when the memory increased to 4~5G	272		
 12894	13674071	false	closed	false	1		2017-05-08T14:04:51Z	2017-05-08T15:50:35Z	2017-05-08T15:50:35Z	instanceof with arrow function generates error	111		
 12895	18708370	false	open	false	7		2017-05-08T14:12:46Z	2017-05-08T16:10:12Z		net.Server.address() returns a string instead of an object for Pipes	79		
@@ -6270,7 +6270,7 @@
 12906	7455872	true	open	false			2017-05-08T20:14:58Z	2017-05-09T11:59:59Z		lib: AssertionError moved to internal/error	53		
 12907	18708370	true	open	false	1		2017-05-08T20:36:12Z	2017-05-09T06:31:53Z		net, doc: add docu for server.address() for pipe case	45		
 12908	5445545	false	open	false	0		2017-05-08T20:42:59Z	2017-05-08T21:02:21Z		Can't convert Buffer into String correctly with binary encoding	79		
-12909	10393198	true	open	false	1		2017-05-08T21:30:48Z	2017-05-09T12:36:34Z		benchmark, libs, test: reduce iterative literal computations	234		
+12909	10393198	true	closed	false	3		2017-05-08T21:30:48Z	2017-05-09T13:45:35Z	2017-05-09T13:45:35Z	benchmark, libs, test: reduce iterative literal computations	234		
 12910	718899	true	open	false	1		2017-05-09T00:11:32Z	2017-05-09T12:01:58Z		fs: refactor deprecated functions for readability	57		
 12911	3827565	true	open	false	0	0	2017-05-09T00:27:37Z	2017-05-09T00:27:37Z		test: remove common.PORT from test-cluster-inspector-debug-port && test: remove common.Port from test-cluster-disconnect	34		
 12912	3827565	true	open	false	0	0	2017-05-09T00:41:37Z	2017-05-09T00:41:37Z		test: remove common.PORT from test-cluster-inspector-debug-port && test: remove common.PORT from test-cluster-disconnect	34		
@@ -6281,3 +6281,4 @@
 12917	8327599	false	closed	false	1		2017-05-09T09:46:34Z	2017-05-09T10:03:38Z	2017-05-09T10:03:38Z	"Array gets serialized into a weird string format ('{""a"",""b""}') inside a superclass method without serialization calls."	281		
 12918	1762535	false	open	false	0		2017-05-09T12:09:35Z	2017-05-09T12:09:35Z		Instantiation of `Agent` without parameter caused an error	79		
 12919	976081	true	open	false	0	0	2017-05-09T12:20:24Z	2017-05-09T12:20:24Z		addons: remove semicolons from after module definition	65		
+12920	2446168	false	open	false	0		2017-05-09T13:05:20Z	2017-05-09T13:05:20Z		Problem with www-authenticate header	157		
