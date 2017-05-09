@@ -3,7 +3,7 @@
 89	37303	false	closed	false	65		2014-12-05T19:23:16Z	2017-01-16T21:57:59Z	2015-02-04T03:59:32Z	Streams pain points	277		
 256	1315533	false	closed	false	27		2015-01-08T07:50:35Z	2016-07-31T16:41:49Z	2015-02-25T00:30:11Z	Consider exposing promise unhandled rejection hook	243		
 428	321966	false	closed	false	53		2015-01-14T21:56:04Z	2017-02-17T08:06:06Z	2016-10-21T16:07:08Z	plans on incorporating LibreSSL	35		
-445	2993861	false	open	false	22		2015-01-15T16:18:56Z	2017-05-08T18:13:31Z		Cleanup `_writableState` and `_readableState` access across codebase	586		
+445	2993861	false	open	false	23		2015-01-15T16:18:56Z	2017-05-09T12:19:42Z		Cleanup `_writableState` and `_readableState` access across codebase	586		
 498	493139	false	open	false	8		2015-01-18T19:42:03Z	2017-04-22T20:23:25Z		`os.networkInterfaces` does not list all interfaces. 	169		
 540	555645	true	closed	false	33		2015-01-21T16:22:26Z	2017-04-22T05:00:45Z	2015-01-28T03:49:14Z	events: Alias EventEmitter.protoype.removeListener as EventEmitter.prototype.off 	95		
 548	1522145	false	closed	false	26		2015-01-22T03:48:27Z	2017-01-26T21:48:27Z	2017-01-26T21:48:27Z	Function redefinition in vm.runInContext	44		
@@ -338,7 +338,7 @@
 5213	439929	false	closed	false	9		2016-02-13T04:41:36Z	2016-08-29T22:13:27Z	2016-08-29T22:13:27Z	Tracking: Revert #5102 when possible	36		
 5251	696611	true	open	false	81		2016-02-15T23:12:35Z	2017-02-28T23:12:27Z		emit `error` events consistently in next tick	81		
 5256	327019	true	closed	false	29	0	2016-02-16T08:27:34Z	2016-08-01T22:10:12Z	2016-08-01T22:10:12Z	buffer: speed up Buffer.isEncoding() method	9		
-5258	172594	false	open	false	20		2016-02-16T12:06:31Z	2017-05-09T11:24:39Z		Propose NODE_TLS_REJECT_UNAUTHORIZED be renamed	105		
+5258	172594	false	open	false	21		2016-02-16T12:06:31Z	2017-05-09T12:48:58Z		Propose NODE_TLS_REJECT_UNAUTHORIZED be renamed	105		
 5261	1715054	false	closed	false	20		2016-02-16T18:43:30Z	2017-04-20T11:23:29Z	2017-04-20T11:23:29Z	Error: EPERM: operation not permitted, open 'C:\Users\username\.node_repl_history'	15		
 5266	1656054	false	closed	false	11		2016-02-17T00:03:03Z	2017-01-09T14:21:34Z	2017-01-09T14:21:34Z	Segfault when passing objects between vm contexts	221		
 5268	718899	false	closed	false	0		2016-02-17T03:49:37Z	2017-04-04T03:52:20Z	2017-04-04T03:52:20Z	Windows 10 access violation with debugger	157		
@@ -5119,7 +5119,7 @@
 11751	323878	false	open	false	0		2017-03-08T17:36:50Z	2017-03-08T17:36:50Z		Node on Windows doesn't send initial Pause event to inspector	96		
 11752	2352663	true	closed	false	26	0	2017-03-08T20:15:40Z	2017-03-25T08:46:08Z	2017-03-25T08:46:08Z	deps: update V8 to 5.7	83	2352663	2017-03-25T08:46:08Z
 11753	855219	false	closed	false	8		2017-03-08T21:48:08Z	2017-05-08T19:10:12Z	2017-03-09T18:10:49Z	missing #include <unicode/ustring.h>	88		
-11754	855219	true	closed	false	6		2017-03-08T22:11:01Z	2017-05-08T19:08:31Z	2017-03-09T18:10:40Z	src: add missing #include <unicode/ustring.h>	53		
+11754	855219	true	closed	false	7		2017-03-08T22:11:01Z	2017-05-09T12:43:17Z	2017-03-09T18:10:40Z	src: add missing #include <unicode/ustring.h>	53		
 11755	287917	true	closed	false	9		2017-03-08T22:39:17Z	2017-03-28T17:29:58Z	2017-03-13T17:44:42Z	inspector: proper WS URLs when bound to 0.0.0.0	50		
 11756	10393198	false	closed	false	2		2017-03-09T00:12:03Z	2017-03-10T12:17:33Z	2017-03-10T12:17:33Z	Legacy API of Agent.prototype.addRequest()	78		
 11757	718899	true	closed	false	1	0	2017-03-09T00:16:04Z	2017-03-09T01:08:35Z	2017-03-09T01:08:34Z	v6.x backport: tools: update ESLint to current version 	3		
@@ -5804,7 +5804,7 @@
 12439	54666	true	closed	false	2		2017-04-16T07:45:45Z	2017-04-18T16:08:33Z	2017-04-18T16:08:33Z	buffer: fix backwards incompatibility	73		
 12440	910691	false	open	false	2		2017-04-16T14:46:59Z	2017-04-16T16:03:27Z		internet/test-dns.js test_resolveNs_failure failed with ETIMEOUT	80		
 12441	5329230	true	closed	false	6	0	2017-04-16T15:03:21Z	2017-04-18T16:49:29Z	2017-04-18T16:49:29Z	Migrate cluster tests from common.PORT	48		
-12442	899444	true	open	false			2017-04-16T16:30:05Z	2017-05-09T11:56:54Z		util: add util.promisify()	171		
+12442	899444	true	open	false	74		2017-04-16T16:30:05Z	2017-05-09T12:49:10Z		util: add util.promisify()	171		
 12443	15608388	true	closed	false	8	0	2017-04-16T18:10:10Z	2017-04-18T15:43:27Z	2017-04-18T15:43:27Z	tests: remove common.PORT from cluster worker disconnect, exit and kill	48		
 12444	899988	true	closed	false	5		2017-04-16T18:15:30Z	2017-04-17T19:26:22Z	2017-04-17T14:21:00Z	add missing ) in CONTRIBUTING.md	21		
 12445	899988	true	closed	false	12		2017-04-16T18:15:34Z	2017-04-18T18:27:43Z	2017-04-18T15:33:31Z	doc: fix recommendation to use useless config	21		
@@ -6189,7 +6189,7 @@
 12825	1538624	false	open	false	0		2017-05-04T06:13:53Z	2017-05-05T08:26:08Z		url: erroneous WHATWG whitespace handling	286		
 12826	432351	true	open	false	2		2017-05-04T08:13:10Z	2017-05-09T08:33:14Z		src: only call FatalException if not verbose	41		
 12827	432351	true	open	false	3		2017-05-04T12:56:11Z	2017-05-09T11:26:50Z		src: split CryptoPemCallback into two functions	107		
-12828	1128607	true	open	false			2017-05-04T14:29:32Z	2017-05-05T09:10:32Z		stream: add final method	107		
+12828	1128607	true	open	false	4		2017-05-04T14:29:32Z	2017-05-09T12:27:56Z		stream: add final method	103		
 12829	291301	false	open	false	0		2017-05-04T14:42:05Z	2017-05-04T19:29:38Z		doc: the «Deprecated» stability index description is inaccurate	134		
 12830	100928	true	open	false			2017-05-04T15:30:33Z	2017-05-07T16:53:26Z		doc: Change test option at STEP 5: Test in CONTRIBUTING.md	23		
 12831	5886475	true	closed	false	2		2017-05-04T15:39:00Z	2017-05-07T20:24:00Z	2017-05-07T20:24:00Z	test: complete coverage of buffer	199		
@@ -6250,10 +6250,10 @@
 12886	3492780	true	open	false	1		2017-05-07T18:44:26Z	2017-05-08T03:18:03Z		benchmark: convert var to es6 const, let	52		
 12887	96947	true	open	false			2017-05-07T18:51:52Z	2017-05-08T08:17:21Z		doc, test: add note to response.getHeaders	59		
 12888	1898413	false	open	false	4		2017-05-07T22:13:42Z	2017-05-08T07:04:06Z		`typeof` should not bring an undeclared variable into existence	124		
-12889	9373002	true	open	false	0	0	2017-05-07T23:51:19Z	2017-05-07T23:51:19Z		doc: fix broken links in n-api doc	46		
+12889	9373002	true	open	false	0		2017-05-07T23:51:19Z	2017-05-09T12:08:30Z		doc: fix broken links in n-api doc	45		
 12890	9373002	true	open	false	1		2017-05-08T00:17:27Z	2017-05-08T17:22:08Z		test: improve n-api array func coverage	43		
 12891	7041980	true	open	false	7		2017-05-08T01:47:43Z	2017-05-08T15:24:53Z		test: replace assert throws message with a regexp	41		
-12892	505333	true	open	false	29		2017-05-08T07:37:38Z	2017-05-09T11:39:32Z		Async Hooks - Initial Implementation	338		
+12892	505333	true	open	false	33		2017-05-08T07:37:38Z	2017-05-09T12:42:13Z		Async Hooks - Initial Implementation	338		
 12893	1272762	false	closed	false	12		2017-05-08T09:02:24Z	2017-05-09T08:18:14Z	2017-05-09T07:33:30Z	Always crash when the memory increased to 4~5G	272		
 12894	13674071	false	closed	false	1		2017-05-08T14:04:51Z	2017-05-08T15:50:35Z	2017-05-08T15:50:35Z	instanceof with arrow function generates error	111		
 12895	18708370	false	open	false	7		2017-05-08T14:12:46Z	2017-05-08T16:10:12Z		net.Server.address() returns a string instead of an object for Pipes	79		
@@ -6262,7 +6262,7 @@
 12898	8297234	true	open	false	1		2017-05-08T15:26:33Z	2017-05-09T11:44:57Z		doc: clarify node.js addons language	23		
 12899	4421720	true	open	false			2017-05-08T17:49:42Z	2017-05-08T22:06:52Z		src: fix comments re PER_ISOLATE macros	47		
 12900	96947	false	open	false	0		2017-05-08T18:01:26Z	2017-05-08T18:01:26Z		test: is `sequential/test-fs-watch` flaky on macOS	22		
-12901	7041980	true	open	false	7		2017-05-08T18:02:42Z	2017-05-09T02:15:46Z		test: remove common.PORT or move test to sequential	52		
+12901	7041980	true	open	false	8		2017-05-08T18:02:42Z	2017-05-09T12:21:06Z		test: replace common.PORT with zero	52		
 12902	194713	false	open	false	0		2017-05-08T19:08:38Z	2017-05-09T07:32:55Z		Provide a way to create clone/CoW copies	164		
 12903	10393198	false	open	false	0		2017-05-08T19:49:17Z	2017-05-08T19:49:17Z		benchmark, http, test: test/sequential/test-benchmark-http.js is incomplete	154		
 12904	10393198	true	closed	false	1		2017-05-08T19:58:48Z	2017-05-08T20:21:19Z	2017-05-08T20:21:19Z	benchmark: update an obsolete path	19		
@@ -6270,12 +6270,14 @@
 12906	7455872	true	open	false			2017-05-08T20:14:58Z	2017-05-09T11:59:59Z		lib: AssertionError moved to internal/error	53		
 12907	18708370	true	open	false	1		2017-05-08T20:36:12Z	2017-05-09T06:31:53Z		net, doc: add docu for server.address() for pipe case	45		
 12908	5445545	false	open	false	0		2017-05-08T20:42:59Z	2017-05-08T21:02:21Z		Can't convert Buffer into String correctly with binary encoding	79		
-12909	10393198	true	open	false	0	0	2017-05-08T21:30:48Z	2017-05-08T21:30:48Z		benchmark, libs, test: reduce iterative literal computations	233		
+12909	10393198	true	open	false	1		2017-05-08T21:30:48Z	2017-05-09T12:36:34Z		benchmark, libs, test: reduce iterative literal computations	234		
 12910	718899	true	open	false	1		2017-05-09T00:11:32Z	2017-05-09T12:01:58Z		fs: refactor deprecated functions for readability	57		
 12911	3827565	true	open	false	0	0	2017-05-09T00:27:37Z	2017-05-09T00:27:37Z		test: remove common.PORT from test-cluster-inspector-debug-port && test: remove common.Port from test-cluster-disconnect	34		
 12912	3827565	true	open	false	0	0	2017-05-09T00:41:37Z	2017-05-09T00:41:37Z		test: remove common.PORT from test-cluster-inspector-debug-port && test: remove common.PORT from test-cluster-disconnect	34		
 12913	782880	true	open	false	0	0	2017-05-09T02:47:42Z	2017-05-09T02:47:42Z		fix wrong hash results on Windows with some CPUs that support Intel SHA Extension	119		
-12914	25148017	true	open	false	0		2017-05-09T06:10:05Z	2017-05-09T07:23:02Z		test: add a simple abort check in windows	84		
+12914	25148017	true	open	false	1		2017-05-09T06:10:05Z	2017-05-09T12:11:01Z		test: add a simple abort check in windows	84		
 12915	7041980	true	open	false	0		2017-05-09T06:27:35Z	2017-05-09T07:23:53Z		test: replace common.PORT with zero	53		
 12916	4299420	true	open	false	0	0	2017-05-09T09:10:01Z	2017-05-09T09:10:01Z		benchmark: chunky http client should exit with 0	71		
 12917	8327599	false	closed	false	1		2017-05-09T09:46:34Z	2017-05-09T10:03:38Z	2017-05-09T10:03:38Z	"Array gets serialized into a weird string format ('{""a"",""b""}') inside a superclass method without serialization calls."	281		
+12918	1762535	false	open	false	0		2017-05-09T12:09:35Z	2017-05-09T12:09:35Z		Instantiation of `Agent` without parameter caused an error	79		
+12919	976081	true	open	false	0	0	2017-05-09T12:20:24Z	2017-05-09T12:20:24Z		addons: remove semicolons from after module definition	65		
