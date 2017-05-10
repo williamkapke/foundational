@@ -6109,7 +6109,7 @@
 12745	439929	true	open	false	5		2017-04-29T16:54:19Z	2017-05-01T18:57:12Z		timer: refactor to use module.exports = {} and ES6 classes	65		
 12746	899444	true	closed	false	13		2017-04-29T18:33:34Z	2017-05-03T13:35:47Z	2017-05-03T13:35:47Z	stream: fix y.pipe(x)+y.pipe(x)+y.unpipe(x) scenario	97		
 12747	899444	true	closed	false	1		2017-04-29T19:13:26Z	2017-05-03T13:33:09Z	2017-05-03T13:33:09Z	http: fix first body chunk fast case for UTF-16	74		
-12748	96947	true	open	false	7		2017-04-29T20:14:42Z	2017-05-09T22:29:51Z		doc:spin off technical guide	80		
+12748	96947	true	closed	false	9	0	2017-04-29T20:14:42Z	2017-05-10T00:20:49Z	2017-05-10T00:20:49Z	doc:spin off technical guide	80		
 12749	7902626	true	closed	false	12	0	2017-04-29T20:51:37Z	2017-05-05T18:01:42Z	2017-05-05T18:01:42Z	test: add new tests for fs.link()	42		
 12750	4923335	true	open	false	0	0	2017-04-29T21:12:03Z	2017-04-29T21:12:03Z		doc: fixup the collaborators list	34		
 12751	899444	true	closed	false	1		2017-04-29T21:49:07Z	2017-05-03T13:30:18Z	2017-05-03T13:30:18Z	doc: document vm timeout option perf impact	34		
@@ -6215,7 +6215,7 @@
 12851	4299420	true	open	false	2		2017-05-05T09:39:26Z	2017-05-09T09:32:38Z		test: add test for timers benchmarks	33		
 12852	2512748	true	closed	false	10	0	2017-05-05T09:45:05Z	2017-05-08T05:11:55Z	2017-05-08T05:11:55Z	"Revert ""net: don't normalize twice in Socket#connect()"""	45		
 12853	103800	false	open	false	2		2017-05-05T11:02:33Z	2017-05-06T08:29:01Z		node: ../deps/uv/src/unix/async.c:136: uv__async_io: Assertion `n == sizeof(val)' failed.	134		
-12854	677994	true	open	false	2		2017-05-05T11:18:41Z	2017-05-07T07:02:21Z		"Revert ""net: remove unnecessary process.nextTick()"""	72		
+12854	677994	true	open	false	3		2017-05-05T11:18:41Z	2017-05-10T00:32:39Z		"Revert ""net: remove unnecessary process.nextTick()"""	72		
 12855	1128607	true	open	false	0		2017-05-05T11:21:53Z	2017-05-05T15:55:10Z		streams: remove all references to readableState/writableState from docs	115		
 12856	6447530	true	open	false	7		2017-05-05T11:47:48Z	2017-05-09T20:06:04Z		test: detect all types of aborts in windows	90		
 12857	1128607	true	open	false	2		2017-05-05T12:52:43Z	2017-05-08T12:03:58Z		stream: remove {writeableState/readableState}.length	64		
@@ -6253,7 +6253,7 @@
 12889	9373002	true	closed	false	2		2017-05-07T23:51:19Z	2017-05-09T20:37:59Z	2017-05-09T20:37:59Z	doc: fix broken links in n-api doc	45		
 12890	9373002	true	open	false			2017-05-08T00:17:27Z	2017-05-09T23:08:35Z		test: improve n-api array func coverage	43		
 12891	7041980	true	open	false	7		2017-05-08T01:47:43Z	2017-05-08T15:24:53Z		test: replace assert throws message with a regexp	41		
-12892	505333	true	open	false	100		2017-05-08T07:37:38Z	2017-05-09T23:10:42Z		Async Hooks - Initial Implementation	345		
+12892	505333	true	open	false	102		2017-05-08T07:37:38Z	2017-05-10T00:44:44Z		Async Hooks - Initial Implementation	345		
 12893	1272762	false	closed	false	12		2017-05-08T09:02:24Z	2017-05-09T08:18:14Z	2017-05-09T07:33:30Z	Always crash when the memory increased to 4~5G	272		
 12894	13674071	false	closed	false	1		2017-05-08T14:04:51Z	2017-05-08T15:50:35Z	2017-05-08T15:50:35Z	instanceof with arrow function generates error	111		
 12895	18708370	false	open	false	7		2017-05-08T14:12:46Z	2017-05-08T16:10:12Z		net.Server.address() returns a string instead of an object for Pipes	79		
@@ -6287,7 +6287,7 @@
 12923	170197	false	open	false	2		2017-05-09T16:52:48Z	2017-05-09T23:34:29Z		inconsistent URLSearchParams encoding	25		
 12924	196729	true	closed	false	0		2017-05-09T17:37:14Z	2017-05-09T18:18:20Z	2017-05-09T18:18:20Z	doc: fix typo in streams.md	36		
 12925	52195	true	open	false			2017-05-09T17:39:18Z	2017-05-09T20:30:51Z		stream: add destroy and _destroy methods.	82		
-12926	9373002	true	open	false			2017-05-09T18:32:44Z	2017-05-09T23:21:44Z		dgram: convert to using internal/errors	126		
+12926	9373002	true	open	false			2017-05-09T18:32:44Z	2017-05-10T00:34:48Z		dgram: convert to using internal/errors	126		
 12927	2512748	true	open	false	0		2017-05-09T18:33:55Z	2017-05-09T20:42:10Z		https: support agent construction without new	34		
 12928	3286504	false	open	false	0		2017-05-09T18:36:24Z	2017-05-09T18:36:24Z		Doc link broken	24		
 12929	7041980	true	open	false	0	0	2017-05-09T19:25:23Z	2017-05-09T19:25:23Z		test: remove common.PORT from test	51		
