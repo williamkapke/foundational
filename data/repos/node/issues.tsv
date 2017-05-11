@@ -30,6 +30,7 @@
 894	7220484	false	open	false	26		2015-02-19T16:50:29Z	2016-12-15T06:34:40Z		dns.setServers() crash	113		
 906	115237	false	open	false	35		2015-02-20T18:06:56Z	2017-02-02T20:26:12Z		net: enable TCP_NODELAY by default on all platforms	32		
 947	707147	false	closed	false	9		2015-02-25T02:05:54Z	2017-02-15T20:31:40Z	2017-02-15T20:31:40Z	EPIPE errors thrown when piping to a closed stream	363		
+954	321966	false	closed	false	7		2015-02-25T14:55:54Z	2017-05-11T09:06:19Z	2017-05-11T09:06:18Z	socket name of unix domain sockets	76		
 983	6731985	false	open	false	22		2015-02-27T03:19:51Z	2017-03-24T14:58:00Z		Tab completion for block-scoped variables doesn't work in REPL	60		
 1010	218257	false	closed	false	53		2015-02-28T22:28:55Z	2016-12-05T11:27:32Z	2015-03-25T01:31:37Z	Ship websockets in core	23		
 1013	176984	false	closed	false	45		2015-03-01T10:58:11Z	2016-10-17T07:18:56Z	2016-04-04T01:52:33Z	Replace deps/cares with pure-javascript alternative	207		
@@ -1416,7 +1417,7 @@
 8041	718899	false	closed	false	10		2016-08-09T23:45:53Z	2016-10-29T20:12:06Z	2016-10-29T20:12:06Z	Investigate flaky test-timers-blocking-callback	38		
 8042	3231296	false	closed	false	3		2016-08-10T01:22:11Z	2016-08-10T22:07:48Z	2016-08-10T11:56:32Z	VM: Add source mapping support	163		
 8043	426418	true	open	false	11		2016-08-10T02:07:44Z	2016-08-15T16:09:09Z		inspector: add support for uncaught exception	60		
-8044	10459119	false	closed	false	5		2016-08-10T07:28:01Z	2017-04-26T14:23:45Z	2016-08-10T07:33:06Z	Doc has mistake: The fs doesn't exist constants of property	69		
+8044	10459119	false	closed	false	6		2016-08-10T07:28:01Z	2017-05-11T09:19:57Z	2016-08-10T07:33:06Z	Doc has mistake: The fs doesn't exist constants of property	69		
 8045	275871	false	closed	false	1		2016-08-10T10:47:00Z	2016-08-18T16:57:12Z	2016-08-18T16:57:12Z	darwin,test: flaky test sequential/test-fs-watch	189		
 8046	3584317	false	open	false	0		2016-08-10T11:35:54Z	2016-08-10T11:35:54Z		BUG: Error calculation	27		
 8047	8273423	false	closed	false	2		2016-08-10T12:22:42Z	2016-08-18T13:50:01Z	2016-08-18T13:50:01Z	Http Server Bug	74		
@@ -5907,7 +5908,7 @@
 12542	275871	true	open	false	2		2017-04-20T15:19:34Z	2017-04-21T15:53:50Z		v8: update v8 patch version number (v7.x)	64		
 12543	275871	true	closed	false	0		2017-04-20T15:24:13Z	2017-04-24T17:31:06Z	2017-04-24T17:31:06Z	v8: update v8 patch version number	10		
 12544	1774305	true	closed	false	8	1	2017-04-20T16:31:06Z	2017-04-24T20:48:24Z	2017-04-24T20:48:23Z	Update buffer swap test to use better variable names	67		
-12545	15608388	true	open	false	6		2017-04-20T17:11:02Z	2017-05-04T13:53:39Z		test: dynamic port in test cluster disconnect	54		
+12545	15608388	true	closed	false	7		2017-04-20T17:11:02Z	2017-05-11T09:58:56Z	2017-05-11T09:58:56Z	test: dynamic port in test cluster disconnect	54		
 12546	2512748	true	closed	false	1	1	2017-04-20T17:53:43Z	2017-04-25T16:46:57Z	2017-04-25T16:46:57Z	src: expose V8's IsNativeError() in util bindings	63	2512748	2017-04-25T16:46:57Z
 12547	15608388	true	closed	false	2	0	2017-04-20T18:13:37Z	2017-04-24T20:44:15Z	2017-04-24T20:44:15Z	test: dynamic port in test cluster eaddrinuse	54		
 12548	432351	true	open	false	9		2017-04-20T18:18:44Z	2017-05-06T12:27:01Z		src: call linux getauxval(AT_SECURE) in SafeGetenv	47		
@@ -5921,10 +5922,10 @@
 12556	196883	false	open	false	11		2017-04-20T23:10:30Z	2017-04-27T19:15:17Z		doc: fix documentation regarding cross-compilation	222		
 12557	10393198	true	closed	false	5		2017-04-21T01:07:10Z	2017-04-23T17:07:00Z	2017-04-21T21:05:06Z	doc: unify trailing commas in code examples	87		
 12558	197329	false	closed	false	5		2017-04-21T02:54:11Z	2017-04-24T13:57:48Z	2017-04-24T13:57:48Z	"Is it ok to call it ""node"" or has to be ""node.js""?"	50		
-12559	12330766	false	open	false	6		2017-04-21T03:26:14Z	2017-05-09T16:10:00Z		Stop inspect the main thread Blocked.	64		
+12559	12330766	false	open	false	7		2017-04-21T03:26:14Z	2017-05-11T09:37:50Z		Stop inspect the main thread Blocked.	64		
 12560	718899	false	open	false	7		2017-04-21T04:34:01Z	2017-04-25T20:37:07Z		investigate flaky sequential/test-benchmark-child-process on Windows	255		
 12561	718899	true	open	false	1		2017-04-21T04:38:14Z	2017-04-21T05:21:10Z		test: set benchmark-child-process flaky on windows	49		
-12562	696611	true	closed	false	9		2017-04-21T04:54:19Z	2017-05-11T08:55:48Z	2017-05-09T18:39:00Z	fs: throw on invalid callbacks for async functions	68		
+12562	696611	true	closed	false	10		2017-04-21T04:54:19Z	2017-05-11T09:26:12Z	2017-05-09T18:39:00Z	fs: throw on invalid callbacks for async functions	68		
 12563	10393198	true	closed	false	25		2017-04-21T05:10:34Z	2017-05-01T00:01:20Z	2017-04-24T21:08:31Z	doc, tools: use eslint-plugin-markdown	243		
 12564	718899	true	closed	false	8		2017-04-21T05:36:53Z	2017-04-24T17:07:10Z	2017-04-24T17:07:10Z	test: remove flaky designation for test on AIX	46		
 12565	54666	false	closed	false	6		2017-04-21T06:44:39Z	2017-04-24T08:27:29Z	2017-04-24T08:27:29Z	doc: typo in api/process.md	71		
@@ -6282,11 +6283,11 @@
 12918	1762535	false	open	false	1		2017-05-09T12:09:35Z	2017-05-09T20:30:42Z		Instantiation of `Agent` without parameter caused an error	79		
 12919	976081	true	open	false	0	0	2017-05-09T12:20:24Z	2017-05-09T12:20:24Z		addons: remove semicolons from after module definition	65		
 12920	2446168	false	open	false	0		2017-05-09T13:05:20Z	2017-05-09T13:05:20Z		Problem with www-authenticate header	157		
-12921	1138623	false	open	false	7		2017-05-09T14:35:48Z	2017-05-10T22:07:35Z		stdout always cuts off the stream at character 8192	59		
+12921	1138623	false	open	false	10		2017-05-09T14:35:48Z	2017-05-11T09:23:00Z		stdout always cuts off the stream at character 8192	59		
 12922	899444	true	open	false	0	0	2017-05-09T15:09:45Z	2017-05-09T15:09:45Z		v6.x: async_wrap: close the destroy_ids_idle_handle_	41		
 12923	170197	false	closed	false	5		2017-05-09T16:52:48Z	2017-05-10T14:12:02Z	2017-05-10T05:33:20Z	inconsistent URLSearchParams encoding	25		
 12924	196729	true	closed	false	0		2017-05-09T17:37:14Z	2017-05-09T18:18:20Z	2017-05-09T18:18:20Z	doc: fix typo in streams.md	36		
-12925	52195	true	open	false	7		2017-05-09T17:39:18Z	2017-05-10T22:44:50Z		stream: add destroy and _destroy methods.	82		
+12925	52195	true	open	false	8		2017-05-09T17:39:18Z	2017-05-11T09:42:15Z		stream: add destroy and _destroy methods.	82		
 12926	9373002	true	open	false	5		2017-05-09T18:32:44Z	2017-05-10T22:01:22Z		dgram: convert to using internal/errors	126		
 12927	2512748	true	open	false			2017-05-09T18:33:55Z	2017-05-10T15:30:54Z		https: support agent construction without new	34		
 12928	3286504	false	open	false	0		2017-05-09T18:36:24Z	2017-05-09T18:36:24Z		Doc link broken	24		
@@ -6330,3 +6331,4 @@
 12966	171239	true	open	false	0	0	2017-05-11T07:44:03Z	2017-05-11T07:44:03Z		url: ignore IDN errors when domainname have two hyphens	70		
 12967	432351	true	open	false	0	0	2017-05-11T08:19:54Z	2017-05-11T08:19:54Z		src: add HAVE_OPENSSL guard to crypto providers	78		
 12968	432351	true	open	false	0	0	2017-05-11T08:20:22Z	2017-05-11T08:20:22Z		src: add/move hasCrypto checks for async tests	61		
+12969	18639905	false	open	false	0		2017-05-11T09:49:01Z	2017-05-11T09:49:01Z		Uh oh! Looks like you're missing a module in your gulpfile: Cannot find module 'internal/fs'	111		
