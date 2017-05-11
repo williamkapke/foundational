@@ -119,7 +119,7 @@
 2794	1217541	false	closed	false	6		2015-09-10T12:04:58Z	2016-12-07T10:13:47Z	2015-09-11T03:15:56Z	crypto, bad decrypt 	103		
 2814	12448364	false	closed	false	14		2015-09-11T12:42:32Z	2016-11-17T17:06:28Z	2015-09-11T15:04:16Z	Cannot find module 'npmlog' after upgrading to NodeJS 4.0	39		
 2833	1211152	false	closed	false	29		2015-09-12T14:09:10Z	2016-07-29T19:13:35Z	2016-03-09T09:20:02Z	Node.js `crypto` and the WebCrypto API	150		
-2842	692511	false	open	false	14		2015-09-12T21:54:12Z	2017-02-07T23:52:20Z		Exclude the `Trailer` header from 304 responses?	86		
+2842	692511	false	open	false	15		2015-09-12T21:54:12Z	2017-05-11T06:38:42Z		Exclude the `Trailer` header from 304 responses?	86		
 2848	1348991	false	open	false	37		2015-09-13T21:27:01Z	2016-08-06T12:42:16Z		Add dns.resolve that returns all results	45		
 2849	6031416	false	closed	false	4		2015-09-14T00:32:57Z	2017-02-07T20:00:04Z	2017-02-07T20:00:04Z	Net api servers bind to all configured network interface IPs by default (insecure)	50		
 2853	631240	false	open	false	25		2015-09-14T08:12:48Z	2017-02-10T21:35:42Z		Shouldn't the default SIGINT handler trigger process.on('exit')?	85		
@@ -6052,7 +6052,7 @@
 12687	696611	true	closed	false	5		2017-04-27T02:16:21Z	2017-04-28T16:25:40Z	2017-04-28T16:25:40Z	test: remove AIX guard in fs-options-immutable	63		
 12688	432351	true	closed	false	2		2017-04-27T03:46:55Z	2017-04-27T17:15:30Z	2017-04-27T17:15:30Z	src: fix incorrect macro comment	42		
 12689	1906114	false	open	false	2		2017-04-27T03:59:05Z	2017-04-28T05:55:09Z		Socket Hangup when using https post request	179		
-12690	993508	true	open	false	18		2017-04-27T07:23:14Z	2017-05-10T13:31:03Z		doc: adds clarification for fs constants for node < v6.3.x in fs.md	54		
+12690	993508	true	open	false	19		2017-04-27T07:23:14Z	2017-05-11T07:00:29Z		doc: adds clarification for fs constants for node < v6.3.x in fs.md	54		
 12691	3061653	false	open	false	33		2017-04-27T07:55:31Z	2017-05-09T02:51:05Z		SSL problem on Intel Celeron N3350	133		
 12692	432351	true	closed	false	3		2017-04-27T08:14:53Z	2017-04-29T12:01:28Z	2017-04-29T12:01:28Z	test: add hasCrypto check to test-cli-node-options	59		
 12693	961178	false	open	false	4		2017-04-27T08:15:14Z	2017-04-27T19:21:56Z		Set inspect.defaultOptions using environment variables	87		
@@ -6314,14 +6314,15 @@
 12950	96947	false	open	false	4		2017-05-10T19:45:45Z	2017-05-10T21:40:57Z		test: flaky parallel/test-net-connect-local-error on macOS & freeBSD	54		
 12951	96947	false	open	false	0		2017-05-10T19:47:21Z	2017-05-10T20:14:16Z		test: flaky parallel/test-net-connect-options-allowhalfopen on macOS & freeBSD	497		
 12952	1665373	false	open	false	0		2017-05-10T19:49:10Z	2017-05-10T20:19:15Z		OpenSSL have collisions in node.dll	36		
-12953	192891	true	open	false			2017-05-10T21:17:36Z	2017-05-11T00:40:12Z		docs: documenting async hooks features	70		
+12953	192891	true	open	false	0		2017-05-10T21:17:36Z	2017-05-11T06:28:20Z		docs: documenting async hooks features	70		
 12954	298166	true	open	false	0		2017-05-10T21:51:42Z	2017-05-10T22:30:14Z		test: fix wording for presence of headers	49		
-12955	8503065	false	open	false	2		2017-05-11T01:12:23Z	2017-05-11T05:58:37Z		when will Node.js' Webassembly API be synchronized with the browser?	39		
+12955	8503065	false	open	false	3		2017-05-11T01:12:23Z	2017-05-11T06:19:21Z		when will Node.js' Webassembly API be synchronized with the browser?	39		
 12956	127971	false	open	false	12		2017-05-11T01:29:04Z	2017-05-11T04:06:42Z		Don't use userobject.call/userobject.apply	58		
 12957	495647	true	open	false	1		2017-05-11T02:20:34Z	2017-05-11T04:47:24Z		build: avoid /docs/api and /docs/doc/api upload	99		
 12958	495647	true	open	false	0	0	2017-05-11T02:37:06Z	2017-05-11T02:37:06Z		build: only require docs 'Added' fixes for release	66		
 12959	718899	true	open	false	0	0	2017-05-11T02:40:05Z	2017-05-11T02:40:05Z		test: add common.mustCall() to NAPI exception test	33		
-12960	718899	true	open	false	0	0	2017-05-11T04:05:58Z	2017-05-11T04:05:58Z		timers: do not use user object call/apply	83		
+12960	718899	true	open	false	5		2017-05-11T04:05:58Z	2017-05-11T06:17:30Z		timers: do not use user object call/apply	83		
 12961	28616276	false	open	false	0		2017-05-11T04:51:52Z	2017-05-11T05:21:37Z		Deprecation Warning and build struck	600		
 12962	7041980	true	open	false	0	0	2017-05-11T05:03:04Z	2017-05-11T05:03:04Z		doc: edit Error.captureStackTrace html comment	62		
 12963	4299420	true	open	false	0	0	2017-05-11T05:40:52Z	2017-05-11T05:40:52Z		doc: note caveats in process message serialization	75		
+12964	15608388	true	open	false	0	0	2017-05-11T06:28:09Z	2017-05-11T06:28:09Z		test: fix flaky test-net-connect-local-error	56		
