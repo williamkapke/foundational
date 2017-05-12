@@ -69,7 +69,7 @@
 1917	327019	true	closed	false	17		2015-06-08T13:55:41Z	2017-04-14T21:52:24Z	2017-04-14T21:52:24Z	test: add unicode test case for exec	26		
 1924	474017	false	closed	false	18		2015-06-09T14:12:21Z	2017-01-25T17:35:43Z	2016-09-26T09:04:21Z	Not closing all connections.	188		
 1999	2128182	false	open	false	6		2015-06-17T08:54:39Z	2017-04-17T18:21:59Z		Improve Path.parse / Path.format combo	210		
-2021	10974	false	closed	false	6		2015-06-19T17:41:40Z	2017-05-12T20:51:58Z	2015-10-29T22:48:22Z	Win: Request to officially build node.dll with releases	360		
+2021	10974	false	closed	false	7		2015-06-19T17:41:40Z	2017-05-12T22:37:58Z	2015-10-29T22:48:22Z	Win: Request to officially build node.dll with releases	360		
 2025	696611	true	closed	false	6		2015-06-20T20:27:17Z	2016-08-29T23:49:08Z	2015-06-21T03:19:14Z	util: moving internal helpers to internal module	35		
 2069	150063	false	closed	false	15		2015-06-27T13:55:19Z	2017-04-17T21:20:01Z	2017-02-07T18:12:20Z	Windows: Setting fs.futimes{Sync} subsecond (millisecond) precision?	89		
 2084	495647	false	open	false	4		2015-06-30T11:59:42Z	2016-10-20T01:31:00Z		DISTTYPEDIR in vcbuild.bat persists across builds	289		
@@ -5629,7 +5629,7 @@
 12260	896560	false	open	false	0		2017-04-06T14:55:52Z	2017-04-06T14:55:52Z		Windows 10, infinite loop running NPM	39		
 12261	718899	true	open	false	5		2017-04-06T16:29:33Z	2017-04-06T17:06:55Z		test: skip irrelevant test on Windows	31		
 12262	567540	true	closed	false	0		2017-04-06T16:50:36Z	2017-04-09T18:49:24Z	2017-04-09T18:49:24Z	test: Update information on known_issues	52		
-12263	287917	true	open	false			2017-04-06T17:27:30Z	2017-05-12T20:58:28Z		inspector: JavaScript bindings for the inspector	98		
+12263	287917	true	open	false			2017-04-06T17:27:30Z	2017-05-12T22:48:01Z		inspector: JavaScript bindings for the inspector	98		
 12264	17607	false	open	false	0		2017-04-06T20:22:01Z	2017-04-06T20:22:01Z		node aborts with --debug when it self-exits	186		
 12265	4044581	true	closed	false	1		2017-04-07T05:32:44Z	2017-04-10T22:17:13Z	2017-04-10T13:59:37Z	test: check curve algorithm is supported	52		
 12266	432351	true	closed	false	8		2017-04-07T06:54:58Z	2017-04-11T06:43:59Z	2017-04-10T05:23:12Z	src: only block SIGUSR1 when HAVE_INSPECTOR	112		
@@ -6221,7 +6221,7 @@
 12853	103800	false	open	false	2		2017-05-05T11:02:33Z	2017-05-06T08:29:01Z		node: ../deps/uv/src/unix/async.c:136: uv__async_io: Assertion `n == sizeof(val)' failed.	134		
 12854	677994	true	open	false	6		2017-05-05T11:18:41Z	2017-05-11T19:45:09Z		"Revert ""net: remove unnecessary process.nextTick()"""	72		
 12855	1128607	true	open	false	3		2017-05-05T11:21:53Z	2017-05-11T14:04:52Z		streams: remove all references to readableState/writableState from docs	115		
-12856	6447530	true	closed	false	10		2017-05-05T11:47:48Z	2017-05-11T03:57:50Z	2017-05-10T21:04:35Z	test: detect all types of aborts in windows	90		
+12856	6447530	true	closed	false	11		2017-05-05T11:47:48Z	2017-05-12T22:28:45Z	2017-05-10T21:04:35Z	test: detect all types of aborts in windows	90		
 12857	1128607	true	open	false	4		2017-05-05T12:52:43Z	2017-05-11T14:44:25Z		stream: remove {writeableState/readableState}.length	64		
 12858	10393198	false	open	false	5		2017-05-05T13:26:55Z	2017-05-05T19:42:19Z		test, timers, tools: question about fails on Windows	177		
 12859	3865838	false	closed	false	1		2017-05-05T14:04:33Z	2017-05-05T18:27:19Z	2017-05-05T18:27:19Z	"Crash with ""prodnode.sh: line 1: 23004 Aborted"""	193		
@@ -6367,7 +6367,7 @@
 12999	7041980	true	open	false	10		2017-05-12T15:47:16Z	2017-05-12T20:48:32Z		test: replace port in dgram shared ports test	34		
 13000	1485909	true	open	false			2017-05-12T17:52:52Z	2017-05-12T20:28:01Z		async_wrap,src: promise hook integration	57		
 13001	193412	false	open	false	0		2017-05-12T18:15:08Z	2017-05-12T19:12:15Z		Proposal: change deprecation policy	205		
-13002	17607	true	open	false			2017-05-12T19:43:44Z	2017-05-12T20:07:31Z		src: whitelist new options for NODE_OPTIONS	54		
+13002	17607	true	open	false			2017-05-12T19:43:44Z	2017-05-12T22:20:57Z		src: whitelist new options for NODE_OPTIONS	54		
 13003	96947	true	open	false	0	0	2017-05-12T19:49:37Z	2017-05-12T19:49:37Z		test: to to stabilize test	39		
 13004	17607	true	open	false	0	0	2017-05-12T19:52:32Z	2017-05-12T19:52:32Z		src: fix --abort_on_uncaught_exception arg parsing	123		
 13005	238531	true	open	false	5		2017-05-12T21:00:49Z	2017-05-12T21:47:08Z		http: overridable keep-alive behavior of `Agent`	106		
