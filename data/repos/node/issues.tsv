@@ -4764,7 +4764,7 @@
 11392	439929	true	closed	false	17		2017-02-15T05:04:21Z	2017-03-07T07:11:10Z	2017-02-17T18:25:39Z	vm: refactor vm module	34		
 11393	718899	true	closed	false	1		2017-02-15T05:58:20Z	2017-02-16T20:42:50Z	2017-02-16T20:42:50Z	test: improve message in net-connect-local-error	54		
 11394	1131567	true	open	false	1		2017-02-15T07:15:44Z	2017-02-15T11:10:33Z		benchmarks, util: use various types of values in util.inspect bench	75		
-11395	1716463	true	open	false	12		2017-02-15T09:15:45Z	2017-04-30T20:42:41Z		url: make path in resolveObject the same as parse	75		
+11395	1716463	true	closed	false	13		2017-02-15T09:15:45Z	2017-05-12T08:32:41Z	2017-05-12T08:32:41Z	url: make path in resolveObject the same as parse	75		
 11396	5776864	true	open	false	5		2017-02-15T09:42:23Z	2017-02-17T18:06:14Z		test: remove unused args and comparison fix.	38		
 11397	2897520	true	open	false	8		2017-02-15T12:09:40Z	2017-02-16T10:04:34Z		build: depend on python2 specifically	72		
 11398	7693422	true	open	false			2017-02-15T12:19:26Z	2017-02-15T22:06:02Z		errors, querystring: migrate to internal/errors.js	32		
@@ -6214,7 +6214,7 @@
 12847	5886475	true	open	false			2017-05-05T08:00:06Z	2017-05-05T23:30:55Z		buffer: fix Buffer.isEncoding() return value for empty string	57		
 12848	794604	false	open	false	5		2017-05-05T08:05:00Z	2017-05-11T23:59:18Z		New dlopen flags API	280		
 12849	899444	true	open	false	13		2017-05-05T09:15:00Z	2017-05-07T19:03:35Z		assert: improve deepEqual perf for large input	131		
-12850	1716463	true	open	false	0		2017-05-05T09:22:16Z	2017-05-05T12:36:09Z		(v7.x backport) net: remove an unused internal module `assertPort`	43		
+12850	1716463	true	closed	false	1		2017-05-05T09:22:16Z	2017-05-12T08:23:28Z	2017-05-12T08:23:28Z	(v7.x backport) net: remove an unused internal module `assertPort`	43		
 12851	4299420	true	open	false	2		2017-05-05T09:39:26Z	2017-05-09T09:32:38Z		test: add test for timers benchmarks	33		
 12852	2512748	true	closed	false	10	0	2017-05-05T09:45:05Z	2017-05-08T05:11:55Z	2017-05-08T05:11:55Z	"Revert ""net: don't normalize twice in Socket#connect()"""	45		
 12853	103800	false	open	false	2		2017-05-05T11:02:33Z	2017-05-06T08:29:01Z		node: ../deps/uv/src/unix/async.c:136: uv__async_io: Assertion `n == sizeof(val)' failed.	134		
@@ -6244,7 +6244,7 @@
 12877	559409	false	open	false	0		2017-05-07T05:55:29Z	2017-05-07T05:55:29Z		http: setting multiple headers could be more efficient	123		
 12878	498775	true	open	false	2		2017-05-07T09:58:42Z	2017-05-07T11:36:23Z		Patch V8 API to be ABI compatible with v5.9.	41		
 12879	11230479	true	open	false			2017-05-07T11:30:01Z	2017-05-10T12:58:58Z		test: update test for url.parse() to match the exact error through re…	49		
-12880	1716463	true	open	false	1		2017-05-07T12:05:39Z	2017-05-10T09:24:02Z		(v7.x backport) url: handle windows drive letter in the file state	61		
+12880	1716463	true	closed	false	2		2017-05-07T12:05:39Z	2017-05-12T08:31:06Z	2017-05-12T08:31:06Z	(v7.x backport) url: handle windows drive letter in the file state	61		
 12881	432351	true	open	false	5		2017-05-07T12:42:49Z	2017-05-11T05:12:35Z		lib: add guard to originalConsole	99		
 12882	432351	true	open	false	1		2017-05-07T12:43:22Z	2017-05-09T10:44:01Z		test: add skipIfInspectorDisabled to debugger-pid	35		
 12883	718899	true	closed	false	2		2017-05-07T16:32:45Z	2017-05-11T14:49:54Z	2017-05-11T14:49:54Z	test: favor deepStrictEqual over deepEqual	50		
@@ -6307,9 +6307,9 @@
 12940	1789893	false	closed	false	3		2017-05-10T01:17:21Z	2017-05-10T17:34:00Z	2017-05-10T17:34:00Z	Provide a way to expose VM's cpu/memory usage	159		
 12941	592432	false	open	false	0		2017-05-10T02:00:31Z	2017-05-10T02:18:25Z		Programatically setting the debug flag has no effects	227		
 12942	7041980	true	open	false			2017-05-10T02:07:53Z	2017-05-12T07:46:18Z		test: replace port in dgram cb test	42		
-12943	7041980	true	open	false	2		2017-05-10T02:33:38Z	2017-05-12T07:54:11Z		test: replace port in dgram cb length test	42		
-12944	7041980	true	open	false	2		2017-05-10T03:55:17Z	2017-05-12T07:57:37Z		test: replace port in dgram cb address test	42		
-12945	10393198	true	open	false	5		2017-05-10T05:20:53Z	2017-05-10T20:06:13Z		test: make a test path-independent	151		
+12943	7041980	true	open	false	5		2017-05-10T02:33:38Z	2017-05-12T08:31:38Z		test: replace port in dgram cb length test	42		
+12944	7041980	true	open	false	3		2017-05-10T03:55:17Z	2017-05-12T08:35:30Z		test: replace port in dgram cb address test	42		
+12945	10393198	true	closed	false	6		2017-05-10T05:20:53Z	2017-05-12T08:37:31Z	2017-05-12T08:37:31Z	test: make a test path-independent	151		
 12946	572196	false	open	false	0		2017-05-10T05:49:07Z	2017-05-10T05:49:07Z		Crypto docs don't explain the function signatures	65		
 12947	7455872	true	open	false	3		2017-05-10T07:15:12Z	2017-05-10T12:18:35Z		doc: Update doc of publicEncrypt method	40		
 12948	432351	true	open	false	3		2017-05-10T11:15:50Z	2017-05-11T11:55:06Z		(v6.x backport) build: enable cctest to use generated objects	125		
@@ -6328,7 +6328,7 @@
 12961	28616276	false	open	false	0		2017-05-11T04:51:52Z	2017-05-11T05:21:37Z		Deprecation Warning and build struck	600		
 12962	7041980	true	open	false			2017-05-11T05:03:04Z	2017-05-11T17:23:28Z		doc: edit Error.captureStackTrace html comment	51		
 12963	4299420	true	open	false			2017-05-11T05:40:52Z	2017-05-11T20:20:51Z		doc: note caveats in process message serialization	75		
-12964	15608388	true	open	false			2017-05-11T06:28:09Z	2017-05-12T06:20:47Z		test: fix flaky test-net-connect-local-error	56		
+12964	15608388	true	open	false			2017-05-11T06:28:09Z	2017-05-12T08:20:51Z		test: fix flaky test-net-connect-local-error	56		
 12965	171239	false	open	false	0		2017-05-11T07:29:58Z	2017-05-11T07:29:58Z		WHATWG URL throw parse error for valid domains	42		
 12966	171239	true	open	false	5		2017-05-11T07:44:03Z	2017-05-12T03:30:16Z		url: ignore IDN errors when domainname have two hyphens	67		
 12967	432351	true	closed	false	12		2017-05-11T08:19:54Z	2017-05-12T06:11:26Z	2017-05-12T06:11:26Z	src: add HAVE_OPENSSL guard to crypto providers	78		
@@ -6344,7 +6344,7 @@
 12977	903597	false	open	false	0		2017-05-11T16:04:04Z	2017-05-11T16:04:04Z		v7.10.0 docs include N-API but N-API isn't part of 7.10.0	19		
 12978	15943089	true	open	false			2017-05-11T16:19:30Z	2017-05-11T22:37:45Z		doc,build: update configure help messages	41		
 12979	15943089	false	open	false	0		2017-05-11T16:58:38Z	2017-05-11T16:58:38Z		Agree on commit reverting strategy	77		
-12980	195826	false	open	false	2		2017-05-11T17:08:39Z	2017-05-11T20:44:35Z		consider implementing v8::Platform on top of libuv instead of using the default platform	149		
+12980	195826	false	open	false	3		2017-05-11T17:08:39Z	2017-05-12T08:48:12Z		consider implementing v8::Platform on top of libuv instead of using the default platform	149		
 12981	96947	true	open	false			2017-05-11T18:26:01Z	2017-05-12T01:08:43Z		lib: save a reference to intrinsic constructs	47		
 12982	439929	true	open	false	0		2017-05-11T20:42:30Z	2017-05-12T00:11:14Z		promises: improve unhandledrejection warnings	120		
 12983	54666	true	open	false	0	0	2017-05-11T22:08:19Z	2017-05-11T22:08:19Z		http,https: avoid instanceof for WHATWG URL	77		
@@ -6356,3 +6356,4 @@
 12989	432351	true	open	false	0	0	2017-05-12T06:35:55Z	2017-05-12T06:35:55Z		src: rename CONNECTION provider to SSLCONNECTION	74		
 12990	7041980	true	open	false	0	0	2017-05-12T07:28:50Z	2017-05-12T07:28:50Z		Server header branch	43		
 12991	1522145	false	open	false	0		2017-05-12T07:39:51Z	2017-05-12T07:39:51Z		Consider using binary operator in readUInt32XX ? 	103		
+12992	10393198	true	open	false	0	0	2017-05-12T08:47:14Z	2017-05-12T08:47:14Z		test: remove unneeded string splitting	31		
