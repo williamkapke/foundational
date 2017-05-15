@@ -78,10 +78,11 @@
 942	8736514	false	closed	false	10		2016-05-25T13:28:30Z	2017-03-15T06:15:10Z	2016-05-25T15:03:16Z	Change NVM_NODEJS_ORG_MIRROR to NODEJS_ORG_MIRROR to solve npm install error	18		
 945	2333632	true	closed	false	2		2016-05-27T15:46:21Z	2016-10-07T08:52:40Z	2016-10-07T08:52:40Z	Issue 297 fixed	0		
 949	1347002	false	closed	false	12		2016-06-06T14:20:21Z	2016-09-28T15:52:03Z	2016-06-13T13:55:30Z	error compiling win_delay_load_hook.c with visual studio preview 2	85		
+951	3168725	true	closed	false	1		2016-06-09T09:07:18Z	2017-05-15T22:45:15Z	2017-05-15T22:45:15Z	Copying node.lib timestamp to prevent redundant link with msbuild	54		
 956	1093990	false	closed	false	10		2016-06-13T17:08:12Z	2016-07-01T15:18:03Z	2016-06-28T02:03:26Z	Propose v3.3.2	39		
 960	238531	false	open	false	7		2016-06-17T17:53:54Z	2017-03-23T10:49:24Z		Consider gyp.js?	56		
 962	1122386	true	open	false	39		2016-06-19T00:39:43Z	2017-01-21T23:36:15Z		Initial gyp.js support	28		
-964	1122386	true	open	false	10		2016-06-20T13:19:48Z	2017-03-20T13:55:37Z		build: use target_arch config variable to link against node.lib	52		
+964	1122386	true	closed	false	11		2016-06-20T13:19:48Z	2017-05-15T22:42:30Z	2017-05-15T22:42:30Z	build: use target_arch config variable to link against node.lib	52		
 965	1122386	true	open	false	3		2016-06-20T14:05:11Z	2016-07-07T13:17:14Z		install: de-duplicate code in downloadNodeLib() function	52		
 966	432707	false	closed	false	2		2016-06-21T04:08:04Z	2016-06-27T15:32:04Z	2016-06-27T11:36:37Z	Update minimatch to latest version	32		
 969	1122386	true	closed	false	3		2016-06-26T09:34:36Z	2016-10-07T08:48:21Z	2016-10-07T08:48:21Z	Unset executable bit for .bat files	16		
@@ -230,7 +231,7 @@
 1112	4852580	false	open	false	0		2017-02-10T10:37:31Z	2017-02-10T10:37:31Z		fatal error C1107: could not find assembly 'Windows.winmd'	281		
 1113	6254059	true	open	false			2017-02-10T12:33:01Z	2017-02-12T18:31:50Z		Add configuration for SSL verification when downloading content behind corporate proxy	95		
 1114	16931090	false	closed	false	0		2017-02-12T02:34:55Z	2017-02-12T09:58:05Z	2017-02-12T09:58:05Z	Android support	91		
-1115	703055	false	open	false	4		2017-02-13T10:35:02Z	2017-02-15T04:16:08Z		`node-gyp build` on Windows always rebuilds the final binary even if no files were changed	185		
+1115	703055	false	closed	false	6		2017-02-13T10:35:02Z	2017-05-15T22:45:41Z	2017-05-15T22:45:41Z	`node-gyp build` on Windows always rebuilds the final binary even if no files were changed	185		
 1116	866122	false	open	false	7		2017-02-15T18:15:08Z	2017-02-20T17:40:29Z		Possible need for requirement for option 1 Windows	49		
 1117	469365	false	open	false	0		2017-02-15T19:36:14Z	2017-02-15T21:09:06Z		Missing tmp file creation on Windows?	198		
 1118	275871	false	open	false	0		2017-02-15T21:01:14Z	2017-02-15T21:01:14Z		Don't include common.gypi from node source tree	74		
@@ -312,5 +313,5 @@
 1195	994232	false	closed	false	16		2017-05-11T17:43:40Z	2017-05-13T03:35:09Z	2017-05-11T18:58:24Z	Error running npm-install	361		
 1196	9967422	false	open	false	1		2017-05-12T13:39:54Z	2017-05-12T14:10:43Z		node-gyp is not recognized as an internal or external command	38		
 1197	28275954	false	open	false	0		2017-05-12T15:47:17Z	2017-05-12T15:47:17Z		..	0		
-1198	96947	true	open	false			2017-05-13T20:00:40Z	2017-05-15T21:58:32Z		win: more robust parsing of SDK version	10		
+1198	96947	true	open	false			2017-05-13T20:00:40Z	2017-05-15T22:06:34Z		win: more robust parsing of SDK version	10		
 1199	1062408	false	open	false	4		2017-05-15T16:49:26Z	2017-05-15T21:42:47Z		Cannot convert name to ASCII	359		
