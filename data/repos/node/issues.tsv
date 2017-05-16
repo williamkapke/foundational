@@ -197,7 +197,7 @@
 3604	13315	false	open	false	14		2015-10-30T14:21:10Z	2017-05-07T12:05:05Z		a simple script to crash Node.js with an assertion failure: (loop->watchers[w->fd] == w)	67		
 3606	170197	false	open	false	62		2015-10-30T14:47:16Z	2017-02-23T01:28:38Z		Error: Cannot find module './lib'	31		
 3648	2056977	false	open	false	10		2015-11-03T18:22:21Z	2017-02-07T20:27:51Z		util.inspect is not so hot on large typed arrays	102		
-3655	731722	false	closed	false	6		2015-11-04T02:44:31Z	2017-05-15T18:02:45Z	2017-05-15T18:02:45Z	uv_read_start: Assertion `((stream)->io_watcher.fd) >= 0' failed.	14		
+3655	731722	false	closed	false	6		2015-11-04T02:44:31Z	2017-05-16T00:26:29Z	2017-05-15T18:02:45Z	uv_read_start: Assertion `((stream)->io_watcher.fd) >= 0' failed.	14		
 3659	7237097	false	closed	false	47		2015-11-04T10:35:25Z	2017-01-02T19:12:24Z	2017-01-02T17:00:38Z	Performance of 'http' + anonymous functions eventually slows down	600		
 3664	907301	false	closed	false	5		2015-11-04T19:52:31Z	2017-02-07T21:11:04Z	2017-02-07T21:11:04Z	npmrc file node installer generates needs to be changed	93		
 3665	1093990	false	open	false	9		2015-11-04T21:10:29Z	2017-04-13T14:22:06Z		Revisit unrefed handles and `beforeExit` internals	282		
@@ -6361,7 +6361,7 @@
 12992	10393198	true	closed	false	3	0	2017-05-12T08:47:14Z	2017-05-15T11:59:03Z	2017-05-15T11:59:03Z	test: remove unneeded string splitting	31		
 12993	432351	true	open	false			2017-05-12T11:29:39Z	2017-05-15T12:03:11Z		crypto: remove unnecessary template class	66		
 12994	824669	false	open	false	0		2017-05-12T12:25:44Z	2017-05-12T12:25:44Z		Extends Promise with setImmediate	55		
-12995	2352663	true	open	false	5		2017-05-12T13:10:18Z	2017-05-15T19:43:47Z		(v8.x) src: update NODE_MODULE_VERSION to 57	58		
+12995	2352663	true	open	false	7		2017-05-12T13:10:18Z	2017-05-16T00:38:52Z		(v8.x) src: update NODE_MODULE_VERSION to 57	58		
 12996	7041980	true	open	false	1		2017-05-12T14:15:36Z	2017-05-15T11:38:07Z		test: replace port in net immediate finish test	41		
 12997	96947	false	open	false	0		2017-05-12T14:55:33Z	2017-05-12T14:55:33Z		test: investigate async-hooks/test-tcpwrap for flakiness on Linux	64		
 12998	439929	true	closed	false	2	0	2017-05-12T15:39:30Z	2017-05-15T15:31:24Z	2017-05-15T15:31:24Z	util: fixup internal util exports	43		
@@ -6372,7 +6372,7 @@
 13003	96947	true	open	false	5		2017-05-12T19:49:37Z	2017-05-13T03:31:46Z		test: try to stabilize test	39		
 13004	17607	true	open	false	0	0	2017-05-12T19:52:32Z	2017-05-12T19:52:32Z		src: fix --abort_on_uncaught_exception arg parsing	123		
 13005	238531	true	open	false			2017-05-12T21:00:49Z	2017-05-15T14:11:07Z		http: overridable keep-alive behavior of `Agent`	106		
-13006	9373002	true	open	false	2		2017-05-12T21:30:14Z	2017-05-16T00:10:26Z		test: improve N-API test coverage	41		
+13006	9373002	true	closed	false	2		2017-05-12T21:30:14Z	2017-05-16T00:13:47Z	2017-05-16T00:13:47Z	test: improve N-API test coverage	41		
 13007	7041980	true	open	false	1		2017-05-12T22:01:15Z	2017-05-14T04:55:01Z		test: replace port in dgram send address types test	35		
 13008	12181444	false	closed	false	2		2017-05-13T02:32:15Z	2017-05-13T09:59:42Z	2017-05-13T09:59:42Z	CDP(async function(client) { ^^^^^ SyntaxError: missing ) after argument list at Object.exports.runInThisContext (vm.js:78:16) at Module._compile (module.js:543:28) a	21		
 13009	718899	true	open	false	0		2017-05-13T05:04:38Z	2017-05-15T18:29:21Z		benchmark: remove redundant timers benchmark	43		
@@ -6380,7 +6380,7 @@
 13011	718899	true	closed	false	4		2017-05-13T05:05:47Z	2017-05-15T03:05:12Z	2017-05-13T16:16:07Z	util,console: guard against overwritten util functions	72		
 13012	833473	true	open	false	10		2017-05-13T08:14:58Z	2017-05-15T23:03:23Z		cmd: support dash as stdin alias	343		
 13013	54666	true	open	false	0	0	2017-05-13T14:32:04Z	2017-05-13T14:32:04Z		http: improve outgoing string write performance	333		
-13014	899444	true	open	false	3		2017-05-13T15:38:22Z	2017-05-15T20:48:52Z		n-api: remove compiler warning	35		
+13014	899444	true	open	false	4		2017-05-13T15:38:22Z	2017-05-16T00:14:36Z		n-api: remove compiler warning	35		
 13015	15943089	true	open	false	0		2017-05-13T17:18:29Z	2017-05-14T16:00:54Z		doc: document method for reverting commits	25		
 13016	10393198	true	open	false	4		2017-05-13T17:27:41Z	2017-05-15T22:23:23Z		test: introduce tag functions to handle long strings in code	368		
 13018	1228153	false	open	false	3		2017-05-13T19:16:55Z	2017-05-14T19:19:54Z		Allocation failed - process out of memory	217		
@@ -6398,8 +6398,8 @@
 13030	171239	true	open	false			2017-05-15T00:41:43Z	2017-05-15T14:44:29Z		url: fast path ascii domains, do not run ToASCII	64		
 13031	171239	false	open	false	2		2017-05-15T00:55:21Z	2017-05-15T04:52:42Z		napi test throws error	81		
 13032	718899	true	open	false	0	0	2017-05-15T03:41:52Z	2017-05-15T03:41:52Z		test:refactor test-https-set-timeout-server	35		
-13033	7041980	true	open	false	3		2017-05-15T03:47:10Z	2017-05-16T00:03:23Z		test: move net reconnect error test to sequential	49		
-13034	4299420	true	open	false	4		2017-05-15T04:56:54Z	2017-05-15T22:44:54Z		build: clean up napi build in test-addons-clean	27		
+13033	7041980	true	open	false	3		2017-05-15T03:47:10Z	2017-05-16T00:34:20Z		test: move net reconnect error test to sequential	49		
+13034	4299420	true	open	false	5		2017-05-15T04:56:54Z	2017-05-16T00:32:46Z		build: clean up napi build in test-addons-clean	27		
 13035	5500080	true	open	false			2017-05-15T05:43:29Z	2017-05-15T06:22:04Z		Changed the second parameter of assert.throws to match the errors	13		
 13036	23206577	false	closed	false	1		2017-05-15T05:57:58Z	2017-05-15T06:04:48Z	2017-05-15T06:04:48Z	Want to run nodejs on dedicated server	17		
 13037	5372618	false	open	false	0		2017-05-15T08:40:19Z	2017-05-15T09:03:38Z		Throw errors when i use async/await in Node v7.9.0	87		
@@ -6409,3 +6409,4 @@
 13041	432351	true	open	false	0	0	2017-05-15T18:48:23Z	2017-05-15T18:48:23Z		test: add hasCrypto to tls-wrap-event-emmiter	67		
 13042	432351	true	open	false	0	0	2017-05-15T18:52:52Z	2017-05-15T18:52:52Z		build: don't print directory for GNUMake	101		
 13043	96947	false	open	false	0		2017-05-15T21:41:47Z	2017-05-15T21:41:47Z		bootstrap: bootstrap should fail if ICU is misconfigured	72		
+13044	9373002	true	open	false	0	0	2017-05-16T00:26:23Z	2017-05-16T00:26:23Z		test: Improve N-API test coverage	132		
