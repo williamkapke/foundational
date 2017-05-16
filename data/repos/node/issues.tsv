@@ -431,7 +431,7 @@
 6082	8702326	true	closed	false	14		2016-04-06T18:50:20Z	2017-03-26T23:18:22Z	2017-03-26T23:18:22Z	async_wrap,lib: Firing async-wrap callbacks for next-tick callbacks	373		
 6085	238531	true	open	false	9		2016-04-06T22:51:09Z	2017-05-11T21:14:24Z		http_outgoing: refactor to use stream.Writable	74		
 6089	195826	false	closed	false	6		2016-04-06T23:21:40Z	2017-01-03T11:34:13Z	2016-04-07T00:47:32Z	Consider moving from gyp to gn	50		
-6102	54666	true	open	false	109		2016-04-07T16:10:47Z	2017-03-26T21:22:28Z		http: don't inherit from Object.prototype	57		
+6102	54666	true	open	false	110		2016-04-07T16:10:47Z	2017-05-16T22:51:30Z		http: don't inherit from Object.prototype	57		
 6103	1190716	false	closed	false	4		2016-04-07T16:36:31Z	2017-04-30T18:16:05Z	2017-04-30T18:16:05Z	Call String::Flatten before converting to buffer	437		
 6114	408977	true	closed	false	11		2016-04-08T12:55:18Z	2016-07-06T05:06:41Z	2016-07-06T05:06:41Z	Defensive check for process.config.variables (v4-staging)	10		
 6115	408977	true	closed	false	18		2016-04-08T12:59:35Z	2016-07-05T17:59:27Z	2016-07-05T17:59:26Z	Defensive fix for process.config.variables regression (v5)	21		
@@ -1457,7 +1457,7 @@
 8077	3254987	false	closed	false	8		2016-08-12T07:53:11Z	2016-09-23T07:43:56Z	2016-08-18T07:20:12Z	child_process.spawn does not recognize local package in Windows	111		
 8078	101553	true	open	false	3		2016-08-12T08:14:23Z	2016-08-17T12:47:14Z		deps: cherry-pick 7bd24767 from v8 upstream (v6.x)	59		
 8079	13269109	false	closed	false	6		2016-08-12T08:18:00Z	2016-08-12T14:18:50Z	2016-08-12T14:18:49Z	Illegal instruction on PowerPC 440EP	270		
-8080	350686	false	open	false	5		2016-08-12T09:30:32Z	2017-05-16T20:11:09Z		debugger: bind to random port with --inspect=0	6		
+8080	350686	false	open	false	6		2016-08-12T09:30:32Z	2017-05-16T22:44:02Z		debugger: bind to random port with --inspect=0	6		
 8081	1408578	false	closed	false	2		2016-08-12T09:55:50Z	2016-08-23T19:12:49Z	2016-08-23T19:12:49Z	security problem in debug mode	99		
 8082	16539774	false	closed	false	5		2016-08-12T11:34:30Z	2016-08-12T16:05:01Z	2016-08-12T16:05:01Z	stack overflow when returning an ES6 proxy through a promise	239		
 8083	1008760	false	closed	false	5		2016-08-12T16:33:31Z	2016-08-13T12:49:25Z	2016-08-13T12:49:25Z	addon doesn't seem to honour group membership	100		
@@ -3494,7 +3494,7 @@
 10114	432351	true	closed	false	2		2016-12-04T18:04:31Z	2016-12-09T07:35:35Z	2016-12-09T07:35:35Z	tools: add macosx-firewall script to avoid popups	132		
 10115	16144158	true	closed	false	3	0	2016-12-04T20:13:02Z	2016-12-05T21:56:59Z	2016-12-05T21:56:59Z	console: Updated var declarations to let/const	49		
 10116	439929	true	closed	false	41		2016-12-04T21:10:15Z	2017-02-09T20:39:17Z	2017-01-30T19:21:01Z	process: Add code to warnings, assign codes to deprecations	340		
-10117	439929	false	open	false	35		2016-12-05T02:31:15Z	2017-05-09T23:44:24Z		Node.js 8.0.0 Tracking Issue	69		
+10117	439929	false	open	false	37		2016-12-05T02:31:15Z	2017-05-16T22:38:36Z		Node.js 8.0.0 Tracking Issue	69		
 10118	23263252	false	closed	false	3		2016-12-05T02:31:59Z	2016-12-05T07:18:37Z	2016-12-05T07:18:37Z	not able to write large data	283		
 10119	75209	false	open	false	7		2016-12-05T03:24:05Z	2016-12-16T05:06:41Z		Proposal: add a console.write method	91		
 10120	10419222	true	open	false	2		2016-12-05T05:23:37Z	2016-12-06T05:26:52Z		subsystem: test	52		
@@ -6427,6 +6427,9 @@
 13059	498775	true	open	false	0	0	2017-05-16T18:07:50Z	2017-05-16T18:07:50Z		v6.11.0 proposal	1518		
 13060	718899	true	open	false	0	0	2017-05-16T19:15:50Z	2017-05-16T19:15:50Z		(v6.x backport) test: enable setuid/setgid test	81		
 13061	718899	false	open	false	0		2017-05-16T19:32:00Z	2017-05-16T19:32:00Z		Run the `internet` tests on CI from time to time?	37		
-13062	96947	true	open	false	2		2017-05-16T20:09:51Z	2017-05-16T21:33:57Z		test: improve net-immediate-finish-test	74		
-13063	17607	true	open	false	0	0	2017-05-16T20:22:40Z	2017-05-16T20:22:40Z		src: use a std::vector for preload_modules	79		
-13064	15608388	true	open	false	0	0	2017-05-16T20:41:25Z	2017-05-16T20:41:25Z		test: fix sequential test-net-connect-local-error	45		
+13062	96947	true	open	false	5		2017-05-16T20:09:51Z	2017-05-16T22:52:58Z		test: improve net-immediate-finish-test	74		
+13063	17607	true	open	false	0		2017-05-16T20:22:40Z	2017-05-16T22:54:48Z		(7.x backport) src: use a std::vector for preload_modules	84		
+13064	15608388	true	open	false			2017-05-16T20:41:25Z	2017-05-16T22:20:48Z		test: fix sequential test-net-connect-local-error	45		
+13065	3109072	true	open	false	0	0	2017-05-16T22:36:07Z	2017-05-16T22:36:07Z		stream: check type and range of highWaterMark	52		
+13066	1716463	true	open	false	0	0	2017-05-16T22:38:41Z	2017-05-16T22:38:41Z		doc: remove unused/duplicated reference links	74		
+13067	9373002	true	open	false	0	0	2017-05-16T22:58:37Z	2017-05-16T22:58:37Z		"doc: update doc to remove usage of ""you"""	47		
