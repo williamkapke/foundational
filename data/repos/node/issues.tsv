@@ -29,7 +29,7 @@
 862	17607	false	closed	false	8		2015-02-17T05:55:09Z	2016-09-07T13:55:17Z	2015-05-06T21:14:16Z	spawn's stdio can result in stderr being closed in child	158		
 894	7220484	false	open	false	26		2015-02-19T16:50:29Z	2016-12-15T06:34:40Z		dns.setServers() crash	113		
 906	115237	false	open	false	35		2015-02-20T18:06:56Z	2017-02-02T20:26:12Z		net: enable TCP_NODELAY by default on all platforms	32		
-947	707147	false	closed	false	9		2015-02-25T02:05:54Z	2017-05-14T20:27:37Z	2017-02-15T20:31:40Z	EPIPE errors thrown when piping to a closed stream	363		
+947	707147	false	closed	false	11		2015-02-25T02:05:54Z	2017-05-16T18:32:57Z	2017-02-15T20:31:40Z	EPIPE errors thrown when piping to a closed stream	363		
 954	321966	false	closed	false	7		2015-02-25T14:55:54Z	2017-05-11T09:06:19Z	2017-05-11T09:06:18Z	socket name of unix domain sockets	76		
 983	6731985	false	open	false	22		2015-02-27T03:19:51Z	2017-03-24T14:58:00Z		Tab completion for block-scoped variables doesn't work in REPL	60		
 1010	218257	false	closed	false	53		2015-02-28T22:28:55Z	2016-12-05T11:27:32Z	2015-03-25T01:31:37Z	Ship websockets in core	23		
@@ -1234,7 +1234,7 @@
 7853	516780	false	open	false	12		2016-07-23T19:28:07Z	2016-10-07T22:02:11Z		node --debug takes a really long time to respond to websockets	180		
 7854	1084056	true	closed	false	10		2016-07-23T20:09:19Z	2016-08-02T14:08:28Z	2016-08-02T14:08:28Z	test: fix test-vm-sigint flakiness	68		
 7855	1422781	true	open	false			2016-07-23T20:38:28Z	2017-03-03T20:20:28Z		dgram: setMulticastInterface() outgoing interface selection	72		
-7856	373545	true	closed	false	40		2016-07-23T20:49:58Z	2016-12-13T19:54:17Z	2016-11-08T17:50:17Z	fs: Fix default params for fs.write	81		
+7856	373545	true	closed	false	41		2016-07-23T20:49:58Z	2017-05-16T18:02:13Z	2016-11-08T17:50:17Z	fs: Fix default params for fs.write	81		
 7857	718899	true	closed	false	26		2016-07-23T21:15:43Z	2016-07-31T20:33:10Z	2016-07-31T20:33:10Z	test: fix flaky test-tls-wrap-timeout	59		
 7858	3524633	false	closed	false	24		2016-07-24T00:23:34Z	2016-12-21T22:17:35Z	2016-07-25T15:53:16Z	Add fsevents to NodeJS	150		
 7859	1084056	true	closed	false	9	5	2016-07-24T06:28:47Z	2016-07-31T21:08:12Z	2016-07-31T21:08:12Z	tools,test: show signal code when test crashes	31	1084056	2016-07-31T21:08:12Z
@@ -4142,7 +4142,7 @@
 10768	17607	false	open	false	3		2017-01-12T18:43:30Z	2017-05-02T12:49:35Z		maxBuffer of Infinity aborts child_process.execSync	196		
 10769	2512748	true	closed	false	9		2017-01-12T18:44:09Z	2017-04-12T21:20:03Z	2017-01-17T15:51:10Z	child_process: allow Infinity as maxBuffer value	34		
 10770	469365	false	closed	false	1		2017-01-12T19:06:57Z	2017-01-16T21:39:07Z	2017-01-16T21:39:07Z	Unclear docs on copying/sharing memory for Buffer.from(arrayBuffer)	166		
-10771	17607	true	open	false	6		2017-01-12T19:38:15Z	2017-01-12T21:14:31Z		Eslint fixes	33		
+10771	17607	true	closed	false	9		2017-01-12T19:38:15Z	2017-05-16T18:10:10Z	2017-01-12T21:31:07Z	Eslint fixes	33		
 10772	3367801	true	closed	false	6		2017-01-12T19:42:20Z	2017-03-07T19:08:20Z	2017-02-08T16:37:46Z	test: add test cases to test-readline-keys.js	45		
 10773	1730156	false	open	false	0		2017-01-12T19:49:15Z	2017-01-12T19:49:15Z		assert: assert.ok(10) passes but assert.ok(0) fails.	154		
 10774	15952	false	closed	false	4		2017-01-12T19:50:54Z	2017-01-13T16:04:31Z	2017-01-13T16:04:31Z	HTTP client connection pooling and keep-alive behavior is confusing	511		
@@ -5447,7 +5447,7 @@
 12075	718899	false	open	false	4		2017-03-27T20:14:19Z	2017-03-28T04:49:33Z		Investigate flaky parallel/test-net-better-error-messages-port-hostname	55		
 12076	287917	true	closed	false	4		2017-03-27T20:23:04Z	2017-04-10T17:54:43Z	2017-03-30T20:27:37Z	"inspector: use inspector API for ""break on start"""	47		
 12077	855219	false	closed	false	3		2017-03-27T20:29:19Z	2017-05-09T22:23:27Z	2017-05-09T22:23:27Z	deps: ICU 59 bump	29		
-12078	855219	true	closed	false	3		2017-03-27T20:44:21Z	2017-04-18T23:10:01Z	2017-03-30T22:10:08Z	"tools: add missing #include ""unicode/putil.h"""	60		
+12078	855219	true	closed	false	4		2017-03-27T20:44:21Z	2017-05-16T18:07:27Z	2017-03-30T22:10:08Z	"tools: add missing #include ""unicode/putil.h"""	60		
 12079	54666	false	open	false	0		2017-03-27T21:45:20Z	2017-03-27T21:45:20Z		assert: throw error in doesNotThrow()	65		
 12080	332968	true	closed	false	5		2017-03-27T22:07:17Z	2017-04-18T23:40:42Z	2017-04-04T18:51:27Z	test: refactor mkdtemp test and added async	53		
 12081	3375505	true	open	false	0	0	2017-03-27T22:15:47Z	2017-03-27T22:15:47Z		Fix compilation on PPC64 when libc musl is used instead of glibc	38		
@@ -5630,7 +5630,7 @@
 12260	896560	false	open	false	0		2017-04-06T14:55:52Z	2017-04-06T14:55:52Z		Windows 10, infinite loop running NPM	39		
 12261	718899	true	open	false	5		2017-04-06T16:29:33Z	2017-04-06T17:06:55Z		test: skip irrelevant test on Windows	31		
 12262	567540	true	closed	false	0		2017-04-06T16:50:36Z	2017-04-09T18:49:24Z	2017-04-09T18:49:24Z	test: Update information on known_issues	52		
-12263	287917	true	open	false			2017-04-06T17:27:30Z	2017-05-16T17:43:21Z		inspector: JavaScript bindings for the inspector	98		
+12263	287917	true	open	false			2017-04-06T17:27:30Z	2017-05-16T18:38:59Z		inspector: JavaScript bindings for the inspector	98		
 12264	17607	false	open	false	0		2017-04-06T20:22:01Z	2017-04-06T20:22:01Z		node aborts with --debug when it self-exits	186		
 12265	4044581	true	closed	false	1		2017-04-07T05:32:44Z	2017-04-10T22:17:13Z	2017-04-10T13:59:37Z	test: check curve algorithm is supported	52		
 12266	432351	true	closed	false	8		2017-04-07T06:54:58Z	2017-04-11T06:43:59Z	2017-04-10T05:23:12Z	src: only block SIGUSR1 when HAVE_INSPECTOR	112		
@@ -6378,11 +6378,11 @@
 13009	718899	true	open	false	0		2017-05-13T05:04:38Z	2017-05-15T18:29:21Z		benchmark: remove redundant timers benchmark	43		
 13010	718899	true	open	false	0	0	2017-05-13T05:05:26Z	2017-05-13T05:05:26Z		test: track callback invocations	43		
 13011	718899	true	closed	false	4		2017-05-13T05:05:47Z	2017-05-15T03:05:12Z	2017-05-13T16:16:07Z	util,console: guard against overwritten util functions	72		
-13012	833473	true	open	false	11		2017-05-13T08:14:58Z	2017-05-16T14:36:33Z		cmd: support dash as stdin alias	343		
+13012	833473	true	open	false	12		2017-05-13T08:14:58Z	2017-05-16T18:37:25Z		cmd: support dash as stdin alias	343		
 13013	54666	true	open	false			2017-05-13T14:32:04Z	2017-05-16T16:44:56Z		http: improve outgoing string write performance	337		
 13014	899444	true	open	false	4		2017-05-13T15:38:22Z	2017-05-16T00:14:36Z		n-api: remove compiler warning	35		
 13015	15943089	true	closed	false	1	2	2017-05-13T17:18:29Z	2017-05-16T09:26:03Z	2017-05-16T09:26:03Z	doc: document method for reverting commits	25		
-13016	10393198	true	open	false	22		2017-05-13T17:27:41Z	2017-05-16T17:27:09Z		test: introduce tag functions to handle long strings in code	368		
+13016	10393198	true	closed	false	23		2017-05-13T17:27:41Z	2017-05-16T18:11:01Z	2017-05-16T18:11:01Z	test: introduce tag functions to handle long strings in code	368		
 13018	1228153	false	open	false	3		2017-05-13T19:16:55Z	2017-05-14T19:19:54Z		Allocation failed - process out of memory	217		
 13019	718899	true	open	false			2017-05-14T00:05:45Z	2017-05-14T12:42:33Z		test: refactor test-net-listen-shared-ports	47		
 13020	96947	false	open	false	3		2017-05-14T13:59:01Z	2017-05-14T15:04:05Z		test: investigate flakiness of `parallal/test-async-wrap-getasyncid` (on windows)	97		
@@ -6416,11 +6416,12 @@
 13048	21603	false	open	false	0		2017-05-16T08:55:22Z	2017-05-16T08:55:22Z		Major performance regression from 6.10.2 to 7.x and 8.0.0-test	428		
 13049	3634726	false	open	false	0		2017-05-16T09:49:58Z	2017-05-16T09:49:58Z		Has a problem with child_process.exec.	38		
 13050	2842176	true	open	false	1		2017-05-16T10:46:16Z	2017-05-16T17:54:24Z		dns: fix crash while using dns.setServers after dns.resolve4	75		
-13051	2376199	false	open	false	0		2017-05-16T11:38:14Z	2017-05-16T12:17:18Z		Arguments list for the http upgrade event does not match example	40		
+13051	2376199	false	closed	false	3		2017-05-16T11:38:14Z	2017-05-16T18:52:03Z	2017-05-16T18:52:03Z	Arguments list for the http upgrade event does not match example	40		
 13052	96947	false	open	false	0		2017-05-16T13:06:39Z	2017-05-16T13:06:39Z		tracking issue: full VS2017 support	47		
 13053	275871	true	open	false	2		2017-05-16T13:50:38Z	2017-05-16T17:46:21Z		src: check if --icu-data-dir= points to valid dir	152		
 13054	115237	true	open	false	4		2017-05-16T15:29:43Z	2017-05-16T17:04:02Z		(v6.x backport) doc types fixes	13		
-13055	718899	false	open	false	5		2017-05-16T15:34:12Z	2017-05-16T16:20:12Z		Investigate flaky sequential/test-net-connect-local-error on FreeBSD	139		
+13055	718899	false	open	false	6		2017-05-16T15:34:12Z	2017-05-16T18:17:45Z		Investigate flaky sequential/test-net-connect-local-error on FreeBSD	139		
 13056	10393198	true	open	false	3		2017-05-16T16:03:52Z	2017-05-16T17:06:40Z		(v6.x backport) tools: use no-useless-concat ESLint rule	41		
 13057	26300178	false	open	false	0		2017-05-16T17:15:26Z	2017-05-16T17:15:26Z		Number(decimal).toString(36) bug	68		
 13058	718899	true	open	false	0	0	2017-05-16T17:44:55Z	2017-05-16T17:44:55Z		test: refactor test-dns-regress-6244.js	52		
+13059	498775	true	open	false	0	0	2017-05-16T18:07:50Z	2017-05-16T18:07:50Z		v6.11.0 proposal	1518		
