@@ -277,7 +277,7 @@
 4531	1372431	false	open	false	2		2016-01-04T19:11:53Z	2016-11-05T17:52:34Z		process.config.variables.arm_version incorrect in armv7	68		
 4545	6376965	false	closed	false	13		2016-01-06T00:59:50Z	2016-11-04T17:34:09Z	2016-01-18T15:01:02Z	DNS lookup failure dns.js:82	174		
 4550	327019	true	closed	false	28	1	2016-01-06T05:24:16Z	2016-10-28T16:38:00Z	2016-10-28T16:38:00Z	module: deprecate require('module').Module	5		
-4560	1578784	false	closed	false	8		2016-01-07T02:52:14Z	2016-09-26T08:36:38Z	2016-09-26T08:36:38Z	socket stay in ESTABLISHED status	309		
+4560	1578784	false	closed	false	8		2016-01-07T02:52:14Z	2017-05-16T21:13:56Z	2016-09-26T08:36:38Z	socket stay in ESTABLISHED status (same happened for  #1924 and #5026)	309		
 4598	2512748	true	closed	false	19		2016-01-09T01:38:11Z	2016-12-29T18:32:01Z	2016-01-27T15:11:30Z	child_process: add shell option to spawn()	41		
 4601	5688	true	closed	false	13		2016-01-09T20:16:23Z	2017-02-28T23:03:48Z	2017-02-28T23:03:48Z	doc: improve options.stdio section for child_process.spawn()	177		
 4629	1084056	true	closed	false	25	0	2016-01-11T21:36:45Z	2016-09-01T17:30:50Z	2016-09-01T17:30:50Z	test: fix `fs-watch-recursive` flakiness	47	1084056	2016-09-01T17:30:50Z
@@ -5198,7 +5198,7 @@
 11825	9822643	false	closed	false	2		2017-03-13T11:27:41Z	2017-03-13T20:08:12Z	2017-03-13T11:38:46Z	how to use async/await in node.js v7.6+?	72		
 11826	15943089	false	open	false	4		2017-03-13T11:41:02Z	2017-03-18T22:48:22Z		Fix flaky sequential/test-domain-abort-on-uncaught and move back to parallel	212		
 11827	10393198	false	closed	false	4		2017-03-13T12:27:23Z	2017-05-12T16:04:07Z	2017-05-12T16:04:07Z	Node.js 8.0 and v8 5.9	50		
-11828	782880	true	open	false	16		2017-03-13T15:10:50Z	2017-05-11T22:58:23Z		Upgrade openssl-1.1.0e for Node-v8 (DO NOT LAND THIS)	564		
+11828	782880	true	open	false	17		2017-03-13T15:10:50Z	2017-05-16T21:23:21Z		Upgrade openssl-1.1.0e for Node-v8 (DO NOT LAND THIS)	564		
 11829	5886475	true	closed	false	4		2017-03-13T15:36:24Z	2017-04-18T17:08:54Z	2017-03-15T16:10:53Z	errors: add duplicate symbol checking in E() and increase coverage	48		
 11830	9373002	false	open	false	3		2017-03-13T15:37:18Z	2017-03-13T17:52:28Z		AIX: parallel/test-cluster-inspector-debug-brk intermittent failures 	201		
 11831	6354455	true	closed	false	8	0	2017-03-13T16:03:35Z	2017-03-14T22:35:27Z	2017-03-14T22:35:27Z	7.7.3 Release Proposal	406	6354455	2017-03-14T22:35:27Z
@@ -5593,7 +5593,7 @@
 12223	1538624	true	closed	false	12		2017-04-05T00:21:13Z	2017-04-12T17:09:03Z	2017-04-12T17:09:03Z	Allow all ArrayBufferView types as Buffers	412		
 12224	10393198	true	closed	false	3		2017-04-05T01:39:23Z	2017-04-19T00:42:37Z	2017-04-08T13:06:47Z	doc: modernize and fix code examples in modules.md	58		
 12225	11139560	false	open	false	0		2017-04-05T02:04:17Z	2017-04-05T02:04:17Z		require.resolve('core-module') => bad output	115		
-12226	7834613	true	open	false	6		2017-04-05T03:09:24Z	2017-04-19T19:15:19Z		test: Skip intl-no-icu-data test when not (Intl and smallICU)	47		
+12226	7834613	true	open	false			2017-04-05T03:09:24Z	2017-05-16T21:57:34Z		test: Skip intl-no-icu-data test when not (Intl and smallICU)	47		
 12227	432351	false	closed	false	4		2017-04-05T07:20:39Z	2017-04-06T05:48:04Z	2017-04-06T05:48:04Z	Add docs for gdbinit and lldbinit	57		
 12228	5678459	false	open	false	0		2017-04-05T10:37:01Z	2017-04-05T10:37:01Z		Error when multiple instances try to listen on the same address	591		
 12229	772855	true	open	false	0	0	2017-04-05T10:50:40Z	2017-04-05T10:50:40Z		Merge pull request #1 from nodejs/master	48		
@@ -5817,7 +5817,7 @@
 12447	25159826	false	open	false	0		2017-04-16T19:36:51Z	2017-04-16T19:36:51Z		EC2 Stream yields empty buffer error” with large size images	416		
 12448	15943089	false	closed	false	4		2017-04-16T20:05:18Z	2017-05-11T12:14:04Z	2017-05-11T12:14:04Z	ninja build failure on master	744		
 12449	96947	false	closed	false	7		2017-04-16T20:21:38Z	2017-04-27T20:55:19Z	2017-04-27T20:55:19Z	docs: curate wiki back into the repo	82		
-12450	96947	true	closed	false	43		2017-04-16T20:41:11Z	2017-05-16T17:42:08Z	2017-04-18T17:32:44Z	tools: bump gyp to eb296f6	39		
+12450	96947	true	closed	false	44		2017-04-16T20:41:11Z	2017-05-16T21:29:14Z	2017-04-18T17:32:44Z	tools: bump gyp to eb296f6	39		
 12451	5329230	true	closed	false	5		2017-04-16T20:59:08Z	2017-04-18T15:18:26Z	2017-04-18T15:18:26Z	tests: remove common.PORT from shared,master,rr tests	52		
 12452	1163342	true	open	false	12		2017-04-16T21:02:55Z	2017-05-13T16:38:57Z		test:  use dynamic port in test-dgram-bind-shared-ports	74		
 12453	2309317	false	open	false	4		2017-04-16T21:54:56Z	2017-04-17T04:10:55Z		Proxies: console.log uses overridden proxy methods by default	118		
@@ -5999,7 +5999,7 @@
 12629	910691	true	closed	false	1		2017-04-24T21:20:03Z	2017-04-27T15:16:20Z	2017-04-27T15:16:20Z	test: use common.js to check platform	67		
 12630	96947	false	open	false	48		2017-04-24T21:58:33Z	2017-05-15T21:54:05Z		Uniform way to trigger debugger on first line	296		
 12631	439929	true	closed	false	6		2017-04-24T22:04:58Z	2017-04-26T20:07:58Z	2017-04-26T16:41:52Z	util: deprecate util.deprecate()	52		
-12632	96947	true	open	false	22		2017-04-24T22:31:10Z	2017-05-16T13:11:11Z		gyp: get ninja generator compatible with VS2017 (bump to a478c1ab51)	42		
+12632	96947	true	open	false	23		2017-04-24T22:31:10Z	2017-05-16T21:15:53Z		gyp: get ninja generator compatible with VS2017 (bump to a478c1ab51)	42		
 12633	9373002	true	closed	false	5		2017-04-24T23:06:50Z	2017-04-26T20:56:17Z	2017-04-26T20:56:17Z	test: test documented napi_get_value_int32 behaviour	61		
 12634	10393198	true	closed	false	3		2017-04-24T23:54:34Z	2017-04-26T23:07:56Z	2017-04-26T22:48:04Z	doc: modernize and fix code examples in readline.md	43		
 12635	10393198	false	closed	false	7		2017-04-25T01:02:35Z	2017-04-25T19:47:22Z	2017-04-25T19:47:22Z	doc, tools: doc linting does not work in CI	60		
@@ -6100,7 +6100,7 @@
 12731	96947	true	closed	false	1		2017-04-28T20:31:46Z	2017-04-30T12:50:42Z	2017-04-30T10:52:20Z	doc: Fix formatting of TOC	21		
 12732	4923335	true	closed	false	11		2017-04-28T21:48:38Z	2017-05-04T18:31:45Z	2017-05-04T18:31:45Z	test: make common.noop a getter	77		
 12733	9373002	true	closed	false	1		2017-04-28T22:14:04Z	2017-05-03T13:37:58Z	2017-05-03T13:37:58Z	src: add --napi-modules to whitelist	54		
-12734	1093990	true	open	false	48		2017-04-28T22:34:28Z	2017-05-11T01:41:06Z		lib,src: eagerly exit process on unhanded promise rejections	228		
+12734	1093990	true	open	false	49		2017-04-28T22:34:28Z	2017-05-16T21:26:19Z		lib,src: eagerly exit process on unhanded promise rejections	228		
 12735	10393198	true	closed	false	42	29	2017-04-28T22:42:15Z	2017-05-05T14:42:19Z	2017-05-05T14:42:19Z	test: reduce string concatenations	261		
 12736	718899	true	closed	false	25	5	2017-04-29T05:25:53Z	2017-05-04T00:01:36Z	2017-05-04T00:01:36Z	test: move WPT to its own testing module	93		
 12737	318622	false	open	false	1		2017-04-29T05:48:43Z	2017-04-30T00:30:10Z		fs.lstatSync doesn't handle specific Windows REPARSE POINTS	212		
@@ -6368,9 +6368,9 @@
 12999	7041980	true	closed	false	22		2017-05-12T15:47:16Z	2017-05-13T22:19:09Z	2017-05-13T22:19:09Z	test: moved dgram bind shared ports to sequential	48		
 13000	1485909	true	open	false	3		2017-05-12T17:52:52Z	2017-05-16T20:02:43Z		async_wrap,src: promise hook integration	57		
 13001	193412	false	open	false	18		2017-05-12T18:15:08Z	2017-05-15T22:50:13Z		Proposal: change deprecation policy	205		
-13002	17607	true	open	false	2		2017-05-12T19:43:44Z	2017-05-14T03:17:31Z		src: whitelist new options for NODE_OPTIONS	54		
+13002	17607	true	open	false			2017-05-12T19:43:44Z	2017-05-16T21:27:42Z		src: whitelist new options for NODE_OPTIONS	54		
 13003	96947	true	open	false	6		2017-05-12T19:49:37Z	2017-05-16T03:38:50Z		test: refactor test-net-connect-options-allowhalfopen.js	46		
-13004	17607	true	open	false	0	0	2017-05-12T19:52:32Z	2017-05-12T19:52:32Z		src: fix --abort_on_uncaught_exception arg parsing	123		
+13004	17607	true	closed	false	1	0	2017-05-12T19:52:32Z	2017-05-16T21:06:28Z	2017-05-16T21:06:28Z	src: fix --abort_on_uncaught_exception arg parsing	123	17607	2017-05-16T21:06:27Z
 13005	238531	true	open	false			2017-05-12T21:00:49Z	2017-05-15T14:11:07Z		http: overridable keep-alive behavior of `Agent`	106		
 13006	9373002	true	closed	false	2		2017-05-12T21:30:14Z	2017-05-16T00:13:47Z	2017-05-16T00:13:47Z	test: improve N-API test coverage	41		
 13007	7041980	true	open	false	1		2017-05-12T22:01:15Z	2017-05-14T04:55:01Z		test: replace port in dgram send address types test	35		
@@ -6379,10 +6379,10 @@
 13010	718899	true	open	false	0	0	2017-05-13T05:05:26Z	2017-05-13T05:05:26Z		test: track callback invocations	43		
 13011	718899	true	closed	false	4		2017-05-13T05:05:47Z	2017-05-15T03:05:12Z	2017-05-13T16:16:07Z	util,console: guard against overwritten util functions	72		
 13012	833473	true	open	false	14		2017-05-13T08:14:58Z	2017-05-16T19:12:58Z		cmd: support dash as stdin alias	329		
-13013	54666	true	open	false			2017-05-13T14:32:04Z	2017-05-16T16:44:56Z		http: improve outgoing string write performance	337		
+13013	54666	true	open	false	3		2017-05-13T14:32:04Z	2017-05-16T21:15:06Z		http: improve outgoing string write performance	337		
 13014	899444	true	open	false	4		2017-05-13T15:38:22Z	2017-05-16T00:14:36Z		n-api: remove compiler warning	35		
 13015	15943089	true	closed	false	1	2	2017-05-13T17:18:29Z	2017-05-16T09:26:03Z	2017-05-16T09:26:03Z	doc: document method for reverting commits	25		
-13016	10393198	true	closed	false	23		2017-05-13T17:27:41Z	2017-05-16T18:11:01Z	2017-05-16T18:11:01Z	test: introduce tag functions to handle long strings in code	368		
+13016	10393198	true	closed	false	24		2017-05-13T17:27:41Z	2017-05-16T21:09:50Z	2017-05-16T18:11:01Z	test: introduce tag functions to handle long strings in code	368		
 13018	1228153	false	open	false	3		2017-05-13T19:16:55Z	2017-05-14T19:19:54Z		Allocation failed - process out of memory	217		
 13019	718899	true	open	false			2017-05-14T00:05:45Z	2017-05-14T12:42:33Z		test: refactor test-net-listen-shared-ports	47		
 13020	96947	false	open	false	3		2017-05-14T13:59:01Z	2017-05-14T15:04:05Z		test: investigate flakiness of `parallal/test-async-wrap-getasyncid` (on windows)	97		
@@ -6399,7 +6399,7 @@
 13031	171239	false	open	false	2		2017-05-15T00:55:21Z	2017-05-15T04:52:42Z		napi test throws error	81		
 13032	718899	true	open	false	0	0	2017-05-15T03:41:52Z	2017-05-15T03:41:52Z		test:refactor test-https-set-timeout-server	35		
 13033	7041980	true	open	false			2017-05-15T03:47:10Z	2017-05-16T04:03:12Z		test: move net reconnect error test to sequential	49		
-13034	4299420	true	open	false	6		2017-05-15T04:56:54Z	2017-05-16T02:18:34Z		build: clean up napi build in test-addons-clean	27		
+13034	4299420	true	open	false	8		2017-05-15T04:56:54Z	2017-05-16T21:42:22Z		build: clean up napi build in test-addons-clean	27		
 13035	5500080	true	open	false			2017-05-15T05:43:29Z	2017-05-16T09:52:47Z		Changed the second parameter of assert.throws to match the errors	13		
 13036	23206577	false	closed	false	1		2017-05-15T05:57:58Z	2017-05-15T06:04:48Z	2017-05-15T06:04:48Z	Want to run nodejs on dedicated server	17		
 13037	5372618	false	open	false	0		2017-05-15T08:40:19Z	2017-05-15T09:03:38Z		Throw errors when i use async/await in Node v7.9.0	87		
@@ -6417,7 +6417,7 @@
 13049	3634726	false	open	false	0		2017-05-16T09:49:58Z	2017-05-16T09:49:58Z		Has a problem with child_process.exec.	38		
 13050	2842176	true	open	false	1		2017-05-16T10:46:16Z	2017-05-16T17:54:24Z		dns: fix crash while using dns.setServers after dns.resolve4	75		
 13051	2376199	false	closed	false	3		2017-05-16T11:38:14Z	2017-05-16T18:52:03Z	2017-05-16T18:52:03Z	Arguments list for the http upgrade event does not match example	40		
-13052	96947	false	open	false	0		2017-05-16T13:06:39Z	2017-05-16T13:06:39Z		tracking issue: full VS2017 support	47		
+13052	96947	false	open	false	2		2017-05-16T13:06:39Z	2017-05-16T21:24:42Z		tracking issue: full VS2017 support	47		
 13053	275871	true	open	false	3		2017-05-16T13:50:38Z	2017-05-16T19:09:54Z		src: check if --icu-data-dir= points to valid dir	152		
 13054	115237	true	open	false	4		2017-05-16T15:29:43Z	2017-05-16T17:04:02Z		(v6.x backport) doc types fixes	13		
 13055	718899	false	open	false	9		2017-05-16T15:34:12Z	2017-05-16T20:09:48Z		Investigate flaky sequential/test-net-connect-local-error on FreeBSD	139		
@@ -6427,6 +6427,6 @@
 13059	498775	true	open	false	0	0	2017-05-16T18:07:50Z	2017-05-16T18:07:50Z		v6.11.0 proposal	1518		
 13060	718899	true	open	false	0	0	2017-05-16T19:15:50Z	2017-05-16T19:15:50Z		(v6.x backport) test: enable setuid/setgid test	81		
 13061	718899	false	open	false	0		2017-05-16T19:32:00Z	2017-05-16T19:32:00Z		Run the `internet` tests on CI from time to time?	37		
-13062	96947	true	open	false	0	0	2017-05-16T20:09:51Z	2017-05-16T20:09:51Z		test: improve net-immediate-finish-test	61		
+13062	96947	true	open	false	2		2017-05-16T20:09:51Z	2017-05-16T21:33:57Z		test: improve net-immediate-finish-test	74		
 13063	17607	true	open	false	0	0	2017-05-16T20:22:40Z	2017-05-16T20:22:40Z		src: use a std::vector for preload_modules	79		
 13064	15608388	true	open	false	0	0	2017-05-16T20:41:25Z	2017-05-16T20:41:25Z		test: fix sequential test-net-connect-local-error	45		
