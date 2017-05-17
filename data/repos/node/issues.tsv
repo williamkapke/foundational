@@ -3,7 +3,7 @@
 89	37303	false	closed	false	65		2014-12-05T19:23:16Z	2017-01-16T21:57:59Z	2015-02-04T03:59:32Z	Streams pain points	277		
 256	1315533	false	closed	false	27		2015-01-08T07:50:35Z	2016-07-31T16:41:49Z	2015-02-25T00:30:11Z	Consider exposing promise unhandled rejection hook	243		
 428	321966	false	closed	false	53		2015-01-14T21:56:04Z	2017-02-17T08:06:06Z	2016-10-21T16:07:08Z	plans on incorporating LibreSSL	35		
-445	2993861	false	open	false	23		2015-01-15T16:18:56Z	2017-05-09T12:19:42Z		Cleanup `_writableState` and `_readableState` access across codebase	586		
+445	2993861	false	open	false	24		2015-01-15T16:18:56Z	2017-05-17T15:24:12Z		Cleanup `_writableState` and `_readableState` access across codebase	586		
 498	493139	false	open	false	8		2015-01-18T19:42:03Z	2017-04-22T20:23:25Z		`os.networkInterfaces` does not list all interfaces. 	169		
 540	555645	true	closed	false	33		2015-01-21T16:22:26Z	2017-04-22T05:00:45Z	2015-01-28T03:49:14Z	events: Alias EventEmitter.protoype.removeListener as EventEmitter.prototype.off 	95		
 548	1522145	false	closed	false	26		2015-01-22T03:48:27Z	2017-01-26T21:48:27Z	2017-01-26T21:48:27Z	Function redefinition in vm.runInContext	44		
@@ -5632,7 +5632,7 @@
 12260	896560	false	open	false	0		2017-04-06T14:55:52Z	2017-04-06T14:55:52Z		Windows 10, infinite loop running NPM	39		
 12261	718899	true	open	false	5		2017-04-06T16:29:33Z	2017-04-06T17:06:55Z		test: skip irrelevant test on Windows	31		
 12262	567540	true	closed	false	0		2017-04-06T16:50:36Z	2017-04-09T18:49:24Z	2017-04-09T18:49:24Z	test: Update information on known_issues	52		
-12263	287917	true	open	false	26		2017-04-06T17:27:30Z	2017-05-16T19:15:50Z		inspector: JavaScript bindings for the inspector	98		
+12263	287917	true	open	false	28		2017-04-06T17:27:30Z	2017-05-17T15:49:30Z		inspector: JavaScript bindings for the inspector	98		
 12264	17607	false	open	false	0		2017-04-06T20:22:01Z	2017-04-06T20:22:01Z		node aborts with --debug when it self-exits	186		
 12265	4044581	true	closed	false	1		2017-04-07T05:32:44Z	2017-04-10T22:17:13Z	2017-04-10T13:59:37Z	test: check curve algorithm is supported	52		
 12266	432351	true	closed	false	8		2017-04-07T06:54:58Z	2017-04-11T06:43:59Z	2017-04-10T05:23:12Z	src: only block SIGUSR1 when HAVE_INSPECTOR	112		
@@ -6293,7 +6293,7 @@
 12922	899444	true	closed	false	0		2017-05-09T15:09:45Z	2017-05-16T04:36:57Z	2017-05-16T04:36:57Z	v6.x: async_wrap: close the destroy_ids_idle_handle_	41		
 12923	170197	false	closed	false	5		2017-05-09T16:52:48Z	2017-05-10T14:12:02Z	2017-05-10T05:33:20Z	inconsistent URLSearchParams encoding	25		
 12924	196729	true	closed	false	0		2017-05-09T17:37:14Z	2017-05-09T18:18:20Z	2017-05-09T18:18:20Z	doc: fix typo in streams.md	36		
-12925	52195	true	open	false	18		2017-05-09T17:39:18Z	2017-05-17T14:33:56Z		stream: add destroy and _destroy methods.	82		
+12925	52195	true	open	false	19		2017-05-09T17:39:18Z	2017-05-17T15:14:34Z		stream: add destroy and _destroy methods.	82		
 12926	9373002	true	open	false			2017-05-09T18:32:44Z	2017-05-12T13:23:51Z		dgram: convert to using internal/errors	126		
 12927	2512748	true	closed	false	2	2	2017-05-09T18:33:55Z	2017-05-11T19:28:53Z	2017-05-11T19:28:53Z	https: support agent construction without new	34	2512748	2017-05-11T19:28:53Z
 12928	3286504	false	closed	false	0		2017-05-09T18:36:24Z	2017-05-12T12:23:31Z	2017-05-12T09:21:34Z	Doc link broken	24		
@@ -6321,7 +6321,7 @@
 12950	96947	false	closed	false	13		2017-05-10T19:45:45Z	2017-05-16T03:04:19Z	2017-05-16T03:04:19Z	test: flaky parallel/test-net-connect-local-error on macOS & freeBSD	54		
 12951	96947	false	closed	false	2		2017-05-10T19:47:21Z	2017-05-15T22:43:30Z	2017-05-15T22:43:30Z	test: flaky parallel/test-net-connect-options-allowhalfopen on macOS & freeBSD	497		
 12952	1665373	false	open	false	0		2017-05-10T19:49:10Z	2017-05-10T20:19:15Z		OpenSSL have collisions in node.dll	36		
-12953	192891	true	open	false			2017-05-10T21:17:36Z	2017-05-17T11:42:01Z		docs: documenting async hooks features	70		
+12953	192891	true	open	false	1		2017-05-10T21:17:36Z	2017-05-17T15:18:43Z		docs: documenting async hooks features	70		
 12954	298166	true	closed	false	7	0	2017-05-10T21:51:42Z	2017-05-12T20:47:48Z	2017-05-12T20:47:48Z	test: fix wording for presence of headers	49		
 12955	8503065	false	closed	false	5		2017-05-11T01:12:23Z	2017-05-12T14:20:52Z	2017-05-12T14:20:52Z	when will Node.js' Webassembly API be synchronized with the browser?	39		
 12956	127971	false	open	false	13		2017-05-11T01:29:04Z	2017-05-11T18:29:40Z		Don't use userobject.call/userobject.apply	58		
@@ -6369,7 +6369,7 @@
 12998	439929	true	closed	false	2	0	2017-05-12T15:39:30Z	2017-05-15T15:31:24Z	2017-05-15T15:31:24Z	util: fixup internal util exports	43		
 12999	7041980	true	closed	false	22		2017-05-12T15:47:16Z	2017-05-13T22:19:09Z	2017-05-13T22:19:09Z	test: moved dgram bind shared ports to sequential	48		
 13000	1485909	true	open	false	3		2017-05-12T17:52:52Z	2017-05-16T20:02:43Z		async_wrap,src: promise hook integration	57		
-13001	193412	false	open	false	18		2017-05-12T18:15:08Z	2017-05-15T22:50:13Z		Proposal: change deprecation policy	205		
+13001	193412	false	open	false	19		2017-05-12T18:15:08Z	2017-05-17T15:40:15Z		Proposal: change deprecation policy	205		
 13002	17607	true	open	false			2017-05-12T19:43:44Z	2017-05-16T21:27:42Z		src: whitelist new options for NODE_OPTIONS	54		
 13003	96947	true	open	false	6		2017-05-12T19:49:37Z	2017-05-16T03:38:50Z		test: refactor test-net-connect-options-allowhalfopen.js	46		
 13004	17607	true	closed	false	1	0	2017-05-12T19:52:32Z	2017-05-16T21:06:28Z	2017-05-16T21:06:28Z	src: fix --abort_on_uncaught_exception arg parsing	123	17607	2017-05-16T21:06:27Z
@@ -6378,9 +6378,9 @@
 13007	7041980	true	open	false	1		2017-05-12T22:01:15Z	2017-05-14T04:55:01Z		test: replace port in dgram send address types test	35		
 13008	12181444	false	closed	false	2		2017-05-13T02:32:15Z	2017-05-13T09:59:42Z	2017-05-13T09:59:42Z	CDP(async function(client) { ^^^^^ SyntaxError: missing ) after argument list at Object.exports.runInThisContext (vm.js:78:16) at Module._compile (module.js:543:28) a	21		
 13009	718899	true	closed	false	2	0	2017-05-13T05:04:38Z	2017-05-17T04:39:23Z	2017-05-17T04:39:23Z	benchmark: remove redundant timers benchmark	43		
-13010	718899	true	open	false	1		2017-05-13T05:05:26Z	2017-05-17T04:41:47Z		test: track callback invocations	43		
+13010	718899	true	open	false	2		2017-05-13T05:05:26Z	2017-05-17T15:34:29Z		test: track callback invocations	43		
 13011	718899	true	closed	false	4		2017-05-13T05:05:47Z	2017-05-15T03:05:12Z	2017-05-13T16:16:07Z	util,console: guard against overwritten util functions	72		
-13012	833473	true	open	false	15		2017-05-13T08:14:58Z	2017-05-17T14:53:29Z		cmd: support dash as stdin alias	329		
+13012	833473	true	open	false			2017-05-13T08:14:58Z	2017-05-17T15:01:50Z		cmd: support dash as stdin alias	329		
 13013	54666	true	open	false	3		2017-05-13T14:32:04Z	2017-05-16T21:15:06Z		http: improve outgoing string write performance	337		
 13014	899444	true	open	false	4		2017-05-13T15:38:22Z	2017-05-16T00:14:36Z		n-api: remove compiler warning	35		
 13015	15943089	true	closed	false	1	2	2017-05-13T17:18:29Z	2017-05-16T09:26:03Z	2017-05-16T09:26:03Z	doc: document method for reverting commits	25		
@@ -6401,7 +6401,7 @@
 13031	171239	false	open	false	2		2017-05-15T00:55:21Z	2017-05-15T04:52:42Z		napi test throws error	81		
 13032	718899	true	open	false	0	0	2017-05-15T03:41:52Z	2017-05-15T03:41:52Z		test:refactor test-https-set-timeout-server	35		
 13033	7041980	true	open	false			2017-05-15T03:47:10Z	2017-05-16T04:03:12Z		test: move net reconnect error test to sequential	49		
-13034	4299420	true	open	false	8		2017-05-15T04:56:54Z	2017-05-16T21:42:22Z		build: clean up napi build in test-addons-clean	27		
+13034	4299420	true	closed	false	10		2017-05-15T04:56:54Z	2017-05-17T15:09:41Z	2017-05-17T15:09:41Z	build: clean up napi build in test-addons-clean	27		
 13035	5500080	true	open	false			2017-05-15T05:43:29Z	2017-05-16T09:52:47Z		Changed the second parameter of assert.throws to match the errors	13		
 13036	23206577	false	closed	false	1		2017-05-15T05:57:58Z	2017-05-15T06:04:48Z	2017-05-15T06:04:48Z	Want to run nodejs on dedicated server	17		
 13037	5372618	false	open	false	0		2017-05-15T08:40:19Z	2017-05-15T09:03:38Z		Throw errors when i use async/await in Node v7.9.0	87		
@@ -6411,13 +6411,13 @@
 13041	432351	true	open	false	1		2017-05-15T18:48:23Z	2017-05-17T10:49:37Z		test: add hasCrypto to tls-wrap-event-emmiter	67		
 13042	432351	true	closed	false	2		2017-05-15T18:52:52Z	2017-05-17T10:42:56Z	2017-05-17T10:42:56Z	build: don't print directory for GNUMake	101		
 13043	96947	false	open	false	1		2017-05-15T21:41:47Z	2017-05-16T13:50:55Z		bootstrap: bootstrap should fail if ICU is misconfigured	72		
-13044	9373002	true	open	false	0	0	2017-05-16T00:26:23Z	2017-05-16T00:26:23Z		test: Improve N-API test coverage	132		
+13044	9373002	true	open	false	1		2017-05-16T00:26:23Z	2017-05-17T15:14:20Z		test: Improve N-API test coverage	132		
 13045	54666	false	open	false	3		2017-05-16T02:16:01Z	2017-05-17T11:43:29Z		test-npm failing on master after introduction of initial async hooks implementation	105		
 13046	718899	true	open	false	1		2017-05-16T02:50:25Z	2017-05-16T17:30:18Z		(v6.x backport) buffer,util: refactor for performance	81		
 13047	432351	true	open	false	0	0	2017-05-16T03:42:24Z	2017-05-16T03:42:24Z		test: add hasCrypto to tls-lookup	67		
 13048	21603	false	open	false	0		2017-05-16T08:55:22Z	2017-05-16T08:55:22Z		Major performance regression from 6.10.2 to 7.x and 8.0.0-test	428		
 13049	3634726	false	closed	false	2		2017-05-16T09:49:58Z	2017-05-17T08:41:35Z	2017-05-17T08:41:35Z	Has a problem with child_process.exec.	38		
-13050	2842176	true	open	false			2017-05-16T10:46:16Z	2017-05-17T14:06:17Z		dns: fix crash while using dns.setServers after dns.resolve4	158		
+13050	2842176	true	open	false	15		2017-05-16T10:46:16Z	2017-05-17T15:05:12Z		dns: fix crash while using dns.setServers after dns.resolve4	158		
 13051	2376199	false	closed	false	3		2017-05-16T11:38:14Z	2017-05-16T18:52:03Z	2017-05-16T18:52:03Z	Arguments list for the http upgrade event does not match example	40		
 13052	96947	false	open	false	2		2017-05-16T13:06:39Z	2017-05-16T21:24:42Z		tracking issue: full VS2017 support	47		
 13053	275871	true	open	false			2017-05-16T13:50:38Z	2017-05-17T12:15:09Z		src: check if --icu-data-dir= points to valid dir	152		
@@ -6431,7 +6431,7 @@
 13061	718899	false	open	false	0		2017-05-16T19:32:00Z	2017-05-16T19:32:00Z		Run the `internet` tests on CI from time to time?	37		
 13062	96947	true	open	false	6		2017-05-16T20:09:51Z	2017-05-16T23:06:23Z		test: improve net-immediate-finish-test	76		
 13063	17607	true	open	false	0		2017-05-16T20:22:40Z	2017-05-16T22:54:48Z		(7.x backport) src: use a std::vector for preload_modules	84		
-13064	15608388	true	open	false	2		2017-05-16T20:41:25Z	2017-05-17T12:22:08Z		test: fix sequential test-net-connect-local-error	45		
+13064	15608388	true	open	false	3		2017-05-16T20:41:25Z	2017-05-17T15:37:28Z		test: fix sequential test-net-connect-local-error	45		
 13065	3109072	true	open	false			2017-05-16T22:36:07Z	2017-05-17T06:59:21Z		stream: check type and range of highWaterMark	52		
 13066	1716463	true	open	false			2017-05-16T22:38:41Z	2017-05-16T23:53:28Z		doc: remove unused/duplicated reference links	81		
 13067	9373002	true	open	false	0		2017-05-16T22:58:37Z	2017-05-17T00:04:11Z		"doc: update doc to remove usage of ""you"""	47		
@@ -6443,9 +6443,10 @@
 13073	115237	true	open	false	0	0	2017-05-17T05:44:14Z	2017-05-17T05:44:14Z		(v6.x backport) #9532	7		
 13074	128856	true	open	false	0	0	2017-05-17T07:02:05Z	2017-05-17T07:02:05Z		vm: fix race condition with `timeout` param	183		
 13075	16603080	false	open	false	3		2017-05-17T07:29:11Z	2017-05-17T09:14:14Z		/usr/bin/node[14405]: ../src/node_http_parser.cc:398:static void node::Parser::Execute(const v8::FunctionCallbackInfo<v8::Value>&): Assertion `(parser->current_buffer_len_) == (0)' failed.	76		
-13076	2842176	true	open	false	0	0	2017-05-17T09:37:17Z	2017-05-17T09:37:17Z		dns: fix `resolve` failed starts without network	148		
+13076	2842176	true	open	false	0		2017-05-17T09:37:17Z	2017-05-17T15:43:31Z		dns: fix `resolve` failed starts without network	353		
 13077	27954280	false	open	false	0		2017-05-17T10:28:07Z	2017-05-17T10:28:07Z		events.js:163 throw er; // Unhandled 'error' event	186		
 13078	432351	true	open	false	1		2017-05-17T11:24:09Z	2017-05-17T12:06:47Z		build: don't link node.dll for cctest target	193		
 13079	5540988	false	closed	false	0		2017-05-17T11:57:43Z	2017-05-17T12:26:03Z	2017-05-17T12:26:03Z	Is it any possible for Video compression using by nodejs? 	26		
 13080	275871	true	open	false	0		2017-05-17T12:58:10Z	2017-05-17T14:55:10Z		v8: fix stack overflow in recursive method (v4.x)	44		
 13081	432351	true	open	false	0	0	2017-05-17T13:27:43Z	2017-05-17T13:27:43Z		src: remove unnecessary forward declaration	51		
+13082	1443911	false	open	false	0		2017-05-17T15:36:44Z	2017-05-17T15:36:44Z		zlib assertion error	683		
