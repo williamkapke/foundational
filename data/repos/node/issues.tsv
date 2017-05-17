@@ -36,6 +36,7 @@
 1013	176984	false	closed	false	45		2015-03-01T10:58:11Z	2016-10-17T07:18:56Z	2016-04-04T01:52:33Z	Replace deps/cares with pure-javascript alternative	207		
 1041	443639	false	open	false	11		2015-03-03T12:02:28Z	2016-12-09T07:17:52Z		Stream not emitting data event after pipe+unpipe	51		
 1043	9287	false	closed	false	35		2015-03-03T17:40:37Z	2017-01-28T10:31:17Z	2015-03-12T18:13:55Z	Proposal: global.window = global	93		
+1071	115237	false	open	false	12		2015-03-05T14:43:01Z	2017-05-17T03:00:52Z		`dns.setServers` doesn't play well with async code	99		
 1081	5675531	false	closed	false	9		2015-03-06T14:21:17Z	2017-03-24T23:30:04Z	2017-03-24T23:30:04Z	Are custom http verbs supported by io.js yet?	21		
 1127	509651	false	closed	false	14		2015-03-11T20:57:31Z	2017-04-01T11:31:39Z	2017-04-01T11:31:39Z	crypto: sign/verify support for RSASSA-PSS	72		
 1128	36662	false	open	false	17		2015-03-11T22:48:11Z	2017-04-14T14:04:36Z		feature request: a way to inspect what's in the event loop	138		
@@ -6415,7 +6416,7 @@
 13047	432351	true	open	false	0	0	2017-05-16T03:42:24Z	2017-05-16T03:42:24Z		test: add hasCrypto to tls-lookup	67		
 13048	21603	false	open	false	0		2017-05-16T08:55:22Z	2017-05-16T08:55:22Z		Major performance regression from 6.10.2 to 7.x and 8.0.0-test	428		
 13049	3634726	false	open	false	1		2017-05-16T09:49:58Z	2017-05-17T01:31:41Z		Has a problem with child_process.exec.	38		
-13050	2842176	true	open	false	1		2017-05-16T10:46:16Z	2017-05-16T17:54:24Z		dns: fix crash while using dns.setServers after dns.resolve4	75		
+13050	2842176	true	open	false	2		2017-05-16T10:46:16Z	2017-05-17T02:48:32Z		dns: fix crash while using dns.setServers after dns.resolve4	75		
 13051	2376199	false	closed	false	3		2017-05-16T11:38:14Z	2017-05-16T18:52:03Z	2017-05-16T18:52:03Z	Arguments list for the http upgrade event does not match example	40		
 13052	96947	false	open	false	2		2017-05-16T13:06:39Z	2017-05-16T21:24:42Z		tracking issue: full VS2017 support	47		
 13053	275871	true	open	false	3		2017-05-16T13:50:38Z	2017-05-16T19:09:54Z		src: check if --icu-data-dir= points to valid dir	152		
@@ -6434,5 +6435,5 @@
 13066	1716463	true	open	false			2017-05-16T22:38:41Z	2017-05-16T23:53:28Z		doc: remove unused/duplicated reference links	81		
 13067	9373002	true	open	false	0		2017-05-16T22:58:37Z	2017-05-17T00:04:11Z		"doc: update doc to remove usage of ""you"""	47		
 13068	4421720	true	open	false	0	0	2017-05-16T23:07:56Z	2017-05-16T23:07:56Z		src, async_hooks: add triggerId param to before async_hook	122		
-13069	2512748	true	open	false			2017-05-16T23:44:40Z	2017-05-17T01:10:27Z		net: handle normalized args in normalizeArgs()	68		
-13070	9373002	false	open	false	0		2017-05-17T01:23:04Z	2017-05-17T01:23:04Z		AIX: fs-watch backport issues	33		
+13069	2512748	true	open	false			2017-05-16T23:44:40Z	2017-05-17T02:33:11Z		net: handle normalized args in normalizeArgs()	68		
+13070	9373002	false	open	false	0		2017-05-17T01:23:04Z	2017-05-17T02:11:57Z		AIX: fs-watch backport issues	79		
