@@ -280,7 +280,7 @@
 4531	1372431	false	open	false	2		2016-01-04T19:11:53Z	2016-11-05T17:52:34Z		process.config.variables.arm_version incorrect in armv7	68		
 4545	6376965	false	closed	false	13		2016-01-06T00:59:50Z	2016-11-04T17:34:09Z	2016-01-18T15:01:02Z	DNS lookup failure dns.js:82	174		
 4550	327019	true	closed	false	28	1	2016-01-06T05:24:16Z	2016-10-28T16:38:00Z	2016-10-28T16:38:00Z	module: deprecate require('module').Module	5		
-4560	1578784	false	closed	false	10		2016-01-07T02:52:14Z	2017-05-17T13:16:21Z	2016-09-26T08:36:38Z	socket stay in ESTABLISHED status (same happened for  #1924 and #5026)	309		
+4560	1578784	false	closed	false	11		2016-01-07T02:52:14Z	2017-05-17T21:13:26Z	2016-09-26T08:36:38Z	socket stay in ESTABLISHED status (same happened for  #1924 and #5026)	309		
 4598	2512748	true	closed	false	19		2016-01-09T01:38:11Z	2016-12-29T18:32:01Z	2016-01-27T15:11:30Z	child_process: add shell option to spawn()	41		
 4601	5688	true	closed	false	13		2016-01-09T20:16:23Z	2017-02-28T23:03:48Z	2017-02-28T23:03:48Z	doc: improve options.stdio section for child_process.spawn()	177		
 4629	1084056	true	closed	false	25	0	2016-01-11T21:36:45Z	2016-09-01T17:30:50Z	2016-09-01T17:30:50Z	test: fix `fs-watch-recursive` flakiness	47	1084056	2016-09-01T17:30:50Z
@@ -4468,7 +4468,7 @@
 11091	4532328	false	closed	false	10		2017-01-31T22:35:17Z	2017-02-28T10:49:15Z	2017-02-20T16:05:09Z	SIGSEGV on closure / stack heavy program	52		
 11092	4299420	true	closed	false	7		2017-01-31T23:51:35Z	2017-03-07T19:15:49Z	2017-02-06T03:26:05Z	benchmark: add assert.deep[Strict]Equal benchmarks	49		
 11093	4299420	false	closed	false	8		2017-02-01T00:42:03Z	2017-02-21T23:11:31Z	2017-02-21T23:11:31Z	url, querystring: web platform tests broken by WHATWG URL implementation	170		
-11094	2512748	true	closed	false	13		2017-02-01T01:08:50Z	2017-05-17T19:48:44Z	2017-02-09T18:15:16Z	deps: upgrade libuv to 1.11.0	25		
+11094	2512748	true	closed	false	15		2017-02-01T01:08:50Z	2017-05-17T21:42:57Z	2017-02-09T18:15:16Z	deps: upgrade libuv to 1.11.0	25		
 11095	1587053	true	closed	false	16		2017-02-01T04:58:43Z	2017-03-08T02:30:37Z	2017-02-13T21:57:54Z	test: skip when openssl CLI doesn't exist	35		
 11096	1189785	true	open	false	7		2017-02-01T05:31:03Z	2017-03-27T20:37:14Z		test: refactor test-fs-error-messages.js	73		
 11097	11139560	false	open	false	0		2017-02-01T07:03:38Z	2017-02-01T07:03:38Z		potential bug in dgram module	117		
@@ -5214,7 +5214,7 @@
 11838	2571951	true	closed	false	1	0	2017-03-14T08:17:15Z	2017-03-14T12:01:33Z	2017-03-14T12:01:33Z	doc: add missing link to v7.7.2 in changelog	12		
 11839	7412888	false	open	false	0		2017-03-14T08:31:14Z	2017-03-14T08:31:14Z		Questions about HTTP and HTTPS modules	69		
 11840	3370345	true	closed	false	8		2017-03-14T09:16:54Z	2017-04-18T17:15:07Z	2017-03-16T22:26:34Z	doc: gcc version is at least 4.8.5 at BUILDING.md	86		
-11841	9331480	true	closed	false	7		2017-03-14T13:00:49Z	2017-05-17T13:36:05Z	2017-05-15T12:04:08Z	debugger: fix debugger failure when passing commands with non-latin symbols	90		
+11841	9331480	true	closed	false	8		2017-03-14T13:00:49Z	2017-05-17T21:08:48Z	2017-05-15T12:04:08Z	debugger: fix debugger failure when passing commands with non-latin symbols	90		
 11842	2291463	false	open	false	8		2017-03-14T14:02:32Z	2017-04-14T16:24:27Z		vm.Script could be used to hide the source by shipping only bytecode.	356		
 11843	7765625	false	open	false	0		2017-03-14T14:14:51Z	2017-03-14T14:14:51Z		RPM repository with wrong packages	209		
 11844	21334341	false	open	false	0		2017-03-14T14:41:19Z	2017-03-14T14:41:19Z		HMAC Signature doesn't match x-hub-signature from github	101		
@@ -6349,7 +6349,7 @@
 12977	903597	false	open	false	0		2017-05-11T16:04:04Z	2017-05-11T16:04:04Z		v7.10.0 docs include N-API but N-API isn't part of 7.10.0	19		
 12978	15943089	true	open	false			2017-05-11T16:19:30Z	2017-05-11T22:37:45Z		doc,build: update configure help messages	41		
 12979	15943089	false	closed	false	7		2017-05-11T16:58:38Z	2017-05-16T09:30:26Z	2017-05-16T09:30:26Z	Agree on commit reverting strategy	77		
-12980	195826	false	open	false	3		2017-05-11T17:08:39Z	2017-05-12T08:48:12Z		consider implementing v8::Platform on top of libuv instead of using the default platform	149		
+12980	195826	false	open	false	4		2017-05-11T17:08:39Z	2017-05-17T21:36:37Z		consider implementing v8::Platform on top of libuv instead of using the default platform	149		
 12981	96947	true	open	false			2017-05-11T18:26:01Z	2017-05-12T15:06:19Z		lib: save a reference to intrinsic constructs	47		
 12982	439929	true	open	false	3		2017-05-11T20:42:30Z	2017-05-16T14:54:41Z		promises: improve unhandledrejection warnings	120		
 12983	54666	true	open	false			2017-05-11T22:08:19Z	2017-05-16T03:53:11Z		http,https: avoid instanceof for WHATWG URL	79		
@@ -6369,7 +6369,7 @@
 12997	96947	false	open	false	0		2017-05-12T14:55:33Z	2017-05-17T14:04:57Z		test: investigate async-hooks/test-tcpwrap for flakiness on Linux	64		
 12998	439929	true	closed	false	2	0	2017-05-12T15:39:30Z	2017-05-15T15:31:24Z	2017-05-15T15:31:24Z	util: fixup internal util exports	43		
 12999	7041980	true	closed	false	22		2017-05-12T15:47:16Z	2017-05-13T22:19:09Z	2017-05-13T22:19:09Z	test: moved dgram bind shared ports to sequential	48		
-13000	1485909	true	open	false			2017-05-12T17:52:52Z	2017-05-17T19:20:30Z		async_wrap,src: promise hook integration	57		
+13000	1485909	true	open	false			2017-05-12T17:52:52Z	2017-05-17T21:45:52Z		async_wrap,src: promise hook integration	57		
 13001	193412	false	open	false	21		2017-05-12T18:15:08Z	2017-05-17T18:53:15Z		Proposal: change deprecation policy	205		
 13002	17607	true	open	false	7		2017-05-12T19:43:44Z	2017-05-17T19:36:51Z		src: whitelist new options for NODE_OPTIONS	54		
 13003	96947	true	open	false	6		2017-05-12T19:49:37Z	2017-05-16T03:38:50Z		test: refactor test-net-connect-options-allowhalfopen.js	46		
@@ -6452,3 +6452,6 @@
 13081	432351	true	open	false	0	0	2017-05-17T13:27:43Z	2017-05-17T13:27:43Z		src: remove unnecessary forward declaration	51		
 13082	1443911	false	open	false	0		2017-05-17T15:36:44Z	2017-05-17T19:33:02Z		zlib assertion error	683		
 13083	28763768	false	open	false	0		2017-05-17T20:26:10Z	2017-05-17T20:26:10Z		mam i ja	6		
+13084	9373002	true	open	false	0	0	2017-05-17T21:25:39Z	2017-05-17T21:25:39Z		doc: add reference to node_api.h in docs	53		
+13085	54666	true	open	false	0	0	2017-05-17T21:34:53Z	2017-05-17T21:34:53Z		src: remove unused parameter	26		
+13086	9373002	true	open	false	0	0	2017-05-17T21:48:21Z	2017-05-17T21:48:21Z		doc: add additional useful ci job to list	32		
