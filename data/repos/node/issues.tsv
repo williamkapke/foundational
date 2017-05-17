@@ -69,7 +69,7 @@
 1878	17607	true	closed	false	7	3	2015-06-03T05:25:47Z	2017-01-03T21:45:04Z	2017-01-03T21:45:04Z	util: treat all args identically in absence of a format	105		
 1917	327019	true	closed	false	17		2015-06-08T13:55:41Z	2017-04-14T21:52:24Z	2017-04-14T21:52:24Z	test: add unicode test case for exec	26		
 1924	474017	false	closed	false	18		2015-06-09T14:12:21Z	2017-01-25T17:35:43Z	2016-09-26T09:04:21Z	Not closing all connections.	188		
-1941	9287	false	closed	false	35		2015-06-10T19:01:17Z	2017-05-17T07:16:06Z	2015-07-01T18:55:20Z	Handling EMFILE/ENFILE on fs.open	562		
+1941	9287	false	closed	false	36		2015-06-10T19:01:17Z	2017-05-17T12:27:18Z	2015-07-01T18:55:20Z	Handling EMFILE/ENFILE on fs.open	562		
 1999	2128182	false	open	false	6		2015-06-17T08:54:39Z	2017-04-17T18:21:59Z		Improve Path.parse / Path.format combo	210		
 2021	10974	false	closed	false	8		2015-06-19T17:41:40Z	2017-05-15T17:08:02Z	2015-10-29T22:48:22Z	Win: Request to officially build node.dll with releases	360		
 2025	696611	true	closed	false	6		2015-06-20T20:27:17Z	2016-08-29T23:49:08Z	2015-06-21T03:19:14Z	util: moving internal helpers to internal module	35		
@@ -5329,7 +5329,7 @@
 11954	374012	false	closed	false	0		2017-03-21T04:43:25Z	2017-03-27T00:09:11Z	2017-03-27T00:09:11Z	Buffer::Length hard crashes	106		
 11955	14886044	false	open	false	0		2017-03-21T05:27:32Z	2017-03-21T05:27:32Z		createWriteStream and createReadStream  not working properly with Socket	85		
 11956	432351	true	closed	false	6		2017-03-21T09:02:12Z	2017-05-13T03:42:14Z	2017-03-24T15:31:35Z	build: enable cctest to use generated objects	319		
-11957	52195	true	open	false	26		2017-03-21T09:11:49Z	2017-05-17T10:23:44Z		stream: move prefixed files into internal/streams.	62		
+11957	52195	true	open	false	27		2017-03-21T09:11:49Z	2017-05-17T12:50:16Z		stream: move prefixed files into internal/streams.	62		
 11958	275871	true	closed	false	6		2017-03-21T10:50:56Z	2017-04-18T22:41:09Z	2017-03-24T16:26:32Z	lib: fix event race condition with -e	86		
 11959	20812784	false	open	false	0		2017-03-21T11:46:34Z	2017-03-21T12:13:57Z		Overclocked AMD causes NPM to respond Assertion failed: new_time >= loop->time ...	64		
 11960	880513	false	closed	false	8		2017-03-21T12:41:56Z	2017-03-25T08:46:13Z	2017-03-25T08:46:13Z	In async function, returns a value in try block will before await statement in finally block	48		
@@ -5829,7 +5829,7 @@
 12457	15608388	true	closed	false	3	2	2017-04-17T06:00:14Z	2017-04-19T17:35:57Z	2017-04-19T17:35:57Z	tests: remove common.PORT from cluster-worker-disconnect-on-error	51		
 12458	25947346	false	closed	false	4		2017-04-17T06:42:05Z	2017-04-17T10:28:24Z	2017-04-17T10:28:24Z	Reg : Problem in receiving output using stdout through application	220		
 12459	2908639	true	open	false	2		2017-04-17T06:55:12Z	2017-04-18T04:47:55Z		(v6.x backport) events,test: fix TypeError in EventEmitter warning	52		
-12460	275871	true	closed	false	7		2017-04-17T10:48:29Z	2017-05-16T17:35:03Z	2017-04-21T08:50:39Z	v8: fix stack overflow in recursive method 	100		
+12460	275871	true	closed	false	8		2017-04-17T10:48:29Z	2017-05-17T12:58:55Z	2017-04-21T08:50:39Z	v8: fix stack overflow in recursive method 	100		
 12461	12673605	true	closed	false	3		2017-04-17T12:01:59Z	2017-04-19T18:04:55Z	2017-04-19T17:31:38Z	tests: remove common.PORT from client abort	64		
 12462	19707848	false	open	false	0		2017-04-17T12:17:29Z	2017-04-17T13:55:39Z		Node JS nodejs-aes256 Decrypting which is Encrypted in Ruby with AESCrypt	362		
 12463	6023090	false	closed	false	0		2017-04-17T12:26:07Z	2017-04-19T17:28:44Z	2017-04-19T17:28:44Z	process:Why http_parser version do not display?	48		
@@ -5915,9 +5915,9 @@
 12543	275871	true	closed	false	0		2017-04-20T15:24:13Z	2017-04-24T17:31:06Z	2017-04-24T17:31:06Z	v8: update v8 patch version number	10		
 12544	1774305	true	closed	false	8	1	2017-04-20T16:31:06Z	2017-04-24T20:48:24Z	2017-04-24T20:48:23Z	Update buffer swap test to use better variable names	67		
 12545	15608388	true	closed	false	7		2017-04-20T17:11:02Z	2017-05-11T09:58:56Z	2017-05-11T09:58:56Z	test: dynamic port in test cluster disconnect	54		
-12546	2512748	true	closed	false	3		2017-04-20T17:53:43Z	2017-05-17T11:57:26Z	2017-04-25T16:46:57Z	src: expose V8's IsNativeError() in util bindings	63		
+12546	2512748	true	closed	false	4		2017-04-20T17:53:43Z	2017-05-17T12:17:49Z	2017-04-25T16:46:57Z	src: expose V8's IsNativeError() in util bindings	63		
 12547	15608388	true	closed	false	2	0	2017-04-20T18:13:37Z	2017-04-24T20:44:15Z	2017-04-24T20:44:15Z	test: dynamic port in test cluster eaddrinuse	54		
-12548	432351	true	open	false	9		2017-04-20T18:18:44Z	2017-05-06T12:27:01Z		src: call linux getauxval(AT_SECURE) in SafeGetenv	47		
+12548	432351	true	open	false	10		2017-04-20T18:18:44Z	2017-05-17T12:28:01Z		src: call linux getauxval(AT_SECURE) in SafeGetenv	47		
 12549	9373002	true	closed	false	27		2017-04-20T18:25:08Z	2017-05-08T18:49:44Z	2017-04-28T21:09:57Z	doc: Add initial documentation for N-API	102		
 12550	1570449	true	closed	false	0		2017-04-20T18:57:56Z	2017-04-20T19:18:25Z	2017-04-20T19:18:25Z	fixes fs.watch docs typo	7		
 12551	13093042	true	closed	false	8		2017-04-20T20:27:15Z	2017-05-05T16:18:23Z	2017-04-27T20:34:54Z	n-api: Reference and external tests	73		
@@ -6222,7 +6222,7 @@
 12851	4299420	true	open	false	2		2017-05-05T09:39:26Z	2017-05-09T09:32:38Z		test: add test for timers benchmarks	33		
 12852	2512748	true	closed	false	10	0	2017-05-05T09:45:05Z	2017-05-08T05:11:55Z	2017-05-08T05:11:55Z	"Revert ""net: don't normalize twice in Socket#connect()"""	45		
 12853	103800	false	open	false	2		2017-05-05T11:02:33Z	2017-05-06T08:29:01Z		node: ../deps/uv/src/unix/async.c:136: uv__async_io: Assertion `n == sizeof(val)' failed.	134		
-12854	677994	true	open	false	9		2017-05-05T11:18:41Z	2017-05-16T11:04:51Z		"Revert ""net: remove unnecessary process.nextTick()"""	72		
+12854	677994	true	open	false	9		2017-05-05T11:18:41Z	2017-05-17T12:38:43Z		"Revert ""net: remove unnecessary process.nextTick()"""	72		
 12855	1128607	true	open	false	9		2017-05-05T11:21:53Z	2017-05-17T11:59:07Z		streams: remove all references to readableState/writableState from docs	115		
 12856	6447530	true	closed	false	13		2017-05-05T11:47:48Z	2017-05-12T23:11:03Z	2017-05-10T21:04:35Z	test: detect all types of aborts in windows	90		
 12857	1128607	true	open	false	6		2017-05-05T12:52:43Z	2017-05-17T11:59:44Z		stream: remove {writeableState/readableState}.length	64		
@@ -6380,7 +6380,7 @@
 13009	718899	true	closed	false	2	0	2017-05-13T05:04:38Z	2017-05-17T04:39:23Z	2017-05-17T04:39:23Z	benchmark: remove redundant timers benchmark	43		
 13010	718899	true	open	false	1		2017-05-13T05:05:26Z	2017-05-17T04:41:47Z		test: track callback invocations	43		
 13011	718899	true	closed	false	4		2017-05-13T05:05:47Z	2017-05-15T03:05:12Z	2017-05-13T16:16:07Z	util,console: guard against overwritten util functions	72		
-13012	833473	true	open	false			2017-05-13T08:14:58Z	2017-05-17T12:00:46Z		cmd: support dash as stdin alias	329		
+13012	833473	true	open	false			2017-05-13T08:14:58Z	2017-05-17T12:32:37Z		cmd: support dash as stdin alias	329		
 13013	54666	true	open	false	3		2017-05-13T14:32:04Z	2017-05-16T21:15:06Z		http: improve outgoing string write performance	337		
 13014	899444	true	open	false	4		2017-05-13T15:38:22Z	2017-05-16T00:14:36Z		n-api: remove compiler warning	35		
 13015	15943089	true	closed	false	1	2	2017-05-13T17:18:29Z	2017-05-16T09:26:03Z	2017-05-16T09:26:03Z	doc: document method for reverting commits	25		
@@ -6390,7 +6390,7 @@
 13020	96947	false	open	false	3		2017-05-14T13:59:01Z	2017-05-14T15:04:05Z		test: investigate flakiness of `parallal/test-async-wrap-getasyncid` (on windows)	97		
 13021	28688726	false	open	false	0		2017-05-14T15:30:56Z	2017-05-16T16:17:17Z		error installing	1		
 13022	490531	false	closed	false	9		2017-05-14T16:54:18Z	2017-05-15T18:04:42Z	2017-05-15T09:50:09Z	Failling to build LTS versions with ICU 59	58		
-13023	1265507	false	open	false	6		2017-05-14T17:22:09Z	2017-05-17T07:31:16Z		indexOf empty string in buffer should return 0	11		
+13023	1265507	false	open	false	7		2017-05-14T17:22:09Z	2017-05-17T12:13:12Z		indexOf empty string in buffer should return 0	11		
 13024	899444	true	open	false			2017-05-14T18:00:45Z	2017-05-15T17:06:44Z		buffer: fix indexOf for empty searches	91		
 13025	718899	true	open	false	0	0	2017-05-14T19:45:42Z	2017-05-14T19:45:42Z		test: refactor test-net-GH-5504	42		
 13026	1538624	true	open	false			2017-05-14T20:09:13Z	2017-05-16T02:25:11Z		url: more precise URLSearchParams constructor	34		
@@ -6420,24 +6420,24 @@
 13050	2842176	true	open	false			2017-05-16T10:46:16Z	2017-05-17T11:24:54Z		dns: fix crash while using dns.setServers after dns.resolve4	158		
 13051	2376199	false	closed	false	3		2017-05-16T11:38:14Z	2017-05-16T18:52:03Z	2017-05-16T18:52:03Z	Arguments list for the http upgrade event does not match example	40		
 13052	96947	false	open	false	2		2017-05-16T13:06:39Z	2017-05-16T21:24:42Z		tracking issue: full VS2017 support	47		
-13053	275871	true	open	false			2017-05-16T13:50:38Z	2017-05-17T09:45:00Z		src: check if --icu-data-dir= points to valid dir	152		
+13053	275871	true	open	false			2017-05-16T13:50:38Z	2017-05-17T12:15:09Z		src: check if --icu-data-dir= points to valid dir	152		
 13054	115237	true	open	false	4		2017-05-16T15:29:43Z	2017-05-16T17:04:02Z		(v6.x backport) doc types fixes	13		
 13055	718899	false	open	false	9		2017-05-16T15:34:12Z	2017-05-16T20:09:48Z		Investigate flaky sequential/test-net-connect-local-error on FreeBSD	139		
 13056	10393198	true	open	false	3		2017-05-16T16:03:52Z	2017-05-16T17:06:40Z		(v6.x backport) tools: use no-useless-concat ESLint rule	41		
 13057	26300178	false	open	false	0		2017-05-16T17:15:26Z	2017-05-16T17:15:26Z		Number(decimal).toString(36) bug	68		
 13058	718899	true	open	false	2		2017-05-16T17:44:55Z	2017-05-16T19:29:52Z		test: refactor test-dns-regress-6244.js	52		
-13059	498775	true	open	false	0	0	2017-05-16T18:07:50Z	2017-05-16T18:07:50Z		v6.11.0 proposal	1518		
+13059	498775	true	open	false	1		2017-05-16T18:07:50Z	2017-05-17T12:12:37Z		v6.11.0 proposal	1518		
 13060	718899	true	open	false	0	0	2017-05-16T19:15:50Z	2017-05-16T19:15:50Z		(v6.x backport) test: enable setuid/setgid test	81		
 13061	718899	false	open	false	0		2017-05-16T19:32:00Z	2017-05-16T19:32:00Z		Run the `internet` tests on CI from time to time?	37		
 13062	96947	true	open	false	6		2017-05-16T20:09:51Z	2017-05-16T23:06:23Z		test: improve net-immediate-finish-test	76		
 13063	17607	true	open	false	0		2017-05-16T20:22:40Z	2017-05-16T22:54:48Z		(7.x backport) src: use a std::vector for preload_modules	84		
-13064	15608388	true	open	false	1		2017-05-16T20:41:25Z	2017-05-17T04:43:45Z		test: fix sequential test-net-connect-local-error	45		
+13064	15608388	true	open	false	2		2017-05-16T20:41:25Z	2017-05-17T12:22:08Z		test: fix sequential test-net-connect-local-error	45		
 13065	3109072	true	open	false			2017-05-16T22:36:07Z	2017-05-17T06:59:21Z		stream: check type and range of highWaterMark	52		
 13066	1716463	true	open	false			2017-05-16T22:38:41Z	2017-05-16T23:53:28Z		doc: remove unused/duplicated reference links	81		
 13067	9373002	true	open	false	0		2017-05-16T22:58:37Z	2017-05-17T00:04:11Z		"doc: update doc to remove usage of ""you"""	47		
 13068	4421720	true	open	false	0	0	2017-05-16T23:07:56Z	2017-05-16T23:07:56Z		src, async_hooks: add triggerId param to before async_hook	122		
 13069	2512748	true	open	false			2017-05-16T23:44:40Z	2017-05-17T02:33:11Z		net: handle normalized args in normalizeArgs()	68		
-13070	9373002	false	open	false	3		2017-05-17T01:23:04Z	2017-05-17T11:49:07Z		AIX: fs-watch backport issues	79		
+13070	9373002	false	open	false	5		2017-05-17T01:23:04Z	2017-05-17T12:04:28Z		AIX: fs-watch backport issues	77		
 13071	4044581	false	open	false	0		2017-05-17T05:24:53Z	2017-05-17T05:24:53Z		"parallel/test-process-setuid-setgid fails if ""nobody"" user does not exist"	26		
 13072	5886475	true	open	false	0	0	2017-05-17T05:42:32Z	2017-05-17T05:42:32Z		(v6.x backport) test: fix parallel/test-setproctitle.js on alpine	72		
 13073	115237	true	open	false	0	0	2017-05-17T05:44:14Z	2017-05-17T05:44:14Z		(v6.x backport) #9532	7		
@@ -6445,5 +6445,6 @@
 13075	16603080	false	open	false	3		2017-05-17T07:29:11Z	2017-05-17T09:14:14Z		/usr/bin/node[14405]: ../src/node_http_parser.cc:398:static void node::Parser::Execute(const v8::FunctionCallbackInfo<v8::Value>&): Assertion `(parser->current_buffer_len_) == (0)' failed.	76		
 13076	2842176	true	open	false	0	0	2017-05-17T09:37:17Z	2017-05-17T09:37:17Z		dns: fix `resolve` failed starts without network	148		
 13077	27954280	false	open	false	0		2017-05-17T10:28:07Z	2017-05-17T10:28:07Z		events.js:163 throw er; // Unhandled 'error' event	186		
-13078	432351	true	open	false	0	0	2017-05-17T11:24:09Z	2017-05-17T11:24:09Z		build: don't link node.dll for cctest target	193		
-13079	5540988	false	open	false	0		2017-05-17T11:57:43Z	2017-05-17T11:57:43Z		Is it any possible for Video compression using by nodejs? 	26		
+13078	432351	true	open	false	1		2017-05-17T11:24:09Z	2017-05-17T12:06:47Z		build: don't link node.dll for cctest target	193		
+13079	5540988	false	closed	false	0		2017-05-17T11:57:43Z	2017-05-17T12:26:03Z	2017-05-17T12:26:03Z	Is it any possible for Video compression using by nodejs? 	26		
+13080	275871	true	open	false	0	0	2017-05-17T12:58:10Z	2017-05-17T12:58:10Z		v8: fix stack overflow in recursive method (v4.x)	40		
