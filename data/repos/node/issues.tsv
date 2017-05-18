@@ -15,7 +15,7 @@
 646	54666	false	closed	false	18		2015-01-29T01:38:54Z	2017-02-07T17:58:41Z	2017-02-07T17:58:41Z	switch to benchmark.js module for benchmarking	54		
 669	505333	false	open	false	16		2015-01-30T17:47:08Z	2016-10-27T20:53:00Z		async-wrap: no way to catch errors without changing the throw origin	237		
 678	643505	false	open	false	18		2015-01-31T00:58:15Z	2016-12-28T11:50:03Z		make crypto functions execute in the threadpool asynchronously	83		
-684	115237	false	closed	false	11		2015-01-31T22:25:05Z	2017-05-18T14:05:42Z	2015-02-01T18:41:19Z	path: tilde expansion	123		
+684	115237	false	closed	false	11		2015-01-31T22:25:05Z	2017-05-18T17:08:39Z	2015-02-01T18:41:19Z	path: tilde expansion	123		
 690	275871	false	closed	false	14		2015-02-02T15:19:55Z	2016-07-19T11:39:40Z	2016-07-19T11:39:40Z	repl: surrogate pair upsets repl / terminal	43		
 708	220205	false	closed	false	42		2015-02-03T18:56:57Z	2016-10-26T20:01:42Z	2016-10-26T16:36:48Z	HTTP and HTTPS attempt only single IP, causing intermittent failures	261		
 729	289174	false	closed	false	8		2015-02-05T20:00:25Z	2016-06-29T11:12:13Z	2016-06-29T11:12:13Z	Converge Tracing/Profiling to Native Set of Hooks	49		
@@ -1816,7 +1816,7 @@
 8433	8082333	false	open	false	2		2016-09-07T18:18:16Z	2016-09-07T19:04:16Z		wrong localisation for currency in toLocaleString	44		
 8434	1093990	false	closed	false	2		2016-09-07T19:11:18Z	2016-12-13T17:34:43Z	2016-12-13T17:34:43Z	Reccomend allowing edits from maintainers in issue templates / Contributing.md?	11		
 8435	7959437	false	closed	false	16		2016-09-07T19:26:43Z	2016-10-03T19:42:48Z	2016-10-03T15:57:57Z	DateTimeOffset	71		
-8436	836802	false	open	false	25		2016-09-07T20:23:15Z	2017-03-30T07:23:18Z		dns.lookup blocks filesystem I/O	294		
+8436	836802	false	open	false	26		2016-09-07T20:23:15Z	2017-05-18T17:24:17Z		dns.lookup blocks filesystem I/O	294		
 8437	899444	true	closed	false	5		2016-09-07T22:00:44Z	2016-09-08T23:30:14Z	2016-09-08T19:55:55Z	Backport 8174 (symbol-based custom inspection methods)	26		
 8438	54666	false	closed	false	5		2016-09-08T02:30:21Z	2016-10-31T23:23:15Z	2016-10-31T23:23:15Z	v8 inspector Profiles page no longer loads	56		
 8439	2226267	false	closed	false	1		2016-09-08T06:45:46Z	2016-09-08T16:56:51Z	2016-09-08T16:56:51Z	when run node with --prof the `crypto.pbkdf2` will not loged in	103		
@@ -5633,7 +5633,7 @@
 12260	896560	false	open	false	0		2017-04-06T14:55:52Z	2017-04-06T14:55:52Z		Windows 10, infinite loop running NPM	39		
 12261	718899	true	open	false	5		2017-04-06T16:29:33Z	2017-04-06T17:06:55Z		test: skip irrelevant test on Windows	31		
 12262	567540	true	closed	false	0		2017-04-06T16:50:36Z	2017-04-09T18:49:24Z	2017-04-09T18:49:24Z	test: Update information on known_issues	52		
-12263	287917	true	open	false			2017-04-06T17:27:30Z	2017-05-18T16:05:04Z		inspector: JavaScript bindings for the inspector	98		
+12263	287917	true	open	false			2017-04-06T17:27:30Z	2017-05-18T17:06:32Z		inspector: JavaScript bindings for the inspector	98		
 12264	17607	false	open	false	0		2017-04-06T20:22:01Z	2017-04-06T20:22:01Z		node aborts with --debug when it self-exits	186		
 12265	4044581	true	closed	false	1		2017-04-07T05:32:44Z	2017-04-10T22:17:13Z	2017-04-10T13:59:37Z	test: check curve algorithm is supported	52		
 12266	432351	true	closed	false	8		2017-04-07T06:54:58Z	2017-04-11T06:43:59Z	2017-04-10T05:23:12Z	src: only block SIGUSR1 when HAVE_INSPECTOR	112		
@@ -6466,10 +6466,11 @@
 13095	432351	true	open	false	0	0	2017-05-18T06:59:13Z	2017-05-18T06:59:13Z		src: remove unused node_buffer.h include	43		
 13096	7666621	true	open	false			2017-05-18T08:11:49Z	2017-05-18T11:07:52Z		test: add constructor test to async-hooks	40		
 13097	432351	true	open	false	1		2017-05-18T08:44:33Z	2017-05-18T10:10:10Z		src: add IsConstructCall TLSWrap constructor	134		
-13098	4923335	true	open	false	14		2017-05-18T10:02:03Z	2017-05-18T16:09:42Z		zlib: fix node crashing on invalid options	97		
+13098	4923335	true	open	false			2017-05-18T10:02:03Z	2017-05-18T17:24:56Z		zlib: fix node crashing on invalid options	97		
 13099	100233	false	open	false	0		2017-05-18T14:29:22Z	2017-05-18T14:29:22Z		strange behaviour of [] in start of the line	106		
 13100	96947	true	open	false			2017-05-18T15:26:33Z	2017-05-18T16:36:19Z		[WIP] test balloon for 13064	50		
-13101	17607	false	open	false	0		2017-05-18T16:27:33Z	2017-05-18T16:27:33Z		inspector/test-not-blocked-on-idle is failing semi-consistently	161		
-13102	718899	false	open	false	0		2017-05-18T16:58:49Z	2017-05-18T16:58:49Z		process.hrtime() unreliable?	510		
-13103	899444	true	open	false	0	0	2017-05-18T17:00:18Z	2017-05-18T17:00:18Z		v6.x backport for common.crashOnUnhandledRejection			
+13101	17607	false	closed	false	1		2017-05-18T16:27:33Z	2017-05-18T17:20:19Z	2017-05-18T17:20:19Z	inspector/test-not-blocked-on-idle is failing semi-consistently	161		
+13102	718899	false	open	false	0		2017-05-18T16:58:49Z	2017-05-18T17:05:16Z		process.hrtime() unreliable?	510		
+13103	899444	true	open	false	0	0	2017-05-18T17:00:18Z	2017-05-18T17:00:18Z		v6.x backport for common.crashOnUnhandledRejection	0		
 13104	899444	true	open	false	0	0	2017-05-18T17:00:46Z	2017-05-18T17:00:46Z		v7.x backport for common.crashOnUnhandledRejection	13		
+13105	1854811	true	open	false	0	0	2017-05-18T17:40:02Z	2017-05-18T17:40:02Z		backport change https://github.com/nodejs/node/pull/12839 to 4	39		
