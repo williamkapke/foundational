@@ -6174,7 +6174,7 @@
 12802	412362	false	open	false	1		2017-05-02T22:23:34Z	2017-05-02T23:21:56Z		https.createServer accepts any non-falsey values for key and cert	263		
 12803	10393198	false	open	false	14		2017-05-02T22:57:08Z	2017-05-05T00:06:18Z		fs, test: one set of file attributes in Windows prevents fs.fchmod() from changing mode to RW and breaks incomplete test	630		
 12804	10393198	true	closed	false	2		2017-05-03T01:14:57Z	2017-05-05T02:11:23Z	2017-05-05T02:11:23Z	test: add callback to fs.close() in test-fs-stat	38		
-12805	968222	false	open	false	4		2017-05-03T03:03:48Z	2017-05-17T18:44:59Z		high rss and steady and low heap usage	116		
+12805	968222	false	open	false	5		2017-05-03T03:03:48Z	2017-05-18T05:01:52Z		high rss and steady and low heap usage	116		
 12806	718899	true	closed	false	5	0	2017-05-03T04:03:06Z	2017-05-05T05:15:54Z	2017-05-05T05:15:54Z	tools: remove unused code from test.py	25		
 12807	718899	true	closed	false	3		2017-05-03T06:17:50Z	2017-05-05T11:47:13Z	2017-05-05T11:47:13Z	tools: relax lint rule for regexps	94		
 12808	1716463	true	closed	false	9	7	2017-05-03T07:32:43Z	2017-05-05T01:22:27Z	2017-05-05T01:22:27Z	url: handle windows drive letter in the file state	57		
@@ -6413,12 +6413,12 @@
 13042	432351	true	closed	false	2		2017-05-15T18:52:52Z	2017-05-17T10:42:56Z	2017-05-17T10:42:56Z	build: don't print directory for GNUMake	101		
 13043	96947	false	open	false	1		2017-05-15T21:41:47Z	2017-05-16T13:50:55Z		bootstrap: bootstrap should fail if ICU is misconfigured	72		
 13044	9373002	true	open	false	1		2017-05-16T00:26:23Z	2017-05-17T15:14:20Z		test: Improve N-API test coverage	132		
-13045	54666	false	open	false	5		2017-05-16T02:16:01Z	2017-05-18T03:20:48Z		test-npm failing on master after introduction of initial async hooks implementation	105		
+13045	54666	false	open	false	9		2017-05-16T02:16:01Z	2017-05-18T04:29:39Z		test-npm failing on master after introduction of initial async hooks implementation	105		
 13046	718899	true	open	false	1		2017-05-16T02:50:25Z	2017-05-16T17:30:18Z		(v6.x backport) buffer,util: refactor for performance	81		
 13047	432351	true	open	false	0	0	2017-05-16T03:42:24Z	2017-05-16T03:42:24Z		test: add hasCrypto to tls-lookup	67		
 13048	21603	false	open	false	0		2017-05-16T08:55:22Z	2017-05-16T08:55:22Z		Major performance regression from 6.10.2 to 7.x and 8.0.0-test	428		
 13049	3634726	false	closed	false	2		2017-05-16T09:49:58Z	2017-05-17T08:41:35Z	2017-05-17T08:41:35Z	Has a problem with child_process.exec.	38		
-13050	2842176	true	open	false			2017-05-16T10:46:16Z	2017-05-17T20:15:02Z		dns: fix crash while using dns.setServers after dns.resolve4	158		
+13050	2842176	true	open	false	15		2017-05-16T10:46:16Z	2017-05-18T04:53:02Z		dns: fix crash while using dns.setServers after dns.resolve4	158		
 13051	2376199	false	closed	false	3		2017-05-16T11:38:14Z	2017-05-16T18:52:03Z	2017-05-16T18:52:03Z	Arguments list for the http upgrade event does not match example	40		
 13052	96947	false	open	false	2		2017-05-16T13:06:39Z	2017-05-16T21:24:42Z		tracking issue: full VS2017 support	47		
 13053	275871	true	open	false			2017-05-16T13:50:38Z	2017-05-17T12:15:09Z		src: check if --icu-data-dir= points to valid dir	152		
@@ -6438,7 +6438,7 @@
 13067	9373002	true	open	false	0		2017-05-16T22:58:37Z	2017-05-17T00:04:11Z		"doc: update doc to remove usage of ""you"""	47		
 13068	4421720	true	open	false	0		2017-05-16T23:07:56Z	2017-05-17T14:48:38Z		src, async_hooks: add triggerId param to before async_hook	122		
 13069	2512748	true	open	false			2017-05-16T23:44:40Z	2017-05-17T17:33:11Z		net: handle normalized args in normalizeArgs()	68		
-13070	9373002	false	open	false	6		2017-05-17T01:23:04Z	2017-05-17T13:08:10Z		AIX: fs-watch backport issues	77		
+13070	9373002	false	closed	false	8		2017-05-17T01:23:04Z	2017-05-18T04:35:28Z	2017-05-18T04:35:28Z	AIX: fs-watch backport issues	77		
 13071	4044581	false	open	false	0		2017-05-17T05:24:53Z	2017-05-17T23:15:49Z		"parallel/test-process-setuid-setgid fails if ""nobody"" user does not exist"	26		
 13072	5886475	true	open	false	0	0	2017-05-17T05:42:32Z	2017-05-17T05:42:32Z		(v6.x backport) test: fix parallel/test-setproctitle.js on alpine	72		
 13073	115237	true	open	false	0	0	2017-05-17T05:44:14Z	2017-05-17T05:44:14Z		(v6.x backport) #9532	7		
@@ -6460,3 +6460,4 @@
 13089	1740229	true	open	false	0	0	2017-05-18T00:53:19Z	2017-05-18T00:53:20Z		zlib: added option to expose engine to convenience methods	53		
 13090	718899	true	open	false	0	0	2017-05-18T03:07:56Z	2017-05-18T03:07:56Z		dns: synchronize resolve() docs and code	58		
 13091	718899	true	open	false	0	0	2017-05-18T03:08:58Z	2017-05-18T03:08:58Z		test: port disabled readline test	47		
+13092	96947	true	open	false	0	0	2017-05-18T04:44:28Z	2017-05-18T04:44:28Z		[WIP] test-balloon: investigate #13045	43		
