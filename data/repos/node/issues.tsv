@@ -280,7 +280,7 @@
 4531	1372431	false	open	false	2		2016-01-04T19:11:53Z	2016-11-05T17:52:34Z		process.config.variables.arm_version incorrect in armv7	68		
 4545	6376965	false	closed	false	13		2016-01-06T00:59:50Z	2016-11-04T17:34:09Z	2016-01-18T15:01:02Z	DNS lookup failure dns.js:82	174		
 4550	327019	true	closed	false	28	1	2016-01-06T05:24:16Z	2016-10-28T16:38:00Z	2016-10-28T16:38:00Z	module: deprecate require('module').Module	5		
-4560	1578784	false	closed	false	12		2016-01-07T02:52:14Z	2017-05-18T02:10:54Z	2016-09-26T08:36:38Z	socket stay in ESTABLISHED status (same happened for  #1924 and #5026)	309		
+4560	1578784	false	closed	false	13		2016-01-07T02:52:14Z	2017-05-18T13:51:32Z	2016-09-26T08:36:38Z	socket stay in ESTABLISHED status (same happened for  #1924 and #5026)	309		
 4598	2512748	true	closed	false	19		2016-01-09T01:38:11Z	2016-12-29T18:32:01Z	2016-01-27T15:11:30Z	child_process: add shell option to spawn()	41		
 4601	5688	true	closed	false	13		2016-01-09T20:16:23Z	2017-02-28T23:03:48Z	2017-02-28T23:03:48Z	doc: improve options.stdio section for child_process.spawn()	177		
 4629	1084056	true	closed	false	25	0	2016-01-11T21:36:45Z	2016-09-01T17:30:50Z	2016-09-01T17:30:50Z	test: fix `fs-watch-recursive` flakiness	47	1084056	2016-09-01T17:30:50Z
@@ -6224,7 +6224,7 @@
 12852	2512748	true	closed	false	10	0	2017-05-05T09:45:05Z	2017-05-08T05:11:55Z	2017-05-08T05:11:55Z	"Revert ""net: don't normalize twice in Socket#connect()"""	45		
 12853	103800	false	open	false	2		2017-05-05T11:02:33Z	2017-05-06T08:29:01Z		node: ../deps/uv/src/unix/async.c:136: uv__async_io: Assertion `n == sizeof(val)' failed.	134		
 12854	677994	true	open	false	9		2017-05-05T11:18:41Z	2017-05-17T12:38:43Z		"Revert ""net: remove unnecessary process.nextTick()"""	72		
-12855	1128607	true	open	false	10		2017-05-05T11:21:53Z	2017-05-17T14:22:16Z		streams: remove all references to readableState/writableState from docs	115		
+12855	1128607	true	open	false	13		2017-05-05T11:21:53Z	2017-05-18T13:40:32Z		streams: remove all references to readableState/writableState from docs	115		
 12856	6447530	true	closed	false	13		2017-05-05T11:47:48Z	2017-05-12T23:11:03Z	2017-05-10T21:04:35Z	test: detect all types of aborts in windows	90		
 12857	1128607	true	open	false	6		2017-05-05T12:52:43Z	2017-05-17T11:59:44Z		stream: remove {writeableState/readableState}.length	64		
 12858	10393198	false	open	false	5		2017-05-05T13:26:55Z	2017-05-05T19:42:19Z		test, timers, tools: question about fails on Windows	177		
@@ -6369,7 +6369,7 @@
 12997	96947	false	open	false	0		2017-05-12T14:55:33Z	2017-05-17T14:04:57Z		test: investigate async-hooks/test-tcpwrap for flakiness on Linux	64		
 12998	439929	true	closed	false	2	0	2017-05-12T15:39:30Z	2017-05-15T15:31:24Z	2017-05-15T15:31:24Z	util: fixup internal util exports	43		
 12999	7041980	true	closed	false	22		2017-05-12T15:47:16Z	2017-05-13T22:19:09Z	2017-05-13T22:19:09Z	test: moved dgram bind shared ports to sequential	48		
-13000	1485909	true	open	false			2017-05-12T17:52:52Z	2017-05-17T23:16:39Z		async_wrap,src: promise hook integration	57		
+13000	1485909	true	open	false			2017-05-12T17:52:52Z	2017-05-18T13:28:20Z		async_wrap,src: promise hook integration	57		
 13001	193412	false	open	false	21		2017-05-12T18:15:08Z	2017-05-17T18:53:15Z		Proposal: change deprecation policy	205		
 13002	17607	true	open	false	7		2017-05-12T19:43:44Z	2017-05-17T19:36:51Z		src: whitelist new options for NODE_OPTIONS	54		
 13003	96947	true	open	false	6		2017-05-12T19:49:37Z	2017-05-16T03:38:50Z		test: refactor test-net-connect-options-allowhalfopen.js	46		
@@ -6418,7 +6418,7 @@
 13047	432351	true	closed	false	1		2017-05-16T03:42:24Z	2017-05-18T05:23:45Z	2017-05-18T05:23:45Z	test: add hasCrypto to tls-lookup	67		
 13048	21603	false	open	false	0		2017-05-16T08:55:22Z	2017-05-16T08:55:22Z		Major performance regression from 6.10.2 to 7.x and 8.0.0-test	428		
 13049	3634726	false	closed	false	2		2017-05-16T09:49:58Z	2017-05-17T08:41:35Z	2017-05-17T08:41:35Z	Has a problem with child_process.exec.	38		
-13050	2842176	true	open	false	17		2017-05-16T10:46:16Z	2017-05-18T10:54:29Z		dns: fix crash while using dns.setServers after dns.resolve4	158		
+13050	2842176	true	open	false	18		2017-05-16T10:46:16Z	2017-05-18T14:00:57Z		dns: fix crash while using dns.setServers after dns.resolve4	158		
 13051	2376199	false	closed	false	3		2017-05-16T11:38:14Z	2017-05-16T18:52:03Z	2017-05-16T18:52:03Z	Arguments list for the http upgrade event does not match example	40		
 13052	96947	false	open	false	2		2017-05-16T13:06:39Z	2017-05-16T21:24:42Z		tracking issue: full VS2017 support	47		
 13053	275871	true	open	false			2017-05-16T13:50:38Z	2017-05-17T12:15:09Z		src: check if --icu-data-dir= points to valid dir	152		
@@ -6457,7 +6457,7 @@
 13086	9373002	true	open	false	0	0	2017-05-17T21:48:21Z	2017-05-17T21:48:21Z		doc: add additional useful ci job to list	32		
 13087	13093042	true	open	false	0	0	2017-05-18T00:44:32Z	2017-05-18T00:44:32Z		n-api: Retain last code when getting error info	64		
 13088	1740229	true	open	false	0		2017-05-18T00:53:15Z	2017-05-18T03:56:39Z		zlib: expose amount of data read for engines	59		
-13089	1740229	true	open	false	0	0	2017-05-18T00:53:19Z	2017-05-18T00:53:20Z		zlib: added option to expose engine to convenience methods	53		
+13089	1740229	true	open	false	0		2017-05-18T00:53:20Z	2017-05-18T13:39:28Z		zlib: option for engine in convenience methods	61		
 13090	718899	true	open	false	0	0	2017-05-18T03:07:56Z	2017-05-18T03:07:56Z		dns: synchronize resolve() docs and code	58		
 13091	718899	true	open	false	0	0	2017-05-18T03:08:58Z	2017-05-18T03:08:58Z		test: port disabled readline test	47		
 13092	96947	true	open	false			2017-05-18T04:44:28Z	2017-05-18T11:06:29Z		async_wrap: add `asyncReset` to `TLSWrap`	64		
@@ -6466,4 +6466,4 @@
 13095	432351	true	open	false	0	0	2017-05-18T06:59:13Z	2017-05-18T06:59:13Z		src: remove unused node_buffer.h include	43		
 13096	7666621	true	open	false			2017-05-18T08:11:49Z	2017-05-18T11:07:52Z		test: add constructor test to async-hooks	40		
 13097	432351	true	open	false	1		2017-05-18T08:44:33Z	2017-05-18T10:10:10Z		src: add IsConstructCall TLSWrap constructor	134		
-13098	4923335	true	open	false	0		2017-05-18T10:02:03Z	2017-05-18T10:06:06Z		zlib: fix node crashing on invalid options	117		
+13098	4923335	true	open	false	7		2017-05-18T10:02:03Z	2017-05-18T13:30:14Z		zlib: fix node crashing on invalid options	117		
