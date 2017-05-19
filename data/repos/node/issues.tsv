@@ -95,6 +95,7 @@
 2339	115237	false	open	false	27		2015-08-09T20:15:44Z	2017-02-19T07:04:37Z		child_process: async spawn methods not closing stdin	115		
 2363	220205	false	open	false	16		2015-08-12T16:32:09Z	2017-02-24T22:44:09Z		Optionally log master secrets for TLS connections	106		
 2371	855219	false	closed	false	10		2015-08-13T21:17:09Z	2017-02-08T15:05:59Z	2017-02-07T20:12:49Z	Non-BMP variable names don't work from the REPL	17		
+2385	439929	false	closed	false	6		2015-08-15T16:24:22Z	2017-05-19T10:23:39Z	2016-04-03T20:35:52Z	assert: inconsistency in assert.doesNotThrow	121		
 2395	439929	true	closed	false	11	0	2015-08-16T00:23:48Z	2016-08-02T04:18:14Z	2016-08-02T04:18:14Z	http: correct fencepost error when freeing socket	60		
 2398	439929	false	open	false	51		2015-08-16T01:20:43Z	2017-03-06T10:11:25Z		DTLS Discussion	54		
 2407	355800	true	closed	false			2015-08-17T04:01:53Z	2016-09-27T21:34:56Z	2016-04-18T23:52:16Z	assert: respect assert.doesNotThrow message.	32		
@@ -4738,7 +4739,7 @@
 11360	24884095	true	open	false			2017-02-13T22:44:48Z	2017-02-14T18:37:35Z		errors, url: migrate to use internal/errors.js	53		
 11361	2512748	true	open	false	2		2017-02-13T22:46:52Z	2017-02-15T18:34:52Z		src: remove unused variable	35		
 11362	291301	false	open	false	13		2017-02-14T00:36:46Z	2017-02-14T15:18:51Z		WHATWG URL API is marked as `Experimental`, but is not behind a flag	176		
-11363	1853456	true	open	false	2		2017-02-14T01:51:51Z	2017-05-19T08:37:31Z		Update stream.md - fix issue in setEncoding method	61		
+11363	1853456	true	open	false	3		2017-02-14T01:51:51Z	2017-05-19T10:21:01Z		Update stream.md - fix issue in setEncoding method	61		
 11364	696611	true	closed	false	5		2017-02-14T02:09:02Z	2017-03-07T06:22:17Z	2017-02-22T05:05:53Z	lib: remove unnecessary assignments with _extend	46		
 11365	469795	false	open	false	4		2017-02-14T03:20:26Z	2017-02-14T08:57:50Z		Wrong timezone in v6.9	34		
 11366	1084409	true	closed	false	7		2017-02-14T03:50:40Z	2017-02-18T19:03:22Z	2017-02-18T19:03:22Z	child_process: refactor internal/child_process.js	51		
@@ -6316,8 +6317,8 @@
 12943	7041980	true	open	false	5		2017-05-10T02:33:38Z	2017-05-12T08:31:38Z		test: replace port in dgram cb length test	42		
 12944	7041980	true	open	false	3		2017-05-10T03:55:17Z	2017-05-12T08:35:30Z		test: replace port in dgram cb address test	42		
 12945	10393198	true	closed	false	6		2017-05-10T05:20:53Z	2017-05-12T08:37:31Z	2017-05-12T08:37:31Z	test: make a test path-independent	151		
-12946	572196	false	open	false	0		2017-05-10T05:49:07Z	2017-05-10T05:49:07Z		Crypto docs don't explain the function signatures	65		
-12947	7455872	true	open	false	3		2017-05-10T07:15:12Z	2017-05-10T12:18:35Z		doc: Update doc of publicEncrypt method	40		
+12946	572196	false	closed	false	1		2017-05-10T05:49:07Z	2017-05-19T10:50:20Z	2017-05-19T10:50:20Z	Crypto docs don't explain the function signatures	68		
+12947	7455872	true	closed	false	5	1	2017-05-10T07:15:12Z	2017-05-19T10:49:01Z	2017-05-19T10:49:01Z	doc: Update doc of publicEncrypt method	40		
 12948	432351	true	open	false	4		2017-05-10T11:15:50Z	2017-05-15T12:53:16Z		(v6.x backport) build: enable cctest to use generated objects	125		
 12949	96947	true	open	false	8		2017-05-10T18:48:24Z	2017-05-15T23:50:38Z		inspector,cli: restore `--debug` and `--inspect --debug-brk` with deprecation warnings	152		
 12950	96947	false	closed	false	13		2017-05-10T19:45:45Z	2017-05-16T03:04:19Z	2017-05-16T03:04:19Z	test: flaky parallel/test-net-connect-local-error on macOS & freeBSD	54		
