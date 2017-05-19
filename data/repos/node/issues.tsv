@@ -6223,7 +6223,7 @@
 12851	4299420	true	open	false	2		2017-05-05T09:39:26Z	2017-05-09T09:32:38Z		test: add test for timers benchmarks	33		
 12852	2512748	true	closed	false	10	0	2017-05-05T09:45:05Z	2017-05-08T05:11:55Z	2017-05-08T05:11:55Z	"Revert ""net: don't normalize twice in Socket#connect()"""	45		
 12853	103800	false	open	false	2		2017-05-05T11:02:33Z	2017-05-06T08:29:01Z		node: ../deps/uv/src/unix/async.c:136: uv__async_io: Assertion `n == sizeof(val)' failed.	134		
-12854	677994	true	open	false	9		2017-05-05T11:18:41Z	2017-05-17T12:38:43Z		"Revert ""net: remove unnecessary process.nextTick()"""	72		
+12854	677994	true	open	false	10		2017-05-05T11:18:41Z	2017-05-18T23:01:23Z		"Revert ""net: remove unnecessary process.nextTick()"""	72		
 12855	1128607	true	open	false	15		2017-05-05T11:21:53Z	2017-05-18T16:04:09Z		streams: remove all references to readableState/writableState from docs	115		
 12856	6447530	true	closed	false	13		2017-05-05T11:47:48Z	2017-05-12T23:11:03Z	2017-05-10T21:04:35Z	test: detect all types of aborts in windows	90		
 12857	1128607	true	open	false	6		2017-05-05T12:52:43Z	2017-05-17T11:59:44Z		stream: remove {writeableState/readableState}.length	64		
@@ -6335,7 +6335,7 @@
 12963	4299420	true	open	false			2017-05-11T05:40:52Z	2017-05-11T20:20:51Z		doc: note caveats in process message serialization	75		
 12964	15608388	true	closed	false	38		2017-05-11T06:28:09Z	2017-05-17T18:12:19Z	2017-05-16T03:03:25Z	test: fix flaky test-net-connect-local-error	54		
 12965	171239	false	open	false	0		2017-05-11T07:29:58Z	2017-05-11T07:29:58Z		WHATWG URL throw parse error for valid domains	42		
-12966	171239	true	open	false	17	7	2017-05-11T07:44:03Z	2017-05-18T16:28:52Z		url: ignore IDN errors when domainname have two hyphens	67		
+12966	171239	true	open	false			2017-05-11T07:44:03Z	2017-05-18T23:20:27Z		url: ignore IDN errors when domainname have two hyphens	67		
 12967	432351	true	closed	false	15		2017-05-11T08:19:54Z	2017-05-12T13:24:19Z	2017-05-12T06:11:26Z	src: add HAVE_OPENSSL guard to crypto providers	78		
 12968	432351	true	closed	false	1		2017-05-11T08:20:22Z	2017-05-12T05:29:52Z	2017-05-12T05:29:52Z	src: add/move hasCrypto checks for async tests	61		
 12969	18639905	false	closed	false	0		2017-05-11T09:49:01Z	2017-05-11T11:27:29Z	2017-05-11T11:27:29Z	Uh oh! Looks like you're missing a module in your gulpfile: Cannot find module 'internal/fs'	111		
@@ -6403,7 +6403,7 @@
 13032	718899	true	open	false	0	0	2017-05-15T03:41:52Z	2017-05-15T03:41:52Z		test:refactor test-https-set-timeout-server	35		
 13033	7041980	true	open	false			2017-05-15T03:47:10Z	2017-05-16T04:03:12Z		test: move net reconnect error test to sequential	49		
 13034	4299420	true	closed	false	10		2017-05-15T04:56:54Z	2017-05-17T15:09:41Z	2017-05-17T15:09:41Z	build: clean up napi build in test-addons-clean	27		
-13035	5500080	true	open	false	1		2017-05-15T05:43:29Z	2017-05-17T16:07:19Z		Changed the second parameter of assert.throws to match the errors	13		
+13035	5500080	true	closed	false	1	6	2017-05-15T05:43:29Z	2017-05-18T23:59:46Z	2017-05-18T23:59:46Z	Changed the second parameter of assert.throws to match the errors	13		
 13036	23206577	false	closed	false	1		2017-05-15T05:57:58Z	2017-05-15T06:04:48Z	2017-05-15T06:04:48Z	Want to run nodejs on dedicated server	17		
 13037	5372618	false	open	false	0		2017-05-15T08:40:19Z	2017-05-15T09:03:38Z		Throw errors when i use async/await in Node v7.9.0	87		
 13038	650317	false	closed	false	5		2017-05-15T10:20:47Z	2017-05-15T15:01:14Z	2017-05-15T13:34:47Z	NodeJS inspect docs broken?	33		
@@ -6470,10 +6470,12 @@
 13099	100233	false	open	false	0		2017-05-18T14:29:22Z	2017-05-18T14:29:22Z		strange behaviour of [] in start of the line	106		
 13100	96947	true	open	false	4		2017-05-18T15:26:33Z	2017-05-18T22:45:36Z		test,dgram: harden test-dgram-bind-shared-ports.js	60		
 13101	17607	false	closed	false	1		2017-05-18T16:27:33Z	2017-05-18T17:20:19Z	2017-05-18T17:20:19Z	inspector/test-not-blocked-on-idle is failing semi-consistently	161		
-13102	718899	false	open	false	0		2017-05-18T16:58:49Z	2017-05-18T17:05:16Z		process.hrtime() unreliable?	510		
+13102	718899	false	open	false	3		2017-05-18T16:58:49Z	2017-05-18T23:07:37Z		process.hrtime() unreliable?	510		
 13103	899444	true	open	false	0	0	2017-05-18T17:00:18Z	2017-05-18T17:00:18Z		v6.x backport for common.crashOnUnhandledRejection	0		
 13104	899444	true	open	false	0	0	2017-05-18T17:00:46Z	2017-05-18T17:00:46Z		v7.x backport for common.crashOnUnhandledRejection	13		
 13105	1854811	true	open	false	2		2017-05-18T17:40:02Z	2017-05-18T21:42:33Z		v4.x backport change https://github.com/nodejs/node/pull/12839	39		
 13106	54666	false	open	false	0		2017-05-18T19:45:22Z	2017-05-18T20:09:20Z		inspector: allow opt-out of console.* hijacking	79		
 13107	12057627	true	open	false	0	0	2017-05-18T19:47:40Z	2017-05-18T19:47:40Z		doc: How to publish N-API packages	21		
 13108	6216576	false	open	false	0		2017-05-18T20:47:20Z	2017-05-18T20:47:20Z		Documentation for fs.watch needs to say that filename is also available for macOS	36		
+13109	718899	true	open	false	0	0	2017-05-18T23:23:29Z	2017-05-18T23:23:29Z		test: shorten test-benchmark-http	49		
+13110	718899	true	open	false	0	0	2017-05-18T23:35:56Z	2017-05-18T23:35:56Z		test: allow no duration in benchmark tests	113		
