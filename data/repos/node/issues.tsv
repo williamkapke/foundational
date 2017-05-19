@@ -15,7 +15,7 @@
 646	54666	false	closed	false	18		2015-01-29T01:38:54Z	2017-02-07T17:58:41Z	2017-02-07T17:58:41Z	switch to benchmark.js module for benchmarking	54		
 669	505333	false	open	false	16		2015-01-30T17:47:08Z	2016-10-27T20:53:00Z		async-wrap: no way to catch errors without changing the throw origin	237		
 678	643505	false	open	false	18		2015-01-31T00:58:15Z	2016-12-28T11:50:03Z		make crypto functions execute in the threadpool asynchronously	83		
-684	115237	false	closed	false	11		2015-01-31T22:25:05Z	2017-05-18T17:08:39Z	2015-02-01T18:41:19Z	path: tilde expansion	123		
+684	115237	false	closed	false	12		2015-01-31T22:25:05Z	2017-05-19T18:03:51Z	2015-02-01T18:41:19Z	path: tilde expansion	123		
 690	275871	false	closed	false	14		2015-02-02T15:19:55Z	2016-07-19T11:39:40Z	2016-07-19T11:39:40Z	repl: surrogate pair upsets repl / terminal	43		
 708	220205	false	closed	false	42		2015-02-03T18:56:57Z	2016-10-26T20:01:42Z	2016-10-26T16:36:48Z	HTTP and HTTPS attempt only single IP, causing intermittent failures	261		
 729	289174	false	closed	false	8		2015-02-05T20:00:25Z	2016-06-29T11:12:13Z	2016-06-29T11:12:13Z	Converge Tracing/Profiling to Native Set of Hooks	49		
@@ -6109,7 +6109,7 @@
 12734	1093990	true	open	false	49		2017-04-28T22:34:28Z	2017-05-16T21:26:19Z		lib,src: eagerly exit process on unhanded promise rejections	228		
 12735	10393198	true	closed	false	42	29	2017-04-28T22:42:15Z	2017-05-05T14:42:19Z	2017-05-05T14:42:19Z	test: reduce string concatenations	261		
 12736	718899	true	closed	false	25	5	2017-04-29T05:25:53Z	2017-05-04T00:01:36Z	2017-05-04T00:01:36Z	test: move WPT to its own testing module	93		
-12737	318622	false	open	false	3		2017-04-29T05:48:43Z	2017-05-18T16:10:35Z		fs.lstatSync doesn't handle specific Windows REPARSE POINTS	212		
+12737	318622	false	open	false	3		2017-04-29T05:48:43Z	2017-05-19T18:51:54Z		fs.lstatSync doesn't handle specific Windows REPARSE POINTS	212		
 12738	718899	true	closed	false	2		2017-04-29T05:57:09Z	2017-05-02T22:04:53Z	2017-05-02T22:04:53Z	cluster: remove debug arg handling	71		
 12739	4044581	true	open	false	0	0	2017-04-29T10:21:47Z	2017-04-29T10:21:47Z		(v7.x backport) test: check curve algorithm is supported	68		
 12740	557590	false	closed	false	14		2017-04-29T12:56:18Z	2017-05-13T20:25:16Z	2017-05-12T14:53:24Z	WebAssembly instantiation fails on latest nightly	639		
@@ -6140,7 +6140,7 @@
 12765	899444	true	closed	false	4		2017-04-30T17:30:02Z	2017-05-03T17:23:33Z	2017-05-03T17:23:33Z	src: do proper StringBytes error handling	143		
 12766	899444	true	open	false	10		2017-04-30T18:12:44Z	2017-05-02T19:28:41Z		stream: make `.setEncoding(null)` reset to default	105		
 12767	899444	true	closed	false	2		2017-04-30T18:39:29Z	2017-05-03T13:19:45Z	2017-05-03T13:19:45Z	stream: remove unnecessary parameter	41		
-12768	96947	true	open	false	15		2017-04-30T19:33:45Z	2017-05-11T21:08:19Z		build: require `--without-debugger` explicitly	95		
+12768	96947	true	closed	false	18	0	2017-04-30T19:33:45Z	2017-05-19T18:09:04Z	2017-05-19T18:09:04Z	build: warn about `--without-ssl` disabling debugger	95		
 12769	17785196	false	open	false	6		2017-04-30T21:44:02Z	2017-05-01T12:53:05Z		Newest node js installs npm old version!	33		
 12770	718899	true	closed	false	6		2017-04-30T22:55:57Z	2017-05-04T03:08:20Z	2017-05-04T03:08:20Z	test: enable test-debugger-pid	54		
 12771	10393198	false	closed	false	13		2017-05-01T00:56:08Z	2017-05-18T21:40:21Z	2017-05-18T21:40:21Z	doc, test: question about test.py -v key in CONTRIBUTING.md	113		
@@ -6200,14 +6200,14 @@
 12825	1538624	false	open	false	0		2017-05-04T06:13:53Z	2017-05-05T08:26:08Z		url: erroneous WHATWG whitespace handling	286		
 12826	432351	true	closed	false	10		2017-05-04T08:13:10Z	2017-05-18T05:19:31Z	2017-05-16T08:04:09Z	src: only call FatalException if not verbose	41		
 12827	432351	true	closed	false	6		2017-05-04T12:56:11Z	2017-05-19T05:29:38Z	2017-05-18T22:18:24Z	src: split CryptoPemCallback into two functions	107		
-12828	1128607	true	open	false	17		2017-05-04T14:29:32Z	2017-05-19T16:58:15Z		stream: add final method	103		
+12828	1128607	true	open	false			2017-05-04T14:29:32Z	2017-05-19T18:05:42Z		stream: add final method	103		
 12829	291301	false	open	false	0		2017-05-04T14:42:05Z	2017-05-04T19:29:38Z		doc: the «Deprecated» stability index description is inaccurate	134		
 12830	100928	true	closed	false	13		2017-05-04T15:30:33Z	2017-05-12T00:42:17Z	2017-05-12T00:42:17Z	doc: Change test option at STEP 5: Test in CONTRIBUTING.md	23		
 12831	5886475	true	closed	false	2		2017-05-04T15:39:00Z	2017-05-07T20:24:00Z	2017-05-07T20:24:00Z	test: complete coverage of buffer	199		
 12832	1081565	false	closed	false	9		2017-05-04T16:51:59Z	2017-05-08T17:06:47Z	2017-05-08T16:20:58Z	server.maxConnections check happens on EventLoop	193		
 12833	976081	false	open	false	12		2017-05-04T17:54:03Z	2017-05-11T13:08:43Z		N-API documentation appears on 7.10.0	10		
 12834	26607998	false	closed	false	2		2017-05-04T19:54:40Z	2017-05-04T21:02:05Z	2017-05-04T19:57:58Z	Calculation error	56		
-12835	96947	true	open	false			2017-05-04T20:08:22Z	2017-05-16T04:14:12Z		test, fs: fix chmod mask testing on windows	44		
+12835	96947	true	open	false			2017-05-04T20:08:22Z	2017-05-19T18:12:10Z		test, fs: fix chmod mask testing on windows	44		
 12836	718899	false	open	false	1		2017-05-04T20:09:50Z	2017-05-04T23:41:26Z		`test-npm` applicability	72		
 12837	12102068	false	open	false	0		2017-05-04T22:23:35Z	2017-05-04T22:23:35Z		Support NODE_NO_WARNINGS in node 6?	113		
 12838	13093042	true	open	false	1		2017-05-04T22:46:27Z	2017-05-09T19:16:07Z		n-api: Handle fatal exception in async callback	135		
@@ -6334,7 +6334,7 @@
 12959	718899	true	closed	false	2	0	2017-05-11T02:40:05Z	2017-05-13T23:50:03Z	2017-05-13T23:50:03Z	test: add common.mustCall() to NAPI exception test	33		
 12960	718899	true	closed	false	22		2017-05-11T04:05:58Z	2017-05-13T05:19:26Z	2017-05-13T05:19:26Z	timers: do not use user object call/apply	83		
 12961	28616276	false	open	false	0		2017-05-11T04:51:52Z	2017-05-11T05:21:37Z		Deprecation Warning and build struck	600		
-12962	7041980	true	open	false	1		2017-05-11T05:03:04Z	2017-05-19T17:50:12Z		doc: edit Error.captureStackTrace html comment	51		
+12962	7041980	true	open	false			2017-05-11T05:03:04Z	2017-05-19T18:29:24Z		doc: edit Error.captureStackTrace html comment	51		
 12963	4299420	true	open	false			2017-05-11T05:40:52Z	2017-05-11T20:20:51Z		doc: note caveats in process message serialization	75		
 12964	15608388	true	closed	false	38		2017-05-11T06:28:09Z	2017-05-17T18:12:19Z	2017-05-16T03:03:25Z	test: fix flaky test-net-connect-local-error	54		
 12965	171239	false	open	false	0		2017-05-11T07:29:58Z	2017-05-11T07:29:58Z		WHATWG URL throw parse error for valid domains	42		
@@ -6414,7 +6414,7 @@
 13040	490531	true	open	false	24		2017-05-15T18:25:17Z	2017-05-18T08:56:30Z		"deps/v8: add missing #include ""unicode/normlzr.h"""	77		
 13041	432351	true	open	false	1		2017-05-15T18:48:23Z	2017-05-17T10:49:37Z		test: add hasCrypto to tls-wrap-event-emmiter	67		
 13042	432351	true	closed	false	2		2017-05-15T18:52:52Z	2017-05-17T10:42:56Z	2017-05-17T10:42:56Z	build: don't print directory for GNUMake	101		
-13043	96947	false	open	false	1		2017-05-15T21:41:47Z	2017-05-16T13:50:55Z		bootstrap: bootstrap should fail if ICU is misconfigured	72		
+13043	96947	false	closed	false	2		2017-05-15T21:41:47Z	2017-05-19T18:28:42Z	2017-05-19T18:28:42Z	bootstrap: bootstrap should fail if ICU is misconfigured	74		
 13044	9373002	true	open	false	1		2017-05-16T00:26:23Z	2017-05-17T15:14:20Z		test: Improve N-API test coverage	132		
 13045	54666	false	open	false	9		2017-05-16T02:16:01Z	2017-05-18T04:29:39Z		test-npm failing on master after introduction of initial async hooks implementation	105		
 13046	718899	true	closed	false	2		2017-05-16T02:50:25Z	2017-05-19T05:42:34Z	2017-05-19T05:42:34Z	(v6.x backport) buffer,util: refactor for performance	78		
@@ -6424,7 +6424,7 @@
 13050	2842176	true	closed	false	29		2017-05-16T10:46:16Z	2017-05-19T16:12:40Z	2017-05-18T21:13:07Z	dns: fix crash while using dns.setServers after dns.resolve4	159		
 13051	2376199	false	closed	false	3		2017-05-16T11:38:14Z	2017-05-16T18:52:03Z	2017-05-16T18:52:03Z	Arguments list for the http upgrade event does not match example	40		
 13052	96947	false	open	false	2		2017-05-16T13:06:39Z	2017-05-16T21:24:42Z		tracking issue: full VS2017 support	47		
-13053	275871	true	open	false			2017-05-16T13:50:38Z	2017-05-17T12:15:09Z		src: check if --icu-data-dir= points to valid dir	152		
+13053	275871	true	closed	false	7	3	2017-05-16T13:50:38Z	2017-05-19T18:27:29Z	2017-05-19T18:27:29Z	src: check if --icu-data-dir= points to valid dir	152		
 13054	115237	true	open	false	9		2017-05-16T15:29:43Z	2017-05-18T16:39:06Z		(v6.x backport) doc types fixes	13		
 13055	718899	false	open	false	9		2017-05-16T15:34:12Z	2017-05-16T20:09:48Z		Investigate flaky sequential/test-net-connect-local-error on FreeBSD	139		
 13056	10393198	true	open	false	3		2017-05-16T16:03:52Z	2017-05-16T17:06:40Z		(v6.x backport) tools: use no-useless-concat ESLint rule	41		
@@ -6445,7 +6445,7 @@
 13071	4044581	false	open	false	2		2017-05-17T05:24:53Z	2017-05-19T03:12:49Z		"parallel/test-process-setuid-setgid fails if ""nobody"" user does not exist"	26		
 13072	5886475	true	open	false	0	0	2017-05-17T05:42:32Z	2017-05-17T05:42:32Z		(v6.x backport) test: fix parallel/test-setproctitle.js on alpine	72		
 13073	115237	true	open	false	0	0	2017-05-17T05:44:14Z	2017-05-17T05:44:14Z		(v6.x backport) #9532	7		
-13074	128856	true	open	false			2017-05-17T07:02:05Z	2017-05-19T17:12:48Z		vm: fix race condition with `timeout` param	183		
+13074	128856	true	open	false			2017-05-17T07:02:05Z	2017-05-19T18:05:04Z		vm: fix race condition with `timeout` param	183		
 13075	16603080	false	open	false	3		2017-05-17T07:29:11Z	2017-05-17T09:14:14Z		/usr/bin/node[14405]: ../src/node_http_parser.cc:398:static void node::Parser::Execute(const v8::FunctionCallbackInfo<v8::Value>&): Assertion `(parser->current_buffer_len_) == (0)' failed.	76		
 13076	2842176	true	open	false	6		2017-05-17T09:37:17Z	2017-05-19T16:36:45Z		dns: fix `resolve` failed starts without network	353		
 13077	27954280	false	open	false	0		2017-05-17T10:28:07Z	2017-05-17T10:28:07Z		events.js:163 throw er; // Unhandled 'error' event	186		
@@ -6469,7 +6469,7 @@
 13095	432351	true	open	false	0	0	2017-05-18T06:59:13Z	2017-05-18T06:59:13Z		src: remove unused node_buffer.h include	43		
 13096	7666621	true	open	false	3		2017-05-18T08:11:49Z	2017-05-19T13:40:56Z		test: add constructor test to async-hooks	47		
 13097	432351	true	open	false	1		2017-05-18T08:44:33Z	2017-05-18T10:10:10Z		src: add IsConstructCall TLSWrap constructor	134		
-13098	4923335	true	open	false			2017-05-18T10:02:03Z	2017-05-18T17:24:56Z		zlib: fix node crashing on invalid options	97		
+13098	4923335	true	open	false			2017-05-18T10:02:03Z	2017-05-19T18:13:58Z		zlib: fix node crashing on invalid options	97		
 13099	100233	false	closed	false	1		2017-05-18T14:29:22Z	2017-05-19T12:45:04Z	2017-05-19T12:45:04Z	strange behaviour of [] in start of the line	106		
 13100	96947	true	open	false	5		2017-05-18T15:26:33Z	2017-05-19T12:26:22Z		test,dgram: harden test-dgram-bind-shared-ports.js	64		
 13101	17607	false	closed	false	1		2017-05-18T16:27:33Z	2017-05-18T17:20:19Z	2017-05-18T17:20:19Z	inspector/test-not-blocked-on-idle is failing semi-consistently	161		
@@ -6490,5 +6490,5 @@
 13116	2512748	true	open	false	0	0	2017-05-19T16:19:27Z	2017-05-19T16:19:27Z		src: fix coverity warnings	36		
 13117	15943089	false	open	false	0		2017-05-19T16:36:31Z	2017-05-19T16:36:31Z		Run coverity on PRs	40		
 13118	899444	true	open	false	0	0	2017-05-19T16:56:16Z	2017-05-19T16:56:16Z		doc: link to `common` docs in test writing guide	21		
-13119	17607	false	open	false	0		2017-05-19T17:47:51Z	2017-05-19T17:47:51Z		"dns.lookup allows a ""falsy"" hostname, but behaviour is undocumented"	175		
+13119	17607	false	open	false	0		2017-05-19T17:47:51Z	2017-05-19T18:35:03Z		"dns.lookup allows a ""falsy"" hostname, but behaviour is undocumented and appears useless"	175		
 13120	17607	true	open	false	0	0	2017-05-19T17:58:21Z	2017-05-19T17:58:21Z		src: redirect-warnings to file, not path	44		
