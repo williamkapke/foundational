@@ -51,6 +51,7 @@
 1568	1848357	true	closed	false	33		2015-04-30T18:13:47Z	2017-02-22T01:02:32Z	2017-02-22T01:02:32Z	core: implement resourceUsage()	79		
 1592	617235	false	closed	false	206		2015-05-02T19:25:40Z	2016-10-05T19:11:59Z	2016-10-05T19:11:59Z	gripe: deprecating fs.exists/existsSync	202		
 1634	495647	false	open	false	10		2015-05-06T04:07:08Z	2016-08-03T18:19:05Z		Race condition on history file with multiple REPLs	57		
+1644	97469	false	closed	false	14		2015-05-06T19:40:05Z	2017-05-21T13:54:17Z	2017-05-21T13:54:17Z	`dns.resolve` fails when the io/node process starts without an active network connection	113		
 1671	291301	false	open	false	52		2015-05-11T05:25:09Z	2017-03-10T14:14:49Z		`Buffer` and `ArrayBuffer`-based objects trigger mark-sweeps instead of scavenges	68		
 1684	291301	false	open	false	8		2015-05-12T14:14:52Z	2016-06-29T11:15:27Z		Put a warning against misusing `*Sync` methods to the API docs.	193		
 1690	10612009	false	closed	false	7		2015-05-13T08:56:13Z	2016-07-07T20:40:26Z	2016-07-07T20:40:26Z	[dgram]no udp multicast message received when binding on a specific address	278		
@@ -6420,7 +6421,7 @@
 13045	54666	false	closed	false	10		2017-05-16T02:16:01Z	2017-05-20T03:29:27Z	2017-05-20T03:29:27Z	test-npm failing on master after introduction of initial async hooks implementation	105		
 13046	718899	true	closed	false	2		2017-05-16T02:50:25Z	2017-05-19T05:42:34Z	2017-05-19T05:42:34Z	(v6.x backport) buffer,util: refactor for performance	78		
 13047	432351	true	closed	false	1		2017-05-16T03:42:24Z	2017-05-18T05:23:45Z	2017-05-18T05:23:45Z	test: add hasCrypto to tls-lookup	67		
-13048	21603	false	open	false	4		2017-05-16T08:55:22Z	2017-05-21T12:11:27Z		Major performance regression from 6.10.2 to 7.x and 8.0.0-test	430		
+13048	21603	false	open	false	6		2017-05-16T08:55:22Z	2017-05-21T13:48:26Z		Major performance regression from 6.10.2 to 7.x and 8.0.0-test	430		
 13049	3634726	false	closed	false	2		2017-05-16T09:49:58Z	2017-05-17T08:41:35Z	2017-05-17T08:41:35Z	Has a problem with child_process.exec.	38		
 13050	2842176	true	closed	false	29		2017-05-16T10:46:16Z	2017-05-19T16:12:40Z	2017-05-18T21:13:07Z	dns: fix crash while using dns.setServers after dns.resolve4	159		
 13051	2376199	false	closed	false	3		2017-05-16T11:38:14Z	2017-05-16T18:52:03Z	2017-05-16T18:52:03Z	Arguments list for the http upgrade event does not match example	40		
@@ -6448,7 +6449,7 @@
 13073	115237	true	open	false	0	0	2017-05-17T05:44:14Z	2017-05-17T05:44:14Z		(v6.x backport) #9532	7		
 13074	128856	true	open	false	8		2017-05-17T07:02:05Z	2017-05-19T19:03:28Z		vm: fix race condition with `timeout` param	183		
 13075	16603080	false	open	false	3		2017-05-17T07:29:11Z	2017-05-17T09:14:14Z		/usr/bin/node[14405]: ../src/node_http_parser.cc:398:static void node::Parser::Execute(const v8::FunctionCallbackInfo<v8::Value>&): Assertion `(parser->current_buffer_len_) == (0)' failed.	76		
-13076	2842176	true	open	false	10		2017-05-17T09:37:17Z	2017-05-21T01:41:02Z		dns: fix `resolve` failed starts without network	353		
+13076	2842176	true	closed	false	11		2017-05-17T09:37:17Z	2017-05-21T13:53:09Z	2017-05-21T13:53:09Z	dns: fix `resolve` failed starts without network	353		
 13077	27954280	false	open	false	0		2017-05-17T10:28:07Z	2017-05-17T10:28:07Z		events.js:163 throw er; // Unhandled 'error' event	186		
 13078	432351	true	open	false	1		2017-05-17T11:24:09Z	2017-05-17T12:06:47Z		build: don't link node.dll for cctest target	193		
 13079	5540988	false	closed	false	0		2017-05-17T11:57:43Z	2017-05-17T12:26:03Z	2017-05-17T12:26:03Z	Is it any possible for Video compression using by nodejs? 	26		
@@ -6511,3 +6512,5 @@
 13136	1587282	true	open	false	0		2017-05-21T04:35:47Z	2017-05-21T05:36:37Z		doc: update repo url in license file	51		
 13137	2842176	true	open	false	0		2017-05-21T10:11:47Z	2017-05-21T11:27:22Z		[WIP] dns: add resolveAny support	105		
 13138	10393198	true	open	false	0	0	2017-05-21T10:26:41Z	2017-05-21T10:26:41Z		doc: update code example for Windows in stream.md	103		
+13139	1442575	false	open	false	0		2017-05-21T13:34:46Z	2017-05-21T13:34:46Z		Questions: will nodejs expose SetPromiseHook of V8 as javascript API in the future?	88		
+13140	1086596	false	open	false	0		2017-05-21T13:59:05Z	2017-05-21T13:59:05Z		Array of one item is not truly non-empty!	307		
