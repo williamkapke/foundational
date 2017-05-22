@@ -5923,7 +5923,7 @@
 12545	15608388	true	closed	false	7		2017-04-20T17:11:02Z	2017-05-11T09:58:56Z	2017-05-11T09:58:56Z	test: dynamic port in test cluster disconnect	54		
 12546	2512748	true	closed	false	4		2017-04-20T17:53:43Z	2017-05-17T12:17:49Z	2017-04-25T16:46:57Z	src: expose V8's IsNativeError() in util bindings	63		
 12547	15608388	true	closed	false	2	0	2017-04-20T18:13:37Z	2017-04-24T20:44:15Z	2017-04-24T20:44:15Z	test: dynamic port in test cluster eaddrinuse	54		
-12548	432351	true	open	false			2017-04-20T18:18:44Z	2017-05-18T08:18:16Z		src: call linux getauxval(AT_SECURE) in SafeGetenv	47		
+12548	432351	true	open	false	13		2017-04-20T18:18:44Z	2017-05-22T13:36:17Z		src: call linux getauxval(AT_SECURE) in SafeGetenv	47		
 12549	9373002	true	closed	false	27		2017-04-20T18:25:08Z	2017-05-08T18:49:44Z	2017-04-28T21:09:57Z	doc: Add initial documentation for N-API	102		
 12550	1570449	true	closed	false	0		2017-04-20T18:57:56Z	2017-04-20T19:18:25Z	2017-04-20T19:18:25Z	fixes fs.watch docs typo	7		
 12551	13093042	true	closed	false	8		2017-04-20T20:27:15Z	2017-05-05T16:18:23Z	2017-04-27T20:34:54Z	n-api: Reference and external tests	73		
@@ -6202,7 +6202,7 @@
 12825	1538624	false	closed	false	1		2017-05-04T06:13:53Z	2017-05-20T07:38:34Z	2017-05-20T07:38:34Z	url: erroneous WHATWG whitespace handling	286		
 12826	432351	true	closed	false	10		2017-05-04T08:13:10Z	2017-05-18T05:19:31Z	2017-05-16T08:04:09Z	src: only call FatalException if not verbose	41		
 12827	432351	true	closed	false	6		2017-05-04T12:56:11Z	2017-05-19T05:29:38Z	2017-05-18T22:18:24Z	src: split CryptoPemCallback into two functions	107		
-12828	1128607	true	open	false	31		2017-05-04T14:29:32Z	2017-05-22T12:24:02Z		stream: add final method	103		
+12828	1128607	true	open	false	33		2017-05-04T14:29:32Z	2017-05-22T13:14:40Z		stream: add final method	103		
 12829	291301	false	open	false	0		2017-05-04T14:42:05Z	2017-05-04T19:29:38Z		doc: the «Deprecated» stability index description is inaccurate	134		
 12830	100928	true	closed	false	13		2017-05-04T15:30:33Z	2017-05-12T00:42:17Z	2017-05-12T00:42:17Z	doc: Change test option at STEP 5: Test in CONTRIBUTING.md	23		
 12831	5886475	true	closed	false	2		2017-05-04T15:39:00Z	2017-05-07T20:24:00Z	2017-05-07T20:24:00Z	test: complete coverage of buffer	199		
@@ -6451,7 +6451,7 @@
 13075	16603080	false	open	false	3		2017-05-17T07:29:11Z	2017-05-17T09:14:14Z		/usr/bin/node[14405]: ../src/node_http_parser.cc:398:static void node::Parser::Execute(const v8::FunctionCallbackInfo<v8::Value>&): Assertion `(parser->current_buffer_len_) == (0)' failed.	76		
 13076	2842176	true	closed	false	11		2017-05-17T09:37:17Z	2017-05-21T13:53:09Z	2017-05-21T13:53:09Z	dns: fix `resolve` failed starts without network	353		
 13077	27954280	false	open	false	0		2017-05-17T10:28:07Z	2017-05-17T10:28:07Z		events.js:163 throw er; // Unhandled 'error' event	186		
-13078	432351	true	open	false	1		2017-05-17T11:24:09Z	2017-05-17T12:06:47Z		build: don't link node.dll for cctest target	193		
+13078	432351	true	open	false	5		2017-05-17T11:24:09Z	2017-05-22T13:15:41Z		build: don't link node.dll for cctest target	193		
 13079	5540988	false	closed	false	0		2017-05-17T11:57:43Z	2017-05-17T12:26:03Z	2017-05-17T12:26:03Z	Is it any possible for Video compression using by nodejs? 	26		
 13080	275871	true	open	false	0		2017-05-17T12:58:10Z	2017-05-17T14:55:10Z		v8: fix stack overflow in recursive method (v4.x)	44		
 13081	432351	true	open	false	1		2017-05-17T13:27:43Z	2017-05-22T05:41:04Z		src: remove unnecessary forward declaration	51		
@@ -6471,7 +6471,7 @@
 13095	432351	true	closed	false	2	0	2017-05-18T06:59:13Z	2017-05-22T03:56:12Z	2017-05-22T03:56:12Z	src: remove unused node_buffer.h include	43		
 13096	7666621	true	closed	false	9		2017-05-18T08:11:49Z	2017-05-22T07:04:46Z	2017-05-21T20:31:17Z	test: add constructor test to async-hooks	47		
 13097	432351	true	closed	false	3		2017-05-18T08:44:33Z	2017-05-22T05:36:12Z	2017-05-22T05:36:12Z	src: check IsConstructCall in TLSWrap constructor	134		
-13098	4923335	true	closed	false	24		2017-05-18T10:02:03Z	2017-05-22T12:03:30Z	2017-05-21T22:21:50Z	zlib: fix node crashing on invalid options	97		
+13098	4923335	true	closed	false	30		2017-05-18T10:02:03Z	2017-05-22T13:02:44Z	2017-05-21T22:21:50Z	zlib: fix node crashing on invalid options	97		
 13099	100233	false	closed	false	1		2017-05-18T14:29:22Z	2017-05-19T12:45:04Z	2017-05-19T12:45:04Z	strange behaviour of [] in start of the line	106		
 13100	96947	true	open	false	5		2017-05-18T15:26:33Z	2017-05-19T12:26:22Z		test,dgram: harden test-dgram-bind-shared-ports.js	64		
 13101	17607	false	closed	false	1		2017-05-18T16:27:33Z	2017-05-18T17:20:19Z	2017-05-18T17:20:19Z	inspector/test-not-blocked-on-idle is failing semi-consistently	161		
@@ -6506,7 +6506,7 @@
 13130	833473	true	open	false	7		2017-05-20T15:02:08Z	2017-05-20T21:01:11Z		cli: accept /dev/stdin as input file on Linux	80		
 13131	4923335	false	open	false	1		2017-05-20T16:24:22Z	2017-05-20T17:09:16Z		doc: make the style of notes consistent	99		
 13132	718899	true	open	false	0	0	2017-05-20T16:53:08Z	2017-05-20T16:53:08Z		test: confirm callback is invoked in fs test	37		
-13133	4923335	true	open	false			2017-05-20T20:40:03Z	2017-05-21T06:26:21Z		doc: make the style of notes consistent	81		
+13133	4923335	true	open	false	0		2017-05-20T20:40:03Z	2017-05-22T13:19:04Z		doc: make the style of notes consistent	81		
 13134	4923335	true	open	false	0	0	2017-05-20T22:10:26Z	2017-05-20T22:10:26Z		doc: fix incorrect keyboard shortcut	52		
 13135	4923335	true	open	false			2017-05-20T23:15:16Z	2017-05-22T00:44:39Z		doc: improve formatting of STYLE_GUIDE.md	31		
 13136	1587282	true	open	false	0		2017-05-21T04:35:47Z	2017-05-21T05:36:37Z		doc: update repo url in license file	51		
@@ -6523,5 +6523,6 @@
 13147	718899	true	open	false	0		2017-05-22T01:33:46Z	2017-05-22T02:05:58Z		test: fix disabled test-fs-largefile	92		
 13148	11958657	false	open	false	0		2017-05-22T02:27:25Z	2017-05-22T02:27:25Z		Why --debug must be put before debugged file?	11		
 13149	8774679	true	open	false	0		2017-05-22T10:56:51Z	2017-05-22T11:03:02Z		net: multiple listen() events fail silently	98		
-13150	15943003	false	open	false	0		2017-05-22T12:06:18Z	2017-05-22T12:06:18Z		make and amd64	65		
+13150	15943003	false	open	false	1		2017-05-22T12:06:18Z	2017-05-22T13:01:26Z		make and amd64	68		
 13151	9494729	false	open	false	0		2017-05-22T12:27:40Z	2017-05-22T12:27:40Z		serialport error	153		
+13152	4691768	false	open	false	0		2017-05-22T13:54:16Z	2017-05-22T13:54:16Z		Problem to build sprite with gulp-spritesmith	167		
