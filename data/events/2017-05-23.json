@@ -1,10 +1,10 @@
 {
-  "words": 1156,
-  "comments": 22,
+  "words": 2212,
+  "comments": 48,
   "prs": {
-    "opened": 5,
-    "closed": 0,
-    "words": 1156
+    "opened": 8,
+    "closed": 1,
+    "words": 2212
   },
   "issues": {
     "opened": 0,
@@ -17,7 +17,12 @@
     "Intl": {"open":20},
     "LTS": {"open":28},
     "NG": {"open":27},
-    "TSC": {"open":46},
+    "TSC": {
+      "271": {"comments":1,"words":1,"pr":true},
+      "open": 46,
+      "words": 1,
+      "comments": 1
+    },
     "abi-stable-node": {"open":36},
     "abi-stable-node-addon-examples": {"open":0},
     "api": {"open":8},
@@ -63,10 +68,10 @@
     "http": {"open":14},
     "http-parser": {"open":57},
     "http2": {
-      "138": {"comments":1,"words":74,"pr":true},
+      "138": {"comments":2,"words":121,"pr":true},
       "open": 28,
-      "words": 74,
-      "comments": 1
+      "words": 121,
+      "comments": 2
     },
     "inclusivity": {"open":19},
     "inclusivity-slack-inviter": {"open":1},
@@ -78,18 +83,32 @@
     "nan": {"open":33},
     "node": {
       "12607": {"comments":4,"words":105,"pr":true},
+      "12925": {"comments":1,"words":8,"pr":true},
+      "12936": {"comments":1,"words":28,"pr":true},
+      "12941": {"comments":1,"words":90,"pr":true},
       "12991": {"comments":1,"words":25,"pr":true},
       "13000": {"comments":1,"words":6,"pr":true},
       "13012": {"comments":1,"words":19,"pr":true},
+      "13013": {"comments":1,"words":26,"pr":true},
       "13059": {"comments":1,"words":55,"pr":true},
+      "13078": {"comments":4,"words":139,"pr":true},
       "13098": {"comments":4,"words":91,"pr":true},
-      "13143": {"comments":1,"words":9,"pr":true},
-      "13161": {"comments":1,"words":263,"opened":"2017-05-23T00:10:46Z","opener":"495647","pr":true},
+      "13113": {"comments":1,"words":14,"pr":true},
+      "13122": {"comments":0,"words":35,"pr":true,"closed":"2017-05-23T03:07:12Z","closer":"54666"},
+      "13137": {"comments":1,"words":9,"pr":true},
+      "13143": {"comments":3,"words":128,"pr":true},
+      "13153": {"comments":1,"words":9,"pr":true},
+      "13155": {"comments":2,"words":109,"pr":true},
+      "13161": {"comments":3,"words":318,"opened":"2017-05-23T00:10:46Z","opener":"495647","pr":true},
       "13162": {"comments":2,"words":287,"pr":true,"opened":"2017-05-23T01:46:16Z","opener":"79017"},
-      "open": 1051,
-      "words": 860,
-      "opened": 2,
-      "comments": 16
+      "13163": {"comments":1,"words":69,"pr":true,"opened":"2017-05-23T03:06:44Z","opener":"718899"},
+      "13164": {"comments":3,"words":100,"pr":true,"opened":"2017-05-23T03:07:25Z","opener":"718899"},
+      "13165": {"comments":3,"words":198,"pr":true,"opened":"2017-05-23T03:07:50Z","opener":"718899"},
+      "open": 1053,
+      "words": 1868,
+      "opened": 5,
+      "comments": 40,
+      "closed": 1
     },
     "node-addon-api": {
       "47": {"comments":0,"words":68,"pr":true,"opened":"2017-05-23T00:05:57Z","opener":"13093042"},
@@ -176,12 +195,26 @@
     "vm": {"open":1}
   },
   "users": {
+    "17535": {
+      "id": "17535",
+      "login": "zkat",
+      "words": {
+        "node/pulls/12936#303279987": 28
+      }
+    },
     "54666": {
       "id": "54666",
       "login": "mscdex",
       "words": {
-        "node/pulls/12607#303273108": 33
-      }
+        "node/pulls/12607#303273108": 33,
+        "node/pulls/13122": 35,
+        "node/pulls/13165#117889297": 23,
+        "node/pulls/13113#303278364": 14,
+        "node/pulls/13155#303280771": 62
+      },
+      "closed": [
+        "node/pulls/13122"
+      ]
     },
     "78718": {
       "id": "78718",
@@ -210,7 +243,14 @@
         "node/pulls/12607#303272402": 22,
         "node/pulls/12607#303273195": 18,
         "node/pulls/12607#303273803": 32,
-        "node/pulls/13012#303275086": 19
+        "node/pulls/13012#303275086": 19,
+        "node/pulls/12941#303278640": 90,
+        "node/pulls/13143#303280015": 83,
+        "node/pulls/13164#303280651": 16,
+        "node/pulls/13078#303282146": 19,
+        "node/pulls/13078#303282674": 12,
+        "node/pulls/13164#303282766": 1,
+        "node/pulls/13165#117892597": 19
       },
       "opened": [
         "citgm/pulls/422"
@@ -230,11 +270,34 @@
         "node/pulls/13143#303258639": 9
       }
     },
+    "234659": {
+      "id": "234659",
+      "login": "bmeck",
+      "words": {
+        "node/pulls/13143#303279256": 36
+      }
+    },
+    "432351": {
+      "id": "432351",
+      "login": "danbev",
+      "words": {
+        "node/pulls/13161#303280761": 23,
+        "node/pulls/13078#117891582": 55,
+        "node/pulls/13078#303283181": 53
+      }
+    },
     "439929": {
       "id": "439929",
       "login": "jasnell",
       "words": {
-        "node/pulls/13162#303270844": 8
+        "node/pulls/13162#303270844": 8,
+        "TSC/pulls/271#303277308": 1,
+        "http2/pulls/138#303277719": 47,
+        "node/pulls/13155#303278946": 47,
+        "node/pulls/13163#117890467": 11,
+        "node/pulls/13013#303282787": 26,
+        "node/pulls/12925#303283014": 8,
+        "node/pulls/13153#303283364": 9
       }
     },
     "495647": {
@@ -254,6 +317,23 @@
         "node/pulls/13059#303256768": 55
       }
     },
+    "718899": {
+      "id": "718899",
+      "login": "Trott",
+      "words": {
+        "node/pulls/13163": 58,
+        "node/pulls/13164": 38,
+        "node/pulls/13165": 40,
+        "node/pulls/13137#303281730": 9,
+        "node/pulls/13164#303282676": 45,
+        "node/pulls/13165#117892650": 116
+      },
+      "opened": [
+        "node/pulls/13163",
+        "node/pulls/13164",
+        "node/pulls/13165"
+      ]
+    },
     "739813": {
       "id": "739813",
       "login": "williamkapke",
@@ -265,7 +345,8 @@
       "id": "782880",
       "login": "shigeki",
       "words": {
-        "node/pulls/13161#303262336": 100
+        "node/pulls/13161#303262336": 100,
+        "node/pulls/13161#303282483": 32
       }
     },
     "931192": {
