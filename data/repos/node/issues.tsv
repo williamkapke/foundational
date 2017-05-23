@@ -1243,7 +1243,7 @@
 7853	516780	false	open	false	12		2016-07-23T19:28:07Z	2016-10-07T22:02:11Z		node --debug takes a really long time to respond to websockets	180		
 7854	1084056	true	closed	false	10		2016-07-23T20:09:19Z	2016-08-02T14:08:28Z	2016-08-02T14:08:28Z	test: fix test-vm-sigint flakiness	68		
 7855	1422781	true	open	false			2016-07-23T20:38:28Z	2017-03-03T20:20:28Z		dgram: setMulticastInterface() outgoing interface selection	72		
-7856	373545	true	closed	false	43		2016-07-23T20:49:58Z	2017-05-16T20:32:33Z	2016-11-08T17:50:17Z	fs: Fix default params for fs.write	81		
+7856	373545	true	closed	false	44		2016-07-23T20:49:58Z	2017-05-23T21:24:22Z	2016-11-08T17:50:17Z	fs: Fix default params for fs.write	81		
 7857	718899	true	closed	false	26		2016-07-23T21:15:43Z	2016-07-31T20:33:10Z	2016-07-31T20:33:10Z	test: fix flaky test-tls-wrap-timeout	59		
 7858	3524633	false	closed	false	24		2016-07-24T00:23:34Z	2016-12-21T22:17:35Z	2016-07-25T15:53:16Z	Add fsevents to NodeJS	150		
 7859	1084056	true	closed	false	9	5	2016-07-24T06:28:47Z	2016-07-31T21:08:12Z	2016-07-31T21:08:12Z	tools,test: show signal code when test crashes	31	1084056	2016-07-31T21:08:12Z
@@ -3523,7 +3523,7 @@
 10134	7834613	true	closed	false	12		2016-12-06T03:11:55Z	2017-03-07T23:53:48Z	2017-01-06T18:15:29Z	http: Eliminate ClientRequest capture by Agent socket listeners	137		
 10135	275871	true	closed	false	34	25	2016-12-06T03:55:43Z	2017-04-19T09:04:42Z	2017-04-19T09:04:42Z	lib: be robust when process global is clobbered	66		
 10136	2920525	true	closed	false	2		2016-12-06T05:44:11Z	2016-12-12T15:11:09Z	2016-12-12T15:11:09Z	doc: fix typo in code example of 'path' module	30		
-10137	680220	false	closed	false	12		2016-12-06T08:02:41Z	2017-04-16T13:43:15Z	2016-12-08T13:40:07Z	FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memory	199		
+10137	680220	false	closed	false	13		2016-12-06T08:02:41Z	2017-05-23T21:18:07Z	2016-12-08T13:40:07Z	FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memory	199		
 10138	327019	true	closed	false	4	6	2016-12-06T09:48:18Z	2017-01-13T15:27:58Z	2017-01-13T15:27:58Z	http: make the expression test more faster	85		
 10139	1559888	true	closed	false	2		2016-12-06T11:39:01Z	2016-12-06T14:35:24Z	2016-12-06T12:52:36Z	Build, warning, header, and include fixes	438		
 10140	1559888	true	open	false	1		2016-12-06T13:28:16Z	2017-03-24T22:57:52Z		build: --without-profiler option, add Windows build options	95		
@@ -5901,7 +5901,7 @@
 12522	96947	true	closed	false	4		2017-04-19T20:26:27Z	2017-05-16T13:23:06Z	2017-04-21T13:26:13Z	build, icu: fix case in lib names	36		
 12523	1538624	true	closed	false	9		2017-04-19T22:09:11Z	2017-04-24T23:36:41Z	2017-04-24T23:36:41Z	url: update WHATWG URL parser to latest spec	161		
 12524	13093042	true	closed	false	7		2017-04-19T22:32:23Z	2017-04-25T20:05:42Z	2017-04-25T20:05:42Z	n-api: Enable scope and ref APIs during exception	179		
-12525	5803170	true	open	false	8		2017-04-19T22:40:53Z	2017-05-23T14:23:14Z		querystring: improve querystring unescapeBuffer perf	81		
+12525	5803170	true	open	false	11		2017-04-19T22:40:53Z	2017-05-23T21:51:16Z		querystring: improve querystring unescapeBuffer perf	81		
 12526	1538624	true	closed	false	1		2017-04-20T06:13:39Z	2017-04-24T23:43:38Z	2017-04-24T23:43:38Z	url: use util's getConstructorOf	18		
 12527	718899	true	closed	false	1		2017-04-20T06:16:16Z	2017-04-24T21:22:11Z	2017-04-24T21:22:11Z	test: check that pending warning is emitted once	63		
 12528	1384537	true	closed	false	1		2017-04-20T08:21:13Z	2017-04-24T21:06:13Z	2017-04-24T21:06:13Z	module: correcting comment spelling	30		
@@ -6301,7 +6301,7 @@
 12923	170197	false	closed	false	5		2017-05-09T16:52:48Z	2017-05-10T14:12:02Z	2017-05-10T05:33:20Z	inconsistent URLSearchParams encoding	25		
 12924	196729	true	closed	false	0		2017-05-09T17:37:14Z	2017-05-09T18:18:20Z	2017-05-09T18:18:20Z	doc: fix typo in streams.md	36		
 12925	52195	true	closed	false	31		2017-05-09T17:39:18Z	2017-05-23T03:48:59Z	2017-05-22T06:35:26Z	stream: add destroy and _destroy methods.	84		
-12926	9373002	true	open	false	10		2017-05-09T18:32:44Z	2017-05-23T20:51:28Z		dgram: convert to using internal/errors	126		
+12926	9373002	true	open	false	11		2017-05-09T18:32:44Z	2017-05-23T21:37:05Z		dgram: convert to using internal/errors	126		
 12927	2512748	true	closed	false	2	2	2017-05-09T18:33:55Z	2017-05-11T19:28:53Z	2017-05-11T19:28:53Z	https: support agent construction without new	34	2512748	2017-05-11T19:28:53Z
 12928	3286504	false	closed	false	0		2017-05-09T18:36:24Z	2017-05-12T12:23:31Z	2017-05-12T09:21:34Z	Doc link broken	24		
 12929	7041980	true	open	false	17		2017-05-09T19:25:23Z	2017-05-22T06:41:08Z		test: replace port in dgram cd address empty test	42		
@@ -6375,7 +6375,7 @@
 12997	96947	false	open	false	0		2017-05-12T14:55:33Z	2017-05-17T14:04:57Z		test: investigate async-hooks/test-tcpwrap for flakiness on Linux	64		
 12998	439929	true	closed	false	2	0	2017-05-12T15:39:30Z	2017-05-15T15:31:24Z	2017-05-15T15:31:24Z	util: fixup internal util exports	43		
 12999	7041980	true	closed	false	22		2017-05-12T15:47:16Z	2017-05-13T22:19:09Z	2017-05-13T22:19:09Z	test: moved dgram bind shared ports to sequential	48		
-13000	1485909	true	open	false	5		2017-05-12T17:52:52Z	2017-05-23T18:13:20Z		async_wrap,src: promise hook integration	57		
+13000	1485909	true	open	false			2017-05-12T17:52:52Z	2017-05-23T21:12:38Z		async_wrap,src: promise hook integration	57		
 13001	193412	false	open	false	21		2017-05-12T18:15:08Z	2017-05-17T18:53:15Z		Proposal: change deprecation policy	205		
 13002	17607	true	open	false	7		2017-05-12T19:43:44Z	2017-05-17T19:36:51Z		src: whitelist new options for NODE_OPTIONS	54		
 13003	96947	true	open	false	6		2017-05-12T19:49:37Z	2017-05-16T03:38:50Z		test: refactor test-net-connect-options-allowhalfopen.js	46		
@@ -6547,5 +6547,8 @@
 13170	1891017	false	open	false	5		2017-05-23T14:29:52Z	2017-05-23T16:28:33Z		HTTPS Server crashing randomly (With solution)	108		
 13171	2512748	true	open	false			2017-05-23T15:53:47Z	2017-05-23T16:12:15Z		test: add coverage for socket write after close	50		
 13172	17607	true	open	false	0	0	2017-05-23T16:14:31Z	2017-05-23T16:14:31Z		src: allow --tls-cipher-list in NODE_OPTIONS	36		
-13173	96947	true	open	false			2017-05-23T16:17:45Z	2017-05-23T20:15:16Z		fs: expose Stats times as Numbers	59		
+13173	96947	true	open	false	3		2017-05-23T16:17:45Z	2017-05-23T21:07:34Z		fs: expose Stats times as Numbers	59		
 13174	899444	true	open	false	0	0	2017-05-23T17:58:56Z	2017-05-23T17:58:56Z		src: make StreamBase::GetAsyncWrap pure virtual	45		
+13176	899444	false	open	false	0		2017-05-23T21:10:27Z	2017-05-23T21:10:27Z		What does SecureContext::EnableTicketKeyCallback do?	86		
+13177	899444	true	open	false	0	0	2017-05-23T21:18:23Z	2017-05-23T21:18:23Z		async_hooks: only set up hooks if used	87		
+13178	9373002	true	open	false	0	0	2017-05-23T21:35:08Z	2017-05-23T21:35:08Z		test: add coverage for napi_has_named_property	38		
