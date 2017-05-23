@@ -5489,7 +5489,7 @@
 12109	5886475	true	open	false	0		2017-03-29T02:51:01Z	2017-04-10T22:46:29Z		backport: v7.x - #11989 - test: add internal/socket_list tests	40		
 12110	432351	true	closed	false	0		2017-03-29T05:44:40Z	2017-03-31T05:22:41Z	2017-03-31T05:22:41Z	test: fix truncation of argv	83		
 12111	718899	true	closed	false	22		2017-03-29T05:50:22Z	2017-03-31T05:50:15Z	2017-03-31T05:50:15Z	test: fix flaky child-process-exec-kill-throws	115		
-12112	1443911	true	open	false	1		2017-03-29T06:43:22Z	2017-05-03T10:11:45Z		v7.x backport: http: avoid retaining unneeded memory	4		
+12112	1443911	true	open	false	2		2017-03-29T06:43:22Z	2017-05-23T07:36:26Z		v7.x backport: http: avoid retaining unneeded memory	4		
 12113	54666	true	closed	false	8		2017-03-29T07:45:35Z	2017-05-04T12:30:28Z	2017-04-04T17:15:23Z	linkedlist: remove public module	48		
 12114	413206	false	open	false	5		2017-03-29T08:50:05Z	2017-04-07T13:40:15Z		base64 decoder could be 2x faster when decoding wrapped base64	224		
 12115	7016138	false	open	false	50		2017-03-29T09:24:52Z	2017-05-14T11:55:12Z		Node occasionally gives multiple files/folders the same inode	310		
@@ -6327,7 +6327,7 @@
 12950	96947	false	closed	false	13		2017-05-10T19:45:45Z	2017-05-16T03:04:19Z	2017-05-16T03:04:19Z	test: flaky parallel/test-net-connect-local-error on macOS & freeBSD	54		
 12951	96947	false	closed	false	2		2017-05-10T19:47:21Z	2017-05-15T22:43:30Z	2017-05-15T22:43:30Z	test: flaky parallel/test-net-connect-options-allowhalfopen on macOS & freeBSD	497		
 12952	1665373	false	open	false	0		2017-05-10T19:49:10Z	2017-05-10T20:19:15Z		OpenSSL have collisions in node.dll	36		
-12953	192891	true	open	false			2017-05-10T21:17:36Z	2017-05-22T15:03:28Z		docs: documenting async hooks features	70		
+12953	192891	true	open	false			2017-05-10T21:17:36Z	2017-05-23T07:21:14Z		docs: documenting async hooks features	70		
 12954	298166	true	closed	false	7	0	2017-05-10T21:51:42Z	2017-05-12T20:47:48Z	2017-05-12T20:47:48Z	test: fix wording for presence of headers	49		
 12955	8503065	false	closed	false	5		2017-05-11T01:12:23Z	2017-05-12T14:20:52Z	2017-05-12T14:20:52Z	when will Node.js' Webassembly API be synchronized with the browser?	39		
 12956	127971	false	open	false	13		2017-05-11T01:29:04Z	2017-05-11T18:29:40Z		Don't use userobject.call/userobject.apply	58		
@@ -6374,7 +6374,7 @@
 12997	96947	false	open	false	0		2017-05-12T14:55:33Z	2017-05-17T14:04:57Z		test: investigate async-hooks/test-tcpwrap for flakiness on Linux	64		
 12998	439929	true	closed	false	2	0	2017-05-12T15:39:30Z	2017-05-15T15:31:24Z	2017-05-15T15:31:24Z	util: fixup internal util exports	43		
 12999	7041980	true	closed	false	22		2017-05-12T15:47:16Z	2017-05-13T22:19:09Z	2017-05-13T22:19:09Z	test: moved dgram bind shared ports to sequential	48		
-13000	1485909	true	open	false			2017-05-12T17:52:52Z	2017-05-23T07:11:47Z		async_wrap,src: promise hook integration	57		
+13000	1485909	true	open	false			2017-05-12T17:52:52Z	2017-05-23T07:16:43Z		async_wrap,src: promise hook integration	57		
 13001	193412	false	open	false	21		2017-05-12T18:15:08Z	2017-05-17T18:53:15Z		Proposal: change deprecation policy	205		
 13002	17607	true	open	false	7		2017-05-12T19:43:44Z	2017-05-17T19:36:51Z		src: whitelist new options for NODE_OPTIONS	54		
 13003	96947	true	open	false	6		2017-05-12T19:49:37Z	2017-05-16T03:38:50Z		test: refactor test-net-connect-options-allowhalfopen.js	46		
@@ -6515,7 +6515,7 @@
 13139	1442575	false	closed	false	9		2017-05-21T13:34:46Z	2017-05-21T18:25:11Z	2017-05-21T18:25:10Z	Questions: will nodejs expose SetPromiseHook of V8 as javascript API in the future?	88		
 13140	1086596	false	closed	false	1		2017-05-21T13:59:05Z	2017-05-21T14:09:36Z	2017-05-21T14:09:36Z	Array of one item is not truly non-empty!	307		
 13141	432351	true	closed	false	2		2017-05-21T17:28:49Z	2017-05-23T06:41:29Z	2017-05-23T06:41:29Z	test: add hasCrypto check to async-wrap-GH13045	49		
-13142	899444	true	open	false	0	0	2017-05-21T18:15:55Z	2017-05-21T18:15:55Z		async_hooks: implement C++ embedder API	67		
+13142	899444	true	open	false			2017-05-21T18:15:55Z	2017-05-23T07:39:17Z		async_hooks: implement C++ embedder API	67		
 13143	899444	false	open	false	11		2017-05-21T18:44:07Z	2017-05-23T03:18:40Z		Tracking issue: Worker support	354		
 13144	54666	false	open	false	2		2017-05-21T18:54:04Z	2017-05-22T15:26:55Z		timers: expose rearm()	124		
 13145	10393198	true	open	false	0	0	2017-05-21T19:15:32Z	2017-05-21T19:15:32Z		doc: don't use useless constructors in stream.md	92		
@@ -6528,7 +6528,7 @@
 13152	4691768	false	open	false	0		2017-05-22T13:54:16Z	2017-05-22T14:08:28Z		Problem to build sprite with gulp-spritesmith	175		
 13153	4923335	true	closed	false	5		2017-05-22T14:40:33Z	2017-05-23T03:52:08Z	2017-05-22T15:51:42Z	"Revert ""zlib: fix node crashing on invalid options"""	51		
 13154	910691	true	closed	false	3		2017-05-22T14:40:50Z	2017-05-22T20:37:36Z	2017-05-22T15:01:01Z	tools: tool to sync upstream master with local	167		
-13155	54666	true	open	false			2017-05-22T15:40:13Z	2017-05-23T06:56:33Z		events: improve performance for emit(), on(), and listeners()	111		
+13155	54666	true	open	false	2		2017-05-22T15:40:13Z	2017-05-23T07:23:13Z		events: improve performance for emit(), on(), and listeners()	111		
 13156	52195	true	open	false	8		2017-05-22T16:07:59Z	2017-05-22T18:18:04Z		stream: fix destroy(err, cb) regression	69		
 13157	1131196	false	open	false	0		2017-05-22T17:09:16Z	2017-05-22T17:09:16Z		gdljuigu	6		
 13158	2512748	true	open	false			2017-05-22T18:05:20Z	2017-05-22T20:12:34Z		test: cover dgram handle send failures	70		
@@ -6540,3 +6540,4 @@
 13164	718899	true	open	false	0	0	2017-05-23T03:07:25Z	2017-05-23T03:07:25Z		test: refactor event-emitter-check-listener-leaks	38		
 13165	718899	true	open	false	0	0	2017-05-23T03:07:50Z	2017-05-23T03:07:50Z		test: refactor event-emitter-remove-all-listeners	40		
 13166	432351	true	open	false	0	0	2017-05-23T06:33:54Z	2017-05-23T06:33:54Z		test: add override to ServerDone function	78		
+13167	432351	true	open	false	0	0	2017-05-23T07:46:02Z	2017-05-23T07:46:02Z		src: fix InspectorStarted macro guard	142		
