@@ -348,7 +348,7 @@
 5195	17178213	false	closed	false	7		2016-02-11T13:48:50Z	2016-10-07T14:37:50Z	2016-10-07T14:37:50Z	[dgram]no udp multicast message received when IP packet identification header is 0x0000	102		
 5196	66357	true	open	false	22		2016-02-11T14:10:43Z	2017-03-26T11:11:41Z		dns: return real system error instead of 'ENOTFOUND'	64		
 5213	439929	false	closed	false	9		2016-02-13T04:41:36Z	2016-08-29T22:13:27Z	2016-08-29T22:13:27Z	Tracking: Revert #5102 when possible	36		
-5251	696611	true	closed	false	83		2016-02-15T23:12:35Z	2017-05-24T09:29:23Z	2017-05-23T18:49:04Z	emit `error` events consistently in next tick	81		
+5251	696611	true	closed	false	84		2016-02-15T23:12:35Z	2017-05-24T10:04:32Z	2017-05-23T18:49:04Z	emit `error` events consistently in next tick	81		
 5256	327019	true	closed	false	29	0	2016-02-16T08:27:34Z	2016-08-01T22:10:12Z	2016-08-01T22:10:12Z	buffer: speed up Buffer.isEncoding() method	9		
 5258	172594	false	open	false	33		2016-02-16T12:06:31Z	2017-05-11T16:24:30Z		Propose NODE_TLS_REJECT_UNAUTHORIZED be renamed	105		
 5261	1715054	false	closed	false	20		2016-02-16T18:43:30Z	2017-04-20T11:23:29Z	2017-04-20T11:23:29Z	Error: EPERM: operation not permitted, open 'C:\Users\username\.node_repl_history'	15		
@@ -4673,7 +4673,7 @@
 11290	5886475	true	open	false	6		2017-02-10T15:26:03Z	2017-02-17T18:20:50Z		test: increase coverage of timers	32		
 11291	2512748	true	closed	false	1	0	2017-02-10T15:34:39Z	2017-02-13T22:27:13Z	2017-02-13T22:27:13Z	test: add coverage for dgram _createSocketHandle()	48	2512748	2017-02-13T22:27:13Z
 11292	2512748	true	closed	false	2		2017-02-10T16:45:16Z	2017-03-07T17:16:50Z	2017-02-14T16:58:13Z	test: cover dgram socket close during cluster bind	72		
-11293	1028226	true	open	false	10		2017-02-10T16:52:01Z	2017-05-24T07:28:40Z		https: use internal/errors.js	43		
+11293	1028226	true	open	false	11		2017-02-10T16:52:01Z	2017-05-24T10:34:07Z		https: use internal/errors.js	43		
 11294	439929	true	open	false	24		2017-02-10T16:57:04Z	2017-04-20T18:32:18Z		errors, process: port internal/process errors to internal/errors	88		
 11295	2512748	true	closed	false	1		2017-02-10T17:00:53Z	2017-03-09T00:04:21Z	2017-02-13T18:33:40Z	test: cover cluster error during dgram socket bind	66		
 11296	22550884	true	open	false	19		2017-02-10T17:28:26Z	2017-03-07T18:26:39Z		lib/src: refactoring out of range index and and migrate error for consistency	57		
@@ -4681,7 +4681,7 @@
 11298	439929	true	closed	false	16		2017-02-10T18:26:16Z	2017-04-24T18:17:22Z	2017-04-24T16:16:02Z	errors: assign error code to bootstrap_node created error	72		
 11299	4299420	false	closed	false	2		2017-02-10T19:10:24Z	2017-03-22T03:17:12Z	2017-03-22T03:17:12Z	New error system in WHATWG URL implementation	59		
 11300	439929	true	closed	false	9		2017-02-10T20:10:25Z	2017-04-27T22:46:20Z	2017-04-27T22:46:20Z	errors, child_process: migrate to using internal/errors	48		
-11301	1028226	true	open	false	7		2017-02-10T20:26:27Z	2017-05-24T05:06:28Z		internal/util: use internal/errors.js	57		
+11301	1028226	true	open	false			2017-02-10T20:26:27Z	2017-05-24T10:32:20Z		internal/util: use internal/errors.js	57		
 11302	1028226	true	closed	false	4		2017-02-10T21:19:34Z	2017-05-23T18:28:33Z	2017-05-23T18:28:33Z	errors,net: change internal/net.js to use internal/errors.js	57		
 11303	718899	true	closed	false	1		2017-02-10T21:57:07Z	2017-02-13T22:23:22Z	2017-02-13T22:23:22Z	test: refactor test-repl-sigint-nested-eval	44		
 11304	718899	true	closed	false	4	0	2017-02-10T22:14:21Z	2017-02-15T20:05:29Z	2017-02-15T20:05:29Z	assert: unlock the assert API	34		
@@ -4972,7 +4972,7 @@
 11589	14098140	false	closed	false	2		2017-02-27T22:14:21Z	2017-03-03T19:42:36Z	2017-03-03T19:42:36Z	Breakpoints can't be set by a debugger (Chrome or VS Code) while the Node program is running	339		
 11590	6991779	true	closed	false	2		2017-02-27T22:15:42Z	2017-03-05T13:21:16Z	2017-03-05T13:21:16Z	 test: changed test1 of test-vm-timeout.js so that entire error message would be matched	63		
 11591	1087603	false	closed	false	17		2017-02-27T22:43:37Z	2017-05-23T09:34:45Z	2017-03-13T19:57:31Z	Chrome DevTools not able to connect to Node inspect since 7.5.0	175		
-11592	9060496	true	open	false			2017-02-27T23:06:56Z	2017-05-23T18:06:59Z		errors, util: migrate to using internal/errors	57		
+11592	9060496	true	open	false			2017-02-27T23:06:56Z	2017-05-24T10:29:26Z		errors, util: migrate to using internal/errors	57		
 11593	585279	false	closed	false	8		2017-02-27T23:20:49Z	2017-02-28T16:32:57Z	2017-02-27T23:36:39Z	Not really possible to use global symbols inside vm	101		
 11594	439929	true	closed	false	6		2017-02-28T01:04:32Z	2017-03-28T22:18:12Z	2017-03-20T23:15:32Z	http: simple code refactoring	45		
 11595	10393198	false	open	false	4		2017-02-28T01:16:00Z	2017-03-23T22:05:39Z		Some possible bugs concerning fs.appendFile() and fs.writeFile()	138		
@@ -6462,8 +6462,8 @@
 13085	54666	true	closed	false	4	0	2017-05-17T21:34:53Z	2017-05-22T20:12:22Z	2017-05-22T20:12:22Z	src: remove unused parameter	28	54666	2017-05-22T20:12:22Z
 13086	9373002	true	closed	false	2		2017-05-17T21:48:21Z	2017-05-19T21:02:39Z	2017-05-19T21:02:39Z	doc: add additional useful ci job to list	32		
 13087	13093042	true	open	false	1		2017-05-18T00:44:32Z	2017-05-19T21:03:30Z		n-api: Retain last code when getting error info	64		
-13088	1740229	true	open	false	3		2017-05-18T00:53:15Z	2017-05-24T04:43:55Z		zlib: expose amount of data read for engines	58		
-13089	1740229	true	open	false			2017-05-18T00:53:19Z	2017-05-23T18:04:05Z		zlib: option for engine in convenience methods	60		
+13088	1740229	true	open	false	4		2017-05-18T00:53:15Z	2017-05-24T10:47:34Z		zlib: expose amount of data read for engines	58		
+13089	1740229	true	open	false	6		2017-05-18T00:53:20Z	2017-05-24T10:49:21Z		zlib: option for engine in convenience methods	60		
 13090	718899	true	open	false	1		2017-05-18T03:07:56Z	2017-05-20T16:20:57Z		dns: synchronize resolve() docs and code	58		
 13091	718899	true	closed	false	1		2017-05-18T03:08:58Z	2017-05-21T05:12:33Z	2017-05-21T05:12:33Z	test: port disabled readline test	47		
 13092	96947	true	closed	false	11		2017-05-18T04:44:28Z	2017-05-20T06:42:22Z	2017-05-20T03:28:56Z	async_wrap: add `asyncReset` to `TLSWrap`	64		
@@ -6516,7 +6516,7 @@
 13139	1442575	false	closed	false	9		2017-05-21T13:34:46Z	2017-05-21T18:25:11Z	2017-05-21T18:25:10Z	Questions: will nodejs expose SetPromiseHook of V8 as javascript API in the future?	88		
 13140	1086596	false	closed	false	1		2017-05-21T13:59:05Z	2017-05-23T09:51:46Z	2017-05-21T14:09:36Z	Array of one item is not truly non-empty!	307		
 13141	432351	true	closed	false	2		2017-05-21T17:28:49Z	2017-05-23T06:41:29Z	2017-05-23T06:41:29Z	test: add hasCrypto check to async-wrap-GH13045	49		
-13142	899444	true	open	false			2017-05-21T18:15:55Z	2017-05-23T20:32:07Z		async_hooks: implement C++ embedder API	67		
+13142	899444	true	open	false			2017-05-21T18:15:55Z	2017-05-24T10:05:22Z		async_hooks: implement C++ embedder API	67		
 13143	899444	false	open	false	14		2017-05-21T18:44:07Z	2017-05-23T20:02:28Z		Tracking issue: Worker support	354		
 13144	54666	false	open	false	2		2017-05-21T18:54:04Z	2017-05-22T15:26:55Z		timers: expose rearm()	124		
 13145	10393198	true	closed	false	0		2017-05-21T19:15:32Z	2017-05-24T00:56:09Z	2017-05-24T00:56:09Z	doc: don't use useless constructors in stream.md	92		
@@ -6556,11 +6556,13 @@
 13179	373545	true	open	false	0	0	2017-05-23T22:02:51Z	2017-05-23T22:02:51Z		fs: Fix default params for fs.write(Sync) (backport to v6)	73		
 13180	289174	false	open	false	0		2017-05-23T22:08:25Z	2017-05-23T22:08:25Z		inconsistency in `StreamBase::WriteBuffer()`	273		
 13181	28588124	false	closed	false	1		2017-05-23T23:48:05Z	2017-05-24T04:53:52Z	2017-05-24T04:53:52Z	async function, FunctionTemplate::New(isolate, CancelFunction)	120		
-13182	10393198	true	open	false	1		2017-05-24T01:10:03Z	2017-05-24T08:53:38Z		doc: fix code example in inspector.md	26		
+13182	10393198	true	open	false	3		2017-05-24T01:10:03Z	2017-05-24T10:49:43Z		doc: fix code example in inspector.md	26		
 13183	718899	true	open	false	0	0	2017-05-24T03:55:29Z	2017-05-24T03:55:29Z		test: use common.mustNotCall in test-crypto-random	40		
 13184	718899	false	open	false	0		2017-05-24T04:02:29Z	2017-05-24T07:49:27Z		Investigate flaky test-tls-socket-close on macOS	114		
 13185	1416085	false	closed	false	2		2017-05-24T04:52:03Z	2017-05-24T09:51:39Z	2017-05-24T06:01:43Z	libcrypto.so.1.0.0 error	105		
 13186	432351	true	open	false	1		2017-05-24T05:18:00Z	2017-05-24T06:47:29Z		test: skip test-bindings if inspector is disabled	70		
-13187	54666	true	open	false	0	0	2017-05-24T05:39:06Z	2017-05-24T05:39:06Z		lib,src: improve writev() performance for Buffers	185		
+13187	54666	true	open	false			2017-05-24T05:39:06Z	2017-05-24T10:11:09Z		lib,src: improve writev() performance for Buffers	195		
 13188	432351	true	open	false	0	0	2017-05-24T07:48:43Z	2017-05-24T07:48:43Z		src: ignore unused warning for inspector-agent.cc	78		
-13189	7311122	false	open	false	0		2017-05-24T08:44:27Z	2017-05-24T09:06:09Z		v4.4.0:use Buffer.from('aaa') and then return this is not a typed Array, but in v4.8.0 is ok	46		
+13189	7311122	false	closed	false	1		2017-05-24T08:44:27Z	2017-05-24T10:41:32Z	2017-05-24T10:41:32Z	v4.4.0:use Buffer.from('aaa') and then return this is not a typed Array, but in v4.8.0 is ok	46		
+13190	432351	true	open	false	0	0	2017-05-24T10:55:47Z	2017-05-24T10:55:47Z		src: correct endif comment SRC_NODE_API_H__	52		
+13191	910691	true	open	false	0	0	2017-05-24T10:56:07Z	2017-05-24T10:56:07Z		src, inspector: clean up base64_encode	115		
