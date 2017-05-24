@@ -4681,7 +4681,7 @@
 11298	439929	true	closed	false	16		2017-02-10T18:26:16Z	2017-04-24T18:17:22Z	2017-04-24T16:16:02Z	errors: assign error code to bootstrap_node created error	72		
 11299	4299420	false	closed	false	2		2017-02-10T19:10:24Z	2017-03-22T03:17:12Z	2017-03-22T03:17:12Z	New error system in WHATWG URL implementation	59		
 11300	439929	true	closed	false	9		2017-02-10T20:10:25Z	2017-04-27T22:46:20Z	2017-04-27T22:46:20Z	errors, child_process: migrate to using internal/errors	48		
-11301	1028226	true	open	false	6		2017-02-10T20:26:27Z	2017-05-23T18:36:07Z		internal/util: use internal/errors.js	57		
+11301	1028226	true	open	false	7		2017-02-10T20:26:27Z	2017-05-24T05:06:28Z		internal/util: use internal/errors.js	57		
 11302	1028226	true	closed	false	4		2017-02-10T21:19:34Z	2017-05-23T18:28:33Z	2017-05-23T18:28:33Z	errors,net: change internal/net.js to use internal/errors.js	57		
 11303	718899	true	closed	false	1		2017-02-10T21:57:07Z	2017-02-13T22:23:22Z	2017-02-13T22:23:22Z	test: refactor test-repl-sigint-nested-eval	44		
 11304	718899	true	closed	false	4	0	2017-02-10T22:14:21Z	2017-02-15T20:05:29Z	2017-02-15T20:05:29Z	assert: unlock the assert API	34		
@@ -5901,7 +5901,7 @@
 12522	96947	true	closed	false	4		2017-04-19T20:26:27Z	2017-05-16T13:23:06Z	2017-04-21T13:26:13Z	build, icu: fix case in lib names	36		
 12523	1538624	true	closed	false	9		2017-04-19T22:09:11Z	2017-04-24T23:36:41Z	2017-04-24T23:36:41Z	url: update WHATWG URL parser to latest spec	161		
 12524	13093042	true	closed	false	7		2017-04-19T22:32:23Z	2017-04-25T20:05:42Z	2017-04-25T20:05:42Z	n-api: Enable scope and ref APIs during exception	179		
-12525	5803170	true	open	false	11		2017-04-19T22:40:53Z	2017-05-23T21:51:16Z		querystring: improve querystring unescapeBuffer perf	81		
+12525	5803170	true	open	false	12		2017-04-19T22:40:53Z	2017-05-24T05:32:04Z		querystring: improve querystring unescapeBuffer perf	81		
 12526	1538624	true	closed	false	1		2017-04-20T06:13:39Z	2017-04-24T23:43:38Z	2017-04-24T23:43:38Z	url: use util's getConstructorOf	18		
 12527	718899	true	closed	false	1		2017-04-20T06:16:16Z	2017-04-24T21:22:11Z	2017-04-24T21:22:11Z	test: check that pending warning is emitted once	63		
 12528	1384537	true	closed	false	1		2017-04-20T08:21:13Z	2017-04-24T21:06:13Z	2017-04-24T21:06:13Z	module: correcting comment spelling	30		
@@ -6452,7 +6452,7 @@
 13075	16603080	false	open	false	3		2017-05-17T07:29:11Z	2017-05-17T09:14:14Z		/usr/bin/node[14405]: ../src/node_http_parser.cc:398:static void node::Parser::Execute(const v8::FunctionCallbackInfo<v8::Value>&): Assertion `(parser->current_buffer_len_) == (0)' failed.	76		
 13076	2842176	true	closed	false	11		2017-05-17T09:37:17Z	2017-05-21T13:53:09Z	2017-05-21T13:53:09Z	dns: fix `resolve` failed starts without network	353		
 13077	27954280	false	open	false	0		2017-05-17T10:28:07Z	2017-05-17T10:28:07Z		events.js:163 throw er; // Unhandled 'error' event	186		
-13078	432351	true	open	false			2017-05-17T11:24:09Z	2017-05-23T15:50:56Z		build: don't link node.dll for cctest target	193		
+13078	432351	true	open	false			2017-05-17T11:24:09Z	2017-05-24T05:33:45Z		build: don't link node.dll for cctest target	193		
 13079	5540988	false	closed	false	0		2017-05-17T11:57:43Z	2017-05-17T12:26:03Z	2017-05-17T12:26:03Z	Is it any possible for Video compression using by nodejs? 	26		
 13080	275871	true	open	false	0		2017-05-17T12:58:10Z	2017-05-17T14:55:10Z		v8: fix stack overflow in recursive method (v4.x)	44		
 13081	432351	true	open	false	1		2017-05-17T13:27:43Z	2017-05-22T05:41:04Z		src: remove unnecessary forward declaration	51		
@@ -6559,4 +6559,6 @@
 13182	10393198	true	open	false	0	0	2017-05-24T01:10:03Z	2017-05-24T01:10:03Z		doc: fix code example in inspector.md	26		
 13183	718899	true	open	false	0	0	2017-05-24T03:55:29Z	2017-05-24T03:55:29Z		test: use common.mustNotCall in test-crypto-random	40		
 13184	718899	false	open	false	0		2017-05-24T04:02:29Z	2017-05-24T04:02:29Z		Investigate flaky test-tls-socket-close on macOS	100		
-13185	1416085	false	open	false	0		2017-05-24T04:52:03Z	2017-05-24T04:52:03Z		libcrypto.so.1.0.0 error	105		
+13185	1416085	false	open	false	1		2017-05-24T04:52:03Z	2017-05-24T05:47:56Z		libcrypto.so.1.0.0 error	105		
+13186	432351	true	open	false	0	0	2017-05-24T05:18:00Z	2017-05-24T05:18:00Z		test: skip test-bindings if inspector is disabled	70		
+13187	54666	true	open	false	0	0	2017-05-24T05:39:06Z	2017-05-24T05:39:06Z		lib,src: improve writev() performance for Buffers	185		
