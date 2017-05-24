@@ -157,7 +157,7 @@
 3062	355454	true	open	false	14		2015-09-25T15:52:59Z	2017-03-27T18:54:22Z		http: Reject paths containing non-ASCII characters	123		
 3063	98899	true	closed	false	87		2015-09-25T17:01:14Z	2016-10-11T00:42:12Z	2016-07-15T17:38:59Z	timers: fix processing of nested same delay timers	21		
 3064	2559673	true	closed	false	32	22	2015-09-25T17:01:57Z	2017-02-28T22:57:03Z	2017-02-28T22:57:02Z	https: throw error if required params missing	58		
-3072	247721	false	open	false	117		2015-09-26T02:29:39Z	2017-04-25T21:09:03Z		Cluster crash in main process, callback undefined when handling internal messages	152		
+3072	247721	false	open	false	119		2015-09-26T02:29:39Z	2017-05-24T08:35:19Z		Cluster crash in main process, callback undefined when handling internal messages	152		
 3073	220205	true	closed	false	48		2015-09-26T09:13:35Z	2016-08-22T18:20:41Z	2016-08-22T18:20:41Z	Add crypto.timingSafeEqual().	2		
 3098	639601	true	closed	false	15		2015-09-28T03:35:50Z	2016-06-30T12:31:35Z	2016-05-19T11:01:44Z	src: fix linking when built as shared library	192		
 3101	7358595	false	closed	false	11		2015-09-28T11:07:40Z	2016-09-26T13:20:14Z	2015-09-28T12:34:09Z	Destructuring Assignment doesn't work in node v 4.1.0 for me	52		
@@ -4720,7 +4720,7 @@
 11337	474017	false	open	false	0		2017-02-13T15:52:42Z	2017-02-13T15:52:42Z		FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memory	303		
 11338	24884095	true	open	false	0	0	2017-02-13T16:07:28Z	2017-02-13T16:07:28Z		errors: port internal/net errors to internal/errors	71		
 11339	24884095	true	open	false	0	0	2017-02-13T16:46:42Z	2017-02-13T16:46:42Z		Internal error	71		
-11340	3952583	true	open	false	4		2017-02-13T16:57:21Z	2017-05-23T16:56:55Z		errors: migrate lib/console	48		
+11340	3952583	true	open	false	5		2017-02-13T16:57:21Z	2017-05-24T08:37:58Z		errors: migrate lib/console	48		
 11341	24884095	true	open	false	1		2017-02-13T17:00:30Z	2017-02-15T16:37:59Z		errors: port internal/buffer errors to internal/errors	73		
 11342	516118	false	open	false	4		2017-02-13T17:11:05Z	2017-02-13T18:03:25Z		Don't kill REPL!	121		
 11343	11838792	false	open	false	3		2017-02-13T17:32:13Z	2017-02-21T21:09:39Z		Error.captureStackTrace() performance regression in v7.x	129		
@@ -4750,7 +4750,7 @@
 11367	718899	true	closed	false	4		2017-02-14T04:39:23Z	2017-03-09T00:09:12Z	2017-02-16T04:26:40Z	test: refactor test-tls-cert-chains-in-ca	66		
 11368	1084409	false	open	false	2		2017-02-14T04:49:00Z	2017-02-15T21:47:08Z		Usage of common.platformTimeout in tests guide	294		
 11369	4299420	true	closed	false	2	0	2017-02-14T05:12:22Z	2017-02-17T05:36:30Z	2017-02-17T05:36:30Z	test, url: turn on WPT tests on empty params pairs	47		
-11370	323878	false	open	false	8		2017-02-14T06:19:28Z	2017-05-11T22:31:36Z		Missing async callstacks on setTimeout	91		
+11370	323878	false	open	false	9		2017-02-14T06:19:28Z	2017-05-24T08:33:42Z		Missing async callstacks on setTimeout	91		
 11371	3802753	true	open	false	24		2017-02-14T06:48:48Z	2017-04-03T14:28:37Z		tools: add ASCII only lint rule in lib/	57		
 11372	1538624	true	closed	false	0		2017-02-14T07:24:51Z	2017-02-17T05:12:53Z	2017-02-17T05:12:53Z	url: fix handling of ? in URLSearchParams creation	38		
 11373	22236206	false	closed	false	1		2017-02-14T08:08:49Z	2017-02-14T09:13:49Z	2017-02-14T08:48:37Z	npm install error 	11		
@@ -6542,7 +6542,7 @@
 13165	718899	true	open	false	0	0	2017-05-23T03:07:50Z	2017-05-23T03:07:50Z		test: refactor event-emitter-remove-all-listeners	40		
 13166	432351	true	open	false	0	0	2017-05-23T06:33:54Z	2017-05-23T06:33:54Z		test: add override to ServerDone function	78		
 13167	432351	true	open	false			2017-05-23T07:46:02Z	2017-05-23T17:50:47Z		src: fix InspectorStarted macro guard	142		
-13168	3599069	false	open	false	1		2017-05-23T08:41:18Z	2017-05-23T10:39:09Z		setTimeout not always firing when computer sleeps/wakes	100		
+13168	3599069	false	open	false	2		2017-05-23T08:41:18Z	2017-05-24T08:44:57Z		setTimeout not always firing when computer sleeps/wakes	100		
 13169	5716685	false	open	false	0		2017-05-23T09:24:35Z	2017-05-23T09:24:35Z		npm -v throw err	66		
 13170	1891017	false	open	false	5		2017-05-23T14:29:52Z	2017-05-23T16:28:33Z		HTTPS Server crashing randomly (With solution)	108		
 13171	2512748	true	open	false			2017-05-23T15:53:47Z	2017-05-23T16:12:15Z		test: add coverage for socket write after close	50		
@@ -6556,10 +6556,11 @@
 13179	373545	true	open	false	0	0	2017-05-23T22:02:51Z	2017-05-23T22:02:51Z		fs: Fix default params for fs.write(Sync) (backport to v6)	73		
 13180	289174	false	open	false	0		2017-05-23T22:08:25Z	2017-05-23T22:08:25Z		inconsistency in `StreamBase::WriteBuffer()`	273		
 13181	28588124	false	closed	false	1		2017-05-23T23:48:05Z	2017-05-24T04:53:52Z	2017-05-24T04:53:52Z	async function, FunctionTemplate::New(isolate, CancelFunction)	120		
-13182	10393198	true	open	false	0	0	2017-05-24T01:10:03Z	2017-05-24T01:10:03Z		doc: fix code example in inspector.md	26		
+13182	10393198	true	open	false	1		2017-05-24T01:10:03Z	2017-05-24T08:53:38Z		doc: fix code example in inspector.md	26		
 13183	718899	true	open	false	0	0	2017-05-24T03:55:29Z	2017-05-24T03:55:29Z		test: use common.mustNotCall in test-crypto-random	40		
 13184	718899	false	open	false	0		2017-05-24T04:02:29Z	2017-05-24T07:49:27Z		Investigate flaky test-tls-socket-close on macOS	114		
 13185	1416085	false	open	false	1		2017-05-24T04:52:03Z	2017-05-24T05:47:56Z		libcrypto.so.1.0.0 error	105		
 13186	432351	true	open	false	1		2017-05-24T05:18:00Z	2017-05-24T06:47:29Z		test: skip test-bindings if inspector is disabled	70		
 13187	54666	true	open	false	0	0	2017-05-24T05:39:06Z	2017-05-24T05:39:06Z		lib,src: improve writev() performance for Buffers	185		
 13188	432351	true	open	false	0	0	2017-05-24T07:48:43Z	2017-05-24T07:48:43Z		src: ignore unused warning for inspector-agent.cc	78		
+13189	7311122	false	open	false	0		2017-05-24T08:44:27Z	2017-05-24T08:44:27Z		v4.4.0:use Buffer.from('aaa') and then return this is not a typed Array, but in v4.8.0 is ok	46		
