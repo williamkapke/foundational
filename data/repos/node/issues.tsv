@@ -4673,7 +4673,7 @@
 11290	5886475	true	open	false	6		2017-02-10T15:26:03Z	2017-02-17T18:20:50Z		test: increase coverage of timers	32		
 11291	2512748	true	closed	false	1	0	2017-02-10T15:34:39Z	2017-02-13T22:27:13Z	2017-02-13T22:27:13Z	test: add coverage for dgram _createSocketHandle()	48	2512748	2017-02-13T22:27:13Z
 11292	2512748	true	closed	false	2		2017-02-10T16:45:16Z	2017-03-07T17:16:50Z	2017-02-14T16:58:13Z	test: cover dgram socket close during cluster bind	72		
-11293	1028226	true	open	false	9		2017-02-10T16:52:01Z	2017-05-23T18:51:55Z		https: use internal/errors.js	43		
+11293	1028226	true	open	false	10		2017-02-10T16:52:01Z	2017-05-24T07:28:40Z		https: use internal/errors.js	43		
 11294	439929	true	open	false	24		2017-02-10T16:57:04Z	2017-04-20T18:32:18Z		errors, process: port internal/process errors to internal/errors	88		
 11295	2512748	true	closed	false	1		2017-02-10T17:00:53Z	2017-03-09T00:04:21Z	2017-02-13T18:33:40Z	test: cover cluster error during dgram socket bind	66		
 11296	22550884	true	open	false	19		2017-02-10T17:28:26Z	2017-03-07T18:26:39Z		lib/src: refactoring out of range index and and migrate error for consistency	57		
@@ -6131,7 +6131,7 @@
 12753	899444	true	open	false			2017-04-29T23:50:05Z	2017-05-03T16:50:44Z		src: turn buffer type-CHECK into exception	50		
 12754	1716463	true	closed	false	1		2017-04-30T02:25:58Z	2017-05-02T04:55:57Z	2017-05-02T04:55:57Z	tools: ignore node_trace.*.log	21		
 12755	439929	true	closed	false	5		2017-04-30T03:56:23Z	2017-05-07T20:59:10Z	2017-05-07T20:59:10Z	readline: refactor readline module	69		
-12756	1716463	true	open	false	30		2017-04-30T06:07:08Z	2017-05-24T00:59:12Z		tools: introduce `make mdlint` command and tools	106		
+12756	1716463	true	open	false	31		2017-04-30T06:07:08Z	2017-05-24T07:45:29Z		tools: introduce `make mdlint` command and tools	106		
 12757	432351	true	closed	false	4		2017-04-30T06:23:41Z	2017-05-02T05:52:19Z	2017-05-02T05:52:19Z	test: skipIfInspectorDisabled cluster-inspect-brk	66		
 12758	96947	false	open	false	11		2017-04-30T13:16:54Z	2017-05-08T17:07:18Z		build: --without-ssl and --without-intl imply new limitation (no debugger)	66		
 12759	606771	false	open	false	0		2017-04-30T13:26:51Z	2017-04-30T13:26:51Z		NODE_SET_PROTOTYPE_METHOD does not accept Symbol as property	132		
@@ -6316,7 +6316,7 @@
 12938	1909610	false	open	false	1		2017-05-09T23:16:38Z	2017-05-10T22:42:42Z		Improve constant optimization and dead-code removal	162		
 12939	1740229	true	closed	false	2	2	2017-05-10T01:08:30Z	2017-05-22T03:41:03Z	2017-05-22T03:41:03Z	zlib: expose amount of data read for compression/decompression	93		
 12940	1789893	false	closed	false	3		2017-05-10T01:17:21Z	2017-05-10T17:34:00Z	2017-05-10T17:34:00Z	Provide a way to expose VM's cpu/memory usage	159		
-12941	592432	false	open	false	17		2017-05-10T02:00:31Z	2017-05-24T04:47:56Z		Programatically setting the debug flag has no effects	227		
+12941	592432	false	open	false	18		2017-05-10T02:00:31Z	2017-05-24T07:16:00Z		Programatically setting the debug flag has no effects	227		
 12942	7041980	true	open	false	11		2017-05-10T02:07:53Z	2017-05-22T06:56:10Z		test: replace port in dgram cb test	42		
 12943	7041980	true	open	false	5		2017-05-10T02:33:38Z	2017-05-22T10:29:14Z		test: replace port in dgram cb length test	42		
 12944	7041980	true	open	false	4		2017-05-10T03:55:17Z	2017-05-22T10:51:04Z		test: replace port in dgram cb address test	42		
@@ -6558,7 +6558,8 @@
 13181	28588124	false	closed	false	1		2017-05-23T23:48:05Z	2017-05-24T04:53:52Z	2017-05-24T04:53:52Z	async function, FunctionTemplate::New(isolate, CancelFunction)	120		
 13182	10393198	true	open	false	0	0	2017-05-24T01:10:03Z	2017-05-24T01:10:03Z		doc: fix code example in inspector.md	26		
 13183	718899	true	open	false	0	0	2017-05-24T03:55:29Z	2017-05-24T03:55:29Z		test: use common.mustNotCall in test-crypto-random	40		
-13184	718899	false	open	false	0		2017-05-24T04:02:29Z	2017-05-24T04:02:29Z		Investigate flaky test-tls-socket-close on macOS	100		
+13184	718899	false	open	false	0		2017-05-24T04:02:29Z	2017-05-24T07:49:27Z		Investigate flaky test-tls-socket-close on macOS	114		
 13185	1416085	false	open	false	1		2017-05-24T04:52:03Z	2017-05-24T05:47:56Z		libcrypto.so.1.0.0 error	105		
 13186	432351	true	open	false	1		2017-05-24T05:18:00Z	2017-05-24T06:47:29Z		test: skip test-bindings if inspector is disabled	70		
 13187	54666	true	open	false	0	0	2017-05-24T05:39:06Z	2017-05-24T05:39:06Z		lib,src: improve writev() performance for Buffers	185		
+13188	432351	true	open	false	0	0	2017-05-24T07:48:43Z	2017-05-24T07:48:43Z		src: ignore unused warning for inspector-agent.cc	78		
