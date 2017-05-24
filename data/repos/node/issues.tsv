@@ -157,7 +157,7 @@
 3062	355454	true	open	false	14		2015-09-25T15:52:59Z	2017-03-27T18:54:22Z		http: Reject paths containing non-ASCII characters	123		
 3063	98899	true	closed	false	87		2015-09-25T17:01:14Z	2016-10-11T00:42:12Z	2016-07-15T17:38:59Z	timers: fix processing of nested same delay timers	21		
 3064	2559673	true	closed	false	32	22	2015-09-25T17:01:57Z	2017-02-28T22:57:03Z	2017-02-28T22:57:02Z	https: throw error if required params missing	58		
-3072	247721	false	open	false	119		2015-09-26T02:29:39Z	2017-05-24T08:35:19Z		Cluster crash in main process, callback undefined when handling internal messages	152		
+3072	247721	false	open	false	120		2015-09-26T02:29:39Z	2017-05-24T12:22:19Z		Cluster crash in main process, callback undefined when handling internal messages	152		
 3073	220205	true	closed	false	48		2015-09-26T09:13:35Z	2016-08-22T18:20:41Z	2016-08-22T18:20:41Z	Add crypto.timingSafeEqual().	2		
 3098	639601	true	closed	false	15		2015-09-28T03:35:50Z	2016-06-30T12:31:35Z	2016-05-19T11:01:44Z	src: fix linking when built as shared library	192		
 3101	7358595	false	closed	false	11		2015-09-28T11:07:40Z	2016-09-26T13:20:14Z	2015-09-28T12:34:09Z	Destructuring Assignment doesn't work in node v 4.1.0 for me	52		
@@ -6316,7 +6316,7 @@
 12938	1909610	false	open	false	1		2017-05-09T23:16:38Z	2017-05-10T22:42:42Z		Improve constant optimization and dead-code removal	162		
 12939	1740229	true	closed	false	2	2	2017-05-10T01:08:30Z	2017-05-22T03:41:03Z	2017-05-22T03:41:03Z	zlib: expose amount of data read for compression/decompression	93		
 12940	1789893	false	closed	false	3		2017-05-10T01:17:21Z	2017-05-10T17:34:00Z	2017-05-10T17:34:00Z	Provide a way to expose VM's cpu/memory usage	159		
-12941	592432	false	open	false	18		2017-05-10T02:00:31Z	2017-05-24T07:16:00Z		Programatically setting the debug flag has no effects	227		
+12941	592432	false	open	false	19		2017-05-10T02:00:31Z	2017-05-24T12:09:18Z		Programatically setting the debug flag has no effects	227		
 12942	7041980	true	open	false	11		2017-05-10T02:07:53Z	2017-05-22T06:56:10Z		test: replace port in dgram cb test	42		
 12943	7041980	true	open	false	5		2017-05-10T02:33:38Z	2017-05-22T10:29:14Z		test: replace port in dgram cb length test	42		
 12944	7041980	true	open	false	4		2017-05-10T03:55:17Z	2017-05-22T10:51:04Z		test: replace port in dgram cb address test	42		
@@ -6380,7 +6380,7 @@
 13002	17607	true	open	false	7		2017-05-12T19:43:44Z	2017-05-17T19:36:51Z		src: whitelist new options for NODE_OPTIONS	54		
 13003	96947	true	open	false	6		2017-05-12T19:49:37Z	2017-05-16T03:38:50Z		test: refactor test-net-connect-options-allowhalfopen.js	46		
 13004	17607	true	closed	false	1	0	2017-05-12T19:52:32Z	2017-05-16T21:06:28Z	2017-05-16T21:06:28Z	src: fix --abort_on_uncaught_exception arg parsing	123	17607	2017-05-16T21:06:27Z
-13005	238531	true	open	false			2017-05-12T21:00:49Z	2017-05-21T19:34:13Z		http: overridable keep-alive behavior of `Agent`	106		
+13005	238531	true	open	false	8		2017-05-12T21:00:49Z	2017-05-24T12:25:16Z		http: overridable keep-alive behavior of `Agent`	106		
 13006	9373002	true	closed	false	2		2017-05-12T21:30:14Z	2017-05-16T00:13:47Z	2017-05-16T00:13:47Z	test: improve N-API test coverage	41		
 13007	7041980	true	open	false	2		2017-05-12T22:01:15Z	2017-05-22T07:56:05Z		test: replace port in dgram send address types test	35		
 13008	12181444	false	closed	false	2		2017-05-13T02:32:15Z	2017-05-13T09:59:42Z	2017-05-13T09:59:42Z	CDP(async function(client) { ^^^^^ SyntaxError: missing ) after argument list at Object.exports.runInThisContext (vm.js:78:16) at Module._compile (module.js:543:28) a	21		
@@ -6547,7 +6547,7 @@
 13170	1891017	false	open	false	7		2017-05-23T14:29:52Z	2017-05-24T11:54:40Z		HTTPS Server crashing randomly (With solution)	108		
 13171	2512748	true	open	false			2017-05-23T15:53:47Z	2017-05-23T16:12:15Z		test: add coverage for socket write after close	50		
 13172	17607	true	open	false	0	0	2017-05-23T16:14:31Z	2017-05-23T16:14:31Z		src: allow --tls-cipher-list in NODE_OPTIONS	36		
-13173	96947	true	open	false			2017-05-23T16:17:45Z	2017-05-24T11:26:08Z		fs: expose Stats times as Numbers	57		
+13173	96947	true	open	false	9		2017-05-23T16:17:45Z	2017-05-24T12:38:58Z		fs: expose Stats times as Numbers	57		
 13174	899444	true	open	false	0	0	2017-05-23T17:58:56Z	2017-05-23T17:58:56Z		src: make StreamBase::GetAsyncWrap pure virtual	45		
 13175	1485909	true	open	false	2		2017-05-23T19:19:23Z	2017-05-24T02:27:35Z		deps: cherry-pick 6803eef from V8 upstream	93		
 13176	899444	false	open	false	0		2017-05-23T21:10:27Z	2017-05-23T21:10:27Z		What does SecureContext::EnableTicketKeyCallback do?	86		
@@ -6567,4 +6567,4 @@
 13190	432351	true	open	false	0	0	2017-05-24T10:55:47Z	2017-05-24T10:55:47Z		src: correct endif comment SRC_NODE_API_H__	52		
 13191	910691	true	open	false	0	0	2017-05-24T10:56:07Z	2017-05-24T10:56:07Z		src, inspector: clean up base64_encode	115		
 13192	899444	true	open	false	0	0	2017-05-24T11:18:47Z	2017-05-24T11:18:47Z		async_hooks: rename AsyncEvent to AsyncResource	49		
-13193	899444	true	open	false	0	0	2017-05-24T11:41:31Z	2017-05-24T11:41:31Z		src: add comment for TicketKeyCallback	27		
+13193	899444	true	open	false			2017-05-24T11:41:31Z	2017-05-24T12:33:52Z		src: add comment for TicketKeyCallback	27		
