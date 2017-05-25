@@ -4727,7 +4727,7 @@
 11344	17607	true	closed	false	1		2017-02-13T17:39:31Z	2017-02-14T17:31:33Z	2017-02-13T17:39:51Z	7.x backport: crypto: support OPENSSL_CONF again (and its dependencies)	42		
 11345	17607	true	closed	false	11		2017-02-13T17:40:29Z	2017-02-27T18:20:19Z	2017-02-16T17:24:16Z	7.x backport: crypto: support OPENSSL_CONF again (and its dependencies)	50		
 11346	275871	true	closed	false	10		2017-02-13T17:56:51Z	2017-02-15T17:59:34Z	2017-02-15T17:59:34Z	lib: remove simd support from util.format()	77		
-11347	1748653	true	open	false	5		2017-02-13T18:11:57Z	2017-05-25T07:53:53Z		errors, repl: migrate to use internal/errors.js	71		
+11347	1748653	true	open	false	6		2017-02-13T18:11:57Z	2017-05-25T10:52:45Z		errors, repl: migrate to use internal/errors.js	71		
 11348	733364	true	closed	false	5		2017-02-13T18:52:25Z	2017-03-07T07:22:40Z	2017-02-17T01:18:15Z	build: fix building with ninja on linux	83		
 11349	439929	true	closed	false	10		2017-02-13T20:04:22Z	2017-03-06T22:24:54Z	2017-03-06T22:24:54Z	tls: runtime deprecate _tls_legacy	62		
 11350	17607	true	open	false	0		2017-02-13T20:05:42Z	2017-02-16T17:35:52Z		doc: dns examples implied string args were arrays	23		
@@ -5983,7 +5983,7 @@
 12604	6529684	true	closed	false	12		2017-04-23T00:11:32Z	2017-04-30T01:16:29Z	2017-04-30T01:16:29Z	test: replace indexOf with includes	27		
 12605	10393198	true	closed	false	0		2017-04-23T00:17:49Z	2017-04-25T19:13:16Z	2017-04-25T19:13:16Z	doc: fix an unclear wording in readline.md	43		
 12606	10393198	false	open	false	3		2017-04-23T00:48:54Z	2017-04-24T01:40:56Z		readline: prompt opt-out behavior	125		
-12607	163642	true	open	false	85		2017-04-23T07:01:19Z	2017-05-23T16:37:05Z		src: round nsec instead of truncating stat times	174		
+12607	163642	true	open	false			2017-04-23T07:01:19Z	2017-05-25T10:41:27Z		src: round nsec instead of truncating stat times	174		
 12608	524902	false	open	false	5		2017-04-23T15:00:44Z	2017-04-23T20:04:52Z		Developer error exposing a bug with fs.writeFile	81		
 12609	15943089	false	open	false	0		2017-04-23T16:39:16Z	2017-04-23T16:39:16Z		Document that fs.futimes isn't supported on AIX	100		
 12610	910691	true	closed	false	1		2017-04-23T16:57:15Z	2017-04-27T15:25:44Z	2017-04-27T15:25:44Z	build: use do_not_edit variable in configure script	90		
@@ -6452,7 +6452,7 @@
 13075	16603080	false	open	false	3		2017-05-17T07:29:11Z	2017-05-17T09:14:14Z		/usr/bin/node[14405]: ../src/node_http_parser.cc:398:static void node::Parser::Execute(const v8::FunctionCallbackInfo<v8::Value>&): Assertion `(parser->current_buffer_len_) == (0)' failed.	76		
 13076	2842176	true	closed	false	11		2017-05-17T09:37:17Z	2017-05-21T13:53:09Z	2017-05-21T13:53:09Z	dns: fix `resolve` failed starts without network	353		
 13077	27954280	false	open	false	0		2017-05-17T10:28:07Z	2017-05-17T10:28:07Z		events.js:163 throw er; // Unhandled 'error' event	186		
-13078	432351	true	open	false	17		2017-05-17T11:24:09Z	2017-05-25T08:16:18Z		build: fix openssl link error on windows	104		
+13078	432351	true	open	false	18		2017-05-17T11:24:09Z	2017-05-25T10:25:17Z		build: fix openssl link error on windows	104		
 13079	5540988	false	closed	false	0		2017-05-17T11:57:43Z	2017-05-17T12:26:03Z	2017-05-17T12:26:03Z	Is it any possible for Video compression using by nodejs? 	26		
 13080	275871	true	open	false	0		2017-05-17T12:58:10Z	2017-05-17T14:55:10Z		v8: fix stack overflow in recursive method (v4.x)	44		
 13081	432351	true	open	false	1		2017-05-17T13:27:43Z	2017-05-22T05:41:04Z		src: remove unnecessary forward declaration	51		
@@ -6547,7 +6547,7 @@
 13170	1891017	false	open	false	8		2017-05-23T14:29:52Z	2017-05-24T14:17:27Z		HTTPS Server crashing randomly (With solution)	108		
 13171	2512748	true	open	false			2017-05-23T15:53:47Z	2017-05-23T16:12:15Z		test: add coverage for socket write after close	50		
 13172	17607	true	open	false	0	0	2017-05-23T16:14:31Z	2017-05-23T16:14:31Z		src: allow --tls-cipher-list in NODE_OPTIONS	36		
-13173	96947	true	open	false			2017-05-23T16:17:45Z	2017-05-24T23:11:46Z		fs: expose Stats times as Numbers	57		
+13173	96947	true	open	false	18		2017-05-23T16:17:45Z	2017-05-25T10:19:03Z		fs: expose Stats times as Numbers	57		
 13174	899444	true	open	false	0	0	2017-05-23T17:58:56Z	2017-05-23T17:58:56Z		src: make StreamBase::GetAsyncWrap pure virtual	45		
 13175	1485909	true	open	false	2		2017-05-23T19:19:23Z	2017-05-24T02:27:35Z		deps: cherry-pick 6803eef from V8 upstream	93		
 13176	899444	false	open	false	0		2017-05-23T21:10:27Z	2017-05-23T21:10:27Z		What does SecureContext::EnableTicketKeyCallback do?	86		
@@ -6583,7 +6583,7 @@
 13206	17607	true	open	false	0	0	2017-05-24T20:19:13Z	2017-05-24T20:19:13Z		http: describe parse err in debug output	52		
 13207	9373002	true	open	false			2017-05-24T21:01:28Z	2017-05-24T21:06:09Z		n-api: add napi_get_version	54		
 13208	96947	true	open	false	4		2017-05-24T21:28:50Z	2017-05-25T02:18:43Z		build: ignore more VC++ artifacts	14		
-13209	1315533	false	open	false	8		2017-05-24T22:52:26Z	2017-05-25T08:05:24Z		repl: allow `await` in REPL	142		
+13209	1315533	false	open	false	11		2017-05-24T22:52:26Z	2017-05-25T10:50:55Z		repl: allow `await` in REPL	142		
 13210	14798161	false	closed	false	2		2017-05-25T00:03:41Z	2017-05-25T08:48:18Z	2017-05-25T08:48:18Z	Date parse behavior change in node-v8 ?	40		
 13211	5070345	true	open	false	0	0	2017-05-25T00:24:06Z	2017-05-25T00:24:06Z		Merge pull request #1 from nodejs/master	43		
 13212	25856836	true	open	false	1		2017-05-25T02:17:07Z	2017-05-25T03:44:29Z		doc: clarified documentation for crypto.publicEncrypt() and similar functions	35		
