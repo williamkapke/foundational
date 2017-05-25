@@ -4972,7 +4972,7 @@
 11589	14098140	false	closed	false	2		2017-02-27T22:14:21Z	2017-03-03T19:42:36Z	2017-03-03T19:42:36Z	Breakpoints can't be set by a debugger (Chrome or VS Code) while the Node program is running	339		
 11590	6991779	true	closed	false	2		2017-02-27T22:15:42Z	2017-03-05T13:21:16Z	2017-03-05T13:21:16Z	 test: changed test1 of test-vm-timeout.js so that entire error message would be matched	63		
 11591	1087603	false	closed	false	17		2017-02-27T22:43:37Z	2017-05-23T09:34:45Z	2017-03-13T19:57:31Z	Chrome DevTools not able to connect to Node inspect since 7.5.0	175		
-11592	9060496	true	open	false			2017-02-27T23:06:56Z	2017-05-24T10:29:26Z		errors, util: migrate to using internal/errors	57		
+11592	9060496	true	open	false	2		2017-02-27T23:06:56Z	2017-05-25T01:00:52Z		errors, util: migrate to using internal/errors	57		
 11593	585279	false	closed	false	8		2017-02-27T23:20:49Z	2017-02-28T16:32:57Z	2017-02-27T23:36:39Z	Not really possible to use global symbols inside vm	101		
 11594	439929	true	closed	false	6		2017-02-28T01:04:32Z	2017-03-28T22:18:12Z	2017-03-20T23:15:32Z	http: simple code refactoring	45		
 11595	10393198	false	open	false	4		2017-02-28T01:16:00Z	2017-03-23T22:05:39Z		Some possible bugs concerning fs.appendFile() and fs.writeFile()	138		
@@ -6316,7 +6316,7 @@
 12938	1909610	false	open	false	1		2017-05-09T23:16:38Z	2017-05-10T22:42:42Z		Improve constant optimization and dead-code removal	162		
 12939	1740229	true	closed	false	2	2	2017-05-10T01:08:30Z	2017-05-22T03:41:03Z	2017-05-22T03:41:03Z	zlib: expose amount of data read for compression/decompression	93		
 12940	1789893	false	closed	false	3		2017-05-10T01:17:21Z	2017-05-10T17:34:00Z	2017-05-10T17:34:00Z	Provide a way to expose VM's cpu/memory usage	159		
-12941	592432	false	open	false	19		2017-05-10T02:00:31Z	2017-05-24T12:09:18Z		Programatically setting the debug flag has no effects	227		
+12941	592432	false	open	false	21		2017-05-10T02:00:31Z	2017-05-25T00:26:29Z		Programatically setting the debug flag has no effects	227		
 12942	7041980	true	open	false	11		2017-05-10T02:07:53Z	2017-05-22T06:56:10Z		test: replace port in dgram cb test	42		
 12943	7041980	true	open	false	5		2017-05-10T02:33:38Z	2017-05-22T10:29:14Z		test: replace port in dgram cb length test	42		
 12944	7041980	true	open	false	4		2017-05-10T03:55:17Z	2017-05-22T10:51:04Z		test: replace port in dgram cb address test	42		
@@ -6375,7 +6375,7 @@
 12997	96947	false	open	false	0		2017-05-12T14:55:33Z	2017-05-17T14:04:57Z		test: investigate async-hooks/test-tcpwrap for flakiness on Linux	64		
 12998	439929	true	closed	false	2	0	2017-05-12T15:39:30Z	2017-05-15T15:31:24Z	2017-05-15T15:31:24Z	util: fixup internal util exports	43		
 12999	7041980	true	closed	false	22		2017-05-12T15:47:16Z	2017-05-13T22:19:09Z	2017-05-13T22:19:09Z	test: moved dgram bind shared ports to sequential	48		
-13000	1485909	true	open	false	19		2017-05-12T17:52:52Z	2017-05-24T18:28:57Z		async_wrap,src: promise hook integration	55		
+13000	1485909	true	open	false	20		2017-05-12T17:52:52Z	2017-05-25T00:24:16Z		async_wrap,src: promise hook integration	55		
 13001	193412	false	open	false	21		2017-05-12T18:15:08Z	2017-05-17T18:53:15Z		Proposal: change deprecation policy	205		
 13002	17607	true	open	false	7		2017-05-12T19:43:44Z	2017-05-17T19:36:51Z		src: whitelist new options for NODE_OPTIONS	54		
 13003	96947	true	open	false	6		2017-05-12T19:49:37Z	2017-05-16T03:38:50Z		test: refactor test-net-connect-options-allowhalfopen.js	46		
@@ -6582,5 +6582,7 @@
 13205	718899	true	open	false	0	0	2017-05-24T20:17:45Z	2017-05-24T20:17:45Z		test: check noop invocation with mustNotCall()	38		
 13206	17607	true	open	false	0	0	2017-05-24T20:19:13Z	2017-05-24T20:19:13Z		http: describe parse err in debug output	52		
 13207	9373002	true	open	false			2017-05-24T21:01:28Z	2017-05-24T21:06:09Z		n-api: add napi_get_version	54		
-13208	96947	true	open	false	1		2017-05-24T21:28:50Z	2017-05-24T23:54:39Z		build: ignore more VC++ artifacts	14		
+13208	96947	true	open	false	3		2017-05-24T21:28:50Z	2017-05-25T00:30:45Z		build: ignore more VC++ artifacts	14		
 13209	1315533	false	open	false	1		2017-05-24T22:52:26Z	2017-05-24T23:06:44Z		repl: allow `await` in REPL	142		
+13210	14798161	false	open	false	0		2017-05-25T00:03:41Z	2017-05-25T00:03:41Z		Date parse behavior change in node-v8 ?	40		
+13211	5070345	true	open	false	0	0	2017-05-25T00:24:06Z	2017-05-25T00:24:06Z		Merge pull request #1 from nodejs/master	43		
