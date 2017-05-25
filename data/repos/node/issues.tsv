@@ -104,7 +104,7 @@
 2465	42354	false	closed	false	4		2015-08-20T18:35:12Z	2016-12-15T12:59:44Z	2015-08-20T19:09:50Z	url.parse parses hostname as protocol when protocol/scheme is absent in hostname:port formatted uRL	54		
 2498	696611	true	closed	false	22		2015-08-22T20:07:00Z	2016-07-21T22:32:14Z	2016-07-21T22:32:14Z	fs: do basic arg validation of truncate in js	25		
 2521	885648	true	closed	false	35		2015-08-24T08:36:14Z	2017-03-01T17:20:15Z	2017-03-01T17:20:15Z	added CSI (\x9b) as additionally allowable escape	135		
-2534	4405297	true	open	false	115		2015-08-25T01:59:16Z	2017-05-25T20:45:25Z		http: fixed socket destruction, timeout and leaking	144		
+2534	4405297	true	open	false	116		2015-08-25T01:59:16Z	2017-05-25T22:37:32Z		http: fixed socket destruction, timeout and leaking	144		
 2538	1107239	true	closed	false	30		2015-08-25T13:44:32Z	2017-03-24T23:34:01Z	2017-03-24T23:34:01Z	added before-flushing-head event to _http_server.ServerResponse.writeHead	94		
 2546	9798949	false	closed	false	89		2015-08-25T19:16:53Z	2016-11-16T04:38:02Z	2016-06-02T17:53:08Z	Inspecting Node.js with Chrome DevTools	688		
 2564	782880	true	closed	false	28		2015-08-26T15:50:32Z	2017-01-16T05:16:07Z	2015-10-26T16:15:13Z	tls, crypto: add ALPN Support	130		
@@ -980,7 +980,7 @@
 7590	965036	true	closed	false	10		2016-07-07T18:40:04Z	2016-07-18T13:33:57Z	2016-07-18T13:33:57Z	doc: removed old git conflict markers form fs.md	41		
 7591	3310013	false	closed	false	3		2016-07-07T18:58:29Z	2016-07-13T19:11:28Z	2016-07-13T19:11:28Z	Buffer's indexOf does not seem to handle numbers correctly	178		
 7592	692511	false	open	false	10		2016-07-07T20:29:29Z	2016-07-22T06:45:24Z		Possible bug: instanceof evaluates to true in Node 4 but not Node 6	65		
-7593	379606	false	open	false	13		2016-07-07T21:49:22Z	2017-04-25T20:02:36Z		v8_inspector: Support the V8 debugger from within VM contexts	77		
+7593	379606	false	open	false	14		2016-07-07T21:49:22Z	2017-05-25T22:18:25Z		v8_inspector: Support the V8 debugger from within VM contexts	77		
 7594	718899	true	closed	false	6		2016-07-07T21:57:39Z	2016-07-10T23:06:55Z	2016-07-10T23:06:55Z	tools: remove unused variable	70		
 7595	718899	true	closed	false	4		2016-07-07T22:04:57Z	2016-07-10T23:19:03Z	2016-07-10T23:19:02Z	test: remove unused var in test-tls-server-verify	77		
 7596	718899	true	open	false	5		2016-07-07T22:09:19Z	2016-07-08T08:09:53Z		test: remove unused var from stream2 test	77		
@@ -5983,7 +5983,7 @@
 12604	6529684	true	closed	false	12		2017-04-23T00:11:32Z	2017-04-30T01:16:29Z	2017-04-30T01:16:29Z	test: replace indexOf with includes	27		
 12605	10393198	true	closed	false	0		2017-04-23T00:17:49Z	2017-04-25T19:13:16Z	2017-04-25T19:13:16Z	doc: fix an unclear wording in readline.md	43		
 12606	10393198	false	open	false	3		2017-04-23T00:48:54Z	2017-04-24T01:40:56Z		readline: prompt opt-out behavior	125		
-12607	163642	true	open	false	88		2017-04-23T07:01:19Z	2017-05-25T17:08:12Z		src: round nsec instead of truncating stat times	182		
+12607	163642	true	closed	false	90	20	2017-04-23T07:01:19Z	2017-05-25T22:07:22Z	2017-05-25T22:07:22Z	src: round nsec instead of truncating stat times	182		
 12608	524902	false	open	false	5		2017-04-23T15:00:44Z	2017-04-23T20:04:52Z		Developer error exposing a bug with fs.writeFile	81		
 12609	15943089	false	open	false	0		2017-04-23T16:39:16Z	2017-04-23T16:39:16Z		Document that fs.futimes isn't supported on AIX	100		
 12610	910691	true	closed	false	1		2017-04-23T16:57:15Z	2017-04-27T15:25:44Z	2017-04-27T15:25:44Z	build: use do_not_edit variable in configure script	90		
@@ -6365,7 +6365,7 @@
 12987	432351	true	closed	false	2	0	2017-05-12T05:48:42Z	2017-05-14T17:55:07Z	2017-05-14T17:55:07Z	test: add hasCrypto check to https-agent-constructor	64		
 12988	18548727	false	closed	false	2		2017-05-12T06:11:29Z	2017-05-12T13:31:07Z	2017-05-12T13:31:07Z	fs : read file sync after sync copy of directory	461		
 12989	432351	true	closed	false	3		2017-05-12T06:35:55Z	2017-05-15T05:30:51Z	2017-05-15T05:30:51Z	src: rename CONNECTION provider to SSLCONNECTION	74		
-12990	7041980	true	open	false	9		2017-05-12T07:28:50Z	2017-05-20T10:58:32Z		http: edit _storeHeader to check for 304 and Trailer	81		
+12990	7041980	true	open	false	10		2017-05-12T07:28:50Z	2017-05-25T22:24:58Z		http: edit _storeHeader to check for 304 and Trailer	81		
 12991	1522145	false	closed	false	2		2017-05-12T07:39:51Z	2017-05-23T08:57:12Z	2017-05-23T08:57:12Z	Consider using binary operator in readUInt32XX ? 	103		
 12992	10393198	true	closed	false	3	0	2017-05-12T08:47:14Z	2017-05-15T11:59:03Z	2017-05-15T11:59:03Z	test: remove unneeded string splitting	31		
 12993	432351	true	open	false			2017-05-12T11:29:39Z	2017-05-23T18:21:17Z		crypto: remove unnecessary template class	66		
@@ -6380,7 +6380,7 @@
 13002	17607	true	open	false	7		2017-05-12T19:43:44Z	2017-05-17T19:36:51Z		src: whitelist new options for NODE_OPTIONS	54		
 13003	96947	true	open	false	6		2017-05-12T19:49:37Z	2017-05-16T03:38:50Z		test: refactor test-net-connect-options-allowhalfopen.js	46		
 13004	17607	true	closed	false	1	0	2017-05-12T19:52:32Z	2017-05-16T21:06:28Z	2017-05-16T21:06:28Z	src: fix --abort_on_uncaught_exception arg parsing	123	17607	2017-05-16T21:06:27Z
-13005	238531	true	open	false			2017-05-12T21:00:49Z	2017-05-25T22:01:23Z		http: overridable keep-alive behavior of `Agent`	106		
+13005	238531	true	open	false			2017-05-12T21:00:49Z	2017-05-25T22:02:56Z		http: overridable keep-alive behavior of `Agent`	106		
 13006	9373002	true	closed	false	2		2017-05-12T21:30:14Z	2017-05-16T00:13:47Z	2017-05-16T00:13:47Z	test: improve N-API test coverage	41		
 13007	7041980	true	open	false	2		2017-05-12T22:01:15Z	2017-05-22T07:56:05Z		test: replace port in dgram send address types test	35		
 13008	12181444	false	closed	false	2		2017-05-13T02:32:15Z	2017-05-13T09:59:42Z	2017-05-13T09:59:42Z	CDP(async function(client) { ^^^^^ SyntaxError: missing ) after argument list at Object.exports.runInThisContext (vm.js:78:16) at Module._compile (module.js:543:28) a	21		
@@ -6402,7 +6402,7 @@
 13025	718899	true	closed	false	1		2017-05-14T19:45:42Z	2017-05-20T04:43:28Z	2017-05-20T04:43:28Z	test: refactor test-net-GH-5504	42		
 13026	1538624	true	open	false			2017-05-14T20:09:13Z	2017-05-23T18:46:23Z		url: more precise URLSearchParams constructor	34		
 13027	18601048	false	open	false	0		2017-05-14T21:02:32Z	2017-05-14T21:02:32Z		global becomes undefined	61		
-13028	833473	true	open	false	16		2017-05-14T23:21:48Z	2017-05-25T17:26:31Z		fs: fix realpath{Sync} on resolving pipes/sockets	79		
+13028	833473	true	open	false	17		2017-05-14T23:21:48Z	2017-05-25T22:15:47Z		fs: fix realpath{Sync} on resolving pipes/sockets	79		
 13029	6216576	false	closed	false	6		2017-05-15T00:25:00Z	2017-05-16T03:10:42Z	2017-05-15T05:12:30Z	Accept incoming requests popup appearing even after running firewall script	185		
 13030	171239	true	open	false	1		2017-05-15T00:41:43Z	2017-05-19T21:43:41Z		url: fast path ascii domains, do not run ToASCII	64		
 13031	171239	false	open	false	2		2017-05-15T00:55:21Z	2017-05-15T04:52:42Z		napi test throws error	81		
@@ -6507,7 +6507,7 @@
 13130	833473	true	open	false	7		2017-05-20T15:02:08Z	2017-05-20T21:01:11Z		cli: accept /dev/stdin as input file on Linux	80		
 13131	4923335	false	closed	false	5		2017-05-20T16:24:22Z	2017-05-24T18:15:48Z	2017-05-24T18:15:48Z	doc: make the style of notes consistent	99		
 13132	718899	true	open	false	0		2017-05-20T16:53:08Z	2017-05-23T16:00:28Z		test: confirm callback is invoked in fs test	37		
-13133	4923335	true	open	false	9		2017-05-20T20:40:03Z	2017-05-24T19:07:02Z		doc: make the style of notes consistent	81		
+13133	4923335	true	open	false	11		2017-05-20T20:40:03Z	2017-05-25T22:46:47Z		doc: make the style of notes consistent	81		
 13134	4923335	true	open	false	0	0	2017-05-20T22:10:26Z	2017-05-20T22:10:26Z		doc: fix incorrect keyboard shortcut	52		
 13135	4923335	true	open	false	1		2017-05-20T23:15:16Z	2017-05-23T17:59:13Z		doc: improve formatting of STYLE_GUIDE.md	31		
 13136	1587282	true	open	false	0		2017-05-21T04:35:47Z	2017-05-21T05:36:37Z		doc: update repo url in license file	51		
@@ -6535,7 +6535,7 @@
 13158	2512748	true	closed	false	1	2	2017-05-22T18:05:20Z	2017-05-25T18:03:08Z	2017-05-25T18:03:08Z	test: cover dgram handle send failures	70	2512748	2017-05-25T18:03:08Z
 13159	2512748	true	closed	false	0		2017-05-22T19:14:28Z	2017-05-25T15:58:38Z	2017-05-25T15:58:38Z	test: cover util.format() format placeholders	46		
 13160	15943089	true	open	false	1		2017-05-22T22:02:29Z	2017-05-23T11:22:47Z		build: don't pass DESTCPU to configure unless set	71		
-13161	495647	false	open	false	1		2017-05-23T00:10:46Z	2017-05-23T03:29:31Z		OpenSSL 1.0.2l this week	163		
+13161	495647	false	open	false	3		2017-05-23T00:10:46Z	2017-05-25T22:23:03Z		OpenSSL 1.0.2l this week	163		
 13162	79017	true	closed	false	3		2017-05-23T01:46:16Z	2017-05-25T16:13:52Z	2017-05-25T16:13:52Z	deps: backport 6d38f89d from upstream V8	244		
 13163	718899	true	closed	false	1		2017-05-23T03:06:44Z	2017-05-25T05:22:29Z	2017-05-25T05:22:29Z	test: refactor test-dns	58		
 13164	718899	true	closed	false	4		2017-05-23T03:07:25Z	2017-05-25T21:33:56Z	2017-05-25T21:33:56Z	test: refactor event-emitter-check-listener-leaks	38		
@@ -6581,15 +6581,15 @@
 13204	9488054	false	open	false	0		2017-05-24T20:01:51Z	2017-05-24T20:01:51Z		write EPIPE	94		
 13205	718899	true	open	false	0	0	2017-05-24T20:17:45Z	2017-05-24T20:17:45Z		test: check noop invocation with mustNotCall()	38		
 13206	17607	true	open	false	0	0	2017-05-24T20:19:13Z	2017-05-24T20:19:13Z		http: describe parse err in debug output	52		
-13207	9373002	true	open	false	1		2017-05-24T21:01:28Z	2017-05-25T16:21:29Z		n-api: add napi_get_version	54		
+13207	9373002	true	open	false	2		2017-05-24T21:01:28Z	2017-05-25T22:16:33Z		n-api: add napi_get_version	54		
 13208	96947	true	open	false	6		2017-05-24T21:28:50Z	2017-05-25T14:23:08Z		build: ignore more VC++ artifacts	14		
 13209	1315533	false	open	false	11		2017-05-24T22:52:26Z	2017-05-25T10:50:55Z		repl: allow `await` in REPL	142		
 13210	14798161	false	closed	false	2		2017-05-25T00:03:41Z	2017-05-25T08:48:18Z	2017-05-25T08:48:18Z	Date parse behavior change in node-v8 ?	40		
 13211	5070345	true	open	false	0	0	2017-05-25T00:24:06Z	2017-05-25T00:24:06Z		Merge pull request #1 from nodejs/master	43		
 13212	25856836	true	open	false	1		2017-05-25T02:17:07Z	2017-05-25T03:44:29Z		doc: clarified documentation for crypto.publicEncrypt() and similar functions	35		
 13213	1514798	false	open	false	0		2017-05-25T03:58:33Z	2017-05-25T03:58:33Z		tls module does not load properly when used together with lib xmlsec	261		
-13214	110455	true	open	false	5		2017-05-25T08:02:54Z	2017-05-25T18:59:19Z		http: client keep-alive for UNIX domain sockets	94		
-13215	5358146	true	open	false			2017-05-25T12:14:56Z	2017-05-25T14:44:47Z		test: replace `indexOf` with `includes`	40		
+13214	110455	true	open	false			2017-05-25T08:02:54Z	2017-05-25T22:10:10Z		http: client keep-alive for UNIX domain sockets	94		
+13215	5358146	true	open	false			2017-05-25T12:14:56Z	2017-05-25T22:07:56Z		test: replace `indexOf` with `includes`	40		
 13216	1128607	true	open	false	1		2017-05-25T12:29:27Z	2017-05-25T13:10:48Z		stream: remove dup property	15		
 13217	7401419	true	open	false	7		2017-05-25T12:45:55Z	2017-05-25T16:08:15Z		v8: forward compatibility to 6.0 API	73		
 13218	9607313	true	open	false	0	0	2017-05-25T13:01:29Z	2017-05-25T13:01:29Z		V8.x staging	42		
@@ -6601,3 +6601,4 @@
 13224	1485909	true	open	false			2017-05-25T18:57:42Z	2017-05-25T19:20:31Z		async_wrap,src: wrap promises directly	105		
 13225	12075322	false	open	false	0		2017-05-25T20:30:05Z	2017-05-25T20:30:05Z		Node debug CLI freeze	142		
 13226	718899	true	open	false	0	0	2017-05-25T21:51:53Z	2017-05-25T21:51:53Z		test: refactor test-fs-assert-encoding-error	39		
+13227	718899	false	open	false	0		2017-05-25T22:27:52Z	2017-05-25T22:27:52Z		Investigate flaky test-stream-pipe-same-destination-twice on SmartOS	34		
