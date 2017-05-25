@@ -104,7 +104,7 @@
 2465	42354	false	closed	false	4		2015-08-20T18:35:12Z	2016-12-15T12:59:44Z	2015-08-20T19:09:50Z	url.parse parses hostname as protocol when protocol/scheme is absent in hostname:port formatted uRL	54		
 2498	696611	true	closed	false	22		2015-08-22T20:07:00Z	2016-07-21T22:32:14Z	2016-07-21T22:32:14Z	fs: do basic arg validation of truncate in js	25		
 2521	885648	true	closed	false	35		2015-08-24T08:36:14Z	2017-03-01T17:20:15Z	2017-03-01T17:20:15Z	added CSI (\x9b) as additionally allowable escape	135		
-2534	4405297	true	open	false	113		2015-08-25T01:59:16Z	2017-05-25T12:03:55Z		http: fixed socket destruction, timeout and leaking	144		
+2534	4405297	true	open	false			2015-08-25T01:59:16Z	2017-05-25T14:40:59Z		http: fixed socket destruction, timeout and leaking	144		
 2538	1107239	true	closed	false	30		2015-08-25T13:44:32Z	2017-03-24T23:34:01Z	2017-03-24T23:34:01Z	added before-flushing-head event to _http_server.ServerResponse.writeHead	94		
 2546	9798949	false	closed	false	89		2015-08-25T19:16:53Z	2016-11-16T04:38:02Z	2016-06-02T17:53:08Z	Inspecting Node.js with Chrome DevTools	688		
 2564	782880	true	closed	false	28		2015-08-26T15:50:32Z	2017-01-16T05:16:07Z	2015-10-26T16:15:13Z	tls, crypto: add ALPN Support	130		
@@ -5962,7 +5962,7 @@
 12583	13963941	true	closed	false	68		2017-04-22T08:23:03Z	2017-04-24T20:12:47Z	2017-04-24T20:12:47Z	fs: add fs.copy, fs.copySync, fs.delete and fs.deleteSync with docs and tests.	449		
 12584	15608388	true	closed	false	1		2017-04-22T10:10:43Z	2017-04-24T17:32:52Z	2017-04-24T17:32:52Z	test: dynamic port in parallel cluster tests	63		
 12585	5803170	true	open	false	9		2017-04-22T12:23:06Z	2017-04-26T09:11:53Z		benchmark: add improvement and t-test in Node	207		
-12586	96947	false	open	false	18		2017-04-22T13:22:28Z	2017-04-27T12:06:41Z		Remove `indexOf` usage from tests in favor of `includes`	363		
+12586	96947	false	open	false	19		2017-04-22T13:22:28Z	2017-05-25T14:48:31Z		Remove `indexOf` usage from tests in favor of `includes`	363		
 12587	5924185	false	open	false	0		2017-04-22T17:08:05Z	2017-04-22T17:08:05Z		node_modules directory creation	59		
 12588	11764379	true	closed	false	2		2017-04-22T17:58:24Z	2017-04-26T04:23:08Z	2017-04-26T04:23:08Z	test: improve test-process-kill-pid	39		
 12589	6517545	true	closed	false	1		2017-04-22T18:20:05Z	2017-04-24T17:33:55Z	2017-04-24T17:33:55Z	test: improve test-process-chdir	44		
@@ -6552,7 +6552,7 @@
 13175	1485909	true	open	false	2		2017-05-23T19:19:23Z	2017-05-24T02:27:35Z		deps: cherry-pick 6803eef from V8 upstream	93		
 13176	899444	false	open	false	0		2017-05-23T21:10:27Z	2017-05-23T21:10:27Z		What does SecureContext::EnableTicketKeyCallback do?	86		
 13177	899444	true	open	false	0		2017-05-23T21:18:23Z	2017-05-23T22:31:49Z		async_hooks: only set up hooks if used	87		
-13178	9373002	true	open	false	1		2017-05-23T21:35:08Z	2017-05-25T13:39:34Z		test: add coverage for napi_has_named_property	38		
+13178	9373002	true	open	false	2		2017-05-23T21:35:08Z	2017-05-25T14:58:12Z		test: add coverage for napi_has_named_property	38		
 13179	373545	true	open	false	0	0	2017-05-23T22:02:51Z	2017-05-23T22:02:51Z		fs: Fix default params for fs.write(Sync) (backport to v6)	73		
 13180	289174	false	open	false	1		2017-05-23T22:08:25Z	2017-05-24T16:33:02Z		inconsistency in `StreamBase::WriteBuffer()`	273		
 13181	28588124	false	closed	false	1		2017-05-23T23:48:05Z	2017-05-24T04:53:52Z	2017-05-24T04:53:52Z	async function, FunctionTemplate::New(isolate, CancelFunction)	120		
@@ -6582,14 +6582,14 @@
 13205	718899	true	open	false	0	0	2017-05-24T20:17:45Z	2017-05-24T20:17:45Z		test: check noop invocation with mustNotCall()	38		
 13206	17607	true	open	false	0	0	2017-05-24T20:19:13Z	2017-05-24T20:19:13Z		http: describe parse err in debug output	52		
 13207	9373002	true	open	false	0		2017-05-24T21:01:28Z	2017-05-25T13:45:09Z		n-api: add napi_get_version	54		
-13208	96947	true	open	false	4		2017-05-24T21:28:50Z	2017-05-25T02:18:43Z		build: ignore more VC++ artifacts	14		
+13208	96947	true	open	false	6		2017-05-24T21:28:50Z	2017-05-25T14:23:08Z		build: ignore more VC++ artifacts	14		
 13209	1315533	false	open	false	11		2017-05-24T22:52:26Z	2017-05-25T10:50:55Z		repl: allow `await` in REPL	142		
 13210	14798161	false	closed	false	2		2017-05-25T00:03:41Z	2017-05-25T08:48:18Z	2017-05-25T08:48:18Z	Date parse behavior change in node-v8 ?	40		
 13211	5070345	true	open	false	0	0	2017-05-25T00:24:06Z	2017-05-25T00:24:06Z		Merge pull request #1 from nodejs/master	43		
 13212	25856836	true	open	false	1		2017-05-25T02:17:07Z	2017-05-25T03:44:29Z		doc: clarified documentation for crypto.publicEncrypt() and similar functions	35		
 13213	1514798	false	open	false	0		2017-05-25T03:58:33Z	2017-05-25T03:58:33Z		tls module does not load properly when used together with lib xmlsec	261		
 13214	110455	true	open	false			2017-05-25T08:02:54Z	2017-05-25T11:07:40Z		http: client keep-alive for UNIX domain sockets	94		
-13215	5358146	true	open	false	0	0	2017-05-25T12:14:56Z	2017-05-25T12:14:56Z		test: replace `indexOf` with `includes`	40		
+13215	5358146	true	open	false			2017-05-25T12:14:56Z	2017-05-25T14:44:47Z		test: replace `indexOf` with `includes`	40		
 13216	1128607	true	open	false	1		2017-05-25T12:29:27Z	2017-05-25T13:10:48Z		stream: remove dup property	15		
 13217	7401419	true	open	false	0	0	2017-05-25T12:45:55Z	2017-05-25T12:45:55Z		v8: forward compatibility to 6.0 API	73		
 13218	9607313	true	open	false	0	0	2017-05-25T13:01:29Z	2017-05-25T13:01:29Z		V8.x staging	42		
