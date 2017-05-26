@@ -104,7 +104,7 @@
 2465	42354	false	closed	false	4		2015-08-20T18:35:12Z	2016-12-15T12:59:44Z	2015-08-20T19:09:50Z	url.parse parses hostname as protocol when protocol/scheme is absent in hostname:port formatted uRL	54		
 2498	696611	true	closed	false	22		2015-08-22T20:07:00Z	2016-07-21T22:32:14Z	2016-07-21T22:32:14Z	fs: do basic arg validation of truncate in js	25		
 2521	885648	true	closed	false	35		2015-08-24T08:36:14Z	2017-03-01T17:20:15Z	2017-03-01T17:20:15Z	added CSI (\x9b) as additionally allowable escape	135		
-2534	4405297	true	open	false	116		2015-08-25T01:59:16Z	2017-05-25T22:37:32Z		http: fixed socket destruction, timeout and leaking	144		
+2534	4405297	true	closed	false	117		2015-08-25T01:59:16Z	2017-05-26T16:08:03Z	2017-05-26T16:08:03Z	http: fixed socket destruction, timeout and leaking	144		
 2538	1107239	true	closed	false	30		2015-08-25T13:44:32Z	2017-03-24T23:34:01Z	2017-03-24T23:34:01Z	added before-flushing-head event to _http_server.ServerResponse.writeHead	94		
 2546	9798949	false	closed	false	89		2015-08-25T19:16:53Z	2016-11-16T04:38:02Z	2016-06-02T17:53:08Z	Inspecting Node.js with Chrome DevTools	688		
 2564	782880	true	closed	false	28		2015-08-26T15:50:32Z	2017-01-16T05:16:07Z	2015-10-26T16:15:13Z	tls, crypto: add ALPN Support	130		
@@ -5901,7 +5901,7 @@
 12522	96947	true	closed	false	4		2017-04-19T20:26:27Z	2017-05-16T13:23:06Z	2017-04-21T13:26:13Z	build, icu: fix case in lib names	36		
 12523	1538624	true	closed	false	9		2017-04-19T22:09:11Z	2017-04-24T23:36:41Z	2017-04-24T23:36:41Z	url: update WHATWG URL parser to latest spec	161		
 12524	13093042	true	closed	false	7		2017-04-19T22:32:23Z	2017-04-25T20:05:42Z	2017-04-25T20:05:42Z	n-api: Enable scope and ref APIs during exception	179		
-12525	5803170	true	open	false	12		2017-04-19T22:40:53Z	2017-05-24T05:32:04Z		querystring: improve querystring unescapeBuffer perf	81		
+12525	5803170	true	open	false	14		2017-04-19T22:40:53Z	2017-05-26T16:42:29Z		querystring: improve querystring unescapeBuffer perf	81		
 12526	1538624	true	closed	false	1		2017-04-20T06:13:39Z	2017-04-24T23:43:38Z	2017-04-24T23:43:38Z	url: use util's getConstructorOf	18		
 12527	718899	true	closed	false	1		2017-04-20T06:16:16Z	2017-04-24T21:22:11Z	2017-04-24T21:22:11Z	test: check that pending warning is emitted once	63		
 12528	1384537	true	closed	false	1		2017-04-20T08:21:13Z	2017-04-24T21:06:13Z	2017-04-24T21:06:13Z	module: correcting comment spelling	30		
@@ -6370,7 +6370,7 @@
 12992	10393198	true	closed	false	3	0	2017-05-12T08:47:14Z	2017-05-15T11:59:03Z	2017-05-15T11:59:03Z	test: remove unneeded string splitting	31		
 12993	432351	true	open	false			2017-05-12T11:29:39Z	2017-05-23T18:21:17Z		crypto: remove unnecessary template class	66		
 12994	824669	false	open	false	0		2017-05-12T12:25:44Z	2017-05-12T12:25:44Z		Extends Promise with setImmediate	55		
-12995	2352663	true	open	false	7		2017-05-12T13:10:18Z	2017-05-16T00:38:52Z		(v8.x) src: update NODE_MODULE_VERSION to 57	58		
+12995	2352663	true	open	false	8		2017-05-12T13:10:18Z	2017-05-26T16:14:03Z		(v8.x) src: update NODE_MODULE_VERSION to 57	58		
 12996	7041980	true	closed	false	13		2017-05-12T14:15:36Z	2017-05-16T20:16:27Z	2017-05-16T19:49:53Z	test: replace port in net immediate finish test	41		
 12997	96947	false	open	false	0		2017-05-12T14:55:33Z	2017-05-17T14:04:57Z		test: investigate async-hooks/test-tcpwrap for flakiness on Linux	64		
 12998	439929	true	closed	false	2	0	2017-05-12T15:39:30Z	2017-05-15T15:31:24Z	2017-05-15T15:31:24Z	util: fixup internal util exports	43		
@@ -6516,7 +6516,7 @@
 13139	1442575	false	closed	false	9		2017-05-21T13:34:46Z	2017-05-21T18:25:11Z	2017-05-21T18:25:10Z	Questions: will nodejs expose SetPromiseHook of V8 as javascript API in the future?	88		
 13140	1086596	false	closed	false	1		2017-05-21T13:59:05Z	2017-05-23T09:51:46Z	2017-05-21T14:09:36Z	Array of one item is not truly non-empty!	307		
 13141	432351	true	closed	false	2		2017-05-21T17:28:49Z	2017-05-23T06:41:29Z	2017-05-23T06:41:29Z	test: add hasCrypto check to async-wrap-GH13045	49		
-13142	899444	true	open	false	8		2017-05-21T18:15:55Z	2017-05-25T20:03:50Z		async_hooks: implement C++ embedder API	65		
+13142	899444	true	open	false	9		2017-05-21T18:15:55Z	2017-05-26T16:10:22Z		async_hooks: implement C++ embedder API	64		
 13143	899444	false	open	false	15		2017-05-21T18:44:07Z	2017-05-24T13:41:28Z		Tracking issue: Worker support	354		
 13144	54666	false	open	false	4		2017-05-21T18:54:04Z	2017-05-24T15:47:20Z		timers: expose rearm()	124		
 13145	10393198	true	closed	false	0		2017-05-21T19:15:32Z	2017-05-24T00:56:09Z	2017-05-24T00:56:09Z	doc: don't use useless constructors in stream.md	92		
@@ -6545,9 +6545,9 @@
 13168	3599069	false	open	false	7		2017-05-23T08:41:18Z	2017-05-24T16:14:08Z		setTimeout not always firing when computer sleeps/wakes	100		
 13169	5716685	false	open	false	0		2017-05-23T09:24:35Z	2017-05-23T09:24:35Z		npm -v throw err	66		
 13170	1891017	false	open	false	8		2017-05-23T14:29:52Z	2017-05-24T14:17:27Z		HTTPS Server crashing randomly (With solution)	108		
-13171	2512748	true	open	false	0		2017-05-23T15:53:47Z	2017-05-25T18:21:40Z		test: add coverage for socket write after close	50		
+13171	2512748	true	closed	false	1	1	2017-05-23T15:53:47Z	2017-05-26T16:24:46Z	2017-05-26T16:24:46Z	test: add coverage for socket write after close	50	2512748	2017-05-26T16:24:46Z
 13172	17607	true	closed	false	6	0	2017-05-23T16:14:31Z	2017-05-25T16:21:09Z	2017-05-25T16:21:09Z	src: allow --tls-cipher-list in NODE_OPTIONS	33	17607	2017-05-25T16:21:09Z
-13173	96947	true	open	false			2017-05-23T16:17:45Z	2017-05-26T00:03:14Z		fs: expose Stats times as Numbers	57		
+13173	96947	true	open	false			2017-05-23T16:17:45Z	2017-05-26T16:24:52Z		fs: expose Stats times as Numbers	57		
 13174	899444	true	closed	false	1		2017-05-23T17:58:56Z	2017-05-25T18:02:34Z	2017-05-25T18:02:34Z	src: make StreamBase::GetAsyncWrap pure virtual	45		
 13175	1485909	true	closed	false	6		2017-05-23T19:19:23Z	2017-05-26T08:40:18Z	2017-05-26T08:40:18Z	deps: cherry-pick 6803eef from V8 upstream	93		
 13176	899444	false	closed	false	1		2017-05-23T21:10:27Z	2017-05-26T16:00:47Z	2017-05-26T16:00:47Z	What does SecureContext::EnableTicketKeyCallback do?	86		
@@ -6572,7 +6572,7 @@
 13195	52195	true	closed	false	9		2017-05-24T14:13:57Z	2017-05-26T11:58:41Z	2017-05-26T11:58:41Z	stream: emit finish when using writev and cork	63		
 13196	2512748	true	open	false			2017-05-24T15:04:55Z	2017-05-24T16:15:28Z		doc: make socket IPC examples more robust	73		
 13197	10393198	false	open	false	3		2017-05-24T16:12:26Z	2017-05-24T19:15:43Z		tty: tty.WriteStream event 'resize' on Windows	75		
-13198	287917	true	open	false	0		2017-05-24T17:09:34Z	2017-05-24T18:18:41Z		inspector: add missing virtual destructor	35		
+13198	287917	true	closed	false	2		2017-05-24T17:09:34Z	2017-05-26T16:03:25Z	2017-05-26T16:03:25Z	inspector: add missing virtual destructor	35		
 13199	4923335	true	open	false	0		2017-05-24T17:17:36Z	2017-05-25T08:28:49Z		(v7.x backport) zlib: fix node crashing on invalid options	107		
 13200	13093042	true	closed	false	3		2017-05-24T17:45:51Z	2017-05-25T02:46:52Z	2017-05-24T18:00:41Z	doc: add jasongin & kunalspathak to collaborators	27		
 13201	4923335	true	open	false	0		2017-05-24T17:50:32Z	2017-05-25T08:27:41Z		(v6.x backport) zlib: fix node crashing on invalid options	107		
@@ -6591,7 +6591,7 @@
 13214	110455	true	open	false			2017-05-25T08:02:54Z	2017-05-26T08:43:07Z		http: client keep-alive for UNIX domain sockets	94		
 13215	5358146	true	open	false			2017-05-25T12:14:56Z	2017-05-26T09:52:59Z		test: replace `indexOf` with `includes`	40		
 13216	1128607	true	open	false	1		2017-05-25T12:29:27Z	2017-05-25T13:10:48Z		stream: remove dup property	15		
-13217	7401419	true	open	false	9		2017-05-25T12:45:55Z	2017-05-26T13:59:57Z		v8: patch API to be compatible with v8 6.0	73		
+13217	7401419	true	open	false	10		2017-05-25T12:45:55Z	2017-05-26T16:40:18Z		v8: patch API to be compatible with v8 6.0	73		
 13218	9607313	true	open	false	0	0	2017-05-25T13:01:29Z	2017-05-25T13:01:29Z		V8.x staging	42		
 13219	17607	false	closed	false	1		2017-05-25T15:46:56Z	2017-05-25T16:16:02Z	2017-05-25T16:16:02Z	openssl fips .tar.gz has moved, or been replaced	53		
 13220	2512748	true	open	false			2017-05-25T17:35:50Z	2017-05-26T13:32:41Z		src: clean up SafeGetenv()	40		
@@ -6611,8 +6611,8 @@
 13234	432351	true	open	false	0	0	2017-05-26T06:42:07Z	2017-05-26T06:42:07Z		deps: add example of comparing OpenSSL changes	76		
 13235	1084056	true	open	false	2		2017-05-26T08:30:06Z	2017-05-26T09:48:53Z		child_process: fix handleless NODE_HANDLE handling	85		
 13236	1716463	true	open	false	0	0	2017-05-26T09:26:12Z	2017-05-26T09:26:12Z		doc: fix api docs style	123		
-13237	505333	false	open	false	0		2017-05-26T09:55:33Z	2017-05-26T14:03:07Z		Late enabling of async_hooks after promise creation causes process abort	232		
-13238	5358146	true	open	false	2		2017-05-26T10:35:14Z	2017-05-26T12:32:07Z		test: name anonymous functions in timers	36		
+13237	505333	false	open	false	2		2017-05-26T09:55:33Z	2017-05-26T16:48:18Z		Late enabling of async_hooks after promise creation causes process abort	232		
+13238	5358146	true	closed	false	7		2017-05-26T10:35:14Z	2017-05-26T16:30:41Z	2017-05-26T16:30:41Z	test: name anonymous functions in timers	36		
 13239	3824055	false	open	false	2		2017-05-26T11:33:37Z	2017-05-26T14:01:42Z		Add option to break on start of specific file	57		
 13240	13809413	true	open	false	0	0	2017-05-26T13:13:16Z	2017-05-26T13:13:16Z		errors,tty: migrate to use internal/errors.js	46		
 13241	432351	true	open	false	0	0	2017-05-26T13:22:44Z	2017-05-26T13:22:44Z		crypto: return CHECK_OK in VerifyCallback	67		
