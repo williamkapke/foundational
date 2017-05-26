@@ -157,7 +157,7 @@
 3062	355454	true	open	false	14		2015-09-25T15:52:59Z	2017-03-27T18:54:22Z		http: Reject paths containing non-ASCII characters	123		
 3063	98899	true	closed	false	87		2015-09-25T17:01:14Z	2016-10-11T00:42:12Z	2016-07-15T17:38:59Z	timers: fix processing of nested same delay timers	21		
 3064	2559673	true	closed	false	32	22	2015-09-25T17:01:57Z	2017-02-28T22:57:03Z	2017-02-28T22:57:02Z	https: throw error if required params missing	58		
-3072	247721	false	open	false	120		2015-09-26T02:29:39Z	2017-05-24T12:22:19Z		Cluster crash in main process, callback undefined when handling internal messages	152		
+3072	247721	false	open	false	123		2015-09-26T02:29:39Z	2017-05-26T09:35:30Z		Cluster crash in main process, callback undefined when handling internal messages	152		
 3073	220205	true	closed	false	48		2015-09-26T09:13:35Z	2016-08-22T18:20:41Z	2016-08-22T18:20:41Z	Add crypto.timingSafeEqual().	2		
 3098	639601	true	closed	false	15		2015-09-28T03:35:50Z	2016-06-30T12:31:35Z	2016-05-19T11:01:44Z	src: fix linking when built as shared library	192		
 3101	7358595	false	closed	false	11		2015-09-28T11:07:40Z	2016-09-26T13:20:14Z	2015-09-28T12:34:09Z	Destructuring Assignment doesn't work in node v 4.1.0 for me	52		
@@ -6565,7 +6565,7 @@
 13188	432351	true	open	false	2		2017-05-24T07:48:43Z	2017-05-26T03:44:54Z		src: ignore unused warning for inspector-agent.cc	78		
 13189	7311122	false	closed	false	2		2017-05-24T08:44:27Z	2017-05-26T05:41:58Z	2017-05-24T10:41:32Z	v4.4.0:use Buffer.from('aaa') and then return this is not a typed Array, but in v4.8.0 is ok	46		
 13190	432351	true	closed	false	0		2017-05-24T10:55:47Z	2017-05-24T17:53:25Z	2017-05-24T17:53:25Z	src: correct endif comment SRC_NODE_API_H__	52		
-13191	910691	true	open	false			2017-05-24T10:56:07Z	2017-05-25T08:53:10Z		src, inspector: clean up base64_encode	115		
+13191	910691	true	open	false			2017-05-24T10:56:07Z	2017-05-26T09:14:15Z		src, inspector: clean up base64_encode	115		
 13192	899444	true	open	false	0	0	2017-05-24T11:18:47Z	2017-05-24T11:18:47Z		async_hooks: rename AsyncEvent to AsyncResource	49		
 13193	899444	true	open	false			2017-05-24T11:41:31Z	2017-05-24T12:33:52Z		src: add comment for TicketKeyCallback	27		
 13194	432351	true	open	false	3		2017-05-24T13:39:50Z	2017-05-26T04:06:45Z		crypto: remove root_cert_store from node_crypto.h	88		
@@ -6587,9 +6587,9 @@
 13210	14798161	false	closed	false	2		2017-05-25T00:03:41Z	2017-05-25T08:48:18Z	2017-05-25T08:48:18Z	Date parse behavior change in node-v8 ?	40		
 13211	5070345	true	open	false	0	0	2017-05-25T00:24:06Z	2017-05-25T00:24:06Z		Merge pull request #1 from nodejs/master	43		
 13212	25856836	true	open	false	1		2017-05-25T02:17:07Z	2017-05-25T03:44:29Z		doc: clarified documentation for crypto.publicEncrypt() and similar functions	35		
-13213	1514798	false	open	false	0		2017-05-25T03:58:33Z	2017-05-25T03:58:33Z		tls module does not load properly when used together with lib xmlsec	261		
+13213	1514798	false	open	false	1		2017-05-25T03:58:33Z	2017-05-26T09:21:24Z		tls module does not load properly when used together with lib xmlsec	261		
 13214	110455	true	open	false			2017-05-25T08:02:54Z	2017-05-26T08:43:07Z		http: client keep-alive for UNIX domain sockets	94		
-13215	5358146	true	open	false			2017-05-25T12:14:56Z	2017-05-26T07:51:28Z		test: replace `indexOf` with `includes`	40		
+13215	5358146	true	open	false			2017-05-25T12:14:56Z	2017-05-26T09:52:59Z		test: replace `indexOf` with `includes`	40		
 13216	1128607	true	open	false	1		2017-05-25T12:29:27Z	2017-05-25T13:10:48Z		stream: remove dup property	15		
 13217	7401419	true	open	false	7		2017-05-25T12:45:55Z	2017-05-25T16:08:15Z		v8: forward compatibility to 6.0 API	73		
 13218	9607313	true	open	false	0	0	2017-05-25T13:01:29Z	2017-05-25T13:01:29Z		V8.x staging	42		
@@ -6601,12 +6601,14 @@
 13224	1485909	true	open	false			2017-05-25T18:57:42Z	2017-05-25T19:20:31Z		async_wrap,src: wrap promises directly	105		
 13225	12075322	false	open	false	0		2017-05-25T20:30:05Z	2017-05-25T20:30:05Z		Node debug CLI freeze	142		
 13226	718899	true	open	false	0	0	2017-05-25T21:51:53Z	2017-05-25T21:51:53Z		test: refactor test-fs-assert-encoding-error	39		
-13227	718899	false	open	false	4		2017-05-25T22:27:52Z	2017-05-26T00:03:48Z		Investigate flaky test-stream-pipe-same-destination-twice on SmartOS	34		
+13227	718899	false	open	false	6		2017-05-25T22:27:52Z	2017-05-26T09:22:31Z		Investigate flaky test-stream-pipe-same-destination-twice on SmartOS	34		
 13228	17607	true	open	false	0	0	2017-05-26T02:08:26Z	2017-05-26T02:08:26Z		inspector: JavaScript bindings for the websocket	141		
 13229	24996985	false	open	false	0		2017-05-26T02:17:55Z	2017-05-26T02:17:55Z		cannot run npm cross compile linux	6		
 13230	24996985	false	closed	false	5		2017-05-26T02:42:23Z	2017-05-26T07:07:14Z	2017-05-26T07:07:14Z	npm doesn't work in arm7	147		
-13231	718899	true	open	false	0	0	2017-05-26T05:46:06Z	2017-05-26T05:46:06Z		doc: remove low-value badges from README	144		
-13232	718899	true	open	false	0	0	2017-05-26T05:59:47Z	2017-05-26T05:59:47Z		doc: create list of CTC emeriti	23		
+13231	718899	true	open	false	0		2017-05-26T05:46:06Z	2017-05-26T09:38:00Z		doc: remove badges from README	144		
+13232	718899	true	open	false	0		2017-05-26T05:59:47Z	2017-05-26T09:59:27Z		doc: create list of CTC emeriti	23		
 13233	432351	true	open	false	2		2017-05-26T06:30:24Z	2017-05-26T08:01:54Z		deps: upgrade OpenSSL to version 1.0.2l	56		
 13234	432351	true	open	false	0	0	2017-05-26T06:42:07Z	2017-05-26T06:42:07Z		deps: add example of comparing OpenSSL changes	76		
-13235	1084056	true	open	false	0	0	2017-05-26T08:30:06Z	2017-05-26T08:30:06Z		child_process: fix handleless NODE_HANDLE handling	85		
+13235	1084056	true	open	false	2		2017-05-26T08:30:06Z	2017-05-26T09:48:53Z		child_process: fix handleless NODE_HANDLE handling	85		
+13236	1716463	true	open	false	0	0	2017-05-26T09:26:12Z	2017-05-26T09:26:12Z		doc: fix api docs style	123		
+13237	505333	false	open	false	0		2017-05-26T09:55:33Z	2017-05-26T09:55:33Z		Late enabling of async_hooks after promise creation causes process abort	232		
