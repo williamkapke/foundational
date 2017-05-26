@@ -4988,7 +4988,7 @@
 11605	327019	false	closed	false	2		2017-02-28T14:42:37Z	2017-03-16T22:10:27Z	2017-03-16T22:10:27Z	Add assert.equal for length of Buffer.concat(list, length)	25		
 11606	21952142	false	open	false	2		2017-02-28T14:57:30Z	2017-03-27T08:11:23Z		GC segfault	145		
 11607	988441	true	open	false	18		2017-02-28T15:20:46Z	2017-04-18T11:50:09Z		fs: don't conflate data and callback in arguments	106		
-11608	899444	true	open	false	17		2017-02-28T15:34:52Z	2017-05-26T18:02:08Z		stream: support Uint8Array input to methods	143		
+11608	899444	true	open	false	18		2017-02-28T15:34:52Z	2017-05-26T21:28:47Z		stream: support Uint8Array input to methods	143		
 11609	439929	true	closed	false	2	1	2017-02-28T16:13:56Z	2017-04-22T00:02:17Z	2017-04-22T00:02:17Z	benchmark: ES6 class vs function benchmark	154		
 11610	696611	true	closed	false	10		2017-02-28T16:28:08Z	2017-04-30T11:01:49Z	2017-04-30T11:01:49Z	introduce doc linter	125		
 11611	439929	true	closed	false	3	4	2017-02-28T16:50:45Z	2017-04-22T00:02:17Z	2017-04-22T00:02:17Z	benchmark: obj property access benchmark	89		
@@ -6193,7 +6193,7 @@
 12815	4421720	true	open	false			2017-05-03T19:04:57Z	2017-05-04T13:57:57Z		src: deprecate vm.runInDebugContext	46		
 12816	361671	false	open	false	3		2017-05-03T20:21:57Z	2017-05-04T03:34:52Z		writeFile behavior changed with 7.10	40		
 12817	718899	false	closed	false	1		2017-05-03T22:04:34Z	2017-05-06T12:22:14Z	2017-05-06T12:22:14Z	investigate flaky test-benchmark-child-process on Windows	24		
-12818	163642	true	closed	false	47		2017-05-03T22:28:06Z	2017-05-26T19:02:50Z	2017-05-23T13:55:35Z	Lazy stat dates	248		
+12818	163642	true	closed	false	51		2017-05-03T22:28:06Z	2017-05-26T21:25:41Z	2017-05-23T13:55:35Z	Lazy stat dates	248		
 12819	127971	false	open	false	4		2017-05-03T23:53:32Z	2017-05-15T03:07:04Z		`.errno` field of errors from `child_process.execSync` is in string form instead of numeric.	67		
 12820	96947	true	open	false	10		2017-05-04T03:13:04Z	2017-05-26T02:56:37Z		assert: wrap original err on `ifError` fail	58		
 12821	96947	true	closed	false	3	3	2017-05-04T04:01:20Z	2017-05-06T12:22:23Z	2017-05-06T12:22:23Z	test: fix flakyness with `yes.exe`	38		
@@ -6328,7 +6328,7 @@
 12950	96947	false	closed	false	13		2017-05-10T19:45:45Z	2017-05-16T03:04:19Z	2017-05-16T03:04:19Z	test: flaky parallel/test-net-connect-local-error on macOS & freeBSD	54		
 12951	96947	false	closed	false	2		2017-05-10T19:47:21Z	2017-05-15T22:43:30Z	2017-05-15T22:43:30Z	test: flaky parallel/test-net-connect-options-allowhalfopen on macOS & freeBSD	497		
 12952	1665373	false	closed	false	6		2017-05-10T19:49:10Z	2017-05-25T16:43:27Z	2017-05-25T16:43:27Z	OpenSSL have collisions in node.dll	36		
-12953	192891	true	open	false			2017-05-10T21:17:36Z	2017-05-24T16:04:40Z		docs: documenting async hooks features	70		
+12953	192891	true	open	false	7		2017-05-10T21:17:36Z	2017-05-26T21:56:12Z		docs: documenting async hooks features	70		
 12954	298166	true	closed	false	7	0	2017-05-10T21:51:42Z	2017-05-12T20:47:48Z	2017-05-12T20:47:48Z	test: fix wording for presence of headers	49		
 12955	8503065	false	closed	false	5		2017-05-11T01:12:23Z	2017-05-12T14:20:52Z	2017-05-12T14:20:52Z	when will Node.js' Webassembly API be synchronized with the browser?	39		
 12956	127971	false	open	false	13		2017-05-11T01:29:04Z	2017-05-11T18:29:40Z		Don't use userobject.call/userobject.apply	58		
@@ -6579,9 +6579,9 @@
 13202	3678550	false	open	false	0		2017-05-24T18:11:30Z	2017-05-24T18:11:30Z		"Header parse error: fails with 400 bad request when two field values are separated with just "","". Works ok with "", """	261		
 13203	4923335	true	open	false	1		2017-05-24T18:21:12Z	2017-05-25T19:25:57Z		(v8.x backport) zlib: fix node crashing on invalid options	109		
 13204	9488054	false	open	false	0		2017-05-24T20:01:51Z	2017-05-24T20:01:51Z		write EPIPE	94		
-13205	718899	true	open	false	0	0	2017-05-24T20:17:45Z	2017-05-24T20:17:45Z		test: check noop invocation with mustNotCall()	38		
+13205	718899	true	closed	false	1		2017-05-24T20:17:45Z	2017-05-26T21:52:48Z	2017-05-26T21:52:48Z	test: check noop invocation with mustNotCall()	38		
 13206	17607	true	open	false	0	0	2017-05-24T20:19:13Z	2017-05-24T20:19:13Z		http: describe parse err in debug output	52		
-13207	9373002	true	open	false	6		2017-05-24T21:01:28Z	2017-05-26T20:35:43Z		n-api: add napi_get_version	54		
+13207	9373002	true	closed	false	7		2017-05-24T21:01:28Z	2017-05-26T21:07:37Z	2017-05-26T21:07:37Z	n-api: add napi_get_version	54		
 13208	96947	true	open	false	6		2017-05-24T21:28:50Z	2017-05-25T14:23:08Z		build: ignore more VC++ artifacts	14		
 13209	1315533	false	open	false	12		2017-05-24T22:52:26Z	2017-05-26T06:19:33Z		repl: allow `await` in REPL	142		
 13210	14798161	false	closed	false	2		2017-05-25T00:03:41Z	2017-05-25T08:48:18Z	2017-05-25T08:48:18Z	Date parse behavior change in node-v8 ?	40		
@@ -6614,7 +6614,7 @@
 13237	505333	false	open	false	3		2017-05-26T09:55:33Z	2017-05-26T17:01:48Z		Late enabling of async_hooks after promise creation causes process abort	232		
 13238	5358146	true	closed	false	7		2017-05-26T10:35:14Z	2017-05-26T16:30:41Z	2017-05-26T16:30:41Z	test: name anonymous functions in timers	36		
 13239	3824055	false	open	false	2		2017-05-26T11:33:37Z	2017-05-26T14:01:42Z		Add option to break on start of specific file	57		
-13240	13809413	true	open	false	0	0	2017-05-26T13:13:16Z	2017-05-26T13:13:16Z		errors,tty: migrate to use internal/errors.js	46		
+13240	13809413	true	open	false			2017-05-26T13:13:16Z	2017-05-26T21:33:40Z		errors,tty: migrate to use internal/errors.js	46		
 13241	432351	true	open	false	0	0	2017-05-26T13:22:44Z	2017-05-26T13:22:44Z		crypto: return CHECK_OK in VerifyCallback	67		
 13242	899444	true	open	false	0		2017-05-26T15:23:45Z	2017-05-26T19:07:14Z		async_hooks: fix Promises with later enabled hooks	42		
 13243	899444	true	open	false	0	0	2017-05-26T15:55:03Z	2017-05-26T15:55:03Z		test: improve async hooks test error messages	67		
@@ -6622,4 +6622,5 @@
 13245	9373002	true	open	false	2		2017-05-26T17:59:25Z	2017-05-26T20:23:46Z		doc: make spelling of behavior consistent	91		
 13246	96947	true	open	false			2017-05-26T18:42:31Z	2017-05-26T19:08:25Z		doc: add note to Stats about copying	34		
 13247	287917	false	open	false	1		2017-05-26T18:49:41Z	2017-05-26T20:32:29Z		Move Inspector WS server into a separate module.	205		
-13248	9373002	false	open	false	0		2017-05-26T20:32:46Z	2017-05-26T20:32:46Z		test-fs-watchfile failure on OSX - intermittent ? 	36		
+13248	9373002	false	open	false	1		2017-05-26T20:32:46Z	2017-05-26T21:43:12Z		test-fs-watchfile failure on OSX - intermittent ? 	36		
+13249	718899	true	open	false	0	0	2017-05-26T21:57:48Z	2017-05-26T21:57:48Z		test: use mustNotCall() in test-stream2-objects	38		
