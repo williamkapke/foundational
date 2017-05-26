@@ -4501,7 +4501,7 @@
 11118	7408689	false	closed	false	4		2017-02-02T10:14:06Z	2017-02-22T22:21:36Z	2017-02-07T17:53:46Z	Can't build v6.9.5 with gcc 7.0.1	593		
 11119	988441	true	closed	false	2		2017-02-02T15:08:58Z	2017-02-05T00:11:48Z	2017-02-03T18:35:11Z	"build: notify about the redundancy of ""nosign"""	43		
 11120	988441	true	closed	false	11	3	2017-02-02T15:24:54Z	2017-02-05T12:14:54Z	2017-02-05T12:14:54Z	buffer: stricter argument checking in toString	103	988441	2017-02-05T12:14:54Z
-11121	4964823	false	open	false	5		2017-02-02T15:49:21Z	2017-02-04T15:42:39Z		`finish` event of stream.Writable is not expectedly emitted	183		
+11121	4964823	false	closed	false	6		2017-02-02T15:49:21Z	2017-05-26T11:59:00Z	2017-05-26T11:59:00Z	`finish` event of stream.Writable is not expectedly emitted	183		
 11122	5886475	true	closed	false	5		2017-02-02T16:08:16Z	2017-02-10T15:35:38Z	2017-02-06T00:59:38Z	test: increase coverage of buffer	32		
 11123	1716463	true	closed	false	10	0	2017-02-02T19:22:37Z	2017-02-17T01:01:08Z	2017-02-17T01:01:08Z	url: fix file state clarification in binding	58		
 11124	718899	true	closed	false	2		2017-02-02T19:41:36Z	2017-03-07T19:30:55Z	2017-02-05T20:28:10Z	test: simplify output handling in repl tests	34		
@@ -6569,7 +6569,7 @@
 13192	899444	true	open	false	0	0	2017-05-24T11:18:47Z	2017-05-24T11:18:47Z		async_hooks: rename AsyncEvent to AsyncResource	49		
 13193	899444	true	open	false			2017-05-24T11:41:31Z	2017-05-24T12:33:52Z		src: add comment for TicketKeyCallback	27		
 13194	432351	true	open	false	3		2017-05-24T13:39:50Z	2017-05-26T04:06:45Z		crypto: remove root_cert_store from node_crypto.h	88		
-13195	52195	true	open	false	6		2017-05-24T14:13:57Z	2017-05-25T16:07:24Z		stream: emit finish when using writev and cork	63		
+13195	52195	true	closed	false	9		2017-05-24T14:13:57Z	2017-05-26T11:58:41Z	2017-05-26T11:58:41Z	stream: emit finish when using writev and cork	63		
 13196	2512748	true	open	false			2017-05-24T15:04:55Z	2017-05-24T16:15:28Z		doc: make socket IPC examples more robust	73		
 13197	10393198	false	open	false	3		2017-05-24T16:12:26Z	2017-05-24T19:15:43Z		tty: tty.WriteStream event 'resize' on Windows	75		
 13198	287917	true	open	false	0		2017-05-24T17:09:34Z	2017-05-24T18:18:41Z		inspector: add missing virtual destructor	35		
@@ -6604,12 +6604,13 @@
 13227	718899	false	open	false	6		2017-05-25T22:27:52Z	2017-05-26T09:22:31Z		Investigate flaky test-stream-pipe-same-destination-twice on SmartOS	34		
 13228	17607	true	open	false	0	0	2017-05-26T02:08:26Z	2017-05-26T02:08:26Z		inspector: JavaScript bindings for the websocket	141		
 13229	24996985	false	open	false	0		2017-05-26T02:17:55Z	2017-05-26T02:17:55Z		cannot run npm cross compile linux	6		
-13230	24996985	false	closed	false	5		2017-05-26T02:42:23Z	2017-05-26T07:07:14Z	2017-05-26T07:07:14Z	npm doesn't work in arm7	147		
-13231	718899	true	open	false	0		2017-05-26T05:46:06Z	2017-05-26T09:38:00Z		doc: remove badges from README	144		
+13230	24996985	false	closed	false	6		2017-05-26T02:42:23Z	2017-05-26T11:42:25Z	2017-05-26T07:07:14Z	.	0		
+13231	718899	true	open	false	1		2017-05-26T05:46:06Z	2017-05-26T11:58:11Z		doc: remove badges from README	144		
 13232	718899	true	open	false	0		2017-05-26T05:59:47Z	2017-05-26T09:59:27Z		doc: create list of CTC emeriti	23		
-13233	432351	true	open	false			2017-05-26T06:30:24Z	2017-05-26T10:24:50Z		deps: upgrade OpenSSL to version 1.0.2l	56		
+13233	432351	true	open	false	5		2017-05-26T06:30:24Z	2017-05-26T11:06:32Z		deps: upgrade OpenSSL to version 1.0.2l	56		
 13234	432351	true	open	false	0	0	2017-05-26T06:42:07Z	2017-05-26T06:42:07Z		deps: add example of comparing OpenSSL changes	76		
 13235	1084056	true	open	false	2		2017-05-26T08:30:06Z	2017-05-26T09:48:53Z		child_process: fix handleless NODE_HANDLE handling	85		
 13236	1716463	true	open	false	0	0	2017-05-26T09:26:12Z	2017-05-26T09:26:12Z		doc: fix api docs style	123		
 13237	505333	false	open	false	0		2017-05-26T09:55:33Z	2017-05-26T09:55:33Z		Late enabling of async_hooks after promise creation causes process abort	232		
 13238	5358146	true	open	false	0	0	2017-05-26T10:35:14Z	2017-05-26T10:35:14Z		test: name anonymous functions in timers	36		
+13239	3824055	false	open	false	0		2017-05-26T11:33:37Z	2017-05-26T11:33:37Z		Add option to break on start of specific file	57		
