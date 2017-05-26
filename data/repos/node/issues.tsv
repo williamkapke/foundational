@@ -6550,7 +6550,7 @@
 13173	96947	true	open	false			2017-05-23T16:17:45Z	2017-05-26T00:03:14Z		fs: expose Stats times as Numbers	57		
 13174	899444	true	closed	false	1		2017-05-23T17:58:56Z	2017-05-25T18:02:34Z	2017-05-25T18:02:34Z	src: make StreamBase::GetAsyncWrap pure virtual	45		
 13175	1485909	true	closed	false	6		2017-05-23T19:19:23Z	2017-05-26T08:40:18Z	2017-05-26T08:40:18Z	deps: cherry-pick 6803eef from V8 upstream	93		
-13176	899444	false	open	false	0		2017-05-23T21:10:27Z	2017-05-23T21:10:27Z		What does SecureContext::EnableTicketKeyCallback do?	86		
+13176	899444	false	closed	false	1		2017-05-23T21:10:27Z	2017-05-26T16:00:47Z	2017-05-26T16:00:47Z	What does SecureContext::EnableTicketKeyCallback do?	86		
 13177	899444	true	closed	false	2	0	2017-05-23T21:18:23Z	2017-05-25T16:21:43Z	2017-05-25T16:21:43Z	async_hooks: only set up hooks if used	87		
 13178	9373002	true	open	false	3		2017-05-23T21:35:08Z	2017-05-25T23:32:51Z		test: add coverage for napi_has_named_property	38		
 13179	373545	true	open	false	0	0	2017-05-23T22:02:51Z	2017-05-23T22:02:51Z		fs: Fix default params for fs.write(Sync) (backport to v6)	73		
@@ -6566,8 +6566,8 @@
 13189	7311122	false	closed	false	2		2017-05-24T08:44:27Z	2017-05-26T05:41:58Z	2017-05-24T10:41:32Z	v4.4.0:use Buffer.from('aaa') and then return this is not a typed Array, but in v4.8.0 is ok	46		
 13190	432351	true	closed	false	0		2017-05-24T10:55:47Z	2017-05-24T17:53:25Z	2017-05-24T17:53:25Z	src: correct endif comment SRC_NODE_API_H__	52		
 13191	910691	true	open	false			2017-05-24T10:56:07Z	2017-05-26T09:14:15Z		src, inspector: clean up base64_encode	115		
-13192	899444	true	open	false	0	0	2017-05-24T11:18:47Z	2017-05-24T11:18:47Z		async_hooks: rename AsyncEvent to AsyncResource	49		
-13193	899444	true	open	false			2017-05-24T11:41:31Z	2017-05-24T12:33:52Z		src: add comment for TicketKeyCallback	27		
+13192	899444	true	closed	false	0		2017-05-24T11:18:47Z	2017-05-26T15:42:12Z	2017-05-26T15:42:12Z	async_hooks: rename AsyncEvent to AsyncResource	49		
+13193	899444	true	closed	false	0		2017-05-24T11:41:31Z	2017-05-26T15:59:36Z	2017-05-26T15:59:36Z	src: add comment for TicketKeyCallback	27		
 13194	432351	true	open	false	3		2017-05-24T13:39:50Z	2017-05-26T04:06:45Z		crypto: remove root_cert_store from node_crypto.h	88		
 13195	52195	true	closed	false	9		2017-05-24T14:13:57Z	2017-05-26T11:58:41Z	2017-05-26T11:58:41Z	stream: emit finish when using writev and cork	63		
 13196	2512748	true	open	false			2017-05-24T15:04:55Z	2017-05-24T16:15:28Z		doc: make socket IPC examples more robust	73		
@@ -6601,8 +6601,8 @@
 13224	1485909	true	open	false	0		2017-05-25T18:57:42Z	2017-05-26T14:53:35Z		async_wrap,src: wrap promises directly	105		
 13225	12075322	false	open	false	0		2017-05-25T20:30:05Z	2017-05-25T20:30:05Z		Node debug CLI freeze	142		
 13226	718899	true	open	false	0	0	2017-05-25T21:51:53Z	2017-05-25T21:51:53Z		test: refactor test-fs-assert-encoding-error	39		
-13227	718899	false	open	false	6		2017-05-25T22:27:52Z	2017-05-26T09:22:31Z		Investigate flaky test-stream-pipe-same-destination-twice on SmartOS	34		
-13228	17607	true	open	false	0	0	2017-05-26T02:08:26Z	2017-05-26T02:08:26Z		inspector: JavaScript bindings for the websocket	141		
+13227	718899	false	open	false	7		2017-05-25T22:27:52Z	2017-05-26T15:06:51Z		Investigate flaky test-stream-pipe-same-destination-twice on SmartOS	34		
+13228	17607	true	closed	false	1		2017-05-26T02:08:26Z	2017-05-26T15:31:26Z	2017-05-26T15:31:26Z	inspector: JavaScript bindings for the websocket	141		
 13229	24996985	false	open	false	0		2017-05-26T02:17:55Z	2017-05-26T02:17:55Z		cannot run npm cross compile linux	6		
 13230	24996985	false	closed	false	6		2017-05-26T02:42:23Z	2017-05-26T11:42:25Z	2017-05-26T07:07:14Z	.	0		
 13231	718899	true	open	false	1		2017-05-26T05:46:06Z	2017-05-26T11:58:11Z		doc: remove badges from README	144		
@@ -6616,3 +6616,5 @@
 13239	3824055	false	open	false	2		2017-05-26T11:33:37Z	2017-05-26T14:01:42Z		Add option to break on start of specific file	57		
 13240	13809413	true	open	false	0	0	2017-05-26T13:13:16Z	2017-05-26T13:13:16Z		errors,tty: migrate to use internal/errors.js	46		
 13241	432351	true	open	false	0	0	2017-05-26T13:22:44Z	2017-05-26T13:22:44Z		crypto: return CHECK_OK in VerifyCallback	67		
+13242	899444	true	open	false	0	0	2017-05-26T15:23:44Z	2017-05-26T15:23:45Z		async_hooks: fix Promises with later enabled hooks	42		
+13243	899444	true	open	false	0	0	2017-05-26T15:55:03Z	2017-05-26T15:55:03Z		test: improve async hooks test error messages	67		
