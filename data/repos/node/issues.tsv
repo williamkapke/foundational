@@ -110,7 +110,7 @@
 2564	782880	true	closed	false	28		2015-08-26T15:50:32Z	2017-01-16T05:16:07Z	2015-10-26T16:15:13Z	tls, crypto: add ALPN Support	130		
 2569	13315	true	closed	false	27		2015-08-27T04:34:55Z	2016-09-30T16:14:04Z	2016-07-14T03:03:37Z	Add zh-CN i18n support for Windows installer	15		
 2571	153481	true	closed	false	47		2015-08-27T07:40:39Z	2016-08-09T22:05:24Z	2016-08-09T22:05:24Z	Refactor mac installer (Rebase of #776 against master)	13		
-2600	413206	false	open	false	4		2015-08-28T16:46:09Z	2017-05-27T08:46:55Z		fs.utimes does not change birthtime on Windows	72		
+2600	413206	false	open	false	5		2015-08-28T16:46:09Z	2017-05-27T16:31:05Z		fs.utimes does not change birthtime on Windows	72		
 2616	5769562	true	closed	false	1	17	2015-08-30T00:52:45Z	2016-12-14T02:15:52Z	2016-12-14T02:15:52Z	Removing a readable listener now updates the readable state i.e.	47		
 2642	2645436	false	closed	false	35		2015-09-02T06:06:18Z	2017-05-20T09:46:20Z	2017-05-20T09:46:20Z	Keep alive connection do not get closed with server.close()	107		
 2668	291301	false	closed	false	11		2015-09-02T21:50:48Z	2017-03-23T22:52:46Z	2017-03-23T22:52:46Z	Unreachable code in buffer.js and unsigned bitwise shifts.	294		
@@ -2548,7 +2548,7 @@
 9158	2512748	true	closed	false	5	0	2016-10-18T13:39:32Z	2016-10-18T23:01:59Z	2016-10-18T23:01:59Z	buffer: convert range to numbers before validation	93		
 9159	18714056	false	open	false	0		2016-10-18T14:02:30Z	2016-10-18T14:02:30Z		Example of how to use node.dll in vs 2015	21		
 9160	275871	false	open	false	2		2016-10-18T14:07:55Z	2016-10-22T08:59:02Z		security,unix: audit use of process.env in lib/ for setuid binary	116		
-9161	352113	false	open	false	20		2016-10-18T14:25:26Z	2017-05-27T11:30:48Z		bundle with yarn and allow which package manager during build.	42		
+9161	352113	false	open	false	21		2016-10-18T14:25:26Z	2017-05-27T16:07:33Z		bundle with yarn and allow which package manager during build.	42		
 9162	1258773	false	closed	false	3		2016-10-18T14:46:21Z	2016-10-18T16:26:49Z	2016-10-18T16:26:49Z	Crypto: Issue creating md5 for a string containing a apostrophe	114		
 9163	432351	true	closed	false	33		2016-10-18T14:59:23Z	2017-04-25T18:00:23Z	2017-04-12T11:18:28Z	src: make AtExit callback's per Environment	76		
 9164	2292713	false	closed	false	2		2016-10-18T15:13:39Z	2016-10-18T17:01:49Z	2016-10-18T15:30:56Z	Step over/Next does not stop on next line if there is exception thrown and caught inside a function	78		
@@ -4728,7 +4728,7 @@
 11344	17607	true	closed	false	1		2017-02-13T17:39:31Z	2017-02-14T17:31:33Z	2017-02-13T17:39:51Z	7.x backport: crypto: support OPENSSL_CONF again (and its dependencies)	42		
 11345	17607	true	closed	false	11		2017-02-13T17:40:29Z	2017-02-27T18:20:19Z	2017-02-16T17:24:16Z	7.x backport: crypto: support OPENSSL_CONF again (and its dependencies)	50		
 11346	275871	true	closed	false	10		2017-02-13T17:56:51Z	2017-02-15T17:59:34Z	2017-02-15T17:59:34Z	lib: remove simd support from util.format()	77		
-11347	1748653	true	open	false	6		2017-02-13T18:11:57Z	2017-05-25T10:52:45Z		errors, repl: migrate to use internal/errors.js	71		
+11347	1748653	true	open	false			2017-02-13T18:11:57Z	2017-05-27T16:24:00Z		errors, repl: migrate to use internal/errors.js	71		
 11348	733364	true	closed	false	5		2017-02-13T18:52:25Z	2017-03-07T07:22:40Z	2017-02-17T01:18:15Z	build: fix building with ninja on linux	83		
 11349	439929	true	closed	false	10		2017-02-13T20:04:22Z	2017-03-06T22:24:54Z	2017-03-06T22:24:54Z	tls: runtime deprecate _tls_legacy	62		
 11350	17607	true	open	false	0		2017-02-13T20:05:42Z	2017-02-16T17:35:52Z		doc: dns examples implied string args were arrays	23		
@@ -4766,12 +4766,12 @@
 11382	718899	true	closed	false	1		2017-02-14T19:02:01Z	2017-03-07T15:30:06Z	2017-02-16T20:48:16Z	doc: add missing function to test common doc	28		
 11383	2512748	true	closed	false	1		2017-02-14T19:11:20Z	2017-03-07T15:41:01Z	2017-02-16T18:09:13Z	test: cover dgram socket close during bind case	47		
 11384	7693422	true	open	false	2		2017-02-14T20:34:56Z	2017-05-23T18:46:38Z		timers, errors: migrate to internal/errors.js	36		
-11385	7693422	true	open	false			2017-02-14T20:57:14Z	2017-05-23T16:33:53Z		errors, string_decoder: migrate to internal/errors.js	36		
+11385	7693422	true	open	false			2017-02-14T20:57:14Z	2017-05-27T16:16:30Z		errors, string_decoder: migrate to internal/errors.js	36		
 11386	79017	true	closed	false	1	6	2017-02-14T21:27:00Z	2017-02-19T20:57:18Z	2017-02-19T20:57:18Z	cluster: properly handle --inspect-{brk,port}	45		
 11387	1538624	true	closed	false	3		2017-02-14T21:28:23Z	2017-03-08T09:06:17Z	2017-03-08T09:06:17Z	(v6.x backport) url: fix surrogate handling in encodeAuth()	67		
 11388	718899	true	closed	false	2	0	2017-02-14T21:47:44Z	2017-02-16T20:45:09Z	2017-02-16T20:45:08Z	test: refactor test-dgram-membership	38		
 11389	17535	true	closed	false	8		2017-02-14T23:41:19Z	2017-04-08T21:28:08Z	2017-03-22T22:28:11Z	deps: upgrade npm to 4.2.0	142		
-11390	11801881	true	open	false	1		2017-02-15T04:05:08Z	2017-05-24T01:12:16Z		errors, readline: migrate to use internal/errors.js	47		
+11390	11801881	true	open	false	2		2017-02-15T04:05:08Z	2017-05-27T16:24:54Z		errors, readline: migrate to use internal/errors.js	47		
 11391	439929	true	closed	false	10		2017-02-15T04:16:52Z	2017-02-17T18:41:06Z	2017-02-17T18:41:06Z	zlib: refactor zlib module	106		
 11392	439929	true	closed	false	17		2017-02-15T05:04:21Z	2017-03-07T07:11:10Z	2017-02-17T18:25:39Z	vm: refactor vm module	34		
 11393	718899	true	closed	false	1		2017-02-15T05:58:20Z	2017-02-16T20:42:50Z	2017-02-16T20:42:50Z	test: improve message in net-connect-local-error	54		
@@ -4973,7 +4973,7 @@
 11589	14098140	false	closed	false	2		2017-02-27T22:14:21Z	2017-03-03T19:42:36Z	2017-03-03T19:42:36Z	Breakpoints can't be set by a debugger (Chrome or VS Code) while the Node program is running	339		
 11590	6991779	true	closed	false	2		2017-02-27T22:15:42Z	2017-03-05T13:21:16Z	2017-03-05T13:21:16Z	 test: changed test1 of test-vm-timeout.js so that entire error message would be matched	63		
 11591	1087603	false	closed	false	17		2017-02-27T22:43:37Z	2017-05-23T09:34:45Z	2017-03-13T19:57:31Z	Chrome DevTools not able to connect to Node inspect since 7.5.0	175		
-11592	9060496	true	open	false	2		2017-02-27T23:06:56Z	2017-05-25T01:00:52Z		errors, util: migrate to using internal/errors	57		
+11592	9060496	true	open	false			2017-02-27T23:06:56Z	2017-05-27T16:45:05Z		errors, util: migrate to using internal/errors	57		
 11593	585279	false	closed	false	8		2017-02-27T23:20:49Z	2017-02-28T16:32:57Z	2017-02-27T23:36:39Z	Not really possible to use global symbols inside vm	101		
 11594	439929	true	closed	false	6		2017-02-28T01:04:32Z	2017-03-28T22:18:12Z	2017-03-20T23:15:32Z	http: simple code refactoring	45		
 11595	10393198	false	open	false	4		2017-02-28T01:16:00Z	2017-03-23T22:05:39Z		Some possible bugs concerning fs.appendFile() and fs.writeFile()	138		
@@ -6631,4 +6631,4 @@
 13252	718899	true	open	false			2017-05-27T03:51:04Z	2017-05-27T13:32:58Z		test: fix flaky test-fs-watchfile on macOS	74		
 13253	432351	true	open	false	0	0	2017-05-27T04:10:34Z	2017-05-27T04:10:34Z		test: hasCrypto https-server-keep-alive-timeout	64		
 13254	505333	false	open	false	0		2017-05-27T11:51:28Z	2017-05-27T11:51:28Z		Integrate C++ AsyncHooks Embedder API with native abstaction	272		
-13255	413206	false	open	false	0		2017-05-27T14:49:34Z	2017-05-27T15:13:29Z		utimes precision errors	142		
+13255	413206	false	open	false	2		2017-05-27T14:49:34Z	2017-05-27T16:06:37Z		utimes precision errors	142		
