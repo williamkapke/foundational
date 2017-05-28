@@ -484,6 +484,7 @@
 6307	10342420	false	open	false	11		2016-04-20T17:49:42Z	2017-02-03T15:21:48Z		order of getaddrinfo results not respected	75		
 6313	5678694	true	open	false	10		2016-04-20T20:51:16Z	2016-07-15T04:30:47Z		doc: fix style inconsistencies in code examples	33		
 6332	16402596	true	open	false	14		2016-04-21T15:57:17Z	2017-03-26T11:07:52Z		debugger: fix stuck debugger when debuggee exits	147		
+6341	10393198	false	open	false	0		2016-04-21T22:31:36Z	2017-05-27T23:08:26Z		Ambiguity in docs on console.log and util.format	137		
 6344	718899	true	closed	false	11		2016-04-22T05:35:43Z	2016-07-11T19:57:26Z	2016-04-28T17:58:41Z	crypto: fix error in deprecation message	72		
 6346	8060970	false	open	false	18		2016-04-22T13:54:20Z	2017-04-30T18:17:57Z		process._tickCallback - tock is undefined	206		
 6354	3625244	false	closed	false	13		2016-04-23T07:44:20Z	2016-07-05T12:12:22Z	2016-04-23T08:21:56Z	Does make sense to upgrade V8 to 5.1?	34		
@@ -5465,7 +5466,7 @@
 12076	287917	true	closed	false	4		2017-03-27T20:23:04Z	2017-04-10T17:54:43Z	2017-03-30T20:27:37Z	"inspector: use inspector API for ""break on start"""	47		
 12077	855219	false	closed	false	3		2017-03-27T20:29:19Z	2017-05-09T22:23:27Z	2017-05-09T22:23:27Z	deps: ICU 59 bump	29		
 12078	855219	true	closed	false	4		2017-03-27T20:44:21Z	2017-05-16T18:07:27Z	2017-03-30T22:10:08Z	"tools: add missing #include ""unicode/putil.h"""	60		
-12079	54666	false	open	false	0		2017-03-27T21:45:20Z	2017-03-27T21:45:20Z		assert: throw error in doesNotThrow()	65		
+12079	54666	false	open	false	0		2017-03-27T21:45:20Z	2017-05-27T23:07:27Z		assert: throw real error in doesNotThrow()	65		
 12080	332968	true	closed	false	5		2017-03-27T22:07:17Z	2017-04-18T23:40:42Z	2017-04-04T18:51:27Z	test: refactor mkdtemp test and added async	53		
 12081	3375505	true	open	false	0	0	2017-03-27T22:15:47Z	2017-03-27T22:15:47Z		Fix compilation on PPC64 when libc musl is used instead of glibc	38		
 12082	54666	false	closed	false	2		2017-03-27T23:36:31Z	2017-04-14T19:27:25Z	2017-04-14T19:27:25Z	build: cpplint should always run, even if jslint fails	31		
@@ -5994,7 +5995,7 @@
 12606	10393198	false	open	false	3		2017-04-23T00:48:54Z	2017-04-24T01:40:56Z		readline: prompt opt-out behavior	125		
 12607	163642	true	closed	false	90	20	2017-04-23T07:01:19Z	2017-05-25T22:07:22Z	2017-05-25T22:07:22Z	src: round nsec instead of truncating stat times	182		
 12608	524902	false	open	false	5		2017-04-23T15:00:44Z	2017-04-23T20:04:52Z		Developer error exposing a bug with fs.writeFile	81		
-12609	15943089	false	open	false	0		2017-04-23T16:39:16Z	2017-04-23T16:39:16Z		Document that fs.futimes isn't supported on AIX	100		
+12609	15943089	false	open	false	0		2017-04-23T16:39:16Z	2017-05-27T23:05:42Z		Document that fs.futimes isn't supported on AIX	100		
 12610	910691	true	closed	false	1		2017-04-23T16:57:15Z	2017-04-27T15:25:44Z	2017-04-27T15:25:44Z	build: use do_not_edit variable in configure script	90		
 12611	15943089	false	open	false	0		2017-04-23T16:58:01Z	2017-04-24T04:26:46Z		Document the eslint update process	168		
 12612	26514778	true	closed	false	1		2017-04-23T21:54:30Z	2017-04-24T08:27:11Z	2017-04-24T08:27:11Z	doc: fix typo in doc/api/process.md	23		
@@ -6126,7 +6127,7 @@
 12739	4044581	true	open	false	0	0	2017-04-29T10:21:47Z	2017-04-29T10:21:47Z		(v7.x backport) test: check curve algorithm is supported	68		
 12740	557590	false	closed	false	14		2017-04-29T12:56:18Z	2017-05-13T20:25:16Z	2017-05-12T14:53:24Z	WebAssembly instantiation fails on latest nightly	639		
 12741	32837	false	closed	false	3		2017-04-29T14:27:28Z	2017-04-29T15:13:07Z	2017-04-29T15:13:07Z	fs.WriteStream does not error on write if the file was unlinked	121		
-12742	96947	false	open	false	0		2017-04-29T15:02:34Z	2017-04-29T15:02:34Z		test: fix/rename test/debugger/helper-debugger-*	17		
+12742	96947	false	open	false	1		2017-04-29T15:02:34Z	2017-05-27T23:03:39Z		test: fix/rename test/debugger/helper-debugger-*	17		
 12743	4299420	true	closed	false	3	0	2017-04-29T15:35:36Z	2017-05-02T14:53:54Z	2017-05-02T14:53:54Z	"Revert ""test: remove eslint comments"""	45		
 12744	96947	true	closed	false	16		2017-04-29T16:26:11Z	2017-05-06T00:15:16Z	2017-05-05T17:16:14Z	"doc: adding ""rules of thumb"""	177		
 12745	439929	true	open	false	5		2017-04-29T16:54:19Z	2017-05-01T18:57:12Z		timer: refactor to use module.exports = {} and ES6 classes	65		
@@ -6401,6 +6402,7 @@
 13014	899444	true	open	false	4		2017-05-13T15:38:22Z	2017-05-16T00:14:36Z		n-api: remove compiler warning	35		
 13015	15943089	true	closed	false	1	2	2017-05-13T17:18:29Z	2017-05-16T09:26:03Z	2017-05-16T09:26:03Z	doc: document method for reverting commits	25		
 13016	10393198	true	closed	false	24		2017-05-13T17:27:41Z	2017-05-16T21:09:50Z	2017-05-16T18:11:01Z	test: introduce tag functions to handle long strings in code	368		
+13017	10393198	false	closed	false	0		2017-05-13T17:50:51Z	2017-05-27T23:09:55Z	2017-05-27T23:09:55Z	tools: eslint-plugin-markdown issue discussion	16		
 13018	1228153	false	open	false	3		2017-05-13T19:16:55Z	2017-05-14T19:19:54Z		Allocation failed - process out of memory	217		
 13019	718899	true	closed	false	0	1	2017-05-14T00:05:45Z	2017-05-19T05:05:33Z	2017-05-19T05:05:33Z	test: refactor test-net-listen-shared-ports	47		
 13020	96947	false	open	false	7		2017-05-14T13:59:01Z	2017-05-24T23:53:41Z		test: investigate flakiness of `parallal/test-async-wrap-getasyncid` (on windows)	97		
@@ -6520,7 +6522,7 @@
 13134	4923335	true	open	false	0	0	2017-05-20T22:10:26Z	2017-05-20T22:10:26Z		doc: fix incorrect keyboard shortcut	52		
 13135	4923335	true	open	false	1		2017-05-20T23:15:16Z	2017-05-23T17:59:13Z		doc: improve formatting of STYLE_GUIDE.md	31		
 13136	1587282	true	open	false	0		2017-05-21T04:35:47Z	2017-05-21T05:36:37Z		doc: update repo url in license file	51		
-13137	2842176	true	open	false			2017-05-21T10:11:47Z	2017-05-27T18:14:39Z		dns: add resolveAny support	107		
+13137	2842176	true	open	false	10		2017-05-21T10:11:47Z	2017-05-27T23:55:22Z		dns: add resolveAny support	107		
 13138	10393198	true	closed	false	0		2017-05-21T10:26:41Z	2017-05-24T00:51:06Z	2017-05-24T00:51:06Z	doc: update code example for Windows in stream.md	103		
 13139	1442575	false	closed	false	9		2017-05-21T13:34:46Z	2017-05-21T18:25:11Z	2017-05-21T18:25:10Z	Questions: will nodejs expose SetPromiseHook of V8 as javascript API in the future?	88		
 13140	1086596	false	closed	false	1		2017-05-21T13:59:05Z	2017-05-23T09:51:46Z	2017-05-21T14:09:36Z	Array of one item is not truly non-empty!	307		
