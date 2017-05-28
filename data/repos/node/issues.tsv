@@ -512,7 +512,7 @@
 6440	361327	false	closed	false	7		2016-04-28T08:33:26Z	2016-06-29T16:23:02Z	2016-05-28T20:51:07Z	"http.request option ""family: 6"" doesn't enable request over IPv6"	117		
 6446	2512748	true	closed	false	13		2016-04-28T15:10:13Z	2016-11-18T20:25:02Z	2016-05-02T14:40:21Z	test: refactor large event emitter tests	69		
 6449	718899	false	closed	false	0		2016-04-28T17:17:14Z	2017-05-27T22:26:13Z	2017-05-27T22:26:13Z	Improve documentation for build prerequisites for OS X around XCode	62		
-6456	3899684	false	open	false	166		2016-04-28T22:47:27Z	2017-02-13T21:10:22Z		stdio buffered writes (chunked) issues & process.exit() truncation	477		
+6456	3899684	false	open	false	168		2016-04-28T22:47:27Z	2017-05-28T03:58:38Z		stdio buffered writes (chunked) issues & process.exit() truncation	477		
 6459	480640	false	closed	false	10		2016-04-29T00:51:07Z	2016-10-29T07:38:44Z	2016-10-29T07:38:44Z	Node 6 uses full CPU core	75		
 6466	275871	false	closed	false	13		2016-04-29T08:46:50Z	2016-07-06T06:44:59Z	2016-07-06T06:44:59Z	os x: re-enable PIE (ASLR)	82		
 6496	273509	false	closed	false	10		2016-05-01T02:35:54Z	2016-12-13T21:30:18Z	2016-12-13T21:30:18Z	v0.10.x issues with ECDSA cipher suites	78		
@@ -4685,7 +4685,7 @@
 11293	1028226	true	open	false	11		2017-02-10T16:52:01Z	2017-05-24T10:34:07Z		https: use internal/errors.js	43		
 11294	439929	true	open	false	24		2017-02-10T16:57:04Z	2017-04-20T18:32:18Z		errors, process: port internal/process errors to internal/errors	88		
 11295	2512748	true	closed	false	1		2017-02-10T17:00:53Z	2017-03-09T00:04:21Z	2017-02-13T18:33:40Z	test: cover cluster error during dgram socket bind	66		
-11296	22550884	true	open	false	19		2017-02-10T17:28:26Z	2017-03-07T18:26:39Z		lib/src: refactoring out of range index and and migrate error for consistency	57		
+11296	22550884	true	open	false	20		2017-02-10T17:28:26Z	2017-05-28T03:25:39Z		lib/src: refactoring out of range index and and migrate error for consistency	57		
 11297	22550884	true	closed	false	3		2017-02-10T17:38:46Z	2017-03-07T15:09:31Z	2017-02-17T00:02:45Z	test: consolidating buffer.read()	16		
 11298	439929	true	closed	false	16		2017-02-10T18:26:16Z	2017-04-24T18:17:22Z	2017-04-24T16:16:02Z	errors: assign error code to bootstrap_node created error	72		
 11299	4299420	false	closed	false	2		2017-02-10T19:10:24Z	2017-03-22T03:17:12Z	2017-03-22T03:17:12Z	New error system in WHATWG URL implementation	59		
@@ -6558,7 +6558,7 @@
 13170	1891017	false	open	false	8		2017-05-23T14:29:52Z	2017-05-24T14:17:27Z		HTTPS Server crashing randomly (With solution)	108		
 13171	2512748	true	closed	false	1	1	2017-05-23T15:53:47Z	2017-05-26T16:24:46Z	2017-05-26T16:24:46Z	test: add coverage for socket write after close	50	2512748	2017-05-26T16:24:46Z
 13172	17607	true	closed	false	6	0	2017-05-23T16:14:31Z	2017-05-25T16:21:09Z	2017-05-25T16:21:09Z	src: allow --tls-cipher-list in NODE_OPTIONS	33	17607	2017-05-25T16:21:09Z
-13173	96947	true	open	false			2017-05-23T16:17:45Z	2017-05-27T20:24:57Z		fs: expose Stats times as Numbers	59		
+13173	96947	true	open	false	27		2017-05-23T16:17:45Z	2017-05-28T03:38:59Z		fs: expose Stats times as Numbers	59		
 13174	899444	true	closed	false	1		2017-05-23T17:58:56Z	2017-05-25T18:02:34Z	2017-05-25T18:02:34Z	src: make StreamBase::GetAsyncWrap pure virtual	45		
 13175	1485909	true	closed	false	6		2017-05-23T19:19:23Z	2017-05-26T08:40:18Z	2017-05-26T08:40:18Z	deps: cherry-pick 6803eef from V8 upstream	93		
 13176	899444	false	closed	false	1		2017-05-23T21:10:27Z	2017-05-26T16:00:47Z	2017-05-26T16:00:47Z	What does SecureContext::EnableTicketKeyCallback do?	86		
@@ -6638,12 +6638,12 @@
 13250	13093042	true	open	false	0	0	2017-05-26T23:47:34Z	2017-05-26T23:47:34Z		n-api: enable napi_wrap() to work with any object	262		
 13251	96947	true	open	false	7		2017-05-27T03:09:31Z	2017-05-27T13:21:38Z		test: cleanup after test-fs-watchfile.js	40		
 13252	718899	true	open	false			2017-05-27T03:51:04Z	2017-05-27T20:47:00Z		test: fix flaky test-fs-watchfile on macOS	74		
-13253	432351	true	open	false	0	0	2017-05-27T04:10:34Z	2017-05-27T04:10:34Z		test: hasCrypto https-server-keep-alive-timeout	64		
+13253	432351	true	open	false	1		2017-05-27T04:10:34Z	2017-05-28T03:56:33Z		test: hasCrypto https-server-keep-alive-timeout	64		
 13254	505333	false	open	false	0		2017-05-27T11:51:28Z	2017-05-27T11:51:28Z		Integrate C++ AsyncHooks Embedder API with native abstaction	272		
 13255	413206	false	open	false	2		2017-05-27T14:49:34Z	2017-05-27T16:06:37Z		utimes precision errors	142		
 13256	899444	true	open	false	5		2017-05-27T18:49:22Z	2017-05-27T22:57:57Z		"Revert ""lib: lazy instantiation of fs.Stats dates"""	34		
-13257	96947	true	open	false			2017-05-27T20:15:29Z	2017-05-28T02:08:05Z		fs: expose Stats times as Numbers	73		
+13257	96947	true	open	false			2017-05-27T20:15:29Z	2017-05-28T03:17:27Z		fs: expose Stats times as Numbers	73		
 13258	2512748	false	open	false	2		2017-05-27T21:06:58Z	2017-05-28T02:10:04Z		vm: behavior with --abort-on-uncaught-exception	90		
 13259	718899	true	open	false	0	0	2017-05-27T21:30:40Z	2017-05-27T21:30:40Z		test: use mustCall() in test-readline-interface	37		
-13260	1147320	true	open	false	0	0	2017-05-28T00:35:21Z	2017-05-28T00:35:21Z		test: enable test-http-abort-stream-end	54		
-13261	54666	true	open	false	0	0	2017-05-28T02:03:37Z	2017-05-28T02:03:37Z		dns: improve performance	128		
+13260	1147320	true	open	false	0		2017-05-28T00:35:21Z	2017-05-28T03:47:44Z		test: enable test-http-abort-stream-end	54		
+13261	54666	true	open	false			2017-05-28T02:03:37Z	2017-05-28T03:54:52Z		dns: improve performance	130		
