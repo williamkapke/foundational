@@ -1,10 +1,11 @@
 {
-  "words": 3053,
-  "comments": 33,
+  "words": 4896,
+  "comments": 56,
   "prs": {
-    "opened": 8,
-    "closed": 8,
-    "words": 3041
+    "opened": 10,
+    "closed": 9,
+    "words": 4884,
+    "reopened": null
   },
   "issues": {
     "opened": 0,
@@ -46,11 +47,12 @@
     "hardware": {"open":12},
     "help": {
       "638": {"comments":1,"words":1,"pr":true},
-      "640": {"comments":0,"words":176,"opened":"2017-05-29T07:20:35Z","opener":"7241637","pr":true},
-      "open": 119,
-      "words": 177,
-      "comments": 1,
-      "opened": 1
+      "640": {"comments":2,"words":391,"opened":"2017-05-29T07:20:35Z","opener":"7241637","pr":true,"closed":"2017-05-29T09:22:04Z","closer":"7241637"},
+      "open": 118,
+      "words": 392,
+      "comments": 3,
+      "opened": 1,
+      "closed": 1
     },
     "http": {"open":14},
     "http-parser": {"open":56},
@@ -64,11 +66,14 @@
     "logos": {"open":2},
     "nan": {"open":34},
     "node": {
-      "2600": {"comments":1,"words":2,"pr":true},
-      "2985": {"comments":1,"words":14,"pr":true},
+      "2600": {"comments":2,"words":32,"pr":true},
+      "2985": {"comments":3,"words":336,"pr":true},
       "5025": {"comments":1,"words":56,"pr":true},
-      "6758": {"comments":1,"words":28,"pr":true},
+      "6758": {"comments":3,"words":62,"pr":true},
+      "6761": {"comments":0,"words":56,"pr":true,"reopened":"","reopener":"52195"},
       "8535": {"comments":1,"words":303,"closed":"2017-05-29T07:44:33Z","closer":"52195","pr":true},
+      "12220": {"comments":2,"words":60,"pr":true},
+      "12271": {"comments":3,"words":105,"pr":true},
       "12949": {"comments":2,"words":51,"pr":true},
       "12997": {"comments":1,"words":67,"closed":"2017-05-29T02:27:50Z","closer":"96947","pr":true},
       "13020": {"comments":2,"words":108,"pr":true,"closed":"","closer":"96947"},
@@ -83,16 +88,19 @@
       "13272": {"comments":1,"words":505,"opened":"2017-05-29T02:34:04Z","opener":"24692080","pr":true,"closed":"","closer":"54666"},
       "13273": {"comments":0,"words":78,"pr":true,"opened":"2017-05-29T04:04:43Z","opener":"718899"},
       "13274": {"comments":0,"words":24,"pr":true,"opened":"2017-05-29T04:15:57Z","opener":"718899"},
-      "13275": {"comments":4,"words":117,"pr":true,"opened":"2017-05-29T04:26:21Z","opener":"34695"},
+      "13275": {"comments":6,"words":191,"pr":true,"opened":"2017-05-29T04:26:21Z","opener":"34695"},
       "13276": {"comments":0,"words":258,"pr":true,"opened":"2017-05-29T04:45:38Z","opener":"17535"},
-      "13277": {"comments":0,"words":132,"pr":true,"opened":"2017-05-29T05:10:00Z","opener":"13862371"},
-      "13278": {"comments":1,"words":544,"opened":"2017-05-29T06:48:04Z","opener":"1404715","pr":true},
-      "open": 1001,
-      "words": 2869,
-      "comments": 31,
+      "13277": {"comments":1,"words":151,"pr":true,"opened":"2017-05-29T05:10:00Z","opener":"13862371"},
+      "13278": {"comments":5,"words":1138,"opened":"2017-05-29T06:48:04Z","opener":"1404715","pr":true},
+      "13279": {"comments":0,"words":98,"pr":true,"opened":"2017-05-29T09:36:22Z","opener":"275871"},
+      "13280": {"comments":1,"words":161,"opened":"2017-05-29T09:55:53Z","opener":"12889190","pr":true},
+      "open": 1004,
+      "words": 4422,
+      "comments": 49,
       "closed": 8,
-      "opened": 7,
-      "234353a1b81a474ef93e1039afc2441ca81810d5": {"comments":1,"words":12,"pr":false}
+      "opened": 9,
+      "234353a1b81a474ef93e1039afc2441ca81810d5": {"comments":1,"words":12,"pr":false},
+      "reopened": 1
     },
     "node-addon-api": {"open":5},
     "node-addon-examples": {"open":30},
@@ -102,7 +110,12 @@
     "node-gyp": {"open":240},
     "node-inspect": {"open":7},
     "node-report": {"open":15},
-    "node-v0.x-archive": {"open":586},
+    "node-v0.x-archive": {
+      "8252": {"comments":1,"words":50,"pr":true},
+      "open": 586,
+      "words": 50,
+      "comments": 1
+    },
     "node-v8": {"open":3},
     "nodejs-ar": {"open":2},
     "nodejs-bg": {"open":1},
@@ -143,7 +156,12 @@
     "nodejs-vi": {"open":8},
     "nodejs-zh-CN": {"open":4},
     "nodejs-zh-TW": {"open":21},
-    "nodejs.org": {"open":57},
+    "nodejs.org": {
+      "1221": {"comments":2,"words":25,"pr":true},
+      "open": 57,
+      "words": 25,
+      "comments": 2
+    },
     "nodejs.org-archive": {"open":12},
     "nodejs.org-new": {"open":3},
     "post-mortem": {"open":17},
@@ -199,7 +217,8 @@
       "words": {
         "readable-stream/pulls/285#304584431": 7,
         "node/pulls/8535#304595272": 85,
-        "node/pulls/6758#304595825": 28
+        "node/pulls/6758#304595825": 28,
+        "node/pulls/6758#304609457": 10
       }
     },
     "54666": {
@@ -239,12 +258,31 @@
         "node/pulls/13265#118876465": 8
       }
     },
+    "275871": {
+      "id": "275871",
+      "login": "bnoordhuis",
+      "words": {
+        "help/pulls/640#304601093": 13,
+        "node/pulls/13277#304602558": 19,
+        "node/pulls/13275#118889711": 33,
+        "node/pulls/13275#118890225": 41,
+        "node/pulls/12271#304607842": 64,
+        "node/pulls/13278#304611540": 25,
+        "node/pulls/12271#304615803": 22,
+        "node/pulls/13279": 98
+      },
+      "opened": [
+        "node/pulls/13279"
+      ]
+    },
     "413206": {
       "id": "413206",
       "login": "jorangreef",
       "words": {
         "node/pulls/2600#304584661": 2,
-        "node/pulls/13255#304585711": 63
+        "node/pulls/13255#304585711": 63,
+        "node/pulls/2600#304618840": 30,
+        "node-v0.x-archive/pulls/8252#304619989": 50
       }
     },
     "432351": {
@@ -260,6 +298,13 @@
         "node/pulls/13241",
         "node/pulls/13234"
       ]
+    },
+    "495647": {
+      "id": "495647",
+      "login": "rvagg",
+      "words": {
+        "node/pulls/12220#304614349": 54
+      }
     },
     "718899": {
       "id": "718899",
@@ -287,6 +332,13 @@
         "node/pulls/13274"
       ]
     },
+    "946661": {
+      "id": "946661",
+      "login": "sgimeno",
+      "words": {
+        "nodejs.org/pulls/1221#304613776": 20
+      }
+    },
     "1252061": {
       "id": "1252061",
       "login": "gima",
@@ -297,21 +349,43 @@
         "node/issues/8535"
       ]
     },
+    "1267409": {
+      "id": "1267409",
+      "login": "sankha93",
+      "words": {
+        "node/pulls/6761": 56
+      },
+      "reopened": [
+        "node/pulls/6761"
+      ]
+    },
     "1404715": {
       "id": "1404715",
       "login": "patrickjane",
       "words": {
-        "node/issues/13278": 383
+        "node/issues/13278": 383,
+        "node/pulls/13278#304608095": 155,
+        "node/pulls/13278#304622518": 360
       },
       "opened": [
         "node/issues/13278"
       ]
     },
+    "2620674": {
+      "id": "2620674",
+      "login": "bricss",
+      "words": {
+        "node/pulls/12220#304609903": 6
+      }
+    },
     "6447530": {
       "id": "6447530",
       "login": "gireeshpunathil",
       "words": {
-        "node/pulls/13278#304593683": 161
+        "node/pulls/13278#304593683": 161,
+        "node/pulls/2985#304613061": 295,
+        "node/pulls/12271#304614058": 19,
+        "node/pulls/13278#304620638": 54
       }
     },
     "6924665": {
@@ -325,10 +399,39 @@
       "id": "7241637",
       "login": "Dagrut",
       "words": {
-        "help/issues/640": 176
+        "help/issues/640": 176,
+        "help/pulls/640#304615542": 26
       },
       "opened": [
         "help/issues/640"
+      ],
+      "closed": [
+        "help/issues/640"
+      ]
+    },
+    "9901949": {
+      "id": "9901949",
+      "login": "andrey-makhnutin",
+      "words": {
+        "node/pulls/6758#304600777": 24
+      }
+    },
+    "10708215": {
+      "id": "10708215",
+      "login": "franher",
+      "words": {
+        "nodejs.org/pulls/1221#304615125": 5
+      }
+    },
+    "12889190": {
+      "id": "12889190",
+      "login": "pod4g",
+      "words": {
+        "node/issues/13280": 84,
+        "node/pulls/13280#304623732": 77
+      },
+      "opened": [
+        "node/issues/13280"
       ]
     },
     "13862371": {
@@ -340,6 +443,13 @@
       "opened": [
         "node/pulls/13277"
       ]
+    },
+    "15159487": {
+      "id": "15159487",
+      "login": "ohenepee",
+      "words": {
+        "node/pulls/2985#304599744": 27
+      }
     },
     "22274829": {
       "id": "22274829",
