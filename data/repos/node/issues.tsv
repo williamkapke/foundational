@@ -456,7 +456,7 @@
 6033	2291463	false	closed	false	9		2016-04-04T07:14:31Z	2016-07-03T03:53:55Z	2016-07-03T03:53:55Z	Features that depend on ICU, in V8 built without ICU.	118		
 6036	177641	false	closed	false	12		2016-04-04T10:46:12Z	2016-10-07T14:42:24Z	2016-10-07T14:42:24Z	Weird segmentation fault on Ubuntu 15.10	85		
 6038	1159424	false	open	false	10		2016-04-04T11:15:17Z	2017-04-30T18:12:59Z		stream: socket.setEncoding(null) to receive binary Buffers rather than strings has no effect	105		
-6045	248374	false	open	false	9		2016-04-04T22:52:46Z	2017-05-30T16:26:04Z		Windows PlatformToolset: Provide stable C++ API to addons	77		
+6045	248374	false	open	false	9		2016-04-04T22:52:46Z	2017-05-30T20:32:22Z		Windows PlatformToolset: Provide stable C++ API to addons	77		
 6057	520678	false	closed	false	12		2016-04-05T15:49:46Z	2016-10-10T16:37:17Z	2016-10-10T16:37:17Z	Windows installer always installs to C:/Program Files	48		
 6058	855219	false	closed	false	8		2016-04-05T16:01:32Z	2016-09-20T22:56:10Z	2016-05-04T23:14:40Z	deps: Intl: ICU 57 bump	43		
 6063	7780985	true	closed	false	20		2016-04-05T19:44:10Z	2016-07-11T16:51:08Z	2016-04-26T16:07:07Z	doc, tls: deprecate createSecurePair	141		
@@ -6663,7 +6663,7 @@
 13232	718899	true	closed	false	3		2017-05-26T05:59:47Z	2017-05-29T15:40:56Z	2017-05-29T15:40:56Z	doc: create list of CTC emeriti	23		
 13233	432351	true	open	false	16		2017-05-26T06:30:24Z	2017-05-30T17:35:00Z		deps: upgrade OpenSSL to version 1.0.2l	56		
 13234	432351	true	closed	false	1	2	2017-05-26T06:42:07Z	2017-05-29T03:51:52Z	2017-05-29T03:51:52Z	deps: add example of comparing OpenSSL changes	76		
-13235	1084056	true	open	false			2017-05-26T08:30:06Z	2017-05-29T21:26:36Z		child_process: fix handleless NODE_HANDLE handling	85		
+13235	1084056	true	open	false			2017-05-26T08:30:06Z	2017-05-30T20:52:34Z		child_process: fix handleless NODE_HANDLE handling	85		
 13236	1716463	true	closed	false	0		2017-05-26T09:26:12Z	2017-05-28T20:07:29Z	2017-05-28T20:07:29Z	doc: fix api docs style	123		
 13237	505333	false	closed	false	4		2017-05-26T09:55:33Z	2017-05-28T15:20:48Z	2017-05-28T15:20:48Z	Late enabling of async_hooks after promise creation causes process abort	232		
 13238	5358146	true	closed	false	7		2017-05-26T10:35:14Z	2017-05-26T16:30:41Z	2017-05-26T16:30:41Z	test: name anonymous functions in timers	36		
@@ -6677,9 +6677,9 @@
 13246	96947	true	open	false			2017-05-26T18:42:31Z	2017-05-27T03:49:25Z		doc: add note to Stats about copying	34		
 13247	287917	false	open	false	3		2017-05-26T18:49:41Z	2017-05-27T00:29:53Z		Move Inspector WS server into a separate module.	205		
 13248	9373002	false	open	false	6		2017-05-26T20:32:46Z	2017-05-27T03:09:42Z		test-fs-watchfile failure on OSX - intermittent ? 	36		
-13249	718899	true	open	false	1		2017-05-26T21:57:48Z	2017-05-30T03:04:25Z		test: use mustNotCall() in test-stream2-objects	38		
+13249	718899	true	closed	false	2		2017-05-26T21:57:48Z	2017-05-30T20:41:44Z	2017-05-30T20:41:44Z	test: use mustNotCall() in test-stream2-objects	38		
 13250	13093042	true	open	false			2017-05-26T23:47:34Z	2017-05-30T17:24:38Z		n-api: enable napi_wrap() to work with any object	260		
-13251	96947	true	open	false	7		2017-05-27T03:09:31Z	2017-05-27T13:21:38Z		test: cleanup after test-fs-watchfile.js	40		
+13251	96947	true	closed	false	9		2017-05-27T03:09:31Z	2017-05-30T20:54:56Z	2017-05-30T20:54:56Z	test: cleanup after test-fs-watchfile.js	40		
 13252	718899	true	open	false	4		2017-05-27T03:51:04Z	2017-05-29T15:54:23Z		test: fix flaky test-fs-watchfile on macOS	74		
 13253	432351	true	closed	false	3		2017-05-27T04:10:34Z	2017-05-29T16:58:31Z	2017-05-29T16:58:31Z	test: hasCrypto https-server-keep-alive-timeout	64		
 13254	505333	false	open	false	8		2017-05-27T11:51:28Z	2017-05-28T18:01:00Z		Integrate C++ AsyncHooks Embedder API with native abstraction	279		
@@ -6688,7 +6688,7 @@
 13257	96947	true	open	false			2017-05-27T20:15:29Z	2017-05-28T03:17:27Z		fs: expose Stats times as Numbers	73		
 13258	2512748	false	open	false	4		2017-05-27T21:06:58Z	2017-05-29T15:01:06Z		vm: behavior with --abort-on-uncaught-exception	90		
 13259	718899	true	open	false	0	0	2017-05-27T21:30:40Z	2017-05-27T21:30:40Z		test: use mustCall() in test-readline-interface	37		
-13260	1147320	true	open	false	20		2017-05-28T00:35:21Z	2017-05-30T17:27:04Z		http: suppress data event if req aborted	73		
+13260	1147320	true	open	false	22		2017-05-28T00:35:21Z	2017-05-30T20:42:49Z		http: suppress data event if req aborted	73		
 13261	54666	true	open	false			2017-05-28T02:03:37Z	2017-05-30T16:04:10Z		dns: improve performance	130		
 13262	1442575	false	open	false	5		2017-05-28T07:59:05Z	2017-05-29T15:21:27Z		Questions: async_hooks destroy callback vs setImmediate	225		
 13263	2352663	true	open	false	3		2017-05-28T10:42:54Z	2017-05-30T08:21:36Z		deps: update V8 to 5.9	43		
@@ -6731,12 +6731,15 @@
 13300	6023090	false	open	false	2		2017-05-30T14:44:06Z	2017-05-30T17:39:43Z		Is the time we can remove the Code of Conduct from this repository	40		
 13301	25031476	true	open	false			2017-05-30T14:56:42Z	2017-05-30T15:29:45Z		errors,http_server: migrate to use internal/errors.js	41		
 13302	1442575	false	open	false	2		2017-05-30T15:11:38Z	2017-05-30T17:04:24Z		[Question]: Is possible to get parent promise from PromiseHookInit through async_hooks	41		
-13303	14817903	false	open	false	0		2017-05-30T16:13:17Z	2017-05-30T16:13:17Z		issue after updating to 6.10.3	143		
+13303	14817903	false	open	false	1		2017-05-30T16:13:17Z	2017-05-30T20:36:43Z		issue after updating to 6.10.3	143		
 13304	855219	false	open	false	0		2017-05-30T16:13:28Z	2017-05-30T16:13:28Z		Preprocessing step for ICU 59.1 on some platforms	212		
 13305	498775	true	open	false	3		2017-05-30T16:24:27Z	2017-05-30T17:02:25Z		deps: float patch on npm to fix citgm	18		
-13306	2512748	true	open	false	0	0	2017-05-30T17:22:01Z	2017-05-30T17:22:01Z		deps: upgrade libuv to 1.12.0	55		
-13307	718899	false	open	false	0		2017-05-30T18:07:44Z	2017-05-30T18:07:44Z		Investigate flaky test-https-server-keep-alive-timeout on AIX	42		
+13306	2512748	true	open	false			2017-05-30T17:22:01Z	2017-05-30T20:17:35Z		deps: upgrade libuv to 1.12.0	55		
+13307	718899	false	open	false	3		2017-05-30T18:07:44Z	2017-05-30T20:12:55Z		Investigate flaky test-https-server-keep-alive-timeout	42		
 13308	170197	false	open	false	1		2017-05-30T18:48:35Z	2017-05-30T19:16:40Z		http/https don't correctly support WHATWG URL auth	21		
 13309	498775	true	open	false	0		2017-05-30T18:49:57Z	2017-05-30T19:01:44Z		tools: be explicit about including key-id	22		
-13310	25148017	true	open	false	0	0	2017-05-30T19:15:53Z	2017-05-30T19:15:53Z		errors,stream-transform: migrate to use internal/errors.js	27		
-13311	393660	false	open	false	0		2017-05-30T19:57:00Z	2017-05-30T19:57:00Z		Installer puts down npm 4.5.0, not 5.	65		
+13310	25148017	true	open	false			2017-05-30T19:15:53Z	2017-05-30T21:00:07Z		errors,stream-transform: migrate to use internal/errors.js	27		
+13311	393660	false	open	false	1		2017-05-30T19:57:00Z	2017-05-30T20:05:23Z		Installer puts down npm 4.5.0, not 5.	65		
+13312	718899	true	open	false	0	0	2017-05-30T20:12:32Z	2017-05-30T20:12:32Z		test: improve test-https-server-keep-alive-timeout	92		
+13313	2322305	true	open	false	0	0	2017-05-30T20:22:28Z	2017-05-30T20:22:28Z		Fix link in CHANGELOG	42		
+13314	7169311	false	open	false	0		2017-05-30T20:24:57Z	2017-05-30T20:24:57Z		assert: RangeError: Maximum call stack size exceeded is still present	87		
