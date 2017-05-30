@@ -31,10 +31,10 @@
 906	115237	false	open	false	35		2015-02-20T18:06:56Z	2017-02-02T20:26:12Z		net: enable TCP_NODELAY by default on all platforms	32		
 947	707147	false	closed	false	11		2015-02-25T02:05:54Z	2017-05-16T18:32:57Z	2017-02-15T20:31:40Z	EPIPE errors thrown when piping to a closed stream	363		
 954	321966	false	closed	false	7		2015-02-25T14:55:54Z	2017-05-11T09:06:19Z	2017-05-11T09:06:18Z	socket name of unix domain sockets	76		
-983	6731985	false	closed	false	25		2015-02-27T03:19:51Z	2017-05-30T04:00:28Z	2017-05-30T04:00:28Z	Tab completion for block-scoped variables doesn't work in REPL	60		
+983	6731985	false	open	false	26		2015-02-27T03:19:51Z	2017-05-30T07:24:34Z		Tab completion for block-scoped variables doesn't work in REPL	60		
 1010	218257	false	closed	false	53		2015-02-28T22:28:55Z	2016-12-05T11:27:32Z	2015-03-25T01:31:37Z	Ship websockets in core	23		
 1013	176984	false	closed	false	45		2015-03-01T10:58:11Z	2016-10-17T07:18:56Z	2016-04-04T01:52:33Z	Replace deps/cares with pure-javascript alternative	207		
-1041	443639	false	open	false	12		2015-03-03T12:02:28Z	2017-05-30T04:01:15Z		Stream not emitting data event after pipe+unpipe	51		
+1041	443639	false	open	false	13		2015-03-03T12:02:28Z	2017-05-30T07:37:01Z		Stream not emitting data event after pipe+unpipe	51		
 1043	9287	false	closed	false	35		2015-03-03T17:40:37Z	2017-01-28T10:31:17Z	2015-03-12T18:13:55Z	Proposal: global.window = global	93		
 1071	115237	false	closed	false	13		2015-03-05T14:43:01Z	2017-05-30T04:07:44Z	2017-05-30T04:07:44Z	`dns.setServers` doesn't play well with async code	99		
 1081	5675531	false	closed	false	9		2015-03-06T14:21:17Z	2017-03-24T23:30:04Z	2017-03-24T23:30:04Z	Are custom http verbs supported by io.js yet?	21		
@@ -302,7 +302,7 @@
 4642	718899	false	open	false	10		2016-01-12T05:55:08Z	2017-05-30T04:25:35Z		TODO/XXX/FIXME comments in lib directory	1654		
 4646	1731633	false	closed	false	5		2016-01-12T12:07:41Z	2016-08-29T22:33:43Z	2016-08-29T22:33:43Z	http listen method is possible to be called twice with no error	68		
 4647	52195	true	closed	false	40		2016-01-12T12:24:07Z	2016-10-03T14:54:52Z	2016-07-13T14:12:16Z	win,msi: Added Italian translation	38		
-4651	3150	false	closed	false	8		2016-01-12T19:41:08Z	2017-05-30T04:27:02Z	2017-05-30T04:27:02Z	"In ""node debug"" in a certain reproducible scenario, typing ""c"" twice causes node to completley hang"	88		
+4651	3150	false	closed	false	8		2016-01-12T19:41:08Z	2017-05-30T07:46:24Z	2017-05-30T04:27:02Z	"In ""node debug"" in a certain reproducible scenario, typing ""c"" twice causes node to completley hang"	88		
 4652	458717	false	closed	false	0		2016-01-12T21:17:34Z	2017-04-12T23:22:14Z	2017-04-12T23:22:14Z	http.agent options creates different name when used with a request.	143		
 4669	5559820	true	closed	false	12		2016-01-13T14:46:53Z	2017-03-02T23:44:15Z	2017-02-28T23:06:51Z	lib: fix basename comparison on windows	37		
 4670	5559820	true	open	false	19		2016-01-13T15:02:13Z	2017-05-23T23:34:34Z		lib: fixme defer error to next tick	42		
@@ -392,7 +392,7 @@
 5518	8213782	false	closed	false	2		2016-03-02T04:53:51Z	2016-08-14T08:51:57Z	2016-08-14T08:51:57Z	Cannot find module 'minimatch'	99		
 5522	238531	true	closed	false	19		2016-03-02T13:36:11Z	2016-12-14T17:18:11Z	2016-03-02T18:25:52Z	crypto, string_bytes: treat `buffer` str as `utf8`	141		
 5525	5740732	false	closed	false	4		2016-03-02T16:03:33Z	2016-12-07T21:11:53Z	2016-04-02T23:38:27Z	Documentation for __dirname is misleading	124		
-5540	631240	false	open	false	3		2016-03-03T02:27:16Z	2017-05-30T04:34:00Z		Writeable stream .end() has paradoxical logic	123		
+5540	631240	false	open	false	5		2016-03-03T02:27:16Z	2017-05-30T07:23:36Z		Writeable stream .end() has paradoxical logic	123		
 5549	122831	false	closed	false	1		2016-03-03T19:01:31Z	2016-10-12T17:39:50Z	2016-10-12T09:46:25Z	child_process.spawn will either exit or not control stdin when detached and using inherit	556		
 5568	273509	false	open	false	6		2016-03-04T18:28:35Z	2017-05-30T04:34:43Z		OpenSSL Dynamic Linkage Gotchas?	45		
 5573	1127384	true	closed	false	5	1	2016-03-05T16:19:34Z	2016-11-08T21:51:48Z	2016-11-08T21:51:48Z	async_wrap: WIP/Experiment, init/destroy HTTPParser on each use	88		
@@ -467,6 +467,7 @@
 6103	1190716	false	closed	false	4		2016-04-07T16:36:31Z	2017-04-30T18:16:05Z	2017-04-30T18:16:05Z	Call String::Flatten before converting to buffer	437		
 6114	408977	true	closed	false	11		2016-04-08T12:55:18Z	2016-07-06T05:06:41Z	2016-07-06T05:06:41Z	Defensive check for process.config.variables (v4-staging)	10		
 6115	408977	true	closed	false	18		2016-04-08T12:59:35Z	2016-07-05T17:59:27Z	2016-07-05T17:59:26Z	Defensive fix for process.config.variables regression (v5)	21		
+6121	735269	false	closed	false	6		2016-04-08T18:36:50Z	2017-05-30T07:29:29Z	2017-05-30T07:29:29Z	Debugging access violation on Windows	54		
 6131	2361826	false	closed	false	6		2016-04-09T10:47:11Z	2016-08-17T20:43:10Z	2016-08-17T20:43:10Z	Move .eslintrc to json or yaml	58		
 6141	899444	true	open	false	1		2016-04-11T03:27:06Z	2016-08-09T21:56:02Z		zlib: Support for reading/writing Gzip headers	222		
 6148	13519723	false	closed	false	7		2016-04-11T15:53:31Z	2017-01-09T12:13:50Z	2017-01-09T12:13:50Z	Nodejs does thing doubletime when stopped and started again.	116		
@@ -610,8 +611,8 @@
 6792	79017	true	closed	false	158		2016-05-16T20:27:18Z	2017-04-27T14:12:06Z	2016-05-30T16:12:40Z	Add v8_inspector support	530		
 6793	718899	true	closed	false	15		2016-05-16T20:58:19Z	2016-07-11T22:37:42Z	2016-05-24T20:45:06Z	test: improve debug-break-on-uncaught reliability	64		
 6795	112555	false	closed	false	2		2016-05-16T22:13:44Z	2017-05-30T04:53:34Z	2017-05-30T04:53:34Z	HTTP server timeout closing connection despite new request	357		
-6798	54666	false	open	false	26		2016-05-17T01:22:45Z	2017-05-30T04:54:01Z		streams: Readable highWaterMark is measured in bytes *or* characters	103		
-6799	54666	false	open	false	13		2016-05-17T01:45:18Z	2017-05-30T04:54:26Z		"doc,streams: internal ""private"" properties are publicly documented"	114		
+6798	54666	false	open	false	27		2016-05-17T01:22:45Z	2017-05-30T07:32:57Z		streams: Readable highWaterMark is measured in bytes *or* characters	103		
+6799	54666	false	open	false	14		2016-05-17T01:45:18Z	2017-05-30T07:53:29Z		"doc,streams: internal ""private"" properties are publicly documented"	114		
 6802	13891170	false	open	false	12		2016-05-17T06:00:09Z	2016-07-21T14:44:54Z		REPL crashes after let process;	35		
 6803	413206	false	closed	false	14		2016-05-17T08:34:13Z	2017-04-16T00:22:42Z	2017-04-16T00:22:42Z	child_process.exec() fails with spaces in absolute or relative path to binary file	77		
 6804	52195	true	closed	false	33		2016-05-17T10:55:16Z	2016-07-12T17:31:26Z	2016-05-26T09:29:32Z	dgram: copy the array when using the list variant in send()	96		
@@ -692,7 +693,7 @@
 7066	52195	true	closed	false	9		2016-05-30T16:34:42Z	2016-11-18T20:26:48Z	2016-07-13T15:52:06Z	dgram: generalized send queue to handle close	62		
 7068	696611	true	closed	false	9		2016-05-30T18:19:59Z	2016-07-12T16:48:00Z	2016-06-04T11:03:11Z	fs: execute mkdtemp's callback with no context	111		
 7072	495647	false	open	false	25		2016-05-31T03:52:31Z	2016-10-25T00:26:25Z		Decision to leave v8_inspector support for v6 LTS	305		
-7074	15649747	false	open	false	3		2016-05-31T10:38:59Z	2017-05-30T05:51:52Z		setSeconds doesn't work correct with time conversion	76		
+7074	15649747	false	open	false	4		2016-05-31T10:38:59Z	2017-05-30T07:18:49Z		setSeconds doesn't work correct with time conversion	76		
 7075	134460	true	open	false	10		2016-05-31T11:49:54Z	2016-07-08T00:23:54Z		Backport for v4.x: win,build: add creation of zip and 7z package	85		
 7077	54666	true	closed	false	31		2016-05-31T17:17:40Z	2016-07-09T00:52:27Z	2016-06-14T19:58:45Z	stream: improve Readable.read() performance	186		
 7079	899444	true	closed	false	18		2016-05-31T17:58:03Z	2016-08-18T19:05:28Z	2016-08-08T13:14:46Z	buffer: throw on negative .allocUnsafe() argument	79		
@@ -743,7 +744,7 @@
 7183	110455	true	closed	false			2016-06-06T23:33:10Z	2016-08-08T16:17:23Z	2016-08-05T20:51:27Z	"doc: clarify ""Reviewed-By"" iff ""LGTM"""	51		
 7186	5177920	true	closed	false	3		2016-06-07T02:43:18Z	2017-03-01T01:32:08Z	2017-03-01T01:32:08Z	test: http request - url.parse	60		
 7189	2785744	true	closed	false	36		2016-06-07T09:50:34Z	2016-10-14T05:34:46Z	2016-10-14T05:34:46Z	"doc: Highlight deprecated API components in ""Table of Contents"""	29		
-7191	20188	false	open	false	8		2016-06-07T11:22:23Z	2017-05-30T06:02:01Z		many small writes to a stream causes memory leak	239		
+7191	20188	false	closed	false	10		2016-06-07T11:22:23Z	2017-05-30T07:19:13Z	2017-05-30T07:19:13Z	many small writes to a stream causes memory leak	239		
 7192	791134	false	closed	false	13		2016-06-07T12:49:41Z	2016-08-12T11:14:32Z	2016-08-12T11:14:32Z	Windows standard user cannot run any node 6 js file on mapped path	170		
 7193	5140254	false	closed	false	2		2016-06-07T13:13:34Z	2016-07-26T08:46:00Z	2016-07-26T08:46:00Z	VCS Files With Colons Cause Errors Trying To Install	444		
 7196	4303	false	open	false	8		2016-06-07T17:27:04Z	2016-07-05T15:42:22Z		Exposing more isXyz helpers through node_util.cc.	56		
@@ -2746,11 +2747,11 @@
 9307	2512748	true	closed	false	5		2016-10-27T02:51:24Z	2017-01-05T18:20:36Z	2016-10-29T17:35:47Z	test: add child_process customFds test	48		
 9308	3298606	true	closed	false	2	0	2016-10-27T03:19:56Z	2016-10-29T22:49:46Z	2016-10-29T22:49:46Z	test: clean up dgram-broadcast-multi-process test	51		
 9309	54666	false	closed	false	0		2016-10-27T03:49:34Z	2016-10-27T21:19:43Z	2016-10-27T21:19:43Z	doc: need better link to signals list in process documentation	89		
-9310	354349	false	open	false	5		2016-10-27T04:55:19Z	2017-01-08T19:33:30Z		Logging an IncomingMessage crashes node	64		
+9310	354349	false	closed	false	6		2016-10-27T04:55:19Z	2017-05-30T07:57:05Z	2017-05-30T07:57:05Z	Logging an IncomingMessage crashes node	64		
 9311	16435428	false	closed	false	1		2016-10-27T05:45:18Z	2016-10-28T14:26:49Z	2016-10-28T14:26:49Z	Could not start the packager	9		
 9312	6982471	false	open	false	3		2016-10-27T06:54:39Z	2016-10-27T14:18:44Z		Global use_strict via alterntive executable name	69		
 9313	54666	false	closed	false	2		2016-10-27T07:46:02Z	2016-11-02T00:43:50Z	2016-11-02T00:43:50Z	child_process: add public API to unref ipc channel	99		
-9314	15943089	false	open	false	6		2016-10-27T10:44:46Z	2016-10-31T18:33:39Z		Use of console.log in tests	38		
+9314	15943089	false	open	false	7		2016-10-27T10:44:46Z	2017-05-30T07:54:59Z		Add a common.log for tests	38		
 9315	6515203	false	closed	false	5		2016-10-27T10:50:39Z	2016-10-30T09:25:40Z	2016-10-30T09:25:40Z	node-v6.9.1-linux-armv7l -> /usr/bin/node: /usr/lib/libstdc++.so.6: version `GLIBCXX_3.4.18' and version `GLIBCXX_3.4.15' not found	1227		
 9316	8593658	false	closed	false	1		2016-10-27T12:43:25Z	2016-10-27T17:24:26Z	2016-10-27T17:24:26Z	When I download nodejs V7.0.0 using the Win 64 installer how do I know which dependencies are also pulled into the application along with the nodejs code?  Is there  an easily deciphered list ?	6		
 9317	718899	true	open	false	7		2016-10-27T13:34:52Z	2016-10-29T20:08:24Z		test: fix freebsd10-64 CI failures	181		
@@ -6704,7 +6705,7 @@
 13275	34695	true	open	false	6		2017-05-29T04:26:21Z	2017-05-30T04:43:45Z		crypto: clear error stack in ECDH::BufferToPoint	74		
 13276	17535	true	closed	false	4		2017-05-29T04:45:38Z	2017-05-29T17:17:39Z	2017-05-29T16:26:03Z	deps: upgrade npm to 5.0.0	258		
 13277	13862371	true	closed	false	3		2017-05-29T05:10:00Z	2017-05-29T22:50:07Z	2017-05-29T16:11:41Z	Update node v6 CA roots	132		
-13278	1404715	false	closed	false	8		2017-05-29T06:48:04Z	2017-05-30T06:17:27Z	2017-05-29T16:23:14Z	Accessing process.stdout terminates SSH connections	383		
+13278	1404715	false	closed	false	8		2017-05-29T06:48:04Z	2017-05-30T07:44:34Z	2017-05-29T16:23:14Z	Accessing process.stdout terminates SSH connections	383		
 13279	275871	true	open	false	1		2017-05-29T09:36:22Z	2017-05-29T15:43:52Z		crypto: update root certificates	100		
 13280	12889190	false	closed	false	4		2017-05-29T09:55:53Z	2017-05-29T16:34:17Z	2017-05-29T12:59:13Z	pointer being freed was not allocated	103		
 13281	96947	true	open	false			2017-05-29T12:36:24Z	2017-05-29T19:20:48Z		src,fs: calculate times as unsigned long	34		
@@ -6716,3 +6717,4 @@
 13287	505333	true	open	false			2017-05-29T19:23:54Z	2017-05-30T07:08:08Z		docs: documenting async hooks features	82		
 13288	10393198	true	open	false	0	0	2017-05-29T21:33:53Z	2017-05-29T21:33:53Z		doc: fix code examples in url.md	69		
 13289	28588124	false	open	false	0		2017-05-30T06:57:16Z	2017-05-30T06:57:16Z		uncaughtException, missing stack	53		
+13290	20768148	false	open	false	0		2017-05-30T07:27:51Z	2017-05-30T07:27:51Z		Your 64-bit installer defaults to Program Files x86	69		
