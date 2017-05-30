@@ -159,7 +159,7 @@
 3062	355454	true	open	false	14		2015-09-25T15:52:59Z	2017-03-27T18:54:22Z		http: Reject paths containing non-ASCII characters	123		
 3063	98899	true	closed	false	87		2015-09-25T17:01:14Z	2016-10-11T00:42:12Z	2016-07-15T17:38:59Z	timers: fix processing of nested same delay timers	21		
 3064	2559673	true	closed	false	32	22	2015-09-25T17:01:57Z	2017-02-28T22:57:03Z	2017-02-28T22:57:02Z	https: throw error if required params missing	58		
-3072	247721	false	open	false	123		2015-09-26T02:29:39Z	2017-05-26T09:35:30Z		Cluster crash in main process, callback undefined when handling internal messages	152		
+3072	247721	false	open	false	123		2015-09-26T02:29:39Z	2017-05-30T02:01:46Z		Cluster crash in main process, callback undefined when handling internal messages	152		
 3073	220205	true	closed	false	48		2015-09-26T09:13:35Z	2016-08-22T18:20:41Z	2016-08-22T18:20:41Z	Add crypto.timingSafeEqual().	2		
 3098	639601	true	closed	false	15		2015-09-28T03:35:50Z	2016-06-30T12:31:35Z	2016-05-19T11:01:44Z	src: fix linking when built as shared library	192		
 3101	7358595	false	closed	false	11		2015-09-28T11:07:40Z	2016-09-26T13:20:14Z	2015-09-28T12:34:09Z	Destructuring Assignment doesn't work in node v 4.1.0 for me	52		
@@ -4737,7 +4737,7 @@
 11344	17607	true	closed	false	1		2017-02-13T17:39:31Z	2017-02-14T17:31:33Z	2017-02-13T17:39:51Z	7.x backport: crypto: support OPENSSL_CONF again (and its dependencies)	42		
 11345	17607	true	closed	false	11		2017-02-13T17:40:29Z	2017-02-27T18:20:19Z	2017-02-16T17:24:16Z	7.x backport: crypto: support OPENSSL_CONF again (and its dependencies)	50		
 11346	275871	true	closed	false	10		2017-02-13T17:56:51Z	2017-02-15T17:59:34Z	2017-02-15T17:59:34Z	lib: remove simd support from util.format()	77		
-11347	1748653	true	open	false			2017-02-13T18:11:57Z	2017-05-29T17:30:16Z		errors, repl: migrate to use internal/errors.js	71		
+11347	1748653	true	open	false			2017-02-13T18:11:57Z	2017-05-30T01:46:56Z		errors, repl: migrate to use internal/errors.js	71		
 11348	733364	true	closed	false	5		2017-02-13T18:52:25Z	2017-03-07T07:22:40Z	2017-02-17T01:18:15Z	build: fix building with ninja on linux	83		
 11349	439929	true	closed	false	10		2017-02-13T20:04:22Z	2017-03-06T22:24:54Z	2017-03-06T22:24:54Z	tls: runtime deprecate _tls_legacy	62		
 11350	17607	true	open	false	0		2017-02-13T20:05:42Z	2017-02-16T17:35:52Z		doc: dns examples implied string args were arrays	23		
@@ -6636,7 +6636,7 @@
 13247	287917	false	open	false	3		2017-05-26T18:49:41Z	2017-05-27T00:29:53Z		Move Inspector WS server into a separate module.	205		
 13248	9373002	false	open	false	6		2017-05-26T20:32:46Z	2017-05-27T03:09:42Z		test-fs-watchfile failure on OSX - intermittent ? 	36		
 13249	718899	true	open	false	0		2017-05-26T21:57:48Z	2017-05-26T23:45:17Z		test: use mustNotCall() in test-stream2-objects	38		
-13250	13093042	true	open	false			2017-05-26T23:47:34Z	2017-05-29T15:58:35Z		n-api: enable napi_wrap() to work with any object	260		
+13250	13093042	true	open	false			2017-05-26T23:47:34Z	2017-05-30T01:52:28Z		n-api: enable napi_wrap() to work with any object	260		
 13251	96947	true	open	false	7		2017-05-27T03:09:31Z	2017-05-27T13:21:38Z		test: cleanup after test-fs-watchfile.js	40		
 13252	718899	true	open	false	4		2017-05-27T03:51:04Z	2017-05-29T15:54:23Z		test: fix flaky test-fs-watchfile on macOS	74		
 13253	432351	true	closed	false	3		2017-05-27T04:10:34Z	2017-05-29T16:58:31Z	2017-05-29T16:58:31Z	test: hasCrypto https-server-keep-alive-timeout	64		
@@ -6646,7 +6646,7 @@
 13257	96947	true	open	false			2017-05-27T20:15:29Z	2017-05-28T03:17:27Z		fs: expose Stats times as Numbers	73		
 13258	2512748	false	open	false	4		2017-05-27T21:06:58Z	2017-05-29T15:01:06Z		vm: behavior with --abort-on-uncaught-exception	90		
 13259	718899	true	open	false	0	0	2017-05-27T21:30:40Z	2017-05-27T21:30:40Z		test: use mustCall() in test-readline-interface	37		
-13260	1147320	true	open	false			2017-05-28T00:35:21Z	2017-05-29T23:07:33Z		http: suppress data event if req aborted	73		
+13260	1147320	true	open	false			2017-05-28T00:35:21Z	2017-05-30T01:51:55Z		http: suppress data event if req aborted	73		
 13261	54666	true	open	false			2017-05-28T02:03:37Z	2017-05-28T03:54:52Z		dns: improve performance	130		
 13262	1442575	false	open	false	5		2017-05-28T07:59:05Z	2017-05-29T15:21:27Z		Questions: async_hooks destroy callback vs setImmediate	225		
 13263	2352663	true	open	false	2		2017-05-28T10:42:54Z	2017-05-29T10:46:45Z		deps: update V8 to 5.9	43		
@@ -6671,7 +6671,7 @@
 13282	2352663	true	open	false	0		2017-05-29T13:30:39Z	2017-05-29T15:59:55Z		test: support candidate V8 versions	62		
 13283	96947	true	open	false	7		2017-05-29T15:45:15Z	2017-05-29T20:30:33Z		doc: relocate CII badge	36		
 13284	718899	true	open	false	2		2017-05-29T15:58:27Z	2017-05-29T21:29:20Z		doc: add CTC members to Collaborators list	49		
-13285	25148017	true	open	false	0	0	2017-05-29T16:37:55Z	2017-05-29T16:37:55Z		errors,process: migrate to use internal/errors.js	26		
+13285	25148017	true	open	false			2017-05-29T16:37:55Z	2017-05-30T01:48:23Z		errors,process: migrate to use internal/errors.js	26		
 13286	899444	true	open	false			2017-05-29T18:53:27Z	2017-05-29T20:45:09Z		async_hooks: run destroy callbacks before normal exit	45		
 13287	505333	true	open	false	0	0	2017-05-29T19:23:54Z	2017-05-29T19:23:54Z		docs: documenting async hooks features	82		
 13288	10393198	true	open	false	0	0	2017-05-29T21:33:53Z	2017-05-29T21:33:53Z		doc: fix code examples in url.md	69		
