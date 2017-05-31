@@ -332,7 +332,7 @@
 4941	2757844	false	closed	false	4		2016-01-29T05:18:31Z	2016-08-10T18:15:17Z	2016-01-29T08:50:38Z	Error: not implemented when using streams with setInterval	171		
 4956	21203	true	open	false	14		2016-01-29T19:50:47Z	2016-08-27T04:45:47Z		crypto: remove POINT_CONVERSION_HYBRID	44		
 5020	37303	true	closed	false	465		2016-02-01T09:35:41Z	2017-02-28T23:08:59Z	2017-02-28T23:08:59Z	Adding Core support for Promises	1464		
-5025	275871	true	closed	false	41		2016-02-01T13:14:18Z	2017-05-31T16:56:57Z	2017-05-30T10:29:56Z	debugger: bind to random port with --debug-port=0	13		
+5025	275871	true	closed	false	42		2016-02-01T13:14:18Z	2017-05-31T17:02:11Z	2017-05-30T10:29:56Z	debugger: bind to random port with --debug-port=0	13		
 5026	6603598	false	closed	false	10		2016-02-01T14:05:29Z	2016-09-26T09:05:45Z	2016-09-26T09:05:44Z	NodeJS (Windows Buid) : TCP connection Leak (Stays in Established)	277		
 5035	54666	false	closed	false	4		2016-02-02T02:48:20Z	2016-10-07T20:26:48Z	2016-10-07T20:26:48Z	v0.10 crashes with getPeerCertificate()	175		
 5038	1898870	false	closed	false	11		2016-02-02T08:57:50Z	2017-05-13T09:30:03Z	2016-02-05T11:34:38Z	Console does not use os.EOL	36		
@@ -5838,7 +5838,7 @@
 12404	17607	true	closed	false	10	0	2017-04-13T19:58:07Z	2017-04-19T00:00:39Z	2017-04-19T00:00:39Z	"Revert ""Make a noble effort at setting OS_CODE correctly."""	97		
 12405	14274375	true	closed	false	4		2017-04-13T20:31:18Z	2017-04-16T17:45:32Z	2017-04-16T17:45:32Z	test: changed equality comparison to identity operator	35		
 12406	899444	true	open	false	9		2017-04-13T20:34:57Z	2017-04-13T22:04:56Z		build: disable -O3 for C++ coverage	33		
-12407	5803170	true	open	false			2017-04-14T00:57:40Z	2017-05-31T14:07:48Z		util: refactor format method.	114		
+12407	5803170	true	open	false			2017-04-14T00:57:40Z	2017-05-31T17:41:30Z		util: refactor format method.	114		
 12408	2512748	true	closed	false	1		2017-04-14T01:03:17Z	2017-05-16T11:53:13Z	2017-04-17T16:01:59Z	doc: remove inspector experimental warning	34		
 12409	158390	true	closed	false	35		2017-04-14T03:26:08Z	2017-05-09T11:13:03Z	2017-05-06T16:25:59Z	n-api: port test for make_callback	46		
 12410	1840183	false	open	false	5		2017-04-14T09:45:55Z	2017-04-20T08:17:38Z		IPV6 error with percent devicename (for link-local ranges / zone id)	111		
@@ -6637,9 +6637,9 @@
 13204	9488054	false	open	false	0		2017-05-24T20:01:51Z	2017-05-24T20:01:51Z		write EPIPE	94		
 13205	718899	true	closed	false	1		2017-05-24T20:17:45Z	2017-05-26T21:52:48Z	2017-05-26T21:52:48Z	test: check noop invocation with mustNotCall()	38		
 13206	17607	true	open	false	0	0	2017-05-24T20:19:13Z	2017-05-24T20:19:13Z		http: describe parse err in debug output	52		
-13207	9373002	true	closed	false	7		2017-05-24T21:01:28Z	2017-05-26T21:07:37Z	2017-05-26T21:07:37Z	n-api: add napi_get_version	54		
+13207	9373002	true	closed	false			2017-05-24T21:01:28Z	2017-05-31T17:54:11Z	2017-05-26T21:07:37Z	n-api: add napi_get_version	54		
 13208	96947	true	closed	false	7	0	2017-05-24T21:28:50Z	2017-05-27T21:09:35Z	2017-05-27T21:09:35Z	build: ignore more VC++ artifacts	14		
-13209	1315533	false	open	false	39		2017-05-24T22:52:26Z	2017-05-31T15:37:36Z		repl: allow `await` in REPL	142		
+13209	1315533	false	open	false	40		2017-05-24T22:52:26Z	2017-05-31T17:56:45Z		repl: allow `await` in REPL	142		
 13210	14798161	false	closed	false	2		2017-05-25T00:03:41Z	2017-05-25T08:48:18Z	2017-05-25T08:48:18Z	Date parse behavior change in node-v8 ?	40		
 13211	5070345	true	open	false	0	0	2017-05-25T00:24:06Z	2017-05-25T00:24:06Z		Merge pull request #1 from nodejs/master	43		
 13212	25856836	true	open	false	1		2017-05-25T02:17:07Z	2017-05-25T03:44:29Z		doc: clarified documentation for crypto.publicEncrypt() and similar functions	35		
@@ -6689,11 +6689,11 @@
 13256	899444	true	open	false	15		2017-05-27T18:49:22Z	2017-05-28T21:26:31Z		"Revert ""lib: lazy instantiation of fs.Stats dates"""	34		
 13257	96947	true	open	false			2017-05-27T20:15:29Z	2017-05-28T03:17:27Z		fs: expose Stats times as Numbers	73		
 13258	2512748	false	open	false	4		2017-05-27T21:06:58Z	2017-05-29T15:01:06Z		vm: behavior with --abort-on-uncaught-exception	90		
-13259	718899	true	open	false	0	0	2017-05-27T21:30:40Z	2017-05-27T21:30:40Z		test: use mustCall() in test-readline-interface	37		
+13259	718899	true	open	false	0		2017-05-27T21:30:40Z	2017-05-31T17:19:17Z		test: use mustCall() in test-readline-interface	37		
 13260	1147320	true	closed	false	29		2017-05-28T00:35:21Z	2017-05-31T15:10:04Z	2017-05-31T08:59:40Z	http: suppress data event if req aborted	73		
 13261	54666	true	open	false			2017-05-28T02:03:37Z	2017-05-30T16:04:10Z		dns: improve performance	130		
 13262	1442575	false	open	false	5		2017-05-28T07:59:05Z	2017-05-29T15:21:27Z		Questions: async_hooks destroy callback vs setImmediate	225		
-13263	2352663	true	open	false	5		2017-05-28T10:42:54Z	2017-05-31T12:01:07Z		deps: update V8 to 5.9	43		
+13263	2352663	true	open	false	6		2017-05-28T10:42:54Z	2017-05-31T17:22:01Z		deps: update V8 to 5.9	43		
 13264	15943089	true	open	false			2017-05-28T11:12:35Z	2017-05-28T14:18:42Z		doc: suggest xcode-select --install	43		
 13265	13561163	true	open	false	4		2017-05-28T11:27:01Z	2017-05-29T21:58:12Z		vm: remove CopyProperties()- code review	173		
 13266	15943089	true	open	false	1		2017-05-28T12:40:32Z	2017-05-28T13:09:52Z		readline: clean up event listener in onNewListener	46		
@@ -6703,8 +6703,8 @@
 13270	1716463	true	closed	false	3		2017-05-28T20:26:02Z	2017-05-30T17:20:48Z	2017-05-30T17:20:48Z	doc: fix doc styles	144		
 13271	6924665	true	open	false	2		2017-05-28T23:30:27Z	2017-05-29T01:18:05Z		readline: numeric strings converted to integers in cursorTo	56		
 13272	24692080	false	open	false	0		2017-05-29T02:34:04Z	2017-05-29T02:34:04Z		Unable to install node-red-contrib-facebook	246		
-13273	718899	true	open	false			2017-05-29T04:04:43Z	2017-05-29T15:21:27Z		test: refactor test-net-server-bind	78		
-13274	718899	true	open	false	0	0	2017-05-29T04:15:57Z	2017-05-29T04:15:57Z		doc: fix ordering error in errors.md	24		
+13273	718899	true	open	false			2017-05-29T04:04:43Z	2017-05-31T17:26:32Z		test: refactor test-net-server-bind	78		
+13274	718899	true	closed	false	0		2017-05-29T04:15:57Z	2017-05-31T17:22:31Z	2017-05-31T17:22:31Z	doc: fix ordering error in errors.md	24		
 13275	34695	true	closed	false	15		2017-05-29T04:26:21Z	2017-05-31T15:23:38Z	2017-05-31T14:39:07Z	crypto: clear error stack in ECDH::BufferToPoint	74		
 13276	17535	true	closed	false	4		2017-05-29T04:45:38Z	2017-05-29T17:17:39Z	2017-05-29T16:26:03Z	deps: upgrade npm to 5.0.0	258		
 13277	13862371	true	closed	false	3		2017-05-29T05:10:00Z	2017-05-29T22:50:07Z	2017-05-29T16:11:41Z	Update node v6 CA roots	132		
@@ -6740,9 +6740,9 @@
 13307	718899	false	open	false	3		2017-05-30T18:07:44Z	2017-05-30T20:12:55Z		Investigate flaky test-https-server-keep-alive-timeout	42		
 13308	170197	false	open	false	1		2017-05-30T18:48:35Z	2017-05-30T19:16:40Z		http/https don't correctly support WHATWG URL auth	21		
 13309	498775	true	open	false	0		2017-05-30T18:49:57Z	2017-05-30T19:01:44Z		tools: be explicit about including key-id	22		
-13310	25148017	true	open	false			2017-05-30T19:15:53Z	2017-05-31T12:28:19Z		errors,stream-transform: migrate to use internal/errors.js	27		
-13311	393660	false	closed	false	15		2017-05-30T19:57:00Z	2017-05-31T15:46:50Z	2017-05-30T22:39:06Z	Installer puts down npm 4.5.0, not 5.	65		
-13312	718899	true	open	false	0		2017-05-30T20:12:32Z	2017-05-31T06:35:08Z		test: improve test-https-server-keep-alive-timeout	92		
+13310	25148017	true	open	false	0		2017-05-30T19:15:53Z	2017-05-31T17:23:59Z		errors,stream-transform: migrate to use internal/errors.js	27		
+13311	393660	false	closed	false	17		2017-05-30T19:57:00Z	2017-05-31T17:24:22Z	2017-05-30T22:39:06Z	Installer puts down npm 4.5.0, not 5.	65		
+13312	718899	true	open	false	1		2017-05-30T20:12:32Z	2017-05-31T17:04:32Z		test: improve test-https-server-keep-alive-timeout	92		
 13313	2322305	true	open	false	0	0	2017-05-30T20:22:28Z	2017-05-30T20:22:28Z		Fix link in CHANGELOG	42		
 13314	7169311	false	open	false	0		2017-05-30T20:24:57Z	2017-05-30T20:24:57Z		assert: RangeError: Maximum call stack size exceeded is still present	87		
 13315	1976777	true	open	false	0	0	2017-05-30T21:43:22Z	2017-05-30T21:43:22Z		Added Newline in Help Message	75		
@@ -6751,7 +6751,7 @@
 13318	7169311	true	open	false			2017-05-30T21:49:45Z	2017-05-31T16:30:53Z		assert: fix deepEqual RangeError: Maximum call stack size exceeded	22		
 13319	9373002	true	open	false	2		2017-05-30T22:09:51Z	2017-05-31T15:47:24Z		doc: remove 'you' from writing-tests.md	54		
 13320	1832800	false	open	false	4		2017-05-30T23:00:41Z	2017-05-31T16:59:15Z		Inspector hangs if try to call from Console	48		
-13321	17607	true	open	false			2017-05-30T23:46:16Z	2017-05-31T00:09:27Z		inspector: refactor to rename and comment methods	133		
+13321	17607	true	open	false	0		2017-05-30T23:46:16Z	2017-05-31T17:41:19Z		inspector: refactor to rename and comment methods	133		
 13322	54666	true	open	false			2017-05-31T01:40:20Z	2017-05-31T14:07:49Z		stream,zlib: performance improvements	353		
 13323	690661	true	closed	false	1		2017-05-31T05:08:55Z	2017-05-31T07:38:29Z	2017-05-31T07:38:29Z	doc: fix typos in n-api.md	44		
 13324	432351	true	open	false	1		2017-05-31T06:05:55Z	2017-05-31T07:14:08Z		test: check inspector support in test/inspector	72		
@@ -6766,6 +6766,9 @@
 13333	3761191	false	open	false	0		2017-05-31T13:36:27Z	2017-05-31T13:36:27Z		How can I detect tcp client connection error?	178		
 13334	10393198	true	open	false	0		2017-05-31T13:58:17Z	2017-05-31T14:02:59Z		doc: refine spaces in example from vm.md	49		
 13335	9373002	true	open	false	0	0	2017-05-31T15:55:29Z	2017-05-31T15:55:29Z		doc: update who to cc for n-api	42		
-13336	5886475	true	open	false	0	0	2017-05-31T16:32:33Z	2017-05-31T16:32:33Z		test: increase coverage of async_hooks	42		
-13337	1523410	false	open	false	0		2017-05-31T16:53:30Z	2017-05-31T16:53:30Z		[rfc] async version causes segfault (but not sync) 	216		
+13336	5886475	true	open	false	1		2017-05-31T16:32:33Z	2017-05-31T17:34:54Z		test: increase coverage of async_hooks	42		
+13337	1523410	false	open	false	0		2017-05-31T16:53:30Z	2017-05-31T17:37:01Z		[rfc] async version causes segfault (but not sync) 	216		
 13338	176013	false	open	false	0		2017-05-31T17:00:33Z	2017-05-31T17:00:33Z		Add context option to utils.promisify() for method binding	131		
+13339	17607	false	open	false	0		2017-05-31T17:03:06Z	2017-05-31T17:03:06Z		node c++ dependency checking doesn't seem to work	117		
+13340	718899	true	open	false	0	0	2017-05-31T17:18:03Z	2017-05-31T17:18:03Z		build: streamline JS test suites in Makefile	40		
+13341	7466144	false	open	false	0		2017-05-31T17:50:26Z	2017-05-31T17:50:26Z		--max-executable-size not recognized after upgrade 7.10.0 => 8.0.0	98		
