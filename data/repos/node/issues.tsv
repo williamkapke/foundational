@@ -106,7 +106,7 @@
 2521	885648	true	closed	false	35		2015-08-24T08:36:14Z	2017-03-01T17:20:15Z	2017-03-01T17:20:15Z	added CSI (\x9b) as additionally allowable escape	135		
 2534	4405297	true	closed	false	117		2015-08-25T01:59:16Z	2017-05-26T16:08:03Z	2017-05-26T16:08:03Z	http: fixed socket destruction, timeout and leaking	144		
 2538	1107239	true	closed	false	30		2015-08-25T13:44:32Z	2017-03-24T23:34:01Z	2017-03-24T23:34:01Z	added before-flushing-head event to _http_server.ServerResponse.writeHead	94		
-2543	9287	false	closed	false	12		2015-08-25T17:11:39Z	2017-05-31T00:07:57Z	2015-10-20T16:12:39Z	Feature: requestIdleCallback(cb)	51		
+2543	9287	false	closed	false	16		2015-08-25T17:11:39Z	2017-05-31T02:10:32Z	2015-10-20T16:12:39Z	Feature: requestIdleCallback(cb)	51		
 2546	9798949	false	closed	false	89		2015-08-25T19:16:53Z	2016-11-16T04:38:02Z	2016-06-02T17:53:08Z	Inspecting Node.js with Chrome DevTools	688		
 2564	782880	true	closed	false	28		2015-08-26T15:50:32Z	2017-01-16T05:16:07Z	2015-10-26T16:15:13Z	tls, crypto: add ALPN Support	130		
 2569	13315	true	closed	false	27		2015-08-27T04:34:55Z	2016-09-30T16:14:04Z	2016-07-14T03:03:37Z	Add zh-CN i18n support for Windows installer	15		
@@ -5010,7 +5010,7 @@
 11574	24477874	false	open	false	0		2017-02-27T05:47:01Z	2017-02-27T05:47:01Z		My program could run on Mac, but error on Window	42		
 11575	718899	true	closed	false	3		2017-02-27T06:44:00Z	2017-03-01T16:38:43Z	2017-03-01T16:38:43Z	test: apply strict mode in test-repl	47		
 11576	4923335	true	closed	false	27		2017-02-27T07:35:31Z	2017-03-10T00:17:25Z	2017-03-10T00:17:24Z	util: change sparse arrays inspection format	95		
-11577	156269	true	open	false	5		2017-02-27T08:04:29Z	2017-05-30T04:34:00Z		http: subclass of Agent can override the initialization	49		
+11577	156269	true	open	false	6		2017-02-27T08:04:29Z	2017-05-31T02:04:24Z		http: subclass of Agent can override the initialization	49		
 11578	3662372	false	open	false	5		2017-02-27T09:37:55Z	2017-03-07T08:19:12Z		Node.js http micro benchmark tests for http are flaky	198		
 11579	782880	true	closed	false	8		2017-02-27T13:00:05Z	2017-03-10T08:32:02Z	2017-03-10T08:32:02Z	test: add script to create 0-dns-cert.pem	109		
 11580	718899	true	closed	false	9		2017-02-27T15:35:13Z	2017-03-03T17:14:32Z	2017-03-02T03:09:10Z	timers: unlock the timers API	77		
@@ -6638,7 +6638,7 @@
 13206	17607	true	open	false	0	0	2017-05-24T20:19:13Z	2017-05-24T20:19:13Z		http: describe parse err in debug output	52		
 13207	9373002	true	closed	false	7		2017-05-24T21:01:28Z	2017-05-26T21:07:37Z	2017-05-26T21:07:37Z	n-api: add napi_get_version	54		
 13208	96947	true	closed	false	7	0	2017-05-24T21:28:50Z	2017-05-27T21:09:35Z	2017-05-27T21:09:35Z	build: ignore more VC++ artifacts	14		
-13209	1315533	false	open	false	28		2017-05-24T22:52:26Z	2017-05-31T00:07:23Z		repl: allow `await` in REPL	142		
+13209	1315533	false	open	false	29		2017-05-24T22:52:26Z	2017-05-31T02:52:36Z		repl: allow `await` in REPL	142		
 13210	14798161	false	closed	false	2		2017-05-25T00:03:41Z	2017-05-25T08:48:18Z	2017-05-25T08:48:18Z	Date parse behavior change in node-v8 ?	40		
 13211	5070345	true	open	false	0	0	2017-05-25T00:24:06Z	2017-05-25T00:24:06Z		Merge pull request #1 from nodejs/master	43		
 13212	25856836	true	open	false	1		2017-05-25T02:17:07Z	2017-05-25T03:44:29Z		doc: clarified documentation for crypto.publicEncrypt() and similar functions	35		
@@ -6733,7 +6733,7 @@
 13301	25031476	true	open	false			2017-05-30T14:56:42Z	2017-05-30T15:29:45Z		errors,http_server: migrate to use internal/errors.js	41		
 13302	1442575	false	open	false	7		2017-05-30T15:11:38Z	2017-05-31T01:45:56Z		[Feature Request]: want to get parent promise from PromiseHookInit through async_hooks	41		
 13303	14817903	false	open	false	1		2017-05-30T16:13:17Z	2017-05-30T20:36:43Z		issue after updating to 6.10.3	143		
-13304	855219	false	open	false	0		2017-05-30T16:13:28Z	2017-05-30T21:01:45Z		Preprocessing step for ICU 59.1 on some platforms	212		
+13304	855219	false	open	false	1		2017-05-30T16:13:28Z	2017-05-31T02:57:28Z		Preprocessing step for ICU 59.1 on some platforms	212		
 13305	498775	true	open	false	3		2017-05-30T16:24:27Z	2017-05-30T17:02:25Z		deps: float patch on npm to fix citgm	18		
 13306	2512748	true	open	false	2		2017-05-30T17:22:01Z	2017-05-30T23:02:11Z		deps: upgrade libuv to 1.12.0	55		
 13307	718899	false	open	false	3		2017-05-30T18:07:44Z	2017-05-30T20:12:55Z		Investigate flaky test-https-server-keep-alive-timeout	42		
@@ -6751,4 +6751,4 @@
 13319	9373002	true	open	false	1		2017-05-30T22:09:51Z	2017-05-30T23:08:30Z		doc: remove you from writing-tests.md	54		
 13320	1832800	false	open	false	1		2017-05-30T23:00:41Z	2017-05-30T23:21:30Z		Inspector hangs if try to call from Console	48		
 13321	17607	true	open	false			2017-05-30T23:46:16Z	2017-05-31T00:09:27Z		inspector: refactor to rename and comment methods	133		
-13322	54666	true	open	false	0	0	2017-05-31T01:40:20Z	2017-05-31T01:40:20Z		stream,zlib: performance improvements	351		
+13322	54666	true	open	false	0		2017-05-31T01:40:20Z	2017-05-31T02:44:39Z		stream,zlib: performance improvements	353		
