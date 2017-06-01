@@ -614,7 +614,7 @@
 6792	79017	true	closed	false	158		2016-05-16T20:27:18Z	2017-04-27T14:12:06Z	2016-05-30T16:12:40Z	Add v8_inspector support	530		
 6793	718899	true	closed	false	15		2016-05-16T20:58:19Z	2016-07-11T22:37:42Z	2016-05-24T20:45:06Z	test: improve debug-break-on-uncaught reliability	64		
 6795	112555	false	closed	false	2		2016-05-16T22:13:44Z	2017-05-30T04:53:34Z	2017-05-30T04:53:34Z	HTTP server timeout closing connection despite new request	357		
-6798	54666	false	open	false	29		2016-05-17T01:22:45Z	2017-05-31T19:31:19Z		streams: Readable highWaterMark is measured in bytes *or* characters	103		
+6798	54666	false	open	false	29		2016-05-17T01:22:45Z	2017-06-01T07:44:28Z		streams: Readable highWaterMark is measured in bytes *or* characters	103		
 6799	54666	false	open	false	14		2016-05-17T01:45:18Z	2017-05-30T07:53:29Z		"doc,streams: internal ""private"" properties are publicly documented"	114		
 6802	13891170	false	open	false	12		2016-05-17T06:00:09Z	2016-07-21T14:44:54Z		REPL crashes after let process;	35		
 6803	413206	false	closed	false	14		2016-05-17T08:34:13Z	2017-04-16T00:22:42Z	2017-04-16T00:22:42Z	child_process.exec() fails with spaces in absolute or relative path to binary file	77		
@@ -6714,10 +6714,10 @@
 13281	96947	true	open	false	4		2017-05-29T12:36:24Z	2017-06-01T01:59:42Z		src,fs: calculate times as unsigned long	34		
 13282	2352663	true	closed	false	1		2017-05-29T13:30:39Z	2017-05-30T08:11:24Z	2017-05-30T08:11:24Z	test: support candidate V8 versions	62		
 13283	96947	true	open	false	13		2017-05-29T15:45:15Z	2017-05-30T13:29:14Z		doc: relocate CII badge	36		
-13284	718899	true	open	false	14		2017-05-29T15:58:27Z	2017-06-01T05:30:52Z		doc: add CTC members to Collaborators list	49		
+13284	718899	true	open	false	16		2017-05-29T15:58:27Z	2017-06-01T07:35:19Z		doc: add CTC members to Collaborators list	49		
 13285	25148017	true	open	false	3		2017-05-29T16:37:55Z	2017-05-31T21:09:56Z		errors,process: migrate to use internal/errors.js	26		
-13286	899444	true	open	false			2017-05-29T18:53:27Z	2017-05-31T23:08:54Z		async_hooks: run destroy callbacks before normal exit	45		
-13287	505333	true	open	false			2017-05-29T19:23:54Z	2017-05-31T14:35:37Z		docs: documenting async hooks features	82		
+13286	899444	true	open	false			2017-05-29T18:53:27Z	2017-06-01T07:54:54Z		async_hooks: run destroy callbacks before normal exit	45		
+13287	505333	true	open	false			2017-05-29T19:23:54Z	2017-06-01T07:55:05Z		docs: documenting async hooks features	82		
 13288	10393198	true	closed	false	1		2017-05-29T21:33:53Z	2017-05-31T23:28:04Z	2017-05-31T23:28:04Z	doc: fix code examples in url.md	69		
 13289	28588124	false	closed	false	0		2017-05-30T06:57:16Z	2017-05-30T09:09:25Z	2017-05-30T09:09:25Z	uncaughtException, missing stack	53		
 13290	20768148	false	open	false	1		2017-05-30T07:27:51Z	2017-05-30T16:40:41Z		Your 64-bit installer defaults to Program Files x86	75		
@@ -6766,7 +6766,7 @@
 13333	3761191	false	open	false	0		2017-05-31T13:36:27Z	2017-05-31T13:36:27Z		How can I detect tcp client connection error?	178		
 13334	10393198	true	open	false	0		2017-05-31T13:58:17Z	2017-05-31T14:02:59Z		doc: refine spaces in example from vm.md	49		
 13335	9373002	true	open	false	0	0	2017-05-31T15:55:29Z	2017-05-31T15:55:29Z		doc: update who to cc for n-api	42		
-13336	5886475	true	open	false	1		2017-05-31T16:32:33Z	2017-06-01T05:05:52Z		test: increase coverage of async_hooks	42		
+13336	5886475	true	open	false	2		2017-05-31T16:32:33Z	2017-06-01T07:42:06Z		test: increase coverage of async_hooks	42		
 13337	1523410	false	closed	false	2		2017-05-31T16:53:30Z	2017-05-31T19:01:50Z	2017-05-31T19:01:50Z	[rfc] async version causes OOM (but not sync) 	216		
 13338	176013	false	open	false	1		2017-05-31T17:00:33Z	2017-05-31T19:50:14Z		Add context option to utils.promisify() for method binding	131		
 13339	17607	false	closed	false	12		2017-05-31T17:03:06Z	2017-06-01T01:03:14Z	2017-06-01T00:38:10Z	node c++ dependency checking doesn't seem to work	117		
@@ -6793,3 +6793,4 @@
 13360	498775	true	open	false	0	0	2017-06-01T05:27:57Z	2017-06-01T05:27:57Z		doc: fix date for 8.0.0 changelog	2		
 13361	10157008	false	open	false	0		2017-06-01T06:03:17Z	2017-06-01T06:03:17Z		Cannot find module 'internal/fs' when npm install on Node 8 using mac	211		
 13362	1538624	true	open	false	0	0	2017-06-01T06:38:02Z	2017-06-01T06:38:02Z		url, i18n: update IDNA handling	60		
+13363	2352663	true	open	false	0	0	2017-06-01T07:58:13Z	2017-06-01T07:58:13Z		tools: fix order of ESLint rules	20		
