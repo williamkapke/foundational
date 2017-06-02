@@ -1628,7 +1628,7 @@
 8185	21087407	false	closed	false	1		2016-08-19T17:09:19Z	2016-08-19T18:09:53Z	2016-08-19T18:09:53Z	Error: EPERM: operation not permitted	74		
 8186	2067616	false	open	false	1		2016-08-19T17:23:53Z	2016-08-20T00:50:19Z		Feature request: Horizontal peer-to-peer event-loop messaging w/ process.send (workers)	346		
 8187	696611	true	closed	false	13		2016-08-19T18:29:39Z	2016-08-26T13:29:45Z	2016-08-26T13:29:45Z	doc: improve `util._extend` function	30		
-8188	110455	true	open	false	11		2016-08-19T21:04:28Z	2017-03-26T11:44:00Z		crypto: expose ECDH class	106		
+8188	110455	true	open	false	12		2016-08-19T21:04:28Z	2017-06-02T07:01:17Z		crypto: expose ECDH class	106		
 8189	718899	true	open	false	7		2016-08-19T21:26:26Z	2016-08-23T17:48:09Z		test: refactor test-util-inspect	47		
 8190	248570	true	closed	false	5	0	2016-08-19T21:32:54Z	2016-08-22T18:00:05Z	2016-08-22T18:00:04Z	test: change equals comparison operator to be strict	50		
 8191	11976448	true	open	false	11		2016-08-19T21:34:50Z	2016-08-21T11:05:13Z		test: favor `===` over `==` in vm test	31		
@@ -6644,7 +6644,7 @@
 13211	5070345	true	open	false	0	0	2017-05-25T00:24:06Z	2017-05-25T00:24:06Z		Merge pull request #1 from nodejs/master	43		
 13212	25856836	true	open	false	2		2017-05-25T02:17:07Z	2017-06-02T01:30:51Z		doc: clarified documentation for crypto.publicEncrypt() and similar functions	35		
 13213	1514798	false	open	false	4		2017-05-25T03:58:33Z	2017-05-26T18:29:50Z		tls module does not load properly when used together with lib xmlsec	261		
-13214	110455	true	open	false			2017-05-25T08:02:54Z	2017-06-02T03:30:36Z		http: client keep-alive for UNIX domain sockets	94		
+13214	110455	true	open	false			2017-05-25T08:02:54Z	2017-06-02T06:15:32Z		http: client keep-alive for UNIX domain sockets	94		
 13215	5358146	true	closed	false	0		2017-05-25T12:14:56Z	2017-05-27T21:19:20Z	2017-05-27T21:19:20Z	test: replace `indexOf` with `includes`	40		
 13216	1128607	true	open	false	1		2017-05-25T12:29:27Z	2017-05-25T13:10:48Z		stream: remove dup property	15		
 13217	7401419	true	closed	false	18		2017-05-25T12:45:55Z	2017-05-28T22:34:15Z	2017-05-28T22:34:15Z	v8: patch API to be compatible with v8 6.0	73		
@@ -6754,7 +6754,7 @@
 13321	17607	true	closed	false	5		2017-05-30T23:46:16Z	2017-06-02T01:33:48Z	2017-06-01T23:05:27Z	inspector: refactor to rename and comment methods	133		
 13322	54666	true	open	false	5		2017-05-31T01:40:20Z	2017-06-02T03:14:52Z		stream,zlib: performance improvements	353		
 13323	690661	true	closed	false	1		2017-05-31T05:08:55Z	2017-05-31T07:38:29Z	2017-05-31T07:38:29Z	doc: fix typos in n-api.md	44		
-13324	432351	true	open	false	1		2017-05-31T06:05:55Z	2017-05-31T07:14:08Z		test: check inspector support in test/inspector	72		
+13324	432351	true	closed	false	3		2017-05-31T06:05:55Z	2017-06-02T06:32:57Z	2017-06-02T06:32:57Z	test: check inspector support in test/inspector	72		
 13325	1086194	false	open	false	35		2017-05-31T06:43:45Z	2017-06-01T18:01:55Z		Strange exit after updated to node 8.0.0	103		
 13326	6447530	false	open	false	0		2017-05-31T07:54:26Z	2017-05-31T07:54:26Z		[8.0.0] v8.Serializer crashes on bad input	81		
 13327	2174968	true	open	false			2017-05-31T08:05:48Z	2017-05-31T15:17:34Z		test: add coverage for AsyncResource constructor	32		
@@ -6807,10 +6807,12 @@
 13374	439929	true	open	false	3		2017-06-01T18:27:23Z	2017-06-01T20:27:24Z		zlib: revert back to Functions	70		
 13375	96947	true	closed	false	9	2	2017-06-01T19:15:49Z	2017-06-01T22:25:23Z	2017-06-01T22:25:23Z	test: test-inspector-port-zero-cluster flaky	32		
 13376	3109072	false	open	false	2		2017-06-01T20:56:57Z	2017-06-02T05:05:31Z		test-module-loading-error fails on Windows with MUI set to a non-English language	208		
-13377	9373002	false	open	false	6		2017-06-01T21:41:44Z	2017-06-02T05:36:11Z		Intermittent failure in parallel/test-fs-watchfile on AIX	35		
+13377	9373002	false	open	false	8		2017-06-01T21:41:44Z	2017-06-02T06:19:31Z		Intermittent failure in parallel/test-fs-watchfile on AIX	35		
 13378	96947	true	open	false	6		2017-06-01T21:44:52Z	2017-06-01T23:24:46Z		build,windows: merge test suite groups	42		
 13379	10393198	true	open	false	0	0	2017-06-01T22:06:08Z	2017-06-01T22:06:08Z		doc: add async_hooks, n-api to _toc.md and all.md	28		
 13380	9373002	true	open	false	0	0	2017-06-01T22:37:36Z	2017-06-01T22:37:36Z		test: consolidate n-api test addons - part2	64		
 13381	96947	true	open	false			2017-06-01T23:09:52Z	2017-06-02T01:28:33Z		[WIP] test,async_hooks: stabilize tests on Windows	376		
 13382	54666	false	open	false	0		2017-06-02T03:19:21Z	2017-06-02T03:19:21Z		doc: incorrect backtick usage	27		
 13383	4299420	false	open	false	0		2017-06-02T03:52:08Z	2017-06-02T03:52:08Z		doc: http.request and https.request accepts WHATWG URL object as argument	52		
+13384	54666	true	open	false	0	0	2017-06-02T06:11:42Z	2017-06-02T06:11:42Z		lib,tools: fix perm deopts	30		
+13385	718899	true	open	false	0	0	2017-06-02T06:15:18Z	2017-06-02T06:15:18Z		test: make test-fs-watchfile reliable	40		
