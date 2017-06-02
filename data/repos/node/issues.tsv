@@ -4659,7 +4659,7 @@
 11222	52195	true	closed	false	4		2017-02-07T18:13:27Z	2017-03-07T21:00:06Z	2017-02-09T07:07:05Z	doc: add links between cork() and uncork()	52		
 11223	2512748	true	closed	false	1		2017-02-07T18:31:44Z	2017-03-07T18:56:23Z	2017-02-09T18:30:07Z	test: improve checks in test-path-parse-format	43		
 11224	52195	false	closed	false	1		2017-02-07T18:37:33Z	2017-05-24T13:05:28Z	2017-05-24T13:05:27Z	Document fs.createReadStream and fs.createWriteStream close and destroy methods	30		
-11225	52195	true	closed	false	8		2017-02-07T18:45:13Z	2017-06-01T14:30:16Z	2017-02-13T08:10:13Z	fs: avoid emitting error EBADF for double close	69		
+11225	52195	true	closed	false	9		2017-02-07T18:45:13Z	2017-06-02T07:36:50Z	2017-02-13T08:10:13Z	fs: avoid emitting error EBADF for double close	69		
 11226	7135896	true	open	false	6		2017-02-07T20:28:24Z	2017-02-08T15:33:27Z		lib: make NativeModule._cache private	63		
 11227	439929	true	closed	false	7		2017-02-07T20:44:23Z	2017-02-10T02:02:41Z	2017-02-10T02:02:41Z	benchmarks: add spread operator benchmark	72		
 11228	718899	true	closed	false	1		2017-02-07T21:09:57Z	2017-03-07T18:43:05Z	2017-02-09T21:28:44Z	doc: edit maxBuffer/Unicode paragraph for clarity	28		
@@ -4781,7 +4781,7 @@
 11344	17607	true	closed	false	1		2017-02-13T17:39:31Z	2017-02-14T17:31:33Z	2017-02-13T17:39:51Z	7.x backport: crypto: support OPENSSL_CONF again (and its dependencies)	42		
 11345	17607	true	closed	false	11		2017-02-13T17:40:29Z	2017-02-27T18:20:19Z	2017-02-16T17:24:16Z	7.x backport: crypto: support OPENSSL_CONF again (and its dependencies)	50		
 11346	275871	true	closed	false	12		2017-02-13T17:56:51Z	2017-06-01T15:00:46Z	2017-02-15T17:59:34Z	lib: remove simd support from util.format()	77		
-11347	1748653	true	open	false	8		2017-02-13T18:11:57Z	2017-06-02T03:56:32Z		errors, repl: migrate to use internal/errors.js	71		
+11347	1748653	true	open	false	10		2017-02-13T18:11:57Z	2017-06-02T07:33:26Z		errors, repl: migrate to use internal/errors.js	71		
 11348	733364	true	closed	false	5		2017-02-13T18:52:25Z	2017-03-07T07:22:40Z	2017-02-17T01:18:15Z	build: fix building with ninja on linux	83		
 11349	439929	true	closed	false	10		2017-02-13T20:04:22Z	2017-03-06T22:24:54Z	2017-03-06T22:24:54Z	tls: runtime deprecate _tls_legacy	62		
 11350	17607	true	open	false	0		2017-02-13T20:05:42Z	2017-02-16T17:35:52Z		doc: dns examples implied string args were arrays	23		
@@ -6773,7 +6773,7 @@
 13340	718899	true	open	false	0		2017-05-31T17:18:03Z	2017-06-01T20:37:25Z		build: streamline JS test suites in Makefile	40		
 13341	7466144	false	open	false	0		2017-05-31T17:50:26Z	2017-05-31T18:09:35Z		--max-executable-size not recognized after upgrade 7.10.0 => 8.0.0	105		
 13342	10393198	true	open	false	0	0	2017-05-31T18:17:28Z	2017-05-31T18:17:28Z		doc: fix code examples in zlib.md	37		
-13343	718899	false	open	false	11		2017-05-31T18:27:56Z	2017-06-01T18:20:49Z		Investigate flaky test-inspector-port-zero-cluster	92		
+13343	718899	false	open	false	15		2017-05-31T18:27:56Z	2017-06-02T07:28:34Z		Investigate flaky test-inspector-port-zero-cluster	92		
 13344	29105720	false	open	false	1		2017-05-31T19:39:11Z	2017-06-01T14:42:30Z		node-v8.0.0 make test failure	147		
 13345	6370230	false	open	false	0		2017-05-31T19:55:00Z	2017-05-31T20:02:41Z		Abort trap: 6 while running Grunt	72		
 13346	96947	false	open	false	2		2017-05-31T20:36:30Z	2017-05-31T23:03:21Z		question, test: best way to retry async task	86		
@@ -6797,22 +6797,24 @@
 13364	403268	false	open	false	0		2017-06-01T08:02:31Z	2017-06-01T08:02:31Z		util.promisify custom implementation of child_process.exec throws away stdout and stderr in case of error	116		
 13365	1716463	true	open	false	0	0	2017-06-01T08:13:56Z	2017-06-01T08:13:56Z		doc: add require modules in url.md	52		
 13366	860364	false	closed	false	8		2017-06-01T10:40:09Z	2017-06-01T12:18:04Z	2017-06-01T11:34:53Z	await syntax problem	88		
-13367	1442575	true	open	false	20		2017-06-01T11:33:57Z	2017-06-02T02:01:58Z		async_hooks: use parent promise as triggerId in init hook	106		
+13367	1442575	true	open	false	21		2017-06-01T11:33:57Z	2017-06-02T07:02:17Z		async_hooks: use parent promise as triggerId in init hook	106		
 13368	7678348	false	open	false	1		2017-06-01T12:01:12Z	2017-06-01T16:23:45Z		Add an easy way to start a TLS communication on top of a plain *server side* Socket	204		
 13369	289174	true	open	false			2017-06-01T12:28:08Z	2017-06-01T21:09:37Z		[async_wrap] call destroy hooks on uv_timer_t	202		
 13370	52195	true	open	false	11		2017-06-01T13:47:19Z	2017-06-01T18:27:55Z		zlib: fix inheritance of DeflateRaw without classes	43		
 13371	3109072	true	open	false	0	0	2017-06-01T15:11:02Z	2017-06-01T15:11:02Z		doc: add tniessen to collaborators	21		
 13372	275871	false	open	false	0		2017-06-01T15:58:00Z	2017-06-01T16:03:52Z		build: drop support for building addons with VS 2013 in v9	52		
 13373	96947	true	open	false	11		2017-06-01T17:08:14Z	2017-06-01T21:15:21Z		test: serialize forking	34		
-13374	439929	true	open	false	3		2017-06-01T18:27:23Z	2017-06-01T20:27:24Z		zlib: revert back to Functions	70		
+13374	439929	true	open	false			2017-06-01T18:27:23Z	2017-06-02T07:09:12Z		zlib: revert back to Functions	70		
 13375	96947	true	closed	false	9	2	2017-06-01T19:15:49Z	2017-06-01T22:25:23Z	2017-06-01T22:25:23Z	test: test-inspector-port-zero-cluster flaky	32		
 13376	3109072	false	open	false	2		2017-06-01T20:56:57Z	2017-06-02T05:05:31Z		test-module-loading-error fails on Windows with MUI set to a non-English language	208		
 13377	9373002	false	open	false	8		2017-06-01T21:41:44Z	2017-06-02T06:19:31Z		Intermittent failure in parallel/test-fs-watchfile on AIX	35		
 13378	96947	true	open	false	6		2017-06-01T21:44:52Z	2017-06-01T23:24:46Z		build,windows: merge test suite groups	42		
 13379	10393198	true	open	false	0	0	2017-06-01T22:06:08Z	2017-06-01T22:06:08Z		doc: add async_hooks, n-api to _toc.md and all.md	28		
 13380	9373002	true	open	false	0	0	2017-06-01T22:37:36Z	2017-06-01T22:37:36Z		test: consolidate n-api test addons - part2	64		
-13381	96947	true	open	false			2017-06-01T23:09:52Z	2017-06-02T01:28:33Z		[WIP] test,async_hooks: stabilize tests on Windows	376		
+13381	96947	true	open	false			2017-06-01T23:09:52Z	2017-06-02T07:09:00Z		[WIP] test,async_hooks: stabilize tests on Windows	376		
 13382	54666	false	open	false	0		2017-06-02T03:19:21Z	2017-06-02T03:19:21Z		doc: incorrect backtick usage	27		
 13383	4299420	false	open	false	0		2017-06-02T03:52:08Z	2017-06-02T03:52:08Z		doc: http.request and https.request accepts WHATWG URL object as argument	52		
 13384	54666	true	open	false	0	0	2017-06-02T06:11:42Z	2017-06-02T06:11:42Z		lib,tools: fix perm deopts	30		
 13385	718899	true	open	false	0	0	2017-06-02T06:15:18Z	2017-06-02T06:15:18Z		test: make test-fs-watchfile reliable	40		
+13386	592432	false	open	false	0		2017-06-02T07:23:34Z	2017-06-02T07:23:34Z		require does not cache exceptions	77		
+13387	8169783	false	open	false	0		2017-06-02T07:59:16Z	2017-06-02T07:59:16Z		node inspect fails on node 8.0.0	32		
