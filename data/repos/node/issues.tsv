@@ -6757,7 +6757,7 @@
 13324	432351	true	closed	false	3		2017-05-31T06:05:55Z	2017-06-02T06:32:57Z	2017-06-02T06:32:57Z	test: check inspector support in test/inspector	72		
 13325	1086194	false	open	false	35		2017-05-31T06:43:45Z	2017-06-01T18:01:55Z		Strange exit after updated to node 8.0.0	103		
 13326	6447530	false	open	false	0		2017-05-31T07:54:26Z	2017-05-31T07:54:26Z		[8.0.0] v8.Serializer crashes on bad input	81		
-13327	2174968	true	open	false			2017-05-31T08:05:48Z	2017-06-02T09:35:45Z		test: add coverage for AsyncResource constructor	32		
+13327	2174968	true	open	false			2017-05-31T08:05:48Z	2017-06-02T23:23:37Z		test: add coverage for AsyncResource constructor	32		
 13328	5807322	true	open	false			2017-05-31T08:15:22Z	2017-05-31T14:08:12Z		test: test async-hook triggerId invariant	71		
 13329	52195	true	open	false	1		2017-05-31T08:37:04Z	2017-05-31T11:59:39Z		stream, doc: resume a stream after pipe() and unpipe()	46		
 13330	17704638	true	open	false	0		2017-05-31T11:42:25Z	2017-06-01T08:45:41Z		win, doc: document per-drive current working dir	36		
@@ -6778,9 +6778,9 @@
 13345	6370230	false	open	false	0		2017-05-31T19:55:00Z	2017-05-31T20:02:41Z		Abort trap: 6 while running Grunt	72		
 13346	96947	false	open	false	2		2017-05-31T20:36:30Z	2017-05-31T23:03:21Z		question, test: best way to retry async task	86		
 13347	7169311	false	open	false	6		2017-05-31T20:38:49Z	2017-05-31T23:24:13Z		assert: deepEqual of two Sets with different content passes	50		
-13348	899444	true	open	false			2017-05-31T21:20:27Z	2017-06-02T23:09:02Z		async_hooks,http: fix socket reuse with Agent	77		
+13348	899444	true	open	false			2017-05-31T21:20:27Z	2017-06-02T23:42:05Z		async_hooks,http: fix socket reuse with Agent	77		
 13349	10393198	true	closed	false	1		2017-05-31T22:26:36Z	2017-06-02T22:36:28Z	2017-06-02T22:36:28Z	doc: use destructuring in code examples	21		
-13350	287917	true	open	false	0		2017-05-31T22:26:48Z	2017-05-31T23:29:20Z		inspector: Allows reentry when paused	75		
+13350	287917	true	open	false	1		2017-05-31T22:26:48Z	2017-06-02T23:18:39Z		inspector: Allows reentry when paused	75		
 13351	3684334	false	closed	false	8		2017-05-31T22:44:40Z	2017-06-02T11:09:32Z	2017-06-02T11:09:32Z	DCHECK(IsNumber) Crash when running debug node 4.8.3 with meteor	373		
 13352	96947	false	open	false	0		2017-05-31T22:47:11Z	2017-05-31T22:47:11Z		http, async_hooks: Consider async_hooks implications of the API that HTTP Agent uses	56		
 13353	899444	true	closed	false	0		2017-05-31T22:57:50Z	2017-06-01T20:53:38Z	2017-06-01T20:53:38Z	async_wrap: remove erroneous destroy list clear()	126		
@@ -6797,7 +6797,7 @@
 13364	403268	false	open	false	0		2017-06-01T08:02:31Z	2017-06-01T08:02:31Z		util.promisify custom implementation of child_process.exec throws away stdout and stderr in case of error	116		
 13365	1716463	true	open	false	0	0	2017-06-01T08:13:56Z	2017-06-01T08:13:56Z		doc: add require modules in url.md	52		
 13366	860364	false	closed	false	8		2017-06-01T10:40:09Z	2017-06-01T12:18:04Z	2017-06-01T11:34:53Z	await syntax problem	88		
-13367	1442575	true	open	false	39		2017-06-01T11:33:57Z	2017-06-02T22:23:22Z		async_hooks: use parent promise as triggerId in init hook	106		
+13367	1442575	true	open	false	41		2017-06-01T11:33:57Z	2017-06-02T23:18:57Z		async_hooks: use parent promise as triggerId in init hook	106		
 13368	7678348	false	open	false	1		2017-06-01T12:01:12Z	2017-06-01T16:23:45Z		Add an easy way to start a TLS communication on top of a plain *server side* Socket	204		
 13369	289174	true	closed	false	1	5	2017-06-01T12:28:08Z	2017-06-02T22:23:21Z	2017-06-02T22:23:21Z	[async_wrap] call destroy hooks on uv_timer_t	202	289174	2017-06-02T22:23:21Z
 13370	52195	true	open	false	11		2017-06-01T13:47:19Z	2017-06-01T18:27:55Z		zlib: fix inheritance of DeflateRaw without classes	43		
@@ -6841,7 +6841,7 @@
 13408	8310972	false	closed	false	2		2017-06-02T16:54:48Z	2017-06-02T19:32:37Z	2017-06-02T17:35:17Z	Order of 'require' decides if 'instanceof' will fail or not.	390		
 13409	3109072	true	open	false	0	0	2017-06-02T17:29:24Z	2017-06-02T17:29:24Z		url: do not pass WHATWG host to http.request	67		
 13410	3892450	false	open	false	0		2017-06-02T18:17:29Z	2017-06-02T18:17:29Z		"node --expose_debug_as=v8debug gives ""bade option"""	50		
-13411	96947	true	open	false	7		2017-06-02T19:17:28Z	2017-06-02T22:22:24Z		test,fs: test watch of file and directory	40		
+13411	96947	true	open	false	8		2017-06-02T19:17:28Z	2017-06-02T23:18:58Z		test,fs: test watch of file and directory	40		
 13412	13093042	true	open	false	0	0	2017-06-02T19:36:24Z	2017-06-02T19:36:24Z		test: fix build warning in addons-napi\test_object	55		
 13413	899444	true	open	false			2017-06-02T19:39:22Z	2017-06-02T23:03:34Z		doc: small makeover for onboarding.md	9		
 13414	1377	false	open	false	1		2017-06-02T19:43:03Z	2017-06-02T20:28:45Z		consider using `in` instead of access for customInspectSymbol + inspect	169		
@@ -6849,7 +6849,10 @@
 13416	899444	true	open	false	0	0	2017-06-02T21:23:19Z	2017-06-02T21:23:19Z		async_hooks: tear down hooks if none are in use	80		
 13417	291301	false	open	false	0		2017-06-02T21:44:10Z	2017-06-02T21:44:10Z		tls, doc: documentation mentions unexisting clientError event	81		
 13418	899444	true	open	false	0	0	2017-06-02T21:54:17Z	2017-06-02T21:54:17Z		async_hooks: make sure `.{en|dis}able() === this`	47		
-13419	899444	true	open	false	0	0	2017-06-02T22:19:57Z	2017-06-02T22:19:57Z		async_hooks: minor refactor to callback invocation	61		
+13419	899444	true	open	false			2017-06-02T22:19:57Z	2017-06-02T23:21:03Z		async_hooks: minor refactor to callback invocation	61		
 13420	718899	true	open	false	0	0	2017-06-02T22:41:48Z	2017-06-02T22:41:48Z		doc: remove note highlighting in GOVERNANCE doc	37		
 13421	718899	true	open	false	0	0	2017-06-02T22:53:20Z	2017-06-02T22:53:20Z		doc: minimal documentation for Emeritus status	58		
-13422	1377	true	open	false	0	0	2017-06-02T23:01:56Z	2017-06-02T23:01:56Z		util.inspect(obj) should avoid obj.inspect access	71		
+13422	1377	true	open	false			2017-06-02T23:01:56Z	2017-06-02T23:46:49Z		util.inspect(obj) should avoid obj.inspect access	108		
+13423	718899	true	open	false	0	0	2017-06-02T23:30:14Z	2017-06-02T23:30:14Z		doc: emphasize Collaborators in GOVERNANCE.md	74		
+13424	7902626	true	open	false	0	0	2017-06-03T00:04:43Z	2017-06-03T00:04:43Z		doc: add callback function signatures in fs.md	39		
+13425	494055	false	open	false	0		2017-06-03T00:11:46Z	2017-06-03T00:11:46Z		Windows REPL resets text color to white after output instead of resetting to the previous foreground color (e.g. grey)	55		
