@@ -1153,7 +1153,7 @@
 7709	523889	false	closed	false	1		2016-07-13T14:41:13Z	2016-07-14T02:18:41Z	2016-07-14T02:18:41Z	setTimeout clearTimeout	31		
 7710	2512748	true	closed	false	5		2016-07-13T15:20:46Z	2016-09-30T16:17:29Z	2016-07-15T14:05:25Z	cluster: remove bind() and self	48		
 7711	275871	true	closed	false	7	2	2016-07-13T15:38:23Z	2016-07-18T08:54:15Z	2016-07-18T08:54:15Z	src: fix handle leaks	2		
-7712	1392388	false	open	false	4		2016-07-13T16:04:13Z	2016-07-13T18:13:47Z		Crypto - sign.update, verifier.update default parameter for strings 'utf8' not really true?	185		
+7712	1392388	false	closed	false	6		2016-07-13T16:04:13Z	2017-06-03T10:00:18Z	2017-06-03T10:00:18Z	Crypto - sign.update, verifier.update default parameter for strings 'utf8' not really true?	185		
 7713	15952	true	closed	false	3		2016-07-13T18:37:03Z	2016-07-14T18:49:01Z	2016-07-14T18:49:01Z	backport: update build-addons when node-gyp changes	96		
 7714	238531	false	closed	false	11		2016-07-13T20:11:16Z	2016-08-09T20:24:03Z	2016-08-09T20:24:03Z	Backport: fs.mkdtemp to v4.x	47		
 7715	275871	true	closed	false	4		2016-07-13T20:40:11Z	2016-09-07T22:13:23Z	2016-09-07T22:13:23Z	src: use RAII for mutexes and condition variables (v4.x)	3		
@@ -4053,7 +4053,7 @@
 10616	17607	true	closed	false	7	0	2017-01-04T18:42:37Z	2017-01-11T17:05:58Z	2017-01-11T17:05:57Z	Sort requires	21	17607	2017-01-11T17:05:57Z
 10617	17607	false	closed	false	6		2017-01-04T20:34:11Z	2017-02-16T17:15:16Z	2017-02-16T17:15:16Z	errors and contradictions in docs for process.stdout/stderr	773		
 10618	9373002	true	closed	false	4		2017-01-04T20:38:38Z	2017-03-07T01:57:10Z	2017-01-05T19:45:33Z	test: mark test-tty-wrap as flaky for AIX	53		
-10619	18743742	false	open	false	5		2017-01-04T23:01:06Z	2017-01-15T10:31:54Z		console.log speed issue	150		
+10619	18743742	false	open	false	6		2017-01-04T23:01:06Z	2017-06-03T09:52:35Z		console.log speed issue	150		
 10620	439929	true	open	false	17		2017-01-04T23:44:03Z	2017-01-23T17:48:27Z		doc: add basic documentation for WHATWG URL API	28		
 10621	13374460	false	open	false	0		2017-01-05T00:18:06Z	2017-01-05T00:18:06Z		`readFileSync` Appears  Un-synchronous or Fails on Raspberry Pi 3	161		
 10622	11262165	true	closed	false	3		2017-01-05T00:51:59Z	2017-01-10T21:07:27Z	2017-01-10T21:07:27Z	test: refactor test-crypto-padding-aes256	42		
@@ -6610,7 +6610,7 @@
 13177	899444	true	closed	false	2	0	2017-05-23T21:18:23Z	2017-05-25T16:21:43Z	2017-05-25T16:21:43Z	async_hooks: only set up hooks if used	87		
 13178	9373002	true	open	false	3		2017-05-23T21:35:08Z	2017-05-25T23:32:51Z		test: add coverage for napi_has_named_property	38		
 13179	373545	true	open	false	1		2017-05-23T22:02:51Z	2017-05-30T14:53:13Z		fs: Fix default params for fs.write(Sync) (backport to v6)	78		
-13180	289174	false	open	false	1		2017-05-23T22:08:25Z	2017-05-24T16:33:02Z		inconsistency in `StreamBase::WriteBuffer()`	273		
+13180	289174	false	open	false	2		2017-05-23T22:08:25Z	2017-06-03T09:21:51Z		inconsistency in `StreamBase::WriteBuffer()`	273		
 13181	28588124	false	closed	false	1		2017-05-23T23:48:05Z	2017-05-24T04:53:52Z	2017-05-24T04:53:52Z	async function, FunctionTemplate::New(isolate, CancelFunction)	120		
 13182	10393198	true	closed	false	4		2017-05-24T01:10:03Z	2017-05-26T08:54:24Z	2017-05-26T08:54:24Z	doc: fix code example in inspector.md	26		
 13183	718899	true	closed	false	1		2017-05-24T03:55:29Z	2017-05-26T05:21:38Z	2017-05-26T05:21:38Z	test: use common.mustNotCall in test-crypto-random	40		
@@ -6673,7 +6673,7 @@
 13240	13809413	true	open	false	2		2017-05-26T13:13:16Z	2017-06-02T10:44:58Z		errors,tty: migrate to use internal/errors.js	46		
 13241	432351	true	closed	false	2		2017-05-26T13:22:44Z	2017-05-29T03:32:17Z	2017-05-29T03:32:17Z	crypto: return CHECK_OK in VerifyCallback	67		
 13242	899444	true	closed	false	7		2017-05-26T15:23:45Z	2017-05-28T15:19:58Z	2017-05-28T15:19:58Z	async_hooks: fix Promises with later enabled hooks	42		
-13243	899444	true	open	false	4		2017-05-26T15:55:03Z	2017-06-01T23:33:01Z		test: improve async hooks test error messages	67		
+13243	899444	true	open	false	5		2017-05-26T15:55:03Z	2017-06-03T09:52:22Z		test: improve async hooks test error messages	67		
 13244	9373002	true	open	false	2		2017-05-26T17:28:09Z	2017-05-30T17:48:51Z		test: improve n-api coverage for typed arrays	45		
 13245	9373002	true	closed	false	4	0	2017-05-26T17:59:25Z	2017-05-28T08:55:18Z	2017-05-28T08:55:18Z	doc: make spelling of behavior consistent	91		
 13246	96947	true	open	false			2017-05-26T18:42:31Z	2017-06-01T13:00:12Z		doc: add note to Stats about copying	34		
@@ -6797,7 +6797,7 @@
 13364	403268	false	open	false	0		2017-06-01T08:02:31Z	2017-06-01T08:02:31Z		util.promisify custom implementation of child_process.exec throws away stdout and stderr in case of error	116		
 13365	1716463	true	open	false	0	0	2017-06-01T08:13:56Z	2017-06-01T08:13:56Z		doc: add require modules in url.md	52		
 13366	860364	false	closed	false	8		2017-06-01T10:40:09Z	2017-06-01T12:18:04Z	2017-06-01T11:34:53Z	await syntax problem	88		
-13367	1442575	true	open	false	49		2017-06-01T11:33:57Z	2017-06-03T08:06:55Z		async_hooks: use parent promise as triggerId in init hook	106		
+13367	1442575	true	open	false	52		2017-06-01T11:33:57Z	2017-06-03T09:23:07Z		async_hooks: use parent promise as triggerId in init hook	106		
 13368	7678348	false	open	false	1		2017-06-01T12:01:12Z	2017-06-01T16:23:45Z		Add an easy way to start a TLS communication on top of a plain *server side* Socket	204		
 13369	289174	true	closed	false	1	5	2017-06-01T12:28:08Z	2017-06-02T22:23:21Z	2017-06-02T22:23:21Z	[async_wrap] call destroy hooks on uv_timer_t	202	289174	2017-06-02T22:23:21Z
 13370	52195	true	open	false	11		2017-06-01T13:47:19Z	2017-06-01T18:27:55Z		zlib: fix inheritance of DeflateRaw without classes	43		
@@ -6818,7 +6818,7 @@
 13385	718899	true	closed	false	10	0	2017-06-02T06:15:18Z	2017-06-02T22:15:05Z	2017-06-02T22:15:05Z	test: make test-fs-watchfile reliable	28		
 13386	592432	false	open	false	0		2017-06-02T07:23:34Z	2017-06-02T09:19:53Z		require does not cache exceptions	77		
 13387	8169783	false	open	false	0		2017-06-02T07:59:16Z	2017-06-02T13:21:22Z		node inspect fails on node 8.0.0	32		
-13388	403268	true	open	false	6		2017-06-02T09:26:12Z	2017-06-02T20:15:08Z		child_process: exec's promisify impl now includes stdout/err in error	127		
+13388	403268	true	open	false	7		2017-06-02T09:26:12Z	2017-06-03T09:20:31Z		child_process: exec's promisify impl now includes stdout/err in error	127		
 13389	10393198	true	open	false			2017-06-02T09:28:53Z	2017-06-02T18:17:49Z		doc: use prefer-rest-params eslint rule in docs	50		
 13390	15943089	true	open	false			2017-06-02T09:58:37Z	2017-06-02T12:18:37Z		test: pass env vars through to test-benchmark-http	51		
 13391	1561682	false	open	false	3		2017-06-02T10:52:34Z	2017-06-02T22:57:16Z		Http connections aborted after 5s / keepAliveTimeout 	455		
@@ -6849,7 +6849,7 @@
 13416	899444	true	open	false	0	0	2017-06-02T21:23:19Z	2017-06-02T21:23:19Z		async_hooks: tear down hooks if none are in use	80		
 13417	291301	false	open	false	0		2017-06-02T21:44:10Z	2017-06-02T21:44:10Z		tls, doc: documentation mentions unexisting clientError event	81		
 13418	899444	true	open	false	0	0	2017-06-02T21:54:17Z	2017-06-02T21:54:17Z		async_hooks: make sure `.{en|dis}able() === this`	47		
-13419	899444	true	open	false			2017-06-02T22:19:57Z	2017-06-03T05:31:06Z		async_hooks: minor refactor to callback invocation	61		
+13419	899444	true	open	false			2017-06-02T22:19:57Z	2017-06-03T09:42:21Z		async_hooks: minor refactor to callback invocation	61		
 13420	718899	true	open	false	0	0	2017-06-02T22:41:48Z	2017-06-02T22:41:48Z		doc: remove note highlighting in GOVERNANCE doc	37		
 13421	718899	true	open	false	0	0	2017-06-02T22:53:20Z	2017-06-02T22:53:20Z		doc: minimal documentation for Emeritus status	58		
 13422	1377	true	open	false			2017-06-02T23:01:56Z	2017-06-02T23:46:49Z		util.inspect(obj) should avoid obj.inspect access	108		
@@ -6859,6 +6859,8 @@
 13426	47413	true	open	false	0	0	2017-06-03T00:41:15Z	2017-06-03T00:41:15Z		assert: fix deepEqual similar sets and maps bug	56		
 13427	816527	false	open	false	0		2017-06-03T00:42:09Z	2017-06-03T00:42:09Z		assync_hooks.currentId() sometimes reports the wrong id during PromiseReactionJob	193		
 13428	17607	true	open	false			2017-06-03T02:33:34Z	2017-06-03T05:44:58Z		test: rearrange inspector headers into convention	43		
-13429	1829515	false	open	false	0		2017-06-03T05:18:18Z	2017-06-03T05:18:18Z		"Error ""Implement me. Unknown stream file type!"" when running from PHP under Windows"	118		
-13430	17592563	false	open	false	1		2017-06-03T06:31:12Z	2017-06-03T08:37:00Z		Code question	44		
-13431	4629413	false	open	false	0		2017-06-03T08:50:39Z	2017-06-03T08:50:39Z		EINVAL during syscall=connect	67		
+13429	1829515	false	open	false	2		2017-06-03T05:18:18Z	2017-06-03T09:32:10Z		"Error ""Implement me. Unknown stream file type!"" when running from PHP under Windows"	118		
+13430	17592563	false	open	false	2		2017-06-03T06:31:12Z	2017-06-03T09:21:00Z		Code question	44		
+13431	4629413	false	open	false	0		2017-06-03T08:50:39Z	2017-06-03T09:19:13Z		EINVAL during syscall=connect	67		
+13432	52195	true	open	false	0	0	2017-06-03T09:28:58Z	2017-06-03T09:28:58Z		doc,stream: clarify 'data', pipe() and 'readable'	52		
+13433	28961025	false	open	false	0		2017-06-03T09:50:29Z	2017-06-03T09:50:29Z		Error with a node steam bot 	100		
