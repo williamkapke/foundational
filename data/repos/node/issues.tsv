@@ -423,7 +423,7 @@
 5741	696611	true	open	false	16		2016-03-16T17:59:03Z	2017-03-26T11:05:51Z		tools: install components optionally	104		
 5745	439929	true	closed	false	23	0	2016-03-16T21:21:26Z	2016-07-05T17:55:53Z	2016-07-05T17:55:53Z	buffer: backport --zero-fill-buffers command line option	130		
 5754	613846	false	closed	false	10		2016-03-17T04:28:55Z	2017-05-30T04:37:08Z	2017-05-30T04:37:08Z	security revert CVE-2016-2216 didn't work with HPE_UNEXPECTED_CONTENT_LENGTH	172		
-5757	514417	false	open	false	3		2016-03-17T09:16:05Z	2016-07-27T11:45:06Z		net.Socket has no setConnectionTimeout(timeout) method	37		
+5757	514417	false	open	false	3		2016-03-17T09:16:05Z	2017-06-03T10:51:16Z		net.Socket has no setConnectionTimeout(timeout) method	37		
 5759	8860917	false	closed	false	4		2016-03-17T12:55:10Z	2017-03-02T21:53:47Z	2016-03-17T17:34:16Z	Unable to Install Node V4.4.0 - msi DLL Error	42		
 5774	238531	true	open	false	23		2016-03-18T00:39:28Z	2017-02-28T23:19:38Z		tls: deprecate `newSession`/`resumeSession` events	177		
 5780	471070	true	closed	false	5	7	2016-03-18T10:49:38Z	2017-01-18T06:16:27Z	2017-01-18T06:16:27Z	buffer: Error message should be more explicit for .toString() on huge…	153		
@@ -6758,7 +6758,7 @@
 13325	1086194	false	open	false	35		2017-05-31T06:43:45Z	2017-06-01T18:01:55Z		Strange exit after updated to node 8.0.0	103		
 13326	6447530	false	open	false	0		2017-05-31T07:54:26Z	2017-05-31T07:54:26Z		[8.0.0] v8.Serializer crashes on bad input	81		
 13327	2174968	true	open	false			2017-05-31T08:05:48Z	2017-06-03T06:31:48Z		test: add coverage for AsyncResource constructor	32		
-13328	5807322	true	open	false			2017-05-31T08:15:22Z	2017-05-31T14:08:12Z		test: test async-hook triggerId invariant	71		
+13328	5807322	true	open	false	2		2017-05-31T08:15:22Z	2017-06-03T10:41:50Z		test: test async-hook triggerId invariant	71		
 13329	52195	true	open	false	1		2017-05-31T08:37:04Z	2017-05-31T11:59:39Z		stream, doc: resume a stream after pipe() and unpipe()	46		
 13330	17704638	true	open	false	0		2017-05-31T11:42:25Z	2017-06-01T08:45:41Z		win, doc: document per-drive current working dir	36		
 13331	1665373	false	open	false	6		2017-05-31T12:06:32Z	2017-05-31T16:06:38Z		Project creation failed when is vs2017 argument used	341		
@@ -6795,9 +6795,9 @@
 13362	1538624	true	open	false			2017-06-01T06:38:02Z	2017-06-03T04:42:02Z		url, i18n: update IDNA handling	60		
 13363	2352663	true	open	false			2017-06-01T07:58:13Z	2017-06-01T09:03:56Z		tools: fix order of ESLint rules	20		
 13364	403268	false	open	false	0		2017-06-01T08:02:31Z	2017-06-01T08:02:31Z		util.promisify custom implementation of child_process.exec throws away stdout and stderr in case of error	116		
-13365	1716463	true	open	false	0	0	2017-06-01T08:13:56Z	2017-06-01T08:13:56Z		doc: add require modules in url.md	52		
+13365	1716463	true	open	false	0		2017-06-01T08:13:56Z	2017-06-03T10:45:12Z		doc: add require modules in url.md	52		
 13366	860364	false	closed	false	8		2017-06-01T10:40:09Z	2017-06-01T12:18:04Z	2017-06-01T11:34:53Z	await syntax problem	88		
-13367	1442575	true	open	false	52		2017-06-01T11:33:57Z	2017-06-03T09:23:07Z		async_hooks: use parent promise as triggerId in init hook	106		
+13367	1442575	true	open	false			2017-06-01T11:33:57Z	2017-06-03T10:54:19Z		async_hooks: use parent promise as triggerId in init hook	106		
 13368	7678348	false	open	false	1		2017-06-01T12:01:12Z	2017-06-01T16:23:45Z		Add an easy way to start a TLS communication on top of a plain *server side* Socket	204		
 13369	289174	true	closed	false	1	5	2017-06-01T12:28:08Z	2017-06-02T22:23:21Z	2017-06-02T22:23:21Z	[async_wrap] call destroy hooks on uv_timer_t	202	289174	2017-06-02T22:23:21Z
 13370	52195	true	open	false	11		2017-06-01T13:47:19Z	2017-06-01T18:27:55Z		zlib: fix inheritance of DeflateRaw without classes	43		
@@ -6861,6 +6861,6 @@
 13428	17607	true	open	false			2017-06-03T02:33:34Z	2017-06-03T05:44:58Z		test: rearrange inspector headers into convention	43		
 13429	1829515	false	open	false	2		2017-06-03T05:18:18Z	2017-06-03T09:32:10Z		"Error ""Implement me. Unknown stream file type!"" when running from PHP under Windows"	118		
 13430	17592563	false	open	false	2		2017-06-03T06:31:12Z	2017-06-03T09:21:00Z		Code question	44		
-13431	4629413	false	open	false	0		2017-06-03T08:50:39Z	2017-06-03T09:19:13Z		EINVAL during syscall=connect	67		
+13431	4629413	false	open	false	3		2017-06-03T08:50:39Z	2017-06-03T10:31:37Z		EINVAL during syscall=connect	67		
 13432	52195	true	open	false	0	0	2017-06-03T09:28:58Z	2017-06-03T09:28:58Z		doc,stream: clarify 'data', pipe() and 'readable'	52		
 13433	28961025	false	open	false	0		2017-06-03T09:50:29Z	2017-06-03T09:50:29Z		Error with a node steam bot 	100		
