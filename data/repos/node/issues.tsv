@@ -410,7 +410,7 @@
 5637	41373	false	closed	false	3		2016-03-10T02:42:07Z	2016-10-12T10:43:45Z	2016-10-12T10:43:45Z	execFile hangs when child process exits, but has disowned children	103		
 5656	495647	true	open	false	6		2016-03-11T07:32:35Z	2017-02-28T23:17:43Z		 Refactor mac installer (built on #2571)	312		
 5659	15952	false	closed	false	22		2016-03-11T16:00:53Z	2016-07-22T20:01:30Z	2016-06-30T17:08:41Z	repl: useGlobal docs and code mismatch	127		
-5679	60294	false	closed	false	5		2016-03-12T23:44:00Z	2017-06-03T19:05:28Z	2017-06-03T11:51:30Z	VM context object silently fails on Object.defineProperty	203		
+5679	60294	false	open	false	7		2016-03-12T23:44:00Z	2017-06-04T01:06:18Z		VM context object silently fails on Object.defineProperty	203		
 5687	1699593	false	closed	false	8		2016-03-13T18:58:57Z	2016-08-01T12:36:42Z	2016-03-13T19:12:46Z	Promise.all is not a function	77		
 5691	2993861	false	open	false	17		2016-03-13T21:08:30Z	2016-10-26T10:43:51Z		Microtask queue is not flushed when promises are fulfilled in C++	107		
 5692	2993861	false	closed	false	3		2016-03-13T21:55:43Z	2017-05-30T04:36:21Z	2017-05-30T04:36:21Z	docs: Document `MakeCallback`	17		
@@ -6144,7 +6144,7 @@
 12709	2512748	true	closed	false	5	0	2017-04-27T22:29:06Z	2017-05-11T19:38:00Z	2017-05-11T19:38:00Z	src: make SIGPROF message a real warning	37	2512748	2017-05-11T19:38:00Z
 12710	439929	true	open	false	11		2017-04-28T00:16:21Z	2017-05-29T14:34:34Z		doc: graduate WHATWG URL from Experimental	64		
 12711	718899	true	closed	false	2		2017-04-28T00:34:00Z	2017-05-01T22:58:24Z	2017-05-01T22:58:24Z	tools: require function declarations	125		
-12712	96947	true	open	false	23		2017-04-28T02:22:53Z	2017-06-03T23:44:00Z		[WIP] util: add util.callbackify()	140		
+12712	96947	true	open	false	24		2017-04-28T02:22:53Z	2017-06-04T01:10:16Z		[WIP] util: add util.callbackify()	140		
 12713	718899	true	closed	false	4		2017-04-28T02:48:45Z	2017-04-29T03:31:06Z	2017-04-28T23:21:15Z	wip: test: make regression test reliable	31		
 12714	5886475	true	closed	false	2		2017-04-28T03:08:52Z	2017-05-03T02:45:53Z	2017-05-03T02:45:53Z	test: increase coverage of buffer	45		
 12715	2343630	true	closed	false	1		2017-04-28T03:12:25Z	2017-05-07T21:05:23Z	2017-05-07T21:05:23Z	test: remove common.PORT in test tls ticket cluster	40		
@@ -6857,17 +6857,17 @@
 13423	718899	true	open	false			2017-06-02T23:30:14Z	2017-06-03T17:44:14Z		doc: emphasize Collaborators in GOVERNANCE.md	74		
 13424	7902626	true	open	false	0	0	2017-06-03T00:04:43Z	2017-06-03T00:04:43Z		doc: add callback function signatures in fs.md	39		
 13425	494055	false	open	false	0		2017-06-03T00:11:46Z	2017-06-03T12:08:54Z		Windows REPL resets text color to white after output instead of resetting to the previous foreground color (e.g. grey)	55		
-13426	47413	true	open	false	3		2017-06-03T00:41:15Z	2017-06-03T22:16:46Z		assert: fix deepEqual similar sets and maps bug	56		
-13427	816527	false	open	false	4		2017-06-03T00:42:09Z	2017-06-03T22:25:32Z		async_hooks.currentId() sometimes reports the wrong id during PromiseReactionJob	198		
+13426	47413	true	open	false	4		2017-06-03T00:41:15Z	2017-06-04T01:53:53Z		assert: fix deepEqual similar sets and maps bug	56		
+13427	816527	false	open	false	5		2017-06-03T00:42:09Z	2017-06-04T01:05:17Z		async_hooks.currentId() sometimes reports the wrong id during PromiseReactionJob	198		
 13428	17607	true	open	false	1		2017-06-03T02:33:34Z	2017-06-03T16:45:08Z		test: rearrange inspector headers into convention	43		
-13429	1829515	false	open	false	10		2017-06-03T05:18:18Z	2017-06-03T20:19:04Z		"Error ""Implement me. Unknown stream file type!"" when running from PHP under Windows"	118		
+13429	1829515	false	open	false	10		2017-06-03T05:18:18Z	2017-06-04T01:22:58Z		"Error ""Implement me. Unknown stream file type!"" when running from PHP under Windows"	118		
 13430	17592563	false	open	false	2		2017-06-03T06:31:12Z	2017-06-03T09:21:00Z		Code question	44		
 13431	4629413	false	open	false	3		2017-06-03T08:50:39Z	2017-06-03T14:46:45Z		EINVAL during syscall=connect	67		
 13432	52195	true	open	false			2017-06-03T09:28:58Z	2017-06-03T18:18:33Z		doc,stream: clarify 'data', pipe() and 'readable'	52		
 13433	28961025	false	open	false	0		2017-06-03T09:50:29Z	2017-06-03T09:50:29Z		Error with a node steam bot 	100		
 13434	988441	true	open	false	0	0	2017-06-03T11:15:46Z	2017-06-03T11:15:46Z		repl: remove unused function convertToContext	42		
 13435	1092216	false	open	false	0		2017-06-03T14:40:41Z	2017-06-03T14:40:41Z		passing socket from master to worker causes a timeout issue where socket is null.	133		
-13436	3109072	true	open	false	2		2017-06-03T16:40:50Z	2017-06-03T22:58:44Z		(v7.x backport) crypto: add sign/verify support for RSASSA-PSS	130		
+13436	3109072	true	open	false	3		2017-06-03T16:40:50Z	2017-06-04T02:04:25Z		(v7.x backport) crypto: add sign/verify support for RSASSA-PSS	130		
 13437	816527	false	open	false	3		2017-06-03T17:17:01Z	2017-06-04T00:09:31Z		async_hooks does not currently provide a way to track causality for a PromiseReactionJob	261		
 13438	988441	false	open	false	0		2017-06-03T17:23:36Z	2017-06-03T17:23:36Z		Requiring non-existent module while in debugger hard crashes	50		
 13439	2842176	true	open	false	3		2017-06-03T17:31:31Z	2017-06-03T20:13:10Z		test: add hijackStdout and hijackStderr	41		
@@ -6876,4 +6876,4 @@
 13442	12400507	true	open	false			2017-06-03T20:15:46Z	2017-06-03T21:37:48Z		doc: document switchover from measured bytes to chars after setEncoding	49		
 13443	718899	true	open	false	0	0	2017-06-03T20:34:32Z	2017-06-03T20:34:32Z		test: refactor test-dgram-oob-buffer	47		
 13444	96947	false	open	false	2		2017-06-03T20:46:17Z	2017-06-03T23:57:55Z		"test: `common.skip` should not throw ""Mismatched function calls"""	129		
-13445	143744	false	open	false	0		2017-06-04T00:57:52Z	2017-06-04T00:57:52Z		Node v8 4-5x slower than previous versions	78		
+13445	143744	false	open	false	0		2017-06-04T00:57:52Z	2017-06-04T02:00:14Z		Node v8 4-5x slower than previous versions	199		
