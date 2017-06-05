@@ -5611,7 +5611,7 @@
 12175	432351	true	closed	false	3		2017-04-03T06:12:44Z	2017-04-18T23:42:52Z	2017-04-05T06:32:50Z	build: add checks for openssl configure options	85		
 12176	432351	true	closed	false	2		2017-04-03T06:24:24Z	2017-04-05T06:25:11Z	2017-04-05T06:25:11Z	build: make configure print statements consistent	71		
 12177	374012	false	open	false	0		2017-04-03T06:38:53Z	2017-05-27T22:55:16Z		Type confusion bugs in process_wrap.cc.	77		
-12178	374012	false	open	false	2		2017-04-03T06:41:08Z	2017-04-09T07:12:11Z		Type confusion bug in HTTP parser	89		
+12178	374012	false	closed	false	4		2017-04-03T06:41:08Z	2017-06-05T21:14:48Z	2017-06-05T21:14:48Z	Type confusion bug in HTTP parser	89		
 12179	374012	false	open	false	5		2017-04-03T06:43:39Z	2017-04-12T21:10:44Z		Type confusion bug in WriteFloatGeneric	71		
 12181	3109072	true	closed	false	9		2017-04-03T10:09:25Z	2017-05-15T20:36:57Z	2017-04-14T21:47:53Z	doc: path functions ignore trailing slashes	42		
 12182	2931196	true	closed	false	11		2017-04-03T11:14:08Z	2017-04-07T08:01:29Z	2017-04-05T02:53:13Z	Implement assert.isInstanceOf()	69		
@@ -5720,7 +5720,7 @@
 12285	15850680	false	open	false	17		2017-04-08T17:13:25Z	2017-04-08T20:18:32Z		Child_process assertion failed	195		
 12286	54666	true	closed	false	1		2017-04-08T18:54:05Z	2017-05-15T20:40:57Z	2017-04-14T22:06:27Z	buffer: use slightly faster NaN check	63		
 12287	718899	true	closed	false	1		2017-04-09T02:45:42Z	2017-04-12T20:08:48Z	2017-04-12T20:08:48Z	tools: replace custom assert.fail lint rule	38		
-12288	6447530	true	open	false	32		2017-04-09T10:35:02Z	2017-06-05T16:45:00Z		http_parser: assert on incoming argument's type	53		
+12288	6447530	true	closed	false	36	51	2017-04-09T10:35:02Z	2017-06-05T21:15:25Z	2017-06-05T21:15:25Z	http_parser: assert on incoming argument's type	53		
 12289	1431799	false	closed	false	5		2017-04-09T14:04:06Z	2017-05-21T19:39:11Z	2017-05-21T19:39:11Z	Code example in the docs of Error.captureStackTrace needs better wording	211		
 12290	4044581	true	closed	false	1		2017-04-09T14:34:22Z	2017-04-11T09:47:23Z	2017-04-11T09:47:23Z	test: fix allocUnsafe uninitialized buffer check	61		
 12291	10393198	false	closed	false	8		2017-04-09T16:44:34Z	2017-04-11T09:36:38Z	2017-04-11T09:36:38Z	doc: are `os.uptime()` returned type and remark correct?	51		
@@ -6568,7 +6568,7 @@
 13134	4923335	true	open	false	0	0	2017-05-20T22:10:26Z	2017-05-20T22:10:26Z		doc: fix incorrect keyboard shortcut	52		
 13135	4923335	true	open	false	1		2017-05-20T23:15:16Z	2017-05-23T17:59:13Z		doc: improve formatting of STYLE_GUIDE.md	31		
 13136	1587282	true	open	false	0		2017-05-21T04:35:47Z	2017-05-21T05:36:37Z		doc: update repo url in license file	51		
-13137	2842176	true	open	false	22		2017-05-21T10:11:47Z	2017-06-05T16:15:49Z		dns: add resolveAny support	107		
+13137	2842176	true	open	false	23		2017-05-21T10:11:47Z	2017-06-05T21:49:25Z		dns: add resolveAny support	107		
 13138	10393198	true	closed	false	0		2017-05-21T10:26:41Z	2017-05-24T00:51:06Z	2017-05-24T00:51:06Z	doc: update code example for Windows in stream.md	103		
 13139	1442575	false	closed	false	9		2017-05-21T13:34:46Z	2017-05-21T18:25:11Z	2017-05-21T18:25:10Z	Questions: will nodejs expose SetPromiseHook of V8 as javascript API in the future?	88		
 13140	1086596	false	closed	false	1		2017-05-21T13:59:05Z	2017-05-23T09:51:46Z	2017-05-21T14:09:36Z	Array of one item is not truly non-empty!	307		
@@ -6604,7 +6604,7 @@
 13170	1891017	false	open	false	8		2017-05-23T14:29:52Z	2017-05-24T14:17:27Z		HTTPS Server crashing randomly (With solution)	108		
 13171	2512748	true	closed	false	1	1	2017-05-23T15:53:47Z	2017-05-26T16:24:46Z	2017-05-26T16:24:46Z	test: add coverage for socket write after close	50	2512748	2017-05-26T16:24:46Z
 13172	17607	true	closed	false	6		2017-05-23T16:14:31Z	2017-05-30T21:44:11Z	2017-05-25T16:21:09Z	src: allow --tls-cipher-list in NODE_OPTIONS	33		
-13173	96947	true	open	false			2017-05-23T16:17:45Z	2017-06-02T21:47:53Z		fs: expose Stats times as Numbers	59		
+13173	96947	true	open	false			2017-05-23T16:17:45Z	2017-06-05T21:35:23Z		fs: expose Stats times as Numbers	59		
 13174	899444	true	closed	false	1		2017-05-23T17:58:56Z	2017-05-25T18:02:34Z	2017-05-25T18:02:34Z	src: make StreamBase::GetAsyncWrap pure virtual	45		
 13175	1485909	true	closed	false	6		2017-05-23T19:19:23Z	2017-05-26T08:40:18Z	2017-05-26T08:40:18Z	deps: cherry-pick 6803eef from V8 upstream	93		
 13176	899444	false	closed	false	1		2017-05-23T21:10:27Z	2017-05-26T16:00:47Z	2017-05-26T16:00:47Z	What does SecureContext::EnableTicketKeyCallback do?	86		
@@ -6753,7 +6753,7 @@
 13319	9373002	true	open	false	5		2017-05-30T22:09:51Z	2017-06-01T21:59:30Z		doc: remove 'you' from writing-tests.md	54		
 13320	1832800	false	closed	false	4		2017-05-30T23:00:41Z	2017-06-05T16:38:24Z	2017-06-05T16:38:24Z	Inspector hangs if try to call from Console	48		
 13321	17607	true	closed	false	5		2017-05-30T23:46:16Z	2017-06-02T01:33:48Z	2017-06-01T23:05:27Z	inspector: refactor to rename and comment methods	133		
-13322	54666	true	open	false	5		2017-05-31T01:40:20Z	2017-06-02T03:14:52Z		stream,zlib: performance improvements	353		
+13322	54666	true	open	false	7		2017-05-31T01:40:20Z	2017-06-05T21:19:57Z		stream,zlib: performance improvements	353		
 13323	690661	true	closed	false	1		2017-05-31T05:08:55Z	2017-05-31T07:38:29Z	2017-05-31T07:38:29Z	doc: fix typos in n-api.md	44		
 13324	432351	true	closed	false	3		2017-05-31T06:05:55Z	2017-06-02T06:32:57Z	2017-06-02T06:32:57Z	test: check inspector support in test/inspector	72		
 13325	1086194	false	closed	false	37		2017-05-31T06:43:45Z	2017-06-03T20:41:12Z	2017-06-03T20:41:12Z	Strange exit after updated to node 8.0.0	103		
@@ -6807,7 +6807,7 @@
 13373	96947	true	open	false	17		2017-06-01T17:08:14Z	2017-06-03T20:38:02Z		test: fix test-inspector-port-zero-cluster	34		
 13374	439929	true	closed	false	4		2017-06-01T18:27:23Z	2017-06-05T17:59:11Z	2017-06-05T17:59:11Z	zlib: revert back to Functions	70		
 13375	96947	true	closed	false	9	2	2017-06-01T19:15:49Z	2017-06-01T22:25:23Z	2017-06-01T22:25:23Z	test: test-inspector-port-zero-cluster flaky	32		
-13376	3109072	false	open	false	5		2017-06-01T20:56:57Z	2017-06-02T11:38:13Z		test-module-loading-error fails on Windows with MUI set to a non-English language	208		
+13376	3109072	false	closed	false	9		2017-06-01T20:56:57Z	2017-06-05T21:24:10Z	2017-06-05T21:24:10Z	test-module-loading-error fails on Windows with MUI set to a non-English language	208		
 13377	9373002	false	closed	false	16		2017-06-01T21:41:44Z	2017-06-02T22:15:56Z	2017-06-02T22:15:56Z	Intermittent failure in parallel/test-fs-watchfile on AIX	35		
 13378	96947	true	open	false	9		2017-06-01T21:44:52Z	2017-06-02T20:05:49Z		build,windows: merge test suite groups	46		
 13379	10393198	true	open	false	0	0	2017-06-01T22:06:08Z	2017-06-01T22:06:08Z		doc: add async_hooks, n-api to _toc.md and all.md	28		
@@ -6824,12 +6824,12 @@
 13390	15943089	true	open	false	2		2017-06-02T09:58:37Z	2017-06-03T14:27:35Z		test: pass env vars through to test-benchmark-http	51		
 13391	1561682	false	open	false	5		2017-06-02T10:52:34Z	2017-06-05T09:34:26Z		Http connections aborted after 5s / keepAliveTimeout 	460		
 13392	7447159	false	open	false	0		2017-06-02T11:43:06Z	2017-06-02T11:43:06Z		NodeJs v8.0.0 build error in v8/src/api.cc, Do you forget to return the value?	78		
-13393	96947	true	open	false			2017-06-02T11:57:09Z	2017-06-04T00:57:10Z		test,module: make message check MUI dependent	43		
+13393	96947	true	open	false	4		2017-06-02T11:57:09Z	2017-06-05T21:23:49Z		test,module: make message check MUI dependent	43		
 13394	1561682	true	closed	false	3		2017-06-02T12:02:49Z	2017-06-04T23:20:38Z	2017-06-04T23:20:38Z	doc: add missing backticks to doc/api/tls.md	24		
 13395	7088631	false	open	false	0		2017-06-02T12:50:05Z	2017-06-02T12:50:05Z		npm set wrong file ownership when installing global modules with sudo	69		
 13396	988441	true	closed	false	0	0	2017-06-02T12:53:43Z	2017-06-02T13:18:39Z	2017-06-02T13:18:39Z	build: fix typo	14		
 13397	34695	true	open	false	0	0	2017-06-02T13:03:58Z	2017-06-02T13:03:58Z		(backport 6.x) crypto: clear err stack after ECDH::BufferToPoint	11		
-13398	988441	false	open	false	0		2017-06-02T13:05:12Z	2017-06-02T15:24:10Z		Unable to build with VS2017 after building with VS2015	1657		
+13398	988441	false	open	false	1		2017-06-02T13:05:12Z	2017-06-05T21:47:37Z		Unable to build with VS2017 after building with VS2015	1657		
 13399	34695	true	open	false	0	0	2017-06-02T13:30:58Z	2017-06-02T13:30:58Z		(backport 4.x) crypto: clear err stack after ECDH::BufferToPoint	12		
 13400	10393198	true	closed	false	12		2017-06-02T13:38:35Z	2017-06-05T13:49:03Z	2017-06-05T13:49:03Z	doc: fix nits in code examples of async_hooks.md	49		
 13401	60258	false	closed	false	2		2017-06-02T13:48:25Z	2017-06-02T14:37:33Z	2017-06-02T14:37:33Z	node-v8.0.0  make check - no such file or directory, open '/home/stens/src/node-v8.0.0/deps/v8/test/mjsunit/instanceof.js'	241		
@@ -6898,7 +6898,7 @@
 13464	732222	false	open	false	0		2017-06-05T08:24:04Z	2017-06-05T08:24:04Z		runInContext breaks node process	191		
 13465	21218718	false	open	false	24		2017-06-05T08:43:31Z	2017-06-05T15:33:15Z		Error when writing huge of content to a file json	80		
 13466	275871	true	open	false			2017-06-05T08:59:45Z	2017-06-05T12:17:54Z		doc: update minimum g++ version to 4.9.4	94		
-13467	899444	true	open	false	1		2017-06-05T10:02:40Z	2017-06-05T12:34:42Z		buffer: expose `String::kMaxLength`	62		
+13467	899444	true	open	false			2017-06-05T10:02:40Z	2017-06-05T21:34:07Z		buffer: expose `String::kMaxLength`	62		
 13468	13941347	false	open	false	4		2017-06-05T10:10:50Z	2017-06-05T16:49:47Z		fileNameWithPrefix and fileNameWithPostfix	47		
 13469	557590	false	open	false	2		2017-06-05T10:29:10Z	2017-06-05T16:17:12Z		Documentation mismatch for N-API structures	140		
 13470	731796	false	open	false	0		2017-06-05T11:19:35Z	2017-06-05T11:19:35Z		Unix socket in HTTPS causes cert error even when `rejectUnauthorized` is off	134		
@@ -6906,7 +6906,7 @@
 13472	3109072	true	open	false	7		2017-06-05T12:15:08Z	2017-06-05T15:03:01Z		net: use rest parameters instead of arguments	50		
 13473	432351	true	open	false	0	0	2017-06-05T12:18:42Z	2017-06-05T12:18:42Z		src: make IsConstructCall checks consistent	54		
 13474	52195	true	open	false			2017-06-05T14:48:28Z	2017-06-05T19:51:10Z		fs: remove useless bind()	39		
-13475	439929	false	open	false	0		2017-06-05T15:30:08Z	2017-06-05T15:30:08Z		8.1.0 Tracking Issue	57		
+13475	439929	false	open	false	0		2017-06-05T15:30:08Z	2017-06-05T21:18:42Z		8.1.0 Tracking Issue	57		
 13476	25031476	true	open	false			2017-06-05T16:17:51Z	2017-06-05T18:17:42Z		errors,tls_wrap: migrate to use internal/errors.js	37		
 13477	1941275	false	open	false	0		2017-06-05T16:26:31Z	2017-06-05T16:26:31Z		Debugger doesn't listen on IPv6 addresses	44		
 13478	287917	true	open	false	2		2017-06-05T17:22:58Z	2017-06-05T19:26:39Z		inspector: perform DNS lookup for host	37		
@@ -6914,4 +6914,6 @@
 13480	718899	true	open	false	0	0	2017-06-05T18:23:52Z	2017-06-05T18:23:52Z		test: refactor domain tests	47		
 13481	17607	true	open	false	1		2017-06-05T19:37:06Z	2017-06-05T20:05:13Z		lib: return this from net.Socket.end()	32		
 13482	910691	true	open	false			2017-06-05T19:54:02Z	2017-06-05T20:24:14Z		build: remove duplicated code	135		
-13483	439929	true	open	false	0	0	2017-06-05T20:31:20Z	2017-06-05T20:31:20Z		8.1.0 Proposal	1053		
+13483	439929	true	open	false	3		2017-06-05T20:31:20Z	2017-06-05T21:04:34Z		8.1.0 Proposal	1053		
+13484	6251703	true	open	false	0	0	2017-06-05T21:33:49Z	2017-06-05T21:33:49Z		"doc: fix typo ""ndapi"" in n-api.md"	26		
+13485	96947	true	open	false	0	0	2017-06-05T21:46:27Z	2017-06-05T21:46:27Z		build,windows: check for VS version and arch	27		
