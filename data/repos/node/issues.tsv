@@ -60,10 +60,11 @@
 1716	1162160	false	open	false	26		2015-05-16T17:56:53Z	2016-11-18T15:05:49Z		Implement console.group	90		
 1723	3936867	false	closed	false	8		2015-05-17T19:23:22Z	2017-03-12T21:41:25Z	2015-05-18T22:02:23Z	"""this"" is not defined in constructor method of child class"	137		
 1741	11692818	false	open	false	18		2015-05-20T08:57:29Z	2016-08-10T14:06:26Z		Why does node/io.js hang when printing to the console inside a loop?	155		
+1746	52195	false	closed	false	5		2015-05-20T16:02:46Z	2017-06-06T13:14:05Z	2017-06-06T13:14:05Z	[streams] Releasing write() callbacks on error	154		
 1765	900690	false	closed	false	9		2015-05-22T09:03:01Z	2016-07-06T06:54:28Z	2016-07-06T06:54:28Z	Windows: fs.realpathSync() adds trailing slash for windows share	68		
 1788	1309053	false	closed	false	22		2015-05-24T23:32:23Z	2017-05-31T12:43:25Z	2017-05-30T04:12:45Z	Debug process didn't close after finish debugging	74		
 1802	744035	false	closed	false	12		2015-05-26T21:22:12Z	2017-05-01T19:37:45Z	2017-05-01T19:37:45Z	url: parse() fails if auth contain a colon or ampersand	163		
-1834	275871	false	open	false	11		2015-05-29T12:01:45Z	2017-04-10T08:38:00Z		fs / streams: file descriptor leak on connection abort	142		
+1834	275871	false	open	false	12		2015-05-29T12:01:45Z	2017-06-06T13:25:52Z		fs / streams: file descriptor leak on connection abort	142		
 1843	54666	true	closed	false	71		2015-05-30T08:25:30Z	2016-08-06T07:34:31Z	2016-08-06T07:34:31Z	dns: add new DNS resolver and set it as default	22		
 1860	407189	false	closed	false	21		2015-06-01T10:39:15Z	2016-11-26T02:26:04Z	2016-11-09T01:55:33Z	Plans on incorporating BoringSSL	115		
 1873	291301	false	open	false	16		2015-06-02T18:58:34Z	2017-02-26T22:01:16Z		http.OutgoingMessage headers API	78		
@@ -152,7 +153,7 @@
 2977	1186693	false	closed	false	25		2015-09-21T09:19:25Z	2017-05-19T03:08:09Z	2015-10-07T05:04:03Z	V8 Changes - HasIndexedPropertiesInExternalArrayData, GetIndexedPropertiesExternalArrayDataLength, GetIndexedPropertiesExternalArrayData no longer available - what to use instead?	80		
 2982	170023	true	closed	false	21		2015-09-21T14:10:33Z	2017-05-15T15:36:49Z	2017-03-17T21:03:28Z	readline: add option to stop duplicates in history	161		
 2985	6473565	false	closed	false	9		2015-09-21T17:01:24Z	2017-05-29T09:10:30Z	2015-09-22T19:44:46Z	Can't write to child_process.spawn stdin	37		
-2994	708850	false	open	false	9		2015-09-22T04:48:17Z	2016-09-08T23:20:56Z		Need a way to detect end of stream on custom Writable Streams implementing _write	78		
+2994	708850	false	closed	false	9		2015-09-22T04:48:17Z	2017-06-06T13:18:36Z	2017-06-06T13:18:36Z	Need a way to detect end of stream on custom Writable Streams implementing _write	78		
 3006	914122	false	closed	false	46		2015-09-22T15:57:31Z	2017-02-15T10:16:21Z	2016-03-22T06:28:03Z	Node.js doesn't run as tty on windows / cygwin	33		
 3009	112555	false	closed	false	13		2015-09-22T19:15:53Z	2016-11-26T11:23:43Z	2016-04-09T05:21:32Z	Sending a body with a GET request using http.request cannot be received using http.server	160		
 3020	577345	false	open	false	15		2015-09-23T08:25:13Z	2017-05-09T23:09:12Z		Promises allow vm.runInContext timeout to be escaped	193		
@@ -3100,7 +3101,7 @@
 9656	739813	true	closed	false	5		2016-11-17T06:35:00Z	2016-12-28T06:47:07Z	2016-12-28T06:47:07Z	doc: add Working Group revocation text	149		
 9657	1204466	true	closed	false	6		2016-11-17T07:05:43Z	2016-12-20T19:47:36Z	2016-11-30T16:01:06Z	build: Make configure file parseable on python3	43		
 9658	16486766	false	closed	false	8		2016-11-17T09:53:19Z	2017-03-17T15:08:58Z	2017-01-08T15:55:20Z	Error: Cannot find module 'internal/fs'	19		
-9659	588262	true	open	false			2016-11-17T11:00:27Z	2017-06-06T09:42:18Z		cluster: fixing debug port logic for forking workers	170		
+9659	588262	true	open	false			2016-11-17T11:00:27Z	2017-06-06T13:03:56Z		cluster: fixing debug port logic for forking workers	170		
 9660	696611	true	open	false	4		2016-11-17T12:03:15Z	2017-03-24T22:55:02Z		tools: don't build node for doc build	45		
 9661	2512748	true	closed	false	6		2016-11-17T15:20:11Z	2017-06-02T14:42:53Z	2016-11-23T20:19:56Z	buffer: empty string is not a valid encoding	68		
 9662	19831373	false	closed	false	6		2016-11-17T18:16:28Z	2017-01-08T15:53:51Z	2017-01-08T15:53:51Z	Most Urgent      npm can't work at all	125		
@@ -6568,7 +6569,7 @@
 13134	4923335	true	open	false	0	0	2017-05-20T22:10:26Z	2017-05-20T22:10:26Z		doc: fix incorrect keyboard shortcut	52		
 13135	4923335	true	open	false	1		2017-05-20T23:15:16Z	2017-05-23T17:59:13Z		doc: improve formatting of STYLE_GUIDE.md	31		
 13136	1587282	true	open	false	0		2017-05-21T04:35:47Z	2017-05-21T05:36:37Z		doc: update repo url in license file	51		
-13137	2842176	true	open	false	23		2017-05-21T10:11:47Z	2017-06-05T21:49:25Z		dns: add resolveAny support	107		
+13137	2842176	true	open	false			2017-05-21T10:11:47Z	2017-06-06T13:40:21Z		dns: add resolveAny support	107		
 13138	10393198	true	closed	false	0		2017-05-21T10:26:41Z	2017-05-24T00:51:06Z	2017-05-24T00:51:06Z	doc: update code example for Windows in stream.md	103		
 13139	1442575	false	closed	false	9		2017-05-21T13:34:46Z	2017-05-21T18:25:11Z	2017-05-21T18:25:10Z	Questions: will nodejs expose SetPromiseHook of V8 as javascript API in the future?	88		
 13140	1086596	false	closed	false	1		2017-05-21T13:59:05Z	2017-05-23T09:51:46Z	2017-05-21T14:09:36Z	Array of one item is not truly non-empty!	307		
@@ -6671,7 +6672,7 @@
 13237	505333	false	closed	false	4		2017-05-26T09:55:33Z	2017-05-28T15:20:48Z	2017-05-28T15:20:48Z	Late enabling of async_hooks after promise creation causes process abort	232		
 13238	5358146	true	closed	false	7		2017-05-26T10:35:14Z	2017-05-26T16:30:41Z	2017-05-26T16:30:41Z	test: name anonymous functions in timers	36		
 13239	3824055	false	open	false	8		2017-05-26T11:33:37Z	2017-06-02T22:14:35Z		Add option to break on start of specific file	57		
-13240	13809413	true	open	false	4		2017-05-26T13:13:16Z	2017-06-06T05:33:57Z		errors,tty: migrate to use internal/errors.js	46		
+13240	13809413	true	open	false	5		2017-05-26T13:13:16Z	2017-06-06T13:23:13Z		errors,tty: migrate to use internal/errors.js	46		
 13241	432351	true	closed	false	2		2017-05-26T13:22:44Z	2017-05-29T03:32:17Z	2017-05-29T03:32:17Z	crypto: return CHECK_OK in VerifyCallback	67		
 13242	899444	true	closed	false	7		2017-05-26T15:23:45Z	2017-05-28T15:19:58Z	2017-05-28T15:19:58Z	async_hooks: fix Promises with later enabled hooks	42		
 13243	899444	true	closed	false	7		2017-05-26T15:55:03Z	2017-06-03T21:11:54Z	2017-06-03T21:11:54Z	test: improve async hooks test error messages	67		
@@ -6767,7 +6768,7 @@
 13333	3761191	false	open	false	0		2017-05-31T13:36:27Z	2017-05-31T13:36:27Z		How can I detect tcp client connection error?	178		
 13334	10393198	true	closed	false	1		2017-05-31T13:58:17Z	2017-06-02T13:50:02Z	2017-06-02T13:50:02Z	doc: refine spaces in example from vm.md	49		
 13335	9373002	true	open	false	2		2017-05-31T15:55:29Z	2017-06-02T16:33:12Z		doc: update who to cc for n-api	42		
-13336	5886475	true	open	false	9		2017-05-31T16:32:33Z	2017-06-05T16:14:17Z		test: increase coverage of async_hooks	42		
+13336	5886475	true	open	false	10		2017-05-31T16:32:33Z	2017-06-06T13:10:15Z		test: increase coverage of async_hooks	42		
 13337	1523410	false	closed	false	5		2017-05-31T16:53:30Z	2017-06-01T14:06:31Z	2017-05-31T19:01:50Z	[rfc] async version causes OOM (but not sync) 	216		
 13338	176013	false	open	false	2		2017-05-31T17:00:33Z	2017-06-03T18:03:41Z		Add context option to utils.promisify() for method binding	131		
 13339	17607	false	closed	false	12		2017-05-31T17:03:06Z	2017-06-01T01:03:14Z	2017-06-01T00:38:10Z	node c++ dependency checking doesn't seem to work	117		
@@ -6874,7 +6875,7 @@
 13440	988441	true	open	false	3		2017-06-03T18:50:29Z	2017-06-03T21:29:06Z		util: add optional thisArg argument to promisify	41		
 13441	15943089	true	open	false	0	0	2017-06-03T19:45:15Z	2017-06-03T19:45:15Z		tools, test: update test-npm-package paths	41		
 13442	12400507	true	open	false			2017-06-03T20:15:46Z	2017-06-03T21:37:48Z		doc: document switchover from measured bytes to chars after setEncoding	49		
-13443	718899	true	open	false			2017-06-03T20:34:32Z	2017-06-04T15:35:03Z		test: refactor test-dgram-oob-buffer	47		
+13443	718899	true	open	false	0		2017-06-03T20:34:32Z	2017-06-06T13:46:18Z		test: refactor test-dgram-oob-buffer	47		
 13444	96947	false	open	false	5		2017-06-03T20:46:17Z	2017-06-04T04:27:44Z		"test: `common.skip` should not throw ""Mismatched function calls"""	129		
 13445	143744	false	open	false	14		2017-06-04T00:57:52Z	2017-06-06T10:39:39Z		Node v8 4-5x slower than previous versions	199		
 13446	54666	true	open	false			2017-06-04T03:39:00Z	2017-06-05T23:01:47Z		process: improve nextTick() performance	193		
@@ -6898,10 +6899,10 @@
 13464	732222	false	open	false	0		2017-06-05T08:24:04Z	2017-06-05T08:24:04Z		runInContext breaks node process	191		
 13465	21218718	false	open	false	24		2017-06-05T08:43:31Z	2017-06-05T15:33:15Z		Error when writing huge of content to a file json	80		
 13466	275871	true	open	false			2017-06-05T08:59:45Z	2017-06-05T12:17:54Z		doc: update minimum g++ version to 4.9.4	94		
-13467	899444	true	open	false	2		2017-06-05T10:02:40Z	2017-06-06T13:00:18Z		buffer: expose `String::kMaxLength`	62		
+13467	899444	true	open	false	3		2017-06-05T10:02:40Z	2017-06-06T13:45:50Z		buffer: expose `String::kMaxLength`	62		
 13468	13941347	false	closed	false	6		2017-06-05T10:10:50Z	2017-06-05T23:29:59Z	2017-06-05T23:29:59Z	fileNameWithPrefix and fileNameWithPostfix	47		
 13469	557590	false	open	false	4		2017-06-05T10:29:10Z	2017-06-05T22:38:58Z		Documentation mismatch for N-API structures	140		
-13470	731796	false	open	false	0		2017-06-05T11:19:35Z	2017-06-05T11:19:35Z		Unix socket in HTTPS causes cert error even when `rejectUnauthorized` is off	134		
+13470	731796	false	open	false	0		2017-06-05T11:19:35Z	2017-06-06T13:26:11Z		Unix socket in HTTPS causes cert error even when `rejectUnauthorized` is off	134		
 13471	16109762	false	open	false	0		2017-06-05T11:21:53Z	2017-06-05T11:21:53Z		Ubuntu Bash environment on Windows 10	86		
 13472	3109072	true	open	false	7		2017-06-05T12:15:08Z	2017-06-05T15:03:01Z		net: use rest parameters instead of arguments	50		
 13473	432351	true	open	false	0	0	2017-06-05T12:18:42Z	2017-06-05T12:18:42Z		src: make IsConstructCall checks consistent	54		
@@ -6921,10 +6922,10 @@
 13487	17535	true	open	false	0	0	2017-06-05T23:42:25Z	2017-06-05T23:42:25Z		deps: upgrade npm to 5.0.3	90		
 13488	3254987	false	open	false	0		2017-06-06T02:51:44Z	2017-06-06T03:38:26Z		Error when cross compiling for MIPS	114		
 13489	1633659	false	open	false	0		2017-06-06T05:54:47Z	2017-06-06T05:54:47Z		Error while there is no error on page (Unexpected end of JSON)	88		
-13490	505333	true	open	false			2017-06-06T08:09:18Z	2017-06-06T12:04:14Z		async_hooks: rename currentId to currentAsyncId	140		
+13490	505333	true	open	false			2017-06-06T08:09:18Z	2017-06-06T13:08:20Z		async_hooks: rename currentId to currentAsyncId	140		
 13491	3109072	true	open	false			2017-06-06T09:56:55Z	2017-06-06T11:26:18Z		doc: minor issues	104		
-13492	28342273	false	open	false	0		2017-06-06T10:36:21Z	2017-06-06T10:36:21Z		Error: Cannot find module 'dezalgo'	46		
+13492	28342273	false	open	false	1		2017-06-06T10:36:21Z	2017-06-06T13:06:59Z		Error: Cannot find module 'dezalgo'	46		
 13493	28088326	false	open	false	0		2017-06-06T11:05:47Z	2017-06-06T11:05:47Z		Error: unexpected end of file at Zlib._handle.onerror (zlib.js:370:17)	51		
 13494	24447838	true	open	false	0	0	2017-06-06T11:12:23Z	2017-06-06T11:12:23Z		"events: line #354 - comment typo. ""iff"" corrected'"	67		
 13495	15086753	false	open	false	0		2017-06-06T11:27:13Z	2017-06-06T11:27:13Z		Promise doenst return value and got undefined	211		
-13496	24447838	true	open	false	2		2017-06-06T11:39:07Z	2017-06-06T12:07:55Z		"events: - line #354 - comment typo. ""iff"" corrected"	40		
+13496	24447838	true	open	false	3		2017-06-06T11:39:07Z	2017-06-06T13:05:19Z		"events: - line #354 - comment typo. ""iff"" corrected"	41		
