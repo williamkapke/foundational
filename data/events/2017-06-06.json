@@ -1,10 +1,10 @@
 {
-  "words": 13511,
-  "comments": 88,
+  "words": 14320,
+  "comments": 103,
   "prs": {
-    "opened": 9,
-    "closed": 9,
-    "words": 13511
+    "opened": 10,
+    "closed": 13,
+    "words": 14320
   },
   "issues": {
     "opened": 0,
@@ -17,7 +17,12 @@
     "Intl": {"open":20},
     "LTS": {"open":30},
     "NG": {"open":27},
-    "TSC": {"open":41},
+    "TSC": {
+      "275": {"comments":1,"words":69,"pr":true},
+      "open": 41,
+      "words": 69,
+      "comments": 1
+    },
     "abi-stable-node": {
       "250": {"comments":1,"words":51,"pr":true},
       "open": 33,
@@ -103,18 +108,22 @@
     "logos": {"open":2},
     "nan": {"open":36},
     "node": {
-      "9659": {"comments":1,"words":26,"pr":true},
+      "9378": {"comments":0,"words":107,"closed":"2017-06-06T09:22:03Z","closer":"17704638","pr":true},
+      "9659": {"comments":3,"words":39,"pr":true},
       "11666": {"comments":2,"words":37,"pr":true},
       "12712": {"comments":2,"words":7,"pr":true},
       "12902": {"comments":1,"words":23,"pr":true},
+      "13235": {"comments":2,"words":19,"pr":true},
       "13240": {"comments":1,"words":17,"pr":true},
-      "13263": {"comments":2,"words":88,"pr":true},
+      "13263": {"comments":3,"words":114,"pr":true},
       "13322": {"comments":2,"words":6,"pr":true},
+      "13330": {"comments":2,"words":51,"pr":true,"closed":"2017-06-06T09:20:52Z","closer":"17704638"},
       "13363": {"comments":1,"words":23,"pr":true,"closed":"2017-06-06T08:20:17Z","closer":"2352663"},
       "13373": {"comments":1,"words":2,"pr":true},
+      "13402": {"comments":1,"words":213,"pr":true,"closed":"","closer":"275871"},
       "13411": {"comments":2,"words":8,"pr":true},
       "13439": {"comments":1,"words":20,"pr":true},
-      "13445": {"comments":7,"words":455,"pr":true},
+      "13445": {"comments":9,"words":519,"pr":true},
       "13449": {"comments":1,"words":566,"pr":true,"closed":"2017-06-06T03:57:15Z","closer":"6447530"},
       "13460": {"comments":2,"words":44,"pr":true,"closed":"2017-06-06T02:17:56Z","closer":"2512748"},
       "13461": {"comments":1,"words":68,"pr":true},
@@ -127,11 +136,12 @@
       "13488": {"comments":1,"words":126,"opened":"2017-06-06T02:51:44Z","opener":"3254987","pr":true},
       "13489": {"comments":0,"words":176,"opened":"2017-06-06T05:54:47Z","opener":"1633659","pr":true,"closed":"","closer":"1633659"},
       "13490": {"comments":8,"words":217,"pr":true,"opened":"2017-06-06T08:09:18Z","opener":"505333"},
-      "open": 994,
-      "words": 2730,
-      "comments": 48,
-      "closed": 4,
-      "opened": 3
+      "13491": {"comments":0,"words":104,"pr":true,"opened":"2017-06-06T09:56:55Z","opener":"3109072"},
+      "open": 992,
+      "words": 3327,
+      "comments": 58,
+      "closed": 7,
+      "opened": 4
     },
     "node-addon-api": {"open":6},
     "node-addon-examples": {"open":30},
@@ -146,16 +156,21 @@
     "node-gyp": {
       "1212": {"comments":2,"words":20,"pr":true},
       "1218": {"comments":0,"words":106,"closed":"2017-06-06T04:12:37Z","closer":"627278","pr":true},
-      "1222": {"comments":0,"words":8444,"opened":"2017-06-06T08:46:05Z","opener":"24697025","pr":true},
+      "1222": {"comments":1,"words":8458,"opened":"2017-06-06T08:46:05Z","opener":"24697025","pr":true},
       "open": 248,
-      "words": 8570,
-      "comments": 2,
+      "words": 8584,
+      "comments": 3,
       "closed": 1,
       "opened": 1
     },
     "node-inspect": {"open":7},
     "node-report": {"open":14},
-    "node-v0.x-archive": {"open":583},
+    "node-v0.x-archive": {
+      "1213": {"comments":1,"words":69,"pr":true},
+      "open": 583,
+      "words": 69,
+      "comments": 1
+    },
     "node-v8": {"open":2},
     "nodejs-ar": {"open":2},
     "nodejs-bg": {"open":1},
@@ -203,13 +218,14 @@
     "nodejs-zh-CN": {"open":4},
     "nodejs-zh-TW": {"open":21},
     "nodejs.org": {
-      "1250": {"comments":1,"words":15,"pr":true},
-      "1252": {"comments":1,"words":17,"pr":true},
+      "1250": {"comments":2,"words":41,"pr":true},
+      "1252": {"comments":2,"words":51,"pr":true,"closed":"","closer":"16109762"},
       "1254": {"comments":0,"words":20,"pr":true,"opened":"2017-06-06T08:32:02Z","opener":"1587053"},
-      "open": 60,
-      "words": 52,
-      "comments": 2,
-      "opened": 1
+      "open": 59,
+      "words": 112,
+      "comments": 4,
+      "opened": 1,
+      "closed": 1
     },
     "nodejs.org-archive": {"open":12},
     "nodejs.org-new": {"open":3},
@@ -233,7 +249,8 @@
       "words": {
         "help/pulls/656#306416163": 119,
         "help/pulls/656#306416838": 64,
-        "help/pulls/656#306418569": 28
+        "help/pulls/656#306418569": 28,
+        "node/pulls/13445#306431170": 45
       }
     },
     "52195": {
@@ -333,7 +350,11 @@
       "id": "275871",
       "login": "bnoordhuis",
       "words": {
-        "build/pulls/747#306392932": 21
+        "build/pulls/747#306392932": 21,
+        "node-gyp/pulls/1222#306428297": 14,
+        "node/pulls/13263#306429367": 26,
+        "node/pulls/13235#120310679": 2,
+        "node/pulls/13235#120310537": 17
       }
     },
     "287917": {
@@ -397,7 +418,9 @@
       "id": "588262",
       "login": "mutantcornholio",
       "words": {
-        "node/pulls/9659#120272281": 26
+        "node/pulls/9659#120272281": 26,
+        "node/pulls/9659#120308066": 7,
+        "node/pulls/9659#306438371": 6
       }
     },
     "627278": {
@@ -437,7 +460,8 @@
       "login": "addaleax",
       "words": {
         "node/pulls/13490#120294146": 23,
-        "node/pulls/13490#120295652": 19
+        "node/pulls/13490#120295652": 19,
+        "TSC/pulls/275#306428455": 69
       }
     },
     "931192": {
@@ -476,6 +500,14 @@
       "words": {
         "node/pulls/12712#120288408": 3,
         "node/pulls/12712#120288443": 4
+      }
+    },
+    "1443911": {
+      "id": "1443911",
+      "login": "lpinca",
+      "words": {
+        "nodejs.org/pulls/1250#306426677": 26,
+        "nodejs.org/pulls/1252#306427900": 10
       }
     },
     "1556377": {
@@ -544,6 +576,27 @@
         "node/pulls/13460"
       ]
     },
+    "3097194": {
+      "id": "3097194",
+      "login": "Ryuno-Ki",
+      "words": {
+        "node/pulls/13402#306435756": 146,
+        "node/issues/13402": 67
+      },
+      "closed": [
+        "node/issues/13402"
+      ]
+    },
+    "3109072": {
+      "id": "3109072",
+      "login": "tniessen",
+      "words": {
+        "node/pulls/13491": 104
+      },
+      "opened": [
+        "node/pulls/13491"
+      ]
+    },
     "3254987": {
       "id": "3254987",
       "login": "unional",
@@ -563,6 +616,23 @@
       "opened": [
         "docker-node/issues/422"
       ]
+    },
+    "3973850": {
+      "id": "3973850",
+      "login": "cosmo0",
+      "words": {
+        "node/issues/9378": 107
+      },
+      "closed": [
+        "node/issues/9378"
+      ]
+    },
+    "4642698": {
+      "id": "4642698",
+      "login": "oxygen",
+      "words": {
+        "node-v0.x-archive/pulls/1213#306430703": 69
+      }
     },
     "5077086": {
       "id": "5077086",
@@ -607,7 +677,8 @@
         "node/pulls/13490#120291394": 16,
         "node/pulls/13490#120291607": 4,
         "node/pulls/13490#120291713": 4,
-        "help/pulls/656#306423070": 12
+        "help/pulls/656#306423070": 12,
+        "node/pulls/13445#306434210": 19
       },
       "opened": [
         "help/issues/656"
@@ -649,12 +720,34 @@
         "node/pulls/13475#306399030": 15
       }
     },
+    "16109762": {
+      "id": "16109762",
+      "login": "ColinMoulds",
+      "words": {
+        "nodejs.org/pulls/1252": 24
+      },
+      "closed": [
+        "nodejs.org/pulls/1252"
+      ]
+    },
     "16722535": {
       "id": "16722535",
       "login": "rnchamberlain",
       "words": {
         "llnode/pulls/92#306422414": 17
       }
+    },
+    "17704638": {
+      "id": "17704638",
+      "login": "bzoz",
+      "words": {
+        "node/pulls/13330#306430239": 3,
+        "node/pulls/13330": 36,
+        "node/pulls/13330#306435429": 12
+      },
+      "closed": [
+        "node/pulls/13330"
+      ]
     },
     "24697025": {
       "id": "24697025",
