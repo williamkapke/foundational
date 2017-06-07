@@ -271,7 +271,7 @@
 4339	439929	false	closed	false	8		2015-12-18T01:24:52Z	2017-05-30T04:22:47Z	2017-05-30T04:22:47Z	Out of date node-addon-examples	50		
 4351	1424946	false	closed	false	8		2015-12-19T06:03:34Z	2016-10-26T13:47:55Z	2016-10-26T13:47:55Z	fs.watch file matching is one character off in windows	43		
 4352	4082216	false	closed	false	7		2015-12-19T13:04:57Z	2017-02-08T09:44:17Z	2017-02-07T21:18:14Z	More detailed `fs` documentation 	81		
-4358	718899	false	closed	false	5		2015-12-19T23:44:16Z	2017-06-07T05:36:06Z	2017-02-08T01:10:41Z	Strange behavior specific to Windows 2012r2 with a single processor	298		
+4358	718899	false	closed	false	6		2015-12-19T23:44:16Z	2017-06-07T07:41:12Z	2017-02-08T01:10:41Z	Strange behavior specific to Windows 2012r2 with a single processor	298		
 4365	721814	false	closed	false	5		2015-12-20T15:25:16Z	2017-02-07T21:01:16Z	2017-02-07T21:01:15Z	Streams discussion redux	528		
 4377	399211	true	closed	false	17		2015-12-21T13:06:26Z	2016-10-03T21:15:13Z	2015-12-24T01:32:36Z	"http: 451 status code ""Unavailable For Legal Reasons"""	26		
 4394	1470592	true	closed	false	47	23	2015-12-23T03:38:39Z	2016-12-29T18:03:26Z	2016-12-29T18:03:26Z	buffer: workaround for v8 buffer.toString failure. fixes #4266	20		
@@ -6723,7 +6723,7 @@
 13288	10393198	true	closed	false	1		2017-05-29T21:33:53Z	2017-05-31T23:28:04Z	2017-05-31T23:28:04Z	doc: fix code examples in url.md	69		
 13289	28588124	false	closed	false	0		2017-05-30T06:57:16Z	2017-05-30T09:09:25Z	2017-05-30T09:09:25Z	uncaughtException, missing stack	53		
 13290	20768148	false	open	false	2		2017-05-30T07:27:51Z	2017-06-02T20:56:17Z		Your 64-bit installer defaults to Program Files x86	75		
-13291	25150721	true	open	false	0		2017-05-30T09:23:35Z	2017-06-06T18:17:20Z		errors,_stream_wrap: change _stream_wrap.js to use internal/errors.js	50		
+13291	25150721	true	open	false	1		2017-05-30T09:23:35Z	2017-06-07T07:57:46Z		errors,_stream_wrap: change _stream_wrap.js to use internal/errors.js	50		
 13292	3198918	true	closed	false	2	0	2017-05-30T10:41:01Z	2017-05-30T11:07:05Z	2017-05-30T11:07:05Z	deps: http_parser, fix a bug of double content-length checking	98		
 13293	25031476	true	closed	false	4		2017-05-30T11:24:23Z	2017-06-02T18:01:26Z	2017-06-02T18:01:26Z	errors,util: migrate to use internal/errors.js	45		
 13294	3082385	false	open	false	0		2017-05-30T11:27:14Z	2017-06-02T11:31:02Z		node --inspect devtoolsFrontendUrl using docker container IP	160		
@@ -6746,7 +6746,7 @@
 13311	393660	false	closed	false	19		2017-05-30T19:57:00Z	2017-06-01T15:42:21Z	2017-05-30T22:39:06Z	Installer puts down npm 4.5.0, not 5.	65		
 13312	718899	true	closed	false	12	7	2017-05-30T20:12:32Z	2017-06-01T22:52:37Z	2017-06-01T22:52:37Z	test: improve test-https-server-keep-alive-timeout	92		
 13313	2322305	true	closed	false	3		2017-05-30T20:22:28Z	2017-06-02T01:21:38Z	2017-06-01T22:44:32Z	Fix link in CHANGELOG	1		
-13314	7169311	false	closed	false	0		2017-05-30T20:24:57Z	2017-06-02T03:56:14Z	2017-06-02T03:56:14Z	assert: RangeError: Maximum call stack size exceeded is still present	87		
+13314	7169311	false	closed	false	0		2017-05-30T20:24:57Z	2017-06-07T07:06:45Z	2017-06-02T03:56:14Z	assert: RangeError: Maximum call stack size exceeded is still present	87		
 13315	1976777	true	closed	false	2	0	2017-05-30T21:43:22Z	2017-06-01T23:31:49Z	2017-06-01T23:31:49Z	src: add newline in --help message	78		
 13316	96150	true	open	false	2		2017-05-30T21:45:12Z	2017-06-01T22:33:00Z		fs: promisify exists correctly	132		
 13317	9373002	true	open	false	1		2017-05-30T21:49:21Z	2017-06-01T21:42:24Z		test: consolidate n-api test addons	57		
@@ -6884,7 +6884,7 @@
 13449	6447530	false	closed	false	0		2017-06-04T07:01:11Z	2017-06-06T03:57:15Z	2017-06-06T03:57:15Z	CVE-2012-5568 (slowloris) - clarify that node is not affected	554		
 13450	1280735	false	open	false	0		2017-06-04T09:17:40Z	2017-06-04T09:17:40Z		RegExp exec works randomly	182		
 13451	1056976	false	open	false	10		2017-06-04T10:40:25Z	2017-06-05T11:14:44Z		Cross compilation fails with node v8.0.0	303		
-13452	899444	true	open	false			2017-06-04T12:25:08Z	2017-06-07T00:02:41Z		async_hooks: use resource objects for Promises	120		
+13452	899444	true	open	false			2017-06-04T12:25:08Z	2017-06-07T07:20:01Z		async_hooks: use resource objects for Promises	120		
 13453	7498882	true	open	false	10		2017-06-04T16:33:59Z	2017-06-04T18:42:49Z		test: changed test2 & test3 of test-vm-timeout.js	111		
 13454	96947	false	open	false	0		2017-06-04T17:05:18Z	2017-06-04T17:05:18Z		referance issue: assert whole error messages	39		
 13455	988441	true	open	false	5		2017-06-04T17:26:48Z	2017-06-05T15:52:26Z		inspector: fix crash on exception	36		
@@ -6917,14 +6917,14 @@
 13482	910691	true	open	false	0		2017-06-05T19:54:02Z	2017-06-05T23:29:34Z		build: remove duplicated code	135		
 13483	439929	true	open	false	5		2017-06-05T20:31:20Z	2017-06-06T00:05:24Z		8.1.0 Proposal	1053		
 13484	6251703	true	open	false	2		2017-06-05T21:33:49Z	2017-06-06T18:08:11Z		"doc: fix typo ""ndapi"" in n-api.md"	26		
-13485	96947	true	open	false	7		2017-06-05T21:46:27Z	2017-06-06T22:27:07Z		build,windows: check for VS version and arch	27		
+13485	96947	true	open	false	10		2017-06-05T21:46:27Z	2017-06-07T07:03:33Z		build,windows: check for VS version and arch	27		
 13486	1240693	false	closed	false	4		2017-06-05T22:19:55Z	2017-06-05T23:02:16Z	2017-06-05T22:46:35Z	Incorrect floating point arithmetic 	40		
 13487	17535	true	open	false	1		2017-06-05T23:42:25Z	2017-06-06T18:28:40Z		deps: upgrade npm to 5.0.3	90		
 13488	3254987	false	open	false	1		2017-06-06T02:51:44Z	2017-06-07T03:34:05Z		Error when cross compiling for MIPS	114		
 13489	1633659	false	open	false	0		2017-06-06T05:54:47Z	2017-06-06T05:54:47Z		Error while there is no error on page (Unexpected end of JSON)	88		
 13490	505333	true	open	false			2017-06-06T08:09:18Z	2017-06-06T18:30:42Z		async_hooks: rename currentId to currentAsyncId	140		
 13491	3109072	true	open	false			2017-06-06T09:56:55Z	2017-06-06T18:47:21Z		doc: minor issues	104		
-13492	28342273	false	open	false	2		2017-06-06T10:36:21Z	2017-06-06T18:35:26Z		Error: Cannot find module 'dezalgo'	46		
+13492	28342273	false	open	false	4		2017-06-06T10:36:21Z	2017-06-07T07:07:19Z		Error: Cannot find module 'dezalgo'	46		
 13493	28088326	false	open	false	0		2017-06-06T11:05:47Z	2017-06-06T11:05:47Z		Error: unexpected end of file at Zlib._handle.onerror (zlib.js:370:17)	51		
 13494	24447838	true	closed	false	3		2017-06-06T11:12:23Z	2017-06-06T15:55:07Z	2017-06-06T11:16:28Z	"events: line #354 - comment typo. ""iff"" corrected'"	67		
 13495	15086753	false	open	false	0		2017-06-06T11:27:13Z	2017-06-06T11:27:13Z		Promise doenst return value and got undefined	211		
@@ -6938,7 +6938,7 @@
 13503	6395399	false	open	false	1		2017-06-06T17:49:08Z	2017-06-07T01:54:24Z		Stop using V8::External	70		
 13504	17607	true	open	false			2017-06-06T18:24:44Z	2017-06-06T22:13:07Z		src: check whether inspector is doing io	62		
 13505	2512748	true	open	false			2017-06-06T19:09:50Z	2017-06-06T21:48:39Z		https: support rejectUnauthorized for unix sockets	50		
-13506	1128607	true	open	false			2017-06-06T19:18:19Z	2017-06-07T06:34:56Z		Stream pump	84		
+13506	1128607	true	open	false	17		2017-06-06T19:18:19Z	2017-06-07T08:02:00Z		Stream pump	84		
 13507	9373002	false	open	false	0		2017-06-06T19:34:05Z	2017-06-06T19:34:05Z		parallel/test-http-client-get-url - Intermittent on OSX ?	53		
 13508	9373002	true	open	false	0	0	2017-06-06T19:34:17Z	2017-06-06T19:34:17Z		doc: fix out of date sections in n-api doc	37		
 13509	289174	true	open	false	0	0	2017-06-06T20:11:43Z	2017-06-06T20:11:43Z		[async_wrap] enable/disable `PromiseHook` depending on `kTotals`	114		
