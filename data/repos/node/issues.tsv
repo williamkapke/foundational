@@ -191,7 +191,7 @@
 3384	115237	true	open	false	25		2015-10-15T12:57:10Z	2017-03-24T22:14:43Z		module: remove require('.') with NODE_PATH compat	15		
 3402	595361	false	closed	false	202		2015-10-16T12:45:59Z	2016-12-04T15:34:28Z	2016-04-27T02:45:38Z	Don't resolve symlinks when requiring	120		
 3410	6677095	true	closed	false			2015-10-16T20:54:30Z	2016-09-23T13:18:56Z	2015-11-24T21:09:22Z	src: added big-endian check and support to UTF-16 encode	25		
-3431	1145335	false	closed	false	22		2015-10-19T07:06:43Z	2017-03-02T21:52:42Z	2015-10-20T03:03:33Z	Can not install nodejs 4 on Windows 7 64-bit	66		
+3431	1145335	false	closed	false	24		2015-10-19T07:06:43Z	2017-06-08T14:25:30Z	2015-10-20T03:03:33Z	Can not install nodejs 4 on Windows 7 64-bit	66		
 3449	333455	false	closed	false	14		2015-10-20T13:20:15Z	2017-01-09T14:20:29Z	2015-11-26T03:16:10Z	is it a bug? setting up process.env.TZ depends on order of execution.	54		
 3460	855219	false	open	false	57		2015-10-20T22:54:04Z	2016-08-01T16:52:49Z		"detect ""full-icu"" module"	95		
 3462	115237	false	closed	false	17		2015-10-21T00:03:57Z	2017-03-14T16:48:07Z	2015-10-21T16:40:43Z	btoa() and atob()	71		
@@ -233,6 +233,7 @@
 3926	498775	false	closed	false	15		2015-11-19T21:56:12Z	2017-01-09T12:03:21Z	2017-01-09T12:03:21Z	Joyent Copyright still in header of many files	29		
 3931	4813414	false	closed	false	13		2015-11-20T00:52:44Z	2016-08-03T08:53:08Z	2016-06-08T00:01:15Z	tools/doc/html.js produces invalid html	67		
 3933	40935	true	closed	false	6		2015-11-20T09:00:01Z	2017-02-28T22:59:38Z	2017-02-28T22:59:38Z	add to parent.children when module cached	0		
+3940	11842740	false	closed	false	6		2015-11-20T15:14:26Z	2017-06-08T14:38:03Z	2015-12-22T18:51:37Z	getPeerCertificate() only works once on the same host	140		
 3952	275871	false	closed	false	14		2015-11-21T11:53:25Z	2016-08-03T09:14:27Z	2016-05-17T05:41:34Z	tls: update v0.10 and v0.12 root certificates?	45		
 3959	13335501	false	closed	false	103		2015-11-21T20:40:18Z	2016-09-08T01:29:55Z	2016-08-09T22:47:09Z	Potential Licensing issues with npm	632		
 3971	275871	false	closed	false	5		2015-11-22T20:01:21Z	2016-07-15T19:25:11Z	2016-07-15T19:25:11Z	repl: show exception for out-of-range unicode escape sequence	25		
@@ -1522,7 +1523,7 @@
 8077	3254987	false	closed	false	8		2016-08-12T07:53:11Z	2016-09-23T07:43:56Z	2016-08-18T07:20:12Z	child_process.spawn does not recognize local package in Windows	111		
 8078	101553	true	open	false	3		2016-08-12T08:14:23Z	2016-08-17T12:47:14Z		deps: cherry-pick 7bd24767 from v8 upstream (v6.x)	59		
 8079	13269109	false	closed	false	6		2016-08-12T08:18:00Z	2016-08-12T14:18:50Z	2016-08-12T14:18:49Z	Illegal instruction on PowerPC 440EP	270		
-8080	350686	false	open	false	6		2016-08-12T09:30:32Z	2017-05-16T22:44:02Z		debugger: bind to random port with --inspect=0	6		
+8080	350686	false	open	false	8		2016-08-12T09:30:32Z	2017-06-08T14:23:41Z		debugger: bind to random port with --inspect=0	6		
 8081	1408578	false	closed	false	2		2016-08-12T09:55:50Z	2016-08-23T19:12:49Z	2016-08-23T19:12:49Z	security problem in debug mode	99		
 8082	16539774	false	closed	false	5		2016-08-12T11:34:30Z	2016-08-12T16:05:01Z	2016-08-12T16:05:01Z	stack overflow when returning an ES6 proxy through a promise	239		
 8083	1008760	false	closed	false	5		2016-08-12T16:33:31Z	2016-08-13T12:49:25Z	2016-08-13T12:49:25Z	addon doesn't seem to honour group membership	100		
@@ -3101,7 +3102,7 @@
 9656	739813	true	closed	false	5		2016-11-17T06:35:00Z	2016-12-28T06:47:07Z	2016-12-28T06:47:07Z	doc: add Working Group revocation text	149		
 9657	1204466	true	closed	false	6		2016-11-17T07:05:43Z	2016-12-20T19:47:36Z	2016-11-30T16:01:06Z	build: Make configure file parseable on python3	43		
 9658	16486766	false	closed	false	8		2016-11-17T09:53:19Z	2017-03-17T15:08:58Z	2017-01-08T15:55:20Z	Error: Cannot find module 'internal/fs'	19		
-9659	588262	true	open	false	95		2016-11-17T11:00:27Z	2017-06-08T08:51:00Z		cluster: fixing debug port logic for forking workers	170		
+9659	588262	true	open	false	96		2016-11-17T11:00:27Z	2017-06-08T14:20:32Z		cluster: fixing debug port logic for forking workers	170		
 9660	696611	true	open	false	4		2016-11-17T12:03:15Z	2017-03-24T22:55:02Z		tools: don't build node for doc build	45		
 9661	2512748	true	closed	false	6		2016-11-17T15:20:11Z	2017-06-02T14:42:53Z	2016-11-23T20:19:56Z	buffer: empty string is not a valid encoding	68		
 9662	19831373	false	closed	false	6		2016-11-17T18:16:28Z	2017-01-08T15:53:51Z	2017-01-08T15:53:51Z	Most Urgent      npm can't work at all	125		
@@ -6660,7 +6661,7 @@
 13225	12075322	false	open	false	1		2017-05-25T20:30:05Z	2017-06-02T20:00:14Z		Node debug CLI freeze	142		
 13226	718899	true	closed	false	1		2017-05-25T21:51:53Z	2017-05-29T03:14:59Z	2017-05-29T03:14:59Z	test: refactor test-fs-assert-encoding-error	39		
 13227	718899	false	open	false	8		2017-05-25T22:27:52Z	2017-05-30T12:57:05Z		Investigate flaky test-stream-pipe-same-destination-twice on SmartOS	34		
-13228	17607	true	closed	false	17		2017-05-26T02:08:26Z	2017-06-07T20:31:48Z	2017-06-06T21:42:43Z	inspector: allow --inspect=host:port from js	102		
+13228	17607	true	closed	false			2017-05-26T02:08:26Z	2017-06-08T14:15:04Z	2017-06-06T21:42:43Z	inspector: allow --inspect=host:port from js	102		2017-06-06T21:42:43Z
 13229	24996985	false	open	false	0		2017-05-26T02:17:55Z	2017-05-26T02:17:55Z		cannot run npm cross compile linux	6		
 13230	24996985	false	closed	false	6		2017-05-26T02:42:23Z	2017-05-26T11:42:25Z	2017-05-26T07:07:14Z	.	0		
 13231	718899	true	open	false	2		2017-05-26T05:46:06Z	2017-05-29T15:32:55Z		doc: remove badges from README	144		
@@ -6757,7 +6758,7 @@
 13322	54666	true	open	false	10		2017-05-31T01:40:20Z	2017-06-06T08:49:59Z		stream,zlib: performance improvements	353		
 13323	690661	true	closed	false	1		2017-05-31T05:08:55Z	2017-05-31T07:38:29Z	2017-05-31T07:38:29Z	doc: fix typos in n-api.md	44		
 13324	432351	true	closed	false	3		2017-05-31T06:05:55Z	2017-06-02T06:32:57Z	2017-06-02T06:32:57Z	test: check inspector support in test/inspector	72		
-13325	1086194	false	closed	false	37		2017-05-31T06:43:45Z	2017-06-03T20:41:12Z	2017-06-03T20:41:12Z	Strange exit after updated to node 8.0.0	103		
+13325	1086194	false	closed	false	37		2017-05-31T06:43:45Z	2017-06-08T14:13:44Z	2017-06-03T20:41:12Z	Strange exit after updated to node 8.0.0	103		
 13326	6447530	false	open	false	4		2017-05-31T07:54:26Z	2017-06-08T09:03:03Z		[8.0.0] v8.Serializer crashes on bad input	81		
 13327	2174968	true	open	false			2017-05-31T08:05:48Z	2017-06-04T19:42:30Z		test: add coverage for AsyncResource constructor	32		
 13328	5807322	true	closed	false	3		2017-05-31T08:15:22Z	2017-06-03T20:31:36Z	2017-06-03T20:31:36Z	test: test async-hook triggerId invariant	71		
@@ -6784,7 +6785,7 @@
 13349	10393198	true	closed	false	1		2017-05-31T22:26:36Z	2017-06-02T22:36:28Z	2017-06-02T22:36:28Z	doc: use destructuring in code examples	21		
 13350	287917	true	open	false	2		2017-05-31T22:26:48Z	2017-06-05T16:37:53Z		inspector: Allows reentry when paused	75		
 13351	3684334	false	closed	false	8		2017-05-31T22:44:40Z	2017-06-02T11:09:32Z	2017-06-02T11:09:32Z	DCHECK(IsNumber) Crash when running debug node 4.8.3 with meteor	373		
-13352	96947	false	open	false	0		2017-05-31T22:47:11Z	2017-05-31T22:47:11Z		http, async_hooks: Consider async_hooks implications of the API that HTTP Agent uses	56		
+13352	96947	false	open	false	0		2017-05-31T22:47:11Z	2017-06-08T14:21:36Z		http, async_hooks: Consider async_hooks implications of the API that HTTP Agent uses	56		
 13353	899444	true	closed	false	0		2017-05-31T22:57:50Z	2017-06-01T20:53:38Z	2017-06-01T20:53:38Z	async_wrap: remove erroneous destroy list clear()	126		
 13354	10393198	true	open	false	5		2017-05-31T23:14:02Z	2017-06-02T22:49:50Z		doc: unify spaces in object literals	30		
 13355	14098340	true	open	false	1		2017-05-31T23:14:43Z	2017-06-01T01:18:23Z		build: updating vcbuild.bat to report errorlevel	41		
@@ -6823,7 +6824,7 @@
 13388	403268	true	open	false	7		2017-06-02T09:26:12Z	2017-06-03T09:20:31Z		child_process: exec's promisify impl now includes stdout/err in error	127		
 13389	10393198	true	closed	false	2		2017-06-02T09:28:53Z	2017-06-05T11:30:11Z	2017-06-05T11:30:11Z	doc: use prefer-rest-params eslint rule in docs	50		
 13390	15943089	true	closed	false	3	5	2017-06-02T09:58:37Z	2017-06-07T15:59:47Z	2017-06-07T15:59:47Z	test: pass env vars through to test-benchmark-http	51	15943089	2017-06-07T15:59:47Z
-13391	1561682	false	open	false	6		2017-06-02T10:52:34Z	2017-06-08T12:21:34Z		Http connections aborted after 5s / keepAliveTimeout 	460		
+13391	1561682	false	open	false	7		2017-06-02T10:52:34Z	2017-06-08T14:58:49Z		Http connections aborted after 5s / keepAliveTimeout 	460		
 13392	7447159	false	open	false	3		2017-06-02T11:43:06Z	2017-06-06T16:01:04Z		NodeJs v8.0.0 build error in v8/src/api.cc, Do you forget to return the value?	79		
 13393	96947	true	open	false	4		2017-06-02T11:57:09Z	2017-06-05T21:23:49Z		test,module: make message check MUI dependent	43		
 13394	1561682	true	closed	false	3		2017-06-02T12:02:49Z	2017-06-04T23:20:38Z	2017-06-04T23:20:38Z	doc: add missing backticks to doc/api/tls.md	24		
@@ -6915,7 +6916,7 @@
 13480	718899	true	closed	false	2		2017-06-05T18:23:52Z	2017-06-08T03:07:27Z	2017-06-08T03:07:27Z	test: refactor domain tests	47		
 13481	17607	true	closed	false	3	2	2017-06-05T19:37:06Z	2017-06-07T19:55:20Z	2017-06-07T19:55:20Z	lib: return this from net.Socket.end()	32	17607	2017-06-07T19:55:20Z
 13482	910691	true	open	false	0		2017-06-05T19:54:02Z	2017-06-05T23:29:34Z		build: remove duplicated code	135		
-13483	439929	true	open	false	15		2017-06-05T20:31:20Z	2017-06-08T12:05:38Z		8.1.0 Proposal	1053		
+13483	439929	true	open	false	16		2017-06-05T20:31:20Z	2017-06-08T14:58:38Z		8.1.0 Proposal	1053		
 13484	6251703	true	open	false	2		2017-06-05T21:33:49Z	2017-06-06T18:08:11Z		"doc: fix typo ""ndapi"" in n-api.md"	26		
 13485	96947	true	open	false	15		2017-06-05T21:46:27Z	2017-06-07T22:45:50Z		build,windows: check for VS version and arch	27		
 13486	1240693	false	closed	false	4		2017-06-05T22:19:55Z	2017-06-05T23:02:16Z	2017-06-05T22:46:35Z	Incorrect floating point arithmetic 	40		
@@ -6978,3 +6979,5 @@
 13545	5675531	false	closed	false	2		2017-06-08T10:45:25Z	2017-06-08T11:35:52Z	2017-06-08T10:48:15Z	http request with a keep-alive agent leads to an assertion failed error	148		
 13546	10678224	false	open	false	0		2017-06-08T13:00:14Z	2017-06-08T13:04:36Z		Readline question non-functional/readline duplicating input in console (visual)	81		
 13547	2842176	true	open	false	0	0	2017-06-08T13:20:19Z	2017-06-08T13:20:19Z		src: merge `fn_name` in NODE_SET_PROTOTYPE_METHOD	37		
+13548	662371	false	open	false	0		2017-06-08T14:24:48Z	2017-06-08T14:24:48Z		Haraka test suite crashes with 	74		
+13549	4923335	true	open	false	0	0	2017-06-08T14:54:35Z	2017-06-08T14:54:35Z		http: fix timeout reset after keep-alive timeout	128		
