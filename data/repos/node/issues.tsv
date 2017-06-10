@@ -408,6 +408,7 @@
 5599	711968	true	open	false	16		2016-03-08T15:41:12Z	2017-05-24T14:38:16Z		Bugfix cpplint windows path	101		
 5608	7340772	false	open	false	10		2016-03-08T23:13:41Z	2016-08-10T20:06:17Z		vi style bindings in node interpreter	101		
 5620	1937871	false	closed	false	18		2016-03-09T09:37:47Z	2016-11-25T11:34:27Z	2016-10-18T10:30:22Z	`process.stdin` never returns with using Git Bash for Windows	208		
+5629	14075323	false	closed	false	10		2016-03-09T16:47:17Z	2017-06-10T12:52:51Z	2016-04-12T15:31:43Z	os.networkInterfaces() returns wrong result	58		
 5636	1242946	false	closed	false	44		2016-03-10T02:19:40Z	2016-10-12T09:24:12Z	2016-10-12T09:24:12Z	degrading performance after using child_process	198		
 5637	41373	false	closed	false	3		2016-03-10T02:42:07Z	2016-10-12T10:43:45Z	2016-10-12T10:43:45Z	execFile hangs when child process exits, but has disowned children	103		
 5656	495647	true	open	false	6		2016-03-11T07:32:35Z	2017-02-28T23:17:43Z		 Refactor mac installer (built on #2571)	312		
@@ -6991,7 +6992,7 @@
 13557	983798	false	open	false	0		2017-06-08T20:10:39Z	2017-06-08T20:10:39Z		All versions of `npm init` hang on Node 8.1.0	146		
 13558	10393198	true	open	false	0	0	2017-06-08T20:20:10Z	2017-06-08T20:20:10Z		test: fix typo in test-cli-node-options.js	72		
 13559	96947	true	open	false	14		2017-06-08T20:51:36Z	2017-06-09T22:20:56Z		test: improve async-hooks/test-callback-error	34		
-13560	899444	true	open	false	8		2017-06-08T21:26:54Z	2017-06-10T10:05:24Z		"Revert ""readline: clean up event listener in onNewListener"""	148		
+13560	899444	true	open	false	9		2017-06-08T21:26:54Z	2017-06-10T12:51:57Z		"Revert ""readline: clean up event listener in onNewListener"""	148		
 13561	899444	true	open	false			2017-06-08T22:03:54Z	2017-06-10T10:10:53Z		doc: update async_hooks providers list	23		
 13562	8181240	false	open	false	2		2017-06-08T22:45:18Z	2017-06-09T15:55:23Z		N-API Callback Return	59		
 13563	77754	false	closed	false	2		2017-06-08T23:17:52Z	2017-06-09T00:45:26Z	2017-06-08T23:23:07Z	`Buffer.from` what does it do?	139		
@@ -7002,7 +7003,7 @@
 13568	170197	false	closed	false	3		2017-06-09T02:31:18Z	2017-06-09T10:27:53Z	2017-06-09T10:27:53Z	URL toStringTag	5		
 13569	51408	false	open	false	2		2017-06-09T07:45:26Z	2017-06-09T18:12:02Z		vcbuild does not always generate field <TargetMachine> in project files.	160		
 13570	2842176	true	open	false			2017-06-09T10:18:31Z	2017-06-10T11:40:46Z		doc: fix out of date napi_callback doc	55		
-13571	2011351	false	open	false	0		2017-06-09T11:22:17Z	2017-06-09T14:44:29Z		Basic authentication encoding	147		
+13571	2011351	false	closed	false	2		2017-06-09T11:22:17Z	2017-06-10T12:48:49Z	2017-06-10T12:48:49Z	Basic authentication encoding	147		
 13572	546900	false	open	false	11		2017-06-09T11:24:30Z	2017-06-10T04:47:25Z		'fs' can not read data if same FD is used for write and readFile	325		
 13573	10393198	true	open	false			2017-06-09T12:17:15Z	2017-06-09T15:36:07Z		doc: fix links in fs.md	22		
 13574	7408689	true	open	false	7		2017-06-09T12:18:46Z	2017-06-09T20:55:59Z		(v6.x backport) v8: fix build errors with g++ 7	57		
@@ -7012,7 +7013,7 @@
 13578	1443911	true	open	false	1		2017-06-09T15:36:55Z	2017-06-10T05:30:25Z		http: handle cases where socket.server is null	59		
 13579	17607	false	open	false	9		2017-06-09T15:40:40Z	2017-06-09T23:05:03Z		setTimeout callback order isn't guaranteed	210		
 13580	15943089	true	open	false	0	0	2017-06-09T15:41:47Z	2017-06-09T15:41:47Z		test: move test-debug-brk to sequential	39		
-13581	1902043	false	open	false	0		2017-06-09T16:13:36Z	2017-06-09T16:13:36Z		os.networkInterfaces() returns wrong MAC addresses	298		
+13581	1902043	false	open	false	0		2017-06-09T16:13:36Z	2017-06-10T12:50:30Z		os.networkInterfaces() returns wrong MAC addresses	298		
 13582	1443911	false	open	false	0		2017-06-09T17:37:04Z	2017-06-09T17:37:04Z		n-api: missing binding.gyp in /test/addons-napi/test_instanceof/	52		
 13583	103353	false	open	false	2		2017-06-09T18:04:15Z	2017-06-09T20:49:24Z		async_hooks: not able to preserve continuation local storage inside Promises	238		
 13584	54666	false	open	false	0		2017-06-09T19:29:49Z	2017-06-10T11:48:37Z		https: https.Server should be more careful with passed options	48		
@@ -7027,3 +7028,5 @@
 13593	1396	true	closed	false	2		2017-06-10T01:03:05Z	2017-06-10T05:48:02Z	2017-06-10T04:53:15Z	libuv: Allow fs.symlink without being elevated administrator on Win32	114		
 13594	8169783	false	open	false	1		2017-06-10T03:54:00Z	2017-06-10T04:10:02Z		how about import export feature support for ECMAScript 6?	6		
 13595	718899	true	open	false	0	0	2017-06-10T04:24:53Z	2017-06-10T04:24:53Z		test: use mustNotCall() in test-fs-watch	41		
+13596	13545	false	open	false	0		2017-06-10T12:44:52Z	2017-06-10T12:44:52Z		node 8 global node module folder detection failure (./lib/node style)	67		
+13597	96947	false	open	false	0		2017-06-10T12:49:51Z	2017-06-10T12:49:51Z		test: investigate falkiness of 	20		
