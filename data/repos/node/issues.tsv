@@ -440,7 +440,7 @@
 5816	17975468	false	closed	false	6		2016-03-21T06:03:18Z	2017-05-30T04:38:23Z	2017-05-30T04:38:23Z	Issue installing node js on Windows 7 Enterprise edition 64 bit	145		
 5832	17607	false	closed	false	10		2016-03-21T18:37:55Z	2017-05-30T04:39:48Z	2017-05-30T04:39:48Z	url.parse seems to change depending on the characters used in the domain name	272		
 5839	9650219	false	open	false	5		2016-03-22T01:57:25Z	2017-05-30T21:58:57Z		how to include v8dbg_ symbols in the windows build	42		
-5841	532414	true	open	false	30		2016-03-22T08:22:59Z	2017-06-10T14:32:39Z		test: test for issue #5574	185		
+5841	532414	true	open	false			2016-03-22T08:22:59Z	2017-06-12T14:41:49Z		test: test for issue #5574	185		
 5848	718899	false	closed	false	6		2016-03-22T18:47:04Z	2016-06-29T22:36:15Z	2016-06-29T22:36:15Z	Investigate flaky test-dgram-send-callback-buffer-length	30		
 5852	1231697	false	closed	false	9		2016-03-22T22:29:43Z	2016-12-22T20:27:36Z	2016-03-23T17:09:13Z	"zlib.createGunzip ""unknown compression method"""	40		
 5870	607109	false	closed	false	6		2016-03-23T17:01:39Z	2016-10-12T09:18:22Z	2016-10-12T09:18:22Z	child processes started with `--debug-brk` do not buffer messages	294		
@@ -1825,7 +1825,7 @@
 8378	1443911	true	open	false	1		2016-09-02T10:14:13Z	2016-09-24T21:12:41Z		doc: fix example in stream doc	54		
 8379	914122	false	closed	false	24		2016-09-02T12:46:51Z	2016-10-10T15:57:48Z	2016-10-10T15:57:48Z	Not helpful error message after upgrading Node	136		
 8380	9373002	false	closed	false	11		2016-09-02T12:53:08Z	2016-09-02T19:05:20Z	2016-09-02T19:05:20Z	AIX: parallel/test-cluster-dgram-1 failures	207		
-8381	115237	false	open	false	56		2016-09-02T13:00:01Z	2017-06-08T15:38:20Z		http: support environment-defined proxy	98		
+8381	115237	false	open	false	57		2016-09-02T13:00:01Z	2017-06-12T14:16:22Z		http: support environment-defined proxy	98		
 8382	914122	false	open	false	27		2016-09-02T13:08:45Z	2017-04-23T17:27:34Z		yield/await support in repl/cli	75		
 8383	1084056	true	closed	false	13		2016-09-02T13:17:30Z	2016-10-15T12:59:06Z	2016-09-02T19:08:23Z	test: fix test-cluster-dgram-1 flakiness	49		
 8384	9373002	true	open	false	0	0	2016-09-02T14:40:11Z	2016-09-02T14:40:11Z		test: revert changes to test/parallel/test-cluster-dgram-1.js	54		
@@ -5030,7 +5030,7 @@
 11589	14098140	false	closed	false	2		2017-02-27T22:14:21Z	2017-03-03T19:42:36Z	2017-03-03T19:42:36Z	Breakpoints can't be set by a debugger (Chrome or VS Code) while the Node program is running	339		
 11590	6991779	true	closed	false	2		2017-02-27T22:15:42Z	2017-03-05T13:21:16Z	2017-03-05T13:21:16Z	 test: changed test1 of test-vm-timeout.js so that entire error message would be matched	63		
 11591	1087603	false	closed	false	19		2017-02-27T22:43:37Z	2017-06-09T21:15:33Z	2017-03-13T19:57:31Z	Chrome DevTools not able to connect to Node inspect since 7.5.0	175		
-11592	9060496	true	open	false	5		2017-02-27T23:06:56Z	2017-06-10T02:51:10Z		errors, util: migrate to using internal/errors	57		
+11592	9060496	true	open	false			2017-02-27T23:06:56Z	2017-06-12T14:39:51Z		errors, util: migrate to using internal/errors	57		
 11593	585279	false	closed	false	8		2017-02-27T23:20:49Z	2017-02-28T16:32:57Z	2017-02-27T23:36:39Z	Not really possible to use global symbols inside vm	101		
 11594	439929	true	closed	false	6		2017-02-28T01:04:32Z	2017-03-28T22:18:12Z	2017-03-20T23:15:32Z	http: simple code refactoring	45		
 11595	10393198	false	open	false	4		2017-02-28T01:16:00Z	2017-03-23T22:05:39Z		Some possible bugs concerning fs.appendFile() and fs.writeFile()	138		
@@ -6963,14 +6963,14 @@
 13528	29261418	false	open	false	0		2017-06-07T19:27:55Z	2017-06-07T19:27:55Z		Node is exposing internal IP address in cookie named saneID	60		
 13529	718899	true	closed	false	2		2017-06-07T19:46:19Z	2017-06-10T05:31:18Z	2017-06-10T05:31:18Z	test: fix flaky test-tls-socket-close	84		
 13530	17607	true	open	false			2017-06-07T20:03:43Z	2017-06-09T14:45:48Z		net: return this from destroy()	39		
-13531	17607	true	open	false	8		2017-06-07T20:07:58Z	2017-06-11T18:18:59Z		doc: document and test that methods return this	65		
+13531	17607	true	open	false			2017-06-07T20:07:58Z	2017-06-12T14:53:01Z		doc: document and test that methods return this	65		
 13532	6216576	false	open	false	0		2017-06-07T20:08:14Z	2017-06-07T20:08:14Z		If condition variable in node_watchdog.cc is always true	35		
 13533	5329230	true	closed	false	0		2017-06-07T21:45:31Z	2017-06-08T12:42:37Z	2017-06-08T12:42:37Z	doc: corrects reference to tlsClientError	72		
 13534	96947	true	closed	false	5	0	2017-06-07T22:17:02Z	2017-06-08T16:55:59Z	2017-06-08T16:55:59Z	Update new CTC members	25		
 13535	899444	true	open	false	2		2017-06-07T22:17:54Z	2017-06-07T23:03:38Z		src: remove unused `_external` getters	99		
 13536	10393198	true	closed	false	2	5	2017-06-07T23:48:22Z	2017-06-10T10:40:48Z	2017-06-10T10:40:48Z	libs: fix some RegExp nits	253		
 13537	17723465	false	closed	false	0		2017-06-08T03:32:23Z	2017-06-08T04:18:53Z	2017-06-08T04:18:53Z	module.js:471 throw err;	67		
-13538	4483844	false	open	false	4		2017-06-08T04:02:46Z	2017-06-09T02:08:51Z		Child process remains alive after parent terminates while being debugged	93		
+13538	4483844	false	open	false	6		2017-06-08T04:02:46Z	2017-06-12T14:05:47Z		Child process remains alive after parent terminates while being debugged	93		
 13539	1762535	false	open	false	2		2017-06-08T07:40:09Z	2017-06-08T20:49:11Z		Cannot read property 'asyncReset' of null	68		
 13540	1762535	false	open	false	0		2017-06-08T07:44:50Z	2017-06-08T07:44:50Z		A C++ error with no always appear	68		
 13541	171239	true	closed	false	18		2017-06-08T08:50:03Z	2017-06-12T12:14:54Z	2017-06-12T12:14:54Z	v8: add a js class for Serializer/Dserializer	61		
@@ -7009,9 +7009,9 @@
 13574	7408689	true	open	false	14		2017-06-09T12:18:46Z	2017-06-12T12:50:59Z		(v6.x backport) v8: fix build errors with g++ 7	57		
 13575	432351	true	open	false	0	0	2017-06-09T13:19:52Z	2017-06-09T13:19:52Z		WIP: crypto: support multiple Crypto versions/libraries	398		
 13576	15719653	true	open	false			2017-06-09T13:47:27Z	2017-06-09T17:34:17Z		doc: add note to tty.WriteStream event 'resize' on Windows	18		
-13577	9373002	false	open	false	2		2017-06-09T13:49:51Z	2017-06-09T17:10:18Z		async-hooks/test-fseventwrap - Flaky on AIX	58		
+13577	9373002	false	open	false	3		2017-06-09T13:49:51Z	2017-06-12T14:25:18Z		async-hooks/test-fseventwrap - Flaky on AIX	58		
 13578	1443911	true	closed	false	1		2017-06-09T15:36:55Z	2017-06-12T12:14:41Z	2017-06-12T12:14:41Z	http: handle cases where socket.server is null	59		
-13579	17607	false	open	false	10		2017-06-09T15:40:40Z	2017-06-11T17:41:06Z		setTimeout callback order isn't guaranteed	210		
+13579	17607	false	open	false	11		2017-06-09T15:40:40Z	2017-06-12T14:32:07Z		setTimeout callback order isn't guaranteed	213		
 13580	15943089	true	open	false	0	0	2017-06-09T15:41:47Z	2017-06-09T15:41:47Z		test: move test-debug-brk to sequential	39		
 13581	1902043	false	open	false	1		2017-06-09T16:13:36Z	2017-06-12T07:51:33Z		os.networkInterfaces() returns wrong MAC addresses	298		
 13582	1443911	false	open	false	0		2017-06-09T17:37:04Z	2017-06-09T17:37:04Z		n-api: missing binding.gyp in /test/addons-napi/test_instanceof/	52		
@@ -7030,7 +7030,7 @@
 13595	718899	true	open	false	0	0	2017-06-10T04:24:53Z	2017-06-10T04:24:53Z		test: use mustNotCall() in test-fs-watch	41		
 13596	13545	false	closed	false	1		2017-06-10T12:44:52Z	2017-06-10T13:09:57Z	2017-06-10T13:09:57Z	(win32) node 8 global node_modules path failure (./lib/node style)	67		
 13597	96947	false	open	false	0		2017-06-10T12:49:51Z	2017-06-10T12:49:51Z		test: investigate falkiness of 	20		
-13598	899444	true	open	false	5		2017-06-10T16:31:23Z	2017-06-12T13:04:56Z		v8.1.1 proposal	545		
+13598	899444	true	open	false	6		2017-06-10T16:31:23Z	2017-06-12T14:12:57Z		v8.1.1 proposal	759		
 13599	2842176	true	open	false			2017-06-10T18:14:46Z	2017-06-12T09:19:02Z		https: make opts optional & immutable when create	60		
 13600	988441	false	closed	false	1		2017-06-10T18:25:55Z	2017-06-10T20:00:33Z	2017-06-10T20:00:33Z	"""Landing Pull Requests"" is incompatible with repo setup in CONTRIBUTING.md"	71		
 13601	54666	true	open	false			2017-06-10T18:31:48Z	2017-06-10T19:29:50Z		child_process: do not extend result for *Sync()	139		
@@ -7042,7 +7042,7 @@
 13607	13552002	false	closed	false	3		2017-06-11T05:56:18Z	2017-06-11T13:12:50Z	2017-06-11T13:12:50Z	TypeError: First argument must be a string, Buffer, ArrayBuffer, Array, or array-like object.	102		
 13608	534619	true	open	false	1		2017-06-11T06:03:00Z	2017-06-11T21:31:10Z		docs: fix incorrect fs.utimes() link	22		
 13609	77482	false	closed	false	4		2017-06-11T09:02:17Z	2017-06-11T22:07:57Z	2017-06-11T10:41:14Z	NPM init hangs on Windows on 8.1.0	17		
-13610	96947	true	open	false	0	0	2017-06-11T12:31:15Z	2017-06-11T12:31:15Z		async_hooks: expose list of types	57		
+13610	96947	true	open	false			2017-06-11T12:31:15Z	2017-06-12T14:49:56Z		async_hooks: expose list of types	57		
 13611	170197	false	closed	false	2		2017-06-11T15:35:11Z	2017-06-12T13:15:29Z	2017-06-12T13:15:29Z	non-blocking `vm`	80		
 13612	1642944	false	open	false	7		2017-06-11T15:44:06Z	2017-06-12T10:04:39Z		crypto.publicDecrypt and crypto.publicEncrypt doesn't detect PEM encoded public key in parameters	173		
 13613	6156077	false	closed	false	3		2017-06-11T16:06:43Z	2017-06-11T17:01:41Z	2017-06-11T16:24:52Z	Problems running Javascript files via command line in Windows 10	122		
@@ -7051,14 +7051,14 @@
 13616	131406	false	open	false	0		2017-06-11T16:48:49Z	2017-06-11T19:04:09Z		mips64el should be listed in configure's valid_arch ?	45		
 13617	534619	true	open	false			2017-06-11T18:22:08Z	2017-06-12T07:57:42Z		doc: document res.connection and res.socket	37		
 13618	718899	true	open	false			2017-06-11T19:06:48Z	2017-06-12T12:03:05Z		test: refactor test-fs-read-stream-inherit	60		
-13619	588262	true	open	false			2017-06-11T19:33:59Z	2017-06-12T10:32:40Z		Fixed cluster inspect port logic	125		
+13619	588262	true	open	false	4		2017-06-11T19:33:59Z	2017-06-12T14:46:02Z		Fixed cluster inspect port logic	125		
 13620	5358146	true	open	false	3		2017-06-11T20:03:10Z	2017-06-12T12:23:37Z		configure: added mips64el to valid_arch	35		
 13621	718899	false	open	false	3		2017-06-11T21:04:08Z	2017-06-12T08:45:20Z		entry for inspector in onboarding-extras.md	35		
 13622	718899	false	open	false	1		2017-06-11T21:05:51Z	2017-06-11T22:53:58Z		refactor test/inspector	67		
-13623	5133875	true	open	false			2017-06-11T22:59:28Z	2017-06-12T03:16:29Z		Dgram buffers	56		
+13623	5133875	true	open	false			2017-06-11T22:59:28Z	2017-06-12T14:57:46Z		Dgram buffers	56		
 13624	5235280	false	open	false	0		2017-06-11T23:26:01Z	2017-06-12T00:11:23Z		build error C4716: 'v8::ArrayBuffer::Allocator::Reserve': must return a value 	67		
 13625	9279488	true	open	false	2		2017-06-12T03:43:32Z	2017-06-12T05:16:01Z		Harmonize test http https set timeout server	31		
-13626	718899	true	open	false	5		2017-06-12T04:14:25Z	2017-06-12T13:56:37Z		test: increase bufsize in child process write test	68		
+13626	718899	true	open	false	6		2017-06-12T04:14:25Z	2017-06-12T14:21:12Z		test: increase bufsize in child process write test	68		
 13627	9279488	true	open	false	0	0	2017-06-12T05:18:40Z	2017-06-12T05:18:40Z		Removed redundant mentions to error codes in doc/api/errors.md	41		
 13628	17021518	false	closed	false	2		2017-06-12T05:46:03Z	2017-06-12T06:13:15Z	2017-06-12T06:13:15Z	Memory continuous goes high	78		
 13629	532414	false	open	false	0		2017-06-12T07:56:52Z	2017-06-12T07:56:52Z		Identify `armv6` and `armv7` as different architectures	68		
