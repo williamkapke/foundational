@@ -5582,7 +5582,7 @@
 12143	899444	true	closed	false	4		2017-03-31T06:29:15Z	2017-04-03T12:41:24Z	2017-04-03T08:41:19Z	v8: fix offsets for TypedArray deserialization	73		
 12144	4923335	true	closed	false	1		2017-03-31T08:42:55Z	2017-04-04T16:51:24Z	2017-04-04T16:51:24Z	src: use const parameters in base64_decode_slow()	45		
 12145	3841492	false	closed	false	1		2017-03-31T12:20:51Z	2017-04-11T08:09:50Z	2017-04-11T08:09:50Z	NPM terminates	116		
-12146	4923335	true	closed	false	8		2017-03-31T14:17:54Z	2017-04-18T23:34:44Z	2017-04-04T16:45:48Z	buffer: optimize decoding wrapped base64 data	95		
+12146	4923335	true	closed	false	9		2017-03-31T14:17:54Z	2017-06-13T13:22:02Z	2017-04-04T16:45:48Z	buffer: optimize decoding wrapped base64 data	95		
 12147	439929	true	closed	false	1		2017-03-31T14:27:12Z	2017-04-17T15:43:52Z	2017-04-17T15:43:52Z	meta: move the Code of Conduct to TSC repository	66		
 12148	115237	true	closed	false	5		2017-03-31T17:13:36Z	2017-04-03T03:49:22Z	2017-04-02T11:56:29Z	doc: add logo to README	56		
 12149	15943089	true	closed	false	1		2017-03-31T17:33:24Z	2017-04-19T08:21:49Z	2017-04-04T09:29:32Z	doc, inspector: note that the host is optional	52		
@@ -6826,7 +6826,7 @@
 13389	10393198	true	closed	false	2		2017-06-02T09:28:53Z	2017-06-05T11:30:11Z	2017-06-05T11:30:11Z	doc: use prefer-rest-params eslint rule in docs	50		
 13390	15943089	true	closed	false	3	5	2017-06-02T09:58:37Z	2017-06-07T15:59:47Z	2017-06-07T15:59:47Z	test: pass env vars through to test-benchmark-http	51	15943089	2017-06-07T15:59:47Z
 13391	1561682	false	closed	false	10		2017-06-02T10:52:34Z	2017-06-13T04:45:29Z	2017-06-13T04:45:29Z	Http connections aborted after 5s / keepAliveTimeout 	460		
-13392	7447159	false	open	false	10		2017-06-02T11:43:06Z	2017-06-12T00:33:38Z		NodeJs v8.0.0 build error in v8/src/api.cc, Do you forget to return the value?	79		
+13392	7447159	false	closed	false	11		2017-06-02T11:43:06Z	2017-06-13T13:22:51Z	2017-06-13T13:22:51Z	NodeJs v8.0.0-v8.1.0, C4716: 'v8::ArrayBuffer::Allocator::Reserve': must return a value	86		
 13393	96947	true	open	false	4		2017-06-02T11:57:09Z	2017-06-05T21:23:49Z		test,module: make message check MUI dependent	43		
 13394	1561682	true	closed	false	3		2017-06-02T12:02:49Z	2017-06-04T23:20:38Z	2017-06-04T23:20:38Z	doc: add missing backticks to doc/api/tls.md	24		
 13395	7088631	false	open	false	0		2017-06-02T12:50:05Z	2017-06-02T12:50:05Z		npm set wrong file ownership when installing global modules with sudo	69		
@@ -6858,7 +6858,7 @@
 13421	718899	true	closed	false	0		2017-06-02T22:53:20Z	2017-06-05T23:41:50Z	2017-06-05T23:41:50Z	doc: minimal documentation for Emeritus status	58		
 13422	1377	true	open	false	9		2017-06-02T23:01:56Z	2017-06-12T13:06:45Z		util.inspect(obj) should avoid obj.inspect access	108		
 13423	718899	true	closed	false	0		2017-06-02T23:30:14Z	2017-06-06T16:14:13Z	2017-06-06T16:14:13Z	doc: emphasize Collaborators in GOVERNANCE.md	74		
-13424	7902626	true	open	false	3		2017-06-03T00:04:43Z	2017-06-13T12:35:25Z		doc: add callback function signatures in fs.md	39		
+13424	7902626	true	open	false	5		2017-06-03T00:04:43Z	2017-06-13T13:06:16Z		doc: add callback function signatures in fs.md	39		
 13425	494055	false	closed	false	5		2017-06-03T00:11:46Z	2017-06-08T09:08:33Z	2017-06-08T09:08:33Z	Windows REPL resets text color to white after output instead of resetting to the previous foreground color (e.g. grey)	55		
 13426	47413	true	open	false	8		2017-06-03T00:41:15Z	2017-06-05T22:34:56Z		assert: fix deepEqual similar sets and maps bug	56		
 13427	816527	false	open	false	5		2017-06-03T00:42:09Z	2017-06-04T01:05:17Z		async_hooks.currentId() sometimes reports the wrong id during PromiseReactionJob	198		
@@ -7030,8 +7030,8 @@
 13595	718899	true	open	false	0	0	2017-06-10T04:24:53Z	2017-06-10T04:24:53Z		test: use mustNotCall() in test-fs-watch	41		
 13596	13545	false	closed	false	1		2017-06-10T12:44:52Z	2017-06-10T13:09:57Z	2017-06-10T13:09:57Z	(win32) node 8 global node_modules path failure (./lib/node style)	67		
 13597	96947	false	open	false	0		2017-06-10T12:49:51Z	2017-06-10T12:49:51Z		test: investigate falkiness of 	20		
-13598	899444	true	open	false	15		2017-06-10T16:31:23Z	2017-06-13T13:00:20Z		v8.1.1 proposal	759		
-13599	2842176	true	open	false			2017-06-10T18:14:46Z	2017-06-13T08:56:47Z		https: make opts optional & immutable when create	60		
+13598	899444	true	open	false	16		2017-06-10T16:31:23Z	2017-06-13T13:13:05Z		v8.1.1 proposal	759		
+13599	2842176	true	open	false			2017-06-10T18:14:46Z	2017-06-13T13:34:53Z		https: make opts optional & immutable when create	60		
 13600	988441	false	closed	false	1		2017-06-10T18:25:55Z	2017-06-10T20:00:33Z	2017-06-10T20:00:33Z	"""Landing Pull Requests"" is incompatible with repo setup in CONTRIBUTING.md"	71		
 13601	54666	true	open	false	2		2017-06-10T18:31:48Z	2017-06-12T17:29:40Z		child_process: do not extend result for *Sync()	139		
 13602	988441	true	open	false	1		2017-06-10T18:38:53Z	2017-06-10T19:47:50Z		doc: use HTTPS URL for suggested upstream remote	30		
@@ -7072,12 +7072,12 @@
 13637	54666	false	open	false	0		2017-06-12T19:11:04Z	2017-06-12T19:11:04Z		Investigate flaky test-net-socket-destroy-twice	24		
 13638	54666	false	open	false	0		2017-06-12T19:14:07Z	2017-06-12T19:14:07Z		Investigate flaky test-stdout-buffer-flush-on-exit	23		
 13639	17259866	false	open	false	0		2017-06-12T22:01:28Z	2017-06-12T22:01:28Z		napi_define_properties / napi_set_named_property behaviour	77		
-13640	17535	false	open	false	3		2017-06-12T22:42:26Z	2017-06-13T09:16:06Z		deps: Including additional binaries with npm?	173		
+13640	17535	false	open	false	4		2017-06-12T22:42:26Z	2017-06-13T13:18:09Z		deps: Including additional binaries with npm?	173		
 13641	931192	false	open	false	0		2017-06-12T22:49:17Z	2017-06-13T01:12:25Z		Issues building test addons with both VS2015 and VS2017 installed	407		
 13642	718899	false	open	false	0		2017-06-12T23:20:10Z	2017-06-13T00:47:47Z		Investigate flaky test/parallel/test-fs-watch on Raspberry Pi	24		
 13643	718899	true	open	false			2017-06-13T01:54:49Z	2017-06-13T10:04:25Z		test: refactor test-fs-read-stream	72		
-13644	439929	true	open	false			2017-06-13T03:19:20Z	2017-06-13T12:13:27Z		buffer: implement WHATWG Encoding Standard API	140		
-13645	718899	true	open	false	6		2017-06-13T03:53:45Z	2017-06-13T12:30:28Z		tools: update ESLint to v4.0.0	32		
+13644	439929	true	open	false			2017-06-13T03:19:20Z	2017-06-13T13:28:39Z		buffer: implement WHATWG Encoding Standard API	140		
+13645	718899	true	open	false	7		2017-06-13T03:53:45Z	2017-06-13T13:44:04Z		tools: update ESLint to v4.0.0	32		
 13646	617481	false	open	false	2		2017-06-13T04:41:32Z	2017-06-13T11:15:37Z		Discussion of implementing the Encoding Standard with ICU, and associated web platform tests	196		
 13647	490562	false	open	false	0		2017-06-13T05:08:12Z	2017-06-13T06:03:18Z		Crashes terminal on OS X and refuses subsequent input after prompting more than once (Node 8 only)	174		
 13648	54666	true	open	false	1		2017-06-13T05:14:06Z	2017-06-13T11:45:14Z		child_process: remove nextTick on IPC message	135		
@@ -7089,3 +7089,6 @@
 13654	96947	false	open	false	0		2017-06-13T10:08:39Z	2017-06-13T10:08:39Z		test: investigate test-dgram-implicit-bind	26		
 13655	5675531	false	open	false	1		2017-06-13T10:15:38Z	2017-06-13T12:21:44Z		Socket closed by the server after upgraded to Node.js 8.1	132		
 13656	275871	true	open	false	0	0	2017-06-13T12:35:53Z	2017-06-13T12:35:53Z		build: remove dependency on icu io library	28		
+13657	988441	false	open	false	0		2017-06-13T13:19:46Z	2017-06-13T13:19:46Z		base64 decoding drops characters when there is whitespace in the middle	56		
+13658	15943089	true	open	false	0	0	2017-06-13T13:28:18Z	2017-06-13T13:28:18Z		build: fail linter if linting not available	28		
+13659	15943089	true	open	false	0	0	2017-06-13T13:48:58Z	2017-06-13T13:48:58Z		doc: note that fs.futimes only works on AIX >7.1	30		
