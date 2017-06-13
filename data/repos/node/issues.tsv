@@ -4828,7 +4828,7 @@
 11387	1538624	true	closed	false	3		2017-02-14T21:28:23Z	2017-03-08T09:06:17Z	2017-03-08T09:06:17Z	(v6.x backport) url: fix surrogate handling in encodeAuth()	67		
 11388	718899	true	closed	false	2	0	2017-02-14T21:47:44Z	2017-02-16T20:45:09Z	2017-02-16T20:45:08Z	test: refactor test-dgram-membership	38		
 11389	17535	true	closed	false	8		2017-02-14T23:41:19Z	2017-04-08T21:28:08Z	2017-03-22T22:28:11Z	deps: upgrade npm to 4.2.0	142		
-11390	11801881	true	open	false	5		2017-02-15T04:05:08Z	2017-06-10T02:51:22Z		errors, readline: migrate to use internal/errors.js	47		
+11390	11801881	true	closed	false	6		2017-02-15T04:05:08Z	2017-06-13T15:55:45Z	2017-06-13T15:55:45Z	errors, readline: migrate to use internal/errors.js	47		
 11391	439929	true	closed	false	10		2017-02-15T04:16:52Z	2017-02-17T18:41:06Z	2017-02-17T18:41:06Z	zlib: refactor zlib module	106		
 11392	439929	true	closed	false	17		2017-02-15T05:04:21Z	2017-03-07T07:11:10Z	2017-02-17T18:25:39Z	vm: refactor vm module	34		
 11393	718899	true	closed	false	1		2017-02-15T05:58:20Z	2017-02-16T20:42:50Z	2017-02-16T20:42:50Z	test: improve message in net-connect-local-error	54		
@@ -6756,7 +6756,7 @@
 13319	9373002	true	open	false	5		2017-05-30T22:09:51Z	2017-06-01T21:59:30Z		doc: remove 'you' from writing-tests.md	54		
 13320	1832800	false	closed	false	4		2017-05-30T23:00:41Z	2017-06-05T16:38:24Z	2017-06-05T16:38:24Z	Inspector hangs if try to call from Console	48		
 13321	17607	true	closed	false	5		2017-05-30T23:46:16Z	2017-06-02T01:33:48Z	2017-06-01T23:05:27Z	inspector: refactor to rename and comment methods	133		
-13322	54666	true	open	false			2017-05-31T01:40:20Z	2017-06-13T00:42:43Z		stream,zlib: performance improvements	353		
+13322	54666	true	open	false	16		2017-05-31T01:40:20Z	2017-06-13T15:15:59Z		stream,zlib: performance improvements	353		
 13323	690661	true	closed	false	1		2017-05-31T05:08:55Z	2017-05-31T07:38:29Z	2017-05-31T07:38:29Z	doc: fix typos in n-api.md	44		
 13324	432351	true	closed	false	3		2017-05-31T06:05:55Z	2017-06-02T06:32:57Z	2017-06-02T06:32:57Z	test: check inspector support in test/inspector	72		
 13325	1086194	false	closed	false	37		2017-05-31T06:43:45Z	2017-06-08T14:13:44Z	2017-06-03T20:41:12Z	Strange exit after updated to node 8.0.0	103		
@@ -7030,10 +7030,10 @@
 13595	718899	true	open	false	0	0	2017-06-10T04:24:53Z	2017-06-10T04:24:53Z		test: use mustNotCall() in test-fs-watch	41		
 13596	13545	false	closed	false	1		2017-06-10T12:44:52Z	2017-06-10T13:09:57Z	2017-06-10T13:09:57Z	(win32) node 8 global node_modules path failure (./lib/node style)	67		
 13597	96947	false	open	false	0		2017-06-10T12:49:51Z	2017-06-10T12:49:51Z		test: investigate falkiness of 	20		
-13598	899444	true	open	false	17		2017-06-10T16:31:23Z	2017-06-13T14:49:09Z		v8.1.1 proposal	759		
+13598	899444	true	open	false	18		2017-06-10T16:31:23Z	2017-06-13T15:15:10Z		v8.1.1 proposal	759		
 13599	2842176	true	open	false			2017-06-10T18:14:46Z	2017-06-13T13:34:53Z		https: make opts optional & immutable when create	60		
 13600	988441	false	closed	false	1		2017-06-10T18:25:55Z	2017-06-10T20:00:33Z	2017-06-10T20:00:33Z	"""Landing Pull Requests"" is incompatible with repo setup in CONTRIBUTING.md"	71		
-13601	54666	true	open	false	3		2017-06-10T18:31:48Z	2017-06-13T14:58:10Z		child_process: do not extend result for *Sync()	138		
+13601	54666	true	open	false	4		2017-06-10T18:31:48Z	2017-06-13T15:25:07Z		child_process: do not extend result for *Sync()	138		
 13602	988441	true	open	false	1		2017-06-10T18:38:53Z	2017-06-10T19:47:50Z		doc: use HTTPS URL for suggested upstream remote	30		
 13603	96947	false	closed	false	17		2017-06-10T19:32:42Z	2017-06-12T23:24:02Z	2017-06-12T23:24:02Z	test: investigate flaky test-child-process-stdio-big-write-end	20		
 13604	439929	true	open	false	4		2017-06-11T03:35:50Z	2017-06-11T14:35:53Z		errors: add missing ERR_ prefix on util.callbackify error	109		
@@ -7042,20 +7042,20 @@
 13607	13552002	false	closed	false	3		2017-06-11T05:56:18Z	2017-06-11T13:12:50Z	2017-06-11T13:12:50Z	TypeError: First argument must be a string, Buffer, ArrayBuffer, Array, or array-like object.	102		
 13608	534619	true	open	false	1		2017-06-11T06:03:00Z	2017-06-11T21:31:10Z		docs: fix incorrect fs.utimes() link	22		
 13609	77482	false	closed	false	4		2017-06-11T09:02:17Z	2017-06-11T22:07:57Z	2017-06-11T10:41:14Z	NPM init hangs on Windows on 8.1.0	17		
-13610	96947	true	open	false			2017-06-11T12:31:15Z	2017-06-13T08:38:00Z		async_hooks: expose list of types	55		
+13610	96947	true	open	false			2017-06-11T12:31:15Z	2017-06-13T15:52:12Z		async_hooks: expose list of types	55		
 13611	170197	false	closed	false	2		2017-06-11T15:35:11Z	2017-06-12T13:15:29Z	2017-06-12T13:15:29Z	non-blocking `vm`	80		
 13612	1642944	false	open	false	7		2017-06-11T15:44:06Z	2017-06-12T10:04:39Z		crypto.publicDecrypt and crypto.publicEncrypt doesn't detect PEM encoded public key in parameters	173		
 13613	6156077	false	closed	false	3		2017-06-11T16:06:43Z	2017-06-11T17:01:41Z	2017-06-11T16:24:52Z	Problems running Javascript files via command line in Windows 10	122		
 13614	899444	true	open	false	2		2017-06-11T16:28:51Z	2017-06-11T20:40:10Z		test: split up and refactor test-domain	19		
 13615	1008760	false	open	false	0		2017-06-11T16:45:17Z	2017-06-11T16:45:17Z		Array.sort() on numbers does not sort numerically	59		
-13616	131406	false	open	false	0		2017-06-11T16:48:49Z	2017-06-11T19:04:09Z		mips64el should be listed in configure's valid_arch ?	45		
+13616	131406	false	closed	false	3		2017-06-11T16:48:49Z	2017-06-13T15:10:43Z	2017-06-13T15:10:43Z	mips64el should be listed in configure's valid_arch ?	45		
 13617	534619	true	open	false			2017-06-11T18:22:08Z	2017-06-12T17:17:12Z		doc: document res.connection and res.socket	37		
 13618	718899	true	open	false			2017-06-11T19:06:48Z	2017-06-12T12:03:05Z		test: refactor test-fs-read-stream-inherit	60		
-13619	588262	true	open	false	5		2017-06-11T19:33:59Z	2017-06-13T07:01:56Z		Fixed cluster inspect port logic	125		
-13620	5358146	true	open	false	3		2017-06-11T20:03:10Z	2017-06-12T12:23:37Z		configure: added mips64el to valid_arch	35		
+13619	588262	true	open	false			2017-06-11T19:33:59Z	2017-06-13T15:32:03Z		Fixed cluster inspect port logic	125		
+13620	5358146	true	closed	false	5		2017-06-11T20:03:10Z	2017-06-13T15:12:16Z	2017-06-13T15:12:16Z	configure: added mips64el to valid_arch	35		
 13621	718899	false	open	false	3		2017-06-11T21:04:08Z	2017-06-12T08:45:20Z		entry for inspector in onboarding-extras.md	35		
 13622	718899	false	open	false	1		2017-06-11T21:05:51Z	2017-06-11T22:53:58Z		refactor test/inspector	67		
-13623	5133875	true	open	false			2017-06-11T22:59:28Z	2017-06-12T22:20:30Z		Dgram buffers	56		
+13623	5133875	true	open	false			2017-06-11T22:59:28Z	2017-06-13T15:10:52Z		Dgram buffers	56		
 13624	5235280	false	open	false	0		2017-06-11T23:26:01Z	2017-06-12T00:11:23Z		build error C4716: 'v8::ArrayBuffer::Allocator::Reserve': must return a value 	67		
 13625	9279488	true	open	false	2		2017-06-12T03:43:32Z	2017-06-12T05:16:01Z		Harmonize test http https set timeout server	31		
 13626	718899	true	closed	false	7		2017-06-12T04:14:25Z	2017-06-12T23:23:02Z	2017-06-12T23:23:02Z	test: increase bufsize in child process write test	68		
@@ -7092,3 +7092,4 @@
 13657	988441	false	open	false	0		2017-06-13T13:19:46Z	2017-06-13T13:19:46Z		base64 decoding drops characters when there is whitespace in the middle	56		
 13658	15943089	true	open	false	0	0	2017-06-13T13:28:18Z	2017-06-13T13:28:18Z		build: fail linter if linting not available	28		
 13659	15943089	true	open	false	0	0	2017-06-13T13:48:58Z	2017-06-13T13:48:58Z		doc: note that fs.futimes only works on AIX >7.1	30		
+13660	988441	true	open	false	0	0	2017-06-13T15:33:44Z	2017-06-13T15:33:44Z		buffer: fix decoding base64 with whitespace	48		
