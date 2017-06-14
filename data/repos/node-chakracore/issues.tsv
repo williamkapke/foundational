@@ -14,7 +14,7 @@
 78	1898413	false	closed	false	3		2016-06-12T21:39:02Z	2016-06-28T23:58:19Z	2016-06-28T23:58:19Z	parseStack fails for certain Error messages	214		
 83	11861955	true	closed	false	9		2016-06-22T02:14:11Z	2016-07-18T09:03:18Z	2016-07-13T23:01:27Z	chakrashim: build on Linux	31		
 85	12488060	true	open	false			2016-06-25T02:24:28Z	2016-06-28T20:14:16Z		Fixed various bugs around Error object	111		
-86	255273	false	open	false	0		2016-06-28T21:09:30Z	2017-06-14T21:31:44Z		Unable to query Azure DB from Windows 10 IoT Core	92		
+86	255273	false	closed	false	2		2016-06-28T21:09:30Z	2017-06-14T22:48:35Z	2017-06-14T22:48:35Z	Unable to query Azure DB from Windows 10 IoT Core	92		
 87	11861955	true	open	false	0	0	2016-06-28T23:23:13Z	2016-06-28T23:23:13Z		win,node-gyp: work around __pfnDliNotifyHook2 type change	12		
 88	12059066	true	closed	false	1	0	2016-06-30T18:22:23Z	2016-07-05T16:49:52Z	2016-07-05T16:49:52Z	Enable/Disable ES6 experimental features in chakracore using compile flags	52	12059066	2016-07-05T16:49:52Z
 89	12488060	true	closed	false	2	15	2016-06-30T18:25:58Z	2016-07-05T16:27:27Z	2016-07-05T16:27:27Z	Sync to nodejs/master (06-30-2016) 	87	12488060	2016-07-05T16:27:27Z
@@ -47,7 +47,7 @@
 116	12488060	true	open	false	2		2016-09-13T06:23:13Z	2016-09-15T06:14:31Z		chakracore: Remove debugging trace	43		
 117	4390745	true	closed	false	0	3	2016-09-14T15:16:42Z	2016-09-22T00:11:54Z	2016-09-22T00:11:54Z	osx: new platform for node-chakracore	40	4390745	2016-09-22T00:11:54Z
 118	1898413	false	closed	false	12		2016-09-16T06:10:18Z	2016-10-07T17:42:23Z	2016-10-07T17:42:23Z	"eslint not working due to ""object shorthand"" syntax"	64		
-119	4390745	false	open	false	1		2016-09-19T20:16:04Z	2017-06-14T21:44:47Z		Cleanup shared_ptr usage from chakrashim	23		
+119	4390745	false	closed	false	1		2016-09-19T20:16:04Z	2017-06-14T22:19:42Z	2017-06-14T22:19:42Z	Cleanup shared_ptr usage from chakrashim	23		
 120	22372887	false	closed	false	9		2016-09-22T14:27:21Z	2017-06-14T21:47:58Z	2017-06-14T21:47:58Z	Undefined symbol loading an addon under Ubuntu 16.04.1 LTS	533		
 121	1093990	false	closed	false	20		2016-09-23T21:36:36Z	2017-03-15T20:55:49Z	2017-03-15T20:55:49Z	Errors building on OS X 10.10.5	297		
 122	4390745	true	open	false	3		2016-09-26T02:41:11Z	2016-09-26T23:30:03Z		chakrashim: Remove shared_ptr usage	23		
@@ -132,7 +132,7 @@
 201	1898413	false	open	false	0		2017-03-27T16:48:56Z	2017-03-27T17:30:19Z		anonymous function name behave differently from V8	53		
 202	4157103	false	closed	false	1		2017-03-29T06:57:47Z	2017-05-22T22:12:03Z	2017-05-22T22:12:03Z	VSCode step in eval code	99		
 203	12488060	true	closed	false	7	1	2017-03-29T23:41:01Z	2017-03-30T18:07:44Z	2017-03-30T18:07:44Z	nodejs/master merge	35	12488060	2017-03-30T18:07:44Z
-204	1093990	false	open	false	5		2017-03-30T15:55:43Z	2017-06-14T21:58:49Z		Compile failure on OS X 10.10.5	83		
+204	1093990	false	open	false	6		2017-03-30T15:55:43Z	2017-06-14T22:16:01Z		Compile failure on OS X 10.10.5	83		
 205	14864042	true	closed	false	2		2017-03-31T01:46:21Z	2017-03-31T22:39:40Z	2017-03-31T22:39:40Z	Fix cpplint warns and add TTD performance checks.	48		
 206	931192	true	closed	false	6		2017-03-31T20:08:45Z	2017-04-01T19:24:02Z	2017-03-31T22:29:40Z	Merge nodejs/master into xplat	28		
 207	1141869	true	closed	false	3		2017-04-03T21:45:39Z	2017-04-04T21:41:38Z	2017-04-04T21:41:38Z	Documentation: Fixing links in markdown	13		
@@ -141,14 +141,14 @@
 210	931192	true	open	false	1		2017-04-04T22:51:45Z	2017-04-28T23:05:58Z		Inspector support for chakrashim	26		
 211	1569843	true	closed	false	6		2017-04-12T01:26:40Z	2017-04-18T03:30:55Z	2017-04-18T03:30:55Z	Merge nodejs/master into xplat	29		
 212	1128712	false	open	false	0		2017-04-13T09:57:55Z	2017-04-13T09:57:55Z		Enable es2015 modules feature	37		
-213	1210641	false	open	false	1		2017-04-14T12:37:20Z	2017-06-09T12:27:28Z		libicuuc.so.55: cannot open shared object file: No such file or directory	124		
+213	1210641	false	open	false	2		2017-04-14T12:37:20Z	2017-06-14T22:05:39Z		libicuuc.so.55: cannot open shared object file: No such file or directory	124		
 214	12057627	false	closed	false	0		2017-04-17T16:57:47Z	2017-04-17T17:30:43Z	2017-04-17T17:30:43Z	New contributors for Node-ChakraCore	26		
 215	134460	true	closed	false	3	0	2017-04-17T18:42:42Z	2017-04-18T11:22:41Z	2017-04-18T11:22:41Z	chakrashim: enable building with Node ICU on Linux	62	134460	2017-04-18T11:22:41Z
 216	134460	true	closed	false	1		2017-04-17T18:47:32Z	2017-04-18T11:08:29Z	2017-04-18T11:08:29Z	chakrashim: enable multicore build	53		
 217	14098340	false	open	false	0		2017-04-17T20:49:51Z	2017-04-17T20:49:51Z		Node-v8 and node-chakracore behave differently to syntax errors in the REPL	121		
 218	14864042	false	closed	false	3		2017-04-20T18:38:30Z	2017-06-01T03:32:56Z	2017-06-01T03:32:56Z	TTD replay-debug broken	97		
 219	5614134	false	open	false	0		2017-04-21T01:53:55Z	2017-04-21T02:12:33Z		Integrating with nvm or nodenv?	58		
-220	143631	false	open	false	0		2017-04-21T08:41:14Z	2017-04-21T08:41:14Z		WebAssembly not supported	15		
+220	143631	false	closed	false	1		2017-04-21T08:41:14Z	2017-06-14T22:14:03Z	2017-06-14T22:14:03Z	WebAssembly not supported	15		
 221	158390	false	closed	false	0		2017-04-21T20:09:05Z	2017-04-29T00:23:19Z	2017-04-29T00:23:19Z	Node-ChakraCore debugging is broken	33		
 222	931192	true	closed	false	0	0	2017-04-21T23:00:57Z	2017-04-25T00:12:02Z	2017-04-25T00:12:02Z	test: fixing jslint error	34	931192	2017-04-25T00:12:02Z
 223	1898413	false	open	false	3		2017-04-23T06:17:51Z	2017-05-02T04:01:47Z		`!1 * (a &= -1)` behaves differently from `a &= -1`	240		
@@ -157,7 +157,7 @@
 226	931192	false	closed	false	0		2017-04-29T00:25:56Z	2017-05-19T01:26:34Z	2017-05-19T01:26:34Z	Handle UTF-8/UTF-16 conversion for inspector	36		
 227	931192	false	open	false	0		2017-04-29T00:26:42Z	2017-04-29T00:26:42Z		Enable and fix the inspector tests	12		
 228	931192	false	closed	false	0		2017-04-29T00:27:17Z	2017-05-18T23:35:25Z	2017-05-18T23:35:25Z	Add TTD support to inspector	11		
-229	1642635	false	open	false	0		2017-04-30T00:50:58Z	2017-04-30T21:18:31Z		Crashes when trying to run node-chakracore Ubuntu Xenial	2203		
+229	1642635	false	open	false	1		2017-04-30T00:50:58Z	2017-06-14T22:15:58Z		Crashes when trying to run node-chakracore Ubuntu Xenial	2203		
 230	931192	true	open	false	1		2017-05-02T00:57:41Z	2017-05-02T01:17:59Z		inspector: fixing lambda call frames	58		
 231	14864042	true	open	false	2		2017-05-02T06:15:32Z	2017-05-05T00:11:43Z		Reverse continue fix and updates for TTD info tracking.	37		
 232	931192	true	open	false	1		2017-05-02T18:11:45Z	2017-05-02T20:50:47Z		chakrashim: Updated ChakraCore to release/2.0	29		
@@ -168,13 +168,13 @@
 237	931192	false	open	false	0		2017-05-08T18:00:55Z	2017-05-08T18:02:31Z		Buffer.unsafeAlloc() still zero-fills	119		
 238	13093042	true	closed	false	9	12	2017-05-08T19:42:36Z	2017-05-15T20:30:55Z	2017-05-15T20:30:55Z	Merge N-API JSRT implementation from abi-stable-node	258	931192	2017-05-15T20:30:55Z
 239	931192	true	open	false	1		2017-05-08T22:37:58Z	2017-05-08T23:04:43Z		chakrashim,lib,test: fixing build/test issues	44		
-240	12488060	false	open	false	0		2017-05-10T17:15:53Z	2017-05-10T17:15:53Z		No windows ARM nightly builds	50		
+240	12488060	false	closed	false	0		2017-05-10T17:15:53Z	2017-06-14T22:16:37Z	2017-06-14T22:16:37Z	No windows ARM nightly builds	50		
 241	931192	true	closed	false	4	6	2017-05-10T22:55:36Z	2017-05-12T00:42:09Z	2017-05-12T00:42:08Z	chakrashim: relocate inspector code	49	931192	2017-05-12T00:42:08Z
 242	23497626	false	open	false	0		2017-05-11T02:26:13Z	2017-05-19T00:03:48Z		"When install package ""sync"", there is an error that the associated package ""fibers"" can't be installed"	521		
 243	931192	true	closed	false	1	0	2017-05-12T23:16:43Z	2017-05-13T05:46:13Z	2017-05-13T05:46:13Z	chakrashim: Updated ChakraCore to release/2.0	29	931192	2017-05-13T05:46:13Z
 244	931192	true	closed	false	4	20	2017-05-15T21:32:32Z	2017-05-17T20:33:39Z	2017-05-17T20:33:39Z	inspector: enable TimeTravel support	26	931192	2017-05-17T20:33:39Z
 245	12488060	true	open	false	8		2017-05-16T21:16:17Z	2017-05-18T00:21:58Z		Merge nodejs/node master	115		
-246	12488060	false	closed	false	0		2017-05-17T20:48:13Z	2017-05-18T23:08:03Z	2017-05-18T23:08:03Z	Latest test-addon-napi test failing with node-chakracore	28		
+246	12488060	false	open	false	4		2017-05-17T20:48:13Z	2017-06-14T22:19:12Z		Latest test-addon-napi test failing with node-chakracore	28		
 247	931192	true	open	false			2017-05-17T23:47:01Z	2017-05-19T01:03:14Z		Enable inspector tests for ChakraCore	33		
 248	4390745	true	closed	false	4	0	2017-05-18T15:07:38Z	2017-06-05T20:41:53Z	2017-06-05T20:41:53Z	chakrashim: enable IdleGC on cross platform	6		
 249	13093042	true	closed	false	3	0	2017-05-18T19:26:17Z	2017-05-18T23:08:03Z	2017-05-18T23:08:03Z	n-api: Fix test-addons-napi failures	66	13093042	2017-05-18T23:08:03Z
@@ -209,7 +209,7 @@
 278	931192	false	open	false	0		2017-05-31T22:50:02Z	2017-05-31T22:50:02Z		sequential/test-benchmark-net failing on Ubuntu 14.04	31		
 279	14864042	false	open	false	1		2017-06-01T03:26:44Z	2017-06-05T22:31:00Z		TTD: Emit on SIGINT not working	57		
 280	14864042	false	closed	false	0		2017-06-01T03:28:33Z	2017-06-02T01:29:21Z	2017-06-02T01:29:21Z	"inspector: In VSCode undefined values are shown as ""null"" in watch."	20		
-281	5490484	false	open	false	4		2017-06-01T14:34:04Z	2017-06-02T00:24:06Z		new Date().toLocaleDateString() invalid result	61		
+281	5490484	false	open	false	4		2017-06-01T14:34:04Z	2017-06-14T22:26:24Z		new Date().toLocaleDateString() invalid result	61		
 282	931192	true	closed	false	3	0	2017-06-01T17:50:39Z	2017-06-01T20:36:57Z	2017-06-01T20:36:57Z	Merge nodejs/master into xplat	26	931192	2017-06-01T20:36:57Z
 283	931192	true	closed	false	5	0	2017-06-01T22:27:03Z	2017-06-01T23:36:23Z	2017-06-01T23:36:23Z	Merge nodejs/master into xplat	25	931192	2017-06-01T23:36:23Z
 284	931192	true	closed	false	1	0	2017-06-02T00:25:22Z	2017-06-02T01:29:22Z	2017-06-02T01:29:21Z	chakrashim: fix undefined values in inspector	55	931192	2017-06-02T01:29:21Z
