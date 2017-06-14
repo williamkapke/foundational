@@ -1,4 +1,5 @@
 33	294689	false	closed	false	2		2011-02-11T19:51:44Z	2016-11-24T07:02:16Z	2011-03-01T13:36:45Z	Overflow detection on chunk trailers	119		
+181	1112157	false	closed	false	1		2014-07-22T07:26:39Z	2017-06-14T21:34:33Z	2017-06-14T21:34:33Z	The 'test-strict' and 'test-nonstrict' projects do not build on Windows (VS2013 Update 2)	130		
 184	3534453	true	open	false	14		2014-08-05T18:04:50Z	2017-01-12T16:12:43Z		Solaris doesn't necessarily have stdint.h, use inttypes.h	13		
 254	645684	true	open	false	4		2015-06-18T18:28:13Z	2017-05-20T12:08:33Z		Tolerate non-compliant status line responses	26		
 272	1241845	true	closed	false	4		2015-11-02T15:59:41Z	2017-01-17T13:35:25Z	2016-05-01T02:18:03Z	Makefile improvements	4		
@@ -10,18 +11,20 @@
 309	928965	false	open	false	6		2016-05-25T17:33:40Z	2017-05-05T11:45:29Z		Custom methods should be supported	36		
 311	404610	true	open	false	3		2016-05-28T10:26:13Z	2016-09-26T22:56:25Z		Allow non-standard HTTP method	64		
 316	1503976	false	open	false	0		2016-05-31T22:11:09Z	2017-06-14T20:23:28Z		http-parser loose interpretation of HTTP-version	61		
+318	1503976	false	open	false	0		2016-06-02T08:48:41Z	2017-06-14T21:30:22Z		http-parser impossible condition check	97		
+319	1503976	false	open	false	1		2016-06-02T08:53:40Z	2017-06-14T21:32:35Z		http-parser fails to detect chunked encoding at the end of a list	95		
 322	1503976	false	open	false	2		2016-06-24T19:30:31Z	2016-06-27T17:06:38Z		There's a brand new C++, header-only HTTP parser here!	63		
-323	649835	true	open	false	4		2016-06-30T05:28:49Z	2016-10-06T21:16:39Z		simplify parsing M-SEARCH method, group P methods	143		
+323	649835	true	closed	false	6		2016-06-30T05:28:49Z	2017-06-14T21:12:39Z	2017-06-14T21:12:39Z	simplify parsing M-SEARCH method, group P methods	143		
 324	4057921	false	closed	false	3		2016-07-03T13:47:59Z	2016-07-17T23:24:30Z	2016-07-17T23:24:30Z	Content-Length Header	149		
 325	275871	true	open	false	4		2016-07-04T08:59:58Z	2016-07-17T23:24:41Z		Fix Content-Length header parsing.	31		
 326	439929	true	open	false			2016-07-05T19:42:04Z	2016-07-05T21:17:06Z		add settings flags, refactor lenient_http_headers setting	87		
 327	17925342	false	closed	false	1		2016-07-07T07:10:56Z	2017-01-09T07:28:53Z	2017-01-09T07:28:53Z	on_message_complete callback doesn't invoke after an answer from squid proxy server	48		
 328	238531	false	closed	false	2		2016-07-10T03:56:59Z	2016-07-17T23:25:48Z	2016-07-17T23:25:48Z	Use `git-secure-tag` for releases	24		
-329	30030	false	open	false	3		2016-07-14T23:48:39Z	2016-10-19T17:12:44Z		Document support of (or lack of) HTTP2	4		
+329	30030	false	closed	false	3		2016-07-14T23:48:39Z	2017-06-14T21:28:45Z	2017-06-14T21:28:45Z	Document support of (or lack of) HTTP2	4		
 330	349754	false	open	false	3		2016-08-15T17:32:05Z	2016-08-16T17:21:14Z		Connection hanging after HPE_CB_headers_complete	42		
-331	1614246	false	open	false	0		2016-09-01T02:46:32Z	2016-09-01T02:46:32Z		Add content length check when handling http requests	367		
+331	1614246	false	closed	false	0		2016-09-01T02:46:32Z	2017-06-14T21:33:41Z	2017-06-14T21:33:41Z	Add content length check when handling http requests	374		
 332	1614246	false	open	false	0		2016-09-01T02:48:31Z	2016-09-01T03:23:28Z		Full body isn't received when writing chunks with small delay	131		
-333	5990337	false	open	false	1		2016-09-02T03:13:38Z	2016-09-19T21:01:10Z		Windows x64 compile warning	118		
+333	5990337	false	closed	false	1		2016-09-02T03:13:38Z	2017-06-14T21:28:33Z	2017-06-14T21:28:33Z	Windows x64 compile warning	118		
 334	9947279	true	open	false			2016-09-14T09:34:13Z	2016-09-15T18:15:10Z		build: vms and os400 support	0		
 335	1522494	true	closed	false	1		2016-09-23T08:46:14Z	2016-09-30T21:05:22Z	2016-09-30T21:05:22Z	Remove duplicate code	0		
 336	1935767	true	closed	false	1		2016-09-27T08:56:22Z	2016-09-27T10:36:27Z	2016-09-27T10:36:27Z	header: remove unneeded symbols from headers	21		
@@ -38,26 +41,26 @@
 347	863752	true	open	false	4		2016-12-29T12:55:10Z	2017-01-09T19:13:07Z		parser: fix handling of newlines before HTTP responses	28		
 348	271107	true	open	false	1		2017-01-01T21:53:54Z	2017-01-01T22:23:59Z		Unbreak `make install` in BSDs	24		
 349	9025382	true	closed	false	2		2017-01-08T19:07:06Z	2017-01-09T12:48:10Z	2017-01-09T12:48:10Z	Add line-by-line comments for http_parser_execute	0		
-350	10772249	false	open	false	0		2017-01-25T05:22:12Z	2017-01-25T05:22:12Z		http/2.0 parser support  	23		
+350	10772249	false	closed	false	1		2017-01-25T05:22:12Z	2017-06-14T21:27:57Z	2017-06-14T21:27:57Z	http/2.0 parser support  	23		
 351	1312290	true	open	false	0	0	2017-02-14T09:18:19Z	2017-02-14T09:18:19Z		Cython bindings -- Interested?	30		
 352	12488060	true	open	false	4		2017-02-15T20:19:29Z	2017-02-23T17:49:34Z		http header parsing	176		
 353	5990337	false	closed	false	1		2017-03-01T10:33:54Z	2017-03-13T09:43:22Z	2017-03-01T12:25:34Z	on_url did not parse http version ?	14		
 354	7495796	false	closed	false	1		2017-03-03T04:03:50Z	2017-03-03T08:06:33Z	2017-03-03T08:06:33Z	why not support char '_' in host of http	25		
 355	23631317	false	open	false	0		2017-03-06T14:13:56Z	2017-03-06T14:13:56Z		Status code callback not triggered in response	53		
-356	667105	false	open	false	4		2017-03-07T08:06:14Z	2017-03-14T18:02:17Z		[enhancement] set install_name on Darwin platforms	112		
-357	50925	true	open	false	1		2017-03-09T14:56:38Z	2017-06-12T12:11:09Z		Fix FALLTHROUGH warning in switch of GCC7	4		
+356	667105	false	closed	false	5		2017-03-07T08:06:14Z	2017-06-14T21:28:24Z	2017-06-14T21:28:24Z	[enhancement] set install_name on Darwin platforms	112		
+357	50925	true	open	false	3		2017-03-09T14:56:38Z	2017-06-14T21:10:45Z		Fix FALLTHROUGH warning in switch of GCC7	4		
 358	667105	true	open	false	0	0	2017-03-14T17:38:22Z	2017-03-14T17:38:22Z		Makefile: set install_name on Darwin, issue #356	21		
-359	667105	true	open	false	0	0	2017-03-14T18:01:44Z	2017-03-14T18:01:44Z		Makefile: set versions for SONAME correctly	44		
-360	1925803	true	open	false	0	0	2017-03-15T16:47:17Z	2017-03-15T16:47:17Z		Include stddef.h instead of sys/types.h.	17		
+359	667105	true	closed	false	0		2017-03-14T18:01:44Z	2017-06-14T21:09:52Z	2017-06-14T21:09:52Z	Makefile: set versions for SONAME correctly	44		
+360	1925803	true	closed	false	1		2017-03-15T16:47:17Z	2017-06-14T21:07:47Z	2017-06-14T21:07:47Z	Include stddef.h instead of sys/types.h.	17		
 361	247452	false	closed	false	0		2017-03-23T08:48:27Z	2017-03-23T09:52:39Z	2017-03-23T09:52:39Z	Is pipelining supported?	184		
 362	1213442	false	open	false	0		2017-04-05T12:29:47Z	2017-04-05T12:29:47Z		How to disable automatic chunks decoding?	46		
-363	705483	false	open	false	0		2017-04-14T04:47:23Z	2017-04-14T15:59:22Z		Upgrade header can be used to advertise protocol support	120		
-364	275871	true	open	false			2017-04-14T15:58:12Z	2017-04-14T16:02:51Z		Ignore Upgrade header outside of 101 response.	12		
-365	649320	false	open	false	0		2017-05-05T13:07:16Z	2017-05-11T20:01:51Z		Fails to build with gcc7 and -Werror	217		
+363	705483	false	open	false	1		2017-04-14T04:47:23Z	2017-06-14T21:22:39Z		Upgrade header can be used to advertise protocol support	116		
+364	275871	true	open	false	0		2017-04-14T15:58:12Z	2017-06-14T21:06:48Z		Ignore Upgrade header outside of 101 response.	12		
+365	649320	false	open	false	2		2017-05-05T13:07:16Z	2017-06-14T21:22:17Z		Fails to build with gcc7 and -Werror	217		
 366	54666	true	open	false	1		2017-05-16T06:02:28Z	2017-05-24T23:16:48Z		parser: fix HTTP version parsing	22		
-367	1611052	true	open	false	2		2017-05-20T12:16:23Z	2017-05-27T15:25:44Z		Tolerate non-compliant status line responses	64		
+367	1611052	true	open	false	3		2017-05-20T12:16:23Z	2017-06-14T21:04:51Z		Tolerate non-compliant status line responses	64		
 368	4170152	true	closed	false	3		2017-05-24T07:06:55Z	2017-05-25T02:26:58Z	2017-05-25T02:26:58Z	add: parse query_string and fragment	0		
 369	312912	true	open	false	1		2017-06-02T12:37:59Z	2017-06-05T11:27:11Z		ignore headers transfer_encoding_chunked and content_length to work with http assemblers.	58		
 370	8361063	true	closed	false	0	0	2017-06-04T11:41:58Z	2017-06-04T15:56:05Z	2017-06-04T15:56:05Z	Fix static library targets	26		
 371	3190488	false	open	false	0		2017-06-07T10:20:17Z	2017-06-07T10:20:17Z		http_status_str	30		
-372	3087849	false	open	false	3		2017-06-12T12:14:28Z	2017-06-12T18:20:18Z		Is http-parser alive?	27		
+372	3087849	false	open	false	4		2017-06-12T12:14:28Z	2017-06-14T21:13:43Z		Is http-parser alive?	27		
