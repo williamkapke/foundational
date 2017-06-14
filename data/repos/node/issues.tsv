@@ -921,7 +921,7 @@
 7473	783424	false	closed	false	4		2016-06-29T09:03:08Z	2016-06-29T19:05:56Z	2016-06-29T19:05:55Z	process.stdin.on('end', function(){}); After use chroot, the event can't be triggered in nodejs v4.4.6 LTS	216		
 7474	495647	false	closed	false	14		2016-06-29T10:45:01Z	2016-07-03T03:51:58Z	2016-07-03T03:51:58Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-06-29	439		
 7475	291301	true	closed	false	10		2016-06-29T13:30:18Z	2016-07-06T12:33:36Z	2016-07-06T12:33:36Z	New Buffer API backport to v4.x	212		
-7476	178512	true	open	false	30		2016-06-29T13:38:13Z	2017-06-14T17:20:06Z		tls: add host and port info to ECONNRESET errors	70		
+7476	178512	true	closed	false	31		2016-06-29T13:38:13Z	2017-06-14T19:53:40Z	2017-06-14T19:53:40Z	tls: add host and port info to ECONNRESET errors	70		
 7477	9373002	false	closed	false	18		2016-06-29T14:03:22Z	2016-06-30T17:30:16Z	2016-06-30T15:30:41Z	207 failures in v8 tests within node tree	114		
 7478	291301	false	closed	false	4		2016-06-29T14:14:00Z	2016-06-30T11:33:38Z	2016-06-30T11:33:38Z	build: --shared-openssl still builds openssl	25		
 7479	767105	true	closed	false	13		2016-06-29T16:36:32Z	2016-07-12T14:46:29Z	2016-07-12T14:46:28Z	Event Loop Guide grammar fixes	37		
@@ -4785,7 +4785,7 @@
 11344	17607	true	closed	false	1		2017-02-13T17:39:31Z	2017-02-14T17:31:33Z	2017-02-13T17:39:51Z	7.x backport: crypto: support OPENSSL_CONF again (and its dependencies)	42		
 11345	17607	true	closed	false	11		2017-02-13T17:40:29Z	2017-02-27T18:20:19Z	2017-02-16T17:24:16Z	7.x backport: crypto: support OPENSSL_CONF again (and its dependencies)	50		
 11346	275871	true	closed	false	12		2017-02-13T17:56:51Z	2017-06-01T15:00:46Z	2017-02-15T17:59:34Z	lib: remove simd support from util.format()	77		
-11347	1748653	true	open	false	10		2017-02-13T18:11:57Z	2017-06-02T07:33:26Z		errors, repl: migrate to use internal/errors.js	71		
+11347	1748653	true	open	false			2017-02-13T18:11:57Z	2017-06-14T19:22:33Z		errors, repl: migrate to use internal/errors.js	71		
 11348	733364	true	closed	false	5		2017-02-13T18:52:25Z	2017-03-07T07:22:40Z	2017-02-17T01:18:15Z	build: fix building with ninja on linux	83		
 11349	439929	true	closed	false	10		2017-02-13T20:04:22Z	2017-03-06T22:24:54Z	2017-03-06T22:24:54Z	tls: runtime deprecate _tls_legacy	62		
 11350	17607	true	open	false	0		2017-02-13T20:05:42Z	2017-02-16T17:35:52Z		doc: dns examples implied string args were arrays	23		
@@ -7016,7 +7016,7 @@
 13581	1902043	false	open	false	1		2017-06-09T16:13:36Z	2017-06-12T07:51:33Z		os.networkInterfaces() returns wrong MAC addresses	298		
 13582	1443911	false	open	false	0		2017-06-09T17:37:04Z	2017-06-09T17:37:04Z		n-api: missing binding.gyp in /test/addons-napi/test_instanceof/	52		
 13583	103353	false	open	false	2		2017-06-09T18:04:15Z	2017-06-09T20:49:24Z		async_hooks: not able to preserve continuation local storage inside Promises	238		
-13584	54666	false	open	false	3		2017-06-09T19:29:49Z	2017-06-10T16:20:48Z		https: https.Server should be more careful with passed options	48		
+13584	54666	false	closed	false	5		2017-06-09T19:29:49Z	2017-06-14T19:15:47Z	2017-06-14T19:15:47Z	https: https.Server should be more careful with passed options	48		
 13585	899444	true	open	false	6		2017-06-09T19:30:03Z	2017-06-12T23:04:22Z		async_hooks: proper id stacking for Promises	55		
 13586	96947	false	open	false	0		2017-06-09T20:13:56Z	2017-06-09T20:13:56Z		test: investigate flakiness - parallel/test-process-external-stdio-close	26		
 13587	718899	true	closed	false	2		2017-06-09T20:14:09Z	2017-06-12T23:36:24Z	2017-06-12T23:36:24Z	test: use mustNotCall in test-http-eof-on-connect	35		
@@ -7031,7 +7031,7 @@
 13596	13545	false	closed	false	1		2017-06-10T12:44:52Z	2017-06-10T13:09:57Z	2017-06-10T13:09:57Z	(win32) node 8 global node_modules path failure (./lib/node style)	67		
 13597	96947	false	open	false	0		2017-06-10T12:49:51Z	2017-06-10T12:49:51Z		test: investigate falkiness of 	20		
 13598	899444	true	closed	false	20	0	2017-06-10T16:31:23Z	2017-06-13T22:19:47Z	2017-06-13T22:19:46Z	v8.1.1 proposal	759	439929	2017-06-13T22:19:46Z
-13599	2842176	true	open	false	3		2017-06-10T18:14:46Z	2017-06-14T13:27:25Z		https: make opts optional & immutable when create	60		
+13599	2842176	true	closed	false	4		2017-06-10T18:14:46Z	2017-06-14T19:16:58Z	2017-06-14T19:16:58Z	https: make opts optional & immutable when create	60		
 13600	988441	false	closed	false	1		2017-06-10T18:25:55Z	2017-06-10T20:00:33Z	2017-06-10T20:00:33Z	"""Landing Pull Requests"" is incompatible with repo setup in CONTRIBUTING.md"	71		
 13601	54666	true	closed	false	7	2	2017-06-10T18:31:48Z	2017-06-13T23:21:56Z	2017-06-13T23:21:56Z	child_process: do not extend result for *Sync()	138	54666	2017-06-13T23:21:56Z
 13602	988441	true	open	false	1		2017-06-10T18:38:53Z	2017-06-10T19:47:50Z		doc: use HTTPS URL for suggested upstream remote	30		
@@ -7076,7 +7076,7 @@
 13641	931192	false	open	false	0		2017-06-12T22:49:17Z	2017-06-13T01:12:25Z		Issues building test addons with both VS2015 and VS2017 installed	407		
 13642	718899	false	open	false	2		2017-06-12T23:20:10Z	2017-06-14T02:18:45Z		Investigate flaky test/parallel/test-fs-watch on Raspberry Pi	24		
 13643	718899	true	open	false	0		2017-06-13T01:54:49Z	2017-06-14T13:25:22Z		test: refactor test-fs-read-stream	72		
-13644	439929	true	open	false			2017-06-13T03:19:20Z	2017-06-14T18:26:51Z		buffer: implement WHATWG Encoding Standard API	140		
+13644	439929	true	open	false			2017-06-13T03:19:20Z	2017-06-14T19:21:42Z		buffer: implement WHATWG Encoding Standard API	140		
 13645	718899	true	open	false	8		2017-06-13T03:53:45Z	2017-06-13T16:12:15Z		tools: update ESLint to v4.0.0	32		
 13646	617481	false	open	false	7		2017-06-13T04:41:32Z	2017-06-14T17:38:01Z		Discussion of implementing the Encoding Standard with ICU, and associated web platform tests	196		
 13647	490562	false	open	false	0		2017-06-13T05:08:12Z	2017-06-13T06:03:18Z		Crashes terminal on OS X and refuses subsequent input after prompting more than once (Node 8 only)	174		
@@ -7116,4 +7116,5 @@
 13681	8225332	false	open	false	0		2017-06-14T17:14:45Z	2017-06-14T17:14:45Z		Providing required modules the __required_from global variable 	51		
 13682	96947	false	open	false	0		2017-06-14T18:00:16Z	2017-06-14T18:00:16Z		test: `common.expectsError()` is subtly broken	72		
 13683	578	false	open	false	0		2017-06-14T18:17:21Z	2017-06-14T18:17:21Z		path.posix.relative returns different results for *nix and Windows versions of node	35		
-13684	9287	true	open	false	0	0	2017-06-14T18:30:06Z	2017-06-14T18:30:06Z		cluster: remove deprecated problematic API	309		
+13684	9287	true	open	false	2		2017-06-14T18:30:06Z	2017-06-14T19:28:52Z		cluster: remove deprecated problematic API	309		
+13686	96947	true	open	false	0	0	2017-06-14T19:49:55Z	2017-06-14T19:49:55Z		WIP: fix `common.expectsError` type checking	60		
