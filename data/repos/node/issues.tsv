@@ -6141,7 +6141,7 @@
 12703	24783272	true	closed	false	2		2017-04-27T19:16:12Z	2017-05-07T21:09:55Z	2017-05-07T21:09:55Z	modified test-repl-persistent-history to use common.mustCall	41		
 12704	718899	true	closed	false	3	0	2017-04-27T20:33:07Z	2017-04-30T20:40:51Z	2017-04-30T20:40:51Z	test: move test to sequential for reliability	45		
 12705	976081	true	closed	false	2		2017-04-27T20:40:19Z	2017-05-03T13:12:21Z	2017-05-03T13:12:21Z	n-api: remove unnecessary try-catch bracket from certain APIs	65		
-12706	1093990	false	open	false	0		2017-04-27T21:05:39Z	2017-04-27T21:05:39Z		The inspector `process.on(SIGPROF)` warning is non-standard.	88		
+12706	1093990	false	open	false	2		2017-04-27T21:05:39Z	2017-06-15T20:17:29Z		The inspector `process.on(SIGPROF)` warning is non-standard.	102		
 12707	1716463	true	closed	false	7		2017-04-27T21:17:40Z	2017-05-11T11:46:20Z	2017-05-01T17:24:41Z	src: support domains with empty labels in i18n 	109		
 12708	861080	false	open	false	0		2017-04-27T21:39:07Z	2017-04-27T21:39:07Z		Some of the Tests of the NodeJS_v_6_10_2 fail on Raspberry Pi 3, Raspbian	1159		
 12709	2512748	true	closed	false	5	0	2017-04-27T22:29:06Z	2017-05-11T19:38:00Z	2017-05-11T19:38:00Z	src: make SIGPROF message a real warning	37	2512748	2017-05-11T19:38:00Z
@@ -6619,7 +6619,7 @@
 13182	10393198	true	closed	false	4		2017-05-24T01:10:03Z	2017-05-26T08:54:24Z	2017-05-26T08:54:24Z	doc: fix code example in inspector.md	26		
 13183	718899	true	closed	false	1		2017-05-24T03:55:29Z	2017-05-26T05:21:38Z	2017-05-26T05:21:38Z	test: use common.mustNotCall in test-crypto-random	40		
 13184	718899	false	closed	false	6		2017-05-24T04:02:29Z	2017-06-10T05:32:12Z	2017-06-10T05:32:12Z	Investigate flaky test-tls-socket-close on macOS	114		
-13185	1416085	false	closed	false	4		2017-05-24T04:52:03Z	2017-06-15T17:24:25Z	2017-05-24T06:01:43Z	libcrypto.so.1.0.0 error	105		
+13185	1416085	false	closed	false	4		2017-05-24T04:52:03Z	2017-06-15T20:44:32Z	2017-05-24T06:01:43Z	libcrypto.so.1.0.0 error	105		
 13186	432351	true	closed	false	4	0	2017-05-24T05:18:00Z	2017-05-26T03:25:47Z	2017-05-26T03:25:47Z	test: skip test-bindings if inspector is disabled	70		
 13187	54666	true	closed	false	0	16	2017-05-24T05:39:06Z	2017-05-26T08:31:50Z	2017-05-26T08:31:50Z	lib,src: improve writev() performance for Buffers	195	54666	2017-05-26T08:31:50Z
 13188	432351	true	closed	false	5		2017-05-24T07:48:43Z	2017-05-27T03:57:24Z	2017-05-26T19:10:35Z	src: ignore unused warning for inspector-agent.cc	78		
@@ -6795,7 +6795,7 @@
 13358	983798	false	closed	false	8		2017-06-01T03:19:25Z	2017-06-05T17:58:57Z	2017-06-05T17:58:57Z	v8.0.0 — zlib.DeflateRaw only extensible via class keyword	118		
 13359	718899	true	closed	false	2	0	2017-06-01T05:27:39Z	2017-06-03T18:38:57Z	2017-06-03T18:38:57Z	test: add documentation for common.mustNotCall()	22		
 13360	498775	true	closed	false	1		2017-06-01T05:27:57Z	2017-06-01T21:27:03Z	2017-06-01T21:27:03Z	doc: fix date for 8.0.0 changelog	2		
-13361	10157008	false	open	false	11		2017-06-01T06:03:17Z	2017-06-13T18:43:23Z		Cannot find module 'internal/fs' when npm install on Node 8 using mac	211		
+13361	10157008	false	open	false	13		2017-06-01T06:03:17Z	2017-06-15T20:37:11Z		Cannot find module 'internal/fs' when npm install on Node 8 using mac	211		
 13362	1538624	true	closed	false	4	8	2017-06-01T06:38:02Z	2017-06-07T06:36:04Z	2017-06-07T06:36:04Z	url, i18n: update IDNA handling	60		
 13363	2352663	true	closed	false	2	2	2017-06-01T07:58:13Z	2017-06-06T08:20:17Z	2017-06-06T08:20:17Z	tools: fix order of ESLint rules	20		
 13364	403268	false	closed	false	1		2017-06-01T08:02:31Z	2017-06-09T19:50:00Z	2017-06-09T19:50:00Z	util.promisify custom implementation of child_process.exec throws away stdout and stderr in case of error	116		
@@ -7076,8 +7076,8 @@
 13641	931192	false	open	false	0		2017-06-12T22:49:17Z	2017-06-13T01:12:25Z		Issues building test addons with both VS2015 and VS2017 installed	407		
 13642	718899	false	open	false	2		2017-06-12T23:20:10Z	2017-06-14T02:18:45Z		Investigate flaky test/parallel/test-fs-watch on Raspberry Pi	24		
 13643	718899	true	open	false			2017-06-13T01:54:49Z	2017-06-14T21:44:25Z		test: refactor test-fs-read-stream	72		
-13644	439929	true	open	false			2017-06-13T03:19:20Z	2017-06-15T08:30:12Z		buffer: implement WHATWG Encoding Standard API	140		
-13645	718899	true	open	false	8		2017-06-13T03:53:45Z	2017-06-13T16:12:15Z		tools: update ESLint to v4.0.0	32		
+13644	439929	true	open	false			2017-06-13T03:19:20Z	2017-06-15T20:16:37Z		buffer: implement WHATWG Encoding Standard API	140		
+13645	718899	true	open	false	13		2017-06-13T03:53:45Z	2017-06-15T20:32:16Z		tools: update ESLint to v4.0.0	32		
 13646	617481	false	open	false	7		2017-06-13T04:41:32Z	2017-06-14T17:38:01Z		Discussion of implementing the Encoding Standard with ICU, and associated web platform tests	196		
 13647	490562	false	open	false	0		2017-06-13T05:08:12Z	2017-06-13T06:03:18Z		Crashes terminal on OS X and refuses subsequent input after prompting more than once (Node 8 only)	174		
 13648	54666	true	open	false	1		2017-06-13T05:14:06Z	2017-06-13T11:45:14Z		child_process: remove nextTick on IPC message	135		
@@ -7099,7 +7099,7 @@
 13664	219508	false	open	false	0		2017-06-13T21:54:25Z	2017-06-13T22:12:49Z		Assertion failure while changing priority of worker thread during GC	239		
 13665	6491112	false	open	false	6		2017-06-13T22:57:10Z	2017-06-14T20:21:30Z		util.format not printing % when there's multiple arguments	130		
 13666	6627780	true	closed	false	1		2017-06-13T22:59:56Z	2017-06-15T19:38:20Z	2017-06-15T19:38:20Z	doc: fixes a typo in the async_hooks documentation	49		
-13667	1922957	false	open	false	18		2017-06-14T00:16:02Z	2017-06-15T12:05:15Z		npm install/node-gyp rebuild fails on 8.1.1 (wrong dist-url)	55		
+13667	1922957	false	closed	false	20		2017-06-14T00:16:02Z	2017-06-15T20:03:42Z	2017-06-15T12:53:57Z	npm install/node-gyp rebuild fails on 8.1.1 (wrong dist-url)	55		
 13668	35353	false	open	false	0		2017-06-14T02:50:42Z	2017-06-14T03:33:07Z		process.cwd() does not match the PWD environment variable	97		
 13669	432351	true	open	false	0	0	2017-06-14T03:23:01Z	2017-06-14T03:23:01Z		src: remove void casts for clear_error_on_return	138		
 13670	592432	false	open	false	4		2017-06-14T04:20:45Z	2017-06-14T08:02:14Z		net: socket file names are being truncated, and may become unremovable	79		
@@ -7116,7 +7116,7 @@
 13681	8225332	false	open	false	0		2017-06-14T17:14:45Z	2017-06-14T17:14:45Z		Providing required modules the __required_from global variable 	51		
 13682	96947	false	open	false	0		2017-06-14T18:00:16Z	2017-06-14T18:00:16Z		test: `common.expectsError()` is subtly broken	72		
 13683	578	false	open	false	1		2017-06-14T18:17:21Z	2017-06-15T02:47:29Z		path.posix.relative returns different results for *nix and Windows versions of node	35		
-13684	9287	true	open	true	59		2017-06-14T18:30:06Z	2017-06-15T19:06:43Z		cluster: remove deprecated problematic API	309		
+13684	9287	true	open	true	61		2017-06-14T18:30:06Z	2017-06-15T20:12:11Z		cluster: remove deprecated problematic API	309		
 13685	2512748	true	open	false	0		2017-06-14T19:03:22Z	2017-06-15T03:34:42Z		test: refactor test-cluster-worker-isconnected.js	61		
 13686	96947	true	open	false	8		2017-06-14T19:49:55Z	2017-06-15T00:09:51Z		fix `common.expectsError` type checking	59		
 13687	15952	true	open	false			2017-06-14T20:04:09Z	2017-06-15T18:15:20Z		repl: make REPLServer.bufferedCommand private	76		
@@ -7129,13 +7129,13 @@
 13694	5358146	false	closed	false	9		2017-06-15T08:59:59Z	2017-06-15T18:25:46Z	2017-06-15T14:09:51Z	label : add a new label for reported issues which are being worked upon	73		
 13695	782880	true	open	false	2		2017-06-15T10:37:08Z	2017-06-15T11:27:40Z		Upgrade to OpenSSL-1.0.2l for Node-v6	77		
 13696	782880	true	open	false	1		2017-06-15T10:43:30Z	2017-06-15T18:02:19Z		Upgrade to OpenSSL-1.0.2l for Node-v4	77		
-13697	432351	true	open	false			2017-06-15T12:00:05Z	2017-06-15T20:00:25Z		test: check zlib version for createDeflateRaw	109		
+13697	432351	true	open	false			2017-06-15T12:00:05Z	2017-06-15T20:06:08Z		test: check zlib version for createDeflateRaw	109		
 13698	275871	true	open	false	0	0	2017-06-15T12:39:35Z	2017-06-15T12:39:35Z		src: don't set --icu_case_mapping flag on startup	17		
 13699	432351	true	open	false			2017-06-15T13:02:21Z	2017-06-15T17:47:36Z		test: add hasIntl to failing test	46		
 13700	1716463	true	open	false			2017-06-15T14:01:16Z	2017-06-15T18:13:55Z		doc: fix api docs style	53		
 13701	7271508	false	open	false	0		2017-06-15T14:04:26Z	2017-06-15T14:04:26Z		unable to install node 8 dependencies on ubuntu 16.4	231		
-13702	439929	true	open	false			2017-06-15T15:47:49Z	2017-06-15T17:30:35Z		cluster: remove deprecated API	78		
+13702	439929	true	open	false			2017-06-15T15:47:49Z	2017-06-15T20:27:47Z		cluster: remove deprecated API	78		
 13703	96947	true	open	false	0		2017-06-15T16:02:03Z	2017-06-15T16:03:57Z		cluster: tweak deprecation	50		
-13704	439929	true	open	false			2017-06-15T16:10:17Z	2017-06-15T19:02:21Z		cluster: update deprecated API	107		
+13704	439929	true	open	false			2017-06-15T16:10:17Z	2017-06-15T20:16:32Z		cluster: update deprecated API	107		
 13705	2512748	true	open	false	0	0	2017-06-15T18:15:32Z	2017-06-15T18:15:32Z		test: increase util.callbackify() coverage	40		
 13706	24300213	false	open	false	0		2017-06-15T19:10:15Z	2017-06-15T19:10:15Z		(node:7596) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: Something took too long to do.	36		
