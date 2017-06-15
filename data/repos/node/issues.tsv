@@ -212,7 +212,7 @@
 3659	7237097	false	closed	false	47		2015-11-04T10:35:25Z	2017-01-02T19:12:24Z	2017-01-02T17:00:38Z	Performance of 'http' + anonymous functions eventually slows down	600		
 3664	907301	false	closed	false	5		2015-11-04T19:52:31Z	2017-02-07T21:11:04Z	2017-02-07T21:11:04Z	npmrc file node installer generates needs to be changed	93		
 3665	1093990	false	open	false	9		2015-11-04T21:10:29Z	2017-04-13T14:22:06Z		Revisit unrefed handles and `beforeExit` internals	282		
-3675	75448	false	closed	false	11		2015-11-05T11:21:05Z	2017-03-23T00:10:21Z	2015-11-06T08:12:24Z	`child_process.spawn` does not work with `npm run scripts` on windows.	127		
+3675	75448	false	closed	false	12		2015-11-05T11:21:05Z	2017-06-15T21:29:11Z	2015-11-06T08:12:24Z	`child_process.spawn` does not work with `npm run scripts` on windows.	127		
 3688	1514495	false	closed	false	6		2015-11-06T07:25:54Z	2016-09-05T16:30:10Z	2015-11-06T16:21:29Z	Enable Vtune profiling support for JavaScript to provide source code level profiling in Nodejs 	195		
 3692	8949910	false	open	false	119		2015-11-06T16:05:41Z	2017-03-01T18:18:33Z		HTTP/HTTPS client requests throwing EPROTO	60		
 3715	4831315	false	closed	false	14		2015-11-08T23:39:16Z	2017-02-28T14:30:48Z	2017-02-07T21:06:36Z	GC segfault	65		
@@ -7077,11 +7077,11 @@
 13642	718899	false	open	false	2		2017-06-12T23:20:10Z	2017-06-14T02:18:45Z		Investigate flaky test/parallel/test-fs-watch on Raspberry Pi	24		
 13643	718899	true	open	false			2017-06-13T01:54:49Z	2017-06-14T21:44:25Z		test: refactor test-fs-read-stream	72		
 13644	439929	true	open	false			2017-06-13T03:19:20Z	2017-06-15T20:16:37Z		buffer: implement WHATWG Encoding Standard API	140		
-13645	718899	true	open	false	13		2017-06-13T03:53:45Z	2017-06-15T20:32:16Z		tools: update ESLint to v4.0.0	32		
+13645	718899	true	open	false			2017-06-13T03:53:45Z	2017-06-15T21:18:18Z		tools: update ESLint to v4.0.0	32		
 13646	617481	false	open	false	7		2017-06-13T04:41:32Z	2017-06-14T17:38:01Z		Discussion of implementing the Encoding Standard with ICU, and associated web platform tests	196		
 13647	490562	false	open	false	0		2017-06-13T05:08:12Z	2017-06-13T06:03:18Z		Crashes terminal on OS X and refuses subsequent input after prompting more than once (Node 8 only)	174		
 13648	54666	true	open	false	1		2017-06-13T05:14:06Z	2017-06-13T11:45:14Z		child_process: remove nextTick on IPC message	135		
-13649	718899	true	open	false	2		2017-06-13T05:53:17Z	2017-06-13T10:08:53Z		test: change deprecated method to recommended	44		
+13649	718899	true	closed	false	4		2017-06-13T05:53:17Z	2017-06-15T21:06:38Z	2017-06-15T21:06:38Z	test: change deprecated method to recommended	44		
 13650	9373002	true	open	false	0		2017-06-13T06:43:38Z	2017-06-15T06:04:40Z		doc: fix a few n-api doc issues	76		
 13651	9373002	true	open	false			2017-06-13T07:10:57Z	2017-06-15T19:37:12Z		n-api: avoid crash in napi_escape_scope()	66		
 13652	2078931	false	open	false	7		2017-06-13T08:08:52Z	2017-06-15T17:36:10Z		Converting String-object to Buffer fails to copy data	49		
@@ -7093,7 +7093,7 @@
 13658	15943089	true	open	false			2017-06-13T13:28:18Z	2017-06-13T16:01:48Z		build: fail linter if linting not available	28		
 13659	15943089	true	open	false	2		2017-06-13T13:48:58Z	2017-06-15T19:56:32Z		doc: note that fs.futimes only works on AIX >7.1	30		
 13660	988441	true	open	false	1		2017-06-13T15:33:44Z	2017-06-14T12:43:41Z		buffer: fix decoding base64 with whitespace	56		
-13661	718899	true	open	false	0	0	2017-06-13T16:58:47Z	2017-06-13T16:58:47Z		test: refactor test-fs-watch-stop-async	45		
+13661	718899	true	closed	false	1		2017-06-13T16:58:47Z	2017-06-15T21:18:29Z	2017-06-15T21:18:29Z	test: refactor test-fs-watch-stop-async	45		
 13662	415779	false	open	false	0		2017-06-13T19:29:59Z	2017-06-14T10:41:42Z		child_process does not reset the signal ignore mask before exec-ing causing hangs on OS X and errors on linux	203		
 13663	54666	false	closed	false	0		2017-06-13T19:59:34Z	2017-06-15T19:38:44Z	2017-06-15T19:38:44Z	doc: typo in async_hooks documentation	43		
 13664	219508	false	open	false	0		2017-06-13T21:54:25Z	2017-06-13T22:12:49Z		Assertion failure while changing priority of worker thread during GC	239		
@@ -7103,7 +7103,7 @@
 13668	35353	false	open	false	0		2017-06-14T02:50:42Z	2017-06-14T03:33:07Z		process.cwd() does not match the PWD environment variable	97		
 13669	432351	true	open	false	0	0	2017-06-14T03:23:01Z	2017-06-14T03:23:01Z		src: remove void casts for clear_error_on_return	138		
 13670	592432	false	open	false	4		2017-06-14T04:20:45Z	2017-06-14T08:02:14Z		net: socket file names are being truncated, and may become unremovable	79		
-13671	1976777	false	open	false	1		2017-06-14T06:11:32Z	2017-06-14T20:13:57Z		when child process self-disconnects, disconnect event is not triggered on itself.	154		
+13671	1976777	false	open	false	1		2017-06-14T06:11:32Z	2017-06-15T21:33:04Z		when cluster worker process self-disconnects, disconnect event is not triggered on itself.	154		
 13672	8878503	false	closed	false	4		2017-06-14T07:24:24Z	2017-06-15T07:24:48Z	2017-06-14T07:40:54Z	this link not available	7		
 13673	10826796	true	open	false	6		2017-06-14T08:48:47Z	2017-06-15T19:36:04Z		test: increase coverage for internal/module.js	33		
 13674	2352663	true	open	false	6		2017-06-14T08:53:22Z	2017-06-15T17:45:28Z		util: ignore invalid format specifiers	58		
@@ -7119,7 +7119,7 @@
 13684	9287	true	open	true	61		2017-06-14T18:30:06Z	2017-06-15T20:12:11Z		cluster: remove deprecated problematic API	309		
 13685	2512748	true	open	false	0		2017-06-14T19:03:22Z	2017-06-15T03:34:42Z		test: refactor test-cluster-worker-isconnected.js	61		
 13686	96947	true	open	false	8		2017-06-14T19:49:55Z	2017-06-15T00:09:51Z		fix `common.expectsError` type checking	59		
-13687	15952	true	open	false			2017-06-14T20:04:09Z	2017-06-15T18:15:20Z		repl: make REPLServer.bufferedCommand private	76		
+13687	15952	true	open	false	3		2017-06-14T20:04:09Z	2017-06-15T21:56:44Z		repl: make REPLServer.bufferedCommand private	76		
 13688	8578343	false	open	false	0		2017-06-14T21:56:06Z	2017-06-15T12:40:31Z		icu-case-mapping should not be specified; it's on by default and will go away in v8. 	41		
 13689	718899	true	open	false			2017-06-14T22:58:56Z	2017-06-15T18:08:38Z		test: refactor test-fs-watch-stop-sync	49		
 13690	10393198	true	open	false	0	0	2017-06-15T00:40:56Z	2017-06-15T00:40:56Z		test: remove needless RegExp flags	58		
@@ -7134,8 +7134,8 @@
 13699	432351	true	open	false			2017-06-15T13:02:21Z	2017-06-15T17:47:36Z		test: add hasIntl to failing test	46		
 13700	1716463	true	open	false			2017-06-15T14:01:16Z	2017-06-15T18:13:55Z		doc: fix api docs style	53		
 13701	7271508	false	open	false	0		2017-06-15T14:04:26Z	2017-06-15T14:04:26Z		unable to install node 8 dependencies on ubuntu 16.4	231		
-13702	439929	true	open	false			2017-06-15T15:47:49Z	2017-06-15T20:27:47Z		cluster: remove deprecated API	78		
+13702	439929	true	open	false			2017-06-15T15:47:49Z	2017-06-15T21:17:36Z		cluster: remove deprecated API	78		
 13703	96947	true	open	false	0		2017-06-15T16:02:03Z	2017-06-15T16:03:57Z		cluster: tweak deprecation	50		
-13704	439929	true	open	false			2017-06-15T16:10:17Z	2017-06-15T20:16:32Z		cluster: update deprecated API	107		
+13704	439929	true	open	false	2		2017-06-15T16:10:17Z	2017-06-15T21:29:57Z		cluster: update deprecated API	107		
 13705	2512748	true	open	false	0	0	2017-06-15T18:15:32Z	2017-06-15T18:15:32Z		test: increase util.callbackify() coverage	40		
 13706	24300213	false	open	false	0		2017-06-15T19:10:15Z	2017-06-15T19:10:15Z		(node:7596) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: Something took too long to do.	36		
