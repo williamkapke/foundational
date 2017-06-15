@@ -1442,7 +1442,7 @@
 7995	725842	true	open	false	4		2016-08-06T14:52:17Z	2017-05-26T19:26:38Z		doc: reword ambigous docs for socket.setNoDelay	47		
 7996	1935767	true	closed	false	12	4	2016-08-06T16:09:50Z	2016-08-08T15:25:53Z	2016-08-08T15:25:53Z	meta: clarify collaborators & ctc members relationships	50		
 7997	469365	false	closed	false	2		2016-08-06T17:53:09Z	2016-08-10T13:13:16Z	2016-08-10T13:13:16Z	docs(cluster): message event docs slightly wrong/confusing	72		
-7998	677994	true	closed	false	16		2016-08-06T18:14:04Z	2017-06-15T11:10:33Z	2016-08-12T18:08:23Z	cluster: alias suicide to exitedAfterDisconnect	75		
+7998	677994	true	closed	false	17		2016-08-06T18:14:04Z	2017-06-15T14:43:22Z	2016-08-12T18:08:23Z	cluster: alias suicide to exitedAfterDisconnect	75		
 7999	718899	true	closed	false	13	0	2016-08-06T19:15:39Z	2016-08-10T04:20:17Z	2016-08-10T04:20:17Z	tools: enable linting for chained properties	45		
 8000	718899	true	closed	false	11		2016-08-06T20:04:43Z	2016-08-09T21:42:39Z	2016-08-09T21:42:39Z	benchmark: favor === over ==	32		
 8001	121766	false	closed	false	1		2016-08-06T23:18:50Z	2016-08-09T18:44:47Z	2016-08-09T18:44:47Z	assert: deepEqual/deepStrictEqual throws on equivalent typed arrays	272		
@@ -4739,7 +4739,7 @@
 11298	439929	true	closed	false	16		2017-02-10T18:26:16Z	2017-04-24T18:17:22Z	2017-04-24T16:16:02Z	errors: assign error code to bootstrap_node created error	72		
 11299	4299420	false	closed	false	2		2017-02-10T19:10:24Z	2017-03-22T03:17:12Z	2017-03-22T03:17:12Z	New error system in WHATWG URL implementation	59		
 11300	439929	true	closed	false	9		2017-02-10T20:10:25Z	2017-04-27T22:46:20Z	2017-04-27T22:46:20Z	errors, child_process: migrate to using internal/errors	48		
-11301	1028226	true	open	false			2017-02-10T20:26:27Z	2017-06-15T13:09:23Z		internal/util: use internal/errors.js	57		
+11301	1028226	true	open	false	10		2017-02-10T20:26:27Z	2017-06-15T14:03:58Z		internal/util: use internal/errors.js	57		
 11302	1028226	true	closed	false	4		2017-02-10T21:19:34Z	2017-05-23T18:28:33Z	2017-05-23T18:28:33Z	errors,net: change internal/net.js to use internal/errors.js	57		
 11303	718899	true	closed	false	1		2017-02-10T21:57:07Z	2017-02-13T22:23:22Z	2017-02-13T22:23:22Z	test: refactor test-repl-sigint-nested-eval	44		
 11304	718899	true	closed	false	4	0	2017-02-10T22:14:21Z	2017-02-15T20:05:29Z	2017-02-15T20:05:29Z	assert: unlock the assert API	34		
@@ -6228,7 +6228,7 @@
 12791	96947	true	open	false			2017-05-02T14:50:34Z	2017-05-08T16:05:08Z		"doc: add ""Troubleshooting"" & ""best practices"""	232		
 12792	10393198	true	closed	false	10		2017-05-02T14:59:32Z	2017-05-04T18:15:55Z	2017-05-04T18:15:55Z	test: fix too optimistic guess in setproctitle	194		
 12793	15943089	false	open	false	3		2017-05-02T15:33:49Z	2017-05-12T15:02:55Z		Note that whatwg-url tests should not be modified	35		
-12794	794604	true	open	false	8		2017-05-02T17:29:48Z	2017-06-15T11:14:01Z		Add process.dlopenFlags	166		
+12794	794604	true	open	false	8		2017-05-02T17:29:48Z	2017-06-15T14:17:44Z		Add process.dlopenFlags	166		
 12795	10393198	true	closed	false	5		2017-05-02T17:35:37Z	2017-05-04T18:20:13Z	2017-05-04T18:20:13Z	test: add callback to fs.close() in test-fs-chmod	38		
 12796	718899	true	open	false			2017-05-02T18:32:02Z	2017-05-02T19:06:31Z		doc: edit CONTRIBUTING.md for clarity etc.	25		
 12797	16063953	true	closed	false	2	0	2017-05-02T18:33:45Z	2017-05-02T19:06:54Z	2017-05-02T19:06:54Z	test: add comment to all whatwg-url tests saying they should not be m…	43		
@@ -7116,20 +7116,21 @@
 13681	8225332	false	open	false	0		2017-06-14T17:14:45Z	2017-06-14T17:14:45Z		Providing required modules the __required_from global variable 	51		
 13682	96947	false	open	false	0		2017-06-14T18:00:16Z	2017-06-14T18:00:16Z		test: `common.expectsError()` is subtly broken	72		
 13683	578	false	open	false	1		2017-06-14T18:17:21Z	2017-06-15T02:47:29Z		path.posix.relative returns different results for *nix and Windows versions of node	35		
-13684	9287	true	open	true	30		2017-06-14T18:30:06Z	2017-06-15T14:00:14Z		cluster: remove deprecated problematic API	309		
+13684	9287	true	open	true	30		2017-06-14T18:30:06Z	2017-06-15T14:22:25Z		cluster: remove deprecated problematic API	309		
 13685	2512748	true	open	false	0		2017-06-14T19:03:22Z	2017-06-15T03:34:42Z		test: refactor test-cluster-worker-isconnected.js	61		
 13686	96947	true	open	false	8		2017-06-14T19:49:55Z	2017-06-15T00:09:51Z		fix `common.expectsError` type checking	59		
-13687	15952	true	open	false	0	0	2017-06-14T20:04:09Z	2017-06-14T20:04:09Z		repl: make REPLServer.bufferedCommand private	76		
+13687	15952	true	open	false	2		2017-06-14T20:04:09Z	2017-06-15T14:33:20Z		repl: make REPLServer.bufferedCommand private	76		
 13688	8578343	false	open	false	0		2017-06-14T21:56:06Z	2017-06-15T12:40:31Z		icu-case-mapping should not be specified; it's on by default and will go away in v8. 	41		
 13689	718899	true	open	false	0	0	2017-06-14T22:58:56Z	2017-06-14T22:58:56Z		test: refactor test-fs-watch-stop-sync	49		
 13690	10393198	true	open	false	0	0	2017-06-15T00:40:56Z	2017-06-15T00:40:56Z		test: remove needless RegExp flags	58		
 13691	432351	true	open	false	5		2017-06-15T05:26:15Z	2017-06-15T10:32:51Z		test: add crypto check to test-tls-wrap-econnreset	64		
 13692	592432	false	closed	false	2		2017-06-15T06:10:30Z	2017-06-15T09:40:40Z	2017-06-15T06:13:19Z	net: EADDRINUSE is an uncatchable error	89		
 13693	54666	true	open	false	0	0	2017-06-15T07:34:36Z	2017-06-15T07:34:36Z		test: improve http test reliability	54		
-13694	5358146	false	open	false	7		2017-06-15T08:59:59Z	2017-06-15T12:48:21Z		label : add a new label for reported issues which are being worked upon	73		
+13694	5358146	false	closed	false	8		2017-06-15T08:59:59Z	2017-06-15T14:09:51Z	2017-06-15T14:09:51Z	label : add a new label for reported issues which are being worked upon	73		
 13695	782880	true	open	false	2		2017-06-15T10:37:08Z	2017-06-15T11:27:40Z		Upgrade to OpenSSL-1.0.2l for Node-v6	77		
 13696	782880	true	open	false	0	0	2017-06-15T10:43:30Z	2017-06-15T10:43:30Z		Upgrade to OpenSSL-1.0.2l for Node-v4	77		
-13697	432351	true	open	false	2		2017-06-15T12:00:05Z	2017-06-15T13:20:06Z		test: check zlib version for createDeflateRaw	109		
+13697	432351	true	open	false			2017-06-15T12:00:05Z	2017-06-15T14:12:56Z		test: check zlib version for createDeflateRaw	109		
 13698	275871	true	open	false	0	0	2017-06-15T12:39:35Z	2017-06-15T12:39:35Z		src: don't set --icu_case_mapping flag on startup	17		
 13699	432351	true	open	false	0	0	2017-06-15T13:02:21Z	2017-06-15T13:02:21Z		test: add hasIntl to failing test	46		
 13700	1716463	true	open	false	0	0	2017-06-15T14:01:16Z	2017-06-15T14:01:16Z		doc: fix api docs style	53		
+13701	7271508	false	open	false	0		2017-06-15T14:04:26Z	2017-06-15T14:04:26Z		unable to install node 8 dependencies on ubuntu 16.4	231		
