@@ -6538,7 +6538,7 @@
 13101	17607	false	closed	false	1		2017-05-18T16:27:33Z	2017-05-18T17:20:19Z	2017-05-18T17:20:19Z	inspector/test-not-blocked-on-idle is failing semi-consistently	161		
 13102	718899	false	closed	false	7		2017-05-18T16:58:49Z	2017-05-22T03:07:19Z	2017-05-22T03:07:19Z	process.hrtime() unreliable?	510		
 13103	899444	true	open	false	0	0	2017-05-18T17:00:18Z	2017-05-18T17:00:18Z		v6.x backport for common.crashOnUnhandledRejection	0		
-13104	899444	true	open	false	0	0	2017-05-18T17:00:46Z	2017-05-18T17:00:46Z		v7.x backport for common.crashOnUnhandledRejection	13		
+13104	899444	true	closed	false	1		2017-05-18T17:00:46Z	2017-06-16T17:43:42Z	2017-06-16T17:43:42Z	v7.x backport for common.crashOnUnhandledRejection	13		
 13105	1854811	true	open	false	2		2017-05-18T17:40:02Z	2017-05-18T21:42:33Z		v4.x backport change https://github.com/nodejs/node/pull/12839	39		
 13106	54666	false	open	false	0		2017-05-18T19:45:22Z	2017-05-18T20:09:20Z		inspector: allow opt-out of console.* hijacking	79		
 13107	12057627	true	closed	false	6	8	2017-05-18T19:47:40Z	2017-05-23T17:16:43Z	2017-05-23T17:16:43Z	doc: How to publish N-API packages	21		
@@ -6847,7 +6847,7 @@
 13410	3892450	false	open	false	0		2017-06-02T18:17:29Z	2017-06-02T18:17:29Z		"node --expose_debug_as=v8debug gives ""bade option"""	50		
 13411	96947	true	open	false	20		2017-06-02T19:17:28Z	2017-06-07T12:46:00Z		test,fs: test fs.watch for `filename`	40		
 13412	13093042	true	closed	false	2		2017-06-02T19:36:24Z	2017-06-05T23:35:32Z	2017-06-05T23:35:32Z	test: fix build warning in addons-napi\test_object	55		
-13413	899444	true	open	false			2017-06-02T19:39:22Z	2017-06-09T19:34:53Z		doc: small makeover for onboarding.md	9		
+13413	899444	true	closed	false	4		2017-06-02T19:39:22Z	2017-06-16T17:45:59Z	2017-06-16T17:45:59Z	doc: small makeover for onboarding.md	9		
 13414	1377	false	closed	false	2		2017-06-02T19:43:03Z	2017-06-12T13:17:33Z	2017-06-12T13:17:33Z	consider using `in` instead of access for customInspectSymbol + inspect	169		
 13415	29151506	false	closed	false	11		2017-06-02T21:09:39Z	2017-06-03T20:02:29Z	2017-06-03T19:36:00Z	Slowloris.	131		
 13416	899444	true	open	false	4		2017-06-02T21:23:19Z	2017-06-06T20:53:56Z		async_hooks: tear down hooks if none are in use	73		
@@ -6900,8 +6900,8 @@
 13463	7136681	false	closed	false	1		2017-06-05T08:00:32Z	2017-06-06T15:20:08Z	2017-06-06T15:20:08Z	Node 8: Compiler warning about invalid format passed to fprintf when building in VS 2015	127		
 13464	732222	false	open	false	0		2017-06-05T08:24:04Z	2017-06-05T08:24:04Z		runInContext breaks node process	191		
 13465	21218718	false	open	false	24		2017-06-05T08:43:31Z	2017-06-05T15:33:15Z		Error when writing huge of content to a file json	80		
-13466	275871	true	closed	false	15		2017-06-05T08:59:45Z	2017-06-15T18:06:27Z	2017-06-15T18:06:27Z	doc: update minimum g++ version to 4.9.4	94		
-13467	899444	true	open	false	6		2017-06-05T10:02:40Z	2017-06-07T19:26:48Z		buffer: add constants with max buffer and string lengths	62		
+13466	275871	true	closed	false	15		2017-06-05T08:59:45Z	2017-06-16T17:23:20Z	2017-06-15T18:06:27Z	doc: update minimum g++ version to 4.9.4	94		
+13467	899444	true	closed	false	7		2017-06-05T10:02:40Z	2017-06-16T17:53:37Z	2017-06-16T17:53:37Z	buffer: add constants with max buffer and string lengths	62		
 13468	13941347	false	closed	false	6		2017-06-05T10:10:50Z	2017-06-05T23:29:59Z	2017-06-05T23:29:59Z	fileNameWithPrefix and fileNameWithPostfix	47		
 13469	557590	false	closed	false	5		2017-06-05T10:29:10Z	2017-06-09T13:59:44Z	2017-06-09T13:59:44Z	Documentation mismatch for N-API structures	140		
 13470	731796	false	closed	false	1		2017-06-05T11:19:35Z	2017-06-08T17:45:36Z	2017-06-08T17:45:36Z	Unix socket in HTTPS causes cert error even when `rejectUnauthorized` is off	134		
@@ -6912,7 +6912,7 @@
 13475	439929	false	closed	false	7		2017-06-05T15:30:08Z	2017-06-08T12:39:29Z	2017-06-08T12:39:29Z	8.1.0 Tracking Issue	57		
 13476	25031476	true	open	false			2017-06-05T16:17:51Z	2017-06-15T17:50:16Z		errors,tls_wrap: migrate to use internal/errors.js	37		
 13477	1941275	false	closed	false	0		2017-06-05T16:26:31Z	2017-06-16T16:51:01Z	2017-06-16T16:51:01Z	Debugger doesn't listen on IPv6 addresses	44		
-13478	287917	true	open	false			2017-06-05T17:22:58Z	2017-06-16T16:50:14Z		inspector: perform DNS lookup for host	37		
+13478	287917	true	closed	false	23		2017-06-05T17:22:58Z	2017-06-16T17:01:23Z	2017-06-16T16:51:01Z	inspector: perform DNS lookup for host	37		
 13479	718899	false	open	false	0		2017-06-05T18:01:11Z	2017-06-05T18:01:11Z		Investigate flaky test addons/symlinked-module/submodule	33		
 13480	718899	true	closed	false	2		2017-06-05T18:23:52Z	2017-06-08T03:07:27Z	2017-06-08T03:07:27Z	test: refactor domain tests	47		
 13481	17607	true	closed	false	3	2	2017-06-05T19:37:06Z	2017-06-07T19:55:20Z	2017-06-07T19:55:20Z	lib: return this from net.Socket.end()	32	17607	2017-06-07T19:55:20Z
@@ -7015,9 +7015,9 @@
 13580	15943089	true	open	false	0	0	2017-06-09T15:41:47Z	2017-06-09T15:41:47Z		test: move test-debug-brk to sequential	39		
 13581	1902043	false	open	false	1		2017-06-09T16:13:36Z	2017-06-12T07:51:33Z		os.networkInterfaces() returns wrong MAC addresses	298		
 13582	1443911	false	open	false	0		2017-06-09T17:37:04Z	2017-06-09T17:37:04Z		n-api: missing binding.gyp in /test/addons-napi/test_instanceof/	52		
-13583	103353	false	open	false	2		2017-06-09T18:04:15Z	2017-06-09T20:49:24Z		async_hooks: not able to preserve continuation local storage inside Promises	238		
+13583	103353	false	closed	false	3		2017-06-09T18:04:15Z	2017-06-16T17:44:05Z	2017-06-16T17:44:05Z	async_hooks: not able to preserve continuation local storage inside Promises	238		
 13584	54666	false	closed	false	5		2017-06-09T19:29:49Z	2017-06-14T19:15:47Z	2017-06-14T19:15:47Z	https: https.Server should be more careful with passed options	48		
-13585	899444	true	open	false	6		2017-06-09T19:30:03Z	2017-06-12T23:04:22Z		async_hooks: proper id stacking for Promises	55		
+13585	899444	true	closed	false	10		2017-06-09T19:30:03Z	2017-06-16T17:43:10Z	2017-06-16T17:43:10Z	async_hooks: proper id stacking for Promises	55		
 13586	96947	false	open	false	0		2017-06-09T20:13:56Z	2017-06-09T20:13:56Z		test: investigate flakiness - parallel/test-process-external-stdio-close	26		
 13587	718899	true	closed	false	2		2017-06-09T20:14:09Z	2017-06-12T23:36:24Z	2017-06-12T23:36:24Z	test: use mustNotCall in test-http-eof-on-connect	35		
 13588	54666	false	open	false	1		2017-06-09T20:21:24Z	2017-06-10T14:03:21Z		test: test-http(s)-set-timeout-server.js tests should be more similar	71		
@@ -7076,14 +7076,14 @@
 13641	931192	false	open	false	0		2017-06-12T22:49:17Z	2017-06-13T01:12:25Z		Issues building test addons with both VS2015 and VS2017 installed	407		
 13642	718899	false	open	false	2		2017-06-12T23:20:10Z	2017-06-14T02:18:45Z		Investigate flaky test/parallel/test-fs-watch on Raspberry Pi	24		
 13643	718899	true	open	false	3		2017-06-13T01:54:49Z	2017-06-16T16:03:38Z		test: refactor test-fs-read-stream	72		
-13644	439929	true	open	false	7		2017-06-13T03:19:20Z	2017-06-16T16:59:36Z		buffer: implement WHATWG Encoding Standard API	140		
+13644	439929	true	open	false	8		2017-06-13T03:19:20Z	2017-06-16T17:01:23Z		buffer: implement WHATWG Encoding Standard API	140		
 13645	718899	true	open	false	21		2017-06-13T03:53:45Z	2017-06-16T16:25:20Z		tools: update ESLint to v4.0.0	32		
-13646	617481	false	open	false	7		2017-06-13T04:41:32Z	2017-06-14T17:38:01Z		Discussion of implementing the Encoding Standard with ICU, and associated web platform tests	196		
+13646	617481	false	open	false	8		2017-06-13T04:41:32Z	2017-06-16T17:18:56Z		Discussion of implementing the Encoding Standard with ICU, and associated web platform tests	196		
 13647	490562	false	open	false	0		2017-06-13T05:08:12Z	2017-06-13T06:03:18Z		Crashes terminal on OS X and refuses subsequent input after prompting more than once (Node 8 only)	174		
 13648	54666	true	open	false	1		2017-06-13T05:14:06Z	2017-06-13T11:45:14Z		child_process: remove nextTick on IPC message	135		
 13649	718899	true	closed	false	4		2017-06-13T05:53:17Z	2017-06-15T21:06:38Z	2017-06-15T21:06:38Z	test: change deprecated method to recommended	44		
 13650	9373002	true	open	false	2		2017-06-13T06:43:38Z	2017-06-16T04:50:50Z		doc: fix a few n-api doc issues	76		
-13651	9373002	true	open	false			2017-06-13T07:10:57Z	2017-06-16T16:49:07Z		n-api: avoid crash in napi_escape_scope()	66		
+13651	9373002	true	open	false			2017-06-13T07:10:57Z	2017-06-16T17:13:46Z		n-api: avoid crash in napi_escape_scope()	66		
 13652	2078931	false	open	false	7		2017-06-13T08:08:52Z	2017-06-16T15:24:42Z		Converting String-object to Buffer fails to copy data	49		
 13653	432351	true	closed	false	0		2017-06-13T08:10:42Z	2017-06-13T16:16:00Z	2017-06-13T16:16:00Z	lib: correct typo in createSecureContext	32		
 13654	96947	false	open	false	0		2017-06-13T10:08:39Z	2017-06-13T10:08:39Z		test: investigate test-dgram-implicit-bind	26		
@@ -7150,7 +7150,9 @@
 13715	5476382	false	closed	false	3		2017-06-16T07:50:11Z	2017-06-16T11:30:40Z	2017-06-16T11:30:40Z	Incorrect opening/closing quote in Assert message	66		
 13716	5832730	true	open	false			2017-06-16T09:41:41Z	2017-06-16T13:29:02Z		doc: fix child_process.md	41		
 13717	976081	true	open	false	0	0	2017-06-16T14:15:16Z	2017-06-16T14:15:16Z		N-API: Implement Promise	100		
-13718	10393198	true	open	false	0	0	2017-06-16T15:07:02Z	2017-06-16T15:07:02Z		benchmark: remove needless RegExp capturing	14		
+13718	10393198	true	open	false	0		2017-06-16T15:07:02Z	2017-06-16T17:21:32Z		benchmark, libs: remove needless RegExp capturing	56		
 13719	115237	true	open	false	0		2017-06-16T15:50:55Z	2017-06-16T16:08:48Z		src,lib,test,doc: correct misspellings	67		
-13720	10393198	true	open	false	0	0	2017-06-16T16:29:09Z	2017-06-16T16:29:09Z		readline, repl, url, util: remove needless RegExp capturing	67		
+13720	10393198	true	open	false	5		2017-06-16T16:29:09Z	2017-06-16T17:07:59Z		readline, repl, url, util: remove needless RegExp capturing	66		
 13721	718899	true	open	false	0	0	2017-06-16T17:00:11Z	2017-06-16T17:00:11Z		test: refactor test-fs-watchfile	50		
+13722	439929	false	open	false	0		2017-06-16T17:17:36Z	2017-06-16T17:17:36Z		Including windows-1252 conversion in small-icu	38		
+13723	2842176	true	open	false	0	0	2017-06-16T17:31:18Z	2017-06-16T17:31:18Z		[WIP]dns: make `dns.setServers` support customized port	80		
