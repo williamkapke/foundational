@@ -45,6 +45,7 @@
 1180	2414252	false	closed	false	19		2015-03-17T21:35:00Z	2017-01-10T12:17:40Z	2016-04-10T23:34:08Z	CreateReadStream doesn't close the file	104		
 1271	275871	false	closed	false	19		2015-03-26T15:30:40Z	2017-02-15T00:06:12Z	2017-02-15T00:06:12Z	timer,domain: timers don't maintain order after exception	63		
 1278	532414	false	closed	false	37		2015-03-26T19:55:14Z	2016-08-22T21:08:42Z	2016-02-12T21:20:04Z	Compressed packages	136		
+1325	782880	true	closed	false	27		2015-04-02T16:23:07Z	2017-06-18T13:29:27Z	2015-04-04T03:43:20Z	Upgrade to openssl-1.0.2a (Part1)	166		
 1374	10247	false	closed	false	16		2015-04-08T13:46:19Z	2016-10-21T07:20:28Z	2015-09-03T06:13:19Z	Fatal Error (Abort) creating string larger than 268435440 bytes	93		
 1462	238531	false	closed	false	27		2015-04-18T08:08:35Z	2017-05-30T04:08:39Z	2017-05-30T04:08:39Z	Removing `newSession`/`resumeSession`	83		
 1495	902041	false	open	false	31		2015-04-21T23:54:21Z	2017-05-30T14:08:51Z		TLS Module: The default ecdhCurve, prime256v1 (aka NIST P-256) is not safe.	64		
@@ -5143,7 +5144,7 @@
 11702	6639188	false	open	false	0		2017-03-05T22:32:19Z	2017-03-05T23:24:12Z		Discussion: Deploying nodejs apps to end-users machine	206		
 11703	781746	false	open	false	6		2017-03-05T23:24:49Z	2017-04-26T20:03:46Z		Make warnings more beginner-friendly	84		
 11704	10393198	false	closed	false	2		2017-03-05T23:54:58Z	2017-03-14T13:45:37Z	2017-03-14T13:45:37Z	Thank you	104		
-11705	3109072	true	open	false	24		2017-03-06T00:27:41Z	2017-04-01T11:20:30Z		crypto: add sign/verify support for RSASSA-PSS	99		
+11705	3109072	true	closed	false	26		2017-03-06T00:27:41Z	2017-06-18T13:20:06Z	2017-04-01T11:31:04Z	crypto: add sign/verify support for RSASSA-PSS	99		
 11706	718899	true	closed	false	5		2017-03-06T03:35:16Z	2017-04-18T00:21:05Z	2017-03-09T09:48:03Z	test: test buffer behavior when zeroFill undefined	93		
 11707	4985201	false	closed	false	2		2017-03-06T05:54:27Z	2017-03-10T02:19:11Z	2017-03-06T07:13:23Z	URL parser inconsistency.	45		
 11708	1538624	true	closed	false	8		2017-03-06T07:00:52Z	2017-03-11T02:29:12Z	2017-03-11T02:29:12Z	util: throw toJSON errors when formatting %j	65		
@@ -5616,6 +5617,7 @@
 12177	374012	false	open	false	0		2017-04-03T06:38:53Z	2017-05-27T22:55:16Z		Type confusion bugs in process_wrap.cc.	77		
 12178	374012	false	closed	false	4		2017-04-03T06:41:08Z	2017-06-05T21:14:48Z	2017-06-05T21:14:48Z	Type confusion bug in HTTP parser	89		
 12179	374012	false	open	false	5		2017-04-03T06:43:39Z	2017-04-12T21:10:44Z		Type confusion bug in WriteFloatGeneric	71		
+12180	11638619	false	open	false	1		2017-04-03T08:25:06Z	2017-06-18T13:52:35Z		Shebang parsing is slightly different when using the --check flag	137		
 12181	3109072	true	closed	false	9		2017-04-03T10:09:25Z	2017-05-15T20:36:57Z	2017-04-14T21:47:53Z	doc: path functions ignore trailing slashes	42		
 12182	2931196	true	closed	false	11		2017-04-03T11:14:08Z	2017-04-07T08:01:29Z	2017-04-05T02:53:13Z	Implement assert.isInstanceOf()	69		
 12183	2291463	true	closed	false	12	2	2017-04-03T11:49:50Z	2017-04-25T05:08:57Z	2017-04-25T05:08:57Z	process: use rest parameters in nextTick.	58		
@@ -5637,7 +5639,7 @@
 12199	718899	true	closed	false	5		2017-04-04T03:48:32Z	2017-06-17T23:59:46Z	2017-04-06T02:06:29Z	test: remove disabled debugger test	63		
 12200	275871	true	closed	false	2	0	2017-04-04T07:45:40Z	2017-04-13T19:24:07Z	2017-04-13T19:24:06Z	build: --without-ssl implies --without-inspector	26		
 12201	15943089	true	closed	false	0	0	2017-04-04T09:16:09Z	2017-04-09T17:29:57Z	2017-04-09T17:29:57Z	build: don't test addons-napi twice	63	15943089	2017-04-09T17:29:57Z
-12202	1028226	true	closed	false	5		2017-04-04T10:00:10Z	2017-04-19T18:10:01Z	2017-04-19T18:10:01Z	module: standardize strip shebang behaviour	67		
+12202	1028226	true	closed	false	6		2017-04-04T10:00:10Z	2017-06-18T13:57:10Z	2017-04-19T18:10:01Z	module: standardize strip shebang behaviour	67		
 12203	1716463	true	closed	false	9		2017-04-04T10:41:53Z	2017-04-10T22:19:49Z	2017-04-10T16:58:30Z	url: trim leading slashes of file URL paths	53		
 12204	432351	true	closed	false	6		2017-04-04T11:23:20Z	2017-04-05T13:33:15Z	2017-04-05T13:33:15Z	build: create test_addons function	55		
 12205	25959272	true	closed	false	0	0	2017-04-04T12:47:42Z	2017-05-27T10:16:40Z	2017-05-27T10:16:40Z	Readme.md	48		
@@ -5728,7 +5730,7 @@
 12290	4044581	true	closed	false	1		2017-04-09T14:34:22Z	2017-04-11T09:47:23Z	2017-04-11T09:47:23Z	test: fix allocUnsafe uninitialized buffer check	61		
 12291	10393198	false	closed	false	8		2017-04-09T16:44:34Z	2017-04-11T09:36:38Z	2017-04-11T09:36:38Z	doc: are `os.uptime()` returned type and remark correct?	51		
 12292	9489084	false	closed	false	3		2017-04-09T17:14:13Z	2017-04-09T21:28:00Z	2017-04-09T17:22:28Z	Array.prototype.map unexpected behaviour with parseInt 	94		
-12293	718899	true	closed	false	18		2017-04-09T17:56:54Z	2017-04-13T18:34:31Z	2017-04-12T21:30:47Z	assert.fail() accept a single argument or two arguments 	156		
+12293	718899	true	closed	false	19		2017-04-09T17:56:54Z	2017-06-18T13:34:34Z	2017-04-12T21:30:47Z	assert.fail() accept a single argument or two arguments 	156		
 12294	10393198	true	closed	false	16		2017-04-09T19:44:30Z	2017-06-18T09:08:21Z	2017-04-11T09:38:12Z	doc: update os.uptime() and process.uptime() descriptions	24		
 12295	11045284	false	open	false	0		2017-04-09T22:15:17Z	2017-04-09T22:15:17Z		Possibility for ES6 import/export usage via harmony flags.	60		
 12296	10393198	true	closed	false	1		2017-04-09T23:57:27Z	2017-05-15T15:53:44Z	2017-04-12T00:25:22Z	doc: modernize and fix code examples in path.md	42		
@@ -5740,8 +5742,8 @@
 12302	432351	true	closed	false	5		2017-04-10T13:29:33Z	2017-06-18T00:15:33Z	2017-04-12T11:09:16Z	src: guard bundled_ca/openssl_ca with HAVE_OPENSSL	74		
 12303	432351	true	closed	false	3		2017-04-10T13:45:37Z	2017-05-15T15:55:30Z	2017-04-12T10:59:46Z	src: guard default_inspector_port	57		
 12304	9373002	false	open	false	0		2017-04-10T15:25:48Z	2017-04-10T15:25:48Z		Review latest coverity issues reported on node_api.cc	23		
-12305	327019	true	closed	false	6		2017-04-10T15:53:36Z	2017-05-15T20:49:40Z	2017-04-16T00:13:00Z	test: replace [].join() with ''.repeat()	29		
-12306	5886475	true	closed	false	2		2017-04-10T16:01:26Z	2017-04-14T21:09:12Z	2017-04-14T21:09:12Z	test: add internal/fs tests	56		
+12305	327019	true	closed	false	7		2017-04-10T15:53:36Z	2017-06-18T13:16:35Z	2017-04-16T00:13:00Z	test: replace [].join() with ''.repeat()	29		
+12306	5886475	true	closed	false	3		2017-04-10T16:01:26Z	2017-06-18T13:02:14Z	2017-04-14T21:09:12Z	test: add internal/fs tests	56		
 12307	115237	true	closed	false	0		2017-04-10T16:16:50Z	2017-04-11T09:39:00Z	2017-04-11T09:39:00Z	doc: add link on logo to README	37		
 12308	11459446	false	closed	false	11		2017-04-10T16:36:42Z	2017-05-12T14:51:28Z	2017-05-12T14:51:28Z	Fatal V8 Compiler Error	146		
 12309	9373002	true	closed	false	6		2017-04-10T17:15:27Z	2017-04-12T19:24:02Z	2017-04-12T19:24:02Z	doc: drop PPC BE from supported platforms	68		
@@ -5778,8 +5780,8 @@
 12340	4044581	true	open	false	0	0	2017-04-11T13:50:18Z	2017-04-11T13:50:18Z		doc: use GH issue/PR shorthand in commit messages	41		
 12341	899444	false	closed	false	7		2017-04-11T18:12:51Z	2017-05-04T13:48:27Z	2017-05-04T13:48:27Z	doc,fs: document WHATWG URL support	170		
 12342	275871	true	closed	false	3		2017-04-11T18:26:00Z	2017-05-05T11:19:59Z	2017-04-18T20:05:49Z	net: micro cleanups	25		
-12343	2512748	true	closed	false	5		2017-04-11T18:30:48Z	2017-06-05T20:36:07Z	2017-04-18T17:47:41Z	test: add cwd ENOENT known issue test	49		
-12344	275871	true	closed	false	2	0	2017-04-11T18:49:05Z	2017-04-19T09:21:37Z	2017-04-19T09:21:37Z	src: don't call uv_run() after 'exit' event	14		
+12343	2512748	true	closed	false	6		2017-04-11T18:30:48Z	2017-06-18T13:33:56Z	2017-04-18T17:47:41Z	test: add cwd ENOENT known issue test	49		
+12344	275871	true	closed	false	2		2017-04-11T18:49:05Z	2017-06-18T13:42:11Z	2017-04-19T09:21:37Z	src: don't call uv_run() after 'exit' event	14		
 12345	13050025	false	open	false	13		2017-04-11T20:02:02Z	2017-04-12T21:27:47Z		installer will not overwrite user's .npmrc, even if invalid	59		
 12346	10441177	false	closed	false	8		2017-04-11T20:07:56Z	2017-04-12T10:20:00Z	2017-04-11T20:35:25Z	QUESTION: How to write sync code in Node.js?	63		
 12347	718899	true	closed	false	8		2017-04-11T20:10:43Z	2017-05-16T05:27:26Z	2017-05-15T20:35:52Z	test: add test-benchmark-crypto	52		
@@ -5796,9 +5798,9 @@
 12358	677994	true	closed	false	0		2017-04-12T10:52:26Z	2017-04-13T22:33:30Z	2017-04-13T22:33:30Z	doc: limit lines to 80 cols in internal README	24		
 12359	1430657	false	closed	false	6		2017-04-12T10:55:23Z	2017-04-14T19:18:47Z	2017-04-14T19:18:47Z	exit/beforeExit events not fired on Ubuntu 	115		
 12360	5008982	false	open	false	0		2017-04-12T11:28:18Z	2017-04-12T11:28:18Z		Latest nodejs v8 nightly build dont have --debug-brk option	30		
-12361	54666	true	closed	false	5		2017-04-12T13:25:24Z	2017-05-15T20:28:52Z	2017-04-14T21:09:33Z	buffer: various performance improvements	795		
+12361	54666	true	closed	false	7		2017-04-12T13:25:24Z	2017-06-18T13:25:28Z	2017-04-14T21:09:33Z	buffer: various performance improvements	795		
 12362	114642	false	closed	false	19		2017-04-12T13:30:44Z	2017-04-13T14:50:27Z	2017-04-13T14:50:27Z	doc: confusing language in util.format() docs	34		
-12363	567540	true	closed	false	10		2017-04-12T15:10:16Z	2017-04-14T21:49:29Z	2017-04-14T21:49:29Z	deps: update node-inspect to v1.11.2	229		
+12363	567540	true	closed	false	11		2017-04-12T15:10:16Z	2017-06-18T13:03:53Z	2017-04-14T21:49:29Z	deps: update node-inspect to v1.11.2	229		
 12364	323878	false	closed	false	37		2017-04-12T15:17:07Z	2017-05-29T15:35:35Z	2017-05-29T15:35:35Z	regression: 3rd party debuggers are incompatible with node8 nighlies	135		
 12365	9373002	true	closed	false	1		2017-04-12T15:40:50Z	2017-04-14T21:09:50Z	2017-04-14T21:09:50Z	n-api: fix coverity scan report	42		
 12366	899444	true	closed	false	8		2017-04-12T17:52:53Z	2017-04-14T21:09:02Z	2017-04-14T21:09:02Z	src: reduce number of exported symbols	48		
@@ -5806,7 +5808,7 @@
 12368	7670632	true	closed	false	3		2017-04-12T18:28:58Z	2017-04-14T20:31:13Z	2017-04-14T20:31:13Z	n-api: add string api for latin1 encoding and new test cases	35		
 12369	3109072	false	closed	false	0		2017-04-12T19:56:50Z	2017-04-14T21:09:37Z	2017-04-14T21:09:37Z	Multiple segmentation faults in contextify when parsing options	41		
 12370	3109072	false	closed	false	0		2017-04-12T19:56:57Z	2017-04-14T21:09:37Z	2017-04-14T21:09:37Z	os.userInfo can cause segmentation fault	42		
-12371	3109072	true	closed	false	6		2017-04-12T20:03:19Z	2017-05-16T17:32:15Z	2017-04-14T21:08:51Z	os,contextify: fix segfaults and CHECK failure	51		
+12371	3109072	true	closed	false	7		2017-04-12T20:03:19Z	2017-06-18T13:03:16Z	2017-04-14T21:08:51Z	os,contextify: fix segfaults and CHECK failure	51		
 12372	2512748	false	closed	false	8		2017-04-12T20:06:35Z	2017-04-14T02:00:15Z	2017-04-14T02:00:15Z	Let's make a plan for bad getters and toString() methods	124		
 12373	6395399	false	open	false	6		2017-04-12T21:03:25Z	2017-06-16T15:29:38Z		`setTimeout(function(){throw null},0)` crashes toplevel	86		
 12374	5329230	true	closed	false	3		2017-04-12T21:32:30Z	2017-04-13T14:50:14Z	2017-04-13T14:50:14Z	doc: add single arg scenario for util.format	46		
@@ -5816,14 +5818,14 @@
 12378	10393198	false	open	false	8		2017-04-12T23:06:04Z	2017-04-16T13:21:46Z		process: process.kill() and signals on Windows	236		
 12379	8233071	false	open	false	1		2017-04-13T00:09:12Z	2017-04-13T01:50:10Z		Make Error	301		
 12380	52195	true	closed	false	5		2017-04-13T00:29:31Z	2017-05-16T11:34:25Z	2017-04-14T14:17:08Z	crypto: make LazyTransform compabile with Streams1	52		
-12381	10393198	true	closed	false	0		2017-04-13T01:51:42Z	2017-04-15T11:32:39Z	2017-04-15T11:32:39Z	doc: modernize and fix code examples in process.md	59		
+12381	10393198	true	closed	false	1		2017-04-13T01:51:42Z	2017-06-18T13:11:31Z	2017-04-15T11:32:39Z	doc: modernize and fix code examples in process.md	59		
 12382	19322178	false	closed	false	0		2017-04-13T02:57:07Z	2017-04-13T03:07:05Z	2017-04-13T03:07:05Z	sorry just a test	6		
 12383	631240	false	open	false	7		2017-04-13T05:44:22Z	2017-06-18T07:25:26Z		require() syntax errors are too vague	181		
-12384	432351	true	closed	false	3		2017-04-13T05:45:23Z	2017-04-15T20:14:00Z	2017-04-15T20:14:00Z	src: replace IsConstructCall functions with lamda	52		
+12384	432351	true	closed	false	5		2017-04-13T05:45:23Z	2017-06-18T13:14:52Z	2017-04-15T20:14:00Z	src: replace IsConstructCall functions with lamda	52		
 12385	12587241	false	open	false	0		2017-04-13T09:12:51Z	2017-04-13T09:12:51Z		i want to ask what is the best to you node.js with php or without because i start social media project with neo4j 	6		
 12386	1698139	false	open	false	3		2017-04-13T10:36:20Z	2017-04-22T17:20:23Z		feature: a way to packadge a complete Node.js application	74		
-12387	275871	true	closed	false	1	0	2017-04-13T10:43:45Z	2017-04-18T17:55:34Z	2017-04-18T17:55:34Z	test: fix coverity UNINIT_CTOR cctest warning	23		
-12388	2352663	true	open	false	5		2017-04-13T10:48:39Z	2017-04-18T18:49:07Z		doc: upgrade Clang requirement to 3.4.2	52		
+12387	275871	true	closed	false	1		2017-04-13T10:43:46Z	2017-06-18T13:39:19Z	2017-04-18T17:55:34Z	test: fix coverity UNINIT_CTOR cctest warning	23		
+12388	2352663	true	closed	false	7		2017-04-13T10:48:39Z	2017-06-18T13:41:00Z	2017-04-18T18:58:40Z	doc: upgrade Clang requirement to 3.4.2	52		
 12389	163333	false	closed	false	6		2017-04-13T11:09:56Z	2017-04-13T17:09:59Z	2017-04-13T17:09:59Z	node.cluster: wrong process.pid	166		
 12390	1231635	true	open	false	5		2017-04-13T11:20:52Z	2017-04-16T21:11:51Z		doc: make docs available offline w/ServiceWorker	236		
 12391	432351	true	closed	false	1		2017-04-13T11:53:03Z	2017-04-15T10:35:29Z	2017-04-15T10:35:29Z	"Revert ""src: exclude node_root_certs when use-def-ca-store"""	85		
@@ -5832,7 +5834,7 @@
 12394	432351	true	open	false	0		2017-04-13T12:37:11Z	2017-04-18T11:47:01Z		test: add --use-bundled-ca to tls-cnnic-whitelist	134		
 12395	206827	true	open	false			2017-04-13T13:28:34Z	2017-04-13T23:18:47Z		cluster: fix debugging port collision	50		
 12396	3199181	false	open	false	0		2017-04-13T14:08:42Z	2017-04-13T14:08:42Z		Keep-Alive ignored for HTTP(S) HEAD requests	103		
-12397	3109072	true	closed	false	6	0	2017-04-13T14:10:06Z	2017-04-18T18:48:30Z	2017-04-18T18:48:30Z	crypto: remove unused code in sign/verify	39		
+12397	3109072	true	closed	false	6		2017-04-13T14:10:06Z	2017-06-18T13:39:58Z	2017-04-18T18:48:30Z	crypto: remove unused code in sign/verify	39		
 12398	9373002	true	closed	false	0		2017-04-13T15:05:26Z	2017-04-18T15:58:46Z	2017-04-18T15:58:46Z	n-api: get rid of dead code	41		
 12399	289004	false	closed	false	1		2017-04-13T15:27:58Z	2017-04-21T06:47:50Z	2017-04-21T06:47:50Z	Test parallel/test-setproctitle.js fails on alpine	86		
 12400	2512748	true	closed	false	5		2017-04-13T15:58:22Z	2017-06-17T16:03:16Z	2017-05-17T17:49:02Z	repl: handle unexpected error objects	50		
@@ -5840,7 +5842,7 @@
 12402	275871	true	closed	false	5		2017-04-13T18:13:12Z	2017-05-30T09:25:15Z	2017-04-18T17:42:22Z	crypto: update root certificates	57		
 12403	718899	true	closed	false	11		2017-04-13T19:49:32Z	2017-05-16T19:16:09Z	2017-04-16T20:44:12Z	test: enable setuid/setgid test	52		
 12404	17607	true	closed	false	10	0	2017-04-13T19:58:07Z	2017-04-19T00:00:39Z	2017-04-19T00:00:39Z	"Revert ""Make a noble effort at setting OS_CODE correctly."""	97		
-12405	14274375	true	closed	false	4		2017-04-13T20:31:18Z	2017-04-16T17:45:32Z	2017-04-16T17:45:32Z	test: changed equality comparison to identity operator	35		
+12405	14274375	true	closed	false	6		2017-04-13T20:31:18Z	2017-06-18T13:19:49Z	2017-04-16T17:45:32Z	test: changed equality comparison to identity operator	35		
 12406	899444	true	open	false	9		2017-04-13T20:34:57Z	2017-04-13T22:04:56Z		build: disable -O3 for C++ coverage	33		
 12407	5803170	true	closed	false	31		2017-04-14T00:57:40Z	2017-06-13T23:16:06Z	2017-06-02T13:36:08Z	util: refactor format method.	114		
 12408	2512748	true	closed	false	1		2017-04-14T01:03:17Z	2017-05-16T11:53:13Z	2017-04-17T16:01:59Z	doc: remove inspector experimental warning	34		
@@ -5874,7 +5876,7 @@
 12436	899444	true	closed	false	20		2017-04-15T23:15:10Z	2017-04-18T01:33:27Z	2017-04-17T21:31:45Z	doc: s/origin/upstream/ collaborator guide	35		
 12437	718899	true	closed	false	2	0	2017-04-16T04:09:01Z	2017-04-18T19:41:14Z	2017-04-18T19:41:14Z	doc: consolidate -j information for make	75		
 12438	718899	true	closed	false	3		2017-04-16T06:09:10Z	2017-04-18T16:08:54Z	2017-04-18T16:08:54Z	buffer: remove unreachable code	97		
-12439	54666	true	closed	false	2		2017-04-16T07:45:45Z	2017-04-18T16:08:33Z	2017-04-18T16:08:33Z	buffer: fix backwards incompatibility	73		
+12439	54666	true	closed	false	3		2017-04-16T07:45:45Z	2017-06-18T13:25:17Z	2017-04-18T16:08:33Z	buffer: fix backwards incompatibility	73		
 12440	910691	false	open	false	2		2017-04-16T14:46:59Z	2017-04-16T16:03:27Z		internet/test-dns.js test_resolveNs_failure failed with ETIMEOUT	80		
 12441	5329230	true	closed	false	6	0	2017-04-16T15:03:21Z	2017-04-18T16:49:29Z	2017-04-18T16:49:29Z	Migrate cluster tests from common.PORT	48		
 12442	899444	true	closed	false	79		2017-04-16T16:30:05Z	2017-05-30T21:23:22Z	2017-05-09T13:05:49Z	util: add util.promisify()	171		
@@ -5885,7 +5887,7 @@
 12447	25159826	false	open	false	0		2017-04-16T19:36:51Z	2017-04-16T19:36:51Z		EC2 Stream yields empty buffer error” with large size images	416		
 12448	15943089	false	closed	false	4		2017-04-16T20:05:18Z	2017-05-11T12:14:04Z	2017-05-11T12:14:04Z	ninja build failure on master	744		
 12449	96947	false	closed	false	7		2017-04-16T20:21:38Z	2017-04-27T20:55:19Z	2017-04-27T20:55:19Z	docs: curate wiki back into the repo	82		
-12450	96947	true	closed	false	45		2017-04-16T20:41:11Z	2017-05-23T13:03:16Z	2017-04-18T17:32:44Z	tools: bump gyp to eb296f6	39		
+12450	96947	true	closed	false	47		2017-04-16T20:41:11Z	2017-06-18T13:32:38Z	2017-04-18T17:32:44Z	tools: bump gyp to eb296f6	38		
 12451	5329230	true	closed	false	5		2017-04-16T20:59:08Z	2017-04-18T15:18:26Z	2017-04-18T15:18:26Z	tests: remove common.PORT from shared,master,rr tests	52		
 12452	1163342	true	open	false	12		2017-04-16T21:02:55Z	2017-05-13T16:38:57Z		test:  use dynamic port in test-dgram-bind-shared-ports	74		
 12453	2309317	false	open	false	4		2017-04-16T21:54:56Z	2017-04-17T04:10:55Z		Proxies: console.log uses overridden proxy methods by default	118		
@@ -5940,7 +5942,7 @@
 12502	2512748	true	closed	false	1	0	2017-04-19T01:38:46Z	2017-04-21T18:07:10Z	2017-04-21T18:07:10Z	test: verify listener leak is only emitted once	70	2512748	2017-04-21T18:07:10Z
 12503	5447484	true	closed	false	5		2017-04-19T02:14:49Z	2017-04-29T23:31:52Z	2017-04-29T23:31:52Z	test: add inspect-brk option to cluster module	42		
 12504	718899	true	open	false	10		2017-04-19T04:04:11Z	2017-04-26T22:20:42Z		Backport 12162 to 6.x	6		
-12505	10393198	true	closed	false	1		2017-04-19T04:25:55Z	2017-04-19T14:42:31Z	2017-04-19T14:42:31Z	doc: unify quotes in an assert.md code example	22		
+12505	10393198	true	closed	false	2		2017-04-19T04:25:55Z	2017-06-18T13:45:04Z	2017-04-19T14:42:31Z	doc: unify quotes in an assert.md code example	22		
 12506	16794169	false	closed	false	5		2017-04-19T06:50:00Z	2017-04-20T02:57:20Z	2017-04-20T02:57:20Z	postion=0,but fs.read() doesn't always get the first Chinese characters	20		
 12507	1538624	true	closed	false	3		2017-04-19T07:43:13Z	2017-04-28T07:44:26Z	2017-04-25T03:38:18Z	(v7.x backport) url: updates to the WHATWG URL parser	247		
 12508	289004	true	open	false	3		2017-04-19T11:28:31Z	2017-04-25T19:52:45Z		test: remove common.PORT from test-tls-connect	39		
@@ -6159,7 +6161,7 @@
 12722	275871	true	closed	false	3		2017-04-28T11:43:17Z	2017-05-01T16:18:36Z	2017-05-01T15:18:49Z	deps: cherry-pick bfae9db from upstream v8	17		
 12723	439929	true	open	false	26		2017-04-28T14:28:21Z	2017-05-12T14:15:11Z		doc: update experimental status to reflect use	44		
 12724	1506512	false	closed	false	8		2017-04-28T14:44:47Z	2017-05-17T10:26:11Z	2017-05-17T10:26:11Z	node.js cluster, workers stdouts overlay each other on some hosts	149		
-12725	439929	true	closed	false	2		2017-04-28T16:18:27Z	2017-05-01T18:57:31Z	2017-05-01T18:57:31Z	process: add optional detail to process emitWarning	154		
+12725	439929	true	closed	false	3		2017-04-28T16:18:27Z	2017-06-18T13:11:01Z	2017-05-01T18:57:31Z	process: add optional detail to process emitWarning	154		
 12726	17607	true	closed	false	2	0	2017-04-28T17:54:10Z	2017-05-08T16:32:19Z	2017-05-08T16:32:19Z	doc: sort bottom-of-file markdown links	21	17607	2017-05-08T16:32:19Z
 12727	15825329	true	open	false			2017-04-28T18:14:22Z	2017-04-28T21:58:40Z		made the function change from indexOf to includes only for placeholde…	46		
 12728	13756727	true	closed	false	4	5	2017-04-28T19:03:19Z	2017-05-02T23:11:49Z	2017-05-02T23:11:49Z	test: minor fixes to test-module-loading.js	45		
@@ -6771,7 +6773,7 @@
 13334	10393198	true	closed	false	1		2017-05-31T13:58:17Z	2017-06-02T13:50:02Z	2017-06-02T13:50:02Z	doc: refine spaces in example from vm.md	49		
 13335	9373002	true	open	false	2		2017-05-31T15:55:29Z	2017-06-02T16:33:12Z		doc: update who to cc for n-api	42		
 13336	5886475	true	closed	false	14		2017-05-31T16:32:33Z	2017-06-07T03:07:44Z	2017-06-07T03:07:44Z	test: increase coverage of async_hooks	42		
-13337	1523410	false	closed	false	5		2017-05-31T16:53:30Z	2017-06-01T14:06:31Z	2017-05-31T19:01:50Z	[rfc] async version causes OOM (but not sync) 	216		
+13337	1523410	false	closed	false	6		2017-05-31T16:53:30Z	2017-06-18T13:50:32Z	2017-05-31T19:01:50Z	[rfc] async version causes OOM (but not sync) 	216		
 13338	176013	false	closed	false	6		2017-05-31T17:00:33Z	2017-06-09T18:17:02Z	2017-06-09T18:17:02Z	Add context option to utils.promisify() for method binding	131		
 13339	17607	false	closed	false	12		2017-05-31T17:03:06Z	2017-06-01T01:03:14Z	2017-06-01T00:38:10Z	node c++ dependency checking doesn't seem to work	117		
 13340	718899	true	closed	false	1		2017-05-31T17:18:03Z	2017-06-02T18:29:09Z	2017-06-02T18:29:09Z	build: streamline JS test suites in Makefile	40		
@@ -7049,7 +7051,7 @@
 13614	899444	true	open	false			2017-06-11T16:28:51Z	2017-06-16T22:37:58Z		test: split up and refactor test-domain	19		
 13615	1008760	false	open	false	0		2017-06-11T16:45:17Z	2017-06-11T16:45:17Z		Array.sort() on numbers does not sort numerically	59		
 13616	131406	false	closed	false	3		2017-06-11T16:48:49Z	2017-06-13T15:10:43Z	2017-06-13T15:10:43Z	mips64el should be listed in configure's valid_arch ?	45		
-13617	534619	true	open	false	7		2017-06-11T18:22:08Z	2017-06-17T21:12:21Z		doc: document res.connection and res.socket	37		
+13617	534619	true	open	false			2017-06-11T18:22:08Z	2017-06-18T13:07:00Z		doc: document res.connection and res.socket	37		
 13618	718899	true	closed	false	2	6	2017-06-11T19:06:48Z	2017-06-14T21:42:54Z	2017-06-14T21:42:54Z	test: refactor test-fs-read-stream-inherit	60		
 13619	588262	true	closed	false	20		2017-06-11T19:33:59Z	2017-06-16T05:25:52Z	2017-06-16T02:52:15Z	Fixed cluster inspect port logic	125		
 13620	5358146	true	closed	false	5		2017-06-11T20:03:10Z	2017-06-13T15:12:16Z	2017-06-13T15:12:16Z	configure: added mips64el to valid_arch	35		
@@ -7184,7 +7186,7 @@
 13749	96947	true	open	false			2017-06-17T20:32:06Z	2017-06-17T23:01:35Z		doc: update backporting guide	39		
 13750	96947	true	open	false	3		2017-06-17T21:05:06Z	2017-06-18T09:35:23Z		(v8.x backport) 12712 - util: add util.callbackify()	54		
 13751	10393198	true	open	false	0	0	2017-06-17T21:19:35Z	2017-06-17T21:19:35Z		(v6.x backport) doc: update output examples in debugger.md	25		
-13752	10393198	true	open	false	4		2017-06-17T22:56:16Z	2017-06-18T08:57:53Z		(v6.x backport) child_process: fix deoptimizing use of arguments	93		
+13752	10393198	true	open	false	5		2017-06-17T22:56:16Z	2017-06-18T13:51:22Z		(v6.x backport) child_process: fix deoptimizing use of arguments	93		
 13753	1247980	false	open	false	0		2017-06-17T23:10:09Z	2017-06-17T23:10:09Z		node crashes if `undefined` passed to an objectMode readable stream	121		
 13754	718899	true	closed	false	1	0	2017-06-18T00:32:41Z	2017-06-18T09:05:38Z	2017-06-18T09:05:38Z	(v6.x backport) build: clear stalled jobs on POSIX CI hosts	111		
 13755	8822573	true	open	false			2017-06-18T01:33:15Z	2017-06-18T03:02:48Z		async_hooks: reduce code duplication by using a factory	88		
@@ -7194,3 +7196,4 @@
 13759	1840183	false	open	false	0		2017-06-18T09:35:42Z	2017-06-18T09:35:42Z		os.networkInterfaces returning wrong mac address (v 8.1.2)	102		
 13760	899444	true	open	false	1		2017-06-18T10:06:58Z	2017-06-18T11:25:51Z		stream: fix `undefined` in Readable object mode	38		
 13761	588262	true	open	false	0	0	2017-06-18T12:51:12Z	2017-06-18T12:51:12Z		Added inspect port overriding in cluster	200		
+13762	523889	false	open	false	0		2017-06-18T13:43:11Z	2017-06-18T13:43:11Z		process.exec	3		
