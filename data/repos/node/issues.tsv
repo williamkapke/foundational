@@ -4684,7 +4684,7 @@
 11243	2512748	true	closed	false	1		2017-02-08T17:22:57Z	2017-03-08T23:46:47Z	2017-02-10T17:40:56Z	dgram: remove this aliases	35		
 11244	524783	false	closed	false	5		2017-02-08T19:33:03Z	2017-03-28T08:42:55Z	2017-03-28T08:42:55Z	Documentation: Unclear if Buffer buf[i] is bounds-checked	52		
 11245	524783	false	closed	false	4		2017-02-08T19:34:17Z	2017-03-19T18:02:13Z	2017-03-19T18:02:13Z	Buffer bounds checks slow (writeUInt8 with noAssert = false)	400		
-11246	718899	true	closed	false	16		2017-02-08T19:44:40Z	2017-06-17T23:47:22Z	2017-02-10T21:24:02Z	build: clear stalled jobs on POSIX CI hosts	71		
+11246	718899	true	closed	false	16		2017-02-08T19:44:40Z	2017-06-18T00:33:11Z	2017-02-10T21:24:02Z	build: clear stalled jobs on POSIX CI hosts	71		
 11247	2512748	true	closed	false	2	0	2017-02-08T20:50:20Z	2017-02-10T20:39:05Z	2017-02-10T20:39:05Z	test: add coverage for string array dgram send()	48	2512748	2017-02-10T20:39:05Z
 11248	2512748	true	closed	false	1		2017-02-08T21:20:16Z	2017-03-08T23:57:21Z	2017-02-10T21:45:41Z	test: add coverage for dgram send() errors	46		
 11249	7693422	true	open	false	2		2017-02-08T21:56:07Z	2017-05-18T08:20:55Z		http: make `globalAgent` of `http` and `https` overridable	67		
@@ -5495,7 +5495,7 @@
 12056	439929	true	closed	false	4		2017-03-27T02:59:23Z	2017-04-19T07:50:16Z	2017-03-30T03:57:03Z	url: add ToObject method to native URL class	70		
 12057	899444	true	closed	false	9		2017-03-27T04:34:40Z	2017-03-31T20:04:26Z	2017-03-31T20:04:26Z	tty: remove NODE_TTY_UNSAFE_ASYNC	19		
 12058	1716463	true	closed	false	6		2017-03-27T05:41:52Z	2017-04-03T09:18:27Z	2017-04-03T09:18:27Z	url: change path parsing for non-special URLs	71		
-12059	4299420	true	closed	false	11		2017-03-27T05:56:31Z	2017-04-25T13:58:49Z	2017-04-11T03:29:30Z	build: sort .PHONY rules and add test-gc-clean	61		
+12059	4299420	true	closed	false	13		2017-03-27T05:56:31Z	2017-06-18T00:12:32Z	2017-04-11T03:29:30Z	build: sort .PHONY rules and add test-gc-clean	61		
 12060	432351	true	closed	false	1		2017-03-27T08:08:59Z	2017-04-18T23:09:08Z	2017-03-29T05:49:36Z	deps: backport 8dde6ac from upstream V8	76		
 12061	432351	true	closed	false	16		2017-03-27T08:09:49Z	2017-04-18T23:45:43Z	2017-04-06T05:47:42Z	deps: backport ec1ffe3 from upstream V8	163		
 12062	1028226	true	open	false	16		2017-03-27T09:32:13Z	2017-04-13T22:08:11Z		test: run the addon tests last	82		
@@ -5676,7 +5676,7 @@
 12238	4923335	true	closed	false	4		2017-04-05T17:47:00Z	2017-04-11T01:04:12Z	2017-04-08T08:59:13Z	test: add basic cctest for base64.h	92		
 12239	718899	true	closed	false	3		2017-04-05T18:03:47Z	2017-04-11T18:15:08Z	2017-04-07T18:12:58Z	test: complete coverage for lib/assert.js	71		
 12240	13093042	true	closed	false	5		2017-04-05T18:18:42Z	2017-04-07T23:53:06Z	2017-04-07T13:44:58Z	n-api: Update property attrs enum to match JS spec	90		
-12241	17607	true	closed	false	5		2017-04-05T18:49:35Z	2017-04-10T22:19:30Z	2017-04-10T14:11:05Z	src: use a std::vector for preload_modules	48		
+12241	17607	true	closed	false	6		2017-04-05T18:49:35Z	2017-06-18T00:10:58Z	2017-04-10T14:11:05Z	src: use a std::vector for preload_modules	48		
 12242	17607	true	closed	false	4		2017-04-05T19:24:19Z	2017-06-05T19:46:17Z	2017-04-09T15:36:26Z	src: use std::string for trace enabled_categories	67		
 12243	4421720	true	closed	false	25	11	2017-04-05T19:47:10Z	2017-05-03T21:35:41Z	2017-05-03T21:35:41Z	doc: deprecate vm.runInDebugContext	77		
 12244	1794907	false	open	false	10		2017-04-05T20:57:09Z	2017-04-13T18:09:04Z		zlib different on OSX and Linux in newest releases	156		
@@ -5700,8 +5700,8 @@
 12262	567540	true	closed	false	0		2017-04-06T16:50:36Z	2017-04-09T18:49:24Z	2017-04-09T18:49:24Z	test: Update information on known_issues	52		
 12263	287917	true	closed	false	41		2017-04-06T17:27:30Z	2017-05-23T17:55:07Z	2017-05-23T17:55:07Z	inspector: JavaScript bindings for the inspector	98		
 12264	17607	false	open	false	0		2017-04-06T20:22:01Z	2017-04-06T20:22:01Z		node aborts with --debug when it self-exits	186		
-12265	4044581	true	closed	false	1		2017-04-07T05:32:44Z	2017-04-10T22:17:13Z	2017-04-10T13:59:37Z	test: check curve algorithm is supported	52		
-12266	432351	true	closed	false	8		2017-04-07T06:54:58Z	2017-04-11T06:43:59Z	2017-04-10T05:23:12Z	src: only block SIGUSR1 when HAVE_INSPECTOR	112		
+12265	4044581	true	closed	false	2		2017-04-07T05:32:44Z	2017-06-18T00:07:13Z	2017-04-10T13:59:37Z	test: check curve algorithm is supported	52		
+12266	432351	true	closed	false	9		2017-04-07T06:54:58Z	2017-06-18T00:05:52Z	2017-04-10T05:23:12Z	src: only block SIGUSR1 when HAVE_INSPECTOR	112		
 12267	3927355	false	closed	false	2		2017-04-07T08:04:15Z	2017-04-07T08:15:54Z	2017-04-07T08:07:24Z	How cross build node.js for mac on a linux meachine.	25		
 12268	2352663	true	closed	false	2	0	2017-04-07T08:11:08Z	2017-04-10T06:32:54Z	2017-04-10T06:32:54Z	v7.x: doc: add deprecations page to docs toc	14		
 12269	1437211	false	closed	false	8		2017-04-07T11:54:53Z	2017-04-14T14:17:55Z	2017-04-14T14:17:55Z	Why crypto.createHash() is not writable until setEncoding() is called?	101		
@@ -5729,7 +5729,7 @@
 12291	10393198	false	closed	false	8		2017-04-09T16:44:34Z	2017-04-11T09:36:38Z	2017-04-11T09:36:38Z	doc: are `os.uptime()` returned type and remark correct?	51		
 12292	9489084	false	closed	false	3		2017-04-09T17:14:13Z	2017-04-09T21:28:00Z	2017-04-09T17:22:28Z	Array.prototype.map unexpected behaviour with parseInt 	94		
 12293	718899	true	closed	false	18		2017-04-09T17:56:54Z	2017-04-13T18:34:31Z	2017-04-12T21:30:47Z	assert.fail() accept a single argument or two arguments 	156		
-12294	10393198	true	closed	false	13		2017-04-09T19:44:30Z	2017-05-15T15:51:15Z	2017-04-11T09:38:12Z	doc: update os.uptime() and process.uptime() descriptions	24		
+12294	10393198	true	closed	false	14		2017-04-09T19:44:30Z	2017-06-18T00:14:51Z	2017-04-11T09:38:12Z	doc: update os.uptime() and process.uptime() descriptions	24		
 12295	11045284	false	open	false	0		2017-04-09T22:15:17Z	2017-04-09T22:15:17Z		Possibility for ES6 import/export usage via harmony flags.	60		
 12296	10393198	true	closed	false	1		2017-04-09T23:57:27Z	2017-05-15T15:53:44Z	2017-04-12T00:25:22Z	doc: modernize and fix code examples in path.md	42		
 12297	23745671	false	closed	false	3		2017-04-10T01:13:29Z	2017-04-10T04:49:55Z	2017-04-10T03:08:40Z	node install.js	241		
@@ -5737,7 +5737,7 @@
 12299	392868	false	closed	false	3		2017-04-10T02:21:50Z	2017-04-12T21:40:25Z	2017-04-12T21:40:25Z	readdir docs don’t mention when options argument was added	137		
 12300	275871	false	open	false	2		2017-04-10T08:11:32Z	2017-04-12T10:42:45Z		vm: strict mode ReferenceError with assignment to context property	38		
 12301	1102038	false	open	false	0		2017-04-10T10:19:28Z	2017-04-10T10:19:28Z		missing SHASUMS file of v7.8.0	153		
-12302	432351	true	closed	false	4		2017-04-10T13:29:33Z	2017-04-25T18:00:54Z	2017-04-12T11:09:16Z	src: guard bundled_ca/openssl_ca with HAVE_OPENSSL	74		
+12302	432351	true	closed	false	5		2017-04-10T13:29:33Z	2017-06-18T00:15:33Z	2017-04-12T11:09:16Z	src: guard bundled_ca/openssl_ca with HAVE_OPENSSL	74		
 12303	432351	true	closed	false	3		2017-04-10T13:45:37Z	2017-05-15T15:55:30Z	2017-04-12T10:59:46Z	src: guard default_inspector_port	57		
 12304	9373002	false	open	false	0		2017-04-10T15:25:48Z	2017-04-10T15:25:48Z		Review latest coverity issues reported on node_api.cc	23		
 12305	327019	true	closed	false	6		2017-04-10T15:53:36Z	2017-05-15T20:49:40Z	2017-04-16T00:13:00Z	test: replace [].join() with ''.repeat()	29		
@@ -5752,7 +5752,7 @@
 12314	910691	true	closed	false	3		2017-04-10T20:07:03Z	2017-04-14T18:45:58Z	2017-04-14T18:45:58Z	doc: response.write ignores body in some cases	77		
 12315	1716463	true	closed	false	2		2017-04-10T20:12:26Z	2017-04-14T17:12:56Z	2017-04-14T17:12:56Z	url: disallow invalid IPv4 in IPv6 parser	19		
 12316	17607	true	closed	false	3	2	2017-04-10T20:24:44Z	2017-05-09T18:22:42Z	2017-05-09T18:22:42Z	src: do not join an uninitialized thread	140		
-12317	10393198	true	closed	false	4		2017-04-10T21:35:53Z	2017-05-15T15:55:48Z	2017-04-12T21:33:19Z	benchmark: replace more [].join() with ''.repeat()	31		
+12317	10393198	true	closed	false	5		2017-04-10T21:35:53Z	2017-06-18T00:33:32Z	2017-04-12T21:33:19Z	benchmark: replace more [].join() with ''.repeat()	31		
 12318	899444	true	closed	false	2		2017-04-10T22:10:44Z	2017-04-13T21:04:29Z	2017-04-13T21:04:29Z	test: fix compiler warning in n-api test	55		
 12319	6354455	true	closed	false	6	0	2017-04-10T22:29:17Z	2017-04-11T17:32:00Z	2017-04-11T17:32:00Z	v7.9.0 Release Proposal	694	6354455	2017-04-11T17:32:00Z
 12320	79017	true	open	false	0	0	2017-04-10T23:29:18Z	2017-04-10T23:29:18Z		doc: missing _ in Writable ES6 examples	30		
@@ -6856,7 +6856,7 @@
 13419	899444	true	closed	false	4		2017-06-02T22:19:57Z	2017-06-08T21:59:08Z	2017-06-08T21:59:08Z	async_hooks: minor refactor to callback invocation	61		
 13420	718899	true	closed	false	0		2017-06-02T22:41:48Z	2017-06-05T23:34:01Z	2017-06-05T23:34:01Z	doc: remove note highlighting in GOVERNANCE doc	37		
 13421	718899	true	closed	false	0		2017-06-02T22:53:20Z	2017-06-05T23:41:50Z	2017-06-05T23:41:50Z	doc: minimal documentation for Emeritus status	58		
-13422	1377	true	open	false	9		2017-06-02T23:01:56Z	2017-06-12T13:06:45Z		util.inspect(obj) should avoid obj.inspect access	108		
+13422	1377	true	closed	false	11		2017-06-02T23:01:56Z	2017-06-18T00:12:56Z	2017-06-12T13:15:42Z	util.inspect(obj) should avoid obj.inspect access	108		
 13423	718899	true	closed	false	0		2017-06-02T23:30:14Z	2017-06-06T16:14:13Z	2017-06-06T16:14:13Z	doc: emphasize Collaborators in GOVERNANCE.md	74		
 13424	7902626	true	open	false	5		2017-06-03T00:04:43Z	2017-06-13T13:06:16Z		doc: add callback function signatures in fs.md	39		
 13425	494055	false	closed	false	5		2017-06-03T00:11:46Z	2017-06-08T09:08:33Z	2017-06-08T09:08:33Z	Windows REPL resets text color to white after output instead of resetting to the previous foreground color (e.g. grey)	55		
@@ -7122,7 +7122,7 @@
 13687	15952	true	open	false	4		2017-06-14T20:04:09Z	2017-06-16T15:19:43Z		repl: make REPLServer.bufferedCommand private	76		
 13688	8578343	false	open	false	0		2017-06-14T21:56:06Z	2017-06-15T12:40:31Z		icu-case-mapping should not be specified; it's on by default and will go away in v8. 	41		
 13689	718899	true	open	false	1		2017-06-14T22:58:56Z	2017-06-17T20:07:18Z		test: refactor test-fs-watch-stop-sync	49		
-13690	10393198	true	open	false	0	0	2017-06-15T00:40:56Z	2017-06-15T00:40:56Z		test: remove needless RegExp flags	58		
+13690	10393198	true	closed	false	2	0	2017-06-15T00:40:56Z	2017-06-18T00:59:32Z	2017-06-18T00:59:32Z	test: remove needless RegExp flags	58		
 13691	432351	true	closed	false	6		2017-06-15T05:26:15Z	2017-06-17T17:14:41Z	2017-06-17T17:14:41Z	test: add crypto check to test-tls-wrap-econnreset	64		
 13692	592432	false	closed	false	2		2017-06-15T06:10:30Z	2017-06-15T09:40:40Z	2017-06-15T06:13:19Z	net: EADDRINUSE is an uncatchable error	89		
 13693	54666	true	closed	false	0	0	2017-06-15T07:34:36Z	2017-06-17T14:45:31Z	2017-06-17T14:45:31Z	test: improve http test reliability	52	54666	2017-06-17T14:45:31Z
@@ -7164,13 +7164,13 @@
 13729	96947	false	open	false	0		2017-06-16T23:33:29Z	2017-06-16T23:33:29Z		meta: v8 6.0 / TF & I tracking issue	14		
 13730	8822573	true	open	false	2		2017-06-17T00:33:34Z	2017-06-17T14:21:54Z		internal/errors: improve ERR_INVALID_ARG_TYPE	66		
 13731	8822573	true	open	false	0		2017-06-17T00:38:05Z	2017-06-17T10:00:31Z		lib: refactor to arrow functions instead of using self	53		
-13732	8822573	true	open	false	4		2017-06-17T00:53:15Z	2017-06-17T23:40:06Z		lib,tools,benchmark,test: var to const	67		
+13732	8822573	true	open	false	8		2017-06-17T00:53:15Z	2017-06-18T00:04:44Z		lib,tools,benchmark,test: var to const	67		
 13733	8822573	true	open	false	1		2017-06-17T01:00:46Z	2017-06-17T16:39:49Z		repl: fix error message	58		
 13734	8822573	true	open	false	0		2017-06-17T02:18:34Z	2017-06-17T23:20:51Z		internal/cluster: remove obsolete todo	56		
 13735	8822573	true	open	false	0	0	2017-06-17T02:39:26Z	2017-06-17T02:39:26Z		net: deprecate net.Socket.prototype.listen	62		
 13736	10328169	false	open	false	6		2017-06-17T03:05:36Z	2017-06-17T13:04:16Z		Parse Error when http request through proxy	98		
 13737	7315383	false	open	false	0		2017-06-17T07:29:15Z	2017-06-17T09:33:58Z		armv6 binaries missing	15		
-13738	4469502	true	open	false	6		2017-06-17T10:09:44Z	2017-06-17T23:17:58Z		path: fix posix.relative returns different results	90		
+13738	4469502	true	open	false	7		2017-06-17T10:09:44Z	2017-06-18T00:48:30Z		path: fix posix.relative returns different results	90		
 13739	3109072	true	open	false	0		2017-06-17T11:57:27Z	2017-06-17T13:47:06Z		process: fix error message of hrtime()	149		
 13740	790572	false	open	false	0		2017-06-17T13:26:30Z	2017-06-17T13:26:30Z		net.Server 'connection' callback not invoked after passing handle to forked process	233		
 13741	8822573	true	open	false	0		2017-06-17T13:34:09Z	2017-06-17T17:20:43Z		lib: fix typos	29		
@@ -7186,3 +7186,4 @@
 13751	10393198	true	open	false	0	0	2017-06-17T21:19:35Z	2017-06-17T21:19:35Z		(v6.x backport) doc: update output examples in debugger.md	25		
 13752	10393198	true	open	false	1		2017-06-17T22:56:16Z	2017-06-17T23:08:06Z		(v6.x backport) child_process: fix deoptimizing use of arguments	94		
 13753	1247980	false	open	false	0		2017-06-17T23:10:09Z	2017-06-17T23:10:09Z		node crashes if `undefined` passed to an objectMode readable stream	121		
+13754	718899	true	open	false	0	0	2017-06-18T00:32:41Z	2017-06-18T00:32:41Z		(v6.x backport) build: clear stalled jobs on POSIX CI hosts	111		
