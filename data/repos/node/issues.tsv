@@ -6508,8 +6508,8 @@
 13069	2512748	true	closed	false	15	7	2017-05-16T23:44:40Z	2017-05-19T15:25:42Z	2017-05-19T15:25:42Z	net: handle normalized args in normalizeArgs()	68	2512748	2017-05-19T15:25:42Z
 13070	9373002	false	closed	false	8		2017-05-17T01:23:04Z	2017-05-18T04:35:28Z	2017-05-18T04:35:28Z	AIX: fs-watch backport issues	77		
 13071	4044581	false	closed	false	3		2017-05-17T05:24:53Z	2017-05-22T03:10:55Z	2017-05-22T03:10:55Z	"parallel/test-process-setuid-setgid fails if ""nobody"" user does not exist"	26		
-13072	5886475	true	open	false	2		2017-05-17T05:42:32Z	2017-06-19T06:19:45Z		(v6.x backport) test: fix parallel/test-setproctitle.js on alpine	72		
-13073	115237	true	open	false	1		2017-05-17T05:44:14Z	2017-06-19T17:53:49Z		(v6.x backport) #9532	7		
+13072	5886475	true	open	false	3		2017-05-17T05:42:32Z	2017-06-19T21:56:29Z		(v6.x backport) test: fix parallel/test-setproctitle.js on alpine	72		
+13073	115237	true	open	false	3		2017-05-17T05:44:14Z	2017-06-19T21:57:17Z		(v6.x backport) #9532	7		
 13074	128856	true	open	false	8		2017-05-17T07:02:05Z	2017-05-19T19:03:28Z		vm: fix race condition with `timeout` param	183		
 13075	16603080	false	open	false	3		2017-05-17T07:29:11Z	2017-05-17T09:14:14Z		/usr/bin/node[14405]: ../src/node_http_parser.cc:398:static void node::Parser::Execute(const v8::FunctionCallbackInfo<v8::Value>&): Assertion `(parser->current_buffer_len_) == (0)' failed.	76		
 13076	2842176	true	closed	false	11		2017-05-17T09:37:17Z	2017-05-21T13:53:09Z	2017-05-21T13:53:09Z	dns: fix `resolve` failed starts without network	353		
@@ -7010,7 +7010,7 @@
 13573	10393198	true	open	false	1		2017-06-09T12:17:15Z	2017-06-12T09:25:02Z		doc: fix links and typos in fs.md	22		
 13574	7408689	true	closed	false	18	0	2017-06-09T12:18:46Z	2017-06-17T21:46:48Z	2017-06-17T21:46:48Z	(v6.x backport) v8: fix build errors with g++ 7	57		
 13575	432351	true	open	false	1		2017-06-09T13:19:52Z	2017-06-13T12:58:24Z		WIP: crypto: support multiple Crypto versions/libraries	398		
-13576	15719653	true	open	false			2017-06-09T13:47:27Z	2017-06-19T12:16:28Z		doc: add note to tty.WriteStream event 'resize' on Windows	18		
+13576	15719653	true	open	false			2017-06-09T13:47:27Z	2017-06-19T21:48:48Z		doc: add note to tty.WriteStream event 'resize' on Windows	18		
 13577	9373002	false	open	false	12		2017-06-09T13:49:51Z	2017-06-18T15:10:24Z		async-hooks/test-fseventwrap - Flaky on AIX	58		
 13578	1443911	true	closed	false	1		2017-06-09T15:36:55Z	2017-06-12T12:14:41Z	2017-06-12T12:14:41Z	http: handle cases where socket.server is null	59		
 13579	17607	false	closed	false	20		2017-06-09T15:40:40Z	2017-06-14T15:39:12Z	2017-06-13T18:37:56Z	setTimeout callback order isn't guaranteed	213		
@@ -7121,7 +7121,7 @@
 13684	9287	true	open	true	61		2017-06-14T18:30:06Z	2017-06-15T20:12:11Z		cluster: remove deprecated problematic API	309		
 13685	2512748	true	closed	false	2	0	2017-06-14T19:03:22Z	2017-06-16T15:54:15Z	2017-06-16T15:54:15Z	test: refactor test-cluster-worker-isconnected.js	61		
 13686	96947	true	open	false	15		2017-06-14T19:49:55Z	2017-06-19T19:10:02Z		fix `common.expectsError` type checking	59		
-13687	15952	true	open	false	4		2017-06-14T20:04:09Z	2017-06-16T15:19:43Z		repl: make REPLServer.bufferedCommand private	76		
+13687	15952	true	open	false	6		2017-06-14T20:04:09Z	2017-06-19T21:30:50Z		repl: make REPLServer.bufferedCommand private	76		
 13688	8578343	false	open	false	0		2017-06-14T21:56:06Z	2017-06-15T12:40:31Z		icu-case-mapping should not be specified; it's on by default and will go away in v8. 	41		
 13689	718899	true	closed	false	2		2017-06-14T22:58:56Z	2017-06-18T15:53:19Z	2017-06-18T15:53:19Z	test: refactor test-fs-watch-stop-sync	49		
 13690	10393198	true	closed	false	2	0	2017-06-15T00:40:56Z	2017-06-18T00:59:32Z	2017-06-18T00:59:32Z	test: remove needless RegExp flags	58		
@@ -7158,7 +7158,7 @@
 13721	718899	true	closed	false	2	0	2017-06-16T17:00:11Z	2017-06-19T18:10:18Z	2017-06-19T18:10:18Z	test: refactor test-fs-watchfile	50		
 13722	439929	false	open	false	0		2017-06-16T17:17:36Z	2017-06-16T17:17:36Z		Including windows-1252 conversion in small-icu	38		
 13723	2842176	true	open	false			2017-06-16T17:31:18Z	2017-06-19T18:05:53Z		dns: make `dns.setServers` support customized port	71		
-13724	2842176	true	open	false	0	0	2017-06-16T18:37:59Z	2017-06-16T18:37:59Z		(v4.x backport) dns: fix crash while using dns.setServers after dns.resolve4	159		
+13724	2842176	true	open	false	0		2017-06-16T18:37:59Z	2017-06-19T21:58:37Z		(v6.x backport) dns: fix crash while using dns.setServers after dns.resolve4	159		
 13725	439929	true	open	false	6		2017-06-16T19:38:03Z	2017-06-19T18:02:23Z		buffer: support boxed strings and toPrimitive	80		
 13726	8822573	true	open	false	11		2017-06-16T20:15:33Z	2017-06-19T18:24:59Z		net: fix abort on bad address input	61		
 13727	305455	false	open	false	1		2017-06-16T20:59:05Z	2017-06-16T21:10:30Z		path.basename matches `ext` parameter case-sensitively on case-insensitive filesystems	296		
@@ -7186,11 +7186,11 @@
 13749	96947	true	open	false			2017-06-17T20:32:06Z	2017-06-17T23:01:35Z		doc: update backporting guide	39		
 13750	96947	true	open	false	3		2017-06-17T21:05:06Z	2017-06-18T09:35:23Z		(v8.x backport) 12712 - util: add util.callbackify()	54		
 13751	10393198	true	open	false	0	0	2017-06-17T21:19:35Z	2017-06-17T21:19:35Z		(v6.x backport) doc: update output examples in debugger.md	25		
-13752	10393198	true	open	false	6		2017-06-17T22:56:16Z	2017-06-18T14:06:39Z		(v6.x backport) child_process: fix deoptimizing use of arguments	93		
+13752	10393198	true	open	false	7		2017-06-17T22:56:16Z	2017-06-19T21:59:22Z		(v6.x backport) child_process: fix deoptimizing use of arguments	93		
 13753	1247980	false	open	false	0		2017-06-17T23:10:09Z	2017-06-17T23:10:09Z		node crashes if `undefined` passed to an objectMode readable stream	121		
 13754	718899	true	closed	false	1	0	2017-06-18T00:32:41Z	2017-06-18T09:05:38Z	2017-06-18T09:05:38Z	(v6.x backport) build: clear stalled jobs on POSIX CI hosts	111		
 13755	8822573	true	open	false			2017-06-18T01:33:15Z	2017-06-18T21:35:40Z		async_hooks: reduce code duplication by using a factory	88		
-13756	8822573	true	open	false	2		2017-06-18T01:44:52Z	2017-06-19T17:51:38Z		lib: var to const	50		
+13756	8822573	true	open	false	3		2017-06-18T01:44:52Z	2017-06-19T21:31:38Z		lib: var to const	50		
 13757	8822573	true	open	false	2		2017-06-18T01:45:22Z	2017-06-19T17:06:55Z		benchmark: var to const	50		
 13758	718899	true	open	false			2017-06-18T05:40:40Z	2017-06-19T18:12:58Z		tools: apply stricter indentation rules to tools     	80		
 13759	1840183	false	open	false	0		2017-06-18T09:35:42Z	2017-06-18T09:35:42Z		os.networkInterfaces returning wrong mac address (v 8.1.2)	102		
@@ -7201,16 +7201,16 @@
 13764	327019	true	open	false	1		2017-06-18T15:00:34Z	2017-06-19T01:45:06Z		lib: remove the invalid entries	35		
 13765	3109072	false	open	false	0		2017-06-18T15:24:28Z	2017-06-18T15:24:28Z		"vcbuild.bat fails with ""input line too long"""	145		
 13766	718899	true	open	false	0	0	2017-06-18T15:41:37Z	2017-06-18T15:41:37Z		test: accommodate AIX by watching file	47		
-13767	7902626	true	open	false	0	0	2017-06-18T19:02:37Z	2017-06-18T19:02:37Z		doc: add default values to function signatures in fs.md	49		
+13767	7902626	true	open	false	2		2017-06-18T19:02:37Z	2017-06-19T21:05:00Z		doc: add default values to function signatures in fs.md	49		
 13768	15943089	false	open	false	4		2017-06-18T19:39:36Z	2017-06-19T15:19:23Z		Proposal: close all node-v0.x-archive issues with comment	107		
 13769	15943089	true	open	false			2017-06-18T19:55:49Z	2017-06-18T22:04:50Z		doc: standardize function param/object prop style	41		
 13770	10393198	true	open	false			2017-06-18T23:06:05Z	2017-06-19T20:36:02Z		test: fix RegExp nits	304		
 13771	1653598	false	open	false	0		2017-06-18T23:32:55Z	2017-06-18T23:32:55Z		Unhandled promise rejection with throwing toString crashes node	65		
 13772	96947	false	open	false	0		2017-06-19T00:35:57Z	2017-06-19T16:49:58Z		known limitation: when running with `--inspect=localhost:0` only one port is printed	54		
 13773	1762535	false	open	false	0		2017-06-19T02:16:12Z	2017-06-19T11:13:34Z		`querystring.parse` decodes incorrect in a specific case	48		
-13774	718899	true	open	false	0	0	2017-06-19T02:17:16Z	2017-06-19T02:17:16Z		(v6.x backport) tools: require function declarations	3		
-13775	718899	true	open	false	0	0	2017-06-19T03:10:49Z	2017-06-19T03:10:49Z		(v6.x backport) test: move WPT to its own testing module	116		
-13776	718899	true	open	false	0	0	2017-06-19T03:30:14Z	2017-06-19T03:30:14Z		(v6.x backport) tools: relax lint rule for regexps	42		
+13774	718899	true	open	false	0		2017-06-19T02:17:16Z	2017-06-19T21:59:47Z		(v6.x backport) tools: require function declarations	3		
+13775	718899	true	open	false	0		2017-06-19T03:10:49Z	2017-06-19T22:00:13Z		(v6.x backport) test: move WPT to its own testing module	116		
+13776	718899	true	open	false	0		2017-06-19T03:30:14Z	2017-06-19T22:00:37Z		(v6.x backport) tools: relax lint rule for regexps	42		
 13777	10393198	true	open	false	5		2017-06-19T03:35:15Z	2017-06-19T14:41:54Z		doc: update debugger.md	240		
 13778	7709326	false	open	false	0		2017-06-19T03:43:51Z	2017-06-19T03:43:51Z		Cluster losts handle when data size is large	205		
 13779	10393198	false	open	false	0		2017-06-19T04:01:47Z	2017-06-19T04:01:47Z		test: debugger/helper-debugger-repl.js is outdated	67		
@@ -7219,21 +7219,22 @@
 13782	857632	false	open	false	5		2017-06-19T07:29:09Z	2017-06-19T11:03:44Z		received SIGSEGV on rejecting a promise	195		
 13783	8860227	true	open	false	0	0	2017-06-19T08:10:59Z	2017-06-19T08:10:59Z		function to const	53		
 13784	1538624	true	open	false	1		2017-06-19T08:25:02Z	2017-06-19T16:01:02Z		promises: more robust stringification	34		
-13785	2352663	true	open	false	0		2017-06-19T08:43:59Z	2017-06-19T11:11:13Z		(v6.x backport) tools: enforce two arguments in assert.throws	67		
+13785	2352663	true	open	false	2		2017-06-19T08:43:59Z	2017-06-19T21:52:35Z		(v6.x backport) tools: enforce two arguments in assert.throws	67		
 13786	432351	true	open	false	1		2017-06-19T08:48:42Z	2017-06-19T10:03:31Z		test: support shared openssl with fips	286		
 13787	171239	false	open	false	6		2017-06-19T08:59:20Z	2017-06-19T19:48:21Z		null character as first character of path component crashes node	43		
 13788	171239	true	open	false	3		2017-06-19T09:02:33Z	2017-06-19T17:08:37Z		Calling require with null char as first char of the path component causes crash	39		
 13789	8860227	true	closed	false	7		2017-06-19T09:04:52Z	2017-06-19T11:02:54Z	2017-06-19T09:43:07Z	Loop performance	55		
 13790	2352663	true	open	false	3		2017-06-19T09:20:12Z	2017-06-19T14:59:54Z		[v8.x] deps: update V8 to 5.9.211.37	26		
-13791	28588124	false	open	false	8		2017-06-19T11:06:46Z	2017-06-19T12:05:56Z		multiple ipv6 request not working	112		
+13791	28588124	false	open	false	8		2017-06-19T11:06:46Z	2017-06-19T21:54:28Z		multiple ipv6 request not working	112		
 13792	15608388	true	open	false	0	0	2017-06-19T11:10:19Z	2017-06-19T11:10:19Z		(v6.x backport) test: dynamic port in dgram tests	58		
 13793	3089767	false	open	false	1		2017-06-19T12:05:12Z	2017-06-19T16:08:38Z		Messages is not received via the process.on('message') event while debugging.	214		
 13794	8864662	false	open	false	0		2017-06-19T12:09:44Z	2017-06-19T12:09:44Z		proxy	6		
 13795	96947	false	open	false	5		2017-06-19T12:20:26Z	2017-06-19T18:28:19Z		dns: getServers returns IPv6 addresses without `[]`	26		
 13796	1443911	true	open	false	0	0	2017-06-19T16:42:54Z	2017-06-19T16:42:54Z		(v6.x backport) events: do not keep arrays with a single listener	18		
-13797	2842176	true	open	false	0	0	2017-06-19T17:32:29Z	2017-06-19T17:32:29Z		dns: make `var` to `const` if possible	29		
+13797	2842176	true	closed	false	2		2017-06-19T17:32:29Z	2017-06-19T21:27:45Z	2017-06-19T17:46:20Z	dns: make `var` to `const` if possible	21		
 13798	131776	false	closed	false	3		2017-06-19T17:34:57Z	2017-06-19T18:04:20Z	2017-06-19T18:04:20Z	JSON.stringify fails parsing session object	118		
 13799	287917	true	open	false	0	0	2017-06-19T17:46:06Z	2017-06-19T17:46:06Z		inspector, test: Fix test bug detected by Coverity	43		
 13800	718899	false	open	false	0		2017-06-19T18:09:13Z	2017-06-19T18:09:13Z		Investigate flaky test-regress-GH-4027 on Windows	73		
-13801	1280719	false	open	false	2		2017-06-19T18:49:39Z	2017-06-19T20:22:53Z		crypto.createCipher should not work with AES-CTR	66		
+13801	1280719	false	open	false	5		2017-06-19T18:49:39Z	2017-06-19T21:09:56Z		crypto.createCipher should not work with AES-CTR	66		
 13802	718899	true	open	false	0	0	2017-06-19T18:59:55Z	2017-06-19T18:59:55Z		test: refactor test-http-set-timeout-server	51		
+13803	439929	true	open	false	0	0	2017-06-19T21:26:57Z	2017-06-19T21:26:57Z		Refactor util	57		
