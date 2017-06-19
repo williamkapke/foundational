@@ -6509,7 +6509,7 @@
 13070	9373002	false	closed	false	8		2017-05-17T01:23:04Z	2017-05-18T04:35:28Z	2017-05-18T04:35:28Z	AIX: fs-watch backport issues	77		
 13071	4044581	false	closed	false	3		2017-05-17T05:24:53Z	2017-05-22T03:10:55Z	2017-05-22T03:10:55Z	"parallel/test-process-setuid-setgid fails if ""nobody"" user does not exist"	26		
 13072	5886475	true	open	false	2		2017-05-17T05:42:32Z	2017-06-19T06:19:45Z		(v6.x backport) test: fix parallel/test-setproctitle.js on alpine	72		
-13073	115237	true	open	false	0		2017-05-17T05:44:14Z	2017-06-17T18:55:56Z		(v6.x backport) #9532	7		
+13073	115237	true	open	false	1		2017-05-17T05:44:14Z	2017-06-19T17:53:49Z		(v6.x backport) #9532	7		
 13074	128856	true	open	false	8		2017-05-17T07:02:05Z	2017-05-19T19:03:28Z		vm: fix race condition with `timeout` param	183		
 13075	16603080	false	open	false	3		2017-05-17T07:29:11Z	2017-05-17T09:14:14Z		/usr/bin/node[14405]: ../src/node_http_parser.cc:398:static void node::Parser::Execute(const v8::FunctionCallbackInfo<v8::Value>&): Assertion `(parser->current_buffer_len_) == (0)' failed.	76		
 13076	2842176	true	closed	false	11		2017-05-17T09:37:17Z	2017-05-21T13:53:09Z	2017-05-21T13:53:09Z	dns: fix `resolve` failed starts without network	353		
@@ -7051,7 +7051,7 @@
 13614	899444	true	open	false			2017-06-11T16:28:51Z	2017-06-16T22:37:58Z		test: split up and refactor test-domain	19		
 13615	1008760	false	open	false	0		2017-06-11T16:45:17Z	2017-06-11T16:45:17Z		Array.sort() on numbers does not sort numerically	59		
 13616	131406	false	closed	false	3		2017-06-11T16:48:49Z	2017-06-13T15:10:43Z	2017-06-13T15:10:43Z	mips64el should be listed in configure's valid_arch ?	45		
-13617	534619	true	closed	false	10		2017-06-11T18:22:08Z	2017-06-19T16:24:26Z	2017-06-19T16:24:26Z	doc: document res.connection and res.socket	37		
+13617	534619	true	closed	false	10		2017-06-11T18:22:08Z	2017-06-19T17:26:44Z	2017-06-19T16:24:26Z	doc: document res.connection and res.socket	37		
 13618	718899	true	closed	false	2	6	2017-06-11T19:06:48Z	2017-06-14T21:42:54Z	2017-06-14T21:42:54Z	test: refactor test-fs-read-stream-inherit	60		
 13619	588262	true	closed	false	20		2017-06-11T19:33:59Z	2017-06-16T05:25:52Z	2017-06-16T02:52:15Z	Fixed cluster inspect port logic	125		
 13620	5358146	true	closed	false	5		2017-06-11T20:03:10Z	2017-06-13T15:12:16Z	2017-06-13T15:12:16Z	configure: added mips64el to valid_arch	35		
@@ -7120,7 +7120,7 @@
 13683	578	false	open	false	14		2017-06-14T18:17:21Z	2017-06-17T22:44:11Z		path.posix.relative returns different results for *nix and Windows versions of node	35		
 13684	9287	true	open	true	61		2017-06-14T18:30:06Z	2017-06-15T20:12:11Z		cluster: remove deprecated problematic API	309		
 13685	2512748	true	closed	false	2	0	2017-06-14T19:03:22Z	2017-06-16T15:54:15Z	2017-06-16T15:54:15Z	test: refactor test-cluster-worker-isconnected.js	61		
-13686	96947	true	open	false			2017-06-14T19:49:55Z	2017-06-19T16:50:35Z		fix `common.expectsError` type checking	59		
+13686	96947	true	open	false			2017-06-14T19:49:55Z	2017-06-19T17:01:00Z		fix `common.expectsError` type checking	59		
 13687	15952	true	open	false	4		2017-06-14T20:04:09Z	2017-06-16T15:19:43Z		repl: make REPLServer.bufferedCommand private	76		
 13688	8578343	false	open	false	0		2017-06-14T21:56:06Z	2017-06-15T12:40:31Z		icu-case-mapping should not be specified; it's on by default and will go away in v8. 	41		
 13689	718899	true	closed	false	2		2017-06-14T22:58:56Z	2017-06-18T15:53:19Z	2017-06-18T15:53:19Z	test: refactor test-fs-watch-stop-sync	49		
@@ -7139,9 +7139,9 @@
 13702	439929	true	open	false			2017-06-15T15:47:49Z	2017-06-15T23:17:13Z		cluster: remove deprecated API	78		
 13703	96947	true	open	false	0		2017-06-15T16:02:03Z	2017-06-15T16:03:57Z		cluster: tweak deprecation	50		
 13704	439929	true	open	false			2017-06-15T16:10:17Z	2017-06-17T23:28:04Z		cluster: update deprecated API	107		
-13705	2512748	true	open	false	1		2017-06-15T18:15:32Z	2017-06-18T14:52:26Z		test: increase util.callbackify() coverage	40		
+13705	2512748	true	open	false	2		2017-06-15T18:15:32Z	2017-06-19T17:35:03Z		test: increase util.callbackify() coverage	40		
 13706	24300213	false	closed	false	2		2017-06-15T19:10:15Z	2017-06-16T15:13:51Z	2017-06-15T19:15:00Z	(node:7596) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: Something took too long to do.	36		
-13707	2512748	true	open	false	0	0	2017-06-15T22:13:21Z	2017-06-15T22:13:21Z		test: remove node-tap lookalike	58		
+13707	2512748	true	open	false	0		2017-06-15T22:13:21Z	2017-06-19T17:57:56Z		test: remove node-tap lookalike	58		
 13708	3665990	false	closed	false	16		2017-06-15T23:05:46Z	2017-06-16T15:03:27Z	2017-06-16T15:03:27Z	url.parse() port instead of hostname	18		
 13709	10393198	true	closed	false	1		2017-06-15T23:40:57Z	2017-06-18T23:22:46Z	2017-06-18T23:22:46Z	v8: fix RegExp nits in v8_prof_polyfill.js	96		
 13710	10393198	true	closed	false	2		2017-06-16T00:10:16Z	2017-06-18T23:27:21Z	2017-06-18T23:27:21Z	test: use string instead of RegExp in split() when it is sufficient	25		
@@ -7157,9 +7157,9 @@
 13720	10393198	true	open	false	5		2017-06-16T16:29:09Z	2017-06-16T17:07:59Z		readline, repl, url, util: remove needless RegExp capturing	66		
 13721	718899	true	open	false	0		2017-06-16T17:00:11Z	2017-06-18T15:55:30Z		test: refactor test-fs-watchfile	50		
 13722	439929	false	open	false	0		2017-06-16T17:17:36Z	2017-06-16T17:17:36Z		Including windows-1252 conversion in small-icu	38		
-13723	2842176	true	open	false	14		2017-06-16T17:31:18Z	2017-06-19T16:39:52Z		dns: make `dns.setServers` support customized port	71		
+13723	2842176	true	open	false	17		2017-06-16T17:31:18Z	2017-06-19T17:17:32Z		dns: make `dns.setServers` support customized port	71		
 13724	2842176	true	open	false	0	0	2017-06-16T18:37:59Z	2017-06-16T18:37:59Z		(v4.x backport) dns: fix crash while using dns.setServers after dns.resolve4	159		
-13725	439929	true	open	false			2017-06-16T19:38:03Z	2017-06-17T00:11:58Z		buffer: support boxed strings and toPrimitive	80		
+13725	439929	true	open	false	3		2017-06-16T19:38:03Z	2017-06-19T17:26:22Z		buffer: support boxed strings and toPrimitive	80		
 13726	8822573	true	open	false	8		2017-06-16T20:15:33Z	2017-06-19T16:40:11Z		net: fix abort on bad address input	61		
 13727	305455	false	open	false	1		2017-06-16T20:59:05Z	2017-06-16T21:10:30Z		path.basename matches `ext` parameter case-sensitively on case-insensitive filesystems	296		
 13728	10393198	false	open	false	1		2017-06-16T23:14:26Z	2017-06-19T04:06:25Z		util: util.debuglog() is buggy and poorly documented	249		
@@ -7177,7 +7177,7 @@
 13740	790572	false	closed	false	2		2017-06-17T13:26:30Z	2017-06-19T12:08:23Z	2017-06-19T12:08:23Z	net.Server 'connection' callback not invoked after passing handle to forked process	233		
 13741	8822573	true	closed	false	2	2	2017-06-17T13:34:09Z	2017-06-19T16:19:26Z	2017-06-19T16:19:26Z	lib: fix typos	29		
 13742	899444	true	open	false	0	0	2017-06-17T13:37:48Z	2017-06-17T13:37:48Z		doc: mention rebasing of v?.x-staging post release	19		
-13743	8822573	true	open	false	1		2017-06-17T13:37:51Z	2017-06-19T16:07:59Z		console,internal/errors: improve error perf	88		
+13743	8822573	true	open	false			2017-06-17T13:37:51Z	2017-06-19T17:35:05Z		console,internal/errors: improve error perf	88		
 13744	899444	true	open	false	8		2017-06-17T13:47:40Z	2017-06-19T16:09:02Z		v8.2.0 proposal	860		
 13745	12840387	false	closed	false	2		2017-06-17T13:53:57Z	2017-06-17T16:54:00Z	2017-06-17T15:20:59Z	package.json dependency module from git	69		
 13746	6023090	false	closed	false	3		2017-06-17T14:02:34Z	2017-06-17T19:43:03Z	2017-06-17T19:43:03Z	Should we deprecate OpenSSL,switch to LibreSSL	6		
@@ -7190,8 +7190,8 @@
 13753	1247980	false	open	false	0		2017-06-17T23:10:09Z	2017-06-17T23:10:09Z		node crashes if `undefined` passed to an objectMode readable stream	121		
 13754	718899	true	closed	false	1	0	2017-06-18T00:32:41Z	2017-06-18T09:05:38Z	2017-06-18T09:05:38Z	(v6.x backport) build: clear stalled jobs on POSIX CI hosts	111		
 13755	8822573	true	open	false			2017-06-18T01:33:15Z	2017-06-18T21:35:40Z		async_hooks: reduce code duplication by using a factory	88		
-13756	8822573	true	open	false	1		2017-06-18T01:44:52Z	2017-06-18T23:26:00Z		lib: var to const	50		
-13757	8822573	true	open	false	1		2017-06-18T01:45:22Z	2017-06-19T15:49:14Z		benchmark: var to const	50		
+13756	8822573	true	open	false	2		2017-06-18T01:44:52Z	2017-06-19T17:51:38Z		lib: var to const	50		
+13757	8822573	true	open	false	2		2017-06-18T01:45:22Z	2017-06-19T17:06:55Z		benchmark: var to const	50		
 13758	718899	true	open	false	3		2017-06-18T05:40:40Z	2017-06-18T19:56:32Z		tools: apply stricter indentation rules to tools     	80		
 13759	1840183	false	open	false	0		2017-06-18T09:35:42Z	2017-06-18T09:35:42Z		os.networkInterfaces returning wrong mac address (v 8.1.2)	102		
 13760	899444	true	open	false	1		2017-06-18T10:06:58Z	2017-06-18T11:25:51Z		stream: fix `undefined` in Readable object mode	38		
@@ -7222,12 +7222,15 @@
 13785	2352663	true	open	false	0		2017-06-19T08:43:59Z	2017-06-19T11:11:13Z		(v6.x backport) tools: enforce two arguments in assert.throws	67		
 13786	432351	true	open	false	1		2017-06-19T08:48:42Z	2017-06-19T10:03:31Z		test: support shared openssl with fips	286		
 13787	171239	false	open	false	2		2017-06-19T08:59:20Z	2017-06-19T10:23:00Z		null character as first character of path component crashes node	38		
-13788	171239	true	open	false	2		2017-06-19T09:02:33Z	2017-06-19T16:45:10Z		Calling require with null char as first char of the path component causes crash	39		
+13788	171239	true	open	false	3		2017-06-19T09:02:33Z	2017-06-19T17:08:37Z		Calling require with null char as first char of the path component causes crash	39		
 13789	8860227	true	closed	false	7		2017-06-19T09:04:52Z	2017-06-19T11:02:54Z	2017-06-19T09:43:07Z	Loop performance	55		
 13790	2352663	true	open	false	3		2017-06-19T09:20:12Z	2017-06-19T14:59:54Z		[v8.x] deps: update V8 to 5.9.211.37	26		
 13791	28588124	false	open	false	8		2017-06-19T11:06:46Z	2017-06-19T12:05:56Z		multiple ipv6 request not working	112		
 13792	15608388	true	open	false	0	0	2017-06-19T11:10:19Z	2017-06-19T11:10:19Z		(v6.x backport) test: dynamic port in dgram tests	58		
 13793	3089767	false	open	false	1		2017-06-19T12:05:12Z	2017-06-19T16:08:38Z		Messages is not received via the process.on('message') event while debugging.	214		
 13794	8864662	false	open	false	0		2017-06-19T12:09:44Z	2017-06-19T12:09:44Z		proxy	6		
-13795	96947	false	open	false	2		2017-06-19T12:20:26Z	2017-06-19T16:40:10Z		dns: getServers returns IPv6 addresses without `[]`	26		
+13795	96947	false	open	false	5		2017-06-19T12:20:26Z	2017-06-19T17:05:41Z		dns: getServers returns IPv6 addresses without `[]`	26		
 13796	1443911	true	open	false	0	0	2017-06-19T16:42:54Z	2017-06-19T16:42:54Z		(v6.x backport) events: do not keep arrays with a single listener	18		
+13797	2842176	true	open	false	0	0	2017-06-19T17:32:29Z	2017-06-19T17:32:29Z		dns: make `var` to `const` if possible	29		
+13798	131776	false	open	false	0		2017-06-19T17:34:57Z	2017-06-19T17:34:57Z		it seems JSON.stringify constantly fails since v4	118		
+13799	287917	true	open	false	0	0	2017-06-19T17:46:06Z	2017-06-19T17:46:06Z		inspector, test: Fix test bug detected by Coverity	43		
