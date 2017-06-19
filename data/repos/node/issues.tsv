@@ -7078,7 +7078,7 @@
 13641	931192	false	open	false	0		2017-06-12T22:49:17Z	2017-06-13T01:12:25Z		Issues building test addons with both VS2015 and VS2017 installed	407		
 13642	718899	false	open	false	2		2017-06-12T23:20:10Z	2017-06-14T02:18:45Z		Investigate flaky test/parallel/test-fs-watch on Raspberry Pi	24		
 13643	718899	true	open	false	3		2017-06-13T01:54:49Z	2017-06-16T16:03:38Z		test: refactor test-fs-read-stream	72		
-13644	439929	true	open	false	13		2017-06-13T03:19:20Z	2017-06-16T18:01:28Z		buffer: implement WHATWG Encoding Standard API	140		
+13644	439929	true	open	false	15		2017-06-13T03:19:20Z	2017-06-19T22:30:51Z		buffer: implement WHATWG Encoding Standard API	140		
 13645	718899	true	open	false	22		2017-06-13T03:53:45Z	2017-06-17T19:55:26Z		tools: update ESLint to v4.0.0	32		
 13646	617481	false	open	false	8		2017-06-13T04:41:32Z	2017-06-16T17:18:56Z		Discussion of implementing the Encoding Standard with ICU, and associated web platform tests	196		
 13647	490562	false	open	false	0		2017-06-13T05:08:12Z	2017-06-13T06:03:18Z		Crashes terminal on OS X and refuses subsequent input after prompting more than once (Node 8 only)	174		
@@ -7121,7 +7121,7 @@
 13684	9287	true	open	true	61		2017-06-14T18:30:06Z	2017-06-15T20:12:11Z		cluster: remove deprecated problematic API	309		
 13685	2512748	true	closed	false	2	0	2017-06-14T19:03:22Z	2017-06-16T15:54:15Z	2017-06-16T15:54:15Z	test: refactor test-cluster-worker-isconnected.js	61		
 13686	96947	true	open	false	15		2017-06-14T19:49:55Z	2017-06-19T19:10:02Z		fix `common.expectsError` type checking	59		
-13687	15952	true	open	false	6		2017-06-14T20:04:09Z	2017-06-19T21:30:50Z		repl: make REPLServer.bufferedCommand private	76		
+13687	15952	true	open	false	6		2017-06-14T20:04:09Z	2017-06-19T22:44:41Z		repl: make REPLServer.bufferedCommand private	76		
 13688	8578343	false	open	false	0		2017-06-14T21:56:06Z	2017-06-15T12:40:31Z		icu-case-mapping should not be specified; it's on by default and will go away in v8. 	41		
 13689	718899	true	closed	false	2		2017-06-14T22:58:56Z	2017-06-18T15:53:19Z	2017-06-18T15:53:19Z	test: refactor test-fs-watch-stop-sync	49		
 13690	10393198	true	closed	false	2	0	2017-06-15T00:40:56Z	2017-06-18T00:59:32Z	2017-06-18T00:59:32Z	test: remove needless RegExp flags	58		
@@ -7136,9 +7136,9 @@
 13699	432351	true	closed	false	6		2017-06-15T13:02:21Z	2017-06-18T09:23:32Z	2017-06-18T09:23:32Z	test: add hasIntl to failing test	46		
 13700	1716463	true	open	false	1		2017-06-15T14:01:16Z	2017-06-19T08:16:50Z		doc: fix api docs style	53		
 13701	7271508	false	open	false	0		2017-06-15T14:04:26Z	2017-06-15T14:04:26Z		unable to install node 8 dependencies on ubuntu 16.4	231		
-13702	439929	true	open	false			2017-06-15T15:47:49Z	2017-06-15T23:17:13Z		cluster: remove deprecated API	78		
+13702	439929	true	open	false	0		2017-06-15T15:47:49Z	2017-06-19T22:24:19Z		cluster: remove deprecated API	78		
 13703	96947	true	open	false	0		2017-06-15T16:02:03Z	2017-06-15T16:03:57Z		cluster: tweak deprecation	50		
-13704	439929	true	open	false			2017-06-15T16:10:17Z	2017-06-17T23:28:04Z		cluster: update deprecated API	107		
+13704	439929	true	open	false	3		2017-06-15T16:10:17Z	2017-06-19T22:25:45Z		cluster: update deprecated API	107		
 13705	2512748	true	closed	false	3	4	2017-06-15T18:15:32Z	2017-06-19T18:41:29Z	2017-06-19T18:41:29Z	test: increase util.callbackify() coverage	40	2512748	2017-06-19T18:41:29Z
 13706	24300213	false	closed	false	2		2017-06-15T19:10:15Z	2017-06-16T15:13:51Z	2017-06-15T19:15:00Z	(node:7596) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: Something took too long to do.	36		
 13707	2512748	true	closed	false	1	0	2017-06-15T22:13:21Z	2017-06-19T20:07:32Z	2017-06-19T20:07:32Z	test: remove node-tap lookalike	58	2512748	2017-06-19T20:07:32Z
@@ -7159,7 +7159,7 @@
 13722	439929	false	open	false	0		2017-06-16T17:17:36Z	2017-06-16T17:17:36Z		Including windows-1252 conversion in small-icu	38		
 13723	2842176	true	open	false			2017-06-16T17:31:18Z	2017-06-19T18:05:53Z		dns: make `dns.setServers` support customized port	71		
 13724	2842176	true	open	false	0		2017-06-16T18:37:59Z	2017-06-19T21:58:37Z		(v6.x backport) dns: fix crash while using dns.setServers after dns.resolve4	159		
-13725	439929	true	open	false	6		2017-06-16T19:38:03Z	2017-06-19T18:02:23Z		buffer: support boxed strings and toPrimitive	80		
+13725	439929	true	closed	false	7	15	2017-06-16T19:38:03Z	2017-06-19T22:31:12Z	2017-06-19T22:31:12Z	buffer: support boxed strings and toPrimitive	80		
 13726	8822573	true	open	false	11		2017-06-16T20:15:33Z	2017-06-19T18:24:59Z		net: fix abort on bad address input	61		
 13727	305455	false	open	false	1		2017-06-16T20:59:05Z	2017-06-16T21:10:30Z		path.basename matches `ext` parameter case-sensitively on case-insensitive filesystems	296		
 13728	10393198	false	open	false	1		2017-06-16T23:14:26Z	2017-06-19T04:06:25Z		util: util.debuglog() is buggy and poorly documented	249		
@@ -7219,22 +7219,24 @@
 13782	857632	false	open	false	5		2017-06-19T07:29:09Z	2017-06-19T11:03:44Z		received SIGSEGV on rejecting a promise	195		
 13783	8860227	true	open	false	0	0	2017-06-19T08:10:59Z	2017-06-19T08:10:59Z		function to const	53		
 13784	1538624	true	open	false	1		2017-06-19T08:25:02Z	2017-06-19T16:01:02Z		promises: more robust stringification	34		
-13785	2352663	true	open	false	2		2017-06-19T08:43:59Z	2017-06-19T21:52:35Z		(v6.x backport) tools: enforce two arguments in assert.throws	67		
+13785	2352663	true	open	false	3		2017-06-19T08:43:59Z	2017-06-19T22:22:21Z		(v6.x backport) tools: enforce two arguments in assert.throws	67		
 13786	432351	true	open	false	1		2017-06-19T08:48:42Z	2017-06-19T10:03:31Z		test: support shared openssl with fips	286		
 13787	171239	false	open	false	6		2017-06-19T08:59:20Z	2017-06-19T19:48:21Z		null character as first character of path component crashes node	43		
 13788	171239	true	open	false	3		2017-06-19T09:02:33Z	2017-06-19T17:08:37Z		Calling require with null char as first char of the path component causes crash	39		
 13789	8860227	true	closed	false	7		2017-06-19T09:04:52Z	2017-06-19T11:02:54Z	2017-06-19T09:43:07Z	Loop performance	55		
 13790	2352663	true	open	false	3		2017-06-19T09:20:12Z	2017-06-19T14:59:54Z		[v8.x] deps: update V8 to 5.9.211.37	26		
-13791	28588124	false	open	false	8		2017-06-19T11:06:46Z	2017-06-19T21:54:28Z		multiple ipv6 request not working	112		
-13792	15608388	true	open	false	0	0	2017-06-19T11:10:19Z	2017-06-19T11:10:19Z		(v6.x backport) test: dynamic port in dgram tests	58		
+13791	28588124	false	open	false	9		2017-06-19T11:06:46Z	2017-06-19T22:51:01Z		multiple ipv6 request not working	112		
+13792	15608388	true	open	false	0		2017-06-19T11:10:19Z	2017-06-19T22:01:26Z		(v6.x backport) test: dynamic port in dgram tests	54		
 13793	3089767	false	open	false	1		2017-06-19T12:05:12Z	2017-06-19T16:08:38Z		Messages is not received via the process.on('message') event while debugging.	214		
 13794	8864662	false	open	false	0		2017-06-19T12:09:44Z	2017-06-19T12:09:44Z		proxy	6		
 13795	96947	false	open	false	5		2017-06-19T12:20:26Z	2017-06-19T18:28:19Z		dns: getServers returns IPv6 addresses without `[]`	26		
-13796	1443911	true	open	false	0	0	2017-06-19T16:42:54Z	2017-06-19T16:42:54Z		(v6.x backport) events: do not keep arrays with a single listener	18		
+13796	1443911	true	open	false	0		2017-06-19T16:42:54Z	2017-06-19T22:01:54Z		(v6.x backport) events: do not keep arrays with a single listener	18		
 13797	2842176	true	closed	false	2		2017-06-19T17:32:29Z	2017-06-19T21:27:45Z	2017-06-19T17:46:20Z	dns: make `var` to `const` if possible	21		
 13798	131776	false	closed	false	3		2017-06-19T17:34:57Z	2017-06-19T18:04:20Z	2017-06-19T18:04:20Z	JSON.stringify fails parsing session object	118		
 13799	287917	true	open	false	0	0	2017-06-19T17:46:06Z	2017-06-19T17:46:06Z		inspector, test: Fix test bug detected by Coverity	43		
 13800	718899	false	open	false	0		2017-06-19T18:09:13Z	2017-06-19T18:09:13Z		Investigate flaky test-regress-GH-4027 on Windows	73		
-13801	1280719	false	open	false	5		2017-06-19T18:49:39Z	2017-06-19T21:09:56Z		crypto.createCipher should not work with AES-CTR	66		
+13801	1280719	false	open	false	11		2017-06-19T18:49:39Z	2017-06-19T22:42:34Z		crypto.createCipher should not work with AES-CTR	66		
 13802	718899	true	open	false	0	0	2017-06-19T18:59:55Z	2017-06-19T18:59:55Z		test: refactor test-http-set-timeout-server	51		
 13803	439929	true	open	false	0	0	2017-06-19T21:26:57Z	2017-06-19T21:26:57Z		Refactor util	57		
+13804	132233	false	open	false	0		2017-06-19T22:43:34Z	2017-06-19T22:43:34Z		"V8_Fatal exception when running ""jest"" tests"	212		
+13805	54666	false	open	false	0		2017-06-19T22:58:50Z	2017-06-19T22:58:50Z		doc: formatting issue in cli docs	21		
