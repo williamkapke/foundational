@@ -525,7 +525,7 @@
 6354	3625244	false	closed	false	13		2016-04-23T07:44:20Z	2016-07-05T12:12:22Z	2016-04-23T08:21:56Z	Does make sense to upgrade V8 to 5.1?	34		
 6356	149247	false	closed	false	6		2016-04-23T10:43:17Z	2017-01-09T14:16:38Z	2017-01-09T14:16:38Z	how to check p12 file is right?	16		
 6359	56582	true	open	false	17		2016-04-24T09:06:24Z	2017-03-01T05:21:53Z		debugger: Reduce global variables and expose some APIs for the debugger.	203		
-6369	2329683	false	open	false	6		2016-04-25T06:33:32Z	2017-04-26T17:46:31Z		_get_osfhandle in Addon fails on Windows	123		
+6369	2329683	false	closed	false	7		2016-04-25T06:33:32Z	2017-06-20T10:17:46Z	2017-06-20T10:17:46Z	_get_osfhandle in Addon fails on Windows	123		
 6374	1356314	true	closed	false	16		2016-04-25T15:57:37Z	2016-12-16T11:47:02Z	2016-04-26T15:52:49Z	crypto: Read OpenSSL config before init	136		
 6375	1093990	true	closed	false	92		2016-04-25T17:23:13Z	2017-03-23T21:14:55Z	2017-03-23T21:14:55Z	"lib,src: ""throw"" on unhandled promise rejections"	93		
 6376	1131464	true	closed	false	47		2016-04-25T18:19:43Z	2016-07-13T06:43:47Z	2016-06-27T20:31:48Z	crypto: Allow GCM ciphers to have a longer IV length	61		
@@ -5545,7 +5545,7 @@
 12104	498775	true	closed	false	6	0	2017-03-28T23:47:24Z	2017-03-29T03:01:04Z	2017-03-29T03:01:04Z	V7.8.0 proposal	866	498775	2017-03-29T03:01:04Z
 12105	54666	true	open	false	13		2017-03-28T23:53:42Z	2017-05-28T21:42:18Z		fs: Optimizations 3: The Revenge	779		
 12106	6009809	true	closed	false	15		2017-03-28T23:57:46Z	2017-04-25T18:43:02Z	2017-04-04T17:16:48Z	doc: change Mac OS X to macOS	43		
-12107	10393198	false	closed	false	8		2017-03-29T02:16:38Z	2017-06-19T23:32:01Z	2017-03-30T05:30:40Z	A bookmarklet to check commit messages in PRs	222		
+12107	10393198	false	closed	false	9		2017-03-29T02:16:38Z	2017-06-20T10:29:02Z	2017-03-30T05:30:40Z	A bookmarklet to check commit messages in PRs	222		
 12108	631240	false	open	false	0		2017-03-29T02:27:07Z	2017-03-29T04:08:35Z		No official way to uninstall Node?	61		
 12109	5886475	true	open	false	0		2017-03-29T02:51:01Z	2017-04-10T22:46:29Z		backport: v7.x - #11989 - test: add internal/socket_list tests	40		
 12110	432351	true	closed	false	1		2017-03-29T05:44:40Z	2017-06-17T23:02:05Z	2017-03-31T05:22:41Z	test: fix truncation of argv	83		
@@ -6174,7 +6174,7 @@
 12734	1093990	true	open	false	49		2017-04-28T22:34:28Z	2017-05-16T21:26:19Z		lib,src: eagerly exit process on unhanded promise rejections	228		
 12735	10393198	true	closed	false	42		2017-04-28T22:42:15Z	2017-06-18T23:41:15Z	2017-05-05T14:42:19Z	test: reduce string concatenations	261		
 12736	718899	true	closed	false	26		2017-04-29T05:25:53Z	2017-06-19T03:11:03Z	2017-05-04T00:01:36Z	test: move WPT to its own testing module	93		
-12737	318622	false	open	false	3		2017-04-29T05:48:43Z	2017-05-19T18:51:54Z		fs.lstatSync doesn't handle specific Windows REPARSE POINTS	212		
+12737	318622	false	open	false	4		2017-04-29T05:48:43Z	2017-06-20T10:04:06Z		fs.lstatSync doesn't handle specific Windows REPARSE POINTS	212		
 12738	718899	true	closed	false	2		2017-04-29T05:57:09Z	2017-05-02T22:04:53Z	2017-05-02T22:04:53Z	cluster: remove debug arg handling	71		
 12739	4044581	true	open	false	0	0	2017-04-29T10:21:47Z	2017-04-29T10:21:47Z		(v7.x backport) test: check curve algorithm is supported	68		
 12740	557590	false	closed	false	14		2017-04-29T12:56:18Z	2017-05-13T20:25:16Z	2017-05-12T14:53:24Z	WebAssembly instantiation fails on latest nightly	639		
@@ -6406,7 +6406,7 @@
 12966	171239	true	closed	false	23		2017-05-11T07:44:03Z	2017-05-20T07:37:58Z	2017-05-20T07:37:58Z	url: ignore IDN errors when domainname have two hyphens	67		
 12967	432351	true	closed	false	15		2017-05-11T08:19:54Z	2017-05-12T13:24:19Z	2017-05-12T06:11:26Z	src: add HAVE_OPENSSL guard to crypto providers	78		
 12968	432351	true	closed	false	1		2017-05-11T08:20:22Z	2017-05-12T05:29:52Z	2017-05-12T05:29:52Z	src: add/move hasCrypto checks for async tests	61		
-12969	18639905	false	closed	false	2		2017-05-11T09:49:01Z	2017-06-20T08:08:33Z	2017-05-11T11:27:29Z	Uh oh! Looks like you're missing a module in your gulpfile: Cannot find module 'internal/fs'	111		
+12969	18639905	false	closed	false	2		2017-05-11T09:49:01Z	2017-06-20T10:30:32Z	2017-05-11T11:27:29Z	Uh oh! Looks like you're missing a module in your gulpfile: Cannot find module 'internal/fs'	111		
 12970	899444	true	closed	false	12		2017-05-11T11:05:50Z	2017-05-11T18:42:09Z	2017-05-11T16:30:00Z	process: always make stdio blocking	72		
 12971	10393198	false	open	false	4		2017-05-11T11:13:01Z	2017-05-11T18:13:34Z		cli: NODE_OPTIONS does not support --require/-r + path with spaces	87		
 12972	10393198	true	open	false	1		2017-05-11T12:19:29Z	2017-05-11T18:44:49Z		test: make the rest of tests path-independent	27		
@@ -7223,12 +7223,12 @@
 13785	2352663	true	open	false	3		2017-06-19T08:43:59Z	2017-06-19T22:22:21Z		(v6.x backport) tools: enforce two arguments in assert.throws	67		
 13786	432351	true	open	false	1		2017-06-19T08:48:42Z	2017-06-19T10:03:31Z		test: support shared openssl with fips	286		
 13787	171239	false	open	false	6		2017-06-19T08:59:20Z	2017-06-19T19:48:21Z		null character as first character of path component crashes node	43		
-13788	171239	true	open	false	4		2017-06-19T09:02:33Z	2017-06-20T06:33:42Z		Calling require with null char as first char of the path component causes crash	39		
+13788	171239	true	open	false			2017-06-19T09:02:33Z	2017-06-20T10:34:15Z		Calling require with null char as first char of the path component causes crash	39		
 13789	8860227	true	closed	false	7		2017-06-19T09:04:52Z	2017-06-19T11:02:54Z	2017-06-19T09:43:07Z	Loop performance	55		
 13790	2352663	true	open	false	3		2017-06-19T09:20:12Z	2017-06-19T14:59:54Z		[v8.x] deps: update V8 to 5.9.211.37	26		
-13791	28588124	false	open	false	9		2017-06-19T11:06:46Z	2017-06-19T22:51:01Z		multiple ipv6 request not working	112		
+13791	28588124	false	closed	false	11		2017-06-19T11:06:46Z	2017-06-20T10:23:12Z	2017-06-20T10:23:12Z	multiple ipv6 request not working	112		
 13792	15608388	true	open	false	0		2017-06-19T11:10:19Z	2017-06-19T22:01:26Z		(v6.x backport) test: dynamic port in dgram tests	54		
-13793	3089767	false	open	false	1		2017-06-19T12:05:12Z	2017-06-20T05:10:02Z		Messages are not received via the process.on('message') event while debugging.	214		
+13793	3089767	false	open	false	2		2017-06-19T12:05:12Z	2017-06-20T10:12:46Z		Messages are not received via the process.on('message') event while debugging.	214		
 13794	8864662	false	open	false	0		2017-06-19T12:09:44Z	2017-06-19T12:09:44Z		proxy	6		
 13795	96947	false	open	false	5		2017-06-19T12:20:26Z	2017-06-19T18:28:19Z		dns: getServers returns IPv6 addresses without `[]`	26		
 13796	1443911	true	open	false	0		2017-06-19T16:42:54Z	2017-06-19T22:01:54Z		(v6.x backport) events: do not keep arrays with a single listener	18		
@@ -7236,7 +7236,7 @@
 13798	131776	false	closed	false	6		2017-06-19T17:34:57Z	2017-06-20T03:55:35Z	2017-06-19T18:04:20Z	JSON.stringify fails parsing session object	118		
 13799	287917	true	open	false	0	0	2017-06-19T17:46:06Z	2017-06-19T17:46:06Z		inspector, test: Fix test bug detected by Coverity	43		
 13800	718899	false	open	false	0		2017-06-19T18:09:13Z	2017-06-19T18:09:13Z		Investigate flaky test-regress-GH-4027 on Windows	73		
-13801	1280719	false	open	false	12		2017-06-19T18:49:39Z	2017-06-20T00:53:37Z		crypto.createCipher should not work with AES-CTR	66		
+13801	1280719	false	open	false	13		2017-06-19T18:49:39Z	2017-06-20T10:04:36Z		crypto.createCipher should not work with AES-CTR	66		
 13802	718899	true	open	false	0	0	2017-06-19T18:59:55Z	2017-06-19T18:59:55Z		test: refactor test-http-set-timeout-server	51		
 13803	439929	true	open	false			2017-06-19T21:26:57Z	2017-06-20T00:05:36Z		util: refactor util module	57		
 13804	132233	false	open	false	2		2017-06-19T22:43:34Z	2017-06-20T03:53:03Z		"V8_Fatal exception when running ""jest"" tests"	213		
@@ -7250,3 +7250,4 @@
 13813	432351	true	open	false	0	0	2017-06-20T07:21:36Z	2017-06-20T07:21:36Z		tools: add eslint rule for hasCrypto checking	46		
 13814	432351	true	open	false	0	0	2017-06-20T08:23:29Z	2017-06-20T08:23:29Z		tools: add eslint rule for inspector checking	46		
 13815	214067	false	open	false	1		2017-06-20T08:46:20Z	2017-06-20T09:38:13Z		Bundle node 8 with npm 4 until npm 5 is fixed	117		
+13816	6021628	false	open	false	0		2017-06-20T10:06:50Z	2017-06-20T10:06:50Z		UNABLE_TO_GET_ISSUER_CERT_LOCALLY	115		
