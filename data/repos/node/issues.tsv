@@ -6091,7 +6091,7 @@
 12650	6009809	true	closed	false	0		2017-04-25T20:14:40Z	2017-05-16T04:47:50Z	2017-05-16T04:47:50Z	(v6.x backport) doc: change Mac OS X to macOS	24		
 12651	439929	true	closed	false	17	3	2017-04-25T20:22:56Z	2017-05-04T14:11:56Z	2017-05-04T14:11:56Z	assert: fix AssertException, assign error code	143		
 12652	15021989	false	closed	false	6		2017-04-25T20:56:41Z	2017-06-01T20:23:44Z	2017-06-01T20:01:11Z	Creating a contingency plan around download issues	107		
-12653	96947	true	closed	false	4	6	2017-04-25T21:37:42Z	2017-05-16T19:31:53Z	2017-05-16T19:31:53Z	build: reduce one level of spawning in node_gyp	41	96947	2017-05-16T19:31:53Z
+12653	96947	true	closed	false	6		2017-04-25T21:37:42Z	2017-06-22T18:52:33Z	2017-05-16T19:31:53Z	build: reduce one level of spawning in node_gyp	41		
 12654	439929	true	closed	false	16		2017-04-25T21:53:53Z	2017-06-02T02:59:51Z	2017-05-01T18:47:38Z	os: refactor structure of the os module	71		
 12655	6529684	true	open	false	5		2017-04-25T22:01:21Z	2017-04-25T23:23:05Z		events: remove code duplication	48		
 12656	287917	true	closed	false	2		2017-04-25T22:04:47Z	2017-06-18T23:27:52Z	2017-05-04T17:44:35Z	inspector: do not add 'inspector' property	71		
@@ -6351,7 +6351,7 @@
 12911	3827565	true	open	false	0	0	2017-05-09T00:27:37Z	2017-05-09T00:27:37Z		test: remove common.PORT from test-cluster-inspector-debug-port && test: remove common.Port from test-cluster-disconnect	34		
 12912	3827565	true	open	false			2017-05-09T00:41:37Z	2017-05-20T04:34:13Z		test: remove common.PORT from test-cluster-inspector-debug-port && test: remove common.PORT from test-cluster-disconnect	34		
 12913	782880	true	closed	false	1		2017-05-09T02:47:42Z	2017-05-15T12:11:45Z	2017-05-15T12:11:45Z	fix wrong hash results on Windows with some CPUs that support Intel SHA Extension	119		
-12914	25148017	true	closed	false	4	6	2017-05-09T06:10:05Z	2017-05-12T23:04:27Z	2017-05-12T23:04:27Z	test: add a simple abort check in windows	84		
+12914	25148017	true	closed	false	5		2017-05-09T06:10:05Z	2017-06-22T18:45:32Z	2017-05-12T23:04:27Z	test: add a simple abort check in windows	84		
 12915	7041980	true	open	false	2		2017-05-09T06:27:35Z	2017-05-12T13:39:29Z		test: replace port in https address family test	37		
 12916	4299420	true	closed	false	2	0	2017-05-09T09:10:01Z	2017-05-13T15:28:49Z	2017-05-13T15:28:49Z	benchmark: chunky http client should exit with 0	62		
 12917	8327599	false	closed	false	1		2017-05-09T09:46:34Z	2017-05-09T10:03:38Z	2017-05-09T10:03:38Z	"Array gets serialized into a weird string format ('{""a"",""b""}') inside a superclass method without serialization calls."	281		
@@ -6364,7 +6364,7 @@
 12924	196729	true	closed	false	0		2017-05-09T17:37:14Z	2017-05-09T18:18:20Z	2017-05-09T18:18:20Z	doc: fix typo in streams.md	36		
 12925	52195	true	closed	false	31		2017-05-09T17:39:18Z	2017-05-23T03:48:59Z	2017-05-22T06:35:26Z	stream: add destroy and _destroy methods.	84		
 12926	9373002	true	closed	false	15		2017-05-09T18:32:44Z	2017-05-24T14:21:25Z	2017-05-24T14:21:25Z	dgram: convert to using internal/errors	126		
-12927	2512748	true	closed	false	4		2017-05-09T18:33:55Z	2017-06-22T17:58:15Z	2017-05-11T19:28:53Z	https: support agent construction without new	34		
+12927	2512748	true	closed	false	4		2017-05-09T18:33:55Z	2017-06-22T18:01:33Z	2017-05-11T19:28:53Z	https: support agent construction without new	34		
 12928	3286504	false	closed	false	0		2017-05-09T18:36:24Z	2017-05-12T12:23:31Z	2017-05-12T09:21:34Z	Doc link broken	24		
 12929	7041980	true	open	false	17		2017-05-09T19:25:23Z	2017-05-22T06:41:08Z		test: replace port in dgram cd address empty test	42		
 12930	439929	true	open	false			2017-05-09T19:35:35Z	2017-05-19T19:25:39Z		test: improve numerous http tests	73		
@@ -6397,19 +6397,19 @@
 12957	495647	true	closed	false	3		2017-05-11T02:20:34Z	2017-05-23T18:37:54Z	2017-05-23T18:37:54Z	build: avoid /docs/api and /docs/doc/api upload	99		
 12958	495647	true	open	false	2		2017-05-11T02:37:06Z	2017-06-09T04:32:04Z		build: only require docs 'Added' fixes for release	66		
 12959	718899	true	closed	false	2	0	2017-05-11T02:40:05Z	2017-05-13T23:50:03Z	2017-05-13T23:50:03Z	test: add common.mustCall() to NAPI exception test	33		
-12960	718899	true	closed	false	22		2017-05-11T04:05:58Z	2017-05-13T05:19:26Z	2017-05-13T05:19:26Z	timers: do not use user object call/apply	83		
+12960	718899	true	closed	false	23		2017-05-11T04:05:58Z	2017-06-22T18:45:54Z	2017-05-13T05:19:26Z	timers: do not use user object call/apply	83		
 12961	28616276	false	open	false	0		2017-05-11T04:51:52Z	2017-05-11T05:21:37Z		Deprecation Warning and build struck	600		
 12962	7041980	true	closed	false	3		2017-05-11T05:03:04Z	2017-05-21T19:38:07Z	2017-05-21T19:38:07Z	doc: edit Error.captureStackTrace html comment	51		
 12963	4299420	true	open	false			2017-05-11T05:40:52Z	2017-05-11T20:20:51Z		doc: note caveats in process message serialization	75		
 12964	15608388	true	closed	false	38		2017-05-11T06:28:09Z	2017-05-17T18:12:19Z	2017-05-16T03:03:25Z	test: fix flaky test-net-connect-local-error	54		
 12965	171239	false	closed	false	1		2017-05-11T07:29:58Z	2017-05-20T07:38:34Z	2017-05-20T07:38:34Z	WHATWG URL throw parse error for valid domains	42		
 12966	171239	true	closed	false	23		2017-05-11T07:44:03Z	2017-05-20T07:37:58Z	2017-05-20T07:37:58Z	url: ignore IDN errors when domainname have two hyphens	67		
-12967	432351	true	closed	false	15		2017-05-11T08:19:54Z	2017-05-12T13:24:19Z	2017-05-12T06:11:26Z	src: add HAVE_OPENSSL guard to crypto providers	78		
+12967	432351	true	closed	false	16		2017-05-11T08:19:54Z	2017-06-22T18:14:37Z	2017-05-12T06:11:26Z	src: add HAVE_OPENSSL guard to crypto providers	78		
 12968	432351	true	closed	false	1		2017-05-11T08:20:22Z	2017-05-12T05:29:52Z	2017-05-12T05:29:52Z	src: add/move hasCrypto checks for async tests	61		
 12969	18639905	false	closed	false	2		2017-05-11T09:49:01Z	2017-06-20T10:30:32Z	2017-05-11T11:27:29Z	Uh oh! Looks like you're missing a module in your gulpfile: Cannot find module 'internal/fs'	111		
 12970	899444	true	closed	false	12		2017-05-11T11:05:50Z	2017-05-11T18:42:09Z	2017-05-11T16:30:00Z	process: always make stdio blocking	72		
 12971	10393198	false	open	false	4		2017-05-11T11:13:01Z	2017-05-11T18:13:34Z		cli: NODE_OPTIONS does not support --require/-r + path with spaces	87		
-12972	10393198	true	open	false	1		2017-05-11T12:19:29Z	2017-05-11T18:44:49Z		test: make the rest of tests path-independent	27		
+12972	10393198	true	closed	false	4		2017-05-11T12:19:29Z	2017-06-22T18:53:47Z	2017-05-14T13:07:36Z	test: make the rest of tests path-independent	38		
 12973	432351	true	closed	false	5	0	2017-05-11T12:38:58Z	2017-05-15T05:38:29Z	2017-05-15T05:38:29Z	src: remove unused uv.h include in async-wrap.h	42		
 12974	9373002	true	open	false	2		2017-05-11T13:59:32Z	2017-05-16T00:05:32Z		doc: clarify operation of napi_cancel_async_work	33		
 12975	20017097	true	closed	false	0		2017-05-11T15:33:03Z	2017-05-16T04:50:24Z	2017-05-16T04:50:24Z	(v6.x backport) build: don't create directory for NDK toolchain	89		
@@ -6426,7 +6426,7 @@
 12986	5192788	false	open	false	3		2017-05-12T00:12:52Z	2017-05-12T15:02:43Z		Spawn is ignoring all environment variables including PATH.	181		
 12987	432351	true	closed	false	2	0	2017-05-12T05:48:42Z	2017-05-14T17:55:07Z	2017-05-14T17:55:07Z	test: add hasCrypto check to https-agent-constructor	64		
 12988	18548727	false	closed	false	2		2017-05-12T06:11:29Z	2017-05-12T13:31:07Z	2017-05-12T13:31:07Z	fs : read file sync after sync copy of directory	461		
-12989	432351	true	closed	false	3		2017-05-12T06:35:55Z	2017-05-15T05:30:51Z	2017-05-15T05:30:51Z	src: rename CONNECTION provider to SSLCONNECTION	74		
+12989	432351	true	closed	false	4		2017-05-12T06:35:55Z	2017-06-22T18:56:17Z	2017-05-15T05:30:51Z	src: rename CONNECTION provider to SSLCONNECTION	74		
 12990	7041980	true	closed	false	39	31	2017-05-12T07:28:50Z	2017-06-13T20:09:09Z	2017-06-13T20:09:09Z	http: edit _storeHeader to check for Trailer header	81		
 12991	1522145	false	closed	false	2		2017-05-12T07:39:51Z	2017-05-23T08:57:12Z	2017-05-23T08:57:12Z	Consider using binary operator in readUInt32XX ? 	103		
 12992	10393198	true	closed	false	3	0	2017-05-12T08:47:14Z	2017-05-15T11:59:03Z	2017-05-15T11:59:03Z	test: remove unneeded string splitting	31		
@@ -7169,7 +7169,7 @@
 13731	8822573	true	open	false	0		2017-06-17T00:38:05Z	2017-06-17T10:00:31Z		lib: refactor to arrow functions instead of using self	53		
 13732	8822573	true	open	false	17		2017-06-17T00:53:15Z	2017-06-19T16:07:14Z		tools,test: var to const	67		
 13733	8822573	true	open	false	8		2017-06-17T01:00:46Z	2017-06-22T17:00:54Z		repl: fix error message	58		
-13734	8822573	true	open	false	0		2017-06-17T02:18:34Z	2017-06-17T23:20:51Z		internal/cluster: remove obsolete todo	56		
+13734	8822573	true	open	false	2		2017-06-17T02:18:34Z	2017-06-22T18:52:07Z		internal/cluster: remove obsolete todo	56		
 13735	8822573	true	open	false	2		2017-06-17T02:39:26Z	2017-06-20T14:33:38Z		net: deprecate net.Socket.prototype.listen	62		
 13736	10328169	false	open	false	6		2017-06-17T03:05:36Z	2017-06-17T13:04:16Z		Parse Error when http request through proxy	98		
 13737	7315383	false	open	false	0		2017-06-17T07:29:15Z	2017-06-17T09:33:58Z		armv6 binaries missing	15		
@@ -7178,7 +7178,7 @@
 13740	790572	false	closed	false	2		2017-06-17T13:26:30Z	2017-06-19T12:08:23Z	2017-06-19T12:08:23Z	net.Server 'connection' callback not invoked after passing handle to forked process	233		
 13741	8822573	true	closed	false	2	2	2017-06-17T13:34:09Z	2017-06-19T16:19:26Z	2017-06-19T16:19:26Z	lib: fix typos	29		
 13742	899444	true	closed	false	0		2017-06-17T13:37:48Z	2017-06-21T20:23:48Z	2017-06-21T20:23:48Z	doc: mention rebasing of v?.x-staging post release	21		
-13743	8822573	true	open	false			2017-06-17T13:37:51Z	2017-06-19T17:35:05Z		console,internal/errors: improve error perf	88		
+13743	8822573	true	open	false	1		2017-06-17T13:37:51Z	2017-06-22T18:11:54Z		console,internal/errors: improve error perf	88		
 13744	899444	true	open	false	16		2017-06-17T13:47:40Z	2017-06-22T06:32:20Z		v8.2.0 proposal	1283		
 13745	12840387	false	closed	false	2		2017-06-17T13:53:57Z	2017-06-17T16:54:00Z	2017-06-17T15:20:59Z	package.json dependency module from git	69		
 13746	6023090	false	closed	false	3		2017-06-17T14:02:34Z	2017-06-17T19:43:03Z	2017-06-17T19:43:03Z	Should we deprecate OpenSSL,switch to LibreSSL	6		
@@ -7259,7 +7259,7 @@
 13821	782880	true	open	false	11		2017-06-20T15:39:58Z	2017-06-21T09:05:15Z		crypto: warn if counter mode used in createCipher	87		
 13822	9279488	true	open	false	1		2017-06-20T16:00:00Z	2017-06-20T19:01:46Z		test: make test-http(s)-set-timeout-server alike (2)	94		
 13823	718899	true	open	false	0	0	2017-06-20T16:57:32Z	2017-06-20T16:57:32Z		test: refactor test-stream2-writable	47		
-13824	17259866	false	open	false	1		2017-06-20T20:29:02Z	2017-06-20T21:01:23Z		napi_get_cb_info: how to detect instance this and prototype	173		
+13824	17259866	false	open	false	1		2017-06-20T20:29:02Z	2017-06-22T18:40:34Z		napi_get_cb_info: how to detect instance this and prototype	173		
 13825	18708370	false	open	false	0		2017-06-20T20:56:29Z	2017-06-20T20:56:29Z		doc, http: Type specification incomplete for ServerResponse.getHeader()	150		
 13826	132233	true	open	false	3		2017-06-20T21:14:43Z	2017-06-20T23:02:25Z		inspector: support extra contexts when connected	155		
 13827	79303	false	open	false	2		2017-06-20T21:14:58Z	2017-06-21T12:14:30Z		The repl module's default setting for useGlobal invites hard-to-isolate bugs	277		
@@ -7291,26 +7291,26 @@
 13853	1304862	true	open	false	1		2017-06-21T18:27:39Z	2017-06-21T19:32:50Z		test: refactor indexOf uses to es6 equivalents	10		
 13854	5969196	false	open	false	0		2017-06-21T18:38:57Z	2017-06-21T19:02:42Z		HTTP error	130		
 13855	23083067	true	open	false	0		2017-06-21T18:44:09Z	2017-06-21T19:04:32Z		test: remove unnecessary import	32		
-13856	2512748	true	open	false			2017-06-21T18:52:17Z	2017-06-22T15:18:58Z		child_process: fix IPC 'message' event regression	121		
+13856	2512748	true	open	false	0		2017-06-21T18:52:17Z	2017-06-22T18:12:52Z		child_process: fix IPC 'message' event regression	121		
 13857	8822573	true	open	false	4		2017-06-21T19:08:06Z	2017-06-22T00:15:25Z		errors: improve error types	482		
 13858	342540	false	open	false	2		2017-06-21T19:36:29Z	2017-06-21T20:08:15Z		toString(36) outputs less length in Node 8	57		
 13859	794604	true	open	false	1		2017-06-21T20:46:42Z	2017-06-22T10:52:11Z		test: Remove unneded HandleScope usage	42		
-13860	21197807	true	open	false			2017-06-21T21:02:00Z	2017-06-21T22:25:53Z		test: removed unnecessary Buffer import	55		
+13860	21197807	true	open	false			2017-06-21T21:02:00Z	2017-06-22T18:38:41Z		test: removed unnecessary Buffer import	55		
 13861	899444	true	open	false	12		2017-06-21T21:11:17Z	2017-06-22T17:20:10Z		v8.1.3 proposal	708		
 13862	8822573	true	open	false	7		2017-06-22T01:52:08Z	2017-06-22T14:48:01Z		assert: make assert.fail doc compliant	89		
-13863	8822573	true	open	false			2017-06-22T01:53:34Z	2017-06-22T17:11:36Z		stream: use more explicit statements	63		
+13863	8822573	true	open	false			2017-06-22T01:53:34Z	2017-06-22T18:01:10Z		stream: use more explicit statements	63		
 13864	2033517	false	open	false	0		2017-06-22T02:15:51Z	2017-06-22T02:15:51Z		http.IncomingMessage.setTimeout callback will never be called?	208		
 13865	96947	false	open	false	0		2017-06-22T02:30:28Z	2017-06-22T02:30:28Z		Investigate SIGSEGV from test/async-hooks/test-callback-error	70		
 13866	10933333	true	open	false			2017-06-22T04:18:33Z	2017-06-22T15:50:26Z		doc: add notice about useGlobal option in repl docs	32		
 13867	10615883	false	open	false	2		2017-06-22T07:22:28Z	2017-06-22T14:24:46Z		inspect binds only to loopback interface	117		
 13868	6794482	false	open	false	0		2017-06-22T08:25:37Z	2017-06-22T11:33:16Z		fs.writeFile callback has no error when writing file failed	65		
 13869	3109072	true	open	false	0	0	2017-06-22T08:46:56Z	2017-06-22T08:46:56Z		doc: unify ERR_FALSY_VALUE_REJECTION description	25		
-13870	1140553	true	open	false	3		2017-06-22T09:48:09Z	2017-06-22T17:14:31Z		Report async tasks to V8 Inspector	304		
-13871	3109072	true	open	false	0	0	2017-06-22T11:49:49Z	2017-06-22T11:49:49Z		(v6.x backport) os,vm: fix segfaults and CHECK failure	76		
-13872	976081	true	open	false			2017-06-22T11:52:11Z	2017-06-22T12:12:42Z		N-API: Implement stricter wrapping	195		
-13873	17535	true	open	false	21		2017-06-22T12:25:40Z	2017-06-22T16:15:08Z		process: allow modification of process.argv0	206		
+13870	1140553	true	open	false			2017-06-22T09:48:09Z	2017-06-22T18:28:07Z		Report async tasks to V8 Inspector	304		
+13871	3109072	true	open	false	1		2017-06-22T11:49:49Z	2017-06-22T18:42:38Z		(v6.x backport) os,vm: fix segfaults and CHECK failure	73		
+13872	976081	true	open	false			2017-06-22T11:52:11Z	2017-06-22T18:42:31Z		N-API: Implement stricter wrapping	195		
+13873	17535	true	open	false	23		2017-06-22T12:25:40Z	2017-06-22T18:24:24Z		process: allow modification of process.argv0	206		
 13874	8225332	false	open	false	0		2017-06-22T14:29:29Z	2017-06-22T14:29:29Z		Request: Update JSON schemes	85		
 13875	2842176	true	open	false	1		2017-06-22T16:49:27Z	2017-06-22T17:03:22Z		fs: fs.write wrong behavior under win32	100		
-13876	8822573	true	open	false	0		2017-06-22T16:55:00Z	2017-06-22T17:09:17Z		repl: remove NODE_REPL_HISTORY_FILE	104		
-13877	234659	false	open	false	0		2017-06-22T17:36:14Z	2017-06-22T17:36:14Z		Discussion/Tracking SnapshotCreator support	218		
-13878	287917	true	open	false	0	0	2017-06-22T17:47:55Z	2017-06-22T17:47:55Z		test: check uv_ip4_addr return value	33		
+13876	8822573	true	open	false	1		2017-06-22T16:55:00Z	2017-06-22T18:25:59Z		repl: remove NODE_REPL_HISTORY_FILE	104		
+13877	234659	false	open	false	3		2017-06-22T17:36:14Z	2017-06-22T18:07:04Z		Discussion/Tracking SnapshotCreator support	238		
+13878	287917	true	open	false			2017-06-22T17:47:55Z	2017-06-22T18:21:44Z		test: check uv_ip4_addr return value	33		
