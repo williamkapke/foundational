@@ -4757,7 +4757,7 @@
 11314	718899	true	open	false	2		2017-02-11T15:58:57Z	2017-02-15T20:29:37Z		assert: remove unneeded condition	41		
 11315	8738437	false	closed	false	7		2017-02-11T19:57:57Z	2017-02-12T10:07:19Z	2017-02-12T10:07:19Z	thread closes without error when module.export function is undefined	72		
 11316	1853456	false	closed	false	5		2017-02-11T23:54:52Z	2017-02-14T01:53:21Z	2017-02-11T23:58:12Z	Critical issue: no apparent way to use pure binary TCP sockets in Node 6.9.5	305		
-11317	7684574	true	open	false			2017-02-12T01:28:40Z	2017-06-22T17:20:39Z		errors: port internal/fs errors to internal/errors	71		
+11317	7684574	true	open	false	14		2017-02-12T01:28:40Z	2017-06-23T16:07:13Z		errors: port internal/fs errors to internal/errors	71		
 11318	5035902	true	open	false	0		2017-02-12T03:53:33Z	2017-02-13T02:25:08Z		doc: update email and add personal pronoun	23		
 11319	1028226	true	open	false	8		2017-02-12T08:11:17Z	2017-06-06T21:17:08Z		errors, path: migrate to use internal/errors.js	48		
 11320	694779	false	closed	false	7		2017-02-12T09:01:23Z	2017-05-24T14:03:29Z	2017-05-24T14:03:29Z	net.connect fails looking up localhost when offline (node-v0.x-archive/issues/25489 duplicate)	160		
@@ -7163,7 +7163,7 @@
 13725	439929	true	closed	false	7	15	2017-06-16T19:38:03Z	2017-06-19T22:31:12Z	2017-06-19T22:31:12Z	buffer: support boxed strings and toPrimitive	80		
 13726	8822573	true	closed	false	12	6	2017-06-16T20:15:33Z	2017-06-19T23:06:36Z	2017-06-19T23:06:36Z	net: fix abort on bad address input	61		
 13727	305455	false	open	false	1		2017-06-16T20:59:05Z	2017-06-16T21:10:30Z		path.basename matches `ext` parameter case-sensitively on case-insensitive filesystems	296		
-13728	10393198	false	open	false	2		2017-06-16T23:14:26Z	2017-06-21T18:33:30Z		util: util.debuglog() is buggy and poorly documented	249		
+13728	10393198	false	closed	false	4		2017-06-16T23:14:26Z	2017-06-23T16:49:50Z	2017-06-23T16:49:50Z	util: util.debuglog() is buggy and poorly documented	249		
 13729	96947	false	open	false	10		2017-06-16T23:33:29Z	2017-06-19T23:58:28Z		meta: V8 6.0 / TF & I tracking issue	23		
 13730	8822573	true	closed	false	13		2017-06-17T00:33:34Z	2017-06-22T21:01:58Z	2017-06-22T17:56:08Z	internal/errors: improve ERR_INVALID_ARG_TYPE	66		
 13731	8822573	true	open	false	0		2017-06-17T00:38:05Z	2017-06-17T10:00:31Z		lib: refactor to arrow functions instead of using self	53		
@@ -7264,19 +7264,19 @@
 13826	132233	true	open	false	3		2017-06-20T21:14:43Z	2017-06-20T23:02:25Z		inspector: support extra contexts when connected	155		
 13827	79303	false	open	false	2		2017-06-20T21:14:58Z	2017-06-21T12:14:30Z		The repl module's default setting for useGlobal invites hard-to-isolate bugs	277		
 13828	718899	true	open	false	2		2017-06-20T21:41:36Z	2017-06-23T11:20:11Z		benchmark,lib,test: use braces for multiline block	44		
-13829	8822573	true	open	false			2017-06-20T21:53:18Z	2017-06-23T16:00:58Z		internal: use internal/errors	34		
+13829	8822573	true	open	false			2017-06-20T21:53:18Z	2017-06-23T16:02:42Z		internal: use internal/errors	34		
 13830	2502292	false	open	false	0		2017-06-20T22:11:02Z	2017-06-21T02:17:09Z		Windows installer: Per user install (feature request)	48		
 13831	8276458	false	open	false	1		2017-06-20T23:49:17Z	2017-06-21T00:06:37Z		error when newSocket is undefined in lib/_http_agent.js	144		
 13832	229881	false	closed	false	2		2017-06-20T23:58:09Z	2017-06-21T17:26:00Z	2017-06-21T02:50:27Z	console.log(Error) appears to be cached	104		
 13833	10393198	false	open	false	8		2017-06-21T00:11:01Z	2017-06-21T11:02:03Z		Question about backporting	60		
-13834	8822573	true	open	false	0	0	2017-06-21T01:07:03Z	2017-06-21T01:07:03Z		Improve invalid arg type	171		
+13834	8822573	true	open	false	4		2017-06-21T01:07:03Z	2017-06-23T16:15:14Z		errors: improve invalid arg type	171		
 13835	10393198	true	open	false	9		2017-06-21T03:17:02Z	2017-06-23T07:42:15Z		(v6.x backport) test: reduce string concatenations	35		
 13836	4923335	false	open	false	9		2017-06-21T06:06:54Z	2017-06-22T20:05:22Z		test: remove unnecessary Buffer imports	89		
 13837	432351	true	open	false	5		2017-06-21T08:38:03Z	2017-06-21T13:04:39Z		build: clean up config_fips.gypi	98		
 13838	1365071	true	closed	false	1	0	2017-06-21T09:16:51Z	2017-06-22T03:51:53Z	2017-06-22T03:51:53Z	doc: add missing zlib link to stream API docs	32		
 13839	96947	true	open	false			2017-06-21T11:09:52Z	2017-06-21T18:48:20Z		http: guard against failed sockets creation	39		
 13840	228886	false	open	false	6		2017-06-21T11:18:15Z	2017-06-22T08:17:21Z		inspector: add ability to use a constant websocket url	167		
-13841	10393198	true	open	false	7		2017-06-21T13:42:05Z	2017-06-22T07:21:19Z		util: make util.debuglog() consistent with doc	34		
+13841	10393198	true	open	false	8		2017-06-21T13:42:05Z	2017-06-23T16:50:04Z		util: make util.debuglog() consistent with doc	34		
 13842	20137484	false	open	false	0		2017-06-21T15:34:44Z	2017-06-21T15:34:44Z		memory hog	81		
 13843	718899	true	open	false	13		2017-06-21T16:21:43Z	2017-06-21T22:36:49Z		"Revert ""test: improve async-hooks/test-callback-error"""	120		
 13844	2842176	true	open	false	0	0	2017-06-21T16:42:34Z	2017-06-21T16:42:34Z		test: remove `require('buffer')` on 4 test files	71		
@@ -7320,10 +7320,10 @@
 13882	96947	false	open	false	0		2017-06-22T20:31:41Z	2017-06-22T22:18:13Z		build,windows: vcbuild.bat should try to detect location of python.exe	46		
 13883	899444	true	open	false			2017-06-22T21:00:03Z	2017-06-23T14:01:30Z		test: add non-internet resolveAny tests	55		
 13884	29643950	false	open	false	1		2017-06-22T23:41:59Z	2017-06-23T10:03:14Z		TLS Issue : Wild card server Cert is not accepted by node js 	124		
-13885	567540	true	open	false			2017-06-23T02:20:22Z	2017-06-23T15:19:25Z		doc: match debugger output & instructions to master behavior	52		
+13885	567540	true	open	false	4		2017-06-23T02:20:22Z	2017-06-23T16:14:29Z		doc: match debugger output & instructions to master behavior	52		
 13886	718899	true	open	false			2017-06-23T05:00:58Z	2017-06-23T07:57:45Z		test: refactor test-tls-env-extra-ca	43		
 13887	4469502	false	open	false	3		2017-06-23T06:39:31Z	2017-06-23T11:44:30Z		path.posix.resolve, path.posix.relative return wrong path on Windows	25		
 13888	5675531	false	open	false	0		2017-06-23T07:04:39Z	2017-06-23T15:04:26Z		Debug process didn't close after finish debugging with Node 8.1+	29		
 13889	4044581	true	open	false	0	0	2017-06-23T07:36:36Z	2017-06-23T07:36:36Z		test: check curve algorithm is supported	60		
-13890	3796689	false	open	false	4		2017-06-23T08:35:51Z	2017-06-23T14:17:40Z		[s390x] Floating point exception	71		
+13890	3796689	false	closed	false	6		2017-06-23T08:35:51Z	2017-06-23T16:03:54Z	2017-06-23T16:03:54Z	[s390x] Floating point exception	71		
 13891	521971	false	open	false	0		2017-06-23T15:19:09Z	2017-06-23T15:19:09Z		Security context: 0x3adc7d9a9891 <JS Object> 	200		
