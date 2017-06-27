@@ -278,6 +278,7 @@
 4365	721814	false	closed	false	5		2015-12-20T15:25:16Z	2017-02-07T21:01:16Z	2017-02-07T21:01:15Z	Streams discussion redux	528		
 4377	399211	true	closed	false	17		2015-12-21T13:06:26Z	2016-10-03T21:15:13Z	2015-12-24T01:32:36Z	"http: 451 status code ""Unavailable For Legal Reasons"""	26		
 4394	1470592	true	closed	false	47	23	2015-12-23T03:38:39Z	2016-12-29T18:03:26Z	2016-12-29T18:03:26Z	buffer: workaround for v8 buffer.toString failure. fixes #4266	20		
+4401	52195	false	closed	false	8		2015-12-23T17:45:57Z	2017-06-27T13:47:29Z	2017-06-27T13:47:29Z	rfc: standardize stream.destroy() and pipe	88		
 4402	5358145	false	closed	false	4		2015-12-23T19:26:22Z	2016-08-29T22:31:11Z	2016-08-29T22:31:11Z	Bad readline behavior with line ending characters?	588		
 4415	327019	true	closed	false	13	2	2015-12-24T07:27:06Z	2017-03-24T23:36:38Z	2017-03-24T23:36:38Z	benchmark: add ops/sec for benchmark results	8		
 4427	718899	false	closed	false	45		2015-12-26T16:25:19Z	2016-09-16T12:18:36Z	2016-09-16T12:18:36Z	Investigate flaky test-tick-processor	5		
@@ -7111,7 +7112,7 @@
 13672	8878503	false	closed	false	4		2017-06-14T07:24:24Z	2017-06-15T07:24:48Z	2017-06-14T07:40:54Z	this link not available	7		
 13673	10826796	true	closed	false	8		2017-06-14T08:48:47Z	2017-06-16T16:33:42Z	2017-06-16T16:33:42Z	test: increase coverage for internal/module.js	33		
 13674	2352663	true	open	false	7		2017-06-14T08:53:22Z	2017-06-16T15:56:35Z		util: ignore invalid format specifiers	58		
-13675	15943089	false	open	false	11		2017-06-14T09:56:19Z	2017-06-26T23:10:19Z		Github Subteams	28		
+13675	15943089	false	open	false	12		2017-06-14T09:56:19Z	2017-06-27T13:55:54Z		Github Subteams	28		
 13676	988441	true	open	false	23		2017-06-14T12:40:23Z	2017-06-16T20:04:10Z		src: replace macro with lambda	79		
 13677	34054	false	closed	false	4		2017-06-14T13:52:50Z	2017-06-15T02:45:22Z	2017-06-15T02:45:22Z	Occasional incomplete chunked encodings occur	261		
 13678	17270099	false	closed	false	2		2017-06-14T13:56:36Z	2017-06-16T08:30:41Z	2017-06-14T14:53:19Z	Unexpected promise behavior	245		
@@ -7301,7 +7302,7 @@
 13862	8822573	true	open	false	17		2017-06-22T01:52:08Z	2017-06-26T15:07:01Z		assert: make assert.fail doc compliant	89		
 13863	8822573	true	open	false	9		2017-06-22T01:53:34Z	2017-06-27T12:47:58Z		stream: use more explicit statements	63		
 13864	2033517	false	closed	false	2		2017-06-22T02:15:51Z	2017-06-23T01:18:44Z	2017-06-22T19:35:18Z	http.IncomingMessage.setTimeout callback will never be called?	237		
-13865	96947	false	open	false	0		2017-06-22T02:30:28Z	2017-06-22T02:30:28Z		Investigate SIGSEGV from test/async-hooks/test-callback-error	70		
+13865	96947	false	open	false	1		2017-06-22T02:30:28Z	2017-06-27T13:11:19Z		Investigate SIGSEGV from test/async-hooks/test-callback-error	76		
 13866	10933333	true	open	false			2017-06-22T04:18:33Z	2017-06-22T15:50:26Z		doc: add notice about useGlobal option in repl docs	32		
 13867	10615883	false	open	false	2		2017-06-22T07:22:28Z	2017-06-22T14:24:46Z		inspect binds only to loopback interface	117		
 13868	6794482	false	open	false	2		2017-06-22T08:25:37Z	2017-06-27T08:55:28Z		fs.writeFile callback has no error when writing file failed	65		
@@ -7311,7 +7312,7 @@
 13872	976081	true	open	false	2		2017-06-22T11:52:11Z	2017-06-26T20:26:41Z		N-API: Implement stricter wrapping	195		
 13873	17535	true	open	false	24		2017-06-22T12:25:40Z	2017-06-22T20:26:11Z		process: allow modification of process.argv0	206		
 13874	8225332	false	open	false	0		2017-06-22T14:29:29Z	2017-06-22T14:29:29Z		Request: Update JSON schemes	85		
-13875	2842176	true	open	false	9		2017-06-22T16:49:27Z	2017-06-27T10:50:59Z		fs: fs.write wrong behavior under win32	100		
+13875	2842176	true	open	false	10		2017-06-22T16:49:27Z	2017-06-27T13:51:39Z		fs: fs.write wrong behavior under win32	100		
 13876	8822573	true	open	false	1		2017-06-22T16:55:00Z	2017-06-22T18:25:59Z		repl: remove NODE_REPL_HISTORY_FILE	104		
 13877	234659	false	open	false	21		2017-06-22T17:36:14Z	2017-06-24T08:19:36Z		Discussion/Tracking SnapshotCreator support	257		
 13878	287917	true	open	false	2		2017-06-22T17:47:55Z	2017-06-26T17:34:32Z		test: check uv_ip4_addr return value	33		
@@ -7331,7 +7332,7 @@
 13892	976081	true	open	false	2		2017-06-23T20:29:17Z	2017-06-26T21:03:43Z		N-API: Remove reference to node internals	47		
 13893	718899	true	closed	false	1		2017-06-23T22:05:23Z	2017-06-27T02:33:59Z	2017-06-27T02:33:59Z	test: refactor test-tls-invoked-queued	42		
 13894	1084056	true	open	false			2017-06-23T22:14:31Z	2017-06-23T23:23:25Z		process: add one-shot signal handler support	78		
-13895	718899	true	open	false	9		2017-06-24T04:03:42Z	2017-06-27T04:56:52Z		Eslint 4.1.0	128		
+13895	718899	true	closed	false	10		2017-06-24T04:03:42Z	2017-06-27T13:25:43Z	2017-06-27T13:25:43Z	Eslint 4.1.0	128		
 13896	718899	true	open	false	0		2017-06-24T05:58:15Z	2017-06-24T22:21:26Z		test: refactor test-tls-two-cas-one-string	59		
 13897	7408689	true	open	false	1		2017-06-24T07:42:03Z	2017-06-24T09:11:01Z		c-ares NAPTR parser out of bounds access	70		
 13898	25049230	false	closed	false	1		2017-06-24T12:06:36Z	2017-06-24T13:10:24Z	2017-06-24T13:10:24Z	npm commands is executing but never returns any result.	30		
@@ -7379,6 +7380,7 @@
 13940	1538624	true	open	false	1		2017-06-27T02:10:00Z	2017-06-27T10:23:19Z		src: add missing new line to printed message	32		
 13941	1280719	true	open	false			2017-06-27T03:24:14Z	2017-06-27T12:21:20Z		crypto: Deprecate createCipher for createCipheriv	256		
 13942	8434908	false	open	false	0		2017-06-27T05:40:08Z	2017-06-27T05:40:08Z		it is a magical areaid field.	184		
-13943	24795414	false	closed	false	2		2017-06-27T08:22:53Z	2017-06-27T12:03:54Z	2017-06-27T12:03:54Z	Date.toLocaleString huge memory consumption and maybe leak?	288		
+13943	24795414	false	closed	false	3		2017-06-27T08:22:53Z	2017-06-27T13:30:36Z	2017-06-27T12:03:54Z	Date.toLocaleString huge memory consumption and maybe leak?	288		
 13944	172594	false	open	false	0		2017-06-27T11:15:05Z	2017-06-27T11:15:05Z		RHEL/CentOS packages don't update from node 6 to 8 properly (easy fix)	105		
-13945	432351	true	open	false	0	0	2017-06-27T12:37:41Z	2017-06-27T12:37:41Z		tools: remove comment in eslint rule	54		
+13945	432351	true	open	false	0		2017-06-27T12:37:41Z	2017-06-27T13:30:26Z		tools: remove comment in eslint rule	54		
+13946	718899	true	open	false	0	0	2017-06-27T13:39:58Z	2017-06-27T13:39:58Z		tools: update to ESLint 4.1.1	80		
