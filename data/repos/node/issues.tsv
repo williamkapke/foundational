@@ -7170,7 +7170,7 @@
 13730	8822573	true	closed	false	18		2017-06-17T00:33:34Z	2017-06-23T21:50:52Z	2017-06-22T17:56:08Z	internal/errors: improve ERR_INVALID_ARG_TYPE	66		
 13731	8822573	true	open	false			2017-06-17T00:38:05Z	2017-06-27T08:21:26Z		lib: refactor to arrow functions instead of using self	53		
 13732	8822573	true	open	false	20		2017-06-17T00:53:15Z	2017-06-23T21:57:04Z		tools,test: var to const	67		
-13733	8822573	true	open	false	11		2017-06-17T01:00:46Z	2017-06-28T18:23:41Z		repl: fix error message	57		
+13733	8822573	true	open	false	12		2017-06-17T01:00:46Z	2017-06-29T07:35:27Z		repl: fix error message	57		
 13734	8822573	true	closed	false	2	0	2017-06-17T02:18:34Z	2017-06-22T20:10:13Z	2017-06-22T20:10:13Z	internal/cluster: remove obsolete todo	56	96947	2017-06-22T20:10:13Z
 13735	8822573	true	open	false	6		2017-06-17T02:39:26Z	2017-06-26T21:09:37Z		net: deprecate net.Socket.prototype.listen	62		
 13736	10328169	false	open	false	6		2017-06-17T03:05:36Z	2017-06-17T13:04:16Z		Parse Error when http request through proxy	98		
@@ -7298,8 +7298,8 @@
 13858	342540	false	open	false	2		2017-06-21T19:36:29Z	2017-06-21T20:08:15Z		toString(36) outputs less length in Node 8	57		
 13859	794604	true	closed	false	4	0	2017-06-21T20:46:42Z	2017-06-28T12:19:52Z	2017-06-28T12:19:52Z	test: remove unneeded HandleScope usage	42		
 13860	21197807	true	closed	false	1		2017-06-21T21:02:00Z	2017-06-23T22:52:48Z	2017-06-23T22:52:48Z	test: removed unnecessary Buffer import	55		
-13861	899444	true	closed	false	24	0	2017-06-21T21:11:17Z	2017-06-29T06:59:29Z	2017-06-29T06:59:29Z	v8.1.3 proposal	850	495647	2017-06-29T06:59:29Z
-13862	8822573	true	open	false			2017-06-22T01:52:08Z	2017-06-29T01:22:06Z		assert: make assert.fail doc compliant	103		
+13861	899444	true	closed	false	24		2017-06-21T21:11:17Z	2017-06-29T07:15:44Z	2017-06-29T06:59:29Z	v8.1.3 proposal	850		
+13862	8822573	true	open	false			2017-06-22T01:52:08Z	2017-06-29T07:08:49Z		assert: make assert.fail doc compliant	103		
 13863	8822573	true	open	false			2017-06-22T01:53:34Z	2017-06-27T19:21:29Z		stream: use more explicit statements	63		
 13864	2033517	false	closed	false	2		2017-06-22T02:15:51Z	2017-06-23T01:18:44Z	2017-06-22T19:35:18Z	http.IncomingMessage.setTimeout callback will never be called?	237		
 13865	96947	false	open	false	5		2017-06-22T02:30:28Z	2017-06-28T18:31:41Z		Investigate SIGSEGV from test/async-hooks/test-callback-error	76		
@@ -7408,11 +7408,13 @@
 13968	197742	false	closed	false	2		2017-06-28T17:28:17Z	2017-06-28T21:07:45Z	2017-06-28T21:07:45Z	Different behavior of process.argv on OSX and Windows	119		
 13969	96947	true	open	false	2		2017-06-28T18:12:02Z	2017-06-29T04:39:37Z		build,windows: fix vcbuild.bat	29		
 13970	1716463	true	open	false	0	0	2017-06-28T18:59:32Z	2017-06-28T18:59:32Z		doc: fix api docs style	51		
-13971	931192	true	open	false			2017-06-28T21:19:14Z	2017-06-29T06:09:09Z		Add napi_fatal_error API	39		
+13971	931192	true	open	false			2017-06-28T21:19:14Z	2017-06-29T07:35:32Z		Add napi_fatal_error API	39		
 13972	931192	true	closed	false	1		2017-06-28T22:35:42Z	2017-06-29T03:21:36Z	2017-06-29T03:21:36Z	n-api: fix section title typo	21		
 13973	8822573	true	open	false	1		2017-06-28T23:46:46Z	2017-06-29T05:22:21Z		Improve assert performance	1455		
 13974	8822573	true	open	false			2017-06-29T00:23:06Z	2017-06-29T03:24:13Z		assert: fix assert.fail with zero arguments	74		
 13975	718899	true	open	false	0	0	2017-06-29T03:42:50Z	2017-06-29T03:42:50Z		test: refactor test-crypto-pbkdf2	45		
 13976	10933333	true	open	false	0	0	2017-06-29T04:19:25Z	2017-06-29T04:19:25Z		errors, buffer: Migrate buffer errors to use internal/errors	48		
-13977	718899	true	open	false	0	0	2017-06-29T04:23:50Z	2017-06-29T04:23:50Z		test: refactor test-fs-options-immutable	43		
-13978	1529044	false	open	false	0		2017-06-29T06:53:41Z	2017-06-29T06:53:41Z		Buffer.from is undefined in 0.12..x	33		
+13977	718899	true	open	false	0		2017-06-29T04:23:50Z	2017-06-29T07:20:50Z		test: refactor test-fs-options-immutable	43		
+13978	1529044	false	open	false	1		2017-06-29T06:53:41Z	2017-06-29T07:03:07Z		Buffer.from is undefined in 0.12..x	33		
+13979	5449554	false	open	false	0		2017-06-29T07:20:14Z	2017-06-29T07:20:14Z		fs.readFileSync returns a Buffer object with wrong 'buffer' property	172		
+13980	2174968	true	open	false	0	0	2017-06-29T07:37:51Z	2017-06-29T07:37:51Z		test: http outgoing _headers setter/getter	35		
