@@ -7272,12 +7272,12 @@
 13831	8276458	false	open	false	1		2017-06-20T23:49:17Z	2017-06-21T00:06:37Z		error when newSocket is undefined in lib/_http_agent.js	144		
 13832	229881	false	closed	false	2		2017-06-20T23:58:09Z	2017-06-21T17:26:00Z	2017-06-21T02:50:27Z	console.log(Error) appears to be cached	104		
 13833	10393198	false	closed	false	9		2017-06-21T00:11:01Z	2017-07-02T18:26:12Z	2017-07-02T18:26:12Z	Question about backporting	60		
-13834	8822573	true	open	false	17		2017-06-21T01:07:03Z	2017-07-03T02:47:29Z		errors: improve invalid arg type	171		
+13834	8822573	true	closed	false	19		2017-06-21T01:07:03Z	2017-07-03T13:25:16Z	2017-07-03T02:51:05Z	errors: improve invalid arg type	171		
 13835	10393198	true	open	false	9		2017-06-21T03:17:02Z	2017-06-23T07:42:15Z		(v6.x backport) test: reduce string concatenations	35		
 13836	4923335	false	closed	false	9		2017-06-21T06:06:54Z	2017-06-24T02:13:36Z	2017-06-24T02:13:36Z	test: remove unnecessary Buffer imports	89		
 13837	432351	true	closed	false	6	0	2017-06-21T08:38:03Z	2017-06-24T05:54:57Z	2017-06-24T05:54:57Z	build: clean up config_fips.gypi	98		
 13838	1365071	true	closed	false	1	0	2017-06-21T09:16:51Z	2017-06-22T03:51:53Z	2017-06-22T03:51:53Z	doc: add missing zlib link to stream API docs	32		
-13839	96947	true	open	false			2017-06-21T11:09:52Z	2017-07-03T03:50:38Z		http: guard against failed sockets creation	39		
+13839	96947	true	open	false	3		2017-06-21T11:09:52Z	2017-07-03T13:55:10Z		http: guard against failed sockets creation	39		
 13840	228886	false	open	false	6		2017-06-21T11:18:15Z	2017-06-22T08:17:21Z		inspector: add ability to use a constant websocket url	167		
 13841	10393198	true	open	false	8		2017-06-21T13:42:05Z	2017-06-23T16:50:04Z		util: make util.debuglog() consistent with doc	34		
 13842	20137484	false	open	false	0		2017-06-21T15:34:44Z	2017-06-21T15:34:44Z		memory hog	81		
@@ -7478,7 +7478,7 @@
 14037	17316043	false	closed	false	6		2017-07-02T10:16:50Z	2017-07-03T07:20:30Z	2017-07-03T07:20:30Z	Function.prototype.toString is not generic in Linux mint	40		
 14038	1442575	false	open	false	3		2017-07-02T11:21:07Z	2017-07-02T13:03:07Z		async-hooks: Is that possible to expose PromiseHooks resolve callback?	187		
 14039	96947	false	open	false	7		2017-07-02T11:39:03Z	2017-07-02T14:56:23Z		test: improve `parallel/test-setproctitle.js`	49		
-14040	505333	true	open	false	6		2017-07-02T12:48:41Z	2017-07-03T09:26:38Z		async_hooks: C++ Embedder API overhaul	115		
+14040	505333	true	open	false			2017-07-02T12:48:41Z	2017-07-03T13:29:04Z		async_hooks: C++ Embedder API overhaul	115		
 14041	10393198	false	open	false	2		2017-07-02T19:31:01Z	2017-07-03T04:13:50Z		require unification proposal	137		
 14042	96947	true	open	false			2017-07-02T20:07:31Z	2017-07-03T05:45:54Z		test: implement setproctitle for windows	34		
 14043	12882743	true	open	false	8		2017-07-02T21:05:26Z	2017-07-03T09:53:12Z		assert: replace many if's with if-else statement	51		
@@ -7488,8 +7488,12 @@
 14047	10393198	true	open	false	0	0	2017-07-03T01:27:20Z	2017-07-03T01:27:20Z		tools: update eslint-plugin-markdown up to 1.0.0-beta.7	84		
 14048	432351	true	open	false	2		2017-07-03T04:58:00Z	2017-07-03T06:51:29Z		tools: fix tools/addon-verify.js	104		
 14049	415336	false	open	false	2		2017-07-03T07:28:51Z	2017-07-03T09:29:47Z		how to move up/down stack frames in the node debugger?	26		
-14050	505333	true	open	false	1		2017-07-03T08:18:43Z	2017-07-03T11:18:22Z		async_hooks: cleanup emitBefore and emitAfter in timers and nextTick	91		
-14051	505333	true	open	false	0		2017-07-03T09:05:16Z	2017-07-03T09:28:13Z		async_hooks: simplify fatalError	55		
+14050	505333	true	open	false	2		2017-07-03T08:18:43Z	2017-07-03T13:06:35Z		async_hooks: cleanup emitBefore and emitAfter in timers and nextTick	91		
+14051	505333	true	open	false			2017-07-03T09:05:16Z	2017-07-03T13:53:42Z		async_hooks: simplify fatalError	55		
 14052	815988	true	open	false	3		2017-07-03T09:55:58Z	2017-07-03T12:17:57Z		benchmark: Improve event performance tests.	79		
 14053	275871	true	open	false	0	0	2017-07-03T10:18:17Z	2017-07-03T10:18:17Z		Fix napi warnings	13		
-14054	8822573	true	open	false	0	0	2017-07-03T12:28:38Z	2017-07-03T12:28:38Z		async_hooks: simplify fatalError and move statement	81		
+14054	8822573	true	open	false	1		2017-07-03T12:28:38Z	2017-07-03T13:33:48Z		async_hooks: simplify fatalError and move statement	81		
+14055	8822573	true	open	false	0	0	2017-07-03T13:29:22Z	2017-07-03T13:29:22Z		fs: two minor optimizations	75		
+14056	9433110	false	open	false	0		2017-07-03T13:34:06Z	2017-07-03T13:34:06Z		r	6		
+14057	8822573	true	open	false	0	0	2017-07-03T13:36:02Z	2017-07-03T13:36:02Z		internal/errors: improve invalid arg type	53		
+14058	8822573	true	open	false	0	0	2017-07-03T13:50:55Z	2017-07-03T13:50:55Z		test: refactor expectsError	52		
