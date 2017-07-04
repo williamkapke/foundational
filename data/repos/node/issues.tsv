@@ -483,6 +483,7 @@
 6131	2361826	false	closed	false	6		2016-04-09T10:47:11Z	2016-08-17T20:43:10Z	2016-08-17T20:43:10Z	Move .eslintrc to json or yaml	58		
 6141	899444	true	open	false	1		2016-04-11T03:27:06Z	2016-08-09T21:56:02Z		zlib: Support for reading/writing Gzip headers	222		
 6148	13519723	false	closed	false	7		2016-04-11T15:53:31Z	2017-01-09T12:13:50Z	2017-01-09T12:13:50Z	Nodejs does thing doubletime when stopped and started again.	116		
+6156	1003261	false	closed	false	5		2016-04-11T21:34:55Z	2017-07-04T07:58:36Z	2017-07-04T07:58:36Z	node debug setBreakpoint throws a TypeError on set attempt	55		
 6160	110455	false	closed	false	14		2016-04-12T00:26:17Z	2016-10-17T10:38:09Z	2016-10-17T10:38:09Z	Clearing require.cache of native addon makes it throw when required later.	216		
 6162	11958657	false	closed	false	10		2016-04-12T07:36:35Z	2016-11-15T04:46:14Z	2016-04-12T10:05:18Z	require same file twice and exec twice	76		
 6165	2993861	true	closed	false	15	2	2016-04-12T16:15:29Z	2016-12-27T14:14:23Z	2016-12-27T14:14:23Z	module: maintain separate cache for native modules	98		
@@ -3852,7 +3853,7 @@
 10406	13243875	false	open	false	5		2016-12-22T08:35:04Z	2016-12-22T20:05:08Z		Proxy Error wrapped Promise in debug mode	103		
 10407	275871	true	closed	false	1		2016-12-22T09:13:59Z	2017-03-08T22:41:32Z	2017-01-16T05:48:07Z	src: remove unused PROTOCOL_JSON array	17		
 10408	4299420	true	closed	false	12	15	2016-12-22T09:33:12Z	2016-12-30T00:03:46Z	2016-12-30T00:03:46Z	url: make WHATWG URL properties spec compliant	177		
-10409	275871	true	open	false	3		2016-12-22T12:32:21Z	2017-07-04T07:12:14Z		v8: make ObjectMirror handle proxy objects	19		
+10409	275871	true	open	false	4		2016-12-22T12:32:21Z	2017-07-04T08:23:42Z		v8: make ObjectMirror handle proxy objects	19		
 10410	7833752	false	closed	false	11		2016-12-22T16:04:06Z	2017-02-06T22:41:04Z	2016-12-22T20:02:45Z	Mention chrome://inspect when using node --inspect	171		
 10411	856469	true	closed	false	3	4	2016-12-22T16:19:33Z	2016-12-27T21:44:50Z	2016-12-27T21:44:50Z	doc: fix trivial mistakes in stream document.	116		
 10412	6211775	false	open	false	3		2016-12-22T16:37:36Z	2016-12-22T17:04:04Z		child_process.fork and child_process.exec do not work together.	191		
@@ -7015,7 +7016,7 @@
 13574	7408689	true	closed	false	18	0	2017-06-09T12:18:46Z	2017-06-17T21:46:48Z	2017-06-17T21:46:48Z	(v6.x backport) v8: fix build errors with g++ 7	57		
 13575	432351	true	open	false	1		2017-06-09T13:19:52Z	2017-06-13T12:58:24Z		WIP: crypto: support multiple Crypto versions/libraries	398		
 13576	15719653	true	open	false			2017-06-09T13:47:27Z	2017-06-20T13:46:33Z		doc: add note to tty.WriteStream event 'resize' on Windows	18		
-13577	9373002	false	open	false	13		2017-06-09T13:49:51Z	2017-07-03T06:03:37Z		async-hooks/test-fseventwrap - Flaky on AIX	58		
+13577	9373002	false	open	false	14		2017-06-09T13:49:51Z	2017-07-04T08:23:53Z		async-hooks/test-fseventwrap - Flaky on AIX	58		
 13578	1443911	true	closed	false	1		2017-06-09T15:36:55Z	2017-06-12T12:14:41Z	2017-06-12T12:14:41Z	http: handle cases where socket.server is null	59		
 13579	17607	false	closed	false	20		2017-06-09T15:40:40Z	2017-06-14T15:39:12Z	2017-06-13T18:37:56Z	setTimeout callback order isn't guaranteed	213		
 13580	15943089	true	closed	false	1		2017-06-09T15:41:47Z	2017-06-17T21:46:26Z	2017-06-17T21:46:26Z	test: move test-debug-brk to sequential	39		
@@ -7418,7 +7419,7 @@
 13977	718899	true	closed	false	3	0	2017-06-29T04:23:50Z	2017-07-02T05:37:07Z	2017-07-02T05:37:07Z	test: refactor test-fs-options-immutable	43		
 13978	1529044	false	closed	false	6		2017-06-29T06:53:41Z	2017-06-29T09:10:18Z	2017-06-29T09:10:18Z	Buffer.from is undefined in 0.12..x	33		
 13979	5449554	false	closed	false	2		2017-06-29T07:20:14Z	2017-06-29T12:48:38Z	2017-06-29T10:03:28Z	fs.readFileSync returns a Buffer object with wrong 'buffer' property	172		
-13980	2174968	true	open	false	1		2017-06-29T07:37:51Z	2017-07-01T05:48:27Z		test: http outgoing _headers setter/getter	32		
+13980	2174968	true	open	false	2		2017-06-29T07:37:51Z	2017-07-04T08:35:36Z		test: add test for http outgoing internal headers	32		
 13981	7130689	true	open	false			2017-06-29T08:33:51Z	2017-07-01T21:47:35Z		test: http outgoing _renderHeaders	37		
 13982	3109072	true	closed	false	0		2017-06-29T09:54:32Z	2017-07-02T12:28:58Z	2017-07-02T12:28:58Z	process: use internal/errors in internalNextTick	29		
 13983	10393198	false	open	false	0		2017-06-29T10:08:39Z	2017-07-01T02:22:48Z		child_process: fork() with shell is impossible?	214		
@@ -7455,7 +7456,7 @@
 14014	96947	false	open	false	4		2017-06-30T20:48:31Z	2017-07-03T21:17:39Z		test: investigate crash in `parallel/test-timers-uncaught-exception`	27		
 14015	96947	false	closed	false	2		2017-06-30T20:51:56Z	2017-07-03T18:48:09Z	2017-07-03T18:48:09Z	test: investigate `parallel/test-npm-install` timeout	24		
 14016	10393198	false	open	false	4		2017-06-30T22:12:12Z	2017-07-01T05:56:09Z		test: a smal common.skip() improvement proposal	62		
-14017	9287	false	open	false	0		2017-06-30T23:32:05Z	2017-07-03T09:26:51Z		regression: fs.utimes/futimes for dates before unix epoch	78		
+14017	9287	false	open	false	1		2017-06-30T23:32:05Z	2017-07-04T08:26:19Z		regression: fs.utimes/futimes for dates before unix epoch	78		
 14018	677994	true	open	false			2017-07-01T00:46:51Z	2017-07-01T14:04:54Z		build: allow enabling the --trace-maps flag in V8	33		
 14019	8225332	false	closed	false	8		2017-07-01T01:42:00Z	2017-07-01T09:00:32Z	2017-07-01T09:00:32Z	Require is not case insensitive on linux but is on windows	51		
 14020	170197	false	open	false	0		2017-07-01T05:11:48Z	2017-07-01T08:30:34Z		"URL#searchParams#delete removes ""?"""	19		
@@ -7490,10 +7491,10 @@
 14049	415336	false	open	false	3		2017-07-03T07:28:51Z	2017-07-04T00:13:48Z		how to move up/down stack frames in the node debugger?	26		
 14050	505333	true	open	false			2017-07-03T08:18:43Z	2017-07-03T22:39:29Z		async_hooks: cleanup emitBefore and emitAfter in timers and nextTick	91		
 14051	505333	true	open	false			2017-07-03T09:05:16Z	2017-07-03T22:33:21Z		async_hooks: simplify fatalError	55		
-14052	815988	true	open	false	3		2017-07-03T09:55:58Z	2017-07-03T14:43:50Z		benchmark: Improve event performance tests.	79		
+14052	815988	true	open	false	4		2017-07-03T09:55:58Z	2017-07-04T08:34:47Z		benchmark: Improve event performance tests.	79		
 14053	275871	true	open	false	0	0	2017-07-03T10:18:17Z	2017-07-03T10:18:17Z		Fix napi warnings	13		
 14054	8822573	true	open	false	7		2017-07-03T12:28:38Z	2017-07-03T22:31:38Z		async_hooks: move statement	86		
-14055	8822573	true	open	false	0	0	2017-07-03T13:29:22Z	2017-07-03T13:29:22Z		fs: two minor optimizations	75		
+14055	8822573	true	open	false			2017-07-03T13:29:22Z	2017-07-04T08:31:51Z		fs: two minor optimizations	75		
 14056	9433110	false	open	false	0		2017-07-03T13:34:06Z	2017-07-03T13:34:06Z		r	6		
 14057	8822573	true	open	false			2017-07-03T13:36:02Z	2017-07-03T22:18:16Z		internal/errors: improve invalid arg type	53		
 14058	8822573	true	open	false	0		2017-07-03T13:50:55Z	2017-07-03T14:07:12Z		test: refactor expectsError	52		
@@ -7507,4 +7508,4 @@
 14066	2126330	false	open	false	1		2017-07-03T21:46:03Z	2017-07-04T05:11:05Z		Node crashes on install by any package manager and flags anti-virus using git+https dependencies. 	258		
 14067	10393198	true	open	false	0	0	2017-07-04T00:27:18Z	2017-07-04T00:27:18Z		[v6.x backport] doc, tools: use eslint-plugin-markdown	41		
 14068	12103879	false	open	false	0		2017-07-04T04:30:51Z	2017-07-04T04:30:51Z		PTHREAD_STACK_MIN change suggestion	155		
-14069	182844	false	open	false	0		2017-07-04T06:55:30Z	2017-07-04T06:55:30Z		Segmentation fault on v8.1.3	371		
+14069	182844	false	open	false	0		2017-07-04T06:55:30Z	2017-07-04T08:36:21Z		Segmentation fault on v8.1.3	371		
