@@ -1051,7 +1051,7 @@
 7590	965036	true	closed	false	10		2016-07-07T18:40:04Z	2016-07-18T13:33:57Z	2016-07-18T13:33:57Z	doc: removed old git conflict markers form fs.md	41		
 7591	3310013	false	closed	false	3		2016-07-07T18:58:29Z	2016-07-13T19:11:28Z	2016-07-13T19:11:28Z	Buffer's indexOf does not seem to handle numbers correctly	178		
 7592	692511	false	open	false	10		2016-07-07T20:29:29Z	2016-07-22T06:45:24Z		Possible bug: instanceof evaluates to true in Node 4 but not Node 6	65		
-7593	379606	false	open	false	15		2016-07-07T21:49:22Z	2017-06-21T16:10:03Z		v8_inspector: Support the V8 debugger from within VM contexts	77		
+7593	379606	false	open	false	16		2016-07-07T21:49:22Z	2017-07-05T12:58:05Z		v8_inspector: Support the V8 debugger from within VM contexts	77		
 7594	718899	true	closed	false	6		2016-07-07T21:57:39Z	2016-07-10T23:06:55Z	2016-07-10T23:06:55Z	tools: remove unused variable	70		
 7595	718899	true	closed	false	4		2016-07-07T22:04:57Z	2016-07-10T23:19:03Z	2016-07-10T23:19:02Z	test: remove unused var in test-tls-server-verify	77		
 7596	718899	true	open	false	5		2016-07-07T22:09:19Z	2016-07-08T08:09:53Z		test: remove unused var from stream2 test	77		
@@ -7321,7 +7321,7 @@
 13872	976081	true	open	false			2017-06-22T11:52:11Z	2017-06-28T19:15:55Z		N-API: Implement stricter wrapping	195		
 13873	17535	true	open	false	24		2017-06-22T12:25:40Z	2017-06-22T20:26:11Z		process: allow modification of process.argv0	206		
 13874	8225332	false	open	false	0		2017-06-22T14:29:29Z	2017-06-22T14:29:29Z		Request: Update JSON schemes	85		
-13875	2842176	true	open	false			2017-06-22T16:49:27Z	2017-07-05T03:04:44Z		fs,doc,test: open reserved characters under win32	90		
+13875	2842176	true	open	false			2017-06-22T16:49:27Z	2017-07-05T12:45:32Z		fs,doc,test: open reserved characters under win32	90		
 13876	8822573	true	open	false	2		2017-06-22T16:55:00Z	2017-07-02T17:02:50Z		repl: remove NODE_REPL_HISTORY_FILE	104		
 13877	234659	false	open	false	27		2017-06-22T17:36:14Z	2017-06-30T16:14:04Z		Discussion/Tracking SnapshotCreator support	261		
 13878	287917	true	open	false	2		2017-06-22T17:47:55Z	2017-06-26T17:34:32Z		test: check uv_ip4_addr return value	33		
@@ -7499,7 +7499,7 @@
 14050	505333	true	open	false			2017-07-03T08:18:43Z	2017-07-04T20:29:07Z		async_hooks: cleanup emitBefore and emitAfter in timers and nextTick	91		
 14051	505333	true	open	false			2017-07-03T09:05:16Z	2017-07-04T20:25:49Z		async_hooks: simplify fatalError	55		
 14052	815988	true	closed	false	6		2017-07-03T09:55:58Z	2017-07-05T11:14:31Z	2017-07-05T11:14:31Z	benchmark: Improve event performance tests.	79		
-14053	275871	true	open	false	0	0	2017-07-03T10:18:17Z	2017-07-03T10:18:17Z		Fix napi warnings	13		
+14053	275871	true	open	false	1		2017-07-03T10:18:17Z	2017-07-05T12:44:37Z		Fix napi warnings	15		
 14054	8822573	true	open	false	8		2017-07-03T12:28:38Z	2017-07-04T20:38:17Z		async_hooks: move statement	86		
 14055	8822573	true	open	false			2017-07-03T13:29:22Z	2017-07-04T15:49:59Z		fs: two minor optimizations	75		
 14056	9433110	false	open	false	0		2017-07-03T13:34:06Z	2017-07-03T13:34:06Z		r	6		
@@ -7515,7 +7515,7 @@
 14066	2126330	false	closed	false	2		2017-07-03T21:46:03Z	2017-07-04T09:06:10Z	2017-07-04T09:06:10Z	Node crashes on install by any package manager and flags anti-virus using git+https dependencies. 	258		
 14067	10393198	true	open	false	0	0	2017-07-04T00:27:18Z	2017-07-04T00:27:18Z		[v6.x backport] doc, tools: use eslint-plugin-markdown	41		
 14068	12103879	false	open	false	0		2017-07-04T04:30:51Z	2017-07-04T08:59:31Z		PTHREAD_STACK_MIN change suggestion	155		
-14069	182844	false	open	false	12		2017-07-04T06:55:30Z	2017-07-05T11:32:36Z		Segmentation fault on v8.1.3	371		
+14069	182844	false	open	false	14		2017-07-04T06:55:30Z	2017-07-05T12:21:52Z		Segmentation fault on v8.1.3	371		
 14070	96947	false	open	false	5		2017-07-04T11:44:45Z	2017-07-05T02:35:56Z		test: investigate async-hooks/test-signalwrap	63		
 14071	6447530	true	open	false	0	0	2017-07-04T12:31:54Z	2017-07-04T12:31:54Z		aix: fix un-initialized pointer field in fs handle	78		
 14072	4983903	false	open	false	0		2017-07-04T13:34:17Z	2017-07-04T16:36:40Z		can we set autoPadding for key and iv in crypto.createCipheriv(algorithm, key, iv)? 	67		
@@ -7526,8 +7526,10 @@
 14077	276295	true	open	false	6		2017-07-04T19:34:21Z	2017-07-05T10:47:12Z		tools: skip workaround for newer llvm	107		
 14078	718899	true	open	false			2017-07-05T01:02:09Z	2017-07-05T03:02:59Z		lib: use consistent indentation for ternaries	48		
 14079	718899	true	open	false	0	0	2017-07-05T03:50:36Z	2017-07-05T03:50:36Z		tools: remove align-multiline-assignment lint rule	46		
-14080	6447530	false	open	false	2		2017-07-05T04:43:17Z	2017-07-05T11:58:27Z		aix: build failure with linker error in debug mode	46		
+14080	6447530	false	open	false	3		2017-07-05T04:43:17Z	2017-07-05T12:18:38Z		aix: build failure with linker error in debug mode	46		
 14081	7593221	false	open	false	4		2017-07-05T05:43:40Z	2017-07-05T08:09:27Z		events.js spliceOne is slower than splice	201		
-14082	718899	true	open	false	1		2017-07-05T06:21:53Z	2017-07-05T07:06:40Z		events: remove internal spliceOne()	63		
+14082	718899	true	open	false	5		2017-07-05T06:21:53Z	2017-07-05T12:18:17Z		events: remove internal spliceOne()	63		
 14083	23046497	false	open	false	0		2017-07-05T07:00:03Z	2017-07-05T08:16:37Z		"Issue with child_process ""print"" argument"	85		
 14084	2143625	false	open	false	1		2017-07-05T10:26:58Z	2017-07-05T11:46:17Z		Importing with different casing breaks instanceof checks	168		
+14085	12882743	true	open	false	0	0	2017-07-05T12:42:01Z	2017-07-05T12:42:01Z		module: addBuiltinLibsToObject refactoring	107		
+14086	3621643	false	open	false	0		2017-07-05T12:56:31Z	2017-07-05T12:56:31Z		DNS server caching breaks changing networks in runtime	257		
