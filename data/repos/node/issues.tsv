@@ -20,6 +20,7 @@
 708	220205	false	closed	false	42		2015-02-03T18:56:57Z	2016-10-26T20:01:42Z	2016-10-26T16:36:48Z	HTTP and HTTPS attempt only single IP, causing intermittent failures	261		
 729	289174	false	closed	false	8		2015-02-05T20:00:25Z	2016-06-29T11:12:13Z	2016-06-29T11:12:13Z	Converge Tracing/Profiling to Native Set of Hooks	49		
 731	579	false	closed	false	39		2015-02-05T21:45:00Z	2016-09-12T18:13:14Z	2015-10-07T04:52:55Z	governance: Find Hangout-On-Air alternative.	71		
+781	3931155	false	closed	false	7		2015-02-10T12:14:46Z	2017-07-05T05:48:33Z	2017-07-05T05:48:33Z	DebuggerAgent: unhandled socket error event	123		
 784	7647602	false	open	false	22		2015-02-10T16:45:47Z	2017-02-26T18:43:27Z		Chunked stdout/stderr drops writes if terminated early.	92		
 805	782880	false	closed	false	4		2015-02-11T16:10:53Z	2017-03-24T23:26:47Z	2017-03-24T23:26:47Z	strict printing for X509 Extentions	19		
 830	1315533	false	closed	false	134		2015-02-13T11:31:38Z	2016-12-02T13:00:28Z	2016-01-24T07:40:29Z	Default Unhandled Rejection Detection Behavior	321		
@@ -114,6 +115,7 @@
 2569	13315	true	closed	false	27		2015-08-27T04:34:55Z	2016-09-30T16:14:04Z	2016-07-14T03:03:37Z	Add zh-CN i18n support for Windows installer	15		
 2571	153481	true	closed	false	47		2015-08-27T07:40:39Z	2016-08-09T22:05:24Z	2016-08-09T22:05:24Z	Refactor mac installer (Rebase of #776 against master)	13		
 2600	413206	false	open	false	7		2015-08-28T16:46:09Z	2017-05-29T09:38:08Z		fs.utimes does not change birthtime on Windows	72		
+2610	718899	false	closed	false	11		2015-08-29T04:12:06Z	2017-07-05T05:16:06Z	2017-07-05T05:16:06Z	intermittent unexpected socket closure on Mac OS X	212		
 2616	5769562	true	closed	false	1	17	2015-08-30T00:52:45Z	2016-12-14T02:15:52Z	2016-12-14T02:15:52Z	Removing a readable listener now updates the readable state i.e.	47		
 2629	2993861	true	closed	false	9		2015-08-31T18:09:28Z	2017-05-30T13:26:36Z	2015-09-16T08:56:08Z	http: interpret strings as utf8	78		
 2642	2645436	false	closed	false	35		2015-09-02T06:06:18Z	2017-07-03T21:34:12Z	2017-05-20T09:46:20Z	Keep alive connection do not get closed with server.close()	107		
@@ -289,6 +291,7 @@
 4470	1408578	false	closed	false	16		2015-12-29T22:11:31Z	2017-02-07T21:30:38Z	2017-02-07T21:30:38Z	received SIGSEGV for address: 0x1aa00030f3e , Many times	78		
 4482	178512	true	closed	false	30		2015-12-30T13:30:25Z	2017-06-14T09:04:22Z	2016-01-04T18:36:32Z	Http(s) Agent: handle errors on idle sockets	57		
 4487	9283914	false	closed	false	7		2015-12-30T19:59:12Z	2017-04-12T23:20:22Z	2017-04-12T23:20:22Z	Proposal: Add indentation to documentation styles	120		
+4491	6316590	false	open	false	6		2015-12-30T22:15:04Z	2017-07-05T05:08:10Z		Docs: add exception handling examples in stream	61		
 4496	596443	false	closed	false	9		2015-12-31T07:24:26Z	2017-02-07T21:28:38Z	2017-02-07T21:28:38Z	Add GC Insights	280		
 4500	6631828	false	closed	false	6		2015-12-31T14:09:00Z	2017-03-23T02:35:03Z	2016-10-12T09:50:50Z	Spawned process don't trigger close or exit event	121		
 4521	159100	false	closed	false	7		2016-01-03T20:14:53Z	2017-04-27T15:41:47Z	2016-06-24T05:22:25Z	Error Code 2755 when running installer on Windows 10	64		
@@ -302,7 +305,7 @@
 4595	275871	false	open	false	16		2016-01-08T21:53:20Z	2017-05-30T22:00:30Z		[rfc] module: change load order	235		
 4598	2512748	true	closed	false	19		2016-01-09T01:38:11Z	2016-12-29T18:32:01Z	2016-01-27T15:11:30Z	child_process: add shell option to spawn()	41		
 4601	5688	true	closed	false	13		2016-01-09T20:16:23Z	2017-02-28T23:03:48Z	2017-02-28T23:03:48Z	doc: improve options.stdio section for child_process.spawn()	177		
-4603	10532611	false	open	false	26		2016-01-10T01:04:31Z	2017-07-05T05:01:39Z		Allow multiple installs of Node on Windows with msi	118		
+4603	10532611	false	open	false	27		2016-01-10T01:04:31Z	2017-07-05T05:54:57Z		Allow multiple installs of Node on Windows with msi	118		
 4607	718899	false	open	false	26		2016-01-10T05:25:12Z	2017-05-30T04:24:59Z		TODO comments in Makefile* and configure	202		
 4629	1084056	true	closed	false	25	0	2016-01-11T21:36:45Z	2016-09-01T17:30:50Z	2016-09-01T17:30:50Z	test: fix `fs-watch-recursive` flakiness	47	1084056	2016-09-01T17:30:50Z
 4630	10704816	true	closed	false	13	1	2016-01-11T22:32:27Z	2016-06-29T14:12:03Z	2016-06-29T14:12:03Z	tools: add missing headers	16		
@@ -359,6 +362,7 @@
 5156	349336	true	closed	false	18	2	2016-02-09T09:04:17Z	2017-01-17T19:26:57Z	2017-01-17T19:26:57Z	Doc: stream becomes paused after unpipe. 	12		
 5160	558581	false	open	false	12		2016-02-09T17:32:03Z	2017-05-30T19:29:56Z		Space in network share name(UNC path) causes unknown error	309		
 5169	238531	true	closed	false	7		2016-02-09T21:28:10Z	2017-03-26T11:12:27Z	2017-03-26T11:12:27Z	tls: follow up for #5168	13		
+5171	844422	false	closed	false	3		2016-02-10T00:37:02Z	2017-07-05T05:19:08Z	2017-07-05T05:19:08Z	"When process.stdin is in raw mode, pressing enter returns Carriage Return (""\r"") instead of Linefeed (""\n"") or End of Line (""\r\n"")"	35		
 5173	3929632	true	closed	false	2	0	2016-02-10T09:38:19Z	2016-06-29T12:15:22Z	2016-06-29T12:15:22Z	Update install.py	113		
 5183	718899	false	closed	false	2		2016-02-10T19:46:20Z	2016-06-29T22:31:10Z	2016-06-29T22:31:10Z	Investigate flaky test-async-wrap-check-providers	4		
 5189	1622515	true	closed	false	16		2016-02-11T00:01:07Z	2016-07-15T18:54:10Z	2016-07-15T18:54:10Z	repl: Handle unicode escape sequence	3		
@@ -379,6 +383,7 @@
 5298	4235579	false	closed	false	4		2016-02-18T14:47:06Z	2017-05-30T21:51:37Z	2017-05-30T21:51:37Z	v4.2.6 / v4.3.0 --fully-static build breaks npm completely	55		
 5307	4813414	false	open	false	11		2016-02-18T19:31:51Z	2017-05-30T19:28:26Z		RFE: node should have a mktemp()	43		
 5312	11139560	false	closed	false	9		2016-02-18T23:11:50Z	2016-09-02T20:51:43Z	2016-03-08T12:09:46Z	feature request for assert core module	107		
+5315	2001848	false	closed	false	3		2016-02-18T23:44:04Z	2017-07-05T05:21:28Z	2017-07-05T05:21:28Z	Inconsistent behavior when using both maxSockets & maxFreeSockets	70		
 5318	169280	true	closed	false	13		2016-02-19T06:33:29Z	2017-02-28T23:13:08Z	2017-02-28T23:13:08Z	tls: deprecate NODE_TLS_REJECT_AUTHORIZED	130		
 5323	3899684	true	closed	false	21		2016-02-19T11:38:23Z	2016-07-01T00:11:03Z	2016-04-22T04:48:28Z	doc: vm, run http server in vm by requiring	114		
 5344	1622515	false	closed	false	9		2016-02-21T05:47:46Z	2017-04-10T08:12:15Z	2016-08-04T19:44:36Z	VM: weird behaviour in runInContext/runInThisContext 	165		
@@ -394,6 +399,7 @@
 5451	10869684	false	closed	false	7		2016-02-26T14:53:39Z	2017-05-30T21:54:42Z	2017-05-30T21:54:42Z	Cannot kill child process in Ubuntu 14.04 x64 (on tutum's docker build)	375		
 5458	275871	true	closed	false	22		2016-02-26T21:01:17Z	2017-01-23T01:30:51Z	2016-10-25T11:16:57Z	src,tools: speed up startup by 2.5%	94		
 5463	17607	true	closed	false	14		2016-02-27T03:24:09Z	2017-01-25T19:06:25Z	2016-02-27T03:47:48Z	Engine method rsa	38		
+5475	8044211	false	closed	false	7		2016-02-28T13:50:33Z	2017-07-05T05:41:19Z	2017-07-05T05:41:19Z	Crypto: Missing - get PublicKey from PrivateKey	136		
 5476	8044211	false	open	false	4		2016-02-28T14:02:36Z	2017-04-28T16:29:27Z		Crypto: Certificate class lacks functionality	49		
 5480	579	false	closed	false	9		2016-02-28T21:34:44Z	2017-05-30T04:33:20Z	2017-05-30T04:33:20Z	Files w/o Copyright Node.js Contributors.	294		
 5496	718899	false	open	false	2		2016-02-29T21:45:45Z	2017-05-30T04:33:45Z		dgram: instantiate socket on creation	136		
@@ -7088,7 +7094,7 @@
 13645	718899	true	open	false	22		2017-06-13T03:53:45Z	2017-06-17T19:55:26Z		tools: update ESLint to v4.0.0	32		
 13646	617481	false	open	false	10		2017-06-13T04:41:32Z	2017-06-20T00:15:59Z		Discussion of implementing the Encoding Standard with ICU, and associated web platform tests	196		
 13647	490562	false	open	false	0		2017-06-13T05:08:12Z	2017-06-13T06:03:18Z		Crashes terminal on OS X and refuses subsequent input after prompting more than once (Node 8 only)	174		
-13648	54666	true	open	false	1		2017-06-13T05:14:06Z	2017-06-13T11:45:14Z		child_process: remove nextTick on IPC message	135		
+13648	54666	true	closed	false	2	0	2017-06-13T05:14:06Z	2017-07-05T05:59:39Z	2017-07-05T05:59:39Z	child_process: remove nextTick on IPC message	135		
 13649	718899	true	closed	false	4		2017-06-13T05:53:17Z	2017-06-15T21:06:38Z	2017-06-15T21:06:38Z	test: change deprecated method to recommended	44		
 13650	9373002	true	open	false	2		2017-06-13T06:43:38Z	2017-06-16T04:50:50Z		doc: fix a few n-api doc issues	76		
 13651	9373002	true	closed	false	8	19	2017-06-13T07:10:57Z	2017-06-21T20:58:49Z	2017-06-21T20:58:49Z	n-api: avoid crash in napi_escape_scope()	66		
@@ -7356,7 +7362,7 @@
 13913	96947	false	closed	false	7		2017-06-25T22:14:47Z	2017-06-26T09:07:04Z	2017-06-26T09:07:04Z	child_process: special handling of process.on('message')	100		
 13914	6414091	false	closed	false	2		2017-06-26T00:55:54Z	2017-06-27T11:14:37Z	2017-06-27T11:14:37Z	"""socket hang up"" error for URL with special characters"	170		
 13915	23046497	false	closed	false	7		2017-06-26T03:03:30Z	2017-06-30T20:51:32Z	2017-06-26T03:48:37Z	Nodejs document printing	220		
-13916	1538624	true	open	false	4		2017-06-26T05:12:21Z	2017-07-05T04:27:37Z		doc: add documentation on ICU	52		
+13916	1538624	true	open	false	5		2017-06-26T05:12:21Z	2017-07-05T05:34:18Z		doc: add documentation on ICU	52		
 13917	6839680	false	open	false	7		2017-06-26T06:19:04Z	2017-06-26T12:41:24Z		Memory growth issue about crypto module.	94		
 13918	1538624	true	closed	false	7		2017-06-26T06:46:44Z	2017-06-29T05:20:36Z	2017-06-29T05:20:36Z	readline: fix character width calculation	184		
 13919	384983	false	closed	false	1		2017-06-26T10:56:02Z	2017-06-26T12:50:55Z	2017-06-26T12:50:55Z	Mostly irrelevant, but possibly interesting variable declaration/assignment bug with `let`	225		
@@ -7416,7 +7422,7 @@
 13973	8822573	true	open	false	6		2017-06-28T23:46:46Z	2017-07-04T11:13:06Z		assert: improve performance	1455		
 13974	8822573	true	closed	false	4	9	2017-06-29T00:23:06Z	2017-07-02T02:26:48Z	2017-07-02T02:26:48Z	assert: fix assert.fail with zero arguments	74	96947	2017-07-02T02:26:48Z
 13975	718899	true	closed	false	1		2017-06-29T03:42:50Z	2017-07-02T05:36:00Z	2017-07-02T05:36:00Z	test: refactor test-crypto-pbkdf2	45		
-13976	10933333	true	open	false			2017-06-29T04:19:25Z	2017-07-05T04:13:07Z		errors, buffer: Migrate buffer errors to use internal/errors	48		
+13976	10933333	true	open	false			2017-06-29T04:19:25Z	2017-07-05T05:50:05Z		errors, buffer: Migrate buffer errors to use internal/errors	48		
 13977	718899	true	closed	false	3	0	2017-06-29T04:23:50Z	2017-07-02T05:37:07Z	2017-07-02T05:37:07Z	test: refactor test-fs-options-immutable	43		
 13978	1529044	false	closed	false	6		2017-06-29T06:53:41Z	2017-06-29T09:10:18Z	2017-06-29T09:10:18Z	Buffer.from is undefined in 0.12..x	33		
 13979	5449554	false	closed	false	2		2017-06-29T07:20:14Z	2017-06-29T12:48:38Z	2017-06-29T10:03:28Z	fs.readFileSync returns a Buffer object with wrong 'buffer' property	172		
@@ -7437,7 +7443,7 @@
 13994	9373002	true	open	false	0		2017-06-29T23:25:16Z	2017-06-30T19:51:32Z		tls: migrate tls.js to use internal/errors.js	97		
 13995	718899	true	closed	false	2	0	2017-06-30T00:18:41Z	2017-06-30T13:08:22Z	2017-06-30T13:08:22Z	(v8.x backport) benchmark,lib,test: use braces for multiline block	42		
 13996	718899	true	closed	false	1		2017-06-30T04:56:38Z	2017-07-03T04:58:28Z	2017-07-03T04:58:28Z	test: refactor test-http-invalidheaderfield	41		
-13997	1538624	true	open	false	0		2017-06-30T06:26:46Z	2017-07-05T04:13:40Z		url: normalize port on scheme change	34		
+13997	1538624	true	closed	false	1		2017-06-30T06:26:46Z	2017-07-05T05:31:21Z	2017-07-05T05:31:21Z	url: normalize port on scheme change	34		
 13998	432351	true	closed	false	1		2017-06-30T06:53:23Z	2017-07-02T04:29:19Z	2017-07-02T04:29:19Z	test: remove undef NDEBUG from at-exit addons test	59		
 13999	976081	true	open	false	3		2017-06-30T10:40:09Z	2017-06-30T11:08:04Z		N-API: Reuse ObjectTemplate used for napi_wrap()	59		
 14000	6447530	false	open	false	10		2017-06-30T10:59:54Z	2017-07-03T06:41:09Z		proposal: 'slab' event on readable streams	490		
@@ -7502,7 +7508,7 @@
 14059	8822573	true	open	false	7		2017-07-03T14:11:16Z	2017-07-04T15:33:00Z		tools: add quote-props eslint rule 	74		
 14060	505333	false	open	false	7		2017-07-03T14:37:56Z	2017-07-03T21:18:25Z		SIGILL when using abort-on-uncaught-exception	123		
 14061	96947	true	open	false	0		2017-07-03T16:55:41Z	2017-07-03T17:21:59Z		tools: use `error` instead of 2	54		
-14062	4624411	true	open	false			2017-07-03T17:04:10Z	2017-07-04T16:39:34Z		fixed TLSSocket documentation error from Issue #3963.	50		
+14062	4624411	true	open	false			2017-07-03T17:04:10Z	2017-07-05T05:51:42Z		fixed TLSSocket documentation error from Issue #3963.	50		
 14063	2512748	true	open	false			2017-07-03T19:09:20Z	2017-07-04T22:14:36Z		n-api: add napi_has_own_property()	41		
 14064	718899	true	closed	false	2	0	2017-07-03T20:24:06Z	2017-07-04T13:53:30Z	2017-07-04T13:53:30Z	lib: fix off-by-one indentation	38		
 14065	718899	true	closed	false	4		2017-07-03T21:02:09Z	2017-07-04T13:58:12Z	2017-07-04T13:58:12Z	test: restore no-op function in test	42		
@@ -7521,3 +7527,4 @@
 14078	718899	true	open	false			2017-07-05T01:02:09Z	2017-07-05T03:02:59Z		lib: use consistent indentation for ternaries	48		
 14079	718899	true	open	false	0	0	2017-07-05T03:50:36Z	2017-07-05T03:50:36Z		tools: remove align-multiline-assignment lint rule	46		
 14080	6447530	false	open	false	0		2017-07-05T04:43:17Z	2017-07-05T04:43:17Z		aix: build failure with linker error in debug mode	46		
+14081	7593221	false	open	false	0		2017-07-05T05:43:40Z	2017-07-05T05:43:40Z		events.js spliceOne is slower than splice	201		
