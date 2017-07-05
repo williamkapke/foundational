@@ -302,6 +302,7 @@
 4595	275871	false	open	false	16		2016-01-08T21:53:20Z	2017-05-30T22:00:30Z		[rfc] module: change load order	235		
 4598	2512748	true	closed	false	19		2016-01-09T01:38:11Z	2016-12-29T18:32:01Z	2016-01-27T15:11:30Z	child_process: add shell option to spawn()	41		
 4601	5688	true	closed	false	13		2016-01-09T20:16:23Z	2017-02-28T23:03:48Z	2017-02-28T23:03:48Z	doc: improve options.stdio section for child_process.spawn()	177		
+4603	10532611	false	open	false	26		2016-01-10T01:04:31Z	2017-07-05T05:01:39Z		Allow multiple installs of Node on Windows with msi	118		
 4607	718899	false	open	false	26		2016-01-10T05:25:12Z	2017-05-30T04:24:59Z		TODO comments in Makefile* and configure	202		
 4629	1084056	true	closed	false	25	0	2016-01-11T21:36:45Z	2016-09-01T17:30:50Z	2016-09-01T17:30:50Z	test: fix `fs-watch-recursive` flakiness	47	1084056	2016-09-01T17:30:50Z
 4630	10704816	true	closed	false	13	1	2016-01-11T22:32:27Z	2016-06-29T14:12:03Z	2016-06-29T14:12:03Z	tools: add missing headers	16		
@@ -7355,7 +7356,7 @@
 13913	96947	false	closed	false	7		2017-06-25T22:14:47Z	2017-06-26T09:07:04Z	2017-06-26T09:07:04Z	child_process: special handling of process.on('message')	100		
 13914	6414091	false	closed	false	2		2017-06-26T00:55:54Z	2017-06-27T11:14:37Z	2017-06-27T11:14:37Z	"""socket hang up"" error for URL with special characters"	170		
 13915	23046497	false	closed	false	7		2017-06-26T03:03:30Z	2017-06-30T20:51:32Z	2017-06-26T03:48:37Z	Nodejs document printing	220		
-13916	1538624	true	open	false	2		2017-06-26T05:12:21Z	2017-06-27T01:49:30Z		doc: add documentation on ICU	52		
+13916	1538624	true	open	false	4		2017-06-26T05:12:21Z	2017-07-05T04:27:37Z		doc: add documentation on ICU	52		
 13917	6839680	false	open	false	7		2017-06-26T06:19:04Z	2017-06-26T12:41:24Z		Memory growth issue about crypto module.	94		
 13918	1538624	true	closed	false	7		2017-06-26T06:46:44Z	2017-06-29T05:20:36Z	2017-06-29T05:20:36Z	readline: fix character width calculation	184		
 13919	384983	false	closed	false	1		2017-06-26T10:56:02Z	2017-06-26T12:50:55Z	2017-06-26T12:50:55Z	Mostly irrelevant, but possibly interesting variable declaration/assignment bug with `let`	225		
@@ -7415,7 +7416,7 @@
 13973	8822573	true	open	false	6		2017-06-28T23:46:46Z	2017-07-04T11:13:06Z		assert: improve performance	1455		
 13974	8822573	true	closed	false	4	9	2017-06-29T00:23:06Z	2017-07-02T02:26:48Z	2017-07-02T02:26:48Z	assert: fix assert.fail with zero arguments	74	96947	2017-07-02T02:26:48Z
 13975	718899	true	closed	false	1		2017-06-29T03:42:50Z	2017-07-02T05:36:00Z	2017-07-02T05:36:00Z	test: refactor test-crypto-pbkdf2	45		
-13976	10933333	true	open	false	0		2017-06-29T04:19:25Z	2017-07-04T09:44:54Z		errors, buffer: Migrate buffer errors to use internal/errors	48		
+13976	10933333	true	open	false			2017-06-29T04:19:25Z	2017-07-05T04:13:07Z		errors, buffer: Migrate buffer errors to use internal/errors	48		
 13977	718899	true	closed	false	3	0	2017-06-29T04:23:50Z	2017-07-02T05:37:07Z	2017-07-02T05:37:07Z	test: refactor test-fs-options-immutable	43		
 13978	1529044	false	closed	false	6		2017-06-29T06:53:41Z	2017-06-29T09:10:18Z	2017-06-29T09:10:18Z	Buffer.from is undefined in 0.12..x	33		
 13979	5449554	false	closed	false	2		2017-06-29T07:20:14Z	2017-06-29T12:48:38Z	2017-06-29T10:03:28Z	fs.readFileSync returns a Buffer object with wrong 'buffer' property	172		
@@ -7436,7 +7437,7 @@
 13994	9373002	true	open	false	0		2017-06-29T23:25:16Z	2017-06-30T19:51:32Z		tls: migrate tls.js to use internal/errors.js	97		
 13995	718899	true	closed	false	2	0	2017-06-30T00:18:41Z	2017-06-30T13:08:22Z	2017-06-30T13:08:22Z	(v8.x backport) benchmark,lib,test: use braces for multiline block	42		
 13996	718899	true	closed	false	1		2017-06-30T04:56:38Z	2017-07-03T04:58:28Z	2017-07-03T04:58:28Z	test: refactor test-http-invalidheaderfield	41		
-13997	1538624	true	open	false	0	0	2017-06-30T06:26:46Z	2017-06-30T06:26:46Z		url: normalize port on scheme change	34		
+13997	1538624	true	open	false	0		2017-06-30T06:26:46Z	2017-07-05T04:13:40Z		url: normalize port on scheme change	34		
 13998	432351	true	closed	false	1		2017-06-30T06:53:23Z	2017-07-02T04:29:19Z	2017-07-02T04:29:19Z	test: remove undef NDEBUG from at-exit addons test	59		
 13999	976081	true	open	false	3		2017-06-30T10:40:09Z	2017-06-30T11:08:04Z		N-API: Reuse ObjectTemplate used for napi_wrap()	59		
 14000	6447530	false	open	false	10		2017-06-30T10:59:54Z	2017-07-03T06:41:09Z		proposal: 'slab' event on readable streams	490		
@@ -7466,7 +7467,7 @@
 14024	5157107	true	open	false	2		2017-07-01T11:17:58Z	2017-07-03T04:46:23Z		http: OutgoingMessage change writable after end	72		
 14025	1687235	false	closed	false	1		2017-07-01T12:36:26Z	2017-07-01T18:27:18Z	2017-07-01T18:27:18Z	fs.existsSync(brokenSymlink) returns false	38		
 14026	505333	true	open	false	2		2017-07-01T12:39:13Z	2017-07-03T09:25:44Z		async_hooks: fix default nextTick triggerAsyncId	86		
-14027	4600068	true	closed	false	5	0	2017-07-01T13:43:52Z	2017-07-04T15:59:00Z	2017-07-04T15:59:00Z	doc, util, console: clarify ambiguous docs	64		
+14027	4600068	true	closed	false	5		2017-07-01T13:43:52Z	2017-07-05T04:42:31Z	2017-07-04T15:59:00Z	doc, util, console: clarify ambiguous docs	64		
 14028	718899	false	closed	false	1		2017-07-01T14:40:22Z	2017-07-04T12:14:42Z	2017-07-04T12:14:42Z	investigate failing test-fs-readdir-ucs2 on Raspberry Pi	88		
 14029	718899	true	closed	false	5		2017-07-01T15:18:15Z	2017-07-04T14:11:58Z	2017-07-04T12:30:01Z	test: skip test-fs-readdir-ucs2 if no support	40		
 14030	10933333	true	closed	false	1	3	2017-07-01T16:13:05Z	2017-07-02T02:18:22Z	2017-07-02T02:18:22Z	path: Fix the error message of path.format	85		
@@ -7486,7 +7487,7 @@
 14044	8822573	true	open	false	1		2017-07-02T22:56:13Z	2017-07-03T19:37:17Z		[v8.x backport] lib: fix typos	43		
 14045	718899	true	open	false	6		2017-07-03T00:14:58Z	2017-07-03T01:05:42Z		tools: unpin eslint-plugin-markdown	75		
 14046	11359344	false	open	false	0		2017-07-03T00:38:36Z	2017-07-03T00:38:36Z		Child-Process: file-descriptor auto-closes when it shouldn't without triggering close events.	322		
-14047	10393198	true	closed	false	3		2017-07-03T01:27:20Z	2017-07-05T03:56:34Z	2017-07-05T03:56:34Z	tools: update eslint-plugin-markdown up to 1.0.0-beta.7	84		
+14047	10393198	true	closed	false	4		2017-07-03T01:27:20Z	2017-07-05T04:30:37Z	2017-07-05T03:56:34Z	tools: update eslint-plugin-markdown up to 1.0.0-beta.7	84		
 14048	432351	true	open	false	2		2017-07-03T04:58:00Z	2017-07-03T06:51:29Z		tools: fix tools/addon-verify.js	104		
 14049	415336	false	open	false	3		2017-07-03T07:28:51Z	2017-07-04T00:13:48Z		how to move up/down stack frames in the node debugger?	26		
 14050	505333	true	open	false			2017-07-03T08:18:43Z	2017-07-04T20:29:07Z		async_hooks: cleanup emitBefore and emitAfter in timers and nextTick	91		
@@ -7516,6 +7517,7 @@
 14074	432351	true	open	false	3		2017-07-04T15:12:13Z	2017-07-05T03:29:04Z		test: add removedFlags to test.py	107		
 14075	8822573	true	open	false	0	0	2017-07-04T16:30:21Z	2017-07-04T16:30:21Z		doc: os.homedir might throw	45		
 14076	276295	false	open	false	2		2017-07-04T18:34:37Z	2017-07-04T20:06:21Z		Can't build stuff (using gyp) on FreeBSD 11.1 (or clang 4.0)	297		
-14077	276295	true	open	false			2017-07-04T19:34:21Z	2017-07-05T03:30:07Z		Don't add removed flag for freebsd 11.1+/clang 4+	107		
+14077	276295	true	open	false	3		2017-07-04T19:34:21Z	2017-07-05T04:38:36Z		Don't add removed flag for freebsd 11.1+/clang 4+	107		
 14078	718899	true	open	false			2017-07-05T01:02:09Z	2017-07-05T03:02:59Z		lib: use consistent indentation for ternaries	48		
 14079	718899	true	open	false	0	0	2017-07-05T03:50:36Z	2017-07-05T03:50:36Z		tools: remove align-multiline-assignment lint rule	46		
+14080	6447530	false	open	false	0		2017-07-05T04:43:17Z	2017-07-05T04:43:17Z		aix: build failure with linker error in debug mode	46		
