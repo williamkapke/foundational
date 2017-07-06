@@ -21,6 +21,7 @@
 353	985607	false	open	false	5		2013-11-16T18:49:34Z	2016-12-17T10:13:29Z		node: symbol lookup error: xxx/hello.node: undefined symbol: _ZN2v84NullEv. with node v0.11.8 and linux(centOS)	202		
 401	1496201	false	closed	false	2		2014-02-13T16:10:41Z	2016-08-24T15:18:12Z	2014-02-14T08:03:25Z	Link error LNK1104 including c++ lib and dll in binding.gyp	140		
 414	1243921	false	closed	false	22		2014-03-05T09:05:03Z	2017-04-16T13:51:23Z	2017-04-16T13:51:23Z	AWS Elastic Beanstalk Build Error: node-gyp requires that the user home directory is specified in either of the environmental variables HOME or USERPROFILE	97		
+416	2485812	false	closed	false	5		2014-03-11T14:38:35Z	2017-07-06T21:29:38Z	2016-04-20T09:04:55Z	Cannot use node.js file descriptors in addon on windows (EBADF)	184		
 420	1793482	false	closed	false	4		2014-03-24T04:58:18Z	2016-10-31T06:53:35Z	2016-10-31T02:03:47Z	build success , but run fail! it caused by %1 is not a valid Win32 application	46		
 422	3265649	false	closed	false	3		2014-04-02T16:22:00Z	2016-08-18T18:43:27Z	2014-04-02T16:26:18Z	"Windows: ""CL.exe exited with code -1073741515"""	390		
 454	1009114	false	closed	false	47		2014-06-07T22:02:07Z	2016-11-05T18:12:09Z	2015-08-24T10:34:30Z	"Warning ""root"" does not have permission to access the dev dir "	65		
@@ -75,7 +76,7 @@
 873	12488060	true	open	false	15		2016-01-27T23:39:02Z	2017-02-15T03:42:49Z		Enable Node.js to build with Microsoft's ChakraCore engine	70		
 874	961599	false	closed	false	13		2016-01-28T17:44:18Z	2016-08-01T12:52:20Z	2016-01-28T18:36:54Z	Under Windows, node-gyp provides headers but not linkable libraries for OpenSSL	43		
 881	275871	false	open	false	1		2016-02-14T17:44:35Z	2017-06-11T19:05:54Z		This repo needs a CONTRIBUTING.md	9		
-882	1673849	false	open	false	22		2016-02-15T17:30:03Z	2016-08-30T12:46:45Z		node-gyp rebuild Fail on osx with Xcode V 7.2.1	399		
+882	1673849	false	closed	false	23		2016-02-15T17:30:03Z	2017-07-06T21:29:33Z	2017-07-06T21:29:33Z	node-gyp rebuild Fail on osx with Xcode V 7.2.1	403		
 895	10359412	false	closed	false	3		2016-03-27T10:26:11Z	2016-07-14T10:00:14Z	2016-03-27T16:58:01Z	Build without VS	47		
 903	259374	false	open	false	4		2016-04-12T16:02:07Z	2017-01-09T22:51:59Z		setting cache-min to > 2^32 breaks node-gyp	337		
 911	291575	true	closed	false	6		2016-04-22T10:14:07Z	2016-11-29T07:54:56Z	2016-10-07T08:53:27Z	Use python2 binary in gyp script	22		
@@ -104,7 +105,7 @@
 975	287640	false	closed	false	1		2016-07-04T12:30:36Z	2016-07-04T13:07:55Z	2016-07-04T13:07:55Z	Python v3 Support	35		
 976	19317543	false	closed	false	1		2016-07-04T14:54:16Z	2016-07-04T16:42:27Z	2016-07-04T16:42:27Z	gyp: make not found (cwd: /root/node-v6.2.2) while trying to load make Error running GYP	132		
 977	159840	false	closed	false	2		2016-07-04T17:28:40Z	2016-07-05T20:11:03Z	2016-07-05T20:11:03Z	If node_modules is a symbol link, node-gyp fail to resolve path in include_dirs	188		
-978	5297850	false	open	false	7		2016-07-04T21:58:35Z	2016-07-18T22:33:21Z		msbuild.exe failed with exit code: 2148734720	1019		
+978	5297850	false	closed	false	8		2016-07-04T21:58:35Z	2017-07-06T21:23:16Z	2017-07-06T21:23:16Z	msbuild.exe failed with exit code: 2148734720	1010		
 979	8016811	false	closed	false	3		2016-07-05T13:53:50Z	2016-11-13T21:00:45Z	2016-07-05T15:15:36Z	stack Error: `gyp` failed with exit code: 1  in node v6.2.1	181		
 980	8055140	false	closed	false	4		2016-07-06T06:40:40Z	2016-07-11T02:51:37Z	2016-07-06T06:47:27Z	 error C2373: '__pfnDliNot ifyHook2': redefinition; different type modifiers	198		
 981	17908389	false	closed	false	6		2016-07-06T09:24:46Z	2016-11-15T16:58:32Z	2016-07-06T13:31:38Z	some problmes about node-gyp  rebuild on windows	340		
@@ -129,12 +130,12 @@
 1000	217034	true	closed	false	6		2016-07-28T13:48:51Z	2016-10-07T09:29:20Z	2016-10-07T09:29:20Z	Update request dependency to version ≥ 2.74.0	18		
 1001	15173749	false	closed	false	1		2016-07-28T21:50:45Z	2016-07-29T07:19:07Z	2016-07-29T07:19:07Z	make python 3.5.2 supported if that is their only python version 2.7.x will be End-of-life in 2020.	45		
 1002	15943089	false	open	false	0		2016-07-29T16:48:58Z	2016-07-29T16:48:58Z		--tarball option doesn't work on windows (node.lib)	197		
-1003	20266801	false	open	false	1		2016-07-30T19:59:44Z	2016-07-30T20:14:41Z		failed to run node-gyp rebuild	282		
+1003	20266801	false	closed	false	1		2016-07-30T19:59:44Z	2017-07-06T21:22:39Z	2017-07-06T21:22:39Z	failed to run node-gyp rebuild	280		
 1004	961599	false	open	false	0		2016-08-03T23:30:26Z	2016-08-03T23:30:26Z		node-gyp uses some current process information even when a target version is supplied	73		
 1005	3834227	false	closed	false	2		2016-08-09T18:01:23Z	2016-08-11T22:50:23Z	2016-08-11T22:50:23Z	Windows: old version of node-gyp prevents updated version from running	56		
 1006	19364353	false	closed	false	1		2016-08-10T13:07:17Z	2016-08-11T06:01:44Z	2016-08-11T06:01:44Z	Unable install bcrypt npm package on Windows	202		
 1007	5865387	false	closed	false	4		2016-08-11T15:26:23Z	2016-08-14T18:10:00Z	2016-08-14T18:10:00Z	Link to another node module	85		
-1008	6949429	false	open	false	2		2016-08-15T14:54:49Z	2016-12-28T22:45:15Z		gyp is raising an error due to duplicate basenames	223		
+1008	6949429	false	closed	false	3		2016-08-15T14:54:49Z	2017-07-06T21:19:29Z	2017-07-06T21:19:29Z	gyp is raising an error due to duplicate basenames	223		
 1009	6789191	false	closed	false	1		2016-08-22T22:32:38Z	2016-08-23T09:12:58Z	2016-08-23T09:12:58Z	-bash: node-gyp: command not found	119		
 1010	5665529	false	open	false	0		2016-08-23T10:56:21Z	2016-08-23T10:56:21Z		v	0		
 1011	21213659	false	closed	false	2		2016-08-24T06:38:19Z	2016-08-24T11:04:07Z	2016-08-24T07:10:15Z	error C2373: '__pfnDliNotifyHook2': redefinition; different type modifiers	343		
@@ -298,7 +299,7 @@
 1170	275871	true	closed	false	2	0	2017-04-11T15:24:40Z	2017-05-17T09:36:50Z	2017-05-17T09:36:50Z	Log dist-url.	26		
 1171	466761	true	open	false			2017-04-11T17:31:20Z	2017-05-15T15:29:57Z		Replace tape with tap	20		
 1172	275871	true	open	false	1		2017-04-11T18:11:21Z	2017-04-25T14:44:54Z		Fix test-find-python on v0.10.x buildbot.	38		
-1173	886059	false	open	false	1		2017-04-12T05:49:41Z	2017-04-13T15:35:04Z		Update default MSBuild version.	200		
+1173	886059	false	closed	false	3		2017-04-12T05:49:41Z	2017-07-06T21:14:55Z	2017-07-06T21:14:55Z	Update default MSBuild version.	200		
 1174	95655	true	open	false	0		2017-04-12T21:40:57Z	2017-04-13T12:23:24Z		Check definedness of argv[0] first	47		
 1175	4639337	false	open	false	2		2017-04-13T22:45:08Z	2017-04-15T09:31:20Z		Doesn't respect no_proxy	28		
 1176	4639337	true	open	false	2		2017-04-14T23:16:27Z	2017-06-29T21:01:35Z		no_proxy support	53		
@@ -334,7 +335,7 @@
 1206	1730073	true	open	false	1		2017-05-22T14:11:34Z	2017-05-27T21:24:34Z		build: rename copyNodeLib() to doBuild()	207		
 1207	5503341	false	open	false	5		2017-05-25T16:44:11Z	2017-06-01T21:42:05Z		Builds Fail on WSL	110		
 1208	734818	false	closed	false	20		2017-05-29T14:32:55Z	2017-06-11T14:52:03Z	2017-06-03T10:49:46Z	build the hello world demo failed on win10 creator	1819		
-1209	15185582	false	open	false	4		2017-05-30T02:09:43Z	2017-06-02T10:45:40Z		 Error: `gyp` failed with exit code: 1 at ChildProcess.onCpExit	249		
+1209	15185582	false	closed	false	5		2017-05-30T02:09:43Z	2017-07-06T21:11:40Z	2017-07-06T21:11:40Z	 Error: `gyp` failed with exit code: 1 at ChildProcess.onCpExit	249		
 1210	6555080	false	closed	false	7		2017-05-30T19:21:22Z	2017-05-31T07:52:49Z	2017-05-30T20:39:57Z	[ macOs - Asp.net core 1.1 ] Error at startup if node-gyp is on node-modules	154		
 1211	145874	false	closed	false	14		2017-05-30T19:25:32Z	2017-05-30T21:13:47Z	2017-05-30T20:30:30Z	node-gyp fails with node 8 on travis	88		
 1212	9287	true	closed	false	15		2017-05-31T01:01:22Z	2017-06-06T11:00:12Z	2017-06-06T11:00:12Z	Upgrade to tar v3	40		
@@ -344,7 +345,7 @@
 1216	15943089	false	closed	false	3		2017-05-31T21:17:36Z	2017-06-07T16:02:57Z	2017-06-07T16:02:57Z	Opposite of --ensure, and is --ensure still useful?	90		
 1217	3267115	false	closed	false	12		2017-06-01T10:48:19Z	2017-06-14T15:40:38Z	2017-06-14T13:12:09Z	Build error when run from npm script	441		
 1218	627278	false	closed	false	6		2017-06-02T06:15:35Z	2017-06-06T04:12:37Z	2017-06-06T04:12:37Z	[Question] Illegal instruction (core dumped) when building docker container	106		
-1219	1613396	false	open	false	0		2017-06-02T09:12:55Z	2017-06-02T09:12:55Z		Warning: Do not know how to convert MSVS attribute InheritedPropertySheets	147		
+1219	1613396	false	open	false	0		2017-06-02T09:12:55Z	2017-07-06T21:09:19Z		Warning: Do not know how to convert MSVS attribute InheritedPropertySheets	147		
 1220	15943089	true	closed	false	3	0	2017-06-02T11:49:49Z	2017-06-07T16:02:57Z	2017-06-07T16:02:57Z	configure: don't set ensure if tarball is set	21	15943089	2017-06-07T16:02:57Z
 1221	20646103	false	closed	false	2		2017-06-02T12:56:56Z	2017-06-15T11:38:47Z	2017-06-15T11:38:47Z	Building module from C++ source crashs	444		
 1222	24697025	false	closed	false	1		2017-06-06T08:46:05Z	2017-06-15T11:38:57Z	2017-06-15T11:38:57Z	node-gyp failing with error.	8444		
@@ -359,10 +360,10 @@
 1231	312210	false	open	false	0		2017-06-14T20:50:26Z	2017-06-14T21:15:45Z		node-gyp rebuild error	238		
 1232	1831850	false	open	false	0		2017-06-14T21:57:23Z	2017-06-14T21:57:23Z		404 response downloading node 8.1.1 headers	99		
 1233	167869	false	open	false	0		2017-06-15T09:23:59Z	2017-06-15T09:23:59Z		gyp http 404 fail	101		
-1234	4158484	false	open	false	1		2017-06-15T11:33:55Z	2017-06-15T12:08:33Z		Error when downloading headers	19		
+1234	4158484	false	closed	false	3		2017-06-15T11:33:55Z	2017-07-06T21:05:25Z	2017-07-06T21:05:25Z	Error when downloading headers	19		
 1235	3688096	false	closed	false	4		2017-06-16T14:50:24Z	2017-06-19T12:39:58Z	2017-06-19T12:39:58Z	"node-gyp configure gives ""tunneling socket could not be established"""	396		
-1236	2287252	false	open	false	2		2017-06-16T23:20:11Z	2017-06-19T13:58:37Z		"User ""undefined""/""nobody"" does not have permission to access the dir"	452		
-1237	416585	false	open	false	2		2017-06-19T02:05:28Z	2017-06-19T14:49:37Z		Error relocating /app/node_modules/bcrypt/build/Release/bcrypt_lib.node: __snprintf_chk: symbol not found	94		
+1236	2287252	false	closed	false	3		2017-06-16T23:20:11Z	2017-07-06T21:06:07Z	2017-07-06T21:06:07Z	"User ""undefined""/""nobody"" does not have permission to access the dir"	452		
+1237	416585	false	closed	false	2		2017-06-19T02:05:28Z	2017-07-06T21:05:06Z	2017-07-06T21:05:06Z	Error relocating /app/node_modules/bcrypt/build/Release/bcrypt_lib.node: __snprintf_chk: symbol not found	94		
 1238	3688096	false	open	false	3		2017-06-19T08:29:34Z	2017-06-19T10:53:56Z		[SWIG] [ANSI C] Fatal error: utility: No such file or directory	275		
 1239	8395866	false	closed	false	4		2017-06-19T23:41:54Z	2017-06-20T08:55:44Z	2017-06-20T08:55:44Z	Error finding node-gyp module	243		
 1240	990607	false	closed	false	12		2017-06-20T08:25:19Z	2017-07-04T16:04:43Z	2017-06-20T09:59:10Z	Support for mingw/msys/cygwin for node-gyp	142		
