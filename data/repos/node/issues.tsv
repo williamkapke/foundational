@@ -66,6 +66,7 @@
 1765	900690	false	closed	false	9		2015-05-22T09:03:01Z	2016-07-06T06:54:28Z	2016-07-06T06:54:28Z	Windows: fs.realpathSync() adds trailing slash for windows share	68		
 1788	1309053	false	closed	false	31		2015-05-24T23:32:23Z	2017-06-29T02:31:57Z	2017-05-30T04:12:45Z	Debug process didn't close after finish debugging	74		
 1802	744035	false	closed	false	12		2015-05-26T21:22:12Z	2017-05-01T19:37:45Z	2017-05-01T19:37:45Z	url: parse() fails if auth contain a colon or ampersand	163		
+1826	617481	false	open	false	13		2015-05-28T18:31:59Z	2017-07-06T05:25:51Z		Accept ArrayBuffer (and typed array/data view?) anywhere Buffer is allowed in the API	88		
 1834	275871	false	open	false	12		2015-05-29T12:01:45Z	2017-06-06T13:25:52Z		fs / streams: file descriptor leak on connection abort	142		
 1843	54666	true	closed	false	71		2015-05-30T08:25:30Z	2016-08-06T07:34:31Z	2016-08-06T07:34:31Z	dns: add new DNS resolver and set it as default	22		
 1860	407189	false	closed	false	21		2015-06-01T10:39:15Z	2016-11-26T02:26:04Z	2016-11-09T01:55:33Z	Plans on incorporating BoringSSL	115		
@@ -305,7 +306,7 @@
 4595	275871	false	open	false	16		2016-01-08T21:53:20Z	2017-05-30T22:00:30Z		[rfc] module: change load order	235		
 4598	2512748	true	closed	false	19		2016-01-09T01:38:11Z	2016-12-29T18:32:01Z	2016-01-27T15:11:30Z	child_process: add shell option to spawn()	41		
 4601	5688	true	closed	false	13		2016-01-09T20:16:23Z	2017-02-28T23:03:48Z	2017-02-28T23:03:48Z	doc: improve options.stdio section for child_process.spawn()	177		
-4603	10532611	false	open	false	34		2016-01-10T01:04:31Z	2017-07-06T04:52:15Z		Allow multiple installs of Node on Windows with msi	118		
+4603	10532611	false	open	false	35		2016-01-10T01:04:31Z	2017-07-06T05:49:10Z		Allow multiple installs of Node on Windows with msi	118		
 4607	718899	false	open	false	26		2016-01-10T05:25:12Z	2017-05-30T04:24:59Z		TODO comments in Makefile* and configure	202		
 4629	1084056	true	closed	false	25	0	2016-01-11T21:36:45Z	2016-09-01T17:30:50Z	2016-09-01T17:30:50Z	test: fix `fs-watch-recursive` flakiness	47	1084056	2016-09-01T17:30:50Z
 4630	10704816	true	closed	false	13	1	2016-01-11T22:32:27Z	2016-06-29T14:12:03Z	2016-06-29T14:12:03Z	tools: add missing headers	16		
@@ -6809,7 +6810,7 @@
 13358	983798	false	closed	false	8		2017-06-01T03:19:25Z	2017-06-05T17:58:57Z	2017-06-05T17:58:57Z	v8.0.0 — zlib.DeflateRaw only extensible via class keyword	118		
 13359	718899	true	closed	false	2	0	2017-06-01T05:27:39Z	2017-06-03T18:38:57Z	2017-06-03T18:38:57Z	test: add documentation for common.mustNotCall()	22		
 13360	498775	true	closed	false	1		2017-06-01T05:27:57Z	2017-06-01T21:27:03Z	2017-06-01T21:27:03Z	doc: fix date for 8.0.0 changelog	2		
-13361	10157008	false	open	false	19		2017-06-01T06:03:17Z	2017-06-19T13:41:06Z		Cannot find module 'internal/fs' when npm install on Node 8 using mac	211		
+13361	10157008	false	open	false	20		2017-06-01T06:03:17Z	2017-07-06T06:05:11Z		Cannot find module 'internal/fs' when npm install on Node 8 using mac	211		
 13362	1538624	true	closed	false	4	8	2017-06-01T06:38:02Z	2017-06-07T06:36:04Z	2017-06-07T06:36:04Z	url, i18n: update IDNA handling	60		
 13363	2352663	true	closed	false	2	2	2017-06-01T07:58:13Z	2017-06-06T08:20:17Z	2017-06-06T08:20:17Z	tools: fix order of ESLint rules	20		
 13364	403268	false	closed	false	1		2017-06-01T08:02:31Z	2017-06-09T19:50:00Z	2017-06-09T19:50:00Z	util.promisify custom implementation of child_process.exec throws away stdout and stderr in case of error	116		
@@ -7259,7 +7260,7 @@
 13810	96947	false	open	false	0		2017-06-20T03:24:01Z	2017-06-20T03:24:01Z		test: investigate flaky test-http-agent-keepalive	30		
 13811	250919	true	closed	false	1		2017-06-20T06:10:56Z	2017-07-02T19:53:30Z	2017-07-02T19:53:30Z	doc: fix some broken references	14		
 13812	10976983	false	closed	false	6		2017-06-20T07:12:31Z	2017-06-22T22:39:20Z	2017-06-22T22:39:19Z	Breaking chage with writable stream events	121		
-13813	432351	true	open	false	16		2017-06-20T07:21:36Z	2017-07-02T20:32:14Z		tools: add eslint rule for hasCrypto checking	46		
+13813	432351	true	open	false	17		2017-06-20T07:21:36Z	2017-07-06T05:15:06Z		tools: add eslint rule for hasCrypto checking	46		
 13814	432351	true	closed	false	5		2017-06-20T08:23:29Z	2017-06-20T17:32:48Z	2017-06-20T17:32:48Z	tools: add eslint rule for inspector checking	46		
 13815	214067	false	closed	false	6		2017-06-20T08:46:20Z	2017-06-23T11:28:22Z	2017-06-20T13:00:13Z	Bundle node 8 with npm 4 until npm 5 is fixed	117		
 13816	6021628	false	open	false	0		2017-06-20T10:06:50Z	2017-06-20T10:06:50Z		UNABLE_TO_GET_ISSUER_CERT_LOCALLY	115		
@@ -7436,7 +7437,7 @@
 13987	3109072	true	open	false	6		2017-06-29T13:28:49Z	2017-06-29T15:13:12Z		test: fix failure in test-icu-data-dir.js	33		
 13988	9373002	true	open	false	2		2017-06-29T15:42:59Z	2017-06-30T21:43:04Z		n-api: add code parameter to error helpers	135		
 13989	134460	true	closed	false	2		2017-06-29T15:48:01Z	2017-06-29T18:07:52Z	2017-06-29T17:56:58Z	test: mark test-fs-readdir-ucs2 flaky	76		
-13990	9373002	true	closed	false	2		2017-06-29T17:09:28Z	2017-07-05T22:42:44Z	2017-07-05T22:42:44Z	test: add coverage for napi_typeof	58		
+13990	9373002	true	closed	false	3		2017-06-29T17:09:28Z	2017-07-06T05:18:59Z	2017-07-05T22:42:44Z	test: add coverage for napi_typeof	58		
 13991	289174	true	open	false			2017-06-29T21:23:21Z	2017-07-05T23:18:56Z		test: skip whether TTY is availble	48		
 13992	12488060	true	open	false	4		2017-06-29T21:59:14Z	2017-07-03T17:57:51Z		build,test: run v8 tests on windows	122		
 13993	718899	true	closed	false			2017-06-29T23:23:10Z	2017-07-03T21:02:41Z	2017-07-02T23:45:10Z	test: refactor test-http-hostname-typechecking	45		
@@ -7494,7 +7495,7 @@
 14045	718899	true	open	false	6		2017-07-03T00:14:58Z	2017-07-03T01:05:42Z		tools: unpin eslint-plugin-markdown	75		
 14046	11359344	false	open	false	0		2017-07-03T00:38:36Z	2017-07-03T00:38:36Z		Child-Process: file-descriptor auto-closes when it shouldn't without triggering close events.	322		
 14047	10393198	true	closed	false	4		2017-07-03T01:27:20Z	2017-07-05T04:30:37Z	2017-07-05T03:56:34Z	tools: update eslint-plugin-markdown up to 1.0.0-beta.7	84		
-14048	432351	true	open	false	2		2017-07-03T04:58:00Z	2017-07-03T06:51:29Z		tools: fix tools/addon-verify.js	104		
+14048	432351	true	open	false	3		2017-07-03T04:58:00Z	2017-07-06T05:23:10Z		tools: fix tools/addon-verify.js	104		
 14049	415336	false	open	false	3		2017-07-03T07:28:51Z	2017-07-04T00:13:48Z		how to move up/down stack frames in the node debugger?	26		
 14050	505333	true	open	false			2017-07-03T08:18:43Z	2017-07-05T22:24:30Z		async_hooks: cleanup emitBefore and emitAfter in timers and nextTick	91		
 14051	505333	true	open	false			2017-07-03T09:05:16Z	2017-07-05T22:20:26Z		async_hooks: simplify fatalError	55		
@@ -7540,7 +7541,8 @@
 14091	677994	true	open	false	0	0	2017-07-05T18:53:16Z	2017-07-05T18:53:16Z		test: add get/set effective uid/gid tests	57		
 14092	4120756	false	open	false	0		2017-07-05T20:36:21Z	2017-07-05T20:36:21Z		REPL 'let' bug	76		
 14093	17607	true	open	false			2017-07-05T21:30:46Z	2017-07-05T22:37:05Z		src: whitelist v8 options with '_' or '-'	69		
-14094	718899	true	open	false	0	0	2017-07-05T21:49:27Z	2017-07-05T21:49:27Z		tools: generate template literal for addon tests	58		
+14094	718899	true	open	false	0		2017-07-05T21:49:27Z	2017-07-06T05:35:21Z		tools: generate template literal for addon tests	58		
 14095	931192	true	open	false	0	0	2017-07-05T22:07:39Z	2017-07-05T22:07:39Z		n-api: wrap test macros in do/while	25		
 14096	234659	true	open	false	1		2017-07-05T22:24:34Z	2017-07-06T02:20:08Z		url: do not use HandleScope in ToObject	36		
 14097	1158139	false	open	false	0		2017-07-06T04:22:23Z	2017-07-06T04:22:23Z		How to build node.js v4.x+ for ARM V7 core without hardware FPU	71		
+14098	12882743	true	open	false	0	0	2017-07-06T05:39:35Z	2017-07-06T05:39:35Z		test: increase test coverage for os.js	65		
