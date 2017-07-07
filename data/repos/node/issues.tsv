@@ -23,7 +23,7 @@
 781	3931155	false	closed	false	7		2015-02-10T12:14:46Z	2017-07-05T05:48:33Z	2017-07-05T05:48:33Z	DebuggerAgent: unhandled socket error event	123		
 784	7647602	false	open	false	22		2015-02-10T16:45:47Z	2017-02-26T18:43:27Z		Chunked stdout/stderr drops writes if terminated early.	92		
 805	782880	false	closed	false	4		2015-02-11T16:10:53Z	2017-03-24T23:26:47Z	2017-03-24T23:26:47Z	strict printing for X509 Extentions	19		
-819	153481	false	open	false	26		2015-02-12T14:46:07Z	2017-07-07T18:34:05Z		Translate installers for OS X and Windows	31		
+819	153481	false	open	false	27		2015-02-12T14:46:07Z	2017-07-07T22:22:15Z		Translate installers for OS X and Windows	31		
 830	1315533	false	closed	false	134		2015-02-13T11:31:38Z	2016-12-02T13:00:28Z	2016-01-24T07:40:29Z	Default Unhandled Rejection Detection Behavior	321		
 831	2993861	false	closed	false	16		2015-02-13T14:18:23Z	2017-02-15T20:31:40Z	2017-02-15T20:31:40Z	`console` should be safe	60		
 854	172	false	closed	false	73		2015-02-15T19:37:43Z	2017-06-08T18:05:30Z	2017-06-07T13:36:24Z	os x: FSEventStreamFlushSync assertions logged to console	100		
@@ -78,7 +78,7 @@
 1924	474017	false	closed	false	18		2015-06-09T14:12:21Z	2017-01-25T17:35:43Z	2016-09-26T09:04:21Z	Not closing all connections.	188		
 1941	9287	false	closed	false	36		2015-06-10T19:01:17Z	2017-05-17T12:27:18Z	2015-07-01T18:55:20Z	Handling EMFILE/ENFILE on fs.open	562		
 1999	2128182	false	open	false	6		2015-06-17T08:54:39Z	2017-04-17T18:21:59Z		Improve Path.parse / Path.format combo	210		
-2006	370343	false	open	false	18		2015-06-18T02:59:06Z	2017-07-07T21:27:03Z		Closing fs streams early could call close during or before I/O	138		
+2006	370343	false	open	false	19		2015-06-18T02:59:06Z	2017-07-07T22:59:33Z		Closing fs streams early could call close during or before I/O	138		
 2017	122831	false	closed	false	18		2015-06-19T07:26:47Z	2017-07-07T05:57:02Z	2017-07-07T05:57:02Z	NPNProtocols docs need clarification / example	100		
 2021	10974	false	closed	false	8		2015-06-19T17:41:40Z	2017-05-15T17:08:02Z	2015-10-29T22:48:22Z	Win: Request to officially build node.dll with releases	360		
 2025	696611	true	closed	false	6		2015-06-20T20:27:17Z	2016-08-29T23:49:08Z	2015-06-21T03:19:14Z	util: moving internal helpers to internal module	35		
@@ -165,6 +165,7 @@
 3006	914122	false	closed	false	46		2015-09-22T15:57:31Z	2017-02-15T10:16:21Z	2016-03-22T06:28:03Z	Node.js doesn't run as tty on windows / cygwin	33		
 3009	112555	false	closed	false	13		2015-09-22T19:15:53Z	2016-11-26T11:23:43Z	2016-04-09T05:21:32Z	Sending a body with a GET request using http.request cannot be received using http.server	160		
 3020	577345	false	open	false	15		2015-09-23T08:25:13Z	2017-05-09T23:09:12Z		Promises allow vm.runInContext timeout to be escaped	193		
+3024	660141	false	closed	false	10		2015-09-23T13:42:21Z	2017-07-07T22:16:36Z	2017-07-07T22:16:36Z	Possibly Trivial HTTPS Options Issue	73		
 3027	1459257	false	closed	false	25		2015-09-23T15:54:28Z	2017-02-07T20:59:29Z	2017-02-07T20:59:29Z	is heapUsed a useful metric?	233		
 3043	279099	false	closed	false	4		2015-09-24T06:30:04Z	2016-09-12T21:14:47Z	2016-09-12T21:14:47Z	Crypto library should have a constant-time equality function	27		
 3062	355454	true	open	false	15		2015-09-25T15:52:59Z	2017-05-30T13:31:05Z		http: Reject paths containing non-ASCII characters	123		
@@ -172,7 +173,7 @@
 3064	2559673	true	closed	false	32	22	2015-09-25T17:01:57Z	2017-02-28T22:57:03Z	2017-02-28T22:57:02Z	https: throw error if required params missing	58		
 3072	247721	false	open	false	125		2015-09-26T02:29:39Z	2017-05-30T14:58:59Z		Cluster crash in main process, callback undefined when handling internal messages	152		
 3073	220205	true	closed	false	48		2015-09-26T09:13:35Z	2016-08-22T18:20:41Z	2016-08-22T18:20:41Z	Add crypto.timingSafeEqual().	2		
-3096	439929	false	open	false	5		2015-09-27T22:55:46Z	2017-07-07T21:59:54Z		http: 205 reset status violation	153		
+3096	439929	false	open	false	5		2015-09-27T22:55:46Z	2017-07-07T22:13:50Z		http: 205 reset status violation	153		
 3098	639601	true	closed	false	15		2015-09-28T03:35:50Z	2016-06-30T12:31:35Z	2016-05-19T11:01:44Z	src: fix linking when built as shared library	192		
 3101	7358595	false	closed	false	11		2015-09-28T11:07:40Z	2016-09-26T13:20:14Z	2015-09-28T12:34:09Z	Destructuring Assignment doesn't work in node v 4.1.0 for me	52		
 3105	452298	false	closed	false	6		2015-09-28T17:02:34Z	2016-07-13T06:35:23Z	2016-07-13T06:35:23Z	Generators are not providing the right line:col for the error message	116		
@@ -271,6 +272,7 @@
 4210	1586881	false	closed	false	5		2015-12-09T13:06:00Z	2016-12-22T08:43:55Z	2016-03-22T06:33:31Z	Memory Leak? native Promise and complex arrow functions with Generators	451		
 4217	96150	true	closed	false	32	3	2015-12-09T21:53:28Z	2016-10-05T18:50:34Z	2016-10-05T18:50:34Z	fs: add accessibleSync() which returns a boolean	9		
 4230	400004	false	closed	false	12		2015-12-10T11:39:04Z	2017-03-31T07:50:53Z	2016-06-06T21:28:09Z	I can't set a default timezone on windows.	35		
+4233	1730297	false	open	false	2		2015-12-10T18:51:11Z	2017-07-07T22:21:17Z		HTTP Server request.setTimeout(n, cb) does sometimes call socket.destroy(), contradicting documentation	582		
 4236	10103531	false	open	false	8		2015-12-11T01:18:07Z	2016-07-13T03:34:14Z		child_process.spawn() has undocumented 200kb buffer limit	74		
 4243	524382	true	closed	false	10	0	2015-12-11T17:36:12Z	2016-08-19T15:09:25Z	2016-08-19T15:09:25Z	src: use thread defaults provided by v8::platform	73		
 4246	238531	true	closed	false	15		2015-12-11T20:52:00Z	2016-10-04T11:07:51Z	2015-12-12T00:54:07Z	tls: introduce `secureContext` for `tls.connect`	18		
@@ -314,7 +316,7 @@
 4595	275871	false	open	false	16		2016-01-08T21:53:20Z	2017-05-30T22:00:30Z		[rfc] module: change load order	235		
 4598	2512748	true	closed	false	19		2016-01-09T01:38:11Z	2016-12-29T18:32:01Z	2016-01-27T15:11:30Z	child_process: add shell option to spawn()	41		
 4601	5688	true	closed	false	13		2016-01-09T20:16:23Z	2017-02-28T23:03:48Z	2017-02-28T23:03:48Z	doc: improve options.stdio section for child_process.spawn()	177		
-4603	10532611	false	open	false	48		2016-01-10T01:04:31Z	2017-07-06T18:22:32Z		Allow multiple installs of Node on Windows with msi	118		
+4603	10532611	false	open	false	49		2016-01-10T01:04:31Z	2017-07-07T22:22:48Z		Allow multiple installs of Node on Windows with msi	118		
 4607	718899	false	open	false	26		2016-01-10T05:25:12Z	2017-05-30T04:24:59Z		TODO comments in Makefile* and configure	202		
 4629	1084056	true	closed	false	25	0	2016-01-11T21:36:45Z	2016-09-01T17:30:50Z	2016-09-01T17:30:50Z	test: fix `fs-watch-recursive` flakiness	47	1084056	2016-09-01T17:30:50Z
 4630	10704816	true	closed	false	13	1	2016-01-11T22:32:27Z	2016-06-29T14:12:03Z	2016-06-29T14:12:03Z	tools: add missing headers	16		
@@ -435,7 +437,7 @@
 5637	41373	false	closed	false	3		2016-03-10T02:42:07Z	2016-10-12T10:43:45Z	2016-10-12T10:43:45Z	execFile hangs when child process exits, but has disowned children	103		
 5656	495647	true	open	false	6		2016-03-11T07:32:35Z	2017-02-28T23:17:43Z		 Refactor mac installer (built on #2571)	312		
 5659	15952	false	closed	false	22		2016-03-11T16:00:53Z	2016-07-22T20:01:30Z	2016-06-30T17:08:41Z	repl: useGlobal docs and code mismatch	127		
-5675	964298	false	open	false	6		2016-03-12T13:07:11Z	2017-07-07T21:23:44Z		doc:Error:captureStackTrace description inaccurate	123		
+5675	964298	false	open	false	7		2016-03-12T13:07:11Z	2017-07-07T22:17:23Z		doc:Error:captureStackTrace description inaccurate	123		
 5679	60294	false	open	false	7		2016-03-12T23:44:00Z	2017-06-04T01:06:18Z		VM context object silently fails on Object.defineProperty	203		
 5687	1699593	false	closed	false	8		2016-03-13T18:58:57Z	2016-08-01T12:36:42Z	2016-03-13T19:12:46Z	Promise.all is not a function	77		
 5691	2993861	false	open	false	17		2016-03-13T21:08:30Z	2016-10-26T10:43:51Z		Microtask queue is not flushed when promises are fulfilled in C++	107		
@@ -493,7 +495,7 @@
 6063	7780985	true	closed	false	20		2016-04-05T19:44:10Z	2016-07-11T16:51:08Z	2016-04-26T16:07:07Z	doc, tls: deprecate createSecurePair	141		
 6078	12937885	false	open	false	19		2016-04-06T11:07:12Z	2017-05-14T10:36:43Z		Reduce memory consumption of streams for large amounts of data	515		
 6082	8702326	true	closed	false	14		2016-04-06T18:50:20Z	2017-03-26T23:18:22Z	2017-03-26T23:18:22Z	async_wrap,lib: Firing async-wrap callbacks for next-tick callbacks	373		
-6083	532688	false	open	false	0		2016-04-06T21:55:03Z	2017-07-07T21:31:02Z		TCP socket emitted 'end' event after 'error' event	820		
+6083	532688	false	open	false	1		2016-04-06T21:55:03Z	2017-07-07T22:55:41Z		TCP socket emitted 'end' event after 'error' event	820		
 6085	238531	true	open	false	9		2016-04-06T22:51:09Z	2017-05-11T21:14:24Z		http_outgoing: refactor to use stream.Writable	74		
 6089	195826	false	closed	false	6		2016-04-06T23:21:40Z	2017-01-03T11:34:13Z	2016-04-07T00:47:32Z	Consider moving from gyp to gn	50		
 6102	54666	true	open	false	110		2016-04-07T16:10:47Z	2017-05-16T22:51:30Z		http: don't inherit from Object.prototype	57		
@@ -503,7 +505,7 @@
 6121	735269	false	closed	false	6		2016-04-08T18:36:50Z	2017-05-30T07:29:29Z	2017-05-30T07:29:29Z	Debugging access violation on Windows	54		
 6131	2361826	false	closed	false	6		2016-04-09T10:47:11Z	2016-08-17T20:43:10Z	2016-08-17T20:43:10Z	Move .eslintrc to json or yaml	58		
 6141	899444	true	open	false	1		2016-04-11T03:27:06Z	2016-08-09T21:56:02Z		zlib: Support for reading/writing Gzip headers	222		
-6145	5165527	false	closed	false	12		2016-04-11T13:17:22Z	2017-07-07T21:41:53Z	2017-07-07T21:41:53Z	Proposed extension to https.request to allow using a custom OpenSSL client certificate engine.	126		
+6145	5165527	false	closed	false	12		2016-04-11T13:17:22Z	2017-07-07T22:04:58Z	2017-07-07T21:41:53Z	Proposed extension to https.request to allow using a custom OpenSSL client certificate engine.	126		
 6148	13519723	false	closed	false	7		2016-04-11T15:53:31Z	2017-01-09T12:13:50Z	2017-01-09T12:13:50Z	Nodejs does thing doubletime when stopped and started again.	116		
 6156	1003261	false	closed	false	5		2016-04-11T21:34:55Z	2017-07-04T07:58:36Z	2017-07-04T07:58:36Z	node debug setBreakpoint throws a TypeError on set attempt	55		
 6160	110455	false	closed	false	14		2016-04-12T00:26:17Z	2016-10-17T10:38:09Z	2016-10-17T10:38:09Z	Clearing require.cache of native addon makes it throw when required later.	216		
@@ -514,6 +516,7 @@
 6180	3824055	false	closed	false	18		2016-04-13T14:03:54Z	2016-07-26T17:44:29Z	2016-07-26T17:44:29Z	Memory leak in simple test case involving WeakSet	202		
 6181	6279791	false	closed	false	5		2016-04-13T14:17:30Z	2016-09-27T13:15:32Z	2016-04-13T17:24:17Z	Uncaught TypeError when tab-completing constructor in REPL	66		
 6184	289174	true	closed	false	29		2016-04-13T19:21:38Z	2016-10-24T18:28:57Z	2016-05-24T20:44:10Z	src: no abort from GetFD if object isn't wrapped	88		
+6188	289174	false	closed	false	2		2016-04-13T22:14:46Z	2017-07-07T22:17:29Z	2017-07-07T22:17:29Z	net: bind TCP server after close() has run	234		
 6189	829269	false	open	false	9		2016-04-13T22:59:02Z	2017-01-26T06:59:32Z		Potential memory leak in UDP	130		
 6190	289174	false	open	false	12		2016-04-13T23:17:48Z	2016-09-05T09:58:35Z		net: multiple listen() events fail silently	94		
 6191	3899684	true	open	false	14		2016-04-14T00:15:12Z	2017-03-01T01:22:08Z		buffer: adds buffer.prototype.split / join	437		
@@ -582,6 +585,7 @@
 6456	3899684	false	open	false	168		2016-04-28T22:47:27Z	2017-05-28T03:58:38Z		stdio buffered writes (chunked) issues & process.exit() truncation	477		
 6459	480640	false	closed	false	10		2016-04-29T00:51:07Z	2016-10-29T07:38:44Z	2016-10-29T07:38:44Z	Node 6 uses full CPU core	75		
 6466	275871	false	closed	false	13		2016-04-29T08:46:50Z	2016-07-06T06:44:59Z	2016-07-06T06:44:59Z	os x: re-enable PIE (ASLR)	82		
+6471	2771691	false	closed	false	5		2016-04-29T13:03:00Z	2017-07-07T23:01:44Z	2017-07-07T23:01:44Z	Support for source maps	80		
 6496	273509	false	closed	false	10		2016-05-01T02:35:54Z	2016-12-13T21:30:18Z	2016-12-13T21:30:18Z	v0.10.x issues with ECDSA cipher suites	78		
 6503	439929	true	closed	false	41		2016-05-01T15:14:50Z	2016-10-10T16:24:26Z	2016-05-11T16:26:58Z	doc: refactor the changelog by version	400		
 6506	16545322	false	closed	false	5		2016-05-01T19:30:49Z	2016-07-11T18:02:53Z	2016-07-11T18:02:53Z	doc: dns.resolve wrong callback addresses argument description	31		
@@ -613,6 +617,7 @@
 6624	94334	false	closed	false	7		2016-05-06T13:09:57Z	2017-05-07T10:47:22Z	2016-08-12T11:14:32Z	On Windows, Node can be inconsistent in what case builtin functions use for drive letters	194		
 6625	785571	false	closed	false	2		2016-05-07T04:11:12Z	2016-12-28T13:41:46Z	2016-05-09T08:17:59Z	node 6 fail with `Generator is already running` when harmony v8 option on, but pass again after add --debug. 	205		
 6647	501424	false	closed	false	3		2016-05-09T08:59:50Z	2016-06-29T15:43:42Z	2016-06-29T15:43:42Z	Installation fails prematurely	221		
+6649	964298	false	closed	false	6		2016-05-09T11:42:47Z	2017-07-07T22:19:02Z	2017-07-07T22:19:02Z	doc: System Error description incorrectly equates errno and code properties	59		
 6655	1093990	false	closed	false	16		2016-05-09T15:37:35Z	2016-06-29T11:08:32Z	2016-06-29T11:08:32Z	"Use Teams for the ""Who to CC in issues chart"""	259		
 6665	964298	true	closed	false	6		2016-05-10T00:57:55Z	2017-03-01T00:52:01Z	2017-03-01T00:52:01Z	doc: correct description of System Error errno property	36		
 6667	2655300	false	closed	false	0		2016-05-10T04:58:37Z	2017-02-07T23:23:43Z	2016-05-10T05:13:08Z	hostname resets to default. 	83		
@@ -620,6 +625,7 @@
 6670	613846	true	closed	false	37		2016-05-10T08:30:29Z	2016-09-30T18:14:14Z	2016-08-09T10:58:36Z	module: fix wrong condition in early return logic for node_module path	428		
 6673	298721	false	closed	false	31		2016-05-10T13:59:35Z	2017-03-20T18:19:54Z	2016-05-12T09:58:58Z	Memory leaks in loops with Promise	199		
 6675	1625870	true	closed	false	12		2016-05-10T15:22:04Z	2016-07-05T14:14:33Z	2016-05-27T10:08:00Z	test,win: skip addons/load-long-path on WOW64	63		
+6677	3899684	false	closed	false	10		2016-05-10T17:46:59Z	2017-07-07T23:00:00Z	2017-07-07T23:00:00Z	discuss: have glob function is `fs` or `path` API	83		
 6679	367936	false	closed	false	19		2016-05-10T18:55:54Z	2016-08-09T10:58:23Z	2016-08-09T10:58:23Z	require has issues when run from /	264		
 6687	935223	false	closed	false	3		2016-05-11T05:50:51Z	2016-09-21T00:23:41Z	2016-09-21T00:23:41Z	https.request(): Agent name inconsistency when servername not supplied	193		
 6690	129203	true	closed	false	14		2016-05-11T12:48:05Z	2016-07-12T00:52:48Z	2016-05-25T20:47:55Z	tools: restore change of doc building function signatures to opts hashes	316		
@@ -6942,7 +6948,7 @@
 13473	432351	true	open	false	1		2017-06-05T12:18:42Z	2017-06-08T08:26:35Z		src: make IsConstructCall checks consistent	53		
 13474	52195	true	closed	false	4		2017-06-05T14:48:28Z	2017-06-07T12:04:47Z	2017-06-07T12:04:47Z	fs: replace a bind() with a top-level function	49		
 13475	439929	false	closed	false	7		2017-06-05T15:30:08Z	2017-06-08T12:39:29Z	2017-06-08T12:39:29Z	8.1.0 Tracking Issue	57		
-13476	25031476	true	open	false			2017-06-05T16:17:51Z	2017-07-07T17:23:42Z		errors,tls_wrap: migrate to use internal/errors.js	37		
+13476	25031476	true	open	false			2017-06-05T16:17:51Z	2017-07-07T22:48:43Z		errors,tls_wrap: migrate to use internal/errors.js	37		
 13477	1941275	false	closed	false	0		2017-06-05T16:26:31Z	2017-06-16T16:51:01Z	2017-06-16T16:51:01Z	Debugger doesn't listen on IPv6 addresses	44		
 13478	287917	true	closed	false	28		2017-06-05T17:22:58Z	2017-06-19T13:24:04Z	2017-06-16T16:51:01Z	inspector: perform DNS lookup for host	37		
 13479	718899	false	open	false	0		2017-06-05T18:01:11Z	2017-06-05T18:01:11Z		Investigate flaky test addons/symlinked-module/submodule	33		
@@ -7341,7 +7347,7 @@
 13874	8225332	false	open	false	0		2017-06-22T14:29:29Z	2017-06-22T14:29:29Z		Request: Update JSON schemes	85		
 13875	2842176	true	open	false	25		2017-06-22T16:49:27Z	2017-07-07T11:41:06Z		fs,doc,test: open reserved characters under win32	90		
 13876	8822573	true	open	false	3		2017-06-22T16:55:00Z	2017-07-07T03:14:40Z		repl: remove NODE_REPL_HISTORY_FILE	104		
-13877	234659	false	open	false	29		2017-06-22T17:36:14Z	2017-07-06T21:19:47Z		Discussion/Tracking SnapshotCreator support	261		
+13877	234659	false	open	false	35		2017-06-22T17:36:14Z	2017-07-07T22:28:36Z		Discussion/Tracking SnapshotCreator support	261		
 13878	287917	true	open	false	2		2017-06-22T17:47:55Z	2017-06-26T17:34:32Z		test: check uv_ip4_addr return value	33		
 13879	976081	true	open	false	1		2017-06-22T19:57:31Z	2017-07-06T16:21:46Z		addons: remove semicolons from after module definition	62		
 13880	10393198	true	open	false	0	0	2017-06-22T20:24:15Z	2017-06-22T20:24:15Z		(v6.x backport) test: make the rest of tests path-independent	35		
@@ -7435,12 +7441,12 @@
 13968	197742	false	closed	false	2		2017-06-28T17:28:17Z	2017-06-28T21:07:45Z	2017-06-28T21:07:45Z	Different behavior of process.argv on OSX and Windows	119		
 13969	96947	true	closed	false	3	4	2017-06-28T18:12:02Z	2017-06-30T20:15:20Z	2017-06-30T20:15:20Z	build,windows: fix vcbuild.bat	29	96947	2017-06-30T20:15:20Z
 13970	1716463	true	closed	false	2		2017-06-28T18:59:32Z	2017-07-03T20:10:23Z	2017-07-03T09:06:11Z	doc: fix api docs style	55		
-13971	931192	true	open	false	5		2017-06-28T21:19:14Z	2017-07-07T00:00:45Z		Add napi_fatal_error API	39		
+13971	931192	true	open	false	6		2017-06-28T21:19:14Z	2017-07-07T22:18:09Z		Add napi_fatal_error API	39		
 13972	931192	true	closed	false	1		2017-06-28T22:35:42Z	2017-06-29T03:21:36Z	2017-06-29T03:21:36Z	n-api: fix section title typo	21		
 13973	8822573	true	open	false	6		2017-06-28T23:46:46Z	2017-07-04T11:13:06Z		assert: improve performance	1455		
 13974	8822573	true	closed	false	4	9	2017-06-29T00:23:06Z	2017-07-02T02:26:48Z	2017-07-02T02:26:48Z	assert: fix assert.fail with zero arguments	74	96947	2017-07-02T02:26:48Z
 13975	718899	true	closed	false	1		2017-06-29T03:42:50Z	2017-07-02T05:36:00Z	2017-07-02T05:36:00Z	test: refactor test-crypto-pbkdf2	45		
-13976	10933333	true	open	false	8		2017-06-29T04:19:25Z	2017-07-07T21:41:28Z		errors, buffer: Migrate buffer errors to use internal/errors	48		
+13976	10933333	true	open	false			2017-06-29T04:19:25Z	2017-07-07T22:50:24Z		errors, buffer: Migrate buffer errors to use internal/errors	48		
 13977	718899	true	closed	false	3	0	2017-06-29T04:23:50Z	2017-07-02T05:37:07Z	2017-07-02T05:37:07Z	test: refactor test-fs-options-immutable	43		
 13978	1529044	false	closed	false	6		2017-06-29T06:53:41Z	2017-06-29T09:10:18Z	2017-06-29T09:10:18Z	Buffer.from is undefined in 0.12..x	33		
 13979	5449554	false	closed	false	2		2017-06-29T07:20:14Z	2017-06-29T12:48:38Z	2017-06-29T10:03:28Z	fs.readFileSync returns a Buffer object with wrong 'buffer' property	172		
@@ -7558,7 +7564,7 @@
 14091	677994	true	open	false	0	0	2017-07-05T18:53:16Z	2017-07-05T18:53:16Z		test: add get/set effective uid/gid tests	57		
 14092	4120756	false	open	false	0		2017-07-05T20:36:21Z	2017-07-05T20:36:21Z		REPL 'let' bug	76		
 14093	17607	true	open	false	6		2017-07-05T21:30:46Z	2017-07-07T18:22:57Z		src: whitelist v8 options with '_' or '-'	69		
-14094	718899	true	open	false	0		2017-07-05T21:49:27Z	2017-07-06T05:35:21Z		tools: generate template literal for addon tests	58		
+14094	718899	true	closed	false	1		2017-07-05T21:49:27Z	2017-07-07T22:32:17Z	2017-07-07T22:32:17Z	tools: generate template literal for addon tests	58		
 14095	931192	true	open	false	0	0	2017-07-05T22:07:39Z	2017-07-05T22:07:39Z		n-api: wrap test macros in do/while	25		
 14096	234659	true	open	false	11		2017-07-05T22:24:34Z	2017-07-07T00:39:35Z		url: do not use HandleScope in ToObject	36		
 14097	1158139	false	open	false	0		2017-07-06T04:22:23Z	2017-07-06T04:22:23Z		How to build node.js v4.x+ for ARM V7 core without hardware FPU	71		
@@ -7589,7 +7595,7 @@
 14122	275871	true	open	false	0	0	2017-07-07T13:36:15Z	2017-07-07T13:36:15Z		crypto: fix memory leak, reduce heap allocations, clean up	88		
 14123	2512748	true	open	false	3		2017-07-07T13:43:07Z	2017-07-07T16:24:59Z		test: handle missing V8 tests in n-api test	71		
 14124	2732639	false	open	false	0		2017-07-07T14:21:05Z	2017-07-07T14:21:05Z		Node 6.11.0 does not build properly for arm7	115		
-14125	718899	true	open	false			2017-07-07T14:39:57Z	2017-07-07T18:11:44Z		lib: normalize indentation in parentheses	38		
+14125	718899	true	open	false	0		2017-07-07T14:39:57Z	2017-07-07T22:20:06Z		lib: normalize indentation in parentheses	38		
 14126	1025559	true	open	false	1		2017-07-07T16:23:20Z	2017-07-07T18:03:21Z		doc: fix mistake in http.md	46		
 14127	718899	true	open	false	0	0	2017-07-07T20:48:56Z	2017-07-07T20:48:56Z		doc: correct stream Duplex allowHalfOpen doc	52		
 14128	96947	false	open	false	0		2017-07-07T21:37:01Z	2017-07-07T21:37:01Z		test: flaky - parallel/test-pipe-stream	67		
