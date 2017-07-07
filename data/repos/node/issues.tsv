@@ -7026,7 +7026,7 @@
 13573	10393198	true	open	false	1		2017-06-09T12:17:15Z	2017-06-12T09:25:02Z		doc: fix links and typos in fs.md	22		
 13574	7408689	true	closed	false	18	0	2017-06-09T12:18:46Z	2017-06-17T21:46:48Z	2017-06-17T21:46:48Z	(v6.x backport) v8: fix build errors with g++ 7	57		
 13575	432351	true	open	false	1		2017-06-09T13:19:52Z	2017-06-13T12:58:24Z		WIP: crypto: support multiple Crypto versions/libraries	398		
-13576	15719653	true	open	false	1		2017-06-09T13:47:27Z	2017-07-07T09:30:46Z		doc: add note to tty.WriteStream event 'resize' on Windows	18		
+13576	15719653	true	open	false			2017-06-09T13:47:27Z	2017-07-07T14:15:43Z		doc: add note to tty.WriteStream event 'resize' on Windows	18		
 13577	9373002	false	closed	false	23		2017-06-09T13:49:51Z	2017-07-04T16:50:38Z	2017-07-04T16:50:38Z	async-hooks/test-fseventwrap - Flaky on AIX	58		
 13578	1443911	true	closed	false	1		2017-06-09T15:36:55Z	2017-06-12T12:14:41Z	2017-06-12T12:14:41Z	http: handle cases where socket.server is null	59		
 13579	17607	false	closed	false	20		2017-06-09T15:40:40Z	2017-06-14T15:39:12Z	2017-06-13T18:37:56Z	setTimeout callback order isn't guaranteed	213		
@@ -7468,7 +7468,7 @@
 14015	96947	false	closed	false	2		2017-06-30T20:51:56Z	2017-07-03T18:48:09Z	2017-07-03T18:48:09Z	test: investigate `parallel/test-npm-install` timeout	24		
 14016	10393198	false	closed	false	5		2017-06-30T22:12:12Z	2017-07-04T09:45:27Z	2017-07-04T09:45:27Z	test: a small common.skip() improvement proposal	62		
 14017	9287	false	open	false	1		2017-06-30T23:32:05Z	2017-07-04T08:26:19Z		regression: fs.utimes/futimes for dates before unix epoch	78		
-14018	677994	true	open	false			2017-07-01T00:46:51Z	2017-07-05T18:40:28Z		build: allow enabling the --trace-maps flag in V8	33		
+14018	677994	true	closed	false	4	4	2017-07-01T00:46:51Z	2017-07-07T14:32:49Z	2017-07-07T14:32:49Z	build: allow enabling the --trace-maps flag in V8	33		
 14019	8225332	false	closed	false	8		2017-07-01T01:42:00Z	2017-07-01T09:00:32Z	2017-07-01T09:00:32Z	Require is not case insensitive on linux but is on windows	51		
 14020	170197	false	open	false	0		2017-07-01T05:11:48Z	2017-07-01T08:30:34Z		"URL#searchParams#delete removes ""?"""	19		
 14021	10393198	true	closed	false	8		2017-07-01T05:33:25Z	2017-07-04T09:45:16Z	2017-07-04T09:45:16Z	test: simplify test skipping	79		
@@ -7562,7 +7562,7 @@
 14109	899444	true	open	false	3		2017-07-06T17:08:45Z	2017-07-07T07:46:38Z		[v8.x] async_hooks: C++ Embedder API overhaul	23		
 14110	96947	false	open	false	0		2017-07-06T17:26:02Z	2017-07-06T17:26:02Z		test: define and test validity of core-dumps	97		
 14111	14098340	true	open	false	4		2017-07-06T18:42:58Z	2017-07-07T11:47:08Z		cctest: Fix cctest failure on windows	51		
-14112	2732639	false	open	false	0		2017-07-06T20:02:20Z	2017-07-06T20:55:55Z		Build fails when cross compiling for arm7	342		
+14112	2732639	false	open	false	1		2017-07-06T20:02:20Z	2017-07-07T14:48:23Z		Build fails when cross compiling for arm7	342		
 14113	7749948	false	closed	false	2		2017-07-06T20:58:05Z	2017-07-07T07:38:56Z	2017-07-07T00:00:38Z	Node.js version 8.1.3 'make test' does not obey LD_LIBRARY_PATH	319		
 14114	5804246	false	closed	false	2		2017-07-06T21:31:06Z	2017-07-07T08:07:41Z	2017-07-07T08:07:41Z	moduleFoo/moduleFoo.js should work same as moduleFoo/Index.js	107		
 14115	17607	false	open	false	0		2017-07-06T21:39:54Z	2017-07-06T21:39:54Z		Windows vcbuild is missing FIPS support, like ./configure --openssl-fips	26		
@@ -7573,4 +7573,6 @@
 14120	1265507	false	open	false	0		2017-07-07T06:20:07Z	2017-07-07T06:20:07Z		"Improve ""listener"" property lookup in a handler"	88		
 14121	16659510	false	open	false	0		2017-07-07T08:17:13Z	2017-07-07T08:17:13Z		 How do I ensure that the callback function finishes before the end of the process?	98		
 14122	275871	true	open	false	0	0	2017-07-07T13:36:15Z	2017-07-07T13:36:15Z		crypto: fix memory leak, reduce heap allocations, clean up	88		
-14123	2512748	true	open	false	0	0	2017-07-07T13:43:07Z	2017-07-07T13:43:07Z		test: handle missing V8 tests in n-api test	71		
+14123	2512748	true	open	false	0		2017-07-07T13:43:07Z	2017-07-07T14:51:22Z		test: handle missing V8 tests in n-api test	71		
+14124	2732639	false	open	false	0		2017-07-07T14:21:05Z	2017-07-07T14:21:05Z		Node 6.11.0 does not build properly for arm7	115		
+14125	718899	true	open	false	0	0	2017-07-07T14:39:57Z	2017-07-07T14:39:57Z		lib: normalize indentation in parentheses	38		
