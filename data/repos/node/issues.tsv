@@ -72,10 +72,12 @@
 1860	407189	false	closed	false	21		2015-06-01T10:39:15Z	2016-11-26T02:26:04Z	2016-11-09T01:55:33Z	Plans on incorporating BoringSSL	115		
 1873	291301	false	open	false	16		2015-06-02T18:58:34Z	2017-02-26T22:01:16Z		http.OutgoingMessage headers API	78		
 1878	17607	true	closed	false	7	3	2015-06-03T05:25:47Z	2017-01-03T21:45:04Z	2017-01-03T21:45:04Z	util: treat all args identically in absence of a format	105		
+1885	718899	false	open	false	24		2015-06-03T16:20:07Z	2017-07-07T06:02:09Z		net: server.maxConnections does not trigger error on some platforms	36		
 1917	327019	true	closed	false	17		2015-06-08T13:55:41Z	2017-04-14T21:52:24Z	2017-04-14T21:52:24Z	test: add unicode test case for exec	26		
 1924	474017	false	closed	false	18		2015-06-09T14:12:21Z	2017-01-25T17:35:43Z	2016-09-26T09:04:21Z	Not closing all connections.	188		
 1941	9287	false	closed	false	36		2015-06-10T19:01:17Z	2017-05-17T12:27:18Z	2015-07-01T18:55:20Z	Handling EMFILE/ENFILE on fs.open	562		
 1999	2128182	false	open	false	6		2015-06-17T08:54:39Z	2017-04-17T18:21:59Z		Improve Path.parse / Path.format combo	210		
+2017	122831	false	closed	false	18		2015-06-19T07:26:47Z	2017-07-07T05:57:02Z	2017-07-07T05:57:02Z	NPNProtocols docs need clarification / example	100		
 2021	10974	false	closed	false	8		2015-06-19T17:41:40Z	2017-05-15T17:08:02Z	2015-10-29T22:48:22Z	Win: Request to officially build node.dll with releases	360		
 2025	696611	true	closed	false	6		2015-06-20T20:27:17Z	2016-08-29T23:49:08Z	2015-06-21T03:19:14Z	util: moving internal helpers to internal module	35		
 2069	150063	false	closed	false	15		2015-06-27T13:55:19Z	2017-04-17T21:20:01Z	2017-02-07T18:12:20Z	Windows: Setting fs.futimes{Sync} subsecond (millisecond) precision?	89		
@@ -171,7 +173,7 @@
 3098	639601	true	closed	false	15		2015-09-28T03:35:50Z	2016-06-30T12:31:35Z	2016-05-19T11:01:44Z	src: fix linking when built as shared library	192		
 3101	7358595	false	closed	false	11		2015-09-28T11:07:40Z	2016-09-26T13:20:14Z	2015-09-28T12:34:09Z	Destructuring Assignment doesn't work in node v 4.1.0 for me	52		
 3105	452298	false	closed	false	6		2015-09-28T17:02:34Z	2016-07-13T06:35:23Z	2016-07-13T06:35:23Z	Generators are not providing the right line:col for the error message	116		
-3136	126482	false	open	false	11		2015-09-30T21:06:54Z	2017-06-20T07:10:04Z		oom/core dump in repl with buffer property tab completion	169		
+3136	126482	false	closed	false	12		2015-09-30T21:06:54Z	2017-07-07T05:10:04Z	2017-07-07T05:10:04Z	oom/core dump in repl with buffer property tab completion	169		
 3145	369698	false	closed	false	17		2015-10-01T12:26:52Z	2017-01-16T17:58:21Z	2017-01-16T05:46:58Z	child_process IPC is very slow, about 100-10000x slower than I expected (scales with msg size)	213		
 3156	718899	false	closed	false	3		2015-10-02T03:40:19Z	2017-04-04T03:51:18Z	2017-04-04T03:51:18Z	make test-debugger fails hard, amirite?	36		
 3159	131406	false	closed	false	6		2015-10-02T13:49:38Z	2017-01-24T21:46:29Z	2017-01-24T21:46:29Z	please provide a way to use system-installed root certificates instead of bundled ones	82		
@@ -410,6 +412,7 @@
 5522	238531	true	closed	false	19		2016-03-02T13:36:11Z	2016-12-14T17:18:11Z	2016-03-02T18:25:52Z	crypto, string_bytes: treat `buffer` str as `utf8`	141		
 5525	5740732	false	closed	false	4		2016-03-02T16:03:33Z	2016-12-07T21:11:53Z	2016-04-02T23:38:27Z	Documentation for __dirname is misleading	124		
 5540	631240	false	open	false	5		2016-03-03T02:27:16Z	2017-05-30T07:23:36Z		Writeable stream .end() has paradoxical logic	123		
+5545	12271400	false	closed	false	2		2016-03-03T13:28:38Z	2017-07-07T05:52:33Z	2017-07-07T05:52:33Z	feature request: checkClientIdentity() for tls.createServer() (TLS core module)	186		
 5549	122831	false	closed	false	1		2016-03-03T19:01:31Z	2016-10-12T17:39:50Z	2016-10-12T09:46:25Z	child_process.spawn will either exit or not control stdin when detached and using inherit	556		
 5568	273509	false	open	false	6		2016-03-04T18:28:35Z	2017-05-30T04:34:43Z		OpenSSL Dynamic Linkage Gotchas?	45		
 5573	1127384	true	closed	false	5	1	2016-03-05T16:19:34Z	2016-11-08T21:51:48Z	2016-11-08T21:51:48Z	async_wrap: WIP/Experiment, init/destroy HTTPParser on each use	88		
@@ -7264,7 +7267,7 @@
 13814	432351	true	closed	false	5		2017-06-20T08:23:29Z	2017-06-20T17:32:48Z	2017-06-20T17:32:48Z	tools: add eslint rule for inspector checking	46		
 13815	214067	false	closed	false	6		2017-06-20T08:46:20Z	2017-06-23T11:28:22Z	2017-06-20T13:00:13Z	Bundle node 8 with npm 4 until npm 5 is fixed	117		
 13816	6021628	false	open	false	0		2017-06-20T10:06:50Z	2017-06-20T10:06:50Z		UNABLE_TO_GET_ISSUER_CERT_LOCALLY	115		
-13817	2842176	true	open	false	7		2017-06-20T11:03:42Z	2017-07-07T02:59:41Z		repl: fix crash with large buffer tab completion	51		
+13817	2842176	true	open	false	8		2017-06-20T11:03:42Z	2017-07-07T05:09:23Z		repl: fix crash with large buffer tab completion	51		
 13818	1269020	false	open	false	2		2017-06-20T12:17:22Z	2017-06-20T13:01:09Z		os.homedir() prefers USERPROFILE to HOME	108		
 13819	21176203	false	open	false	0		2017-06-20T14:16:44Z	2017-06-20T14:16:44Z		something wrong when I using this function >> listenerCount v8.1.2	127		
 13820	10393198	true	closed	false	2	0	2017-06-20T14:17:18Z	2017-06-22T03:46:15Z	2017-06-22T03:46:15Z	doc: fix nits in guides/using-internal-errors.md	22		
@@ -7516,7 +7519,7 @@
 14066	2126330	false	closed	false	2		2017-07-03T21:46:03Z	2017-07-04T09:06:10Z	2017-07-04T09:06:10Z	Node crashes on install by any package manager and flags anti-virus using git+https dependencies. 	258		
 14067	10393198	true	open	false	0	0	2017-07-04T00:27:18Z	2017-07-04T00:27:18Z		[v6.x backport] doc, tools: use eslint-plugin-markdown	41		
 14068	12103879	false	open	false	0		2017-07-04T04:30:51Z	2017-07-04T08:59:31Z		PTHREAD_STACK_MIN change suggestion	155		
-14069	182844	false	open	false	22		2017-07-04T06:55:30Z	2017-07-07T04:13:44Z		Segmentation fault on v8.1.3	371		
+14069	182844	false	open	false	23		2017-07-04T06:55:30Z	2017-07-07T05:08:58Z		Segmentation fault on v8.1.3	371		
 14070	96947	false	open	false	5		2017-07-04T11:44:45Z	2017-07-05T02:35:56Z		test: investigate async-hooks/test-signalwrap	63		
 14071	6447530	true	open	false	0	0	2017-07-04T12:31:54Z	2017-07-04T12:31:54Z		aix: fix un-initialized pointer field in fs handle	78		
 14072	4983903	false	open	false	0		2017-07-04T13:34:17Z	2017-07-04T16:36:40Z		can we set autoPadding for key and iv in crypto.createCipheriv(algorithm, key, iv)? 	67		
@@ -7525,7 +7528,7 @@
 14075	8822573	true	open	false			2017-07-04T16:30:21Z	2017-07-05T16:21:46Z		doc: os.homedir might throw	45		
 14076	276295	false	open	false	2		2017-07-04T18:34:37Z	2017-07-04T20:06:21Z		Can't build stuff (using gyp) on FreeBSD 11.1 (or clang 4.0)	297		
 14077	276295	true	open	false			2017-07-04T19:34:21Z	2017-07-06T02:13:45Z		tools: skip workaround for newer llvm	78		
-14078	718899	true	open	false			2017-07-05T01:02:09Z	2017-07-05T03:02:59Z		lib: use consistent indentation for ternaries	48		
+14078	718899	true	open	false	1		2017-07-05T01:02:09Z	2017-07-07T05:48:25Z		lib: use consistent indentation for ternaries	48		
 14079	718899	true	closed	false	1		2017-07-05T03:50:36Z	2017-07-07T03:53:42Z	2017-07-07T03:53:42Z	tools: remove align-multiline-assignment lint rule	46		
 14080	6447530	false	open	false	3		2017-07-05T04:43:17Z	2017-07-05T12:18:38Z		aix: build failure with linker error in debug mode	46		
 14081	7593221	false	open	false	5		2017-07-05T05:43:40Z	2017-07-05T14:02:46Z		events.js spliceOne is slower than splice	201		
@@ -7533,7 +7536,7 @@
 14083	23046497	false	open	false	0		2017-07-05T07:00:03Z	2017-07-05T08:16:37Z		"Issue with child_process ""print"" argument"	85		
 14084	2143625	false	closed	false	3		2017-07-05T10:26:58Z	2017-07-05T15:03:16Z	2017-07-05T15:03:16Z	Importing with different casing breaks instanceof checks	168		
 14085	12882743	true	closed	false	7		2017-07-05T12:42:01Z	2017-07-05T18:06:57Z	2017-07-05T18:01:46Z	module: addBuiltinLibsToObject refactoring	107		
-14086	3621643	false	open	false	3		2017-07-05T12:56:31Z	2017-07-07T04:51:55Z		DNS server caching breaks changing networks in runtime	257		
+14086	3621643	false	open	false	4		2017-07-05T12:56:31Z	2017-07-07T05:13:36Z		DNS server caching breaks changing networks in runtime	257		
 14087	229425	false	open	false	9		2017-07-05T14:00:58Z	2017-07-06T07:31:07Z		HTTP Client and automatic request retry	99		
 14088	8822573	true	open	false	1		2017-07-05T14:56:27Z	2017-07-06T23:36:34Z		test: wrap expectsError in mustCall	89		
 14089	8822573	true	open	false	3		2017-07-05T16:16:56Z	2017-07-06T23:39:10Z		test: add optional throw fn to expectsError	91		
@@ -7551,7 +7554,7 @@
 14101	52195	false	closed	false	7		2017-07-06T08:51:10Z	2017-07-06T12:07:07Z	2017-07-06T12:07:07Z	v8: --trace-inlining does not output anything in master and 8.2.0-rc.1	30		
 14102	22362002	false	open	false	4		2017-07-06T09:33:33Z	2017-07-07T03:12:13Z		https request ends OK but app crash due to ECONNRESET after 10 minutes	173		
 14103	988441	false	open	false	0		2017-07-06T11:17:44Z	2017-07-06T11:17:44Z		vcbuild fails with non-descriptive error when the registry has stale keys	320		
-14104	432351	true	open	false	1		2017-07-06T12:33:39Z	2017-07-06T18:26:30Z		n-api: fix warning in test_general	116		
+14104	432351	true	closed	false	2		2017-07-06T12:33:39Z	2017-07-07T05:27:13Z	2017-07-07T05:27:13Z	n-api: fix warning in test_general	116		
 14105	10414627	false	open	false	1		2017-07-06T14:23:41Z	2017-07-06T15:18:41Z		path.normalize does not work correctly in case of a folder that contains .. as part of its name	35		
 14106	275871	true	open	false	0	0	2017-07-06T14:28:36Z	2017-07-06T14:28:36Z		url: remove unused URL::ToObject() method	3		
 14107	2352663	true	open	false	1		2017-07-06T15:17:14Z	2017-07-06T17:47:42Z		path: fix normalize on directories with two dots	34		
