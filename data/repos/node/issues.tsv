@@ -208,7 +208,7 @@
 3402	595361	false	closed	false	202		2015-10-16T12:45:59Z	2016-12-04T15:34:28Z	2016-04-27T02:45:38Z	Don't resolve symlinks when requiring	120		
 3403	413206	false	closed	false	6		2015-10-16T13:27:40Z	2017-07-07T23:10:25Z	2017-07-07T23:10:25Z	Suggestion: stream.read(buffer, offset, length, callback)	211		
 3410	6677095	true	closed	false			2015-10-16T20:54:30Z	2016-09-23T13:18:56Z	2015-11-24T21:09:22Z	src: added big-endian check and support to UTF-16 encode	25		
-3429	367936	false	open	false	28		2015-10-18T21:34:29Z	2017-07-07T23:13:47Z		Very slow child_process.spawn stdout stream performance on Mac OS X 10.9 – 10.11	505		
+3429	367936	false	open	false	29		2015-10-18T21:34:29Z	2017-07-08T02:20:00Z		Very slow child_process.spawn stdout stream performance on Mac OS X 10.9 – 10.11	505		
 3431	1145335	false	closed	false	24		2015-10-19T07:06:43Z	2017-06-08T14:25:30Z	2015-10-20T03:03:33Z	Can not install nodejs 4 on Windows 7 64-bit	66		
 3449	333455	false	closed	false	14		2015-10-20T13:20:15Z	2017-01-09T14:20:29Z	2015-11-26T03:16:10Z	is it a bug? setting up process.env.TZ depends on order of execution.	54		
 3460	855219	false	open	false	57		2015-10-20T22:54:04Z	2016-08-01T16:52:49Z		"detect ""full-icu"" module"	95		
@@ -326,7 +326,7 @@
 4595	275871	false	open	false	16		2016-01-08T21:53:20Z	2017-05-30T22:00:30Z		[rfc] module: change load order	235		
 4598	2512748	true	closed	false	19		2016-01-09T01:38:11Z	2016-12-29T18:32:01Z	2016-01-27T15:11:30Z	child_process: add shell option to spawn()	41		
 4601	5688	true	closed	false	13		2016-01-09T20:16:23Z	2017-02-28T23:03:48Z	2017-02-28T23:03:48Z	doc: improve options.stdio section for child_process.spawn()	177		
-4603	10532611	false	open	false	49		2016-01-10T01:04:31Z	2017-07-07T22:22:48Z		Allow multiple installs of Node on Windows with msi	118		
+4603	10532611	false	open	false	50		2016-01-10T01:04:31Z	2017-07-08T02:46:23Z		Allow multiple installs of Node on Windows with msi	118		
 4607	718899	false	open	false	26		2016-01-10T05:25:12Z	2017-05-30T04:24:59Z		TODO comments in Makefile* and configure	202		
 4629	1084056	true	closed	false	25	0	2016-01-11T21:36:45Z	2016-09-01T17:30:50Z	2016-09-01T17:30:50Z	test: fix `fs-watch-recursive` flakiness	47	1084056	2016-09-01T17:30:50Z
 4630	10704816	true	closed	false	13	1	2016-01-11T22:32:27Z	2016-06-29T14:12:03Z	2016-06-29T14:12:03Z	tools: add missing headers	16		
@@ -614,7 +614,7 @@
 6533	54666	true	closed	false			2016-05-02T21:15:42Z	2017-01-12T18:22:24Z	2016-12-29T19:28:32Z	http: server code refactor	619		2016-12-29T19:28:32Z
 6543	568962	false	closed	false	20		2016-05-03T08:01:47Z	2017-05-30T04:51:51Z	2017-05-30T04:51:51Z	discuss: tool to simplify landing of PR	208		
 6550	782880	true	closed	false	12		2016-05-03T19:33:57Z	2016-08-26T19:55:00Z	2016-05-04T15:37:15Z	Upgrade to openssl 102h for master	124		
-6554	26678	false	closed	false	9		2016-05-03T20:53:58Z	2017-07-07T23:28:54Z	2017-07-07T23:28:54Z	Return 501 (Not Implemented) for invalid request methods	65		
+6554	26678	false	closed	false	9		2016-05-03T20:53:58Z	2017-07-08T02:20:25Z	2017-07-07T23:28:54Z	Return 501 (Not Implemented) for invalid request methods	65		
 6558	238531	true	closed	false	16		2016-05-04T03:12:57Z	2017-06-12T13:24:06Z	2016-05-04T19:30:16Z	Support ASLR in v8's profiler	39		
 6566	677994	true	closed	false	4		2016-05-04T11:51:18Z	2016-07-05T14:13:51Z	2016-07-05T14:13:50Z	util: improve perf for format	149		
 6569	5165527	true	open	false	32		2016-05-04T15:42:43Z	2016-12-30T21:51:41Z		Openssl clientcertengine support2	79		
@@ -3901,7 +3901,7 @@
 10399	1538624	true	open	false	12		2016-12-21T23:07:22Z	2017-01-19T19:37:10Z		More URLSearchParams improvements	380		
 10400	289174	true	closed	false	2		2016-12-21T23:09:28Z	2017-01-23T01:56:36Z	2016-12-22T15:38:43Z	async_wrap: clear destroy_ids vector	73		
 10401	289174	true	closed	false	7	1	2016-12-21T23:53:10Z	2017-01-20T21:13:04Z	2017-01-20T21:13:04Z	url: check MaybeLocal return value	97		
-10402	983798	false	open	false	5		2016-12-22T00:47:08Z	2016-12-25T12:39:29Z		Windows installer can corrupt its npm installation	347		
+10402	983798	false	closed	false	5		2016-12-22T00:47:08Z	2017-07-08T02:58:30Z	2017-07-08T02:58:30Z	Windows installer can corrupt its npm installation	347		
 10403	495647	true	closed	false	8	0	2016-12-22T01:04:46Z	2017-05-26T19:09:08Z	2017-05-26T19:09:08Z	build: revert to pretty-print by default	525		
 10404	718899	true	closed	false	4	0	2016-12-22T01:57:55Z	2016-12-24T04:44:11Z	2016-12-24T04:44:11Z	test: fix flaky test-https-timeout	79		
 10405	45469	true	open	false	33		2016-12-22T03:36:12Z	2017-03-22T22:10:23Z		src: make `global` non-enumerable	119		
@@ -7623,4 +7623,4 @@
 14126	1025559	true	open	false	1		2017-07-07T16:23:20Z	2017-07-07T18:03:21Z		doc: fix mistake in http.md	46		
 14127	718899	true	open	false	0	0	2017-07-07T20:48:56Z	2017-07-07T20:48:56Z		doc: correct stream Duplex allowHalfOpen doc	52		
 14128	96947	false	open	false	0		2017-07-07T21:37:01Z	2017-07-07T21:37:01Z		test: flaky - parallel/test-pipe-stream	67		
-14129	20067414	false	open	false	0		2017-07-08T00:36:39Z	2017-07-08T00:36:39Z		when will http2 arrive?	21		
+14129	20067414	false	open	false	0		2017-07-08T00:36:39Z	2017-07-08T02:59:02Z		when will http2 arrive?	21		
