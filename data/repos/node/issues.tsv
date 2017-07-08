@@ -208,7 +208,7 @@
 3402	595361	false	closed	false	202		2015-10-16T12:45:59Z	2016-12-04T15:34:28Z	2016-04-27T02:45:38Z	Don't resolve symlinks when requiring	120		
 3403	413206	false	closed	false	6		2015-10-16T13:27:40Z	2017-07-07T23:10:25Z	2017-07-07T23:10:25Z	Suggestion: stream.read(buffer, offset, length, callback)	211		
 3410	6677095	true	closed	false			2015-10-16T20:54:30Z	2016-09-23T13:18:56Z	2015-11-24T21:09:22Z	src: added big-endian check and support to UTF-16 encode	25		
-3429	367936	false	open	false	29		2015-10-18T21:34:29Z	2017-07-08T02:20:00Z		Very slow child_process.spawn stdout stream performance on Mac OS X 10.9 – 10.11	505		
+3429	367936	false	open	false	31		2015-10-18T21:34:29Z	2017-07-08T03:03:31Z		Very slow child_process.spawn stdout stream performance on Mac OS X 10.9 – 10.11	505		
 3431	1145335	false	closed	false	24		2015-10-19T07:06:43Z	2017-06-08T14:25:30Z	2015-10-20T03:03:33Z	Can not install nodejs 4 on Windows 7 64-bit	66		
 3449	333455	false	closed	false	14		2015-10-20T13:20:15Z	2017-01-09T14:20:29Z	2015-11-26T03:16:10Z	is it a bug? setting up process.env.TZ depends on order of execution.	54		
 3460	855219	false	open	false	57		2015-10-20T22:54:04Z	2016-08-01T16:52:49Z		"detect ""full-icu"" module"	95		
@@ -677,7 +677,7 @@
 6803	413206	false	closed	false	14		2016-05-17T08:34:13Z	2017-04-16T00:22:42Z	2017-04-16T00:22:42Z	child_process.exec() fails with spaces in absolute or relative path to binary file	77		
 6804	52195	true	closed	false	33		2016-05-17T10:55:16Z	2016-07-12T17:31:26Z	2016-05-26T09:29:32Z	dgram: copy the array when using the list variant in send()	96		
 6806	317464	false	closed	false	20		2016-05-17T11:57:39Z	2017-05-30T04:55:43Z	2017-05-30T04:55:42Z	uv: let's discuss the backport policy for LTS	99		
-6815	766594	false	open	false	2		2016-05-17T16:43:06Z	2017-07-07T23:06:42Z		Next/Back buttons move around in Windows installer	49		
+6815	766594	false	closed	false	3		2016-05-17T16:43:06Z	2017-07-08T03:40:40Z	2017-07-08T03:40:40Z	Next/Back buttons move around in Windows installer	49		
 6816	1093990	true	closed	false	69		2016-05-17T17:00:53Z	2016-08-10T22:32:38Z	2016-08-10T22:32:38Z	tty: set the handle to blocking mode	79		
 6821	498775	false	open	false	22		2016-05-17T22:23:23Z	2017-04-27T18:34:47Z		Update Readme section on verifying signatures	91		
 6825	767105	true	closed	false	24		2016-05-18T00:46:45Z	2016-07-12T00:04:31Z	2016-07-01T17:04:26Z	Doc: Adding guide on Timers	28		
@@ -812,7 +812,7 @@
 7191	20188	false	closed	false	10		2016-06-07T11:22:23Z	2017-05-30T07:19:13Z	2017-05-30T07:19:13Z	many small writes to a stream causes memory leak	239		
 7192	791134	false	closed	false	13		2016-06-07T12:49:41Z	2016-08-12T11:14:32Z	2016-08-12T11:14:32Z	Windows standard user cannot run any node 6 js file on mapped path	170		
 7193	5140254	false	closed	false	2		2016-06-07T13:13:34Z	2016-07-26T08:46:00Z	2016-07-26T08:46:00Z	VCS Files With Colons Cause Errors Trying To Install	444		
-7196	4303	false	open	false	8		2016-06-07T17:27:04Z	2016-07-05T15:42:22Z		Exposing more isXyz helpers through node_util.cc.	56		
+7196	4303	false	closed	false	8		2016-06-07T17:27:04Z	2017-07-08T03:22:24Z	2017-07-08T03:22:24Z	Exposing more isXyz helpers through node_util.cc.	57		
 7197	718899	false	closed	false	36		2016-06-07T17:40:22Z	2016-08-05T22:05:09Z	2016-07-26T06:11:13Z	governance: add new collaborators XIV	46		
 7199	17978	false	closed	false	2		2016-06-07T18:30:22Z	2016-10-26T22:53:46Z	2016-10-26T22:53:46Z	fs.open/fs.openSync in node v0.10.x can not propagate ENFILE errors	72		
 7200	115237	false	closed	false	7		2016-06-07T18:45:16Z	2016-11-01T18:06:23Z	2016-11-01T18:06:23Z	net: EADDRINUSE when binding both IPv4 and IPv6 all addresses on Linux	91		
@@ -865,7 +865,7 @@
 7301	2146400	false	closed	false	4		2016-06-15T02:49:06Z	2017-07-07T23:42:32Z	2017-07-07T23:42:32Z	Using the http module under certain network settings blocks fs	155		
 7303	79017	true	open	false	10		2016-06-15T06:12:36Z	2016-07-01T00:04:50Z		Fix segfault during GC #5900 (4.x)	272		
 7305	5736558	false	closed	false	1		2016-06-15T10:34:40Z	2017-03-04T00:27:47Z	2016-07-05T14:52:48Z	util.inspect multiline output length limit should be configurable	67		
-7306	15724278	false	open	false	1		2016-06-15T10:50:38Z	2016-06-30T14:42:38Z		http: different behavoiur on different platforms when running loopback test (if server ends response before client sends all the data)	97		
+7306	15724278	false	open	false	1		2016-06-15T10:50:38Z	2017-07-08T03:17:56Z		http: different behavoiur on different platforms when running loopback test (if server ends response before client sends all the data)	97		
 7307	495647	false	closed	false	9		2016-06-15T11:43:27Z	2016-07-03T03:51:57Z	2016-07-03T03:51:57Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-06-15	409		
 7309	2512748	true	closed	false	3		2016-06-15T14:12:24Z	2016-07-12T00:34:44Z	2016-06-17T18:57:18Z	doc: fix cluster worker 'message' event	53		
 7310	54666	true	closed	false	21		2016-06-15T16:48:03Z	2016-07-14T12:02:20Z	2016-06-24T03:52:12Z	string_decoder: fix bad utf8 character handling	78		
@@ -897,6 +897,7 @@
 7366	495647	false	closed	false	12		2016-06-22T14:09:53Z	2016-07-03T03:51:58Z	2016-07-03T03:51:58Z	Node.js Foundation Core Technical Committee (CTC) Meeting 2016-06-22	394		
 7367	9932290	false	closed	false	17		2016-06-22T14:17:16Z	2016-08-09T15:42:06Z	2016-08-09T10:40:58Z	child_process.spawn fails on Windows given a space in both the command and an argument	87		
 7369	15952	true	closed	false	14		2016-06-22T17:13:34Z	2016-07-12T13:53:37Z	2016-06-27T21:51:39Z	repl: Enable tab completion for global properties when useGlobal is false	99		
+7371	224636	false	open	false	6		2016-06-22T19:53:09Z	2017-07-08T03:06:59Z		Make uninstaller for Mac	60		
 7372	718899	false	closed	false	0		2016-06-22T21:30:00Z	2017-04-03T07:44:38Z	2017-04-03T07:44:38Z	repl: exponentiation operator SyntaxError swallowed	39		
 7373	899444	true	closed	false	11		2016-06-22T21:56:07Z	2016-07-11T23:48:06Z	2016-06-25T03:58:34Z	vm: fix nested timeouts with inverse order + fix flaky test-vm-timeout	126		
 7374	275871	true	closed	false	6		2016-06-22T22:33:09Z	2016-07-11T21:17:56Z	2016-06-29T10:23:11Z	Coverity fixes, round one	7		
@@ -922,6 +923,7 @@
 7397	572969	false	closed	false	6		2016-06-24T02:50:55Z	2016-06-30T11:04:20Z	2016-06-30T11:04:20Z	Eval and vm module with custom errors	342		
 7398	899444	true	closed	false	5		2016-06-24T03:53:24Z	2016-07-11T21:18:32Z	2016-06-30T11:04:05Z	vm: don't print out arrow message for custom error	78		
 7399	718899	true	closed	false	10		2016-06-24T05:16:00Z	2016-07-01T00:36:33Z	2016-06-30T23:21:37Z	child_process: validate fork/execFile arguments	123		
+7400	238531	false	open	false	18		2016-06-24T05:29:20Z	2017-07-08T03:14:47Z		`-flto` on clang/gcc?	47		
 7401	1935767	false	closed	false	8		2016-06-24T10:03:04Z	2016-08-01T23:56:13Z	2016-08-01T23:56:13Z	punycode: remove the module system detection from punycode.js	117		
 7404	1093990	true	open	false	11		2016-06-24T12:46:48Z	2016-07-18T09:59:02Z		test: add tests for ensuring proper timer delays	122		
 7406	9373002	false	open	false	6		2016-06-24T14:57:03Z	2016-06-27T16:16:51Z		parallel/test-https-connect-address-family and parallel/test-tls-connect-address-family failures	105		
@@ -948,6 +950,7 @@
 7432	8747500	false	closed	false	2		2016-06-27T03:14:25Z	2016-06-29T00:55:24Z	2016-06-27T03:17:15Z	I have a problem for the n	79		
 7434	1277095	false	closed	false	15		2016-06-27T09:44:19Z	2016-07-04T18:11:36Z	2016-07-04T14:51:40Z	"process.argv[0] contains full node.exe path on Windows, docs say it must be just ""node"""	85		
 7435	1106823	false	open	false	2		2016-06-27T10:50:45Z	2016-06-27T18:36:08Z		HTTP UPGRADE request not triggering for FireFox Client	164		
+7436	5595819	false	closed	false	5		2016-06-27T12:22:27Z	2017-07-08T03:11:50Z	2017-07-08T03:11:50Z	why not emit the 'finish' event after http connection closed?	85		
 7437	3899684	true	closed	false	3		2016-06-27T12:42:10Z	2017-03-01T01:33:14Z	2017-03-01T01:33:14Z	build: adds configure flag notargettype	121		
 7438	1906839	false	closed	false	3		2016-06-27T13:19:01Z	2016-06-27T15:44:43Z	2016-06-27T13:23:47Z	EPERM: operation not permitted, stat WINDOWS	159		
 7440	3899684	true	open	false	20		2016-06-27T13:42:35Z	2017-04-10T14:20:46Z		Replace gyp, node-gyp for addons by adding compiler abstraction	1597		
@@ -976,7 +979,7 @@
 7466	718899	true	closed	false	5		2016-06-28T23:59:42Z	2016-07-01T04:59:14Z	2016-07-01T04:59:14Z	doc: improve usage of `zero`/`0`	38		
 7467	718899	true	closed	false	9		2016-06-29T00:17:10Z	2016-07-01T05:47:40Z	2016-07-01T05:47:40Z	test: remove common.PORT from http tests	41		
 7468	613320	false	closed	false	2		2016-06-29T00:26:53Z	2016-06-29T08:57:35Z	2016-06-29T00:56:31Z	Domains appear to be broken in NodeJS 4 and 6.	218		
-7469	6628505	false	open	false	7		2016-06-29T04:26:38Z	2016-06-29T16:43:01Z		request - fs support for OS X package option on directories	33		
+7469	6628505	false	closed	false	8		2016-06-29T04:26:38Z	2017-07-08T03:15:47Z	2017-07-08T03:15:46Z	request - fs support for OS X package option on directories	24		
 7471	6098160	true	closed	false	7		2016-06-29T08:22:09Z	2016-08-18T22:58:29Z	2016-08-18T22:58:29Z	configure: reword help for --without-npm	28		
 7472	8008055	false	open	false	0		2016-06-29T08:50:14Z	2016-06-29T08:50:14Z		Two-dimensional array v8 optimization trouble	142		
 7473	783424	false	closed	false	4		2016-06-29T09:03:08Z	2016-06-29T19:05:56Z	2016-06-29T19:05:55Z	process.stdin.on('end', function(){}); After use chroot, the event can't be triggered in nodejs v4.4.6 LTS	216		
@@ -1015,7 +1018,7 @@
 7506	3967972	true	closed	false	9		2016-07-01T08:38:36Z	2016-08-30T18:58:46Z	2016-07-14T18:27:14Z	doc: clarify 'change' in fs.watch and FSWatcher	52		
 7507	3899684	true	closed	false	10		2016-07-01T10:03:47Z	2016-07-05T18:13:24Z	2016-07-05T18:13:24Z	backport 4747, rename .markdown	50		
 7508	6447530	true	closed	false	12		2016-07-01T10:53:28Z	2016-07-14T21:31:47Z	2016-07-05T14:45:54Z	build: enable big toc for release builds in AIX	102		
-7509	3899684	false	open	false	3		2016-07-01T12:04:34Z	2016-07-04T13:25:08Z		"doc: search engine visibility for ""node guide"" pointing to outdated third party sites"	107		
+7509	3899684	false	closed	false	3		2016-07-01T12:04:34Z	2017-07-08T03:21:16Z	2017-07-08T03:21:16Z	"doc: search engine visibility for ""node guide"" pointing to outdated third party sites"	88		
 7510	1340074	false	closed	false	3		2016-07-01T15:49:46Z	2016-07-01T16:21:55Z	2016-07-01T16:21:55Z	build system: Unable to `make` due filename limits in `ecryptfs`	113		
 7511	432351	true	open	false	4		2016-07-01T15:54:46Z	2016-08-18T22:55:11Z		src: remove unnecessary static_cast in tcp_wrap.cc	62		
 7512	1084056	false	closed	false	3		2016-07-01T18:59:39Z	2016-08-20T10:26:00Z	2016-08-20T10:26:00Z	Issue passing file descriptors in OS X	299		
@@ -1094,7 +1097,7 @@
 7585	11701553	false	closed	false	6		2016-07-07T14:59:40Z	2016-08-02T14:10:42Z	2016-07-07T15:04:57Z	order of processing event on linux is different from osx and win	98		
 7586	195826	true	closed	false	7		2016-07-07T15:22:27Z	2016-07-08T12:16:56Z	2016-07-08T08:44:10Z	deps: Add a way to create a function without a prototype	51		
 7587	2512748	true	closed	false	8		2016-07-07T15:24:43Z	2016-07-12T13:26:50Z	2016-07-08T16:03:38Z	src: suppress coverity message	88		
-7588	330102	false	open	false	5		2016-07-07T17:00:28Z	2016-07-09T07:03:00Z		Feature request: passing headers to response.writeContinue()	57		
+7588	330102	false	closed	false	5		2016-07-07T17:00:28Z	2017-07-08T03:25:29Z	2017-07-08T03:25:29Z	Feature request: passing headers to response.writeContinue()	57		
 7589	1622515	true	closed	false	8	0	2016-07-07T18:12:20Z	2016-07-27T15:59:01Z	2016-07-27T15:59:01Z	repl: Use displayErrors for SyntaxError	99		
 7590	965036	true	closed	false	10		2016-07-07T18:40:04Z	2016-07-18T13:33:57Z	2016-07-18T13:33:57Z	doc: removed old git conflict markers form fs.md	41		
 7591	3310013	false	closed	false	3		2016-07-07T18:58:29Z	2016-07-13T19:11:28Z	2016-07-13T19:11:28Z	Buffer's indexOf does not seem to handle numbers correctly	178		
@@ -1115,7 +1118,7 @@
 7606	4221569	false	closed	false	1		2016-07-08T06:37:18Z	2016-07-08T07:26:27Z	2016-07-08T07:26:26Z	'process.stdout cannot be closed': process.stdout should behave like a standard stream	111		
 7607	495647	false	closed	false	9		2016-07-08T08:21:44Z	2016-08-03T22:39:14Z	2016-08-03T22:39:13Z	CTC membership nomination: @addaleax	293		
 7608	18708370	false	closed	false	8		2016-07-08T09:46:39Z	2016-08-12T03:59:59Z	2016-07-08T12:45:45Z	Windows Node 6.3.0 binary exports SSL symbols	127		
-7609	275871	false	open	false	3		2016-07-08T10:24:57Z	2016-07-11T13:43:10Z		test: two unexpected failures when disk is nearly full	135		
+7609	275871	false	open	false	3		2016-07-08T10:24:57Z	2017-07-08T03:27:15Z		test: two unexpected failures when disk is nearly full	135		
 7610	275871	true	closed	false	15		2016-07-08T10:49:38Z	2016-10-20T12:00:56Z	2016-07-11T21:17:23Z	src: disable stdio buffering	100		
 7611	899444	true	closed	false	4		2016-07-08T11:04:44Z	2016-09-09T10:44:17Z	2016-07-13T19:10:52Z	test,doc: clarify `buf.indexOf(num)` input range	71		
 7612	275871	true	closed	false	6		2016-07-08T11:15:21Z	2016-07-19T12:39:41Z	2016-07-18T09:00:27Z	deps: cherry-pick 1f53e42 from v8 upstream	64		
@@ -1127,7 +1130,7 @@
 7618	15943089	false	closed	false	18		2016-07-08T14:43:38Z	2016-10-04T08:29:31Z	2016-10-04T08:29:31Z	osx, build: Node v6.3.0 won't build on Clang 3.2 (OSX 10.8 Darwin 12.5.0)	246		
 7619	15952	false	open	false	17		2016-07-08T14:51:25Z	2016-08-01T15:08:18Z		repl: Undocumented public methods on REPLServer.prototype	302		
 7620	696611	true	closed	false	4		2016-07-08T15:16:20Z	2016-09-09T04:00:11Z	2016-07-12T04:16:28Z	Fix py errors	91		
-7621	10833345	false	open	false	1		2016-07-08T16:28:55Z	2016-07-11T11:24:24Z		Cannot install Node.js 4.47 LTS under Win7 x64.	122		
+7621	10833345	false	closed	false	2		2016-07-08T16:28:55Z	2017-07-08T03:26:02Z	2017-07-08T03:26:02Z	Cannot install Node.js 4.47 LTS under Win7 x64.	122		
 7622	15952	true	closed	false	0		2016-07-08T17:25:56Z	2016-09-21T21:19:20Z	2016-09-21T21:19:20Z	repl: Use arrow functions for lexical `this`.	60		
 7623	1832800	false	open	false	12		2016-07-08T20:41:57Z	2017-06-23T13:12:37Z		v8_inspector: improvements for developers	47		
 7624	1622515	true	closed	false	9		2016-07-08T23:21:33Z	2016-07-19T16:07:08Z	2016-07-15T17:45:33Z	repl: Mitigate vm #548 function redefinition issue	128		
@@ -1135,7 +1138,7 @@
 7626	718899	true	closed	false	6		2016-07-08T23:39:54Z	2016-07-12T17:27:15Z	2016-07-12T17:27:15Z	benchmark: fix hanging dgram/array-vs-concat.js	66		
 7627	3397140	false	open	false	13		2016-07-09T00:05:16Z	2016-09-24T17:32:33Z		Get native handle from net.Socket	138		
 7628	237796	true	closed	false	3		2016-07-09T00:39:03Z	2016-09-23T22:59:05Z	2016-09-23T22:59:05Z	test: Fixes test-tick-processor to not hang on Windows	101		
-7629	52195	false	open	false	14		2016-07-09T00:51:48Z	2016-07-11T18:14:43Z		[stream] Make _readableState and _writableState part of the public API	150		
+7629	52195	false	open	false	14		2016-07-09T00:51:48Z	2017-07-08T03:30:12Z		[stream] Make _readableState and _writableState part of the public API	150		
 7630	718899	true	closed	false	13		2016-07-09T02:05:54Z	2016-08-31T00:38:01Z	2016-07-12T17:34:39Z	Brace style linting	49		
 7631	2882139	false	open	false	0		2016-07-09T12:10:06Z	2016-07-09T12:10:06Z		why nodejs not support the raw socket?	30		
 7632	275871	true	closed	false	14		2016-07-09T15:01:20Z	2016-07-15T17:22:08Z	2016-07-11T13:09:56Z	deps: cherry-pick d721121 from v8 upstream	28		
@@ -1178,7 +1181,7 @@
 7669	899444	true	closed	false	3		2016-07-12T02:01:39Z	2016-07-12T17:17:38Z	2016-07-12T17:17:38Z	backport #7345: src: renaming ares_task struct to node_ares_task	4		
 7670	696611	true	closed	false	5		2016-07-12T02:39:06Z	2016-07-13T01:45:04Z	2016-07-13T01:45:04Z	doc: link and highlight Object.assign	32		
 7671	12691693	true	open	false	12		2016-07-12T02:54:30Z	2016-07-21T16:06:23Z		errorMessage: Improvement in the error thrown in case of  writable st…	65		
-7672	7666506	false	open	false	5		2016-07-12T10:33:26Z	2016-07-12T19:54:06Z		.getPeerCertificate() on https.request()	137		
+7672	7666506	false	closed	false	5		2016-07-12T10:33:26Z	2017-07-08T03:31:45Z	2017-07-08T03:31:45Z	.getPeerCertificate() on https.request()	138		
 7673	32837	false	open	false	0		2016-07-12T10:41:09Z	2016-07-12T10:41:09Z		vm writes error stacktrace lines to console once, even if catched	91		
 7674	677994	true	open	false	3		2016-07-12T11:58:12Z	2016-07-13T12:09:21Z		doc: fix util.deprecate() example	39		
 7675	275871	true	open	false	1		2016-07-12T14:06:28Z	2016-07-12T17:05:42Z		src: fix sporadic deadlock in SIGUSR1 handler	9		
@@ -1229,14 +1232,14 @@
 7720	718899	true	closed	false	28		2016-07-13T22:43:45Z	2016-08-01T18:36:30Z	2016-08-01T18:36:30Z	meta: include a minimal CTC removal policy	44		
 7721	6751716	false	open	false	0		2016-07-13T23:12:50Z	2016-07-13T23:12:50Z		Expressjs+ mssql	347		
 7722	3185808	false	closed	false	8		2016-07-14T02:20:46Z	2016-07-29T17:06:54Z	2016-07-29T16:52:40Z	clearTimeout with invalid handle cause program runs longer	127		
-7723	4421371	false	open	false	4		2016-07-14T02:40:07Z	2016-07-15T05:58:24Z		HTTP Module Documentation Missing 'Error' Event	45		
+7723	4421371	false	closed	false	5		2016-07-14T02:40:07Z	2017-07-08T03:34:00Z	2017-07-08T03:34:00Z	HTTP Module Documentation Missing 'Error' Event	45		
 7724	7932813	false	closed	false	2		2016-07-14T06:17:08Z	2016-07-14T07:12:41Z	2016-07-14T06:37:57Z	 Promise.prototype.chain is undefined on osx	39		
 7725	158787	false	closed	false	2		2016-07-14T07:21:13Z	2016-07-14T08:01:59Z	2016-07-14T07:59:27Z	Net socket (telnet) crashes on a larger data	88		
 7726	317464	false	closed	false	54		2016-07-14T07:33:37Z	2016-08-15T15:07:54Z	2016-08-15T15:07:54Z	[meta] realpath issues in v6	307		
 7727	291301	true	closed	false	9		2016-07-14T10:22:20Z	2016-09-06T21:32:49Z	2016-08-04T08:18:50Z	doc: more formatting fixes	161		
 7728	6447530	false	closed	false	7		2016-07-14T10:23:51Z	2017-05-10T02:29:10Z	2017-05-09T16:21:53Z	Inconsistencies with IPv6 endpoint specification across platforms	698		
 7729	291301	true	closed	false	21		2016-07-14T10:50:32Z	2016-11-09T17:11:27Z	2016-08-07T07:49:22Z	tools: add remark-lint configuration in .remarkrc	95		
-7730	7488613	false	open	false	13		2016-07-14T11:32:41Z	2016-07-14T21:32:21Z		Change os.cpus() output to report whether a core is physical or logical	68		
+7730	7488613	false	closed	false	15		2016-07-14T11:32:41Z	2017-07-08T03:32:49Z	2017-07-08T03:32:49Z	Change os.cpus() output to report whether a core is physical or logical	68		
 7731	2034108	false	closed	false	11		2016-07-14T13:41:32Z	2016-07-15T12:07:27Z	2016-07-15T12:07:27Z	failure trying to compile for arm64+android	239		
 7732	1083944	false	open	false	8		2016-07-14T14:44:14Z	2016-07-18T21:09:35Z		http.IncomingMessage omits events when aborted on client side 	273		
 7733	15943089	false	closed	false	4		2016-07-14T15:09:39Z	2017-06-30T20:31:29Z	2016-07-22T10:58:01Z	win: coredumps with --abort-on-uncaught-exception	186		
@@ -4913,7 +4916,7 @@
 11411	1084409	true	open	false	17		2017-02-16T04:28:36Z	2017-02-18T16:49:13Z		net: avoid use of `arguments`	29		
 11412	15943089	false	closed	false	9		2017-02-16T07:00:41Z	2017-04-29T21:26:25Z	2017-04-29T21:26:25Z	Using core.whitespace fix in git	116		
 11413	5876249	true	closed	false	19		2017-02-16T07:17:13Z	2017-02-21T12:21:13Z	2017-02-21T09:32:11Z	fix test-module-loading test case	31		
-11414	5884549	false	closed	false	1		2017-02-16T08:34:03Z	2017-02-16T10:04:10Z	2017-02-16T10:04:10Z	Unhandled 'error' event : ECONNRESET	70		
+11414	5884549	false	closed	false	1		2017-02-16T08:34:03Z	2017-07-08T03:27:22Z	2017-02-16T10:04:10Z	Unhandled 'error' event : ECONNRESET	70		
 11415	11139560	false	closed	false	1		2017-02-16T09:29:03Z	2017-02-16T15:18:04Z	2017-02-16T09:44:15Z	Simple stdout from child process does not always reach parent process	165		
 11416	11979939	true	closed	false	8		2017-02-16T15:24:20Z	2017-03-07T07:09:25Z	2017-02-27T14:39:00Z	test: Run test-setproctitle where setting the process title is supported by libuv	137		
 11417	4923335	true	open	false	20		2017-02-16T15:25:20Z	2017-02-17T17:27:26Z		tools: make js2c.py strip comments from sources	77		
@@ -6786,7 +6789,7 @@
 13287	505333	true	closed	false	4		2017-05-29T19:23:54Z	2017-06-01T21:04:11Z	2017-06-01T21:04:11Z	docs: documenting async hooks features	82		
 13288	10393198	true	closed	false	1		2017-05-29T21:33:53Z	2017-05-31T23:28:04Z	2017-05-31T23:28:04Z	doc: fix code examples in url.md	69		
 13289	28588124	false	closed	false	0		2017-05-30T06:57:16Z	2017-05-30T09:09:25Z	2017-05-30T09:09:25Z	uncaughtException, missing stack	53		
-13290	20768148	false	open	false	2		2017-05-30T07:27:51Z	2017-06-02T20:56:17Z		Your 64-bit installer defaults to Program Files x86	75		
+13290	20768148	false	closed	false	4		2017-05-30T07:27:51Z	2017-07-08T03:18:12Z	2017-07-08T03:18:12Z	Your 64-bit installer defaults to Program Files x86	75		
 13291	25150721	true	closed	false	4		2017-05-30T09:23:35Z	2017-06-20T18:23:00Z	2017-06-20T17:19:58Z	errors,_stream_wrap: change _stream_wrap.js to use internal/errors.js	50		
 13292	3198918	true	closed	false	2	0	2017-05-30T10:41:01Z	2017-05-30T11:07:05Z	2017-05-30T11:07:05Z	deps: http_parser, fix a bug of double content-length checking	98		
 13293	25031476	true	closed	false	4		2017-05-30T11:24:23Z	2017-06-02T18:01:26Z	2017-06-02T18:01:26Z	errors,util: migrate to use internal/errors.js	45		
@@ -7624,3 +7627,4 @@
 14127	718899	true	open	false	0	0	2017-07-07T20:48:56Z	2017-07-07T20:48:56Z		doc: correct stream Duplex allowHalfOpen doc	52		
 14128	96947	false	open	false	0		2017-07-07T21:37:01Z	2017-07-07T21:37:01Z		test: flaky - parallel/test-pipe-stream	67		
 14129	20067414	false	open	false	0		2017-07-08T00:36:39Z	2017-07-08T02:59:02Z		when will http2 arrive?	21		
+14130	12690131	false	open	false	0		2017-07-08T03:39:37Z	2017-07-08T03:39:37Z		AsyncResource Inheritance Bug	51		
