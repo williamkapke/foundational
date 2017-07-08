@@ -438,7 +438,7 @@
 5549	122831	false	closed	false	1		2016-03-03T19:01:31Z	2016-10-12T17:39:50Z	2016-10-12T09:46:25Z	child_process.spawn will either exit or not control stdin when detached and using inherit	556		
 5568	273509	false	open	false	6		2016-03-04T18:28:35Z	2017-05-30T04:34:43Z		OpenSSL Dynamic Linkage Gotchas?	45		
 5573	1127384	true	closed	false	5	1	2016-03-05T16:19:34Z	2016-11-08T21:51:48Z	2016-11-08T21:51:48Z	async_wrap: WIP/Experiment, init/destroy HTTPParser on each use	88		
-5574	532414	false	open	false	17		2016-03-06T00:25:17Z	2016-07-18T12:02:43Z		Losing keystrokes when using tty.ReadStream() over process.stdin	117		
+5574	532414	false	open	false	17		2016-03-06T00:25:17Z	2017-07-08T16:43:12Z		Losing keystrokes when using tty.ReadStream() over process.stdin	117		
 5575	1121997	false	closed	false	5		2016-03-06T09:56:44Z	2016-10-31T19:24:04Z	2016-03-06T10:48:05Z	Flag --harmony_destructuring is no longer working	100		
 5583	17699043	false	closed	false	6		2016-03-07T11:11:51Z	2017-06-08T21:16:32Z	2017-06-08T21:16:32Z	async_wrap: init() called without wrapped pointer being set	130		
 5588	17536109	false	closed	false	13		2016-03-07T13:45:01Z	2016-10-16T17:50:33Z	2016-10-07T08:09:57Z	Assertion failed: (r) == (0), file src\cares_wrap.cc, line 1262	35		
@@ -1294,7 +1294,7 @@
 7782	677994	true	closed	false	24		2016-07-18T12:35:29Z	2016-07-25T10:31:19Z	2016-07-21T22:27:50Z	v6.3.1 Release Proposal	1061		
 7783	8297234	true	closed	false	9		2016-07-18T16:03:33Z	2016-07-27T21:37:34Z	2016-07-27T21:37:34Z	doc: remove platform assumption from CONTRIBUTING	46		
 7784	54666	true	closed	false	8		2016-07-18T16:52:23Z	2016-09-30T16:48:49Z	2016-07-22T21:44:19Z	doc: make general improvements to Buffer docs	70		
-7785	4257305	false	open	false	14		2016-07-18T17:49:08Z	2016-07-19T00:51:30Z		--gdbjit segfaults in semver	61		
+7785	4257305	false	open	false	14		2016-07-18T17:49:08Z	2017-07-08T16:44:47Z		--gdbjit segfaults in semver	61		
 7786	696611	true	closed	false	9		2016-07-18T20:38:36Z	2016-07-22T02:58:53Z	2016-07-22T00:17:19Z	test: make import common as the first line	63		
 7787	10796236	true	closed	false	7		2016-07-18T23:01:46Z	2017-05-26T19:23:45Z	2017-05-26T19:23:45Z	build: add --v8-target-arch and cross compiling options	53		
 7788	4256376	false	closed	false	15		2016-07-19T04:09:35Z	2016-07-21T14:38:09Z	2016-07-21T14:38:09Z	Array and Object have different values in the console and in files	99		
@@ -6975,7 +6975,7 @@
 13473	432351	true	open	false	1		2017-06-05T12:18:42Z	2017-06-08T08:26:35Z		src: make IsConstructCall checks consistent	53		
 13474	52195	true	closed	false	4		2017-06-05T14:48:28Z	2017-06-07T12:04:47Z	2017-06-07T12:04:47Z	fs: replace a bind() with a top-level function	49		
 13475	439929	false	closed	false	7		2017-06-05T15:30:08Z	2017-06-08T12:39:29Z	2017-06-08T12:39:29Z	8.1.0 Tracking Issue	57		
-13476	25031476	true	open	false	3		2017-06-05T16:17:51Z	2017-07-08T06:30:34Z		errors,tls_wrap: migrate to use internal/errors.js	37		
+13476	25031476	true	open	false			2017-06-05T16:17:51Z	2017-07-08T16:51:41Z		errors,tls_wrap: migrate to use internal/errors.js	37		
 13477	1941275	false	closed	false	0		2017-06-05T16:26:31Z	2017-06-16T16:51:01Z	2017-06-16T16:51:01Z	Debugger doesn't listen on IPv6 addresses	44		
 13478	287917	true	closed	false	28		2017-06-05T17:22:58Z	2017-06-19T13:24:04Z	2017-06-16T16:51:01Z	inspector: perform DNS lookup for host	37		
 13479	718899	false	open	false	0		2017-06-05T18:01:11Z	2017-06-05T18:01:11Z		Investigate flaky test addons/symlinked-module/submodule	33		
@@ -7382,7 +7382,7 @@
 13882	96947	false	closed	false	3		2017-06-22T20:31:41Z	2017-06-28T15:50:26Z	2017-06-28T15:50:26Z	build,windows: vcbuild.bat should try to detect location of python.exe	46		
 13883	899444	true	open	false			2017-06-22T21:00:03Z	2017-07-06T22:41:26Z		test: add non-internet resolveAny tests	55		
 13884	29643950	false	closed	false	4		2017-06-22T23:41:59Z	2017-06-24T09:26:29Z	2017-06-24T09:26:29Z	TLS Issue : Wild card server Cert is not accepted by node js 	124		
-13885	567540	true	open	false	4		2017-06-23T02:20:22Z	2017-06-23T16:14:29Z		doc: match debugger output & instructions to master behavior	52		
+13885	567540	true	closed	false	6	13	2017-06-23T02:20:22Z	2017-07-08T16:27:09Z	2017-07-08T16:27:09Z	doc: match debugger output & instructions to master behavior	52		
 13886	718899	true	closed	false	1		2017-06-23T05:00:58Z	2017-06-26T21:58:53Z	2017-06-26T21:58:53Z	test: refactor test-tls-env-extra-ca	43		
 13887	4469502	false	open	false	15		2017-06-23T06:39:31Z	2017-06-27T01:14:26Z		path.posix.resolve, path.posix.relative return wrong path on Windows	27		
 13888	5675531	false	open	false	0		2017-06-23T07:04:39Z	2017-06-23T15:04:26Z		Debug process didn't close after finish debugging with Node 8.1+	29		
@@ -7521,7 +7521,7 @@
 14021	10393198	true	closed	false	8		2017-07-01T05:33:25Z	2017-07-04T09:45:16Z	2017-07-04T09:45:16Z	test: simplify test skipping	79		
 14022	6757283	false	open	false	0		2017-07-01T10:59:33Z	2017-07-01T10:59:33Z		REPL .load multiline arrow function expressions	122		
 14023	5157107	false	open	false	0		2017-07-01T11:17:29Z	2017-07-01T11:17:29Z		Write after end when piping a ClientRequest to ServerResponse	787		
-14024	5157107	true	open	false	4		2017-07-01T11:17:58Z	2017-07-07T13:32:54Z		http: OutgoingMessage change writable after end	72		
+14024	5157107	true	open	false	5		2017-07-01T11:17:58Z	2017-07-08T16:58:20Z		http: OutgoingMessage change writable after end	72		
 14025	1687235	false	closed	false	1		2017-07-01T12:36:26Z	2017-07-01T18:27:18Z	2017-07-01T18:27:18Z	fs.existsSync(brokenSymlink) returns false	38		
 14026	505333	true	closed	false	4	6	2017-07-01T12:39:13Z	2017-07-05T13:54:19Z	2017-07-05T13:54:19Z	async_hooks: fix default nextTick triggerAsyncId	86		
 14027	4600068	true	closed	false	5		2017-07-01T13:43:52Z	2017-07-05T04:42:31Z	2017-07-04T15:59:00Z	doc, util, console: clarify ambiguous docs	64		
@@ -7628,7 +7628,8 @@
 14128	96947	false	open	false	0		2017-07-07T21:37:01Z	2017-07-07T21:37:01Z		test: flaky - parallel/test-pipe-stream	67		
 14129	20067414	false	open	false	0		2017-07-08T00:36:39Z	2017-07-08T02:59:02Z		when will http2 arrive?	21		
 14130	12690131	false	closed	false	7		2017-07-08T03:39:37Z	2017-07-08T15:27:40Z	2017-07-08T09:58:27Z	AsyncResource Inheritance Bug w/ Babel	51		
-14131	718899	true	open	false	6		2017-07-08T06:07:38Z	2017-07-08T13:42:41Z		buffer: remove MAX_SAFE_INTEGER check on length	68		
+14131	718899	true	open	false	7		2017-07-08T06:07:38Z	2017-07-08T16:58:13Z		buffer: remove MAX_SAFE_INTEGER check on length	68		
 14132	275871	true	open	false	0	0	2017-07-08T11:27:57Z	2017-07-08T11:27:57Z		lib: include cached modules in module.children	30		
 14133	718899	false	open	false	2		2017-07-08T14:01:46Z	2017-07-08T15:40:58Z		Investigate flaky test-https-set-timeout-server on Raspberry Pi	60		
 14134	718899	true	open	false	0	0	2017-07-08T16:08:54Z	2017-07-08T16:08:54Z		test: fix flaky test-https-set-timeout-server	86		
+14135	9677399	false	open	false	0		2017-07-08T16:46:36Z	2017-07-08T16:46:36Z		Node install destroyed PATH	47		
