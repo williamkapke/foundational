@@ -329,7 +329,7 @@
 4595	275871	false	open	false	16		2016-01-08T21:53:20Z	2017-05-30T22:00:30Z		[rfc] module: change load order	235		
 4598	2512748	true	closed	false	19		2016-01-09T01:38:11Z	2016-12-29T18:32:01Z	2016-01-27T15:11:30Z	child_process: add shell option to spawn()	41		
 4601	5688	true	closed	false	13		2016-01-09T20:16:23Z	2017-02-28T23:03:48Z	2017-02-28T23:03:48Z	doc: improve options.stdio section for child_process.spawn()	177		
-4603	10532611	false	open	false	51		2016-01-10T01:04:31Z	2017-07-08T07:42:10Z		Allow multiple installs of Node on Windows with msi	118		
+4603	10532611	false	open	false	52		2016-01-10T01:04:31Z	2017-07-09T10:45:22Z		Allow multiple installs of Node on Windows with msi	118		
 4607	718899	false	open	false	26		2016-01-10T05:25:12Z	2017-05-30T04:24:59Z		TODO comments in Makefile* and configure	202		
 4629	1084056	true	closed	false	25	0	2016-01-11T21:36:45Z	2016-09-01T17:30:50Z	2016-09-01T17:30:50Z	test: fix `fs-watch-recursive` flakiness	47	1084056	2016-09-01T17:30:50Z
 4630	10704816	true	closed	false	13	1	2016-01-11T22:32:27Z	2016-06-29T14:12:03Z	2016-06-29T14:12:03Z	tools: add missing headers	16		
@@ -7558,11 +7558,11 @@
 14055	8822573	true	open	false			2017-07-03T13:29:22Z	2017-07-09T03:15:42Z		fs: two minor optimizations	75		
 14056	9433110	false	open	false	0		2017-07-03T13:34:06Z	2017-07-03T13:34:06Z		r	6		
 14057	8822573	true	open	false			2017-07-03T13:36:02Z	2017-07-03T22:18:16Z		internal/errors: improve invalid arg type	53		
-14058	8822573	true	open	false	9		2017-07-03T13:50:55Z	2017-07-05T19:51:18Z		test: refactor expectsError	52		
+14058	8822573	true	open	false	10		2017-07-03T13:50:55Z	2017-07-09T10:15:01Z		test: refactor expectsError	52		
 14059	8822573	true	open	false	7		2017-07-03T14:11:16Z	2017-07-04T15:33:00Z		tools: add quote-props eslint rule 	74		
 14060	505333	false	open	false	7		2017-07-03T14:37:56Z	2017-07-03T21:18:25Z		SIGILL when using abort-on-uncaught-exception	123		
 14061	96947	true	closed	false	3	0	2017-07-03T16:55:41Z	2017-07-05T20:51:34Z	2017-07-05T20:51:34Z	tools: use `error` instead of 2	54	96947	2017-07-05T20:51:34Z
-14062	4624411	true	open	false	10		2017-07-03T17:04:10Z	2017-07-05T18:29:23Z		fixed TLSSocket documentation error from Issue #3963.	50		
+14062	4624411	true	open	false	11		2017-07-03T17:04:10Z	2017-07-09T10:57:07Z		fixed TLSSocket documentation error from Issue #3963.	50		
 14063	2512748	true	closed	false	2	9	2017-07-03T19:09:20Z	2017-07-06T19:29:35Z	2017-07-06T19:29:35Z	n-api: add napi_has_own_property()	41	2512748	2017-07-06T19:29:35Z
 14064	718899	true	closed	false	2	0	2017-07-03T20:24:06Z	2017-07-04T13:53:30Z	2017-07-04T13:53:30Z	lib: fix off-by-one indentation	38		
 14065	718899	true	closed	false	4		2017-07-03T21:02:09Z	2017-07-04T13:58:12Z	2017-07-04T13:58:12Z	test: restore no-op function in test	42		
@@ -7587,7 +7587,7 @@
 14084	2143625	false	closed	false	3		2017-07-05T10:26:58Z	2017-07-05T15:03:16Z	2017-07-05T15:03:16Z	Importing with different casing breaks instanceof checks	168		
 14085	12882743	true	closed	false	7		2017-07-05T12:42:01Z	2017-07-05T18:06:57Z	2017-07-05T18:01:46Z	module: addBuiltinLibsToObject refactoring	107		
 14086	3621643	false	open	false	4		2017-07-05T12:56:31Z	2017-07-07T05:13:36Z		DNS server caching breaks changing networks in runtime	257		
-14087	229425	false	open	false	11		2017-07-05T14:00:58Z	2017-07-09T02:40:47Z		HTTP Client and automatic request retry	99		
+14087	229425	false	open	false	12		2017-07-05T14:00:58Z	2017-07-09T10:26:07Z		HTTP Client and automatic request retry	99		
 14088	8822573	true	open	false	4		2017-07-05T14:56:27Z	2017-07-08T20:15:53Z		test: wrap expectsError in mustCall	89		
 14089	8822573	true	closed	false	5	0	2017-07-05T16:16:56Z	2017-07-08T20:03:56Z	2017-07-08T20:03:56Z	test: add optional throw fn to expectsError	91	96947	2017-07-08T20:03:56Z
 14090	718899	true	closed	false	2		2017-07-05T16:23:50Z	2017-07-07T20:19:23Z	2017-07-07T20:19:23Z	lib: remove excess indentation	46		
@@ -7635,7 +7635,7 @@
 14132	275871	true	open	false	2		2017-07-08T11:27:57Z	2017-07-08T22:51:12Z		lib: include cached modules in module.children	32		
 14133	718899	false	open	false	2		2017-07-08T14:01:46Z	2017-07-08T15:40:58Z		Investigate flaky test-https-set-timeout-server on Raspberry Pi	60		
 14134	718899	true	open	false	2		2017-07-08T16:08:54Z	2017-07-08T18:15:29Z		test: fix flaky test-https-set-timeout-server	86		
-14135	9677399	false	open	false	4		2017-07-08T16:46:36Z	2017-07-09T10:01:58Z		Node install destroyed PATH	47		
+14135	9677399	false	open	false	4		2017-07-08T16:46:36Z	2017-07-09T10:24:49Z		Node install destroyed PATH	47		
 14136	1389947	false	open	false	1		2017-07-08T17:44:53Z	2017-07-08T19:01:58Z		Use a buffer pool for fs.ReadStream to boost performance?	89		
 14137	96947	false	open	false	0		2017-07-08T18:14:59Z	2017-07-08T18:14:59Z		discussion: eslint rule for `/test/` - `no-unused-vars: [error, {args: after-used, caughtErrors: all}]`	176		
 14138	96947	false	open	false	0		2017-07-08T18:40:45Z	2017-07-08T18:40:45Z		n-api: from zzo38 via IRC - `napi_finalize` feedback	80		
