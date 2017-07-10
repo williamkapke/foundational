@@ -1793,7 +1793,7 @@
 8279	156539	false	open	false	11		2016-08-26T09:15:59Z	2016-08-27T13:54:05Z		(node:20446) Warning: Possible EventEmitter memory leak detected. 11 error listeners added. Use emitter.setMaxListeners() to increase limit	42		
 8280	317464	true	closed	false	25	0	2016-08-26T10:00:00Z	2016-10-24T14:50:00Z	2016-10-24T14:50:00Z	[WIP] deps: upgrade libuv to 1.10.0	37		
 8281	1443911	true	closed	false	5		2016-08-26T15:09:18Z	2016-09-30T22:28:15Z	2016-09-12T04:09:58Z	doc: add `added:` information for crypto	27		
-8282	9271155	false	open	false	2		2016-08-26T16:59:30Z	2017-07-10T20:24:56Z		sockets: OutOfBand bytes/packets are not supported	108		
+8282	9271155	false	open	false	4		2016-08-26T16:59:30Z	2017-07-10T21:35:15Z		sockets: OutOfBand bytes/packets are not supported	108		
 8283	439929	true	closed	false	4		2016-08-26T18:40:28Z	2016-09-30T21:54:26Z	2016-08-29T22:25:17Z	test: additional refactoring/cleanup of buffer tests	61		
 8284	20561255	false	closed	false	1		2016-08-26T18:44:56Z	2017-04-30T18:41:14Z	2017-04-30T18:41:14Z	Obsolete workaround in src/util.h	114		
 8285	9373002	true	closed	false	12		2016-08-26T21:15:45Z	2016-09-30T21:52:28Z	2016-08-29T21:00:09Z	build: fix dependencies on AIX	106		
@@ -7245,7 +7245,7 @@
 13741	8822573	true	closed	false	3		2017-06-17T13:34:09Z	2017-07-02T18:47:13Z	2017-06-19T16:19:26Z	lib: fix typos	29		
 13742	899444	true	closed	false	0		2017-06-17T13:37:48Z	2017-06-21T20:23:48Z	2017-06-21T20:23:48Z	doc: mention rebasing of v?.x-staging post release	21		
 13743	8822573	true	closed	false	3		2017-06-17T13:37:51Z	2017-06-22T20:02:25Z	2017-06-22T20:02:25Z	console,internal/errors: improve error perf	88		
-13744	899444	true	open	false	35		2017-06-17T13:47:40Z	2017-07-09T12:58:40Z		v8.2.0 proposal	1732		
+13744	899444	true	open	false	36		2017-06-17T13:47:40Z	2017-07-10T21:17:33Z		v8.2.0 proposal	1732		
 13745	12840387	false	closed	false	2		2017-06-17T13:53:57Z	2017-06-17T16:54:00Z	2017-06-17T15:20:59Z	package.json dependency module from git	69		
 13746	6023090	false	closed	false	3		2017-06-17T14:02:34Z	2017-06-17T19:43:03Z	2017-06-17T19:43:03Z	Should we deprecate OpenSSL,switch to LibreSSL	6		
 13747	3109072	true	closed	false	2		2017-06-17T16:40:03Z	2017-06-20T18:40:50Z	2017-06-20T18:40:50Z	dgram: change parameter name in set(Multicast)TTL	66		
@@ -7492,8 +7492,8 @@
 13988	9373002	true	open	false	4		2017-06-29T15:42:59Z	2017-07-10T16:17:35Z		n-api: add code parameter to error helpers	135		
 13989	134460	true	closed	false	2		2017-06-29T15:48:01Z	2017-06-29T18:07:52Z	2017-06-29T17:56:58Z	test: mark test-fs-readdir-ucs2 flaky	76		
 13990	9373002	true	closed	false	3		2017-06-29T17:09:28Z	2017-07-06T05:18:59Z	2017-07-05T22:42:44Z	test: add coverage for napi_typeof	58		
-13991	289174	true	open	false	5		2017-06-29T21:23:21Z	2017-07-10T20:38:43Z		test: skip whether TTY is availble	48		
-13992	12488060	true	open	false	12		2017-06-29T21:59:14Z	2017-07-10T15:55:56Z		build,test: run v8 tests on windows	122		
+13991	289174	true	open	false	7		2017-06-29T21:23:21Z	2017-07-10T21:04:39Z		test: skip whether TTY is availble	48		
+13992	12488060	true	open	false	13		2017-06-29T21:59:14Z	2017-07-10T21:19:41Z		build,test: run v8 tests on windows	122		
 13993	718899	true	closed	false			2017-06-29T23:23:10Z	2017-07-03T21:02:41Z	2017-07-02T23:45:10Z	test: refactor test-http-hostname-typechecking	45		
 13994	9373002	true	open	false	3		2017-06-29T23:25:16Z	2017-07-10T16:13:12Z		tls: migrate tls.js to use internal/errors.js	97		
 13995	718899	true	closed	false	2	0	2017-06-30T00:18:41Z	2017-06-30T13:08:22Z	2017-06-30T13:08:22Z	(v8.x backport) benchmark,lib,test: use braces for multiline block	42		
@@ -7616,7 +7616,7 @@
 14112	2732639	false	closed	false	3		2017-07-06T20:02:20Z	2017-07-10T11:07:49Z	2017-07-10T11:07:49Z	Build fails when cross compiling for arm7	342		
 14113	7749948	false	closed	false	3		2017-07-06T20:58:05Z	2017-07-07T18:32:33Z	2017-07-07T00:00:38Z	Node.js version 8.1.3 'make test' does not obey LD_LIBRARY_PATH	319		
 14114	5804246	false	closed	false	2		2017-07-06T21:31:06Z	2017-07-07T08:07:41Z	2017-07-07T08:07:41Z	moduleFoo/moduleFoo.js should work same as moduleFoo/Index.js	107		
-14115	17607	false	open	false	0		2017-07-06T21:39:54Z	2017-07-06T21:39:54Z		Windows vcbuild is missing FIPS support, like ./configure --openssl-fips	26		
+14115	17607	false	open	false	2		2017-07-06T21:39:54Z	2017-07-10T21:37:04Z		Windows vcbuild is missing FIPS support, like ./configure --openssl-fips	26		
 14116	931192	true	open	false	3		2017-07-06T23:07:12Z	2017-07-09T17:29:18Z		build: split up cpplint to avoid long cmd lines	44		
 14117	2512748	true	open	false	0		2017-07-06T23:16:38Z	2017-07-10T15:29:25Z		deps: upgrade libuv to 1.13.1	47		
 14118	24845478	false	open	false	2		2017-07-07T02:49:46Z	2017-07-09T17:33:42Z		[DOC] Buffer.from / new Buffer accept Uint8Array (missing)	23		
@@ -7657,9 +7657,9 @@
 14153	9373002	false	open	false	1		2017-07-10T14:20:22Z	2017-07-10T16:13:22Z		CI lockdown for security release.	60		
 14154	96947	true	open	false	3		2017-07-10T15:05:54Z	2017-07-10T16:26:13Z		doc: improve fs.utimes	69		
 14155	718899	true	open	false	0	0	2017-07-10T18:18:35Z	2017-07-10T18:18:35Z		tools: update ESLint to 4.2.0	57		
-14156	96947	false	open	false	0		2017-07-10T18:38:07Z	2017-07-10T18:38:07Z		child_process,Windows: fix docs for `spawn({shell})`	24		
-14157	96947	false	open	false	1		2017-07-10T18:45:09Z	2017-07-10T20:58:42Z		child_process,Windows: deprecate explicit use of `cmd.exe`	59		
+14156	96947	false	open	false	1		2017-07-10T18:38:07Z	2017-07-10T21:09:11Z		child_process,Windows: fix docs for `spawn({shell})`	34		
+14157	96947	false	open	false	2		2017-07-10T18:45:09Z	2017-07-10T21:40:24Z		child_process,Windows: deprecate explicit use of `cmd.exe`	59		
 14158	96947	false	open	false	0		2017-07-10T19:11:09Z	2017-07-10T19:11:09Z		doc: better document `--shared` build	29		
-14159	439929	true	open	false	1		2017-07-10T19:31:26Z	2017-07-10T20:35:57Z		"Revert ""test: common.expectsError should be a must call"""	65		
-14160	1106823	false	open	false	2		2017-07-10T19:52:42Z	2017-07-10T20:11:15Z		ES6 class defined via VM runInNewContext is not accessible	95		
+14159	439929	true	open	false	5		2017-07-10T19:31:26Z	2017-07-10T21:04:22Z		"Revert ""test: common.expectsError should be a must call"""	65		
+14160	1106823	false	open	false	3		2017-07-10T19:52:42Z	2017-07-10T21:39:39Z		ES6 class defined via VM runInNewContext is not accessible	95		
 14161	3109072	false	open	false	0		2017-07-10T20:13:02Z	2017-07-10T20:13:02Z		node_zlib.cc assertion failure	2479		
