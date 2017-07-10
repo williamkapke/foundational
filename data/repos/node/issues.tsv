@@ -93,7 +93,7 @@
 2126	122831	false	open	false	8		2015-07-07T21:10:41Z	2017-04-14T21:44:39Z		SNICallback callback doesn't throw an error with invalid input	78		
 2133	829734	true	closed	false	153		2015-07-08T12:31:57Z	2017-05-21T17:53:55Z	2016-12-11T14:25:53Z	workers: initial implementation	56		
 2138	495647	false	closed	false	24		2015-07-09T00:43:28Z	2016-06-30T05:17:39Z	2016-06-30T05:17:39Z	Process startup time on ARM	248		
-2148	54666	false	closed	false	13		2015-07-09T20:45:50Z	2017-05-30T04:16:04Z	2017-05-30T04:16:04Z	stdout/stderr buffering with TTY	338		
+2148	54666	false	open	false	13		2015-07-09T20:45:50Z	2017-07-10T14:01:09Z		stdout/stderr buffering with TTY	338		
 2198	430233	false	closed	false	11		2015-07-17T09:44:41Z	2017-01-18T05:29:45Z	2015-07-17T09:55:22Z	Cannot find module 'absolute-path'	112		
 2232	1093990	true	closed	false	10		2015-07-24T00:46:36Z	2016-07-07T20:08:56Z	2016-01-11T20:54:45Z	Port from joyent/node: `timers: fix timeout when added in timer's callback`	11		
 2253	234659	true	closed	false	53		2015-07-27T16:53:56Z	2016-08-30T12:56:44Z	2016-05-11T18:52:36Z	ensure preload modules are always preloaded	30		
@@ -4294,7 +4294,7 @@
 10786	3367801	true	closed	false	11	0	2017-01-13T11:25:55Z	2017-03-25T00:17:36Z	2017-03-25T00:17:36Z	test: add crypto's setEngine test	70		
 10787	533294	false	closed	false	4		2017-01-13T12:04:43Z	2017-01-17T09:41:44Z	2017-01-17T09:41:44Z	"Documentation for HttpClient ""abort"" and ""aborted"" events mixed up."	215		
 10788	16086197	false	closed	false	1		2017-01-13T14:58:15Z	2017-01-13T15:04:07Z	2017-01-13T15:00:25Z	Array spread operators are slower than its counter part	68		
-10789	54666	true	closed	false	23		2017-01-13T15:07:46Z	2017-07-10T09:04:51Z	2017-03-11T04:50:31Z	module: improve require() performance	285		
+10789	54666	true	closed	false	28		2017-01-13T15:07:46Z	2017-07-10T13:03:39Z	2017-03-11T04:50:31Z	module: improve require() performance	285		
 10790	22550884	true	closed	false	7		2017-01-13T17:27:12Z	2017-03-08T22:56:55Z	2017-01-26T22:23:59Z	test: testing noAssert in buffer.write()	34		
 10791	22550884	true	closed	false	1		2017-01-13T17:52:06Z	2017-01-16T18:34:05Z	2017-01-16T18:34:05Z	test: delete duplicate test of noAssert in readUInt*	27		
 10792	677994	false	closed	false	9		2017-01-13T19:08:05Z	2017-01-24T13:43:12Z	2017-01-24T13:43:12Z	Proposal to move guides to nodejs/nodejs.org	72		
@@ -7525,7 +7525,7 @@
 14021	10393198	true	closed	false	8		2017-07-01T05:33:25Z	2017-07-04T09:45:16Z	2017-07-04T09:45:16Z	test: simplify test skipping	79		
 14022	6757283	false	open	false	0		2017-07-01T10:59:33Z	2017-07-01T10:59:33Z		REPL .load multiline arrow function expressions	122		
 14023	5157107	false	open	false	0		2017-07-01T11:17:29Z	2017-07-10T07:28:37Z		Write after end when piping a ClientRequest to ServerResponse	788		
-14024	5157107	true	open	false	7		2017-07-01T11:17:58Z	2017-07-10T12:13:51Z		http: OutgoingMessage change writable after end	72		
+14024	5157107	true	open	false	8		2017-07-01T11:17:58Z	2017-07-10T13:04:16Z		http: OutgoingMessage change writable after end	72		
 14025	1687235	false	closed	false	1		2017-07-01T12:36:26Z	2017-07-01T18:27:18Z	2017-07-01T18:27:18Z	fs.existsSync(brokenSymlink) returns false	38		
 14026	505333	true	closed	false	4	6	2017-07-01T12:39:13Z	2017-07-05T13:54:19Z	2017-07-05T13:54:19Z	async_hooks: fix default nextTick triggerAsyncId	86		
 14027	4600068	true	closed	false	5		2017-07-01T13:43:52Z	2017-07-05T04:42:31Z	2017-07-04T15:59:00Z	doc, util, console: clarify ambiguous docs	64		
@@ -7555,12 +7555,12 @@
 14051	505333	true	open	false	5		2017-07-03T09:05:16Z	2017-07-10T06:36:46Z		async_hooks: simplify fatalError	55		
 14052	815988	true	closed	false	6		2017-07-03T09:55:58Z	2017-07-05T11:14:31Z	2017-07-05T11:14:31Z	benchmark: Improve event performance tests.	79		
 14053	275871	true	closed	false	2	1	2017-07-03T10:18:17Z	2017-07-05T14:54:46Z	2017-07-05T14:54:46Z	Fix napi warnings	15		
-14054	8822573	true	open	false	15		2017-07-03T12:28:38Z	2017-07-10T12:02:55Z		async_hooks: move statement	86		
+14054	8822573	true	open	false			2017-07-03T12:28:38Z	2017-07-10T13:31:17Z		async_hooks: move statement	86		
 14055	8822573	true	closed	false	1	13	2017-07-03T13:29:22Z	2017-07-09T17:43:09Z	2017-07-09T17:43:09Z	fs: two minor optimizations	75	96947	2017-07-09T17:43:09Z
 14056	9433110	false	open	false	0		2017-07-03T13:34:06Z	2017-07-03T13:34:06Z		r	6		
 14057	8822573	true	open	false			2017-07-03T13:36:02Z	2017-07-03T22:18:16Z		internal/errors: improve invalid arg type	53		
 14058	8822573	true	open	false	14		2017-07-03T13:50:55Z	2017-07-09T22:19:03Z		test: refactor expectsError	52		
-14059	8822573	true	open	false	13		2017-07-03T14:11:16Z	2017-07-10T12:21:27Z		tools: add quote-props eslint rule 	74		
+14059	8822573	true	open	false	15		2017-07-03T14:11:16Z	2017-07-10T13:36:12Z		tools: add quote-props eslint rule 	74		
 14060	505333	false	open	false	7		2017-07-03T14:37:56Z	2017-07-03T21:18:25Z		SIGILL when using abort-on-uncaught-exception	123		
 14061	96947	true	closed	false	3	0	2017-07-03T16:55:41Z	2017-07-05T20:51:34Z	2017-07-05T20:51:34Z	tools: use `error` instead of 2	54	96947	2017-07-05T20:51:34Z
 14062	4624411	true	open	false	11		2017-07-03T17:04:10Z	2017-07-09T10:57:07Z		fixed TLSSocket documentation error from Issue #3963.	50		
@@ -7641,16 +7641,16 @@
 14137	96947	false	open	false	0		2017-07-08T18:14:59Z	2017-07-08T18:14:59Z		discussion: eslint rule for `/test/` - `no-unused-vars: [error, {args: after-used, caughtErrors: all}]`	176		
 14138	96947	false	open	false	0		2017-07-08T18:40:45Z	2017-07-08T18:40:45Z		n-api: from zzo38 via IRC - `napi_finalize` feedback	80		
 14139	96947	false	open	false	2		2017-07-08T18:48:34Z	2017-07-10T11:38:38Z		"V8: from zzo38 via IRC - ""external"" value internalized"	68		
-14140	588262	true	open	false			2017-07-08T22:55:55Z	2017-07-10T10:32:32Z		cluster: overriding inspector port	125		
+14140	588262	true	open	false			2017-07-08T22:55:55Z	2017-07-10T13:14:51Z		cluster: overriding inspector port	125		
 14141	96947	false	closed	false	3		2017-07-09T03:23:18Z	2017-07-09T17:10:03Z	2017-07-09T17:10:02Z	test: new flakiness in test-process-kill-null.js	37		
 14142	96947	true	closed	false	1	0	2017-07-09T03:51:33Z	2017-07-09T17:10:03Z	2017-07-09T17:10:03Z	Temp revert 44483b6	36	96947	2017-07-09T17:10:02Z
-14143	505333	true	open	false	0		2017-07-09T12:17:46Z	2017-07-10T12:07:32Z		async_hooks: fix nested hooks mutation	55		
+14143	505333	true	open	false	1		2017-07-09T12:17:46Z	2017-07-10T13:05:06Z		async_hooks: fix nested hooks mutation	55		
 14144	96947	false	open	false	0		2017-07-09T12:26:45Z	2017-07-09T12:26:45Z		test: cctest flakiness on Windows - loops forever	103		
 14145	29809419	false	open	false	0		2017-07-09T15:07:04Z	2017-07-09T15:07:04Z		error in destructuring assignment if no semi colon	85		
 14146	193170	false	open	false	0		2017-07-09T18:46:19Z	2017-07-10T08:15:43Z		HttpServerResponse.setDefaultEncoding()	63		
 14147	8822573	true	open	false	0		2017-07-09T19:32:12Z	2017-07-09T22:30:11Z		benchmark: fix and extend assert benchmarks	68		
 14148	8822573	true	open	false	1		2017-07-09T19:57:39Z	2017-07-10T11:13:28Z		test: improve the test common documentation	52		
-14149	718899	true	open	false	0	0	2017-07-09T20:06:03Z	2017-07-09T20:06:03Z		child_process: refactor normalizeSpawnArguments()	71		
+14149	718899	true	open	false	0		2017-07-09T20:06:03Z	2017-07-10T13:41:27Z		child_process: refactor normalizeSpawnArguments()	71		
 14150	26047023	true	open	false	0	0	2017-07-09T20:10:00Z	2017-07-09T20:10:00Z		doc: fix doc:Error:captureStackTrace description	59		
 14151	1538624	true	open	false	0	0	2017-07-10T06:08:15Z	2017-07-10T06:08:15Z		querystring: fix up lastPos usage	62		
-14152	505333	true	open	false	0	0	2017-07-10T12:38:49Z	2017-07-10T12:38:49Z		Async hooks rename	65		
+14152	505333	true	open	false			2017-07-10T12:38:49Z	2017-07-10T14:07:26Z		Async hooks rename	69		
