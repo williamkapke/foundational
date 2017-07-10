@@ -28,7 +28,7 @@
 831	2993861	false	closed	false	16		2015-02-13T14:18:23Z	2017-02-15T20:31:40Z	2017-02-15T20:31:40Z	`console` should be safe	60		
 854	172	false	closed	false	73		2015-02-15T19:37:43Z	2017-06-08T18:05:30Z	2017-06-07T13:36:24Z	os x: FSEventStreamFlushSync assertions logged to console	100		
 855	617481	false	open	false	16		2015-02-15T21:57:32Z	2017-05-30T03:56:28Z		vm: references to context inside objects are not === the original context	59		
-859	218257	false	closed	false	7		2015-02-16T18:18:54Z	2017-07-09T15:35:38Z	2017-07-09T15:35:38Z	windows: install header files required for compiled addons	31		
+859	218257	false	closed	false	8		2015-02-16T18:18:54Z	2017-07-10T10:53:04Z	2017-07-09T15:35:38Z	windows: install header files required for compiled addons	31		
 862	17607	false	closed	false	8		2015-02-17T05:55:09Z	2016-09-07T13:55:17Z	2015-05-06T21:14:16Z	spawn's stdio can result in stderr being closed in child	158		
 894	7220484	false	closed	false	26		2015-02-19T16:50:29Z	2017-05-18T21:14:20Z	2017-05-18T21:14:20Z	dns.setServers() crash	113		
 906	115237	false	open	false	35		2015-02-20T18:06:56Z	2017-02-02T20:26:12Z		net: enable TCP_NODELAY by default on all platforms	32		
@@ -82,7 +82,7 @@
 1924	474017	false	closed	false	18		2015-06-09T14:12:21Z	2017-01-25T17:35:43Z	2016-09-26T09:04:21Z	Not closing all connections.	188		
 1941	9287	false	closed	false	36		2015-06-10T19:01:17Z	2017-05-17T12:27:18Z	2015-07-01T18:55:20Z	Handling EMFILE/ENFILE on fs.open	562		
 1999	2128182	false	open	false	6		2015-06-17T08:54:39Z	2017-04-17T18:21:59Z		Improve Path.parse / Path.format combo	210		
-2006	370343	false	open	false	21		2015-06-18T02:59:06Z	2017-07-07T23:05:45Z		Closing fs streams early could call close during or before I/O	138		
+2006	370343	false	open	false	22		2015-06-18T02:59:06Z	2017-07-10T10:45:00Z		Closing fs streams early could call close during or before I/O	138		
 2017	122831	false	closed	false	18		2015-06-19T07:26:47Z	2017-07-07T05:57:02Z	2017-07-07T05:57:02Z	NPNProtocols docs need clarification / example	100		
 2021	10974	false	closed	false	8		2015-06-19T17:41:40Z	2017-05-15T17:08:02Z	2015-10-29T22:48:22Z	Win: Request to officially build node.dll with releases	360		
 2025	696611	true	closed	false	6		2015-06-20T20:27:17Z	2016-08-29T23:49:08Z	2015-06-21T03:19:14Z	util: moving internal helpers to internal module	35		
@@ -512,7 +512,7 @@
 6063	7780985	true	closed	false	20		2016-04-05T19:44:10Z	2016-07-11T16:51:08Z	2016-04-26T16:07:07Z	doc, tls: deprecate createSecurePair	141		
 6078	12937885	false	open	false	19		2016-04-06T11:07:12Z	2017-05-14T10:36:43Z		Reduce memory consumption of streams for large amounts of data	515		
 6082	8702326	true	closed	false	14		2016-04-06T18:50:20Z	2017-03-26T23:18:22Z	2017-03-26T23:18:22Z	async_wrap,lib: Firing async-wrap callbacks for next-tick callbacks	373		
-6083	532688	false	open	false	2		2016-04-06T21:55:03Z	2017-07-08T05:08:39Z		TCP socket emitted 'end' event after 'error' event	820		
+6083	532688	false	open	false	3		2016-04-06T21:55:03Z	2017-07-10T10:17:48Z		TCP socket emitted 'end' event after 'error' event	820		
 6085	238531	true	open	false	9		2016-04-06T22:51:09Z	2017-05-11T21:14:24Z		http_outgoing: refactor to use stream.Writable	74		
 6089	195826	false	closed	false	6		2016-04-06T23:21:40Z	2017-01-03T11:34:13Z	2016-04-07T00:47:32Z	Consider moving from gyp to gn	50		
 6102	54666	true	open	false	110		2016-04-07T16:10:47Z	2017-05-16T22:51:30Z		http: don't inherit from Object.prototype	57		
@@ -1888,7 +1888,7 @@
 8374	718899	true	closed	false	4	0	2016-09-01T21:34:19Z	2016-09-05T03:40:26Z	2016-09-05T03:40:26Z	doc: update CI content in onboarding doc	33		
 8375	9373002	false	closed	false	53		2016-09-02T00:59:59Z	2016-09-26T14:58:00Z	2016-09-26T14:58:00Z	AIX: parallel/test-stdio-closed	73		
 8376	2081487	false	open	false	1		2016-09-02T04:52:16Z	2016-09-02T05:13:25Z		REPL not defined var has been declared	176		
-8377	1531427	false	open	false	1		2016-09-02T07:13:03Z	2017-07-10T03:57:58Z		Memory leak in DiffieHellman.set{Privat,Public}Key() and some suggestions	348		
+8377	1531427	false	open	false	2		2016-09-02T07:13:03Z	2017-07-10T11:02:22Z		Memory leak in DiffieHellman.set{Privat,Public}Key() and some suggestions	348		
 8378	1443911	true	open	false	1		2016-09-02T10:14:13Z	2016-09-24T21:12:41Z		doc: fix example in stream doc	54		
 8379	914122	false	closed	false	24		2016-09-02T12:46:51Z	2016-10-10T15:57:48Z	2016-10-10T15:57:48Z	Not helpful error message after upgrading Node	136		
 8380	9373002	false	closed	false	11		2016-09-02T12:53:08Z	2016-09-02T19:05:20Z	2016-09-02T19:05:20Z	AIX: parallel/test-cluster-dgram-1 failures	207		
@@ -7623,7 +7623,7 @@
 14119	6447530	false	open	false	0		2017-07-07T03:36:46Z	2017-07-07T13:40:11Z		aix: os.networkInterfaces produces inconsistent output	114		
 14120	1265507	false	closed	false	4		2017-07-07T06:20:07Z	2017-07-08T19:57:48Z	2017-07-08T19:57:48Z	"Improve ""listener"" property lookup in a handler"	88		
 14121	16659510	false	open	false	0		2017-07-07T08:17:13Z	2017-07-07T08:17:13Z		 How do I ensure that the callback function finishes before the end of the process?	98		
-14122	275871	true	open	false	0	0	2017-07-07T13:36:15Z	2017-07-07T13:36:15Z		crypto: fix memory leak, reduce heap allocations, clean up	88		
+14122	275871	true	open	false	0		2017-07-07T13:36:15Z	2017-07-10T11:00:28Z		crypto: fix memory leak, reduce heap allocations, clean up	90		
 14123	2512748	true	open	false	3		2017-07-07T13:43:07Z	2017-07-07T16:24:59Z		test: handle missing V8 tests in n-api test	71		
 14124	2732639	false	open	false	3		2017-07-07T14:21:05Z	2017-07-10T09:50:08Z		Node 6.11.0 does not build for arm7	115		
 14125	718899	true	open	false	1		2017-07-07T14:39:57Z	2017-07-08T15:32:57Z		lib: normalize indentation in parentheses	38		
@@ -7641,7 +7641,7 @@
 14137	96947	false	open	false	0		2017-07-08T18:14:59Z	2017-07-08T18:14:59Z		discussion: eslint rule for `/test/` - `no-unused-vars: [error, {args: after-used, caughtErrors: all}]`	176		
 14138	96947	false	open	false	0		2017-07-08T18:40:45Z	2017-07-08T18:40:45Z		n-api: from zzo38 via IRC - `napi_finalize` feedback	80		
 14139	96947	false	open	false	1		2017-07-08T18:48:34Z	2017-07-08T22:36:34Z		"V8: from zzo38 via IRC - ""external"" value internalized"	68		
-14140	588262	true	open	false	8		2017-07-08T22:55:55Z	2017-07-09T12:41:06Z		cluster: overriding inspector port	125		
+14140	588262	true	open	false			2017-07-08T22:55:55Z	2017-07-10T10:32:32Z		cluster: overriding inspector port	125		
 14141	96947	false	closed	false	3		2017-07-09T03:23:18Z	2017-07-09T17:10:03Z	2017-07-09T17:10:02Z	test: new flakiness in test-process-kill-null.js	37		
 14142	96947	true	closed	false	1	0	2017-07-09T03:51:33Z	2017-07-09T17:10:03Z	2017-07-09T17:10:03Z	Temp revert 44483b6	36	96947	2017-07-09T17:10:02Z
 14143	505333	true	open	false	0	0	2017-07-09T12:17:46Z	2017-07-09T12:17:46Z		async_hooks: fix nested hooks mutation	55		
