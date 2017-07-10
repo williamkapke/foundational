@@ -269,7 +269,7 @@
 4014	732166	true	closed	false	11		2015-11-25T04:15:48Z	2017-02-28T23:01:28Z	2017-02-28T23:01:28Z	Expose RAND_poll / RAND_add to user code via crypto module.	139		
 4037	321966	false	closed	false	6		2015-11-26T14:11:47Z	2016-09-22T11:40:07Z	2015-11-27T13:24:14Z	"""Error: write EBADF"" when sending a TLSSocket to the parent process"	256		
 4039	4520820	true	closed	false	32		2015-11-26T17:23:49Z	2017-01-19T00:27:01Z	2016-09-12T14:58:48Z	net: refactor Server.prototype.listen	226		
-4044	150237	false	open	false	3		2015-11-26T22:22:19Z	2017-07-07T20:49:12Z		`Duplex.allowHalfOpen` not behaving according to the docs?	211		
+4044	150237	false	closed	false	4		2015-11-26T22:22:19Z	2017-07-10T20:51:38Z	2017-07-10T20:51:38Z	`Duplex.allowHalfOpen` not behaving according to the docs?	211		
 4048	1003724	false	closed	false	4		2015-11-27T13:03:49Z	2017-07-07T23:34:32Z	2017-07-07T23:34:32Z	extended keepalive configuration on socket	105		
 4074	37391	false	closed	false	7		2015-11-30T12:31:16Z	2017-05-17T18:16:18Z	2017-05-17T18:16:18Z	child_process: closes before flushing all data	267		
 4086	14157219	false	closed	false	11		2015-12-01T07:11:47Z	2017-03-23T18:40:27Z	2016-06-08T04:54:49Z	Node js installation Error	116		
@@ -1139,7 +1139,7 @@
 7624	1622515	true	closed	false	9		2016-07-08T23:21:33Z	2016-07-19T16:07:08Z	2016-07-15T17:45:33Z	repl: Mitigate vm #548 function redefinition issue	128		
 7625	54666	true	closed	false	16		2016-07-08T23:27:55Z	2016-10-10T17:45:23Z	2016-07-20T23:43:46Z	build: add conflict marker check on release	52		
 7626	718899	true	closed	false	6		2016-07-08T23:39:54Z	2016-07-12T17:27:15Z	2016-07-12T17:27:15Z	benchmark: fix hanging dgram/array-vs-concat.js	66		
-7627	3397140	false	open	false	13		2016-07-09T00:05:16Z	2016-09-24T17:32:33Z		Get native handle from net.Socket	138		
+7627	3397140	false	closed	false	13		2016-07-09T00:05:16Z	2017-07-10T20:26:10Z	2017-07-10T20:26:10Z	Get native handle from net.Socket	138		
 7628	237796	true	closed	false	3		2016-07-09T00:39:03Z	2016-09-23T22:59:05Z	2016-09-23T22:59:05Z	test: Fixes test-tick-processor to not hang on Windows	101		
 7629	52195	false	open	false	15		2016-07-09T00:51:48Z	2017-07-08T10:45:46Z		[stream] Make _readableState and _writableState part of the public API	150		
 7630	718899	true	closed	false	13		2016-07-09T02:05:54Z	2016-08-31T00:38:01Z	2016-07-12T17:34:39Z	Brace style linting	49		
@@ -1562,7 +1562,7 @@
 8048	13312166	false	closed	false	1		2016-08-10T12:38:10Z	2016-08-10T13:06:10Z	2016-08-10T13:06:10Z	net-module does't react when pulling of the cable (embedded Linux)	215		
 8049	275871	true	closed	false	5		2016-08-10T12:44:00Z	2016-08-12T17:50:02Z	2016-08-12T17:50:02Z	doc: update windows prerequisites	14		
 8050	17586	false	open	false	1		2016-08-10T13:58:33Z	2016-08-10T14:03:38Z		console.log hangs on long lines	48		
-8051	1495995	false	open	false	16		2016-08-10T14:12:16Z	2016-10-06T08:03:28Z		NodeJS listener bug	114		
+8051	1495995	false	closed	false	17		2016-08-10T14:12:16Z	2017-07-10T20:35:34Z	2017-07-10T20:35:34Z	NodeJS listener bug	118		
 8052	101553	true	open	false	0	0	2016-08-10T17:05:41Z	2016-08-10T17:05:41Z		doc: Add fhinkel to collaborators	29		
 8053	122831	false	closed	false	8		2016-08-10T17:24:27Z	2016-08-10T23:22:56Z	2016-08-10T23:22:56Z	Windows Buffer.from v4.x: TypeError: hex is not a function	190		
 8054	79017	true	closed	false	18		2016-08-10T18:37:22Z	2016-09-06T21:17:40Z	2016-08-25T17:44:29Z	Backport V8 5.1 to v6.x	115		
@@ -1706,7 +1706,7 @@
 8192	110455	true	closed	false	18		2016-08-19T22:27:45Z	2017-03-26T15:05:24Z	2017-03-26T11:43:32Z	timers: expose timer classes	81		
 8193	718899	true	closed	false	6	0	2016-08-19T23:46:18Z	2016-08-23T18:27:27Z	2016-08-23T18:27:27Z	test: refactor test-timers-linked-list.js	48		
 8194	718899	true	closed	false	6		2016-08-20T05:08:03Z	2016-08-22T21:13:37Z	2016-08-22T21:13:36Z	"doc: remove ""feature branch"" jargon"	117		
-8195	1622515	false	open	false	11		2016-08-20T07:13:12Z	2016-09-16T00:40:04Z		repl: Proposal for better repl	261		
+8195	1622515	false	open	false	12		2016-08-20T07:13:12Z	2017-07-10T20:17:38Z		repl: Proposal for better repl	200		
 8196	1443911	true	closed	false	5		2016-08-20T10:07:16Z	2016-09-30T21:44:19Z	2016-08-25T17:57:33Z	doc: add `added:` information for dgram	27		
 8197	1935767	true	closed	false	25		2016-08-20T12:12:47Z	2017-03-07T22:43:12Z	2017-02-01T09:00:38Z	stream: move legacy to lib/internal dir	88		
 8198	1935767	true	closed	false	9		2016-08-20T13:44:24Z	2016-09-30T21:47:23Z	2016-08-25T19:55:56Z	async_wrap: add a missing case to test-async-wrap-throw-no-init	54		
@@ -1776,7 +1776,7 @@
 8262	1890900	false	closed	false	2		2016-08-24T21:24:43Z	2017-04-02T16:06:59Z	2016-08-24T21:46:44Z	fs.readFileSync returns undefined	230		
 8263	4256376	true	closed	false	2	0	2016-08-24T22:07:47Z	2016-08-24T23:56:14Z	2016-08-24T23:56:14Z	"doc: Added missing e to ""timeout"""	46		
 8264	287917	true	open	false	6		2016-08-24T23:46:45Z	2016-08-31T16:11:58Z		inspector: Make sure all messages are dispatched	55		
-8265	718899	false	open	false	16		2016-08-25T00:17:00Z	2016-09-20T21:09:03Z		Process for determining supported platforms	124		
+8265	718899	false	closed	false	16		2016-08-25T00:17:00Z	2017-07-10T20:21:32Z	2017-07-10T20:21:32Z	Process for determining supported platforms	124		
 8266	275871	false	closed	false	5		2016-08-25T08:33:26Z	2016-09-08T21:34:51Z	2016-09-08T21:34:51Z	buffer: zero-sized slices have .buffer but not .parent	51		
 8267	10029810	false	open	false	0		2016-08-25T12:20:58Z	2016-08-25T12:20:58Z		SyntaxError: Octal literals are not allowed in strict mode.	113		
 8268	6802696	false	closed	false	3		2016-08-25T14:18:13Z	2016-08-26T19:38:57Z	2016-08-26T19:38:57Z	nodejs install but not runing	87		
@@ -1793,7 +1793,7 @@
 8279	156539	false	open	false	11		2016-08-26T09:15:59Z	2016-08-27T13:54:05Z		(node:20446) Warning: Possible EventEmitter memory leak detected. 11 error listeners added. Use emitter.setMaxListeners() to increase limit	42		
 8280	317464	true	closed	false	25	0	2016-08-26T10:00:00Z	2016-10-24T14:50:00Z	2016-10-24T14:50:00Z	[WIP] deps: upgrade libuv to 1.10.0	37		
 8281	1443911	true	closed	false	5		2016-08-26T15:09:18Z	2016-09-30T22:28:15Z	2016-09-12T04:09:58Z	doc: add `added:` information for crypto	27		
-8282	9271155	false	open	false	1		2016-08-26T16:59:30Z	2016-09-23T18:58:16Z		sockets: OutOfBand bytes/packets are not supported	108		
+8282	9271155	false	open	false	2		2016-08-26T16:59:30Z	2017-07-10T20:24:56Z		sockets: OutOfBand bytes/packets are not supported	108		
 8283	439929	true	closed	false	4		2016-08-26T18:40:28Z	2016-09-30T21:54:26Z	2016-08-29T22:25:17Z	test: additional refactoring/cleanup of buffer tests	61		
 8284	20561255	false	closed	false	1		2016-08-26T18:44:56Z	2017-04-30T18:41:14Z	2017-04-30T18:41:14Z	Obsolete workaround in src/util.h	114		
 8285	9373002	true	closed	false	12		2016-08-26T21:15:45Z	2016-09-30T21:52:28Z	2016-08-29T21:00:09Z	build: fix dependencies on AIX	106		
@@ -2102,7 +2102,7 @@
 8588	2361826	true	closed	false	2		2016-09-17T09:18:51Z	2016-09-20T18:04:55Z	2016-09-20T18:04:55Z	internal: changed var to const in bootstrap_node.js	57		
 8589	6439292	false	open	false	0		2016-09-17T09:20:37Z	2016-09-17T09:20:37Z		Three c++ test errors	400		
 8590	515269	true	closed	false	6		2016-09-17T09:23:59Z	2016-09-22T17:27:13Z	2016-09-22T17:27:13Z	test: modernized JS and tighten equality checking in test-eval.js	42		
-8591	965671	false	open	false	0		2016-09-17T09:29:16Z	2016-09-17T20:40:38Z		Raise a warning when listening for usafe signals	27		
+8591	965671	false	open	false	2		2016-09-17T09:29:16Z	2017-07-10T20:18:42Z		Raise a warning when listening for usafe signals	27		
 8592	6203008	true	closed	false	10		2016-09-17T09:29:24Z	2017-03-26T13:30:10Z	2017-03-26T11:38:31Z	test: changed var to const	37		
 8593	1935767	true	closed	false	3		2016-09-17T09:31:42Z	2016-09-22T17:21:59Z	2016-09-22T17:21:59Z	src: remove unneeded ABORT after CHECK(0)	126		
 8594	2764625	true	closed	false	2		2016-09-17T09:32:00Z	2016-09-22T17:11:28Z	2016-09-22T17:11:28Z	test: update test child process send utf8	45		
@@ -2124,7 +2124,7 @@
 8610	14981026	true	closed	false	12		2016-09-17T10:01:32Z	2016-11-20T02:35:38Z	2016-11-20T02:35:38Z	src: Add does_zap_garbage to v8 HeapStatistics	84		
 8611	8657410	true	closed	false	13	8	2016-09-17T10:02:06Z	2017-03-11T21:47:58Z	2017-03-11T21:47:58Z	crypto: fix default encoding of LazyTransform	50		
 8612	635903	true	open	false	4		2016-09-17T10:09:25Z	2017-03-01T02:15:24Z		util: support SharedArrayBuffer in inspect	76		
-8613	1267623	false	open	false	2		2016-09-17T10:22:46Z	2016-09-18T09:10:44Z		response's close event not being triggered	117		
+8613	1267623	false	open	false	3		2016-09-17T10:22:46Z	2017-07-10T20:20:54Z		response's close event not being triggered	117		
 8614	2361826	true	closed	false	9		2016-09-17T10:36:51Z	2016-09-23T09:17:37Z	2016-09-23T00:01:23Z	process: changed var to const in internal/process.js	37		
 8615	2361826	true	closed	false	5		2016-09-17T10:49:20Z	2016-09-22T16:56:19Z	2016-09-22T16:56:19Z	internal: changed var to const in internal/v8_polyfill	37		
 8616	5240626	true	open	false	2		2016-09-17T10:50:06Z	2016-09-20T20:18:00Z		test: clean tls-connect-given-socket	34		
@@ -2182,7 +2182,7 @@
 8668	6354455	true	open	false	3		2016-09-20T17:59:02Z	2016-09-22T21:50:24Z		test: cleanup stream tests	41		
 8669	54666	false	closed	false	11		2016-09-20T18:05:25Z	2016-09-23T18:08:54Z	2016-09-23T18:08:54Z	Investigate flaky inspector/test-inspector	118		
 8670	21145776	false	open	false	17		2016-09-20T19:25:32Z	2017-03-20T09:32:38Z		Garbage collection causes bad performance 	285		
-8671	961599	false	open	false	2		2016-09-20T20:44:14Z	2016-10-03T13:54:48Z		The debug build (node_g) is difficult to install	53		
+8671	961599	false	closed	false	2		2016-09-20T20:44:14Z	2017-07-10T20:31:53Z	2017-07-10T20:31:53Z	The debug build (node_g) is difficult to install	53		
 8672	287917	true	closed	false	6		2016-09-20T21:07:12Z	2016-09-23T21:53:43Z	2016-09-23T18:08:46Z	inspector: address race conditions	65		
 8673	498775	true	closed	false	19		2016-09-20T22:12:05Z	2016-09-29T19:42:55Z	2016-09-23T14:17:48Z	deps: cherry-pick 34880eb3dc from V8 upstream	184		
 8674	855219	true	open	false			2016-09-20T22:57:10Z	2016-10-25T18:20:57Z		deps: fix icu-shrinker to handle ICU 58	43		
@@ -2241,10 +2241,10 @@
 8727	4421720	true	closed	false	2		2016-09-22T21:25:54Z	2016-10-03T12:05:47Z	2016-10-03T12:05:47Z	doc: add CTC meeting minutes 2016-09-21	27		
 8728	1869157	false	open	false	0		2016-09-22T23:12:39Z	2016-09-22T23:12:39Z		process.cpuUsage accuracy	173		
 8729	7368115	true	closed	false	8	1	2016-09-23T03:21:30Z	2016-09-26T20:53:27Z	2016-09-26T20:53:27Z	Adds assertions to zero length buffer slice test	71		
-8730	85523	false	open	false	5		2016-09-23T06:56:06Z	2016-09-28T11:33:21Z		lift uv constants into separate constants implemetation files for uv process and lib/dns.js	31		
+8730	85523	false	closed	false	6		2016-09-23T06:56:06Z	2017-07-10T20:29:32Z	2017-07-10T20:29:32Z	lift uv constants into separate constants implemetation files for uv process and lib/dns.js	31		
 8731	85523	false	open	false	0		2016-09-23T07:04:55Z	2016-09-23T07:04:55Z		Request for DNSSEC interface API	33		
 8732	85523	false	closed	false	3		2016-09-23T07:26:38Z	2016-09-23T10:16:39Z	2016-09-23T07:33:13Z	Request for tool to generate constant declarations in C++ and JavaScript from specifications	30		
-8733	12443664	false	open	false	5		2016-09-23T08:36:42Z	2016-09-26T15:41:22Z		Buffer performance degradation in 6.6.0	218		
+8733	12443664	false	open	false	6		2016-09-23T08:36:42Z	2017-07-10T20:29:00Z		Buffer performance degradation in 6.6.0	218		
 8734	18049850	false	open	false	0		2016-09-23T08:57:01Z	2016-09-23T08:57:01Z		node debugger not doing anything after it starts	84		
 8735	7289505	false	closed	false	2		2016-09-23T09:03:10Z	2016-09-23T13:59:34Z	2016-09-23T12:28:04Z	High CPU usage - futex_wait, gettimeofday syscalls	589		
 8736	432351	true	closed	false	1	0	2016-09-23T12:19:11Z	2016-09-24T19:15:40Z	2016-09-24T19:15:40Z	src: fix minor typo in comments	39		
@@ -2286,7 +2286,7 @@
 8772	22425789	false	closed	false	0		2016-09-25T13:50:57Z	2016-09-25T15:45:15Z	2016-09-25T15:45:15Z	Installing Problem 'this is not a valid Windows installer' 	0		
 8773	472825	false	open	false	0		2016-09-25T20:35:39Z	2016-09-25T20:35:39Z		Where does this value get set at?	116		
 8774	718899	true	closed	false	7		2016-09-25T20:42:00Z	2016-09-29T00:22:18Z	2016-09-29T00:22:18Z	doc: add optional step to onboarding doc	47		
-8775	1614246	false	open	false	1		2016-09-25T21:06:26Z	2016-10-05T11:47:10Z		http: abort tcp connection in the middle of request handling	465		
+8775	1614246	false	open	false	1		2016-09-25T21:06:26Z	2017-07-10T20:34:15Z		http: abort tcp connection in the middle of request handling	465		
 8776	718899	true	closed	false	14		2016-09-25T21:51:57Z	2016-10-04T08:11:39Z	2016-09-29T00:25:56Z	doc: encourage 2FA before onboarding	69		
 8777	15350619	false	closed	false	1		2016-09-26T01:42:37Z	2016-09-26T06:33:27Z	2016-09-26T06:33:27Z	FS write and read position problem	98		
 8778	6354455	true	closed	false	3	1	2016-09-26T02:46:59Z	2016-09-30T16:14:41Z	2016-09-30T16:14:41Z	adding test for _stream.writable `ended` state	53		
@@ -2308,7 +2308,7 @@
 8794	441346	true	closed	false	1		2016-09-26T18:21:35Z	2016-09-30T17:36:17Z	2016-09-30T17:36:17Z	test: fix running child-process-uid-gid as root	55		
 8795	134460	true	closed	false	6		2016-09-26T18:34:50Z	2016-10-10T16:37:12Z	2016-10-10T16:37:12Z	win,msi: mark INSTALLDIR property as secure	149		
 8796	152407	true	closed	false	5		2016-09-26T19:06:45Z	2016-09-27T14:44:43Z	2016-09-27T14:44:43Z	Document crypto.timingSafeEqual() added in v6.6.0	37		
-8797	479816	false	open	false	6		2016-09-27T01:53:51Z	2016-09-30T10:03:37Z		"`fs.rmdir()` on file (not directory) has ""ENOTDIR"" on Linux/macOS vs ""ENOENT"" on Windows"	115		
+8797	479816	false	open	false	9		2016-09-27T01:53:51Z	2017-07-10T20:31:23Z		"`fs.rmdir()` on file (not directory) has ""ENOTDIR"" on Linux/macOS vs ""ENOENT"" on Windows"	116		
 8798	579	false	open	false	36		2016-09-27T03:02:37Z	2016-11-02T05:32:55Z		Add Locki to API documentation	65		
 8799	6354455	true	closed	false	5	1	2016-09-27T03:29:25Z	2016-10-28T06:43:33Z	2016-10-28T06:43:33Z	adding test for _stream_writable.js needDrain state	54		
 8800	1935767	true	closed	false	8	0	2016-09-27T03:46:29Z	2016-09-30T02:06:54Z	2016-09-30T02:06:54Z	dns: improve makeAsync internally by removing unneeded vaiable.	61	1935767	2016-09-30T02:06:54Z
@@ -2414,7 +2414,7 @@
 8900	718899	true	open	false	7		2016-10-03T04:22:47Z	2016-10-04T22:30:59Z		test: mark test-tick-processor-unknown flaky	30		
 8901	1443911	true	open	false	7		2016-10-03T08:51:30Z	2016-10-06T21:53:31Z		doc: add `added:` information for globals	27		
 8902	911174	true	closed	false	7		2016-10-03T10:24:41Z	2016-10-08T19:05:50Z	2016-10-08T15:51:01Z	doc: make node(1) more consistent with tradition	101		
-8903	911174	false	open	false	4		2016-10-03T10:36:00Z	2016-10-04T17:07:23Z		Ship manpages for all core modules	96		
+8903	911174	false	open	false	4		2016-10-03T10:36:00Z	2017-07-10T20:32:42Z		Ship manpages for all core modules	96		
 8904	1084056	true	closed	false	1		2016-10-03T10:44:13Z	2016-10-04T18:45:49Z	2016-10-04T18:45:49Z	Backport PR 7572	140		
 8905	432351	true	closed	false	5		2016-10-03T10:46:41Z	2016-10-08T18:02:35Z	2016-10-07T16:47:42Z	build: add config.gypi to test/addons/.buildstamp	121		
 8906	10611767	true	closed	false	7		2016-10-03T11:19:24Z	2016-10-07T17:42:03Z	2016-10-07T17:42:03Z	Minor improvements	58		
@@ -2445,7 +2445,7 @@
 8931	718899	true	open	false	5		2016-10-04T23:19:51Z	2016-10-06T21:46:00Z		test: refactor test-net-server-max-connections	66		
 8932	677994	true	closed	false	22		2016-10-04T23:34:01Z	2016-12-23T22:07:21Z	2016-10-13T17:18:02Z	process: improve performance of nextTick	142		
 8933	1250248	true	closed	false	2		2016-10-05T03:34:32Z	2016-10-05T15:38:51Z	2016-10-05T15:38:51Z	doc: fix url markdown formatting	69		
-8934	11786120	false	open	false	8		2016-10-05T08:39:23Z	2016-10-06T17:19:24Z		readline: emitKeypressEvents does not properly recognize Alt+Arrow	76		
+8934	11786120	false	closed	false	9		2016-10-05T08:39:23Z	2017-07-10T20:36:36Z	2017-07-10T20:36:36Z	readline: emitKeypressEvents does not properly recognize Alt+Arrow	76		
 8935	4057473	false	open	false	0		2016-10-05T09:42:53Z	2016-10-05T09:42:53Z		No reference error on nonexistent object value	105		
 8936	16836380	false	open	false	0		2016-10-05T09:52:31Z	2016-10-05T09:52:31Z		Solaris SPARC support	46		
 8937	16836380	false	closed	false	2		2016-10-05T10:47:06Z	2016-10-05T11:59:46Z	2016-10-05T11:59:46Z	V8DBG_OFF_FP_CONTEXT: Unknown variable name	123		
@@ -6296,7 +6296,7 @@
 12791	96947	true	open	false			2017-05-02T14:50:34Z	2017-05-08T16:05:08Z		"doc: add ""Troubleshooting"" & ""best practices"""	232		
 12792	10393198	true	closed	false	11		2017-05-02T14:59:32Z	2017-06-18T23:29:20Z	2017-05-04T18:15:55Z	test: fix too optimistic guess in setproctitle	194		
 12793	15943089	false	open	false	3		2017-05-02T15:33:49Z	2017-05-12T15:02:55Z		Note that whatwg-url tests should not be modified	35		
-12794	794604	true	open	false			2017-05-02T17:29:48Z	2017-07-10T19:12:53Z		Add process.dlopenFlags	166		
+12794	794604	true	open	false			2017-05-02T17:29:48Z	2017-07-10T20:13:17Z		Add process.dlopenFlags	166		
 12795	10393198	true	closed	false	5		2017-05-02T17:35:37Z	2017-05-04T18:20:13Z	2017-05-04T18:20:13Z	test: add callback to fs.close() in test-fs-chmod	38		
 12796	718899	true	closed	false	2		2017-05-02T18:32:02Z	2017-06-18T23:34:47Z	2017-05-04T23:03:20Z	doc: edit CONTRIBUTING.md for clarity etc.	25		
 12797	16063953	true	closed	false	2	0	2017-05-02T18:33:45Z	2017-05-02T19:06:54Z	2017-05-02T19:06:54Z	test: add comment to all whatwg-url tests saying they should not be m…	43		
@@ -7492,7 +7492,7 @@
 13988	9373002	true	open	false	4		2017-06-29T15:42:59Z	2017-07-10T16:17:35Z		n-api: add code parameter to error helpers	135		
 13989	134460	true	closed	false	2		2017-06-29T15:48:01Z	2017-06-29T18:07:52Z	2017-06-29T17:56:58Z	test: mark test-fs-readdir-ucs2 flaky	76		
 13990	9373002	true	closed	false	3		2017-06-29T17:09:28Z	2017-07-06T05:18:59Z	2017-07-05T22:42:44Z	test: add coverage for napi_typeof	58		
-13991	289174	true	open	false	4		2017-06-29T21:23:21Z	2017-07-06T09:32:24Z		test: skip whether TTY is availble	48		
+13991	289174	true	open	false	5		2017-06-29T21:23:21Z	2017-07-10T20:38:43Z		test: skip whether TTY is availble	48		
 13992	12488060	true	open	false	12		2017-06-29T21:59:14Z	2017-07-10T15:55:56Z		build,test: run v8 tests on windows	122		
 13993	718899	true	closed	false			2017-06-29T23:23:10Z	2017-07-03T21:02:41Z	2017-07-02T23:45:10Z	test: refactor test-http-hostname-typechecking	45		
 13994	9373002	true	open	false	3		2017-06-29T23:25:16Z	2017-07-10T16:13:12Z		tls: migrate tls.js to use internal/errors.js	97		
@@ -7563,7 +7563,7 @@
 14059	8822573	true	open	false	15		2017-07-03T14:11:16Z	2017-07-10T16:44:19Z		tools: add quote-props eslint rule 	74		
 14060	505333	false	open	false	7		2017-07-03T14:37:56Z	2017-07-03T21:18:25Z		SIGILL when using abort-on-uncaught-exception	123		
 14061	96947	true	closed	false	3	0	2017-07-03T16:55:41Z	2017-07-05T20:51:34Z	2017-07-05T20:51:34Z	tools: use `error` instead of 2	54	96947	2017-07-05T20:51:34Z
-14062	4624411	true	open	false	11		2017-07-03T17:04:10Z	2017-07-09T10:57:07Z		fixed TLSSocket documentation error from Issue #3963.	50		
+14062	4624411	true	closed	false	12	45	2017-07-03T17:04:10Z	2017-07-10T20:51:36Z	2017-07-10T20:51:36Z	fixed TLSSocket documentation error from Issue #3963.	50		
 14063	2512748	true	closed	false	2	9	2017-07-03T19:09:20Z	2017-07-06T19:29:35Z	2017-07-06T19:29:35Z	n-api: add napi_has_own_property()	41	2512748	2017-07-06T19:29:35Z
 14064	718899	true	closed	false	2	0	2017-07-03T20:24:06Z	2017-07-04T13:53:30Z	2017-07-04T13:53:30Z	lib: fix off-by-one indentation	38		
 14065	718899	true	closed	false	4		2017-07-03T21:02:09Z	2017-07-04T13:58:12Z	2017-07-04T13:58:12Z	test: restore no-op function in test	42		
@@ -7628,7 +7628,7 @@
 14124	2732639	false	closed	false	4		2017-07-07T14:21:05Z	2017-07-10T11:07:29Z	2017-07-10T11:07:29Z	Node 6.11.0 does not build for arm7	115		
 14125	718899	true	closed	false	2		2017-07-07T14:39:57Z	2017-07-10T18:59:01Z	2017-07-10T18:59:01Z	lib: normalize indentation in parentheses	38		
 14126	1025559	true	closed	false	3	0	2017-07-07T16:23:20Z	2017-07-09T16:53:33Z	2017-07-09T16:53:33Z	doc: fix mistake in http.md	46		
-14127	718899	true	open	false	0	0	2017-07-07T20:48:56Z	2017-07-07T20:48:56Z		doc: correct stream Duplex allowHalfOpen doc	52		
+14127	718899	true	closed	false	0		2017-07-07T20:48:56Z	2017-07-10T20:51:04Z	2017-07-10T20:51:04Z	doc: correct stream Duplex allowHalfOpen doc	52		
 14128	96947	false	open	false	1		2017-07-07T21:37:01Z	2017-07-10T06:57:24Z		test: flaky - parallel/test-pipe-stream	67		
 14129	20067414	false	open	false	2		2017-07-08T00:36:39Z	2017-07-09T02:46:01Z		when will http2 arrive?	21		
 14130	12690131	false	closed	false	7		2017-07-08T03:39:37Z	2017-07-08T15:27:40Z	2017-07-08T09:58:27Z	AsyncResource Inheritance Bug w/ Babel	51		
@@ -7658,7 +7658,8 @@
 14154	96947	true	open	false	3		2017-07-10T15:05:54Z	2017-07-10T16:26:13Z		doc: improve fs.utimes	69		
 14155	718899	true	open	false	0	0	2017-07-10T18:18:35Z	2017-07-10T18:18:35Z		tools: update ESLint to 4.2.0	57		
 14156	96947	false	open	false	0		2017-07-10T18:38:07Z	2017-07-10T18:38:07Z		child_process,Windows: fix docs for `spawn({shell})`	24		
-14157	96947	false	open	false	0		2017-07-10T18:45:09Z	2017-07-10T18:45:09Z		child_process,Windows: deprecate explicit use of `cmd.exe`	59		
+14157	96947	false	open	false	1		2017-07-10T18:45:09Z	2017-07-10T20:58:42Z		child_process,Windows: deprecate explicit use of `cmd.exe`	59		
 14158	96947	false	open	false	0		2017-07-10T19:11:09Z	2017-07-10T19:11:09Z		doc: better document `--shared` build	29		
-14159	439929	true	open	false	0	0	2017-07-10T19:31:26Z	2017-07-10T19:31:26Z		"Revert ""test: common.expectsError should be a must call"""	65		
-14160	1106823	false	open	false	0		2017-07-10T19:52:42Z	2017-07-10T19:52:42Z		ES6 class defined via VM runInNewContext is not accessible	95		
+14159	439929	true	open	false	1		2017-07-10T19:31:26Z	2017-07-10T20:35:57Z		"Revert ""test: common.expectsError should be a must call"""	65		
+14160	1106823	false	open	false	2		2017-07-10T19:52:42Z	2017-07-10T20:11:15Z		ES6 class defined via VM runInNewContext is not accessible	95		
+14161	3109072	false	open	false	0		2017-07-10T20:13:02Z	2017-07-10T20:13:02Z		node_zlib.cc assertion failure	2479		

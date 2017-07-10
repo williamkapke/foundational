@@ -74,9 +74,9 @@
 74	432351	true	closed	false	3		2017-05-04T10:07:50Z	2017-05-07T09:08:06Z	2017-05-07T09:08:06Z	src: make node-http2-core files consistent	58		
 75	555645	true	closed	false	2		2017-05-04T11:50:07Z	2017-05-07T09:11:04Z	2017-05-07T09:11:04Z	http2: fix res.setHeader to update linkedlist APIs	52		
 76	298166	false	closed	false	5		2017-05-04T12:28:02Z	2017-05-10T21:27:40Z	2017-05-10T21:27:40Z	http2: get path throws	177		
-77	555645	false	open	false	0		2017-05-04T13:03:42Z	2017-05-05T04:36:58Z		http2: client.socket.destroy() throws AssertionError: Internal HTTP/2 Failure. Stream does not exist.	322		
+77	555645	false	closed	false	1		2017-05-04T13:03:42Z	2017-07-10T20:15:52Z	2017-07-10T20:15:52Z	http2: client.socket.destroy() throws AssertionError: Internal HTTP/2 Failure. Stream does not exist.	322		
 78	432351	true	closed	false	0		2017-05-04T14:33:55Z	2017-05-05T05:25:06Z	2017-05-05T05:25:06Z	src: minor comment correction	25		
-79	439929	false	open	false	1		2017-05-05T04:33:49Z	2017-05-10T09:26:52Z		Process notes	389		
+79	439929	false	closed	false	2		2017-05-05T04:33:49Z	2017-07-10T20:15:35Z	2017-07-10T20:15:35Z	Process notes	389		
 80	439929	true	open	false	4		2017-05-05T06:03:11Z	2017-05-12T21:55:23Z		http2: an accumulation of another round of edits	18		
 81	555645	true	closed	false	1		2017-05-05T09:07:47Z	2017-05-07T09:18:57Z	2017-05-07T09:18:57Z	docs: fix require('http').HTTP2 to require('http2') in note	33		
 82	555645	false	closed	false	0		2017-05-05T09:25:07Z	2017-05-06T14:50:44Z	2017-05-06T14:50:44Z	REPL does not have 'http2' as a built-in library.	16		
@@ -100,8 +100,9 @@
 100	432351	true	closed	false	0		2017-05-11T13:24:40Z	2017-05-12T08:18:42Z	2017-05-12T08:18:42Z	src: add assertion to check cb is not null	55		
 101	52195	false	open	false	6		2017-05-12T08:02:33Z	2017-06-09T14:42:27Z		http2: tests for trailers	25		
 102	439929	true	open	false	1		2017-05-12T17:02:41Z	2017-05-17T14:29:39Z		Docs!	11		
-103	439929	false	open	false	9		2017-05-12T21:29:49Z	2017-06-09T14:41:55Z		http2: Build failure on Windows	203		
+103	439929	false	closed	false	10		2017-05-12T21:29:49Z	2017-07-10T20:14:51Z	2017-07-10T20:14:51Z	http2: Build failure on Windows	203		
 104	439929	false	closed	false	0		2017-05-12T21:32:13Z	2017-05-13T14:29:07Z	2017-05-13T14:29:07Z	http2: segfault in test-async-wrap-check-providers	682		
+105	439929	false	closed	false	1		2017-05-12T21:38:09Z	2017-07-10T20:15:10Z	2017-07-10T20:15:10Z	http2: failures on raspbian	108		
 106	439929	true	closed	false	2		2017-05-12T22:23:28Z	2017-05-13T14:28:50Z	2017-05-13T14:28:50Z	http2: fixup test-async-wrap-check-providers	14		
 107	439929	false	open	false	0		2017-05-12T22:28:32Z	2017-05-12T22:28:32Z		http2: async_hooks support	44		
 108	9982776	false	open	false	5		2017-05-13T07:18:37Z	2017-05-14T16:22:26Z		MaxListenersExceededWarning: Possible EventEmitter memory leak detected.	65		
@@ -115,7 +116,7 @@
 116	439929	true	closed	false	0		2017-05-15T19:57:12Z	2017-05-16T15:13:45Z	2017-05-16T15:13:45Z	http2: add test for http methods	42		
 117	439929	true	closed	false	0		2017-05-15T21:50:43Z	2017-05-16T04:42:41Z	2017-05-16T04:42:41Z	[WIP] http2: tls renegotiation fix	66		
 118	298166	false	open	false	2		2017-05-15T22:04:39Z	2017-05-21T13:33:30Z		http2: status code is string instead of number	170		
-119	439929	false	open	false	0		2017-05-15T22:19:16Z	2017-05-15T22:19:16Z		http2: CONNECT method support	25		
+119	439929	false	closed	false	0		2017-05-15T22:19:16Z	2017-07-10T20:16:18Z	2017-07-10T20:16:18Z	http2: CONNECT method support	25		
 120	298166	true	closed	false	3		2017-05-15T22:43:16Z	2017-05-18T14:54:36Z	2017-05-18T14:54:36Z	http2: statusCode should be a Number	68		
 121	439929	false	open	false	1		2017-05-15T22:45:01Z	2017-05-16T15:54:07Z		"http/2: starting HTTP/2 for ""http"" URIs (http/1 upgrade to http/2)"	449		
 122	439929	false	closed	false	2		2017-05-15T23:00:31Z	2017-05-19T06:52:21Z	2017-05-19T06:52:21Z	http2: starting HTTP/2 with TLS ALPN	173		
@@ -169,5 +170,5 @@
 170	555645	true	open	false			2017-07-07T05:08:14Z	2017-07-07T15:24:42Z		http2: add test for invalid pseudo headers	54		
 171	432351	true	closed	false	1		2017-07-07T11:48:28Z	2017-07-10T18:06:21Z	2017-07-10T18:06:21Z	http2: make ncopy signed	112		
 172	432351	true	closed	false	0		2017-07-07T12:00:37Z	2017-07-10T18:07:24Z	2017-07-10T18:07:24Z	http2: cast numchars to size_t	85		
-173	439929	false	open	false	0		2017-07-10T18:29:52Z	2017-07-10T18:29:52Z		Preparing for the PR against master	154		
-174	439929	true	open	false	0	0	2017-07-10T18:39:25Z	2017-07-10T18:39:25Z		Update from core again	10		
+173	439929	false	open	false	0		2017-07-10T18:29:52Z	2017-07-10T20:10:03Z		Preparing for the PR against master	154		
+174	439929	true	closed	false	0	0	2017-07-10T18:39:25Z	2017-07-10T20:27:17Z	2017-07-10T20:27:17Z	Update from core again	10	439929	2017-07-10T20:27:17Z
