@@ -7525,7 +7525,7 @@
 14021	10393198	true	closed	false	8		2017-07-01T05:33:25Z	2017-07-04T09:45:16Z	2017-07-04T09:45:16Z	test: simplify test skipping	79		
 14022	6757283	false	open	false	0		2017-07-01T10:59:33Z	2017-07-01T10:59:33Z		REPL .load multiline arrow function expressions	122		
 14023	5157107	false	open	false	0		2017-07-01T11:17:29Z	2017-07-10T07:28:37Z		Write after end when piping a ClientRequest to ServerResponse	788		
-14024	5157107	true	open	false			2017-07-01T11:17:58Z	2017-07-10T11:39:12Z		http: OutgoingMessage change writable after end	72		
+14024	5157107	true	open	false	7		2017-07-01T11:17:58Z	2017-07-10T12:13:51Z		http: OutgoingMessage change writable after end	72		
 14025	1687235	false	closed	false	1		2017-07-01T12:36:26Z	2017-07-01T18:27:18Z	2017-07-01T18:27:18Z	fs.existsSync(brokenSymlink) returns false	38		
 14026	505333	true	closed	false	4	6	2017-07-01T12:39:13Z	2017-07-05T13:54:19Z	2017-07-05T13:54:19Z	async_hooks: fix default nextTick triggerAsyncId	86		
 14027	4600068	true	closed	false	5		2017-07-01T13:43:52Z	2017-07-05T04:42:31Z	2017-07-04T15:59:00Z	doc, util, console: clarify ambiguous docs	64		
@@ -7555,12 +7555,12 @@
 14051	505333	true	open	false	5		2017-07-03T09:05:16Z	2017-07-10T06:36:46Z		async_hooks: simplify fatalError	55		
 14052	815988	true	closed	false	6		2017-07-03T09:55:58Z	2017-07-05T11:14:31Z	2017-07-05T11:14:31Z	benchmark: Improve event performance tests.	79		
 14053	275871	true	closed	false	2	1	2017-07-03T10:18:17Z	2017-07-05T14:54:46Z	2017-07-05T14:54:46Z	Fix napi warnings	15		
-14054	8822573	true	open	false	14		2017-07-03T12:28:38Z	2017-07-09T15:18:06Z		async_hooks: move statement	86		
+14054	8822573	true	open	false	15		2017-07-03T12:28:38Z	2017-07-10T12:02:55Z		async_hooks: move statement	86		
 14055	8822573	true	closed	false	1	13	2017-07-03T13:29:22Z	2017-07-09T17:43:09Z	2017-07-09T17:43:09Z	fs: two minor optimizations	75	96947	2017-07-09T17:43:09Z
 14056	9433110	false	open	false	0		2017-07-03T13:34:06Z	2017-07-03T13:34:06Z		r	6		
 14057	8822573	true	open	false			2017-07-03T13:36:02Z	2017-07-03T22:18:16Z		internal/errors: improve invalid arg type	53		
 14058	8822573	true	open	false	14		2017-07-03T13:50:55Z	2017-07-09T22:19:03Z		test: refactor expectsError	52		
-14059	8822573	true	open	false	10		2017-07-03T14:11:16Z	2017-07-10T11:15:47Z		tools: add quote-props eslint rule 	74		
+14059	8822573	true	open	false	13		2017-07-03T14:11:16Z	2017-07-10T12:21:27Z		tools: add quote-props eslint rule 	74		
 14060	505333	false	open	false	7		2017-07-03T14:37:56Z	2017-07-03T21:18:25Z		SIGILL when using abort-on-uncaught-exception	123		
 14061	96947	true	closed	false	3	0	2017-07-03T16:55:41Z	2017-07-05T20:51:34Z	2017-07-05T20:51:34Z	tools: use `error` instead of 2	54	96947	2017-07-05T20:51:34Z
 14062	4624411	true	open	false	11		2017-07-03T17:04:10Z	2017-07-09T10:57:07Z		fixed TLSSocket documentation error from Issue #3963.	50		
@@ -7644,7 +7644,7 @@
 14140	588262	true	open	false			2017-07-08T22:55:55Z	2017-07-10T10:32:32Z		cluster: overriding inspector port	125		
 14141	96947	false	closed	false	3		2017-07-09T03:23:18Z	2017-07-09T17:10:03Z	2017-07-09T17:10:02Z	test: new flakiness in test-process-kill-null.js	37		
 14142	96947	true	closed	false	1	0	2017-07-09T03:51:33Z	2017-07-09T17:10:03Z	2017-07-09T17:10:03Z	Temp revert 44483b6	36	96947	2017-07-09T17:10:02Z
-14143	505333	true	open	false	0	0	2017-07-09T12:17:46Z	2017-07-09T12:17:46Z		async_hooks: fix nested hooks mutation	55		
+14143	505333	true	open	false	0		2017-07-09T12:17:46Z	2017-07-10T12:07:32Z		async_hooks: fix nested hooks mutation	55		
 14144	96947	false	open	false	0		2017-07-09T12:26:45Z	2017-07-09T12:26:45Z		test: cctest flakiness on Windows - loops forever	103		
 14145	29809419	false	open	false	0		2017-07-09T15:07:04Z	2017-07-09T15:07:04Z		error in destructuring assignment if no semi colon	85		
 14146	193170	false	open	false	0		2017-07-09T18:46:19Z	2017-07-10T08:15:43Z		HttpServerResponse.setDefaultEncoding()	63		
@@ -7653,3 +7653,4 @@
 14149	718899	true	open	false	0	0	2017-07-09T20:06:03Z	2017-07-09T20:06:03Z		child_process: refactor normalizeSpawnArguments()	71		
 14150	26047023	true	open	false	0	0	2017-07-09T20:10:00Z	2017-07-09T20:10:00Z		doc: fix doc:Error:captureStackTrace description	59		
 14151	1538624	true	open	false	0	0	2017-07-10T06:08:15Z	2017-07-10T06:08:15Z		querystring: fix up lastPos usage	62		
+14152	505333	true	open	false	0	0	2017-07-10T12:38:49Z	2017-07-10T12:38:49Z		Async hooks rename	65		
