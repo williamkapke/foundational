@@ -722,7 +722,7 @@
 6956	1093990	true	open	false	30		2016-05-24T20:50:58Z	2017-05-28T21:43:25Z		timers: warn on overflowed timeout duration	66		
 6957	899444	true	closed	false	6		2016-05-24T21:27:43Z	2016-06-30T23:28:00Z	2016-06-30T23:28:00Z	Backport 6907 to v4.x (console.* not working when running out of stack space)	40		
 6963	10919124	true	closed	false	4		2016-05-25T06:58:54Z	2017-02-22T19:34:58Z	2017-02-22T19:34:58Z	.gitigore: ignore AppCode's .idea folder	40		
-6966	613320	false	closed	false	4		2016-05-25T10:40:22Z	2017-07-11T09:03:57Z	2017-07-07T23:08:55Z	Can we add an option to squelch underscore assignment warning in the REPL?	97		
+6966	613320	false	closed	false	5		2016-05-25T10:40:22Z	2017-07-11T14:17:38Z	2017-07-07T23:08:55Z	Can we add an option to squelch underscore assignment warning in the REPL?	97		
 6967	2352663	true	closed	false	8		2016-05-25T10:42:47Z	2016-07-12T06:22:51Z	2016-05-26T07:51:26Z	test: add regression test for Proxy as vm context	48		
 6972	1093990	true	open	false	6		2016-05-25T15:49:15Z	2017-03-01T16:26:43Z		repl: add a `noUnderscore` option	84		
 6978	676289	false	closed	false	9		2016-05-25T20:37:46Z	2016-08-12T11:14:32Z	2016-08-12T11:14:32Z	Repro of Node loading modules twice on Windows	270		
@@ -7371,7 +7371,7 @@
 13867	10615883	false	open	false	2		2017-06-22T07:22:28Z	2017-06-22T14:24:46Z		inspect binds only to loopback interface	117		
 13868	6794482	false	closed	false	5		2017-06-22T08:25:37Z	2017-06-28T01:22:24Z	2017-06-28T01:22:24Z	fs.writeFile callback has no error when writing file failed	65		
 13869	3109072	true	closed	false	0		2017-06-22T08:46:56Z	2017-06-28T12:23:47Z	2017-06-28T12:23:47Z	doc: unify ERR_FALSY_VALUE_REJECTION description	25		
-13870	1140553	true	open	false			2017-06-22T09:48:09Z	2017-07-07T01:42:52Z		Report async tasks to V8 Inspector	304		
+13870	1140553	true	open	false	7		2017-06-22T09:48:09Z	2017-07-11T14:50:43Z		Report async tasks to V8 Inspector	304		
 13871	3109072	true	closed	false	3		2017-06-22T11:49:49Z	2017-07-10T11:12:25Z	2017-07-10T11:12:25Z	(v6.x backport) os,vm: fix segfaults and CHECK failure	73		
 13872	976081	true	open	false			2017-06-22T11:52:11Z	2017-07-11T07:06:56Z		N-API: Implement stricter wrapping	195		
 13873	17535	true	open	false	24		2017-06-22T12:25:40Z	2017-06-22T20:26:11Z		process: allow modification of process.argv0	206		
@@ -7641,7 +7641,7 @@
 14137	96947	false	open	false	0		2017-07-08T18:14:59Z	2017-07-08T18:14:59Z		discussion: eslint rule for `/test/` - `no-unused-vars: [error, {args: after-used, caughtErrors: all}]`	176		
 14138	96947	false	open	false	0		2017-07-08T18:40:45Z	2017-07-08T18:40:45Z		n-api: from zzo38 via IRC - `napi_finalize` feedback	80		
 14139	96947	false	open	false	3		2017-07-08T18:48:34Z	2017-07-11T12:41:07Z		"V8: from zzo38 via IRC - ""external"" value internalized"	68		
-14140	588262	true	open	false			2017-07-08T22:55:55Z	2017-07-10T19:56:56Z		cluster: overriding inspector port	125		
+14140	588262	true	open	false			2017-07-08T22:55:55Z	2017-07-11T14:33:28Z		cluster: overriding inspector port	125		
 14141	96947	false	closed	false	3		2017-07-09T03:23:18Z	2017-07-09T17:10:03Z	2017-07-09T17:10:02Z	test: new flakiness in test-process-kill-null.js	37		
 14142	96947	true	closed	false	1	0	2017-07-09T03:51:33Z	2017-07-09T17:10:03Z	2017-07-09T17:10:03Z	Temp revert 44483b6	36	96947	2017-07-09T17:10:02Z
 14143	505333	true	open	false			2017-07-09T12:17:46Z	2017-07-10T19:27:22Z		async_hooks: fix nested hooks mutation	55		
@@ -7668,5 +7668,5 @@
 14164	911174	true	open	false	3		2017-07-11T08:03:13Z	2017-07-11T11:22:21Z		[WIP] doc: build manpages for each module	300		
 14165	911174	true	open	false	0		2017-07-11T08:27:08Z	2017-07-11T12:13:57Z		tools: remove outdated package.json `engine` field	34		
 14166	563469	false	open	false	0		2017-07-11T13:15:11Z	2017-07-11T13:15:11Z		child_process, *nix, stdio undefined when kernel nofile limit hit	115		
-14167	8822573	true	open	false	0	0	2017-07-11T13:30:54Z	2017-07-11T13:30:54Z		lib: improve lazy loading	54		
+14167	8822573	true	open	false	0		2017-07-11T13:30:54Z	2017-07-11T14:57:49Z		lib: improve lazy loading	92		
 14168	96947	true	open	false	0	0	2017-07-11T14:05:30Z	2017-07-11T14:05:30Z		test: tweak `common`	50		
