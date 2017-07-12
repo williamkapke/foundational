@@ -4547,7 +4547,7 @@
 11038	2512748	true	closed	false	7		2017-01-27T20:15:56Z	2017-03-26T22:25:49Z	2017-03-26T10:31:34Z	test: cover thrown errors from exec() kill	54		
 11039	3673943	true	closed	false	11		2017-01-27T20:25:25Z	2017-01-30T20:15:37Z	2017-01-30T18:25:28Z	test-console: streamline arrow fn and refine inspect regex	47		
 11040	1093990	true	open	false	15		2017-01-27T20:32:18Z	2017-03-23T00:07:31Z		timers: use Maps for internal duration pooling	167		
-11041	718899	false	open	false	19		2017-01-27T21:31:56Z	2017-02-03T18:22:23Z		fix flaky sequential/test-child-process-pass-fd on fedora 24	273		
+11041	718899	false	closed	false	19		2017-01-27T21:31:56Z	2017-07-12T17:12:36Z	2017-07-12T17:12:36Z	fix flaky sequential/test-child-process-pass-fd on fedora 24	273		
 11042	4010111	false	closed	false	2		2017-01-27T21:41:37Z	2017-01-28T00:08:13Z	2017-01-27T21:55:46Z	C Stack Trace From ESLint ?	141		
 11043	234019	false	closed	false	1		2017-01-27T21:56:18Z	2017-01-28T11:23:40Z	2017-01-28T11:23:40Z	./configure --debug (node 6.9.2) fails on Alpine Linux	971		
 11044	17607	true	closed	false	11		2017-01-27T22:53:30Z	2017-02-11T22:11:48Z	2017-02-11T22:11:48Z	child_process: align fork/spawn stdio error msg 	15		
@@ -7478,7 +7478,7 @@
 13973	8822573	true	closed	false	10		2017-06-28T23:46:46Z	2017-07-09T18:17:55Z	2017-07-09T18:17:55Z	assert: improve performance	1455		
 13974	8822573	true	closed	false	4	9	2017-06-29T00:23:06Z	2017-07-02T02:26:48Z	2017-07-02T02:26:48Z	assert: fix assert.fail with zero arguments	74	96947	2017-07-02T02:26:48Z
 13975	718899	true	closed	false	1		2017-06-29T03:42:50Z	2017-07-02T05:36:00Z	2017-07-02T05:36:00Z	test: refactor test-crypto-pbkdf2	45		
-13976	10933333	true	open	false	11		2017-06-29T04:19:25Z	2017-07-12T16:43:39Z		errors, buffer: Migrate buffer errors to use internal/errors	48		
+13976	10933333	true	open	false	12		2017-06-29T04:19:25Z	2017-07-12T17:01:29Z		errors, buffer: Migrate buffer errors to use internal/errors	48		
 13977	718899	true	closed	false	3	0	2017-06-29T04:23:50Z	2017-07-02T05:37:07Z	2017-07-02T05:37:07Z	test: refactor test-fs-options-immutable	43		
 13978	1529044	false	closed	false	6		2017-06-29T06:53:41Z	2017-06-29T09:10:18Z	2017-06-29T09:10:18Z	Buffer.from is undefined in 0.12..x	33		
 13979	5449554	false	closed	false	2		2017-06-29T07:20:14Z	2017-06-29T12:48:38Z	2017-06-29T10:03:28Z	fs.readFileSync returns a Buffer object with wrong 'buffer' property	172		
@@ -7666,7 +7666,7 @@
 14161	3109072	false	open	false	0		2017-07-10T20:13:02Z	2017-07-10T20:13:02Z		node_zlib.cc assertion failure	2479		
 14162	78718	true	open	false	12		2017-07-11T01:23:43Z	2017-07-11T23:15:14Z		tools: eslint template curly spacing	81		
 14163	17535	true	open	false	7		2017-07-11T02:08:19Z	2017-07-12T04:31:12Z		deps: update npm to 5.2.0	138		
-14164	911174	true	open	false	6		2017-07-11T08:03:13Z	2017-07-12T15:30:53Z		[WIP] doc: build manpages for each module	300		
+14164	911174	true	open	false	7		2017-07-11T08:03:13Z	2017-07-12T17:06:44Z		[WIP] doc: build manpages for each module	300		
 14165	911174	true	open	false	6		2017-07-11T08:27:08Z	2017-07-12T00:22:25Z		tools: remove outdated package.json `engine` field	34		
 14166	563469	false	open	false	0		2017-07-11T13:15:11Z	2017-07-11T13:15:11Z		child_process, *nix, stdio undefined when kernel nofile limit hit	115		
 14167	8822573	true	open	false	5		2017-07-11T13:30:54Z	2017-07-12T15:33:26Z		lib: improve lazy loading	92		
@@ -7692,10 +7692,11 @@
 14187	677994	true	open	false	1		2017-07-12T11:48:10Z	2017-07-12T15:37:36Z		test: decrease duration of test-cli-syntax	73		
 14188	899444	true	open	false	0	0	2017-07-12T11:53:39Z	2017-07-12T11:53:39Z		deps: cherry-pick 6cb999b97b from V8 upstream	83		
 14189	718899	true	open	false	2		2017-07-12T13:58:16Z	2017-07-12T15:44:37Z		test: reduce run time for test-benchmark-crypto	59		
-14190	439929	false	open	false	0		2017-07-12T15:12:36Z	2017-07-12T15:12:36Z		Including docker image in standard release	62		
+14190	439929	false	open	false	6		2017-07-12T15:12:36Z	2017-07-12T17:27:44Z		Including docker image in standard release	62		
 14191	96947	false	open	false	1		2017-07-12T15:26:47Z	2017-07-12T16:33:36Z		test: post-snapshot `test-cli-node-options` timeouts on RasberryPi	25		
-14192	13298548	true	open	false			2017-07-12T15:35:31Z	2017-07-12T16:18:43Z		doc: fix document of Error.captureStackTrace	57		
-14193	1015758	false	open	false	0		2017-07-12T15:40:23Z	2017-07-12T16:44:02Z		Missing documentation for tls.parseCertString	44		
+14192	13298548	true	open	false			2017-07-12T15:35:31Z	2017-07-12T17:17:57Z		doc: fix document of Error.captureStackTrace	62		
+14193	1015758	false	open	false	2		2017-07-12T15:40:23Z	2017-07-12T17:18:05Z		Missing documentation for tls.parseCertString	44		
 14194	284023	false	open	false	0		2017-07-12T16:06:06Z	2017-07-12T16:06:06Z		GCC 7.1 compatibility	55		
-14195	96947	true	open	false	0	0	2017-07-12T16:28:19Z	2017-07-12T16:28:19Z		test: try to fix test-cli-node-options	48		
+14195	96947	true	open	false			2017-07-12T16:28:19Z	2017-07-12T17:08:08Z		test: try to fix test-cli-node-options	48		
 14196	2842176	true	open	false	0	0	2017-07-12T16:29:10Z	2017-07-12T16:29:10Z		doc: add tls.parseCertString()	26		
+14197	718899	true	open	false	0	0	2017-07-12T17:35:45Z	2017-07-12T17:35:45Z		tools: increase test timeouts	50		
