@@ -7435,7 +7435,7 @@
 13930	3364650	true	closed	false	0		2017-06-26T17:34:55Z	2017-06-26T19:44:28Z	2017-06-26T19:44:28Z	doc: fix a link in api/async_hooks.md	32		
 13931	17607	true	closed	false	23	10	2017-06-26T18:16:44Z	2017-07-06T21:10:31Z	2017-07-06T21:10:31Z	src: document --abort-on-uncaught-exception	48	17607	2017-07-06T21:10:31Z
 13932	17607	true	closed	false	1	2	2017-06-26T18:26:28Z	2017-07-05T21:00:06Z	2017-07-05T21:00:06Z	src: --abort-on-uncaught-exception in NODE_OPTIONS	53	17607	2017-07-05T21:00:06Z
-13933	9373002	false	open	false	0		2017-06-26T18:27:20Z	2017-06-26T18:27:20Z		N-API: add error code to error creation methods	92		
+13933	9373002	false	closed	false	1		2017-06-26T18:27:20Z	2017-07-13T19:14:15Z	2017-07-13T19:14:15Z	N-API: add error code to error creation methods	92		
 13934	2512748	true	closed	false	3	7	2017-06-26T18:47:28Z	2017-07-01T15:43:28Z	2017-07-01T15:43:28Z	n-api: add napi_delete_property()	41	2512748	2017-07-01T15:43:28Z
 13935	4923335	true	open	false	5		2017-06-26T18:54:26Z	2017-07-03T18:21:58Z		test: refactor test-http(s)-set-timeout-server	89		
 13936	16191	false	closed	false	9		2017-06-26T19:11:23Z	2017-06-30T21:35:29Z	2017-06-30T10:26:57Z	buffer.toString() no longer accepts null as encoding	92		
@@ -7473,7 +7473,7 @@
 13968	197742	false	closed	false	2		2017-06-28T17:28:17Z	2017-06-28T21:07:45Z	2017-06-28T21:07:45Z	Different behavior of process.argv on OSX and Windows	119		
 13969	96947	true	closed	false	3	4	2017-06-28T18:12:02Z	2017-06-30T20:15:20Z	2017-06-30T20:15:20Z	build,windows: fix vcbuild.bat	29	96947	2017-06-30T20:15:20Z
 13970	1716463	true	closed	false	2		2017-06-28T18:59:32Z	2017-07-03T20:10:23Z	2017-07-03T09:06:11Z	doc: fix api docs style	55		
-13971	931192	true	open	false	7		2017-06-28T21:19:14Z	2017-07-13T18:37:58Z		Add napi_fatal_error API	39		
+13971	931192	true	open	false	8		2017-06-28T21:19:14Z	2017-07-13T19:28:08Z		Add napi_fatal_error API	39		
 13972	931192	true	closed	false	1		2017-06-28T22:35:42Z	2017-06-29T03:21:36Z	2017-06-29T03:21:36Z	n-api: fix section title typo	21		
 13973	8822573	true	closed	false	10		2017-06-28T23:46:46Z	2017-07-09T18:17:55Z	2017-07-09T18:17:55Z	assert: improve performance	1455		
 13974	8822573	true	closed	false	4	9	2017-06-29T00:23:06Z	2017-07-02T02:26:48Z	2017-07-02T02:26:48Z	assert: fix assert.fail with zero arguments	74	96947	2017-07-02T02:26:48Z
@@ -7483,14 +7483,14 @@
 13978	1529044	false	closed	false	6		2017-06-29T06:53:41Z	2017-06-29T09:10:18Z	2017-06-29T09:10:18Z	Buffer.from is undefined in 0.12..x	33		
 13979	5449554	false	closed	false	2		2017-06-29T07:20:14Z	2017-06-29T12:48:38Z	2017-06-29T10:03:28Z	fs.readFileSync returns a Buffer object with wrong 'buffer' property	172		
 13980	2174968	true	open	false	3		2017-06-29T07:37:51Z	2017-07-04T15:42:26Z		test: add test for http outgoing internal headers	32		
-13981	7130689	true	open	false	1		2017-06-29T08:33:51Z	2017-07-10T17:14:57Z		test: http outgoing _renderHeaders	37		
+13981	7130689	true	open	false	2		2017-06-29T08:33:51Z	2017-07-13T19:08:17Z		test: http outgoing _renderHeaders	37		
 13982	3109072	true	closed	false	1		2017-06-29T09:54:32Z	2017-07-06T15:49:59Z	2017-07-02T12:28:58Z	process: use internal/errors in internalNextTick	29		
 13983	10393198	false	open	false	0		2017-06-29T10:08:39Z	2017-07-01T02:22:48Z		child_process: fork() with shell is impossible?	214		
 13984	7401419	false	closed	false	2		2017-06-29T10:54:22Z	2017-07-12T18:46:05Z	2017-07-12T18:46:05Z	test-ttywrap.readstream does not check if a valid TTY fd is available	128		
 13985	899444	true	closed	false	5		2017-06-29T11:47:10Z	2017-07-02T22:46:19Z	2017-07-02T22:46:19Z	v8: fix process.abort() interaction with V8	139		
 13986	134460	false	closed	false	2		2017-06-29T12:49:20Z	2017-06-30T12:32:09Z	2017-06-30T12:32:09Z	test-icu-data-dir and test-fs-readdir-ucs2 failing on master	54		
 13987	3109072	true	open	false	6		2017-06-29T13:28:49Z	2017-06-29T15:13:12Z		test: fix failure in test-icu-data-dir.js	33		
-13988	9373002	true	open	false	8		2017-06-29T15:42:59Z	2017-07-13T18:37:09Z		n-api: add code parameter to error helpers	135		
+13988	9373002	true	open	false	11		2017-06-29T15:42:59Z	2017-07-13T19:16:14Z		n-api: add code parameter to error helpers	135		
 13989	134460	true	closed	false	2		2017-06-29T15:48:01Z	2017-06-29T18:07:52Z	2017-06-29T17:56:58Z	test: mark test-fs-readdir-ucs2 flaky	76		
 13990	9373002	true	closed	false	3		2017-06-29T17:09:28Z	2017-07-06T05:18:59Z	2017-07-05T22:42:44Z	test: add coverage for napi_typeof	58		
 13991	289174	true	closed	false	10		2017-06-29T21:23:21Z	2017-07-12T20:37:07Z	2017-07-12T18:45:58Z	test: skip whether TTY is availble	48		
@@ -7617,7 +7617,7 @@
 14112	2732639	false	closed	false	3		2017-07-06T20:02:20Z	2017-07-10T11:07:49Z	2017-07-10T11:07:49Z	Build fails when cross compiling for arm7	342		
 14113	7749948	false	closed	false	3		2017-07-06T20:58:05Z	2017-07-07T18:32:33Z	2017-07-07T00:00:38Z	Node.js version 8.1.3 'make test' does not obey LD_LIBRARY_PATH	319		
 14114	5804246	false	closed	false	2		2017-07-06T21:31:06Z	2017-07-07T08:07:41Z	2017-07-07T08:07:41Z	moduleFoo/moduleFoo.js should work same as moduleFoo/Index.js	107		
-14115	17607	false	open	false	7		2017-07-06T21:39:54Z	2017-07-11T00:55:03Z		Windows vcbuild is missing FIPS support, like ./configure --openssl-fips	26		
+14115	17607	false	open	false	8		2017-07-06T21:39:54Z	2017-07-13T19:03:20Z		Windows vcbuild is missing FIPS support, like ./configure --openssl-fips	26		
 14116	931192	true	open	false	3		2017-07-06T23:07:12Z	2017-07-09T17:29:18Z		build: split up cpplint to avoid long cmd lines	44		
 14117	2512748	true	closed	false	2	0	2017-07-06T23:16:38Z	2017-07-13T15:27:43Z	2017-07-13T15:27:43Z	deps: upgrade libuv to 1.13.1	47	2512748	2017-07-13T15:27:43Z
 14118	24845478	false	open	false	2		2017-07-07T02:49:46Z	2017-07-09T17:33:42Z		[DOC] Buffer.from / new Buffer accept Uint8Array (missing)	23		
@@ -7642,7 +7642,7 @@
 14137	96947	false	open	false	0		2017-07-08T18:14:59Z	2017-07-08T18:14:59Z		discussion: eslint rule for `/test/` - `no-unused-vars: [error, {args: after-used, caughtErrors: all}]`	176		
 14138	96947	false	open	false	1		2017-07-08T18:40:45Z	2017-07-12T21:52:28Z		n-api: from zzo38 via IRC - `napi_finalize` feedback	80		
 14139	96947	false	open	false	3		2017-07-08T18:48:34Z	2017-07-11T12:41:07Z		"V8: from zzo38 via IRC - ""external"" value internalized"	68		
-14140	588262	true	open	false	15		2017-07-08T22:55:55Z	2017-07-13T15:14:28Z		cluster: overriding inspector port	125		
+14140	588262	true	open	false	16		2017-07-08T22:55:55Z	2017-07-13T19:12:32Z		cluster: overriding inspector port	125		
 14141	96947	false	closed	false	3		2017-07-09T03:23:18Z	2017-07-09T17:10:03Z	2017-07-09T17:10:02Z	test: new flakiness in test-process-kill-null.js	37		
 14142	96947	true	closed	false	1	0	2017-07-09T03:51:33Z	2017-07-09T17:10:03Z	2017-07-09T17:10:03Z	Temp revert 44483b6	36	96947	2017-07-09T17:10:02Z
 14143	505333	true	open	false	4		2017-07-09T12:17:46Z	2017-07-13T10:02:50Z		async_hooks: fix nested hooks mutation	55		
@@ -7709,7 +7709,7 @@
 14204	55474	true	open	false	0	0	2017-07-12T19:41:45Z	2017-07-12T19:41:45Z		doc: update configure to require g++ 4.9.4	39		
 14205	3997538	false	open	false	4		2017-07-12T20:51:50Z	2017-07-12T22:32:47Z		undefined port should trigger a RangeError when launching a server	169		
 14206	96947	false	open	false	5		2017-07-12T21:18:36Z	2017-07-13T17:38:05Z		test: cctest:EnvironmentTest.MultipleEnvironmentsPerIsolate flakes (post snapshot)	177		
-14207	9373002	true	open	false			2017-07-12T21:48:03Z	2017-07-13T16:36:50Z		doc: add guidance on testing new errors	33		
+14207	9373002	true	open	false			2017-07-12T21:48:03Z	2017-07-13T19:08:56Z		doc: add guidance on testing new errors	33		
 14208	289174	true	open	false			2017-07-12T22:52:32Z	2017-07-13T08:30:42Z		allow passing custom async_id to node::AsyncWrap::AsyncWrap	180		
 14209	289174	false	open	false	0		2017-07-12T23:59:10Z	2017-07-13T08:20:42Z		tracking issue: passing custom async_id's to node::AsyncWrap::AsyncWrap	563		
 14210	498775	false	open	false	1		2017-07-13T00:28:10Z	2017-07-13T05:43:16Z		We need to better document module_versions	86		
@@ -7724,5 +7724,6 @@
 14219	2352663	true	open	false	0	0	2017-07-13T14:12:10Z	2017-07-13T14:12:10Z		build: do not run test-hash-seed with test-v8	70		
 14220	7190422	false	open	false	3		2017-07-13T14:52:03Z	2017-07-13T18:36:26Z		Making V8 6.1 ABI compatible with V8 6.0	342		
 14221	2512748	true	open	false	0	0	2017-07-13T15:14:50Z	2017-07-13T15:14:50Z		net: support passing null to listen()	71		
-14222	96947	false	open	false	3		2017-07-13T15:41:35Z	2017-07-13T16:03:33Z		CI: test with `--with-snapshot` on the slower platforms	45		
+14222	96947	false	open	false	4		2017-07-13T15:41:35Z	2017-07-13T19:53:13Z		CI: test with `--with-snapshot` on the slower platforms	45		
 14223	15952	true	open	false	0	0	2017-07-13T18:30:58Z	2017-07-13T18:30:58Z		repl: deprecate REPLServer.parseREPLKeyword	117		
+14224	718899	true	open	false	0	0	2017-07-13T19:22:59Z	2017-07-13T19:22:59Z		buffer: fix indentation nits	37		
