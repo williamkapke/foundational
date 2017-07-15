@@ -8,7 +8,7 @@
 540	555645	true	closed	false	33		2015-01-21T16:22:26Z	2017-04-22T05:00:45Z	2015-01-28T03:49:14Z	events: Alias EventEmitter.protoype.removeListener as EventEmitter.prototype.off 	95		
 548	1522145	false	closed	false	26		2015-01-22T03:48:27Z	2017-01-26T21:48:27Z	2017-01-26T21:48:27Z	Function redefinition in vm.runInContext	44		
 550	30827	false	closed	false	10		2015-01-22T05:35:22Z	2016-08-05T22:14:53Z	2016-08-05T22:14:53Z	Proposal: HTTP – Move `bodyHead` to `data` event	125		
-556	7656868	false	open	false	27		2015-01-22T12:22:06Z	2017-01-07T06:31:51Z		Silent Mode execution	314		
+556	7656868	false	open	false	28		2015-01-22T12:22:06Z	2017-07-15T09:50:26Z		Silent Mode execution	314		
 583	643505	false	open	false	52		2015-01-23T23:53:00Z	2017-04-12T21:04:47Z		streaming / iterative fs.readdir	50		
 616	1106489	false	closed	false	11		2015-01-27T02:44:36Z	2016-10-20T11:52:43Z	2015-06-24T23:04:28Z	url.relative (to complement path.relative)	101		
 643	829734	false	closed	false	32		2015-01-28T21:12:32Z	2017-02-07T10:58:10Z	2016-08-05T22:17:26Z	Using faster url parser	82		
@@ -350,7 +350,7 @@
 4682	439929	true	closed	false	132		2016-01-14T04:23:32Z	2016-10-19T16:28:24Z	2016-03-16T15:36:13Z	buffer: add Buffer.from(), Buffer.alloc() and Buffer.allocUnsafe(), soft-deprecate Buffer(num)	122		
 4685	11070840	false	closed	false	21		2016-01-14T06:13:50Z	2017-05-30T11:48:06Z	2017-05-30T11:48:06Z	Symantec Quarantining node-v5.4.1-x64.msi	30		
 4693	677994	true	closed	false	9		2016-01-14T14:48:11Z	2016-12-28T12:06:21Z	2016-01-19T15:37:27Z	src: cares_wrap: only loop through once on lookup	56		
-4697	8181630	false	open	false	5		2016-01-14T18:23:57Z	2017-01-03T22:35:09Z		Surprising I/O behaviour on Windows	670		
+4697	8181630	false	closed	false	6		2016-01-14T18:23:57Z	2017-07-15T09:46:15Z	2017-07-15T09:46:15Z	Surprising I/O behaviour on Windows	670		
 4701	189835	false	closed	false	63		2016-01-14T20:18:01Z	2017-06-01T05:27:47Z	2017-06-01T05:27:47Z	ES2016 compat issue with Buffer subclassing Uint8Array	163		
 4705	149531	false	closed	false	9		2016-01-14T22:35:52Z	2017-04-13T09:59:11Z	2017-04-13T09:59:10Z	Installer feature request: Warn on installation of node.js when prerequisites aren't met	63		
 4716	10805246	false	closed	false	4		2016-01-15T22:58:34Z	2016-12-01T18:02:37Z	2016-01-16T16:27:04Z	windows 7 cygwin64 installation, Make fails at tools/gyp_node.py	67		
@@ -416,7 +416,7 @@
 5323	3899684	true	closed	false	21		2016-02-19T11:38:23Z	2016-07-01T00:11:03Z	2016-04-22T04:48:28Z	doc: vm, run http server in vm by requiring	114		
 5334	309006	false	closed	false	6		2016-02-20T00:08:12Z	2017-07-07T23:35:37Z	2017-07-07T23:35:37Z	createReadStream pipe to createWriteStream fails, no errors	202		
 5344	1622515	false	closed	false	9		2016-02-21T05:47:46Z	2017-04-10T08:12:15Z	2016-08-04T19:44:36Z	VM: weird behaviour in runInContext/runInThisContext 	165		
-5350	3477316	false	open	false	8		2016-02-21T13:47:18Z	2016-12-16T15:49:08Z		sandbox inheritied properties flattened after vm.runInNewContext	174		
+5350	3477316	false	open	false	7		2016-02-21T13:47:18Z	2017-07-15T09:26:19Z		sandbox inheritied properties flattened after vm.runInNewContext	174		
 5360	677994	true	closed	false	18		2016-02-22T08:57:24Z	2016-07-12T10:24:59Z	2016-03-04T23:28:27Z	util: improve util.format performance	100		
 5362	524382	true	closed	false	9		2016-02-22T12:19:13Z	2017-02-28T23:13:27Z	2017-02-28T23:13:27Z	doc: Updating addons examples	36		
 5373	3899684	false	closed	false	10		2016-02-23T00:17:32Z	2017-05-30T04:32:33Z	2017-05-30T04:32:33Z	tests: deprecate test/parallel/test-child-process-double-pipe.js	101		
@@ -790,7 +790,7 @@
 7132	1084056	true	closed	false	10		2016-06-03T12:49:16Z	2016-07-12T07:01:48Z	2016-06-08T13:52:41Z	cluster: don't send messages if no IPC channel	53		
 7136	7594068	false	closed	false	5		2016-06-03T14:50:50Z	2017-03-24T14:21:40Z	2016-06-07T19:00:29Z	HTTP Parse Error if Response is using transfer-encoding chunked, but includes a content-length header	74		
 7137	439929	true	closed	false	9		2016-06-03T19:17:45Z	2017-02-16T16:20:53Z	2017-02-15T18:58:15Z	doc: general improvements to net.md copy	33		
-7141	10393198	false	open	false	14		2016-06-03T22:32:12Z	2017-01-06T18:03:04Z		URL to v8_inspector in the Windows console is inconvenient to copy	124		
+7141	10393198	false	open	false	15		2016-06-03T22:32:12Z	2017-07-15T09:47:41Z		URL to v8_inspector in the Windows console is inconvenient to copy	124		
 7144	899444	false	open	false	1		2016-06-04T00:43:27Z	2017-05-30T05:00:30Z		test/parallel/test-error-reporting.js fails with debug builds	211		
 7145	730640	false	open	false	8		2016-06-04T01:08:19Z	2017-01-17T17:53:16Z		observed setImmediate and setTimeout execution order contradicts documentation	163		
 7146	15693070	false	open	false	1		2016-06-04T01:28:07Z	2017-03-19T18:45:43Z		Interval stops after set date in the past from command line.	313		
@@ -1173,7 +1173,7 @@
 7654	4551130	false	closed	false	12		2016-07-11T11:54:59Z	2016-09-06T20:38:30Z	2016-09-06T14:04:28Z	v8 GC crash on node 4.4.7	271		
 7655	1449826	false	closed	false	7		2016-07-11T12:15:57Z	2016-10-09T14:09:47Z	2016-10-09T14:09:47Z	External objects should not be modified	73		
 7656	419466	false	closed	false	6		2016-07-11T13:00:04Z	2017-01-09T14:14:19Z	2017-01-09T14:14:19Z	Composition vs. prototype for module exports	68		
-7657	2197250	false	open	false	14		2016-07-11T14:11:57Z	2016-12-12T17:29:48Z		IPC can freeze the process	514		
+7657	2197250	false	open	false	15		2016-07-11T14:11:57Z	2017-07-15T09:11:34Z		IPC can freeze the process	514		
 7658	1495995	true	closed	false	20		2016-07-11T16:37:49Z	2017-04-14T22:02:54Z	2017-04-14T22:02:54Z	buffer:Performance increase for buffer-indexof	81		
 7659	9373002	false	closed	false	8		2016-07-11T21:07:55Z	2016-07-19T21:54:38Z	2016-07-19T21:54:38Z	s390: v8tests.cctest/test-platform/StackAlignment  in v8 tests	104		
 7660	275871	true	open	false	3		2016-07-11T21:10:40Z	2016-07-12T01:15:01Z		src: don't use locale-sensitive strcasecmp() (v4.x)	3		
@@ -2069,7 +2069,7 @@
 8551	291301	true	closed	false	23		2016-09-15T19:22:54Z	2017-03-07T20:29:09Z	2017-03-01T01:56:08Z	Introduce 'make doclint' command and tooling	99		
 8552	2352663	true	closed	false	11		2016-09-15T19:30:18Z	2016-10-24T16:47:44Z	2016-09-19T07:17:45Z	Improve buffer test coverage	39		
 8553	291301	true	closed	false	10	0	2016-09-15T19:35:59Z	2016-09-17T18:48:32Z	2016-09-17T18:48:32Z	doc: fix a formatting error in buffer.md	64	291301	2016-09-17T18:48:32Z
-8554	718899	false	open	false	8		2016-09-15T21:00:14Z	2016-12-08T14:02:43Z		Adopting project workflow to new GitHub features	159		
+8554	718899	false	closed	false	9		2016-09-15T21:00:14Z	2017-07-15T09:08:42Z	2017-07-15T09:08:42Z	Adopting project workflow to new GitHub features	159		
 8555	362089	false	closed	false	1		2016-09-15T23:22:40Z	2016-09-23T00:13:33Z	2016-09-23T00:13:33Z	vm: node crashes if timeout is set and nofile limit is reached	148		
 8556	3899684	true	closed	false	1		2016-09-16T00:43:41Z	2017-03-26T11:38:49Z	2017-03-26T11:38:49Z	doc, zlib: clarify zlib server example	103		
 8557	11638619	true	closed	false	3	0	2016-09-16T01:26:35Z	2016-09-18T02:13:20Z	2016-09-18T02:13:20Z	doc: remove extra comma in cluster docs	50		
@@ -2267,7 +2267,7 @@
 8749	1813603	true	closed	false	36		2016-09-23T19:07:34Z	2017-04-13T17:18:29Z	2016-10-24T19:19:26Z	Add NODE_PRESERVE_SYMLINKS environment variable	59		
 8750	9373002	false	closed	false	8		2016-09-23T20:25:54Z	2016-10-05T14:25:27Z	2016-10-05T14:25:27Z	V8: v8tests.mjsunit/regress/regress-crbug-514081 failure on PPC BE	45		
 8751	291301	true	closed	false	7		2016-09-23T20:57:02Z	2016-11-18T20:52:25Z	2016-10-06T22:29:25Z	dgram: use Buffer.alloc(0) for zero-size buffers	74		
-8752	122831	false	open	false	6		2016-09-23T21:14:21Z	2016-09-28T01:35:00Z		cannot use tls.TLSSocket created from net.Socket after first 'data' event	348		
+8752	122831	false	open	false	6		2016-09-23T21:14:21Z	2017-07-15T09:12:31Z		cannot use tls.TLSSocket created from net.Socket after first 'data' event	350		
 8753	287917	true	closed	false	0	0	2016-09-23T22:15:41Z	2016-09-26T16:29:21Z	2016-09-26T16:29:21Z	inspector: build file cleanup	39		
 8754	2352663	true	closed	false	6	0	2016-09-23T23:05:53Z	2016-09-26T18:14:32Z	2016-09-26T18:14:32Z	buffer: fix performance regression	296	2352663	2016-09-26T18:14:32Z
 8755	718899	true	open	false	3		2016-09-23T23:45:47Z	2016-09-26T14:58:18Z		test: accept expected AIX result test-stdio-closed	86		
@@ -2914,7 +2914,7 @@
 9396	7656167	true	closed	false	10		2016-11-01T11:34:04Z	2016-11-04T17:50:52Z	2016-11-04T15:01:14Z	doc: update COLLABORATOR_GUIDE and onboarding	43		
 9397	103052	true	closed	false	3	0	2016-11-01T11:49:01Z	2017-03-26T10:38:43Z	2017-03-26T10:38:42Z	tls: name every function	39		
 9398	2633065	true	closed	false	6	3	2016-11-01T12:27:12Z	2016-11-20T00:22:35Z	2016-11-20T00:22:35Z	crypto: return this in setAuthTag/setAAD	47		
-9399	2512748	false	open	false	7		2016-11-01T15:53:35Z	2017-01-08T19:13:44Z		doc: add data types to properties	54		
+9399	2512748	false	closed	false	8		2016-11-01T15:53:35Z	2017-07-15T09:52:33Z	2017-07-15T09:52:33Z	doc: add data types to properties	54		
 9400	11139560	false	closed	false	13		2016-11-01T16:46:00Z	2017-01-09T08:55:01Z	2017-01-09T08:55:01Z	old flags for previous node versions should result in no-op, not error, for current version (?)	147		
 9401	643344	false	closed	false	8		2016-11-01T17:09:46Z	2016-11-02T04:39:46Z	2016-11-02T03:59:39Z	async/await: Support .catch only, on await lines.	110		
 9402	115237	false	closed	false	4		2016-11-01T19:05:09Z	2016-11-04T16:17:38Z	2016-11-04T16:17:38Z	Consistent trailing newlines	71		
@@ -3011,7 +3011,7 @@
 9493	718899	false	closed	false	7		2016-11-06T13:57:57Z	2017-01-30T18:24:56Z	2017-01-30T18:24:56Z	"timers ""depth"" benchmark usefulness"	214		
 9494	4985028	false	open	false	1		2016-11-06T14:50:31Z	2016-11-06T15:13:55Z		"Research Discussion: ""Smash-ons"" vs add-ons to simplify access to native libraries"	312		
 9495	767105	true	closed	false	1		2016-11-06T21:42:39Z	2016-11-11T20:05:14Z	2016-11-11T20:05:14Z	grammar and structure revisions of wg doc	69		
-9496	91933	false	open	false	11		2016-11-07T01:22:22Z	2016-12-12T14:52:19Z		Official Debian/Ubuntu packages	108		
+9496	91933	false	open	false	11		2016-11-07T01:22:22Z	2017-07-15T09:10:48Z		Official Debian/Ubuntu packages	108		
 9497	718899	true	closed	false	4		2016-11-07T01:53:59Z	2016-12-13T22:03:57Z	2016-11-10T03:19:39Z	benchmark: split timers benchmark and refactor	198		
 9498	718899	true	closed	false	1		2016-11-07T04:05:19Z	2016-11-10T03:22:10Z	2016-11-10T03:22:10Z	test: refactor make-callback-recurse test	39		
 9499	718899	true	closed	false	1		2016-11-07T04:23:43Z	2016-11-10T03:27:51Z	2016-11-10T03:27:51Z	test: refactor inspector-helper.js	54		
@@ -3036,7 +3036,7 @@
 9518	432351	true	closed	false	10	0	2016-11-08T20:09:03Z	2016-11-16T06:54:13Z	2016-11-16T06:54:13Z	doc: make comment indentation consistent	85		
 9519	11139560	false	open	false	9		2016-11-08T20:52:54Z	2017-07-15T07:36:47Z		n.kill(19) throws error	60		
 9520	275871	true	closed	false	10	0	2016-11-08T21:11:37Z	2016-11-15T16:17:20Z	2016-11-15T16:17:19Z	tools: fix run-valgrind.py script	5		
-9521	983798	false	open	false	12		2016-11-08T22:13:26Z	2016-12-25T12:42:25Z		Changes to `file:` URL formatting in Node v7 cause problems for npm	268		
+9521	983798	false	closed	false	13		2016-11-08T22:13:26Z	2017-07-15T09:40:20Z	2017-07-15T09:40:20Z	Changes to `file:` URL formatting in Node v7 cause problems for npm	268		
 9522	1269045	false	open	false	0		2016-11-08T22:13:57Z	2016-11-08T22:13:57Z		npm fails in 6.9.1 installation	99		
 9523	448908	false	closed	false	15		2016-11-09T00:04:38Z	2016-12-05T17:31:09Z	2016-12-05T17:31:09Z	unhandledRejection Stack Traces are unhelpful	160		
 9524	718899	true	open	false	0	0	2016-11-09T00:33:36Z	2016-11-09T00:33:36Z		zlib: fix linting recently-introduce lint error	58		
@@ -3127,7 +3127,7 @@
 9609	54666	false	closed	false	1		2016-11-14T23:37:08Z	2016-11-18T22:39:15Z	2016-11-18T22:39:15Z	doc: crypto.privateEncrypt() padding list needs update	44		
 9610	498775	true	closed	false	3		2016-11-15T00:29:34Z	2016-11-17T23:00:07Z	2016-11-17T19:51:09Z	Fix V8 patch	221		
 9611	5035902	true	closed	false	4	0	2016-11-15T02:30:41Z	2016-11-18T22:38:53Z	2016-11-18T22:38:53Z	doc: remove invalid padding from privateEncrypt	27		
-9612	238531	false	open	false	11		2016-11-15T02:32:25Z	2016-12-06T00:18:43Z		Detailed report for async_wrap in `process.memoryUsage()`	29		
+9612	238531	false	open	false	11		2016-11-15T02:32:25Z	2017-07-15T09:03:13Z		Detailed report for async_wrap in `process.memoryUsage()`	29		
 9613	677994	true	closed	false	3		2016-11-15T11:30:50Z	2017-01-23T22:19:50Z	2016-11-17T13:50:20Z	src: use ABORT() macro instead of abort()	43		
 9614	708013	true	closed	false	8		2016-11-15T11:50:08Z	2016-11-25T00:40:26Z	2016-11-24T20:23:50Z	doc: changed order of invocations in example.	66		
 9615	17704638	true	closed	false	27		2016-11-15T11:53:23Z	2017-03-08T10:50:39Z	2017-03-06T15:40:58Z	benchmark: remove %OptimizeFunctionOnNextCall	138		
@@ -3169,7 +3169,7 @@
 9651	5355921	true	closed	false	23		2016-11-17T01:24:28Z	2017-03-21T16:12:08Z	2017-03-21T15:35:12Z	child_process: support numeric signal argument to kill.	73		
 9652	899444	true	open	false	38		2016-11-17T01:59:55Z	2016-12-14T17:32:50Z		src: allow loading lib/ files from disk	147		
 9653	10134378	true	closed	false	8		2016-11-17T04:59:59Z	2016-12-14T11:42:11Z	2016-12-14T11:42:11Z	url: add a got host pattern in url.js	39		
-9654	1131567	false	open	false	1		2016-11-17T05:20:20Z	2016-11-18T04:48:13Z		Buffer.isEncoding regards an empty string as a valid encoding	154		
+9654	1131567	false	open	false	1		2016-11-17T05:20:20Z	2017-07-15T09:51:41Z		Buffer.isEncoding regards an empty string as a valid encoding	154		
 9655	739813	true	closed	false	2		2016-11-17T05:57:27Z	2017-01-02T20:48:08Z	2017-01-02T20:48:08Z	doc: redirect 'Start a Working Group' to TSC repo	56		
 9656	739813	true	closed	false	5		2016-11-17T06:35:00Z	2016-12-28T06:47:07Z	2016-12-28T06:47:07Z	doc: add Working Group revocation text	149		
 9657	1204466	true	closed	false	6		2016-11-17T07:05:43Z	2016-12-20T19:47:36Z	2016-11-30T16:01:06Z	build: Make configure file parseable on python3	43		
@@ -3279,7 +3279,7 @@
 9761	1211498	true	closed	false	3		2016-11-23T13:03:26Z	2016-12-03T21:50:32Z	2016-11-23T13:18:20Z	crypto: do not use pointers to std::vector	88		
 9762	275871	true	closed	false	1		2016-11-23T13:21:03Z	2016-12-20T19:33:14Z	2016-11-25T15:42:13Z	inspector: /json/version returns object, not array	17		
 9763	176984	true	closed	false	8		2016-11-23T13:21:08Z	2016-12-01T16:35:55Z	2016-12-01T16:35:55Z	v4: fix building v8 on libc++ 3.8.0	57		
-9764	12443664	false	open	false	4		2016-11-23T13:24:04Z	2016-12-07T10:43:14Z		Perf issue: Increased footprint in benchmark on PPC64 on 6.8.0	163		
+9764	12443664	false	open	false	4		2016-11-23T13:24:04Z	2017-07-15T09:08:00Z		Perf issue: Increased footprint in benchmark on PPC64 on 6.8.0	163		
 9765	9373002	false	closed	false	5		2016-11-23T14:57:36Z	2016-11-25T15:41:01Z	2016-11-25T15:41:01Z	AIX: hang on pseudo-tty/no_interleaved_stdio	34		
 9766	1559888	false	closed	false	4		2016-11-23T15:10:59Z	2016-11-23T18:24:55Z	2016-11-23T18:24:55Z	Node.js API cleanup ideas for feedback	126		
 9767	1559888	true	closed	false	5		2016-11-23T15:15:06Z	2016-11-24T14:42:19Z	2016-11-24T13:55:56Z	node.h [API] cleanup: remove node_internals.h & extra dependencies from node.h	240		
@@ -3374,7 +3374,7 @@
 9856	835897	false	closed	false	3		2016-11-30T15:12:18Z	2016-12-01T12:58:35Z	2016-12-01T03:32:52Z	Build failure on Solaris 10 with Node v7	55		
 9857	6272507	true	open	false	4		2016-11-30T15:54:24Z	2016-12-03T00:39:55Z		test: update test-debugger-client.js to use strictEqual	47		
 9858	6272507	true	closed	false	2		2016-11-30T16:32:10Z	2016-12-03T00:49:05Z	2016-12-03T00:49:05Z	test: update test-zlib-truncated to use strictEqual	44		
-9859	348	false	open	false	4		2016-11-30T19:45:15Z	2016-12-14T21:09:37Z		README gpg guidelines are insufficient	90		
+9859	348	false	closed	false	5		2016-11-30T19:45:15Z	2017-07-15T09:15:30Z	2017-07-15T09:15:30Z	README gpg guidelines are insufficient	90		
 9860	718899	true	closed	false	2	0	2016-11-30T21:26:20Z	2016-12-05T06:59:39Z	2016-12-05T06:59:39Z	debugger: refactor _debugger.js	43		
 9861	15943089	false	closed	false	12		2016-11-30T22:59:42Z	2017-02-17T01:17:58Z	2017-02-17T01:17:58Z	Build failures with ninja	162		
 9862	17607	true	closed	false	4		2016-11-30T23:21:51Z	2016-12-06T17:57:16Z	2016-12-05T23:14:21Z	doc: remove Sam Roberts from release team	34		
@@ -3494,7 +3494,7 @@
 9976	2294736	true	closed	false	3	0	2016-12-01T17:03:54Z	2016-12-07T15:24:49Z	2016-12-07T15:24:49Z	test: assert.throws() should include a RegExp	54		
 9977	5799538	true	closed	false	9	3	2016-12-01T17:04:46Z	2016-12-04T05:08:58Z	2016-12-04T05:08:58Z	nina 2016 code-n-learn, issue: use assert.Equal()	64		
 9978	408692	true	closed	false	6		2016-12-01T17:07:09Z	2016-12-20T22:02:30Z	2016-12-05T20:43:42Z	test: Modernize test-fs-truncate-fd	61		
-9979	4577691	false	open	false	18		2016-12-01T17:07:24Z	2016-12-19T05:12:09Z		Test hangs on OSX 10.9.5 test-domain-no-error-handler-abort-on-uncaught.js	36		
+9979	4577691	false	open	false	18		2016-12-01T17:07:24Z	2017-07-15T09:33:12Z		Test hangs on OSX 10.9.5 test-domain-no-error-handler-abort-on-uncaught.js	36		
 9980	7246312	true	open	false	3		2016-12-01T17:07:28Z	2016-12-04T04:17:03Z		Updated test-crypto-ecb.js to change assert.equal to assert.strictEqual	44		
 9981	1535252	true	closed	false	3	0	2016-12-01T17:09:02Z	2016-12-08T00:50:55Z	2016-12-08T00:50:55Z	test: fix error in test-cluster-worker-death.js	63		
 9982	6641809	true	closed	false	4		2016-12-01T17:09:03Z	2016-12-06T06:57:00Z	2016-12-06T06:57:00Z	test:changed equal to strictEqual in test-child-fork-exec-path.js	44		
@@ -3659,7 +3659,7 @@
 10141	1559888	true	closed	false	8		2016-12-06T14:05:47Z	2017-01-23T02:47:22Z	2016-12-27T22:47:28Z	url: build warning fixes	87		
 10142	1559888	true	open	false			2016-12-06T14:13:21Z	2016-12-08T13:27:54Z		crypto: build warning fixes	143		
 10143	1559888	true	closed	false	8		2016-12-06T14:18:19Z	2017-06-19T11:28:54Z	2016-12-27T22:41:06Z	dtrace: resolve conversion warning (Windows)	107		
-10144	9373002	false	open	false	4		2016-12-06T14:22:58Z	2016-12-06T22:38:12Z		Cluster tests (test changes ?) leaving processes behind	139		
+10144	9373002	false	closed	false	5		2016-12-06T14:22:58Z	2017-07-15T09:06:08Z	2017-07-15T09:06:07Z	Cluster tests (test changes ?) leaving processes behind	139		
 10145	1559888	true	closed	false	2		2016-12-06T14:32:34Z	2016-12-08T09:24:43Z	2016-12-08T09:24:43Z	src: resolve miscellaneous conversion warnings (Windows)	160		
 10146	2251119	true	closed	false	7		2016-12-06T16:26:36Z	2016-12-26T13:06:31Z	2016-12-09T14:28:43Z	test: add stdin-setrawmode.out file to accompany test	68		
 10147	1093990	true	closed	false	1	8	2016-12-06T16:26:52Z	2016-12-08T18:42:54Z	2016-12-08T18:42:54Z	doc: add some info on `tty#setRawMode()`	54	1093990	2016-12-08T18:42:54Z
@@ -3673,7 +3673,7 @@
 10155	439929	true	closed	false	17		2016-12-06T19:56:27Z	2017-06-18T02:23:48Z	2017-03-10T19:28:45Z	Restore copyright attribution	249		
 10156	237796	true	closed	false	18		2016-12-06T21:06:01Z	2016-12-18T01:22:27Z	2016-12-18T01:22:27Z	build: change nosign flag to sign and flip the logic	158		
 10157	115237	true	closed	false	14		2016-12-06T21:39:47Z	2017-05-15T21:59:03Z	2016-12-22T23:27:33Z	src/doc: improve man page and --help	72		
-10158	17607	false	open	false	0		2016-12-06T22:35:13Z	2016-12-06T22:35:13Z		debugging a process causes disconnect event to not fire	323		
+10158	17607	false	open	false	0		2016-12-06T22:35:13Z	2017-07-15T09:10:03Z		debugging a process causes disconnect event to not fire	323		
 10159	287917	true	closed	false	3		2016-12-06T23:03:13Z	2017-03-08T21:03:13Z	2016-12-09T17:14:50Z	inspector: stop relying on magic strings	64		
 10160	10393198	true	open	false	7		2016-12-06T23:46:21Z	2016-12-12T22:20:39Z		doc: some fixes in repl.md	123		
 10161	718899	true	closed	false	15		2016-12-07T05:14:45Z	2017-02-05T14:15:07Z	2016-12-07T15:37:08Z	test: move long-running test to sequential	55		
@@ -3729,10 +3729,10 @@
 10211	1037138	true	closed	false	9		2016-12-10T01:06:46Z	2017-01-23T07:36:19Z	2016-12-15T21:51:38Z	doc: document R CRAN mirror process	67		
 10212	718899	true	closed	false	6		2016-12-10T06:49:23Z	2016-12-13T21:42:32Z	2016-12-13T21:42:32Z	test: fix flaky test-dgram-exclusive-implicit-bind	103		
 10213	2352663	true	closed	false	7		2016-12-10T10:15:12Z	2017-01-23T00:23:27Z	2016-12-23T04:31:32Z	tools: enforce linebreak after ternary operators	44		
-10214	880513	false	open	false	4		2016-12-10T13:38:29Z	2016-12-16T07:21:23Z		stream: readable.push returns true at internal buffer size equal highWaterMark	161		
+10214	880513	false	closed	false	5		2016-12-10T13:38:29Z	2017-07-15T09:22:36Z	2017-07-15T09:22:36Z	stream: readable.push returns true at internal buffer size equal highWaterMark	161		
 10218	10773353	false	closed	false	6		2016-12-10T16:30:54Z	2017-03-20T11:38:48Z	2017-03-20T05:27:13Z	Add button at reading docs	33		
 10219	1189785	true	closed	false	10		2016-12-10T16:53:25Z	2016-12-19T11:54:17Z	2016-12-19T11:54:17Z	test: refactor the code in test-dns-ipv6	62		
-10220	5356588	false	open	false	4		2016-12-10T20:16:07Z	2017-01-03T21:20:06Z		Cannot debug code with `node --inspect` due to: Uncaught ReferenceError: DevToolsAPI is not defined	200		
+10220	5356588	false	closed	false	6		2016-12-10T20:16:07Z	2017-07-15T09:44:24Z	2017-07-15T09:44:24Z	Cannot debug code with `node --inspect` due to: Uncaught ReferenceError: DevToolsAPI is not defined	200		
 10221	10393198	true	open	false	2		2016-12-10T23:47:33Z	2016-12-12T21:10:27Z		doc: document argument variant in the repl.md	97		
 10222	490562	false	closed	false	4		2016-12-11T00:54:31Z	2016-12-11T05:27:34Z	2016-12-11T05:27:34Z	Error message when destructuring a non array is unclear	124		
 10223	12378597	false	closed	false	4		2016-12-11T02:59:00Z	2017-02-04T11:28:21Z	2017-02-04T11:28:21Z	Object.defineProperty on the global object does not handle 'writable' properly in vm context	174		
@@ -3807,7 +3807,7 @@
 10292	24595609	false	open	false	29		2016-12-15T21:33:47Z	2017-03-29T23:51:29Z		console.log and util.format should support the %i integer conversion	110		
 10293	718899	true	closed	false	7		2016-12-15T22:03:26Z	2016-12-19T04:59:21Z	2016-12-19T04:59:21Z	test: fix flaky test-http-client-timeout-event	45		
 10294	17607	true	closed	false	6		2016-12-15T22:26:59Z	2017-01-25T18:58:06Z	2016-12-19T21:49:25Z	tls: allow obvious key/passphrase combinations	94		
-10295	9287	false	open	false	2		2016-12-15T22:43:36Z	2016-12-16T05:25:22Z		RFE: A way to spawn a foreground process	172		
+10295	9287	false	closed	false	4		2016-12-15T22:43:36Z	2017-07-15T09:21:40Z	2017-07-15T09:21:40Z	RFE: A way to spawn a foreground process	172		
 10296	677994	true	closed	false	3		2016-12-15T23:25:24Z	2017-01-23T02:35:21Z	2016-12-23T06:10:42Z	repl: allow autocompletion for scoped packages	59		
 10297	1189785	true	closed	false	3		2016-12-16T00:10:03Z	2016-12-23T06:26:48Z	2016-12-23T06:26:48Z	test: refactor code in test-cluster-http-pipe	72		
 10298	13918090	true	open	false	0	0	2016-12-16T02:26:42Z	2016-12-16T02:26:42Z		Merge pull request #1 from nodejs/master	50		
@@ -3816,7 +3816,7 @@
 10301	2352663	true	closed	false	6		2016-12-16T08:48:33Z	2017-01-22T23:52:11Z	2016-12-19T07:08:16Z	tools: forbid template literals in assert.throws	69		
 10302	24506672	false	closed	false	13		2016-12-16T11:24:19Z	2017-01-09T14:20:31Z	2017-01-09T14:20:31Z	child_process.spawn parity between windows and posix	171		
 10303	175003	false	open	false	1		2016-12-16T12:39:40Z	2016-12-16T13:27:46Z		error when building node 7 series on OpenWRT + mips relying on uClibc	183		
-10304	20139338	false	open	false	8		2016-12-16T13:56:29Z	2016-12-16T15:03:07Z		Error when compiling Node.js for an ARM architecture	130		
+10304	20139338	false	closed	false	10		2016-12-16T13:56:29Z	2017-07-15T09:24:09Z	2017-07-15T09:24:08Z	Error when compiling Node.js for an ARM architecture	130		
 10305	20139338	false	open	false	1		2016-12-16T15:44:37Z	2016-12-16T16:19:09Z		/usr/bin/env: node: No such file or directory	229		
 10306	2109932	false	closed	false	2		2016-12-16T17:21:12Z	2017-01-01T10:03:05Z	2017-01-01T10:03:05Z	Invalid Url when domain contains between 4 and 9 digits	112		
 10307	21308568	false	closed	false	4		2016-12-16T18:12:17Z	2016-12-16T21:17:27Z	2016-12-16T21:17:27Z	Node Build Size	61		
@@ -3844,13 +3844,13 @@
 10332	12590769	false	closed	false	2		2016-12-19T06:52:26Z	2017-04-29T22:10:26Z	2017-04-29T22:10:26Z	"output ""Segmentation fault"" when runing https"	43		
 10333	1171691	true	closed	false	8		2016-12-19T08:59:29Z	2016-12-23T06:47:41Z	2016-12-23T06:47:41Z	child_process: Support bash as shell.	77		
 10334	7865528	false	open	false	0		2016-12-19T10:22:13Z	2016-12-19T10:22:13Z		;	6		
-10335	15943089	false	open	false	7		2016-12-19T11:17:03Z	2016-12-19T18:08:06Z		REPL .load SyntaxError with test-stdio-closed.js 	177		
-10336	15943089	false	open	false	6		2016-12-19T12:06:57Z	2016-12-19T17:05:32Z		Clarify dont-land-on labels	423		
+10335	15943089	false	closed	false	7		2016-12-19T11:17:03Z	2017-07-15T09:36:02Z	2017-07-15T09:36:02Z	REPL .load SyntaxError with test-stdio-closed.js 	177		
+10336	15943089	false	open	false	8		2016-12-19T12:06:57Z	2017-07-15T09:35:12Z		Clarify dont-land-on labels	424		
 10337	12075322	true	closed	false	1		2016-12-19T13:02:11Z	2016-12-21T13:33:18Z	2016-12-21T13:33:18Z	 doc: fix broken link in COLLABORATOR_GUIDE.md	59		
 10338	14080426	false	open	false	13		2016-12-19T15:15:38Z	2017-01-31T00:33:25Z		V8 Inspector not showing all files in sources	47		
 10339	15161981	true	open	false	10		2016-12-19T15:53:53Z	2017-01-23T20:03:10Z		test: only check fd 0,1,2 are used and not their access modes	71		
 10340	21282864	false	open	false	0		2016-12-19T16:19:49Z	2016-12-19T16:19:49Z		Sessions working fine on localhost, but gets expired in Chrome/Firefox after some time.	52		
-10341	3899684	false	open	false	3		2016-12-19T17:01:31Z	2017-01-06T23:47:22Z		build, api, docs: android support	155		
+10341	3899684	false	open	false	5		2016-12-19T17:01:31Z	2017-07-15T09:48:42Z		build, api, docs: android support	155		
 10342	1485909	true	closed	false	9		2016-12-19T19:03:03Z	2016-12-20T00:38:41Z	2016-12-20T00:38:41Z	deps: cherry-pick 081fce3 from V8 upstream	12		
 10343	6487691	true	closed	false	8	36	2016-12-19T19:22:34Z	2017-04-22T23:41:59Z	2017-04-22T23:41:59Z	doc: Update CONTRIBUTING.md with backport info	120		
 10344	54666	false	closed	false	8		2016-12-19T19:39:27Z	2016-12-21T16:07:54Z	2016-12-21T16:07:54Z	http: IncomingMessage not emitting 'end'	126		
@@ -3863,11 +3863,11 @@
 10351	19588484	true	open	false	0	0	2016-12-20T03:38:15Z	2016-12-20T03:38:15Z		Update code latest code changes	50		
 10352	495647	true	closed	false	14	0	2016-12-20T04:15:34Z	2016-12-21T14:30:02Z	2016-12-21T14:30:02Z	v0.12.18 release proposal	116	495647	2016-12-21T14:30:02Z
 10353	718899	true	closed	false	3		2016-12-20T05:43:11Z	2016-12-23T00:38:49Z	2016-12-23T00:38:49Z	test: refactor test-stream2-writable	64		
-10354	12243963	false	open	false	3		2016-12-20T09:20:00Z	2016-12-22T16:10:07Z		getHeader() returns undefined after using writeHead() in a certain circumstance	112		
+10354	12243963	false	open	false	3		2016-12-20T09:20:00Z	2017-07-15T09:37:33Z		getHeader() returns undefined after using writeHead() in a certain circumstance	112		
 10355	275871	true	closed	false	5		2016-12-20T11:59:37Z	2017-01-17T08:10:46Z	2017-01-17T08:10:46Z	build: add node_module_version to config.gypi	5		
 10356	275871	true	closed	false	5	0	2016-12-20T12:12:03Z	2016-12-21T12:08:01Z	2016-12-21T12:08:01Z	deps: define missing operator delete functions	83		
 10357	5655189	true	closed	false	3		2016-12-20T13:00:43Z	2016-12-23T07:04:05Z	2016-12-23T07:01:23Z	test: refactor the code in test-fs-watch.js	70		
-10358	40952	false	open	false	6		2016-12-20T13:21:44Z	2017-01-01T17:19:09Z		HTTP client returns truncated response	464		
+10358	40952	false	open	false	6		2016-12-20T13:21:44Z	2017-07-15T09:41:34Z		HTTP client returns truncated response	464		
 10359	22550884	true	closed	false	14		2016-12-20T19:48:31Z	2017-01-23T04:16:51Z	2016-12-24T23:45:29Z	test: basic  functionality of readUIntLE()	29		
 10360	54666	true	closed	false	1		2016-12-20T20:03:29Z	2017-01-23T00:39:11Z	2016-12-24T07:26:43Z	benchmark: use commas in non-csv rate output	55		
 10361	498775	false	closed	false	2		2016-12-20T21:20:08Z	2017-04-26T05:51:22Z	2017-04-26T05:51:22Z	Debugger tests are timing out on v4.x	27		
@@ -3924,7 +3924,7 @@
 10412	6211775	false	open	false	3		2016-12-22T16:37:36Z	2016-12-22T17:04:04Z		child_process.fork and child_process.exec do not work together.	191		
 10413	17607	true	closed	false	3		2016-12-22T16:54:49Z	2017-01-23T22:20:02Z	2016-12-29T21:41:29Z	crypto: use CHECK_NE instead of ABORT or abort	53		
 10414	17607	true	closed	false	5	0	2016-12-22T18:33:10Z	2016-12-27T21:41:44Z	2016-12-27T21:41:44Z	src: describe what NODE_MODULE_VERSION is for	45		
-10415	10456131	false	open	false	2		2016-12-22T20:07:43Z	2016-12-22T23:16:30Z		Problem with pipe : EPIPE read.	219		
+10415	10456131	false	closed	false	2		2016-12-22T20:07:43Z	2017-07-15T09:37:57Z	2017-07-15T09:37:57Z	Problem with pipe : EPIPE read.	219		
 10416	1084056	true	closed	false	1		2016-12-22T20:51:02Z	2017-03-07T03:31:40Z	2016-12-28T09:59:40Z	Fix trace warnings	50		
 10417	22550884	true	closed	false	6		2016-12-22T22:28:02Z	2017-01-23T04:11:42Z	2016-12-23T20:12:32Z	test: basic functionality of readUIntBE()	26		
 10418	4923947	true	closed	false	6		2016-12-22T23:25:38Z	2016-12-24T02:09:09Z	2016-12-24T02:09:09Z	test test-child-process-stdin.js: change assert.ok to assert.strictEqual	52		
@@ -4085,7 +4085,7 @@
 10573	17898715	false	closed	false	2		2017-01-02T11:21:53Z	2017-01-06T10:09:21Z	2017-01-06T10:09:21Z	I spawn through the creation of sub-thread How non-stdio: 'inherit' set tty to true	14		
 10574	327019	true	open	false	4		2017-01-02T16:00:01Z	2017-05-26T19:21:07Z		lib: clarify get byteLength	46		
 10575	327019	true	closed	false	14	0	2017-01-02T17:26:18Z	2017-05-04T07:49:51Z	2017-05-04T07:49:51Z	buffer: improve buff.toString(encoding, start, end)	75		
-10576	6354455	false	open	false	2		2017-01-02T17:29:59Z	2017-01-03T06:13:26Z		"Fallowing ""How to write a test for the Node.js Project"" guide"	56		
+10576	6354455	false	closed	false	4		2017-01-02T17:29:59Z	2017-07-15T09:43:42Z	2017-07-15T09:43:42Z	"Fallowing ""How to write a test for the Node.js Project"" guide"	56		
 10577	2512748	true	closed	false	8	1	2017-01-02T17:44:51Z	2017-01-05T17:07:09Z	2017-01-05T17:07:09Z	test: refactor test-beforeexit-event-exit.js	25	2512748	2017-01-05T17:07:09Z
 10578	4483844	false	open	false	0		2017-01-02T17:46:49Z	2017-01-02T17:46:49Z		URL generation prevents me from being able to reload DevTools	98		
 10579	7041728	true	closed	false	9		2017-01-02T23:26:45Z	2017-03-07T01:51:38Z	2017-01-04T19:11:16Z	assert: update comments	122		
@@ -7582,7 +7582,7 @@
 14074	432351	true	closed	false	5		2017-07-04T15:12:13Z	2017-07-06T12:09:22Z	2017-07-06T12:09:22Z	test: check and fail inspector-cluster-port-clash	71		
 14075	8822573	true	open	false			2017-07-04T16:30:21Z	2017-07-05T16:21:46Z		doc: os.homedir might throw	45		
 14076	276295	false	open	false	2		2017-07-04T18:34:37Z	2017-07-04T20:06:21Z		Can't build stuff (using gyp) on FreeBSD 11.1 (or clang 4.0)	297		
-14077	276295	true	open	false			2017-07-04T19:34:21Z	2017-07-06T02:13:45Z		tools: skip workaround for newer llvm	78		
+14077	276295	true	open	false	8		2017-07-04T19:34:21Z	2017-07-15T09:18:20Z		tools: skip workaround for newer llvm	78		
 14078	718899	true	closed	false	2		2017-07-05T01:02:09Z	2017-07-07T14:01:49Z	2017-07-07T14:01:49Z	lib: use consistent indentation for ternaries	48		
 14079	718899	true	closed	false	1		2017-07-05T03:50:36Z	2017-07-07T03:53:42Z	2017-07-07T03:53:42Z	tools: remove align-multiline-assignment lint rule	46		
 14080	6447530	false	open	false	3		2017-07-05T04:43:17Z	2017-07-05T12:18:38Z		aix: build failure with linker error in debug mode	46		
