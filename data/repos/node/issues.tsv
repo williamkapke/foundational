@@ -537,7 +537,7 @@
 6181	6279791	false	closed	false	5		2016-04-13T14:17:30Z	2016-09-27T13:15:32Z	2016-04-13T17:24:17Z	Uncaught TypeError when tab-completing constructor in REPL	66		
 6184	289174	true	closed	false	29		2016-04-13T19:21:38Z	2016-10-24T18:28:57Z	2016-05-24T20:44:10Z	src: no abort from GetFD if object isn't wrapped	88		
 6188	289174	false	closed	false	2		2016-04-13T22:14:46Z	2017-07-07T22:17:29Z	2017-07-07T22:17:29Z	net: bind TCP server after close() has run	234		
-6189	829269	false	open	false	9		2016-04-13T22:59:02Z	2017-01-26T06:59:32Z		Potential memory leak in UDP	130		
+6189	829269	false	open	false	10		2016-04-13T22:59:02Z	2017-07-16T02:52:21Z		Potential memory leak in UDP	130		
 6190	289174	false	open	false	12		2016-04-13T23:17:48Z	2017-07-10T04:05:30Z		net: multiple listen() events fail silently	95		
 6191	3899684	true	open	false	14		2016-04-14T00:15:12Z	2017-03-01T01:22:08Z		buffer: adds buffer.prototype.split / join	437		
 6202	7780985	true	closed	false	13		2016-04-14T22:29:02Z	2017-03-26T11:03:05Z	2017-03-26T11:03:05Z	net: do not bind TCP server after close has run	118		
@@ -2696,7 +2696,7 @@
 9178	101553	true	closed	false	2		2016-10-19T09:09:17Z	2016-10-20T12:13:20Z	2016-10-20T12:13:20Z	test: add regression test for instanceof	66		
 9179	882627	false	closed	false	5		2016-10-19T09:24:01Z	2016-10-21T10:24:20Z	2016-10-21T10:24:20Z	Deprecate querystring for URLSearchParams	34		
 9180	310593	false	open	false	0		2016-10-19T10:20:00Z	2016-10-19T10:20:00Z		Fatal error in node's core	264		
-9181	22077072	false	open	false	9		2016-10-19T11:28:59Z	2017-01-25T21:38:52Z		Upon reviewing the installation process it rolls back and reports a fatal error. 	324		
+9181	22077072	false	open	false	10		2016-10-19T11:28:59Z	2017-07-16T02:49:30Z		Upon reviewing the installation process it rolls back and reports a fatal error. 	324		
 9182	1093990	true	closed	false	1	0	2016-10-19T11:31:23Z	2016-10-19T18:29:18Z	2016-10-19T18:29:18Z	doc: v6 is now LTS rather than Current	41	1093990	2016-10-19T18:29:18Z
 9183	1093990	true	closed	false	2	0	2016-10-19T11:32:07Z	2016-10-19T18:26:03Z	2016-10-19T18:26:03Z	doc: fix some table problems in changelog.md	39	1093990	2016-10-19T18:26:03Z
 9184	275871	true	open	false	2		2016-10-19T11:33:54Z	2016-10-24T21:06:05Z		inspector: fix request path nullptr dereference	5		
@@ -3186,7 +3186,7 @@
 9668	1391805	false	open	false	4		2016-11-17T22:24:04Z	2017-03-24T02:22:48Z		HTTPParser inhibits garbage collection on keep-alive connections	167		
 9669	11648785	true	closed	false	14	12	2016-11-17T22:59:25Z	2016-12-05T23:20:39Z	2016-12-05T23:20:39Z	used es6 conventions for variables and anonymous functions declaration	37		
 9670	54666	true	closed	false	3	2	2016-11-18T03:30:07Z	2016-12-14T08:33:18Z	2016-12-14T08:33:18Z	fs: do not pass Buffer when toString() fails	84	54666	2016-12-14T08:33:18Z
-9671	413206	false	closed	false	21		2016-11-18T08:29:35Z	2017-01-26T14:28:47Z	2017-01-26T14:28:47Z	readFile(fd) does not read the whole file (at least on Windows, possibly other platforms)	321		
+9671	413206	false	open	false	22		2016-11-18T08:29:35Z	2017-07-16T03:01:02Z		readFile(fd) does not read the whole file (at least on Windows, possibly other platforms)	321		
 9672	4459551	false	open	false	0		2016-11-18T12:06:04Z	2016-11-18T12:06:04Z		make the --inspect flag more dev friendly	67		
 9673	4985028	false	closed	false	14		2016-11-18T12:56:50Z	2016-12-04T16:19:11Z	2016-11-21T21:49:45Z	RFI: What are the know issues with --preserve-symlinks	368		
 9674	20224954	true	closed	false	11		2016-11-18T14:21:17Z	2017-01-04T17:44:19Z	2017-01-04T12:21:15Z	test: add the ability to run the tests from node in the path	63		
@@ -4064,7 +4064,7 @@
 10552	4299420	true	closed	false	4		2016-12-31T07:14:29Z	2017-01-04T15:33:44Z	2017-01-04T06:40:18Z	url: TupleOrigin#toString use unicode by default	94		
 10553	10627527	true	open	false	0	0	2016-12-31T08:17:53Z	2016-12-31T08:17:53Z		V7.x_outsiderLazy	42		
 10554	170197	false	closed	false	2		2016-12-31T09:01:22Z	2017-01-03T23:36:14Z	2017-01-03T23:36:14Z	URL with Object.prototype.toString	27		
-10555	4065244	false	open	false	1		2016-12-31T10:27:15Z	2017-01-19T23:39:28Z		tls: secureConnect event will not be emitted if TLSSocket is created via constructor instead of tls.connect	57		
+10555	4065244	false	open	false	2		2016-12-31T10:27:15Z	2017-07-16T02:43:56Z		tls: secureConnect event will not be emitted if TLSSocket is created via constructor instead of tls.connect	57		
 10556	1189785	true	closed	false	6		2016-12-31T15:53:31Z	2017-01-03T12:48:57Z	2017-01-03T12:48:57Z	test: improve the code in test-fs-read-stream	57		
 10557	400558	true	closed	false	11		2016-12-31T16:58:36Z	2017-05-09T15:11:31Z	2017-01-16T05:46:12Z	Optimize child_process IPC for large data	279		
 10558	54666	true	closed	false	13		2016-12-31T21:53:37Z	2017-02-20T22:36:20Z	2017-01-11T18:00:52Z	http: various performance improvements	2579		
@@ -4380,7 +4380,7 @@
 10868	6487691	true	closed	false	6		2017-01-18T11:11:19Z	2017-02-21T20:34:02Z	2017-02-21T20:34:02Z	V4 backport: don't squash signal handlers with --shared	155		
 10869	899444	true	closed	false	8		2017-01-18T11:32:43Z	2017-01-21T07:57:57Z	2017-01-21T07:57:57Z	doc: mention moderation repo in onboarding doc	8		
 10870	9862565	false	closed	false	0		2017-01-18T11:41:38Z	2017-01-18T20:22:45Z	2017-01-18T20:22:45Z	All links in doc/api/_toc.md point to .html instead of .md.	29		
-10871	6693546	false	open	false	0		2017-01-18T12:17:09Z	2017-01-18T18:32:32Z		'end' event not called on connected socket wrapped with tls	167		
+10871	6693546	false	open	false	1		2017-01-18T12:17:09Z	2017-07-16T02:13:01Z		'end' event not called on connected socket wrapped with tls	167		
 10872	6487691	true	closed	false	4		2017-01-18T13:07:24Z	2017-02-03T16:24:32Z	2017-02-03T16:24:32Z	doc: Clarify msg when doc/api/cli.md not updated	57		
 10873	4976075	true	open	false	15		2017-01-18T16:28:14Z	2017-02-08T22:05:08Z		deps: backport 7c3748a from upstream V8	65		
 10874	54666	true	closed	false	4		2017-01-18T18:12:19Z	2017-03-08T22:33:54Z	2017-01-25T07:09:00Z	querystring: improve parse() performance	113		
@@ -4470,7 +4470,7 @@
 10958	6627780	true	open	false	11		2017-01-23T04:46:31Z	2017-05-09T22:05:56Z		doc: add links to alternative versions of doc	126		
 10959	275871	true	closed	false	7	0	2017-01-23T05:01:23Z	2017-01-26T00:56:11Z	2017-01-26T00:56:11Z	src: move trace_event.h include to internal header	30		
 10960	718899	true	closed	false	2		2017-01-23T05:30:33Z	2017-01-26T00:04:05Z	2017-01-26T00:04:05Z	test: enhance test-timers	64		
-10961	1684137	false	open	false	4		2017-01-23T09:43:22Z	2017-01-25T15:05:21Z		pause() on response of http.request() causes 'aborted' event, and ClientRequest.abort() resumes the response.	180		
+10961	1684137	false	open	false	5		2017-01-23T09:43:22Z	2017-07-16T02:48:08Z		pause() on response of http.request() causes 'aborted' event, and ClientRequest.abort() resumes the response.	180		
 10962	15943003	false	closed	false	5		2017-01-23T11:38:32Z	2017-06-21T08:34:52Z	2017-06-21T08:34:52Z	Reading a directory	57		
 10963	3367801	true	closed	false	1		2017-01-23T13:40:29Z	2017-01-27T21:52:45Z	2017-01-27T21:52:45Z	test: increase coverage for stream's duplex	50		
 10964	5886475	true	closed	false	6		2017-01-23T13:55:45Z	2017-04-17T21:28:04Z	2017-01-30T17:15:09Z	test: increase coverage of internal/util	32		
@@ -7760,7 +7760,7 @@
 14252	718899	true	open	false	0	0	2017-07-15T14:29:21Z	2017-07-15T14:29:21Z		test: fix error handling in test-http-full-response	74		
 14253	10393198	false	open	false	0		2017-07-15T16:01:06Z	2017-07-15T16:22:42Z		tools: some eslint rules proposals	193		
 14254	433707	false	open	false	3		2017-07-15T17:59:52Z	2017-07-16T01:22:18Z		Z_DATA_ERROR on this site	84		
-14255	21121896	false	open	false	1		2017-07-15T22:12:15Z	2017-07-16T01:42:37Z		Not able to install NodeJs LTS on Windows 10 Pro	36		
+14255	21121896	false	open	false	2		2017-07-15T22:12:15Z	2017-07-16T03:00:48Z		Not able to install NodeJs LTS on Windows 10 Pro	36		
 14256	96947	false	open	false	0		2017-07-15T22:20:13Z	2017-07-15T22:20:13Z		n-api: from zzo38 via IRC &mdash; Some ideas for N-API	956		
 14257	718899	true	closed	false	7		2017-07-15T23:21:22Z	2017-07-16T02:01:27Z	2017-07-16T02:01:27Z	test: fix flaky test-net-can-reset-timeout	56		
 14258	8822573	true	open	false	0	0	2017-07-15T23:53:07Z	2017-07-15T23:53:07Z		assert: improve deepEqual Set and Map worst case	105		
