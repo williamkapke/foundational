@@ -63,7 +63,7 @@
 1690	10612009	false	closed	false	7		2015-05-13T08:56:13Z	2016-07-07T20:40:26Z	2016-07-07T20:40:26Z	[dgram]no udp multicast message received when binding on a specific address	278		
 1692	10612009	false	closed	false	3		2015-05-13T10:29:17Z	2016-07-10T15:58:44Z	2016-07-10T15:58:44Z	[dgram]socket.addMembership() does not add membership to every interface	179		
 1704	579	false	open	false	38		2015-05-14T16:49:52Z	2016-08-09T20:43:31Z		Deprecation Policy	79		
-1716	1162160	false	open	false	29		2015-05-16T17:56:53Z	2017-07-16T21:04:55Z		Implement console.group	90		
+1716	1162160	false	open	false	30		2015-05-16T17:56:53Z	2017-07-17T07:08:48Z		Implement console.group	90		
 1719	121766	false	closed	false	10		2015-05-17T09:09:29Z	2017-07-07T23:55:56Z	2015-05-17T10:56:10Z	Remove 1GB max size limit for Buffer	35		
 1723	3936867	false	closed	false	8		2015-05-17T19:23:22Z	2017-03-12T21:41:25Z	2015-05-18T22:02:23Z	"""this"" is not defined in constructor method of child class"	137		
 1741	11692818	false	open	false	18		2015-05-20T08:57:29Z	2016-08-10T14:06:26Z		Why does node/io.js hang when printing to the console inside a loop?	155		
@@ -133,7 +133,7 @@
 2642	2645436	false	closed	false	35		2015-09-02T06:06:18Z	2017-07-03T21:34:12Z	2017-05-20T09:46:20Z	Keep alive connection do not get closed with server.close()	107		
 2668	291301	false	closed	false	11		2015-09-02T21:50:48Z	2017-03-23T22:52:46Z	2017-03-23T22:52:46Z	Unreachable code in buffer.js and unsigned bitwise shifts.	294		
 2681	439929	false	closed	false	5		2015-09-03T15:40:56Z	2016-06-30T23:21:20Z	2016-06-30T23:21:20Z	child_process: execFile and fork arg parsing ambiguity	136		
-2734	617481	false	open	false	3		2015-09-08T06:04:26Z	2017-07-16T05:50:46Z		vm: accessor properties get converted to data properties inside the vm	176		
+2734	617481	false	open	false	4		2015-09-08T06:04:26Z	2017-07-17T07:23:38Z		vm: accessor properties get converted to data properties inside the vm	176		
 2738	3959052	false	closed	false	14		2015-09-08T14:18:32Z	2017-04-16T14:19:03Z	2016-01-07T19:29:18Z	Node.js GC in low memory environments	132		
 2741	275871	true	closed	false	35	18	2015-09-08T19:11:39Z	2016-10-25T11:40:35Z	2016-10-25T11:40:35Z	src: log warning on process.binding('natives')	28		
 2760	194482	false	closed	false	13		2015-09-09T07:12:46Z	2017-01-12T02:25:17Z	2015-09-09T09:46:00Z	--harmony_modules isn't working?	71		
@@ -416,7 +416,7 @@
 5323	3899684	true	closed	false	21		2016-02-19T11:38:23Z	2016-07-01T00:11:03Z	2016-04-22T04:48:28Z	doc: vm, run http server in vm by requiring	114		
 5334	309006	false	closed	false	6		2016-02-20T00:08:12Z	2017-07-07T23:35:37Z	2017-07-07T23:35:37Z	createReadStream pipe to createWriteStream fails, no errors	202		
 5344	1622515	false	closed	false	9		2016-02-21T05:47:46Z	2017-04-10T08:12:15Z	2016-08-04T19:44:36Z	VM: weird behaviour in runInContext/runInThisContext 	165		
-5350	3477316	false	open	false	7		2016-02-21T13:47:18Z	2017-07-15T09:26:19Z		sandbox inheritied properties flattened after vm.runInNewContext	174		
+5350	3477316	false	closed	false	8		2016-02-21T13:47:18Z	2017-07-17T07:21:39Z	2017-07-17T07:21:39Z	sandbox inheritied properties flattened after vm.runInNewContext	174		
 5360	677994	true	closed	false	18		2016-02-22T08:57:24Z	2016-07-12T10:24:59Z	2016-03-04T23:28:27Z	util: improve util.format performance	100		
 5362	524382	true	closed	false	9		2016-02-22T12:19:13Z	2017-02-28T23:13:27Z	2017-02-28T23:13:27Z	doc: Updating addons examples	36		
 5373	3899684	false	closed	false	10		2016-02-23T00:17:32Z	2017-05-30T04:32:33Z	2017-05-30T04:32:33Z	tests: deprecate test/parallel/test-child-process-double-pipe.js	101		
@@ -513,7 +513,7 @@
 6057	520678	false	closed	false	12		2016-04-05T15:49:46Z	2016-10-10T16:37:17Z	2016-10-10T16:37:17Z	Windows installer always installs to C:/Program Files	48		
 6058	855219	false	closed	false	8		2016-04-05T16:01:32Z	2016-09-20T22:56:10Z	2016-05-04T23:14:40Z	deps: Intl: ICU 57 bump	43		
 6063	7780985	true	closed	false	20		2016-04-05T19:44:10Z	2016-07-11T16:51:08Z	2016-04-26T16:07:07Z	doc, tls: deprecate createSecurePair	141		
-6078	12937885	false	open	false	19		2016-04-06T11:07:12Z	2017-07-16T07:35:30Z		Reduce memory consumption of streams for large amounts of data	515		
+6078	12937885	false	open	false	20		2016-04-06T11:07:12Z	2017-07-17T07:37:40Z		Reduce memory consumption of streams for large amounts of data	515		
 6082	8702326	true	closed	false	14		2016-04-06T18:50:20Z	2017-03-26T23:18:22Z	2017-03-26T23:18:22Z	async_wrap,lib: Firing async-wrap callbacks for next-tick callbacks	373		
 6083	532688	false	open	false	4		2016-04-06T21:55:03Z	2017-07-10T15:44:05Z		TCP socket emitted 'end' event after 'error' event	820		
 6085	238531	true	open	false	9		2016-04-06T22:51:09Z	2017-05-11T21:14:24Z		http_outgoing: refactor to use stream.Writable	74		
@@ -537,7 +537,7 @@
 6181	6279791	false	closed	false	5		2016-04-13T14:17:30Z	2016-09-27T13:15:32Z	2016-04-13T17:24:17Z	Uncaught TypeError when tab-completing constructor in REPL	66		
 6184	289174	true	closed	false	29		2016-04-13T19:21:38Z	2016-10-24T18:28:57Z	2016-05-24T20:44:10Z	src: no abort from GetFD if object isn't wrapped	88		
 6188	289174	false	closed	false	2		2016-04-13T22:14:46Z	2017-07-07T22:17:29Z	2017-07-07T22:17:29Z	net: bind TCP server after close() has run	234		
-6189	829269	false	open	false	10		2016-04-13T22:59:02Z	2017-07-16T02:52:21Z		Potential memory leak in UDP	130		
+6189	829269	false	closed	false	11		2016-04-13T22:59:02Z	2017-07-17T07:18:28Z	2017-07-17T07:18:28Z	Potential memory leak in UDP	130		
 6190	289174	false	open	false	12		2016-04-13T23:17:48Z	2017-07-10T04:05:30Z		net: multiple listen() events fail silently	95		
 6191	3899684	true	open	false	14		2016-04-14T00:15:12Z	2017-03-01T01:22:08Z		buffer: adds buffer.prototype.split / join	437		
 6202	7780985	true	closed	false	13		2016-04-14T22:29:02Z	2017-03-26T11:03:05Z	2017-03-26T11:03:05Z	net: do not bind TCP server after close has run	118		
@@ -679,7 +679,7 @@
 6795	112555	false	closed	false	2		2016-05-16T22:13:44Z	2017-05-30T04:53:34Z	2017-05-30T04:53:34Z	HTTP server timeout closing connection despite new request	357		
 6798	54666	false	open	false	29		2016-05-17T01:22:45Z	2017-06-01T07:44:28Z		streams: Readable highWaterMark is measured in bytes *or* characters	103		
 6799	54666	false	open	false	14		2016-05-17T01:45:18Z	2017-05-30T07:53:29Z		"doc,streams: internal ""private"" properties are publicly documented"	114		
-6802	13891170	false	open	false	13		2016-05-17T06:00:09Z	2017-07-17T06:40:33Z		REPL crashes after let process;	35		
+6802	13891170	false	open	false	14		2016-05-17T06:00:09Z	2017-07-17T07:04:01Z		REPL crashes after let process;	35		
 6803	413206	false	closed	false	14		2016-05-17T08:34:13Z	2017-04-16T00:22:42Z	2017-04-16T00:22:42Z	child_process.exec() fails with spaces in absolute or relative path to binary file	77		
 6804	52195	true	closed	false	33		2016-05-17T10:55:16Z	2016-07-12T17:31:26Z	2016-05-26T09:29:32Z	dgram: copy the array when using the list variant in send()	96		
 6806	317464	false	closed	false	20		2016-05-17T11:57:39Z	2017-05-30T04:55:43Z	2017-05-30T04:55:42Z	uv: let's discuss the backport policy for LTS	99		
@@ -4347,7 +4347,7 @@
 10835	17702550	false	open	false	0		2017-01-16T12:15:35Z	2017-01-16T12:15:35Z		PROTOCOL_CONNECTION_LOST	61		
 10836	607109	false	open	false	5		2017-01-16T13:44:36Z	2017-07-15T17:29:20Z		Accessing process.stdin hangs on Windows	200		
 10837	54666	true	closed	false	3		2017-01-16T15:21:28Z	2017-03-08T22:35:23Z	2017-01-25T07:24:48Z	querystring: improve unescapeBuffer performance	79		
-10838	607109	false	open	false	4		2017-01-16T16:26:53Z	2017-07-16T20:58:21Z		"Malformed ""url"" parameter in ""Debugger.scriptParsed"" event"	91		
+10838	607109	false	open	false	5		2017-01-16T16:26:53Z	2017-07-17T07:03:39Z		"Malformed ""url"" parameter in ""Debugger.scriptParsed"" event"	91		
 10839	15943089	true	closed	false	1	0	2017-01-16T16:35:13Z	2017-01-21T12:03:06Z	2017-01-21T12:03:06Z	"Revert ""doc: correct vcbuild options for windows testing"""	57		
 10840	2512748	true	closed	false	3		2017-01-16T21:13:04Z	2017-01-17T00:42:47Z	2017-01-17T00:42:47Z	test: fix broken assertion	55		
 10841	1716463	true	closed	false	3		2017-01-16T21:19:05Z	2017-03-08T02:11:25Z	2017-01-19T08:21:17Z	test: Use `common.hasIntl` in tests related to ICU	88		
@@ -6311,7 +6311,7 @@
 12802	412362	false	open	false	1		2017-05-02T22:23:34Z	2017-05-02T23:21:56Z		https.createServer accepts any non-falsey values for key and cert	263		
 12803	10393198	false	open	false	14		2017-05-02T22:57:08Z	2017-05-05T00:06:18Z		fs, test: one set of file attributes in Windows prevents fs.fchmod() from changing mode to RW and breaks incomplete test	630		
 12804	10393198	true	closed	false	2		2017-05-03T01:14:57Z	2017-05-05T02:11:23Z	2017-05-05T02:11:23Z	test: add callback to fs.close() in test-fs-stat	38		
-12805	968222	false	closed	false	12		2017-05-03T03:03:48Z	2017-07-16T07:45:31Z	2017-06-26T08:55:46Z	high rss and steady and low heap usage	116		
+12805	968222	false	closed	false	13		2017-05-03T03:03:48Z	2017-07-17T07:49:51Z	2017-06-26T08:55:46Z	high rss and steady and low heap usage	116		
 12806	718899	true	closed	false	5	0	2017-05-03T04:03:06Z	2017-05-05T05:15:54Z	2017-05-05T05:15:54Z	tools: remove unused code from test.py	25		
 12807	718899	true	closed	false	5		2017-05-03T06:17:50Z	2017-06-19T03:30:29Z	2017-05-05T11:47:13Z	tools: relax lint rule for regexps	94		
 12808	1716463	true	closed	false	9	7	2017-05-03T07:32:43Z	2017-05-05T01:22:27Z	2017-05-05T01:22:27Z	url: handle windows drive letter in the file state	57		
@@ -7529,7 +7529,7 @@
 14021	10393198	true	closed	false	8		2017-07-01T05:33:25Z	2017-07-04T09:45:16Z	2017-07-04T09:45:16Z	test: simplify test skipping	79		
 14022	6757283	false	open	false	0		2017-07-01T10:59:33Z	2017-07-01T10:59:33Z		REPL .load multiline arrow function expressions	122		
 14023	5157107	false	open	false	1		2017-07-01T11:17:29Z	2017-07-10T14:53:14Z		Write after end when piping a ClientRequest to ServerResponse	788		
-14024	5157107	true	open	false	18		2017-07-01T11:17:58Z	2017-07-14T20:00:24Z		http: OutgoingMessage change writable after end	72		
+14024	5157107	true	open	false	19		2017-07-01T11:17:58Z	2017-07-17T07:40:54Z		http: OutgoingMessage change writable after end	72		
 14025	1687235	false	closed	false	1		2017-07-01T12:36:26Z	2017-07-01T18:27:18Z	2017-07-01T18:27:18Z	fs.existsSync(brokenSymlink) returns false	38		
 14026	505333	true	closed	false	4	6	2017-07-01T12:39:13Z	2017-07-05T13:54:19Z	2017-07-05T13:54:19Z	async_hooks: fix default nextTick triggerAsyncId	86		
 14027	4600068	true	closed	false	5		2017-07-01T13:43:52Z	2017-07-05T04:42:31Z	2017-07-04T15:59:00Z	doc, util, console: clarify ambiguous docs	64		
@@ -7684,7 +7684,7 @@
 14176	96947	false	open	false	14		2017-07-11T21:56:56Z	2017-07-12T21:55:44Z		meta: Are the limits on line length still necessary?	183		
 14177	9373002	false	closed	false	6		2017-07-11T21:59:30Z	2017-07-12T15:43:29Z	2017-07-12T15:43:29Z	sequential/test-benchmark-http - consistent intermittent failure	85		
 14178	9373002	false	open	false	2		2017-07-11T22:07:35Z	2017-07-12T18:23:46Z		parallel/test-zlib-failed-init, intermittent crash on windows ?	35		
-14179	677994	true	open	false	11		2017-07-12T00:16:19Z	2017-07-13T12:11:10Z		build: codesign tarball binary on macOS	72		
+14179	677994	true	open	false	12		2017-07-12T00:16:19Z	2017-07-17T07:46:06Z		build: codesign tarball binary on macOS	72		
 14180	718899	true	open	false	3		2017-07-12T03:05:12Z	2017-07-12T15:35:15Z		test: reduce run time for test-benchmark-http	41		
 14181	1538624	true	closed	false	0		2017-07-12T04:17:11Z	2017-07-12T13:20:38Z	2017-07-12T13:20:38Z	doc: add missing space	21		
 14182	3119405	false	open	false	9		2017-07-12T04:29:49Z	2017-07-13T02:52:28Z		"Nodejs v7.10.1 broken on CentOS 5. Error: ""node: /lib64/libc.so.6: version `GLIBC_2.7' not found (required by node)"""	129		
@@ -7729,14 +7729,14 @@
 14221	2512748	true	open	false	1		2017-07-13T15:14:50Z	2017-07-14T18:33:51Z		net: support passing null to listen()	71		
 14222	96947	false	open	false	5		2017-07-13T15:41:35Z	2017-07-13T21:40:17Z		CI: test with `--with-snapshot` on the slower platforms	45		
 14223	15952	true	open	false	3		2017-07-13T18:30:58Z	2017-07-16T15:52:24Z		repl: deprecate REPLServer.parseREPLKeyword	116		
-14224	718899	true	open	false	0		2017-07-13T19:22:59Z	2017-07-15T01:36:24Z		buffer: fix indentation nits	37		
+14224	718899	true	closed	false	2	0	2017-07-13T19:22:59Z	2017-07-17T07:31:13Z	2017-07-17T07:31:13Z	buffer: fix indentation nits	37		
 14225	5076519	false	open	false	2		2017-07-13T20:18:41Z	2017-07-14T16:28:53Z		Documentation with breaking changes between version 6 to version 8	44		
 14226	15952	false	open	false	0		2017-07-13T20:35:54Z	2017-07-13T20:35:54Z		REPLServer.createContext() has unexpected side effects	129		
 14227	17607	true	open	false	15		2017-07-13T22:10:41Z	2017-07-15T12:09:41Z		gyp: implement LINK for ninja	60		
 14228	567540	false	open	false	6		2017-07-13T23:43:19Z	2017-07-16T22:59:11Z		SEGFAULT in node 4.8.4 on linux	100		
 14229	168296	false	open	false	0		2017-07-14T13:41:31Z	2017-07-14T13:41:31Z		Slow creation of vm contexts in Node 8	233		
 14230	2512748	true	open	false	0	0	2017-07-14T14:28:49Z	2017-07-14T14:28:49Z		doc: document napi_finalize() signature	34		
-14231	1538624	true	open	false	7		2017-07-14T17:37:07Z	2017-07-15T18:42:36Z		[wip] src, inspector: support opted-in VM contexts	83		
+14231	1538624	true	open	false	8		2017-07-14T17:37:07Z	2017-07-17T07:36:21Z		[wip] src, inspector: support opted-in VM contexts	83		
 14232	17607	true	open	false	0	0	2017-07-14T18:04:22Z	2017-07-14T18:04:22Z		test: check allowed port argument values	60		
 14233	1614246	false	open	false	0		2017-07-14T18:05:48Z	2017-07-14T20:39:32Z		Measure time it took to deliver http.ServerResponse to the client	109		
 14234	17607	true	open	false			2017-07-14T18:11:08Z	2017-07-14T20:13:25Z		net: support passing undefined to listen()	73		
@@ -7759,7 +7759,7 @@
 14251	1252364	true	open	false	8		2017-07-15T14:26:42Z	2017-07-16T13:01:37Z		tools: delete an unused argument	24		
 14252	718899	true	open	false	0	0	2017-07-15T14:29:21Z	2017-07-15T14:29:21Z		test: fix error handling in test-http-full-response	74		
 14253	10393198	false	open	false	0		2017-07-15T16:01:06Z	2017-07-15T16:22:42Z		tools: some eslint rules proposals	193		
-14254	433707	false	open	false	6		2017-07-15T17:59:52Z	2017-07-16T13:01:48Z		Z_DATA_ERROR on this site	84		
+14254	433707	false	open	false	7		2017-07-15T17:59:52Z	2017-07-17T08:02:31Z		Z_DATA_ERROR on this site	84		
 14255	21121896	false	open	false	3		2017-07-15T22:12:15Z	2017-07-16T12:56:50Z		Not able to install NodeJs LTS on Windows 10 Pro	36		
 14256	96947	false	open	false	0		2017-07-15T22:20:13Z	2017-07-15T22:20:13Z		n-api: from zzo38 via IRC &mdash; Some ideas for N-API	956		
 14257	718899	true	closed	false	7		2017-07-15T23:21:22Z	2017-07-16T02:01:27Z	2017-07-16T02:01:27Z	test: fix flaky test-net-can-reset-timeout	56		
@@ -7785,17 +7785,17 @@
 14277	443663	true	closed	false	4		2017-07-16T07:34:06Z	2017-07-16T19:58:27Z	2017-07-16T14:34:11Z	[JSConf CN Code&Learn] Replace the string concatenation with template literals	47		
 14278	2041398	true	closed	false	1		2017-07-16T07:37:52Z	2017-07-16T21:16:21Z	2017-07-16T21:16:21Z	[JSConf CN Code&Learn]test: replace string concatenation with template literals	35		
 14279	5714909	true	open	false	1		2017-07-16T07:38:00Z	2017-07-16T22:35:28Z		[JSConf CN Code&Learn] test:Replace string concatenation with template literals	46		
-14280	7437410	true	open	false	5		2017-07-16T07:38:57Z	2017-07-17T04:23:49Z		test: replace string concatenation with template liberals	13		
+14280	7437410	true	open	false	5		2017-07-16T07:38:57Z	2017-07-17T07:16:13Z		test: replace string concatenation with template liberals	13		
 14281	914595	true	open	false	3		2017-07-16T07:39:04Z	2017-07-17T05:38:49Z		test: replace concatenation with template literals.	38		
 14282	26137817	true	open	false			2017-07-16T07:43:36Z	2017-07-16T21:13:31Z		replacc string concatenation in test/parallel/test-https-unix-socket-…	46		
-14283	1459820	true	open	false	1		2017-07-16T07:43:48Z	2017-07-16T20:44:56Z		[JSConf CN Code&Learn]test: replace string concatenation with template literals	46		
+14283	1459820	true	open	false	3		2017-07-16T07:43:48Z	2017-07-17T07:11:34Z		[JSConf CN Code&Learn]test: replace string concatenation with template literals	46		
 14284	1451599	true	open	false	2		2017-07-16T07:49:10Z	2017-07-17T02:25:27Z		[JSConf CN Code&Learn] Replace the string concatenation with template literals 	59		
 14285	3112736	true	open	false	1		2017-07-16T07:51:42Z	2017-07-17T02:31:23Z		[JSConf CN Code&Learn] test: change TypeError to a regular expression 	50		
 14286	26137817	true	open	false	1		2017-07-16T07:52:25Z	2017-07-17T02:34:01Z		[JSConf CN Code&Learn] test: replace string concatenation to template literals	42		
 14287	20541018	true	open	false	3		2017-07-16T07:57:39Z	2017-07-17T02:37:08Z		test: replace string concatenation with template string literals in test-fs-watchfile.js	31		
 14288	7463687	true	closed	false	2	0	2017-07-16T08:03:20Z	2017-07-16T21:21:05Z	2017-07-16T21:21:05Z	:art: test: replace string concontenation with template literals	4		
 14289	9346008	true	open	false	1		2017-07-16T08:05:35Z	2017-07-17T05:31:49Z		test: replace string concatenation with template string literals in test-graph.signal.js	31		
-14290	16429864	true	open	false			2017-07-16T08:08:29Z	2017-07-17T06:36:08Z		test: replace string concatenation with template literals	36		
+14290	16429864	true	open	false			2017-07-16T08:08:29Z	2017-07-17T07:06:14Z		test: replace string concatenation with template literals	36		
 14291	3904612	true	open	false			2017-07-16T08:10:17Z	2017-07-16T12:53:47Z		test: conver html table in README.md to markdown table	42		
 14292	6349628	true	open	false	1		2017-07-16T08:11:43Z	2017-07-17T06:36:41Z		test: replace string concatenation to template literals	38		
 14293	5600924	true	open	false			2017-07-16T08:23:21Z	2017-07-17T04:52:27Z		test: replace with template literals	32		
@@ -7803,7 +7803,7 @@
 14295	11541408	true	open	false			2017-07-16T08:34:24Z	2017-07-17T01:55:09Z		[jsconfcn] test: replace string concatenation	46		
 14296	8280645	true	open	false	2		2017-07-16T09:01:16Z	2017-07-17T06:38:47Z		test: replace with template literals	41		
 14297	3689968	true	open	false	0	0	2017-07-16T09:09:06Z	2017-07-16T09:09:06Z		lib: name anonymous functions	37		
-14298	841625	true	open	false	1		2017-07-16T09:15:38Z	2017-07-17T06:59:51Z		test: replace string concatenation with template literals	33		
+14298	841625	true	open	false			2017-07-16T09:15:38Z	2017-07-17T07:06:06Z		test: replace string concatenation with template literals	33		
 14299	7624198	true	open	false	1		2017-07-16T09:26:17Z	2017-07-16T22:17:13Z		test: use regex with assert.throws	7		
 14300	988441	false	open	false	1		2017-07-16T10:24:36Z	2017-07-16T12:08:57Z		vcbuild fails to find python and changes current directory	97		
 14301	2851517	true	open	false	1		2017-07-16T10:33:52Z	2017-07-16T21:55:13Z		test: improve fs.exists coverage	43		
@@ -7811,17 +7811,18 @@
 14303	988441	true	open	false	0	0	2017-07-16T13:20:40Z	2017-07-16T13:20:40Z		build: prevent VsDevCmd.bat from changing cwd	34		
 14304	10393198	false	open	false	0		2017-07-16T13:57:11Z	2017-07-16T13:57:11Z		http2: code examples does not work on Windows with port 80	314		
 14305	1523060	true	open	false	0	0	2017-07-16T15:35:22Z	2017-07-16T15:35:22Z		test: replace string concatenation(+) with template literals 	25		
-14306	1315533	true	open	false	0	0	2017-07-16T15:59:18Z	2017-07-16T15:59:18Z		repl: handle null thrown	31		
+14306	1315533	true	open	false			2017-07-16T15:59:18Z	2017-07-17T07:14:46Z		repl: handle null thrown	33		
 14307	635512	true	open	false			2017-07-16T16:30:14Z	2017-07-17T02:10:52Z		os: add CIDR support	64		
-14308	1315533	false	open	false	2		2017-07-16T19:32:32Z	2017-07-17T01:00:50Z		Outdated comment in timers	22		
+14308	1315533	false	open	false	3		2017-07-16T19:32:32Z	2017-07-17T07:20:34Z		Outdated comment in timers	22		
 14309	30218031	false	closed	false	1		2017-07-16T19:45:53Z	2017-07-16T22:52:47Z	2017-07-16T19:51:43Z	exec() fails on any command when stdout is empty	126		
 14310	6627780	true	open	false			2017-07-16T20:07:32Z	2017-07-16T21:07:58Z		n-api: adds function to adjust external memory	137		
 14311	8982374	false	open	false	2		2017-07-16T20:35:23Z	2017-07-16T22:11:23Z		recursion error not reported	96		
 14312	718899	false	open	false	0		2017-07-16T20:57:42Z	2017-07-16T20:57:42Z		investigate flaky sequential/test-http-server-consumed-timeout on Windows	65		
 14313	6079078	true	open	false	3		2017-07-16T21:06:48Z	2017-07-16T21:56:37Z		build: add NetBSD support to opensslconf.h	49		
-14314	3916501	true	open	false	0		2017-07-16T21:37:13Z	2017-07-17T05:22:22Z		timers: remove no longer relevant comment	37		
-14315	439929	true	open	false	0	0	2017-07-17T00:49:21Z	2017-07-17T00:49:21Z		Http test improvements	40		
-14316	718899	false	open	false	0		2017-07-17T02:30:03Z	2017-07-17T02:30:03Z		Investigate flaky test-inspector-open on Linux	74		
+14314	3916501	true	open	false	1		2017-07-16T21:37:13Z	2017-07-17T08:02:34Z		timers: remove no longer relevant comment	37		
+14315	439929	true	open	false			2017-07-17T00:49:21Z	2017-07-17T07:10:52Z		test: http test improvements	37		
+14316	718899	false	open	false	0		2017-07-17T02:30:03Z	2017-07-17T07:03:48Z		Investigate flaky test-inspector-open on Linux	74		
 14317	432351	true	open	false	0	0	2017-07-17T04:54:50Z	2017-07-17T04:54:50Z		test: add DISABLED_ prefix to commented out test	57		
 14318	443663	true	open	false	0		2017-07-17T05:06:36Z	2017-07-17T07:02:16Z		test: verify detail exception messages in addons-napi/test_constructor	37		
 14319	443663	true	open	false	0		2017-07-17T05:09:58Z	2017-07-17T06:17:09Z		test: replace string concatenation in async-hooks/test-tlswrap.js with template literals	39		
+14320	15943089	true	open	false	0	0	2017-07-17T07:02:46Z	2017-07-17T07:02:46Z		test: allow inspector to reopen with same port	56		
