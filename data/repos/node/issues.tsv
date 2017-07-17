@@ -567,7 +567,7 @@
 6300	3899684	false	closed	false	15		2016-04-20T13:03:08Z	2017-04-30T18:16:41Z	2017-04-30T18:16:41Z	discuss: object serializer/deserializer + transferables	180		
 6301	2552507	false	closed	false	14		2016-04-20T13:18:10Z	2016-06-27T17:32:08Z	2016-06-27T17:32:07Z	Double-free in garbage collector in v5.10.1	1005		
 6306	498775	false	closed	false	31		2016-04-20T17:15:56Z	2017-02-21T20:44:53Z	2017-02-21T20:44:53Z	Introduce staging branch for stable release streams	131		
-6307	10342420	false	open	false	13		2016-04-20T17:49:42Z	2017-07-16T20:52:43Z		order of getaddrinfo results not respected	75		
+6307	10342420	false	open	false	14		2016-04-20T17:49:42Z	2017-07-17T06:48:44Z		order of getaddrinfo results not respected	75		
 6313	5678694	true	open	false	10		2016-04-20T20:51:16Z	2016-07-15T04:30:47Z		doc: fix style inconsistencies in code examples	33		
 6332	16402596	true	open	false	14		2016-04-21T15:57:17Z	2017-03-26T11:07:52Z		debugger: fix stuck debugger when debuggee exits	147		
 6339	4400726	false	closed	false	21		2016-04-21T22:04:56Z	2017-07-07T23:26:58Z	2017-07-07T23:26:58Z	http's 'upgrade' event should be handled one handler at a time	391		
@@ -679,7 +679,7 @@
 6795	112555	false	closed	false	2		2016-05-16T22:13:44Z	2017-05-30T04:53:34Z	2017-05-30T04:53:34Z	HTTP server timeout closing connection despite new request	357		
 6798	54666	false	open	false	29		2016-05-17T01:22:45Z	2017-06-01T07:44:28Z		streams: Readable highWaterMark is measured in bytes *or* characters	103		
 6799	54666	false	open	false	14		2016-05-17T01:45:18Z	2017-05-30T07:53:29Z		"doc,streams: internal ""private"" properties are publicly documented"	114		
-6802	13891170	false	open	false	12		2016-05-17T06:00:09Z	2017-07-16T16:07:02Z		REPL crashes after let process;	35		
+6802	13891170	false	open	false	13		2016-05-17T06:00:09Z	2017-07-17T06:40:33Z		REPL crashes after let process;	35		
 6803	413206	false	closed	false	14		2016-05-17T08:34:13Z	2017-04-16T00:22:42Z	2017-04-16T00:22:42Z	child_process.exec() fails with spaces in absolute or relative path to binary file	77		
 6804	52195	true	closed	false	33		2016-05-17T10:55:16Z	2016-07-12T17:31:26Z	2016-05-26T09:29:32Z	dgram: copy the array when using the list variant in send()	96		
 6806	317464	false	closed	false	20		2016-05-17T11:57:39Z	2017-05-30T04:55:43Z	2017-05-30T04:55:42Z	uv: let's discuss the backport policy for LTS	99		
@@ -2990,7 +2990,7 @@
 9472	718899	true	open	false	2		2016-11-04T21:13:22Z	2017-01-06T23:25:24Z		tools,test: provide duration/interval to timers, require it with lint rule	179		
 9473	4985028	false	closed	false	16		2016-11-05T00:28:11Z	2016-11-12T03:23:55Z	2016-11-12T03:23:55Z	Research Discussion: Faster startup with dynamically generated custom v8 snapshots	260		
 9474	2866997	false	closed	false	4		2016-11-05T00:57:47Z	2016-11-06T16:35:35Z	2016-11-05T07:59:37Z	AsyncFunction constructor in Node.js 7	121		
-9475	207759	true	closed	false	12		2016-11-05T01:53:14Z	2017-07-14T11:33:51Z	2017-03-25T08:18:52Z	Don't follow Windows ContainerMappedDirectories	134		
+9475	207759	true	closed	false	13		2016-11-05T01:53:14Z	2017-07-17T06:42:49Z	2017-03-25T08:18:52Z	Don't follow Windows ContainerMappedDirectories	134		
 9476	718899	true	closed	false	2		2016-11-05T06:32:37Z	2016-11-08T19:14:39Z	2016-11-08T19:14:39Z	test: remove watchdog in test-debug-signal-cluster	150		
 9477	1556432	true	closed	false	3		2016-11-05T11:45:19Z	2017-05-26T19:18:34Z	2017-05-26T19:18:34Z	child_process: catch json parsing error in ipc	108		
 9478	1528681	false	closed	false	3		2016-11-05T15:26:30Z	2016-11-05T17:56:30Z	2016-11-05T17:56:30Z	"Get "" Segmentation fault: 11 "" error after upgrading Node.js from 6.x to 7.x"	120		
@@ -4240,7 +4240,7 @@
 10728	5804246	false	open	false	0		2017-01-10T22:08:17Z	2017-01-10T22:08:17Z		Async/Await should support generators	91		
 10729	3367801	true	closed	false	3		2017-01-10T23:03:24Z	2017-03-08T21:44:20Z	2017-01-17T17:35:40Z	test: refactor test-fs-read-zero-length.js	52		
 10730	115237	true	closed	false	1		2017-01-10T23:45:08Z	2017-01-16T22:57:27Z	2017-01-16T22:57:27Z	(backport) src/doc: improve man page and --help	7		
-10731	469365	false	open	false	5		2017-01-11T00:29:18Z	2017-07-15T17:03:23Z		`console.log(proxy)` invokes `get` trap with built-in Symbols	500		
+10731	469365	false	open	false	6		2017-01-11T00:29:18Z	2017-07-17T06:09:28Z		`console.log(proxy)` invokes `get` trap with built-in Symbols	500		
 10732	79017	true	closed	false	3	2	2017-01-11T00:40:40Z	2017-01-12T22:30:14Z	2017-01-12T22:30:14Z	deps: V8: fix backtrace for symbols	106		
 10733	79017	true	closed	false	1	0	2017-01-11T01:26:33Z	2017-01-13T17:34:09Z	2017-01-13T17:34:09Z	deps: cherry-pick a814b8a from upstream V8	94	79017	2017-01-13T17:34:09Z
 10734	1189785	true	closed	false	5		2017-01-11T04:06:46Z	2017-03-08T20:59:41Z	2017-01-13T17:32:06Z	test: improve the code in test-crypto-dh	43		
@@ -4673,7 +4673,7 @@
 11161	1538624	true	closed	false	8		2017-02-04T06:37:35Z	2017-02-14T20:15:12Z	2017-02-14T20:15:12Z	url: fix surrogate handling in encodeAuth()	144		
 11162	5886475	true	closed	false	7	5	2017-02-04T09:34:30Z	2017-02-11T22:01:20Z	2017-02-11T22:01:20Z	url: fix error message of url.format	94		
 11163	899444	true	open	false	0	0	2017-02-04T10:10:52Z	2017-02-04T10:10:52Z		doc: typographical fixes in COLLABORATOR_GUIDE.md	25		
-11164	7567088	false	open	false	2		2017-02-04T11:59:57Z	2017-07-16T20:22:15Z		Debugger.getPossibleBreakpoints' wasn't found	90		
+11164	7567088	false	closed	false	3		2017-02-04T11:59:57Z	2017-07-17T06:34:33Z	2017-07-17T06:34:33Z	Debugger.getPossibleBreakpoints' wasn't found	90		
 11165	6230776	false	closed	false	11		2017-02-04T13:12:43Z	2017-02-09T18:49:38Z	2017-02-09T18:49:38Z	buffer: Invalid bytes length calculation	216		
 11166	8692540	false	open	false	7		2017-02-04T14:14:47Z	2017-06-23T00:20:15Z		require in module.js problem with paths 	30		
 11167	115237	true	closed	false	26		2017-02-04T17:08:17Z	2017-05-16T15:30:12Z	2017-03-02T16:57:33Z	tools/doc: improvements for types	70		
@@ -7795,15 +7795,15 @@
 14287	20541018	true	open	false	3		2017-07-16T07:57:39Z	2017-07-17T02:37:08Z		test: replace string concatenation with template string literals in test-fs-watchfile.js	31		
 14288	7463687	true	closed	false	2	0	2017-07-16T08:03:20Z	2017-07-16T21:21:05Z	2017-07-16T21:21:05Z	:art: test: replace string concontenation with template literals	4		
 14289	9346008	true	open	false	1		2017-07-16T08:05:35Z	2017-07-17T05:31:49Z		test: replace string concatenation with template string literals in test-graph.signal.js	31		
-14290	16429864	true	open	false			2017-07-16T08:08:29Z	2017-07-17T05:35:43Z		test: replace string concatenation with template literals	36		
+14290	16429864	true	open	false			2017-07-16T08:08:29Z	2017-07-17T06:36:08Z		test: replace string concatenation with template literals	36		
 14291	3904612	true	open	false			2017-07-16T08:10:17Z	2017-07-16T12:53:47Z		test: conver html table in README.md to markdown table	42		
-14292	6349628	true	open	false	0		2017-07-16T08:11:43Z	2017-07-16T22:12:25Z		test: replace string concatenation to template literals	38		
+14292	6349628	true	open	false	1		2017-07-16T08:11:43Z	2017-07-17T06:36:41Z		test: replace string concatenation to template literals	38		
 14293	5600924	true	open	false			2017-07-16T08:23:21Z	2017-07-17T04:52:27Z		test: replace with template literals	32		
-14294	7524890	true	open	false	1		2017-07-16T08:24:55Z	2017-07-16T22:18:23Z		[JsConf Code & Learn]change the typeerror to a regular expression	42		
+14294	7524890	true	open	false	2		2017-07-16T08:24:55Z	2017-07-17T06:38:18Z		[JsConf Code & Learn]change the typeerror to a regular expression	42		
 14295	11541408	true	open	false			2017-07-16T08:34:24Z	2017-07-17T01:55:09Z		[jsconfcn] test: replace string concatenation	46		
-14296	8280645	true	open	false	1		2017-07-16T09:01:16Z	2017-07-16T22:24:30Z		test: replace with template literals	41		
+14296	8280645	true	open	false	2		2017-07-16T09:01:16Z	2017-07-17T06:38:47Z		test: replace with template literals	41		
 14297	3689968	true	open	false	0	0	2017-07-16T09:09:06Z	2017-07-16T09:09:06Z		lib: name anonymous functions	37		
-14298	841625	true	open	false	0		2017-07-16T09:15:38Z	2017-07-16T22:34:36Z		test: replace string concatenation with template literals	33		
+14298	841625	true	open	false	1		2017-07-16T09:15:38Z	2017-07-17T06:59:51Z		test: replace string concatenation with template literals	33		
 14299	7624198	true	open	false	1		2017-07-16T09:26:17Z	2017-07-16T22:17:13Z		test: use regex with assert.throws	7		
 14300	988441	false	open	false	1		2017-07-16T10:24:36Z	2017-07-16T12:08:57Z		vcbuild fails to find python and changes current directory	97		
 14301	2851517	true	open	false	1		2017-07-16T10:33:52Z	2017-07-16T21:55:13Z		test: improve fs.exists coverage	43		
@@ -7823,5 +7823,5 @@
 14315	439929	true	open	false	0	0	2017-07-17T00:49:21Z	2017-07-17T00:49:21Z		Http test improvements	40		
 14316	718899	false	open	false	0		2017-07-17T02:30:03Z	2017-07-17T02:30:03Z		Investigate flaky test-inspector-open on Linux	74		
 14317	432351	true	open	false	0	0	2017-07-17T04:54:50Z	2017-07-17T04:54:50Z		test: add DISABLED_ prefix to commented out test	57		
-14318	443663	true	open	false	0	0	2017-07-17T05:06:36Z	2017-07-17T05:06:36Z		test: verify the detail exception messages in addons-napi/test_constructor	38		
-14319	443663	true	open	false	0	0	2017-07-17T05:09:58Z	2017-07-17T05:09:58Z		Replace string concatenation in async-hooks/test-tlswrap.js with template literals	36		
+14318	443663	true	open	false	0		2017-07-17T05:06:36Z	2017-07-17T07:02:16Z		test: verify detail exception messages in addons-napi/test_constructor	37		
+14319	443663	true	open	false	0		2017-07-17T05:09:58Z	2017-07-17T06:17:09Z		test: replace string concatenation in async-hooks/test-tlswrap.js with template literals	39		
