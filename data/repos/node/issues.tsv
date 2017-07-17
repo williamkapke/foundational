@@ -72,7 +72,7 @@
 1788	1309053	false	closed	false	31		2015-05-24T23:32:23Z	2017-06-29T02:31:57Z	2017-05-30T04:12:45Z	Debug process didn't close after finish debugging	74		
 1802	744035	false	closed	false	12		2015-05-26T21:22:12Z	2017-05-01T19:37:45Z	2017-05-01T19:37:45Z	url: parse() fails if auth contain a colon or ampersand	163		
 1826	617481	false	open	false	15		2015-05-28T18:31:59Z	2017-07-07T03:35:17Z		Accept ArrayBuffer (and typed array/data view?) anywhere Buffer is allowed in the API	88		
-1834	275871	false	open	false	12		2015-05-29T12:01:45Z	2017-06-06T13:25:52Z		fs / streams: file descriptor leak on connection abort	142		
+1834	275871	false	closed	false	13		2015-05-29T12:01:45Z	2017-07-17T08:26:41Z	2017-07-17T08:26:41Z	fs / streams: file descriptor leak on connection abort	142		
 1843	54666	true	closed	false	71		2015-05-30T08:25:30Z	2016-08-06T07:34:31Z	2016-08-06T07:34:31Z	dns: add new DNS resolver and set it as default	22		
 1860	407189	false	closed	false	21		2015-06-01T10:39:15Z	2016-11-26T02:26:04Z	2016-11-09T01:55:33Z	Plans on incorporating BoringSSL	115		
 1873	291301	false	open	false	16		2015-06-02T18:58:34Z	2017-02-26T22:01:16Z		http.OutgoingMessage headers API	78		
@@ -4345,7 +4345,7 @@
 10833	327019	true	closed	false	9		2017-01-16T09:20:52Z	2017-03-07T22:39:44Z	2017-01-31T17:56:58Z	http: use direct parameters instead	42		
 10834	327019	true	closed	false	3		2017-01-16T09:23:08Z	2017-01-18T03:19:01Z	2017-01-18T03:19:01Z	lib: remove unnecessary parameter for assertCrypto()	35		
 10835	17702550	false	open	false	0		2017-01-16T12:15:35Z	2017-01-16T12:15:35Z		PROTOCOL_CONNECTION_LOST	61		
-10836	607109	false	open	false	5		2017-01-16T13:44:36Z	2017-07-15T17:29:20Z		Accessing process.stdin hangs on Windows	200		
+10836	607109	false	open	false	6		2017-01-16T13:44:36Z	2017-07-17T08:20:21Z		Accessing process.stdin hangs on Windows	200		
 10837	54666	true	closed	false	3		2017-01-16T15:21:28Z	2017-03-08T22:35:23Z	2017-01-25T07:24:48Z	querystring: improve unescapeBuffer performance	79		
 10838	607109	false	open	false	5		2017-01-16T16:26:53Z	2017-07-17T07:03:39Z		"Malformed ""url"" parameter in ""Debugger.scriptParsed"" event"	91		
 10839	15943089	true	closed	false	1	0	2017-01-16T16:35:13Z	2017-01-21T12:03:06Z	2017-01-21T12:03:06Z	"Revert ""doc: correct vcbuild options for windows testing"""	57		
@@ -7785,17 +7785,17 @@
 14277	443663	true	closed	false	4		2017-07-16T07:34:06Z	2017-07-16T19:58:27Z	2017-07-16T14:34:11Z	[JSConf CN Code&Learn] Replace the string concatenation with template literals	47		
 14278	2041398	true	closed	false	1		2017-07-16T07:37:52Z	2017-07-16T21:16:21Z	2017-07-16T21:16:21Z	[JSConf CN Code&Learn]test: replace string concatenation with template literals	35		
 14279	5714909	true	open	false	1		2017-07-16T07:38:00Z	2017-07-16T22:35:28Z		[JSConf CN Code&Learn] test:Replace string concatenation with template literals	46		
-14280	7437410	true	open	false	5		2017-07-16T07:38:57Z	2017-07-17T07:16:13Z		test: replace string concatenation with template liberals	13		
+14280	7437410	true	open	false	7		2017-07-16T07:38:57Z	2017-07-17T08:14:02Z		test: replace string concatenation with template liberals	13		
 14281	914595	true	open	false	3		2017-07-16T07:39:04Z	2017-07-17T05:38:49Z		test: replace concatenation with template literals.	38		
 14282	26137817	true	open	false			2017-07-16T07:43:36Z	2017-07-16T21:13:31Z		replacc string concatenation in test/parallel/test-https-unix-socket-…	46		
-14283	1459820	true	open	false	3		2017-07-16T07:43:48Z	2017-07-17T07:11:34Z		[JSConf CN Code&Learn]test: replace string concatenation with template literals	46		
+14283	1459820	true	open	false	7		2017-07-16T07:43:48Z	2017-07-17T08:18:25Z		[JSConf CN Code&Learn]test: replace string concatenation with template literals	46		
 14284	1451599	true	open	false	2		2017-07-16T07:49:10Z	2017-07-17T02:25:27Z		[JSConf CN Code&Learn] Replace the string concatenation with template literals 	59		
 14285	3112736	true	open	false	1		2017-07-16T07:51:42Z	2017-07-17T02:31:23Z		[JSConf CN Code&Learn] test: change TypeError to a regular expression 	50		
 14286	26137817	true	open	false	1		2017-07-16T07:52:25Z	2017-07-17T02:34:01Z		[JSConf CN Code&Learn] test: replace string concatenation to template literals	42		
 14287	20541018	true	open	false	3		2017-07-16T07:57:39Z	2017-07-17T02:37:08Z		test: replace string concatenation with template string literals in test-fs-watchfile.js	31		
 14288	7463687	true	closed	false	2	0	2017-07-16T08:03:20Z	2017-07-16T21:21:05Z	2017-07-16T21:21:05Z	:art: test: replace string concontenation with template literals	4		
 14289	9346008	true	open	false	1		2017-07-16T08:05:35Z	2017-07-17T05:31:49Z		test: replace string concatenation with template string literals in test-graph.signal.js	31		
-14290	16429864	true	open	false			2017-07-16T08:08:29Z	2017-07-17T07:06:14Z		test: replace string concatenation with template literals	36		
+14290	16429864	true	open	false			2017-07-16T08:08:29Z	2017-07-17T08:17:04Z		test: replace string concatenation with template literals	32		
 14291	3904612	true	open	false			2017-07-16T08:10:17Z	2017-07-16T12:53:47Z		test: conver html table in README.md to markdown table	42		
 14292	6349628	true	open	false	1		2017-07-16T08:11:43Z	2017-07-17T06:36:41Z		test: replace string concatenation to template literals	38		
 14293	5600924	true	open	false			2017-07-16T08:23:21Z	2017-07-17T04:52:27Z		test: replace with template literals	32		
@@ -7811,18 +7811,19 @@
 14303	988441	true	open	false	0	0	2017-07-16T13:20:40Z	2017-07-16T13:20:40Z		build: prevent VsDevCmd.bat from changing cwd	34		
 14304	10393198	false	open	false	0		2017-07-16T13:57:11Z	2017-07-16T13:57:11Z		http2: code examples does not work on Windows with port 80	314		
 14305	1523060	true	open	false	0	0	2017-07-16T15:35:22Z	2017-07-16T15:35:22Z		test: replace string concatenation(+) with template literals 	25		
-14306	1315533	true	open	false			2017-07-16T15:59:18Z	2017-07-17T07:14:46Z		repl: handle null thrown	33		
+14306	1315533	true	open	false			2017-07-16T15:59:18Z	2017-07-17T08:10:17Z		repl: handle null thrown	33		
 14307	635512	true	open	false			2017-07-16T16:30:14Z	2017-07-17T02:10:52Z		os: add CIDR support	64		
-14308	1315533	false	open	false	3		2017-07-16T19:32:32Z	2017-07-17T07:20:34Z		Outdated comment in timers	22		
+14308	1315533	false	open	false	4		2017-07-16T19:32:32Z	2017-07-17T08:08:08Z		Outdated comment in timers	22		
 14309	30218031	false	closed	false	1		2017-07-16T19:45:53Z	2017-07-16T22:52:47Z	2017-07-16T19:51:43Z	exec() fails on any command when stdout is empty	126		
 14310	6627780	true	open	false			2017-07-16T20:07:32Z	2017-07-16T21:07:58Z		n-api: adds function to adjust external memory	137		
 14311	8982374	false	open	false	2		2017-07-16T20:35:23Z	2017-07-16T22:11:23Z		recursion error not reported	96		
 14312	718899	false	open	false	0		2017-07-16T20:57:42Z	2017-07-16T20:57:42Z		investigate flaky sequential/test-http-server-consumed-timeout on Windows	65		
 14313	6079078	true	open	false	3		2017-07-16T21:06:48Z	2017-07-16T21:56:37Z		build: add NetBSD support to opensslconf.h	49		
-14314	3916501	true	open	false	1		2017-07-16T21:37:13Z	2017-07-17T08:02:34Z		timers: remove no longer relevant comment	37		
+14314	3916501	true	open	false	2		2017-07-16T21:37:13Z	2017-07-17T08:31:55Z		timers: remove no longer relevant comment	37		
 14315	439929	true	open	false			2017-07-17T00:49:21Z	2017-07-17T07:10:52Z		test: http test improvements	37		
 14316	718899	false	open	false	0		2017-07-17T02:30:03Z	2017-07-17T07:03:48Z		Investigate flaky test-inspector-open on Linux	74		
-14317	432351	true	open	false	0	0	2017-07-17T04:54:50Z	2017-07-17T04:54:50Z		test: add DISABLED_ prefix to commented out test	57		
+14317	432351	true	open	false	0		2017-07-17T04:54:50Z	2017-07-17T08:24:05Z		test: add DISABLED_ prefix to commented out test	57		
 14318	443663	true	open	false	0		2017-07-17T05:06:36Z	2017-07-17T07:02:16Z		test: verify detail exception messages in addons-napi/test_constructor	37		
-14319	443663	true	open	false	0		2017-07-17T05:09:58Z	2017-07-17T06:17:09Z		test: replace string concatenation in async-hooks/test-tlswrap.js with template literals	39		
+14319	443663	true	open	false			2017-07-17T05:09:58Z	2017-07-17T08:55:04Z		test: replace string concatenation in async-hooks/test-tlswrap.js with template literals	39		
 14320	15943089	true	open	false	0	0	2017-07-17T07:02:46Z	2017-07-17T07:02:46Z		test: allow inspector to reopen with same port	56		
+14321	52195	true	open	false	0	0	2017-07-17T08:11:43Z	2017-07-17T08:11:43Z		doc,stream: _transform cannot be called in parallel	53		
