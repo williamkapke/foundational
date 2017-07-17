@@ -567,7 +567,7 @@
 6300	3899684	false	closed	false	15		2016-04-20T13:03:08Z	2017-04-30T18:16:41Z	2017-04-30T18:16:41Z	discuss: object serializer/deserializer + transferables	180		
 6301	2552507	false	closed	false	14		2016-04-20T13:18:10Z	2016-06-27T17:32:08Z	2016-06-27T17:32:07Z	Double-free in garbage collector in v5.10.1	1005		
 6306	498775	false	closed	false	31		2016-04-20T17:15:56Z	2017-02-21T20:44:53Z	2017-02-21T20:44:53Z	Introduce staging branch for stable release streams	131		
-6307	10342420	false	open	false	19		2016-04-20T17:49:42Z	2017-07-17T16:19:23Z		order of getaddrinfo results not respected	75		
+6307	10342420	false	open	false	20		2016-04-20T17:49:42Z	2017-07-17T22:39:30Z		order of getaddrinfo results not respected	75		
 6313	5678694	true	open	false	10		2016-04-20T20:51:16Z	2016-07-15T04:30:47Z		doc: fix style inconsistencies in code examples	33		
 6332	16402596	true	open	false	14		2016-04-21T15:57:17Z	2017-03-26T11:07:52Z		debugger: fix stuck debugger when debuggee exits	147		
 6339	4400726	false	closed	false	21		2016-04-21T22:04:56Z	2017-07-07T23:26:58Z	2017-07-07T23:26:58Z	http's 'upgrade' event should be handled one handler at a time	391		
@@ -4910,7 +4910,7 @@
 11398	7693422	true	closed	false	8	1	2017-02-15T12:19:26Z	2017-06-28T10:49:05Z	2017-06-28T10:49:05Z	errors, querystring: migrate to internal/errors.js	32		
 11399	1716463	true	closed	false	3		2017-02-15T12:35:52Z	2017-02-19T20:45:54Z	2017-02-19T20:45:54Z	test: test bottom-up merge sort in URLSearchParams	86		
 11400	7693422	true	closed	false	4		2017-02-15T12:59:13Z	2017-06-28T10:49:37Z	2017-06-28T10:49:37Z	errors, events: migrate to internal/errors.js	36		
-11401	474017	false	open	false	9		2017-02-15T17:17:42Z	2017-07-12T00:53:18Z		inspector Record Allocation Timeline bugged	66		
+11401	474017	false	closed	false	11		2017-02-15T17:17:42Z	2017-07-17T22:28:43Z	2017-07-17T22:28:43Z	inspector Record Allocation Timeline bugged	66		
 11402	1028226	true	closed	false	7		2017-02-15T20:07:56Z	2017-02-22T09:25:54Z	2017-02-19T20:42:29Z	path: rename sep to SEPARATOR and delimiter to DELIMITER	68		
 11403	12488060	true	open	false			2017-02-15T20:27:35Z	2017-02-23T02:35:58Z		Http rawheaders allocation optimization	255		
 11404	439929	true	closed	false	20		2017-02-15T21:22:41Z	2017-06-19T15:05:49Z	2017-04-21T18:25:37Z	lib: refactor internal/util	40		
@@ -7485,7 +7485,7 @@
 13977	718899	true	closed	false	3	0	2017-06-29T04:23:50Z	2017-07-02T05:37:07Z	2017-07-02T05:37:07Z	test: refactor test-fs-options-immutable	43		
 13978	1529044	false	closed	false	6		2017-06-29T06:53:41Z	2017-06-29T09:10:18Z	2017-06-29T09:10:18Z	Buffer.from is undefined in 0.12..x	33		
 13979	5449554	false	closed	false	2		2017-06-29T07:20:14Z	2017-06-29T12:48:38Z	2017-06-29T10:03:28Z	fs.readFileSync returns a Buffer object with wrong 'buffer' property	172		
-13980	2174968	true	open	false			2017-06-29T07:37:51Z	2017-07-17T20:39:00Z		test: add test for http outgoing internal headers	32		
+13980	2174968	true	open	false	6		2017-06-29T07:37:51Z	2017-07-17T22:43:23Z		test: add test for http outgoing internal headers	32		
 13981	7130689	true	open	false	4		2017-06-29T08:33:51Z	2017-07-14T22:39:42Z		test: http outgoing _renderHeaders	37		
 13982	3109072	true	closed	false	1		2017-06-29T09:54:32Z	2017-07-06T15:49:59Z	2017-07-02T12:28:58Z	process: use internal/errors in internalNextTick	29		
 13983	10393198	false	open	false	0		2017-06-29T10:08:39Z	2017-07-01T02:22:48Z		child_process: fork() with shell is impossible?	214		
@@ -7506,10 +7506,10 @@
 13998	432351	true	closed	false	1		2017-06-30T06:53:23Z	2017-07-02T04:29:19Z	2017-07-02T04:29:19Z	test: remove undef NDEBUG from at-exit addons test	59		
 13999	976081	true	closed	false	8		2017-06-30T10:40:09Z	2017-07-11T23:11:54Z	2017-07-06T18:22:15Z	N-API: Reuse ObjectTemplate used for napi_wrap()	59		
 14000	6447530	false	closed	false	15		2017-06-30T10:59:54Z	2017-07-10T09:51:38Z	2017-07-10T09:51:38Z	proposal: 'slab' event on readable streams	490		
-14001	1485909	true	open	false			2017-06-30T11:01:16Z	2017-07-06T15:17:28Z		src: Node implementation of v8::Platform	113		
+14001	1485909	true	open	false			2017-06-30T11:01:16Z	2017-07-17T22:37:49Z		src: Node implementation of v8::Platform	113		
 14002	7401419	true	open	false	1		2017-06-30T11:48:32Z	2017-06-30T15:49:16Z		test: use much smaller values for n in some http tests	63		
 14003	7401419	true	open	false	0		2017-06-30T12:00:29Z	2017-07-10T14:59:51Z		test: use a different external object in test-util-inspect	61		
-14004	2352663	true	open	false	38		2017-06-30T12:01:35Z	2017-07-17T20:25:25Z		deps: update V8 to 6.0	114		
+14004	2352663	true	open	false	40		2017-06-30T12:01:35Z	2017-07-17T22:47:58Z		deps: update V8 to 6.0	114		
 14005	899444	true	open	false	0	0	2017-06-30T12:32:14Z	2017-06-30T12:32:14Z		src: unset `NODE_VERSION_IS_RELEASE`	31		
 14006	115237	false	open	false	0		2017-06-30T13:49:55Z	2017-07-16T16:30:35Z		CIDR support for os.networkInterfaces	72		
 14007	358876	false	open	false	0		2017-06-30T14:28:16Z	2017-06-30T14:28:16Z		Expose reference to the Symbol(customPromisifyArgs)	105		
@@ -7620,7 +7620,7 @@
 14112	2732639	false	closed	false	3		2017-07-06T20:02:20Z	2017-07-10T11:07:49Z	2017-07-10T11:07:49Z	Build fails when cross compiling for arm7	342		
 14113	7749948	false	closed	false	3		2017-07-06T20:58:05Z	2017-07-07T18:32:33Z	2017-07-07T00:00:38Z	Node.js version 8.1.3 'make test' does not obey LD_LIBRARY_PATH	319		
 14114	5804246	false	closed	false	2		2017-07-06T21:31:06Z	2017-07-07T08:07:41Z	2017-07-07T08:07:41Z	moduleFoo/moduleFoo.js should work same as moduleFoo/Index.js	107		
-14115	17607	false	open	false	9		2017-07-06T21:39:54Z	2017-07-13T20:56:18Z		Windows vcbuild is missing FIPS support, like ./configure --openssl-fips	26		
+14115	17607	false	open	false	10		2017-07-06T21:39:54Z	2017-07-17T22:45:38Z		Windows vcbuild is missing FIPS support, like ./configure --openssl-fips	26		
 14116	931192	true	open	false	3		2017-07-06T23:07:12Z	2017-07-09T17:29:18Z		build: split up cpplint to avoid long cmd lines	44		
 14117	2512748	true	closed	false	2	0	2017-07-06T23:16:38Z	2017-07-13T15:27:43Z	2017-07-13T15:27:43Z	deps: upgrade libuv to 1.13.1	47	2512748	2017-07-13T15:27:43Z
 14118	24845478	false	open	false	2		2017-07-07T02:49:46Z	2017-07-09T17:33:42Z		[DOC] Buffer.from / new Buffer accept Uint8Array (missing)	23		
@@ -7708,15 +7708,15 @@
 14200	15831789	false	closed	false	8		2017-07-12T19:04:10Z	2017-07-13T23:47:01Z	2017-07-13T23:47:01Z	HTTP module, multiple headers with same name	261		
 14201	19699320	false	open	false	0		2017-07-12T19:11:35Z	2017-07-12T19:11:35Z		An object is undefined but is defined	224		
 14202	19699320	false	open	false	0		2017-07-12T19:20:23Z	2017-07-12T19:20:23Z		Set bits in variables	69		
-14203	23414112	true	open	false			2017-07-12T19:30:19Z	2017-07-17T18:01:59Z		doc: fixes default shell in child_process.md	43		
+14203	23414112	true	open	false			2017-07-12T19:30:19Z	2017-07-17T22:13:46Z		doc: fixes default shell in child_process.md	43		
 14204	55474	true	open	false	2		2017-07-12T19:41:45Z	2017-07-13T23:03:09Z		doc: update configure to require g++ 4.9.4	37		
 14205	3997538	false	open	false	6		2017-07-12T20:51:50Z	2017-07-14T16:01:59Z		undefined port should trigger a RangeError when launching a server	169		
 14206	96947	false	open	false	13		2017-07-12T21:18:36Z	2017-07-16T15:42:08Z		test: cctest:EnvironmentTest.MultipleEnvironmentsPerIsolate flakes (post snapshot)	177		
 14207	9373002	true	open	false	3		2017-07-12T21:48:03Z	2017-07-14T21:55:13Z		doc: add guidance on testing new errors	33		
-14208	289174	true	open	false			2017-07-12T22:52:32Z	2017-07-17T21:20:08Z		allow passing custom async_id to node::AsyncWrap::AsyncWrap	180		
+14208	289174	true	open	false			2017-07-12T22:52:32Z	2017-07-17T22:29:30Z		allow passing custom async_id to node::AsyncWrap::AsyncWrap	180		
 14209	289174	false	open	false	1		2017-07-12T23:59:10Z	2017-07-15T15:40:28Z		tracking issue: passing custom async_id's to node::AsyncWrap::AsyncWrap	563		
 14210	498775	false	open	false	2		2017-07-13T00:28:10Z	2017-07-13T23:02:32Z		We need to better document module_versions	86		
-14211	931192	true	open	false	1		2017-07-13T00:37:52Z	2017-07-13T18:40:29Z		n-api: directly create Local from Persistent	47		
+14211	931192	true	open	false	2		2017-07-13T00:37:52Z	2017-07-17T22:56:24Z		n-api: directly create Local from Persistent	47		
 14212	10933333	true	open	false	0		2017-07-13T01:39:57Z	2017-07-15T01:18:47Z		dns, errors: Migrate to use internal/errors	48		
 14213	3223890	false	closed	false	0		2017-07-13T01:54:59Z	2017-07-13T02:41:00Z	2017-07-13T02:41:00Z	child_process.spawnSync() not return anything.	79		
 14214	96947	false	open	false	4		2017-07-13T02:28:13Z	2017-07-13T11:06:15Z		discuss: refactor the test harness	274		
@@ -7736,15 +7736,15 @@
 14228	567540	false	open	false	16		2017-07-13T23:43:19Z	2017-07-17T17:26:39Z		SEGFAULT in node 4.8.4 on linux	100		
 14229	168296	false	open	false	0		2017-07-14T13:41:31Z	2017-07-14T13:41:31Z		Slow creation of vm contexts in Node 8	233		
 14230	2512748	true	open	false	0	0	2017-07-14T14:28:49Z	2017-07-14T14:28:49Z		doc: document napi_finalize() signature	34		
-14231	1538624	true	open	false			2017-07-14T17:37:07Z	2017-07-17T17:23:24Z		[wip] src, inspector: support opted-in VM contexts	83		
+14231	1538624	true	open	false			2017-07-14T17:37:07Z	2017-07-17T22:15:43Z		[wip] src, inspector: support opted-in VM contexts	83		
 14232	17607	true	closed	false	4		2017-07-14T18:04:22Z	2017-07-17T19:16:08Z	2017-07-17T16:49:33Z	test: check allowed port argument values	60		
 14233	1614246	false	closed	false	1		2017-07-14T18:05:48Z	2017-07-17T12:14:24Z	2017-07-17T12:14:24Z	Measure time it took to deliver http.ServerResponse to the client	109		
 14234	17607	true	open	false			2017-07-14T18:11:08Z	2017-07-17T17:13:28Z		net: support passing undefined to listen()	73		
 14235	17535	true	closed	false	4		2017-07-14T18:12:08Z	2017-07-17T21:32:00Z	2017-07-17T16:32:13Z	deps: upgrade npm to 5.3.0	174		
 14236	3038254	true	open	false			2017-07-14T18:12:21Z	2017-07-17T15:26:31Z		net: fix bytesWritten during writev	146		
 14237	10393198	true	closed	false	0		2017-07-14T19:28:34Z	2017-07-14T21:24:07Z	2017-07-14T21:24:07Z	benchmark: fix typo in inspect-proxy	21		
-14238	505333	false	open	false	8		2017-07-14T19:49:42Z	2017-07-16T10:26:54Z		Remove async_hooks setTrigger API	602		
-14239	439929	true	open	false	20		2017-07-14T19:57:36Z	2017-07-17T22:00:50Z		http2: Introducing http/2	498		
+14238	505333	false	open	false	11		2017-07-14T19:49:42Z	2017-07-17T22:54:29Z		Remove async_hooks setTrigger API	604		
+14239	439929	true	open	false	21		2017-07-14T19:57:36Z	2017-07-17T22:48:13Z		http2: Introducing http/2	498		
 14240	15139655	false	open	false	0		2017-07-14T20:40:55Z	2017-07-14T20:40:55Z		Cannot install @angular/cli	207		
 14241	96947	false	closed	false	4		2017-07-14T22:55:10Z	2017-07-16T02:02:07Z	2017-07-16T02:02:07Z	test: flaky `test-net-can-reset-timeout`	144		
 14242	10933333	true	open	false	1		2017-07-15T01:27:11Z	2017-07-17T15:43:11Z		errors: keep error codes in alphabetical order	42		
@@ -7837,3 +7837,4 @@
 14329	811047	true	open	false	1		2017-07-17T17:32:14Z	2017-07-17T18:10:06Z		test: fix test-async-wrap-getasyncid flakyness	145		
 14330	52195	true	open	false	0	0	2017-07-17T17:41:33Z	2017-07-17T17:41:33Z		zlib: check if the stream is destroyed before push	59		
 14331	15952	true	open	false	0	0	2017-07-17T18:19:34Z	2017-07-17T18:19:34Z		repl: remove REPLServer.createContext side effects	62		
+14332	439929	true	open	false	0	0	2017-07-17T22:37:03Z	2017-07-17T22:37:03Z		test: begin normalizing fixtures use	129		
