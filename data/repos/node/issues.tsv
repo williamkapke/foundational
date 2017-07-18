@@ -513,7 +513,7 @@
 6057	520678	false	closed	false	12		2016-04-05T15:49:46Z	2016-10-10T16:37:17Z	2016-10-10T16:37:17Z	Windows installer always installs to C:/Program Files	48		
 6058	855219	false	closed	false	8		2016-04-05T16:01:32Z	2016-09-20T22:56:10Z	2016-05-04T23:14:40Z	deps: Intl: ICU 57 bump	43		
 6063	7780985	true	closed	false	20		2016-04-05T19:44:10Z	2016-07-11T16:51:08Z	2016-04-26T16:07:07Z	doc, tls: deprecate createSecurePair	141		
-6078	12937885	false	closed	false	21		2016-04-06T11:07:12Z	2017-07-17T18:31:22Z	2017-07-17T07:37:41Z	Reduce memory consumption of streams for large amounts of data	515		
+6078	12937885	false	closed	false	22		2016-04-06T11:07:12Z	2017-07-18T08:47:23Z	2017-07-17T07:37:41Z	Reduce memory consumption of streams for large amounts of data	515		
 6082	8702326	true	closed	false	14		2016-04-06T18:50:20Z	2017-03-26T23:18:22Z	2017-03-26T23:18:22Z	async_wrap,lib: Firing async-wrap callbacks for next-tick callbacks	373		
 6083	532688	false	open	false	4		2016-04-06T21:55:03Z	2017-07-10T15:44:05Z		TCP socket emitted 'end' event after 'error' event	820		
 6085	238531	true	open	false	9		2016-04-06T22:51:09Z	2017-05-11T21:14:24Z		http_outgoing: refactor to use stream.Writable	74		
@@ -3136,7 +3136,7 @@
 9618	2352663	true	closed	false	68		2016-11-15T16:14:06Z	2017-03-29T08:18:35Z	2017-01-26T21:48:32Z	deps: update V8 to 5.5	52		
 9619	1093990	true	closed	false	3	0	2016-11-15T17:25:04Z	2016-11-18T21:20:13Z	2016-11-18T21:20:12Z	0.12 npm@2 update to latest (v2.15.11)	50	1093990	2016-11-18T21:20:12Z
 9620	17607	true	closed	false	5	0	2016-11-15T17:57:55Z	2016-11-18T17:29:21Z	2016-11-18T17:29:21Z	doc: strip trailing whitespace	32	17607	2016-11-18T17:29:21Z
-9621	635591	false	closed	false	8		2016-11-15T18:16:35Z	2017-07-17T20:03:49Z	2017-07-17T16:35:29Z	Feature request: API for debugging node child processes	191		
+9621	635591	false	closed	false	9		2016-11-15T18:16:35Z	2017-07-18T09:01:34Z	2017-07-17T16:35:29Z	Feature request: API for debugging node child processes	191		
 9622	17607	true	open	false	9		2016-11-15T18:36:17Z	2016-11-29T15:46:15Z		doc: improve description of module `exports`	91		
 9623	17607	false	open	false	9		2016-11-15T18:41:19Z	2017-03-06T08:08:53Z		should the fact that `this` is bound to module.exports be documented?	28		
 9624	54666	false	closed	false	4		2016-11-15T18:41:20Z	2016-11-15T23:38:20Z	2016-11-15T23:38:20Z	doc: vm documentation has invalid link	41		
@@ -6683,7 +6683,7 @@
 13174	899444	true	closed	false	1		2017-05-23T17:58:56Z	2017-05-25T18:02:34Z	2017-05-25T18:02:34Z	src: make StreamBase::GetAsyncWrap pure virtual	45		
 13175	1485909	true	closed	false	6		2017-05-23T19:19:23Z	2017-05-26T08:40:18Z	2017-05-26T08:40:18Z	deps: cherry-pick 6803eef from V8 upstream	93		
 13176	899444	false	closed	false	1		2017-05-23T21:10:27Z	2017-05-26T16:00:47Z	2017-05-26T16:00:47Z	What does SecureContext::EnableTicketKeyCallback do?	86		
-13177	899444	true	closed	false	3		2017-05-23T21:18:23Z	2017-07-17T17:03:22Z	2017-05-25T16:21:43Z	async_hooks: only set up hooks if used	87		
+13177	899444	true	closed	false	4		2017-05-23T21:18:23Z	2017-07-18T08:23:02Z	2017-05-25T16:21:43Z	async_hooks: only set up hooks if used	87		
 13178	9373002	true	open	false	3		2017-05-23T21:35:08Z	2017-05-25T23:32:51Z		test: add coverage for napi_has_named_property	38		
 13179	373545	true	open	false	1		2017-05-23T22:02:51Z	2017-05-30T14:53:13Z		fs: Fix default params for fs.write(Sync) (backport to v6)	78		
 13180	289174	false	open	false	4		2017-05-23T22:08:25Z	2017-06-09T17:45:56Z		inconsistency in `StreamBase::WriteBuffer()`	273		
@@ -7149,7 +7149,7 @@
 13641	931192	false	closed	false	5		2017-06-12T22:49:17Z	2017-06-30T18:28:43Z	2017-06-30T18:28:43Z	Issues building test addons with both VS2015 and VS2017 installed	414		
 13642	718899	false	open	false	2		2017-06-12T23:20:10Z	2017-06-14T02:18:45Z		Investigate flaky test/parallel/test-fs-watch on Raspberry Pi	24		
 13643	718899	true	open	false	3		2017-06-13T01:54:49Z	2017-06-16T16:03:38Z		test: refactor test-fs-read-stream	72		
-13644	439929	true	open	false			2017-06-13T03:19:20Z	2017-07-18T04:31:48Z		buffer: implement WHATWG Encoding Standard API	140		
+13644	439929	true	open	false			2017-06-13T03:19:20Z	2017-07-18T08:59:22Z		buffer: implement WHATWG Encoding Standard API	140		
 13645	718899	true	closed	false	25		2017-06-13T03:53:45Z	2017-07-18T06:38:13Z	2017-06-17T19:58:24Z	tools: update ESLint to v4.0.0	32		
 13646	617481	false	open	false	10		2017-06-13T04:41:32Z	2017-06-20T00:15:59Z		Discussion of implementing the Encoding Standard with ICU, and associated web platform tests	196		
 13647	490562	false	open	false	0		2017-06-13T05:08:12Z	2017-06-13T06:03:18Z		Crashes terminal on OS X and refuses subsequent input after prompting more than once (Node 8 only)	174		
@@ -7355,7 +7355,7 @@
 13847	24384486	true	open	false	0	0	2017-06-21T17:38:01Z	2017-06-21T17:38:01Z		changed test/parallel/test-tls-client-default-ciphers.js common.Port …	44		
 13848	24384486	true	open	false	2		2017-06-21T17:52:52Z	2017-06-23T22:44:48Z		test:  refactor common.PORT to random port	55		
 13849	9900421	true	open	false			2017-06-21T17:55:45Z	2017-06-21T18:12:23Z		module: rename anonymous functions	49		
-13850	52195	true	closed	false	12		2017-06-21T18:11:26Z	2017-07-17T18:45:06Z	2017-06-22T22:39:02Z	stream: finish must always follow error 	87		
+13850	52195	true	closed	false	13		2017-06-21T18:11:26Z	2017-07-18T08:36:14Z	2017-06-22T22:39:02Z	stream: finish must always follow error 	87		
 13851	17779439	true	closed	false	2		2017-06-21T18:12:11Z	2017-06-24T01:58:37Z	2017-06-24T01:58:37Z	remove unneccessary Buffer require	42		
 13852	7895237	true	closed	false	19		2017-06-21T18:25:47Z	2017-07-02T21:43:20Z	2017-07-02T21:43:20Z	test: replace indexOf with includes and startsWith	48		
 13853	1304862	true	closed	false	4	2	2017-06-21T18:27:39Z	2017-07-02T21:54:06Z	2017-07-02T21:54:06Z	test: refactor indexOf uses to es6 equivalents	10		
@@ -7509,7 +7509,7 @@
 14001	1485909	true	open	false			2017-06-30T11:01:16Z	2017-07-17T22:37:49Z		src: Node implementation of v8::Platform	113		
 14002	7401419	true	open	false	1		2017-06-30T11:48:32Z	2017-06-30T15:49:16Z		test: use much smaller values for n in some http tests	63		
 14003	7401419	true	open	false	0		2017-06-30T12:00:29Z	2017-07-10T14:59:51Z		test: use a different external object in test-util-inspect	61		
-14004	2352663	true	open	false	41		2017-06-30T12:01:35Z	2017-07-18T07:37:44Z		deps: update V8 to 6.0	114		
+14004	2352663	true	open	false	43		2017-06-30T12:01:35Z	2017-07-18T08:07:05Z		deps: update V8 to 6.0	114		
 14005	899444	true	open	false	0	0	2017-06-30T12:32:14Z	2017-06-30T12:32:14Z		src: unset `NODE_VERSION_IS_RELEASE`	31		
 14006	115237	false	open	false	0		2017-06-30T13:49:55Z	2017-07-16T16:30:35Z		CIDR support for os.networkInterfaces	72		
 14007	358876	false	open	false	0		2017-06-30T14:28:16Z	2017-06-30T14:28:16Z		Expose reference to the Symbol(customPromisifyArgs)	105		
@@ -7717,7 +7717,7 @@
 14209	289174	false	open	false	1		2017-07-12T23:59:10Z	2017-07-15T15:40:28Z		tracking issue: passing custom async_id's to node::AsyncWrap::AsyncWrap	563		
 14210	498775	false	open	false	2		2017-07-13T00:28:10Z	2017-07-13T23:02:32Z		We need to better document module_versions	86		
 14211	931192	true	open	false	2		2017-07-13T00:37:52Z	2017-07-17T22:56:24Z		n-api: directly create Local from Persistent	47		
-14212	10933333	true	open	false	0		2017-07-13T01:39:57Z	2017-07-15T01:18:47Z		dns, errors: Migrate to use internal/errors	48		
+14212	10933333	true	open	false	1		2017-07-13T01:39:57Z	2017-07-18T08:12:38Z		dns, errors: Migrate to use internal/errors	48		
 14213	3223890	false	closed	false	0		2017-07-13T01:54:59Z	2017-07-13T02:41:00Z	2017-07-13T02:41:00Z	child_process.spawnSync() not return anything.	79		
 14214	96947	false	open	false	4		2017-07-13T02:28:13Z	2017-07-13T11:06:15Z		discuss: refactor the test harness	274		
 14215	2001324	false	closed	false	1		2017-07-13T05:20:34Z	2017-07-13T06:53:25Z	2017-07-13T05:42:32Z	querystring.parse() not handling trailing spaces (+) in parameters correctly	186		
@@ -7830,12 +7830,12 @@
 14322	8624778	true	closed	false	0	3	2017-07-17T09:06:59Z	2017-07-18T02:54:30Z	2017-07-18T02:54:30Z	[JsConf Code & Learn]test: replace string concatenation with template literals	47		
 14323	29542357	true	open	false			2017-07-17T09:16:18Z	2017-07-18T05:27:37Z		docs: add note about fs.rmdir()/fs.rmdirSync()	38		
 14324	718899	true	open	false	4		2017-07-17T12:19:31Z	2017-07-18T04:33:27Z		process: improve hrtime() error message	59		
-14325	5675531	false	open	false	6		2017-07-17T14:01:16Z	2017-07-18T07:03:24Z		Node process with --inspect cannot fork child process without passing --inspect	45		
+14325	5675531	false	closed	false	8		2017-07-17T14:01:16Z	2017-07-18T08:58:11Z	2017-07-18T07:20:05Z	Node process with --inspect cannot fork child process without passing --inspect	45		
 14326	5340840	false	open	false	1		2017-07-17T15:47:12Z	2017-07-18T02:03:26Z		Node 6 crash w/ computed properties	109		
 14327	96947	true	open	false	1		2017-07-17T16:12:10Z	2017-07-17T18:09:59Z		[v6.x backport] test: harden test-dgram-bind-shared-ports	35		
 14328	505333	false	open	false	1		2017-07-17T17:11:27Z	2017-07-18T06:45:12Z		Remove async_hooks runInAsyncIdScope API	506		
 14329	811047	true	open	false	1		2017-07-17T17:32:14Z	2017-07-17T18:10:06Z		test: fix test-async-wrap-getasyncid flakyness	145		
-14330	52195	true	open	false	0	0	2017-07-17T17:41:33Z	2017-07-17T17:41:33Z		zlib: check if the stream is destroyed before push	59		
+14330	52195	true	open	false	1		2017-07-17T17:41:33Z	2017-07-18T08:55:21Z		zlib: check if the stream is destroyed before push	59		
 14331	15952	true	open	false	0		2017-07-17T18:19:34Z	2017-07-18T06:54:26Z		repl: remove REPLServer.createContext side effects	62		
 14332	439929	true	open	false	1		2017-07-17T22:37:03Z	2017-07-18T07:37:18Z		test: begin normalizing fixtures use	129		
 14333	156269	true	open	false	0		2017-07-18T03:09:16Z	2017-07-18T04:20:55Z		http: don't double-fire the req error event	51		
