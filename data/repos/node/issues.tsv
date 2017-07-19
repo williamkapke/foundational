@@ -2314,7 +2314,7 @@
 8794	441346	true	closed	false	1		2016-09-26T18:21:35Z	2016-09-30T17:36:17Z	2016-09-30T17:36:17Z	test: fix running child-process-uid-gid as root	55		
 8795	134460	true	closed	false	6		2016-09-26T18:34:50Z	2016-10-10T16:37:12Z	2016-10-10T16:37:12Z	win,msi: mark INSTALLDIR property as secure	149		
 8796	152407	true	closed	false	5		2016-09-26T19:06:45Z	2016-09-27T14:44:43Z	2016-09-27T14:44:43Z	Document crypto.timingSafeEqual() added in v6.6.0	37		
-8797	479816	false	open	false	10		2016-09-27T01:53:51Z	2017-07-11T13:19:43Z		"`fs.rmdir()` on file (not directory) has ""ENOTDIR"" on Linux/macOS vs ""ENOENT"" on Windows"	116		
+8797	479816	false	closed	false	11		2016-09-27T01:53:51Z	2017-07-19T20:48:47Z	2017-07-19T20:48:47Z	"`fs.rmdir()` on file (not directory) has ""ENOTDIR"" on Linux/macOS vs ""ENOENT"" on Windows"	116		
 8798	579	false	closed	false	38		2016-09-27T03:02:37Z	2017-07-15T06:56:54Z	2017-07-15T06:56:54Z	Add Locki to API documentation	65		
 8799	6354455	true	closed	false	5	1	2016-09-27T03:29:25Z	2016-10-28T06:43:33Z	2016-10-28T06:43:33Z	adding test for _stream_writable.js needDrain state	54		
 8800	1935767	true	closed	false	8	0	2016-09-27T03:46:29Z	2016-09-30T02:06:54Z	2016-09-30T02:06:54Z	dns: improve makeAsync internally by removing unneeded vaiable.	61	1935767	2016-09-30T02:06:54Z
@@ -2388,7 +2388,7 @@
 8868	899444	true	open	false	0	0	2016-09-30T20:13:21Z	2016-09-30T20:13:21Z		v4.x backport: doc: use blockquotes for Stability: markers	7		
 8869	899444	true	open	false	0	0	2016-09-30T20:21:49Z	2016-09-30T20:21:49Z		v4.x backport: doc: add `added:` information for cluster	13		
 8870	287917	true	closed	false	5	5	2016-09-30T21:28:57Z	2016-10-13T23:27:38Z	2016-10-13T23:27:38Z	test: fix issues reported by Coverity	60		
-8871	1034314	false	open	false	6		2016-09-30T21:45:21Z	2017-06-30T09:08:39Z		zlib deflate results in a memory leak	148		
+8871	1034314	false	open	false	8		2016-09-30T21:45:21Z	2017-07-19T20:29:44Z		zlib deflate results in a memory leak	148		
 8872	1898870	true	open	false	0	0	2016-09-30T22:13:22Z	2016-09-30T22:13:22Z		v4.x backport: url: fix inconsistent port in url.resolveObject	6		
 8873	498775	true	closed	false	20		2016-09-30T22:33:37Z	2016-12-03T05:44:41Z	2016-10-04T15:34:33Z	meta: remove let from for loops	67		
 8874	22553123	false	closed	false	10		2016-09-30T23:49:22Z	2017-05-31T22:26:43Z	2017-05-31T22:26:43Z	zlib.inflateRawSync how do I get the number of bytes read?	120		
@@ -5676,7 +5676,7 @@
 12164	3109072	true	closed	false	9		2017-04-02T13:15:58Z	2017-05-15T14:04:11Z	2017-04-10T14:41:58Z	crypto: Handle exceptions in hmac/hash.digest	120		
 12165	8019430	false	closed	false	3		2017-04-02T17:06:15Z	2017-04-02T18:55:19Z	2017-04-02T17:34:16Z	"Inconsistent availablity of .toString(""hex"");"	75		
 12166	432351	true	closed	false	4		2017-04-02T17:20:54Z	2017-06-17T23:54:05Z	2017-04-04T17:30:39Z	test: add variable arguments support for Argv	78		
-12167	910691	true	open	false	25		2017-04-02T17:46:00Z	2017-07-19T19:51:31Z		assert.doesNotThrow, show error message	95		
+12167	910691	true	closed	false	26		2017-04-02T17:46:00Z	2017-07-19T20:02:40Z	2017-07-19T20:02:40Z	assert.doesNotThrow, show error message	95		
 12168	555645	false	open	false	7		2017-04-02T18:31:30Z	2017-04-04T16:05:40Z		url.parse would be better to not decode authority?	228		
 12169	10393198	true	closed	false	1		2017-04-02T19:07:29Z	2017-04-18T23:29:27Z	2017-04-04T16:23:47Z	doc: modernize and fix code examples in http.md	59		
 12170	10393198	true	closed	false	6		2017-04-02T21:46:49Z	2017-06-17T23:52:51Z	2017-04-04T16:21:58Z	benchmark: replace [].join() with ''.repeat()	140		
@@ -5743,7 +5743,7 @@
 12231	275871	true	open	false	6		2017-04-05T12:46:00Z	2017-04-19T11:23:23Z		test: build test add-ons like third-party add-ons	168		
 12232	4481789	false	open	false	0		2017-04-05T12:49:49Z	2017-04-05T12:49:49Z		Issue Installing - Raid 0 Drive	56		
 12233	229881	true	closed	false	1		2017-04-05T15:26:36Z	2017-04-07T16:07:40Z	2017-04-07T16:07:40Z	doc: add sub domain to host in url	41		
-12234	9306961	false	open	false	3		2017-04-05T15:32:55Z	2017-04-10T19:17:09Z		Any way to bypass querystring.stringify with empty Object ?	168		
+12234	9306961	false	closed	false	7		2017-04-05T15:32:55Z	2017-07-19T20:58:07Z	2017-07-19T20:58:07Z	Any way to bypass querystring.stringify with empty Object ?	168		
 12235	9373002	true	open	false	5		2017-04-05T16:20:05Z	2017-04-07T16:34:29Z		doc: update OS level support for AIX	76		
 12236	54666	false	closed	false	9		2017-04-05T17:11:53Z	2017-06-04T18:19:20Z	2017-06-04T18:19:20Z	buffer: improve constructor error message	132		
 12237	26934328	false	closed	false	2		2017-04-05T17:33:00Z	2017-04-06T14:03:31Z	2017-04-06T14:03:31Z	nodejs LTS v6.10.2 Windows installs give npm version 1.4.2 instead of 3.10.10	96		
@@ -7251,7 +7251,7 @@
 13741	8822573	true	closed	false	3		2017-06-17T13:34:09Z	2017-07-02T18:47:13Z	2017-06-19T16:19:26Z	lib: fix typos	29		
 13742	899444	true	closed	false	0		2017-06-17T13:37:48Z	2017-06-21T20:23:48Z	2017-06-21T20:23:48Z	doc: mention rebasing of v?.x-staging post release	21		
 13743	8822573	true	closed	false	3		2017-06-17T13:37:51Z	2017-06-22T20:02:25Z	2017-06-22T20:02:25Z	console,internal/errors: improve error perf	88		
-13744	899444	true	open	false	54		2017-06-17T13:47:40Z	2017-07-19T19:23:05Z		v8.2.0 proposal	3046		
+13744	899444	true	open	false	55		2017-06-17T13:47:40Z	2017-07-19T20:47:23Z		v8.2.0 proposal	3046		
 13745	12840387	false	closed	false	2		2017-06-17T13:53:57Z	2017-06-17T16:54:00Z	2017-06-17T15:20:59Z	package.json dependency module from git	69		
 13746	6023090	false	closed	false	3		2017-06-17T14:02:34Z	2017-06-17T19:43:03Z	2017-06-17T19:43:03Z	Should we deprecate OpenSSL,switch to LibreSSL	6		
 13747	3109072	true	closed	false	3		2017-06-17T16:40:03Z	2017-07-17T18:43:17Z	2017-06-20T18:40:50Z	dgram: change parameter name in set(Multicast)TTL	66		
@@ -7713,7 +7713,7 @@
 14203	23414112	true	open	false			2017-07-12T19:30:19Z	2017-07-18T17:37:01Z		doc: fixes default shell in child_process.md	43		
 14204	55474	true	open	false	2		2017-07-12T19:41:45Z	2017-07-13T23:03:09Z		doc: update configure to require g++ 4.9.4	37		
 14205	3997538	false	open	false	6		2017-07-12T20:51:50Z	2017-07-14T16:01:59Z		undefined port should trigger a RangeError when launching a server	169		
-14206	96947	false	open	false	13		2017-07-12T21:18:36Z	2017-07-16T15:42:08Z		test: cctest:EnvironmentTest.MultipleEnvironmentsPerIsolate flakes (post snapshot)	177		
+14206	96947	false	open	false	14		2017-07-12T21:18:36Z	2017-07-19T20:16:21Z		test: cctest:EnvironmentTest.MultipleEnvironmentsPerIsolate flakes (post snapshot)	177		
 14207	9373002	true	open	false	4		2017-07-12T21:48:03Z	2017-07-18T00:15:41Z		doc: add guidance on testing new errors	33		
 14208	289174	true	open	false			2017-07-12T22:52:32Z	2017-07-17T22:29:30Z		allow passing custom async_id to node::AsyncWrap::AsyncWrap	180		
 14209	289174	false	open	false	1		2017-07-12T23:59:10Z	2017-07-15T15:40:28Z		tracking issue: passing custom async_id's to node::AsyncWrap::AsyncWrap	563		
@@ -7765,7 +7765,7 @@
 14255	21121896	false	open	false	3		2017-07-15T22:12:15Z	2017-07-16T12:56:50Z		Not able to install NodeJs LTS on Windows 10 Pro	36		
 14256	96947	false	open	false	4		2017-07-15T22:20:13Z	2017-07-18T23:22:10Z		n-api: from zzo38 via IRC - Some ideas for N-API	956		
 14257	718899	true	closed	false	7		2017-07-15T23:21:22Z	2017-07-16T02:01:27Z	2017-07-16T02:01:27Z	test: fix flaky test-net-can-reset-timeout	56		
-14258	8822573	true	open	false	1		2017-07-15T23:53:07Z	2017-07-18T23:03:52Z		assert: improve deepEqual Set and Map worst case	105		
+14258	8822573	true	open	false	2		2017-07-15T23:53:07Z	2017-07-19T20:54:03Z		assert: improve deepEqual Set and Map worst case	204		
 14259	15943089	true	closed	false	3	0	2017-07-16T01:43:24Z	2017-07-17T16:16:41Z	2017-07-17T16:16:41Z	doc: move LTS README link to increase prominence	57		
 14260	153481	false	open	false	0		2017-07-16T04:35:19Z	2017-07-16T04:35:19Z		docs: 404 in v0.12 docs on 'tracing'	50		
 14261	6784159	true	open	false			2017-07-16T06:04:22Z	2017-07-16T15:03:30Z		doc: add docs for AssertionError	31		
@@ -7794,7 +7794,7 @@
 14284	1451599	true	open	false			2017-07-16T07:49:10Z	2017-07-17T16:03:20Z		[JSConf CN Code&Learn] Replace the string concatenation with template literals 	59		
 14285	3112736	true	closed	false	2		2017-07-16T07:51:42Z	2017-07-18T05:26:03Z	2017-07-18T05:26:03Z	[JSConf CN Code&Learn] test: change TypeError to a regular expression 	50		
 14286	26137817	true	open	false	1		2017-07-16T07:52:25Z	2017-07-17T02:34:01Z		[JSConf CN Code&Learn] test: replace string concatenation to template literals	42		
-14287	20541018	true	open	false	6		2017-07-16T07:57:39Z	2017-07-18T01:22:50Z		test: replace string concatenation with template string literals in test-fs-watchfile.js	31		
+14287	20541018	true	closed	false	7		2017-07-16T07:57:39Z	2017-07-19T20:08:31Z	2017-07-19T20:08:31Z	test: replace string concatenation with template string literals in test-fs-watchfile.js	31		
 14288	7463687	true	closed	false	2	0	2017-07-16T08:03:20Z	2017-07-16T21:21:05Z	2017-07-16T21:21:05Z	:art: test: replace string concontenation with template literals	4		
 14289	9346008	true	closed	false	4		2017-07-16T08:05:35Z	2017-07-17T14:22:14Z	2017-07-17T12:38:07Z	test: replace string concatenation with template string literals in test-graph.signal.js	31		
 14290	16429864	true	open	false			2017-07-16T08:08:29Z	2017-07-17T18:05:08Z		test: replace string concatenation with template literals	32		
@@ -7831,7 +7831,7 @@
 14321	52195	true	closed	false	2		2017-07-17T08:11:43Z	2017-07-19T08:37:59Z	2017-07-19T08:37:59Z	doc,stream: _transform cannot be called in parallel	53		
 14322	8624778	true	closed	false	4		2017-07-17T09:06:59Z	2017-07-19T14:57:34Z	2017-07-18T02:54:30Z	[JsConf Code & Learn]test: replace string concatenation with template literals	47		
 14323	29542357	true	open	false			2017-07-17T09:16:18Z	2017-07-18T05:27:37Z		docs: add note about fs.rmdir()/fs.rmdirSync()	38		
-14324	718899	true	open	false			2017-07-17T12:19:31Z	2017-07-19T08:21:00Z		process: improve hrtime() error message	59		
+14324	718899	true	open	false			2017-07-17T12:19:31Z	2017-07-19T20:53:11Z		process: improve hrtime() error message	59		
 14325	5675531	false	closed	false	8		2017-07-17T14:01:16Z	2017-07-18T08:58:11Z	2017-07-18T07:20:05Z	Node process with --inspect cannot fork child process without passing --inspect	45		
 14326	5340840	false	open	false	3		2017-07-17T15:47:12Z	2017-07-19T11:53:40Z		Node 6 crash w/ computed properties	109		
 14327	96947	true	open	false	1		2017-07-17T16:12:10Z	2017-07-17T18:09:59Z		[v6.x backport] test: harden test-dgram-bind-shared-ports	35		
@@ -7845,7 +7845,7 @@
 14335	19971510	false	open	false	1		2017-07-18T04:11:15Z	2017-07-18T06:13:11Z		v8::internal::JSReceiver::DefineOwnProperty  exception cause a crash	216		
 14336	1538624	false	open	false	2		2017-07-18T05:30:15Z	2017-07-18T07:31:24Z		Investigate non-ASCII build file path under macOS	38		
 14337	9343089	false	open	false	7		2017-07-18T05:33:05Z	2017-07-19T12:18:29Z		Cannot build on windows	393		
-14338	718899	true	open	false	4		2017-07-18T05:36:40Z	2017-07-18T16:33:09Z		test: move test-fs-largefile to pummel	85		
+14338	718899	true	open	false	7		2017-07-18T05:36:40Z	2017-07-19T20:55:44Z		test: move test-fs-largefile to pummel	85		
 14339	718899	true	closed	false	0		2017-07-18T06:17:14Z	2017-07-18T18:52:20Z	2017-07-18T18:52:20Z	[v6.x backport] test: change deprecated method to recommended	84		
 14340	718899	true	open	false	0		2017-07-18T06:37:57Z	2017-07-18T18:44:30Z		[v6.x backport] tools: update ESLint to v4.0.0 	32		
 14341	3927355	false	open	false	3		2017-07-18T09:07:10Z	2017-07-18T14:23:59Z		Why not rewrite the test by es6?	29		
@@ -7883,3 +7883,4 @@
 14373	128856	true	open	false	0	0	2017-07-19T17:35:04Z	2017-07-19T17:35:04Z		vm: backport fix race condition with `timeout` param	46		
 14374	22799858	false	open	false	0		2017-07-19T18:38:43Z	2017-07-19T18:38:43Z		.	6		
 14375	96947	true	open	false	0	0	2017-07-19T19:37:41Z	2017-07-19T19:37:41Z		doc: error message are still major	26		
+14376	3109072	true	open	false	0	0	2017-07-19T20:49:29Z	2017-07-19T20:49:29Z		[v6.x backport] crypto: add sign/verify support for RSASSA-PSS	45		
