@@ -194,7 +194,7 @@
 3175	367936	false	open	false	40		2015-10-04T18:30:05Z	2017-07-09T01:17:57Z		More useful error than `toString failed` when Buffer length greater than kMaxLength?	153		
 3179	8974489	false	closed	false	18		2015-10-05T10:13:45Z	2016-10-06T10:19:34Z	2016-06-07T20:59:21Z	node compile failure on Solaris 11.2 and gcc 4.8 (undefined std::isnan)	266		
 3203	3990007	false	closed	false	15		2015-10-06T08:21:08Z	2017-03-10T20:47:08Z	2017-03-10T20:47:08Z	Readable.push calling _read	153		
-3208	631240	false	open	false	4		2015-10-06T11:09:41Z	2017-07-15T08:41:04Z		streams - request for docs: can _transform or _write(v) be called in parallel?	193		
+3208	631240	false	closed	false	5		2015-10-06T11:09:41Z	2017-07-19T08:38:12Z	2017-07-19T08:38:12Z	streams - request for docs: can _transform or _write(v) be called in parallel?	193		
 3238	458155	false	closed	false	4		2015-10-07T15:25:07Z	2017-01-29T19:02:52Z	2015-11-11T16:22:12Z	cluster: suicide flag is not set on master when calling disconnect from a worker	104		
 3249	291301	false	closed	false	10		2015-10-07T22:50:32Z	2016-07-13T07:02:20Z	2016-07-13T07:02:20Z	vm: `--expose-gc` breaks gc and crashes with `--max-old-space-size`	314		
 3263	131406	false	closed	false	14		2015-10-08T07:30:48Z	2016-10-05T12:50:15Z	2016-10-05T12:50:15Z	building s390 / s390x	121		
@@ -6300,7 +6300,7 @@
 12791	96947	true	open	false			2017-05-02T14:50:34Z	2017-05-08T16:05:08Z		"doc: add ""Troubleshooting"" & ""best practices"""	232		
 12792	10393198	true	closed	false	11		2017-05-02T14:59:32Z	2017-06-18T23:29:20Z	2017-05-04T18:15:55Z	test: fix too optimistic guess in setproctitle	194		
 12793	15943089	false	open	false	3		2017-05-02T15:33:49Z	2017-05-12T15:02:55Z		Note that whatwg-url tests should not be modified	35		
-12794	794604	true	open	false	24		2017-05-02T17:29:48Z	2017-07-19T00:30:50Z		Add process.dlopenFlags	166		
+12794	794604	true	open	false			2017-05-02T17:29:48Z	2017-07-19T08:50:33Z		Add process.dlopenFlags	166		
 12795	10393198	true	closed	false	5		2017-05-02T17:35:37Z	2017-05-04T18:20:13Z	2017-05-04T18:20:13Z	test: add callback to fs.close() in test-fs-chmod	38		
 12796	718899	true	closed	false	2		2017-05-02T18:32:02Z	2017-06-18T23:34:47Z	2017-05-04T23:03:20Z	doc: edit CONTRIBUTING.md for clarity etc.	25		
 12797	16063953	true	closed	false	2	0	2017-05-02T18:33:45Z	2017-05-02T19:06:54Z	2017-05-02T19:06:54Z	test: add comment to all whatwg-url tests saying they should not be m…	43		
@@ -7442,7 +7442,7 @@
 13934	2512748	true	closed	false	3	7	2017-06-26T18:47:28Z	2017-07-01T15:43:28Z	2017-07-01T15:43:28Z	n-api: add napi_delete_property()	41	2512748	2017-07-01T15:43:28Z
 13935	4923335	true	open	false	5		2017-06-26T18:54:26Z	2017-07-03T18:21:58Z		test: refactor test-http(s)-set-timeout-server	89		
 13936	16191	false	closed	false	9		2017-06-26T19:11:23Z	2017-06-30T21:35:29Z	2017-06-30T10:26:57Z	buffer.toString() no longer accepts null as encoding	92		
-13937	96947	false	open	false	32		2017-06-26T20:31:20Z	2017-07-19T07:19:23Z		meta: semver impact of Error messages	204		
+13937	96947	false	open	false	35		2017-06-26T20:31:20Z	2017-07-19T08:22:42Z		meta: semver impact of Error messages	204		
 13938	662371	true	closed	false	9		2017-06-26T22:06:27Z	2017-07-05T14:07:59Z	2017-07-05T13:53:49Z	async-hooks,net: ensure asyncId=null if no handle	50		
 13939	9373002	true	open	false	1		2017-06-26T22:44:32Z	2017-06-28T18:29:52Z		doc: doc lifetime of n-api last error info	44		
 13940	1538624	true	closed	false	4		2017-06-27T02:10:00Z	2017-06-30T00:00:41Z	2017-06-29T08:02:20Z	src: add missing new line to printed message	32		
@@ -7826,10 +7826,10 @@
 14318	443663	true	open	false	0		2017-07-17T05:06:36Z	2017-07-17T07:02:16Z		test: verify detail exception messages in addons-napi/test_constructor	37		
 14319	443663	true	open	false	5		2017-07-17T05:09:58Z	2017-07-18T01:41:04Z		test: replace string concatenation in async-hooks/test-tlswrap.js with template literals	39		
 14320	15943089	true	open	false	0		2017-07-17T07:02:46Z	2017-07-18T03:05:43Z		test: allow inspector to reopen with same port	105		
-14321	52195	true	open	false			2017-07-17T08:11:43Z	2017-07-17T16:23:19Z		doc,stream: _transform cannot be called in parallel	53		
+14321	52195	true	closed	false	2		2017-07-17T08:11:43Z	2017-07-19T08:37:59Z	2017-07-19T08:37:59Z	doc,stream: _transform cannot be called in parallel	53		
 14322	8624778	true	closed	false	3		2017-07-17T09:06:59Z	2017-07-18T14:15:15Z	2017-07-18T02:54:30Z	[JsConf Code & Learn]test: replace string concatenation with template literals	47		
 14323	29542357	true	open	false			2017-07-17T09:16:18Z	2017-07-18T05:27:37Z		docs: add note about fs.rmdir()/fs.rmdirSync()	38		
-14324	718899	true	open	false	6		2017-07-17T12:19:31Z	2017-07-19T02:36:18Z		process: improve hrtime() error message	59		
+14324	718899	true	open	false			2017-07-17T12:19:31Z	2017-07-19T08:21:00Z		process: improve hrtime() error message	59		
 14325	5675531	false	closed	false	8		2017-07-17T14:01:16Z	2017-07-18T08:58:11Z	2017-07-18T07:20:05Z	Node process with --inspect cannot fork child process without passing --inspect	45		
 14326	5340840	false	open	false	2		2017-07-17T15:47:12Z	2017-07-18T19:02:29Z		Node 6 crash w/ computed properties	109		
 14327	96947	true	open	false	1		2017-07-17T16:12:10Z	2017-07-17T18:09:59Z		[v6.x backport] test: harden test-dgram-bind-shared-ports	35		
@@ -7862,8 +7862,10 @@
 14354	9343089	true	open	false			2017-07-18T19:12:36Z	2017-07-19T06:12:11Z		doc: add note for build path	34		
 14355	1215971	true	open	false	18		2017-07-18T19:59:52Z	2017-07-19T05:03:57Z		test: add comments for whatwg-url tests	58		
 14356	498775	true	open	false	0	0	2017-07-18T21:26:21Z	2017-07-18T21:26:21Z		v6.11.2 proposal	2503		
-14357	13789723	false	open	false	0		2017-07-18T23:10:02Z	2017-07-18T23:10:02Z		 Fatal error in api.cc, line 1200	6		
+14357	13789723	false	closed	false	1		2017-07-18T23:10:02Z	2017-07-19T08:57:58Z	2017-07-19T08:57:58Z	 Fatal error in api.cc, line 1200 Check failed: !value_obj->IsJSReceiver() || value_obj->IsTemplateInfo(). 	103		
 14358	5157107	true	open	false	0		2017-07-19T03:39:30Z	2017-07-19T04:19:30Z		http: disable OutgoingMessage pipe method	84		
-14359	96947	true	open	false	1		2017-07-19T03:48:10Z	2017-07-19T04:23:13Z		util: use magenta;bold	67		
+14359	96947	true	open	false	2		2017-07-19T03:48:10Z	2017-07-19T08:23:30Z		util: use magenta;bold	67		
 14360	718899	true	open	false	0	0	2017-07-19T04:53:33Z	2017-07-19T04:53:33Z		[v6.x backport] tools: apply stricter indentation rules to tools 	10		
-14361	718899	true	open	false			2017-07-19T06:03:22Z	2017-07-19T07:15:52Z		test: fix flaky test-net-write-after-close	38		
+14361	718899	true	open	false			2017-07-19T06:03:22Z	2017-07-19T08:46:41Z		test: fix flaky test-net-write-after-close	38		
+14362	54666	false	open	false	0		2017-07-19T08:42:18Z	2017-07-19T08:42:18Z		doc: typo in stream.md	23		
+14363	20224954	true	open	false	0	0	2017-07-19T08:58:40Z	2017-07-19T08:58:40Z		tools: add download testing	57		
