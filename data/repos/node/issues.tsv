@@ -144,6 +144,7 @@
 2794	1217541	false	closed	false	6		2015-09-10T12:04:58Z	2016-12-07T10:13:47Z	2015-09-11T03:15:56Z	crypto, bad decrypt 	103		
 2814	12448364	false	closed	false	14		2015-09-11T12:42:32Z	2016-11-17T17:06:28Z	2015-09-11T15:04:16Z	Cannot find module 'npmlog' after upgrading to NodeJS 4.0	39		
 2833	1211152	false	closed	false	29		2015-09-12T14:09:10Z	2016-07-29T19:13:35Z	2016-03-09T09:20:02Z	Node.js `crypto` and the WebCrypto API	150		
+2835	1088720	false	closed	false	18		2015-09-12T16:28:08Z	2017-07-19T17:27:22Z	2016-03-16T09:02:32Z	provide a way to introduce new encodings for `new Buffer('someString', 'someEncoding')`	278		
 2842	692511	false	open	false	16		2015-09-12T21:54:12Z	2017-05-12T07:45:56Z		Exclude the `Trailer` header from 304 responses?	86		
 2848	1348991	false	closed	false	38		2015-09-13T21:27:01Z	2017-06-09T17:18:02Z	2017-06-09T17:18:02Z	Add dns.resolve that returns all results	45		
 2849	6031416	false	closed	false	4		2015-09-14T00:32:57Z	2017-02-07T20:00:04Z	2017-02-07T20:00:04Z	Net api servers bind to all configured network interface IPs by default (insecure)	50		
@@ -5688,7 +5689,7 @@
 12177	374012	false	open	false	0		2017-04-03T06:38:53Z	2017-05-27T22:55:16Z		Type confusion bugs in process_wrap.cc.	77		
 12178	374012	false	closed	false	4		2017-04-03T06:41:08Z	2017-06-05T21:14:48Z	2017-06-05T21:14:48Z	Type confusion bug in HTTP parser	89		
 12179	374012	false	open	false	5		2017-04-03T06:43:39Z	2017-04-12T21:10:44Z		Type confusion bug in WriteFloatGeneric	71		
-12180	11638619	false	open	false	1		2017-04-03T08:25:06Z	2017-06-18T13:52:35Z		Shebang parsing is slightly different when using the --check flag	137		
+12180	11638619	false	open	false	2		2017-04-03T08:25:06Z	2017-07-19T17:33:38Z		Shebang parsing is slightly different when using the --check flag	137		
 12181	3109072	true	closed	false	9		2017-04-03T10:09:25Z	2017-05-15T20:36:57Z	2017-04-14T21:47:53Z	doc: path functions ignore trailing slashes	42		
 12182	2931196	true	closed	false	11		2017-04-03T11:14:08Z	2017-04-07T08:01:29Z	2017-04-05T02:53:13Z	Implement assert.isInstanceOf()	69		
 12183	2291463	true	closed	false	12	2	2017-04-03T11:49:50Z	2017-04-25T05:08:57Z	2017-04-25T05:08:57Z	process: use rest parameters in nextTick.	58		
@@ -6581,7 +6582,7 @@
 13071	4044581	false	closed	false	3		2017-05-17T05:24:53Z	2017-05-22T03:10:55Z	2017-05-22T03:10:55Z	"parallel/test-process-setuid-setgid fails if ""nobody"" user does not exist"	26		
 13072	5886475	true	closed	false	5		2017-05-17T05:42:32Z	2017-07-10T11:04:51Z	2017-07-10T11:04:51Z	(v6.x backport) test: fix parallel/test-setproctitle.js on alpine	72		
 13073	115237	true	closed	false	3		2017-05-17T05:44:14Z	2017-06-20T21:45:44Z	2017-06-20T21:45:44Z	(v6.x backport) #9532	7		
-13074	128856	true	closed	false	12		2017-05-17T07:02:05Z	2017-07-17T17:32:54Z	2017-05-23T19:03:36Z	vm: fix race condition with `timeout` param	183		
+13074	128856	true	closed	false	13		2017-05-17T07:02:05Z	2017-07-19T17:36:36Z	2017-05-23T19:03:36Z	vm: fix race condition with `timeout` param	183		
 13075	16603080	false	open	false	3		2017-05-17T07:29:11Z	2017-05-17T09:14:14Z		/usr/bin/node[14405]: ../src/node_http_parser.cc:398:static void node::Parser::Execute(const v8::FunctionCallbackInfo<v8::Value>&): Assertion `(parser->current_buffer_len_) == (0)' failed.	76		
 13076	2842176	true	closed	false	15		2017-05-17T09:37:17Z	2017-07-17T14:58:05Z	2017-05-21T13:53:09Z	dns: fix `resolve` failed starts without network	353		
 13077	27954280	false	closed	false	3		2017-05-17T10:28:07Z	2017-06-14T00:49:38Z	2017-05-17T10:43:36Z	events.js:163 throw er; // Unhandled 'error' event	186		
@@ -7150,7 +7151,7 @@
 13641	931192	false	closed	false	5		2017-06-12T22:49:17Z	2017-06-30T18:28:43Z	2017-06-30T18:28:43Z	Issues building test addons with both VS2015 and VS2017 installed	414		
 13642	718899	false	open	false	2		2017-06-12T23:20:10Z	2017-06-14T02:18:45Z		Investigate flaky test/parallel/test-fs-watch on Raspberry Pi	24		
 13643	718899	true	open	false	3		2017-06-13T01:54:49Z	2017-06-16T16:03:38Z		test: refactor test-fs-read-stream	72		
-13644	439929	true	open	false			2017-06-13T03:19:20Z	2017-07-18T08:59:22Z		buffer: implement WHATWG Encoding Standard API	140		
+13644	439929	true	open	false			2017-06-13T03:19:20Z	2017-07-19T17:31:23Z		buffer: implement WHATWG Encoding Standard API	140		
 13645	718899	true	closed	false	25		2017-06-13T03:53:45Z	2017-07-18T06:38:13Z	2017-06-17T19:58:24Z	tools: update ESLint to v4.0.0	32		
 13646	617481	false	open	false	10		2017-06-13T04:41:32Z	2017-06-20T00:15:59Z		Discussion of implementing the Encoding Standard with ICU, and associated web platform tests	196		
 13647	490562	false	open	false	0		2017-06-13T05:08:12Z	2017-06-13T06:03:18Z		Crashes terminal on OS X and refuses subsequent input after prompting more than once (Node 8 only)	174		
@@ -7443,7 +7444,7 @@
 13934	2512748	true	closed	false	3	7	2017-06-26T18:47:28Z	2017-07-01T15:43:28Z	2017-07-01T15:43:28Z	n-api: add napi_delete_property()	41	2512748	2017-07-01T15:43:28Z
 13935	4923335	true	open	false	5		2017-06-26T18:54:26Z	2017-07-03T18:21:58Z		test: refactor test-http(s)-set-timeout-server	89		
 13936	16191	false	closed	false	9		2017-06-26T19:11:23Z	2017-06-30T21:35:29Z	2017-06-30T10:26:57Z	buffer.toString() no longer accepts null as encoding	92		
-13937	96947	false	closed	false	38		2017-06-26T20:31:20Z	2017-07-19T16:31:42Z	2017-07-19T16:31:42Z	meta: semver impact of Error messages	204		
+13937	96947	false	closed	false	40		2017-06-26T20:31:20Z	2017-07-19T17:20:05Z	2017-07-19T16:31:42Z	meta: semver impact of Error messages	204		
 13938	662371	true	closed	false	9		2017-06-26T22:06:27Z	2017-07-05T14:07:59Z	2017-07-05T13:53:49Z	async-hooks,net: ensure asyncId=null if no handle	50		
 13939	9373002	true	open	false	1		2017-06-26T22:44:32Z	2017-06-28T18:29:52Z		doc: doc lifetime of n-api last error info	44		
 13940	1538624	true	closed	false	4		2017-06-27T02:10:00Z	2017-06-30T00:00:41Z	2017-06-29T08:02:20Z	src: add missing new line to printed message	32		
@@ -7744,7 +7745,7 @@
 14235	17535	true	closed	false	4		2017-07-14T18:12:08Z	2017-07-17T21:32:00Z	2017-07-17T16:32:13Z	deps: upgrade npm to 5.3.0	174		
 14236	3038254	true	open	false			2017-07-14T18:12:21Z	2017-07-18T00:07:54Z		net: fix bytesWritten during writev	146		
 14237	10393198	true	closed	false	0		2017-07-14T19:28:34Z	2017-07-14T21:24:07Z	2017-07-14T21:24:07Z	benchmark: fix typo in inspect-proxy	21		
-14238	505333	false	open	false	13		2017-07-14T19:49:42Z	2017-07-18T10:27:40Z		Remove async_hooks setTrigger API	604		
+14238	505333	false	open	false	14		2017-07-14T19:49:42Z	2017-07-19T17:14:59Z		Remove async_hooks setTrigger API	604		
 14239	439929	true	open	false	34		2017-07-14T19:57:36Z	2017-07-19T06:48:30Z		http2: Introducing http/2	498		
 14240	15139655	false	open	false	0		2017-07-14T20:40:55Z	2017-07-14T20:40:55Z		Cannot install @angular/cli	207		
 14241	96947	false	closed	false	4		2017-07-14T22:55:10Z	2017-07-16T02:02:07Z	2017-07-16T02:02:07Z	test: flaky `test-net-can-reset-timeout`	144		
@@ -7861,19 +7862,22 @@
 14352	25020067	false	closed	false	1		2017-07-18T18:55:40Z	2017-07-19T02:58:33Z	2017-07-19T02:58:33Z	Cluster Documentation: Missing '	35		
 14353	15952	true	closed	false	2		2017-07-18T19:04:58Z	2017-07-19T06:14:40Z	2017-07-19T06:14:40Z	doc: fix minor typo in cluster.md	41		
 14354	9343089	true	open	false			2017-07-18T19:12:36Z	2017-07-19T12:25:44Z		doc: add note for build path	34		
-14355	1215971	true	open	false	20		2017-07-18T19:59:52Z	2017-07-19T15:24:22Z		test: add comments for whatwg-url tests	58		
+14355	1215971	true	open	false	21		2017-07-18T19:59:52Z	2017-07-19T17:33:54Z		test: add comments for whatwg-url tests	58		
 14356	498775	true	open	false	0	0	2017-07-18T21:26:21Z	2017-07-18T21:26:21Z		v6.11.2 proposal	2503		
 14357	13789723	false	closed	false	1		2017-07-18T23:10:02Z	2017-07-19T08:57:58Z	2017-07-19T08:57:58Z	 Fatal error in api.cc, line 1200 Check failed: !value_obj->IsJSReceiver() || value_obj->IsTemplateInfo(). 	103		
 14358	5157107	true	open	false	1		2017-07-19T03:39:30Z	2017-07-19T13:46:54Z		http: disable OutgoingMessage pipe method	84		
-14359	96947	true	open	false	4		2017-07-19T03:48:10Z	2017-07-19T12:07:36Z		util: use magenta;bold	67		
+14359	96947	true	open	false	7		2017-07-19T03:48:10Z	2017-07-19T17:53:37Z		util: use magenta;bold	67		
 14360	718899	true	open	false	0	0	2017-07-19T04:53:33Z	2017-07-19T04:53:33Z		[v6.x backport] tools: apply stricter indentation rules to tools 	10		
 14361	718899	true	open	false	3		2017-07-19T06:03:22Z	2017-07-19T15:53:37Z		test: fix flaky test-net-write-after-close	38		
 14362	54666	false	open	false	0		2017-07-19T08:42:18Z	2017-07-19T12:01:29Z		doc: typo in stream.md	23		
-14363	20224954	true	open	false	0		2017-07-19T08:58:40Z	2017-07-19T09:06:05Z		tools: add download testing	57		
-14364	22377678	true	open	false	0		2017-07-19T11:57:16Z	2017-07-19T12:20:10Z		Fixes: https://github.com/nodejs/node/issues/14362	22		
+14363	20224954	true	open	false	2		2017-07-19T08:58:40Z	2017-07-19T17:23:07Z		tools: add download testing	57		
+14364	22377678	true	open	false	1		2017-07-19T11:57:16Z	2017-07-19T17:37:55Z		Fixes: https://github.com/nodejs/node/issues/14362	29		
 14365	976081	true	open	false			2017-07-19T12:28:08Z	2017-07-19T15:08:18Z		n-api: implement promise	150		
 14366	10070995	false	closed	false	0		2017-07-19T12:37:48Z	2017-07-19T13:59:55Z	2017-07-19T13:59:55Z	How to verfiy nodejs TLS connection  is FIPS 140-2 complaint or not	71		
 14367	1538624	false	open	false	0		2017-07-19T14:07:53Z	2017-07-19T14:07:53Z		Using `v8::Private::ForApi` for N-API object wrapping	113		
-14368	11356668	false	open	false	0		2017-07-19T14:42:55Z	2017-07-19T14:42:55Z		HTTP: Cannot read property 'Symbol(asyncId)' of null	207		
+14368	11356668	false	open	false	0		2017-07-19T14:42:55Z	2017-07-19T17:36:37Z		HTTP: Cannot read property 'Symbol(asyncId)' of null	207		
 14369	234659	true	open	false	0	0	2017-07-19T15:17:34Z	2017-07-19T15:17:34Z		module: Allow runMain to be ESM	96		
 14370	10393198	true	open	false	0	0	2017-07-19T16:33:44Z	2017-07-19T16:33:44Z		[v6.x backport] test: fix RegExp nits	29		
+14371	16506071	false	open	false	0		2017-07-19T17:10:29Z	2017-07-19T17:10:29Z		module.paths is undocumented	47		
+14372	4665492	true	open	false	0	0	2017-07-19T17:29:47Z	2017-07-19T17:29:47Z		doc: replace dead link in v8 module	65		
+14373	128856	true	open	false	0	0	2017-07-19T17:35:04Z	2017-07-19T17:35:04Z		vm: backport fix race condition with `timeout` param	46		
