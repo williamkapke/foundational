@@ -49,6 +49,7 @@
 1180	2414252	false	closed	false	19		2015-03-17T21:35:00Z	2017-01-10T12:17:40Z	2016-04-10T23:34:08Z	CreateReadStream doesn't close the file	104		
 1271	275871	false	closed	false	19		2015-03-26T15:30:40Z	2017-02-15T00:06:12Z	2017-02-15T00:06:12Z	timer,domain: timers don't maintain order after exception	63		
 1278	532414	false	closed	false	40		2015-03-26T19:55:14Z	2017-07-15T14:28:58Z	2016-02-12T21:20:04Z	Compressed packages	136		
+1309	1215371	false	closed	false	8		2015-04-01T10:09:57Z	2017-07-20T11:35:40Z	2015-08-13T16:56:06Z	No finish/close event on aborted http-response - race condition	317		
 1325	782880	true	closed	false	27		2015-04-02T16:23:07Z	2017-06-18T13:29:27Z	2015-04-04T03:43:20Z	Upgrade to openssl-1.0.2a (Part1)	166		
 1374	10247	false	closed	false	16		2015-04-08T13:46:19Z	2016-10-21T07:20:28Z	2015-09-03T06:13:19Z	Fatal Error (Abort) creating string larger than 268435440 bytes	93		
 1462	238531	false	closed	false	27		2015-04-18T08:08:35Z	2017-05-30T04:08:39Z	2017-05-30T04:08:39Z	Removing `newSession`/`resumeSession`	83		
@@ -5651,7 +5652,7 @@
 12139	5447484	true	closed	false	9		2017-03-30T20:23:20Z	2017-04-07T13:25:19Z	2017-04-07T13:25:19Z	test: add RegExp second argument to assert.throws	37		
 12140	332968	true	closed	false	4		2017-03-30T22:01:01Z	2017-06-19T08:16:04Z	2017-04-03T17:38:36Z	test: extended test to makeCallback cb type check	42		
 12141	439929	true	closed	false	10		2017-03-31T03:14:54Z	2017-04-13T19:19:54Z	2017-04-03T16:59:55Z	buffer: zero fill Buffer(num) by default	52		
-12142	47413	true	closed	false	17		2017-03-31T04:00:51Z	2017-04-04T11:20:58Z	2017-04-03T08:19:53Z	assert: Add support for Map and Set in deepEqual	311		
+12142	47413	true	closed	false			2017-03-31T04:00:51Z	2017-07-20T11:29:13Z	2017-04-03T08:19:53Z	assert: Add support for Map and Set in deepEqual	311		
 12143	899444	true	closed	false	4		2017-03-31T06:29:15Z	2017-04-03T12:41:24Z	2017-04-03T08:41:19Z	v8: fix offsets for TypedArray deserialization	73		
 12144	4923335	true	closed	false	1		2017-03-31T08:42:55Z	2017-04-04T16:51:24Z	2017-04-04T16:51:24Z	src: use const parameters in base64_decode_slow()	45		
 12145	3841492	false	closed	false	1		2017-03-31T12:20:51Z	2017-04-11T08:09:50Z	2017-04-11T08:09:50Z	NPM terminates	116		
@@ -7751,7 +7752,7 @@
 14241	96947	false	closed	false	4		2017-07-14T22:55:10Z	2017-07-16T02:02:07Z	2017-07-16T02:02:07Z	test: flaky `test-net-can-reset-timeout`	144		
 14242	10933333	true	open	false	1		2017-07-15T01:27:11Z	2017-07-17T15:43:11Z		errors: keep error codes in alphabetical order	42		
 14243	1819074	false	open	false	6		2017-07-15T02:45:49Z	2017-07-16T19:24:33Z		Foreground Magenta is not shown well in powershell(windows)	116		
-14244	10393198	true	open	false			2017-07-15T02:47:50Z	2017-07-17T17:17:20Z		doc, lib, test: do not re-require needlessly	116		
+14244	10393198	true	open	false	2		2017-07-15T02:47:50Z	2017-07-20T11:25:29Z		doc, lib, test: do not re-require needlessly	116		
 14245	2842176	true	open	false			2017-07-15T03:18:44Z	2017-07-20T05:13:38Z		[v8.x] doc,tls: mark parseCertString() as deprecated	37		
 14246	96947	true	open	false	6		2017-07-15T04:02:21Z	2017-07-16T01:33:28Z		test: temporarily disable MultipleEnvironmentsPerIsolate	34		
 14247	718899	true	closed	false	3		2017-07-15T04:02:27Z	2017-07-18T05:11:48Z	2017-07-18T05:11:48Z	lib: update indentation of ternaries	43		
@@ -7891,7 +7892,9 @@
 14381	25573589	false	open	false	6		2017-07-20T06:32:30Z	2017-07-20T09:28:47Z		8.2.0 crashes test	72		
 14382	433468	true	open	false	0	0	2017-07-20T06:37:01Z	2017-07-20T06:37:01Z		N api dataview	69		
 14383	29041814	false	closed	false	0		2017-07-20T06:47:09Z	2017-07-20T07:21:12Z	2017-07-20T07:21:12Z	Net API - Connect TCP socket via proxy	60		
-14384	2352663	false	open	false	0		2017-07-20T06:52:00Z	2017-07-20T07:29:39Z		Should we continue to support FreeBSD?	208		
+14384	2352663	false	open	false	1		2017-07-20T06:52:00Z	2017-07-20T11:04:19Z		Should we continue to support FreeBSD?	208		
 14385	2291463	true	open	false	0	0	2017-07-20T08:53:09Z	2017-07-20T08:53:09Z		deps: backport rehash strings after deserialization.	107		
-14386	52195	false	open	false	3		2017-07-20T09:49:16Z	2017-07-20T10:34:48Z		8.2.0 crashes test when using shot	444		
-14387	52195	true	open	false	4		2017-07-20T10:11:00Z	2017-07-20T10:31:29Z		async_hooks: triggerAsyncId can be undefined	37		
+14386	52195	false	open	false	10		2017-07-20T09:49:16Z	2017-07-20T11:06:55Z		8.2.0 crashes test when using shot	444		
+14387	52195	true	open	false			2017-07-20T10:11:00Z	2017-07-20T11:42:00Z		async_hooks: triggerAsyncId can be undefined	37		
+14388	2842176	true	open	false	0	0	2017-07-20T11:33:54Z	2017-07-20T11:33:54Z		doc: add XadillaX to collaborators	23		
+14389	52195	true	open	false	0	0	2017-07-20T11:38:20Z	2017-07-20T11:38:20Z		http: set async_id_symbol to any socket set	67		
