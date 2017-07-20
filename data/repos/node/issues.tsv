@@ -69,7 +69,7 @@
 1741	11692818	false	open	false	18		2015-05-20T08:57:29Z	2016-08-10T14:06:26Z		Why does node/io.js hang when printing to the console inside a loop?	155		
 1746	52195	false	closed	false	5		2015-05-20T16:02:46Z	2017-06-06T13:14:05Z	2017-06-06T13:14:05Z	[streams] Releasing write() callbacks on error	154		
 1765	900690	false	closed	false	9		2015-05-22T09:03:01Z	2016-07-06T06:54:28Z	2016-07-06T06:54:28Z	Windows: fs.realpathSync() adds trailing slash for windows share	68		
-1788	1309053	false	closed	false	31		2015-05-24T23:32:23Z	2017-06-29T02:31:57Z	2017-05-30T04:12:45Z	Debug process didn't close after finish debugging	74		
+1788	1309053	false	closed	false	32		2015-05-24T23:32:23Z	2017-07-20T06:55:31Z	2017-05-30T04:12:45Z	Debug process didn't close after finish debugging	74		
 1802	744035	false	closed	false	12		2015-05-26T21:22:12Z	2017-05-01T19:37:45Z	2017-05-01T19:37:45Z	url: parse() fails if auth contain a colon or ampersand	163		
 1826	617481	false	open	false	15		2015-05-28T18:31:59Z	2017-07-07T03:35:17Z		Accept ArrayBuffer (and typed array/data view?) anywhere Buffer is allowed in the API	88		
 1834	275871	false	closed	false	14		2015-05-29T12:01:45Z	2017-07-17T09:07:50Z	2017-07-17T08:26:41Z	fs / streams: file descriptor leak on connection abort	142		
@@ -681,7 +681,7 @@
 6795	112555	false	closed	false	2		2016-05-16T22:13:44Z	2017-05-30T04:53:34Z	2017-05-30T04:53:34Z	HTTP server timeout closing connection despite new request	357		
 6798	54666	false	open	false	29		2016-05-17T01:22:45Z	2017-06-01T07:44:28Z		streams: Readable highWaterMark is measured in bytes *or* characters	103		
 6799	54666	false	open	false	14		2016-05-17T01:45:18Z	2017-05-30T07:53:29Z		"doc,streams: internal ""private"" properties are publicly documented"	114		
-6802	13891170	false	open	false	16		2016-05-17T06:00:09Z	2017-07-19T12:50:24Z		REPL crashes after let process;	35		
+6802	13891170	false	open	false	17		2016-05-17T06:00:09Z	2017-07-20T06:40:25Z		REPL crashes after let process;	35		
 6803	413206	false	closed	false	14		2016-05-17T08:34:13Z	2017-04-16T00:22:42Z	2017-04-16T00:22:42Z	child_process.exec() fails with spaces in absolute or relative path to binary file	77		
 6804	52195	true	closed	false	33		2016-05-17T10:55:16Z	2016-07-12T17:31:26Z	2016-05-26T09:29:32Z	dgram: copy the array when using the list variant in send()	96		
 6806	317464	false	closed	false	20		2016-05-17T11:57:39Z	2017-05-30T04:55:43Z	2017-05-30T04:55:42Z	uv: let's discuss the backport policy for LTS	99		
@@ -5278,7 +5278,7 @@
 11765	1443911	true	open	false	5		2017-03-09T07:41:45Z	2017-03-11T20:03:41Z		v4.x backport: http: make request.abort() destroy the socket	25		
 11766	432351	true	closed	false	10		2017-03-09T10:02:32Z	2017-03-13T18:53:33Z	2017-03-13T18:53:33Z	build: add node_use_openssl check to install.py	63		
 11767	898057	false	open	false	21		2017-03-09T10:46:50Z	2017-03-16T11:49:41Z		Proposal: add option to automatically add BOM to write methods	65		
-11768	54666	false	open	false	5		2017-03-09T13:53:05Z	2017-07-20T06:02:03Z		Investigate flaky parallel/test-http-set-timeout-server	55		
+11768	54666	false	open	false	6		2017-03-09T13:53:05Z	2017-07-20T06:03:19Z		Investigate flaky parallel/test-http-set-timeout-server	55		
 11769	13561163	true	closed	false	3		2017-03-09T14:05:20Z	2017-03-15T05:12:07Z	2017-03-15T05:12:07Z	test: added test for indexed properties	86		
 11770	2352663	false	closed	false	8		2017-03-09T14:11:23Z	2017-04-13T22:03:37Z	2017-04-13T22:03:37Z	Move V8 inspector to stable	43		
 11771	1936786	false	open	false	5		2017-03-09T15:10:38Z	2017-07-18T18:24:32Z		tls requires a subject even when altNames are defined	78		
@@ -5676,7 +5676,7 @@
 12164	3109072	true	closed	false	9		2017-04-02T13:15:58Z	2017-05-15T14:04:11Z	2017-04-10T14:41:58Z	crypto: Handle exceptions in hmac/hash.digest	120		
 12165	8019430	false	closed	false	3		2017-04-02T17:06:15Z	2017-04-02T18:55:19Z	2017-04-02T17:34:16Z	"Inconsistent availablity of .toString(""hex"");"	75		
 12166	432351	true	closed	false	4		2017-04-02T17:20:54Z	2017-06-17T23:54:05Z	2017-04-04T17:30:39Z	test: add variable arguments support for Argv	78		
-12167	910691	true	closed	false	26		2017-04-02T17:46:00Z	2017-07-19T20:02:40Z	2017-07-19T20:02:40Z	assert.doesNotThrow, show error message	95		
+12167	910691	true	closed	false	27		2017-04-02T17:46:00Z	2017-07-20T07:06:52Z	2017-07-19T20:02:40Z	assert.doesNotThrow, show error message	95		
 12168	555645	false	open	false	7		2017-04-02T18:31:30Z	2017-04-04T16:05:40Z		url.parse would be better to not decode authority?	228		
 12169	10393198	true	closed	false	1		2017-04-02T19:07:29Z	2017-04-18T23:29:27Z	2017-04-04T16:23:47Z	doc: modernize and fix code examples in http.md	59		
 12170	10393198	true	closed	false	6		2017-04-02T21:46:49Z	2017-06-17T23:52:51Z	2017-04-04T16:21:58Z	benchmark: replace [].join() with ''.repeat()	140		
@@ -7830,7 +7830,7 @@
 14320	15943089	true	open	false	0		2017-07-17T07:02:46Z	2017-07-18T03:05:43Z		test: allow inspector to reopen with same port	105		
 14321	52195	true	closed	false	2		2017-07-17T08:11:43Z	2017-07-19T08:37:59Z	2017-07-19T08:37:59Z	doc,stream: _transform cannot be called in parallel	53		
 14322	8624778	true	closed	false	4		2017-07-17T09:06:59Z	2017-07-19T14:57:34Z	2017-07-18T02:54:30Z	[JsConf Code & Learn]test: replace string concatenation with template literals	47		
-14323	29542357	true	closed	false	0		2017-07-17T09:16:18Z	2017-07-19T21:13:14Z	2017-07-19T21:13:14Z	docs: add note about fs.rmdir()/fs.rmdirSync()	38		
+14323	29542357	true	closed	false	1		2017-07-17T09:16:18Z	2017-07-20T06:45:27Z	2017-07-19T21:13:14Z	docs: add note about fs.rmdir()/fs.rmdirSync()	38		
 14324	718899	true	open	false			2017-07-17T12:19:31Z	2017-07-19T20:53:11Z		process: improve hrtime() error message	59		
 14325	5675531	false	closed	false	8		2017-07-17T14:01:16Z	2017-07-18T08:58:11Z	2017-07-18T07:20:05Z	Node process with --inspect cannot fork child process without passing --inspect	45		
 14326	5340840	false	open	false	4		2017-07-17T15:47:12Z	2017-07-19T22:34:56Z		Node 6 crash w/ computed properties	109		
@@ -7849,7 +7849,7 @@
 14339	718899	true	closed	false	0		2017-07-18T06:17:14Z	2017-07-18T18:52:20Z	2017-07-18T18:52:20Z	[v6.x backport] test: change deprecated method to recommended	84		
 14340	718899	true	open	false	0		2017-07-18T06:37:57Z	2017-07-18T18:44:30Z		[v6.x backport] tools: update ESLint to v4.0.0 	32		
 14341	3927355	false	open	false	3		2017-07-18T09:07:10Z	2017-07-18T14:23:59Z		Why not rewrite the test by es6?	29		
-14342	8624778	true	closed	false	4		2017-07-18T09:38:38Z	2017-07-19T21:38:54Z	2017-07-19T21:38:54Z	[JsConf Code & Learn]test: replace string concatenation with template literals	47		
+14342	8624778	true	closed	false			2017-07-18T09:38:38Z	2017-07-20T06:21:00Z	2017-07-19T21:38:54Z	[JsConf Code & Learn]test: replace string concatenation with template literals	47		
 14343	275871	true	open	false	6		2017-07-18T10:54:28Z	2017-07-19T21:11:17Z		v8: handle proxy objects in MakeMirror()	57		
 14344	677994	true	closed	false	1	0	2017-07-18T12:01:43Z	2017-07-18T17:43:03Z	2017-07-18T17:43:03Z	[v8.x backport] build: allow enabling the --trace-maps flag in V8	55		
 14345	2291463	true	open	false	8		2017-07-18T15:22:56Z	2017-07-20T05:33:31Z		v8: rehash strings after deserialization	74		
@@ -7866,7 +7866,7 @@
 14356	498775	true	open	false	0	0	2017-07-18T21:26:21Z	2017-07-18T21:26:21Z		v6.11.2 proposal	2503		
 14357	13789723	false	closed	false	1		2017-07-18T23:10:02Z	2017-07-19T08:57:58Z	2017-07-19T08:57:58Z	 Fatal error in api.cc, line 1200 Check failed: !value_obj->IsJSReceiver() || value_obj->IsTemplateInfo(). 	103		
 14358	5157107	true	open	false	2		2017-07-19T03:39:30Z	2017-07-19T21:24:44Z		http: disable OutgoingMessage pipe method	84		
-14359	96947	true	open	false	7		2017-07-19T03:48:10Z	2017-07-19T17:53:37Z		util: use magenta;bold	67		
+14359	96947	true	open	false	9		2017-07-19T03:48:10Z	2017-07-20T06:56:01Z		util: use magenta;bold	67		
 14360	718899	true	open	false	0	0	2017-07-19T04:53:33Z	2017-07-19T04:53:33Z		[v6.x backport] tools: apply stricter indentation rules to tools 	10		
 14361	718899	true	open	false	3		2017-07-19T06:03:22Z	2017-07-19T15:53:37Z		test: fix flaky test-net-write-after-close	38		
 14362	54666	false	open	false	0		2017-07-19T08:42:18Z	2017-07-19T12:01:29Z		doc: typo in stream.md	23		
@@ -7874,7 +7874,7 @@
 14364	22377678	true	open	false	1		2017-07-19T11:57:16Z	2017-07-19T17:37:55Z		Fixes: https://github.com/nodejs/node/issues/14362	29		
 14365	976081	true	open	false			2017-07-19T12:28:08Z	2017-07-19T15:08:18Z		n-api: implement promise	150		
 14366	10070995	false	closed	false	0		2017-07-19T12:37:48Z	2017-07-19T13:59:55Z	2017-07-19T13:59:55Z	How to verfiy nodejs TLS connection  is FIPS 140-2 complaint or not	71		
-14367	1538624	false	open	false	4		2017-07-19T14:07:53Z	2017-07-20T03:37:53Z		Using `v8::Private::ForApi` for N-API object wrapping	113		
+14367	1538624	false	open	false	5		2017-07-19T14:07:53Z	2017-07-20T06:30:07Z		Using `v8::Private::ForApi` for N-API object wrapping	113		
 14368	11356668	false	open	false	5		2017-07-19T14:42:55Z	2017-07-19T19:23:42Z		HTTP: Cannot read property 'Symbol(asyncId)' of null	207		
 14369	234659	true	open	false			2017-07-19T15:17:34Z	2017-07-20T02:50:24Z		module: Allow runMain to be ESM	94		
 14370	10393198	true	open	false	0	0	2017-07-19T16:33:44Z	2017-07-19T16:33:44Z		[v6.x backport] test: fix RegExp nits	29		
@@ -7883,7 +7883,12 @@
 14373	128856	true	open	false	0	0	2017-07-19T17:35:04Z	2017-07-19T17:35:04Z		vm: backport fix race condition with `timeout` param	46		
 14374	22799858	false	open	false	0		2017-07-19T18:38:43Z	2017-07-19T18:38:43Z		.	6		
 14375	96947	true	open	false			2017-07-19T19:37:41Z	2017-07-20T04:39:47Z		doc: error message are still major	26		
-14376	3109072	true	open	false	0	0	2017-07-19T20:49:29Z	2017-07-19T20:49:29Z		[v6.x backport] crypto: add sign/verify support for RSASSA-PSS	45		
+14376	3109072	true	open	false	0		2017-07-19T20:49:29Z	2017-07-20T06:26:27Z		[v6.x backport] crypto: add sign/verify support for RSASSA-PSS	45		
 14377	4923335	true	open	false	0	0	2017-07-19T22:01:56Z	2017-07-19T22:01:56Z		test: move timing-dependent tests to sequential	46		
 14378	1093990	false	open	false	0		2017-07-19T22:59:36Z	2017-07-19T22:59:36Z		A way to use custom ssh keys in releases.sh	59		
 14379	13093042	false	open	false	1		2017-07-19T23:48:10Z	2017-07-20T04:39:02Z		n-api: Potential N-API performance optimizations	601		
+14380	718899	true	open	false	0	0	2017-07-20T06:21:29Z	2017-07-20T06:21:29Z		test: fix flaky http(s)-set-server-timeout tests	59		
+14381	25573589	false	open	false	0		2017-07-20T06:32:30Z	2017-07-20T06:32:30Z		8.2.0 crashes test	72		
+14382	433468	true	open	false	0	0	2017-07-20T06:37:01Z	2017-07-20T06:37:01Z		N api dataview	69		
+14383	29041814	false	open	false	0		2017-07-20T06:47:09Z	2017-07-20T06:47:09Z		Net API - Connect socket via proxy	43		
+14384	2352663	false	open	false	0		2017-07-20T06:52:00Z	2017-07-20T06:52:00Z		Should we continue to support FreeBSD?	208		
