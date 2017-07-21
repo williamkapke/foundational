@@ -212,7 +212,7 @@
 3370	1316152	false	open	false	41		2015-10-14T16:29:36Z	2016-07-12T14:06:17Z		Node 4.2 large memory spikes and timeouts on Heroku 	333		
 3384	115237	true	open	false	26		2015-10-15T12:57:10Z	2017-06-18T23:17:38Z		module: remove require('.') with NODE_PATH compat	15		
 3402	595361	false	closed	false	202		2015-10-16T12:45:59Z	2016-12-04T15:34:28Z	2016-04-27T02:45:38Z	Don't resolve symlinks when requiring	120		
-3403	413206	false	closed	false	7		2015-10-16T13:27:40Z	2017-07-21T13:09:42Z	2017-07-07T23:10:25Z	Suggestion: stream.read(buffer, offset, length, callback)	211		
+3403	413206	false	open	false	8		2015-10-16T13:27:40Z	2017-07-21T14:33:22Z		Suggestion: stream.read(buffer, offset, length, callback)	211		
 3410	6677095	true	closed	false			2015-10-16T20:54:30Z	2016-09-23T13:18:56Z	2015-11-24T21:09:22Z	src: added big-endian check and support to UTF-16 encode	25		
 3411	149531	false	closed	false	7		2015-10-16T21:17:52Z	2017-07-19T15:53:40Z	2016-06-16T17:00:13Z	SyntaxError objects should contain information about where the syntax error happened	214		
 3429	367936	false	open	false	31		2015-10-18T21:34:29Z	2017-07-08T03:03:31Z		Very slow child_process.spawn stdout stream performance on Mac OS X 10.9 – 10.11	505		
@@ -2325,7 +2325,7 @@
 8804	718899	false	closed	false	9		2016-09-27T07:21:29Z	2016-11-23T18:29:19Z	2016-11-23T18:29:19Z	investigate flaky inspector/test-inspector on Windows	141		
 8805	1224527	true	closed	false	14		2016-09-27T10:01:40Z	2016-11-22T16:09:05Z	2016-10-10T08:05:22Z	TLS/SSL: tls.TLSSocket emits error event on handshake failure	79		
 8806	2816034	false	closed	false	1		2016-09-27T10:20:51Z	2016-09-27T13:37:43Z	2016-09-27T13:37:43Z	Do I need to install node modules for each node process seperately?	97		
-8807	19629102	false	closed	false	8		2016-09-27T16:18:07Z	2017-07-21T10:34:16Z	2017-07-21T10:34:16Z	Can not getting complete stdout	249		
+8807	19629102	false	closed	false	9		2016-09-27T16:18:07Z	2017-07-21T14:32:55Z	2017-07-21T10:34:16Z	Can not getting complete stdout	249		
 8808	498775	true	closed	false	12	0	2016-09-27T17:45:23Z	2016-09-29T15:52:26Z	2016-09-29T15:52:26Z	meta: update NODE_MODULE_VERSION to 51	173	498775	2016-09-29T15:52:26Z
 8809	3148402	false	closed	false	7		2016-09-27T21:14:11Z	2016-09-28T13:10:52Z	2016-09-27T21:31:52Z	Node server.js execution fails - Win10 node 4.4.3 npm 3.10.7	98		
 8810	439929	false	open	false	14		2016-09-27T22:13:15Z	2017-07-15T06:19:36Z		discuss: proposed standardization of `global` by tc-39	90		
@@ -7644,7 +7644,7 @@
 14133	718899	false	closed	false	6		2017-07-08T14:01:46Z	2017-07-11T17:20:56Z	2017-07-11T17:20:56Z	Investigate flaky test-https-set-timeout-server on Raspberry Pi	60		
 14134	718899	true	closed	false	3		2017-07-08T16:08:54Z	2017-07-11T17:20:04Z	2017-07-11T17:20:04Z	test: fix flaky test-https-set-timeout-server	86		
 14135	9677399	false	closed	false	9		2017-07-08T16:46:36Z	2017-07-09T19:29:41Z	2017-07-09T19:29:41Z	Node install destroyed PATH	47		
-14136	1389947	false	closed	false	3		2017-07-08T17:44:53Z	2017-07-21T13:03:08Z	2017-07-10T08:36:21Z	Use a buffer pool for fs.ReadStream to boost performance?	129		
+14136	1389947	false	closed	false	5		2017-07-08T17:44:53Z	2017-07-21T14:28:46Z	2017-07-10T08:36:21Z	Use a buffer pool for fs.ReadStream to boost performance?	129		
 14137	96947	false	open	false	0		2017-07-08T18:14:59Z	2017-07-08T18:14:59Z		discussion: eslint rule for `/test/` - `no-unused-vars: [error, {args: after-used, caughtErrors: all}]`	176		
 14138	96947	false	open	false	1		2017-07-08T18:40:45Z	2017-07-12T21:52:28Z		n-api: from zzo38 via IRC - `napi_finalize` feedback	80		
 14139	96947	false	open	false	3		2017-07-08T18:48:34Z	2017-07-11T12:41:07Z		"V8: from zzo38 via IRC - ""external"" value internalized"	68		
@@ -7670,7 +7670,7 @@
 14159	439929	true	closed	false	7		2017-07-10T19:31:26Z	2017-07-17T23:31:54Z	2017-07-17T23:31:54Z	"Revert ""test: common.expectsError should be a must call"""	65		
 14160	1106823	false	closed	false	7		2017-07-10T19:52:42Z	2017-07-11T11:43:46Z	2017-07-11T11:43:46Z	ES6 class defined via VM runInNewContext is not accessible	95		
 14161	3109072	false	open	false	0		2017-07-10T20:13:02Z	2017-07-10T20:13:02Z		node_zlib.cc assertion failure	2479		
-14162	78718	true	open	false	18		2017-07-11T01:23:43Z	2017-07-21T12:03:11Z		tools: eslint object curly spacing	81		
+14162	78718	true	open	false	22		2017-07-11T01:23:43Z	2017-07-21T14:38:11Z		tools: eslint object curly spacing	81		
 14163	17535	true	closed	false			2017-07-11T02:08:19Z	2017-07-14T21:46:21Z	2017-07-14T18:12:56Z	deps: update npm to 5.2.0	138		
 14164	911174	true	open	false	9		2017-07-11T08:03:13Z	2017-07-20T23:31:52Z		[WIP] doc: build manpages for each module	300		
 14165	911174	true	closed	false	7		2017-07-11T08:27:08Z	2017-07-14T20:52:33Z	2017-07-14T20:52:33Z	tools: update outdated package.json `engine` field	34		
@@ -7725,7 +7725,7 @@
 14214	96947	false	open	false	4		2017-07-13T02:28:13Z	2017-07-13T11:06:15Z		discuss: refactor the test harness	274		
 14215	2001324	false	closed	false	1		2017-07-13T05:20:34Z	2017-07-13T06:53:25Z	2017-07-13T05:42:32Z	querystring.parse() not handling trailing spaces (+) in parameters correctly	186		
 14216	10933333	false	open	false	3		2017-07-13T05:41:22Z	2017-07-15T13:47:34Z		discuss: move error codes in internal/errors into separate module	88		
-14217	976081	true	open	false			2017-07-13T08:50:00Z	2017-07-21T14:10:39Z		n-api: Re-use napi_env between modules	72		
+14217	976081	true	open	false			2017-07-13T08:50:00Z	2017-07-21T14:37:26Z		n-api: Re-use napi_env between modules	72		
 14218	2842176	true	closed	false	6	15	2017-07-13T11:11:55Z	2017-07-20T04:56:52Z	2017-07-20T04:56:52Z	tls: move parseCertString to internal	53		
 14219	2352663	true	closed	false	9		2017-07-13T14:12:10Z	2017-07-14T15:48:03Z	2017-07-14T15:48:03Z	build: run test-hash-seed at the end of test-v8	70		
 14220	7190422	false	open	false	7		2017-07-13T14:52:03Z	2017-07-19T16:59:16Z		Making V8 6.1 ABI compatible with V8 6.0	339		
@@ -7799,7 +7799,7 @@
 14288	7463687	true	closed	false	2	0	2017-07-16T08:03:20Z	2017-07-16T21:21:05Z	2017-07-16T21:21:05Z	:art: test: replace string concontenation with template literals	4		
 14289	9346008	true	closed	false	4		2017-07-16T08:05:35Z	2017-07-17T14:22:14Z	2017-07-17T12:38:07Z	test: replace string concatenation with template string literals in test-graph.signal.js	31		
 14290	16429864	true	open	false			2017-07-16T08:08:29Z	2017-07-17T18:05:08Z		test: replace string concatenation with template literals	32		
-14291	3904612	true	open	false			2017-07-16T08:10:17Z	2017-07-16T12:53:47Z		test: conver html table in README.md to markdown table	42		
+14291	3904612	true	open	false	1		2017-07-16T08:10:17Z	2017-07-21T14:33:27Z		test: conver html table in README.md to markdown table	42		
 14292	6349628	true	closed	false	2		2017-07-16T08:11:43Z	2017-07-17T12:57:55Z	2017-07-17T12:57:55Z	test: replace string concatenation to template literals	38		
 14293	5600924	true	open	false			2017-07-16T08:23:21Z	2017-07-17T16:07:30Z		test: replace with template literals	32		
 14294	7524890	true	closed	false	3		2017-07-16T08:24:55Z	2017-07-17T12:52:22Z	2017-07-17T12:52:22Z	[JsConf Code & Learn]change the typeerror to a regular expression	42		
@@ -7877,20 +7877,20 @@
 14366	10070995	false	closed	false	0		2017-07-19T12:37:48Z	2017-07-19T13:59:55Z	2017-07-19T13:59:55Z	How to verfiy nodejs TLS connection  is FIPS 140-2 complaint or not	71		
 14367	1538624	false	open	false	7		2017-07-19T14:07:53Z	2017-07-20T10:41:55Z		Using `v8::Private::ForApi` for N-API object wrapping	113		
 14368	11356668	false	closed	false	9		2017-07-19T14:42:55Z	2017-07-20T20:18:25Z	2017-07-20T20:18:25Z	HTTP: Cannot read property 'Symbol(asyncId)' of null	207		
-14369	234659	true	open	false	4		2017-07-19T15:17:34Z	2017-07-21T13:13:24Z		module: Allow runMain to be ESM	94		
+14369	234659	true	open	false			2017-07-19T15:17:34Z	2017-07-21T14:23:24Z		module: Allow runMain to be ESM	94		
 14370	10393198	true	open	false	0	0	2017-07-19T16:33:44Z	2017-07-19T16:33:44Z		[v6.x backport] test: fix RegExp nits	29		
 14371	16506071	false	open	false	0		2017-07-19T17:10:29Z	2017-07-19T17:10:29Z		module.paths is undocumented	47		
 14372	4665492	true	closed	false	1		2017-07-19T17:29:47Z	2017-07-19T19:11:05Z	2017-07-19T19:11:05Z	doc: replace dead link in v8 module	65		
 14373	128856	true	open	false	0	0	2017-07-19T17:35:04Z	2017-07-19T17:35:04Z		vm: backport fix race condition with `timeout` param	46		
 14374	22799858	false	open	false	0		2017-07-19T18:38:43Z	2017-07-19T18:38:43Z		.	6		
-14375	96947	true	open	false			2017-07-19T19:37:41Z	2017-07-21T13:50:55Z		doc: error message are still major	26		
+14375	96947	true	open	false			2017-07-19T19:37:41Z	2017-07-21T14:43:30Z		doc: error message are still major	26		
 14376	3109072	true	open	false	5		2017-07-19T20:49:29Z	2017-07-21T07:56:33Z		[v6.x backport] crypto: add sign/verify support for RSASSA-PSS	45		
 14377	4923335	true	open	false	1		2017-07-19T22:01:56Z	2017-07-21T03:53:02Z		test: move timing-dependent tests to sequential	46		
 14378	1093990	false	open	false	0		2017-07-19T22:59:36Z	2017-07-19T22:59:36Z		A way to use custom ssh keys in releases.sh	59		
 14379	13093042	false	open	false	3		2017-07-19T23:48:10Z	2017-07-20T16:34:34Z		n-api: Potential N-API performance optimizations	601		
 14380	718899	true	open	false			2017-07-20T06:21:29Z	2017-07-20T19:18:01Z		test: fix flaky http(s)-set-timeout-server tests	59		
 14381	25573589	false	closed	false	12		2017-07-20T06:32:30Z	2017-07-21T06:22:35Z	2017-07-20T20:18:25Z	8.2.0 crashes test	72		
-14382	433468	true	open	false			2017-07-20T06:37:01Z	2017-07-21T11:52:02Z		N api dataview	71		
+14382	433468	true	open	false			2017-07-20T06:37:01Z	2017-07-21T14:49:25Z		N api dataview	71		
 14383	29041814	false	closed	false	0		2017-07-20T06:47:09Z	2017-07-20T07:21:12Z	2017-07-20T07:21:12Z	Net API - Connect TCP socket via proxy	60		
 14384	2352663	false	open	false	5		2017-07-20T06:52:00Z	2017-07-21T07:31:12Z		Should we continue to support FreeBSD?	208		
 14385	2291463	true	open	false	0	0	2017-07-20T08:53:09Z	2017-07-20T08:53:09Z		deps: backport rehash strings after deserialization.	107		
@@ -7910,7 +7910,7 @@
 14399	1093990	true	closed	false	1	1	2017-07-20T17:56:57Z	2017-07-20T22:13:20Z	2017-07-20T22:13:20Z	8.2.1 proposal	17	1093990	2017-07-20T22:13:20Z
 14400	10393198	true	open	false			2017-07-20T18:09:15Z	2017-07-21T09:25:57Z		doc: fix some links	67		
 14401	910691	true	open	false	7		2017-07-20T18:27:51Z	2017-07-21T11:14:02Z		tools: add custom private key option for release.sh	118		
-14402	1847717	false	open	false	1		2017-07-20T18:56:46Z	2017-07-21T13:28:55Z		Out of memory issue plus weird heapUsed in node 8.1.4, does not occur on 6.11.1	353		
+14402	1847717	false	open	false	3		2017-07-20T18:56:46Z	2017-07-21T14:52:14Z		Out of memory issue plus weird heapUsed in node 8.1.4, does not occur on 6.11.1	353		
 14403	718899	true	open	false			2017-07-20T20:26:36Z	2017-07-20T21:13:37Z		tools: enable stricter linting in lib directory	85		
 14404	96947	false	open	false	0		2017-07-20T21:07:19Z	2017-07-20T21:07:19Z		test: investigate async-hooks/test-tlswrap	80		
 14405	9291212	false	open	false	0		2017-07-21T01:32:12Z	2017-07-21T03:09:09Z		path.join('C:') = 'C:.' only in windows node LTS version	62		
@@ -7919,4 +7919,5 @@
 14408	7927517	true	open	false	0		2017-07-21T07:50:02Z	2017-07-21T08:20:35Z		test: favor regex over TypeError in assert.throws	104		
 14409	4923335	true	open	false			2017-07-21T09:05:49Z	2017-07-21T12:08:45Z		repl: improve require() autocompletion	57		
 14410	899444	true	open	false			2017-07-21T11:31:58Z	2017-07-21T12:13:20Z		http: reset stream to unconsumed in `unconsume()`	55		
-14411	12478828	false	open	false	0		2017-07-21T13:13:21Z	2017-07-21T13:13:21Z		v8-debug@0.7.7 fails to build	889		
+14411	12478828	false	closed	false	5		2017-07-21T13:13:21Z	2017-07-21T14:29:50Z	2017-07-21T14:07:46Z	v8-debug@0.7.7 fails to build	889		
+14412	791279	false	open	false	0		2017-07-21T14:25:58Z	2017-07-21T14:25:58Z		Request: Sponsorship on Docs Page	154		
