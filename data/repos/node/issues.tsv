@@ -7168,7 +7168,7 @@
 13657	988441	false	closed	false	0		2017-06-13T13:19:46Z	2017-06-16T16:11:28Z	2017-06-16T16:11:28Z	base64 decoding drops characters when there is whitespace in the middle	32		
 13658	15943089	true	closed	false	1		2017-06-13T13:28:18Z	2017-06-16T16:37:29Z	2017-06-16T16:37:29Z	build: fail linter if linting not available	28		
 13659	15943089	true	closed	false	5		2017-06-13T13:48:58Z	2017-06-29T03:17:57Z	2017-06-29T03:17:57Z	doc: note that fs.futimes only works on AIX >7.1	30		
-13660	988441	true	closed	false	8		2017-06-13T15:33:44Z	2017-07-18T19:10:03Z	2017-06-16T16:10:57Z	src: fix decoding base64 with whitespace	56		
+13660	988441	true	closed	false	9		2017-06-13T15:33:44Z	2017-07-21T03:07:46Z	2017-06-16T16:10:57Z	src: fix decoding base64 with whitespace	56		
 13661	718899	true	closed	false	1		2017-06-13T16:58:47Z	2017-06-15T21:18:29Z	2017-06-15T21:18:29Z	test: refactor test-fs-watch-stop-async	45		
 13662	415779	false	closed	false	1		2017-06-13T19:29:59Z	2017-06-30T22:48:28Z	2017-06-30T22:48:28Z	child_process does not reset the signal ignore mask before exec-ing causing hangs on OS X and errors on linux	203		
 13663	54666	false	closed	false	0		2017-06-13T19:59:34Z	2017-06-15T19:38:44Z	2017-06-15T19:38:44Z	doc: typo in async_hooks documentation	43		
@@ -7736,7 +7736,7 @@
 14225	5076519	false	open	false	2		2017-07-13T20:18:41Z	2017-07-14T16:28:53Z		Documentation with breaking changes between version 6 to version 8	44		
 14226	15952	false	open	false	0		2017-07-13T20:35:54Z	2017-07-13T20:35:54Z		REPLServer.createContext() has unexpected side effects	129		
 14227	17607	true	closed	false	20		2017-07-13T22:10:41Z	2017-07-18T22:33:52Z	2017-07-17T16:39:36Z	gyp: implement LINK for ninja	60		
-14228	567540	false	open	false	22		2017-07-13T23:43:19Z	2017-07-20T20:37:05Z		SEGFAULT in node 4.8.4 on linux	100		
+14228	567540	false	open	false	23		2017-07-13T23:43:19Z	2017-07-21T02:21:35Z		SEGFAULT in node 4.8.4 on linux	100		
 14229	168296	false	open	false	0		2017-07-14T13:41:31Z	2017-07-14T13:41:31Z		Slow creation of vm contexts in Node 8	233		
 14230	2512748	true	open	false	0	0	2017-07-14T14:28:49Z	2017-07-14T14:28:49Z		doc: document napi_finalize() signature	34		
 14231	1538624	true	open	false	20		2017-07-14T17:37:07Z	2017-07-18T21:23:31Z		[wip] src, inspector: support opted-in VM contexts	83		
@@ -7870,9 +7870,9 @@
 14359	96947	true	open	false			2017-07-19T03:48:10Z	2017-07-20T20:16:30Z		util: use magenta;bold	67		
 14360	718899	true	open	false	0	0	2017-07-19T04:53:33Z	2017-07-19T04:53:33Z		[v6.x backport] tools: apply stricter indentation rules to tools 	10		
 14361	718899	true	open	false	3		2017-07-19T06:03:22Z	2017-07-19T15:53:37Z		test: fix flaky test-net-write-after-close	38		
-14362	54666	false	open	false	0		2017-07-19T08:42:18Z	2017-07-19T12:01:29Z		doc: typo in stream.md	23		
+14362	54666	false	closed	false	1		2017-07-19T08:42:18Z	2017-07-21T02:50:43Z	2017-07-21T02:50:43Z	doc: typo in stream.md	23		
 14363	20224954	true	closed	false	7	1	2017-07-19T08:58:40Z	2017-07-19T18:10:01Z	2017-07-19T18:10:00Z	tools: add download testing	57		
-14364	22377678	true	open	false	1		2017-07-19T11:57:16Z	2017-07-19T17:37:55Z		Fixes: https://github.com/nodejs/node/issues/14362	29		
+14364	22377678	true	open	false	3		2017-07-19T11:57:16Z	2017-07-21T02:49:55Z		Fixes: https://github.com/nodejs/node/issues/14362	29		
 14365	976081	true	open	false			2017-07-19T12:28:08Z	2017-07-20T09:25:44Z		n-api: implement promise	150		
 14366	10070995	false	closed	false	0		2017-07-19T12:37:48Z	2017-07-19T13:59:55Z	2017-07-19T13:59:55Z	How to verfiy nodejs TLS connection  is FIPS 140-2 complaint or not	71		
 14367	1538624	false	open	false	7		2017-07-19T14:07:53Z	2017-07-20T10:41:55Z		Using `v8::Private::ForApi` for N-API object wrapping	113		
@@ -7909,7 +7909,7 @@
 14398	557590	false	open	false	2		2017-07-20T17:14:47Z	2017-07-20T20:04:53Z		Documentation mismatch for napi_get_value_string_* functions	62		
 14399	1093990	true	closed	false	1	1	2017-07-20T17:56:57Z	2017-07-20T22:13:20Z	2017-07-20T22:13:20Z	8.2.1 proposal	17	1093990	2017-07-20T22:13:20Z
 14400	10393198	true	open	false	0	0	2017-07-20T18:09:15Z	2017-07-20T18:09:15Z		doc: fix some links	63		
-14401	910691	true	open	false	4		2017-07-20T18:27:51Z	2017-07-20T23:52:17Z		tools: add custom private key option for release.sh	118		
+14401	910691	true	open	false	5		2017-07-20T18:27:51Z	2017-07-21T02:18:47Z		tools: add custom private key option for release.sh	118		
 14402	1847717	false	open	false	0		2017-07-20T18:56:46Z	2017-07-20T18:56:46Z		Out of memory issue plus weird heapUsed in node 8.1.4, does not occur on 6.11.1	353		
 14403	718899	true	open	false			2017-07-20T20:26:36Z	2017-07-20T21:13:37Z		tools: enable stricter linting in lib directory	85		
 14404	96947	false	open	false	0		2017-07-20T21:07:19Z	2017-07-20T21:07:19Z		test: investigate async-hooks/test-tlswrap	80		
