@@ -4067,7 +4067,7 @@
 10552	4299420	true	closed	false	4		2016-12-31T07:14:29Z	2017-01-04T15:33:44Z	2017-01-04T06:40:18Z	url: TupleOrigin#toString use unicode by default	94		
 10553	10627527	true	open	false	0	0	2016-12-31T08:17:53Z	2016-12-31T08:17:53Z		V7.x_outsiderLazy	42		
 10554	170197	false	closed	false	2		2016-12-31T09:01:22Z	2017-01-03T23:36:14Z	2017-01-03T23:36:14Z	URL with Object.prototype.toString	27		
-10555	4065244	false	open	false	2		2016-12-31T10:27:15Z	2017-07-16T02:43:56Z		tls: secureConnect event will not be emitted if TLSSocket is created via constructor instead of tls.connect	57		
+10555	4065244	false	open	false	3		2016-12-31T10:27:15Z	2017-07-21T21:09:57Z		tls: secureConnect event will not be emitted if TLSSocket is created via constructor instead of tls.connect	57		
 10556	1189785	true	closed	false	6		2016-12-31T15:53:31Z	2017-01-03T12:48:57Z	2017-01-03T12:48:57Z	test: improve the code in test-fs-read-stream	57		
 10557	400558	true	closed	false	11		2016-12-31T16:58:36Z	2017-05-09T15:11:31Z	2017-01-16T05:46:12Z	Optimize child_process IPC for large data	279		
 10558	54666	true	closed	false	13		2016-12-31T21:53:37Z	2017-02-20T22:36:20Z	2017-01-11T18:00:52Z	http: various performance improvements	2579		
@@ -4331,7 +4331,7 @@
 10816	718899	true	closed	false	13		2017-01-15T06:49:46Z	2017-06-17T20:05:46Z	2017-01-18T16:29:33Z	vm: improve performance of vm.runIn*()	129		
 10817	7455872	true	closed	false	2		2017-01-15T12:54:15Z	2017-01-18T16:22:09Z	2017-01-18T16:22:09Z	HTTP response getHeader doc fix	33		
 10818	1443911	true	closed	false	18		2017-01-15T14:00:17Z	2017-03-08T23:18:49Z	2017-01-28T17:07:49Z	http: make `request.abort()` destroy the socket	67		
-10819	711968	false	open	false	4		2017-01-15T15:24:30Z	2017-07-16T05:58:43Z		child_process: fork does not accept null or undefined args array	69		
+10819	711968	false	open	false	5		2017-01-15T15:24:30Z	2017-07-21T21:08:30Z		child_process: fork does not accept null or undefined args array	69		
 10820	3367801	true	closed	false	3		2017-01-15T16:45:00Z	2017-03-08T02:14:12Z	2017-01-22T14:28:28Z	test: increase coverage of _http_outgoing	38		
 10821	1538624	false	closed	false	4		2017-01-15T19:01:07Z	2017-04-11T02:25:03Z	2017-03-22T00:35:09Z	url: track status of a spec-compliant URLSearchParams	105		
 10822	696611	true	closed	false	3	5	2017-01-15T19:09:10Z	2017-01-30T12:44:49Z	2017-01-30T12:44:49Z	test: increase timeout in break-on-uncaught	80		
@@ -7381,7 +7381,7 @@
 13870	1140553	true	open	false	21		2017-06-22T09:48:09Z	2017-07-18T11:02:33Z		Report async tasks to V8 Inspector	303		
 13871	3109072	true	closed	false	3		2017-06-22T11:49:49Z	2017-07-10T11:12:25Z	2017-07-10T11:12:25Z	(v6.x backport) os,vm: fix segfaults and CHECK failure	73		
 13872	976081	true	open	false	15		2017-06-22T11:52:11Z	2017-07-12T16:02:51Z		N-API: Implement stricter wrapping	195		
-13873	17535	true	open	false	24		2017-06-22T12:25:40Z	2017-06-22T20:26:11Z		process: allow modification of process.argv0	206		
+13873	17535	true	closed	false	26		2017-06-22T12:25:40Z	2017-07-21T21:52:28Z	2017-07-21T21:52:28Z	process: allow modification of process.argv0	206		
 13874	8225332	false	open	false	0		2017-06-22T14:29:29Z	2017-06-22T14:29:29Z		Request: Update JSON schemes	85		
 13875	2842176	true	closed	false	28	40	2017-06-22T16:49:27Z	2017-07-09T16:34:37Z	2017-07-09T16:34:37Z	fs,doc,test: open reserved characters under win32	90		
 13876	8822573	true	open	false	4		2017-06-22T16:55:00Z	2017-07-09T02:37:03Z		repl: remove NODE_REPL_HISTORY_FILE	104		
@@ -7519,7 +7519,7 @@
 14008	10393198	true	closed	false	3		2017-06-30T18:51:27Z	2017-07-04T01:06:48Z	2017-07-04T01:06:48Z	test: fix require nits in some test-tls-* tests	84		
 14009	3109072	true	closed	false	2		2017-06-30T18:59:00Z	2017-07-03T14:54:54Z	2017-07-03T14:54:54Z	child_process: use internal/errors	34		
 14010	26118718	true	open	false	8		2017-06-30T19:20:01Z	2017-07-03T20:31:01Z		test,fs: delay unlink in test-regress-GH-4027.js	74		
-14011	3109072	true	closed	false	9		2017-06-30T19:34:00Z	2017-07-21T19:53:30Z	2017-07-03T14:31:52Z	Fix incorrect use of ERR_INVALID_ARG_TYPE	41		
+14011	3109072	true	closed	false	10		2017-06-30T19:34:00Z	2017-07-21T21:31:51Z	2017-07-03T14:31:52Z	Fix incorrect use of ERR_INVALID_ARG_TYPE	41		
 14012	96947	false	open	false	1		2017-06-30T19:43:58Z	2017-06-30T20:05:21Z		test: implement a way to regularly test `abort` behaviour on all platform	41		
 14013	718899	true	open	false			2017-06-30T20:18:42Z	2017-07-02T11:28:38Z		test: run abort tests	92		
 14014	96947	false	open	false	4		2017-06-30T20:48:31Z	2017-07-03T21:17:39Z		test: investigate crash in `parallel/test-timers-uncaught-exception`	27		
@@ -7855,7 +7855,7 @@
 14344	677994	true	closed	false	1	0	2017-07-18T12:01:43Z	2017-07-18T17:43:03Z	2017-07-18T17:43:03Z	[v8.x backport] build: allow enabling the --trace-maps flag in V8	55		
 14345	2291463	true	open	false			2017-07-18T15:22:56Z	2017-07-20T17:36:31Z		deps: backport rehash strings after deserialization	64		
 14346	287917	true	open	false			2017-07-18T17:28:31Z	2017-07-20T17:02:46Z		inspector: implement V8Inspector timer	50		
-14347	1485909	true	open	false	5		2017-07-18T17:53:34Z	2017-07-21T05:11:23Z		async-hooks: add trace events to AsyncWrap	51		
+14347	1485909	true	open	false			2017-07-18T17:53:34Z	2017-07-21T21:55:29Z		async-hooks: add trace events to AsyncWrap	51		
 14348	10393198	true	closed	false	1		2017-07-18T17:54:25Z	2017-07-18T21:18:56Z	2017-07-18T21:18:56Z	[v6.x backport] cluster, dns, repl, tls, util: fix RegExp nits	52		
 14349	899444	true	open	false	0	0	2017-07-18T18:16:40Z	2017-07-18T18:16:40Z		doc: fix inspectPort documentation in cluster.md	55		
 14350	8822573	true	open	false	0		2017-07-18T18:21:36Z	2017-07-19T23:30:45Z		assert: move AssertionError to prevent lazy loading	44		
@@ -7866,7 +7866,7 @@
 14355	1215971	true	closed	false	24	7	2017-07-18T19:59:52Z	2017-07-21T00:09:56Z	2017-07-21T00:09:56Z	test: add comments for whatwg-url tests	58		
 14356	498775	true	open	false	2		2017-07-18T21:26:21Z	2017-07-21T19:08:26Z		v6.11.2 proposal	2659		
 14357	13789723	false	closed	false	1		2017-07-18T23:10:02Z	2017-07-19T08:57:58Z	2017-07-19T08:57:58Z	 Fatal error in api.cc, line 1200 Check failed: !value_obj->IsJSReceiver() || value_obj->IsTemplateInfo(). 	103		
-14358	5157107	true	open	false	6		2017-07-19T03:39:30Z	2017-07-20T17:10:07Z		http: disable OutgoingMessage pipe method	84		
+14358	5157107	true	open	false	7		2017-07-19T03:39:30Z	2017-07-21T21:56:06Z		http: disable OutgoingMessage pipe method	84		
 14359	96947	true	open	false	17		2017-07-19T03:48:10Z	2017-07-21T12:23:43Z		util: use magenta;bold	67		
 14360	718899	true	closed	false	0		2017-07-19T04:53:33Z	2017-07-21T18:04:49Z	2017-07-21T18:04:49Z	[v6.x backport] tools: apply stricter indentation rules to tools 	10		
 14361	718899	true	closed	false	4		2017-07-19T06:03:22Z	2017-07-21T17:35:19Z	2017-07-21T17:35:19Z	test: fix flaky test-net-write-after-close	38		
@@ -7888,7 +7888,7 @@
 14377	4923335	true	open	false	1		2017-07-19T22:01:56Z	2017-07-21T03:53:02Z		test: move timing-dependent tests to sequential	46		
 14378	1093990	false	open	false	0		2017-07-19T22:59:36Z	2017-07-19T22:59:36Z		A way to use custom ssh keys in releases.sh	59		
 14379	13093042	false	open	false	3		2017-07-19T23:48:10Z	2017-07-20T16:34:34Z		n-api: Potential N-API performance optimizations	601		
-14380	718899	true	open	false	12		2017-07-20T06:21:29Z	2017-07-21T19:50:21Z		test: fix flaky http(s)-set-timeout-server tests	59		
+14380	718899	true	open	false	14		2017-07-20T06:21:29Z	2017-07-21T21:37:57Z		test: fix flaky http(s)-set-timeout-server tests	59		
 14381	25573589	false	closed	false	12		2017-07-20T06:32:30Z	2017-07-21T06:22:35Z	2017-07-20T20:18:25Z	8.2.0 crashes test	72		
 14382	433468	true	open	false			2017-07-20T06:37:01Z	2017-07-21T14:49:25Z		N api dataview	71		
 14383	29041814	false	closed	false	0		2017-07-20T06:47:09Z	2017-07-20T07:21:12Z	2017-07-20T07:21:12Z	Net API - Connect TCP socket via proxy	60		
@@ -7918,7 +7918,7 @@
 14407	157440	false	open	false	0		2017-07-21T07:31:12Z	2017-07-21T07:31:12Z		Core dumped when creating tls.TLSSocket	151		
 14408	7927517	true	open	false	0		2017-07-21T07:50:02Z	2017-07-21T08:20:35Z		test: favor regex over TypeError in assert.throws	104		
 14409	4923335	true	open	false			2017-07-21T09:05:49Z	2017-07-21T20:37:01Z		repl: improve require() autocompletion	57		
-14410	899444	true	open	false			2017-07-21T11:31:58Z	2017-07-21T19:08:16Z		http: reset stream to unconsumed in `unconsume()`	55		
+14410	899444	true	open	false			2017-07-21T11:31:58Z	2017-07-21T22:00:59Z		http: reset stream to unconsumed in `unconsume()`	55		
 14411	12478828	false	closed	false	5		2017-07-21T13:13:21Z	2017-07-21T14:29:50Z	2017-07-21T14:07:46Z	v8-debug@0.7.7 fails to build	889		
 14412	791279	false	open	false	6		2017-07-21T14:25:58Z	2017-07-21T18:28:34Z		Request: Sponsorship on Docs Page	165		
 14413	17607	true	open	false	1		2017-07-21T17:08:42Z	2017-07-21T18:33:39Z		V6.x backport 13531 docs	48		
