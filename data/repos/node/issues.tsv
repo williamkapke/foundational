@@ -6383,7 +6383,7 @@
 12871	432351	true	open	false	13		2017-05-06T11:22:24Z	2017-05-09T10:31:58Z		net: check and throw on error for getsockname	38		
 12872	532414	false	open	false	0		2017-05-06T11:53:34Z	2017-05-06T16:35:56Z		`process.stdin` still fetch bytes after clossing file descriptor `0`	135		
 12873	96947	false	closed	false	5		2017-05-06T17:56:49Z	2017-05-10T15:13:53Z	2017-05-10T15:13:52Z	test: is `parallel/test-https-client-get-url` flaky on macOS	44		
-12874	96947	true	open	false			2017-05-06T18:32:54Z	2017-05-09T19:12:14Z		test, build: add test-ci wrappers	70		
+12874	96947	true	closed	false	10		2017-05-06T18:32:54Z	2017-07-22T14:59:30Z	2017-07-22T14:59:30Z	test, build: add test-ci wrappers	70		
 12875	899444	true	open	false	6		2017-05-06T18:33:39Z	2017-05-09T21:27:41Z		v8: forward compatibility to current V8 master	142		
 12876	15608388	true	closed	false	13		2017-05-06T20:32:35Z	2017-07-17T19:17:19Z	2017-05-10T15:13:25Z	test: fix flaky test-https-client-get-url	48		
 12877	559409	false	open	false	0		2017-05-07T05:55:29Z	2017-05-07T05:55:29Z		http: setting multiple headers could be more efficient	123		
@@ -6980,7 +6980,7 @@
 13468	13941347	false	closed	false	6		2017-06-05T10:10:50Z	2017-06-05T23:29:59Z	2017-06-05T23:29:59Z	fileNameWithPrefix and fileNameWithPostfix	47		
 13469	557590	false	closed	false	5		2017-06-05T10:29:10Z	2017-06-09T13:59:44Z	2017-06-09T13:59:44Z	Documentation mismatch for N-API structures	140		
 13470	731796	false	closed	false	1		2017-06-05T11:19:35Z	2017-06-08T17:45:36Z	2017-06-08T17:45:36Z	Unix socket in HTTPS causes cert error even when `rejectUnauthorized` is off	134		
-13471	16109762	false	open	false	0		2017-06-05T11:21:53Z	2017-06-05T11:21:53Z		Ubuntu Bash environment on Windows 10	86		
+13471	16109762	false	open	false	1		2017-06-05T11:21:53Z	2017-07-22T14:54:20Z		Ubuntu Bash environment on Windows 10	86		
 13472	3109072	true	open	false	15		2017-06-05T12:15:08Z	2017-06-16T23:33:51Z		net: use rest parameters instead of arguments	50		
 13473	432351	true	open	false	1		2017-06-05T12:18:42Z	2017-06-08T08:26:35Z		src: make IsConstructCall checks consistent	53		
 13474	52195	true	closed	false	5		2017-06-05T14:48:28Z	2017-07-17T17:51:53Z	2017-06-07T12:04:47Z	fs: replace a bind() with a top-level function	49		
@@ -7584,8 +7584,8 @@
 14073	96947	true	closed	false	2	0	2017-07-04T14:07:45Z	2017-07-09T18:03:39Z	2017-07-09T18:03:39Z	test: ignore connection errors for hostname check	56	96947	2017-07-09T18:03:39Z
 14074	432351	true	closed	false	5		2017-07-04T15:12:13Z	2017-07-06T12:09:22Z	2017-07-06T12:09:22Z	test: check and fail inspector-cluster-port-clash	71		
 14075	8822573	true	open	false			2017-07-04T16:30:21Z	2017-07-05T16:21:46Z		doc: os.homedir might throw	45		
-14076	276295	false	open	false	2		2017-07-04T18:34:37Z	2017-07-04T20:06:21Z		Can't build stuff (using gyp) on FreeBSD 11.1 (or clang 4.0)	297		
-14077	276295	true	open	false	9		2017-07-04T19:34:21Z	2017-07-21T19:24:07Z		tools: skip workaround for newer llvm	78		
+14076	276295	false	closed	false	4		2017-07-04T18:34:37Z	2017-07-22T14:47:04Z	2017-07-22T14:47:04Z	Can't build stuff (using gyp) on FreeBSD 11.1 (or clang 4.0)	297		
+14077	276295	true	closed	false	10		2017-07-04T19:34:21Z	2017-07-22T14:46:45Z	2017-07-22T14:46:45Z	tools: skip workaround for newer llvm	78		
 14078	718899	true	closed	false	2		2017-07-05T01:02:09Z	2017-07-07T14:01:49Z	2017-07-07T14:01:49Z	lib: use consistent indentation for ternaries	48		
 14079	718899	true	closed	false	1		2017-07-05T03:50:36Z	2017-07-07T03:53:42Z	2017-07-07T03:53:42Z	tools: remove align-multiline-assignment lint rule	46		
 14080	6447530	false	open	false	3		2017-07-05T04:43:17Z	2017-07-05T12:18:38Z		aix: build failure with linker error in debug mode	46		
@@ -7747,7 +7747,7 @@
 14236	3038254	true	open	false			2017-07-14T18:12:21Z	2017-07-18T00:07:54Z		net: fix bytesWritten during writev	146		
 14237	10393198	true	closed	false	0		2017-07-14T19:28:34Z	2017-07-14T21:24:07Z	2017-07-14T21:24:07Z	benchmark: fix typo in inspect-proxy	21		
 14238	505333	false	open	false	18		2017-07-14T19:49:42Z	2017-07-22T06:52:17Z		Remove async_hooks setTrigger API	604		
-14239	439929	true	open	false	41		2017-07-14T19:57:36Z	2017-07-20T02:32:28Z		http2: Introducing http/2	498		
+14239	439929	true	open	false	45		2017-07-14T19:57:36Z	2017-07-22T15:07:37Z		http2: Introducing http/2	498		
 14240	15139655	false	open	false	0		2017-07-14T20:40:55Z	2017-07-14T20:40:55Z		Cannot install @angular/cli	207		
 14241	96947	false	closed	false	4		2017-07-14T22:55:10Z	2017-07-16T02:02:07Z	2017-07-16T02:02:07Z	test: flaky `test-net-can-reset-timeout`	144		
 14242	10933333	true	open	false	1		2017-07-15T01:27:11Z	2017-07-17T15:43:11Z		errors: keep error codes in alphabetical order	42		
@@ -7916,7 +7916,7 @@
 14405	9291212	false	open	false	0		2017-07-21T01:32:12Z	2017-07-21T03:09:09Z		path.join('C:') = 'C:.' only in windows node LTS version	62		
 14406	2502292	false	open	false	1		2017-07-21T06:32:43Z	2017-07-21T12:25:20Z		fs.unlink doesn't throw under Windows when the file is locked.	123		
 14407	157440	false	open	false	0		2017-07-21T07:31:12Z	2017-07-21T07:31:12Z		Core dumped when creating tls.TLSSocket	151		
-14408	7927517	true	open	false	1		2017-07-21T07:50:02Z	2017-07-21T22:26:13Z		test: favor regex over TypeError in assert.throws	104		
+14408	7927517	true	open	false	2		2017-07-21T07:50:02Z	2017-07-22T14:41:03Z		test: favor regex over TypeError in assert.throws	104		
 14409	4923335	true	open	false			2017-07-21T09:05:49Z	2017-07-22T04:15:34Z		repl: improve require() autocompletion	57		
 14410	899444	true	open	false			2017-07-21T11:31:58Z	2017-07-21T22:00:59Z		http: reset stream to unconsumed in `unconsume()`	55		
 14411	12478828	false	closed	false	5		2017-07-21T13:13:21Z	2017-07-21T14:29:50Z	2017-07-21T14:07:46Z	v8-debug@0.7.7 fails to build	889		
@@ -7930,6 +7930,7 @@
 14419	289174	true	open	false	0	0	2017-07-21T23:14:52Z	2017-07-21T23:14:52Z		http: check for handle before running asyncReset()	72		
 14420	1087603	false	open	false	1		2017-07-21T23:22:43Z	2017-07-22T09:34:45Z		WeakMap() usage results in permanently expanded RSS	255		
 14421	5076519	false	closed	false	1		2017-07-22T02:21:04Z	2017-07-22T09:17:38Z	2017-07-22T09:17:38Z	FSReqWrap::New doesn't validate parameters	54		
-14422	3725560	true	closed	false	1		2017-07-22T08:35:07Z	2017-07-22T11:44:25Z	2017-07-22T11:44:25Z	src: Improve round to multiple of 4 performance	36		
-14423	10933333	true	open	false	0	0	2017-07-22T11:44:44Z	2017-07-22T11:44:44Z		http client, errors: migrate to use internal/errors	46		
+14422	3725560	true	closed	false	2		2017-07-22T08:35:07Z	2017-07-22T14:35:53Z	2017-07-22T11:44:25Z	src: Improve round to multiple of 4 performance	36		
+14423	10933333	true	open	false	0		2017-07-22T11:44:44Z	2017-07-22T14:29:00Z		http client, errors: migrate to use internal/errors	42		
 14424	96947	false	open	false	0		2017-07-22T11:53:09Z	2017-07-22T11:53:09Z		test: test-crypto-dh-leak flaky	109		
+14425	6104981	false	open	false	0		2017-07-22T14:24:37Z	2017-07-22T14:24:37Z		process.nextTick() never calls its callback	171		
