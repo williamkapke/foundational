@@ -7888,7 +7888,7 @@
 14377	4923335	true	closed	false	2		2017-07-19T22:01:56Z	2017-07-22T05:02:22Z	2017-07-22T05:02:22Z	test: move timing-dependent tests to sequential	46		
 14378	1093990	false	open	false	0		2017-07-19T22:59:36Z	2017-07-19T22:59:36Z		A way to use custom ssh keys in releases.sh	59		
 14379	13093042	false	open	false	4		2017-07-19T23:48:10Z	2017-07-21T22:08:22Z		n-api: Potential N-API performance optimizations	601		
-14380	718899	true	open	false			2017-07-20T06:21:29Z	2017-07-24T03:15:01Z		test: fix flaky http(s)-set-timeout-server tests	59		
+14380	718899	true	open	false	22		2017-07-20T06:21:29Z	2017-07-24T19:55:26Z		test: fix flaky http(s)-set-timeout-server tests	59		
 14381	25573589	false	closed	false	12		2017-07-20T06:32:30Z	2017-07-21T06:22:35Z	2017-07-20T20:18:25Z	8.2.0 crashes test	72		
 14382	433468	true	open	false			2017-07-20T06:37:01Z	2017-07-21T14:49:25Z		N api dataview	71		
 14383	29041814	false	closed	false	0		2017-07-20T06:47:09Z	2017-07-20T07:21:12Z	2017-07-20T07:21:12Z	Net API - Connect TCP socket via proxy	60		
@@ -7909,7 +7909,7 @@
 14398	557590	false	open	false	3		2017-07-20T17:14:47Z	2017-07-21T13:15:35Z		Documentation mismatch for napi_get_value_string_* functions	62		
 14399	1093990	true	closed	false	1	1	2017-07-20T17:56:57Z	2017-07-20T22:13:20Z	2017-07-20T22:13:20Z	8.2.1 proposal	17	1093990	2017-07-20T22:13:20Z
 14400	10393198	true	open	false	1		2017-07-20T18:09:15Z	2017-07-23T19:12:51Z		doc: fix some links	67		
-14401	910691	true	open	false	8		2017-07-20T18:27:51Z	2017-07-24T15:29:39Z		tools: add custom private key option for release.sh	118		
+14401	910691	true	open	false	9		2017-07-20T18:27:51Z	2017-07-24T19:41:17Z		tools: add custom private key option for release.sh	118		
 14402	1847717	false	open	false	6		2017-07-20T18:56:46Z	2017-07-24T14:25:08Z		Out of memory issue plus weird heapUsed in node 8.1.4, does not occur on 6.11.1	353		
 14403	718899	true	open	false	2		2017-07-20T20:26:36Z	2017-07-23T21:40:08Z		tools: enable stricter linting in lib directory	85		
 14404	96947	false	open	false	0		2017-07-20T21:07:19Z	2017-07-20T21:07:19Z		test: investigate async-hooks/test-tlswrap	80		
@@ -7957,11 +7957,13 @@
 14446	4355382	false	closed	false	1		2017-07-24T12:32:19Z	2017-07-24T15:06:06Z	2017-07-24T15:06:06Z	async hooks promise not destroyed	111		
 14447	275871	true	open	false			2017-07-24T12:48:38Z	2017-07-24T17:29:50Z		tls: fix empty issuer/subject/infoAccess parsing	42		
 14448	25476357	false	open	false	0		2017-07-24T14:13:49Z	2017-07-24T14:13:49Z		"Documentation for ""path"" and ""bytesWritten"" property should also be in stream.html, not just fs.html"	121		
-14449	899444	true	open	false	2		2017-07-24T15:03:49Z	2017-07-24T18:47:18Z		net,child_process: improve naming in internal code	73		
+14449	899444	true	open	false	4		2017-07-24T15:03:49Z	2017-07-24T19:47:24Z		net,child_process: improve naming in internal code	73		
 14450	101553	true	open	false	0	0	2017-07-24T15:41:08Z	2017-07-24T15:41:08Z		src: replace deprecated method	31		
 14451	275871	true	open	false	0	0	2017-07-24T15:56:04Z	2017-07-24T15:56:04Z		test: make flaky crypto test more deterministic	9		
-14452	899444	true	open	false	3		2017-07-24T16:18:18Z	2017-07-24T18:30:47Z		v8.3.0 proposal	774		
+14452	899444	true	open	false	4		2017-07-24T16:18:18Z	2017-07-24T19:52:27Z		v8.3.0 proposal	774		
 14453	899444	true	open	false	0	0	2017-07-24T16:48:41Z	2017-07-24T16:48:41Z		[v8.x] n-api: add code parameter to error helpers	21		
 14454	899444	true	open	false	0	0	2017-07-24T16:56:46Z	2017-07-24T16:56:46Z		[v8.x] test: improve the test common documentation	6		
 14455	439929	true	open	false	0	0	2017-07-24T18:56:45Z	2017-07-24T18:56:45Z		test: improve zlib tests	38		
-14456	4046874	false	open	false	0		2017-07-24T19:00:02Z	2017-07-24T19:00:02Z		Node 8 crashes when trying to connect to WebSocket with hapijs/nes : c:\ws\src\env-inl.h:131: Assertion `(trigger_id) >= (0)' failed	232		
+14456	4046874	false	open	false	0		2017-07-24T19:00:02Z	2017-07-24T19:40:17Z		Node 8 crashes when trying to connect to WebSocket with hapijs/nes : c:\ws\src\env-inl.h:131: Assertion `(trigger_id) >= (0)' failed	232		
+14457	4553695	false	open	false	0		2017-07-24T19:16:32Z	2017-07-24T19:16:32Z		Startup time 5 times slower with node 8.1.4	47		
+14458	439929	true	open	false	0	0	2017-07-24T19:29:51Z	2017-07-24T19:29:51Z		test: general improvements to vm tests	37		
