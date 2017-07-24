@@ -193,7 +193,7 @@
 3164	8023447	false	closed	false	7		2015-10-03T03:28:07Z	2016-12-14T07:55:50Z	2015-10-03T16:26:02Z	State of ES6/ES7 in node/v8?	175		
 3168	159546	false	closed	false	5		2015-10-03T18:33:14Z	2017-07-07T21:21:09Z	2017-07-07T21:21:09Z	node debug fails if 'cont' entered while connecting	72		
 3173	2622601	true	closed	false	10	3	2015-10-04T09:40:31Z	2017-03-24T23:35:18Z	2017-03-24T23:35:18Z	crypto: check for valid iteration length in pbkdf2	48		
-3175	367936	false	open	false	40		2015-10-04T18:30:05Z	2017-07-09T01:17:57Z		More useful error than `toString failed` when Buffer length greater than kMaxLength?	153		
+3175	367936	false	open	false	42		2015-10-04T18:30:05Z	2017-07-24T14:32:16Z		More useful error than `toString failed` when Buffer length greater than kMaxLength?	153		
 3179	8974489	false	closed	false	18		2015-10-05T10:13:45Z	2016-10-06T10:19:34Z	2016-06-07T20:59:21Z	node compile failure on Solaris 11.2 and gcc 4.8 (undefined std::isnan)	266		
 3203	3990007	false	closed	false	15		2015-10-06T08:21:08Z	2017-03-10T20:47:08Z	2017-03-10T20:47:08Z	Readable.push calling _read	153		
 3208	631240	false	closed	false	6		2015-10-06T11:09:41Z	2017-07-19T10:09:19Z	2017-07-19T08:38:12Z	streams - request for docs: can _transform or _write(v) be called in parallel?	193		
@@ -789,7 +789,7 @@
 7123	498775	false	closed	false	17		2016-06-03T01:04:12Z	2016-07-27T14:36:28Z	2016-07-27T14:36:28Z	Do we need to include any new licenses when we ship the new v8 inspector?	64		
 7129	3187667	false	closed	false	3		2016-06-03T09:07:49Z	2017-05-11T18:11:01Z	2017-05-11T18:11:01Z	Documentation misleads embedders	70		
 7130	3187667	true	closed	false			2016-06-03T09:26:29Z	2017-05-05T23:25:28Z	2016-06-03T19:44:46Z	remove misleading C extending possibility	0		
-7131	2244675	false	open	false	2		2016-06-03T11:58:27Z	2017-07-08T11:29:17Z		module.children doesn't contain cached modules	56		
+7131	2244675	false	closed	false	3		2016-06-03T11:58:27Z	2017-07-24T15:01:03Z	2017-07-24T15:01:03Z	module.children doesn't contain cached modules	56		
 7132	1084056	true	closed	false	10		2016-06-03T12:49:16Z	2016-07-12T07:01:48Z	2016-06-08T13:52:41Z	cluster: don't send messages if no IPC channel	53		
 7136	7594068	false	closed	false	5		2016-06-03T14:50:50Z	2017-03-24T14:21:40Z	2016-06-07T19:00:29Z	HTTP Parse Error if Response is using transfer-encoding chunked, but includes a content-length header	74		
 7137	439929	true	closed	false	9		2016-06-03T19:17:45Z	2017-02-16T16:20:53Z	2017-02-15T18:58:15Z	doc: general improvements to net.md copy	33		
@@ -5366,7 +5366,7 @@
 11852	96947	true	closed	false	53		2017-03-14T22:25:05Z	2017-05-05T18:34:24Z	2017-05-05T08:37:02Z	win: enable build with vs2017	108		
 11853	5876741	false	closed	false	6		2017-03-15T00:55:08Z	2017-03-25T01:15:54Z	2017-03-25T01:15:54Z	Feature request: Env Var NODE_REQUIRE	79		
 11854	12488060	true	closed	false	4		2017-03-15T00:56:56Z	2017-06-17T22:17:15Z	2017-03-22T16:57:52Z	lib: Use regex to compare error message	37		
-11855	3315328	false	open	false	27		2017-03-15T01:34:38Z	2017-07-20T17:11:35Z		let v8 use libuv thread pool	17		
+11855	3315328	false	open	false	28		2017-03-15T01:34:38Z	2017-07-24T14:27:00Z		let v8 use libuv thread pool	17		
 11856	3293332	true	closed	false	7		2017-03-15T03:18:38Z	2017-04-18T17:18:04Z	2017-03-17T16:26:42Z	build: add cpp linting to windows build	70		
 11857	432351	true	closed	false	5		2017-03-15T04:38:37Z	2017-05-09T11:23:27Z	2017-03-17T12:56:27Z	build: mac OBJ_DIR should point to obj.target	111		
 11858	1538624	true	closed	false	5		2017-03-15T05:23:18Z	2017-03-28T22:24:58Z	2017-03-22T00:35:20Z	url: spec-compliant URLSearchParams parser	402		
@@ -7315,7 +7315,7 @@
 13804	132233	false	closed	false	10		2017-06-19T22:43:34Z	2017-07-15T04:22:07Z	2017-07-15T04:22:07Z	"V8_Fatal exception when running ""jest"" tests"	213		
 13805	54666	false	closed	false	0		2017-06-19T22:58:50Z	2017-06-28T11:26:38Z	2017-06-28T11:26:38Z	doc: formatting issue in cli docs	21		
 13806	96947	true	closed	false	1	2	2017-06-20T00:19:14Z	2017-07-09T17:23:34Z	2017-07-09T17:23:34Z	build,win: skip vcvarsall if already set	27	96947	2017-07-09T17:23:34Z
-13807	439929	true	open	false			2017-06-20T01:17:42Z	2017-07-24T03:48:45Z		buffer: refactor buffer exports	58		
+13807	439929	true	open	false	10		2017-06-20T01:17:42Z	2017-07-24T14:21:03Z		buffer: refactor buffer exports	58		
 13808	6627780	true	closed	false	1		2017-06-20T01:26:26Z	2017-06-28T11:25:42Z	2017-06-28T11:25:42Z	doc: fixed formatting issue in cli docs	39		
 13809	131776	false	closed	false	4		2017-06-20T03:10:33Z	2017-06-23T04:55:08Z	2017-06-20T03:14:24Z	JSON.stringify throw an exception when it can't properly parsing an object	45		
 13810	96947	false	open	false	0		2017-06-20T03:24:01Z	2017-06-20T03:24:01Z		test: investigate flaky test-http-agent-keepalive	30		
@@ -7640,7 +7640,7 @@
 14129	20067414	false	open	false	2		2017-07-08T00:36:39Z	2017-07-09T02:46:01Z		when will http2 arrive?	21		
 14130	12690131	false	closed	false	7		2017-07-08T03:39:37Z	2017-07-08T15:27:40Z	2017-07-08T09:58:27Z	AsyncResource Inheritance Bug w/ Babel	51		
 14131	718899	true	closed	false	10		2017-07-08T06:07:38Z	2017-07-12T02:31:05Z	2017-07-12T02:31:05Z	buffer: remove MAX_SAFE_INTEGER check on length	68		
-14132	275871	true	open	false	10		2017-07-08T11:27:57Z	2017-07-19T12:29:15Z		lib: include cached modules in module.children	32		
+14132	275871	true	closed	false	11	8	2017-07-08T11:27:57Z	2017-07-24T15:00:15Z	2017-07-24T15:00:15Z	lib: include cached modules in module.children	32		
 14133	718899	false	closed	false	6		2017-07-08T14:01:46Z	2017-07-11T17:20:56Z	2017-07-11T17:20:56Z	Investigate flaky test-https-set-timeout-server on Raspberry Pi	60		
 14134	718899	true	closed	false	3		2017-07-08T16:08:54Z	2017-07-11T17:20:04Z	2017-07-11T17:20:04Z	test: fix flaky test-https-set-timeout-server	86		
 14135	9677399	false	closed	false	9		2017-07-08T16:46:36Z	2017-07-09T19:29:41Z	2017-07-09T19:29:41Z	Node install destroyed PATH	47		
@@ -7910,14 +7910,14 @@
 14399	1093990	true	closed	false	1	1	2017-07-20T17:56:57Z	2017-07-20T22:13:20Z	2017-07-20T22:13:20Z	8.2.1 proposal	17	1093990	2017-07-20T22:13:20Z
 14400	10393198	true	open	false	1		2017-07-20T18:09:15Z	2017-07-23T19:12:51Z		doc: fix some links	67		
 14401	910691	true	open	false	7		2017-07-20T18:27:51Z	2017-07-21T11:14:02Z		tools: add custom private key option for release.sh	118		
-14402	1847717	false	open	false	5		2017-07-20T18:56:46Z	2017-07-22T03:50:15Z		Out of memory issue plus weird heapUsed in node 8.1.4, does not occur on 6.11.1	353		
+14402	1847717	false	open	false	6		2017-07-20T18:56:46Z	2017-07-24T14:25:08Z		Out of memory issue plus weird heapUsed in node 8.1.4, does not occur on 6.11.1	353		
 14403	718899	true	open	false	2		2017-07-20T20:26:36Z	2017-07-23T21:40:08Z		tools: enable stricter linting in lib directory	85		
 14404	96947	false	open	false	0		2017-07-20T21:07:19Z	2017-07-20T21:07:19Z		test: investigate async-hooks/test-tlswrap	80		
 14405	9291212	false	open	false	15		2017-07-21T01:32:12Z	2017-07-24T02:43:08Z		path.join('C:') = 'C:.' only in windows node LTS version	62		
 14406	2502292	false	open	false	1		2017-07-21T06:32:43Z	2017-07-21T12:25:20Z		fs.unlink doesn't throw under Windows when the file is locked.	123		
 14407	157440	false	open	false	0		2017-07-21T07:31:12Z	2017-07-21T07:31:12Z		Core dumped when creating tls.TLSSocket	151		
 14408	7927517	true	open	false	7		2017-07-21T07:50:02Z	2017-07-24T03:02:56Z		test: favor regex over TypeError in assert.throws	104		
-14409	4923335	true	open	false			2017-07-21T09:05:49Z	2017-07-22T04:15:34Z		repl: improve require() autocompletion	57		
+14409	4923335	true	closed	false	1		2017-07-21T09:05:49Z	2017-07-24T14:21:39Z	2017-07-24T14:21:39Z	repl: improve require() autocompletion	57		
 14410	899444	true	open	false			2017-07-21T11:31:58Z	2017-07-21T22:00:59Z		http: reset stream to unconsumed in `unconsume()`	55		
 14411	12478828	false	closed	false	5		2017-07-21T13:13:21Z	2017-07-21T14:29:50Z	2017-07-21T14:07:46Z	v8-debug@0.7.7 fails to build	889		
 14412	791279	false	open	false	8		2017-07-21T14:25:58Z	2017-07-21T23:49:46Z		Request: Sponsorship on Docs Page	137		
@@ -7946,13 +7946,14 @@
 14435	12568177	true	open	false			2017-07-23T15:01:57Z	2017-07-24T01:36:47Z		doc: add docs for module.paths	22		
 14436	1832800	false	open	false	11		2017-07-23T15:11:26Z	2017-07-23T16:08:04Z		Inspector. Console. require is not defined	4		
 14437	10393198	true	open	false	0	0	2017-07-23T17:10:24Z	2017-07-23T17:10:24Z		test: replace CRLF by LF in a fixture	51		
-14438	3109072	true	open	false			2017-07-23T20:11:27Z	2017-07-24T11:41:34Z		path: remove unnecessary string copies	48		
+14438	3109072	true	open	false	2		2017-07-23T20:11:27Z	2017-07-24T14:26:17Z		path: remove unnecessary string copies	48		
 14439	718899	true	open	false			2017-07-23T22:39:34Z	2017-07-24T01:07:11Z		test: fix flaky test-force-repl	40		
 14440	1538624	true	open	false			2017-07-24T02:37:57Z	2017-07-24T13:17:40Z		path: fix win32 volume-relative paths	50		
 14441	8822573	false	open	false	0		2017-07-24T03:36:27Z	2017-07-24T03:36:27Z		assert: deepEqual inconsistencies	124		
 14442	8553106	false	open	false	0		2017-07-24T05:31:07Z	2017-07-24T05:31:07Z		Common System Errors	19		
 14443	22466613	true	open	false	1		2017-07-24T06:55:23Z	2017-07-24T08:33:23Z		test: changed error message validator	64		
 14444	1315533	false	open	false	0		2017-07-24T09:14:58Z	2017-07-24T09:14:58Z		Rename possibly offensive terminology in child_process	164		
-14445	13516180	false	open	false	0		2017-07-24T11:23:17Z	2017-07-24T11:23:17Z		Nodejs process restart doesn't kill child  threads and they become zombie process.	94		
-14446	4355382	false	open	false	0		2017-07-24T12:32:19Z	2017-07-24T12:32:19Z		async hooks promise not destroyed	109		
+14445	13516180	false	closed	false	4		2017-07-24T11:23:17Z	2017-07-24T14:05:46Z	2017-07-24T14:05:46Z	Nodejs process restart doesn't kill child  threads and they become zombie process.	94		
+14446	4355382	false	open	false	0		2017-07-24T12:32:19Z	2017-07-24T14:09:04Z		async hooks promise not destroyed	111		
 14447	275871	true	open	false	0		2017-07-24T12:48:38Z	2017-07-24T13:02:12Z		tls: fix empty issuer/subject/infoAccess parsing	42		
+14448	25476357	false	open	false	0		2017-07-24T14:13:49Z	2017-07-24T14:13:49Z		"Documentation for ""path"" and ""bytesWritten"" property should also be in stream.html, not just fs.html"	121		
