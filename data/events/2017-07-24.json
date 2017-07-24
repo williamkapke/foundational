@@ -1,10 +1,11 @@
 {
-  "words": 2012,
-  "comments": 46,
+  "words": 2174,
+  "comments": 52,
   "prs": {
-    "opened": 5,
+    "opened": 6,
     "closed": 2,
-    "words": 2012
+    "words": 2174,
+    "reopened": null
   },
   "issues": {
     "opened": 0,
@@ -31,14 +32,15 @@
     "benchmarking": {"open":20},
     "board": {"open":10},
     "build": {
-      "658": {"comments":1,"words":45,"pr":true},
+      "658": {"comments":1,"words":69,"pr":true,"reopened":"","reopener":"52195"},
       "672": {"comments":1,"words":38,"pr":true},
       "785": {"comments":1,"words":15,"pr":true},
       "811": {"comments":0,"words":105,"pr":true,"opened":"2017-07-24T03:04:51Z","opener":"15943089"},
-      "open": 206,
-      "words": 203,
+      "open": 207,
+      "words": 227,
       "comments": 3,
-      "opened": 1
+      "opened": 1,
+      "reopened": 1
     },
     "build-container-sync": {"open":1},
     "build-containers": {"open":1},
@@ -67,10 +69,12 @@
     "github-bot": {"open":25},
     "hardware": {"open":12},
     "help": {
-      "739": {"comments":1,"words":93,"pr":true},
-      "open": 128,
-      "words": 93,
-      "comments": 1
+      "739": {"comments":2,"words":135,"pr":true},
+      "748": {"comments":0,"words":28,"opened":"2017-07-24T04:43:20Z","opener":"18206489","pr":true},
+      "open": 129,
+      "words": 163,
+      "comments": 2,
+      "opened": 1
     },
     "http": {"open":14},
     "http-parser": {"open":46},
@@ -89,9 +93,12 @@
       "11520": {"comments":1,"words":16,"pr":true},
       "13803": {"comments":2,"words":63,"pr":true,"closed":"2017-07-24T03:43:54Z","closer":"439929"},
       "13807": {"comments":2,"words":17,"pr":true},
-      "14212": {"comments":6,"words":55,"pr":true},
+      "14046": {"comments":1,"words":26,"pr":true},
+      "14185": {"comments":2,"words":20,"pr":true},
+      "14212": {"comments":7,"words":60,"pr":true},
       "14245": {"comments":1,"words":10,"pr":true},
       "14250": {"comments":2,"words":188,"pr":true,"closed":"2017-07-24T00:46:26Z","closer":"10933333"},
+      "14293": {"comments":1,"words":17,"pr":true},
       "14319": {"comments":1,"words":1,"pr":true},
       "14380": {"comments":1,"words":10,"pr":true},
       "14405": {"comments":1,"words":56,"pr":true},
@@ -103,8 +110,8 @@
       "14440": {"comments":0,"words":50,"pr":true,"opened":"2017-07-24T02:37:57Z","opener":"1538624"},
       "14441": {"comments":0,"words":124,"opened":"2017-07-24T03:36:27Z","opener":"8822573","pr":true},
       "open": 943,
-      "words": 1505,
-      "comments": 38,
+      "words": 1573,
+      "comments": 43,
       "closed": 2,
       "opened": 2
     },
@@ -186,6 +193,16 @@
     "worker": {"open":3}
   },
   "users": {
+    "52195": {
+      "id": "52195",
+      "login": "mcollina",
+      "words": {
+        "build/pulls/658": 24
+      },
+      "reopened": [
+        "build/pulls/658"
+      ]
+    },
     "96947": {
       "id": "96947",
       "login": "refack",
@@ -246,7 +263,8 @@
       "words": {
         "node/pulls/14380#128943194": 10,
         "CTC/pulls/158": 58,
-        "CTC/pulls/155#317313429": 29
+        "CTC/pulls/155#317313429": 29,
+        "node/pulls/14293#317320377": 17
       },
       "opened": [
         "CTC/pulls/158"
@@ -269,11 +287,20 @@
         "node/pulls/8837#317304217": 98,
         "node/pulls/14431#128940692": 23,
         "node/pulls/14440": 50,
-        "node/pulls/14405#317305784": 56
+        "node/pulls/14405#317305784": 56,
+        "node/pulls/14185#317319163": 18,
+        "node/pulls/14185#317319262": 2
       },
       "opened": [
         "node/pulls/14440"
       ]
+    },
+    "1692786": {
+      "id": "1692786",
+      "login": "joshbressers",
+      "words": {
+        "help/pulls/739#317319416": 42
+      }
     },
     "1730073": {
       "id": "1730073",
@@ -318,11 +345,19 @@
       "id": "10933333",
       "login": "starkwang",
       "words": {
-        "node/pulls/14250": 74
+        "node/pulls/14250": 74,
+        "node/pulls/14212#317317050": 5
       },
       "closed": [
         "node/pulls/14250"
       ]
+    },
+    "11359344": {
+      "id": "11359344",
+      "login": "Hobgoblin101",
+      "words": {
+        "node/pulls/14046#317316010": 26
+      }
     },
     "15943089": {
       "id": "15943089",
@@ -338,6 +373,16 @@
       },
       "opened": [
         "build/pulls/811"
+      ]
+    },
+    "18206489": {
+      "id": "18206489",
+      "login": "Sharan-ram",
+      "words": {
+        "help/issues/748": 28
+      },
+      "opened": [
+        "help/issues/748"
       ]
     },
     "27847712": {
