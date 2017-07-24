@@ -7311,11 +7311,11 @@
 13800	718899	false	closed	false	3		2017-06-19T18:09:13Z	2017-07-03T20:56:17Z	2017-07-03T20:56:17Z	Investigate flaky test-regress-GH-4027 on Windows	73		
 13801	1280719	false	open	false	25		2017-06-19T18:49:39Z	2017-06-23T13:08:32Z		crypto.createCipher should not work with AES-CTR	66		
 13802	718899	true	closed	false	2	0	2017-06-19T18:59:55Z	2017-06-23T18:31:18Z	2017-06-23T18:31:18Z	test: refactor test-http-set-timeout-server	51		
-13803	439929	true	open	false	2		2017-06-19T21:26:57Z	2017-07-24T02:22:05Z		util: refactor util module	57		
+13803	439929	true	closed	false	4	4	2017-06-19T21:26:57Z	2017-07-24T03:43:54Z	2017-07-24T03:43:54Z	util: refactor util module	57		
 13804	132233	false	closed	false	10		2017-06-19T22:43:34Z	2017-07-15T04:22:07Z	2017-07-15T04:22:07Z	"V8_Fatal exception when running ""jest"" tests"	213		
 13805	54666	false	closed	false	0		2017-06-19T22:58:50Z	2017-06-28T11:26:38Z	2017-06-28T11:26:38Z	doc: formatting issue in cli docs	21		
 13806	96947	true	closed	false	1	2	2017-06-20T00:19:14Z	2017-07-09T17:23:34Z	2017-07-09T17:23:34Z	build,win: skip vcvarsall if already set	27	96947	2017-07-09T17:23:34Z
-13807	439929	true	open	false			2017-06-20T01:17:42Z	2017-07-18T14:42:37Z		buffer: refactor buffer exports	49		
+13807	439929	true	open	false			2017-06-20T01:17:42Z	2017-07-24T03:48:45Z		buffer: refactor buffer exports	58		
 13808	6627780	true	closed	false	1		2017-06-20T01:26:26Z	2017-06-28T11:25:42Z	2017-06-28T11:25:42Z	doc: fixed formatting issue in cli docs	39		
 13809	131776	false	closed	false	4		2017-06-20T03:10:33Z	2017-06-23T04:55:08Z	2017-06-20T03:14:24Z	JSON.stringify throw an exception when it can't properly parsing an object	45		
 13810	96947	false	open	false	0		2017-06-20T03:24:01Z	2017-06-20T03:24:01Z		test: investigate flaky test-http-agent-keepalive	30		
@@ -7888,7 +7888,7 @@
 14377	4923335	true	closed	false	2		2017-07-19T22:01:56Z	2017-07-22T05:02:22Z	2017-07-22T05:02:22Z	test: move timing-dependent tests to sequential	46		
 14378	1093990	false	open	false	0		2017-07-19T22:59:36Z	2017-07-19T22:59:36Z		A way to use custom ssh keys in releases.sh	59		
 14379	13093042	false	open	false	4		2017-07-19T23:48:10Z	2017-07-21T22:08:22Z		n-api: Potential N-API performance optimizations	601		
-14380	718899	true	open	false			2017-07-20T06:21:29Z	2017-07-23T23:59:22Z		test: fix flaky http(s)-set-timeout-server tests	59		
+14380	718899	true	open	false			2017-07-20T06:21:29Z	2017-07-24T03:15:01Z		test: fix flaky http(s)-set-timeout-server tests	59		
 14381	25573589	false	closed	false	12		2017-07-20T06:32:30Z	2017-07-21T06:22:35Z	2017-07-20T20:18:25Z	8.2.0 crashes test	72		
 14382	433468	true	open	false			2017-07-20T06:37:01Z	2017-07-21T14:49:25Z		N api dataview	71		
 14383	29041814	false	closed	false	0		2017-07-20T06:47:09Z	2017-07-20T07:21:12Z	2017-07-20T07:21:12Z	Net API - Connect TCP socket via proxy	60		
@@ -7916,7 +7916,7 @@
 14405	9291212	false	open	false	15		2017-07-21T01:32:12Z	2017-07-24T02:43:08Z		path.join('C:') = 'C:.' only in windows node LTS version	62		
 14406	2502292	false	open	false	1		2017-07-21T06:32:43Z	2017-07-21T12:25:20Z		fs.unlink doesn't throw under Windows when the file is locked.	123		
 14407	157440	false	open	false	0		2017-07-21T07:31:12Z	2017-07-21T07:31:12Z		Core dumped when creating tls.TLSSocket	151		
-14408	7927517	true	open	false	5		2017-07-21T07:50:02Z	2017-07-23T01:16:21Z		test: favor regex over TypeError in assert.throws	104		
+14408	7927517	true	open	false	7		2017-07-21T07:50:02Z	2017-07-24T03:02:56Z		test: favor regex over TypeError in assert.throws	104		
 14409	4923335	true	open	false			2017-07-21T09:05:49Z	2017-07-22T04:15:34Z		repl: improve require() autocompletion	57		
 14410	899444	true	open	false			2017-07-21T11:31:58Z	2017-07-21T22:00:59Z		http: reset stream to unconsumed in `unconsume()`	55		
 14411	12478828	false	closed	false	5		2017-07-21T13:13:21Z	2017-07-21T14:29:50Z	2017-07-21T14:07:46Z	v8-debug@0.7.7 fails to build	889		
@@ -7949,3 +7949,4 @@
 14438	3109072	true	open	false	1		2017-07-23T20:11:27Z	2017-07-23T21:14:22Z		path: remove unnecessary string copies	48		
 14439	718899	true	open	false			2017-07-23T22:39:34Z	2017-07-24T01:07:11Z		test: fix flaky test-force-repl	40		
 14440	1538624	true	open	false	0	0	2017-07-24T02:37:57Z	2017-07-24T02:37:57Z		path: fix win32 volume-relative paths	50		
+14441	8822573	false	open	false	0		2017-07-24T03:36:27Z	2017-07-24T03:36:27Z		assert: deepEqual inconsistencies	124		
