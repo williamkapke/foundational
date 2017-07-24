@@ -2355,7 +2355,7 @@
 8834	899444	true	closed	false	23		2016-09-28T17:53:51Z	2016-10-13T22:15:24Z	2016-10-10T16:14:50Z	stream: proper `instanceof` for `Writable`s	60		
 8835	718899	true	open	false	5		2016-09-28T18:46:49Z	2016-09-29T15:56:21Z		test: mark test-inspector flaky on windows	30		
 8836	432351	true	closed	false	16		2016-09-28T19:00:38Z	2016-11-18T20:56:25Z	2016-10-06T17:31:04Z	test: enable addons test to pass with debug build	142		
-8837	567540	true	open	false	20		2016-09-28T20:55:31Z	2017-07-24T00:23:10Z		inspector: Allow require in Runtime.evaluate	92		
+8837	567540	true	open	false			2016-09-28T20:55:31Z	2017-07-24T01:47:21Z		inspector: Allow require in Runtime.evaluate	92		
 8838	718899	false	closed	false	7		2016-09-28T21:32:10Z	2017-04-04T03:53:02Z	2017-04-04T03:53:01Z	investigate flaky parallel/test-debug-signal-cluster on SmartOS	75		
 8839	2205537	false	closed	false	5		2016-09-28T23:55:39Z	2016-10-01T14:00:28Z	2016-10-01T14:00:28Z	`process.stdin` is not implemented in bash for Windows 10... unknown type	246		
 8840	602462	true	closed	false	6	16	2016-09-29T01:05:51Z	2016-10-03T22:26:49Z	2016-10-03T22:26:49Z	doc: Docs for the common module API in tests	52		
@@ -5032,7 +5032,7 @@
 11517	1028226	true	closed	false	1	0	2017-02-23T10:20:06Z	2017-02-27T20:26:14Z	2017-02-27T20:26:13Z	doc: link to readable and writeable stream section	50		
 11518	321201	true	open	false	4		2017-02-23T16:07:48Z	2017-03-01T02:30:52Z		doc: use common malformed instead of misformatted	46		
 11519	4299420	true	closed	false	6		2017-02-23T16:59:31Z	2017-03-07T10:12:11Z	2017-02-26T04:46:48Z	build: add rule to clean addon tests build	163		
-11520	781746	false	open	false	8		2017-02-23T17:54:03Z	2017-07-23T18:07:00Z		Check cwd before spawning child process	153		
+11520	781746	false	open	false	9		2017-02-23T17:54:03Z	2017-07-24T01:12:43Z		Check cwd before spawning child process	153		
 11521	988441	false	closed	false	2		2017-02-23T18:03:13Z	2017-06-05T09:32:05Z	2017-06-05T09:32:05Z	Disconnecting debugger causes assertion failure	59		
 11522	54666	true	closed	false	9		2017-02-23T18:07:15Z	2017-03-07T05:06:33Z	2017-02-26T02:03:05Z	fs: improve performance for sync stat() functions	64		
 11523	18662996	true	open	false			2017-02-23T18:35:11Z	2017-02-27T18:48:11Z		WIP: errors, http client: migrate to internal/error.js	63		
@@ -7753,12 +7753,12 @@
 14242	10933333	true	open	false	1		2017-07-15T01:27:11Z	2017-07-17T15:43:11Z		errors: keep error codes in alphabetical order	42		
 14243	1819074	false	open	false	6		2017-07-15T02:45:49Z	2017-07-16T19:24:33Z		Foreground Magenta is not shown well in powershell(windows)	116		
 14244	10393198	true	open	false	3		2017-07-15T02:47:50Z	2017-07-21T17:43:26Z		doc, lib, test: do not re-require needlessly	116		
-14245	2842176	true	open	false	15		2017-07-15T03:18:44Z	2017-07-23T18:35:34Z		[v8.x] doc,tls: mark parseCertString() as deprecated	37		
+14245	2842176	true	open	false	16		2017-07-15T03:18:44Z	2017-07-24T01:30:38Z		[v8.x] doc,tls: mark parseCertString() as deprecated	37		
 14246	96947	true	open	false	6		2017-07-15T04:02:21Z	2017-07-16T01:33:28Z		test: temporarily disable MultipleEnvironmentsPerIsolate	34		
 14247	718899	true	closed	false	3		2017-07-15T04:02:27Z	2017-07-18T05:11:48Z	2017-07-18T05:11:48Z	lib: update indentation of ternaries	43		
 14248	11169379	false	open	false	0		2017-07-15T04:23:28Z	2017-07-15T04:23:28Z		Uh oh! Looks like you're missing a module in your gulpfile: Cannot find module 'gulp'	73		
 14249	2842176	true	open	false	1		2017-07-15T04:40:59Z	2017-07-21T05:02:02Z		tls: deprecate parseCertString & move to internal	61		
-14250	10933333	true	open	false	6		2017-07-15T13:45:59Z	2017-07-24T00:44:37Z		errors: move error codes into separate module	74		
+14250	10933333	true	closed	false	7		2017-07-15T13:45:59Z	2017-07-24T01:36:01Z	2017-07-24T00:46:26Z	errors: move error codes into separate module	74		
 14251	1252364	true	open	false	8		2017-07-15T14:26:42Z	2017-07-16T13:01:37Z		tools: delete an unused argument	24		
 14252	718899	true	closed	false	1		2017-07-15T14:29:21Z	2017-07-19T02:34:38Z	2017-07-19T02:34:38Z	test: fix error handling in test-http-full-response	74		
 14253	10393198	false	closed	false	8		2017-07-15T16:01:06Z	2017-07-23T22:32:22Z	2017-07-22T16:15:52Z	tools: some eslint rules proposals	193		
@@ -7827,7 +7827,7 @@
 14316	718899	false	open	false	2		2017-07-17T02:30:03Z	2017-07-17T10:17:45Z		Investigate flaky test-inspector-open on Linux	74		
 14317	432351	true	open	false	0		2017-07-17T04:54:50Z	2017-07-17T08:24:05Z		test: add DISABLED_ prefix to commented out test	57		
 14318	443663	true	open	false	0		2017-07-17T05:06:36Z	2017-07-17T07:02:16Z		test: verify detail exception messages in addons-napi/test_constructor	37		
-14319	443663	true	closed	false	7		2017-07-17T05:09:58Z	2017-07-21T08:12:23Z	2017-07-21T08:12:23Z	test: replace string concatenation in async-hooks/test-tlswrap.js with template literals	40		
+14319	443663	true	closed	false	8		2017-07-17T05:09:58Z	2017-07-24T01:52:03Z	2017-07-21T08:12:23Z	test: replace string concatenation in async-hooks/test-tlswrap.js with template literals	40		
 14320	15943089	true	open	false	0		2017-07-17T07:02:46Z	2017-07-18T03:05:43Z		test: allow inspector to reopen with same port	105		
 14321	52195	true	closed	false	2		2017-07-17T08:11:43Z	2017-07-19T08:37:59Z	2017-07-19T08:37:59Z	doc,stream: _transform cannot be called in parallel	53		
 14322	8624778	true	closed	false	4		2017-07-17T09:06:59Z	2017-07-19T14:57:34Z	2017-07-18T02:54:30Z	[JsConf Code & Learn]test: replace string concatenation with template literals	47		
@@ -7939,12 +7939,12 @@
 14428	96947	true	open	false	6		2017-07-22T19:40:02Z	2017-07-23T20:03:57Z		[v8.x backport] assert: make assert.fail doc compliant	41		
 14429	7927517	true	open	false	0	0	2017-07-22T19:44:26Z	2017-07-22T19:44:26Z		doc: fix typo in using-internal-errors.md	25		
 14430	96947	false	open	false	0		2017-07-22T21:23:47Z	2017-07-22T21:23:47Z		[v6.x] test: investigate test-fs-read-buffer-tostring-fail	25		
-14431	718899	true	open	false			2017-07-23T00:56:51Z	2017-07-23T21:56:59Z		test: adjust indentation for stricter linting	68		
+14431	718899	true	open	false			2017-07-23T00:56:51Z	2017-07-24T01:27:23Z		test: adjust indentation for stricter linting	68		
 14432	11638619	false	open	false	0		2017-07-23T01:29:51Z	2017-07-23T03:15:33Z		Inspector profiling can't be stopped or viewed after script finishes running	227		
 14433	11348778	false	open	false	0		2017-07-23T03:59:21Z	2017-07-23T04:25:32Z		Upgrading Node to v8 does not update npm to v5 	59		
 14434	2842176	true	open	false	0	0	2017-07-23T08:29:50Z	2017-07-23T08:29:50Z		(v6.x backport) dns: fix `resolve` failed starts without network	142		
-14435	12568177	true	open	false	8		2017-07-23T15:01:57Z	2017-07-23T17:12:03Z		doc: add docs for module.paths	22		
+14435	12568177	true	open	false			2017-07-23T15:01:57Z	2017-07-24T01:36:47Z		doc: add docs for module.paths	22		
 14436	1832800	false	open	false	11		2017-07-23T15:11:26Z	2017-07-23T16:08:04Z		Inspector. Console. require is not defined	4		
 14437	10393198	true	open	false	0	0	2017-07-23T17:10:24Z	2017-07-23T17:10:24Z		test: replace CRLF by LF in a fixture	51		
 14438	3109072	true	open	false	1		2017-07-23T20:11:27Z	2017-07-23T21:14:22Z		path: remove unnecessary string copies	48		
-14439	718899	true	open	false	0	0	2017-07-23T22:39:34Z	2017-07-23T22:39:34Z		test: fix flaky test-force-repl	40		
+14439	718899	true	open	false			2017-07-23T22:39:34Z	2017-07-24T01:07:11Z		test: fix flaky test-force-repl	40		
