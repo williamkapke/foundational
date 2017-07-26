@@ -838,7 +838,7 @@
 7225	439929	true	closed	false	10		2016-06-08T15:30:23Z	2016-10-10T17:01:37Z	2016-06-21T17:04:22Z	crypto,tls: perf improvements for crypto and tls getCiphers	103		
 7229	624456	true	closed	false	13		2016-06-08T18:43:49Z	2016-07-05T21:00:16Z	2016-07-04T17:15:18Z	src: temporary fix for AIX malloc issue	151		
 7230	9319556	true	closed	false	15	8	2016-06-08T18:57:58Z	2017-02-14T18:55:02Z	2017-02-14T18:55:02Z	doc: clarify tls.createServer's {cert, ca}	46		
-7231	2144779	false	open	false	12		2016-06-08T19:40:39Z	2017-07-26T17:22:46Z		How to add max timeout on DNS query?	28		
+7231	2144779	false	open	false	14		2016-06-08T19:40:39Z	2017-07-26T18:43:29Z		How to add max timeout on DNS query?	28		
 7236	439929	true	closed	false	8		2016-06-08T22:54:12Z	2016-10-10T17:03:15Z	2016-06-21T17:54:25Z	tls: avoid calling Buffer.byteLength multiple times	98		
 7237	718899	true	closed	false	5		2016-06-08T23:26:07Z	2016-07-12T02:11:45Z	2016-06-12T03:12:27Z	doc: add information for IncomingMessage.destroy()	33		
 7240	238531	false	closed	false	20		2016-06-09T00:21:10Z	2017-07-07T23:41:57Z	2017-07-07T23:41:57Z	Proposal: gypkg for GYP dependency management	80		
@@ -7719,7 +7719,7 @@
 14208	289174	true	open	false			2017-07-12T22:52:32Z	2017-07-17T22:29:30Z		allow passing custom async_id to node::AsyncWrap::AsyncWrap	180		
 14209	289174	false	open	false	2		2017-07-12T23:59:10Z	2017-07-26T16:56:54Z		tracking issue: passing custom async_id's to node::AsyncWrap::AsyncWrap	563		
 14210	498775	false	open	false	2		2017-07-13T00:28:10Z	2017-07-13T23:02:32Z		We need to better document module_versions	86		
-14211	931192	true	open	false	5		2017-07-13T00:37:52Z	2017-07-26T17:14:57Z		n-api: directly create Local from Persistent	47		
+14211	931192	true	closed	false	6		2017-07-13T00:37:52Z	2017-07-26T18:02:27Z	2017-07-26T18:02:27Z	n-api: directly create Local from Persistent	47		
 14212	10933333	true	closed	false	5		2017-07-13T01:39:57Z	2017-07-24T12:27:45Z	2017-07-24T12:27:45Z	dns, errors: Migrate to use internal/errors	48		
 14213	3223890	false	closed	false	0		2017-07-13T01:54:59Z	2017-07-13T02:41:00Z	2017-07-13T02:41:00Z	child_process.spawnSync() not return anything.	79		
 14214	96947	false	open	false	4		2017-07-13T02:28:13Z	2017-07-13T11:06:15Z		discuss: refactor the test harness	274		
@@ -7890,7 +7890,7 @@
 14379	13093042	false	open	false	4		2017-07-19T23:48:10Z	2017-07-21T22:08:22Z		n-api: Potential N-API performance optimizations	601		
 14380	718899	true	closed	false	25	9	2017-07-20T06:21:29Z	2017-07-25T19:19:37Z	2017-07-25T19:19:37Z	test: fix flaky http(s)-set-timeout-server tests	59		
 14381	25573589	false	closed	false	12		2017-07-20T06:32:30Z	2017-07-21T06:22:35Z	2017-07-20T20:18:25Z	8.2.0 crashes test	72		
-14382	433468	true	open	false			2017-07-20T06:37:01Z	2017-07-21T14:49:25Z		N api dataview	71		
+14382	433468	true	open	false	2		2017-07-20T06:37:01Z	2017-07-26T18:15:05Z		N api dataview	71		
 14383	29041814	false	closed	false	0		2017-07-20T06:47:09Z	2017-07-20T07:21:12Z	2017-07-20T07:21:12Z	Net API - Connect TCP socket via proxy	60		
 14384	2352663	false	open	false	8		2017-07-20T06:52:00Z	2017-07-26T16:53:14Z		Should we continue to support FreeBSD?	208		
 14385	2291463	true	open	false	0	0	2017-07-20T08:53:09Z	2017-07-20T08:53:09Z		deps: backport rehash strings after deserialization.	107		
@@ -7915,29 +7915,29 @@
 14404	96947	false	open	false	0		2017-07-20T21:07:19Z	2017-07-20T21:07:19Z		test: investigate async-hooks/test-tlswrap	80		
 14405	9291212	false	open	false	15		2017-07-21T01:32:12Z	2017-07-24T02:43:08Z		path.join('C:') = 'C:.' only in windows node LTS version	62		
 14406	2502292	false	open	false	1		2017-07-21T06:32:43Z	2017-07-21T12:25:20Z		fs.unlink doesn't throw under Windows when the file is locked.	123		
-14407	157440	false	open	false	0		2017-07-21T07:31:12Z	2017-07-21T07:31:12Z		Core dumped when creating tls.TLSSocket	151		
+14407	157440	false	closed	false	0		2017-07-21T07:31:12Z	2017-07-26T18:10:37Z	2017-07-26T18:10:37Z	Core dumped when creating tls.TLSSocket	154		
 14408	7927517	true	open	false	7		2017-07-21T07:50:02Z	2017-07-24T03:02:56Z		test: favor regex over TypeError in assert.throws	104		
 14409	4923335	true	closed	false	1		2017-07-21T09:05:49Z	2017-07-24T14:21:39Z	2017-07-24T14:21:39Z	repl: improve require() autocompletion	57		
-14410	899444	true	open	false			2017-07-21T11:31:58Z	2017-07-24T15:31:42Z		http: reset stream to unconsumed in `unconsume()`	55		
+14410	899444	true	closed	false	1		2017-07-21T11:31:58Z	2017-07-26T18:09:38Z	2017-07-26T18:09:38Z	http: reset stream to unconsumed in `unconsume()`	55		
 14411	12478828	false	closed	false	5		2017-07-21T13:13:21Z	2017-07-21T14:29:50Z	2017-07-21T14:07:46Z	v8-debug@0.7.7 fails to build	889		
 14412	791279	false	open	false	8		2017-07-21T14:25:58Z	2017-07-21T23:49:46Z		Request: Sponsorship on Docs Page	137		
 14413	17607	true	open	false	3	0	2017-07-21T17:08:42Z	2017-07-22T05:33:32Z		V6.x backport 13531 docs	48		
-14414	899444	true	open	false	6		2017-07-21T17:37:35Z	2017-07-21T23:34:13Z		async_hooks: remove deprecated APIs	56		
+14414	899444	true	open	false	7		2017-07-21T17:37:35Z	2017-07-26T18:05:48Z		async_hooks: remove deprecated APIs	56		
 14415	17607	true	closed	false	1		2017-07-21T17:49:10Z	2017-07-21T19:02:10Z	2017-07-21T19:02:10Z	(v6.x backport) https: support rejectUnauthorized for unix sockets	78		
 14416	17607	true	open	false	0	0	2017-07-21T18:16:00Z	2017-07-21T18:16:00Z		(v6.x backport) http: describe parse err in debug output	65		
 14417	718899	true	closed	false	2		2017-07-21T18:39:27Z	2017-07-25T19:22:16Z	2017-07-25T19:22:16Z	tools: update to ESLint 4.3.0	66		
 14418	17607	true	closed	false	4		2017-07-21T20:49:12Z	2017-07-25T15:37:13Z	2017-07-24T17:31:28Z	(v6.x backport) process: add --redirect-warnings command line argument	117		
 14419	289174	true	closed	false	2		2017-07-21T23:14:52Z	2017-07-25T08:34:02Z	2017-07-25T00:44:35Z	http: check for handle before running asyncReset()	81		
-14420	1087603	false	open	false	2		2017-07-21T23:22:43Z	2017-07-24T16:48:38Z		WeakMap() usage results in permanently expanded RSS	255		
+14420	1087603	false	closed	false	3		2017-07-21T23:22:43Z	2017-07-26T18:39:08Z	2017-07-26T18:39:08Z	WeakMap() usage results in permanently expanded RSS	255		
 14421	5076519	false	closed	false	1		2017-07-22T02:21:04Z	2017-07-22T09:17:38Z	2017-07-22T09:17:38Z	FSReqWrap::New doesn't validate parameters	54		
 14422	3725560	true	closed	false	2		2017-07-22T08:35:07Z	2017-07-22T14:35:53Z	2017-07-22T11:44:25Z	src: Improve round to multiple of 4 performance	36		
-14423	10933333	true	open	false	5		2017-07-22T11:44:44Z	2017-07-22T22:13:01Z		http client, errors: migrate to use internal/errors	42		
+14423	10933333	true	open	false	5		2017-07-22T11:44:44Z	2017-07-26T18:18:22Z		http client, errors: migrate to use internal/errors	42		
 14424	96947	false	open	false	1		2017-07-22T11:53:09Z	2017-07-24T15:56:18Z		test: test-crypto-dh-leak flaky	109		
 14425	6104981	false	closed	false	1		2017-07-22T14:24:37Z	2017-07-23T03:09:26Z	2017-07-23T03:09:26Z	process.nextTick() never calls its callback	171		
 14426	115237	false	open	false	6		2017-07-22T16:27:36Z	2017-07-24T17:08:55Z		repl: '...' should not be detected  as REPL keyword	27		
 14427	96947	true	open	false	2		2017-07-22T19:32:23Z	2017-07-22T21:26:01Z		[v6.x backport] doc,assert: document stackStartFunction in fail	65		
 14428	96947	true	closed	false	9		2017-07-22T19:40:02Z	2017-07-24T16:35:26Z	2017-07-24T16:35:26Z	[v8.x backport] assert: make assert.fail doc compliant	41		
-14429	7927517	true	open	false	0	0	2017-07-22T19:44:26Z	2017-07-22T19:44:26Z		doc: fix typo in using-internal-errors.md	25		
+14429	7927517	true	closed	false	0		2017-07-22T19:44:26Z	2017-07-26T18:20:22Z	2017-07-26T18:20:22Z	doc: fix typo in using-internal-errors.md	25		
 14430	96947	false	open	false	8		2017-07-22T21:23:47Z	2017-07-26T14:02:23Z		[v6.x] test: investigate test-fs-read-buffer-tostring-fail	25		
 14431	718899	true	open	false	7		2017-07-23T00:56:51Z	2017-07-26T16:58:47Z		test: adjust indentation for stricter linting	68		
 14432	11638619	false	open	false	0		2017-07-23T01:29:51Z	2017-07-23T03:15:33Z		Inspector profiling can't be stopped or viewed after script finishes running	227		
@@ -7948,17 +7948,17 @@
 14437	10393198	true	closed	false	1		2017-07-23T17:10:24Z	2017-07-25T18:52:38Z	2017-07-25T18:52:38Z	test: replace CRLF by LF in a fixture	51		
 14438	3109072	true	closed	false	4		2017-07-23T20:11:27Z	2017-07-26T12:02:54Z	2017-07-26T12:02:54Z	path: remove unnecessary string copies	48		
 14439	718899	true	closed	false	2		2017-07-23T22:39:34Z	2017-07-26T17:00:10Z	2017-07-26T17:00:10Z	test: fix flaky test-force-repl	40		
-14440	1538624	true	open	false	4		2017-07-24T02:37:57Z	2017-07-25T15:17:14Z		path: fix win32 volume-relative paths	50		
+14440	1538624	true	open	false	5		2017-07-24T02:37:57Z	2017-07-26T18:21:50Z		path: fix win32 volume-relative paths	50		
 14441	8822573	false	open	false	2		2017-07-24T03:36:27Z	2017-07-25T21:24:55Z		assert: deepEqual inconsistencies	124		
 14442	8553106	false	open	false	0		2017-07-24T05:31:07Z	2017-07-24T05:31:07Z		Common System Errors	19		
-14443	22466613	true	open	false	3		2017-07-24T06:55:23Z	2017-07-24T18:30:36Z		test: changed error message validator	64		
+14443	22466613	true	closed	false	4		2017-07-24T06:55:23Z	2017-07-26T18:25:06Z	2017-07-26T18:25:06Z	test: changed error message validator	64		
 14444	1315533	false	open	false	5		2017-07-24T09:14:58Z	2017-07-26T09:52:39Z		Rename possibly offensive terminology in child_process	163		
 14445	13516180	false	closed	false	4		2017-07-24T11:23:17Z	2017-07-24T18:33:37Z	2017-07-24T14:05:46Z	Nodejs process restart doesn't kill child  threads and they become zombie process.	94		
 14446	4355382	false	closed	false	4		2017-07-24T12:32:19Z	2017-07-25T08:54:44Z	2017-07-24T15:06:06Z	async hooks promise not destroyed	111		
 14447	275871	true	open	false			2017-07-24T12:48:38Z	2017-07-25T17:13:58Z		tls: fix object prototype type confusion	42		
 14448	25476357	false	open	false	0		2017-07-24T14:13:49Z	2017-07-24T14:13:49Z		"Documentation for ""path"" and ""bytesWritten"" property should also be in stream.html, not just fs.html"	121		
-14449	899444	true	open	false			2017-07-24T15:03:49Z	2017-07-25T19:38:35Z		net,child_process: improve naming in internal code	73		
-14450	101553	true	open	false	1		2017-07-24T15:41:08Z	2017-07-25T09:29:18Z		src: replace deprecated method	31		
+14449	899444	true	closed	false	5		2017-07-24T15:03:49Z	2017-07-26T18:09:37Z	2017-07-26T18:09:37Z	net,child_process: improve naming in internal code	73		
+14450	101553	true	open	false	2		2017-07-24T15:41:08Z	2017-07-26T18:28:28Z		src: replace deprecated method	31		
 14451	275871	true	open	false	0		2017-07-24T15:56:04Z	2017-07-26T12:05:04Z		test: make flaky crypto test more deterministic	9		
 14452	899444	true	open	false	15		2017-07-24T16:18:18Z	2017-07-26T16:38:38Z		v8.3.0 proposal	774		
 14453	899444	true	open	false	0	0	2017-07-24T16:48:41Z	2017-07-24T16:48:41Z		[v8.x] n-api: add code parameter to error helpers	21		
@@ -7975,7 +7975,7 @@
 14464	718899	true	open	false	0		2017-07-24T23:08:50Z	2017-07-26T13:47:36Z		test: refactor test-benchmark-timers	52		
 14465	287917	true	open	false	2		2017-07-25T01:05:36Z	2017-07-26T00:37:07Z		inspector: support non-main contexts	164		
 14466	1270848	true	open	false	0		2017-07-25T01:39:27Z	2017-07-25T08:55:32Z		buffer: remove a wrongly added attribute specifier	93		
-14467	433468	true	open	false	6		2017-07-25T02:49:54Z	2017-07-26T14:21:43Z		repl: do not consider `...` as a REPL command	53		
+14467	433468	true	open	false	7		2017-07-25T02:49:54Z	2017-07-26T18:11:47Z		repl: do not consider `...` as a REPL command	52		
 14468	241873	true	open	false	0	0	2017-07-25T05:27:11Z	2017-07-25T05:27:11Z		Pr	7		
 14469	5832730	true	open	false	0	0	2017-07-25T07:17:01Z	2017-07-25T07:17:01Z		doc: fix Verify in crypto.md	31		
 14470	27844433	false	open	false	0		2017-07-25T08:28:02Z	2017-07-25T08:28:02Z		The latest version of node installed on CentOs6.7 failed	289		
@@ -7989,7 +7989,7 @@
 14478	1538624	true	open	false			2017-07-25T15:13:45Z	2017-07-25T16:08:02Z		doc: various small revisions in url	33		
 14479	163333	false	closed	false	3		2017-07-25T15:26:06Z	2017-07-26T08:29:50Z	2017-07-25T17:17:49Z	Native module: FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memory	278		
 14480	17607	true	open	false	0	0	2017-07-25T15:35:49Z	2017-07-25T15:35:49Z		(v6.x backport) process: add --redirect-warnings command line argument	117		
-14481	5435495	false	open	false	1		2017-07-25T15:41:45Z	2017-07-26T14:39:50Z		API issue: No way to abort file open	312		
+14481	5435495	false	closed	false	2		2017-07-25T15:41:45Z	2017-07-26T18:06:08Z	2017-07-26T18:06:08Z	API issue: No way to abort file open	312		
 14482	17607	true	open	false	0	0	2017-07-25T16:42:34Z	2017-07-25T16:42:34Z		V4.x backport 12402 and 13279	118		
 14483	17607	true	open	false	0	0	2017-07-25T17:50:58Z	2017-07-25T17:50:58Z		(v6.x backport) src: use option parser for expose_internals	44		
 14484	29712624	false	open	false	0		2017-07-25T18:57:33Z	2017-07-25T19:07:08Z		npm start does not work anymore	67		
