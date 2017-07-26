@@ -838,7 +838,7 @@
 7225	439929	true	closed	false	10		2016-06-08T15:30:23Z	2016-10-10T17:01:37Z	2016-06-21T17:04:22Z	crypto,tls: perf improvements for crypto and tls getCiphers	103		
 7229	624456	true	closed	false	13		2016-06-08T18:43:49Z	2016-07-05T21:00:16Z	2016-07-04T17:15:18Z	src: temporary fix for AIX malloc issue	151		
 7230	9319556	true	closed	false	15	8	2016-06-08T18:57:58Z	2017-02-14T18:55:02Z	2017-02-14T18:55:02Z	doc: clarify tls.createServer's {cert, ca}	46		
-7231	2144779	false	closed	false	6		2016-06-08T19:40:39Z	2017-07-26T05:22:23Z	2017-07-26T05:22:23Z	How to add max timeout on DNS query?	28		
+7231	2144779	false	closed	false	6		2016-06-08T19:40:39Z	2017-07-26T07:08:15Z	2017-07-26T05:22:23Z	How to add max timeout on DNS query?	28		
 7236	439929	true	closed	false	8		2016-06-08T22:54:12Z	2016-10-10T17:03:15Z	2016-06-21T17:54:25Z	tls: avoid calling Buffer.byteLength multiple times	98		
 7237	718899	true	closed	false	5		2016-06-08T23:26:07Z	2016-07-12T02:11:45Z	2016-06-12T03:12:27Z	doc: add information for IncomingMessage.destroy()	33		
 7240	238531	false	closed	false	20		2016-06-09T00:21:10Z	2017-07-07T23:41:57Z	2017-07-07T23:41:57Z	Proposal: gypkg for GYP dependency management	80		
@@ -4171,7 +4171,7 @@
 10656	527245	false	closed	false	9		2017-01-06T10:02:50Z	2017-03-20T08:53:56Z	2017-03-20T08:53:56Z	Segfault (seems random)	162		
 10657	15943089	true	closed	false	6		2017-01-06T10:11:14Z	2017-03-11T01:29:30Z	2017-01-29T22:44:44Z	build: don't bundle deps/zlib if --shared-zlib set	56		
 10658	2105621	false	open	false	0		2017-01-06T10:12:33Z	2017-01-06T10:12:33Z		dova	6		
-10659	378984	false	closed	false	7		2017-01-06T15:01:26Z	2017-07-06T14:50:13Z	2017-01-06T15:06:45Z	Fatal error in ../deps/v8/src/api.cc, line 1051	171		
+10659	378984	false	closed	false	8		2017-01-06T15:01:26Z	2017-07-26T07:32:23Z	2017-01-06T15:06:45Z	Fatal error in ../deps/v8/src/api.cc, line 1051	171		
 10660	1292558	false	closed	false	4		2017-01-06T16:09:38Z	2017-05-10T04:17:51Z	2017-05-10T04:17:51Z	Tests for resizing window fails for Node.js v7 while working fine for v4-v6	208		
 10661	10393198	false	open	false	14		2017-01-06T17:21:52Z	2017-02-15T15:50:02Z		Filenames / dirnames with a leading hyphen: a CLI argument issue	85		
 10662	718899	false	closed	false	2		2017-01-06T17:28:02Z	2017-01-23T07:00:27Z	2017-01-23T07:00:27Z	Collaborator nominations	109		
@@ -7512,7 +7512,7 @@
 14001	1485909	true	open	false	6		2017-06-30T11:01:16Z	2017-07-25T01:36:39Z		src: Node implementation of v8::Platform	113		
 14002	7401419	true	open	false	2		2017-06-30T11:48:32Z	2017-07-24T09:01:28Z		benchmark: use much smaller values for n in some http tests	61		
 14003	7401419	true	closed	false	3		2017-06-30T12:00:29Z	2017-07-24T12:34:50Z	2017-07-24T12:34:50Z	test: use a different external object in test-util-inspect	61		
-14004	2352663	true	open	false	52		2017-06-30T12:01:35Z	2017-07-25T23:24:29Z		deps: update V8 to 6.0	113		
+14004	2352663	true	open	false	53		2017-06-30T12:01:35Z	2017-07-26T07:43:48Z		deps: update V8 to 6.0	113		
 14005	899444	true	open	false	0	0	2017-06-30T12:32:14Z	2017-06-30T12:32:14Z		src: unset `NODE_VERSION_IS_RELEASE`	31		
 14006	115237	false	open	false	0		2017-06-30T13:49:55Z	2017-07-16T16:30:35Z		CIDR support for os.networkInterfaces	72		
 14007	358876	false	open	false	0		2017-06-30T14:28:16Z	2017-06-30T14:28:16Z		Expose reference to the Symbol(customPromisifyArgs)	105		
@@ -7871,7 +7871,7 @@
 14360	718899	true	closed	false	0		2017-07-19T04:53:33Z	2017-07-21T18:04:49Z	2017-07-21T18:04:49Z	[v6.x backport] tools: apply stricter indentation rules to tools 	10		
 14361	718899	true	closed	false	4		2017-07-19T06:03:22Z	2017-07-21T17:35:19Z	2017-07-21T17:35:19Z	test: fix flaky test-net-write-after-close	38		
 14362	54666	false	closed	false	1		2017-07-19T08:42:18Z	2017-07-21T02:50:43Z	2017-07-21T02:50:43Z	doc: typo in stream.md	23		
-14363	20224954	true	closed	false	7		2017-07-19T08:58:40Z	2017-07-23T03:38:43Z	2017-07-19T18:10:00Z	tools: add download testing	57		
+14363	20224954	true	closed	false	9		2017-07-19T08:58:40Z	2017-07-26T07:15:33Z	2017-07-19T18:10:00Z	tools: add download testing	57		
 14364	22377678	true	open	false	3		2017-07-19T11:57:16Z	2017-07-21T02:49:55Z		Fixes: https://github.com/nodejs/node/issues/14362	29		
 14365	976081	true	open	false			2017-07-19T12:28:08Z	2017-07-22T23:45:59Z		n-api: implement promise	150		
 14366	10070995	false	closed	false	0		2017-07-19T12:37:48Z	2017-07-19T13:59:55Z	2017-07-19T13:59:55Z	How to verfiy nodejs TLS connection  is FIPS 140-2 complaint or not	71		
@@ -8004,3 +8004,4 @@
 14493	241873	true	open	false	0		2017-07-26T05:26:27Z	2017-07-26T06:06:58Z		try to fix for #14022	23		
 14494	241873	true	open	false	0	0	2017-07-26T06:30:26Z	2017-07-26T06:30:26Z		lib: repl for #14022 && readline fix debug warning	23		
 14495	2253649	true	open	false	0	0	2017-07-26T06:37:52Z	2017-07-26T06:37:52Z		test: add test-fs-read-buffer-to-string-fail as pass and flaky to all platforms	6		
+14496	2842176	false	open	false	0		2017-07-26T07:12:13Z	2017-07-26T07:12:13Z		Question about code style: arrow function V.S. callback function	165		
