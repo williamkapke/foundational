@@ -76,7 +76,7 @@
 1834	275871	false	closed	false	14		2015-05-29T12:01:45Z	2017-07-17T09:07:50Z	2017-07-17T08:26:41Z	fs / streams: file descriptor leak on connection abort	142		
 1843	54666	true	closed	false	71		2015-05-30T08:25:30Z	2016-08-06T07:34:31Z	2016-08-06T07:34:31Z	dns: add new DNS resolver and set it as default	22		
 1860	407189	false	closed	false	21		2015-06-01T10:39:15Z	2016-11-26T02:26:04Z	2016-11-09T01:55:33Z	Plans on incorporating BoringSSL	115		
-1873	291301	false	open	false	16		2015-06-02T18:58:34Z	2017-02-26T22:01:16Z		http.OutgoingMessage headers API	78		
+1873	291301	false	open	false	17		2015-06-02T18:58:34Z	2017-07-27T00:13:15Z		http.OutgoingMessage headers API	78		
 1878	17607	true	closed	false	7	3	2015-06-03T05:25:47Z	2017-01-03T21:45:04Z	2017-01-03T21:45:04Z	util: treat all args identically in absence of a format	105		
 1885	718899	false	open	false	24		2015-06-03T16:20:07Z	2017-07-07T06:02:09Z		net: server.maxConnections does not trigger error on some platforms	36		
 1917	327019	true	closed	false	17		2015-06-08T13:55:41Z	2017-04-14T21:52:24Z	2017-04-14T21:52:24Z	test: add unicode test case for exec	26		
@@ -113,7 +113,7 @@
 2383	1010430	false	open	false	14		2015-08-14T23:17:12Z	2017-07-07T23:24:16Z		crypto: API changes needed for AES Counter with CBC-MAC (CCM) support	362		
 2385	439929	false	open	false	7		2015-08-15T16:24:22Z	2017-05-19T23:47:12Z		assert: inconsistency in assert.doesNotThrow	121		
 2395	439929	true	closed	false	11	0	2015-08-16T00:23:48Z	2016-08-02T04:18:14Z	2016-08-02T04:18:14Z	http: correct fencepost error when freeing socket	60		
-2398	439929	false	open	false	51		2015-08-16T01:20:43Z	2017-03-06T10:11:25Z		DTLS Discussion	54		
+2398	439929	false	open	false	57		2015-08-16T01:20:43Z	2017-07-27T00:26:21Z		DTLS Discussion	54		
 2407	355800	true	closed	false			2015-08-17T04:01:53Z	2016-09-27T21:34:56Z	2016-04-18T23:52:16Z	assert: respect assert.doesNotThrow message.	32		
 2443	2244675	false	closed	false	8		2015-08-19T14:39:09Z	2016-10-13T11:35:17Z	2016-10-13T11:35:17Z	Incorrect module path resolving with NODE_PATH in Windows	44		
 2465	42354	false	closed	false	4		2015-08-20T18:35:12Z	2016-12-15T12:59:44Z	2015-08-20T19:09:50Z	url.parse parses hostname as protocol when protocol/scheme is absent in hostname:port formatted uRL	54		
@@ -4845,7 +4845,7 @@
 11330	1538624	true	open	false	1		2017-02-13T00:01:54Z	2017-02-16T05:57:18Z		doc, url: various improvements to WHATWG API	22		
 11331	10393198	true	open	false	5		2017-02-13T03:10:19Z	2017-02-20T21:10:22Z		doc: fix sorting in API references	209		
 11332	1131567	true	closed	false	3		2017-02-13T08:19:47Z	2017-03-07T15:23:24Z	2017-02-16T22:48:43Z	util: use ES2015+ Object.is to check negative zero	56		
-11333	771001	false	open	false	0		2017-02-13T12:20:59Z	2017-03-05T10:10:11Z		end event is not properly documented in httpClient request documentation	41		
+11333	771001	false	closed	false	1		2017-02-13T12:20:59Z	2017-07-27T00:25:20Z	2017-07-27T00:25:20Z	end event is not properly documented in httpClient request documentation	41		
 11334	6220422	true	closed	false			2017-02-13T13:03:53Z	2017-02-13T20:06:13Z	2017-02-13T17:00:11Z	dns.lookup return a string with no options	19		
 11335	24968144	false	open	false	3		2017-02-13T14:09:32Z	2017-02-14T10:19:32Z		problem with cross-compiling flag building windows binary under linux OS	134		
 11336	101553	true	closed	false	0		2017-02-13T15:46:59Z	2017-02-14T10:20:42Z	2017-02-14T10:20:42Z	doc: update link to V8 Embedder's guide	21		
@@ -5012,7 +5012,7 @@
 11497	54666	true	closed	false	1		2017-02-22T08:15:18Z	2017-03-07T05:07:04Z	2017-02-24T01:41:27Z	process: improve memoryUsage() performance	85		
 11498	569527	true	open	false			2017-02-22T09:01:58Z	2017-02-28T23:25:37Z		test: add regex to assert in test_cyclic_link_protection	32		
 11499	5807322	false	closed	false	12		2017-02-22T09:21:24Z	2017-02-24T00:25:47Z	2017-02-22T13:59:58Z	SHA256 checksums do not match	46		
-11500	10393198	false	open	false	16		2017-02-22T09:46:59Z	2017-02-28T12:02:08Z		Degraded performance of ia32 builds on x64 Windows and undocumented build parameter	197		
+11500	10393198	false	open	false	17		2017-02-22T09:46:59Z	2017-07-27T00:18:13Z		Degraded performance of ia32 builds on x64 Windows and undocumented build parameter	197		
 11501	14075323	false	closed	false	1		2017-02-22T11:27:04Z	2017-02-22T13:39:35Z	2017-02-22T13:39:35Z	Capitalized first letter removes circular dependency error	88		
 11502	73215	false	closed	false	1		2017-02-22T12:06:01Z	2017-02-22T17:27:02Z	2017-02-22T12:22:31Z	async/await in 7.6.0?	27		
 11503	20170364	true	closed	false	0		2017-02-22T14:31:20Z	2017-02-25T15:56:45Z	2017-02-25T15:56:45Z	process: fix typo in comments	27		
@@ -5057,8 +5057,8 @@
 11542	17381972	false	open	false	11		2017-02-24T17:22:02Z	2017-05-17T16:57:42Z		Error when installing node.js [windows 10]	84		
 11543	25020067	true	open	false	2		2017-02-24T19:30:07Z	2017-02-27T16:21:15Z		Have console.timeEnd return the elapsed time.	14		
 11544	469365	true	closed	false	0		2017-02-24T20:54:11Z	2017-02-27T20:20:38Z	2017-02-27T20:20:38Z	doc: document clientRequest.aborted	96		
-11545	76945	false	open	false	3		2017-02-24T22:08:50Z	2017-02-27T17:23:03Z		Bug on array spread operator on NodeJS 6.10.0 with --optimize_for_size	303		
-11546	2512748	true	open	false	32		2017-02-25T00:05:23Z	2017-05-30T15:00:47Z		WIP: cluster: make scheduler configurable	378		
+11545	76945	false	open	false	5		2017-02-24T22:08:50Z	2017-07-27T00:21:15Z		Bug on array spread operator on NodeJS 6.10.0 with --optimize_for_size	303		
+11546	2512748	true	open	false	33		2017-02-25T00:05:23Z	2017-07-27T00:15:45Z		WIP: cluster: make scheduler configurable	378		
 11547	718899	true	closed	false	0		2017-02-25T06:20:08Z	2017-02-27T20:17:18Z	2017-02-27T20:17:18Z	test: favor assertions over console logging	34		
 11548	19511039	true	closed	false	1		2017-02-25T07:40:53Z	2017-02-27T20:10:03Z	2017-02-27T20:10:03Z	doc: argument types for assert methods	37		
 11549	1538624	true	closed	false	6	14	2017-02-25T08:31:49Z	2017-03-01T02:33:04Z	2017-03-01T02:33:04Z	src: do not ignore IDNA conversion error	252		
@@ -5090,7 +5090,7 @@
 11575	718899	true	closed	false	3		2017-02-27T06:44:00Z	2017-03-01T16:38:43Z	2017-03-01T16:38:43Z	test: apply strict mode in test-repl	47		
 11576	4923335	true	closed	false	27		2017-02-27T07:35:31Z	2017-03-10T00:17:25Z	2017-03-10T00:17:24Z	util: change sparse arrays inspection format	95		
 11577	156269	true	open	false	6		2017-02-27T08:04:29Z	2017-05-31T02:04:24Z		http: subclass of Agent can override the initialization	49		
-11578	3662372	false	open	false	5		2017-02-27T09:37:55Z	2017-03-07T08:19:12Z		Node.js http micro benchmark tests for http are flaky	198		
+11578	3662372	false	closed	false	7		2017-02-27T09:37:55Z	2017-07-27T00:27:54Z	2017-07-27T00:27:54Z	Node.js http micro benchmark tests for http are flaky	198		
 11579	782880	true	closed	false	8		2017-02-27T13:00:05Z	2017-03-10T08:32:02Z	2017-03-10T08:32:02Z	test: add script to create 0-dns-cert.pem	109		
 11580	718899	true	closed	false	9		2017-02-27T15:35:13Z	2017-03-03T17:14:32Z	2017-03-02T03:09:10Z	timers: unlock the timers API	77		
 11581	234659	true	open	false	1		2017-02-27T18:04:35Z	2017-03-13T15:15:32Z		doc: package main can be directory with an index	50		
@@ -5131,7 +5131,7 @@
 11616	17607	true	closed	false	4		2017-02-28T18:34:28Z	2017-03-10T21:25:47Z	2017-03-06T17:38:51Z	deps: fix CLEAR_HASH macro to be usable as a single statement	56		
 11617	287917	true	closed	false	4		2017-02-28T19:10:48Z	2017-04-17T21:40:19Z	2017-03-03T19:41:51Z	inspector: libuv notification on incoming message	71		
 11618	432351	true	closed	false	4		2017-02-28T19:15:14Z	2017-06-17T20:26:02Z	2017-03-02T06:26:05Z	src: add HAVE_OPENSSL directive to openssl_config	82		
-11619	9373002	false	open	false	2		2017-02-28T19:17:03Z	2017-03-01T15:44:22Z		parallel/test-debug-port-numbers - intermittent failure	29		
+11619	9373002	false	closed	false	3		2017-02-28T19:17:03Z	2017-07-27T00:23:35Z	2017-07-27T00:23:35Z	parallel/test-debug-port-numbers - intermittent failure	29		
 11620	432351	true	closed	false	1		2017-02-28T19:52:18Z	2017-03-02T06:37:14Z	2017-03-02T06:37:14Z	test: fix test-internal-util-assertCrypto regex	101		
 11621	6354455	true	closed	false	4		2017-02-28T21:15:10Z	2017-03-07T03:36:59Z	2017-02-28T23:24:27Z	doc: adding deprecations.md	87		
 11622	569527	true	closed	false	8		2017-02-28T23:24:34Z	2017-04-17T22:25:21Z	2017-03-10T00:32:01Z	test: add regex to assert in test_cyclic_link_protection	32		
@@ -5186,7 +5186,7 @@
 11671	13561163	true	open	false	8		2017-03-03T12:33:41Z	2017-03-17T16:43:15Z		test: failing behaviour on sandboxed Proxy	67		
 11672	1263419	true	closed	false	8		2017-03-03T12:47:39Z	2017-05-07T20:47:15Z	2017-03-06T15:23:44Z	util: fix inspecting symbol key in string	48		
 11673	7337239	false	closed	false	3		2017-03-03T13:19:49Z	2017-03-06T16:25:49Z	2017-03-03T13:24:15Z	Http/Https response corrupted	133		
-11674	988441	false	open	false	28		2017-03-03T15:10:55Z	2017-03-05T09:04:49Z		Reasons for not using GitHub's green button are unconvincing	230		
+11674	988441	false	open	false	29		2017-03-03T15:10:55Z	2017-07-27T00:24:53Z		Reasons for not using GitHub's green button are unconvincing	230		
 11675	234659	false	open	false	4		2017-03-03T16:49:34Z	2017-03-04T01:08:24Z		require fallthrough behavior	132		
 11676	1716463	true	closed	false	3		2017-03-03T17:03:25Z	2017-04-17T21:39:36Z	2017-03-03T17:23:25Z	doc: add `Daijiro Wachi` to collaborators	21		
 11677	154208	true	closed	false	4		2017-03-03T17:53:54Z	2017-04-18T01:33:55Z	2017-03-06T15:26:59Z	doc: fixed readable.isPaused() 'Added in version' annotation	38		
@@ -7434,7 +7434,7 @@
 13923	562653	false	open	false	0		2017-06-26T14:56:02Z	2017-07-11T05:54:04Z		"Server.getConnections() failed with ""Slave closed before reply"""	685		
 13924	9373002	false	closed	false	2		2017-06-26T15:06:04Z	2017-07-01T15:43:38Z	2017-07-01T15:43:38Z	N-API:  Add functions to delete properties	93		
 13925	9373002	false	closed	false	3		2017-06-26T15:10:55Z	2017-07-06T19:36:33Z	2017-07-06T19:36:33Z	N-API: Add method to get own properties	99		
-13926	9373002	false	open	false	1		2017-06-26T15:13:51Z	2017-07-14T15:16:52Z		N-API: Support for DataView	132		
+13926	9373002	false	closed	false	4		2017-06-26T15:13:51Z	2017-07-27T00:31:35Z	2017-07-27T00:31:35Z	N-API: Support for DataView	132		
 13927	9373002	false	closed	false	2		2017-06-26T15:17:59Z	2017-07-14T14:10:30Z	2017-07-14T14:10:30Z	N-API: add function for fatal error	69		
 13928	9373002	false	open	false	2		2017-06-26T15:23:40Z	2017-07-16T20:07:56Z		N-API: expose function to suggest GC extends external memory	109		
 13929	505333	false	open	false	10		2017-06-26T15:23:42Z	2017-07-07T01:39:16Z		Promise stack trace is noisy	125		
@@ -7890,7 +7890,7 @@
 14379	13093042	false	open	false	4		2017-07-19T23:48:10Z	2017-07-21T22:08:22Z		n-api: Potential N-API performance optimizations	601		
 14380	718899	true	closed	false	25	9	2017-07-20T06:21:29Z	2017-07-25T19:19:37Z	2017-07-25T19:19:37Z	test: fix flaky http(s)-set-timeout-server tests	59		
 14381	25573589	false	closed	false	12		2017-07-20T06:32:30Z	2017-07-21T06:22:35Z	2017-07-20T20:18:25Z	8.2.0 crashes test	72		
-14382	433468	true	open	false			2017-07-20T06:37:01Z	2017-07-26T23:27:49Z		N api dataview	71		
+14382	433468	true	closed	false	4	43	2017-07-20T06:37:01Z	2017-07-27T00:44:28Z	2017-07-27T00:44:28Z	N api dataview	71		
 14383	29041814	false	closed	false	0		2017-07-20T06:47:09Z	2017-07-20T07:21:12Z	2017-07-20T07:21:12Z	Net API - Connect TCP socket via proxy	60		
 14384	2352663	false	open	false	9		2017-07-20T06:52:00Z	2017-07-26T19:38:33Z		Should we continue to support FreeBSD?	208		
 14385	2291463	true	open	false	0	0	2017-07-20T08:53:09Z	2017-07-20T08:53:09Z		deps: backport rehash strings after deserialization.	107		
