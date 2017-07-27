@@ -838,7 +838,7 @@
 7225	439929	true	closed	false	10		2016-06-08T15:30:23Z	2016-10-10T17:01:37Z	2016-06-21T17:04:22Z	crypto,tls: perf improvements for crypto and tls getCiphers	103		
 7229	624456	true	closed	false	13		2016-06-08T18:43:49Z	2016-07-05T21:00:16Z	2016-07-04T17:15:18Z	src: temporary fix for AIX malloc issue	151		
 7230	9319556	true	closed	false	15	8	2016-06-08T18:57:58Z	2017-02-14T18:55:02Z	2017-02-14T18:55:02Z	doc: clarify tls.createServer's {cert, ca}	46		
-7231	2144779	false	open	false	16		2016-06-08T19:40:39Z	2017-07-27T07:40:11Z		How to add max timeout on DNS query?	28		
+7231	2144779	false	open	false	17		2016-06-08T19:40:39Z	2017-07-27T17:40:37Z		How to add max timeout on DNS query?	28		
 7236	439929	true	closed	false	8		2016-06-08T22:54:12Z	2016-10-10T17:03:15Z	2016-06-21T17:54:25Z	tls: avoid calling Buffer.byteLength multiple times	98		
 7237	718899	true	closed	false	5		2016-06-08T23:26:07Z	2016-07-12T02:11:45Z	2016-06-12T03:12:27Z	doc: add information for IncomingMessage.destroy()	33		
 7240	238531	false	closed	false	20		2016-06-09T00:21:10Z	2017-07-07T23:41:57Z	2017-07-07T23:41:57Z	Proposal: gypkg for GYP dependency management	80		
@@ -4934,7 +4934,7 @@
 11419	1610233	true	closed	false	2		2017-02-16T16:41:34Z	2017-03-07T07:07:04Z	2017-02-18T15:05:44Z	test: add coverage for utf8CheckIncomplete()	47		
 11420	79017	false	closed	false	12		2017-02-16T16:42:46Z	2017-04-29T23:32:35Z	2017-04-29T23:32:35Z	Implement a test to ensure that cluster properly interoperates with the --{inspect,debug}-brk options	61		
 11421	567540	false	closed	false	0		2017-02-16T17:00:19Z	2017-04-15T00:51:16Z	2017-04-15T00:51:16Z	Switch the CLI debugger to V8 inspector	265		
-11422	33538	false	closed	false	7		2017-02-16T17:22:30Z	2017-07-27T07:38:09Z	2017-07-26T21:06:54Z	On macOS, os.tmpdir() is not a real path	147		
+11422	33538	false	closed	false	8		2017-02-16T17:22:30Z	2017-07-27T17:42:26Z	2017-07-26T21:06:54Z	On macOS, os.tmpdir() is not a real path	147		
 11423	4923335	true	closed	false	4		2017-02-16T18:29:33Z	2017-04-18T23:40:10Z	2017-04-04T18:45:08Z	test: add Unicode characters regression test	51		
 11424	287917	false	open	false	0		2017-02-16T18:48:00Z	2017-02-16T18:48:00Z		SIGUSR1 does not interrupt running JavaScript code	45		
 11425	287917	false	closed	false	1		2017-02-16T18:52:34Z	2017-02-28T19:05:52Z	2017-02-28T19:05:52Z	Inspector messages are only processed while the JavaScript is executed.	47		
@@ -7152,7 +7152,7 @@
 13641	931192	false	closed	false	5		2017-06-12T22:49:17Z	2017-06-30T18:28:43Z	2017-06-30T18:28:43Z	Issues building test addons with both VS2015 and VS2017 installed	414		
 13642	718899	false	open	false	2		2017-06-12T23:20:10Z	2017-06-14T02:18:45Z		Investigate flaky test/parallel/test-fs-watch on Raspberry Pi	24		
 13643	718899	true	open	false	3		2017-06-13T01:54:49Z	2017-06-16T16:03:38Z		test: refactor test-fs-read-stream	72		
-13644	439929	true	closed	false	47		2017-06-13T03:19:20Z	2017-07-25T21:11:15Z	2017-07-24T21:07:57Z	buffer: implement WHATWG Encoding Standard API	140		
+13644	439929	true	closed	false	48		2017-06-13T03:19:20Z	2017-07-27T17:18:43Z	2017-07-24T21:07:57Z	buffer: implement WHATWG Encoding Standard API	140		
 13645	718899	true	closed	false	25		2017-06-13T03:53:45Z	2017-07-18T06:38:13Z	2017-06-17T19:58:24Z	tools: update ESLint to v4.0.0	32		
 13646	617481	false	open	false	10		2017-06-13T04:41:32Z	2017-06-20T00:15:59Z		Discussion of implementing the Encoding Standard with ICU, and associated web platform tests	196		
 13647	490562	false	open	false	0		2017-06-13T05:08:12Z	2017-06-13T06:03:18Z		Crashes terminal on OS X and refuses subsequent input after prompting more than once (Node 8 only)	174		
@@ -7977,14 +7977,14 @@
 14466	1270848	true	open	false	0		2017-07-25T01:39:27Z	2017-07-25T08:55:32Z		buffer: remove a wrongly added attribute specifier	93		
 14467	433468	true	open	false	8		2017-07-25T02:49:54Z	2017-07-27T05:08:16Z		repl: do not consider `...` as a REPL command	52		
 14468	241873	true	open	false	0	0	2017-07-25T05:27:11Z	2017-07-25T05:27:11Z		Pr	7		
-14469	5832730	true	open	false	0	0	2017-07-25T07:17:01Z	2017-07-25T07:17:01Z		doc: fix Verify in crypto.md	31		
+14469	5832730	true	closed	false	0		2017-07-25T07:17:01Z	2017-07-27T17:34:56Z	2017-07-27T17:34:56Z	doc: fix Verify in crypto.md	31		
 14470	27844433	false	open	false	0		2017-07-25T08:28:02Z	2017-07-25T08:28:02Z		The latest version of node installed on CentOs6.7 failed	289		
 14471	3109072	true	open	false	0	0	2017-07-25T09:22:39Z	2017-07-25T09:22:39Z		[v8.x backport] assert: fix incorrect use of ERR_INVALID_ARG_TYPE	6		
 14472	2253649	true	closed	false	6		2017-07-25T09:58:30Z	2017-07-26T06:30:38Z	2017-07-26T06:30:38Z	test: add test-fs-read-buffer-to-string-fail as pass and flaky to all…	6		
 14473	275871	true	closed	false	0	2	2017-07-25T10:08:02Z	2017-07-27T15:42:14Z	2017-07-27T15:42:14Z	tls: fix empty issuer/subject/infoAccess parsing	19		
 14474	275871	true	closed	false	1	0	2017-07-25T10:28:44Z	2017-07-27T15:15:23Z	2017-07-27T15:15:23Z	src: replace ASSERT with CHECK	31		
 14475	93784	false	open	false	1		2017-07-25T12:01:10Z	2017-07-26T03:16:16Z		dns: Add DNSSEC support	314		
-14476	2352663	true	open	false	0	0	2017-07-25T12:19:56Z	2017-07-25T12:19:56Z		test: support odd value for kStringMaxLength	64		
+14476	2352663	true	open	false	0		2017-07-25T12:19:56Z	2017-07-27T17:41:14Z		test: support odd value for kStringMaxLength	64		
 14477	291301	true	open	false	1		2017-07-25T12:33:07Z	2017-07-25T15:06:39Z		doc: make encoding table in util.md leaner	84		
 14478	1538624	true	open	false			2017-07-25T15:13:45Z	2017-07-25T16:08:02Z		doc: various small revisions in url	33		
 14479	163333	false	closed	false	3		2017-07-25T15:26:06Z	2017-07-26T08:29:50Z	2017-07-25T17:17:49Z	Native module: FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memory	278		
@@ -7997,7 +7997,7 @@
 14486	10393198	true	open	false			2017-07-25T21:10:49Z	2017-07-26T01:11:55Z		doc: cross-link util.TextDecoder and intl.md	54		
 14487	11638619	false	open	false	8		2017-07-25T21:17:57Z	2017-07-26T19:02:06Z		util.inspect is slow for large sparse arrays	65		
 14488	718899	true	open	false	0		2017-07-25T21:24:37Z	2017-07-26T02:20:34Z		test: add known-issue test for issue 14441	35		
-14489	1538624	true	open	false	0	0	2017-07-26T01:08:29Z	2017-07-26T01:08:29Z		Fix building without ICU	43		
+14489	1538624	true	open	false	0		2017-07-26T01:08:29Z	2017-07-27T17:39:38Z		Fix building without ICU	43		
 14490	1538624	false	open	false	0		2017-07-26T01:24:32Z	2017-07-26T08:08:39Z		C++ linter is not run on src/*/*	93		
 14491	8822573	true	open	false	0		2017-07-26T02:04:09Z	2017-07-27T16:35:20Z		assert: fix deepEqual inconsistencies	78		
 14492	8822573	true	open	false			2017-07-26T04:25:59Z	2017-07-27T03:44:04Z		util: improve util.inspect performance	79		
@@ -8009,14 +8009,14 @@
 14498	1415488	false	closed	false	1		2017-07-26T10:21:06Z	2017-07-26T11:18:44Z	2017-07-26T11:18:44Z	Concurrent server.listen(0) will hang up incoming request	157		
 14499	15943089	true	open	false	2		2017-07-26T11:06:34Z	2017-07-27T15:59:50Z		build: move FreeBSD to experimental	212		
 14500	681239	true	open	false	0		2017-07-26T12:03:14Z	2017-07-26T17:05:04Z		test/dgram: Add support for IPv6 link local scope IDs in received UDP datagrams	144		
-14501	8822573	true	open	false	0	0	2017-07-26T13:50:53Z	2017-07-26T13:50:53Z		assert: improve deep equal map	224		
+14501	8822573	true	open	false	0		2017-07-26T13:50:53Z	2017-07-27T17:25:21Z		assert: improve deep equal map	224		
 14502	11780786	true	open	false			2017-07-26T14:53:01Z	2017-07-26T19:14:04Z		doc: fix minor typos in net.md	30		
 14503	241873	true	open	false	1		2017-07-26T15:14:05Z	2017-07-27T12:18:06Z		lib: repl add .load-editor feature	5		
 14504	765946	false	closed	false	1		2017-07-26T15:45:05Z	2017-07-26T17:07:17Z	2017-07-26T17:07:17Z	code ELIFECYCLE Exit status 1 at EventEmitter.<anonymous>	335		
 14505	718899	true	open	false	0		2017-07-26T19:34:05Z	2017-07-26T20:50:01Z		test: remove disabled tests directory	51		
 14506	20868551	true	open	false	7		2017-07-26T21:53:28Z	2017-07-27T05:29:12Z		test: fix error when foo in path to git clone	160		
 14507	718899	false	open	false	0		2017-07-26T22:42:02Z	2017-07-26T22:42:02Z		investigate flaky test-inspector-stop-profile-after-done on Windows	80		
-14508	718899	true	open	false			2017-07-27T05:42:51Z	2017-07-27T16:37:12Z		test: improve error logging for inspector test	53		
+14508	718899	true	open	false	2		2017-07-27T05:42:51Z	2017-07-27T17:10:30Z		test: improve error logging for inspector test	53		
 14509	3927355	false	open	false	3		2017-07-27T07:21:27Z	2017-07-27T09:06:31Z		A fatal error of wasm with my own built node with v8 6.1.0	136		
 14510	26118718	true	open	false	2		2017-07-27T12:30:10Z	2017-07-27T13:20:38Z		"deps,profiler: parse Windows' ""%p"" in processor"	232		
 14511	793982	true	open	false	0	0	2017-07-27T13:44:58Z	2017-07-27T13:44:58Z		test: set module loading error for aix	64		
@@ -8025,3 +8025,5 @@
 14514	275871	true	open	false	0	0	2017-07-27T15:35:28Z	2017-07-27T15:35:28Z		src: replace assert with CHECK_LE in node_api.cc	4		
 14515	718899	true	open	false	0	0	2017-07-27T16:30:35Z	2017-07-27T16:30:35Z		tools: remove legacy indentation linting	39		
 14516	4154393	false	open	false	0		2017-07-27T16:58:24Z	2017-07-27T16:58:24Z		Issue using super in arrow function with block body in async class function	158		
+14517	1571966	false	open	false	0		2017-07-27T17:13:19Z	2017-07-27T17:13:19Z		try/catch and callbacks in user-space act differently than with built-ins	297		
+14518	899444	true	open	false	0	0	2017-07-27T17:38:29Z	2017-07-27T17:38:29Z		dns: enable managing independent channels in JS	48		
