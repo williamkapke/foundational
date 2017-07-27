@@ -113,7 +113,7 @@
 2383	1010430	false	open	false	14		2015-08-14T23:17:12Z	2017-07-07T23:24:16Z		crypto: API changes needed for AES Counter with CBC-MAC (CCM) support	362		
 2385	439929	false	open	false	7		2015-08-15T16:24:22Z	2017-05-19T23:47:12Z		assert: inconsistency in assert.doesNotThrow	121		
 2395	439929	true	closed	false	11	0	2015-08-16T00:23:48Z	2016-08-02T04:18:14Z	2016-08-02T04:18:14Z	http: correct fencepost error when freeing socket	60		
-2398	439929	false	open	false	59		2015-08-16T01:20:43Z	2017-07-27T06:35:34Z		DTLS Discussion	54		
+2398	439929	false	open	false	60		2015-08-16T01:20:43Z	2017-07-27T07:10:13Z		DTLS Discussion	54		
 2407	355800	true	closed	false			2015-08-17T04:01:53Z	2016-09-27T21:34:56Z	2016-04-18T23:52:16Z	assert: respect assert.doesNotThrow message.	32		
 2443	2244675	false	closed	false	8		2015-08-19T14:39:09Z	2016-10-13T11:35:17Z	2016-10-13T11:35:17Z	Incorrect module path resolving with NODE_PATH in Windows	44		
 2465	42354	false	closed	false	4		2015-08-20T18:35:12Z	2016-12-15T12:59:44Z	2015-08-20T19:09:50Z	url.parse parses hostname as protocol when protocol/scheme is absent in hostname:port formatted uRL	54		
@@ -648,7 +648,7 @@
 6667	2655300	false	closed	false	0		2016-05-10T04:58:37Z	2017-02-07T23:23:43Z	2016-05-10T05:13:08Z	hostname resets to default. 	83		
 6668	292365	false	closed	false	11		2016-05-10T07:09:45Z	2017-05-30T04:52:45Z	2017-05-30T04:52:45Z	Maximum call stack size exceeded for --no-bin-links option when using npm	103		
 6670	613846	true	closed	false	37		2016-05-10T08:30:29Z	2016-09-30T18:14:14Z	2016-08-09T10:58:36Z	module: fix wrong condition in early return logic for node_module path	428		
-6673	298721	false	closed	false	35		2016-05-10T13:59:35Z	2017-07-26T17:31:53Z	2016-05-12T09:58:58Z	Memory leaks in loops with Promise	199		
+6673	298721	false	closed	false	36		2016-05-10T13:59:35Z	2017-07-27T07:37:05Z	2016-05-12T09:58:58Z	Memory leaks in loops with Promise	199		
 6675	1625870	true	closed	false	12		2016-05-10T15:22:04Z	2016-07-05T14:14:33Z	2016-05-27T10:08:00Z	test,win: skip addons/load-long-path on WOW64	63		
 6677	3899684	false	closed	false	10		2016-05-10T17:46:59Z	2017-07-07T23:00:00Z	2017-07-07T23:00:00Z	discuss: have glob function is `fs` or `path` API	83		
 6679	367936	false	closed	false	19		2016-05-10T18:55:54Z	2016-08-09T10:58:23Z	2016-08-09T10:58:23Z	require has issues when run from /	264		
@@ -838,7 +838,7 @@
 7225	439929	true	closed	false	10		2016-06-08T15:30:23Z	2016-10-10T17:01:37Z	2016-06-21T17:04:22Z	crypto,tls: perf improvements for crypto and tls getCiphers	103		
 7229	624456	true	closed	false	13		2016-06-08T18:43:49Z	2016-07-05T21:00:16Z	2016-07-04T17:15:18Z	src: temporary fix for AIX malloc issue	151		
 7230	9319556	true	closed	false	15	8	2016-06-08T18:57:58Z	2017-02-14T18:55:02Z	2017-02-14T18:55:02Z	doc: clarify tls.createServer's {cert, ca}	46		
-7231	2144779	false	open	false	15		2016-06-08T19:40:39Z	2017-07-27T02:53:22Z		How to add max timeout on DNS query?	28		
+7231	2144779	false	open	false	16		2016-06-08T19:40:39Z	2017-07-27T07:40:11Z		How to add max timeout on DNS query?	28		
 7236	439929	true	closed	false	8		2016-06-08T22:54:12Z	2016-10-10T17:03:15Z	2016-06-21T17:54:25Z	tls: avoid calling Buffer.byteLength multiple times	98		
 7237	718899	true	closed	false	5		2016-06-08T23:26:07Z	2016-07-12T02:11:45Z	2016-06-12T03:12:27Z	doc: add information for IncomingMessage.destroy()	33		
 7240	238531	false	closed	false	20		2016-06-09T00:21:10Z	2017-07-07T23:41:57Z	2017-07-07T23:41:57Z	Proposal: gypkg for GYP dependency management	80		
@@ -4934,7 +4934,7 @@
 11419	1610233	true	closed	false	2		2017-02-16T16:41:34Z	2017-03-07T07:07:04Z	2017-02-18T15:05:44Z	test: add coverage for utf8CheckIncomplete()	47		
 11420	79017	false	closed	false	12		2017-02-16T16:42:46Z	2017-04-29T23:32:35Z	2017-04-29T23:32:35Z	Implement a test to ensure that cluster properly interoperates with the --{inspect,debug}-brk options	61		
 11421	567540	false	closed	false	0		2017-02-16T17:00:19Z	2017-04-15T00:51:16Z	2017-04-15T00:51:16Z	Switch the CLI debugger to V8 inspector	265		
-11422	33538	false	closed	false	6		2017-02-16T17:22:30Z	2017-07-26T21:06:54Z	2017-07-26T21:06:54Z	On macOS, os.tmpdir() is not a real path	147		
+11422	33538	false	closed	false	7		2017-02-16T17:22:30Z	2017-07-27T07:38:09Z	2017-07-26T21:06:54Z	On macOS, os.tmpdir() is not a real path	147		
 11423	4923335	true	closed	false	4		2017-02-16T18:29:33Z	2017-04-18T23:40:10Z	2017-04-04T18:45:08Z	test: add Unicode characters regression test	51		
 11424	287917	false	open	false	0		2017-02-16T18:48:00Z	2017-02-16T18:48:00Z		SIGUSR1 does not interrupt running JavaScript code	45		
 11425	287917	false	closed	false	1		2017-02-16T18:52:34Z	2017-02-28T19:05:52Z	2017-02-28T19:05:52Z	Inspector messages are only processed while the JavaScript is executed.	47		
@@ -7378,7 +7378,7 @@
 13867	10615883	false	open	false	2		2017-06-22T07:22:28Z	2017-06-22T14:24:46Z		inspect binds only to loopback interface	117		
 13868	6794482	false	closed	false	5		2017-06-22T08:25:37Z	2017-06-28T01:22:24Z	2017-06-28T01:22:24Z	fs.writeFile callback has no error when writing file failed	65		
 13869	3109072	true	closed	false	0		2017-06-22T08:46:56Z	2017-06-28T12:23:47Z	2017-06-28T12:23:47Z	doc: unify ERR_FALSY_VALUE_REJECTION description	25		
-13870	1140553	true	open	false			2017-06-22T09:48:09Z	2017-07-25T15:01:21Z		Report async tasks to V8 Inspector	303		
+13870	1140553	true	open	false	27		2017-06-22T09:48:09Z	2017-07-27T07:36:57Z		Report async tasks to V8 Inspector	303		
 13871	3109072	true	closed	false	3		2017-06-22T11:49:49Z	2017-07-10T11:12:25Z	2017-07-10T11:12:25Z	(v6.x backport) os,vm: fix segfaults and CHECK failure	73		
 13872	976081	true	open	false	15		2017-06-22T11:52:11Z	2017-07-12T16:02:51Z		N-API: Implement stricter wrapping	195		
 13873	17535	true	closed	false	26		2017-06-22T12:25:40Z	2017-07-21T21:52:28Z	2017-07-21T21:52:28Z	process: allow modification of process.argv0	206		
@@ -7951,8 +7951,8 @@
 14440	1538624	true	open	false	6		2017-07-24T02:37:57Z	2017-07-26T22:54:02Z		path: fix win32 volume-relative paths	50		
 14441	8822573	false	open	false	2		2017-07-24T03:36:27Z	2017-07-25T21:24:55Z		assert: deepEqual inconsistencies	124		
 14442	8553106	false	open	false	0		2017-07-24T05:31:07Z	2017-07-24T05:31:07Z		Common System Errors	19		
-14443	22466613	true	closed	false	4		2017-07-24T06:55:23Z	2017-07-26T18:25:06Z	2017-07-26T18:25:06Z	test: changed error message validator	64		
-14444	1315533	false	open	false	5		2017-07-24T09:14:58Z	2017-07-26T09:52:39Z		Rename possibly offensive terminology in child_process	163		
+14443	22466613	true	closed	false	5		2017-07-24T06:55:23Z	2017-07-27T07:01:39Z	2017-07-26T18:25:06Z	test: changed error message validator	64		
+14444	1315533	false	open	false	6		2017-07-24T09:14:58Z	2017-07-27T07:59:02Z		Rename possibly offensive terminology in child_process	163		
 14445	13516180	false	closed	false	4		2017-07-24T11:23:17Z	2017-07-24T18:33:37Z	2017-07-24T14:05:46Z	Nodejs process restart doesn't kill child  threads and they become zombie process.	94		
 14446	4355382	false	closed	false	4		2017-07-24T12:32:19Z	2017-07-25T08:54:44Z	2017-07-24T15:06:06Z	async hooks promise not destroyed	111		
 14447	275871	true	open	false			2017-07-24T12:48:38Z	2017-07-25T17:13:58Z		tls: fix object prototype type confusion	42		
@@ -8004,7 +8004,7 @@
 14493	241873	true	open	false	0		2017-07-26T05:26:27Z	2017-07-26T06:06:58Z		try to fix for #14022	23		
 14494	241873	true	closed	false	6	3	2017-07-26T06:30:26Z	2017-07-26T15:14:16Z	2017-07-26T15:14:16Z	lib: repl for #14022 && readline fix debug warning	23		
 14495	2253649	true	open	false	0		2017-07-26T06:37:52Z	2017-07-26T21:05:46Z		test: add test-fs-read-buffer-to-string-fail as pass and flaky to all platforms	6		
-14496	2842176	false	open	false	12		2017-07-26T07:12:13Z	2017-07-27T04:26:23Z		Question about code style: arrow function V.S. callback function	183		
+14496	2842176	false	open	false	13		2017-07-26T07:12:13Z	2017-07-27T07:35:21Z		Question about code style: arrow function V.S. callback function	183		
 14497	2253649	true	open	false			2017-07-26T09:41:07Z	2017-07-26T14:28:51Z		 Adding CPPLinting paths src/tracing/ also to make file	16		
 14498	1415488	false	closed	false	1		2017-07-26T10:21:06Z	2017-07-26T11:18:44Z	2017-07-26T11:18:44Z	Concurrent server.listen(0) will hang up incoming request	157		
 14499	15943089	true	open	false	0	0	2017-07-26T11:06:34Z	2017-07-26T11:06:34Z		build: move FreeBSD to experimental	212		
@@ -8017,3 +8017,4 @@
 14506	20868551	true	open	false	7		2017-07-26T21:53:28Z	2017-07-27T05:29:12Z		test: fix error when foo in path to git clone	160		
 14507	718899	false	open	false	0		2017-07-26T22:42:02Z	2017-07-26T22:42:02Z		investigate flaky test-inspector-stop-profile-after-done on Windows	80		
 14508	718899	true	open	false			2017-07-27T05:42:51Z	2017-07-27T06:12:17Z		test: improve error logging for inspector test	53		
+14509	3927355	false	open	false	0		2017-07-27T07:21:27Z	2017-07-27T07:21:27Z		A fatal error when I build my node with newer v8	126		
