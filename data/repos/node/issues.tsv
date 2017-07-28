@@ -648,7 +648,7 @@
 6667	2655300	false	closed	false	0		2016-05-10T04:58:37Z	2017-02-07T23:23:43Z	2016-05-10T05:13:08Z	hostname resets to default. 	83		
 6668	292365	false	closed	false	11		2016-05-10T07:09:45Z	2017-05-30T04:52:45Z	2017-05-30T04:52:45Z	Maximum call stack size exceeded for --no-bin-links option when using npm	103		
 6670	613846	true	closed	false	37		2016-05-10T08:30:29Z	2016-09-30T18:14:14Z	2016-08-09T10:58:36Z	module: fix wrong condition in early return logic for node_module path	428		
-6673	298721	false	closed	false	38		2016-05-10T13:59:35Z	2017-07-28T06:56:54Z	2016-05-12T09:58:58Z	Memory leaks in loops with Promise	199		
+6673	298721	false	closed	false	39		2016-05-10T13:59:35Z	2017-07-28T08:24:54Z	2016-05-12T09:58:58Z	Memory leaks in loops with Promise	199		
 6675	1625870	true	closed	false	12		2016-05-10T15:22:04Z	2016-07-05T14:14:33Z	2016-05-27T10:08:00Z	test,win: skip addons/load-long-path on WOW64	63		
 6677	3899684	false	closed	false	10		2016-05-10T17:46:59Z	2017-07-07T23:00:00Z	2017-07-07T23:00:00Z	discuss: have glob function is `fs` or `path` API	83		
 6679	367936	false	closed	false	19		2016-05-10T18:55:54Z	2016-08-09T10:58:23Z	2016-08-09T10:58:23Z	require has issues when run from /	264		
@@ -4801,7 +4801,7 @@
 11286	988441	true	closed	false	21		2017-02-10T13:33:03Z	2017-04-19T09:42:42Z	2017-03-28T08:42:55Z	doc: clarify out-of-bounds behavior of buf[index]	23		
 11287	988441	true	closed	false	0	2	2017-02-10T14:24:37Z	2017-02-10T20:21:36Z	2017-02-10T20:21:36Z	benchmark: fix typos	21	988441	2017-02-10T20:21:36Z
 11288	2512748	true	closed	false	6		2017-02-10T15:03:41Z	2017-03-07T17:18:38Z	2017-02-14T16:50:44Z	child_process: exit spawnSync with null on signal	59		
-11289	600821	false	closed	false	9		2017-02-10T15:05:38Z	2017-07-27T15:49:41Z	2017-07-26T08:47:33Z	Memory leak when calling fs.write() in long synchronous loop	383		
+11289	600821	false	closed	false	10		2017-02-10T15:05:38Z	2017-07-28T08:51:43Z	2017-07-26T08:47:33Z	Memory leak when calling fs.write() in long synchronous loop	383		
 11290	5886475	true	open	false	6		2017-02-10T15:26:03Z	2017-02-17T18:20:50Z		test: increase coverage of timers	32		
 11291	2512748	true	closed	false	1	0	2017-02-10T15:34:39Z	2017-02-13T22:27:13Z	2017-02-13T22:27:13Z	test: add coverage for dgram _createSocketHandle()	48	2512748	2017-02-13T22:27:13Z
 11292	2512748	true	closed	false	2		2017-02-10T16:45:16Z	2017-03-07T17:16:50Z	2017-02-14T16:58:13Z	test: cover dgram socket close during cluster bind	72		
@@ -6763,7 +6763,7 @@
 13251	96947	true	closed	false	9		2017-05-27T03:09:31Z	2017-05-30T20:54:56Z	2017-05-30T20:54:56Z	test: cleanup after test-fs-watchfile.js	40		
 13252	718899	true	closed	false	5		2017-05-27T03:51:04Z	2017-07-17T17:17:14Z	2017-05-30T21:12:37Z	test: fix flaky test-fs-watchfile on macOS	74		
 13253	432351	true	closed	false	3		2017-05-27T04:10:34Z	2017-05-29T16:58:31Z	2017-05-29T16:58:31Z	test: hasCrypto https-server-keep-alive-timeout	64		
-13254	505333	false	open	false	15		2017-05-27T11:51:28Z	2017-07-28T07:51:56Z		Integrate C++ AsyncHooks Embedder API with native abstraction	279		
+13254	505333	false	open	false	16		2017-05-27T11:51:28Z	2017-07-28T08:16:35Z		Integrate C++ AsyncHooks Embedder API with native abstraction	279		
 13255	413206	false	closed	false	6		2017-05-27T14:49:34Z	2017-06-27T21:32:15Z	2017-06-27T21:32:15Z	utimes precision errors	142		
 13256	899444	true	closed	false	17		2017-05-27T18:49:22Z	2017-05-31T22:47:37Z	2017-05-31T22:47:37Z	"Revert ""lib: lazy instantiation of fs.Stats dates"""	34		
 13257	96947	true	closed	false	2		2017-05-27T20:15:29Z	2017-05-31T23:09:59Z	2017-05-31T23:09:59Z	fs: expose Stats times as Numbers	73		
@@ -7378,7 +7378,7 @@
 13867	10615883	false	open	false	2		2017-06-22T07:22:28Z	2017-06-22T14:24:46Z		inspect binds only to loopback interface	117		
 13868	6794482	false	closed	false	5		2017-06-22T08:25:37Z	2017-06-28T01:22:24Z	2017-06-28T01:22:24Z	fs.writeFile callback has no error when writing file failed	65		
 13869	3109072	true	closed	false	0		2017-06-22T08:46:56Z	2017-06-28T12:23:47Z	2017-06-28T12:23:47Z	doc: unify ERR_FALSY_VALUE_REJECTION description	25		
-13870	1140553	true	open	false	28		2017-06-22T09:48:09Z	2017-07-27T10:34:39Z		Report async tasks to V8 Inspector	303		
+13870	1140553	true	open	false	29		2017-06-22T09:48:09Z	2017-07-28T08:13:13Z		Report async tasks to V8 Inspector	303		
 13871	3109072	true	closed	false	3		2017-06-22T11:49:49Z	2017-07-10T11:12:25Z	2017-07-10T11:12:25Z	(v6.x backport) os,vm: fix segfaults and CHECK failure	73		
 13872	976081	true	open	false	15		2017-06-22T11:52:11Z	2017-07-12T16:02:51Z		N-API: Implement stricter wrapping	195		
 13873	17535	true	closed	false	26		2017-06-22T12:25:40Z	2017-07-21T21:52:28Z	2017-07-21T21:52:28Z	process: allow modification of process.argv0	206		
@@ -7998,7 +7998,7 @@
 14487	11638619	false	open	false	8		2017-07-25T21:17:57Z	2017-07-26T19:02:06Z		util.inspect is slow for large sparse arrays	65		
 14488	718899	true	open	false	0		2017-07-25T21:24:37Z	2017-07-26T02:20:34Z		test: add known-issue test for issue 14441	35		
 14489	1538624	true	open	false	0		2017-07-26T01:08:29Z	2017-07-27T17:39:38Z		Fix building without ICU	43		
-14490	1538624	false	open	false	0		2017-07-26T01:24:32Z	2017-07-26T08:08:39Z		C++ linter is not run on src/*/*	93		
+14490	1538624	false	open	false	2		2017-07-26T01:24:32Z	2017-07-28T08:55:17Z		C++ linter is not run on src/*/*	93		
 14491	8822573	true	open	false	0		2017-07-26T02:04:09Z	2017-07-27T16:35:20Z		assert: fix deepEqual inconsistencies	78		
 14492	8822573	true	open	false	2		2017-07-26T04:25:59Z	2017-07-28T03:14:33Z		util: improve util.inspect performance	79		
 14493	241873	true	open	false	0		2017-07-26T05:26:27Z	2017-07-26T06:06:58Z		try to fix for #14022	23		
@@ -8024,7 +8024,7 @@
 14513	251382	false	open	false	0		2017-07-27T15:21:15Z	2017-07-27T15:21:15Z		make check should not fail for release tarballs	102		
 14514	275871	true	open	false	0	0	2017-07-27T15:35:28Z	2017-07-27T15:35:28Z		src: replace assert with CHECK_LE in node_api.cc	4		
 14515	718899	true	open	false	0		2017-07-27T16:30:35Z	2017-07-27T21:00:20Z		tools: remove legacy indentation linting	39		
-14516	4154393	false	open	false	0		2017-07-27T16:58:24Z	2017-07-27T16:58:24Z		Issue using super in arrow function with block body in async class function	158		
+14516	4154393	false	open	false	0		2017-07-27T16:58:24Z	2017-07-28T08:22:57Z		Issue using super in arrow function with block body in async class function	158		
 14517	1571966	false	open	false	0		2017-07-27T17:13:19Z	2017-07-27T18:12:25Z		try/catch and callbacks in user-space act differently than with built-ins	297		
 14518	899444	true	open	false			2017-07-27T17:38:29Z	2017-07-28T03:06:57Z		dns: enable managing independent channels in JS	52		
 14519	3109072	false	open	false	0		2017-07-27T19:30:15Z	2017-07-27T19:30:15Z		Internal domain function can be used to cause segfaults	147		
