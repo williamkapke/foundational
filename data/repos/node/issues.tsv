@@ -648,7 +648,7 @@
 6667	2655300	false	closed	false	0		2016-05-10T04:58:37Z	2017-02-07T23:23:43Z	2016-05-10T05:13:08Z	hostname resets to default. 	83		
 6668	292365	false	closed	false	11		2016-05-10T07:09:45Z	2017-05-30T04:52:45Z	2017-05-30T04:52:45Z	Maximum call stack size exceeded for --no-bin-links option when using npm	103		
 6670	613846	true	closed	false	37		2016-05-10T08:30:29Z	2016-09-30T18:14:14Z	2016-08-09T10:58:36Z	module: fix wrong condition in early return logic for node_module path	428		
-6673	298721	false	closed	false	39		2016-05-10T13:59:35Z	2017-07-28T08:24:54Z	2016-05-12T09:58:58Z	Memory leaks in loops with Promise	199		
+6673	298721	false	closed	false	42		2016-05-10T13:59:35Z	2017-07-28T11:43:34Z	2016-05-12T09:58:58Z	Memory leaks in loops with Promise	199		
 6675	1625870	true	closed	false	12		2016-05-10T15:22:04Z	2016-07-05T14:14:33Z	2016-05-27T10:08:00Z	test,win: skip addons/load-long-path on WOW64	63		
 6677	3899684	false	closed	false	10		2016-05-10T17:46:59Z	2017-07-07T23:00:00Z	2017-07-07T23:00:00Z	discuss: have glob function is `fs` or `path` API	83		
 6679	367936	false	closed	false	19		2016-05-10T18:55:54Z	2016-08-09T10:58:23Z	2016-08-09T10:58:23Z	require has issues when run from /	264		
@@ -1961,7 +1961,7 @@
 8440	720065	false	closed	false	22		2016-09-08T08:29:41Z	2016-09-17T08:53:55Z	2016-09-17T08:53:55Z	Buffer.from not support SharedArrayBuffer	133		
 8441	1014367	false	closed	false	9		2016-09-08T09:00:13Z	2017-01-07T14:47:03Z	2016-09-22T07:56:42Z	"Error with let: ""Identifier '*' has already been declared"" on REPL"	118		
 8442	731722	false	closed	false	8		2016-09-08T09:18:05Z	2017-04-30T13:39:32Z	2017-04-30T13:39:32Z	How do I implement `MyObject.inspect(depth, inspectOpts)`?	107		
-8443	6477435	false	closed	false	16		2016-09-08T10:46:46Z	2017-07-28T10:32:03Z	2017-07-15T07:59:34Z	Hotpatching modules leaks memory	164		
+8443	6477435	false	closed	false	17		2016-09-08T10:46:46Z	2017-07-28T11:02:09Z	2017-07-15T07:59:34Z	Hotpatching modules leaks memory	164		
 8444	158641	false	closed	false	0		2016-09-08T13:49:07Z	2016-09-20T16:56:12Z	2016-09-20T16:56:12Z	path.relative method returns wrong path when UNC path is provided	54		
 8445	79017	true	closed	false	9	0	2016-09-08T16:48:42Z	2016-09-13T23:28:54Z	2016-09-13T23:28:53Z	deps: add back no-op harmony shipping flags	91	79017	2016-09-13T23:28:53Z
 8446	22082115	false	open	false	0		2016-09-08T17:39:38Z	2017-05-27T22:43:17Z		http.ServerResponse.writeHead() can be called multiple times for a single response	160		
@@ -7378,7 +7378,7 @@
 13867	10615883	false	open	false	2		2017-06-22T07:22:28Z	2017-06-22T14:24:46Z		inspect binds only to loopback interface	117		
 13868	6794482	false	closed	false	5		2017-06-22T08:25:37Z	2017-06-28T01:22:24Z	2017-06-28T01:22:24Z	fs.writeFile callback has no error when writing file failed	65		
 13869	3109072	true	closed	false	0		2017-06-22T08:46:56Z	2017-06-28T12:23:47Z	2017-06-28T12:23:47Z	doc: unify ERR_FALSY_VALUE_REJECTION description	25		
-13870	1140553	true	open	false			2017-06-22T09:48:09Z	2017-07-28T10:20:17Z		Report async tasks to V8 Inspector	303		
+13870	1140553	true	open	false	30		2017-06-22T09:48:09Z	2017-07-28T11:53:14Z		Report async tasks to V8 Inspector	303		
 13871	3109072	true	closed	false	3		2017-06-22T11:49:49Z	2017-07-10T11:12:25Z	2017-07-10T11:12:25Z	(v6.x backport) os,vm: fix segfaults and CHECK failure	73		
 13872	976081	true	open	false	15		2017-06-22T11:52:11Z	2017-07-12T16:02:51Z		N-API: Implement stricter wrapping	195		
 13873	17535	true	closed	false	26		2017-06-22T12:25:40Z	2017-07-21T21:52:28Z	2017-07-21T21:52:28Z	process: allow modification of process.argv0	206		
@@ -8018,7 +8018,7 @@
 14507	718899	false	open	false	0		2017-07-26T22:42:02Z	2017-07-26T22:42:02Z		investigate flaky test-inspector-stop-profile-after-done on Windows	80		
 14508	718899	true	open	false	2		2017-07-27T05:42:51Z	2017-07-27T17:10:30Z		test: improve error logging for inspector test	53		
 14509	3927355	false	open	false	3		2017-07-27T07:21:27Z	2017-07-27T09:06:31Z		A fatal error of wasm with my own built node with v8 6.1.0	136		
-14510	26118718	true	open	false	4		2017-07-27T12:30:10Z	2017-07-27T21:06:11Z		"deps,profiler: parse Windows' ""%p"" in processor"	232		
+14510	26118718	true	open	false	7		2017-07-27T12:30:10Z	2017-07-28T12:01:13Z		"deps,profiler: parse Windows' ""%p"" in processor"	232		
 14511	793982	true	open	false	0	0	2017-07-27T13:44:58Z	2017-07-27T13:44:58Z		test: set module loading error for aix	64		
 14512	8695033	false	open	false	0		2017-07-27T14:24:48Z	2017-07-27T14:24:48Z		error lineNumber and fileName	19		
 14513	251382	false	open	false	0		2017-07-27T15:21:15Z	2017-07-27T15:21:15Z		make check should not fail for release tarballs	102		
@@ -8035,3 +8035,4 @@
 14524	10393198	true	closed	false	2	0	2017-07-27T23:34:37Z	2017-07-28T00:31:23Z	2017-07-28T00:31:23Z	[v8.x backport] doc, lib, test: do not re-require needlessly	46		
 14525	3109072	true	closed	false	2		2017-07-27T23:35:35Z	2017-07-28T01:28:08Z	2017-07-28T00:31:18Z	[v8.x backport] repl: improve require() autocompletion	7		
 14526	5252756	true	open	false	0		2017-07-28T01:57:02Z	2017-07-28T03:02:22Z		benchmark: remove unused parameters	38		
+14527	899444	true	open	false	0	0	2017-07-28T11:54:49Z	2017-07-28T11:54:50Z		zlib: fix interaction of flushing and needDrain	47		
