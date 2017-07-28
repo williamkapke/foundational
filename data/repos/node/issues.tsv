@@ -72,7 +72,7 @@
 1765	900690	false	closed	false	9		2015-05-22T09:03:01Z	2016-07-06T06:54:28Z	2016-07-06T06:54:28Z	Windows: fs.realpathSync() adds trailing slash for windows share	68		
 1788	1309053	false	closed	false	32		2015-05-24T23:32:23Z	2017-07-20T06:55:31Z	2017-05-30T04:12:45Z	Debug process didn't close after finish debugging	74		
 1802	744035	false	closed	false	12		2015-05-26T21:22:12Z	2017-05-01T19:37:45Z	2017-05-01T19:37:45Z	url: parse() fails if auth contain a colon or ampersand	163		
-1826	617481	false	open	false	15		2015-05-28T18:31:59Z	2017-07-07T03:35:17Z		Accept ArrayBuffer (and typed array/data view?) anywhere Buffer is allowed in the API	88		
+1826	617481	false	open	false	16		2015-05-28T18:31:59Z	2017-07-28T21:50:34Z		Accept ArrayBuffer (and typed array/data view?) anywhere Buffer is allowed in the API	88		
 1834	275871	false	closed	false	14		2015-05-29T12:01:45Z	2017-07-17T09:07:50Z	2017-07-17T08:26:41Z	fs / streams: file descriptor leak on connection abort	142		
 1843	54666	true	closed	false	71		2015-05-30T08:25:30Z	2016-08-06T07:34:31Z	2016-08-06T07:34:31Z	dns: add new DNS resolver and set it as default	22		
 1860	407189	false	closed	false	21		2015-06-01T10:39:15Z	2016-11-26T02:26:04Z	2016-11-09T01:55:33Z	Plans on incorporating BoringSSL	115		
@@ -1961,7 +1961,7 @@
 8440	720065	false	closed	false	22		2016-09-08T08:29:41Z	2016-09-17T08:53:55Z	2016-09-17T08:53:55Z	Buffer.from not support SharedArrayBuffer	133		
 8441	1014367	false	closed	false	9		2016-09-08T09:00:13Z	2017-01-07T14:47:03Z	2016-09-22T07:56:42Z	"Error with let: ""Identifier '*' has already been declared"" on REPL"	118		
 8442	731722	false	closed	false	8		2016-09-08T09:18:05Z	2017-04-30T13:39:32Z	2017-04-30T13:39:32Z	How do I implement `MyObject.inspect(depth, inspectOpts)`?	107		
-8443	6477435	false	closed	false	20		2016-09-08T10:46:46Z	2017-07-28T16:16:58Z	2017-07-15T07:59:34Z	Hotpatching modules leaks memory	164		
+8443	6477435	false	closed	false	21		2016-09-08T10:46:46Z	2017-07-28T21:40:54Z	2017-07-15T07:59:34Z	Hotpatching modules leaks memory	164		
 8444	158641	false	closed	false	0		2016-09-08T13:49:07Z	2016-09-20T16:56:12Z	2016-09-20T16:56:12Z	path.relative method returns wrong path when UNC path is provided	54		
 8445	79017	true	closed	false	9	0	2016-09-08T16:48:42Z	2016-09-13T23:28:54Z	2016-09-13T23:28:53Z	deps: add back no-op harmony shipping flags	91	79017	2016-09-13T23:28:53Z
 8446	22082115	false	open	false	0		2016-09-08T17:39:38Z	2017-05-27T22:43:17Z		http.ServerResponse.writeHead() can be called multiple times for a single response	160		
@@ -7999,7 +7999,7 @@
 14488	718899	true	open	false	0		2017-07-25T21:24:37Z	2017-07-26T02:20:34Z		test: add known-issue test for issue 14441	35		
 14489	1538624	true	open	false	0		2017-07-26T01:08:29Z	2017-07-27T17:39:38Z		Fix building without ICU	43		
 14490	1538624	false	open	false	3		2017-07-26T01:24:32Z	2017-07-28T09:09:10Z		C++ linter is not run on src/*/*	93		
-14491	8822573	true	open	false	0		2017-07-26T02:04:09Z	2017-07-27T16:35:20Z		assert: fix deepEqual inconsistencies	78		
+14491	8822573	true	open	false	2		2017-07-26T02:04:09Z	2017-07-28T21:22:07Z		assert: fix deepEqual inconsistencies	78		
 14492	8822573	true	open	false	3		2017-07-26T04:25:59Z	2017-07-28T13:35:41Z		util: improve util.inspect performance	79		
 14493	241873	true	open	false	0		2017-07-26T05:26:27Z	2017-07-26T06:06:58Z		try to fix for #14022	23		
 14494	241873	true	closed	false	6	3	2017-07-26T06:30:26Z	2017-07-26T15:14:16Z	2017-07-26T15:14:16Z	lib: repl for #14022 && readline fix debug warning	23		
@@ -8039,4 +8039,5 @@
 14528	250480	false	open	false	4		2017-07-28T12:57:06Z	2017-07-28T17:47:44Z		Sudden performance drop after multiple executions	284		
 14530	2799308	false	open	false	0		2017-07-28T16:29:08Z	2017-07-28T17:07:58Z		stream.unpipe cannot be chained	96		
 14531	498775	true	open	false	4		2017-07-28T17:24:19Z	2017-07-28T20:24:15Z		test: remove --no-crankshaft	23		
-14532	158390	false	open	false	0		2017-07-28T17:56:07Z	2017-07-28T17:56:07Z		Criteria for n-api to exit experimental status	101		
+14532	158390	false	open	false	1		2017-07-28T17:56:07Z	2017-07-28T21:32:58Z		Criteria for n-api to exit experimental status	101		
+14533	14098340	true	open	false	0	0	2017-07-28T21:53:19Z	2017-07-28T21:53:19Z		build: fix build break when omitting icu	45		
