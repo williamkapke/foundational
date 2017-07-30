@@ -59,7 +59,7 @@
 1592	617235	false	closed	false	206		2015-05-02T19:25:40Z	2016-10-05T19:11:59Z	2016-10-05T19:11:59Z	gripe: deprecating fs.exists/existsSync	202		
 1634	495647	false	closed	false	10		2015-05-06T04:07:08Z	2017-07-09T03:37:29Z	2017-07-09T03:37:29Z	Race condition on history file with multiple REPLs	57		
 1644	97469	false	closed	false	14		2015-05-06T19:40:05Z	2017-05-21T13:54:17Z	2017-05-21T13:54:17Z	`dns.resolve` fails when the io/node process starts without an active network connection	113		
-1671	291301	false	open	false	53		2015-05-11T05:25:09Z	2017-07-30T17:12:25Z		`Buffer` and `ArrayBuffer`-based objects trigger mark-sweeps instead of scavenges	68		
+1671	291301	false	open	false	54		2015-05-11T05:25:09Z	2017-07-30T19:46:42Z		`Buffer` and `ArrayBuffer`-based objects trigger mark-sweeps instead of scavenges	68		
 1684	291301	false	open	false	8		2015-05-12T14:14:52Z	2017-07-09T03:41:10Z		Put a warning against misusing `*Sync` methods to the API docs.	100		
 1690	10612009	false	closed	false	7		2015-05-13T08:56:13Z	2016-07-07T20:40:26Z	2016-07-07T20:40:26Z	[dgram]no udp multicast message received when binding on a specific address	278		
 1692	10612009	false	closed	false	3		2015-05-13T10:29:17Z	2016-07-10T15:58:44Z	2016-07-10T15:58:44Z	[dgram]socket.addMembership() does not add membership to every interface	179		
@@ -5429,7 +5429,7 @@
 11915	115237	false	open	false	2		2017-03-18T16:01:41Z	2017-04-06T18:30:23Z		Document tls.Server#listen(path, callback) and possible other signatures	25		
 11916	20017097	true	closed	false	9		2017-03-18T17:26:49Z	2017-05-10T22:56:36Z	2017-03-22T05:57:17Z	build: don't create a new directory for android toolchain	78		
 11917	1538624	true	closed	false	9		2017-03-18T17:59:46Z	2017-04-10T17:54:14Z	2017-03-30T05:20:37Z	src, url: WHATWG URL C++ parser cleanup	37		
-11918	886059	false	open	false	6		2017-03-18T20:43:02Z	2017-07-30T17:16:52Z		`Socket.write` does not reliably fire callback with error.	634		
+11918	886059	false	open	false	7		2017-03-18T20:43:02Z	2017-07-30T19:21:49Z		`Socket.write` does not reliably fire callback with error.	634		
 11919	332968	true	closed	false	5		2017-03-18T20:57:28Z	2017-03-22T05:42:19Z	2017-03-22T05:42:19Z	fs: (+/-)Infinity and NaN invalid unixtimestamp	75		
 11920	569527	true	closed	false	12		2017-03-18T22:47:17Z	2017-07-30T04:10:39Z	2017-07-30T04:10:39Z	Fix 11826	26		
 11921	718899	true	open	false	10		2017-03-19T03:04:37Z	2017-03-19T22:13:03Z		test: fix flaky test-tls-socket-close	37		
@@ -6464,7 +6464,7 @@
 12952	1665373	false	closed	false	6		2017-05-10T19:49:10Z	2017-05-25T16:43:27Z	2017-05-25T16:43:27Z	OpenSSL have collisions in node.dll	36		
 12953	192891	true	closed	false			2017-05-10T21:17:36Z	2017-06-01T22:02:43Z	2017-05-30T19:35:34Z	docs: documenting async hooks features	70		
 12954	298166	true	closed	false	7	0	2017-05-10T21:51:42Z	2017-05-12T20:47:48Z	2017-05-12T20:47:48Z	test: fix wording for presence of headers	49		
-12955	8503065	false	closed	false	5		2017-05-11T01:12:23Z	2017-05-12T14:20:52Z	2017-05-12T14:20:52Z	when will Node.js' Webassembly API be synchronized with the browser?	39		
+12955	8503065	false	closed	false	6		2017-05-11T01:12:23Z	2017-07-30T19:11:15Z	2017-05-12T14:20:52Z	when will Node.js' Webassembly API be synchronized with the browser?	39		
 12956	127971	false	open	false	13		2017-05-11T01:29:04Z	2017-05-11T18:29:40Z		Don't use userobject.call/userobject.apply	58		
 12957	495647	true	closed	false	3		2017-05-11T02:20:34Z	2017-05-23T18:37:54Z	2017-05-23T18:37:54Z	build: avoid /docs/api and /docs/doc/api upload	99		
 12958	495647	true	open	false	2		2017-05-11T02:37:06Z	2017-06-09T04:32:04Z		build: only require docs 'Added' fixes for release	66		
@@ -7006,7 +7006,7 @@
 13494	24447838	true	closed	false	3		2017-06-06T11:12:23Z	2017-06-06T15:55:07Z	2017-06-06T11:16:28Z	"events: line #354 - comment typo. ""iff"" corrected'"	67		
 13495	15086753	false	open	false	0		2017-06-06T11:27:13Z	2017-06-06T11:27:13Z		Promise doenst return value and got undefined	211		
 13496	24447838	true	open	false	12		2017-06-06T11:39:07Z	2017-06-06T18:05:40Z		"events: - line #354 - comment typo. ""iff"" corrected"	41		
-13497	3364650	true	open	false	11		2017-06-06T14:34:13Z	2017-07-30T17:55:10Z		readline: remove max limit of crlfDelay	207		
+13497	3364650	true	open	false			2017-06-06T14:34:13Z	2017-07-30T19:26:39Z		readline: remove max limit of crlfDelay	207		
 13498	9373002	false	open	false	2		2017-06-06T15:49:15Z	2017-07-14T16:04:25Z		parallel/test-npm-install failure on ARM - Intermittent ? 	34		
 13499	96947	false	closed	false	5		2017-06-06T16:25:30Z	2017-06-09T16:13:10Z	2017-06-09T16:13:10Z	inspector-port=0 edge case crash	30		
 13500	623481	false	open	false	0		2017-06-06T16:52:40Z	2017-06-06T16:52:40Z		--enable-static fails due to multiple definition	108		
@@ -8007,7 +8007,7 @@
 14496	2842176	false	open	false	14		2017-07-26T07:12:13Z	2017-07-27T12:28:07Z		Question about code style: arrow function V.S. callback function	183		
 14497	2253649	true	open	false	1		2017-07-26T09:41:07Z	2017-07-27T14:48:27Z		 Adding CPPLinting paths src/tracing/ also to make file	16		
 14498	1415488	false	closed	false	1		2017-07-26T10:21:06Z	2017-07-26T11:18:44Z	2017-07-26T11:18:44Z	Concurrent server.listen(0) will hang up incoming request	157		
-14499	15943089	true	open	false	2		2017-07-26T11:06:34Z	2017-07-27T15:59:50Z		build: move FreeBSD to experimental	212		
+14499	15943089	true	open	false	3		2017-07-26T11:06:34Z	2017-07-30T19:31:34Z		build: move FreeBSD to experimental	212		
 14500	681239	true	open	false	0		2017-07-26T12:03:14Z	2017-07-26T17:05:04Z		test/dgram: Add support for IPv6 link local scope IDs in received UDP datagrams	144		
 14501	8822573	true	open	false	0		2017-07-26T13:50:53Z	2017-07-27T17:25:21Z		assert: improve deep equal map	224		
 14502	11780786	true	closed	false	0		2017-07-26T14:53:01Z	2017-07-30T11:08:36Z	2017-07-30T11:08:36Z	doc: fix minor typos in net.md	30		
@@ -8042,7 +8042,7 @@
 14531	498775	true	closed	false	6		2017-07-28T17:24:19Z	2017-07-29T02:30:05Z	2017-07-28T20:25:01Z	test: remove --no-crankshaft	23		
 14532	158390	false	open	false	4		2017-07-28T17:56:07Z	2017-07-29T08:49:09Z		Criteria for n-api to exit experimental status	127		
 14533	14098340	true	open	false	2		2017-07-28T21:53:19Z	2017-07-29T05:56:13Z		build: fix build break when omitting icu	45		
-14534	718899	true	open	false	1		2017-07-29T04:35:53Z	2017-07-30T16:59:36Z		refactor test/sequential/test-fs-watch.js	52		
+14534	718899	true	open	false			2017-07-29T04:35:53Z	2017-07-30T19:12:35Z		refactor test/sequential/test-fs-watch.js	52		
 14535	1453344	false	open	false	9		2017-07-29T09:15:13Z	2017-07-30T10:02:31Z		Node 8.2 in Windows Container dns.lookup to kube-dns for CNAME fails during 15min	296		
 14536	718899	true	open	false	0		2017-07-29T16:07:07Z	2017-07-29T22:09:32Z		test: refactor test-vm-new-script-new-context	46		
 14537	291301	false	open	false	0		2017-07-29T16:38:09Z	2017-07-29T16:38:09Z		Distrust Symantec root certs in 10.0/11.0	320		
