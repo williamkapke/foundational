@@ -1,10 +1,10 @@
 {
-  "words": 11139,
-  "comments": 147,
+  "words": 11792,
+  "comments": 154,
   "prs": {
-    "opened": 13,
+    "opened": 15,
     "closed": 31,
-    "words": 11135,
+    "words": 11788,
     "reopened": null
   },
   "issues": {
@@ -58,7 +58,12 @@
     "education": {"open":12},
     "email": {"open":4},
     "evangelism": {"open":29},
-    "ffi": {"open":1},
+    "ffi": {
+      "1": {"comments":1,"words":59,"pr":true},
+      "open": 1,
+      "words": 59,
+      "comments": 1
+    },
     "foundation-slides": {"open":4},
     "foundation.nodejs.org": {"open":5},
     "github-bot": {"open":25},
@@ -69,10 +74,10 @@
       "760": {"comments":3,"words":147,"pr":true,"closed":"","closer":"3109072"},
       "761": {"comments":5,"words":198,"pr":true},
       "762": {"comments":0,"words":275,"opened":"2017-07-30T14:45:23Z","opener":"14809105","pr":true},
-      "763": {"comments":0,"words":90,"opened":"2017-07-30T19:31:11Z","opener":"11139560","pr":true},
+      "763": {"comments":1,"words":145,"opened":"2017-07-30T19:31:11Z","opener":"11139560","pr":true},
       "open": 129,
-      "words": 1202,
-      "comments": 13,
+      "words": 1257,
+      "comments": 14,
       "opened": 2,
       "closed": 2
     },
@@ -100,7 +105,7 @@
       "comments": 1
     },
     "node": {
-      "1671": {"comments":2,"words":63,"pr":true},
+      "1671": {"comments":5,"words":464,"pr":true},
       "1873": {"comments":1,"words":21,"pr":true},
       "3891": {"comments":1,"words":121,"pr":true,"closed":"2017-07-30T05:25:15Z","closer":"718899"},
       "7146": {"comments":3,"words":443,"pr":true,"closed":"2017-07-30T18:03:44Z","closer":"718899"},
@@ -153,7 +158,7 @@
       "14473": {"comments":1,"words":3,"pr":true},
       "14478": {"comments":1,"words":38,"pr":true,"closed":"2017-07-30T11:14:07Z","closer":"1538624"},
       "14489": {"comments":2,"words":30,"pr":true},
-      "14499": {"comments":1,"words":60,"pr":true},
+      "14499": {"comments":2,"words":92,"pr":true},
       "14502": {"comments":1,"words":37,"pr":true,"closed":"2017-07-30T11:08:36Z","closer":"899444"},
       "14506": {"comments":1,"words":167,"pr":true,"closed":"2017-07-30T11:07:08Z","closer":"899444"},
       "14515": {"comments":1,"words":42,"pr":true,"closed":"2017-07-30T16:29:06Z","closer":"718899"},
@@ -167,10 +172,12 @@
       "14543": {"comments":0,"words":24,"pr":true,"opened":"2017-07-30T12:17:04Z","opener":"1538624"},
       "14544": {"comments":4,"words":75,"opened":"2017-07-30T16:59:47Z","opener":"96947","pr":true,"closed":"2017-07-30T17:00:53Z","closer":"718899","reopened":"2017-07-30T17:00:53Z","reopener":"96947"},
       "14545": {"comments":1,"words":120,"opened":"2017-07-30T18:02:16Z","opener":"718899","pr":true},
-      "open": 891,
-      "words": 8450,
-      "comments": 125,
-      "opened": 6,
+      "14546": {"comments":1,"words":51,"pr":true,"opened":"2017-07-30T20:47:20Z","opener":"8479806"},
+      "14547": {"comments":0,"words":55,"pr":true,"opened":"2017-07-30T20:52:39Z","opener":"718899"},
+      "open": 893,
+      "words": 8989,
+      "comments": 130,
+      "opened": 8,
       "closed": 29,
       "reopened": 2,
       "2791b360c11324f7c9ed83350f264c500ade4fe8": {"comments":1,"words":4,"pr":false}
@@ -309,7 +316,9 @@
         "node/pulls/14541#318916455": 3,
         "node/pulls/14447#318916735": 13,
         "help/pulls/761#318916933": 56,
-        "node/pulls/13497#130250637": 49
+        "node/pulls/13497#130250637": 49,
+        "ffi/pulls/1#318927170": 59,
+        "node/pulls/14499#318928428": 32
       },
       "opened": [
         "node/issues/14544"
@@ -380,7 +389,10 @@
       "id": "291301",
       "login": "ChALkeR",
       "words": {
-        "node/pulls/1873#318917771": 21
+        "node/pulls/1873#318917771": 21,
+        "node/pulls/1671#318927457": 79,
+        "node/pulls/1671#318928524": 4,
+        "node/pulls/1671#318929234": 318
       }
     },
     "379606": {
@@ -498,11 +510,14 @@
         "node/issues/14545": 34,
         "node/pulls/10292#318918560": 12,
         "node/pulls/10292#318918564": 1,
-        "node/pulls/7146#318918650": 25
+        "node/pulls/7146#318918650": 25,
+        "node/pulls/14547": 55,
+        "node/pulls/14546#318928890": 23
       },
       "opened": [
         "node/pulls/14541",
-        "node/issues/14545"
+        "node/issues/14545",
+        "node/pulls/14547"
       ],
       "closed": [
         "node/issues/11980",
@@ -755,6 +770,16 @@
         "node/issues/11156"
       ]
     },
+    "8479806": {
+      "id": "8479806",
+      "login": "alexbostock",
+      "words": {
+        "node/pulls/14546": 28
+      },
+      "opened": [
+        "node/pulls/14546"
+      ]
+    },
     "9291212": {
       "id": "9291212",
       "login": "XGHeaven",
@@ -787,7 +812,8 @@
         "help/pulls/761#318917256": 39,
         "help/pulls/760#318917709": 9,
         "help/issues/760": 95,
-        "help/issues/763": 90
+        "help/issues/763": 89,
+        "help/pulls/763#318925820": 56
       },
       "closed": [
         "help/issues/760"
