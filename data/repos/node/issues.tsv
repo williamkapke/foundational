@@ -1729,7 +1729,7 @@
 8208	1347002	false	closed	false	4		2016-08-21T13:48:21Z	2016-09-28T05:23:31Z	2016-08-23T22:20:58Z	--inspect: chrome-devtools - nullptr 	68		
 8209	718899	false	closed	false	0		2016-08-21T14:31:34Z	2016-08-22T22:22:44Z	2016-08-22T22:22:44Z	investigate flaky sequential/test-child-process-pass-fd on SmartoS	741		
 8210	8208733	false	closed	false	2		2016-08-21T17:36:00Z	2017-07-02T01:53:11Z	2016-08-21T19:02:20Z	Cross compiling NodeJS for MIPS V8 requirements	65		
-8211	926815	false	closed	false	10		2016-08-21T18:27:35Z	2017-07-30T05:16:06Z	2017-07-30T05:16:06Z	Fix or Mark apis in the documentation that cannot be try/catch/promised	155		
+8211	926815	false	closed	false	11		2016-08-21T18:27:35Z	2017-07-30T08:28:28Z	2017-07-30T05:16:06Z	Fix or Mark apis in the documentation that cannot be try/catch/promised	155		
 8212	1084056	true	closed	false	4		2016-08-21T19:06:41Z	2016-08-22T22:22:45Z	2016-08-22T22:22:45Z	test: fix flaky `test-child-process-pass-fd`	40		
 8213	1898870	false	closed	false	1		2016-08-21T20:22:13Z	2016-08-23T19:45:59Z	2016-08-23T19:45:59Z	url.resolveObject: conflicting values of host and port	79		
 8214	1898870	true	closed	false	4		2016-08-21T20:34:20Z	2016-09-30T20:33:30Z	2016-08-23T19:46:39Z	url: fix inconsistent port in url.resolveObject	87		
@@ -4819,7 +4819,7 @@
 11304	718899	true	closed	false	4	0	2017-02-10T22:14:21Z	2017-02-15T20:05:29Z	2017-02-15T20:05:29Z	assert: unlock the assert API	34		
 11305	439929	true	closed	false	5		2017-02-10T22:52:06Z	2017-02-15T19:34:42Z	2017-02-13T19:09:00Z	crypto: upgrade pbkdf2 without digest to an error	92		
 11306	4976075	true	open	false	3		2017-02-10T23:39:40Z	2017-03-03T01:52:41Z		deps: backport 2bd7464 from upstream V8	153		
-11307	914178	false	open	false	114		2017-02-11T01:09:42Z	2017-07-30T05:12:03Z		100% CPU + Sockets idling in CLOSE_WAIT state	331		
+11307	914178	false	closed	false	115		2017-02-11T01:09:42Z	2017-07-30T08:39:38Z	2017-07-30T08:39:38Z	100% CPU + Sockets idling in CLOSE_WAIT state	331		
 11308	11801881	true	closed	false	2		2017-02-11T02:05:15Z	2017-06-07T16:42:18Z	2017-06-07T16:42:18Z	errors, console: migrate to use internal/errors.js	49		
 11309	718899	true	closed	false	2		2017-02-11T07:27:51Z	2017-03-07T18:08:27Z	2017-02-13T16:16:50Z	test: refactor test-repl-sigint	44		
 11310	696611	true	closed	false	2		2017-02-11T08:15:44Z	2017-02-11T14:47:52Z	2017-02-11T14:47:52Z	update licenses and remove v8_inspector deps license	45		
@@ -5008,7 +5008,7 @@
 11493	7315383	false	open	false	3		2017-02-22T05:41:37Z	2017-02-22T15:27:47Z		Node 7.6.0 ARMv6 binary missing	14		
 11494	2006839	true	closed	false	4		2017-02-22T06:43:02Z	2017-02-24T17:29:07Z	2017-02-24T17:29:07Z	doc: note message event listeners ref IPC channels	21		
 11495	379606	true	closed	false	1	3	2017-02-22T07:36:36Z	2017-02-27T22:00:48Z	2017-02-27T22:00:48Z	doc: update V8 debugger doc to mention --inspect-brk	58		
-11496	379606	false	open	false	7		2017-02-22T07:50:06Z	2017-07-30T03:14:28Z		proposal: programmatically expose the V8 inspector URL	81		
+11496	379606	false	closed	false	9		2017-02-22T07:50:06Z	2017-07-30T08:06:52Z	2017-07-30T08:06:52Z	proposal: programmatically expose the V8 inspector URL	81		
 11497	54666	true	closed	false	1		2017-02-22T08:15:18Z	2017-03-07T05:07:04Z	2017-02-24T01:41:27Z	process: improve memoryUsage() performance	85		
 11498	569527	true	open	false			2017-02-22T09:01:58Z	2017-02-28T23:25:37Z		test: add regex to assert in test_cyclic_link_protection	32		
 11499	5807322	false	closed	false	12		2017-02-22T09:21:24Z	2017-02-24T00:25:47Z	2017-02-22T13:59:58Z	SHA256 checksums do not match	46		
@@ -5463,7 +5463,7 @@
 11949	10393198	true	closed	false	3		2017-03-20T22:51:43Z	2017-03-22T18:02:44Z	2017-03-22T16:18:18Z	doc: correct info in child_process.md	119		
 11950	170023	true	closed	false	3		2017-03-20T23:01:37Z	2017-04-18T20:04:15Z	2017-03-22T16:04:36Z	readline: rename `deDupeHistory` option	90		
 11951	10032588	false	open	false	0		2017-03-20T23:58:14Z	2017-03-21T00:07:23Z		Riot's renderer process crashes when taking a heap snapshot	228		
-11952	1538624	true	open	false	4		2017-03-21T00:53:02Z	2017-07-30T05:05:42Z		[DO NOT LAND] src: invalidate Utf8/TwoByteValue upon error	126		
+11952	1538624	true	closed	false	6	6	2017-03-21T00:53:02Z	2017-07-30T08:02:59Z	2017-07-30T08:02:59Z	[DO NOT LAND] src: invalidate Utf8/TwoByteValue upon error	126		
 11953	10393198	true	closed	false	18		2017-03-21T01:06:58Z	2017-04-18T23:12:20Z	2017-03-23T03:56:58Z	test: do not use `more` command on Windows	44		
 11954	374012	false	closed	false	0		2017-03-21T04:43:25Z	2017-03-27T00:09:11Z	2017-03-27T00:09:11Z	Buffer::Length hard crashes	106		
 11955	14886044	false	open	false	0		2017-03-21T05:27:32Z	2017-03-21T05:27:32Z		createWriteStream and createReadStream  not working properly with Socket	85		
