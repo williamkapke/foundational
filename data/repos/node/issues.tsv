@@ -59,7 +59,7 @@
 1592	617235	false	closed	false	206		2015-05-02T19:25:40Z	2016-10-05T19:11:59Z	2016-10-05T19:11:59Z	gripe: deprecating fs.exists/existsSync	202		
 1634	495647	false	closed	false	10		2015-05-06T04:07:08Z	2017-07-09T03:37:29Z	2017-07-09T03:37:29Z	Race condition on history file with multiple REPLs	57		
 1644	97469	false	closed	false	14		2015-05-06T19:40:05Z	2017-05-21T13:54:17Z	2017-05-21T13:54:17Z	`dns.resolve` fails when the io/node process starts without an active network connection	113		
-1671	291301	false	open	false	55		2015-05-11T05:25:09Z	2017-07-30T20:29:57Z		`Buffer` and `ArrayBuffer`-based objects trigger mark-sweeps instead of scavenges	68		
+1671	291301	false	open	false	56		2015-05-11T05:25:09Z	2017-07-30T22:32:42Z		`Buffer` and `ArrayBuffer`-based objects trigger mark-sweeps instead of scavenges	68		
 1684	291301	false	open	false	8		2015-05-12T14:14:52Z	2017-07-09T03:41:10Z		Put a warning against misusing `*Sync` methods to the API docs.	100		
 1690	10612009	false	closed	false	7		2015-05-13T08:56:13Z	2016-07-07T20:40:26Z	2016-07-07T20:40:26Z	[dgram]no udp multicast message received when binding on a specific address	278		
 1692	10612009	false	closed	false	3		2015-05-13T10:29:17Z	2016-07-10T15:58:44Z	2016-07-10T15:58:44Z	[dgram]socket.addMembership() does not add membership to every interface	179		
@@ -6763,7 +6763,7 @@
 13251	96947	true	closed	false	9		2017-05-27T03:09:31Z	2017-05-30T20:54:56Z	2017-05-30T20:54:56Z	test: cleanup after test-fs-watchfile.js	40		
 13252	718899	true	closed	false	5		2017-05-27T03:51:04Z	2017-07-17T17:17:14Z	2017-05-30T21:12:37Z	test: fix flaky test-fs-watchfile on macOS	74		
 13253	432351	true	closed	false	3		2017-05-27T04:10:34Z	2017-05-29T16:58:31Z	2017-05-29T16:58:31Z	test: hasCrypto https-server-keep-alive-timeout	64		
-13254	505333	false	open	false	17		2017-05-27T11:51:28Z	2017-07-28T20:21:57Z		Integrate C++ AsyncHooks Embedder API with native abstraction	279		
+13254	505333	false	open	false	18		2017-05-27T11:51:28Z	2017-07-30T22:58:31Z		Integrate C++ AsyncHooks Embedder API with native abstraction	279		
 13255	413206	false	closed	false	6		2017-05-27T14:49:34Z	2017-06-27T21:32:15Z	2017-06-27T21:32:15Z	utimes precision errors	142		
 13256	899444	true	closed	false	17		2017-05-27T18:49:22Z	2017-05-31T22:47:37Z	2017-05-31T22:47:37Z	"Revert ""lib: lazy instantiation of fs.Stats dates"""	34		
 13257	96947	true	closed	false	2		2017-05-27T20:15:29Z	2017-05-31T23:09:59Z	2017-05-31T23:09:59Z	fs: expose Stats times as Numbers	73		
@@ -8054,5 +8054,6 @@
 14543	1538624	true	open	false	0	0	2017-07-30T12:17:04Z	2017-07-30T12:17:04Z		doc, url: add changelog metadata for url.format	24		
 14544	96947	false	closed	false	0		2017-07-30T16:59:47Z	2017-07-30T17:00:53Z	2017-07-30T17:00:53Z	test: good-second-contribution — tracking tests that need some more 💘	16		
 14545	718899	false	open	false	0		2017-07-30T18:02:16Z	2017-07-30T18:02:16Z		console,util: implement %o as formatting specifier	34		
-14546	8479806	true	open	false	0	0	2017-07-30T20:47:20Z	2017-07-30T20:47:20Z		linkedlist: correct grammar in comments	28		
+14546	8479806	true	open	false	1		2017-07-30T20:47:20Z	2017-07-30T22:16:13Z		linkedlist: correct grammar in comments	28		
 14547	718899	true	open	false	0	0	2017-07-30T20:52:39Z	2017-07-30T20:52:39Z		tools: replace assert-throw-arguments custom lint	55		
+14548	3109072	true	open	false	0	0	2017-07-30T23:00:08Z	2017-07-30T23:00:08Z		crypto: change segmentation faults to CHECKs	54		
