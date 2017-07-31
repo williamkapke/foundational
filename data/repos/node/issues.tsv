@@ -113,7 +113,7 @@
 2383	1010430	false	open	false	14		2015-08-14T23:17:12Z	2017-07-07T23:24:16Z		crypto: API changes needed for AES Counter with CBC-MAC (CCM) support	362		
 2385	439929	false	open	false	7		2015-08-15T16:24:22Z	2017-05-19T23:47:12Z		assert: inconsistency in assert.doesNotThrow	121		
 2395	439929	true	closed	false	11	0	2015-08-16T00:23:48Z	2016-08-02T04:18:14Z	2016-08-02T04:18:14Z	http: correct fencepost error when freeing socket	60		
-2398	439929	false	open	false	62		2015-08-16T01:20:43Z	2017-07-31T09:38:22Z		DTLS Discussion	54		
+2398	439929	false	open	false	63		2015-08-16T01:20:43Z	2017-07-31T10:44:48Z		DTLS Discussion	54		
 2407	355800	true	closed	false			2015-08-17T04:01:53Z	2016-09-27T21:34:56Z	2016-04-18T23:52:16Z	assert: respect assert.doesNotThrow message.	32		
 2443	2244675	false	closed	false	8		2015-08-19T14:39:09Z	2016-10-13T11:35:17Z	2016-10-13T11:35:17Z	Incorrect module path resolving with NODE_PATH in Windows	44		
 2465	42354	false	closed	false	4		2015-08-20T18:35:12Z	2016-12-15T12:59:44Z	2015-08-20T19:09:50Z	url.parse parses hostname as protocol when protocol/scheme is absent in hostname:port formatted uRL	54		
@@ -5611,7 +5611,7 @@
 12098	2592723	false	closed	false	1		2017-03-28T18:38:29Z	2017-03-28T20:19:03Z	2017-03-28T20:19:03Z	Destructuring array assignment to function which returns a non-iterable produces a confusing error	153		
 12099	439929	true	closed	false	2		2017-03-28T19:43:20Z	2017-04-03T16:54:33Z	2017-04-03T16:54:33Z	errors: add space between error name and code	64		
 12100	10507786	false	closed	false	2		2017-03-28T20:39:26Z	2017-04-06T20:34:04Z	2017-04-06T20:34:04Z	fs.writeFile with callback will log: DeprecationWarning: Calling an asynchronous function without callback is deprecated.	154		
-12101	73755	false	open	false	10		2017-03-28T22:49:20Z	2017-07-31T04:39:32Z		Child process inheriting all stdio being SIGKILL-ed messes up terminal	184		
+12101	73755	false	open	false	11		2017-03-28T22:49:20Z	2017-07-31T10:12:28Z		Child process inheriting all stdio being SIGKILL-ed messes up terminal	184		
 12102	10393198	true	closed	false	1	0	2017-03-28T22:56:10Z	2017-04-10T22:54:04Z	2017-04-10T22:54:04Z	(v7.x backport) benchmark: add final clean-up to module-loader.js	27		
 12103	718899	true	closed	false	0		2017-03-28T23:37:15Z	2017-04-10T22:50:33Z	2017-04-10T22:50:33Z	v7.x backport: tools: ignore URLs in line length linting	73		
 12104	498775	true	closed	false	6	0	2017-03-28T23:47:24Z	2017-03-29T03:01:04Z	2017-03-29T03:01:04Z	V7.8.0 proposal	866	498775	2017-03-29T03:01:04Z
@@ -6975,7 +6975,7 @@
 13463	7136681	false	closed	false	1		2017-06-05T08:00:32Z	2017-06-06T15:20:08Z	2017-06-06T15:20:08Z	Node 8: Compiler warning about invalid format passed to fprintf when building in VS 2015	127		
 13464	732222	false	open	false	4		2017-06-05T08:24:04Z	2017-07-29T20:26:12Z		runInContext breaks node process	191		
 13465	21218718	false	open	false	24		2017-06-05T08:43:31Z	2017-06-05T15:33:15Z		Error when writing huge of content to a file json	80		
-13466	275871	true	closed	false	19		2017-06-05T08:59:45Z	2017-07-26T14:33:29Z	2017-06-15T18:06:27Z	doc: update minimum g++ version to 4.9.4	94		
+13466	275871	true	closed	false	20		2017-06-05T08:59:45Z	2017-07-31T10:30:04Z	2017-06-15T18:06:27Z	doc: update minimum g++ version to 4.9.4	94		
 13467	899444	true	closed	false	7		2017-06-05T10:02:40Z	2017-06-16T17:53:37Z	2017-06-16T17:53:37Z	buffer: add constants with max buffer and string lengths	62		
 13468	13941347	false	closed	false	6		2017-06-05T10:10:50Z	2017-06-05T23:29:59Z	2017-06-05T23:29:59Z	fileNameWithPrefix and fileNameWithPostfix	47		
 13469	557590	false	closed	false	5		2017-06-05T10:29:10Z	2017-06-09T13:59:44Z	2017-06-09T13:59:44Z	Documentation mismatch for N-API structures	140		
@@ -7292,7 +7292,7 @@
 13781	1890238	false	closed	false	1		2017-06-19T06:20:32Z	2017-06-19T08:06:15Z	2017-06-19T08:06:15Z	spawn rm * cannot delete files	213		
 13782	857632	false	open	false	5		2017-06-19T07:29:09Z	2017-06-19T11:03:44Z		received SIGSEGV on rejecting a promise	195		
 13783	8860227	true	closed	false	4		2017-06-19T08:10:59Z	2017-06-22T10:51:35Z	2017-06-19T09:00:58Z	function to const	53		
-13784	1538624	true	open	false			2017-06-19T08:25:02Z	2017-06-24T09:27:59Z		promises: more robust stringification	34		
+13784	1538624	true	open	false	14		2017-06-19T08:25:02Z	2017-07-31T10:22:01Z		promises: more robust stringification	34		
 13785	2352663	true	open	false	3		2017-06-19T08:43:59Z	2017-06-19T22:22:21Z		(v6.x backport) tools: enforce two arguments in assert.throws	67		
 13786	432351	true	closed	false	12	2	2017-06-19T08:48:42Z	2017-06-28T05:22:40Z	2017-06-28T05:22:40Z	test: skip fips tests using OpenSSL config file	178		
 13787	171239	false	open	false	7		2017-06-19T08:59:20Z	2017-07-03T16:38:14Z		null character as first character of path component crashes node	43		
@@ -8015,7 +8015,7 @@
 14504	765946	false	closed	false	1		2017-07-26T15:45:05Z	2017-07-26T17:07:17Z	2017-07-26T17:07:17Z	code ELIFECYCLE Exit status 1 at EventEmitter.<anonymous>	335		
 14505	718899	true	closed	false	1		2017-07-26T19:34:05Z	2017-07-29T05:07:32Z	2017-07-29T05:07:32Z	test: remove disabled tests directory	51		
 14506	20868551	true	closed	false	8		2017-07-26T21:53:28Z	2017-07-30T11:07:08Z	2017-07-30T11:07:08Z	test: fix error when foo in path to git clone	160		
-14507	718899	false	open	false	4		2017-07-26T22:42:02Z	2017-07-28T17:41:31Z		investigate flaky test-inspector-stop-profile-after-done on Windows	80		
+14507	718899	false	open	false	7		2017-07-26T22:42:02Z	2017-07-31T10:30:45Z		investigate flaky test-inspector-stop-profile-after-done on Windows	80		
 14508	718899	true	closed	false	5		2017-07-27T05:42:51Z	2017-07-29T02:40:32Z	2017-07-29T02:40:32Z	test: improve error logging for inspector test	53		
 14509	3927355	false	open	false	3		2017-07-27T07:21:27Z	2017-07-27T09:06:31Z		A fatal error of wasm with my own built node with v8 6.1.0	136		
 14510	26118718	true	closed	false	9		2017-07-27T12:30:10Z	2017-07-29T10:34:29Z	2017-07-29T10:34:29Z	"deps,profiler: parse Windows' ""%p"" in processor"	232		
@@ -8056,9 +8056,9 @@
 14545	718899	false	open	false	1		2017-07-30T18:02:16Z	2017-07-31T03:16:22Z		console,util: implement %o as formatting specifier	34		
 14546	8479806	true	closed	false	2		2017-07-30T20:47:20Z	2017-07-31T00:04:19Z	2017-07-31T00:04:19Z	linkedlist: correct grammar in comments	28		
 14547	718899	true	open	false	0		2017-07-30T20:52:39Z	2017-07-31T05:19:16Z		tools: replace assert-throw-arguments custom lint	37		
-14548	3109072	true	open	false			2017-07-30T23:00:08Z	2017-07-31T00:08:05Z		crypto: change segmentation faults to CHECKs	54		
+14548	3109072	true	open	false			2017-07-30T23:00:08Z	2017-07-31T10:33:08Z		crypto: change segmentation faults to CHECKs	54		
 14549	3109072	true	open	false	0	0	2017-07-31T00:18:57Z	2017-07-31T00:18:57Z		src: return MaybeLocal in AsyncWrap::MakeCallback	80		
 14550	19522557	false	closed	false	1		2017-07-31T00:50:17Z	2017-07-31T01:53:44Z	2017-07-31T00:59:24Z	When will node support ES module?	13		
 14551	18613046	false	closed	false	1		2017-07-31T05:45:36Z	2017-07-31T09:58:12Z	2017-07-31T09:58:12Z	requiring files, imports empty { } sometimes! 	61		
 14552	13093042	true	open	false	0	0	2017-07-31T06:43:34Z	2017-07-31T06:43:34Z		build,win: fix python detection script to handle spaces in path	59		
-14553	988441	false	open	false	0		2017-07-31T08:45:47Z	2017-07-31T09:55:37Z		Can't open hidden files in 'w' mode on Windows - document, fix, or do nothing?	232		
+14553	988441	false	open	false	1		2017-07-31T08:45:47Z	2017-07-31T10:22:46Z		Can't open hidden files in 'w' mode on Windows - document, fix, or do nothing?	232		
