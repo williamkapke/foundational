@@ -5472,7 +5472,7 @@
 11958	275871	true	closed	false	6		2017-03-21T10:50:56Z	2017-04-18T22:41:09Z	2017-03-24T16:26:32Z	lib: fix event race condition with -e	86		
 11959	20812784	false	open	false	0		2017-03-21T11:46:34Z	2017-03-21T12:13:57Z		Overclocked AMD causes NPM to respond Assertion failed: new_time >= loop->time ...	64		
 11960	880513	false	closed	false	8		2017-03-21T12:41:56Z	2017-03-25T08:46:13Z	2017-03-25T08:46:13Z	In async function, returns a value in try block will before await statement in finally block	48		
-11961	1538624	true	open	false	6		2017-03-21T14:36:27Z	2017-07-30T13:41:41Z		buffer: stricter Buffer.isBuffer	246		
+11961	1538624	true	open	false	6		2017-03-21T14:36:27Z	2017-07-31T19:25:36Z		buffer: stricter Buffer.isBuffer	246		
 11962	1716463	false	closed	false	0		2017-03-21T15:01:30Z	2017-04-03T09:18:50Z	2017-04-03T09:18:50Z	url: tracking whatwg url issue #212	33		
 11963	696611	true	closed	false	0		2017-03-21T15:15:11Z	2017-04-04T07:39:42Z	2017-04-04T07:39:42Z	doc: minor improvements in BUILDING.md	79		
 11964	332968	true	closed	false	7	1	2017-03-21T15:26:44Z	2017-03-24T16:17:35Z	2017-03-24T16:17:35Z	test: invalid chars in http client path	57		
@@ -7731,7 +7731,7 @@
 14220	7190422	false	open	false	8		2017-07-13T14:52:03Z	2017-07-24T15:43:49Z		Making V8 6.1 ABI compatible with V8 6.0	339		
 14221	2512748	true	open	false	1		2017-07-13T15:14:50Z	2017-07-14T18:33:51Z		net: support passing null to listen()	71		
 14222	96947	false	open	false	5		2017-07-13T15:41:35Z	2017-07-13T21:40:17Z		CI: test with `--with-snapshot` on the slower platforms	45		
-14223	15952	true	open	false	5		2017-07-13T18:30:58Z	2017-07-27T13:48:28Z		repl: deprecate REPLServer.parseREPLKeyword	116		
+14223	15952	true	open	false			2017-07-13T18:30:58Z	2017-07-31T19:15:58Z		repl: deprecate REPLServer.parseREPLKeyword	116		
 14224	718899	true	closed	false	2		2017-07-13T19:22:59Z	2017-07-24T17:13:28Z	2017-07-17T07:31:13Z	buffer: fix indentation nits	37		
 14225	5076519	false	open	false	2		2017-07-13T20:18:41Z	2017-07-14T16:28:53Z		Documentation with breaking changes between version 6 to version 8	44		
 14226	15952	false	open	false	0		2017-07-13T20:35:54Z	2017-07-13T20:35:54Z		REPLServer.createContext() has unexpected side effects	129		
@@ -7839,7 +7839,7 @@
 14328	505333	false	open	false	5		2017-07-17T17:11:27Z	2017-07-18T10:28:28Z		Remove async_hooks runInAsyncIdScope API	506		
 14329	811047	true	open	false	11		2017-07-17T17:32:14Z	2017-07-25T04:53:27Z		test: fix test-async-wrap-getasyncid flakyness	145		
 14330	52195	true	open	false	4		2017-07-17T17:41:33Z	2017-07-19T12:11:10Z		zlib: check if the stream is destroyed before push	59		
-14331	15952	true	open	false	3		2017-07-17T18:19:34Z	2017-07-27T13:47:16Z		repl: remove REPLServer.createContext side effects	62		
+14331	15952	true	open	false	4		2017-07-17T18:19:34Z	2017-07-31T19:17:09Z		repl: remove REPLServer.createContext side effects	62		
 14332	439929	true	open	false			2017-07-17T22:37:03Z	2017-07-26T11:20:27Z		test: begin normalizing fixtures use	129		
 14333	156269	true	open	false	2		2017-07-18T03:09:16Z	2017-07-25T02:35:43Z		http: don't double-fire the req error event	51		
 14334	3332246	true	closed	false	2		2017-07-18T03:44:25Z	2017-07-21T14:05:21Z	2017-07-21T14:05:21Z	test: delete obsolete test-sendfd.js	123		
@@ -7966,9 +7966,9 @@
 14455	439929	true	open	false			2017-07-24T18:56:45Z	2017-07-24T22:03:21Z		test: improve zlib tests	38		
 14456	4046874	false	closed	false	2		2017-07-24T19:00:02Z	2017-07-24T22:23:00Z	2017-07-24T22:23:00Z	Node 8 crashes when trying to connect to WebSocket with hapijs/nes : c:\ws\src\env-inl.h:131: Assertion `(trigger_id) >= (0)' failed	232		
 14457	4553695	false	closed	false	1		2017-07-24T19:16:32Z	2017-07-25T08:40:50Z	2017-07-25T08:40:50Z	Startup time 5 times slower with node 8.1.4	47		
-14458	439929	true	open	false			2017-07-24T19:29:51Z	2017-07-26T06:40:35Z		test: general improvements to vm tests	37		
+14458	439929	true	open	false	7		2017-07-24T19:29:51Z	2017-07-31T19:03:11Z		test: general improvements to vm tests	37		
 14459	899444	true	closed	false	1	5	2017-07-24T21:01:39Z	2017-07-27T21:25:10Z	2017-07-27T21:25:10Z	[v8.x] test: bump test/common to master	51		
-14460	287917	true	open	false			2017-07-24T21:56:52Z	2017-07-31T18:29:16Z		test: rewrite inspector test helper	92		
+14460	287917	true	open	false			2017-07-24T21:56:52Z	2017-07-31T19:35:58Z		test: rewrite inspector test helper	92		
 14461	14098340	false	closed	false	1		2017-07-24T22:18:27Z	2017-07-27T15:16:42Z	2017-07-27T15:16:42Z	Are asserts intentionally left compiled in?	86		
 14462	5110855	false	open	false	0		2017-07-24T22:20:36Z	2017-07-24T22:20:36Z		HTTP/2 PUSH frames empty with spdy	174		
 14463	287917	true	closed	false	2		2017-07-24T23:02:51Z	2017-07-27T01:33:26Z	2017-07-26T19:16:49Z	inspector: send messages after the Node is done	44		
@@ -7997,7 +7997,7 @@
 14486	10393198	true	closed	false	0		2017-07-25T21:10:49Z	2017-07-27T22:20:43Z	2017-07-27T22:20:43Z	doc: cross-link util.TextDecoder and intl.md	62		
 14487	11638619	false	open	false	8		2017-07-25T21:17:57Z	2017-07-26T19:02:06Z		util.inspect is slow for large sparse arrays	65		
 14488	718899	true	open	false	0		2017-07-25T21:24:37Z	2017-07-26T02:20:34Z		test: add known-issue test for issue 14441	35		
-14489	1538624	true	open	false	2		2017-07-26T01:08:29Z	2017-07-30T11:06:18Z		Fix building without ICU	43		
+14489	1538624	true	open	false			2017-07-26T01:08:29Z	2017-07-31T19:05:04Z		Fix building without ICU	43		
 14490	1538624	false	open	false	3		2017-07-26T01:24:32Z	2017-07-28T09:09:10Z		C++ linter is not run on src/*/*	93		
 14491	8822573	true	open	false	5		2017-07-26T02:04:09Z	2017-07-31T05:41:51Z		assert: fix deepEqual inconsistencies	78		
 14492	8822573	true	open	false	3		2017-07-26T04:25:59Z	2017-07-28T13:35:41Z		util: improve util.inspect performance	79		
@@ -8026,7 +8026,7 @@
 14515	718899	true	closed	false	2	0	2017-07-27T16:30:35Z	2017-07-30T16:29:06Z	2017-07-30T16:29:06Z	tools: remove legacy indentation linting	39		
 14516	4154393	false	open	false	1		2017-07-27T16:58:24Z	2017-07-28T10:18:59Z		Issue using super in arrow function with block body in async class function	158		
 14517	1571966	false	open	false	0		2017-07-27T17:13:19Z	2017-07-27T18:12:25Z		try/catch and callbacks in user-space act differently than with built-ins	297		
-14518	899444	true	open	false			2017-07-27T17:38:29Z	2017-07-28T03:06:57Z		dns: enable managing independent channels in JS	52		
+14518	899444	true	open	false			2017-07-27T17:38:29Z	2017-07-31T19:50:53Z		dns: enable managing independent channels in JS	52		
 14519	3109072	false	open	false	0		2017-07-27T19:30:15Z	2017-07-27T19:30:15Z		Internal domain function can be used to cause segfaults	147		
 14520	718899	true	closed	false	1	0	2017-07-27T21:46:04Z	2017-07-27T22:08:26Z	2017-07-27T22:08:26Z	[v8.x backport] tools: enable stricter linting in lib directory	31		
 14521	3109072	true	closed	false	1		2017-07-27T22:58:01Z	2017-07-28T00:31:26Z	2017-07-28T00:31:26Z	[v8.x backport] test: increase coverage for path.parse	5		
@@ -8056,7 +8056,7 @@
 14545	718899	false	open	false	3		2017-07-30T18:02:16Z	2017-07-31T15:39:35Z		console,util: implement %o as formatting specifier	34		
 14546	8479806	true	closed	false	2		2017-07-30T20:47:20Z	2017-07-31T00:04:19Z	2017-07-31T00:04:19Z	linkedlist: correct grammar in comments	28		
 14547	718899	true	open	false	0		2017-07-30T20:52:39Z	2017-07-31T05:19:16Z		tools: replace assert-throw-arguments custom lint	37		
-14548	3109072	true	open	false			2017-07-30T23:00:08Z	2017-07-31T10:33:08Z		crypto: change segmentation faults to CHECKs	54		
+14548	3109072	true	open	false	2		2017-07-30T23:00:08Z	2017-07-31T19:55:37Z		crypto: change segmentation faults to CHECKs	54		
 14549	3109072	true	open	false	0	0	2017-07-31T00:18:57Z	2017-07-31T00:18:57Z		src: return MaybeLocal in AsyncWrap::MakeCallback	80		
 14550	19522557	false	closed	false	1		2017-07-31T00:50:17Z	2017-07-31T01:53:44Z	2017-07-31T00:59:24Z	When will node support ES module?	13		
 14551	18613046	false	closed	false	1		2017-07-31T05:45:36Z	2017-07-31T09:58:12Z	2017-07-31T09:58:12Z	requiring files, imports empty { } sometimes! 	61		
