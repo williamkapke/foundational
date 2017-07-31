@@ -59,7 +59,7 @@
 1592	617235	false	closed	false	206		2015-05-02T19:25:40Z	2016-10-05T19:11:59Z	2016-10-05T19:11:59Z	gripe: deprecating fs.exists/existsSync	202		
 1634	495647	false	closed	false	10		2015-05-06T04:07:08Z	2017-07-09T03:37:29Z	2017-07-09T03:37:29Z	Race condition on history file with multiple REPLs	57		
 1644	97469	false	closed	false	14		2015-05-06T19:40:05Z	2017-05-21T13:54:17Z	2017-05-21T13:54:17Z	`dns.resolve` fails when the io/node process starts without an active network connection	113		
-1671	291301	false	open	false	56		2015-05-11T05:25:09Z	2017-07-30T22:32:42Z		`Buffer` and `ArrayBuffer`-based objects trigger mark-sweeps instead of scavenges	68		
+1671	291301	false	open	false	58		2015-05-11T05:25:09Z	2017-07-31T00:54:32Z		`Buffer` and `ArrayBuffer`-based objects trigger mark-sweeps instead of scavenges	68		
 1684	291301	false	open	false	8		2015-05-12T14:14:52Z	2017-07-09T03:41:10Z		Put a warning against misusing `*Sync` methods to the API docs.	100		
 1690	10612009	false	closed	false	7		2015-05-13T08:56:13Z	2016-07-07T20:40:26Z	2016-07-07T20:40:26Z	[dgram]no udp multicast message received when binding on a specific address	278		
 1692	10612009	false	closed	false	3		2015-05-13T10:29:17Z	2016-07-10T15:58:44Z	2016-07-10T15:58:44Z	[dgram]socket.addMembership() does not add membership to every interface	179		
@@ -2355,7 +2355,7 @@
 8834	899444	true	closed	false	23		2016-09-28T17:53:51Z	2016-10-13T22:15:24Z	2016-10-10T16:14:50Z	stream: proper `instanceof` for `Writable`s	60		
 8835	718899	true	open	false	5		2016-09-28T18:46:49Z	2016-09-29T15:56:21Z		test: mark test-inspector flaky on windows	30		
 8836	432351	true	closed	false	16		2016-09-28T19:00:38Z	2016-11-18T20:56:25Z	2016-10-06T17:31:04Z	test: enable addons test to pass with debug build	142		
-8837	567540	true	open	false	27		2016-09-28T20:55:31Z	2017-07-25T14:04:32Z		inspector: Allow require in Runtime.evaluate	92		
+8837	567540	true	open	false			2016-09-28T20:55:31Z	2017-07-31T00:16:52Z		inspector: Allow require in Runtime.evaluate	92		
 8838	718899	false	closed	false	7		2016-09-28T21:32:10Z	2017-04-04T03:53:02Z	2017-04-04T03:53:01Z	investigate flaky parallel/test-debug-signal-cluster on SmartOS	75		
 8839	2205537	false	closed	false	5		2016-09-28T23:55:39Z	2016-10-01T14:00:28Z	2016-10-01T14:00:28Z	`process.stdin` is not implemented in bash for Windows 10... unknown type	246		
 8840	602462	true	closed	false	6	16	2016-09-29T01:05:51Z	2016-10-03T22:26:49Z	2016-10-03T22:26:49Z	doc: Docs for the common module API in tests	52		
@@ -3338,7 +3338,7 @@
 9817	374012	false	closed	false	0		2016-11-27T22:55:08Z	2017-05-03T17:21:06Z	2017-05-03T17:21:06Z	{Hash, Hmac}.digest and sign hard crash when supplied 'ucs2' encoding	140		
 9818	304505	false	closed	false	13		2016-11-28T00:25:48Z	2017-07-15T08:19:37Z	2017-07-15T08:19:37Z	Crashing with Abort on FreeBSD when run via Salt.	230		
 9819	374012	false	closed	false	5		2016-11-28T02:45:12Z	2017-04-10T14:42:50Z	2017-04-10T14:42:50Z	Crypto Hashm/Hmac digest segfault on bad input	130		
-9820	374012	false	open	false	4		2016-11-28T03:06:25Z	2017-07-30T17:15:16Z		spawnSync segfaults when given throwing toString	93		
+9820	374012	false	open	false	5		2016-11-28T03:06:25Z	2017-07-31T00:13:03Z		spawnSync segfaults when given throwing toString	93		
 9821	374012	false	open	false	7		2016-11-28T03:07:56Z	2017-07-15T08:02:39Z		spawnSync's SyncProcessRunner::CopyJsStringArray segfaults with bad getter	180		
 9822	54666	false	open	false	1		2016-11-28T03:13:29Z	2017-07-15T08:03:37Z		doc: update SSL/TLS version references	137		
 9823	374012	false	closed	false	2		2016-11-28T04:12:03Z	2017-07-17T01:45:30Z	2017-07-17T01:45:30Z	spawnSync can be used to perform OOB memory write	350		
@@ -5187,7 +5187,7 @@
 11672	1263419	true	closed	false	8		2017-03-03T12:47:39Z	2017-05-07T20:47:15Z	2017-03-06T15:23:44Z	util: fix inspecting symbol key in string	48		
 11673	7337239	false	closed	false	3		2017-03-03T13:19:49Z	2017-03-06T16:25:49Z	2017-03-03T13:24:15Z	Http/Https response corrupted	133		
 11674	988441	false	open	false	37		2017-03-03T15:10:55Z	2017-07-28T16:17:37Z		Reasons for not using GitHub's green button are unconvincing	230		
-11675	234659	false	open	false	7		2017-03-03T16:49:34Z	2017-07-30T16:04:49Z		require fallthrough behavior	132		
+11675	234659	false	open	false	8		2017-03-03T16:49:34Z	2017-07-31T00:14:59Z		require fallthrough behavior	132		
 11676	1716463	true	closed	false	3		2017-03-03T17:03:25Z	2017-04-17T21:39:36Z	2017-03-03T17:23:25Z	doc: add `Daijiro Wachi` to collaborators	21		
 11677	154208	true	closed	false	4		2017-03-03T17:53:54Z	2017-04-18T01:33:55Z	2017-03-06T15:26:59Z	doc: fixed readable.isPaused() 'Added in version' annotation	38		
 11678	10393198	true	closed	false	5	0	2017-03-03T18:27:43Z	2017-03-10T12:21:29Z	2017-03-10T12:21:29Z	fs: fix deoptimizing use of `arguments`	928		
@@ -8054,6 +8054,8 @@
 14543	1538624	true	open	false	0	0	2017-07-30T12:17:04Z	2017-07-30T12:17:04Z		doc, url: add changelog metadata for url.format	24		
 14544	96947	false	closed	false	0		2017-07-30T16:59:47Z	2017-07-30T17:00:53Z	2017-07-30T17:00:53Z	test: good-second-contribution — tracking tests that need some more 💘	16		
 14545	718899	false	open	false	0		2017-07-30T18:02:16Z	2017-07-30T18:02:16Z		console,util: implement %o as formatting specifier	34		
-14546	8479806	true	open	false	1		2017-07-30T20:47:20Z	2017-07-30T22:16:13Z		linkedlist: correct grammar in comments	28		
+14546	8479806	true	closed	false	2		2017-07-30T20:47:20Z	2017-07-31T00:04:19Z	2017-07-31T00:04:19Z	linkedlist: correct grammar in comments	28		
 14547	718899	true	open	false	0	0	2017-07-30T20:52:39Z	2017-07-30T20:52:39Z		tools: replace assert-throw-arguments custom lint	55		
-14548	3109072	true	open	false			2017-07-30T23:00:08Z	2017-07-30T23:01:10Z		crypto: change segmentation faults to CHECKs	54		
+14548	3109072	true	open	false			2017-07-30T23:00:08Z	2017-07-31T00:08:05Z		crypto: change segmentation faults to CHECKs	54		
+14549	3109072	true	open	false	0	0	2017-07-31T00:18:57Z	2017-07-31T00:18:57Z		src: return MaybeLocal in AsyncWrap::MakeCallback	80		
+14550	19522557	false	open	false	0		2017-07-31T00:50:17Z	2017-07-31T00:50:17Z		When will node support ES module?	13		
