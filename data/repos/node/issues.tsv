@@ -462,7 +462,7 @@
 5659	15952	false	closed	false	22		2016-03-11T16:00:53Z	2016-07-22T20:01:30Z	2016-06-30T17:08:41Z	repl: useGlobal docs and code mismatch	127		
 5675	964298	false	closed	false	8		2016-03-12T13:07:11Z	2017-07-12T19:08:04Z	2017-07-12T19:08:04Z	doc:Error:captureStackTrace description inaccurate	123		
 5679	60294	false	open	false	7		2016-03-12T23:44:00Z	2017-06-04T01:06:18Z		VM context object silently fails on Object.defineProperty	203		
-5687	1699593	false	closed	false	14		2016-03-13T18:58:57Z	2017-08-01T12:38:37Z	2016-03-13T19:12:46Z	Promise.all is not a function	78		
+5687	1699593	false	closed	false	15		2016-03-13T18:58:57Z	2017-08-01T18:36:22Z	2016-03-13T19:12:46Z	Promise.all is not a function	78		
 5691	2993861	false	open	false	18		2016-03-13T21:08:30Z	2017-07-15T15:16:40Z		Microtask queue is not flushed when promises are fulfilled in C++	109		
 5692	2993861	false	closed	false	3		2016-03-13T21:55:43Z	2017-05-30T04:36:21Z	2017-05-30T04:36:21Z	docs: Document `MakeCallback`	17		
 5701	5038030	false	closed	false	11		2016-03-14T16:47:14Z	2017-07-22T10:06:15Z	2016-03-14T17:15:09Z	Error while loading shared libraries - libhttp_parser	169		
@@ -839,7 +839,7 @@
 7225	439929	true	closed	false	10		2016-06-08T15:30:23Z	2016-10-10T17:01:37Z	2016-06-21T17:04:22Z	crypto,tls: perf improvements for crypto and tls getCiphers	103		
 7229	624456	true	closed	false	13		2016-06-08T18:43:49Z	2016-07-05T21:00:16Z	2016-07-04T17:15:18Z	src: temporary fix for AIX malloc issue	151		
 7230	9319556	true	closed	false	15	8	2016-06-08T18:57:58Z	2017-02-14T18:55:02Z	2017-02-14T18:55:02Z	doc: clarify tls.createServer's {cert, ca}	46		
-7231	2144779	false	open	false	17		2016-06-08T19:40:39Z	2017-07-27T17:40:37Z		How to add max timeout on DNS query?	28		
+7231	2144779	false	closed	false	18		2016-06-08T19:40:39Z	2017-08-01T18:09:16Z	2017-08-01T18:09:16Z	How to add max timeout on DNS query?	28		
 7236	439929	true	closed	false	8		2016-06-08T22:54:12Z	2016-10-10T17:03:15Z	2016-06-21T17:54:25Z	tls: avoid calling Buffer.byteLength multiple times	98		
 7237	718899	true	closed	false	5		2016-06-08T23:26:07Z	2016-07-12T02:11:45Z	2016-06-12T03:12:27Z	doc: add information for IncomingMessage.destroy()	33		
 7240	238531	false	closed	false	20		2016-06-09T00:21:10Z	2017-07-07T23:41:57Z	2017-07-07T23:41:57Z	Proposal: gypkg for GYP dependency management	80		
@@ -5612,7 +5612,7 @@
 12098	2592723	false	closed	false	1		2017-03-28T18:38:29Z	2017-03-28T20:19:03Z	2017-03-28T20:19:03Z	Destructuring array assignment to function which returns a non-iterable produces a confusing error	153		
 12099	439929	true	closed	false	2		2017-03-28T19:43:20Z	2017-04-03T16:54:33Z	2017-04-03T16:54:33Z	errors: add space between error name and code	64		
 12100	10507786	false	closed	false	2		2017-03-28T20:39:26Z	2017-04-06T20:34:04Z	2017-04-06T20:34:04Z	fs.writeFile with callback will log: DeprecationWarning: Calling an asynchronous function without callback is deprecated.	154		
-12101	73755	false	open	false	12		2017-03-28T22:49:20Z	2017-08-01T16:05:38Z		Child process inheriting all stdio being SIGKILL-ed messes up terminal	184		
+12101	73755	false	open	false	13		2017-03-28T22:49:20Z	2017-08-01T18:50:46Z		Child process inheriting all stdio being SIGKILL-ed messes up terminal	184		
 12102	10393198	true	closed	false	1	0	2017-03-28T22:56:10Z	2017-04-10T22:54:04Z	2017-04-10T22:54:04Z	(v7.x backport) benchmark: add final clean-up to module-loader.js	27		
 12103	718899	true	closed	false	0		2017-03-28T23:37:15Z	2017-04-10T22:50:33Z	2017-04-10T22:50:33Z	v7.x backport: tools: ignore URLs in line length linting	73		
 12104	498775	true	closed	false	6	0	2017-03-28T23:47:24Z	2017-03-29T03:01:04Z	2017-03-29T03:01:04Z	V7.8.0 proposal	866	498775	2017-03-29T03:01:04Z
@@ -7456,7 +7456,7 @@
 13944	172594	false	closed	false	1		2017-06-27T11:15:05Z	2017-06-27T20:55:16Z	2017-06-27T11:26:33Z	RHEL/CentOS packages don't update from node 6 to 8 properly (easy fix)	106		
 13945	432351	true	closed	false	4	0	2017-06-27T12:37:41Z	2017-06-29T02:52:11Z	2017-06-29T02:52:11Z	tools: remove comment in eslint rule	54		
 13946	718899	true	closed	false	2	0	2017-06-27T13:39:58Z	2017-06-29T03:04:02Z	2017-06-29T03:04:02Z	tools: update to ESLint 4.1.1	80		
-13947	7208251	true	open	false	19		2017-06-27T16:39:25Z	2017-07-25T18:34:22Z		src: adjust windows abort behavior to make sense	93		
+13947	7208251	true	open	false	20		2017-06-27T16:39:25Z	2017-08-01T18:57:52Z		src: adjust windows abort behavior to make sense	93		
 13948	327019	true	open	false	0		2017-06-27T17:24:39Z	2017-06-27T19:26:31Z		module: remove the intermediate Module._debug	35		
 13949	2512748	true	closed	false	1	0	2017-06-27T17:34:53Z	2017-06-30T21:11:19Z	2017-06-30T21:11:19Z	n-api: add napi_delete_element()	41	2512748	2017-06-30T21:11:19Z
 13950	718899	true	closed	false	1		2017-06-27T20:39:21Z	2017-06-29T22:46:31Z	2017-06-29T22:46:31Z	doc: use stricter indentation checking for docs	68		
@@ -7754,7 +7754,7 @@
 14242	10933333	true	open	false	1		2017-07-15T01:27:11Z	2017-07-17T15:43:11Z		errors: keep error codes in alphabetical order	42		
 14243	1819074	false	open	false	6		2017-07-15T02:45:49Z	2017-07-16T19:24:33Z		Foreground Magenta is not shown well in powershell(windows)	116		
 14244	10393198	true	closed	false	5		2017-07-15T02:47:50Z	2017-07-27T23:37:55Z	2017-07-21T17:43:29Z	doc, lib, test: do not re-require needlessly	116		
-14245	2842176	true	open	false	18		2017-07-15T03:18:44Z	2017-07-25T01:32:12Z		[v8.x] doc,tls: mark parseCertString() as deprecated	37		
+14245	2842176	true	open	false	19		2017-07-15T03:18:44Z	2017-08-01T18:10:32Z		[v8.x] doc,tls: mark parseCertString() as deprecated	37		
 14246	96947	true	open	false	6		2017-07-15T04:02:21Z	2017-07-16T01:33:28Z		test: temporarily disable MultipleEnvironmentsPerIsolate	34		
 14247	718899	true	closed	false	3		2017-07-15T04:02:27Z	2017-07-18T05:11:48Z	2017-07-18T05:11:48Z	lib: update indentation of ternaries	43		
 14248	11169379	false	open	false	0		2017-07-15T04:23:28Z	2017-07-15T04:23:28Z		Uh oh! Looks like you're missing a module in your gulpfile: Cannot find module 'gulp'	73		
@@ -7893,7 +7893,7 @@
 14381	25573589	false	closed	false	12		2017-07-20T06:32:30Z	2017-07-21T06:22:35Z	2017-07-20T20:18:25Z	8.2.0 crashes test	72		
 14382	433468	true	closed	false	4	43	2017-07-20T06:37:01Z	2017-07-27T00:44:28Z	2017-07-27T00:44:28Z	N api dataview	71		
 14383	29041814	false	closed	false	0		2017-07-20T06:47:09Z	2017-07-20T07:21:12Z	2017-07-20T07:21:12Z	Net API - Connect TCP socket via proxy	60		
-14384	2352663	false	open	false	9		2017-07-20T06:52:00Z	2017-07-26T19:38:33Z		Should we continue to support FreeBSD?	208		
+14384	2352663	false	open	false	10		2017-07-20T06:52:00Z	2017-08-01T18:04:33Z		Should we continue to support FreeBSD?	208		
 14385	2291463	true	open	false	0	0	2017-07-20T08:53:09Z	2017-07-20T08:53:09Z		deps: backport rehash strings after deserialization.	107		
 14386	52195	false	closed	false	18		2017-07-20T09:49:16Z	2017-07-20T20:18:25Z	2017-07-20T20:18:25Z	8.2.0 crashes test when using shot	444		
 14387	52195	true	closed	false	21		2017-07-20T10:11:00Z	2017-07-20T21:03:22Z	2017-07-20T20:17:45Z	async_hooks: triggerAsyncId can be undefined	38		
@@ -8000,7 +8000,7 @@
 14488	718899	true	closed	false	1		2017-07-25T21:24:37Z	2017-08-01T17:04:26Z	2017-08-01T17:04:26Z	test: add known-issue test for issue 14441	35		
 14489	1538624	true	open	false			2017-07-26T01:08:29Z	2017-08-01T11:13:54Z		Fix building without ICU	43		
 14490	1538624	false	open	false	3		2017-07-26T01:24:32Z	2017-07-28T09:09:10Z		C++ linter is not run on src/*/*	93		
-14491	8822573	true	closed	false	7		2017-07-26T02:04:09Z	2017-08-01T11:57:57Z	2017-08-01T11:57:57Z	assert: fix deepEqual inconsistencies	78		
+14491	8822573	true	closed	false	8		2017-07-26T02:04:09Z	2017-08-01T18:26:09Z	2017-08-01T11:57:57Z	assert: fix deepEqual inconsistencies	78		
 14492	8822573	true	open	false	3		2017-07-26T04:25:59Z	2017-07-28T13:35:41Z		util: improve util.inspect performance	79		
 14493	241873	true	open	false	0		2017-07-26T05:26:27Z	2017-07-26T06:06:58Z		try to fix for #14022	23		
 14494	241873	true	closed	false	6	3	2017-07-26T06:30:26Z	2017-07-26T15:14:16Z	2017-07-26T15:14:16Z	lib: repl for #14022 && readline fix debug warning	23		
@@ -8016,7 +8016,7 @@
 14504	765946	false	closed	false	1		2017-07-26T15:45:05Z	2017-07-26T17:07:17Z	2017-07-26T17:07:17Z	code ELIFECYCLE Exit status 1 at EventEmitter.<anonymous>	335		
 14505	718899	true	closed	false	1		2017-07-26T19:34:05Z	2017-07-29T05:07:32Z	2017-07-29T05:07:32Z	test: remove disabled tests directory	51		
 14506	20868551	true	closed	false	8		2017-07-26T21:53:28Z	2017-07-30T11:07:08Z	2017-07-30T11:07:08Z	test: fix error when foo in path to git clone	160		
-14507	718899	false	open	false	10		2017-07-26T22:42:02Z	2017-08-01T17:07:32Z		investigate flaky test-inspector-stop-profile-after-done on Windows	80		
+14507	718899	false	open	false	13		2017-07-26T22:42:02Z	2017-08-01T18:03:44Z		investigate flaky test-inspector-stop-profile-after-done on Windows	80		
 14508	718899	true	closed	false	5		2017-07-27T05:42:51Z	2017-07-29T02:40:32Z	2017-07-29T02:40:32Z	test: improve error logging for inspector test	53		
 14509	3927355	false	open	false	3		2017-07-27T07:21:27Z	2017-07-27T09:06:31Z		A fatal error of wasm with my own built node with v8 6.1.0	136		
 14510	26118718	true	closed	false	9		2017-07-27T12:30:10Z	2017-07-29T10:34:29Z	2017-07-29T10:34:29Z	"deps,profiler: parse Windows' ""%p"" in processor"	232		
@@ -8027,7 +8027,7 @@
 14515	718899	true	closed	false	2	0	2017-07-27T16:30:35Z	2017-07-30T16:29:06Z	2017-07-30T16:29:06Z	tools: remove legacy indentation linting	39		
 14516	4154393	false	open	false	1		2017-07-27T16:58:24Z	2017-07-28T10:18:59Z		Issue using super in arrow function with block body in async class function	158		
 14517	1571966	false	open	false	0		2017-07-27T17:13:19Z	2017-07-27T18:12:25Z		try/catch and callbacks in user-space act differently than with built-ins	297		
-14518	899444	true	open	false	1		2017-07-27T17:38:29Z	2017-08-01T16:35:15Z		dns: enable managing independent channels in JS	52		
+14518	899444	true	closed	false	2		2017-07-27T17:38:29Z	2017-08-01T18:08:17Z	2017-08-01T18:08:17Z	dns: enable managing independent channels in JS	52		
 14519	3109072	false	open	false	0		2017-07-27T19:30:15Z	2017-07-27T19:30:15Z		Internal domain function can be used to cause segfaults	147		
 14520	718899	true	closed	false	1	0	2017-07-27T21:46:04Z	2017-07-27T22:08:26Z	2017-07-27T22:08:26Z	[v8.x backport] tools: enable stricter linting in lib directory	31		
 14521	3109072	true	closed	false	1		2017-07-27T22:58:01Z	2017-07-28T00:31:26Z	2017-07-28T00:31:26Z	[v8.x backport] test: increase coverage for path.parse	5		
@@ -8042,8 +8042,8 @@
 14530	2799308	false	open	false	2		2017-07-28T16:29:08Z	2017-07-28T22:28:08Z		stream.unpipe cannot be chained	96		
 14531	498775	true	closed	false	6		2017-07-28T17:24:19Z	2017-07-29T02:30:05Z	2017-07-28T20:25:01Z	test: remove --no-crankshaft	23		
 14532	158390	false	open	false	4		2017-07-28T17:56:07Z	2017-07-29T08:49:09Z		Criteria for n-api to exit experimental status	127		
-14533	14098340	true	open	false	9		2017-07-28T21:53:19Z	2017-08-01T18:01:22Z		build: fix build break when omitting icu	45		
-14534	718899	true	closed	false	3		2017-07-29T04:35:53Z	2017-08-01T17:05:51Z	2017-08-01T17:05:51Z	refactor test/sequential/test-fs-watch.js	52		
+14533	14098340	true	open	false	10		2017-07-28T21:53:19Z	2017-08-01T18:13:07Z		build: fix build break when omitting icu	45		
+14534	718899	true	closed	false	4		2017-07-29T04:35:53Z	2017-08-01T18:36:40Z	2017-08-01T17:05:51Z	refactor test/sequential/test-fs-watch.js	52		
 14535	1453344	false	open	false	9		2017-07-29T09:15:13Z	2017-07-30T10:02:31Z		Node 8.2 in Windows Container dns.lookup to kube-dns for CNAME fails during 15min	296		
 14536	718899	true	closed	false	4		2017-07-29T16:07:07Z	2017-08-01T17:11:11Z	2017-08-01T17:11:11Z	test: refactor test-vm-new-script-new-context	46		
 14537	291301	false	open	false	0		2017-07-29T16:38:09Z	2017-07-29T16:38:09Z		Distrust Symantec root certs in 10.0/11.0	320		
@@ -8068,7 +8068,7 @@
 14556	11139560	false	open	false	0		2017-07-31T17:31:13Z	2017-07-31T17:31:13Z		non-detached process fails to be killed by parent on exit	67		
 14557	96947	true	open	false			2017-07-31T18:25:27Z	2017-08-01T10:57:45Z		tools: bump vswhere helper to 1.15.5	39		
 14558	3729885	true	open	false	5		2017-07-31T22:50:25Z	2017-08-01T17:10:14Z		util: implement %o as formatting specifier	60		
-14559	1087603	false	open	false	1		2017-07-31T23:48:05Z	2017-08-01T17:00:54Z		Objects not appearing in the heapdump	263		
+14559	1087603	false	open	false	2		2017-07-31T23:48:05Z	2017-08-01T18:47:01Z		Objects not appearing in the heapdump	263		
 14560	2512748	true	open	false			2017-08-01T00:44:59Z	2017-08-01T15:35:48Z		dgram: add custom lookup function in sockets	63		
 14561	718899	true	open	false			2017-08-01T03:22:13Z	2017-08-01T17:14:33Z		tools: simplify no-unescaped-regexp-dot rule	55		
 14562	29828306	false	open	false	1		2017-08-01T05:56:42Z	2017-08-01T13:16:02Z		Node.js setup wizard ended prematurely	37		
@@ -8078,5 +8078,6 @@
 14566	131406	true	open	false	0	0	2017-08-01T08:55:25Z	2017-08-01T08:55:25Z		test: use ciphers supported by shared openssl	14		
 14567	3374574	false	closed	false	11		2017-08-01T12:06:25Z	2017-08-01T14:15:02Z	2017-08-01T14:15:02Z	Segfault in v8.2.1	342		
 14568	96947	false	open	false	0		2017-08-01T12:15:23Z	2017-08-01T12:15:23Z		test: investigate - async-hooks/test-graph.signal	81		
-14569	12043917	false	open	false	0		2017-08-01T16:08:41Z	2017-08-01T16:08:41Z		nodejs require cause memory leak	69		
-14570	9773803	false	open	false	0		2017-08-01T17:53:35Z	2017-08-01T17:53:35Z		Require for internal folder	96		
+14569	12043917	false	closed	false	1		2017-08-01T16:08:41Z	2017-08-01T18:48:16Z	2017-08-01T18:48:16Z	nodejs require cause memory leak	69		
+14570	9773803	false	closed	false	2		2017-08-01T17:53:35Z	2017-08-01T18:36:53Z	2017-08-01T18:01:47Z	Require from internal folder	96		
+14571	899444	true	open	false	0	0	2017-08-01T18:15:35Z	2017-08-01T18:15:35Z		[v8.x] zlib: fix interaction of flushing and needDrain	11		
