@@ -7997,7 +7997,7 @@
 14485	17607	true	open	false			2017-07-25T19:54:57Z	2017-08-01T02:07:13Z		doc: describe what security issues are	23		
 14486	10393198	true	closed	false	0		2017-07-25T21:10:49Z	2017-07-27T22:20:43Z	2017-07-27T22:20:43Z	doc: cross-link util.TextDecoder and intl.md	62		
 14487	11638619	false	open	false	8		2017-07-25T21:17:57Z	2017-07-26T19:02:06Z		util.inspect is slow for large sparse arrays	65		
-14488	718899	true	open	false	0		2017-07-25T21:24:37Z	2017-07-26T02:20:34Z		test: add known-issue test for issue 14441	35		
+14488	718899	true	closed	false	1		2017-07-25T21:24:37Z	2017-08-01T17:04:26Z	2017-08-01T17:04:26Z	test: add known-issue test for issue 14441	35		
 14489	1538624	true	open	false			2017-07-26T01:08:29Z	2017-08-01T11:13:54Z		Fix building without ICU	43		
 14490	1538624	false	open	false	3		2017-07-26T01:24:32Z	2017-07-28T09:09:10Z		C++ linter is not run on src/*/*	93		
 14491	8822573	true	closed	false	7		2017-07-26T02:04:09Z	2017-08-01T11:57:57Z	2017-08-01T11:57:57Z	assert: fix deepEqual inconsistencies	78		
@@ -8016,7 +8016,7 @@
 14504	765946	false	closed	false	1		2017-07-26T15:45:05Z	2017-07-26T17:07:17Z	2017-07-26T17:07:17Z	code ELIFECYCLE Exit status 1 at EventEmitter.<anonymous>	335		
 14505	718899	true	closed	false	1		2017-07-26T19:34:05Z	2017-07-29T05:07:32Z	2017-07-29T05:07:32Z	test: remove disabled tests directory	51		
 14506	20868551	true	closed	false	8		2017-07-26T21:53:28Z	2017-07-30T11:07:08Z	2017-07-30T11:07:08Z	test: fix error when foo in path to git clone	160		
-14507	718899	false	open	false	9		2017-07-26T22:42:02Z	2017-07-31T13:49:10Z		investigate flaky test-inspector-stop-profile-after-done on Windows	80		
+14507	718899	false	open	false	10		2017-07-26T22:42:02Z	2017-08-01T17:07:32Z		investigate flaky test-inspector-stop-profile-after-done on Windows	80		
 14508	718899	true	closed	false	5		2017-07-27T05:42:51Z	2017-07-29T02:40:32Z	2017-07-29T02:40:32Z	test: improve error logging for inspector test	53		
 14509	3927355	false	open	false	3		2017-07-27T07:21:27Z	2017-07-27T09:06:31Z		A fatal error of wasm with my own built node with v8 6.1.0	136		
 14510	26118718	true	closed	false	9		2017-07-27T12:30:10Z	2017-07-29T10:34:29Z	2017-07-29T10:34:29Z	"deps,profiler: parse Windows' ""%p"" in processor"	232		
@@ -8042,10 +8042,10 @@
 14530	2799308	false	open	false	2		2017-07-28T16:29:08Z	2017-07-28T22:28:08Z		stream.unpipe cannot be chained	96		
 14531	498775	true	closed	false	6		2017-07-28T17:24:19Z	2017-07-29T02:30:05Z	2017-07-28T20:25:01Z	test: remove --no-crankshaft	23		
 14532	158390	false	open	false	4		2017-07-28T17:56:07Z	2017-07-29T08:49:09Z		Criteria for n-api to exit experimental status	127		
-14533	14098340	true	open	false	6		2017-07-28T21:53:19Z	2017-08-01T16:02:01Z		build: fix build break when omitting icu	45		
-14534	718899	true	open	false			2017-07-29T04:35:53Z	2017-07-30T21:06:08Z		refactor test/sequential/test-fs-watch.js	52		
+14533	14098340	true	open	false	9		2017-07-28T21:53:19Z	2017-08-01T18:01:22Z		build: fix build break when omitting icu	45		
+14534	718899	true	closed	false	3		2017-07-29T04:35:53Z	2017-08-01T17:05:51Z	2017-08-01T17:05:51Z	refactor test/sequential/test-fs-watch.js	52		
 14535	1453344	false	open	false	9		2017-07-29T09:15:13Z	2017-07-30T10:02:31Z		Node 8.2 in Windows Container dns.lookup to kube-dns for CNAME fails during 15min	296		
-14536	718899	true	open	false	3		2017-07-29T16:07:07Z	2017-08-01T02:53:21Z		test: refactor test-vm-new-script-new-context	46		
+14536	718899	true	closed	false	4		2017-07-29T16:07:07Z	2017-08-01T17:11:11Z	2017-08-01T17:11:11Z	test: refactor test-vm-new-script-new-context	46		
 14537	291301	false	open	false	0		2017-07-29T16:38:09Z	2017-07-29T16:38:09Z		Distrust Symantec root certs in 10.0/11.0	320		
 14538	26118718	true	open	false	3		2017-07-29T17:03:21Z	2017-07-31T18:45:16Z		deps: cherry-pick 4229ca2 from V8 upstream	122		
 14539	4985201	false	closed	false	6		2017-07-29T22:49:47Z	2017-07-30T15:04:44Z	2017-07-30T15:04:44Z	Provide server address on Server#listening event.	164		
@@ -8061,21 +8061,22 @@
 14549	3109072	true	open	false	0	0	2017-07-31T00:18:57Z	2017-07-31T00:18:57Z		src: return MaybeLocal in AsyncWrap::MakeCallback	80		
 14550	19522557	false	closed	false	1		2017-07-31T00:50:17Z	2017-07-31T01:53:44Z	2017-07-31T00:59:24Z	When will node support ES module?	13		
 14551	18613046	false	closed	false	1		2017-07-31T05:45:36Z	2017-07-31T09:58:12Z	2017-07-31T09:58:12Z	requiring files, imports empty { } sometimes! 	61		
-14552	13093042	true	open	false	3		2017-07-31T06:43:34Z	2017-07-31T18:03:40Z		build,win: fix python detection script to handle spaces in path	59		
+14552	13093042	true	closed	false	4	0	2017-07-31T06:43:34Z	2017-08-01T17:57:03Z	2017-08-01T17:57:02Z	build,win: fix python detection script to handle spaces in path	59		
 14553	988441	false	open	false	7		2017-07-31T08:45:47Z	2017-07-31T18:47:29Z		Can't open hidden files in 'w' mode on Windows - document, fix, or do nothing?	232		
 14554	9773803	false	open	false	2		2017-07-31T13:34:30Z	2017-08-01T10:01:49Z		errors.js module	106		
 14555	1091422	false	open	false	5		2017-07-31T15:58:28Z	2017-08-01T08:56:59Z		Duplex stream support for separate readableHighWaterMark and writableHighWaterMark	149		
 14556	11139560	false	open	false	0		2017-07-31T17:31:13Z	2017-07-31T17:31:13Z		non-detached process fails to be killed by parent on exit	67		
 14557	96947	true	open	false			2017-07-31T18:25:27Z	2017-08-01T10:57:45Z		tools: bump vswhere helper to 1.15.5	39		
-14558	3729885	true	open	false			2017-07-31T22:50:25Z	2017-08-01T16:43:54Z		util: implement %o as formatting specifier	60		
+14558	3729885	true	open	false	5		2017-07-31T22:50:25Z	2017-08-01T17:10:14Z		util: implement %o as formatting specifier	60		
 14559	1087603	false	open	false	1		2017-07-31T23:48:05Z	2017-08-01T17:00:54Z		Objects not appearing in the heapdump	263		
 14560	2512748	true	open	false			2017-08-01T00:44:59Z	2017-08-01T15:35:48Z		dgram: add custom lookup function in sockets	63		
-14561	718899	true	open	false			2017-08-01T03:22:13Z	2017-08-01T08:09:03Z		tools: simplify no-unescaped-regexp-dot rule	55		
+14561	718899	true	open	false			2017-08-01T03:22:13Z	2017-08-01T17:14:33Z		tools: simplify no-unescaped-regexp-dot rule	55		
 14562	29828306	false	open	false	1		2017-08-01T05:56:42Z	2017-08-01T13:16:02Z		Node.js setup wizard ended prematurely	37		
 14563	8695033	false	closed	false	0		2017-08-01T06:38:56Z	2017-08-01T08:02:19Z	2017-08-01T08:02:19Z	settimeout again sending response if response sent already.	56		
-14564	110455	true	open	false	1		2017-08-01T07:11:51Z	2017-08-01T08:07:32Z		tls: prefer path over port in connect	59		
+14564	110455	true	open	false	2		2017-08-01T07:11:51Z	2017-08-01T17:10:37Z		tls: prefer path over port in connect	59		
 14565	3726238	false	open	false	0		2017-08-01T08:39:12Z	2017-08-01T09:38:28Z		npm WARN saveError Unknown system error -25: Unknown system error -25, fsync	83		
 14566	131406	true	open	false	0	0	2017-08-01T08:55:25Z	2017-08-01T08:55:25Z		test: use ciphers supported by shared openssl	14		
 14567	3374574	false	closed	false	11		2017-08-01T12:06:25Z	2017-08-01T14:15:02Z	2017-08-01T14:15:02Z	Segfault in v8.2.1	342		
 14568	96947	false	open	false	0		2017-08-01T12:15:23Z	2017-08-01T12:15:23Z		test: investigate - async-hooks/test-graph.signal	81		
 14569	12043917	false	open	false	0		2017-08-01T16:08:41Z	2017-08-01T16:08:41Z		nodejs require cause memory leak	69		
+14570	9773803	false	open	false	0		2017-08-01T17:53:35Z	2017-08-01T17:53:35Z		Require for internal folder	96		
