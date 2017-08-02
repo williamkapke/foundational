@@ -316,6 +316,7 @@
 4402	5358145	false	closed	false	4		2015-12-23T19:26:22Z	2016-08-29T22:31:11Z	2016-08-29T22:31:11Z	Bad readline behavior with line ending characters?	588		
 4415	327019	true	closed	false	13	2	2015-12-24T07:27:06Z	2017-03-24T23:36:38Z	2017-03-24T23:36:38Z	benchmark: add ops/sec for benchmark results	8		
 4417	133309	false	open	false	1		2015-12-24T16:37:49Z	2017-07-07T23:39:01Z		Socket writes fail silently after reconnecting	692		
+4419	607109	false	closed	false	13		2015-12-24T23:08:56Z	2017-08-02T10:16:41Z	2016-02-02T10:29:06Z	Bind an available port for debugging if the specified debug port is already bound	187		
 4427	718899	false	closed	false	46		2015-12-26T16:25:19Z	2017-07-31T13:28:34Z	2016-09-16T12:18:36Z	Investigate flaky test-tick-processor	5		
 4441	568962	false	closed	false	14		2015-12-27T21:25:23Z	2017-05-30T04:23:50Z	2017-05-30T04:23:50Z	Possible bug in handling of error when using ES6 constants and switch statement	1779		
 4462	16278428	false	closed	false	3		2015-12-29T06:49:08Z	2017-02-07T21:33:04Z	2017-02-07T21:33:04Z	Request: Make configure forwards compatible by putting parenties with prints	70		
@@ -8059,7 +8060,7 @@
 14546	8479806	true	closed	false	2		2017-07-30T20:47:20Z	2017-07-31T00:04:19Z	2017-07-31T00:04:19Z	linkedlist: correct grammar in comments	28		
 14547	718899	true	open	false	0		2017-07-30T20:52:39Z	2017-07-31T05:19:16Z		tools: replace assert-throw-arguments custom lint	37		
 14548	3109072	true	open	false	3		2017-07-30T23:00:08Z	2017-08-02T10:01:07Z		crypto: change segmentation faults to CHECKs	54		
-14549	3109072	true	open	false	0	0	2017-07-31T00:18:57Z	2017-07-31T00:18:57Z		src: return MaybeLocal in AsyncWrap::MakeCallback	80		
+14549	3109072	true	closed	false	1	0	2017-07-31T00:18:57Z	2017-08-02T10:07:36Z	2017-08-02T10:07:36Z	src: return MaybeLocal in AsyncWrap::MakeCallback	80		
 14550	19522557	false	closed	false	1		2017-07-31T00:50:17Z	2017-07-31T01:53:44Z	2017-07-31T00:59:24Z	When will node support ES module?	13		
 14551	18613046	false	closed	false	1		2017-07-31T05:45:36Z	2017-07-31T09:58:12Z	2017-07-31T09:58:12Z	requiring files, imports empty { } sometimes! 	61		
 14552	13093042	true	closed	false	4	0	2017-07-31T06:43:34Z	2017-08-01T17:57:03Z	2017-08-01T17:57:02Z	build,win: fix python detection script to handle spaces in path	59		
@@ -8084,7 +8085,7 @@
 14571	899444	true	closed	false	1		2017-08-01T18:15:35Z	2017-08-02T09:59:49Z	2017-08-02T09:59:49Z	[v8.x] zlib: fix interaction of flushing and needDrain	11		
 14572	1045195	false	open	false	0		2017-08-01T19:08:46Z	2017-08-01T19:08:46Z		"htop doesn't show memory spike, yet I get ""allocation failure -- GC in old space requested"""	581		
 14573	13093042	true	open	false	0	0	2017-08-01T20:05:30Z	2017-08-01T20:05:30Z		n-api: optimize number API performance	133		
-14574	498775	true	open	false	6		2017-08-01T20:26:25Z	2017-08-02T09:44:53Z		deps: update V8 to 6.0 8.x backport	19		
+14574	498775	true	closed	false	7		2017-08-01T20:26:25Z	2017-08-02T10:31:53Z	2017-08-02T10:31:53Z	deps: update V8 to 6.0 8.x backport	19		
 14575	718899	true	closed	false	0		2017-08-01T20:40:58Z	2017-08-01T22:29:27Z	2017-08-01T22:29:27Z	[v8.x backport] test: refactor test/sequential/test-fs-watch.js	79		
 14576	899444	true	closed	false	2	0	2017-08-01T20:55:15Z	2017-08-01T22:35:58Z	2017-08-01T22:35:58Z	doc,net: assign deprecation code	67		
 14577	287917	false	open	false	0		2017-08-01T21:24:52Z	2017-08-01T22:14:58Z		--inspector-brk does not stop in code passed with the -e flag	15		
@@ -8097,10 +8098,12 @@
 14584	3245485	false	open	false	0		2017-08-01T23:37:02Z	2017-08-01T23:37:02Z		Node.js - spawn is cutting off the results	188		
 14585	439929	true	closed	false	6		2017-08-01T23:40:13Z	2017-08-02T09:59:54Z	2017-08-02T09:59:54Z	[8.x] backport of util refactor and whatwg encoding	63		
 14586	96947	false	open	false	0		2017-08-01T23:51:34Z	2017-08-02T07:09:07Z		lint: wrap long lines that include RegExp when possible	96		
-14587	899444	true	open	false	0	0	2017-08-02T00:24:39Z	2017-08-02T00:24:39Z		src: use existing strings over creating new ones	32		
+14587	899444	true	open	false	1		2017-08-02T00:24:39Z	2017-08-02T10:10:22Z		src: use existing strings over creating new ones	32		
 14588	899444	true	open	false			2017-08-02T00:56:25Z	2017-08-02T09:39:17Z		child_process: fix handle passing with large payloads	69		
 14589	25171713	true	open	false	0	0	2017-08-02T01:17:43Z	2017-08-02T01:17:43Z		http	43		
 14590	866005	false	open	false	1		2017-08-02T02:02:13Z	2017-08-02T06:55:10Z		increase max old space size not working	630		
 14591	1538624	true	open	false	0	0	2017-08-02T02:40:59Z	2017-08-02T02:40:59Z		src: avoid dereference without existence check	123		
 14592	30519449	false	open	false	0		2017-08-02T06:44:57Z	2017-08-02T06:44:57Z		Error: spawn C:\Program Files\nodejs\node.exe ENOENT	59		
 14593	1828233	false	open	false	7		2017-08-02T06:53:53Z	2017-08-02T09:13:02Z		Passing empty environment variables to child processes convert to 'undefined' using ConEmu + Node 	358		
+14594	899444	true	open	false	0	0	2017-08-02T11:01:21Z	2017-08-02T11:01:21Z		v8.3.0 proposal	1638		
+14595	1270848	true	open	false	0	0	2017-08-02T11:01:59Z	2017-08-02T11:01:59Z		configure: fix type of arm_version	165		
