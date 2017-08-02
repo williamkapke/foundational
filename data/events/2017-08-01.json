@@ -1,10 +1,10 @@
 {
-  "words": 30309,
-  "comments": 384,
+  "words": 31181,
+  "comments": 395,
   "prs": {
-    "opened": 47,
-    "closed": 42,
-    "words": 30309,
+    "opened": 51,
+    "closed": 43,
+    "words": 31181,
     "reopened": null
   },
   "issues": {
@@ -168,6 +168,7 @@
       "13870": {"comments":4,"words":219,"pr":true},
       "13947": {"comments":1,"words":3,"pr":true},
       "13954": {"comments":5,"words":106,"pr":true,"closed":"","closer":"3109072"},
+      "14001": {"comments":1,"words":14,"pr":true},
       "14004": {"comments":3,"words":224,"pr":true,"closed":"2017-08-01T20:23:46Z","closer":"498775"},
       "14106": {"comments":2,"words":65,"pr":true,"closed":"2017-08-01T13:21:24Z","closer":"1538624"},
       "14171": {"comments":1,"words":66,"pr":true},
@@ -184,6 +185,7 @@
       "14423": {"comments":2,"words":47,"pr":true,"closed":"2017-08-01T12:28:22Z","closer":"3109072"},
       "14430": {"comments":1,"words":25,"pr":true},
       "14441": {"comments":0,"words":124,"closed":"2017-08-01T11:57:34Z","closer":"3109072","pr":true},
+      "14460": {"comments":1,"words":40,"pr":true},
       "14485": {"comments":2,"words":26,"pr":true},
       "14488": {"comments":1,"words":40,"pr":true,"closed":"2017-08-01T17:04:26Z","closer":"718899"},
       "14489": {"comments":8,"words":140,"pr":true},
@@ -225,14 +227,17 @@
       "14578": {"comments":5,"words":292,"pr":true,"opened":"2017-08-01T21:44:58Z","opener":"718899"},
       "14579": {"comments":0,"words":66,"pr":true,"opened":"2017-08-01T22:16:38Z","opener":"899444"},
       "14580": {"comments":0,"words":78,"pr":true,"opened":"2017-08-01T22:23:53Z","opener":"899444"},
-      "14581": {"comments":1,"words":117,"pr":true,"opened":"2017-08-01T22:34:14Z","opener":"287917"},
+      "14581": {"comments":3,"words":175,"pr":true,"opened":"2017-08-01T22:34:14Z","opener":"287917"},
       "14582": {"comments":2,"words":80,"pr":true,"opened":"2017-08-01T22:35:32Z","opener":"498775"},
       "14583": {"comments":1,"words":77,"pr":true,"opened":"2017-08-01T22:55:19Z","opener":"439929","closed":"","closer":"899444"},
+      "14584": {"comments":1,"words":436,"opened":"2017-08-01T23:37:02Z","opener":"3245485","pr":true,"closed":"","closer":"899444"},
+      "14585": {"comments":6,"words":168,"pr":true,"opened":"2017-08-01T23:40:13Z","opener":"439929"},
+      "14586": {"comments":0,"words":96,"opened":"2017-08-01T23:51:34Z","opener":"96947","pr":true},
       "open": 882,
-      "words": 20048,
-      "comments": 236,
-      "opened": 23,
-      "closed": 27
+      "words": 20860,
+      "comments": 247,
+      "opened": 26,
+      "closed": 28
     },
     "node-addon-api": {
       "90": {"comments":1,"words":58,"opened":"2017-08-01T10:21:53Z","opener":"52195","pr":true},
@@ -252,10 +257,11 @@
       "350": {"comments":0,"words":12,"closed":"2017-08-01T21:53:33Z","closer":"931192","pr":true},
       "351": {"comments":2,"words":78,"pr":true,"closed":"2017-08-01T21:53:33Z","closer":"931192"},
       "352": {"comments":3,"words":70,"pr":true,"opened":"2017-08-01T18:21:32Z","opener":"14098340","closed":"","closer":"14098340"},
+      "353": {"comments":0,"words":60,"opened":"2017-08-01T23:09:34Z","opener":"931192","pr":true},
       "open": 47,
-      "words": 160,
+      "words": 220,
       "comments": 5,
-      "opened": 1,
+      "opened": 2,
       "closed": 3
     },
     "node-convergence-archive": {"open":5},
@@ -520,13 +526,15 @@
         "node/pulls/14577#319512619": 20,
         "node/pulls/14578#319513414": 19,
         "node/pulls/14578#319515276": 42,
-        "node/pulls/14578#319518911": 12
+        "node/pulls/14578#319518911": 12,
+        "node/issues/14586": 96
       },
       "closed": [
         "build/issues/817"
       ],
       "opened": [
-        "node/issues/14568"
+        "node/issues/14568",
+        "node/issues/14586"
       ]
     },
     "101553": {
@@ -676,7 +684,9 @@
         "node/issues/14577": 15,
         "node/pulls/14577#319515740": 23,
         "node/pulls/14581": 47,
-        "node/pulls/14581#319516775": 70
+        "node/pulls/14581#319516775": 70,
+        "node/pulls/14581#130755625": 45,
+        "node/pulls/14460#130756022": 40
       },
       "opened": [
         "node/issues/14577",
@@ -734,10 +744,15 @@
         "node-addon-api/pulls/92#319417492": 38,
         "node/pulls/14578#319514249": 13,
         "node/pulls/14583": 37,
-        "node/pulls/13803#319520742": 17
+        "node/pulls/13803#319520742": 17,
+        "node/pulls/14585": 63,
+        "node/pulls/14585#319526951": 2,
+        "node/pulls/14585#319528243": 27,
+        "node/pulls/14585#319528444": 8
       },
       "opened": [
-        "node/pulls/14583"
+        "node/pulls/14583",
+        "node/pulls/14585"
       ],
       "closed": [
         "node/pulls/14583"
@@ -959,7 +974,12 @@
         "node/pulls/14580": 78,
         "node/pulls/14575#319515290": 4,
         "node/pulls/14576#319516462": 3,
-        "node/pulls/14583#319520784": 3
+        "node/pulls/14583#319520784": 3,
+        "node/pulls/14581#130751137": 13,
+        "node/pulls/14584#319526982": 60,
+        "node/pulls/14585#319527853": 21,
+        "node/pulls/14585#319528046": 33,
+        "node/pulls/14585#319528330": 14
       },
       "closed": [
         "node/pulls/14518",
@@ -980,11 +1000,15 @@
         "node-chakracore/pulls/351#319235080": 13,
         "node/pulls/14533#319427691": 49,
         "node-chakracore/issues/350": 12,
-        "node-chakracore/pulls/351": 63
+        "node-chakracore/pulls/351": 63,
+        "node-chakracore/issues/353": 60
       },
       "closed": [
         "node-chakracore/issues/350",
         "node-chakracore/pulls/351"
+      ],
+      "opened": [
+        "node-chakracore/issues/353"
       ]
     },
     "988441": {
@@ -1085,7 +1109,8 @@
       "id": "1485909",
       "login": "matthewloring",
       "words": {
-        "node/pulls/14497#130661766": 33
+        "node/pulls/14497#130661766": 33,
+        "node/pulls/14001#319523203": 14
       }
     },
     "1538624": {
@@ -1221,6 +1246,19 @@
         "help/pulls/769#319376976": 253,
         "node/pulls/13954#319411263": 5
       }
+    },
+    "3245485": {
+      "id": "3245485",
+      "login": "abolinhas",
+      "words": {
+        "node/issues/14584": 188
+      },
+      "opened": [
+        "node/issues/14584"
+      ],
+      "closed": [
+        "node/issues/14584"
+      ]
     },
     "3374574": {
       "id": "3374574",
