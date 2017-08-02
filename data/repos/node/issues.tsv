@@ -54,7 +54,7 @@
 1374	10247	false	closed	false	16		2015-04-08T13:46:19Z	2016-10-21T07:20:28Z	2015-09-03T06:13:19Z	Fatal Error (Abort) creating string larger than 268435440 bytes	93		
 1462	238531	false	closed	false	27		2015-04-18T08:08:35Z	2017-05-30T04:08:39Z	2017-05-30T04:08:39Z	Removing `newSession`/`resumeSession`	83		
 1495	902041	false	open	false	31		2015-04-21T23:54:21Z	2017-05-30T14:08:51Z		TLS Module: The default ecdhCurve, prime256v1 (aka NIST P-256) is not safe.	64		
-1540	289174	true	closed	false	20		2015-04-27T21:24:24Z	2017-08-01T21:29:32Z	2015-06-02T19:33:04Z	core: implement hrtimefp()	47		
+1540	289174	true	closed	false	22		2015-04-27T21:24:24Z	2017-08-02T15:09:17Z	2015-06-02T19:33:04Z	core: implement hrtimefp()	47		
 1546	8521799	false	closed	false	16		2015-04-28T07:23:52Z	2017-07-09T03:20:58Z	2017-07-09T03:20:58Z	feature request: built-in support for serialport	0		
 1568	1848357	true	closed	false	33		2015-04-30T18:13:47Z	2017-02-22T01:02:32Z	2017-02-22T01:02:32Z	core: implement resourceUsage()	79		
 1592	617235	false	closed	false	206		2015-05-02T19:25:40Z	2016-10-05T19:11:59Z	2016-10-05T19:11:59Z	gripe: deprecating fs.exists/existsSync	202		
@@ -6191,7 +6191,7 @@
 12675	439929	false	open	false	0		2017-04-26T18:00:59Z	2017-04-26T18:15:58Z		console: console exposing non-implemented methods	149		
 12676	7408689	true	closed	false	4		2017-04-26T18:11:58Z	2017-06-18T22:47:34Z	2017-04-29T20:10:22Z	v8: fix gcc 7 build errors	60		
 12677	17607	true	open	false	10		2017-04-26T19:01:27Z	2017-07-24T17:39:04Z		(v6.x backport) src: allow CLI args in env with NODE_OPTIONS	143		
-12678	439929	true	open	false	31		2017-04-26T19:46:40Z	2017-07-31T16:50:07Z		console: add console.count() and console.clear()	54		
+12678	439929	true	closed	false	32		2017-04-26T19:46:40Z	2017-08-02T15:48:36Z	2017-08-02T15:48:36Z	console: add console.count() and console.clear()	54		
 12679	9373002	true	closed	false	1		2017-04-26T21:54:33Z	2017-04-28T18:07:31Z	2017-04-28T18:07:31Z	doc: clarify arch support for power platforms	111		
 12680	10393198	false	open	false	0		2017-04-26T22:59:48Z	2017-04-26T23:13:07Z		meta: beware rebase / pull / update / merge on case insensitive OS after #12643	44		
 12681	439929	true	closed	false	4	11	2017-04-26T23:50:17Z	2017-04-28T21:31:43Z	2017-04-28T21:31:43Z	v8: refactor the v8 module	53		
@@ -7844,7 +7844,7 @@
 14330	52195	true	open	false	4		2017-07-17T17:41:33Z	2017-07-19T12:11:10Z		zlib: check if the stream is destroyed before push	59		
 14331	15952	true	open	false	4		2017-07-17T18:19:34Z	2017-07-31T19:17:09Z		repl: remove REPLServer.createContext side effects	62		
 14332	439929	true	open	false			2017-07-17T22:37:03Z	2017-07-26T11:20:27Z		test: begin normalizing fixtures use	129		
-14333	156269	true	open	false	2		2017-07-18T03:09:16Z	2017-07-25T02:35:43Z		http: don't double-fire the req error event	51		
+14333	156269	true	open	false	4		2017-07-18T03:09:16Z	2017-08-02T15:52:24Z		http: don't double-fire the req error event	51		
 14334	3332246	true	closed	false	2		2017-07-18T03:44:25Z	2017-07-21T14:05:21Z	2017-07-21T14:05:21Z	test: delete obsolete test-sendfd.js	123		
 14335	19971510	false	open	false	1		2017-07-18T04:11:15Z	2017-07-18T06:13:11Z		v8::internal::JSReceiver::DefineOwnProperty  exception cause a crash	216		
 14336	1538624	false	open	false	6		2017-07-18T05:30:15Z	2017-07-24T18:12:08Z		Investigate non-ASCII build file path under macOS	38		
@@ -7969,9 +7969,9 @@
 14455	439929	true	open	false			2017-07-24T18:56:45Z	2017-07-24T22:03:21Z		test: improve zlib tests	38		
 14456	4046874	false	closed	false	2		2017-07-24T19:00:02Z	2017-07-24T22:23:00Z	2017-07-24T22:23:00Z	Node 8 crashes when trying to connect to WebSocket with hapijs/nes : c:\ws\src\env-inl.h:131: Assertion `(trigger_id) >= (0)' failed	232		
 14457	4553695	false	closed	false	1		2017-07-24T19:16:32Z	2017-07-25T08:40:50Z	2017-07-25T08:40:50Z	Startup time 5 times slower with node 8.1.4	47		
-14458	439929	true	open	false	8		2017-07-24T19:29:51Z	2017-08-02T00:29:48Z		test: general improvements to vm tests	37		
+14458	439929	true	open	false	10		2017-07-24T19:29:51Z	2017-08-02T15:58:19Z		test: general improvements to vm tests	37		
 14459	899444	true	closed	false	1	5	2017-07-24T21:01:39Z	2017-07-27T21:25:10Z	2017-07-27T21:25:10Z	[v8.x] test: bump test/common to master	51		
-14460	287917	true	open	false			2017-07-24T21:56:52Z	2017-08-02T01:00:13Z		test: rewrite inspector test helper	92		
+14460	287917	true	open	false			2017-07-24T21:56:52Z	2017-08-02T15:25:47Z		test: rewrite inspector test helper	92		
 14461	14098340	false	closed	false	1		2017-07-24T22:18:27Z	2017-07-27T15:16:42Z	2017-07-27T15:16:42Z	Are asserts intentionally left compiled in?	86		
 14462	5110855	false	open	false	0		2017-07-24T22:20:36Z	2017-07-24T22:20:36Z		HTTP/2 PUSH frames empty with spdy	174		
 14463	287917	true	closed	false	2		2017-07-24T23:02:51Z	2017-07-27T01:33:26Z	2017-07-26T19:16:49Z	inspector: send messages after the Node is done	44		
@@ -8069,9 +8069,9 @@
 14555	1091422	false	open	false	6		2017-07-31T15:58:28Z	2017-08-02T09:56:00Z		Duplex stream support for separate readableHighWaterMark and writableHighWaterMark	149		
 14556	11139560	false	open	false	0		2017-07-31T17:31:13Z	2017-07-31T17:31:13Z		non-detached process fails to be killed by parent on exit	67		
 14557	96947	true	open	false			2017-07-31T18:25:27Z	2017-08-01T10:57:45Z		tools: bump vswhere helper to 1.15.5	39		
-14558	3729885	true	open	false	19		2017-07-31T22:50:25Z	2017-08-02T14:44:08Z		util: implement %o as formatting specifier	60		
+14558	3729885	true	open	false	21		2017-07-31T22:50:25Z	2017-08-02T15:05:59Z		util: implement %o as formatting specifier	60		
 14559	1087603	false	open	false	4		2017-07-31T23:48:05Z	2017-08-01T21:24:57Z		Objects not appearing in the heapdump	263		
-14560	2512748	true	open	false			2017-08-01T00:44:59Z	2017-08-01T15:35:48Z		dgram: add custom lookup function in sockets	63		
+14560	2512748	true	open	false	2		2017-08-01T00:44:59Z	2017-08-02T15:56:26Z		dgram: add custom lookup function in sockets	63		
 14561	718899	true	open	false			2017-08-01T03:22:13Z	2017-08-01T17:14:33Z		tools: simplify no-unescaped-regexp-dot rule	55		
 14562	29828306	false	open	false	1		2017-08-01T05:56:42Z	2017-08-01T13:16:02Z		Node.js setup wizard ended prematurely	37		
 14563	8695033	false	closed	false	0		2017-08-01T06:38:56Z	2017-08-01T08:02:19Z	2017-08-01T08:02:19Z	settimeout again sending response if response sent already.	56		
@@ -8093,7 +8093,7 @@
 14579	899444	true	open	false			2017-08-01T22:16:38Z	2017-08-02T09:35:03Z		src: use proper errors as coming from StringBytes	66		
 14580	899444	true	open	false			2017-08-01T22:23:53Z	2017-08-02T06:09:49Z		console,test: make message test more accurate	78		
 14581	287917	true	open	false			2017-08-01T22:34:14Z	2017-08-01T23:07:11Z		inspector: break in eval scripto	47		
-14582	498775	true	open	false	3		2017-08-01T22:35:32Z	2017-08-02T14:56:02Z		Three missing V8 6.0 patches	58		
+14582	498775	true	open	false	4		2017-08-01T22:35:32Z	2017-08-02T15:29:20Z		missing V8 6.0 patch	58		
 14583	439929	true	open	false	0	0	2017-08-01T22:55:19Z	2017-08-01T22:55:19Z		[8.x] Backport http test improvements	37		
 14584	3245485	false	open	false	0		2017-08-01T23:37:02Z	2017-08-01T23:37:02Z		Node.js - spawn is cutting off the results	188		
 14585	439929	true	closed	false	6		2017-08-01T23:40:13Z	2017-08-02T09:59:54Z	2017-08-02T09:59:54Z	[8.x] backport of util refactor and whatwg encoding	63		
@@ -8107,5 +8107,5 @@
 14593	1828233	false	open	false	19		2017-08-02T06:53:53Z	2017-08-02T14:37:56Z		Passing empty environment variables to child processes convert to 'undefined' using ConEmu + Node 	358		
 14594	899444	true	open	false	2		2017-08-02T11:01:21Z	2017-08-02T14:57:39Z		v8.3.0 proposal	1638		
 14595	1270848	true	open	false	0	0	2017-08-02T11:01:59Z	2017-08-02T11:01:59Z		configure: fix type of arm_version	165		
-14596	17704638	true	open	false			2017-08-02T13:30:09Z	2017-08-02T14:07:47Z		test: read proper inspector message size	46		
-14597	26118718	true	open	false	0	0	2017-08-02T14:49:17Z	2017-08-02T14:49:17Z		gyp: show descriptive Windows SDK detection error	154		
+14596	17704638	true	open	false			2017-08-02T13:30:09Z	2017-08-02T15:43:42Z		test: read proper inspector message size	46		
+14597	26118718	true	open	false	1		2017-08-02T14:49:17Z	2017-08-02T15:04:28Z		gyp: show descriptive Windows SDK detection error	154		
